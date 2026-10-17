@@ -6892,10 +6892,17 @@ function submitGatewayAccess() {
   }
 
   // Trường hợp đặc biệt dành cho Giáo viên (PTMN / GV)
-  const isTeacher = nameInput.toUpperCase() === 'PTMN' || classInput === 'GV';
+  const normName = nameInput.toUpperCase();
+  const isTeacher = (normName === 'PTMN' && (classInput === 'GV' || !classInput)) || (normName === 'PTMN' && classInput === 'GV');
   if (isTeacher) {
-    classInput = classInput || 'GV';
+    if (!classInput) classInput = 'GV';
   } else {
+    if (classInput === 'GV') {
+      errorEl.textContent = 'Mã lớp GV chỉ dành riêng cho tài khoản Giáo viên (PTMN)!';
+      errorEl.style.display = 'block';
+      return;
+    }
+
     if (!classInput) {
       errorEl.textContent = 'Vui lòng nhập Lớp học!';
       errorEl.style.display = 'block';
