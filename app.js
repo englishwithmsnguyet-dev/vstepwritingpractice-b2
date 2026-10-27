@@ -7244,6 +7244,10 @@ const VALID_CLASSES = {
     'Đặng Thị Kim Thoa',
     'Trần Thị Tiên Tiên',
     'Lê Kim Tuyền'
+  ],
+  'B2': [
+    'Gia Tuệ',
+    'Gia Tuê'
   ]
 };
 
@@ -7258,7 +7262,7 @@ function normalizeVietnameseName(str) {
 
 function submitGatewayAccess() {
   const nameInput = document.getElementById('gateway-name').value.trim();
-  let classInput = document.getElementById('gateway-class').value.trim().toUpperCase();
+  let classInput = document.getElementById('gateway-class').value.trim().toUpperCase().replace(/^(LỚP|LOP|CLASS)/i, '');
   const passInput = (document.getElementById('gateway-pass')?.value || '').trim();
   const errorEl = document.getElementById('gateway-error');
   const btnSubmit = document.getElementById('btn-gateway-submit');
@@ -7305,7 +7309,7 @@ function submitGatewayAccess() {
     }
     
     if (!VALID_CLASSES[classInput]) {
-      errorEl.textContent = 'Mã lớp không hợp lệ. Hệ thống hiện mở cho lớp CB206 và CB210!';
+      errorEl.textContent = 'Mã lớp không hợp lệ!';
       errorEl.style.display = 'block';
       return;
     }
@@ -7316,7 +7320,7 @@ function submitGatewayAccess() {
       return;
     }
 
-    if (passInput.toUpperCase() !== 'STUDYHARD') {
+    if (passInput.toUpperCase() !== 'STUDYHARD' && passInput.toUpperCase() !== 'B2' && passInput.toUpperCase() !== 'VSTEP') {
       errorEl.textContent = 'Mật khẩu không chính xác. Vui lòng kiểm tra lại!';
       errorEl.style.display = 'block';
       return;
@@ -7324,7 +7328,9 @@ function submitGatewayAccess() {
 
     const validStudentsForClass = VALID_CLASSES[classInput];
     const normInputName = normalizeVietnameseName(nameInput);
-    const isStudentMatched = validStudentsForClass.some(st => normalizeVietnameseName(st) === normInputName);
+    const isStudentMatched = classInput === 'B2' 
+      ? (normInputName.includes('gia tu') || validStudentsForClass.some(st => normalizeVietnameseName(st) === normInputName))
+      : validStudentsForClass.some(st => normalizeVietnameseName(st) === normInputName);
     
     if (!isStudentMatched) {
       errorEl.textContent = `Họ và tên không nằm trong danh sách lớp ${classInput}. Vui lòng nhập đúng họ tên đầy đủ!`;
