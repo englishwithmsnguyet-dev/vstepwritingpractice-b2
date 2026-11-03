@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHÒNG VIẾT LUẬN - B2 LEVEL - VSTEP WRITING TASK 02</title>
+  <title>LUYỆN TẬP VIẾT LUẬN - VSTEP WRITING TASK 02</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=87">
+  <link rel="stylesheet" href="styles.css?v=88">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <aside class="sidebar">
       <div class="brand">
         <div class="brand-icon">E</div>
-        <span class="brand-name">PHÒNG VIẾT LUẬN - B2 LEVEL</span>
+        <span class="brand-name">ESSAY MASTER</span>
       </div>
 
       <nav class="nav-menu">
@@ -124,7 +124,7 @@
       <section id="screen-dashboard" class="screen active">
         <div class="welcome-banner">
           <div class="welcome-text">
-            <h2>Luyện Viết Luận VSTEP B2 Level</h2>
+            <h2>Luyện Viết Luận VSTEP B1/B2</h2>
             <p>Chào mừng bạn đến với <strong>BÌNH NGUYÊN LUYỆN VIẾT VÔ TẬN</strong> của <strong>Miss Nguyet</strong>. Hãy dành thời gian luyện viết mỗi ngày để <strong>KỸ NĂNG VIẾT KHÔNG CÒN LÀ NỖI SỢ QUÁ LỚN</strong> nhé!</p>
           </div>
           <div class="welcome-graphic">
@@ -225,7 +225,7 @@
                   <div class="guide-step-num">4</div>
                   <div class="guide-step-content">
                     <h4>BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</h4>
-                    <p>Tham khảo bài viết mẫu đạt chuẩn B2 kèm dịch nghĩa song ngữ để đối chiếu, học hỏi cách diễn đạt và hoàn thiện bài viết của mình.</p>
+                    <p>Tham khảo bài viết mẫu đạt chuẩn B1 & B2 kèm dịch nghĩa song ngữ để đối chiếu, học hỏi cách diễn đạt và hoàn thiện bài viết của mình.</p>
                   </div>
                 </div>
               </div>
@@ -340,7 +340,8 @@
             <div id="workspace-step2-container" class="workspace-step-content" style="overflow-y: auto;">
               <div class="editor-header">
                 <div class="outline-level-selector" style="margin-bottom: 0;">
-                  <div class="level-pill active" id="ws-trans-level-b2" style="cursor: default; pointer-events: none;">📕 LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B2</div>
+                  <div class="level-pill active" id="ws-trans-level-b1" onclick="switchTransLevel('B1')">LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B1</div>
+                  <div class="level-pill" id="ws-trans-level-b2" onclick="switchTransLevel('B2')">LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B2</div>
                 </div>
                 <div style="display: flex; gap: 0.5rem; align-items: center;">
                   <button class="btn btn-secondary" id="btn-view-vocab-step" style="display: none; border-color: var(--accent-primary); color: var(--accent-primary); font-weight: 600;" onclick="switchStep('vocab')">📖 NẠP TỪ VỰNG CHUYÊN SÂU</button>
@@ -417,7 +418,8 @@
             <div id="workspace-step4-container" class="workspace-step-content" style="overflow-y: auto;">
               <div class="editor-header">
                 <div class="outline-level-selector" style="margin-bottom: 0;">
-                  <div class="level-pill active" id="ws-model-level-b2" style="cursor: default; pointer-events: none;">📕 BÀI LUẬN MẪU B2</div>
+                  <div class="level-pill active" id="ws-model-level-b1" onclick="switchModelEssayLevel('B1')">BÀI LUẬN MẪU B1</div>
+                  <div class="level-pill" id="ws-model-level-b2" onclick="switchModelEssayLevel('B2')">BÀI LUẬN MẪU B2</div>
                 </div>
                 <button class="btn btn-secondary" onclick="openComparisonModal()">So sánh bài viết</button>
               </div>
@@ -470,7 +472,8 @@
               <!-- Model Essays Sample Toggle -->
               <div id="analysis-sec-model" class="analysis-section">
                 <div class="sample-essay-selector">
-                  <div class="sample-pill active" id="ws-sample-b2-pill" style="cursor: default; pointer-events: none; width: 100%;">📕 Bài mẫu B2</div>
+                  <div class="sample-pill active" id="ws-sample-b1-pill" onclick="switchSampleLevel('B1')">Bài mẫu B1</div>
+                  <div class="sample-pill" id="ws-sample-b2-pill" onclick="switchSampleLevel('B2')">Bài mẫu B2</div>
                 </div>
                 <div class="sample-essay-text" id="ws-sample-essay-text">
                   (Đang tải bài mẫu...)
@@ -548,7 +551,7 @@
             <div class="comparison-text" id="compare-user-text"></div>
           </div>
           <div class="comparison-box">
-            <h5 id="compare-model-header">Bài giải mẫu B2</h5>
+            <h5 id="compare-model-header">Bài giải mẫu B1</h5>
             <div class="comparison-text" id="compare-model-text"></div>
           </div>
         </div>
@@ -638,8 +641,8 @@
   <div id="toast-container"></div>
 
   <!-- Loaded global topic data -->
-  <script src="topics_db.js?v=87"></script>
+  <script src="topics_db.js?v=88"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=87"></script>
+  <script src="app.js?v=88"></script>
 </body>
 </html>
