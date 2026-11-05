@@ -36,10 +36,10 @@ function openActiveMindmapModal() {
 let currentScreen = 'dashboard';
 let currentCategory = null;
 let currentTopic = null;
-let currentOutlineLevel = 'B1';
-let currentSampleLevel = 'B1';
-let currentTransLevel = 'B1'; // active level for translation exercises
-let currentVocabLevel = 'B1'; // active level for vocabulary booster step
+let currentOutlineLevel = 'B2';
+let currentSampleLevel = 'B2';
+let currentTransLevel = 'B2'; // active level for translation exercises
+let currentVocabLevel = 'B2'; // active level for vocabulary booster step
 let currentStep = 1; // 1: Reading, 2: Translation Practice, 3: Full Essay Editor, 4: Model Essay Reference
 let hasSubmitted = false; // Tracks if the essay has been submitted for grading
 let currentPage = 1;
@@ -188,7 +188,7 @@ function switchScreen(screenName) {
     document.getElementById('global-search-container').style.display = 'none';
     renderDrafts();
   } else if (screenName === 'workspace') {
-    document.getElementById('page-header-title').innerText = 'Phòng luyện viết luận';
+    document.getElementById('page-header-title').innerText = 'Phòng luyện viết luận - B2 Level';
     document.getElementById('global-search-container').style.display = 'none';
     isDirty = false;
   }
@@ -706,10 +706,10 @@ function startPractice(catId, topicId) {
     if (topic.approaches[0].tags) topic.tags = topic.approaches[0].tags;
     if (topic.approaches[0].paraphrases) topic.paraphrases = topic.approaches[0].paraphrases;
   }
-  currentOutlineLevel = 'B1';
-  currentTransLevel = 'B1'; // reset translation exercises level to B1
-  currentVocabLevel = 'B1'; // reset vocabulary booster level to B1
-  currentSampleLevel = 'B1';
+  currentOutlineLevel = 'B2';
+  currentTransLevel = 'B2'; // reset translation exercises level to B2
+  currentVocabLevel = 'B2'; // reset vocabulary booster level to B2
+  currentSampleLevel = 'B2';
   
   // Switch to Workspace view state
   switchScreen('workspace');
@@ -826,15 +826,15 @@ function startPractice(catId, topicId) {
   // Set translation level selectors safely
   const transB1 = document.getElementById('ws-trans-level-b1');
   const transB2 = document.getElementById('ws-trans-level-b2');
-  if (transB1) transB1.classList.add('active');
-  if (transB2) transB2.classList.remove('active');
+  if (transB1) transB1.classList.remove('active');
+  if (transB2) transB2.classList.add('active');
   
   // Set model essay level selectors safely
   const modelB1 = document.getElementById('ws-model-level-b1');
   const modelB2 = document.getElementById('ws-model-level-b2');
-  if (modelB1) modelB1.classList.add('active');
-  if (modelB2) modelB2.classList.remove('active');
-  currentSampleLevel = 'B1';
+  if (modelB1) modelB1.classList.remove('active');
+  if (modelB2) modelB2.classList.add('active');
+  currentSampleLevel = 'B2';
   
   // Render approach switcher if topic has multiple approaches
   renderWorkspaceApproachSwitcher();
@@ -1104,7 +1104,7 @@ function filterVocabCategory(catId) {
 }
 
 function switchVocabLevel(level) {
-  currentVocabLevel = level;
+  currentVocabLevel = 'B2';
   currentVocabFilter = 'all';
   renderStepVocab();
 }
@@ -1494,16 +1494,10 @@ function renderStepVocab() {
       ${vData.overview ? `<p>${vData.overview}</p>` : ''}
     </div>
     
-    <!-- LEVEL SELECTOR: Tách riêng B1 và B2 rõ ràng -->
-    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px;">
-      <div class="level-pill ${currentVocabLevel === 'B1' ? 'active' : ''}" onclick="switchVocabLevel('B1')">
-        📘 TỪ VỰNG CẤP ĐỘ B1 (DỄ HỌC - VỪA SỨC)
-      </div>
-      <div class="level-pill ${currentVocabLevel === 'B2' ? 'active' : ''}" onclick="switchVocabLevel('B2')">
+    <!-- LEVEL SELECTOR: Cố định B2 -->
+    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px; justify-content: center;">
+      <div class="level-pill active" style="pointer-events: none; width: 100%;">
         📕 TỪ VỰNG CẤP ĐỘ B2 (HỌC THUẬT - NÂNG CAO)
-      </div>
-      <div class="level-pill ${currentVocabLevel === 'all' ? 'active' : ''}" onclick="switchVocabLevel('all')">
-        🌟 TẤT CẢ (B1 & B2)
       </div>
     </div>
     
@@ -1536,12 +1530,16 @@ function renderStepVocab() {
 
 // Switch between B1 and B2 level outlines for Step 1 Translation Exercises
 function switchTransLevel(level) {
+  level = 'B2';
   currentTransLevel = level;
   currentVocabLevel = level;
   
-  document.getElementById('ws-trans-level-b1').classList.remove('active');
-  document.getElementById('ws-trans-level-b2').classList.remove('active');
-  document.getElementById(`ws-trans-level-${level.toLowerCase()}`).classList.add('active');
+  const b1El = document.getElementById('ws-trans-level-b1');
+  const b2El = document.getElementById('ws-trans-level-b2');
+  const targetEl = document.getElementById(`ws-trans-level-${level.toLowerCase()}`);
+  if (b1El) b1El.classList.remove('active');
+  if (b2El) b2El.classList.remove('active');
+  if (targetEl) targetEl.classList.add('active');
   
   renderTranslationExercises();
 }
@@ -1769,8 +1767,9 @@ function toggleIdeaSelection(groupType, index) {
 
 function renderIdeaSelectionComponent(topic) {
   if (!topic || !topic.has_full_details || !topic.details || !hasSelectableIdeas(topic)) return '';
-  const bItems = topic.details.ideas_b1.benefits || [];
-  const dItems = topic.details.ideas_b1.drawbacks || [];
+  const b2IdeasObj = topic.details.ideas_b2 || topic.details.ideas_b1;
+  const bItems = b2IdeasObj.benefits || [];
+  const dItems = b2IdeasObj.drawbacks || [];
   const selB = getSelectedIdeaIndices(topic, 'benefits');
   const selD = getSelectedIdeaIndices(topic, 'drawbacks');
 
@@ -4042,6 +4041,7 @@ function toggleAccordion(id) {
 
 // Switch outline level (B1 vs B2)
 function switchOutlineLevel(level) {
+  level = 'B2';
   currentOutlineLevel = level;
   currentVocabLevel = level;
   renderOutline();
@@ -4059,7 +4059,7 @@ function renderVietnameseOutline() {
     return;
   }
   
-  const ideasObj = topic.details.ideas_b1; // Default to B1 for simple Vietnamese hints
+  const ideasObj = topic.details.ideas_b2 || topic.details.ideas_b1; // Use B2 ideas
   if (!ideasObj) return;
 
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors || [];
@@ -5647,7 +5647,7 @@ function renderStep3VstepEvaluation(data) {
         </svg>Viết lại bài
       </button>
       <button class="btn btn-primary" style="padding: 0.65rem 1.5rem;" onclick="switchStep('model')">
-        Xem bài mẫu B1/B2 →
+        Xem bài mẫu B2 →
       </button>
     </div>
   `;
@@ -6234,6 +6234,7 @@ function renderSampleEssay() {
 }
 
 function switchSampleLevel(level) {
+  level = 'B2';
   currentSampleLevel = level;
   renderSampleEssay();
 }
@@ -6314,9 +6315,9 @@ function reviewSubmission(submissionId) {
   
   currentCategory = category;
   currentTopic = topic;
-  currentOutlineLevel = sub.outlineLevel || 'B1';
-  currentSampleLevel = sub.sampleLevel || 'B1';
-  currentTransLevel = sub.outlineLevel || 'B1';
+  currentOutlineLevel = 'B2';
+  currentSampleLevel = 'B2';
+  currentTransLevel = 'B2';
   
   // Switch to Workspace Screen
   switchScreen('workspace');
@@ -7052,11 +7053,12 @@ function renderStep1Reading() {
       outlineIntroText = 'Tóm tắt các luận điểm bạn ĐÃ CHỌN để chuẩn bị đưa vào bài viết:';
     }
 
-    const b1Benefits = (topic.details.ideas_b1.benefits || [])
+    const b2Ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
+    const b1Benefits = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || [])
       .filter((_, idx) => !isSelectable || selB.includes(idx))
       .map((b, idx) => formatPoint(b, defaultLabel1, idx))
       .join('');
-    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || [])
+    const b1Drawbacks = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || [])
       .filter((_, idx) => !isSelectable || selD.includes(idx))
       .map((d, idx) => formatPoint(d, defaultLabel2, idx))
       .join('');
@@ -7238,6 +7240,7 @@ function renderStep4ModelEssay() {
 
 // Function to switch level in Step 4
 function switchModelEssayLevel(level) {
+  level = 'B2';
   currentSampleLevel = level;
   
   const pillB1 = document.getElementById('ws-model-level-b1');
