@@ -4,7 +4,7 @@ const ESSAY_DATA = [
     "title": "Advantages & Disadvantages",
     "title_vi": "Lợi ích & Tác hại",
     "topics": [
-      {
+            {
         "title_en": "Online learning",
         "title_vi": "Học trực tuyến",
         "tags": "",
@@ -297,400 +297,520 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: TIẾT KIỆM THỜI GIAN VÀ CHI PHÍ",
+                "title": "LỢI ÍCH 01: LINH HOẠT VÀ TIỆN LỢI",
                 "collocations": [
                   {
-                    "en": "save time",
-                    "vi": "tiết kiệm thời gian"
+                    "en": "offer greater flexibility",
+                    "vi": "mang lại sự linh hoạt cao hơn"
                   },
                   {
-                    "en": "save money",
-                    "vi": "tiết kiệm tiền"
+                    "en": "study anytime and anywhere",
+                    "vi": "học mọi lúc mọi nơi"
                   },
                   {
-                    "en": "transportation costs",
-                    "vi": "chi phí đi lại"
+                    "en": "arrange study schedules",
+                    "vi": "sắp xếp lịch học"
                   },
                   {
-                    "en": "spend time on",
-                    "vi": "dành thời gian cho"
-                  },
-                  {
-                    "en": "travel to school",
-                    "vi": "đi đến trường"
-                  },
-                  {
-                    "en": "daily commute",
-                    "vi": "việc đi lại hằng ngày"
+                    "en": "personal responsibilities",
+                    "vi": "các trách nhiệm cá nhân"
                   }
                 ],
-                "point_vi": "Học trực tuyến giúp người học tiết kiệm thời gian và tiền bạc.",
-                "point_en": "Online learning helps learners save time and money.",
-                "evidence_vi": "Người học không cần phải đến trường mỗi ngày, vì vậy họ có thể giảm chi phí đi lại và dành nhiều thời gian hơn cho việc học hoặc các hoạt động khác.",
-                "evidence_en": "Learners do not need to travel to school every day, so they can reduce transportation costs and spend more time on studying or other activities."
+                "point_vi": "Học trực tuyến mang lại sự linh hoạt và tiện lợi vượt trội cho người học.",
+                "point_en": "Online learning offers greater flexibility and convenience for modern learners.",
+                "evidence_vi": "Người học có thể tham gia các khóa học mọi lúc, mọi nơi khi có thiết bị phù hợp và kết nối Internet ổn định. Nhờ đó, họ có thể dễ dàng sắp xếp lịch học phù hợp với các công việc và trách nhiệm cá nhân khác.",
+                "evidence_en": "Students can study anytime and anywhere as long as they have suitable devices and a stable Internet connection. As a result, they can arrange their study schedules around personal responsibilities more effectively."
               },
               {
-                "title": "LỢI ÍCH 02: SỰ LINH HOẠT VÀ TIỆN LỢI",
+                "title": "LỢI ÍCH 02: TIẾT KIỆM CHI PHÍ",
                 "collocations": [
                   {
-                    "en": "flexibility and convenience",
-                    "vi": "sự linh hoạt và tiện lợi"
+                    "en": "reduce educational expenses",
+                    "vi": "giảm chi phí giáo dục"
                   },
                   {
-                    "en": "attend classes",
-                    "vi": "tham gia lớp học"
+                    "en": "cheaper than traditional classes",
+                    "vi": "rẻ hơn các lớp học truyền thống"
                   },
                   {
-                    "en": "Internet connection",
-                    "vi": "kết nối Internet"
+                    "en": "save money on transportation",
+                    "vi": "tiết kiệm tiền đi lại"
                   },
                   {
-                    "en": "study from anywhere",
-                    "vi": "học ở bất cứ đâu"
-                  },
-                  {
-                    "en": "online lessons",
-                    "vi": "bài học trực tuyến"
-                  },
-                  {
-                    "en": "access materials",
-                    "vi": "tiếp cận tài liệu"
+                    "en": "accommodation costs",
+                    "vi": "chi phí chỗ ở/lưu trú"
                   }
                 ],
-                "point_vi": "Học trực tuyến mang lại sự linh hoạt và tiện lợi cho người học.",
-                "point_en": "Online learning offers flexibility and convenience to learners.",
-                "evidence_vi": "Người học có thể tham gia các lớp học ở bất cứ đâu chỉ cần có kết nối Internet.",
-                "evidence_en": "Learners can attend classes from anywhere as long as they have an Internet connection."
+                "point_vi": "Học trực tuyến giúp giảm thiểu các chi phí giáo dục đáng kể.",
+                "point_en": "Online learning helps reduce educational expenses significantly.",
+                "evidence_vi": "Học phí của các khóa học trực tuyến thường rẻ hơn đáng kể so với các lớp học truyền thống. Ngoài ra, người học có thể tiết kiệm một khoản tiền lớn cho chi phí đi lại và chi phí thuê chỗ ở.",
+                "evidence_en": "Online courses are often cheaper than traditional in-person classes. In addition, students can save a substantial amount of money on daily transportation and accommodation."
               },
               {
-                "title": "LỢI ÍCH 03: TỰ HỌC THEO TIẾN ĐỘ CÁ NHÂN",
+                "title": "LỢI ÍCH 03: TIẾP CẬN NHIỀU NGUỒN TÀI LIỆU",
                 "collocations": [
                   {
-                    "en": "study at one's own pace",
-                    "vi": "học theo tốc độ cá nhân"
+                    "en": "access a wider range of resources",
+                    "vi": "tiếp cận nguồn tài liệu phong phú hơn"
                   },
                   {
-                    "en": "watch lessons again",
-                    "vi": "xem lại bài giảng"
+                    "en": "online libraries and educational websites",
+                    "vi": "thư viện trực tuyến và website giáo dục"
                   },
                   {
-                    "en": "improve learning results",
-                    "vi": "cải thiện kết quả học tập"
+                    "en": "recorded lecture videos",
+                    "vi": "video bài giảng đã ghi hình"
                   },
                   {
-                    "en": "online lectures",
-                    "vi": "bài giảng trực tuyến"
-                  },
-                  {
-                    "en": "understand lessons",
-                    "vi": "hiểu bài học"
-                  },
-                  {
-                    "en": "independent learning",
-                    "vi": "tự học"
+                    "en": "learn from global experts",
+                    "vi": "học hỏi từ các chuyên gia toàn cầu"
                   }
                 ],
-                "point_vi": "Học trực tuyến cho phép người học học theo tốc độ của riêng mình.",
-                "point_en": "Online learning allows learners to study at their own pace.",
-                "evidence_vi": "Người học có thể xem lại bài giảng nhiều lần nếu chưa hiểu bài, từ đó cải thiện kết quả học tập.",
-                "evidence_en": "Learners can watch lessons again if they do not understand them, which helps improve their learning results."
+                "point_vi": "Học trực tuyến cung cấp quyền tiếp cận nguồn tài liệu học tập vô cùng phong phú.",
+                "point_en": "Online education provides access to a wider range of learning resources.",
+                "evidence_vi": "Người học có thể dễ dàng sử dụng các thư viện trực tuyến, trang web giáo dục và video bài giảng chất lượng cao. Bên cạnh đó, họ có cơ hội học hỏi trực tiếp từ các giảng viên giàu kinh nghiệm và chuyên gia trên khắp thế giới.",
+                "evidence_en": "Students can easily utilize online libraries, educational websites, and instructional videos. Furthermore, they have valuable opportunities to learn from experienced teachers and experts around the world."
+              },
+              {
+                "title": "LỢI ÍCH 04: HỌC THEO TỐC ĐỘ CỦA BẢN THÂN",
+                "collocations": [
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của riêng mình"
+                  },
+                  {
+                    "en": "pause or replay recorded lessons",
+                    "vi": "tạm dừng hoặc xem lại bài giảng ghi hình"
+                  },
+                  {
+                    "en": "whenever necessary",
+                    "vi": "bất cứ khi nào cần thiết"
+                  },
+                  {
+                    "en": "understand difficult concepts",
+                    "vi": "hiểu các khái niệm khó"
+                  }
+                ],
+                "point_vi": "Học trực tuyến cho phép người học tiến bộ theo tốc độ tiếp thu của riêng mình.",
+                "point_en": "Distance learning allows students to learn at their own pace.",
+                "evidence_vi": "Học viên có thể tạm dừng hoặc xem lại các bài giảng đã ghi hình bất cứ khi nào cần thiết. Nhờ đó, họ có thêm nhiều thời gian để suy ngẫm và hiểu sâu các khái niệm khó mà không cảm thấy áp lực.",
+                "evidence_en": "Learners can pause or replay recorded lessons whenever necessary. Consequently, they can spend more time understanding difficult concepts thoroughly without feeling pressured."
+              },
+              {
+                "title": "LỢI ÍCH 05: PHÁT TRIỂN KỸ NĂNG CÔNG NGHỆ",
+                "collocations": [
+                  {
+                    "en": "develop essential digital skills",
+                    "vi": "phát triển kỹ năng số thiết yếu"
+                  },
+                  {
+                    "en": "familiar with digital platforms",
+                    "vi": "làm quen với các nền tảng số"
+                  },
+                  {
+                    "en": "enhance computer literacy",
+                    "vi": "nâng cao trình độ tin học"
+                  },
+                  {
+                    "en": "useful for future careers",
+                    "vi": "hữu ích cho sự nghiệp tương lai"
+                  }
+                ],
+                "point_vi": "Học trực tuyến giúp người học phát triển các kỹ năng công nghệ số thiết yếu.",
+                "point_en": "E-learning helps develop essential digital skills for modern learners.",
+                "evidence_vi": "Người học nhanh chóng làm quen và sử dụng thành thạo nhiều nền tảng cùng các công cụ học tập kỹ thuật số. Điều này giúp nâng cao kỹ năng sử dụng máy tính, tạo lợi thế lớn cho con đường nghề nghiệp trong tương lai.",
+                "evidence_en": "Students become familiar with various digital platforms and software tools through online study. This significantly improves their computer skills, which are highly useful for their future careers."
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: THIẾU SỰ TƯƠNG TÁC TRỰC TIẾP",
+                "title": "BẤT LỢI 01: THIẾU TƯƠNG TÁC TRỰC TIẾP",
                 "collocations": [
                   {
-                    "en": "reduce interaction",
-                    "vi": "giảm sự tương tác"
+                    "en": "reduce face-to-face interaction",
+                    "vi": "giảm tương tác trực tiếp"
                   },
                   {
-                    "en": "face-to-face communication",
-                    "vi": "giao tiếp trực tiếp"
+                    "en": "communicate directly with peers",
+                    "vi": "giao tiếp trực tiếp với bạn bè"
                   },
                   {
-                    "en": "feel isolated",
-                    "vi": "cảm thấy cô lập"
+                    "en": "receive immediate feedback",
+                    "vi": "nhận phản hồi ngay lập tức"
                   },
                   {
-                    "en": "immediate support",
-                    "vi": "hỗ trợ ngay lập tức"
-                  },
-                  {
-                    "en": "classroom discussion",
-                    "vi": "thảo luận trên lớp"
-                  },
-                  {
-                    "en": "learning environment",
-                    "vi": "môi trường học tập"
+                    "en": "ask spontaneous questions",
+                    "vi": "đặt các câu hỏi phát sinh"
                   }
                 ],
-                "point_vi": "Học trực tuyến có thể làm giảm sự tương tác giữa giáo viên và học sinh.",
-                "point_en": "Online learning may reduce interaction between teachers and students.",
-                "evidence_vi": "Việc giao tiếp chủ yếu diễn ra qua màn hình, vì vậy người học có thể cảm thấy cô lập và khó nhận được sự hỗ trợ ngay lập tức.",
-                "evidence_en": "Communication mainly takes place through screens, so learners may feel isolated and find it difficult to receive immediate support."
+                "point_vi": "Học trực tuyến làm giảm đáng kể sự tương tác trực tiếp giữa người học và giáo viên.",
+                "point_en": "Online learning substantially reduces face-to-face interaction.",
+                "evidence_vi": "Học viên có ít cơ hội giao tiếp trực tiếp với thầy cô và bạn học trong lớp. Điều này khiến việc đặt câu hỏi thắc mắc và nhận phản hồi ngay lập tức trở nên khó khăn hơn.",
+                "evidence_en": "Students have fewer opportunities to communicate directly with teachers and classmates. As a result, it can be more difficult to ask questions and receive immediate feedback."
               },
               {
-                "title": "BẤT LỢI 02: DỄ BỊ XAO NHÃNG VÀ MẤT TẬP TRUNG",
+                "title": "BẤT LỢI 02: DỄ BỊ ẢNH HƯỞNG BỞI SỰ CỐ KỸ THUẬT",
                 "collocations": [
                   {
-                    "en": "stay focused",
-                    "vi": "duy trì sự tập trung"
+                    "en": "affected by technical problems",
+                    "vi": "bị ảnh hưởng bởi sự cố kỹ thuật"
                   },
                   {
-                    "en": "lose concentration",
-                    "vi": "mất tập trung"
+                    "en": "stable Internet connection",
+                    "vi": "kết nối Internet ổn định"
                   },
                   {
-                    "en": "social media",
-                    "vi": "mạng xã hội"
+                    "en": "compatible electronic devices",
+                    "vi": "thiết bị điện tử tương thích"
                   },
                   {
-                    "en": "mobile phones",
-                    "vi": "điện thoại di động"
-                  },
-                  {
-                    "en": "learning performance",
-                    "vi": "hiệu quả học tập"
-                  },
-                  {
-                    "en": "distracting factors",
-                    "vi": "các yếu tố gây xao nhãng"
+                    "en": "interrupt virtual lessons",
+                    "vi": "làm gián đoạn bài học ảo/trực tuyến"
                   }
                 ],
-                "point_vi": "Nhiều người học gặp khó khăn trong việc tập trung khi học trực tuyến.",
-                "point_en": "Many learners find it difficult to stay focused during online classes.",
-                "evidence_vi": "Có nhiều yếu tố gây xao nhãng tại nhà như điện thoại, mạng xã hội hoặc tiếng ồn xung quanh, điều này có thể ảnh hưởng đến việc học.",
-                "evidence_en": "There are many distractions at home such as mobile phones, social media, and surrounding noise, which can affect learning."
+                "point_vi": "Quá trình học trực tuyến dễ bị gián đoạn bởi các sự cố kỹ thuật và đường truyền mạng.",
+                "point_en": "Online classes can be negatively affected by technical problems.",
+                "evidence_vi": "Người học luôn cần có kết nối Internet ổn định và các thiết bị điện tử tương thích. Đường truyền mạng chập chờn có thể làm gián đoạn bài học và khiến người học gặp nhiều khó khăn khi theo dõi bài giảng.",
+                "evidence_en": "Students require a stable Internet connection and suitable electronic devices. Therefore, poor Internet connections may interrupt lessons and make it difficult to follow."
               },
               {
-                "title": "BẤT LỢI 03: PHỤ THUỘC VÀO CÔNG NGHỆ VÀ INTERNET",
+                "title": "BẤT LỢI 03: ĐÒI HỎI TÍNH KỶ LUẬT TỰ GIÁC CAO",
                 "collocations": [
                   {
-                    "en": "depend on technology",
-                    "vi": "phụ thuộc vào công nghệ"
+                    "en": "require a high level of self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao"
                   },
                   {
-                    "en": "Internet access",
-                    "vi": "truy cập Internet"
+                    "en": "without direct supervision",
+                    "vi": "thiếu sự giám sát trực tiếp"
                   },
                   {
-                    "en": "stable connection",
-                    "vi": "kết nối ổn định"
+                    "en": "easily distracted by social media",
+                    "vi": "dễ bị xao nhãng bởi mạng xã hội"
                   },
                   {
-                    "en": "technical problems",
-                    "vi": "sự cố kỹ thuật"
-                  },
-                  {
-                    "en": "electronic devices",
-                    "vi": "thiết bị điện tử"
-                  },
-                  {
-                    "en": "miss lessons",
-                    "vi": "bỏ lỡ bài học"
+                    "en": "complete assignments on time",
+                    "vi": "hoàn thành bài tập đúng hạn"
                   }
                 ],
-                "point_vi": "Học trực tuyến phụ thuộc rất nhiều vào công nghệ và kết nối Internet.",
-                "point_en": "Online learning depends heavily on technology and Internet access.",
-                "evidence_vi": "Nếu mạng Internet không ổn định hoặc thiết bị gặp sự cố, người học có thể bỏ lỡ những bài học quan trọng.",
-                "evidence_en": "If Internet connections are unstable or devices experience technical problems, learners may miss important lessons."
+                "point_vi": "Học trực tuyến đòi hỏi người học phải có mức độ kỷ luật tự giác rất cao.",
+                "point_en": "Distance learning requires a high level of self-discipline and motivation.",
+                "evidence_vi": "Khi học tập tại nhà mà không có sự giám sát trực tiếp, học viên rất dễ bị xao nhãng bởi mạng xã hội, trò chơi hoặc các hoạt động khác. Hậu quả là, họ có thể trì hoãn việc học và không hoàn thành bài tập đúng hạn.",
+                "evidence_en": "Without direct supervision at home, students may easily be distracted by social media, online games, or other activities. Consequently, they may procrastinate on their tasks and fail to complete assignments on time."
+              },
+              {
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG TIÊU CỰC ĐẾN SỨC KHỎE",
+                "collocations": [
+                  {
+                    "en": "negative effects on health",
+                    "vi": "tác động tiêu cực đến sức khỏe"
+                  },
+                  {
+                    "en": "spend long hours in front of screens",
+                    "vi": "dành nhiều giờ trước màn hình"
+                  },
+                  {
+                    "en": "severe eye strain and headaches",
+                    "vi": "mỏi mắt dữ dội và đau đầu"
+                  },
+                  {
+                    "en": "prolonged sitting",
+                    "vi": "ngồi lâu một chỗ"
+                  },
+                  {
+                    "en": "lead to back pain",
+                    "vi": "dẫn đến đau lưng"
+                  }
+                ],
+                "point_vi": "Việc ngồi học trực tuyến liên tục có thể gây ra những tác động tiêu cực đến sức khỏe.",
+                "point_en": "Studying online for prolonged periods can have negative effects on students' health.",
+                "evidence_vi": "Việc dán mắt vào màn hình nhiều giờ liền có thể gây mỏi mắt, suy giảm thị lực và đau đầu. Hơn nữa, thói quen ngồi yên một chỗ kéo dài làm giảm vận động thể chất và dễ dẫn đến đau lưng cùng sự căng thẳng.",
+                "evidence_en": "Spending long hours in front of screens can frequently cause severe eye strain and headaches. Furthermore, sitting for extended periods reduces physical activity and easily leads to back pain and mental stress."
+              },
+              {
+                "title": "BẤT LỢI 05: HẠN CHẾ TRẢI NGHIỆM THỰC HÀNH",
+                "collocations": [
+                  {
+                    "en": "limited opportunities for practical experience",
+                    "vi": "cơ hội hạn chế cho trải nghiệm thực tế"
+                  },
+                  {
+                    "en": "hands-on activities and experiments",
+                    "vi": "hoạt động thực hành và thí nghiệm"
+                  },
+                  {
+                    "en": "apply theoretical knowledge in real life",
+                    "vi": "áp dụng kiến thức lý thuyết vào đời thực"
+                  },
+                  {
+                    "en": "physical laboratory practice",
+                    "vi": "thực hành phòng thí nghiệm thực tế"
+                  }
+                ],
+                "point_vi": "Học từ xa mang lại rất ít cơ hội cho việc rèn luyện và trải nghiệm thực hành.",
+                "point_en": "Virtual training provides limited opportunities for practical experience.",
+                "evidence_vi": "Nhiều môn học đòi hỏi phải có các hoạt động thực hành thực tế, làm thí nghiệm hoặc tương tác trực tiếp. Do đó, người học qua mạng thường gặp khó khăn trong việc rèn luyện kỹ năng thực tế và áp dụng kiến thức vào đời sống.",
+                "evidence_en": "Some academic subjects require hands-on activities, laboratory experiments, or direct physical practice. As a result, students may find it difficult to develop practical skills and apply theoretical knowledge in real-life situations."
               }
             ]
           },
           "ideas_b2": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: TIẾT KIỆM THỜI GIAN VÀ CHI PHÍ",
+                "title": "LỢI ÍCH 01: LINH HOẠT VÀ TIỆN LỢI",
                 "collocations": [
                   {
-                    "en": "save time and money",
-                    "vi": "tiết kiệm thời gian và tiền bạc"
+                    "en": "offer greater flexibility",
+                    "vi": "mang lại sự linh hoạt cao hơn"
                   },
                   {
-                    "en": "transportation expenses",
-                    "vi": "chi phí đi lại"
+                    "en": "study anytime and anywhere",
+                    "vi": "học mọi lúc mọi nơi"
                   },
                   {
-                    "en": "commute regularly",
-                    "vi": "thường xuyên đi lại"
-                  },
-                  {
-                    "en": "academic work",
-                    "vi": "công việc học tập"
-                  },
-                  {
-                    "en": "personal development",
-                    "vi": "phát triển bản thân"
-                  },
-                  {
-                    "en": "devote time to",
-                    "vi": "dành thời gian cho"
-                  }
-                ],
-                "point_vi": "Học trực tuyến giúp người học tiết kiệm thời gian và chi phí.",
-                "point_en": "Online learning helps learners save time and money.",
-                "evidence_vi": "Người học không cần phải di chuyển đến trường hoặc trung tâm đào tạo thường xuyên. Nhờ đó, họ có thể giảm chi phí đi lại và dành nhiều thời gian hơn cho học tập hoặc phát triển bản thân.",
-                "evidence_en": "Learners do not need to commute to schools or training centres regularly. As a result, they can reduce transportation expenses and spend more time on academic work or personal development."
-              },
-              {
-                "title": "LỢI ÍCH 02: SỰ LINH HOẠT VÀ TIỆN LỢI",
-                "collocations": [
-                  {
-                    "en": "flexibility and convenience",
-                    "vi": "sự linh hoạt và tiện lợi"
-                  },
-                  {
-                    "en": "attend courses",
-                    "vi": "tham gia khóa học"
-                  },
-                  {
-                    "en": "balance studies with work",
-                    "vi": "cân bằng việc học và công việc"
+                    "en": "arrange study schedules",
+                    "vi": "sắp xếp lịch học"
                   },
                   {
                     "en": "personal responsibilities",
-                    "vi": "trách nhiệm cá nhân"
+                    "vi": "các trách nhiệm cá nhân"
                   }
                 ],
-                "point_vi": "Học trực tuyến mang lại sự linh hoạt và tiện lợi cho người học.",
-                "point_en": "Online learning offers flexibility and convenience to learners.",
-                "evidence_vi": "Người học có thể tham gia các khóa học bất cứ khi nào và ở bất cứ đâu có kết nối Internet. Nhờ đó, họ có thể cân bằng việc học với công việc và các trách nhiệm cá nhân khác dễ dàng hơn.",
-                "evidence_en": "Learners can attend courses anytime and anywhere with an Internet connection. As a result, they canbalance their studies with work and other personal responsibilities more easily."
+                "point_vi": "Học trực tuyến mang lại sự linh hoạt và tiện lợi vượt trội cho người học.",
+                "point_en": "Online learning offers greater flexibility and convenience for modern learners.",
+                "evidence_vi": "Người học có thể tham gia các khóa học mọi lúc, mọi nơi khi có thiết bị phù hợp và kết nối Internet ổn định. Nhờ đó, họ có thể dễ dàng sắp xếp lịch học phù hợp với các công việc và trách nhiệm cá nhân khác.",
+                "evidence_en": "Students can study anytime and anywhere as long as they have suitable devices and a stable Internet connection. As a result, they can arrange their study schedules around personal responsibilities more effectively."
               },
               {
-                "title": "LỢI ÍCH 03: TỰ HỌC THEO TIẾN ĐỘ CÁ NHÂN",
+                "title": "LỢI ÍCH 02: TIẾT KIỆM CHI PHÍ",
                 "collocations": [
                   {
-                    "en": "study at one's own pace",
-                    "vi": "học theo tốc độ cá nhân"
+                    "en": "reduce educational expenses",
+                    "vi": "giảm chi phí giáo dục"
                   },
                   {
-                    "en": "replay lectures",
-                    "vi": "xem lại bài giảng"
+                    "en": "cheaper than traditional classes",
+                    "vi": "rẻ hơn các lớp học truyền thống"
                   },
                   {
-                    "en": "review difficult sections",
-                    "vi": "ôn lại phần khó"
+                    "en": "save money on transportation",
+                    "vi": "tiết kiệm tiền đi lại"
                   },
                   {
-                    "en": "learning outcomes",
-                    "vi": "kết quả học tập"
-                  },
-                  {
-                    "en": "learner autonomy",
-                    "vi": "tính tự chủ trong học tập"
-                  },
-                  {
-                    "en": "self-directed learning",
-                    "vi": "học tập tự định hướng"
+                    "en": "accommodation costs",
+                    "vi": "chi phí chỗ ở/lưu trú"
                   }
                 ],
-                "point_vi": "Học trực tuyến cho phép người học học theo tốc độ của riêng mình.",
-                "point_en": "Online learning allows learners to study at their own pace.",
-                "evidence_vi": "Người học có thể xem lại bài giảng hoặc ôn tập những phần khó khi cần thiết. Điều này giúp họ hiểu bài tốt hơn và nâng cao hiệu quả học tập.",
-                "evidence_en": "Learners can replay lectures or review difficult sections whenever necessary. This helps them gain a better understanding of lessons and improve learning outcomes."
+                "point_vi": "Học trực tuyến giúp giảm thiểu các chi phí giáo dục đáng kể.",
+                "point_en": "Online learning helps reduce educational expenses significantly.",
+                "evidence_vi": "Học phí của các khóa học trực tuyến thường rẻ hơn đáng kể so với các lớp học truyền thống. Ngoài ra, người học có thể tiết kiệm một khoản tiền lớn cho chi phí đi lại và chi phí thuê chỗ ở.",
+                "evidence_en": "Online courses are often cheaper than traditional in-person classes. In addition, students can save a substantial amount of money on daily transportation and accommodation."
+              },
+              {
+                "title": "LỢI ÍCH 03: TIẾP CẬN NHIỀU NGUỒN TÀI LIỆU",
+                "collocations": [
+                  {
+                    "en": "access a wider range of resources",
+                    "vi": "tiếp cận nguồn tài liệu phong phú hơn"
+                  },
+                  {
+                    "en": "online libraries and educational websites",
+                    "vi": "thư viện trực tuyến và website giáo dục"
+                  },
+                  {
+                    "en": "recorded lecture videos",
+                    "vi": "video bài giảng đã ghi hình"
+                  },
+                  {
+                    "en": "learn from global experts",
+                    "vi": "học hỏi từ các chuyên gia toàn cầu"
+                  }
+                ],
+                "point_vi": "Học trực tuyến cung cấp quyền tiếp cận nguồn tài liệu học tập vô cùng phong phú.",
+                "point_en": "Online education provides access to a wider range of learning resources.",
+                "evidence_vi": "Người học có thể dễ dàng sử dụng các thư viện trực tuyến, trang web giáo dục và video bài giảng chất lượng cao. Bên cạnh đó, họ có cơ hội học hỏi trực tiếp từ các giảng viên giàu kinh nghiệm và chuyên gia trên khắp thế giới.",
+                "evidence_en": "Students can easily utilize online libraries, educational websites, and instructional videos. Furthermore, they have valuable opportunities to learn from experienced teachers and experts around the world."
+              },
+              {
+                "title": "LỢI ÍCH 04: HỌC THEO TỐC ĐỘ CỦA BẢN THÂN",
+                "collocations": [
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của riêng mình"
+                  },
+                  {
+                    "en": "pause or replay recorded lessons",
+                    "vi": "tạm dừng hoặc xem lại bài giảng ghi hình"
+                  },
+                  {
+                    "en": "whenever necessary",
+                    "vi": "bất cứ khi nào cần thiết"
+                  },
+                  {
+                    "en": "understand difficult concepts",
+                    "vi": "hiểu các khái niệm khó"
+                  }
+                ],
+                "point_vi": "Học trực tuyến cho phép người học tiến bộ theo tốc độ tiếp thu của riêng mình.",
+                "point_en": "Distance learning allows students to learn at their own pace.",
+                "evidence_vi": "Học viên có thể tạm dừng hoặc xem lại các bài giảng đã ghi hình bất cứ khi nào cần thiết. Nhờ đó, họ có thêm nhiều thời gian để suy ngẫm và hiểu sâu các khái niệm khó mà không cảm thấy áp lực.",
+                "evidence_en": "Learners can pause or replay recorded lessons whenever necessary. Consequently, they can spend more time understanding difficult concepts thoroughly without feeling pressured."
+              },
+              {
+                "title": "LỢI ÍCH 05: PHÁT TRIỂN KỸ NĂNG CÔNG NGHỆ",
+                "collocations": [
+                  {
+                    "en": "develop essential digital skills",
+                    "vi": "phát triển kỹ năng số thiết yếu"
+                  },
+                  {
+                    "en": "familiar with digital platforms",
+                    "vi": "làm quen với các nền tảng số"
+                  },
+                  {
+                    "en": "enhance computer literacy",
+                    "vi": "nâng cao trình độ tin học"
+                  },
+                  {
+                    "en": "useful for future careers",
+                    "vi": "hữu ích cho sự nghiệp tương lai"
+                  }
+                ],
+                "point_vi": "Học trực tuyến giúp người học phát triển các kỹ năng công nghệ số thiết yếu.",
+                "point_en": "E-learning helps develop essential digital skills for modern learners.",
+                "evidence_vi": "Người học nhanh chóng làm quen và sử dụng thành thạo nhiều nền tảng cùng các công cụ học tập kỹ thuật số. Điều này giúp nâng cao kỹ năng sử dụng máy tính, tạo lợi thế lớn cho con đường nghề nghiệp trong tương lai.",
+                "evidence_en": "Students become familiar with various digital platforms and software tools through online study. This significantly improves their computer skills, which are highly useful for their future careers."
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: THIẾU SỰ TƯƠNG TÁC TRỰC TIẾP",
+                "title": "BẤT LỢI 01: THIẾU TƯƠNG TÁC TRỰC TIẾP",
                 "collocations": [
                   {
-                    "en": "face-to-face interaction",
-                    "vi": "sự tương tác trực tiếp"
+                    "en": "reduce face-to-face interaction",
+                    "vi": "giảm tương tác trực tiếp"
                   },
                   {
-                    "en": "online platforms",
-                    "vi": "nền tảng trực tuyến"
+                    "en": "communicate directly with peers",
+                    "vi": "giao tiếp trực tiếp với bạn bè"
                   },
                   {
-                    "en": "participate in discussions",
-                    "vi": "tham gia thảo luận"
+                    "en": "receive immediate feedback",
+                    "vi": "nhận phản hồi ngay lập tức"
                   },
                   {
-                    "en": "immediate feedback",
-                    "vi": "phản hồi tức thì"
-                  },
-                  {
-                    "en": "classroom interaction",
-                    "vi": "tương tác trong lớp học"
-                  },
-                  {
-                    "en": "learning support",
-                    "vi": "hỗ trợ học tập"
+                    "en": "ask spontaneous questions",
+                    "vi": "đặt các câu hỏi phát sinh"
                   }
                 ],
-                "point_vi": "Học trực tuyến có thể làm giảm sự tương tác trực tiếp giữa giáo viên và người học.",
-                "point_en": "Online learning may reduce face-to-face interaction between teachers and learners.",
-                "evidence_vi": "Phần lớn hoạt động giao tiếp diễn ra thông qua các nền tảng trực tuyến. Vì vậy, người học có thể ít cơ hội thảo luận và nhận phản hồi ngay lập tức.",
-                "evidence_en": "Most communication takes place through online platforms. Therefore, learners may have fewer opportunities to participate in discussions and receive immediate feedback."
+                "point_vi": "Học trực tuyến làm giảm đáng kể sự tương tác trực tiếp giữa người học và giáo viên.",
+                "point_en": "Online learning substantially reduces face-to-face interaction.",
+                "evidence_vi": "Học viên có ít cơ hội giao tiếp trực tiếp với thầy cô và bạn học trong lớp. Điều này khiến việc đặt câu hỏi thắc mắc và nhận phản hồi ngay lập tức trở nên khó khăn hơn.",
+                "evidence_en": "Students have fewer opportunities to communicate directly with teachers and classmates. As a result, it can be more difficult to ask questions and receive immediate feedback."
               },
               {
-                "title": "BẤT LỢI 02: DỄ BỊ XAO NHÃNG VÀ MẤT TẬP TRUNG",
+                "title": "BẤT LỢI 02: DỄ BỊ ẢNH HƯỞNG BỞI SỰ CỐ KỸ THUẬT",
                 "collocations": [
                   {
-                    "en": "maintain concentration",
-                    "vi": "duy trì sự tập trung"
+                    "en": "affected by technical problems",
+                    "vi": "bị ảnh hưởng bởi sự cố kỹ thuật"
                   },
                   {
-                    "en": "be distracted",
-                    "vi": "bị xao nhãng"
+                    "en": "stable Internet connection",
+                    "vi": "kết nối Internet ổn định"
                   },
                   {
-                    "en": "social media",
-                    "vi": "mạng xã hội"
+                    "en": "compatible electronic devices",
+                    "vi": "thiết bị điện tử tương thích"
                   },
                   {
-                    "en": "learning effectiveness",
-                    "vi": "hiệu quả học tập"
-                  },
-                  {
-                    "en": "academic performance",
-                    "vi": "kết quả học tập"
-                  },
-                  {
-                    "en": "entertainment activities",
-                    "vi": "hoạt động giải trí"
+                    "en": "interrupt virtual lessons",
+                    "vi": "làm gián đoạn bài học ảo/trực tuyến"
                   }
                 ],
-                "point_vi": "Người học thường gặp khó khăn trong việc duy trì sự tập trung khi học trực tuyến.",
-                "point_en": "Learners often struggle to maintain concentration during online classes.",
-                "evidence_vi": "Họ dễ bị ảnh hưởng bởi mạng xã hội, hoạt động giải trí hoặc môi trường xung quanh. Điều này có thể làm giảm hiệu quả học tập và kết quả học tập.",
-                "evidence_en": "They can easily be distracted by social media, entertainment activities, or their surroundings. This may reduce learning effectiveness and academic performance."
+                "point_vi": "Quá trình học trực tuyến dễ bị gián đoạn bởi các sự cố kỹ thuật và đường truyền mạng.",
+                "point_en": "Online classes can be negatively affected by technical problems.",
+                "evidence_vi": "Người học luôn cần có kết nối Internet ổn định và các thiết bị điện tử tương thích. Đường truyền mạng chập chờn có thể làm gián đoạn bài học và khiến người học gặp nhiều khó khăn khi theo dõi bài giảng.",
+                "evidence_en": "Students require a stable Internet connection and suitable electronic devices. Therefore, poor Internet connections may interrupt lessons and make it difficult to follow."
               },
               {
-                "title": "BẤT LỢI 03: DỄ BỊ ẢNH HƯỞNG BỞI CÁC SỰ CỐ KỸ THUẬT",
+                "title": "BẤT LỢI 03: ĐÒI HỎI TÍNH KỶ LUẬT TỰ GIÁC CAO",
                 "collocations": [
                   {
-                    "en": "technical problems",
-                    "vi": "sự cố kỹ thuật"
+                    "en": "require a high level of self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao"
                   },
                   {
-                    "en": "Internet connection failures",
-                    "vi": "sự cố mất kết nối Internet"
+                    "en": "without direct supervision",
+                    "vi": "thiếu sự giám sát trực tiếp"
                   },
                   {
-                    "en": "software errors",
-                    "vi": "lỗi phần mềm"
+                    "en": "easily distracted by social media",
+                    "vi": "dễ bị xao nhãng bởi mạng xã hội"
                   },
                   {
-                    "en": "device malfunctions",
-                    "vi": "hỏng hóc thiết bị"
-                  },
-                  {
-                    "en": "miss important information",
-                    "vi": "bỏ lỡ thông tin quan trọng"
-                  },
-                  {
-                    "en": "learning process",
-                    "vi": "quá trình học tập"
+                    "en": "complete assignments on time",
+                    "vi": "hoàn thành bài tập đúng hạn"
                   }
                 ],
-                "point_vi": "Học trực tuyến có thể bị gián đoạn bởi các sự cố kỹ thuật.",
-                "point_en": "Online learning can be disrupted by technical problems.",
-                "evidence_vi": "Các vấn đề như mất kết nối Internet, lỗi phần mềm hoặc hỏng thiết bị có thể xảy ra trong quá trình học. Do đó, người học có thể bỏ lỡ những nội dung quan trọng và ảnh hưởng đến quá trình học tập.",
-                "evidence_en": "Problems such as Internet connection failures, software errors, or device malfunctions may occur during online classes. Consequently, learners may miss important information and experience disruptions to their learning process."
+                "point_vi": "Học trực tuyến đòi hỏi người học phải có mức độ kỷ luật tự giác rất cao.",
+                "point_en": "Distance learning requires a high level of self-discipline and motivation.",
+                "evidence_vi": "Khi học tập tại nhà mà không có sự giám sát trực tiếp, học viên rất dễ bị xao nhãng bởi mạng xã hội, trò chơi hoặc các hoạt động khác. Hậu quả là, họ có thể trì hoãn việc học và không hoàn thành bài tập đúng hạn.",
+                "evidence_en": "Without direct supervision at home, students may easily be distracted by social media, online games, or other activities. Consequently, they may procrastinate on their tasks and fail to complete assignments on time."
+              },
+              {
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG TIÊU CỰC ĐẾN SỨC KHỎE",
+                "collocations": [
+                  {
+                    "en": "negative effects on health",
+                    "vi": "tác động tiêu cực đến sức khỏe"
+                  },
+                  {
+                    "en": "spend long hours in front of screens",
+                    "vi": "dành nhiều giờ trước màn hình"
+                  },
+                  {
+                    "en": "severe eye strain and headaches",
+                    "vi": "mỏi mắt dữ dội và đau đầu"
+                  },
+                  {
+                    "en": "prolonged sitting",
+                    "vi": "ngồi lâu một chỗ"
+                  },
+                  {
+                    "en": "lead to back pain",
+                    "vi": "dẫn đến đau lưng"
+                  }
+                ],
+                "point_vi": "Việc ngồi học trực tuyến liên tục có thể gây ra những tác động tiêu cực đến sức khỏe.",
+                "point_en": "Studying online for prolonged periods can have negative effects on students' health.",
+                "evidence_vi": "Việc dán mắt vào màn hình nhiều giờ liền có thể gây mỏi mắt, suy giảm thị lực và đau đầu. Hơn nữa, thói quen ngồi yên một chỗ kéo dài làm giảm vận động thể chất và dễ dẫn đến đau lưng cùng sự căng thẳng.",
+                "evidence_en": "Spending long hours in front of screens can frequently cause severe eye strain and headaches. Furthermore, sitting for extended periods reduces physical activity and easily leads to back pain and mental stress."
+              },
+              {
+                "title": "BẤT LỢI 05: HẠN CHẾ TRẢI NGHIỆM THỰC HÀNH",
+                "collocations": [
+                  {
+                    "en": "limited opportunities for practical experience",
+                    "vi": "cơ hội hạn chế cho trải nghiệm thực tế"
+                  },
+                  {
+                    "en": "hands-on activities and experiments",
+                    "vi": "hoạt động thực hành và thí nghiệm"
+                  },
+                  {
+                    "en": "apply theoretical knowledge in real life",
+                    "vi": "áp dụng kiến thức lý thuyết vào đời thực"
+                  },
+                  {
+                    "en": "physical laboratory practice",
+                    "vi": "thực hành phòng thí nghiệm thực tế"
+                  }
+                ],
+                "point_vi": "Học từ xa mang lại rất ít cơ hội cho việc rèn luyện và trải nghiệm thực hành.",
+                "point_en": "Virtual training provides limited opportunities for practical experience.",
+                "evidence_vi": "Nhiều môn học đòi hỏi phải có các hoạt động thực hành thực tế, làm thí nghiệm hoặc tương tác trực tiếp. Do đó, người học qua mạng thường gặp khó khăn trong việc rèn luyện kỹ năng thực tế và áp dụng kiến thức vào đời sống.",
+                "evidence_en": "Some academic subjects require hands-on activities, laboratory experiments, or direct physical practice. As a result, students may find it difficult to develop practical skills and apply theoretical knowledge in real-life situations."
               }
             ]
           },
@@ -747,7 +867,267 @@ const ESSAY_DATA = [
               "en": "experience technical problems / device malfunctions",
               "vi": "gặp sự cố kỹ thuật / hỏng thiết bị"
             }
-          ]
+          ],
+          "mindmap_img": "online_learning_mindmap_vi.jpg",
+          "mindmap_img_en": "online_learning_mindmap_en.jpg",
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Học trực tuyến: Xu hướng tất yếu của giáo dục hiện đại",
+                "summary": "Học trực tuyến mang lại sự linh hoạt tối đa về thời gian và chi phí, song đòi hỏi học viên tính tự giác và kỹ năng số vững vàng.",
+                "url": "https://vnexpress.net/giao-duc"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Dạy và học trực tuyến: Cơ hội và rào cản cần vượt qua",
+                "summary": "Kho học liệu số toàn cầu giúp nâng cao chất lượng đào tạo, nhưng sự thiếu hụt tương tác trực tiếp và đường truyền mạng vẫn là rào cản lớn.",
+                "url": "https://tuoitre.vn/giao-duc.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Chuyển đổi số giáo dục: Khi giảng đường không còn bị giới hạn",
+                "summary": "Người học chủ động học theo nhịp độ cá nhân, tiết kiệm đáng kể chi phí đi lại và sinh hoạt so với mô hình lớp học truyền thống.",
+                "url": "https://dantri.com.vn/giao-duc.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "World Economic Forum (WEF)",
+                "title": "The Rise of Online Learning in Modern Education",
+                "summary": "Research shows that online learning can increase information retention and allow students to learn at their own pace using digital tools.",
+                "url": "https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/"
+              },
+              {
+                "source": "BBC News",
+                "title": "Online Classes: The Challenges and Opportunities of Digital Education",
+                "summary": "Digital platforms offer unmatched flexibility for learners balancing busy schedules, though screen fatigue and lack of socialization remain issues.",
+                "url": "https://www.bbc.com/news/education-55109033"
+              },
+              {
+                "source": "Forbes",
+                "title": "The Pros and Cons of Online Learning in Higher Education",
+                "summary": "Virtual courses drastically cut tuition and accommodation expenses, but achieving success demands high self-discipline and digital literacy.",
+                "url": "https://www.forbes.com/advisor/education/online-college-pros-and-cons/"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Học trực tuyến (Online Learning & E-Learning)",
+            "overview": "Hệ thống tổng hợp đầy đủ các từ vựng học thuật B2 và cụm liên kết (Collocations) trọng tâm xoay quanh 5 Thuận lợi và 5 Bất lợi của học trực tuyến, giúp học viên nạp đủ vốn từ trước khi viết câu và bài luận hoàn chỉnh.",
+            "single_words": [
+              {
+                "word": "flexibility",
+                "ipa": "/ˌflek.səˈbɪl.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự linh hoạt",
+                "example_en": "Online courses offer great flexibility for working adults.",
+                "example_vi": "Các khóa học trực tuyến mang lại sự linh hoạt tuyệt vời cho người đi làm."
+              },
+              {
+                "word": "convenience",
+                "ipa": "/kənˈviː.ni.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tiện lợi",
+                "example_en": "The main appeal of e-learning is its convenience.",
+                "example_vi": "Sức hút chính của học trực tuyến là sự tiện lợi của nó."
+              },
+              {
+                "word": "expense",
+                "ipa": "/ɪkˈspens/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chi phí, khoản chi tiêu",
+                "example_en": "E-learning helps cut down daily travel expenses.",
+                "example_vi": "Học trực tuyến giúp cắt giảm các khoản chi phí đi lại hàng ngày."
+              },
+              {
+                "word": "resource",
+                "ipa": "/rɪˈzɔːs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tài nguyên, nguồn tư liệu",
+                "example_en": "Digital libraries provide rich educational resources.",
+                "example_vi": "Thư viện số cung cấp các nguồn tư liệu giáo dục phong phú."
+              },
+              {
+                "word": "pace",
+                "ipa": "/peɪs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tốc độ, nhịp độ",
+                "example_en": "Learners can study at their own pace without feeling rushed.",
+                "example_vi": "Người học có thể học theo nhịp độ của riêng mình mà không cảm thấy vội vã."
+              },
+              {
+                "word": "literacy",
+                "ipa": "/ˈlɪt.ər.ə.si/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "trình độ hiểu biết, khả năng sử dụng",
+                "example_en": "Online schooling enhances students' computer literacy.",
+                "example_vi": "Học tập trực tuyến nâng cao trình độ tin học của học sinh."
+              },
+              {
+                "word": "interaction",
+                "ipa": "/ˌɪn.təˈræk.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tương tác, sự giao tiếp",
+                "example_en": "Virtual classes lack real face-to-face interaction.",
+                "example_vi": "Các lớp học ảo thiếu đi sự tương tác trực tiếp thực tế."
+              },
+              {
+                "word": "discipline",
+                "ipa": "/ˈdɪs.ə.plɪn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "kỷ luật, sự tự giác",
+                "example_en": "Distance learning demands high self-discipline.",
+                "example_vi": "Học từ xa đòi hỏi tính kỷ luật tự giác cao."
+              },
+              {
+                "word": "distraction",
+                "ipa": "/dɪˈstræk.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự xao nhãng, điều làm phân tâm",
+                "example_en": "Social media is a major distraction during online study.",
+                "example_vi": "Mạng xã hội là nguồn xao nhãng lớn trong quá trình học trực tuyến."
+              },
+              {
+                "word": "fatigue",
+                "ipa": "/fəˈtiːɡ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự mệt mỏi, kiệt sức",
+                "example_en": "Excessive screen time frequently causes mental fatigue.",
+                "example_vi": "Thời gian nhìn màn hình quá nhiều thường gây ra sự mệt mỏi tinh thần."
+              },
+              {
+                "word": "interruption",
+                "ipa": "/ˌɪn.təˈrʌp.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự gián đoạn",
+                "example_en": "Network failures cause frequent interruptions to lessons.",
+                "example_vi": "Mất mạng gây ra sự gián đoạn thường xuyên cho các bài học."
+              },
+              {
+                "word": "hands-on",
+                "ipa": "/ˌhændzˈɒn/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thực hành, thực tế",
+                "example_en": "Science students need hands-on laboratory experience.",
+                "example_vi": "Sinh viên ngành khoa học cần kinh nghiệm thực hành trong phòng thí nghiệm."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "advantages_cols",
+                "name": "Cụm từ Lợi ích & Thuận lợi (Advantages Collocations)",
+                "icon": "✨",
+                "badge": "Thuận lợi",
+                "items": [
+                  {
+                    "en": "offer greater flexibility",
+                    "vi": "mang lại sự linh hoạt cao hơn",
+                    "level": "B2",
+                    "example_en": "Online platforms offer greater flexibility for scheduling.",
+                    "example_vi": "Các nền tảng trực tuyến mang lại sự linh hoạt cao hơn cho việc sắp xếp lịch."
+                  },
+                  {
+                    "en": "reduce educational expenses",
+                    "vi": "giảm bớt chi phí học tập",
+                    "level": "B2",
+                    "example_en": "E-learning helps families reduce educational expenses.",
+                    "example_vi": "Học trực tuyến giúp các gia đình giảm bớt chi phí học tập."
+                  },
+                  {
+                    "en": "access a wide range of learning resources",
+                    "vi": "tiếp cận nguồn tài liệu học tập phong phú",
+                    "level": "B2",
+                    "example_en": "Students can access a wide range of learning resources online.",
+                    "example_vi": "Học sinh có thể tiếp cận nguồn tài liệu học tập phong phú trên mạng."
+                  },
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của bản thân",
+                    "level": "B2",
+                    "example_en": "Virtual courses allow people to learn at their own pace.",
+                    "example_vi": "Các khóa học ảo cho phép mọi người học theo tốc độ của bản thân."
+                  },
+                  {
+                    "en": "develop essential digital skills",
+                    "vi": "phát triển các kỹ năng số thiết yếu",
+                    "level": "B2",
+                    "example_en": "Students develop essential digital skills for future employment.",
+                    "example_vi": "Học sinh phát triển các kỹ năng số thiết yếu cho công việc tương lai."
+                  },
+                  {
+                    "en": "arrange study schedules around responsibilities",
+                    "vi": "sắp xếp lịch học quanh các trách nhiệm cá nhân",
+                    "level": "B2",
+                    "example_en": "Learners can arrange study schedules around work responsibilities.",
+                    "example_vi": "Người học có thể sắp xếp lịch học quanh các trách nhiệm công việc."
+                  }
+                ]
+              },
+              {
+                "id": "disadvantages_cols",
+                "name": "Cụm từ Bất lợi & Hạn chế (Disadvantages Collocations)",
+                "icon": "⚠️",
+                "badge": "Bất lợi",
+                "items": [
+                  {
+                    "en": "reduce face-to-face interaction",
+                    "vi": "làm giảm sự tương tác trực tiếp",
+                    "level": "B2",
+                    "example_en": "Online learning may reduce face-to-face interaction among peers.",
+                    "example_vi": "Học trực tuyến có thể làm giảm sự tương tác trực tiếp giữa bạn bè."
+                  },
+                  {
+                    "en": "be affected by technical problems",
+                    "vi": "bị ảnh hưởng bởi các sự cố kỹ thuật",
+                    "level": "B2",
+                    "example_en": "Virtual classes can be affected by technical problems.",
+                    "example_vi": "Các lớp học ảo có thể bị ảnh hưởng bởi sự cố kỹ thuật."
+                  },
+                  {
+                    "en": "require a high level of self-discipline",
+                    "vi": "đòi hỏi mức độ tự giác kỷ luật cao",
+                    "level": "B2",
+                    "example_en": "Studying remotely requires a high level of self-discipline.",
+                    "example_vi": "Học tập từ xa đòi hỏi mức độ tự giác kỷ luật cao."
+                  },
+                  {
+                    "en": "easily distracted by social media",
+                    "vi": "dễ bị phân tâm bởi mạng xã hội",
+                    "level": "B2",
+                    "example_en": "Unsupervised students are easily distracted by social media.",
+                    "example_vi": "Học sinh không có giám sát rất dễ bị phân tâm bởi mạng xã hội."
+                  },
+                  {
+                    "en": "cause severe eye strain and headaches",
+                    "vi": "gây mỏi mắt dữ dội và đau đầu",
+                    "level": "B2",
+                    "example_en": "Prolonged screen time can cause severe eye strain and headaches.",
+                    "example_vi": "Nhìn màn hình kéo dài có thể gây mỏi mắt dữ dội và đau đầu."
+                  },
+                  {
+                    "en": "provide limited opportunities for practical experience",
+                    "vi": "mang lại ít cơ hội trải nghiệm thực hành",
+                    "level": "B2",
+                    "example_en": "Online science classes provide limited opportunities for practical experience.",
+                    "example_vi": "Các lớp khoa học trực tuyến mang lại ít cơ hội trải nghiệm thực hành."
+                  }
+                ]
+              }
+            ]
+          }
         },
         "id": 1,
         "paraphrases": [

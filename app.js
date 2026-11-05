@@ -1704,15 +1704,19 @@ function splitSentences(text) {
 
 // --- Interactive Idea Selection Helpers ---
 function hasSelectableIdeas(topic) {
-  if (!topic || !topic.details || !topic.details.ideas_b1) return false;
-  const bCount = (topic.details.ideas_b1.benefits || []).length;
-  const dCount = (topic.details.ideas_b1.drawbacks || []).length;
+  if (!topic || !topic.details) return false;
+  const ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
+  if (!ideas) return false;
+  const bCount = (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []).length;
+  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []).length;
   return bCount > 3 || dCount > 3;
 }
 
 function getSelectedIdeaIndices(topic, groupType) {
-  if (!topic || !topic.details || !topic.details.ideas_b1) return [];
-  const items = (topic.details.ideas_b1[groupType] || []);
+  if (!topic || !topic.details) return [];
+  const ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
+  if (!ideas) return [];
+  const items = (ideas[groupType] || []);
   const total = items.length;
   if (total <= 3) {
     return items.map((_, i) => i);
@@ -1730,7 +1734,7 @@ function getSelectedIdeaIndices(topic, groupType) {
   } catch (e) {}
 
   // Default selection if not yet set
-  const dCount = (topic.details.ideas_b1.drawbacks || []).length;
+  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || []).length;
   if (groupType === 'benefits' && dCount === 0) {
     return [0, 1, 2].slice(0, total);
   }
@@ -1744,12 +1748,16 @@ function toggleIdeaSelection(groupType, index) {
   const exists = currentSelected.includes(index);
   let updated = [];
   if (exists) {
-    if (currentSelected.length <= 1) {
-      showToast("Bạn nên chọn ít nhất 1 luận điểm để luyện tập nhé!", "warning");
+    if (currentSelected.length <= 2) {
+      showToast("Bạn nên chọn ít nhất 2 gợi ý để phát triển thân bài nhé!", "warning");
       return;
     }
     updated = currentSelected.filter(i => i !== index);
   } else {
+    if (currentSelected.length >= 3) {
+      showToast("Khuyên chọn tối đa 3 gợi ý để bài viết có chiều sâu theo chuẩn B2 nhé!", "warning");
+      return;
+    }
     updated = [...currentSelected, index].sort((a, b) => a - b);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
@@ -1762,14 +1770,14 @@ function toggleIdeaSelection(groupType, index) {
     renderTranslationExercises();
   }
   renderOutline();
-  showToast("Đã cập nhật lựa chọn luận điểm!", "info");
+  showToast("Đã cập nhật lựa chọn gợi ý!", "info");
 }
 
 function renderIdeaSelectionComponent(topic) {
   if (!topic || !topic.has_full_details || !topic.details || !hasSelectableIdeas(topic)) return '';
   const b2IdeasObj = topic.details.ideas_b2 || topic.details.ideas_b1;
-  const bItems = b2IdeasObj.benefits || [];
-  const dItems = b2IdeasObj.drawbacks || [];
+  const bItems = b2IdeasObj.benefits || b2IdeasObj.causes || b2IdeasObj.reasons || b2IdeasObj.views || [];
+  const dItems = b2IdeasObj.drawbacks || b2IdeasObj.effects || b2IdeasObj.solutions || [];
   const selB = getSelectedIdeaIndices(topic, 'benefits');
   const selD = getSelectedIdeaIndices(topic, 'drawbacks');
 
@@ -1777,12 +1785,12 @@ function renderIdeaSelectionComponent(topic) {
     <div class="reading-section-card idea-selection-card" style="margin-bottom: 1.5rem;">
       <div class="idea-selection-header">
         <div>
-          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
-            <h3 style="margin-bottom: 0;">🎯 Tự chọn Luận điểm bạn muốn đưa vào bài viết</h3>
-            <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN 5 Ý TƯỞNG</span>
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem; flex-wrap: wrap;">
+            <h3 style="margin-bottom: 0;">🎯 Tự chọn Gợi ý Luận điểm bạn muốn đưa vào bài viết</h3>
+            <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN 5 GỢI Ý</span>
           </div>
           <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">
-            Học viên tự do tick chọn các ý mình muốn diễn đạt (Khuyên chọn <strong>2 đến 3 ý</strong>). Dàn ý và Bài tập dịch câu bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
+            Học viên tự do tick chọn các gợi ý mình tự tin nhất (chọn <strong>2 hoặc 3 gợi ý</strong>). Dàn ý tóm tắt và bài tập diễn đạt (luyện dịch câu) bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
           </p>
         </div>
       </div>
@@ -1808,6 +1816,7 @@ function renderIdeaSelectionComponent(topic) {
                   <div class="idea-card-content">
                     <div class="idea-card-title">${b.title || `LỢI ÍCH 0${idx+1}`}</div>
                     <div class="idea-card-point">${b.point_vi}</div>
+                    ${b.point_en ? `<div style="font-size: 0.8rem; color: var(--accent-primary); margin-top: 0.2rem; font-style: italic;">↳ ${b.point_en}</div>` : ''}
                   </div>
                 </div>
               `;
@@ -1819,7 +1828,7 @@ function renderIdeaSelectionComponent(topic) {
           <div class="idea-group-col">
             <div class="idea-group-title-row">
               <span class="idea-group-title drawback">
-                <span>⚠️</span> BẤT LỢI / KHÓ KHĂN
+                <span>⚠️</span> BẤT LỢI / HẠN CHẾ
               </span>
               <span class="idea-group-badge">Đã chọn: ${selD.length} / ${dItems.length} ý</span>
             </div>
@@ -1835,6 +1844,7 @@ function renderIdeaSelectionComponent(topic) {
                   <div class="idea-card-content">
                     <div class="idea-card-title">${d.title || `BẤT LỢI 0${idx+1}`}</div>
                     <div class="idea-card-point">${d.point_vi}</div>
+                    ${d.point_en ? `<div style="font-size: 0.8rem; color: var(--danger-color, #f43f5e); margin-top: 0.2rem; font-style: italic;">↳ ${d.point_en}</div>` : ''}
                   </div>
                 </div>
               `;
@@ -7114,6 +7124,75 @@ function renderStep1Reading() {
   }
 
   const ideaSelectorHtml = renderIdeaSelectionComponent(topic);
+
+  let referenceArticlesHtml = '';
+  if (topic.details && topic.details.reference_articles) {
+    const refs = topic.details.reference_articles;
+    const viArticles = refs.vi || [];
+    const enArticles = refs.en || [];
+    if (viArticles.length > 0 || enArticles.length > 0) {
+      referenceArticlesHtml = `
+        <div class="reading-section-card reference-articles-section">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="font-size: 1.25rem;">📰</span>
+              <h3 style="margin-bottom: 0;">Nguồn bài báo tham khảo & Dẫn chứng thực tế</h3>
+            </div>
+            <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #059669; font-weight: 700; font-size: 0.75rem; padding: 0.25rem 0.65rem; border-radius: 999px;">XÁC THỰC 100% NGUỒN BÁO CHÍ</span>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.5;">
+            Các luận điểm và số liệu trong đề bài được đúc kết từ các bài báo và báo cáo thực tế uy tín. Học viên có thể đọc tham khảo để nạp thêm vốn hiểu biết xã hội và phong cách diễn đạt thực tế:
+          </p>
+
+          <div class="reference-articles-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
+            ${viArticles.length > 0 ? `
+              <div class="reference-col">
+                <div style="font-size: 0.85rem; font-weight: 700; color: #dc2626; margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <span>🇻🇳</span> BÁO CHÍ TIẾNG VIỆT
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                  ${viArticles.map(a => `
+                    <div class="reference-article-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-left: 3px solid #dc2626; border-radius: var(--radius-sm); padding: 0.75rem 0.9rem;">
+                      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #dc2626; text-transform: uppercase;">${a.source}</span>
+                        <a href="${a.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Mở bài viết">
+                          Đọc bài <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                      </div>
+                      <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
+                      <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            ${enArticles.length > 0 ? `
+              <div class="reference-col">
+                <div style="font-size: 0.85rem; font-weight: 700; color: #2563eb; margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <span>🌐</span> BÁO CHÍ QUỐC TẾ (ENGLISH)
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                  ${enArticles.map(a => `
+                    <div class="reference-article-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-left: 3px solid #2563eb; border-radius: var(--radius-sm); padding: 0.75rem 0.9rem;">
+                      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-transform: uppercase;">${a.source}</span>
+                        <a href="${a.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Open article">
+                          Read <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                      </div>
+                      <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
+                      <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    }
+  }
   
   container.innerHTML = `
     <div class="reading-section-card">
@@ -7165,6 +7244,8 @@ function renderStep1Reading() {
       <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">${outlineIntroText}</p>
       ${outlineSummaryHtml}
     </div>
+
+    ${referenceArticlesHtml}
     
     <div style="text-align: right; margin: 1rem 0 2rem 0;">
       <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="${hasVocabStep() ? "switchStep('vocab')" : "switchStep('trans')"}">
