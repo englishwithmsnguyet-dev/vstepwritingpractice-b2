@@ -1664,42 +1664,40 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   });
 }
 
-// Guarantee at least 4-6 rich vocabulary suggestions for any sentence
-function getRichCollocationsForSentence(viSentence, enSentence, itemCollocations, topicFallbackCols, targetMin = 4, targetMax = 6) {
+// Match strictly sentence-specific vocabulary suggestions ordered by appearance in sentence
+function getRichCollocationsForSentence(viSentence, enSentence, itemCollocations, topicFallbackCols, targetMin = 3, targetMax = 6) {
   // Step 1: Match directly from current idea item collocations
   let matched = filterCollocationsForSentence(viSentence, enSentence, itemCollocations);
 
-  // Step 2: Also match against topic-level vocabulary
+  // Step 2: Also match against topic-level vocabulary (without redundant subphrases)
   if (topicFallbackCols && topicFallbackCols.length > 0) {
     const topicMatched = filterCollocationsForSentence(viSentence, enSentence, topicFallbackCols);
     topicMatched.forEach(col => {
-      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
+      const colNorm = normalizeTextForMatching(col.en || '');
+      const isDup = matched.some(m => {
+        const mNorm = normalizeTextForMatching(m.en || '');
+        return mNorm === colNorm || (' ' + mNorm + ' ').includes(' ' + colNorm + ' ') || (' ' + colNorm + ' ').includes(' ' + mNorm + ' ');
+      });
+      if (!isDup) {
         matched.push(col);
       }
     });
   }
 
-  // Step 3: If fewer than targetMin, supplement from itemCollocations
-  if (matched.length < targetMin && itemCollocations && itemCollocations.length > 0) {
-    for (const col of itemCollocations) {
-      if (!col || !col.en) continue;
-      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
-        matched.push(col);
-        if (matched.length >= targetMin) break;
-      }
+  // Sort matched phrases by their appearance position in enSentence
+  const normSentEn = normalizeTextForMatching(enSentence || '');
+  const getPhrasePos = (phrase) => {
+    const pNorm = normalizeTextForMatching((phrase || '').replace(/\(.*?\)/g, ''));
+    const directIdx = normSentEn.indexOf(pNorm);
+    if (directIdx !== -1) return directIdx;
+    const words = pNorm.split(' ').filter(w => w.length > 2);
+    for (const w of words) {
+      const wIdx = normSentEn.indexOf(w);
+      if (wIdx !== -1) return wIdx;
     }
-  }
-
-  // Step 4: If still fewer than targetMin, supplement from topicFallbackCols
-  if (matched.length < targetMin && topicFallbackCols && topicFallbackCols.length > 0) {
-    for (const col of topicFallbackCols) {
-      if (!col || !col.en) continue;
-      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
-        matched.push(col);
-        if (matched.length >= targetMin) break;
-      }
-    }
-  }
+    return 9999;
+  };
+  matched.sort((a, b) => getPhrasePos(a.en) - getPhrasePos(b.en));
 
   return matched.slice(0, targetMax);
 }
@@ -1929,22 +1927,27 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
 
-  // Extract topic-level fallback collocations if item doesn't have enough
+  // Extract topic-level fallback collocations from all available topic vocab pools
   let topicFallbackCols = [];
-  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocations) && topic.details.vocab_step.collocations.length > 0) {
-    topicFallbackCols = topic.details.vocab_step.collocations.map(c => ({ en: c.en || c.phrase, vi: c.vi }));
-  } else if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocation_groups) && topic.details.vocab_step.collocation_groups.length > 0) {
+  const pushFallback = (enVal, viVal) => {
+    if (!enVal || !viVal) return;
+    if (!topicFallbackCols.some(x => (x.en || '').toLowerCase() === enVal.toLowerCase())) {
+      topicFallbackCols.push({ en: enVal, vi: viVal });
+    }
+  };
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocations)) {
+    topic.details.vocab_step.collocations.forEach(c => pushFallback(c.en || c.phrase, c.vi));
+  }
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocation_groups)) {
     topic.details.vocab_step.collocation_groups.forEach(g => {
-      (g.items || g.collocations || []).forEach(c => {
-        topicFallbackCols.push({ en: c.en || c.phrase, vi: c.vi });
-      });
+      (g.items || g.collocations || []).forEach(c => pushFallback(c.en || c.phrase, c.vi));
     });
   }
-  if (topicFallbackCols.length === 0 && Array.isArray(topic.details.vocab) && topic.details.vocab.length > 0) {
-    topicFallbackCols = topic.details.vocab.map(c => ({ en: c.en || c.phrase, vi: c.vi }));
+  if (Array.isArray(topic.details.vocab)) {
+    topic.details.vocab.forEach(c => pushFallback(c.en || c.phrase, c.vi));
   }
-  if (topicFallbackCols.length === 0 && topic.details.vocab_step && Array.isArray(topic.details.vocab_step.single_words) && topic.details.vocab_step.single_words.length > 0) {
-    topicFallbackCols = topic.details.vocab_step.single_words.map(w => ({ en: w.word || w.en, vi: w.meaning || w.vi }));
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.single_words)) {
+    topic.details.vocab_step.single_words.forEach(w => pushFallback(w.word || w.en, w.meaning || w.vi));
   }
 
   // Push group 1 (benefits / causes / reasons)
@@ -1953,7 +1956,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 4, 6);
+      let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
+        ? item.point_collocations
+        : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
       exercises.push({
         type: 'benefit_point',
         title: `${baseTitle}<br/>Luận điểm`,
@@ -1967,7 +1972,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 4, 6);
+        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
+          ? item.evidence_collocations[sIdx]
+          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
         exercises.push({
           type: 'benefit_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
@@ -1985,7 +1992,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 4, 6);
+      let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
+        ? item.point_collocations
+        : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
       exercises.push({
         type: 'drawback_point',
         title: `${baseTitle}<br/>Luận điểm`,
@@ -1999,7 +2008,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 4, 6);
+        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
+          ? item.evidence_collocations[sIdx]
+          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
         exercises.push({
           type: 'drawback_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
