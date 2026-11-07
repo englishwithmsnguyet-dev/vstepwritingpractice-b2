@@ -252,9 +252,10 @@ function switchCategory(catId) {
     const total = currentCategory.topics.length;
     const isBenefitsOnly = (t) => {
       if (t.type === 'benefits_only') return true;
-      if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+      const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+      if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
       const p = (t.prompt || '').toLowerCase();
-      if (p.includes('advantages of') && !p.includes('and disadvantages')) return true;
+      if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
       return false;
     };
     const onlyAdv = currentCategory.topics.filter(t => isBenefitsOnly(t)).length;
@@ -405,8 +406,10 @@ function renderCategoryTopics(searchQuery = '') {
     if (currentCategory.id === 1) {
       const isBenefitsOnly = (t) => {
         if (t.type === 'benefits_only') return true;
-        if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
-        if (t.prompt && t.prompt.toLowerCase().includes('advantages of') && !t.prompt.toLowerCase().includes('and disadvantages')) return true;
+        const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+        if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
+        const p = (t.prompt || '').toLowerCase();
+        if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
         return false;
       };
 
@@ -454,9 +457,10 @@ function renderCategoryTopics(searchQuery = '') {
         const tag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).toLowerCase();
         const prompt = (t.prompt || '').toLowerCase();
         
-        // 1. Check details.ideas_b1 keys if present
-        if (t.details && t.details.ideas_b1) {
-          const keys = Object.keys(t.details.ideas_b1);
+        // 1. Check details.ideas_b2 / ideas_b1 keys if present
+        const ideasObj = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+        if (ideasObj) {
+          const keys = Object.keys(ideasObj);
           if (keys.includes('causes') && keys.includes('solutions')) return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
           if (keys.includes('causes') && keys.includes('effects')) return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
           if (keys.includes('effects') && keys.includes('solutions')) return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
@@ -6685,9 +6689,10 @@ function getTopicSubtypeLabel(topic, catId) {
   if (catId === 1) {
     const isBenefitsOnly = (t) => {
       if (t.type === 'benefits_only') return true;
-      if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+      const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+      if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
       const p = (t.prompt || '').toLowerCase();
-      if (p.includes('advantages of') && !p.includes('and disadvantages')) return true;
+      if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
       return false;
     };
     if (isBenefitsOnly(topic)) {
@@ -7104,6 +7109,29 @@ function renderStep1Reading() {
           <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, both views have their own reasons. However, I believe that [quan điểm cá nhân – mệnh đề] because [lý do ngắn gọn – mệnh đề]. Therefore, it is important that people consider both views carefully.</em></li>
         </ul>
       `;
+    } else if (category.id === 1) {
+      const p = (topic.prompt || '').toLowerCase();
+      const isAdvOnly = (p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks');
+      if (isAdvOnly) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. This essay will focus on the main advantages associated with it.</em></li>
+            <li><strong>Thân bài 1 (Body 1):</strong> <em>One major benefit is that [lợi ích 1 – mệnh đề]. &rarr; [Luận cứ 1] &rarr; [Luận cứ 2] &rarr; [Luận cứ 3] &rarr; [Luận cứ 4].</em></li>
+            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another positive aspect is that [lợi ích 2 – mệnh đề]. &rarr; [Luận cứ 1] &rarr; [Luận cứ 2] &rarr; [Luận cứ 3] &rarr; [Luận cứ 4].</em></li>
+            <li><strong>Thân bài 3 (Body 3):</strong> <em>A further advantage is that [lợi ích 3 – mệnh đề]. &rarr; [Luận cứ 1] &rarr; [Luận cứ 2] &rarr; [Luận cứ 3] &rarr; [Luận cứ 4].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] offers several notable advantages. These benefits can have a positive influence on individuals and society in various ways. Overall, its positive contributions highlight the importance of [chủ đề - danh từ / cụm danh từ] in modern life.</em></li>
+          </ul>
+        `;
+      } else {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become increasingly prevalent in modern society. Although it brings certain benefits, there are also some negative aspects. This essay will examine both the advantages and disadvantages.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Advantages):</strong> <em>On the one hand, [chủ đề - danh từ / cụm danh từ] offers several advantages. One major benefit is that [lợi ích 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. Another positive aspect is that [lợi ích 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. A further advantage to consider is that [lợi ích 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Disadvantages):</strong> <em>On the other hand, there are some disadvantages that should be considered. One possible drawback is that [bất lợi 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. Another negative aspect is that [bất lợi 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. A further concern is that [bất lợi 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] has both positive and negative aspects that should not be overlooked. While it offers certain benefits, its potential drawbacks may also have significant implications. Therefore, a balanced consideration of both aspects is essential.</em></li>
+          </ul>
+        `;
+      }
     } else {
       customOutlineGuide = `
         <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem;">
