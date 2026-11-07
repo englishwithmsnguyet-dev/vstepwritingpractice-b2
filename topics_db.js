@@ -874,40 +874,40 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Học trực tuyến: Xu hướng tất yếu của giáo dục hiện đại",
-                "summary": "Học trực tuyến mang lại sự linh hoạt tối đa về thời gian và chi phí, song đòi hỏi học viên tính tự giác và kỹ năng số vững vàng.",
-                "url": "https://vnexpress.net/giao-duc"
+                "title": "Phân tích thuận lợi và khó khăn khi học trực tuyến",
+                "summary": "Học trực tuyến mang lại sự linh hoạt tối đa về thời gian và không gian, song đòi hỏi học viên tính tự giác cao và đường truyền kết nối ổn định.",
+                "url": "https://vnexpress.net/hocmai-phan-tich-thuan-loi-va-kho-khan-khi-hoc-truc-tuyen-4239719.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Dạy và học trực tuyến: Cơ hội và rào cản cần vượt qua",
-                "summary": "Kho học liệu số toàn cầu giúp nâng cao chất lượng đào tạo, nhưng sự thiếu hụt tương tác trực tiếp và đường truyền mạng vẫn là rào cản lớn.",
-                "url": "https://tuoitre.vn/giao-duc.htm"
+                "title": "Dạy học trực tuyến: Phát huy điểm mạnh, hạn chế điểm yếu",
+                "summary": "Kho học liệu số giúp người học dễ dàng xem lại bài giảng để nắm vững kiến thức, nhưng cần khắc phục hạn chế về tương tác trực tiếp giữa thầy và trò.",
+                "url": "https://tuoitre.vn/day-hoc-truc-tuyen-phat-huy-diem-manh-han-che-diem-yeu-20200401104335695.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Chuyển đổi số giáo dục: Khi giảng đường không còn bị giới hạn",
-                "summary": "Người học chủ động học theo nhịp độ cá nhân, tiết kiệm đáng kể chi phí đi lại và sinh hoạt so với mô hình lớp học truyền thống.",
-                "url": "https://dantri.com.vn/giao-duc.htm"
+                "title": "Học trực tuyến: Chấp nhận khó khăn để đón đầu cơ hội",
+                "summary": "Người học chủ động tiếp cận tri thức theo nhịp độ cá nhân, tiết kiệm chi phí đi lại và rèn luyện kỹ năng công nghệ số cho tương lai.",
+                "url": "https://dantri.com.vn/ban-doc/hoc-truc-tuyen-chap-nhan-kho-khan-de-don-dau-co-hoi-20211002093458330.htm"
               }
             ],
             "en": [
               {
                 "source": "World Economic Forum (WEF)",
-                "title": "The Rise of Online Learning in Modern Education",
-                "summary": "Research shows that online learning can increase information retention and allow students to learn at their own pace using digital tools.",
-                "url": "https://www.weforum.org/agenda/2020/04/coronavirus-education-global-covid19-online-digital-learning/"
+                "title": "The COVID-19 Pandemic Has Changed Education Forever: Rise of Online Learning",
+                "summary": "Research shows that online learning can increase information retention, save time, and allow students to learn at their own pace using digital platforms.",
+                "url": "https://www.weforum.org/stories/education-and-skills/online-learning-higher-education-covid-19/"
               },
               {
-                "source": "BBC News",
-                "title": "Online Classes: The Challenges and Opportunities of Digital Education",
-                "summary": "Digital platforms offer unmatched flexibility for learners balancing busy schedules, though screen fatigue and lack of socialization remain issues.",
-                "url": "https://www.bbc.com/news/education-55109033"
+                "source": "UNESCO IIEP",
+                "title": "How Good Is Online Learning? Addressing the Quality and Equity Problem",
+                "summary": "Examines how digital education expands access to global learning resources while highlighting challenges in practical training and the digital divide.",
+                "url": "https://www.iiep.unesco.org/en/articles/how-good-online-learnings-quality-problem"
               },
               {
                 "source": "Forbes",
-                "title": "The Pros and Cons of Online Learning in Higher Education",
-                "summary": "Virtual courses drastically cut tuition and accommodation expenses, but achieving success demands high self-discipline and digital literacy.",
+                "title": "The Pros and Cons of Online College and Higher Education",
+                "summary": "Virtual courses drastically cut commuting and accommodation expenses, but achieving academic success demands strong self-discipline and time management.",
                 "url": "https://www.forbes.com/advisor/education/online-college-pros-and-cons/"
               }
             ]
@@ -2021,41 +2021,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Du học sinh Việt và hành trình trưởng thành nơi xứ người",
-                "summary": "Du học mở ra cánh cửa tiếp cận nền giáo dục tiên tiến và rèn bản lĩnh tự lập, nhưng đòi hỏi sự chuẩn bị kỹ về tài chính và tâm lý.",
-                "url": "https://vnexpress.net/giao-duc/du-hoc"
-              },
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Cơ hội việc làm toàn cầu và thách thức hòa nhập của du học sinh",
-                "summary": "Tấm bằng quốc tế cùng khả năng ngoại ngữ tốt giúp người trẻ có lợi thế cạnh tranh lớn, dù giai đoạn đầu thường đối mặt với sốc văn hóa.",
-                "url": "https://tuoitre.vn/giao-duc/du-hoc.htm"
+                "title": "Những lợi ích thiết thực của việc đi du học",
+                "summary": "Du học mở ra cánh cửa tiếp cận nền giáo dục tiên tiến, nâng cao trình độ ngoại ngữ và rèn luyện bản lĩnh tự lập nơi xứ người.",
+                "url": "https://vnexpress.net/loi-ich-cua-viec-du-hoc-3226232.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Bài toán chi phí và áp lực học tập khi lựa chọn du học tự túc",
-                "summary": "Nhiều gia đình phải cân nhắc kỹ lưỡng nguồn lực kinh tế để tránh tạo gánh nặng tài chính quá sức cho con em khi học tập ở nước ngoài.",
-                "url": "https://dantri.com.vn/giao-duc.htm"
+                "title": "Xu hướng du học, làm việc và định cư quốc tế của học sinh Việt",
+                "summary": "Tấm bằng quốc tế cùng trải nghiệm đa văn hóa giúp người trẻ mở rộng cơ hội nghề nghiệp toàn cầu tại các tập đoàn đa quốc gia.",
+                "url": "https://dantri.com.vn/giao-duc/xu-huong-du-hoc-lam-viec-va-dinh-cu-quoc-te-cua-hoc-sinh-viet-20240413191458517.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Nếu không tính toán kỹ, du học có thể là một 'canh bạc'",
+                "summary": "Chi phí học phí, sinh hoạt phí đắt đỏ cùng áp lực tâm lý, sốc văn hóa và nỗi nhớ nhà đòi hỏi gia đình và du học sinh phải chuẩn bị kỹ lưỡng.",
+                "url": "https://vnexpress.net/neu-khong-tinh-toan-ky-du-hoc-co-the-la-mot-canh-bac-5067546.html"
               }
             ],
             "en": [
               {
-                "source": "UNESCO",
-                "title": "Global Flow of Tertiary-Level Students and International Education",
-                "summary": "International student mobility fosters cross-cultural understanding, knowledge transfer, and global academic collaboration.",
-                "url": "https://www.unesco.org/en/higher-education"
+                "source": "The Guardian",
+                "title": "University Study Abroad: Good for the Character and Career Prospects",
+                "summary": "Studying overseas builds personal independence, cross-cultural adaptability, and employability while requiring careful financial planning.",
+                "url": "https://www.theguardian.com/education/2018/jun/19/university-study-abroad-good-for-the-character-and-the-bank-balance"
               },
               {
-                "source": "THE (Times Higher Education)",
-                "title": "The Benefits and Challenges of Studying Abroad for University Students",
-                "summary": "Studying overseas boosts employability, language fluency, and personal resilience, while requiring support systems for mental well-being.",
-                "url": "https://www.timeshighereducation.com/student"
+                "source": "Times Higher Education (THE)",
+                "title": "Five Reasons Why You Should Study Abroad at University",
+                "summary": "International students gain access to world-class academic facilities, global networks, and immersive foreign language environments.",
+                "url": "https://www.timeshighereducation.com/student/advice/five-reasons-why-you-should-study-abroad"
               },
               {
-                "source": "BBC News",
-                "title": "International Students: Coping with Rising Living Costs and Homesickness",
-                "summary": "While overseas degrees offer prestigious qualifications, soaring tuition and accommodation fees pose major hurdles for foreign learners.",
-                "url": "https://www.bbc.com/news/education"
+                "source": "The Higher Education Review",
+                "title": "Exploring the Benefits and Challenges of Studying Abroad",
+                "summary": "Analyzes both the academic and career advantages of international education and the challenges of homesickness and cultural adjustment.",
+                "url": "https://www.thehighereducationreview.com/articles/exploring-the-benefits-and-challenges-of-studying-abroad-nid-5486.html"
               }
             ]
           },
@@ -3090,41 +3090,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Internet đã thay đổi đời sống, học tập và kinh tế số như thế nào?",
-                "summary": "Mạng toàn cầu mở ra kho tri thức vô tận và kết nối không biên giới, song đòi hỏi người dùng kỹ năng tự bảo vệ dữ liệu cá nhân.",
-                "url": "https://vnexpress.net/so-hoa"
+                "title": "Nghiên cứu: Internet có thể khiến người dùng hạnh phúc và kết nối tốt hơn",
+                "summary": "Quyền tiếp cận Internet giúp con người tra cứu tri thức tức thời, kết nối xuyên biên giới và nâng cao chất lượng dịch vụ đời sống.",
+                "url": "https://vnexpress.net/internet-co-the-khien-nguoi-dung-hanh-phuc-hon-4746079.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Cảnh giác trước bẫy lừa đảo trực tuyến và tin giả trên không gian mạng",
-                "summary": "Sự bùng nổ thông tin chưa kiểm chứng và tội phạm mạng đặt ra yêu cầu cấp thiết về kỹ năng an toàn số cho mọi công dân.",
-                "url": "https://tuoitre.vn/cong-nghe.htm"
+                "title": "Nghiện Internet ảnh hưởng ra sao đến não bộ và tâm lý người trẻ?",
+                "summary": "Lạm dụng không gian mạng quá mức làm suy giảm khả năng tập trung, gây rối loạn giấc ngủ và làm xói mòn sự giao tiếp trực tiếp ngoài đời thực.",
+                "url": "https://tuoitre.vn/nghien-internet-anh-huong-ra-sao-den-nao-bo-nguoi-tre-2024060612341522.htm"
               },
               {
-                "source": "Báo Dân Trí",
-                "title": "Nghiện Internet và hệ lụy đối với sức khỏe thể chất, tinh thần giới trẻ",
-                "summary": "Dành quá nhiều thời gian trên mạng xã hội gây rối loạn giấc ngủ, suy giảm thị lực và làm nghèo nàn kỹ năng giao tiếp thực tế.",
-                "url": "https://dantri.com.vn/suc-khoe.htm"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Khi dùng Internet, hãy là người thông thái trước ma trận thông tin",
+                "summary": "Cảnh báo nguy cơ tin giả (fake news), lừa đảo trực tuyến và đánh cắp dữ liệu cá nhân nếu người dùng thiếu kỹ năng an toàn số.",
+                "url": "https://tuoitre.vn/khi-dung-internet-hay-la-nguoi-thong-thai-377149.htm"
               }
             ],
             "en": [
               {
                 "source": "World Economic Forum (WEF)",
-                "title": "How Digital Connectivity Is Transforming Global Education and Business",
-                "summary": "Broadband access empowers remote learning, e-commerce, and global collaboration while highlighting the need for digital literacy.",
-                "url": "https://www.weforum.org/"
+                "title": "Cybersecurity and Information Integrity in the Digital Age",
+                "summary": "Explores how global internet connectivity powers the digital economy while requiring strong defenses against cybercrime and online disinformation.",
+                "url": "https://www.weforum.org/stories/cybersecurity/cybersecurity-information-integrity"
               },
               {
-                "source": "BBC Future",
-                "title": "How the Internet Is Changing the Human Brain and Social Behavior",
-                "summary": "Instant access to information boosts efficiency, yet constant digital notifications can fragment attention spans and increase anxiety.",
-                "url": "https://www.bbc.com/future"
+                "source": "World Health Organization (WHO)",
+                "title": "Infodemics and Online Misinformation Negatively Affect Health Behaviours",
+                "summary": "WHO review examining how the rapid spread of unverified online information impacts public trust and mental well-being.",
+                "url": "https://www.who.int/europe/news/item/01-09-2022-infodemics-and-misinformation-negatively-affect-people-s-health-behaviours--new-who-review-finds"
               },
               {
                 "source": "The Guardian",
-                "title": "Cybersecurity and Privacy in the Age of the Modern Internet",
-                "summary": "As daily life moves online, protecting personal data from identity theft, phishing scams, and surveillance becomes critical.",
-                "url": "https://www.theguardian.com/technology"
+                "title": "More Than Half of Top Mental Health Videos Online Contain Misinformation",
+                "summary": "Highlights the importance of critical thinking and fact-checking when consuming advice and information on social media platforms.",
+                "url": "https://www.theguardian.com/society/2025/may/31/more-than-half-of-top-100-mental-health-tiktoks-contain-misinformation-study-finds"
               }
             ]
           },
@@ -4106,42 +4106,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
+                "source": "Báo Dân Trí",
+                "title": "Thạc sĩ ĐH Harvard: Giáo dục tại nhà (Homeschooling) đòi hỏi sự đầu tư lớn",
+                "summary": "Homeschooling giúp cá nhân hóa lộ trình học theo năng lực của trẻ, nhưng đòi hỏi cha mẹ phải đầu tư rất nhiều thời gian, kiến thức sư phạm và tài chính.",
+                "url": "https://dantri.com.vn/giao-duc/thac-si-dh-harvard-giao-duc-tai-nha-khong-phai-mot-giai-phap-bo-cuoc-20170508115106622.htm"
+              },
+              {
                 "source": "VnExpress",
-                "title": "Homeschooling: Xu hướng giáo dục tại nhà và những điều phụ huynh cần biết",
-                "summary": "Học tại nhà mang lại sự linh hoạt cá nhân hóa tối đa nhưng đòi hỏi cha mẹ có nền tảng kiến thức sư phạm và quỹ thời gian lớn.",
-                "url": "https://vnexpress.net/giao-duc"
+                "title": "Homeschooling và bài toán công nhận bằng cấp, khung pháp lý",
+                "summary": "Phân tích những rào cản về chứng nhận học thuật và khó khăn khi trẻ học tại nhà muốn chuyển tiếp hoặc thi vào hệ thống trường công lập.",
+                "url": "https://vnexpress.net/homeschooling-vo-thua-nhan-5140277.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Trẻ học tại nhà (Homeschooling) có bị thiếu hụt kỹ năng xã hội?",
-                "summary": "Các chuyên gia giáo dục phân tích mặt được và mất khi tách trẻ khỏi môi trường trường lớp truyền thống để tự đào tạo tại gia đình.",
-                "url": "https://dantri.com.vn/giao-duc.htm"
-              },
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Cân nhắc kỹ năng lực gia đình trước khi chọn lộ trình học tại nhà cho con",
-                "summary": "Thiếu phòng thí nghiệm, hoạt động tập thể và bằng cấp chuẩn hóa là những rào cản thực tế mà phụ huynh cần tính toán kỹ.",
-                "url": "https://tuoitre.vn/giao-duc.htm"
+                "title": "Học Homeschooling: Nhiều học sinh gặp khó khăn khi trở lại trường truyền thống",
+                "summary": "Thiếu môi trường giao tiếp bạn bè đồng trang lứa và kỷ luật tập thể có thể khiến trẻ học tại nhà gặp bỡ ngỡ khi tái hòa nhập trường học.",
+                "url": "https://dantri.com.vn/giao-duc/hoc-homeschool-nhieu-hoc-sinh-kho-tro-lai-truong-20260813102347520.htm"
               }
             ],
             "en": [
               {
-                "source": "Harvard Magazine",
-                "title": "The Risks and Rewards of Homeschooling in Modern Education",
-                "summary": "Researchers examine how home-based education offers tailored instruction and safety while raising questions about socialization and oversight.",
-                "url": "https://www.harvardmagazine.com/"
-              },
-              {
-                "source": "BBC News",
-                "title": "Why More Families Are Choosing Home Education",
-                "summary": "Parents cite mental wellbeing, bullying prevention, and flexible learning paces as key drivers behind the rise in homeschooling.",
-                "url": "https://www.bbc.com/news/education"
+                "source": "The Guardian",
+                "title": "Lack of Home Schooling Oversight Poses Risks to Children, Experts Say",
+                "summary": "Examines the debate around home education, balancing personalized learning freedom with the need for academic standards and social interaction.",
+                "url": "https://www.theguardian.com/education/2023/dec/25/home-schooling-education-oversight-danger-children"
               },
               {
                 "source": "Forbes",
-                "title": "Understanding the Pros and Cons of Homeschooling Your Child",
-                "summary": "While customized curricula help children thrive academically, homeschooling requires immense parental dedication and financial planning.",
-                "url": "https://www.forbes.com/advisor/education/"
+                "title": "Embracing Diverse School Models and Personalized Learning for Student Success",
+                "summary": "Explores how customized educational pathways allow children to learn at their own pace and pursue individual talents.",
+                "url": "https://www.forbes.com/sites/yassprize/2024/06/07/embracing-diverse-school-models-for-student-success/"
+              },
+              {
+                "source": "The Guardian",
+                "title": "The Rise of Travelling Families and World-Schooling",
+                "summary": "Looks at how flexible home-based education strengthens family bonds and real-world learning, alongside the challenges of peer socialization.",
+                "url": "https://www.theguardian.com/travel/2016/jan/29/is-world-schooling-kids-selfish-family-travel-edventures"
               }
             ]
           },
@@ -5225,41 +5225,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Phát triển giao thông công cộng: Chìa khóa giải bài toán kẹt xe đô thị",
-                "summary": "Mở rộng mạng lưới xe buýt và tàu điện giúp giảm lượng xe cá nhân, tiết kiệm chi phí xã hội và cắt giảm khí thải nhà kính.",
-                "url": "https://vnexpress.net/thoi-su/giao-thong"
+                "title": "Phương tiện giao thông công cộng giúp giảm hao phí xã hội",
+                "summary": "Phát triển xe buýt và tàu điện đô thị giúp giải phóng mặt đường, tiết kiệm chi phí đi lại cho người dân và cắt giảm khí thải ô nhiễm.",
+                "url": "https://vnexpress.net/phuong-tien-cong-cong-giam-hao-phi-xa-hoi-4571918.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Làm sao để người dân mặn mà hơn với phương tiện giao thông công cộng?",
-                "summary": "Để thu hút hành khách, hệ thống xe buýt cần khắc phục tình trạng quá tải giờ cao điểm, chậm chuyến và nâng cao chất lượng dịch vụ.",
-                "url": "https://tuoitre.vn/giao-thong.htm"
+                "title": "Xe công cộng phải cạnh tranh và tiện lợi hơn xe cá nhân",
+                "summary": "Chỉ ra những bất cập khiến người dân còn e ngại xe buýt như thời gian chờ đợi, thiếu kết nối tuyến nhánh và tình trạng quá tải giờ cao điểm.",
+                "url": "https://tuoitre.vn/xe-cong-cong-phai-canh-tranh-hon-xe-ca-nhan-20190311102020055.htm"
               },
               {
-                "source": "Báo Dân Trí",
-                "title": "Lợi ích kinh tế và môi trường khi chuyển sang đi xe buýt, tàu điện",
-                "summary": "Người đi làm tiết kiệm được khoản lớn tiền xăng xe, gửi xe mỗi tháng và có thể tận dụng thời gian trên xe để nghỉ ngơi.",
-                "url": "https://dantri.com.vn/xa-hoi/giao-thong.htm"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Thúc đẩy sử dụng phương tiện giao thông công cộng tại các đô thị lớn",
+                "summary": "Đề xuất giải pháp nâng cấp chất lượng dịch vụ, vé điện tử liên thông và xe buýt gom để thu hút người dân từ bỏ phương tiện cá nhân.",
+                "url": "https://tuoitre.vn/nld/thuc-day-su-dung-phuong-tien-cong-cong-196250902204401635.htm"
               }
             ],
             "en": [
               {
                 "source": "World Economic Forum (WEF)",
-                "title": "Why Investing in Public Transit Is Essential for Sustainable Cities",
-                "summary": "Efficient mass transit systems cut carbon emissions, ease urban gridlock, and improve mobility for millions of city dwellers.",
-                "url": "https://www.weforum.org/"
+                "title": "12 Best Ways to Get Cars Out of Cities, Ranked by New Research",
+                "summary": "Demonstrates how expanding reliable public transit networks drastically reduces urban carbon footprints and traffic congestion.",
+                "url": "https://www.weforum.org/stories/built-environment-and-infrastructure/12-best-ways-to-get-cars-out-of-cities-ranked-by-new-research"
               },
               {
                 "source": "The Guardian",
-                "title": "The Future of Urban Mobility: Balancing Convenience and Crowding",
-                "summary": "While buses and subways offer affordable and safe commuting, aging infrastructure and peak-hour overcrowding remain major challenges.",
-                "url": "https://www.theguardian.com/cities"
+                "title": "'I Leave the Car at Home': How Public Buses Are Revolutionising Urban Travel",
+                "summary": "Examines the economic and environmental benefits of affordable public transit for daily commuters in modern cities.",
+                "url": "https://www.theguardian.com/cities/2018/oct/15/i-leave-the-car-at-home-how-free-buses-are-revolutionising-one-french-city"
               },
               {
-                "source": "BBC News",
-                "title": "How Public Transport Shapes Modern Urban Living Standards",
-                "summary": "Reliable public transport boosts productivity and road safety, though fixed routes and delays can frustrate commuters in suburban areas.",
-                "url": "https://www.bbc.com/news"
+                "source": "The Guardian",
+                "title": "Public Transit Experiments: Balancing Commuter Convenience and Overcrowding",
+                "summary": "Analyzes how mass transit policies impact inner-city crowding, funding sustainability, and passenger comfort.",
+                "url": "https://www.theguardian.com/australia-news/2025/jan/12/melbourne-free-trams-experiment-decade-critics"
               }
             ]
           },
@@ -6470,41 +6470,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Làm việc từ xa (Work from home): Xu hướng tất yếu hay giải pháp tạm thời?",
-                "summary": "Làm việc tại nhà giúp tiết kiệm thời gian di chuyển và tăng tính tự chủ, nhưng đặt ra thách thức lớn về sự gắn kết đội ngũ.",
-                "url": "https://vnexpress.net/kinh-doanh"
+                "title": "Làm việc tại gia hiệu quả hơn đến công sở nhờ tiết kiệm thời gian đi lại",
+                "summary": "Làm việc từ xa giúp nhân sự chủ động không gian, tiết kiệm hàng giờ di chuyển mỗi ngày và giảm chi phí vận hành văn phòng cho doanh nghiệp.",
+                "url": "https://vnexpress.net/lam-viec-tai-gia-hieu-qua-hon-den-cong-so-4330549.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Cân bằng công việc và cuộc sống khi văn phòng đặt ngay tại phòng khách",
-                "summary": "Nhiều nhân viên làm việc từ xa rơi vào tình trạng làm việc quá giờ vì ranh giới giữa giờ làm và giờ nghỉ ngơi bị xóa nhòa.",
-                "url": "https://tuoitre.vn/nhip-song-tre.htm"
+                "title": "Làm việc từ xa: Đổi một vài tiện lợi để lấy sự vội vã, mắt không dám rời điện thoại",
+                "summary": "Phản ánh mặt trái của làm việc tại nhà khi ranh giới giữa công việc và cuộc sống cá nhân bị xóa nhòa, dễ dẫn đến kiệt sức (burnout).",
+                "url": "https://tuoitre.vn/lam-viec-tu-xa-doi-mot-vai-tien-loi-de-lay-su-voi-va-bon-chon-mat-khong-dam-roi-dien-thoai-100261019092812666.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Doanh nghiệp chuyển đổi số và bài toán quản trị nhân sự làm việc từ xa",
-                "summary": "Để mô hình làm việc linh hoạt đạt hiệu quả cao, doanh nghiệp cần đầu tư hạ tầng bảo mật và đánh giá nhân sự theo kết quả đầu ra.",
-                "url": "https://dantri.com.vn/lao-dong-viec-lam.htm"
+                "title": "Làm việc từ xa và những tác động tới đời sống, sự nghiệp của người trẻ",
+                "summary": "Thiếu tương tác trực tiếp với đồng nghiệp và cấp trên có thể gây cảm giác cô lập xã hội và làm giảm kỹ năng làm việc nhóm.",
+                "url": "https://dantri.com.vn/nhip-song-tre/lam-viec-tu-xa-tac-dong-tieu-cuc-toi-doi-song-va-su-nghiep-cua-gen-z-20220223001127261.htm"
               }
             ],
             "en": [
               {
-                "source": "Harvard Business Review (HBR)",
-                "title": "The Future of Remote Work and Workplace Productivity",
-                "summary": "Research indicates that autonomy and zero commuting boost employee satisfaction, while organizations must intentionally foster virtual collaboration.",
-                "url": "https://hbr.org/"
+                "source": "World Economic Forum (WEF)",
+                "title": "Remote Working and Hybrid Productivity: What the Research Shows",
+                "summary": "Explores how flexible working arrangements improve work-life balance and job satisfaction while requiring new management practices.",
+                "url": "https://www.weforum.org/stories/jobs-and-the-future-of-work/remote-working-hybrid-productivity"
               },
               {
-                "source": "BBC Worklife",
-                "title": "How Remote Work Is Reshaping Work-Life Balance Around the Globe",
-                "summary": "Telecommuting offers unprecedented schedule flexibility, yet blurred boundaries and digital fatigue remain widespread concerns.",
-                "url": "https://www.bbc.com/worklife"
+                "source": "Forbes",
+                "title": "The Productivity Problem and Collaboration Challenges with Remote Work",
+                "summary": "Analyzes how home distractions, digital fatigue, and reduced spontaneous teamwork can affect fully remote employees.",
+                "url": "https://www.forbes.com/sites/tracybrower/2023/08/06/the-productivity-problem-with-remote-work/"
               },
               {
                 "source": "World Economic Forum (WEF)",
-                "title": "The Rise of Global Digital Jobs and Remote Working",
-                "summary": "Remote work enables companies to tap into broader talent pools and cut office costs while requiring robust cybersecurity protocols.",
-                "url": "https://www.weforum.org/"
+                "title": "Return to Office vs Flexibility: Navigating the Future of Remote Work",
+                "summary": "Examines how employers and workers weigh commuting savings against in-person mentorship and corporate culture.",
+                "url": "https://www.weforum.org/stories/jobs-and-the-future-of-work/return-to-office-flexibility-remote-work"
               }
             ]
           },
@@ -7460,41 +7460,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Gia đình hạt nhân tại đô thị: Tự do nhưng không ít áp lực",
-                "summary": "Các cặp vợ chồng trẻ chọn ra ở riêng để có không gian tự do và tránh mâu thuẫn thế hệ, nhưng phải tự gánh vác bài toán chăm con.",
-                "url": "https://vnexpress.net/doi-song/to-am"
-              },
-              {
-                "source": "Báo Dân Trí",
-                "title": "Xu hướng chuyển dịch từ đại gia đình sang gia đình hạt nhân ở Việt Nam",
-                "summary": "Mô hình gia đình hai thế hệ ngày càng phổ biến nhờ tính linh hoạt kinh tế, song cần chú trọng giữ gìn sợi dây kết nối với ông bà.",
-                "url": "https://dantri.com.vn/tinh-yeu-gioi-tinh/gia-dinh.htm"
+                "title": "Gia đình hạt nhân là xu thế tất yếu trong xã hội hiện đại",
+                "summary": "Mô hình gia đình hai thế hệ (cha mẹ và con cái) mang lại sự tự chủ, không gian riêng tư và giảm thiểu các va chạm thế hệ trong sinh hoạt.",
+                "url": "https://vnexpress.net/gia-dinh-hat-nhan-la-xu-the-tat-yeu-4588518.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Áp lực kép của các cặp vợ chồng trẻ sống xa nội ngoại nơi thành phố",
-                "summary": "Vừa đi làm kiếm tiền vừa tự xoay xở việc nhà và nuôi dạy con nhỏ khiến nhiều cha mẹ trẻ trong gia đình hạt nhân rơi vào quá tải.",
-                "url": "https://tuoitre.vn/van-hoa.htm"
+                "title": "Tạo lập gia đình hạt nhân: Sự tự lập của con cái và nỗi cô đơn của cha mẹ già",
+                "summary": "Phân tích tâm lý của các cặp vợ chồng trẻ khi ra ở riêng cùng những trăn trở về sự thiếu hụt hỗ trợ từ ông bà khi chăm sóc con nhỏ.",
+                "url": "https://tuoitre.vn/phunuonline/tao-lap-gia-dinh-hat-nhan-chap-nhan-noi-buon-cua-cha-me-1101494686.htm"
+              },
+              {
+                "source": "Báo Thanh Niên",
+                "title": "Thách thức khi truyền tải giá trị truyền thống ở gia đình hạt nhân đô thị",
+                "summary": "Khi quy mô gia đình thu hẹp, cha mẹ trẻ phải tự gánh vác áp lực kép giữa sự nghiệp và nuôi dạy con mà ít có sự đồng hành của người lớn tuổi.",
+                "url": "https://thanhnien.vn/thach-thuc-khi-truyen-tai-gia-tri-truyen-thong-o-gia-dinh-viet-nam-18525031810374865.htm"
               }
             ],
             "en": [
               {
                 "source": "Pew Research Center",
-                "title": "The Evolution of the Modern Nuclear Family Household",
-                "summary": "Demographic shifts show how nuclear households offer autonomy and financial clarity while facing rising childcare demands.",
-                "url": "https://www.pewresearch.org/"
+                "title": "5 Facts About the Modern Nuclear Family Household",
+                "summary": "Demographic analysis of how two-parent nuclear households function and evolve in contemporary urban society.",
+                "url": "https://www.pewresearch.org/short-reads/2014/04/30/5-facts-about-the-modern-american-family/"
               },
               {
-                "source": "BBC Worklife",
-                "title": "Why Modern Parents Struggle Without the Extended Family Village",
-                "summary": "While independent living reduces intergenerational friction, dual-income couples often experience burnout without relatives nearby.",
-                "url": "https://www.bbc.com/worklife"
+                "source": "Institute for Family Studies (IFS)",
+                "title": "Why the Nuclear Family Structure Remains Vital for Child Development",
+                "summary": "Highlights how close parent-child bonding and autonomous household decision-making foster stability and independence.",
+                "url": "https://ifstudies.org/blog/the-nuclear-family-is-still-indispensable"
               },
               {
-                "source": "Psychology Today",
-                "title": "Pros and Cons of Raising Children in a Nuclear Family Structure",
-                "summary": "Consistent parental authority benefits child development, though regular contact with grandparents remains vital for cultural continuity.",
-                "url": "https://www.psychologytoday.com/"
+                "source": "The Nation",
+                "title": "The Pressures Facing Isolated Nuclear Families Without Extended Kin Support",
+                "summary": "Examines the financial and caregiving burdens placed on working parents when raising children without an extended family safety net.",
+                "url": "https://www.thenation.com/article/society/nuclear-family-progressive-critique/"
               }
             ]
           },
@@ -8622,41 +8622,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Gia đình nhiều thế hệ dưới một mái nhà: Giữ lửa yêu thương thời hiện đại",
-                "summary": "Phân tích những giá trị gắn kết tinh thần, sự hỗ trợ chăm sóc con cái và những thách thức về khoảng cách thế hệ trong các gia đình tam đại, tứ đại đồng đường tại Việt Nam.",
-                "url": "https://vnexpress.net/gia-dinh-nhieu-the-he-duoi-mot-mai-nha-4522418.html"
+                "title": "Ưu điểm khi trẻ lớn lên trong gia đình có nhiều thế hệ",
+                "summary": "Sống chung với ông bà giúp trẻ nhận được sự yêu thương, học hỏi các giá trị truyền thống và giúp cha mẹ giảm bớt gánh nặng chăm sóc con.",
+                "url": "https://vnexpress.net/uu-diem-khi-lon-len-trong-gia-dinh-co-nhieu-the-he-2997625.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Sống chung nhiều thế hệ: Làm sao để dung hòa sự khác biệt?",
-                "summary": "Bài viết chỉ ra các mâu thuẫn phổ biến về không gian riêng tư, quan điểm nuôi dạy con và cách thiết lập ranh giới tôn trọng lẫn nhau.",
-                "url": "https://tuoitre.vn/song-chung-nhieu-the-he-lam-sao-de-dung-hoa-su-khac-biet-20230628091523412.htm"
+                "title": "Gia đình nhiều thế hệ: Ứng xử thế nào để dung hòa sự khác biệt?",
+                "summary": "Phân tích những bất đồng thường gặp về lối sống, khoảng cách thế hệ, sự riêng tư và cách giữ gìn hòa khí trong đại gia đình.",
+                "url": "https://tuoitre.vn/gia-dinh-nhieu-the-he-ung-xu-the-nao-20201031091947922.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Xu hướng gia đình hạt nhân và gia đình truyền thống trong xã hội đô thị",
-                "summary": "Đánh giá vai trò của ông bà trong việc truyền dạy giá trị văn hóa và giảm tải áp lực kinh tế, việc nhà cho các cặp vợ chồng trẻ.",
-                "url": "https://dantri.com.vn/doi-song/gia-dinh-nhieu-the-he-trong-xa-hoi-hien-dai-20230627142015632.htm"
+                "title": "Gia đình nhiều thế hệ trong nhịp sống hiện đại: Giá trị của sự sẻ chia",
+                "summary": "Đánh giá vai trò hỗ trợ lẫn nhau về tinh thần và trách nhiệm gia đình giữa ông bà, cha mẹ và con cháu dưới một mái nhà.",
+                "url": "https://dantri.com.vn/tinh-yeu-gioi-tinh/gia-dinh-nhieu-the-he-1195898788.htm"
               }
             ],
             "en": [
               {
                 "source": "Pew Research Center",
-                "title": "The rise of multigenerational family households and its social impacts",
-                "summary": "Comprehensive demographic study explaining how financial sharing, caregiving, and emotional bonds drive the growth of extended family living.",
+                "title": "Financial Issues and Caregiving Top the Reasons Adults Live in Multigenerational Homes",
+                "summary": "Comprehensive study showing how extended family households share living costs, childcare, and elderly care responsibilities.",
                 "url": "https://www.pewresearch.org/social-trends/2022/03/24/financial-issues-top-the-list-of-reasons-u-s-adults-live-in-multigenerational-homes/"
               },
               {
-                "source": "BBC Family & Education",
-                "title": "The benefits and challenges of living in a multigenerational home",
-                "summary": "Explores how living with relatives strengthens intergenerational relationships while requiring compromise on privacy and lifestyle differences.",
-                "url": "https://www.bbc.com/worklife/article/20210818-the-rise-of-multigenerational-living"
+                "source": "Pew Research Center",
+                "title": "The Return and Demographics of Multigenerational Family Households",
+                "summary": "Examines how living with relatives strengthens intergenerational bonds and prevents loneliness among older adults.",
+                "url": "https://www.pewresearch.org/social-trends/2022/03/24/the-demographics-of-multigenerational-households/"
               },
               {
-                "source": "Harvard Health Publishing",
-                "title": "Grandparents and extended family: Positive effects on child development",
-                "summary": "Medical and psychological insights into how living with grandparents reduces elderly isolation and fosters resilience and moral values in children.",
-                "url": "https://www.health.harvard.edu/blog/the-benefits-of-multigenerational-living-202111152638"
+                "source": "Harvard University (GSD)",
+                "title": "Intergenerational Housing: Living Together by Design",
+                "summary": "Explores the benefits of multigenerational living and how families navigate privacy and lifestyle differences under one roof.",
+                "url": "https://www.gsd.harvard.edu/2026/04/intergenerational-housing-living-together-by-design/"
               }
             ]
           },
@@ -9756,40 +9756,40 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Du lịch tâm linh tại Việt Nam: Tiềm năng lớn gắn với bảo tồn di sản văn hóa",
-                "summary": "Đánh giá sức hút của loại hình du lịch văn hóa tâm linh đối với kinh tế địa phương và nhu cầu tìm kiếm sự bình an tinh thần của người dân.",
-                "url": "https://vnexpress.net/du-lich-tam-linh-xu-huong-hut-khach-dau-nam-4714235.html"
+                "title": "6 hành trình du lịch tâm linh khách Việt yêu thích",
+                "summary": "Du lịch tâm linh kết hợp vãn cảnh giúp du khách tìm kiếm sự bình yên trong tâm hồn và tìm hiểu các di sản văn hóa, lịch sử dân tộc.",
+                "url": "https://vnexpress.net/6-hanh-trinh-du-lich-tam-linh-khach-viet-yeu-thich-4807483.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Chấn chỉnh tình trạng thương mại hóa và quá tải tại các điểm du lịch tâm linh",
-                "summary": "Phản ánh thực trạng quá tải, xả rác và nạn chèo kéo khách tại các lễ hội chùa chiền, đồng thời đề xuất giải pháp giữ gìn không gian thanh tịnh.",
-                "url": "https://tuoitre.vn/ung-xu-van-minh-khi-di-le-chua-dau-nam-20240215102345123.htm"
+                "title": "Du lịch tâm linh vào mùa lễ Tết: Cơ hội kinh tế và áp lực quá tải",
+                "summary": "Lượng khách đổ về các điểm hành hương tạo nguồn thu lớn cho địa phương nhưng cũng đặt ra bài toán về ùn tắc, tiếng ồn và rác thải.",
+                "url": "https://tuoitre.vn/saigontimes/du-lich-tam-linh-doi-vao-mua-le-tet-106833164.htm"
               },
               {
                 "source": "Báo Thanh Niên",
-                "title": "Phát triển du lịch văn hóa - tâm linh bền vững: Bài toán giữa kinh tế và bảo tồn",
-                "summary": "Phân tích mối quan hệ hai chiều giữa phát triển dịch vụ du lịch và việc gìn giữ giá trị nguyên bản của các di tích tôn giáo.",
-                "url": "https://thanhnien.vn/phat-trien-du-lich-tam-linh-ben-vung-185230312145123.htm"
+                "title": "Phát triển điểm đến du lịch tâm linh gắn với gìn giữ sự trang nghiêm",
+                "summary": "Nhấn mạnh việc bảo tồn không gian thanh tịnh, tránh thương mại hóa quá mức tại các quần thể di tích tôn giáo, tín ngưỡng.",
+                "url": "https://thanhnien.vn/me-nam-hai-diem-du-lich-tam-linh-noi-tieng-vung-cuc-nam-to-quoc-185260910163211049.htm"
               }
             ],
             "en": [
               {
                 "source": "UNWTO (UN Tourism)",
-                "title": "Religious and Spiritual Tourism: Drivers, Impacts and Sustainability",
-                "summary": "Official United Nations Tourism overview of how pilgrimage and heritage visits stimulate local economies and intercultural dialogue worldwide.",
-                "url": "https://www.unwto.org/religious-tourism"
+                "title": "Religious Tourism as a Catalyst for Cultural Understanding and Local Development",
+                "summary": "Official UN Tourism report on how pilgrimage and visits to sacred sites foster intercultural tolerance and boost local economies.",
+                "url": "https://www.unwto.org/archive/europe/press-release/2016-11-14/religious-tourism-catalyst-cultural-understanding"
               },
               {
-                "source": "BBC Travel",
-                "title": "When sacred sites become tourist traps: The challenge of overtourism",
-                "summary": "Examines how mass tourism and commercialization affect the spiritual atmosphere and physical preservation of famous temples and cathedrals.",
-                "url": "https://www.bbc.com/travel/article/20190729-how-overtourism-threatens-sacred-sites"
+                "source": "UNWTO (UN Tourism)",
+                "title": "How Sustainable Tourism Can Protect and Promote Religious Heritage",
+                "summary": "Examines how tourism revenue supports the conservation of historic temples, churches, and monuments while requiring crowd management.",
+                "url": "https://www.unwto.org/archive/europe/press-release/2014-12-10/tourism-can-protect-and-promote-religious-heritage"
               },
               {
                 "source": "UNESCO World Heritage Centre",
-                "title": "Cultural heritage conservation and managing visitors at religious sites",
-                "summary": "Explores strategies for balancing tourist revenue with environmental protection and respect for local religious communities.",
+                "title": "UNESCO World Heritage and Sustainable Tourism Programme",
+                "summary": "Outlines global strategies for protecting fragile cultural and spiritual heritage sites from environmental degradation and over-commercialization.",
                 "url": "https://whc.unesco.org/en/tourism/"
               }
             ]
@@ -10793,42 +10793,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Tàu điện trên cao Cát Linh - Hà Đông và Nhổn - Ga Hà Nội thay đổi thói quen đi lại đô thị",
-                "summary": "Ghi nhận hiệu quả giảm ùn tắc giao thông, tiết kiệm thời gian di chuyển và xu hướng người dân chuyển từ xe máy sang tàu điện trên cao tại Hà Nội.",
-                "url": "https://vnexpress.net/tau-dien-nhon-ga-ha-noi-chay-thuong-mai-doan-tren-cao-4779123.html"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Hà Nội chuyển mình với mạng lưới đường sắt đô thị và tàu điện trên cao",
+                "summary": "Hệ thống tàu điện trên cao giúp giải tỏa ùn tắc giao thông giờ cao điểm, rút ngắn thời gian đi lại và giảm lượng khí thải phương tiện cá nhân.",
+                "url": "https://tuoitre.vn/ha-noi-chuyen-minh-voi-mang-luoi-metro-100260625084859351.htm"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Tuyến Metro số 1 Bến Thành - Suối Tiên: Động lực phát triển đô thị hiện đại tại TP.HCM",
-                "summary": "Phân tích lợi ích kinh tế, môi trường của hệ thống đường sắt đô thị cũng như bài toán vốn đầu tư và kết nối xe buýt trung chuyển.",
-                "url": "https://tuoitre.vn/metro-so-1-ben-thanh-suoi-tien-chinh-thuc-van-hanh-20241222083012345.htm"
+                "source": "VnExpress",
+                "title": "Bài toán vốn đầu tư và hiệu quả kinh tế khi xây dựng các tuyến metro, tàu điện",
+                "summary": "Phân tích nguồn vốn đầu tư khổng lồ để xây dựng đường ray, nhà ga cũng như thách thức trong quá trình thi công và kết nối hạ tầng.",
+                "url": "https://vnexpress.net/loi-lo-metro-4477792.html"
               },
               {
                 "source": "Báo Thanh Niên",
-                "title": "Phát triển đường sắt đô thị tại các thành phố lớn: Cơ hội và thách thức về nguồn vốn",
-                "summary": "Đánh giá thách thức về giải phóng mặt bằng, chi phí đầu tư ban đầu cao và yêu cầu quy hoạch đồng bộ hạ tầng giao thông công cộng.",
-                "url": "https://thanhnien.vn/phat-trien-duong-sat-do-thi-tai-ha-noi-va-tphcm-185240510112233.htm"
+                "title": "Hiện đại hóa hệ thống tàu điện trên cao phục vụ hành khách đô thị",
+                "summary": "Việc ứng dụng công nghệ vé điện tử và mở rộng mạng lưới nhà ga giúp người dân tiếp cận phương tiện giao thông xanh thuận tiện hơn.",
+                "url": "https://thanhnien.vn/hanh-khach-co-the-dung-ve-ao-de-di-tau-dien-o-ha-noi-185250729191618181.htm"
               }
             ],
             "en": [
               {
                 "source": "World Bank Transport",
-                "title": "Urban Rail Transit: Environmental and Economic Benefits for Megacities",
-                "summary": "Examines how elevated and underground rail networks reduce carbon emissions, relieve congestion, and requires strategic public financing.",
+                "title": "Urban Rail Transit: Environmental and Economic Benefits for Big Cities",
+                "summary": "World Bank analysis of how elevated and metro rail systems cut urban congestion and emissions while demanding large capital investment.",
                 "url": "https://www.worldbank.org/en/topic/transport/brief/urban-rail-transit"
               },
               {
-                "source": "The Guardian Cities",
-                "title": "How Bangkok's BTS Skytrain transformed commuting in a congested metropolis",
-                "summary": "Case study looking at both the rapid transit benefits and the challenges of station accessibility and ticket affordability for low-income residents.",
-                "url": "https://www.theguardian.com/cities/2018/may/15/bangkok-skytrain-public-transport-traffic-congestion"
+                "source": "World Economic Forum (WEF)",
+                "title": "How High-Capacity Public Rail Transit Transforms Sustainable Urban Mobility",
+                "summary": "Highlights why shifting commuters from private cars to electric rail is essential for clean air and city productivity.",
+                "url": "https://www.weforum.org/stories/built-environment-and-infrastructure/12-best-ways-to-get-cars-out-of-cities-ranked-by-new-research"
               },
               {
-                "source": "World Economic Forum",
-                "title": "The Role of Public Transit in Sustainable Urban Mobility",
-                "summary": "Highlights why investing in high-capacity electric rail is critical for clean air and economic productivity in fast-growing cities.",
-                "url": "https://www.weforum.org/stories/2023/03/public-transport-sustainable-cities-mobility/"
+                "source": "The Guardian",
+                "title": "Why Electric Rail and Trams Are Key to Solving Big City Traffic Jams",
+                "summary": "Explores the speed, punctuality, and environmental advantages of dedicated rail tracks compared to road transport.",
+                "url": "https://www.theguardian.com/theguardian/2012/oct/31/trams-better-than-buses"
               }
             ]
           },
@@ -11971,42 +11971,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "AI và công cụ dịch máy thay đổi việc học ngoại ngữ và dịch thuật như thế nào?",
-                "summary": "Phân tích tốc độ xử lý vượt trội của các công cụ dịch thuật AI hiện nay và lý do vì sao biên dịch viên con người vẫn không thể bị thay thế hoàn toàn.",
-                "url": "https://vnexpress.net/ai-thay-doi-nganh-dich-thuat-nhu-the-nao-4651234.html"
-              },
-              {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Có công cụ dịch thuật AI, người trẻ có còn cần học ngoại ngữ?",
-                "summary": "Các chuyên gia giáo dục cảnh báo sự ỷ lại vào phần mềm dịch máy sẽ làm giảm tư duy ngôn ngữ và khả năng giao tiếp văn hóa trực tiếp.",
-                "url": "https://tuoitre.vn/co-cong-cu-dich-thuat-ai-co-can-hoc-ngoai-ngu-nua-khong-20240318091234567.htm"
+                "title": "Tương lai nghề dịch: Người, máy hay sự kết hợp giữa người và máy?",
+                "summary": "Công cụ dịch máy giúp xử lý văn bản đa ngôn ngữ chỉ trong vài giây, nhưng vẫn cần con người hiệu đính để đảm bảo đúng ngữ cảnh và sắc thái văn hóa.",
+                "url": "https://tuoitre.vn/tuong-lai-nghe-dich-nguoi-may-hay-nguoi-may-20230513104904133.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Cẩn trọng nguy cơ lộ dữ liệu mật khi sử dụng các công cụ dịch trực tuyến miễn phí",
-                "summary": "Cảnh báo về rủi ro bảo mật thông tin doanh nghiệp và sai lệch thuật ngữ chuyên ngành y tế, pháp lý khi dùng dịch máy.",
-                "url": "https://dantri.com.vn/cong-nghe/rui-ro-bao-mat-khi-su-dung-cong-cu-dich-thuat-truc-tuyen-20231105153012.htm"
+                "title": "Máy phiên dịch AI có thể thay thế hoàn toàn biên dịch viên con người?",
+                "summary": "Phân tích ưu điểm vượt trội về tốc độ, khả năng tra cứu từ vựng nhanh chóng của phần mềm dịch thuật và những hạn chế khi dịch thành ngữ, văn học.",
+                "url": "https://dantri.com.vn/du-lich/may-phien-dich-ai-se-thay-the-phien-dich-vien-20191023000710055.htm"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Công nghệ AI dịch hội thoại trực tiếp hơn 70 ngôn ngữ xóa bỏ rào cản giao tiếp",
+                "summary": "Các ứng dụng dịch thuật tức thời hỗ trợ đắc lực cho việc đọc tài liệu nước ngoài, học tập và du lịch quốc tế.",
+                "url": "https://tuoitre.vn/google-ra-mat-ai-dich-hoi-thoai-truc-tiep-bang-hon-70-ngon-ngu-co-tieng-viet-20260611150618308.htm"
               }
             ],
             "en": [
               {
-                "source": "MIT Technology Review",
-                "title": "How neural machine translation is bridging global language barriers",
-                "summary": "Explores how deep learning has dramatically improved the speed and accessibility of multilingual translation across the internet.",
-                "url": "https://www.technologyreview.com/topic/artificial-intelligence/"
+                "source": "The Guardian",
+                "title": "'It Gets More and More Confused': Can AI and Machine Translation Replace Translators?",
+                "summary": "Examines why automated translation excels at speed and information access but struggles with cultural nuance, idioms, and context.",
+                "url": "https://www.theguardian.com/books/2024/nov/11/it-gets-more-and-more-confused-can-ai-replace-translators"
               },
               {
-                "source": "BBC Future",
-                "title": "Lost in machine translation: Why human translators still matter in the AI era",
-                "summary": "Examines how idioms, cultural context, humour, and high-stakes legal or medical texts still challenge automated translation systems.",
-                "url": "https://www.bbc.com/future/article/20230816-why-ai-cant-replace-human-translators-yet"
+                "source": "The Guardian",
+                "title": "Google Translate: Why Machine Translation Is No Substitute for Learning a Language",
+                "summary": "Discusses how over-reliance on translation apps can hinder learners from developing independent foreign language proficiency.",
+                "url": "https://www.theguardian.com/technology/shortcuts/2013/oct/08/google-translate-no-match-learning-language"
               },
               {
-                "source": "British Council",
-                "title": "Machine translation in foreign language education: Benefits and pitfalls",
-                "summary": "Discusses how students can use translation software as a dictionary aid without becoming overly dependent on it for writing.",
-                "url": "https://www.teachingenglish.org.uk/professional-development/teachers/using-digital-technologies"
+                "source": "World Economic Forum (WEF)",
+                "title": "How Neural Machine Translation Is Bridging Global Language Barriers",
+                "summary": "Explores the breakthroughs in AI-powered translation systems that allow instant cross-lingual communication worldwide.",
+                "url": "https://www.weforum.org/stories/technological-innovation/googles-ai-translation-tool-seems-to-have-invented-its-own-language"
               }
             ]
           },
@@ -13094,41 +13094,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Trẻ em xem tivi và thiết bị màn hình bao lâu mỗi ngày là hợp lý?",
-                "summary": "Khuyến cáo của các bác sĩ nhi khoa về thời lượng xem tivi theo từng độ tuổi để tránh tật khúc xạ mắt, béo phì và rối loạn tập trung ở trẻ.",
-                "url": "https://vnexpress.net/tre-xem-tivi-bao-lau-moi-ngay-la-vua-4482135.html"
+                "title": "Lợi và hại của việc cho trẻ em xem tivi mỗi ngày",
+                "summary": "Các chương trình giáo dục giúp trẻ mở rộng hiểu biết và học ngôn ngữ, nhưng xem tivi quá nhiều gây mỏi mắt, béo phì và giảm thời gian học tập.",
+                "url": "https://vnexpress.net/loi-va-hai-cua-viec-cho-tre-xem-tivi-4206035.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Làm sao để truyền hình trở thành công cụ học tập bổ ích cho trẻ nhỏ?",
-                "summary": "Hướng dẫn phụ huynh cách chọn lọc các kênh giáo dục, khoa học và cùng xem với con để định hướng nhận thức tích cực.",
-                "url": "https://tuoitre.vn/chon-chuong-trinh-truyen-hinh-phu-hop-cho-tre-em-20230715102030123.htm"
+                "title": "Xem tivi, điện thoại quá sớm và quá lâu có thể ảnh hưởng trí nhớ của trẻ",
+                "summary": "Cảnh báo tác hại của việc ngồi thụ động trước màn hình đối với sự tập trung, giấc ngủ và kết quả học tập của trẻ nhỏ.",
+                "url": "https://tuoitre.vn/xem-tivi-dien-thoai-qua-som-co-the-anh-huong-tri-nho-cua-tre-20230705171438357.htm"
               },
               {
-                "source": "Báo Sức Khỏe & Đời Sống (Bộ Y Tế)",
-                "title": "Tác hại khi để trẻ nhỏ tiếp xúc sớm và quá lâu với màn hình tivi",
-                "summary": "Phân tích y khoa về ảnh hưởng của việc ngồi thụ động trước màn hình đối với sự phát triển ngôn ngữ, giấc ngủ và vận động thể chất của trẻ.",
-                "url": "https://suckhoedoisong.vn/tac-hai-khon-luong-khi-cho-tre-xem-tivi-dien-thoai-qua-nhieu-169230512091523.htm"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Trẻ bắt chước hành vi xấu từ truyền hình: Vai trò định hướng của phụ huynh",
+                "summary": "Nhấn mạnh sự cần thiết của việc cha mẹ kiểm soát nội dung chương trình truyền hình để tránh trẻ tiếp xúc với bạo lực hoặc hành vi không phù hợp.",
+                "url": "https://tuoitre.vn/chuong-trinh-truyen-hinh-cho-tre-em-canh-bao-chuyen-tre-bat-chuoc-686307.htm"
               }
             ],
             "en": [
               {
                 "source": "Mayo Clinic",
-                "title": "Screen time and children: How to guide your child",
-                "summary": "Medical guidelines on balancing educational television programming with active physical play and parental supervision.",
+                "title": "Screen Time and Children: How to Guide Your Child's Television Habits",
+                "summary": "Medical guidelines on balancing educational television programming with outdoor physical play and parental supervision.",
                 "url": "https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/screen-time/art-20047952"
               },
               {
-                "source": "UNICEF Parenting",
-                "title": "How educational television programmes can boost early childhood literacy",
-                "summary": "Explains how high-quality age-appropriate shows can support language learning and curiosity when accompanied by adult interaction.",
-                "url": "https://www.unicef.org/parenting/child-development/babies-screen-time"
+                "source": "Mayo Clinic News Network",
+                "title": "Children and Screen Time: How Much Television Is Too Much?",
+                "summary": "Explains the health risks of excessive screen viewing, including eye strain, sedentary habits, and sleep disturbances.",
+                "url": "https://newsnetwork.mayoclinic.org/discussion/children-and-screen-time-how-much-is-too-much/"
               },
               {
-                "source": "American Academy of Pediatrics",
-                "title": "The impact of television viewing habits on children's health and academic achievement",
-                "summary": "Examines the link between excessive unsupervised TV viewing, childhood obesity, sleep problems, and exposure to inappropriate content.",
-                "url": "https://www.healthychildren.org/English/family-life/Media/Pages/Where-We-Stand-TV-Viewing-Time.aspx"
+                "source": "The Guardian",
+                "title": "High Screen Time Can Hurt Children's Learning and Language Skills, Study Suggests",
+                "summary": "Major pediatric review showing that while supervised educational shows can aid learning, excessive unsupervised viewing harms academic outcomes.",
+                "url": "https://www.theguardian.com/society/2026/sep/28/high-screen-usage-in-children-linked-to-poorer-outcomes-major-study-suggests"
               }
             ]
           },
@@ -14227,42 +14227,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Chuyển dịch năng lượng xanh tại Việt Nam: Tiềm năng điện gió, điện mặt trời và bài toán lưới điện",
-                "summary": "Phân tích tiềm năng to lớn của năng lượng tái tạo tại Việt Nam hướng tới mục tiêu Net Zero 2050 cùng thách thức về vốn và hạ tầng truyền tải.",
-                "url": "https://vnexpress.net/viet-nam-trong-cuoc-dua-chuyen-dich-nang-luong-xanh-4681234.html"
-              },
-              {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Khuyến khích phát triển điện mặt trời mái nhà tự sản, tự tiêu cho người dân và doanh nghiệp",
-                "summary": "Đánh giá lợi ích kinh tế và giảm áp lực cung ứng điện quốc gia khi hộ gia đình và khu công nghiệp sử dụng năng lượng sạch.",
-                "url": "https://tuoitre.vn/chinh-phu-ban-hanh-nghi-dinh-khuyen-khich-dien-mat-troi-mai-nha-20241022181523456.htm"
+                "title": "Khi tăng trưởng kinh tế song hành chuyển dịch năng lượng xanh",
+                "summary": "Phát triển điện mặt trời, điện gió giúp giảm phụ thuộc nhiên liệu hóa thạch, bảo vệ môi trường và đảm bảo an ninh năng lượng dài hạn.",
+                "url": "https://tuoitre.vn/saigontimes/khi-tang-truong-kinh-te-song-hanh-chuyen-dich-nang-luong-xanh-1061119633.htm"
               },
               {
                 "source": "Báo Thanh Niên",
-                "title": "Bài toán xử lý và tái chế tấm pin năng lượng mặt trời sau khi hết niên hạn sử dụng",
-                "summary": "Góc nhìn đa chiều về yêu cầu công nghệ tái chế tấm pin mặt trời và giải pháp lưu trữ năng lượng để phát triển bền vững.",
-                "url": "https://thanhnien.vn/xu-ly-rac-thai-pin-nang-luong-mat-troi-nhu-the-nao-185230815102030.htm"
+                "title": "Việt Nam có tiềm năng năng lượng xanh lớn nhưng cần giải bài toán vốn và hạ tầng",
+                "summary": "Đánh giá lợi thế nguồn năng lượng tái tạo dồi dào cùng những thách thức về chi phí đầu tư ban đầu và tính ổn định theo thời tiết.",
+                "url": "https://thanhnien.vn/viet-nam-co-tiem-nang-nang-luong-xanh-185240619184816404.htm"
+              },
+              {
+                "source": "Báo Thanh Niên",
+                "title": "Nguồn năng lượng tái tạo nào phổ biến nhất thế giới hiện nay?",
+                "summary": "Tổng quan về sự phát triển của thủy điện, điện mặt trời, điện gió trên toàn cầu và yêu cầu về diện tích đất, công nghệ lưu trữ điện.",
+                "url": "https://thanhnien.vn/nguon-nang-luong-tai-tao-nao-pho-bien-nhat-the-gioi-185260916091616388.htm"
               }
             ],
             "en": [
               {
                 "source": "United Nations Climate Action",
-                "title": "Renewable Energy: Powering a Safer Future",
-                "summary": "Explains why transitioning from fossil fuels to solar, wind, and hydro power is essential for reducing greenhouse gas emissions and creating green jobs.",
+                "title": "Renewable Energy: Powering a Safer and More Sustainable Future",
+                "summary": "Explains why transitioning from coal and oil to clean solar and wind energy is vital for cutting greenhouse gas emissions.",
                 "url": "https://www.un.org/en/climatechange/raising-ambition/renewable-energy"
               },
               {
-                "source": "International Energy Agency (IEA)",
-                "title": "Renewables 2024: Global capacity growth and grid integration challenges",
-                "summary": "Authoritative data on falling renewable costs alongside the urgent need for battery storage and grid investment.",
-                "url": "https://www.iea.org/energy-system/renewables"
+                "source": "World Economic Forum (WEF)",
+                "title": "Solar and Wind Power: Opportunities and Grid Challenges in the Energy Transition",
+                "summary": "Examines how renewable energy enhances energy security while requiring large capital investment and weather-resilient power grids.",
+                "url": "https://www.weforum.org/stories/energy-transition/solar-wind-power-renewable-energy-climate-change"
               },
               {
-                "source": "BBC Future Planet",
-                "title": "The hidden environmental and land-use challenges of green energy infrastructure",
-                "summary": "Examines land requirements for solar and wind farms, weather intermittency, and how engineers are developing recyclable turbine blades and panels.",
-                "url": "https://www.bbc.com/future/article/20230504-the-environmental-impacts-of-renewable-energy"
+                "source": "IEEFA",
+                "title": "Renewable Energy Growth and the Infrastructure Challenges Ahead",
+                "summary": "Analyzes the financial costs, land-use requirements, and grid integration hurdles facing large-scale green energy projects.",
+                "url": "https://ieefa.org/resources/renewable-energy-having-good-year-challenges-loom-ahead"
               }
             ]
           },
@@ -15253,42 +15253,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Vai trò của sách giáo khoa trong chương trình giáo dục phổ thông hiện đại",
-                "summary": "Bài viết phân tích cách sách giáo khoa cung cấp nền tảng kiến thức hệ thống cho học sinh nhưng cần được sử dụng linh hoạt để tránh lối học rập khuôn, thụ động.",
-                "url": "https://vnexpress.net/giao-duc"
+                "source": "Báo Tuổi Trẻ",
+                "title": "4 kiến nghị về đổi mới và phát huy vai trò của sách giáo khoa",
+                "summary": "Sách giáo khoa cung cấp khung kiến thức chuẩn mực và lộ trình học tập rõ ràng, nhưng cần kết hợp thêm tài liệu thực tế để tránh rập khuôn.",
+                "url": "https://tuoitre.vn/nld/4-kien-nghi-ve-doi-moi-sach-giao-khoa-196250924180032541.htm"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Dạy học không lệ thuộc sách giáo khoa: Thách thức và cơ hội đổi mới",
-                "summary": "Nhiều chuyên gia giáo dục nhấn mạnh sách giáo khoa là tài liệu tham khảo cốt lõi, song giáo viên cần kết hợp thực tiễn để phát huy tư duy độc lập của người học.",
-                "url": "https://tuoitre.vn/giao-duc.htm"
+                "source": "VnExpress",
+                "title": "Bộ GD&ĐT: Kế thừa và cập nhật sách giáo khoa để ổn định dạy và học",
+                "summary": "Sách giáo khoa đóng vai trò nền tảng giúp giáo viên tổ chức bài giảng hiệu quả và học sinh dễ dàng tự ôn tập tại nhà.",
+                "url": "https://vnexpress.net/bo-gd-va-dt-khong-xay-lai-tu-dau-sach-giao-khoa-moi-5127721.html"
               },
               {
                 "source": "VietNamNet",
-                "title": "Làm sao để sách giáo khoa không giới hạn sự sáng tạo của học trò?",
-                "summary": "Phân tích hai mặt của việc sử dụng sách giáo khoa truyền thống trong nhà trường và giải pháp đa dạng hóa nguồn học liệu hỗ trợ giảng dạy.",
-                "url": "https://vietnamnet.vn/giao-duc"
+                "title": "Đổi mới chương trình và phương pháp sử dụng sách giáo khoa trong trường học",
+                "summary": "Chỉ ra hạn chế nếu giáo viên và học sinh chỉ phụ thuộc máy móc vào sách giáo khoa mà thiếu đi sự liên hệ thực tiễn và tư duy phản biện.",
+                "url": "https://vietnamnet.vn/thuc-hien-doi-moi-chuong-trinh-giao-duc-con-nhieu-han-che-2169943.html"
               }
             ],
             "en": [
               {
-                "source": "UNESCO",
-                "title": "Textbooks and Learning Resources: Guidelines for Quality Education",
-                "summary": "UNESCO examines how structured textbooks ensure equitable access to core knowledge while highlighting the need for adaptable and updated teaching materials.",
-                "url": "https://www.unesco.org/en/education"
+                "source": "UNESCO GEM Report",
+                "title": "Every Child Should Have a Textbook: The Role of Textbooks in Quality Education",
+                "summary": "UNESCO report demonstrating how well-structured textbooks provide a reliable foundation for classroom instruction and equitable learning.",
+                "url": "https://www.unesco.org/gem-report/en/publication/every-child-should-have-textbook"
               },
               {
                 "source": "The Guardian",
-                "title": "Why textbooks still matter in the digital classroom—and where they fall short",
-                "summary": "An exploration of the pedagogical benefits of coherent printed coursebooks alongside concerns about curriculum rigidity and passive learning.",
-                "url": "https://www.theguardian.com/education"
+                "title": "Switching Off Screens: Why Back-to-Basics Printed Textbooks Work in Schools",
+                "summary": "Explores why printed textbooks remain essential for deep reading comprehension and structured learning in modern classrooms.",
+                "url": "https://www.theguardian.com/world/2023/sep/11/sweden-says-back-to-basics-schooling-works-on-paper"
               },
               {
-                "source": "Harvard",
-                "title": "Rethinking Instructional Materials in Modern Schooling",
-                "summary": "Educational researchers discuss how high-quality textbooks scaffold student learning and how overreliance on fixed texts can hinder critical inquiry.",
-                "url": "https://www.gse.harvard.edu"
+                "source": "Harvard Business School Digital Initiative",
+                "title": "Disrupting Traditional Textbooks with Dynamic Digital Content",
+                "summary": "Examines the limitations of static printed textbooks—such as high costs and outdated information—and how supplementary resources enrich learning.",
+                "url": "https://d3.harvard.edu/platform-rctom/submission/disrupting-textbooks-with-digital-content/"
               }
             ]
           },
@@ -16022,42 +16022,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Một chương trình, nhiều bộ sách giáo khoa: Mở rộng không gian sáng tạo",
-                "summary": "Chủ trương sử dụng nhiều bộ sách giáo khoa giúp xóa bỏ thế độc quyền và trao quyền chủ động cho giáo viên, học sinh trong việc tiếp cận tri thức.",
-                "url": "https://vnexpress.net/giao-duc"
+                "source": "Báo Tuổi Trẻ",
+                "title": "'Một chương trình, nhiều bộ sách giáo khoa' là bước tiến bộ trong giáo dục",
+                "summary": "Việc có nhiều bộ sách giáo khoa giúp mở rộng nguồn tài liệu tham khảo, khuyến khích tư duy đa chiều và sự sáng tạo của giáo viên, học sinh.",
+                "url": "https://tuoitre.vn/mot-chuong-trinh-nhieu-bo-sach-giao-khoa-la-tien-bo-20250820231455655.htm"
               },
               {
-                "source": "Báo Thanh Niên",
-                "title": "Lợi ích khi học sinh được tiếp cận nhiều nguồn sách giáo khoa khác nhau",
-                "summary": "Việc tham khảo nhiều bộ sách giúp học sinh đối chiếu các góc nhìn đa chiều, hiểu sâu bản chất vấn đề và rèn luyện năng lực tự học.",
-                "url": "https://thanhnien.vn/giao-duc.htm"
+                "source": "VnExpress",
+                "title": "Vì sao nhiều trường học kết hợp tham khảo 2–4 bộ sách giáo khoa?",
+                "summary": "Sử dụng kết hợp nhiều bộ sách giúp giáo viên chọn lọc được những ngữ liệu, ví dụ và bài tập ưu việt nhất phù hợp với năng lực học sinh.",
+                "url": "https://vnexpress.net/vi-sao-mot-lop-dung-2-4-bo-sach-4496752.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Đa dạng hóa sách giáo khoa để đáp ứng năng lực từng nhóm học sinh",
-                "summary": "Các bộ sách với cách trình bày và độ khó linh hoạt tạo điều kiện để các trường lựa chọn học liệu phù hợp nhất với đặc thù người học.",
-                "url": "https://dantri.com.vn/giao-duc.htm"
+                "title": "Một hay nhiều bộ sách giáo khoa: Kinh nghiệm từ các nền giáo dục tiên tiến",
+                "summary": "Đa dạng hóa học liệu tạo động lực cạnh tranh nâng cao chất lượng biên soạn sách và giúp học sinh tiếp cận kiến thức toàn diện hơn.",
+                "url": "https://dantri.com.vn/giao-duc/mot-hay-nhieu-bo-sach-giao-khoa-bat-mi-lua-chon-cua-cuong-quoc-giao-duc-20250818070801664.htm"
               }
             ],
             "en": [
               {
-                "source": "UNESCO",
-                "title": "Diversifying Curriculum Materials for Inclusive Education",
-                "summary": "UNESCO highlights how offering multiple approved textbooks enables teachers to tailor instruction to diverse student backgrounds and learning styles.",
-                "url": "https://www.unesco.org/en/education"
+                "source": "UNESCO IIEP",
+                "title": "Textbooks and Diverse Education Materials: Conveying Key Curriculum Messages",
+                "summary": "Explains how offering diverse instructional materials allows teachers to adapt lessons to different learning styles and regional contexts.",
+                "url": "https://www.iiep.unesco.org/en/publication/textbooks-and-other-education-materials-what-key-messages-do-we-want-convey-and-how"
               },
               {
-                "source": "World Economic Forum (WEF)",
-                "title": "How Diverse Learning Resources Foster Critical Thinking in Schools",
-                "summary": "Exposing learners to multiple explanations and perspectives builds analytical skills and prepares students for an information-rich world.",
-                "url": "https://www.weforum.org"
+                "source": "UNESCO SDG4 Knowledge Hub",
+                "title": "Accessible and Diverse Textbooks Expand Inclusive Learning for Millions",
+                "summary": "Highlights how multiple adaptable learning resources support inclusive education and deeper conceptual understanding.",
+                "url": "https://www.unesco.org/sdg4education2030/en/knowledge-hub/accessible-digital-textbooks-expand-inclusive-learning-millions-children"
               },
               {
-                "source": "BBC News",
-                "title": "Why schools are moving away from a single standardized textbook",
-                "summary": "Educators explain how combining multiple coursebooks improves classroom engagement and supports differentiated instruction.",
-                "url": "https://www.bbc.com/news/education"
+                "source": "Forbes",
+                "title": "Embracing Diverse Curriculum Models and Learning Resources for Student Success",
+                "summary": "Shows how moving beyond a single rigid textbook fosters critical thinking, independent research skills, and academic engagement.",
+                "url": "https://www.forbes.com/sites/yassprize/2024/06/07/embracing-diverse-school-models-for-student-success/"
               }
             ]
           },
@@ -16732,42 +16732,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Trao quyền cho trường học tự chọn sách giáo khoa tiếng Anh: Lợi ích thực tế",
-                "summary": "Việc cho phép các cơ sở giáo dục tự chọn giáo trình ngoại ngữ giúp bám sát năng lực thực tế của học sinh và điều kiện dạy học của từng địa phương.",
-                "url": "https://vnexpress.net/giao-duc"
-              },
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Chọn sách giáo khoa ngoại ngữ phù hợp giúp học sinh tự tin giao tiếp",
-                "summary": "Các chuyên gia nhận định giáo trình ngôn ngữ được tuyển chọn đúng trình độ sẽ tạo hứng thú học tập và nâng cao hiệu quả rèn luyện kỹ năng nghe nói.",
-                "url": "https://tuoitre.vn/giao-duc.htm"
-              },
-              {
                 "source": "VietNamNet",
-                "title": "Đa dạng học liệu ngoại ngữ trong trường phổ thông: Xu hướng tất yếu",
-                "summary": "Phân tích vai trò của quyền tự chủ chọn sách giáo khoa trong việc thúc đẩy đổi mới phương pháp dạy và học ngoại ngữ tại các trường học.",
-                "url": "https://vietnamnet.vn/giao-duc"
+                "title": "Sách giáo khoa tiếng Anh chuyên biệt theo khung chương trình giúp nâng cao năng lực",
+                "summary": "Lựa chọn bộ sách tiếng Anh phù hợp với trình độ thực tế của học sinh từng trường giúp tăng hứng thú học tập và phát triển đều 4 kỹ năng.",
+                "url": "https://vietnamnet.vn/sach-giao-khoa-tieng-anh-chuyen-biet-theo-khung-chuong-trinh-cua-bo-gd-dt-2471623.html"
+              },
+              {
+                "source": "Tạp chí Tòa án",
+                "title": "Đa dạng hóa các bộ sách giáo khoa Tiếng Anh chuẩn quốc tế dành cho học sinh Việt",
+                "summary": "Hệ sinh thái học liệu ngoại ngữ phong phú giúp giáo viên linh hoạt đổi mới phương pháp giảng dạy giao tiếp và hội nhập quốc tế.",
+                "url": "https://tapchitoaan.vn/tu-hao-bo-sach-giao-khoa-tieng-anh-chuan-quoc-te-danh-cho-nguoi-viet9377.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Phát huy sự chủ động của giáo viên trong việc khai thác học liệu và sách giáo khoa",
+                "summary": "Khi được trao quyền chủ động lựa chọn tài liệu giảng dạy phù hợp, giáo viên có thể thiết kế bài giảng sinh động, sát với nhu cầu người học.",
+                "url": "https://dantri.com.vn/tam-diem/tu-3-bo-sach-giao-khoa-ve-1-bo-phuong-thuc-nao-cho-giao-vien-thuc-thi-20251230162754005.htm"
               }
             ],
             "en": [
               {
-                "source": "BBC News",
-                "title": "How school autonomy in textbook selection boosts language acquisition",
-                "summary": "Schools that tailor language coursebooks to their students' proficiency levels report higher classroom engagement and stronger communicative outcomes.",
-                "url": "https://www.bbc.com/news/education"
+                "source": "UNESCO IIEP",
+                "title": "Selecting Effective Language and Education Materials for Diverse Learners",
+                "summary": "Demonstrates that allowing schools to match language learning materials to students' proficiency levels significantly improves learning outcomes.",
+                "url": "https://www.iiep.unesco.org/en/publication/textbooks-and-other-education-materials-what-key-messages-do-we-want-convey-and-how"
               },
               {
-                "source": "The Guardian",
-                "title": "Why one-size-fits-all language textbooks fail diverse learners",
-                "summary": "Language educators argue that allowing teachers to choose varied coursebooks supports differentiated instruction and lifelong language learning.",
-                "url": "https://www.theguardian.com/education"
+                "source": "VnExpress International",
+                "title": "Textbook Policy and Curriculum Reform in Vietnamese Schools",
+                "summary": "Examines how textbook selection policies impact teaching flexibility, foreign language training, and educational equity.",
+                "url": "https://e.vnexpress.net/news/news/education/vietnam-plans-to-provide-free-textbooks-from-2029-5057254.html"
               },
               {
-                "source": "UNESCO",
-                "title": "Effective Language Education Policies and Material Selection",
-                "summary": "A comprehensive look at how flexible textbook policies empower schools to align language curricula with local learner needs and global standards.",
-                "url": "https://www.unesco.org/en/education"
+                "source": "UNESCO SDG4 Knowledge Hub",
+                "title": "Tailoring Learning Materials to Student Needs for Inclusive Education",
+                "summary": "Explains how flexible, context-appropriate textbooks empower teachers and boost student motivation in language classrooms.",
+                "url": "https://www.unesco.org/sdg4education2030/en/knowledge-hub/accessible-digital-textbooks-expand-inclusive-learning-millions-children"
               }
             ]
           },
@@ -17773,41 +17773,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Du lịch cộng đồng: Động lực xóa đói giảm nghèo và giữ gìn bản sắc",
-                "summary": "Phát triển du lịch gắn với cộng đồng địa phương giúp tạo sinh kế bền vững cho người dân và phục dựng nhiều lễ hội, làng nghề truyền thống.",
-                "url": "https://vnexpress.net/du-lich"
+                "title": "5 ngôi làng Việt hút khách quốc tế nhờ phát triển du lịch cộng đồng",
+                "summary": "Du lịch cộng đồng giúp tạo việc làm tại chỗ, nâng cao thu nhập cho người dân bản địa và khôi phục các nghề thủ công, văn hóa truyền thống.",
+                "url": "https://vnexpress.net/5-ngoi-lang-viet-hut-khach-nho-du-lich-cong-dong-5124562.html"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Mặt trái của du lịch đại trà đối với môi trường và đời sống bản địa",
-                "summary": "Sự bùng nổ khách du lịch thiếu kiểm soát đang gây áp lực rác thải, đẩy giá sinh hoạt tăng cao và làm thương mại hóa văn hóa bản địa.",
-                "url": "https://tuoitre.vn/du-lich.htm"
+                "source": "VietNamNet",
+                "title": "Du lịch cộng đồng: Thay đổi cách làm để tránh thương mại hóa và phát triển bền vững",
+                "summary": "Cảnh báo nguy cơ phát triển du lịch ồ ạt làm mai một bản sắc văn hóa bản địa, gây ô nhiễm rác thải và phá vỡ cảnh quan yên bình.",
+                "url": "https://dantocphattrien.vietnamnet.vn/van-de-su-kien-tuan-10-du-lich-cong-dong-thay-doi-cach-lam-de-phat-trien-ben-vung-53009.html"
               },
               {
-                "source": "Báo Thanh Niên",
-                "title": "Làm sao để phát triển du lịch địa phương bền vững, hài hòa lợi ích?",
-                "summary": "Bài toán cân bằng giữa tăng trưởng doanh thu du lịch với bảo vệ cảnh quan thiên nhiên và ổn định đời sống cho cư dân địa phương.",
-                "url": "https://thanhnien.vn/du-lich.htm"
+                "source": "VnExpress",
+                "title": "Phát triển du lịch bền vững gắn với nâng cao chất lượng hạ tầng địa phương",
+                "summary": "Nguồn thu từ du lịch tạo động lực cải thiện đường sá, dịch vụ tại các vùng quê nhưng đòi hỏi quy hoạch bảo vệ môi trường sinh thái.",
+                "url": "https://vnexpress.net/loi-ich-cua-du-lich-thong-minh-4641554.html"
               }
             ],
             "en": [
               {
-                "source": "UNESCO",
-                "title": "Sustainable Tourism and Heritage Conservation in Local Communities",
-                "summary": "UNESCO explores how community-based tourism can generate vital revenue for cultural preservation while warning against cultural commercialization.",
-                "url": "https://www.unesco.org/en"
-              },
-              {
                 "source": "World Economic Forum (WEF)",
-                "title": "Balancing Economic Growth and Environmental Protection in Popular Destinations",
-                "summary": "An analysis of how tourism boosts local employment and infrastructure, alongside strategies to mitigate pollution and rising living costs.",
-                "url": "https://www.weforum.org"
+                "title": "How to Leverage Community-Led Sustainable Tourism for People and Biodiversity",
+                "summary": "Explores how tourism to local communities generates vital income and preserves cultural heritage when managed sustainably.",
+                "url": "https://www.weforum.org/stories/forum-in-focus/this-is-how-to-leverage-community-led-sustainable-tourism-for-people-and-biodiversity"
               },
               {
-                "source": "The Guardian",
-                "title": "The double-edged sword of tourism for small traditional towns",
-                "summary": "While visitor spending revitalizes rural economies, surging housing prices and overcrowding increasingly strain local residents.",
-                "url": "https://www.theguardian.com/travel"
+                "source": "Learn Tourism",
+                "title": "How Does Tourism Benefit Local Communities Economically and Socially?",
+                "summary": "Details how visitor spending supports small family businesses, infrastructure upgrades, and cross-cultural exchange.",
+                "url": "https://blog.learntourism.org/how-does-tourism-benefit-local-communities"
+              },
+              {
+                "source": "Global Forest Coalition",
+                "title": "Community-Led Versus Mass Tourism: Environmental and Social Implications",
+                "summary": "Examines the negative impacts of uncontrolled tourism on local ecosystems, living costs, and traditional ways of life.",
+                "url": "https://globalforestcoalition.org/tourism/"
               }
             ]
           },
@@ -18466,42 +18466,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Vì sao sách tranh là khởi đầu hoàn hảo cho hành trình đọc của trẻ?",
-                "summary": "Sự kết hợp giữa hình ảnh minh họa giàu màu sắc và câu chuyện ngắn gọn giúp trẻ nhỏ tiếp thu từ vựng tự nhiên và nuôi dưỡng tình yêu đọc sách từ sớm.",
-                "url": "https://vnexpress.net/giao-duc"
-              },
-              {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Đọc sách tranh cùng con: Kích thích trí tưởng tượng và gắn kết gia đình",
-                "summary": "Các chuyên gia tâm lý giáo dục khẳng định sách tranh không chỉ giúp trẻ phát triển tư duy thị giác mà còn bồi đắp trí tuệ cảm xúc.",
-                "url": "https://tuoitre.vn/van-hoa.htm"
+                "title": "Đưa văn hóa truyền thống và bài học nhân văn đến gần thiếu nhi qua sách tranh",
+                "summary": "Sự kết hợp giữa hình ảnh minh họa sinh động và ngôn từ ngắn gọn giúp trẻ dễ hiểu cốt truyện, bồi dưỡng trí tưởng tượng và cảm xúc.",
+                "url": "https://tuoitre.vn/dua-van-hoa-truyen-thong-den-gan-hon-voi-thieu-nhi-qua-sach-tranh-2023041415231259.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Lợi ích lâu dài của việc hình thành thói quen đọc sách tranh ở lứa tuổi mầm non",
-                "summary": "Trẻ được tiếp xúc với sách tranh từ nhỏ thường có nền tảng ngôn ngữ vững chắc hơn và duy trì thói quen tự học tốt khi bước vào tiểu học.",
-                "url": "https://dantri.com.vn/giao-duc.htm"
+                "title": "Những tựa sách tranh không thể thiếu cho một tuổi thơ hạnh phúc của trẻ",
+                "summary": "Đọc sách tranh cùng cha mẹ mỗi ngày giúp trẻ mở rộng vốn từ vựng sớm, hình thành thói quen yêu đọc sách và gắn kết tình cảm gia đình.",
+                "url": "https://dantri.com.vn/giai-tri/7-tua-sach-khong-the-thieu-cho-mot-tuoi-tho-hanh-phuc-20210601143311240.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Những cuốn truyện tranh, sách tranh nổi bật nuôi dưỡng tâm hồn thiếu nhi",
+                "summary": "Sách tranh giúp trẻ nhỏ làm quen với con chữ một cách tự nhiên, kích thích óc quan sát nghệ thuật và lòng nhân ái.",
+                "url": "https://vnexpress.net/nhung-cuon-truyen-tranh-noi-bat-danh-cho-thieu-nhi-3755491.html"
               }
             ],
             "en": [
               {
-                "source": "Harvard",
-                "title": "The Cognitive and Language Benefits of Early Picture Book Reading",
-                "summary": "Research from the Harvard Graduate School of Education shows that shared picture book reading significantly accelerates early vocabulary acquisition and narrative comprehension.",
-                "url": "https://www.gse.harvard.edu"
+                "source": "The Guardian",
+                "title": "Parents, Don't Stop Reading to Your Children: How Picture Books Change Lives",
+                "summary": "Explains how reading illustrated books aloud builds early vocabulary, visual literacy, and a lifelong love of reading.",
+                "url": "https://www.theguardian.com/books/2026/jan/27/childrens-picture-books-change-lives-read-to-your-kids"
               },
               {
                 "source": "The Guardian",
-                "title": "Why children never outgrow the magic and visual literacy of picture books",
-                "summary": "An exploration of how illustrated books stimulate creative thinking, visual interpretation, and lifelong reading enjoyment for young learners.",
-                "url": "https://www.theguardian.com/books"
+                "title": "Why a Picture Book Can Paint a Thousand Words for Young Minds",
+                "summary": "Highlights how artwork and storytelling in picture books stimulate children's imagination, empathy, and cognitive growth.",
+                "url": "https://www.theguardian.com/books/2021/mar/26/a-picture-book-can-paint-a-thousand-words"
               },
               {
-                "source": "BBC News",
-                "title": "How illustrated storybooks build empathy and communication skills in children",
-                "summary": "Educators explain how connecting visual cues with written words helps children grasp complex emotions and develop strong reading habits.",
-                "url": "https://www.bbc.com/news/education"
+                "source": "The Guardian",
+                "title": "How Picture Books Help Young Children Understand Emotions and Life Lessons",
+                "summary": "Shows how illustrated stories provide a safe, engaging way for children to develop emotional intelligence and moral values.",
+                "url": "https://www.theguardian.com/childrens-books-site/2016/jun/16/top-10-picture-books-for-young-children-with-self-help-messages"
               }
             ]
           },
@@ -19491,41 +19491,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Trẻ chơi game: Lợi ích tư duy và ranh giới của sự lệ thuộc",
-                "summary": "Các nghiên cứu chỉ ra chơi game điều độ giúp trẻ rèn phản xạ và tư duy giải quyết vấn đề, nhưng lạm dụng sẽ gây hại cho thị lực, giấc ngủ và kết quả học tập.",
-                "url": "https://vnexpress.net/doi-song"
+                "title": "Tám lợi ích bất ngờ từ việc cho trẻ chơi video game điều độ",
+                "summary": "Chơi các trò chơi điện tử phù hợp giúp trẻ rèn luyện phản xạ nhanh, tư duy giải quyết vấn đề, kỹ năng phối hợp đồng đội và giải tỏa căng thẳng.",
+                "url": "https://vnexpress.net/tam-loi-ich-tu-viec-cho-tre-choi-video-game-3817329.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Làm sao để đồng hành cùng con trước sức hút của trò chơi điện tử?",
-                "summary": "Thay vì cấm đoán tuyệt đối, phụ huynh cần đặt giới hạn thời gian hợp lý và định hướng trẻ chọn các trò chơi phát triển trí tuệ, kỹ năng hợp tác.",
-                "url": "https://tuoitre.vn/giao-duc.htm"
+                "title": "Cân nhắc lợi và hại khi cho trẻ chơi game để đồng hành đúng cách",
+                "summary": "Phân tích hai mặt của trò chơi điện tử: vừa giúp giải trí, phát triển trí tuệ nếu chơi hợp lý, vừa gây nghiện và sao nhãng học tập nếu lạm dụng.",
+                "url": "https://tuoitre.vn/can-nhac-loi-va-hai-khi-cho-tre-choi-game-577935.htm"
               },
               {
-                "source": "Báo Dân Trí",
-                "title": "Hệ lụy sức khỏe và tâm lý khi trẻ ngồi hàng giờ trước màn hình chơi game",
-                "summary": "Chuyên gia y tế cảnh báo lối sống ít vận động, nguy cơ béo phì, cận thị và chứng dễ cáu gắt ở trẻ em nghiện trò chơi trực tuyến.",
-                "url": "https://dantri.com.vn/suc-khoe.htm"
+                "source": "VnExpress",
+                "title": "Trò chơi điện tử có an toàn cho trẻ? Những rủi ro về sức khỏe và tâm lý",
+                "summary": "Cảnh báo hệ lụy suy giảm thị lực, béo phì, rối loạn giấc ngủ và nguy cơ tiếp xúc với nội dung bạo lực khi trẻ chơi game không kiểm soát.",
+                "url": "https://vnexpress.net/tro-choi-dien-tu-co-an-toan-cho-tre-4583266.html"
               }
             ],
             "en": [
               {
-                "source": "BBC News",
-                "title": "Video games and children: Are they really bad for young minds?",
-                "summary": "Neuroscientists and psychologists weigh the cognitive and social benefits of moderate gaming against the risks of screen addiction and academic distraction.",
-                "url": "https://www.bbc.com/news/technology"
+                "source": "Children and Screens Institute",
+                "title": "Win or Lose: The Cognitive Benefits and Risks of Video Games for Children",
+                "summary": "Comprehensive research overview of how gaming sharpens problem-solving and spatial skills while posing risks of addiction and sleep loss.",
+                "url": "https://www.childrenandscreens.org/learn-explore/research/win-or-lose/"
               },
               {
-                "source": "Harvard",
-                "title": "The Health Effects of Screen Time and Video Games on Children",
-                "summary": "Harvard Medical School experts discuss how gaming impacts children's attention spans, sleep quality, physical activity, and emotional regulation.",
-                "url": "https://www.health.harvard.edu"
+                "source": "NIH PubMed (JAMA Network)",
+                "title": "Association of Video Gaming With Cognitive Performance Among Children",
+                "summary": "Large-scale scientific study examining cognitive test performance, impulse control, and screen time limits in school-aged children.",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/36587018/"
               },
               {
                 "source": "The Guardian",
-                "title": "How multiplayer games became the new playground for children's social lives",
-                "summary": "Online games allow children to collaborate and relax with friends after school, though parents must remain vigilant about screen limits and behaviour.",
-                "url": "https://www.theguardian.com/games"
+                "title": "High Screen Time and Unchecked Gaming Can Hurt Children's Learning Outcomes",
+                "summary": "Highlights why setting clear daily boundaries on gaming is crucial to protect children's academic performance and physical health.",
+                "url": "https://www.theguardian.com/society/2026/sep/28/high-screen-usage-in-children-linked-to-poorer-outcomes-major-study-suggests"
               }
             ]
           },
@@ -20523,41 +20523,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Nhảy việc ở giới trẻ: Cơ hội bứt phá hay rủi ro sự nghiệp?",
-                "summary": "Chuyển việc giúp nhân sự trẻ tăng thu nhập và trải nghiệm đa dạng, nhưng nhảy việc quá dày đặc dễ làm mất điểm trong mắt nhà tuyển dụng.",
-                "url": "https://vnexpress.net/nhay-viec-4572819.html"
+                "title": "Tâm lý nhảy việc của nhiều người trẻ: Cơ hội hay rủi ro sự nghiệp?",
+                "summary": "Thay đổi công việc giúp người trẻ tìm kiếm môi trường phù hợp và mức đãi ngộ tốt hơn, nhưng nhảy việc quá dày dễ làm mất uy tín trong hồ sơ.",
+                "url": "https://vnexpress.net/tam-ly-nhay-viec-de-dai-cua-nhieu-gen-z-4714163.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Xu hướng nhảy việc của Gen Z và bài toán giữ chân nhân tài",
-                "summary": "Người lao động hiện đại ưu tiên môi trường làm việc lành mạnh và cơ hội học hỏi hơn là gắn bó cố định tại một nơi thiếu lộ trình thăng tiến.",
-                "url": "https://dantri.com.vn/lao-dong-viec-lam.htm"
+                "title": "'Thích nhảy việc': Góc nhìn đa chiều về sự dịch chuyển lao động của giới trẻ",
+                "summary": "Trải nghiệm nhiều vị trí khác nhau giúp người lao động mở rộng kỹ năng đa dạng, mạng lưới quan hệ và khả năng thích ứng nhanh.",
+                "url": "https://dantri.com.vn/tam-diem/thich-nhay-viec-mot-hieu-nham-ve-gen-z-20240818071131367.htm"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Khi nào nên nhảy việc để phát triển sự nghiệp bền vững?",
-                "summary": "Các chuyên gia nhân sự khuyên người lao động cần cân nhắc kỹ giữa mức lương ngắn hạn và việc tích lũy chiều sâu chuyên môn dài hạn.",
-                "url": "https://tuoitre.vn/nhip-song-tre.htm"
+                "source": "Báo Dân Trí",
+                "title": "Nhảy việc liên tục khiến người trẻ cảm giác kiệt sức và thiếu chiều sâu chuyên môn",
+                "summary": "Việc liên tục phải làm quen với quy trình mới, văn hóa mới trong thời gian ngắn dễ gây bất ổn tài chính và đánh mất cơ hội thăng tiến dài hạn.",
+                "url": "https://dantri.com.vn/nhip-song-tre/nhay-viec-chi-khien-gen-z-cam-giac-kiet-suc-khong-giup-giai-toa-ap-luc-20220617211632240.htm"
               }
             ],
             "en": [
               {
                 "source": "Forbes",
-                "title": "The Pros And Cons Of Job-Hopping For Your Career",
-                "summary": "Strategic job transitions can accelerate salary growth and broaden skill sets, yet excessive turnover may raise red flags regarding commitment.",
-                "url": "https://www.forbes.com/leadership/"
-              },
-              {
-                "source": "BBC Worklife",
-                "title": "Does Job-Hopping Help Or Hurt Your Career?",
-                "summary": "Modern labor markets increasingly reward adaptable professionals, though staying long enough to demonstrate tangible impact remains crucial.",
-                "url": "https://www.bbc.com/worklife"
+                "title": "Exploring the Advantages and Challenges of Job-Hopping in Modern Careers",
+                "summary": "Analyzes how switching jobs can accelerate salary growth and skill acquisition, while frequent short stints may raise red flags for employers.",
+                "url": "https://www.forbes.com/sites/benjaminlaker/2024/06/27/exploring-the-advantages-and-challenges-of-job-hopping/"
               },
               {
                 "source": "World Economic Forum (WEF)",
-                "title": "Changing Jobs in the Modern Workforce: Mobility and Retention",
-                "summary": "Career mobility allows workers to reskill and find better organizational fit, while companies face rising recruitment and onboarding costs.",
-                "url": "https://www.weforum.org/agenda/archive/workforce-and-employment/"
+                "title": "Skills Gaps, Job-Hopping, and Changing Loyalty in the Modern Workforce",
+                "summary": "Examines why younger professionals change roles more frequently for career advancement and how it impacts organizational stability.",
+                "url": "https://www.weforum.org/stories/financial-and-monetary-systems/skills-gaps-job-hopping-and-dwindling-loyalty"
+              },
+              {
+                "source": "Purdue University Business Insights",
+                "title": "The Pros and Cons of Job-Hopping: Career Mobility vs Long-Term Mastery",
+                "summary": "Weighs the benefits of diverse work experience and networking against the loss of seniority benefits and deep domain expertise.",
+                "url": "https://business.purdue.edu/daniels-insights/posts/2026/the-pros-and-cons-of-job-hopping.php"
               }
             ]
           },
@@ -21532,42 +21532,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Thực phẩm biến đổi gen: Giải pháp an ninh lương thực và những tranh luận",
-                "summary": "Công nghệ sinh học giúp tăng năng suất cây trồng và chống chịu sâu bệnh, nhưng vẫn cần các quy chuẩn kiểm định an toàn nghiêm ngặt.",
-                "url": "https://vnexpress.net/khoa-hoc"
+                "source": "Báo Dân Trí",
+                "title": "Thực phẩm biến đổi gen: Xu hướng công nghệ sinh học và bài toán an ninh lương thực",
+                "summary": "Cây trồng công nghệ sinh học giúp tăng năng suất, kháng sâu bệnh, chịu hạn tốt và góp phần giải quyết tình trạng thiếu lương thực toàn cầu.",
+                "url": "https://dantri.com.vn/suc-khoe/thuc-pham-bien-doi-gen-hien-dai-tat-yeu-nen-chap-nhan-2015110412130463.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Ứng dụng công nghệ sinh học trong nông nghiệp bền vững",
-                "summary": "Các giống cây trồng công nghệ cao giúp giảm lượng thuốc bảo vệ thực vật và thích ứng tốt hơn với tình trạng hạn hán, xâm nhập mặn.",
-                "url": "https://tuoitre.vn/khoa-hoc.htm"
+                "title": "Thực hư về lợi ích và những mối lo ngại xoay quanh thực phẩm biến đổi gen",
+                "summary": "Phân tích quan điểm của các nhà khoa học về giá trị dinh dưỡng của thực phẩm biến đổi gen cùng những băn khoăn của người tiêu dùng.",
+                "url": "https://tuoitre.vn/plo/thuc-hu-ve-tac-hai-cua-thuc-pham-bien-doi-gen-109432407.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Người tiêu dùng cần hiểu đúng về thực phẩm công nghệ sinh học",
-                "summary": "Việc minh bạch thông tin và dán nhãn rõ ràng giúp người dân an tâm hơn khi lựa chọn các sản phẩm nông nghiệp ứng dụng công nghệ mới.",
-                "url": "https://dantri.com.vn/suc-khoe.htm"
+                "title": "Vì sao vẫn còn nhiều tranh luận về tác động sinh thái của cây trồng biến đổi gen?",
+                "summary": "Chỉ ra những lo ngại về nguy cơ dị ứng, tác động lâu dài đến đa dạng sinh học tự nhiên và sự phụ thuộc vào nguồn giống bản quyền.",
+                "url": "https://dantri.com.vn/suc-khoe/vi-sao-nguoi-ta-chong-doi-bien-doi-gen-1383078042.htm"
               }
             ],
             "en": [
               {
                 "source": "World Health Organization (WHO)",
-                "title": "Food, Genetically Modified: Safety and Nutritional Aspects",
-                "summary": "Biotech crops can improve crop yields and nutritional value, while rigorous international safety assessments evaluate potential allergenic and ecological effects.",
+                "title": "Food, Genetically Modified: Safety, Benefits, and Risk Assessment",
+                "summary": "Official WHO guide explaining how genetically modified crops improve yield and nutrition alongside international safety and environmental assessments.",
                 "url": "https://www.who.int/news-room/questions-and-answers/item/food-genetically-modified"
               },
               {
-                "source": "National Geographic",
-                "title": "The Future of Food: How Biotechnology Is Reshaping Agriculture",
-                "summary": "Genetic engineering offers promising tools to feed a growing global population, though biodiversity and farmer equity remain key concerns.",
-                "url": "https://www.nationalgeographic.com/environment"
+                "source": "U.S. Food & Drug Administration (FDA)",
+                "title": "Agricultural Biotechnology: GMO Crops, Food Supply, and Consumer Information",
+                "summary": "Details how bioengineered crops resist pests and drought while addressing consumer questions on labeling and long-term health.",
+                "url": "https://www.fda.gov/food/agricultural-biotechnology/gmo-crops-animal-food-and-beyond"
               },
               {
-                "source": "BBC News",
-                "title": "Gene-Edited Crops: Benefits and Environmental Debates",
-                "summary": "Scientists highlight how resilient crops reduce food waste and chemical runoff, while critics call for strict environmental monitoring.",
-                "url": "https://www.bbc.com/news/science_and_environment"
+                "source": "MedlinePlus (National Library of Medicine)",
+                "title": "Genetically Engineered Foods: Benefits and Potential Health Considerations",
+                "summary": "Medical encyclopedia overview of the pros and cons of biotech foods, including higher crop productivity and allergenicity concerns.",
+                "url": "https://medlineplus.gov/ency/article/002432.htm"
               }
             ]
           },
@@ -21763,41 +21763,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "Báo Thanh Niên",
-                "title": "Ý nghĩa và giá trị của hoạt động tình nguyện đối với người trẻ",
-                "summary": "Tham gia các chiến dịch tình nguyện giúp thanh niên tôi luyện kỹ năng mềm, mở rộng vòng kết nối và xây dựng tinh thần trách nhiệm với xã hội.",
-                "url": "https://thanhnien.vn/gioi-tre.html"
+                "title": "Tham gia hoạt động tình nguyện, người trẻ nhận lại được những giá trị gì?",
+                "summary": "Hoạt động tình nguyện giúp người trẻ rèn luyện kỹ năng giao tiếp, làm việc nhóm, trưởng thành hơn và sống có trách nhiệm với cộng đồng.",
+                "url": "https://thanhnien.vn/tham-gia-hoat-dong-tinh-nguyen-he-nguoi-tre-duoc-gi-185972932.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Người trẻ trưởng thành từ các phong trào tình nguyện vì cộng đồng",
-                "summary": "Hoạt động công ích không chỉ hỗ trợ trực tiếp người yếu thế mà còn là môi trường thực tế lý tưởng để người trẻ cọ xát và học cách giải quyết vấn đề.",
-                "url": "https://tuoitre.vn/nhip-song-tre.htm"
+                "title": "Hoạt động tình nguyện giúp chúng ta hạnh phúc hơn và cải thiện sức khỏe tinh thần",
+                "summary": "Các nghiên cứu khoa học chứng minh việc giúp đỡ người khác làm giảm căng thẳng, đẩy lùi cảm giác cô đơn và mang lại ý nghĩa sống tích cực.",
+                "url": "https://tuoitre.vn/hoat-dong-tinh-nguyen-giup-ta-hanh-phuc-hon-tri-nho-tot-hon-20250304090516419.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Những lợi ích bất ngờ đối với sức khỏe tinh thần khi tham gia tình nguyện",
-                "summary": "Nghiên cứu chỉ ra rằng việc giúp đỡ tha nhân kích thích hormone hạnh phúc, giảm stress và đem lại mục đích sống tích cực cho người tham gia.",
-                "url": "https://dantri.com.vn/doi-song.htm"
+                "title": "Những lợi ích sức khỏe và gắn kết xã hội tuyệt vời từ việc làm tình nguyện viên",
+                "summary": "Tham gia công tác cộng đồng không lương giúp mở rộng mạng lưới bạn bè, tích lũy kinh nghiệm thực tế và làm đẹp hồ sơ xin việc.",
+                "url": "https://dantri.com.vn/khoa-hoc/loi-ich-suc-khoe-tu-viec-lam-tinh-nguyen-vien-20170317074909808.htm"
               }
             ],
             "en": [
               {
-                "source": "United Nations Volunteers (UNV)",
-                "title": "The Power of Volunteering and Its Global Social Impact",
-                "summary": "Volunteering strengthens civic engagement, bridges social divides, and equips youth with invaluable leadership and collaborative skills.",
-                "url": "https://www.unv.org/about-unv/what-volunteering"
-              },
-              {
                 "source": "Harvard Health Publishing",
-                "title": "Volunteering May Be Good for Body and Mind",
-                "summary": "Scientific evidence shows that doing volunteer work enhances mental well-being, lowers depression risks, and enriches interpersonal connections.",
+                "title": "Volunteering May Be Good for Both Body and Mind",
+                "summary": "Harvard medical research showing how unpaid community service reduces stress, combats depression, and fosters a strong sense of purpose.",
                 "url": "https://www.health.harvard.edu/mind-and-mood/volunteering-may-be-good-for-body-and-mind"
               },
               {
-                "source": "BBC News",
-                "title": "Why Helping Others Can Boost Your Career and Well-being",
-                "summary": "Volunteers develop vital soft skills including cross-cultural communication, proactive problem-solving, and resilience in challenging settings.",
+                "source": "BBC Worklife",
+                "title": "How Volunteering Can Boost Your Career and Expand Your Network",
+                "summary": "Explains how community service builds essential soft skills, leadership experience, and professional connections for young people.",
                 "url": "https://www.bbc.com/worklife/article/20210326-how-volunteering-can-boost-your-career"
+              },
+              {
+                "source": "Mayo Clinic Health System",
+                "title": "3 Proven Health and Social Benefits of Volunteering in Your Community",
+                "summary": "Highlights the physical, mental, and social rewards of giving back to disadvantaged groups through volunteer work.",
+                "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/3-health-benefits-of-volunteering"
               }
             ]
           },
@@ -23289,42 +23289,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Sự bùng nổ của các ứng dụng giao đồ ăn tại đô thị Việt Nam",
-                "summary": "Dịch vụ giao đồ ăn trực tuyến thay đổi thói quen tiêu dùng nhờ sự tiện lợi, nhưng cũng kéo theo bài toán chi phí và rác thải nhựa.",
-                "url": "https://vnexpress.net/kinh-doanh"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Đồ ăn mua qua app: Tiện lợi nhưng kéo theo nguồn rác thải nhựa đáng báo động",
+                "summary": "Dịch vụ giao đồ ăn giúp tiết kiệm thời gian cho người bận rộn, song mỗi đơn hàng lại thải ra nhiều hộp xốp, túi nilon và muỗng nĩa nhựa dùng một lần.",
+                "url": "https://tuoitre.vn/do-an-mua-qua-app-nguon-rac-thai-khong-lo-dang-bao-dong-20231103231747649.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Rác thải nhựa từ dịch vụ giao đồ ăn nhanh: Báo động đỏ cho môi trường",
-                "summary": "Hàng triệu hộp xốp, túi nilon và muỗng nhựa dùng một lần thải ra mỗi ngày từ các đơn đặt đồ ăn đang gây áp lực lớn lên môi trường.",
-                "url": "https://tuoitre.vn/moi-truong.htm"
+                "title": "Mua hàng qua app take-away: Cả đống rác thải nhựa chỉ sau vài chục phút ăn uống",
+                "summary": "Phản ánh thói quen đặt đồ ăn trực tuyến tại các đô thị lớn cùng nguy cơ sức khỏe từ bao bì nhựa kém chất lượng và thức ăn nhiều dầu mỡ.",
+                "url": "https://tuoitre.vn/mua-hang-qua-app-take-away-ca-dong-rac-thai-nhua-chi-sau-chuc-phut-an-uong-20231104150818698.htm"
               },
               {
-                "source": "Báo Dân Trí",
-                "title": "Hệ lụy sức khỏe khi giới trẻ lạm dụng đồ ăn nhanh giao tận nơi",
-                "summary": "Các chuyên gia dinh dưỡng cảnh báo việc thường xuyên đặt trà sữa, thức ăn nhanh nhiều dầu mỡ làm tăng nguy cơ béo phì và bệnh chuyển hóa.",
-                "url": "https://dantri.com.vn/suc-khoe.htm"
+                "source": "Báo Thanh Niên",
+                "title": "Các ứng dụng giao đồ ăn trước bài toán giảm thiểu rác thải nhựa bảo vệ môi trường",
+                "summary": "Đánh giá lợi ích kinh tế số của các nền tảng giao đồ ăn và các giải pháp khuyến khích bao bì xanh, tiêu dùng có trách nhiệm.",
+                "url": "https://thanhnien.vn/grab-dat-muc-tieu-giam-luong-rac-thai-bao-bi-nhua-bang-0-18523052323324155.htm"
               }
             ],
             "en": [
               {
-                "source": "BBC News",
-                "title": "How Food Delivery Apps Changed the Way We Eat",
-                "summary": "On-demand meal delivery offers unmatched convenience and culinary variety for busy urbanites, while transforming restaurant economics.",
-                "url": "https://www.bbc.com/news/business"
-              },
-              {
-                "source": "World Health Organization (WHO)",
-                "title": "Meal Delivery Apps and Their Impact on Public Nutrition",
-                "summary": "Health experts highlight concerns over high-calorie, ultra-processed takeaway meals contributing to sedentary lifestyles and obesity.",
-                "url": "https://www.who.int/europe/news"
+                "source": "The Guardian",
+                "title": "Food Delivery Apps and Public Health: Balancing Convenience and Nutrition",
+                "summary": "Examines how meal delivery platforms offer unmatched convenience while often promoting high-calorie fast food and sedentary habits.",
+                "url": "https://www.theguardian.com/society/2023/may/18/delivery-apps-could-help-fight-obesity-by-boosting-low-calorie-options-says-study"
               },
               {
                 "source": "The Guardian",
-                "title": "The Environmental Cost of Our Takeaway Food Habit",
-                "summary": "Single-use plastic containers and packaging from food delivery orders present a growing waste management challenge worldwide.",
-                "url": "https://www.theguardian.com/environment"
+                "title": "The Rise of 'Dark Kitchens' and Food Safety Challenges in Delivery Apps",
+                "summary": "Investigates how rapid growth in online food ordering creates new regulatory challenges for food hygiene and quality control.",
+                "url": "https://www.theguardian.com/business/2026/jan/31/one-in-seven-food-delivery-businesses-england-dark-kitchens"
+              },
+              {
+                "source": "Tuoi Tre News (English)",
+                "title": "Ordering Food Online: Convenient for Urban Life Yet Detrimental to the Environment",
+                "summary": "Highlights the surge in single-use plastic packaging waste generated by booming food delivery services.",
+                "url": "https://news.tuoitre.vn/in-vietnam-ordering-food-online-detrimental-to-the-environment-10376662.htm"
               }
             ]
           },
@@ -24203,41 +24203,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Hạnh phúc gia đình bền vững từ việc cùng nhau chia sẻ việc nhà",
-                "summary": "Nghiên cứu tâm lý cho thấy các cặp vợ chồng cùng san sẻ công việc nội trợ có mức độ hài lòng trong hôn nhân cao hơn đáng kể.",
-                "url": "https://vnexpress.net/doi-song/to-am"
+                "title": "Nguyên tắc chia sẻ việc nhà giúp vợ chồng giữ lửa hạnh phúc",
+                "summary": "Phân chia công việc nhà công bằng giúp giảm gánh nặng cho người phụ nữ, tăng sự thấu hiểu và xây dựng bầu không khí gia đình đầm ấm.",
+                "url": "https://vnexpress.net/nguyen-tac-chia-viec-nha-cho-vo-chong-4245428.html"
               },
               {
-                "source": "Báo Phụ Nữ Việt Nam",
-                "title": "Dạy con tự lập qua những công việc nhà vừa sức mỗi ngày",
-                "summary": "Cho trẻ tham gia làm việc nhà từ sớm giúp hình thành tinh thần trách nhiệm, kỹ năng quản lý thời gian và sự thấu cảm với cha mẹ.",
-                "url": "https://phunuvietnam.vn/gia-dinh.htm"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Cùng làm việc nhà và chăm sóc con cái: Chìa khóa để gia đình hòa hợp",
+                "summary": "Khi mọi thành viên cùng chung tay dọn dẹp và nấu nướng, công việc hoàn thành nhanh hơn và con cái học được tinh thần trách nhiệm.",
+                "url": "https://tuoitre.vn/phunuonline/cung-cham-soc-con-cai-vo-chong-hoa-hop-110101220.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Chia sẻ việc nhà: Thước đo bình đẳng giới trong gia đình hiện đại",
-                "summary": "Việc nhà không còn là trách nhiệm riêng của phụ nữ mà là sợi dây gắn kết yêu thương giữa mọi thành viên dưới một mái nhà.",
-                "url": "https://dantri.com.vn/tinh-yeu-gioi-tinh/gia-dinh.htm"
+                "title": "Vợ quá tải việc nhà, con cái khi thiếu sự sẻ chia từ các thành viên",
+                "summary": "Nhấn mạnh tầm quan trọng của việc xóa bỏ định kiến giới trong việc nhà để bảo vệ sức khỏe tinh thần và sự gắn kết bền vững của tổ ấm.",
+                "url": "https://dantri.com.vn/tinh-yeu-gioi-tinh/vo-qua-tai-viec-nha-con-cai-trong-khi-chong-co-nhu-khong-20200423100050316.htm"
               }
             ],
             "en": [
               {
-                "source": "Harvard Gazette",
-                "title": "Kids Who Do Chores Are More Successful Adults",
-                "summary": "Longitudinal studies reveal that children who regularly participate in household tasks develop stronger work ethics, empathy, and self-reliance.",
-                "url": "https://news.harvard.edu/"
+                "source": "Harvard Graduate School of Education",
+                "title": "The Everyday Household Chores That Make Responsible and Caring Kids",
+                "summary": "Harvard research showing that involving children in family housework builds empathy, self-reliance, and long-term life success.",
+                "url": "https://mcc.gse.harvard.edu/whats-new/chores-caring-kids"
               },
               {
-                "source": "BBC Worklife",
-                "title": "Why Sharing Household Chores Is Key to Modern Relationship Satisfaction",
-                "summary": "Equitable division of domestic labor reduces emotional burnout and fosters deeper mutual appreciation between working partners.",
-                "url": "https://www.bbc.com/worklife"
+                "source": "The Guardian",
+                "title": "Why Fathers Sharing Household Chores and Childcare Strengthens Families",
+                "summary": "Explores how equitable division of domestic labour boosts relationship satisfaction and sets positive role models for children.",
+                "url": "https://www.theguardian.com/lifeandstyle/2015/jun/16/fathers-need-support-to-spend-more-time-on-children-and-chores-report"
               },
               {
-                "source": "Psychology Today",
-                "title": "The Psychological Benefits of Shared Family Responsibilities",
-                "summary": "Working together on daily routines builds family cohesion, teaches teamwork, and creates a supportive home atmosphere.",
-                "url": "https://www.psychologytoday.com/"
+                "source": "VnExpress International",
+                "title": "The Hidden Mental Toll of Unshared Housework and Why Family Teamwork Matters",
+                "summary": "Highlights how sharing daily chores prevents burnout and fosters mutual respect among family members.",
+                "url": "https://e.vnexpress.net/news/life/wellness/the-hidden-mental-toll-of-being-a-superwoman-wife-5106384.html"
               }
             ]
           },
@@ -24879,41 +24879,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Lợi ích kỳ diệu của việc học nhạc cụ đối với sự phát triển trí não",
-                "summary": "Các nghiên cứu thần kinh học chứng minh người chơi nhạc cụ có khả năng tập trung, ghi nhớ và xử lý ngôn ngữ vượt trội hơn.",
-                "url": "https://vnexpress.net/giao-duc"
+                "title": "Sáu lợi ích tuyệt vời nếu trẻ được học chơi một loại nhạc cụ",
+                "summary": "Học nhạc cụ giúp phát triển trí não, cải thiện trí nhớ, rèn luyện tính kiên nhẫn, kỷ luật và tăng sự tự tin khi biểu diễn trước đám đông.",
+                "url": "https://vnexpress.net/sau-loi-ich-neu-tre-duoc-hoc-choi-nhac-cu-3743050.html"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Âm nhạc như liệu pháp chữa lành và giải tỏa áp lực cuộc sống hiện đại",
-                "summary": "Dành thời gian luyện tập một nhạc cụ yêu thích mỗi ngày giúp giảm hormone căng thẳng và mang lại sự cân bằng cảm xúc.",
-                "url": "https://tuoitre.vn/van-hoa.htm"
+                "source": "VnExpress",
+                "title": "Khoa học chứng minh học âm nhạc và nhạc cụ giúp phát triển não bộ toàn diện",
+                "summary": "Sự phối hợp giữa mắt nhìn bản nhạc, tai lắng nghe và tay điều khiển nhạc cụ giúp kích hoạt đồng thời hai bán cầu não.",
+                "url": "https://vnexpress.net/hoc-am-nhac-giup-phat-trien-nao-bo-4121350.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Vì sao trẻ học nhạc cụ thường có tính kỷ luật và sự tự tin cao?",
-                "summary": "Quá trình kiên trì luyện tập từng bản nhạc giúp người học rèn luyện tính nhẫn nại, vượt qua nỗi sợ sân khấu và khẳng định bản thân.",
-                "url": "https://dantri.com.vn/giao-duc.htm"
+                "title": "Các nhà khoa học khẳng định âm nhạc giúp định hình tâm lý và hành vi tích cực",
+                "summary": "Chơi nhạc cụ là phương pháp giải tỏa căng thẳng lành mạnh, giúp nuôi dưỡng cảm xúc tinh tế và khả năng tập trung sâu.",
+                "url": "https://dantri.com.vn/cong-nghe/cac-nha-khoa-hoc-khang-dinh-am-nhac-giup-dinh-hinh-tam-ly-va-hanh-vi-cua-tre-1421505928.htm"
               }
             ],
             "en": [
               {
+                "source": "The Guardian",
+                "title": "Want to Train Your Brain? Forget Apps, Learn a Musical Instrument",
+                "summary": "Neuroscientists explain how learning an instrument strengthens memory, focus, and problem-solving skills more effectively than brain-training games.",
+                "url": "https://www.theguardian.com/education/2016/oct/24/want-to-train-your-brain-forget-apps-learn-a-musical-instrument"
+              },
+              {
                 "source": "Harvard Health Publishing",
-                "title": "How Playing an Instrument Benefits Your Brain",
-                "summary": "Neuroscientists confirm that playing a musical instrument engages multiple brain areas simultaneously, strengthening memory and executive function.",
-                "url": "https://www.health.harvard.edu/"
+                "title": "Musical Engagement and Playing Instruments Help Protect Brain Health",
+                "summary": "Harvard medical insights into how playing musical instruments relieves stress and supports long-term cognitive vitality.",
+                "url": "https://www.health.harvard.edu/mind-and-mood/musical-engagement-may-help-lower-dementia-risk"
               },
               {
-                "source": "BBC Future",
-                "title": "The Surprising Benefits of Learning an Instrument at Any Age",
-                "summary": "Beyond cognitive enhancement, musical training fosters emotional resilience, patience, and social connection through group performance.",
-                "url": "https://www.bbc.com/future"
-              },
-              {
-                "source": "National Geographic",
-                "title": "Music and the Mind: How Melodies Shape Human Intelligence",
-                "summary": "Musical education nurtures creativity, fine motor coordination, and cross-cultural understanding across generations.",
-                "url": "https://www.nationalgeographic.com/science"
+                "source": "The Guardian",
+                "title": "Playing a Musical Instrument Linked to Better Memory and Sharper Mind",
+                "summary": "Major study demonstrating that practising a musical instrument enhances working memory and executive brain function across life.",
+                "url": "https://www.theguardian.com/society/2024/jan/29/playing-musical-instrument-singing-linked-improved-older-brain-health"
               }
             ]
           },
