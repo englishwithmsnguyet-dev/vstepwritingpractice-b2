@@ -7076,21 +7076,11 @@ function renderStep1Reading() {
       defaultLabel2 = 'QUAN ĐIỂM 2';
     }
 
-    const isSelectable = hasSelectableIdeas(topic);
-    const selB = isSelectable ? getSelectedIdeaIndices(topic, 'benefits') : [];
-    const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
-
-    if (isSelectable) {
-      outlineIntroText = 'Tóm tắt các luận điểm bạn ĐÃ CHỌN để chuẩn bị đưa vào bài viết:';
-    }
-
     const b2Ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
     const b1Benefits = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || [])
-      .filter((_, idx) => !isSelectable || selB.includes(idx))
       .map((b, idx) => formatPoint(b, defaultLabel1, idx))
       .join('');
     const b1Drawbacks = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || [])
-      .filter((_, idx) => !isSelectable || selD.includes(idx))
       .map((d, idx) => formatPoint(d, defaultLabel2, idx))
       .join('');
     
