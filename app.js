@@ -200,6 +200,11 @@ function switchScreen(screenName) {
 // Switch to a Category browse screen
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ chỉ mở TYPE 01 (Advantages & Disadvantages)!', 'warning');
+    return;
+  }
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
     showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
     return;
@@ -310,10 +315,16 @@ function renderDashboard() {
   const container = document.getElementById('featured-topics-container');
   container.innerHTML = '';
   
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  const isGiaTueUser = (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName)));
+
   // Grab all topics that have full details (ideas and sample essays)
   const featuredTopics = [];
   ESSAY_DATA.forEach(cat => {
+    if (isGiaTueUser && cat.id !== 1) return;
     cat.topics.forEach(t => {
+      if (t.hidden) return;
       if (t.has_full_details) {
         featuredTopics.push({
           catId: cat.id,
@@ -691,6 +702,11 @@ function startPractice(catId, topicId) {
     return;
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ chỉ mở TYPE 01 (Advantages & Disadvantages)!', 'warning');
+    return;
+  }
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
     showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
     return;
@@ -7650,6 +7666,9 @@ function submitGatewayAccess() {
   }
 
   // 3. STUDENT VALIDATION
+  if (checkIsGiaTue(nameInput) && !classInput) {
+    classInput = 'B2';
+  }
   if (!classInput) {
     errorEl.textContent = 'Vui lòng nhập Mã lớp học!';
     errorEl.style.display = 'block';
@@ -7661,7 +7680,7 @@ function submitGatewayAccess() {
     .replace(/^(LỚP|LOP|CLASS)\s*/i, '')
     .trim();
   const noToneClass = removeVietnameseTones(cleanClass.toLowerCase()).replace(/[^a-z0-9]/g, '').toUpperCase();
-  if (noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
+  if (checkIsGiaTue(nameInput) || noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
     cleanClass = 'B2';
   } else {
     cleanClass = noToneClass;
@@ -7697,7 +7716,7 @@ function submitGatewayAccess() {
     if (found) {
       matchedName = found;
       classInput = cleanClass;
-    } else if (cleanClass === 'B212' && checkIsGiaTue(nameInput)) {
+    } else if (checkIsGiaTue(nameInput)) {
       matchedName = 'Gia Tuệ';
       classInput = 'B2';
     } else {
@@ -7735,6 +7754,7 @@ function submitGatewayAccess() {
     appContainer.style.setProperty('display', 'flex', 'important');
   }
   updateClassAccessUI();
+  renderDashboard();
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
 
   // Attendance log in background
@@ -7767,15 +7787,26 @@ function closeMobileSidebar() {
 // Class-based Feature Restriction Handler
 function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
   const isCB210 = (userClass === 'CB210');
+  const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
   
-  // Ensure Category 2 is unlocked
+  // Category 2 lock/unlock (Locked for Gia Tuệ, unlocked for others)
   const cat2Link = document.getElementById('nav-link-cat-2');
   if (cat2Link) {
-    cat2Link.classList.remove('is-locked');
-    cat2Link.removeAttribute('title');
     const existingBadge2 = cat2Link.querySelector('.cat-lock-badge');
     if (existingBadge2) existingBadge2.remove();
+    if (isGiaTue) {
+      cat2Link.classList.add('is-locked');
+      cat2Link.setAttribute('title', 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện chỉ mở TYPE 01)');
+      const badge2 = document.createElement('span');
+      badge2.className = 'cat-lock-badge';
+      badge2.innerHTML = '🔒 Khoá';
+      cat2Link.appendChild(badge2);
+    } else {
+      cat2Link.classList.remove('is-locked');
+      cat2Link.removeAttribute('title');
+    }
   }
 
   [3, 4].forEach(catId => {
@@ -7786,9 +7817,9 @@ function updateClassAccessUI() {
     const existingBadge = link.querySelector('.cat-lock-badge');
     if (existingBadge) existingBadge.remove();
     
-    if (isCB210) {
+    if (isGiaTue || isCB210) {
       link.classList.add('is-locked');
-      link.setAttribute('title', 'Dạng luận này chưa mở cho lớp CB210');
+      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện chỉ mở TYPE 01)' : 'Dạng luận này chưa mở cho lớp CB210');
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -7799,7 +7830,9 @@ function updateClassAccessUI() {
     }
   });
 
-  if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
+  if (isGiaTue && currentCategory && currentCategory.id !== 1) {
+    switchCategory(1);
+  } else if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
     switchCategory(1);
   }
 }
