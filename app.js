@@ -965,42 +965,69 @@ function renderWorkspaceStepHeader() {
     container.innerHTML = `
       <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
         <span class="step-num">1</span>
-        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 01</span>
+          <span class="step-title">ĐỌC HIỂU ĐỀ</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'vocab' ? 'active' : ''}" id="ws-tab-vocab" onclick="switchStep('vocab')">
         <span class="step-num">2</span>
-        <span class="step-label">BƯỚC 02: NẠP TỪ VỰNG</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 02</span>
+          <span class="step-title">NẠP TỪ VỰNG</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
         <span class="step-num">3</span>
-        <span class="step-label">BƯỚC 03: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 03</span>
+          <span class="step-title">TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
         <span class="step-num">4</span>
-        <span class="step-label">BƯỚC 04: VIẾT BÀI LUẬN</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 04</span>
+          <span class="step-title">VIẾT BÀI LUẬN</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
         <span class="step-num">5</span>
-        <span class="step-label">BƯỚC 05: THAM KHẢO BÀI LUẬN MẪU</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 05</span>
+          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU</span>
+        </span>
       </div>
     `;
   } else {
     container.innerHTML = `
       <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
         <span class="step-num">1</span>
-        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 01</span>
+          <span class="step-title">ĐỌC HIỂU ĐỀ</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
         <span class="step-num">2</span>
-        <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 02</span>
+          <span class="step-title">TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
         <span class="step-num">3</span>
-        <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 03</span>
+          <span class="step-title">VIẾT BÀI LUẬN</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
         <span class="step-num">4</span>
-        <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 04</span>
+          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU</span>
+        </span>
       </div>
     `;
   }
