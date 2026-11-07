@@ -47671,7 +47671,2241 @@ const ESSAY_DATA = [
         "title_vi": "Công nghệ máy tính trong học ngôn ngữ",
         "context": "Nowadays, computer technology has become widely used in language learning. Students can use computers, online platforms, language learning software, and digital dictionaries to improve their vocabulary, grammar, listening, and speaking skills. Some people believe that computer technology brings many benefits to language learners, while others argue that it may also create several problems.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of using computer technology in language learning. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Ngày nay, công nghệ máy tính đã được sử dụng rộng rãi trong việc học ngôn ngữ. Học sinh có thể sử dụng máy tính, các nền tảng trực tuyến, phần mềm học ngôn ngữ và từ điển điện tử để cải thiện kỹ năng từ vựng, ngữ pháp, nghe và nói của mình. Một số người tin rằng công nghệ máy tính mang lại nhiều lợi ích cho người học ngôn ngữ, trong khi những người khác lập luận rằng nó cũng có thể tạo ra một số vấn đề.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc sử dụng công nghệ máy tính trong học ngôn ngữ. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "computer-assisted language learning",
+            "vi": "việc học ngôn ngữ có sự hỗ trợ của máy tính"
+          },
+          {
+            "en": "digital tools in language education",
+            "vi": "các công cụ kỹ thuật số trong giáo dục ngôn ngữ"
+          },
+          {
+            "en": "integrating computer technology into language study",
+            "vi": "tích hợp công nghệ máy tính vào việc học ngôn ngữ"
+          },
+          {
+            "en": "using technological devices to learn a language",
+            "vi": "sử dụng các thiết bị công nghệ để học ngôn ngữ"
+          },
+          {
+            "en": "computer-based language instruction",
+            "vi": "việc giảng dạy và học tập ngôn ngữ dựa trên máy tính"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Bảy ứng dụng luyện phát âm tiếng Anh hỗ trợ hiệu quả cho người học",
+                "summary": "Giới thiệu các công cụ và phần mềm nhận diện giọng nói giúp người học tự kiểm tra, chỉnh sửa lỗi phát âm tiếng Anh chuẩn xác ngay trên thiết bị cá nhân.",
+                "url": "https://vnexpress.net/bay-ung-dung-luyen-phat-am-tieng-anh-4048591.html"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Ứng dụng công nghệ trong học tiếng Anh: Bệ phóng giúp người học bứt phá",
+                "summary": "Phân tích vai trò của học liệu đa phương tiện và phần mềm tương tác giúp tăng hứng thú, rèn phản xạ nghe nói và cá nhân hóa lộ trình tiếp thu ngoại ngữ.",
+                "url": "https://tuoitre.vn/ung-dung-cong-nghe-trong-hoc-tieng-anh-be-phong-giup-con-but-pha-20230729054038447.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Ứng dụng công nghệ miễn phí giúp bạn học tiếng Anh hiệu quả hơn",
+                "summary": "Tổng hợp các giải pháp từ điển số, kho nghe nhìn bản ngữ miễn phí đồng thời lưu ý người học cần duy trì sự tập trung để tránh xao nhãng trên máy tính.",
+                "url": "https://dantri.com.vn/giao-duc/ung-dung-cong-nghe-mien-phi-giup-ban-hoc-tieng-anh-hieu-qua-hon-20180112095508484.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "Edutopia",
+                "title": "6 Top Tech Tools for World Language Classes",
+                "summary": "Explores practical computer-based tools that boost vocabulary retention, listening comprehension, and active language production in modern classrooms.",
+                "url": "https://www.edutopia.org/article/6-top-tech-tools-world-language-classes/"
+              },
+              {
+                "source": "UNESCO",
+                "title": "UNESCO Launches a Global Roadmap on Multilingualism in the Digital Era",
+                "summary": "Highlights both the transformative potential of digital language technologies and the challenges of equitable access and authentic linguistic preservation.",
+                "url": "https://www.unesco.org/en/articles/unesco-launches-global-roadmap-multilingualism-digital-era"
+              },
+              {
+                "source": "Forbes",
+                "title": "Digital Tools Transforming Modern Language Learning",
+                "summary": "Examines how speech recognition, digital dictionaries, and interactive software reshape language study while emphasizing the continued need for human interaction.",
+                "url": "https://www.forbes.com/councils/forbestechcouncil/2024/07/08/digital-tools-transforming-arabic-language-learning/"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Công nghệ máy tính trong học ngôn ngữ (Computer technology in language learning)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Công nghệ máy tính trong học ngôn ngữ\" (Computer technology in language learning), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "interactive",
+                "ipa": "/ˌɪntərˈæktɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính tương tác hai chiều",
+                "example_en": "Interactive software makes grammar exercises far more engaging.",
+                "example_vi": "Phần mềm tương tác giúp các bài tập ngữ pháp trở nên hấp dẫn hơn nhiều.",
+                "family": "interact (v), interaction (n)"
+              },
+              {
+                "word": "multimedia",
+                "ipa": "/ˌmʌltiˈmiːdiə/",
+                "pos": "noun/adj",
+                "level": "B2",
+                "vi": "đa phương tiện (âm thanh, hình ảnh, video)",
+                "example_en": "Students can learn vocabulary faster through multimedia resources.",
+                "example_vi": "Học sinh có thể học từ vựng nhanh hơn thông qua các tài nguyên đa phương tiện.",
+                "family": "media (n), medium (n)"
+              },
+              {
+                "word": "pronunciation",
+                "ipa": "/prəˌnʌnsiˈeɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cách phát âm",
+                "example_en": "Speech recognition tools help learners correct their pronunciation.",
+                "example_vi": "Các công cụ nhận diện giọng nói giúp người học sửa cách phát âm của mình.",
+                "family": "pronounce (v), mispronounce (v)"
+              },
+              {
+                "word": "authentic",
+                "ipa": "/ɔːˈθentɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thực tế, chuẩn bản ngữ",
+                "example_en": "Computers give learners easy access to authentic listening materials.",
+                "example_vi": "Máy tính giúp người học dễ dàng tiếp cận các tài liệu luyện nghe chuẩn bản ngữ.",
+                "family": "authenticity (n), authentically (adv)"
+              },
+              {
+                "word": "instantaneous",
+                "ipa": "/ˌɪnstənˈteɪniəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ngay tức thì, lập tức",
+                "example_en": "Digital dictionaries provide instantaneous word definitions and audio.",
+                "example_vi": "Từ điển điện tử cung cấp định nghĩa từ và âm thanh ngay tức thì.",
+                "family": "instant (adj/n), instantly (adv)"
+              },
+              {
+                "word": "retention",
+                "ipa": "/rɪˈtenʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng ghi nhớ, lưu giữ kiến thức",
+                "example_en": "Visual aids and quizzes significantly improve vocabulary retention.",
+                "example_vi": "Giáo cụ trực quan và câu đố cải thiện đáng kể khả năng ghi nhớ từ vựng.",
+                "family": "retain (v), retentive (adj)"
+              },
+              {
+                "word": "autonomy",
+                "ipa": "/ɔːˈtɒnəmi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính tự chủ trong học tập",
+                "example_en": "Computer technology fosters greater learner autonomy outside school.",
+                "example_vi": "Công nghệ máy tính thúc đẩy tính tự chủ cao hơn của người học ngoài giờ lên lớp.",
+                "family": "autonomous (adj), autonomously (adv)"
+              },
+              {
+                "word": "proficiency",
+                "ipa": "/prəˈfɪʃnsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thành thạo, trình độ thông thạo",
+                "example_en": "Consistent practice with digital tools boosts overall language proficiency.",
+                "example_vi": "Luyện tập đều đặn với các công cụ số nâng cao trình độ thông thạo ngôn ngữ tổng thể.",
+                "family": "proficient (adj), proficiently (adv)"
+              },
+              {
+                "word": "comprehension",
+                "ipa": "/ˌkɒmprɪˈhenʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng đọc/nghe hiểu",
+                "example_en": "Subtitled videos on computers support listening comprehension.",
+                "example_vi": "Các video có phụ đề trên máy tính hỗ trợ khả năng nghe hiểu.",
+                "family": "comprehend (v), comprehensive (adj)"
+              },
+              {
+                "word": "accuracy",
+                "ipa": "/ˈækjərəsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "độ chính xác",
+                "example_en": "Automated grammar checkers help students improve writing accuracy.",
+                "example_vi": "Các công cụ kiểm tra ngữ pháp tự động giúp học sinh cải thiện độ chính xác khi viết.",
+                "family": "accurate (adj), accurately (adv)"
+              },
+              {
+                "word": "distraction",
+                "ipa": "/dɪˈstrækʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự xao nhãng, yếu tố gây mất tập trung",
+                "example_en": "Social media notifications on computers are a major source of distraction.",
+                "example_vi": "Thông báo mạng xã hội trên máy tính là một nguồn gây xao nhãng lớn.",
+                "family": "distract (v), distracted (adj)"
+              },
+              {
+                "word": "over-reliance",
+                "ipa": "/ˌəʊvərɪˈlaɪəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự phụ thuộc quá mức",
+                "example_en": "Over-reliance on translation software weakens independent thinking.",
+                "example_vi": "Sự phụ thuộc quá mức vào phần mềm dịch thuật làm suy yếu tư duy độc lập.",
+                "family": "rely (v), reliant (adj)"
+              },
+              {
+                "word": "spontaneous",
+                "ipa": "/spɒnˈteɪniəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tự nhiên, tức thời (phản xạ giao tiếp)",
+                "example_en": "Software cannot fully replicate spontaneous human conversation.",
+                "example_vi": "Phần mềm không thể mô phỏng hoàn toàn các cuộc trò chuyện tự nhiên giữa người với người.",
+                "family": "spontaneity (n), spontaneously (adv)"
+              },
+              {
+                "word": "nuance",
+                "ipa": "/ˈnjuːɑːns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sắc thái tinh tế (về ngữ nghĩa, văn hóa)",
+                "example_en": "Machine translators often miss subtle cultural nuances.",
+                "example_vi": "Các công cụ dịch máy thường bỏ lỡ những sắc thái văn hóa tinh tế.",
+                "family": "nuanced (adj)"
+              },
+              {
+                "word": "fatigue",
+                "ipa": "/fəˈtiːɡ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự mệt mỏi, mỏi mắt (do nhìn màn hình)",
+                "example_en": "Staring at a computer monitor for hours causes visual fatigue.",
+                "example_vi": "Nhìn chằm chằm vào màn hình máy tính nhiều giờ liền gây mỏi mắt.",
+                "family": "fatigued (adj)"
+              },
+              {
+                "word": "malfunction",
+                "ipa": "/ˌmælˈfʌŋkʃn/",
+                "pos": "noun/v",
+                "level": "B2",
+                "vi": "sự cố trục trặc kỹ thuật",
+                "example_en": "Hardware malfunctions can unexpectedly interrupt a listening lesson.",
+                "example_vi": "Trục trặc phần cứng có thể bất ngờ làm gián đoạn một tiết học nghe.",
+                "family": "function (n/v), functional (adj)"
+              },
+              {
+                "word": "engagement",
+                "ipa": "/ɪnˈɡeɪdʒmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự hứng thú, mức độ gắn kết học tập",
+                "example_en": "Gamified quizzes on computers increase student engagement.",
+                "example_vi": "Các bài đố trò chơi hóa trên máy tính làm tăng sự hứng thú của học sinh.",
+                "family": "engage (v), engaging (adj)"
+              },
+              {
+                "word": "customize",
+                "ipa": "/ˈkʌstəmaɪz/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "tùy chỉnh theo nhu cầu cá nhân",
+                "example_en": "Language software can customize vocabulary lists for each student.",
+                "example_vi": "Phần mềm ngôn ngữ có thể tùy chỉnh danh sách từ vựng cho từng học sinh.",
+                "family": "customizable (adj), customization (n)"
+              },
+              {
+                "word": "interpersonal",
+                "ipa": "/ˌɪntəˈpɜːsənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giữa cá nhân với nhau (giao tiếp trực tiếp)",
+                "example_en": "Excessive computer use may limit interpersonal communication skills.",
+                "example_vi": "Việc dùng máy tính quá nhiều có thể hạn chế kỹ năng giao tiếp trực tiếp giữa người với người.",
+                "family": "personal (adj), personality (n)"
+              },
+              {
+                "word": "accessibility",
+                "ipa": "/əkˌsesəˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng tiếp cận dễ dàng",
+                "example_en": "Computer technology enhances the accessibility of foreign language materials.",
+                "example_vi": "Công nghệ máy tính nâng cao khả năng tiếp cận các tài liệu ngoại ngữ.",
+                "family": "access (n/v), accessible (adj)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: TIẾP CẬN KHO HỌC LIỆU PHONG PHÚ VÀ CHUẨN BẢN NGỮ (ACCESS TO RICH AND AUTHENTIC MATERIALS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                    "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
+                  },
+                  {
+                    "en": "give learners easy access to",
+                    "vi": "giúp người học dễ dàng tiếp cận",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                    "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
+                  },
+                  {
+                    "en": "a wide range of language learning materials",
+                    "vi": "nguồn tài liệu học ngôn ngữ phong phú",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                    "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
+                  },
+                  {
+                    "en": "authentic listening materials",
+                    "vi": "tài liệu luyện nghe chuẩn bản ngữ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                    "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
+                  },
+                  {
+                    "en": "multimedia learning resources",
+                    "vi": "nguồn học liệu đa phương tiện",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                    "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: TĂNG TÍNH TƯƠNG TÁC VÀ HỨNG THÚ HỌC TẬP (HIGHER ENGAGEMENT AND INTERACTIVITY)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology makes language learning more interactive and engaging.",
+                    "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
+                  },
+                  {
+                    "en": "make language learning",
+                    "vi": "làm cho việc học ngôn ngữ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology makes language learning more interactive and engaging.",
+                    "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
+                  },
+                  {
+                    "en": "more interactive and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology makes language learning more interactive and engaging.",
+                    "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
+                  },
+                  {
+                    "en": "gamified grammar quizzes",
+                    "vi": "các bài trắc nghiệm ngữ pháp trò chơi hóa",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology makes language learning more interactive and engaging.",
+                    "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
+                  },
+                  {
+                    "en": "boost vocabulary retention",
+                    "vi": "tăng cường khả năng ghi nhớ từ vựng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology makes language learning more interactive and engaging.",
+                    "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: NHẬN PHẢN HỒI TỨC THÌ VỀ PHÁT ÂM VÀ NGỮ PHÁP (INSTANT FEEDBACK ON PRONUNCIATION AND GRAMMAR)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "computer tools",
+                    "vi": "các công cụ máy tính",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                    "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
+                  },
+                  {
+                    "en": "provide immediate feedback",
+                    "vi": "đưa ra phản hồi ngay lập tức",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                    "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
+                  },
+                  {
+                    "en": "on pronunciation and grammar",
+                    "vi": "về phát âm và ngữ pháp",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                    "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
+                  },
+                  {
+                    "en": "automated grammar checking",
+                    "vi": "kiểm tra ngữ pháp tự động",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                    "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
+                  },
+                  {
+                    "en": "self-correct pronunciation errors",
+                    "vi": "tự sửa các lỗi phát âm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                    "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: HỖ TRỢ TỰ HỌC LINH HOẠT THEO TỐC ĐỘ CÁ NHÂN (SELF-PACED AND FLEXIBLE LEARNING)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology allows learners to practice a language at their own pace.",
+                    "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
+                  },
+                  {
+                    "en": "practice a language",
+                    "vi": "tự rèn luyện ngôn ngữ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology allows learners to practice a language at their own pace.",
+                    "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
+                  },
+                  {
+                    "en": "at their own pace",
+                    "vi": "theo tốc độ phù hợp với bản thân",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology allows learners to practice a language at their own pace.",
+                    "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
+                  },
+                  {
+                    "en": "personalized learning schedules",
+                    "vi": "lịch trình học tập cá nhân hóa",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology allows learners to practice a language at their own pace.",
+                    "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
+                  },
+                  {
+                    "en": "review difficult lessons repeatedly",
+                    "vi": "ôn lại các bài học khó nhiều lần",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer technology allows learners to practice a language at their own pace.",
+                    "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: TIẾT KIỆM THỜI GIAN TRA CỨU VÀ LƯU TRỮ BÀI HỌC (TIME-SAVING LOOKUP AND ORGANIZED STORAGE)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                    "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
+                  },
+                  {
+                    "en": "look up words",
+                    "vi": "tra cứu từ vựng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                    "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
+                  },
+                  {
+                    "en": "organize notes",
+                    "vi": "sắp xếp ghi chú",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                    "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
+                  },
+                  {
+                    "en": "instantaneous dictionary lookup",
+                    "vi": "tra cứu từ điển tức thì",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                    "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
+                  },
+                  {
+                    "en": "digital flashcard decks",
+                    "vi": "bộ thẻ ghi nhớ từ vựng kỹ thuật số",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                    "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: HẠN CHẾ GIAO TIẾP TRỰC TIẾP NGOÀI ĐỜI THỰC (REDUCED FACE-TO-FACE COMMUNICATION)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "rely heavily on computers",
+                    "vi": "phụ thuộc nhiều vào máy tính",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                    "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
+                  },
+                  {
+                    "en": "reduce learners' opportunities",
+                    "vi": "làm giảm cơ hội của người học",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                    "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                    "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
+                  },
+                  {
+                    "en": "spontaneous human interaction",
+                    "vi": "tương tác tự nhiên giữa người với người",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                    "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
+                  },
+                  {
+                    "en": "lack interpersonal speaking practice",
+                    "vi": "thiếu thực hành nói chuyện trực tiếp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                    "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: DỄ GÂY XAO NHÃNG TRONG QUÁ TRÌNH HỌC (FREQUENT DIGITAL DISTRACTIONS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "computers connected to the Internet",
+                    "vi": "máy tính có kết nối mạng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                    "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
+                  },
+                  {
+                    "en": "easily distract learners",
+                    "vi": "dễ khiến người học bị xao nhãng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                    "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
+                  },
+                  {
+                    "en": "from their studies",
+                    "vi": "khỏi việc học tập",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                    "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
+                  },
+                  {
+                    "en": "constant pop-up notifications",
+                    "vi": "các thông báo bật lên liên tục",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                    "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
+                  },
+                  {
+                    "en": "shortened attention span",
+                    "vi": "khả năng tập trung bị rút ngắn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                    "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: LẠM DỤNG CÔNG CỤ DỊCH TỰ ĐỘNG (OVER-RELIANCE ON TRANSLATION TOOLS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "become overly dependent on",
+                    "vi": "phụ thuộc quá mức vào",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                    "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
+                  },
+                  {
+                    "en": "automatic translation",
+                    "vi": "dịch thuật tự động",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                    "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
+                  },
+                  {
+                    "en": "correction tools",
+                    "vi": "các công cụ sửa lỗi",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                    "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
+                  },
+                  {
+                    "en": "over-reliance on machine translation",
+                    "vi": "sự ỷ lại quá mức vào dịch máy",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                    "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
+                  },
+                  {
+                    "en": "miss subtle cultural nuances",
+                    "vi": "bỏ lỡ các sắc thái văn hóa tinh tế",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                    "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: ẢNH HƯỞNG SỨC KHỎE MẮT VÀ THỂ CHẤT (EYE STRAIN AND PHYSICAL FATIGUE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "sit in front of a computer screen",
+                    "vi": "ngồi trước màn hình máy tính",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                    "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
+                  },
+                  {
+                    "en": "for long hours",
+                    "vi": "trong nhiều giờ liền",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                    "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
+                  },
+                  {
+                    "en": "harm learners' health",
+                    "vi": "gây hại cho sức khỏe của người học",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                    "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
+                  },
+                  {
+                    "en": "prolonged screen exposure",
+                    "vi": "tiếp xúc màn hình kéo dài",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                    "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
+                  },
+                  {
+                    "en": "visual fatigue and poor posture",
+                    "vi": "mỏi thị giác và sai tư thế ngồi",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                    "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: RÀO CẢN CHI PHÍ THIẾT BỊ VÀ SỰ CỐ KỸ THUẬT (EQUIPMENT COSTS AND TECHNICAL ISSUES)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "equipment costs",
+                    "vi": "chi phí mua sắm thiết bị",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                    "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
+                  },
+                  {
+                    "en": "technical problems",
+                    "vi": "các sự cố kỹ thuật",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                    "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
+                  },
+                  {
+                    "en": "create barriers for many learners",
+                    "vi": "tạo ra rào cản đối với nhiều người học",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                    "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
+                  },
+                  {
+                    "en": "hardware malfunctions",
+                    "vi": "sự cố hư hỏng phần cứng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                    "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
+                  },
+                  {
+                    "en": "widen the digital divide",
+                    "vi": "nới rộng khoảng cách tiếp cận số",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                    "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, computer technology in language learning has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, công nghệ máy tính trong học ngôn ngữ ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of computer technology in language learning.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của công nghệ máy tính trong học ngôn ngữ."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, computer technology in language learning offers several notable advantages.",
+                    "example_vi": "Một mặt, công nghệ máy tính trong học ngôn ngữ mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many young people experience computer technology in language learning in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người trẻ trải nghiệm công nghệ máy tính trong học ngôn ngữ trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of computer technology in language learning is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của công nghệ máy tính trong học ngôn ngữ là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: TIẾP CẬN KHO HỌC LIỆU PHONG PHÚ VÀ CHUẨN BẢN NGỮ (ACCESS TO RICH AND AUTHENTIC MATERIALS)",
+                "collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "give learners easy access to",
+                    "vi": "giúp người học dễ dàng tiếp cận"
+                  },
+                  {
+                    "en": "a wide range of language learning materials",
+                    "vi": "nguồn tài liệu học ngôn ngữ phong phú"
+                  },
+                  {
+                    "en": "digital dictionaries",
+                    "vi": "từ điển điện tử"
+                  },
+                  {
+                    "en": "audio recordings from native speakers",
+                    "vi": "các bản ghi âm của người bản xứ"
+                  },
+                  {
+                    "en": "at any time",
+                    "vi": "bất cứ lúc nào"
+                  },
+                  {
+                    "en": "expand their vocabulary",
+                    "vi": "mở rộng vốn từ vựng"
+                  },
+                  {
+                    "en": "improve their listening skills",
+                    "vi": "cải thiện kỹ năng nghe"
+                  },
+                  {
+                    "en": "effectively",
+                    "vi": "một cách hiệu quả"
+                  }
+                ],
+                "point_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú.",
+                "point_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                "evidence_vi": "Học sinh có thể sử dụng từ điển điện tử, video và các bản ghi âm của người bản xứ bất cứ lúc nào. Điều này giúp họ mở rộng vốn từ vựng và cải thiện kỹ năng nghe một cách hiệu quả.",
+                "evidence_en": "Students can use digital dictionaries, videos, and audio recordings from native speakers at any time. This helps them expand their vocabulary and improve their listening skills effectively.",
+                "point_collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "give learners easy access to",
+                    "vi": "giúp người học dễ dàng tiếp cận"
+                  },
+                  {
+                    "en": "a wide range of language learning materials",
+                    "vi": "nguồn tài liệu học ngôn ngữ phong phú"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "digital dictionaries",
+                      "vi": "từ điển điện tử"
+                    },
+                    {
+                      "en": "audio recordings from native speakers",
+                      "vi": "các bản ghi âm của người bản xứ"
+                    },
+                    {
+                      "en": "at any time",
+                      "vi": "bất cứ lúc nào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "expand their vocabulary",
+                      "vi": "mở rộng vốn từ vựng"
+                    },
+                    {
+                      "en": "improve their listening skills",
+                      "vi": "cải thiện kỹ năng nghe"
+                    },
+                    {
+                      "en": "effectively",
+                      "vi": "một cách hiệu quả"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: TĂNG TÍNH TƯƠNG TÁC VÀ HỨNG THÚ HỌC TẬP (HIGHER ENGAGEMENT AND INTERACTIVITY)",
+                "collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "make language learning",
+                    "vi": "làm cho việc học ngôn ngữ"
+                  },
+                  {
+                    "en": "more interactive and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn"
+                  },
+                  {
+                    "en": "learning software",
+                    "vi": "các phần mềm học tập"
+                  },
+                  {
+                    "en": "visual images",
+                    "vi": "hình ảnh trực quan"
+                  },
+                  {
+                    "en": "enjoyable vocabulary games",
+                    "vi": "các trò chơi từ vựng thú vị"
+                  },
+                  {
+                    "en": "stay motivated",
+                    "vi": "duy trì được động lực"
+                  },
+                  {
+                    "en": "remember new knowledge",
+                    "vi": "ghi nhớ kiến thức mới"
+                  },
+                  {
+                    "en": "for longer periods",
+                    "vi": "trong thời gian lâu hơn"
+                  }
+                ],
+                "point_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn.",
+                "point_en": "Computer technology makes language learning more interactive and engaging.",
+                "evidence_vi": "Các phần mềm học tập thường kết hợp hình ảnh trực quan, âm thanh và các trò chơi từ vựng thú vị. Nhờ đó, người học duy trì được động lực và ghi nhớ kiến thức mới lâu hơn.",
+                "evidence_en": "Learning software often combines visual images, sound effects, and enjoyable vocabulary games. As a result, learners stay motivated and remember new knowledge for longer periods.",
+                "point_collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "make language learning",
+                    "vi": "làm cho việc học ngôn ngữ"
+                  },
+                  {
+                    "en": "more interactive and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "learning software",
+                      "vi": "các phần mềm học tập"
+                    },
+                    {
+                      "en": "visual images",
+                      "vi": "hình ảnh trực quan"
+                    },
+                    {
+                      "en": "enjoyable vocabulary games",
+                      "vi": "các trò chơi từ vựng thú vị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay motivated",
+                      "vi": "duy trì được động lực"
+                    },
+                    {
+                      "en": "remember new knowledge",
+                      "vi": "ghi nhớ kiến thức mới"
+                    },
+                    {
+                      "en": "for longer periods",
+                      "vi": "trong thời gian lâu hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: NHẬN PHẢN HỒI TỨC THÌ VỀ PHÁT ÂM VÀ NGỮ PHÁP (INSTANT FEEDBACK ON PRONUNCIATION AND GRAMMAR)",
+                "collocations": [
+                  {
+                    "en": "computer tools",
+                    "vi": "các công cụ máy tính"
+                  },
+                  {
+                    "en": "provide immediate feedback",
+                    "vi": "đưa ra phản hồi ngay lập tức"
+                  },
+                  {
+                    "en": "on pronunciation and grammar",
+                    "vi": "về phát âm và ngữ pháp"
+                  },
+                  {
+                    "en": "speech recognition software",
+                    "vi": "phần mềm nhận diện giọng nói"
+                  },
+                  {
+                    "en": "spell checkers",
+                    "vi": "công cụ kiểm tra chính tả"
+                  },
+                  {
+                    "en": "detect learners' mistakes within seconds",
+                    "vi": "phát hiện lỗi sai của người học chỉ trong vài giây"
+                  },
+                  {
+                    "en": "correct their errors quickly",
+                    "vi": "tự sửa lỗi nhanh chóng"
+                  },
+                  {
+                    "en": "improve their accuracy",
+                    "vi": "nâng cao độ chính xác"
+                  },
+                  {
+                    "en": "in language use",
+                    "vi": "khi sử dụng ngôn ngữ"
+                  }
+                ],
+                "point_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp.",
+                "point_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                "evidence_vi": "Phần mềm nhận diện giọng nói và công cụ kiểm tra chính tả giúp phát hiện lỗi sai của người học chỉ trong vài giây. Nhờ vậy, học sinh có thể tự sửa lỗi nhanh chóng và nâng cao độ chính xác khi sử dụng ngôn ngữ.",
+                "evidence_en": "Speech recognition software and spell checkers help detect learners' mistakes within seconds. Therefore, students can correct their errors quickly and improve their accuracy in language use.",
+                "point_collocations": [
+                  {
+                    "en": "computer tools",
+                    "vi": "các công cụ máy tính"
+                  },
+                  {
+                    "en": "provide immediate feedback",
+                    "vi": "đưa ra phản hồi ngay lập tức"
+                  },
+                  {
+                    "en": "on pronunciation and grammar",
+                    "vi": "về phát âm và ngữ pháp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "speech recognition software",
+                      "vi": "phần mềm nhận diện giọng nói"
+                    },
+                    {
+                      "en": "spell checkers",
+                      "vi": "công cụ kiểm tra chính tả"
+                    },
+                    {
+                      "en": "detect learners' mistakes within seconds",
+                      "vi": "phát hiện lỗi sai của người học chỉ trong vài giây"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "correct their errors quickly",
+                      "vi": "tự sửa lỗi nhanh chóng"
+                    },
+                    {
+                      "en": "improve their accuracy",
+                      "vi": "nâng cao độ chính xác"
+                    },
+                    {
+                      "en": "in language use",
+                      "vi": "khi sử dụng ngôn ngữ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: HỖ TRỢ TỰ HỌC LINH HOẠT THEO TỐC ĐỘ CÁ NHÂN (SELF-PACED AND FLEXIBLE LEARNING)",
+                "collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "practice a language",
+                    "vi": "tự rèn luyện ngôn ngữ"
+                  },
+                  {
+                    "en": "at their own pace",
+                    "vi": "theo tốc độ phù hợp với bản thân"
+                  },
+                  {
+                    "en": "replay audio lessons",
+                    "vi": "nghe lại bài giảng âm thanh"
+                  },
+                  {
+                    "en": "repeat grammar exercises multiple times",
+                    "vi": "làm lại bài tập ngữ pháp nhiều lần"
+                  },
+                  {
+                    "en": "without feeling pressured",
+                    "vi": "mà không cảm thấy áp lực"
+                  },
+                  {
+                    "en": "build confidence",
+                    "vi": "xây dựng sự tự tin"
+                  },
+                  {
+                    "en": "promote learner autonomy",
+                    "vi": "thúc đẩy tính tự chủ của người học"
+                  },
+                  {
+                    "en": "slower students",
+                    "vi": "những học sinh tiếp thu chậm"
+                  }
+                ],
+                "point_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân.",
+                "point_en": "Computer technology allows learners to practice a language at their own pace.",
+                "evidence_vi": "Những học sinh tiếp thu chậm có thể nghe lại bài giảng hoặc làm lại bài tập ngữ pháp nhiều lần mà không cảm thấy áp lực. Điều này giúp xây dựng sự tự tin và tính tự chủ trong học tập.",
+                "evidence_en": "Slower students can replay audio lessons or repeat grammar exercises multiple times without feeling pressured. This helps build confidence and promotes learner autonomy.",
+                "point_collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "practice a language",
+                    "vi": "tự rèn luyện ngôn ngữ"
+                  },
+                  {
+                    "en": "at their own pace",
+                    "vi": "theo tốc độ phù hợp với bản thân"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "replay audio lessons",
+                      "vi": "nghe lại bài giảng âm thanh"
+                    },
+                    {
+                      "en": "repeat grammar exercises multiple times",
+                      "vi": "làm lại bài tập ngữ pháp nhiều lần"
+                    },
+                    {
+                      "en": "without feeling pressured",
+                      "vi": "mà không cảm thấy áp lực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "build confidence",
+                      "vi": "xây dựng sự tự tin"
+                    },
+                    {
+                      "en": "promote learner autonomy",
+                      "vi": "thúc đẩy tính tự chủ của người học"
+                    },
+                    {
+                      "en": "slower students",
+                      "vi": "những học sinh tiếp thu chậm"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: TIẾT KIỆM THỜI GIAN TRA CỨU VÀ LƯU TRỮ BÀI HỌC (TIME-SAVING LOOKUP AND ORGANIZED STORAGE)",
+                "collocations": [
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "look up words",
+                    "vi": "tra cứu từ vựng"
+                  },
+                  {
+                    "en": "organize notes",
+                    "vi": "sắp xếp ghi chú"
+                  },
+                  {
+                    "en": "thick paper dictionaries",
+                    "vi": "sách từ điển giấy dày"
+                  },
+                  {
+                    "en": "check word meanings and usage instantly",
+                    "vi": "tra nghĩa và cách dùng từ ngay tức thì"
+                  },
+                  {
+                    "en": "with a single click",
+                    "vi": "chỉ bằng một cú nhấp chuột"
+                  },
+                  {
+                    "en": "store hundreds of study files",
+                    "vi": "lưu trữ hàng trăm tài liệu học tập"
+                  },
+                  {
+                    "en": "neatly",
+                    "vi": "một cách gọn gàng"
+                  },
+                  {
+                    "en": "on one device",
+                    "vi": "trên một thiết bị duy nhất"
+                  }
+                ],
+                "point_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú.",
+                "point_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                "evidence_vi": "Thay vì lật tìm trong sách từ điển dày, học sinh có thể tra nghĩa và cách dùng từ ngay tức thì chỉ bằng một cú nhấp chuột. Họ cũng dễ dàng lưu trữ hàng trăm tài liệu học tập gọn gàng trên một thiết bị duy nhất.",
+                "evidence_en": "Instead of flipping through thick paper dictionaries, students can check word meanings and usage instantly with a single click. They can also store hundreds of study files neatly on one device.",
+                "point_collocations": [
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "look up words",
+                    "vi": "tra cứu từ vựng"
+                  },
+                  {
+                    "en": "organize notes",
+                    "vi": "sắp xếp ghi chú"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "thick paper dictionaries",
+                      "vi": "sách từ điển giấy dày"
+                    },
+                    {
+                      "en": "check word meanings and usage instantly",
+                      "vi": "tra nghĩa và cách dùng từ ngay tức thì"
+                    },
+                    {
+                      "en": "with a single click",
+                      "vi": "chỉ bằng một cú nhấp chuột"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "store hundreds of study files",
+                      "vi": "lưu trữ hàng trăm tài liệu học tập"
+                    },
+                    {
+                      "en": "neatly",
+                      "vi": "một cách gọn gàng"
+                    },
+                    {
+                      "en": "on one device",
+                      "vi": "trên một thiết bị duy nhất"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: HẠN CHẾ GIAO TIẾP TRỰC TIẾP NGOÀI ĐỜI THỰC (REDUCED FACE-TO-FACE COMMUNICATION)",
+                "collocations": [
+                  {
+                    "en": "rely heavily on computers",
+                    "vi": "phụ thuộc nhiều vào máy tính"
+                  },
+                  {
+                    "en": "reduce learners' opportunities",
+                    "vi": "làm giảm cơ hội của người học"
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "natural emotions",
+                    "vi": "cảm xúc tự nhiên"
+                  },
+                  {
+                    "en": "body language",
+                    "vi": "ngôn ngữ cơ thể"
+                  },
+                  {
+                    "en": "real-life conversational responses",
+                    "vi": "phản xạ trò chuyện thực tế"
+                  },
+                  {
+                    "en": "master grammar on screen",
+                    "vi": "nắm vững ngữ pháp trên màn hình"
+                  },
+                  {
+                    "en": "struggle to speak confidently",
+                    "vi": "lúng túng khi nói chuyện tự tin"
+                  },
+                  {
+                    "en": "in real situations",
+                    "vi": "trong các tình huống thực tế"
+                  }
+                ],
+                "point_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học.",
+                "point_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                "evidence_vi": "Phần mềm máy tính khó có thể thay thế được cảm xúc tự nhiên, ngôn ngữ cơ thể và phản xạ trò chuyện thực tế giữa con người với nhau. Do đó, học sinh có thể nắm vững ngữ pháp trên máy nhưng lại lúng túng khi giao tiếp ngoài đời thực.",
+                "evidence_en": "Computer software cannot fully replace natural emotions, body language, and real-life conversational responses between people. Consequently, students may master grammar on screen but struggle to speak confidently in real situations.",
+                "point_collocations": [
+                  {
+                    "en": "rely heavily on computers",
+                    "vi": "phụ thuộc nhiều vào máy tính"
+                  },
+                  {
+                    "en": "reduce learners' opportunities",
+                    "vi": "làm giảm cơ hội của người học"
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "natural emotions",
+                      "vi": "cảm xúc tự nhiên"
+                    },
+                    {
+                      "en": "body language",
+                      "vi": "ngôn ngữ cơ thể"
+                    },
+                    {
+                      "en": "real-life conversational responses",
+                      "vi": "phản xạ trò chuyện thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "master grammar on screen",
+                      "vi": "nắm vững ngữ pháp trên màn hình"
+                    },
+                    {
+                      "en": "struggle to speak confidently",
+                      "vi": "lúng túng khi nói chuyện tự tin"
+                    },
+                    {
+                      "en": "in real situations",
+                      "vi": "trong các tình huống thực tế"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: DỄ GÂY XAO NHÃNG TRONG QUÁ TRÌNH HỌC (FREQUENT DIGITAL DISTRACTIONS)",
+                "collocations": [
+                  {
+                    "en": "computers connected to the Internet",
+                    "vi": "máy tính có kết nối mạng"
+                  },
+                  {
+                    "en": "easily distract learners",
+                    "vi": "dễ khiến người học bị xao nhãng"
+                  },
+                  {
+                    "en": "from their studies",
+                    "vi": "khỏi việc học tập"
+                  },
+                  {
+                    "en": "be tempted by social media",
+                    "vi": "bị cám dỗ bởi mạng xã hội"
+                  },
+                  {
+                    "en": "video games",
+                    "vi": "trò chơi điện tử"
+                  },
+                  {
+                    "en": "entertainment videos",
+                    "vi": "các video giải trí"
+                  },
+                  {
+                    "en": "loss of concentration",
+                    "vi": "sự mất tập trung"
+                  },
+                  {
+                    "en": "interrupt learning",
+                    "vi": "làm gián đoạn việc học"
+                  },
+                  {
+                    "en": "reduce academic effectiveness",
+                    "vi": "làm giảm hiệu quả học tập"
+                  }
+                ],
+                "point_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học.",
+                "point_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                "evidence_vi": "Trong lúc học ngoại ngữ, học sinh thường bị cám dỗ bởi mạng xã hội, trò chơi điện tử hoặc các video giải trí. Sự mất tập trung này làm gián đoạn việc tiếp thu và làm giảm đáng kể hiệu quả học tập.",
+                "evidence_en": "While studying a language, students are often tempted by social media, video games, or entertainment videos. Such loss of concentration interrupts learning and significantly reduces academic effectiveness.",
+                "point_collocations": [
+                  {
+                    "en": "computers connected to the Internet",
+                    "vi": "máy tính có kết nối mạng"
+                  },
+                  {
+                    "en": "easily distract learners",
+                    "vi": "dễ khiến người học bị xao nhãng"
+                  },
+                  {
+                    "en": "from their studies",
+                    "vi": "khỏi việc học tập"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be tempted by social media",
+                      "vi": "bị cám dỗ bởi mạng xã hội"
+                    },
+                    {
+                      "en": "video games",
+                      "vi": "trò chơi điện tử"
+                    },
+                    {
+                      "en": "entertainment videos",
+                      "vi": "các video giải trí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "loss of concentration",
+                      "vi": "sự mất tập trung"
+                    },
+                    {
+                      "en": "interrupt learning",
+                      "vi": "làm gián đoạn việc học"
+                    },
+                    {
+                      "en": "reduce academic effectiveness",
+                      "vi": "làm giảm hiệu quả học tập"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: LẠM DỤNG CÔNG CỤ DỊCH TỰ ĐỘNG (OVER-RELIANCE ON TRANSLATION TOOLS)",
+                "collocations": [
+                  {
+                    "en": "become overly dependent on",
+                    "vi": "phụ thuộc quá mức vào"
+                  },
+                  {
+                    "en": "automatic translation",
+                    "vi": "dịch thuật tự động"
+                  },
+                  {
+                    "en": "correction tools",
+                    "vi": "các công cụ sửa lỗi"
+                  },
+                  {
+                    "en": "copy entire sentences",
+                    "vi": "sao chép nguyên cả câu"
+                  },
+                  {
+                    "en": "machine translators",
+                    "vi": "phần mềm dịch máy"
+                  },
+                  {
+                    "en": "express ideas in their own words",
+                    "vi": "diễn đạt ý tưởng bằng vốn từ của mình"
+                  },
+                  {
+                    "en": "passive habit",
+                    "vi": "thói quen thụ động"
+                  },
+                  {
+                    "en": "hinder thinking in the target language",
+                    "vi": "cản trở tư duy bằng ngoại ngữ"
+                  },
+                  {
+                    "en": "weaken independent writing skills",
+                    "vi": "làm yếu kỹ năng viết độc lập"
+                  }
+                ],
+                "point_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động.",
+                "point_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                "evidence_vi": "Nhiều học sinh sao chép nguyên câu từ phần mềm dịch máy thay vì tự suy nghĩ cách diễn đạt bằng vốn từ của mình. Thói quen thụ động này cản trở khả năng tư duy bằng ngoại ngữ và làm yếu kỹ năng viết độc lập.",
+                "evidence_en": "Many students copy entire sentences from machine translators instead of thinking about how to express ideas in their own words. This passive habit hinders thinking in the target language and weakens independent writing skills.",
+                "point_collocations": [
+                  {
+                    "en": "become overly dependent on",
+                    "vi": "phụ thuộc quá mức vào"
+                  },
+                  {
+                    "en": "automatic translation",
+                    "vi": "dịch thuật tự động"
+                  },
+                  {
+                    "en": "correction tools",
+                    "vi": "các công cụ sửa lỗi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "copy entire sentences",
+                      "vi": "sao chép nguyên cả câu"
+                    },
+                    {
+                      "en": "machine translators",
+                      "vi": "phần mềm dịch máy"
+                    },
+                    {
+                      "en": "express ideas in their own words",
+                      "vi": "diễn đạt ý tưởng bằng vốn từ của mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "passive habit",
+                      "vi": "thói quen thụ động"
+                    },
+                    {
+                      "en": "hinder thinking in the target language",
+                      "vi": "cản trở tư duy bằng ngoại ngữ"
+                    },
+                    {
+                      "en": "weaken independent writing skills",
+                      "vi": "làm yếu kỹ năng viết độc lập"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG SỨC KHỎE MẮT VÀ THỂ CHẤT (EYE STRAIN AND PHYSICAL FATIGUE)",
+                "collocations": [
+                  {
+                    "en": "sit in front of a computer screen",
+                    "vi": "ngồi trước màn hình máy tính"
+                  },
+                  {
+                    "en": "for long hours",
+                    "vi": "trong nhiều giờ liền"
+                  },
+                  {
+                    "en": "harm learners' health",
+                    "vi": "gây hại cho sức khỏe của người học"
+                  },
+                  {
+                    "en": "blue light from monitors",
+                    "vi": "ánh sáng xanh từ màn hình"
+                  },
+                  {
+                    "en": "fixed sitting posture",
+                    "vi": "tư thế ngồi cố định"
+                  },
+                  {
+                    "en": "cause eye strain, headaches, and backache",
+                    "vi": "dẫn đến mỏi mắt, đau đầu và đau mỏi lưng"
+                  },
+                  {
+                    "en": "physical fatigue",
+                    "vi": "sự mệt mỏi thể chất"
+                  },
+                  {
+                    "en": "reduce learners' enthusiasm",
+                    "vi": "làm giảm sự hứng thú của người học"
+                  },
+                  {
+                    "en": "daily language practice",
+                    "vi": "việc rèn luyện ngoại ngữ mỗi ngày"
+                  }
+                ],
+                "point_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học.",
+                "point_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                "evidence_vi": "Ánh sáng xanh từ màn hình và tư thế ngồi cố định dễ dẫn đến mỏi mắt, đau đầu và đau mỏi lưng. Về lâu dài, sự mệt mỏi thể chất này khiến người học giảm hứng thú rèn luyện ngoại ngữ mỗi ngày.",
+                "evidence_en": "Blue light from monitors and a fixed sitting posture can easily cause eye strain, headaches, and backache. In the long run, such physical fatigue reduces learners' enthusiasm for daily language practice.",
+                "point_collocations": [
+                  {
+                    "en": "sit in front of a computer screen",
+                    "vi": "ngồi trước màn hình máy tính"
+                  },
+                  {
+                    "en": "for long hours",
+                    "vi": "trong nhiều giờ liền"
+                  },
+                  {
+                    "en": "harm learners' health",
+                    "vi": "gây hại cho sức khỏe của người học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "blue light from monitors",
+                      "vi": "ánh sáng xanh từ màn hình"
+                    },
+                    {
+                      "en": "fixed sitting posture",
+                      "vi": "tư thế ngồi cố định"
+                    },
+                    {
+                      "en": "cause eye strain, headaches, and backache",
+                      "vi": "dẫn đến mỏi mắt, đau đầu và đau mỏi lưng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "physical fatigue",
+                      "vi": "sự mệt mỏi thể chất"
+                    },
+                    {
+                      "en": "reduce learners' enthusiasm",
+                      "vi": "làm giảm sự hứng thú của người học"
+                    },
+                    {
+                      "en": "daily language practice",
+                      "vi": "việc rèn luyện ngoại ngữ mỗi ngày"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: RÀO CẢN CHI PHÍ THIẾT BỊ VÀ SỰ CỐ KỸ THUẬT (EQUIPMENT COSTS AND TECHNICAL ISSUES)",
+                "collocations": [
+                  {
+                    "en": "equipment costs",
+                    "vi": "chi phí mua sắm thiết bị"
+                  },
+                  {
+                    "en": "technical problems",
+                    "vi": "các sự cố kỹ thuật"
+                  },
+                  {
+                    "en": "create barriers for many learners",
+                    "vi": "tạo ra rào cản đối với nhiều người học"
+                  },
+                  {
+                    "en": "afford a reliable computer",
+                    "vi": "đủ điều kiện mua máy tính ổn định"
+                  },
+                  {
+                    "en": "paid licenses",
+                    "vi": "bản quyền trả phí"
+                  },
+                  {
+                    "en": "high-quality learning software",
+                    "vi": "phần mềm học tập chất lượng cao"
+                  },
+                  {
+                    "en": "software glitches",
+                    "vi": "lỗi trục trặc phần mềm"
+                  },
+                  {
+                    "en": "sudden network failures",
+                    "vi": "mất kết nối mạng đột ngột"
+                  },
+                  {
+                    "en": "disrupt their study sessions",
+                    "vi": "làm gián đoạn buổi ôn luyện"
+                  }
+                ],
+                "point_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học.",
+                "point_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                "evidence_vi": "Không phải học sinh nào cũng đủ điều kiện mua máy tính cấu hình tốt hoặc bản quyền phần mềm học tập chất lượng cao. Ngoài ra, lỗi phần mềm hoặc mất kết nối mạng đột ngột có thể làm gián đoạn quá trình ôn luyện.",
+                "evidence_en": "Not every student can afford a reliable computer or paid licenses for high-quality learning software. Moreover, software glitches or sudden network failures can disrupt their study sessions.",
+                "point_collocations": [
+                  {
+                    "en": "equipment costs",
+                    "vi": "chi phí mua sắm thiết bị"
+                  },
+                  {
+                    "en": "technical problems",
+                    "vi": "các sự cố kỹ thuật"
+                  },
+                  {
+                    "en": "create barriers for many learners",
+                    "vi": "tạo ra rào cản đối với nhiều người học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "afford a reliable computer",
+                      "vi": "đủ điều kiện mua máy tính ổn định"
+                    },
+                    {
+                      "en": "paid licenses",
+                      "vi": "bản quyền trả phí"
+                    },
+                    {
+                      "en": "high-quality learning software",
+                      "vi": "phần mềm học tập chất lượng cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "software glitches",
+                      "vi": "lỗi trục trặc phần mềm"
+                    },
+                    {
+                      "en": "sudden network failures",
+                      "vi": "mất kết nối mạng đột ngột"
+                    },
+                    {
+                      "en": "disrupt their study sessions",
+                      "vi": "làm gián đoạn buổi ôn luyện"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "computer technology",
+              "vi": "công nghệ máy tính"
+            },
+            {
+              "en": "give learners easy access to",
+              "vi": "giúp người học dễ dàng tiếp cận"
+            },
+            {
+              "en": "a wide range of language learning materials",
+              "vi": "nguồn tài liệu học ngôn ngữ phong phú"
+            },
+            {
+              "en": "authentic listening materials",
+              "vi": "tài liệu luyện nghe chuẩn bản ngữ"
+            },
+            {
+              "en": "multimedia learning resources",
+              "vi": "nguồn học liệu đa phương tiện"
+            },
+            {
+              "en": "make language learning",
+              "vi": "làm cho việc học ngôn ngữ"
+            },
+            {
+              "en": "more interactive and engaging",
+              "vi": "trở nên sinh động và hấp dẫn hơn"
+            },
+            {
+              "en": "gamified grammar quizzes",
+              "vi": "các bài trắc nghiệm ngữ pháp trò chơi hóa"
+            },
+            {
+              "en": "boost vocabulary retention",
+              "vi": "tăng cường khả năng ghi nhớ từ vựng"
+            },
+            {
+              "en": "computer tools",
+              "vi": "các công cụ máy tính"
+            },
+            {
+              "en": "provide immediate feedback",
+              "vi": "đưa ra phản hồi ngay lập tức"
+            },
+            {
+              "en": "on pronunciation and grammar",
+              "vi": "về phát âm và ngữ pháp"
+            },
+            {
+              "en": "automated grammar checking",
+              "vi": "kiểm tra ngữ pháp tự động"
+            },
+            {
+              "en": "self-correct pronunciation errors",
+              "vi": "tự sửa các lỗi phát âm"
+            },
+            {
+              "en": "practice a language",
+              "vi": "tự rèn luyện ngôn ngữ"
+            },
+            {
+              "en": "at their own pace",
+              "vi": "theo tốc độ phù hợp với bản thân"
+            },
+            {
+              "en": "personalized learning schedules",
+              "vi": "lịch trình học tập cá nhân hóa"
+            },
+            {
+              "en": "review difficult lessons repeatedly",
+              "vi": "ôn lại các bài học khó nhiều lần"
+            },
+            {
+              "en": "save considerable time",
+              "vi": "tiết kiệm đáng kể thời gian"
+            },
+            {
+              "en": "look up words",
+              "vi": "tra cứu từ vựng"
+            },
+            {
+              "en": "organize notes",
+              "vi": "sắp xếp ghi chú"
+            },
+            {
+              "en": "instantaneous dictionary lookup",
+              "vi": "tra cứu từ điển tức thì"
+            },
+            {
+              "en": "digital flashcard decks",
+              "vi": "bộ thẻ ghi nhớ từ vựng kỹ thuật số"
+            },
+            {
+              "en": "rely heavily on computers",
+              "vi": "phụ thuộc nhiều vào máy tính"
+            },
+            {
+              "en": "reduce learners' opportunities",
+              "vi": "làm giảm cơ hội của người học"
+            },
+            {
+              "en": "face-to-face communication",
+              "vi": "giao tiếp trực tiếp"
+            },
+            {
+              "en": "spontaneous human interaction",
+              "vi": "tương tác tự nhiên giữa người với người"
+            },
+            {
+              "en": "lack interpersonal speaking practice",
+              "vi": "thiếu thực hành nói chuyện trực tiếp"
+            },
+            {
+              "en": "computers connected to the Internet",
+              "vi": "máy tính có kết nối mạng"
+            },
+            {
+              "en": "easily distract learners",
+              "vi": "dễ khiến người học bị xao nhãng"
+            },
+            {
+              "en": "from their studies",
+              "vi": "khỏi việc học tập"
+            },
+            {
+              "en": "constant pop-up notifications",
+              "vi": "các thông báo bật lên liên tục"
+            },
+            {
+              "en": "shortened attention span",
+              "vi": "khả năng tập trung bị rút ngắn"
+            },
+            {
+              "en": "become overly dependent on",
+              "vi": "phụ thuộc quá mức vào"
+            },
+            {
+              "en": "automatic translation",
+              "vi": "dịch thuật tự động"
+            },
+            {
+              "en": "correction tools",
+              "vi": "các công cụ sửa lỗi"
+            },
+            {
+              "en": "over-reliance on machine translation",
+              "vi": "sự ỷ lại quá mức vào dịch máy"
+            },
+            {
+              "en": "miss subtle cultural nuances",
+              "vi": "bỏ lỡ các sắc thái văn hóa tinh tế"
+            },
+            {
+              "en": "sit in front of a computer screen",
+              "vi": "ngồi trước màn hình máy tính"
+            },
+            {
+              "en": "for long hours",
+              "vi": "trong nhiều giờ liền"
+            },
+            {
+              "en": "harm learners' health",
+              "vi": "gây hại cho sức khỏe của người học"
+            },
+            {
+              "en": "prolonged screen exposure",
+              "vi": "tiếp xúc màn hình kéo dài"
+            },
+            {
+              "en": "visual fatigue and poor posture",
+              "vi": "mỏi thị giác và sai tư thế ngồi"
+            },
+            {
+              "en": "equipment costs",
+              "vi": "chi phí mua sắm thiết bị"
+            },
+            {
+              "en": "technical problems",
+              "vi": "các sự cố kỹ thuật"
+            },
+            {
+              "en": "create barriers for many learners",
+              "vi": "tạo ra rào cản đối với nhiều người học"
+            },
+            {
+              "en": "hardware malfunctions",
+              "vi": "sự cố hư hỏng phần cứng"
+            },
+            {
+              "en": "widen the digital divide",
+              "vi": "nới rộng khoảng cách tiếp cận số"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "digital dictionaries",
+              "vi": "từ điển điện tử"
+            },
+            {
+              "en": "audio recordings from native speakers",
+              "vi": "các bản ghi âm của người bản xứ"
+            },
+            {
+              "en": "at any time",
+              "vi": "bất cứ lúc nào"
+            },
+            {
+              "en": "expand their vocabulary",
+              "vi": "mở rộng vốn từ vựng"
+            },
+            {
+              "en": "improve their listening skills",
+              "vi": "cải thiện kỹ năng nghe"
+            },
+            {
+              "en": "effectively",
+              "vi": "một cách hiệu quả"
+            },
+            {
+              "en": "learning software",
+              "vi": "các phần mềm học tập"
+            },
+            {
+              "en": "visual images",
+              "vi": "hình ảnh trực quan"
+            },
+            {
+              "en": "enjoyable vocabulary games",
+              "vi": "các trò chơi từ vựng thú vị"
+            },
+            {
+              "en": "stay motivated",
+              "vi": "duy trì được động lực"
+            },
+            {
+              "en": "remember new knowledge",
+              "vi": "ghi nhớ kiến thức mới"
+            },
+            {
+              "en": "for longer periods",
+              "vi": "trong thời gian lâu hơn"
+            },
+            {
+              "en": "speech recognition software",
+              "vi": "phần mềm nhận diện giọng nói"
+            },
+            {
+              "en": "spell checkers",
+              "vi": "công cụ kiểm tra chính tả"
+            },
+            {
+              "en": "detect learners' mistakes within seconds",
+              "vi": "phát hiện lỗi sai của người học chỉ trong vài giây"
+            },
+            {
+              "en": "correct their errors quickly",
+              "vi": "tự sửa lỗi nhanh chóng"
+            },
+            {
+              "en": "improve their accuracy",
+              "vi": "nâng cao độ chính xác"
+            },
+            {
+              "en": "in language use",
+              "vi": "khi sử dụng ngôn ngữ"
+            },
+            {
+              "en": "replay audio lessons",
+              "vi": "nghe lại bài giảng âm thanh"
+            },
+            {
+              "en": "repeat grammar exercises multiple times",
+              "vi": "làm lại bài tập ngữ pháp nhiều lần"
+            },
+            {
+              "en": "without feeling pressured",
+              "vi": "mà không cảm thấy áp lực"
+            },
+            {
+              "en": "build confidence",
+              "vi": "xây dựng sự tự tin"
+            },
+            {
+              "en": "promote learner autonomy",
+              "vi": "thúc đẩy tính tự chủ của người học"
+            },
+            {
+              "en": "slower students",
+              "vi": "những học sinh tiếp thu chậm"
+            },
+            {
+              "en": "thick paper dictionaries",
+              "vi": "sách từ điển giấy dày"
+            },
+            {
+              "en": "check word meanings and usage instantly",
+              "vi": "tra nghĩa và cách dùng từ ngay tức thì"
+            },
+            {
+              "en": "with a single click",
+              "vi": "chỉ bằng một cú nhấp chuột"
+            },
+            {
+              "en": "store hundreds of study files",
+              "vi": "lưu trữ hàng trăm tài liệu học tập"
+            },
+            {
+              "en": "neatly",
+              "vi": "một cách gọn gàng"
+            },
+            {
+              "en": "on one device",
+              "vi": "trên một thiết bị duy nhất"
+            },
+            {
+              "en": "natural emotions",
+              "vi": "cảm xúc tự nhiên"
+            },
+            {
+              "en": "body language",
+              "vi": "ngôn ngữ cơ thể"
+            },
+            {
+              "en": "real-life conversational responses",
+              "vi": "phản xạ trò chuyện thực tế"
+            },
+            {
+              "en": "master grammar on screen",
+              "vi": "nắm vững ngữ pháp trên màn hình"
+            },
+            {
+              "en": "struggle to speak confidently",
+              "vi": "lúng túng khi nói chuyện tự tin"
+            },
+            {
+              "en": "in real situations",
+              "vi": "trong các tình huống thực tế"
+            },
+            {
+              "en": "be tempted by social media",
+              "vi": "bị cám dỗ bởi mạng xã hội"
+            },
+            {
+              "en": "video games",
+              "vi": "trò chơi điện tử"
+            },
+            {
+              "en": "entertainment videos",
+              "vi": "các video giải trí"
+            },
+            {
+              "en": "loss of concentration",
+              "vi": "sự mất tập trung"
+            },
+            {
+              "en": "interrupt learning",
+              "vi": "làm gián đoạn việc học"
+            },
+            {
+              "en": "reduce academic effectiveness",
+              "vi": "làm giảm hiệu quả học tập"
+            },
+            {
+              "en": "copy entire sentences",
+              "vi": "sao chép nguyên cả câu"
+            },
+            {
+              "en": "machine translators",
+              "vi": "phần mềm dịch máy"
+            },
+            {
+              "en": "express ideas in their own words",
+              "vi": "diễn đạt ý tưởng bằng vốn từ của mình"
+            },
+            {
+              "en": "passive habit",
+              "vi": "thói quen thụ động"
+            },
+            {
+              "en": "hinder thinking in the target language",
+              "vi": "cản trở tư duy bằng ngoại ngữ"
+            },
+            {
+              "en": "weaken independent writing skills",
+              "vi": "làm yếu kỹ năng viết độc lập"
+            },
+            {
+              "en": "blue light from monitors",
+              "vi": "ánh sáng xanh từ màn hình"
+            },
+            {
+              "en": "fixed sitting posture",
+              "vi": "tư thế ngồi cố định"
+            },
+            {
+              "en": "cause eye strain, headaches, and backache",
+              "vi": "dẫn đến mỏi mắt, đau đầu và đau mỏi lưng"
+            },
+            {
+              "en": "physical fatigue",
+              "vi": "sự mệt mỏi thể chất"
+            },
+            {
+              "en": "reduce learners' enthusiasm",
+              "vi": "làm giảm sự hứng thú của người học"
+            },
+            {
+              "en": "daily language practice",
+              "vi": "việc rèn luyện ngoại ngữ mỗi ngày"
+            },
+            {
+              "en": "afford a reliable computer",
+              "vi": "đủ điều kiện mua máy tính ổn định"
+            },
+            {
+              "en": "paid licenses",
+              "vi": "bản quyền trả phí"
+            },
+            {
+              "en": "high-quality learning software",
+              "vi": "phần mềm học tập chất lượng cao"
+            },
+            {
+              "en": "software glitches",
+              "vi": "lỗi trục trặc phần mềm"
+            },
+            {
+              "en": "sudden network failures",
+              "vi": "mất kết nối mạng đột ngột"
+            },
+            {
+              "en": "disrupt their study sessions",
+              "vi": "làm gián đoạn buổi ôn luyện"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>using computer technology in language learning</strong> has become increasingly prevalent in modern education. Although it brings certain benefits, there are also some negative aspects. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, computer technology offers several advantages for language learners.</strong> One major benefit is that <strong><em>computer technology gives learners easy access to a wide range of language learning materials.</em></strong> Students can use digital dictionaries, videos, and audio recordings from native speakers at any time. This helps them expand their vocabulary and improve their listening skills effectively. Another positive aspect is that <strong><em>computer technology makes language learning more interactive and engaging.</em></strong> Learning software often combines visual images, sound effects, and enjoyable vocabulary games. As a result, learners stay motivated and remember new knowledge for longer periods. A further advantage to consider is that <strong><em>computer tools can provide immediate feedback on pronunciation and grammar.</em></strong> Speech recognition software and spell checkers help detect learners' mistakes within seconds. Therefore, students can correct their errors quickly and improve their accuracy in language use.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>relying heavily on computers may reduce learners' opportunities for face-to-face communication.</em></strong> Computer software cannot fully replace natural emotions, body language, and real-life conversational responses between people. Consequently, students may master grammar on screen but struggle to speak confidently in real situations. Another negative aspect is that <strong><em>computers connected to the Internet can easily distract learners from their studies.</em></strong> While studying a language, students are often tempted by social media, video games, or entertainment videos. Such loss of concentration interrupts learning and significantly reduces academic effectiveness. A further concern is that <strong><em>learners may become overly dependent on automatic translation and correction tools.</em></strong> Many students copy entire sentences from machine translators instead of thinking about how to express ideas in their own words. This passive habit hinders thinking in the target language and weakens independent writing skills.\n\nIn conclusion, <strong>using computer technology in language learning</strong> has both positive and negative aspects that should not be overlooked. While it offers valuable learning support, its potential drawbacks may also have significant implications. Therefore, a balanced combination of digital tools and real-life classroom interaction is essential.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng công nghệ máy tính trong học ngôn ngữ</strong> ngày càng trở nên phổ biến trong nền giáo dục hiện đại. Mặc dù xu hướng này mang lại những lợi ích nhất định, nó cũng tồn tại một số khía cạnh tiêu cực. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, công nghệ máy tính mang lại nhiều lợi thế cho người học ngôn ngữ.</strong> Một lợi ích lớn là <strong><em>công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú.</em></strong> Học sinh có thể sử dụng từ điển điện tử, video và các bản ghi âm của người bản xứ bất cứ lúc nào. Điều này giúp họ mở rộng vốn từ vựng và cải thiện kỹ năng nghe một cách hiệu quả. Một khía cạnh tích cực khác là <strong><em>công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn.</em></strong> Các phần mềm học tập thường kết hợp hình ảnh trực quan, âm thanh và các trò chơi từ vựng thú vị. Nhờ đó, người học duy trì được động lực và ghi nhớ kiến thức mới lâu hơn. Một thuận lợi nữa cần xem xét là <strong><em>các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp.</em></strong> Phần mềm nhận diện giọng nói và công cụ kiểm tra chính tả giúp phát hiện lỗi sai của người học chỉ trong vài giây. Nhờ vậy, học sinh có thể tự sửa lỗi nhanh chóng và nâng cao độ chính xác khi sử dụng ngôn ngữ.\n\n<strong>Mặt khác, vẫn có một số bất lợi cần được cân nhắc.</strong> Một hạn chế có thể xảy ra là <strong><em>việc phụ thuộc nhiều vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học.</em></strong> Phần mềm máy tính khó có thể thay thế được cảm xúc tự nhiên, ngôn ngữ cơ thể và phản xạ trò chuyện thực tế giữa con người với nhau. Do đó, học sinh có thể nắm vững ngữ pháp trên màn hình nhưng lại lúng túng khi nói chuyện tự tin trong các tình huống thực tế. Một điểm tiêu cực khác là <strong><em>máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi việc học tập.</em></strong> Trong lúc học ngoại ngữ, học sinh thường bị cám dỗ bởi mạng xã hội, trò chơi điện tử hoặc các video giải trí. Sự mất tập trung này làm gián đoạn việc học và làm giảm đáng kể hiệu quả học tập. Một mối lo ngại nữa là <strong><em>người học có thể phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động.</em></strong> Nhiều học sinh sao chép nguyên cả câu từ phần mềm dịch máy thay vì tự suy nghĩ cách diễn đạt ý tưởng bằng vốn từ của mình. Thói quen thụ động này cản trở tư duy bằng ngoại ngữ và làm yếu kỹ năng viết độc lập.\n\nTóm lại, <strong>việc sử dụng công nghệ máy tính trong học ngôn ngữ</strong> có cả mặt tích cực lẫn tiêu cực không nên xem nhẹ. Mặc dù nó mang lại sự hỗ trợ học tập quý giá, những hạn chế tiềm ẩn của nó cũng có thể để lại tác động đáng kể. Vì vậy, sự kết hợp hài hòa giữa công cụ kỹ thuật số và giao tiếp thực tế trên lớp là vô cùng cần thiết.",
+          "key_vocab_notes": [
+            {
+              "en": "give learners easy access to",
+              "vi": "giúp người học dễ dàng tiếp cận"
+            },
+            {
+              "en": "audio recordings from native speakers",
+              "vi": "các bản ghi âm của người bản xứ"
+            },
+            {
+              "en": "make language learning more interactive and engaging",
+              "vi": "làm cho việc học ngôn ngữ sinh động và hấp dẫn hơn"
+            },
+            {
+              "en": "provide immediate feedback on pronunciation",
+              "vi": "đưa ra phản hồi tức thì về phát âm"
+            },
+            {
+              "en": "speech recognition software",
+              "vi": "phần mềm nhận diện giọng nói"
+            },
+            {
+              "en": "opportunities for face-to-face communication",
+              "vi": "cơ hội giao tiếp trực tiếp"
+            },
+            {
+              "en": "real-life conversational responses",
+              "vi": "phản xạ trò chuyện ngoài đời thực"
+            },
+            {
+              "en": "easily distract learners from their studies",
+              "vi": "dễ khiến người học xao nhãng khỏi bài vở"
+            },
+            {
+              "en": "become overly dependent on automatic translation",
+              "vi": "phụ thuộc quá mức vào dịch thuật tự động"
+            },
+            {
+              "en": "weaken independent writing skills",
+              "vi": "làm suy yếu kỹ năng viết độc lập"
+            }
+          ]
+        }
       },
       {
         "id": 24,
@@ -47679,7 +49913,2245 @@ const ESSAY_DATA = [
         "title_vi": "Máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai",
         "context": "In the age of digital technology, computers and online learning programs have become common tools in second language learning. Many learners use language learning websites, mobile applications, online courses, and digital exercises to improve their vocabulary, grammar, pronunciation, and communication skills. Some people believe that these tools bring many benefits to second language learners, while others argue that they may also create several difficulties.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of using computers and online learning programs in second language learning. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Trong kỷ nguyên công nghệ số, máy tính và các chương trình học trực tuyến đã trở thành những công cụ phổ biến trong việc học ngoại ngữ thứ hai. Nhiều người học sử dụng các trang web học ngoại ngữ, ứng dụng di động, khóa học trực tuyến và bài tập kỹ thuật số để cải thiện từ vựng, ngữ pháp, phát âm và kỹ năng giao tiếp của mình. Một số người tin rằng các công cụ này mang lại nhiều lợi ích cho người học ngoại ngữ thứ hai, trong khi những người khác lập luận rằng chúng cũng có thể gây ra một số khó khăn.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc sử dụng máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "digital platforms and e-learning courses for second language acquisition",
+            "vi": "các nền tảng số và khóa học trực tuyến để tiếp thu ngoại ngữ thứ hai"
+          },
+          {
+            "en": "online language programs and computer-based tools",
+            "vi": "các chương trình ngôn ngữ trực tuyến và công cụ trên máy tính"
+          },
+          {
+            "en": "web-based courses and language apps",
+            "vi": "các khóa học trên nền tảng web và ứng dụng học ngoại ngữ"
+          },
+          {
+            "en": "learning a second language through virtual programs",
+            "vi": "học ngoại ngữ thứ hai thông qua các chương trình ảo"
+          },
+          {
+            "en": "computer-mediated second language courses",
+            "vi": "các khóa học ngoại ngữ thứ hai qua phương tiện máy tính"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Ra mắt khóa học giao tiếp tiếng Anh ứng dụng trí tuệ nhân tạo trực tuyến",
+                "summary": "Các chương trình học ngoại ngữ trực tuyến thế hệ mới tạo môi trường thực hành hội thoại linh hoạt tại nhà, giúp người học giảm tâm lý e ngại khi nói ngoại ngữ.",
+                "url": "https://vnexpress.net/prep-ra-mat-khoa-hoc-giao-tiep-tieng-anh-ung-dung-ai-4755324.html"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Đột phá Anh ngữ cùng các chương trình học trực tuyến tích hợp công nghệ",
+                "summary": "Đánh giá hiệu quả của các khóa học trực tuyến trong việc cá nhân hóa bài tập theo trình độ và tiết kiệm thời gian đi lại cho học sinh, người đi làm.",
+                "url": "https://tuoitre.vn/dot-pha-anh-ngu-cung-cong-nghe-ai-20210423182415859.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Những ứng dụng và chương trình hữu ích giúp người dùng tự học tiếng Anh",
+                "summary": "Phân tích ưu điểm về chi phí và sự tiện lợi của ứng dụng học ngoại ngữ, đồng thời nhấn mạnh tính kỷ luật tự giác để tránh bỏ dở khóa học giữa chừng.",
+                "url": "https://dantri.com.vn/cong-nghe/nhung-ung-dung-huu-ich-giup-nguoi-dung-tu-hoc-tieng-anh-tren-smartphone-20190505025015571.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "British Council",
+                "title": "English Online: Structured Virtual Programs for Second Language Learners",
+                "summary": "Illustrates how structured online language programs combine flexible scheduling, live global instructors, and self-study digital exercises.",
+                "url": "https://englishonline.britishcouncil.org/"
+              },
+              {
+                "source": "Edutopia",
+                "title": "Free and Easy Apps and Online Programs for Learning World Languages",
+                "summary": "Reviews accessible web platforms and mobile apps that reinforce second-language vocabulary, listening, and speaking practice outside traditional classrooms.",
+                "url": "https://www.edutopia.org/blog/free-easy-apps-world-languages-don-doehla?qt-edu_blogs_popular_sidebar=1"
+              },
+              {
+                "source": "UNESCO",
+                "title": "Global Roadmap on Multilingualism and Online Language Education",
+                "summary": "Addresses opportunities in online second-language programs alongside challenges such as connectivity gaps and quality assurance.",
+                "url": "https://www.unesco.org/en/global-roadmap-multilingualism"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai (Computer and online learning programs on second language learning)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai\" (Computer and online learning programs on second language learning), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "flexibility",
+                "ipa": "/ˌfleksəˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự linh hoạt (về thời gian và địa điểm)",
+                "example_en": "Online programs offer great flexibility for busy adult learners.",
+                "example_vi": "Các chương trình trực tuyến mang lại sự linh hoạt lớn cho người lớn bận rộn.",
+                "family": "flexible (adj), flexibly (adv)"
+              },
+              {
+                "word": "acquisition",
+                "ipa": "/ˌækwɪˈzɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tiếp thu, lĩnh hội (ngôn ngữ thứ hai)",
+                "example_en": "Daily exposure accelerates second language acquisition.",
+                "example_vi": "Việc tiếp xúc hằng ngày giúp đẩy nhanh quá trình tiếp thu ngoại ngữ thứ hai.",
+                "family": "acquire (v)"
+              },
+              {
+                "word": "curriculum",
+                "ipa": "/kəˈrɪkjələm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chương trình giảng dạy, lộ trình học",
+                "example_en": "Reputable online courses follow a well-structured curriculum.",
+                "example_vi": "Các khóa học trực tuyến uy tín tuân theo một lộ trình học bài bản.",
+                "family": "curricula (pl), curricular (adj)"
+              },
+              {
+                "word": "affordable",
+                "ipa": "/əˈfɔːdəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có mức học phí phải chăng, hợp túi tiền",
+                "example_en": "Many language apps are much more affordable than private tutoring.",
+                "example_vi": "Nhiều ứng dụng ngoại ngữ có chi phí phải chăng hơn nhiều so với gia sư riêng.",
+                "family": "afford (v), affordability (n)"
+              },
+              {
+                "word": "adaptive",
+                "ipa": "/əˈdæptɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thích ứng thông minh theo trình độ người học",
+                "example_en": "Adaptive learning programs adjust exercise difficulty automatically.",
+                "example_vi": "Các chương trình học thích ứng tự động điều chỉnh độ khó của bài tập.",
+                "family": "adapt (v), adaptation (n)"
+              },
+              {
+                "word": "self-discipline",
+                "ipa": "/ˌself ˈdɪsəplɪn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính tự giác, kỷ luật bản thân",
+                "example_en": "Completing an online language course requires strong self-discipline.",
+                "example_vi": "Hoàn thành một khóa ngoại ngữ trực tuyến đòi hỏi tính tự giác cao.",
+                "family": "disciplined (adj)"
+              },
+              {
+                "word": "procrastination",
+                "ipa": "/prəˌkræstɪˈneɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "thói trì hoãn việc học",
+                "example_en": "Without teacher supervision, learners easily fall into procrastination.",
+                "example_vi": "Không có sự giám sát của giáo viên, người học dễ rơi vào thói trì hoãn.",
+                "family": "procrastinate (v)"
+              },
+              {
+                "word": "tutor",
+                "ipa": "/ˈtjuːtə(r)/",
+                "pos": "noun/v",
+                "level": "B2",
+                "vi": "gia sư, người hướng dẫn trực tuyến",
+                "example_en": "Learners can book speaking sessions with native tutors worldwide.",
+                "example_vi": "Người học có thể đặt lịch luyện nói với gia sư bản ngữ trên toàn thế giới.",
+                "family": "tutoring (n), tutorial (n)"
+              },
+              {
+                "word": "commute",
+                "ipa": "/kəˈmjuːt/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "di chuyển, đi lại tới trung tâm học",
+                "example_en": "Online programs eliminate the need to commute to language centers.",
+                "example_vi": "Các chương trình trực tuyến loại bỏ việc phải đi lại tới các trung tâm ngoại ngữ.",
+                "family": "commuter (n)"
+              },
+              {
+                "word": "personalized",
+                "ipa": "/ˈpɜːsənəlaɪzd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "được cá nhân hóa riêng biệt",
+                "example_en": "Digital platforms generate personalized revision plans for each learner.",
+                "example_vi": "Các nền tảng số tạo ra kế hoạch ôn tập cá nhân hóa cho từng người học.",
+                "family": "personalize (v), personalization (n)"
+              },
+              {
+                "word": "connectivity",
+                "ipa": "/ˌkɒnekˈtɪvəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng kết nối đường truyền mạng",
+                "example_en": "Poor Internet connectivity ruins live online speaking classes.",
+                "example_vi": "Đường truyền Internet kém làm hỏng các buổi học nói trực tuyến.",
+                "family": "connect (v), connection (n)"
+              },
+              {
+                "word": "credibility",
+                "ipa": "/ˌkredəˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "độ tin cậy, uy tín chuyên môn",
+                "example_en": "Learners should check the academic credibility of an online course.",
+                "example_vi": "Người học nên kiểm tra độ uy tín học thuật của khóa học trực tuyến.",
+                "family": "credible (adj), credibly (adv)"
+              },
+              {
+                "word": "immersion",
+                "ipa": "/ɪˈmɜːʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đắm mình trong môi trường ngôn ngữ",
+                "example_en": "Virtual exchanges create partial language immersion from home.",
+                "example_vi": "Trao đổi trực tuyến tạo ra môi trường đắm mình ngôn ngữ một phần ngay tại nhà.",
+                "family": "immerse (v), immersive (adj)"
+              },
+              {
+                "word": "isolated",
+                "ipa": "/ˈaɪsəleɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "cô lập, thiếu sự gắn kết bạn học",
+                "example_en": "Studying alone on an app can make learners feel isolated.",
+                "example_vi": "Học một mình trên ứng dụng có thể khiến người học cảm thấy cô đơn.",
+                "family": "isolate (v), isolation (n)"
+              },
+              {
+                "word": "progress",
+                "ipa": "/ˈprəʊɡres/",
+                "pos": "noun/v",
+                "level": "B2",
+                "vi": "sự tiến bộ trong học tập",
+                "example_en": "Online dashboards allow students to track their weekly progress.",
+                "example_vi": "Bảng theo dõi trực tuyến giúp học sinh kiểm soát sự tiến bộ hằng tuần.",
+                "family": "progression (n), progressive (adj)"
+              },
+              {
+                "word": "supervision",
+                "ipa": "/ˌsuːpəˈvɪʒn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự theo sát, giám sát của giáo viên",
+                "example_en": "Young learners often struggle without direct classroom supervision.",
+                "example_vi": "Người học nhỏ tuổi thường gặp khó khăn khi thiếu sự giám sát trực tiếp trên lớp.",
+                "family": "supervise (v), supervisor (n)"
+              },
+              {
+                "word": "subscription",
+                "ipa": "/səbˈskrɪpʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "gói đăng ký trả phí định kỳ",
+                "example_en": "Premium language programs often require a monthly subscription.",
+                "example_vi": "Các chương trình ngoại ngữ cao cấp thường yêu cầu gói đăng ký hằng tháng.",
+                "family": "subscribe (v), subscriber (n)"
+              },
+              {
+                "word": "fluent",
+                "ipa": "/ˈfluːənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "trôi chảy, lưu loát",
+                "example_en": "App drills alone rarely make a learner completely fluent.",
+                "example_vi": "Chỉ làm bài tập trên ứng dụng hiếm khi giúp người học lưu loát hoàn toàn.",
+                "family": "fluency (n), fluently (adv)"
+              },
+              {
+                "word": "convenience",
+                "ipa": "/kənˈviːniəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tiện lợi, thuận tiện",
+                "example_en": "Working professionals value the convenience of evening online lessons.",
+                "example_vi": "Người đi làm đánh giá cao sự tiện lợi của các bài học trực tuyến buổi tối.",
+                "family": "convenient (adj), conveniently (adv)"
+              },
+              {
+                "word": "unverified",
+                "ipa": "/ˌʌnˈverɪfaɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chưa được kiểm chứng chất lượng",
+                "example_en": "Some unverified online programs teach unnatural or outdated phrases.",
+                "example_vi": "Một số chương trình trực tuyến chưa kiểm chứng dạy các cụm từ lỗi thời hoặc thiếu tự nhiên.",
+                "family": "verify (v), verification (n)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: LINH HOẠT VỀ THỜI GIAN VÀ ĐỊA ĐIỂM HỌC TẬP (FLEXIBILITY IN TIME AND LOCATION)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "computers and online programs",
+                    "vi": "máy tính và các chương trình trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                    "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
+                  },
+                  {
+                    "en": "second language learners",
+                    "vi": "người học ngoại ngữ thứ hai",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                    "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
+                  },
+                  {
+                    "en": "great flexibility in time and location",
+                    "vi": "sự linh hoạt lớn về thời gian và địa điểm",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                    "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
+                  },
+                  {
+                    "en": "learn anytime and anywhere",
+                    "vi": "học tập mọi lúc mọi nơi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                    "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
+                  },
+                  {
+                    "en": "balance study with work commitments",
+                    "vi": "cân bằng việc học với công việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                    "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: KẾT NỐI DỄ DÀNG VỚI GIÁO VIÊN BẢN NGỮ TOÀN CẦU (GLOBAL ACCESS TO NATIVE INSTRUCTORS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "online learning programs",
+                    "vi": "các chương trình học trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                    "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
+                  },
+                  {
+                    "en": "connect learners directly with",
+                    "vi": "kết nối người học trực tiếp với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                    "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
+                  },
+                  {
+                    "en": "native-speaking instructors",
+                    "vi": "giáo viên bản ngữ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                    "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
+                  },
+                  {
+                    "en": "overcome geographical barriers",
+                    "vi": "xóa bỏ rào cản địa lý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                    "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
+                  },
+                  {
+                    "en": "one-on-one online tutoring",
+                    "vi": "học gia sư trực tuyến một kèm một",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                    "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: CÁ NHÂN HÓA LỘ TRÌNH VÀ THEO DÕI TIẾN ĐỘ (PERSONALIZED PATHWAYS AND PROGRESS TRACKING)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "modern language platforms",
+                    "vi": "các nền tảng ngoại ngữ hiện đại",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                    "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
+                  },
+                  {
+                    "en": "design study pathways",
+                    "vi": "thiết kế lộ trình học tập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                    "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
+                  },
+                  {
+                    "en": "tailored to each learner's proficiency level",
+                    "vi": "phù hợp với trình độ của từng người học",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                    "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
+                  },
+                  {
+                    "en": "adaptive learning algorithms",
+                    "vi": "thuật toán học tập thích ứng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                    "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
+                  },
+                  {
+                    "en": "customized revision modules",
+                    "vi": "các học phần ôn tập được tùy chỉnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                    "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: TIẾT KIỆM CHI PHÍ HỌC PHÍ VÀ ĐI LẠI (LOWER TUITION AND TRAVEL EXPENSES)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "online courses and language applications",
+                    "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                    "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
+                  },
+                  {
+                    "en": "more affordable than",
+                    "vi": "có chi phí tiết kiệm hơn so với",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                    "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
+                  },
+                  {
+                    "en": "traditional classroom courses",
+                    "vi": "các khóa học trực tiếp truyền thống",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                    "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
+                  },
+                  {
+                    "en": "cost-effective language education",
+                    "vi": "giáo dục ngoại ngữ tiết kiệm chi phí",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                    "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
+                  },
+                  {
+                    "en": "reduce tuition burdens",
+                    "vi": "giảm gánh nặng học phí",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                    "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: GIẢM TÂM LÝ SỢ SAI KHI MỚI LUYỆN NÓI (LOWER SPEAKING ANXIETY FOR BEGINNERS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "practice with online programs",
+                    "vi": "luyện tập với các chương trình trực tuyến",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                    "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
+                  },
+                  {
+                    "en": "reduce their fear of making mistakes",
+                    "vi": "giảm bớt nỗi sợ mắc lỗi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                    "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
+                  },
+                  {
+                    "en": "in front of others",
+                    "vi": "trước mặt người khác",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                    "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
+                  },
+                  {
+                    "en": "overcome language anxiety",
+                    "vi": "vượt qua tâm lý lo lắng khi nói ngoại ngữ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                    "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
+                  },
+                  {
+                    "en": "a stress-free practice environment",
+                    "vi": "môi trường luyện tập không áp lực",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                    "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: ĐÒI HỎI TÍNH TỰ GIÁC CAO VÀ DỄ BỎ CUỘC (HIGH SELF-DISCIPLINE REQUIRED AND DROPOUT RISK)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "require strong self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                    "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                    "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
+                  },
+                  {
+                    "en": "many learners lack",
+                    "vi": "nhiều người học còn thiếu",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                    "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
+                  },
+                  {
+                    "en": "high course dropout rates",
+                    "vi": "tỷ lệ bỏ dở khóa học cao",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                    "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
+                  },
+                  {
+                    "en": "lack direct teacher supervision",
+                    "vi": "thiếu sự giám sát trực tiếp của giáo viên",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                    "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: THIẾU TƯƠNG TÁC NHÓM VÀ MÔI TRƯỜNG GIAO TIẾP THỰC (LIMITED GROUP INTERACTION AND REAL PRACTICE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "apps and online courses",
+                    "vi": "các ứng dụng và khóa học trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                    "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
+                  },
+                  {
+                    "en": "lively group interaction",
+                    "vi": "tương tác nhóm sôi nổi",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                    "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
+                  },
+                  {
+                    "en": "traditional classrooms",
+                    "vi": "các lớp học truyền thống",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                    "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
+                  },
+                  {
+                    "en": "peer-to-peer speaking activities",
+                    "vi": "hoạt động luyện nói tương tác cùng bạn học",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                    "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
+                  },
+                  {
+                    "en": "feel socially isolated while studying",
+                    "vi": "cảm thấy cô lập khi học một mình",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                    "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: CHẤT LƯỢNG CÁC CHƯƠNG TRÌNH TRỰC TUYẾN KHÔNG ĐỒNG ĐỀU (UNEVEN QUALITY OF ONLINE PROGRAMS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "the quality of language learning websites",
+                    "vi": "chất lượng của các trang web học ngoại ngữ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The quality of language learning websites and online programs varies considerably.",
+                    "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The quality of language learning websites and online programs varies considerably.",
+                    "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
+                  },
+                  {
+                    "en": "vary considerably",
+                    "vi": "rất không đồng đều / chênh lệch đáng kể",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The quality of language learning websites and online programs varies considerably.",
+                    "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
+                  },
+                  {
+                    "en": "lack proper academic accreditation",
+                    "vi": "thiếu sự kiểm định học thuật chuẩn xác",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The quality of language learning websites and online programs varies considerably.",
+                    "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
+                  },
+                  {
+                    "en": "outdated or inaccurate study content",
+                    "vi": "nội dung học tập lỗi thời hoặc thiếu chính xác",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The quality of language learning websites and online programs varies considerably.",
+                    "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: PHỤ THUỘC VÀO ĐƯỜNG TRUYỀN INTERNET ỔN ĐỊNH (DEPENDENCE ON STABLE INTERNET CONNECTIVITY)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "the effectiveness of online learning programs",
+                    "vi": "hiệu quả của các chương trình học trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                    "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
+                  },
+                  {
+                    "en": "depend heavily on",
+                    "vi": "phụ thuộc chặt chẽ vào",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                    "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
+                  },
+                  {
+                    "en": "a stable Internet connection",
+                    "vi": "đường truyền Internet ổn định",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                    "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
+                  },
+                  {
+                    "en": "poor Internet connectivity",
+                    "vi": "kết nối mạng kém ổn định",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                    "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
+                  },
+                  {
+                    "en": "audio lag and frozen screens",
+                    "vi": "trễ âm thanh và đứng hình",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                    "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: KHÓ NHẬN ĐƯỢC HƯỚNG DẪN CHUYÊN SÂU CHO KỸ NĂNG VIẾT VÀ NÓI (LACK OF IN-DEPTH HUMAN FEEDBACK)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "automated online programs",
+                    "vi": "các chương trình trực tuyến tự động",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                    "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
+                  },
+                  {
+                    "en": "give in-depth feedback",
+                    "vi": "đưa ra nhận xét chuyên sâu",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                    "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
+                  },
+                  {
+                    "en": "extended speaking and essay writing",
+                    "vi": "kỹ năng nói dài và viết luận",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                    "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
+                  },
+                  {
+                    "en": "personalized teacher guidance",
+                    "vi": "sự hướng dẫn sát sao từ giáo viên",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                    "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
+                  },
+                  {
+                    "en": "assess coherence and register",
+                    "vi": "đánh giá tính mạch lạc và văn phong",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                    "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, computer and online learning programs on second language learning has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of computer and online learning programs on second language learning.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, computer and online learning programs on second language learning offers several notable advantages.",
+                    "example_vi": "Một mặt, máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many young people experience computer and online learning programs on second language learning in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người trẻ trải nghiệm máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of computer and online learning programs on second language learning is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: LINH HOẠT VỀ THỜI GIAN VÀ ĐỊA ĐIỂM HỌC TẬP (FLEXIBILITY IN TIME AND LOCATION)",
+                "collocations": [
+                  {
+                    "en": "computers and online programs",
+                    "vi": "máy tính và các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "second language learners",
+                    "vi": "người học ngoại ngữ thứ hai"
+                  },
+                  {
+                    "en": "great flexibility in time and location",
+                    "vi": "sự linh hoạt lớn về thời gian và địa điểm"
+                  },
+                  {
+                    "en": "working adults",
+                    "vi": "người đi làm"
+                  },
+                  {
+                    "en": "study early in the morning or late at night",
+                    "vi": "học vào sáng sớm hoặc buổi tối"
+                  },
+                  {
+                    "en": "without commuting to language centers",
+                    "vi": "mà không tốn thời gian đi lại đến trung tâm"
+                  },
+                  {
+                    "en": "maintain regular language practice",
+                    "vi": "duy trì thói quen rèn luyện ngoại ngữ đều đặn"
+                  },
+                  {
+                    "en": "despite busy schedules",
+                    "vi": "dù lịch trình bận rộn"
+                  },
+                  {
+                    "en": "from home",
+                    "vi": "ngay tại nhà"
+                  }
+                ],
+                "point_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ.",
+                "point_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                "evidence_vi": "Học sinh và người đi làm có thể học vào sáng sớm hoặc buổi tối ngay tại nhà mà không tốn thời gian đi lại đến trung tâm. Điều này giúp họ duy trì thói quen rèn luyện ngoại ngữ đều đặn dù lịch trình bận rộn.",
+                "evidence_en": "Students and working adults can study early in the morning or late at night from home without commuting to language centers. This helps them maintain regular language practice despite busy schedules.",
+                "point_collocations": [
+                  {
+                    "en": "computers and online programs",
+                    "vi": "máy tính và các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "second language learners",
+                    "vi": "người học ngoại ngữ thứ hai"
+                  },
+                  {
+                    "en": "great flexibility in time and location",
+                    "vi": "sự linh hoạt lớn về thời gian và địa điểm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "working adults",
+                      "vi": "người đi làm"
+                    },
+                    {
+                      "en": "study early in the morning or late at night",
+                      "vi": "học vào sáng sớm hoặc buổi tối"
+                    },
+                    {
+                      "en": "without commuting to language centers",
+                      "vi": "mà không tốn thời gian đi lại đến trung tâm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "maintain regular language practice",
+                      "vi": "duy trì thói quen rèn luyện ngoại ngữ đều đặn"
+                    },
+                    {
+                      "en": "despite busy schedules",
+                      "vi": "dù lịch trình bận rộn"
+                    },
+                    {
+                      "en": "from home",
+                      "vi": "ngay tại nhà"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: KẾT NỐI DỄ DÀNG VỚI GIÁO VIÊN BẢN NGỮ TOÀN CẦU (GLOBAL ACCESS TO NATIVE INSTRUCTORS)",
+                "collocations": [
+                  {
+                    "en": "online learning programs",
+                    "vi": "các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "connect learners directly with",
+                    "vi": "kết nối người học trực tiếp với"
+                  },
+                  {
+                    "en": "native-speaking instructors",
+                    "vi": "giáo viên bản ngữ"
+                  },
+                  {
+                    "en": "learners living in small towns",
+                    "vi": "học viên sống ở thị trấn nhỏ"
+                  },
+                  {
+                    "en": "join virtual speaking classes",
+                    "vi": "tham gia lớp luyện nói trực tuyến"
+                  },
+                  {
+                    "en": "foreign teachers",
+                    "vi": "giáo viên nước ngoài"
+                  },
+                  {
+                    "en": "become familiar with natural intonation",
+                    "vi": "làm quen với ngữ điệu tự nhiên"
+                  },
+                  {
+                    "en": "improve their communication skills",
+                    "vi": "nâng cao kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "such exposure",
+                    "vi": "sự tiếp xúc này"
+                  }
+                ],
+                "point_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia.",
+                "point_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                "evidence_vi": "Ngay cả khi sống ở thị trấn nhỏ, học viên vẫn có thể tham gia lớp luyện nói trực tuyến với giáo viên nước ngoài. Sự tiếp xúc này giúp họ làm quen với ngữ điệu tự nhiên và nâng cao phản xạ giao tiếp.",
+                "evidence_en": "Even learners living in small towns can join virtual speaking classes with foreign teachers. Such exposure helps them become familiar with natural intonation and improve their communication skills.",
+                "point_collocations": [
+                  {
+                    "en": "online learning programs",
+                    "vi": "các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "connect learners directly with",
+                    "vi": "kết nối người học trực tiếp với"
+                  },
+                  {
+                    "en": "native-speaking instructors",
+                    "vi": "giáo viên bản ngữ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "learners living in small towns",
+                      "vi": "học viên sống ở thị trấn nhỏ"
+                    },
+                    {
+                      "en": "join virtual speaking classes",
+                      "vi": "tham gia lớp luyện nói trực tuyến"
+                    },
+                    {
+                      "en": "foreign teachers",
+                      "vi": "giáo viên nước ngoài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "become familiar with natural intonation",
+                      "vi": "làm quen với ngữ điệu tự nhiên"
+                    },
+                    {
+                      "en": "improve their communication skills",
+                      "vi": "nâng cao kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "such exposure",
+                      "vi": "sự tiếp xúc này"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: CÁ NHÂN HÓA LỘ TRÌNH VÀ THEO DÕI TIẾN ĐỘ (PERSONALIZED PATHWAYS AND PROGRESS TRACKING)",
+                "collocations": [
+                  {
+                    "en": "modern language platforms",
+                    "vi": "các nền tảng ngoại ngữ hiện đại"
+                  },
+                  {
+                    "en": "design study pathways",
+                    "vi": "thiết kế lộ trình học tập"
+                  },
+                  {
+                    "en": "tailored to each learner's proficiency level",
+                    "vi": "phù hợp với trình độ của từng người học"
+                  },
+                  {
+                    "en": "identify weak areas",
+                    "vi": "ghi nhận những phần còn yếu"
+                  },
+                  {
+                    "en": "in vocabulary or grammar",
+                    "vi": "về từ vựng hoặc ngữ pháp"
+                  },
+                  {
+                    "en": "suggest extra practice exercises",
+                    "vi": "đưa ra bài ôn tập bổ sung"
+                  },
+                  {
+                    "en": "track their weekly progress clearly",
+                    "vi": "theo dõi rõ sự tiến bộ hằng tuần"
+                  },
+                  {
+                    "en": "fill knowledge gaps",
+                    "vi": "khắc phục lỗ hổng kiến thức"
+                  },
+                  {
+                    "en": "faster",
+                    "vi": "nhanh hơn"
+                  }
+                ],
+                "point_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân.",
+                "point_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                "evidence_vi": "Hệ thống tự động ghi nhận những phần từ vựng hoặc ngữ pháp còn yếu để đưa ra bài ôn tập bổ sung. Nhờ vậy, người học theo dõi rõ sự tiến bộ hằng tuần và khắc phục lỗ hổng kiến thức nhanh hơn.",
+                "evidence_en": "The system automatically identifies weak areas in vocabulary or grammar to suggest extra practice exercises. Consequently, learners can track their weekly progress clearly and fill knowledge gaps faster.",
+                "point_collocations": [
+                  {
+                    "en": "modern language platforms",
+                    "vi": "các nền tảng ngoại ngữ hiện đại"
+                  },
+                  {
+                    "en": "design study pathways",
+                    "vi": "thiết kế lộ trình học tập"
+                  },
+                  {
+                    "en": "tailored to each learner's proficiency level",
+                    "vi": "phù hợp với trình độ của từng người học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identify weak areas",
+                      "vi": "ghi nhận những phần còn yếu"
+                    },
+                    {
+                      "en": "in vocabulary or grammar",
+                      "vi": "về từ vựng hoặc ngữ pháp"
+                    },
+                    {
+                      "en": "suggest extra practice exercises",
+                      "vi": "đưa ra bài ôn tập bổ sung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "track their weekly progress clearly",
+                      "vi": "theo dõi rõ sự tiến bộ hằng tuần"
+                    },
+                    {
+                      "en": "fill knowledge gaps",
+                      "vi": "khắc phục lỗ hổng kiến thức"
+                    },
+                    {
+                      "en": "faster",
+                      "vi": "nhanh hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: TIẾT KIỆM CHI PHÍ HỌC PHÍ VÀ ĐI LẠI (LOWER TUITION AND TRAVEL EXPENSES)",
+                "collocations": [
+                  {
+                    "en": "online courses and language applications",
+                    "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ"
+                  },
+                  {
+                    "en": "more affordable than",
+                    "vi": "có chi phí tiết kiệm hơn so với"
+                  },
+                  {
+                    "en": "traditional classroom courses",
+                    "vi": "các khóa học trực tiếp truyền thống"
+                  },
+                  {
+                    "en": "reasonably priced monthly subscriptions",
+                    "vi": "gói đăng ký tháng với mức giá hợp lý"
+                  },
+                  {
+                    "en": "cut transport and printed textbook expenses",
+                    "vi": "cắt giảm chi phí đi lại và sách in"
+                  },
+                  {
+                    "en": "free exercises",
+                    "vi": "các bài tập miễn phí"
+                  },
+                  {
+                    "en": "open up second language learning opportunities",
+                    "vi": "mở ra cơ hội học ngoại ngữ thứ hai"
+                  },
+                  {
+                    "en": "students on a tight budget",
+                    "vi": "học sinh có ngân sách hạn hẹp"
+                  },
+                  {
+                    "en": "many websites",
+                    "vi": "nhiều trang web"
+                  }
+                ],
+                "point_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống.",
+                "point_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                "evidence_vi": "Nhiều trang web cung cấp bài tập miễn phí hoặc gói đăng ký tháng với mức giá rất hợp lý, đồng thời cắt giảm chi phí xăng xe và tài liệu in ấn. Điều này mở ra cơ hội học ngoại ngữ cho đông đảo học sinh có ngân sách hạn hẹp.",
+                "evidence_en": "Many websites offer free exercises or reasonably priced monthly subscriptions while cutting transport and printed textbook expenses. This opens up second language learning opportunities to students on a tight budget.",
+                "point_collocations": [
+                  {
+                    "en": "online courses and language applications",
+                    "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ"
+                  },
+                  {
+                    "en": "more affordable than",
+                    "vi": "có chi phí tiết kiệm hơn so với"
+                  },
+                  {
+                    "en": "traditional classroom courses",
+                    "vi": "các khóa học trực tiếp truyền thống"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reasonably priced monthly subscriptions",
+                      "vi": "gói đăng ký tháng với mức giá hợp lý"
+                    },
+                    {
+                      "en": "cut transport and printed textbook expenses",
+                      "vi": "cắt giảm chi phí đi lại và sách in"
+                    },
+                    {
+                      "en": "free exercises",
+                      "vi": "các bài tập miễn phí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "open up second language learning opportunities",
+                      "vi": "mở ra cơ hội học ngoại ngữ thứ hai"
+                    },
+                    {
+                      "en": "students on a tight budget",
+                      "vi": "học sinh có ngân sách hạn hẹp"
+                    },
+                    {
+                      "en": "many websites",
+                      "vi": "nhiều trang web"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: GIẢM TÂM LÝ SỢ SAI KHI MỚI LUYỆN NÓI (LOWER SPEAKING ANXIETY FOR BEGINNERS)",
+                "collocations": [
+                  {
+                    "en": "practice with online programs",
+                    "vi": "luyện tập với các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "reduce their fear of making mistakes",
+                    "vi": "giảm bớt nỗi sợ mắc lỗi"
+                  },
+                  {
+                    "en": "in front of others",
+                    "vi": "trước mặt người khác"
+                  },
+                  {
+                    "en": "shy learners",
+                    "vi": "những người học rụt rè"
+                  },
+                  {
+                    "en": "record their voices",
+                    "vi": "thu âm giọng nói của mình"
+                  },
+                  {
+                    "en": "in the privacy of their own homes",
+                    "vi": "trong không gian riêng tư tại nhà"
+                  },
+                  {
+                    "en": "master basic pronunciation",
+                    "vi": "nắm vững cách phát âm cơ bản"
+                  },
+                  {
+                    "en": "feel much more confident",
+                    "vi": "cảm thấy tự tin hơn nhiều"
+                  },
+                  {
+                    "en": "in real conversations",
+                    "vi": "trong các cuộc trò chuyện thực tế"
+                  }
+                ],
+                "point_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông.",
+                "point_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                "evidence_vi": "Những người học rụt rè có thể thoải mái thu âm giọng nói và luyện hội thoại nhiều lần trong không gian riêng tư tại nhà. Khi đã nắm vững cách phát âm cơ bản, họ sẽ tự tin hơn nhiều khi bước vào giao tiếp thực tế.",
+                "evidence_en": "Shy learners can comfortably record their voices and practice dialogues repeatedly in the privacy of their own homes. Once they master basic pronunciation, they feel much more confident in real conversations.",
+                "point_collocations": [
+                  {
+                    "en": "practice with online programs",
+                    "vi": "luyện tập với các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "reduce their fear of making mistakes",
+                    "vi": "giảm bớt nỗi sợ mắc lỗi"
+                  },
+                  {
+                    "en": "in front of others",
+                    "vi": "trước mặt người khác"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shy learners",
+                      "vi": "những người học rụt rè"
+                    },
+                    {
+                      "en": "record their voices",
+                      "vi": "thu âm giọng nói của mình"
+                    },
+                    {
+                      "en": "in the privacy of their own homes",
+                      "vi": "trong không gian riêng tư tại nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "master basic pronunciation",
+                      "vi": "nắm vững cách phát âm cơ bản"
+                    },
+                    {
+                      "en": "feel much more confident",
+                      "vi": "cảm thấy tự tin hơn nhiều"
+                    },
+                    {
+                      "en": "in real conversations",
+                      "vi": "trong các cuộc trò chuyện thực tế"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: ĐÒI HỎI TÍNH TỰ GIÁC CAO VÀ DỄ BỎ CUỘC (HIGH SELF-DISCIPLINE REQUIRED AND DROPOUT RISK)",
+                "collocations": [
+                  {
+                    "en": "require strong self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "many learners lack",
+                    "vi": "nhiều người học còn thiếu"
+                  },
+                  {
+                    "en": "without a classroom teacher reminding them directly",
+                    "vi": "không có giáo viên trên lớp trực tiếp nhắc nhở"
+                  },
+                  {
+                    "en": "postpone assignments",
+                    "vi": "trì hoãn bài tập"
+                  },
+                  {
+                    "en": "abandon courses",
+                    "vi": "bỏ dở khóa học"
+                  },
+                  {
+                    "en": "online self-study",
+                    "vi": "việc tự học trực tuyến"
+                  },
+                  {
+                    "en": "ineffective",
+                    "vi": "kém hiệu quả"
+                  },
+                  {
+                    "en": "people who lack persistence",
+                    "vi": "những người thiếu sự kiên trì"
+                  }
+                ],
+                "point_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu.",
+                "point_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                "evidence_vi": "Khi không có giáo viên trực tiếp nhắc nhở trên lớp, học viên rất dễ trì hoãn bài tập hoặc bỏ dở khóa học sau vài tuần đầu hào hứng. Vì vậy, việc tự học trên mạng thường kém hiệu quả đối với những người thiếu kiên trì.",
+                "evidence_en": "Without a classroom teacher reminding them directly, learners easily postpone assignments or abandon courses after a few enthusiastic weeks. Therefore, online self-study is often ineffective for people who lack persistence.",
+                "point_collocations": [
+                  {
+                    "en": "require strong self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "many learners lack",
+                    "vi": "nhiều người học còn thiếu"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "without a classroom teacher reminding them directly",
+                      "vi": "không có giáo viên trên lớp trực tiếp nhắc nhở"
+                    },
+                    {
+                      "en": "postpone assignments",
+                      "vi": "trì hoãn bài tập"
+                    },
+                    {
+                      "en": "abandon courses",
+                      "vi": "bỏ dở khóa học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "online self-study",
+                      "vi": "việc tự học trực tuyến"
+                    },
+                    {
+                      "en": "ineffective",
+                      "vi": "kém hiệu quả"
+                    },
+                    {
+                      "en": "people who lack persistence",
+                      "vi": "những người thiếu sự kiên trì"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: THIẾU TƯƠNG TÁC NHÓM VÀ MÔI TRƯỜNG GIAO TIẾP THỰC (LIMITED GROUP INTERACTION AND REAL PRACTICE)",
+                "collocations": [
+                  {
+                    "en": "apps and online courses",
+                    "vi": "các ứng dụng và khóa học trực tuyến"
+                  },
+                  {
+                    "en": "lively group interaction",
+                    "vi": "tương tác nhóm sôi nổi"
+                  },
+                  {
+                    "en": "traditional classrooms",
+                    "vi": "các lớp học truyền thống"
+                  },
+                  {
+                    "en": "digital exercises",
+                    "vi": "các bài tập kỹ thuật số"
+                  },
+                  {
+                    "en": "choose correct answers",
+                    "vi": "chọn đáp án đúng"
+                  },
+                  {
+                    "en": "repeat fixed sentence patterns",
+                    "vi": "lặp lại các mẫu câu cố định"
+                  },
+                  {
+                    "en": "group discussion",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "handle unexpected communicative situations",
+                    "vi": "xử lý các tình huống giao tiếp bất ngờ"
+                  },
+                  {
+                    "en": "leave learners lacking skills",
+                    "vi": "khiến người học thiếu hụt kỹ năng"
+                  }
+                ],
+                "point_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống.",
+                "point_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                "evidence_vi": "Phần lớn các bài tập kỹ thuật số chỉ tập trung vào chọn đáp án đúng hoặc lặp lại các mẫu câu có sẵn. Điều này khiến người học thiếu kỹ năng thảo luận nhóm, tranh luận và xử lý tình huống giao tiếp bất ngờ.",
+                "evidence_en": "Most digital exercises focus mainly on choosing correct answers or repeating fixed sentence patterns. This leaves learners lacking skills in group discussion, debate, and handling unexpected communicative situations.",
+                "point_collocations": [
+                  {
+                    "en": "apps and online courses",
+                    "vi": "các ứng dụng và khóa học trực tuyến"
+                  },
+                  {
+                    "en": "lively group interaction",
+                    "vi": "tương tác nhóm sôi nổi"
+                  },
+                  {
+                    "en": "traditional classrooms",
+                    "vi": "các lớp học truyền thống"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "digital exercises",
+                      "vi": "các bài tập kỹ thuật số"
+                    },
+                    {
+                      "en": "choose correct answers",
+                      "vi": "chọn đáp án đúng"
+                    },
+                    {
+                      "en": "repeat fixed sentence patterns",
+                      "vi": "lặp lại các mẫu câu cố định"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "group discussion",
+                      "vi": "thảo luận nhóm"
+                    },
+                    {
+                      "en": "handle unexpected communicative situations",
+                      "vi": "xử lý các tình huống giao tiếp bất ngờ"
+                    },
+                    {
+                      "en": "leave learners lacking skills",
+                      "vi": "khiến người học thiếu hụt kỹ năng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: CHẤT LƯỢNG CÁC CHƯƠNG TRÌNH TRỰC TUYẾN KHÔNG ĐỒNG ĐỀU (UNEVEN QUALITY OF ONLINE PROGRAMS)",
+                "collocations": [
+                  {
+                    "en": "the quality of language learning websites",
+                    "vi": "chất lượng của các trang web học ngoại ngữ"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "vary considerably",
+                    "vi": "rất không đồng đều / chênh lệch đáng kể"
+                  },
+                  {
+                    "en": "reputable platforms",
+                    "vi": "các nền tảng uy tín"
+                  },
+                  {
+                    "en": "unverified courses",
+                    "vi": "các khóa học chưa kiểm chứng"
+                  },
+                  {
+                    "en": "teach fragmented grammar or unnatural expressions",
+                    "vi": "dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên"
+                  },
+                  {
+                    "en": "choose poor-quality programs",
+                    "vi": "chọn nhầm chương trình kém chất lượng"
+                  },
+                  {
+                    "en": "waste both money and time",
+                    "vi": "gây lãng phí cả tiền bạc lẫn thời gian"
+                  },
+                  {
+                    "en": "beginners",
+                    "vi": "người mới bắt đầu học"
+                  }
+                ],
+                "point_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều.",
+                "point_en": "The quality of language learning websites and online programs varies considerably.",
+                "evidence_vi": "Bên cạnh các nền tảng uy tín, vẫn có nhiều khóa học thiếu kiểm duyệt chuyên môn, dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên. Người mới học rất dễ chọn nhầm chương trình kém chất lượng, gây lãng phí cả tiền bạc lẫn thời gian.",
+                "evidence_en": "Alongside reputable platforms, many unverified courses lack academic standards and teach fragmented grammar or unnatural expressions. Beginners can easily choose poor-quality programs, wasting both money and time.",
+                "point_collocations": [
+                  {
+                    "en": "the quality of language learning websites",
+                    "vi": "chất lượng của các trang web học ngoại ngữ"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "vary considerably",
+                    "vi": "rất không đồng đều / chênh lệch đáng kể"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reputable platforms",
+                      "vi": "các nền tảng uy tín"
+                    },
+                    {
+                      "en": "unverified courses",
+                      "vi": "các khóa học chưa kiểm chứng"
+                    },
+                    {
+                      "en": "teach fragmented grammar or unnatural expressions",
+                      "vi": "dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "choose poor-quality programs",
+                      "vi": "chọn nhầm chương trình kém chất lượng"
+                    },
+                    {
+                      "en": "waste both money and time",
+                      "vi": "gây lãng phí cả tiền bạc lẫn thời gian"
+                    },
+                    {
+                      "en": "beginners",
+                      "vi": "người mới bắt đầu học"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: PHỤ THUỘC VÀO ĐƯỜNG TRUYỀN INTERNET ỔN ĐỊNH (DEPENDENCE ON STABLE INTERNET CONNECTIVITY)",
+                "collocations": [
+                  {
+                    "en": "the effectiveness of online learning programs",
+                    "vi": "hiệu quả của các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "depend heavily on",
+                    "vi": "phụ thuộc chặt chẽ vào"
+                  },
+                  {
+                    "en": "a stable Internet connection",
+                    "vi": "đường truyền Internet ổn định"
+                  },
+                  {
+                    "en": "weak or disconnected",
+                    "vi": "yếu hoặc mất kết nối"
+                  },
+                  {
+                    "en": "audio in language classes lags",
+                    "vi": "âm thanh trong lớp ngoại ngữ bị trễ/giật"
+                  },
+                  {
+                    "en": "hear the teacher's pronunciation clearly",
+                    "vi": "nghe rõ cách phát âm của giáo viên"
+                  },
+                  {
+                    "en": "cause frustration",
+                    "vi": "gây ức chế tâm lý"
+                  },
+                  {
+                    "en": "lower the quality of speaking lessons",
+                    "vi": "làm giảm chất lượng buổi học nói"
+                  },
+                  {
+                    "en": "such disruptions",
+                    "vi": "những sự gián đoạn như vậy"
+                  }
+                ],
+                "point_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet.",
+                "point_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                "evidence_vi": "Khi mạng yếu hoặc mất kết nối, âm thanh trong lớp học ngoại ngữ bị giật ngắt khiến người học không nghe rõ cách phát âm của giáo viên. Sự cố này gây ức chế tâm lý và làm giảm chất lượng buổi học thực hành.",
+                "evidence_en": "When the network is weak or disconnected, audio in language classes lags and prevents learners from hearing the teacher's pronunciation clearly. Such disruptions cause frustration and lower the quality of speaking lessons.",
+                "point_collocations": [
+                  {
+                    "en": "the effectiveness of online learning programs",
+                    "vi": "hiệu quả của các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "depend heavily on",
+                    "vi": "phụ thuộc chặt chẽ vào"
+                  },
+                  {
+                    "en": "a stable Internet connection",
+                    "vi": "đường truyền Internet ổn định"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "weak or disconnected",
+                      "vi": "yếu hoặc mất kết nối"
+                    },
+                    {
+                      "en": "audio in language classes lags",
+                      "vi": "âm thanh trong lớp ngoại ngữ bị trễ/giật"
+                    },
+                    {
+                      "en": "hear the teacher's pronunciation clearly",
+                      "vi": "nghe rõ cách phát âm của giáo viên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cause frustration",
+                      "vi": "gây ức chế tâm lý"
+                    },
+                    {
+                      "en": "lower the quality of speaking lessons",
+                      "vi": "làm giảm chất lượng buổi học nói"
+                    },
+                    {
+                      "en": "such disruptions",
+                      "vi": "những sự gián đoạn như vậy"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: KHÓ NHẬN ĐƯỢC HƯỚNG DẪN CHUYÊN SÂU CHO KỸ NĂNG VIẾT VÀ NÓI (LACK OF IN-DEPTH HUMAN FEEDBACK)",
+                "collocations": [
+                  {
+                    "en": "automated online programs",
+                    "vi": "các chương trình trực tuyến tự động"
+                  },
+                  {
+                    "en": "give in-depth feedback",
+                    "vi": "đưa ra nhận xét chuyên sâu"
+                  },
+                  {
+                    "en": "extended speaking and essay writing",
+                    "vi": "kỹ năng nói dài và viết luận"
+                  },
+                  {
+                    "en": "spot basic spelling errors",
+                    "vi": "nhận biết lỗi chính tả cơ bản"
+                  },
+                  {
+                    "en": "evaluate logical flow",
+                    "vi": "đánh giá mạch lập luận"
+                  },
+                  {
+                    "en": "subtle word choices",
+                    "vi": "sự tinh tế trong cách lựa chọn từ"
+                  },
+                  {
+                    "en": "experienced teachers",
+                    "vi": "giáo viên giàu kinh nghiệm"
+                  },
+                  {
+                    "en": "reach advanced language proficiency",
+                    "vi": "đạt trình độ ngoại ngữ nâng cao"
+                  },
+                  {
+                    "en": "still need",
+                    "vi": "vẫn cần đến"
+                  }
+                ],
+                "point_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài.",
+                "point_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                "evidence_vi": "Phần mềm có thể nhận biết lỗi chính tả cơ bản nhưng khó đánh giá chính xác mạch lập luận, giọng văn hay sự tinh tế trong cách dùng từ. Người học vẫn cần giáo viên có chuyên môn hướng dẫn để đạt trình độ ngoại ngữ nâng cao.",
+                "evidence_en": "Software can spot basic spelling errors, yet it struggles to evaluate logical flow, tone, or subtle word choices accurately. Learners still need experienced teachers to reach advanced language proficiency.",
+                "point_collocations": [
+                  {
+                    "en": "automated online programs",
+                    "vi": "các chương trình trực tuyến tự động"
+                  },
+                  {
+                    "en": "give in-depth feedback",
+                    "vi": "đưa ra nhận xét chuyên sâu"
+                  },
+                  {
+                    "en": "extended speaking and essay writing",
+                    "vi": "kỹ năng nói dài và viết luận"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spot basic spelling errors",
+                      "vi": "nhận biết lỗi chính tả cơ bản"
+                    },
+                    {
+                      "en": "evaluate logical flow",
+                      "vi": "đánh giá mạch lập luận"
+                    },
+                    {
+                      "en": "subtle word choices",
+                      "vi": "sự tinh tế trong cách lựa chọn từ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "experienced teachers",
+                      "vi": "giáo viên giàu kinh nghiệm"
+                    },
+                    {
+                      "en": "reach advanced language proficiency",
+                      "vi": "đạt trình độ ngoại ngữ nâng cao"
+                    },
+                    {
+                      "en": "still need",
+                      "vi": "vẫn cần đến"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "computers and online programs",
+              "vi": "máy tính và các chương trình trực tuyến"
+            },
+            {
+              "en": "second language learners",
+              "vi": "người học ngoại ngữ thứ hai"
+            },
+            {
+              "en": "great flexibility in time and location",
+              "vi": "sự linh hoạt lớn về thời gian và địa điểm"
+            },
+            {
+              "en": "learn anytime and anywhere",
+              "vi": "học tập mọi lúc mọi nơi"
+            },
+            {
+              "en": "balance study with work commitments",
+              "vi": "cân bằng việc học với công việc"
+            },
+            {
+              "en": "online learning programs",
+              "vi": "các chương trình học trực tuyến"
+            },
+            {
+              "en": "connect learners directly with",
+              "vi": "kết nối người học trực tiếp với"
+            },
+            {
+              "en": "native-speaking instructors",
+              "vi": "giáo viên bản ngữ"
+            },
+            {
+              "en": "overcome geographical barriers",
+              "vi": "xóa bỏ rào cản địa lý"
+            },
+            {
+              "en": "one-on-one online tutoring",
+              "vi": "học gia sư trực tuyến một kèm một"
+            },
+            {
+              "en": "modern language platforms",
+              "vi": "các nền tảng ngoại ngữ hiện đại"
+            },
+            {
+              "en": "design study pathways",
+              "vi": "thiết kế lộ trình học tập"
+            },
+            {
+              "en": "tailored to each learner's proficiency level",
+              "vi": "phù hợp với trình độ của từng người học"
+            },
+            {
+              "en": "adaptive learning algorithms",
+              "vi": "thuật toán học tập thích ứng"
+            },
+            {
+              "en": "customized revision modules",
+              "vi": "các học phần ôn tập được tùy chỉnh"
+            },
+            {
+              "en": "online courses and language applications",
+              "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ"
+            },
+            {
+              "en": "more affordable than",
+              "vi": "có chi phí tiết kiệm hơn so với"
+            },
+            {
+              "en": "traditional classroom courses",
+              "vi": "các khóa học trực tiếp truyền thống"
+            },
+            {
+              "en": "cost-effective language education",
+              "vi": "giáo dục ngoại ngữ tiết kiệm chi phí"
+            },
+            {
+              "en": "reduce tuition burdens",
+              "vi": "giảm gánh nặng học phí"
+            },
+            {
+              "en": "practice with online programs",
+              "vi": "luyện tập với các chương trình trực tuyến"
+            },
+            {
+              "en": "reduce their fear of making mistakes",
+              "vi": "giảm bớt nỗi sợ mắc lỗi"
+            },
+            {
+              "en": "in front of others",
+              "vi": "trước mặt người khác"
+            },
+            {
+              "en": "overcome language anxiety",
+              "vi": "vượt qua tâm lý lo lắng khi nói ngoại ngữ"
+            },
+            {
+              "en": "a stress-free practice environment",
+              "vi": "môi trường luyện tập không áp lực"
+            },
+            {
+              "en": "require strong self-discipline",
+              "vi": "đòi hỏi tính tự giác cao"
+            },
+            {
+              "en": "online programs",
+              "vi": "các chương trình trực tuyến"
+            },
+            {
+              "en": "many learners lack",
+              "vi": "nhiều người học còn thiếu"
+            },
+            {
+              "en": "high course dropout rates",
+              "vi": "tỷ lệ bỏ dở khóa học cao"
+            },
+            {
+              "en": "lack direct teacher supervision",
+              "vi": "thiếu sự giám sát trực tiếp của giáo viên"
+            },
+            {
+              "en": "apps and online courses",
+              "vi": "các ứng dụng và khóa học trực tuyến"
+            },
+            {
+              "en": "lively group interaction",
+              "vi": "tương tác nhóm sôi nổi"
+            },
+            {
+              "en": "traditional classrooms",
+              "vi": "các lớp học truyền thống"
+            },
+            {
+              "en": "peer-to-peer speaking activities",
+              "vi": "hoạt động luyện nói tương tác cùng bạn học"
+            },
+            {
+              "en": "feel socially isolated while studying",
+              "vi": "cảm thấy cô lập khi học một mình"
+            },
+            {
+              "en": "the quality of language learning websites",
+              "vi": "chất lượng của các trang web học ngoại ngữ"
+            },
+            {
+              "en": "vary considerably",
+              "vi": "rất không đồng đều / chênh lệch đáng kể"
+            },
+            {
+              "en": "lack proper academic accreditation",
+              "vi": "thiếu sự kiểm định học thuật chuẩn xác"
+            },
+            {
+              "en": "outdated or inaccurate study content",
+              "vi": "nội dung học tập lỗi thời hoặc thiếu chính xác"
+            },
+            {
+              "en": "the effectiveness of online learning programs",
+              "vi": "hiệu quả của các chương trình học trực tuyến"
+            },
+            {
+              "en": "depend heavily on",
+              "vi": "phụ thuộc chặt chẽ vào"
+            },
+            {
+              "en": "a stable Internet connection",
+              "vi": "đường truyền Internet ổn định"
+            },
+            {
+              "en": "poor Internet connectivity",
+              "vi": "kết nối mạng kém ổn định"
+            },
+            {
+              "en": "audio lag and frozen screens",
+              "vi": "trễ âm thanh và đứng hình"
+            },
+            {
+              "en": "automated online programs",
+              "vi": "các chương trình trực tuyến tự động"
+            },
+            {
+              "en": "give in-depth feedback",
+              "vi": "đưa ra nhận xét chuyên sâu"
+            },
+            {
+              "en": "extended speaking and essay writing",
+              "vi": "kỹ năng nói dài và viết luận"
+            },
+            {
+              "en": "personalized teacher guidance",
+              "vi": "sự hướng dẫn sát sao từ giáo viên"
+            },
+            {
+              "en": "assess coherence and register",
+              "vi": "đánh giá tính mạch lạc và văn phong"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "working adults",
+              "vi": "người đi làm"
+            },
+            {
+              "en": "study early in the morning or late at night",
+              "vi": "học vào sáng sớm hoặc buổi tối"
+            },
+            {
+              "en": "without commuting to language centers",
+              "vi": "mà không tốn thời gian đi lại đến trung tâm"
+            },
+            {
+              "en": "maintain regular language practice",
+              "vi": "duy trì thói quen rèn luyện ngoại ngữ đều đặn"
+            },
+            {
+              "en": "despite busy schedules",
+              "vi": "dù lịch trình bận rộn"
+            },
+            {
+              "en": "from home",
+              "vi": "ngay tại nhà"
+            },
+            {
+              "en": "learners living in small towns",
+              "vi": "học viên sống ở thị trấn nhỏ"
+            },
+            {
+              "en": "join virtual speaking classes",
+              "vi": "tham gia lớp luyện nói trực tuyến"
+            },
+            {
+              "en": "foreign teachers",
+              "vi": "giáo viên nước ngoài"
+            },
+            {
+              "en": "become familiar with natural intonation",
+              "vi": "làm quen với ngữ điệu tự nhiên"
+            },
+            {
+              "en": "improve their communication skills",
+              "vi": "nâng cao kỹ năng giao tiếp"
+            },
+            {
+              "en": "such exposure",
+              "vi": "sự tiếp xúc này"
+            },
+            {
+              "en": "identify weak areas",
+              "vi": "ghi nhận những phần còn yếu"
+            },
+            {
+              "en": "in vocabulary or grammar",
+              "vi": "về từ vựng hoặc ngữ pháp"
+            },
+            {
+              "en": "suggest extra practice exercises",
+              "vi": "đưa ra bài ôn tập bổ sung"
+            },
+            {
+              "en": "track their weekly progress clearly",
+              "vi": "theo dõi rõ sự tiến bộ hằng tuần"
+            },
+            {
+              "en": "fill knowledge gaps",
+              "vi": "khắc phục lỗ hổng kiến thức"
+            },
+            {
+              "en": "faster",
+              "vi": "nhanh hơn"
+            },
+            {
+              "en": "reasonably priced monthly subscriptions",
+              "vi": "gói đăng ký tháng với mức giá hợp lý"
+            },
+            {
+              "en": "cut transport and printed textbook expenses",
+              "vi": "cắt giảm chi phí đi lại và sách in"
+            },
+            {
+              "en": "free exercises",
+              "vi": "các bài tập miễn phí"
+            },
+            {
+              "en": "open up second language learning opportunities",
+              "vi": "mở ra cơ hội học ngoại ngữ thứ hai"
+            },
+            {
+              "en": "students on a tight budget",
+              "vi": "học sinh có ngân sách hạn hẹp"
+            },
+            {
+              "en": "many websites",
+              "vi": "nhiều trang web"
+            },
+            {
+              "en": "shy learners",
+              "vi": "những người học rụt rè"
+            },
+            {
+              "en": "record their voices",
+              "vi": "thu âm giọng nói của mình"
+            },
+            {
+              "en": "in the privacy of their own homes",
+              "vi": "trong không gian riêng tư tại nhà"
+            },
+            {
+              "en": "master basic pronunciation",
+              "vi": "nắm vững cách phát âm cơ bản"
+            },
+            {
+              "en": "feel much more confident",
+              "vi": "cảm thấy tự tin hơn nhiều"
+            },
+            {
+              "en": "in real conversations",
+              "vi": "trong các cuộc trò chuyện thực tế"
+            },
+            {
+              "en": "without a classroom teacher reminding them directly",
+              "vi": "không có giáo viên trên lớp trực tiếp nhắc nhở"
+            },
+            {
+              "en": "postpone assignments",
+              "vi": "trì hoãn bài tập"
+            },
+            {
+              "en": "abandon courses",
+              "vi": "bỏ dở khóa học"
+            },
+            {
+              "en": "online self-study",
+              "vi": "việc tự học trực tuyến"
+            },
+            {
+              "en": "ineffective",
+              "vi": "kém hiệu quả"
+            },
+            {
+              "en": "people who lack persistence",
+              "vi": "những người thiếu sự kiên trì"
+            },
+            {
+              "en": "digital exercises",
+              "vi": "các bài tập kỹ thuật số"
+            },
+            {
+              "en": "choose correct answers",
+              "vi": "chọn đáp án đúng"
+            },
+            {
+              "en": "repeat fixed sentence patterns",
+              "vi": "lặp lại các mẫu câu cố định"
+            },
+            {
+              "en": "group discussion",
+              "vi": "thảo luận nhóm"
+            },
+            {
+              "en": "handle unexpected communicative situations",
+              "vi": "xử lý các tình huống giao tiếp bất ngờ"
+            },
+            {
+              "en": "leave learners lacking skills",
+              "vi": "khiến người học thiếu hụt kỹ năng"
+            },
+            {
+              "en": "reputable platforms",
+              "vi": "các nền tảng uy tín"
+            },
+            {
+              "en": "unverified courses",
+              "vi": "các khóa học chưa kiểm chứng"
+            },
+            {
+              "en": "teach fragmented grammar or unnatural expressions",
+              "vi": "dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên"
+            },
+            {
+              "en": "choose poor-quality programs",
+              "vi": "chọn nhầm chương trình kém chất lượng"
+            },
+            {
+              "en": "waste both money and time",
+              "vi": "gây lãng phí cả tiền bạc lẫn thời gian"
+            },
+            {
+              "en": "beginners",
+              "vi": "người mới bắt đầu học"
+            },
+            {
+              "en": "weak or disconnected",
+              "vi": "yếu hoặc mất kết nối"
+            },
+            {
+              "en": "audio in language classes lags",
+              "vi": "âm thanh trong lớp ngoại ngữ bị trễ/giật"
+            },
+            {
+              "en": "hear the teacher's pronunciation clearly",
+              "vi": "nghe rõ cách phát âm của giáo viên"
+            },
+            {
+              "en": "cause frustration",
+              "vi": "gây ức chế tâm lý"
+            },
+            {
+              "en": "lower the quality of speaking lessons",
+              "vi": "làm giảm chất lượng buổi học nói"
+            },
+            {
+              "en": "such disruptions",
+              "vi": "những sự gián đoạn như vậy"
+            },
+            {
+              "en": "spot basic spelling errors",
+              "vi": "nhận biết lỗi chính tả cơ bản"
+            },
+            {
+              "en": "evaluate logical flow",
+              "vi": "đánh giá mạch lập luận"
+            },
+            {
+              "en": "subtle word choices",
+              "vi": "sự tinh tế trong cách lựa chọn từ"
+            },
+            {
+              "en": "experienced teachers",
+              "vi": "giáo viên giàu kinh nghiệm"
+            },
+            {
+              "en": "reach advanced language proficiency",
+              "vi": "đạt trình độ ngoại ngữ nâng cao"
+            },
+            {
+              "en": "still need",
+              "vi": "vẫn cần đến"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>using computers and online learning programs in second language learning</strong> has become increasingly prevalent in the digital era. Although these tools bring certain benefits, there are also some notable difficulties. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, computers and online programs offer several advantages to second language learners.</strong> One major benefit is that <strong><em>computers and online programs offer second language learners great flexibility in time and location.</em></strong> Students and working adults can study early in the morning or late at night from home without commuting to language centers. This helps them maintain regular language practice despite busy schedules. Another positive aspect is that <strong><em>online learning programs connect learners directly with native-speaking instructors from different countries.</em></strong> Even learners living in small towns can join virtual speaking classes with foreign teachers. Such exposure helps them become familiar with natural intonation and improve their communication skills. A further advantage to consider is that <strong><em>many modern language platforms design study pathways tailored to each learner's proficiency level.</em></strong> The system automatically identifies weak areas in vocabulary or grammar to suggest extra practice exercises. Consequently, learners can track their weekly progress clearly and fill knowledge gaps faster.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>learning a second language through online programs requires strong self-discipline that many learners lack.</em></strong> Without a classroom teacher reminding them directly, learners easily postpone assignments or abandon courses after a few enthusiastic weeks. Therefore, online self-study is often ineffective for people who lack persistence. Another negative aspect is that <strong><em>many apps and online courses fail to provide the lively group interaction found in traditional classrooms.</em></strong> Most digital exercises focus mainly on choosing correct answers or repeating fixed sentence patterns. This leaves learners lacking skills in group discussion, debate, and handling unexpected communicative situations. A further concern is that <strong><em>the quality of language learning websites and online programs varies considerably.</em></strong> Alongside reputable platforms, many unverified courses lack academic standards and teach fragmented grammar or unnatural expressions. Beginners can easily choose poor-quality programs, wasting both money and time.\n\nIn conclusion, <strong>using computers and online learning programs in second language learning</strong> has both positive and negative aspects that should not be overlooked. While these tools make language study more accessible and flexible, their limitations may also hinder long-term fluency. Therefore, learners should select reputable programs and combine them with active real-world communication.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai</strong> ngày càng trở nên phổ biến trong kỷ nguyên số. Mặc dù các công cụ này mang lại những lợi ích nhất định, chúng cũng đi kèm một số khó khăn đáng chú ý. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, máy tính và các chương trình trực tuyến mang lại nhiều lợi thế cho người học ngoại ngữ thứ hai.</strong> Một lợi ích lớn là <strong><em>máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ.</em></strong> Học sinh và người đi làm có thể học vào sáng sớm hoặc buổi tối ngay tại nhà mà không tốn thời gian đi lại đến trung tâm. Điều này giúp họ duy trì thói quen rèn luyện ngoại ngữ đều đặn dù lịch trình bận rộn. Một khía cạnh tích cực khác là <strong><em>các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia.</em></strong> Ngay cả những học viên sống ở thị trấn nhỏ vẫn có thể tham gia lớp luyện nói trực tuyến với giáo viên nước ngoài. Sự tiếp xúc này giúp họ làm quen với ngữ điệu tự nhiên và nâng cao kỹ năng giao tiếp. Một thuận lợi nữa cần xem xét là <strong><em>nhiều nền tảng ngoại ngữ hiện đại thiết kế lộ trình học tập phù hợp với trình độ của từng người học.</em></strong> Hệ thống tự động ghi nhận những phần còn yếu về từ vựng hoặc ngữ pháp để đưa ra bài ôn tập bổ sung. Nhờ vậy, người học theo dõi rõ sự tiến bộ hằng tuần và khắc phục lỗ hổng kiến thức nhanh hơn.\n\n<strong>Mặt khác, vẫn có một số bất lợi cần được cân nhắc.</strong> Một hạn chế có thể xảy ra là <strong><em>học ngoại ngữ thứ hai qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu.</em></strong> Khi không có giáo viên trên lớp trực tiếp nhắc nhở, học viên rất dễ trì hoãn bài tập hoặc bỏ dở khóa học sau vài tuần đầu hào hứng. Vì vậy, việc tự học trực tuyến thường kém hiệu quả đối với những người thiếu sự kiên trì. Một điểm tiêu cực khác là <strong><em>nhiều ứng dụng và khóa học trực tuyến chưa tạo được sự tương tác nhóm sôi nổi như ở các lớp học truyền thống.</em></strong> Phần lớn các bài tập kỹ thuật số chỉ tập trung vào chọn đáp án đúng hoặc lặp lại các mẫu câu cố định. Điều này khiến người học thiếu hụt kỹ năng thảo luận nhóm, tranh luận và xử lý các tình huống giao tiếp bất ngờ. Một mối lo ngại nữa là <strong><em>chất lượng của các trang web học ngoại ngữ và chương trình trực tuyến rất không đồng đều.</em></strong> Bên cạnh các nền tảng uy tín, vẫn có nhiều khóa học chưa kiểm chứng thiếu chuẩn mực học thuật, dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên. Người mới bắt đầu học rất dễ chọn nhầm chương trình kém chất lượng, gây lãng phí cả tiền bạc lẫn thời gian.\n\nTóm lại, <strong>việc sử dụng máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai</strong> có cả mặt tích cực lẫn tiêu cực không nên xem nhẹ. Mặc dù các công cụ này giúp việc học ngôn ngữ trở nên dễ tiếp cận và linh hoạt hơn, những hạn chế của chúng cũng có thể cản trở sự trôi chảy lâu dài. Do đó, người học nên lựa chọn các chương trình uy tín và kết hợp chúng với giao tiếp thực tế chủ động.",
+          "key_vocab_notes": [
+            {
+              "en": "offer great flexibility in time and location",
+              "vi": "mang lại sự linh hoạt lớn về thời gian và địa điểm"
+            },
+            {
+              "en": "maintain regular language practice",
+              "vi": "duy trì việc rèn luyện ngoại ngữ đều đặn"
+            },
+            {
+              "en": "connect learners directly with native-speaking instructors",
+              "vi": "kết nối người học trực tiếp với giáo viên bản ngữ"
+            },
+            {
+              "en": "become familiar with natural intonation",
+              "vi": "làm quen với ngữ điệu tự nhiên"
+            },
+            {
+              "en": "tailored to each learner's proficiency level",
+              "vi": "được thiết kế phù hợp với trình độ từng người học"
+            },
+            {
+              "en": "fill knowledge gaps faster",
+              "vi": "lấp đầy lỗ hổng kiến thức nhanh hơn"
+            },
+            {
+              "en": "require strong self-discipline",
+              "vi": "đòi hỏi tính tự giác/kỷ luật bản thân cao"
+            },
+            {
+              "en": "lively group interaction",
+              "vi": "sự tương tác nhóm sôi nổi"
+            },
+            {
+              "en": "handle unexpected communicative situations",
+              "vi": "xử lý các tình huống giao tiếp bất ngờ"
+            },
+            {
+              "en": "unverified courses",
+              "vi": "các khóa học chưa được kiểm chứng chất lượng"
+            }
+          ]
+        }
       },
       {
         "id": 25,
@@ -47687,7 +52159,2249 @@ const ESSAY_DATA = [
         "title_vi": "Trẻ em sống tự lập",
         "context": "In many families, children are encouraged to live more independently as they grow older. They may learn to do housework, manage their own study time, make simple decisions, and take responsibility for their daily activities. Some people believe that children living independently can bring many benefits, while others argue that it may also create several difficulties.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of children living independently. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Trong nhiều gia đình, trẻ em được khuyến khích sống tự lập hơn khi lớn lên. Các em có thể học cách làm việc nhà, tự quản lý thời gian học tập, đưa ra những quyết định đơn giản và chịu trách nhiệm cho các sinh hoạt hằng ngày của mình. Một số người tin rằng việc trẻ em sống tự lập mang lại nhiều lợi ích, trong khi những người khác lập luận rằng điều này cũng có thể gây ra một số khó khăn.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc trẻ em sống tự lập. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "encouraging self-reliance in children",
+            "vi": "khuyến khích tính tự lực ở trẻ em"
+          },
+          {
+            "en": "fostering children's independence from an early age",
+            "vi": "nuôi dưỡng tính tự lập của trẻ từ sớm"
+          },
+          {
+            "en": "raising independent and responsible children",
+            "vi": "nuôi dạy những đứa trẻ tự lập và có trách nhiệm"
+          },
+          {
+            "en": "developing autonomy among young people",
+            "vi": "phát triển tính tự chủ ở thanh thiếu niên, trẻ nhỏ"
+          },
+          {
+            "en": "children learning to take care of themselves",
+            "vi": "trẻ em học cách tự chăm sóc bản thân"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Ba điều nhỏ giúp trẻ sống tự lập và có trách nhiệm hơn mỗi ngày",
+                "summary": "Hướng dẫn cha mẹ giao việc nhà vừa sức và trao quyền tự quyết hợp lý để trẻ xây dựng sự tự tin, kỷ luật cá nhân ngay từ gia đình.",
+                "url": "https://vnexpress.net/ba-dieu-nho-giup-tre-song-tu-lap-va-co-trach-nhiem-3722270.html"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Dạy trẻ tự lập: Buông tay đúng cách để con trưởng thành vững vàng",
+                "summary": "Phân tích ranh giới giữa việc rèn tính tự lập và bỏ mặc trẻ, nhấn mạnh sự đồng hành của phụ huynh để tránh áp lực tâm lý cho con.",
+                "url": "https://tuoitre.vn/nld/day-tre-tu-lap-19624121419553113.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Phát huy kỹ năng tự lập ở trẻ nhỏ để chuẩn bị hành trang vào đời",
+                "summary": "Chỉ ra lợi ích lâu dài của việc để trẻ tự quản lý thời gian học tập, sinh hoạt cá nhân thay vì bao bọc quá mức.",
+                "url": "https://dansinh.dantri.com.vn/vi-tre-em/phat-huy-ky-nang-tu-lap-o-tre-nho-20240111194904000.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "Child Mind Institute",
+                "title": "Raising Confident, Independent Children",
+                "summary": "Explains how gradually stepping back allows children to develop problem-solving skills, emotional resilience, and genuine self-confidence.",
+                "url": "https://childmind.org/article/raising-confident-independent-children/"
+              },
+              {
+                "source": "Psychology Today",
+                "title": "How to Raise Independent Children Through Supportive Guidance",
+                "summary": "Explores autonomy-supportive parenting, balancing age-appropriate responsibilities with emotional warmth so children do not feel overwhelmed.",
+                "url": "https://www.psychologytoday.com/us/blog/parenting-is-not-a-fad/202401/how-to-raise-independent-children"
+              },
+              {
+                "source": "Mental Health Center Kids",
+                "title": "Self-Reliant Kids: Benefits and Practical Life Skills",
+                "summary": "Highlights how daily chores, time management, and simple decision-making prepare children for future academic and adult challenges.",
+                "url": "https://mentalhealthcenterkids.com/blogs/articles/self-reliant-kids"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Trẻ em sống tự lập (Children living independently)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Trẻ em sống tự lập\" (Children living independently), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "self-reliance",
+                "ipa": "/ˌself rɪˈlaɪəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính tự lực, khả năng tự dựa vào chính mình",
+                "example_en": "Doing daily chores helps children develop strong self-reliance.",
+                "example_vi": "Làm việc nhà hằng ngày giúp trẻ hình thành tính tự lực vững vàng.",
+                "family": "self-reliant (adj)"
+              },
+              {
+                "word": "responsibility",
+                "ipa": "/rɪˌspɒnsəˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tinh thần trách nhiệm, bổn phận",
+                "example_en": "Children learn responsibility when they tidy their own bedrooms.",
+                "example_vi": "Trẻ học được tinh thần trách nhiệm khi tự dọn phòng ngủ của mình.",
+                "family": "responsible (adj), responsibly (adv)"
+              },
+              {
+                "word": "autonomy",
+                "ipa": "/ɔːˈtɒnəmi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quyền/khả năng tự chủ cá nhân",
+                "example_en": "Parents should grant children age-appropriate autonomy.",
+                "example_vi": "Cha mẹ nên trao cho trẻ sự tự chủ phù hợp với lứa tuổi.",
+                "family": "autonomous (adj)"
+              },
+              {
+                "word": "maturity",
+                "ipa": "/məˈtʃʊərəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự trưởng thành, chín chắn",
+                "example_en": "Handling small daily tasks promotes emotional maturity in children.",
+                "example_vi": "Giải quyết các công việc nhỏ hằng ngày thúc đẩy sự trưởng thành cảm xúc ở trẻ.",
+                "family": "mature (adj/v), immature (adj)"
+              },
+              {
+                "word": "resilience",
+                "ipa": "/rɪˈzɪliəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng vượt khó, bản lĩnh kiên cường",
+                "example_en": "Learning from small mistakes builds resilience in young learners.",
+                "example_vi": "Học hỏi từ những sai lầm nhỏ xây dựng bản lĩnh vượt khó ở trẻ.",
+                "family": "resilient (adj)"
+              },
+              {
+                "word": "adaptability",
+                "ipa": "/əˌdæptəˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng thích nghi với hoàn cảnh mới",
+                "example_en": "Independent children show greater adaptability when entering university.",
+                "example_vi": "Những đứa trẻ tự lập thể hiện khả năng thích nghi cao hơn khi vào đại học.",
+                "family": "adapt (v), adaptable (adj)"
+              },
+              {
+                "word": "decision-making",
+                "ipa": "/dɪˈsɪʒn meɪkɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "kỹ năng đưa ra quyết định",
+                "example_en": "Choosing study schedules strengthens children's decision-making.",
+                "example_vi": "Việc tự chọn lịch học củng cố kỹ năng đưa ra quyết định của trẻ.",
+                "family": "decide (v), decisive (adj)"
+              },
+              {
+                "word": "accountable",
+                "ipa": "/əˈkaʊntəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chịu trách nhiệm về hành động của mình",
+                "example_en": "Independent habits teach kids to be accountable for their choices.",
+                "example_vi": "Thói quen tự lập dạy trẻ chịu trách nhiệm về lựa chọn của mình.",
+                "family": "accountability (n)"
+              },
+              {
+                "word": "self-esteem",
+                "ipa": "/ˌself ɪˈstiːm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng tự trọng, sự tự tin vào giá trị bản thân",
+                "example_en": "Completing tasks alone boosts a child's self-esteem.",
+                "example_vi": "Tự mình hoàn thành nhiệm vụ giúp nâng cao lòng tự tin của trẻ.",
+                "family": "esteem (n/v)"
+              },
+              {
+                "word": "overprotective",
+                "ipa": "/ˌəʊvəprəˈtektɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bao bọc, chiều chuộng quá mức",
+                "example_en": "Overprotective parenting often makes children timid and passive.",
+                "example_vi": "Cách nuôi dạy bao bọc quá mức thường khiến trẻ nhút nhát và thụ động.",
+                "family": "protect (v), protection (n)"
+              },
+              {
+                "word": "overwhelmed",
+                "ipa": "/ˌəʊvəˈwelmd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "quá tải, choáng ngợp trước áp lực",
+                "example_en": "Young children may feel overwhelmed if given too many duties early.",
+                "example_vi": "Trẻ nhỏ có thể cảm thấy quá tải nếu bị giao quá nhiều trách nhiệm quá sớm.",
+                "family": "overwhelm (v), overwhelming (adj)"
+              },
+              {
+                "word": "inexperienced",
+                "ipa": "/ˌɪnɪkˈspɪəriənst/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "non nớt, thiếu kinh nghiệm sống",
+                "example_en": "Because children are inexperienced, they may make unwise choices.",
+                "example_vi": "Vì còn thiếu kinh nghiệm sống nên trẻ có thể đưa ra lựa chọn thiếu khôn ngoan.",
+                "family": "experience (n/v), experienced (adj)"
+              },
+              {
+                "word": "guidance",
+                "ipa": "/ˈɡaɪdns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự định hướng, dìu dắt của người lớn",
+                "example_en": "Children still need parental guidance while learning independence.",
+                "example_vi": "Trẻ vẫn cần sự định hướng của cha mẹ trong quá trình học sống tự lập.",
+                "family": "guide (n/v)"
+              },
+              {
+                "word": "neglect",
+                "ipa": "/nɪˈɡlekt/",
+                "pos": "noun/v",
+                "level": "B2",
+                "vi": "sự sao nhãng, thiếu quan tâm chăm sóc",
+                "example_en": "Pushing independence without support can feel like emotional neglect.",
+                "example_vi": "Ép con tự lập mà thiếu sự nâng đỡ có thể giống như sự bỏ bê tình cảm.",
+                "family": "neglected (adj), neglectful (adj)"
+              },
+              {
+                "word": "vulnerable",
+                "ipa": "/ˈvʌlnərəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dễ bị tổn thương, dễ gặp rủi ro",
+                "example_en": "Unsupervised children are more vulnerable to household accidents.",
+                "example_vi": "Trẻ không có người giám sát dễ gặp rủi ro tai nạn sinh hoạt trong nhà hơn.",
+                "family": "vulnerability (n)"
+              },
+              {
+                "word": "household",
+                "ipa": "/ˈhaʊshəʊld/",
+                "pos": "noun/adj",
+                "level": "B2",
+                "vi": "thuộc về gia đình, sinh hoạt trong nhà",
+                "example_en": "Sharing simple household chores eases the burden on working parents.",
+                "example_vi": "Chia sẻ việc nhà đơn giản giúp giảm bớt gánh nặng cho cha mẹ đi làm.",
+                "family": "housework (n)"
+              },
+              {
+                "word": "discipline",
+                "ipa": "/ˈdɪsəplɪn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính kỷ luật, nề nếp sinh hoạt",
+                "example_en": "Managing study hours builds personal discipline from childhood.",
+                "example_vi": "Tự quản lý giờ học xây dựng tính kỷ luật cá nhân ngay từ thời thơ ấu.",
+                "family": "disciplined (adj)"
+              },
+              {
+                "word": "distant",
+                "ipa": "/ˈdɪstənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "xa cách về mặt tình cảm",
+                "example_en": "Excessive independence might make family bonds become distant.",
+                "example_vi": "Sự độc lập quá mức có thể khiến sợi dây gắn kết gia đình trở nên xa cách.",
+                "family": "distance (n/v)"
+              },
+              {
+                "word": "competent",
+                "ipa": "/ˈkɒmpɪtənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có năng lực, tháo vát",
+                "example_en": "Practicing daily skills turns children into competent young adults.",
+                "example_vi": "Rèn luyện kỹ năng hằng ngày giúp trẻ trở thành những người trẻ tháo vát.",
+                "family": "competence (n), competently (adv)"
+              },
+              {
+                "word": "prioritize",
+                "ipa": "/praɪˈɒrətaɪz/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "sắp xếp thứ tự ưu tiên",
+                "example_en": "Independent students learn how to prioritize homework before play.",
+                "example_vi": "Học sinh tự lập biết cách ưu tiên làm bài tập trước khi vui chơi.",
+                "family": "priority (n)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: HÌNH THÀNH KỸ NĂNG SỐNG THIẾT YẾU TỪ SỚM (ESSENTIAL PRACTICAL LIFE SKILLS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "live independently",
+                    "vi": "sống tự lập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                    "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "hình thành những kỹ năng thực tế cần thiết",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                    "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "ngay từ độ tuổi còn sớm",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                    "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
+                  },
+                  {
+                    "en": "do age-appropriate housework",
+                    "vi": "làm các công việc nhà phù hợp lứa tuổi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                    "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
+                  },
+                  {
+                    "en": "avoid over-dependence on parents",
+                    "vi": "tránh sự ỷ lại quá mức vào cha mẹ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                    "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: NÂNG CAO TINH THẦN TRÁCH NHIỆM VÀ KỶ LUẬT CÁ NHÂN (STRONGER RESPONSIBILITY AND SELF-DISCIPLINE)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "handle personal tasks",
+                    "vi": "tự giải quyết công việc cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
+                    "example_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao."
+                  },
+                  {
+                    "en": "a strong sense of responsibility",
+                    "vi": "tinh thần trách nhiệm cao",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
+                    "example_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao."
+                  },
+                  {
+                    "en": "keep personal belongings tidy",
+                    "vi": "giữ gìn đồ dùng cá nhân gọn gàng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves.",
+                    "example_vi": "Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân, chính các em sẽ phải đối mặt với kết quả đó."
+                  },
+                  {
+                    "en": "be accountable for daily actions",
+                    "vi": "chịu trách nhiệm cho hành động hằng ngày",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
+                    "example_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao."
+                  },
+                  {
+                    "en": "prioritize academic tasks",
+                    "vi": "biết ưu tiên nhiệm vụ học tập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
+                    "example_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: TĂNG SỰ TỰ TIN VÀ KỸ NĂNG RA QUYẾT ĐỊNH (GREATER CONFIDENCE AND DECISION-MAKING SKILLS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "independent children",
+                    "vi": "những đứa trẻ sống tự lập",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Independent children often become more confident and develop better problem-solving skills.",
+                    "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
+                  },
+                  {
+                    "en": "become more confident",
+                    "vi": "trở nên tự tin hơn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Independent children often become more confident and develop better problem-solving skills.",
+                    "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
+                  },
+                  {
+                    "en": "develop better problem-solving skills",
+                    "vi": "phát triển tốt hơn kỹ năng giải quyết vấn đề",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Independent children often become more confident and develop better problem-solving skills.",
+                    "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
+                  },
+                  {
+                    "en": "foster emotional resilience",
+                    "vi": "bồi đắp bản lĩnh vượt khó",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Independent children often become more confident and develop better problem-solving skills.",
+                    "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
+                  },
+                  {
+                    "en": "make sound everyday decisions",
+                    "vi": "đưa ra quyết định hằng ngày hợp lý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Independent children often become more confident and develop better problem-solving skills.",
+                    "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: CHIA SẺ GÁNH NẶNG VIỆC NHÀ VỚI CHA MẸ (EASING PARENTS' HOUSEHOLD BURDEN)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự lo cho bản thân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
+                    "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
+                  },
+                  {
+                    "en": "help with chores",
+                    "vi": "phụ giúp công việc nhà",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
+                    "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
+                  },
+                  {
+                    "en": "parents' daily burden",
+                    "vi": "gánh nặng hằng ngày của cha mẹ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
+                    "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
+                  },
+                  {
+                    "en": "share household responsibilities",
+                    "vi": "chia sẻ trách nhiệm việc nhà",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
+                    "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
+                  },
+                  {
+                    "en": "appreciate parents' hard work",
+                    "vi": "biết trân trọng sự vất vả của cha mẹ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
+                    "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: RÈN LUYỆN TƯ DUY QUẢN LÝ THỜI GIAN VÀ TIỀN TIÊU VẶT (BETTER TIME AND POCKET-MONEY MANAGEMENT)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "manage their time",
+                    "vi": "quản lý quỹ thời gian",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
+                    "example_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý."
+                  },
+                  {
+                    "en": "pocket money",
+                    "vi": "tiền tiêu vặt",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
+                    "example_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý."
+                  },
+                  {
+                    "en": "balance study hours with leisure activities",
+                    "vi": "cân đối giữa giờ học và hoạt động giải trí",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Children learn to balance study hours with leisure activities and think carefully before spending money on toys or snacks.",
+                    "example_vi": "Trẻ học cách cân đối giữa giờ học và giờ giải trí, đồng thời suy nghĩ kỹ trước khi chi tiêu cho đồ chơi hay quà vặt."
+                  },
+                  {
+                    "en": "develop early financial awareness",
+                    "vi": "hình thành nhận thức tài chính từ sớm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
+                    "example_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý."
+                  },
+                  {
+                    "en": "maintain a balanced daily routine",
+                    "vi": "duy trì nề nếp sinh hoạt hằng ngày cân bằng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
+                    "example_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: DỄ ĐƯA RA QUYẾT ĐỊNH SAI LẦM DO THIẾU KINH NGHIỆM (POOR DECISIONS DUE TO INEXPERIENCE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "young and inexperienced",
+                    "vi": "còn nhỏ và thiếu kinh nghiệm sống",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                    "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
+                  },
+                  {
+                    "en": "live too independently",
+                    "vi": "sống tự lập quá mức/quá sớm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                    "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
+                  },
+                  {
+                    "en": "make unwise decisions",
+                    "vi": "đưa ra những quyết định thiếu khôn ngoan",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                    "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
+                  },
+                  {
+                    "en": "lack mature judgment",
+                    "vi": "thiếu khả năng phán đoán chín chắn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                    "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
+                  },
+                  {
+                    "en": "susceptible to negative peer pressure",
+                    "vi": "dễ bị lôi kéo bởi áp lực bạn bè tiêu cực",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                    "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: ÁP LỰC TÂM LÝ VÀ CẢM GIÁC QUÁ TẢI Ở TRẺ (EMOTIONAL STRESS AND FEELING OVERWHELMED)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "take on too many responsibilities",
+                    "vi": "gánh vác quá nhiều trách nhiệm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                    "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
+                  },
+                  {
+                    "en": "too early",
+                    "vi": "từ quá sớm",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                    "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
+                  },
+                  {
+                    "en": "feel stressed and overwhelmed",
+                    "vi": "cảm thấy căng thẳng và quá tải",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                    "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
+                  },
+                  {
+                    "en": "excessive psychological burden",
+                    "vi": "gánh nặng tâm lý quá sức",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                    "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
+                  },
+                  {
+                    "en": "suffer from silent stress",
+                    "vi": "chịu đựng sự căng thẳng âm thầm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                    "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: TIỀM ẨN RỦI RO MẤT AN TOÀN TRONG SINH HOẠT (SAFETY RISKS WITHOUT SUPERVISION)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "manage tasks",
+                    "vi": "tự xoay xở công việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                    "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
+                  },
+                  {
+                    "en": "without adult supervision",
+                    "vi": "thiếu sự giám sát của người lớn",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                    "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
+                  },
+                  {
+                    "en": "expose them to safety risks",
+                    "vi": "khiến các em đối mặt với rủi ro an toàn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                    "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
+                  },
+                  {
+                    "en": "vulnerable to household hazards",
+                    "vi": "dễ gặp hiểm họa sinh hoạt trong nhà",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                    "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
+                  },
+                  {
+                    "en": "require safety precautions",
+                    "vi": "cần các biện pháp phòng ngừa an toàn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                    "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: NGUY CƠ GIẢM SỰ GẮN KẾT TÌNH CẢM GIA ĐÌNH (WEAKENED FAMILY EMOTIONAL BONDS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "without emotional warmth",
+                    "vi": "thiếu đi sự ấm áp/quan tâm tình cảm",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
+                    "example_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách."
+                  },
+                  {
+                    "en": "the bond between parents and children",
+                    "vi": "sợi dây gắn kết giữa cha mẹ và con cái",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
+                    "example_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách."
+                  },
+                  {
+                    "en": "do everything alone in their rooms",
+                    "vi": "tự làm mọi việc một mình trong phòng riêng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "When children get used to doing everything alone in their rooms and talking less each day, parents may fail to notice their worries.",
+                    "example_vi": "Khi trẻ quen tự làm mọi việc trong phòng riêng và ít trò chuyện hằng ngày, cha mẹ khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con."
+                  },
+                  {
+                    "en": "become emotionally distant",
+                    "vi": "trở nên xa cách về mặt tình cảm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
+                    "example_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách."
+                  },
+                  {
+                    "en": "mistake neglect for independence",
+                    "vi": "đánh đồng sự bỏ mặc với việc rèn tự lập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
+                    "example_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: HÌNH THÀNH TÍNH BƯỚNG BỈNH, KHÓ TIẾP THU LỜI KHUYÊN (STUBBORNNESS AND RESISTANCE TO ADVICE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "decide everything alone",
+                    "vi": "tự quyết định mọi việc một mình",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                    "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
+                  },
+                  {
+                    "en": "become stubborn",
+                    "vi": "trở nên bướng bỉnh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                    "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
+                  },
+                  {
+                    "en": "ignore adult advice",
+                    "vi": "phớt lờ lời khuyên của người lớn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                    "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
+                  },
+                  {
+                    "en": "resist parental authority",
+                    "vi": "chống đối sự quản lý của cha mẹ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                    "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
+                  },
+                  {
+                    "en": "balance autonomy with respect",
+                    "vi": "cân bằng tính tự chủ với sự tôn trọng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                    "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, children living independently has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, trẻ em sống tự lập ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of children living independently.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của trẻ em sống tự lập."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, children living independently offers several notable advantages.",
+                    "example_vi": "Một mặt, trẻ em sống tự lập mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many young people experience children living independently in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người trẻ trải nghiệm trẻ em sống tự lập trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of children living independently is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của trẻ em sống tự lập là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: HÌNH THÀNH KỸ NĂNG SỐNG THIẾT YẾU TỪ SỚM (ESSENTIAL PRACTICAL LIFE SKILLS)",
+                "collocations": [
+                  {
+                    "en": "live independently",
+                    "vi": "sống tự lập"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "hình thành những kỹ năng thực tế cần thiết"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "ngay từ độ tuổi còn sớm"
+                  },
+                  {
+                    "en": "prepare simple meals",
+                    "vi": "chuẩn bị bữa ăn đơn giản"
+                  },
+                  {
+                    "en": "manage study schedules",
+                    "vi": "sắp xếp thời gian học tập"
+                  },
+                  {
+                    "en": "look after themselves",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "adapt easily",
+                    "vi": "thích nghi dễ dàng"
+                  },
+                  {
+                    "en": "study away from home",
+                    "vi": "đi học xa nhà"
+                  },
+                  {
+                    "en": "enter adulthood",
+                    "vi": "bước vào tuổi trưởng thành"
+                  }
+                ],
+                "point_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày.",
+                "point_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                "evidence_vi": "Khi tự dọn dẹp phòng ốc, chuẩn bị bữa ăn đơn giản và sắp xếp thời gian học, trẻ biết cách tự chăm sóc bản thân mà không ỷ lại vào cha mẹ. Những thói quen này giúp các em thích nghi dễ dàng khi sau này học xa nhà hoặc bước vào tuổi trưởng thành.",
+                "evidence_en": "When tidying their rooms, preparing simple meals, and managing study schedules, children learn to look after themselves without relying on their parents. These habits help them adapt easily when studying away from home or entering adulthood later.",
+                "point_collocations": [
+                  {
+                    "en": "live independently",
+                    "vi": "sống tự lập"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "hình thành những kỹ năng thực tế cần thiết"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "ngay từ độ tuổi còn sớm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "prepare simple meals",
+                      "vi": "chuẩn bị bữa ăn đơn giản"
+                    },
+                    {
+                      "en": "manage study schedules",
+                      "vi": "sắp xếp thời gian học tập"
+                    },
+                    {
+                      "en": "look after themselves",
+                      "vi": "tự chăm sóc bản thân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "adapt easily",
+                      "vi": "thích nghi dễ dàng"
+                    },
+                    {
+                      "en": "study away from home",
+                      "vi": "đi học xa nhà"
+                    },
+                    {
+                      "en": "enter adulthood",
+                      "vi": "bước vào tuổi trưởng thành"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: NÂNG CAO TINH THẦN TRÁCH NHIỆM VÀ KỶ LUẬT CÁ NHÂN (STRONGER RESPONSIBILITY AND SELF-DISCIPLINE)",
+                "collocations": [
+                  {
+                    "en": "handle personal tasks",
+                    "vi": "tự giải quyết công việc cá nhân"
+                  },
+                  {
+                    "en": "a strong sense of responsibility",
+                    "vi": "tinh thần trách nhiệm cao"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính kỷ luật cá nhân"
+                  },
+                  {
+                    "en": "keep personal belongings tidy",
+                    "vi": "giữ gìn đồ dùng cá nhân gọn gàng"
+                  },
+                  {
+                    "en": "face the consequences themselves",
+                    "vi": "tự đối mặt với hệ quả"
+                  },
+                  {
+                    "en": "forget their homework",
+                    "vi": "quên làm bài tập về nhà"
+                  },
+                  {
+                    "en": "become more careful",
+                    "vi": "trở nên cẩn thận hơn"
+                  },
+                  {
+                    "en": "complete their duties on time",
+                    "vi": "hoàn thành nhiệm vụ đúng hạn"
+                  },
+                  {
+                    "en": "as a result",
+                    "vi": "nhờ vậy / kết quả là"
+                  }
+                ],
+                "point_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao.",
+                "point_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
+                "evidence_vi": "Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân, chính các em sẽ phải đối mặt với kết quả đó. Nhờ vậy, trẻ trở nên cẩn thận hơn và chủ động hoàn thành nhiệm vụ đúng hạn.",
+                "evidence_en": "Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves. As a result, they become more careful and complete their duties on time.",
+                "point_collocations": [
+                  {
+                    "en": "handle personal tasks",
+                    "vi": "tự giải quyết công việc cá nhân"
+                  },
+                  {
+                    "en": "a strong sense of responsibility",
+                    "vi": "tinh thần trách nhiệm cao"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính kỷ luật cá nhân"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "keep personal belongings tidy",
+                      "vi": "giữ gìn đồ dùng cá nhân gọn gàng"
+                    },
+                    {
+                      "en": "face the consequences themselves",
+                      "vi": "tự đối mặt với hệ quả"
+                    },
+                    {
+                      "en": "forget their homework",
+                      "vi": "quên làm bài tập về nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "become more careful",
+                      "vi": "trở nên cẩn thận hơn"
+                    },
+                    {
+                      "en": "complete their duties on time",
+                      "vi": "hoàn thành nhiệm vụ đúng hạn"
+                    },
+                    {
+                      "en": "as a result",
+                      "vi": "nhờ vậy / kết quả là"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: TĂNG SỰ TỰ TIN VÀ KỸ NĂNG RA QUYẾT ĐỊNH (GREATER CONFIDENCE AND DECISION-MAKING SKILLS)",
+                "collocations": [
+                  {
+                    "en": "independent children",
+                    "vi": "những đứa trẻ sống tự lập"
+                  },
+                  {
+                    "en": "become more confident",
+                    "vi": "trở nên tự tin hơn"
+                  },
+                  {
+                    "en": "develop better problem-solving skills",
+                    "vi": "phát triển tốt hơn kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "make age-appropriate choices",
+                    "vi": "đưa ra những lựa chọn phù hợp lứa tuổi"
+                  },
+                  {
+                    "en": "overcome small challenges alone",
+                    "vi": "tự mình vượt qua những thử thách nhỏ"
+                  },
+                  {
+                    "en": "feel proud of their own abilities",
+                    "vi": "cảm thấy tự hào về năng lực của mình"
+                  },
+                  {
+                    "en": "positive self-esteem",
+                    "vi": "lòng tự tin tích cực"
+                  },
+                  {
+                    "en": "give up easily",
+                    "vi": "dễ dàng bỏ cuộc/nản lòng"
+                  },
+                  {
+                    "en": "face difficulties at school",
+                    "vi": "gặp khó khăn ở trường học"
+                  }
+                ],
+                "point_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề.",
+                "point_en": "Independent children often become more confident and develop better problem-solving skills.",
+                "evidence_vi": "Khi được phép tự đưa ra những lựa chọn phù hợp với lứa tuổi và tự vượt qua thử thách nhỏ, trẻ cảm thấy tự hào về năng lực của mình. Sự tự tin tích cực này giúp các em không dễ nản lòng khi gặp khó khăn ở trường học.",
+                "evidence_en": "When allowed to make age-appropriate choices and overcome small challenges alone, children feel proud of their own abilities. Such positive self-esteem prevents them from giving up easily when facing difficulties at school.",
+                "point_collocations": [
+                  {
+                    "en": "independent children",
+                    "vi": "những đứa trẻ sống tự lập"
+                  },
+                  {
+                    "en": "become more confident",
+                    "vi": "trở nên tự tin hơn"
+                  },
+                  {
+                    "en": "develop better problem-solving skills",
+                    "vi": "phát triển tốt hơn kỹ năng giải quyết vấn đề"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "make age-appropriate choices",
+                      "vi": "đưa ra những lựa chọn phù hợp lứa tuổi"
+                    },
+                    {
+                      "en": "overcome small challenges alone",
+                      "vi": "tự mình vượt qua những thử thách nhỏ"
+                    },
+                    {
+                      "en": "feel proud of their own abilities",
+                      "vi": "cảm thấy tự hào về năng lực của mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "positive self-esteem",
+                      "vi": "lòng tự tin tích cực"
+                    },
+                    {
+                      "en": "give up easily",
+                      "vi": "dễ dàng bỏ cuộc/nản lòng"
+                    },
+                    {
+                      "en": "face difficulties at school",
+                      "vi": "gặp khó khăn ở trường học"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: CHIA SẺ GÁNH NẶNG VIỆC NHÀ VỚI CHA MẸ (EASING PARENTS' HOUSEHOLD BURDEN)",
+                "collocations": [
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự lo cho bản thân"
+                  },
+                  {
+                    "en": "help with chores",
+                    "vi": "phụ giúp công việc nhà"
+                  },
+                  {
+                    "en": "parents' daily burden",
+                    "vi": "gánh nặng hằng ngày của cha mẹ"
+                  },
+                  {
+                    "en": "working parents",
+                    "vi": "các bậc phụ huynh đi làm"
+                  },
+                  {
+                    "en": "have busy jobs all day",
+                    "vi": "bận rộn với công việc cả ngày"
+                  },
+                  {
+                    "en": "do everything for their children",
+                    "vi": "làm thay con mọi thứ"
+                  },
+                  {
+                    "en": "children's cooperation",
+                    "vi": "sự hợp tác/tự giác của con cái"
+                  },
+                  {
+                    "en": "reduce family stress",
+                    "vi": "giảm căng thẳng trong gia đình"
+                  },
+                  {
+                    "en": "a more harmonious home atmosphere",
+                    "vi": "bầu không khí gia đình hài hòa hơn"
+                  }
+                ],
+                "point_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể.",
+                "point_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
+                "evidence_vi": "Trong xã hội hiện đại, hầu hết các bậc phụ huynh đều bận rộn với công việc cả ngày nên khó thể làm thay con mọi thứ. Sự tự giác của con cái giúp không khí gia đình bớt căng thẳng và hài hòa hơn.",
+                "evidence_en": "In modern families, most working parents have busy jobs all day and cannot do everything for their children. Children's cooperation reduces family stress and creates a more harmonious home atmosphere.",
+                "point_collocations": [
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự lo cho bản thân"
+                  },
+                  {
+                    "en": "help with chores",
+                    "vi": "phụ giúp công việc nhà"
+                  },
+                  {
+                    "en": "parents' daily burden",
+                    "vi": "gánh nặng hằng ngày của cha mẹ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "working parents",
+                      "vi": "các bậc phụ huynh đi làm"
+                    },
+                    {
+                      "en": "have busy jobs all day",
+                      "vi": "bận rộn với công việc cả ngày"
+                    },
+                    {
+                      "en": "do everything for their children",
+                      "vi": "làm thay con mọi thứ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "children's cooperation",
+                      "vi": "sự hợp tác/tự giác của con cái"
+                    },
+                    {
+                      "en": "reduce family stress",
+                      "vi": "giảm căng thẳng trong gia đình"
+                    },
+                    {
+                      "en": "a more harmonious home atmosphere",
+                      "vi": "bầu không khí gia đình hài hòa hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: RÈN LUYỆN TƯ DUY QUẢN LÝ THỜI GIAN VÀ TIỀN TIÊU VẶT (BETTER TIME AND POCKET-MONEY MANAGEMENT)",
+                "collocations": [
+                  {
+                    "en": "manage their time",
+                    "vi": "quản lý quỹ thời gian"
+                  },
+                  {
+                    "en": "pocket money",
+                    "vi": "tiền tiêu vặt"
+                  },
+                  {
+                    "en": "wisely",
+                    "vi": "một cách khôn ngoan, hợp lý"
+                  },
+                  {
+                    "en": "balance study hours with leisure activities",
+                    "vi": "cân đối giữa giờ học và hoạt động giải trí"
+                  },
+                  {
+                    "en": "think carefully",
+                    "vi": "suy nghĩ kỹ lưỡng"
+                  },
+                  {
+                    "en": "spend money on toys or snacks",
+                    "vi": "chi tiêu tiền cho đồ chơi hay quà vặt"
+                  },
+                  {
+                    "en": "self-management skills",
+                    "vi": "các kỹ năng tự quản lý bản thân"
+                  },
+                  {
+                    "en": "lay a valuable foundation",
+                    "vi": "đặt nền tảng quý giá"
+                  },
+                  {
+                    "en": "for future success",
+                    "vi": "cho sự thành công trong tương lai"
+                  }
+                ],
+                "point_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý.",
+                "point_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
+                "evidence_vi": "Trẻ học cách cân đối giữa giờ học và giờ giải trí, đồng thời suy nghĩ kỹ trước khi chi tiêu cho đồ chơi hay quà vặt. Những kỹ năng tự quản này là nền tảng quý giá cho sự thành công trong tương lai.",
+                "evidence_en": "Children learn to balance study hours with leisure activities and think carefully before spending money on toys or snacks. Such self-management skills lay a valuable foundation for future success.",
+                "point_collocations": [
+                  {
+                    "en": "manage their time",
+                    "vi": "quản lý quỹ thời gian"
+                  },
+                  {
+                    "en": "pocket money",
+                    "vi": "tiền tiêu vặt"
+                  },
+                  {
+                    "en": "wisely",
+                    "vi": "một cách khôn ngoan, hợp lý"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "balance study hours with leisure activities",
+                      "vi": "cân đối giữa giờ học và hoạt động giải trí"
+                    },
+                    {
+                      "en": "think carefully",
+                      "vi": "suy nghĩ kỹ lưỡng"
+                    },
+                    {
+                      "en": "spend money on toys or snacks",
+                      "vi": "chi tiêu tiền cho đồ chơi hay quà vặt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-management skills",
+                      "vi": "các kỹ năng tự quản lý bản thân"
+                    },
+                    {
+                      "en": "lay a valuable foundation",
+                      "vi": "đặt nền tảng quý giá"
+                    },
+                    {
+                      "en": "for future success",
+                      "vi": "cho sự thành công trong tương lai"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: DỄ ĐƯA RA QUYẾT ĐỊNH SAI LẦM DO THIẾU KINH NGHIỆM (POOR DECISIONS DUE TO INEXPERIENCE)",
+                "collocations": [
+                  {
+                    "en": "young and inexperienced",
+                    "vi": "còn nhỏ và thiếu kinh nghiệm sống"
+                  },
+                  {
+                    "en": "live too independently",
+                    "vi": "sống tự lập quá mức/quá sớm"
+                  },
+                  {
+                    "en": "make unwise decisions",
+                    "vi": "đưa ra những quyết định thiếu khôn ngoan"
+                  },
+                  {
+                    "en": "without close adult guidance",
+                    "vi": "không có sự định hướng sát sao của người lớn"
+                  },
+                  {
+                    "en": "eat junk food regularly",
+                    "vi": "ăn đồ ăn nhanh thường xuyên"
+                  },
+                  {
+                    "en": "follow bad peer influences",
+                    "vi": "nghe theo ảnh hưởng xấu từ bạn bè"
+                  },
+                  {
+                    "en": "negatively affect",
+                    "vi": "ảnh hưởng tiêu cực đến"
+                  },
+                  {
+                    "en": "academic performance",
+                    "vi": "kết quả học tập"
+                  },
+                  {
+                    "en": "physical health",
+                    "vi": "sức khỏe thể chất"
+                  }
+                ],
+                "point_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan.",
+                "point_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                "evidence_vi": "Khi không có người lớn định hướng sát sao, trẻ có thể sắp xếp lịch sinh hoạt thiếu khoa học, ăn uống không lành mạnh hoặc nghe theo lời rủ rê xấu của bạn bè. Những sai lầm này có thể ảnh hưởng tiêu cực đến kết quả học tập và sức khỏe của trẻ.",
+                "evidence_en": "Without close adult guidance, children may plan unhealthy routines, eat junk food regularly, or follow bad peer influences. These mistakes can negatively affect both their academic performance and physical health.",
+                "point_collocations": [
+                  {
+                    "en": "young and inexperienced",
+                    "vi": "còn nhỏ và thiếu kinh nghiệm sống"
+                  },
+                  {
+                    "en": "live too independently",
+                    "vi": "sống tự lập quá mức/quá sớm"
+                  },
+                  {
+                    "en": "make unwise decisions",
+                    "vi": "đưa ra những quyết định thiếu khôn ngoan"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "without close adult guidance",
+                      "vi": "không có sự định hướng sát sao của người lớn"
+                    },
+                    {
+                      "en": "eat junk food regularly",
+                      "vi": "ăn đồ ăn nhanh thường xuyên"
+                    },
+                    {
+                      "en": "follow bad peer influences",
+                      "vi": "nghe theo ảnh hưởng xấu từ bạn bè"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "negatively affect",
+                      "vi": "ảnh hưởng tiêu cực đến"
+                    },
+                    {
+                      "en": "academic performance",
+                      "vi": "kết quả học tập"
+                    },
+                    {
+                      "en": "physical health",
+                      "vi": "sức khỏe thể chất"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: ÁP LỰC TÂM LÝ VÀ CẢM GIÁC QUÁ TẢI Ở TRẺ (EMOTIONAL STRESS AND FEELING OVERWHELMED)",
+                "collocations": [
+                  {
+                    "en": "take on too many responsibilities",
+                    "vi": "gánh vác quá nhiều trách nhiệm"
+                  },
+                  {
+                    "en": "too early",
+                    "vi": "từ quá sớm"
+                  },
+                  {
+                    "en": "feel stressed and overwhelmed",
+                    "vi": "cảm thấy căng thẳng và quá tải"
+                  },
+                  {
+                    "en": "hesitate to ask for help",
+                    "vi": "ngần ngại tìm sự giúp đỡ"
+                  },
+                  {
+                    "en": "daily problems",
+                    "vi": "các rắc rối sinh hoạt hằng ngày"
+                  },
+                  {
+                    "en": "handle everything alone",
+                    "vi": "tự mình giải quyết mọi chuyện"
+                  },
+                  {
+                    "en": "prolonged pressure",
+                    "vi": "áp lực kéo dài"
+                  },
+                  {
+                    "en": "carefree childhood",
+                    "vi": "tuổi thơ hồn nhiên vô tư"
+                  },
+                  {
+                    "en": "cause emotional anxiety",
+                    "vi": "gây lo âu về mặt cảm xúc"
+                  }
+                ],
+                "point_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải.",
+                "point_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                "evidence_vi": "Một số trẻ khi gặp rắc rối trong việc học hay sinh hoạt lại ngại chia sẻ vì nghĩ mình phải tự giải quyết một mình. Áp lực kéo dài này có thể lấy đi sự hồn nhiên tuổi thơ và gây lo âu về mặt tâm lý.",
+                "evidence_en": "Some children hesitate to ask for help with schoolwork or daily problems because they believe they must handle everything alone. Prolonged pressure may take away their carefree childhood and cause emotional anxiety.",
+                "point_collocations": [
+                  {
+                    "en": "take on too many responsibilities",
+                    "vi": "gánh vác quá nhiều trách nhiệm"
+                  },
+                  {
+                    "en": "too early",
+                    "vi": "từ quá sớm"
+                  },
+                  {
+                    "en": "feel stressed and overwhelmed",
+                    "vi": "cảm thấy căng thẳng và quá tải"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hesitate to ask for help",
+                      "vi": "ngần ngại tìm sự giúp đỡ"
+                    },
+                    {
+                      "en": "daily problems",
+                      "vi": "các rắc rối sinh hoạt hằng ngày"
+                    },
+                    {
+                      "en": "handle everything alone",
+                      "vi": "tự mình giải quyết mọi chuyện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prolonged pressure",
+                      "vi": "áp lực kéo dài"
+                    },
+                    {
+                      "en": "carefree childhood",
+                      "vi": "tuổi thơ hồn nhiên vô tư"
+                    },
+                    {
+                      "en": "cause emotional anxiety",
+                      "vi": "gây lo âu về mặt cảm xúc"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: TIỀM ẨN RỦI RO MẤT AN TOÀN TRONG SINH HOẠT (SAFETY RISKS WITHOUT SUPERVISION)",
+                "collocations": [
+                  {
+                    "en": "manage tasks",
+                    "vi": "tự xoay xở công việc"
+                  },
+                  {
+                    "en": "without adult supervision",
+                    "vi": "thiếu sự giám sát của người lớn"
+                  },
+                  {
+                    "en": "expose them to safety risks",
+                    "vi": "khiến các em đối mặt với rủi ro an toàn"
+                  },
+                  {
+                    "en": "use electrical appliances",
+                    "vi": "sử dụng các thiết bị điện"
+                  },
+                  {
+                    "en": "travel outside by themselves",
+                    "vi": "tự đi lại bên ngoài một mình"
+                  },
+                  {
+                    "en": "unexpected accidents",
+                    "vi": "tai nạn ngoài ý muốn"
+                  },
+                  {
+                    "en": "lack the skills",
+                    "vi": "thiếu hụt kỹ năng"
+                  },
+                  {
+                    "en": "handle emergencies",
+                    "vi": "xử lý các tình huống khẩn cấp"
+                  },
+                  {
+                    "en": "when sudden dangers occur",
+                    "vi": "khi hiểm nguy bất ngờ xảy ra"
+                  }
+                ],
+                "point_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn.",
+                "point_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                "evidence_vi": "Chẳng hạn, trẻ nhỏ tự nấu ăn, sử dụng thiết bị điện hoặc tự đi lại ngoài đường rất dễ gặp tai nạn ngoài ý muốn. Các em chưa đủ kỹ năng xử lý tình huống khẩn cấp khi xảy ra sự cố bất ngờ.",
+                "evidence_en": "For instance, young children cooking alone, using electrical appliances, or traveling outside by themselves can easily have unexpected accidents. They often lack the skills to handle emergencies when sudden dangers occur.",
+                "point_collocations": [
+                  {
+                    "en": "manage tasks",
+                    "vi": "tự xoay xở công việc"
+                  },
+                  {
+                    "en": "without adult supervision",
+                    "vi": "thiếu sự giám sát của người lớn"
+                  },
+                  {
+                    "en": "expose them to safety risks",
+                    "vi": "khiến các em đối mặt với rủi ro an toàn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "use electrical appliances",
+                      "vi": "sử dụng các thiết bị điện"
+                    },
+                    {
+                      "en": "travel outside by themselves",
+                      "vi": "tự đi lại bên ngoài một mình"
+                    },
+                    {
+                      "en": "unexpected accidents",
+                      "vi": "tai nạn ngoài ý muốn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lack the skills",
+                      "vi": "thiếu hụt kỹ năng"
+                    },
+                    {
+                      "en": "handle emergencies",
+                      "vi": "xử lý các tình huống khẩn cấp"
+                    },
+                    {
+                      "en": "when sudden dangers occur",
+                      "vi": "khi hiểm nguy bất ngờ xảy ra"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: NGUY CƠ GIẢM SỰ GẮN KẾT TÌNH CẢM GIA ĐÌNH (WEAKENED FAMILY EMOTIONAL BONDS)",
+                "collocations": [
+                  {
+                    "en": "without emotional warmth",
+                    "vi": "thiếu đi sự ấm áp/quan tâm tình cảm"
+                  },
+                  {
+                    "en": "the bond between parents and children",
+                    "vi": "sợi dây gắn kết giữa cha mẹ và con cái"
+                  },
+                  {
+                    "en": "weaken",
+                    "vi": "suy yếu / trở nên xa cách"
+                  },
+                  {
+                    "en": "do everything alone in their rooms",
+                    "vi": "tự làm mọi việc một mình trong phòng riêng"
+                  },
+                  {
+                    "en": "talk less each day",
+                    "vi": "ít trò chuyện hơn mỗi ngày"
+                  },
+                  {
+                    "en": "fail to notice their worries",
+                    "vi": "không nhận ra kịp những nỗi lo của con"
+                  },
+                  {
+                    "en": "over time",
+                    "vi": "theo thời gian / lâu dần"
+                  },
+                  {
+                    "en": "feel lonely",
+                    "vi": "cảm thấy cô đơn"
+                  },
+                  {
+                    "en": "within their own homes",
+                    "vi": "ngay trong chính ngôi nhà của mình"
+                  }
+                ],
+                "point_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách.",
+                "point_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
+                "evidence_vi": "Khi trẻ quen tự làm mọi việc trong phòng riêng và ít trò chuyện hằng ngày, cha mẹ khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con. Lâu dần, trẻ có thể cảm thấy cô đơn ngay trong chính ngôi nhà của mình.",
+                "evidence_en": "When children get used to doing everything alone in their rooms and talking less each day, parents may fail to notice their worries. Over time, children might feel lonely even within their own homes.",
+                "point_collocations": [
+                  {
+                    "en": "without emotional warmth",
+                    "vi": "thiếu đi sự ấm áp/quan tâm tình cảm"
+                  },
+                  {
+                    "en": "the bond between parents and children",
+                    "vi": "sợi dây gắn kết giữa cha mẹ và con cái"
+                  },
+                  {
+                    "en": "weaken",
+                    "vi": "suy yếu / trở nên xa cách"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "do everything alone in their rooms",
+                      "vi": "tự làm mọi việc một mình trong phòng riêng"
+                    },
+                    {
+                      "en": "talk less each day",
+                      "vi": "ít trò chuyện hơn mỗi ngày"
+                    },
+                    {
+                      "en": "fail to notice their worries",
+                      "vi": "không nhận ra kịp những nỗi lo của con"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "over time",
+                      "vi": "theo thời gian / lâu dần"
+                    },
+                    {
+                      "en": "feel lonely",
+                      "vi": "cảm thấy cô đơn"
+                    },
+                    {
+                      "en": "within their own homes",
+                      "vi": "ngay trong chính ngôi nhà của mình"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: HÌNH THÀNH TÍNH BƯỚNG BỈNH, KHÓ TIẾP THU LỜI KHUYÊN (STUBBORNNESS AND RESISTANCE TO ADVICE)",
+                "collocations": [
+                  {
+                    "en": "decide everything alone",
+                    "vi": "tự quyết định mọi việc một mình"
+                  },
+                  {
+                    "en": "become stubborn",
+                    "vi": "trở nên bướng bỉnh"
+                  },
+                  {
+                    "en": "ignore adult advice",
+                    "vi": "phớt lờ lời khuyên của người lớn"
+                  },
+                  {
+                    "en": "overestimate their own judgment",
+                    "vi": "đánh giá quá cao sự phán đoán của bản thân"
+                  },
+                  {
+                    "en": "offer guidance",
+                    "vi": "đưa ra lời khuyên định hướng"
+                  },
+                  {
+                    "en": "set family rules",
+                    "vi": "đặt ra các quy tắc gia đình"
+                  },
+                  {
+                    "en": "cause unnecessary conflicts",
+                    "vi": "gây ra những mâu thuẫn không đáng có"
+                  },
+                  {
+                    "en": "between generations at home",
+                    "vi": "giữa các thế hệ trong gia đình"
+                  },
+                  {
+                    "en": "this attitude",
+                    "vi": "thái độ này"
+                  }
+                ],
+                "point_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn.",
+                "point_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                "evidence_vi": "Trẻ có thể đánh giá quá cao khả năng của bản thân và phản ứng gay gắt khi cha mẹ góp ý hay đặt ra quy tắc chung. Điều này đôi khi gây ra mâu thuẫn không đáng có giữa các thế hệ trong gia đình.",
+                "evidence_en": "They may overestimate their own judgment and react negatively when parents offer guidance or set family rules. This attitude sometimes causes unnecessary conflicts between generations at home.",
+                "point_collocations": [
+                  {
+                    "en": "decide everything alone",
+                    "vi": "tự quyết định mọi việc một mình"
+                  },
+                  {
+                    "en": "become stubborn",
+                    "vi": "trở nên bướng bỉnh"
+                  },
+                  {
+                    "en": "ignore adult advice",
+                    "vi": "phớt lờ lời khuyên của người lớn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "overestimate their own judgment",
+                      "vi": "đánh giá quá cao sự phán đoán của bản thân"
+                    },
+                    {
+                      "en": "offer guidance",
+                      "vi": "đưa ra lời khuyên định hướng"
+                    },
+                    {
+                      "en": "set family rules",
+                      "vi": "đặt ra các quy tắc gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cause unnecessary conflicts",
+                      "vi": "gây ra những mâu thuẫn không đáng có"
+                    },
+                    {
+                      "en": "between generations at home",
+                      "vi": "giữa các thế hệ trong gia đình"
+                    },
+                    {
+                      "en": "this attitude",
+                      "vi": "thái độ này"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "live independently",
+              "vi": "sống tự lập"
+            },
+            {
+              "en": "develop essential practical skills",
+              "vi": "hình thành những kỹ năng thực tế cần thiết"
+            },
+            {
+              "en": "from an early age",
+              "vi": "ngay từ độ tuổi còn sớm"
+            },
+            {
+              "en": "do age-appropriate housework",
+              "vi": "làm các công việc nhà phù hợp lứa tuổi"
+            },
+            {
+              "en": "avoid over-dependence on parents",
+              "vi": "tránh sự ỷ lại quá mức vào cha mẹ"
+            },
+            {
+              "en": "handle personal tasks",
+              "vi": "tự giải quyết công việc cá nhân"
+            },
+            {
+              "en": "a strong sense of responsibility",
+              "vi": "tinh thần trách nhiệm cao"
+            },
+            {
+              "en": "keep personal belongings tidy",
+              "vi": "giữ gìn đồ dùng cá nhân gọn gàng"
+            },
+            {
+              "en": "be accountable for daily actions",
+              "vi": "chịu trách nhiệm cho hành động hằng ngày"
+            },
+            {
+              "en": "prioritize academic tasks",
+              "vi": "biết ưu tiên nhiệm vụ học tập"
+            },
+            {
+              "en": "independent children",
+              "vi": "những đứa trẻ sống tự lập"
+            },
+            {
+              "en": "become more confident",
+              "vi": "trở nên tự tin hơn"
+            },
+            {
+              "en": "develop better problem-solving skills",
+              "vi": "phát triển tốt hơn kỹ năng giải quyết vấn đề"
+            },
+            {
+              "en": "foster emotional resilience",
+              "vi": "bồi đắp bản lĩnh vượt khó"
+            },
+            {
+              "en": "make sound everyday decisions",
+              "vi": "đưa ra quyết định hằng ngày hợp lý"
+            },
+            {
+              "en": "take care of themselves",
+              "vi": "tự lo cho bản thân"
+            },
+            {
+              "en": "help with chores",
+              "vi": "phụ giúp công việc nhà"
+            },
+            {
+              "en": "parents' daily burden",
+              "vi": "gánh nặng hằng ngày của cha mẹ"
+            },
+            {
+              "en": "share household responsibilities",
+              "vi": "chia sẻ trách nhiệm việc nhà"
+            },
+            {
+              "en": "appreciate parents' hard work",
+              "vi": "biết trân trọng sự vất vả của cha mẹ"
+            },
+            {
+              "en": "manage their time",
+              "vi": "quản lý quỹ thời gian"
+            },
+            {
+              "en": "pocket money",
+              "vi": "tiền tiêu vặt"
+            },
+            {
+              "en": "balance study hours with leisure activities",
+              "vi": "cân đối giữa giờ học và hoạt động giải trí"
+            },
+            {
+              "en": "develop early financial awareness",
+              "vi": "hình thành nhận thức tài chính từ sớm"
+            },
+            {
+              "en": "maintain a balanced daily routine",
+              "vi": "duy trì nề nếp sinh hoạt hằng ngày cân bằng"
+            },
+            {
+              "en": "young and inexperienced",
+              "vi": "còn nhỏ và thiếu kinh nghiệm sống"
+            },
+            {
+              "en": "live too independently",
+              "vi": "sống tự lập quá mức/quá sớm"
+            },
+            {
+              "en": "make unwise decisions",
+              "vi": "đưa ra những quyết định thiếu khôn ngoan"
+            },
+            {
+              "en": "lack mature judgment",
+              "vi": "thiếu khả năng phán đoán chín chắn"
+            },
+            {
+              "en": "susceptible to negative peer pressure",
+              "vi": "dễ bị lôi kéo bởi áp lực bạn bè tiêu cực"
+            },
+            {
+              "en": "take on too many responsibilities",
+              "vi": "gánh vác quá nhiều trách nhiệm"
+            },
+            {
+              "en": "too early",
+              "vi": "từ quá sớm"
+            },
+            {
+              "en": "feel stressed and overwhelmed",
+              "vi": "cảm thấy căng thẳng và quá tải"
+            },
+            {
+              "en": "excessive psychological burden",
+              "vi": "gánh nặng tâm lý quá sức"
+            },
+            {
+              "en": "suffer from silent stress",
+              "vi": "chịu đựng sự căng thẳng âm thầm"
+            },
+            {
+              "en": "manage tasks",
+              "vi": "tự xoay xở công việc"
+            },
+            {
+              "en": "without adult supervision",
+              "vi": "thiếu sự giám sát của người lớn"
+            },
+            {
+              "en": "expose them to safety risks",
+              "vi": "khiến các em đối mặt với rủi ro an toàn"
+            },
+            {
+              "en": "vulnerable to household hazards",
+              "vi": "dễ gặp hiểm họa sinh hoạt trong nhà"
+            },
+            {
+              "en": "require safety precautions",
+              "vi": "cần các biện pháp phòng ngừa an toàn"
+            },
+            {
+              "en": "without emotional warmth",
+              "vi": "thiếu đi sự ấm áp/quan tâm tình cảm"
+            },
+            {
+              "en": "the bond between parents and children",
+              "vi": "sợi dây gắn kết giữa cha mẹ và con cái"
+            },
+            {
+              "en": "do everything alone in their rooms",
+              "vi": "tự làm mọi việc một mình trong phòng riêng"
+            },
+            {
+              "en": "become emotionally distant",
+              "vi": "trở nên xa cách về mặt tình cảm"
+            },
+            {
+              "en": "mistake neglect for independence",
+              "vi": "đánh đồng sự bỏ mặc với việc rèn tự lập"
+            },
+            {
+              "en": "decide everything alone",
+              "vi": "tự quyết định mọi việc một mình"
+            },
+            {
+              "en": "become stubborn",
+              "vi": "trở nên bướng bỉnh"
+            },
+            {
+              "en": "ignore adult advice",
+              "vi": "phớt lờ lời khuyên của người lớn"
+            },
+            {
+              "en": "resist parental authority",
+              "vi": "chống đối sự quản lý của cha mẹ"
+            },
+            {
+              "en": "balance autonomy with respect",
+              "vi": "cân bằng tính tự chủ với sự tôn trọng"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "prepare simple meals",
+              "vi": "chuẩn bị bữa ăn đơn giản"
+            },
+            {
+              "en": "manage study schedules",
+              "vi": "sắp xếp thời gian học tập"
+            },
+            {
+              "en": "look after themselves",
+              "vi": "tự chăm sóc bản thân"
+            },
+            {
+              "en": "adapt easily",
+              "vi": "thích nghi dễ dàng"
+            },
+            {
+              "en": "study away from home",
+              "vi": "đi học xa nhà"
+            },
+            {
+              "en": "enter adulthood",
+              "vi": "bước vào tuổi trưởng thành"
+            },
+            {
+              "en": "self-discipline",
+              "vi": "tính kỷ luật cá nhân"
+            },
+            {
+              "en": "face the consequences themselves",
+              "vi": "tự đối mặt với hệ quả"
+            },
+            {
+              "en": "forget their homework",
+              "vi": "quên làm bài tập về nhà"
+            },
+            {
+              "en": "become more careful",
+              "vi": "trở nên cẩn thận hơn"
+            },
+            {
+              "en": "complete their duties on time",
+              "vi": "hoàn thành nhiệm vụ đúng hạn"
+            },
+            {
+              "en": "as a result",
+              "vi": "nhờ vậy / kết quả là"
+            },
+            {
+              "en": "make age-appropriate choices",
+              "vi": "đưa ra những lựa chọn phù hợp lứa tuổi"
+            },
+            {
+              "en": "overcome small challenges alone",
+              "vi": "tự mình vượt qua những thử thách nhỏ"
+            },
+            {
+              "en": "feel proud of their own abilities",
+              "vi": "cảm thấy tự hào về năng lực của mình"
+            },
+            {
+              "en": "positive self-esteem",
+              "vi": "lòng tự tin tích cực"
+            },
+            {
+              "en": "give up easily",
+              "vi": "dễ dàng bỏ cuộc/nản lòng"
+            },
+            {
+              "en": "face difficulties at school",
+              "vi": "gặp khó khăn ở trường học"
+            },
+            {
+              "en": "working parents",
+              "vi": "các bậc phụ huynh đi làm"
+            },
+            {
+              "en": "have busy jobs all day",
+              "vi": "bận rộn với công việc cả ngày"
+            },
+            {
+              "en": "do everything for their children",
+              "vi": "làm thay con mọi thứ"
+            },
+            {
+              "en": "children's cooperation",
+              "vi": "sự hợp tác/tự giác của con cái"
+            },
+            {
+              "en": "reduce family stress",
+              "vi": "giảm căng thẳng trong gia đình"
+            },
+            {
+              "en": "a more harmonious home atmosphere",
+              "vi": "bầu không khí gia đình hài hòa hơn"
+            },
+            {
+              "en": "wisely",
+              "vi": "một cách khôn ngoan, hợp lý"
+            },
+            {
+              "en": "think carefully",
+              "vi": "suy nghĩ kỹ lưỡng"
+            },
+            {
+              "en": "spend money on toys or snacks",
+              "vi": "chi tiêu tiền cho đồ chơi hay quà vặt"
+            },
+            {
+              "en": "self-management skills",
+              "vi": "các kỹ năng tự quản lý bản thân"
+            },
+            {
+              "en": "lay a valuable foundation",
+              "vi": "đặt nền tảng quý giá"
+            },
+            {
+              "en": "for future success",
+              "vi": "cho sự thành công trong tương lai"
+            },
+            {
+              "en": "without close adult guidance",
+              "vi": "không có sự định hướng sát sao của người lớn"
+            },
+            {
+              "en": "eat junk food regularly",
+              "vi": "ăn đồ ăn nhanh thường xuyên"
+            },
+            {
+              "en": "follow bad peer influences",
+              "vi": "nghe theo ảnh hưởng xấu từ bạn bè"
+            },
+            {
+              "en": "negatively affect",
+              "vi": "ảnh hưởng tiêu cực đến"
+            },
+            {
+              "en": "academic performance",
+              "vi": "kết quả học tập"
+            },
+            {
+              "en": "physical health",
+              "vi": "sức khỏe thể chất"
+            },
+            {
+              "en": "hesitate to ask for help",
+              "vi": "ngần ngại tìm sự giúp đỡ"
+            },
+            {
+              "en": "daily problems",
+              "vi": "các rắc rối sinh hoạt hằng ngày"
+            },
+            {
+              "en": "handle everything alone",
+              "vi": "tự mình giải quyết mọi chuyện"
+            },
+            {
+              "en": "prolonged pressure",
+              "vi": "áp lực kéo dài"
+            },
+            {
+              "en": "carefree childhood",
+              "vi": "tuổi thơ hồn nhiên vô tư"
+            },
+            {
+              "en": "cause emotional anxiety",
+              "vi": "gây lo âu về mặt cảm xúc"
+            },
+            {
+              "en": "use electrical appliances",
+              "vi": "sử dụng các thiết bị điện"
+            },
+            {
+              "en": "travel outside by themselves",
+              "vi": "tự đi lại bên ngoài một mình"
+            },
+            {
+              "en": "unexpected accidents",
+              "vi": "tai nạn ngoài ý muốn"
+            },
+            {
+              "en": "lack the skills",
+              "vi": "thiếu hụt kỹ năng"
+            },
+            {
+              "en": "handle emergencies",
+              "vi": "xử lý các tình huống khẩn cấp"
+            },
+            {
+              "en": "when sudden dangers occur",
+              "vi": "khi hiểm nguy bất ngờ xảy ra"
+            },
+            {
+              "en": "weaken",
+              "vi": "suy yếu / trở nên xa cách"
+            },
+            {
+              "en": "talk less each day",
+              "vi": "ít trò chuyện hơn mỗi ngày"
+            },
+            {
+              "en": "fail to notice their worries",
+              "vi": "không nhận ra kịp những nỗi lo của con"
+            },
+            {
+              "en": "over time",
+              "vi": "theo thời gian / lâu dần"
+            },
+            {
+              "en": "feel lonely",
+              "vi": "cảm thấy cô đơn"
+            },
+            {
+              "en": "within their own homes",
+              "vi": "ngay trong chính ngôi nhà của mình"
+            },
+            {
+              "en": "overestimate their own judgment",
+              "vi": "đánh giá quá cao sự phán đoán của bản thân"
+            },
+            {
+              "en": "offer guidance",
+              "vi": "đưa ra lời khuyên định hướng"
+            },
+            {
+              "en": "set family rules",
+              "vi": "đặt ra các quy tắc gia đình"
+            },
+            {
+              "en": "cause unnecessary conflicts",
+              "vi": "gây ra những mâu thuẫn không đáng có"
+            },
+            {
+              "en": "between generations at home",
+              "vi": "giữa các thế hệ trong gia đình"
+            },
+            {
+              "en": "this attitude",
+              "vi": "thái độ này"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>encouraging children to live independently</strong> has become increasingly valued in many modern families. Although this upbringing brings clear benefits, it may also create certain challenges. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, children living independently offers several important advantages.</strong> One major benefit is that <strong><em>living independently helps children develop essential practical skills for daily life from an early age.</em></strong> When tidying their rooms, preparing simple meals, and managing study schedules, children learn to look after themselves without relying on their parents. These habits help them adapt easily when studying away from home or entering adulthood later. Another positive aspect is that <strong><em>handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.</em></strong> Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves. As a result, they become more careful and complete their duties on time. A further advantage to consider is that <strong><em>independent children often become more confident and develop better problem-solving skills.</em></strong> When allowed to make age-appropriate choices and overcome small challenges alone, children feel proud of their own abilities. Such positive self-esteem prevents them from giving up easily when facing difficulties at school.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>because children are young and inexperienced, living too independently may lead them to make unwise decisions.</em></strong> Without close adult guidance, children may plan unhealthy routines, eat junk food regularly, or follow bad peer influences. These mistakes can negatively affect both their academic performance and physical health. Another negative aspect is that <strong><em>taking on too many responsibilities too early can make children feel stressed and overwhelmed.</em></strong> Some children hesitate to ask for help with schoolwork or daily problems because they believe they must handle everything alone. Prolonged pressure may take away their carefree childhood and cause emotional anxiety. A further concern is that <strong><em>leaving children to manage tasks without adult supervision may expose them to safety risks.</em></strong> For instance, young children cooking alone, using electrical appliances, or traveling outside by themselves can easily have unexpected accidents. They often lack the skills to handle emergencies when sudden dangers occur.\n\nIn conclusion, <strong>children living independently</strong> has both positive and negative aspects that should not be overlooked. While early self-reliance builds confidence and life skills, excessive independence without support can bring risks and stress. Therefore, parents should foster children's autonomy gradually while maintaining loving guidance.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc khuyến khích trẻ em sống tự lập</strong> ngày càng được coi trọng trong nhiều gia đình hiện đại. Mặc dù cách nuôi dạy này mang lại những lợi ích rõ rệt, nó cũng có thể tạo ra một số thách thức nhất định. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, việc trẻ em sống tự lập mang lại nhiều lợi thế quan trọng.</strong> Một lợi ích lớn là <strong><em>sống tự lập giúp trẻ hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày ngay từ độ tuổi còn sớm.</em></strong> Khi tự dọn phòng, chuẩn bị bữa ăn đơn giản và sắp xếp thời gian học tập, trẻ biết cách tự chăm sóc bản thân mà không ỷ lại vào cha mẹ. Những thói quen này giúp các em thích nghi dễ dàng khi đi học xa nhà hoặc bước vào tuổi trưởng thành sau này. Một khía cạnh tích cực khác là <strong><em>việc tự giải quyết công việc cá nhân khuyến khích trẻ xây dựng tinh thần trách nhiệm cao và tính kỷ luật cá nhân.</em></strong> Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân gọn gàng, chính các em phải tự đối mặt với hệ quả. Nhờ vậy, trẻ trở nên cẩn thận hơn và hoàn thành nhiệm vụ đúng hạn. Một thuận lợi nữa cần xem xét là <strong><em>những đứa trẻ sống tự lập thường trở nên tự tin hơn và phát triển tốt hơn kỹ năng giải quyết vấn đề.</em></strong> Khi được phép đưa ra những lựa chọn phù hợp lứa tuổi và tự mình vượt qua những thử thách nhỏ, trẻ cảm thấy tự hào về năng lực của mình. Lòng tự tin tích cực này giúp các em không dễ bỏ cuộc khi gặp khó khăn ở trường học.\n\n<strong>Mặt khác, vẫn có một số bất lợi cần được cân nhắc.</strong> Một hạn chế có thể xảy ra là <strong><em>vì trẻ còn nhỏ và thiếu kinh nghiệm sống, việc sống tự lập quá sớm có thể khiến các em đưa ra những quyết định thiếu khôn ngoan.</em></strong> Khi không có sự định hướng sát sao của người lớn, trẻ có thể lên lịch sinh hoạt kém lành mạnh, ăn đồ ăn nhanh thường xuyên hoặc nghe theo ảnh hưởng xấu từ bạn bè. Những sai lầm này có thể ảnh hưởng tiêu cực đến cả kết quả học tập lẫn sức khỏe thể chất của trẻ. Một điểm tiêu cực khác là <strong><em>gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải.</em></strong> Một số trẻ ngần ngại tìm sự giúp đỡ khi gặp rắc rối học tập hay sinh hoạt vì nghĩ mình phải tự giải quyết mọi chuyện một mình. Áp lực kéo dài có thể lấy đi tuổi thơ hồn nhiên vô tư và gây lo âu về mặt cảm xúc. Một mối lo ngại nữa là <strong><em>để trẻ tự xoay xở công việc mà thiếu sự giám sát của người lớn có thể khiến các em đối mặt với rủi ro an toàn.</em></strong> Chẳng hạn, trẻ nhỏ tự nấu ăn, sử dụng các thiết bị điện hoặc tự đi lại bên ngoài một mình rất dễ gặp tai nạn ngoài ý muốn. Các em thường thiếu kỹ năng xử lý các tình huống khẩn cấp khi hiểm nguy bất ngờ xảy ra.\n\nTóm lại, <strong>việc trẻ em sống tự lập</strong> có cả mặt tích cực lẫn tiêu cực không nên xem nhẹ. Mặc dù tính tự lực sớm giúp xây dựng sự tự tin và kỹ năng sống, sự độc lập quá mức mà thiếu điểm tựa có thể kéo theo rủi ro và áp lực. Vì vậy, cha mẹ nên bồi đắp tính tự chủ cho con từng bước song hành cùng sự định hướng yêu thương.",
+          "key_vocab_notes": [
+            {
+              "en": "develop essential practical skills",
+              "vi": "hình thành các kỹ năng thực tế thiết yếu"
+            },
+            {
+              "en": "look after themselves without relying on parents",
+              "vi": "tự chăm sóc bản thân không ỷ lại vào cha mẹ"
+            },
+            {
+              "en": "build a strong sense of responsibility",
+              "vi": "xây dựng tinh thần trách nhiệm cao"
+            },
+            {
+              "en": "face the consequences themselves",
+              "vi": "tự đối mặt với hệ quả hành động của mình"
+            },
+            {
+              "en": "make age-appropriate choices",
+              "vi": "đưa ra những lựa chọn phù hợp với lứa tuổi"
+            },
+            {
+              "en": "make unwise decisions",
+              "vi": "đưa ra những quyết định thiếu khôn ngoan"
+            },
+            {
+              "en": "follow bad peer influences",
+              "vi": "nghe theo những ảnh hưởng xấu từ bạn bè"
+            },
+            {
+              "en": "feel stressed and overwhelmed",
+              "vi": "cảm thấy căng thẳng và quá tải"
+            },
+            {
+              "en": "without adult supervision",
+              "vi": "không có sự giám sát của người lớn"
+            },
+            {
+              "en": "expose children to safety risks",
+              "vi": "khiến trẻ đối mặt với những rủi ro mất an toàn"
+            }
+          ]
+        }
       },
       {
         "id": 26,
@@ -47695,7 +54409,2245 @@ const ESSAY_DATA = [
         "title_vi": "Có nhiều bạn trực tuyến",
         "context": "In the age of social media, many people, especially teenagers and young adults, have a large number of online friends. They may communicate with others through platforms such as Facebook, Instagram, TikTok, or online games without meeting them in real life. Some people believe that having lots of online friends brings many benefits, while others argue that it may also create several problems.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of having lots of online friends. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Trong thời đại mạng xã hội, nhiều người, đặc biệt là thanh thiếu niên và người trẻ tuổi, có rất nhiều bạn bè trực tuyến. Họ có thể trò chuyện với người khác thông qua các nền tảng như Facebook, Instagram, TikTok hoặc các trò chơi trực tuyến mà chưa từng gặp mặt ngoài đời thực. Một số người tin rằng việc có nhiều bạn trực tuyến mang lại nhiều lợi ích, trong khi những người khác lập luận rằng điều này cũng có thể gây ra một số vấn đề.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc có nhiều bạn trực tuyến. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "building a wide network of virtual friends",
+            "vi": "xây dựng mạng lưới rộng lớn những người bạn ảo"
+          },
+          {
+            "en": "maintaining numerous social media friendships",
+            "vi": "duy trì nhiều mối quan hệ bạn bè trên mạng xã hội"
+          },
+          {
+            "en": "forming friendships on digital platforms",
+            "vi": "kết bạn trên các nền tảng kỹ thuật số"
+          },
+          {
+            "en": "having a large circle of Internet acquaintances",
+            "vi": "có vòng tròn lớn những người quen qua mạng Internet"
+          },
+          {
+            "en": "making plenty of friends in cyberspace",
+            "vi": "kết giao nhiều bạn bè trong không gian mạng"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Bạn thật hay bạn ảo: Góc nhìn về tình bạn thời mạng xã hội",
+                "summary": "Phân tích sự khác biệt giữa hàng trăm lượt tương tác trên mạng với tình bạn chân thành ngoài đời thực và cách giữ cân bằng kết nối cho giới trẻ.",
+                "url": "https://tuoitre.vn/phunuonline/ban-that-hay-ban-ao--1101550419.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Bạn ảo và nhu cầu sẻ chia tâm lý trong đời sống hiện đại",
+                "summary": "Khám phá lý do nhiều người trẻ tìm đến bạn bè trực tuyến để giải tỏa cô đơn, đồng thời cảnh báo nguy cơ lệ thuộc cảm xúc vào thế giới ảo.",
+                "url": "https://vnexpress.net/ban-ao-danh-cho-nguoi-doc-than-co-don-3830334.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Tìm được niềm vui cuộc sống nhờ kết bạn tích cực qua mạng",
+                "summary": "Câu chuyện thực tế cho thấy các cộng đồng trực tuyến lành mạnh có thể mang lại sự đồng cảm, động lực tinh thần cho những người gặp rào cản giao tiếp.",
+                "url": "https://dantri.com.vn/nhip-song-tre/co-gai-khuyet-tat-tim-duoc-niem-vui-cuoc-song-nho-ket-ban-qua-mang-20170816090843176.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "Pew Research Center",
+                "title": "Teens, Technology and Friendships in the Digital Age",
+                "summary": "Comprehensive survey showing how teenagers form meaningful connections through social media and online gaming while facing digital drama.",
+                "url": "https://www.pewresearch.org/internet/2015/08/06/teens-technology-and-friendships/"
+              },
+              {
+                "source": "Pew Research Center",
+                "title": "Teens' Friendships and Online Groups",
+                "summary": "Examines how online friend networks help young people find like-minded peers, emotional support, and diverse cultural perspectives.",
+                "url": "https://www.pewresearch.org/internet/2018/11/28/teens-friendships-and-online-groups/"
+              },
+              {
+                "source": "UNICEF",
+                "title": "Is Social Media Bad for Teens' Mental Health and Real-Life Bonds?",
+                "summary": "Discusses online safety, privacy risks, superficial validation, and healthy boundaries when young people interact with large online networks.",
+                "url": "https://www.unicef.org/stories/social-media-bad-teens-mental-health"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Có nhiều bạn trực tuyến (Having lots of online friends)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Có nhiều bạn trực tuyến\" (Having lots of online friends), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "virtual",
+                "ipa": "/ˈvɜːtʃuəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ảo, diễn ra trên không gian mạng",
+                "example_en": "Many teenagers spend hours chatting with virtual friends.",
+                "example_vi": "Nhiều thanh thiếu niên dành hàng giờ trò chuyện với bạn bè ảo.",
+                "family": "virtually (adv)"
+              },
+              {
+                "word": "like-minded",
+                "ipa": "/ˌlaɪk ˈmaɪndɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "cùng chung sở thích, đồng điệu quan điểm",
+                "example_en": "Online forums help users find like-minded people easily.",
+                "example_vi": "Các diễn đàn trực tuyến giúp người dùng dễ dàng tìm thấy người cùng sở thích.",
+                "family": "open-minded (adj)"
+              },
+              {
+                "word": "superficial",
+                "ipa": "/ˌsuːpəˈfɪʃl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hời hợt, nông cạn, bề nổi",
+                "example_en": "Many online friendships remain superficial and short-lived.",
+                "example_vi": "Nhiều tình bạn trên mạng chỉ dừng ở mức hời hợt và chóng vánh.",
+                "family": "superficially (adv), superficiality (n)"
+              },
+              {
+                "word": "companionship",
+                "ipa": "/kəmˈpænjənʃɪp/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự bầu bạn, đồng hành sẻ chia",
+                "example_en": "Online communities can offer comforting companionship to shy youths.",
+                "example_vi": "Cộng đồng trực tuyến có thể mang lại sự bầu bạn ấm áp cho người trẻ rụt rè.",
+                "family": "companion (n), company (n)"
+              },
+              {
+                "word": "deception",
+                "ipa": "/dɪˈsepʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự lừa dối, giả mạo",
+                "example_en": "Users must stay alert to online identity deception.",
+                "example_vi": "Người dùng phải cảnh giác trước sự giả mạo danh tính trên mạng.",
+                "family": "deceive (v), deceptive (adj)"
+              },
+              {
+                "word": "cyberbullying",
+                "ipa": "/ˈsaɪbəbʊliɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "bắt nạt qua mạng",
+                "example_en": "Adding strangers online increases the risk of cyberbullying.",
+                "example_vi": "Kết bạn với người lạ trên mạng làm tăng nguy cơ bị bắt nạt qua mạng.",
+                "family": "bully (n/v)"
+              },
+              {
+                "word": "introverted",
+                "ipa": "/ˈɪntrəvɜːtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hướng nội, rụt rè trước đám đông",
+                "example_en": "Introverted people often express themselves more freely online.",
+                "example_vi": "Người hướng nội thường bày tỏ bản thân thoải mái hơn trên mạng.",
+                "family": "introvert (n), extroverted (adj)"
+              },
+              {
+                "word": "perspective",
+                "ipa": "/pəˈspektɪv/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "góc nhìn, quan điểm sống",
+                "example_en": "International online friends broaden young people's cultural perspectives.",
+                "example_vi": "Bạn bè quốc tế trên mạng mở rộng góc nhìn văn hóa của giới trẻ.",
+                "family": "perspectives (pl)"
+              },
+              {
+                "word": "genuine",
+                "ipa": "/ˈdʒenjuɪn/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chân thành, thật sự",
+                "example_en": "Hundreds of likes cannot replace one genuine close friend.",
+                "example_vi": "Hàng trăm lượt thích không thể thay thế một người bạn thân chân thành.",
+                "family": "genuinely (adv)"
+              },
+              {
+                "word": "privacy",
+                "ipa": "/ˈprɪvəsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quyền riêng tư cá nhân",
+                "example_en": "Sharing personal details with online strangers threatens your privacy.",
+                "example_vi": "Chia sẻ thông tin cá nhân với người lạ trên mạng đe dọa quyền riêng tư của bạn.",
+                "family": "private (adj), privately (adv)"
+              },
+              {
+                "word": "scam",
+                "ipa": "/skæm/",
+                "pos": "noun/v",
+                "level": "B2",
+                "vi": "vụ lừa đảo chiếm đoạt tài sản",
+                "example_en": "Fake online friends sometimes trick victims into financial scams.",
+                "example_vi": "Những người bạn ảo giả mạo đôi khi dụ nạn nhân vào các vụ lừa đảo tài chính.",
+                "family": "scammer (n)"
+              },
+              {
+                "word": "isolation",
+                "ipa": "/ˌaɪsəˈleɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cô lập khỏi đời sống xã hội thực",
+                "example_en": "Living only in online chats can deepen real-world social isolation.",
+                "example_vi": "Chỉ đắm chìm trong trò chuyện mạng có thể làm trầm trọng sự cô lập ngoài đời thực.",
+                "family": "isolate (v), isolated (adj)"
+              },
+              {
+                "word": "border",
+                "ipa": "/ˈbɔːdə(r)/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "biên giới, ranh giới quốc gia",
+                "example_en": "Social media allows friendships to cross geographical borders.",
+                "example_vi": "Mạng xã hội cho phép tình bạn vượt qua biên giới địa lý.",
+                "family": "borderless (adj)"
+              },
+              {
+                "word": "anonymity",
+                "ipa": "/ˌænəˈnɪməti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính ẩn danh trên mạng",
+                "example_en": "Online anonymity makes it easy for dishonest users to hide their motives.",
+                "example_vi": "Tính ẩn danh trên mạng giúp kẻ xấu dễ dàng che giấu mục đích thật.",
+                "family": "anonymous (adj), anonymously (adv)"
+              },
+              {
+                "word": "empathy",
+                "ipa": "/ˈempəθi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thấu cảm, đồng cảm",
+                "example_en": "Supportive online groups offer empathy during stressful exam periods.",
+                "example_vi": "Các hội nhóm trực tuyến tích cực mang lại sự đồng cảm trong mùa thi căng thẳng.",
+                "family": "empathetic (adj), empathize (v)"
+              },
+              {
+                "word": "acquaintance",
+                "ipa": "/əˈkweɪntəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "người quen xã giao (chưa phải bạn thân)",
+                "example_en": "Most people on a huge friend list are casual acquaintances.",
+                "example_vi": "Hầu hết mọi người trong danh sách bạn bè khổng lồ chỉ là người quen xã giao.",
+                "family": "acquainted (adj)"
+              },
+              {
+                "word": "neglect",
+                "ipa": "/nɪˈɡlekt/",
+                "pos": "verb/n",
+                "level": "B2",
+                "vi": "bỏ bê, sao nhãng",
+                "example_en": "Teenagers addicted to messaging may neglect family relationships.",
+                "example_vi": "Thanh thiếu niên nghiện nhắn tin có thể sao nhãng các mối quan hệ gia đình.",
+                "family": "neglected (adj)"
+              },
+              {
+                "word": "diverse",
+                "ipa": "/daɪˈvɜːs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "đa dạng (về văn hóa, hoàn cảnh)",
+                "example_en": "Social platforms connect people from diverse cultural backgrounds.",
+                "example_vi": "Các nền tảng xã hội kết nối mọi người từ những nền văn hóa đa dạng.",
+                "family": "diversity (n), diversify (v)"
+              },
+              {
+                "word": "trustworthy",
+                "ipa": "/ˈtrʌstwɜːði/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "đáng tin cậy",
+                "example_en": "It is hard to know whether an online stranger is truly trustworthy.",
+                "example_vi": "Rất khó biết liệu một người lạ trên mạng có thực sự đáng tin cậy hay không.",
+                "family": "trust (n/v)"
+              },
+              {
+                "word": "addictive",
+                "ipa": "/əˈdɪktɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gây nghiện, dễ cuốn hút quá đà",
+                "example_en": "Constant online chatting can become addictive for young people.",
+                "example_vi": "Trò chuyện trực tuyến liên tục có thể gây nghiện đối với người trẻ.",
+                "family": "addict (n), addiction (n)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: DỄ DÀNG KẾT NỐI VỚI NGƯỜI CÙNG SỞ THÍCH (CONNECTING WITH LIKE-MINDED PEOPLE)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "have many online friends",
+                    "vi": "có nhiều bạn trực tuyến",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                    "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
+                  },
+                  {
+                    "en": "connect easily with others",
+                    "vi": "dễ dàng kết nối với những người khác",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                    "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
+                  },
+                  {
+                    "en": "share similar interests",
+                    "vi": "có chung những sở thích tương đồng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                    "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
+                  },
+                  {
+                    "en": "build hobby-based communities",
+                    "vi": "xây dựng cộng đồng theo sở thích",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                    "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
+                  },
+                  {
+                    "en": "share common passions",
+                    "vi": "chia sẻ những niềm đam mê chung",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                    "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: MỞ RỘNG HIỂU BIẾT VĂN HÓA VÀ NGOẠI NGỮ (CULTURAL EXCHANGE AND LANGUAGE PRACTICE)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "a wide network of online friends",
+                    "vi": "mạng lưới bạn bè trực tuyến rộng khắp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                    "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
+                  },
+                  {
+                    "en": "broaden cultural understanding",
+                    "vi": "mở rộng tầm hiểu biết văn hóa",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                    "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
+                  },
+                  {
+                    "en": "improve foreign language skills",
+                    "vi": "cải thiện kỹ năng ngoại ngữ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                    "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
+                  },
+                  {
+                    "en": "diverse cultural backgrounds",
+                    "vi": "nền tảng văn hóa đa dạng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                    "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
+                  },
+                  {
+                    "en": "bridge geographical distances",
+                    "vi": "xóa nhòa khoảng cách địa lý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                    "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: GIÚP NGƯỜI RỤT RÈ TỰ TIN BÀY TỎ BẢN THÂN (HELPING SHY PEOPLE EXPRESS THEMSELVES)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "make friends online",
+                    "vi": "kết bạn qua mạng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                    "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
+                  },
+                  {
+                    "en": "shy or introverted people",
+                    "vi": "những người rụt rè hoặc hướng nội",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                    "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
+                  },
+                  {
+                    "en": "express their thoughts",
+                    "vi": "bày tỏ suy nghĩ của mình",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                    "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
+                  },
+                  {
+                    "en": "overcome social shyness",
+                    "vi": "vượt qua sự nhút nhát xã hội",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                    "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
+                  },
+                  {
+                    "en": "find emotional companionship",
+                    "vi": "tìm thấy sự bầu bạn về tinh thần",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                    "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: NHANH CHÓNG NHẬN ĐƯỢC LỜI KHUYÊN VÀ THÔNG TIN HỮU ÍCH (QUICK INFORMATION AND PRACTICAL ADVICE)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "a large circle of online friends",
+                    "vi": "vòng tròn bạn bè trực tuyến rộng lớn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                    "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
+                  },
+                  {
+                    "en": "obtain useful information",
+                    "vi": "thu nhận thông tin hữu ích",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                    "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
+                  },
+                  {
+                    "en": "practical advice",
+                    "vi": "lời khuyên thực tế",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                    "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
+                  },
+                  {
+                    "en": "exchange academic resources",
+                    "vi": "trao đổi tài liệu học thuật",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                    "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
+                  },
+                  {
+                    "en": "crowdsource practical solutions",
+                    "vi": "huy động giải pháp thực tế từ cộng đồng bạn bè",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                    "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: DUY TRÌ LIÊN LẠC THUẬN TIỆN BẤT KỂ THỜI GIAN (CONVENIENT INSTANT COMMUNICATION)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các mối quan hệ tình bạn trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                    "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
+                  },
+                  {
+                    "en": "convenient to maintain",
+                    "vi": "thuận tiện để duy trì",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                    "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
+                  },
+                  {
+                    "en": "instant communication",
+                    "vi": "sự liên lạc tức thì",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                    "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
+                  },
+                  {
+                    "en": "keep in touch effortlessly",
+                    "vi": "giữ liên lạc một cách dễ dàng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                    "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
+                  },
+                  {
+                    "en": "overcome busy daily schedules",
+                    "vi": "vượt qua lịch trình hằng ngày bận rộn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                    "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: TÌNH BẠN ẢO THƯỜNG HỜI HỢT VÀ THIẾU SỰ GẮN BÓ SÂU SẮC (SUPERFICIAL AND FRAGILE RELATIONSHIPS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các tình bạn trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                    "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
+                  },
+                  {
+                    "en": "tend to be superficial",
+                    "vi": "thường mang tính hời hợt/bề nổi",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                    "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
+                  },
+                  {
+                    "en": "lack genuine emotional depth",
+                    "vi": "thiếu chiều sâu tình cảm chân thành",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                    "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
+                  },
+                  {
+                    "en": "fragile virtual connections",
+                    "vi": "những mối liên kết ảo mong manh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                    "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
+                  },
+                  {
+                    "en": "casual online acquaintances",
+                    "vi": "những người quen xã giao trên mạng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                    "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: NGUY CƠ BỊ LỪA ĐẢO VÀ GIẢ MẠO DANH TÍNH (RISKS OF DECEPTION AND ONLINE SCAMS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "add many strangers online",
+                    "vi": "kết bạn với nhiều người lạ trên mạng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
+                    "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
+                  },
+                  {
+                    "en": "risks of deception, scams, and privacy invasion",
+                    "vi": "nguy cơ bị lừa dối, lừa đảo và xâm phạm quyền riêng tư",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
+                    "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
+                  },
+                  {
+                    "en": "carry serious risks",
+                    "vi": "tiềm ẩn những rủi ro nghiêm trọng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
+                    "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
+                  },
+                  {
+                    "en": "online identity theft",
+                    "vi": "đánh cắp danh tính trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
+                    "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
+                  },
+                  {
+                    "en": "hide behind online anonymity",
+                    "vi": "ẩn mình sau sự ẩn danh trên mạng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
+                    "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: SAO NHÃNG GIA ĐÌNH VÀ CÁC MỐI QUAN HỆ ĐỜI THỰC (NEGLECTING FAMILY AND REAL-LIFE FRIENDS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "spend excessive time",
+                    "vi": "dành quá nhiều thời gian",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                    "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
+                  },
+                  {
+                    "en": "online friends",
+                    "vi": "bạn bè trên mạng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                    "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
+                  },
+                  {
+                    "en": "neglect family and real-life relationships",
+                    "vi": "bỏ bê gia đình và các mối quan hệ đời thực",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                    "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
+                  },
+                  {
+                    "en": "real-life social isolation",
+                    "vi": "sự cô lập xã hội ngoài đời thực",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                    "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
+                  },
+                  {
+                    "en": "prioritize virtual chats over family",
+                    "vi": "ưu tiên trò chuyện ảo hơn gia đình",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                    "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: TỐN THỜI GIAN VÀ GÂY XAO NHÃNG VIỆC HỌC TẬP (TIME-CONSUMING AND ACADEMIC DISTRACTION)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "constantly reply to messages",
+                    "vi": "liên tục trả lời tin nhắn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
+                    "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
+                  },
+                  {
+                    "en": "hundreds of online friends",
+                    "vi": "hàng trăm người bạn trên mạng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
+                    "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
+                  },
+                  {
+                    "en": "waste valuable study and work time",
+                    "vi": "làm lãng phí thời gian học tập và làm việc quý báu",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
+                    "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
+                  },
+                  {
+                    "en": "addictive social media scrolling",
+                    "vi": "thói quen lướt mạng xã hội gây nghiện",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
+                    "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
+                  },
+                  {
+                    "en": "sleep deprivation among teens",
+                    "vi": "tình trạng thiếu ngủ ở thanh thiếu niên",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
+                    "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: ĐỐI MẶT VỚI BẮT NẠT MẠNG VÀ ÁP LỰC ĐỒNG TRANG LỨA ẢO (CYBERBULLYING AND ONLINE PEER PRESSURE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "an overly large network of online contacts",
+                    "vi": "mạng lưới bạn bè trên mạng quá rộng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                    "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
+                  },
+                  {
+                    "en": "increase exposure to negative comments",
+                    "vi": "làm tăng nguy cơ tiếp xúc bình luận tiêu cực",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                    "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "sự so sánh xã hội",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                    "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
+                  },
+                  {
+                    "en": "fall victim to cyberbullying",
+                    "vi": "trở thành nạn nhân của bắt nạt qua mạng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                    "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
+                  },
+                  {
+                    "en": "seek superficial online validation",
+                    "vi": "tìm kiếm sự công nhận bề nổi trên mạng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                    "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, having lots of online friends has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, có nhiều bạn trực tuyến ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of having lots of online friends.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của có nhiều bạn trực tuyến."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, having lots of online friends offers several notable advantages.",
+                    "example_vi": "Một mặt, có nhiều bạn trực tuyến mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many young people experience having lots of online friends in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người trẻ trải nghiệm có nhiều bạn trực tuyến trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of having lots of online friends is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của có nhiều bạn trực tuyến là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: DỄ DÀNG KẾT NỐI VỚI NGƯỜI CÙNG SỞ THÍCH (CONNECTING WITH LIKE-MINDED PEOPLE)",
+                "collocations": [
+                  {
+                    "en": "have many online friends",
+                    "vi": "có nhiều bạn trực tuyến"
+                  },
+                  {
+                    "en": "connect easily with others",
+                    "vi": "dễ dàng kết nối với những người khác"
+                  },
+                  {
+                    "en": "share similar interests",
+                    "vi": "có chung những sở thích tương đồng"
+                  },
+                  {
+                    "en": "online groups",
+                    "vi": "các hội nhóm trực tuyến"
+                  },
+                  {
+                    "en": "find like-minded peers",
+                    "vi": "tìm được những người bạn đồng điệu"
+                  },
+                  {
+                    "en": "to chat with",
+                    "vi": "để trò chuyện cùng"
+                  },
+                  {
+                    "en": "bring emotional joy",
+                    "vi": "mang lại niềm vui tinh thần"
+                  },
+                  {
+                    "en": "exchange useful knowledge",
+                    "vi": "trao đổi nhiều kiến thức bổ ích"
+                  },
+                  {
+                    "en": "help them",
+                    "vi": "giúp họ"
+                  }
+                ],
+                "point_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê.",
+                "point_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                "evidence_vi": "Thông qua các hội nhóm về âm nhạc, đọc sách, thể thao hay học thuật trên mạng xã hội, họ luôn tìm được người trò chuyện tâm đầu ý hợp. Điều này mang lại niềm vui tinh thần và giúp họ học hỏi thêm nhiều kiến thức bổ ích.",
+                "evidence_en": "Through online groups for music, reading, sports, or study, they can always find like-minded peers to chat with. This brings emotional joy and helps them exchange useful knowledge.",
+                "point_collocations": [
+                  {
+                    "en": "have many online friends",
+                    "vi": "có nhiều bạn trực tuyến"
+                  },
+                  {
+                    "en": "connect easily with others",
+                    "vi": "dễ dàng kết nối với những người khác"
+                  },
+                  {
+                    "en": "share similar interests",
+                    "vi": "có chung những sở thích tương đồng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "online groups",
+                      "vi": "các hội nhóm trực tuyến"
+                    },
+                    {
+                      "en": "find like-minded peers",
+                      "vi": "tìm được những người bạn đồng điệu"
+                    },
+                    {
+                      "en": "to chat with",
+                      "vi": "để trò chuyện cùng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bring emotional joy",
+                      "vi": "mang lại niềm vui tinh thần"
+                    },
+                    {
+                      "en": "exchange useful knowledge",
+                      "vi": "trao đổi nhiều kiến thức bổ ích"
+                    },
+                    {
+                      "en": "help them",
+                      "vi": "giúp họ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: MỞ RỘNG HIỂU BIẾT VĂN HÓA VÀ NGOẠI NGỮ (CULTURAL EXCHANGE AND LANGUAGE PRACTICE)",
+                "collocations": [
+                  {
+                    "en": "a wide network of online friends",
+                    "vi": "mạng lưới bạn bè trực tuyến rộng khắp"
+                  },
+                  {
+                    "en": "broaden cultural understanding",
+                    "vi": "mở rộng tầm hiểu biết văn hóa"
+                  },
+                  {
+                    "en": "improve foreign language skills",
+                    "vi": "cải thiện kỹ năng ngoại ngữ"
+                  },
+                  {
+                    "en": "make friends with peers",
+                    "vi": "kết bạn với bạn bè đồng trang lứa"
+                  },
+                  {
+                    "en": "different regions and countries",
+                    "vi": "nhiều vùng miền và quốc gia khác nhau"
+                  },
+                  {
+                    "en": "without geographical limitations",
+                    "vi": "không bị giới hạn về khoảng cách địa lý"
+                  },
+                  {
+                    "en": "cross-border conversations",
+                    "vi": "những cuộc trò chuyện xuyên biên giới"
+                  },
+                  {
+                    "en": "become more open-minded",
+                    "vi": "trở nên cởi mở hơn"
+                  },
+                  {
+                    "en": "practice foreign languages naturally",
+                    "vi": "rèn luyện ngoại ngữ một cách tự nhiên"
+                  }
+                ],
+                "point_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ.",
+                "point_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                "evidence_vi": "Thanh thiếu niên có thể kết bạn với người trẻ ở nhiều vùng miền và quốc gia khác nhau mà không bị giới hạn bởi khoảng cách địa lý. Những cuộc trò chuyện xuyên biên giới giúp họ cởi mở hơn và giao tiếp ngoại ngữ tự nhiên hơn.",
+                "evidence_en": "Teenagers can make friends with peers from different regions and countries without geographical limitations. Cross-border conversations help them become more open-minded and practice foreign languages naturally.",
+                "point_collocations": [
+                  {
+                    "en": "a wide network of online friends",
+                    "vi": "mạng lưới bạn bè trực tuyến rộng khắp"
+                  },
+                  {
+                    "en": "broaden cultural understanding",
+                    "vi": "mở rộng tầm hiểu biết văn hóa"
+                  },
+                  {
+                    "en": "improve foreign language skills",
+                    "vi": "cải thiện kỹ năng ngoại ngữ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "make friends with peers",
+                      "vi": "kết bạn với bạn bè đồng trang lứa"
+                    },
+                    {
+                      "en": "different regions and countries",
+                      "vi": "nhiều vùng miền và quốc gia khác nhau"
+                    },
+                    {
+                      "en": "without geographical limitations",
+                      "vi": "không bị giới hạn về khoảng cách địa lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cross-border conversations",
+                      "vi": "những cuộc trò chuyện xuyên biên giới"
+                    },
+                    {
+                      "en": "become more open-minded",
+                      "vi": "trở nên cởi mở hơn"
+                    },
+                    {
+                      "en": "practice foreign languages naturally",
+                      "vi": "rèn luyện ngoại ngữ một cách tự nhiên"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: GIÚP NGƯỜI RỤT RÈ TỰ TIN BÀY TỎ BẢN THÂN (HELPING SHY PEOPLE EXPRESS THEMSELVES)",
+                "collocations": [
+                  {
+                    "en": "make friends online",
+                    "vi": "kết bạn qua mạng"
+                  },
+                  {
+                    "en": "shy or introverted people",
+                    "vi": "những người rụt rè hoặc hướng nội"
+                  },
+                  {
+                    "en": "express their thoughts",
+                    "vi": "bày tỏ suy nghĩ của mình"
+                  },
+                  {
+                    "en": "feel nervous in face-to-face talks",
+                    "vi": "cảm thấy hồi hộp khi trò chuyện trực tiếp"
+                  },
+                  {
+                    "en": "communicate openly",
+                    "vi": "giao tiếp cởi mở"
+                  },
+                  {
+                    "en": "through text messages",
+                    "vi": "qua tin nhắn văn bản"
+                  },
+                  {
+                    "en": "empathy from online friends",
+                    "vi": "sự đồng cảm từ bạn bè trực tuyến"
+                  },
+                  {
+                    "en": "feel less lonely",
+                    "vi": "cảm thấy bớt cô đơn hơn"
+                  },
+                  {
+                    "en": "receive timely emotional encouragement",
+                    "vi": "nhận được sự khích lệ tinh thần kịp thời"
+                  }
+                ],
+                "point_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ.",
+                "point_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                "evidence_vi": "Nhiều bạn trẻ thường lúng túng khi bắt chuyện trực tiếp nhưng lại chia sẻ rất cởi mở qua tin nhắn trực tuyến. Nhờ sự đồng cảm từ bạn bè trên mạng, họ vơi bớt cảm giác cô đơn và nhận được sự khích lệ tinh thần kịp thời.",
+                "evidence_en": "Many young individuals feel nervous in face-to-face talks, yet they communicate openly through text messages. Thanks to empathy from online friends, they feel less lonely and receive timely emotional encouragement.",
+                "point_collocations": [
+                  {
+                    "en": "make friends online",
+                    "vi": "kết bạn qua mạng"
+                  },
+                  {
+                    "en": "shy or introverted people",
+                    "vi": "những người rụt rè hoặc hướng nội"
+                  },
+                  {
+                    "en": "express their thoughts",
+                    "vi": "bày tỏ suy nghĩ của mình"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel nervous in face-to-face talks",
+                      "vi": "cảm thấy hồi hộp khi trò chuyện trực tiếp"
+                    },
+                    {
+                      "en": "communicate openly",
+                      "vi": "giao tiếp cởi mở"
+                    },
+                    {
+                      "en": "through text messages",
+                      "vi": "qua tin nhắn văn bản"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "empathy from online friends",
+                      "vi": "sự đồng cảm từ bạn bè trực tuyến"
+                    },
+                    {
+                      "en": "feel less lonely",
+                      "vi": "cảm thấy bớt cô đơn hơn"
+                    },
+                    {
+                      "en": "receive timely emotional encouragement",
+                      "vi": "nhận được sự khích lệ tinh thần kịp thời"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: NHANH CHÓNG NHẬN ĐƯỢC LỜI KHUYÊN VÀ THÔNG TIN HỮU ÍCH (QUICK INFORMATION AND PRACTICAL ADVICE)",
+                "collocations": [
+                  {
+                    "en": "a large circle of online friends",
+                    "vi": "vòng tròn bạn bè trực tuyến rộng lớn"
+                  },
+                  {
+                    "en": "obtain useful information",
+                    "vi": "thu nhận thông tin hữu ích"
+                  },
+                  {
+                    "en": "practical advice",
+                    "vi": "lời khuyên thực tế"
+                  },
+                  {
+                    "en": "career advice",
+                    "vi": "lời khuyên định hướng nghề nghiệp"
+                  },
+                  {
+                    "en": "a single social media post",
+                    "vi": "một bài đăng trên mạng xã hội"
+                  },
+                  {
+                    "en": "attract dozens of helpful suggestions",
+                    "vi": "nhận được hàng chục gợi ý hữu ích"
+                  },
+                  {
+                    "en": "collective support",
+                    "vi": "sự hỗ trợ tập thể"
+                  },
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "search alone",
+                    "vi": "tự tìm kiếm một mình"
+                  }
+                ],
+                "point_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế.",
+                "point_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                "evidence_vi": "Khi cần tìm tài liệu học tập, định hướng nghề nghiệp hay kinh nghiệm du lịch, một bài đăng trên mạng xã hội có thể nhận được hàng chục gợi ý hữu ích. Sự hỗ trợ tập thể này giúp tiết kiệm rất nhiều thời gian tự tìm kiếm.",
+                "evidence_en": "When looking for study materials, career advice, or travel tips, a single social media post can attract dozens of helpful suggestions. Such collective support saves considerable time compared to searching alone.",
+                "point_collocations": [
+                  {
+                    "en": "a large circle of online friends",
+                    "vi": "vòng tròn bạn bè trực tuyến rộng lớn"
+                  },
+                  {
+                    "en": "obtain useful information",
+                    "vi": "thu nhận thông tin hữu ích"
+                  },
+                  {
+                    "en": "practical advice",
+                    "vi": "lời khuyên thực tế"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "career advice",
+                      "vi": "lời khuyên định hướng nghề nghiệp"
+                    },
+                    {
+                      "en": "a single social media post",
+                      "vi": "một bài đăng trên mạng xã hội"
+                    },
+                    {
+                      "en": "attract dozens of helpful suggestions",
+                      "vi": "nhận được hàng chục gợi ý hữu ích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collective support",
+                      "vi": "sự hỗ trợ tập thể"
+                    },
+                    {
+                      "en": "save considerable time",
+                      "vi": "tiết kiệm đáng kể thời gian"
+                    },
+                    {
+                      "en": "search alone",
+                      "vi": "tự tìm kiếm một mình"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: DUY TRÌ LIÊN LẠC THUẬN TIỆN BẤT KỂ THỜI GIAN (CONVENIENT INSTANT COMMUNICATION)",
+                "collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các mối quan hệ tình bạn trực tuyến"
+                  },
+                  {
+                    "en": "convenient to maintain",
+                    "vi": "thuận tiện để duy trì"
+                  },
+                  {
+                    "en": "instant communication",
+                    "vi": "sự liên lạc tức thì"
+                  },
+                  {
+                    "en": "send quick messages",
+                    "vi": "gửi những tin nhắn ngắn nhanh chóng"
+                  },
+                  {
+                    "en": "react to posts",
+                    "vi": "tương tác dưới các bài đăng"
+                  },
+                  {
+                    "en": "stay updated on one another's lives",
+                    "vi": "cập nhật cuộc sống của nhau"
+                  },
+                  {
+                    "en": "maintain active social connections",
+                    "vi": "duy trì kết nối xã hội sôi động"
+                  },
+                  {
+                    "en": "spend money on frequent outings",
+                    "vi": "tốn tiền cho những buổi đi chơi thường xuyên"
+                  },
+                  {
+                    "en": "busy school or work weeks",
+                    "vi": "những tuần học tập hay làm việc bận rộn"
+                  }
+                ],
+                "point_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi.",
+                "point_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                "evidence_vi": "Dù bận học tập hay làm việc, người trẻ vẫn có thể nhắn tin ngắn hoặc tương tác dưới bài viết để cập nhật cuộc sống của nhau. Nhờ vậy, họ giữ được sự kết nối xã hội sôi động mà không tốn chi phí gặp gỡ thường xuyên.",
+                "evidence_en": "Even during busy school or work weeks, young adults can send quick messages or react to posts to stay updated on one another's lives. Thus, they maintain active social connections without spending money on frequent outings.",
+                "point_collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các mối quan hệ tình bạn trực tuyến"
+                  },
+                  {
+                    "en": "convenient to maintain",
+                    "vi": "thuận tiện để duy trì"
+                  },
+                  {
+                    "en": "instant communication",
+                    "vi": "sự liên lạc tức thì"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "send quick messages",
+                      "vi": "gửi những tin nhắn ngắn nhanh chóng"
+                    },
+                    {
+                      "en": "react to posts",
+                      "vi": "tương tác dưới các bài đăng"
+                    },
+                    {
+                      "en": "stay updated on one another's lives",
+                      "vi": "cập nhật cuộc sống của nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "maintain active social connections",
+                      "vi": "duy trì kết nối xã hội sôi động"
+                    },
+                    {
+                      "en": "spend money on frequent outings",
+                      "vi": "tốn tiền cho những buổi đi chơi thường xuyên"
+                    },
+                    {
+                      "en": "busy school or work weeks",
+                      "vi": "những tuần học tập hay làm việc bận rộn"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: TÌNH BẠN ẢO THƯỜNG HỜI HỢT VÀ THIẾU SỰ GẮN BÓ SÂU SẮC (SUPERFICIAL AND FRAGILE RELATIONSHIPS)",
+                "collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các tình bạn trực tuyến"
+                  },
+                  {
+                    "en": "tend to be superficial",
+                    "vi": "thường mang tính hời hợt/bề nổi"
+                  },
+                  {
+                    "en": "lack genuine emotional depth",
+                    "vi": "thiếu chiều sâu tình cảm chân thành"
+                  },
+                  {
+                    "en": "thousands of friends on Facebook",
+                    "vi": "hàng nghìn bạn bè trên Facebook"
+                  },
+                  {
+                    "en": "casual likes and brief comments",
+                    "vi": "những lượt thích xã giao và bình luận ngắn"
+                  },
+                  {
+                    "en": "exchange",
+                    "vi": "trao đổi qua lại"
+                  },
+                  {
+                    "en": "face real-life hardships",
+                    "vi": "đối mặt với khó khăn ngoài đời thực"
+                  },
+                  {
+                    "en": "virtual friends",
+                    "vi": "những người bạn ảo"
+                  },
+                  {
+                    "en": "offer practical support",
+                    "vi": "đưa ra sự giúp đỡ thiết thực"
+                  }
+                ],
+                "point_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành.",
+                "point_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                "evidence_vi": "Một người có thể sở hữu hàng nghìn bạn bè trên Facebook nhưng chỉ dừng ở những lượt nhấn thích xã giao. Khi họ gặp biến cố hay khó khăn thực sự ngoài đời, rất ít người bạn ảo có thể có mặt để giúp đỡ thiết thực.",
+                "evidence_en": "A person may have thousands of friends on Facebook yet only exchange casual likes and brief comments. When they face real-life hardships, very few virtual friends can show up to offer practical support.",
+                "point_collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các tình bạn trực tuyến"
+                  },
+                  {
+                    "en": "tend to be superficial",
+                    "vi": "thường mang tính hời hợt/bề nổi"
+                  },
+                  {
+                    "en": "lack genuine emotional depth",
+                    "vi": "thiếu chiều sâu tình cảm chân thành"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "thousands of friends on Facebook",
+                      "vi": "hàng nghìn bạn bè trên Facebook"
+                    },
+                    {
+                      "en": "casual likes and brief comments",
+                      "vi": "những lượt thích xã giao và bình luận ngắn"
+                    },
+                    {
+                      "en": "exchange",
+                      "vi": "trao đổi qua lại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "face real-life hardships",
+                      "vi": "đối mặt với khó khăn ngoài đời thực"
+                    },
+                    {
+                      "en": "virtual friends",
+                      "vi": "những người bạn ảo"
+                    },
+                    {
+                      "en": "offer practical support",
+                      "vi": "đưa ra sự giúp đỡ thiết thực"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: NGUY CƠ BỊ LỪA ĐẢO VÀ GIẢ MẠO DANH TÍNH (RISKS OF DECEPTION AND ONLINE SCAMS)",
+                "collocations": [
+                  {
+                    "en": "add many strangers online",
+                    "vi": "kết bạn với nhiều người lạ trên mạng"
+                  },
+                  {
+                    "en": "risks of deception, scams, and privacy invasion",
+                    "vi": "nguy cơ bị lừa dối, lừa đảo và xâm phạm quyền riêng tư"
+                  },
+                  {
+                    "en": "carry serious risks",
+                    "vi": "tiềm ẩn những rủi ro nghiêm trọng"
+                  },
+                  {
+                    "en": "dishonest individuals",
+                    "vi": "những kẻ không trung thực / kẻ xấu"
+                  },
+                  {
+                    "en": "create fake profiles",
+                    "vi": "tạo hồ sơ cá nhân giả mạo"
+                  },
+                  {
+                    "en": "win the trust of naive teenagers",
+                    "vi": "lấy lòng tin của thanh thiếu niên nhẹ dạ"
+                  },
+                  {
+                    "en": "stolen personal data",
+                    "vi": "dữ liệu cá nhân bị đánh cắp"
+                  },
+                  {
+                    "en": "financial fraud",
+                    "vi": "lừa đảo tài chính"
+                  },
+                  {
+                    "en": "suffer from",
+                    "vi": "gánh chịu hậu quả từ"
+                  }
+                ],
+                "point_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân.",
+                "point_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
+                "evidence_vi": "Trên không gian mạng, kẻ xấu dễ dàng tạo hồ sơ giả mạo để lấy lòng tin của những thanh thiếu niên nhẹ dạ. Hệ quả là nhiều người dùng đã bị đánh cắp dữ liệu riêng tư, tống tiền hoặc lừa đảo tài chính.",
+                "evidence_en": "In cyberspace, dishonest individuals can easily create fake profiles to win the trust of naive teenagers. Consequently, many users have suffered from stolen personal data, blackmail, or financial fraud.",
+                "point_collocations": [
+                  {
+                    "en": "add many strangers online",
+                    "vi": "kết bạn với nhiều người lạ trên mạng"
+                  },
+                  {
+                    "en": "risks of deception, scams, and privacy invasion",
+                    "vi": "nguy cơ bị lừa dối, lừa đảo và xâm phạm quyền riêng tư"
+                  },
+                  {
+                    "en": "carry serious risks",
+                    "vi": "tiềm ẩn những rủi ro nghiêm trọng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dishonest individuals",
+                      "vi": "những kẻ không trung thực / kẻ xấu"
+                    },
+                    {
+                      "en": "create fake profiles",
+                      "vi": "tạo hồ sơ cá nhân giả mạo"
+                    },
+                    {
+                      "en": "win the trust of naive teenagers",
+                      "vi": "lấy lòng tin của thanh thiếu niên nhẹ dạ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stolen personal data",
+                      "vi": "dữ liệu cá nhân bị đánh cắp"
+                    },
+                    {
+                      "en": "financial fraud",
+                      "vi": "lừa đảo tài chính"
+                    },
+                    {
+                      "en": "suffer from",
+                      "vi": "gánh chịu hậu quả từ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: SAO NHÃNG GIA ĐÌNH VÀ CÁC MỐI QUAN HỆ ĐỜI THỰC (NEGLECTING FAMILY AND REAL-LIFE FRIENDS)",
+                "collocations": [
+                  {
+                    "en": "spend excessive time",
+                    "vi": "dành quá nhiều thời gian"
+                  },
+                  {
+                    "en": "online friends",
+                    "vi": "bạn bè trên mạng"
+                  },
+                  {
+                    "en": "neglect family and real-life relationships",
+                    "vi": "bỏ bê gia đình và các mối quan hệ đời thực"
+                  },
+                  {
+                    "en": "stay glued to their phones",
+                    "vi": "dán mắt vào chiếc điện thoại"
+                  },
+                  {
+                    "en": "during family meals",
+                    "vi": "trong suốt các bữa cơm gia đình"
+                  },
+                  {
+                    "en": "outings with classmates",
+                    "vi": "những buổi đi chơi cùng bạn học"
+                  },
+                  {
+                    "en": "weaken real-world bonds",
+                    "vi": "làm phai nhạt các mối gắn kết đời thực"
+                  },
+                  {
+                    "en": "damage their face-to-face social skills",
+                    "vi": "làm suy giảm kỹ năng giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "gradually",
+                    "vi": "dần dần"
+                  }
+                ],
+                "point_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực.",
+                "point_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                "evidence_vi": "Nhiều bạn trẻ dán mắt vào điện thoại nhắn tin suốt bữa cơm gia đình hoặc khi đi cà phê cùng bạn học. Thói quen này làm phai nhạt sự gắn kết trực tiếp và làm suy giảm kỹ năng giao tiếp xã hội ngoài đời.",
+                "evidence_en": "Many youths stay glued to their phones texting during family meals or outings with classmates. This habit weakens real-world bonds and gradually damages their face-to-face social skills.",
+                "point_collocations": [
+                  {
+                    "en": "spend excessive time",
+                    "vi": "dành quá nhiều thời gian"
+                  },
+                  {
+                    "en": "online friends",
+                    "vi": "bạn bè trên mạng"
+                  },
+                  {
+                    "en": "neglect family and real-life relationships",
+                    "vi": "bỏ bê gia đình và các mối quan hệ đời thực"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stay glued to their phones",
+                      "vi": "dán mắt vào chiếc điện thoại"
+                    },
+                    {
+                      "en": "during family meals",
+                      "vi": "trong suốt các bữa cơm gia đình"
+                    },
+                    {
+                      "en": "outings with classmates",
+                      "vi": "những buổi đi chơi cùng bạn học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "weaken real-world bonds",
+                      "vi": "làm phai nhạt các mối gắn kết đời thực"
+                    },
+                    {
+                      "en": "damage their face-to-face social skills",
+                      "vi": "làm suy giảm kỹ năng giao tiếp trực tiếp"
+                    },
+                    {
+                      "en": "gradually",
+                      "vi": "dần dần"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TỐN THỜI GIAN VÀ GÂY XAO NHÃNG VIỆC HỌC TẬP (TIME-CONSUMING AND ACADEMIC DISTRACTION)",
+                "collocations": [
+                  {
+                    "en": "constantly reply to messages",
+                    "vi": "liên tục trả lời tin nhắn"
+                  },
+                  {
+                    "en": "hundreds of online friends",
+                    "vi": "hàng trăm người bạn trên mạng"
+                  },
+                  {
+                    "en": "waste valuable study and work time",
+                    "vi": "làm lãng phí thời gian học tập và làm việc quý báu"
+                  },
+                  {
+                    "en": "endless notifications",
+                    "vi": "những thông báo không dứt"
+                  },
+                  {
+                    "en": "break teenagers' concentration",
+                    "vi": "làm mất sự tập trung của thanh thiếu niên"
+                  },
+                  {
+                    "en": "keep them up late at night",
+                    "vi": "khiến các em thức khuya ban đêm"
+                  },
+                  {
+                    "en": "their health declines",
+                    "vi": "sức khỏe suy giảm"
+                  },
+                  {
+                    "en": "their school grades suffer",
+                    "vi": "điểm số ở trường bị sụt giảm"
+                  },
+                  {
+                    "en": "as a result",
+                    "vi": "hệ quả là"
+                  }
+                ],
+                "point_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc.",
+                "point_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
+                "evidence_vi": "Thông báo liên tục từ Facebook, TikTok hay các phòng trò chơi trực tuyến khiến thanh thiếu niên mất tập trung và thức khuya thường xuyên. Hậu quả là sức khỏe suy giảm và kết quả học tập ở trường đi xuống.",
+                "evidence_en": "Endless notifications from Facebook, TikTok, or gaming chats break teenagers' concentration and keep them up late at night. As a result, their health declines and their school grades suffer.",
+                "point_collocations": [
+                  {
+                    "en": "constantly reply to messages",
+                    "vi": "liên tục trả lời tin nhắn"
+                  },
+                  {
+                    "en": "hundreds of online friends",
+                    "vi": "hàng trăm người bạn trên mạng"
+                  },
+                  {
+                    "en": "waste valuable study and work time",
+                    "vi": "làm lãng phí thời gian học tập và làm việc quý báu"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "endless notifications",
+                      "vi": "những thông báo không dứt"
+                    },
+                    {
+                      "en": "break teenagers' concentration",
+                      "vi": "làm mất sự tập trung của thanh thiếu niên"
+                    },
+                    {
+                      "en": "keep them up late at night",
+                      "vi": "khiến các em thức khuya ban đêm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "their health declines",
+                      "vi": "sức khỏe suy giảm"
+                    },
+                    {
+                      "en": "their school grades suffer",
+                      "vi": "điểm số ở trường bị sụt giảm"
+                    },
+                    {
+                      "en": "as a result",
+                      "vi": "hệ quả là"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: ĐỐI MẶT VỚI BẮT NẠT MẠNG VÀ ÁP LỰC ĐỒNG TRANG LỨA ẢO (CYBERBULLYING AND ONLINE PEER PRESSURE)",
+                "collocations": [
+                  {
+                    "en": "an overly large network of online contacts",
+                    "vi": "mạng lưới bạn bè trên mạng quá rộng"
+                  },
+                  {
+                    "en": "increase exposure to negative comments",
+                    "vi": "làm tăng nguy cơ tiếp xúc bình luận tiêu cực"
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "sự so sánh xã hội"
+                  },
+                  {
+                    "en": "minor misunderstandings",
+                    "vi": "những hiểu lầm nhỏ"
+                  },
+                  {
+                    "en": "escalate into public arguments",
+                    "vi": "leo thang thành các cuộc tranh cãi công khai"
+                  },
+                  {
+                    "en": "personal attacks",
+                    "vi": "hành vi công kích cá nhân"
+                  },
+                  {
+                    "en": "view others' glamorous posts",
+                    "vi": "xem các bài đăng hào nhoáng của người khác"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti, bất an"
+                  },
+                  {
+                    "en": "about their own lives",
+                    "vi": "về chính cuộc sống của mình"
+                  }
+                ],
+                "point_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng.",
+                "point_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                "evidence_vi": "Những hiểu lầm nhỏ trên mạng xã hội rất dễ bùng phát thành tranh cãi tập thể hoặc hành vi công kích cá nhân. Bên cạnh đó, việc liên tục nhìn thấy hình ảnh hào nhoáng của người khác khiến người trẻ dễ tự ti về bản thân.",
+                "evidence_en": "Minor misunderstandings on social media can quickly escalate into public arguments or personal attacks. Furthermore, constantly viewing others' glamorous posts often makes young users feel insecure about their own lives.",
+                "point_collocations": [
+                  {
+                    "en": "an overly large network of online contacts",
+                    "vi": "mạng lưới bạn bè trên mạng quá rộng"
+                  },
+                  {
+                    "en": "increase exposure to negative comments",
+                    "vi": "làm tăng nguy cơ tiếp xúc bình luận tiêu cực"
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "sự so sánh xã hội"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "minor misunderstandings",
+                      "vi": "những hiểu lầm nhỏ"
+                    },
+                    {
+                      "en": "escalate into public arguments",
+                      "vi": "leo thang thành các cuộc tranh cãi công khai"
+                    },
+                    {
+                      "en": "personal attacks",
+                      "vi": "hành vi công kích cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "view others' glamorous posts",
+                      "vi": "xem các bài đăng hào nhoáng của người khác"
+                    },
+                    {
+                      "en": "feel insecure",
+                      "vi": "cảm thấy tự ti, bất an"
+                    },
+                    {
+                      "en": "about their own lives",
+                      "vi": "về chính cuộc sống của mình"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "have many online friends",
+              "vi": "có nhiều bạn trực tuyến"
+            },
+            {
+              "en": "connect easily with others",
+              "vi": "dễ dàng kết nối với những người khác"
+            },
+            {
+              "en": "share similar interests",
+              "vi": "có chung những sở thích tương đồng"
+            },
+            {
+              "en": "build hobby-based communities",
+              "vi": "xây dựng cộng đồng theo sở thích"
+            },
+            {
+              "en": "share common passions",
+              "vi": "chia sẻ những niềm đam mê chung"
+            },
+            {
+              "en": "a wide network of online friends",
+              "vi": "mạng lưới bạn bè trực tuyến rộng khắp"
+            },
+            {
+              "en": "broaden cultural understanding",
+              "vi": "mở rộng tầm hiểu biết văn hóa"
+            },
+            {
+              "en": "improve foreign language skills",
+              "vi": "cải thiện kỹ năng ngoại ngữ"
+            },
+            {
+              "en": "diverse cultural backgrounds",
+              "vi": "nền tảng văn hóa đa dạng"
+            },
+            {
+              "en": "bridge geographical distances",
+              "vi": "xóa nhòa khoảng cách địa lý"
+            },
+            {
+              "en": "make friends online",
+              "vi": "kết bạn qua mạng"
+            },
+            {
+              "en": "shy or introverted people",
+              "vi": "những người rụt rè hoặc hướng nội"
+            },
+            {
+              "en": "express their thoughts",
+              "vi": "bày tỏ suy nghĩ của mình"
+            },
+            {
+              "en": "overcome social shyness",
+              "vi": "vượt qua sự nhút nhát xã hội"
+            },
+            {
+              "en": "find emotional companionship",
+              "vi": "tìm thấy sự bầu bạn về tinh thần"
+            },
+            {
+              "en": "a large circle of online friends",
+              "vi": "vòng tròn bạn bè trực tuyến rộng lớn"
+            },
+            {
+              "en": "obtain useful information",
+              "vi": "thu nhận thông tin hữu ích"
+            },
+            {
+              "en": "practical advice",
+              "vi": "lời khuyên thực tế"
+            },
+            {
+              "en": "exchange academic resources",
+              "vi": "trao đổi tài liệu học thuật"
+            },
+            {
+              "en": "crowdsource practical solutions",
+              "vi": "huy động giải pháp thực tế từ cộng đồng bạn bè"
+            },
+            {
+              "en": "online friendships",
+              "vi": "các mối quan hệ tình bạn trực tuyến"
+            },
+            {
+              "en": "convenient to maintain",
+              "vi": "thuận tiện để duy trì"
+            },
+            {
+              "en": "instant communication",
+              "vi": "sự liên lạc tức thì"
+            },
+            {
+              "en": "keep in touch effortlessly",
+              "vi": "giữ liên lạc một cách dễ dàng"
+            },
+            {
+              "en": "overcome busy daily schedules",
+              "vi": "vượt qua lịch trình hằng ngày bận rộn"
+            },
+            {
+              "en": "tend to be superficial",
+              "vi": "thường mang tính hời hợt/bề nổi"
+            },
+            {
+              "en": "lack genuine emotional depth",
+              "vi": "thiếu chiều sâu tình cảm chân thành"
+            },
+            {
+              "en": "fragile virtual connections",
+              "vi": "những mối liên kết ảo mong manh"
+            },
+            {
+              "en": "casual online acquaintances",
+              "vi": "những người quen xã giao trên mạng"
+            },
+            {
+              "en": "add many strangers online",
+              "vi": "kết bạn với nhiều người lạ trên mạng"
+            },
+            {
+              "en": "risks of deception, scams, and privacy invasion",
+              "vi": "nguy cơ bị lừa dối, lừa đảo và xâm phạm quyền riêng tư"
+            },
+            {
+              "en": "carry serious risks",
+              "vi": "tiềm ẩn những rủi ro nghiêm trọng"
+            },
+            {
+              "en": "online identity theft",
+              "vi": "đánh cắp danh tính trực tuyến"
+            },
+            {
+              "en": "hide behind online anonymity",
+              "vi": "ẩn mình sau sự ẩn danh trên mạng"
+            },
+            {
+              "en": "spend excessive time",
+              "vi": "dành quá nhiều thời gian"
+            },
+            {
+              "en": "online friends",
+              "vi": "bạn bè trên mạng"
+            },
+            {
+              "en": "neglect family and real-life relationships",
+              "vi": "bỏ bê gia đình và các mối quan hệ đời thực"
+            },
+            {
+              "en": "real-life social isolation",
+              "vi": "sự cô lập xã hội ngoài đời thực"
+            },
+            {
+              "en": "prioritize virtual chats over family",
+              "vi": "ưu tiên trò chuyện ảo hơn gia đình"
+            },
+            {
+              "en": "constantly reply to messages",
+              "vi": "liên tục trả lời tin nhắn"
+            },
+            {
+              "en": "hundreds of online friends",
+              "vi": "hàng trăm người bạn trên mạng"
+            },
+            {
+              "en": "waste valuable study and work time",
+              "vi": "làm lãng phí thời gian học tập và làm việc quý báu"
+            },
+            {
+              "en": "addictive social media scrolling",
+              "vi": "thói quen lướt mạng xã hội gây nghiện"
+            },
+            {
+              "en": "sleep deprivation among teens",
+              "vi": "tình trạng thiếu ngủ ở thanh thiếu niên"
+            },
+            {
+              "en": "an overly large network of online contacts",
+              "vi": "mạng lưới bạn bè trên mạng quá rộng"
+            },
+            {
+              "en": "increase exposure to negative comments",
+              "vi": "làm tăng nguy cơ tiếp xúc bình luận tiêu cực"
+            },
+            {
+              "en": "social comparison",
+              "vi": "sự so sánh xã hội"
+            },
+            {
+              "en": "fall victim to cyberbullying",
+              "vi": "trở thành nạn nhân của bắt nạt qua mạng"
+            },
+            {
+              "en": "seek superficial online validation",
+              "vi": "tìm kiếm sự công nhận bề nổi trên mạng"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "online groups",
+              "vi": "các hội nhóm trực tuyến"
+            },
+            {
+              "en": "find like-minded peers",
+              "vi": "tìm được những người bạn đồng điệu"
+            },
+            {
+              "en": "to chat with",
+              "vi": "để trò chuyện cùng"
+            },
+            {
+              "en": "bring emotional joy",
+              "vi": "mang lại niềm vui tinh thần"
+            },
+            {
+              "en": "exchange useful knowledge",
+              "vi": "trao đổi nhiều kiến thức bổ ích"
+            },
+            {
+              "en": "help them",
+              "vi": "giúp họ"
+            },
+            {
+              "en": "make friends with peers",
+              "vi": "kết bạn với bạn bè đồng trang lứa"
+            },
+            {
+              "en": "different regions and countries",
+              "vi": "nhiều vùng miền và quốc gia khác nhau"
+            },
+            {
+              "en": "without geographical limitations",
+              "vi": "không bị giới hạn về khoảng cách địa lý"
+            },
+            {
+              "en": "cross-border conversations",
+              "vi": "những cuộc trò chuyện xuyên biên giới"
+            },
+            {
+              "en": "become more open-minded",
+              "vi": "trở nên cởi mở hơn"
+            },
+            {
+              "en": "practice foreign languages naturally",
+              "vi": "rèn luyện ngoại ngữ một cách tự nhiên"
+            },
+            {
+              "en": "feel nervous in face-to-face talks",
+              "vi": "cảm thấy hồi hộp khi trò chuyện trực tiếp"
+            },
+            {
+              "en": "communicate openly",
+              "vi": "giao tiếp cởi mở"
+            },
+            {
+              "en": "through text messages",
+              "vi": "qua tin nhắn văn bản"
+            },
+            {
+              "en": "empathy from online friends",
+              "vi": "sự đồng cảm từ bạn bè trực tuyến"
+            },
+            {
+              "en": "feel less lonely",
+              "vi": "cảm thấy bớt cô đơn hơn"
+            },
+            {
+              "en": "receive timely emotional encouragement",
+              "vi": "nhận được sự khích lệ tinh thần kịp thời"
+            },
+            {
+              "en": "career advice",
+              "vi": "lời khuyên định hướng nghề nghiệp"
+            },
+            {
+              "en": "a single social media post",
+              "vi": "một bài đăng trên mạng xã hội"
+            },
+            {
+              "en": "attract dozens of helpful suggestions",
+              "vi": "nhận được hàng chục gợi ý hữu ích"
+            },
+            {
+              "en": "collective support",
+              "vi": "sự hỗ trợ tập thể"
+            },
+            {
+              "en": "save considerable time",
+              "vi": "tiết kiệm đáng kể thời gian"
+            },
+            {
+              "en": "search alone",
+              "vi": "tự tìm kiếm một mình"
+            },
+            {
+              "en": "send quick messages",
+              "vi": "gửi những tin nhắn ngắn nhanh chóng"
+            },
+            {
+              "en": "react to posts",
+              "vi": "tương tác dưới các bài đăng"
+            },
+            {
+              "en": "stay updated on one another's lives",
+              "vi": "cập nhật cuộc sống của nhau"
+            },
+            {
+              "en": "maintain active social connections",
+              "vi": "duy trì kết nối xã hội sôi động"
+            },
+            {
+              "en": "spend money on frequent outings",
+              "vi": "tốn tiền cho những buổi đi chơi thường xuyên"
+            },
+            {
+              "en": "busy school or work weeks",
+              "vi": "những tuần học tập hay làm việc bận rộn"
+            },
+            {
+              "en": "thousands of friends on Facebook",
+              "vi": "hàng nghìn bạn bè trên Facebook"
+            },
+            {
+              "en": "casual likes and brief comments",
+              "vi": "những lượt thích xã giao và bình luận ngắn"
+            },
+            {
+              "en": "exchange",
+              "vi": "trao đổi qua lại"
+            },
+            {
+              "en": "face real-life hardships",
+              "vi": "đối mặt với khó khăn ngoài đời thực"
+            },
+            {
+              "en": "virtual friends",
+              "vi": "những người bạn ảo"
+            },
+            {
+              "en": "offer practical support",
+              "vi": "đưa ra sự giúp đỡ thiết thực"
+            },
+            {
+              "en": "dishonest individuals",
+              "vi": "những kẻ không trung thực / kẻ xấu"
+            },
+            {
+              "en": "create fake profiles",
+              "vi": "tạo hồ sơ cá nhân giả mạo"
+            },
+            {
+              "en": "win the trust of naive teenagers",
+              "vi": "lấy lòng tin của thanh thiếu niên nhẹ dạ"
+            },
+            {
+              "en": "stolen personal data",
+              "vi": "dữ liệu cá nhân bị đánh cắp"
+            },
+            {
+              "en": "financial fraud",
+              "vi": "lừa đảo tài chính"
+            },
+            {
+              "en": "suffer from",
+              "vi": "gánh chịu hậu quả từ"
+            },
+            {
+              "en": "stay glued to their phones",
+              "vi": "dán mắt vào chiếc điện thoại"
+            },
+            {
+              "en": "during family meals",
+              "vi": "trong suốt các bữa cơm gia đình"
+            },
+            {
+              "en": "outings with classmates",
+              "vi": "những buổi đi chơi cùng bạn học"
+            },
+            {
+              "en": "weaken real-world bonds",
+              "vi": "làm phai nhạt các mối gắn kết đời thực"
+            },
+            {
+              "en": "damage their face-to-face social skills",
+              "vi": "làm suy giảm kỹ năng giao tiếp trực tiếp"
+            },
+            {
+              "en": "gradually",
+              "vi": "dần dần"
+            },
+            {
+              "en": "endless notifications",
+              "vi": "những thông báo không dứt"
+            },
+            {
+              "en": "break teenagers' concentration",
+              "vi": "làm mất sự tập trung của thanh thiếu niên"
+            },
+            {
+              "en": "keep them up late at night",
+              "vi": "khiến các em thức khuya ban đêm"
+            },
+            {
+              "en": "their health declines",
+              "vi": "sức khỏe suy giảm"
+            },
+            {
+              "en": "their school grades suffer",
+              "vi": "điểm số ở trường bị sụt giảm"
+            },
+            {
+              "en": "as a result",
+              "vi": "hệ quả là"
+            },
+            {
+              "en": "minor misunderstandings",
+              "vi": "những hiểu lầm nhỏ"
+            },
+            {
+              "en": "escalate into public arguments",
+              "vi": "leo thang thành các cuộc tranh cãi công khai"
+            },
+            {
+              "en": "personal attacks",
+              "vi": "hành vi công kích cá nhân"
+            },
+            {
+              "en": "view others' glamorous posts",
+              "vi": "xem các bài đăng hào nhoáng của người khác"
+            },
+            {
+              "en": "feel insecure",
+              "vi": "cảm thấy tự ti, bất an"
+            },
+            {
+              "en": "about their own lives",
+              "vi": "về chính cuộc sống của mình"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>having lots of online friends</strong> has become increasingly common among teenagers and young adults in the age of social media. Although building a large virtual network brings certain benefits, it also creates several serious concerns. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, having many online friends offers several clear advantages.</strong> One major benefit is that <strong><em>having many online friends allows young people to connect easily with others who share similar interests.</em></strong> Through online groups for music, reading, sports, or study, they can always find like-minded peers to chat with. This brings emotional joy and helps them exchange useful knowledge. Another positive aspect is that <strong><em>a wide network of online friends helps broaden cultural understanding and improve foreign language skills.</em></strong> Teenagers can make friends with peers from different regions and countries without geographical limitations. Cross-border conversations help them become more open-minded and practice foreign languages naturally. A further advantage to consider is that <strong><em>making friends online provides a comfortable space for shy or introverted people to express their thoughts.</em></strong> Many young individuals feel nervous in face-to-face talks, yet they communicate openly through text messages. Thanks to empathy from online friends, they feel less lonely and receive timely emotional encouragement.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>most online friendships tend to be superficial and lack genuine emotional depth.</em></strong> A person may have thousands of friends on Facebook yet only exchange casual likes and brief comments. When they face real-life hardships, very few virtual friends can show up to offer practical support. Another negative aspect is that <strong><em>adding many strangers online carries serious risks of deception, scams, and privacy invasion.</em></strong> In cyberspace, dishonest individuals can easily create fake profiles to win the trust of naive teenagers. Consequently, many users have suffered from stolen personal data, blackmail, or financial fraud. A further concern is that <strong><em>spending excessive time with online friends can cause young people to neglect family and real-life relationships.</em></strong> Many youths stay glued to their phones texting during family meals or outings with classmates. This habit weakens real-world bonds and gradually damages their face-to-face social skills.\n\nIn conclusion, <strong>having lots of online friends</strong> has both positive and negative aspects that should not be overlooked. While virtual connections expand social horizons and offer companionship, they cannot replace trustworthy real-world relationships. Therefore, young people should use social media wisely and prioritize genuine friendships in real life.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc có nhiều bạn trực tuyến</strong> ngày càng trở nên phổ biến ở thanh thiếu niên và người trẻ tuổi trong thời đại mạng xã hội. Mặc dù việc xây dựng một mạng lưới bạn bè ảo rộng lớn mang lại những lợi ích nhất định, nó cũng tạo ra một số mối lo ngại nghiêm trọng. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, việc có nhiều bạn trực tuyến mang lại một số lợi thế rõ rệt.</strong> Một lợi ích lớn là <strong><em>có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người khác có chung sở thích tương đồng.</em></strong> Thông qua các hội nhóm trực tuyến về âm nhạc, đọc sách, thể thao hay học tập, họ luôn tìm được những người bạn đồng điệu để trò chuyện cùng. Điều này mang lại niềm vui tinh thần và giúp họ trao đổi nhiều kiến thức bổ ích. Một khía cạnh tích cực khác là <strong><em>mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và cải thiện kỹ năng ngoại ngữ.</em></strong> Thanh thiếu niên có thể kết bạn với bạn bè đồng trang lứa ở nhiều vùng miền và quốc gia khác nhau mà không bị giới hạn về khoảng cách địa lý. Những cuộc trò chuyện xuyên biên giới giúp họ trở nên cởi mở hơn và rèn luyện ngoại ngữ một cách tự nhiên. Một thuận lợi nữa cần xem xét là <strong><em>kết bạn qua mạng tạo không gian thoải mái cho những người rụt rè hoặc hướng nội bày tỏ suy nghĩ của mình.</em></strong> Nhiều bạn trẻ cảm thấy hồi hộp khi trò chuyện trực tiếp nhưng lại giao tiếp cởi mở qua tin nhắn văn bản. Nhờ sự đồng cảm từ bạn bè trực tuyến, họ cảm thấy bớt cô đơn hơn và nhận được sự khích lệ tinh thần kịp thời.\n\n<strong>Mặt khác, vẫn có một số bất lợi cần được cân nhắc.</strong> Một hạn chế có thể xảy ra là <strong><em>phần lớn các tình bạn trực tuyến thường mang tính hời hợt và thiếu chiều sâu tình cảm chân thành.</em></strong> Một người có thể có hàng nghìn bạn bè trên Facebook nhưng chỉ trao đổi những lượt thích xã giao và bình luận ngắn. Khi họ đối mặt với khó khăn ngoài đời thực, rất ít người bạn ảo có thể xuất hiện để đưa ra sự giúp đỡ thiết thực. Một điểm tiêu cực khác là <strong><em>kết bạn với nhiều người lạ trên mạng tiềm ẩn những rủi ro nghiêm trọng về lừa dối, lừa đảo và xâm phạm quyền riêng tư.</em></strong> Trong không gian mạng, những kẻ không trung thực dễ dàng tạo hồ sơ giả mạo để lấy lòng tin của thanh thiếu niên nhẹ dạ. Hệ quả là nhiều người dùng đã phải gánh chịu việc bị đánh cắp dữ liệu cá nhân, tống tiền hoặc lừa đảo tài chính. Một mối lo ngại nữa là <strong><em>dành quá nhiều thời gian cho bạn bè trên mạng có thể khiến người trẻ bỏ bê gia đình và các mối quan hệ đời thực.</em></strong> Nhiều bạn trẻ dán mắt vào điện thoại nhắn tin trong suốt các bữa cơm gia đình hay những buổi đi chơi cùng bạn học. Thói quen này làm phai nhạt các mối gắn kết đời thực và dần dần làm suy giảm kỹ năng giao tiếp trực tiếp của họ.\n\nTóm lại, <strong>việc có nhiều bạn trực tuyến</strong> có cả mặt tích cực lẫn tiêu cực không nên xem nhẹ. Mặc dù các kết nối ảo giúp mở rộng chân trời giao lưu và mang lại sự bầu bạn, chúng không thể thay thế những mối quan hệ đáng tin cậy ngoài đời thực. Vì vậy, người trẻ nên sử dụng mạng xã hội một cách tỉnh táo và ưu tiên vun đắp những tình bạn chân thành trong cuộc sống thực.",
+          "key_vocab_notes": [
+            {
+              "en": "connect easily with like-minded peers",
+              "vi": "dễ dàng kết nối với những người bạn cùng sở thích"
+            },
+            {
+              "en": "broaden cultural understanding",
+              "vi": "mở rộng tầm hiểu biết văn hóa"
+            },
+            {
+              "en": "without geographical limitations",
+              "vi": "không bị giới hạn về khoảng cách địa lý"
+            },
+            {
+              "en": "shy or introverted people",
+              "vi": "những người rụt rè hoặc hướng nội"
+            },
+            {
+              "en": "lack genuine emotional depth",
+              "vi": "thiếu chiều sâu tình cảm chân thành"
+            },
+            {
+              "en": "offer practical support in real-life hardships",
+              "vi": "hỗ trợ thiết thực khi gặp khó khăn đời thực"
+            },
+            {
+              "en": "risks of deception, scams, and privacy invasion",
+              "vi": "nguy cơ bị lừa dối, lừa đảo và xâm phạm quyền riêng tư"
+            },
+            {
+              "en": "create fake profiles",
+              "vi": "tạo hồ sơ cá nhân giả mạo"
+            },
+            {
+              "en": "neglect family and real-life relationships",
+              "vi": "bỏ bê gia đình và các mối quan hệ ngoài đời thực"
+            },
+            {
+              "en": "damage face-to-face social skills",
+              "vi": "làm tổn hại kỹ năng giao tiếp trực tiếp"
+            }
+          ]
+        }
       },
       {
         "id": 27,
@@ -47703,7 +56655,2241 @@ const ESSAY_DATA = [
         "title_vi": "Trở nên nổi tiếng",
         "context": "In today’s media-driven society, becoming famous has become a dream for many people, especially young individuals. Some people want to be celebrities, influencers, singers, actors, or successful content creators because fame can bring money, attention, and career opportunities. However, others believe that being famous may also lead to pressure, loss of privacy, and personal difficulties.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of becoming famous. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Trong xã hội truyền thông dẫn dắt ngày nay, việc trở nên nổi tiếng đã trở thành ước mơ của rất nhiều người, đặc biệt là giới trẻ. Một số người mong muốn trở thành ngôi sao giải trí, người có sức ảnh hưởng (influencer), ca sĩ, diễn viên hoặc nhà sáng tạo nội dung thành công vì sự nổi tiếng có thể mang lại tiền bạc, sự chú ý và cơ hội nghề nghiệp. Tuy nhiên, những người khác tin rằng sự nổi tiếng cũng có thể dẫn đến áp lực nặng nề, mất quyền riêng tư và nhiều khó khăn cá nhân.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc trở nên nổi tiếng. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "achieving fame and public recognition",
+            "vi": "đạt được danh tiếng và sự công nhận của công chúng"
+          },
+          {
+            "en": "living in the public eye as a celebrity",
+            "vi": "sống trước sự chú ý của công chúng với tư cách người nổi tiếng"
+          },
+          {
+            "en": "attaining celebrity status",
+            "vi": "đạt tới vị thế của người nổi tiếng"
+          },
+          {
+            "en": "rising to stardom in modern media",
+            "vi": "vươn lên hàng ngôi sao trên truyền thông hiện đại"
+          },
+          {
+            "en": "being a well-known public figure",
+            "vi": "trở thành một nhân vật của công chúng được nhiều người biết đến"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Áp lực trở nên hoàn hảo: Góc khuất tâm lý đằng sau ánh hào quang người nổi tiếng",
+                "summary": "Phân tích gánh nặng phải duy trì hình ảnh hoàn mỹ trước công chúng, sự săm soi trên mạng xã hội và hệ lụy sức khỏe tinh thần của nghệ sĩ.",
+                "url": "https://tuoitre.vn/phunuonline/ap-luc-tro-nen-hoan-hao-nguyen-nhan-nhung-vu-tu-tu-cua-nguoi-noi-tieng-1101419679.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Áp lực không ngờ của những người bỗng nổi tiếng chỉ sau một đêm",
+                "summary": "Câu chuyện thực tế cho thấy sự nổi tiếng mang lại thu nhập và cơ hội kinh doanh lớn nhưng đồng thời đảo lộn hoàn toàn sự bình yên đời tư.",
+                "url": "https://ngoisao.vnexpress.net/ap-luc-khong-ngo-cua-nguoi-ban-mi-keo-tay-bong-noi-tieng-chi-sau-mot-dem-5069024.html"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Cuộc chiến bảo vệ quyền riêng tư của những nhân vật nổi tiếng trước truyền thông",
+                "summary": "Phản ánh thực trạng đời sống cá nhân và gia đình người nổi tiếng bị thợ săn ảnh cùng tin đồn truyền thông xâm phạm nghiêm trọng.",
+                "url": "https://vnexpress.net/harry-kien-bao-anh-xam-pham-quyen-rieng-tu-4520677.html"
+              }
+            ],
+            "en": [
+              {
+                "source": "Psychology Today",
+                "title": "The Shadow of the Spotlight: Psychological Costs and Rewards of Fame",
+                "summary": "Examines why people pursue stardom for wealth and recognition while facing chronic scrutiny, isolation, and loss of personal boundaries.",
+                "url": "https://www.psychologytoday.com/us/blog/the-wisdom-of-anger/202405/the-shadow-of-the-spotlight"
+              },
+              {
+                "source": "The Guardian",
+                "title": "Celebrity Culture and the Dark Side of Living in the Public Eye",
+                "summary": "Explores the intense pressure placed on famous figures by relentless media coverage and high public expectations.",
+                "url": "https://www.theguardian.com/commentisfree/2018/apr/20/ant-mcpartlin-ant-and-dec-drink-drive-case-celebrity-fame-dark-side"
+              },
+              {
+                "source": "Psychology Today",
+                "title": "Why We Seek the High of Stardom",
+                "summary": "Analyzes the social, financial, and career appeal of becoming famous alongside the emotional vulnerability when public attention turns critical.",
+                "url": "https://www.psychologytoday.com/us/blog/in-excess/201403/why-we-seek-the-high-stardom"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Trở nên nổi tiếng (Becoming famous)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Trở nên nổi tiếng\" (Becoming famous), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "lucrative",
+                "ipa": "/ˈluːkrətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "sinh lời cao, mang lại thu nhập lớn",
+                "example_en": "Famous influencers often sign lucrative advertising contracts.",
+                "example_vi": "Những người có sức ảnh hưởng nổi tiếng thường ký các hợp đồng quảng cáo thu nhập cao.",
+                "family": "lucratively (adv)"
+              },
+              {
+                "word": "endorsement",
+                "ipa": "/ɪnˈdɔːsmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hợp đồng đại diện quảng bá thương hiệu",
+                "example_en": "Brand endorsements generate huge income for sports stars.",
+                "example_vi": "Hợp đồng đại diện thương hiệu mang lại nguồn thu lớn cho các ngôi sao thể thao.",
+                "family": "endorse (v)"
+              },
+              {
+                "word": "recognition",
+                "ipa": "/ˌrekəɡˈnɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự công nhận, biết đến rộng rãi",
+                "example_en": "Talented singers gain nationwide recognition for their hard work.",
+                "example_vi": "Các ca sĩ tài năng nhận được sự công nhận trên toàn quốc cho nỗ lực của họ.",
+                "family": "recognize (v), recognizable (adj)"
+              },
+              {
+                "word": "prestigious",
+                "ipa": "/preˈstɪdʒəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "danh giá, uy tín cao",
+                "example_en": "Celebrities are frequently invited to prestigious cultural events.",
+                "example_vi": "Người nổi tiếng thường xuyên được mời tới các sự kiện văn hóa danh giá.",
+                "family": "prestige (n)"
+              },
+              {
+                "word": "influential",
+                "ipa": "/ˌɪnfluˈenʃl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có sức ảnh hưởng lớn tới cộng đồng",
+                "example_en": "Influential public figures can inspire thousands of young fans.",
+                "example_vi": "Những nhân vật công chúng có sức ảnh hưởng có thể truyền cảm hứng cho hàng nghìn người hâm mộ trẻ.",
+                "family": "influence (n/v)"
+              },
+              {
+                "word": "charity",
+                "ipa": "/ˈtʃærəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hoạt động từ thiện, thiện nguyện",
+                "example_en": "Many actors use their fame to raise money for charity.",
+                "example_vi": "Nhiều diễn viên dùng danh tiếng của mình để gây quỹ từ thiện.",
+                "family": "charitable (adj)"
+              },
+              {
+                "word": "scrutiny",
+                "ipa": "/ˈskruːtəni/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự săm soi, giám sát khắt khe của dư luận",
+                "example_en": "Celebrities live under constant public and media scrutiny.",
+                "example_vi": "Người nổi tiếng sống dưới sự săm soi liên tục của công chúng và truyền thông.",
+                "family": "scrutinize (v)"
+              },
+              {
+                "word": "paparazzi",
+                "ipa": "/ˌpæpəˈrætsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "thợ săn ảnh đeo bám người nổi tiếng",
+                "example_en": "Paparazzi often follow famous actors even during family holidays.",
+                "example_vi": "Thợ săn ảnh thường đeo bám các diễn viên nổi tiếng ngay cả trong kỳ nghỉ gia đình.",
+                "family": "paparazzo (sing.)"
+              },
+              {
+                "word": "reputation",
+                "ipa": "/ˌrepjuˈteɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "danh tiếng, uy tín cá nhân",
+                "example_en": "A single careless remark can ruin a celebrity's reputation overnight.",
+                "example_vi": "Chỉ một phát ngôn bất cẩn có thể hủy hoại danh tiếng của ngôi sao sau một đêm.",
+                "family": "reputable (adj)"
+              },
+              {
+                "word": "rumor",
+                "ipa": "/ˈruːmə(r)/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tin đồn thất thiệt",
+                "example_en": "False online rumors cause severe distress to public figures.",
+                "example_vi": "Những tin đồn sai sự thật trên mạng gây tổn thương nặng nề cho người của công chúng.",
+                "family": "rumored (adj)"
+              },
+              {
+                "word": "privilege",
+                "ipa": "/ˈprɪvəlɪdʒ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "đặc quyền, sự ưu ái đặc biệt",
+                "example_en": "Fame often brings VIP privileges at hotels and airports.",
+                "example_vi": "Sự nổi tiếng thường mang lại các đặc quyền ưu tiên tại khách sạn và sân bay.",
+                "family": "privileged (adj)"
+              },
+              {
+                "word": "burnout",
+                "ipa": "/ˈbɜːnaʊt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự kiệt sức cả về thể chất lẫn tinh thần",
+                "example_en": "Demanding schedules and harsh criticism lead many stars to burnout.",
+                "example_vi": "Lịch trình dày đặc và chỉ trích gay gắt khiến nhiều ngôi sao rơi vào kiệt sức.",
+                "family": "burn out (phr.v)"
+              },
+              {
+                "word": "spotlight",
+                "ipa": "/ˈspɒtlaɪt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tâm điểm chú ý của truyền thông",
+                "example_en": "Being in the spotlight constantly leaves little room for normal life.",
+                "example_vi": "Liên tục đứng dưới tâm điểm chú ý khiến họ có rất ít không gian sống bình thường.",
+                "family": "limelight (n)"
+              },
+              {
+                "word": "ulterior",
+                "ipa": "/ʌlˈtɪəriə(r)/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ẩn giấu vụ lợi (động cơ không trong sáng)",
+                "example_en": "Wealthy stars worry that new acquaintances have ulterior motives.",
+                "example_vi": "Ngôi sao giàu có thường lo ngại người mới quen có động cơ vụ lợi.",
+                "family": "motive (n)"
+              },
+              {
+                "word": "glamorous",
+                "ipa": "/ˈɡlæmərəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hào nhoáng, lộng lẫy",
+                "example_en": "Celebrity life looks glamorous on screen, yet it hides heavy stress.",
+                "example_vi": "Cuộc sống ngôi sao trông hào nhoáng trên màn ảnh nhưng ẩn chứa áp lực nặng nề.",
+                "family": "glamour (n)"
+              },
+              {
+                "word": "prosperous",
+                "ipa": "/ˈprɒspərəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "sung túc, thịnh vượng về tài chính",
+                "example_en": "Successful entertainers enjoy a comfortable and prosperous lifestyle.",
+                "example_vi": "Những nghệ sĩ thành công tận hưởng cuộc sống sung túc và thoải mái.",
+                "family": "prosperity (n), prosper (v)"
+              },
+              {
+                "word": "criticism",
+                "ipa": "/ˈkrɪtɪsɪzəm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự chỉ trích, phê phán gay gắt",
+                "example_en": "Content creators face harsh public criticism whenever they make mistakes.",
+                "example_vi": "Nhà sáng tạo nội dung đối mặt với sự chỉ trích gay gắt mỗi khi mắc sai lầm.",
+                "family": "criticize (v), critical (adj)"
+              },
+              {
+                "word": "admiration",
+                "ipa": "/ˌædməˈreɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự ngưỡng mộ, yêu mến",
+                "example_en": "Dedicated artists earn widespread admiration from audiences.",
+                "example_vi": "Các nghệ sĩ tận tâm nhận được sự ngưỡng mộ rộng rãi từ khán giả.",
+                "family": "admire (v), admirer (n)"
+              },
+              {
+                "word": "intrusion",
+                "ipa": "/ɪnˈtruːʒn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự xâm phạm thô bạo vào đời tư",
+                "example_en": "Famous families frequently complain about media intrusion.",
+                "example_vi": "Gia đình người nổi tiếng thường xuyên phàn nàn về sự xâm phạm đời tư của truyền thông.",
+                "family": "intrude (v), intrusive (adj)"
+              },
+              {
+                "word": "role model",
+                "ipa": "/ˈrəʊl mɒdl/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hình mẫu tích cực để noi theo",
+                "example_en": "Famous athletes are expected to act as positive role models for youth.",
+                "example_vi": "Các vận động viên nổi tiếng được kỳ vọng làm hình mẫu tích cực cho giới trẻ.",
+                "family": "model (n/v)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: MANG LẠI THU NHẬP CAO VÀ CUỘC SỐNG SUNG TÚC (HIGH INCOME AND FINANCIAL WEALTH)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Becoming famous can bring substantial income and long-term financial security.",
+                    "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
+                  },
+                  {
+                    "en": "bring substantial income",
+                    "vi": "mang lại nguồn thu nhập rất lớn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Becoming famous can bring substantial income and long-term financial security.",
+                    "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
+                  },
+                  {
+                    "en": "long-term financial security",
+                    "vi": "sự đảm bảo tài chính lâu dài",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Becoming famous can bring substantial income and long-term financial security.",
+                    "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
+                  },
+                  {
+                    "en": "sign lucrative advertising contracts",
+                    "vi": "ký các hợp đồng quảng cáo giá trị lớn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Becoming famous can bring substantial income and long-term financial security.",
+                    "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
+                  },
+                  {
+                    "en": "lead a prosperous lifestyle",
+                    "vi": "có một cuộc sống sung túc, đủ đầy",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Becoming famous can bring substantial income and long-term financial security.",
+                    "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: MỞ RỘNG CƠ HỘI NGHỀ NGHIỆP VÀ KẾT NỐI XÃ HỘI (VALUABLE CAREER OPPORTUNITIES)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "open up attractive career opportunities",
+                    "vi": "mở ra nhiều cơ hội nghề nghiệp hấp dẫn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Fame opens up attractive career opportunities and valuable professional connections.",
+                    "example_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị."
+                  },
+                  {
+                    "en": "valuable professional connections",
+                    "vi": "các mối quan hệ chuyên môn giá trị",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Fame opens up attractive career opportunities and valuable professional connections.",
+                    "example_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị."
+                  },
+                  {
+                    "en": "widely recognized by the public",
+                    "vi": "được công chúng biết đến rộng rãi",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events.",
+                    "example_vi": "Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung dễ nhận được lời mời tham gia những dự án lớn và sự kiện uy tín."
+                  },
+                  {
+                    "en": "advance one's professional career",
+                    "vi": "thăng tiến sự nghiệp chuyên môn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Fame opens up attractive career opportunities and valuable professional connections.",
+                    "example_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị."
+                  },
+                  {
+                    "en": "receive priority treatment and privileges",
+                    "vi": "nhận được sự ưu ái và đặc quyền",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Fame opens up attractive career opportunities and valuable professional connections.",
+                    "example_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: LAN TỎA ẢNH HƯỞNG TÍCH CỰC ĐẾN CỘNG ĐỒNG (POSITIVE SOCIAL INFLUENCE)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "use their public influence",
+                    "vi": "dùng sức ảnh hưởng trước công chúng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                    "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
+                  },
+                  {
+                    "en": "inspire others",
+                    "vi": "truyền cảm hứng cho người khác",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                    "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
+                  },
+                  {
+                    "en": "contribute positively to society",
+                    "vi": "đóng góp tích cực cho xã hội",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                    "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
+                  },
+                  {
+                    "en": "serve as positive role models",
+                    "vi": "trở thành hình mẫu tích cực cho giới trẻ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                    "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
+                  },
+                  {
+                    "en": "support meaningful community campaigns",
+                    "vi": "ủng hộ các chiến dịch cộng đồng ý nghĩa",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                    "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: NHẬN ĐƯỢC SỰ YÊU MẾN VÀ CÔNG NHẬN CHO TÀI NĂNG (PUBLIC ADMIRATION AND RECOGNITION)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "a strong sense of pride",
+                    "vi": "niềm tự hào lớn lao",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                    "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
+                  },
+                  {
+                    "en": "personal talent and hard work",
+                    "vi": "tài năng và sự nỗ lực cá nhân",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                    "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
+                  },
+                  {
+                    "en": "widely admired",
+                    "vi": "được ngưỡng mộ rộng rãi",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                    "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
+                  },
+                  {
+                    "en": "gain widespread public recognition",
+                    "vi": "nhận được sự công nhận rộng rãi từ công chúng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                    "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
+                  },
+                  {
+                    "en": "feel a sense of personal fulfillment",
+                    "vi": "cảm nhận sự viên mãn trong sự nghiệp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                    "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: HƯỞNG SỰ ƯU ÁI VÀ ĐẶC QUYỀN TRONG ĐỜI SỐNG XÃ HỘI (SOCIAL PRIVILEGES AND RESPECT)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "well-known individuals",
+                    "vi": "những cá nhân nổi tiếng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                    "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
+                  },
+                  {
+                    "en": "receive warm hospitality",
+                    "vi": "nhận được sự đón tiếp nồng hậu",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                    "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
+                  },
+                  {
+                    "en": "special privileges",
+                    "vi": "những đặc quyền riêng biệt",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                    "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
+                  },
+                  {
+                    "en": "enjoy high social status",
+                    "vi": "có vị thế xã hội cao",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                    "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
+                  },
+                  {
+                    "en": "build strong personal branding",
+                    "vi": "xây dựng thương hiệu cá nhân vững mạnh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                    "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: ĐÁNH MẤT QUYỀN RIÊNG TƯ TRONG ĐỜI SỐNG CÁ NHÂN (SEVERE LOSS OF PERSONAL PRIVACY)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "the biggest prices",
+                    "vi": "những cái giá phải trả lớn nhất",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                    "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
+                  },
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                    "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
+                  },
+                  {
+                    "en": "severe loss of personal privacy",
+                    "vi": "sự đánh mất nghiêm trọng quyền riêng tư cá nhân",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                    "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
+                  },
+                  {
+                    "en": "relentless media intrusion",
+                    "vi": "sự xâm phạm đời tư không ngừng từ truyền thông",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                    "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
+                  },
+                  {
+                    "en": "live constantly in the public eye",
+                    "vi": "sống liên tục dưới ánh nhìn của công chúng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                    "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: ÁP LỰC PHẢI GIỮ HÌNH ẢNH HOÀN HẢO VÀ DỄ BỊ CHỈ TRÍCH (INTENSE PRESSURE AND PUBLIC SCRUTINY)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "face intense mental pressure",
+                    "vi": "đối mặt với áp lực tinh thần nặng nề",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                    "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
+                  },
+                  {
+                    "en": "every word and action",
+                    "vi": "mọi lời nói và hành động",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                    "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
+                  },
+                  {
+                    "en": "be closely scrutinized",
+                    "vi": "bị săm soi khắt khe",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                    "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
+                  },
+                  {
+                    "en": "constant public scrutiny",
+                    "vi": "sự soi xét liên tục của dư luận",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                    "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
+                  },
+                  {
+                    "en": "emotional exhaustion and burnout",
+                    "vi": "sự kiệt quệ cảm xúc và kiệt sức",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                    "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: KHÓ TÌM ĐƯỢC TÌNH BẠN VÀ TÌNH CẢM CHÂN THÀNH (DIFFICULTY TRUSTING OTHERS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "wealth and stardom",
+                    "vi": "sự giàu có và ánh hào quang ngôi sao",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                    "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
+                  },
+                  {
+                    "en": "make it difficult for famous people",
+                    "vi": "khiến người nổi tiếng gặp khó khăn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                    "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
+                  },
+                  {
+                    "en": "truly care about them",
+                    "vi": "thật lòng quan tâm đến họ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                    "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
+                  },
+                  {
+                    "en": "struggle to build genuine friendships",
+                    "vi": "khó xây dựng được tình bạn chân thành",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                    "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
+                  },
+                  {
+                    "en": "question others' true intentions",
+                    "vi": "hoài nghi mục đích thật sự của người khác",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                    "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: ẢNH HƯỞNG ĐẾN SỰ AN TOÀN VÀ BÌNH YÊN CỦA GIA ĐÌNH (SAFETY CONCERNS FOR FAMILY MEMBERS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "expose their loved ones to unwanted attention",
+                    "vi": "khiến người thân phải chịu sự chú ý ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
+                    "example_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn."
+                  },
+                  {
+                    "en": "celebrities themselves",
+                    "vi": "bản thân những người nổi tiếng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
+                    "example_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn."
+                  },
+                  {
+                    "en": "be photographed secretly",
+                    "vi": "bị chụp ảnh lén",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Celebrities' children or relatives may be photographed secretly, discussed in tabloids, or even harassed by obsessive fans.",
+                    "example_vi": "Con cái hoặc người thân của nghệ sĩ có thể bị chụp ảnh lén, bàn tán trên báo chí hoặc thậm chí bị kẻ quá khích quấy rối."
+                  },
+                  {
+                    "en": "protect children from media exposure",
+                    "vi": "bảo vệ con cái khỏi sự phơi bày truyền thông",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
+                    "example_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn."
+                  },
+                  {
+                    "en": "stalking and security threats",
+                    "vi": "hành vi bám đuôi và mối đe dọa an ninh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
+                    "example_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: LỊCH TRÌNH LÀM VIỆC DÀY ĐẶC VÀ SỰ Bấp BÊNH CỦA DANH TIẾNG (EXHAUSTING SCHEDULES AND FLEETING FAME)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "stay relevant in the spotlight",
+                    "vi": "duy trì sức hút dưới tâm điểm chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                    "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
+                  },
+                  {
+                    "en": "endure exhausting schedules",
+                    "vi": "chịu đựng lịch trình làm việc kiệt sức",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                    "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
+                  },
+                  {
+                    "en": "fame itself remains unstable",
+                    "vi": "bản thân danh tiếng lại thiếu ổn định",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                    "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
+                  },
+                  {
+                    "en": "the fleeting nature of stardom",
+                    "vi": "bản chất chóng tàn của ánh hào quang",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                    "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
+                  },
+                  {
+                    "en": "sacrifice work-life balance",
+                    "vi": "hy sinh sự cân bằng giữa công việc và cuộc sống",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                    "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, becoming famous has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, trở nên nổi tiếng ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of becoming famous.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của trở nên nổi tiếng."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, becoming famous offers several notable advantages.",
+                    "example_vi": "Một mặt, trở nên nổi tiếng mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many young people experience becoming famous in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người trẻ trải nghiệm trở nên nổi tiếng trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of becoming famous is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của trở nên nổi tiếng là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: MANG LẠI THU NHẬP CAO VÀ CUỘC SỐNG SUNG TÚC (HIGH INCOME AND FINANCIAL WEALTH)",
+                "collocations": [
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng"
+                  },
+                  {
+                    "en": "bring substantial income",
+                    "vi": "mang lại nguồn thu nhập rất lớn"
+                  },
+                  {
+                    "en": "long-term financial security",
+                    "vi": "sự đảm bảo tài chính lâu dài"
+                  },
+                  {
+                    "en": "performance fees",
+                    "vi": "cát-xê biểu diễn"
+                  },
+                  {
+                    "en": "brand endorsements",
+                    "vi": "hợp đồng đại diện thương hiệu"
+                  },
+                  {
+                    "en": "personal businesses",
+                    "vi": "hoạt động kinh doanh riêng"
+                  },
+                  {
+                    "en": "enjoy a high standard of living",
+                    "vi": "tận hưởng mức sống cao"
+                  },
+                  {
+                    "en": "support their families well",
+                    "vi": "hỗ trợ tốt cho gia đình"
+                  },
+                  {
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
+                  }
+                ],
+                "point_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính.",
+                "point_en": "Becoming famous can bring substantial income and long-term financial security.",
+                "evidence_vi": "Bên cạnh cát-xê biểu diễn, người nổi tiếng còn kiếm được khoản tiền lớn từ hợp đồng đại diện thương hiệu, quảng cáo và kinh doanh riêng. Nhờ đó, họ có thể tận hưởng mức sống cao và hỗ trợ tốt cho gia đình mình.",
+                "evidence_en": "Besides performance fees, celebrities earn generous amounts of money from brand endorsements, advertisements, and personal businesses. As a result, they can enjoy a high standard of living and support their families well.",
+                "point_collocations": [
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng"
+                  },
+                  {
+                    "en": "bring substantial income",
+                    "vi": "mang lại nguồn thu nhập rất lớn"
+                  },
+                  {
+                    "en": "long-term financial security",
+                    "vi": "sự đảm bảo tài chính lâu dài"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "performance fees",
+                      "vi": "cát-xê biểu diễn"
+                    },
+                    {
+                      "en": "brand endorsements",
+                      "vi": "hợp đồng đại diện thương hiệu"
+                    },
+                    {
+                      "en": "personal businesses",
+                      "vi": "hoạt động kinh doanh riêng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "enjoy a high standard of living",
+                      "vi": "tận hưởng mức sống cao"
+                    },
+                    {
+                      "en": "support their families well",
+                      "vi": "hỗ trợ tốt cho gia đình"
+                    },
+                    {
+                      "en": "as a result",
+                      "vi": "nhờ đó / kết quả là"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: MỞ RỘNG CƠ HỘI NGHỀ NGHIỆP VÀ KẾT NỐI XÃ HỘI (VALUABLE CAREER OPPORTUNITIES)",
+                "collocations": [
+                  {
+                    "en": "open up attractive career opportunities",
+                    "vi": "mở ra nhiều cơ hội nghề nghiệp hấp dẫn"
+                  },
+                  {
+                    "en": "valuable professional connections",
+                    "vi": "các mối quan hệ chuyên môn giá trị"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "danh tiếng / sự nổi tiếng"
+                  },
+                  {
+                    "en": "widely recognized by the public",
+                    "vi": "được công chúng biết đến rộng rãi"
+                  },
+                  {
+                    "en": "join major projects",
+                    "vi": "tham gia vào những dự án lớn"
+                  },
+                  {
+                    "en": "prestigious events",
+                    "vi": "các sự kiện danh giá, uy tín"
+                  },
+                  {
+                    "en": "collaborate with leading experts",
+                    "vi": "hợp tác với những chuyên gia hàng đầu"
+                  },
+                  {
+                    "en": "in their fields",
+                    "vi": "trong lĩnh vực của mình"
+                  },
+                  {
+                    "en": "have chances to",
+                    "vi": "có cơ hội để"
+                  }
+                ],
+                "point_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị.",
+                "point_en": "Fame opens up attractive career opportunities and valuable professional connections.",
+                "evidence_vi": "Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung dễ nhận được lời mời tham gia những dự án lớn và sự kiện uy tín. Họ cũng có cơ hội hợp tác với những chuyên gia hàng đầu trong lĩnh vực của mình.",
+                "evidence_en": "Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events. They also have chances to collaborate with leading experts in their fields.",
+                "point_collocations": [
+                  {
+                    "en": "open up attractive career opportunities",
+                    "vi": "mở ra nhiều cơ hội nghề nghiệp hấp dẫn"
+                  },
+                  {
+                    "en": "valuable professional connections",
+                    "vi": "các mối quan hệ chuyên môn giá trị"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "danh tiếng / sự nổi tiếng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "widely recognized by the public",
+                      "vi": "được công chúng biết đến rộng rãi"
+                    },
+                    {
+                      "en": "join major projects",
+                      "vi": "tham gia vào những dự án lớn"
+                    },
+                    {
+                      "en": "prestigious events",
+                      "vi": "các sự kiện danh giá, uy tín"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collaborate with leading experts",
+                      "vi": "hợp tác với những chuyên gia hàng đầu"
+                    },
+                    {
+                      "en": "in their fields",
+                      "vi": "trong lĩnh vực của mình"
+                    },
+                    {
+                      "en": "have chances to",
+                      "vi": "có cơ hội để"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: LAN TỎA ẢNH HƯỞNG TÍCH CỰC ĐẾN CỘNG ĐỒNG (POSITIVE SOCIAL INFLUENCE)",
+                "collocations": [
+                  {
+                    "en": "use their public influence",
+                    "vi": "dùng sức ảnh hưởng trước công chúng"
+                  },
+                  {
+                    "en": "inspire others",
+                    "vi": "truyền cảm hứng cho người khác"
+                  },
+                  {
+                    "en": "contribute positively to society",
+                    "vi": "đóng góp tích cực cho xã hội"
+                  },
+                  {
+                    "en": "raise funds for charity",
+                    "vi": "gây quỹ cho hoạt động từ thiện"
+                  },
+                  {
+                    "en": "promote environmental awareness",
+                    "vi": "nâng cao nhận thức bảo vệ môi trường"
+                  },
+                  {
+                    "en": "motivate young fans",
+                    "vi": "khích lệ những người hâm mộ trẻ"
+                  },
+                  {
+                    "en": "create a much stronger social impact",
+                    "vi": "tạo ra tác động xã hội mạnh mẽ hơn nhiều"
+                  },
+                  {
+                    "en": "ordinary citizens",
+                    "vi": "những người dân bình thường"
+                  },
+                  {
+                    "en": "their voices",
+                    "vi": "tiếng nói của họ"
+                  }
+                ],
+                "point_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội.",
+                "point_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                "evidence_vi": "Với lượng người theo dõi đông đảo, họ dễ dàng kêu gọi quyên góp từ thiện, nâng cao nhận thức bảo vệ môi trường hoặc khích lệ giới trẻ nỗ lực theo đuổi ước mơ. Tiếng nói của họ tạo ra tác động lan tỏa mạnh mẽ hơn nhiều so với một cá nhân bình thường.",
+                "evidence_en": "With millions of followers, they can easily raise funds for charity, promote environmental awareness, or motivate young fans to pursue their dreams. Their voices create a much stronger social impact than those of ordinary citizens.",
+                "point_collocations": [
+                  {
+                    "en": "use their public influence",
+                    "vi": "dùng sức ảnh hưởng trước công chúng"
+                  },
+                  {
+                    "en": "inspire others",
+                    "vi": "truyền cảm hứng cho người khác"
+                  },
+                  {
+                    "en": "contribute positively to society",
+                    "vi": "đóng góp tích cực cho xã hội"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "raise funds for charity",
+                      "vi": "gây quỹ cho hoạt động từ thiện"
+                    },
+                    {
+                      "en": "promote environmental awareness",
+                      "vi": "nâng cao nhận thức bảo vệ môi trường"
+                    },
+                    {
+                      "en": "motivate young fans",
+                      "vi": "khích lệ những người hâm mộ trẻ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "create a much stronger social impact",
+                      "vi": "tạo ra tác động xã hội mạnh mẽ hơn nhiều"
+                    },
+                    {
+                      "en": "ordinary citizens",
+                      "vi": "những người dân bình thường"
+                    },
+                    {
+                      "en": "their voices",
+                      "vi": "tiếng nói của họ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: NHẬN ĐƯỢC SỰ YÊU MẾN VÀ CÔNG NHẬN CHO TÀI NĂNG (PUBLIC ADMIRATION AND RECOGNITION)",
+                "collocations": [
+                  {
+                    "en": "a strong sense of pride",
+                    "vi": "niềm tự hào lớn lao"
+                  },
+                  {
+                    "en": "personal talent and hard work",
+                    "vi": "tài năng và sự nỗ lực cá nhân"
+                  },
+                  {
+                    "en": "widely admired",
+                    "vi": "được ngưỡng mộ rộng rãi"
+                  },
+                  {
+                    "en": "warm support from fans",
+                    "vi": "sự ủng hộ nồng nhiệt từ người hâm mộ"
+                  },
+                  {
+                    "en": "years of dedication",
+                    "vi": "những năm tháng khổ luyện/tận tâm"
+                  },
+                  {
+                    "en": "truly worthwhile",
+                    "vi": "hoàn toàn xứng đáng"
+                  },
+                  {
+                    "en": "emotional encouragement",
+                    "vi": "nguồn động viên tinh thần"
+                  },
+                  {
+                    "en": "keep creating",
+                    "vi": "tiếp tục sáng tạo"
+                  },
+                  {
+                    "en": "strive for excellence",
+                    "vi": "nỗ lực vươn tới sự xuất sắc"
+                  }
+                ],
+                "point_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận.",
+                "point_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                "evidence_vi": "Sự cổ vũ nồng nhiệt từ người hâm mộ giúp các nghệ sĩ và vận động viên cảm thấy những tháng ngày khổ luyện của mình hoàn toàn xứng đáng. Nguồn động viên tinh thần đó thúc đẩy họ tiếp tục sáng tạo và cống hiến.",
+                "evidence_en": "Warm support from fans makes artists and athletes feel that their years of dedication are truly worthwhile. Such emotional encouragement motivates them to keep creating and striving for excellence.",
+                "point_collocations": [
+                  {
+                    "en": "a strong sense of pride",
+                    "vi": "niềm tự hào lớn lao"
+                  },
+                  {
+                    "en": "personal talent and hard work",
+                    "vi": "tài năng và sự nỗ lực cá nhân"
+                  },
+                  {
+                    "en": "widely admired",
+                    "vi": "được ngưỡng mộ rộng rãi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "warm support from fans",
+                      "vi": "sự ủng hộ nồng nhiệt từ người hâm mộ"
+                    },
+                    {
+                      "en": "years of dedication",
+                      "vi": "những năm tháng khổ luyện/tận tâm"
+                    },
+                    {
+                      "en": "truly worthwhile",
+                      "vi": "hoàn toàn xứng đáng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional encouragement",
+                      "vi": "nguồn động viên tinh thần"
+                    },
+                    {
+                      "en": "keep creating",
+                      "vi": "tiếp tục sáng tạo"
+                    },
+                    {
+                      "en": "strive for excellence",
+                      "vi": "nỗ lực vươn tới sự xuất sắc"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: HƯỞNG SỰ ƯU ÁI VÀ ĐẶC QUYỀN TRONG ĐỜI SỐNG XÃ HỘI (SOCIAL PRIVILEGES AND RESPECT)",
+                "collocations": [
+                  {
+                    "en": "well-known individuals",
+                    "vi": "những cá nhân nổi tiếng"
+                  },
+                  {
+                    "en": "receive warm hospitality",
+                    "vi": "nhận được sự đón tiếp nồng hậu"
+                  },
+                  {
+                    "en": "special privileges",
+                    "vi": "những đặc quyền riêng biệt"
+                  },
+                  {
+                    "en": "VIP access at events",
+                    "vi": "quyền ra vào khu ưu tiên tại sự kiện"
+                  },
+                  {
+                    "en": "sponsored products",
+                    "vi": "các sản phẩm tài trợ"
+                  },
+                  {
+                    "en": "launch new businesses",
+                    "vi": "khởi sự hoạt động kinh doanh mới"
+                  },
+                  {
+                    "en": "professional plans",
+                    "vi": "các kế hoạch công việc"
+                  },
+                  {
+                    "en": "run much more smoothly",
+                    "vi": "diễn ra suôn sẻ hơn nhiều"
+                  },
+                  {
+                    "en": "these advantages",
+                    "vi": "những lợi thế này"
+                  }
+                ],
+                "point_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống.",
+                "point_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                "evidence_vi": "Họ thường được mời vào khu vực ưu tiên tại sự kiện, nhận quà tặng tài trợ từ các nhãn hàng lớn và dễ tạo dựng uy tín khi khởi nghiệp kinh doanh. Những thuận lợi này giúp công việc của họ diễn ra suôn sẻ hơn nhiều.",
+                "evidence_en": "They are frequently offered VIP access at events, gifted sponsored products by major brands, and trusted faster when launching new businesses. These advantages help their professional plans run much more smoothly.",
+                "point_collocations": [
+                  {
+                    "en": "well-known individuals",
+                    "vi": "những cá nhân nổi tiếng"
+                  },
+                  {
+                    "en": "receive warm hospitality",
+                    "vi": "nhận được sự đón tiếp nồng hậu"
+                  },
+                  {
+                    "en": "special privileges",
+                    "vi": "những đặc quyền riêng biệt"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "VIP access at events",
+                      "vi": "quyền ra vào khu ưu tiên tại sự kiện"
+                    },
+                    {
+                      "en": "sponsored products",
+                      "vi": "các sản phẩm tài trợ"
+                    },
+                    {
+                      "en": "launch new businesses",
+                      "vi": "khởi sự hoạt động kinh doanh mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "professional plans",
+                      "vi": "các kế hoạch công việc"
+                    },
+                    {
+                      "en": "run much more smoothly",
+                      "vi": "diễn ra suôn sẻ hơn nhiều"
+                    },
+                    {
+                      "en": "these advantages",
+                      "vi": "những lợi thế này"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: ĐÁNH MẤT QUYỀN RIÊNG TƯ TRONG ĐỜI SỐNG CÁ NHÂN (SEVERE LOSS OF PERSONAL PRIVACY)",
+                "collocations": [
+                  {
+                    "en": "the biggest prices",
+                    "vi": "những cái giá phải trả lớn nhất"
+                  },
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng"
+                  },
+                  {
+                    "en": "severe loss of personal privacy",
+                    "vi": "sự đánh mất nghiêm trọng quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "be constantly followed by paparazzi",
+                    "vi": "liên tục bị thợ săn ảnh đeo bám"
+                  },
+                  {
+                    "en": "curious crowds",
+                    "vi": "đám đông hiếu kỳ"
+                  },
+                  {
+                    "en": "family vacations",
+                    "vi": "những kỳ nghỉ cùng gia đình"
+                  },
+                  {
+                    "en": "enjoy a peaceful, ordinary life",
+                    "vi": "tận hưởng cuộc sống bình yên, giản dị"
+                  },
+                  {
+                    "en": "without being watched",
+                    "vi": "mà không bị dòm ngó/theo dõi"
+                  },
+                  {
+                    "en": "struggle to",
+                    "vi": "chật vật / rất khó để"
+                  }
+                ],
+                "point_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân.",
+                "point_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                "evidence_vi": "Người nổi tiếng thường xuyên bị thợ săn ảnh và đám đông hiếu kỳ theo dõi ở nơi công cộng, thậm chí ngay cả khi đi ăn tối hay nghỉ ngơi cùng gia đình. Họ rất khó tận hưởng một cuộc sống tự do, bình dị như những người bình thường khác.",
+                "evidence_en": "Celebrities are constantly followed by paparazzi and curious crowds in public places, even during quiet dinners or family vacations. Consequently, they struggle to enjoy a peaceful, ordinary life without being watched.",
+                "point_collocations": [
+                  {
+                    "en": "the biggest prices",
+                    "vi": "những cái giá phải trả lớn nhất"
+                  },
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng"
+                  },
+                  {
+                    "en": "severe loss of personal privacy",
+                    "vi": "sự đánh mất nghiêm trọng quyền riêng tư cá nhân"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be constantly followed by paparazzi",
+                      "vi": "liên tục bị thợ săn ảnh đeo bám"
+                    },
+                    {
+                      "en": "curious crowds",
+                      "vi": "đám đông hiếu kỳ"
+                    },
+                    {
+                      "en": "family vacations",
+                      "vi": "những kỳ nghỉ cùng gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "enjoy a peaceful, ordinary life",
+                      "vi": "tận hưởng cuộc sống bình yên, giản dị"
+                    },
+                    {
+                      "en": "without being watched",
+                      "vi": "mà không bị dòm ngó/theo dõi"
+                    },
+                    {
+                      "en": "struggle to",
+                      "vi": "chật vật / rất khó để"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: ÁP LỰC PHẢI GIỮ HÌNH ẢNH HOÀN HẢO VÀ DỄ BỊ CHỈ TRÍCH (INTENSE PRESSURE AND PUBLIC SCRUTINY)",
+                "collocations": [
+                  {
+                    "en": "face intense mental pressure",
+                    "vi": "đối mặt với áp lực tinh thần nặng nề"
+                  },
+                  {
+                    "en": "every word and action",
+                    "vi": "mọi lời nói và hành động"
+                  },
+                  {
+                    "en": "be closely scrutinized",
+                    "vi": "bị săm soi khắt khe"
+                  },
+                  {
+                    "en": "a careless comment",
+                    "vi": "một bình luận/phát ngôn bất cẩn"
+                  },
+                  {
+                    "en": "trigger harsh online criticism",
+                    "vi": "châm ngòi cho làn sóng chỉ trích gay gắt trên mạng"
+                  },
+                  {
+                    "en": "malicious rumors",
+                    "vi": "những tin đồn ác ý"
+                  },
+                  {
+                    "en": "maintain a flawless image",
+                    "vi": "duy trì hình ảnh hoàn hảo không tì vết"
+                  },
+                  {
+                    "en": "suffer from anxiety, insomnia, and depression",
+                    "vi": "chịu đựng chứng lo âu, mất ngủ và trầm cảm"
+                  },
+                  {
+                    "en": "constant burden",
+                    "vi": "gánh nặng thường trực"
+                  }
+                ],
+                "point_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi.",
+                "point_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                "evidence_vi": "Chỉ một lỗi lầm nhỏ hay một phát ngôn thiếu khéo léo cũng có thể dẫn đến làn sóng chỉ trích gay gắt và tin đồn ác ý trên mạng xã hội. Gánh nặng phải luôn xuất hiện hoàn hảo khiến nhiều ngôi sao rơi vào lo âu, mất ngủ và trầm cảm.",
+                "evidence_en": "Even a minor mistake or a careless comment can trigger harsh online criticism and malicious rumors. The constant burden of maintaining a flawless image causes many stars to suffer from anxiety, insomnia, and depression.",
+                "point_collocations": [
+                  {
+                    "en": "face intense mental pressure",
+                    "vi": "đối mặt với áp lực tinh thần nặng nề"
+                  },
+                  {
+                    "en": "every word and action",
+                    "vi": "mọi lời nói và hành động"
+                  },
+                  {
+                    "en": "be closely scrutinized",
+                    "vi": "bị săm soi khắt khe"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "a careless comment",
+                      "vi": "một bình luận/phát ngôn bất cẩn"
+                    },
+                    {
+                      "en": "trigger harsh online criticism",
+                      "vi": "châm ngòi cho làn sóng chỉ trích gay gắt trên mạng"
+                    },
+                    {
+                      "en": "malicious rumors",
+                      "vi": "những tin đồn ác ý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "maintain a flawless image",
+                      "vi": "duy trì hình ảnh hoàn hảo không tì vết"
+                    },
+                    {
+                      "en": "suffer from anxiety, insomnia, and depression",
+                      "vi": "chịu đựng chứng lo âu, mất ngủ và trầm cảm"
+                    },
+                    {
+                      "en": "constant burden",
+                      "vi": "gánh nặng thường trực"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: KHÓ TÌM ĐƯỢC TÌNH BẠN VÀ TÌNH CẢM CHÂN THÀNH (DIFFICULTY TRUSTING OTHERS)",
+                "collocations": [
+                  {
+                    "en": "wealth and stardom",
+                    "vi": "sự giàu có và ánh hào quang ngôi sao"
+                  },
+                  {
+                    "en": "make it difficult for famous people",
+                    "vi": "khiến người nổi tiếng gặp khó khăn"
+                  },
+                  {
+                    "en": "truly care about them",
+                    "vi": "thật lòng quan tâm đến họ"
+                  },
+                  {
+                    "en": "take advantage of their money, status, or business connections",
+                    "vi": "lợi dụng tiền bạc, vị thế hoặc mối quan hệ công việc"
+                  },
+                  {
+                    "en": "approach celebrities",
+                    "vi": "tiếp cận người nổi tiếng"
+                  },
+                  {
+                    "en": "some people",
+                    "vi": "một số người"
+                  },
+                  {
+                    "en": "ulterior motives",
+                    "vi": "động cơ vụ lợi ẩn giấu"
+                  },
+                  {
+                    "en": "isolate themselves",
+                    "vi": "tự thu mình / cô lập bản thân"
+                  },
+                  {
+                    "en": "feel deeply lonely",
+                    "vi": "cảm thấy cô đơn sâu sắc"
+                  }
+                ],
+                "point_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng.",
+                "point_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                "evidence_vi": "Một số người tiếp cận người nổi tiếng chỉ nhằm lợi dụng tiền bạc, danh tiếng hoặc các mối quan hệ có lợi cho bản thân. Vì sợ bị phản bội hay lợi dụng, nhiều ngôi sao thu mình lại và cảm thấy cô đơn dù xung quanh có rất đông người hâm mộ.",
+                "evidence_en": "Some people approach celebrities only to take advantage of their money, status, or business connections. Fearing betrayal or ulterior motives, many stars isolate themselves and feel deeply lonely despite having millions of fans.",
+                "point_collocations": [
+                  {
+                    "en": "wealth and stardom",
+                    "vi": "sự giàu có và ánh hào quang ngôi sao"
+                  },
+                  {
+                    "en": "make it difficult for famous people",
+                    "vi": "khiến người nổi tiếng gặp khó khăn"
+                  },
+                  {
+                    "en": "truly care about them",
+                    "vi": "thật lòng quan tâm đến họ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take advantage of their money, status, or business connections",
+                      "vi": "lợi dụng tiền bạc, vị thế hoặc mối quan hệ công việc"
+                    },
+                    {
+                      "en": "approach celebrities",
+                      "vi": "tiếp cận người nổi tiếng"
+                    },
+                    {
+                      "en": "some people",
+                      "vi": "một số người"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ulterior motives",
+                      "vi": "động cơ vụ lợi ẩn giấu"
+                    },
+                    {
+                      "en": "isolate themselves",
+                      "vi": "tự thu mình / cô lập bản thân"
+                    },
+                    {
+                      "en": "feel deeply lonely",
+                      "vi": "cảm thấy cô đơn sâu sắc"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG ĐẾN SỰ AN TOÀN VÀ BÌNH YÊN CỦA GIA ĐÌNH (SAFETY CONCERNS FOR FAMILY MEMBERS)",
+                "collocations": [
+                  {
+                    "en": "expose their loved ones to unwanted attention",
+                    "vi": "khiến người thân phải chịu sự chú ý ngoài ý muốn"
+                  },
+                  {
+                    "en": "celebrities themselves",
+                    "vi": "bản thân những người nổi tiếng"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "sự nổi tiếng"
+                  },
+                  {
+                    "en": "be photographed secretly",
+                    "vi": "bị chụp ảnh lén"
+                  },
+                  {
+                    "en": "discussed in tabloids",
+                    "vi": "bị bàn tán trên báo lá cải"
+                  },
+                  {
+                    "en": "harassed by obsessive fans",
+                    "vi": "bị quấy rối bởi người hâm mộ cuồng nhiệt quá khích"
+                  },
+                  {
+                    "en": "constantly worried",
+                    "vi": "luôn lo lắng thường trực"
+                  },
+                  {
+                    "en": "family's safety and well-being",
+                    "vi": "sự an toàn và bình yên của gia đình"
+                  },
+                  {
+                    "en": "public figures",
+                    "vi": "những nhân vật của công chúng"
+                  }
+                ],
+                "point_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn.",
+                "point_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
+                "evidence_vi": "Con cái hoặc người thân của nghệ sĩ có thể bị chụp ảnh lén, bàn tán trên báo chí hoặc thậm chí bị kẻ quá khích quấy rối. Điều này khiến nhiều người nổi tiếng luôn lo lắng cho sự an toàn và cuộc sống bình thường của gia đình mình.",
+                "evidence_en": "Celebrities' children or relatives may be photographed secretly, discussed in tabloids, or even harassed by obsessive fans. This leaves many public figures constantly worried about their family's safety and well-being.",
+                "point_collocations": [
+                  {
+                    "en": "expose their loved ones to unwanted attention",
+                    "vi": "khiến người thân phải chịu sự chú ý ngoài ý muốn"
+                  },
+                  {
+                    "en": "celebrities themselves",
+                    "vi": "bản thân những người nổi tiếng"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "sự nổi tiếng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be photographed secretly",
+                      "vi": "bị chụp ảnh lén"
+                    },
+                    {
+                      "en": "discussed in tabloids",
+                      "vi": "bị bàn tán trên báo lá cải"
+                    },
+                    {
+                      "en": "harassed by obsessive fans",
+                      "vi": "bị quấy rối bởi người hâm mộ cuồng nhiệt quá khích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "constantly worried",
+                      "vi": "luôn lo lắng thường trực"
+                    },
+                    {
+                      "en": "family's safety and well-being",
+                      "vi": "sự an toàn và bình yên của gia đình"
+                    },
+                    {
+                      "en": "public figures",
+                      "vi": "những nhân vật của công chúng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: LỊCH TRÌNH LÀM VIỆC DÀY ĐẶC VÀ SỰ Bấp BÊNH CỦA DANH TIẾNG (EXHAUSTING SCHEDULES AND FLEETING FAME)",
+                "collocations": [
+                  {
+                    "en": "stay relevant in the spotlight",
+                    "vi": "duy trì sức hút dưới tâm điểm chú ý"
+                  },
+                  {
+                    "en": "endure exhausting schedules",
+                    "vi": "chịu đựng lịch trình làm việc kiệt sức"
+                  },
+                  {
+                    "en": "fame itself remains unstable",
+                    "vi": "bản thân danh tiếng lại thiếu ổn định"
+                  },
+                  {
+                    "en": "non-stop filming and touring schedules",
+                    "vi": "lịch quay hình và lưu diễn liên miên"
+                  },
+                  {
+                    "en": "little time for rest",
+                    "vi": "rất ít thời gian để nghỉ ngơi"
+                  },
+                  {
+                    "en": "personal health care",
+                    "vi": "chăm sóc sức khỏe cá nhân"
+                  },
+                  {
+                    "en": "audience tastes shift",
+                    "vi": "thị hiếu khán giả thay đổi"
+                  },
+                  {
+                    "en": "public attention fades",
+                    "vi": "sự chú ý của công chúng phai nhạt"
+                  },
+                  {
+                    "en": "suffer severe emotional and career disappointment",
+                    "vi": "chịu sự hụt hẫng nặng nề về tâm lý và sự nghiệp"
+                  }
+                ],
+                "point_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt.",
+                "point_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                "evidence_vi": "Lịch quay hình, lưu diễn liên miên khiến họ thiếu thời gian nghỉ ngơi và chăm sóc sức khỏe cá nhân. Hơn nữa, khi thị hiếu khán giả thay đổi và sự chú ý giảm sút, nhiều nghệ sĩ dễ rơi vào khủng hoảng tâm lý lẫn tài chính.",
+                "evidence_en": "Non-stop filming and touring schedules leave them with little time for rest and personal health care. Moreover, when audience tastes shift and public attention fades, many entertainers suffer severe emotional and career disappointment.",
+                "point_collocations": [
+                  {
+                    "en": "stay relevant in the spotlight",
+                    "vi": "duy trì sức hút dưới tâm điểm chú ý"
+                  },
+                  {
+                    "en": "endure exhausting schedules",
+                    "vi": "chịu đựng lịch trình làm việc kiệt sức"
+                  },
+                  {
+                    "en": "fame itself remains unstable",
+                    "vi": "bản thân danh tiếng lại thiếu ổn định"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "non-stop filming and touring schedules",
+                      "vi": "lịch quay hình và lưu diễn liên miên"
+                    },
+                    {
+                      "en": "little time for rest",
+                      "vi": "rất ít thời gian để nghỉ ngơi"
+                    },
+                    {
+                      "en": "personal health care",
+                      "vi": "chăm sóc sức khỏe cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "audience tastes shift",
+                      "vi": "thị hiếu khán giả thay đổi"
+                    },
+                    {
+                      "en": "public attention fades",
+                      "vi": "sự chú ý của công chúng phai nhạt"
+                    },
+                    {
+                      "en": "suffer severe emotional and career disappointment",
+                      "vi": "chịu sự hụt hẫng nặng nề về tâm lý và sự nghiệp"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "become famous",
+              "vi": "trở nên nổi tiếng"
+            },
+            {
+              "en": "bring substantial income",
+              "vi": "mang lại nguồn thu nhập rất lớn"
+            },
+            {
+              "en": "long-term financial security",
+              "vi": "sự đảm bảo tài chính lâu dài"
+            },
+            {
+              "en": "sign lucrative advertising contracts",
+              "vi": "ký các hợp đồng quảng cáo giá trị lớn"
+            },
+            {
+              "en": "lead a prosperous lifestyle",
+              "vi": "có một cuộc sống sung túc, đủ đầy"
+            },
+            {
+              "en": "open up attractive career opportunities",
+              "vi": "mở ra nhiều cơ hội nghề nghiệp hấp dẫn"
+            },
+            {
+              "en": "valuable professional connections",
+              "vi": "các mối quan hệ chuyên môn giá trị"
+            },
+            {
+              "en": "widely recognized by the public",
+              "vi": "được công chúng biết đến rộng rãi"
+            },
+            {
+              "en": "advance one's professional career",
+              "vi": "thăng tiến sự nghiệp chuyên môn"
+            },
+            {
+              "en": "receive priority treatment and privileges",
+              "vi": "nhận được sự ưu ái và đặc quyền"
+            },
+            {
+              "en": "use their public influence",
+              "vi": "dùng sức ảnh hưởng trước công chúng"
+            },
+            {
+              "en": "inspire others",
+              "vi": "truyền cảm hứng cho người khác"
+            },
+            {
+              "en": "contribute positively to society",
+              "vi": "đóng góp tích cực cho xã hội"
+            },
+            {
+              "en": "serve as positive role models",
+              "vi": "trở thành hình mẫu tích cực cho giới trẻ"
+            },
+            {
+              "en": "support meaningful community campaigns",
+              "vi": "ủng hộ các chiến dịch cộng đồng ý nghĩa"
+            },
+            {
+              "en": "a strong sense of pride",
+              "vi": "niềm tự hào lớn lao"
+            },
+            {
+              "en": "personal talent and hard work",
+              "vi": "tài năng và sự nỗ lực cá nhân"
+            },
+            {
+              "en": "widely admired",
+              "vi": "được ngưỡng mộ rộng rãi"
+            },
+            {
+              "en": "gain widespread public recognition",
+              "vi": "nhận được sự công nhận rộng rãi từ công chúng"
+            },
+            {
+              "en": "feel a sense of personal fulfillment",
+              "vi": "cảm nhận sự viên mãn trong sự nghiệp"
+            },
+            {
+              "en": "well-known individuals",
+              "vi": "những cá nhân nổi tiếng"
+            },
+            {
+              "en": "receive warm hospitality",
+              "vi": "nhận được sự đón tiếp nồng hậu"
+            },
+            {
+              "en": "special privileges",
+              "vi": "những đặc quyền riêng biệt"
+            },
+            {
+              "en": "enjoy high social status",
+              "vi": "có vị thế xã hội cao"
+            },
+            {
+              "en": "build strong personal branding",
+              "vi": "xây dựng thương hiệu cá nhân vững mạnh"
+            },
+            {
+              "en": "the biggest prices",
+              "vi": "những cái giá phải trả lớn nhất"
+            },
+            {
+              "en": "severe loss of personal privacy",
+              "vi": "sự đánh mất nghiêm trọng quyền riêng tư cá nhân"
+            },
+            {
+              "en": "relentless media intrusion",
+              "vi": "sự xâm phạm đời tư không ngừng từ truyền thông"
+            },
+            {
+              "en": "live constantly in the public eye",
+              "vi": "sống liên tục dưới ánh nhìn của công chúng"
+            },
+            {
+              "en": "face intense mental pressure",
+              "vi": "đối mặt với áp lực tinh thần nặng nề"
+            },
+            {
+              "en": "every word and action",
+              "vi": "mọi lời nói và hành động"
+            },
+            {
+              "en": "be closely scrutinized",
+              "vi": "bị săm soi khắt khe"
+            },
+            {
+              "en": "constant public scrutiny",
+              "vi": "sự soi xét liên tục của dư luận"
+            },
+            {
+              "en": "emotional exhaustion and burnout",
+              "vi": "sự kiệt quệ cảm xúc và kiệt sức"
+            },
+            {
+              "en": "wealth and stardom",
+              "vi": "sự giàu có và ánh hào quang ngôi sao"
+            },
+            {
+              "en": "make it difficult for famous people",
+              "vi": "khiến người nổi tiếng gặp khó khăn"
+            },
+            {
+              "en": "truly care about them",
+              "vi": "thật lòng quan tâm đến họ"
+            },
+            {
+              "en": "struggle to build genuine friendships",
+              "vi": "khó xây dựng được tình bạn chân thành"
+            },
+            {
+              "en": "question others' true intentions",
+              "vi": "hoài nghi mục đích thật sự của người khác"
+            },
+            {
+              "en": "expose their loved ones to unwanted attention",
+              "vi": "khiến người thân phải chịu sự chú ý ngoài ý muốn"
+            },
+            {
+              "en": "celebrities themselves",
+              "vi": "bản thân những người nổi tiếng"
+            },
+            {
+              "en": "be photographed secretly",
+              "vi": "bị chụp ảnh lén"
+            },
+            {
+              "en": "protect children from media exposure",
+              "vi": "bảo vệ con cái khỏi sự phơi bày truyền thông"
+            },
+            {
+              "en": "stalking and security threats",
+              "vi": "hành vi bám đuôi và mối đe dọa an ninh"
+            },
+            {
+              "en": "stay relevant in the spotlight",
+              "vi": "duy trì sức hút dưới tâm điểm chú ý"
+            },
+            {
+              "en": "endure exhausting schedules",
+              "vi": "chịu đựng lịch trình làm việc kiệt sức"
+            },
+            {
+              "en": "fame itself remains unstable",
+              "vi": "bản thân danh tiếng lại thiếu ổn định"
+            },
+            {
+              "en": "the fleeting nature of stardom",
+              "vi": "bản chất chóng tàn của ánh hào quang"
+            },
+            {
+              "en": "sacrifice work-life balance",
+              "vi": "hy sinh sự cân bằng giữa công việc và cuộc sống"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "performance fees",
+              "vi": "cát-xê biểu diễn"
+            },
+            {
+              "en": "brand endorsements",
+              "vi": "hợp đồng đại diện thương hiệu"
+            },
+            {
+              "en": "personal businesses",
+              "vi": "hoạt động kinh doanh riêng"
+            },
+            {
+              "en": "enjoy a high standard of living",
+              "vi": "tận hưởng mức sống cao"
+            },
+            {
+              "en": "support their families well",
+              "vi": "hỗ trợ tốt cho gia đình"
+            },
+            {
+              "en": "as a result",
+              "vi": "nhờ đó / kết quả là"
+            },
+            {
+              "en": "fame",
+              "vi": "danh tiếng / sự nổi tiếng"
+            },
+            {
+              "en": "join major projects",
+              "vi": "tham gia vào những dự án lớn"
+            },
+            {
+              "en": "prestigious events",
+              "vi": "các sự kiện danh giá, uy tín"
+            },
+            {
+              "en": "collaborate with leading experts",
+              "vi": "hợp tác với những chuyên gia hàng đầu"
+            },
+            {
+              "en": "in their fields",
+              "vi": "trong lĩnh vực của mình"
+            },
+            {
+              "en": "have chances to",
+              "vi": "có cơ hội để"
+            },
+            {
+              "en": "raise funds for charity",
+              "vi": "gây quỹ cho hoạt động từ thiện"
+            },
+            {
+              "en": "promote environmental awareness",
+              "vi": "nâng cao nhận thức bảo vệ môi trường"
+            },
+            {
+              "en": "motivate young fans",
+              "vi": "khích lệ những người hâm mộ trẻ"
+            },
+            {
+              "en": "create a much stronger social impact",
+              "vi": "tạo ra tác động xã hội mạnh mẽ hơn nhiều"
+            },
+            {
+              "en": "ordinary citizens",
+              "vi": "những người dân bình thường"
+            },
+            {
+              "en": "their voices",
+              "vi": "tiếng nói của họ"
+            },
+            {
+              "en": "warm support from fans",
+              "vi": "sự ủng hộ nồng nhiệt từ người hâm mộ"
+            },
+            {
+              "en": "years of dedication",
+              "vi": "những năm tháng khổ luyện/tận tâm"
+            },
+            {
+              "en": "truly worthwhile",
+              "vi": "hoàn toàn xứng đáng"
+            },
+            {
+              "en": "emotional encouragement",
+              "vi": "nguồn động viên tinh thần"
+            },
+            {
+              "en": "keep creating",
+              "vi": "tiếp tục sáng tạo"
+            },
+            {
+              "en": "strive for excellence",
+              "vi": "nỗ lực vươn tới sự xuất sắc"
+            },
+            {
+              "en": "VIP access at events",
+              "vi": "quyền ra vào khu ưu tiên tại sự kiện"
+            },
+            {
+              "en": "sponsored products",
+              "vi": "các sản phẩm tài trợ"
+            },
+            {
+              "en": "launch new businesses",
+              "vi": "khởi sự hoạt động kinh doanh mới"
+            },
+            {
+              "en": "professional plans",
+              "vi": "các kế hoạch công việc"
+            },
+            {
+              "en": "run much more smoothly",
+              "vi": "diễn ra suôn sẻ hơn nhiều"
+            },
+            {
+              "en": "these advantages",
+              "vi": "những lợi thế này"
+            },
+            {
+              "en": "be constantly followed by paparazzi",
+              "vi": "liên tục bị thợ săn ảnh đeo bám"
+            },
+            {
+              "en": "curious crowds",
+              "vi": "đám đông hiếu kỳ"
+            },
+            {
+              "en": "family vacations",
+              "vi": "những kỳ nghỉ cùng gia đình"
+            },
+            {
+              "en": "enjoy a peaceful, ordinary life",
+              "vi": "tận hưởng cuộc sống bình yên, giản dị"
+            },
+            {
+              "en": "without being watched",
+              "vi": "mà không bị dòm ngó/theo dõi"
+            },
+            {
+              "en": "struggle to",
+              "vi": "chật vật / rất khó để"
+            },
+            {
+              "en": "a careless comment",
+              "vi": "một bình luận/phát ngôn bất cẩn"
+            },
+            {
+              "en": "trigger harsh online criticism",
+              "vi": "châm ngòi cho làn sóng chỉ trích gay gắt trên mạng"
+            },
+            {
+              "en": "malicious rumors",
+              "vi": "những tin đồn ác ý"
+            },
+            {
+              "en": "maintain a flawless image",
+              "vi": "duy trì hình ảnh hoàn hảo không tì vết"
+            },
+            {
+              "en": "suffer from anxiety, insomnia, and depression",
+              "vi": "chịu đựng chứng lo âu, mất ngủ và trầm cảm"
+            },
+            {
+              "en": "constant burden",
+              "vi": "gánh nặng thường trực"
+            },
+            {
+              "en": "take advantage of their money, status, or business connections",
+              "vi": "lợi dụng tiền bạc, vị thế hoặc mối quan hệ công việc"
+            },
+            {
+              "en": "approach celebrities",
+              "vi": "tiếp cận người nổi tiếng"
+            },
+            {
+              "en": "some people",
+              "vi": "một số người"
+            },
+            {
+              "en": "ulterior motives",
+              "vi": "động cơ vụ lợi ẩn giấu"
+            },
+            {
+              "en": "isolate themselves",
+              "vi": "tự thu mình / cô lập bản thân"
+            },
+            {
+              "en": "feel deeply lonely",
+              "vi": "cảm thấy cô đơn sâu sắc"
+            },
+            {
+              "en": "discussed in tabloids",
+              "vi": "bị bàn tán trên báo lá cải"
+            },
+            {
+              "en": "harassed by obsessive fans",
+              "vi": "bị quấy rối bởi người hâm mộ cuồng nhiệt quá khích"
+            },
+            {
+              "en": "constantly worried",
+              "vi": "luôn lo lắng thường trực"
+            },
+            {
+              "en": "family's safety and well-being",
+              "vi": "sự an toàn và bình yên của gia đình"
+            },
+            {
+              "en": "public figures",
+              "vi": "những nhân vật của công chúng"
+            },
+            {
+              "en": "non-stop filming and touring schedules",
+              "vi": "lịch quay hình và lưu diễn liên miên"
+            },
+            {
+              "en": "little time for rest",
+              "vi": "rất ít thời gian để nghỉ ngơi"
+            },
+            {
+              "en": "personal health care",
+              "vi": "chăm sóc sức khỏe cá nhân"
+            },
+            {
+              "en": "audience tastes shift",
+              "vi": "thị hiếu khán giả thay đổi"
+            },
+            {
+              "en": "public attention fades",
+              "vi": "sự chú ý của công chúng phai nhạt"
+            },
+            {
+              "en": "suffer severe emotional and career disappointment",
+              "vi": "chịu sự hụt hẫng nặng nề về tâm lý và sự nghiệp"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>becoming famous</strong> has become a powerful aspiration for many people, particularly young individuals in today's media-driven world. Although achieving celebrity status brings attractive rewards, it also involves considerable personal sacrifices. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, becoming famous offers several remarkable advantages.</strong> One major benefit is that <strong><em>becoming famous can bring substantial income and long-term financial security.</em></strong> Besides performance fees, celebrities earn generous amounts of money from brand endorsements, advertisements, and personal businesses. As a result, they can enjoy a high standard of living and support their families well. Another positive aspect is that <strong><em>fame opens up attractive career opportunities and valuable professional connections.</em></strong> Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events. They also have chances to collaborate with leading experts in their fields. A further advantage to consider is that <strong><em>famous people can use their public influence to inspire others and contribute positively to society.</em></strong> With millions of followers, they can easily raise funds for charity, promote environmental awareness, or motivate young fans to pursue their dreams. Their voices create a much stronger social impact than those of ordinary citizens.\n\n<strong>On the other hand, there are some serious disadvantages that should be considered.</strong> One possible drawback is that <strong><em>one of the biggest prices of becoming famous is the severe loss of personal privacy.</em></strong> Celebrities are constantly followed by paparazzi and curious crowds in public places, even during quiet dinners or family vacations. Consequently, they struggle to enjoy a peaceful, ordinary life without being watched. Another negative aspect is that <strong><em>famous individuals face intense mental pressure because their every word and action is closely scrutinized.</em></strong> Even a minor mistake or a careless comment can trigger harsh online criticism and malicious rumors. The constant burden of maintaining a flawless image causes many stars to suffer from anxiety, insomnia, and depression. A further concern is that <strong><em>wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.</em></strong> Some people approach celebrities only to take advantage of their money, status, or business connections. Fearing betrayal or ulterior motives, many stars isolate themselves and feel deeply lonely despite having millions of fans.\n\nIn conclusion, <strong>becoming famous</strong> has both glamorous rewards and hidden hardships that should not be overlooked. While fame brings wealth, career growth, and social influence, it often costs individuals their privacy and mental peace. Therefore, young people should weigh both sides carefully before pursuing life in the spotlight.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc trở nên nổi tiếng</strong> đã trở thành khát vọng mãnh liệt của nhiều người, đặc biệt là giới trẻ trong thế giới truyền thông hiện đại. Mặc dù đạt tới vị thế ngôi sao mang lại những phần thưởng hấp dẫn, nó cũng đòi hỏi những hy sinh cá nhân không nhỏ. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, việc trở nên nổi tiếng mang lại nhiều lợi thế đáng kể.</strong> Một lợi ích lớn là <strong><em>trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự đảm bảo tài chính lâu dài.</em></strong> Bên cạnh cát-xê biểu diễn, người nổi tiếng còn kiếm được khoản tiền hậu hĩnh từ hợp đồng đại diện thương hiệu, quảng cáo và hoạt động kinh doanh riêng. Nhờ đó, họ có thể tận hưởng mức sống cao và hỗ trợ tốt cho gia đình mình. Một khía cạnh tích cực khác là <strong><em>danh tiếng mở ra nhiều cơ hội nghề nghiệp hấp dẫn và các mối quan hệ chuyên môn giá trị.</em></strong> Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung thường xuyên được mời tham gia vào những dự án lớn và sự kiện danh giá. Họ cũng có cơ hội hợp tác với những chuyên gia hàng đầu trong lĩnh vực của mình. Một thuận lợi nữa cần xem xét là <strong><em>người nổi tiếng có thể dùng sức ảnh hưởng trước công chúng để truyền cảm hứng cho người khác và đóng góp tích cực cho xã hội.</em></strong> Với hàng triệu người theo dõi, họ dễ dàng gây quỹ từ thiện, nâng cao nhận thức bảo vệ môi trường hoặc khích lệ người hâm mộ trẻ theo đuổi ước mơ. Tiếng nói của họ tạo ra tác động xã hội mạnh mẽ hơn nhiều so với những người dân bình thường.\n\n<strong>Mặt khác, vẫn có một số bất lợi nghiêm trọng cần được cân nhắc.</strong> Một hạn chế rõ rệt là <strong><em>một trong những cái giá lớn nhất của việc nổi tiếng là sự đánh mất nghiêm trọng quyền riêng tư cá nhân.</em></strong> Người nổi tiếng liên tục bị thợ săn ảnh và đám đông hiếu kỳ đeo bám ở nơi công cộng, ngay cả trong những bữa tối yên tĩnh hay kỳ nghỉ cùng gia đình. Hệ quả là họ rất khó tận hưởng một cuộc sống bình yên, giản dị mà không bị dòm ngó. Một điểm tiêu cực khác là <strong><em>những cá nhân nổi tiếng phải đối mặt với áp lực tinh thần nặng nề vì mọi lời nói và hành động đều bị săm soi khắt khe.</em></strong> Chỉ một sai lầm nhỏ hay một phát ngôn bất cẩn cũng có thể châm ngòi cho làn sóng chỉ trích gay gắt trên mạng và những tin đồn ác ý. Gánh nặng thường trực phải duy trì hình ảnh hoàn hảo không tì vết khiến nhiều ngôi sao chịu đựng chứng lo âu, mất ngủ và trầm cảm. Một mối lo ngại nữa là <strong><em>sự giàu có và ánh hào quang ngôi sao đôi khi khiến người nổi tiếng gặp khó khăn trong việc nhận biết ai thật lòng quan tâm đến họ.</em></strong> Một số người tiếp cận người nổi tiếng chỉ để lợi dụng tiền bạc, vị thế hoặc mối quan hệ công việc. Lo sợ sự phản bội hay động cơ vụ lợi ẩn giấu, nhiều ngôi sao tự thu mình và cảm thấy cô đơn sâu sắc dù có hàng triệu người hâm mộ.\n\nTóm lại, <strong>việc trở nên nổi tiếng</strong> vừa có những phần thưởng hào nhoáng vừa ẩn chứa nhiều góc khuất khắc nghiệt không nên xem nhẹ. Mặc dù danh tiếng mang lại tiền tài, cơ hội thăng tiến và sức ảnh hưởng xã hội, nó thường đánh đổi bằng quyền riêng tư và sự bình yên tinh thần. Vì vậy, người trẻ nên cân nhắc thấu đáo cả hai mặt trước khi theo đuổi cuộc sống dưới ánh đèn sân khấu.",
+          "key_vocab_notes": [
+            {
+              "en": "bring substantial income and financial security",
+              "vi": "mang lại thu nhập lớn và sự đảm bảo tài chính"
+            },
+            {
+              "en": "brand endorsements",
+              "vi": "các hợp đồng đại diện thương hiệu"
+            },
+            {
+              "en": "open up attractive career opportunities",
+              "vi": "mở ra nhiều cơ hội nghề nghiệp hấp dẫn"
+            },
+            {
+              "en": "contribute positively to society",
+              "vi": "đóng góp tích cực cho xã hội"
+            },
+            {
+              "en": "severe loss of personal privacy",
+              "vi": "đánh mất nghiêm trọng quyền riêng tư cá nhân"
+            },
+            {
+              "en": "be constantly followed by paparazzi",
+              "vi": "liên tục bị thợ săn ảnh đeo bám"
+            },
+            {
+              "en": "be closely scrutinized by the public",
+              "vi": "bị công chúng săm soi khắt khe"
+            },
+            {
+              "en": "maintain a flawless image",
+              "vi": "duy trì hình ảnh hoàn hảo không tì vết"
+            },
+            {
+              "en": "trigger harsh online criticism",
+              "vi": "châm ngòi cho làn sóng chỉ trích gay gắt trên mạng"
+            },
+            {
+              "en": "ulterior motives",
+              "vi": "những động cơ vụ lợi ẩn giấu"
+            }
+          ]
+        }
       },
       {
         "id": 28,

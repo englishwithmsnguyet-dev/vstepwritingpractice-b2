@@ -6660,6 +6660,11 @@ function showToast(message, type = 'success') {
 // Get Vietnamese translation of the essay prompt context and question
 function getPromptTranslation(topic, category) {
   if (!topic) return "";
+
+  if (topic.context_vi && topic.prompt_vi) {
+    return `<p style="margin-bottom: 0.75rem;"><strong>Ngữ cảnh:</strong> ${topic.context_vi}</p>
+            <p><strong>Yêu cầu đề bài:</strong> ${topic.prompt_vi}</p>`;
+  }
   
   // Hand-crafted translations for the 5 featured topics
   if (category.id === 1 && topic.id === 1) { // Online learning
