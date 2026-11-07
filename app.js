@@ -1660,14 +1660,22 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     const colEn = normalizeTextForMatching(col.en);
     const colVi = normalizeTextForMatching(col.vi);
 
+    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
+    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số', 'sự', 'việc', 'tính'].includes(w));
+
+    // Must match Vietnamese sentence so we never suggest words absent from sentenceVi
+    const viMatchesExact = Boolean(colVi && normVi.includes(' ' + colVi + ' '));
+    const viMatchesSeq = viWords.length >= 1 && (
+      (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 3)) ||
+      viWords.every(vw => sWordsVi.includes(vw))
+    );
+    if (!viMatchesExact && !viMatchesSeq) return false;
+
     // 1. Direct substring match (VI or EN)
-    if (colVi && normVi.includes(colVi)) return true;
-    if (colEn && normEn.includes(colEn)) return true;
+    if (viMatchesExact) return true;
+    if (colEn && normEn.includes(' ' + colEn + ' ')) return true;
 
     // 2. In-sequence phrase matching allowing up to 3 filler words between keywords
-    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
-    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số'].includes(w));
-
     if (enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 3)) {
       return true;
     }
