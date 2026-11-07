@@ -7414,16 +7414,56 @@ document.addEventListener('DOMContentLoaded', () => {
     updateClassAccessUI();
   }
 
-  // Anti-cheat: tab switch & window blur detection
+  // Anti-cheat: tab switch & window blur detection (chỉ cảnh báo khi THỰC SỰ chuyển tab hoặc qua màn hình/ứng dụng khác)
+  let essayBlurTimeout = null;
+  let hasLeftEssayContext = false;
+  let leaveEssayReason = '';
+
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden && isExamModeActive() && !isPromptingUser) {
-      handleCheatViolation('tab_switch');
+    if (!isExamModeActive() || isPromptingUser) return;
+    if (document.hidden) {
+      hasLeftEssayContext = true;
+      leaveEssayReason = 'tab_switch';
+    } else {
+      if (hasLeftEssayContext) {
+        hasLeftEssayContext = false;
+        handleCheatViolation(leaveEssayReason || 'tab_switch');
+      }
     }
   });
 
   window.addEventListener('blur', () => {
-    if (isExamModeActive() && !isPromptingUser) {
-      handleCheatViolation('window_blur');
+    if (!isExamModeActive() || isPromptingUser) return;
+    const modal = document.getElementById('cheat-warning-modal');
+    if (modal && modal.style.display !== 'none' && !modal.classList.contains('hidden')) return;
+
+    if (essayBlurTimeout) clearTimeout(essayBlurTimeout);
+
+    // Bộ lọc thời gian 2000ms:
+    // Tránh cảnh báo oan khi click nội bộ, thanh cuộn, thông báo chớp nhoáng hệ thống.
+    // Chỉ ghi nhận khi học viên THỰC SỰ chuyển sang màn hình khác / ứng dụng khác liên tục >= 2 giây!
+    essayBlurTimeout = setTimeout(() => {
+      if (isExamModeActive() && !isPromptingUser) {
+        if (!document.hasFocus() || document.hidden) {
+          hasLeftEssayContext = true;
+          leaveEssayReason = 'window_blur';
+        }
+      }
+    }, 2000);
+  });
+
+  window.addEventListener('focus', () => {
+    if (essayBlurTimeout) {
+      clearTimeout(essayBlurTimeout);
+      essayBlurTimeout = null;
+    }
+    if (!isExamModeActive() || isPromptingUser) {
+      hasLeftEssayContext = false;
+      return;
+    }
+    if (hasLeftEssayContext) {
+      hasLeftEssayContext = false;
+      handleCheatViolation(leaveEssayReason || 'window_blur');
     }
   });
 
