@@ -58897,7 +58897,2249 @@ const ESSAY_DATA = [
         "title_vi": "Quảng cáo",
         "context": "In the modern business world, advertising has become a powerful tool for companies to introduce their products and services to customers. People can see advertisements on television, social media, websites, billboards, and many other platforms every day. Some people believe that advertising brings many benefits to businesses and consumers, while others argue that it may also cause several problems.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of advertising. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Trong thế giới kinh doanh hiện đại, quảng cáo đã trở thành một công cụ mạnh mẽ giúp các doanh nghiệp giới thiệu sản phẩm và dịch vụ của mình tới khách hàng. Mọi người có thể bắt gặp quảng cáo trên truyền hình, mạng xã hội, các trang web, biển quảng cáo ngoài trời và nhiều nền tảng khác mỗi ngày. Một số người tin rằng quảng cáo mang lại nhiều lợi ích cho doanh nghiệp và người tiêu dùng, trong khi những người khác lập luận rằng nó cũng có thể gây ra một số vấn đề.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của quảng cáo. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "commercial advertising and marketing campaigns",
+            "vi": "quảng cáo thương mại và các chiến dịch tiếp thị"
+          },
+          {
+            "en": "promoting products and services through media",
+            "vi": "quảng bá sản phẩm và dịch vụ thông qua truyền thông"
+          },
+          {
+            "en": "modern advertisements across media platforms",
+            "vi": "các quảng cáo hiện đại trên nhiều nền tảng truyền thông"
+          },
+          {
+            "en": "commercial promotion in today's market",
+            "vi": "hoạt động xúc tiến quảng bá thương mại trên thị trường hiện nay"
+          },
+          {
+            "en": "advertising industries and promotional messages",
+            "vi": "ngành công nghiệp quảng cáo và các thông điệp quảng bá"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Quảng cáo hiện đại phải chuẩn xác, minh bạch và có trách nhiệm với cộng đồng",
+                "summary": "Khẳng định vai trò cầu nối thông tin thiết yếu của quảng cáo đối với tăng trưởng kinh doanh song hành cùng yêu cầu trung thực với người tiêu dùng.",
+                "url": "https://tuoitre.vn/tuoi-tre-va-hiep-hoi-quang-cao-tphcm-bat-tay-hop-tac-quang-cao-phai-chuan-xac-va-co-trach-nhiem-100261014181618453.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Người tiêu dùng trước rủi ro từ những quảng cáo sai sự thật trên mạng",
+                "summary": "Phản ánh thực trạng quảng cáo phóng đại công dụng sản phẩm trên nền tảng số khiến người mua tốn kém tiền bạc và mất niềm tin thị trường.",
+                "url": "https://vnexpress.net/nguoi-tieu-dung-chua-duoc-bao-ve-truoc-quang-cao-sai-su-that-tren-mang-4534526.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Quảng cáo lố, sai sự thật và bài toán bảo vệ quyền lợi người tiêu dùng",
+                "summary": "Phân tích hệ lụy của việc thổi phồng chất lượng hàng hóa và các quy định kiểm soát trách nhiệm trong hoạt động quảng bá thương mại.",
+                "url": "https://dantri.com.vn/kinh-doanh/nguoi-noi-tieng-quang-cao-lo-sai-su-that-bi-xu-phat-the-nao-20250308163129005.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "American Psychological Association (APA)",
+                "title": "Protecting Children and Consumers from Persuasive Advertising",
+                "summary": "Examines how commercial advertisements shape buying behavior, dietary habits, and consumer expectations across television and digital media.",
+                "url": "https://www.apa.org/monitor/jun04/protecting"
+              },
+              {
+                "source": "The Guardian",
+                "title": "How Modern Advertising Shapes Consumer Culture and Daily Choices",
+                "summary": "Explores both the economic vitality driven by creative marketing and the psychological pressure of constant commercial exposure.",
+                "url": "https://www.theguardian.com/media/2006/dec/12/lifeandhealth.advertising"
+              },
+              {
+                "source": "Global Issues",
+                "title": "Advertising, Consumerism, and Its Impact on Modern Society",
+                "summary": "Provides an in-depth overview of how mass advertising stimulates market competition while fueling impulsive spending and materialism.",
+                "url": "https://www.globalissues.org/article/237/children-as-consumers"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Quảng cáo (Advertising)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Quảng cáo\" (Advertising), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "consumer",
+                "ipa": "/kənˈsjuːmə(r)/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "người tiêu dùng",
+                "example_en": "Advertising helps consumers compare different brands easily.",
+                "example_vi": "Quảng cáo giúp người tiêu dùng dễ dàng so sánh các thương hiệu khác nhau.",
+                "family": "consume (v), consumption (n), consumerism (n)"
+              },
+              {
+                "word": "promote",
+                "ipa": "/prəˈməʊt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "quảng bá, xúc tiến tiêu thụ",
+                "example_en": "Companies use social media to promote new products quickly.",
+                "example_vi": "Các công ty dùng mạng xã hội để quảng bá sản phẩm mới một cách nhanh chóng.",
+                "family": "promotion (n), promotional (adj)"
+              },
+              {
+                "word": "persuasive",
+                "ipa": "/pəˈsweɪsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có tính thuyết phục, lôi cuốn cao",
+                "example_en": "Persuasive slogans can strongly influence people's shopping habits.",
+                "example_vi": "Những khẩu hiệu giàu tính thuyết phục có thể tác động mạnh đến thói quen mua sắm.",
+                "family": "persuade (v), persuasion (n)"
+              },
+              {
+                "word": "misleading",
+                "ipa": "/ˌmɪsˈliːdɪŋ/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gây hiểu lầm, sai lệch sự thật",
+                "example_en": "Governments should fine companies that publish misleading advertisements.",
+                "example_vi": "Chính phủ nên phạt các công ty đăng tải quảng cáo gây hiểu lầm.",
+                "family": "mislead (v)"
+              },
+              {
+                "word": "exaggerate",
+                "ipa": "/ɪɡˈzædʒəreɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "phóng đại, thổi phồng quá mức",
+                "example_en": "Some commercials exaggerate the effectiveness of beauty products.",
+                "example_vi": "Một số quảng cáo thổi phồng hiệu quả của các sản phẩm làm đẹp.",
+                "family": "exaggeration (n), exaggerated (adj)"
+              },
+              {
+                "word": "impulsive",
+                "ipa": "/ɪmˈpʌlsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bốc đồng, ngẫu hứng không tính toán",
+                "example_en": "Flash-sale ads often trigger impulsive buying among young shoppers.",
+                "example_vi": "Quảng cáo giảm giá chớp nhoáng thường kích thích mua sắm bốc đồng ở người trẻ.",
+                "family": "impulse (n), impulsively (adv)"
+              },
+              {
+                "word": "revenue",
+                "ipa": "/ˈrevənjuː/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "doanh thu",
+                "example_en": "Effective marketing campaigns significantly boost company revenue.",
+                "example_vi": "Các chiến dịch tiếp thị hiệu quả làm tăng đáng kể doanh thu của công ty.",
+                "family": "revenues (pl)"
+              },
+              {
+                "word": "awareness",
+                "ipa": "/əˈweənəs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "mức độ nhận diện, sự nhận thức",
+                "example_en": "Television commercials build nationwide brand awareness.",
+                "example_vi": "Quảng cáo truyền hình xây dựng độ nhận diện thương hiệu trên toàn quốc.",
+                "family": "aware (adj), unaware (adj)"
+              },
+              {
+                "word": "competitive",
+                "ipa": "/kəmˈpetətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có tính cạnh tranh cao",
+                "example_en": "Advertising encourages businesses to offer more competitive prices.",
+                "example_vi": "Quảng cáo thúc đẩy doanh nghiệp đưa ra mức giá cạnh tranh hơn.",
+                "family": "compete (v), competition (n)"
+              },
+              {
+                "word": "intrusive",
+                "ipa": "/ɪnˈtruːsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "phiền nhiễu, xâm lấn gây khó chịu",
+                "example_en": "Unwanted pop-up ads are annoying and intrusive to Internet users.",
+                "example_vi": "Quảng cáo bật lên ngoài ý muốn gây khó chịu và phiền nhiễu cho người dùng mạng.",
+                "family": "intrude (v), intrusion (n)"
+              },
+              {
+                "word": "commercial",
+                "ipa": "/kəˈmɜːʃl/",
+                "pos": "noun/adj",
+                "level": "B2",
+                "vi": "đoạn quảng cáo (trên TV/radio); thuộc thương mại",
+                "example_en": "Catchy TV commercials are easy for viewers to remember.",
+                "example_vi": "Những đoạn quảng cáo truyền hình bắt tai rất dễ nhớ đối với khán giả.",
+                "family": "commerce (n), commercialize (v)"
+              },
+              {
+                "word": "materialistic",
+                "ipa": "/məˌtɪəriəˈlɪstɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thực dụng, chạy theo vật chất",
+                "example_en": "Constant exposure to luxury ads may make youth more materialistic.",
+                "example_vi": "Tiếp xúc liên tục với quảng cáo xa xỉ có thể khiến giới trẻ chuộng vật chất hơn.",
+                "family": "materialism (n)"
+              },
+              {
+                "word": "informed",
+                "ipa": "/ɪnˈfɔːmd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có đầy đủ thông tin, sáng suốt",
+                "example_en": "Detailed product ads help customers make informed purchasing choices.",
+                "example_vi": "Quảng cáo sản phẩm chi tiết giúp khách hàng đưa ra lựa chọn mua hàng sáng suốt.",
+                "family": "inform (v), information (n)"
+              },
+              {
+                "word": "manipulate",
+                "ipa": "/məˈnɪpjuleɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "thao túng tâm lý, dẫn dắt khéo léo",
+                "example_en": "Clever marketers know how to manipulate consumers' emotions.",
+                "example_vi": "Những nhà tiếp thị khôn khéo biết cách thao túng cảm xúc của người tiêu dùng.",
+                "family": "manipulation (n), manipulative (adj)"
+              },
+              {
+                "word": "sponsor",
+                "ipa": "/ˈspɒnsə(r)/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "tài trợ; nhà tài trợ",
+                "example_en": "Advertising revenue allows companies to sponsor free sports broadcasts.",
+                "example_vi": "Doanh thu quảng cáo cho phép các hãng tài trợ chương trình thể thao miễn phí.",
+                "family": "sponsorship (n)"
+              },
+              {
+                "word": "launch",
+                "ipa": "/lɔːntʃ/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "tung ra, ra mắt (sản phẩm mới)",
+                "example_en": "Startups rely on online ads when they launch innovative products.",
+                "example_vi": "Các công ty khởi nghiệp dựa vào quảng cáo mạng khi ra mắt sản phẩm mới.",
+                "family": "product launch (n.phr)"
+              },
+              {
+                "word": "billboard",
+                "ipa": "/ˈbɪlbɔːd/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "biển quảng cáo tấm lớn ngoài trời",
+                "example_en": "Giant digital billboards brighten busy city intersections.",
+                "example_vi": "Những biển quảng cáo điện tử khổng lồ làm rực sáng các ngã tư đông đúc.",
+                "family": "outdoor billboard (n.phr)"
+              },
+              {
+                "word": "overconsumption",
+                "ipa": "/ˌəʊvəkənˈsʌmpʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tiêu dùng quá mức gây lãng phí",
+                "example_en": "Aggressive advertising contributes to overconsumption and waste.",
+                "example_vi": "Quảng cáo rầm rộ góp phần dẫn đến tiêu dùng quá mức và lãng phí.",
+                "family": "consume (v)"
+              },
+              {
+                "word": "target",
+                "ipa": "/ˈtɑːɡɪt/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "nhắm mục tiêu vào (nhóm khách hàng)",
+                "example_en": "Fast-food advertisements frequently target young children.",
+                "example_vi": "Quảng cáo đồ ăn nhanh thường xuyên nhắm vào đối tượng trẻ nhỏ.",
+                "family": "targeted (adj)"
+              },
+              {
+                "word": "trustworthy",
+                "ipa": "/ˈtrʌstwɜːði/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "đáng tin cậy, trung thực",
+                "example_en": "Customers remain loyal to brands with trustworthy advertising.",
+                "example_vi": "Khách hàng gắn bó lâu dài với những thương hiệu có quảng cáo trung thực.",
+                "family": "trust (n/v)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: CUNG CẤP THÔNG TIN HỮU ÍCH CHO NGƯỜI TIÊU DÙNG (INFORMING CONSUMERS ABOUT PRODUCTS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
+                    "example_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn."
+                  },
+                  {
+                    "en": "make better purchasing decisions",
+                    "vi": "đưa ra lựa chọn mua sắm tốt hơn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
+                    "example_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn."
+                  },
+                  {
+                    "en": "learn about new features, prices, and special discounts",
+                    "vi": "nắm được tính năng mới, mức giá và ưu đãi giảm giá",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods.",
+                    "example_vi": "Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và chương trình khuyến mãi của nhiều mặt hàng khác nhau."
+                  },
+                  {
+                    "en": "make informed buying choices",
+                    "vi": "đưa ra quyết định mua hàng sáng suốt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
+                    "example_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn."
+                  },
+                  {
+                    "en": "save time searching for products",
+                    "vi": "tiết kiệm thời gian tìm kiếm sản phẩm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
+                    "example_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: GIÚP DOANH NGHIỆP TĂNG DOANH SỐ VÀ MỞ RỘNG THỊ TRƯỜNG (BOOSTING SALES AND BUSINESS GROWTH)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "play a vital role",
+                    "vi": "đóng vai trò thiết yếu/then chốt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                    "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                    "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
+                  },
+                  {
+                    "en": "increase sales",
+                    "vi": "gia tăng doanh số bán hàng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                    "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
+                  },
+                  {
+                    "en": "generate substantial business revenue",
+                    "vi": "tạo ra nguồn doanh thu kinh doanh lớn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                    "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
+                  },
+                  {
+                    "en": "reach a wider target audience",
+                    "vi": "tiếp cận tệp khách hàng mục tiêu rộng hơn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                    "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: THÚC ĐẨY CẠNH TRANH LÀNH MẠNH VÀ NÂNG CAO CHẤT LƯỢNG SẢN PHẨM (ENCOURAGING MARKET COMPETITION AND INNOVATION)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "encourage healthy competition",
+                    "vi": "thúc đẩy sự cạnh tranh lành mạnh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                    "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
+                  },
+                  {
+                    "en": "among companies",
+                    "vi": "giữa các doanh nghiệp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                    "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
+                  },
+                  {
+                    "en": "ultimately benefit buyers",
+                    "vi": "cuối cùng mang lại lợi ích cho người mua",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                    "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
+                  },
+                  {
+                    "en": "drive technological innovation",
+                    "vi": "thúc đẩy đổi mới sáng tạo công nghệ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                    "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
+                  },
+                  {
+                    "en": "prevent market monopoly",
+                    "vi": "ngăn chặn tình trạng độc quyền thị trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                    "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: TÀI TRỢ CHO TRUYỀN THÔNG, GIẢI TRÍ VÀ THỂ THAO MIỄN PHÍ (FUNDING FREE MEDIA AND PUBLIC EVENTS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "advertising revenue",
+                    "vi": "doanh thu từ quảng cáo",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                    "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
+                  },
+                  {
+                    "en": "fund many free media services",
+                    "vi": "tài trợ cho nhiều dịch vụ truyền thông miễn phí",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                    "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
+                  },
+                  {
+                    "en": "major cultural or sporting events",
+                    "vi": "các sự kiện văn hóa hoặc thể thao lớn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                    "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
+                  },
+                  {
+                    "en": "support creative media industries",
+                    "vi": "nuôi dưỡng ngành công nghiệp truyền thông sáng tạo",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                    "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
+                  },
+                  {
+                    "en": "keep digital platforms free for users",
+                    "vi": "giữ các nền tảng số miễn phí cho người dùng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                    "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: TRUYỀN TẢI THÔNG ĐIỆP CỘNG ĐỒNG TÍCH CỰC (SPREADING POSITIVE SOCIAL MESSAGES)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "public-service advertisements",
+                    "vi": "các quảng cáo tuyên truyền vì cộng đồng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                    "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
+                  },
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                    "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
+                  },
+                  {
+                    "en": "important social issues",
+                    "vi": "những vấn đề xã hội quan trọng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                    "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
+                  },
+                  {
+                    "en": "promote healthy lifestyle habits",
+                    "vi": "khuyến khích lối sống lành mạnh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                    "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
+                  },
+                  {
+                    "en": "encourage responsible citizenship",
+                    "vi": "thúc đẩy ý thức công dân có trách nhiệm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                    "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: THỔI PHỒNG SỰ THẬT VÀ GÂY HIỂU LẦM CHO NGƯỜI MUA (EXAGGERATED AND MISLEADING CLAIMS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "exaggerate product quality",
+                    "vi": "phóng đại chất lượng sản phẩm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                    "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
+                  },
+                  {
+                    "en": "give misleading information",
+                    "vi": "đưa ra thông tin gây hiểu lầm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                    "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
+                  },
+                  {
+                    "en": "deceive consumers",
+                    "vi": "đánh lừa người tiêu dùng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                    "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
+                  },
+                  {
+                    "en": "false commercial promises",
+                    "vi": "những lời hứa hẹn thương mại sai sự thật",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                    "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
+                  },
+                  {
+                    "en": "erode consumer trust",
+                    "vi": "làm xói mòn niềm tin của người tiêu dùng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                    "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: KÍCH THÍCH MUA SẮM BỐC ĐỒNG VÀ LÃNG PHÍ (IMPULSIVE BUYING AND OVERCONSUMPTION)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "attractive advertisements",
+                    "vi": "những quảng cáo bắt mắt, hấp dẫn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
+                    "example_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết."
+                  },
+                  {
+                    "en": "buy unnecessary items",
+                    "vi": "mua những món đồ không cần thiết",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
+                    "example_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết."
+                  },
+                  {
+                    "en": "clever marketing techniques",
+                    "vi": "các kỹ thuật tiếp thị khôn khéo",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought.",
+                    "example_vi": "Các kỹ thuật tiếp thị khéo léo đánh vào tâm lý sợ bỏ lỡ ưu đãi khiến nhiều người vội vàng đặt hàng dù chưa có nhu cầu sử dụng."
+                  },
+                  {
+                    "en": "fuel a materialistic lifestyle",
+                    "vi": "cổ xúy lối sống chạy theo vật chất",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
+                    "example_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết."
+                  },
+                  {
+                    "en": "overspend beyond one's budget",
+                    "vi": "chi tiêu vượt quá ngân sách cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
+                    "example_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: GÂY PHIỀN NHIỄU TRONG ĐỜI SỐNG HẰNG NGÀY (ANNOYING INTERRUPTIONS IN DAILY LIFE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "the constant presence of advertisements",
+                    "vi": "sự xuất hiện liên tục của quảng cáo",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
+                    "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
+                  },
+                  {
+                    "en": "annoy people",
+                    "vi": "gây khó chịu cho mọi người",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
+                    "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
+                  },
+                  {
+                    "en": "interrupt their daily activities",
+                    "vi": "làm gián đoạn các sinh hoạt hằng ngày",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
+                    "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
+                  },
+                  {
+                    "en": "intrusive spam messages",
+                    "vi": "những tin nhắn rác quảng cáo xâm lấn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
+                    "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
+                  },
+                  {
+                    "en": "visual clutter on city streets",
+                    "vi": "sự lộn xộn thị giác trên đường phố đô thị",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
+                    "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: TÁC ĐỘNG TIÊU CỰC ĐẾN TRẺ NHỎ VÀ THANH THIẾU NIÊN (NEGATIVE INFLUENCE ON CHILDREN AND TEENS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "commercial advertisements",
+                    "vi": "các quảng cáo thương mại",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                    "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
+                  },
+                  {
+                    "en": "children's habits",
+                    "vi": "thói quen của trẻ em",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                    "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "sức khỏe tinh thần/cảm xúc",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                    "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
+                  },
+                  {
+                    "en": "promote unhealthy eating habits",
+                    "vi": "cổ xúy thói quen ăn uống kém lành mạnh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                    "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
+                  },
+                  {
+                    "en": "target vulnerable young audiences",
+                    "vi": "nhắm vào nhóm khán giả nhỏ tuổi dễ bị tác động",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                    "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: LÀM TĂNG GIÁ BÁN SẢN PHẨM VÀ BẤT LỢI CHO DOANH NGHIỆP NHỎ (HIGHER PRODUCT PRICES AND UNFAIR ADVANTAGE)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "huge advertising expenses",
+                    "vi": "chi phí quảng cáo khổng lồ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                    "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
+                  },
+                  {
+                    "en": "push up retail prices",
+                    "vi": "đẩy giá bán lẻ tăng lên",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                    "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
+                  },
+                  {
+                    "en": "put small businesses at a disadvantage",
+                    "vi": "đặt các doanh nghiệp nhỏ vào thế bất lợi",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                    "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
+                  },
+                  {
+                    "en": "pass marketing costs onto buyers",
+                    "vi": "chuyển gánh nặng chi phí tiếp thị sang người mua",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                    "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
+                  },
+                  {
+                    "en": "dominate market visibility",
+                    "vi": "chiếm lĩnh độ phủ sóng trên thị trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                    "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, advertising has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, quảng cáo ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of advertising.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của quảng cáo."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, advertising offers several notable advantages.",
+                    "example_vi": "Một mặt, quảng cáo mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many people encounter advertising in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người tiếp xúc với quảng cáo trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of advertising is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của quảng cáo là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: CUNG CẤP THÔNG TIN HỮU ÍCH CHO NGƯỜI TIÊU DÙNG (INFORMING CONSUMERS ABOUT PRODUCTS)",
+                "collocations": [
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích"
+                  },
+                  {
+                    "en": "consumers",
+                    "vi": "người tiêu dùng"
+                  },
+                  {
+                    "en": "make better purchasing decisions",
+                    "vi": "đưa ra lựa chọn mua sắm tốt hơn"
+                  },
+                  {
+                    "en": "through advertisements",
+                    "vi": "thông qua các mẩu quảng cáo"
+                  },
+                  {
+                    "en": "learn about new features, prices, and special discounts",
+                    "vi": "nắm được tính năng mới, mức giá và ưu đãi giảm giá"
+                  },
+                  {
+                    "en": "various goods",
+                    "vi": "nhiều mặt hàng khác nhau"
+                  },
+                  {
+                    "en": "compare different brands easily",
+                    "vi": "dễ dàng so sánh các thương hiệu khác nhau"
+                  },
+                  {
+                    "en": "choose products",
+                    "vi": "lựa chọn sản phẩm"
+                  },
+                  {
+                    "en": "match their daily needs",
+                    "vi": "phù hợp với nhu cầu hằng ngày"
+                  }
+                ],
+                "point_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn.",
+                "point_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
+                "evidence_vi": "Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và chương trình khuyến mãi của nhiều mặt hàng khác nhau. Nhờ đó, họ dễ dàng so sánh các thương hiệu và chọn được sản phẩm đáp ứng đúng nhu cầu hằng ngày.",
+                "evidence_en": "Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods. Consequently, they can compare different brands easily and choose products that match their daily needs.",
+                "point_collocations": [
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích"
+                  },
+                  {
+                    "en": "consumers",
+                    "vi": "người tiêu dùng"
+                  },
+                  {
+                    "en": "make better purchasing decisions",
+                    "vi": "đưa ra lựa chọn mua sắm tốt hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "through advertisements",
+                      "vi": "thông qua các mẩu quảng cáo"
+                    },
+                    {
+                      "en": "learn about new features, prices, and special discounts",
+                      "vi": "nắm được tính năng mới, mức giá và ưu đãi giảm giá"
+                    },
+                    {
+                      "en": "various goods",
+                      "vi": "nhiều mặt hàng khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "compare different brands easily",
+                      "vi": "dễ dàng so sánh các thương hiệu khác nhau"
+                    },
+                    {
+                      "en": "choose products",
+                      "vi": "lựa chọn sản phẩm"
+                    },
+                    {
+                      "en": "match their daily needs",
+                      "vi": "phù hợp với nhu cầu hằng ngày"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: GIÚP DOANH NGHIỆP TĂNG DOANH SỐ VÀ MỞ RỘNG THỊ TRƯỜNG (BOOSTING SALES AND BUSINESS GROWTH)",
+                "collocations": [
+                  {
+                    "en": "play a vital role",
+                    "vi": "đóng vai trò thiết yếu/then chốt"
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng"
+                  },
+                  {
+                    "en": "increase sales",
+                    "vi": "gia tăng doanh số bán hàng"
+                  },
+                  {
+                    "en": "launch a new product",
+                    "vi": "ra mắt sản phẩm mới"
+                  },
+                  {
+                    "en": "effective marketing campaigns",
+                    "vi": "các chiến dịch tiếp thị hiệu quả"
+                  },
+                  {
+                    "en": "build brand awareness",
+                    "vi": "xây dựng độ nhận diện thương hiệu"
+                  },
+                  {
+                    "en": "as sales grow",
+                    "vi": "khi doanh số tăng trưởng"
+                  },
+                  {
+                    "en": "expand production",
+                    "vi": "mở rộng quy mô sản xuất"
+                  },
+                  {
+                    "en": "create more jobs for society",
+                    "vi": "tạo thêm nhiều việc làm cho xã hội"
+                  }
+                ],
+                "point_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu.",
+                "point_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                "evidence_vi": "Khi ra mắt sản phẩm mới, các chiến dịch tiếp thị hiệu quả giúp nâng cao độ nhận diện thương hiệu tới hàng triệu người trong thời gian ngắn. Khi doanh số tăng trưởng, công ty có thể mở rộng sản xuất và tạo thêm nhiều việc làm cho xã hội.",
+                "evidence_en": "When launching a new product, effective marketing campaigns build brand awareness among millions of people within a short time. As sales grow, companies can expand production and create more jobs for society.",
+                "point_collocations": [
+                  {
+                    "en": "play a vital role",
+                    "vi": "đóng vai trò thiết yếu/then chốt"
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng"
+                  },
+                  {
+                    "en": "increase sales",
+                    "vi": "gia tăng doanh số bán hàng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "launch a new product",
+                      "vi": "ra mắt sản phẩm mới"
+                    },
+                    {
+                      "en": "effective marketing campaigns",
+                      "vi": "các chiến dịch tiếp thị hiệu quả"
+                    },
+                    {
+                      "en": "build brand awareness",
+                      "vi": "xây dựng độ nhận diện thương hiệu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "as sales grow",
+                      "vi": "khi doanh số tăng trưởng"
+                    },
+                    {
+                      "en": "expand production",
+                      "vi": "mở rộng quy mô sản xuất"
+                    },
+                    {
+                      "en": "create more jobs for society",
+                      "vi": "tạo thêm nhiều việc làm cho xã hội"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: THÚC ĐẨY CẠNH TRANH LÀNH MẠNH VÀ NÂNG CAO CHẤT LƯỢNG SẢN PHẨM (ENCOURAGING MARKET COMPETITION AND INNOVATION)",
+                "collocations": [
+                  {
+                    "en": "encourage healthy competition",
+                    "vi": "thúc đẩy sự cạnh tranh lành mạnh"
+                  },
+                  {
+                    "en": "among companies",
+                    "vi": "giữa các doanh nghiệp"
+                  },
+                  {
+                    "en": "ultimately benefit buyers",
+                    "vi": "cuối cùng mang lại lợi ích cho người mua"
+                  },
+                  {
+                    "en": "stand out in the market",
+                    "vi": "nổi bật trên thị trường"
+                  },
+                  {
+                    "en": "improve product quality",
+                    "vi": "cải tiến chất lượng sản phẩm"
+                  },
+                  {
+                    "en": "customer service",
+                    "vi": "dịch vụ chăm sóc khách hàng"
+                  },
+                  {
+                    "en": "thanks to such competition",
+                    "vi": "nhờ có sự cạnh tranh như vậy"
+                  },
+                  {
+                    "en": "enjoy better goods",
+                    "vi": "được hưởng hàng hóa chất lượng hơn"
+                  },
+                  {
+                    "en": "at more reasonable prices",
+                    "vi": "với mức giá hợp lý hơn"
+                  }
+                ],
+                "point_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua.",
+                "point_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                "evidence_vi": "Để nổi bật trên thị trường, các nhà sản xuất buộc phải không ngừng cải tiến chất lượng hàng hóa, dịch vụ hậu mãi và giữ mức giá hợp lý. Nhờ sự cạnh tranh này, người tiêu dùng được tiếp cận những sản phẩm ngày càng tốt hơn.",
+                "evidence_en": "To stand out in the market, manufacturers must constantly improve product quality, customer service, and pricing. Thanks to such competition, consumers enjoy better goods at more reasonable prices.",
+                "point_collocations": [
+                  {
+                    "en": "encourage healthy competition",
+                    "vi": "thúc đẩy sự cạnh tranh lành mạnh"
+                  },
+                  {
+                    "en": "among companies",
+                    "vi": "giữa các doanh nghiệp"
+                  },
+                  {
+                    "en": "ultimately benefit buyers",
+                    "vi": "cuối cùng mang lại lợi ích cho người mua"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stand out in the market",
+                      "vi": "nổi bật trên thị trường"
+                    },
+                    {
+                      "en": "improve product quality",
+                      "vi": "cải tiến chất lượng sản phẩm"
+                    },
+                    {
+                      "en": "customer service",
+                      "vi": "dịch vụ chăm sóc khách hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "thanks to such competition",
+                      "vi": "nhờ có sự cạnh tranh như vậy"
+                    },
+                    {
+                      "en": "enjoy better goods",
+                      "vi": "được hưởng hàng hóa chất lượng hơn"
+                    },
+                    {
+                      "en": "at more reasonable prices",
+                      "vi": "với mức giá hợp lý hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: TÀI TRỢ CHO TRUYỀN THÔNG, GIẢI TRÍ VÀ THỂ THAO MIỄN PHÍ (FUNDING FREE MEDIA AND PUBLIC EVENTS)",
+                "collocations": [
+                  {
+                    "en": "advertising revenue",
+                    "vi": "doanh thu từ quảng cáo"
+                  },
+                  {
+                    "en": "fund many free media services",
+                    "vi": "tài trợ cho nhiều dịch vụ truyền thông miễn phí"
+                  },
+                  {
+                    "en": "major cultural or sporting events",
+                    "vi": "các sự kiện văn hóa hoặc thể thao lớn"
+                  },
+                  {
+                    "en": "read online news",
+                    "vi": "đọc tin tức trực tuyến"
+                  },
+                  {
+                    "en": "watch entertainment shows",
+                    "vi": "xem các chương trình giải trí"
+                  },
+                  {
+                    "en": "free of charge",
+                    "vi": "hoàn toàn miễn phí"
+                  },
+                  {
+                    "en": "sports tournaments",
+                    "vi": "các giải đấu thể thao"
+                  },
+                  {
+                    "en": "community programs",
+                    "vi": "các chương trình cộng đồng"
+                  },
+                  {
+                    "en": "commercial sponsorship",
+                    "vi": "nguồn tài trợ thương mại"
+                  }
+                ],
+                "point_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn.",
+                "point_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                "evidence_vi": "Nhờ kinh phí từ các nhà quảng cáo, công chúng có thể đọc báo điện tử, sử dụng công cụ tìm kiếm hoặc xem các chương trình truyền hình giải trí mà không phải trả phí. Nhiều giải đấu thể thao và chương trình cộng đồng cũng được tổ chức thành công nhờ nguồn tài trợ thương mại.",
+                "evidence_en": "Thanks to payments from advertisers, the public can read online news, use search engines, or watch entertainment shows free of charge. Many sports tournaments and community programs also succeed through commercial sponsorship.",
+                "point_collocations": [
+                  {
+                    "en": "advertising revenue",
+                    "vi": "doanh thu từ quảng cáo"
+                  },
+                  {
+                    "en": "fund many free media services",
+                    "vi": "tài trợ cho nhiều dịch vụ truyền thông miễn phí"
+                  },
+                  {
+                    "en": "major cultural or sporting events",
+                    "vi": "các sự kiện văn hóa hoặc thể thao lớn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "read online news",
+                      "vi": "đọc tin tức trực tuyến"
+                    },
+                    {
+                      "en": "watch entertainment shows",
+                      "vi": "xem các chương trình giải trí"
+                    },
+                    {
+                      "en": "free of charge",
+                      "vi": "hoàn toàn miễn phí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sports tournaments",
+                      "vi": "các giải đấu thể thao"
+                    },
+                    {
+                      "en": "community programs",
+                      "vi": "các chương trình cộng đồng"
+                    },
+                    {
+                      "en": "commercial sponsorship",
+                      "vi": "nguồn tài trợ thương mại"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: TRUYỀN TẢI THÔNG ĐIỆP CỘNG ĐỒNG TÍCH CỰC (SPREADING POSITIVE SOCIAL MESSAGES)",
+                "collocations": [
+                  {
+                    "en": "public-service advertisements",
+                    "vi": "các quảng cáo tuyên truyền vì cộng đồng"
+                  },
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "important social issues",
+                    "vi": "những vấn đề xã hội quan trọng"
+                  },
+                  {
+                    "en": "memorable media campaigns",
+                    "vi": "những chiến dịch truyền thông đáng nhớ"
+                  },
+                  {
+                    "en": "wear helmets in traffic",
+                    "vi": "đội mũ bảo hiểm khi tham gia giao thông"
+                  },
+                  {
+                    "en": "protect the natural environment",
+                    "vi": "bảo vệ môi trường tự nhiên"
+                  },
+                  {
+                    "en": "creative visuals",
+                    "vi": "hình ảnh trực quan sáng tạo"
+                  },
+                  {
+                    "en": "positive messages",
+                    "vi": "những thông điệp tích cực"
+                  },
+                  {
+                    "en": "spread widely across society",
+                    "vi": "lan tỏa rộng khắp trong xã hội"
+                  }
+                ],
+                "point_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội.",
+                "point_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                "evidence_vi": "Nhiều chiến dịch truyền thông ấn tượng đã nhắc nhở người dân đội mũ bảo hiểm an toàn giao thông, tiết kiệm điện nước và bảo vệ môi trường sống. Những hình ảnh sáng tạo dễ nhớ giúp thông điệp nhân văn lan tỏa sâu rộng trong đời sống.",
+                "evidence_en": "Many memorable media campaigns remind citizens to wear helmets in traffic, save energy, and protect the natural environment. Creative visuals help positive messages spread widely across society.",
+                "point_collocations": [
+                  {
+                    "en": "public-service advertisements",
+                    "vi": "các quảng cáo tuyên truyền vì cộng đồng"
+                  },
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "important social issues",
+                    "vi": "những vấn đề xã hội quan trọng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "memorable media campaigns",
+                      "vi": "những chiến dịch truyền thông đáng nhớ"
+                    },
+                    {
+                      "en": "wear helmets in traffic",
+                      "vi": "đội mũ bảo hiểm khi tham gia giao thông"
+                    },
+                    {
+                      "en": "protect the natural environment",
+                      "vi": "bảo vệ môi trường tự nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "creative visuals",
+                      "vi": "hình ảnh trực quan sáng tạo"
+                    },
+                    {
+                      "en": "positive messages",
+                      "vi": "những thông điệp tích cực"
+                    },
+                    {
+                      "en": "spread widely across society",
+                      "vi": "lan tỏa rộng khắp trong xã hội"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: THỔI PHỒNG SỰ THẬT VÀ GÂY HIỂU LẦM CHO NGƯỜI MUA (EXAGGERATED AND MISLEADING CLAIMS)",
+                "collocations": [
+                  {
+                    "en": "exaggerate product quality",
+                    "vi": "phóng đại chất lượng sản phẩm"
+                  },
+                  {
+                    "en": "give misleading information",
+                    "vi": "đưa ra thông tin gây hiểu lầm"
+                  },
+                  {
+                    "en": "deceive consumers",
+                    "vi": "đánh lừa người tiêu dùng"
+                  },
+                  {
+                    "en": "health supplements",
+                    "vi": "thực phẩm chức năng hỗ trợ sức khỏe"
+                  },
+                  {
+                    "en": "miracle solutions",
+                    "vi": "những giải pháp thần kỳ"
+                  },
+                  {
+                    "en": "actual quality is poor",
+                    "vi": "chất lượng thực tế lại kém"
+                  },
+                  {
+                    "en": "buyers",
+                    "vi": "người mua hàng"
+                  },
+                  {
+                    "en": "waste their money on disappointing goods",
+                    "vi": "tốn tiền vô ích cho hàng hóa gây thất vọng"
+                  },
+                  {
+                    "en": "face potential health risks",
+                    "vi": "đối mặt với các rủi ro sức khỏe tiềm ẩn"
+                  }
+                ],
+                "point_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối.",
+                "point_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                "evidence_vi": "Chẳng hạn, nhiều mặt hàng mỹ phẩm hay thực phẩm chức năng trên mạng được quảng bá như có tác dụng tức thì dù chất lượng thực tế rất kém. Khi mua phải những sản phẩm này, khách hàng không chỉ mất tiền oan mà còn có nguy cơ tổn hại sức khỏe.",
+                "evidence_en": "For example, many online cosmetics or health supplements are promoted as miracle solutions although their actual quality is poor. Buyers not only waste their money on disappointing goods but also face potential health risks.",
+                "point_collocations": [
+                  {
+                    "en": "exaggerate product quality",
+                    "vi": "phóng đại chất lượng sản phẩm"
+                  },
+                  {
+                    "en": "give misleading information",
+                    "vi": "đưa ra thông tin gây hiểu lầm"
+                  },
+                  {
+                    "en": "deceive consumers",
+                    "vi": "đánh lừa người tiêu dùng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "health supplements",
+                      "vi": "thực phẩm chức năng hỗ trợ sức khỏe"
+                    },
+                    {
+                      "en": "miracle solutions",
+                      "vi": "những giải pháp thần kỳ"
+                    },
+                    {
+                      "en": "actual quality is poor",
+                      "vi": "chất lượng thực tế lại kém"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "buyers",
+                      "vi": "người mua hàng"
+                    },
+                    {
+                      "en": "waste their money on disappointing goods",
+                      "vi": "tốn tiền vô ích cho hàng hóa gây thất vọng"
+                    },
+                    {
+                      "en": "face potential health risks",
+                      "vi": "đối mặt với các rủi ro sức khỏe tiềm ẩn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: KÍCH THÍCH MUA SẮM BỐC ĐỒNG VÀ LÃNG PHÍ (IMPULSIVE BUYING AND OVERCONSUMPTION)",
+                "collocations": [
+                  {
+                    "en": "attractive advertisements",
+                    "vi": "những quảng cáo bắt mắt, hấp dẫn"
+                  },
+                  {
+                    "en": "buy unnecessary items",
+                    "vi": "mua những món đồ không cần thiết"
+                  },
+                  {
+                    "en": "impulsively",
+                    "vi": "một cách bốc đồng"
+                  },
+                  {
+                    "en": "clever marketing techniques",
+                    "vi": "các kỹ thuật tiếp thị khôn khéo"
+                  },
+                  {
+                    "en": "create a sense of urgency",
+                    "vi": "tạo cảm giác cấp bách sợ bỏ lỡ"
+                  },
+                  {
+                    "en": "without careful thought",
+                    "vi": "mà không suy nghĩ kỹ lưỡng"
+                  },
+                  {
+                    "en": "such overconsumption",
+                    "vi": "lối tiêu dùng quá đà như vậy"
+                  },
+                  {
+                    "en": "personal financial strain",
+                    "vi": "căng thẳng/áp lực tài chính cá nhân"
+                  },
+                  {
+                    "en": "generate excessive household waste",
+                    "vi": "tạo ra lượng rác thải sinh hoạt quá mức"
+                  }
+                ],
+                "point_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết.",
+                "point_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
+                "evidence_vi": "Các kỹ thuật tiếp thị khéo léo đánh vào tâm lý sợ bỏ lỡ ưu đãi khiến nhiều người vội vàng đặt hàng dù chưa có nhu cầu sử dụng. Lối tiêu dùng quá mức này gây áp lực tài chính cá nhân và làm gia tăng lượng rác thải ra môi trường.",
+                "evidence_en": "Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought. Such overconsumption leads to personal financial strain and generates excessive household waste.",
+                "point_collocations": [
+                  {
+                    "en": "attractive advertisements",
+                    "vi": "những quảng cáo bắt mắt, hấp dẫn"
+                  },
+                  {
+                    "en": "buy unnecessary items",
+                    "vi": "mua những món đồ không cần thiết"
+                  },
+                  {
+                    "en": "impulsively",
+                    "vi": "một cách bốc đồng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "clever marketing techniques",
+                      "vi": "các kỹ thuật tiếp thị khôn khéo"
+                    },
+                    {
+                      "en": "create a sense of urgency",
+                      "vi": "tạo cảm giác cấp bách sợ bỏ lỡ"
+                    },
+                    {
+                      "en": "without careful thought",
+                      "vi": "mà không suy nghĩ kỹ lưỡng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "such overconsumption",
+                      "vi": "lối tiêu dùng quá đà như vậy"
+                    },
+                    {
+                      "en": "personal financial strain",
+                      "vi": "căng thẳng/áp lực tài chính cá nhân"
+                    },
+                    {
+                      "en": "generate excessive household waste",
+                      "vi": "tạo ra lượng rác thải sinh hoạt quá mức"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: GÂY PHIỀN NHIỄU TRONG ĐỜI SỐNG HẰNG NGÀY (ANNOYING INTERRUPTIONS IN DAILY LIFE)",
+                "collocations": [
+                  {
+                    "en": "the constant presence of advertisements",
+                    "vi": "sự xuất hiện liên tục của quảng cáo"
+                  },
+                  {
+                    "en": "annoy people",
+                    "vi": "gây khó chịu cho mọi người"
+                  },
+                  {
+                    "en": "interrupt their daily activities",
+                    "vi": "làm gián đoạn các sinh hoạt hằng ngày"
+                  },
+                  {
+                    "en": "be repeatedly interrupted by pop-up ads",
+                    "vi": "liên tục bị cắt ngang bởi quảng cáo bật lên"
+                  },
+                  {
+                    "en": "read news articles",
+                    "vi": "đọc các bài báo tin tức"
+                  },
+                  {
+                    "en": "study online",
+                    "vi": "học tập trực tuyến"
+                  },
+                  {
+                    "en": "excessive repetition",
+                    "vi": "sự lặp đi lặp lại quá mức"
+                  },
+                  {
+                    "en": "feel frustrated",
+                    "vi": "cảm thấy bực bội, ức chế"
+                  },
+                  {
+                    "en": "mentally tired",
+                    "vi": "mệt mỏi về tinh thần"
+                  }
+                ],
+                "point_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng.",
+                "point_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
+                "evidence_vi": "Người xem liên tục bị cắt ngang bởi các cửa sổ quảng cáo bật lên khi đang đọc tin tức, học tập trực tuyến hoặc xem video giải trí. Tần suất lặp lại quá nhiều khiến công chúng cảm thấy mệt mỏi và khó chịu.",
+                "evidence_en": "Users are repeatedly interrupted by pop-up ads while reading news articles, studying online, or watching videos. Excessive repetition makes audiences feel frustrated and mentally tired.",
+                "point_collocations": [
+                  {
+                    "en": "the constant presence of advertisements",
+                    "vi": "sự xuất hiện liên tục của quảng cáo"
+                  },
+                  {
+                    "en": "annoy people",
+                    "vi": "gây khó chịu cho mọi người"
+                  },
+                  {
+                    "en": "interrupt their daily activities",
+                    "vi": "làm gián đoạn các sinh hoạt hằng ngày"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be repeatedly interrupted by pop-up ads",
+                      "vi": "liên tục bị cắt ngang bởi quảng cáo bật lên"
+                    },
+                    {
+                      "en": "read news articles",
+                      "vi": "đọc các bài báo tin tức"
+                    },
+                    {
+                      "en": "study online",
+                      "vi": "học tập trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "excessive repetition",
+                      "vi": "sự lặp đi lặp lại quá mức"
+                    },
+                    {
+                      "en": "feel frustrated",
+                      "vi": "cảm thấy bực bội, ức chế"
+                    },
+                    {
+                      "en": "mentally tired",
+                      "vi": "mệt mỏi về tinh thần"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TÁC ĐỘNG TIÊU CỰC ĐẾN TRẺ NHỎ VÀ THANH THIẾU NIÊN (NEGATIVE INFLUENCE ON CHILDREN AND TEENS)",
+                "collocations": [
+                  {
+                    "en": "commercial advertisements",
+                    "vi": "các quảng cáo thương mại"
+                  },
+                  {
+                    "en": "children's habits",
+                    "vi": "thói quen của trẻ em"
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "sức khỏe tinh thần/cảm xúc"
+                  },
+                  {
+                    "en": "recognize sales persuasion",
+                    "vi": "nhận diện sự thuyết phục bán hàng"
+                  },
+                  {
+                    "en": "sugary fast food",
+                    "vi": "đồ ăn nhanh chứa nhiều đường"
+                  },
+                  {
+                    "en": "expensive toys",
+                    "vi": "những món đồ chơi đắt tiền"
+                  },
+                  {
+                    "en": "idealized body images",
+                    "vi": "hình mẫu ngoại hình được lý tưởng hóa"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti, mặc cảm"
+                  },
+                  {
+                    "en": "about their appearance",
+                    "vi": "về ngoại hình của bản thân"
+                  }
+                ],
+                "point_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em.",
+                "point_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                "evidence_vi": "Trẻ nhỏ chưa đủ nhận thức để phân biệt thông điệp bán hàng nên rất dễ đòi cha mẹ mua đồ ăn nhanh nhiều đường béo hoặc đồ chơi đắt tiền. Ngoài ra, hình ảnh người mẫu quá hoàn hảo trên quảng cáo còn dễ khiến thanh thiếu niên tự ti về ngoại hình.",
+                "evidence_en": "Young children cannot fully recognize sales persuasion, so they often pester parents for sugary fast food or expensive toys. Moreover, idealized body images in ads may make teenagers feel insecure about their appearance.",
+                "point_collocations": [
+                  {
+                    "en": "commercial advertisements",
+                    "vi": "các quảng cáo thương mại"
+                  },
+                  {
+                    "en": "children's habits",
+                    "vi": "thói quen của trẻ em"
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "sức khỏe tinh thần/cảm xúc"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recognize sales persuasion",
+                      "vi": "nhận diện sự thuyết phục bán hàng"
+                    },
+                    {
+                      "en": "sugary fast food",
+                      "vi": "đồ ăn nhanh chứa nhiều đường"
+                    },
+                    {
+                      "en": "expensive toys",
+                      "vi": "những món đồ chơi đắt tiền"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "idealized body images",
+                      "vi": "hình mẫu ngoại hình được lý tưởng hóa"
+                    },
+                    {
+                      "en": "feel insecure",
+                      "vi": "cảm thấy tự ti, mặc cảm"
+                    },
+                    {
+                      "en": "about their appearance",
+                      "vi": "về ngoại hình của bản thân"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: LÀM TĂNG GIÁ BÁN SẢN PHẨM VÀ BẤT LỢI CHO DOANH NGHIỆP NHỎ (HIGHER PRODUCT PRICES AND UNFAIR ADVANTAGE)",
+                "collocations": [
+                  {
+                    "en": "huge advertising expenses",
+                    "vi": "chi phí quảng cáo khổng lồ"
+                  },
+                  {
+                    "en": "push up retail prices",
+                    "vi": "đẩy giá bán lẻ tăng lên"
+                  },
+                  {
+                    "en": "put small businesses at a disadvantage",
+                    "vi": "đặt các doanh nghiệp nhỏ vào thế bất lợi"
+                  },
+                  {
+                    "en": "large corporations",
+                    "vi": "các tập đoàn lớn"
+                  },
+                  {
+                    "en": "spend massive budgets on marketing",
+                    "vi": "chi ngân sách khổng lồ cho tiếp thị"
+                  },
+                  {
+                    "en": "charge customers higher prices",
+                    "vi": "tính mức giá cao hơn cho khách hàng"
+                  },
+                  {
+                    "en": "small local shops",
+                    "vi": "các cửa hàng nhỏ tại địa phương"
+                  },
+                  {
+                    "en": "struggle to compete",
+                    "vi": "chật vật để cạnh tranh"
+                  },
+                  {
+                    "en": "lack promotional funds",
+                    "vi": "thiếu hụt kinh phí quảng bá"
+                  }
+                ],
+                "point_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ.",
+                "point_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                "evidence_vi": "Các tập đoàn lớn chi khoản ngân sách khổng lồ cho truyền thông rồi thu hồi bằng cách nâng giá bán sản phẩm tới tay người tiêu dùng. Trong khi đó, những cửa hàng nhỏ dù có hàng hóa chất lượng tốt vẫn khó cạnh tranh vì thiếu kinh phí quảng bá.",
+                "evidence_en": "Large corporations spend massive budgets on marketing and recover those costs by charging customers higher prices. Meanwhile, small local shops with good products struggle to compete because they lack promotional funds.",
+                "point_collocations": [
+                  {
+                    "en": "huge advertising expenses",
+                    "vi": "chi phí quảng cáo khổng lồ"
+                  },
+                  {
+                    "en": "push up retail prices",
+                    "vi": "đẩy giá bán lẻ tăng lên"
+                  },
+                  {
+                    "en": "put small businesses at a disadvantage",
+                    "vi": "đặt các doanh nghiệp nhỏ vào thế bất lợi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "large corporations",
+                      "vi": "các tập đoàn lớn"
+                    },
+                    {
+                      "en": "spend massive budgets on marketing",
+                      "vi": "chi ngân sách khổng lồ cho tiếp thị"
+                    },
+                    {
+                      "en": "charge customers higher prices",
+                      "vi": "tính mức giá cao hơn cho khách hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "small local shops",
+                      "vi": "các cửa hàng nhỏ tại địa phương"
+                    },
+                    {
+                      "en": "struggle to compete",
+                      "vi": "chật vật để cạnh tranh"
+                    },
+                    {
+                      "en": "lack promotional funds",
+                      "vi": "thiếu hụt kinh phí quảng bá"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "provide useful information",
+              "vi": "cung cấp thông tin hữu ích"
+            },
+            {
+              "en": "make better purchasing decisions",
+              "vi": "đưa ra lựa chọn mua sắm tốt hơn"
+            },
+            {
+              "en": "learn about new features, prices, and special discounts",
+              "vi": "nắm được tính năng mới, mức giá và ưu đãi giảm giá"
+            },
+            {
+              "en": "make informed buying choices",
+              "vi": "đưa ra quyết định mua hàng sáng suốt"
+            },
+            {
+              "en": "save time searching for products",
+              "vi": "tiết kiệm thời gian tìm kiếm sản phẩm"
+            },
+            {
+              "en": "play a vital role",
+              "vi": "đóng vai trò thiết yếu/then chốt"
+            },
+            {
+              "en": "attract customers",
+              "vi": "thu hút khách hàng"
+            },
+            {
+              "en": "increase sales",
+              "vi": "gia tăng doanh số bán hàng"
+            },
+            {
+              "en": "generate substantial business revenue",
+              "vi": "tạo ra nguồn doanh thu kinh doanh lớn"
+            },
+            {
+              "en": "reach a wider target audience",
+              "vi": "tiếp cận tệp khách hàng mục tiêu rộng hơn"
+            },
+            {
+              "en": "encourage healthy competition",
+              "vi": "thúc đẩy sự cạnh tranh lành mạnh"
+            },
+            {
+              "en": "among companies",
+              "vi": "giữa các doanh nghiệp"
+            },
+            {
+              "en": "ultimately benefit buyers",
+              "vi": "cuối cùng mang lại lợi ích cho người mua"
+            },
+            {
+              "en": "drive technological innovation",
+              "vi": "thúc đẩy đổi mới sáng tạo công nghệ"
+            },
+            {
+              "en": "prevent market monopoly",
+              "vi": "ngăn chặn tình trạng độc quyền thị trường"
+            },
+            {
+              "en": "advertising revenue",
+              "vi": "doanh thu từ quảng cáo"
+            },
+            {
+              "en": "fund many free media services",
+              "vi": "tài trợ cho nhiều dịch vụ truyền thông miễn phí"
+            },
+            {
+              "en": "major cultural or sporting events",
+              "vi": "các sự kiện văn hóa hoặc thể thao lớn"
+            },
+            {
+              "en": "support creative media industries",
+              "vi": "nuôi dưỡng ngành công nghiệp truyền thông sáng tạo"
+            },
+            {
+              "en": "keep digital platforms free for users",
+              "vi": "giữ các nền tảng số miễn phí cho người dùng"
+            },
+            {
+              "en": "public-service advertisements",
+              "vi": "các quảng cáo tuyên truyền vì cộng đồng"
+            },
+            {
+              "en": "raise awareness",
+              "vi": "nâng cao nhận thức"
+            },
+            {
+              "en": "important social issues",
+              "vi": "những vấn đề xã hội quan trọng"
+            },
+            {
+              "en": "promote healthy lifestyle habits",
+              "vi": "khuyến khích lối sống lành mạnh"
+            },
+            {
+              "en": "encourage responsible citizenship",
+              "vi": "thúc đẩy ý thức công dân có trách nhiệm"
+            },
+            {
+              "en": "exaggerate product quality",
+              "vi": "phóng đại chất lượng sản phẩm"
+            },
+            {
+              "en": "give misleading information",
+              "vi": "đưa ra thông tin gây hiểu lầm"
+            },
+            {
+              "en": "deceive consumers",
+              "vi": "đánh lừa người tiêu dùng"
+            },
+            {
+              "en": "false commercial promises",
+              "vi": "những lời hứa hẹn thương mại sai sự thật"
+            },
+            {
+              "en": "erode consumer trust",
+              "vi": "làm xói mòn niềm tin của người tiêu dùng"
+            },
+            {
+              "en": "attractive advertisements",
+              "vi": "những quảng cáo bắt mắt, hấp dẫn"
+            },
+            {
+              "en": "buy unnecessary items",
+              "vi": "mua những món đồ không cần thiết"
+            },
+            {
+              "en": "clever marketing techniques",
+              "vi": "các kỹ thuật tiếp thị khôn khéo"
+            },
+            {
+              "en": "fuel a materialistic lifestyle",
+              "vi": "cổ xúy lối sống chạy theo vật chất"
+            },
+            {
+              "en": "overspend beyond one's budget",
+              "vi": "chi tiêu vượt quá ngân sách cá nhân"
+            },
+            {
+              "en": "the constant presence of advertisements",
+              "vi": "sự xuất hiện liên tục của quảng cáo"
+            },
+            {
+              "en": "annoy people",
+              "vi": "gây khó chịu cho mọi người"
+            },
+            {
+              "en": "interrupt their daily activities",
+              "vi": "làm gián đoạn các sinh hoạt hằng ngày"
+            },
+            {
+              "en": "intrusive spam messages",
+              "vi": "những tin nhắn rác quảng cáo xâm lấn"
+            },
+            {
+              "en": "visual clutter on city streets",
+              "vi": "sự lộn xộn thị giác trên đường phố đô thị"
+            },
+            {
+              "en": "commercial advertisements",
+              "vi": "các quảng cáo thương mại"
+            },
+            {
+              "en": "children's habits",
+              "vi": "thói quen của trẻ em"
+            },
+            {
+              "en": "emotional well-being",
+              "vi": "sức khỏe tinh thần/cảm xúc"
+            },
+            {
+              "en": "promote unhealthy eating habits",
+              "vi": "cổ xúy thói quen ăn uống kém lành mạnh"
+            },
+            {
+              "en": "target vulnerable young audiences",
+              "vi": "nhắm vào nhóm khán giả nhỏ tuổi dễ bị tác động"
+            },
+            {
+              "en": "huge advertising expenses",
+              "vi": "chi phí quảng cáo khổng lồ"
+            },
+            {
+              "en": "push up retail prices",
+              "vi": "đẩy giá bán lẻ tăng lên"
+            },
+            {
+              "en": "put small businesses at a disadvantage",
+              "vi": "đặt các doanh nghiệp nhỏ vào thế bất lợi"
+            },
+            {
+              "en": "pass marketing costs onto buyers",
+              "vi": "chuyển gánh nặng chi phí tiếp thị sang người mua"
+            },
+            {
+              "en": "dominate market visibility",
+              "vi": "chiếm lĩnh độ phủ sóng trên thị trường"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "consumers",
+              "vi": "người tiêu dùng"
+            },
+            {
+              "en": "through advertisements",
+              "vi": "thông qua các mẩu quảng cáo"
+            },
+            {
+              "en": "various goods",
+              "vi": "nhiều mặt hàng khác nhau"
+            },
+            {
+              "en": "compare different brands easily",
+              "vi": "dễ dàng so sánh các thương hiệu khác nhau"
+            },
+            {
+              "en": "choose products",
+              "vi": "lựa chọn sản phẩm"
+            },
+            {
+              "en": "match their daily needs",
+              "vi": "phù hợp với nhu cầu hằng ngày"
+            },
+            {
+              "en": "launch a new product",
+              "vi": "ra mắt sản phẩm mới"
+            },
+            {
+              "en": "effective marketing campaigns",
+              "vi": "các chiến dịch tiếp thị hiệu quả"
+            },
+            {
+              "en": "build brand awareness",
+              "vi": "xây dựng độ nhận diện thương hiệu"
+            },
+            {
+              "en": "as sales grow",
+              "vi": "khi doanh số tăng trưởng"
+            },
+            {
+              "en": "expand production",
+              "vi": "mở rộng quy mô sản xuất"
+            },
+            {
+              "en": "create more jobs for society",
+              "vi": "tạo thêm nhiều việc làm cho xã hội"
+            },
+            {
+              "en": "stand out in the market",
+              "vi": "nổi bật trên thị trường"
+            },
+            {
+              "en": "improve product quality",
+              "vi": "cải tiến chất lượng sản phẩm"
+            },
+            {
+              "en": "customer service",
+              "vi": "dịch vụ chăm sóc khách hàng"
+            },
+            {
+              "en": "thanks to such competition",
+              "vi": "nhờ có sự cạnh tranh như vậy"
+            },
+            {
+              "en": "enjoy better goods",
+              "vi": "được hưởng hàng hóa chất lượng hơn"
+            },
+            {
+              "en": "at more reasonable prices",
+              "vi": "với mức giá hợp lý hơn"
+            },
+            {
+              "en": "read online news",
+              "vi": "đọc tin tức trực tuyến"
+            },
+            {
+              "en": "watch entertainment shows",
+              "vi": "xem các chương trình giải trí"
+            },
+            {
+              "en": "free of charge",
+              "vi": "hoàn toàn miễn phí"
+            },
+            {
+              "en": "sports tournaments",
+              "vi": "các giải đấu thể thao"
+            },
+            {
+              "en": "community programs",
+              "vi": "các chương trình cộng đồng"
+            },
+            {
+              "en": "commercial sponsorship",
+              "vi": "nguồn tài trợ thương mại"
+            },
+            {
+              "en": "memorable media campaigns",
+              "vi": "những chiến dịch truyền thông đáng nhớ"
+            },
+            {
+              "en": "wear helmets in traffic",
+              "vi": "đội mũ bảo hiểm khi tham gia giao thông"
+            },
+            {
+              "en": "protect the natural environment",
+              "vi": "bảo vệ môi trường tự nhiên"
+            },
+            {
+              "en": "creative visuals",
+              "vi": "hình ảnh trực quan sáng tạo"
+            },
+            {
+              "en": "positive messages",
+              "vi": "những thông điệp tích cực"
+            },
+            {
+              "en": "spread widely across society",
+              "vi": "lan tỏa rộng khắp trong xã hội"
+            },
+            {
+              "en": "health supplements",
+              "vi": "thực phẩm chức năng hỗ trợ sức khỏe"
+            },
+            {
+              "en": "miracle solutions",
+              "vi": "những giải pháp thần kỳ"
+            },
+            {
+              "en": "actual quality is poor",
+              "vi": "chất lượng thực tế lại kém"
+            },
+            {
+              "en": "buyers",
+              "vi": "người mua hàng"
+            },
+            {
+              "en": "waste their money on disappointing goods",
+              "vi": "tốn tiền vô ích cho hàng hóa gây thất vọng"
+            },
+            {
+              "en": "face potential health risks",
+              "vi": "đối mặt với các rủi ro sức khỏe tiềm ẩn"
+            },
+            {
+              "en": "impulsively",
+              "vi": "một cách bốc đồng"
+            },
+            {
+              "en": "create a sense of urgency",
+              "vi": "tạo cảm giác cấp bách sợ bỏ lỡ"
+            },
+            {
+              "en": "without careful thought",
+              "vi": "mà không suy nghĩ kỹ lưỡng"
+            },
+            {
+              "en": "such overconsumption",
+              "vi": "lối tiêu dùng quá đà như vậy"
+            },
+            {
+              "en": "personal financial strain",
+              "vi": "căng thẳng/áp lực tài chính cá nhân"
+            },
+            {
+              "en": "generate excessive household waste",
+              "vi": "tạo ra lượng rác thải sinh hoạt quá mức"
+            },
+            {
+              "en": "be repeatedly interrupted by pop-up ads",
+              "vi": "liên tục bị cắt ngang bởi quảng cáo bật lên"
+            },
+            {
+              "en": "read news articles",
+              "vi": "đọc các bài báo tin tức"
+            },
+            {
+              "en": "study online",
+              "vi": "học tập trực tuyến"
+            },
+            {
+              "en": "excessive repetition",
+              "vi": "sự lặp đi lặp lại quá mức"
+            },
+            {
+              "en": "feel frustrated",
+              "vi": "cảm thấy bực bội, ức chế"
+            },
+            {
+              "en": "mentally tired",
+              "vi": "mệt mỏi về tinh thần"
+            },
+            {
+              "en": "recognize sales persuasion",
+              "vi": "nhận diện sự thuyết phục bán hàng"
+            },
+            {
+              "en": "sugary fast food",
+              "vi": "đồ ăn nhanh chứa nhiều đường"
+            },
+            {
+              "en": "expensive toys",
+              "vi": "những món đồ chơi đắt tiền"
+            },
+            {
+              "en": "idealized body images",
+              "vi": "hình mẫu ngoại hình được lý tưởng hóa"
+            },
+            {
+              "en": "feel insecure",
+              "vi": "cảm thấy tự ti, mặc cảm"
+            },
+            {
+              "en": "about their appearance",
+              "vi": "về ngoại hình của bản thân"
+            },
+            {
+              "en": "large corporations",
+              "vi": "các tập đoàn lớn"
+            },
+            {
+              "en": "spend massive budgets on marketing",
+              "vi": "chi ngân sách khổng lồ cho tiếp thị"
+            },
+            {
+              "en": "charge customers higher prices",
+              "vi": "tính mức giá cao hơn cho khách hàng"
+            },
+            {
+              "en": "small local shops",
+              "vi": "các cửa hàng nhỏ tại địa phương"
+            },
+            {
+              "en": "struggle to compete",
+              "vi": "chật vật để cạnh tranh"
+            },
+            {
+              "en": "lack promotional funds",
+              "vi": "thiếu hụt kinh phí quảng bá"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>advertising</strong> has become an inseparable part of modern business and daily media consumption. Although promotional campaigns bring significant benefits to companies and shoppers, they also cause several notable problems. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, advertising offers several clear advantages for both consumers and the economy.</strong> One major benefit is that <strong><em>advertising provides useful information that helps consumers make better purchasing decisions.</em></strong> Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods. Consequently, they can compare different brands easily and choose products that match their daily needs. Another positive aspect is that <strong><em>advertising plays a vital role in helping businesses attract customers and increase sales.</em></strong> When launching a new product, effective marketing campaigns build brand awareness among millions of people within a short time. As sales grow, companies can expand production and create more jobs for society. A further advantage to consider is that <strong><em>advertising encourages healthy competition among companies, which ultimately benefits buyers.</em></strong> To stand out in the market, manufacturers must constantly improve product quality, customer service, and pricing. Thanks to such competition, consumers enjoy better goods at more reasonable prices.\n\n<strong>On the other hand, there are some serious disadvantages that should be considered.</strong> One possible drawback is that <strong><em>some advertisements exaggerate product quality or give misleading information that deceives consumers.</em></strong> For example, many online cosmetics or health supplements are promoted as miracle solutions although their actual quality is poor. Buyers not only waste their money on disappointing goods but also face potential health risks. Another negative aspect is that <strong><em>attractive advertisements often encourage people to buy unnecessary items impulsively.</em></strong> Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought. Such overconsumption leads to personal financial strain and generates excessive household waste. A further concern is that <strong><em>the constant presence of advertisements across platforms often annoys people and interrupts their daily activities.</em></strong> Users are repeatedly interrupted by pop-up ads while reading news articles, studying online, or watching videos. Excessive repetition makes audiences feel frustrated and mentally tired.\n\nIn conclusion, <strong>advertising</strong> has both positive economic contributions and undesirable social effects that should not be overlooked. While it informs buyers and stimulates business growth, deceptive claims and impulsive spending remain major concerns. Therefore, stricter regulations on false advertising and wiser shopping habits among consumers are essential.",
+          "translation_b2": "Trong những năm gần đây, <strong>quảng cáo</strong> đã trở thành một phần không thể tách rời của hoạt động kinh doanh hiện đại và đời sống truyền thông hằng ngày. Mặc dù các chiến dịch quảng bá mang lại lợi ích đáng kể cho doanh nghiệp và người mua sắm, chúng cũng gây ra một số vấn đề đáng chú ý. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, quảng cáo mang lại nhiều lợi thế rõ rệt cho cả người tiêu dùng lẫn nền kinh tế.</strong> Một lợi ích lớn là <strong><em>quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm tốt hơn.</em></strong> Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và ưu đãi giảm giá của nhiều mặt hàng khác nhau. Nhờ đó, họ dễ dàng so sánh các thương hiệu khác nhau và lựa chọn sản phẩm phù hợp với nhu cầu hằng ngày. Một khía cạnh tích cực khác là <strong><em>quảng cáo đóng vai trò then chốt giúp các doanh nghiệp thu hút khách hàng và gia tăng doanh số bán hàng.</em></strong> Khi ra mắt sản phẩm mới, các chiến dịch tiếp thị hiệu quả giúp xây dựng độ nhận diện thương hiệu với hàng triệu người trong thời gian ngắn. Khi doanh số tăng trưởng, các công ty có thể mở rộng quy mô sản xuất và tạo thêm nhiều việc làm cho xã hội. Một thuận lợi nữa cần xem xét là <strong><em>quảng cáo thúc đẩy sự cạnh tranh lành mạnh giữa các doanh nghiệp, điều cuối cùng mang lại lợi ích cho người mua.</em></strong> Để nổi bật trên thị trường, các nhà sản xuất buộc phải không ngừng cải tiến chất lượng sản phẩm, dịch vụ chăm sóc khách hàng và giá cả. Nhờ có sự cạnh tranh như vậy, người tiêu dùng được hưởng hàng hóa chất lượng hơn với mức giá hợp lý hơn.\n\n<strong>Mặt khác, vẫn có một số bất lợi nghiêm trọng cần được cân nhắc.</strong> Một hạn chế có thể xảy ra là <strong><em>một số quảng cáo phóng đại chất lượng sản phẩm hoặc đưa ra thông tin gây hiểu lầm đánh lừa người tiêu dùng.</em></strong> Chẳng hạn, nhiều loại mỹ phẩm hay thực phẩm chức năng trên mạng được quảng bá như những giải pháp thần kỳ dù chất lượng thực tế lại kém. Người mua không chỉ tốn tiền vô ích cho hàng hóa gây thất vọng mà còn đối mặt với các rủi ro sức khỏe tiềm ẩn. Một điểm tiêu cực khác là <strong><em>những quảng cáo hấp dẫn thường khuyến khích mọi người mua những món đồ không cần thiết một cách bốc đồng.</em></strong> Các kỹ thuật tiếp thị khôn khéo tạo cảm giác cấp bách khiến người mua đặt hàng mà không suy nghĩ kỹ lưỡng. Lối tiêu dùng quá đà như vậy dẫn đến áp lực tài chính cá nhân và tạo ra lượng rác thải sinh hoạt quá mức. Một mối lo ngại nữa là <strong><em>sự xuất hiện liên tục của quảng cáo trên các nền tảng thường gây khó chịu và làm gián đoạn các sinh hoạt hằng ngày.</em></strong> Người dùng liên tục bị cắt ngang bởi quảng cáo bật lên khi đang đọc tin tức, học tập trực tuyến hoặc xem video. Sự lặp đi lặp lại quá mức khiến khán giả cảm thấy bực bội và mệt mỏi về tinh thần.\n\nTóm lại, <strong>quảng cáo</strong> vừa có những đóng góp kinh tế tích cực vừa tồn tại các hệ lụy xã hội không mong muốn cần được lưu tâm. Mặc dù nó cung cấp thông tin cho người mua và thúc đẩy tăng trưởng kinh doanh, quảng cáo gian dối và chi tiêu bốc đồng vẫn là những lo ngại lớn. Vì vậy, việc quản lý chặt chẽ hơn đối với quảng cáo sai sự thật cùng thói quen mua sắm tỉnh táo của người tiêu dùng là vô cùng cần thiết.",
+          "key_vocab_notes": [
+            {
+              "en": "make better purchasing decisions",
+              "vi": "đưa ra quyết định mua sắm tốt hơn"
+            },
+            {
+              "en": "effective marketing campaigns",
+              "vi": "các chiến dịch tiếp thị hiệu quả"
+            },
+            {
+              "en": "build brand awareness",
+              "vi": "xây dựng độ nhận diện thương hiệu"
+            },
+            {
+              "en": "encourage healthy competition",
+              "vi": "thúc đẩy sự cạnh tranh lành mạnh"
+            },
+            {
+              "en": "exaggerate product quality",
+              "vi": "phóng đại chất lượng sản phẩm"
+            },
+            {
+              "en": "give misleading information",
+              "vi": "đưa ra thông tin sai lệch, gây hiểu lầm"
+            },
+            {
+              "en": "buy unnecessary items impulsively",
+              "vi": "mua những món đồ không cần thiết một cách bốc đồng"
+            },
+            {
+              "en": "create a sense of urgency",
+              "vi": "tạo cảm giác cấp bách sợ bỏ lỡ"
+            },
+            {
+              "en": "generate excessive household waste",
+              "vi": "tạo ra lượng rác thải sinh hoạt quá mức"
+            },
+            {
+              "en": "be repeatedly interrupted by pop-up ads",
+              "vi": "liên tục bị cắt ngang bởi các quảng cáo bật lên"
+            }
+          ]
+        }
       },
       {
         "id": 29,
@@ -58905,7 +61147,2245 @@ const ESSAY_DATA = [
         "title_vi": "Học sinh sử dụng điện thoại ở trường",
         "context": "In many schools, students are now allowed to bring mobile phones to class. They may use phones to contact their parents, search for information, or support their learning. However, some teachers and parents are worried that mobile phones can distract students and affect their study habits.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of students using mobile phones at school. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Tại nhiều trường học hiện nay, học sinh được phép mang điện thoại di động vào lớp. Các em có thể sử dụng điện thoại để liên lạc với cha mẹ, tra cứu thông tin hoặc hỗ trợ việc học tập của mình. Tuy nhiên, một số giáo viên và phụ huynh lo ngại rằng điện thoại di động có thể gây xao nhãng cho học sinh và ảnh hưởng xấu đến thói quen học tập của các em.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc học sinh sử dụng điện thoại ở trường. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "allowing pupils to use smartphones on school premises",
+            "vi": "cho phép học sinh sử dụng điện thoại thông minh trong khuôn viên trường"
+          },
+          {
+            "en": "bringing mobile devices to school classrooms",
+            "vi": "mang các thiết bị di động tới lớp học"
+          },
+          {
+            "en": "smartphone usage among school students",
+            "vi": "việc sử dụng điện thoại thông minh ở học sinh phổ thông"
+          },
+          {
+            "en": "permitting mobile phones during school hours",
+            "vi": "cho phép dùng điện thoại di động trong giờ học ở trường"
+          },
+          {
+            "en": "students having access to cell phones at school",
+            "vi": "học sinh được tiếp cận điện thoại di động tại trường học"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Thời đại số và bài toán quản lý việc học sinh sử dụng điện thoại ở trường",
+                "summary": "Phân tích hai mặt của điện thoại thông minh tại trường học: vừa là công cụ tra cứu học tập hiện đại vừa dễ khiến học sinh sao nhãng giờ ra chơi và tiết học.",
+                "url": "https://vnexpress.net/cam-hoc-sinh-dung-dien-thoai-thoi-dai-so-khong-co-nghia-la-cho-hoc-sinh-cam-mat-vao-dien-thoai-o-truong-4915730.html"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Học sinh dùng điện thoại ở trường học: Cần sự phối hợp giữa gia đình và nhà trường",
+                "summary": "Ghi nhận ý kiến của giáo viên và phụ huynh về nhu cầu liên lạc đưa đón an toàn song hành với quy chế kiểm soát chặt trong giờ học chính khóa.",
+                "url": "https://tuoitre.vn/hoc-sinh-dung-dien-thoai-o-truong-hoc-loi-ba-me-hay-loi-o-nha-truong-20240910091801624.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Quản lý việc sử dụng điện thoại trong lớp học để nâng cao chất lượng giờ giảng",
+                "summary": "Đề cập các quy định hướng dẫn học sinh chỉ sử dụng điện thoại khi giáo viên cho phép phục vụ mục đích học tập nhằm giữ sự tập trung.",
+                "url": "https://dantri.com.vn/giao-duc/so-gddt-ha-noi-cam-hoc-sinh-dung-dien-thoai-trong-lop-hoc-20241011152010228.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "UNESCO",
+                "title": "Smartphones in School: Balancing Educational Technology and Student Focus",
+                "summary": "Global UNESCO report examining how classroom smartphone notifications affect student concentration, learning outcomes, and peer socialization.",
+                "url": "https://www.unesco.org/gem-report/en/articles/how-many-countries-have-phone-bans-school"
+              },
+              {
+                "source": "The Guardian",
+                "title": "Mobile Phones in Schools Can Be an Aid to Learning When Guided Properly",
+                "summary": "Explores how educators can harness smartphones for quick research, educational quizzes, and digital literacy rather than relying solely on bans.",
+                "url": "https://www.theguardian.com/technology/2025/apr/14/mobile-phones-in-schools-can-be-an-aid-to-learning"
+              },
+              {
+                "source": "ISTE",
+                "title": "Do Smartphones Belong in Schools? A Look at Different Classroom Approaches",
+                "summary": "Compares the instructional benefits of mobile learning tools with classroom management challenges such as distraction, cheating, and cyberbullying.",
+                "url": "https://iste.org/blog/do-smartphones-belong-in-schools-a-look-at-different-approaches"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Học sinh sử dụng điện thoại ở trường (Students using mobile phones at school)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Học sinh sử dụng điện thoại ở trường\" (Students using mobile phones at school), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "emergency",
+                "ipa": "/ɪˈmɜːdʒənsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tình huống khẩn cấp, đột xuất",
+                "example_en": "Mobile phones help students contact parents quickly in an emergency.",
+                "example_vi": "Điện thoại di động giúp học sinh liên lạc nhanh với cha mẹ trong tình huống khẩn cấp.",
+                "family": "emergencies (pl)"
+              },
+              {
+                "word": "concentration",
+                "ipa": "/ˌkɒnsnˈtreɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tập trung chú ý",
+                "example_en": "Message alerts in class can easily break students' concentration.",
+                "example_vi": "Thông báo tin nhắn trong lớp rất dễ làm đứt quãng sự tập trung của học sinh.",
+                "family": "concentrate (v), concentrated (adj)"
+              },
+              {
+                "word": "reference",
+                "ipa": "/ˈrefrəns/",
+                "pos": "noun/adj",
+                "level": "B2",
+                "vi": "sự tham khảo, tài liệu tra cứu",
+                "example_en": "Smartphones serve as handy reference tools during group projects.",
+                "example_vi": "Điện thoại thông minh đóng vai trò là công cụ tra cứu tiện lợi khi làm dự án nhóm.",
+                "family": "refer (v)"
+              },
+              {
+                "word": "temptation",
+                "ipa": "/tempˈteɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cám dỗ, sức lôi cuốn khó cưỡng",
+                "example_en": "Many teenagers cannot resist the temptation to play mobile games.",
+                "example_vi": "Nhiều học sinh tuổi thiếu niên khó cưỡng lại sự cám dỗ chơi game di động.",
+                "family": "tempt (v), tempting (adj)"
+              },
+              {
+                "word": "dishonesty",
+                "ipa": "/dɪsˈɒnɪsti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự gian lận, thiếu trung thực",
+                "example_en": "Unchecked phone use during tests may lead to academic dishonesty.",
+                "example_vi": "Việc dùng điện thoại không kiểm soát trong giờ kiểm tra có thể dẫn đến gian lận thi cử.",
+                "family": "dishonest (adj), honesty (n)"
+              },
+              {
+                "word": "recess",
+                "ipa": "/rɪˈses/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "giờ ra chơi, giờ giải lao ở trường",
+                "example_en": "Students often stare at phone screens instead of talking during recess.",
+                "example_vi": "Học sinh thường nhìn chằm chằm vào màn hình điện thoại thay vì trò chuyện giờ ra chơi.",
+                "family": "school break (n.phr)"
+              },
+              {
+                "word": "reassure",
+                "ipa": "/ˌriːəˈʃʊə(r)/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm yên tâm, giúp an lòng",
+                "example_en": "A quick call after school reassures worried working parents.",
+                "example_vi": "Một cuộc gọi ngắn sau giờ tan học giúp các bậc phụ huynh đi làm yên tâm hơn.",
+                "family": "reassurance (n), reassuring (adj)"
+              },
+              {
+                "word": "educational",
+                "ipa": "/ˌedʒuˈkeɪʃənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính giáo dục, phục vụ học tập",
+                "example_en": "Teachers sometimes use educational apps for live classroom quizzes.",
+                "example_vi": "Giáo viên đôi khi dùng ứng dụng giáo dục cho các phần đố vui trực tiếp trên lớp.",
+                "family": "educate (v), education (n)"
+              },
+              {
+                "word": "disruptive",
+                "ipa": "/dɪsˈrʌptɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gây gián đoạn, làm xáo trộn lớp học",
+                "example_en": "Ringing phones in the middle of a lecture are highly disruptive.",
+                "example_vi": "Tiếng chuông điện thoại reo giữa bài giảng gây xáo trộn lớp học nghiêm trọng.",
+                "family": "disrupt (v), disruption (n)"
+              },
+              {
+                "word": "portable",
+                "ipa": "/ˈpɔːtəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "nhỏ gọn, dễ mang theo bên mình",
+                "example_en": "A smartphone is a portable device for reading e-books and dictionaries.",
+                "example_vi": "Điện thoại thông minh là thiết bị nhỏ gọn để đọc sách điện tử và tra từ điển.",
+                "family": "portability (n)"
+              },
+              {
+                "word": "supervision",
+                "ipa": "/ˌsuːpəˈvɪʒn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự giám sát, quản lý của giáo viên",
+                "example_en": "Classroom phone use works best under clear teacher supervision.",
+                "example_vi": "Việc dùng điện thoại trên lớp hiệu quả nhất khi có sự giám sát rõ ràng của giáo viên.",
+                "family": "supervise (v)"
+              },
+              {
+                "word": "cyberbullying",
+                "ipa": "/ˈsaɪbəbʊliɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hành vi bắt nạt qua mạng",
+                "example_en": "Secretly filming classmates at school can lead to cyberbullying.",
+                "example_vi": "Quay lén bạn cùng lớp ở trường có thể dẫn đến nạn bắt nạt qua mạng.",
+                "family": "bully (n/v)"
+              },
+              {
+                "word": "sedentary",
+                "ipa": "/ˈsedntri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ít vận động, ngồi lì một chỗ",
+                "example_en": "Playing phone games at break time encourages sedentary habits.",
+                "example_vi": "Chơi game điện thoại vào giờ giải lao khuyến khích thói quen thụ động ít vận động.",
+                "family": "sedentarily (adv)"
+              },
+              {
+                "word": "collaborate",
+                "ipa": "/kəˈlæbəreɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "phối hợp, cộng tác làm việc nhóm",
+                "example_en": "Students can collaborate on shared documents using mobile phones.",
+                "example_vi": "Học sinh có thể cộng tác trên tài liệu chung bằng điện thoại di động.",
+                "family": "collaboration (n), collaborative (adj)"
+              },
+              {
+                "word": "regulation",
+                "ipa": "/ˌreɡjuˈleɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nội quy, quy định nhà trường",
+                "example_en": "Schools need clear regulations on when phones may be switched on.",
+                "example_vi": "Nhà trường cần có nội quy rõ ràng về thời điểm được phép bật điện thoại.",
+                "family": "regulate (v)"
+              },
+              {
+                "word": "attentive",
+                "ipa": "/əˈtentɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chăm chú lắng nghe bài giảng",
+                "example_en": "Putting phones away helps students stay attentive during lessons.",
+                "example_vi": "Cất điện thoại đi giúp học sinh chăm chú nghe giảng hơn trong tiết học.",
+                "family": "attention (n), attentively (adv)"
+              },
+              {
+                "word": "instant",
+                "ipa": "/ˈɪnstənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tức thì, ngay lập tức",
+                "example_en": "Mobile dictionaries give students instant access to word meanings.",
+                "example_vi": "Từ điển trên di động giúp học sinh tra cứu nghĩa của từ ngay tức thì.",
+                "family": "instantly (adv)"
+              },
+              {
+                "word": "cheat",
+                "ipa": "/tʃiːt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "quay cóp, gian lận trong thi cử",
+                "example_en": "Some dishonest students use smartphones to cheat on exams.",
+                "example_vi": "Một số học sinh thiếu trung thực dùng điện thoại thông minh để quay cóp trong kỳ thi.",
+                "family": "cheating (n)"
+              },
+              {
+                "word": "socialize",
+                "ipa": "/ˈsəʊʃəlaɪz/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "giao lưu, trò chuyện hòa đồng",
+                "example_en": "Break time is meant for students to socialize and play outdoors.",
+                "example_vi": "Giờ ra chơi là khoảng thời gian để học sinh giao lưu và vận động ngoài trời.",
+                "family": "socialization (n)"
+              },
+              {
+                "word": "misuse",
+                "ipa": "/ˌmɪsˈjuːz/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "sử dụng sai mục đích, lạm dụng",
+                "example_en": "Strict classroom rules help prevent the misuse of mobile phones.",
+                "example_vi": "Nội quy lớp học nghiêm túc giúp ngăn chặn việc sử dụng điện thoại sai mục đích.",
+                "family": "use (n/v)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: GIỮ LIÊN LẠC NHANH CHÓNG VỚI PHỤ HUYNH KHI CẦN THIẾT (QUICK CONTACT WITH PARENTS IN EMERGENCIES)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "stay in touch with their parents",
+                    "vi": "giữ liên lạc với cha mẹ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                    "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
+                  },
+                  {
+                    "en": "in emergencies",
+                    "vi": "trong những tình huống khẩn cấp",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                    "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
+                  },
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                    "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
+                  },
+                  {
+                    "en": "ensure student safety after school",
+                    "vi": "đảm bảo an toàn cho học sinh sau giờ tan trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                    "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
+                  },
+                  {
+                    "en": "arrange daily school pickups",
+                    "vi": "sắp xếp việc đưa đón đi học hằng ngày",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                    "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: HỖ TRỢ TRA CỨU THÔNG TIN VÀ TÀI LIỆU HỌC TẬP TỨC THÌ (INSTANT INFORMATION SEARCH FOR LEARNING)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "serve as useful tools",
+                    "vi": "đóng vai trò là những công cụ hữu ích",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
+                    "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
+                  },
+                  {
+                    "en": "search for academic information quickly",
+                    "vi": "tra cứu thông tin học tập nhanh chóng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
+                    "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ngay tại lớp học",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
+                    "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
+                  },
+                  {
+                    "en": "portable learning devices",
+                    "vi": "các thiết bị hỗ trợ học tập nhỏ gọn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
+                    "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
+                  },
+                  {
+                    "en": "compensate for limited computer labs",
+                    "vi": "bù đắp sự thiếu hụt phòng máy tính ở trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
+                    "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: TĂNG TÍNH TƯƠNG TÁC QUA ỨNG DỤNG GIÁO DỤC (INTERACTIVE EDUCATIONAL APPS AND QUIZZES)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "educational applications",
+                    "vi": "các ứng dụng giáo dục",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                    "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
+                  },
+                  {
+                    "en": "make classroom lessons",
+                    "vi": "làm cho các tiết học trên lớp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                    "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
+                  },
+                  {
+                    "en": "more lively and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                    "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
+                  },
+                  {
+                    "en": "gamified classroom revision",
+                    "vi": "ôn tập trên lớp theo hình thức trò chơi hóa",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                    "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
+                  },
+                  {
+                    "en": "boost student enthusiasm",
+                    "vi": "khơi dậy sự hào hứng học tập của học sinh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                    "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: THUẬN TIỆN TRONG VIỆC LƯU TRỮ BÀI TẬP VÀ LÀM VIỆC NHÓM (ORGANIZING SCHOOLWORK AND GROUP COLLABORATION)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "record study schedules",
+                    "vi": "ghi chú lịch trình học tập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                    "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
+                  },
+                  {
+                    "en": "store documents",
+                    "vi": "lưu trữ tài liệu",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                    "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
+                  },
+                  {
+                    "en": "coordinate group assignments",
+                    "vi": "phối hợp các bài tập nhóm",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                    "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
+                  },
+                  {
+                    "en": "set homework reminder alerts",
+                    "vi": "cài đặt lời nhắc nộp bài tập về nhà",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                    "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
+                  },
+                  {
+                    "en": "share digital study notes",
+                    "vi": "chia sẻ ghi chú học tập điện tử",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                    "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: RÈN LUYỆN KỸ NĂNG SỬ DỤNG CÔNG NGHỆ CÓ TRÁCH NHIỆM (DEVELOPING RESPONSIBLE DIGITAL LITERACY)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "use phones properly at school",
+                    "vi": "sử dụng điện thoại đúng cách ở trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                    "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
+                  },
+                  {
+                    "en": "develop responsible digital habits",
+                    "vi": "hình thành thói quen công nghệ có trách nhiệm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                    "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
+                  },
+                  {
+                    "en": "guide students",
+                    "vi": "hướng dẫn học sinh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                    "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
+                  },
+                  {
+                    "en": "cultivate digital citizenship",
+                    "vi": "rèn luyện ý thức công dân số văn minh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                    "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
+                  },
+                  {
+                    "en": "follow classroom technology rules",
+                    "vi": "tuân thủ quy định công nghệ trong lớp học",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                    "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: GÂY XAO NHÃNG NGHIÊM TRỌNG TRONG GIỜ HỌC (SERIOUS CLASSROOM DISTRACTION)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "easily distract students",
+                    "vi": "dễ khiến học sinh bị xao nhãng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                    "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
+                  },
+                  {
+                    "en": "pay attention to teachers' lectures",
+                    "vi": "chú ý lắng nghe bài giảng của thầy cô",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                    "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ở trên lớp",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                    "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
+                  },
+                  {
+                    "en": "disrupt classroom concentration",
+                    "vi": "làm gián đoạn sự tập trung trong lớp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                    "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
+                  },
+                  {
+                    "en": "miss key explanations from teachers",
+                    "vi": "bỏ lỡ những phần giảng giải trọng tâm của giáo viên",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                    "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: LÀM GIẢM GIAO TIẾP BẠN BÈ VÀ VẬN ĐỘNG GIỜ RA CHƠI (REDUCED PEER INTERACTION DURING BREAKS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "overuse mobile phones at school",
+                    "vi": "lạm dụng điện thoại di động ở trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                    "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
+                  },
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "sự tương tác/giao tiếp trực tiếp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                    "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
+                  },
+                  {
+                    "en": "physical activity during break time",
+                    "vi": "hoạt động thể chất vào giờ giải lao",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                    "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
+                  },
+                  {
+                    "en": "isolate students from peers",
+                    "vi": "tách biệt học sinh khỏi bạn bè xung quanh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                    "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
+                  },
+                  {
+                    "en": "hinder interpersonal communication skills",
+                    "vi": "cản trở kỹ năng giao tiếp xã hội trực tiếp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                    "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: NGUY CƠ GIAN LẬN TRONG KIỂM TRA VÀ THI CỬ (RISKS OF CHEATING IN EXAMS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "allow mobile phones in classrooms",
+                    "vi": "cho phép mang điện thoại vào lớp học",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                    "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
+                  },
+                  {
+                    "en": "increase the risk of cheating",
+                    "vi": "làm tăng nguy cơ gian lận",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                    "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
+                  },
+                  {
+                    "en": "during tests and examinations",
+                    "vi": "trong các bài kiểm tra và kỳ thi",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                    "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
+                  },
+                  {
+                    "en": "encourage academic dishonesty",
+                    "vi": "tiếp tay cho sự thiếu trung thực trong học tập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                    "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
+                  },
+                  {
+                    "en": "rely on AI tools to copy homework",
+                    "vi": "ỷ lại công cụ AI để chép bài tập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                    "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: VẤN NẠN QUAY LÉN VÀ BẮT NẠT HỌC ĐƯỜNG TRÊN MẠNG (SECRET RECORDING AND CYBERBULLYING)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "uncontrolled phone use at school",
+                    "vi": "việc dùng điện thoại thiếu kiểm soát ở trường",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                    "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
+                  },
+                  {
+                    "en": "secret recording",
+                    "vi": "hành vi quay phim/ghi hình lén",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                    "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
+                  },
+                  {
+                    "en": "cyberbullying among students",
+                    "vi": "nạn bắt nạt qua mạng giữa học sinh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                    "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
+                  },
+                  {
+                    "en": "violate classmates' personal privacy",
+                    "vi": "xâm phạm quyền riêng tư của bạn cùng lớp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                    "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
+                  },
+                  {
+                    "en": "spread harmful school rumors online",
+                    "vi": "phát tán tin đồn học đường độc hại trên mạng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                    "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: NGUY CƠ MẤT CẮP TÀI SẢN VÀ SO BÌ VẬT CHẤT (THEFT RISKS AND MATERIALISTIC COMPARISON)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "bring expensive smartphones to school",
+                    "vi": "mang điện thoại thông minh đắt tiền đến trường",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                    "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
+                  },
+                  {
+                    "en": "cause theft problems",
+                    "vi": "gây ra các rắc rối về trộm cắp/mất mát",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                    "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
+                  },
+                  {
+                    "en": "unhealthy comparison among peers",
+                    "vi": "sự so bì thiếu lành mạnh giữa bạn bè",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                    "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
+                  },
+                  {
+                    "en": "create peer pressure over luxury devices",
+                    "vi": "tạo áp lực chạy đua thiết bị đắt tiền",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                    "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
+                  },
+                  {
+                    "en": "distract teachers with property disputes",
+                    "vi": "khiến giáo viên mất thời gian xử lý việc mất đồ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                    "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, students using mobile phones at school has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, học sinh sử dụng điện thoại ở trường ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of students using mobile phones at school.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của học sinh sử dụng điện thoại ở trường."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, students using mobile phones at school offers several notable advantages.",
+                    "example_vi": "Một mặt, học sinh sử dụng điện thoại ở trường mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many people encounter students using mobile phones at school in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người tiếp xúc với học sinh sử dụng điện thoại ở trường trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of students using mobile phones at school is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của học sinh sử dụng điện thoại ở trường là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: GIỮ LIÊN LẠC NHANH CHÓNG VỚI PHỤ HUYNH KHI CẦN THIẾT (QUICK CONTACT WITH PARENTS IN EMERGENCIES)",
+                "collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "stay in touch with their parents",
+                    "vi": "giữ liên lạc với cha mẹ"
+                  },
+                  {
+                    "en": "in emergencies",
+                    "vi": "trong những tình huống khẩn cấp"
+                  },
+                  {
+                    "en": "class schedules change suddenly",
+                    "vi": "lịch học thay đổi đột xuất"
+                  },
+                  {
+                    "en": "feel unwell",
+                    "vi": "cảm thấy không khỏe trong người"
+                  },
+                  {
+                    "en": "call their families immediately",
+                    "vi": "gọi điện báo ngay cho gia đình"
+                  },
+                  {
+                    "en": "convenient communication",
+                    "vi": "sự liên lạc thuận tiện"
+                  },
+                  {
+                    "en": "working parents",
+                    "vi": "các bậc phụ huynh đi làm"
+                  },
+                  {
+                    "en": "greater peace of mind",
+                    "vi": "sự an tâm lớn hơn"
+                  }
+                ],
+                "point_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất.",
+                "point_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                "evidence_vi": "Khi lịch học thay đổi bất ngờ, trời mưa lớn hoặc học sinh cảm thấy không khỏe, các em có thể gọi điện báo ngay cho gia đình đến đón. Sự kết nối thuận tiện này giúp các bậc phụ huynh yên tâm hơn rất nhiều mỗi ngày.",
+                "evidence_en": "When class schedules change suddenly, heavy rain occurs, or students feel unwell, they can call their families immediately for pickup. Such convenient communication gives working parents much greater peace of mind every day.",
+                "point_collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "stay in touch with their parents",
+                    "vi": "giữ liên lạc với cha mẹ"
+                  },
+                  {
+                    "en": "in emergencies",
+                    "vi": "trong những tình huống khẩn cấp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "class schedules change suddenly",
+                      "vi": "lịch học thay đổi đột xuất"
+                    },
+                    {
+                      "en": "feel unwell",
+                      "vi": "cảm thấy không khỏe trong người"
+                    },
+                    {
+                      "en": "call their families immediately",
+                      "vi": "gọi điện báo ngay cho gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "convenient communication",
+                      "vi": "sự liên lạc thuận tiện"
+                    },
+                    {
+                      "en": "working parents",
+                      "vi": "các bậc phụ huynh đi làm"
+                    },
+                    {
+                      "en": "greater peace of mind",
+                      "vi": "sự an tâm lớn hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: HỖ TRỢ TRA CỨU THÔNG TIN VÀ TÀI LIỆU HỌC TẬP TỨC THÌ (INSTANT INFORMATION SEARCH FOR LEARNING)",
+                "collocations": [
+                  {
+                    "en": "serve as useful tools",
+                    "vi": "đóng vai trò là những công cụ hữu ích"
+                  },
+                  {
+                    "en": "search for academic information quickly",
+                    "vi": "tra cứu thông tin học tập nhanh chóng"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ngay tại lớp học"
+                  },
+                  {
+                    "en": "with teachers' permission",
+                    "vi": "khi được sự cho phép của giáo viên"
+                  },
+                  {
+                    "en": "group presentations",
+                    "vi": "các bài thuyết trình nhóm"
+                  },
+                  {
+                    "en": "read reference materials",
+                    "vi": "đọc tài liệu tham khảo"
+                  },
+                  {
+                    "en": "make lessons more active",
+                    "vi": "giúp tiết học trở nên chủ động hơn"
+                  },
+                  {
+                    "en": "connected to",
+                    "vi": "gắn kết với"
+                  },
+                  {
+                    "en": "real-world knowledge",
+                    "vi": "kiến thức thực tế"
+                  }
+                ],
+                "point_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp.",
+                "point_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
+                "evidence_vi": "Khi được giáo viên cho phép, học sinh có thể mở từ điển điện tử, tìm số liệu cho bài thuyết trình nhóm hoặc đọc tài liệu tham khảo chỉ trong vài giây. Điều này giúp tiết học trở nên chủ động và cập nhật thực tế hơn.",
+                "evidence_en": "With teachers' permission, students can open digital dictionaries, find data for group presentations, or read reference materials within seconds. This makes lessons more active and connected to real-world knowledge.",
+                "point_collocations": [
+                  {
+                    "en": "serve as useful tools",
+                    "vi": "đóng vai trò là những công cụ hữu ích"
+                  },
+                  {
+                    "en": "search for academic information quickly",
+                    "vi": "tra cứu thông tin học tập nhanh chóng"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ngay tại lớp học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "with teachers' permission",
+                      "vi": "khi được sự cho phép của giáo viên"
+                    },
+                    {
+                      "en": "group presentations",
+                      "vi": "các bài thuyết trình nhóm"
+                    },
+                    {
+                      "en": "read reference materials",
+                      "vi": "đọc tài liệu tham khảo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "make lessons more active",
+                      "vi": "giúp tiết học trở nên chủ động hơn"
+                    },
+                    {
+                      "en": "connected to",
+                      "vi": "gắn kết với"
+                    },
+                    {
+                      "en": "real-world knowledge",
+                      "vi": "kiến thức thực tế"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: TĂNG TÍNH TƯƠNG TÁC QUA ỨNG DỤNG GIÁO DỤC (INTERACTIVE EDUCATIONAL APPS AND QUIZZES)",
+                "collocations": [
+                  {
+                    "en": "educational applications",
+                    "vi": "các ứng dụng giáo dục"
+                  },
+                  {
+                    "en": "make classroom lessons",
+                    "vi": "làm cho các tiết học trên lớp"
+                  },
+                  {
+                    "en": "more lively and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn"
+                  },
+                  {
+                    "en": "organize live quiz games",
+                    "vi": "tổ chức các trò chơi đố vui trực tiếp"
+                  },
+                  {
+                    "en": "quick polls",
+                    "vi": "các cuộc khảo sát nhanh"
+                  },
+                  {
+                    "en": "check the whole class's understanding",
+                    "vi": "kiểm tra mức độ hiểu bài của cả lớp"
+                  },
+                  {
+                    "en": "modern interactive activities",
+                    "vi": "các hoạt động tương tác hiện đại"
+                  },
+                  {
+                    "en": "shy students",
+                    "vi": "những học sinh nhút nhát"
+                  },
+                  {
+                    "en": "participate actively in lessons",
+                    "vi": "tích cực tham gia vào bài học"
+                  }
+                ],
+                "point_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn.",
+                "point_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                "evidence_vi": "Giáo viên có thể tổ chức các trò chơi trắc nghiệm trực tiếp như Kahoot hoặc khảo sát nhanh để kiểm tra mức độ hiểu bài của cả lớp. Hình thức tương tác hiện đại này khuyến khích cả những học sinh nhút nhát tích cực tham gia xây dựng bài.",
+                "evidence_en": "Teachers can organize live quiz games or quick polls on smartphones to check the whole class's understanding. Such modern interactive activities encourage even shy students to participate actively in lessons.",
+                "point_collocations": [
+                  {
+                    "en": "educational applications",
+                    "vi": "các ứng dụng giáo dục"
+                  },
+                  {
+                    "en": "make classroom lessons",
+                    "vi": "làm cho các tiết học trên lớp"
+                  },
+                  {
+                    "en": "more lively and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize live quiz games",
+                      "vi": "tổ chức các trò chơi đố vui trực tiếp"
+                    },
+                    {
+                      "en": "quick polls",
+                      "vi": "các cuộc khảo sát nhanh"
+                    },
+                    {
+                      "en": "check the whole class's understanding",
+                      "vi": "kiểm tra mức độ hiểu bài của cả lớp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "modern interactive activities",
+                      "vi": "các hoạt động tương tác hiện đại"
+                    },
+                    {
+                      "en": "shy students",
+                      "vi": "những học sinh nhút nhát"
+                    },
+                    {
+                      "en": "participate actively in lessons",
+                      "vi": "tích cực tham gia vào bài học"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: THUẬN TIỆN TRONG VIỆC LƯU TRỮ BÀI TẬP VÀ LÀM VIỆC NHÓM (ORGANIZING SCHOOLWORK AND GROUP COLLABORATION)",
+                "collocations": [
+                  {
+                    "en": "record study schedules",
+                    "vi": "ghi chú lịch trình học tập"
+                  },
+                  {
+                    "en": "store documents",
+                    "vi": "lưu trữ tài liệu"
+                  },
+                  {
+                    "en": "coordinate group assignments",
+                    "vi": "phối hợp các bài tập nhóm"
+                  },
+                  {
+                    "en": "photograph detailed board diagrams",
+                    "vi": "chụp lại các sơ đồ chi tiết trên bảng"
+                  },
+                  {
+                    "en": "receive digital worksheets",
+                    "vi": "nhận phiếu bài tập điện tử"
+                  },
+                  {
+                    "en": "divide project tasks quickly",
+                    "vi": "phân chia nhiệm vụ dự án nhanh chóng"
+                  },
+                  {
+                    "en": "academic collaboration",
+                    "vi": "sự phối hợp trong học tập"
+                  },
+                  {
+                    "en": "among classmates",
+                    "vi": "giữa những người bạn cùng lớp"
+                  },
+                  {
+                    "en": "become much smoother",
+                    "vi": "trở nên trôi chảy hơn nhiều"
+                  }
+                ],
+                "point_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện.",
+                "point_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                "evidence_vi": "Các em có thể chụp lại sơ đồ bài giảng chi tiết, nhận tệp bài tập qua nhóm lớp và trao đổi phân công nhiệm vụ nhanh chóng. Nhờ vậy, việc hợp tác học tập giữa các thành viên trong lớp trở nên trôi chảy hơn.",
+                "evidence_en": "Students can photograph detailed board diagrams, receive digital worksheets in class groups, and divide project tasks quickly. Consequently, academic collaboration among classmates becomes much smoother.",
+                "point_collocations": [
+                  {
+                    "en": "record study schedules",
+                    "vi": "ghi chú lịch trình học tập"
+                  },
+                  {
+                    "en": "store documents",
+                    "vi": "lưu trữ tài liệu"
+                  },
+                  {
+                    "en": "coordinate group assignments",
+                    "vi": "phối hợp các bài tập nhóm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "photograph detailed board diagrams",
+                      "vi": "chụp lại các sơ đồ chi tiết trên bảng"
+                    },
+                    {
+                      "en": "receive digital worksheets",
+                      "vi": "nhận phiếu bài tập điện tử"
+                    },
+                    {
+                      "en": "divide project tasks quickly",
+                      "vi": "phân chia nhiệm vụ dự án nhanh chóng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "academic collaboration",
+                      "vi": "sự phối hợp trong học tập"
+                    },
+                    {
+                      "en": "among classmates",
+                      "vi": "giữa những người bạn cùng lớp"
+                    },
+                    {
+                      "en": "become much smoother",
+                      "vi": "trở nên trôi chảy hơn nhiều"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: RÈN LUYỆN KỸ NĂNG SỬ DỤNG CÔNG NGHỆ CÓ TRÁCH NHIỆM (DEVELOPING RESPONSIBLE DIGITAL LITERACY)",
+                "collocations": [
+                  {
+                    "en": "guide students",
+                    "vi": "hướng dẫn học sinh"
+                  },
+                  {
+                    "en": "use phones properly at school",
+                    "vi": "sử dụng điện thoại đúng cách ở trường"
+                  },
+                  {
+                    "en": "develop responsible digital habits",
+                    "vi": "hình thành thói quen công nghệ có trách nhiệm"
+                  },
+                  {
+                    "en": "impose a total ban",
+                    "vi": "áp đặt lệnh cấm hoàn toàn"
+                  },
+                  {
+                    "en": "set clear rules",
+                    "vi": "đặt ra các quy tắc rõ ràng"
+                  },
+                  {
+                    "en": "put them away",
+                    "vi": "cất thiết bị đi"
+                  },
+                  {
+                    "en": "self-control",
+                    "vi": "khả năng tự kiểm soát bản thân"
+                  },
+                  {
+                    "en": "prepare them well for",
+                    "vi": "chuẩn bị tốt cho các em bước vào"
+                  },
+                  {
+                    "en": "future university and workplace environments",
+                    "vi": "môi trường đại học và công sở tương lai"
+                  }
+                ],
+                "point_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh.",
+                "point_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                "evidence_vi": "Thay vì cấm đoán hoàn toàn, việc đặt ra ranh giới rõ ràng dạy học sinh biết khi nào nên bật thiết bị phục vụ việc học và khi nào cần cất đi để tập trung. Kỹ năng tự kiểm soát này rất cần thiết cho môi trường đại học và công sở sau này.",
+                "evidence_en": "Rather than imposing a total ban, setting clear rules teaches pupils when to use devices for study and when to put them away. Such self-control prepares them well for future university and workplace environments.",
+                "point_collocations": [
+                  {
+                    "en": "guide students",
+                    "vi": "hướng dẫn học sinh"
+                  },
+                  {
+                    "en": "use phones properly at school",
+                    "vi": "sử dụng điện thoại đúng cách ở trường"
+                  },
+                  {
+                    "en": "develop responsible digital habits",
+                    "vi": "hình thành thói quen công nghệ có trách nhiệm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "impose a total ban",
+                      "vi": "áp đặt lệnh cấm hoàn toàn"
+                    },
+                    {
+                      "en": "set clear rules",
+                      "vi": "đặt ra các quy tắc rõ ràng"
+                    },
+                    {
+                      "en": "put them away",
+                      "vi": "cất thiết bị đi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-control",
+                      "vi": "khả năng tự kiểm soát bản thân"
+                    },
+                    {
+                      "en": "prepare them well for",
+                      "vi": "chuẩn bị tốt cho các em bước vào"
+                    },
+                    {
+                      "en": "future university and workplace environments",
+                      "vi": "môi trường đại học và công sở tương lai"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GÂY XAO NHÃNG NGHIÊM TRỌNG TRONG GIỜ HỌC (SERIOUS CLASSROOM DISTRACTION)",
+                "collocations": [
+                  {
+                    "en": "easily distract students",
+                    "vi": "dễ khiến học sinh bị xao nhãng"
+                  },
+                  {
+                    "en": "pay attention to teachers' lectures",
+                    "vi": "chú ý lắng nghe bài giảng của thầy cô"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ở trên lớp"
+                  },
+                  {
+                    "en": "scroll through social media",
+                    "vi": "lướt mạng xã hội"
+                  },
+                  {
+                    "en": "play mobile games under their desks",
+                    "vi": "chơi trò chơi di động dưới gầm bàn"
+                  },
+                  {
+                    "en": "take notes",
+                    "vi": "ghi chép bài vở"
+                  },
+                  {
+                    "en": "constant distraction",
+                    "vi": "sự phân tâm thường xuyên"
+                  },
+                  {
+                    "en": "harm their study habits",
+                    "vi": "làm hại thói quen học tập"
+                  },
+                  {
+                    "en": "lower their academic performance",
+                    "vi": "làm giảm sút kết quả học tập"
+                  }
+                ],
+                "point_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp.",
+                "point_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                "evidence_vi": "Nhiều học sinh lén nhắn tin, lướt mạng xã hội hoặc chơi trò chơi điện tử dưới gầm bàn thay vì ghi chép và nghe giảng. Sự phân tâm thường xuyên này làm hỏng thói quen học tập và kéo tụt kết quả thi cử ở trường.",
+                "evidence_en": "Many pupils secretly send messages, scroll through social media, or play mobile games under their desks instead of taking notes. Constant distraction harms their study habits and lowers their academic performance.",
+                "point_collocations": [
+                  {
+                    "en": "easily distract students",
+                    "vi": "dễ khiến học sinh bị xao nhãng"
+                  },
+                  {
+                    "en": "pay attention to teachers' lectures",
+                    "vi": "chú ý lắng nghe bài giảng của thầy cô"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ở trên lớp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "scroll through social media",
+                      "vi": "lướt mạng xã hội"
+                    },
+                    {
+                      "en": "play mobile games under their desks",
+                      "vi": "chơi trò chơi di động dưới gầm bàn"
+                    },
+                    {
+                      "en": "take notes",
+                      "vi": "ghi chép bài vở"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "constant distraction",
+                      "vi": "sự phân tâm thường xuyên"
+                    },
+                    {
+                      "en": "harm their study habits",
+                      "vi": "làm hại thói quen học tập"
+                    },
+                    {
+                      "en": "lower their academic performance",
+                      "vi": "làm giảm sút kết quả học tập"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: LÀM GIẢM GIAO TIẾP BẠN BÈ VÀ VẬN ĐỘNG GIỜ RA CHƠI (REDUCED PEER INTERACTION DURING BREAKS)",
+                "collocations": [
+                  {
+                    "en": "overuse mobile phones at school",
+                    "vi": "lạm dụng điện thoại di động ở trường"
+                  },
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "sự tương tác/giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "physical activity during break time",
+                    "vi": "hoạt động thể chất vào giờ giải lao"
+                  },
+                  {
+                    "en": "chat happily with classmates",
+                    "vi": "trò chuyện vui vẻ cùng bạn học"
+                  },
+                  {
+                    "en": "play sports in the schoolyard",
+                    "vi": "chơi thể thao ngoài sân trường"
+                  },
+                  {
+                    "en": "sit silently staring at their screens",
+                    "vi": "ngồi im lặng nhìn chằm chằm vào màn hình"
+                  },
+                  {
+                    "en": "weaken school friendships",
+                    "vi": "làm suy giảm sự gắn kết tình bạn học đường"
+                  },
+                  {
+                    "en": "encourage",
+                    "vi": "khuyến khích / cổ xúy"
+                  },
+                  {
+                    "en": "an unhealthy sedentary lifestyle",
+                    "vi": "lối sống thụ động ít vận động kém lành mạnh"
+                  }
+                ],
+                "point_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao.",
+                "point_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                "evidence_vi": "Thay vì trò chuyện vui vẻ với bạn bè hoặc chơi thể thao ngoài sân trường, nhiều học sinh chỉ ngồi yên một chỗ nhìn chằm chằm vào màn hình. Điều này khiến tình bạn học đường trở nên kém gắn kết và làm tăng lối sống thụ động.",
+                "evidence_en": "Instead of chatting happily with classmates or playing sports in the schoolyard, many students sit silently staring at their screens. This weakens school friendships and encourages an unhealthy sedentary lifestyle.",
+                "point_collocations": [
+                  {
+                    "en": "overuse mobile phones at school",
+                    "vi": "lạm dụng điện thoại di động ở trường"
+                  },
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "sự tương tác/giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "physical activity during break time",
+                    "vi": "hoạt động thể chất vào giờ giải lao"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chat happily with classmates",
+                      "vi": "trò chuyện vui vẻ cùng bạn học"
+                    },
+                    {
+                      "en": "play sports in the schoolyard",
+                      "vi": "chơi thể thao ngoài sân trường"
+                    },
+                    {
+                      "en": "sit silently staring at their screens",
+                      "vi": "ngồi im lặng nhìn chằm chằm vào màn hình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "weaken school friendships",
+                      "vi": "làm suy giảm sự gắn kết tình bạn học đường"
+                    },
+                    {
+                      "en": "encourage",
+                      "vi": "khuyến khích / cổ xúy"
+                    },
+                    {
+                      "en": "an unhealthy sedentary lifestyle",
+                      "vi": "lối sống thụ động ít vận động kém lành mạnh"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ GIAN LẬN TRONG KIỂM TRA VÀ THI CỬ (RISKS OF CHEATING IN EXAMS)",
+                "collocations": [
+                  {
+                    "en": "allow mobile phones in classrooms",
+                    "vi": "cho phép mang điện thoại vào lớp học"
+                  },
+                  {
+                    "en": "increase the risk of cheating",
+                    "vi": "làm tăng nguy cơ gian lận"
+                  },
+                  {
+                    "en": "during tests and examinations",
+                    "vi": "trong các bài kiểm tra và kỳ thi"
+                  },
+                  {
+                    "en": "photograph test papers",
+                    "vi": "chụp ảnh đề kiểm tra"
+                  },
+                  {
+                    "en": "text classmates for answers",
+                    "vi": "nhắn tin hỏi đáp án từ bạn cùng lớp"
+                  },
+                  {
+                    "en": "search for solutions online",
+                    "vi": "tra cứu lời giải trên mạng"
+                  },
+                  {
+                    "en": "such behavior",
+                    "vi": "hành vi như vậy"
+                  },
+                  {
+                    "en": "create unfairness for hard-working peers",
+                    "vi": "gây bất công cho những bạn chăm chỉ học tập"
+                  },
+                  {
+                    "en": "undermine honest academic assessment",
+                    "vi": "làm suy yếu việc đánh giá học lực trung thực"
+                  }
+                ],
+                "point_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra.",
+                "point_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                "evidence_vi": "Học sinh thiếu trung thực có thể dùng điện thoại chụp đề thi, nhắn tin hỏi đáp án từ bạn khác hoặc tra cứu lời giải có sẵn trên mạng. Hành vi này gây bất công với những bạn học tập nghiêm túc và làm sai lệch đánh giá học lực.",
+                "evidence_en": "Dishonest students may use smartphones to photograph test papers, text classmates for answers, or search for solutions online. Such behavior creates unfairness for hard-working peers and undermines honest academic assessment.",
+                "point_collocations": [
+                  {
+                    "en": "allow mobile phones in classrooms",
+                    "vi": "cho phép mang điện thoại vào lớp học"
+                  },
+                  {
+                    "en": "increase the risk of cheating",
+                    "vi": "làm tăng nguy cơ gian lận"
+                  },
+                  {
+                    "en": "during tests and examinations",
+                    "vi": "trong các bài kiểm tra và kỳ thi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "photograph test papers",
+                      "vi": "chụp ảnh đề kiểm tra"
+                    },
+                    {
+                      "en": "text classmates for answers",
+                      "vi": "nhắn tin hỏi đáp án từ bạn cùng lớp"
+                    },
+                    {
+                      "en": "search for solutions online",
+                      "vi": "tra cứu lời giải trên mạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "such behavior",
+                      "vi": "hành vi như vậy"
+                    },
+                    {
+                      "en": "create unfairness for hard-working peers",
+                      "vi": "gây bất công cho những bạn chăm chỉ học tập"
+                    },
+                    {
+                      "en": "undermine honest academic assessment",
+                      "vi": "làm suy yếu việc đánh giá học lực trung thực"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: VẤN NẠN QUAY LÉN VÀ BẮT NẠT HỌC ĐƯỜNG TRÊN MẠNG (SECRET RECORDING AND CYBERBULLYING)",
+                "collocations": [
+                  {
+                    "en": "uncontrolled phone use at school",
+                    "vi": "việc dùng điện thoại thiếu kiểm soát ở trường"
+                  },
+                  {
+                    "en": "secret recording",
+                    "vi": "hành vi quay phim/ghi hình lén"
+                  },
+                  {
+                    "en": "cyberbullying among students",
+                    "vi": "nạn bắt nạt qua mạng giữa học sinh"
+                  },
+                  {
+                    "en": "embarrassing photos or videos",
+                    "vi": "những bức ảnh hoặc đoạn video gây xấu hổ"
+                  },
+                  {
+                    "en": "without consent",
+                    "vi": "khi chưa có sự đồng ý"
+                  },
+                  {
+                    "en": "mocking comments",
+                    "vi": "những bình luận chế giễu, châm chọc"
+                  },
+                  {
+                    "en": "these incidents",
+                    "vi": "những sự việc này"
+                  },
+                  {
+                    "en": "cause deep emotional hurt to victims",
+                    "vi": "gây tổn thương cảm xúc sâu sắc cho nạn nhân"
+                  },
+                  {
+                    "en": "damage the school environment",
+                    "vi": "làm tổn hại môi trường học đường"
+                  }
+                ],
+                "point_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng.",
+                "point_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                "evidence_vi": "Một số học sinh tự ý chụp ảnh, quay video khoảnh khắc xấu hổ của bạn học hay thầy cô rồi đăng lên mạng xã hội kèm bình luận chế giễu. Những sự việc này gây tổn thương tâm lý nặng nề cho nạn nhân và ảnh hưởng xấu đến môi trường giáo dục.",
+                "evidence_en": "Some students take embarrassing photos or videos of classmates and teachers without consent and post them online with mocking comments. These incidents cause deep emotional hurt to victims and damage the school environment.",
+                "point_collocations": [
+                  {
+                    "en": "uncontrolled phone use at school",
+                    "vi": "việc dùng điện thoại thiếu kiểm soát ở trường"
+                  },
+                  {
+                    "en": "secret recording",
+                    "vi": "hành vi quay phim/ghi hình lén"
+                  },
+                  {
+                    "en": "cyberbullying among students",
+                    "vi": "nạn bắt nạt qua mạng giữa học sinh"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "embarrassing photos or videos",
+                      "vi": "những bức ảnh hoặc đoạn video gây xấu hổ"
+                    },
+                    {
+                      "en": "without consent",
+                      "vi": "khi chưa có sự đồng ý"
+                    },
+                    {
+                      "en": "mocking comments",
+                      "vi": "những bình luận chế giễu, châm chọc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "these incidents",
+                      "vi": "những sự việc này"
+                    },
+                    {
+                      "en": "cause deep emotional hurt to victims",
+                      "vi": "gây tổn thương cảm xúc sâu sắc cho nạn nhân"
+                    },
+                    {
+                      "en": "damage the school environment",
+                      "vi": "làm tổn hại môi trường học đường"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: NGUY CƠ MẤT CẮP TÀI SẢN VÀ SO BÌ VẬT CHẤT (THEFT RISKS AND MATERIALISTIC COMPARISON)",
+                "collocations": [
+                  {
+                    "en": "bring expensive smartphones to school",
+                    "vi": "mang điện thoại thông minh đắt tiền đến trường"
+                  },
+                  {
+                    "en": "cause theft problems",
+                    "vi": "gây ra các rắc rối về trộm cắp/mất mát"
+                  },
+                  {
+                    "en": "unhealthy comparison among peers",
+                    "vi": "sự so bì thiếu lành mạnh giữa bạn bè"
+                  },
+                  {
+                    "en": "crowded school settings",
+                    "vi": "môi trường trường học đông người"
+                  },
+                  {
+                    "en": "get lost, stolen, or broken",
+                    "vi": "bị thất lạc, mất cắp hoặc hư hỏng"
+                  },
+                  {
+                    "en": "physical education classes",
+                    "vi": "các tiết học thể dục"
+                  },
+                  {
+                    "en": "differences in phone models",
+                    "vi": "sự chênh lệch về dòng máy điện thoại"
+                  },
+                  {
+                    "en": "students from modest families",
+                    "vi": "học sinh xuất thân từ gia đình bình dân"
+                  },
+                  {
+                    "en": "feel inferior",
+                    "vi": "cảm thấy thua kém, tự ti"
+                  }
+                ],
+                "point_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học.",
+                "point_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                "evidence_vi": "Trường học đông người khiến điện thoại rất dễ bị thất lạc hoặc hư hỏng trong các tiết thể dục và hoạt động ngoại khóa. Bên cạnh đó, sự chênh lệch về mẫu mã điện thoại đôi khi khiến học sinh có hoàn cảnh khó khăn cảm thấy tự ti.",
+                "evidence_en": "In crowded school settings, expensive phones can easily get lost, stolen, or broken during physical education classes. Furthermore, differences in phone models sometimes make students from modest families feel inferior.",
+                "point_collocations": [
+                  {
+                    "en": "bring expensive smartphones to school",
+                    "vi": "mang điện thoại thông minh đắt tiền đến trường"
+                  },
+                  {
+                    "en": "cause theft problems",
+                    "vi": "gây ra các rắc rối về trộm cắp/mất mát"
+                  },
+                  {
+                    "en": "unhealthy comparison among peers",
+                    "vi": "sự so bì thiếu lành mạnh giữa bạn bè"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "crowded school settings",
+                      "vi": "môi trường trường học đông người"
+                    },
+                    {
+                      "en": "get lost, stolen, or broken",
+                      "vi": "bị thất lạc, mất cắp hoặc hư hỏng"
+                    },
+                    {
+                      "en": "physical education classes",
+                      "vi": "các tiết học thể dục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "differences in phone models",
+                      "vi": "sự chênh lệch về dòng máy điện thoại"
+                    },
+                    {
+                      "en": "students from modest families",
+                      "vi": "học sinh xuất thân từ gia đình bình dân"
+                    },
+                    {
+                      "en": "feel inferior",
+                      "vi": "cảm thấy thua kém, tự ti"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "stay in touch with their parents",
+              "vi": "giữ liên lạc với cha mẹ"
+            },
+            {
+              "en": "in emergencies",
+              "vi": "trong những tình huống khẩn cấp"
+            },
+            {
+              "en": "mobile phones",
+              "vi": "điện thoại di động"
+            },
+            {
+              "en": "ensure student safety after school",
+              "vi": "đảm bảo an toàn cho học sinh sau giờ tan trường"
+            },
+            {
+              "en": "arrange daily school pickups",
+              "vi": "sắp xếp việc đưa đón đi học hằng ngày"
+            },
+            {
+              "en": "serve as useful tools",
+              "vi": "đóng vai trò là những công cụ hữu ích"
+            },
+            {
+              "en": "search for academic information quickly",
+              "vi": "tra cứu thông tin học tập nhanh chóng"
+            },
+            {
+              "en": "in class",
+              "vi": "ngay tại lớp học"
+            },
+            {
+              "en": "portable learning devices",
+              "vi": "các thiết bị hỗ trợ học tập nhỏ gọn"
+            },
+            {
+              "en": "compensate for limited computer labs",
+              "vi": "bù đắp sự thiếu hụt phòng máy tính ở trường"
+            },
+            {
+              "en": "educational applications",
+              "vi": "các ứng dụng giáo dục"
+            },
+            {
+              "en": "make classroom lessons",
+              "vi": "làm cho các tiết học trên lớp"
+            },
+            {
+              "en": "more lively and engaging",
+              "vi": "trở nên sinh động và hấp dẫn hơn"
+            },
+            {
+              "en": "gamified classroom revision",
+              "vi": "ôn tập trên lớp theo hình thức trò chơi hóa"
+            },
+            {
+              "en": "boost student enthusiasm",
+              "vi": "khơi dậy sự hào hứng học tập của học sinh"
+            },
+            {
+              "en": "record study schedules",
+              "vi": "ghi chú lịch trình học tập"
+            },
+            {
+              "en": "store documents",
+              "vi": "lưu trữ tài liệu"
+            },
+            {
+              "en": "coordinate group assignments",
+              "vi": "phối hợp các bài tập nhóm"
+            },
+            {
+              "en": "set homework reminder alerts",
+              "vi": "cài đặt lời nhắc nộp bài tập về nhà"
+            },
+            {
+              "en": "share digital study notes",
+              "vi": "chia sẻ ghi chú học tập điện tử"
+            },
+            {
+              "en": "use phones properly at school",
+              "vi": "sử dụng điện thoại đúng cách ở trường"
+            },
+            {
+              "en": "develop responsible digital habits",
+              "vi": "hình thành thói quen công nghệ có trách nhiệm"
+            },
+            {
+              "en": "guide students",
+              "vi": "hướng dẫn học sinh"
+            },
+            {
+              "en": "cultivate digital citizenship",
+              "vi": "rèn luyện ý thức công dân số văn minh"
+            },
+            {
+              "en": "follow classroom technology rules",
+              "vi": "tuân thủ quy định công nghệ trong lớp học"
+            },
+            {
+              "en": "easily distract students",
+              "vi": "dễ khiến học sinh bị xao nhãng"
+            },
+            {
+              "en": "pay attention to teachers' lectures",
+              "vi": "chú ý lắng nghe bài giảng của thầy cô"
+            },
+            {
+              "en": "disrupt classroom concentration",
+              "vi": "làm gián đoạn sự tập trung trong lớp"
+            },
+            {
+              "en": "miss key explanations from teachers",
+              "vi": "bỏ lỡ những phần giảng giải trọng tâm của giáo viên"
+            },
+            {
+              "en": "overuse mobile phones at school",
+              "vi": "lạm dụng điện thoại di động ở trường"
+            },
+            {
+              "en": "face-to-face interaction",
+              "vi": "sự tương tác/giao tiếp trực tiếp"
+            },
+            {
+              "en": "physical activity during break time",
+              "vi": "hoạt động thể chất vào giờ giải lao"
+            },
+            {
+              "en": "isolate students from peers",
+              "vi": "tách biệt học sinh khỏi bạn bè xung quanh"
+            },
+            {
+              "en": "hinder interpersonal communication skills",
+              "vi": "cản trở kỹ năng giao tiếp xã hội trực tiếp"
+            },
+            {
+              "en": "allow mobile phones in classrooms",
+              "vi": "cho phép mang điện thoại vào lớp học"
+            },
+            {
+              "en": "increase the risk of cheating",
+              "vi": "làm tăng nguy cơ gian lận"
+            },
+            {
+              "en": "during tests and examinations",
+              "vi": "trong các bài kiểm tra và kỳ thi"
+            },
+            {
+              "en": "encourage academic dishonesty",
+              "vi": "tiếp tay cho sự thiếu trung thực trong học tập"
+            },
+            {
+              "en": "rely on AI tools to copy homework",
+              "vi": "ỷ lại công cụ AI để chép bài tập"
+            },
+            {
+              "en": "uncontrolled phone use at school",
+              "vi": "việc dùng điện thoại thiếu kiểm soát ở trường"
+            },
+            {
+              "en": "secret recording",
+              "vi": "hành vi quay phim/ghi hình lén"
+            },
+            {
+              "en": "cyberbullying among students",
+              "vi": "nạn bắt nạt qua mạng giữa học sinh"
+            },
+            {
+              "en": "violate classmates' personal privacy",
+              "vi": "xâm phạm quyền riêng tư của bạn cùng lớp"
+            },
+            {
+              "en": "spread harmful school rumors online",
+              "vi": "phát tán tin đồn học đường độc hại trên mạng"
+            },
+            {
+              "en": "bring expensive smartphones to school",
+              "vi": "mang điện thoại thông minh đắt tiền đến trường"
+            },
+            {
+              "en": "cause theft problems",
+              "vi": "gây ra các rắc rối về trộm cắp/mất mát"
+            },
+            {
+              "en": "unhealthy comparison among peers",
+              "vi": "sự so bì thiếu lành mạnh giữa bạn bè"
+            },
+            {
+              "en": "create peer pressure over luxury devices",
+              "vi": "tạo áp lực chạy đua thiết bị đắt tiền"
+            },
+            {
+              "en": "distract teachers with property disputes",
+              "vi": "khiến giáo viên mất thời gian xử lý việc mất đồ"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "class schedules change suddenly",
+              "vi": "lịch học thay đổi đột xuất"
+            },
+            {
+              "en": "feel unwell",
+              "vi": "cảm thấy không khỏe trong người"
+            },
+            {
+              "en": "call their families immediately",
+              "vi": "gọi điện báo ngay cho gia đình"
+            },
+            {
+              "en": "convenient communication",
+              "vi": "sự liên lạc thuận tiện"
+            },
+            {
+              "en": "working parents",
+              "vi": "các bậc phụ huynh đi làm"
+            },
+            {
+              "en": "greater peace of mind",
+              "vi": "sự an tâm lớn hơn"
+            },
+            {
+              "en": "with teachers' permission",
+              "vi": "khi được sự cho phép của giáo viên"
+            },
+            {
+              "en": "group presentations",
+              "vi": "các bài thuyết trình nhóm"
+            },
+            {
+              "en": "read reference materials",
+              "vi": "đọc tài liệu tham khảo"
+            },
+            {
+              "en": "make lessons more active",
+              "vi": "giúp tiết học trở nên chủ động hơn"
+            },
+            {
+              "en": "connected to",
+              "vi": "gắn kết với"
+            },
+            {
+              "en": "real-world knowledge",
+              "vi": "kiến thức thực tế"
+            },
+            {
+              "en": "organize live quiz games",
+              "vi": "tổ chức các trò chơi đố vui trực tiếp"
+            },
+            {
+              "en": "quick polls",
+              "vi": "các cuộc khảo sát nhanh"
+            },
+            {
+              "en": "check the whole class's understanding",
+              "vi": "kiểm tra mức độ hiểu bài của cả lớp"
+            },
+            {
+              "en": "modern interactive activities",
+              "vi": "các hoạt động tương tác hiện đại"
+            },
+            {
+              "en": "shy students",
+              "vi": "những học sinh nhút nhát"
+            },
+            {
+              "en": "participate actively in lessons",
+              "vi": "tích cực tham gia vào bài học"
+            },
+            {
+              "en": "photograph detailed board diagrams",
+              "vi": "chụp lại các sơ đồ chi tiết trên bảng"
+            },
+            {
+              "en": "receive digital worksheets",
+              "vi": "nhận phiếu bài tập điện tử"
+            },
+            {
+              "en": "divide project tasks quickly",
+              "vi": "phân chia nhiệm vụ dự án nhanh chóng"
+            },
+            {
+              "en": "academic collaboration",
+              "vi": "sự phối hợp trong học tập"
+            },
+            {
+              "en": "among classmates",
+              "vi": "giữa những người bạn cùng lớp"
+            },
+            {
+              "en": "become much smoother",
+              "vi": "trở nên trôi chảy hơn nhiều"
+            },
+            {
+              "en": "impose a total ban",
+              "vi": "áp đặt lệnh cấm hoàn toàn"
+            },
+            {
+              "en": "set clear rules",
+              "vi": "đặt ra các quy tắc rõ ràng"
+            },
+            {
+              "en": "put them away",
+              "vi": "cất thiết bị đi"
+            },
+            {
+              "en": "self-control",
+              "vi": "khả năng tự kiểm soát bản thân"
+            },
+            {
+              "en": "prepare them well for",
+              "vi": "chuẩn bị tốt cho các em bước vào"
+            },
+            {
+              "en": "future university and workplace environments",
+              "vi": "môi trường đại học và công sở tương lai"
+            },
+            {
+              "en": "scroll through social media",
+              "vi": "lướt mạng xã hội"
+            },
+            {
+              "en": "play mobile games under their desks",
+              "vi": "chơi trò chơi di động dưới gầm bàn"
+            },
+            {
+              "en": "take notes",
+              "vi": "ghi chép bài vở"
+            },
+            {
+              "en": "constant distraction",
+              "vi": "sự phân tâm thường xuyên"
+            },
+            {
+              "en": "harm their study habits",
+              "vi": "làm hại thói quen học tập"
+            },
+            {
+              "en": "lower their academic performance",
+              "vi": "làm giảm sút kết quả học tập"
+            },
+            {
+              "en": "chat happily with classmates",
+              "vi": "trò chuyện vui vẻ cùng bạn học"
+            },
+            {
+              "en": "play sports in the schoolyard",
+              "vi": "chơi thể thao ngoài sân trường"
+            },
+            {
+              "en": "sit silently staring at their screens",
+              "vi": "ngồi im lặng nhìn chằm chằm vào màn hình"
+            },
+            {
+              "en": "weaken school friendships",
+              "vi": "làm suy giảm sự gắn kết tình bạn học đường"
+            },
+            {
+              "en": "encourage",
+              "vi": "khuyến khích / cổ xúy"
+            },
+            {
+              "en": "an unhealthy sedentary lifestyle",
+              "vi": "lối sống thụ động ít vận động kém lành mạnh"
+            },
+            {
+              "en": "photograph test papers",
+              "vi": "chụp ảnh đề kiểm tra"
+            },
+            {
+              "en": "text classmates for answers",
+              "vi": "nhắn tin hỏi đáp án từ bạn cùng lớp"
+            },
+            {
+              "en": "search for solutions online",
+              "vi": "tra cứu lời giải trên mạng"
+            },
+            {
+              "en": "such behavior",
+              "vi": "hành vi như vậy"
+            },
+            {
+              "en": "create unfairness for hard-working peers",
+              "vi": "gây bất công cho những bạn chăm chỉ học tập"
+            },
+            {
+              "en": "undermine honest academic assessment",
+              "vi": "làm suy yếu việc đánh giá học lực trung thực"
+            },
+            {
+              "en": "embarrassing photos or videos",
+              "vi": "những bức ảnh hoặc đoạn video gây xấu hổ"
+            },
+            {
+              "en": "without consent",
+              "vi": "khi chưa có sự đồng ý"
+            },
+            {
+              "en": "mocking comments",
+              "vi": "những bình luận chế giễu, châm chọc"
+            },
+            {
+              "en": "these incidents",
+              "vi": "những sự việc này"
+            },
+            {
+              "en": "cause deep emotional hurt to victims",
+              "vi": "gây tổn thương cảm xúc sâu sắc cho nạn nhân"
+            },
+            {
+              "en": "damage the school environment",
+              "vi": "làm tổn hại môi trường học đường"
+            },
+            {
+              "en": "crowded school settings",
+              "vi": "môi trường trường học đông người"
+            },
+            {
+              "en": "get lost, stolen, or broken",
+              "vi": "bị thất lạc, mất cắp hoặc hư hỏng"
+            },
+            {
+              "en": "physical education classes",
+              "vi": "các tiết học thể dục"
+            },
+            {
+              "en": "differences in phone models",
+              "vi": "sự chênh lệch về dòng máy điện thoại"
+            },
+            {
+              "en": "students from modest families",
+              "vi": "học sinh xuất thân từ gia đình bình dân"
+            },
+            {
+              "en": "feel inferior",
+              "vi": "cảm thấy thua kém, tự ti"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>allowing students to use mobile phones at school</strong> has sparked heated debate among educators and parents. Although bringing mobile devices to school offers practical benefits, it also creates serious challenges for learning and behavior. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, permitting students to bring mobile phones to school provides several clear advantages.</strong> One major benefit is that <strong><em>mobile phones allow students to stay in touch with their parents easily, especially in emergencies.</em></strong> When class schedules change suddenly, heavy rain occurs, or students feel unwell, they can call their families immediately for pickup. Such convenient communication gives working parents much greater peace of mind every day. Another positive aspect is that <strong><em>smartphones serve as useful tools that help students search for academic information quickly in class.</em></strong> With teachers' permission, students can open digital dictionaries, find data for group presentations, or read reference materials within seconds. This makes lessons more active and connected to real-world knowledge. A further advantage to consider is that <strong><em>using educational applications on mobile phones makes classroom lessons more lively and engaging.</em></strong> Teachers can organize live quiz games or quick polls on smartphones to check the whole class's understanding. Such modern interactive activities encourage even shy students to participate actively in lessons.\n\n<strong>On the other hand, there are significant disadvantages that should not be ignored.</strong> One possible drawback is that <strong><em>mobile phones can easily distract students from paying attention to teachers' lectures in class.</em></strong> Many pupils secretly send messages, scroll through social media, or play mobile games under their desks instead of taking notes. Constant distraction harms their study habits and lowers their academic performance. Another negative aspect is that <strong><em>overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.</em></strong> Instead of chatting happily with classmates or playing sports in the schoolyard, many students sit silently staring at their screens. This weakens school friendships and encourages an unhealthy sedentary lifestyle. A further concern is that <strong><em>allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.</em></strong> Dishonest students may use smartphones to photograph test papers, text classmates for answers, or search for solutions online. Such behavior creates unfairness for hard-working peers and undermines honest academic assessment.\n\nIn conclusion, <strong>students using mobile phones at school</strong> has both helpful educational uses and considerable risks. While smartphones support emergency contact and interactive learning, uncontrolled usage can harm concentration and social interaction. Therefore, schools should establish strict classroom rules so that mobile phones are used only for safety and teacher-guided study.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc cho phép học sinh sử dụng điện thoại di động ở trường</strong> đã làm dấy lên nhiều cuộc tranh luận sôi nổi giữa các nhà giáo dục và phụ huynh. Mặc dù mang thiết bị di động đến trường đem lại những lợi ích thiết thực, điều này cũng tạo ra các thách thức nghiêm trọng đối với việc học và hành vi của học sinh. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, cho phép học sinh mang điện thoại di động đến trường mang lại một số lợi thế rõ rệt.</strong> Một lợi ích lớn là <strong><em>điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống khẩn cấp.</em></strong> Khi lịch học thay đổi đột xuất, trời mưa lớn hoặc học sinh cảm thấy không khỏe, các em có thể gọi điện báo ngay cho gia đình đến đón. Sự liên lạc thuận tiện này mang lại sự an tâm lớn hơn nhiều cho các bậc phụ huynh đi làm mỗi ngày. Một khía cạnh tích cực khác là <strong><em>điện thoại thông minh đóng vai trò là những công cụ hữu ích giúp học sinh tra cứu thông tin học tập nhanh chóng ngay tại lớp.</em></strong> Khi được sự cho phép của giáo viên, học sinh có thể mở từ điển điện tử, tìm số liệu cho các bài thuyết trình nhóm hoặc đọc tài liệu tham khảo chỉ trong vài giây. Điều này giúp tiết học trở nên chủ động hơn và gắn kết với kiến thức thực tế. Một thuận lợi nữa cần xem xét là <strong><em>việc sử dụng các ứng dụng giáo dục trên điện thoại làm cho các tiết học trên lớp trở nên sinh động và hấp dẫn hơn.</em></strong> Giáo viên có thể tổ chức các trò chơi đố vui trực tiếp hoặc khảo sát nhanh trên điện thoại để kiểm tra mức độ hiểu bài của cả lớp. Các hoạt động tương tác hiện đại như vậy khuyến khích cả những học sinh nhút nhát tích cực tham gia vào bài học.\n\n<strong>Mặt khác, vẫn có những bất lợi đáng kể không thể xem nhẹ.</strong> Một hạn chế có thể xảy ra là <strong><em>điện thoại di động rất dễ khiến học sinh bị xao nhãng khỏi việc chú ý lắng nghe bài giảng của thầy cô ở trên lớp.</em></strong> Nhiều học sinh lén nhắn tin, lướt mạng xã hội hoặc chơi trò chơi di động dưới gầm bàn thay vì ghi chép bài vở. Sự phân tâm thường xuyên làm hại thói quen học tập và làm giảm sút kết quả học tập của các em. Một điểm tiêu cực khác là <strong><em>việc lạm dụng điện thoại di động ở trường làm giảm sự tương tác trực tiếp và hoạt động thể chất vào giờ giải lao.</em></strong> Thay vì trò chuyện vui vẻ cùng bạn học hay chơi thể thao ngoài sân trường, nhiều học sinh lại ngồi im lặng nhìn chằm chằm vào màn hình. Điều này làm suy giảm sự gắn kết tình bạn học đường và khuyến khích lối sống thụ động ít vận động kém lành mạnh. Một mối lo ngại nữa là <strong><em>cho phép mang điện thoại vào lớp học làm tăng nguy cơ gian lận trong các bài kiểm tra và kỳ thi.</em></strong> Học sinh thiếu trung thực có thể dùng điện thoại chụp ảnh đề kiểm tra, nhắn tin hỏi đáp án từ bạn cùng lớp hoặc tra cứu lời giải trên mạng. Hành vi như vậy gây bất công cho những bạn chăm chỉ học tập và làm suy yếu việc đánh giá học lực trung thực.\n\nTóm lại, <strong>việc học sinh sử dụng điện thoại ở trường</strong> vừa có những giá trị hỗ trợ học tập hữu ích vừa tiềm ẩn nhiều rủi ro đáng lo ngại. Mặc dù điện thoại thông minh phục vụ tốt cho liên lạc khẩn cấp và học tập tương tác, việc sử dụng thiếu kiểm soát có thể gây hại cho sự tập trung và giao tiếp bạn bè. Vì vậy, nhà trường nên thiết lập nội quy lớp học nghiêm ngặt để điện thoại chỉ được dùng cho mục đích an toàn và học tập dưới sự hướng dẫn của giáo viên.",
+          "key_vocab_notes": [
+            {
+              "en": "stay in touch with parents in emergencies",
+              "vi": "giữ liên lạc với cha mẹ trong trường hợp khẩn cấp"
+            },
+            {
+              "en": "give working parents greater peace of mind",
+              "vi": "mang lại sự an tâm lớn hơn cho phụ huynh đi làm"
+            },
+            {
+              "en": "search for academic information quickly",
+              "vi": "tra cứu thông tin học tập nhanh chóng"
+            },
+            {
+              "en": "with teachers' permission",
+              "vi": "khi được sự cho phép của giáo viên"
+            },
+            {
+              "en": "organize live quiz games",
+              "vi": "tổ chức các trò chơi đố vui trực tiếp trên lớp"
+            },
+            {
+              "en": "distract students from paying attention to lectures",
+              "vi": "làm học sinh xao nhãng khỏi việc nghe giảng"
+            },
+            {
+              "en": "lower their academic performance",
+              "vi": "làm giảm sút kết quả học tập"
+            },
+            {
+              "en": "an unhealthy sedentary lifestyle",
+              "vi": "lối sống thụ động ít vận động kém lành mạnh"
+            },
+            {
+              "en": "increase the risk of cheating during examinations",
+              "vi": "làm tăng nguy cơ gian lận trong kỳ thi"
+            },
+            {
+              "en": "undermine honest academic assessment",
+              "vi": "làm suy yếu việc đánh giá học lực trung thực"
+            }
+          ]
+        }
       },
       {
         "id": 30,
@@ -58913,7 +63393,2249 @@ const ESSAY_DATA = [
         "title_vi": "Sử dụng điện thoại ở nơi làm việc",
         "context": "In many modern workplaces, mobile phones have become common tools for communication and daily tasks. Employees may use them to contact colleagues, check work messages, join online meetings, or search for information quickly. However, some employers worry that mobile phones can distract workers and reduce productivity during working hours.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of using mobile phones in the workplace. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Tại nhiều nơi làm việc hiện đại, điện thoại di động đã trở thành công cụ phổ biến phục vụ cho giao tiếp và xử lý công việc hằng ngày. Nhân viên có thể sử dụng điện thoại để liên lạc với đồng nghiệp, kiểm tra tin nhắn công việc, tham gia các cuộc họp trực tuyến hoặc tra cứu thông tin nhanh chóng. Tuy nhiên, một số người sử dụng lao động lo ngại rằng điện thoại di động có thể gây xao nhãng cho nhân viên và làm giảm năng suất trong giờ làm việc.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của việc sử dụng điện thoại ở nơi làm việc. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "smartphone usage in professional environments",
+            "vi": "việc sử dụng điện thoại thông minh trong môi trường chuyên nghiệp"
+          },
+          {
+            "en": "allowing employees to use mobile devices at work",
+            "vi": "cho phép nhân viên sử dụng thiết bị di động tại nơi làm việc"
+          },
+          {
+            "en": "using cell phones during working hours",
+            "vi": "sử dụng điện thoại di động trong giờ làm việc"
+          },
+          {
+            "en": "integrating mobile phones into office tasks",
+            "vi": "tích hợp điện thoại di động vào các tác vụ văn phòng"
+          },
+          {
+            "en": "workplace mobile phone communication",
+            "vi": "hoạt động giao tiếp qua điện thoại di động nơi công sở"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Công nghệ di động ảnh hưởng thế nào đến năng suất lao động chốn công sở?",
+                "summary": "Phân tích hai mặt của thiết bị thông minh tại văn phòng: giúp kết nối công việc tức thời nhưng cũng lấy đi sự tập trung sâu của nhân viên.",
+                "url": "https://vnexpress.net/cong-nghe-anh-huong-nang-suat-lao-dong-chon-cong-so-3471687.html"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Áp lực tăng ca vô hình từ tin nhắn điện thoại của người lao động công sở",
+                "summary": "Phản ánh thực trạng ranh giới giữa giờ làm việc và nghỉ ngơi bị xóa nhòa khi nhân viên phải liên tục phản hồi tin nhắn công việc qua điện thoại.",
+                "url": "https://vnexpress.net/ap-luc-tang-ca-vo-hinh-cua-lao-dong-cong-so-5074375.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Vì sao nhiều doanh nghiệp đặt quy định hạn chế nhân viên dùng điện thoại cá nhân trong giờ làm?",
+                "summary": "Ghi nhận lo ngại của doanh nghiệp về sự sụt giảm hiệu suất, văn hóa họp hành và nguy cơ rò rỉ dữ liệu mật qua thiết bị cá nhân.",
+                "url": "https://dantri.com.vn/lao-dong-viec-lam/nhieu-cong-ty-cam-nhan-vien-su-dung-dien-thoai-trong-gio-lam-viec-20260512145624553.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "The Guardian",
+                "title": "Are Smartphones Making Modern Working Lives More Productive or More Stressful?",
+                "summary": "Examines how workplace mobile connectivity boosts responsiveness to clients while creating constant pressure and burnout among staff.",
+                "url": "https://www.theguardian.com/technology/2014/sep/18/smartphones-making-working-lives-more-stressful"
+              },
+              {
+                "source": "The Guardian",
+                "title": "One Ping After Another: How Constant Notifications Drive Workers to Distraction",
+                "summary": "Explores workplace psychology research on how frequent phone notifications fragment employee focus and slow task completion.",
+                "url": "https://www.theguardian.com/lifeandstyle/2020/jan/27/one-ping-after-another-how-constant-notifications-are-driving-us-to-distraction"
+              },
+              {
+                "source": "CBS News",
+                "title": "Smartphones at Work: Balancing Workplace Efficiency and Employee Distraction",
+                "summary": "Discusses employer surveys on personal texting, social media browsing during office hours, and practical policies for healthy phone use.",
+                "url": "https://www.cbsnews.com/news/your-smartphone-is-making-you-a-workplace-slacker/"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Sử dụng điện thoại ở nơi làm việc (Using mobile phones in the workplace)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Sử dụng điện thoại ở nơi làm việc\" (Using mobile phones in the workplace), bao gồm 20 từ đơn cốt lõi kèm Họ từ (Word Family) và 58 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "single_words": [
+              {
+                "word": "productivity",
+                "ipa": "/ˌprɒdʌkˈtɪvəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "năng suất làm việc",
+                "example_en": "Frequent personal calls can reduce overall office productivity.",
+                "example_vi": "Các cuộc gọi cá nhân thường xuyên có thể làm giảm năng suất chung tại văn phòng.",
+                "family": "productive (adj), produce (v)"
+              },
+              {
+                "word": "colleague",
+                "ipa": "/ˈkɒliːɡ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "đồng nghiệp cùng cơ quan",
+                "example_en": "Messaging apps help colleagues exchange urgent files instantly.",
+                "example_vi": "Các ứng dụng nhắn tin giúp đồng nghiệp trao đổi tệp tin khẩn ngay tức thì.",
+                "family": "co-worker (n)"
+              },
+              {
+                "word": "efficiency",
+                "ipa": "/ɪˈfɪʃnsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hiệu suất, sự nhanh gọn hiệu quả",
+                "example_en": "Mobile scheduling tools improve daily workflow efficiency.",
+                "example_vi": "Các công cụ quản lý lịch trên di động nâng cao hiệu suất quy trình làm việc hằng ngày.",
+                "family": "efficient (adj), efficiently (adv)"
+              },
+              {
+                "word": "confidential",
+                "ipa": "/ˌkɒnfɪˈdenʃl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tuyệt mật, bảo mật nội bộ",
+                "example_en": "Employees must never photograph confidential company documents.",
+                "example_vi": "Nhân viên tuyệt đối không được chụp ảnh các tài liệu bảo mật của công ty.",
+                "family": "confidentiality (n)"
+              },
+              {
+                "word": "coordination",
+                "ipa": "/kəʊˌɔːdɪˈneɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự phối hợp nhịp nhàng giữa các bộ phận",
+                "example_en": "Smartphones allow smooth coordination between field staff and headquarters.",
+                "example_vi": "Điện thoại thông minh giúp phối hợp nhịp nhàng giữa nhân viên hiện trường và trụ sở chính.",
+                "family": "coordinate (v)"
+              },
+              {
+                "word": "responsive",
+                "ipa": "/rɪˈspɒnsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "phản hồi nhanh nhạy, kịp thời",
+                "example_en": "Sales staff use mobile phones to stay responsive to client inquiries.",
+                "example_vi": "Nhân viên kinh doanh dùng điện thoại để phản hồi nhanh nhạy yêu cầu của khách hàng.",
+                "family": "respond (v), responsiveness (n)"
+              },
+              {
+                "word": "boundary",
+                "ipa": "/ˈbaʊndri/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "ranh giới (giữa công việc và đời tư)",
+                "example_en": "After-hours work chats often blur the boundary between work and rest.",
+                "example_vi": "Tin nhắn công việc ngoài giờ thường làm mờ ranh giới giữa làm việc và nghỉ ngơi.",
+                "family": "boundaries (pl)"
+              },
+              {
+                "word": "interrupt",
+                "ipa": "/ˌɪntəˈrʌpt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "cắt ngang, làm gián đoạn mạch làm việc",
+                "example_en": "Constant notification pings interrupt deep thinking at work.",
+                "example_vi": "Tiếng báo thông báo liên tục làm gián đoạn sự suy nghĩ sâu trong công việc.",
+                "family": "interruption (n)"
+              },
+              {
+                "word": "unprofessional",
+                "ipa": "/ˌʌnprəˈfeʃənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thiếu chuyên nghiệp",
+                "example_en": "Checking personal social media during client meetings looks unprofessional.",
+                "example_vi": "Lướt mạng xã hội cá nhân trong lúc họp với khách hàng trông rất thiếu chuyên nghiệp.",
+                "family": "professional (adj), professionalism (n)"
+              },
+              {
+                "word": "burnout",
+                "ipa": "/ˈbɜːnaʊt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự kiệt sức nghề nghiệp",
+                "example_en": "Being reachable by phone 24/7 increases the risk of employee burnout.",
+                "example_vi": "Phải giữ liên lạc điện thoại 24/7 làm tăng nguy cơ kiệt sức ở nhân viên.",
+                "family": "burn out (phr.v)"
+              },
+              {
+                "word": "urgent",
+                "ipa": "/ˈɜːdʒənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "khẩn cấp, cấp bách",
+                "example_en": "Managers can resolve urgent problems quickly via mobile calls.",
+                "example_vi": "Người quản lý có thể giải quyết các vấn đề cấp bách nhanh chóng qua cuộc gọi di động.",
+                "family": "urgency (n), urgently (adv)"
+              },
+              {
+                "word": "multitask",
+                "ipa": "/ˌmʌltiˈtɑːsk/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "xử lý nhiều đầu việc cùng lúc",
+                "example_en": "Smartphones help busy executives multitask while traveling on business.",
+                "example_vi": "Điện thoại thông minh giúp các quản lý bận rộn xử lý nhiều việc khi đi công tác.",
+                "family": "multitasking (n)"
+              },
+              {
+                "word": "leak",
+                "ipa": "/liːk/",
+                "pos": "noun/verb",
+                "level": "B2",
+                "vi": "sự rò rỉ; làm rò rỉ (thông tin, dữ liệu)",
+                "example_en": "Unsecured personal phones may cause sensitive data leaks.",
+                "example_vi": "Điện thoại cá nhân thiếu bảo mật có thể gây rò rỉ dữ liệu nhạy cảm.",
+                "family": "data leak (n.phr)"
+              },
+              {
+                "word": "deadline",
+                "ipa": "/ˈdedlaɪn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "thời hạn hoàn thành công việc",
+                "example_en": "Wasting hours on personal chats makes workers miss important deadlines.",
+                "example_vi": "Tốn hàng giờ tán gẫu cá nhân khiến nhân viên trễ các thời hạn công việc quan trọng.",
+                "family": "meet a deadline (v.phr)"
+              },
+              {
+                "word": "remote",
+                "ipa": "/rɪˈməʊt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "từ xa, ngoài văn phòng",
+                "example_en": "Mobile apps enable employees to join remote meetings from anywhere.",
+                "example_vi": "Các ứng dụng di động cho phép nhân viên tham gia họp từ xa ở bất cứ đâu.",
+                "family": "remotely (adv)"
+              },
+              {
+                "word": "concentration",
+                "ipa": "/ˌkɒnsnˈtreɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tập trung chuyên môn",
+                "example_en": "Even brief phone glances break an employee's concentration.",
+                "example_vi": "Ngay cả những cái liếc nhìn điện thoại ngắn ngủi cũng làm đứt mạch tập trung của nhân viên.",
+                "family": "concentrate (v)"
+              },
+              {
+                "word": "workflow",
+                "ipa": "/ˈwɜːkfləʊ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quy trình luồng công việc",
+                "example_en": "Cloud apps on smartphones streamline daily team workflow.",
+                "example_vi": "Ứng dụng đám mây trên điện thoại giúp quy trình làm việc nhóm hằng ngày trôi chảy hơn.",
+                "family": "workplace (n)"
+              },
+              {
+                "word": "etiquette",
+                "ipa": "/ˈetɪket/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quy tắc ứng xử lịch sự nơi công sở",
+                "example_en": "Muting ringtones in shared offices is basic workplace etiquette.",
+                "example_vi": "Tắt chuông điện thoại trong văn phòng chung là phép lịch sự cơ bản nơi công sở.",
+                "family": "office etiquette (n.phr)"
+              },
+              {
+                "word": "cybersecurity",
+                "ipa": "/ˈsaɪbəsɪkjʊərəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "an ninh mạng, bảo mật hệ thống số",
+                "example_en": "Connecting personal phones to office Wi-Fi can pose cybersecurity risks.",
+                "example_vi": "Kết nối điện thoại cá nhân vào mạng công ty có thể tiềm ẩn rủi ro an ninh mạng.",
+                "family": "security (n)"
+              },
+              {
+                "word": "client",
+                "ipa": "/ˈklaɪənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khách hàng, đối tác dịch vụ",
+                "example_en": "Quick mobile updates build stronger trust with corporate clients.",
+                "example_vi": "Cập nhật nhanh qua di động giúp xây dựng niềm tin vững chắc hơn với khách hàng.",
+                "family": "clientele (n)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "benefit_cols_1",
+                "name": "THUẬN LỢI 01: GIAO TIẾP NHANH CHÓNG VỚI ĐỒNG NGHIỆP VÀ KHÁCH HÀNG (FAST COMMUNICATION WITH COLLEAGUES AND CLIENTS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "communicate quickly with colleagues and clients",
+                    "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                    "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
+                  },
+                  {
+                    "en": "throughout the workday",
+                    "vi": "trong suốt ngày làm việc",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                    "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
+                  },
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                    "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
+                  },
+                  {
+                    "en": "speed up workplace decision-making",
+                    "vi": "đẩy nhanh tốc độ ra quyết định công việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                    "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
+                  },
+                  {
+                    "en": "stay reachable for urgent inquiries",
+                    "vi": "giữ kết nối cho các yêu cầu khẩn cấp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                    "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_2",
+                "name": "THUẬN LỢI 02: HỖ TRỢ LÀM VIỆC LINH HOẠT KHI DI CHUYỂN NGOÀI VĂN PHÒNG (FLEXIBLE MOBILE WORK ON THE GO)",
+                "icon": "✅",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "handle tasks flexibly",
+                    "vi": "xử lý công việc một cách linh hoạt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
+                    "example_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài."
+                  },
+                  {
+                    "en": "meet partners outside the office",
+                    "vi": "gặp gỡ đối tác bên ngoài văn phòng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
+                    "example_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài."
+                  },
+                  {
+                    "en": "attend online meetings",
+                    "vi": "tham gia các cuộc họp trực tuyến",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk.",
+                    "example_vi": "Nhân viên có thể kiểm tra thư điện tử, tham gia cuộc họp trực tuyến hoặc xem tài liệu trên nền tảng đám mây mà không cần ngồi cố định trước máy tính bàn."
+                  },
+                  {
+                    "en": "work seamlessly on business trips",
+                    "vi": "làm việc liền mạch trong các chuyến công tác",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
+                    "example_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài."
+                  },
+                  {
+                    "en": "enhance remote working capability",
+                    "vi": "nâng cao khả năng làm việc từ xa",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
+                    "example_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_3",
+                "name": "THUẬN LỢI 03: TÍCH HỢP NHIỀU CÔNG CỤ QUẢN LÝ CÔNG VIỆC TIỆN LỢI (HANDY PRODUCTIVITY AND SCHEDULING TOOLS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "useful mobile applications",
+                    "vi": "những ứng dụng di động hữu ích",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                    "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
+                  },
+                  {
+                    "en": "organize schedules",
+                    "vi": "sắp xếp lịch trình làm việc",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                    "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
+                  },
+                  {
+                    "en": "look up work information efficiently",
+                    "vi": "tra cứu thông tin công việc hiệu quả",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                    "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
+                  },
+                  {
+                    "en": "streamline daily office workflow",
+                    "vi": "tối ưu hóa quy trình làm việc văn phòng hằng ngày",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                    "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
+                  },
+                  {
+                    "en": "track project deadlines accurately",
+                    "vi": "theo dõi sát sao thời hạn các dự án",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                    "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_4",
+                "name": "THUẬN LỢI 04: ĐẢM BẢO LIÊN LẠC GIA ĐÌNH TRONG TÌNH HUỐNG KHẨN CẤP (HANDLING URGENT FAMILY MATTERS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "keep mobile phones nearby",
+                    "vi": "giữ điện thoại di động bên mình",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                    "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
+                  },
+                  {
+                    "en": "give employees peace of mind",
+                    "vi": "mang lại sự an tâm cho nhân viên",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                    "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
+                  },
+                  {
+                    "en": "urgent family situations",
+                    "vi": "những tình huống gia đình khẩn cấp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                    "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
+                  },
+                  {
+                    "en": "balance family care and career",
+                    "vi": "cân bằng trách nhiệm gia đình và sự nghiệp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                    "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
+                  },
+                  {
+                    "en": "reduce workplace anxiety for parents",
+                    "vi": "giảm nỗi lo lắng cho nhân viên có con nhỏ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                    "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
+                  }
+                ]
+              },
+              {
+                "id": "benefit_cols_5",
+                "name": "THUẬN LỢI 05: GIÚP GIẢI TỎA CĂNG THẲNG NGẮN TRONG GIỜ NGHỈ GIẢI LAO (BRIEF RELAXATION DURING WORK BREAKS)",
+                "icon": "✅",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "during lunch breaks",
+                    "vi": "trong giờ nghỉ trưa",
+                    "type": "prep.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                    "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
+                  },
+                  {
+                    "en": "relax briefly",
+                    "vi": "thư giãn ngắn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                    "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
+                  },
+                  {
+                    "en": "recharge their mental energy",
+                    "vi": "nạp lại năng lượng tinh thần",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                    "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
+                  },
+                  {
+                    "en": "relieve work-related stress",
+                    "vi": "giải tỏa căng thẳng trong công việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                    "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
+                  },
+                  {
+                    "en": "refresh the mind between tasks",
+                    "vi": "làm mới đầu óc giữa các chặng công việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                    "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_1",
+                "name": "BẤT LỢI 01: GÂY XAO NHÃNG VÀ LÀM GIẢM NĂNG SUẤT LAO ĐỘNG (WORKPLACE DISTRACTION AND LOWER PRODUCTIVITY)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "personal entertainment",
+                    "vi": "các hoạt động giải trí cá nhân",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                    "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
+                  },
+                  {
+                    "en": "reduce overall workplace productivity",
+                    "vi": "làm giảm năng suất làm việc chung",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                    "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
+                  },
+                  {
+                    "en": "easily distract employees",
+                    "vi": "dễ khiến nhân viên bị xao nhãng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                    "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
+                  },
+                  {
+                    "en": "waste paid working hours",
+                    "vi": "lãng phí thời gian làm việc được trả lương",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                    "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
+                  },
+                  {
+                    "en": "lower the quality of work output",
+                    "vi": "làm giảm chất lượng đầu ra công việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                    "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_2",
+                "name": "BẤT LỢI 02: TẠO HÌNH ẢNH THIẾU CHUYÊN NGHIỆP TRONG CUỘC HỌP VÀ GIAO TIẾP (UNPROFESSIONAL BEHAVIOR IN MEETINGS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "use mobile phones inappropriately",
+                    "vi": "sử dụng điện thoại không đúng lúc/thiếu phù hợp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                    "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
+                  },
+                  {
+                    "en": "client discussions",
+                    "vi": "các buổi trao đổi với khách hàng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                    "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
+                  },
+                  {
+                    "en": "create an unprofessional impression",
+                    "vi": "tạo ấn tượng thiếu chuyên nghiệp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                    "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
+                  },
+                  {
+                    "en": "violate basic workplace etiquette",
+                    "vi": "vi phạm phép lịch sự cơ bản nơi công sở",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                    "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
+                  },
+                  {
+                    "en": "disrupt team brainstorming sessions",
+                    "vi": "làm gián đoạn các buổi họp bàn ý tưởng nhóm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                    "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_3",
+                "name": "BẤT LỢI 03: NGUY CƠ RÒ RỈ DỮ LIỆU NỘI BỘ VÀ MẤT AN NINH MẠNG (RISKS OF DATA LEAKS AND SECURITY BREACHES)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "unrestricted use of personal phones",
+                    "vi": "việc dùng điện thoại cá nhân không giới hạn",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
+                    "example_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp."
+                  },
+                  {
+                    "en": "company data security",
+                    "vi": "an toàn dữ liệu của doanh nghiệp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
+                    "example_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp."
+                  },
+                  {
+                    "en": "photograph internal documents",
+                    "vi": "chụp ảnh tài liệu nội bộ",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks.",
+                    "example_vi": "Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu thông tin khách hàng trên máy cá nhân kém bảo mật hoặc truy cập đường dẫn chứa mã độc qua mạng công ty."
+                  },
+                  {
+                    "en": "leak confidential business secrets",
+                    "vi": "làm rò rỉ bí mật kinh doanh tuyệt mật",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
+                    "example_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp."
+                  },
+                  {
+                    "en": "expose corporate networks to malware",
+                    "vi": "khiến mạng doanh nghiệp nhiễm phần mềm độc hại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
+                    "example_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_4",
+                "name": "BẤT LỢI 04: XÓA NHÒA RANH GIỚI NGHỈ NGƠI VÀ GÂY KIỆT SỨC NGHỀ NGHIỆP (BLURRING WORK-LIFE BOUNDARIES AND BURNOUT)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "constant connectivity",
+                    "vi": "sự kết nối liên tục không ngừng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
+                    "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
+                  },
+                  {
+                    "en": "blur the boundary",
+                    "vi": "làm mờ đi ranh giới",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
+                    "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
+                  },
+                  {
+                    "en": "working hours and personal rest",
+                    "vi": "giờ làm việc và thời gian nghỉ ngơi cá nhân",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
+                    "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
+                  },
+                  {
+                    "en": "suffer from after-hours message overload",
+                    "vi": "chịu quá tải tin nhắn công việc ngoài giờ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
+                    "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
+                  },
+                  {
+                    "en": "harm employees' work-life balance",
+                    "vi": "làm tổn hại sự cân bằng công việc - cuộc sống",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
+                    "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
+                  }
+                ]
+              },
+              {
+                "id": "drawback_cols_5",
+                "name": "BẤT LỢI 05: MẤT AN TOÀN LAO ĐỘNG TRONG MÔI TRƯỜNG SẢN XUẤT VÀ VẬN HÀNH (SAFETY HAZARDS IN INDUSTRIAL WORKPLACES)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "construction sites",
+                    "vi": "các công trường xây dựng",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                    "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
+                  },
+                  {
+                    "en": "cause dangerous workplace accidents",
+                    "vi": "gây ra những tai nạn lao động nguy hiểm",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                    "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
+                  },
+                  {
+                    "en": "look at mobile phones",
+                    "vi": "nhìn vào điện thoại di động",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                    "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
+                  },
+                  {
+                    "en": "strictly prohibit phones in hazard zones",
+                    "vi": "nghiêm cấm dùng điện thoại ở khu vực nguy hiểm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                    "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
+                  },
+                  {
+                    "en": "comply with occupational safety standards",
+                    "vi": "tuân thủ tiêu chuẩn an toàn lao động",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                    "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
+                  }
+                ]
+              },
+              {
+                "id": "academic_discourse_cols",
+                "name": "CỤM TỪ KHUNG DÀN Ý & DẪN LUẬN HỌC THUẬT B2 (ESSAY FRAMING & DISCOURSE)",
+                "icon": "🎯",
+                "badge": "Mở bài • Kết bài • Liên kết",
+                "items": [
+                  {
+                    "en": "become increasingly prevalent in modern society",
+                    "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "In recent years, using mobile phones in the workplace has become increasingly prevalent in modern society.",
+                    "example_vi": "Trong những năm gần đây, sử dụng điện thoại ở nơi làm việc ngày càng trở nên phổ biến trong xã hội hiện đại."
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả mặt thuận lợi và bất lợi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will examine both the advantages and disadvantages of using mobile phones in the workplace.",
+                    "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của sử dụng điện thoại ở nơi làm việc."
+                  },
+                  {
+                    "en": "offer several notable advantages",
+                    "vi": "mang lại một số thuận lợi đáng chú ý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "On the one hand, using mobile phones in the workplace offers several notable advantages.",
+                    "example_vi": "Một mặt, sử dụng điện thoại ở nơi làm việc mang lại một số thuận lợi đáng chú ý."
+                  },
+                  {
+                    "en": "stem from the fact that",
+                    "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
+                    "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
+                  },
+                  {
+                    "en": "a good example of this is that",
+                    "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "A good example of this is that many people encounter using mobile phones in the workplace in daily life.",
+                    "example_vi": "Một ví dụ điển hình cho điều này là nhiều người tiếp xúc với sử dụng điện thoại ở nơi làm việc trong đời sống hằng ngày."
+                  },
+                  {
+                    "en": "lead to unintended negative consequences",
+                    "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Overlooking these challenges can lead to unintended negative consequences.",
+                    "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả tiêu cực ngoài ý muốn."
+                  },
+                  {
+                    "en": "have significant implications for",
+                    "vi": "có những tác động đáng kể đối với",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "While it offers certain benefits, its potential drawbacks may also have significant implications.",
+                    "example_vi": "Mặc dù mang lại những lợi ích nhất định, các bất lợi tiềm ẩn của nó cũng có thể để lại tác động đáng kể."
+                  },
+                  {
+                    "en": "a balanced consideration of both aspects",
+                    "vi": "sự cân nhắc hài hòa cả hai khía cạnh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Therefore, a balanced consideration of both aspects of using mobile phones in the workplace is essential.",
+                    "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của sử dụng điện thoại ở nơi làm việc là vô cùng cần thiết."
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: GIAO TIẾP NHANH CHÓNG VỚI ĐỒNG NGHIỆP VÀ KHÁCH HÀNG (FAST COMMUNICATION WITH COLLEAGUES AND CLIENTS)",
+                "collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "communicate quickly with colleagues and clients",
+                    "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng"
+                  },
+                  {
+                    "en": "throughout the workday",
+                    "vi": "trong suốt ngày làm việc"
+                  },
+                  {
+                    "en": "work messaging apps",
+                    "vi": "các ứng dụng nhắn tin công việc"
+                  },
+                  {
+                    "en": "exchange urgent updates",
+                    "vi": "trao đổi thông tin cập nhật khẩn"
+                  },
+                  {
+                    "en": "resolve unexpected issues within minutes",
+                    "vi": "giải quyết vướng mắc phát sinh chỉ trong vài phút"
+                  },
+                  {
+                    "en": "timely responses",
+                    "vi": "sự phản hồi kịp thời"
+                  },
+                  {
+                    "en": "improve team coordination",
+                    "vi": "nâng cao khả năng phối hợp nhóm"
+                  },
+                  {
+                    "en": "increase client satisfaction",
+                    "vi": "làm tăng sự hài lòng của khách hàng"
+                  }
+                ],
+                "point_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc.",
+                "point_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                "evidence_vi": "Thông qua cuộc gọi hoặc ứng dụng nhắn tin công việc, các bộ phận có thể trao đổi thông tin khẩn và giải quyết vướng mắc phát sinh chỉ trong vài phút. Sự phản hồi kịp thời này giúp nâng cao hiệu suất phối hợp và làm hài lòng đối tác.",
+                "evidence_en": "Through phone calls or work messaging apps, departments can exchange urgent updates and resolve unexpected issues within minutes. Such timely responses improve team coordination and increase client satisfaction.",
+                "point_collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "communicate quickly with colleagues and clients",
+                    "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng"
+                  },
+                  {
+                    "en": "throughout the workday",
+                    "vi": "trong suốt ngày làm việc"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work messaging apps",
+                      "vi": "các ứng dụng nhắn tin công việc"
+                    },
+                    {
+                      "en": "exchange urgent updates",
+                      "vi": "trao đổi thông tin cập nhật khẩn"
+                    },
+                    {
+                      "en": "resolve unexpected issues within minutes",
+                      "vi": "giải quyết vướng mắc phát sinh chỉ trong vài phút"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "timely responses",
+                      "vi": "sự phản hồi kịp thời"
+                    },
+                    {
+                      "en": "improve team coordination",
+                      "vi": "nâng cao khả năng phối hợp nhóm"
+                    },
+                    {
+                      "en": "increase client satisfaction",
+                      "vi": "làm tăng sự hài lòng của khách hàng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: HỖ TRỢ LÀM VIỆC LINH HOẠT KHI DI CHUYỂN NGOÀI VĂN PHÒNG (FLEXIBLE MOBILE WORK ON THE GO)",
+                "collocations": [
+                  {
+                    "en": "smartphones",
+                    "vi": "điện thoại thông minh"
+                  },
+                  {
+                    "en": "handle tasks flexibly",
+                    "vi": "xử lý công việc một cách linh hoạt"
+                  },
+                  {
+                    "en": "meet partners outside the office",
+                    "vi": "gặp gỡ đối tác bên ngoài văn phòng"
+                  },
+                  {
+                    "en": "attend online meetings",
+                    "vi": "tham gia các cuộc họp trực tuyến"
+                  },
+                  {
+                    "en": "review cloud documents",
+                    "vi": "xem lại tài liệu lưu trữ đám mây"
+                  },
+                  {
+                    "en": "without sitting at an office desk",
+                    "vi": "mà không cần ngồi cố định tại bàn văn phòng"
+                  },
+                  {
+                    "en": "sales representatives",
+                    "vi": "nhân viên đại diện kinh doanh"
+                  },
+                  {
+                    "en": "field engineers",
+                    "vi": "kỹ sư làm việc ngoài hiện trường"
+                  },
+                  {
+                    "en": "project managers",
+                    "vi": "người quản lý dự án"
+                  }
+                ],
+                "point_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài.",
+                "point_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
+                "evidence_vi": "Nhân viên có thể kiểm tra thư điện tử, tham gia cuộc họp trực tuyến hoặc xem tài liệu trên nền tảng đám mây mà không cần ngồi cố định trước máy tính bàn. Điều này đặc biệt hữu ích cho đội ngũ kinh doanh, kỹ thuật hiện trường và quản lý dự án.",
+                "evidence_en": "Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk. This mobility is especially helpful for sales representatives, field engineers, and project managers.",
+                "point_collocations": [
+                  {
+                    "en": "smartphones",
+                    "vi": "điện thoại thông minh"
+                  },
+                  {
+                    "en": "handle tasks flexibly",
+                    "vi": "xử lý công việc một cách linh hoạt"
+                  },
+                  {
+                    "en": "meet partners outside the office",
+                    "vi": "gặp gỡ đối tác bên ngoài văn phòng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "attend online meetings",
+                      "vi": "tham gia các cuộc họp trực tuyến"
+                    },
+                    {
+                      "en": "review cloud documents",
+                      "vi": "xem lại tài liệu lưu trữ đám mây"
+                    },
+                    {
+                      "en": "without sitting at an office desk",
+                      "vi": "mà không cần ngồi cố định tại bàn văn phòng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sales representatives",
+                      "vi": "nhân viên đại diện kinh doanh"
+                    },
+                    {
+                      "en": "field engineers",
+                      "vi": "kỹ sư làm việc ngoài hiện trường"
+                    },
+                    {
+                      "en": "project managers",
+                      "vi": "người quản lý dự án"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: TÍCH HỢP NHIỀU CÔNG CỤ QUẢN LÝ CÔNG VIỆC TIỆN LỢI (HANDY PRODUCTIVITY AND SCHEDULING TOOLS)",
+                "collocations": [
+                  {
+                    "en": "useful mobile applications",
+                    "vi": "những ứng dụng di động hữu ích"
+                  },
+                  {
+                    "en": "organize schedules",
+                    "vi": "sắp xếp lịch trình làm việc"
+                  },
+                  {
+                    "en": "look up work information efficiently",
+                    "vi": "tra cứu thông tin công việc hiệu quả"
+                  },
+                  {
+                    "en": "set calendar reminders",
+                    "vi": "cài đặt lời nhắc lịch hẹn"
+                  },
+                  {
+                    "en": "scan documents with their cameras",
+                    "vi": "quét tài liệu bằng máy ảnh điện thoại"
+                  },
+                  {
+                    "en": "check market data instantly",
+                    "vi": "kiểm tra dữ liệu thị trường ngay tức thì"
+                  },
+                  {
+                    "en": "handy features",
+                    "vi": "những tính năng tiện lợi"
+                  },
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "manual office procedures",
+                    "vi": "các thủ tục văn phòng thủ công"
+                  }
+                ],
+                "point_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả.",
+                "point_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                "evidence_vi": "Người đi làm có thể cài lịch hẹn nhắc việc, quét tài liệu nhanh bằng camera, xác thực bảo mật hai lớp hoặc tra cứu số liệu thị trường ngay tức thì. Những tiện ích nhỏ gọn này giúp tiết kiệm đáng kể thời gian thao tác thủ công.",
+                "evidence_en": "Workers can set calendar reminders, scan documents with their cameras, complete two-factor authentication, or check market data instantly. Such handy features save considerable time compared to manual office procedures.",
+                "point_collocations": [
+                  {
+                    "en": "useful mobile applications",
+                    "vi": "những ứng dụng di động hữu ích"
+                  },
+                  {
+                    "en": "organize schedules",
+                    "vi": "sắp xếp lịch trình làm việc"
+                  },
+                  {
+                    "en": "look up work information efficiently",
+                    "vi": "tra cứu thông tin công việc hiệu quả"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "set calendar reminders",
+                      "vi": "cài đặt lời nhắc lịch hẹn"
+                    },
+                    {
+                      "en": "scan documents with their cameras",
+                      "vi": "quét tài liệu bằng máy ảnh điện thoại"
+                    },
+                    {
+                      "en": "check market data instantly",
+                      "vi": "kiểm tra dữ liệu thị trường ngay tức thì"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "handy features",
+                      "vi": "những tính năng tiện lợi"
+                    },
+                    {
+                      "en": "save considerable time",
+                      "vi": "tiết kiệm đáng kể thời gian"
+                    },
+                    {
+                      "en": "manual office procedures",
+                      "vi": "các thủ tục văn phòng thủ công"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: ĐẢM BẢO LIÊN LẠC GIA ĐÌNH TRONG TÌNH HUỐNG KHẨN CẤP (HANDLING URGENT FAMILY MATTERS)",
+                "collocations": [
+                  {
+                    "en": "keep mobile phones nearby",
+                    "vi": "giữ điện thoại di động bên mình"
+                  },
+                  {
+                    "en": "give employees peace of mind",
+                    "vi": "mang lại sự an tâm cho nhân viên"
+                  },
+                  {
+                    "en": "urgent family situations",
+                    "vi": "những tình huống gia đình khẩn cấp"
+                  },
+                  {
+                    "en": "school-age children",
+                    "vi": "con nhỏ đang độ tuổi đi học"
+                  },
+                  {
+                    "en": "elderly parents",
+                    "vi": "cha mẹ già lớn tuổi"
+                  },
+                  {
+                    "en": "respond promptly",
+                    "vi": "phản ứng/xử lý kịp thời"
+                  },
+                  {
+                    "en": "feel reassured about their loved ones",
+                    "vi": "cảm thấy yên lòng về những người thân yêu"
+                  },
+                  {
+                    "en": "focus better on their duties",
+                    "vi": "tập trung tốt hơn vào nhiệm vụ công việc"
+                  },
+                  {
+                    "en": "at work",
+                    "vi": "tại cơ quan"
+                  }
+                ],
+                "point_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình.",
+                "point_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                "evidence_vi": "Những nhân viên có con nhỏ đi học hoặc cha mẹ lớn tuổi ở nhà có thể kịp thời nắm bắt tình hình nếu chẳng may xảy ra ốm đau hay sự cố. Khi tâm lý an tâm về gia đình, họ sẽ tập trung cống hiến tốt hơn cho công việc tại cơ quan.",
+                "evidence_en": "Staff members with school-age children or elderly parents at home can respond promptly if sudden illness or emergencies arise. Feeling reassured about their loved ones helps them focus better on their duties at work.",
+                "point_collocations": [
+                  {
+                    "en": "keep mobile phones nearby",
+                    "vi": "giữ điện thoại di động bên mình"
+                  },
+                  {
+                    "en": "give employees peace of mind",
+                    "vi": "mang lại sự an tâm cho nhân viên"
+                  },
+                  {
+                    "en": "urgent family situations",
+                    "vi": "những tình huống gia đình khẩn cấp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "school-age children",
+                      "vi": "con nhỏ đang độ tuổi đi học"
+                    },
+                    {
+                      "en": "elderly parents",
+                      "vi": "cha mẹ già lớn tuổi"
+                    },
+                    {
+                      "en": "respond promptly",
+                      "vi": "phản ứng/xử lý kịp thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel reassured about their loved ones",
+                      "vi": "cảm thấy yên lòng về những người thân yêu"
+                    },
+                    {
+                      "en": "focus better on their duties",
+                      "vi": "tập trung tốt hơn vào nhiệm vụ công việc"
+                    },
+                    {
+                      "en": "at work",
+                      "vi": "tại cơ quan"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: GIÚP GIẢI TỎA CĂNG THẲNG NGẮN TRONG GIỜ NGHỈ GIẢI LAO (BRIEF RELAXATION DURING WORK BREAKS)",
+                "collocations": [
+                  {
+                    "en": "during lunch breaks",
+                    "vi": "trong giờ nghỉ trưa"
+                  },
+                  {
+                    "en": "relax briefly",
+                    "vi": "thư giãn ngắn"
+                  },
+                  {
+                    "en": "recharge their mental energy",
+                    "vi": "nạp lại năng lượng tinh thần"
+                  },
+                  {
+                    "en": "demanding tasks",
+                    "vi": "những công việc đòi hỏi sự tập trung cao"
+                  },
+                  {
+                    "en": "during official breaks",
+                    "vi": "trong khung giờ nghỉ giải lao chính thức"
+                  },
+                  {
+                    "en": "ease mental fatigue",
+                    "vi": "xoa dịu sự mệt mỏi trí óc"
+                  },
+                  {
+                    "en": "short rest",
+                    "vi": "khoảng nghỉ ngắn"
+                  },
+                  {
+                    "en": "regain alertness",
+                    "vi": "lấy lại sự tỉnh táo"
+                  },
+                  {
+                    "en": "afternoon shift",
+                    "vi": "ca làm việc buổi chiều"
+                  }
+                ],
+                "point_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần.",
+                "point_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                "evidence_vi": "Sau nhiều giờ làm việc căng thẳng, việc nghe một bản nhạc nhẹ hoặc đọc tin tức vài phút trong giờ nghỉ giúp đầu óc bớt mệt mỏi. Nhờ khoảng nghỉ ngắn này, nhân viên lấy lại sự tỉnh táo cho ca làm việc buổi chiều.",
+                "evidence_en": "After hours of demanding tasks, listening to soft music or reading light news during official breaks eases mental fatigue. Thanks to this short rest, employees regain alertness for their afternoon shift.",
+                "point_collocations": [
+                  {
+                    "en": "during lunch breaks",
+                    "vi": "trong giờ nghỉ trưa"
+                  },
+                  {
+                    "en": "relax briefly",
+                    "vi": "thư giãn ngắn"
+                  },
+                  {
+                    "en": "recharge their mental energy",
+                    "vi": "nạp lại năng lượng tinh thần"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "demanding tasks",
+                      "vi": "những công việc đòi hỏi sự tập trung cao"
+                    },
+                    {
+                      "en": "during official breaks",
+                      "vi": "trong khung giờ nghỉ giải lao chính thức"
+                    },
+                    {
+                      "en": "ease mental fatigue",
+                      "vi": "xoa dịu sự mệt mỏi trí óc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "short rest",
+                      "vi": "khoảng nghỉ ngắn"
+                    },
+                    {
+                      "en": "regain alertness",
+                      "vi": "lấy lại sự tỉnh táo"
+                    },
+                    {
+                      "en": "afternoon shift",
+                      "vi": "ca làm việc buổi chiều"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GÂY XAO NHÃNG VÀ LÀM GIẢM NĂNG SUẤT LAO ĐỘNG (WORKPLACE DISTRACTION AND LOWER PRODUCTIVITY)",
+                "collocations": [
+                  {
+                    "en": "easily distract employees",
+                    "vi": "dễ khiến nhân viên bị xao nhãng"
+                  },
+                  {
+                    "en": "personal entertainment",
+                    "vi": "các hoạt động giải trí cá nhân"
+                  },
+                  {
+                    "en": "reduce overall workplace productivity",
+                    "vi": "làm giảm năng suất làm việc chung"
+                  },
+                  {
+                    "en": "shop online",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "send private texts",
+                    "vi": "nhắn tin riêng tư"
+                  },
+                  {
+                    "en": "during official working hours",
+                    "vi": "trong giờ làm việc hành chính"
+                  },
+                  {
+                    "en": "break deep concentration",
+                    "vi": "làm đứt mạch tập trung sâu"
+                  },
+                  {
+                    "en": "delayed deadlines",
+                    "vi": "trễ hạn hoàn thành công việc"
+                  },
+                  {
+                    "en": "avoidable mistakes",
+                    "vi": "những sai sót không đáng có"
+                  }
+                ],
+                "point_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động.",
+                "point_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                "evidence_vi": "Nhiều nhân viên thường xuyên kiểm tra mạng xã hội, mua sắm trực tuyến hoặc nhắn tin riêng tư ngay trong giờ hành chính. Những lần ngắt quãng liên tục này làm đứt mạch tập trung sâu, khiến công việc hoàn thành chậm trễ và dễ phát sinh sai sót.",
+                "evidence_en": "Many workers frequently check social media, shop online, or send private texts during official working hours. Constant interruptions break deep concentration, leading to delayed deadlines and avoidable mistakes.",
+                "point_collocations": [
+                  {
+                    "en": "easily distract employees",
+                    "vi": "dễ khiến nhân viên bị xao nhãng"
+                  },
+                  {
+                    "en": "personal entertainment",
+                    "vi": "các hoạt động giải trí cá nhân"
+                  },
+                  {
+                    "en": "reduce overall workplace productivity",
+                    "vi": "làm giảm năng suất làm việc chung"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shop online",
+                      "vi": "mua sắm trực tuyến"
+                    },
+                    {
+                      "en": "send private texts",
+                      "vi": "nhắn tin riêng tư"
+                    },
+                    {
+                      "en": "during official working hours",
+                      "vi": "trong giờ làm việc hành chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "break deep concentration",
+                      "vi": "làm đứt mạch tập trung sâu"
+                    },
+                    {
+                      "en": "delayed deadlines",
+                      "vi": "trễ hạn hoàn thành công việc"
+                    },
+                    {
+                      "en": "avoidable mistakes",
+                      "vi": "những sai sót không đáng có"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: TẠO HÌNH ẢNH THIẾU CHUYÊN NGHIỆP TRONG CUỘC HỌP VÀ GIAO TIẾP (UNPROFESSIONAL BEHAVIOR IN MEETINGS)",
+                "collocations": [
+                  {
+                    "en": "use mobile phones inappropriately",
+                    "vi": "sử dụng điện thoại không đúng lúc/thiếu phù hợp"
+                  },
+                  {
+                    "en": "client discussions",
+                    "vi": "các buổi trao đổi với khách hàng"
+                  },
+                  {
+                    "en": "create an unprofessional impression",
+                    "vi": "tạo ấn tượng thiếu chuyên nghiệp"
+                  },
+                  {
+                    "en": "sudden ringtones",
+                    "vi": "tiếng chuông điện thoại reo bất ngờ"
+                  },
+                  {
+                    "en": "look down at screens",
+                    "vi": "cúi đầu nhìn vào màn hình"
+                  },
+                  {
+                    "en": "show disrespect toward colleagues and partners",
+                    "vi": "thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác"
+                  },
+                  {
+                    "en": "such habits",
+                    "vi": "những thói quen như vậy"
+                  },
+                  {
+                    "en": "harm office culture",
+                    "vi": "làm ảnh hưởng xấu đến văn hóa công sở"
+                  },
+                  {
+                    "en": "damage a company's professional reputation",
+                    "vi": "làm tổn hại uy tín chuyên nghiệp của công ty"
+                  }
+                ],
+                "point_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp.",
+                "point_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                "evidence_vi": "Tiếng chuông reo bất ngờ hoặc hình ảnh nhân viên cúi đầu nhìn màn hình khi người khác đang trình bày thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác. Hành vi này có thể làm xấu đi văn hóa công sở cũng như uy tín của doanh nghiệp.",
+                "evidence_en": "Sudden ringtones or employees looking down at screens while others are speaking show disrespect toward colleagues and partners. Such habits can harm office culture and damage a company's professional reputation.",
+                "point_collocations": [
+                  {
+                    "en": "use mobile phones inappropriately",
+                    "vi": "sử dụng điện thoại không đúng lúc/thiếu phù hợp"
+                  },
+                  {
+                    "en": "client discussions",
+                    "vi": "các buổi trao đổi với khách hàng"
+                  },
+                  {
+                    "en": "create an unprofessional impression",
+                    "vi": "tạo ấn tượng thiếu chuyên nghiệp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sudden ringtones",
+                      "vi": "tiếng chuông điện thoại reo bất ngờ"
+                    },
+                    {
+                      "en": "look down at screens",
+                      "vi": "cúi đầu nhìn vào màn hình"
+                    },
+                    {
+                      "en": "show disrespect toward colleagues and partners",
+                      "vi": "thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "such habits",
+                      "vi": "những thói quen như vậy"
+                    },
+                    {
+                      "en": "harm office culture",
+                      "vi": "làm ảnh hưởng xấu đến văn hóa công sở"
+                    },
+                    {
+                      "en": "damage a company's professional reputation",
+                      "vi": "làm tổn hại uy tín chuyên nghiệp của công ty"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ RÒ RỈ DỮ LIỆU NỘI BỘ VÀ MẤT AN NINH MẠNG (RISKS OF DATA LEAKS AND SECURITY BREACHES)",
+                "collocations": [
+                  {
+                    "en": "unrestricted use of personal phones",
+                    "vi": "việc dùng điện thoại cá nhân không giới hạn"
+                  },
+                  {
+                    "en": "company data security",
+                    "vi": "an toàn dữ liệu của doanh nghiệp"
+                  },
+                  {
+                    "en": "confidentiality",
+                    "vi": "tính bảo mật thông tin"
+                  },
+                  {
+                    "en": "photograph internal documents",
+                    "vi": "chụp ảnh tài liệu nội bộ"
+                  },
+                  {
+                    "en": "store client records on unsecured devices",
+                    "vi": "lưu hồ sơ khách hàng trên thiết bị kém bảo mật"
+                  },
+                  {
+                    "en": "click malicious links",
+                    "vi": "nhấp vào các đường dẫn chứa mã độc"
+                  },
+                  {
+                    "en": "security breaches",
+                    "vi": "các sự cố vi phạm bảo mật"
+                  },
+                  {
+                    "en": "cause severe financial and legal damage",
+                    "vi": "gây thiệt hại nghiêm trọng về tài chính và pháp lý"
+                  },
+                  {
+                    "en": "to organizations",
+                    "vi": "đối với các tổ chức/doanh nghiệp"
+                  }
+                ],
+                "point_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp.",
+                "point_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
+                "evidence_vi": "Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu thông tin khách hàng trên máy cá nhân kém bảo mật hoặc truy cập đường dẫn chứa mã độc qua mạng công ty. Những sơ suất này có thể gây thiệt hại lớn về tài chính và pháp lý cho tổ chức.",
+                "evidence_en": "Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks. These security breaches can cause severe financial and legal damage to organizations.",
+                "point_collocations": [
+                  {
+                    "en": "unrestricted use of personal phones",
+                    "vi": "việc dùng điện thoại cá nhân không giới hạn"
+                  },
+                  {
+                    "en": "company data security",
+                    "vi": "an toàn dữ liệu của doanh nghiệp"
+                  },
+                  {
+                    "en": "confidentiality",
+                    "vi": "tính bảo mật thông tin"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "photograph internal documents",
+                      "vi": "chụp ảnh tài liệu nội bộ"
+                    },
+                    {
+                      "en": "store client records on unsecured devices",
+                      "vi": "lưu hồ sơ khách hàng trên thiết bị kém bảo mật"
+                    },
+                    {
+                      "en": "click malicious links",
+                      "vi": "nhấp vào các đường dẫn chứa mã độc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "security breaches",
+                      "vi": "các sự cố vi phạm bảo mật"
+                    },
+                    {
+                      "en": "cause severe financial and legal damage",
+                      "vi": "gây thiệt hại nghiêm trọng về tài chính và pháp lý"
+                    },
+                    {
+                      "en": "to organizations",
+                      "vi": "đối với các tổ chức/doanh nghiệp"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: XÓA NHÒA RANH GIỚI NGHỈ NGƠI VÀ GÂY KIỆT SỨC NGHỀ NGHIỆP (BLURRING WORK-LIFE BOUNDARIES AND BURNOUT)",
+                "collocations": [
+                  {
+                    "en": "constant connectivity",
+                    "vi": "sự kết nối liên tục không ngừng"
+                  },
+                  {
+                    "en": "blur the boundary",
+                    "vi": "làm mờ đi ranh giới"
+                  },
+                  {
+                    "en": "working hours and personal rest",
+                    "vi": "giờ làm việc và thời gian nghỉ ngơi cá nhân"
+                  },
+                  {
+                    "en": "feel pressured to reply",
+                    "vi": "cảm thấy áp lực phải phản hồi"
+                  },
+                  {
+                    "en": "managers' group messages",
+                    "vi": "tin nhắn nhóm của cấp quản lý"
+                  },
+                  {
+                    "en": "during weekends",
+                    "vi": "vào những ngày nghỉ cuối tuần"
+                  },
+                  {
+                    "en": "unable to disconnect from work",
+                    "vi": "không thể ngắt kết nối khỏi công việc"
+                  },
+                  {
+                    "en": "cause chronic stress",
+                    "vi": "gây ra sự căng thẳng kéo dài"
+                  },
+                  {
+                    "en": "professional burnout",
+                    "vi": "tình trạng kiệt sức nghề nghiệp"
+                  }
+                ],
+                "point_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức.",
+                "point_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
+                "evidence_vi": "Nhiều nhân viên cảm thấy áp lực phải trả lời tin nhắn nhóm chat của cấp trên ngay cả vào buổi tối muộn hay ngày nghỉ cuối tuần. Tình trạng làm việc không ngắt kết nối kéo dài gây căng thẳng tâm lý và kiệt sức nghề nghiệp.",
+                "evidence_en": "Many employees feel pressured to reply to managers' group messages late at night or even during weekends. Being unable to disconnect from work causes chronic stress and eventual professional burnout.",
+                "point_collocations": [
+                  {
+                    "en": "constant connectivity",
+                    "vi": "sự kết nối liên tục không ngừng"
+                  },
+                  {
+                    "en": "blur the boundary",
+                    "vi": "làm mờ đi ranh giới"
+                  },
+                  {
+                    "en": "working hours and personal rest",
+                    "vi": "giờ làm việc và thời gian nghỉ ngơi cá nhân"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel pressured to reply",
+                      "vi": "cảm thấy áp lực phải phản hồi"
+                    },
+                    {
+                      "en": "managers' group messages",
+                      "vi": "tin nhắn nhóm của cấp quản lý"
+                    },
+                    {
+                      "en": "during weekends",
+                      "vi": "vào những ngày nghỉ cuối tuần"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unable to disconnect from work",
+                      "vi": "không thể ngắt kết nối khỏi công việc"
+                    },
+                    {
+                      "en": "cause chronic stress",
+                      "vi": "gây ra sự căng thẳng kéo dài"
+                    },
+                    {
+                      "en": "professional burnout",
+                      "vi": "tình trạng kiệt sức nghề nghiệp"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: MẤT AN TOÀN LAO ĐỘNG TRONG MÔI TRƯỜNG SẢN XUẤT VÀ VẬN HÀNH (SAFETY HAZARDS IN INDUSTRIAL WORKPLACES)",
+                "collocations": [
+                  {
+                    "en": "construction sites",
+                    "vi": "các công trường xây dựng"
+                  },
+                  {
+                    "en": "look at mobile phones",
+                    "vi": "nhìn vào điện thoại di động"
+                  },
+                  {
+                    "en": "cause dangerous workplace accidents",
+                    "vi": "gây ra những tai nạn lao động nguy hiểm"
+                  },
+                  {
+                    "en": "a few seconds of inattention",
+                    "vi": "chỉ vài giây lơ là mất tập trung"
+                  },
+                  {
+                    "en": "operate heavy machinery",
+                    "vi": "vận hành máy móc hạng nặng"
+                  },
+                  {
+                    "en": "result in severe injuries",
+                    "vi": "dẫn đến những chấn thương nghiêm trọng"
+                  },
+                  {
+                    "en": "phone distraction",
+                    "vi": "sự xao nhãng vì điện thoại"
+                  },
+                  {
+                    "en": "directly threaten",
+                    "vi": "đe dọa trực tiếp đến"
+                  },
+                  {
+                    "en": "the physical safety of workers",
+                    "vi": "sự an toàn thể chất của người lao động"
+                  }
+                ],
+                "point_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm.",
+                "point_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                "evidence_vi": "Chỉ vài giây mất tập trung để đọc tin nhắn khi đang điều khiển thiết bị nặng hoặc lái xe giao hàng cũng đủ dẫn đến chấn thương nghiêm trọng. Vì vậy, sự lơ là vì điện thoại đe dọa trực tiếp đến an toàn của cả bản thân lẫn đồng nghiệp.",
+                "evidence_en": "Even a few seconds of inattention to read a text while operating heavy machinery or driving delivery vehicles can result in severe injuries. Thus, phone distraction directly threatens the physical safety of workers and their teammates.",
+                "point_collocations": [
+                  {
+                    "en": "construction sites",
+                    "vi": "các công trường xây dựng"
+                  },
+                  {
+                    "en": "look at mobile phones",
+                    "vi": "nhìn vào điện thoại di động"
+                  },
+                  {
+                    "en": "cause dangerous workplace accidents",
+                    "vi": "gây ra những tai nạn lao động nguy hiểm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "a few seconds of inattention",
+                      "vi": "chỉ vài giây lơ là mất tập trung"
+                    },
+                    {
+                      "en": "operate heavy machinery",
+                      "vi": "vận hành máy móc hạng nặng"
+                    },
+                    {
+                      "en": "result in severe injuries",
+                      "vi": "dẫn đến những chấn thương nghiêm trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "phone distraction",
+                      "vi": "sự xao nhãng vì điện thoại"
+                    },
+                    {
+                      "en": "directly threaten",
+                      "vi": "đe dọa trực tiếp đến"
+                    },
+                    {
+                      "en": "the physical safety of workers",
+                      "vi": "sự an toàn thể chất của người lao động"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "communicate quickly with colleagues and clients",
+              "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng"
+            },
+            {
+              "en": "throughout the workday",
+              "vi": "trong suốt ngày làm việc"
+            },
+            {
+              "en": "mobile phones",
+              "vi": "điện thoại di động"
+            },
+            {
+              "en": "speed up workplace decision-making",
+              "vi": "đẩy nhanh tốc độ ra quyết định công việc"
+            },
+            {
+              "en": "stay reachable for urgent inquiries",
+              "vi": "giữ kết nối cho các yêu cầu khẩn cấp"
+            },
+            {
+              "en": "handle tasks flexibly",
+              "vi": "xử lý công việc một cách linh hoạt"
+            },
+            {
+              "en": "meet partners outside the office",
+              "vi": "gặp gỡ đối tác bên ngoài văn phòng"
+            },
+            {
+              "en": "attend online meetings",
+              "vi": "tham gia các cuộc họp trực tuyến"
+            },
+            {
+              "en": "work seamlessly on business trips",
+              "vi": "làm việc liền mạch trong các chuyến công tác"
+            },
+            {
+              "en": "enhance remote working capability",
+              "vi": "nâng cao khả năng làm việc từ xa"
+            },
+            {
+              "en": "useful mobile applications",
+              "vi": "những ứng dụng di động hữu ích"
+            },
+            {
+              "en": "organize schedules",
+              "vi": "sắp xếp lịch trình làm việc"
+            },
+            {
+              "en": "look up work information efficiently",
+              "vi": "tra cứu thông tin công việc hiệu quả"
+            },
+            {
+              "en": "streamline daily office workflow",
+              "vi": "tối ưu hóa quy trình làm việc văn phòng hằng ngày"
+            },
+            {
+              "en": "track project deadlines accurately",
+              "vi": "theo dõi sát sao thời hạn các dự án"
+            },
+            {
+              "en": "keep mobile phones nearby",
+              "vi": "giữ điện thoại di động bên mình"
+            },
+            {
+              "en": "give employees peace of mind",
+              "vi": "mang lại sự an tâm cho nhân viên"
+            },
+            {
+              "en": "urgent family situations",
+              "vi": "những tình huống gia đình khẩn cấp"
+            },
+            {
+              "en": "balance family care and career",
+              "vi": "cân bằng trách nhiệm gia đình và sự nghiệp"
+            },
+            {
+              "en": "reduce workplace anxiety for parents",
+              "vi": "giảm nỗi lo lắng cho nhân viên có con nhỏ"
+            },
+            {
+              "en": "during lunch breaks",
+              "vi": "trong giờ nghỉ trưa"
+            },
+            {
+              "en": "relax briefly",
+              "vi": "thư giãn ngắn"
+            },
+            {
+              "en": "recharge their mental energy",
+              "vi": "nạp lại năng lượng tinh thần"
+            },
+            {
+              "en": "relieve work-related stress",
+              "vi": "giải tỏa căng thẳng trong công việc"
+            },
+            {
+              "en": "refresh the mind between tasks",
+              "vi": "làm mới đầu óc giữa các chặng công việc"
+            },
+            {
+              "en": "personal entertainment",
+              "vi": "các hoạt động giải trí cá nhân"
+            },
+            {
+              "en": "reduce overall workplace productivity",
+              "vi": "làm giảm năng suất làm việc chung"
+            },
+            {
+              "en": "easily distract employees",
+              "vi": "dễ khiến nhân viên bị xao nhãng"
+            },
+            {
+              "en": "waste paid working hours",
+              "vi": "lãng phí thời gian làm việc được trả lương"
+            },
+            {
+              "en": "lower the quality of work output",
+              "vi": "làm giảm chất lượng đầu ra công việc"
+            },
+            {
+              "en": "use mobile phones inappropriately",
+              "vi": "sử dụng điện thoại không đúng lúc/thiếu phù hợp"
+            },
+            {
+              "en": "client discussions",
+              "vi": "các buổi trao đổi với khách hàng"
+            },
+            {
+              "en": "create an unprofessional impression",
+              "vi": "tạo ấn tượng thiếu chuyên nghiệp"
+            },
+            {
+              "en": "violate basic workplace etiquette",
+              "vi": "vi phạm phép lịch sự cơ bản nơi công sở"
+            },
+            {
+              "en": "disrupt team brainstorming sessions",
+              "vi": "làm gián đoạn các buổi họp bàn ý tưởng nhóm"
+            },
+            {
+              "en": "unrestricted use of personal phones",
+              "vi": "việc dùng điện thoại cá nhân không giới hạn"
+            },
+            {
+              "en": "company data security",
+              "vi": "an toàn dữ liệu của doanh nghiệp"
+            },
+            {
+              "en": "photograph internal documents",
+              "vi": "chụp ảnh tài liệu nội bộ"
+            },
+            {
+              "en": "leak confidential business secrets",
+              "vi": "làm rò rỉ bí mật kinh doanh tuyệt mật"
+            },
+            {
+              "en": "expose corporate networks to malware",
+              "vi": "khiến mạng doanh nghiệp nhiễm phần mềm độc hại"
+            },
+            {
+              "en": "constant connectivity",
+              "vi": "sự kết nối liên tục không ngừng"
+            },
+            {
+              "en": "blur the boundary",
+              "vi": "làm mờ đi ranh giới"
+            },
+            {
+              "en": "working hours and personal rest",
+              "vi": "giờ làm việc và thời gian nghỉ ngơi cá nhân"
+            },
+            {
+              "en": "suffer from after-hours message overload",
+              "vi": "chịu quá tải tin nhắn công việc ngoài giờ"
+            },
+            {
+              "en": "harm employees' work-life balance",
+              "vi": "làm tổn hại sự cân bằng công việc - cuộc sống"
+            },
+            {
+              "en": "construction sites",
+              "vi": "các công trường xây dựng"
+            },
+            {
+              "en": "cause dangerous workplace accidents",
+              "vi": "gây ra những tai nạn lao động nguy hiểm"
+            },
+            {
+              "en": "look at mobile phones",
+              "vi": "nhìn vào điện thoại di động"
+            },
+            {
+              "en": "strictly prohibit phones in hazard zones",
+              "vi": "nghiêm cấm dùng điện thoại ở khu vực nguy hiểm"
+            },
+            {
+              "en": "comply with occupational safety standards",
+              "vi": "tuân thủ tiêu chuẩn an toàn lao động"
+            },
+            {
+              "en": "become increasingly prevalent in modern society",
+              "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả mặt thuận lợi và bất lợi"
+            },
+            {
+              "en": "offer several notable advantages",
+              "vi": "mang lại một số thuận lợi đáng chú ý"
+            },
+            {
+              "en": "stem from the fact that",
+              "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)"
+            },
+            {
+              "en": "a good example of this is that",
+              "vi": "một ví dụ điển hình cho điều này là (dẫn chứng B2)"
+            },
+            {
+              "en": "lead to unintended negative consequences",
+              "vi": "dẫn đến những hệ quả tiêu cực ngoài ý muốn"
+            },
+            {
+              "en": "have significant implications for",
+              "vi": "có những tác động đáng kể đối với"
+            },
+            {
+              "en": "a balanced consideration of both aspects",
+              "vi": "sự cân nhắc hài hòa cả hai khía cạnh"
+            },
+            {
+              "en": "work messaging apps",
+              "vi": "các ứng dụng nhắn tin công việc"
+            },
+            {
+              "en": "exchange urgent updates",
+              "vi": "trao đổi thông tin cập nhật khẩn"
+            },
+            {
+              "en": "resolve unexpected issues within minutes",
+              "vi": "giải quyết vướng mắc phát sinh chỉ trong vài phút"
+            },
+            {
+              "en": "timely responses",
+              "vi": "sự phản hồi kịp thời"
+            },
+            {
+              "en": "improve team coordination",
+              "vi": "nâng cao khả năng phối hợp nhóm"
+            },
+            {
+              "en": "increase client satisfaction",
+              "vi": "làm tăng sự hài lòng của khách hàng"
+            },
+            {
+              "en": "smartphones",
+              "vi": "điện thoại thông minh"
+            },
+            {
+              "en": "review cloud documents",
+              "vi": "xem lại tài liệu lưu trữ đám mây"
+            },
+            {
+              "en": "without sitting at an office desk",
+              "vi": "mà không cần ngồi cố định tại bàn văn phòng"
+            },
+            {
+              "en": "sales representatives",
+              "vi": "nhân viên đại diện kinh doanh"
+            },
+            {
+              "en": "field engineers",
+              "vi": "kỹ sư làm việc ngoài hiện trường"
+            },
+            {
+              "en": "project managers",
+              "vi": "người quản lý dự án"
+            },
+            {
+              "en": "set calendar reminders",
+              "vi": "cài đặt lời nhắc lịch hẹn"
+            },
+            {
+              "en": "scan documents with their cameras",
+              "vi": "quét tài liệu bằng máy ảnh điện thoại"
+            },
+            {
+              "en": "check market data instantly",
+              "vi": "kiểm tra dữ liệu thị trường ngay tức thì"
+            },
+            {
+              "en": "handy features",
+              "vi": "những tính năng tiện lợi"
+            },
+            {
+              "en": "save considerable time",
+              "vi": "tiết kiệm đáng kể thời gian"
+            },
+            {
+              "en": "manual office procedures",
+              "vi": "các thủ tục văn phòng thủ công"
+            },
+            {
+              "en": "school-age children",
+              "vi": "con nhỏ đang độ tuổi đi học"
+            },
+            {
+              "en": "elderly parents",
+              "vi": "cha mẹ già lớn tuổi"
+            },
+            {
+              "en": "respond promptly",
+              "vi": "phản ứng/xử lý kịp thời"
+            },
+            {
+              "en": "feel reassured about their loved ones",
+              "vi": "cảm thấy yên lòng về những người thân yêu"
+            },
+            {
+              "en": "focus better on their duties",
+              "vi": "tập trung tốt hơn vào nhiệm vụ công việc"
+            },
+            {
+              "en": "at work",
+              "vi": "tại cơ quan"
+            },
+            {
+              "en": "demanding tasks",
+              "vi": "những công việc đòi hỏi sự tập trung cao"
+            },
+            {
+              "en": "during official breaks",
+              "vi": "trong khung giờ nghỉ giải lao chính thức"
+            },
+            {
+              "en": "ease mental fatigue",
+              "vi": "xoa dịu sự mệt mỏi trí óc"
+            },
+            {
+              "en": "short rest",
+              "vi": "khoảng nghỉ ngắn"
+            },
+            {
+              "en": "regain alertness",
+              "vi": "lấy lại sự tỉnh táo"
+            },
+            {
+              "en": "afternoon shift",
+              "vi": "ca làm việc buổi chiều"
+            },
+            {
+              "en": "shop online",
+              "vi": "mua sắm trực tuyến"
+            },
+            {
+              "en": "send private texts",
+              "vi": "nhắn tin riêng tư"
+            },
+            {
+              "en": "during official working hours",
+              "vi": "trong giờ làm việc hành chính"
+            },
+            {
+              "en": "break deep concentration",
+              "vi": "làm đứt mạch tập trung sâu"
+            },
+            {
+              "en": "delayed deadlines",
+              "vi": "trễ hạn hoàn thành công việc"
+            },
+            {
+              "en": "avoidable mistakes",
+              "vi": "những sai sót không đáng có"
+            },
+            {
+              "en": "sudden ringtones",
+              "vi": "tiếng chuông điện thoại reo bất ngờ"
+            },
+            {
+              "en": "look down at screens",
+              "vi": "cúi đầu nhìn vào màn hình"
+            },
+            {
+              "en": "show disrespect toward colleagues and partners",
+              "vi": "thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác"
+            },
+            {
+              "en": "such habits",
+              "vi": "những thói quen như vậy"
+            },
+            {
+              "en": "harm office culture",
+              "vi": "làm ảnh hưởng xấu đến văn hóa công sở"
+            },
+            {
+              "en": "damage a company's professional reputation",
+              "vi": "làm tổn hại uy tín chuyên nghiệp của công ty"
+            },
+            {
+              "en": "confidentiality",
+              "vi": "tính bảo mật thông tin"
+            },
+            {
+              "en": "store client records on unsecured devices",
+              "vi": "lưu hồ sơ khách hàng trên thiết bị kém bảo mật"
+            },
+            {
+              "en": "click malicious links",
+              "vi": "nhấp vào các đường dẫn chứa mã độc"
+            },
+            {
+              "en": "security breaches",
+              "vi": "các sự cố vi phạm bảo mật"
+            },
+            {
+              "en": "cause severe financial and legal damage",
+              "vi": "gây thiệt hại nghiêm trọng về tài chính và pháp lý"
+            },
+            {
+              "en": "to organizations",
+              "vi": "đối với các tổ chức/doanh nghiệp"
+            },
+            {
+              "en": "feel pressured to reply",
+              "vi": "cảm thấy áp lực phải phản hồi"
+            },
+            {
+              "en": "managers' group messages",
+              "vi": "tin nhắn nhóm của cấp quản lý"
+            },
+            {
+              "en": "during weekends",
+              "vi": "vào những ngày nghỉ cuối tuần"
+            },
+            {
+              "en": "unable to disconnect from work",
+              "vi": "không thể ngắt kết nối khỏi công việc"
+            },
+            {
+              "en": "cause chronic stress",
+              "vi": "gây ra sự căng thẳng kéo dài"
+            },
+            {
+              "en": "professional burnout",
+              "vi": "tình trạng kiệt sức nghề nghiệp"
+            },
+            {
+              "en": "a few seconds of inattention",
+              "vi": "chỉ vài giây lơ là mất tập trung"
+            },
+            {
+              "en": "operate heavy machinery",
+              "vi": "vận hành máy móc hạng nặng"
+            },
+            {
+              "en": "result in severe injuries",
+              "vi": "dẫn đến những chấn thương nghiêm trọng"
+            },
+            {
+              "en": "phone distraction",
+              "vi": "sự xao nhãng vì điện thoại"
+            },
+            {
+              "en": "directly threaten",
+              "vi": "đe dọa trực tiếp đến"
+            },
+            {
+              "en": "the physical safety of workers",
+              "vi": "sự an toàn thể chất của người lao động"
+            }
+          ],
+          "sample_b2": "In recent years, <strong>using mobile phones in the workplace</strong> has become standard practice across most modern industries. Although smartphones support fast communication and flexible workflows, they also raise valid concerns regarding employee focus and security. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, mobile phones bring several practical advantages to modern workplaces.</strong> One major benefit is that <strong><em>mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.</em></strong> Through phone calls or work messaging apps, departments can exchange urgent updates and resolve unexpected issues within minutes. Such timely responses improve team coordination and increase client satisfaction. Another positive aspect is that <strong><em>smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.</em></strong> Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk. This mobility is especially helpful for sales representatives, field engineers, and project managers. A further advantage to consider is that <strong><em>useful mobile applications help employees organize schedules and look up work information efficiently.</em></strong> Workers can set calendar reminders, scan documents with their cameras, complete two-factor authentication, or check market data instantly. Such handy features save considerable time compared to manual office procedures.\n\n<strong>On the other hand, there are notable disadvantages that employers and staff must consider.</strong> One possible drawback is that <strong><em>mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.</em></strong> Many workers frequently check social media, shop online, or send private texts during official working hours. Constant interruptions break deep concentration, leading to delayed deadlines and avoidable mistakes. Another negative aspect is that <strong><em>using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.</em></strong> Sudden ringtones or employees looking down at screens while others are speaking show disrespect toward colleagues and partners. Such habits can harm office culture and damage a company's professional reputation. A further concern is that <strong><em>unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.</em></strong> Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks. These security breaches can cause severe financial and legal damage to organizations.\n\nIn conclusion, <strong>using mobile phones in the workplace</strong> offers undeniable convenience and efficiency while also carrying risks of distraction and security breaches. Rather than banning mobile devices completely, companies should establish clear workplace guidelines and encourage self-discipline among employees so that technology enhances productivity responsibly.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng điện thoại di động ở nơi làm việc</strong> đã trở thành hoạt động quen thuộc trong hầu hết các ngành nghề hiện đại. Mặc dù điện thoại thông minh hỗ trợ giao tiếp nhanh chóng và quy trình làm việc linh hoạt, chúng cũng làm dấy lên những lo ngại chính đáng về độ tập trung của nhân viên và tính bảo mật. <strong>Bài tiểu luận này sẽ xem xét cả những thuận lợi và bất lợi.</strong>\n\n<strong>Một mặt, điện thoại di động mang lại nhiều lợi thế thiết thực cho môi trường làm việc hiện đại.</strong> Một lợi ích lớn là <strong><em>điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc.</em></strong> Thông qua các cuộc gọi hoặc ứng dụng nhắn tin công việc, các bộ phận có thể trao đổi thông tin cập nhật khẩn và giải quyết vướng mắc phát sinh chỉ trong vài phút. Sự phản hồi kịp thời như vậy giúp nâng cao khả năng phối hợp nhóm và làm tăng sự hài lòng của khách hàng. Một khía cạnh tích cực khác là <strong><em>điện thoại thông minh cho phép người lao động xử lý công việc một cách linh hoạt ngay cả khi đang đi công tác hay gặp gỡ đối tác bên ngoài văn phòng.</em></strong> Nhân viên có thể kiểm tra thư điện tử, tham gia các cuộc họp trực tuyến hoặc xem lại tài liệu lưu trữ đám mây mà không cần ngồi cố định tại bàn văn phòng. Tính cơ động này đặc biệt hữu ích đối với nhân viên kinh doanh, kỹ sư hiện trường và người quản lý dự án. Một thuận lợi nữa cần xem xét là <strong><em>những ứng dụng di động hữu ích giúp nhân viên sắp xếp lịch trình và tra cứu thông tin công việc hiệu quả.</em></strong> Người lao động có thể cài đặt lời nhắc lịch hẹn, quét tài liệu bằng máy ảnh điện thoại, xác thực hai lớp hoặc kiểm tra dữ liệu thị trường ngay tức thì. Những tính năng tiện lợi này giúp tiết kiệm đáng kể thời gian so với các thủ tục văn phòng thủ công.\n\n<strong>Mặt khác, vẫn có những bất lợi đáng chú ý mà doanh nghiệp và nhân viên cần cân nhắc.</strong> Một hạn chế có thể xảy ra là <strong><em>điện thoại di động dễ khiến nhân viên bị xao nhãng bởi các hoạt động giải trí cá nhân và làm giảm năng suất làm việc chung.</em></strong> Nhiều nhân viên thường xuyên kiểm tra mạng xã hội, mua sắm trực tuyến hoặc nhắn tin riêng tư trong giờ làm việc hành chính. Những sự gián đoạn liên tục làm đứt mạch tập trung sâu, dẫn đến trễ hạn hoàn thành công việc và những sai sót không đáng có. Một điểm tiêu cực khác là <strong><em>sử dụng điện thoại không đúng lúc trong các cuộc họp hay buổi trao đổi với khách hàng tạo ấn tượng thiếu chuyên nghiệp.</em></strong> Tiếng chuông điện thoại reo bất ngờ hoặc hình ảnh nhân viên cúi đầu nhìn màn hình khi người khác đang phát biểu thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác. Những thói quen như vậy có thể ảnh hưởng xấu đến văn hóa công sở và làm tổn hại uy tín chuyên nghiệp của công ty. Một mối lo ngại nữa là <strong><em>việc dùng điện thoại cá nhân không giới hạn tại cơ quan tiềm ẩn rủi ro nghiêm trọng đối với an toàn dữ liệu và tính bảo mật của doanh nghiệp.</em></strong> Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu hồ sơ khách hàng trên thiết bị kém bảo mật hoặc nhấp vào đường dẫn chứa mã độc trên mạng văn phòng. Các sự cố vi phạm bảo mật này có thể gây thiệt hại nghiêm trọng về tài chính và pháp lý đối với tổ chức.\n\nTóm lại, <strong>việc sử dụng điện thoại ở nơi làm việc</strong> mang lại sự tiện lợi và hiệu suất không thể phủ nhận song cũng đi kèm nguy cơ gây xao nhãng và mất an toàn dữ liệu. Thay vì cấm hoàn toàn thiết bị di động, các doanh nghiệp nên xây dựng quy chế công sở rõ ràng và khuyến khích tính tự giác của nhân viên để công nghệ nâng cao năng suất một cách có trách nhiệm.",
+          "key_vocab_notes": [
+            {
+              "en": "communicate quickly with colleagues and clients",
+              "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng"
+            },
+            {
+              "en": "improve team coordination",
+              "vi": "nâng cao sự phối hợp làm việc nhóm"
+            },
+            {
+              "en": "handle tasks flexibly outside the office",
+              "vi": "xử lý công việc linh hoạt bên ngoài văn phòng"
+            },
+            {
+              "en": "review cloud documents",
+              "vi": "xem lại các tài liệu lưu trữ đám mây"
+            },
+            {
+              "en": "reduce overall workplace productivity",
+              "vi": "làm giảm năng suất làm việc chung nơi công sở"
+            },
+            {
+              "en": "break deep concentration",
+              "vi": "làm đứt mạch tập trung sâu"
+            },
+            {
+              "en": "create an unprofessional impression",
+              "vi": "tạo ấn tượng thiếu chuyên nghiệp"
+            },
+            {
+              "en": "damage a company's professional reputation",
+              "vi": "làm tổn hại uy tín chuyên nghiệp của công ty"
+            },
+            {
+              "en": "company data security and confidentiality",
+              "vi": "an toàn dữ liệu và tính bảo mật của công ty"
+            },
+            {
+              "en": "blur the boundary between working hours and rest",
+              "vi": "làm mờ ranh giới giữa giờ làm việc và nghỉ ngơi"
+            }
+          ]
+        }
       },
       {
         "id": 31,
