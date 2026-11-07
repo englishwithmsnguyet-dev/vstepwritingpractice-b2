@@ -1722,12 +1722,7 @@ function splitSentences(text) {
 
 // --- Interactive Idea Selection Helpers ---
 function hasSelectableIdeas(topic) {
-  if (!topic || !topic.details) return false;
-  const ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
-  if (!ideas) return false;
-  const bCount = (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []).length;
-  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []).length;
-  return bCount > 3 || dCount > 3;
+  return false;
 }
 
 function getSelectedIdeaIndices(topic, groupType) {

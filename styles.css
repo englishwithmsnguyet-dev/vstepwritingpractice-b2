@@ -1896,6 +1896,7 @@ input, textarea, button, select {
   gap: 1rem;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .translation-card:hover {
@@ -2068,6 +2069,7 @@ h1, h2, h3, h4, h5, h6,
   border: 1px solid var(--panel-border);
   border-radius: var(--radius-md);
   padding: 1.5rem;
+  flex-shrink: 0;
 }
 
 .reading-section-card h3 {
@@ -3227,9 +3229,9 @@ h1, h2, h3, h4, h5, h6,
 /* --- Interactive Idea Selection System --- */
 .idea-selection-card {
   border: 1px solid rgba(99, 102, 241, 0.35) !important;
-  background: linear-gradient(180deg, rgba(99, 102, 241, 0.04) 0%, rgba(30, 41, 59, 0.3) 100%) !important;
+  background: linear-gradient(180deg, rgba(99, 102, 241, 0.06) 0%, rgba(99, 102, 241, 0.02) 100%) !important;
   position: relative;
-  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .idea-selection-header {
