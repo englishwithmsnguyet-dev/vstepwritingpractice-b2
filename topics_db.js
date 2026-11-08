@@ -71254,7 +71254,1827 @@ const ESSAY_DATA = [
         "title_vi": "Mua sắm trực tuyến",
         "context": "In recent years, online shopping has become increasingly popular around the world. Thanks to the development of the Internet and e-commerce platforms, people can buy a wide range of products and services without leaving their homes. While many consumers appreciate the convenience and variety offered by online shopping, others believe that it also has some disadvantages.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of online shopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "context_vi": "Trong những năm gần đây, mua sắm trực tuyến đã trở nên ngày càng phổ biến trên toàn thế giới. Nhờ sự phát triển của Internet và các nền tảng thương mại điện tử, người tiêu dùng có thể mua sắm nhiều loại sản phẩm và dịch vụ khác nhau mà không cần rời khỏi nhà. Mặc dù nhiều người tiêu dùng đánh giá cao sự tiện lợi và đa dạng mà mua sắm trực tuyến mang lại, những người khác lại tin rằng hình thức này cũng tồn tại một số bất lợi.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của mua sắm trực tuyến. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "paraphrases": [
+          {
+            "en": "purchasing goods on digital platforms",
+            "vi": "mua sắm hàng hóa trên các nền tảng kỹ thuật số"
+          },
+          {
+            "en": "e-commerce shopping and online transactions",
+            "vi": "mua sắm qua thương mại điện tử và giao dịch trực tuyến"
+          },
+          {
+            "en": "buying products through virtual marketplaces",
+            "vi": "mua sản phẩm thông qua các chợ thương mại ảo"
+          },
+          {
+            "en": "internet-based shopping habits",
+            "vi": "thói quen mua sắm dựa trên Internet"
+          },
+          {
+            "en": "ordering items via retail websites",
+            "vi": "đặt mua hàng hóa qua các trang web bán lẻ"
+          }
+        ],
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "title": "Xu hướng phát triển thương mại điện tử và hành vi tiêu dùng trực tuyến tại Việt Nam",
+                "source": "Cục Thương mại điện tử và Kinh tế số (Bộ Công Thương)",
+                "url": "https://idea.gov.vn/xu-huong-thuong-mai-dien-tu-viet-nam"
+              },
+              {
+                "title": "Bảo vệ quyền lợi người tiêu dùng trong kỷ nguyên số: Rủi ro lừa đảo và hàng giả trực tuyến",
+                "source": "Tạp chí Công Thương",
+                "url": "https://tapchicongthuong.vn/bao-ve-quyen-loi-nguoi-tieu-dung-khi-mua-sam-online"
+              },
+              {
+                "title": "Giải pháp xây dựng niềm tin số trong giao dịch thương mại điện tử",
+                "source": "Báo Đầu Tư điện tử",
+                "url": "https://baodautu.vn/niem-tin-so-trong-thuong-mai-dien-tu"
+              }
+            ],
+            "en": [
+              {
+                "title": "The Rise of E-Commerce: Consumer Convenience, Global Retail Shifts, and Market Growth",
+                "source": "OECD Digital Economy Papers",
+                "url": "https://www.oecd.org/digital/the-rise-of-e-commerce.htm"
+              },
+              {
+                "title": "Risks in Digital Marketplaces: Counterfeit Goods, Privacy Vulnerabilities, and Return Logistics",
+                "source": "Federal Trade Commission (FTC) Report",
+                "url": "https://www.ftc.gov/reports/digital-marketplaces-consumer-protection"
+              },
+              {
+                "title": "The Psychology of Online Impulsive Buying and Environmental Footprints of Fast Shipping",
+                "source": "Harvard Business Review",
+                "url": "https://hbr.org/research/online-shopping-consumer-behavior"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Mua sắm trực tuyến (Online Shopping)",
+            "overview": "Hệ thống từ vựng học thuật và cấu trúc diễn đạt chuyên sâu cho chủ đề Mua sắm trực tuyến (Online Shopping), bao gồm 20 từ đơn cốt lõi kèm phiên âm IPA, từ loại, cấp độ, họ từ (Word Family) và 10 nhóm Collocations bám sát 100% các luận điểm Lợi ích và Bất lợi ở cả hai cấp độ B1 và B2.",
+            "single_words": [
+              {
+                "word": "e-commerce",
+                "ipa": "/ˈiːˌkɒm.ɜːs/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "thương mại điện tử",
+                "example_en": "E-commerce platforms have fundamentally transformed how modern consumers purchase everyday goods.",
+                "example_vi": "Các nền tảng thương mại điện tử đã thay đổi căn bản cách người tiêu dùng hiện đại mua sắm hàng hóa hằng ngày.",
+                "family": "commercial (adj), commerce (n)"
+              },
+              {
+                "word": "convenience",
+                "ipa": "/kənˈviː.ni.əns/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự tiện lợi, sự thuận tiện",
+                "example_en": "Many shoppers prefer online shopping because of the unbeatable convenience it offers.",
+                "example_vi": "Nhiều người mua sắm thích mua hàng trực tuyến vì sự tiện lợi vượt trội mà nó mang lại.",
+                "family": "convenient (adj), conveniently (adv)"
+              },
+              {
+                "word": "transaction",
+                "ipa": "/trænˈzæk.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "giao dịch (mua bán, thanh toán)",
+                "example_en": "Digital banking enables consumers to complete shopping transactions within seconds.",
+                "example_vi": "Ngân hàng số cho phép người tiêu dùng hoàn thành các giao dịch mua sắm chỉ trong vài giây.",
+                "family": "transact (v)"
+              },
+              {
+                "word": "counterfeit",
+                "ipa": "/ˈkaʊn.tə.fɪt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giả mạo, hàng giả",
+                "example_en": "Authorities are struggling to curb the sale of counterfeit cosmetics on unverified websites.",
+                "example_vi": "Các cơ quan chức năng đang nỗ lực ngăn chặn việc buôn bán mỹ phẩm giả mạo trên các trang web chưa được kiểm chứng.",
+                "family": "counterfeit (n, v)"
+              },
+              {
+                "word": "delivery",
+                "ipa": "/dɪˈlɪv.ər.i/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự giao hàng, dịch vụ vận chuyển",
+                "example_en": "Fast doorstep delivery has made online grocery shopping extremely attractive to busy workers.",
+                "example_vi": "Dịch vụ giao hàng tận cửa nhanh chóng đã khiến việc mua thực phẩm trực tuyến cực kỳ hấp dẫn với người đi làm bận rộn.",
+                "family": "deliver (v)"
+              },
+              {
+                "word": "impulsive",
+                "ipa": "/ɪmˈpʌl.sɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bốc đồng, tùy hứng, không suy nghĩ kỹ",
+                "example_en": "Flash sales and aggressive marketing often trigger impulsive buying behavior among young consumers.",
+                "example_vi": "Các đợt giảm giá chớp nhoáng và quảng cáo dồn dập thường kích hoạt hành vi mua sắm bốc đồng ở người tiêu dùng trẻ.",
+                "family": "impulse (n), impulsively (adv)"
+              },
+              {
+                "word": "retailer",
+                "ipa": "/ˈriː.teɪ.lər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nhà bán lẻ, đơn vị bán lẻ",
+                "example_en": "Online retailers can offer lower prices because they do not have to pay expensive store rents.",
+                "example_vi": "Các nhà bán lẻ trực tuyến có thể đưa ra mức giá thấp hơn vì họ không phải trả tiền thuê cửa hàng đắt đỏ.",
+                "family": "retail (n, v)"
+              },
+              {
+                "word": "refund",
+                "ipa": "/ˈriː.fʌnd/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tiền hoàn lại, sự hoàn tiền",
+                "example_en": "Customers can request a full refund if the delivered item is defective or damaged.",
+                "example_vi": "Khách hàng có thể yêu cầu hoàn tiền đầy đủ nếu món hàng được giao bị lỗi hoặc hư hại.",
+                "family": "refundable (adj)"
+              },
+              {
+                "word": "authenticity",
+                "ipa": "/ˌɔː.θenˈtɪs.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính xác thực, nguồn gốc chính hãng",
+                "example_en": "Consumers must verify the authenticity of designer products before transferring funds online.",
+                "example_vi": "Người tiêu dùng phải xác minh tính chính hãng của các sản phẩm hàng hiệu trước khi chuyển tiền trực tuyến.",
+                "family": "authentic (adj), authenticate (v)"
+              },
+              {
+                "word": "marketplace",
+                "ipa": "/ˈmɑː.kɪt.pleɪs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sàn giao dịch, chợ thương mại điện tử",
+                "example_en": "Virtual marketplaces host thousands of independent vendors offering millions of diverse products.",
+                "example_vi": "Các sàn giao dịch ảo quy tụ hàng nghìn người bán độc lập cung ứng hàng triệu sản phẩm đa dạng.",
+                "family": "market (n)"
+              },
+              {
+                "word": "browse",
+                "ipa": "/braʊz/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "xem lướt, tìm kiếm sản phẩm",
+                "example_en": "Shoppers can browse hundreds of clothing items on their smartphone during their daily commute.",
+                "example_vi": "Người mua có thể xem lướt hàng trăm món đồ thời trang trên điện thoại thông minh trong giờ đi làm.",
+                "family": "browser (n)"
+              },
+              {
+                "word": "discount",
+                "ipa": "/ˈdɪs.kaʊnt/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "chiết khấu, giảm giá",
+                "example_en": "Special discount vouchers encourage buyers to make larger purchases online.",
+                "example_vi": "Các phiếu giảm giá đặc biệt khuyến khích người mua thực hiện các đơn hàng lớn hơn trên mạng.",
+                "family": "discount (v)"
+              },
+              {
+                "word": "cybersecurity",
+                "ipa": "/ˌsaɪ.bə.sɪˈkjʊə.rə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "an ninh mạng, an toàn thông tin",
+                "example_en": "Robust cybersecurity measures are required to protect users' sensitive payment credentials.",
+                "example_vi": "Cần có các biện pháp an ninh mạng vững chắc để bảo vệ thông tin thanh toán nhạy cảm của người dùng.",
+                "family": "cyber (adj)"
+              },
+              {
+                "word": "logistics",
+                "ipa": "/ləˈdʒɪs.tɪks/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "ngành hậu cần, hệ thống kho vận",
+                "example_en": "Efficient logistics networks ensure that parcels reach customers within promised timeframes.",
+                "example_vi": "Mạng lưới hậu cần hiệu quả đảm bảo các kiện hàng đến tay khách trong khung thời gian cam kết.",
+                "family": "logistical (adj)"
+              },
+              {
+                "word": "overspending",
+                "ipa": "/ˌəʊ.vəˈspen.dɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự chi tiêu quá mức, tiêu xài lãng phí",
+                "example_en": "Effortless online payments can unknowingly lead consumers into severe overspending habits.",
+                "example_vi": "Thanh toán trực tuyến quá dễ dàng có thể vô tình dẫn người tiêu dùng vào thói quen chi tiêu quá mức.",
+                "family": "overspend (v)"
+              },
+              {
+                "word": "inventory",
+                "ipa": "/ˈɪn.vən.tər.i/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hàng tồn kho, danh mục sản phẩm có sẵn",
+                "example_en": "Digital storefronts can display extensive inventory without the constraints of physical shelf space.",
+                "example_vi": "Các gian hàng số có thể hiển thị danh mục hàng tồn kho khổng lồ mà không bị giới hạn bởi kệ hàng thực tế.",
+                "family": "inventorial (adj)"
+              },
+              {
+                "word": "vulnerable",
+                "ipa": "/ˈvʌl.nər.ə.bəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dễ bị tổn thương, dễ bị lừa gạt",
+                "example_en": "Inexperienced internet users are vulnerable to phishing schemes on fraudulent shopping websites.",
+                "example_vi": "Những người dùng mạng chưa có kinh nghiệm rất dễ bị lừa bởi các chiêu trò giả mạo trên các trang web lừa đảo.",
+                "family": "vulnerability (n)"
+              },
+              {
+                "word": "doorstep",
+                "ipa": "/ˈdɔː.step/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tận cửa nhà, bậc cửa",
+                "example_en": "Having heavy household appliances delivered directly to one's doorstep is a huge relief.",
+                "example_vi": "Việc các thiết bị gia dụng nặng được giao thẳng tới tận cửa nhà là một sự giải tỏa to lớn.",
+                "family": "door (n)"
+              },
+              {
+                "word": "seamless",
+                "ipa": "/ˈsiːm.ləs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "liền mạch, trơn tru, không gián đoạn",
+                "example_en": "E-wallets provide a seamless checkout experience that minimizes shopping friction.",
+                "example_vi": "Các ví điện tử đem lại trải nghiệm thanh toán liền mạch giúp giảm thiểu tối đa sự bất tiện khi mua hàng.",
+                "family": "seamlessly (adv)"
+              },
+              {
+                "word": "warranty",
+                "ipa": "/ˈwɒr.ən.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chế độ bảo hành, cam kết chất lượng",
+                "example_en": "Always inspect the manufacturer warranty policy when purchasing expensive electronic gadgets online.",
+                "example_vi": "Hãy luôn kiểm tra chính sách bảo hành của nhà sản xuất khi mua các thiết bị điện tử đắt tiền trên mạng.",
+                "family": "warrant (v)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t46_b1",
+                "name": "LỢI ÍCH 01: TIỆN LỢI VƯỢT TRỘI VÀ TIẾT KIỆM THỜI GIAN (CONVENIENCE AND TIME SAVINGS)",
+                "icon": "⚡",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "exceptional convenience",
+                    "vi": "sự tiện lợi vượt trội"
+                  },
+                  {
+                    "en": "save travel time",
+                    "vi": "tiết kiệm thời gian đi lại"
+                  },
+                  {
+                    "en": "delivered to their doorstep",
+                    "vi": "giao đến tận cửa nhà"
+                  },
+                  {
+                    "en": "order goods anytime from home",
+                    "vi": "đặt mua hàng hóa bất cứ lúc nào ngay tại nhà"
+                  },
+                  {
+                    "en": "seamless digital transactions",
+                    "vi": "thao tác kỹ thuật số liền mạch"
+                  }
+                ]
+              },
+              {
+                "id": "t46_b2",
+                "name": "LỢI ÍCH 02: SO SÁNH GIÁ VÀ SĂN ƯU ĐÃI (PRICE COMPARISON AND DISCOUNTS)",
+                "icon": "🏷️",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "compare prices easily",
+                    "vi": "so sánh giá cả"
+                  },
+                  {
+                    "en": "attractive discount programs",
+                    "vi": "chương trình giảm giá hấp dẫn"
+                  },
+                  {
+                    "en": "free shipping vouchers",
+                    "vi": "miễn phí vận chuyển"
+                  },
+                  {
+                    "en": "transparent price discovery",
+                    "vi": "minh bạch hóa giá cả"
+                  },
+                  {
+                    "en": "competitive market dynamics",
+                    "vi": "cạnh tranh lành mạnh trên thị trường"
+                  }
+                ]
+              },
+              {
+                "id": "t46_b3",
+                "name": "LỢI ÍCH 03: ĐA DẠNG SẢN PHẨM PHONG PHÚ (PRODUCT DIVERSITY AND NICHE GOODS)",
+                "icon": "📦",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "extensive product variety",
+                    "vi": "sự đa dạng sản phẩm vô cùng phong phú"
+                  },
+                  {
+                    "en": "e-commerce platforms",
+                    "vi": "các sàn thương mại điện tử"
+                  },
+                  {
+                    "en": "rare items unavailable locally",
+                    "vi": "mặt hàng hiếm mà các chợ truyền thống không có bán"
+                  },
+                  {
+                    "en": "limitless virtual storefronts",
+                    "vi": "sàn thương mại số"
+                  },
+                  {
+                    "en": "personalized consumer items",
+                    "vi": "nhu cầu cá nhân hóa"
+                  }
+                ]
+              },
+              {
+                "id": "t46_b4",
+                "name": "LỢI ÍCH 04: THAM KHẢO ĐÁNH GIÁ CHÂN THỰC (CUSTOMER REVIEWS AND SOCIAL PROOF)",
+                "icon": "⭐",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "check customer reviews",
+                    "vi": "tham khảo đánh giá của khách hàng"
+                  },
+                  {
+                    "en": "real photos and genuine comments",
+                    "vi": "hình ảnh chụp thực tế"
+                  },
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy yên tâm hơn"
+                  },
+                  {
+                    "en": "empirical social proof",
+                    "vi": "bằng chứng thực chứng"
+                  },
+                  {
+                    "en": "informed purchasing decisions",
+                    "vi": "quyết định mua hàng sáng suốt"
+                  }
+                ]
+              },
+              {
+                "id": "t46_b5",
+                "name": "LỢI ÍCH 05: THANH TOÁN SỐ LINH HOẠT VÀ THEO DÕI ĐƠN HÀNG (CASHLESS PAYMENTS AND ORDER TRACKING)",
+                "icon": "💳",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "cashless payment methods",
+                    "vi": "thanh toán không tiền mặt"
+                  },
+                  {
+                    "en": "cash on delivery",
+                    "vi": "thanh toán khi nhận hàng"
+                  },
+                  {
+                    "en": "flexible payment options",
+                    "vi": "phương thức thanh toán linh hoạt"
+                  },
+                  {
+                    "en": "secure payment gateways",
+                    "vi": "cổng thanh toán bảo mật"
+                  },
+                  {
+                    "en": "real-time delivery tracking",
+                    "vi": "theo dõi đơn hàng tự động"
+                  }
+                ]
+              },
+              {
+                "id": "t46_d1",
+                "name": "BẤT LỢI 01: HÀNG GIẢ VÀ CHẤT LƯỢNG KÉM (COUNTERFEIT AND DEFECTIVE PRODUCTS)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "counterfeit products",
+                    "vi": "hàng giả"
+                  },
+                  {
+                    "en": "poor-quality goods",
+                    "vi": "hàng kém chất lượng"
+                  },
+                  {
+                    "en": "cannot inspect items directly",
+                    "vi": "không thể sờ trực tiếp hoặc thử đồ"
+                  },
+                  {
+                    "en": "discrepancies from advertised images",
+                    "vi": "khác hoàn toàn so với hình ảnh quảng cáo"
+                  },
+                  {
+                    "en": "unscrupulous vendors",
+                    "vi": "gian thương trục lợi"
+                  }
+                ]
+              },
+              {
+                "id": "t46_d2",
+                "name": "BẤT LỢI 02: RỦI RO BẢO MẬT VÀ LỪA ĐẢO TÀI CHÍNH (CYBERSECURITY RISKS AND FRAUD)",
+                "icon": "🔒",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "personal data leaks",
+                    "vi": "lộ thông tin cá nhân"
+                  },
+                  {
+                    "en": "financial fraud",
+                    "vi": "lừa đảo tiền bạc"
+                  },
+                  {
+                    "en": "fake websites steal credentials",
+                    "vi": "trang web bán hàng giả mạo"
+                  },
+                  {
+                    "en": "cybersecurity vulnerabilities",
+                    "vi": "lỗ hổng an ninh mạng"
+                  },
+                  {
+                    "en": "heavy financial losses",
+                    "vi": "tổn thất tài chính nặng nề"
+                  }
+                ]
+              },
+              {
+                "id": "t46_d3",
+                "name": "BẤT LỢI 03: TIÊU XÀI BỐC ĐỒNG VÀ LÃNG PHÍ TÀI CHÍNH (IMPULSIVE OVERSPENDING)",
+                "icon": "💸",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "impulsive spending habits",
+                    "vi": "thói quen chi tiêu bốc đồng"
+                  },
+                  {
+                    "en": "unnecessary expenses",
+                    "vi": "tốn kém tiền bạc"
+                  },
+                  {
+                    "en": "targeted advertising algorithms",
+                    "vi": "thuật toán tiếp thị"
+                  },
+                  {
+                    "en": "flash sale pressure",
+                    "vi": "chiến thuật giảm giá chớp nhoáng"
+                  },
+                  {
+                    "en": "accumulate unnecessary debt",
+                    "vi": "nợ nần không đáng có"
+                  }
+                ]
+              },
+              {
+                "id": "t46_d4",
+                "name": "BẤT LỢI 04: CHẬM TRỄ VẬN CHUYỂN VÀ HÀNG HÓA HƯ HỎNG (DELIVERY DELAYS AND CARGO DAMAGE)",
+                "icon": "🚚",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "delivery delays",
+                    "vi": "chậm trễ"
+                  },
+                  {
+                    "en": "damaged items during transit",
+                    "vi": "hàng hóa bị hư hỏng khi vận chuyển"
+                  },
+                  {
+                    "en": "supply chain bottlenecks",
+                    "vi": "gián đoạn trong chuỗi cung ứng"
+                  },
+                  {
+                    "en": "overburdened warehouses",
+                    "vi": "quá tải kho bãi"
+                  },
+                  {
+                    "en": "compromise fragile goods",
+                    "vi": "hư hại hàng hóa"
+                  }
+                ]
+              },
+              {
+                "id": "t46_d5",
+                "name": "BẤT LỢI 05: THỦ TỤC ĐỔI TRẢ VÀ KHIẾU NẠI PHỨC TẠP (COMPLEX RETURN POLICIES AND DISPUTES)",
+                "icon": "🔄",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "tedious return procedures",
+                    "vi": "thủ tục đổi trả hàng"
+                  },
+                  {
+                    "en": "prolonged customer disputes",
+                    "vi": "khiếu nại mua hàng"
+                  },
+                  {
+                    "en": "refuse warranty obligations",
+                    "vi": "trốn tránh trách nhiệm bảo hành"
+                  },
+                  {
+                    "en": "excessive return shipping fees",
+                    "vi": "phí vận chuyển đắt đỏ"
+                  },
+                  {
+                    "en": "disappointing customer service",
+                    "vi": "chăm sóc khách hàng"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "online shopping",
+              "vi": "mua sắm trực tuyến"
+            },
+            {
+              "en": "e-commerce platform",
+              "vi": "nền tảng thương mại điện tử"
+            },
+            {
+              "en": "doorstep delivery",
+              "vi": "giao hàng tận nơi"
+            },
+            {
+              "en": "price comparison",
+              "vi": "so sánh giá cả"
+            },
+            {
+              "en": "discount voucher",
+              "vi": "phiếu giảm giá"
+            },
+            {
+              "en": "product diversity",
+              "vi": "đa dạng sản phẩm"
+            },
+            {
+              "en": "customer review",
+              "vi": "đánh giá của khách hàng"
+            },
+            {
+              "en": "cashless payment",
+              "vi": "thanh toán không tiền mặt"
+            },
+            {
+              "en": "counterfeit goods",
+              "vi": "hàng giả, hàng nhái"
+            },
+            {
+              "en": "poor quality",
+              "vi": "chất lượng kém"
+            },
+            {
+              "en": "data security",
+              "vi": "an toàn dữ liệu"
+            },
+            {
+              "en": "financial fraud",
+              "vi": "lừa đảo tài chính"
+            },
+            {
+              "en": "impulsive buying",
+              "vi": "mua sắm bốc đồng"
+            },
+            {
+              "en": "overspending",
+              "vi": "chi tiêu quá mức"
+            },
+            {
+              "en": "shipping delay",
+              "vi": "chậm trễ giao hàng"
+            },
+            {
+              "en": "damaged parcel",
+              "vi": "kiện hàng bị hư hỏng"
+            },
+            {
+              "en": "return procedure",
+              "vi": "thủ tục đổi trả"
+            },
+            {
+              "en": "refund policy",
+              "vi": "chính sách hoàn tiền"
+            },
+            {
+              "en": "save travel time",
+              "vi": "tiết kiệm thời gian đi lại"
+            },
+            {
+              "en": "convenience",
+              "vi": "sự tiện lợi"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: TIỆN LỢI VƯỢT TRỘI VÀ TIẾT KIỆM THỜI GIAN ĐI LẠI",
+                "point_vi": "Mua sắm trực tuyến mang lại sự tiện lợi vượt trội và giúp tiết kiệm thời gian đi lại.",
+                "point_en": "Online shopping offers exceptional convenience and helps consumers save travel time.",
+                "point_collocations": [
+                  {
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "exceptional convenience",
+                    "vi": "sự tiện lợi vượt trội"
+                  },
+                  {
+                    "en": "save travel time",
+                    "vi": "tiết kiệm thời gian đi lại"
+                  }
+                ],
+                "evidence_vi": "Khách hàng có thể đặt mua hàng hóa bất cứ lúc nào ngay tại nhà. Hàng hóa sau đó được giao đến tận cửa nhà mà không cần phải đi đến siêu thị.",
+                "evidence_en": "Customers can order goods anytime directly from home. Products are then delivered to their doorstep without needing to travel to supermarkets.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "order goods anytime from home",
+                      "vi": "đặt mua hàng hóa bất cứ lúc nào ngay tại nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "delivered to their doorstep",
+                      "vi": "giao đến tận cửa nhà"
+                    },
+                    {
+                      "en": "travel to supermarkets",
+                      "vi": "đi đến siêu thị"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "exceptional convenience",
+                    "vi": "sự tiện lợi vượt trội"
+                  },
+                  {
+                    "en": "save travel time",
+                    "vi": "tiết kiệm thời gian đi lại"
+                  },
+                  {
+                    "en": "order goods anytime from home",
+                    "vi": "đặt mua hàng hóa bất cứ lúc nào ngay tại nhà"
+                  },
+                  {
+                    "en": "delivered to their doorstep",
+                    "vi": "giao đến tận cửa nhà"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: DỄ DÀNG SO SÁNH GIÁ CẢ VÀ SĂN ƯU ĐÃI",
+                "point_vi": "Người mua dễ dàng so sánh giá cả và tìm kiếm các chương trình giảm giá hấp dẫn.",
+                "point_en": "Shoppers can easily compare prices and search for attractive discount promotions.",
+                "point_collocations": [
+                  {
+                    "en": "compare prices",
+                    "vi": "so sánh giá cả"
+                  },
+                  {
+                    "en": "attractive discount programs",
+                    "vi": "chương trình giảm giá hấp dẫn"
+                  }
+                ],
+                "evidence_vi": "Nhiều cửa hàng trực tuyến thường xuyên tặng phiếu giảm giá và miễn phí vận chuyển. Khách hàng có thể kiểm tra nhiều cửa hàng cùng lúc để chọn được mức giá tốt nhất.",
+                "evidence_en": "Many online stores regularly offer discount vouchers and free shipping promotions. Consumers can check multiple retailers simultaneously to select the best price.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "discount vouchers",
+                      "vi": "phiếu giảm giá"
+                    },
+                    {
+                      "en": "free shipping",
+                      "vi": "miễn phí vận chuyển"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "check multiple retailers",
+                      "vi": "kiểm tra nhiều cửa hàng"
+                    },
+                    {
+                      "en": "best price",
+                      "vi": "mức giá tốt nhất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "compare prices",
+                    "vi": "so sánh giá cả"
+                  },
+                  {
+                    "en": "attractive discount programs",
+                    "vi": "chương trình giảm giá hấp dẫn"
+                  },
+                  {
+                    "en": "discount vouchers",
+                    "vi": "phiếu giảm giá"
+                  },
+                  {
+                    "en": "free shipping",
+                    "vi": "miễn phí vận chuyển"
+                  },
+                  {
+                    "en": "best price",
+                    "vi": "mức giá tốt nhất"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: ĐA DẠNG SẢN PHẨM VÀ MẪU MÃ PHONG PHÚ",
+                "point_vi": "Các sàn thương mại điện tử cung cấp sự đa dạng sản phẩm vô cùng phong phú.",
+                "point_en": "E-commerce platforms offer an immensely rich variety of consumer products.",
+                "point_collocations": [
+                  {
+                    "en": "e-commerce platforms",
+                    "vi": "các sàn thương mại điện tử"
+                  },
+                  {
+                    "en": "rich variety of products",
+                    "vi": "sự đa dạng sản phẩm vô cùng phong phú"
+                  }
+                ],
+                "evidence_vi": "Người tiêu dùng có thể tìm thấy nhiều mặt hàng hiếm mà các chợ truyền thống không có bán. Việc tìm kiếm mẫu mã phù hợp trở nên rất nhanh chóng và thuận tiện.",
+                "evidence_en": "Consumers can find various rare items that are not available in traditional local markets. Searching for suitable designs becomes remarkably fast and convenient.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rare items unavailable locally",
+                      "vi": "mặt hàng hiếm mà các chợ truyền thống không có bán"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "search for suitable designs",
+                      "vi": "tìm kiếm mẫu mã phù hợp"
+                    },
+                    {
+                      "en": "fast and convenient",
+                      "vi": "nhanh chóng và thuận tiện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "e-commerce platforms",
+                    "vi": "các sàn thương mại điện tử"
+                  },
+                  {
+                    "en": "rich variety of products",
+                    "vi": "sự đa dạng sản phẩm vô cùng phong phú"
+                  },
+                  {
+                    "en": "rare items unavailable locally",
+                    "vi": "mặt hàng hiếm mà các chợ truyền thống không có bán"
+                  },
+                  {
+                    "en": "fast and convenient",
+                    "vi": "nhanh chóng và thuận tiện"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: THAM KHẢO ĐÁNH GIÁ CHÂN THỰC TỪ NGƯỜI MUA TRƯỚC",
+                "point_vi": "Người tiêu dùng có thể tham khảo đánh giá của khách hàng trước khi quyết định mua đồ.",
+                "point_en": "Consumers can check customer feedback before making a final purchasing decision.",
+                "point_collocations": [
+                  {
+                    "en": "check customer reviews",
+                    "vi": "tham khảo đánh giá của khách hàng"
+                  },
+                  {
+                    "en": "purchasing decision",
+                    "vi": "quyết định mua đồ"
+                  }
+                ],
+                "evidence_vi": "Mục bình luận hiển thị hình ảnh chụp thực tế và nhận xét chân thật về chất lượng sản phẩm. Nhờ đó, người mua cảm thấy yên tâm hơn khi chọn mua sản phẩm.",
+                "evidence_en": "Comment sections display real photos and honest remarks about product quality. Consequently, buyers feel more confident when selecting merchandise.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "real photos",
+                      "vi": "hình ảnh chụp thực tế"
+                    },
+                    {
+                      "en": "product quality",
+                      "vi": "chất lượng sản phẩm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel more confident",
+                      "vi": "cảm thấy yên tâm hơn"
+                    },
+                    {
+                      "en": "select products",
+                      "vi": "chọn mua sản phẩm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "check customer reviews",
+                    "vi": "tham khảo đánh giá của khách hàng"
+                  },
+                  {
+                    "en": "real photos",
+                    "vi": "hình ảnh chụp thực tế"
+                  },
+                  {
+                    "en": "product quality",
+                    "vi": "chất lượng sản phẩm"
+                  },
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy yên tâm hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: THANH TOÁN KHÔNG TIỀN MẶT LINH HOẠT VÀ TIỆN LỢI",
+                "point_vi": "Các ứng dụng mua sắm hỗ trợ thanh toán không tiền mặt rất tiện lợi và an toàn.",
+                "point_en": "Shopping applications support cashless payments that are very convenient and secure.",
+                "point_collocations": [
+                  {
+                    "en": "cashless payment",
+                    "vi": "thanh toán không tiền mặt"
+                  },
+                  {
+                    "en": "convenient and secure",
+                    "vi": "tiện lợi và an toàn"
+                  }
+                ],
+                "evidence_vi": "Người dùng có thể chuyển khoản ngân hàng hoặc thanh toán khi nhận hàng. Các phương thức thanh toán linh hoạt giúp việc mua bán diễn ra trơn tru hơn.",
+                "evidence_en": "Users can make bank transfers or choose cash on delivery upon receiving their parcels. Flexible payment options make daily buying transactions run much smoother.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bank transfers",
+                      "vi": "chuyển khoản ngân hàng"
+                    },
+                    {
+                      "en": "cash on delivery",
+                      "vi": "thanh toán khi nhận hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "flexible payment options",
+                      "vi": "phương thức thanh toán linh hoạt"
+                    },
+                    {
+                      "en": "smooth transactions",
+                      "vi": "việc mua bán diễn ra trơn tru"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cashless payment",
+                    "vi": "thanh toán không tiền mặt"
+                  },
+                  {
+                    "en": "bank transfers",
+                    "vi": "chuyển khoản ngân hàng"
+                  },
+                  {
+                    "en": "cash on delivery",
+                    "vi": "thanh toán khi nhận hàng"
+                  },
+                  {
+                    "en": "flexible payment options",
+                    "vi": "phương thức thanh toán linh hoạt"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: NGUY CƠ MUA PHẢI HÀNG GIẢ HOẶC HÀNG KÉM CHẤT LƯỢNG",
+                "point_vi": "Người mua sắm trực tuyến dễ mua phải hàng giả hoặc hàng kém chất lượng.",
+                "point_en": "Online shoppers can easily purchase counterfeit products or poor-quality goods.",
+                "point_collocations": [
+                  {
+                    "en": "counterfeit products",
+                    "vi": "hàng giả"
+                  },
+                  {
+                    "en": "poor-quality goods",
+                    "vi": "hàng kém chất lượng"
+                  }
+                ],
+                "evidence_vi": "Khách hàng không thể sờ trực tiếp hoặc thử đồ trước khi trả tiền mua. Nhiều sản phẩm nhận về có chất lượng khác hoàn toàn so với hình ảnh quảng cáo trên mạng.",
+                "evidence_en": "Consumers cannot physically touch or try on items before completing payment. Many delivered goods differ completely from promotional photos displayed online.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cannot touch or try items",
+                      "vi": "không thể sờ trực tiếp hoặc thử đồ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "differ completely",
+                      "vi": "khác hoàn toàn so với hình ảnh quảng cáo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "counterfeit products",
+                    "vi": "hàng giả"
+                  },
+                  {
+                    "en": "poor-quality goods",
+                    "vi": "hàng kém chất lượng"
+                  },
+                  {
+                    "en": "cannot touch or try items",
+                    "vi": "không thể sờ trực tiếp hoặc thử đồ"
+                  },
+                  {
+                    "en": "differ completely",
+                    "vi": "khác hoàn toàn so với hình ảnh quảng cáo"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: RỦI RO BỊ LỘ THÔNG TIN CÁ NHÂN VÀ LỪA ĐẢO TÀI CHÍNH",
+                "point_vi": "Mua sắm trực tuyến tiềm ẩn nguy cơ bị lộ thông tin cá nhân và lừa đảo tiền bạc.",
+                "point_en": "Shopping online carries potential risks of personal data leaks and financial fraud.",
+                "point_collocations": [
+                  {
+                    "en": "personal data leaks",
+                    "vi": "lộ thông tin cá nhân"
+                  },
+                  {
+                    "en": "financial fraud",
+                    "vi": "lừa đảo tiền bạc"
+                  }
+                ],
+                "evidence_vi": "Một số trang web bán hàng giả mạo có thể đánh cắp mật khẩu và thông tin tài khoản ngân hàng. Người mua có thể bị mất tiền oan nếu không cẩn thận khi giao dịch.",
+                "evidence_en": "Certain fraudulent e-stores can steal passwords and bank account credentials. Buyers may lose money unfairly if they are careless during online transactions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fraudulent e-stores",
+                      "vi": "trang web bán hàng giả mạo"
+                    },
+                    {
+                      "en": "steal bank credentials",
+                      "vi": "thông tin tài khoản ngân hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lose money unfairly",
+                      "vi": "mất tiền oan"
+                    },
+                    {
+                      "en": "careless during transactions",
+                      "vi": "cẩn thận khi giao dịch"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal data leaks",
+                    "vi": "lộ thông tin cá nhân"
+                  },
+                  {
+                    "en": "financial fraud",
+                    "vi": "lừa đảo tiền bạc"
+                  },
+                  {
+                    "en": "fraudulent e-stores",
+                    "vi": "trang web bán hàng giả mạo"
+                  },
+                  {
+                    "en": "lose money unfairly",
+                    "vi": "mất tiền oan"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: DỄ DẪN ĐẾN THÓI QUEN MUA SẮM BỐC ĐỒNG VÀ TỐN KÉM",
+                "point_vi": "Mua sắm qua mạng dễ kích thích thói quen chi tiêu bốc đồng và gây tốn kém tiền bạc.",
+                "point_en": "Internet shopping easily encourages impulsive spending habits and causes unnecessary expenses.",
+                "point_collocations": [
+                  {
+                    "en": "impulsive spending habits",
+                    "vi": "thói quen chi tiêu bốc đồng"
+                  },
+                  {
+                    "en": "unnecessary expenses",
+                    "vi": "tốn kém tiền bạc"
+                  }
+                ],
+                "evidence_vi": "Các thông báo khuyến mãi liên tục xuất hiện khiến nhiều người dễ dàng bấm mua đồ không cần thiết. Việc này dẫn đến tình trạng chi tiêu quá mức vào cuối tháng.",
+                "evidence_en": "Continuous promotional alerts prompt many users to impulsively purchase non-essential goods. This habit leads directly to severe overspending at the end of the month.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "promotional alerts",
+                      "vi": "thông báo khuyến mãi"
+                    },
+                    {
+                      "en": "buy non-essential goods",
+                      "vi": "mua đồ không cần thiết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "severe overspending",
+                      "vi": "chi tiêu quá mức"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "impulsive spending habits",
+                    "vi": "thói quen chi tiêu bốc đồng"
+                  },
+                  {
+                    "en": "unnecessary expenses",
+                    "vi": "tốn kém tiền bạc"
+                  },
+                  {
+                    "en": "promotional alerts",
+                    "vi": "thông báo khuyến mãi"
+                  },
+                  {
+                    "en": "severe overspending",
+                    "vi": "chi tiêu quá mức"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: GIAO HÀNG CHẬM TRỄ VÀ HÀNG HÓA BỊ HƯ HỎNG",
+                "point_vi": "Quá trình giao hàng đôi khi bị chậm trễ hoặc làm hàng hóa bị hư hỏng khi vận chuyển.",
+                "point_en": "The delivery process is occasionally delayed or leads to damaged parcels during transportation.",
+                "point_collocations": [
+                  {
+                    "en": "delivery delays",
+                    "vi": "chậm trễ"
+                  },
+                  {
+                    "en": "damaged items during transit",
+                    "vi": "hàng hóa bị hư hỏng khi vận chuyển"
+                  }
+                ],
+                "evidence_vi": "Hàng hóa có thể bị thất lạc hoặc vỡ nát trong quá trình bốc xếp vận chuyển đường dài. Người mua thường phải chờ đợi nhiều ngày mới nhận được món đồ mình cần.",
+                "evidence_en": "Parcels can be misplaced or shattered during long-distance handling and transit. Customers frequently have to wait for many days to receive essential items.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "misplaced or shattered",
+                      "vi": "thất lạc hoặc vỡ nát"
+                    },
+                    {
+                      "en": "long-distance transit",
+                      "vi": "vận chuyển đường dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "wait for many days",
+                      "vi": "chờ đợi nhiều ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "delivery delays",
+                    "vi": "chậm trễ"
+                  },
+                  {
+                    "en": "damaged items during transit",
+                    "vi": "hàng hóa bị hư hỏng khi vận chuyển"
+                  },
+                  {
+                    "en": "misplaced or shattered",
+                    "vi": "thất lạc hoặc vỡ nát"
+                  },
+                  {
+                    "en": "wait for many days",
+                    "vi": "chờ đợi nhiều ngày"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: THỦ TỤC ĐỔI TRẢ VÀ KHIẾU NẠI MUA HÀNG PHỨC TẠP",
+                "point_vi": "Thủ tục đổi trả hàng và giải quyết khiếu nại mua hàng thường mất nhiều thời gian.",
+                "point_en": "Product exchange procedures and resolving customer disputes often consume excessive time.",
+                "point_collocations": [
+                  {
+                    "en": "product return procedures",
+                    "vi": "thủ tục đổi trả hàng"
+                  },
+                  {
+                    "en": "resolving customer disputes",
+                    "vi": "khiếu nại mua hàng"
+                  }
+                ],
+                "evidence_vi": "Một số người bán từ chối nhận lại hàng hoặc yêu cầu khách chịu phí vận chuyển đắt đỏ. Người tiêu dùng cảm thấy rất mệt mỏi khi phải giải quyết các tranh chấp mua bán.",
+                "evidence_en": "Some sellers refuse return requests or demand that customers bear exorbitant return freight fees. Consumers feel exhausted when navigating complex commercial disputes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "refuse return requests",
+                      "vi": "từ chối nhận lại hàng"
+                    },
+                    {
+                      "en": "exorbitant freight fees",
+                      "vi": "phí vận chuyển đắt đỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "exhausted with disputes",
+                      "vi": "giải quyết các tranh chấp mua bán"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "product return procedures",
+                    "vi": "thủ tục đổi trả hàng"
+                  },
+                  {
+                    "en": "resolving customer disputes",
+                    "vi": "khiếu nại mua hàng"
+                  },
+                  {
+                    "en": "refuse return requests",
+                    "vi": "từ chối nhận lại hàng"
+                  },
+                  {
+                    "en": "exorbitant freight fees",
+                    "vi": "phí vận chuyển đắt đỏ"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: TIỆN LỢI TỐI ƯU VÀ XÓA NHÒA RÀO CẢN ĐỊA LÝ (UNPARALLELED CONVENIENCE AND GEOGRAPHICAL ACCESSIBILITY)",
+                "point_vi": "Thương mại điện tử mang lại sự tiện lợi tối ưu và xóa nhòa các rào cản địa lý trong mua sắm.",
+                "point_en": "E-commerce delivers unparalleled convenience and eliminates geographic barriers in retail shopping.",
+                "point_collocations": [
+                  {
+                    "en": "e-commerce",
+                    "vi": "thương mại điện tử"
+                  },
+                  {
+                    "en": "unparalleled convenience",
+                    "vi": "sự tiện lợi tối ưu"
+                  },
+                  {
+                    "en": "eliminate geographic barriers",
+                    "vi": "xóa nhòa các rào cản địa lý"
+                  }
+                ],
+                "evidence_vi": "Người tiêu dùng có thể thực hiện giao dịch xuyên biên giới với các thao tác kỹ thuật số liền mạch trên điện thoại. Hàng hóa được phân phối trực tiếp đến tận nhà, giúp tối ưu hóa thời gian và công sức của người tiêu dùng hiện đại.",
+                "evidence_en": "Consumers can execute cross-border transactions through seamless digital interfaces on mobile devices. Goods are dispatched directly to domestic doorsteps, greatly optimizing time and physical effort for modern individuals.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cross-border transactions",
+                      "vi": "giao dịch xuyên biên giới"
+                    },
+                    {
+                      "en": "seamless digital interfaces",
+                      "vi": "thao tác kỹ thuật số liền mạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "dispatched to doorsteps",
+                      "vi": "phân phối trực tiếp đến tận nhà"
+                    },
+                    {
+                      "en": "optimize time and effort",
+                      "vi": "tối ưu hóa thời gian và công sức"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unparalleled convenience",
+                    "vi": "sự tiện lợi tối ưu"
+                  },
+                  {
+                    "en": "eliminate geographic barriers",
+                    "vi": "xóa nhòa các rào cản địa lý"
+                  },
+                  {
+                    "en": "cross-border transactions",
+                    "vi": "giao dịch xuyên biên giới"
+                  },
+                  {
+                    "en": "seamless digital interfaces",
+                    "vi": "thao tác kỹ thuật số liền mạch"
+                  },
+                  {
+                    "en": "optimize time and effort",
+                    "vi": "tối ưu hóa thời gian và công sức"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: MINH BẠCH HÓA GIÁ CẢ VÀ THÚC ĐẨY CẠNH TRANH THỊ TRƯỜNG (TRANSPARENT PRICE DISCOVERY AND HEALTHY COMPETITION)",
+                "point_vi": "Các nền tảng mua sắm trực tuyến tạo điều kiện minh bạch hóa giá cả và thúc đẩy cạnh tranh lành mạnh trên thị trường.",
+                "point_en": "Online retail platforms facilitate transparent price discovery and stimulate healthy market competition.",
+                "point_collocations": [
+                  {
+                    "en": "online retail platforms",
+                    "vi": "các nền tảng mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "transparent price discovery",
+                    "vi": "minh bạch hóa giá cả"
+                  },
+                  {
+                    "en": "stimulate market competition",
+                    "vi": "thúc đẩy cạnh tranh lành mạnh trên thị trường"
+                  }
+                ],
+                "evidence_vi": "Các thuật toán so sánh giá cho phép người tiêu dùng đánh giá chi phí giữa hàng loạt đơn vị bán lẻ trong tích tắc. Môi trường cạnh tranh gay gắt này buộc các doanh nghiệp liên tục tối ưu hóa giá thành và tung ra các chương trình khuyến mãi hấp dẫn.",
+                "evidence_en": "Automated price-comparison algorithms empower consumers to evaluate costs across hundreds of vendors instantaneously. This intense competitive pressure compels enterprises to continually optimize pricing structures and launch appealing promotions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "price-comparison algorithms",
+                      "vi": "thuật toán so sánh giá"
+                    },
+                    {
+                      "en": "evaluate vendor costs",
+                      "vi": "đánh giá chi phí giữa hàng loạt đơn vị bán lẻ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "optimize pricing structures",
+                      "vi": "tối ưu hóa giá thành"
+                    },
+                    {
+                      "en": "launch appealing promotions",
+                      "vi": "tung ra các chương trình khuyến mãi hấp dẫn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "transparent price discovery",
+                    "vi": "minh bạch hóa giá cả"
+                  },
+                  {
+                    "en": "stimulate market competition",
+                    "vi": "thúc đẩy cạnh tranh lành mạnh trên thị trường"
+                  },
+                  {
+                    "en": "price-comparison algorithms",
+                    "vi": "thuật toán so sánh giá"
+                  },
+                  {
+                    "en": "optimize pricing structures",
+                    "vi": "tối ưu hóa giá thành"
+                  },
+                  {
+                    "en": "launch appealing promotions",
+                    "vi": "tung ra các chương trình khuyến mãi hấp dẫn"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: DANH MỤC SẢN PHẨM KHỔNG LỒ VÀ KHẢ NĂNG TIẾP CẬN THỊ TRƯỜNG NGÁCH (EXPANSIVE INVENTORY AND NICHE PRODUCT AVAILABILITY)",
+                "point_vi": "Thị trường ảo cung cấp danh mục sản phẩm khổng lồ và khả năng tiếp cận các mặt hàng chuyên biệt hiếm thấy.",
+                "point_en": "Virtual marketplaces host expansive inventories and grant unprecedented access to specialized niche items.",
+                "point_collocations": [
+                  {
+                    "en": "virtual marketplaces",
+                    "vi": "thị trường ảo"
+                  },
+                  {
+                    "en": "expansive inventories",
+                    "vi": "danh mục sản phẩm khổng lồ"
+                  },
+                  {
+                    "en": "access to specialized niche items",
+                    "vi": "tiếp cận các mặt hàng chuyên biệt hiếm thấy"
+                  }
+                ],
+                "evidence_vi": "Nhờ không gian lưu trữ không bị giới hạn bởi mặt bằng bán lẻ truyền thống, các sàn thương mại số có thể cung ứng đa dạng các loại hàng hóa từ nhiều quốc gia. Khách hàng dễ dàng tìm kiếm các sản phẩm thủ công tinh xảo hoặc linh kiện chuyên dụng phục vụ cho nhu cầu cá nhân hóa.",
+                "evidence_en": "Free from the spatial constraints of conventional brick-and-mortar storefronts, digital platforms can distribute heterogeneous goods across global borders. Shoppers effortlessly locate artisanal craftworks or rare mechanical components tailored to personalized needs.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "digital commerce platforms",
+                      "vi": "sàn thương mại số"
+                    },
+                    {
+                      "en": "distribute heterogeneous goods",
+                      "vi": "cung ứng đa dạng các loại hàng hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "locate artisanal craftworks",
+                      "vi": "tìm kiếm các sản phẩm thủ công tinh xảo"
+                    },
+                    {
+                      "en": "personalized needs",
+                      "vi": "nhu cầu cá nhân hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "expansive inventories",
+                    "vi": "danh mục sản phẩm khổng lồ"
+                  },
+                  {
+                    "en": "access to specialized niche items",
+                    "vi": "tiếp cận các mặt hàng chuyên biệt hiếm thấy"
+                  },
+                  {
+                    "en": "digital commerce platforms",
+                    "vi": "sàn thương mại số"
+                  },
+                  {
+                    "en": "distribute heterogeneous goods",
+                    "vi": "cung ứng đa dạng các loại hàng hóa"
+                  },
+                  {
+                    "en": "personalized needs",
+                    "vi": "nhu cầu cá nhân hóa"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: BẰNG CHỨNG THỰC CHỨNG TỪ CỘNG ĐỒNG VÀ NÂNG CAO ĐỘ TIN CẬY (EMPIRICAL SOCIAL PROOF AND COMMUNITY VALIDATION)",
+                "point_vi": "Hệ thống phản hồi từ cộng đồng người mua đóng vai trò là bằng chứng thực chứng giúp nâng cao độ tin cậy của giao dịch.",
+                "point_en": "Crowdsourced review mechanisms provide empirical social proof that reinforces transactional transparency.",
+                "point_collocations": [
+                  {
+                    "en": "crowdsourced feedback",
+                    "vi": "phản hồi từ cộng đồng"
+                  },
+                  {
+                    "en": "empirical social proof",
+                    "vi": "bằng chứng thực chứng"
+                  },
+                  {
+                    "en": "transactional transparency",
+                    "vi": "độ tin cậy của giao dịch"
+                  }
+                ],
+                "evidence_vi": "Những đánh giá có kèm hình ảnh chụp thực tế cùng xếp hạng sao chi tiết giúp loại bỏ dần những gian hàng thiếu uy tín. Người tiêu dùng có thể đưa ra quyết định mua hàng sáng suốt dựa trên trải nghiệm thực tế của những người đi trước.",
+                "evidence_en": "Evaluations accompanied by verified unboxing images and standardized ratings progressively filter out fraudulent merchants. Potential purchasers can make informed procurement decisions predicated on objective user testimonials.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "verified unboxing images",
+                      "vi": "hình ảnh chụp thực tế"
+                    },
+                    {
+                      "en": "filter out disreputable sellers",
+                      "vi": "loại bỏ dần những gian hàng thiếu uy tín"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "informed purchasing decisions",
+                      "vi": "quyết định mua hàng sáng suốt"
+                    },
+                    {
+                      "en": "objective user experiences",
+                      "vi": "trải nghiệm thực tế của những người đi trước"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "empirical social proof",
+                    "vi": "bằng chứng thực chứng"
+                  },
+                  {
+                    "en": "transactional transparency",
+                    "vi": "độ tin cậy của giao dịch"
+                  },
+                  {
+                    "en": "verified unboxing images",
+                    "vi": "hình ảnh chụp thực tế"
+                  },
+                  {
+                    "en": "informed purchasing decisions",
+                    "vi": "quyết định mua hàng sáng suốt"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: THANH TOÁN SỐ LIỀN MẠCH VÀ THEO DÕI HẬU CẦN THỜI GIAN THỰC (SEAMLESS FINTECH INTEGRATION AND REAL-TIME LOGISTICS TRACKING)",
+                "point_vi": "Quy trình thanh toán số liền mạch cùng hệ thống theo dõi đơn hàng tự động nâng tầm trải nghiệm của người tiêu dùng.",
+                "point_en": "Seamless digital payment integration coupled with automated logistics tracking substantially elevates consumer experiences.",
+                "point_collocations": [
+                  {
+                    "en": "seamless digital payments",
+                    "vi": "thanh toán số liền mạch"
+                  },
+                  {
+                    "en": "automated tracking systems",
+                    "vi": "theo dõi đơn hàng tự động"
+                  },
+                  {
+                    "en": "elevate consumer experience",
+                    "vi": "nâng tầm trải nghiệm của người tiêu dùng"
+                  }
+                ],
+                "evidence_vi": "Sự tích hợp của các ví điện tử và cổng thanh toán bảo mật giúp giao dịch diễn ra an toàn chỉ trong vài giây. Hơn nữa, việc cập nhật lộ trình vận chuyển theo thời gian thực giúp khách hàng chủ động sắp xếp thời gian nhận hàng thuận lợi.",
+                "evidence_en": "The integration of cryptographic e-wallets and secured payment gateways executes frictionless transfers within seconds. Furthermore, real-time dispatch tracking allows customers to proactively coordinate parcel reception.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cryptographic e-wallets",
+                      "vi": "ví điện tử"
+                    },
+                    {
+                      "en": "secured payment gateways",
+                      "vi": "cổng thanh toán bảo mật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "real-time dispatch tracking",
+                      "vi": "cập nhật lộ trình vận chuyển theo thời gian thực"
+                    },
+                    {
+                      "en": "coordinate parcel reception",
+                      "vi": "sắp xếp thời gian nhận hàng thuận lợi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "seamless digital payments",
+                    "vi": "thanh toán số liền mạch"
+                  },
+                  {
+                    "en": "automated tracking systems",
+                    "vi": "theo dõi đơn hàng tự động"
+                  },
+                  {
+                    "en": "secured payment gateways",
+                    "vi": "cổng thanh toán bảo mật"
+                  },
+                  {
+                    "en": "real-time dispatch tracking",
+                    "vi": "cập nhật lộ trình vận chuyển theo thời gian thực"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: SỰ TRÀN LAN CỦA HÀNG GIẢ VÀ SAI LỆCH CHẤT LƯỢNG (PROLIFERATION OF COUNTERFEITS AND QUALITY DISCREPANCIES)",
+                "point_vi": "Sự tràn lan của hàng giả và tình trạng sai lệch chất lượng thực tế là vấn nạn nhức nhối trên các chợ thương mại điện tử.",
+                "point_en": "The unchecked proliferation of counterfeit merchandise and tangible quality discrepancies remain pervasive dilemmas on e-commerce platforms.",
+                "point_collocations": [
+                  {
+                    "en": "counterfeit merchandise",
+                    "vi": "hàng giả"
+                  },
+                  {
+                    "en": "quality discrepancies",
+                    "vi": "sai lệch chất lượng thực tế"
+                  },
+                  {
+                    "en": "e-commerce marketplaces",
+                    "vi": "chợ thương mại điện tử"
+                  }
+                ],
+                "evidence_vi": "Việc người mua không thể trực tiếp kiểm tra chất liệu và kiểm chứng nguồn gốc xuất xứ tạo kẽ hở cho các gian thương trục lợi. Rất nhiều người tiêu dùng nhận phải các sản phẩm nhái kém chất lượng có mẫu mã khác xa so với hình ảnh quảng cáo trên mạng.",
+                "evidence_en": "The inability of purchasers to examine tactile material authenticity creates loopholes that unscrupulous vendors exploit. Numerous consumers receive inferior knockoffs whose practical performance deviates drastically from embellished internet advertisements.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "verify material authenticity",
+                      "vi": "kiểm tra chất liệu và kiểm chứng nguồn gốc xuất xứ"
+                    },
+                    {
+                      "en": "unscrupulous vendors exploit",
+                      "vi": "gian thương trục lợi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "inferior knockoffs",
+                      "vi": "sản phẩm nhái kém chất lượng"
+                    },
+                    {
+                      "en": "deviates from online ads",
+                      "vi": "khác xa so với hình ảnh quảng cáo trên mạng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "counterfeit merchandise",
+                    "vi": "hàng giả"
+                  },
+                  {
+                    "en": "quality discrepancies",
+                    "vi": "sai lệch chất lượng thực tế"
+                  },
+                  {
+                    "en": "unscrupulous vendors exploit",
+                    "vi": "gian thương trục lợi"
+                  },
+                  {
+                    "en": "inferior knockoffs",
+                    "vi": "sản phẩm nhái kém chất lượng"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: LỖ HỔNG AN NINH MẠNG VÀ RỦI RO GIAN LẬN TÀI CHÍNH (CYBERSECURITY VULNERABILITIES AND FINANCIAL EXPLOITATION)",
+                "point_vi": "Mua sắm trực tuyến phơi bày người tiêu dùng trước các lỗ hổng an ninh mạng và rủi ro gian lận tài chính tinh vi.",
+                "point_en": "Online shopping exposes consumers to critical cybersecurity vulnerabilities and sophisticated financial fraud.",
+                "point_collocations": [
+                  {
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "cybersecurity vulnerabilities",
+                    "vi": "lỗ hổng an ninh mạng"
+                  },
+                  {
+                    "en": "sophisticated financial fraud",
+                    "vi": "gian lận tài chính tinh vi"
+                  }
+                ],
+                "evidence_vi": "Các trang web độc hại có thể đánh cắp dữ liệu thẻ tín dụng và xâm phạm quyền riêng tư của khách hàng. Khi thông tin nhạy cảm bị rò rỉ, người dùng đối mặt với nguy cơ bị chiếm đoạt tài khoản và gánh chịu tổn thất tài chính nặng nề.",
+                "evidence_en": "Malicious phishing domains can intercept credit card credentials and compromise private customer profiles. When confidential data is breached, account holders face illicit fund drainage and severe monetary loss.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "compromise private profiles",
+                      "vi": "xâm phạm quyền riêng tư của khách hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "account hijacking",
+                      "vi": "chiếm đoạt tài khoản"
+                    },
+                    {
+                      "en": "severe monetary loss",
+                      "vi": "tổn thất tài chính nặng nề"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cybersecurity vulnerabilities",
+                    "vi": "lỗ hổng an ninh mạng"
+                  },
+                  {
+                    "en": "sophisticated financial fraud",
+                    "vi": "gian lận tài chính tinh vi"
+                  },
+                  {
+                    "en": "compromise private profiles",
+                    "vi": "xâm phạm quyền riêng tư của khách hàng"
+                  },
+                  {
+                    "en": "severe monetary loss",
+                    "vi": "tổn thất tài chính nặng nề"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: KÍCH THÍCH CHỦ NGHĨA TIÊU DÙNG BỐC ĐỒNG VÀ GIA TĂNG NỢ NẦN (CATALYZING IMPULSIVE CONSUMERISM AND COMPOUNDING FINANCIAL DISTRESS)",
+                "point_vi": "Các thuật toán tiếp thị có mục tiêu dễ kích thích chủ nghĩa tiêu dùng bốc đồng và gây áp lực tài chính cho người mua.",
+                "point_en": "Targeted advertising algorithms systematically trigger impulsive consumerism and exacerbate personal financial distress.",
+                "point_collocations": [
+                  {
+                    "en": "targeted advertising algorithms",
+                    "vi": "thuật toán tiếp thị"
+                  },
+                  {
+                    "en": "impulsive consumerism",
+                    "vi": "chủ nghĩa tiêu dùng bốc đồng"
+                  },
+                  {
+                    "en": "financial distress",
+                    "vi": "áp lực tài chính cho người mua"
+                  }
+                ],
+                "evidence_vi": "Chiến thuật giảm giá chớp nhoáng kết hợp với quy trình mua hàng một chạm khiến người tiêu dùng dễ sa vào việc mua sắm không kiểm soát. Thói quen tiêu dùng lãng phí này tích tụ lâu dần sẽ làm cạn kiệt ngân sách cá nhân và gây ra nợ nần không đáng có.",
+                "evidence_en": "Ephemeral flash discounts blended with frictionless one-click checkout provoke unreflective, addictive purchasing patterns. Over time, compounded reckless consumption depletes personal savings and inflates unmanageable consumer debt.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "flash discount tactics",
+                      "vi": "chiến thuật giảm giá chớp nhoáng"
+                    },
+                    {
+                      "en": "unreflective purchasing",
+                      "vi": "mua sắm không kiểm soát"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "depletes personal savings",
+                      "vi": "làm cạn kiệt ngân sách cá nhân"
+                    },
+                    {
+                      "en": "unmanageable consumer debt",
+                      "vi": "nợ nần không đáng có"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "targeted advertising algorithms",
+                    "vi": "thuật toán tiếp thị"
+                  },
+                  {
+                    "en": "impulsive consumerism",
+                    "vi": "chủ nghĩa tiêu dùng bốc đồng"
+                  },
+                  {
+                    "en": "flash discount tactics",
+                    "vi": "chiến thuật giảm giá chớp nhoáng"
+                  },
+                  {
+                    "en": "unmanageable consumer debt",
+                    "vi": "nợ nần không đáng có"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: ĐIỂM NGHẼN HẬU CẦN, GIAO HÀNG CHẬM TRỄ VÀ HƯ HỎNG KIỆN HÀNG (LOGISTICS BOTTLENECKS, DELAYED TRANSIT, AND CARGO DAMAGE)",
+                "point_vi": "Sự gián đoạn trong chuỗi cung ứng vận chuyển có thể gây ra chậm trễ giao hàng và hư hại hàng hóa trong quá trình luân chuyển.",
+                "point_en": "Logistical supply chain bottlenecks often precipitate shipment delays and physical cargo destruction during transit.",
+                "point_collocations": [
+                  {
+                    "en": "supply chain bottlenecks",
+                    "vi": "gián đoạn trong chuỗi cung ứng"
+                  },
+                  {
+                    "en": "shipment delays",
+                    "vi": "chậm trễ giao hàng"
+                  },
+                  {
+                    "en": "cargo damage in transit",
+                    "vi": "hư hại hàng hóa trong quá trình luân chuyển"
+                  }
+                ],
+                "evidence_vi": "Vào các dịp lễ hội mua sắm cao điểm, các đơn vị vận chuyển thường xuyên rơi vào tình trạng quá tải kho bãi và xử lý chậm trễ đơn hàng. Ngoài ra, việc đóng gói sơ sài trong các chuyến vận chuyển đường dài có thể làm vỡ hỏng các mặt hàng dễ vỡ.",
+                "evidence_en": "During peak promotional seasons, third-party courier services routinely suffer severe warehouse overcrowding and dispatch backlogs. Moreover, substandard packaging across long-haul freight corridors often results in the destruction of fragile commodities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "severe warehouse overcrowding",
+                      "vi": "quá tải kho bãi"
+                    },
+                    {
+                      "en": "dispatch backlogs",
+                      "vi": "xử lý chậm trễ đơn hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "long-haul freight corridors",
+                      "vi": "vận chuyển đường dài"
+                    },
+                    {
+                      "en": "destruction of fragile commodities",
+                      "vi": "vỡ hỏng các mặt hàng dễ vỡ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "supply chain bottlenecks",
+                    "vi": "gián đoạn trong chuỗi cung ứng"
+                  },
+                  {
+                    "en": "shipment delays",
+                    "vi": "chậm trễ giao hàng"
+                  },
+                  {
+                    "en": "cargo damage in transit",
+                    "vi": "hư hại hàng hóa trong quá trình luân chuyển"
+                  },
+                  {
+                    "en": "severe warehouse overcrowding",
+                    "vi": "quá tải kho bãi"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: QUY TRÌNH ĐỔI TRẢ PHỨC TẠP VÀ TRANH CHẤP KHIẾU NẠI KÉO DÀI (BURDENSOME REVERSE LOGISTICS AND PROTRACTED DISPUTES)",
+                "point_vi": "Quy trình đổi trả hàng hóa phức tạp và các tranh chấp khiếu nại kéo dài gây ra nhiều bức xúc và hao tổn thời gian cho người tiêu dùng.",
+                "point_en": "Convoluted reverse logistics protocols and protracted customer disputes generate substantial frustration and squander valuable consumer time.",
+                "point_collocations": [
+                  {
+                    "en": "reverse logistics protocols",
+                    "vi": "quy trình đổi trả hàng hóa"
+                  },
+                  {
+                    "en": "protracted customer disputes",
+                    "vi": "tranh chấp khiếu nại kéo dài"
+                  },
+                  {
+                    "en": "frustration and time loss",
+                    "vi": "bức xúc và hao tổn thời gian"
+                  }
+                ],
+                "evidence_vi": "Nhiều nhà bán lẻ trốn tránh trách nhiệm bảo hành hoặc đặt ra các điều kiện hoàn tiền vô cùng khắt khe đối với sản phẩm lỗi. Sự thiếu minh bạch trong khâu chăm sóc khách hàng khiến người mua nản lòng và phải gánh chịu thiệt thòi về kinh tế.",
+                "evidence_en": "Unscrupulous vendors frequently evade statutory warranty mandates or impose prohibitive restitution criteria for defective items. A pronounced deficit in customer dispute mediation discourages wronged consumers, forcing them to absorb unjust financial penalties.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "evade warranty mandates",
+                      "vi": "trốn tránh trách nhiệm bảo hành"
+                    },
+                    {
+                      "en": "prohibitive restitution criteria",
+                      "vi": "điều kiện hoàn tiền vô cùng khắt khe"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "deficit in customer service",
+                      "vi": "thiếu minh bạch trong khâu chăm sóc khách hàng"
+                    },
+                    {
+                      "en": "absorb financial penalties",
+                      "vi": "gánh chịu thiệt thòi về kinh tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reverse logistics protocols",
+                    "vi": "quy trình đổi trả hàng hóa"
+                  },
+                  {
+                    "en": "protracted customer disputes",
+                    "vi": "tranh chấp khiếu nại kéo dài"
+                  },
+                  {
+                    "en": "evade warranty mandates",
+                    "vi": "trốn tránh trách nhiệm bảo hành"
+                  },
+                  {
+                    "en": "gánh chịu thiệt thòi về kinh tế",
+                    "vi": "gánh chịu thiệt thòi về kinh tế"
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "<p>In recent years, <strong>online shopping</strong> has emerged as an extremely popular commercial trend across the globe, allowing millions of consumers to purchase products with just a few clicks. While this digital retail model brings outstanding advantages in terms of <em>unbeatable convenience</em> and <em>competitive pricing</em>, it also poses distinct drawbacks concerning <em>counterfeit goods</em> and <em>impulsive spending habits</em>.</p>\n<p>On the one hand, purchasing goods on digital platforms offers numerous evident benefits for modern consumers. The most prominent advantage is <strong>exceptional convenience and time efficiency</strong>. Instead of traveling long distances to crowded supermarkets or enduring traffic congestion, buyers can browse items at any time and have their packages delivered directly to their doorstep. Furthermore, virtual marketplaces enable users to <strong>compare prices effortlessly across different stores</strong>. With a simple search, shoppers can immediately locate attractive promotional vouchers and free shipping deals, allowing them to save substantial amounts of money. Additionally, customers have access to <em>authentic feedback and unboxing images</em> posted by previous buyers, which helps them make informed and safe purchasing decisions.</p>\n<p>On the other hand, online commerce involves several noticeable disadvantages that shoppers must consider. Firstly, buyers face a serious risk of <strong>receiving counterfeit or substandard products</strong> because they cannot inspect the physical texture and quality before making payment. Many received parcels differ significantly from beautiful promotional images. Secondly, e-commerce platforms can expose consumers to <strong>cybersecurity vulnerabilities and payment fraud</strong>, where fake retail websites steal personal bank details. Finally, continuous promotional notifications frequently tempt individuals into <em>impulsive buying habits</em>, resulting in unnecessary expenditures and financial strain at the end of every month.</p>\n<p>In conclusion, although online shopping provides unprecedented convenience, diverse choices, and cost savings, it also entails considerable risks of defective goods, data insecurity, and financial overspending. Consumers should remain cautious, choose reputable platforms, and manage their spending wisely to fully enjoy the advantages of digital shopping.</p>",
+          "translation_b1": "<p>Trong những năm gần đây, <strong>mua sắm trực tuyến</strong> đã nổi lên như một xu hướng thương mại cực kỳ phổ biến trên toàn cầu, cho phép hàng triệu người tiêu dùng mua hàng chỉ bằng vài cú nhấp chuột. Mặc dù mô hình bán lẻ kỹ thuật số này đem lại những lợi thế vượt trội về <em>sự tiện lợi vượt trội</em> và <em>giá cả cạnh tranh</em>, nó cũng đặt ra những bất lợi rõ rệt liên quan đến <em>hàng giả</em> và <em>thói quen chi tiêu bốc đồng</em>.</p>\n<p>Một mặt, việc mua sắm hàng hóa trên các nền tảng kỹ thuật số mang lại nhiều lợi ích rõ ràng cho người tiêu dùng hiện đại. Lợi thế nổi bật nhất là <strong>sự tiện lợi vượt trội và tiết kiệm thời gian</strong>. Thay vì phải di chuyển quãng đường xa tới các siêu thị đông đúc hay chịu cảnh kẹt xe, người mua có thể xem hàng bất cứ lúc nào và được nhận hàng giao thẳng đến tận cửa nhà. Hơn nữa, các sàn thương mại ảo cho phép người dùng <strong>so sánh giá cả dễ dàng giữa nhiều cửa hàng khác nhau</strong>. Chỉ với thao tác tìm kiếm đơn giản, khách hàng có thể nhanh chóng săn được các mã giảm giá hấp dẫn và ưu đãi miễn phí vận chuyển, giúp tiết kiệm được khoản tiền đáng kể. Thêm vào đó, người mua được tiếp cận <em>những đánh giá chân thật và hình ảnh chụp thực tế</em> của người mua trước, giúp họ đưa ra quyết định mua hàng sáng suốt và an toàn.</p>\n<p>Mặt khác, thương mại trực tuyến cũng tiềm ẩn một số bất lợi đáng lưu tâm mà người mua sắm cần cân nhắc. Trước hết, người mua đối mặt với nguy cơ nghiêm trọng về việc <strong>mua phải hàng giả hoặc hàng kém chất lượng</strong> vì họ không thể kiểm tra trực tiếp chất liệu và chất lượng trước khi trả tiền. Nhiều kiện hàng nhận về khác xa so với hình ảnh quảng cáo lung linh. Thứ hai, các nền tảng thương mại điện tử có thể khiến người tiêu dùng gặp phải <strong>lỗ hổng an ninh mạng và lừa đảo thanh toán</strong>, khi các trang web bán hàng giả mạo đánh cắp thông tin tài khoản ngân hàng cá nhân. Cuối cùng, các thông báo khuyến mãi liên tục thường xuyên lôi kéo mọi người vào <em>thói quen chi tiêu bốc đồng</em>, dẫn đến việc tiêu xài không cần thiết và gây áp lực tài chính vào cuối mỗi tháng.</p>\n<p>Tóm lại, mặc dù mua sắm trực tuyến mang lại sự tiện lợi chưa từng có, sự lựa chọn đa dạng và tiết kiệm chi phí, nó cũng kéo theo những rủi ro đáng kể về hàng lỗi, mất an toàn dữ liệu và chi tiêu quá đà. Người tiêu dùng nên luôn cảnh giác, lựa chọn các nền tảng uy tín và quản lý chi tiêu hợp lý để tận hưởng trọn vẹn những thuận lợi của mua sắm số.</p>",
+          "sample_b2": "<p>Over the past two decades, the exponential proliferation of <strong>e-commerce platforms</strong> has revolutionized global retail landscapes, transforming conventional consumer transactions into instantaneous digital exchanges. While this digital transition delivers remarkable merits regarding <em>unparalleled convenience</em>, <em>transparent price discovery</em>, and <em>extensive product diversity</em>, it concurrently presents formidable vulnerabilities, encompassing <em>counterfeit proliferation</em>, <em>cybersecurity hazards</em>, and <em>compulsive consumerism</em>.</p>\n<p>On the one hand, e-commerce confers immense operational and economic dividends upon modern society. Primarily, digital marketplaces offer <strong>unrivaled geographical convenience and temporal flexibility</strong>. By bypassing the physical constraints of conventional brick-and-mortar storefronts, consumers can procure heterogeneous commodities at any hour and secure prompt doorstep delivery, significantly optimizing personal productivity. Furthermore, digital retail environments foster <strong>rigorous price transparency and market competition</strong>. Automated price-comparison algorithms empower buyers to cross-examine vendor rates within seconds, compelling retailers to optimize operational expenditures and offer substantial discount promotions. Additionally, crowdsourced review mechanisms provide <em>empirical social proof</em> through authentic testimonials and verified unboxing imagery, which progressively democratizes retail information and safeguards consumers against subpar commercial practices.</p>\n<p>On the other hand, the expansion of virtual commerce is fraught with critical liabilities. Chief among these perils is the <strong>unchecked distribution of counterfeit goods and quality discrepancies</strong>. Because prospective purchasers cannot physically verify material authenticity or assess tactile standards prior to financial transactions, unscrupulous merchants frequently capitalize on digital opacity to distribute substandard knockoffs. Compounding this predicament are <strong>acute cybersecurity vulnerabilities and sophisticated transactional fraud</strong>. Fraudulent portals routinely harvest confidential banking credentials, subjecting unwary consumers to severe monetary expropriation. Moreover, algorithmic marketing coupled with frictionless one-click payment mechanisms systematically stimulates <em>impulsive spending and financial distress</em>, trapping vulnerable demographics in cycles of chronic consumer debt.</p>\n<p>In conclusion, while online shopping constitutes an extraordinary breakthrough in retail efficiency, consumer empowerment, and market globalization, its uncritical adoption generates profound consumer protection, cybersecurity, and financial challenges. To maintain a resilient digital marketplace, regulatory authorities must enforce rigorous vendor verification mandates, while consumers must cultivate rigorous digital literacy and fiscal discipline.</p>",
+          "translation_b2": "<p>Trong suốt hai thập kỷ qua, sự phát triển bùng nổ theo cấp số nhân của <strong>các sàn thương mại điện tử</strong> đã cách mạng hóa bức tranh bán lẻ toàn cầu, chuyển đổi các giao dịch truyền thống thành những cuộc trao đổi kỹ thuật số tức thì. Mặc dù bước chuyển dịch số này mang lại những giá trị vượt bậc về <em>sự tiện lợi tối ưu</em>, <em>sự minh bạch hóa giá cả</em> và <em>danh mục sản phẩm khổng lồ</em>, nó đồng thời tạo ra những lỗ hổng đáng lo ngại, bao gồm <em>sự tràn lan của hàng giả</em>, <em>mối nguy an ninh mạng</em> và <em>chủ nghĩa tiêu dùng bốc đồng</em>.</p>\n<p>Một mặt, thương mại điện tử mang lại những lợi ích vận hành và kinh tế to lớn cho xã hội hiện đại. Trước hết, các chợ thương mại ảo đem đến <strong>sự linh hoạt tối đa về thời gian và xóa nhòa rào cản địa lý</strong>. Bằng việc vượt qua các giới hạn vật lý của các cửa hàng truyền thống, người tiêu dùng có thể mua sắm các loại hàng hóa đa dạng vào bất kỳ thời điểm nào và nhận hàng tận cửa nhà nhanh chóng, từ đó tối ưu hóa đáng kể năng suất cá nhân. Hơn nữa, môi trường bán lẻ số thúc đẩy <strong>tính minh bạch giá cả và kích thích cạnh tranh thị trường gay gắt</strong>. Các thuật toán so sánh giá tự động giúp người mua đối chiếu biểu giá giữa hàng loạt nhà bán lẻ chỉ trong vài giây, buộc các doanh nghiệp phải tinh gọn chi phí vận hành và tung ra các chương trình chiết khấu hấp dẫn. Thêm vào đó, hệ thống đánh giá từ cộng đồng cung cấp <em>bằng chứng thực chứng</em> thông qua các nhận xét khách quan và hình ảnh chụp thực tế, giúp dân chủ hóa thông tin thương mại và bảo vệ người tiêu dùng trước các hành vi gian lận.</p>\n<p>Mặt khác, sự bành trướng của thương mại ảo cũng đi kèm với những rủi ro nghiêm trọng. Đáng kể nhất trong số các mối nguy này là <strong>tình trạng buôn bán hàng giả tràn lan và sai lệch chất lượng thực tế</strong>. Do người mua không thể trực tiếp kiểm chứng độ tin cậy của chất liệu hay cảm nhận tiêu chuẩn vật lý trước khi thanh toán, các gian thương trục lợi thường tận dụng sự thiếu minh bạch của không gian mạng để tuồn hàng nhái kém chất lượng. Làm trầm trọng thêm bài toán này là <strong>các lỗ hổng an ninh mạng và thủ đoạn gian lận giao dịch tinh vi</strong>. Các trang web độc hại liên tục đánh cắp thông tin thẻ ngân hàng nhạy cảm, đẩy người dùng nhẹ dạ vào tình cảnh bị chiếm đoạt tài sản nặng nề. Ngoài ra, thuật toán tiếp thị kết hợp với quy trình thanh toán một chạm dễ kích thích <em>thói quen chi tiêu bốc đồng và áp lực tài chính</em>, khiến các nhóm người tiêu dùng dễ bị tổn thương rơi vào vòng luẩn quẩn của nợ nần tiêu dùng triền miên.</p>\n<p>Tóm lại, mặc dù mua sắm trực tuyến là một bước đột phá phi thường trong hiệu quả bán lẻ, trao quyền cho người tiêu dùng và toàn cầu hóa thị trường, việc lạm dụng nó lại làm nảy sinh nhiều thách thức sâu sắc về bảo vệ người tiêu dùng, an ninh mạng và kiểm soát tài chính. Để duy trì một thị trường kỹ thuật số lành mạnh, các cơ quan quản lý cần thực thi các quy định xác minh người bán nghiêm ngặt, trong khi người tiêu dùng phải trau dồi hiểu biết số vững vàng và kỷ luật tài chính tự giác.</p>"
+        }
       },
       {
         "id": 47,
