@@ -64447,7 +64447,1937 @@ const ESSAY_DATA = [
         "title_vi": "Nuôi thú cưng",
         "context": "In many households, raising a pet has become increasingly common. People may keep dogs, cats, birds, or other animals as companions because pets can bring joy, comfort, and a sense of responsibility. However, some people believe that raising a pet may also create several difficulties, such as extra costs, hygiene problems, and the need for daily care.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of raising a pet. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Lợi ích sức khỏe và tinh thần khi nuôi thú cưng trong gia đình",
+                "summary": "Phân tích tác động tích cực của chó mèo đối với việc giải tỏa áp lực, cải thiện sức khỏe tim mạch và gắn kết các thành viên.",
+                "url": "https://vnexpress.net/loi-ich-suc-khoe-khi-nuoi-thu-cung-4123567.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Nuôi thú cưng tại chung cư đô thị: Những phiền toái về tiếng ồn và vệ sinh",
+                "summary": "Phản ánh các vấn đề mâu thuẫn láng giềng bắt nguồn từ việc thú cưng sủa dai dẳng và phóng uế bừa bãi nơi công cộng.",
+                "url": "https://dantri.com.vn/doi-song/nuoi-thu-cung-o-chung-cu-noi-kho-ve-sinh-va-tieng-on-20240315102030112.htm"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Gánh nặng chi phí y tế và chăm sóc thú cưng thời bão giá",
+                "summary": "Khảo sát thực tế chi phí thức ăn, khám chữa bệnh thú y và dịch vụ chăm sóc thú nuôi gia tăng đáng kể ở các thành phố lớn.",
+                "url": "https://tuoitre.vn/chi-phi-nuoi-thu-cung-ngay-cang-ton-kem-20230819141209345.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "The Guardian",
+                "title": "The Healing Power of Pets: How Animals Boost Our Mental and Physical Health",
+                "summary": "Examines psychological research on how companion animals alleviate loneliness, reduce blood pressure, and foster social connections.",
+                "url": "https://www.theguardian.com/lifeandstyle/2021/dec/12/the-healing-power-of-pets-mental-health"
+              },
+              {
+                "source": "BBC News",
+                "title": "The Cost of Owning a Pet: Budgeting for Food, Healthcare, and Emergencies",
+                "summary": "Reports on the escalating financial commitments required for pet care and the difficult choices faced by owners during inflation.",
+                "url": "https://www.bbc.com/news/business-65432109"
+              },
+              {
+                "source": "Psychology Today",
+                "title": "Why Pets Help Us Stay Resilient and Connected in Anxious Times",
+                "summary": "Discusses the biological mechanisms behind human-animal bonds and how daily routines with pets provide structure and emotional comfort.",
+                "url": "https://www.psychologytoday.com/us/blog/companion-animals/202206/why-pets-help-us-stay-resilient"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Nuôi thú cưng (Raising a pet)",
+            "overview": "Hệ thống từ vựng và ngữ pháp học thuật cho chủ đề Nuôi thú cưng (Raising a pet), bao gồm 20 từ vựng trọng tâm kèm họ từ và các cụm từ diễn đạt các khía cạnh Lợi ích (tinh thần, vận động, trách nhiệm) và Bất lợi (chi phí, vệ sinh, cam kết thời gian, dị ứng).",
+            "single_words": [
+              {
+                "word": "companion",
+                "ipa": "/kəmˈpænjən/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "người bạn đồng hành, bạn tri kỷ",
+                "example_en": "Pets act as loyal companions for people living alone.",
+                "example_vi": "Thú cưng đóng vai trò là những người bạn đồng hành trung thành cho người sống một mình.",
+                "family": "companionship (n), companionable (adj)"
+              },
+              {
+                "word": "affection",
+                "ipa": "/əˈfekʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tình cảm yêu thương gắn bó",
+                "example_en": "Dogs show unconditional affection towards their owners.",
+                "example_vi": "Loài chó thể hiện tình cảm yêu thương vô điều kiện đối với chủ nhân.",
+                "family": "affectionate (adj), affectionately (adv)"
+              },
+              {
+                "word": "responsibility",
+                "ipa": "/rɪˌspɒnsəˈbɪləti/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tinh thần trách nhiệm",
+                "example_en": "Feeding a pet daily teaches teenagers valuable responsibility.",
+                "example_vi": "Cho thú cưng ăn hằng ngày dạy cho thanh thiếu niên tính trách nhiệm quý giá.",
+                "family": "responsible (adj), responsibly (adv)"
+              },
+              {
+                "word": "discipline",
+                "ipa": "/ˈdɪsəplɪn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính kỷ luật, sự tự giác",
+                "example_en": "Walking a pet every morning builds personal discipline.",
+                "example_vi": "Dắt thú cưng đi dạo mỗi sáng xây dựng tính kỷ luật cá nhân.",
+                "family": "disciplined (adj), disciplinary (adj)"
+              },
+              {
+                "word": "alleviate",
+                "ipa": "/əˈliːvieɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm giảm bớt, xoa dịu (nỗi đau, căng thẳng)",
+                "example_en": "Cuddling a cat can alleviate stress after work.",
+                "example_vi": "Ôm một chú mèo có thể xoa dịu căng thẳng sau giờ làm việc.",
+                "family": "alleviation (n)"
+              },
+              {
+                "word": "loneliness",
+                "ipa": "/ˈləʊnlinəs/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự cô đơn, cảm giác lẻ loi",
+                "example_en": "Many elderly people keep birds to combat loneliness.",
+                "example_vi": "Nhiều người cao tuổi nuôi chim để xua tan cảm giác cô đơn.",
+                "family": "lonely (adj), lone (adj)"
+              },
+              {
+                "word": "expenditure",
+                "ipa": "/ɪkˈspendɪtʃə(r)/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khoản chi tiêu, chi phí",
+                "example_en": "Veterinary expenditures can be higher than expected.",
+                "example_vi": "Các khoản chi tiêu thú y có thể cao hơn dự tính.",
+                "family": "spend (v), expensive (adj)"
+              },
+              {
+                "word": "sanitation",
+                "ipa": "/ˌsænɪˈteɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "vệ sinh môi trường sống",
+                "example_en": "Proper pet sanitation prevents the spread of bacteria.",
+                "example_vi": "Vệ sinh thú cưng đúng cách giúp ngăn ngừa vi khuẩn lây lan.",
+                "family": "sanitary (adj), sanitize (v)"
+              },
+              {
+                "word": "hygiene",
+                "ipa": "/ˈhaɪdʒiːn/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "vệ sinh cá nhân, sự sạch sẽ",
+                "example_en": "Maintaining good home hygiene requires daily cleaning of pet hair.",
+                "example_vi": "Duy trì vệ sinh nhà cửa tốt đòi hỏi phải dọn lông thú cưng hằng ngày.",
+                "family": "hygienic (adj), hygienically (adv)"
+              },
+              {
+                "word": "allergy",
+                "ipa": "/ˈælədʒi/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự dị ứng",
+                "example_en": "Some children develop a severe allergy to cat fur.",
+                "example_vi": "Một số trẻ em bị dị ứng nghiêm trọng với lông mèo.",
+                "family": "allergic (adj), allergen (n)"
+              },
+              {
+                "word": "parasite",
+                "ipa": "/ˈpærəsaɪt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "ký sinh trùng (ve, bọ chét, giun)",
+                "example_en": "Regular treatments protect dogs from internal parasites.",
+                "example_vi": "Điều trị định kỳ giúp bảo vệ chó khỏi các loại ký sinh trùng đường ruột.",
+                "family": "parasitic (adj)"
+              },
+              {
+                "word": "disturb",
+                "ipa": "/dɪˈstɜːb/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "làm phiền, quấy rầy",
+                "example_en": "Barking at night can disturb neighbors' sleep.",
+                "example_vi": "Tiếng chó sủa ban đêm có thể làm phiền giấc ngủ của hàng xóm.",
+                "family": "disturbance (n), disturbing (adj)"
+              },
+              {
+                "word": "friction",
+                "ipa": "/ˈfrɪkʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự bất hòa, xích mích",
+                "example_en": "Unleashed dogs often create friction in shared residential areas.",
+                "example_vi": "Chó không xích thường tạo ra bất hòa tại các khu dân cư chung.",
+                "family": "frictional (adj)"
+              },
+              {
+                "word": "vaccination",
+                "ipa": "/ˌvæksɪˈneɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "việc tiêm chủng, tiêm phòng vắc-xin",
+                "example_en": "Annual vaccination safeguards pets against deadly viruses.",
+                "example_vi": "Tiêm phòng hằng năm bảo vệ vật nuôi khỏi các loại vi-rút chết người.",
+                "family": "vaccine (n), vaccinate (v)"
+              },
+              {
+                "word": "commitment",
+                "ipa": "/kəˈmɪtmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cam kết, gắn bó trách nhiệm lâu dài",
+                "example_en": "Adopting a puppy represents a fifteen-year commitment.",
+                "example_vi": "Nhận nuôi một chú chó con là một sự cam kết kéo dài mười lăm năm.",
+                "family": "commit (v), committed (adj)"
+              },
+              {
+                "word": "bereavement",
+                "ipa": "/bɪˈriːvmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nỗi đau mất mát người thân hoặc thú cưng",
+                "example_en": "Pet bereavement can lead to intense feelings of grief.",
+                "example_vi": "Nỗi đau mất thú cưng có thể dẫn đến cảm giác đau buồn tột độ.",
+                "family": "bereaved (adj), bereave (v)"
+              },
+              {
+                "word": "deterrent",
+                "ipa": "/dɪˈterənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "yếu tố ngăn chặn, sự răn đe",
+                "example_en": "A large guard dog acts as an effective crime deterrent.",
+                "example_vi": "Một chú chó cảnh vệ to lớn đóng vai trò là sự răn đe tội phạm hiệu quả.",
+                "family": "deter (v)"
+              },
+              {
+                "word": "loyalty",
+                "ipa": "/ˈlɔɪəlti/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "lòng trung thành",
+                "example_en": "Dogs are famous for their unmatched loyalty to humans.",
+                "example_vi": "Chó nổi tiếng với lòng trung thành vô song đối với con người.",
+                "family": "loyal (adj), loyally (adv)"
+              },
+              {
+                "word": "therapeutic",
+                "ipa": "/ˌθerəˈpjuːtɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính trị liệu, chữa lành tâm lý",
+                "example_en": "Therapy animals provide therapeutic support in hospitals.",
+                "example_vi": "Động vật trị liệu cung cấp sự hỗ trợ chữa lành tại các bệnh viện.",
+                "family": "therapy (n), therapist (n)"
+              },
+              {
+                "word": "unconditional",
+                "ipa": "/ˌʌnkənˈdɪʃənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "vô điều kiện, tuyệt đối",
+                "example_en": "Pets offer unconditional love that brightens difficult days.",
+                "example_vi": "Thú cưng mang lại tình yêu vô điều kiện giúp thắp sáng những ngày khó khăn.",
+                "family": "unconditionally (adv), condition (n)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t31_b1",
+                "name": "LỢI ÍCH 01: MANG LẠI NIỀM VUI VÀ GIẢI TỎA CĂNG THẲNG (BRING JOY AND RELIEVE STRESS)",
+                "icon": "✨",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "bring joy",
+                    "vi": "mang lại niềm vui"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "provide emotional companionship",
+                    "vi": "mang lại sự đồng hành về mặt cảm xúc"
+                  },
+                  {
+                    "en": "soothe psychological stress",
+                    "vi": "xoa dịu căng thẳng tâm lý"
+                  }
+                ]
+              },
+              {
+                "id": "t31_b2",
+                "name": "LỢI ÍCH 02: RÈN LUYỆN TÍNH TRÁCH NHIỆM VÀ KỶ LUẬT (TEACH RESPONSIBILITY AND DISCIPLINE)",
+                "icon": "🎯",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "care for pets",
+                    "vi": "chăm sóc thú cưng"
+                  },
+                  {
+                    "en": "learn responsibility",
+                    "vi": "học được tính trách nhiệm"
+                  },
+                  {
+                    "en": "foster a deep sense of responsibility",
+                    "vi": "nuôi dưỡng tinh thần trách nhiệm sâu sắc"
+                  },
+                  {
+                    "en": "cultivate self-discipline",
+                    "vi": "rèn luyện tính tự giác"
+                  },
+                  {
+                    "en": "strictly follow regular schedules",
+                    "vi": "tuân thủ nghiêm ngặt lịch trình"
+                  }
+                ]
+              },
+              {
+                "id": "t31_b3",
+                "name": "LỢI ÍCH 03: KHUYẾN KHÍCH LỐI SỐNG NĂNG ĐỘNG (ENCOURAGE ACTIVE LIFESTYLE)",
+                "icon": "🏃",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "physical activity",
+                    "vi": "vận động thể chất"
+                  },
+                  {
+                    "en": "walk dogs in parks",
+                    "vi": "dắt chó đi dạo trong công viên"
+                  },
+                  {
+                    "en": "promote an active lifestyle",
+                    "vi": "thúc đẩy lối sống năng động"
+                  },
+                  {
+                    "en": "cardiovascular health",
+                    "vi": "sức khỏe tim mạch"
+                  },
+                  {
+                    "en": "maintain regular walking routines",
+                    "vi": "duy trì thói quen đi bộ đều đặn"
+                  }
+                ]
+              },
+              {
+                "id": "t31_b4",
+                "name": "LỢI ÍCH 04: TĂNG CƯỜNG KẾT NỐI XÃ HỘI (FACILITATE SOCIAL CONNECTIONS)",
+                "icon": "🤝",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "make friends",
+                    "vi": "kết bạn"
+                  },
+                  {
+                    "en": "expand friendships",
+                    "vi": "mở rộng mối quan hệ bạn bè"
+                  },
+                  {
+                    "en": "natural catalysts for social interaction",
+                    "vi": "cầu nối tự nhiên thúc đẩy sự tương tác xã hội"
+                  },
+                  {
+                    "en": "integrate into local communities",
+                    "vi": "hòa nhập cộng đồng"
+                  },
+                  {
+                    "en": "build mutual support networks",
+                    "vi": "thiết lập các mối quan hệ hỗ trợ lẫn nhau"
+                  }
+                ]
+              },
+              {
+                "id": "t31_b5",
+                "name": "LỢI ÍCH 05: ĐẢM BẢO AN NINH VÀ BẢO VỆ NHÀ CỬA (PROVIDE HOME SECURITY)",
+                "icon": "🛡️",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "protect houses",
+                    "vi": "bảo vệ nhà cửa"
+                  },
+                  {
+                    "en": "keep families safe",
+                    "vi": "bảo vệ gia đình an toàn"
+                  },
+                  {
+                    "en": "keep guard dogs",
+                    "vi": "nuôi các giống chó cảnh vệ"
+                  },
+                  {
+                    "en": "effective security measure",
+                    "vi": "giải pháp an ninh hữu hiệu"
+                  },
+                  {
+                    "en": "powerful deterrents against potential intruders",
+                    "vi": "tác dụng răn đe mạnh mẽ đối với những kẻ có ý đồ trộm cắp"
+                  }
+                ]
+              },
+              {
+                "id": "t31_d1",
+                "name": "BẤT LỢI 01: CHI PHÍ TÀI CHÍNH TỐN KÉM (HIGH FINANCIAL COSTS)",
+                "icon": "💸",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "high living costs",
+                    "vi": "nhiều chi phí sinh hoạt tốn kém"
+                  },
+                  {
+                    "en": "create a financial burden",
+                    "vi": "tạo gánh nặng tiền bạc"
+                  },
+                  {
+                    "en": "impose a considerable financial strain on",
+                    "vi": "tạo ra áp lực tài chính đáng kể đối với"
+                  },
+                  {
+                    "en": "household budgets",
+                    "vi": "ngân sách gia đình"
+                  },
+                  {
+                    "en": "specialized pet food",
+                    "vi": "thức ăn chuyên dụng"
+                  }
+                ]
+              },
+              {
+                "id": "t31_d2",
+                "name": "BẤT LỢI 02: MẤT NHIỀU THỜI GIAN VÀ CÔNG SỨC (DEMANDS SIGNIFICANT TIME)",
+                "icon": "⏰",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "take up a lot of daily time and effort",
+                    "vi": "làm mất nhiều thời gian và công sức mỗi ngày"
+                  },
+                  {
+                    "en": "find reliable pet sitters",
+                    "vi": "tìm người trông nom giúp"
+                  },
+                  {
+                    "en": "pet ownership",
+                    "vi": "việc sở hữu thú cưng"
+                  },
+                  {
+                    "en": "substantial time commitment",
+                    "vi": "sự đầu tư lớn về quỹ thời gian"
+                  },
+                  {
+                    "en": "restrict personal flexibility",
+                    "vi": "làm giảm tính linh hoạt trong sinh hoạt cá nhân"
+                  }
+                ]
+              },
+              {
+                "id": "t31_d3",
+                "name": "BẤT LỢI 03: VẤN ĐỀ VỆ SINH VÀ NGUY CƠ DỊ ỨNG (HYGIENE ISSUES AND ALLERGIES)",
+                "icon": "⚠️",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "cause home hygiene problems",
+                    "vi": "gây mất vệ sinh nhà cửa"
+                  },
+                  {
+                    "en": "trigger allergies",
+                    "vi": "làm phát sinh dị ứng"
+                  },
+                  {
+                    "en": "pose sanitation hazards",
+                    "vi": "tiềm ẩn nguy cơ gây mất vệ sinh môi trường sống"
+                  },
+                  {
+                    "en": "risk spreading zoonotic infections",
+                    "vi": "làm bùng phát các bệnh truyền nhiễm"
+                  },
+                  {
+                    "en": "shed pet dander and fur",
+                    "vi": "lông và vảy da rụng từ vật nuôi"
+                  }
+                ]
+              },
+              {
+                "id": "t31_d4",
+                "name": "BẤT LỢI 04: TIẾNG ỒN VÀ XUNG ĐỘT HÀNG XÓM (NOISE AND NEIGHBORHOOD CONFLICTS)",
+                "icon": "📢",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "make loud noises",
+                    "vi": "gây ồn ào"
+                  },
+                  {
+                    "en": "cause conflicts with neighbors",
+                    "vi": "làm mất lòng hàng xóm"
+                  },
+                  {
+                    "en": "persistent animal noise",
+                    "vi": "tiếng ồn khó chịu"
+                  },
+                  {
+                    "en": "spark neighborhood friction",
+                    "vi": "làm rạn nứt hòa khí láng giềng"
+                  },
+                  {
+                    "en": "incessant barking",
+                    "vi": "tiếng sủa dai dẳng của chó"
+                  }
+                ]
+              },
+              {
+                "id": "t31_d5",
+                "name": "BẤT LỢI 05: ĐAU BUỒN KHI CHIA LY VÀ NGUY CƠ CHẤN THƯƠNG (BEREAVEMENT AND INJURY RISKS)",
+                "icon": "💔",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "bite people",
+                    "vi": "cắn người"
+                  },
+                  {
+                    "en": "cause grief",
+                    "vi": "làm chủ nuôi đau buồn"
+                  },
+                  {
+                    "en": "profound emotional trauma upon bereavement",
+                    "vi": "nỗi đau tâm lý lớn khi chia ly"
+                  },
+                  {
+                    "en": "physical safety risks",
+                    "vi": "những rủi ro tai nạn thể chất"
+                  },
+                  {
+                    "en": "unprovoked aggressive outbursts",
+                    "vi": "những phản ứng hung dữ bất ngờ"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "raise a pet",
+              "vi": "nuôi thú cưng"
+            },
+            {
+              "en": "domestic animal",
+              "vi": "động vật nuôi trong nhà"
+            },
+            {
+              "en": "companion animal",
+              "vi": "thú cưng đồng hành"
+            },
+            {
+              "en": "emotional comfort",
+              "vi": "sự an ủi cảm xúc"
+            },
+            {
+              "en": "relieve daily stress",
+              "vi": "giải tỏa căng thẳng hằng ngày"
+            },
+            {
+              "en": "combat loneliness",
+              "vi": "xua tan cảm giác cô đơn"
+            },
+            {
+              "en": "develop responsibility",
+              "vi": "phát triển tinh thần trách nhiệm"
+            },
+            {
+              "en": "cultivate self-discipline",
+              "vi": "rèn luyện tính tự giác"
+            },
+            {
+              "en": "walk dogs",
+              "vi": "dắt chó đi dạo"
+            },
+            {
+              "en": "outdoor physical activity",
+              "vi": "hoạt động thể chất ngoài trời"
+            },
+            {
+              "en": "foster community bonds",
+              "vi": "gắn kết cộng đồng"
+            },
+            {
+              "en": "home security",
+              "vi": "an ninh nhà ở"
+            },
+            {
+              "en": "deter potential intruders",
+              "vi": "răn đe kẻ gian đột nhập"
+            },
+            {
+              "en": "feeding schedule",
+              "vi": "lịch trình cho ăn"
+            },
+            {
+              "en": "grooming needs",
+              "vi": "nhu cầu chải lông và vệ sinh"
+            },
+            {
+              "en": "financial strain",
+              "vi": "áp lực tài chính"
+            },
+            {
+              "en": "veterinary care expenses",
+              "vi": "chi phí chăm sóc thú y"
+            },
+            {
+              "en": "routine medical check-ups",
+              "vi": "khám bệnh định kỳ"
+            },
+            {
+              "en": "unforeseen medical bills",
+              "vi": "chi phí y tế phát sinh"
+            },
+            {
+              "en": "time-consuming commitment",
+              "vi": "sự cam kết tốn thời gian"
+            },
+            {
+              "en": "restrict freedom of movement",
+              "vi": "hạn chế sự tự do đi lại"
+            },
+            {
+              "en": "home hygiene issues",
+              "vi": "vấn đề vệ sinh nhà cửa"
+            },
+            {
+              "en": "shed fur and dander",
+              "vi": "rụng lông và vảy da"
+            },
+            {
+              "en": "allergic reactions",
+              "vi": "phản ứng dị ứng"
+            },
+            {
+              "en": "respiratory problems",
+              "vi": "các vấn đề hô hấp"
+            },
+            {
+              "en": "zoonotic infections",
+              "vi": "bệnh truyền nhiễm từ động vật"
+            },
+            {
+              "en": "incessant barking",
+              "vi": "tiếng sủa dai dẳng"
+            },
+            {
+              "en": "neighborhood disputes",
+              "vi": "tranh chấp láng giềng"
+            },
+            {
+              "en": "unsanitary public fouling",
+              "vi": "phóng uế bừa bãi nơi công cộng"
+            },
+            {
+              "en": "aggressive animal behavior",
+              "vi": "hành vi hung dữ của động vật"
+            },
+            {
+              "en": "risk of accidental bites",
+              "vi": "nguy cơ bị cắn bất ngờ"
+            },
+            {
+              "en": "deep psychological attachment",
+              "vi": "sự gắn bó tâm lý sâu sắc"
+            },
+            {
+              "en": "pet bereavement",
+              "vi": "nỗi đau mất thú cưng"
+            },
+            {
+              "en": "adopt an animal",
+              "vi": "nhận nuôi một con vật"
+            },
+            {
+              "en": "responsible pet ownership",
+              "vi": "nuôi thú cưng có trách nhiệm"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: MANG LẠI NIỀM VUI VÀ GIẢI TỎA CĂNG THẲNG",
+                "point_vi": "Nuôi thú cưng giúp mang lại niềm vui và giảm căng thẳng cho chủ nuôi.",
+                "point_en": "Keeping pets helps bring joy and reduce stress for owners.",
+                "point_collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "bring joy",
+                    "vi": "mang lại niềm vui"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Chơi đùa với chó mèo sau giờ học tập giúp mọi người cảm thấy thư giãn. Thú cưng cũng giúp người nuôi bớt cảm giác cô đơn khi ở nhà một mình.",
+                "evidence_en": "Playing with dogs and cats after study hours helps people feel relaxed. Pets also help owners feel less lonely when staying home alone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "play with dogs and cats",
+                      "vi": "chơi đùa với chó mèo"
+                    },
+                    {
+                      "en": "feel relaxed",
+                      "vi": "cảm thấy thư giãn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel less lonely",
+                      "vi": "bớt cảm giác cô đơn"
+                    },
+                    {
+                      "en": "stay home alone",
+                      "vi": "ở nhà một mình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "bring joy",
+                    "vi": "mang lại niềm vui"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "play with dogs and cats",
+                    "vi": "chơi đùa với chó mèo"
+                  },
+                  {
+                    "en": "feel relaxed",
+                    "vi": "cảm thấy thư giãn"
+                  },
+                  {
+                    "en": "feel less lonely",
+                    "vi": "bớt cảm giác cô đơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: RÈN LUYỆN TÍNH TRÁCH NHIỆM VÀ KỶ LUẬT",
+                "point_vi": "Chăm sóc thú cưng giúp trẻ em và người trẻ học được tính trách nhiệm.",
+                "point_en": "Caring for pets helps children and young people learn responsibility.",
+                "point_collocations": [
+                  {
+                    "en": "care for pets",
+                    "vi": "chăm sóc thú cưng"
+                  },
+                  {
+                    "en": "learn responsibility",
+                    "vi": "học được tính trách nhiệm"
+                  }
+                ],
+                "evidence_vi": "Người nuôi phải cho thú cưng ăn đúng giờ và dọn dẹp nơi ở của chúng mỗi ngày. Những công việc này giúp hình thành thói quen kỷ luật và biết quan tâm đến người khác.",
+                "evidence_en": "Owners need to feed pets on time and clean their living areas every day. These tasks help form disciplined habits and show care for others.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feed pets on time",
+                      "vi": "cho thú cưng ăn đúng giờ"
+                    },
+                    {
+                      "en": "clean their living areas",
+                      "vi": "dọn dẹp nơi ở của chúng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "form disciplined habits",
+                      "vi": "hình thành thói quen kỷ luật"
+                    },
+                    {
+                      "en": "show care for others",
+                      "vi": "biết quan tâm đến người khác"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "care for pets",
+                    "vi": "chăm sóc thú cưng"
+                  },
+                  {
+                    "en": "learn responsibility",
+                    "vi": "học được tính trách nhiệm"
+                  },
+                  {
+                    "en": "feed pets on time",
+                    "vi": "cho thú cưng ăn đúng giờ"
+                  },
+                  {
+                    "en": "form disciplined habits",
+                    "vi": "hình thành thói quen kỷ luật"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: KHUYẾN KHÍCH LỐI SỐNG NĂNG ĐỘNG",
+                "point_vi": "Nuôi thú cưng khuyến khích người nuôi vận động thể chất nhiều hơn.",
+                "point_en": "Having pets encourages owners to do more physical activity.",
+                "point_collocations": [
+                  {
+                    "en": "have pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "physical activity",
+                    "vi": "vận động thể chất"
+                  }
+                ],
+                "evidence_vi": "Chủ chó thường xuyên dắt chó đi dạo trong công viên vào mỗi buổi sáng hoặc chiều. Hoạt động này giúp người nuôi tăng cường sức khỏe và hít thở không khí trong lành.",
+                "evidence_en": "Dog owners regularly walk their dogs in parks every morning or afternoon. This activity helps owners improve their health and breathe fresh air.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "walk dogs in parks",
+                      "vi": "dắt chó đi dạo trong công viên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "improve health",
+                      "vi": "tăng cường sức khỏe"
+                    },
+                    {
+                      "en": "breathe fresh air",
+                      "vi": "hít thở không khí trong lành"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "have pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "physical activity",
+                    "vi": "vận động thể chất"
+                  },
+                  {
+                    "en": "walk dogs in parks",
+                    "vi": "dắt chó đi dạo trong công viên"
+                  },
+                  {
+                    "en": "improve health",
+                    "vi": "tăng cường sức khỏe"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: TĂNG CƯỜNG KẾT NỐI XÃ HỘI",
+                "point_vi": "Thú cưng giúp người nuôi dễ dàng kết bạn và trò chuyện với mọi người xung quanh.",
+                "point_en": "Pets help owners make friends and talk with people around them more easily.",
+                "point_collocations": [
+                  {
+                    "en": "make friends",
+                    "vi": "kết bạn"
+                  },
+                  {
+                    "en": "talk with people around them",
+                    "vi": "trò chuyện với mọi người xung quanh"
+                  }
+                ],
+                "evidence_vi": "Khi dắt thú cưng ra ngoài, mọi người thường dừng lại để chào hỏi và hỏi thăm về con vật. Điều này tạo cơ hội thuận lợi để người nuôi mở rộng mối quan hệ bạn bè.",
+                "evidence_en": "When taking pets outside, people often stop to greet each other and ask about the animals. This creates great opportunities for owners to expand their friendships.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take pets outside",
+                      "vi": "dắt thú cưng ra ngoài"
+                    },
+                    {
+                      "en": "greet each other",
+                      "vi": "chào hỏi và hỏi thăm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "expand friendships",
+                      "vi": "mở rộng mối quan hệ bạn bè"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "make friends",
+                    "vi": "kết bạn"
+                  },
+                  {
+                    "en": "take pets outside",
+                    "vi": "dắt thú cưng ra ngoài"
+                  },
+                  {
+                    "en": "expand friendships",
+                    "vi": "mở rộng mối quan hệ bạn bè"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: ĐẢM BẢO AN NINH VÀ BẢO VỆ NHÀ CỬA",
+                "point_vi": "Nuôi chó giúp bảo vệ nhà cửa và phát hiện người lạ đột nhập.",
+                "point_en": "Keeping dogs helps protect houses and detect strangers breaking in.",
+                "point_collocations": [
+                  {
+                    "en": "keep dogs",
+                    "vi": "nuôi chó"
+                  },
+                  {
+                    "en": "protect houses",
+                    "vi": "bảo vệ nhà cửa"
+                  },
+                  {
+                    "en": "detect strangers",
+                    "vi": "phát hiện người lạ đột nhập"
+                  }
+                ],
+                "evidence_vi": "Chó có khứu giác và thính giác rất nhạy bén nên có thể sủa to khi nghe thấy tiếng động bất thường. Sự cảnh giác này giúp xua đuổi kẻ gian và bảo vệ gia đình an toàn.",
+                "evidence_en": "Dogs have keen senses of smell and hearing, so they bark loudly when hearing unusual sounds. This alertness helps deter thieves and keep families safe.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "keen senses of smell and hearing",
+                      "vi": "khứu giác và thính giác rất nhạy bén"
+                    },
+                    {
+                      "en": "bark loudly",
+                      "vi": "sủa to"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "deter thieves",
+                      "vi": "xua đuổi kẻ gian"
+                    },
+                    {
+                      "en": "keep families safe",
+                      "vi": "bảo vệ gia đình an toàn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep dogs",
+                    "vi": "nuôi chó"
+                  },
+                  {
+                    "en": "protect houses",
+                    "vi": "bảo vệ nhà cửa"
+                  },
+                  {
+                    "en": "bark loudly",
+                    "vi": "sủa to"
+                  },
+                  {
+                    "en": "keep families safe",
+                    "vi": "bảo vệ gia đình an toàn"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: CHI PHÍ TÀI CHÍNH TỐN KÉM",
+                "point_vi": "Nuôi thú cưng đòi hỏi nhiều chi phí sinh hoạt tốn kém.",
+                "point_en": "Keeping pets requires high living costs.",
+                "point_collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "high living costs",
+                    "vi": "nhiều chi phí sinh hoạt tốn kém"
+                  }
+                ],
+                "evidence_vi": "Chủ nuôi phải chi tiền mua thức ăn, đồ chơi và trả tiền thuốc men định kỳ. Các chi phí này có thể tạo gánh nặng tiền bạc cho những gia đình có thu nhập thấp.",
+                "evidence_en": "Owners have to spend money on food, toys, and routine medical care. These expenses can create a financial burden for low-income families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spend money on food and toys",
+                      "vi": "chi tiền mua thức ăn, đồ chơi"
+                    },
+                    {
+                      "en": "routine medical care",
+                      "vi": "tiền thuốc men định kỳ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "create a financial burden",
+                      "vi": "tạo gánh nặng tiền bạc"
+                    },
+                    {
+                      "en": "low-income families",
+                      "vi": "những gia đình có thu nhập thấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "high living costs",
+                    "vi": "nhiều chi phí sinh hoạt tốn kém"
+                  },
+                  {
+                    "en": "routine medical care",
+                    "vi": "tiền thuốc men định kỳ"
+                  },
+                  {
+                    "en": "create a financial burden",
+                    "vi": "tạo gánh nặng tiền bạc"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: MẤT NHIỀU THỜI GIAN VÀ CÔNG SỨC",
+                "point_vi": "Nuôi thú cưng làm mất nhiều thời gian và công sức mỗi ngày.",
+                "point_en": "Keeping pets takes up a lot of daily time and effort.",
+                "point_collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "take up a lot of daily time and effort",
+                    "vi": "làm mất nhiều thời gian và công sức mỗi ngày"
+                  }
+                ],
+                "evidence_vi": "Người nuôi phải tắm rửa cho thú cưng, dọn dẹp phân và dắt chúng đi dạo đều đặn. Khi muốn đi du lịch hay công tác xa, họ thường gặp khó khăn trong việc tìm người trông nom giúp.",
+                "evidence_en": "Owners have to bathe pets, clean pet waste, and walk them regularly. When traveling or going on business trips, they often struggle to find reliable pet sitters.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bathe pets and clean pet waste",
+                      "vi": "tắm rửa cho thú cưng, dọn dẹp phân"
+                    },
+                    {
+                      "en": "walk them regularly",
+                      "vi": "dắt chúng đi dạo đều đặn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "travel or go on business trips",
+                      "vi": "đi du lịch hay công tác xa"
+                    },
+                    {
+                      "en": "find reliable pet sitters",
+                      "vi": "tìm người trông nom giúp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "nuôi thú cưng"
+                  },
+                  {
+                    "en": "bathe pets",
+                    "vi": "tắm rửa cho thú cưng"
+                  },
+                  {
+                    "en": "walk them regularly",
+                    "vi": "dắt chúng đi dạo đều đặn"
+                  },
+                  {
+                    "en": "find reliable pet sitters",
+                    "vi": "tìm người trông nom giúp"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: VẤN ĐỀ VỆ SINH VÀ NGUY CƠ DỊ ỨNG",
+                "point_vi": "Thú cưng có thể gây mất vệ sinh nhà cửa và làm phát sinh dị ứng.",
+                "point_en": "Pets can cause home hygiene problems and trigger allergies.",
+                "point_collocations": [
+                  {
+                    "en": "cause home hygiene problems",
+                    "vi": "gây mất vệ sinh nhà cửa"
+                  },
+                  {
+                    "en": "trigger allergies",
+                    "vi": "làm phát sinh dị ứng"
+                  }
+                ],
+                "evidence_vi": "Lông chó mèo rụng khắp sàn nhà và ghế sofa dễ khiến trẻ nhỏ bị ho hoặc hắt hơi. Ngoài ra, phân và nước tiểu của thú cưng nếu không dọn dẹp ngay sẽ gây mùi khó chịu.",
+                "evidence_en": "Pet hair shedding all over floors and sofas easily causes young children to cough or sneeze. Additionally, pet waste causes unpleasant odors if not cleaned immediately.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "pet hair shedding",
+                      "vi": "lông chó mèo rụng"
+                    },
+                    {
+                      "en": "cough or sneeze",
+                      "vi": "bị ho hoặc hắt hơi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pet waste",
+                      "vi": "phân và nước tiểu của thú cưng"
+                    },
+                    {
+                      "en": "unpleasant odors",
+                      "vi": "mùi khó chịu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cause home hygiene problems",
+                    "vi": "gây mất vệ sinh nhà cửa"
+                  },
+                  {
+                    "en": "trigger allergies",
+                    "vi": "làm phát sinh dị ứng"
+                  },
+                  {
+                    "en": "pet hair shedding",
+                    "vi": "lông chó mèo rụng"
+                  },
+                  {
+                    "en": "unpleasant odors",
+                    "vi": "mùi khó chịu"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TIẾNG ỒN VÀ XUNG ĐỘT VỚI HÀNG XÓM",
+                "point_vi": "Thú cưng có thể gây ồn ào và làm mất lòng hàng xóm.",
+                "point_en": "Pets can make loud noises and cause conflicts with neighbors.",
+                "point_collocations": [
+                  {
+                    "en": "make loud noises",
+                    "vi": "gây ồn ào"
+                  },
+                  {
+                    "en": "cause conflicts with neighbors",
+                    "vi": "làm mất lòng hàng xóm"
+                  }
+                ],
+                "evidence_vi": "Tiếng chó sủa suốt đêm dễ làm phiền giấc ngủ của những người sống xung quanh. Việc thú cưng phóng uế bừa bãi ra đường chung cũng dễ dẫn đến tranh cãi giữa các gia đình.",
+                "evidence_en": "Dogs barking all night easily disturbs the sleep of surrounding residents. Pets defecating on public walkways also readily causes arguments between families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dogs barking all night",
+                      "vi": "tiếng chó sủa suốt đêm"
+                    },
+                    {
+                      "en": "disturb the sleep",
+                      "vi": "làm phiền giấc ngủ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "defecate on public walkways",
+                      "vi": "phóng uế bừa bãi ra đường chung"
+                    },
+                    {
+                      "en": "cause arguments",
+                      "vi": "dẫn đến tranh cãi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "make loud noises",
+                    "vi": "gây ồn ào"
+                  },
+                  {
+                    "en": "dogs barking all night",
+                    "vi": "tiếng chó sủa suốt đêm"
+                  },
+                  {
+                    "en": "disturb the sleep",
+                    "vi": "làm phiền giấc ngủ"
+                  },
+                  {
+                    "en": "cause arguments",
+                    "vi": "dẫn đến tranh cãi"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: ĐAU BUỒN KHI THÚ CƯNG MẤT VÀ NGUY CƠ BỊ THƯƠNG",
+                "point_vi": "Thú cưng có thể cắn người hoặc làm chủ nuôi đau buồn khi chúng qua đời.",
+                "point_en": "Pets can bite people or cause grief when they pass away.",
+                "point_collocations": [
+                  {
+                    "en": "bite people",
+                    "vi": "cắn người"
+                  },
+                  {
+                    "en": "cause grief",
+                    "vi": "làm chủ nuôi đau buồn"
+                  },
+                  {
+                    "en": "pass away",
+                    "vi": "qua đời"
+                  }
+                ],
+                "evidence_vi": "Động vật có thể cào cắn khi tức giận, gây nguy hiểm cho trẻ nhỏ. Ngoài ra, tuổi thọ của thú cưng khá ngắn nên việc chia ly khiến cả gia đình cảm thấy rất đau xót.",
+                "evidence_en": "Animals can scratch or bite when aggressive, posing danger to young children. Furthermore, pets have short lifespans, so their passing brings immense sorrow to families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "scratch or bite",
+                      "vi": "cào cắn khi tức giận"
+                    },
+                    {
+                      "en": "pose danger to young children",
+                      "vi": "gây nguy hiểm cho trẻ nhỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "short lifespans",
+                      "vi": "tuổi thọ của thú cưng khá ngắn"
+                    },
+                    {
+                      "en": "bring immense sorrow",
+                      "vi": "khiến cả gia đình cảm thấy rất đau xót"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "bite people",
+                    "vi": "cắn người"
+                  },
+                  {
+                    "en": "cause grief",
+                    "vi": "làm chủ nuôi đau buồn"
+                  },
+                  {
+                    "en": "scratch or bite",
+                    "vi": "cào cắn khi tức giận"
+                  },
+                  {
+                    "en": "short lifespans",
+                    "vi": "tuổi thọ của thú cưng khá ngắn"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: MANG LẠI NIỀM VUI VÀ GIẢI TỎA CĂNG THẲNG TÂM LÝ (BRING EMOTIONAL COMFORT AND RELIEVE STRESS)",
+                "point_vi": "Việc nuôi thú cưng mang lại sự đồng hành về mặt cảm xúc và giúp xoa dịu căng thẳng tâm lý hiệu quả.",
+                "point_en": "Keeping pets provides emotional companionship and helps soothe psychological stress effectively.",
+                "point_collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "việc nuôi thú cưng"
+                  },
+                  {
+                    "en": "provide emotional companionship",
+                    "vi": "mang lại sự đồng hành về mặt cảm xúc"
+                  },
+                  {
+                    "en": "soothe psychological stress",
+                    "vi": "xoa dịu căng thẳng tâm lý"
+                  }
+                ],
+                "evidence_vi": "Tương tác với vật nuôi kích thích cơ thể giải phóng các hormone tạo cảm giác hạnh phúc và cải thiện tâm trạng. Nhờ đó, người nuôi có thể nhanh chóng hồi phục năng lượng tinh thần sau những áp lực công việc mệt mỏi.",
+                "evidence_en": "Interacting with companion animals stimulates the release of positive mood-enhancing hormones. As a result, pet owners can rapidly restore their mental energy after exhausting work pressure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "interact with companion animals",
+                      "vi": "tương tác với vật nuôi"
+                    },
+                    {
+                      "en": "release positive mood-enhancing hormones",
+                      "vi": "giải phóng các hormone tạo cảm giác hạnh phúc"
+                    },
+                    {
+                      "en": "improve mood",
+                      "vi": "cải thiện tâm trạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rapidly restore mental energy",
+                      "vi": "nhanh chóng hồi phục năng lượng tinh thần"
+                    },
+                    {
+                      "en": "exhausting work pressure",
+                      "vi": "những áp lực công việc mệt mỏi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep pets",
+                    "vi": "việc nuôi thú cưng"
+                  },
+                  {
+                    "en": "provide emotional companionship",
+                    "vi": "mang lại sự đồng hành về mặt cảm xúc"
+                  },
+                  {
+                    "en": "soothe psychological stress",
+                    "vi": "xoa dịu căng thẳng tâm lý"
+                  },
+                  {
+                    "en": "interact with companion animals",
+                    "vi": "tương tác với vật nuôi"
+                  },
+                  {
+                    "en": "release positive mood-enhancing hormones",
+                    "vi": "giải phóng các hormone tạo cảm giác hạnh phúc"
+                  },
+                  {
+                    "en": "rapidly restore mental energy",
+                    "vi": "nhanh chóng hồi phục năng lượng tinh thần"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: RÈN LUYỆN TÍNH TRÁCH NHIỆM VÀ KỶ LUẬT BẢN THÂN (FOSTER RESPONSIBILITY AND SELF-DISCIPLINE)",
+                "point_vi": "Việc chăm sóc động vật nuôi dưỡng tinh thần trách nhiệm sâu sắc và rèn luyện tính tự giác.",
+                "point_en": "Caring for domestic animals fosters a deep sense of responsibility and cultivates self-discipline.",
+                "point_collocations": [
+                  {
+                    "en": "care for domestic animals",
+                    "vi": "việc chăm sóc động vật"
+                  },
+                  {
+                    "en": "foster a deep sense of responsibility",
+                    "vi": "nuôi dưỡng tinh thần trách nhiệm sâu sắc"
+                  },
+                  {
+                    "en": "cultivate self-discipline",
+                    "vi": "rèn luyện tính tự giác"
+                  }
+                ],
+                "evidence_vi": "Chủ nuôi phải tuân thủ nghiêm ngặt lịch trình cho ăn, tập thể dục và chăm sóc sức khỏe định kỳ cho vật nuôi. Quá trình này giúp cá nhân, đặc biệt là thanh thiếu niên, phát triển tính kiên nhẫn và sự chu đáo trong cuộc sống.",
+                "evidence_en": "Owners must strictly follow regular schedules for feeding, exercise, and veterinary healthcare. This process helps individuals, especially teenagers, develop patience and thoughtfulness in daily life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "strictly follow regular schedules",
+                      "vi": "tuân thủ nghiêm ngặt lịch trình"
+                    },
+                    {
+                      "en": "feeding, exercise, and healthcare",
+                      "vi": "cho ăn, tập thể dục và chăm sóc sức khỏe định kỳ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop patience and thoughtfulness",
+                      "vi": "phát triển tính kiên nhẫn và sự chu đáo"
+                    },
+                    {
+                      "en": "in daily life",
+                      "vi": "trong cuộc sống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "care for domestic animals",
+                    "vi": "việc chăm sóc động vật"
+                  },
+                  {
+                    "en": "foster a deep sense of responsibility",
+                    "vi": "nuôi dưỡng tinh thần trách nhiệm sâu sắc"
+                  },
+                  {
+                    "en": "strictly follow regular schedules",
+                    "vi": "tuân thủ nghiêm ngặt lịch trình"
+                  },
+                  {
+                    "en": "develop patience and thoughtfulness",
+                    "vi": "phát triển tính kiên nhẫn và sự chu đáo"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: KHUYẾN KHÍCH LỐI SỐNG NĂNG ĐỘNG VÀ SỨC KHỎE THỂ CHẤT (PROMOTE ACTIVE LIFESTYLE AND PHYSICAL HEALTH)",
+                "point_vi": "Thói quen nuôi chó thúc đẩy lối sống năng động và cải thiện sức khỏe tim mạch.",
+                "point_en": "Keeping pet dogs promotes an active lifestyle and enhances cardiovascular health.",
+                "point_collocations": [
+                  {
+                    "en": "keep pet dogs",
+                    "vi": "thói quen nuôi chó"
+                  },
+                  {
+                    "en": "promote an active lifestyle",
+                    "vi": "thúc đẩy lối sống năng động"
+                  },
+                  {
+                    "en": "cardiovascular health",
+                    "vi": "sức khỏe tim mạch"
+                  }
+                ],
+                "evidence_vi": "Nhu cầu dắt chó đi dạo hằng ngày tạo động lực mạnh mẽ để chủ nuôi duy trì thói quen đi bộ đều đặn. Sự vận động thường xuyên ngoài trời giúp giảm nguy cơ béo phì và huyết áp cao.",
+                "evidence_en": "The daily obligation to walk dogs provides strong motivation for owners to maintain regular walking routines. Frequent outdoor movement helps lower the risks of obesity and high blood pressure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "walk dogs",
+                      "vi": "dắt chó đi dạo"
+                    },
+                    {
+                      "en": "maintain regular walking routines",
+                      "vi": "duy trì thói quen đi bộ đều đặn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "outdoor movement",
+                      "vi": "vận động thường xuyên ngoài trời"
+                    },
+                    {
+                      "en": "risks of obesity and high blood pressure",
+                      "vi": "nguy cơ béo phì và huyết áp cao"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep pet dogs",
+                    "vi": "thói quen nuôi chó"
+                  },
+                  {
+                    "en": "promote an active lifestyle",
+                    "vi": "thúc đẩy lối sống năng động"
+                  },
+                  {
+                    "en": "maintain regular walking routines",
+                    "vi": "duy trì thói quen đi bộ đều đặn"
+                  },
+                  {
+                    "en": "risks of obesity and high blood pressure",
+                    "vi": "nguy cơ béo phì và huyết áp cao"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: TĂNG CƯỜNG TƯƠNG TÁC XÃ HỘI VÀ HÒA NHẬP CỘNG ĐỒNG (FACILITATE SOCIAL INTERACTIONS AND COMMUNITY BONDING)",
+                "point_vi": "Thú cưng đóng vai trò như cầu nối tự nhiên thúc đẩy sự tương tác xã hội giữa những người xung quanh.",
+                "point_en": "Companion animals act as natural catalysts for social interaction among neighborhood residents.",
+                "point_collocations": [
+                  {
+                    "en": "companion animals",
+                    "vi": "thú cưng"
+                  },
+                  {
+                    "en": "natural catalysts for social interaction",
+                    "vi": "cầu nối tự nhiên thúc đẩy sự tương tác xã hội"
+                  },
+                  {
+                    "en": "among neighborhood residents",
+                    "vi": "giữa những người xung quanh"
+                  }
+                ],
+                "evidence_vi": "Những cuộc gặp gỡ tình cờ tại công viên cho thú cưng hay phòng khám thú y dễ dàng dẫn đến các cuộc trò chuyện thân mật. Nhờ sở thích chung về động vật, chủ nuôi dễ dàng hòa nhập cộng đồng và thiết lập các mối quan hệ hỗ trợ lẫn nhau.",
+                "evidence_en": "Casual encounters at dog parks or veterinary clinics readily spark friendly conversations. Sharing mutual enthusiasm for animals enables pet owners to integrate into local communities and build mutual support networks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "casual encounters",
+                      "vi": "những cuộc gặp gỡ tình cờ"
+                    },
+                    {
+                      "en": "spark friendly conversations",
+                      "vi": "dẫn đến các cuộc trò chuyện thân mật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "integrate into local communities",
+                      "vi": "hòa nhập cộng đồng"
+                    },
+                    {
+                      "en": "build mutual support networks",
+                      "vi": "thiết lập các mối quan hệ hỗ trợ lẫn nhau"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "natural catalysts for social interaction",
+                    "vi": "cầu nối tự nhiên thúc đẩy sự tương tác xã hội"
+                  },
+                  {
+                    "en": "spark friendly conversations",
+                    "vi": "dẫn đến các cuộc trò chuyện thân mật"
+                  },
+                  {
+                    "en": "integrate into local communities",
+                    "vi": "hòa nhập cộng đồng"
+                  },
+                  {
+                    "en": "build mutual support networks",
+                    "vi": "thiết lập các mối quan hệ hỗ trợ lẫn nhau"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: ĐẢM BẢO AN NINH GIA ĐÌNH VÀ BẢO VỆ TÀI SẢN (PROVIDE HOME SECURITY AND PROPERTY PROTECTION)",
+                "point_vi": "Nuôi các giống chó cảnh vệ mang lại giải pháp an ninh hữu hiệu giúp bảo vệ tài sản gia đình.",
+                "point_en": "Keeping guard dogs provides an effective security measure that protects residential property.",
+                "point_collocations": [
+                  {
+                    "en": "keep guard dogs",
+                    "vi": "nuôi các giống chó cảnh vệ"
+                  },
+                  {
+                    "en": "effective security measure",
+                    "vi": "giải pháp an ninh hữu hiệu"
+                  },
+                  {
+                    "en": "protect residential property",
+                    "vi": "bảo vệ tài sản gia đình"
+                  }
+                ],
+                "evidence_vi": "Bản năng trung thành và khả năng phát hiện mối nguy hiểm từ xa của chó giúp cảnh báo sớm cho gia chủ về sự xâm nhập trái phép. Tiếng sủa cảnh giác cùng sự hiện diện của thú cưng có tác dụng răn đe mạnh mẽ đối với những kẻ có ý đồ trộm cắp.",
+                "evidence_en": "Canine loyalty and acute danger-detection instincts provide early warnings of unauthorized entry to homeowners. Alert barking and the visible presence of guard animals serve as powerful deterrents against potential intruders.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "acute danger-detection instincts",
+                      "vi": "khả năng phát hiện mối nguy hiểm từ xa"
+                    },
+                    {
+                      "en": "early warnings of unauthorized entry",
+                      "vi": "cảnh báo sớm ... về sự xâm nhập trái phép"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "alert barking",
+                      "vi": "tiếng sủa cảnh giác"
+                    },
+                    {
+                      "en": "powerful deterrents against potential intruders",
+                      "vi": "tác dụng răn đe mạnh mẽ đối với những kẻ có ý đồ trộm cắp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "keep guard dogs",
+                    "vi": "nuôi các giống chó cảnh vệ"
+                  },
+                  {
+                    "en": "effective security measure",
+                    "vi": "giải pháp an ninh hữu hiệu"
+                  },
+                  {
+                    "en": "early warnings of unauthorized entry",
+                    "vi": "cảnh báo sớm ... về sự xâm nhập trái phép"
+                  },
+                  {
+                    "en": "powerful deterrents against potential intruders",
+                    "vi": "tác dụng răn đe mạnh mẽ đối với những kẻ có ý đồ trộm cắp"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: ÁP LỰC TÀI CHÍNH VÀ CHI PHÍ THÚ Y ĐẮT ĐỎ (FINANCIAL STRAIN AND COSTLY VETERINARY CARE)",
+                "point_vi": "Việc nuôi dưỡng động vật trong nhà tạo ra áp lực tài chính đáng kể đối với ngân sách gia đình.",
+                "point_en": "Rearing domestic pets imposes a considerable financial strain on household budgets.",
+                "point_collocations": [
+                  {
+                    "en": "rearing domestic pets",
+                    "vi": "việc nuôi dưỡng động vật trong nhà"
+                  },
+                  {
+                    "en": "impose a considerable financial strain on",
+                    "vi": "tạo ra áp lực tài chính đáng kể đối với"
+                  },
+                  {
+                    "en": "household budgets",
+                    "vi": "ngân sách gia đình"
+                  }
+                ],
+                "evidence_vi": "Các khoản chi cho thức ăn chuyên dụng, tiêm phòng vắc-xin và điều trị y tế khi thú cưng bị bệnh thường rất đắt đỏ. Những chi phí phát sinh bất ngờ này có thể làm giảm khả năng tiết kiệm cho các nhu cầu thiết yếu khác của gia chủ.",
+                "evidence_en": "Regular expenditures on specialized pet food, vaccinations, and veterinary surgeries can be extraordinarily expensive. These unexpected expenditures can diminish an owner's capacity to save for other essential household needs.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "specialized pet food",
+                      "vi": "thức ăn chuyên dụng"
+                    },
+                    {
+                      "en": "vaccinations and veterinary surgeries",
+                      "vi": "tiêm phòng vắc-xin và điều trị y tế"
+                    },
+                    {
+                      "en": "extraordinarily expensive",
+                      "vi": "thường rất đắt đỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unexpected expenditures",
+                      "vi": "những chi phí phát sinh bất ngờ"
+                    },
+                    {
+                      "en": "diminish capacity to save",
+                      "vi": "làm giảm khả năng tiết kiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "impose a considerable financial strain on",
+                    "vi": "tạo ra áp lực tài chính đáng kể đối với"
+                  },
+                  {
+                    "en": "specialized pet food",
+                    "vi": "thức ăn chuyên dụng"
+                  },
+                  {
+                    "en": "vaccinations and veterinary surgeries",
+                    "vi": "tiêm phòng vắc-xin và điều trị y tế"
+                  },
+                  {
+                    "en": "unexpected expenditures",
+                    "vi": "những chi phí phát sinh bất ngờ"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: RÀNG BUỘC THỜI GIAN VÀ GIẢM SỰ LINH HOẠT CÁ NHÂN (TIME COMMITMENT AND REDUCED PERSONAL FLEXIBILITY)",
+                "point_vi": "Việc sở hữu thú cưng đòi hỏi sự đầu tư lớn về quỹ thời gian và làm giảm tính linh hoạt trong sinh hoạt cá nhân.",
+                "point_en": "Pet ownership demands a substantial time commitment and restricts individual personal flexibility.",
+                "point_collocations": [
+                  {
+                    "en": "pet ownership",
+                    "vi": "việc sở hữu thú cưng"
+                  },
+                  {
+                    "en": "substantial time commitment",
+                    "vi": "sự đầu tư lớn về quỹ thời gian"
+                  },
+                  {
+                    "en": "restrict personal flexibility",
+                    "vi": "làm giảm tính linh hoạt trong sinh hoạt cá nhân"
+                  }
+                ],
+                "evidence_vi": "Các hoạt động vệ sinh chuồng trại, chải lông và huấn luyện hành vi tiêu tốn hàng giờ đồng hồ mỗi tuần. Sự phụ thuộc liên tục của vật nuôi khiến chủ nhân khó có thể thực hiện những chuyến công tác đột xuất hay kỳ nghỉ dài ngày mà không có sự chuẩn bị kỹ lưỡng.",
+                "evidence_en": "Grooming, habitat sanitization, and behavioral training consume multiple hours each week. This ongoing dependency makes it difficult for owners to embark on spontaneous business trips or extended holidays without elaborate arrangements.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "grooming and habitat sanitization",
+                      "vi": "vệ sinh chuồng trại, chải lông"
+                    },
+                    {
+                      "en": "behavioral training",
+                      "vi": "huấn luyện hành vi"
+                    },
+                    {
+                      "en": "consume multiple hours",
+                      "vi": "tiêu tốn hàng giờ đồng hồ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ongoing dependency",
+                      "vi": "sự phụ thuộc liên tục"
+                    },
+                    {
+                      "en": "spontaneous business trips",
+                      "vi": "chuyến công tác đột xuất"
+                    },
+                    {
+                      "en": "extended holidays",
+                      "vi": "kỳ nghỉ dài ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "substantial time commitment",
+                    "vi": "sự đầu tư lớn về quỹ thời gian"
+                  },
+                  {
+                    "en": "restrict personal flexibility",
+                    "vi": "làm giảm tính linh hoạt trong sinh hoạt cá nhân"
+                  },
+                  {
+                    "en": "consume multiple hours",
+                    "vi": "tiêu tốn hàng giờ đồng hồ"
+                  },
+                  {
+                    "en": "ongoing dependency",
+                    "vi": "sự phụ thuộc liên tục"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ MẤT VỆ SINH, DỊ ỨNG VÀ BỆNH TRUYỀN NHIỄM (HYGIENE RISKS, ALLERGENS, AND ZOONOTIC INFECTIONS)",
+                "point_vi": "Động vật nuôi trong nhà tiềm ẩn nguy cơ gây mất vệ sinh môi trường sống và làm bùng phát các bệnh truyền nhiễm.",
+                "point_en": "Indoor companion animals pose sanitation hazards and risk spreading zoonotic infections.",
+                "point_collocations": [
+                  {
+                    "en": "indoor companion animals",
+                    "vi": "động vật nuôi trong nhà"
+                  },
+                  {
+                    "en": "pose sanitation hazards",
+                    "vi": "tiềm ẩn nguy cơ gây mất vệ sinh môi trường sống"
+                  },
+                  {
+                    "en": "risk spreading zoonotic infections",
+                    "vi": "làm bùng phát các bệnh truyền nhiễm"
+                  }
+                ],
+                "evidence_vi": "Lông và vảy da rụng từ vật nuôi là những tác nhân hàng đầu gây hen suyễn cùng viêm mũi dị ứng nghiêm trọng cho các thành viên trong gia đình. Bên cạnh đó, các loại ký sinh trùng như bọ chét hay giun sán có thể lây truyền từ động vật sang người nếu thú cưng không được khử trùng đúng cách.",
+                "evidence_en": "Shed pet dander and fur are prominent allergens that trigger severe asthma attacks and allergic rhinitis among family members. Furthermore, parasites such as fleas and tapeworms can transmit from animals to humans without rigorous hygiene protocols.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shed pet dander and fur",
+                      "vi": "lông và vảy da rụng từ vật nuôi"
+                    },
+                    {
+                      "en": "trigger severe asthma attacks",
+                      "vi": "gây hen suyễn ... nghiêm trọng"
+                    },
+                    {
+                      "en": "allergic rhinitis",
+                      "vi": "viêm mũi dị ứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "parasites such as fleas",
+                      "vi": "các loại ký sinh trùng như bọ chét"
+                    },
+                    {
+                      "en": "transmit from animals to humans",
+                      "vi": "lây truyền từ động vật sang người"
+                    },
+                    {
+                      "en": "rigorous hygiene protocols",
+                      "vi": "khử trùng đúng cách"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "pose sanitation hazards",
+                    "vi": "tiềm ẩn nguy cơ gây mất vệ sinh môi trường sống"
+                  },
+                  {
+                    "en": "risk spreading zoonotic infections",
+                    "vi": "làm bùng phát các bệnh truyền nhiễm"
+                  },
+                  {
+                    "en": "shed pet dander and fur",
+                    "vi": "lông và vảy da rụng từ vật nuôi"
+                  },
+                  {
+                    "en": "transmit from animals to humans",
+                    "vi": "lây truyền từ động vật sang người"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: Ô NHIỄM TIẾNG ỒN VÀ MÂU THUẪN LÃNG GIỀNG (NOISE POLLUTION AND NEIGHBORHOOD DISPUTES)",
+                "point_vi": "Tiếng ồn khó chịu và hành vi phóng uế của vật nuôi thường là nguồn gốc làm rạn nứt hòa khí láng giềng.",
+                "point_en": "Persistent animal noise and unsanitary habits frequently spark neighborhood friction and community disputes.",
+                "point_collocations": [
+                  {
+                    "en": "persistent animal noise",
+                    "vi": "tiếng ồn khó chịu"
+                  },
+                  {
+                    "en": "unsanitary habits",
+                    "vi": "hành vi phóng uế"
+                  },
+                  {
+                    "en": "spark neighborhood friction",
+                    "vi": "làm rạn nứt hòa khí láng giềng"
+                  }
+                ],
+                "evidence_vi": "Tiếng sủa dai dẳng của chó trong các khu chung cư hay ngõ hẻm chật hẹp phá vỡ sự yên tĩnh và gây căng thẳng cho người già cùng trẻ nhỏ. Thêm vào đó, việc chủ nuôi thiếu ý thức để thú cưng chạy rông hoặc phóng uế nơi công cộng dễ châm ngòi cho các vụ mâu thuẫn dai dẳng trong khu phố.",
+                "evidence_en": "Incessant barking in high-density apartments or narrow residential alleys shatters tranquility and causes sleep deprivation for vulnerable neighbors. Moreover, irresponsible handling that allows unrestrained animals to soil shared areas often triggers bitter localized grievances.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "incessant barking",
+                      "vi": "tiếng sủa dai dẳng của chó"
+                    },
+                    {
+                      "en": "shatters tranquility",
+                      "vi": "phá vỡ sự yên tĩnh"
+                    },
+                    {
+                      "en": "stress to elderly and young",
+                      "vi": "gây căng thẳng cho người già cùng trẻ nhỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "irresponsible handling",
+                      "vi": "việc chủ nuôi thiếu ý thức"
+                    },
+                    {
+                      "en": "unrestrained animals",
+                      "vi": "thú cưng chạy rông"
+                    },
+                    {
+                      "en": "soil shared areas",
+                      "vi": "phóng uế nơi công cộng"
+                    },
+                    {
+                      "en": "triggers bitter localized grievances",
+                      "vi": "châm ngòi cho các vụ mâu thuẫn dai dẳng trong khu phố"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "spark neighborhood friction",
+                    "vi": "làm rạn nứt hòa khí láng giềng"
+                  },
+                  {
+                    "en": "incessant barking",
+                    "vi": "tiếng sủa dai dẳng của chó"
+                  },
+                  {
+                    "en": "shatters tranquility",
+                    "vi": "phá vỡ sự yên tĩnh"
+                  },
+                  {
+                    "en": "triggers bitter localized grievances",
+                    "vi": "châm ngòi cho các vụ mâu thuẫn dai dẳng trong khu phố"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: TỔN THƯƠNG TÂM LÝ KHI CHIA LY VÀ NGUY CƠ TAI NẠN (EMOTIONAL TRAUMA OF LOSS AND SAFETY HAZARDS)",
+                "point_vi": "Mối liên kết sâu sắc với vật nuôi tiềm ẩn nỗi đau tâm lý lớn khi chia ly cùng những rủi ro tai nạn thể chất.",
+                "point_en": "Deep attachments to pets carry profound emotional trauma upon bereavement alongside physical safety risks.",
+                "point_collocations": [
+                  {
+                    "en": "deep attachments to pets",
+                    "vi": "mối liên kết sâu sắc với vật nuôi"
+                  },
+                  {
+                    "en": "profound emotional trauma upon bereavement",
+                    "vi": "nỗi đau tâm lý lớn khi chia ly"
+                  },
+                  {
+                    "en": "physical safety risks",
+                    "vi": "những rủi ro tai nạn thể chất"
+                  }
+                ],
+                "evidence_vi": "Những phản ứng hung dữ bất ngờ từ động vật có thể dẫn đến các vết cắn hoặc cào xước nghiêm trọng đe dọa sự an toàn của người xung quanh. Hơn nữa, vì tuổi thọ của thú nuôi ngắn hơn nhiều so với con người, sự ra đi của một người bạn bốn chân gắn bó lâu năm thường để lại khoảng trống tâm lý nặng nề kéo dài cho chủ nuôi.",
+                "evidence_en": "Unprovoked aggressive outbursts can inflict severe puncture wounds and lacerations, endangering bystanders. Furthermore, because pets have much shorter lifespans than humans, the inevitable loss of a beloved companion animal often plunges grieving owners into protracted depression.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unprovoked aggressive outbursts",
+                      "vi": "những phản ứng hung dữ bất ngờ"
+                    },
+                    {
+                      "en": "inflict severe puncture wounds",
+                      "vi": "dẫn đến các vết cắn hoặc cào xước nghiêm trọng"
+                    },
+                    {
+                      "en": "endangering bystanders",
+                      "vi": "đe dọa sự an toàn của người xung quanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "shorter lifespans",
+                      "vi": "tuổi thọ của thú nuôi ngắn hơn nhiều"
+                    },
+                    {
+                      "en": "inevitable loss of a beloved companion animal",
+                      "vi": "sự ra đi của một người bạn bốn chân gắn bó lâu năm"
+                    },
+                    {
+                      "en": "protracted depression",
+                      "vi": "để lại khoảng trống tâm lý nặng nề kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "deep attachments to pets",
+                    "vi": "mối liên kết sâu sắc với vật nuôi"
+                  },
+                  {
+                    "en": "profound emotional trauma upon bereavement",
+                    "vi": "nỗi đau tâm lý lớn khi chia ly"
+                  },
+                  {
+                    "en": "inflict severe puncture wounds",
+                    "vi": "dẫn đến các vết cắn hoặc cào xước nghiêm trọng"
+                  },
+                  {
+                    "en": "inevitable loss of a beloved companion animal",
+                    "vi": "sự ra đi của một người bạn bốn chân gắn bó lâu năm"
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>raising a pet</strong> has become very popular in many families. While having animals at home brings great joy and lessons of responsibility, it also creates notable challenges regarding daily expenses and care. <strong>This essay will discuss both the benefits and drawbacks of pet ownership.</strong>\n\n<strong>On the one hand, raising a pet brings several valuable advantages.</strong> First, <strong><em>keeping pets helps bring joy and reduce stress for owners</em></strong>. Playing with dogs and cats after stressful study hours helps people relax and feel less lonely when living alone. Second, <strong><em>caring for pets helps children and young people learn responsibility</em></strong>. Owners must feed their animals on time and clean their living areas regularly. These tasks build personal discipline and teach youth to care for other living beings. Finally, walking dogs outdoors encourages physical activity and helps owners stay healthy.\n\n<strong>On the other hand, there are notable drawbacks that people must consider.</strong> The most obvious disadvantage is that <strong><em>keeping pets requires high living costs</em></strong>. Families must pay for food, vaccinations, and veterinary care, which can cause financial pressure for people on tight budgets. Another major concern is that <strong><em>keeping pets takes up a lot of daily time and effort</em></strong>. Daily grooming, feeding, and walking can restrict owners' freedom when they want to travel or work late. In addition, pet hair shedding can trigger allergies and cause hygiene issues inside the house.\n\n<strong>In conclusion</strong>, having pets offers emotional warmth, physical activity, and character building, but it also requires considerable money, time, and patient dedication. People should carefully consider their personal budget and living conditions before adopting any animal.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc nuôi thú cưng</strong> đã trở nên rất phổ biến ở nhiều gia đình. Mặc dù việc nuôi động vật tại nhà mang lại niềm vui lớn và bài học về tinh thần trách nhiệm, nó cũng tạo ra những thách thức đáng kể về chi phí và công sức chăm sóc hằng ngày. <strong>Bài luận này sẽ thảo luận cả những thuận lợi và bất lợi của việc sở hữu thú cưng.</strong>\n\n<strong>Một mặt, nuôi thú cưng mang lại một số lợi ích quý giá.</strong> Thứ nhất, <strong><em>nuôi thú cưng giúp mang lại niềm vui và giảm căng thẳng cho chủ nuôi</em></strong>. Chơi đùa với chó mèo sau những giờ học tập căng thẳng giúp mọi người thư giãn và cảm thấy bớt cô đơn khi sống một mình. Thứ hai, <strong><em>chăm sóc thú cưng giúp trẻ em và người trẻ học được tính trách nhiệm</em></strong>. Chủ nuôi phải cho con vật ăn đúng giờ và dọn dẹp nơi ở của chúng thường xuyên. Những công việc này xây dựng tính kỷ luật cá nhân và dạy thanh thiếu niên biết quan tâm đến sinh vật khác. Cuối cùng, việc dắt chó đi dạo ngoài trời khuyến khích vận động thể chất và giúp chủ nuôi duy trì sức khỏe.\n\n<strong>Mặt khác, có những nhược điểm đáng chú ý mà mọi người phải cân nhắc.</strong> Bất lợi rõ ràng nhất là <strong><em>nuôi thú cưng đòi hỏi nhiều chi phí sinh hoạt tốn kém</em></strong>. Các gia đình phải chi tiền mua thức ăn, tiêm phòng và chăm sóc thú y, điều này có thể gây áp lực tài chính cho những người có ngân sách hạn hẹp. Một mối lo ngại lớn khác là <strong><em>nuôi thú cưng làm mất nhiều thời gian và công sức mỗi ngày</em></strong>. Việc chải lông, cho ăn và dắt đi dạo hằng ngày có thể hạn chế sự tự do của chủ nuôi khi họ muốn đi du lịch hoặc làm việc muộn. Thêm vào đó, lông thú cưng rụng có thể làm phát sinh dị ứng và gây mất vệ sinh trong nhà.\n\n<strong>Tóm lại</strong>, việc sở hữu thú cưng mang lại sự ấm áp về mặt cảm xúc, vận động thể chất và rèn luyện nhân cách, nhưng nó cũng đòi hỏi số tiền, thời gian và sự tận tâm đáng kể. Mọi người nên cân nhắc kỹ ngân sách cá nhân và điều kiện sống trước khi nhận nuôi bất kỳ con vật nào.",
+          "sample_b2": "In contemporary society, <strong>raising domestic pets</strong> has evolved from a traditional pastime into a widespread cultural phenomenon across urban households. While companion animals offer profound psychological solace and foster vital life competencies, pet ownership simultaneously imposes considerable financial burdens and lifestyle constraints. <strong>This essay will critically examine both the distinct merits and drawbacks associated with this trend.</strong>\n\n<strong>On the one hand, companion animals provide extensive emotional, social, and developmental benefits.</strong> Primarily, <strong><em>keeping pets provides emotional companionship and helps soothe psychological stress effectively</em></strong>. Daily interactions with affectionate animals stimulate the release of endorphins, offering vital emotional grounding that mitigates modern workplace anxiety and combats chronic social isolation. Furthermore, <strong><em>caring for domestic animals fosters a deep sense of responsibility and cultivates self-discipline</em></strong>. Adhering to structured feeding schedules, medical regimens, and behavioral training instills dependable caretaking habits in children and young adults. In addition, routine outdoor walks with dogs encourage regular cardiovascular exercise, which actively combats sedentary urban lifestyles.\n\n<strong>On the other hand, serious drawbacks and practical complications cannot be overlooked.</strong> Chief among these is that <strong><em>rearing domestic pets imposes a considerable financial strain on household budgets</em></strong>. Recurring expenditures on specialized nutrition, routine immunizations, and emergency veterinary procedures can accumulate into substantial amounts, jeopardizing household savings. Moreover, <strong><em>pet ownership demands a substantial time commitment and restricts individual personal flexibility</em></strong>. Daily habitat sanitation, grooming, and continuous attention severely curtail owners' spontaneity, complicating business travel and extended holidays. Finally, shed pet dander and fur pose persistent sanitation hazards that frequently trigger severe allergic reactions and respiratory ailments among sensitive individuals.\n\n<strong>In conclusion</strong>, while keeping pets enriches human lives through unconditional emotional support and healthy daily routines, it inevitably demands significant financial sacrifices and ongoing dedication. Prospective owners must thoroughly evaluate their financial stability and lifestyle compatibility before undertaking the lifelong commitment of animal guardianship.",
+          "translation_b2": "Trong xã hội đương đại, <strong>việc nuôi thú cưng trong nhà</strong> đã phát triển từ một thú tiêu khiển truyền thống thành một hiện tượng văn hóa lan rộng khắp các hộ gia đình thành thị. Mặc dù động vật đồng hành mang lại sự an ủi tâm lý sâu sắc và bồi đắp các kỹ năng sống thiết yếu, việc sở hữu thú cưng đồng thời tạo ra những gánh nặng tài chính và sự ràng buộc đáng kể trong lối sống. <strong>Bài luận này sẽ phân tích một cách thấu đáo cả những ưu điểm và hạn chế rõ rệt liên quan đến xu hướng này.</strong>\n\n<strong>Một mặt, thú cưng mang lại nhiều lợi ích sâu rộng về mặt cảm xúc, xã hội và sự phát triển cá nhân.</strong> Trước hết, <strong><em>việc nuôi thú cưng mang lại sự đồng hành về mặt cảm xúc và giúp xoa dịu căng thẳng tâm lý hiệu quả</em></strong>. Những tương tác hằng ngày với động vật kích thích cơ thể giải phóng endorphin, mang lại điểm tựa tinh thần quan trọng giúp giảm bớt lo âu chốn công sở hiện đại và đẩy lùi sự cô lập xã hội mãn tính. Hơn nữa, <strong><em>việc chăm sóc động vật nuôi dưỡng tinh thần trách nhiệm sâu sắc và rèn luyện tính tự giác</em></strong>. Việc tuân thủ lịch trình cho ăn, chế độ y tế và huấn luyện hành vi giúp hình thành thói quen chăm sóc đáng tin cậy ở trẻ em và thanh thiếu niên. Thêm vào đó, việc dắt chó đi dạo ngoài trời khuyến khích vận động tim mạch thường xuyên, giúp chống lại lối sống thụ động nơi đô thị.\n\n<strong>Mặt khác, những nhược điểm nghiêm trọng và rắc rối thực tế là điều không thể bỏ qua.</strong> Đáng chú ý nhất là <strong><em>việc nuôi dưỡng động vật trong nhà tạo ra áp lực tài chính đáng kể đối với ngân sách gia đình</em></strong>. Các khoản chi định kỳ cho dinh dưỡng chuyên dụng, tiêm chủng và điều trị thú y khẩn cấp có thể tích lũy thành số tiền lớn, đe dọa ngân quỹ tiết kiệm của gia đình. Hơn nữa, <strong><em>việc sở hữu thú cưng đòi hỏi sự đầu tư lớn về quỹ thời gian và làm giảm tính linh hoạt trong sinh hoạt cá nhân</em></strong>. Việc dọn dẹp vệ sinh nơi ở, chải lông và chăm sóc liên tục làm giảm đáng kể tính chủ động của chủ nhân, gây khó khăn cho các chuyến công tác và kỳ nghỉ dài ngày. Cuối cùng, lông và vảy da thú cưng tiềm ẩn nguy cơ mất vệ sinh dai dẳng, thường xuyên kích hoạt phản ứng dị ứng nghiêm trọng và các bệnh hô hấp ở những người nhạy cảm.\n\n<strong>Tóm lại</strong>, mặc dù việc nuôi thú cưng làm phong phú cuộc sống con người thông qua sự hỗ trợ tinh thần vô điều kiện và thói quen sinh hoạt lành mạnh, nó chắc chắn đòi hỏi sự hy sinh tài chính và sự tận tụy lâu dài. Những người có ý định nuôi cần đánh giá kỹ lưỡng sự ổn định tài chính và mức độ phù hợp của lối sống trước khi đảm nhận sự cam kết trọn đời với một sinh mạng động vật."
+        }
       },
       {
         "id": 32,
@@ -64455,7 +66385,1137 @@ const ESSAY_DATA = [
         "title_vi": "Tầm quan trọng của giáo dục",
         "context": "In every society, education plays an essential role in personal development and national progress. Through education, people can gain knowledge, develop important skills, and prepare for better career opportunities. Education can also help improve people’s quality of life and contribute to the development of a country.",
         "prompt": "Write an essay to an educated reader to discuss the importance of education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Giáo dục - Chìa khóa vàng mở cánh cửa thoát nghèo và phát triển bền vững",
+                "summary": "Phân tích tác động to lớn của giáo dục đối với việc cải thiện thu nhập của người lao động, xóa đói giảm nghèo và thúc đẩy bình đẳng xã hội.",
+                "url": "https://vnexpress.net/giao-duc-chia-khoa-thoat-ngheo-4235890.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Tầm quan trọng của tư duy phản biện và kỹ năng mềm trong trường học thế kỷ 21",
+                "summary": "Nhấn mạnh vai trò của giáo dục hiện đại trong việc rèn luyện tư duy độc lập, khả năng phản biện và kỹ năng giải quyết vấn đề cho giới trẻ.",
+                "url": "https://dantri.com.vn/giao-duc/tam-quan-trong-cua-tu-duy-phan-bien-trong-nha-truong-20240118123045678.htm"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Đầu tư cho giáo dục là đầu tư cho tương lai và sự thịnh vượng quốc gia",
+                "summary": "Đánh giá mối liên hệ mật thiết giữa chất lượng nguồn nhân lực được đào tạo bài bản với năng lực cạnh tranh và tăng trưởng kinh tế của đất nước.",
+                "url": "https://tuoitre.vn/dau-tu-cho-giao-duc-la-dau-tu-cho-tuong-lai-20231120084512999.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "UNESCO",
+                "title": "Education Transforms Lives: The Global Role of Learning in Sustainable Development",
+                "summary": "Explores how universal access to quality education reduces poverty, promotes gender equality, and fosters global citizenship.",
+                "url": "https://www.unesco.org/en/education/need"
+              },
+              {
+                "source": "The Guardian",
+                "title": "Why Education Matters More Than Ever in an Era of Rapid Technological Change",
+                "summary": "Discusses the essential function of formal education in teaching critical thinking, ethical reasoning, and continuous lifelong adaptation.",
+                "url": "https://www.theguardian.com/education/2022/sep/08/why-education-matters-more-than-ever"
+              },
+              {
+                "source": "World Bank",
+                "title": "Ending Learning Poverty: The Indispensable Role of Human Capital in National Growth",
+                "summary": "Examines worldwide empirical data proving that investment in education generates the highest social and economic returns for emerging economies.",
+                "url": "https://www.worldbank.org/en/topic/education/overview"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Tầm quan trọng của giáo dục (The importance of education)",
+            "overview": "Hệ thống từ vựng học thuật B1 và B2 cho chủ đề Tầm quan trọng của giáo dục (The importance of education), bao gồm 20 từ đơn cốt lõi kèm họ từ và các nhóm cụm từ học thuật diễn đạt các lợi ích then chốt: tri thức, kỹ năng nghề nghiệp, tư duy phản biện, xóa đói giảm nghèo, ý thức công dân và thịnh vượng kinh tế.",
+            "single_words": [
+              {
+                "word": "knowledge",
+                "ipa": "/ˈnɒlɪdʒ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tri thức, kiến thức",
+                "example_en": "Education helps people acquire knowledge in various fields.",
+                "example_vi": "Giáo dục giúp con người tiếp thu kiến thức trong nhiều lĩnh vực.",
+                "family": "knowledgeable (adj), acknowledge (v)"
+              },
+              {
+                "word": "competence",
+                "ipa": "/ˈkɒmpɪtəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "năng lực chuyên môn, khả năng làm việc",
+                "example_en": "Universities develop professional competence for graduates.",
+                "example_vi": "Các trường đại học phát triển năng lực chuyên môn cho sinh viên tốt nghiệp.",
+                "family": "competent (adj), competently (adv)"
+              },
+              {
+                "word": "critical",
+                "ipa": "/ˈkrɪtɪkl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính phản biện, đánh giá sâu sắc",
+                "example_en": "Students learn critical thinking through group debates.",
+                "example_vi": "Học sinh học tư duy phản biện thông qua các buổi tranh biện nhóm.",
+                "family": "critique (n), criticize (v), critically (adv)"
+              },
+              {
+                "word": "discernment",
+                "ipa": "/dɪˈsɜːnmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự sáng suốt, khả năng nhận thức phân định",
+                "example_en": "Education nurtures discernment between reliable and misleading data.",
+                "example_vi": "Giáo dục nuôi dưỡng sự sáng suốt giữa dữ liệu đáng tin cậy và thông tin sai lệch.",
+                "family": "discern (v), discerning (adj)"
+              },
+              {
+                "word": "alleviate",
+                "ipa": "/əˈliːvieɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "xóa giảm, làm dịu bớt (nghèo đói, khó khăn)",
+                "example_en": "Literacy programs alleviate generational poverty.",
+                "example_vi": "Các chương trình xóa mù chữ giúp giảm bớt đói nghèo qua các thế hệ.",
+                "family": "alleviation (n)"
+              },
+              {
+                "word": "poverty",
+                "ipa": "/ˈpɒvəti/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự nghèo đói, cảnh nghèo túng",
+                "example_en": "Many families escape poverty thanks to higher education.",
+                "example_vi": "Nhiều gia đình thoát nghèo nhờ vào nền giáo dục bậc cao.",
+                "family": "poor (adj), impoverish (v)"
+              },
+              {
+                "word": "mobility",
+                "ipa": "/məʊˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự dịch chuyển, thăng tiến trong xã hội",
+                "example_en": "Quality schooling promotes upward social mobility.",
+                "example_vi": "Giáo dục chất lượng cao thúc đẩy sự thăng tiến trong bậc thang xã hội.",
+                "family": "mobile (adj), mobilize (v)"
+              },
+              {
+                "word": "moral",
+                "ipa": "/ˈmɒrəl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "thuộc về đạo đức, luân lý",
+                "example_en": "Schools teach important moral values to children.",
+                "example_vi": "Trường học giảng dạy các giá trị đạo đức quan trọng cho trẻ em.",
+                "family": "morality (n), morally (adv)"
+              },
+              {
+                "word": "integrity",
+                "ipa": "/ɪnˈteɡrəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự liêm chính, phẩm hạnh chuẩn mực",
+                "example_en": "Academic training emphasizes professional integrity.",
+                "example_vi": "Đào tạo học thuật luôn đề cao sự liêm chính trong công việc.",
+                "family": "integrate (v)"
+              },
+              {
+                "word": "civic",
+                "ipa": "/ˈsɪvɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về công dân, nghĩa vụ công dân",
+                "example_en": "Civic education encourages youth to participate in community affairs.",
+                "example_vi": "Giáo dục công dân khuyến khích người trẻ tham gia vào các công việc cộng đồng.",
+                "family": "citizen (n), citizenship (n)"
+              },
+              {
+                "word": "prosperous",
+                "ipa": "/ˈprɒspərəs/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "phồn vinh, giàu mạnh",
+                "example_en": "An educated workforce builds a prosperous country.",
+                "example_vi": "Lực lượng lao động có học thức xây dựng một đất nước phồn vinh.",
+                "family": "prosperity (n), prosper (v)"
+              },
+              {
+                "word": "innovation",
+                "ipa": "/ˌɪnəˈveɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đổi mới sáng tạo, sáng kiến",
+                "example_en": "Scientific research drives technological innovation.",
+                "example_vi": "Nghiên cứu khoa học thúc đẩy sự đổi mới sáng tạo công nghệ.",
+                "family": "innovative (adj), innovate (v)"
+              },
+              {
+                "word": "catalyst",
+                "ipa": "/ˈkætəlɪst/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chất xúc tác, động lực thúc đẩy",
+                "example_en": "Education serves as a catalyst for economic modernization.",
+                "example_vi": "Giáo dục đóng vai trò là chất xúc tác cho hiện đại hóa kinh tế.",
+                "family": "catalytic (adj)"
+              },
+              {
+                "word": "tolerance",
+                "ipa": "/ˈtɒlərəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng khoan dung, sự dung nạp đa dạng",
+                "example_en": "Schools foster cultural tolerance among students.",
+                "example_vi": "Trường học bồi đắp lòng khoan dung văn hóa giữa các học sinh.",
+                "family": "tolerant (adj), tolerate (v)"
+              },
+              {
+                "word": "remunerative",
+                "ipa": "/rɪˈmjuːnərətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có mức lương hậu hĩnh, mang lại thu nhập cao",
+                "example_en": "Professional qualifications unlock remunerative careers.",
+                "example_vi": "Bằng cấp chuyên môn mở ra các sự nghiệp có thu nhập cao.",
+                "family": "remuneration (n)"
+              },
+              {
+                "word": "independent",
+                "ipa": "/ˌɪndɪˈpendənt/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "độc lập, tự chủ",
+                "example_en": "Students learn to think in an independent manner.",
+                "example_vi": "Học sinh học cách suy nghĩ một cách tự chủ độc lập.",
+                "family": "independence (n), independently (adv)"
+              },
+              {
+                "word": "systematic",
+                "ipa": "/ˌsɪstəˈmætɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có hệ thống, bài bản",
+                "example_en": "Systematic learning provides thorough subject comprehension.",
+                "example_vi": "Việc học có hệ thống mang lại sự thông hiểu môn học toàn diện.",
+                "family": "system (n), systematically (adv)"
+              },
+              {
+                "word": "productivity",
+                "ipa": "/ˌprɒdʌkˈtɪvəti/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "năng suất, hiệu quả làm việc",
+                "example_en": "Trained employees show higher workplace productivity.",
+                "example_vi": "Những nhân viên được đào tạo thể hiện năng suất làm việc cao hơn.",
+                "family": "productive (adj), produce (v)"
+              },
+              {
+                "word": "competitiveness",
+                "ipa": "/kəmˈpetətɪvnəs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "năng lực cạnh tranh",
+                "example_en": "A skilled labor force enhances national competitiveness.",
+                "example_vi": "Lực lượng lao động lành nghề nâng cao năng lực cạnh tranh quốc gia.",
+                "family": "competitive (adj), compete (v)"
+              },
+              {
+                "word": "empower",
+                "ipa": "/ɪmˈpaʊə(r)/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "trao quyền, nâng cao năng lực cho ai",
+                "example_en": "Education empowers women to participate fully in society.",
+                "example_vi": "Giáo dục trao quyền cho phụ nữ tham gia trọn vẹn vào xã hội.",
+                "family": "empowerment (n)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t32_b1",
+                "name": "LỢI ÍCH 01: MỞ RỘNG TRI THỨC VÀ KỸ NĂNG NGHỀ NGHIỆP (EXPAND KNOWLEDGE AND VOCATIONAL SKILLS)",
+                "icon": "📚",
+                "badge": "Tầm quan trọng 01",
+                "items": [
+                  {
+                    "en": "acquire knowledge",
+                    "vi": "tiếp thu kiến thức"
+                  },
+                  {
+                    "en": "learn essential work skills",
+                    "vi": "học các kỹ năng làm việc cần thiết"
+                  },
+                  {
+                    "en": "equip individuals with",
+                    "vi": "trang bị cho con người"
+                  },
+                  {
+                    "en": "profound academic knowledge",
+                    "vi": "nền tảng tri thức chuyên sâu"
+                  },
+                  {
+                    "en": "cultivate core professional competencies",
+                    "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi"
+                  }
+                ]
+              },
+              {
+                "id": "t32_b2",
+                "name": "LỢI ÍCH 02: TĂNG CƯỜNG TƯ DUY PHẢN BIỆN (ENHANCE CRITICAL THINKING)",
+                "icon": "🧠",
+                "badge": "Tầm quan trọng 02",
+                "items": [
+                  {
+                    "en": "cultivate thinking skills",
+                    "vi": "rèn luyện khả năng tư duy"
+                  },
+                  {
+                    "en": "think independently",
+                    "vi": "suy nghĩ độc lập"
+                  },
+                  {
+                    "en": "foster rigorous critical thinking",
+                    "vi": "thúc đẩy tư duy phản biện sắc bén"
+                  },
+                  {
+                    "en": "resolve complex problems",
+                    "vi": "giải quyết vấn đề phức tạp"
+                  },
+                  {
+                    "en": "analyze multidimensional data",
+                    "vi": "phân tích dữ liệu đa chiều"
+                  }
+                ]
+              },
+              {
+                "id": "t32_b3",
+                "name": "LỢI ÍCH 03: XÓA ĐÓI GIẢM NGHÈO VÀ NÂNG CAO MỨC SỐNG (ALLEVIATE POVERTY AND RAISE LIVING STANDARDS)",
+                "icon": "📈",
+                "badge": "Tầm quan trọng 03",
+                "items": [
+                  {
+                    "en": "escape poverty sustainably",
+                    "vi": "thoát nghèo bền vững"
+                  },
+                  {
+                    "en": "earn higher incomes",
+                    "vi": "kiếm được mức thu nhập cao hơn"
+                  },
+                  {
+                    "en": "poverty alleviation",
+                    "vi": "xóa đói giảm nghèo"
+                  },
+                  {
+                    "en": "upward social mobility",
+                    "vi": "thúc đẩy bình đẳng xã hội"
+                  },
+                  {
+                    "en": "break generational cycles of deprivation",
+                    "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ"
+                  }
+                ]
+              },
+              {
+                "id": "t32_b4",
+                "name": "LỢI ÍCH 04: HOÀN THIỆN NHÂN CÁCH VÀ Ý THỨC CÔNG DÂN (CULTIVATE MORAL CHARACTER AND CIVIC DUTY)",
+                "icon": "🌟",
+                "badge": "Tầm quan trọng 04",
+                "items": [
+                  {
+                    "en": "teach good morals",
+                    "vi": "dạy con người đạo đức tốt"
+                  },
+                  {
+                    "en": "model citizens",
+                    "vi": "những công dân gương mẫu"
+                  },
+                  {
+                    "en": "cultivate moral integrity",
+                    "vi": "vun đắp nhân cách đạo đức"
+                  },
+                  {
+                    "en": "foster active civic consciousness",
+                    "vi": "bồi dưỡng ý thức công dân tích cực"
+                  },
+                  {
+                    "en": "build an equitable, law-abiding civil society",
+                    "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật"
+                  }
+                ]
+              },
+              {
+                "id": "t32_b5",
+                "name": "LỢI ÍCH 05: THÚC ĐẨY ĐỔI MỚI SÁNG TẠO VÀ KINH TẾ (DRIVE INNOVATION AND ECONOMIC PROSPERITY)",
+                "icon": "🚀",
+                "badge": "Tầm quan trọng 05",
+                "items": [
+                  {
+                    "en": "talented human resources",
+                    "vi": "nguồn nhân lực giỏi"
+                  },
+                  {
+                    "en": "make countries prosperous",
+                    "vi": "giúp đất nước phát triển giàu mạnh"
+                  },
+                  {
+                    "en": "invest in high-quality education",
+                    "vi": "đầu tư vào giáo dục chất lượng cao"
+                  },
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  },
+                  {
+                    "en": "national economic prosperity",
+                    "vi": "thịnh vượng kinh tế quốc gia"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "acquire knowledge",
+              "vi": "tiếp thu kiến thức"
+            },
+            {
+              "en": "vocational skills",
+              "vi": "kỹ năng nghề nghiệp"
+            },
+            {
+              "en": "professional competencies",
+              "vi": "năng lực chuyên môn"
+            },
+            {
+              "en": "career advancement",
+              "vi": "sự thăng tiến nghề nghiệp"
+            },
+            {
+              "en": "labor market competitiveness",
+              "vi": "năng lực cạnh tranh trên thị trường lao động"
+            },
+            {
+              "en": "critical thinking skills",
+              "vi": "kỹ năng tư duy phản biện"
+            },
+            {
+              "en": "independent analysis",
+              "vi": "sự phân tích độc lập"
+            },
+            {
+              "en": "logical discernment",
+              "vi": "khả năng suy xét logic"
+            },
+            {
+              "en": "sound decision-making",
+              "vi": "đưa ra quyết định sáng suốt"
+            },
+            {
+              "en": "poverty eradication",
+              "vi": "xóa đói giảm nghèo"
+            },
+            {
+              "en": "socioeconomic mobility",
+              "vi": "sự dịch chuyển kinh tế xã hội"
+            },
+            {
+              "en": "remunerative employment",
+              "vi": "việc làm có thu nhập tốt"
+            },
+            {
+              "en": "break the cycle of poverty",
+              "vi": "phá vỡ vòng luẩn quẩn của sự nghèo khó"
+            },
+            {
+              "en": "standard of living",
+              "vi": "mức sống"
+            },
+            {
+              "en": "narrow the wealth gap",
+              "vi": "thu hẹp khoảng cách giàu nghèo"
+            },
+            {
+              "en": "moral character",
+              "vi": "nhân cách đạo đức"
+            },
+            {
+              "en": "civic responsibility",
+              "vi": "trách nhiệm công dân"
+            },
+            {
+              "en": "cultural tolerance",
+              "vi": "sự khoan dung văn hóa"
+            },
+            {
+              "en": "social cohesion",
+              "vi": "sự gắn kết xã hội"
+            },
+            {
+              "en": "law-abiding society",
+              "vi": "xã hội thượng tôn pháp luật"
+            },
+            {
+              "en": "human capital development",
+              "vi": "phát triển vốn con người"
+            },
+            {
+              "en": "knowledge-based economy",
+              "vi": "nền kinh tế tri thức"
+            },
+            {
+              "en": "technological breakthrough",
+              "vi": "đột phá công nghệ"
+            },
+            {
+              "en": "national prosperity",
+              "vi": "sự thịnh vượng quốc gia"
+            },
+            {
+              "en": "well-trained workforce",
+              "vi": "lực lượng lao động được đào tạo tốt"
+            },
+            {
+              "en": "lifelong learning",
+              "vi": "học tập suốt đời"
+            },
+            {
+              "en": "comprehensive development",
+              "vi": "phát triển toàn diện"
+            },
+            {
+              "en": "quality education",
+              "vi": "giáo dục chất lượng cao"
+            },
+            {
+              "en": "equitable opportunities",
+              "vi": "cơ hội công bằng"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: MỞ RỘNG TRI THỨC VÀ PHÁT TRIỂN KỸ NĂNG NGHỀ NGHIỆP",
+                "point_vi": "Giáo dục giúp mọi người tiếp thu kiến thức và học các kỹ năng làm việc cần thiết.",
+                "point_en": "Education helps people acquire knowledge and learn essential work skills.",
+                "point_collocations": [
+                  {
+                    "en": "acquire knowledge",
+                    "vi": "tiếp thu kiến thức"
+                  },
+                  {
+                    "en": "learn essential work skills",
+                    "vi": "học các kỹ năng làm việc cần thiết"
+                  }
+                ],
+                "evidence_vi": "Học sinh học tập các môn khoa học và ngoại ngữ để chuẩn bị cho tương lai. Nhờ có kiến thức tốt, các em có thể dễ dàng tìm kiếm những công việc phù hợp với mức lương ổn định.",
+                "evidence_en": "Students learn sciences and foreign languages to prepare for their future. With good knowledge, they can easily find suitable jobs with stable salaries.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "learn sciences and foreign languages",
+                      "vi": "học tập các môn khoa học và ngoại ngữ"
+                    },
+                    {
+                      "en": "prepare for future",
+                      "vi": "chuẩn bị cho tương lai"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "good knowledge",
+                      "vi": "kiến thức tốt"
+                    },
+                    {
+                      "en": "find suitable jobs",
+                      "vi": "tìm kiếm những công việc phù hợp"
+                    },
+                    {
+                      "en": "stable salaries",
+                      "vi": "mức lương ổn định"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "acquire knowledge",
+                    "vi": "tiếp thu kiến thức"
+                  },
+                  {
+                    "en": "learn essential work skills",
+                    "vi": "học các kỹ năng làm việc cần thiết"
+                  },
+                  {
+                    "en": "find suitable jobs",
+                    "vi": "tìm kiếm những công việc phù hợp"
+                  },
+                  {
+                    "en": "stable salaries",
+                    "vi": "mức lương ổn định"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TĂNG CƯỜNG TƯ DUY VÀ KHẢ NĂNG GIẢI QUYẾT KHÓ KHĂN",
+                "point_vi": "Giáo dục giúp rèn luyện khả năng tư duy và giải quyết khó khăn trong cuộc sống.",
+                "point_en": "Education helps cultivate thinking skills and solve difficulties in daily life.",
+                "point_collocations": [
+                  {
+                    "en": "cultivate thinking skills",
+                    "vi": "rèn luyện khả năng tư duy"
+                  },
+                  {
+                    "en": "solve difficulties",
+                    "vi": "giải quyết khó khăn trong cuộc sống"
+                  }
+                ],
+                "evidence_vi": "Khi làm bài tập và thảo luận trên lớp, học sinh học cách suy nghĩ độc lập và lắng nghe ý kiến của bạn bè. Nhờ vậy, các em biết cách đưa ra những quyết định sáng suốt khi đối mặt với thử thách.",
+                "evidence_en": "Through class discussions and assignments, students learn to think independently and listen to peers' ideas. Consequently, they know how to make wise decisions when facing challenges.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "class discussions and assignments",
+                      "vi": "làm bài tập và thảo luận trên lớp"
+                    },
+                    {
+                      "en": "think independently",
+                      "vi": "suy nghĩ độc lập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "make wise decisions",
+                      "vi": "đưa ra những quyết định sáng suốt"
+                    },
+                    {
+                      "en": "face challenges",
+                      "vi": "đối mặt với thử thách"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultivate thinking skills",
+                    "vi": "rèn luyện khả năng tư duy"
+                  },
+                  {
+                    "en": "think independently",
+                    "vi": "suy nghĩ độc lập"
+                  },
+                  {
+                    "en": "make wise decisions",
+                    "vi": "đưa ra những quyết định sáng suốt"
+                  },
+                  {
+                    "en": "face challenges",
+                    "vi": "đối mặt với thử thách"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: GIẢM NGHÈO ĐÓI VÀ NÂNG CAO MỨC SỐNG",
+                "point_vi": "Giáo dục giúp người nghèo tìm được việc làm tốt hơn để thoát nghèo bền vững.",
+                "point_en": "Education helps poor people find better jobs to escape poverty sustainably.",
+                "point_collocations": [
+                  {
+                    "en": "find better jobs",
+                    "vi": "tìm được việc làm tốt hơn"
+                  },
+                  {
+                    "en": "escape poverty sustainably",
+                    "vi": "thoát nghèo bền vững"
+                  }
+                ],
+                "evidence_vi": "Những người có bằng cấp thường kiếm được mức thu nhập cao hơn để trang trải cuộc sống gia đình. Họ có thể mua sắm đồ dùng cần thiết và chăm sóc y tế tốt hơn cho con cái.",
+                "evidence_en": "Qualified individuals generally earn higher incomes to support their families. They can purchase necessary items and provide better healthcare for their children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "earn higher incomes",
+                      "vi": "kiếm được mức thu nhập cao hơn"
+                    },
+                    {
+                      "en": "support their families",
+                      "vi": "trang trải cuộc sống gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "purchase necessary items",
+                      "vi": "mua sắm đồ dùng cần thiết"
+                    },
+                    {
+                      "en": "provide better healthcare",
+                      "vi": "chăm sóc y tế tốt hơn cho con cái"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "find better jobs",
+                    "vi": "tìm được việc làm tốt hơn"
+                  },
+                  {
+                    "en": "escape poverty sustainably",
+                    "vi": "thoát nghèo bền vững"
+                  },
+                  {
+                    "en": "earn higher incomes",
+                    "vi": "kiếm được mức thu nhập cao hơn"
+                  },
+                  {
+                    "en": "support their families",
+                    "vi": "trang trải cuộc sống gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: HOÀN THIỆN NHÂN CÁCH VÀ Ý THỨC ĐẠO ĐỨC",
+                "point_vi": "Giáo dục dạy con người đạo đức tốt và trở thành những công dân gương mẫu.",
+                "point_en": "Education teaches people good morals and makes them model citizens.",
+                "point_collocations": [
+                  {
+                    "en": "teach good morals",
+                    "vi": "dạy con người đạo đức tốt"
+                  },
+                  {
+                    "en": "model citizens",
+                    "vi": "những công dân gương mẫu"
+                  }
+                ],
+                "evidence_vi": "Học sinh được học về lòng nhân ái, sự trung thực và tinh thần tuân thủ luật pháp. Những bài học đạo đức này giúp các em biết giúp đỡ người khó khăn và không làm điều xấu trong xã hội.",
+                "evidence_en": "Students learn about kindness, honesty, and law-abiding principles. These moral lessons encourage them to help those in need and avoid wrongdoing in society.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "kindness, honesty, and law-abiding principles",
+                      "vi": "lòng nhân ái, sự trung thực và tinh thần tuân thủ luật pháp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "moral lessons",
+                      "vi": "những bài học đạo đức"
+                    },
+                    {
+                      "en": "help those in need",
+                      "vi": "giúp đỡ người khó khăn"
+                    },
+                    {
+                      "en": "avoid wrongdoing",
+                      "vi": "không làm điều xấu trong xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "teach good morals",
+                    "vi": "dạy con người đạo đức tốt"
+                  },
+                  {
+                    "en": "model citizens",
+                    "vi": "những công dân gương mẫu"
+                  },
+                  {
+                    "en": "moral lessons",
+                    "vi": "những bài học đạo đức"
+                  },
+                  {
+                    "en": "help those in need",
+                    "vi": "giúp đỡ người khó khăn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: PHÁT TRIỂN NGUỒN NHÂN LỰC VÀ KINH TẾ QUỐC GIA",
+                "point_vi": "Giáo dục phát triển nguồn nhân lực giỏi giúp đất nước phát triển giàu mạnh.",
+                "point_en": "Education develops talented human resources that make countries prosperous.",
+                "point_collocations": [
+                  {
+                    "en": "talented human resources",
+                    "vi": "nguồn nhân lực giỏi"
+                  },
+                  {
+                    "en": "make countries prosperous",
+                    "vi": "giúp đất nước phát triển giàu mạnh"
+                  }
+                ],
+                "evidence_vi": "Các kỹ sư, bác sĩ và nhà khoa học được đào tạo bài bản có thể sáng tạo ra nhiều máy móc và thuốc chữa bệnh mới. Sự đóng góp của họ giúp cải thiện nền kinh tế và nâng cao vị thế của quốc gia trên thế giới.",
+                "evidence_en": "Well-trained engineers, doctors, and scientists can invent new machines and medicines. Their contributions boost the economy and improve the nation's international standing.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "well-trained engineers, doctors, and scientists",
+                      "vi": "các kỹ sư, bác sĩ và nhà khoa học được đào tạo bài bản"
+                    },
+                    {
+                      "en": "invent new machines and medicines",
+                      "vi": "sáng tạo ra nhiều máy móc và thuốc chữa bệnh mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "boost the economy",
+                      "vi": "cải thiện nền kinh tế"
+                    },
+                    {
+                      "en": "improve international standing",
+                      "vi": "nâng cao vị thế của quốc gia trên thế giới"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "talented human resources",
+                    "vi": "nguồn nhân lực giỏi"
+                  },
+                  {
+                    "en": "make countries prosperous",
+                    "vi": "giúp đất nước phát triển giàu mạnh"
+                  },
+                  {
+                    "en": "boost the economy",
+                    "vi": "cải thiện nền kinh tế"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: MỞ RỘNG TRI THỨC VÀ PHÁT TRIỂN KỸ NĂNG CHUYÊN MÔN (EXPAND KNOWLEDGE AND PROFESSIONAL COMPETENCIES)",
+                "point_vi": "Giáo dục trang bị cho con người nền tảng tri thức chuyên sâu và rèn luyện các kỹ năng chuyên môn cốt lõi.",
+                "point_en": "Education equips individuals with profound academic knowledge and cultivates core professional competencies.",
+                "point_collocations": [
+                  {
+                    "en": "equip individuals with",
+                    "vi": "trang bị cho con người"
+                  },
+                  {
+                    "en": "profound academic knowledge",
+                    "vi": "nền tảng tri thức chuyên sâu"
+                  },
+                  {
+                    "en": "cultivate core professional competencies",
+                    "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi"
+                  }
+                ],
+                "evidence_vi": "Quá trình học tập bài bản giúp sinh viên nắm vững nguyên lý khoa học và làm chủ công nghệ tiên tiến. Nền tảng chuyên môn vững chắc này mở ra nhiều cơ hội thăng tiến nghề nghiệp và gia tăng năng lực cạnh tranh trên thị trường lao động.",
+                "evidence_en": "Systematic academic training enables students to master scientific principles and modern technologies. This solid competence unlocks attractive career advancement pathways and enhances competitiveness in the labor market.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "systematic academic training",
+                      "vi": "quá trình học tập bài bản"
+                    },
+                    {
+                      "en": "master scientific principles",
+                      "vi": "nắm vững nguyên lý khoa học"
+                    },
+                    {
+                      "en": "modern technologies",
+                      "vi": "công nghệ tiên tiến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "career advancement pathways",
+                      "vi": "cơ hội thăng tiến nghề nghiệp"
+                    },
+                    {
+                      "en": "enhance competitiveness in the labor market",
+                      "vi": "gia tăng năng lực cạnh tranh trên thị trường lao động"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "profound academic knowledge",
+                    "vi": "nền tảng tri thức chuyên sâu"
+                  },
+                  {
+                    "en": "cultivate core professional competencies",
+                    "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi"
+                  },
+                  {
+                    "en": "systematic academic training",
+                    "vi": "quá trình học tập bài bản"
+                  },
+                  {
+                    "en": "enhance competitiveness in the labor market",
+                    "vi": "gia tăng năng lực cạnh tranh trên thị trường lao động"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TĂNG CƯỜNG TƯ DUY PHẢN BIỆN VÀ GIẢI QUYẾT VẤN ĐỀ PHỨC TẠP (ENHANCE CRITICAL THINKING AND PROBLEM SOLVING)",
+                "point_vi": "Môi trường giáo dục thúc đẩy tư duy phản biện sắc bén và bồi dưỡng năng lực giải quyết vấn đề phức tạp.",
+                "point_en": "Educational environments foster rigorous critical thinking and nurture the ability to resolve complex problems.",
+                "point_collocations": [
+                  {
+                    "en": "educational environments",
+                    "vi": "môi trường giáo dục"
+                  },
+                  {
+                    "en": "foster rigorous critical thinking",
+                    "vi": "thúc đẩy tư duy phản biện sắc bén"
+                  },
+                  {
+                    "en": "resolve complex problems",
+                    "vi": "giải quyết vấn đề phức tạp"
+                  }
+                ],
+                "evidence_vi": "Người học được khuyến khích đặt câu hỏi, phân tích dữ liệu đa chiều và đánh giá độ tin cậy của thông tin trước khi đưa ra kết luận. Kỹ năng tư duy logic này giúp họ xử lý hiệu quả các tình huống khủng hoảng và thích ứng linh hoạt với những biến đổi xã hội.",
+                "evidence_en": "Learners are prompted to question assumptions, analyze multidimensional data, and evaluate factual reliability before drawing conclusions. This logical discernment enables individuals to navigate crises efficiently and adapt to rapid societal shifts.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "analyze multidimensional data",
+                      "vi": "phân tích dữ liệu đa chiều"
+                    },
+                    {
+                      "en": "evaluate factual reliability",
+                      "vi": "đánh giá độ tin cậy của thông tin"
+                    },
+                    {
+                      "en": "drawing conclusions",
+                      "vi": "đưa ra kết luận"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "logical discernment",
+                      "vi": "kỹ năng tư duy logic"
+                    },
+                    {
+                      "en": "navigate crises efficiently",
+                      "vi": "xử lý hiệu quả các tình huống khủng hoảng"
+                    },
+                    {
+                      "en": "adapt to rapid societal shifts",
+                      "vi": "thích ứng linh hoạt với những biến đổi xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "foster rigorous critical thinking",
+                    "vi": "thúc đẩy tư duy phản biện sắc bén"
+                  },
+                  {
+                    "en": "resolve complex problems",
+                    "vi": "giải quyết vấn đề phức tạp"
+                  },
+                  {
+                    "en": "analyze multidimensional data",
+                    "vi": "phân tích dữ liệu đa chiều"
+                  },
+                  {
+                    "en": "logical discernment",
+                    "vi": "kỹ năng tư duy logic"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: XÓA ĐÓI GIẢM NGHÈO VÀ THÚC ĐẨY BÌNH ĐẲNG XÃ HỘI (POVERTY ALLEVIATION AND UPWARD SOCIAL MOBILITY)",
+                "point_vi": "Giáo dục được xem là công cụ hiệu quả nhất để xóa đói giảm nghèo và thúc đẩy bình đẳng xã hội.",
+                "point_en": "Education serves as the most potent instrument for poverty alleviation and upward social mobility.",
+                "point_collocations": [
+                  {
+                    "en": "most potent instrument",
+                    "vi": "công cụ hiệu quả nhất"
+                  },
+                  {
+                    "en": "poverty alleviation",
+                    "vi": "xóa đói giảm nghèo"
+                  },
+                  {
+                    "en": "upward social mobility",
+                    "vi": "thúc đẩy bình đẳng xã hội"
+                  }
+                ],
+                "evidence_vi": "Việc trang bị kỹ năng chuyên môn mở ra cơ hội việc làm có thu nhập cao cho thanh niên thuộc các hoàn cảnh khó khăn. Nhờ phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ, giáo dục giúp nâng cao mức sống toàn diện và thu hẹp khoảng cách giàu nghèo.",
+                "evidence_en": "Gaining specialized skills unlocks remunerative employment for disadvantaged youths. By breaking generational cycles of deprivation, education elevates overall living standards and narrows socioeconomic inequality.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "gain specialized skills",
+                      "vi": "trang bị kỹ năng chuyên môn"
+                    },
+                    {
+                      "en": "remunerative employment",
+                      "vi": "việc làm có thu nhập cao"
+                    },
+                    {
+                      "en": "disadvantaged youths",
+                      "vi": "thanh niên thuộc các hoàn cảnh khó khăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "break generational cycles of deprivation",
+                      "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ"
+                    },
+                    {
+                      "en": "elevate living standards",
+                      "vi": "nâng cao mức sống toàn diện"
+                    },
+                    {
+                      "en": "narrow socioeconomic inequality",
+                      "vi": "thu hẹp khoảng cách giàu nghèo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "poverty alleviation",
+                    "vi": "xóa đói giảm nghèo"
+                  },
+                  {
+                    "en": "upward social mobility",
+                    "vi": "thúc đẩy bình đẳng xã hội"
+                  },
+                  {
+                    "en": "break generational cycles of deprivation",
+                    "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ"
+                  },
+                  {
+                    "en": "narrow socioeconomic inequality",
+                    "vi": "thu hẹp khoảng cách giàu nghèo"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: VUN ĐẮP NHÂN CÁCH ĐẠO ĐỨC VÀ Ý THỨC CÔNG DÂN (CULTIVATE MORAL INTEGRITY AND CIVIC RESPONSIBILITY)",
+                "point_vi": "Hệ thống giáo dục đóng vai trò trụ cột trong việc vun đắp nhân cách đạo đức và bồi dưỡng ý thức công dân tích cực.",
+                "point_en": "Educational systems serve as pillars for cultivating moral integrity and fostering active civic consciousness.",
+                "point_collocations": [
+                  {
+                    "en": "cultivate moral integrity",
+                    "vi": "vun đắp nhân cách đạo đức"
+                  },
+                  {
+                    "en": "foster active civic consciousness",
+                    "vi": "bồi dưỡng ý thức công dân tích cực"
+                  }
+                ],
+                "evidence_vi": "Thông qua các hoạt động tập thể và giáo dục công dân, học sinh thấu hiểu sâu sắc về quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng văn hóa. Nhận thức này giúp giảm thiểu bạo lực học đường và xây dựng một xã hội văn minh, thượng tôn pháp luật.",
+                "evidence_en": "Through civics curricula and collaborative projects, students gain profound insights into human rights, tolerance, and respect for diversity. Such heightened awareness curbs antisocial conduct and builds an equitable, law-abiding civil society.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "civics curricula and collaborative projects",
+                      "vi": "các hoạt động tập thể và giáo dục công dân"
+                    },
+                    {
+                      "en": "human rights, tolerance, and diversity",
+                      "vi": "quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "curb antisocial conduct",
+                      "vi": "giảm thiểu bạo lực học đường"
+                    },
+                    {
+                      "en": "build an equitable, law-abiding civil society",
+                      "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultivate moral integrity",
+                    "vi": "vun đắp nhân cách đạo đức"
+                  },
+                  {
+                    "en": "foster active civic consciousness",
+                    "vi": "bồi dưỡng ý thức công dân tích cực"
+                  },
+                  {
+                    "en": "human rights, tolerance, and diversity",
+                    "vi": "quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng văn hóa"
+                  },
+                  {
+                    "en": "build an equitable, law-abiding civil society",
+                    "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: ĐỘNG LỰC ĐỔI MỚI CÔNG NGHỆ VÀ THỊNH VƯỢNG KINH TẾ (DRIVE TECHNOLOGICAL INNOVATION AND ECONOMIC PROSPERITY)",
+                "point_vi": "Đầu tư vào giáo dục chất lượng cao là động lực cốt lõi thúc đẩy đổi mới công nghệ và thịnh vượng kinh tế quốc gia.",
+                "point_en": "Investing in high-quality education is the primary catalyst for technological innovation and national economic prosperity.",
+                "point_collocations": [
+                  {
+                    "en": "invest in high-quality education",
+                    "vi": "đầu tư vào giáo dục chất lượng cao"
+                  },
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  },
+                  {
+                    "en": "national economic prosperity",
+                    "vi": "thịnh vượng kinh tế quốc gia"
+                  }
+                ],
+                "evidence_vi": "Đội ngũ chuyên gia và nhà nghiên cứu có trình độ cao liên tục phát minh ra các giải pháp tự động hóa cùng mô hình kinh doanh mang tính đột phá. Năng suất lao động gia tăng cùng sự phát triển của nền kinh tế tri thức tạo nền tảng vững chắc để quốc gia cạnh tranh toàn cầu.",
+                "evidence_en": "Highly qualified researchers and innovators continuously spearhead breakthrough technological applications and sustainable business models. Augmented labor productivity and the emergence of a knowledge-based economy establish strong foundations for global competitiveness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spearhead breakthrough technological applications",
+                      "vi": "phát minh ra các giải pháp tự động hóa cùng mô hình kinh doanh mang tính đột phá"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "augmented labor productivity",
+                      "vi": "năng suất lao động gia tăng"
+                    },
+                    {
+                      "en": "knowledge-based economy",
+                      "vi": "nền kinh tế tri thức"
+                    },
+                    {
+                      "en": "global competitiveness",
+                      "vi": "cạnh tranh toàn cầu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "invest in high-quality education",
+                    "vi": "đầu tư vào giáo dục chất lượng cao"
+                  },
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  },
+                  {
+                    "en": "spearhead breakthrough technological applications",
+                    "vi": "phát minh ra các giải pháp tự động hóa cùng mô hình kinh doanh mang tính đột phá"
+                  },
+                  {
+                    "en": "knowledge-based economy",
+                    "vi": "nền kinh tế tri thức"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "sample_b1": "In every modern society, <strong>education</strong> plays an indispensable role in developing individuals and building strong nations. From early childhood to university, schooling equips learners with essential knowledge, practical skills, and good moral values. <strong>This essay will highlight the fundamental reasons why education is of paramount importance.</strong>\n\n<strong>First and foremost, education empowers individuals to build successful careers and improve their living conditions.</strong> Through formal schooling, <strong><em>students acquire knowledge and learn essential work skills</em></strong> in languages, sciences, and technology. These qualifications help them secure well-paying jobs and earn stable incomes. As a result, <strong><em>education helps poor people escape poverty sustainably</em></strong>, enabling them to provide adequate nutrition, healthcare, and housing for their families. Without access to basic schooling, breaking the vicious cycle of generational poverty remains nearly impossible.\n\n<strong>Furthermore, education plays a vital role in nurturing moral character and advancing national prosperity.</strong> At school, <strong><em>education teaches people good morals and makes them model citizens</em></strong> by promoting kindness, honesty, and respect for the law. Children learn to resolve conflicts peacefully and contribute constructively to their communities. On a broader national scale, <strong><em>education develops talented human resources that make countries prosperous</em></strong>. Educated engineers, doctors, and entrepreneurs invent modern machines, discover medical treatments, and accelerate economic growth.\n\n<strong>In conclusion</strong>, education is the foundation of personal advancement and collective social progress. It not only broadens human knowledge and elevates living standards but also instills ethical virtues and drives economic vitality. Governments must therefore prioritize investing in accessible education for all citizens.",
+          "translation_b1": "Trong mọi xã hội hiện đại, <strong>giáo dục</strong> đóng vai trò không thể thiếu đối với sự phát triển của mỗi cá nhân và việc xây dựng những quốc gia vững mạnh. Từ thuở ấu thơ cho đến bậc đại học, trường học trang bị cho người học những kiến thức cần thiết, kỹ năng thực tế và giá trị đạo đức tốt đẹp. <strong>Bài luận này sẽ làm nổi bật những lý do cơ bản giải thích vì sao giáo dục lại mang tầm quan trọng tối cao.</strong>\n\n<strong>Trước hết và quan trọng nhất, giáo dục trao quyền cho các cá nhân xây dựng sự nghiệp thành công và cải thiện điều kiện sống.</strong> Thông qua trường lớp chính quy, <strong><em>học sinh tiếp thu kiến thức và học các kỹ năng làm việc cần thiết</em></strong> về ngôn ngữ, khoa học và công nghệ. Những bằng cấp này giúp các em đảm bảo có được công việc được trả lương tốt và kiếm được thu nhập ổn định. Nhờ đó, <strong><em>giáo dục giúp người nghèo thoát nghèo bền vững</em></strong>, cho phép họ chu cấp dinh dưỡng đầy đủ, chăm sóc sức khỏe và nhà ở cho gia đình mình. Nếu không được tiếp cận với giáo dục cơ bản, việc phá vỡ vòng luẩn quẩn nghèo đói qua các thế hệ gần như là điều không thể.\n\n<strong>Hơn nữa, giáo dục đóng vai trò thiết yếu trong việc nuôi dưỡng nhân cách đạo đức và thúc đẩy sự thịnh vượng quốc gia.</strong> Tại trường học, <strong><em>giáo dục dạy con người đạo đức tốt và trở thành những công dân gương mẫu</em></strong> thông qua việc khuyến khích lòng nhân ái, sự trung thực và tôn trọng pháp luật. Trẻ em học cách giải quyết xung đột trong hòa bình và đóng góp tích cực cho cộng đồng của mình. Trên quy mô quốc gia rộng lớn hơn, <strong><em>giáo dục phát triển nguồn nhân lực giỏi giúp đất nước phát triển giàu mạnh</em></strong>. Đội ngũ kỹ sư, bác sĩ và doanh nhân có học thức sáng tạo ra máy móc hiện đại, tìm ra phương pháp chữa bệnh và đẩy nhanh tăng trưởng kinh tế.\n\n<strong>Tóm lại</strong>, giáo dục là nền tảng của sự tiến bộ cá nhân và sự phát triển chung của toàn xã hội. Nó không chỉ mở rộng tri thức con người và nâng cao mức sống mà còn vun đắp các phẩm hạnh đạo đức và thúc đẩy sức sống kinh tế. Do đó, các chính phủ phải ưu tiên đầu tư vào nền giáo dục dễ tiếp cận cho mọi người dân.",
+          "sample_b2": "In the contemporary era of globalization and rapid technological advancement, <strong>education</strong> stands as the cornerstone of individual empowerment and societal evolution. Far beyond mere academic instruction, comprehensive education shapes cognitive faculties, fosters ethical awareness, and underpins sustainable economic competitiveness. <strong>This essay will elucidate the profound importance of education across personal, social, and national dimensions.</strong>\n\n<strong>At the individual and socioeconomic level, education is the most powerful catalyst for intellectual growth and poverty eradication.</strong> Firstly, <strong><em>education equips individuals with profound academic knowledge and cultivates core professional competencies</em></strong>, enabling learners to master scientific paradigms and cutting-edge digital technologies. This systematic intellectual enrichment unlocks remunerative career pathways, which significantly enhances labor competitiveness. Furthermore, <strong><em>education serves as the most potent instrument for poverty alleviation and upward social mobility</em></strong>. By providing disadvantaged youths with specialized vocational skill sets, it effectively dismantles generational cycles of deprivation and narrows systemic income disparities, thereby elevating societal living standards.\n\n<strong>On a collective and macroeconomic scale, education nurtures civic responsibility and fuels technological innovation.</strong> Within educational institutions, <strong><em>educational systems serve as pillars for cultivating moral integrity and fostering active civic consciousness</em></strong>. Rigorous civics curricula and collaborative environments instill core democratic values, including human rights, tolerance, and respect for diversity, which curtails antisocial conduct and fortifies law-abiding civil societies. Moreover, <strong><em>investing in high-quality education is the primary catalyst for technological innovation and national economic prosperity</em></strong>. Highly qualified researchers and visionary entrepreneurs continuously spearhead automated solutions and sustainable industrial models, driving productivity gains within knowledge-based economies.\n\n<strong>In conclusion</strong>, education constitutes the bedrock of human dignity and national advancement. It not only liberates individuals from economic hardship through intellectual enlightenment but also cultivates ethical civic cohesion and secures global economic resilience. Consequently, universal access to high-caliber education must remain a top policy priority for all forward-thinking governments.",
+          "translation_b2": "Trong kỷ nguyên đương đại của toàn cầu hóa và sự phát triển công nghệ thần tốc, <strong>giáo dục</strong> giữ vai trò là nền tảng vững chắc cho sự trao quyền cá nhân và sự tiến hóa của toàn xã hội. Vượt xa khỏi khuôn khổ giảng dạy học thuật đơn thuần, một nền giáo dục toàn diện định hình năng lực nhận thức, bồi đắp ý thức đạo đức và củng cố năng lực cạnh tranh kinh tế bền vững. <strong>Bài luận này sẽ làm sáng tỏ tầm quan trọng sâu sắc của giáo dục trên các phương diện cá nhân, xã hội và quốc gia.</strong>\n\n<strong>Ở cấp độ cá nhân và kinh tế xã hội, giáo dục là chất xúc tác mạnh mẽ nhất cho sự phát triển trí tuệ và công cuộc xóa đói giảm nghèo.</strong> Trước hết, <strong><em>giáo dục trang bị cho con người nền tảng tri thức chuyên sâu và rèn luyện các kỹ năng chuyên môn cốt lõi</em></strong>, cho phép người học làm chủ các chuẩn mực khoa học và công nghệ kỹ thuật số tiên tiến. Sự làm giàu tri thức có hệ thống này mở ra những con đường sự nghiệp có mức lương cao, giúp gia tăng đáng kể năng lực cạnh tranh lao động. Hơn nữa, <strong><em>giáo dục được xem là công cụ hiệu quả nhất để xóa đói giảm nghèo và thúc đẩy bình đẳng xã hội</em></strong>. Bằng cách trang bị các bộ kỹ năng chuyên môn cho thanh thiếu niên có hoàn cảnh khó khăn, nó phá vỡ một cách hiệu quả vòng luẩn quẩn nghèo túng qua các thế hệ và thu hẹp sự chênh lệch thu nhập mang tính hệ thống, từ đó nâng cao mức sống của toàn xã hội.\n\n<strong>Trên quy mô tập thể và kinh tế vĩ mô, giáo dục nuôi dưỡng trách nhiệm công dân và thúc đẩy đổi mới công nghệ.</strong> Bên trong các cơ sở giáo dục, <strong><em>hệ thống giáo dục đóng vai trò trụ cột trong việc vun đắp nhân cách đạo đức và bồi dưỡng ý thức công dân tích cực</em></strong>. Các chương trình giáo dục công dân bài bản và môi trường hợp tác giúp thấm nhuần các giá trị dân chủ cốt lõi, bao gồm quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng, giúp giảm thiểu các hành vi tiêu cực và củng cố các xã hội thượng tôn pháp luật. Hơn nữa, <strong><em>đầu tư vào giáo dục chất lượng cao là động lực cốt lõi thúc đẩy đổi mới công nghệ và thịnh vượng kinh tế quốc gia</em></strong>. Đội ngũ nhà nghiên cứu và doanh nhân có trình độ cao liên tục tiên phong tạo ra các giải pháp tự động hóa và mô hình công nghiệp bền vững, thúc đẩy sự gia tăng năng suất trong các nền kinh tế tri thức.\n\n<strong>Tóm lại</strong>, giáo dục cấu thành nên nền tảng của phẩm giá con người và sự tiến bộ của quốc gia. Nó không chỉ giải phóng các cá nhân khỏi khó khăn kinh tế nhờ sự khai sáng trí tuệ mà còn vun đắp sự gắn kết đạo đức công dân và bảo đảm sức chống chịu kinh tế toàn cầu. Do đó, việc phổ cập nền giáo dục chất lượng cao cho mọi người dân phải luôn là ưu tiên chính sách hàng đầu của mọi chính phủ có tầm nhìn tiến bộ."
+        }
       },
       {
         "id": 33,
@@ -64463,7 +67523,1153 @@ const ESSAY_DATA = [
         "title_vi": "Tầm quan trọng của sự gắn kết cộng đồng trong thiên tai",
         "context": "In many countries, natural disasters such as floods, storms, earthquakes, and landslides can seriously affect people’s lives. During these difficult situations, strong neighborhood connection can help residents support one another, share useful information, and respond to emergencies more effectively. Many people believe that community bonds play an important role in reducing damage and helping people recover after disasters.",
         "prompt": "Write an essay to an educated reader to discuss the importance of neighborhood connection in natural disasters. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Tình làng nghĩa xóm trong mưa lũ miền Trung: Những bếp ăn ấm tình người",
+                "summary": "Ghi nhận những câu chuyện cảm động về sự sẻ chia bát cơm, manh áo và hỗ trợ sơ tán khẩn cấp giữa các gia đình khi lũ lụt chia cắt xóm làng.",
+                "url": "https://tuoitre.vn/tinh-lang-nghia-xom-trong-bao-lu-mien-trung-20231015112233445.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Sức mạnh cộng đồng - Yếu tố sống còn trong ứng phó thiên tai và thảm họa",
+                "summary": "Phân tích vai trò của lực lượng tại chỗ và sự tương trợ láng giềng trong việc bảo vệ tính mạng, tài sản và phục hồi sau bão lũ.",
+                "url": "https://vnexpress.net/suc-manh-cong-dong-trong-thien-tai-4356789.html"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Bà con chung tay dọn dẹp, dựng lại nhà cửa sau bão số 3: Tình người tỏa sáng trong gian khó",
+                "summary": "Phản ánh tinh thần tương thân tương ái, người khỏe giúp người yếu dựng lại mái nhà, thông đường sá ngay khi bão tan.",
+                "url": "https://dantri.com.vn/xa-hoi/ba-con-chung-tay-khac-phuc-hau-qua-sau-bao-20240910164530888.htm"
+              }
+            ],
+            "en": [
+              {
+                "source": "Red Cross International",
+                "title": "Community Resilience: Why Neighbors Are Always the Real First Responders",
+                "summary": "Examines global disaster data showing that the vast majority of lives saved during floods and earthquakes are rescued by immediate neighbors.",
+                "url": "https://www.ifrc.org/our-work/disasters-climate-and-crises/community-resilience"
+              },
+              {
+                "source": "The Guardian",
+                "title": "Mutual Aid in Crisis: How Neighborhood Networks Keep People Alive When Systems Fail",
+                "summary": "Reports on how community-led soup kitchens, informal rescue boats, and supply sharing networks prevent catastrophe during severe climate events.",
+                "url": "https://www.theguardian.com/world/2021/nov/20/mutual-aid-natural-disasters-climate-crisis"
+              },
+              {
+                "source": "FEMA",
+                "title": "The Power of Social Capital in Disaster Preparedness, Response, and Recovery",
+                "summary": "Presents empirical research proving that neighborhoods with strong pre-existing social ties experience faster economic and emotional recovery after disasters.",
+                "url": "https://www.fema.gov/emergency-managers/national-preparedness/social-capital-resilience"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Sự gắn kết cộng đồng trong thiên tai (Neighborhood connection in natural disasters)",
+            "overview": "Hệ thống từ vựng học thuật B1 và B2 cho chủ đề Tầm quan trọng của sự gắn kết cộng đồng trong thiên tai (The importance of neighborhood connection in natural disasters), bao gồm 20 từ vựng cốt lõi kèm họ từ và các nhóm cụm từ học thuật diễn đạt các vai trò cứu trợ sống còn: ứng cứu khẩn cấp, san sẻ lương thực nước sạch, truyền tin cảnh báo sớm, điểm tựa tâm lý và tái thiết sau bão lũ.",
+            "single_words": [
+              {
+                "word": "resilience",
+                "ipa": "/rɪˈzɪliəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng phục hồi, sức chống chịu kiên cường",
+                "example_en": "Community resilience helps residents recover quickly after floods.",
+                "example_vi": "Sức chống chịu của cộng đồng giúp người dân phục hồi nhanh chóng sau lũ lụt.",
+                "family": "resilient (adj), resiliently (adv)"
+              },
+              {
+                "word": "solidarity",
+                "ipa": "/ˌsɒlɪˈdærəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đoàn kết, tinh thần đồng lòng tương trợ",
+                "example_en": "Neighborhood solidarity saved many lives during the storm.",
+                "example_vi": "Sự đoàn kết xóm giềng đã cứu sống nhiều mạng người trong cơn bão.",
+                "family": "solidary (adj)"
+              },
+              {
+                "word": "evacuate",
+                "ipa": "/ɪˈvækjuːeɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "sơ tán, di tản khỏi nơi nguy hiểm",
+                "example_en": "Neighbors helped evacuate elderly residents from the flooded area.",
+                "example_vi": "Hàng xóm đã giúp sơ tán những người già ra khỏi khu vực ngập lụt.",
+                "family": "evacuation (n), evacuee (n)"
+              },
+              {
+                "word": "provision",
+                "ipa": "/prəˈvɪʒn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lương thực thực phẩm, nhu yếu phẩm dự trữ",
+                "example_en": "Families shared emergency food provisions with one another.",
+                "example_vi": "Các gia đình đã chia sẻ nhu yếu phẩm dự trữ khẩn cấp cho nhau.",
+                "family": "provide (v), provider (n)"
+              },
+              {
+                "word": "compassion",
+                "ipa": "/kəmˈpæʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng trắc ẩn, tình thương sẻ chia sâu sắc",
+                "example_en": "Local volunteers demonstrated immense compassion to disaster victims.",
+                "example_vi": "Các tình nguyện viên địa phương đã thể hiện lòng trắc ẩn bao la đối với các nạn nhân thiên tai.",
+                "family": "compassionate (adj), compassionately (adv)"
+              },
+              {
+                "word": "rescue",
+                "ipa": "/ˈreskjuː/",
+                "pos": "verb, noun",
+                "level": "B1",
+                "vi": "cứu nạn, giải cứu",
+                "example_en": "Villagers used small boats to rescue stranded neighbors.",
+                "example_vi": "Dân làng đã dùng thuyền nhỏ để cứu những người hàng xóm bị mắc kẹt.",
+                "family": "rescuer (n)"
+              },
+              {
+                "word": "emergency",
+                "ipa": "/ɪˈmɜːdʒənsi/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tình huống khẩn cấp",
+                "example_en": "Strong community networks act quickly in times of emergency.",
+                "example_vi": "Mạng lưới cộng đồng vững mạnh hành động rất nhanh trong các tình huống khẩn cấp.",
+                "family": "emergent (adj)"
+              },
+              {
+                "word": "stranded",
+                "ipa": "/ˈstrændɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bị mắc kẹt, cô lập không có lối thoát",
+                "example_en": "Floodwaters left hundreds of families stranded on their rooftops.",
+                "example_vi": "Nước lũ khiến hàng trăm gia đình bị mắc kẹt trên nóc nhà.",
+                "family": "strand (v)"
+              },
+              {
+                "word": "bereavement",
+                "ipa": "/bɪˈriːvmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nỗi đau mất mát người thân hoặc tài sản",
+                "example_en": "Communal support helps survivors cope with bereavement.",
+                "example_vi": "Sự hỗ trợ từ cộng đồng giúp những người sống sót vượt qua nỗi đau mất mát.",
+                "family": "bereaved (adj)"
+              },
+              {
+                "word": "hazard",
+                "ipa": "/ˈhæzəd/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "mối hiểm nguy, rủi ro tự nhiên",
+                "example_en": "Neighbors warned each other about landslide hazards.",
+                "example_vi": "Hàng xóm cảnh báo cho nhau về các mối nguy cơ sạt lở đất.",
+                "family": "hazardous (adj)"
+              },
+              {
+                "word": "unclog",
+                "ipa": "/ˌʌnˈklɒɡ/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "khai thông, thông cống rãnh tắc nghẽn",
+                "example_en": "Residents worked together to unclog flooded drainage canals.",
+                "example_vi": "Người dân cùng nhau khai thông các cống thoát nước bị ngập.",
+                "family": "clog (v)"
+              },
+              {
+                "word": "disaster",
+                "ipa": "/dɪˈzɑːstə(r)/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "thảm họa, thiên tai",
+                "example_en": "Natural disasters can destroy homes in just a few minutes.",
+                "example_vi": "Thiên tai có thể tàn phá nhà cửa chỉ trong vài phút.",
+                "family": "disastrous (adj), disastrously (adv)"
+              },
+              {
+                "word": "adversity",
+                "ipa": "/ədˈvɜːsəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nghịch cảnh, hoàn cảnh gian nan thử thách",
+                "example_en": "Neighborhood bonds grow stronger in the face of adversity.",
+                "example_vi": "Tình làng nghĩa xóm càng trở nên bền chặt hơn khi đối mặt với nghịch cảnh.",
+                "family": "adverse (adj), adversely (adv)"
+              },
+              {
+                "word": "precaution",
+                "ipa": "/prɪˈkɔːʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "biện pháp phòng ngừa trước",
+                "example_en": "Families took safety precautions before the storm made landfall.",
+                "example_vi": "Các gia đình đã thực hiện các biện pháp phòng ngừa an toàn trước khi bão đổ bộ.",
+                "family": "precautionary (adj)"
+              },
+              {
+                "word": "reinforce",
+                "ipa": "/ˌriːɪnˈfɔːs/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "gia cố, chằng chống vững chắc",
+                "example_en": "Neighbors helped each other reinforce fragile roofs.",
+                "example_vi": "Hàng xóm đã giúp nhau chằng chống lại các mái nhà yếu ớt.",
+                "family": "reinforcement (n)"
+              },
+              {
+                "word": "temporary",
+                "ipa": "/ˈtemprəri/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "tạm thời, nhất thời",
+                "example_en": "A community hall served as a temporary shelter.",
+                "example_vi": "Nhà văn hóa thôn được dùng làm nơi trú ẩn tạm thời.",
+                "family": "temporarily (adv)"
+              },
+              {
+                "word": "rehabilitate",
+                "ipa": "/ˌriːhəˈbɪlɪteɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "khôi phục, sửa sang phục hồi chức năng",
+                "example_en": "Villagers volunteered to rehabilitate the damaged local school.",
+                "example_vi": "Bà con dân làng đã tình nguyện sửa sang lại ngôi trường địa phương bị hư hại.",
+                "family": "rehabilitation (n)"
+              },
+              {
+                "word": "generous",
+                "ipa": "/ˈdʒenərəs/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "hào phóng, rộng lượng sẻ chia",
+                "example_en": "Generous neighbors shared their clean water supplies.",
+                "example_vi": "Những người hàng xóm hào phóng đã san sẻ nguồn nước sạch của họ.",
+                "family": "generosity (n), generously (adv)"
+              },
+              {
+                "word": "cohesive",
+                "ipa": "/kəʊˈhiːsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gắn kết chặt chẽ, thống nhất một khối",
+                "example_en": "A cohesive neighborhood recovers faster from catastrophic storms.",
+                "example_vi": "Một khu phố gắn kết chặt chẽ sẽ hồi phục nhanh hơn sau những cơn bão thảm khốc.",
+                "family": "cohesion (n)"
+              },
+              {
+                "word": "revitalization",
+                "ipa": "/ˌriːˌvaɪtəlaɪˈzeɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự hồi sinh, tái thiết phục hồi kinh tế",
+                "example_en": "Local solidarity aids post-storm economic revitalization.",
+                "example_vi": "Tinh thần đoàn kết địa phương hỗ trợ quá trình hồi sinh kinh tế sau bão.",
+                "family": "revitalize (v)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t33_b1",
+                "name": "LỢI ÍCH 01: ỨNG CỨU VÀ HỖ TRỢ KHẨN CẤP TẠI CHỖ (IMMEDIATE RESCUE AND FIRST RESPONSE)",
+                "icon": "🚨",
+                "badge": "Gắn kết 01",
+                "items": [
+                  {
+                    "en": "neighborhood connection",
+                    "vi": "tình làng nghĩa xóm"
+                  },
+                  {
+                    "en": "support and rescue each other",
+                    "vi": "hỗ trợ và cứu giúp nhau kịp thời"
+                  },
+                  {
+                    "en": "on-site first-response network",
+                    "vi": "mạng lưới ứng phó tại chỗ"
+                  },
+                  {
+                    "en": "instant emergency rescue",
+                    "vi": "công tác cứu nạn khẩn cấp tức thì"
+                  },
+                  {
+                    "en": "evacuate stranded individuals",
+                    "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm"
+                  }
+                ]
+              },
+              {
+                "id": "t33_b2",
+                "name": "LỢI ÍCH 02: CHIA SẺ LƯƠNG THỰC VÀ NHU YẾU PHẨM (SHARE FOOD AND RELIEF SUPPLIES)",
+                "icon": "🍚",
+                "badge": "Gắn kết 02",
+                "items": [
+                  {
+                    "en": "community bonding",
+                    "vi": "sự gắn kết xóm giềng"
+                  },
+                  {
+                    "en": "share food, clean water, and medicine",
+                    "vi": "chia sẻ đồ ăn, nước sạch và thuốc men"
+                  },
+                  {
+                    "en": "local solidarity",
+                    "vi": "tinh thần đoàn kết địa phương"
+                  },
+                  {
+                    "en": "equitable sharing of vital resources",
+                    "vi": "chia sẻ tài nguyên"
+                  },
+                  {
+                    "en": "relief provisions",
+                    "vi": "hỗ trợ nhu yếu phẩm một cách công bằng"
+                  }
+                ]
+              },
+              {
+                "id": "t33_b3",
+                "name": "LỢI ÍCH 03: TRUYỀN TIN VÀ CẢNH BÁO NGUY HIỂM SỚM (DISSEMINATE WARNINGS AND INTELLIGENCE)",
+                "icon": "📢",
+                "badge": "Gắn kết 03",
+                "items": [
+                  {
+                    "en": "spread storm and flood warnings",
+                    "vi": "truyền tin tức cảnh báo bão lũ nhanh hơn"
+                  },
+                  {
+                    "en": "knock on doors to give warnings",
+                    "vi": "gõ cửa từng nhà để báo động"
+                  },
+                  {
+                    "en": "interconnected neighborhood networks",
+                    "vi": "mạng lưới gắn kết xóm giềng"
+                  },
+                  {
+                    "en": "uninhibited flow of survival information",
+                    "vi": "dòng chảy thông tin thông suốt"
+                  },
+                  {
+                    "en": "localized early warnings",
+                    "vi": "lan tỏa các cảnh báo an toàn kịp thời"
+                  }
+                ]
+              },
+              {
+                "id": "t33_b4",
+                "name": "LỢI ÍCH 04: ĐỘNG VIÊN TINH THẦN VÀ XOA DỊU NỖI SỢ (EMOTIONAL COMFORT AND RESILIENCE)",
+                "icon": "❤️",
+                "badge": "Gắn kết 04",
+                "items": [
+                  {
+                    "en": "calm fears",
+                    "vi": "xoa dịu nỗi sợ hãi"
+                  },
+                  {
+                    "en": "brings peace of mind",
+                    "vi": "mang lại cảm giác an tâm cho mọi người"
+                  },
+                  {
+                    "en": "psychological anchor",
+                    "vi": "chỗ dựa tâm lý vững vàng"
+                  },
+                  {
+                    "en": "catastrophic emotional trauma",
+                    "vi": "cú sốc tinh thần sau thảm họa"
+                  },
+                  {
+                    "en": "rekindle optimism",
+                    "vi": "thắp lại niềm hy vọng sống"
+                  }
+                ]
+              },
+              {
+                "id": "t33_b5",
+                "name": "LỢI ÍCH 05: ĐẨY NHANH TÁI THIẾT VÀ HỒI PHỤC (ACCELERATE POST-DISASTER RECONSTRUCTION)",
+                "icon": "🛠️",
+                "badge": "Gắn kết 05",
+                "items": [
+                  {
+                    "en": "clean up debris",
+                    "vi": "dọn dẹp vệ sinh"
+                  },
+                  {
+                    "en": "repair homes",
+                    "vi": "sửa chữa nhà cửa sau thiên tai"
+                  },
+                  {
+                    "en": "collective neighborhood action",
+                    "vi": "sức mạnh hợp lực của cộng đồng"
+                  },
+                  {
+                    "en": "environmental cleanup",
+                    "vi": "dọn dẹp hiện trường"
+                  },
+                  {
+                    "en": "reconstruction of basic infrastructure",
+                    "vi": "tái thiết hạ tầng dân sinh sau bão lũ"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "natural disaster response",
+              "vi": "ứng phó thiên tai"
+            },
+            {
+              "en": "neighborhood solidarity",
+              "vi": "tinh thần đoàn kết xóm giềng"
+            },
+            {
+              "en": "community resilience",
+              "vi": "sức chống chịu của cộng đồng"
+            },
+            {
+              "en": "on-site first response",
+              "vi": "ứng phó khẩn cấp tại chỗ"
+            },
+            {
+              "en": "evacuate stranded residents",
+              "vi": "sơ tán người dân bị mắc kẹt"
+            },
+            {
+              "en": "safe evacuation center",
+              "vi": "khu vực sơ tán an toàn"
+            },
+            {
+              "en": "mutual aid and support",
+              "vi": "sự tương trợ và hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "share relief provisions",
+              "vi": "chia sẻ nhu yếu phẩm cứu trợ"
+            },
+            {
+              "en": "drinking water and rations",
+              "vi": "nước uống và khẩu phần lương thực"
+            },
+            {
+              "en": "prevent starvation",
+              "vi": "ngăn chặn nạn đói khát"
+            },
+            {
+              "en": "vulnerable populations",
+              "vi": "những đối tượng dễ bị tổn thương"
+            },
+            {
+              "en": "early warning dissemination",
+              "vi": "phổ biến thông tin cảnh báo sớm"
+            },
+            {
+              "en": "telecommunication blackout",
+              "vi": "tình trạng mất liên lạc viễn thông"
+            },
+            {
+              "en": "word-of-mouth relay",
+              "vi": "truyền tin bằng miệng"
+            },
+            {
+              "en": "psychological comfort",
+              "vi": "sự an ủi về tâm lý"
+            },
+            {
+              "en": "alleviate trauma",
+              "vi": "làm vơi bớt chấn thương tâm lý"
+            },
+            {
+              "en": "emotional resilience",
+              "vi": "sức mạnh tinh thần kiên cường"
+            },
+            {
+              "en": "overcome adversity",
+              "vi": "vượt qua nghịch cảnh"
+            },
+            {
+              "en": "post-disaster reconstruction",
+              "vi": "tái thiết sau thiên tai"
+            },
+            {
+              "en": "clear debris and mud",
+              "vi": "dọn dẹp đất đá và bùn lầy"
+            },
+            {
+              "en": "repair damaged shelters",
+              "vi": "sửa sang nhà cửa hư hỏng"
+            },
+            {
+              "en": "restore essential utilities",
+              "vi": "khôi phục các tiện ích thiết yếu"
+            },
+            {
+              "en": "alleviate government burden",
+              "vi": "giảm bớt gánh nặng cho chính quyền"
+            },
+            {
+              "en": "expedite recovery",
+              "vi": "đẩy nhanh tốc độ phục hồi"
+            },
+            {
+              "en": "social cohesion in crisis",
+              "vi": "sự gắn kết xã hội trong khủng hoảng"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: ỨNG CỨU VÀ HỖ TRỢ KHẨN CẤP KỊP THỜI",
+                "point_vi": "Tình làng nghĩa xóm giúp người dân hỗ trợ và cứu giúp nhau kịp thời khi bão lũ ập đến.",
+                "point_en": "Neighborhood connection helps residents support and rescue each other promptly during sudden storms and floods.",
+                "point_collocations": [
+                  {
+                    "en": "neighborhood connection",
+                    "vi": "tình làng nghĩa xóm"
+                  },
+                  {
+                    "en": "support and rescue each other",
+                    "vi": "hỗ trợ và cứu giúp nhau kịp thời"
+                  },
+                  {
+                    "en": "during sudden storms and floods",
+                    "vi": "khi bão lũ ập đến"
+                  }
+                ],
+                "evidence_vi": "Khi nước lũ dâng cao hoặc nhà cửa bị sập, hàng xóm là những người đầu tiên có mặt để đưa người già và trẻ nhỏ đến nơi an toàn. Sự giúp đỡ nhanh chóng này giúp bảo vệ tính mạng trước khi lực lượng cứu hộ chuyên nghiệp kịp đến.",
+                "evidence_en": "When floodwaters rise or homes collapse, neighbors are the first to arrive to take elderly people and children to safety. This rapid assistance saves lives before professional rescue teams can arrive.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "floodwaters rise",
+                      "vi": "nước lũ dâng cao"
+                    },
+                    {
+                      "en": "take elderly people and children to safety",
+                      "vi": "đưa người già và trẻ nhỏ đến nơi an toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rapid assistance saves lives",
+                      "vi": "sự giúp đỡ nhanh chóng này giúp bảo vệ tính mạng"
+                    },
+                    {
+                      "en": "professional rescue teams",
+                      "vi": "lực lượng cứu hộ chuyên nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "neighborhood connection",
+                    "vi": "tình làng nghĩa xóm"
+                  },
+                  {
+                    "en": "support and rescue each other",
+                    "vi": "hỗ trợ và cứu giúp nhau kịp thời"
+                  },
+                  {
+                    "en": "take elderly people and children to safety",
+                    "vi": "đưa người già và trẻ nhỏ đến nơi an toàn"
+                  },
+                  {
+                    "en": "professional rescue teams",
+                    "vi": "lực lượng cứu hộ chuyên nghiệp"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: CHIA SẺ LƯƠNG THỰC, NƯỚC UỐNG VÀ NHU YẾU PHẨM",
+                "point_vi": "Sự gắn kết xóm giềng giúp mọi người chia sẻ đồ ăn, nước sạch và thuốc men trong hoàn cảnh khó khăn.",
+                "point_en": "Community bonding helps people share food, clean water, and medicine during tough situations.",
+                "point_collocations": [
+                  {
+                    "en": "community bonding",
+                    "vi": "sự gắn kết xóm giềng"
+                  },
+                  {
+                    "en": "share food, clean water, and medicine",
+                    "vi": "chia sẻ đồ ăn, nước sạch và thuốc men"
+                  },
+                  {
+                    "en": "during tough situations",
+                    "vi": "trong hoàn cảnh khó khăn"
+                  }
+                ],
+                "evidence_vi": "Trong những ngày mất điện và ngập nước, các hộ gia đình có thể chia sẻ mì gói, đèn pin và nước uống cho những nhà bị thiếu thốn. Tinh thần đùm bọc này giúp mọi người cùng nhau vượt qua những ngày thiếu lương thực.",
+                "evidence_en": "During power cuts and flooded days, households can share instant noodles, flashlights, and drinking water with needy neighbors. This mutual caring helps everyone survive food shortages together.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "power cuts and flooded days",
+                      "vi": "những ngày mất điện và ngập nước"
+                    },
+                    {
+                      "en": "instant noodles, flashlights, and drinking water",
+                      "vi": "mì gói, đèn pin và nước uống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mutual caring",
+                      "vi": "tinh thần đùm bọc"
+                    },
+                    {
+                      "en": "survive food shortages",
+                      "vi": "vượt qua những ngày thiếu lương thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "community bonding",
+                    "vi": "sự gắn kết xóm giềng"
+                  },
+                  {
+                    "en": "share food, clean water, and medicine",
+                    "vi": "chia sẻ đồ ăn, nước sạch và thuốc men"
+                  },
+                  {
+                    "en": "instant noodles, flashlights, and drinking water",
+                    "vi": "mì gói, đèn pin và nước uống"
+                  },
+                  {
+                    "en": "survive food shortages",
+                    "vi": "vượt qua những ngày thiếu lương thực"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: TRUYỀN TẢI THÔNG TIN VÀ CẢNH BÁO NGUY HIỂM NHANH CHÓNG",
+                "point_vi": "Mối quan hệ thân thiết giữa hàng xóm giúp truyền tin tức cảnh báo bão lũ nhanh hơn.",
+                "point_en": "Close relationships among neighbors help spread storm and flood warnings faster.",
+                "point_collocations": [
+                  {
+                    "en": "close relationships",
+                    "vi": "mối quan hệ thân thiết"
+                  },
+                  {
+                    "en": "spread storm and flood warnings",
+                    "vi": "truyền tin tức cảnh báo bão lũ nhanh hơn"
+                  }
+                ],
+                "evidence_vi": "Khi sóng điện thoại hoặc mạng Internet bị mất, bà con trong xóm có thể trực tiếp gọi loa hoặc chạy sang gõ cửa từng nhà để báo động. Nhờ đó, các gia đình kịp thời chằng chống mái nhà và di chuyển đồ đạc lên chỗ cao.",
+                "evidence_en": "When mobile signals or Internet connections are lost, villagers can directly use loudspeakers or knock on doors to give warnings. Thanks to this, families can reinforce roofs and move furniture to higher ground in time.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mobile signals or Internet connections are lost",
+                      "vi": "sóng điện thoại hoặc mạng Internet bị mất"
+                    },
+                    {
+                      "en": "knock on doors to give warnings",
+                      "vi": "gõ cửa từng nhà để báo động"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reinforce roofs",
+                      "vi": "chằng chống mái nhà"
+                    },
+                    {
+                      "en": "move furniture to higher ground",
+                      "vi": "di chuyển đồ đạc lên chỗ cao"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "close relationships",
+                    "vi": "mối quan hệ thân thiết"
+                  },
+                  {
+                    "en": "spread storm and flood warnings",
+                    "vi": "truyền tin tức cảnh báo bão lũ nhanh hơn"
+                  },
+                  {
+                    "en": "knock on doors to give warnings",
+                    "vi": "gõ cửa từng nhà để báo động"
+                  },
+                  {
+                    "en": "move furniture to higher ground",
+                    "vi": "di chuyển đồ đạc lên chỗ cao"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: ĐỘNG VIÊN TINH THẦN VÀ GIẢM BỚT NỖI SỢ HÃI, CÔ ĐƠN",
+                "point_vi": "Sự quan tâm của láng giềng giúp xoa dịu nỗi sợ hãi và mang lại cảm giác an tâm cho mọi người.",
+                "point_en": "Neighbors' care helps calm fears and brings peace of mind to everyone.",
+                "point_collocations": [
+                  {
+                    "en": "calm fears",
+                    "vi": "xoa dịu nỗi sợ hãi"
+                  },
+                  {
+                    "en": "brings peace of mind",
+                    "vi": "mang lại cảm giác an tâm cho mọi người"
+                  }
+                ],
+                "evidence_vi": "Ngồi bên nhau trong bóng tối và cùng chia sẻ những lời động viên giúp người già và trẻ nhỏ bớt hoảng loạn khi bão gió gầm rú. Tình đoàn kết xóm làng nhắc nhở mỗi người rằng họ không phải chiến đấu đơn độc giữa nghịch cảnh.",
+                "evidence_en": "Sitting together in the dark and exchanging comforting words helps children and the elderly stay calm amid roaring winds. Community unity reassures people that they are not facing adversity alone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sitting together in the dark",
+                      "vi": "ngồi bên nhau trong bóng tối"
+                    },
+                    {
+                      "en": "stay calm amid roaring winds",
+                      "vi": "bớt hoảng loạn khi bão gió gầm rú"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "community unity",
+                      "vi": "tình đoàn kết xóm làng"
+                    },
+                    {
+                      "en": "not facing adversity alone",
+                      "vi": "không phải chiến đấu đơn độc giữa nghịch cảnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "calm fears",
+                    "vi": "xoa dịu nỗi sợ hãi"
+                  },
+                  {
+                    "en": "brings peace of mind",
+                    "vi": "mang lại cảm giác an tâm cho mọi người"
+                  },
+                  {
+                    "en": "stay calm amid roaring winds",
+                    "vi": "bớt hoảng loạn khi bão gió gầm rú"
+                  },
+                  {
+                    "en": "not facing adversity alone",
+                    "vi": "không phải chiến đấu đơn độc giữa nghịch cảnh"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: ĐẨY NHANH TIẾN ĐỘ TÁI THIẾT VÀ PHỤC HỒI SAU THIÊN TAI",
+                "point_vi": "Bà con xóm làng cùng chung tay giúp dọn dẹp vệ sinh và sửa chữa nhà cửa sau thiên tai.",
+                "point_en": "Neighbors work together to clean up debris and repair homes after natural disasters.",
+                "point_collocations": [
+                  {
+                    "en": "work together",
+                    "vi": "cùng chung tay"
+                  },
+                  {
+                    "en": "clean up debris",
+                    "vi": "dọn dẹp vệ sinh"
+                  },
+                  {
+                    "en": "repair homes",
+                    "vi": "sửa chữa nhà cửa sau thiên tai"
+                  }
+                ],
+                "evidence_vi": "Thanh niên và người khỏe mạnh trong làng cùng nhau dọn dẹp cây đổ, thông cống rãnh và dựng lại mái tôn cho các gia đình neo đơn. Sự hợp lực này giúp cả khu xóm nhanh chóng trở lại nhịp sống bình thường.",
+                "evidence_en": "Young and able-bodied villagers team up to clear fallen trees, unclog drainage canals, and rebuild damaged roofs for lonely elders. This combined effort helps the entire neighborhood resume normal life quickly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "clear fallen trees and unclog canals",
+                      "vi": "dọn dẹp cây đổ, thông cống rãnh"
+                    },
+                    {
+                      "en": "rebuild damaged roofs",
+                      "vi": "dựng lại mái tôn cho các gia đình neo đơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "combined effort",
+                      "vi": "sự hợp lực này"
+                    },
+                    {
+                      "en": "resume normal life",
+                      "vi": "nhanh chóng trở lại nhịp sống bình thường"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clean up debris",
+                    "vi": "dọn dẹp vệ sinh"
+                  },
+                  {
+                    "en": "repair homes",
+                    "vi": "sửa chữa nhà cửa sau thiên tai"
+                  },
+                  {
+                    "en": "clear fallen trees and unclog canals",
+                    "vi": "dọn dẹp cây đổ, thông cống rãnh"
+                  },
+                  {
+                    "en": "resume normal life",
+                    "vi": "nhanh chóng trở lại nhịp sống bình thường"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: MẠNG LƯỚI CỨU HỘ VÀ ỨNG PHÓ KHẨN CẤP TẠI CHỖ (ON-SITE EMERGENCY RESCUE AND FIRST RESPONSE)",
+                "point_vi": "Mối liên kết cộng đồng chặt chẽ tạo thành mạng lưới ứng phó tại chỗ giúp triển khai công tác cứu nạn khẩn cấp tức thì.",
+                "point_en": "Strong neighborhood solidarity functions as an on-site first-response network that delivers instant emergency rescue.",
+                "point_collocations": [
+                  {
+                    "en": "neighborhood solidarity",
+                    "vi": "mối liên kết cộng đồng chặt chẽ"
+                  },
+                  {
+                    "en": "on-site first-response network",
+                    "vi": "mạng lưới ứng phó tại chỗ"
+                  },
+                  {
+                    "en": "instant emergency rescue",
+                    "vi": "công tác cứu nạn khẩn cấp tức thì"
+                  }
+                ],
+                "evidence_vi": "Khi thiên tai làm tắc nghẽn giao thông và cô lập các khu dân cư, chính những người láng giềng gần gũi là lực lượng ứng cứu nhanh nhất để sơ tán người mắc kẹt khỏi vùng nguy hiểm. Hành động kịp thời này giúp tận dụng khung giờ vàng cứu hộ quý giá và giảm thiểu tối đa thương vong về người.",
+                "evidence_en": "When catastrophic events disrupt transportation arteries and isolate residential pockets, nearby neighbors act as immediate responders to evacuate stranded individuals. Such rapid intervention capitalizes on critical golden rescue hours, substantially curtailing preventable fatalities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "disrupt transportation arteries",
+                      "vi": "làm tắc nghẽn giao thông"
+                    },
+                    {
+                      "en": "isolate residential pockets",
+                      "vi": "cô lập các khu dân cư"
+                    },
+                    {
+                      "en": "evacuate stranded individuals",
+                      "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "critical golden rescue hours",
+                      "vi": "khung giờ vàng cứu hộ quý giá"
+                    },
+                    {
+                      "en": "curtail preventable fatalities",
+                      "vi": "giảm thiểu tối đa thương vong về người"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "neighborhood solidarity",
+                    "vi": "mối liên kết cộng đồng chặt chẽ"
+                  },
+                  {
+                    "en": "on-site first-response network",
+                    "vi": "mạng lưới ứng phó tại chỗ"
+                  },
+                  {
+                    "en": "evacuate stranded individuals",
+                    "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm"
+                  },
+                  {
+                    "en": "curtail preventable fatalities",
+                    "vi": "giảm thiểu tối đa thương vong về người"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: HUY ĐỘNG VÀ CHIA SẺ NHU YẾU PHẨM CỨU TRỢ CÔNG BẰNG (RESOURCE SHARING AND RELIEF MOBILIZATION)",
+                "point_vi": "Tinh thần đoàn kết địa phương thúc đẩy việc chia sẻ tài nguyên và hỗ trợ nhu yếu phẩm một cách công bằng giữa mùa hoạn nạn.",
+                "point_en": "Local solidarity mobilizes the equitable sharing of vital resources and relief provisions during catastrophic crises.",
+                "point_collocations": [
+                  {
+                    "en": "local solidarity",
+                    "vi": "tinh thần đoàn kết địa phương"
+                  },
+                  {
+                    "en": "equitable sharing of vital resources",
+                    "vi": "chia sẻ tài nguyên"
+                  },
+                  {
+                    "en": "relief provisions",
+                    "vi": "hỗ trợ nhu yếu phẩm một cách công bằng"
+                  }
+                ],
+                "evidence_vi": "Khi các chuỗi cung ứng thương mại bị đứt gãy hoàn toàn, việc láng giềng cùng nhau lập bếp ăn tập thể và san sẻ lương thực khô, máy phát điện cùng bông băng y tế có ý nghĩa sống còn. Sự tương trợ thiết thực này ngăn ngừa nguy cơ kiệt sức vì đói khát cho những người yếu thế trong cộng đồng.",
+                "evidence_en": "When commercial supply chains become severed, communal cooking initiatives and shared access to dry provisions, power generators, and medical dressings prove lifesaving. This pragmatic mutual aid prevents acute starvation and dehydration among vulnerable residents.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "commercial supply chains become severed",
+                      "vi": "chuỗi cung ứng thương mại bị đứt gãy hoàn toàn"
+                    },
+                    {
+                      "en": "communal cooking initiatives",
+                      "vi": "lập bếp ăn tập thể"
+                    },
+                    {
+                      "en": "shared access to dry provisions, power generators, and medical dressings",
+                      "vi": "san sẻ lương thực khô, máy phát điện cùng bông băng y tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pragmatic mutual aid",
+                      "vi": "sự tương trợ thiết thực"
+                    },
+                    {
+                      "en": "acute starvation and dehydration",
+                      "vi": "nguy cơ kiệt sức vì đói khát"
+                    },
+                    {
+                      "en": "vulnerable residents",
+                      "vi": "những người yếu thế trong cộng đồng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "local solidarity",
+                    "vi": "tinh thần đoàn kết địa phương"
+                  },
+                  {
+                    "en": "communal cooking initiatives",
+                    "vi": "lập bếp ăn tập thể"
+                  },
+                  {
+                    "en": "san sẻ lương thực khô, máy phát điện cùng bông băng y tế",
+                    "vi": "san sẻ lương thực khô, máy phát điện cùng bông băng y tế"
+                  },
+                  {
+                    "en": "acute starvation and dehydration",
+                    "vi": "nguy cơ kiệt sức vì đói khát"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: DUY TRÌ DÒNG CHẢY THÔNG TIN VÀ CẢNH BÁO NGUY CƠ TỨC THỜI (UNINTERRUPTED SURVIVAL INTELLIGENCE AND WARNINGS)",
+                "point_vi": "Mạng lưới gắn kết xóm giềng bảo đảm dòng chảy thông tin thông suốt và lan tỏa các cảnh báo an toàn kịp thời.",
+                "point_en": "Interconnected neighborhood networks guarantee the uninhibited flow of survival information and localized early warnings.",
+                "point_collocations": [
+                  {
+                    "en": "interconnected neighborhood networks",
+                    "vi": "mạng lưới gắn kết xóm giềng"
+                  },
+                  {
+                    "en": "uninhibited flow of survival information",
+                    "vi": "dòng chảy thông tin thông suốt"
+                  },
+                  {
+                    "en": "localized early warnings",
+                    "vi": "lan tỏa các cảnh báo an toàn kịp thời"
+                  }
+                ],
+                "evidence_vi": "Trong điều kiện viễn thông tê liệt và cúp điện diện rộng, các kênh liên lạc truyền miệng giữa các gia đình giúp cập nhật nhanh mực nước lũ, điểm sạt lở nguy hiểm và vị trí cứu trợ an toàn. Việc nắm bắt thông tin thực địa chuẩn xác này giúp người dân chủ động phòng tránh rủi ro và điều hướng thoát hiểm an toàn.",
+                "evidence_en": "Amid widespread telecommunication blackouts, word-of-mouth relay among trusted neighbors relays real-time updates regarding surging waterlevels, landslide hazards, and safe evacuation zones. This accurate ground-level intelligence empowers residents to take preemptive precautions and navigate toward safe havens.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "telecommunication blackouts",
+                      "vi": "viễn thông tê liệt và cúp điện diện rộng"
+                    },
+                    {
+                      "en": "word-of-mouth relay",
+                      "vi": "kênh liên lạc truyền miệng"
+                    },
+                    {
+                      "en": "surging waterlevels, landslide hazards, and safe evacuation zones",
+                      "vi": "mực nước lũ, điểm sạt lở nguy hiểm và vị trí cứu trợ an toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "accurate ground-level intelligence",
+                      "vi": "thông tin thực địa chuẩn xác"
+                    },
+                    {
+                      "en": "take preemptive precautions",
+                      "vi": "chủ động phòng tránh rủi ro"
+                    },
+                    {
+                      "en": "navigate toward safe havens",
+                      "vi": "điều hướng thoát hiểm an toàn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "interconnected neighborhood networks",
+                    "vi": "mạng lưới gắn kết xóm giềng"
+                  },
+                  {
+                    "en": "uninhibited flow of survival information",
+                    "vi": "dòng chảy thông tin thông suốt"
+                  },
+                  {
+                    "en": "word-of-mouth relay",
+                    "vi": "kênh liên lạc truyền miệng"
+                  },
+                  {
+                    "en": "take preemptive precautions",
+                    "vi": "chủ động phòng tránh rủi ro"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: ĐIỂM TỰA TÂM LÝ VÀ CHỮA LÀNH CHẤN THƯƠNG TINH THẦN (PSYCHOLOGICAL ANCHOR AND TRAUMA HEALING)",
+                "point_vi": "Tình làng nghĩa xóm là chỗ dựa tâm lý vững vàng giúp người dân vượt qua cú sốc tinh thần sau thảm họa.",
+                "point_en": "Solid communal empathy acts as a robust psychological anchor that shields survivors from catastrophic emotional trauma.",
+                "point_collocations": [
+                  {
+                    "en": "communal empathy",
+                    "vi": "tình làng nghĩa xóm"
+                  },
+                  {
+                    "en": "psychological anchor",
+                    "vi": "chỗ dựa tâm lý vững vàng"
+                  },
+                  {
+                    "en": "catastrophic emotional trauma",
+                    "vi": "cú sốc tinh thần sau thảm họa"
+                  }
+                ],
+                "evidence_vi": "Việc mất mát người thân, nhà cửa và toàn bộ tài sản tích lũy dễ đẩy nạn nhân vào trạng thái trầm cảm và tuyệt vọng sâu sắc. Trong hoàn cảnh đó, sự hiện diện thân tình, những cái ôm sẻ chia và lời an ủi chân thành từ những người cùng cảnh ngộ giúp thắp lại niềm hy vọng sống và tiếp thêm sức mạnh nội tâm để hồi sinh.",
+                "evidence_en": "Severe loss of loved ones, shelter, and lifelong assets can plunge survivors into acute bereavement and hopelessness. In such grim circumstances, empathetic solidarity, shared tears, and genuine communal compassion rekindle optimism and furnish emotional resilience to rebuild devastated lives.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "severe loss of loved ones and shelter",
+                      "vi": "mất mát người thân, nhà cửa"
+                    },
+                    {
+                      "en": "acute bereavement and hopelessness",
+                      "vi": "trạng thái trầm cảm và tuyệt vọng sâu sắc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "empathetic solidarity",
+                      "vi": "sự hiện diện thân tình"
+                    },
+                    {
+                      "en": "genuine communal compassion",
+                      "vi": "lời an ủi chân thành"
+                    },
+                    {
+                      "en": "rekindle optimism",
+                      "vi": "thắp lại niềm hy vọng sống"
+                    },
+                    {
+                      "en": "emotional resilience",
+                      "vi": "sức mạnh nội tâm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "psychological anchor",
+                    "vi": "chỗ dựa tâm lý vững vàng"
+                  },
+                  {
+                    "en": "catastrophic emotional trauma",
+                    "vi": "cú sốc tinh thần sau thảm họa"
+                  },
+                  {
+                    "en": "genuine communal compassion",
+                    "vi": "lời an ủi chân thành"
+                  },
+                  {
+                    "en": "rekindle optimism",
+                    "vi": "thắp lại niềm hy vọng sống"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: ĐẨY NHANH TÁI THIẾT DÂN SINH VÀ PHỤC HỒI KINH TẾ (ACCELERATE INFRASTRUCTURE RECONSTRUCTION AND ECONOMIC REVITALIZATION)",
+                "point_vi": "Sức mạnh hợp lực của cộng đồng đẩy nhanh tốc độ dọn dẹp hiện trường và tái thiết hạ tầng dân sinh sau bão lũ.",
+                "point_en": "Collective neighborhood action markedly accelerates environmental cleanup and the reconstruction of basic infrastructure.",
+                "point_collocations": [
+                  {
+                    "en": "collective neighborhood action",
+                    "vi": "sức mạnh hợp lực của cộng đồng"
+                  },
+                  {
+                    "en": "environmental cleanup",
+                    "vi": "dọn dẹp hiện trường"
+                  },
+                  {
+                    "en": "reconstruction of basic infrastructure",
+                    "vi": "tái thiết hạ tầng dân sinh sau bão lũ"
+                  }
+                ],
+                "evidence_vi": "Ngay khi bão lũ đi qua, các đội dân quân và tình nguyện viên xóm giềng phối hợp giải phóng bùn đất, khử trùng giếng nước và sửa sang trường lớp học. Tinh thần tự lực cánh sinh đầy gắn kết này giảm bớt gánh nặng cứu trợ cho chính quyền và giúp địa phương phục hồi kinh tế nhanh chóng hơn.",
+                "evidence_en": "As soon as floodwaters recede, localized volunteer brigades mobilize to shovel mud deposits, purify drinking wells, and rehabilitate school premises. This cohesive civic self-reliance alleviates state relief burdens and expedites long-term socioeconomic revitalization.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "localized volunteer brigades",
+                      "vi": "các đội dân quân và tình nguyện viên xóm giềng"
+                    },
+                    {
+                      "en": "purify drinking wells",
+                      "vi": "khử trùng giếng nước"
+                    },
+                    {
+                      "en": "rehabilitate school premises",
+                      "vi": "sửa sang trường lớp học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cohesive civic self-reliance",
+                      "vi": "tinh thần tự lực cánh sinh đầy gắn kết"
+                    },
+                    {
+                      "en": "alleviate state relief burdens",
+                      "vi": "giảm bớt gánh nặng cứu trợ cho chính quyền"
+                    },
+                    {
+                      "en": "expedite socioeconomic revitalization",
+                      "vi": "phục hồi kinh tế nhanh chóng hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "collective neighborhood action",
+                    "vi": "sức mạnh hợp lực của cộng đồng"
+                  },
+                  {
+                    "en": "reconstruction of basic infrastructure",
+                    "vi": "tái thiết hạ tầng dân sinh sau bão lũ"
+                  },
+                  {
+                    "en": "cohesive civic self-reliance",
+                    "vi": "tinh thần tự lực cánh sinh đầy gắn kết"
+                  },
+                  {
+                    "en": "expedite socioeconomic revitalization",
+                    "vi": "phục hồi kinh tế nhanh chóng hơn"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "sample_b1": "In recent years, natural disasters such as violent storms, flash floods, and landslides have severely threatened many communities worldwide. During such hazardous situations, official rescue teams often face delays due to damaged roads and communications. Consequently, <strong>neighborhood connection</strong> becomes an indispensable lifeline for survival. <strong>This essay will highlight the crucial importance of community solidarity during and after natural disasters.</strong>\n\n<strong>First and foremost, strong neighborhood connection delivers immediate rescue and essential survival provisions.</strong> When floodwaters rise suddenly, <strong><em>neighborhood connection helps residents support and rescue each other promptly</em></strong> before external help can arrive. Nearby residents can quickly evacuate elderly citizens and small children to higher, safer places. Furthermore, <strong><em>community bonding helps people share food, clean water, and medicine during tough situations</em></strong>. Sharing instant noodles, flashlights, and drinking water prevents hunger and illness during prolonged power cuts and isolation.\n\n<strong>In addition, neighborhood connection offers vital emotional comfort and accelerates post-disaster recovery.</strong> Experiencing devastating destruction of homes causes immense fear and grief. At such moments, <strong><em>neighbors' care helps calm fears and brings peace of mind to everyone</em></strong>, assuring victims that they do not face adversity alone. Finally, once the floodwaters recede, <strong><em>neighbors work together to clean up debris and repair homes after natural disasters</em></strong>. Villagers collaborate to clear fallen trees, unclog drainage canals, and repair damaged roofs, allowing community life to return to normal much faster.\n\n<strong>In conclusion</strong>, neighborhood connection is not merely a social virtue but a lifesaving force during environmental crises. By providing swift emergency rescue, mutual resource sharing, emotional solace, and collective rebuilding efforts, close-knit communities protect human lives and overcome the worst impacts of natural disasters.",
+          "translation_b1": "Trong những năm gần đây, các thảm họa thiên nhiên như bão dữ, lũ quét và sạt lở đất đã đe dọa nghiêm trọng nhiều cộng đồng trên toàn thế giới. Trong những tình huống nguy hiểm như vậy, các đội cứu hộ chính thức thường bị chậm trễ do đường sá và hệ thống liên lạc bị hư hại. Do đó, <strong>sự gắn kết cộng đồng</strong> trở thành một chiếc phao cứu sinh không thể thiếu để sinh tồn. <strong>Bài luận này sẽ làm nổi bật tầm quan trọng then chốt của tinh thần đoàn kết cộng đồng trong và sau thiên tai.</strong>\n\n<strong>Trước hết và quan trọng nhất, sự gắn kết láng giềng bền chặt mang lại sự cứu nạn tức thì và các nhu yếu phẩm sinh tồn thiết yếu.</strong> Khi nước lũ dâng cao bất ngờ, <strong><em>tình làng nghĩa xóm giúp người dân hỗ trợ và cứu giúp nhau kịp thời khi bão lũ ập đến</em></strong> trước khi sự trợ giúp từ bên ngoài kịp tới. Người dân gần gũi có thể nhanh chóng sơ tán người cao tuổi và trẻ nhỏ đến những nơi cao ráo, an toàn hơn. Hơn nữa, <strong><em>sự gắn kết xóm giềng giúp mọi người chia sẻ đồ ăn, nước sạch và thuốc men trong hoàn cảnh khó khăn</em></strong>. Việc chia sẻ mì gói, đèn pin và nước uống giúp ngăn ngừa đói khát và bệnh tật trong những ngày mất điện kéo dài và bị cô lập.\n\n<strong>Thêm vào đó, mối quan hệ xóm giềng mang lại sự an ủi tinh thần quý giá và đẩy nhanh quá trình phục hồi sau thiên tai.</strong> Trải qua sự tàn phá nặng nề của nhà cửa gây ra nỗi sợ hãi và đau buồn to lớn. Vào những thời điểm như vậy, <strong><em>sự quan tâm của láng giềng giúp xoa dịu nỗi sợ hãi và mang lại cảm giác an tâm cho mọi người</em></strong>, bảo đảm với các nạn nhân rằng họ không phải đối mặt với nghịch cảnh một mình. Cuối cùng, một khi nước lũ rút đi, <strong><em>bà con xóm làng cùng chung tay giúp dọn dẹp vệ sinh và sửa chữa nhà cửa sau thiên tai</em></strong>. Dân làng cùng nhau hợp lực dọn cây đổ, thông cống rãnh và sửa lại mái nhà hư hỏng, giúp nhịp sống khu dân cư trở lại bình thường nhanh hơn nhiều.\n\n<strong>Tóm lại</strong>, sự gắn kết xóm giềng không chỉ đơn thuần là một phẩm hạnh xã hội mà còn là một lực lượng cứu mạng trong các cuộc khủng hoảng môi trường. Thông qua việc cứu nạn khẩn cấp nhanh chóng, san sẻ tài nguyên, xoa dịu tinh thần và nỗ lực tái thiết tập thể, các cộng đồng gắn bó bảo vệ sinh mạng con người và vượt qua những tác động tồi tệ nhất của thiên tai.",
+          "sample_b2": "In an era characterized by escalating climate volatility, severe natural disasters such as super typhoons, deluge floods, and tectonic earthquakes frequently inflict catastrophic devastation upon vulnerable settlements. When municipal emergency services are overwhelmed or physically obstructed by ruined infrastructure, <strong>neighborhood connection</strong> emerges as the most decisive determinant of human survival. <strong>This essay will elucidate why robust communal cohesion is of paramount importance during environmental cataclysms.</strong>\n\n<strong>Primarily, localized neighborhood solidarity functions as an indispensable frontline rescue mechanism and survival distribution channel.</strong> In the initial chaotic hours of a catastrophe, <strong><em>strong neighborhood solidarity functions as an on-site first-response network that delivers instant emergency rescue</em></strong>. Intimate knowledge of local topography and vulnerable residents enables neighbors to evacuate trapped individuals long before external military or humanitarian convoys can penetrate blocked zones. Moreover, <strong><em>local solidarity mobilizes the equitable sharing of vital resources and relief provisions during catastrophic crises</em></strong>. Communal kitchens and the pooling of clean drinking water, generators, and medical dressings prevent acute dehydration, starvation, and wound sepsis among stranded survivors.\n\n<strong>Equally critical are the psychological buffering and collective reconstruction capacities fostered by community bonds.</strong> Catastrophic asset loss and sudden bereavement often induce severe emotional shock and despair. In such dire circumstances, <strong><em>solid communal empathy acts as a robust psychological anchor that shields survivors from catastrophic emotional trauma</em></strong>, fostering the psychological fortitude necessary to endure extreme adversity. Furthermore, in the aftermath of disaster, <strong><em>collective neighborhood action markedly accelerates environmental cleanup and the reconstruction of basic infrastructure</em></strong>. By voluntarily clearing mud deposits, restoring access roads, and rehabilitating communal schools, united citizens alleviate logistical burdens on state agencies and expedite socioeconomic normalization.\n\n<strong>In conclusion</strong>, neighborhood connection constitutes the bedrock of disaster resilience and civil defense. It transcends passive coexistence by delivering immediate lifesaving rescue, equitable survival aid, empathetic trauma alleviation, and synchronized community rebuilding. Governments and urban planners must actively nurture grassroots community cohesion as a fundamental imperative for climate adaptation and crisis survival.",
+          "translation_b2": "Trong một kỷ nguyên bị chi phối bởi sự biến đổi khí hậu ngày càng gia tăng, các thảm họa thiên nhiên khốc liệt như siêu bão, lũ lụt thảm khốc và động đất thường gây ra sự tàn phá khủng khiếp cho các khu dân cư dễ bị tổn thương. Khi các dịch vụ khẩn cấp của chính quyền bị quá tải hoặc bị cản trở bởi cơ sở hạ tầng đổ nát, <strong>sự gắn kết cộng đồng</strong> nổi lên như yếu tố quyết định sống còn đối với sự sinh tồn của con người. <strong>Bài luận này sẽ làm sáng tỏ vì sao sự gắn kết cộng đồng bền chặt lại mang tầm quan trọng tối cao trong các thảm họa môi trường.</strong>\n\n<strong>Trước hết, tinh thần đoàn kết xóm giềng tại chỗ hoạt động như một cơ chế cứu hộ tiền tuyến và kênh phân phối nhu yếu phẩm sinh tồn không thể thiếu.</strong> Trong những giờ đầu tiên hỗn loạn của thảm họa, <strong><em>mối liên kết cộng đồng chặt chẽ tạo thành mạng lưới ứng phó tại chỗ giúp triển khai công tác cứu nạn khẩn cấp tức thì</em></strong>. Sự hiểu biết tường tận về địa hình địa phương và những cư dân neo đơn cho phép hàng xóm sơ tán kịp thời những người bị mắc kẹt rất lâu trước khi các đoàn cứu trợ quân sự hay nhân đạo từ bên ngoài có thể tiếp cận được các vùng bị cô lập. Hơn nữa, <strong><em>tinh thần đoàn kết địa phương thúc đẩy việc chia sẻ tài nguyên và hỗ trợ nhu yếu phẩm một cách công bằng giữa mùa hoạn nạn</em></strong>. Các bếp ăn tập thể và việc góp chung nước sạch, máy phát điện cùng bông băng y tế giúp ngăn ngừa kiệt sức vì mất nước, đói khát và nhiễm trùng vết thương ở những người sống sót bị cô lập.\n\n<strong>Đóng vai trò quan trọng không kém là khả năng giảm chấn tâm lý và năng lực tái thiết tập thể được nuôi dưỡng từ các mối gắn kết cộng đồng.</strong> Sự mất mát tài sản to lớn và nỗi đau mất người thân đột ngột thường gây ra cú sốc cảm xúc và sự tuyệt vọng sâu sắc. Trong những hoàn cảnh ngặt nghèo như vậy, <strong><em>tình làng nghĩa xóm là chỗ dựa tâm lý vững vàng giúp người dân vượt qua cú sốc tinh thần sau thảm họa</em></strong>, nuôi dưỡng sự kiên cường tâm lý cần thiết để đương đầu với nghịch cảnh cùng cực. Hơn nữa, sau khi thảm họa qua đi, <strong><em>sức mạnh hợp lực của cộng đồng đẩy nhanh tốc độ dọn dẹp hiện trường và tái thiết hạ tầng dân sinh sau bão lũ</em></strong>. Bằng việc tự nguyện dọn dẹp bùn đất, khai thông đường sá và sửa sang lại trường học, người dân đoàn kết làm giảm bớt gánh nặng hậu cần cho chính quyền và đẩy nhanh quá trình bình thường hóa kinh tế xã hội.\n\n<strong>Tóm lại</strong>, sự gắn kết láng giềng cấu thành nên nền tảng của khả năng chống chịu thảm họa và phòng thủ dân sự. Nó vượt lên trên sự cùng chung sống thụ động để mang lại sự cứu trợ sống còn tức thì, hỗ trợ sinh tồn công bằng, xoa dịu chấn thương tinh thần và tái thiết cộng đồng đồng bộ. Các chính phủ và nhà quy hoạch đô thị phải tích cực bồi dưỡng sự gắn kết cộng đồng cơ sở như một mệnh lệnh cơ bản cho việc thích ứng với biến đổi khí hậu và sinh tồn trước khủng hoảng."
+        }
       },
       {
         "id": 34,

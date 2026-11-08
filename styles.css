@@ -847,11 +847,10 @@ input, textarea, button, select {
 
 .category-intro p {
   color: var(--text-secondary);
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.6;
-  max-width: 100%;
-  width: 100%;
-  text-align: justify;
+  max-width: 900px;
+  text-align: left;
 }
 
 .topics-grid {
