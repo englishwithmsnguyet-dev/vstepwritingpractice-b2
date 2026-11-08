@@ -46562,7 +46562,451 @@ const ESSAY_DATA = [
             "drawbacks": []
           },
           "sample_b2": "In recent years, <strong>doing unpaid community service</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>community service enables participants to develop essential practical skills.</em></strong> They have valuable opportunities to improve communication skills when interacting with people from different backgrounds. Furthermore, participants cultivate teamwork and effective cooperation while strengthening problem-solving skills in unexpected situations. These capabilities prepare individuals thoroughly for future academic and professional endeavors.\n\nAnother positive aspect is that <strong><em>engaging in volunteer work allows individuals to significantly expand their social networks.</em></strong> Participants meet people from diverse age groups, professions, and walks of life, thereby building meaningful friendships and lasting connections. In addition, establishing these supportive relationships creates a reliable network that can assist them throughout their studies and future careers.\n\nA further advantage to consider is that <strong><em>participating in community service fosters a strong sense of civic responsibility.</em></strong> Volunteers learn to take ownership of assigned tasks and gain deeper insight into the challenges confronted by disadvantaged groups. As a result, they develop profound empathy and become proactive citizens who consistently support their communities whenever needed.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several notable advantages. These benefits can have a positive influence on individuals and society in various ways. Overall, its positive contributions highlight the importance of <strong>doing unpaid community service</strong> in modern life.",
-          "translation_b2": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.</em></strong> Họ có cơ hội quý giá để cải thiện kỹ năng giao tiếp khi tương tác với những người có hoàn cảnh khác nhau. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả, đồng thời nâng cao kỹ năng giải quyết vấn đề khi gặp tình huống bất ngờ. Những năng lực này chuẩn bị kỹ lưỡng cho các nỗ lực học tập và nghề nghiệp tương lai.\n\nMột khía cạnh tích cực khác là <strong><em>tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách đáng kể.</em></strong> Người tham gia được gặp gỡ những người từ nhiều lứa tuổi, nghề nghiệp và tầng lớp khác nhau, từ đó xây dựng tình bạn ý nghĩa và sự gắn kết lâu dài. Ngoài ra, việc thiết lập các mối quan hệ hỗ trợ này tạo nên một mạng lưới đáng tin cậy giúp ích cho học tập và sự nghiệp sau này.\n\nMột lợi thế nữa cần xem xét là <strong><em>tham gia hoạt động cộng đồng giúp nuôi dưỡng ý thức trách nhiệm công dân mạnh mẽ.</em></strong> Tình nguyện viên học cách chịu trách nhiệm với công việc được giao và hiểu sâu sắc hơn về những khó khăn mà các nhóm yếu thế phải đối mặt. Nhờ đó, họ phát triển lòng thấu cảm sâu sắc và trở thành những công dân chủ động, luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại một số lợi thế đáng chú ý. Những lợi ích này có thể tạo ra ảnh hưởng tích cực đến cá nhân và xã hội theo nhiều cách khác nhau. Nhìn chung, những đóng góp tích cực của nó nêu bật tầm quan trọng của <strong>việc tham gia hoạt động cộng đồng không lương</strong> trong cuộc sống hiện đại."
+          "translation_b2": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.</em></strong> Họ có cơ hội quý giá để cải thiện kỹ năng giao tiếp khi tương tác với những người có hoàn cảnh khác nhau. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả, đồng thời nâng cao kỹ năng giải quyết vấn đề khi gặp tình huống bất ngờ. Những năng lực này chuẩn bị kỹ lưỡng cho các nỗ lực học tập và nghề nghiệp tương lai.\n\nMột khía cạnh tích cực khác là <strong><em>tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách đáng kể.</em></strong> Người tham gia được gặp gỡ những người từ nhiều lứa tuổi, nghề nghiệp và tầng lớp khác nhau, từ đó xây dựng tình bạn ý nghĩa và sự gắn kết lâu dài. Ngoài ra, việc thiết lập các mối quan hệ hỗ trợ này tạo nên một mạng lưới đáng tin cậy giúp ích cho học tập và sự nghiệp sau này.\n\nMột lợi thế nữa cần xem xét là <strong><em>tham gia hoạt động cộng đồng giúp nuôi dưỡng ý thức trách nhiệm công dân mạnh mẽ.</em></strong> Tình nguyện viên học cách chịu trách nhiệm với công việc được giao và hiểu sâu sắc hơn về những khó khăn mà các nhóm yếu thế phải đối mặt. Nhờ đó, họ phát triển lòng thấu cảm sâu sắc và trở thành những công dân chủ động, luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại một số lợi thế đáng chú ý. Những lợi ích này có thể tạo ra ảnh hưởng tích cực đến cá nhân và xã hội theo nhiều cách khác nhau. Nhìn chung, những đóng góp tích cực của nó nêu bật tầm quan trọng của <strong>việc tham gia hoạt động cộng đồng không lương</strong> trong cuộc sống hiện đại.",
+          "sample_b1": "In recent years, <strong>doing unpaid community service</strong> has become more common in modern society. Many people see this as a positive development for both individuals and local communities. <strong>This essay will discuss the main advantages of this topic.</strong>\n\n<strong>One main advantage is that <em>community service helps people develop important practical skills</em>.</strong> This is because volunteers have opportunities to work with many different people in society. In addition, they need to communicate clearly and work in teams when taking part in community activities. This helps them become more confident and solve problems better. As a result, they can use these useful skills in their future studies and work.\n\n<strong>Another positive aspect is that <em>community service teaches people a strong sense of responsibility</em>.</strong> The main reason is that volunteers have to complete the tasks they are given on time. Moreover, they learn to care about other people’s needs and help disadvantaged people in their neighborhood. Consequently, they understand the importance of helping society and become more responsible citizens in daily life.\n\n<strong>A further benefit is that <em>community service helps people build stronger social connections</em>.</strong> This means that participants have chances to meet many new friends who share the same interests. Working together on useful local projects helps people understand and support each other better, which makes the whole local community happier and more connected.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several important benefits. These advantages make it very useful for many people. Overall, it is a positive development in modern society.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực cho cả cá nhân và cộng đồng địa phương. <strong>Bài luận này sẽ thảo luận về những lợi thế chính của chủ đề này.</strong>\n\n<strong>Một lợi thế chính là <em>làm công tác cộng đồng giúp mọi người phát triển những kỹ năng thực tế quan trọng</em>.</strong> Điều này là vì tình nguyện viên có cơ hội làm việc với nhiều người khác nhau trong xã hội. Ngoài ra, họ cần giao tiếp rõ ràng và làm việc nhóm khi tham gia các hoạt động cộng đồng. Điều này giúp họ trở nên tự tin hơn và giải quyết vấn đề tốt hơn. Nhờ đó, họ có thể áp dụng những kỹ năng hữu ích này vào việc học và công việc tương lai.\n\n<strong>Một khía cạnh tích cực khác là <em>làm công tác cộng đồng dạy mọi người ý thức trách nhiệm cao</em>.</strong> Lý do chính là tình nguyện viên phải hoàn thành đúng hạn những nhiệm vụ được giao. Hơn nữa, họ học cách quan tâm đến nhu cầu của người khác và giúp đỡ những người có hoàn cảnh khó khăn. Do đó, họ hiểu được tầm quan trọng của việc đóng góp cho xã hội và trở thành những công dân có trách nhiệm hơn.\n\n<strong>Một lợi ích nữa là <em>làm công tác cộng đồng giúp mọi người xây dựng các mối quan hệ xã hội bền chặt hơn</em>.</strong> Điều này có nghĩa là người tham gia có cơ hội gặp gỡ những người bạn mới có cùng sở thích. Cùng nhau thực hiện các dự án có ích giúp mọi người thấu hiểu và hỗ trợ nhau tốt hơn, làm cho cộng đồng gắn kết hơn.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại nhiều lợi ích quan trọng. Những ưu điểm này khiến nó rất hữu ích cho nhiều người. Nhìn chung, đây là một sự phát triển tích cực trong xã hội hiện đại.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: Phát triển kỹ năng thực tế (Developing Practical Skills)",
+                "point_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.",
+                "point_en": "Community service enables participants to develop essential practical skills.",
+                "evidence_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm, phối hợp hiệu quả và nâng cao kỹ năng giải quyết vấn đề khi gặp tình huống bất ngờ.",
+                "evidence_en": "They have opportunities to improve communication skills with people from different backgrounds. Furthermore, participants develop teamwork and effective cooperation while strengthening problem-solving skills when facing unexpected situations.",
+                "collocations": [
+                  {
+                    "en": "community service",
+                    "vi": "làm công tác cộng đồng"
+                  },
+                  {
+                    "en": "enable participants",
+                    "vi": "giúp người tham gia"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
+                  },
+                  {
+                    "en": "have opportunities",
+                    "vi": "có cơ hội"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "people from different backgrounds",
+                    "vi": "nhiều đối tượng khác nhau"
+                  },
+                  {
+                    "en": "develop teamwork and effective cooperation",
+                    "vi": "rèn luyện khả năng làm việc nhóm, phối hợp hiệu quả"
+                  },
+                  {
+                    "en": "strengthen problem-solving skills",
+                    "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "face unexpected situations",
+                    "vi": "khi gặp tình huống bất ngờ"
+                  }
+                ],
+                "point_collocations": [
+                  {
+                    "en": "community service",
+                    "vi": "làm công tác cộng đồng"
+                  },
+                  {
+                    "en": "enable participants",
+                    "vi": "giúp người tham gia"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "have opportunities",
+                      "vi": "có cơ hội"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "people from different backgrounds",
+                      "vi": "nhiều đối tượng khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop teamwork and effective cooperation",
+                      "vi": "rèn luyện khả năng làm việc nhóm, phối hợp hiệu quả"
+                    },
+                    {
+                      "en": "strengthen problem-solving skills",
+                      "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                    },
+                    {
+                      "en": "face unexpected situations",
+                      "vi": "khi gặp tình huống bất ngờ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: Mở rộng mạng lưới quan hệ (Expanding Social Networks)",
+                "point_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách tích cực.",
+                "point_en": "Engaging in volunteer work allows individuals to significantly expand their social networks.",
+                "evidence_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau, từ đó xây dựng tình bạn và sự gắn kết lâu dài. Ngoài ra, việc tạo thêm các mối quan hệ hữu ích này sẽ hỗ trợ đắc lực cho học tập và công việc sau này.",
+                "evidence_en": "Participants meet people from different backgrounds, age groups, and professions, thereby building friendships and lasting connections. In addition, establishing these useful relationships can greatly benefit their future study and work.",
+                "collocations": [
+                  {
+                    "en": "engage in volunteer work",
+                    "vi": "tham gia hoạt động tình nguyện"
+                  },
+                  {
+                    "en": "significantly expand",
+                    "vi": "mở rộng"
+                  },
+                  {
+                    "en": "social networks",
+                    "vi": "mạng lưới quan hệ xã hội"
+                  },
+                  {
+                    "en": "people from different backgrounds",
+                    "vi": "người từ nhiều hoàn cảnh ... khác nhau"
+                  },
+                  {
+                    "en": "different backgrounds, age groups, and professions",
+                    "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                  },
+                  {
+                    "en": "build friendships and lasting connections",
+                    "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                  },
+                  {
+                    "en": "establish these useful relationships",
+                    "vi": "mối quan hệ hữu ích này"
+                  },
+                  {
+                    "en": "greatly benefit their future study and work",
+                    "vi": "hỗ trợ đắc lực cho học tập và công việc sau này"
+                  }
+                ],
+                "point_collocations": [
+                  {
+                    "en": "engage in volunteer work",
+                    "vi": "tham gia hoạt động tình nguyện"
+                  },
+                  {
+                    "en": "significantly expand",
+                    "vi": "mở rộng"
+                  },
+                  {
+                    "en": "social networks",
+                    "vi": "mạng lưới quan hệ xã hội"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "people from different backgrounds",
+                      "vi": "người từ nhiều hoàn cảnh ... khác nhau"
+                    },
+                    {
+                      "en": "different backgrounds, age groups, and professions",
+                      "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                    },
+                    {
+                      "en": "build friendships and lasting connections",
+                      "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "establish these useful relationships",
+                      "vi": "mối quan hệ hữu ích này"
+                    },
+                    {
+                      "en": "greatly benefit their future study and work",
+                      "vi": "hỗ trợ đắc lực cho học tập và công việc sau này"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: Cải thiện sức khỏe tinh thần (Improving Mental Well-being)",
+                "point_vi": "Các hoạt động công ích mang lại những lợi ích to lớn cho sức khỏe tinh thần của người tham gia.",
+                "point_en": "Voluntary activities contribute substantially to improving participants' mental well-being.",
+                "evidence_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn. Hơn nữa, tham gia các hoạt động ý nghĩa còn giúp giải tỏa căng thẳng và giảm bớt cảm giác cô đơn.",
+                "evidence_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life. Furthermore, taking part in meaningful activities reduces stress and alleviates feelings of loneliness.",
+                "collocations": [
+                  {
+                    "en": "voluntary activities",
+                    "vi": "các hoạt động công ích"
+                  },
+                  {
+                    "en": "contribute substantially to",
+                    "vi": "to lớn"
+                  },
+                  {
+                    "en": "improve participants' mental well-being",
+                    "vi": "sức khỏe tinh thần của người tham gia"
+                  },
+                  {
+                    "en": "help others",
+                    "vi": "việc giúp đỡ người khác"
+                  },
+                  {
+                    "en": "bring a profound sense of happiness and satisfaction",
+                    "vi": "mang lại cảm giác hạnh phúc và thỏa nguyện"
+                  },
+                  {
+                    "en": "find greater meaning and purpose in life",
+                    "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                  },
+                  {
+                    "en": "take part in meaningful activities",
+                    "vi": "tham gia các hoạt động ý nghĩa"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giải tỏa căng thẳng"
+                  },
+                  {
+                    "en": "alleviate feelings of loneliness",
+                    "vi": "giảm bớt cảm giác cô đơn"
+                  }
+                ],
+                "point_collocations": [
+                  {
+                    "en": "voluntary activities",
+                    "vi": "các hoạt động công ích"
+                  },
+                  {
+                    "en": "contribute substantially to",
+                    "vi": "to lớn"
+                  },
+                  {
+                    "en": "improve participants' mental well-being",
+                    "vi": "sức khỏe tinh thần của người tham gia"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "help others",
+                      "vi": "việc giúp đỡ người khác"
+                    },
+                    {
+                      "en": "bring a profound sense of happiness and satisfaction",
+                      "vi": "mang lại cảm giác hạnh phúc và thỏa nguyện"
+                    },
+                    {
+                      "en": "find greater meaning and purpose in life",
+                      "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take part in meaningful activities",
+                      "vi": "tham gia các hoạt động ý nghĩa"
+                    },
+                    {
+                      "en": "reduce stress",
+                      "vi": "giải tỏa căng thẳng"
+                    },
+                    {
+                      "en": "alleviate feelings of loneliness",
+                      "vi": "giảm bớt cảm giác cô đơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: Hình thành tinh thần trách nhiệm (Developing a Sense of Responsibility)",
+                "point_vi": "Tham gia tình nguyện giúp tôi luyện và hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng.",
+                "point_en": "Participating in community service fosters a strong sense of civic responsibility.",
+                "evidence_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao và thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội. Nhờ đó, họ trở nên chủ động đóng góp và luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.",
+                "evidence_en": "Participants learn to take responsibility for assigned tasks and understand the challenges faced by disadvantaged groups. As a result, they become willing to contribute proactively and support the community whenever needed.",
+                "collocations": [
+                  {
+                    "en": "participate in community service",
+                    "vi": "tham gia tình nguyện"
+                  },
+                  {
+                    "en": "foster a strong sense of",
+                    "vi": "hình thành tinh thần trách nhiệm sâu sắc"
+                  },
+                  {
+                    "en": "civic responsibility",
+                    "vi": "trách nhiệm ... đối với cộng đồng"
+                  },
+                  {
+                    "en": "take responsibility for assigned tasks",
+                    "vi": "chịu trách nhiệm với công việc được giao"
+                  },
+                  {
+                    "en": "understand the challenges",
+                    "vi": "thấu hiểu rõ hơn những khó khăn"
+                  },
+                  {
+                    "en": "disadvantaged groups",
+                    "vi": "các nhóm yếu thế trong xã hội"
+                  },
+                  {
+                    "en": "willing to contribute proactively",
+                    "vi": "chủ động đóng góp"
+                  },
+                  {
+                    "en": "support the community whenever needed",
+                    "vi": "hỗ trợ cộng đồng khi cần thiết"
+                  }
+                ],
+                "point_collocations": [
+                  {
+                    "en": "participate in community service",
+                    "vi": "tham gia tình nguyện"
+                  },
+                  {
+                    "en": "foster a strong sense of",
+                    "vi": "hình thành tinh thần trách nhiệm sâu sắc"
+                  },
+                  {
+                    "en": "civic responsibility",
+                    "vi": "trách nhiệm ... đối với cộng đồng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take responsibility for assigned tasks",
+                      "vi": "chịu trách nhiệm với công việc được giao"
+                    },
+                    {
+                      "en": "understand the challenges",
+                      "vi": "thấu hiểu rõ hơn những khó khăn"
+                    },
+                    {
+                      "en": "disadvantaged groups",
+                      "vi": "các nhóm yếu thế trong xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "willing to contribute proactively",
+                      "vi": "chủ động đóng góp"
+                    },
+                    {
+                      "en": "support the community whenever needed",
+                      "vi": "hỗ trợ cộng đồng khi cần thiết"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: Tạo tác động tích cực đến cộng đồng (Making a Positive Impact on the Community)",
+                "point_vi": "Các chương trình tình nguyện tạo ra những tác động tích cực và lâu dài đối với đời sống cộng đồng.",
+                "point_en": "Volunteer initiatives generate profound and lasting positive impacts on community life.",
+                "evidence_vi": "Các hoạt động này hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn. Bên cạnh đó, việc tham gia các chiến dịch bảo vệ môi trường như trồng cây hay dọn rác góp phần trực tiếp cải thiện điều kiện sống và xây dựng cộng đồng tốt đẹp hơn.",
+                "evidence_en": "These initiatives provide essential supplies and educational support to disadvantaged people. Furthermore, participating in environmental activities such as tree planting and clean-up campaigns directly improves living conditions and builds a better community.",
+                "collocations": [
+                  {
+                    "en": "volunteer initiatives",
+                    "vi": "các chương trình tình nguyện"
+                  },
+                  {
+                    "en": "generate profound and lasting positive impacts",
+                    "vi": "tạo ra những tác động tích cực và lâu dài"
+                  },
+                  {
+                    "en": "on community life",
+                    "vi": "đối với đời sống cộng đồng"
+                  },
+                  {
+                    "en": "initiative",
+                    "vi": "các hoạt động này"
+                  },
+                  {
+                    "en": "provide essential supplies",
+                    "vi": "hỗ trợ nhu yếu phẩm"
+                  },
+                  {
+                    "en": "educational support",
+                    "vi": "giáo dục"
+                  },
+                  {
+                    "en": "disadvantaged people",
+                    "vi": "những người có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "tree planting and clean-up campaigns",
+                    "vi": "trồng cây hay dọn rác"
+                  },
+                  {
+                    "en": "directly improve living conditions",
+                    "vi": "trực tiếp cải thiện điều kiện sống"
+                  },
+                  {
+                    "en": "build a better community",
+                    "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                  }
+                ],
+                "point_collocations": [
+                  {
+                    "en": "volunteer initiatives",
+                    "vi": "các chương trình tình nguyện"
+                  },
+                  {
+                    "en": "generate profound and lasting positive impacts",
+                    "vi": "tạo ra những tác động tích cực và lâu dài"
+                  },
+                  {
+                    "en": "on community life",
+                    "vi": "đối với đời sống cộng đồng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "initiative",
+                      "vi": "các hoạt động này"
+                    },
+                    {
+                      "en": "provide essential supplies",
+                      "vi": "hỗ trợ nhu yếu phẩm"
+                    },
+                    {
+                      "en": "educational support",
+                      "vi": "giáo dục"
+                    },
+                    {
+                      "en": "disadvantaged people",
+                      "vi": "những người có hoàn cảnh khó khăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "tree planting and clean-up campaigns",
+                      "vi": "trồng cây hay dọn rác"
+                    },
+                    {
+                      "en": "directly improve living conditions",
+                      "vi": "trực tiếp cải thiện điều kiện sống"
+                    },
+                    {
+                      "en": "build a better community",
+                      "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": []
+          }
         }
       },
       {
@@ -48796,7 +49240,897 @@ const ESSAY_DATA = [
               "en": "weaken independent writing skills",
               "vi": "làm suy yếu kỹ năng viết độc lập"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>using computer technology in language learning</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, computer technology has several advantages for language learners.</strong> One major benefit is that <strong><em>computers give learners easy access to many learning materials</em></strong>. This is because students can use online dictionaries, videos, and audio recordings from native speakers anytime to improve their vocabulary and listening skills. Another positive aspect is that <strong><em>computer technology makes language learning more interesting</em></strong>. The main reason is that learning software combines pictures, sounds, and fun games, which keeps learners motivated. A further good point is that <strong><em>computer tools give quick feedback on pronunciation and grammar</em></strong>. For example, spell checkers help students find and fix mistakes quickly.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>using computers too much reduces face-to-face communication</em></strong>. This is because software cannot replace real conversations, so students may feel shy when speaking in real life. Another negative aspect is that <strong><em>computers connected to the Internet can easily distract learners</em></strong>. In fact, students often open social media or games while studying. Finally, <strong><em>learners may depend too much on translation tools</em></strong>. As a result, they become lazy in thinking and writing in their own words.\n\nIn conclusion, <strong>using computer technology in language learning</strong> has both advantages and disadvantages. These points show that it has different effects on learners. Therefore, it is important to use technology wisely.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng công nghệ máy tính trong học ngôn ngữ</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, công nghệ máy tính có một số thuận lợi cho người học ngôn ngữ.</strong> Một lợi ích lớn là <strong><em>máy tính giúp người học dễ dàng tiếp cận nhiều tài liệu học tập</em></strong>. Điều này là vì học sinh có thể dùng từ điển điện tử, xem video và nghe bản ghi âm của người bản xứ bất cứ lúc nào để tăng vốn từ và kỹ năng nghe. Một khía cạnh tích cực khác là <strong><em>công nghệ máy tính làm cho việc học ngôn ngữ thú vị hơn</em></strong>. Lý do chính là phần mềm học tập kết hợp hình ảnh, âm thanh và trò chơi vui nhộn giúp người học có động lực. Một điểm tốt nữa là <strong><em>công cụ máy tính đưa ra phản hồi nhanh về phát âm và ngữ pháp</em></strong>. Ví dụ, công cụ kiểm tra chính tả giúp học sinh tìm và sửa lỗi nhanh chóng.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>dùng máy tính quá nhiều làm giảm giao tiếp trực tiếp</em></strong>. Điều này là do phần mềm không thể thay thế các cuộc trò chuyện thực tế, nên học sinh có thể rụt rè khi nói chuyện ngoài đời. Một điểm tiêu cực khác là <strong><em>máy tính có mạng Internet rất dễ làm người học xao nhãng</em></strong>. Thực tế, học sinh thường mở mạng xã hội hoặc trò chơi trong lúc học. Cuối cùng, <strong><em>người học có thể phụ thuộc quá mức vào công cụ dịch thuật</em></strong>. Kết quả là họ trở nên lười suy nghĩ và tự viết bằng lời văn của mình.\n\nTóm lại, <strong>sử dụng công nghệ máy tính trong học ngôn ngữ</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó mang lại những tác động khác nhau đến người học. Vì vậy, việc sử dụng công nghệ một cách hợp lý là rất quan trọng.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: TIẾP CẬN KHO HỌC LIỆU PHONG PHÚ VÀ CHUẨN BẢN NGỮ (ACCESS TO RICH AND AUTHENTIC MATERIALS)",
+                "collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "give learners easy access to",
+                    "vi": "giúp người học dễ dàng tiếp cận"
+                  },
+                  {
+                    "en": "a wide range of language learning materials",
+                    "vi": "nguồn tài liệu học ngôn ngữ phong phú"
+                  },
+                  {
+                    "en": "digital dictionaries",
+                    "vi": "từ điển điện tử"
+                  },
+                  {
+                    "en": "audio recordings from native speakers",
+                    "vi": "các bản ghi âm của người bản xứ"
+                  },
+                  {
+                    "en": "at any time",
+                    "vi": "bất cứ lúc nào"
+                  },
+                  {
+                    "en": "expand their vocabulary",
+                    "vi": "mở rộng vốn từ vựng"
+                  },
+                  {
+                    "en": "improve their listening skills",
+                    "vi": "cải thiện kỹ năng nghe"
+                  },
+                  {
+                    "en": "effectively",
+                    "vi": "một cách hiệu quả"
+                  }
+                ],
+                "point_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú.",
+                "point_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
+                "evidence_vi": "Học sinh có thể sử dụng từ điển điện tử, video và các bản ghi âm của người bản xứ bất cứ lúc nào. Điều này giúp họ mở rộng vốn từ vựng và cải thiện kỹ năng nghe một cách hiệu quả.",
+                "evidence_en": "Students can use digital dictionaries, videos, and audio recordings from native speakers at any time. This helps them expand their vocabulary and improve their listening skills effectively.",
+                "point_collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "give learners easy access to",
+                    "vi": "giúp người học dễ dàng tiếp cận"
+                  },
+                  {
+                    "en": "a wide range of language learning materials",
+                    "vi": "nguồn tài liệu học ngôn ngữ phong phú"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "digital dictionaries",
+                      "vi": "từ điển điện tử"
+                    },
+                    {
+                      "en": "audio recordings from native speakers",
+                      "vi": "các bản ghi âm của người bản xứ"
+                    },
+                    {
+                      "en": "at any time",
+                      "vi": "bất cứ lúc nào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "expand their vocabulary",
+                      "vi": "mở rộng vốn từ vựng"
+                    },
+                    {
+                      "en": "improve their listening skills",
+                      "vi": "cải thiện kỹ năng nghe"
+                    },
+                    {
+                      "en": "effectively",
+                      "vi": "một cách hiệu quả"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: TĂNG TÍNH TƯƠNG TÁC VÀ HỨNG THÚ HỌC TẬP (HIGHER ENGAGEMENT AND INTERACTIVITY)",
+                "collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "make language learning",
+                    "vi": "làm cho việc học ngôn ngữ"
+                  },
+                  {
+                    "en": "more interactive and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn"
+                  },
+                  {
+                    "en": "learning software",
+                    "vi": "các phần mềm học tập"
+                  },
+                  {
+                    "en": "visual images",
+                    "vi": "hình ảnh trực quan"
+                  },
+                  {
+                    "en": "enjoyable vocabulary games",
+                    "vi": "các trò chơi từ vựng thú vị"
+                  },
+                  {
+                    "en": "stay motivated",
+                    "vi": "duy trì được động lực"
+                  },
+                  {
+                    "en": "remember new knowledge",
+                    "vi": "ghi nhớ kiến thức mới"
+                  },
+                  {
+                    "en": "for longer periods",
+                    "vi": "lâu hơn"
+                  }
+                ],
+                "point_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn.",
+                "point_en": "Computer technology makes language learning more interactive and engaging.",
+                "evidence_vi": "Các phần mềm học tập thường kết hợp hình ảnh trực quan, âm thanh và các trò chơi từ vựng thú vị. Nhờ đó, người học duy trì được động lực và ghi nhớ kiến thức mới lâu hơn.",
+                "evidence_en": "Learning software often combines visual images, sound effects, and enjoyable vocabulary games. As a result, learners stay motivated and remember new knowledge for longer periods.",
+                "point_collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "make language learning",
+                    "vi": "làm cho việc học ngôn ngữ"
+                  },
+                  {
+                    "en": "more interactive and engaging",
+                    "vi": "trở nên sinh động và hấp dẫn hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "learning software",
+                      "vi": "các phần mềm học tập"
+                    },
+                    {
+                      "en": "visual images",
+                      "vi": "hình ảnh trực quan"
+                    },
+                    {
+                      "en": "enjoyable vocabulary games",
+                      "vi": "các trò chơi từ vựng thú vị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay motivated",
+                      "vi": "duy trì được động lực"
+                    },
+                    {
+                      "en": "remember new knowledge",
+                      "vi": "ghi nhớ kiến thức mới"
+                    },
+                    {
+                      "en": "for longer periods",
+                      "vi": "lâu hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: NHẬN PHẢN HỒI TỨC THÌ VỀ PHÁT ÂM VÀ NGỮ PHÁP (INSTANT FEEDBACK ON PRONUNCIATION AND GRAMMAR)",
+                "collocations": [
+                  {
+                    "en": "computer tools",
+                    "vi": "các công cụ máy tính"
+                  },
+                  {
+                    "en": "provide immediate feedback",
+                    "vi": "đưa ra phản hồi ngay lập tức"
+                  },
+                  {
+                    "en": "on pronunciation and grammar",
+                    "vi": "về phát âm và ngữ pháp"
+                  },
+                  {
+                    "en": "speech recognition software",
+                    "vi": "phần mềm nhận diện giọng nói"
+                  },
+                  {
+                    "en": "spell checkers",
+                    "vi": "công cụ kiểm tra chính tả"
+                  },
+                  {
+                    "en": "detect learners' mistakes within seconds",
+                    "vi": "phát hiện lỗi sai của người học chỉ trong vài giây"
+                  },
+                  {
+                    "en": "correct their errors quickly",
+                    "vi": "tự sửa lỗi nhanh chóng"
+                  },
+                  {
+                    "en": "improve their accuracy",
+                    "vi": "nâng cao độ chính xác"
+                  },
+                  {
+                    "en": "in language use",
+                    "vi": "khi sử dụng ngôn ngữ"
+                  }
+                ],
+                "point_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp.",
+                "point_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
+                "evidence_vi": "Phần mềm nhận diện giọng nói và công cụ kiểm tra chính tả giúp phát hiện lỗi sai của người học chỉ trong vài giây. Nhờ vậy, học sinh có thể tự sửa lỗi nhanh chóng và nâng cao độ chính xác khi sử dụng ngôn ngữ.",
+                "evidence_en": "Speech recognition software and spell checkers help detect learners' mistakes within seconds. Therefore, students can correct their errors quickly and improve their accuracy in language use.",
+                "point_collocations": [
+                  {
+                    "en": "computer tools",
+                    "vi": "các công cụ máy tính"
+                  },
+                  {
+                    "en": "provide immediate feedback",
+                    "vi": "đưa ra phản hồi ngay lập tức"
+                  },
+                  {
+                    "en": "on pronunciation and grammar",
+                    "vi": "về phát âm và ngữ pháp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "speech recognition software",
+                      "vi": "phần mềm nhận diện giọng nói"
+                    },
+                    {
+                      "en": "spell checkers",
+                      "vi": "công cụ kiểm tra chính tả"
+                    },
+                    {
+                      "en": "detect learners' mistakes within seconds",
+                      "vi": "phát hiện lỗi sai của người học chỉ trong vài giây"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "correct their errors quickly",
+                      "vi": "tự sửa lỗi nhanh chóng"
+                    },
+                    {
+                      "en": "improve their accuracy",
+                      "vi": "nâng cao độ chính xác"
+                    },
+                    {
+                      "en": "in language use",
+                      "vi": "khi sử dụng ngôn ngữ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: HỖ TRỢ TỰ HỌC LINH HOẠT THEO TỐC ĐỘ CÁ NHÂN (SELF-PACED AND FLEXIBLE LEARNING)",
+                "collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "practice a language",
+                    "vi": "tự rèn luyện ngôn ngữ"
+                  },
+                  {
+                    "en": "at their own pace",
+                    "vi": "theo tốc độ phù hợp với bản thân"
+                  },
+                  {
+                    "en": "replay audio lessons",
+                    "vi": "nghe lại bài giảng"
+                  },
+                  {
+                    "en": "repeat grammar exercises multiple times",
+                    "vi": "làm lại bài tập ngữ pháp nhiều lần"
+                  },
+                  {
+                    "en": "without feeling pressured",
+                    "vi": "mà không cảm thấy áp lực"
+                  },
+                  {
+                    "en": "build confidence",
+                    "vi": "xây dựng sự tự tin"
+                  },
+                  {
+                    "en": "promote learner autonomy",
+                    "vi": "tính tự chủ trong học"
+                  }
+                ],
+                "point_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân.",
+                "point_en": "Computer technology allows learners to practice a language at their own pace.",
+                "evidence_vi": "Những học sinh tiếp thu chậm có thể nghe lại bài giảng hoặc làm lại bài tập ngữ pháp nhiều lần mà không cảm thấy áp lực. Điều này giúp xây dựng sự tự tin và tính tự chủ trong học tập.",
+                "evidence_en": "Slower students can replay audio lessons or repeat grammar exercises multiple times without feeling pressured. This helps build confidence and promotes learner autonomy.",
+                "point_collocations": [
+                  {
+                    "en": "computer technology",
+                    "vi": "công nghệ máy tính"
+                  },
+                  {
+                    "en": "practice a language",
+                    "vi": "tự rèn luyện ngôn ngữ"
+                  },
+                  {
+                    "en": "at their own pace",
+                    "vi": "theo tốc độ phù hợp với bản thân"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "replay audio lessons",
+                      "vi": "nghe lại bài giảng"
+                    },
+                    {
+                      "en": "repeat grammar exercises multiple times",
+                      "vi": "làm lại bài tập ngữ pháp nhiều lần"
+                    },
+                    {
+                      "en": "without feeling pressured",
+                      "vi": "mà không cảm thấy áp lực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "build confidence",
+                      "vi": "xây dựng sự tự tin"
+                    },
+                    {
+                      "en": "promote learner autonomy",
+                      "vi": "tính tự chủ trong học"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: TIẾT KIỆM THỜI GIAN TRA CỨU VÀ LƯU TRỮ BÀI HỌC (TIME-SAVING LOOKUP AND ORGANIZED STORAGE)",
+                "collocations": [
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "look up words",
+                    "vi": "tra cứu"
+                  },
+                  {
+                    "en": "organize notes",
+                    "vi": "sắp xếp ghi chú"
+                  },
+                  {
+                    "en": "thick paper dictionaries",
+                    "vi": "sách từ điển dày"
+                  },
+                  {
+                    "en": "check word meanings and usage instantly",
+                    "vi": "tra nghĩa và cách dùng từ ngay tức thì"
+                  },
+                  {
+                    "en": "with a single click",
+                    "vi": "chỉ bằng một cú nhấp chuột"
+                  },
+                  {
+                    "en": "store hundreds of study files",
+                    "vi": "lưu trữ hàng trăm tài liệu học tập"
+                  },
+                  {
+                    "en": "neatly",
+                    "vi": "gọn gàng"
+                  },
+                  {
+                    "en": "on one device",
+                    "vi": "trên một thiết bị duy nhất"
+                  }
+                ],
+                "point_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú.",
+                "point_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
+                "evidence_vi": "Thay vì lật tìm trong sách từ điển dày, học sinh có thể tra nghĩa và cách dùng từ ngay tức thì chỉ bằng một cú nhấp chuột. Họ cũng dễ dàng lưu trữ hàng trăm tài liệu học tập gọn gàng trên một thiết bị duy nhất.",
+                "evidence_en": "Instead of flipping through thick paper dictionaries, students can check word meanings and usage instantly with a single click. They can also store hundreds of study files neatly on one device.",
+                "point_collocations": [
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "look up words",
+                    "vi": "tra cứu"
+                  },
+                  {
+                    "en": "organize notes",
+                    "vi": "sắp xếp ghi chú"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "thick paper dictionaries",
+                      "vi": "sách từ điển dày"
+                    },
+                    {
+                      "en": "check word meanings and usage instantly",
+                      "vi": "tra nghĩa và cách dùng từ ngay tức thì"
+                    },
+                    {
+                      "en": "with a single click",
+                      "vi": "chỉ bằng một cú nhấp chuột"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "store hundreds of study files",
+                      "vi": "lưu trữ hàng trăm tài liệu học tập"
+                    },
+                    {
+                      "en": "neatly",
+                      "vi": "gọn gàng"
+                    },
+                    {
+                      "en": "on one device",
+                      "vi": "trên một thiết bị duy nhất"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: HẠN CHẾ GIAO TIẾP TRỰC TIẾP NGOÀI ĐỜI THỰC (REDUCED FACE-TO-FACE COMMUNICATION)",
+                "collocations": [
+                  {
+                    "en": "rely heavily on computers",
+                    "vi": "phụ thuộc vào máy tính"
+                  },
+                  {
+                    "en": "reduce learners' opportunities",
+                    "vi": "làm giảm cơ hội ... của người học"
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "natural emotions",
+                    "vi": "cảm xúc tự nhiên"
+                  },
+                  {
+                    "en": "body language",
+                    "vi": "ngôn ngữ cơ thể"
+                  },
+                  {
+                    "en": "real-life conversational responses",
+                    "vi": "phản xạ trò chuyện thực tế"
+                  },
+                  {
+                    "en": "master grammar on screen",
+                    "vi": "nắm vững ngữ pháp trên"
+                  },
+                  {
+                    "en": "struggle to speak confidently",
+                    "vi": "lúng túng khi giao tiếp"
+                  },
+                  {
+                    "en": "in real situations",
+                    "vi": "ngoài đời thực"
+                  }
+                ],
+                "point_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học.",
+                "point_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
+                "evidence_vi": "Phần mềm máy tính khó có thể thay thế được cảm xúc tự nhiên, ngôn ngữ cơ thể và phản xạ trò chuyện thực tế giữa con người với nhau. Do đó, học sinh có thể nắm vững ngữ pháp trên máy nhưng lại lúng túng khi giao tiếp ngoài đời thực.",
+                "evidence_en": "Computer software cannot fully replace natural emotions, body language, and real-life conversational responses between people. Consequently, students may master grammar on screen but struggle to speak confidently in real situations.",
+                "point_collocations": [
+                  {
+                    "en": "rely heavily on computers",
+                    "vi": "phụ thuộc vào máy tính"
+                  },
+                  {
+                    "en": "reduce learners' opportunities",
+                    "vi": "làm giảm cơ hội ... của người học"
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "natural emotions",
+                      "vi": "cảm xúc tự nhiên"
+                    },
+                    {
+                      "en": "body language",
+                      "vi": "ngôn ngữ cơ thể"
+                    },
+                    {
+                      "en": "real-life conversational responses",
+                      "vi": "phản xạ trò chuyện thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "master grammar on screen",
+                      "vi": "nắm vững ngữ pháp trên"
+                    },
+                    {
+                      "en": "struggle to speak confidently",
+                      "vi": "lúng túng khi giao tiếp"
+                    },
+                    {
+                      "en": "in real situations",
+                      "vi": "ngoài đời thực"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: DỄ GÂY XAO NHÃNG TRONG QUÁ TRÌNH HỌC (FREQUENT DIGITAL DISTRACTIONS)",
+                "collocations": [
+                  {
+                    "en": "computers connected to the Internet",
+                    "vi": "máy tính có kết nối mạng"
+                  },
+                  {
+                    "en": "easily distract learners",
+                    "vi": "dễ khiến người học bị xao nhãng"
+                  },
+                  {
+                    "en": "from their studies",
+                    "vi": "khỏi bài học"
+                  },
+                  {
+                    "en": "be tempted by social media",
+                    "vi": "bị cám dỗ bởi mạng xã hội"
+                  },
+                  {
+                    "en": "video games",
+                    "vi": "trò chơi điện tử"
+                  },
+                  {
+                    "en": "entertainment videos",
+                    "vi": "các video giải trí"
+                  },
+                  {
+                    "en": "loss of concentration",
+                    "vi": "sự mất tập trung"
+                  },
+                  {
+                    "en": "interrupt learning",
+                    "vi": "làm gián đoạn"
+                  },
+                  {
+                    "en": "reduce academic effectiveness",
+                    "vi": "làm giảm ... hiệu quả học tập"
+                  }
+                ],
+                "point_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học.",
+                "point_en": "Computers connected to the Internet can easily distract learners from their studies.",
+                "evidence_vi": "Trong lúc học ngoại ngữ, học sinh thường bị cám dỗ bởi mạng xã hội, trò chơi điện tử hoặc các video giải trí. Sự mất tập trung này làm gián đoạn việc tiếp thu và làm giảm đáng kể hiệu quả học tập.",
+                "evidence_en": "While studying a language, students are often tempted by social media, video games, or entertainment videos. Such loss of concentration interrupts learning and significantly reduces academic effectiveness.",
+                "point_collocations": [
+                  {
+                    "en": "computers connected to the Internet",
+                    "vi": "máy tính có kết nối mạng"
+                  },
+                  {
+                    "en": "easily distract learners",
+                    "vi": "dễ khiến người học bị xao nhãng"
+                  },
+                  {
+                    "en": "from their studies",
+                    "vi": "khỏi bài học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be tempted by social media",
+                      "vi": "bị cám dỗ bởi mạng xã hội"
+                    },
+                    {
+                      "en": "video games",
+                      "vi": "trò chơi điện tử"
+                    },
+                    {
+                      "en": "entertainment videos",
+                      "vi": "các video giải trí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "loss of concentration",
+                      "vi": "sự mất tập trung"
+                    },
+                    {
+                      "en": "interrupt learning",
+                      "vi": "làm gián đoạn"
+                    },
+                    {
+                      "en": "reduce academic effectiveness",
+                      "vi": "làm giảm ... hiệu quả học tập"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: LẠM DỤNG CÔNG CỤ DỊCH TỰ ĐỘNG (OVER-RELIANCE ON TRANSLATION TOOLS)",
+                "collocations": [
+                  {
+                    "en": "become overly dependent on",
+                    "vi": "phụ thuộc quá mức vào"
+                  },
+                  {
+                    "en": "automatic translation",
+                    "vi": "dịch thuật ... tự động"
+                  },
+                  {
+                    "en": "correction tools",
+                    "vi": "các công cụ ... sửa lỗi"
+                  },
+                  {
+                    "en": "copy entire sentences",
+                    "vi": "sao chép nguyên câu"
+                  },
+                  {
+                    "en": "machine translators",
+                    "vi": "phần mềm dịch máy"
+                  },
+                  {
+                    "en": "express ideas in their own words",
+                    "vi": "diễn đạt bằng vốn từ của mình"
+                  },
+                  {
+                    "en": "passive habit",
+                    "vi": "thói quen thụ động"
+                  },
+                  {
+                    "en": "hinder thinking in the target language",
+                    "vi": "cản trở ... tư duy bằng ngoại ngữ"
+                  },
+                  {
+                    "en": "weaken independent writing skills",
+                    "vi": "làm yếu kỹ năng viết độc lập"
+                  }
+                ],
+                "point_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động.",
+                "point_en": "Learners may become overly dependent on automatic translation and correction tools.",
+                "evidence_vi": "Nhiều học sinh sao chép nguyên câu từ phần mềm dịch máy thay vì tự suy nghĩ cách diễn đạt bằng vốn từ của mình. Thói quen thụ động này cản trở khả năng tư duy bằng ngoại ngữ và làm yếu kỹ năng viết độc lập.",
+                "evidence_en": "Many students copy entire sentences from machine translators instead of thinking about how to express ideas in their own words. This passive habit hinders thinking in the target language and weakens independent writing skills.",
+                "point_collocations": [
+                  {
+                    "en": "become overly dependent on",
+                    "vi": "phụ thuộc quá mức vào"
+                  },
+                  {
+                    "en": "automatic translation",
+                    "vi": "dịch thuật ... tự động"
+                  },
+                  {
+                    "en": "correction tools",
+                    "vi": "các công cụ ... sửa lỗi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "copy entire sentences",
+                      "vi": "sao chép nguyên câu"
+                    },
+                    {
+                      "en": "machine translators",
+                      "vi": "phần mềm dịch máy"
+                    },
+                    {
+                      "en": "express ideas in their own words",
+                      "vi": "diễn đạt bằng vốn từ của mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "passive habit",
+                      "vi": "thói quen thụ động"
+                    },
+                    {
+                      "en": "hinder thinking in the target language",
+                      "vi": "cản trở ... tư duy bằng ngoại ngữ"
+                    },
+                    {
+                      "en": "weaken independent writing skills",
+                      "vi": "làm yếu kỹ năng viết độc lập"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG SỨC KHỎE MẮT VÀ THỂ CHẤT (EYE STRAIN AND PHYSICAL FATIGUE)",
+                "collocations": [
+                  {
+                    "en": "sit in front of a computer screen",
+                    "vi": "ngồi trước màn hình máy tính"
+                  },
+                  {
+                    "en": "for long hours",
+                    "vi": "trong nhiều giờ liền"
+                  },
+                  {
+                    "en": "harm learners' health",
+                    "vi": "gây hại cho sức khỏe của người học"
+                  },
+                  {
+                    "en": "blue light from monitors",
+                    "vi": "ánh sáng xanh từ màn hình"
+                  },
+                  {
+                    "en": "fixed sitting posture",
+                    "vi": "tư thế ngồi cố định"
+                  },
+                  {
+                    "en": "cause eye strain, headaches, and backache",
+                    "vi": "dẫn đến mỏi mắt, đau đầu và đau mỏi lưng"
+                  },
+                  {
+                    "en": "physical fatigue",
+                    "vi": "sự mệt mỏi thể chất"
+                  },
+                  {
+                    "en": "reduce learners' enthusiasm",
+                    "vi": "khiến người học giảm hứng thú"
+                  },
+                  {
+                    "en": "daily language practice",
+                    "vi": "rèn luyện ngoại ngữ mỗi ngày"
+                  }
+                ],
+                "point_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học.",
+                "point_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
+                "evidence_vi": "Ánh sáng xanh từ màn hình và tư thế ngồi cố định dễ dẫn đến mỏi mắt, đau đầu và đau mỏi lưng. Về lâu dài, sự mệt mỏi thể chất này khiến người học giảm hứng thú rèn luyện ngoại ngữ mỗi ngày.",
+                "evidence_en": "Blue light from monitors and a fixed sitting posture can easily cause eye strain, headaches, and backache. In the long run, such physical fatigue reduces learners' enthusiasm for daily language practice.",
+                "point_collocations": [
+                  {
+                    "en": "sit in front of a computer screen",
+                    "vi": "ngồi trước màn hình máy tính"
+                  },
+                  {
+                    "en": "for long hours",
+                    "vi": "trong nhiều giờ liền"
+                  },
+                  {
+                    "en": "harm learners' health",
+                    "vi": "gây hại cho sức khỏe của người học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "blue light from monitors",
+                      "vi": "ánh sáng xanh từ màn hình"
+                    },
+                    {
+                      "en": "fixed sitting posture",
+                      "vi": "tư thế ngồi cố định"
+                    },
+                    {
+                      "en": "cause eye strain, headaches, and backache",
+                      "vi": "dẫn đến mỏi mắt, đau đầu và đau mỏi lưng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "physical fatigue",
+                      "vi": "sự mệt mỏi thể chất"
+                    },
+                    {
+                      "en": "reduce learners' enthusiasm",
+                      "vi": "khiến người học giảm hứng thú"
+                    },
+                    {
+                      "en": "daily language practice",
+                      "vi": "rèn luyện ngoại ngữ mỗi ngày"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: RÀO CẢN CHI PHÍ THIẾT BỊ VÀ SỰ CỐ KỸ THUẬT (EQUIPMENT COSTS AND TECHNICAL ISSUES)",
+                "collocations": [
+                  {
+                    "en": "equipment costs",
+                    "vi": "chi phí mua sắm thiết bị"
+                  },
+                  {
+                    "en": "technical problems",
+                    "vi": "các sự cố kỹ thuật"
+                  },
+                  {
+                    "en": "create barriers for many learners",
+                    "vi": "tạo ra rào cản đối với nhiều người học"
+                  },
+                  {
+                    "en": "afford a reliable computer",
+                    "vi": "đủ điều kiện mua máy tính"
+                  },
+                  {
+                    "en": "paid licenses",
+                    "vi": "bản quyền"
+                  },
+                  {
+                    "en": "high-quality learning software",
+                    "vi": "phần mềm học tập chất lượng cao"
+                  },
+                  {
+                    "en": "software glitches",
+                    "vi": "lỗi phần mềm"
+                  },
+                  {
+                    "en": "sudden network failures",
+                    "vi": "mất kết nối mạng đột ngột"
+                  },
+                  {
+                    "en": "disrupt their study sessions",
+                    "vi": "làm gián đoạn ... ôn luyện"
+                  }
+                ],
+                "point_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học.",
+                "point_en": "Equipment costs and technical problems can also create barriers for many learners.",
+                "evidence_vi": "Không phải học sinh nào cũng đủ điều kiện mua máy tính cấu hình tốt hoặc bản quyền phần mềm học tập chất lượng cao. Ngoài ra, lỗi phần mềm hoặc mất kết nối mạng đột ngột có thể làm gián đoạn quá trình ôn luyện.",
+                "evidence_en": "Not every student can afford a reliable computer or paid licenses for high-quality learning software. Moreover, software glitches or sudden network failures can disrupt their study sessions.",
+                "point_collocations": [
+                  {
+                    "en": "equipment costs",
+                    "vi": "chi phí mua sắm thiết bị"
+                  },
+                  {
+                    "en": "technical problems",
+                    "vi": "các sự cố kỹ thuật"
+                  },
+                  {
+                    "en": "create barriers for many learners",
+                    "vi": "tạo ra rào cản đối với nhiều người học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "afford a reliable computer",
+                      "vi": "đủ điều kiện mua máy tính"
+                    },
+                    {
+                      "en": "paid licenses",
+                      "vi": "bản quyền"
+                    },
+                    {
+                      "en": "high-quality learning software",
+                      "vi": "phần mềm học tập chất lượng cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "software glitches",
+                      "vi": "lỗi phần mềm"
+                    },
+                    {
+                      "en": "sudden network failures",
+                      "vi": "mất kết nối mạng đột ngột"
+                    },
+                    {
+                      "en": "disrupt their study sessions",
+                      "vi": "làm gián đoạn ... ôn luyện"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -51026,7 +52360,889 @@ const ESSAY_DATA = [
               "en": "unverified courses",
               "vi": "các khóa học chưa được kiểm chứng chất lượng"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>using computer and online learning programs in second language learning</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, online language programs have several advantages.</strong> One major benefit is that <strong><em>these programs offer great flexibility in time and place</em></strong>. This is because learners can study on their computers or phones at home without traveling to language centers. Another positive aspect is that <strong><em>online courses help students connect with native teachers</em></strong>. The main reason is that learners can practice speaking directly with foreign teachers from different countries via video calls. A further good point is that <strong><em>online learning programs are often cheaper than traditional classes</em></strong>. For example, students can save money on tuition fees, printed books, and daily travel costs.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>online language learning requires high self-discipline</em></strong>. This is because without a teacher watching directly in class, many learners easily give up halfway. Another negative aspect is that <strong><em>online programs lack lively group interaction with classmates</em></strong>. In fact, studying alone in front of a screen can make students feel bored. Finally, <strong><em>learning quality depends heavily on the Internet connection</em></strong>. As a result, a weak network can interrupt speaking lessons and cause frustration.\n\nIn conclusion, <strong>using computer and online language programs</strong> has both advantages and disadvantages. These points show that it has different effects on learners. Therefore, it is important to consider both sides carefully.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng máy tính và các chương trình trực tuyến trong học ngoại ngữ thứ hai</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, các chương trình học ngoại ngữ trực tuyến có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>các chương trình này mang lại sự linh hoạt lớn về thời gian và địa điểm</em></strong>. Điều này là vì người học có thể học trên máy tính hoặc điện thoại tại nhà mà không cần đi đến trung tâm ngoại ngữ. Một khía cạnh tích cực khác là <strong><em>khóa học trực tuyến giúp học viên kết nối với giáo viên bản ngữ</em></strong>. Lý do chính là người học có thể luyện nói trực tiếp với giáo viên nước ngoài từ nhiều quốc gia qua cuộc gọi video. Một điểm tốt nữa là <strong><em>chương trình trực tuyến thường rẻ hơn lớp học truyền thống</em></strong>. Ví dụ, học sinh tiết kiệm được học phí, tiền mua sách in và chi phí đi lại hằng ngày.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>học ngoại ngữ trực tuyến đòi hỏi tính tự giác cao</em></strong>. Điều này là do khi không có giáo viên giám sát trực tiếp trên lớp, nhiều người học dễ bỏ cuộc giữa chừng. Một điểm tiêu cực khác là <strong><em>chương trình trực tuyến thiếu sự tương tác nhóm sôi nổi với bạn học</em></strong>. Thực tế, học một mình trước màn hình dễ khiến học viên cảm thấy nhàm chán. Cuối cùng, <strong><em>chất lượng buổi học phụ thuộc nhiều vào đường truyền Internet</em></strong>. Kết quả là mạng yếu có thể làm gián đoạn giờ luyện nói và gây khó chịu.\n\nTóm lại, <strong>sử dụng máy tính và chương trình học ngoại ngữ trực tuyến</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó có tác động khác nhau đến người học. Vì vậy, cần cân nhắc kỹ cả hai mặt.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: LINH HOẠT VỀ THỜI GIAN VÀ ĐỊA ĐIỂM HỌC TẬP (FLEXIBILITY IN TIME AND LOCATION)",
+                "collocations": [
+                  {
+                    "en": "computers and online programs",
+                    "vi": "máy tính và các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "second language learners",
+                    "vi": "người học ngoại ngữ"
+                  },
+                  {
+                    "en": "great flexibility in time and location",
+                    "vi": "sự linh hoạt lớn về thời gian và địa điểm"
+                  },
+                  {
+                    "en": "working adults",
+                    "vi": "người đi làm"
+                  },
+                  {
+                    "en": "study early in the morning or late at night",
+                    "vi": "học vào sáng sớm hoặc buổi tối"
+                  },
+                  {
+                    "en": "without commuting to language centers",
+                    "vi": "mà không tốn thời gian đi lại đến trung tâm"
+                  },
+                  {
+                    "en": "maintain regular language practice",
+                    "vi": "duy trì thói quen rèn luyện ngoại ngữ đều đặn"
+                  },
+                  {
+                    "en": "despite busy schedules",
+                    "vi": "dù lịch trình bận rộn"
+                  }
+                ],
+                "point_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ.",
+                "point_en": "Computers and online programs offer second language learners great flexibility in time and location.",
+                "evidence_vi": "Học sinh và người đi làm có thể học vào sáng sớm hoặc buổi tối ngay tại nhà mà không tốn thời gian đi lại đến trung tâm. Điều này giúp họ duy trì thói quen rèn luyện ngoại ngữ đều đặn dù lịch trình bận rộn.",
+                "evidence_en": "Students and working adults can study early in the morning or late at night from home without commuting to language centers. This helps them maintain regular language practice despite busy schedules.",
+                "point_collocations": [
+                  {
+                    "en": "computers and online programs",
+                    "vi": "máy tính và các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "second language learners",
+                    "vi": "người học ngoại ngữ"
+                  },
+                  {
+                    "en": "great flexibility in time and location",
+                    "vi": "sự linh hoạt lớn về thời gian và địa điểm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "working adults",
+                      "vi": "người đi làm"
+                    },
+                    {
+                      "en": "study early in the morning or late at night",
+                      "vi": "học vào sáng sớm hoặc buổi tối"
+                    },
+                    {
+                      "en": "without commuting to language centers",
+                      "vi": "mà không tốn thời gian đi lại đến trung tâm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "maintain regular language practice",
+                      "vi": "duy trì thói quen rèn luyện ngoại ngữ đều đặn"
+                    },
+                    {
+                      "en": "despite busy schedules",
+                      "vi": "dù lịch trình bận rộn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: KẾT NỐI DỄ DÀNG VỚI GIÁO VIÊN BẢN NGỮ TOÀN CẦU (GLOBAL ACCESS TO NATIVE INSTRUCTORS)",
+                "collocations": [
+                  {
+                    "en": "online learning programs",
+                    "vi": "các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "connect learners directly with",
+                    "vi": "kết nối trực tiếp với"
+                  },
+                  {
+                    "en": "native-speaking instructors",
+                    "vi": "giáo viên bản ngữ"
+                  },
+                  {
+                    "en": "learners living in small towns",
+                    "vi": "sống ở thị trấn nhỏ"
+                  },
+                  {
+                    "en": "join virtual speaking classes",
+                    "vi": "tham gia lớp luyện nói trực tuyến"
+                  },
+                  {
+                    "en": "foreign teachers",
+                    "vi": "giáo viên nước ngoài"
+                  },
+                  {
+                    "en": "become familiar with natural intonation",
+                    "vi": "làm quen với ngữ điệu tự nhiên"
+                  },
+                  {
+                    "en": "improve their communication skills",
+                    "vi": "nâng cao ... giao tiếp"
+                  },
+                  {
+                    "en": "such exposure",
+                    "vi": "sự tiếp xúc này"
+                  }
+                ],
+                "point_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia.",
+                "point_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
+                "evidence_vi": "Ngay cả khi sống ở thị trấn nhỏ, học viên vẫn có thể tham gia lớp luyện nói trực tuyến với giáo viên nước ngoài. Sự tiếp xúc này giúp họ làm quen với ngữ điệu tự nhiên và nâng cao phản xạ giao tiếp.",
+                "evidence_en": "Even learners living in small towns can join virtual speaking classes with foreign teachers. Such exposure helps them become familiar with natural intonation and improve their communication skills.",
+                "point_collocations": [
+                  {
+                    "en": "online learning programs",
+                    "vi": "các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "connect learners directly with",
+                    "vi": "kết nối trực tiếp với"
+                  },
+                  {
+                    "en": "native-speaking instructors",
+                    "vi": "giáo viên bản ngữ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "learners living in small towns",
+                      "vi": "sống ở thị trấn nhỏ"
+                    },
+                    {
+                      "en": "join virtual speaking classes",
+                      "vi": "tham gia lớp luyện nói trực tuyến"
+                    },
+                    {
+                      "en": "foreign teachers",
+                      "vi": "giáo viên nước ngoài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "become familiar with natural intonation",
+                      "vi": "làm quen với ngữ điệu tự nhiên"
+                    },
+                    {
+                      "en": "improve their communication skills",
+                      "vi": "nâng cao ... giao tiếp"
+                    },
+                    {
+                      "en": "such exposure",
+                      "vi": "sự tiếp xúc này"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: CÁ NHÂN HÓA LỘ TRÌNH VÀ THEO DÕI TIẾN ĐỘ (PERSONALIZED PATHWAYS AND PROGRESS TRACKING)",
+                "collocations": [
+                  {
+                    "en": "modern language platforms",
+                    "vi": "nền tảng học ngoại ngữ hiện"
+                  },
+                  {
+                    "en": "design study pathways",
+                    "vi": "thiết kế lộ trình ... tập"
+                  },
+                  {
+                    "en": "tailored to each learner's proficiency level",
+                    "vi": "phù hợp với trình độ của từng"
+                  },
+                  {
+                    "en": "identify weak areas",
+                    "vi": "ghi nhận những phần ... còn yếu"
+                  },
+                  {
+                    "en": "in vocabulary or grammar",
+                    "vi": "từ vựng hoặc ngữ pháp"
+                  },
+                  {
+                    "en": "suggest extra practice exercises",
+                    "vi": "đưa ra bài ôn tập bổ sung"
+                  },
+                  {
+                    "en": "track their weekly progress clearly",
+                    "vi": "theo dõi rõ sự tiến bộ ... tuần"
+                  },
+                  {
+                    "en": "fill knowledge gaps",
+                    "vi": "khắc phục lỗ hổng kiến thức"
+                  },
+                  {
+                    "en": "faster",
+                    "vi": "nhanh hơn"
+                  }
+                ],
+                "point_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân.",
+                "point_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
+                "evidence_vi": "Hệ thống tự động ghi nhận những phần từ vựng hoặc ngữ pháp còn yếu để đưa ra bài ôn tập bổ sung. Nhờ vậy, người học theo dõi rõ sự tiến bộ hằng tuần và khắc phục lỗ hổng kiến thức nhanh hơn.",
+                "evidence_en": "The system automatically identifies weak areas in vocabulary or grammar to suggest extra practice exercises. Consequently, learners can track their weekly progress clearly and fill knowledge gaps faster.",
+                "point_collocations": [
+                  {
+                    "en": "modern language platforms",
+                    "vi": "nền tảng học ngoại ngữ hiện"
+                  },
+                  {
+                    "en": "design study pathways",
+                    "vi": "thiết kế lộ trình ... tập"
+                  },
+                  {
+                    "en": "tailored to each learner's proficiency level",
+                    "vi": "phù hợp với trình độ của từng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identify weak areas",
+                      "vi": "ghi nhận những phần ... còn yếu"
+                    },
+                    {
+                      "en": "in vocabulary or grammar",
+                      "vi": "từ vựng hoặc ngữ pháp"
+                    },
+                    {
+                      "en": "suggest extra practice exercises",
+                      "vi": "đưa ra bài ôn tập bổ sung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "track their weekly progress clearly",
+                      "vi": "theo dõi rõ sự tiến bộ ... tuần"
+                    },
+                    {
+                      "en": "fill knowledge gaps",
+                      "vi": "khắc phục lỗ hổng kiến thức"
+                    },
+                    {
+                      "en": "faster",
+                      "vi": "nhanh hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: TIẾT KIỆM CHI PHÍ HỌC PHÍ VÀ ĐI LẠI (LOWER TUITION AND TRAVEL EXPENSES)",
+                "collocations": [
+                  {
+                    "en": "online courses and language applications",
+                    "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ"
+                  },
+                  {
+                    "en": "more affordable than",
+                    "vi": "có chi phí tiết kiệm hơn so với"
+                  },
+                  {
+                    "en": "traditional classroom courses",
+                    "vi": "các khóa học trực"
+                  },
+                  {
+                    "en": "reasonably priced monthly subscriptions",
+                    "vi": "gói đăng ký tháng với mức giá ... hợp lý"
+                  },
+                  {
+                    "en": "cut transport and printed textbook expenses",
+                    "vi": "cắt giảm chi phí"
+                  },
+                  {
+                    "en": "free exercises",
+                    "vi": "bài tập miễn phí"
+                  },
+                  {
+                    "en": "open up second language learning opportunities",
+                    "vi": "mở ra cơ hội học ngoại ngữ"
+                  },
+                  {
+                    "en": "students on a tight budget",
+                    "vi": "học sinh có ngân sách hạn hẹp"
+                  }
+                ],
+                "point_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống.",
+                "point_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
+                "evidence_vi": "Nhiều trang web cung cấp bài tập miễn phí hoặc gói đăng ký tháng với mức giá rất hợp lý, đồng thời cắt giảm chi phí xăng xe và tài liệu in ấn. Điều này mở ra cơ hội học ngoại ngữ cho đông đảo học sinh có ngân sách hạn hẹp.",
+                "evidence_en": "Many websites offer free exercises or reasonably priced monthly subscriptions while cutting transport and printed textbook expenses. This opens up second language learning opportunities to students on a tight budget.",
+                "point_collocations": [
+                  {
+                    "en": "online courses and language applications",
+                    "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ"
+                  },
+                  {
+                    "en": "more affordable than",
+                    "vi": "có chi phí tiết kiệm hơn so với"
+                  },
+                  {
+                    "en": "traditional classroom courses",
+                    "vi": "các khóa học trực"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reasonably priced monthly subscriptions",
+                      "vi": "gói đăng ký tháng với mức giá ... hợp lý"
+                    },
+                    {
+                      "en": "cut transport and printed textbook expenses",
+                      "vi": "cắt giảm chi phí"
+                    },
+                    {
+                      "en": "free exercises",
+                      "vi": "bài tập miễn phí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "open up second language learning opportunities",
+                      "vi": "mở ra cơ hội học ngoại ngữ"
+                    },
+                    {
+                      "en": "students on a tight budget",
+                      "vi": "học sinh có ngân sách hạn hẹp"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: GIẢM TÂM LÝ SỢ SAI KHI MỚI LUYỆN NÓI (LOWER SPEAKING ANXIETY FOR BEGINNERS)",
+                "collocations": [
+                  {
+                    "en": "practice with online programs",
+                    "vi": "luyện tập với các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "reduce their fear of making mistakes",
+                    "vi": "giảm bớt nỗi sợ mắc lỗi"
+                  },
+                  {
+                    "en": "in front of others",
+                    "vi": "trước đám đông"
+                  },
+                  {
+                    "en": "shy learners",
+                    "vi": "những người học rụt rè"
+                  },
+                  {
+                    "en": "record their voices",
+                    "vi": "thu âm giọng nói"
+                  },
+                  {
+                    "en": "in the privacy of their own homes",
+                    "vi": "trong không gian riêng tư tại nhà"
+                  },
+                  {
+                    "en": "master basic pronunciation",
+                    "vi": "nắm vững cách phát âm cơ bản"
+                  },
+                  {
+                    "en": "feel much more confident",
+                    "vi": "tự tin hơn nhiều"
+                  },
+                  {
+                    "en": "in real conversations",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông.",
+                "point_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
+                "evidence_vi": "Những người học rụt rè có thể thoải mái thu âm giọng nói và luyện hội thoại nhiều lần trong không gian riêng tư tại nhà. Khi đã nắm vững cách phát âm cơ bản, họ sẽ tự tin hơn nhiều khi bước vào giao tiếp thực tế.",
+                "evidence_en": "Shy learners can comfortably record their voices and practice dialogues repeatedly in the privacy of their own homes. Once they master basic pronunciation, they feel much more confident in real conversations.",
+                "point_collocations": [
+                  {
+                    "en": "practice with online programs",
+                    "vi": "luyện tập với các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "reduce their fear of making mistakes",
+                    "vi": "giảm bớt nỗi sợ mắc lỗi"
+                  },
+                  {
+                    "en": "in front of others",
+                    "vi": "trước đám đông"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shy learners",
+                      "vi": "những người học rụt rè"
+                    },
+                    {
+                      "en": "record their voices",
+                      "vi": "thu âm giọng nói"
+                    },
+                    {
+                      "en": "in the privacy of their own homes",
+                      "vi": "trong không gian riêng tư tại nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "master basic pronunciation",
+                      "vi": "nắm vững cách phát âm cơ bản"
+                    },
+                    {
+                      "en": "feel much more confident",
+                      "vi": "tự tin hơn nhiều"
+                    },
+                    {
+                      "en": "in real conversations",
+                      "vi": "giao tiếp thực tế"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: ĐÒI HỎI TÍNH TỰ GIÁC CAO VÀ DỄ BỎ CUỘC (HIGH SELF-DISCIPLINE REQUIRED AND DROPOUT RISK)",
+                "collocations": [
+                  {
+                    "en": "require strong self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "many learners lack",
+                    "vi": "nhiều người học còn thiếu"
+                  },
+                  {
+                    "en": "without a classroom teacher reminding them directly",
+                    "vi": "không có giáo viên trực tiếp nhắc nhở"
+                  },
+                  {
+                    "en": "postpone assignments",
+                    "vi": "trì hoãn bài tập"
+                  },
+                  {
+                    "en": "abandon courses",
+                    "vi": "bỏ dở khóa học"
+                  },
+                  {
+                    "en": "online self-study",
+                    "vi": "việc tự học"
+                  },
+                  {
+                    "en": "ineffective",
+                    "vi": "kém hiệu quả"
+                  },
+                  {
+                    "en": "people who lack persistence",
+                    "vi": "những người thiếu kiên trì"
+                  }
+                ],
+                "point_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu.",
+                "point_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
+                "evidence_vi": "Khi không có giáo viên trực tiếp nhắc nhở trên lớp, học viên rất dễ trì hoãn bài tập hoặc bỏ dở khóa học sau vài tuần đầu hào hứng. Vì vậy, việc tự học trên mạng thường kém hiệu quả đối với những người thiếu kiên trì.",
+                "evidence_en": "Without a classroom teacher reminding them directly, learners easily postpone assignments or abandon courses after a few enthusiastic weeks. Therefore, online self-study is often ineffective for people who lack persistence.",
+                "point_collocations": [
+                  {
+                    "en": "require strong self-discipline",
+                    "vi": "đòi hỏi tính tự giác cao"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "các chương trình trực tuyến"
+                  },
+                  {
+                    "en": "many learners lack",
+                    "vi": "nhiều người học còn thiếu"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "without a classroom teacher reminding them directly",
+                      "vi": "không có giáo viên trực tiếp nhắc nhở"
+                    },
+                    {
+                      "en": "postpone assignments",
+                      "vi": "trì hoãn bài tập"
+                    },
+                    {
+                      "en": "abandon courses",
+                      "vi": "bỏ dở khóa học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "online self-study",
+                      "vi": "việc tự học"
+                    },
+                    {
+                      "en": "ineffective",
+                      "vi": "kém hiệu quả"
+                    },
+                    {
+                      "en": "people who lack persistence",
+                      "vi": "những người thiếu kiên trì"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: THIẾU TƯƠNG TÁC NHÓM VÀ MÔI TRƯỜNG GIAO TIẾP THỰC (LIMITED GROUP INTERACTION AND REAL PRACTICE)",
+                "collocations": [
+                  {
+                    "en": "apps and online courses",
+                    "vi": "ứng dụng và khóa học trực tuyến"
+                  },
+                  {
+                    "en": "lively group interaction",
+                    "vi": "nhóm sôi nổi"
+                  },
+                  {
+                    "en": "traditional classrooms",
+                    "vi": "lớp học truyền thống"
+                  },
+                  {
+                    "en": "digital exercises",
+                    "vi": "các bài tập kỹ thuật số"
+                  },
+                  {
+                    "en": "choose correct answers",
+                    "vi": "chọn đáp án đúng"
+                  },
+                  {
+                    "en": "repeat fixed sentence patterns",
+                    "vi": "lặp lại các mẫu câu"
+                  },
+                  {
+                    "en": "group discussion",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "handle unexpected communicative situations",
+                    "vi": "xử lý tình huống giao tiếp bất ngờ"
+                  },
+                  {
+                    "en": "leave learners lacking skills",
+                    "vi": "khiến người học thiếu kỹ năng"
+                  }
+                ],
+                "point_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống.",
+                "point_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
+                "evidence_vi": "Phần lớn các bài tập kỹ thuật số chỉ tập trung vào chọn đáp án đúng hoặc lặp lại các mẫu câu có sẵn. Điều này khiến người học thiếu kỹ năng thảo luận nhóm, tranh luận và xử lý tình huống giao tiếp bất ngờ.",
+                "evidence_en": "Most digital exercises focus mainly on choosing correct answers or repeating fixed sentence patterns. This leaves learners lacking skills in group discussion, debate, and handling unexpected communicative situations.",
+                "point_collocations": [
+                  {
+                    "en": "apps and online courses",
+                    "vi": "ứng dụng và khóa học trực tuyến"
+                  },
+                  {
+                    "en": "lively group interaction",
+                    "vi": "nhóm sôi nổi"
+                  },
+                  {
+                    "en": "traditional classrooms",
+                    "vi": "lớp học truyền thống"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "digital exercises",
+                      "vi": "các bài tập kỹ thuật số"
+                    },
+                    {
+                      "en": "choose correct answers",
+                      "vi": "chọn đáp án đúng"
+                    },
+                    {
+                      "en": "repeat fixed sentence patterns",
+                      "vi": "lặp lại các mẫu câu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "group discussion",
+                      "vi": "thảo luận nhóm"
+                    },
+                    {
+                      "en": "handle unexpected communicative situations",
+                      "vi": "xử lý tình huống giao tiếp bất ngờ"
+                    },
+                    {
+                      "en": "leave learners lacking skills",
+                      "vi": "khiến người học thiếu kỹ năng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: CHẤT LƯỢNG CÁC CHƯƠNG TRÌNH TRỰC TUYẾN KHÔNG ĐỒNG ĐỀU (UNEVEN QUALITY OF ONLINE PROGRAMS)",
+                "collocations": [
+                  {
+                    "en": "the quality of language learning websites",
+                    "vi": "chất lượng của các trang web ... học ngoại ngữ"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "chương trình học ngoại ngữ trực tuyến"
+                  },
+                  {
+                    "en": "vary considerably",
+                    "vi": "rất không đồng đều"
+                  },
+                  {
+                    "en": "reputable platforms",
+                    "vi": "các nền tảng uy tín"
+                  },
+                  {
+                    "en": "unverified courses",
+                    "vi": "khóa học thiếu kiểm"
+                  },
+                  {
+                    "en": "teach fragmented grammar or unnatural expressions",
+                    "vi": "dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên"
+                  },
+                  {
+                    "en": "choose poor-quality programs",
+                    "vi": "chọn nhầm chương trình kém chất lượng"
+                  },
+                  {
+                    "en": "waste both money and time",
+                    "vi": "gây lãng phí cả tiền bạc lẫn thời gian"
+                  },
+                  {
+                    "en": "beginners",
+                    "vi": "người mới học"
+                  }
+                ],
+                "point_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều.",
+                "point_en": "The quality of language learning websites and online programs varies considerably.",
+                "evidence_vi": "Bên cạnh các nền tảng uy tín, vẫn có nhiều khóa học thiếu kiểm duyệt chuyên môn, dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên. Người mới học rất dễ chọn nhầm chương trình kém chất lượng, gây lãng phí cả tiền bạc lẫn thời gian.",
+                "evidence_en": "Alongside reputable platforms, many unverified courses lack academic standards and teach fragmented grammar or unnatural expressions. Beginners can easily choose poor-quality programs, wasting both money and time.",
+                "point_collocations": [
+                  {
+                    "en": "the quality of language learning websites",
+                    "vi": "chất lượng của các trang web ... học ngoại ngữ"
+                  },
+                  {
+                    "en": "online programs",
+                    "vi": "chương trình học ngoại ngữ trực tuyến"
+                  },
+                  {
+                    "en": "vary considerably",
+                    "vi": "rất không đồng đều"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reputable platforms",
+                      "vi": "các nền tảng uy tín"
+                    },
+                    {
+                      "en": "unverified courses",
+                      "vi": "khóa học thiếu kiểm"
+                    },
+                    {
+                      "en": "teach fragmented grammar or unnatural expressions",
+                      "vi": "dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "choose poor-quality programs",
+                      "vi": "chọn nhầm chương trình kém chất lượng"
+                    },
+                    {
+                      "en": "waste both money and time",
+                      "vi": "gây lãng phí cả tiền bạc lẫn thời gian"
+                    },
+                    {
+                      "en": "beginners",
+                      "vi": "người mới học"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: PHỤ THUỘC VÀO ĐƯỜNG TRUYỀN INTERNET ỔN ĐỊNH (DEPENDENCE ON STABLE INTERNET CONNECTIVITY)",
+                "collocations": [
+                  {
+                    "en": "the effectiveness of online learning programs",
+                    "vi": "hiệu quả của các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "depend heavily on",
+                    "vi": "phụ thuộc chặt chẽ vào"
+                  },
+                  {
+                    "en": "a stable Internet connection",
+                    "vi": "đường truyền internet"
+                  },
+                  {
+                    "en": "weak or disconnected",
+                    "vi": "yếu hoặc mất kết nối"
+                  },
+                  {
+                    "en": "audio in language classes lags",
+                    "vi": "âm thanh trong lớp ... ngoại ngữ bị giật"
+                  },
+                  {
+                    "en": "hear the teacher's pronunciation clearly",
+                    "vi": "nghe rõ cách phát âm của giáo viên"
+                  },
+                  {
+                    "en": "cause frustration",
+                    "vi": "gây ức chế tâm lý"
+                  },
+                  {
+                    "en": "lower the quality of speaking lessons",
+                    "vi": "làm giảm chất lượng buổi học"
+                  },
+                  {
+                    "en": "such disruptions",
+                    "vi": "sự cố này"
+                  }
+                ],
+                "point_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet.",
+                "point_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
+                "evidence_vi": "Khi mạng yếu hoặc mất kết nối, âm thanh trong lớp học ngoại ngữ bị giật ngắt khiến người học không nghe rõ cách phát âm của giáo viên. Sự cố này gây ức chế tâm lý và làm giảm chất lượng buổi học thực hành.",
+                "evidence_en": "When the network is weak or disconnected, audio in language classes lags and prevents learners from hearing the teacher's pronunciation clearly. Such disruptions cause frustration and lower the quality of speaking lessons.",
+                "point_collocations": [
+                  {
+                    "en": "the effectiveness of online learning programs",
+                    "vi": "hiệu quả của các chương trình học trực tuyến"
+                  },
+                  {
+                    "en": "depend heavily on",
+                    "vi": "phụ thuộc chặt chẽ vào"
+                  },
+                  {
+                    "en": "a stable Internet connection",
+                    "vi": "đường truyền internet"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "weak or disconnected",
+                      "vi": "yếu hoặc mất kết nối"
+                    },
+                    {
+                      "en": "audio in language classes lags",
+                      "vi": "âm thanh trong lớp ... ngoại ngữ bị giật"
+                    },
+                    {
+                      "en": "hear the teacher's pronunciation clearly",
+                      "vi": "nghe rõ cách phát âm của giáo viên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cause frustration",
+                      "vi": "gây ức chế tâm lý"
+                    },
+                    {
+                      "en": "lower the quality of speaking lessons",
+                      "vi": "làm giảm chất lượng buổi học"
+                    },
+                    {
+                      "en": "such disruptions",
+                      "vi": "sự cố này"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: KHÓ NHẬN ĐƯỢC HƯỚNG DẪN CHUYÊN SÂU CHO KỸ NĂNG VIẾT VÀ NÓI (LACK OF IN-DEPTH HUMAN FEEDBACK)",
+                "collocations": [
+                  {
+                    "en": "automated computer programs",
+                    "vi": "các chương trình tự động trên máy tính"
+                  },
+                  {
+                    "en": "give in-depth feedback",
+                    "vi": "chấm sửa sâu sắc"
+                  },
+                  {
+                    "en": "extended speaking and essay writing",
+                    "vi": "viết luận và nói dài"
+                  },
+                  {
+                    "en": "spot basic spelling errors",
+                    "vi": "nhận biết lỗi chính tả cơ bản"
+                  },
+                  {
+                    "en": "evaluate logical flow",
+                    "vi": "đánh giá ... mạch lập luận"
+                  },
+                  {
+                    "en": "subtle word choices",
+                    "vi": "sự tinh tế trong cách ... từ"
+                  },
+                  {
+                    "en": "experienced teachers",
+                    "vi": "giáo viên"
+                  },
+                  {
+                    "en": "reach advanced language proficiency",
+                    "vi": "đạt trình độ ngoại ngữ nâng cao"
+                  },
+                  {
+                    "en": "still need",
+                    "vi": "vẫn cần"
+                  }
+                ],
+                "point_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài.",
+                "point_en": "Automated computer programs often struggle to give in-depth feedback on extended speaking and essay writing.",
+                "evidence_vi": "Phần mềm có thể nhận biết lỗi chính tả cơ bản nhưng khó đánh giá chính xác mạch lập luận, giọng văn hay sự tinh tế trong cách dùng từ. Người học vẫn cần giáo viên có chuyên môn hướng dẫn để đạt trình độ ngoại ngữ nâng cao.",
+                "evidence_en": "Software can spot basic spelling errors, yet it struggles to evaluate logical flow, tone, or subtle word choices accurately. Learners still need experienced teachers to reach advanced language proficiency.",
+                "point_collocations": [
+                  {
+                    "en": "automated computer programs",
+                    "vi": "các chương trình tự động trên máy tính"
+                  },
+                  {
+                    "en": "give in-depth feedback",
+                    "vi": "chấm sửa sâu sắc"
+                  },
+                  {
+                    "en": "extended speaking and essay writing",
+                    "vi": "viết luận và nói dài"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spot basic spelling errors",
+                      "vi": "nhận biết lỗi chính tả cơ bản"
+                    },
+                    {
+                      "en": "evaluate logical flow",
+                      "vi": "đánh giá ... mạch lập luận"
+                    },
+                    {
+                      "en": "subtle word choices",
+                      "vi": "sự tinh tế trong cách ... từ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "experienced teachers",
+                      "vi": "giáo viên"
+                    },
+                    {
+                      "en": "reach advanced language proficiency",
+                      "vi": "đạt trình độ ngoại ngữ nâng cao"
+                    },
+                    {
+                      "en": "still need",
+                      "vi": "vẫn cần"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -53260,7 +55476,889 @@ const ESSAY_DATA = [
               "en": "expose children to safety risks",
               "vi": "khiến trẻ đối mặt với những rủi ro mất an toàn"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>children living independently</strong> has become a topic of interest in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, teaching children to live independently has several advantages.</strong> One major benefit is that <strong><em>living independently helps children learn useful daily life skills</em></strong>. This is because children learn how to cook simple meals, clean their rooms, and do laundry by themselves. Another positive aspect is that <strong><em>independent children develop a strong sense of responsibility</em></strong>. The main reason is that they have to finish their homework on time and take care of their personal belongings without waiting for parents. A further good point is that <strong><em>children become more confident when solving daily problems</em></strong>. For example, they can adapt quickly when studying away from home in the future.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>young children may make unwise decisions without adult guidance</em></strong>. This is because children lack life experience and can be tricked by bad people. Another negative aspect is that <strong><em>having too many duties early can make children feel stressed</em></strong>. In fact, balancing schoolwork and housework alone may make them tired and lonely. Finally, <strong><em>living without close supervision can cause safety risks at home</em></strong>. As a result, children may get hurt when using kitchen tools or electrical devices.\n\nIn conclusion, <strong>children living independently</strong> has both advantages and disadvantages. These points show that it has different effects on children’s growth. Therefore, parents should guide and support their children properly.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc trẻ em sống tự lập</strong> đã trở thành một chủ đề được quan tâm trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, rèn cho trẻ sống tự lập có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>sống tự lập giúp trẻ học được những kỹ năng sống hữu ích hằng ngày</em></strong>. Điều này là vì trẻ học được cách nấu những bữa ăn đơn giản, dọn phòng và tự giặt quần áo. Một khía cạnh tích cực khác là <strong><em>trẻ tự lập phát triển tinh thần trách nhiệm cao</em></strong>. Lý do chính là các em phải hoàn thành bài tập đúng giờ và tự giữ gìn đồ dùng cá nhân mà không ỷ lại vào cha mẹ. Một điểm tốt nữa là <strong><em>trẻ trở nên tự tin hơn khi giải quyết các vấn đề hằng ngày</em></strong>. Ví dụ, các em có thể thích nghi nhanh khi đi học xa nhà trong tương lai.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>trẻ nhỏ có thể đưa ra quyết định thiếu khôn ngoan khi không có người lớn định hướng</em></strong>. Điều này là do trẻ còn thiếu kinh nghiệm sống và dễ bị kẻ xấu lừa gạt. Một điểm tiêu cực khác là <strong><em>phải gánh vác quá nhiều việc từ sớm có thể khiến trẻ căng thẳng</em></strong>. Thực tế, việc tự cân bằng chuyện học và việc nhà có thể làm trẻ mệt mỏi và cô đơn. Cuối cùng, <strong><em>thiếu sự giám sát sát sao có thể gây nguy cơ mất an toàn tại nhà</em></strong>. Kết quả là trẻ có thể bị thương khi dùng dao kéo nhà bếp hoặc thiết bị điện.\n\nTóm lại, <strong>việc trẻ em sống tự lập</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó có tác động khác nhau đến sự phát triển của trẻ. Vì vậy, cha mẹ cần định hướng và đồng hành cùng con một cách phù hợp.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: HÌNH THÀNH KỸ NĂNG SỐNG THIẾT YẾU TỪ SỚM (ESSENTIAL PRACTICAL LIFE SKILLS)",
+                "collocations": [
+                  {
+                    "en": "live independently",
+                    "vi": "sống tự lập"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "hình thành những kỹ năng thực tế cần thiết"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "sớm"
+                  },
+                  {
+                    "en": "prepare simple meals",
+                    "vi": "chuẩn bị bữa ăn đơn giản"
+                  },
+                  {
+                    "en": "manage study schedules",
+                    "vi": "sắp xếp thời gian học"
+                  },
+                  {
+                    "en": "look after themselves",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "adapt easily",
+                    "vi": "thích nghi dễ dàng"
+                  },
+                  {
+                    "en": "study away from home",
+                    "vi": "học xa nhà"
+                  },
+                  {
+                    "en": "enter adulthood",
+                    "vi": "bước vào tuổi trưởng thành"
+                  }
+                ],
+                "point_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày.",
+                "point_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
+                "evidence_vi": "Khi tự dọn dẹp phòng ốc, chuẩn bị bữa ăn đơn giản và sắp xếp thời gian học, trẻ biết cách tự chăm sóc bản thân mà không ỷ lại vào cha mẹ. Những thói quen này giúp các em thích nghi dễ dàng khi sau này học xa nhà hoặc bước vào tuổi trưởng thành.",
+                "evidence_en": "When tidying their rooms, preparing simple meals, and managing study schedules, children learn to look after themselves without relying on their parents. These habits help them adapt easily when studying away from home or entering adulthood later.",
+                "point_collocations": [
+                  {
+                    "en": "live independently",
+                    "vi": "sống tự lập"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "hình thành những kỹ năng thực tế cần thiết"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "sớm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "prepare simple meals",
+                      "vi": "chuẩn bị bữa ăn đơn giản"
+                    },
+                    {
+                      "en": "manage study schedules",
+                      "vi": "sắp xếp thời gian học"
+                    },
+                    {
+                      "en": "look after themselves",
+                      "vi": "tự chăm sóc bản thân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "adapt easily",
+                      "vi": "thích nghi dễ dàng"
+                    },
+                    {
+                      "en": "study away from home",
+                      "vi": "học xa nhà"
+                    },
+                    {
+                      "en": "enter adulthood",
+                      "vi": "bước vào tuổi trưởng thành"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: NÂNG CAO TINH THẦN TRÁCH NHIỆM VÀ KỶ LUẬT CÁ NHÂN (STRONGER RESPONSIBILITY AND SELF-DISCIPLINE)",
+                "collocations": [
+                  {
+                    "en": "handle personal tasks",
+                    "vi": "tự giải quyết công việc cá nhân"
+                  },
+                  {
+                    "en": "a strong sense of responsibility",
+                    "vi": "tinh thần trách nhiệm ... cao"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính kỷ luật"
+                  },
+                  {
+                    "en": "keep personal belongings tidy",
+                    "vi": "giữ gìn đồ dùng cá nhân"
+                  },
+                  {
+                    "en": "face the consequences themselves",
+                    "vi": "phải đối mặt với kết quả đó"
+                  },
+                  {
+                    "en": "forget their homework",
+                    "vi": "quên làm bài tập về nhà"
+                  },
+                  {
+                    "en": "become more careful",
+                    "vi": "trở nên cẩn thận hơn"
+                  },
+                  {
+                    "en": "complete their duties on time",
+                    "vi": "hoàn thành nhiệm vụ đúng hạn"
+                  }
+                ],
+                "point_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao.",
+                "point_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
+                "evidence_vi": "Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân, chính các em sẽ phải đối mặt với kết quả đó. Nhờ vậy, trẻ trở nên cẩn thận hơn và chủ động hoàn thành nhiệm vụ đúng hạn.",
+                "evidence_en": "Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves. As a result, they become more careful and complete their duties on time.",
+                "point_collocations": [
+                  {
+                    "en": "handle personal tasks",
+                    "vi": "tự giải quyết công việc cá nhân"
+                  },
+                  {
+                    "en": "a strong sense of responsibility",
+                    "vi": "tinh thần trách nhiệm ... cao"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính kỷ luật"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "keep personal belongings tidy",
+                      "vi": "giữ gìn đồ dùng cá nhân"
+                    },
+                    {
+                      "en": "face the consequences themselves",
+                      "vi": "phải đối mặt với kết quả đó"
+                    },
+                    {
+                      "en": "forget their homework",
+                      "vi": "quên làm bài tập về nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "become more careful",
+                      "vi": "trở nên cẩn thận hơn"
+                    },
+                    {
+                      "en": "complete their duties on time",
+                      "vi": "hoàn thành nhiệm vụ đúng hạn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: TĂNG SỰ TỰ TIN VÀ KỸ NĂNG RA QUYẾT ĐỊNH (GREATER CONFIDENCE AND DECISION-MAKING SKILLS)",
+                "collocations": [
+                  {
+                    "en": "independent children",
+                    "vi": "trẻ sống tự lập"
+                  },
+                  {
+                    "en": "become more confident",
+                    "vi": "tự tin hơn"
+                  },
+                  {
+                    "en": "develop better problem-solving skills",
+                    "vi": "phát triển tốt kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "make age-appropriate choices",
+                    "vi": "đưa ra những lựa chọn phù hợp ... lứa tuổi"
+                  },
+                  {
+                    "en": "overcome small challenges alone",
+                    "vi": "tự vượt qua thử thách nhỏ"
+                  },
+                  {
+                    "en": "feel proud of their own abilities",
+                    "vi": "cảm thấy tự hào về năng lực của mình"
+                  },
+                  {
+                    "en": "positive self-esteem",
+                    "vi": "tự tin tích cực"
+                  },
+                  {
+                    "en": "give up easily",
+                    "vi": "dễ nản lòng"
+                  },
+                  {
+                    "en": "face difficulties at school",
+                    "vi": "gặp khó khăn ở trường học"
+                  }
+                ],
+                "point_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề.",
+                "point_en": "Independent children often become more confident and develop better problem-solving skills.",
+                "evidence_vi": "Khi được phép tự đưa ra những lựa chọn phù hợp với lứa tuổi và tự vượt qua thử thách nhỏ, trẻ cảm thấy tự hào về năng lực của mình. Sự tự tin tích cực này giúp các em không dễ nản lòng khi gặp khó khăn ở trường học.",
+                "evidence_en": "When allowed to make age-appropriate choices and overcome small challenges alone, children feel proud of their own abilities. Such positive self-esteem prevents them from giving up easily when facing difficulties at school.",
+                "point_collocations": [
+                  {
+                    "en": "independent children",
+                    "vi": "trẻ sống tự lập"
+                  },
+                  {
+                    "en": "become more confident",
+                    "vi": "tự tin hơn"
+                  },
+                  {
+                    "en": "develop better problem-solving skills",
+                    "vi": "phát triển tốt kỹ năng giải quyết vấn đề"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "make age-appropriate choices",
+                      "vi": "đưa ra những lựa chọn phù hợp ... lứa tuổi"
+                    },
+                    {
+                      "en": "overcome small challenges alone",
+                      "vi": "tự vượt qua thử thách nhỏ"
+                    },
+                    {
+                      "en": "feel proud of their own abilities",
+                      "vi": "cảm thấy tự hào về năng lực của mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "positive self-esteem",
+                      "vi": "tự tin tích cực"
+                    },
+                    {
+                      "en": "give up easily",
+                      "vi": "dễ nản lòng"
+                    },
+                    {
+                      "en": "face difficulties at school",
+                      "vi": "gặp khó khăn ở trường học"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: CHIA SẺ GÁNH NẶNG VIỆC NHÀ VỚI CHA MẸ (EASING PARENTS' HOUSEHOLD BURDEN)",
+                "collocations": [
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự lo cho bản thân"
+                  },
+                  {
+                    "en": "help with chores",
+                    "vi": "phụ giúp việc nhà"
+                  },
+                  {
+                    "en": "parents' burden",
+                    "vi": "gánh nặng của cha mẹ"
+                  },
+                  {
+                    "en": "working parents",
+                    "vi": "các bậc phụ huynh"
+                  },
+                  {
+                    "en": "have busy jobs all day",
+                    "vi": "bận rộn với công việc cả ngày"
+                  },
+                  {
+                    "en": "do everything for their children",
+                    "vi": "làm thay con mọi thứ"
+                  },
+                  {
+                    "en": "children's cooperation",
+                    "vi": "sự tự giác của con cái"
+                  },
+                  {
+                    "en": "reduce family stress",
+                    "vi": "giúp không khí gia đình bớt căng thẳng"
+                  },
+                  {
+                    "en": "a more harmonious home atmosphere",
+                    "vi": "không khí gia đình"
+                  }
+                ],
+                "point_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể.",
+                "point_en": "When children take care of themselves and help with chores, their parents' burden is noticeably reduced.",
+                "evidence_vi": "Trong xã hội hiện đại, hầu hết các bậc phụ huynh đều bận rộn với công việc cả ngày nên khó thể làm thay con mọi thứ. Sự tự giác của con cái giúp không khí gia đình bớt căng thẳng và hài hòa hơn.",
+                "evidence_en": "In modern families, most working parents have busy jobs all day and cannot do everything for their children. Children's cooperation reduces family stress and creates a more harmonious home atmosphere.",
+                "point_collocations": [
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự lo cho bản thân"
+                  },
+                  {
+                    "en": "help with chores",
+                    "vi": "phụ giúp việc nhà"
+                  },
+                  {
+                    "en": "parents' burden",
+                    "vi": "gánh nặng của cha mẹ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "working parents",
+                      "vi": "các bậc phụ huynh"
+                    },
+                    {
+                      "en": "have busy jobs all day",
+                      "vi": "bận rộn với công việc cả ngày"
+                    },
+                    {
+                      "en": "do everything for their children",
+                      "vi": "làm thay con mọi thứ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "children's cooperation",
+                      "vi": "sự tự giác của con cái"
+                    },
+                    {
+                      "en": "reduce family stress",
+                      "vi": "giúp không khí gia đình bớt căng thẳng"
+                    },
+                    {
+                      "en": "a more harmonious home atmosphere",
+                      "vi": "không khí gia đình"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: RÈN LUYỆN TƯ DUY QUẢN LÝ THỜI GIAN VÀ TIỀN TIÊU VẶT (BETTER TIME AND POCKET-MONEY MANAGEMENT)",
+                "collocations": [
+                  {
+                    "en": "manage their time",
+                    "vi": "quản lý quỹ thời gian"
+                  },
+                  {
+                    "en": "pocket money",
+                    "vi": "tiền tiêu vặt"
+                  },
+                  {
+                    "en": "wisely",
+                    "vi": "hợp lý"
+                  },
+                  {
+                    "en": "balance study hours with leisure activities",
+                    "vi": "cân đối giữa giờ học và ... giải trí"
+                  },
+                  {
+                    "en": "think carefully",
+                    "vi": "suy nghĩ kỹ"
+                  },
+                  {
+                    "en": "spend money on toys or snacks",
+                    "vi": "chi tiêu cho đồ chơi hay quà vặt"
+                  },
+                  {
+                    "en": "self-management skills",
+                    "vi": "kỹ năng tự quản"
+                  },
+                  {
+                    "en": "lay a valuable foundation",
+                    "vi": "nền tảng quý giá"
+                  },
+                  {
+                    "en": "for future success",
+                    "vi": "cho sự thành công trong tương lai"
+                  }
+                ],
+                "point_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý.",
+                "point_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
+                "evidence_vi": "Trẻ học cách cân đối giữa giờ học và giờ giải trí, đồng thời suy nghĩ kỹ trước khi chi tiêu cho đồ chơi hay quà vặt. Những kỹ năng tự quản này là nền tảng quý giá cho sự thành công trong tương lai.",
+                "evidence_en": "Children learn to balance study hours with leisure activities and think carefully before spending money on toys or snacks. Such self-management skills lay a valuable foundation for future success.",
+                "point_collocations": [
+                  {
+                    "en": "manage their time",
+                    "vi": "quản lý quỹ thời gian"
+                  },
+                  {
+                    "en": "pocket money",
+                    "vi": "tiền tiêu vặt"
+                  },
+                  {
+                    "en": "wisely",
+                    "vi": "hợp lý"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "balance study hours with leisure activities",
+                      "vi": "cân đối giữa giờ học và ... giải trí"
+                    },
+                    {
+                      "en": "think carefully",
+                      "vi": "suy nghĩ kỹ"
+                    },
+                    {
+                      "en": "spend money on toys or snacks",
+                      "vi": "chi tiêu cho đồ chơi hay quà vặt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-management skills",
+                      "vi": "kỹ năng tự quản"
+                    },
+                    {
+                      "en": "lay a valuable foundation",
+                      "vi": "nền tảng quý giá"
+                    },
+                    {
+                      "en": "for future success",
+                      "vi": "cho sự thành công trong tương lai"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: DỄ ĐƯA RA QUYẾT ĐỊNH SAI LẦM DO THIẾU KINH NGHIỆM (POOR DECISIONS DUE TO INEXPERIENCE)",
+                "collocations": [
+                  {
+                    "en": "young and inexperienced",
+                    "vi": "còn nhỏ và thiếu kinh nghiệm sống"
+                  },
+                  {
+                    "en": "live too independently",
+                    "vi": "sống ... tự lập quá sớm"
+                  },
+                  {
+                    "en": "make unwise decisions",
+                    "vi": "đưa ra những quyết định thiếu khôn ngoan"
+                  },
+                  {
+                    "en": "without close adult guidance",
+                    "vi": "không có người lớn định hướng sát sao"
+                  },
+                  {
+                    "en": "eat junk food regularly",
+                    "vi": "ăn uống không lành mạnh"
+                  },
+                  {
+                    "en": "follow bad peer influences",
+                    "vi": "nghe theo lời rủ rê xấu của bạn bè"
+                  },
+                  {
+                    "en": "negatively affect",
+                    "vi": "ảnh hưởng tiêu cực đến"
+                  },
+                  {
+                    "en": "academic performance",
+                    "vi": "kết quả học tập"
+                  },
+                  {
+                    "en": "health",
+                    "vi": "sức khỏe"
+                  }
+                ],
+                "point_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan.",
+                "point_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
+                "evidence_vi": "Khi không có người lớn định hướng sát sao, trẻ có thể sắp xếp lịch sinh hoạt thiếu khoa học, ăn uống không lành mạnh hoặc nghe theo lời rủ rê xấu của bạn bè. Những sai lầm này có thể ảnh hưởng tiêu cực đến kết quả học tập và sức khỏe của trẻ.",
+                "evidence_en": "Without close adult guidance, children may plan unhealthy routines, eat junk food regularly, or follow bad peer influences. These mistakes can negatively affect both their academic performance and health.",
+                "point_collocations": [
+                  {
+                    "en": "young and inexperienced",
+                    "vi": "còn nhỏ và thiếu kinh nghiệm sống"
+                  },
+                  {
+                    "en": "live too independently",
+                    "vi": "sống ... tự lập quá sớm"
+                  },
+                  {
+                    "en": "make unwise decisions",
+                    "vi": "đưa ra những quyết định thiếu khôn ngoan"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "without close adult guidance",
+                      "vi": "không có người lớn định hướng sát sao"
+                    },
+                    {
+                      "en": "eat junk food regularly",
+                      "vi": "ăn uống không lành mạnh"
+                    },
+                    {
+                      "en": "follow bad peer influences",
+                      "vi": "nghe theo lời rủ rê xấu của bạn bè"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "negatively affect",
+                      "vi": "ảnh hưởng tiêu cực đến"
+                    },
+                    {
+                      "en": "academic performance",
+                      "vi": "kết quả học tập"
+                    },
+                    {
+                      "en": "health",
+                      "vi": "sức khỏe"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: ÁP LỰC TÂM LÝ VÀ CẢM GIÁC QUÁ TẢI Ở TRẺ (EMOTIONAL STRESS AND FEELING OVERWHELMED)",
+                "collocations": [
+                  {
+                    "en": "take on too many responsibilities",
+                    "vi": "gánh vác quá nhiều trách nhiệm"
+                  },
+                  {
+                    "en": "too early",
+                    "vi": "từ quá sớm"
+                  },
+                  {
+                    "en": "feel stressed and overwhelmed",
+                    "vi": "cảm thấy căng thẳng và quá tải"
+                  },
+                  {
+                    "en": "hesitate to ask for help",
+                    "vi": "ngại chia sẻ"
+                  },
+                  {
+                    "en": "daily problems",
+                    "vi": "rắc rối trong ... sinh hoạt"
+                  },
+                  {
+                    "en": "handle everything alone",
+                    "vi": "tự giải quyết"
+                  },
+                  {
+                    "en": "prolonged pressure",
+                    "vi": "áp lực kéo dài"
+                  },
+                  {
+                    "en": "carefree childhood",
+                    "vi": "sự hồn nhiên tuổi thơ"
+                  },
+                  {
+                    "en": "cause emotional anxiety",
+                    "vi": "gây lo âu về mặt"
+                  }
+                ],
+                "point_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải.",
+                "point_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
+                "evidence_vi": "Một số trẻ khi gặp rắc rối trong việc học hay sinh hoạt lại ngại chia sẻ vì nghĩ mình phải tự giải quyết một mình. Áp lực kéo dài này có thể lấy đi sự hồn nhiên tuổi thơ và gây lo âu về mặt tâm lý.",
+                "evidence_en": "Some children hesitate to ask for help with schoolwork or daily problems because they believe they must handle everything alone. Prolonged pressure may take away their carefree childhood and cause emotional anxiety.",
+                "point_collocations": [
+                  {
+                    "en": "take on too many responsibilities",
+                    "vi": "gánh vác quá nhiều trách nhiệm"
+                  },
+                  {
+                    "en": "too early",
+                    "vi": "từ quá sớm"
+                  },
+                  {
+                    "en": "feel stressed and overwhelmed",
+                    "vi": "cảm thấy căng thẳng và quá tải"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hesitate to ask for help",
+                      "vi": "ngại chia sẻ"
+                    },
+                    {
+                      "en": "daily problems",
+                      "vi": "rắc rối trong ... sinh hoạt"
+                    },
+                    {
+                      "en": "handle everything alone",
+                      "vi": "tự giải quyết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prolonged pressure",
+                      "vi": "áp lực kéo dài"
+                    },
+                    {
+                      "en": "carefree childhood",
+                      "vi": "sự hồn nhiên tuổi thơ"
+                    },
+                    {
+                      "en": "cause emotional anxiety",
+                      "vi": "gây lo âu về mặt"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: TIỀM ẨN RỦI RO MẤT AN TOÀN TRONG SINH HOẠT (SAFETY RISKS WITHOUT SUPERVISION)",
+                "collocations": [
+                  {
+                    "en": "manage tasks",
+                    "vi": "tự xoay xở"
+                  },
+                  {
+                    "en": "without adult supervision",
+                    "vi": "thiếu sự giám sát của người lớn"
+                  },
+                  {
+                    "en": "expose them to safety risks",
+                    "vi": "dẫn đến những rủi ro mất an toàn"
+                  },
+                  {
+                    "en": "use electrical appliances",
+                    "vi": "sử dụng thiết bị điện"
+                  },
+                  {
+                    "en": "travel outside by themselves",
+                    "vi": "tự đi lại ngoài"
+                  },
+                  {
+                    "en": "unexpected accidents",
+                    "vi": "tai nạn ngoài ý muốn"
+                  },
+                  {
+                    "en": "lack the skills",
+                    "vi": "kỹ năng"
+                  },
+                  {
+                    "en": "handle emergencies",
+                    "vi": "xử lý tình huống khẩn cấp"
+                  },
+                  {
+                    "en": "when sudden dangers occur",
+                    "vi": "khi xảy ra sự cố bất ngờ"
+                  }
+                ],
+                "point_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn.",
+                "point_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
+                "evidence_vi": "Chẳng hạn, trẻ nhỏ tự nấu ăn, sử dụng thiết bị điện hoặc tự đi lại ngoài đường rất dễ gặp tai nạn ngoài ý muốn. Các em chưa đủ kỹ năng xử lý tình huống khẩn cấp khi xảy ra sự cố bất ngờ.",
+                "evidence_en": "For instance, young children cooking alone, using electrical appliances, or traveling outside by themselves can easily have unexpected accidents. They often lack the skills to handle emergencies when sudden dangers occur.",
+                "point_collocations": [
+                  {
+                    "en": "manage tasks",
+                    "vi": "tự xoay xở"
+                  },
+                  {
+                    "en": "without adult supervision",
+                    "vi": "thiếu sự giám sát của người lớn"
+                  },
+                  {
+                    "en": "expose them to safety risks",
+                    "vi": "dẫn đến những rủi ro mất an toàn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "use electrical appliances",
+                      "vi": "sử dụng thiết bị điện"
+                    },
+                    {
+                      "en": "travel outside by themselves",
+                      "vi": "tự đi lại ngoài"
+                    },
+                    {
+                      "en": "unexpected accidents",
+                      "vi": "tai nạn ngoài ý muốn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lack the skills",
+                      "vi": "kỹ năng"
+                    },
+                    {
+                      "en": "handle emergencies",
+                      "vi": "xử lý tình huống khẩn cấp"
+                    },
+                    {
+                      "en": "when sudden dangers occur",
+                      "vi": "khi xảy ra sự cố bất ngờ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: NGUY CƠ GIẢM SỰ GẮN KẾT TÌNH CẢM GIA ĐÌNH (WEAKENED FAMILY EMOTIONAL BONDS)",
+                "collocations": [
+                  {
+                    "en": "without emotional warmth",
+                    "vi": "quan tâm ... tình cảm"
+                  },
+                  {
+                    "en": "the bond between parents and children",
+                    "vi": "giữa cha mẹ và con cái"
+                  },
+                  {
+                    "en": "weaken",
+                    "vi": "trở nên xa cách"
+                  },
+                  {
+                    "en": "do everything alone in their rooms",
+                    "vi": "tự làm mọi việc trong phòng riêng"
+                  },
+                  {
+                    "en": "talk less each day",
+                    "vi": "ít trò chuyện ... ngày"
+                  },
+                  {
+                    "en": "fail to notice their worries",
+                    "vi": "khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con"
+                  },
+                  {
+                    "en": "feel lonely",
+                    "vi": "cảm thấy cô đơn"
+                  },
+                  {
+                    "en": "within their own homes",
+                    "vi": "ngay trong chính ngôi nhà của mình"
+                  }
+                ],
+                "point_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách.",
+                "point_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
+                "evidence_vi": "Khi trẻ quen tự làm mọi việc trong phòng riêng và ít trò chuyện hằng ngày, cha mẹ khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con. Lâu dần, trẻ có thể cảm thấy cô đơn ngay trong chính ngôi nhà của mình.",
+                "evidence_en": "When children get used to doing everything alone in their rooms and talking less each day, parents may fail to notice their worries. Over time, children might feel lonely even within their own homes.",
+                "point_collocations": [
+                  {
+                    "en": "without emotional warmth",
+                    "vi": "quan tâm ... tình cảm"
+                  },
+                  {
+                    "en": "the bond between parents and children",
+                    "vi": "giữa cha mẹ và con cái"
+                  },
+                  {
+                    "en": "weaken",
+                    "vi": "trở nên xa cách"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "do everything alone in their rooms",
+                      "vi": "tự làm mọi việc trong phòng riêng"
+                    },
+                    {
+                      "en": "talk less each day",
+                      "vi": "ít trò chuyện ... ngày"
+                    },
+                    {
+                      "en": "fail to notice their worries",
+                      "vi": "khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel lonely",
+                      "vi": "cảm thấy cô đơn"
+                    },
+                    {
+                      "en": "within their own homes",
+                      "vi": "ngay trong chính ngôi nhà của mình"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: HÌNH THÀNH TÍNH BƯỚNG BỈNH, KHÓ TIẾP THU LỜI KHUYÊN (STUBBORNNESS AND RESISTANCE TO ADVICE)",
+                "collocations": [
+                  {
+                    "en": "decide everything alone",
+                    "vi": "tự quyết định mọi"
+                  },
+                  {
+                    "en": "become stubborn",
+                    "vi": "trở nên bướng bỉnh"
+                  },
+                  {
+                    "en": "ignore adult advice",
+                    "vi": "lời khuyên của người lớn"
+                  },
+                  {
+                    "en": "overestimate their own judgment",
+                    "vi": "đánh giá quá cao khả năng của bản thân"
+                  },
+                  {
+                    "en": "offer guidance",
+                    "vi": "góp ý"
+                  },
+                  {
+                    "en": "set family rules",
+                    "vi": "đặt ra quy tắc"
+                  },
+                  {
+                    "en": "cause unnecessary conflicts",
+                    "vi": "gây ra mâu thuẫn không đáng có"
+                  },
+                  {
+                    "en": "between generations at home",
+                    "vi": "giữa các thế hệ trong gia đình"
+                  },
+                  {
+                    "en": "this attitude",
+                    "vi": "điều này"
+                  }
+                ],
+                "point_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn.",
+                "point_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
+                "evidence_vi": "Trẻ có thể đánh giá quá cao khả năng của bản thân và phản ứng gay gắt khi cha mẹ góp ý hay đặt ra quy tắc chung. Điều này đôi khi gây ra mâu thuẫn không đáng có giữa các thế hệ trong gia đình.",
+                "evidence_en": "They may overestimate their own judgment and react negatively when parents offer guidance or set family rules. This attitude sometimes causes unnecessary conflicts between generations at home.",
+                "point_collocations": [
+                  {
+                    "en": "decide everything alone",
+                    "vi": "tự quyết định mọi"
+                  },
+                  {
+                    "en": "become stubborn",
+                    "vi": "trở nên bướng bỉnh"
+                  },
+                  {
+                    "en": "ignore adult advice",
+                    "vi": "lời khuyên của người lớn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "overestimate their own judgment",
+                      "vi": "đánh giá quá cao khả năng của bản thân"
+                    },
+                    {
+                      "en": "offer guidance",
+                      "vi": "góp ý"
+                    },
+                    {
+                      "en": "set family rules",
+                      "vi": "đặt ra quy tắc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cause unnecessary conflicts",
+                      "vi": "gây ra mâu thuẫn không đáng có"
+                    },
+                    {
+                      "en": "between generations at home",
+                      "vi": "giữa các thế hệ trong gia đình"
+                    },
+                    {
+                      "en": "this attitude",
+                      "vi": "điều này"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -55482,7 +58580,881 @@ const ESSAY_DATA = [
               "en": "damage face-to-face social skills",
               "vi": "làm tổn hại kỹ năng giao tiếp trực tiếp"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>having lots of online friends</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, making many friends on the Internet has several advantages.</strong> One major benefit is that <strong><em>having online friends helps people connect with others who share their hobbies</em></strong>. This is because users can join online groups about music, sports, or books to chat happily every day. Another positive aspect is that <strong><em>international online friends help people learn about new cultures and languages</em></strong>. The main reason is that chatting with foreign friends helps learners practice English naturally. A further good point is that <strong><em>online friendships help shy people express their feelings more easily</em></strong>. For example, chatting behind a screen makes them feel comfortable and less lonely.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>many online friendships are not deep or real</em></strong>. This is because online friends rarely help each other when real-life problems happen. Another negative aspect is that <strong><em>making friends with strangers online brings risks of being cheated</em></strong>. In fact, bad people may use fake accounts to lie or steal personal information. Finally, <strong><em>spending too much time chatting online harms real-life relationships</em></strong>. As a result, people may ignore their family members and schoolwork.\n\nIn conclusion, <strong>having lots of online friends</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to balance online and real-life friendships.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc có nhiều bạn trực tuyến</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, kết bạn nhiều trên mạng có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>có bạn trực tuyến giúp mọi người kết nối với những người cùng sở thích</em></strong>. Điều này là vì người dùng có thể tham gia các hội nhóm về âm nhạc, thể thao hoặc sách để trò chuyện vui vẻ mỗi ngày. Một khía cạnh tích cực khác là <strong><em>bạn bè quốc tế trên mạng giúp mọi người tìm hiểu văn hóa mới và học ngoại ngữ</em></strong>. Lý do chính là trò chuyện với bạn nước ngoài giúp người học luyện tiếng Anh tự nhiên. Một điểm tốt nữa là <strong><em>tình bạn trên mạng giúp người nhút nhát dễ bày tỏ cảm xúc hơn</em></strong>. Ví dụ, trò chuyện qua màn hình giúp họ thấy thoải mái và bớt cô đơn.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>nhiều mối quan hệ bạn bè trên mạng không sâu sắc hoặc không thật lòng</em></strong>. Điều này là do bạn qua mạng hiếm khi giúp đỡ được nhau khi gặp khó khăn ngoài đời thực. Một điểm tiêu cực khác là <strong><em>kết bạn với người lạ trên mạng tiềm ẩn nguy cơ bị lừa gạt</em></strong>. Thực tế, kẻ xấu có thể dùng tài khoản giả để nói dối hoặc đánh cắp thông tin cá nhân. Cuối cùng, <strong><em>dành quá nhiều thời gian nhắn tin trên mạng làm ảnh hưởng xấu đến các mối quan hệ đời thực</em></strong>. Kết quả là nhiều người sao nhãng gia đình và việc học tập.\n\nTóm lại, <strong>việc có nhiều bạn trực tuyến</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó có tác động khác nhau đến cuộc sống con người. Vì vậy, cần cân bằng giữa tình bạn trên mạng và ngoài đời thực.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: DỄ DÀNG KẾT NỐI VỚI NGƯỜI CÙNG SỞ THÍCH (CONNECTING WITH LIKE-MINDED PEOPLE)",
+                "collocations": [
+                  {
+                    "en": "have many online friends",
+                    "vi": "có nhiều bạn trực tuyến"
+                  },
+                  {
+                    "en": "connect easily with others",
+                    "vi": "dễ dàng kết nối với những người"
+                  },
+                  {
+                    "en": "share similar interests",
+                    "vi": "có chung sở thích"
+                  },
+                  {
+                    "en": "online groups",
+                    "vi": "các hội nhóm"
+                  },
+                  {
+                    "en": "find like-minded peers",
+                    "vi": "tìm được người"
+                  },
+                  {
+                    "en": "to chat with",
+                    "vi": "người trò chuyện"
+                  },
+                  {
+                    "en": "bring emotional joy",
+                    "vi": "mang lại niềm vui tinh thần"
+                  },
+                  {
+                    "en": "exchange useful knowledge",
+                    "vi": "nhiều kiến thức bổ ích"
+                  },
+                  {
+                    "en": "help them",
+                    "vi": "giúp họ"
+                  }
+                ],
+                "point_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê.",
+                "point_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
+                "evidence_vi": "Thông qua các hội nhóm về âm nhạc, đọc sách, thể thao hay học thuật trên mạng xã hội, họ luôn tìm được người trò chuyện tâm đầu ý hợp. Điều này mang lại niềm vui tinh thần và giúp họ học hỏi thêm nhiều kiến thức bổ ích.",
+                "evidence_en": "Through online groups for music, reading, sports, or study, they can always find like-minded peers to chat with. This brings emotional joy and helps them exchange useful knowledge.",
+                "point_collocations": [
+                  {
+                    "en": "have many online friends",
+                    "vi": "có nhiều bạn trực tuyến"
+                  },
+                  {
+                    "en": "connect easily with others",
+                    "vi": "dễ dàng kết nối với những người"
+                  },
+                  {
+                    "en": "share similar interests",
+                    "vi": "có chung sở thích"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "online groups",
+                      "vi": "các hội nhóm"
+                    },
+                    {
+                      "en": "find like-minded peers",
+                      "vi": "tìm được người"
+                    },
+                    {
+                      "en": "to chat with",
+                      "vi": "người trò chuyện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bring emotional joy",
+                      "vi": "mang lại niềm vui tinh thần"
+                    },
+                    {
+                      "en": "exchange useful knowledge",
+                      "vi": "nhiều kiến thức bổ ích"
+                    },
+                    {
+                      "en": "help them",
+                      "vi": "giúp họ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: MỞ RỘNG HIỂU BIẾT VĂN HÓA VÀ NGOẠI NGỮ (CULTURAL EXCHANGE AND LANGUAGE PRACTICE)",
+                "collocations": [
+                  {
+                    "en": "a wide network of online friends",
+                    "vi": "mạng lưới bạn bè trực tuyến rộng khắp"
+                  },
+                  {
+                    "en": "broaden cultural understanding",
+                    "vi": "mở rộng tầm hiểu biết văn hóa"
+                  },
+                  {
+                    "en": "improve foreign language skills",
+                    "vi": "rèn luyện ngoại ngữ"
+                  },
+                  {
+                    "en": "make friends with peers",
+                    "vi": "kết bạn với người trẻ"
+                  },
+                  {
+                    "en": "different regions and countries",
+                    "vi": "nhiều vùng miền và quốc gia khác nhau"
+                  },
+                  {
+                    "en": "without geographical limitations",
+                    "vi": "không bị giới hạn ... khoảng cách địa lý"
+                  },
+                  {
+                    "en": "cross-border conversations",
+                    "vi": "những cuộc trò chuyện xuyên biên giới"
+                  },
+                  {
+                    "en": "become more open-minded",
+                    "vi": "cởi mở hơn"
+                  },
+                  {
+                    "en": "practice foreign languages naturally",
+                    "vi": "ngoại ngữ tự nhiên"
+                  }
+                ],
+                "point_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ.",
+                "point_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
+                "evidence_vi": "Thanh thiếu niên có thể kết bạn với người trẻ ở nhiều vùng miền và quốc gia khác nhau mà không bị giới hạn bởi khoảng cách địa lý. Những cuộc trò chuyện xuyên biên giới giúp họ cởi mở hơn và giao tiếp ngoại ngữ tự nhiên hơn.",
+                "evidence_en": "Teenagers can make friends with peers from different regions and countries without geographical limitations. Cross-border conversations help them become more open-minded and practice foreign languages naturally.",
+                "point_collocations": [
+                  {
+                    "en": "a wide network of online friends",
+                    "vi": "mạng lưới bạn bè trực tuyến rộng khắp"
+                  },
+                  {
+                    "en": "broaden cultural understanding",
+                    "vi": "mở rộng tầm hiểu biết văn hóa"
+                  },
+                  {
+                    "en": "improve foreign language skills",
+                    "vi": "rèn luyện ngoại ngữ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "make friends with peers",
+                      "vi": "kết bạn với người trẻ"
+                    },
+                    {
+                      "en": "different regions and countries",
+                      "vi": "nhiều vùng miền và quốc gia khác nhau"
+                    },
+                    {
+                      "en": "without geographical limitations",
+                      "vi": "không bị giới hạn ... khoảng cách địa lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cross-border conversations",
+                      "vi": "những cuộc trò chuyện xuyên biên giới"
+                    },
+                    {
+                      "en": "become more open-minded",
+                      "vi": "cởi mở hơn"
+                    },
+                    {
+                      "en": "practice foreign languages naturally",
+                      "vi": "ngoại ngữ tự nhiên"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: GIÚP NGƯỜI RỤT RÈ TỰ TIN BÀY TỎ BẢN THÂN (HELPING SHY PEOPLE EXPRESS THEMSELVES)",
+                "collocations": [
+                  {
+                    "en": "make friends online",
+                    "vi": "kết bạn qua mạng"
+                  },
+                  {
+                    "en": "shy or introverted people",
+                    "vi": "hướng nội hoặc rụt rè"
+                  },
+                  {
+                    "en": "express their thoughts",
+                    "vi": "bày tỏ suy nghĩ"
+                  },
+                  {
+                    "en": "feel nervous in face-to-face talks",
+                    "vi": "lúng túng khi bắt chuyện trực tiếp"
+                  },
+                  {
+                    "en": "communicate openly",
+                    "vi": "cởi mở"
+                  },
+                  {
+                    "en": "through text messages",
+                    "vi": "qua tin nhắn"
+                  },
+                  {
+                    "en": "empathy from online friends",
+                    "vi": "sự đồng cảm từ bạn bè"
+                  },
+                  {
+                    "en": "feel less lonely",
+                    "vi": "cảm giác cô đơn"
+                  },
+                  {
+                    "en": "receive timely emotional encouragement",
+                    "vi": "nhận được sự khích lệ tinh thần kịp thời"
+                  }
+                ],
+                "point_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ.",
+                "point_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
+                "evidence_vi": "Nhiều bạn trẻ thường lúng túng khi bắt chuyện trực tiếp nhưng lại chia sẻ rất cởi mở qua tin nhắn trực tuyến. Nhờ sự đồng cảm từ bạn bè trên mạng, họ vơi bớt cảm giác cô đơn và nhận được sự khích lệ tinh thần kịp thời.",
+                "evidence_en": "Many young individuals feel nervous in face-to-face talks, yet they communicate openly through text messages. Thanks to empathy from online friends, they feel less lonely and receive timely emotional encouragement.",
+                "point_collocations": [
+                  {
+                    "en": "make friends online",
+                    "vi": "kết bạn qua mạng"
+                  },
+                  {
+                    "en": "shy or introverted people",
+                    "vi": "hướng nội hoặc rụt rè"
+                  },
+                  {
+                    "en": "express their thoughts",
+                    "vi": "bày tỏ suy nghĩ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel nervous in face-to-face talks",
+                      "vi": "lúng túng khi bắt chuyện trực tiếp"
+                    },
+                    {
+                      "en": "communicate openly",
+                      "vi": "cởi mở"
+                    },
+                    {
+                      "en": "through text messages",
+                      "vi": "qua tin nhắn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "empathy from online friends",
+                      "vi": "sự đồng cảm từ bạn bè"
+                    },
+                    {
+                      "en": "feel less lonely",
+                      "vi": "cảm giác cô đơn"
+                    },
+                    {
+                      "en": "receive timely emotional encouragement",
+                      "vi": "nhận được sự khích lệ tinh thần kịp thời"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: NHANH CHÓNG NHẬN ĐƯỢC LỜI KHUYÊN VÀ THÔNG TIN HỮU ÍCH (QUICK INFORMATION AND PRACTICAL ADVICE)",
+                "collocations": [
+                  {
+                    "en": "a large circle of online friends",
+                    "vi": "bạn bè trực tuyến lớn"
+                  },
+                  {
+                    "en": "obtain useful information",
+                    "vi": "hỏi đáp thông tin"
+                  },
+                  {
+                    "en": "practical advice",
+                    "vi": "thực tế"
+                  },
+                  {
+                    "en": "career advice",
+                    "vi": "định hướng nghề nghiệp"
+                  },
+                  {
+                    "en": "a single social media post",
+                    "vi": "một bài đăng trên mạng xã hội"
+                  },
+                  {
+                    "en": "attract dozens of helpful suggestions",
+                    "vi": "nhận được hàng chục gợi ý hữu ích"
+                  },
+                  {
+                    "en": "collective support",
+                    "vi": "sự hỗ trợ tập thể"
+                  },
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm ... thời gian"
+                  },
+                  {
+                    "en": "search alone",
+                    "vi": "tự tìm kiếm"
+                  }
+                ],
+                "point_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế.",
+                "point_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
+                "evidence_vi": "Khi cần tìm tài liệu học tập, định hướng nghề nghiệp hay kinh nghiệm du lịch, một bài đăng trên mạng xã hội có thể nhận được hàng chục gợi ý hữu ích. Sự hỗ trợ tập thể này giúp tiết kiệm rất nhiều thời gian tự tìm kiếm.",
+                "evidence_en": "When looking for study materials, career advice, or travel tips, a single social media post can attract dozens of helpful suggestions. Such collective support saves considerable time compared to searching alone.",
+                "point_collocations": [
+                  {
+                    "en": "a large circle of online friends",
+                    "vi": "bạn bè trực tuyến lớn"
+                  },
+                  {
+                    "en": "obtain useful information",
+                    "vi": "hỏi đáp thông tin"
+                  },
+                  {
+                    "en": "practical advice",
+                    "vi": "thực tế"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "career advice",
+                      "vi": "định hướng nghề nghiệp"
+                    },
+                    {
+                      "en": "a single social media post",
+                      "vi": "một bài đăng trên mạng xã hội"
+                    },
+                    {
+                      "en": "attract dozens of helpful suggestions",
+                      "vi": "nhận được hàng chục gợi ý hữu ích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collective support",
+                      "vi": "sự hỗ trợ tập thể"
+                    },
+                    {
+                      "en": "save considerable time",
+                      "vi": "tiết kiệm ... thời gian"
+                    },
+                    {
+                      "en": "search alone",
+                      "vi": "tự tìm kiếm"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: DUY TRÌ LIÊN LẠC THUẬN TIỆN BẤT KỂ THỜI GIAN (CONVENIENT INSTANT COMMUNICATION)",
+                "collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "tình bạn trực tuyến"
+                  },
+                  {
+                    "en": "convenient to maintain",
+                    "vi": "duy trì"
+                  },
+                  {
+                    "en": "instant communication",
+                    "vi": "liên lạc tức thì"
+                  },
+                  {
+                    "en": "send quick messages",
+                    "vi": "nhắn tin ngắn"
+                  },
+                  {
+                    "en": "react to posts",
+                    "vi": "tương tác dưới bài"
+                  },
+                  {
+                    "en": "stay updated on one another's lives",
+                    "vi": "cập nhật cuộc sống của nhau"
+                  },
+                  {
+                    "en": "maintain active social connections",
+                    "vi": "kết nối xã hội sôi động"
+                  },
+                  {
+                    "en": "spend money on frequent outings",
+                    "vi": "tốn chi phí gặp gỡ thường xuyên"
+                  }
+                ],
+                "point_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi.",
+                "point_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
+                "evidence_vi": "Dù bận học tập hay làm việc, người trẻ vẫn có thể nhắn tin ngắn hoặc tương tác dưới bài viết để cập nhật cuộc sống của nhau. Nhờ vậy, họ giữ được sự kết nối xã hội sôi động mà không tốn chi phí gặp gỡ thường xuyên.",
+                "evidence_en": "Even during busy school or work weeks, young adults can send quick messages or react to posts to stay updated on one another's lives. Thus, they maintain active social connections without spending money on frequent outings.",
+                "point_collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "tình bạn trực tuyến"
+                  },
+                  {
+                    "en": "convenient to maintain",
+                    "vi": "duy trì"
+                  },
+                  {
+                    "en": "instant communication",
+                    "vi": "liên lạc tức thì"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "send quick messages",
+                      "vi": "nhắn tin ngắn"
+                    },
+                    {
+                      "en": "react to posts",
+                      "vi": "tương tác dưới bài"
+                    },
+                    {
+                      "en": "stay updated on one another's lives",
+                      "vi": "cập nhật cuộc sống của nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "maintain active social connections",
+                      "vi": "kết nối xã hội sôi động"
+                    },
+                    {
+                      "en": "spend money on frequent outings",
+                      "vi": "tốn chi phí gặp gỡ thường xuyên"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: TÌNH BẠN ẢO THƯỜNG HỜI HỢT VÀ THIẾU SỰ GẮN BÓ SÂU SẮC (SUPERFICIAL AND FRAGILE RELATIONSHIPS)",
+                "collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các mối quan hệ bạn bè trên mạng"
+                  },
+                  {
+                    "en": "tend to be superficial",
+                    "vi": "thường mang tính bề nổi"
+                  },
+                  {
+                    "en": "lack genuine emotional depth",
+                    "vi": "thiếu sự gắn kết chân thành"
+                  },
+                  {
+                    "en": "thousands of friends on Facebook",
+                    "vi": "hàng nghìn bạn bè trên facebook"
+                  },
+                  {
+                    "en": "casual likes and brief comments",
+                    "vi": "những lượt nhấn thích xã giao"
+                  },
+                  {
+                    "en": "exchange",
+                    "vi": "dừng ở"
+                  },
+                  {
+                    "en": "face real-life hardships",
+                    "vi": "khó khăn thực sự ngoài đời"
+                  },
+                  {
+                    "en": "virtual friends",
+                    "vi": "người bạn ảo"
+                  },
+                  {
+                    "en": "offer practical support",
+                    "vi": "giúp đỡ thiết thực"
+                  }
+                ],
+                "point_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành.",
+                "point_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
+                "evidence_vi": "Một người có thể sở hữu hàng nghìn bạn bè trên Facebook nhưng chỉ dừng ở những lượt nhấn thích xã giao. Khi họ gặp biến cố hay khó khăn thực sự ngoài đời, rất ít người bạn ảo có thể có mặt để giúp đỡ thiết thực.",
+                "evidence_en": "A person may have thousands of friends on Facebook yet only exchange casual likes and brief comments. When they face real-life hardships, very few virtual friends can show up to offer practical support.",
+                "point_collocations": [
+                  {
+                    "en": "online friendships",
+                    "vi": "các mối quan hệ bạn bè trên mạng"
+                  },
+                  {
+                    "en": "tend to be superficial",
+                    "vi": "thường mang tính bề nổi"
+                  },
+                  {
+                    "en": "lack genuine emotional depth",
+                    "vi": "thiếu sự gắn kết chân thành"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "thousands of friends on Facebook",
+                      "vi": "hàng nghìn bạn bè trên facebook"
+                    },
+                    {
+                      "en": "casual likes and brief comments",
+                      "vi": "những lượt nhấn thích xã giao"
+                    },
+                    {
+                      "en": "exchange",
+                      "vi": "dừng ở"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "face real-life hardships",
+                      "vi": "khó khăn thực sự ngoài đời"
+                    },
+                    {
+                      "en": "virtual friends",
+                      "vi": "người bạn ảo"
+                    },
+                    {
+                      "en": "offer practical support",
+                      "vi": "giúp đỡ thiết thực"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: NGUY CƠ BỊ LỪA ĐẢO VÀ GIẢ MẠO DANH TÍNH (RISKS OF DECEPTION AND ONLINE SCAMS)",
+                "collocations": [
+                  {
+                    "en": "make friends with too many strangers",
+                    "vi": "kết bạn với quá nhiều người lạ"
+                  },
+                  {
+                    "en": "risks of deception, scams, and privacy invasion",
+                    "vi": "nguy cơ bị lừa dối và xâm phạm"
+                  },
+                  {
+                    "en": "carry serious risks",
+                    "vi": "tiềm ẩn"
+                  },
+                  {
+                    "en": "dishonest individuals",
+                    "vi": "không gian mạng, kẻ xấu"
+                  },
+                  {
+                    "en": "create fake profiles",
+                    "vi": "tạo hồ sơ giả mạo"
+                  },
+                  {
+                    "en": "win the trust of naive teenagers",
+                    "vi": "lấy lòng tin của ... thanh thiếu niên nhẹ dạ"
+                  },
+                  {
+                    "en": "stolen personal data",
+                    "vi": "bị đánh cắp"
+                  },
+                  {
+                    "en": "financial fraud",
+                    "vi": "lừa đảo tài chính"
+                  },
+                  {
+                    "en": "suffer from",
+                    "vi": "bị"
+                  }
+                ],
+                "point_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân.",
+                "point_en": "Making friends with too many strangers carries serious risks of deception, scams, and privacy invasion.",
+                "evidence_vi": "Trên không gian mạng, kẻ xấu dễ dàng tạo hồ sơ giả mạo để lấy lòng tin của những thanh thiếu niên nhẹ dạ. Hệ quả là nhiều người dùng đã bị đánh cắp dữ liệu riêng tư, tống tiền hoặc lừa đảo tài chính.",
+                "evidence_en": "In cyberspace, dishonest individuals can easily create fake profiles to win the trust of naive teenagers. Consequently, many users have suffered from stolen personal data, blackmail, or financial fraud.",
+                "point_collocations": [
+                  {
+                    "en": "make friends with too many strangers",
+                    "vi": "kết bạn với quá nhiều người lạ"
+                  },
+                  {
+                    "en": "risks of deception, scams, and privacy invasion",
+                    "vi": "nguy cơ bị lừa dối và xâm phạm"
+                  },
+                  {
+                    "en": "carry serious risks",
+                    "vi": "tiềm ẩn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dishonest individuals",
+                      "vi": "không gian mạng, kẻ xấu"
+                    },
+                    {
+                      "en": "create fake profiles",
+                      "vi": "tạo hồ sơ giả mạo"
+                    },
+                    {
+                      "en": "win the trust of naive teenagers",
+                      "vi": "lấy lòng tin của ... thanh thiếu niên nhẹ dạ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stolen personal data",
+                      "vi": "bị đánh cắp"
+                    },
+                    {
+                      "en": "financial fraud",
+                      "vi": "lừa đảo tài chính"
+                    },
+                    {
+                      "en": "suffer from",
+                      "vi": "bị"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: SAO NHÃNG GIA ĐÌNH VÀ CÁC MỐI QUAN HỆ ĐỜI THỰC (NEGLECTING FAMILY AND REAL-LIFE FRIENDS)",
+                "collocations": [
+                  {
+                    "en": "spend excessive time",
+                    "vi": "dành quá nhiều thời gian"
+                  },
+                  {
+                    "en": "online friends",
+                    "vi": "bạn bè trên mạng"
+                  },
+                  {
+                    "en": "neglect family and real-life relationships",
+                    "vi": "bỏ bê gia đình và bạn bè ngoài đời thực"
+                  },
+                  {
+                    "en": "stay glued to their phones",
+                    "vi": "dán mắt vào điện thoại"
+                  },
+                  {
+                    "en": "during family meals",
+                    "vi": "suốt bữa cơm gia đình"
+                  },
+                  {
+                    "en": "outings with classmates",
+                    "vi": "đi cà phê cùng bạn học"
+                  },
+                  {
+                    "en": "weaken real-world bonds",
+                    "vi": "làm phai nhạt sự gắn kết"
+                  },
+                  {
+                    "en": "damage their face-to-face social skills",
+                    "vi": "làm suy giảm kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực.",
+                "point_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
+                "evidence_vi": "Nhiều bạn trẻ dán mắt vào điện thoại nhắn tin suốt bữa cơm gia đình hoặc khi đi cà phê cùng bạn học. Thói quen này làm phai nhạt sự gắn kết trực tiếp và làm suy giảm kỹ năng giao tiếp xã hội ngoài đời.",
+                "evidence_en": "Many youths stay glued to their phones texting during family meals or outings with classmates. This habit weakens real-world bonds and gradually damages their face-to-face social skills.",
+                "point_collocations": [
+                  {
+                    "en": "spend excessive time",
+                    "vi": "dành quá nhiều thời gian"
+                  },
+                  {
+                    "en": "online friends",
+                    "vi": "bạn bè trên mạng"
+                  },
+                  {
+                    "en": "neglect family and real-life relationships",
+                    "vi": "bỏ bê gia đình và bạn bè ngoài đời thực"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stay glued to their phones",
+                      "vi": "dán mắt vào điện thoại"
+                    },
+                    {
+                      "en": "during family meals",
+                      "vi": "suốt bữa cơm gia đình"
+                    },
+                    {
+                      "en": "outings with classmates",
+                      "vi": "đi cà phê cùng bạn học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "weaken real-world bonds",
+                      "vi": "làm phai nhạt sự gắn kết"
+                    },
+                    {
+                      "en": "damage their face-to-face social skills",
+                      "vi": "làm suy giảm kỹ năng giao tiếp"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TỐN THỜI GIAN VÀ GÂY XAO NHÃNG VIỆC HỌC TẬP (TIME-CONSUMING AND ACADEMIC DISTRACTION)",
+                "collocations": [
+                  {
+                    "en": "constantly reply to messages",
+                    "vi": "liên tục trả lời tin nhắn"
+                  },
+                  {
+                    "en": "hundreds of online friends",
+                    "vi": "hàng trăm người bạn trên mạng"
+                  },
+                  {
+                    "en": "consume a lot of study and work time",
+                    "vi": "làm tiêu tốn rất nhiều thời gian học tập và làm việc"
+                  },
+                  {
+                    "en": "endless notifications",
+                    "vi": "thông báo liên tục"
+                  },
+                  {
+                    "en": "break teenagers' concentration",
+                    "vi": "khiến thanh thiếu niên mất tập trung"
+                  },
+                  {
+                    "en": "keep them up late at night",
+                    "vi": "thức khuya thường xuyên"
+                  },
+                  {
+                    "en": "their health declines",
+                    "vi": "sức khỏe suy giảm"
+                  },
+                  {
+                    "en": "their school grades suffer",
+                    "vi": "kết quả học tập ở trường đi xuống"
+                  }
+                ],
+                "point_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc.",
+                "point_en": "Constantly replying to messages from hundreds of online friends consumes a lot of study and work time.",
+                "evidence_vi": "Thông báo liên tục từ Facebook, TikTok hay các phòng trò chơi trực tuyến khiến thanh thiếu niên mất tập trung và thức khuya thường xuyên. Hậu quả là sức khỏe suy giảm và kết quả học tập ở trường đi xuống.",
+                "evidence_en": "Endless notifications from Facebook, TikTok, or gaming chats break teenagers' concentration and keep them up late at night. As a result, their health declines and their school grades suffer.",
+                "point_collocations": [
+                  {
+                    "en": "constantly reply to messages",
+                    "vi": "liên tục trả lời tin nhắn"
+                  },
+                  {
+                    "en": "hundreds of online friends",
+                    "vi": "hàng trăm người bạn trên mạng"
+                  },
+                  {
+                    "en": "consume a lot of study and work time",
+                    "vi": "làm tiêu tốn rất nhiều thời gian học tập và làm việc"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "endless notifications",
+                      "vi": "thông báo liên tục"
+                    },
+                    {
+                      "en": "break teenagers' concentration",
+                      "vi": "khiến thanh thiếu niên mất tập trung"
+                    },
+                    {
+                      "en": "keep them up late at night",
+                      "vi": "thức khuya thường xuyên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "their health declines",
+                      "vi": "sức khỏe suy giảm"
+                    },
+                    {
+                      "en": "their school grades suffer",
+                      "vi": "kết quả học tập ở trường đi xuống"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: ĐỐI MẶT VỚI BẮT NẠT MẠNG VÀ ÁP LỰC ĐỒNG TRANG LỨA ẢO (CYBERBULLYING AND ONLINE PEER PRESSURE)",
+                "collocations": [
+                  {
+                    "en": "an overly large network of online contacts",
+                    "vi": "mạng lưới bạn bè ... quá rộng"
+                  },
+                  {
+                    "en": "increase exposure to negative comments",
+                    "vi": "làm tăng nguy cơ ... bình luận tiêu cực"
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "áp lực so sánh"
+                  },
+                  {
+                    "en": "minor misunderstandings",
+                    "vi": "những hiểu lầm nhỏ"
+                  },
+                  {
+                    "en": "escalate into public arguments",
+                    "vi": "bùng phát thành tranh cãi tập thể"
+                  },
+                  {
+                    "en": "personal attacks",
+                    "vi": "hành vi công kích cá nhân"
+                  },
+                  {
+                    "en": "view others' glamorous posts",
+                    "vi": "hào nhoáng của người khác"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "dễ tự ti"
+                  },
+                  {
+                    "en": "about their own lives",
+                    "vi": "về bản thân"
+                  }
+                ],
+                "point_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng.",
+                "point_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
+                "evidence_vi": "Những hiểu lầm nhỏ trên mạng xã hội rất dễ bùng phát thành tranh cãi tập thể hoặc hành vi công kích cá nhân. Bên cạnh đó, việc liên tục nhìn thấy hình ảnh hào nhoáng của người khác khiến người trẻ dễ tự ti về bản thân.",
+                "evidence_en": "Minor misunderstandings on social media can quickly escalate into public arguments or personal attacks. Furthermore, constantly viewing others' glamorous posts often makes young users feel insecure about their own lives.",
+                "point_collocations": [
+                  {
+                    "en": "an overly large network of online contacts",
+                    "vi": "mạng lưới bạn bè ... quá rộng"
+                  },
+                  {
+                    "en": "increase exposure to negative comments",
+                    "vi": "làm tăng nguy cơ ... bình luận tiêu cực"
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "áp lực so sánh"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "minor misunderstandings",
+                      "vi": "những hiểu lầm nhỏ"
+                    },
+                    {
+                      "en": "escalate into public arguments",
+                      "vi": "bùng phát thành tranh cãi tập thể"
+                    },
+                    {
+                      "en": "personal attacks",
+                      "vi": "hành vi công kích cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "view others' glamorous posts",
+                      "vi": "hào nhoáng của người khác"
+                    },
+                    {
+                      "en": "feel insecure",
+                      "vi": "dễ tự ti"
+                    },
+                    {
+                      "en": "about their own lives",
+                      "vi": "về bản thân"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -57700,7 +61672,881 @@ const ESSAY_DATA = [
               "en": "ulterior motives",
               "vi": "những động cơ vụ lợi ẩn giấu"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>becoming famous</strong> has become a strong desire for many people in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, being a famous person has several advantages.</strong> One major benefit is that <strong><em>fame helps people earn a lot of money and live comfortably</em></strong>. This is because famous singers, actors, or athletes get high pay from shows and advertising contracts. Another positive aspect is that <strong><em>famous people have many good opportunities in their careers</em></strong>. The main reason is that top companies and directors always want to work with well-known stars. A further good point is that <strong><em>celebrities can inspire others and help the community</em></strong>. For example, they can call on fans to raise money for poor people and charity projects.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>famous people lose their personal privacy in daily life</em></strong>. This is because reporters and fans follow them everywhere, even when they eat out or travel with family. Another negative aspect is that <strong><em>celebrities face heavy mental stress from public judgment</em></strong>. In fact, any small mistake can be criticized harshly on social media. Finally, <strong><em>it is hard for famous people to know who their true friends are</em></strong>. As a result, they often feel lonely and unsafe.\n\nIn conclusion, <strong>becoming famous</strong> has both advantages and disadvantages. These points show that fame has different effects on people’s lives. Therefore, it is important to consider both sides carefully.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc trở nên nổi tiếng</strong> đã trở thành mong muốn lớn của nhiều người trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, trở thành người nổi tiếng có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>sự nổi tiếng giúp mọi người kiếm được nhiều tiền và có cuộc sống sung túc</em></strong>. Điều này là vì các ca sĩ, diễn viên hay vận động viên nổi tiếng nhận được thù lao cao từ các buổi biểu diễn và hợp đồng quảng cáo. Một khía cạnh tích cực khác là <strong><em>người nổi tiếng có nhiều cơ hội tốt trong sự nghiệp</em></strong>. Lý do chính là các công ty và đạo diễn hàng đầu luôn muốn hợp tác với những ngôi sao có tên tuổi. Một điểm tốt nữa là <strong><em>người nổi tiếng có thể truyền cảm hứng và giúp đỡ cộng đồng</em></strong>. Ví dụ, họ có thể kêu gọi người hâm mộ quyên góp cho người nghèo và các dự án từ thiện.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>người nổi tiếng bị mất quyền riêng tư cá nhân trong sinh hoạt hằng ngày</em></strong>. Điều này là do phóng viên và người hâm mộ theo sát họ ở khắp mọi nơi, ngay cả khi đi ăn hay đi du lịch cùng gia đình. Một điểm tiêu cực khác là <strong><em>ngôi sao phải chịu áp lực tâm lý nặng nề từ sự phán xét của dư luận</em></strong>. Thực tế, bất kỳ sai sót nhỏ nào cũng có thể bị chỉ trích gay gắt trên mạng xã hội. Cuối cùng, <strong><em>người nổi tiếng rất khó nhận biết ai là bạn thật lòng</em></strong>. Kết quả là họ thường cảm thấy cô đơn và bất an.\n\nTóm lại, <strong>việc trở nên nổi tiếng</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy danh tiếng mang lại những tác động khác nhau đến cuộc sống. Vì vậy, cần cân nhắc kỹ cả hai mặt.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: MANG LẠI THU NHẬP CAO VÀ CUỘC SỐNG SUNG TÚC (HIGH INCOME AND FINANCIAL WEALTH)",
+                "collocations": [
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng"
+                  },
+                  {
+                    "en": "bring substantial income",
+                    "vi": "mang lại nguồn thu nhập rất lớn"
+                  },
+                  {
+                    "en": "long-term financial security",
+                    "vi": "sự sung túc về tài chính"
+                  },
+                  {
+                    "en": "performance fees",
+                    "vi": "biểu diễn"
+                  },
+                  {
+                    "en": "brand endorsements",
+                    "vi": "hợp đồng đại diện thương hiệu"
+                  },
+                  {
+                    "en": "personal businesses",
+                    "vi": "kinh doanh riêng"
+                  },
+                  {
+                    "en": "enjoy a high standard of living",
+                    "vi": "tận hưởng mức sống cao"
+                  },
+                  {
+                    "en": "support their families well",
+                    "vi": "hỗ trợ tốt cho gia đình"
+                  }
+                ],
+                "point_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính.",
+                "point_en": "Becoming famous can bring substantial income and long-term financial security.",
+                "evidence_vi": "Bên cạnh cát-xê biểu diễn, người nổi tiếng còn kiếm được khoản tiền lớn từ hợp đồng đại diện thương hiệu, quảng cáo và kinh doanh riêng. Nhờ đó, họ có thể tận hưởng mức sống cao và hỗ trợ tốt cho gia đình mình.",
+                "evidence_en": "Besides performance fees, celebrities earn generous amounts of money from brand endorsements, advertisements, and personal businesses. As a result, they can enjoy a high standard of living and support their families well.",
+                "point_collocations": [
+                  {
+                    "en": "become famous",
+                    "vi": "trở nên nổi tiếng"
+                  },
+                  {
+                    "en": "bring substantial income",
+                    "vi": "mang lại nguồn thu nhập rất lớn"
+                  },
+                  {
+                    "en": "long-term financial security",
+                    "vi": "sự sung túc về tài chính"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "performance fees",
+                      "vi": "biểu diễn"
+                    },
+                    {
+                      "en": "brand endorsements",
+                      "vi": "hợp đồng đại diện thương hiệu"
+                    },
+                    {
+                      "en": "personal businesses",
+                      "vi": "kinh doanh riêng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "enjoy a high standard of living",
+                      "vi": "tận hưởng mức sống cao"
+                    },
+                    {
+                      "en": "support their families well",
+                      "vi": "hỗ trợ tốt cho gia đình"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: MỞ RỘNG CƠ HỘI NGHỀ NGHIỆP VÀ KẾT NỐI XÃ HỘI (VALUABLE CAREER OPPORTUNITIES)",
+                "collocations": [
+                  {
+                    "en": "open up attractive career opportunities",
+                    "vi": "mở ra nhiều cơ hội ... nghiệp hấp dẫn"
+                  },
+                  {
+                    "en": "valuable connections",
+                    "vi": "các mối quan hệ giá trị"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "danh tiếng"
+                  },
+                  {
+                    "en": "widely recognized by the public",
+                    "vi": "được công chúng biết đến rộng rãi"
+                  },
+                  {
+                    "en": "join major projects",
+                    "vi": "tham gia những dự án lớn"
+                  },
+                  {
+                    "en": "prestigious events",
+                    "vi": "kiện uy tín"
+                  },
+                  {
+                    "en": "collaborate with leading experts",
+                    "vi": "hợp tác với những chuyên gia hàng đầu"
+                  },
+                  {
+                    "en": "in their fields",
+                    "vi": "trong lĩnh vực của mình"
+                  },
+                  {
+                    "en": "have chances to",
+                    "vi": "có cơ hội"
+                  }
+                ],
+                "point_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị.",
+                "point_en": "Fame opens up attractive career opportunities and valuable connections.",
+                "evidence_vi": "Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung dễ nhận được lời mời tham gia những dự án lớn và sự kiện uy tín. Họ cũng có cơ hội hợp tác với những chuyên gia hàng đầu trong lĩnh vực của mình.",
+                "evidence_en": "Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events. They also have chances to collaborate with leading experts in their fields.",
+                "point_collocations": [
+                  {
+                    "en": "open up attractive career opportunities",
+                    "vi": "mở ra nhiều cơ hội ... nghiệp hấp dẫn"
+                  },
+                  {
+                    "en": "valuable connections",
+                    "vi": "các mối quan hệ giá trị"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "danh tiếng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "widely recognized by the public",
+                      "vi": "được công chúng biết đến rộng rãi"
+                    },
+                    {
+                      "en": "join major projects",
+                      "vi": "tham gia những dự án lớn"
+                    },
+                    {
+                      "en": "prestigious events",
+                      "vi": "kiện uy tín"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collaborate with leading experts",
+                      "vi": "hợp tác với những chuyên gia hàng đầu"
+                    },
+                    {
+                      "en": "in their fields",
+                      "vi": "trong lĩnh vực của mình"
+                    },
+                    {
+                      "en": "have chances to",
+                      "vi": "có cơ hội"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: LAN TỎA ẢNH HƯỞNG TÍCH CỰC ĐẾN CỘNG ĐỒNG (POSITIVE SOCIAL INFLUENCE)",
+                "collocations": [
+                  {
+                    "en": "use their public influence",
+                    "vi": "dùng sức ảnh hưởng"
+                  },
+                  {
+                    "en": "inspire others",
+                    "vi": "truyền cảm hứng"
+                  },
+                  {
+                    "en": "contribute positively to society",
+                    "vi": "đóng góp tích cực cho xã hội"
+                  },
+                  {
+                    "en": "raise funds for charity",
+                    "vi": "kêu gọi quyên góp từ thiện"
+                  },
+                  {
+                    "en": "promote environmental awareness",
+                    "vi": "nâng cao nhận thức bảo vệ môi trường"
+                  },
+                  {
+                    "en": "motivate young fans",
+                    "vi": "khích lệ giới trẻ"
+                  },
+                  {
+                    "en": "create a much stronger social impact",
+                    "vi": "tạo ra tác động ... mạnh mẽ hơn nhiều"
+                  },
+                  {
+                    "en": "ordinary citizens",
+                    "vi": "bình thường"
+                  },
+                  {
+                    "en": "their voices",
+                    "vi": "tiếng nói của họ"
+                  }
+                ],
+                "point_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội.",
+                "point_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
+                "evidence_vi": "Với lượng người theo dõi đông đảo, họ dễ dàng kêu gọi quyên góp từ thiện, nâng cao nhận thức bảo vệ môi trường hoặc khích lệ giới trẻ nỗ lực theo đuổi ước mơ. Tiếng nói của họ tạo ra tác động lan tỏa mạnh mẽ hơn nhiều so với một cá nhân bình thường.",
+                "evidence_en": "With millions of followers, they can easily raise funds for charity, promote environmental awareness, or motivate young fans to pursue their dreams. Their voices create a much stronger social impact than those of ordinary citizens.",
+                "point_collocations": [
+                  {
+                    "en": "use their public influence",
+                    "vi": "dùng sức ảnh hưởng"
+                  },
+                  {
+                    "en": "inspire others",
+                    "vi": "truyền cảm hứng"
+                  },
+                  {
+                    "en": "contribute positively to society",
+                    "vi": "đóng góp tích cực cho xã hội"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "raise funds for charity",
+                      "vi": "kêu gọi quyên góp từ thiện"
+                    },
+                    {
+                      "en": "promote environmental awareness",
+                      "vi": "nâng cao nhận thức bảo vệ môi trường"
+                    },
+                    {
+                      "en": "motivate young fans",
+                      "vi": "khích lệ giới trẻ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "create a much stronger social impact",
+                      "vi": "tạo ra tác động ... mạnh mẽ hơn nhiều"
+                    },
+                    {
+                      "en": "ordinary citizens",
+                      "vi": "bình thường"
+                    },
+                    {
+                      "en": "their voices",
+                      "vi": "tiếng nói của họ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: NHẬN ĐƯỢC SỰ YÊU MẾN VÀ CÔNG NHẬN CHO TÀI NĂNG (PUBLIC ADMIRATION AND RECOGNITION)",
+                "collocations": [
+                  {
+                    "en": "a strong sense of pride",
+                    "vi": "niềm tự hào lớn"
+                  },
+                  {
+                    "en": "personal talent and hard work",
+                    "vi": "tài năng và nỗ lực cá nhân"
+                  },
+                  {
+                    "en": "widely admired",
+                    "vi": "được đông đảo khán giả ghi nhận"
+                  },
+                  {
+                    "en": "warm support from fans",
+                    "vi": "sự cổ vũ nồng nhiệt từ người hâm mộ"
+                  },
+                  {
+                    "en": "years of dedication",
+                    "vi": "những tháng ... khổ luyện"
+                  },
+                  {
+                    "en": "truly worthwhile",
+                    "vi": "hoàn toàn xứng đáng"
+                  },
+                  {
+                    "en": "emotional encouragement",
+                    "vi": "nguồn động viên tinh thần"
+                  },
+                  {
+                    "en": "keep creating",
+                    "vi": "tiếp tục sáng tạo"
+                  },
+                  {
+                    "en": "strive for excellence",
+                    "vi": "tiếp tục sáng tạo và cống hiến"
+                  }
+                ],
+                "point_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận.",
+                "point_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
+                "evidence_vi": "Sự cổ vũ nồng nhiệt từ người hâm mộ giúp các nghệ sĩ và vận động viên cảm thấy những tháng ngày khổ luyện của mình hoàn toàn xứng đáng. Nguồn động viên tinh thần đó thúc đẩy họ tiếp tục sáng tạo và cống hiến.",
+                "evidence_en": "Warm support from fans makes artists and athletes feel that their years of dedication are truly worthwhile. Such emotional encouragement motivates them to keep creating and striving for excellence.",
+                "point_collocations": [
+                  {
+                    "en": "a strong sense of pride",
+                    "vi": "niềm tự hào lớn"
+                  },
+                  {
+                    "en": "personal talent and hard work",
+                    "vi": "tài năng và nỗ lực cá nhân"
+                  },
+                  {
+                    "en": "widely admired",
+                    "vi": "được đông đảo khán giả ghi nhận"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "warm support from fans",
+                      "vi": "sự cổ vũ nồng nhiệt từ người hâm mộ"
+                    },
+                    {
+                      "en": "years of dedication",
+                      "vi": "những tháng ... khổ luyện"
+                    },
+                    {
+                      "en": "truly worthwhile",
+                      "vi": "hoàn toàn xứng đáng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional encouragement",
+                      "vi": "nguồn động viên tinh thần"
+                    },
+                    {
+                      "en": "keep creating",
+                      "vi": "tiếp tục sáng tạo"
+                    },
+                    {
+                      "en": "strive for excellence",
+                      "vi": "tiếp tục sáng tạo và cống hiến"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: HƯỞNG SỰ ƯU ÁI VÀ ĐẶC QUYỀN TRONG ĐỜI SỐNG XÃ HỘI (SOCIAL PRIVILEGES AND RESPECT)",
+                "collocations": [
+                  {
+                    "en": "well-known individuals",
+                    "vi": "những người có tên tuổi"
+                  },
+                  {
+                    "en": "receive warm hospitality",
+                    "vi": "nhận được sự đón tiếp nồng hậu"
+                  },
+                  {
+                    "en": "special privileges",
+                    "vi": "nhiều đặc quyền thuận lợi"
+                  },
+                  {
+                    "en": "VIP access at events",
+                    "vi": "vào khu vực ưu tiên tại sự kiện"
+                  },
+                  {
+                    "en": "sponsored products",
+                    "vi": "tài trợ"
+                  },
+                  {
+                    "en": "launch new businesses",
+                    "vi": "khởi nghiệp kinh doanh"
+                  },
+                  {
+                    "en": "professional plans",
+                    "vi": "công việc"
+                  },
+                  {
+                    "en": "run much more smoothly",
+                    "vi": "diễn ra suôn sẻ hơn nhiều"
+                  },
+                  {
+                    "en": "these advantages",
+                    "vi": "những thuận lợi này"
+                  }
+                ],
+                "point_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống.",
+                "point_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
+                "evidence_vi": "Họ thường được mời vào khu vực ưu tiên tại sự kiện, nhận quà tặng tài trợ từ các nhãn hàng lớn và dễ tạo dựng uy tín khi khởi nghiệp kinh doanh. Những thuận lợi này giúp công việc của họ diễn ra suôn sẻ hơn nhiều.",
+                "evidence_en": "They are frequently offered VIP access at events, gifted sponsored products by major brands, and trusted faster when launching new businesses. These advantages help their professional plans run much more smoothly.",
+                "point_collocations": [
+                  {
+                    "en": "well-known individuals",
+                    "vi": "những người có tên tuổi"
+                  },
+                  {
+                    "en": "receive warm hospitality",
+                    "vi": "nhận được sự đón tiếp nồng hậu"
+                  },
+                  {
+                    "en": "special privileges",
+                    "vi": "nhiều đặc quyền thuận lợi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "VIP access at events",
+                      "vi": "vào khu vực ưu tiên tại sự kiện"
+                    },
+                    {
+                      "en": "sponsored products",
+                      "vi": "tài trợ"
+                    },
+                    {
+                      "en": "launch new businesses",
+                      "vi": "khởi nghiệp kinh doanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "professional plans",
+                      "vi": "công việc"
+                    },
+                    {
+                      "en": "run much more smoothly",
+                      "vi": "diễn ra suôn sẻ hơn nhiều"
+                    },
+                    {
+                      "en": "these advantages",
+                      "vi": "những thuận lợi này"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: ĐÁNH MẤT QUYỀN RIÊNG TƯ TRONG ĐỜI SỐNG CÁ NHÂN (SEVERE LOSS OF PERSONAL PRIVACY)",
+                "collocations": [
+                  {
+                    "en": "the biggest prices",
+                    "vi": "những cái giá lớn nhất"
+                  },
+                  {
+                    "en": "become famous",
+                    "vi": "nổi tiếng"
+                  },
+                  {
+                    "en": "severe loss of personal privacy",
+                    "vi": "đánh mất nghiêm trọng quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "curious crowds",
+                    "vi": "đám đông hiếu kỳ"
+                  },
+                  {
+                    "en": "family vacations",
+                    "vi": "nghỉ ngơi cùng gia đình"
+                  },
+                  {
+                    "en": "enjoy a peaceful, ordinary life",
+                    "vi": "tận hưởng một cuộc sống tự do, bình dị"
+                  },
+                  {
+                    "en": "struggle to",
+                    "vi": "rất khó"
+                  }
+                ],
+                "point_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân.",
+                "point_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
+                "evidence_vi": "Người nổi tiếng thường xuyên bị thợ săn ảnh và đám đông hiếu kỳ theo dõi ở nơi công cộng, thậm chí ngay cả khi đi ăn tối hay nghỉ ngơi cùng gia đình. Họ rất khó tận hưởng một cuộc sống tự do, bình dị như những người bình thường khác.",
+                "evidence_en": "Celebrities are constantly followed by paparazzi and curious crowds in public places, even during quiet dinners or family vacations. Consequently, they struggle to enjoy a peaceful, ordinary life like other ordinary people.",
+                "point_collocations": [
+                  {
+                    "en": "the biggest prices",
+                    "vi": "những cái giá lớn nhất"
+                  },
+                  {
+                    "en": "become famous",
+                    "vi": "nổi tiếng"
+                  },
+                  {
+                    "en": "severe loss of personal privacy",
+                    "vi": "đánh mất nghiêm trọng quyền riêng tư cá nhân"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "curious crowds",
+                      "vi": "đám đông hiếu kỳ"
+                    },
+                    {
+                      "en": "family vacations",
+                      "vi": "nghỉ ngơi cùng gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "enjoy a peaceful, ordinary life",
+                      "vi": "tận hưởng một cuộc sống tự do, bình dị"
+                    },
+                    {
+                      "en": "struggle to",
+                      "vi": "rất khó"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: ÁP LỰC PHẢI GIỮ HÌNH ẢNH HOÀN HẢO VÀ DỄ BỊ CHỈ TRÍCH (INTENSE PRESSURE AND PUBLIC SCRUTINY)",
+                "collocations": [
+                  {
+                    "en": "face intense mental pressure",
+                    "vi": "áp lực tâm lý nặng nề"
+                  },
+                  {
+                    "en": "every word and action",
+                    "vi": "mọi lời nói và hành động"
+                  },
+                  {
+                    "en": "be closely scrutinized",
+                    "vi": "bị dư luận săm soi"
+                  },
+                  {
+                    "en": "a careless comment",
+                    "vi": "một phát ngôn"
+                  },
+                  {
+                    "en": "trigger harsh online criticism",
+                    "vi": "làn sóng chỉ trích gay gắt"
+                  },
+                  {
+                    "en": "malicious rumors",
+                    "vi": "tin đồn ác ý"
+                  },
+                  {
+                    "en": "maintain a flawless image",
+                    "vi": "phải luôn xuất hiện hoàn hảo"
+                  },
+                  {
+                    "en": "suffer from anxiety, insomnia, and depression",
+                    "vi": "lo âu, mất ngủ và trầm cảm"
+                  },
+                  {
+                    "en": "constant burden",
+                    "vi": "gánh nặng"
+                  }
+                ],
+                "point_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi.",
+                "point_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
+                "evidence_vi": "Chỉ một lỗi lầm nhỏ hay một phát ngôn thiếu khéo léo cũng có thể dẫn đến làn sóng chỉ trích gay gắt và tin đồn ác ý trên mạng xã hội. Gánh nặng phải luôn xuất hiện hoàn hảo khiến nhiều ngôi sao rơi vào lo âu, mất ngủ và trầm cảm.",
+                "evidence_en": "Even a minor mistake or a careless comment can trigger harsh online criticism and malicious rumors. The constant burden of maintaining a flawless image causes many stars to suffer from anxiety, insomnia, and depression.",
+                "point_collocations": [
+                  {
+                    "en": "face intense mental pressure",
+                    "vi": "áp lực tâm lý nặng nề"
+                  },
+                  {
+                    "en": "every word and action",
+                    "vi": "mọi lời nói và hành động"
+                  },
+                  {
+                    "en": "be closely scrutinized",
+                    "vi": "bị dư luận săm soi"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "a careless comment",
+                      "vi": "một phát ngôn"
+                    },
+                    {
+                      "en": "trigger harsh online criticism",
+                      "vi": "làn sóng chỉ trích gay gắt"
+                    },
+                    {
+                      "en": "malicious rumors",
+                      "vi": "tin đồn ác ý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "maintain a flawless image",
+                      "vi": "phải luôn xuất hiện hoàn hảo"
+                    },
+                    {
+                      "en": "suffer from anxiety, insomnia, and depression",
+                      "vi": "lo âu, mất ngủ và trầm cảm"
+                    },
+                    {
+                      "en": "constant burden",
+                      "vi": "gánh nặng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: KHÓ TÌM ĐƯỢC TÌNH BẠN VÀ TÌNH CẢM CHÂN THÀNH (DIFFICULTY TRUSTING OTHERS)",
+                "collocations": [
+                  {
+                    "en": "wealth and stardom",
+                    "vi": "ánh hào quang và sự giàu có"
+                  },
+                  {
+                    "en": "make it difficult for famous people",
+                    "vi": "khiến người nổi tiếng khó"
+                  },
+                  {
+                    "en": "truly care about them",
+                    "vi": "yêu quý họ thật lòng"
+                  },
+                  {
+                    "en": "take advantage of their money, status, or business connections",
+                    "vi": "lợi dụng tiền bạc, danh tiếng hoặc các mối quan hệ"
+                  },
+                  {
+                    "en": "approach celebrities",
+                    "vi": "tiếp cận người nổi tiếng"
+                  },
+                  {
+                    "en": "some people",
+                    "vi": "một số người"
+                  },
+                  {
+                    "en": "ulterior motives",
+                    "vi": "lợi dụng"
+                  },
+                  {
+                    "en": "isolate themselves",
+                    "vi": "thu mình"
+                  },
+                  {
+                    "en": "feel deeply lonely",
+                    "vi": "cảm thấy cô đơn"
+                  }
+                ],
+                "point_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng.",
+                "point_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
+                "evidence_vi": "Một số người tiếp cận người nổi tiếng chỉ nhằm lợi dụng tiền bạc, danh tiếng hoặc các mối quan hệ có lợi cho bản thân. Vì sợ bị phản bội hay lợi dụng, nhiều ngôi sao thu mình lại và cảm thấy cô đơn dù xung quanh có rất đông người hâm mộ.",
+                "evidence_en": "Some people approach celebrities only to take advantage of their money, status, or business connections. Fearing betrayal or ulterior motives, many stars isolate themselves and feel deeply lonely despite having millions of fans.",
+                "point_collocations": [
+                  {
+                    "en": "wealth and stardom",
+                    "vi": "ánh hào quang và sự giàu có"
+                  },
+                  {
+                    "en": "make it difficult for famous people",
+                    "vi": "khiến người nổi tiếng khó"
+                  },
+                  {
+                    "en": "truly care about them",
+                    "vi": "yêu quý họ thật lòng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take advantage of their money, status, or business connections",
+                      "vi": "lợi dụng tiền bạc, danh tiếng hoặc các mối quan hệ"
+                    },
+                    {
+                      "en": "approach celebrities",
+                      "vi": "tiếp cận người nổi tiếng"
+                    },
+                    {
+                      "en": "some people",
+                      "vi": "một số người"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ulterior motives",
+                      "vi": "lợi dụng"
+                    },
+                    {
+                      "en": "isolate themselves",
+                      "vi": "thu mình"
+                    },
+                    {
+                      "en": "feel deeply lonely",
+                      "vi": "cảm thấy cô đơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG ĐẾN SỰ AN TOÀN VÀ BÌNH YÊN CỦA GIA ĐÌNH (SAFETY CONCERNS FOR FAMILY MEMBERS)",
+                "collocations": [
+                  {
+                    "en": "expose their loved ones to unwanted attention",
+                    "vi": "người thân của họ vào sự chú ý ngoài ý muốn"
+                  },
+                  {
+                    "en": "celebrities themselves",
+                    "vi": "bản thân ngôi sao"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "sự nổi tiếng"
+                  },
+                  {
+                    "en": "be photographed secretly",
+                    "vi": "bị chụp ảnh lén"
+                  },
+                  {
+                    "en": "discussed in tabloids",
+                    "vi": "bị chụp ảnh lén, bàn tán trên báo"
+                  },
+                  {
+                    "en": "harassed by obsessive fans",
+                    "vi": "bị kẻ quá khích quấy rối"
+                  },
+                  {
+                    "en": "constantly worried",
+                    "vi": "luôn lo lắng"
+                  },
+                  {
+                    "en": "family's safety and well-being",
+                    "vi": "sự an toàn và ... của gia đình"
+                  },
+                  {
+                    "en": "public figures",
+                    "vi": "nhiều người nổi tiếng"
+                  }
+                ],
+                "point_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn.",
+                "point_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
+                "evidence_vi": "Con cái hoặc người thân của nghệ sĩ có thể bị chụp ảnh lén, bàn tán trên báo chí hoặc thậm chí bị kẻ quá khích quấy rối. Điều này khiến nhiều người nổi tiếng luôn lo lắng cho sự an toàn và cuộc sống bình thường của gia đình mình.",
+                "evidence_en": "Celebrities' children or relatives may be photographed secretly, discussed in tabloids, or even harassed by obsessive fans. This leaves many public figures constantly worried about their family's safety and well-being.",
+                "point_collocations": [
+                  {
+                    "en": "expose their loved ones to unwanted attention",
+                    "vi": "người thân của họ vào sự chú ý ngoài ý muốn"
+                  },
+                  {
+                    "en": "celebrities themselves",
+                    "vi": "bản thân ngôi sao"
+                  },
+                  {
+                    "en": "fame",
+                    "vi": "sự nổi tiếng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be photographed secretly",
+                      "vi": "bị chụp ảnh lén"
+                    },
+                    {
+                      "en": "discussed in tabloids",
+                      "vi": "bị chụp ảnh lén, bàn tán trên báo"
+                    },
+                    {
+                      "en": "harassed by obsessive fans",
+                      "vi": "bị kẻ quá khích quấy rối"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "constantly worried",
+                      "vi": "luôn lo lắng"
+                    },
+                    {
+                      "en": "family's safety and well-being",
+                      "vi": "sự an toàn và ... của gia đình"
+                    },
+                    {
+                      "en": "public figures",
+                      "vi": "nhiều người nổi tiếng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: LỊCH TRÌNH LÀM VIỆC DÀY ĐẶC VÀ SỰ Bấp BÊNH CỦA DANH TIẾNG (EXHAUSTING SCHEDULES AND FLEETING FAME)",
+                "collocations": [
+                  {
+                    "en": "stay relevant in the spotlight",
+                    "vi": "duy trì sức hút"
+                  },
+                  {
+                    "en": "endure exhausting schedules",
+                    "vi": "làm việc kiệt sức"
+                  },
+                  {
+                    "en": "fame itself remains unstable",
+                    "vi": "danh tiếng lại rất dễ phai nhạt"
+                  },
+                  {
+                    "en": "non-stop filming and touring schedules",
+                    "vi": "lịch quay hình, lưu diễn liên miên"
+                  },
+                  {
+                    "en": "little time for rest",
+                    "vi": "thời gian nghỉ ngơi"
+                  },
+                  {
+                    "en": "personal health care",
+                    "vi": "chăm sóc sức khỏe cá nhân"
+                  },
+                  {
+                    "en": "audience tastes shift",
+                    "vi": "thị hiếu khán giả thay đổi"
+                  },
+                  {
+                    "en": "public attention fades",
+                    "vi": "sự chú ý giảm sút"
+                  },
+                  {
+                    "en": "fall into psychological and financial crisis",
+                    "vi": "rơi vào khủng hoảng tâm lý lẫn tài chính"
+                  }
+                ],
+                "point_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt.",
+                "point_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
+                "evidence_vi": "Lịch quay hình, lưu diễn liên miên khiến họ thiếu thời gian nghỉ ngơi và chăm sóc sức khỏe cá nhân. Hơn nữa, khi thị hiếu khán giả thay đổi và sự chú ý giảm sút, nhiều nghệ sĩ dễ rơi vào khủng hoảng tâm lý lẫn tài chính.",
+                "evidence_en": "Non-stop filming and touring schedules leave them with little time for rest and personal health care. Moreover, when audience tastes shift and public attention fades, many entertainers easily fall into psychological and financial crisis.",
+                "point_collocations": [
+                  {
+                    "en": "stay relevant in the spotlight",
+                    "vi": "duy trì sức hút"
+                  },
+                  {
+                    "en": "endure exhausting schedules",
+                    "vi": "làm việc kiệt sức"
+                  },
+                  {
+                    "en": "fame itself remains unstable",
+                    "vi": "danh tiếng lại rất dễ phai nhạt"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "non-stop filming and touring schedules",
+                      "vi": "lịch quay hình, lưu diễn liên miên"
+                    },
+                    {
+                      "en": "little time for rest",
+                      "vi": "thời gian nghỉ ngơi"
+                    },
+                    {
+                      "en": "personal health care",
+                      "vi": "chăm sóc sức khỏe cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "audience tastes shift",
+                      "vi": "thị hiếu khán giả thay đổi"
+                    },
+                    {
+                      "en": "public attention fades",
+                      "vi": "sự chú ý giảm sút"
+                    },
+                    {
+                      "en": "fall into psychological and financial crisis",
+                      "vi": "rơi vào khủng hoảng tâm lý lẫn tài chính"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -59942,7 +64788,897 @@ const ESSAY_DATA = [
               "en": "be repeatedly interrupted by pop-up ads",
               "vi": "liên tục bị cắt ngang bởi các quảng cáo bật lên"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>advertising</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, advertisements have several advantages for businesses and buyers.</strong> One major benefit is that <strong><em>advertising gives useful information about new products to customers</em></strong>. This is because advertisements show product features and prices, helping shoppers choose suitable items more easily. Another positive aspect is that <strong><em>advertising helps companies attract buyers and increase sales</em></strong>. The main reason is that good advertisements make brands more popular in the market. A further good point is that <strong><em>advertising supports free media and public awareness campaigns</em></strong>. For example, income from advertisements keeps television programs free, while public ads remind people to protect the environment.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>some advertisements give false information about product quality</em></strong>. This is because companies often exaggerate how good their products are, so buyers feel disappointed after buying them. Another negative aspect is that <strong><em>attractive advertisements encourage people to buy unnecessary things</em></strong>. In fact, many shoppers waste money on items they do not really need. Finally, <strong><em>too many advertisements on television and websites annoy users</em></strong>. As a result, constant pop-up ads interrupt people when they watch videos or read news.\n\nIn conclusion, <strong>advertising</strong> has both advantages and disadvantages. These points show that it has different effects on consumers and society. Therefore, it is important to consider both sides before making buying decisions.",
+          "translation_b1": "Trong những năm gần đây, <strong>quảng cáo</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, quảng cáo có một số thuận lợi cho doanh nghiệp và người mua.</strong> Một lợi ích lớn là <strong><em>quảng cáo cung cấp thông tin hữu ích về các sản phẩm mới cho khách hàng</em></strong>. Điều này là vì quảng cáo giới thiệu tính năng và giá bán sản phẩm, giúp người mua chọn đồ phù hợp dễ dàng hơn. Một khía cạnh tích cực khác là <strong><em>quảng cáo giúp doanh nghiệp thu hút khách hàng và tăng doanh số</em></strong>. Lý do chính là các quảng cáo ấn tượng giúp thương hiệu được nhiều người biết đến hơn trên thị trường. Một điểm tốt nữa là <strong><em>quảng cáo hỗ trợ truyền thông miễn phí và các chiến dịch nâng cao nhận thức cộng đồng</em></strong>. Ví dụ, doanh thu quảng cáo giúp duy trì các chương trình truyền hình miễn phí, còn quảng cáo cộng đồng nhắc nhở mọi người bảo vệ môi trường.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>một số quảng cáo đưa thông tin sai lệch về chất lượng sản phẩm</em></strong>. Điều này là do các công ty thường phóng đại công dụng sản phẩm, khiến người mua thất vọng sau khi mua về. Một điểm tiêu cực khác là <strong><em>quảng cáo bắt mắt khuyến khích mọi người mua những thứ không cần thiết</em></strong>. Thực tế, nhiều người tiêu dùng lãng phí tiền vào những món đồ họ không thực sự dùng đến. Cuối cùng, <strong><em>quá nhiều quảng cáo trên truyền hình và trang web gây phiền phức cho người dùng</em></strong>. Kết quả là các quảng cáo bật lên liên tục làm gián đoạn việc xem video hoặc đọc báo.\n\nTóm lại, <strong>quảng cáo</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó có tác động khác nhau đến người tiêu dùng và xã hội. Vì vậy, cần cân nhắc kỹ trước khi đưa ra quyết định mua sắm.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: CUNG CẤP THÔNG TIN HỮU ÍCH CHO NGƯỜI TIÊU DÙNG (INFORMING CONSUMERS ABOUT PRODUCTS)",
+                "collocations": [
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích"
+                  },
+                  {
+                    "en": "consumers",
+                    "vi": "người tiêu dùng"
+                  },
+                  {
+                    "en": "make better purchasing decisions",
+                    "vi": "đưa ra lựa chọn mua sắm phù hợp hơn"
+                  },
+                  {
+                    "en": "through advertisements",
+                    "vi": "thông qua các mẩu quảng cáo"
+                  },
+                  {
+                    "en": "learn about new features, prices, and special discounts",
+                    "vi": "nắm được tính năng mới, mức giá"
+                  },
+                  {
+                    "en": "various goods",
+                    "vi": "nhiều mặt hàng khác nhau"
+                  },
+                  {
+                    "en": "compare different brands easily",
+                    "vi": "dễ dàng so sánh các thương hiệu"
+                  },
+                  {
+                    "en": "choose products",
+                    "vi": "chọn được sản phẩm"
+                  },
+                  {
+                    "en": "match their daily needs",
+                    "vi": "đúng nhu cầu hằng ngày"
+                  }
+                ],
+                "point_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn.",
+                "point_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
+                "evidence_vi": "Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và chương trình khuyến mãi của nhiều mặt hàng khác nhau. Nhờ đó, họ dễ dàng so sánh các thương hiệu và chọn được sản phẩm đáp ứng đúng nhu cầu hằng ngày.",
+                "evidence_en": "Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods. Consequently, they can compare different brands easily and choose products that match their daily needs.",
+                "point_collocations": [
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích"
+                  },
+                  {
+                    "en": "consumers",
+                    "vi": "người tiêu dùng"
+                  },
+                  {
+                    "en": "make better purchasing decisions",
+                    "vi": "đưa ra lựa chọn mua sắm phù hợp hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "through advertisements",
+                      "vi": "thông qua các mẩu quảng cáo"
+                    },
+                    {
+                      "en": "learn about new features, prices, and special discounts",
+                      "vi": "nắm được tính năng mới, mức giá"
+                    },
+                    {
+                      "en": "various goods",
+                      "vi": "nhiều mặt hàng khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "compare different brands easily",
+                      "vi": "dễ dàng so sánh các thương hiệu"
+                    },
+                    {
+                      "en": "choose products",
+                      "vi": "chọn được sản phẩm"
+                    },
+                    {
+                      "en": "match their daily needs",
+                      "vi": "đúng nhu cầu hằng ngày"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: GIÚP DOANH NGHIỆP TĂNG DOANH SỐ VÀ MỞ RỘNG THỊ TRƯỜNG (BOOSTING SALES AND BUSINESS GROWTH)",
+                "collocations": [
+                  {
+                    "en": "play a vital role",
+                    "vi": "đóng vai trò then chốt"
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng"
+                  },
+                  {
+                    "en": "increase sales",
+                    "vi": "gia tăng doanh"
+                  },
+                  {
+                    "en": "launch a new product",
+                    "vi": "ra mắt sản phẩm mới"
+                  },
+                  {
+                    "en": "effective marketing campaigns",
+                    "vi": "các chiến dịch tiếp thị hiệu quả"
+                  },
+                  {
+                    "en": "build brand awareness",
+                    "vi": "độ nhận diện thương hiệu"
+                  },
+                  {
+                    "en": "as sales grow",
+                    "vi": "khi doanh số tăng trưởng"
+                  },
+                  {
+                    "en": "expand production",
+                    "vi": "mở rộng sản xuất"
+                  },
+                  {
+                    "en": "create more jobs for society",
+                    "vi": "tạo thêm nhiều việc làm cho xã hội"
+                  }
+                ],
+                "point_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu.",
+                "point_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
+                "evidence_vi": "Khi ra mắt sản phẩm mới, các chiến dịch tiếp thị hiệu quả giúp nâng cao độ nhận diện thương hiệu tới hàng triệu người trong thời gian ngắn. Khi doanh số tăng trưởng, công ty có thể mở rộng sản xuất và tạo thêm nhiều việc làm cho xã hội.",
+                "evidence_en": "When launching a new product, effective marketing campaigns build brand awareness among millions of people within a short time. As sales grow, companies can expand production and create more jobs for society.",
+                "point_collocations": [
+                  {
+                    "en": "play a vital role",
+                    "vi": "đóng vai trò then chốt"
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng"
+                  },
+                  {
+                    "en": "increase sales",
+                    "vi": "gia tăng doanh"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "launch a new product",
+                      "vi": "ra mắt sản phẩm mới"
+                    },
+                    {
+                      "en": "effective marketing campaigns",
+                      "vi": "các chiến dịch tiếp thị hiệu quả"
+                    },
+                    {
+                      "en": "build brand awareness",
+                      "vi": "độ nhận diện thương hiệu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "as sales grow",
+                      "vi": "khi doanh số tăng trưởng"
+                    },
+                    {
+                      "en": "expand production",
+                      "vi": "mở rộng sản xuất"
+                    },
+                    {
+                      "en": "create more jobs for society",
+                      "vi": "tạo thêm nhiều việc làm cho xã hội"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: THÚC ĐẨY CẠNH TRANH LÀNH MẠNH VÀ NÂNG CAO CHẤT LƯỢNG SẢN PHẨM (ENCOURAGING MARKET COMPETITION AND INNOVATION)",
+                "collocations": [
+                  {
+                    "en": "encourage healthy competition",
+                    "vi": "thúc đẩy sự cạnh tranh"
+                  },
+                  {
+                    "en": "among companies",
+                    "vi": "giữa các doanh nghiệp"
+                  },
+                  {
+                    "en": "ultimately benefit buyers",
+                    "vi": "mang lại lợi ích cho người mua"
+                  },
+                  {
+                    "en": "stand out in the market",
+                    "vi": "nổi bật trên thị trường"
+                  },
+                  {
+                    "en": "improve product quality",
+                    "vi": "cải tiến chất lượng"
+                  },
+                  {
+                    "en": "customer service",
+                    "vi": "dịch vụ hậu mãi"
+                  },
+                  {
+                    "en": "thanks to such competition",
+                    "vi": "nhờ sự cạnh tranh"
+                  },
+                  {
+                    "en": "enjoy better goods",
+                    "vi": "được tiếp cận những sản phẩm ngày càng tốt hơn"
+                  }
+                ],
+                "point_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua.",
+                "point_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
+                "evidence_vi": "Để nổi bật trên thị trường, các nhà sản xuất buộc phải không ngừng cải tiến chất lượng hàng hóa, dịch vụ hậu mãi và giữ mức giá hợp lý. Nhờ sự cạnh tranh này, người tiêu dùng được tiếp cận những sản phẩm ngày càng tốt hơn.",
+                "evidence_en": "To stand out in the market, manufacturers must constantly improve product quality, customer service, and pricing. Thanks to such competition, consumers enjoy better goods.",
+                "point_collocations": [
+                  {
+                    "en": "encourage healthy competition",
+                    "vi": "thúc đẩy sự cạnh tranh"
+                  },
+                  {
+                    "en": "among companies",
+                    "vi": "giữa các doanh nghiệp"
+                  },
+                  {
+                    "en": "ultimately benefit buyers",
+                    "vi": "mang lại lợi ích cho người mua"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stand out in the market",
+                      "vi": "nổi bật trên thị trường"
+                    },
+                    {
+                      "en": "improve product quality",
+                      "vi": "cải tiến chất lượng"
+                    },
+                    {
+                      "en": "customer service",
+                      "vi": "dịch vụ hậu mãi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "thanks to such competition",
+                      "vi": "nhờ sự cạnh tranh"
+                    },
+                    {
+                      "en": "enjoy better goods",
+                      "vi": "được tiếp cận những sản phẩm ngày càng tốt hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: TÀI TRỢ CHO TRUYỀN THÔNG, GIẢI TRÍ VÀ THỂ THAO MIỄN PHÍ (FUNDING FREE MEDIA AND PUBLIC EVENTS)",
+                "collocations": [
+                  {
+                    "en": "advertising revenue",
+                    "vi": "thu từ quảng cáo"
+                  },
+                  {
+                    "en": "fund many free media services",
+                    "vi": "duy trì nhiều nền tảng truyền thông miễn phí"
+                  },
+                  {
+                    "en": "major cultural or sporting events",
+                    "vi": "các sự kiện văn hóa lớn"
+                  },
+                  {
+                    "en": "read online newspapers",
+                    "vi": "đọc báo điện tử"
+                  },
+                  {
+                    "en": "watch entertainment shows",
+                    "vi": "xem các chương trình ... giải trí"
+                  },
+                  {
+                    "en": "free of charge",
+                    "vi": "mà không phải trả phí"
+                  },
+                  {
+                    "en": "sports tournaments",
+                    "vi": "giải đấu thể thao"
+                  },
+                  {
+                    "en": "community programs",
+                    "vi": "chương trình cộng đồng"
+                  },
+                  {
+                    "en": "commercial sponsorship",
+                    "vi": "nguồn tài trợ thương mại"
+                  }
+                ],
+                "point_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn.",
+                "point_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
+                "evidence_vi": "Nhờ kinh phí từ các nhà quảng cáo, công chúng có thể đọc báo điện tử, sử dụng công cụ tìm kiếm hoặc xem các chương trình truyền hình giải trí mà không phải trả phí. Nhiều giải đấu thể thao và chương trình cộng đồng cũng được tổ chức thành công nhờ nguồn tài trợ thương mại.",
+                "evidence_en": "Thanks to payments from advertisers, the public can read online newspapers, use search engines, or watch entertainment shows free of charge. Many sports tournaments and community programs also succeed through commercial sponsorship.",
+                "point_collocations": [
+                  {
+                    "en": "advertising revenue",
+                    "vi": "thu từ quảng cáo"
+                  },
+                  {
+                    "en": "fund many free media services",
+                    "vi": "duy trì nhiều nền tảng truyền thông miễn phí"
+                  },
+                  {
+                    "en": "major cultural or sporting events",
+                    "vi": "các sự kiện văn hóa lớn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "read online newspapers",
+                      "vi": "đọc báo điện tử"
+                    },
+                    {
+                      "en": "watch entertainment shows",
+                      "vi": "xem các chương trình ... giải trí"
+                    },
+                    {
+                      "en": "free of charge",
+                      "vi": "mà không phải trả phí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sports tournaments",
+                      "vi": "giải đấu thể thao"
+                    },
+                    {
+                      "en": "community programs",
+                      "vi": "chương trình cộng đồng"
+                    },
+                    {
+                      "en": "commercial sponsorship",
+                      "vi": "nguồn tài trợ thương mại"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: TRUYỀN TẢI THÔNG ĐIỆP CỘNG ĐỒNG TÍCH CỰC (SPREADING POSITIVE SOCIAL MESSAGES)",
+                "collocations": [
+                  {
+                    "en": "public-service advertisements",
+                    "vi": "các chiến dịch quảng cáo cộng đồng"
+                  },
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "important social issues",
+                    "vi": "nhận thức xã hội"
+                  },
+                  {
+                    "en": "memorable media campaigns",
+                    "vi": "chiến dịch truyền thông"
+                  },
+                  {
+                    "en": "wear helmets in traffic",
+                    "vi": "đội mũ bảo hiểm an toàn giao thông"
+                  },
+                  {
+                    "en": "protect the natural environment",
+                    "vi": "bảo vệ môi trường"
+                  },
+                  {
+                    "en": "creative visuals",
+                    "vi": "hình ảnh sáng tạo"
+                  },
+                  {
+                    "en": "positive messages",
+                    "vi": "thông điệp nhân văn"
+                  },
+                  {
+                    "en": "spread widely across society",
+                    "vi": "lan tỏa sâu rộng"
+                  }
+                ],
+                "point_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội.",
+                "point_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
+                "evidence_vi": "Nhiều chiến dịch truyền thông ấn tượng đã nhắc nhở người dân đội mũ bảo hiểm an toàn giao thông, tiết kiệm điện nước và bảo vệ môi trường sống. Những hình ảnh sáng tạo dễ nhớ giúp thông điệp nhân văn lan tỏa sâu rộng trong đời sống.",
+                "evidence_en": "Many memorable media campaigns remind citizens to wear helmets in traffic, save energy, and protect the natural environment. Creative visuals help positive messages spread widely across society.",
+                "point_collocations": [
+                  {
+                    "en": "public-service advertisements",
+                    "vi": "các chiến dịch quảng cáo cộng đồng"
+                  },
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "important social issues",
+                    "vi": "nhận thức xã hội"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "memorable media campaigns",
+                      "vi": "chiến dịch truyền thông"
+                    },
+                    {
+                      "en": "wear helmets in traffic",
+                      "vi": "đội mũ bảo hiểm an toàn giao thông"
+                    },
+                    {
+                      "en": "protect the natural environment",
+                      "vi": "bảo vệ môi trường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "creative visuals",
+                      "vi": "hình ảnh sáng tạo"
+                    },
+                    {
+                      "en": "positive messages",
+                      "vi": "thông điệp nhân văn"
+                    },
+                    {
+                      "en": "spread widely across society",
+                      "vi": "lan tỏa sâu rộng"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: THỔI PHỒNG SỰ THẬT VÀ GÂY HIỂU LẦM CHO NGƯỜI MUA (EXAGGERATED AND MISLEADING CLAIMS)",
+                "collocations": [
+                  {
+                    "en": "exaggerate product quality",
+                    "vi": "phóng đại ... sản phẩm"
+                  },
+                  {
+                    "en": "give misleading information",
+                    "vi": "đưa thông tin"
+                  },
+                  {
+                    "en": "deceive consumers",
+                    "vi": "người tiêu dùng"
+                  },
+                  {
+                    "en": "health supplements",
+                    "vi": "thực phẩm chức năng"
+                  },
+                  {
+                    "en": "miracle solutions",
+                    "vi": "có tác dụng tức thì"
+                  },
+                  {
+                    "en": "actual quality is poor",
+                    "vi": "chất lượng thực tế ... kém"
+                  },
+                  {
+                    "en": "buyers",
+                    "vi": "khách hàng"
+                  },
+                  {
+                    "en": "waste their money on disappointing goods",
+                    "vi": "mất tiền oan"
+                  },
+                  {
+                    "en": "face potential health risks",
+                    "vi": "có nguy cơ tổn hại sức khỏe"
+                  }
+                ],
+                "point_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối.",
+                "point_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
+                "evidence_vi": "Chẳng hạn, nhiều mặt hàng mỹ phẩm hay thực phẩm chức năng trên mạng được quảng bá như có tác dụng tức thì dù chất lượng thực tế rất kém. Khi mua phải những sản phẩm này, khách hàng không chỉ mất tiền oan mà còn có nguy cơ tổn hại sức khỏe.",
+                "evidence_en": "For example, many online cosmetics or health supplements are promoted as miracle solutions although their actual quality is poor. Buyers not only waste their money on disappointing goods but also face potential health risks.",
+                "point_collocations": [
+                  {
+                    "en": "exaggerate product quality",
+                    "vi": "phóng đại ... sản phẩm"
+                  },
+                  {
+                    "en": "give misleading information",
+                    "vi": "đưa thông tin"
+                  },
+                  {
+                    "en": "deceive consumers",
+                    "vi": "người tiêu dùng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "health supplements",
+                      "vi": "thực phẩm chức năng"
+                    },
+                    {
+                      "en": "miracle solutions",
+                      "vi": "có tác dụng tức thì"
+                    },
+                    {
+                      "en": "actual quality is poor",
+                      "vi": "chất lượng thực tế ... kém"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "buyers",
+                      "vi": "khách hàng"
+                    },
+                    {
+                      "en": "waste their money on disappointing goods",
+                      "vi": "mất tiền oan"
+                    },
+                    {
+                      "en": "face potential health risks",
+                      "vi": "có nguy cơ tổn hại sức khỏe"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: KÍCH THÍCH MUA SẮM BỐC ĐỒNG VÀ LÃNG PHÍ (IMPULSIVE BUYING AND OVERCONSUMPTION)",
+                "collocations": [
+                  {
+                    "en": "attractive advertisements",
+                    "vi": "quảng cáo hấp dẫn"
+                  },
+                  {
+                    "en": "buy unnecessary items",
+                    "vi": "món đồ không thực sự cần thiết"
+                  },
+                  {
+                    "en": "impulsively",
+                    "vi": "bốc đồng"
+                  },
+                  {
+                    "en": "clever marketing techniques",
+                    "vi": "các kỹ thuật tiếp thị khéo"
+                  },
+                  {
+                    "en": "create a sense of urgency",
+                    "vi": "đánh vào tâm lý sợ bỏ lỡ ưu đãi"
+                  },
+                  {
+                    "en": "without careful thought",
+                    "vi": "vội vàng đặt hàng dù chưa có nhu cầu sử dụng"
+                  },
+                  {
+                    "en": "such overconsumption",
+                    "vi": "lối tiêu dùng quá"
+                  },
+                  {
+                    "en": "personal financial strain",
+                    "vi": "áp lực tài chính cá nhân"
+                  },
+                  {
+                    "en": "generate excessive household waste",
+                    "vi": "làm gia tăng lượng rác thải ra môi trường"
+                  }
+                ],
+                "point_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết.",
+                "point_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
+                "evidence_vi": "Các kỹ thuật tiếp thị khéo léo đánh vào tâm lý sợ bỏ lỡ ưu đãi khiến nhiều người vội vàng đặt hàng dù chưa có nhu cầu sử dụng. Lối tiêu dùng quá mức này gây áp lực tài chính cá nhân và làm gia tăng lượng rác thải ra môi trường.",
+                "evidence_en": "Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought. Such overconsumption leads to personal financial strain and generates excessive household waste.",
+                "point_collocations": [
+                  {
+                    "en": "attractive advertisements",
+                    "vi": "quảng cáo hấp dẫn"
+                  },
+                  {
+                    "en": "buy unnecessary items",
+                    "vi": "món đồ không thực sự cần thiết"
+                  },
+                  {
+                    "en": "impulsively",
+                    "vi": "bốc đồng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "clever marketing techniques",
+                      "vi": "các kỹ thuật tiếp thị khéo"
+                    },
+                    {
+                      "en": "create a sense of urgency",
+                      "vi": "đánh vào tâm lý sợ bỏ lỡ ưu đãi"
+                    },
+                    {
+                      "en": "without careful thought",
+                      "vi": "vội vàng đặt hàng dù chưa có nhu cầu sử dụng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "such overconsumption",
+                      "vi": "lối tiêu dùng quá"
+                    },
+                    {
+                      "en": "personal financial strain",
+                      "vi": "áp lực tài chính cá nhân"
+                    },
+                    {
+                      "en": "generate excessive household waste",
+                      "vi": "làm gia tăng lượng rác thải ra môi trường"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: GÂY PHIỀN NHIỄU TRONG ĐỜI SỐNG HẰNG NGÀY (ANNOYING INTERRUPTIONS IN DAILY LIFE)",
+                "collocations": [
+                  {
+                    "en": "the constant presence of advertisements",
+                    "vi": "sự xuất hiện ... của quảng cáo"
+                  },
+                  {
+                    "en": "annoy people",
+                    "vi": "gây phiền toái"
+                  },
+                  {
+                    "en": "interrupt users' experience",
+                    "vi": "gián đoạn trải nghiệm của người dùng"
+                  },
+                  {
+                    "en": "be repeatedly interrupted by pop-up ads",
+                    "vi": "liên tục bị cắt ngang bởi ... quảng cáo bật lên"
+                  },
+                  {
+                    "en": "read news articles",
+                    "vi": "đọc tin tức"
+                  },
+                  {
+                    "en": "study online",
+                    "vi": "học tập trực tuyến"
+                  },
+                  {
+                    "en": "excessive repetition",
+                    "vi": "lặp lại quá"
+                  },
+                  {
+                    "en": "feel frustrated",
+                    "vi": "cảm thấy mệt mỏi và khó chịu"
+                  },
+                  {
+                    "en": "mentally tired",
+                    "vi": "mệt mỏi"
+                  }
+                ],
+                "point_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng.",
+                "point_en": "The constant presence of advertisements across platforms often annoys people and interrupts users' experience.",
+                "evidence_vi": "Người xem liên tục bị cắt ngang bởi các cửa sổ quảng cáo bật lên khi đang đọc tin tức, học tập trực tuyến hoặc xem video giải trí. Tần suất lặp lại quá nhiều khiến công chúng cảm thấy mệt mỏi và khó chịu.",
+                "evidence_en": "Users are repeatedly interrupted by pop-up ads while reading news articles, studying online, or watching videos. Excessive repetition makes audiences feel frustrated and mentally tired.",
+                "point_collocations": [
+                  {
+                    "en": "the constant presence of advertisements",
+                    "vi": "sự xuất hiện ... của quảng cáo"
+                  },
+                  {
+                    "en": "annoy people",
+                    "vi": "gây phiền toái"
+                  },
+                  {
+                    "en": "interrupt users' experience",
+                    "vi": "gián đoạn trải nghiệm của người dùng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be repeatedly interrupted by pop-up ads",
+                      "vi": "liên tục bị cắt ngang bởi ... quảng cáo bật lên"
+                    },
+                    {
+                      "en": "read news articles",
+                      "vi": "đọc tin tức"
+                    },
+                    {
+                      "en": "study online",
+                      "vi": "học tập trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "excessive repetition",
+                      "vi": "lặp lại quá"
+                    },
+                    {
+                      "en": "feel frustrated",
+                      "vi": "cảm thấy mệt mỏi và khó chịu"
+                    },
+                    {
+                      "en": "mentally tired",
+                      "vi": "mệt mỏi"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TÁC ĐỘNG TIÊU CỰC ĐẾN TRẺ NHỎ VÀ THANH THIẾU NIÊN (NEGATIVE INFLUENCE ON CHILDREN AND TEENS)",
+                "collocations": [
+                  {
+                    "en": "commercial advertisements",
+                    "vi": "quảng cáo thương mại"
+                  },
+                  {
+                    "en": "children's habits",
+                    "vi": "thói quen ... của trẻ em"
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "tâm lý"
+                  },
+                  {
+                    "en": "recognize sales persuasion",
+                    "vi": "phân biệt thông điệp bán hàng"
+                  },
+                  {
+                    "en": "sugary fast food",
+                    "vi": "đồ ăn nhanh nhiều đường"
+                  },
+                  {
+                    "en": "expensive toys",
+                    "vi": "đồ chơi đắt tiền"
+                  },
+                  {
+                    "en": "idealized body images",
+                    "vi": "hình ảnh người mẫu quá hoàn hảo"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "tự ti về ngoại hình"
+                  },
+                  {
+                    "en": "about their appearance",
+                    "vi": "về ngoại hình"
+                  }
+                ],
+                "point_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em.",
+                "point_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
+                "evidence_vi": "Trẻ nhỏ chưa đủ nhận thức để phân biệt thông điệp bán hàng nên rất dễ đòi cha mẹ mua đồ ăn nhanh nhiều đường béo hoặc đồ chơi đắt tiền. Ngoài ra, hình ảnh người mẫu quá hoàn hảo trên quảng cáo còn dễ khiến thanh thiếu niên tự ti về ngoại hình.",
+                "evidence_en": "Young children cannot fully recognize sales persuasion, so they often pester parents for sugary fast food or expensive toys. Moreover, idealized body images in ads may make teenagers feel insecure about their appearance.",
+                "point_collocations": [
+                  {
+                    "en": "commercial advertisements",
+                    "vi": "quảng cáo thương mại"
+                  },
+                  {
+                    "en": "children's habits",
+                    "vi": "thói quen ... của trẻ em"
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "tâm lý"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recognize sales persuasion",
+                      "vi": "phân biệt thông điệp bán hàng"
+                    },
+                    {
+                      "en": "sugary fast food",
+                      "vi": "đồ ăn nhanh nhiều đường"
+                    },
+                    {
+                      "en": "expensive toys",
+                      "vi": "đồ chơi đắt tiền"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "idealized body images",
+                      "vi": "hình ảnh người mẫu quá hoàn hảo"
+                    },
+                    {
+                      "en": "feel insecure",
+                      "vi": "tự ti về ngoại hình"
+                    },
+                    {
+                      "en": "about their appearance",
+                      "vi": "về ngoại hình"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: LÀM TĂNG GIÁ BÁN SẢN PHẨM VÀ BẤT LỢI CHO DOANH NGHIỆP NHỎ (HIGHER PRODUCT PRICES AND UNFAIR ADVANTAGE)",
+                "collocations": [
+                  {
+                    "en": "huge advertising expenses",
+                    "vi": "chi phí quảng cáo khổng lồ"
+                  },
+                  {
+                    "en": "push up retail prices",
+                    "vi": "được cộng vào giá bán hàng hóa"
+                  },
+                  {
+                    "en": "put small businesses at a disadvantage",
+                    "vi": "gây bất lợi cho các doanh nghiệp nhỏ"
+                  },
+                  {
+                    "en": "large corporations",
+                    "vi": "các tập đoàn lớn"
+                  },
+                  {
+                    "en": "spend massive budgets on marketing",
+                    "vi": "chi khoản ngân sách khổng lồ cho"
+                  },
+                  {
+                    "en": "charge customers higher prices",
+                    "vi": "nâng giá bán sản phẩm tới tay người tiêu dùng"
+                  },
+                  {
+                    "en": "small shops",
+                    "vi": "những cửa hàng nhỏ"
+                  },
+                  {
+                    "en": "struggle to compete",
+                    "vi": "cạnh tranh"
+                  },
+                  {
+                    "en": "lack promotional funds",
+                    "vi": "thiếu kinh phí quảng bá"
+                  }
+                ],
+                "point_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ.",
+                "point_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
+                "evidence_vi": "Các tập đoàn lớn chi khoản ngân sách khổng lồ cho truyền thông rồi thu hồi bằng cách nâng giá bán sản phẩm tới tay người tiêu dùng. Trong khi đó, những cửa hàng nhỏ dù có hàng hóa chất lượng tốt vẫn khó cạnh tranh vì thiếu kinh phí quảng bá.",
+                "evidence_en": "Large corporations spend massive budgets on marketing and recover those costs by charging customers higher prices. Meanwhile, small shops with good products struggle to compete because they lack promotional funds.",
+                "point_collocations": [
+                  {
+                    "en": "huge advertising expenses",
+                    "vi": "chi phí quảng cáo khổng lồ"
+                  },
+                  {
+                    "en": "push up retail prices",
+                    "vi": "được cộng vào giá bán hàng hóa"
+                  },
+                  {
+                    "en": "put small businesses at a disadvantage",
+                    "vi": "gây bất lợi cho các doanh nghiệp nhỏ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "large corporations",
+                      "vi": "các tập đoàn lớn"
+                    },
+                    {
+                      "en": "spend massive budgets on marketing",
+                      "vi": "chi khoản ngân sách khổng lồ cho"
+                    },
+                    {
+                      "en": "charge customers higher prices",
+                      "vi": "nâng giá bán sản phẩm tới tay người tiêu dùng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "small shops",
+                      "vi": "những cửa hàng nhỏ"
+                    },
+                    {
+                      "en": "struggle to compete",
+                      "vi": "cạnh tranh"
+                    },
+                    {
+                      "en": "lack promotional funds",
+                      "vi": "thiếu kinh phí quảng bá"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -62188,7 +67924,905 @@ const ESSAY_DATA = [
               "en": "undermine honest academic assessment",
               "vi": "làm suy yếu việc đánh giá học lực trung thực"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>students using mobile phones at school</strong> has become a common topic in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, allowing students to bring phones to school has several advantages.</strong> One major benefit is that <strong><em>mobile phones help students stay in touch with their parents easily</em></strong>. This is because students can call their parents quickly for pickup when school schedules change or when they feel sick. Another positive aspect is that <strong><em>smartphones help students look up learning information quickly</em></strong>. The main reason is that learners can use dictionary apps and search for knowledge during group work. A further good point is that <strong><em>educational apps make classroom lessons more exciting</em></strong>. For example, online quiz games help students review lessons happily.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>mobile phones can easily distract students during lessons</em></strong>. This is because many students secretly play games, chat, or check social media instead of listening to teachers. Another negative aspect is that <strong><em>using phones during breaks reduces face-to-face talk and exercise</em></strong>. In fact, students sit quiet with their screens instead of playing sports with classmates. Finally, <strong><em>students may use phones to cheat in exams</em></strong>. As a result, testing becomes unfair and harms students’ real learning.\n\nIn conclusion, <strong>students using mobile phones at school</strong> has both advantages and disadvantages. These points show that it has different effects on students. Therefore, schools and parents should set clear rules for phone use.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc học sinh sử dụng điện thoại di động ở trường</strong> đã trở thành một chủ đề phổ biến trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, cho phép học sinh mang điện thoại đến trường có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>điện thoại di động giúp học sinh giữ liên lạc với cha mẹ dễ dàng</em></strong>. Điều này là vì các em có thể gọi báo ngay cho bố mẹ đón khi lịch học thay đổi hoặc khi cảm thấy bị ốm. Một khía cạnh tích cực khác là <strong><em>điện thoại thông minh giúp học sinh tra cứu thông tin học tập nhanh chóng</em></strong>. Lý do chính là người học có thể dùng ứng dụng từ điển và tìm kiếm kiến thức khi làm việc nhóm. Một điểm tốt nữa là <strong><em>các ứng dụng giáo dục giúp bài học trên lớp thú vị hơn</em></strong>. Ví dụ, các trò chơi đố vui trực tuyến giúp học sinh ôn bài rất hào hứng.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>điện thoại di động rất dễ làm học sinh mất tập trung trong giờ học</em></strong>. Điều này là do nhiều học sinh lén chơi game, nhắn tin hoặc lướt mạng xã hội thay vì nghe thầy cô giảng bài. Một điểm tiêu cực khác là <strong><em>dùng điện thoại giờ ra chơi làm giảm giao tiếp trực tiếp và vận động</em></strong>. Thực tế, học sinh chỉ ngồi nhìn màn hình thay vì chơi thể thao cùng bạn bè. Cuối cùng, <strong><em>học sinh có thể dùng điện thoại để gian lận trong thi cử</em></strong>. Kết quả là việc kiểm tra trở nên thiếu công bằng và ảnh hưởng xấu đến việc học thật.\n\nTóm lại, <strong>việc học sinh sử dụng điện thoại ở trường</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó có tác động khác nhau đến học sinh. Vì vậy, nhà trường và phụ huynh cần đặt ra quy định rõ ràng.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: GIỮ LIÊN LẠC NHANH CHÓNG VỚI PHỤ HUYNH KHI CẦN THIẾT (QUICK CONTACT WITH PARENTS IN EMERGENCIES)",
+                "collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "stay in touch with their parents",
+                    "vi": "giữ liên lạc với cha mẹ"
+                  },
+                  {
+                    "en": "in emergencies",
+                    "vi": "trong những tình huống"
+                  },
+                  {
+                    "en": "class schedules change suddenly",
+                    "vi": "lịch học thay đổi"
+                  },
+                  {
+                    "en": "feel unwell",
+                    "vi": "cảm thấy không khỏe"
+                  },
+                  {
+                    "en": "call their families immediately",
+                    "vi": "gọi điện báo ngay cho gia đình"
+                  },
+                  {
+                    "en": "convenient communication",
+                    "vi": "sự kết nối thuận tiện"
+                  },
+                  {
+                    "en": "parents",
+                    "vi": "các bậc phụ huynh"
+                  },
+                  {
+                    "en": "greater peace of mind",
+                    "vi": "yên tâm hơn rất nhiều"
+                  }
+                ],
+                "point_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất.",
+                "point_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
+                "evidence_vi": "Khi lịch học thay đổi bất ngờ, trời mưa lớn hoặc học sinh cảm thấy không khỏe, các em có thể gọi điện báo ngay cho gia đình đến đón. Sự kết nối thuận tiện này giúp các bậc phụ huynh yên tâm hơn rất nhiều mỗi ngày.",
+                "evidence_en": "When class schedules change suddenly, heavy rain occurs, or students feel unwell, they can call their families immediately for pickup. Such convenient communication gives parents much greater peace of mind every day.",
+                "point_collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "stay in touch with their parents",
+                    "vi": "giữ liên lạc với cha mẹ"
+                  },
+                  {
+                    "en": "in emergencies",
+                    "vi": "trong những tình huống"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "class schedules change suddenly",
+                      "vi": "lịch học thay đổi"
+                    },
+                    {
+                      "en": "feel unwell",
+                      "vi": "cảm thấy không khỏe"
+                    },
+                    {
+                      "en": "call their families immediately",
+                      "vi": "gọi điện báo ngay cho gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "convenient communication",
+                      "vi": "sự kết nối thuận tiện"
+                    },
+                    {
+                      "en": "parents",
+                      "vi": "các bậc phụ huynh"
+                    },
+                    {
+                      "en": "greater peace of mind",
+                      "vi": "yên tâm hơn rất nhiều"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: HỖ TRỢ TRA CỨU THÔNG TIN VÀ TÀI LIỆU HỌC TẬP TỨC THÌ (INSTANT INFORMATION SEARCH FOR LEARNING)",
+                "collocations": [
+                  {
+                    "en": "serve as useful tools",
+                    "vi": "công cụ hữu ích"
+                  },
+                  {
+                    "en": "look up knowledge quickly",
+                    "vi": "tra cứu kiến thức nhanh chóng"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ngay tại lớp"
+                  },
+                  {
+                    "en": "with teachers' permission",
+                    "vi": "khi được giáo viên"
+                  },
+                  {
+                    "en": "group presentations",
+                    "vi": "bài thuyết trình nhóm"
+                  },
+                  {
+                    "en": "read reference materials",
+                    "vi": "đọc tài liệu tham khảo"
+                  },
+                  {
+                    "en": "make lessons more active",
+                    "vi": "giúp tiết học trở nên chủ động"
+                  },
+                  {
+                    "en": "connected to",
+                    "vi": "cập nhật thực tế hơn"
+                  },
+                  {
+                    "en": "real-world knowledge",
+                    "vi": "thực tế"
+                  }
+                ],
+                "point_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp.",
+                "point_en": "Smartphones serve as useful tools that help students look up knowledge quickly in class.",
+                "evidence_vi": "Khi được giáo viên cho phép, học sinh có thể mở từ điển điện tử, tìm số liệu cho bài thuyết trình nhóm hoặc đọc tài liệu tham khảo chỉ trong vài giây. Điều này giúp tiết học trở nên chủ động và cập nhật thực tế hơn.",
+                "evidence_en": "With teachers' permission, students can open digital dictionaries, find data for group presentations, or read reference materials within seconds. This makes lessons more active and connected to real-world knowledge.",
+                "point_collocations": [
+                  {
+                    "en": "serve as useful tools",
+                    "vi": "công cụ hữu ích"
+                  },
+                  {
+                    "en": "look up knowledge quickly",
+                    "vi": "tra cứu kiến thức nhanh chóng"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "ngay tại lớp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "with teachers' permission",
+                      "vi": "khi được giáo viên"
+                    },
+                    {
+                      "en": "group presentations",
+                      "vi": "bài thuyết trình nhóm"
+                    },
+                    {
+                      "en": "read reference materials",
+                      "vi": "đọc tài liệu tham khảo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "make lessons more active",
+                      "vi": "giúp tiết học trở nên chủ động"
+                    },
+                    {
+                      "en": "connected to",
+                      "vi": "cập nhật thực tế hơn"
+                    },
+                    {
+                      "en": "real-world knowledge",
+                      "vi": "thực tế"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: TĂNG TÍNH TƯƠNG TÁC QUA ỨNG DỤNG GIÁO DỤC (INTERACTIVE EDUCATIONAL APPS AND QUIZZES)",
+                "collocations": [
+                  {
+                    "en": "educational applications",
+                    "vi": "các ứng dụng giáo dục"
+                  },
+                  {
+                    "en": "make classroom lessons",
+                    "vi": "giúp bài giảng trên lớp"
+                  },
+                  {
+                    "en": "more lively and engaging",
+                    "vi": "sinh động và hào hứng hơn"
+                  },
+                  {
+                    "en": "organize live quiz games",
+                    "vi": "tổ chức các trò chơi ... trực tiếp"
+                  },
+                  {
+                    "en": "quick polls",
+                    "vi": "khảo sát nhanh"
+                  },
+                  {
+                    "en": "check the whole class's understanding",
+                    "vi": "kiểm tra mức độ hiểu bài của cả lớp"
+                  },
+                  {
+                    "en": "modern interactive activities",
+                    "vi": "tương tác hiện đại"
+                  },
+                  {
+                    "en": "shy students",
+                    "vi": "những học sinh nhút nhát"
+                  },
+                  {
+                    "en": "participate actively in lessons",
+                    "vi": "tích cực tham gia xây dựng bài"
+                  }
+                ],
+                "point_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn.",
+                "point_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
+                "evidence_vi": "Giáo viên có thể tổ chức các trò chơi trắc nghiệm trực tiếp như Kahoot hoặc khảo sát nhanh để kiểm tra mức độ hiểu bài của cả lớp. Hình thức tương tác hiện đại này khuyến khích cả những học sinh nhút nhát tích cực tham gia xây dựng bài.",
+                "evidence_en": "Teachers can organize live quiz games or quick polls on smartphones to check the whole class's understanding. Such modern interactive activities encourage even shy students to participate actively in lessons.",
+                "point_collocations": [
+                  {
+                    "en": "educational applications",
+                    "vi": "các ứng dụng giáo dục"
+                  },
+                  {
+                    "en": "make classroom lessons",
+                    "vi": "giúp bài giảng trên lớp"
+                  },
+                  {
+                    "en": "more lively and engaging",
+                    "vi": "sinh động và hào hứng hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize live quiz games",
+                      "vi": "tổ chức các trò chơi ... trực tiếp"
+                    },
+                    {
+                      "en": "quick polls",
+                      "vi": "khảo sát nhanh"
+                    },
+                    {
+                      "en": "check the whole class's understanding",
+                      "vi": "kiểm tra mức độ hiểu bài của cả lớp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "modern interactive activities",
+                      "vi": "tương tác hiện đại"
+                    },
+                    {
+                      "en": "shy students",
+                      "vi": "những học sinh nhút nhát"
+                    },
+                    {
+                      "en": "participate actively in lessons",
+                      "vi": "tích cực tham gia xây dựng bài"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: THUẬN TIỆN TRONG VIỆC LƯU TRỮ BÀI TẬP VÀ LÀM VIỆC NHÓM (ORGANIZING SCHOOLWORK AND GROUP COLLABORATION)",
+                "collocations": [
+                  {
+                    "en": "record study schedules",
+                    "vi": "ghi chú lịch học ... tập"
+                  },
+                  {
+                    "en": "store documents",
+                    "vi": "lưu trữ tài liệu"
+                  },
+                  {
+                    "en": "coordinate group assignments",
+                    "vi": "phối hợp bài tập nhóm"
+                  },
+                  {
+                    "en": "photograph detailed board diagrams",
+                    "vi": "chụp lại sơ đồ bài giảng chi tiết"
+                  },
+                  {
+                    "en": "receive digital worksheets",
+                    "vi": "nhận tệp bài tập"
+                  },
+                  {
+                    "en": "divide project tasks quickly",
+                    "vi": "phân công nhiệm vụ nhanh chóng"
+                  },
+                  {
+                    "en": "academic collaboration",
+                    "vi": "hợp tác học tập"
+                  },
+                  {
+                    "en": "among classmates",
+                    "vi": "giữa các thành viên trong lớp"
+                  },
+                  {
+                    "en": "become much smoother",
+                    "vi": "trở nên trôi chảy hơn"
+                  }
+                ],
+                "point_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện.",
+                "point_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
+                "evidence_vi": "Các em có thể chụp lại sơ đồ bài giảng chi tiết, nhận tệp bài tập qua nhóm lớp và trao đổi phân công nhiệm vụ nhanh chóng. Nhờ vậy, việc hợp tác học tập giữa các thành viên trong lớp trở nên trôi chảy hơn.",
+                "evidence_en": "Students can photograph detailed board diagrams, receive digital worksheets in class groups, and divide project tasks quickly. Consequently, academic collaboration among classmates becomes much smoother.",
+                "point_collocations": [
+                  {
+                    "en": "record study schedules",
+                    "vi": "ghi chú lịch học ... tập"
+                  },
+                  {
+                    "en": "store documents",
+                    "vi": "lưu trữ tài liệu"
+                  },
+                  {
+                    "en": "coordinate group assignments",
+                    "vi": "phối hợp bài tập nhóm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "photograph detailed board diagrams",
+                      "vi": "chụp lại sơ đồ bài giảng chi tiết"
+                    },
+                    {
+                      "en": "receive digital worksheets",
+                      "vi": "nhận tệp bài tập"
+                    },
+                    {
+                      "en": "divide project tasks quickly",
+                      "vi": "phân công nhiệm vụ nhanh chóng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "academic collaboration",
+                      "vi": "hợp tác học tập"
+                    },
+                    {
+                      "en": "among classmates",
+                      "vi": "giữa các thành viên trong lớp"
+                    },
+                    {
+                      "en": "become much smoother",
+                      "vi": "trở nên trôi chảy hơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: RÈN LUYỆN KỸ NĂNG SỬ DỤNG CÔNG NGHỆ CÓ TRÁCH NHIỆM (DEVELOPING RESPONSIBLE DIGITAL LITERACY)",
+                "collocations": [
+                  {
+                    "en": "guide students",
+                    "vi": "hướng dẫn học sinh"
+                  },
+                  {
+                    "en": "use phones properly at school",
+                    "vi": "điện thoại đúng quy định ở trường"
+                  },
+                  {
+                    "en": "develop responsible digital habits",
+                    "vi": "hình thành ý thức sử dụng công nghệ văn minh"
+                  },
+                  {
+                    "en": "impose a total ban",
+                    "vi": "cấm đoán hoàn toàn"
+                  },
+                  {
+                    "en": "set clear rules",
+                    "vi": "đặt ra ranh giới rõ ràng"
+                  },
+                  {
+                    "en": "put them away",
+                    "vi": "cất đi"
+                  },
+                  {
+                    "en": "self-control",
+                    "vi": "năng tự kiểm soát"
+                  },
+                  {
+                    "en": "prepare them well for",
+                    "vi": "rất cần thiết cho"
+                  },
+                  {
+                    "en": "future university and workplace environments",
+                    "vi": "môi trường đại học và công sở"
+                  }
+                ],
+                "point_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh.",
+                "point_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
+                "evidence_vi": "Thay vì cấm đoán hoàn toàn, việc đặt ra ranh giới rõ ràng dạy học sinh biết khi nào nên bật thiết bị phục vụ việc học và khi nào cần cất đi để tập trung. Kỹ năng tự kiểm soát này rất cần thiết cho môi trường đại học và công sở sau này.",
+                "evidence_en": "Rather than imposing a total ban, setting clear rules teaches pupils when to use devices for study and when to put them away. Such self-control prepares them well for future university and workplace environments.",
+                "point_collocations": [
+                  {
+                    "en": "guide students",
+                    "vi": "hướng dẫn học sinh"
+                  },
+                  {
+                    "en": "use phones properly at school",
+                    "vi": "điện thoại đúng quy định ở trường"
+                  },
+                  {
+                    "en": "develop responsible digital habits",
+                    "vi": "hình thành ý thức sử dụng công nghệ văn minh"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "impose a total ban",
+                      "vi": "cấm đoán hoàn toàn"
+                    },
+                    {
+                      "en": "set clear rules",
+                      "vi": "đặt ra ranh giới rõ ràng"
+                    },
+                    {
+                      "en": "put them away",
+                      "vi": "cất đi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-control",
+                      "vi": "năng tự kiểm soát"
+                    },
+                    {
+                      "en": "prepare them well for",
+                      "vi": "rất cần thiết cho"
+                    },
+                    {
+                      "en": "future university and workplace environments",
+                      "vi": "môi trường đại học và công sở"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GÂY XAO NHÃNG NGHIÊM TRỌNG TRONG GIỜ HỌC (SERIOUS CLASSROOM DISTRACTION)",
+                "collocations": [
+                  {
+                    "en": "easily distract students",
+                    "vi": "dễ khiến học sinh"
+                  },
+                  {
+                    "en": "pay attention to teachers' lectures",
+                    "vi": "bài giảng của thầy cô"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "trên lớp"
+                  },
+                  {
+                    "en": "scroll through social media",
+                    "vi": "lướt mạng xã hội"
+                  },
+                  {
+                    "en": "play mobile games under their desks",
+                    "vi": "chơi trò chơi ... dưới gầm bàn"
+                  },
+                  {
+                    "en": "take notes",
+                    "vi": "ghi chép"
+                  },
+                  {
+                    "en": "constant distraction",
+                    "vi": "sự phân tâm thường xuyên"
+                  },
+                  {
+                    "en": "harm their study habits",
+                    "vi": "làm ... thói quen học tập"
+                  },
+                  {
+                    "en": "lower their academic performance",
+                    "vi": "làm hỏng thói quen học tập"
+                  }
+                ],
+                "point_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp.",
+                "point_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
+                "evidence_vi": "Nhiều học sinh lén nhắn tin, lướt mạng xã hội hoặc chơi trò chơi điện tử dưới gầm bàn thay vì ghi chép và nghe giảng. Sự phân tâm thường xuyên này làm hỏng thói quen học tập và kéo tụt kết quả thi cử ở trường.",
+                "evidence_en": "Many pupils secretly send messages, scroll through social media, or play mobile games under their desks instead of taking notes. Constant distraction harms their study habits and lowers their academic performance.",
+                "point_collocations": [
+                  {
+                    "en": "easily distract students",
+                    "vi": "dễ khiến học sinh"
+                  },
+                  {
+                    "en": "pay attention to teachers' lectures",
+                    "vi": "bài giảng của thầy cô"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "trên lớp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "scroll through social media",
+                      "vi": "lướt mạng xã hội"
+                    },
+                    {
+                      "en": "play mobile games under their desks",
+                      "vi": "chơi trò chơi ... dưới gầm bàn"
+                    },
+                    {
+                      "en": "take notes",
+                      "vi": "ghi chép"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "constant distraction",
+                      "vi": "sự phân tâm thường xuyên"
+                    },
+                    {
+                      "en": "harm their study habits",
+                      "vi": "làm ... thói quen học tập"
+                    },
+                    {
+                      "en": "lower their academic performance",
+                      "vi": "làm hỏng thói quen học tập"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: LÀM GIẢM GIAO TIẾP BẠN BÈ VÀ VẬN ĐỘNG GIỜ RA CHƠI (REDUCED PEER INTERACTION DURING BREAKS)",
+                "collocations": [
+                  {
+                    "en": "overuse mobile phones at school",
+                    "vi": "lạm dụng điện thoại ở trường"
+                  },
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "sự giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "physical activity during break time",
+                    "vi": "động thể chất vào giờ giải lao"
+                  },
+                  {
+                    "en": "chat happily with classmates",
+                    "vi": "trò chuyện vui vẻ với bạn"
+                  },
+                  {
+                    "en": "play sports in the schoolyard",
+                    "vi": "chơi thể thao ngoài sân trường"
+                  },
+                  {
+                    "en": "sit silently staring at their screens",
+                    "vi": "ngồi ... nhìn chằm chằm vào màn hình"
+                  },
+                  {
+                    "en": "weaken school friendships",
+                    "vi": "khiến tình bạn học đường trở nên kém gắn kết"
+                  },
+                  {
+                    "en": "encourage",
+                    "vi": "làm tăng"
+                  },
+                  {
+                    "en": "an unhealthy sedentary lifestyle",
+                    "vi": "lối sống thụ động"
+                  }
+                ],
+                "point_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao.",
+                "point_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
+                "evidence_vi": "Thay vì trò chuyện vui vẻ với bạn bè hoặc chơi thể thao ngoài sân trường, nhiều học sinh chỉ ngồi yên một chỗ nhìn chằm chằm vào màn hình. Điều này khiến tình bạn học đường trở nên kém gắn kết và làm tăng lối sống thụ động.",
+                "evidence_en": "Instead of chatting happily with classmates or playing sports in the schoolyard, many students sit silently staring at their screens. This weakens school friendships and encourages an unhealthy sedentary lifestyle.",
+                "point_collocations": [
+                  {
+                    "en": "overuse mobile phones at school",
+                    "vi": "lạm dụng điện thoại ở trường"
+                  },
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "sự giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "physical activity during break time",
+                    "vi": "động thể chất vào giờ giải lao"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chat happily with classmates",
+                      "vi": "trò chuyện vui vẻ với bạn"
+                    },
+                    {
+                      "en": "play sports in the schoolyard",
+                      "vi": "chơi thể thao ngoài sân trường"
+                    },
+                    {
+                      "en": "sit silently staring at their screens",
+                      "vi": "ngồi ... nhìn chằm chằm vào màn hình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "weaken school friendships",
+                      "vi": "khiến tình bạn học đường trở nên kém gắn kết"
+                    },
+                    {
+                      "en": "encourage",
+                      "vi": "làm tăng"
+                    },
+                    {
+                      "en": "an unhealthy sedentary lifestyle",
+                      "vi": "lối sống thụ động"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ GIAN LẬN TRONG KIỂM TRA VÀ THI CỬ (RISKS OF CHEATING IN EXAMS)",
+                "collocations": [
+                  {
+                    "en": "allow mobile phones in classrooms",
+                    "vi": "cho phép mang điện thoại vào lớp"
+                  },
+                  {
+                    "en": "increase the risk of cheating",
+                    "vi": "làm ... tăng nguy cơ gian lận"
+                  },
+                  {
+                    "en": "during tests and examinations",
+                    "vi": "trong các bài kiểm tra"
+                  },
+                  {
+                    "en": "photograph test papers",
+                    "vi": "chụp đề thi"
+                  },
+                  {
+                    "en": "text classmates for answers",
+                    "vi": "nhắn tin hỏi đáp án từ bạn"
+                  },
+                  {
+                    "en": "search for solutions online",
+                    "vi": "tra cứu lời giải ... trên mạng"
+                  },
+                  {
+                    "en": "such behavior",
+                    "vi": "hành vi"
+                  },
+                  {
+                    "en": "create unfairness for hard-working peers",
+                    "vi": "gây bất công với những bạn học tập"
+                  },
+                  {
+                    "en": "undermine honest academic assessment",
+                    "vi": "làm sai lệch đánh giá học lực"
+                  }
+                ],
+                "point_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra.",
+                "point_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
+                "evidence_vi": "Học sinh thiếu trung thực có thể dùng điện thoại chụp đề thi, nhắn tin hỏi đáp án từ bạn khác hoặc tra cứu lời giải có sẵn trên mạng. Hành vi này gây bất công với những bạn học tập nghiêm túc và làm sai lệch đánh giá học lực.",
+                "evidence_en": "Dishonest students may use smartphones to photograph test papers, text classmates for answers, or search for solutions online. Such behavior creates unfairness for hard-working peers and undermines honest academic assessment.",
+                "point_collocations": [
+                  {
+                    "en": "allow mobile phones in classrooms",
+                    "vi": "cho phép mang điện thoại vào lớp"
+                  },
+                  {
+                    "en": "increase the risk of cheating",
+                    "vi": "làm ... tăng nguy cơ gian lận"
+                  },
+                  {
+                    "en": "during tests and examinations",
+                    "vi": "trong các bài kiểm tra"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "photograph test papers",
+                      "vi": "chụp đề thi"
+                    },
+                    {
+                      "en": "text classmates for answers",
+                      "vi": "nhắn tin hỏi đáp án từ bạn"
+                    },
+                    {
+                      "en": "search for solutions online",
+                      "vi": "tra cứu lời giải ... trên mạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "such behavior",
+                      "vi": "hành vi"
+                    },
+                    {
+                      "en": "create unfairness for hard-working peers",
+                      "vi": "gây bất công với những bạn học tập"
+                    },
+                    {
+                      "en": "undermine honest academic assessment",
+                      "vi": "làm sai lệch đánh giá học lực"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: VẤN NẠN QUAY LÉN VÀ BẮT NẠT HỌC ĐƯỜNG TRÊN MẠNG (SECRET RECORDING AND CYBERBULLYING)",
+                "collocations": [
+                  {
+                    "en": "uncontrolled phone use at school",
+                    "vi": "việc sử dụng điện thoại thiếu kiểm soát ở trường"
+                  },
+                  {
+                    "en": "secret recording",
+                    "vi": "hành vi quay lén"
+                  },
+                  {
+                    "en": "cyberbullying among students",
+                    "vi": "bắt nạt trên mạng"
+                  },
+                  {
+                    "en": "embarrassing photos or videos",
+                    "vi": "chụp ảnh, quay video khoảnh khắc xấu hổ"
+                  },
+                  {
+                    "en": "without consent",
+                    "vi": "tự ý"
+                  },
+                  {
+                    "en": "mocking comments",
+                    "vi": "bình luận chế giễu"
+                  },
+                  {
+                    "en": "these incidents",
+                    "vi": "những sự việc này"
+                  },
+                  {
+                    "en": "cause deep emotional hurt to victims",
+                    "vi": "gây tổn thương tâm lý nặng nề cho nạn nhân"
+                  },
+                  {
+                    "en": "damage the school environment",
+                    "vi": "ảnh hưởng xấu đến môi trường giáo dục"
+                  }
+                ],
+                "point_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng.",
+                "point_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
+                "evidence_vi": "Một số học sinh tự ý chụp ảnh, quay video khoảnh khắc xấu hổ của bạn học hay thầy cô rồi đăng lên mạng xã hội kèm bình luận chế giễu. Những sự việc này gây tổn thương tâm lý nặng nề cho nạn nhân và ảnh hưởng xấu đến môi trường giáo dục.",
+                "evidence_en": "Some students take embarrassing photos or videos of classmates and teachers without consent and post them online with mocking comments. These incidents cause deep emotional hurt to victims and damage the school environment.",
+                "point_collocations": [
+                  {
+                    "en": "uncontrolled phone use at school",
+                    "vi": "việc sử dụng điện thoại thiếu kiểm soát ở trường"
+                  },
+                  {
+                    "en": "secret recording",
+                    "vi": "hành vi quay lén"
+                  },
+                  {
+                    "en": "cyberbullying among students",
+                    "vi": "bắt nạt trên mạng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "embarrassing photos or videos",
+                      "vi": "chụp ảnh, quay video khoảnh khắc xấu hổ"
+                    },
+                    {
+                      "en": "without consent",
+                      "vi": "tự ý"
+                    },
+                    {
+                      "en": "mocking comments",
+                      "vi": "bình luận chế giễu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "these incidents",
+                      "vi": "những sự việc này"
+                    },
+                    {
+                      "en": "cause deep emotional hurt to victims",
+                      "vi": "gây tổn thương tâm lý nặng nề cho nạn nhân"
+                    },
+                    {
+                      "en": "damage the school environment",
+                      "vi": "ảnh hưởng xấu đến môi trường giáo dục"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: NGUY CƠ MẤT CẮP TÀI SẢN VÀ SO BÌ VẬT CHẤT (THEFT RISKS AND MATERIALISTIC COMPARISON)",
+                "collocations": [
+                  {
+                    "en": "bring expensive smartphones to school",
+                    "vi": "mang điện thoại đắt tiền đến trường"
+                  },
+                  {
+                    "en": "cause theft problems",
+                    "vi": "dễ dẫn đến tình trạng mất cắp"
+                  },
+                  {
+                    "en": "unhealthy comparison among peers",
+                    "vi": "tâm lý so bì vật chất trong lớp học"
+                  },
+                  {
+                    "en": "crowded school settings",
+                    "vi": "trường học đông người"
+                  },
+                  {
+                    "en": "get lost, stolen, or broken",
+                    "vi": "bị thất lạc hoặc hư hỏng"
+                  },
+                  {
+                    "en": "physical education classes",
+                    "vi": "các tiết thể dục"
+                  },
+                  {
+                    "en": "differences in phone models",
+                    "vi": "sự chênh lệch về ... điện thoại"
+                  },
+                  {
+                    "en": "students from modest families",
+                    "vi": "học sinh có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "feel inferior",
+                    "vi": "cảm thấy tự ti"
+                  }
+                ],
+                "point_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học.",
+                "point_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
+                "evidence_vi": "Trường học đông người khiến điện thoại rất dễ bị thất lạc hoặc hư hỏng trong các tiết thể dục và hoạt động ngoại khóa. Bên cạnh đó, sự chênh lệch về mẫu mã điện thoại đôi khi khiến học sinh có hoàn cảnh khó khăn cảm thấy tự ti.",
+                "evidence_en": "In crowded school settings, expensive phones can easily get lost, stolen, or broken during physical education classes. Furthermore, differences in phone models sometimes make students from modest families feel inferior.",
+                "point_collocations": [
+                  {
+                    "en": "bring expensive smartphones to school",
+                    "vi": "mang điện thoại đắt tiền đến trường"
+                  },
+                  {
+                    "en": "cause theft problems",
+                    "vi": "dễ dẫn đến tình trạng mất cắp"
+                  },
+                  {
+                    "en": "unhealthy comparison among peers",
+                    "vi": "tâm lý so bì vật chất trong lớp học"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "crowded school settings",
+                      "vi": "trường học đông người"
+                    },
+                    {
+                      "en": "get lost, stolen, or broken",
+                      "vi": "bị thất lạc hoặc hư hỏng"
+                    },
+                    {
+                      "en": "physical education classes",
+                      "vi": "các tiết thể dục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "differences in phone models",
+                      "vi": "sự chênh lệch về ... điện thoại"
+                    },
+                    {
+                      "en": "students from modest families",
+                      "vi": "học sinh có hoàn cảnh khó khăn"
+                    },
+                    {
+                      "en": "feel inferior",
+                      "vi": "cảm thấy tự ti"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -64438,7 +71072,905 @@ const ESSAY_DATA = [
               "en": "blur the boundary between working hours and rest",
               "vi": "làm mờ ranh giới giữa giờ làm việc và nghỉ ngơi"
             }
-          ]
+          ],
+          "sample_b1": "In recent years, <strong>using mobile phones in the workplace</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, using smartphones at work has several advantages.</strong> One major benefit is that <strong><em>mobile phones help employees communicate quickly with coworkers and clients</em></strong>. This is because workers can make phone calls or send messages to solve urgent work problems within minutes. Another positive aspect is that <strong><em>smartphones help people handle work flexibly when outside the office</em></strong>. The main reason is that employees can check emails and send files on their phones during business trips. A further good point is that <strong><em>workers can receive urgent calls from their families</em></strong>. For example, parents feel calm knowing their children’s school can reach them immediately.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>personal phone use distracts workers and reduces work productivity</em></strong>. This is because employees often waste working hours checking social media, shopping online, or chatting with friends. Another negative aspect is that <strong><em>using phones during meetings looks very unprofessional</em></strong>. In fact, looking at phone screens while others are speaking shows a lack of respect. Finally, <strong><em>phones can cause risks of leaking company information</em></strong>. As a result, taking photos of internal documents can harm the business.\n\nIn conclusion, <strong>using mobile phones in the workplace</strong> has both advantages and disadvantages. These points show that it has different effects on work performance. Therefore, companies should have reasonable rules for phone use during work hours.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng điện thoại di động ở nơi làm việc</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, sử dụng điện thoại thông minh tại nơi làm việc có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng</em></strong>. Điều này là vì người lao động có thể gọi điện hoặc nhắn tin để giải quyết các vấn đề công việc khẩn cấp chỉ trong vài phút. Một khía cạnh tích cực khác là <strong><em>điện thoại thông minh giúp mọi người xử lý công việc linh hoạt khi ở ngoài văn phòng</em></strong>. Lý do chính là nhân viên có thể kiểm tra thư điện tử và gửi tài liệu trên điện thoại khi đi công tác. Một điểm tốt nữa là <strong><em>người lao động có thể nhận các cuộc gọi khẩn từ gia đình</em></strong>. Ví dụ, phụ huynh yên tâm hơn khi biết trường học của con có thể liên hệ ngay lúc cần.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>dùng điện thoại cho việc riêng làm nhân viên xao nhãng và giảm năng suất</em></strong>. Điều này là do nhân viên thường lãng phí giờ làm việc để lướt mạng xã hội, mua sắm trực tuyến hoặc tán gẫu với bạn bè. Một điểm tiêu cực khác là <strong><em>sử dụng điện thoại trong cuộc họp trông rất thiếu chuyên nghiệp</em></strong>. Thực tế, việc nhìn màn hình điện thoại khi người khác đang phát biểu thể hiện sự thiếu tôn trọng. Cuối cùng, <strong><em>điện thoại tiềm ẩn nguy cơ làm lộ thông tin công ty</em></strong>. Kết quả là việc chụp ảnh tài liệu nội bộ có thể gây hại cho doanh nghiệp.\n\nTóm lại, <strong>việc sử dụng điện thoại ở nơi làm việc</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó có tác động khác nhau đến hiệu quả công việc. Vì vậy, các công ty nên có quy định hợp lý về việc dùng điện thoại trong giờ làm.",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: GIAO TIẾP NHANH CHÓNG VỚI ĐỒNG NGHIỆP VÀ KHÁCH HÀNG (FAST COMMUNICATION WITH COLLEAGUES AND CLIENTS)",
+                "collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "communicate quickly with colleagues and clients",
+                    "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng"
+                  },
+                  {
+                    "en": "throughout the workday",
+                    "vi": "trong suốt ngày làm việc"
+                  },
+                  {
+                    "en": "work messaging apps",
+                    "vi": "ứng dụng nhắn tin công việc"
+                  },
+                  {
+                    "en": "exchange urgent updates",
+                    "vi": "trao đổi thông tin khẩn"
+                  },
+                  {
+                    "en": "resolve unexpected issues within minutes",
+                    "vi": "giải quyết vướng mắc phát sinh chỉ trong vài phút"
+                  },
+                  {
+                    "en": "timely responses",
+                    "vi": "sự phản hồi kịp thời"
+                  },
+                  {
+                    "en": "improve team coordination",
+                    "vi": "nâng cao hiệu suất phối hợp"
+                  },
+                  {
+                    "en": "increase client satisfaction",
+                    "vi": "làm hài lòng đối tác"
+                  }
+                ],
+                "point_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc.",
+                "point_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
+                "evidence_vi": "Thông qua cuộc gọi hoặc ứng dụng nhắn tin công việc, các bộ phận có thể trao đổi thông tin khẩn và giải quyết vướng mắc phát sinh chỉ trong vài phút. Sự phản hồi kịp thời này giúp nâng cao hiệu suất phối hợp và làm hài lòng đối tác.",
+                "evidence_en": "Through phone calls or work messaging apps, departments can exchange urgent updates and resolve unexpected issues within minutes. Such timely responses improve team coordination and increase client satisfaction.",
+                "point_collocations": [
+                  {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "communicate quickly with colleagues and clients",
+                    "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng"
+                  },
+                  {
+                    "en": "throughout the workday",
+                    "vi": "trong suốt ngày làm việc"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work messaging apps",
+                      "vi": "ứng dụng nhắn tin công việc"
+                    },
+                    {
+                      "en": "exchange urgent updates",
+                      "vi": "trao đổi thông tin khẩn"
+                    },
+                    {
+                      "en": "resolve unexpected issues within minutes",
+                      "vi": "giải quyết vướng mắc phát sinh chỉ trong vài phút"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "timely responses",
+                      "vi": "sự phản hồi kịp thời"
+                    },
+                    {
+                      "en": "improve team coordination",
+                      "vi": "nâng cao hiệu suất phối hợp"
+                    },
+                    {
+                      "en": "increase client satisfaction",
+                      "vi": "làm hài lòng đối tác"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: HỖ TRỢ LÀM VIỆC LINH HOẠT KHI DI CHUYỂN NGOÀI VĂN PHÒNG (FLEXIBLE MOBILE WORK ON THE GO)",
+                "collocations": [
+                  {
+                    "en": "smartphones",
+                    "vi": "điện thoại thông minh"
+                  },
+                  {
+                    "en": "handle tasks flexibly",
+                    "vi": "xử lý công việc linh hoạt"
+                  },
+                  {
+                    "en": "meet partners outside the office",
+                    "vi": "gặp đối tác bên ngoài"
+                  },
+                  {
+                    "en": "attend online meetings",
+                    "vi": "tham gia cuộc họp trực tuyến"
+                  },
+                  {
+                    "en": "review cloud documents",
+                    "vi": "xem tài liệu trên nền tảng đám mây"
+                  },
+                  {
+                    "en": "without sitting at an office desk",
+                    "vi": "mà không cần ngồi cố định trước máy tính bàn"
+                  },
+                  {
+                    "en": "sales representatives",
+                    "vi": "đội ngũ kinh doanh"
+                  },
+                  {
+                    "en": "field engineers",
+                    "vi": "kỹ thuật hiện trường"
+                  },
+                  {
+                    "en": "project managers",
+                    "vi": "quản lý dự án"
+                  }
+                ],
+                "point_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài.",
+                "point_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
+                "evidence_vi": "Nhân viên có thể kiểm tra thư điện tử, tham gia cuộc họp trực tuyến hoặc xem tài liệu trên nền tảng đám mây mà không cần ngồi cố định trước máy tính bàn. Điều này đặc biệt hữu ích cho đội ngũ kinh doanh, kỹ thuật hiện trường và quản lý dự án.",
+                "evidence_en": "Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk. This mobility is especially helpful for sales representatives, field engineers, and project managers.",
+                "point_collocations": [
+                  {
+                    "en": "smartphones",
+                    "vi": "điện thoại thông minh"
+                  },
+                  {
+                    "en": "handle tasks flexibly",
+                    "vi": "xử lý công việc linh hoạt"
+                  },
+                  {
+                    "en": "meet partners outside the office",
+                    "vi": "gặp đối tác bên ngoài"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "attend online meetings",
+                      "vi": "tham gia cuộc họp trực tuyến"
+                    },
+                    {
+                      "en": "review cloud documents",
+                      "vi": "xem tài liệu trên nền tảng đám mây"
+                    },
+                    {
+                      "en": "without sitting at an office desk",
+                      "vi": "mà không cần ngồi cố định trước máy tính bàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sales representatives",
+                      "vi": "đội ngũ kinh doanh"
+                    },
+                    {
+                      "en": "field engineers",
+                      "vi": "kỹ thuật hiện trường"
+                    },
+                    {
+                      "en": "project managers",
+                      "vi": "quản lý dự án"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: TÍCH HỢP NHIỀU CÔNG CỤ QUẢN LÝ CÔNG VIỆC TIỆN LỢI (HANDY PRODUCTIVITY AND SCHEDULING TOOLS)",
+                "collocations": [
+                  {
+                    "en": "useful mobile applications",
+                    "vi": "ứng dụng tiện ích"
+                  },
+                  {
+                    "en": "organize schedules",
+                    "vi": "sắp xếp lịch trình"
+                  },
+                  {
+                    "en": "look up work information efficiently",
+                    "vi": "tra cứu dữ liệu công việc rất hiệu quả"
+                  },
+                  {
+                    "en": "set calendar reminders",
+                    "vi": "cài lịch hẹn"
+                  },
+                  {
+                    "en": "scan documents with their cameras",
+                    "vi": "quét tài liệu nhanh bằng"
+                  },
+                  {
+                    "en": "check market data instantly",
+                    "vi": "tra cứu số liệu thị trường ngay tức thì"
+                  },
+                  {
+                    "en": "handy features",
+                    "vi": "những tiện ích nhỏ gọn này"
+                  },
+                  {
+                    "en": "save considerable time",
+                    "vi": "tiết kiệm đáng kể thời gian"
+                  },
+                  {
+                    "en": "manual office procedures",
+                    "vi": "thao tác thủ công"
+                  }
+                ],
+                "point_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả.",
+                "point_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
+                "evidence_vi": "Người đi làm có thể cài lịch hẹn nhắc việc, quét tài liệu nhanh bằng camera, xác thực bảo mật hai lớp hoặc tra cứu số liệu thị trường ngay tức thì. Những tiện ích nhỏ gọn này giúp tiết kiệm đáng kể thời gian thao tác thủ công.",
+                "evidence_en": "Workers can set calendar reminders, scan documents with their cameras, complete two-factor authentication, or check market data instantly. Such handy features save considerable time compared to manual office procedures.",
+                "point_collocations": [
+                  {
+                    "en": "useful mobile applications",
+                    "vi": "ứng dụng tiện ích"
+                  },
+                  {
+                    "en": "organize schedules",
+                    "vi": "sắp xếp lịch trình"
+                  },
+                  {
+                    "en": "look up work information efficiently",
+                    "vi": "tra cứu dữ liệu công việc rất hiệu quả"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "set calendar reminders",
+                      "vi": "cài lịch hẹn"
+                    },
+                    {
+                      "en": "scan documents with their cameras",
+                      "vi": "quét tài liệu nhanh bằng"
+                    },
+                    {
+                      "en": "check market data instantly",
+                      "vi": "tra cứu số liệu thị trường ngay tức thì"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "handy features",
+                      "vi": "những tiện ích nhỏ gọn này"
+                    },
+                    {
+                      "en": "save considerable time",
+                      "vi": "tiết kiệm đáng kể thời gian"
+                    },
+                    {
+                      "en": "manual office procedures",
+                      "vi": "thao tác thủ công"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: ĐẢM BẢO LIÊN LẠC GIA ĐÌNH TRONG TÌNH HUỐNG KHẨN CẤP (HANDLING URGENT FAMILY MATTERS)",
+                "collocations": [
+                  {
+                    "en": "keep mobile phones nearby",
+                    "vi": "giữ điện thoại bên mình"
+                  },
+                  {
+                    "en": "give employees peace of mind",
+                    "vi": "giúp người lao động yên tâm hơn"
+                  },
+                  {
+                    "en": "urgent family situations",
+                    "vi": "thông báo khẩn từ gia đình"
+                  },
+                  {
+                    "en": "school-age children",
+                    "vi": "con nhỏ đi học"
+                  },
+                  {
+                    "en": "elderly parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "respond promptly",
+                    "vi": "kịp thời"
+                  },
+                  {
+                    "en": "feel reassured about their loved ones",
+                    "vi": "tâm lý an tâm về gia đình"
+                  },
+                  {
+                    "en": "focus better on their duties",
+                    "vi": "tập trung cống hiến tốt hơn cho công việc"
+                  },
+                  {
+                    "en": "at work",
+                    "vi": "tại cơ quan"
+                  }
+                ],
+                "point_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình.",
+                "point_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
+                "evidence_vi": "Những nhân viên có con nhỏ đi học hoặc cha mẹ lớn tuổi ở nhà có thể kịp thời nắm bắt tình hình nếu chẳng may xảy ra ốm đau hay sự cố. Khi tâm lý an tâm về gia đình, họ sẽ tập trung cống hiến tốt hơn cho công việc tại cơ quan.",
+                "evidence_en": "Staff members with school-age children or elderly parents at home can respond promptly if sudden illness or emergencies arise. Feeling reassured about their loved ones helps them focus better on their duties at work.",
+                "point_collocations": [
+                  {
+                    "en": "keep mobile phones nearby",
+                    "vi": "giữ điện thoại bên mình"
+                  },
+                  {
+                    "en": "give employees peace of mind",
+                    "vi": "giúp người lao động yên tâm hơn"
+                  },
+                  {
+                    "en": "urgent family situations",
+                    "vi": "thông báo khẩn từ gia đình"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "school-age children",
+                      "vi": "con nhỏ đi học"
+                    },
+                    {
+                      "en": "elderly parents",
+                      "vi": "cha mẹ lớn tuổi"
+                    },
+                    {
+                      "en": "respond promptly",
+                      "vi": "kịp thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel reassured about their loved ones",
+                      "vi": "tâm lý an tâm về gia đình"
+                    },
+                    {
+                      "en": "focus better on their duties",
+                      "vi": "tập trung cống hiến tốt hơn cho công việc"
+                    },
+                    {
+                      "en": "at work",
+                      "vi": "tại cơ quan"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: GIÚP GIẢI TỎA CĂNG THẲNG NGẮN TRONG GIỜ NGHỈ GIẢI LAO (BRIEF RELAXATION DURING WORK BREAKS)",
+                "collocations": [
+                  {
+                    "en": "during lunch breaks",
+                    "vi": "trong giờ nghỉ trưa"
+                  },
+                  {
+                    "en": "relax briefly",
+                    "vi": "thư giãn ngắn"
+                  },
+                  {
+                    "en": "recharge their mental energy",
+                    "vi": "nạp lại năng lượng tinh thần"
+                  },
+                  {
+                    "en": "demanding tasks",
+                    "vi": "nhiều giờ làm việc căng thẳng"
+                  },
+                  {
+                    "en": "during official breaks",
+                    "vi": "trong giờ nghỉ"
+                  },
+                  {
+                    "en": "ease mental fatigue",
+                    "vi": "giúp đầu óc bớt mệt mỏi"
+                  },
+                  {
+                    "en": "short rest",
+                    "vi": "khoảng nghỉ ngắn"
+                  },
+                  {
+                    "en": "regain alertness",
+                    "vi": "lấy lại sự tỉnh táo"
+                  },
+                  {
+                    "en": "afternoon shift",
+                    "vi": "ca làm việc buổi chiều"
+                  }
+                ],
+                "point_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần.",
+                "point_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
+                "evidence_vi": "Sau nhiều giờ làm việc căng thẳng, việc nghe một bản nhạc nhẹ hoặc đọc tin tức vài phút trong giờ nghỉ giúp đầu óc bớt mệt mỏi. Nhờ khoảng nghỉ ngắn này, nhân viên lấy lại sự tỉnh táo cho ca làm việc buổi chiều.",
+                "evidence_en": "After hours of demanding tasks, listening to soft music or reading light news during official breaks eases mental fatigue. Thanks to this short rest, employees regain alertness for their afternoon shift.",
+                "point_collocations": [
+                  {
+                    "en": "during lunch breaks",
+                    "vi": "trong giờ nghỉ trưa"
+                  },
+                  {
+                    "en": "relax briefly",
+                    "vi": "thư giãn ngắn"
+                  },
+                  {
+                    "en": "recharge their mental energy",
+                    "vi": "nạp lại năng lượng tinh thần"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "demanding tasks",
+                      "vi": "nhiều giờ làm việc căng thẳng"
+                    },
+                    {
+                      "en": "during official breaks",
+                      "vi": "trong giờ nghỉ"
+                    },
+                    {
+                      "en": "ease mental fatigue",
+                      "vi": "giúp đầu óc bớt mệt mỏi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "short rest",
+                      "vi": "khoảng nghỉ ngắn"
+                    },
+                    {
+                      "en": "regain alertness",
+                      "vi": "lấy lại sự tỉnh táo"
+                    },
+                    {
+                      "en": "afternoon shift",
+                      "vi": "ca làm việc buổi chiều"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GÂY XAO NHÃNG VÀ LÀM GIẢM NĂNG SUẤT LAO ĐỘNG (WORKPLACE DISTRACTION AND LOWER PRODUCTIVITY)",
+                "collocations": [
+                  {
+                    "en": "easily distract employees",
+                    "vi": "dễ khiến nhân viên xao nhãng"
+                  },
+                  {
+                    "en": "personal entertainment",
+                    "vi": "vì mục đích cá nhân"
+                  },
+                  {
+                    "en": "reduce overall workplace productivity",
+                    "vi": "làm sụt giảm năng suất"
+                  },
+                  {
+                    "en": "shop online",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "send private texts",
+                    "vi": "nhắn tin riêng tư"
+                  },
+                  {
+                    "en": "during office hours",
+                    "vi": "trong giờ hành chính"
+                  },
+                  {
+                    "en": "break deep concentration",
+                    "vi": "làm đứt mạch tập trung sâu"
+                  },
+                  {
+                    "en": "delayed deadlines",
+                    "vi": "khiến công việc hoàn thành chậm trễ"
+                  },
+                  {
+                    "en": "avoidable mistakes",
+                    "vi": "dễ phát sinh sai sót"
+                  }
+                ],
+                "point_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động.",
+                "point_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
+                "evidence_vi": "Nhiều nhân viên thường xuyên kiểm tra mạng xã hội, mua sắm trực tuyến hoặc nhắn tin riêng tư ngay trong giờ hành chính. Những lần ngắt quãng liên tục này làm đứt mạch tập trung sâu, khiến công việc hoàn thành chậm trễ và dễ phát sinh sai sót.",
+                "evidence_en": "Many workers frequently check social media, shop online, or send private texts during office hours. Constant interruptions break deep concentration, leading to delayed deadlines and avoidable mistakes.",
+                "point_collocations": [
+                  {
+                    "en": "easily distract employees",
+                    "vi": "dễ khiến nhân viên xao nhãng"
+                  },
+                  {
+                    "en": "personal entertainment",
+                    "vi": "vì mục đích cá nhân"
+                  },
+                  {
+                    "en": "reduce overall workplace productivity",
+                    "vi": "làm sụt giảm năng suất"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shop online",
+                      "vi": "mua sắm trực tuyến"
+                    },
+                    {
+                      "en": "send private texts",
+                      "vi": "nhắn tin riêng tư"
+                    },
+                    {
+                      "en": "during office hours",
+                      "vi": "trong giờ hành chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "break deep concentration",
+                      "vi": "làm đứt mạch tập trung sâu"
+                    },
+                    {
+                      "en": "delayed deadlines",
+                      "vi": "khiến công việc hoàn thành chậm trễ"
+                    },
+                    {
+                      "en": "avoidable mistakes",
+                      "vi": "dễ phát sinh sai sót"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: TẠO HÌNH ẢNH THIẾU CHUYÊN NGHIỆP TRONG CUỘC HỌP VÀ GIAO TIẾP (UNPROFESSIONAL BEHAVIOR IN MEETINGS)",
+                "collocations": [
+                  {
+                    "en": "use mobile phones inappropriately",
+                    "vi": "sử dụng điện thoại không đúng lúc"
+                  },
+                  {
+                    "en": "client discussions",
+                    "vi": "khi tiếp khách"
+                  },
+                  {
+                    "en": "create an unprofessional impression",
+                    "vi": "tạo ... thiếu chuyên nghiệp"
+                  },
+                  {
+                    "en": "sudden ringtones",
+                    "vi": "tiếng chuông reo bất ngờ"
+                  },
+                  {
+                    "en": "look down at screens",
+                    "vi": "cúi đầu nhìn màn hình"
+                  },
+                  {
+                    "en": "show disrespect toward colleagues and partners",
+                    "vi": "thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác"
+                  },
+                  {
+                    "en": "such habits",
+                    "vi": "hành vi này"
+                  },
+                  {
+                    "en": "harm office culture",
+                    "vi": "làm xấu đi văn hóa công sở"
+                  },
+                  {
+                    "en": "damage a company's reputation",
+                    "vi": "làm xấu đi ... uy tín của doanh nghiệp"
+                  }
+                ],
+                "point_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp.",
+                "point_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
+                "evidence_vi": "Tiếng chuông reo bất ngờ hoặc hình ảnh nhân viên cúi đầu nhìn màn hình khi người khác đang trình bày thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác. Hành vi này có thể làm xấu đi văn hóa công sở cũng như uy tín của doanh nghiệp.",
+                "evidence_en": "Sudden ringtones or employees looking down at screens while others are speaking show disrespect toward colleagues and partners. Such habits can harm office culture and damage a company's reputation.",
+                "point_collocations": [
+                  {
+                    "en": "use mobile phones inappropriately",
+                    "vi": "sử dụng điện thoại không đúng lúc"
+                  },
+                  {
+                    "en": "client discussions",
+                    "vi": "khi tiếp khách"
+                  },
+                  {
+                    "en": "create an unprofessional impression",
+                    "vi": "tạo ... thiếu chuyên nghiệp"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sudden ringtones",
+                      "vi": "tiếng chuông reo bất ngờ"
+                    },
+                    {
+                      "en": "look down at screens",
+                      "vi": "cúi đầu nhìn màn hình"
+                    },
+                    {
+                      "en": "show disrespect toward colleagues and partners",
+                      "vi": "thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "such habits",
+                      "vi": "hành vi này"
+                    },
+                    {
+                      "en": "harm office culture",
+                      "vi": "làm xấu đi văn hóa công sở"
+                    },
+                    {
+                      "en": "damage a company's reputation",
+                      "vi": "làm xấu đi ... uy tín của doanh nghiệp"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ RÒ RỈ DỮ LIỆU NỘI BỘ VÀ MẤT AN NINH MẠNG (RISKS OF DATA LEAKS AND SECURITY BREACHES)",
+                "collocations": [
+                  {
+                    "en": "unrestricted use of personal phones",
+                    "vi": "việc dùng điện thoại cá nhân"
+                  },
+                  {
+                    "en": "company data security",
+                    "vi": "thông tin bảo mật của doanh nghiệp"
+                  },
+                  {
+                    "en": "confidentiality",
+                    "vi": "thông tin bảo mật"
+                  },
+                  {
+                    "en": "photograph internal documents",
+                    "vi": "chụp ảnh tài liệu nội bộ"
+                  },
+                  {
+                    "en": "store client records on unsecured devices",
+                    "vi": "khách hàng trên máy cá nhân kém bảo mật"
+                  },
+                  {
+                    "en": "click malicious links",
+                    "vi": "đường dẫn chứa mã độc"
+                  },
+                  {
+                    "en": "security breaches",
+                    "vi": "những sơ suất này"
+                  },
+                  {
+                    "en": "cause severe financial and legal damage",
+                    "vi": "gây thiệt hại ... về tài chính và pháp lý"
+                  },
+                  {
+                    "en": "to organizations",
+                    "vi": "tổ chức"
+                  }
+                ],
+                "point_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp.",
+                "point_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
+                "evidence_vi": "Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu thông tin khách hàng trên máy cá nhân kém bảo mật hoặc truy cập đường dẫn chứa mã độc qua mạng công ty. Những sơ suất này có thể gây thiệt hại lớn về tài chính và pháp lý cho tổ chức.",
+                "evidence_en": "Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks. These security breaches can cause severe financial and legal damage to organizations.",
+                "point_collocations": [
+                  {
+                    "en": "unrestricted use of personal phones",
+                    "vi": "việc dùng điện thoại cá nhân"
+                  },
+                  {
+                    "en": "company data security",
+                    "vi": "thông tin bảo mật của doanh nghiệp"
+                  },
+                  {
+                    "en": "confidentiality",
+                    "vi": "thông tin bảo mật"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "photograph internal documents",
+                      "vi": "chụp ảnh tài liệu nội bộ"
+                    },
+                    {
+                      "en": "store client records on unsecured devices",
+                      "vi": "khách hàng trên máy cá nhân kém bảo mật"
+                    },
+                    {
+                      "en": "click malicious links",
+                      "vi": "đường dẫn chứa mã độc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "security breaches",
+                      "vi": "những sơ suất này"
+                    },
+                    {
+                      "en": "cause severe financial and legal damage",
+                      "vi": "gây thiệt hại ... về tài chính và pháp lý"
+                    },
+                    {
+                      "en": "to organizations",
+                      "vi": "tổ chức"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: XÓA NHÒA RANH GIỚI NGHỈ NGƠI VÀ GÂY KIỆT SỨC NGHỀ NGHIỆP (BLURRING WORK-LIFE BOUNDARIES AND BURNOUT)",
+                "collocations": [
+                  {
+                    "en": "constant connectivity",
+                    "vi": "sự kết nối liên tục"
+                  },
+                  {
+                    "en": "blur the boundary",
+                    "vi": "làm mờ ranh giới"
+                  },
+                  {
+                    "en": "working hours and rest time",
+                    "vi": "giờ làm và giờ nghỉ"
+                  },
+                  {
+                    "en": "feel pressured to reply",
+                    "vi": "cảm thấy áp lực phải"
+                  },
+                  {
+                    "en": "managers' group messages",
+                    "vi": "tin nhắn nhóm chat của cấp"
+                  },
+                  {
+                    "en": "during weekends",
+                    "vi": "ngày nghỉ cuối tuần"
+                  },
+                  {
+                    "en": "unable to disconnect from work",
+                    "vi": "không ngắt kết nối"
+                  },
+                  {
+                    "en": "cause chronic stress",
+                    "vi": "gây căng thẳng"
+                  },
+                  {
+                    "en": "professional burnout",
+                    "vi": "kiệt sức nghề nghiệp"
+                  }
+                ],
+                "point_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức.",
+                "point_en": "Constant connectivity through mobile phones blurs the boundary between working hours and rest time.",
+                "evidence_vi": "Nhiều nhân viên cảm thấy áp lực phải trả lời tin nhắn nhóm chat của cấp trên ngay cả vào buổi tối muộn hay ngày nghỉ cuối tuần. Tình trạng làm việc không ngắt kết nối kéo dài gây căng thẳng tâm lý và kiệt sức nghề nghiệp.",
+                "evidence_en": "Many employees feel pressured to reply to managers' group messages late at night or even during weekends. Being unable to disconnect from work causes chronic stress and eventual professional burnout.",
+                "point_collocations": [
+                  {
+                    "en": "constant connectivity",
+                    "vi": "sự kết nối liên tục"
+                  },
+                  {
+                    "en": "blur the boundary",
+                    "vi": "làm mờ ranh giới"
+                  },
+                  {
+                    "en": "working hours and rest time",
+                    "vi": "giờ làm và giờ nghỉ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel pressured to reply",
+                      "vi": "cảm thấy áp lực phải"
+                    },
+                    {
+                      "en": "managers' group messages",
+                      "vi": "tin nhắn nhóm chat của cấp"
+                    },
+                    {
+                      "en": "during weekends",
+                      "vi": "ngày nghỉ cuối tuần"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unable to disconnect from work",
+                      "vi": "không ngắt kết nối"
+                    },
+                    {
+                      "en": "cause chronic stress",
+                      "vi": "gây căng thẳng"
+                    },
+                    {
+                      "en": "professional burnout",
+                      "vi": "kiệt sức nghề nghiệp"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: MẤT AN TOÀN LAO ĐỘNG TRONG MÔI TRƯỜNG SẢN XUẤT VÀ VẬN HÀNH (SAFETY HAZARDS IN INDUSTRIAL WORKPLACES)",
+                "collocations": [
+                  {
+                    "en": "construction sites",
+                    "vi": "các nhà máy, công trường"
+                  },
+                  {
+                    "en": "look at mobile phones",
+                    "vi": "nhìn điện thoại"
+                  },
+                  {
+                    "en": "cause dangerous workplace accidents",
+                    "vi": "gây tai nạn lao động nguy hiểm"
+                  },
+                  {
+                    "en": "a few seconds of inattention",
+                    "vi": "chỉ vài giây mất tập trung"
+                  },
+                  {
+                    "en": "operate heavy machinery",
+                    "vi": "điều khiển thiết bị nặng"
+                  },
+                  {
+                    "en": "result in severe injuries",
+                    "vi": "dẫn đến chấn thương nghiêm trọng"
+                  },
+                  {
+                    "en": "phone distraction",
+                    "vi": "sự lơ là vì điện thoại"
+                  },
+                  {
+                    "en": "directly threaten",
+                    "vi": "đe dọa trực tiếp đến"
+                  },
+                  {
+                    "en": "the physical safety of workers",
+                    "vi": "an toàn của cả bản thân lẫn đồng nghiệp"
+                  }
+                ],
+                "point_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm.",
+                "point_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
+                "evidence_vi": "Chỉ vài giây mất tập trung để đọc tin nhắn khi đang điều khiển thiết bị nặng hoặc lái xe giao hàng cũng đủ dẫn đến chấn thương nghiêm trọng. Vì vậy, sự lơ là vì điện thoại đe dọa trực tiếp đến an toàn của cả bản thân lẫn đồng nghiệp.",
+                "evidence_en": "Even a few seconds of inattention to read a text while operating heavy machinery or driving delivery vehicles can result in severe injuries. Thus, phone distraction directly threatens the physical safety of workers and their teammates.",
+                "point_collocations": [
+                  {
+                    "en": "construction sites",
+                    "vi": "các nhà máy, công trường"
+                  },
+                  {
+                    "en": "look at mobile phones",
+                    "vi": "nhìn điện thoại"
+                  },
+                  {
+                    "en": "cause dangerous workplace accidents",
+                    "vi": "gây tai nạn lao động nguy hiểm"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "a few seconds of inattention",
+                      "vi": "chỉ vài giây mất tập trung"
+                    },
+                    {
+                      "en": "operate heavy machinery",
+                      "vi": "điều khiển thiết bị nặng"
+                    },
+                    {
+                      "en": "result in severe injuries",
+                      "vi": "dẫn đến chấn thương nghiêm trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "phone distraction",
+                      "vi": "sự lơ là vì điện thoại"
+                    },
+                    {
+                      "en": "directly threaten",
+                      "vi": "đe dọa trực tiếp đến"
+                    },
+                    {
+                      "en": "the physical safety of workers",
+                      "vi": "an toàn của cả bản thân lẫn đồng nghiệp"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
         }
       },
       {
@@ -66373,8 +73905,8 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "In recent years, <strong>raising a pet</strong> has become very popular in many families. While having animals at home brings great joy and lessons of responsibility, it also creates notable challenges regarding daily expenses and care. <strong>This essay will discuss both the benefits and drawbacks of pet ownership.</strong>\n\n<strong>On the one hand, raising a pet brings several valuable advantages.</strong> First, <strong><em>keeping pets helps bring joy and reduce stress for owners</em></strong>. Playing with dogs and cats after stressful study hours helps people relax and feel less lonely when living alone. Second, <strong><em>caring for pets helps children and young people learn responsibility</em></strong>. Owners must feed their animals on time and clean their living areas regularly. These tasks build personal discipline and teach youth to care for other living beings. Finally, walking dogs outdoors encourages physical activity and helps owners stay healthy.\n\n<strong>On the other hand, there are notable drawbacks that people must consider.</strong> The most obvious disadvantage is that <strong><em>keeping pets requires high living costs</em></strong>. Families must pay for food, vaccinations, and veterinary care, which can cause financial pressure for people on tight budgets. Another major concern is that <strong><em>keeping pets takes up a lot of daily time and effort</em></strong>. Daily grooming, feeding, and walking can restrict owners' freedom when they want to travel or work late. In addition, pet hair shedding can trigger allergies and cause hygiene issues inside the house.\n\n<strong>In conclusion</strong>, having pets offers emotional warmth, physical activity, and character building, but it also requires considerable money, time, and patient dedication. People should carefully consider their personal budget and living conditions before adopting any animal.",
-          "translation_b1": "Trong những năm gần đây, <strong>việc nuôi thú cưng</strong> đã trở nên rất phổ biến ở nhiều gia đình. Mặc dù việc nuôi động vật tại nhà mang lại niềm vui lớn và bài học về tinh thần trách nhiệm, nó cũng tạo ra những thách thức đáng kể về chi phí và công sức chăm sóc hằng ngày. <strong>Bài luận này sẽ thảo luận cả những thuận lợi và bất lợi của việc sở hữu thú cưng.</strong>\n\n<strong>Một mặt, nuôi thú cưng mang lại một số lợi ích quý giá.</strong> Thứ nhất, <strong><em>nuôi thú cưng giúp mang lại niềm vui và giảm căng thẳng cho chủ nuôi</em></strong>. Chơi đùa với chó mèo sau những giờ học tập căng thẳng giúp mọi người thư giãn và cảm thấy bớt cô đơn khi sống một mình. Thứ hai, <strong><em>chăm sóc thú cưng giúp trẻ em và người trẻ học được tính trách nhiệm</em></strong>. Chủ nuôi phải cho con vật ăn đúng giờ và dọn dẹp nơi ở của chúng thường xuyên. Những công việc này xây dựng tính kỷ luật cá nhân và dạy thanh thiếu niên biết quan tâm đến sinh vật khác. Cuối cùng, việc dắt chó đi dạo ngoài trời khuyến khích vận động thể chất và giúp chủ nuôi duy trì sức khỏe.\n\n<strong>Mặt khác, có những nhược điểm đáng chú ý mà mọi người phải cân nhắc.</strong> Bất lợi rõ ràng nhất là <strong><em>nuôi thú cưng đòi hỏi nhiều chi phí sinh hoạt tốn kém</em></strong>. Các gia đình phải chi tiền mua thức ăn, tiêm phòng và chăm sóc thú y, điều này có thể gây áp lực tài chính cho những người có ngân sách hạn hẹp. Một mối lo ngại lớn khác là <strong><em>nuôi thú cưng làm mất nhiều thời gian và công sức mỗi ngày</em></strong>. Việc chải lông, cho ăn và dắt đi dạo hằng ngày có thể hạn chế sự tự do của chủ nuôi khi họ muốn đi du lịch hoặc làm việc muộn. Thêm vào đó, lông thú cưng rụng có thể làm phát sinh dị ứng và gây mất vệ sinh trong nhà.\n\n<strong>Tóm lại</strong>, việc sở hữu thú cưng mang lại sự ấm áp về mặt cảm xúc, vận động thể chất và rèn luyện nhân cách, nhưng nó cũng đòi hỏi số tiền, thời gian và sự tận tâm đáng kể. Mọi người nên cân nhắc kỹ ngân sách cá nhân và điều kiện sống trước khi nhận nuôi bất kỳ con vật nào.",
+          "sample_b1": "In recent years, <strong>raising a pet</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, keeping pets has several advantages.</strong> One major benefit is that <strong><em>raising pets helps bring joy and reduce stress</em></strong>. This is because playing with dogs and cats after work helps people feel relaxed and less lonely at home. Another positive aspect is that <strong><em>owning a dog encourages people to exercise more</em></strong>. The main reason is that owners walk their dogs in the park daily, which keeps them active. A further good point is that <strong><em>caring for pets teaches children responsibility</em></strong>. For example, children learn to feed their pets on time.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>raising a pet costs a lot of money</em></strong>. This is because owners have to pay for food, vaccines, and medical care when pets get sick. Another negative aspect is that <strong><em>taking care of pets requires much daily time</em></strong>. In fact, busy workers find it hard to clean cages, bathe pets, and look after them during holidays. Finally, <strong><em>pets can cause allergies and make the house dirty</em></strong>. As a result, pet hair and noise may bother family members and neighbors.\n\nIn conclusion, <strong>raising a pet</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc nuôi thú cưng</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, việc nuôi thú cưng có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>nuôi thú cưng giúp mang lại niềm vui và giảm căng thẳng</em></strong>. Điều này là vì chơi đùa với chó mèo sau giờ làm việc giúp mọi người cảm thấy thư giãn và bớt cô đơn khi ở nhà. Một khía cạnh tích cực khác là <strong><em>nuôi chó khuyến khích mọi người vận động nhiều hơn</em></strong>. Lý do chính là người nuôi dắt chó đi dạo ở công viên hằng ngày, giúp cơ thể năng động. Một điểm tốt nữa là <strong><em>chăm sóc thú cưng dạy trẻ em tinh thần trách nhiệm</em></strong>. Ví dụ, trẻ học cách cho thú ăn đúng giờ.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>nuôi thú cưng tốn rất nhiều tiền</em></strong>. Điều này là do chủ nuôi phải chi trả tiền thức ăn, tiêm phòng và chi phí khám bệnh khi thú bị ốm. Một điểm tiêu cực khác là <strong><em>việc chăm sóc thú cưng đòi hỏi nhiều thời gian mỗi ngày</em></strong>. Thực tế, người bận rộn gặp khó khăn trong việc dọn chuồng, tắm cho thú và gửi thú khi đi nghỉ. Cuối cùng, <strong><em>thú cưng có thể gây dị ứng và làm bẩn nhà cửa</em></strong>. Kết quả là lông thú rụng và tiếng ồn có thể làm phiền gia đình và hàng xóm.\n\nTóm lại, <strong>việc nuôi thú cưng</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó mang lại những tác động khác nhau đến đời sống con người. Vì vậy, cần cân nhắc kỹ cả hai mặt trước khi đưa ra quyết định.",
           "sample_b2": "In contemporary society, <strong>raising domestic pets</strong> has evolved from a traditional pastime into a widespread cultural phenomenon across urban households. While companion animals offer profound psychological solace and foster vital life competencies, pet ownership simultaneously imposes considerable financial burdens and lifestyle constraints. <strong>This essay will critically examine both the distinct merits and drawbacks associated with this trend.</strong>\n\n<strong>On the one hand, companion animals provide extensive emotional, social, and developmental benefits.</strong> Primarily, <strong><em>keeping pets provides emotional companionship and helps soothe psychological stress effectively</em></strong>. Daily interactions with affectionate animals stimulate the release of endorphins, offering vital emotional grounding that mitigates modern workplace anxiety and combats chronic social isolation. Furthermore, <strong><em>caring for domestic animals fosters a deep sense of responsibility and cultivates self-discipline</em></strong>. Adhering to structured feeding schedules, medical regimens, and behavioral training instills dependable caretaking habits in children and young adults. In addition, routine outdoor walks with dogs encourage regular cardiovascular exercise, which actively combats sedentary urban lifestyles.\n\n<strong>On the other hand, serious drawbacks and practical complications cannot be overlooked.</strong> Chief among these is that <strong><em>rearing domestic pets imposes a considerable financial strain on household budgets</em></strong>. Recurring expenditures on specialized nutrition, routine immunizations, and emergency veterinary procedures can accumulate into substantial amounts, jeopardizing household savings. Moreover, <strong><em>pet ownership demands a substantial time commitment and restricts individual personal flexibility</em></strong>. Daily habitat sanitation, grooming, and continuous attention severely curtail owners' spontaneity, complicating business travel and extended holidays. Finally, shed pet dander and fur pose persistent sanitation hazards that frequently trigger severe allergic reactions and respiratory ailments among sensitive individuals.\n\n<strong>In conclusion</strong>, while keeping pets enriches human lives through unconditional emotional support and healthy daily routines, it inevitably demands significant financial sacrifices and ongoing dedication. Prospective owners must thoroughly evaluate their financial stability and lifestyle compatibility before undertaking the lifelong commitment of animal guardianship.",
           "translation_b2": "Trong xã hội đương đại, <strong>việc nuôi thú cưng trong nhà</strong> đã phát triển từ một thú tiêu khiển truyền thống thành một hiện tượng văn hóa lan rộng khắp các hộ gia đình thành thị. Mặc dù động vật đồng hành mang lại sự an ủi tâm lý sâu sắc và bồi đắp các kỹ năng sống thiết yếu, việc sở hữu thú cưng đồng thời tạo ra những gánh nặng tài chính và sự ràng buộc đáng kể trong lối sống. <strong>Bài luận này sẽ phân tích một cách thấu đáo cả những ưu điểm và hạn chế rõ rệt liên quan đến xu hướng này.</strong>\n\n<strong>Một mặt, thú cưng mang lại nhiều lợi ích sâu rộng về mặt cảm xúc, xã hội và sự phát triển cá nhân.</strong> Trước hết, <strong><em>việc nuôi thú cưng mang lại sự đồng hành về mặt cảm xúc và giúp xoa dịu căng thẳng tâm lý hiệu quả</em></strong>. Những tương tác hằng ngày với động vật kích thích cơ thể giải phóng endorphin, mang lại điểm tựa tinh thần quan trọng giúp giảm bớt lo âu chốn công sở hiện đại và đẩy lùi sự cô lập xã hội mãn tính. Hơn nữa, <strong><em>việc chăm sóc động vật nuôi dưỡng tinh thần trách nhiệm sâu sắc và rèn luyện tính tự giác</em></strong>. Việc tuân thủ lịch trình cho ăn, chế độ y tế và huấn luyện hành vi giúp hình thành thói quen chăm sóc đáng tin cậy ở trẻ em và thanh thiếu niên. Thêm vào đó, việc dắt chó đi dạo ngoài trời khuyến khích vận động tim mạch thường xuyên, giúp chống lại lối sống thụ động nơi đô thị.\n\n<strong>Mặt khác, những nhược điểm nghiêm trọng và rắc rối thực tế là điều không thể bỏ qua.</strong> Đáng chú ý nhất là <strong><em>việc nuôi dưỡng động vật trong nhà tạo ra áp lực tài chính đáng kể đối với ngân sách gia đình</em></strong>. Các khoản chi định kỳ cho dinh dưỡng chuyên dụng, tiêm chủng và điều trị thú y khẩn cấp có thể tích lũy thành số tiền lớn, đe dọa ngân quỹ tiết kiệm của gia đình. Hơn nữa, <strong><em>việc sở hữu thú cưng đòi hỏi sự đầu tư lớn về quỹ thời gian và làm giảm tính linh hoạt trong sinh hoạt cá nhân</em></strong>. Việc dọn dẹp vệ sinh nơi ở, chải lông và chăm sóc liên tục làm giảm đáng kể tính chủ động của chủ nhân, gây khó khăn cho các chuyến công tác và kỳ nghỉ dài ngày. Cuối cùng, lông và vảy da thú cưng tiềm ẩn nguy cơ mất vệ sinh dai dẳng, thường xuyên kích hoạt phản ứng dị ứng nghiêm trọng và các bệnh hô hấp ở những người nhạy cảm.\n\n<strong>Tóm lại</strong>, mặc dù việc nuôi thú cưng làm phong phú cuộc sống con người thông qua sự hỗ trợ tinh thần vô điều kiện và thói quen sinh hoạt lành mạnh, nó chắc chắn đòi hỏi sự hy sinh tài chính và sự tận tụy lâu dài. Những người có ý định nuôi cần đánh giá kỹ lưỡng sự ổn định tài chính và mức độ phù hợp của lối sống trước khi đảm nhận sự cam kết trọn đời với một sinh mạng động vật."
         },
@@ -67535,8 +75067,8 @@ const ESSAY_DATA = [
             ],
             "drawbacks": []
           },
-          "sample_b1": "In every modern society, <strong>education</strong> plays an indispensable role in developing individuals and building strong nations. From early childhood to university, schooling equips learners with essential knowledge, practical skills, and good moral values. <strong>This essay will highlight the fundamental reasons why education is of paramount importance.</strong>\n\n<strong>First and foremost, education empowers individuals to build successful careers and improve their living conditions.</strong> Through formal schooling, <strong><em>students acquire knowledge and learn essential work skills</em></strong> in languages, sciences, and technology. These qualifications help them secure well-paying jobs and earn stable incomes. As a result, <strong><em>education helps poor people escape poverty sustainably</em></strong>, enabling them to provide adequate nutrition, healthcare, and housing for their families. Without access to basic schooling, breaking the vicious cycle of generational poverty remains nearly impossible.\n\n<strong>Furthermore, education plays a vital role in nurturing moral character and advancing national prosperity.</strong> At school, <strong><em>education teaches people good morals and makes them model citizens</em></strong> by promoting kindness, honesty, and respect for the law. Children learn to resolve conflicts peacefully and contribute constructively to their communities. On a broader national scale, <strong><em>education develops talented human resources that make countries prosperous</em></strong>. Educated engineers, doctors, and entrepreneurs invent modern machines, discover medical treatments, and accelerate economic growth.\n\n<strong>In conclusion</strong>, education is the foundation of personal advancement and collective social progress. It not only broadens human knowledge and elevates living standards but also instills ethical virtues and drives economic vitality. Governments must therefore prioritize investing in accessible education for all citizens.",
-          "translation_b1": "Trong mọi xã hội hiện đại, <strong>giáo dục</strong> đóng vai trò không thể thiếu đối với sự phát triển của mỗi cá nhân và việc xây dựng những quốc gia vững mạnh. Từ thuở ấu thơ cho đến bậc đại học, trường học trang bị cho người học những kiến thức cần thiết, kỹ năng thực tế và giá trị đạo đức tốt đẹp. <strong>Bài luận này sẽ làm nổi bật những lý do cơ bản giải thích vì sao giáo dục lại mang tầm quan trọng tối cao.</strong>\n\n<strong>Trước hết và quan trọng nhất, giáo dục trao quyền cho các cá nhân xây dựng sự nghiệp thành công và cải thiện điều kiện sống.</strong> Thông qua trường lớp chính quy, <strong><em>học sinh tiếp thu kiến thức và học các kỹ năng làm việc cần thiết</em></strong> về ngôn ngữ, khoa học và công nghệ. Những bằng cấp này giúp các em đảm bảo có được công việc được trả lương tốt và kiếm được thu nhập ổn định. Nhờ đó, <strong><em>giáo dục giúp người nghèo thoát nghèo bền vững</em></strong>, cho phép họ chu cấp dinh dưỡng đầy đủ, chăm sóc sức khỏe và nhà ở cho gia đình mình. Nếu không được tiếp cận với giáo dục cơ bản, việc phá vỡ vòng luẩn quẩn nghèo đói qua các thế hệ gần như là điều không thể.\n\n<strong>Hơn nữa, giáo dục đóng vai trò thiết yếu trong việc nuôi dưỡng nhân cách đạo đức và thúc đẩy sự thịnh vượng quốc gia.</strong> Tại trường học, <strong><em>giáo dục dạy con người đạo đức tốt và trở thành những công dân gương mẫu</em></strong> thông qua việc khuyến khích lòng nhân ái, sự trung thực và tôn trọng pháp luật. Trẻ em học cách giải quyết xung đột trong hòa bình và đóng góp tích cực cho cộng đồng của mình. Trên quy mô quốc gia rộng lớn hơn, <strong><em>giáo dục phát triển nguồn nhân lực giỏi giúp đất nước phát triển giàu mạnh</em></strong>. Đội ngũ kỹ sư, bác sĩ và doanh nhân có học thức sáng tạo ra máy móc hiện đại, tìm ra phương pháp chữa bệnh và đẩy nhanh tăng trưởng kinh tế.\n\n<strong>Tóm lại</strong>, giáo dục là nền tảng của sự tiến bộ cá nhân và sự phát triển chung của toàn xã hội. Nó không chỉ mở rộng tri thức con người và nâng cao mức sống mà còn vun đắp các phẩm hạnh đạo đức và thúc đẩy sức sống kinh tế. Do đó, các chính phủ phải ưu tiên đầu tư vào nền giáo dục dễ tiếp cận cho mọi người dân.",
+          "sample_b1": "In recent years, <strong>education</strong> has played an increasingly important role in modern society. Many people see it as a key factor for personal and social success. <strong>This essay will discuss the main benefits of education.</strong>\n\n<strong>One main advantage is that <em>education provides people with useful knowledge and work skills</em>.</strong> This is because schools and universities teach students important subjects as well as communication and problem-solving skills. In addition, having a college degree helps young people find good jobs more easily after graduation. As a result, they can work effectively and build a stable career in the future.\n\n<strong>Another positive aspect is that <em>education helps people earn higher incomes and improve their lives</em>.</strong> The main reason is that educated workers often qualify for better job positions with higher monthly salaries. Moreover, a good income allows people to take better care of their families, buy comfortable houses, and pay for good healthcare services. Consequently, education helps many poor families escape poverty and enjoy a better life.\n\n<strong>A further benefit is that <em>education teaches people how to become good and responsible citizens</em>.</strong> This means that students learn moral values, respect the law, and understand how to behave politely in public places. Furthermore, when most people in a country are well educated, society becomes safer, more civilized, and develops more strongly.\n\nIn conclusion, <strong>education</strong> offers several important benefits for every individual and nation. These advantages make it essential for improving people’s daily lives. Overall, investing in education is a positive path toward a better future.",
+          "translation_b1": "Trong những năm gần đây, <strong>giáo dục</strong> ngày càng đóng vai trò quan trọng trong xã hội hiện đại. Nhiều người xem đây là yếu tố then chốt dẫn đến thành công của cá nhân và xã hội. <strong>Bài luận này sẽ thảo luận về những lợi ích chính của giáo dục.</strong>\n\n<strong>Một lợi thế chính là <em>giáo dục trang bị cho con người kiến thức hữu ích và kỹ năng làm việc</em>.</strong> Điều này là bởi trường học và đại học giảng dạy cho học sinh các môn học quan trọng cũng như kỹ năng giao tiếp và giải quyết vấn đề. Ngoài ra, việc có bằng cấp giúp người trẻ tìm được công việc tốt dễ dàng hơn sau khi tốt nghiệp. Nhờ đó, họ có thể làm việc hiệu quả và xây dựng sự nghiệp ổn định trong tương lai.\n\n<strong>Một khía cạnh tích cực khác là <em>giáo dục giúp mọi người có thu nhập cao hơn và cải thiện cuộc sống</em>.</strong> Lý do chính là người lao động có trình độ học vấn thường đủ điều kiện đảm nhận các vị trí công việc tốt hơn với mức lương hằng tháng cao hơn. Hơn nữa, thu nhập tốt giúp họ chăm lo tốt hơn cho gia đình, mua được nhà cửa tiện nghi và chi trả dịch vụ y tế tốt. Do đó, giáo dục giúp nhiều gia đình nghèo thoát nghèo và có cuộc sống tốt đẹp hơn.\n\n<strong>Một lợi ích nữa là <em>giáo dục dạy con người trở thành những công dân tốt và có trách nhiệm</em>.</strong> Điều này có nghĩa là học sinh được học các giá trị đạo đức, tôn trọng pháp luật và biết cư xử lịch sự ở nơi công cộng. Hơn thế nữa, khi phần lớn người dân trong nước có học thức, xã hội sẽ trở nên an toàn, văn minh và phát triển mạnh mẽ hơn.\n\nTóm lại, <strong>giáo dục</strong> mang lại nhiều lợi ích quan trọng cho mỗi cá nhân và quốc gia. Những ưu điểm này khiến giáo dục trở nên thiết yếu để nâng cao đời sống hằng ngày của con người. Nhìn chung, đầu tư cho giáo dục là con đường tích cực hướng tới tương lai tốt đẹp hơn.",
           "sample_b2": "In the contemporary era of globalization and rapid technological advancement, <strong>education</strong> stands as the cornerstone of individual empowerment and societal evolution. Far beyond mere academic instruction, comprehensive education shapes cognitive faculties, fosters ethical awareness, and underpins sustainable economic competitiveness. <strong>This essay will elucidate the profound importance of education across personal, social, and national dimensions.</strong>\n\n<strong>At the individual and socioeconomic level, education is the most powerful catalyst for intellectual growth and poverty eradication.</strong> Firstly, <strong><em>education equips individuals with profound academic knowledge and cultivates core professional competencies</em></strong>, enabling learners to master scientific paradigms and cutting-edge digital technologies. This systematic intellectual enrichment unlocks remunerative career pathways, which significantly enhances labor competitiveness. Furthermore, <strong><em>education serves as the most potent instrument for poverty alleviation and upward social mobility</em></strong>. By providing disadvantaged youths with specialized vocational skill sets, it effectively dismantles generational cycles of deprivation and narrows systemic income disparities, thereby elevating societal living standards.\n\n<strong>On a collective and macroeconomic scale, education nurtures civic responsibility and fuels technological innovation.</strong> Within educational institutions, <strong><em>educational systems serve as pillars for cultivating moral integrity and fostering active civic consciousness</em></strong>. Rigorous civics curricula and collaborative environments instill core democratic values, including human rights, tolerance, and respect for diversity, which curtails antisocial conduct and fortifies law-abiding civil societies. Moreover, <strong><em>investing in high-quality education is the primary catalyst for technological innovation and national economic prosperity</em></strong>. Highly qualified researchers and visionary entrepreneurs continuously spearhead automated solutions and sustainable industrial models, driving productivity gains within knowledge-based economies.\n\n<strong>In conclusion</strong>, education constitutes the bedrock of human dignity and national advancement. It not only liberates individuals from economic hardship through intellectual enlightenment but also cultivates ethical civic cohesion and secures global economic resilience. Consequently, universal access to high-caliber education must remain a top policy priority for all forward-thinking governments.",
           "translation_b2": "Trong kỷ nguyên đương đại của toàn cầu hóa và sự phát triển công nghệ thần tốc, <strong>giáo dục</strong> giữ vai trò là nền tảng vững chắc cho sự trao quyền cá nhân và sự tiến hóa của toàn xã hội. Vượt xa khỏi khuôn khổ giảng dạy học thuật đơn thuần, một nền giáo dục toàn diện định hình năng lực nhận thức, bồi đắp ý thức đạo đức và củng cố năng lực cạnh tranh kinh tế bền vững. <strong>Bài luận này sẽ làm sáng tỏ tầm quan trọng sâu sắc của giáo dục trên các phương diện cá nhân, xã hội và quốc gia.</strong>\n\n<strong>Ở cấp độ cá nhân và kinh tế xã hội, giáo dục là chất xúc tác mạnh mẽ nhất cho sự phát triển trí tuệ và công cuộc xóa đói giảm nghèo.</strong> Trước hết, <strong><em>giáo dục trang bị cho con người nền tảng tri thức chuyên sâu và rèn luyện các kỹ năng chuyên môn cốt lõi</em></strong>, cho phép người học làm chủ các chuẩn mực khoa học và công nghệ kỹ thuật số tiên tiến. Sự làm giàu tri thức có hệ thống này mở ra những con đường sự nghiệp có mức lương cao, giúp gia tăng đáng kể năng lực cạnh tranh lao động. Hơn nữa, <strong><em>giáo dục được xem là công cụ hiệu quả nhất để xóa đói giảm nghèo và thúc đẩy bình đẳng xã hội</em></strong>. Bằng cách trang bị các bộ kỹ năng chuyên môn cho thanh thiếu niên có hoàn cảnh khó khăn, nó phá vỡ một cách hiệu quả vòng luẩn quẩn nghèo túng qua các thế hệ và thu hẹp sự chênh lệch thu nhập mang tính hệ thống, từ đó nâng cao mức sống của toàn xã hội.\n\n<strong>Trên quy mô tập thể và kinh tế vĩ mô, giáo dục nuôi dưỡng trách nhiệm công dân và thúc đẩy đổi mới công nghệ.</strong> Bên trong các cơ sở giáo dục, <strong><em>hệ thống giáo dục đóng vai trò trụ cột trong việc vun đắp nhân cách đạo đức và bồi dưỡng ý thức công dân tích cực</em></strong>. Các chương trình giáo dục công dân bài bản và môi trường hợp tác giúp thấm nhuần các giá trị dân chủ cốt lõi, bao gồm quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng, giúp giảm thiểu các hành vi tiêu cực và củng cố các xã hội thượng tôn pháp luật. Hơn nữa, <strong><em>đầu tư vào giáo dục chất lượng cao là động lực cốt lõi thúc đẩy đổi mới công nghệ và thịnh vượng kinh tế quốc gia</em></strong>. Đội ngũ nhà nghiên cứu và doanh nhân có trình độ cao liên tục tiên phong tạo ra các giải pháp tự động hóa và mô hình công nghiệp bền vững, thúc đẩy sự gia tăng năng suất trong các nền kinh tế tri thức.\n\n<strong>Tóm lại</strong>, giáo dục cấu thành nên nền tảng của phẩm giá con người và sự tiến bộ của quốc gia. Nó không chỉ giải phóng các cá nhân khỏi khó khăn kinh tế nhờ sự khai sáng trí tuệ mà còn vun đắp sự gắn kết đạo đức công dân và bảo đảm sức chống chịu kinh tế toàn cầu. Do đó, việc phổ cập nền giáo dục chất lượng cao cho mọi người dân phải luôn là ưu tiên chính sách hàng đầu của mọi chính phủ có tầm nhìn tiến bộ."
         },
@@ -68713,8 +76245,8 @@ const ESSAY_DATA = [
             ],
             "drawbacks": []
           },
-          "sample_b1": "In recent years, natural disasters such as violent storms, flash floods, and landslides have severely threatened many communities worldwide. During such hazardous situations, official rescue teams often face delays due to damaged roads and communications. Consequently, <strong>neighborhood connection</strong> becomes an indispensable lifeline for survival. <strong>This essay will highlight the crucial importance of community solidarity during and after natural disasters.</strong>\n\n<strong>First and foremost, strong neighborhood connection delivers immediate rescue and essential survival provisions.</strong> When floodwaters rise suddenly, <strong><em>neighborhood connection helps residents support and rescue each other promptly</em></strong> before external help can arrive. Nearby residents can quickly evacuate elderly citizens and small children to higher, safer places. Furthermore, <strong><em>community bonding helps people share food, clean water, and medicine during tough situations</em></strong>. Sharing instant noodles, flashlights, and drinking water prevents hunger and illness during prolonged power cuts and isolation.\n\n<strong>In addition, neighborhood connection offers vital emotional comfort and accelerates post-disaster recovery.</strong> Experiencing devastating destruction of homes causes immense fear and grief. At such moments, <strong><em>neighbors' care helps calm fears and brings peace of mind to everyone</em></strong>, assuring victims that they do not face adversity alone. Finally, once the floodwaters recede, <strong><em>neighbors work together to clean up debris and repair homes after natural disasters</em></strong>. Villagers collaborate to clear fallen trees, unclog drainage canals, and repair damaged roofs, allowing community life to return to normal much faster.\n\n<strong>In conclusion</strong>, neighborhood connection is not merely a social virtue but a lifesaving force during environmental crises. By providing swift emergency rescue, mutual resource sharing, emotional solace, and collective rebuilding efforts, close-knit communities protect human lives and overcome the worst impacts of natural disasters.",
-          "translation_b1": "Trong những năm gần đây, các thảm họa thiên nhiên như bão dữ, lũ quét và sạt lở đất đã đe dọa nghiêm trọng nhiều cộng đồng trên toàn thế giới. Trong những tình huống nguy hiểm như vậy, các đội cứu hộ chính thức thường bị chậm trễ do đường sá và hệ thống liên lạc bị hư hại. Do đó, <strong>sự gắn kết cộng đồng</strong> trở thành một chiếc phao cứu sinh không thể thiếu để sinh tồn. <strong>Bài luận này sẽ làm nổi bật tầm quan trọng then chốt của tinh thần đoàn kết cộng đồng trong và sau thiên tai.</strong>\n\n<strong>Trước hết và quan trọng nhất, sự gắn kết láng giềng bền chặt mang lại sự cứu nạn tức thì và các nhu yếu phẩm sinh tồn thiết yếu.</strong> Khi nước lũ dâng cao bất ngờ, <strong><em>tình làng nghĩa xóm giúp người dân hỗ trợ và cứu giúp nhau kịp thời khi bão lũ ập đến</em></strong> trước khi sự trợ giúp từ bên ngoài kịp tới. Người dân gần gũi có thể nhanh chóng sơ tán người cao tuổi và trẻ nhỏ đến những nơi cao ráo, an toàn hơn. Hơn nữa, <strong><em>sự gắn kết xóm giềng giúp mọi người chia sẻ đồ ăn, nước sạch và thuốc men trong hoàn cảnh khó khăn</em></strong>. Việc chia sẻ mì gói, đèn pin và nước uống giúp ngăn ngừa đói khát và bệnh tật trong những ngày mất điện kéo dài và bị cô lập.\n\n<strong>Thêm vào đó, mối quan hệ xóm giềng mang lại sự an ủi tinh thần quý giá và đẩy nhanh quá trình phục hồi sau thiên tai.</strong> Trải qua sự tàn phá nặng nề của nhà cửa gây ra nỗi sợ hãi và đau buồn to lớn. Vào những thời điểm như vậy, <strong><em>sự quan tâm của láng giềng giúp xoa dịu nỗi sợ hãi và mang lại cảm giác an tâm cho mọi người</em></strong>, bảo đảm với các nạn nhân rằng họ không phải đối mặt với nghịch cảnh một mình. Cuối cùng, một khi nước lũ rút đi, <strong><em>bà con xóm làng cùng chung tay giúp dọn dẹp vệ sinh và sửa chữa nhà cửa sau thiên tai</em></strong>. Dân làng cùng nhau hợp lực dọn cây đổ, thông cống rãnh và sửa lại mái nhà hư hỏng, giúp nhịp sống khu dân cư trở lại bình thường nhanh hơn nhiều.\n\n<strong>Tóm lại</strong>, sự gắn kết xóm giềng không chỉ đơn thuần là một phẩm hạnh xã hội mà còn là một lực lượng cứu mạng trong các cuộc khủng hoảng môi trường. Thông qua việc cứu nạn khẩn cấp nhanh chóng, san sẻ tài nguyên, xoa dịu tinh thần và nỗ lực tái thiết tập thể, các cộng đồng gắn bó bảo vệ sinh mạng con người và vượt qua những tác động tồi tệ nhất của thiên tai.",
+          "sample_b1": "In recent years, <strong>neighborhood connection in natural disasters</strong> has become an important topic in modern society. Many people believe that close relationships among neighbors save lives during emergencies. <strong>This essay will discuss the main benefits of this topic.</strong>\n\n<strong>One main advantage is that <em>neighbors can rescue and help each other quickly when disasters happen</em>.</strong> This is because during sudden floods or storms, professional rescue teams may not arrive immediately due to blocked roads. Nearby neighbors are the first people on the scene who can help elderly people, women, and small children move to safe places in time. As a result, many lives can be saved during dangerous hours.\n\n<strong>Another positive aspect is that <em>connected neighbors share food, clean water, and medicine during hard times</em>.</strong> The main reason is that natural disasters often cut off electricity and close local markets for several days. When families share drinking water, instant noodles, and flashlights with one another, everyone can stay safe and healthy until government relief arrives.\n\n<strong>A further benefit is that <em>neighbors can encourage each other and rebuild their area faster</em>.</strong> This means that caring words from neighbors help victims feel less scared and lonely after losing their property. Furthermore, neighbors can work together to clear fallen trees, clean mud from streets, and repair damaged roofs so daily life returns to normal soon.\n\nIn conclusion, <strong>neighborhood connection in natural disasters</strong> offers several important benefits. These advantages make community solidarity very valuable during crises. Overall, building strong neighborhood bonds is essential in modern life.",
+          "translation_b1": "Trong những năm gần đây, <strong>sự gắn kết tình làng nghĩa xóm trong thiên tai</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Nhiều người tin rằng mối quan hệ gần gũi giữa những người hàng xóm giúp cứu sống nhiều mạng người trong lúc khẩn cấp. <strong>Bài luận này sẽ thảo luận về những lợi ích chính của chủ đề này.</strong>\n\n<strong>Một lợi thế chính là <em>hàng xóm có thể ứng cứu và giúp đỡ nhau nhanh chóng khi thiên tai xảy ra</em>.</strong> Điều này là vì trong các trận lũ lụt hoặc bão bất ngờ, lực lượng cứu hộ chuyên nghiệp có thể chưa kịp tiếp cận ngay do đường sá bị chia cắt. Những người hàng xóm ở gần là những người có mặt đầu tiên giúp người già, phụ nữ và trẻ nhỏ di dời đến nơi an toàn kịp thời. Nhờ đó, nhiều sinh mạng được cứu sống trong những giờ phút nguy hiểm.\n\n<strong>Một khía cạnh tích cực khác là <em>những người hàng xóm gắn bó sẽ chia sẻ lương thực, nước sạch và thuốc men trong lúc khó khăn</em>.</strong> Lý do chính là thiên tai thường làm mất điện và khiến chợ địa phương đóng cửa nhiều ngày. Khi các gia đình san sẻ nước uống, mì ăn liền và đèn pin cho nhau, mọi người có thể giữ an toàn và sức khỏe cho đến khi đoàn cứu trợ tới.\n\n<strong>Một lợi ích nữa là <em>hàng xóm có thể động viên tinh thần nhau và khôi phục khu phố nhanh hơn</em>.</strong> Điều này có nghĩa là sự hỏi thăm của láng giềng giúp người gặp nạn bớt hoảng sợ và cô đơn sau khi mất mát tài sản. Hơn nữa, hàng xóm có thể cùng nhau dọn cây đổ, xúc bùn đất trên đường và sửa lại mái nhà để cuộc sống sớm trở lại bình thường.\n\nTóm lại, <strong>sự gắn kết cộng đồng trong thiên tai</strong> mang lại nhiều lợi ích quan trọng. Những ưu điểm này khiến tinh thần đoàn kết trở nên vô cùng quý giá trong hoạn nạn. Nhìn chung, xây dựng tình làng nghĩa xóm bền chặt là điều rất cần thiết trong cuộc sống.",
           "sample_b2": "In an era characterized by escalating climate volatility, severe natural disasters such as super typhoons, deluge floods, and tectonic earthquakes frequently inflict catastrophic devastation upon vulnerable settlements. When municipal emergency services are overwhelmed or physically obstructed by ruined infrastructure, <strong>neighborhood connection</strong> emerges as the most decisive determinant of human survival. <strong>This essay will elucidate why robust communal cohesion is of paramount importance during environmental cataclysms.</strong>\n\n<strong>Primarily, localized neighborhood solidarity functions as an indispensable frontline rescue mechanism and survival distribution channel.</strong> In the initial chaotic hours of a catastrophe, <strong><em>strong neighborhood solidarity functions as an on-site first-response network that delivers instant emergency rescue</em></strong>. Intimate knowledge of local topography and vulnerable residents enables neighbors to evacuate trapped individuals long before external military or humanitarian convoys can penetrate blocked zones. Moreover, <strong><em>local solidarity mobilizes the equitable sharing of vital resources and relief provisions during catastrophic crises</em></strong>. Communal kitchens and the pooling of clean drinking water, generators, and medical dressings prevent acute dehydration, starvation, and wound sepsis among stranded survivors.\n\n<strong>Equally critical are the psychological buffering and collective reconstruction capacities fostered by community bonds.</strong> Catastrophic asset loss and sudden bereavement often induce severe emotional shock and despair. In such dire circumstances, <strong><em>solid communal empathy acts as a robust psychological anchor that shields survivors from catastrophic emotional trauma</em></strong>, fostering the psychological fortitude necessary to endure extreme adversity. Furthermore, in the aftermath of disaster, <strong><em>collective neighborhood action markedly accelerates environmental cleanup and the reconstruction of basic infrastructure</em></strong>. By voluntarily clearing mud deposits, restoring access roads, and rehabilitating communal schools, united citizens alleviate logistical burdens on state agencies and expedite socioeconomic normalization.\n\n<strong>In conclusion</strong>, neighborhood connection constitutes the bedrock of disaster resilience and civil defense. It transcends passive coexistence by delivering immediate lifesaving rescue, equitable survival aid, empathetic trauma alleviation, and synchronized community rebuilding. Governments and urban planners must actively nurture grassroots community cohesion as a fundamental imperative for climate adaptation and crisis survival.",
           "translation_b2": "Trong một kỷ nguyên bị chi phối bởi sự biến đổi khí hậu ngày càng gia tăng, các thảm họa thiên nhiên khốc liệt như siêu bão, lũ lụt thảm khốc và động đất thường gây ra sự tàn phá khủng khiếp cho các khu dân cư dễ bị tổn thương. Khi các dịch vụ khẩn cấp của chính quyền bị quá tải hoặc bị cản trở bởi cơ sở hạ tầng đổ nát, <strong>sự gắn kết cộng đồng</strong> nổi lên như yếu tố quyết định sống còn đối với sự sinh tồn của con người. <strong>Bài luận này sẽ làm sáng tỏ vì sao sự gắn kết cộng đồng bền chặt lại mang tầm quan trọng tối cao trong các thảm họa môi trường.</strong>\n\n<strong>Trước hết, tinh thần đoàn kết xóm giềng tại chỗ hoạt động như một cơ chế cứu hộ tiền tuyến và kênh phân phối nhu yếu phẩm sinh tồn không thể thiếu.</strong> Trong những giờ đầu tiên hỗn loạn của thảm họa, <strong><em>mối liên kết cộng đồng chặt chẽ tạo thành mạng lưới ứng phó tại chỗ giúp triển khai công tác cứu nạn khẩn cấp tức thì</em></strong>. Sự hiểu biết tường tận về địa hình địa phương và những cư dân neo đơn cho phép hàng xóm sơ tán kịp thời những người bị mắc kẹt rất lâu trước khi các đoàn cứu trợ quân sự hay nhân đạo từ bên ngoài có thể tiếp cận được các vùng bị cô lập. Hơn nữa, <strong><em>tinh thần đoàn kết địa phương thúc đẩy việc chia sẻ tài nguyên và hỗ trợ nhu yếu phẩm một cách công bằng giữa mùa hoạn nạn</em></strong>. Các bếp ăn tập thể và việc góp chung nước sạch, máy phát điện cùng bông băng y tế giúp ngăn ngừa kiệt sức vì mất nước, đói khát và nhiễm trùng vết thương ở những người sống sót bị cô lập.\n\n<strong>Đóng vai trò quan trọng không kém là khả năng giảm chấn tâm lý và năng lực tái thiết tập thể được nuôi dưỡng từ các mối gắn kết cộng đồng.</strong> Sự mất mát tài sản to lớn và nỗi đau mất người thân đột ngột thường gây ra cú sốc cảm xúc và sự tuyệt vọng sâu sắc. Trong những hoàn cảnh ngặt nghèo như vậy, <strong><em>tình làng nghĩa xóm là chỗ dựa tâm lý vững vàng giúp người dân vượt qua cú sốc tinh thần sau thảm họa</em></strong>, nuôi dưỡng sự kiên cường tâm lý cần thiết để đương đầu với nghịch cảnh cùng cực. Hơn nữa, sau khi thảm họa qua đi, <strong><em>sức mạnh hợp lực của cộng đồng đẩy nhanh tốc độ dọn dẹp hiện trường và tái thiết hạ tầng dân sinh sau bão lũ</em></strong>. Bằng việc tự nguyện dọn dẹp bùn đất, khai thông đường sá và sửa sang lại trường học, người dân đoàn kết làm giảm bớt gánh nặng hậu cần cho chính quyền và đẩy nhanh quá trình bình thường hóa kinh tế xã hội.\n\n<strong>Tóm lại</strong>, sự gắn kết láng giềng cấu thành nên nền tảng của khả năng chống chịu thảm họa và phòng thủ dân sự. Nó vượt lên trên sự cùng chung sống thụ động để mang lại sự cứu trợ sống còn tức thì, hỗ trợ sinh tồn công bằng, xoa dịu chấn thương tinh thần và tái thiết cộng đồng đồng bộ. Các chính phủ và nhà quy hoạch đô thị phải tích cực bồi dưỡng sự gắn kết cộng đồng cơ sở như một mệnh lệnh cơ bản cho việc thích ứng với biến đổi khí hậu và sinh tồn trước khủng hoảng."
         },
@@ -73070,10 +80602,10 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "<p>In recent years, <strong>online shopping</strong> has emerged as an extremely popular commercial trend across the globe, allowing millions of consumers to purchase products with just a few clicks. While this digital retail model brings outstanding advantages in terms of <em>unbeatable convenience</em> and <em>competitive pricing</em>, it also poses distinct drawbacks concerning <em>counterfeit goods</em> and <em>impulsive spending habits</em>.</p>\n<p>On the one hand, purchasing goods on digital platforms offers numerous evident benefits for modern consumers. The most prominent advantage is <strong>exceptional convenience and time efficiency</strong>. Instead of traveling long distances to crowded supermarkets or enduring traffic congestion, buyers can browse items at any time and have their packages delivered directly to their doorstep. Furthermore, virtual marketplaces enable users to <strong>compare prices effortlessly across different stores</strong>. With a simple search, shoppers can immediately locate attractive promotional vouchers and free shipping deals, allowing them to save substantial amounts of money. Additionally, customers have access to <em>authentic feedback and unboxing images</em> posted by previous buyers, which helps them make informed and safe purchasing decisions.</p>\n<p>On the other hand, online commerce involves several noticeable disadvantages that shoppers must consider. Firstly, buyers face a serious risk of <strong>receiving counterfeit or substandard products</strong> because they cannot inspect the physical texture and quality before making payment. Many received parcels differ significantly from beautiful promotional images. Secondly, e-commerce platforms can expose consumers to <strong>cybersecurity vulnerabilities and payment fraud</strong>, where fake retail websites steal personal bank details. Finally, continuous promotional notifications frequently tempt individuals into <em>impulsive buying habits</em>, resulting in unnecessary expenditures and financial strain at the end of every month.</p>\n<p>In conclusion, although online shopping provides unprecedented convenience, diverse choices, and cost savings, it also entails considerable risks of defective goods, data insecurity, and financial overspending. Consumers should remain cautious, choose reputable platforms, and manage their spending wisely to fully enjoy the advantages of digital shopping.</p>",
-          "translation_b1": "<p>Trong những năm gần đây, <strong>mua sắm trực tuyến</strong> đã nổi lên như một xu hướng thương mại cực kỳ phổ biến trên toàn cầu, cho phép hàng triệu người tiêu dùng mua hàng chỉ bằng vài cú nhấp chuột. Mặc dù mô hình bán lẻ kỹ thuật số này đem lại những lợi thế vượt trội về <em>sự tiện lợi vượt trội</em> và <em>giá cả cạnh tranh</em>, nó cũng đặt ra những bất lợi rõ rệt liên quan đến <em>hàng giả</em> và <em>thói quen chi tiêu bốc đồng</em>.</p>\n<p>Một mặt, việc mua sắm hàng hóa trên các nền tảng kỹ thuật số mang lại nhiều lợi ích rõ ràng cho người tiêu dùng hiện đại. Lợi thế nổi bật nhất là <strong>sự tiện lợi vượt trội và tiết kiệm thời gian</strong>. Thay vì phải di chuyển quãng đường xa tới các siêu thị đông đúc hay chịu cảnh kẹt xe, người mua có thể xem hàng bất cứ lúc nào và được nhận hàng giao thẳng đến tận cửa nhà. Hơn nữa, các sàn thương mại ảo cho phép người dùng <strong>so sánh giá cả dễ dàng giữa nhiều cửa hàng khác nhau</strong>. Chỉ với thao tác tìm kiếm đơn giản, khách hàng có thể nhanh chóng săn được các mã giảm giá hấp dẫn và ưu đãi miễn phí vận chuyển, giúp tiết kiệm được khoản tiền đáng kể. Thêm vào đó, người mua được tiếp cận <em>những đánh giá chân thật và hình ảnh chụp thực tế</em> của người mua trước, giúp họ đưa ra quyết định mua hàng sáng suốt và an toàn.</p>\n<p>Mặt khác, thương mại trực tuyến cũng tiềm ẩn một số bất lợi đáng lưu tâm mà người mua sắm cần cân nhắc. Trước hết, người mua đối mặt với nguy cơ nghiêm trọng về việc <strong>mua phải hàng giả hoặc hàng kém chất lượng</strong> vì họ không thể kiểm tra trực tiếp chất liệu và chất lượng trước khi trả tiền. Nhiều kiện hàng nhận về khác xa so với hình ảnh quảng cáo lung linh. Thứ hai, các nền tảng thương mại điện tử có thể khiến người tiêu dùng gặp phải <strong>lỗ hổng an ninh mạng và lừa đảo thanh toán</strong>, khi các trang web bán hàng giả mạo đánh cắp thông tin tài khoản ngân hàng cá nhân. Cuối cùng, các thông báo khuyến mãi liên tục thường xuyên lôi kéo mọi người vào <em>thói quen chi tiêu bốc đồng</em>, dẫn đến việc tiêu xài không cần thiết và gây áp lực tài chính vào cuối mỗi tháng.</p>\n<p>Tóm lại, mặc dù mua sắm trực tuyến mang lại sự tiện lợi chưa từng có, sự lựa chọn đa dạng và tiết kiệm chi phí, nó cũng kéo theo những rủi ro đáng kể về hàng lỗi, mất an toàn dữ liệu và chi tiêu quá đà. Người tiêu dùng nên luôn cảnh giác, lựa chọn các nền tảng uy tín và quản lý chi tiêu hợp lý để tận hưởng trọn vẹn những thuận lợi của mua sắm số.</p>",
-          "sample_b2": "<p>Over the past two decades, the exponential proliferation of <strong>e-commerce platforms</strong> has revolutionized global retail landscapes, transforming conventional consumer transactions into instantaneous digital exchanges. While this digital transition delivers remarkable merits regarding <em>unparalleled convenience</em>, <em>transparent price discovery</em>, and <em>extensive product diversity</em>, it concurrently presents formidable vulnerabilities, encompassing <em>counterfeit proliferation</em>, <em>cybersecurity hazards</em>, and <em>compulsive consumerism</em>.</p>\n<p>On the one hand, e-commerce confers immense operational and economic dividends upon modern society. Primarily, digital marketplaces offer <strong>unrivaled geographical convenience and temporal flexibility</strong>. By bypassing the physical constraints of conventional brick-and-mortar storefronts, consumers can procure heterogeneous commodities at any hour and secure prompt doorstep delivery, significantly optimizing personal productivity. Furthermore, digital retail environments foster <strong>rigorous price transparency and market competition</strong>. Automated price-comparison algorithms empower buyers to cross-examine vendor rates within seconds, compelling retailers to optimize operational expenditures and offer substantial discount promotions. Additionally, crowdsourced review mechanisms provide <em>empirical social proof</em> through authentic testimonials and verified unboxing imagery, which progressively democratizes retail information and safeguards consumers against subpar commercial practices.</p>\n<p>On the other hand, the expansion of virtual commerce is fraught with critical liabilities. Chief among these perils is the <strong>unchecked distribution of counterfeit goods and quality discrepancies</strong>. Because prospective purchasers cannot physically verify material authenticity or assess tactile standards prior to financial transactions, unscrupulous merchants frequently capitalize on digital opacity to distribute substandard knockoffs. Compounding this predicament are <strong>acute cybersecurity vulnerabilities and sophisticated transactional fraud</strong>. Fraudulent portals routinely harvest confidential banking credentials, subjecting unwary consumers to severe monetary expropriation. Moreover, algorithmic marketing coupled with frictionless one-click payment mechanisms systematically stimulates <em>impulsive spending and financial distress</em>, trapping vulnerable demographics in cycles of chronic consumer debt.</p>\n<p>In conclusion, while online shopping constitutes an extraordinary breakthrough in retail efficiency, consumer empowerment, and market globalization, its uncritical adoption generates profound consumer protection, cybersecurity, and financial challenges. To maintain a resilient digital marketplace, regulatory authorities must enforce rigorous vendor verification mandates, while consumers must cultivate rigorous digital literacy and fiscal discipline.</p>",
-          "translation_b2": "<p>Trong suốt hai thập kỷ qua, sự phát triển bùng nổ theo cấp số nhân của <strong>các sàn thương mại điện tử</strong> đã cách mạng hóa bức tranh bán lẻ toàn cầu, chuyển đổi các giao dịch truyền thống thành những cuộc trao đổi kỹ thuật số tức thì. Mặc dù bước chuyển dịch số này mang lại những giá trị vượt bậc về <em>sự tiện lợi tối ưu</em>, <em>sự minh bạch hóa giá cả</em> và <em>danh mục sản phẩm khổng lồ</em>, nó đồng thời tạo ra những lỗ hổng đáng lo ngại, bao gồm <em>sự tràn lan của hàng giả</em>, <em>mối nguy an ninh mạng</em> và <em>chủ nghĩa tiêu dùng bốc đồng</em>.</p>\n<p>Một mặt, thương mại điện tử mang lại những lợi ích vận hành và kinh tế to lớn cho xã hội hiện đại. Trước hết, các chợ thương mại ảo đem đến <strong>sự linh hoạt tối đa về thời gian và xóa nhòa rào cản địa lý</strong>. Bằng việc vượt qua các giới hạn vật lý của các cửa hàng truyền thống, người tiêu dùng có thể mua sắm các loại hàng hóa đa dạng vào bất kỳ thời điểm nào và nhận hàng tận cửa nhà nhanh chóng, từ đó tối ưu hóa đáng kể năng suất cá nhân. Hơn nữa, môi trường bán lẻ số thúc đẩy <strong>tính minh bạch giá cả và kích thích cạnh tranh thị trường gay gắt</strong>. Các thuật toán so sánh giá tự động giúp người mua đối chiếu biểu giá giữa hàng loạt nhà bán lẻ chỉ trong vài giây, buộc các doanh nghiệp phải tinh gọn chi phí vận hành và tung ra các chương trình chiết khấu hấp dẫn. Thêm vào đó, hệ thống đánh giá từ cộng đồng cung cấp <em>bằng chứng thực chứng</em> thông qua các nhận xét khách quan và hình ảnh chụp thực tế, giúp dân chủ hóa thông tin thương mại và bảo vệ người tiêu dùng trước các hành vi gian lận.</p>\n<p>Mặt khác, sự bành trướng của thương mại ảo cũng đi kèm với những rủi ro nghiêm trọng. Đáng kể nhất trong số các mối nguy này là <strong>tình trạng buôn bán hàng giả tràn lan và sai lệch chất lượng thực tế</strong>. Do người mua không thể trực tiếp kiểm chứng độ tin cậy của chất liệu hay cảm nhận tiêu chuẩn vật lý trước khi thanh toán, các gian thương trục lợi thường tận dụng sự thiếu minh bạch của không gian mạng để tuồn hàng nhái kém chất lượng. Làm trầm trọng thêm bài toán này là <strong>các lỗ hổng an ninh mạng và thủ đoạn gian lận giao dịch tinh vi</strong>. Các trang web độc hại liên tục đánh cắp thông tin thẻ ngân hàng nhạy cảm, đẩy người dùng nhẹ dạ vào tình cảnh bị chiếm đoạt tài sản nặng nề. Ngoài ra, thuật toán tiếp thị kết hợp với quy trình thanh toán một chạm dễ kích thích <em>thói quen chi tiêu bốc đồng và áp lực tài chính</em>, khiến các nhóm người tiêu dùng dễ bị tổn thương rơi vào vòng luẩn quẩn của nợ nần tiêu dùng triền miên.</p>\n<p>Tóm lại, mặc dù mua sắm trực tuyến là một bước đột phá phi thường trong hiệu quả bán lẻ, trao quyền cho người tiêu dùng và toàn cầu hóa thị trường, việc lạm dụng nó lại làm nảy sinh nhiều thách thức sâu sắc về bảo vệ người tiêu dùng, an ninh mạng và kiểm soát tài chính. Để duy trì một thị trường kỹ thuật số lành mạnh, các cơ quan quản lý cần thực thi các quy định xác minh người bán nghiêm ngặt, trong khi người tiêu dùng phải trau dồi hiểu biết số vững vàng và kỷ luật tài chính tự giác.</p>"
+          "sample_b1": "In recent years, <strong>online shopping</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, shopping on the Internet has several advantages.</strong> One major benefit is that <strong><em>online shopping is convenient and saves travel time</em></strong>. This is because customers can order goods at home and get packages delivered to their doors without going to stores. Another positive aspect is that <strong><em>buyers can easily compare prices and find discounts</em></strong>. The main reason is that online shops often offer vouchers and free shipping, so people can choose the best price. A further good point is that <strong><em>online platforms provide many different products</em></strong>. For example, shoppers can buy clothes or gifts from other cities.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>customers may buy fake or poor-quality products</em></strong>. This is because buyers cannot touch or try on items before paying, so the real item may look different from photos. Another negative aspect is that <strong><em>online shopping has risks of losing personal data</em></strong>. In fact, some fake websites can steal bank account information or cheat buyers. Finally, <strong><em>people can easily waste money on unnecessary things</em></strong>. As a result, frequent sales tempt many shoppers to buy too much every month.\n\nIn conclusion, <strong>online shopping</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>mua sắm trực tuyến</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, mua sắm trên mạng có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>mua sắm trực tuyến rất tiện lợi và tiết kiệm thời gian đi lại</em></strong>. Điều này là vì khách hàng có thể đặt mua hàng hóa tại nhà và được giao hàng tận cửa mà không cần đến cửa hàng. Một khía cạnh tích cực khác là <strong><em>người mua dễ dàng so sánh giá cả và tìm ưu đãi giảm giá</em></strong>. Lý do chính là các gian hàng trực tuyến thường tặng phiếu giảm giá và miễn phí vận chuyển, nên mọi người có thể chọn mức giá tốt nhất. Một điểm tốt nữa là <strong><em>các sàn trực tuyến cung cấp nhiều sản phẩm đa dạng</em></strong>. Ví dụ, người mua có thể đặt quần áo hoặc quà tặng từ thành phố khác.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>khách hàng có thể mua phải hàng giả hoặc hàng kém chất lượng</em></strong>. Điều này là do người mua không thể sờ trực tiếp hoặc thử đồ trước khi trả tiền, nên món đồ thực tế có thể khác với ảnh. Một điểm tiêu cực khác là <strong><em>mua sắm trực tuyến có rủi ro mất thông tin cá nhân</em></strong>. Thực tế, một số trang web giả mạo có thể đánh cắp thông tin tài khoản ngân hàng hoặc lừa người mua. Cuối cùng, <strong><em>mọi người rất dễ lãng phí tiền bạc vào những món đồ không cần thiết</em></strong>. Kết quả là các đợt giảm giá liên tục cám dỗ nhiều người mua sắm quá nhiều mỗi tháng.\n\nTóm lại, <strong>mua sắm trực tuyến</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó mang lại những tác động khác nhau đến đời sống con người. Vì vậy, cần cân nhắc kỹ cả hai mặt trước khi đưa ra quyết định.",
+          "sample_b2": "Over the past two decades, the exponential proliferation of <strong>e-commerce platforms</strong> has revolutionized global retail landscapes, transforming conventional consumer transactions into instantaneous digital exchanges. While this digital transition delivers remarkable merits regarding <em>unparalleled convenience</em>, <em>transparent price discovery</em>, and <em>extensive product diversity</em>, it concurrently presents formidable vulnerabilities, encompassing <em>counterfeit proliferation</em>, <em>cybersecurity hazards</em>, and <em>compulsive consumerism</em>.\n\nOn the one hand, e-commerce confers immense operational and economic dividends upon modern society. Primarily, digital marketplaces offer <strong>unrivaled geographical convenience and temporal flexibility</strong>. By bypassing the physical constraints of conventional brick-and-mortar storefronts, consumers can procure heterogeneous commodities at any hour and secure prompt doorstep delivery, significantly optimizing personal productivity. Furthermore, digital retail environments foster <strong>rigorous price transparency and market competition</strong>. Automated price-comparison algorithms empower buyers to cross-examine vendor rates within seconds, compelling retailers to optimize operational expenditures and offer substantial discount promotions. Additionally, crowdsourced review mechanisms provide <em>empirical social proof</em> through authentic testimonials and verified unboxing imagery, which progressively democratizes retail information and safeguards consumers against subpar commercial practices.\n\nOn the other hand, the expansion of virtual commerce is fraught with critical liabilities. Chief among these perils is the <strong>unchecked distribution of counterfeit goods and quality discrepancies</strong>. Because prospective purchasers cannot physically verify material authenticity or assess tactile standards prior to financial transactions, unscrupulous merchants frequently capitalize on digital opacity to distribute substandard knockoffs. Compounding this predicament are <strong>acute cybersecurity vulnerabilities and sophisticated transactional fraud</strong>. Fraudulent portals routinely harvest confidential banking credentials, subjecting unwary consumers to severe monetary expropriation. Moreover, algorithmic marketing coupled with frictionless one-click payment mechanisms systematically stimulates <em>impulsive spending and financial distress</em>, trapping vulnerable demographics in cycles of chronic consumer debt.\n\nIn conclusion, while online shopping constitutes an extraordinary breakthrough in retail efficiency, consumer empowerment, and market globalization, its uncritical adoption generates profound consumer protection, cybersecurity, and financial challenges. To maintain a resilient digital marketplace, regulatory authorities must enforce rigorous vendor verification mandates, while consumers must cultivate rigorous digital literacy and fiscal discipline.",
+          "translation_b2": "Trong suốt hai thập kỷ qua, sự phát triển bùng nổ theo cấp số nhân của <strong>các sàn thương mại điện tử</strong> đã cách mạng hóa bức tranh bán lẻ toàn cầu, chuyển đổi các giao dịch truyền thống thành những cuộc trao đổi kỹ thuật số tức thì. Mặc dù bước chuyển dịch số này mang lại những giá trị vượt bậc về <em>sự tiện lợi tối ưu</em>, <em>sự minh bạch hóa giá cả</em> và <em>danh mục sản phẩm khổng lồ</em>, nó đồng thời tạo ra những lỗ hổng đáng lo ngại, bao gồm <em>sự tràn lan của hàng giả</em>, <em>mối nguy an ninh mạng</em> và <em>chủ nghĩa tiêu dùng bốc đồng</em>.\n\nMột mặt, thương mại điện tử mang lại những lợi ích vận hành và kinh tế to lớn cho xã hội hiện đại. Trước hết, các chợ thương mại ảo đem đến <strong>sự linh hoạt tối đa về thời gian và xóa nhòa rào cản địa lý</strong>. Bằng việc vượt qua các giới hạn vật lý của các cửa hàng truyền thống, người tiêu dùng có thể mua sắm các loại hàng hóa đa dạng vào bất kỳ thời điểm nào và nhận hàng tận cửa nhà nhanh chóng, từ đó tối ưu hóa đáng kể năng suất cá nhân. Hơn nữa, môi trường bán lẻ số thúc đẩy <strong>tính minh bạch giá cả và kích thích cạnh tranh thị trường gay gắt</strong>. Các thuật toán so sánh giá tự động giúp người mua đối chiếu biểu giá giữa hàng loạt nhà bán lẻ chỉ trong vài giây, buộc các doanh nghiệp phải tinh gọn chi phí vận hành và tung ra các chương trình chiết khấu hấp dẫn. Thêm vào đó, hệ thống đánh giá từ cộng đồng cung cấp <em>bằng chứng thực chứng</em> thông qua các nhận xét khách quan và hình ảnh chụp thực tế, giúp dân chủ hóa thông tin thương mại và bảo vệ người tiêu dùng trước các hành vi gian lận.\n\nMặt khác, sự bành trướng của thương mại ảo cũng đi kèm với những rủi ro nghiêm trọng. Đáng kể nhất trong số các mối nguy này là <strong>tình trạng buôn bán hàng giả tràn lan và sai lệch chất lượng thực tế</strong>. Do người mua không thể trực tiếp kiểm chứng độ tin cậy của chất liệu hay cảm nhận tiêu chuẩn vật lý trước khi thanh toán, các gian thương trục lợi thường tận dụng sự thiếu minh bạch của không gian mạng để tuồn hàng nhái kém chất lượng. Làm trầm trọng thêm bài toán này là <strong>các lỗ hổng an ninh mạng và thủ đoạn gian lận giao dịch tinh vi</strong>. Các trang web độc hại liên tục đánh cắp thông tin thẻ ngân hàng nhạy cảm, đẩy người dùng nhẹ dạ vào tình cảnh bị chiếm đoạt tài sản nặng nề. Ngoài ra, thuật toán tiếp thị kết hợp với quy trình thanh toán một chạm dễ kích thích <em>thói quen chi tiêu bốc đồng và áp lực tài chính</em>, khiến các nhóm người tiêu dùng dễ bị tổn thương rơi vào vòng luẩn quẩn của nợ nần tiêu dùng triền miên.\n\nTóm lại, mặc dù mua sắm trực tuyến là một bước đột phá phi thường trong hiệu quả bán lẻ, trao quyền cho người tiêu dùng và toàn cầu hóa thị trường, việc lạm dụng nó lại làm nảy sinh nhiều thách thức sâu sắc về bảo vệ người tiêu dùng, an ninh mạng và kiểm soát tài chính. Để duy trì một thị trường kỹ thuật số lành mạnh, các cơ quan quản lý cần thực thi các quy định xác minh người bán nghiêm ngặt, trong khi người tiêu dùng phải trau dồi hiểu biết số vững vàng và kỷ luật tài chính tự giác."
         }
       },
       {
@@ -78604,10 +86136,10 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "<p>In recent decades, <strong>urbanization</strong> has become a prominent global trend as millions of people relocate from rural villages to big cities. While this migration process brings notable advantages in terms of <em>employment opportunities</em> and <em>modern infrastructure</em>, it also creates significant drawbacks regarding <em>traffic congestion</em> and <em>environmental pollution</em>.</p>\n<p>On the one hand, urbanization offers several substantial benefits for city dwellers. Firstly, cities are home to numerous companies, factories, and service businesses, which generates <strong>abundant job opportunities</strong>. As a result, workers from the countryside can easily secure stable employment with higher wages to improve their living standards. Secondly, urban centers provide <strong>superior access to essential public services</strong>, including prestigious universities and modern hospitals. Residents can enjoy comprehensive educational programs and receive prompt medical treatment whenever health problems arise. Furthermore, cities boast <em>vibrant entertainment amenities</em> such as shopping malls, cinemas, and cultural exhibitions, allowing people to relax effectively after busy working hours.</p>\n<p>On the other hand, rapid urban expansion brings noticeable challenges. The most prominent disadvantage is <strong>severe traffic congestion</strong> during rush hours. Because a vast number of personal vehicles travel on narrow streets simultaneously, commuters often spend hours stuck in exhausting gridlock. Additionally, urban living environments suffer from <strong>serious air and noise pollution</strong> caused by industrial emissions and continuous transport activities. Inhaling toxic fumes daily poses acute risks of respiratory illnesses. Finally, the high cost of living and expensive housing make it difficult for average-income families to afford decent accommodation, which can lead to the growth of underprivileged residential areas.</p>\n<p>In conclusion, although urbanization fosters considerable economic growth and modern convenience, it also triggers serious transportation, environmental, and housing issues. Municipal authorities should implement balanced policies to ensure sustainable urban development.</p>",
-          "translation_b1": "<p>Trong những thập kỷ gần đây, <strong>đô thị hóa</strong> đã trở thành một xu hướng toàn cầu nổi bật khi hàng triệu người chuyển từ làng quê lên các thành phố lớn. Dù quá trình di cư này mang lại nhiều lợi thế đáng kể về <em>cơ hội việc làm</em> và <em>cơ sở hạ tầng hiện đại</em>, nó cũng tạo ra những bất lợi lớn liên quan đến <em>ùn tắc giao thông</em> và <em>ô nhiễm môi trường</em>.</p>\n<p>Một mặt, đô thị hóa mang lại một số lợi ích thiết thực cho người dân thành thị. Thứ nhất, các thành phố là nơi tập trung của vô số công ty, nhà máy và doanh nghiệp dịch vụ, tạo ra <strong>nhiều cơ hội việc làm phong phú</strong>. Nhờ đó, người lao động từ nông thôn có thể dễ dàng tìm kiếm việc làm ổn định với mức lương cao hơn để nâng cao đời sống. Thứ hai, các trung tâm đô thị đem lại <strong>khả năng tiếp cận vượt trội đối với các dịch vụ công thiết yếu</strong>, bao gồm các trường đại học danh tiếng và các bệnh viện hiện đại. Cư dân có thể tận hưởng các chương trình giáo dục toàn diện và được chữa bệnh kịp thời khi có vấn đề sức khỏe. Hơn nữa, thành phố sở hữu <em>các tiện ích giải trí sôi động</em> như trung tâm thương mại, rạp chiếu phim và triển lãm văn hóa, giúp mọi người thư giãn hiệu quả sau những giờ làm việc bận rộn.</p>\n<p>Mặt khác, sự phát triển đô thị nhanh chóng cũng mang lại những thách thức rõ rệt. Bất lợi nổi bật nhất là <strong>tình trạng ùn tắc giao thông nghiêm trọng</strong> trong giờ cao điểm. Do số lượng lớn phương tiện cá nhân lưu thông trên đường cùng lúc, người tham gia giao thông thường phải chôn chân hàng giờ liền trong cảnh tắc đường mệt mỏi. Thêm vào đó, môi trường sống đô thị phải gánh chịu <strong>ô nhiễm không khí và tiếng ồn nặng nề</strong> do khí thải công nghiệp và các hoạt động vận tải liên tục. Việc hít thở khói độc mỗi ngày tiềm ẩn nguy cơ cao về các bệnh đường hô hấp. Cuối cùng, chi phí sinh hoạt đắt đỏ và giá nhà cao khiến các gia đình có thu nhập trung bình gặp khó khăn trong việc chi trả nơi ở tươm tất, có thể dẫn tới sự lan rộng của các khu dân cư nghèo nàn.</p>\n<p>Tóm lại, mặc dù đô thị hóa thúc đẩy tăng trưởng kinh tế mạnh mẽ và sự tiện nghi hiện đại, nó cũng làm nảy sinh các vấn đề nghiêm trọng về giao thông, môi trường và nhà ở. Chính quyền các đô thị cần triển khai những chính sách cân bằng để đảm bảo phát triển đô thị bền vững.</p>",
-          "sample_b2": "<p>Over the past few decades, <strong>urbanization</strong> has accelerated at an unprecedented pace across the globe, driven by demographic migration from rural peripheries to metropolitan regions. While this socio-economic transition acts as an indispensable engine of <em>macroeconomic dynamism</em> and <em>infrastructural modernization</em>, it concurrently induces acute dilemmas concerning <em>vehicular gridlock</em>, <em>environmental degradation</em>, and <em>socio-spatial inequalities</em>.</p>\n<p>On the one hand, urbanization yields profound economic and societal dividends. Primarily, the geographical agglomeration of corporate headquarters, research institutions, and manufacturing facilities fosters <strong>robust industrial synergies and diversifies professional employment prospects</strong>. Consequently, skilled laborers and ambitious graduates gain unfettered access to upward socio-economic mobility and lucrative career trajectories. Furthermore, metropolises function as epicenters of <strong>superior public infrastructure and specialized amenities</strong>. High-density urban clusters rationalize the provision of capital-intensive investments, such as advanced underground rapid transit networks, tertiary medical centers equipped with cutting-edge diagnostics, and premier universities. Additionally, the convergence of diverse demographic groups cultivates a <em>multifaceted cultural milieu</em>, broadening residents' intellectual horizons through cosmopolitan exchanges and enriching lifestyle options.</p>\n<p>On the other hand, unrestrained urban sprawl imposes severe strains on physical and ecological systems. Foremost among these challenges is <strong>chronic transportation paralysis and systemic infrastructure overload</strong>. As private vehicle ownership exponentially expands, archaic street configurations inevitably succumb to perpetual gridlock, squandering millions of productive working hours and inflating logistics expenses. Equally alarming is <strong>extensive environmental deterioration and the amplification of the urban heat island effect</strong>. Dense concentrations of concrete architecture combined with heavy vehicular exhaust severely diminish ambient air quality, precipitating widespread cardiopulmonary disorders. Moreover, unchecked property speculation precipitates <strong>acute housing unaffordability</strong>, inexorably segregating vulnerable low-income migrants into substandard informal settlements that lack basic sanitation and certified utilities, thereby exacerbating social insecurity.</p>\n<p>In conclusion, while urbanization constitutes a monumental catalyst for technological innovation, economic prosperity, and enhanced living standards, its uncoordinated progression poses formidable infrastructural, ecological, and societal hazards. To mitigate these adverse repercussions, governments must execute integrated urban master plans emphasizing green transit, affordable housing, and decentralized regional growth.</p>",
-          "translation_b2": "<p>Trong vài thập kỷ qua, <strong>đô thị hóa</strong> đã diễn ra với tốc độ chưa từng có trên toàn cầu, được thúc đẩy bởi làn sóng di dân từ các vùng nông thôn ngoại vi về các khu vực đại đô thị. Mặc dù quá trình chuyển dịch kinh tế - xã hội này đóng vai trò là động lực không thể thiếu cho <em>sự năng động kinh tế vĩ mô</em> và <em>hiện đại hóa cơ sở hạ tầng</em>, nó đồng thời gây ra những bài toán nan giải gay gắt liên quan đến <em>ùn tắc giao thông</em>, <em>suy thoái môi trường</em> và <em>bất bình đẳng không gian - xã hội</em>.</p>\n<p>Một mặt, đô thị hóa mang lại những lợi ích kinh tế và xã hội vô cùng sâu sắc. Trước hết, sự tập trung về mặt địa lý của các trụ sở doanh nghiệp, viện nghiên cứu và cơ sở sản xuất thúc đẩy <strong>sự cộng hưởng công nghiệp mạnh mẽ và đa dạng hóa cơ hội việc làm chuyên nghiệp</strong>. Do đó, lực lượng lao động có tay nghề và sinh viên tốt nghiệp nhiều hoài bão có cơ hội rộng mở để thăng tiến xã hội và đạt được những lộ trình sự nghiệp thu nhập cao. Hơn nữa, các đại đô thị đóng vai trò là tâm điểm của <strong>cơ sở hạ tầng công cộng vượt trội và các tiện ích chuyên sâu</strong>. Mật độ dân cư đô thị cao giúp tối ưu hóa hiệu quả của các khoản đầu tư thâm dụng vốn, chẳng hạn như hệ thống tàu điện ngầm hiện đại, các trung tâm y tế chuyên sâu được trang bị máy móc chẩn đoán tối tân, và các trường đại học hàng đầu. Ngoài ra, sự hội tụ của nhiều nhóm cư dân đa dạng kiến tạo nên một <em>bức tranh văn hóa phong phú</em>, mở rộng chân trời tri thức của người dân thông qua giao lưu mang tầm quốc tế và đa dạng hóa phong cách sống.</p>\n<p>Mặt khác, sự bành trướng đô thị thiếu kiểm soát gây áp lực nặng nề lên các hệ thống vật chất và sinh thái. Thách thức hàng đầu trong số này là <strong>tình trạng tê liệt giao thông kinh niên và sự quá tải hạ tầng mang tính hệ thống</strong>. Khi lượng sở hữu xe cá nhân tăng theo cấp số nhân, cấu trúc đường sá không theo kịp tất yếu dẫn đến tắc nghẽn giao thông cục bộ triền miên, làm lãng phí hàng triệu giờ lao động hữu ích và đẩy chi phí logistics lên cao. Đáng báo động không kém là <strong>sự suy thoái môi trường trên diện rộng và sự gia tăng của hiệu ứng đảo nhiệt đô thị</strong>. Mật độ bê tông hóa dày đặc kết hợp với khí thải xe cộ nặng nề làm suy giảm nghiêm trọng chất lượng không khí, dẫn đến các bệnh về tim mạch và hô hấp lan rộng. Hơn nữa, tình trạng đầu cơ bất động sản đẩy <strong>giá nhà ở vượt xa khả năng chi trả</strong>, vô hình trung đẩy những người di cư nghèo vào các khu nhà tự phát tồi tàn thiếu thốn điều kiện vệ sinh và điện nước an toàn, từ đó làm gia tăng bất an ninh xã hội.</p>\n<p>Tóm lại, mặc dù đô thị hóa là đòn bẩy vĩ đại cho đổi mới công nghệ, thịnh vượng kinh tế và nâng tầm chất lượng sống, sự phát triển thiếu đồng bộ của nó lại tiềm ẩn nhiều nguy cơ hạ tầng, sinh thái và xã hội nghiêm trọng. Để giảm thiểu những hệ lụy tiêu cực này, chính phủ các nước cần thực thi các quy hoạch tổng thể tích hợp, chú trọng vào giao thông xanh, nhà ở xã hội hợp túi tiền và phân quyền phát triển vùng cân bằng.</p>"
+          "sample_b1": "In recent years, <strong>urbanization</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, the growth of cities has several advantages.</strong> One major benefit is that <strong><em>urbanization creates many job opportunities for workers</em></strong>. This is because many factories and offices are in big cities, so rural people can find jobs with better pay. Another positive aspect is that <strong><em>city residents can access good education and healthcare</em></strong>. The main reason is that cities have top universities and modern hospitals where people can study well and receive quick treatment. A further good point is that <strong><em>people in cities enjoy modern roads and entertainment centers</em></strong>. For example, malls and parks give residents many places to relax.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>urbanization causes serious traffic jams during rush hours</em></strong>. This is because too many cars and motorbikes travel on narrow streets at the same time, forcing commuters to wait long. Another negative aspect is that <strong><em>cities suffer from air and noise pollution</em></strong>. In fact, smoke from vehicles and factories makes the air dirty and harms health. Finally, <strong><em>housing prices and living costs in cities are very high</em></strong>. As a result, low-income workers struggle to rent homes and face financial pressure.\n\nIn conclusion, <strong>urbanization</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>đô thị hóa</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, nhưng cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai mặt của chủ đề này.</strong>\n\n<strong>Một mặt, sự phát triển của các thành phố có một số thuận lợi.</strong> Một lợi ích lớn là <strong><em>đô thị hóa tạo ra nhiều cơ hội việc làm cho người lao động</em></strong>. Điều này là vì nhiều nhà máy và văn phòng đặt tại các thành phố lớn, nên người dân nông thôn có thể tìm việc làm với thu nhập tốt hơn. Một khía cạnh tích cực khác là <strong><em>cư dân thành thị được tiếp cận giáo dục và y tế tốt</em></strong>. Lý do chính là thành phố có các trường đại học hàng đầu và bệnh viện hiện đại giúp mọi người học tập tốt và được chữa trị nhanh chóng. Một điểm tốt nữa là <strong><em>người dân thành phố được hưởng đường sá hiện đại và khu giải trí</em></strong>. Ví dụ, trung tâm thương mại và công viên mang lại nhiều nơi thư giãn.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>đô thị hóa gây ùn tắc giao thông nghiêm trọng vào giờ cao điểm</em></strong>. Điều này là do quá nhiều ô tô và xe máy đi lại trên đường phố chật hẹp cùng lúc, khiến người đi làm phải chờ đợi hàng giờ. Một điểm tiêu cực khác là <strong><em>thành phố phải chịu ô nhiễm không khí và tiếng ồn</em></strong>. Thực tế, khói bụi từ xe cộ và nhà máy làm bầu không khí ô nhiễm và gây vấn đề sức khỏe. Cuối cùng, <strong><em>giá nhà ở và chi phí sinh hoạt tại đô thị rất cao</em></strong>. Kết quả là người lao động thu nhập thấp rất vất vả để thuê nhà và chịu áp lực tài chính.\n\nTóm lại, <strong>đô thị hóa</strong> có cả thuận lợi và bất lợi. Những điểm này cho thấy nó mang lại những tác động khác nhau đến đời sống con người. Vì vậy, cần cân nhắc kỹ cả hai mặt trước khi đưa ra quyết định.",
+          "sample_b2": "Over the past few decades, <strong>urbanization</strong> has accelerated at an unprecedented pace across the globe, driven by demographic migration from rural peripheries to metropolitan regions. While this socio-economic transition acts as an indispensable engine of <em>macroeconomic dynamism</em> and <em>infrastructural modernization</em>, it concurrently induces acute dilemmas concerning <em>vehicular gridlock</em>, <em>environmental degradation</em>, and <em>socio-spatial inequalities</em>.\n\nOn the one hand, urbanization yields profound economic and societal dividends. Primarily, the geographical agglomeration of corporate headquarters, research institutions, and manufacturing facilities fosters <strong>robust industrial synergies and diversifies professional employment prospects</strong>. Consequently, skilled laborers and ambitious graduates gain unfettered access to upward socio-economic mobility and lucrative career trajectories. Furthermore, metropolises function as epicenters of <strong>superior public infrastructure and specialized amenities</strong>. High-density urban clusters rationalize the provision of capital-intensive investments, such as advanced underground rapid transit networks, tertiary medical centers equipped with cutting-edge diagnostics, and premier universities. Additionally, the convergence of diverse demographic groups cultivates a <em>multifaceted cultural milieu</em>, broadening residents' intellectual horizons through cosmopolitan exchanges and enriching lifestyle options.\n\nOn the other hand, unrestrained urban sprawl imposes severe strains on physical and ecological systems. Foremost among these challenges is <strong>chronic transportation paralysis and systemic infrastructure overload</strong>. As private vehicle ownership exponentially expands, archaic street configurations inevitably succumb to perpetual gridlock, squandering millions of productive working hours and inflating logistics expenses. Equally alarming is <strong>extensive environmental deterioration and the amplification of the urban heat island effect</strong>. Dense concentrations of concrete architecture combined with heavy vehicular exhaust severely diminish ambient air quality, precipitating widespread cardiopulmonary disorders. Moreover, unchecked property speculation precipitates <strong>acute housing unaffordability</strong>, inexorably segregating vulnerable low-income migrants into substandard informal settlements that lack basic sanitation and certified utilities, thereby exacerbating social insecurity.\n\nIn conclusion, while urbanization constitutes a monumental catalyst for technological innovation, economic prosperity, and enhanced living standards, its uncoordinated progression poses formidable infrastructural, ecological, and societal hazards. To mitigate these adverse repercussions, governments must execute integrated urban master plans emphasizing green transit, affordable housing, and decentralized regional growth.",
+          "translation_b2": "Trong vài thập kỷ qua, <strong>đô thị hóa</strong> đã diễn ra với tốc độ chưa từng có trên toàn cầu, được thúc đẩy bởi làn sóng di dân từ các vùng nông thôn ngoại vi về các khu vực đại đô thị. Mặc dù quá trình chuyển dịch kinh tế - xã hội này đóng vai trò là động lực không thể thiếu cho <em>sự năng động kinh tế vĩ mô</em> và <em>hiện đại hóa cơ sở hạ tầng</em>, nó đồng thời gây ra những bài toán nan giải gay gắt liên quan đến <em>ùn tắc giao thông</em>, <em>suy thoái môi trường</em> và <em>bất bình đẳng không gian - xã hội</em>.\n\nMột mặt, đô thị hóa mang lại những lợi ích kinh tế và xã hội vô cùng sâu sắc. Trước hết, sự tập trung về mặt địa lý của các trụ sở doanh nghiệp, viện nghiên cứu và cơ sở sản xuất thúc đẩy <strong>sự cộng hưởng công nghiệp mạnh mẽ và đa dạng hóa cơ hội việc làm chuyên nghiệp</strong>. Do đó, lực lượng lao động có tay nghề và sinh viên tốt nghiệp nhiều hoài bão có cơ hội rộng mở để thăng tiến xã hội và đạt được những lộ trình sự nghiệp thu nhập cao. Hơn nữa, các đại đô thị đóng vai trò là tâm điểm của <strong>cơ sở hạ tầng công cộng vượt trội và các tiện ích chuyên sâu</strong>. Mật độ dân cư đô thị cao giúp tối ưu hóa hiệu quả của các khoản đầu tư thâm dụng vốn, chẳng hạn như hệ thống tàu điện ngầm hiện đại, các trung tâm y tế chuyên sâu được trang bị máy móc chẩn đoán tối tân, và các trường đại học hàng đầu. Ngoài ra, sự hội tụ của nhiều nhóm cư dân đa dạng kiến tạo nên một <em>bức tranh văn hóa phong phú</em>, mở rộng chân trời tri thức của người dân thông qua giao lưu mang tầm quốc tế và đa dạng hóa phong cách sống.\n\nMặt khác, sự bành trướng đô thị thiếu kiểm soát gây áp lực nặng nề lên các hệ thống vật chất và sinh thái. Thách thức hàng đầu trong số này là <strong>tình trạng tê liệt giao thông kinh niên và sự quá tải hạ tầng mang tính hệ thống</strong>. Khi lượng sở hữu xe cá nhân tăng theo cấp số nhân, cấu trúc đường sá không theo kịp tất yếu dẫn đến tắc nghẽn giao thông cục bộ triền miên, làm lãng phí hàng triệu giờ lao động hữu ích và đẩy chi phí logistics lên cao. Đáng báo động không kém là <strong>sự suy thoái môi trường trên diện rộng và sự gia tăng của hiệu ứng đảo nhiệt đô thị</strong>. Mật độ bê tông hóa dày đặc kết hợp với khí thải xe cộ nặng nề làm suy giảm nghiêm trọng chất lượng không khí, dẫn đến các bệnh về tim mạch và hô hấp lan rộng. Hơn nữa, tình trạng đầu cơ bất động sản đẩy <strong>giá nhà ở vượt xa khả năng chi trả</strong>, vô hình trung đẩy những người di cư nghèo vào các khu nhà tự phát tồi tàn thiếu thốn điều kiện vệ sinh và điện nước an toàn, từ đó làm gia tăng bất an ninh xã hội.\n\nTóm lại, mặc dù đô thị hóa là đòn bẩy vĩ đại cho đổi mới công nghệ, thịnh vượng kinh tế và nâng tầm chất lượng sống, sự phát triển thiếu đồng bộ của nó lại tiềm ẩn nhiều nguy cơ hạ tầng, sinh thái và xã hội nghiêm trọng. Để giảm thiểu những hệ lụy tiêu cực này, chính phủ các nước cần thực thi các quy hoạch tổng thể tích hợp, chú trọng vào giao thông xanh, nhà ở xã hội hợp túi tiền và phân quyền phát triển vùng cân bằng."
         },
         "context_vi": "Trong những thập kỷ gần đây, đô thị hóa đã trở thành một xu hướng toàn cầu nổi bật khi hàng triệu người di chuyển từ các vùng nông thôn đến các thành phố lớn và các trung tâm đại đô thị. Mặc dù quá trình này thúc đẩy sự phát triển kinh tế mạnh mẽ, cung cấp cơ sở hạ tầng hiện đại và mở rộng cơ hội việc làm, nó cũng tạo ra những gánh nặng đáng kể về mặt xã hội, môi trường và hạ tầng đô thị.",
         "prompt_vi": "Hãy viết một bài luận gửi đến một độc giả có học thức để thảo luận về những thuận lợi và bất lợi của đô thị hóa. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
