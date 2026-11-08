@@ -74592,6 +74592,2131 @@ const ESSAY_DATA = [
         "context": "Social media platforms have become an important part of daily life for many people. They allow users to communicate, share information, access entertainment, and stay updated on current events. However, excessive use of social media may lead to problems such as distraction, reduced productivity, mental health issues, and less face-to-face interaction. As a result, many people believe that limiting the amount of time spent on social media is necessary",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of limiting time on social media platforms. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
+      },
+      {
+        "id": 71,
+        "title_en": "Urbanization",
+        "title_vi": "Đô thị hóa",
+        "tags": "",
+        "context": "In recent decades, urbanization has become a prominent global trend as millions of people relocate from rural areas to major cities and metropolitan centers. While this process drives substantial economic expansion and provides modern infrastructure and employment opportunities, it also creates significant societal, environmental, and infrastructural burdens.",
+        "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of urbanization. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "details": {
+          "reference_articles": {
+            "vi": [
+              {
+                "title": "Đô thị hóa tại Việt Nam: Cơ hội và thách thức phát triển bền vững",
+                "source": "Tạp chí Xây dựng (Bộ Xây dựng)",
+                "url": "https://tapchixaydung.vn/do-thi-hoa-viet-nam-co-hoi-va-thach-thuc"
+              },
+              {
+                "title": "Tác động của quá trình đô thị hóa nhanh đến môi trường và hạ tầng xã hội",
+                "source": "Viện Chiến lược và Chính sách Tài nguyên và Môi trường",
+                "url": "https://isponre.gov.vn/tac-dong-cua-do-thi-hoa-nhanh-den-moi-truong"
+              },
+              {
+                "title": "Giải pháp phát triển đô thị thông minh và nâng cao chất lượng cuộc sống cư dân",
+                "source": "Báo Nhân Dân điện tử",
+                "url": "https://nhandan.vn/phat-trien-do-thi-thong-minh-ben-vung"
+              }
+            ],
+            "en": [
+              {
+                "title": "The Global Dynamics of Urbanization: Economic Opportunities and Infrastructure Pressures",
+                "source": "UN-Habitat (United Nations Human Settlements Programme)",
+                "url": "https://unhabitat.org/global-report-on-urbanization-and-cities"
+              },
+              {
+                "title": "Urban Growth and Environmental Sustainability: Balancing Economic Expansion and Quality of Life",
+                "source": "World Bank Urban Development Series",
+                "url": "https://www.worldbank.org/en/topic/urbandevelopment/overview"
+              },
+              {
+                "title": "Challenges of Rapid Urban Transition in Developing Countries: Slums, Congestion, and Public Services",
+                "source": "Brookings Institution",
+                "url": "https://www.brookings.edu/research/challenges-of-rapid-urbanization"
+              }
+            ]
+          },
+          "vocab_step": {
+            "theme": "Đô thị hóa (Urbanization)",
+            "overview": "Hệ thống từ vựng và cấu trúc diễn đạt chuyên sâu cho chủ đề Đô thị hóa (Urbanization), bao gồm 20 từ đơn cốt lõi kèm phiên âm IPA, từ loại, cấp độ, họ từ (Word Family) và 10 nhóm Collocations bám sát 100% các luận điểm Lợi ích và Bất lợi ở cả hai cấp độ B1 và B2.",
+            "single_words": [
+              {
+                "word": "urbanization",
+                "ipa": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đô thị hóa, quá trình đô thị hóa",
+                "example_en": "Rapid urbanization has transformed rural landscapes into vibrant metropolitan hubs.",
+                "example_vi": "Quá trình đô thị hóa nhanh chóng đã biến đổi các vùng nông thôn thành các trung tâm đại đô thị sôi động.",
+                "family": "urban (adj), urbanize (v)"
+              },
+              {
+                "word": "metropolis",
+                "ipa": "/məˈtrɒp.əl.ɪs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "đại đô thị, thành phố lớn",
+                "example_en": "The capital has expanded into a sprawling metropolis with over eight million residents.",
+                "example_vi": "Thủ đô đã mở rộng thành một đại đô thị trải rộng với hơn tám triệu dân.",
+                "family": "metropolitan (adj)"
+              },
+              {
+                "word": "infrastructure",
+                "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cơ sở hạ tầng (giao thông, điện nước, viễn thông)",
+                "example_en": "Substantial investment in transport infrastructure is essential to relieve urban traffic jams.",
+                "example_vi": "Đầu tư mạnh mẽ vào cơ sở hạ tầng giao thông là điều cốt yếu để giải tỏa các vụ ùn tắc tại đô thị.",
+                "family": "infrastructural (adj)"
+              },
+              {
+                "word": "migration",
+                "ipa": "/maɪˈɡreɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự di cư, luồng di dân",
+                "example_en": "Rural-to-urban migration has significantly increased the workforce in industrial zones.",
+                "example_vi": "Luồng di cư từ nông thôn ra thành thị đã gia tăng đáng kể lực lượng lao động tại các khu công nghiệp.",
+                "family": "migrate (v), migrant (n)"
+              },
+              {
+                "word": "amenity",
+                "ipa": "/əˈmiː.nə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tiện ích, tiện nghi công cộng",
+                "example_en": "City dwellers enjoy convenient access to modern amenities such as parks and gyms.",
+                "example_vi": "Cư dân thành thị được hưởng lợi từ việc tiếp cận thuận tiện các tiện ích hiện đại như công viên và phòng tập gym.",
+                "family": "amenities (n.pl)"
+              },
+              {
+                "word": "congestion",
+                "ipa": "/kənˈdʒes.tʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tắc nghẽn, tình trạng ùn ứ",
+                "example_en": "Traffic congestion during peak hours incurs heavy economic and psychological costs.",
+                "example_vi": "Tình trạng ùn tắc giao thông vào giờ cao điểm gây ra tổn thất nặng nề về kinh tế và tâm lý.",
+                "family": "congest (v), congested (adj)"
+              },
+              {
+                "word": "overcrowding",
+                "ipa": "/ˌəʊ.vəˈkraʊ.dɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tình trạng quá tải dân số, sự đông đúc quá mức",
+                "example_en": "Overcrowding in metropolitan hospitals severely strains healthcare personnel.",
+                "example_vi": "Tình trạng quá tải tại các bệnh viện lớn tạo áp lực nặng nề lên đội ngũ nhân viên y tế.",
+                "family": "overcrowded (adj)"
+              },
+              {
+                "word": "slum",
+                "ipa": "/slʌm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khu ổ chuột, khu nhà ổ chuột",
+                "example_en": "Unplanned urbanization often results in the emergence of impoverished slums.",
+                "example_vi": "Đô thị hóa thiếu quy hoạch thường dẫn tới sự xuất hiện của những khu ổ chuột nghèo nàn.",
+                "family": "slum-dweller (n)"
+              },
+              {
+                "word": "sanitation",
+                "ipa": "/ˌsæn.ɪˈteɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hệ thống vệ sinh môi trường",
+                "example_en": "Inadequate sanitation systems in crowded neighborhoods trigger public health hazards.",
+                "example_vi": "Hệ thống vệ sinh thiếu thốn tại các khu dân cư đông đúc làm bùng phát các mối nguy cho sức khỏe cộng đồng.",
+                "family": "sanitary (adj), sanitize (v)"
+              },
+              {
+                "word": "affordability",
+                "ipa": "/əˌfɔː.dəˈbɪl.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng chi trả (về tài chính)",
+                "example_en": "Housing affordability has become a critical dilemma for young professionals in big cities.",
+                "example_vi": "Khả năng chi trả tiền nhà đã trở thành một bài toán nan giải đối với người đi làm trẻ ở các thành phố lớn.",
+                "family": "afford (v), affordable (adj)"
+              },
+              {
+                "word": "degradation",
+                "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự suy thoái, sự xuống cấp",
+                "example_en": "Environmental degradation in urban regions is driven by vehicle emissions and factory waste.",
+                "example_vi": "Sự suy thoái môi trường ở các vùng đô thị bị thúc đẩy bởi khí thải xe cộ và chất thải nhà máy.",
+                "family": "degrade (v), degradable (adj)"
+              },
+              {
+                "word": "prosperous",
+                "ipa": "/ˈprɒs.pər.əs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "phồn vinh, thịnh vượng",
+                "example_en": "Urban centers cultivate prosperous markets that attract domestic and global investors.",
+                "example_vi": "Các trung tâm đô thị nuôi dưỡng những thị trường thịnh vượng thu hút nhà đầu tư trong nước và quốc tế.",
+                "family": "prosper (v), prosperity (n)"
+              },
+              {
+                "word": "disparity",
+                "ipa": "/dɪˈspær.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự chênh lệch, khoảng cách bất bình đẳng",
+                "example_en": "The wealth disparity between high-income earners and slum residents is growing wider.",
+                "example_vi": "Khoảng cách chênh lệch giàu nghèo giữa người thu nhập cao và cư dân khu ổ chuột ngày càng nới rộng.",
+                "family": "disparate (adj)"
+              },
+              {
+                "word": "sustainability",
+                "ipa": "/səˌsteɪ.nəˈbɪl.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tính bền vững, sự phát triển bền vững",
+                "example_en": "Urban planners must prioritize environmental sustainability alongside economic expansion.",
+                "example_vi": "Các nhà quy hoạch đô thị phải ưu tiên tính bền vững môi trường song hành cùng mở rộng kinh tế.",
+                "family": "sustain (v), sustainable (adj)"
+              },
+              {
+                "word": "transit",
+                "ipa": "/ˈtræn.zɪt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "giao thông công cộng, sự trung chuyển",
+                "example_en": "Efficient rapid transit systems encourage commuters to leave private motorbikes at home.",
+                "example_vi": "Hệ thống giao thông công cộng tốc độ cao khuyến khích người đi làm để xe máy cá nhân ở nhà.",
+                "family": "transition (n)"
+              },
+              {
+                "word": "overburden",
+                "ipa": "/ˌəʊ.vəˈbɜː.dən/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm quá tải, đè nặng gánh nặng lên",
+                "example_en": "Massive population inflows overburden public drainage and sewage networks.",
+                "example_vi": "Dòng người nhập cư ồ ạt làm quá tải mạng lưới thoát nước và xử lý nước thải công cộng.",
+                "family": "burden (n, v), burdensome (adj)"
+              },
+              {
+                "word": "employment",
+                "ipa": "/ɪmˈplɔɪ.mənt/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "việc làm, sự tuyển dụng",
+                "example_en": "Industrial zones generate stable employment for thousands of rural migrants.",
+                "example_vi": "Các khu công nghiệp tạo ra việc làm ổn định cho hàng nghìn người di cư từ nông thôn.",
+                "family": "employ (v), employer (n), employee (n)"
+              },
+              {
+                "word": "healthcare",
+                "ipa": "/ˈhelθ.keər/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "chăm sóc y tế, dịch vụ y tế",
+                "example_en": "Metropolises offer superior healthcare facilities compared to remote countryside areas.",
+                "example_vi": "Các đô thị lớn cung cấp cơ sở chăm sóc y tế vượt trội so với các vùng nông thôn hẻo lánh.",
+                "family": "health (n), healthy (adj)"
+              },
+              {
+                "word": "resilience",
+                "ipa": "/rɪˈzɪl.jəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khả năng thích ứng và hồi phục, tính kiên cường",
+                "example_en": "Modern city engineering reinforces urban resilience against climate change impacts.",
+                "example_vi": "Kỹ thuật xây dựng đô thị hiện đại củng cố khả năng hồi phục của đô thị trước tác động biến đổi khí hậu.",
+                "family": "resilient (adj)"
+              },
+              {
+                "word": "synergy",
+                "ipa": "/ˈsɪn.ə.dʒi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cộng hưởng, sức mạnh tổng hợp",
+                "example_en": "Close collaboration between universities and tech firms creates powerful economic synergy.",
+                "example_vi": "Sự hợp tác chặt chẽ giữa các trường đại học và các công ty công nghệ tạo ra sự cộng hưởng kinh tế mạnh mẽ.",
+                "family": "synergistic (adj)"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t71_b1",
+                "name": "LỢI ÍCH 01: TẠO VIỆC LÀM VÀ THÚC ĐẨY KINH TẾ (CREATE JOBS AND STIMULATE THE ECONOMY)",
+                "icon": "💼",
+                "badge": "Thuận lợi 01",
+                "items": [
+                  {
+                    "en": "create abundant job opportunities",
+                    "vi": "tạo ra nhiều cơ hội việc làm phong phú"
+                  },
+                  {
+                    "en": "find jobs with better income",
+                    "vi": "tìm kiếm việc làm với thu nhập tốt hơn"
+                  },
+                  {
+                    "en": "catalyst for economic dynamism",
+                    "vi": "đòn bẩy thúc đẩy tăng trưởng kinh tế"
+                  },
+                  {
+                    "en": "diversify employment prospects",
+                    "vi": "đa dạng hóa cơ hội việc làm"
+                  },
+                  {
+                    "en": "sustainable income growth",
+                    "vi": "cải thiện thu nhập bền vững"
+                  }
+                ]
+              },
+              {
+                "id": "t71_b2",
+                "name": "LỢI ÍCH 02: TIẾP CẬN Y TẾ VÀ GIÁO DỤC CHẤT LƯỢNG CAO (ACCESS QUALITY HEALTHCARE AND EDUCATION)",
+                "icon": "🏥",
+                "badge": "Thuận lợi 02",
+                "items": [
+                  {
+                    "en": "access high-quality education",
+                    "vi": "tiếp cận giáo dục chất lượng cao"
+                  },
+                  {
+                    "en": "receive timely treatment",
+                    "vi": "được chữa bệnh kịp thời"
+                  },
+                  {
+                    "en": "superior access to specialized services",
+                    "vi": "khả năng tiếp cận vượt trội đối với các dịch vụ chuyên sâu"
+                  },
+                  {
+                    "en": "leading medical facilities",
+                    "vi": "bệnh viện tuyến đầu"
+                  },
+                  {
+                    "en": "prestigious universities",
+                    "vi": "trường đại học danh tiếng"
+                  }
+                ]
+              },
+              {
+                "id": "t71_b3",
+                "name": "LỢI ÍCH 03: PHÁT TRIỂN CƠ SỞ HẠ TẦNG HIỆN ĐẠI (DEVELOP MODERN INFRASTRUCTURE)",
+                "icon": "🏗️",
+                "badge": "Thuận lợi 03",
+                "items": [
+                  {
+                    "en": "modern infrastructure systems",
+                    "vi": "hệ thống cơ sở hạ tầng hiện đại"
+                  },
+                  {
+                    "en": "improve living standards",
+                    "vi": "nâng cao đời sống"
+                  },
+                  {
+                    "en": "comprehensive infrastructure modernization",
+                    "vi": "hiện đại hóa hạ tầng đồng bộ"
+                  },
+                  {
+                    "en": "advanced metro systems",
+                    "vi": "hệ thống tàu điện ngầm hiện đại"
+                  },
+                  {
+                    "en": "optimize social connectivity",
+                    "vi": "tối ưu hóa sự kết nối trong xã hội"
+                  }
+                ]
+              },
+              {
+                "id": "t71_b4",
+                "name": "LỢI ÍCH 04: ĐỜI SỐNG VĂN HÓA VÀ GIẢI TRÍ ĐA DẠNG (VIBRANT CULTURAL AND ENTERTAINMENT LIFE)",
+                "icon": "🎭",
+                "badge": "Thuận lợi 04",
+                "items": [
+                  {
+                    "en": "enjoy diverse cultural life",
+                    "vi": "tận hưởng đời sống văn hóa"
+                  },
+                  {
+                    "en": "shopping malls and public parks",
+                    "vi": "trung tâm thương mại và công viên công cộng"
+                  },
+                  {
+                    "en": "vibrant cultural interchange",
+                    "vi": "giao lưu văn hóa đa dạng"
+                  },
+                  {
+                    "en": "open-minded perspectives",
+                    "vi": "tư duy cởi mở"
+                  },
+                  {
+                    "en": "multifaceted socio-cultural landscape",
+                    "vi": "bức tranh xã hội phong phú"
+                  }
+                ]
+              },
+              {
+                "id": "t71_b5",
+                "name": "LỢI ÍCH 05: ĐỔI MỚI SÁNG TẠO VÀ CỘNG HƯỞNG CÔNG NGHIỆP (INNOVATION AND INDUSTRIAL SYNERGY)",
+                "icon": "🚀",
+                "badge": "Thuận lợi 05",
+                "items": [
+                  {
+                    "en": "powerful engine for economic growth",
+                    "vi": "động lực mạnh mẽ thúc đẩy tăng trưởng kinh tế"
+                  },
+                  {
+                    "en": "stimulate commercial activities",
+                    "vi": "kích thích các hoạt động mua bán"
+                  },
+                  {
+                    "en": "entrepreneurial innovation",
+                    "vi": "khởi nghiệp sáng tạo"
+                  },
+                  {
+                    "en": "industrial synergy",
+                    "vi": "sự cộng hưởng giữa các ngành công nghiệp"
+                  },
+                  {
+                    "en": "aggregate labor productivity",
+                    "vi": "năng suất lao động xã hội"
+                  }
+                ]
+              },
+              {
+                "id": "t71_d1",
+                "name": "BẤT LỢI 01: ÙN TẮC GIAO THÔNG VÀ QUÁ TẢI ĐƯỜNG BỘ (TRAFFIC CONGESTION AND ROAD OVERLOAD)",
+                "icon": "🚗",
+                "badge": "Bất lợi 01",
+                "items": [
+                  {
+                    "en": "severe traffic congestion",
+                    "vi": "ùn tắc giao thông nghiêm trọng"
+                  },
+                  {
+                    "en": "spend hours stuck in traffic",
+                    "vi": "chôn chân hàng giờ liền"
+                  },
+                  {
+                    "en": "chronic vehicular congestion",
+                    "vi": "ùn tắc giao thông kinh niên"
+                  },
+                  {
+                    "en": "overburden road infrastructure",
+                    "vi": "quá tải hạ tầng đường bộ"
+                  },
+                  {
+                    "en": "severe gridlock during daily commutes",
+                    "vi": "tắc nghẽn giao thông cục bộ"
+                  }
+                ]
+              },
+              {
+                "id": "t71_d2",
+                "name": "BẤT LỢI 02: Ô NHIỄM MÔI TRƯỜNG VÀ ĐẢO NHIỆT ĐÔ THỊ (ENVIRONMENTAL POLLUTION AND HEAT ISLAND EFFECT)",
+                "icon": "🏭",
+                "badge": "Bất lợi 02",
+                "items": [
+                  {
+                    "en": "air pollution and excessive noise",
+                    "vi": "ô nhiễm không khí và tiếng ồn nặng nề"
+                  },
+                  {
+                    "en": "respiratory illnesses",
+                    "vi": "bệnh về đường hô hấp"
+                  },
+                  {
+                    "en": "severe environmental degradation",
+                    "vi": "suy thoái môi trường nghiêm trọng"
+                  },
+                  {
+                    "en": "urban heat island effect",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                  },
+                  {
+                    "en": "toxic emissions from vehicles",
+                    "vi": "khí thải độc hại"
+                  }
+                ]
+              },
+              {
+                "id": "t71_d3",
+                "name": "BẤT LỢI 03: CHI PHÍ SINH HOẠT VÀ GIÁ NHÀ Ở ĐẮT ĐỎ (HIGH LIVING EXPENSES AND HOUSING PRICES)",
+                "icon": "💸",
+                "badge": "Bất lợi 03",
+                "items": [
+                  {
+                    "en": "high living expenses",
+                    "vi": "chi phí sinh hoạt và giá nhà ở"
+                  },
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "housing unaffordability",
+                    "vi": "khả năng chi trả"
+                  },
+                  {
+                    "en": "property values",
+                    "vi": "giá cả bất động sản"
+                  },
+                  {
+                    "en": "socio-economic inequalities",
+                    "vi": "bất bình đẳng giàu nghèo"
+                  }
+                ]
+              },
+              {
+                "id": "t71_d4",
+                "name": "BẤT LỢI 04: QUÁ TẢI CÁC DỊCH VỤ CÔNG CỘNG (STRAIN ON PUBLIC SERVICES)",
+                "icon": "🏥",
+                "badge": "Bất lợi 04",
+                "items": [
+                  {
+                    "en": "overburden hospitals and schools",
+                    "vi": "quá tải hệ thống bệnh viện và trường học"
+                  },
+                  {
+                    "en": "overcrowded with students",
+                    "vi": "quá đông đúc học sinh"
+                  },
+                  {
+                    "en": "strain public utilities",
+                    "vi": "áp lực nặng nề"
+                  },
+                  {
+                    "en": "patient overcrowding",
+                    "vi": "quá tải bệnh nhân"
+                  },
+                  {
+                    "en": "compromise service quality",
+                    "vi": "suy giảm chất lượng"
+                  }
+                ]
+              },
+              {
+                "id": "t71_d5",
+                "name": "BẤT LỢI 05: KHU NHÀ Ổ CHUỘT VÀ TỆ NẠN XÃ HỘI (SLUMS AND SOCIAL INSECURITY)",
+                "icon": "🏚️",
+                "badge": "Bất lợi 05",
+                "items": [
+                  {
+                    "en": "growth of slums",
+                    "vi": "khu ổ chuột"
+                  },
+                  {
+                    "en": "social evils",
+                    "vi": "tệ nạn xã hội"
+                  },
+                  {
+                    "en": "unplanned urban expansion",
+                    "vi": "đô thị hóa thiếu quy hoạch"
+                  },
+                  {
+                    "en": "precarious living conditions",
+                    "vi": "môi trường sống bấp bênh"
+                  },
+                  {
+                    "en": "threaten social security",
+                    "vi": "mất an ninh trật tự xã hội"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "urbanization",
+              "vi": "quá trình đô thị hóa"
+            },
+            {
+              "en": "metropolis",
+              "vi": "đại đô thị"
+            },
+            {
+              "en": "infrastructure",
+              "vi": "cơ sở hạ tầng"
+            },
+            {
+              "en": "rural-to-urban migration",
+              "vi": "di cư từ nông thôn ra thành thị"
+            },
+            {
+              "en": "amenity",
+              "vi": "tiện ích công cộng"
+            },
+            {
+              "en": "traffic congestion",
+              "vi": "ùn tắc giao thông"
+            },
+            {
+              "en": "overcrowding",
+              "vi": "quá tải dân số"
+            },
+            {
+              "en": "slum",
+              "vi": "khu ổ chuột"
+            },
+            {
+              "en": "sanitation",
+              "vi": "vệ sinh môi trường"
+            },
+            {
+              "en": "affordability",
+              "vi": "khả năng chi trả"
+            },
+            {
+              "en": "degradation",
+              "vi": "sự suy thoái"
+            },
+            {
+              "en": "prosperous",
+              "vi": "thịnh vượng"
+            },
+            {
+              "en": "disparity",
+              "vi": "khoảng cách chênh lệch"
+            },
+            {
+              "en": "sustainability",
+              "vi": "sự phát triển bền vững"
+            },
+            {
+              "en": "public transit",
+              "vi": "giao thông công cộng"
+            },
+            {
+              "en": "overburden",
+              "vi": "làm quá tải"
+            },
+            {
+              "en": "employment",
+              "vi": "việc làm"
+            },
+            {
+              "en": "healthcare",
+              "vi": "chăm sóc y tế"
+            },
+            {
+              "en": "resilience",
+              "vi": "khả năng hồi phục"
+            },
+            {
+              "en": "industrial synergy",
+              "vi": "sự cộng hưởng công nghiệp"
+            },
+            {
+              "en": "create abundant job opportunities",
+              "vi": "tạo ra nhiều cơ hội việc làm phong phú"
+            },
+            {
+              "en": "find jobs with better income",
+              "vi": "tìm kiếm việc làm với thu nhập tốt hơn"
+            },
+            {
+              "en": "access high-quality education",
+              "vi": "tiếp cận giáo dục chất lượng cao"
+            },
+            {
+              "en": "modern infrastructure systems",
+              "vi": "hệ thống cơ sở hạ tầng hiện đại"
+            },
+            {
+              "en": "enjoy diverse cultural life",
+              "vi": "tận hưởng đời sống văn hóa"
+            },
+            {
+              "en": "stimulate commercial activities",
+              "vi": "kích thích các hoạt động mua bán"
+            },
+            {
+              "en": "severe traffic congestion",
+              "vi": "ùn tắc giao thông nghiêm trọng"
+            },
+            {
+              "en": "air pollution and excessive noise",
+              "vi": "ô nhiễm không khí và tiếng ồn nặng nề"
+            },
+            {
+              "en": "financial pressure",
+              "vi": "áp lực tài chính"
+            },
+            {
+              "en": "growth of slums",
+              "vi": "sự gia tăng của các khu ổ chuột"
+            },
+            {
+              "en": "social evils",
+              "vi": "tệ nạn xã hội"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: TẠO RA NHIỀU CƠ HỘI VIỆC LÀM PHONG PHÚ",
+                "point_vi": "Đô thị hóa tạo ra nhiều cơ hội việc làm phong phú cho người lao động.",
+                "point_en": "Urbanization creates abundant job opportunities for workers.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "create abundant job opportunities",
+                    "vi": "tạo ra nhiều cơ hội việc làm phong phú"
+                  },
+                  {
+                    "en": "workers",
+                    "vi": "người lao động"
+                  }
+                ],
+                "evidence_vi": "Nhiều nhà máy, văn phòng và cơ sở dịch vụ tập trung ở các thành phố lớn. Nhờ đó, người dân từ nông thôn có thể dễ dàng tìm kiếm việc làm với thu nhập tốt hơn.",
+                "evidence_en": "Many factories, offices, and service centers are concentrated in major cities. Consequently, people from rural areas can easily find jobs with better income.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "concentrated in major cities",
+                      "vi": "tập trung ở các thành phố lớn"
+                    },
+                    {
+                      "en": "service centers",
+                      "vi": "cơ sở dịch vụ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "people from rural areas",
+                      "vi": "người dân từ nông thôn"
+                    },
+                    {
+                      "en": "find jobs",
+                      "vi": "tìm kiếm việc làm"
+                    },
+                    {
+                      "en": "better income",
+                      "vi": "thu nhập tốt hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "create abundant job opportunities",
+                    "vi": "tạo ra nhiều cơ hội việc làm phong phú"
+                  },
+                  {
+                    "en": "workers",
+                    "vi": "người lao động"
+                  },
+                  {
+                    "en": "concentrated in major cities",
+                    "vi": "tập trung ở các thành phố lớn"
+                  },
+                  {
+                    "en": "people from rural areas",
+                    "vi": "người dân từ nông thôn"
+                  },
+                  {
+                    "en": "better income",
+                    "vi": "thu nhập tốt hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TIẾP CẬN NỀN GIÁO DỤC VÀ DỊCH VỤ Y TẾ CHẤT LƯỢNG CAO",
+                "point_vi": "Các khu đô thị giúp người dân tiếp cận giáo dục và y tế chất lượng cao.",
+                "point_en": "Urban areas help residents access high-quality education and healthcare.",
+                "point_collocations": [
+                  {
+                    "en": "urban areas",
+                    "vi": "các khu đô thị"
+                  },
+                  {
+                    "en": "access high-quality education",
+                    "vi": "tiếp cận giáo dục"
+                  },
+                  {
+                    "en": "quality healthcare",
+                    "vi": "y tế chất lượng cao"
+                  }
+                ],
+                "evidence_vi": "Thành phố tập trung nhiều trường đại học hàng đầu và bệnh viện hiện đại. Nhờ vậy, người dân được học tập tốt hơn và được chữa bệnh kịp thời khi có vấn đề sức khỏe.",
+                "evidence_en": "Cities gather many leading universities and modern hospitals. Therefore, citizens can study better and receive timely treatment for health issues.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "leading universities",
+                      "vi": "trường đại học hàng đầu"
+                    },
+                    {
+                      "en": "modern hospitals",
+                      "vi": "bệnh viện hiện đại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "receive timely treatment",
+                      "vi": "được chữa bệnh kịp thời"
+                    },
+                    {
+                      "en": "health issues",
+                      "vi": "vấn đề sức khỏe"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "urban areas",
+                    "vi": "các khu đô thị"
+                  },
+                  {
+                    "en": "access high-quality education",
+                    "vi": "tiếp cận giáo dục"
+                  },
+                  {
+                    "en": "quality healthcare",
+                    "vi": "y tế chất lượng cao"
+                  },
+                  {
+                    "en": "leading universities",
+                    "vi": "trường đại học hàng đầu"
+                  },
+                  {
+                    "en": "modern hospitals",
+                    "vi": "bệnh viện hiện đại"
+                  },
+                  {
+                    "en": "receive timely treatment",
+                    "vi": "được chữa bệnh kịp thời"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: NÂNG CAO ĐỜI SỐNG NHỜ CƠ SỞ HẠ TẦNG HIỆN ĐẠI",
+                "point_vi": "Đô thị hóa giúp nâng cao đời sống nhờ hệ thống cơ sở hạ tầng hiện đại.",
+                "point_en": "Urbanization helps improve living standards through modern infrastructure systems.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "improve living standards",
+                    "vi": "nâng cao đời sống"
+                  },
+                  {
+                    "en": "modern infrastructure systems",
+                    "vi": "hệ thống cơ sở hạ tầng hiện đại"
+                  }
+                ],
+                "evidence_vi": "Đường xá rộng rãi, hệ thống điện nước ổn định và internet tốc độ cao được xây dựng đồng bộ. Cuộc sống của cư dân thành thị nhờ đó trở nên thuận tiện và thoải mái hơn.",
+                "evidence_en": "Spacious roads, stable power and water supplies, and high-speed internet are built systematically. Urban residents enjoy a more convenient and comfortable daily life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spacious roads",
+                      "vi": "đường xá rộng rãi"
+                    },
+                    {
+                      "en": "stable power and water",
+                      "vi": "hệ thống điện nước ổn định"
+                    },
+                    {
+                      "en": "high-speed internet",
+                      "vi": "internet tốc độ cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "urban residents",
+                      "vi": "cư dân thành thị"
+                    },
+                    {
+                      "en": "convenient and comfortable",
+                      "vi": "thuận tiện và thoải mái"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "improve living standards",
+                    "vi": "nâng cao đời sống"
+                  },
+                  {
+                    "en": "modern infrastructure systems",
+                    "vi": "hệ thống cơ sở hạ tầng hiện đại"
+                  },
+                  {
+                    "en": "spacious roads",
+                    "vi": "đường xá rộng rãi"
+                  },
+                  {
+                    "en": "urban residents",
+                    "vi": "cư dân thành thị"
+                  },
+                  {
+                    "en": "convenient and comfortable",
+                    "vi": "thuận tiện và thoải mái"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: ĐỜI SỐNG VĂN HÓA VÀ VUI CHƠI GIẢI TRÍ PHONG PHÚ",
+                "point_vi": "Người dân thành phố được tận hưởng đời sống văn hóa và giải trí phong phú.",
+                "point_en": "City dwellers enjoy diverse cultural life and entertainment activities.",
+                "point_collocations": [
+                  {
+                    "en": "city dwellers",
+                    "vi": "người dân thành phố"
+                  },
+                  {
+                    "en": "enjoy diverse cultural life",
+                    "vi": "tận hưởng đời sống văn hóa"
+                  },
+                  {
+                    "en": "entertainment activities",
+                    "vi": "giải trí phong phú"
+                  }
+                ],
+                "evidence_vi": "Các trung tâm thương mại, rạp chiếu phim và công viên công cộng luôn sẵn sàng phục vụ người dân. Mọi người có nhiều lựa chọn để thư giãn cùng bạn bè vào dịp cuối tuần.",
+                "evidence_en": "Shopping malls, cinemas, and public parks are always available to serve citizens. People have various options to relax with friends on weekends.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shopping malls",
+                      "vi": "trung tâm thương mại"
+                    },
+                    {
+                      "en": "public parks",
+                      "vi": "công viên công cộng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "relax with friends",
+                      "vi": "thư giãn cùng bạn bè"
+                    },
+                    {
+                      "en": "on weekends",
+                      "vi": "vào dịp cuối tuần"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "city dwellers",
+                    "vi": "người dân thành phố"
+                  },
+                  {
+                    "en": "enjoy diverse cultural life",
+                    "vi": "tận hưởng đời sống văn hóa"
+                  },
+                  {
+                    "en": "entertainment activities",
+                    "vi": "giải trí phong phú"
+                  },
+                  {
+                    "en": "shopping malls",
+                    "vi": "trung tâm thương mại"
+                  },
+                  {
+                    "en": "public parks",
+                    "vi": "công viên công cộng"
+                  },
+                  {
+                    "en": "relax with friends",
+                    "vi": "thư giãn cùng bạn bè"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: THÚC ĐẨY TĂNG TRƯỞNG KINH TẾ VÀ KINH DOANH",
+                "point_vi": "Đô thị hóa là động lực mạnh mẽ thúc đẩy tăng trưởng kinh tế.",
+                "point_en": "Urbanization serves as a powerful engine driving economic growth.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "powerful engine",
+                    "vi": "động lực mạnh mẽ"
+                  },
+                  {
+                    "en": "economic growth",
+                    "vi": "tăng trưởng kinh tế"
+                  }
+                ],
+                "evidence_vi": "Sự tập trung dân cư kích thích các hoạt động mua bán và dịch vụ phát triển nhộn nhịp. Nhờ đó, nhiều doanh nghiệp nhỏ có cơ hội kinh doanh và tăng trưởng.",
+                "evidence_en": "High population density stimulates vibrant commercial activities and services. As a result, many small enterprises have opportunities to do business and grow.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stimulate commercial activities",
+                      "vi": "kích thích các hoạt động mua bán"
+                    },
+                    {
+                      "en": "vibrant services",
+                      "vi": "dịch vụ phát triển nhộn nhịp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "small enterprises",
+                      "vi": "doanh nghiệp nhỏ"
+                    },
+                    {
+                      "en": "business opportunities",
+                      "vi": "cơ hội kinh doanh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "economic growth",
+                    "vi": "tăng trưởng kinh tế"
+                  },
+                  {
+                    "en": "stimulate commercial activities",
+                    "vi": "kích thích các hoạt động mua bán"
+                  },
+                  {
+                    "en": "small enterprises",
+                    "vi": "doanh nghiệp nhỏ"
+                  },
+                  {
+                    "en": "business opportunities",
+                    "vi": "cơ hội kinh doanh"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: TÌNH TRẠNG ÙN TẮC GIAO THÔNG NGHIÊM TRỌNG",
+                "point_vi": "Đô thị hóa dẫn đến tình trạng ùn tắc giao thông nghiêm trọng vào giờ cao điểm.",
+                "point_en": "Urbanization leads to severe traffic congestion during peak hours.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "severe traffic congestion",
+                    "vi": "ùn tắc giao thông nghiêm trọng"
+                  },
+                  {
+                    "en": "peak hours",
+                    "vi": "giờ cao điểm"
+                  }
+                ],
+                "evidence_vi": "Số lượng phương tiện cá nhân tăng nhanh khiến đường phố luôn trong tình trạng quá tải. Người dân thường xuyên phải chôn chân hàng giờ liền trên đường đi làm.",
+                "evidence_en": "The rapid increase in personal vehicles causes streets to be perpetually overloaded. Commuters frequently spend hours stuck in jams on their way to work.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "personal vehicles",
+                      "vi": "phương tiện cá nhân"
+                    },
+                    {
+                      "en": "perpetually overloaded",
+                      "vi": "tình trạng quá tải"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "spend hours stuck",
+                      "vi": "chôn chân hàng giờ liền"
+                    },
+                    {
+                      "en": "way to work",
+                      "vi": "đường đi làm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "severe traffic congestion",
+                    "vi": "ùn tắc giao thông nghiêm trọng"
+                  },
+                  {
+                    "en": "peak hours",
+                    "vi": "giờ cao điểm"
+                  },
+                  {
+                    "en": "personal vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "spend hours stuck",
+                    "vi": "chôn chân hàng giờ liền"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: Ô NHIỄM MÔI TRƯỜNG VÀ TIẾNG ỒN ĐÔ THỊ",
+                "point_vi": "Môi trường sống đô thị bị ô nhiễm không khí và tiếng ồn nặng nề.",
+                "point_en": "The urban living environment suffers from severe air pollution and excessive noise.",
+                "point_collocations": [
+                  {
+                    "en": "urban living environment",
+                    "vi": "môi trường sống đô thị"
+                  },
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "excessive noise",
+                    "vi": "tiếng ồn nặng nề"
+                  }
+                ],
+                "evidence_vi": "Khói bụi từ xe cộ và các công trình xây dựng làm giảm chất lượng không khí. Hít thở bầu không khí ô nhiễm khiến nhiều người mắc bệnh về đường hô hấp.",
+                "evidence_en": "Emissions from vehicles and construction sites reduce air quality. Breathing polluted air leads many residents to suffer from respiratory illnesses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "emissions from vehicles",
+                      "vi": "khói bụi từ xe cộ"
+                    },
+                    {
+                      "en": "construction sites",
+                      "vi": "công trình xây dựng"
+                    },
+                    {
+                      "en": "air quality",
+                      "vi": "chất lượng không khí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "breathing polluted air",
+                      "vi": "hít thở bầu không khí ô nhiễm"
+                    },
+                    {
+                      "en": "respiratory illnesses",
+                      "vi": "bệnh về đường hô hấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "urban living environment",
+                    "vi": "môi trường sống đô thị"
+                  },
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "excessive noise",
+                    "vi": "tiếng ồn nặng nề"
+                  },
+                  {
+                    "en": "emissions from vehicles",
+                    "vi": "khói bụi từ xe cộ"
+                  },
+                  {
+                    "en": "respiratory illnesses",
+                    "vi": "bệnh về đường hô hấp"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: CHI PHÍ SINH HOẠT VÀ GIÁ NHÀ Ở ĐẮT ĐỎ",
+                "point_vi": "Chi phí sinh hoạt và giá nhà ở tại các đô thị vô cùng đắt đỏ.",
+                "point_en": "Living expenses and housing prices in urban centers are extremely expensive.",
+                "point_collocations": [
+                  {
+                    "en": "living expenses",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "housing prices",
+                    "vi": "giá nhà ở"
+                  },
+                  {
+                    "en": "urban centers",
+                    "vi": "các đô thị"
+                  }
+                ],
+                "evidence_vi": "Giá thuê nhà, chi phí ăn uống và dịch vụ tại thành phố cao hơn nhiều so với nông thôn. Người có thu nhập trung bình thường gặp nhiều áp lực tài chính hàng tháng.",
+                "evidence_en": "Rental prices, food costs, and service charges in cities are much higher than in the countryside. Average-income earners face substantial financial pressure every month.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rental prices",
+                      "vi": "giá thuê nhà"
+                    },
+                    {
+                      "en": "service costs",
+                      "vi": "chi phí ăn uống và dịch vụ"
+                    },
+                    {
+                      "en": "countryside",
+                      "vi": "nông thôn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "average-income earners",
+                      "vi": "người có thu nhập trung bình"
+                    },
+                    {
+                      "en": "financial pressure",
+                      "vi": "áp lực tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "living expenses",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "housing prices",
+                    "vi": "giá nhà ở"
+                  },
+                  {
+                    "en": "rental prices",
+                    "vi": "giá thuê nhà"
+                  },
+                  {
+                    "en": "average-income earners",
+                    "vi": "người có thu nhập trung bình"
+                  },
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: QUÁ TẢI CÁC DỊCH VỤ CÔNG CỘNG VÀ BỆNH VIỆN",
+                "point_vi": "Sự gia tăng dân số nhanh chóng làm quá tải hệ thống bệnh viện và trường học.",
+                "point_en": "Rapid population growth overburdens hospitals and school systems.",
+                "point_collocations": [
+                  {
+                    "en": "rapid population growth",
+                    "vi": "gia tăng dân số nhanh chóng"
+                  },
+                  {
+                    "en": "overburdens hospitals",
+                    "vi": "quá tải hệ thống bệnh viện"
+                  },
+                  {
+                    "en": "school systems",
+                    "vi": "trường học"
+                  }
+                ],
+                "evidence_vi": "Các bệnh viện công thường xuyên thiếu giường bệnh và bệnh nhân phải chờ đợi rất lâu. Tương tự, các lớp học trường công lập trở nên quá đông đúc học sinh.",
+                "evidence_en": "Public hospitals frequently lack patient beds, forcing patients to wait for long hours. Similarly, public school classrooms become overcrowded with students.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "public hospitals",
+                      "vi": "bệnh viện công"
+                    },
+                    {
+                      "en": "lack patient beds",
+                      "vi": "thiếu giường bệnh"
+                    },
+                    {
+                      "en": "wait for long hours",
+                      "vi": "chờ đợi rất lâu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "public school classrooms",
+                      "vi": "lớp học trường công lập"
+                    },
+                    {
+                      "en": "overcrowded with students",
+                      "vi": "quá đông đúc học sinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rapid population growth",
+                    "vi": "gia tăng dân số nhanh chóng"
+                  },
+                  {
+                    "en": "public hospitals",
+                    "vi": "bệnh viện công"
+                  },
+                  {
+                    "en": "lack patient beds",
+                    "vi": "thiếu giường bệnh"
+                  },
+                  {
+                    "en": "public school classrooms",
+                    "vi": "lớp học trường công lập"
+                  },
+                  {
+                    "en": "overcrowded with students",
+                    "vi": "quá đông đúc học sinh"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: SỰ LAN RỘNG CỦA CÁC KHU NHÀ Ổ CHUỘT VÀ TỆ NẠN",
+                "point_vi": "Đô thị hóa tự phát làm gia tăng các khu ổ chuột và tệ nạn xã hội.",
+                "point_en": "Spontaneous urbanization leads to the growth of slums and social evils.",
+                "point_collocations": [
+                  {
+                    "en": "spontaneous urbanization",
+                    "vi": "đô thị hóa tự phát"
+                  },
+                  {
+                    "en": "growth of slums",
+                    "vi": "khu ổ chuột"
+                  },
+                  {
+                    "en": "social evils",
+                    "vi": "tệ nạn xã hội"
+                  }
+                ],
+                "evidence_vi": "Nhiều người di cư nghèo phải sinh sống trong những khu nhà tồi tàn thiếu điều kiện vệ sinh. Những nơi này tiềm ẩn nguy cơ cao về trộm cắp và mất trật tự an ninh.",
+                "evidence_en": "Many poor migrants have to live in substandard shelters lacking basic sanitation. These areas harbor high risks of theft and public disorder.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "poor migrants",
+                      "vi": "người di cư nghèo"
+                    },
+                    {
+                      "en": "substandard shelters",
+                      "vi": "khu nhà tồi tàn"
+                    },
+                    {
+                      "en": "basic sanitation",
+                      "vi": "điều kiện vệ sinh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "high risks of theft",
+                      "vi": "nguy cơ cao về trộm cắp"
+                    },
+                    {
+                      "en": "public disorder",
+                      "vi": "mất trật tự an ninh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "spontaneous urbanization",
+                    "vi": "đô thị hóa tự phát"
+                  },
+                  {
+                    "en": "growth of slums",
+                    "vi": "khu ổ chuột"
+                  },
+                  {
+                    "en": "social evils",
+                    "vi": "tệ nạn xã hội"
+                  },
+                  {
+                    "en": "poor migrants",
+                    "vi": "người di cư nghèo"
+                  },
+                  {
+                    "en": "substandard shelters",
+                    "vi": "khu nhà tồi tàn"
+                  },
+                  {
+                    "en": "public disorder",
+                    "vi": "mất trật tự an ninh"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "THUẬN LỢI 01: ĐỘNG LỰC TĂNG TRƯỞNG KINH TẾ VÀ ĐA DẠNG HÓA NGHỀ NGHIỆP (ECONOMIC DYNAMISM AND EMPLOYMENT DIVERSIFICATION)",
+                "point_vi": "Đô thị hóa đóng vai trò là đòn bẩy thúc đẩy tăng trưởng kinh tế và đa dạng hóa cơ hội việc làm chuyên nghiệp.",
+                "point_en": "Urbanization functions as a powerful catalyst for economic dynamism and diversifies professional employment prospects.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "catalyst for economic dynamism",
+                    "vi": "đòn bẩy thúc đẩy tăng trưởng kinh tế"
+                  },
+                  {
+                    "en": "professional employment prospects",
+                    "vi": "cơ hội việc làm chuyên nghiệp"
+                  }
+                ],
+                "evidence_vi": "Sự tập trung của các tập đoàn đa quốc gia và các khu công nghệ cao kích thích nhu cầu tuyển dụng nhân sự chất lượng cao. Điều này tạo điều kiện thuận lợi cho người lao động thăng tiến sự nghiệp và cải thiện thu nhập bền vững.",
+                "evidence_en": "The agglomeration of multinational corporations and high-tech zones generates robust demand for highly skilled professionals. This trend creates favorable conditions for workers to achieve career advancement and sustainable income growth.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "agglomeration of multinational corporations",
+                      "vi": "tập trung của các tập đoàn đa quốc gia"
+                    },
+                    {
+                      "en": "high-tech zones",
+                      "vi": "khu công nghệ cao"
+                    },
+                    {
+                      "en": "highly skilled professionals",
+                      "vi": "nhân sự chất lượng cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "career advancement",
+                      "vi": "thăng tiến sự nghiệp"
+                    },
+                    {
+                      "en": "sustainable income growth",
+                      "vi": "cải thiện thu nhập bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "catalyst for economic dynamism",
+                    "vi": "đòn bẩy thúc đẩy tăng trưởng kinh tế"
+                  },
+                  {
+                    "en": "professional employment prospects",
+                    "vi": "cơ hội việc làm chuyên nghiệp"
+                  },
+                  {
+                    "en": "agglomeration of multinational corporations",
+                    "vi": "tập trung của các tập đoàn đa quốc gia"
+                  },
+                  {
+                    "en": "highly skilled professionals",
+                    "vi": "nhân sự chất lượng cao"
+                  },
+                  {
+                    "en": "career advancement",
+                    "vi": "thăng tiến sự nghiệp"
+                  },
+                  {
+                    "en": "sustainable income growth",
+                    "vi": "cải thiện thu nhập bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 02: TIẾP CẬN DỊCH VỤ Y TẾ CHUYÊN SÂU VÀ GIÁO DỤC ĐẠI HỌC HÀNG ĐẦU (SUPERIOR HEALTHCARE AND HIGHER EDUCATION ACCESS)",
+                "point_vi": "Các trung tâm đô thị cung cấp khả năng tiếp cận vượt trội đối với các dịch vụ y tế chuyên sâu và hệ thống giáo dục đại học đẳng cấp.",
+                "point_en": "Metropolitan hubs facilitate superior access to specialized tertiary healthcare and premier higher education institutions.",
+                "point_collocations": [
+                  {
+                    "en": "metropolitan hubs",
+                    "vi": "các trung tâm đô thị"
+                  },
+                  {
+                    "en": "superior access",
+                    "vi": "khả năng tiếp cận vượt trội"
+                  },
+                  {
+                    "en": "tertiary healthcare",
+                    "vi": "dịch vụ y tế chuyên sâu"
+                  },
+                  {
+                    "en": "higher education institutions",
+                    "vi": "hệ thống giáo dục đại học"
+                  }
+                ],
+                "evidence_vi": "Các bệnh viện tuyến đầu được trang bị thiết bị y khoa tân tiến cùng đội ngũ chuyên gia hàng đầu giúp điều trị hiệu quả các ca bệnh phức tạp. Đồng thời, các trường đại học danh tiếng liên tục thu hút nhân tài và thúc đẩy nghiên cứu khoa học đột phá.",
+                "evidence_en": "Leading medical facilities equipped with cutting-edge equipment and eminent medical specialists can treat complex health conditions effectively. Meanwhile, prestigious universities continually attract top-tier academic talents and foster groundbreaking scientific research.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "leading medical facilities",
+                      "vi": "bệnh viện tuyến đầu"
+                    },
+                    {
+                      "en": "cutting-edge equipment",
+                      "vi": "thiết bị y khoa tân tiến"
+                    },
+                    {
+                      "en": "eminent medical specialists",
+                      "vi": "đội ngũ chuyên gia hàng đầu"
+                    },
+                    {
+                      "en": "treat complex health conditions",
+                      "vi": "điều trị hiệu quả các ca bệnh phức tạp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prestigious universities",
+                      "vi": "trường đại học danh tiếng"
+                    },
+                    {
+                      "en": "groundbreaking scientific research",
+                      "vi": "nghiên cứu khoa học đột phá"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "metropolitan hubs",
+                    "vi": "các trung tâm đô thị"
+                  },
+                  {
+                    "en": "tertiary healthcare",
+                    "vi": "dịch vụ y tế chuyên sâu"
+                  },
+                  {
+                    "en": "higher education institutions",
+                    "vi": "hệ thống giáo dục đại học"
+                  },
+                  {
+                    "en": "leading medical facilities",
+                    "vi": "bệnh viện tuyến đầu"
+                  },
+                  {
+                    "en": "cutting-edge equipment",
+                    "vi": "thiết bị y khoa tân tiến"
+                  },
+                  {
+                    "en": "groundbreaking scientific research",
+                    "vi": "nghiên cứu khoa học đột phá"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 03: HIỆN ĐẠI HÓA HẠ TẦNG VÀ ỨNG DỤNG ĐÔ THỊ THÔNG MINH (INFRASTRUCTURE MODERNIZATION AND SMART CITY SOLUTIONS)",
+                "point_vi": "Đô thị hóa thúc đẩy hiện đại hóa hạ tầng đồng bộ và ứng dụng các giải pháp công nghệ thông minh.",
+                "point_en": "Urbanization drives comprehensive infrastructure modernization and the adoption of smart city technological solutions.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "comprehensive infrastructure modernization",
+                    "vi": "hiện đại hóa hạ tầng đồng bộ"
+                  },
+                  {
+                    "en": "smart city technological solutions",
+                    "vi": "giải pháp công nghệ thông minh"
+                  }
+                ],
+                "evidence_vi": "Hệ thống tàu điện ngầm hiện đại, mạng lưới cấp thoát nước tiên tiến và hạ tầng viễn thông băng thông rộng tối ưu hóa sự kết nối trong xã hội. Những tiện ích công cộng này không chỉ nâng tầm chuẩn mực sống mà còn thu hút các dòng vốn đầu tư nước ngoài.",
+                "evidence_en": "Advanced metro systems, sophisticated drainage networks, and broadband telecommunications optimize social connectivity. Such public utilities not only elevate living standards but also attract extensive foreign direct investment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "advanced metro systems",
+                      "vi": "hệ thống tàu điện ngầm hiện đại"
+                    },
+                    {
+                      "en": "broadband telecommunications",
+                      "vi": "hạ tầng viễn thông băng thông rộng"
+                    },
+                    {
+                      "en": "optimize social connectivity",
+                      "vi": "tối ưu hóa sự kết nối trong xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "elevate living standards",
+                      "vi": "nâng tầm chuẩn mực sống"
+                    },
+                    {
+                      "en": "foreign direct investment",
+                      "vi": "vốn đầu tư nước ngoài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "comprehensive infrastructure modernization",
+                    "vi": "hiện đại hóa hạ tầng đồng bộ"
+                  },
+                  {
+                    "en": "smart city technological solutions",
+                    "vi": "giải pháp công nghệ thông minh"
+                  },
+                  {
+                    "en": "advanced metro systems",
+                    "vi": "hệ thống tàu điện ngầm hiện đại"
+                  },
+                  {
+                    "en": "optimize social connectivity",
+                    "vi": "tối ưu hóa sự kết nối trong xã hội"
+                  },
+                  {
+                    "en": "elevate living standards",
+                    "vi": "nâng tầm chuẩn mực sống"
+                  },
+                  {
+                    "en": "foreign direct investment",
+                    "vi": "vốn đầu tư nước ngoài"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 04: THÚC ĐẨY GIAO LƯU VĂN HÓA VÀ ĐA DẠNG HÓA XÃ HỘI (CULTURAL INTERCHANGE AND SOCIAL DIVERSITY)",
+                "point_vi": "Môi trường đại đô thị tạo tiền đề thuận lợi cho giao lưu văn hóa đa dạng và tư duy cởi mở.",
+                "point_en": "Metropolitan environments cultivate vibrant cultural interchange and open-minded perspectives among residents.",
+                "point_collocations": [
+                  {
+                    "en": "metropolitan environments",
+                    "vi": "môi trường đại đô thị"
+                  },
+                  {
+                    "en": "vibrant cultural interchange",
+                    "vi": "giao lưu văn hóa đa dạng"
+                  },
+                  {
+                    "en": "open-minded perspectives",
+                    "vi": "tư duy cởi mở"
+                  }
+                ],
+                "evidence_vi": "Sự hội tụ của các cộng đồng cư dân với nhiều nền tảng văn hóa khác nhau tạo nên bức tranh xã hội phong phú. Cư dân có cơ hội tiếp xúc với các loại hình nghệ thuật quốc tế, hội thảo chuyên đề và các phong cách sống tiến bộ.",
+                "evidence_en": "The convergence of diverse demographic groups generates a multifaceted socio-cultural landscape. Citizens gain exposure to international art exhibitions, intellectual symposiums, and progressive lifestyles.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "convergence of diverse demographic groups",
+                      "vi": "sự hội tụ của các cộng đồng cư dân"
+                    },
+                    {
+                      "en": "multifaceted socio-cultural landscape",
+                      "vi": "bức tranh xã hội phong phú"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "international art exhibitions",
+                      "vi": "nghệ thuật quốc tế"
+                    },
+                    {
+                      "en": "intellectual symposiums",
+                      "vi": "hội thảo chuyên đề"
+                    },
+                    {
+                      "en": "progressive lifestyles",
+                      "vi": "phong cách sống tiến bộ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "metropolitan environments",
+                    "vi": "môi trường đại đô thị"
+                  },
+                  {
+                    "en": "vibrant cultural interchange",
+                    "vi": "giao lưu văn hóa đa dạng"
+                  },
+                  {
+                    "en": "open-minded perspectives",
+                    "vi": "tư duy cởi mở"
+                  },
+                  {
+                    "en": "multifaceted socio-cultural landscape",
+                    "vi": "bức tranh xã hội phong phú"
+                  },
+                  {
+                    "en": "international art exhibitions",
+                    "vi": "nghệ thuật quốc tế"
+                  },
+                  {
+                    "en": "progressive lifestyles",
+                    "vi": "phong cách sống tiến bộ"
+                  }
+                ]
+              },
+              {
+                "title": "THUẬN LỢI 05: KHỞI NGHIỆP ĐỔI MỚI VÀ CỘNG HƯỞNG CÔNG NGHIỆP (ENTREPRENEURIAL INNOVATION AND INDUSTRIAL SYNERGY)",
+                "point_vi": "Đô thị hóa kích thích tinh thần khởi nghiệp sáng tạo và sự cộng hưởng giữa các ngành công nghiệp.",
+                "point_en": "Urbanization fosters entrepreneurial innovation and strong industrial synergy across various business sectors.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization",
+                    "vi": "đô thị hóa"
+                  },
+                  {
+                    "en": "entrepreneurial innovation",
+                    "vi": "khởi nghiệp sáng tạo"
+                  },
+                  {
+                    "en": "industrial synergy",
+                    "vi": "sự cộng hưởng giữa các ngành công nghiệp"
+                  }
+                ],
+                "evidence_vi": "Mạng lưới kinh doanh dày đặc cho phép các doanh nghiệp chia sẻ nguồn lực, kiến thức công nghệ và chuỗi cung ứng hiệu quả. Nhờ vậy, chi phí sản xuất được tối ưu hóa và năng suất lao động xã hội được gia tăng đáng kể.",
+                "evidence_en": "Dense commercial networks allow enterprises to share resources, technological know-how, and supply chains efficiently. Consequently, production expenses are optimized and aggregate labor productivity is significantly enhanced.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "commercial networks",
+                      "vi": "mạng lưới kinh doanh"
+                    },
+                    {
+                      "en": "share resources",
+                      "vi": "chia sẻ nguồn lực"
+                    },
+                    {
+                      "en": "technological know-how",
+                      "vi": "kiến thức công nghệ"
+                    },
+                    {
+                      "en": "supply chains",
+                      "vi": "chuỗi cung ứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "production expenses",
+                      "vi": "chi phí sản xuất"
+                    },
+                    {
+                      "en": "aggregate labor productivity",
+                      "vi": "năng suất lao động xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "entrepreneurial innovation",
+                    "vi": "khởi nghiệp sáng tạo"
+                  },
+                  {
+                    "en": "industrial synergy",
+                    "vi": "sự cộng hưởng giữa các ngành công nghiệp"
+                  },
+                  {
+                    "en": "commercial networks",
+                    "vi": "mạng lưới kinh doanh"
+                  },
+                  {
+                    "en": "technological know-how",
+                    "vi": "kiến thức công nghệ"
+                  },
+                  {
+                    "en": "production expenses",
+                    "vi": "chi phí sản xuất"
+                  },
+                  {
+                    "en": "aggregate labor productivity",
+                    "vi": "năng suất lao động xã hội"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: ÙN TẮC GIAO THÔNG KINH NIÊN VÀ QUÁ TẢI ĐƯỜNG BỘ (CHRONIC TRAFFIC CONGESTION AND INFRASTRUCTURE STRAIN)",
+                "point_vi": "Đô thị hóa quá nhanh làm trầm trọng thêm tình trạng ùn tắc giao thông kinh niên và gây quá tải hạ tầng đường bộ.",
+                "point_en": "Unchecked urbanization exacerbates chronic vehicular congestion and severely overburdens road transport infrastructure.",
+                "point_collocations": [
+                  {
+                    "en": "unchecked urbanization",
+                    "vi": "đô thị hóa quá nhanh"
+                  },
+                  {
+                    "en": "chronic vehicular congestion",
+                    "vi": "ùn tắc giao thông kinh niên"
+                  },
+                  {
+                    "en": "overburden road infrastructure",
+                    "vi": "quá tải hạ tầng đường bộ"
+                  }
+                ],
+                "evidence_vi": "Lượng phương tiện cơ giới cá nhân tăng đột biến trong khi không gian đường sá không kịp mở rộng gây tắc nghẽn giao thông cục bộ. Hệ quả là người dân lãng phí hàng triệu giờ lao động hữu ích và chịu thêm nhiều căng thẳng tâm lý.",
+                "evidence_en": "The exponential surge in private vehicles outpaces street capacity, resulting in severe gridlock during daily commutes. Consequently, millions of productive working hours are wasted alongside elevated psychological stress levels.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "surge in private vehicles",
+                      "vi": "phương tiện cơ giới cá nhân tăng đột biến"
+                    },
+                    {
+                      "en": "severe gridlock",
+                      "vi": "tắc nghẽn giao thông cục bộ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "productive working hours",
+                      "vi": "giờ lao động hữu ích"
+                    },
+                    {
+                      "en": "psychological stress",
+                      "vi": "căng thẳng tâm lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unchecked urbanization",
+                    "vi": "đô thị hóa quá nhanh"
+                  },
+                  {
+                    "en": "chronic vehicular congestion",
+                    "vi": "ùn tắc giao thông kinh niên"
+                  },
+                  {
+                    "en": "overburden road infrastructure",
+                    "vi": "quá tải hạ tầng đường bộ"
+                  },
+                  {
+                    "en": "surge in private vehicles",
+                    "vi": "phương tiện cơ giới cá nhân tăng đột biến"
+                  },
+                  {
+                    "en": "severe gridlock",
+                    "vi": "tắc nghẽn giao thông cục bộ"
+                  },
+                  {
+                    "en": "productive working hours",
+                    "vi": "giờ lao động hữu ích"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: SUY THOÁI MÔI TRƯỜNG VÀ HIỆU ỨNG ĐẢO NHIỆT ĐÔ THỊ (ENVIRONMENTAL DEGRADATION AND URBAN HEAT ISLAND EFFECT)",
+                "point_vi": "Quá trình đô thị hóa gây suy thoái môi trường nghiêm trọng và làm gia tăng hiệu ứng đảo nhiệt đô thị.",
+                "point_en": "The urbanization process induces severe environmental degradation and amplifies urban heat island phenomena.",
+                "point_collocations": [
+                  {
+                    "en": "urbanization process",
+                    "vi": "quá trình đô thị hóa"
+                  },
+                  {
+                    "en": "environmental degradation",
+                    "vi": "suy thoái môi trường nghiêm trọng"
+                  },
+                  {
+                    "en": "urban heat island",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                  }
+                ],
+                "evidence_vi": "Khí thải độc hại từ hoạt động giao thông và các khu công nghiệp phụ cận làm suy giảm chỉ số chất lượng không khí. Đồng thời, việc bê tông hóa diện tích cây xanh làm nhiệt độ bề mặt thành phố tăng cao, đe dọa sức khỏe cộng đồng.",
+                "evidence_en": "Toxic emissions from intense traffic and adjacent industrial operations deteriorate air quality indices. Furthermore, the extensive concretization of natural green spaces elevates ambient temperatures, posing grave risks to public health.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "toxic emissions",
+                      "vi": "khí thải độc hại"
+                    },
+                    {
+                      "en": "industrial operations",
+                      "vi": "khu công nghiệp"
+                    },
+                    {
+                      "en": "air quality indices",
+                      "vi": "chỉ số chất lượng không khí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "concretization of green spaces",
+                      "vi": "bê tông hóa diện tích cây xanh"
+                    },
+                    {
+                      "en": "elevates ambient temperatures",
+                      "vi": "nhiệt độ bề mặt thành phố tăng cao"
+                    },
+                    {
+                      "en": "risks to public health",
+                      "vi": "sức khỏe cộng đồng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "environmental degradation",
+                    "vi": "suy thoái môi trường nghiêm trọng"
+                  },
+                  {
+                    "en": "urban heat island",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                  },
+                  {
+                    "en": "toxic emissions",
+                    "vi": "khí thải độc hại"
+                  },
+                  {
+                    "en": "air quality indices",
+                    "vi": "chỉ số chất lượng không khí"
+                  },
+                  {
+                    "en": "concretization of green spaces",
+                    "vi": "bê tông hóa diện tích cây xanh"
+                  },
+                  {
+                    "en": "risks to public health",
+                    "vi": "sức khỏe cộng đồng"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: BẤT ĐỘNG SẢN ĐẮT ĐỎ VÀ BẤT BÌNH ĐẲNG KINH TẾ XÃ HỘI (HOUSING UNAFFORDABILITY AND SOCIO-ECONOMIC INEQUALITIES)",
+                "point_vi": "Giá cả bất động sản leo thang vượt quá khả năng chi trả của đại bộ phận người dân và khoét sâu bất bình đẳng giàu nghèo.",
+                "point_en": "Escalating property values outstrip housing affordability for average citizens and widen socio-economic inequalities.",
+                "point_collocations": [
+                  {
+                    "en": "property values",
+                    "vi": "giá cả bất động sản"
+                  },
+                  {
+                    "en": "housing affordability",
+                    "vi": "khả năng chi trả"
+                  },
+                  {
+                    "en": "socio-economic inequalities",
+                    "vi": "bất bình đẳng giàu nghèo"
+                  }
+                ],
+                "evidence_vi": "Cơn sốt đất đai đẩy giá thuê nhà và giá mua căn hộ lên mức đắt đỏ, khiến người lao động thu nhập thấp khó có cơ hội an cư. Tình trạng này vô hình trung tạo ra sự phân hóa giàu nghèo gay gắt giữa các tầng lớp cư dân thành thị.",
+                "evidence_en": "Speculative land markets push housing rents and property prices to exorbitant levels, depriving low-income laborers of homeownership. This reality inevitably fosters deep spatial and economic segregation across urban social strata.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "housing rents",
+                      "vi": "giá thuê nhà"
+                    },
+                    {
+                      "en": "exorbitant levels",
+                      "vi": "mức đắt đỏ"
+                    },
+                    {
+                      "en": "low-income laborers",
+                      "vi": "người lao động thu nhập thấp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "spatial and economic segregation",
+                      "vi": "sự phân hóa giàu nghèo gay gắt"
+                    },
+                    {
+                      "en": "urban social strata",
+                      "vi": "tầng lớp cư dân thành thị"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "property values",
+                    "vi": "giá cả bất động sản"
+                  },
+                  {
+                    "en": "housing affordability",
+                    "vi": "khả năng chi trả"
+                  },
+                  {
+                    "en": "socio-economic inequalities",
+                    "vi": "bất bình đẳng giàu nghèo"
+                  },
+                  {
+                    "en": "housing rents",
+                    "vi": "giá thuê nhà"
+                  },
+                  {
+                    "en": "low-income laborers",
+                    "vi": "người lao động thu nhập thấp"
+                  },
+                  {
+                    "en": "spatial and economic segregation",
+                    "vi": "sự phân hóa giàu nghèo gay gắt"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: QUÁ TẢI DỊCH VỤ CÔNG CỘNG VÀ HỆ THỐNG VỆ SINH (STRAIN ON PUBLIC UTILITIES AND SANITATION NETWORKS)",
+                "point_vi": "Dân số cơ học tăng vọt gây áp lực nặng nề lên các cơ sở y tế, trường học và hệ thống vệ sinh môi trường.",
+                "point_en": "Unprecedented population influx places immense strain on healthcare institutions, schools, and sanitation systems.",
+                "point_collocations": [
+                  {
+                    "en": "population influx",
+                    "vi": "dân số cơ học tăng vọt"
+                  },
+                  {
+                    "en": "immense strain",
+                    "vi": "áp lực nặng nề"
+                  },
+                  {
+                    "en": "healthcare institutions",
+                    "vi": "cơ sở y tế"
+                  },
+                  {
+                    "en": "sanitation systems",
+                    "vi": "hệ thống vệ sinh môi trường"
+                  }
+                ],
+                "evidence_vi": "Các cơ sở y tế công lập thường rơi vào tình trạng quá tải bệnh nhân, dẫn đến suy giảm chất lượng chăm sóc y khoa. Thêm vào đó, khối lượng rác thải sinh hoạt khổng lồ mỗi ngày vượt quá khả năng xử lý của các bãi chôn lấp rác.",
+                "evidence_en": "Public clinics routinely suffer from patient overcrowding, which compromises the quality of individualized medical care. Additionally, municipal waste generation surges beyond the processing capacity of local waste management plants.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "public clinics",
+                      "vi": "cơ sở y tế công lập"
+                    },
+                    {
+                      "en": "patient overcrowding",
+                      "vi": "quá tải bệnh nhân"
+                    },
+                    {
+                      "en": "individualized medical care",
+                      "vi": "chất lượng chăm sóc y khoa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "municipal waste generation",
+                      "vi": "rác thải sinh hoạt"
+                    },
+                    {
+                      "en": "processing capacity",
+                      "vi": "khả năng xử lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "population influx",
+                    "vi": "dân số cơ học tăng vọt"
+                  },
+                  {
+                    "en": "immense strain",
+                    "vi": "áp lực nặng nề"
+                  },
+                  {
+                    "en": "sanitation systems",
+                    "vi": "hệ thống vệ sinh môi trường"
+                  },
+                  {
+                    "en": "patient overcrowding",
+                    "vi": "quá tải bệnh nhân"
+                  },
+                  {
+                    "en": "municipal waste generation",
+                    "vi": "rác thải sinh hoạt"
+                  },
+                  {
+                    "en": "processing capacity",
+                    "vi": "khả năng xử lý"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: SỰ BÙNG NỔ CỦA KHU NHÀ TỰ PHÁT VÀ MỐI NGUY AN NINH TRẬT TỰ (PROLIFERATION OF INFORMAL SETTLEMENTS AND SOCIAL INSECURITY)",
+                "point_vi": "Đô thị hóa thiếu quy hoạch dẫn đến sự lan rộng của các khu ổ chuột và tiềm ẩn nguy cơ mất an ninh trật tự xã hội.",
+                "point_en": "Unplanned urban expansion fuels the proliferation of informal settlements and exacerbates social insecurity.",
+                "point_collocations": [
+                  {
+                    "en": "unplanned urban expansion",
+                    "vi": "đô thị hóa thiếu quy hoạch"
+                  },
+                  {
+                    "en": "informal settlements",
+                    "vi": "khu ổ chuột"
+                  },
+                  {
+                    "en": "social insecurity",
+                    "vi": "mất an ninh trật tự xã hội"
+                  }
+                ],
+                "evidence_vi": "Những khu dân cư tự phát ven đô thường thiếu thốn nguồn nước sạch, mạng lưới điện an toàn và các dịch vụ phòng cháy chữa cháy. Môi trường sống bấp bênh và tình trạng thất nghiệp cục bộ dễ khiến một bộ phận cư dân vướng vào các tệ nạn xã hội hoặc tội phạm.",
+                "evidence_en": "Sprawling informal dwellings on urban peripheries lack clean potable water, certified electricity, and emergency fire services. Precarious living conditions coupled with localized joblessness make vulnerable groups susceptible to criminality and illicit activities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "informal dwellings",
+                      "vi": "khu dân cư tự phát"
+                    },
+                    {
+                      "en": "clean potable water",
+                      "vi": "nguồn nước sạch"
+                    },
+                    {
+                      "en": "emergency fire services",
+                      "vi": "dịch vụ phòng cháy chữa cháy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "precarious living conditions",
+                      "vi": "môi trường sống bấp bênh"
+                    },
+                    {
+                      "en": "localized joblessness",
+                      "vi": "thất nghiệp cục bộ"
+                    },
+                    {
+                      "en": "social evils or crimes",
+                      "vi": "tệ nạn xã hội hoặc tội phạm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unplanned urban expansion",
+                    "vi": "đô thị hóa thiếu quy hoạch"
+                  },
+                  {
+                    "en": "informal settlements",
+                    "vi": "khu ổ chuột"
+                  },
+                  {
+                    "en": "social insecurity",
+                    "vi": "mất an ninh trật tự xã hội"
+                  },
+                  {
+                    "en": "informal dwellings",
+                    "vi": "khu dân cư tự phát"
+                  },
+                  {
+                    "en": "clean potable water",
+                    "vi": "nguồn nước sạch"
+                  },
+                  {
+                    "en": "precarious living conditions",
+                    "vi": "môi trường sống bấp bênh"
+                  },
+                  {
+                    "en": "social evils or crimes",
+                    "vi": "tệ nạn xã hội hoặc tội phạm"
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "<p>In recent decades, <strong>urbanization</strong> has become a prominent global trend as millions of people relocate from rural villages to big cities. While this migration process brings notable advantages in terms of <em>employment opportunities</em> and <em>modern infrastructure</em>, it also creates significant drawbacks regarding <em>traffic congestion</em> and <em>environmental pollution</em>.</p>\n<p>On the one hand, urbanization offers several substantial benefits for city dwellers. Firstly, cities are home to numerous companies, factories, and service businesses, which generates <strong>abundant job opportunities</strong>. As a result, workers from the countryside can easily secure stable employment with higher wages to improve their living standards. Secondly, urban centers provide <strong>superior access to essential public services</strong>, including prestigious universities and modern hospitals. Residents can enjoy comprehensive educational programs and receive prompt medical treatment whenever health problems arise. Furthermore, cities boast <em>vibrant entertainment amenities</em> such as shopping malls, cinemas, and cultural exhibitions, allowing people to relax effectively after busy working hours.</p>\n<p>On the other hand, rapid urban expansion brings noticeable challenges. The most prominent disadvantage is <strong>severe traffic congestion</strong> during rush hours. Because a vast number of personal vehicles travel on narrow streets simultaneously, commuters often spend hours stuck in exhausting gridlock. Additionally, urban living environments suffer from <strong>serious air and noise pollution</strong> caused by industrial emissions and continuous transport activities. Inhaling toxic fumes daily poses acute risks of respiratory illnesses. Finally, the high cost of living and expensive housing make it difficult for average-income families to afford decent accommodation, which can lead to the growth of underprivileged residential areas.</p>\n<p>In conclusion, although urbanization fosters considerable economic growth and modern convenience, it also triggers serious transportation, environmental, and housing issues. Municipal authorities should implement balanced policies to ensure sustainable urban development.</p>",
+          "translation_b1": "<p>Trong những thập kỷ gần đây, <strong>đô thị hóa</strong> đã trở thành một xu hướng toàn cầu nổi bật khi hàng triệu người chuyển từ làng quê lên các thành phố lớn. Dù quá trình di cư này mang lại nhiều lợi thế đáng kể về <em>cơ hội việc làm</em> và <em>cơ sở hạ tầng hiện đại</em>, nó cũng tạo ra những bất lợi lớn liên quan đến <em>ùn tắc giao thông</em> và <em>ô nhiễm môi trường</em>.</p>\n<p>Một mặt, đô thị hóa mang lại một số lợi ích thiết thực cho người dân thành thị. Thứ nhất, các thành phố là nơi tập trung của vô số công ty, nhà máy và doanh nghiệp dịch vụ, tạo ra <strong>nhiều cơ hội việc làm phong phú</strong>. Nhờ đó, người lao động từ nông thôn có thể dễ dàng tìm kiếm việc làm ổn định với mức lương cao hơn để nâng cao đời sống. Thứ hai, các trung tâm đô thị đem lại <strong>khả năng tiếp cận vượt trội đối với các dịch vụ công thiết yếu</strong>, bao gồm các trường đại học danh tiếng và các bệnh viện hiện đại. Cư dân có thể tận hưởng các chương trình giáo dục toàn diện và được chữa bệnh kịp thời khi có vấn đề sức khỏe. Hơn nữa, thành phố sở hữu <em>các tiện ích giải trí sôi động</em> như trung tâm thương mại, rạp chiếu phim và triển lãm văn hóa, giúp mọi người thư giãn hiệu quả sau những giờ làm việc bận rộn.</p>\n<p>Mặt khác, sự phát triển đô thị nhanh chóng cũng mang lại những thách thức rõ rệt. Bất lợi nổi bật nhất là <strong>tình trạng ùn tắc giao thông nghiêm trọng</strong> trong giờ cao điểm. Do số lượng lớn phương tiện cá nhân lưu thông trên đường cùng lúc, người tham gia giao thông thường phải chôn chân hàng giờ liền trong cảnh tắc đường mệt mỏi. Thêm vào đó, môi trường sống đô thị phải gánh chịu <strong>ô nhiễm không khí và tiếng ồn nặng nề</strong> do khí thải công nghiệp và các hoạt động vận tải liên tục. Việc hít thở khói độc mỗi ngày tiềm ẩn nguy cơ cao về các bệnh đường hô hấp. Cuối cùng, chi phí sinh hoạt đắt đỏ và giá nhà cao khiến các gia đình có thu nhập trung bình gặp khó khăn trong việc chi trả nơi ở tươm tất, có thể dẫn tới sự lan rộng của các khu dân cư nghèo nàn.</p>\n<p>Tóm lại, mặc dù đô thị hóa thúc đẩy tăng trưởng kinh tế mạnh mẽ và sự tiện nghi hiện đại, nó cũng làm nảy sinh các vấn đề nghiêm trọng về giao thông, môi trường và nhà ở. Chính quyền các đô thị cần triển khai những chính sách cân bằng để đảm bảo phát triển đô thị bền vững.</p>",
+          "sample_b2": "<p>Over the past few decades, <strong>urbanization</strong> has accelerated at an unprecedented pace across the globe, driven by demographic migration from rural peripheries to metropolitan regions. While this socio-economic transition acts as an indispensable engine of <em>macroeconomic dynamism</em> and <em>infrastructural modernization</em>, it concurrently induces acute dilemmas concerning <em>vehicular gridlock</em>, <em>environmental degradation</em>, and <em>socio-spatial inequalities</em>.</p>\n<p>On the one hand, urbanization yields profound economic and societal dividends. Primarily, the geographical agglomeration of corporate headquarters, research institutions, and manufacturing facilities fosters <strong>robust industrial synergies and diversifies professional employment prospects</strong>. Consequently, skilled laborers and ambitious graduates gain unfettered access to upward socio-economic mobility and lucrative career trajectories. Furthermore, metropolises function as epicenters of <strong>superior public infrastructure and specialized amenities</strong>. High-density urban clusters rationalize the provision of capital-intensive investments, such as advanced underground rapid transit networks, tertiary medical centers equipped with cutting-edge diagnostics, and premier universities. Additionally, the convergence of diverse demographic groups cultivates a <em>multifaceted cultural milieu</em>, broadening residents' intellectual horizons through cosmopolitan exchanges and enriching lifestyle options.</p>\n<p>On the other hand, unrestrained urban sprawl imposes severe strains on physical and ecological systems. Foremost among these challenges is <strong>chronic transportation paralysis and systemic infrastructure overload</strong>. As private vehicle ownership exponentially expands, archaic street configurations inevitably succumb to perpetual gridlock, squandering millions of productive working hours and inflating logistics expenses. Equally alarming is <strong>extensive environmental deterioration and the amplification of the urban heat island effect</strong>. Dense concentrations of concrete architecture combined with heavy vehicular exhaust severely diminish ambient air quality, precipitating widespread cardiopulmonary disorders. Moreover, unchecked property speculation precipitates <strong>acute housing unaffordability</strong>, inexorably segregating vulnerable low-income migrants into substandard informal settlements that lack basic sanitation and certified utilities, thereby exacerbating social insecurity.</p>\n<p>In conclusion, while urbanization constitutes a monumental catalyst for technological innovation, economic prosperity, and enhanced living standards, its uncoordinated progression poses formidable infrastructural, ecological, and societal hazards. To mitigate these adverse repercussions, governments must execute integrated urban master plans emphasizing green transit, affordable housing, and decentralized regional growth.</p>",
+          "translation_b2": "<p>Trong vài thập kỷ qua, <strong>đô thị hóa</strong> đã diễn ra với tốc độ chưa từng có trên toàn cầu, được thúc đẩy bởi làn sóng di dân từ các vùng nông thôn ngoại vi về các khu vực đại đô thị. Mặc dù quá trình chuyển dịch kinh tế - xã hội này đóng vai trò là động lực không thể thiếu cho <em>sự năng động kinh tế vĩ mô</em> và <em>hiện đại hóa cơ sở hạ tầng</em>, nó đồng thời gây ra những bài toán nan giải gay gắt liên quan đến <em>ùn tắc giao thông</em>, <em>suy thoái môi trường</em> và <em>bất bình đẳng không gian - xã hội</em>.</p>\n<p>Một mặt, đô thị hóa mang lại những lợi ích kinh tế và xã hội vô cùng sâu sắc. Trước hết, sự tập trung về mặt địa lý của các trụ sở doanh nghiệp, viện nghiên cứu và cơ sở sản xuất thúc đẩy <strong>sự cộng hưởng công nghiệp mạnh mẽ và đa dạng hóa cơ hội việc làm chuyên nghiệp</strong>. Do đó, lực lượng lao động có tay nghề và sinh viên tốt nghiệp nhiều hoài bão có cơ hội rộng mở để thăng tiến xã hội và đạt được những lộ trình sự nghiệp thu nhập cao. Hơn nữa, các đại đô thị đóng vai trò là tâm điểm của <strong>cơ sở hạ tầng công cộng vượt trội và các tiện ích chuyên sâu</strong>. Mật độ dân cư đô thị cao giúp tối ưu hóa hiệu quả của các khoản đầu tư thâm dụng vốn, chẳng hạn như hệ thống tàu điện ngầm hiện đại, các trung tâm y tế chuyên sâu được trang bị máy móc chẩn đoán tối tân, và các trường đại học hàng đầu. Ngoài ra, sự hội tụ của nhiều nhóm cư dân đa dạng kiến tạo nên một <em>bức tranh văn hóa phong phú</em>, mở rộng chân trời tri thức của người dân thông qua giao lưu mang tầm quốc tế và đa dạng hóa phong cách sống.</p>\n<p>Mặt khác, sự bành trướng đô thị thiếu kiểm soát gây áp lực nặng nề lên các hệ thống vật chất và sinh thái. Thách thức hàng đầu trong số này là <strong>tình trạng tê liệt giao thông kinh niên và sự quá tải hạ tầng mang tính hệ thống</strong>. Khi lượng sở hữu xe cá nhân tăng theo cấp số nhân, cấu trúc đường sá không theo kịp tất yếu dẫn đến tắc nghẽn giao thông cục bộ triền miên, làm lãng phí hàng triệu giờ lao động hữu ích và đẩy chi phí logistics lên cao. Đáng báo động không kém là <strong>sự suy thoái môi trường trên diện rộng và sự gia tăng của hiệu ứng đảo nhiệt đô thị</strong>. Mật độ bê tông hóa dày đặc kết hợp với khí thải xe cộ nặng nề làm suy giảm nghiêm trọng chất lượng không khí, dẫn đến các bệnh về tim mạch và hô hấp lan rộng. Hơn nữa, tình trạng đầu cơ bất động sản đẩy <strong>giá nhà ở vượt xa khả năng chi trả</strong>, vô hình trung đẩy những người di cư nghèo vào các khu nhà tự phát tồi tàn thiếu thốn điều kiện vệ sinh và điện nước an toàn, từ đó làm gia tăng bất an ninh xã hội.</p>\n<p>Tóm lại, mặc dù đô thị hóa là đòn bẩy vĩ đại cho đổi mới công nghệ, thịnh vượng kinh tế và nâng tầm chất lượng sống, sự phát triển thiếu đồng bộ của nó lại tiềm ẩn nhiều nguy cơ hạ tầng, sinh thái và xã hội nghiêm trọng. Để giảm thiểu những hệ lụy tiêu cực này, chính phủ các nước cần thực thi các quy hoạch tổng thể tích hợp, chú trọng vào giao thông xanh, nhà ở xã hội hợp túi tiền và phân quyền phát triển vùng cân bằng.</p>"
+        }
       }
     ]
   },
