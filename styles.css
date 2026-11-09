@@ -410,6 +410,7 @@ input, textarea, button, select {
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
   padding: 0 2rem;
+  column-gap: 1.5rem;
   flex-shrink: 0;
   transition: border-color var(--transition-normal);
   position: relative;
@@ -421,8 +422,8 @@ input, textarea, button, select {
   transform: none;
   font-family: var(--font-display);
   font-weight: 850;
-  font-size: 1.55rem;
-  letter-spacing: 2px;
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
   background: linear-gradient(45deg, #ff007f, #7f00ff, #00f0ff, #ff007f);
   background-size: 300% 300%;
   -webkit-background-clip: text;
@@ -2404,6 +2405,38 @@ h1, h2, h3, h4, h5, h6,
 
 .top-header.view-category .header-middle-brand:hover {
   transform: scale(1.02);
+}
+
+/* Specific styling for Top Header on Workspace, History, Drafts (without search bar) */
+.top-header.view-workspace {
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.5rem;
+}
+
+.top-header.view-workspace .page-title {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.top-header.view-workspace .header-middle-brand {
+  grid-column: 2;
+  justify-self: end;
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+}
+
+.top-header.view-workspace .header-actions {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .header-middle-brand {
+    font-size: 1.1rem !important;
+    letter-spacing: 1px !important;
+  }
+  .page-title {
+    font-size: 1.2rem !important;
+  }
 }
 
 

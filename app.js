@@ -149,10 +149,11 @@ function switchScreen(screenName) {
     document.querySelectorAll('.trans-input-area').forEach(input => input.value = '');
   }
 
-  // Remove category view class from header
+  // Remove category & workspace view classes from header
   const header = document.querySelector('.top-header');
   if (header) {
     header.classList.remove('view-category');
+    header.classList.remove('view-workspace');
   }
 
   // Close mobile sidebar on navigation
@@ -178,16 +179,19 @@ function switchScreen(screenName) {
     document.getElementById('global-search-container').style.display = 'block';
     renderDashboard();
   } else if (screenName === 'history') {
+    if (header) header.classList.add('view-workspace');
     links[5].classList.add('active');
     document.getElementById('page-header-title').innerText = 'Lịch sử luyện tập';
     document.getElementById('global-search-container').style.display = 'none';
     renderHistory();
   } else if (screenName === 'drafts') {
+    if (header) header.classList.add('view-workspace');
     links[6].classList.add('active');
     document.getElementById('page-header-title').innerText = 'Bản nháp đã lưu';
     document.getElementById('global-search-container').style.display = 'none';
     renderDrafts();
   } else if (screenName === 'workspace') {
+    if (header) header.classList.add('view-workspace');
     document.getElementById('page-header-title').innerText = 'Phòng luyện viết luận - B2 Level';
     document.getElementById('global-search-container').style.display = 'none';
     isDirty = false;
@@ -238,6 +242,7 @@ function switchCategory(catId) {
   // Add category view class to header
   const header = document.querySelector('.top-header');
   if (header) {
+    header.classList.remove('view-workspace');
     header.classList.add('view-category');
   }
   
