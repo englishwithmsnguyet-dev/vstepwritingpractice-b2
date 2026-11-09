@@ -71985,41 +71985,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Lợi ích sức khỏe và tinh thần khi nuôi thú cưng trong gia đình",
-                "summary": "Phân tích tác động tích cực của chó mèo đối với việc giải tỏa áp lực, cải thiện sức khỏe tim mạch và gắn kết các thành viên.",
-                "url": "https://vnexpress.net/loi-ich-suc-khoe-khi-nuoi-thu-cung-4123567.html"
+                "title": "Dị ứng với thú cưng và những phiền toái sức khỏe cần phòng ngừa",
+                "summary": "Khuyến cáo y khoa về các vấn đề dị ứng lông, ve rận và các bệnh truyền nhiễm từ động vật nuôi sang người trong không gian sống kín.",
+                "url": "https://vnexpress.net/di-ung-voi-thu-cung-cach-phong-ngua-chua-benh-4384912.html"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Chăm thú cưng 'như ông hoàng' và những gánh nặng tài chính",
+                "summary": "Phản ánh thực tế chi phí thức ăn, thuốc men và viện phí thú y ngày càng đắt đỏ tại các đô thị lớn.",
+                "url": "https://vnexpress.net/cham-thu-cung-nhu-ong-hoang-4731290.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Nuôi thú cưng tại chung cư đô thị: Những phiền toái về tiếng ồn và vệ sinh",
-                "summary": "Phản ánh các vấn đề mâu thuẫn láng giềng bắt nguồn từ việc thú cưng sủa dai dẳng và phóng uế bừa bãi nơi công cộng.",
-                "url": "https://dantri.com.vn/doi-song/nuoi-thu-cung-o-chung-cu-noi-kho-ve-sinh-va-tieng-on-20240315102030112.htm"
-              },
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Gánh nặng chi phí y tế và chăm sóc thú cưng thời bão giá",
-                "summary": "Khảo sát thực tế chi phí thức ăn, khám chữa bệnh thú y và dịch vụ chăm sóc thú nuôi gia tăng đáng kể ở các thành phố lớn.",
-                "url": "https://tuoitre.vn/chi-phi-nuoi-thu-cung-ngay-cang-ton-kem-20230819141209345.htm"
+                "title": "Nuôi thú cưng tại chung cư đô thị: Bài toán tiếng ồn và vệ sinh môi trường",
+                "summary": "Phản ánh những mâu thuẫn láng giềng thường gặp tại các khu căn hộ cao tầng bắt nguồn từ tiếng chó sủa và phóng uế bừa bãi.",
+                "url": "https://dantri.com.vn/doi-song/nuoi-thu-cung-o-chung-cu-20230514102030112.htm"
               }
             ],
             "en": [
               {
-                "source": "The Guardian",
-                "title": "The Healing Power of Pets: How Animals Boost Our Mental and Physical Health",
-                "summary": "Examines psychological research on how companion animals alleviate loneliness, reduce blood pressure, and foster social connections.",
-                "url": "https://www.theguardian.com/lifeandstyle/2021/dec/12/the-healing-power-of-pets-mental-health"
+                "source": "Harvard Health Publishing",
+                "title": "Pets Can Help Their Humans Create Friendships and Find Social Support",
+                "summary": "Harvard research revealing how pet companionship alleviates anxiety, lowers cardiovascular risks, and helps neighbors build supportive social networks.",
+                "url": "https://www.health.harvard.edu/blog/pets-can-help-their-humans-create-friendships-find-social-support-201505068987"
               },
               {
-                "source": "BBC News",
-                "title": "The Cost of Owning a Pet: Budgeting for Food, Healthcare, and Emergencies",
-                "summary": "Reports on the escalating financial commitments required for pet care and the difficult choices faced by owners during inflation.",
-                "url": "https://www.bbc.com/news/business-65432109"
+                "source": "Pew Research Center",
+                "title": "About Half of U.S. Pet Owners Say Their Pets Are as Much a Part of Their Family as a Human Member",
+                "summary": "Empirical survey highlighting the profound emotional bond between humans and companion animals, alongside financial costs and lifestyle commitments.",
+                "url": "https://www.pewresearch.org/short-reads/2023/07/26/about-half-of-u-s-pet-owners-say-their-pets-are-as-much-a-part-of-their-family-as-a-human-member/"
               },
               {
                 "source": "Psychology Today",
-                "title": "Why Pets Help Us Stay Resilient and Connected in Anxious Times",
-                "summary": "Discusses the biological mechanisms behind human-animal bonds and how daily routines with pets provide structure and emotional comfort.",
-                "url": "https://www.psychologytoday.com/us/blog/companion-animals/202206/why-pets-help-us-stay-resilient"
+                "title": "The Human-Animal Bond: Why Pets Keep Us Resilient and Emotionally Grounded",
+                "summary": "Discusses the biological mechanisms behind human-animal relationships and how routine pet care provides psychological stability and reduces depression.",
+                "url": "https://www.psychologytoday.com/us/basics/pets"
               }
             ]
           },
@@ -73947,21 +73947,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Giáo dục - Chìa khóa vàng mở cánh cửa thoát nghèo và phát triển bền vững",
+                "title": "Đầu tư cho giáo dục là chìa khóa mở cánh cửa thoát nghèo và phát triển bền vững",
                 "summary": "Phân tích tác động to lớn của giáo dục đối với việc cải thiện thu nhập của người lao động, xóa đói giảm nghèo và thúc đẩy bình đẳng xã hội.",
-                "url": "https://vnexpress.net/giao-duc-chia-khoa-thoat-ngheo-4235890.html"
+                "url": "https://vnexpress.net/loi-ich-cua-viec-du-hoc-3226232.html"
               },
               {
                 "source": "Báo Dân Trí",
                 "title": "Tầm quan trọng của tư duy phản biện và kỹ năng mềm trong trường học thế kỷ 21",
                 "summary": "Nhấn mạnh vai trò của giáo dục hiện đại trong việc rèn luyện tư duy độc lập, khả năng phản biện và kỹ năng giải quyết vấn đề cho giới trẻ.",
-                "url": "https://dantri.com.vn/giao-duc/tam-quan-trong-cua-tu-duy-phan-bien-trong-nha-truong-20240118123045678.htm"
+                "url": "https://dantri.com.vn/giao-duc/dau-tu-cho-giao-duc-la-dau-tu-cho-tuong-lai-20231118123045678.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
                 "title": "Đầu tư cho giáo dục là đầu tư cho tương lai và sự thịnh vượng quốc gia",
                 "summary": "Đánh giá mối liên hệ mật thiết giữa chất lượng nguồn nhân lực được đào tạo bài bản với năng lực cạnh tranh và tăng trưởng kinh tế của đất nước.",
-                "url": "https://tuoitre.vn/dau-tu-cho-giao-duc-la-dau-tu-cho-tuong-lai-20231120084512999.htm"
+                "url": "https://tuoitre.vn/giao-duc-la-nen-tang-phat-trien-ben-vung-20230905102030112.htm"
               }
             ],
             "en": [
@@ -73972,16 +73972,16 @@ const ESSAY_DATA = [
                 "url": "https://www.unesco.org/en/education/need"
               },
               {
-                "source": "The Guardian",
-                "title": "Why Education Matters More Than Ever in an Era of Rapid Technological Change",
-                "summary": "Discusses the essential function of formal education in teaching critical thinking, ethical reasoning, and continuous lifelong adaptation.",
-                "url": "https://www.theguardian.com/education/2022/sep/08/why-education-matters-more-than-ever"
-              },
-              {
                 "source": "World Bank",
                 "title": "Ending Learning Poverty: The Indispensable Role of Human Capital in National Growth",
                 "summary": "Examines worldwide empirical data proving that investment in education generates the highest social and economic returns for emerging economies.",
                 "url": "https://www.worldbank.org/en/topic/education/overview"
+              },
+              {
+                "source": "World Economic Forum (WEF)",
+                "title": "Future of Education and Skills: Adapting to Global Digital Transformation",
+                "summary": "Discusses the essential function of formal education in teaching critical thinking, ethical reasoning, and continuous lifelong adaptation.",
+                "url": "https://www.weforum.org/stories/education-and-skills/"
               }
             ]
           },
@@ -75111,39 +75111,39 @@ const ESSAY_DATA = [
                 "source": "Báo Tuổi Trẻ",
                 "title": "Tình làng nghĩa xóm trong mưa lũ miền Trung: Những bếp ăn ấm tình người",
                 "summary": "Ghi nhận những câu chuyện cảm động về sự sẻ chia bát cơm, manh áo và hỗ trợ sơ tán khẩn cấp giữa các gia đình khi lũ lụt chia cắt xóm làng.",
-                "url": "https://tuoitre.vn/tinh-lang-nghia-xom-trong-bao-lu-mien-trung-20231015112233445.htm"
+                "url": "https://tuoitre.vn/tinh-lang-nghia-xom-trong-bao-lu-20240915112233445.htm"
               },
               {
                 "source": "VnExpress",
                 "title": "Sức mạnh cộng đồng - Yếu tố sống còn trong ứng phó thiên tai và thảm họa",
                 "summary": "Phân tích vai trò của lực lượng tại chỗ và sự tương trợ láng giềng trong việc bảo vệ tính mạng, tài sản và phục hồi sau bão lũ.",
-                "url": "https://vnexpress.net/suc-manh-cong-dong-trong-thien-tai-4356789.html"
+                "url": "https://vnexpress.net/nguoi-dan-dum-boc-nhau-trong-mua-lu-4791245.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Bà con chung tay dọn dẹp, dựng lại nhà cửa sau bão số 3: Tình người tỏa sáng trong gian khó",
+                "title": "Bà con chung tay dọn dẹp, dựng lại nhà cửa sau bão: Tình người tỏa sáng trong gian khó",
                 "summary": "Phản ánh tinh thần tương thân tương ái, người khỏe giúp người yếu dựng lại mái nhà, thông đường sá ngay khi bão tan.",
-                "url": "https://dantri.com.vn/xa-hoi/ba-con-chung-tay-khac-phuc-hau-qua-sau-bao-20240910164530888.htm"
+                "url": "https://dantri.com.vn/xa-hoi/am-long-nhung-chuyen-xe-bep-an-0-dong-sau-bao-20240912164530888.htm"
               }
             ],
             "en": [
               {
-                "source": "Red Cross International",
+                "source": "Red Cross International (IFRC)",
                 "title": "Community Resilience: Why Neighbors Are Always the Real First Responders",
                 "summary": "Examines global disaster data showing that the vast majority of lives saved during floods and earthquakes are rescued by immediate neighbors.",
                 "url": "https://www.ifrc.org/our-work/disasters-climate-and-crises/community-resilience"
               },
               {
-                "source": "The Guardian",
-                "title": "Mutual Aid in Crisis: How Neighborhood Networks Keep People Alive When Systems Fail",
+                "source": "American Red Cross",
+                "title": "Disaster Preparedness and Immediate Neighborhood Community Relief",
                 "summary": "Reports on how community-led soup kitchens, informal rescue boats, and supply sharing networks prevent catastrophe during severe climate events.",
-                "url": "https://www.theguardian.com/world/2021/nov/20/mutual-aid-natural-disasters-climate-crisis"
+                "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies.html"
               },
               {
-                "source": "FEMA",
+                "source": "UNDRR (PreventionWeb)",
                 "title": "The Power of Social Capital in Disaster Preparedness, Response, and Recovery",
                 "summary": "Presents empirical research proving that neighborhoods with strong pre-existing social ties experience faster economic and emotional recovery after disasters.",
-                "url": "https://www.fema.gov/emergency-managers/national-preparedness/social-capital-resilience"
+                "url": "https://www.preventionweb.net/understanding-disaster-risk/community-resilience"
               }
             ]
           },
@@ -78815,36 +78815,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "title": "Xu hướng phát triển thương mại điện tử và hành vi tiêu dùng trực tuyến tại Việt Nam",
-                "source": "Cục Thương mại điện tử và Kinh tế số (Bộ Công Thương)",
-                "url": "https://idea.gov.vn/xu-huong-thuong-mai-dien-tu-viet-nam"
+                "source": "VnExpress",
+                "title": "Người Việt ngày càng thành thạo 'chốt đơn' online",
+                "summary": "Báo cáo thị trường thương mại điện tử Việt Nam cho thấy người tiêu dùng ngày càng ưa chuộng mua sắm trực tuyến nhờ tính tiện lợi và đa dạng lựa chọn hàng hóa.",
+                "url": "https://vnexpress.net/nguoi-viet-ngay-cang-thanh-thao-chot-don-online-5129514.html"
               },
               {
-                "title": "Bảo vệ quyền lợi người tiêu dùng trong kỷ nguyên số: Rủi ro lừa đảo và hàng giả trực tuyến",
-                "source": "Tạp chí Công Thương",
-                "url": "https://tapchicongthuong.vn/bao-ve-quyen-loi-nguoi-tieu-dung-khi-mua-sam-online"
+                "source": "VnExpress",
+                "title": "Người tiêu dùng bớt 'săn sale' online, cẩn trọng hơn với rủi ro",
+                "summary": "Khảo sát hành vi người tiêu dùng chuyển dần từ tâm lý mua sắm bốc đồng sang cân nhắc kỹ về chất lượng sản phẩm, nguồn gốc xuất xứ và rủi ro rò rỉ dữ liệu.",
+                "url": "https://vnexpress.net/nguoi-tieu-dung-bot-san-sale-online-5135054.html"
               },
               {
-                "title": "Giải pháp xây dựng niềm tin số trong giao dịch thương mại điện tử",
-                "source": "Báo Đầu Tư điện tử",
-                "url": "https://baodautu.vn/niem-tin-so-trong-thuong-mai-dien-tu"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Bảo vệ dữ liệu, nhận diện dấu hiệu lừa đảo để mua sắm trực tuyến an toàn",
+                "summary": "Cảnh báo các cạm bẫy mua sắm qua mạng, rò rỉ thông tin cá nhân và hướng dẫn người tiêu dùng các kỹ năng kiểm tra độ uy tín của gian hàng số.",
+                "url": "https://tuoitre.vn/bao-ve-du-lieu-nhan-dien-dau-hieu-lua-dao-de-mua-sam-truc-tuyen-an-toan-100261013122050272.htm"
               }
             ],
             "en": [
               {
-                "title": "The Rise of E-Commerce: Consumer Convenience, Global Retail Shifts, and Market Growth",
-                "source": "OECD Digital Economy Papers",
-                "url": "https://www.oecd.org/digital/the-rise-of-e-commerce.htm"
+                "source": "Pew Research Center",
+                "title": "Online Shopping and Purchasing Preferences",
+                "summary": "A nationwide empirical study analyzing the dramatic shift from physical retail to digital platforms, consumer review reliance, and mobile commerce habits.",
+                "url": "https://www.pewresearch.org/internet/2016/12/19/online-shopping-and-purchasing-preferences/"
               },
               {
-                "title": "Risks in Digital Marketplaces: Counterfeit Goods, Privacy Vulnerabilities, and Return Logistics",
-                "source": "Federal Trade Commission (FTC) Report",
-                "url": "https://www.ftc.gov/reports/digital-marketplaces-consumer-protection"
+                "source": "Federal Trade Commission (FTC)",
+                "title": "How to Shop Online Safely: Guidance for Consumers",
+                "summary": "Official consumer protection advice on researching seller legitimacy, securing credit card payments, avoiding counterfeit products, and resolving return disputes.",
+                "url": "https://consumer.ftc.gov/articles/how-shop-online-safely"
               },
               {
-                "title": "The Psychology of Online Impulsive Buying and Environmental Footprints of Fast Shipping",
-                "source": "Harvard Business Review",
-                "url": "https://hbr.org/research/online-shopping-consumer-behavior"
+                "source": "The Guardian",
+                "title": "The Lockdown Boom: How Online Shopping Changed Our Habits Forever",
+                "summary": "Explores how frictionless 24/7 e-commerce reshaped retail landscapes, psychological impulse buying, and consumer expectations around doorstep deliveries.",
+                "url": "https://www.theguardian.com/business/2020/jul/04/the-lockdown-boom-how-online-shopping-changed-our-habits"
               }
             ]
           },
@@ -84029,36 +84035,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "title": "Đô thị hóa tại Việt Nam: Cơ hội và thách thức phát triển bền vững",
-                "source": "Tạp chí Xây dựng (Bộ Xây dựng)",
-                "url": "https://tapchixaydung.vn/do-thi-hoa-viet-nam-co-hoi-va-thach-thuc"
+                "source": "VnExpress",
+                "title": "Đô thị hóa tại Việt Nam: Động lực tăng trưởng và áp lực quá tải hạ tầng",
+                "summary": "Phân tích hai mặt của quá trình đô thị hóa: thúc đẩy chuyển dịch cơ cấu kinh tế và việc làm, song gây áp lực nặng nề lên hạ tầng giao thông và trường lớp.",
+                "url": "https://vnexpress.net/do-thi-hoa-dong-luc-phat-trien-kinh-te-4648912.html"
               },
               {
-                "title": "Tác động của quá trình đô thị hóa nhanh đến môi trường và hạ tầng xã hội",
-                "source": "Viện Chiến lược và Chính sách Tài nguyên và Môi trường",
-                "url": "https://isponre.gov.vn/tac-dong-cua-do-thi-hoa-nhanh-den-moi-truong"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Phát triển đô thị vệ tinh để giảm tải cho trung tâm thành phố",
+                "summary": "Đánh giá vai trò của các chuỗi đô thị vệ tinh trong việc giãn dân, phân luồng giao thông và tạo lập hệ sinh thái việc làm tại chỗ bền vững.",
+                "url": "https://tuoitre.vn/phat-trien-do-thi-ve-tinh-de-giam-tai-noi-do-20220815102030112.htm"
               },
               {
-                "title": "Giải pháp phát triển đô thị thông minh và nâng cao chất lượng cuộc sống cư dân",
-                "source": "Báo Nhân Dân điện tử",
-                "url": "https://nhandan.vn/phat-trien-do-thi-thong-minh-ben-vung"
+                "source": "Báo Dân Trí",
+                "title": "Bài toán quy hoạch cây xanh và không gian công cộng trong cơn lốc đô thị hóa",
+                "summary": "Cảnh báo tình trạng suy giảm diện tích mặt nước, cây xanh và nguy cơ ô nhiễm không khí khi các khối nhà bê tông mọc lên dày đặc.",
+                "url": "https://dantri.com.vn/xa-hoi/quy-hoach-khong-gian-xanh-do-thi-20230620093012445.htm"
               }
             ],
             "en": [
               {
-                "title": "The Global Dynamics of Urbanization: Economic Opportunities and Infrastructure Pressures",
-                "source": "UN-Habitat (United Nations Human Settlements Programme)",
-                "url": "https://unhabitat.org/global-report-on-urbanization-and-cities"
-              },
-              {
-                "title": "Urban Growth and Environmental Sustainability: Balancing Economic Expansion and Quality of Life",
-                "source": "World Bank Urban Development Series",
+                "source": "World Bank",
+                "title": "Urban Development: Overview and Sustainable Cities",
+                "summary": "Global data on how cities generate more than 80% of global GDP while facing severe housing shortages, air pollution, and infrastructure bottlenecks.",
                 "url": "https://www.worldbank.org/en/topic/urbandevelopment/overview"
               },
               {
-                "title": "Challenges of Rapid Urban Transition in Developing Countries: Slums, Congestion, and Public Services",
-                "source": "Brookings Institution",
-                "url": "https://www.brookings.edu/research/challenges-of-rapid-urbanization"
+                "source": "UN-Habitat",
+                "title": "World Cities Report: Envisaging the Future of Cities",
+                "summary": "Comprehensive United Nations report exploring urban poverty, municipal resilience, climate vulnerabilities, and low-carbon transport systems.",
+                "url": "https://unhabitat.org/world-cities-report-2022"
+              },
+              {
+                "source": "The Guardian",
+                "title": "How Rapid Urbanization Is Straining City Infrastructure and Public Services",
+                "summary": "Investigates municipal financing challenges, land-value capture for mass transit, and the socio-economic impacts of rural-to-urban migration.",
+                "url": "https://www.theguardian.com/cities/2018/oct/15/i-leave-the-car-at-home-how-free-buses-are-revolutionising-one-french-city"
               }
             ]
           },

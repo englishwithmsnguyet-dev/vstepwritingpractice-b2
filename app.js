@@ -7245,7 +7245,7 @@ function renderStep1Reading() {
                         </a>
                       </div>
                       <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
-                      <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>
+                      ${a.summary ? `<div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>` : ""}
                     </div>
                   `).join('')}
                 </div>
@@ -7267,7 +7267,7 @@ function renderStep1Reading() {
                         </a>
                       </div>
                       <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
-                      <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>
+                      ${a.summary ? `<div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>` : ""}
                     </div>
                   `).join('')}
                 </div>
