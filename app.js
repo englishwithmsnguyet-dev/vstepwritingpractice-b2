@@ -3392,7 +3392,9 @@ const CONTEXTUAL_WORD_CHOICES = {
   'make benefits': 'bring benefits / provide benefits',
   'at anytime': 'at any time',
   'feel boring': 'feel bored',
-  'through Internet': 'through the Internet'
+  'through Internet': 'through the Internet',
+  'public transports': 'public transport',
+  'private transports': 'private transport'
 };
 
 // Evaluate user typed translation against VSTEP requirements
@@ -4456,16 +4458,31 @@ function analyzeSentenceErrors(sentenceStr) {
       impact: "Minor"
     });
   }
+
+  // Unnecessary comma immediately after subordinating conjunctions: "because,", "although,", etc.
+  const badCommaConjRegex = /\b(because|although|though|while|since|that)\s*,\s*/gi;
+  let badCommaMatch;
+  while ((badCommaMatch = badCommaConjRegex.exec(trimmed)) !== null) {
+    const conj = badCommaMatch[1];
+    errors.push({
+      errorType: "Sentence Structure (Dấu câu)",
+      incorrect: badCommaMatch[0].trim(),
+      explanation: `Không dùng dấu phẩy ngay sau liên từ '${conj}' khi liên từ này nối trực tiếp với mệnh đề theo sau.`,
+      correction: conj + " ",
+      impact: "Minor"
+    });
+  }
   
   // 3. Contractions (Vocabulary)
   for (let i = 0; i < rawWords.length; i++) {
     const rawWord = rawWords[i];
     const cleanWord = rawWord.toLowerCase().replace(/^[^a-z0-9']+|[^a-z0-9']+$/g, '');
     if (ACADEMIC_CONTRACTIONS[cleanWord]) {
+      const cleanRawWord = rawWord.replace(/^[^a-zA-Z0-9']+|[^a-zA-Z0-9']+$/g, '');
       errors.push({
         errorType: "Vocabulary (Academic Style)",
-        incorrect: rawWord,
-        explanation: `Từ viết tắt '${rawWord}' không phù hợp với văn phong bài viết học thuật VSTEP. Nên viết đầy đủ dạng trang trọng hơn.`,
+        incorrect: cleanRawWord,
+        explanation: `Từ viết tắt '${cleanRawWord}' không phù hợp với văn phong bài viết học thuật VSTEP. Nên viết đầy đủ dạng trang trọng hơn.`,
         correction: ACADEMIC_CONTRACTIONS[cleanWord],
         impact: "Minor"
       });
@@ -4497,6 +4514,11 @@ function analyzeSentenceErrors(sentenceStr) {
     const cleanWord = rawWord.toLowerCase().replace(/^[^a-z0-9']+|[^a-z0-9']+$/g, '');
     if (cleanWord.length === 0 || /[0-9]/.test(cleanWord) || ACADEMIC_CONTRACTIONS[cleanWord]) continue;
     
+    // Avoid double-flagging if already captured by Collocation
+    if (errors.some(e => e.errorType === 'Collocation' && e.incorrect.toLowerCase().includes(cleanWord))) {
+      continue;
+    }
+
     const isCapitalizedMiddle = i > 0 && rawWord[0] === rawWord[0].toUpperCase() && rawWord !== "I";
     if (isCapitalizedMiddle && !COMMON_ENGLISH_WORDS.has(cleanWord)) continue;
     
@@ -4523,19 +4545,20 @@ function analyzeSentenceErrors(sentenceStr) {
         }
       });
       
+      const cleanRawWord = rawWord.replace(/^[^a-zA-Z0-9']+|[^a-zA-Z0-9']+$/g, '');
       let correction = "";
       let explanation = "";
       if (minDistance <= 2 && closestWord !== "") {
         correction = closestWord;
-        explanation = `Từ '${rawWord}' có vẻ bị viết sai chính tả. Phải chăng bạn muốn viết là '${closestWord}'?`;
+        explanation = `Từ '${cleanRawWord}' có vẻ bị viết sai chính tả. Phải chăng bạn muốn viết là '${closestWord}'?`;
       } else {
         correction = cleanWord;
-        explanation = `Từ '${rawWord}' viết sai chính tả hoặc không tồn tại trong từ điển chuẩn tiếng Anh.`;
+        explanation = `Từ '${cleanRawWord}' viết sai chính tả hoặc không tồn tại trong từ điển chuẩn tiếng Anh.`;
       }
       
       errors.push({
         errorType: "Vocabulary (Spelling)",
-        incorrect: rawWord,
+        incorrect: cleanRawWord,
         explanation: explanation,
         correction: correction,
         impact: "Minor"
@@ -4698,14 +4721,15 @@ function analyzeSentenceErrors(sentenceStr) {
     const rawWord = rawWords[i];
     const cleanWord = rawWord.toLowerCase().replace(/^[^a-z0-9']+|[^a-z0-9']+$/g, '');
     if (PAST_TO_PRESENT[cleanWord]) {
+      const cleanRawWord = rawWord.replace(/^[^a-zA-Z0-9']+|[^a-zA-Z0-9']+$/g, '');
       const presForms = PAST_TO_PRESENT[cleanWord];
       const hasSingularSubject = /\b(online learning|distance learning|e-learning|study|education|it|he|she)\b/i.test(trimmed);
       const suggestedForm = hasSingularSubject ? presForms.sing : presForms.plur;
       
       errors.push({
         errorType: "Grammar (Verb Tense)",
-        incorrect: rawWord,
-        explanation: `Trong văn phong nghị luận học thuật VSTEP về chủ đề thực tế, nên dùng thì Hiện tại Đơn thay vì Quá khứ Đơn '${rawWord}'.`,
+        incorrect: cleanRawWord,
+        explanation: `Trong văn phong nghị luận học thuật VSTEP về chủ đề thực tế, nên dùng thì Hiện tại Đơn thay vì Quá khứ Đơn '${cleanRawWord}'.`,
         correction: suggestedForm,
         impact: "Moderate"
       });
@@ -4730,10 +4754,11 @@ function analyzeSentenceErrors(sentenceStr) {
       }
       
       if (!hasDeterminer) {
+        const cleanRawWord = rawWord.replace(/^[^a-zA-Z0-9']+|[^a-zA-Z0-9']+$/g, '');
         errors.push({
           errorType: "Grammar (Singular/Plural)",
-          incorrect: rawWord,
-          explanation: `Danh từ đếm được '${rawWord}' dùng ở nghĩa chung chung nên để ở dạng số nhiều '${pluralForm}' hoặc thêm từ hạn định.`,
+          incorrect: cleanRawWord,
+          explanation: `Danh từ đếm được '${cleanRawWord}' dùng ở nghĩa chung chung nên để ở dạng số nhiều '${pluralForm}' hoặc thêm từ hạn định.`,
           correction: pluralForm,
           impact: "Minor"
         });
@@ -4783,7 +4808,7 @@ function analyzeSentenceErrors(sentenceStr) {
     errors.push({
       errorType: "Grammar (Verb Pattern)",
       incorrect: `to ${spendPatternMatch[3]}`,
-      explanation: `Cấu trúc 'spend/waste + time/money' đi kèm danh động từ (V-ing), không sử dụng 'to + Verb'.`,
+      explanation: "Cấu trúc 'spend/waste + time/money' đi kèm danh động từ (V-ing), không sử dụng 'to + Verb'.",
       correction: gerund,
       impact: "Serious"
     });
@@ -4834,7 +4859,7 @@ function analyzeSentenceErrors(sentenceStr) {
     errors.push({
       errorType: "Sentence Structure",
       incorrect: makeAdjMatch[0],
-      explanation: `Cấu trúc 'make + tân ngữ + tính từ + to Verb' không chuẩn. Phải dùng cấu trúc chủ ngữ giả: 'make it + tính từ + for + tân ngữ + to Verb'.`,
+      explanation: "Cấu trúc 'make + tân ngữ + tính từ + to Verb' không chuẩn. Phải dùng cấu trúc chủ ngữ giả: 'make it + tính từ + for + tân ngữ + to Verb'.",
       correction: `make it ${makeAdjMatch[2]} for ${makeAdjMatch[1].trim()} to ${makeAdjMatch[3]}`,
       impact: "Serious"
     });
@@ -4844,14 +4869,18 @@ function analyzeSentenceErrors(sentenceStr) {
   let corrected = trimmed;
   const sortedErrors = [...errors].sort((a, b) => b.incorrect.length - a.incorrect.length);
   sortedErrors.forEach(err => {
-    if (err.incorrect === "Thiếu dấu câu cuối câu" || err.incorrect.includes("dấu câu")) {
+    if (err.incorrect === "Thiếu dấu câu cuối câu" || err.incorrect === "." || (err.incorrect.includes("dấu câu") && !err.incorrect.includes(","))) {
       return;
     }
     const escIncorrect = err.incorrect.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-    const regex = new RegExp('\\b' + escIncorrect + '\\b', 'gi');
+    let pattern = escIncorrect;
+    if (/^\w/.test(err.incorrect)) pattern = '\\b' + pattern;
+    if (/\w$/.test(err.incorrect)) pattern = pattern + '\\b';
+    const regex = new RegExp(pattern, 'gi');
     corrected = corrected.replace(regex, err.correction);
   });
   corrected = corrected.replace(/\s+([,;.!?])/g, '$1');
+  corrected = corrected.replace(/\s{2,}/g, ' ');
   if (corrected.length > 0 && !/[.!?]/.test(corrected.slice(-1))) {
     corrected = corrected + ".";
   }
