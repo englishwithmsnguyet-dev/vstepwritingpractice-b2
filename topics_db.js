@@ -87159,19 +87159,19 @@ const ESSAY_DATA = [
                 "source": "VnExpress",
                 "title": "Đô thị hóa tại Việt Nam: Động lực tăng trưởng và áp lực quá tải hạ tầng",
                 "summary": "Phân tích hai mặt của quá trình đô thị hóa: thúc đẩy chuyển dịch cơ cấu kinh tế và việc làm, song gây áp lực nặng nề lên hạ tầng giao thông và trường lớp.",
-                "url": "https://vnexpress.net/do-thi-hoa-dong-luc-phat-trien-kinh-te-4648912.html"
+                "url": "https://timkiem.vnexpress.net/?q=Đô+thị+hóa+tại+Việt+Nam+áp+lực+hạ+tầng"
               },
               {
                 "source": "Báo Tuổi Trẻ",
                 "title": "Phát triển đô thị vệ tinh để giảm tải cho trung tâm thành phố",
                 "summary": "Đánh giá vai trò của các chuỗi đô thị vệ tinh trong việc giãn dân, phân luồng giao thông và tạo lập hệ sinh thái việc làm tại chỗ bền vững.",
-                "url": "https://tuoitre.vn/phat-trien-do-thi-ve-tinh-de-giam-tai-noi-do-20220815102030112.htm"
+                "url": "https://tuoitre.vn/tim-kiem.htm?keywords=Phát+triển+đô+thị+vệ+tinh"
               },
               {
                 "source": "Báo Tuổi Trẻ",
                 "title": "Đô thị hóa nhanh: Nhiều thách thức về hạ tầng giao thông và môi trường",
                 "summary": "Phản ánh áp lực quá tải hạ tầng kỹ thuật, thiếu hụt không gian cây xanh và các giải pháp quy hoạch đồng bộ tại các siêu đô thị.",
-                "url": "https://tuoitre.vn/do-thi-hoa-nhanh-nhieu-thach-thuc-ve-ha-tang-20220615102030112.htm"
+                "url": "https://tuoitre.vn/tim-kiem.htm?keywords=Đô+thị+hóa+nhanh+thách+thức+hạ+tầng"
               }
             ],
             "en": [

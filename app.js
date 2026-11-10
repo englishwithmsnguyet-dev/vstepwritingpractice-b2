@@ -7266,6 +7266,48 @@ function getTopicParaphrases(topic) {
   ];
 }
 
+// Resolve live / search URL for reference articles to guarantee working links
+function resolveReferenceArticleUrl(article, lang) {
+  if (!article) return '#';
+  const rawUrl = (article.url || '').trim();
+  const title = (article.title || '').trim();
+  const source = (article.source || '').toLowerCase();
+
+  // If Vietnamese newspaper source or explicitly lang === 'vi':
+  if (lang === 'vi' || source.includes('vnexpress') || source.includes('tuổi trẻ') || source.includes('tuoitre') || source.includes('dân trí') || source.includes('dantri') || source.includes('nhân dân') || source.includes('thanh niên') || source.includes('vietnamnet') || source.includes('lao động')) {
+    // If rawUrl is already an official search URL, use it directly
+    if (rawUrl.includes('timkiem.vnexpress.net') || rawUrl.includes('/tim-kiem')) {
+      return rawUrl;
+    }
+    
+    // Clean query from title (remove punctuation like colons, quotes, and parentheses)
+    const cleanQuery = title.replace(/[:"'\(\)]/g, ' ').replace(/\s+/g, ' ').trim();
+
+    if (source.includes('vnexpress')) {
+      return `https://timkiem.vnexpress.net/?q=${encodeURIComponent(cleanQuery)}`;
+    }
+    if (source.includes('tuổi trẻ') || source.includes('tuoitre')) {
+      return `https://tuoitre.vn/tim-kiem.htm?keywords=${encodeURIComponent(cleanQuery)}`;
+    }
+    if (source.includes('dân trí') || source.includes('dantri')) {
+      return `https://dantri.com.vn/tim-kiem/${encodeURIComponent(cleanQuery)}.htm`;
+    }
+    if (source.includes('nhân dân') || source.includes('nhandan')) {
+      return `https://www.google.com/search?q=${encodeURIComponent('site:nhandan.vn ' + cleanQuery)}`;
+    }
+    if (source.includes('thanh niên') || source.includes('thanhnien')) {
+      return `https://thanhnien.vn/tim-kiem.htm?keywords=${encodeURIComponent(cleanQuery)}`;
+    }
+    if (source.includes('vietnamnet')) {
+      return `https://vietnamnet.vn/tim-kiem?q=${encodeURIComponent(cleanQuery)}`;
+    }
+
+    return `https://www.google.com/search?q=${encodeURIComponent(cleanQuery + ' ' + (article.source || ''))}`;
+  }
+
+  return rawUrl || '#';
+}
+
 // Render Step 1 Reading & Analysis
 function renderStep1Reading() {
   const container = document.getElementById('ws-step1-reading-content');
@@ -7628,7 +7670,7 @@ function renderStep1Reading() {
                     <div class="reference-article-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-left: 3px solid #dc2626; border-radius: var(--radius-sm); padding: 0.75rem 0.9rem;">
                       <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
                         <span style="font-size: 0.75rem; font-weight: 700; color: #dc2626; text-transform: uppercase;">${a.source}</span>
-                        <a href="${a.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Mở bài viết">
+                        <a href="${resolveReferenceArticleUrl(a, 'vi')}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Mở bài viết">
                           Đọc bài <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                         </a>
                       </div>
@@ -7650,7 +7692,7 @@ function renderStep1Reading() {
                     <div class="reference-article-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-left: 3px solid #2563eb; border-radius: var(--radius-sm); padding: 0.75rem 0.9rem;">
                       <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
                         <span style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-transform: uppercase;">${a.source}</span>
-                        <a href="${a.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Open article">
+                        <a href="${resolveReferenceArticleUrl(a, 'en')}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Open article">
                           Read <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
                         </a>
                       </div>
