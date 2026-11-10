@@ -1568,7 +1568,7 @@ const ESSAY_DATA = [
                 "word": "flexibility",
                 "ipa": "/ˌflek.səˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự linh hoạt",
                 "example_en": "Online courses offer great flexibility for working adults.",
                 "example_vi": "Các khóa học trực tuyến mang lại sự linh hoạt tuyệt vời cho người đi làm.",
@@ -1578,7 +1578,7 @@ const ESSAY_DATA = [
                 "word": "convenience",
                 "ipa": "/kənˈviː.ni.əns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tiện lợi",
                 "example_en": "The main appeal of e-learning is its convenience.",
                 "example_vi": "Sức hút chính của học trực tuyến là sự tiện lợi của nó.",
@@ -1588,7 +1588,7 @@ const ESSAY_DATA = [
                 "word": "expense",
                 "ipa": "/ɪkˈspens/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chi phí, khoản chi tiêu",
                 "example_en": "E-learning helps cut down daily travel expenses.",
                 "example_vi": "Học trực tuyến giúp cắt giảm các khoản chi phí đi lại hàng ngày.",
@@ -1598,7 +1598,7 @@ const ESSAY_DATA = [
                 "word": "resource",
                 "ipa": "/rɪˈzɔːs/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tài nguyên, nguồn tư liệu",
                 "example_en": "Digital libraries provide rich educational resources.",
                 "example_vi": "Thư viện số cung cấp các nguồn tư liệu giáo dục phong phú.",
@@ -1608,7 +1608,7 @@ const ESSAY_DATA = [
                 "word": "pace",
                 "ipa": "/peɪs/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tốc độ, nhịp độ",
                 "example_en": "Learners can study at their own pace without feeling rushed.",
                 "example_vi": "Người học có thể học theo nhịp độ của riêng mình mà không cảm thấy vội vã.",
@@ -1628,7 +1628,7 @@ const ESSAY_DATA = [
                 "word": "interaction",
                 "ipa": "/ˌɪn.təˈræk.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tương tác, sự giao tiếp",
                 "example_en": "Virtual classes lack real face-to-face interaction.",
                 "example_vi": "Các lớp học ảo thiếu đi sự tương tác trực tiếp thực tế.",
@@ -1638,7 +1638,7 @@ const ESSAY_DATA = [
                 "word": "discipline",
                 "ipa": "/ˈdɪs.ə.plɪn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "kỷ luật, sự tự giác",
                 "example_en": "Distance learning demands high self-discipline.",
                 "example_vi": "Học từ xa đòi hỏi tính kỷ luật tự giác cao.",
@@ -1648,7 +1648,7 @@ const ESSAY_DATA = [
                 "word": "distraction",
                 "ipa": "/dɪˈstræk.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự xao nhãng, điều làm phân tâm",
                 "example_en": "Social media is a major distraction during online study.",
                 "example_vi": "Mạng xã hội là nguồn xao nhãng lớn trong quá trình học trực tuyến.",
@@ -1658,7 +1658,7 @@ const ESSAY_DATA = [
                 "word": "fatigue",
                 "ipa": "/fəˈtiːɡ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự mệt mỏi, kiệt sức",
                 "example_en": "Excessive screen time frequently causes mental fatigue.",
                 "example_vi": "Thời gian nhìn màn hình quá nhiều thường gây ra sự mệt mỏi tinh thần.",
@@ -1678,7 +1678,7 @@ const ESSAY_DATA = [
                 "word": "hands-on",
                 "ipa": "/ˌhændzˈɒn/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thực hành, thực tế",
                 "example_en": "Science students need hands-on laboratory experience.",
                 "example_vi": "Sinh viên ngành khoa học cần kinh nghiệm thực hành trong phòng thí nghiệm.",
@@ -1796,7 +1796,7 @@ const ESSAY_DATA = [
                     "en": "offer greater flexibility",
                     "vi": "mang lại sự linh hoạt cao hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online learning offers greater flexibility and convenience for modern learners.",
                     "example_vi": "Học trực tuyến mang lại sự linh hoạt và tiện lợi vượt trội cho người học."
                   },
@@ -1804,7 +1804,7 @@ const ESSAY_DATA = [
                     "en": "study anytime and anywhere",
                     "vi": "học mọi lúc mọi nơi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can study anytime and anywhere as long as they have suitable devices and a stable Internet connection.",
                     "example_vi": "Người học có thể tham gia các khóa học mọi lúc, mọi nơi khi có thiết bị phù hợp và kết nối Internet ổn định."
                   },
@@ -1836,7 +1836,7 @@ const ESSAY_DATA = [
                     "en": "reduce educational expenses",
                     "vi": "giảm chi phí giáo dục",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online learning helps reduce educational expenses significantly.",
                     "example_vi": "Học trực tuyến giúp giảm thiểu các chi phí giáo dục đáng kể."
                   },
@@ -1844,7 +1844,7 @@ const ESSAY_DATA = [
                     "en": "cheaper than traditional classes",
                     "vi": "rẻ hơn các lớp học truyền thống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online courses are often cheaper than traditional in-person classes.",
                     "example_vi": "Học phí của các khóa học trực tuyến thường rẻ hơn đáng kể so với các lớp học truyền thống."
                   },
@@ -1876,7 +1876,7 @@ const ESSAY_DATA = [
                     "en": "access a wider range of resources",
                     "vi": "tiếp cận nguồn tài liệu phong phú hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online education provides access to a wider range of learning resources.",
                     "example_vi": "Học trực tuyến cung cấp quyền tiếp cận nguồn tài liệu học tập vô cùng phong phú."
                   },
@@ -1884,7 +1884,7 @@ const ESSAY_DATA = [
                     "en": "online libraries and educational websites",
                     "vi": "thư viện trực tuyến và website giáo dục",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can easily utilize online libraries, educational websites, and instructional videos.",
                     "example_vi": "Người học có thể dễ dàng sử dụng các thư viện trực tuyến, trang web giáo dục và video bài giảng chất lượng cao."
                   },
@@ -1916,7 +1916,7 @@ const ESSAY_DATA = [
                     "en": "learn at one's own pace",
                     "vi": "học theo tốc độ của riêng mình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Distance learning allows students to learn at their own pace.",
                     "example_vi": "Học trực tuyến cho phép người học tiến bộ theo tốc độ tiếp thu của riêng mình."
                   },
@@ -1924,7 +1924,7 @@ const ESSAY_DATA = [
                     "en": "pause or replay recorded lessons",
                     "vi": "tạm dừng hoặc xem lại bài giảng ghi hình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learners can pause or replay recorded lessons whenever necessary.",
                     "example_vi": "Học viên có thể tạm dừng hoặc xem lại các bài giảng đã ghi hình bất cứ khi nào cần thiết."
                   },
@@ -1956,7 +1956,7 @@ const ESSAY_DATA = [
                     "en": "develop essential digital skills",
                     "vi": "phát triển kỹ năng số thiết yếu",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "E-learning helps develop essential digital skills for modern learners.",
                     "example_vi": "Học trực tuyến giúp người học phát triển các kỹ năng công nghệ số thiết yếu."
                   },
@@ -1964,7 +1964,7 @@ const ESSAY_DATA = [
                     "en": "familiar with digital platforms",
                     "vi": "làm quen với các nền tảng số",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students become familiar with various digital platforms and software tools through online study.",
                     "example_vi": "Người học nhanh chóng làm quen và sử dụng thành thạo nhiều nền tảng cùng các công cụ học tập kỹ thuật số."
                   },
@@ -1996,7 +1996,7 @@ const ESSAY_DATA = [
                     "en": "reduce face-to-face interaction",
                     "vi": "giảm tương tác trực tiếp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online learning substantially reduces face-to-face interaction.",
                     "example_vi": "Học trực tuyến làm giảm đáng kể sự tương tác trực tiếp giữa người học và giáo viên."
                   },
@@ -2004,7 +2004,7 @@ const ESSAY_DATA = [
                     "en": "communicate directly with peers",
                     "vi": "giao tiếp trực tiếp với bạn bè",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students have fewer opportunities to communicate directly with teachers and classmates.",
                     "example_vi": "Học viên có ít cơ hội giao tiếp trực tiếp với thầy cô và bạn học trong lớp."
                   },
@@ -2036,7 +2036,7 @@ const ESSAY_DATA = [
                     "en": "affected by technical problems",
                     "vi": "bị ảnh hưởng bởi sự cố kỹ thuật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online classes can be negatively affected by technical problems.",
                     "example_vi": "Quá trình học trực tuyến dễ bị gián đoạn bởi các sự cố kỹ thuật và đường truyền mạng."
                   },
@@ -2044,7 +2044,7 @@ const ESSAY_DATA = [
                     "en": "stable Internet connection",
                     "vi": "kết nối Internet ổn định",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students require a stable Internet connection and suitable electronic devices.",
                     "example_vi": "Người học luôn cần có kết nối Internet ổn định và các thiết bị điện tử tương thích."
                   },
@@ -2076,7 +2076,7 @@ const ESSAY_DATA = [
                     "en": "require a high level of self-discipline",
                     "vi": "đòi hỏi tính tự giác cao",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Distance learning requires a high level of self-discipline and motivation.",
                     "example_vi": "Học trực tuyến đòi hỏi người học phải có mức độ kỷ luật tự giác rất cao."
                   },
@@ -2084,7 +2084,7 @@ const ESSAY_DATA = [
                     "en": "without direct supervision",
                     "vi": "thiếu sự giám sát trực tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Without direct supervision at home, students may easily be distracted by social media, online games, or other activities.",
                     "example_vi": "Khi học tập tại nhà mà không có sự giám sát trực tiếp, học viên rất dễ bị xao nhãng bởi mạng xã hội, trò chơi hoặc các hoạt động khác."
                   },
@@ -2116,7 +2116,7 @@ const ESSAY_DATA = [
                     "en": "negative effects on health",
                     "vi": "tác động tiêu cực đến sức khỏe",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying online for prolonged periods can have negative effects on students' health.",
                     "example_vi": "Việc ngồi học trực tuyến liên tục có thể gây ra những tác động tiêu cực đến sức khỏe."
                   },
@@ -2124,7 +2124,7 @@ const ESSAY_DATA = [
                     "en": "spend long hours in front of screens",
                     "vi": "dành nhiều giờ trước màn hình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Spending long hours in front of screens can frequently cause severe eye strain and headaches.",
                     "example_vi": "Việc dán mắt vào màn hình nhiều giờ liền có thể gây mỏi mắt, suy giảm thị lực và đau đầu."
                   },
@@ -2132,7 +2132,7 @@ const ESSAY_DATA = [
                     "en": "severe eye strain and headaches",
                     "vi": "mỏi mắt dữ dội và đau đầu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Spending long hours in front of screens can frequently cause severe eye strain and headaches.",
                     "example_vi": "Việc dán mắt vào màn hình nhiều giờ liền có thể gây mỏi mắt, suy giảm thị lực và đau đầu."
                   },
@@ -2164,7 +2164,7 @@ const ESSAY_DATA = [
                     "en": "limited opportunities for practical experience",
                     "vi": "cơ hội hạn chế cho trải nghiệm thực tế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Virtual training provides limited opportunities for practical experience.",
                     "example_vi": "Học từ xa mang lại rất ít cơ hội cho việc rèn luyện và trải nghiệm thực hành."
                   },
@@ -2172,7 +2172,7 @@ const ESSAY_DATA = [
                     "en": "hands-on activities and experiments",
                     "vi": "hoạt động thực hành và thí nghiệm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some academic subjects require hands-on activities, laboratory experiments, or direct physical practice.",
                     "example_vi": "Nhiều môn học đòi hỏi phải có các hoạt động thực hành thực tế, làm thí nghiệm hoặc tương tác trực tiếp."
                   },
@@ -2204,7 +2204,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, online learning has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, học trực tuyến ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -2212,7 +2212,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of online learning.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của học trực tuyến."
                   },
@@ -2220,7 +2220,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -2228,7 +2228,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -3781,7 +3781,7 @@ const ESSAY_DATA = [
                 "word": "qualification",
                 "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bằng cấp, trình độ chuyên môn",
                 "example_en": "International qualifications are highly valued by multinational employers.",
                 "example_vi": "Bằng cấp quốc tế được các nhà tuyển dụng đa quốc gia đánh giá rất cao.",
@@ -3791,7 +3791,7 @@ const ESSAY_DATA = [
                 "word": "independence",
                 "ipa": "/ˌɪn.dɪˈpen.dəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự độc lập, tự lập",
                 "example_en": "Living far from parents teaches young adults real independence.",
                 "example_vi": "Sống xa cha mẹ dạy cho những người trẻ sự tự lập thực sự.",
@@ -3811,7 +3811,7 @@ const ESSAY_DATA = [
                 "word": "tuition",
                 "ipa": "/tjuːˈɪʃ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "học phí",
                 "example_en": "Tuition fees for international students are often extremely high.",
                 "example_vi": "Học phí dành cho du học sinh quốc tế thường cực kỳ đắt đỏ.",
@@ -3821,7 +3821,7 @@ const ESSAY_DATA = [
                 "word": "homesickness",
                 "ipa": "/ˈhəʊmˌsɪk.nəs/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nỗi nhớ nhà",
                 "example_en": "Overcoming homesickness is a common challenge during the first semester.",
                 "example_vi": "Vượt qua nỗi nhớ nhà là thử thách phổ biến trong học kỳ đầu tiên.",
@@ -3841,7 +3841,7 @@ const ESSAY_DATA = [
                 "word": "adapt",
                 "ipa": "/əˈdæpt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thích nghi",
                 "example_en": "Overseas students must learn to adapt to unfamiliar cultural norms.",
                 "example_vi": "Du học sinh phải học cách thích nghi với những chuẩn mực văn hóa mới lạ.",
@@ -3851,7 +3851,7 @@ const ESSAY_DATA = [
                 "word": "horizon",
                 "ipa": "/həˈraɪ.zən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tầm nhìn, chân trời kiến thức",
                 "example_en": "Experiencing new cultures broadens a student's personal horizons.",
                 "example_vi": "Trải nghiệm các nền văn hóa mới giúp mở rộng tầm nhìn cá nhân của sinh viên.",
@@ -3861,7 +3861,7 @@ const ESSAY_DATA = [
                 "word": "maturity",
                 "ipa": "/məˈtʃʊə.rə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trưởng thành, chín chắn",
                 "example_en": "Handling daily problems alone fosters emotional maturity.",
                 "example_vi": "Tự mình giải quyết các vấn đề hằng ngày giúp nuôi dưỡng sự trưởng thành về cảm xúc.",
@@ -3901,7 +3901,7 @@ const ESSAY_DATA = [
                 "word": "diversity",
                 "ipa": "/daɪˈvɜː.sə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đa dạng văn hóa",
                 "family": "diverse (adj), diversify (v), diversification (n)",
                 "example_en": "Studying in a multicultural environment helps students appreciate cultural diversity.",
@@ -3931,7 +3931,7 @@ const ESSAY_DATA = [
                 "word": "scholarship",
                 "ipa": "/ˈskɒl.ə.ʃɪp/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "học bổng",
                 "family": "scholar (n), scholarly (adj)",
                 "example_en": "Securing a full scholarship can alleviate the financial burden on a student's family.",
@@ -3941,7 +3941,7 @@ const ESSAY_DATA = [
                 "word": "obstacle",
                 "ipa": "/ˈɒb.stə.kəl/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "rào cản, chướng ngại vật",
                 "family": "obstruct (v), obstruction (n)",
                 "example_en": "Language barriers remain a major obstacle for first-year international students.",
@@ -3979,7 +3979,7 @@ const ESSAY_DATA = [
                     "en": "higher-quality education",
                     "vi": "nền giáo dục chất lượng cao hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad helps students access higher-quality education.",
                     "example_vi": "Du học giúp sinh viên tiếp cận nền giáo dục chất lượng cao hơn."
                   },
@@ -3987,7 +3987,7 @@ const ESSAY_DATA = [
                     "en": "prestigious universities",
                     "vi": "các trường đại học danh tiếng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students have the opportunity to study at prestigious universities with modern educational programmes.",
                     "example_vi": "Sinh viên có cơ hội học tập trong các trường đại học có uy tín với chương trình đào tạo hiện đại."
                   },
@@ -3995,7 +3995,7 @@ const ESSAY_DATA = [
                     "en": "educational programmes",
                     "vi": "chương trình đào tạo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students have the opportunity to study at prestigious universities with modern educational programmes.",
                     "example_vi": "Sinh viên có cơ hội học tập trong các trường đại học có uy tín với chương trình đào tạo hiện đại."
                   },
@@ -4027,7 +4027,7 @@ const ESSAY_DATA = [
                     "en": "career opportunities",
                     "vi": "cơ hội nghề nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad can provide greater career opportunities in the future.",
                     "example_vi": "Du học có thể mang lại nhiều cơ hội nghề nghiệp hơn trong tương lai."
                   },
@@ -4035,7 +4035,7 @@ const ESSAY_DATA = [
                     "en": "international qualifications",
                     "vi": "bằng cấp quốc tế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can obtain international qualifications and gain experience in a global learning environment.",
                     "example_vi": "Sinh viên có thể sở hữu bằng cấp quốc tế và tích lũy kinh nghiệm học tập trong môi trường toàn cầu."
                   },
@@ -4043,7 +4043,7 @@ const ESSAY_DATA = [
                     "en": "global learning environment",
                     "vi": "môi trường học tập toàn cầu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can obtain international qualifications and gain experience in a global learning environment.",
                     "example_vi": "Sinh viên có thể sở hữu bằng cấp quốc tế và tích lũy kinh nghiệm học tập trong môi trường toàn cầu."
                   },
@@ -4075,7 +4075,7 @@ const ESSAY_DATA = [
                     "en": "life skills",
                     "vi": "kỹ năng sống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad helps students develop independence and important life skills.",
                     "example_vi": "Du học giúp sinh viên phát triển tính độc lập và các kỹ năng sống quan trọng."
                   },
@@ -4083,7 +4083,7 @@ const ESSAY_DATA = [
                     "en": "manage finances",
                     "vi": "quản lý tài chính",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students need to manage their time, finances, and daily activities on their own.",
                     "example_vi": "Sinh viên phải tự quản lý thời gian, tài chính và các hoạt động hằng ngày."
                   },
@@ -4115,7 +4115,7 @@ const ESSAY_DATA = [
                     "en": "foreign language proficiency",
                     "vi": "trình độ thông thạo ngoại ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad allows students to significantly enhance their foreign language proficiency.",
                     "example_vi": "Du học giúp sinh viên cải thiện trình độ ngoại ngữ một cách tự nhiên và nhanh chóng."
                   },
@@ -4123,7 +4123,7 @@ const ESSAY_DATA = [
                     "en": "immersive linguistic environment",
                     "vi": "môi trường ngôn ngữ thực tế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living in an immersive linguistic environment requires students to use the foreign language daily in both academic and social contexts.",
                     "example_vi": "Sống trong môi trường bản ngữ buộc du học sinh phải sử dụng ngoại ngữ liên tục trong cả học tập lẫn giao tiếp hằng ngày."
                   },
@@ -4131,7 +4131,7 @@ const ESSAY_DATA = [
                     "en": "communicate with native speakers",
                     "vi": "giao tiếp với người bản xứ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consequently, they can develop natural fluency and communicate with native speakers much more confidently.",
                     "example_vi": "Nhờ đó, họ có thể phát triển sự phản xạ tự nhiên, nói lưu loát và tự tin hơn rất nhiều."
                   },
@@ -4163,7 +4163,7 @@ const ESSAY_DATA = [
                     "en": "broaden cultural horizons",
                     "vi": "mở rộng tầm nhìn văn hóa",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying overseas enables students to broaden their cultural horizons and build global networks.",
                     "example_vi": "Học tập ở nước ngoài giúp sinh viên mở rộng tầm nhìn văn hóa và xây dựng mạng lưới bạn bè quốc tế."
                   },
@@ -4171,7 +4171,7 @@ const ESSAY_DATA = [
                     "en": "experience diverse cultures",
                     "vi": "trải nghiệm các nền văn hóa đa dạng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "International students have opportunities to experience diverse cultures, customs, and lifestyles while making friends from around the world.",
                     "example_vi": "Du học sinh có cơ hội khám phá những phong tục, lối sống mới và kết bạn với sinh viên đến từ khắp nơi trên thế giới."
                   },
@@ -4179,7 +4179,7 @@ const ESSAY_DATA = [
                     "en": "international friendships",
                     "vi": "những tình bạn quốc tế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "International students have opportunities to experience diverse cultures, customs, and lifestyles while making friends from around the world.",
                     "example_vi": "Du học sinh có cơ hội khám phá những phong tục, lối sống mới và kết bạn với sinh viên đến từ khắp nơi trên thế giới."
                   },
@@ -4211,7 +4211,7 @@ const ESSAY_DATA = [
                     "en": "involve",
                     "vi": "bao gồm, đi kèm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad often involves high educational and living expenses.",
                     "example_vi": "Du học thường đi kèm với chi phí học tập và sinh hoạt cao."
                   },
@@ -4219,7 +4219,7 @@ const ESSAY_DATA = [
                     "en": "tuition fees",
                     "vi": "học phí",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students need to pay tuition fees, accommodation costs, and many other expenses.",
                     "example_vi": "Sinh viên phải chi trả học phí, tiền thuê nhà và nhiều khoản chi tiêu khác."
                   },
@@ -4227,7 +4227,7 @@ const ESSAY_DATA = [
                     "en": "living expenses",
                     "vi": "chi phí sinh hoạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad often involves high educational and living expenses.",
                     "example_vi": "Du học thường đi kèm với chi phí học tập và sinh hoạt cao."
                   },
@@ -4267,7 +4267,7 @@ const ESSAY_DATA = [
                     "en": "feel homesick",
                     "vi": "cảm thấy nhớ nhà",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad may make students feel homesick and lack family support.",
                     "example_vi": "Du học có thể khiến sinh viên cảm thấy nhớ nhà và thiếu sự hỗ trợ từ gia đình."
                   },
@@ -4275,7 +4275,7 @@ const ESSAY_DATA = [
                     "en": "family support",
                     "vi": "sự hỗ trợ từ gia đình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad may make students feel homesick and lack family support.",
                     "example_vi": "Du học có thể khiến sinh viên cảm thấy nhớ nhà và thiếu sự hỗ trợ từ gia đình."
                   },
@@ -4283,7 +4283,7 @@ const ESSAY_DATA = [
                     "en": "an extended period",
                     "vi": "một khoảng thời gian dài ~ a long time",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students have to live away from their families for an extended period.",
                     "example_vi": "Sinh viên phải sống xa người thân trong một thời gian dài."
                   },
@@ -4323,7 +4323,7 @@ const ESSAY_DATA = [
                     "en": "academic pressure",
                     "vi": "áp lực học tập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "International students often face academic pressure and strong competition.",
                     "example_vi": "Sinh viên du học thường phải đối mặt với áp lực học tập và sự cạnh tranh cao."
                   },
@@ -4331,7 +4331,7 @@ const ESSAY_DATA = [
                     "en": "strong competition",
                     "vi": "sự cạnh tranh cao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "International students often face academic pressure and strong competition.",
                     "example_vi": "Sinh viên du học thường phải đối mặt với áp lực học tập và sự cạnh tranh cao."
                   },
@@ -4339,7 +4339,7 @@ const ESSAY_DATA = [
                     "en": "academic standards",
                     "vi": "tiêu chuẩn học tập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They need to meet demanding academic standards and compete with many outstanding students.",
                     "example_vi": "Họ phải đáp ứng các tiêu chuẩn học tập khắt khe và cạnh tranh với nhiều sinh viên xuất sắc."
                   },
@@ -4371,7 +4371,7 @@ const ESSAY_DATA = [
                     "en": "language barriers",
                     "vi": "rào cản ngôn ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "International students often face language barriers and culture shock when arriving in a new country.",
                     "example_vi": "Du học sinh thường phải đối mặt với rào cản ngôn ngữ và cú sốc văn hóa trong thời gian đầu."
                   },
@@ -4379,7 +4379,7 @@ const ESSAY_DATA = [
                     "en": "experience culture shock",
                     "vi": "trải qua cú sốc văn hóa",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "International students often face language barriers and culture shock when arriving in a new country.",
                     "example_vi": "Du học sinh thường phải đối mặt với rào cản ngôn ngữ và cú sốc văn hóa trong thời gian đầu."
                   },
@@ -4387,7 +4387,7 @@ const ESSAY_DATA = [
                     "en": "unfamiliar social norms",
                     "vi": "những chuẩn mực xã hội xa lạ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Significant differences in language, cuisine, climate, and unfamiliar social norms can make students feel overwhelmed.",
                     "example_vi": "Sự khác biệt lớn về ngôn ngữ giao tiếp, ẩm thực, thời tiết và chuẩn mực xã hội có thể khiến sinh viên cảm thấy bỡ ngỡ, lạc lõng."
                   },
@@ -4419,7 +4419,7 @@ const ESSAY_DATA = [
                     "en": "brain drain phenomenon",
                     "vi": "hiện tượng chảy máu chất xám",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Studying abroad may contribute to the brain drain phenomenon if graduates choose not to return home.",
                     "example_vi": "Xu hướng du học có thể dẫn đến tình trạng chảy máu chất xám nếu sinh viên không trở về nước làm việc."
                   },
@@ -4427,7 +4427,7 @@ const ESSAY_DATA = [
                     "en": "settle down permanently",
                     "vi": "định cư lâu dài",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many talented graduates decide to settle down permanently in the host country due to higher salaries and better working conditions.",
                     "example_vi": "Nhiều sinh viên tài năng sau khi tốt nghiệp thường quyết định ở lại nước ngoài định cư vì mức lương và điều kiện làm việc hấp dẫn hơn."
                   },
@@ -4435,7 +4435,7 @@ const ESSAY_DATA = [
                     "en": "shortage of skilled professionals",
                     "vi": "thiếu hụt lao động trình độ cao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consequently, their home country may suffer a shortage of skilled professionals needed for domestic economic development.",
                     "example_vi": "Hệ quả là quốc gia quê hương có thể bị thiếu hụt nguồn nhân lực chất lượng cao để phát triển kinh tế."
                   },
@@ -4467,7 +4467,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, studying abroad has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, du học ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -4475,7 +4475,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of studying abroad.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của du học."
                   },
@@ -4483,7 +4483,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -4491,7 +4491,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -6006,7 +6006,7 @@ const ESSAY_DATA = [
                 "word": "instantaneous",
                 "ipa": "/ˌɪn.stənˈteɪ.ni.əs/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tức thì, ngay lập tức",
                 "example_en": "The Internet allows instantaneous communication across continents.",
                 "example_vi": "Internet cho phép giao tiếp tức thì xuyên lục địa.",
@@ -6026,7 +6026,7 @@ const ESSAY_DATA = [
                 "word": "cybercrime",
                 "ipa": "/ˈsaɪ.bə.kraɪm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tội phạm mạng",
                 "example_en": "Users must stay alert to protect themselves against cybercrime.",
                 "example_vi": "Người dùng phải luôn cảnh giác để tự bảo vệ mình trước tội phạm mạng.",
@@ -6036,7 +6036,7 @@ const ESSAY_DATA = [
                 "word": "addiction",
                 "ipa": "/əˈdɪk.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự nghiện",
                 "example_en": "Internet addiction can severely harm a student's academic results.",
                 "example_vi": "Chứng nghiện Internet có thể gây hại nghiêm trọng đến kết quả học tập của học sinh.",
@@ -6056,7 +6056,7 @@ const ESSAY_DATA = [
                 "word": "confidential",
                 "ipa": "/ˌkɒn.fɪˈden.ʃəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tuyệt mật, riêng tư",
                 "example_en": "Hackers attempt to steal confidential financial data online.",
                 "example_vi": "Tin tặc tìm cách đánh cắp các dữ liệu tài chính riêng tư trên mạng.",
@@ -6066,7 +6066,7 @@ const ESSAY_DATA = [
                 "word": "productivity",
                 "ipa": "/ˌprɒd.ʌkˈtɪv.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "năng suất làm việc",
                 "example_en": "Digital tools can significantly boost workplace productivity.",
                 "example_vi": "Các công cụ kỹ thuật số có thể thúc đẩy đáng kể năng suất nơi làm việc.",
@@ -6076,7 +6076,7 @@ const ESSAY_DATA = [
                 "word": "e-commerce",
                 "ipa": "/ˈiː.kɒm.ɜːs/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thương mại điện tử",
                 "example_en": "The rapid growth of e-commerce has transformed retail shopping.",
                 "example_vi": "Sự phát triển nhanh chóng của thương mại điện tử đã làm thay đổi ngành mua sắm bán lẻ.",
@@ -6086,7 +6086,7 @@ const ESSAY_DATA = [
                 "word": "sedentary",
                 "ipa": "/ˈsed.ən.tər.i/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ít vận động",
                 "example_en": "Spending hours online contributes to a sedentary lifestyle.",
                 "example_vi": "Dành hàng giờ trên mạng góp phần dẫn đến lối sống ít vận động.",
@@ -6096,7 +6096,7 @@ const ESSAY_DATA = [
                 "word": "isolation",
                 "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự cô lập, tách biệt",
                 "example_en": "Excessive screen time may lead to social isolation in real life.",
                 "example_vi": "Thời gian sử dụng màn hình quá mức có thể dẫn đến sự cô lập xã hội trong đời thực.",
@@ -6106,7 +6106,7 @@ const ESSAY_DATA = [
                 "word": "connectivity",
                 "ipa": "/ˌkɒn.ekˈtɪv.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng kết nối mạng toàn cầu",
                 "family": "connect (v), connection (n), connected (adj)",
                 "example_en": "High-speed Internet connectivity has transformed how people communicate across continents.",
@@ -6116,7 +6116,7 @@ const ESSAY_DATA = [
                 "word": "fraudulent",
                 "ipa": "/ˈfrɔː.dʒə.lənt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "gian lận, lừa đảo qua mạng",
                 "family": "fraud (n), fraudster (n), fraudulently (adv)",
                 "example_en": "Internet users must remain vigilant against fraudulent websites and online scams.",
@@ -6214,7 +6214,7 @@ const ESSAY_DATA = [
                     "en": "access information",
                     "vi": "tiếp cận thông tin",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet enables people to access information quickly and conveniently.",
                     "example_vi": "Internet giúp mọi người tiếp cận thông tin nhanh chóng và thuận tiện."
                   },
@@ -6222,7 +6222,7 @@ const ESSAY_DATA = [
                     "en": "search for information",
                     "vi": "tìm kiếm thông tin",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can search for information from a wide range of sources within seconds within seconds.",
                     "example_vi": "Người dùng có thể tìm kiếm thông tin từ nhiều nguồn khác nhau chỉ trong vài giây."
                   },
@@ -6230,7 +6230,7 @@ const ESSAY_DATA = [
                     "en": "a wide range of sources",
                     "vi": "nhiều nguồn khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can search for information from a wide range of sources within seconds within seconds.",
                     "example_vi": "Người dùng có thể tìm kiếm thông tin từ nhiều nguồn khác nhau chỉ trong vài giây."
                   },
@@ -6270,7 +6270,7 @@ const ESSAY_DATA = [
                     "en": "improve communication",
                     "vi": "cải thiện giao tiếp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet improves communication and strengthens connections among people.",
                     "example_vi": "Internet giúp cải thiện giao tiếp và tăng cường kết nối giữa mọi người."
                   },
@@ -6278,7 +6278,7 @@ const ESSAY_DATA = [
                     "en": "strengthen connections",
                     "vi": "tăng cường kết nối",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet improves communication and strengthens connections among people.",
                     "example_vi": "Internet giúp cải thiện giao tiếp và tăng cường kết nối giữa mọi người."
                   },
@@ -6286,7 +6286,7 @@ const ESSAY_DATA = [
                     "en": "regardless of",
                     "vi": "bất kể, bất kì",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can communicate with others regardless of geographical distance.",
                     "example_vi": "Người dùng có thể liên lạc với người khác bất kể khoảng cách địa lý."
                   },
@@ -6326,7 +6326,7 @@ const ESSAY_DATA = [
                     "en": "support learning and working",
                     "vi": "hỗ trợ học tập và làm việc",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet supports learning and working efficiently/effectively.",
                     "example_vi": "Internet hỗ trợ học tập và làm việc một cách hiệu quả."
                   },
@@ -6334,7 +6334,7 @@ const ESSAY_DATA = [
                     "en": "access online materials",
                     "vi": "truy cập tài liệu trực tuyến",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can access online materials and participate in online courses or remote meetings.",
                     "example_vi": "Người dùng có thể truy cập tài liệu trực tuyến và tham gia các khóa học hoặc cuộc họp từ xa."
                   },
@@ -6342,7 +6342,7 @@ const ESSAY_DATA = [
                     "en": "online courses",
                     "vi": "khóa học trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can access online materials and participate in online courses or remote meetings.",
                     "example_vi": "Người dùng có thể truy cập tài liệu trực tuyến và tham gia các khóa học hoặc cuộc họp từ xa."
                   },
@@ -6374,7 +6374,7 @@ const ESSAY_DATA = [
                     "en": "diverse entertainment options",
                     "vi": "các lựa chọn giải trí đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet provides users with a wide variety of convenient entertainment options.",
                     "example_vi": "Internet cung cấp vô số hình thức giải trí đa dạng và tiện lợi cho người dùng."
                   },
@@ -6382,7 +6382,7 @@ const ESSAY_DATA = [
                     "en": "stream movies and music",
                     "vi": "xem phim và nghe nhạc trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "With an Internet-connected device, people can stream movies, listen to music, read e-books, or play online games anytime.",
                     "example_vi": "Chỉ với một thiết bị kết nối mạng, mọi người có thể xem phim, nghe nhạc, đọc sách điện tử hoặc chơi trò chơi trực tuyến bất cứ lúc nào."
                   },
@@ -6390,7 +6390,7 @@ const ESSAY_DATA = [
                     "en": "relieve daily stress",
                     "vi": "giải tỏa căng thẳng hằng ngày",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This allows them to easily unwind and relieve daily stress after exhausting hours of study or work.",
                     "example_vi": "Điều này giúp họ dễ dàng thư giãn và giải tỏa căng thẳng sau những giờ học tập, làm việc mệt mỏi."
                   },
@@ -6422,7 +6422,7 @@ const ESSAY_DATA = [
                     "en": "facilitate e-commerce",
                     "vi": "thúc đẩy thương mại điện tử",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet facilitates e-commerce and convenient online services in daily life.",
                     "example_vi": "Internet thúc đẩy sự phát triển của thương mại điện tử và các dịch vụ tiện ích trực tuyến."
                   },
@@ -6430,7 +6430,7 @@ const ESSAY_DATA = [
                     "en": "online banking and shopping",
                     "vi": "ngân hàng và mua sắm trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consumers can shop for goods, pay utility bills, and conduct online banking from home without waiting in line.",
                     "example_vi": "Người tiêu dùng có thể mua sắm hàng hóa, thanh toán hóa đơn hay thực hiện giao dịch ngân hàng ngay tại nhà mà không cần xếp hàng chờ đợi."
                   },
@@ -6438,7 +6438,7 @@ const ESSAY_DATA = [
                     "en": "cashless transactions",
                     "vi": "giao dịch không tiền mặt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consumers can shop for goods, pay utility bills, and conduct online banking from home without waiting in line.",
                     "example_vi": "Người tiêu dùng có thể mua sắm hàng hóa, thanh toán hóa đơn hay thực hiện giao dịch ngân hàng ngay tại nhà mà không cần xếp hàng chờ đợi."
                   },
@@ -6470,7 +6470,7 @@ const ESSAY_DATA = [
                     "en": "become addicted",
                     "vi": "trở nên nghiện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet may cause users to become addicted and waste time.",
                     "example_vi": "Internet có thể khiến người dùng trở nên phụ thuộc và lãng phí thời gian."
                   },
@@ -6478,7 +6478,7 @@ const ESSAY_DATA = [
                     "en": "waste time",
                     "vi": "lãng phí thời gian",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet may cause users to become addicted and waste time.",
                     "example_vi": "Internet có thể khiến người dùng trở nên phụ thuộc và lãng phí thời gian."
                   },
@@ -6486,7 +6486,7 @@ const ESSAY_DATA = [
                     "en": "social media",
                     "vi": "mạng xã hội",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many people spend too much time on social media and online entertainment.",
                     "example_vi": "Nhiều người dành quá nhiều thời gian cho mạng xã hội hoặc các hình thức giải trí trực tuyến."
                   },
@@ -6526,7 +6526,7 @@ const ESSAY_DATA = [
                     "en": "privacy and security risks",
                     "vi": "rủi ro về quyền riêng tư và bảo mật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet may create privacy and security risks.",
                     "example_vi": "Internet có thể gây ra những rủi ro về quyền riêng tư và bảo mật."
                   },
@@ -6534,7 +6534,7 @@ const ESSAY_DATA = [
                     "en": "personal information",
                     "vi": "thông tin cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users' personal information may be stolen or accessed without permission.",
                     "example_vi": "Thông tin cá nhân của người dùng có thể bị đánh cắp hoặc truy cập trái phép."
                   },
@@ -6542,7 +6542,7 @@ const ESSAY_DATA = [
                     "en": "without permission",
                     "vi": "không được cho phép",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users' personal information may be stolen or accessed without permission.",
                     "example_vi": "Thông tin cá nhân của người dùng có thể bị đánh cắp hoặc truy cập trái phép."
                   },
@@ -6574,7 +6574,7 @@ const ESSAY_DATA = [
                     "en": "excessive Internet use ~ Using the Internet too much",
                     "vi": "sử dụng Internet quá nhiều",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive Internet use may have negative effects on health.",
                     "example_vi": "Việc sử dụng Internet quá nhiều có thể gây ảnh hưởng tiêu cực đến sức khỏe."
                   },
@@ -6582,7 +6582,7 @@ const ESSAY_DATA = [
                     "en": "have negative effects on health ~ negatively affect health",
                     "vi": "ảnh hưởng tiêu cực đến sức khỏe",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive Internet use may have negative effects on health.",
                     "example_vi": "Việc sử dụng Internet quá nhiều có thể gây ảnh hưởng tiêu cực đến sức khỏe."
                   },
@@ -6590,7 +6590,7 @@ const ESSAY_DATA = [
                     "en": "in front of screens",
                     "vi": "trước màn hình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users often spend many hours in front of screens every day.",
                     "example_vi": "Người dùng thường dành nhiều giờ trước màn hình mỗi ngày."
                   },
@@ -6622,7 +6622,7 @@ const ESSAY_DATA = [
                     "en": "spread of misinformation",
                     "vi": "sự lan truyền thông tin sai lệch",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet facilitates the rapid spread of fake news and harmful content.",
                     "example_vi": "Internet làm gia tăng sự lan truyền nhanh chóng của tin giả và các nội dung độc hại."
                   },
@@ -6630,7 +6630,7 @@ const ESSAY_DATA = [
                     "en": "unverified online sources",
                     "vi": "các nguồn tin trực tuyến chưa kiểm chứng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because online content is not always strictly regulated, users can easily be misled by false rumors and unverified sources.",
                     "example_vi": "Do thông tin trên mạng không phải lúc nào cũng được kiểm duyệt chặt chẽ, người dùng rất dễ bị đánh lừa bởi các tin đồn sai sự thật."
                   },
@@ -6638,7 +6638,7 @@ const ESSAY_DATA = [
                     "en": "mislead the public",
                     "vi": "đánh lạc hướng dư luận",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The Internet facilitates the rapid spread of fake news and harmful content.",
                     "example_vi": "Internet làm gia tăng sự lan truyền nhanh chóng của tin giả và các nội dung độc hại."
                   },
@@ -6670,7 +6670,7 @@ const ESSAY_DATA = [
                     "en": "face-to-face social interaction",
                     "vi": "sự tương tác xã hội trực tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Overuse of the Internet can reduce face-to-face social interaction in real life.",
                     "example_vi": "Việc đắm chìm vào thế giới mạng có thể làm giảm sự giao tiếp trực tiếp giữa con người trong đời thực."
                   },
@@ -6678,7 +6678,7 @@ const ESSAY_DATA = [
                     "en": "virtual world",
                     "vi": "thế giới ảo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many people spend hours staring at smartphone screens even when sitting next to family members or friends.",
                     "example_vi": "Nhiều người dành hàng giờ nhìn vào màn hình điện thoại ngay cả khi đang ngồi cạnh gia đình hoặc bạn bè."
                   },
@@ -6686,7 +6686,7 @@ const ESSAY_DATA = [
                     "en": "weaken real-life relationships",
                     "vi": "làm suy yếu các mối quan hệ đời thực",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Over time, this habit weakens real-life relationships and leads to social isolation.",
                     "example_vi": "Lâu dần, điều này làm phai nhạt sự gắn kết tình cảm thực tế và dẫn đến cảm giác cô đơn, tách biệt với xã hội."
                   },
@@ -6718,7 +6718,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, the internet has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, internet ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -6726,7 +6726,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of the internet.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của internet."
                   },
@@ -6734,7 +6734,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -6742,7 +6742,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -8241,7 +8241,7 @@ const ESSAY_DATA = [
                 "word": "curriculum",
                 "ipa": "/kəˈrɪk.jə.ləm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chương trình giảng dạy",
                 "example_en": "Homeschooling allows parents to design a flexible curriculum.",
                 "example_vi": "Giáo dục tại nhà cho phép cha mẹ thiết kế một chương trình giảng dạy linh hoạt.",
@@ -8251,7 +8251,7 @@ const ESSAY_DATA = [
                 "word": "pace",
                 "ipa": "/peɪs/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tốc độ, nhịp độ học tập",
                 "example_en": "Children can study subjects at their own comfortable pace.",
                 "example_vi": "Trẻ em có thể học các môn học theo nhịp độ thoải mái của riêng mình.",
@@ -8261,7 +8261,7 @@ const ESSAY_DATA = [
                 "word": "supervision",
                 "ipa": "/ˌsuː.pəˈvɪʒ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự giám sát, theo dõi",
                 "example_en": "Close parental supervision helps protect children from bad influences.",
                 "example_vi": "Sự giám sát chặt chẽ của cha mẹ giúp bảo vệ trẻ khỏi những ảnh hưởng xấu.",
@@ -8271,7 +8271,7 @@ const ESSAY_DATA = [
                 "word": "bullying",
                 "ipa": "/ˈbʊl.i.ɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nạn bắt nạt học đường",
                 "example_en": "Studying at home protects vulnerable children from school bullying.",
                 "example_vi": "Học tại nhà bảo vệ những đứa trẻ nhạy cảm khỏi nạn bắt nạt học đường.",
@@ -8321,7 +8321,7 @@ const ESSAY_DATA = [
                 "word": "tailor",
                 "ipa": "/ˈteɪ.lər/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "điều chỉnh cho phù hợp riêng",
                 "example_en": "Lessons can be tailored to a child's specific learning style.",
                 "example_vi": "Bài học có thể được điều chỉnh cho phù hợp với phong cách học tập riêng của trẻ.",
@@ -8331,7 +8331,7 @@ const ESSAY_DATA = [
                 "word": "facility",
                 "ipa": "/fəˈsɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "cơ sở vật chất, trang thiết bị",
                 "example_en": "Homes usually lack science laboratories and sports facilities.",
                 "example_vi": "Gia đình thường thiếu phòng thí nghiệm khoa học và cơ sở vật chất thể thao.",
@@ -8361,7 +8361,7 @@ const ESSAY_DATA = [
                 "word": "nurture",
                 "ipa": "/ˈnɜː.tʃər/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nuôi dưỡng, bồi đắp (tài năng, nhân cách)",
                 "family": "nurturing (adj), nurturer (n)",
                 "example_en": "Parents can nurture their children's special artistic or musical talents at home.",
@@ -8371,7 +8371,7 @@ const ESSAY_DATA = [
                 "word": "peer",
                 "ipa": "/pɪər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bạn đồng trang lứa",
                 "family": "peerless (adj)",
                 "example_en": "Lack of daily interaction with peers can hinder a child's interpersonal development.",
@@ -8381,7 +8381,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒn.ə.mi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền tự chủ (trong việc chọn nội dung học)",
                 "family": "autonomous (adj), autonomously (adv)",
                 "example_en": "Families enjoy greater educational autonomy when designing their own home lessons.",
@@ -8431,7 +8431,7 @@ const ESSAY_DATA = [
                 "word": "bond",
                 "ipa": "/bɒnd/",
                 "pos": "noun/verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự gắn kết tình cảm gia đình",
                 "family": "bonding (n)",
                 "example_en": "Spending hours learning together strengthens the emotional bond between parents and children.",
@@ -8449,7 +8449,7 @@ const ESSAY_DATA = [
                     "en": "flexible learning environment",
                     "vi": "môi trường học tập linh hoạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling provides a more flexible learning environment for children.",
                     "example_vi": "Học tại nhà mang lại môi trường học tập linh hoạt hơn cho trẻ em."
                   },
@@ -8457,7 +8457,7 @@ const ESSAY_DATA = [
                     "en": "choose study schedules",
                     "vi": "lựa chọn thời gian biểu học tập",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can choose study schedules that are suitable for their abilities and learning pace.",
                     "example_vi": "Trẻ có thể tự lựa chọn thời gian học phù hợp với khả năng và tốc độ học tập của mình."
                   },
@@ -8489,7 +8489,7 @@ const ESSAY_DATA = [
                     "en": "comfortable environment",
                     "vi": "môi trường thoải mái",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling can create a more comfortable and safer learning environment.",
                     "example_vi": "Học tại nhà có thể tạo ra môi trường học tập thoải mái và an toàn hơn."
                   },
@@ -8497,7 +8497,7 @@ const ESSAY_DATA = [
                     "en": "safer learning environment",
                     "vi": "môi trường học tập an toàn hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling can create a more comfortable and safer learning environment.",
                     "example_vi": "Học tại nhà có thể tạo ra môi trường học tập thoải mái và an toàn hơn."
                   },
@@ -8505,7 +8505,7 @@ const ESSAY_DATA = [
                     "en": "school bullying",
                     "vi": "bắt nạt học đường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can avoid negative influences such as school bullying, violence, or peer pressure.",
                     "example_vi": "Trẻ có thể tránh được những ảnh hưởng tiêu cực như bắt nạt học đường, bạo lực, hoặc áp lực từ bạn bè."
                   },
@@ -8537,7 +8537,7 @@ const ESSAY_DATA = [
                     "en": "monitor learning",
                     "vi": "theo dõi việc học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling allows parents to monitor their children's learning more closely.",
                     "example_vi": "Học tại nhà giúp cha mẹ theo dõi quá trình học tập của con chặt chẽ hơn."
                   },
@@ -8545,7 +8545,7 @@ const ESSAY_DATA = [
                     "en": "strengths and weaknesses",
                     "vi": "điểm mạnh và điểm yếu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents can easily identify their children's strengths and weaknesses.",
                     "example_vi": "Cha mẹ có thể dễ dàng nhận ra điểm mạnh và điểm yếu của con."
                   },
@@ -8577,7 +8577,7 @@ const ESSAY_DATA = [
                     "en": "tailor-made curriculum",
                     "vi": "chương trình học được thiết kế riêng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling allows parents to customize the curriculum to suit each child's unique talents and interests.",
                     "example_vi": "Giáo dục tại nhà cho phép cá nhân hóa chương trình học theo đúng năng khiếu và sở thích của từng trẻ."
                   },
@@ -8585,7 +8585,7 @@ const ESSAY_DATA = [
                     "en": "individual strengths and interests",
                     "vi": "điểm mạnh và sở thích cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling allows parents to customize the curriculum to suit each child's unique talents and interests.",
                     "example_vi": "Giáo dục tại nhà cho phép cá nhân hóa chương trình học theo đúng năng khiếu và sở thích của từng trẻ."
                   },
@@ -8593,7 +8593,7 @@ const ESSAY_DATA = [
                     "en": "nurture special talents",
                     "vi": "nuôi dưỡng năng khiếu đặc biệt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling allows parents to customize the curriculum to suit each child's unique talents and interests.",
                     "example_vi": "Giáo dục tại nhà cho phép cá nhân hóa chương trình học theo đúng năng khiếu và sở thích của từng trẻ."
                   },
@@ -8625,7 +8625,7 @@ const ESSAY_DATA = [
                     "en": "strengthen family bonds",
                     "vi": "thắt chặt sự gắn kết gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning together at home strengthens emotional bonds and mutual understanding between parents and children.",
                     "example_vi": "Việc cùng học tập mỗi ngày giúp thắt chặt tình cảm và sự thấu hiểu giữa cha mẹ với con cái."
                   },
@@ -8633,7 +8633,7 @@ const ESSAY_DATA = [
                     "en": "quality time together",
                     "vi": "thời gian chất lượng bên nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents and children spend meaningful quality time together discussing lessons, exploring knowledge, and sharing moral values.",
                     "example_vi": "Cha mẹ và con cái có nhiều thời gian chất lượng bên nhau để trò chuyện, khám phá kiến thức và chia sẻ các giá trị sống."
                   },
@@ -8641,7 +8641,7 @@ const ESSAY_DATA = [
                     "en": "instill moral values",
                     "vi": "truyền dạy các giá trị đạo đức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents and children spend meaningful quality time together discussing lessons, exploring knowledge, and sharing moral values.",
                     "example_vi": "Cha mẹ và con cái có nhiều thời gian chất lượng bên nhau để trò chuyện, khám phá kiến thức và chia sẻ các giá trị sống."
                   },
@@ -8673,7 +8673,7 @@ const ESSAY_DATA = [
                     "en": "social skill development",
                     "vi": "sự phát triển kỹ năng xã hội",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling may limit children's social skill development.",
                     "example_vi": "Học tại nhà có thể hạn chế sự phát triển kỹ năng xã hội của trẻ."
                   },
@@ -8681,7 +8681,7 @@ const ESSAY_DATA = [
                     "en": "interact with peers",
                     "vi": "tương tác với bạn bè cùng trang lứa",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children have fewer opportunities to interact with peers and take part in group activities.",
                     "example_vi": "Trẻ có ít cơ hội tương tác với bạn bè cùng trang lứa và tham gia hoạt động nhóm."
                   },
@@ -8713,7 +8713,7 @@ const ESSAY_DATA = [
                     "en": "educational facilities",
                     "vi": "cơ sở vật chất giáo dục",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling may lack educational facilities and learning resources.",
                     "example_vi": "Học tại nhà có thể thiếu cơ sở vật chất và nguồn học tập cần thiết."
                   },
@@ -8721,7 +8721,7 @@ const ESSAY_DATA = [
                     "en": "learning resources",
                     "vi": "nguồn học tập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling may lack educational facilities and learning resources.",
                     "example_vi": "Học tại nhà có thể thiếu cơ sở vật chất và nguồn học tập cần thiết."
                   },
@@ -8729,7 +8729,7 @@ const ESSAY_DATA = [
                     "en": "have access to",
                     "vi": "có quyền tiếp cận",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children may not have access to libraries, laboratories, or modern learning equipment.",
                     "example_vi": "Trẻ có thể không được tiếp cận thư viện, phòng thí nghiệm hoặc các thiết bị học tập hiện đại."
                   },
@@ -8761,7 +8761,7 @@ const ESSAY_DATA = [
                     "en": "well-rounded education",
                     "vi": "nền giáo dục toàn diện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling may not provide a well-rounded education.",
                     "example_vi": "Học tại nhà có thể không đảm bảo được chất lượng giáo dục toàn diện."
                   },
@@ -8769,7 +8769,7 @@ const ESSAY_DATA = [
                     "en": "important subjects",
                     "vi": "môn học quan trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some important subjects or skills may not be taught as fully as they are in traditional schools.",
                     "example_vi": "Một số môn học hoặc kỹ năng quan trọng có thể không được dạy đầy đủ như ở trường học truyền thống."
                   },
@@ -8777,7 +8777,7 @@ const ESSAY_DATA = [
                     "en": "important skills",
                     "vi": "kỹ năng quan trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some important subjects or skills may not be taught as fully as they are in traditional schools.",
                     "example_vi": "Một số môn học hoặc kỹ năng quan trọng có thể không được dạy đầy đủ như ở trường học truyền thống."
                   },
@@ -8817,7 +8817,7 @@ const ESSAY_DATA = [
                     "en": "full-time commitment",
                     "vi": "sự cam kết toàn thời gian",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To teach children daily at home, at least one parent often has to give up full-time employment, which significantly reduces household income.",
                     "example_vi": "Để trực tiếp dạy con mỗi ngày, ít nhất một phụ huynh thường phải nghỉ việc hoặc giảm giờ làm, dẫn đến sụt giảm nguồn thu nhập của gia đình."
                   },
@@ -8825,7 +8825,7 @@ const ESSAY_DATA = [
                     "en": "sacrifice career opportunities",
                     "vi": "hy sinh cơ hội nghề nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooling places a heavy burden of time, effort, and financial sacrifice on parents.",
                     "example_vi": "Giáo dục tại nhà đòi hỏi sự hy sinh rất lớn về thời gian, công sức và thu nhập của cha mẹ."
                   },
@@ -8833,7 +8833,7 @@ const ESSAY_DATA = [
                     "en": "reduce household income",
                     "vi": "làm giảm thu nhập gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To teach children daily at home, at least one parent often has to give up full-time employment, which significantly reduces household income.",
                     "example_vi": "Để trực tiếp dạy con mỗi ngày, ít nhất một phụ huynh thường phải nghỉ việc hoặc giảm giờ làm, dẫn đến sụt giảm nguồn thu nhập của gia đình."
                   },
@@ -8865,7 +8865,7 @@ const ESSAY_DATA = [
                     "en": "official accreditation",
                     "vi": "sự công nhận bằng cấp chính thức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Homeschooled students may face challenges regarding objective academic assessment and official accreditation.",
                     "example_vi": "Học sinh học tại nhà có thể gặp khó khăn trong việc đánh giá trình độ khách quan và công nhận bằng cấp."
                   },
@@ -8873,7 +8873,7 @@ const ESSAY_DATA = [
                     "en": "standardized evaluation",
                     "vi": "đánh giá theo tiêu chuẩn chung",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Without regular standardized tests alongside peers, parents may struggle to measure their children's academic progress objectively.",
                     "example_vi": "Khi không tham gia các kỳ kiểm tra định kỳ cùng bạn bè đồng trang lứa, phụ huynh khó đánh giá chính xác năng lực thực sự của con mình."
                   },
@@ -8881,7 +8881,7 @@ const ESSAY_DATA = [
                     "en": "university admission requirements",
                     "vi": "yêu cầu tuyển sinh đại học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Additionally, meeting university admission requirements and obtaining official transcripts can be more complicated.",
                     "example_vi": "Bên cạnh đó, thủ tục xét tuyển vào một số trường đại học có thể phức tạp hơn đối với học sinh tự học tại nhà."
                   },
@@ -8913,7 +8913,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, homeschooling has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, học tại nhà ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -8921,7 +8921,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of homeschooling.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của học tại nhà."
                   },
@@ -8929,7 +8929,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -8937,7 +8937,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -10641,7 +10641,7 @@ const ESSAY_DATA = [
                 "word": "commuter",
                 "ipa": "/kəˈmjuː.tər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "người đi làm/đi học hằng ngày",
                 "example_en": "Thousands of commuters rely on the subway every morning.",
                 "example_vi": "Hàng ngàn người đi làm dựa vào tàu điện ngầm mỗi buổi sáng.",
@@ -10651,7 +10651,7 @@ const ESSAY_DATA = [
                 "word": "congestion",
                 "ipa": "/kənˈdʒes.tʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự ùn tắc giao thông",
                 "example_en": "Expanding bus networks helps alleviate severe traffic congestion.",
                 "example_vi": "Mở rộng mạng lưới xe buýt giúp làm dịu tình trạng ùn tắc giao thông nghiêm trọng.",
@@ -10661,7 +10661,7 @@ const ESSAY_DATA = [
                 "word": "emission",
                 "ipa": "/iˈmɪʃ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khí thải",
                 "example_en": "Public transit significantly reduces harmful carbon emissions.",
                 "example_vi": "Giao thông công cộng giúp giảm đáng kể lượng khí thải carbon độc hại.",
@@ -10671,7 +10671,7 @@ const ESSAY_DATA = [
                 "word": "economical",
                 "ipa": "/ˌiː.kəˈnɒm.ɪ.kəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tiết kiệm, kinh tế",
                 "example_en": "Taking the bus is much more economical than driving a private car.",
                 "example_vi": "Đi xe buýt tiết kiệm hơn nhiều so với việc lái ô tô cá nhân.",
@@ -10681,7 +10681,7 @@ const ESSAY_DATA = [
                 "word": "overcrowded",
                 "ipa": "/ˌəʊ.vəˈkraʊ.dɪd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "đông đúc, quá tải",
                 "example_en": "Buses and trains often become overcrowded during rush hours.",
                 "example_vi": "Xe buýt và tàu điện thường trở nên quá tải vào các khung giờ cao điểm.",
@@ -10691,7 +10691,7 @@ const ESSAY_DATA = [
                 "word": "punctuality",
                 "ipa": "/ˌpʌŋk.tʃuˈæl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đúng giờ",
                 "example_en": "Traffic jams can negatively affect the punctuality of city buses.",
                 "example_vi": "Tắc đường có thể ảnh hưởng tiêu cực đến sự đúng giờ của xe buýt thành phố.",
@@ -10701,7 +10701,7 @@ const ESSAY_DATA = [
                 "word": "inflexible",
                 "ipa": "/ɪnˈflek.sə.bəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thiếu linh hoạt, cứng nhắc",
                 "example_en": "Fixed timetables can be inflexible for people working night shifts.",
                 "example_vi": "Lịch trình cố định có thể thiếu linh hoạt đối với những người làm ca đêm.",
@@ -10731,7 +10731,7 @@ const ESSAY_DATA = [
                 "word": "sustainable",
                 "ipa": "/səˈsteɪ.nə.bəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bền vững",
                 "example_en": "Public transportation is the backbone of sustainable urban development.",
                 "example_vi": "Giao thông công cộng là xương sống của sự phát triển đô thị bền vững.",
@@ -10761,7 +10761,7 @@ const ESSAY_DATA = [
                 "word": "footprint",
                 "ipa": "/ˈfʊt.prɪnt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "dấu chân (lượng khí thải carbon)",
                 "family": "carbon footprint (n.phr)",
                 "example_en": "Taking the train instead of driving a private car significantly reduces one's carbon footprint.",
@@ -10781,7 +10781,7 @@ const ESSAY_DATA = [
                 "word": "accessibility",
                 "ipa": "/əkˌses.əˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng tiếp cận tuyến trạm",
                 "family": "access (n/v), accessible (adj)",
                 "example_en": "Limited station accessibility in suburban areas forces residents to rely on private vehicles.",
@@ -10849,7 +10849,7 @@ const ESSAY_DATA = [
                     "en": "save transportation costs",
                     "vi": "tiết kiệm chi phí đi lại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport helps people save transportation costs.",
                     "example_vi": "Giao thông công cộng giúp mọi người tiết kiệm chi phí đi lại."
                   },
@@ -10857,7 +10857,7 @@ const ESSAY_DATA = [
                     "en": "vehicle maintenance",
                     "vi": "bảo dưỡng phương tiện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commuters do not need to spend significant money on fuel and vehicle maintenance.",
                     "example_vi": "Người đi làm không cần phải chi số tiền lớn cho nhiên liệu và bảo dưỡng phương tiện."
                   },
@@ -10889,7 +10889,7 @@ const ESSAY_DATA = [
                     "en": "reducing traffic congestion",
                     "vi": "giảm ùn tắc giao thông",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport contributes to reducing traffic congestion in urban areas.",
                     "example_vi": "Giao thông công cộng góp phần giảm bớt tình trạng ùn tắc giao thông."
                   },
@@ -10897,7 +10897,7 @@ const ESSAY_DATA = [
                     "en": "high-capacity buses and trains",
                     "vi": "xe buýt và tàu điện sức chứa lớn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "High-capacity buses and trains can transport hundreds of passengers at the same time.",
                     "example_vi": "Xe buýt và tàu điện sức chứa lớn có thể vận chuyển hàng trăm hành khách cùng một lúc."
                   },
@@ -10929,7 +10929,7 @@ const ESSAY_DATA = [
                     "en": "crucial role in environmental protection",
                     "vi": "vai trò quan trọng trong bảo vệ môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport plays a crucial role in environmental protection.",
                     "example_vi": "Giao thông công cộng đóng vai trò quan trọng trong việc bảo vệ môi trường."
                   },
@@ -10937,7 +10937,7 @@ const ESSAY_DATA = [
                     "en": "mass transit networks",
                     "vi": "mạng lưới vận tải công cộng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mass transit networks produce substantially fewer carbon emissions per passenger compared to private cars.",
                     "example_vi": "Các mạng lưới vận tải công cộng thải ra ít khí thải carbon hơn đáng kể trên mỗi hành khách so với ô tô cá nhân."
                   },
@@ -10969,7 +10969,7 @@ const ESSAY_DATA = [
                     "en": "considerable convenience",
                     "vi": "sự tiện lợi đáng kể",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport provides considerable convenience for daily commuters.",
                     "example_vi": "Giao thông công cộng mang lại sự tiện lợi đáng kể cho cư dân đô thị."
                   },
@@ -10977,7 +10977,7 @@ const ESSAY_DATA = [
                     "en": "extensive routes",
                     "vi": "tuyến đường rộng khắp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Modern transport systems operate extensive routes and provide frequent departures throughout the city.",
                     "example_vi": "Các hệ thống giao thông hiện đại vận hành các tuyến đường rộng khắp và cung cấp các chuyến đi thường xuyên trên toàn thành phố."
                   },
@@ -11009,7 +11009,7 @@ const ESSAY_DATA = [
                     "en": "enhance overall road safety",
                     "vi": "nâng cao an toàn giao thông tổng thể",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport helps enhance overall road safety.",
                     "example_vi": "Giao thông công cộng giúp nâng cao mức độ an toàn giao thông tổng thể."
                   },
@@ -11017,7 +11017,7 @@ const ESSAY_DATA = [
                     "en": "professionally trained drivers",
                     "vi": "tài xế được đào tạo chuyên nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public vehicles are operated by professionally trained drivers who adhere strictly to safety regulations.",
                     "example_vi": "Phương tiện công cộng được điều khiển bởi các tài xế chuyên nghiệp, những người tuân thủ nghiêm ngặt các quy định an toàn."
                   },
@@ -11049,7 +11049,7 @@ const ESSAY_DATA = [
                     "en": "overcrowded and uncomfortable",
                     "vi": "quá đông đúc và không thoải mái",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport is often overcrowded and uncomfortable.",
                     "example_vi": "Giao thông công cộng thường đông đúc quá mức và không thoải mái."
                   },
@@ -11057,7 +11057,7 @@ const ESSAY_DATA = [
                     "en": "peak hours",
                     "vi": "giờ cao điểm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Vehicles are frequently overwhelmed with commuters during peak hours, resulting in limited personal space.",
                     "example_vi": "Các phương tiện thường xuyên bị quá tải hành khách vào giờ cao điểm, dẫn đến không gian cá nhân bị hạn chế nghiêm trọng."
                   },
@@ -11089,7 +11089,7 @@ const ESSAY_DATA = [
                     "en": "operational flexibility",
                     "vi": "tính linh hoạt trong vận hành",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using public transport lacks operational flexibility for daily commuters.",
                     "example_vi": "Giao thông công cộng thiếu tính linh hoạt trong vận hành cho người đi lại."
                   },
@@ -11097,7 +11097,7 @@ const ESSAY_DATA = [
                     "en": "predetermined schedules",
                     "vi": "lịch trình định sẵn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Transit services operate strictly on predetermined schedules and fixed routes.",
                     "example_vi": "Dịch vụ vận tải hoạt động nghiêm ngặt theo các lịch trình định sẵn và các tuyến đường cố định."
                   },
@@ -11129,7 +11129,7 @@ const ESSAY_DATA = [
                     "en": "unexpected transit delays",
                     "vi": "sự chậm trễ phương tiện bất ngờ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commuters frequently encounter unexpected transit delays.",
                     "example_vi": "Người đi lại thường xuyên đối mặt với sự chậm trễ phương tiện bất ngờ."
                   },
@@ -11137,7 +11137,7 @@ const ESSAY_DATA = [
                     "en": "technical malfunctions",
                     "vi": "sự cố kỹ thuật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Schedules can be severely disrupted by unexpected gridlock, technical malfunctions, or bad weather conditions.",
                     "example_vi": "Lịch trình có thể bị gián đoạn nghiêm trọng bởi tình trạng ùn tắc bất ngờ, sự cố kỹ thuật hoặc thời tiết khắc nghiệt."
                   },
@@ -11169,7 +11169,7 @@ const ESSAY_DATA = [
                     "en": "compromises personal privacy",
                     "vi": "làm giảm sự riêng tư cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport inevitably compromises personal privacy for passengers.",
                     "example_vi": "Giao thông công cộng chắc chắn làm giảm sự riêng tư của cá nhân."
                   },
@@ -11177,7 +11177,7 @@ const ESSAY_DATA = [
                     "en": "confined spaces",
                     "vi": "không gian chật hẹp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commuters must share confined spaces with unfamiliar individuals and endure ambient disturbances.",
                     "example_vi": "Hành khách phải dùng chung không gian chật hẹp với những người xa lạ và chịu đựng sự quấy rầy từ môi trường xung quanh."
                   },
@@ -11209,7 +11209,7 @@ const ESSAY_DATA = [
                     "en": "hygiene and health concerns",
                     "vi": "lo ngại về vệ sinh và sức khỏe",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Public transport can give rise to serious hygiene and health concerns.",
                     "example_vi": "Giao thông công cộng có thể gây ra những lo ngại nghiêm trọng về vệ sinh và sức khỏe."
                   },
@@ -11217,7 +11217,7 @@ const ESSAY_DATA = [
                     "en": "close physical proximity",
                     "vi": "khoảng cách tiếp xúc gần",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Close physical proximity in poorly ventilated vehicles accelerates the transmission of infectious germs.",
                     "example_vi": "Khoảng cách tiếp xúc gần trong các phương tiện kém thông thoáng đẩy nhanh sự lây truyền các bệnh truyền nhiễm."
                   },
@@ -11249,7 +11249,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, public transport has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, giao thông công cộng ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -11257,7 +11257,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of public transport.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của giao thông công cộng."
                   },
@@ -11265,7 +11265,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -11273,7 +11273,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -12842,7 +12842,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒn.ə.mi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền tự chủ",
                 "example_en": "Remote workers enjoy greater autonomy over their daily schedules.",
                 "example_vi": "Người làm việc từ xa có quyền tự chủ lớn hơn đối với lịch trình hằng ngày của mình.",
@@ -12852,7 +12852,7 @@ const ESSAY_DATA = [
                 "word": "overhead",
                 "ipa": "/ˈəʊ.və.hed/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chi phí vận hành cố định (mặt bằng, điện nước)",
                 "example_en": "Allowing staff to work from home reduces company overhead costs.",
                 "example_vi": "Cho phép nhân viên làm việc tại nhà giúp giảm chi phí vận hành của công ty.",
@@ -12862,7 +12862,7 @@ const ESSAY_DATA = [
                 "word": "distraction",
                 "ipa": "/dɪˈstræk.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự xao nhãng, yếu tố gây phân tâm",
                 "example_en": "Household chores and television can be major distractions at home.",
                 "example_vi": "Việc nhà và tivi có thể là những yếu tố gây xao nhãng lớn khi ở nhà.",
@@ -12872,7 +12872,7 @@ const ESSAY_DATA = [
                 "word": "boundary",
                 "ipa": "/ˈbaʊn.dər.i/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ranh giới",
                 "example_en": "Remote employees must set clear boundaries between work and rest.",
                 "example_vi": "Nhân viên làm việc từ xa phải thiết lập ranh giới rõ ràng giữa công việc và nghỉ ngơi.",
@@ -12882,7 +12882,7 @@ const ESSAY_DATA = [
                 "word": "isolation",
                 "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự cô lập, cô đơn",
                 "example_en": "Lack of daily colleague interaction can lead to professional isolation.",
                 "example_vi": "Thiếu tương tác hằng ngày với đồng nghiệp có thể dẫn đến cảm giác cô lập trong công việc.",
@@ -12892,7 +12892,7 @@ const ESSAY_DATA = [
                 "word": "burnout",
                 "ipa": "/ˈbɜːn.aʊt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiệt sức nghề nghiệp",
                 "example_en": "Working late into the night at home often results in severe burnout.",
                 "example_vi": "Làm việc khuya tại nhà thường dẫn đến tình trạng kiệt sức nghiêm trọng.",
@@ -12912,7 +12912,7 @@ const ESSAY_DATA = [
                 "word": "commute",
                 "ipa": "/kəˈmjuːt/",
                 "pos": "verb/noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "di chuyển đi làm hằng ngày",
                 "example_en": "Eliminating the daily commute saves workers hours every week.",
                 "example_vi": "Loại bỏ việc đi lại hằng ngày giúp người lao động tiết kiệm hàng giờ mỗi tuần.",
@@ -12922,7 +12922,7 @@ const ESSAY_DATA = [
                 "word": "supervision",
                 "ipa": "/ˌsuː.pəˈvɪʒ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự giám sát quản lý",
                 "example_en": "Self-motivated employees perform well even without direct supervision.",
                 "example_vi": "Những nhân viên có tính tự giác cao làm việc tốt ngay cả khi không có sự giám sát trực tiếp.",
@@ -12932,7 +12932,7 @@ const ESSAY_DATA = [
                 "word": "flexibility",
                 "ipa": "/ˌflek.səˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự linh hoạt về thời gian và không gian",
                 "family": "flexible (adj), flexibly (adv), inflexible (adj)",
                 "example_en": "Schedule flexibility allows remote employees to work during their most productive hours.",
@@ -13012,7 +13012,7 @@ const ESSAY_DATA = [
                 "word": "overtime",
                 "ipa": "/ˈəʊ.və.taɪm/",
                 "pos": "noun/adv",
-                "level": "B2",
+                "level": "B1",
                 "vi": "làm thêm giờ quá mức",
                 "family": "overwork (v/n)",
                 "example_en": "Blurred boundaries between home and office often lead remote staff to work unpaid overtime.",
@@ -13040,7 +13040,7 @@ const ESSAY_DATA = [
                     "en": "telecommuting",
                     "vi": "làm việc qua mạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Telecommuting significantly reduces commuting time and expenses.",
                     "example_vi": "Làm việc qua mạng giảm thiểu đáng kể thời gian và chi phí đi lại."
                   },
@@ -13048,7 +13048,7 @@ const ESSAY_DATA = [
                     "en": "significantly reduce",
                     "vi": "giảm thiểu đáng kể",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Telecommuting significantly reduces commuting time and expenses.",
                     "example_vi": "Làm việc qua mạng giảm thiểu đáng kể thời gian và chi phí đi lại."
                   },
@@ -13056,7 +13056,7 @@ const ESSAY_DATA = [
                     "en": "commuting time and expenses",
                     "vi": "thời gian và chi phí đi lại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Telecommuting significantly reduces commuting time and expenses.",
                     "example_vi": "Làm việc qua mạng giảm thiểu đáng kể thời gian và chi phí đi lại."
                   },
@@ -13064,7 +13064,7 @@ const ESSAY_DATA = [
                     "en": "employees",
                     "vi": "nhân viên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Employees no longer need to travel to traditional workplaces on a daily basis.",
                     "example_vi": "Nhân viên không còn cần phải di chuyển đến các nơi làm việc truyền thống hàng ngày."
                   },
@@ -13112,7 +13112,7 @@ const ESSAY_DATA = [
                     "en": "offer a high degree of",
                     "vi": "mang lại mức độ ... cao",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "It offers a high degree of flexibility and convenience.",
                     "example_vi": "Nó mang lại mức độ linh hoạt và thuận tiện cao."
                   },
@@ -13120,7 +13120,7 @@ const ESSAY_DATA = [
                     "en": "flexibility and convenience",
                     "vi": "linh hoạt và thuận tiện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "It offers a high degree of flexibility and convenience.",
                     "example_vi": "Nó mang lại mức độ linh hoạt và thuận tiện cao."
                   },
@@ -13128,7 +13128,7 @@ const ESSAY_DATA = [
                     "en": "create",
                     "vi": "tạo ra",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Individuals can create comfortable workspaces and manage their schedules effectively.",
                     "example_vi": "Các cá nhân có thể tạo không gian làm việc thoải mái và quản lý lịch trình hiệu quả."
                   },
@@ -13168,7 +13168,7 @@ const ESSAY_DATA = [
                     "en": "this model",
                     "vi": "mô hình này",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This model can significantly boost overall efficiency.",
                     "example_vi": "Mô hình này có thể thúc đẩy đáng kể hiệu quả tổng thể."
                   },
@@ -13176,7 +13176,7 @@ const ESSAY_DATA = [
                     "en": "significantly boost",
                     "vi": "thúc đẩy đáng kể",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This model can significantly boost overall efficiency.",
                     "example_vi": "Mô hình này có thể thúc đẩy đáng kể hiệu quả tổng thể."
                   },
@@ -13184,7 +13184,7 @@ const ESSAY_DATA = [
                     "en": "overall efficiency",
                     "vi": "hiệu quả tổng thể",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This model can significantly boost overall efficiency.",
                     "example_vi": "Mô hình này có thể thúc đẩy đáng kể hiệu quả tổng thể."
                   },
@@ -13192,7 +13192,7 @@ const ESSAY_DATA = [
                     "en": "quiet working environment",
                     "vi": "môi trường làm việc yên tĩnh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A quiet working environment allows employees to perform tasks without interruptions.",
                     "example_vi": "Một môi trường làm việc yên tĩnh cho phép nhân viên thực hiện nhiệm vụ mà không bị gián đoạn."
                   },
@@ -13232,7 +13232,7 @@ const ESSAY_DATA = [
                     "en": "lower overhead costs",
                     "vi": "giảm chi phí vận hành",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When employees work from home, businesses can downsize expensive office space and cut utility costs.",
                     "example_vi": "Khi nhân viên làm việc tại nhà, công ty không cần thuê diện tích văn phòng quá lớn cũng như cắt giảm được hóa đơn điện, nước, internet."
                   },
@@ -13240,7 +13240,7 @@ const ESSAY_DATA = [
                     "en": "office space rental",
                     "vi": "chi phí thuê mặt bằng văn phòng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Remote work helps companies significantly reduce office rental and operational expenses.",
                     "example_vi": "Mô hình làm việc từ xa giúp các doanh nghiệp tiết kiệm đáng kể chi phí thuê mặt bằng và vận hành văn phòng."
                   },
@@ -13248,7 +13248,7 @@ const ESSAY_DATA = [
                     "en": "utility bills and equipment",
                     "vi": "hóa đơn điện nước và trang thiết bị",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When employees work from home, businesses can downsize expensive office space and cut utility costs.",
                     "example_vi": "Khi nhân viên làm việc tại nhà, công ty không cần thuê diện tích văn phòng quá lớn cũng như cắt giảm được hóa đơn điện, nước, internet."
                   },
@@ -13280,7 +13280,7 @@ const ESSAY_DATA = [
                     "en": "accommodate family responsibilities",
                     "vi": "đáp ứng tốt hơn trách nhiệm gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Working from home enables employees to better manage family responsibilities and personal well-being.",
                     "example_vi": "Làm việc tại nhà giúp người lao động dễ dàng sắp xếp thời gian chăm sóc gia đình và bản thân hơn."
                   },
@@ -13288,7 +13288,7 @@ const ESSAY_DATA = [
                     "en": "working parents",
                     "vi": "những bậc cha mẹ đi làm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Working parents can flexibly look after young children or elderly relatives while preparing nutritious home-cooked meals.",
                     "example_vi": "Những người làm cha mẹ có thể linh hoạt trông nom con nhỏ hoặc người thân lớn tuổi trong ngày đồng thời tự nấu những bữa ăn lành mạnh tại nhà."
                   },
@@ -13296,7 +13296,7 @@ const ESSAY_DATA = [
                     "en": "prepare nutritious home-cooked meals",
                     "vi": "chuẩn bị những bữa ăn tự nấu bổ dưỡng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Working parents can flexibly look after young children or elderly relatives while preparing nutritious home-cooked meals.",
                     "example_vi": "Những người làm cha mẹ có thể linh hoạt trông nom con nhỏ hoặc người thân lớn tuổi trong ngày đồng thời tự nấu những bữa ăn lành mạnh tại nhà."
                   },
@@ -13328,7 +13328,7 @@ const ESSAY_DATA = [
                     "en": "severely limit",
                     "vi": "hạn chế nghiêm trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Working from home can severely limit face-to-face interaction.",
                     "example_vi": "Làm việc tại nhà có thể hạn chế nghiêm trọng sự tương tác trực tiếp."
                   },
@@ -13336,7 +13336,7 @@ const ESSAY_DATA = [
                     "en": "face-to-face interaction",
                     "vi": "sự tương tác trực tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Working from home can severely limit face-to-face interaction.",
                     "example_vi": "Làm việc tại nhà có thể hạn chế nghiêm trọng sự tương tác trực tiếp."
                   },
@@ -13344,7 +13344,7 @@ const ESSAY_DATA = [
                     "en": "remote workers",
                     "vi": "những người làm việc từ xa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Remote workers may experience feelings of isolation and struggle to foster strong relationships.",
                     "example_vi": "Những người làm việc từ xa có thể trải qua cảm giác bị cô lập và gặp khó khăn trong việc nuôi dưỡng các mối quan hệ vững chắc."
                   },
@@ -13352,7 +13352,7 @@ const ESSAY_DATA = [
                     "en": "experience feelings of",
                     "vi": "trải qua cảm giác",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Remote workers may experience feelings of isolation and struggle to foster strong relationships.",
                     "example_vi": "Những người làm việc từ xa có thể trải qua cảm giác bị cô lập và gặp khó khăn trong việc nuôi dưỡng các mối quan hệ vững chắc."
                   },
@@ -13392,7 +13392,7 @@ const ESSAY_DATA = [
                     "en": "numerous individuals",
                     "vi": "nhiều cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Numerous individuals find it challenging to maintain focus.",
                     "example_vi": "Nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung."
                   },
@@ -13400,7 +13400,7 @@ const ESSAY_DATA = [
                     "en": "find it challenging to",
                     "vi": "thấy khó khăn trong việc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Numerous individuals find it challenging to maintain focus.",
                     "example_vi": "Nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung."
                   },
@@ -13408,7 +13408,7 @@ const ESSAY_DATA = [
                     "en": "maintain focus",
                     "vi": "duy trì sự tập trung",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Numerous individuals find it challenging to maintain focus.",
                     "example_vi": "Nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung."
                   },
@@ -13416,7 +13416,7 @@ const ESSAY_DATA = [
                     "en": "home environment",
                     "vi": "môi trường ở nhà",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The home environment presents various distractions that can negatively impact productivity.",
                     "example_vi": "Môi trường ở nhà đưa ra nhiều sự xao nhãng có thể tác động tiêu cực đến năng suất."
                   },
@@ -13464,7 +13464,7 @@ const ESSAY_DATA = [
                     "en": "blur the boundaries",
                     "vi": "làm mờ ranh giới",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Remote work can blur the boundaries between professional and personal life.",
                     "example_vi": "Làm việc từ xa có thể làm mờ ranh giới giữa đời sống công sở và cá nhân."
                   },
@@ -13472,7 +13472,7 @@ const ESSAY_DATA = [
                     "en": "professional and personal life",
                     "vi": "đời sống công sở và cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Remote work can blur the boundaries between professional and personal life.",
                     "example_vi": "Làm việc từ xa có thể làm mờ ranh giới giữa đời sống công sở và cá nhân."
                   },
@@ -13480,7 +13480,7 @@ const ESSAY_DATA = [
                     "en": "may end up",
                     "vi": "có thể phải",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Individuals may end up working longer hours, leading to prolonged stress and burnout.",
                     "example_vi": "Các cá nhân có thể phải làm việc nhiều giờ hơn, dẫn đến căng thẳng và kiệt sức kéo dài."
                   },
@@ -13488,7 +13488,7 @@ const ESSAY_DATA = [
                     "en": "working longer hours",
                     "vi": "làm việc nhiều giờ hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Individuals may end up working longer hours, leading to prolonged stress and burnout.",
                     "example_vi": "Các cá nhân có thể phải làm việc nhiều giờ hơn, dẫn đến căng thẳng và kiệt sức kéo dài."
                   },
@@ -13528,7 +13528,7 @@ const ESSAY_DATA = [
                     "en": "monitor employee performance",
                     "vi": "giám sát hiệu quả làm việc của nhân viên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Managers may face difficulties in supervising employees and coordinating team projects remotely.",
                     "example_vi": "Các nhà quản lý có thể gặp khó khăn trong việc giám sát tiến độ và điều phối làm việc nhóm từ xa."
                   },
@@ -13536,7 +13536,7 @@ const ESSAY_DATA = [
                     "en": "coordinate team projects",
                     "vi": "điều phối các dự án nhóm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Managers may face difficulties in supervising employees and coordinating team projects remotely.",
                     "example_vi": "Các nhà quản lý có thể gặp khó khăn trong việc giám sát tiến độ và điều phối làm việc nhóm từ xa."
                   },
@@ -13544,7 +13544,7 @@ const ESSAY_DATA = [
                     "en": "communication delays",
                     "vi": "sự chậm trễ trong giao tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Moreover, communication delays across online channels can slow down collaborative problem-solving.",
                     "example_vi": "Ngoài ra, sự chậm trễ khi trao đổi qua tin nhắn cũng có thể làm chậm tiến độ xử lý công việc chung."
                   },
@@ -13576,7 +13576,7 @@ const ESSAY_DATA = [
                     "en": "cybersecurity vulnerabilities",
                     "vi": "lỗ hổng an ninh mạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Remote working increases cybersecurity risks and vulnerability to technical disruptions.",
                     "example_vi": "Làm việc từ xa tiềm ẩn rủi ro rò rỉ dữ liệu doanh nghiệp và sự cố gián đoạn kỹ thuật."
                   },
@@ -13584,7 +13584,7 @@ const ESSAY_DATA = [
                     "en": "confidential company data",
                     "vi": "dữ liệu bảo mật của công ty",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Accessing confidential company data through unsecured home networks increases the risk of cyberattacks and data breaches.",
                     "example_vi": "Việc truy cập tài liệu mật của công ty qua mạng internet cá nhân hoặc thiết bị tại nhà dễ tạo cơ hội cho tin tặc tấn công."
                   },
@@ -13592,7 +13592,7 @@ const ESSAY_DATA = [
                     "en": "unsecured home networks",
                     "vi": "mạng internet gia đình kém bảo mật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Accessing confidential company data through unsecured home networks increases the risk of cyberattacks and data breaches.",
                     "example_vi": "Việc truy cập tài liệu mật của công ty qua mạng internet cá nhân hoặc thiết bị tại nhà dễ tạo cơ hội cho tin tặc tấn công."
                   },
@@ -13624,7 +13624,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, working from home has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, làm việc tại nhà ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -13632,7 +13632,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of working from home.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của làm việc tại nhà."
                   },
@@ -13640,7 +13640,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -13648,7 +13648,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -15158,7 +15158,7 @@ const ESSAY_DATA = [
                 "word": "privacy",
                 "ipa": "/ˈprɪv.ə.si/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự riêng tư",
                 "example_en": "Young couples value the personal privacy of living in their own home.",
                 "example_vi": "Các cặp vợ chồng trẻ đề cao sự riêng tư cá nhân khi sống trong ngôi nhà riêng.",
@@ -15168,7 +15168,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒn.ə.mi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền tự quyết, tự chủ",
                 "example_en": "Living independently gives parents full autonomy in raising their kids.",
                 "example_vi": "Sống độc lập mang lại cho cha mẹ toàn quyền tự quyết trong việc nuôi dạy con cái.",
@@ -15178,7 +15178,7 @@ const ESSAY_DATA = [
                 "word": "friction",
                 "ipa": "/ˈfrɪk.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự bất đồng, va chạm, xích mích",
                 "example_en": "Living apart from in-laws helps minimize daily domestic friction.",
                 "example_vi": "Sống tách biệt với gia đình nhà chồng/vợ giúp giảm thiểu những va chạm sinh hoạt hằng ngày.",
@@ -15188,7 +15188,7 @@ const ESSAY_DATA = [
                 "word": "upbringing",
                 "ipa": "/ˈʌpˌbrɪŋ.ɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự nuôi dạy, giáo dục con cái",
                 "example_en": "Parents can agree on a consistent approach to their children's upbringing.",
                 "example_vi": "Cha mẹ có thể thống nhất một phương pháp nhất quán trong việc nuôi dạy con cái.",
@@ -15198,7 +15198,7 @@ const ESSAY_DATA = [
                 "word": "childcare",
                 "ipa": "/ˈtʃaɪld.keər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "việc chăm sóc trẻ nhỏ",
                 "example_en": "Finding affordable childcare is a major challenge for nuclear families.",
                 "example_vi": "Tìm kiếm dịch vụ trông trẻ có chi phí hợp lý là thách thức lớn với các gia đình hạt nhân.",
@@ -15208,7 +15208,7 @@ const ESSAY_DATA = [
                 "word": "kinship",
                 "ipa": "/ˈkɪn.ʃɪp/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mối quan hệ họ hàng, huyết thống",
                 "example_en": "Frequent visits help maintain strong kinship ties with grandparents.",
                 "example_vi": "Những chuyến thăm thường xuyên giúp duy trì tình cảm họ hàng bền chặt với ông bà.",
@@ -15218,7 +15218,7 @@ const ESSAY_DATA = [
                 "word": "expenditure",
                 "ipa": "/ɪkˈspen.dɪ.tʃər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chi tiêu, khoản chi phí",
                 "example_en": "A smaller household makes it easier to control monthly expenditure.",
                 "example_vi": "Quy mô hộ gia đình nhỏ hơn giúp việc kiểm soát chi tiêu hằng tháng dễ dàng hơn.",
@@ -15238,7 +15238,7 @@ const ESSAY_DATA = [
                 "word": "heritage",
                 "ipa": "/ˈher.ɪ.tɪdʒ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "di sản, truyền thống gia đình",
                 "example_en": "Grandparents play a key role in passing down family heritage.",
                 "example_vi": "Ông bà đóng vai trò quan trọng trong việc truyền lại các truyền thống gia đình.",
@@ -15268,7 +15268,7 @@ const ESSAY_DATA = [
                 "word": "isolation",
                 "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự cô đơn, thiếu kết nối họ hàng",
                 "family": "isolate (v), isolated (adj)",
                 "example_en": "Elderly grandparents living apart from nuclear families often suffer from social isolation.",
@@ -15288,7 +15288,7 @@ const ESSAY_DATA = [
                 "word": "harmony",
                 "ipa": "/ˈhɑː.mə.ni/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự hòa thuận, êm ấm",
                 "family": "harmonious (adj), harmoniously (adv), harmonize (v)",
                 "example_en": "Fewer generational differences help maintain domestic harmony in small households.",
@@ -15356,7 +15356,7 @@ const ESSAY_DATA = [
                     "en": "greater privacy",
                     "vi": "sự riêng tư cao hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Nuclear families provide greater privacy and independence for family members.",
                     "example_vi": "Gia đình hạt nhân mang lại nhiều sự riêng tư và quyền tự quyết hơn cho các thành viên."
                   },
@@ -15364,7 +15364,7 @@ const ESSAY_DATA = [
                     "en": "independence",
                     "vi": "sự tự chủ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Nuclear families provide greater privacy and independence for family members.",
                     "example_vi": "Gia đình hạt nhân mang lại nhiều sự riêng tư và quyền tự quyết hơn cho các thành viên."
                   },
@@ -15372,7 +15372,7 @@ const ESSAY_DATA = [
                     "en": "important family decisions",
                     "vi": "quyết định quan trọng trong gia đình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents can make important family decisions without being influenced by other relatives.",
                     "example_vi": "Cha mẹ có thể tự đưa ra các quyết định quan trọng mà không bị ảnh hưởng bởi những người thân khác."
                   },
@@ -15412,7 +15412,7 @@ const ESSAY_DATA = [
                     "en": "encourage responsibility",
                     "vi": "khuyến khích trách nhiệm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Nuclear families encourage responsibility and independence.",
                     "example_vi": "Gia đình hạt nhân giúp các thành viên trở nên có trách nhiệm và tự lập hơn."
                   },
@@ -15420,7 +15420,7 @@ const ESSAY_DATA = [
                     "en": "share household duties",
                     "vi": "chia sẻ việc nhà",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Each family member needs to share household duties and complete their own responsibilities.",
                     "example_vi": "Mỗi thành viên đều phải chia sẻ công việc và hoàn thành trách nhiệm của mình."
                   },
@@ -15452,7 +15452,7 @@ const ESSAY_DATA = [
                     "en": "easier to organize",
                     "vi": "dễ sắp xếp hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Having fewer family members makes childcare and daily activities easier to organize.",
                     "example_vi": "Có ít thành viên hơn nên việc chăm sóc con cái và sắp xếp các hoạt động hằng ngày dễ dàng hơn."
                   },
@@ -15460,7 +15460,7 @@ const ESSAY_DATA = [
                     "en": "daily activities",
                     "vi": "hoạt động hằng ngày",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Having fewer family members makes childcare and daily activities easier to organize.",
                     "example_vi": "Có ít thành viên hơn nên việc chăm sóc con cái và sắp xếp các hoạt động hằng ngày dễ dàng hơn."
                   },
@@ -15492,7 +15492,7 @@ const ESSAY_DATA = [
                     "en": "consistent parenting styles",
                     "vi": "phương pháp nuôi dạy con nhất quán",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living in a nuclear family allows parents to apply consistent and modern parenting methods.",
                     "example_vi": "Sống trong gia đình hạt nhân giúp cha mẹ chủ động và thống nhất hơn trong phương pháp nuôi dạy con cái."
                   },
@@ -15500,7 +15500,7 @@ const ESSAY_DATA = [
                     "en": "avoid interference from relatives",
                     "vi": "tránh sự can thiệp từ họ hàng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents can establish clear household rules for their children without interference or overindulgence from grandparents.",
                     "example_vi": "Cha mẹ có thể thiết lập các quy tắc kỷ luật rõ ràng cho con mà không sợ sự can thiệp hay chiều chuộng quá mức từ ông bà."
                   },
@@ -15508,7 +15508,7 @@ const ESSAY_DATA = [
                     "en": "modern educational methods",
                     "vi": "phương pháp giáo dục hiện đại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living in a nuclear family allows parents to apply consistent and modern parenting methods.",
                     "example_vi": "Sống trong gia đình hạt nhân giúp cha mẹ chủ động và thống nhất hơn trong phương pháp nuôi dạy con cái."
                   },
@@ -15540,7 +15540,7 @@ const ESSAY_DATA = [
                     "en": "intimate family atmosphere",
                     "vi": "bầu không khí gia đình gần gũi ấm cúng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In an intimate household consisting only of parents and children, every member can easily express their thoughts and participate in family decisions.",
                     "example_vi": "Trong không gian ấm cúng chỉ có cha mẹ và con cái, mọi thành viên đều dễ dàng bày tỏ suy nghĩ, cảm xúc và cùng tham gia vào các quyết định chung."
                   },
@@ -15548,7 +15548,7 @@ const ESSAY_DATA = [
                     "en": "open communication",
                     "vi": "sự giao tiếp cởi mở",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A small family size fosters closer emotional bonds and open communication between parents and children.",
                     "example_vi": "Quy mô gia đình nhỏ tạo điều kiện để vợ chồng và con cái gắn bó, chia sẻ cởi mở với nhau hơn."
                   },
@@ -15556,7 +15556,7 @@ const ESSAY_DATA = [
                     "en": "share daily thoughts and feelings",
                     "vi": "chia sẻ suy nghĩ và cảm xúc hằng ngày",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In an intimate household consisting only of parents and children, every member can easily express their thoughts and participate in family decisions.",
                     "example_vi": "Trong không gian ấm cúng chỉ có cha mẹ và con cái, mọi thành viên đều dễ dàng bày tỏ suy nghĩ, cảm xúc và cùng tham gia vào các quyết định chung."
                   },
@@ -15588,7 +15588,7 @@ const ESSAY_DATA = [
                     "en": "raise their children",
                     "vi": "nuôi dạy con cái",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents often have to raise their children and handle household responsibilities on their own.",
                     "example_vi": "Cha mẹ thường phải tự chăm sóc con cái và giải quyết mọi công việc trong gia đình."
                   },
@@ -15596,7 +15596,7 @@ const ESSAY_DATA = [
                     "en": "handle household responsibilities",
                     "vi": "giải quyết công việc gia đình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents often have to raise their children and handle household responsibilities on their own.",
                     "example_vi": "Cha mẹ thường phải tự chăm sóc con cái và giải quyết mọi công việc trong gia đình."
                   },
@@ -15628,7 +15628,7 @@ const ESSAY_DATA = [
                     "en": "fewer opportunities",
                     "vi": "ít cơ hội hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children have fewer opportunities to learn from their grandparents.",
                     "example_vi": "Trẻ em có ít cơ hội học hỏi từ ông bà hơn."
                   },
@@ -15636,7 +15636,7 @@ const ESSAY_DATA = [
                     "en": "learn from",
                     "vi": "học hỏi từ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children have fewer opportunities to learn from their grandparents.",
                     "example_vi": "Trẻ em có ít cơ hội học hỏi từ ông bà hơn."
                   },
@@ -15644,7 +15644,7 @@ const ESSAY_DATA = [
                     "en": "spend less time with",
                     "vi": "dành ít thời gian hơn với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They spend less time with their grandparents and may miss valuable advice and life experiences.",
                     "example_vi": "Các em ít dành thời gian với ông bà nên có thể bỏ lỡ nhiều lời khuyên và kinh nghiệm sống."
                   },
@@ -15676,7 +15676,7 @@ const ESSAY_DATA = [
                     "en": "face greater responsibilities",
                     "vi": "đối mặt với nhiều trách nhiệm hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Parents may face greater responsibilities.",
                     "example_vi": "Cha mẹ có thể phải đối mặt với nhiều trách nhiệm hơn."
                   },
@@ -15684,7 +15684,7 @@ const ESSAY_DATA = [
                     "en": "balance work",
                     "vi": "cân bằng công việc",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They have to balance work, household chores, and childcare without much support.",
                     "example_vi": "Họ phải cân bằng giữa công việc, việc nhà và chăm sóc con cái mà không có nhiều sự hỗ trợ."
                   },
@@ -15716,7 +15716,7 @@ const ESSAY_DATA = [
                     "en": "professional childcare services",
                     "vi": "dịch vụ trông trẻ chuyên nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Young couples in nuclear families often face high costs for professional childcare services.",
                     "example_vi": "Các cặp vợ chồng trẻ sống riêng thường phải tốn kém nhiều chi phí thuê người trông trẻ hoặc dịch vụ gia đình."
                   },
@@ -15724,7 +15724,7 @@ const ESSAY_DATA = [
                     "en": "hire babysitters or nannies",
                     "vi": "thuê bảo mẫu hoặc người giúp việc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When both parents work full-time without help from grandparents, they must pay for expensive day-care centers or hire babysitters.",
                     "example_vi": "Khi cả hai vợ chồng đều đi làm mà không có ông bà hỗ trợ, họ buộc phải gửi con trẻ từ rất sớm hoặc thuê người giúp việc với chi phí đắt đỏ."
                   },
@@ -15732,7 +15732,7 @@ const ESSAY_DATA = [
                     "en": "additional financial burden",
                     "vi": "gánh nặng tài chính phát sinh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This creates an additional financial burden and occasional anxiety regarding child safety.",
                     "example_vi": "Điều này không chỉ gây tốn kém mà đôi khi còn khiến cha mẹ lo lắng về sự an toàn của con."
                   },
@@ -15764,7 +15764,7 @@ const ESSAY_DATA = [
                     "en": "feelings of loneliness",
                     "vi": "cảm giác cô đơn, trống trải",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living separately in a nuclear family can cause loneliness for both children and aging grandparents.",
                     "example_vi": "Sống tách biệt trong gia đình hạt nhân có thể gây ra cảm giác cô đơn cho cả trẻ nhỏ lẫn ông bà lớn tuổi."
                   },
@@ -15772,7 +15772,7 @@ const ESSAY_DATA = [
                     "en": "aging grandparents living alone",
                     "vi": "ông bà lớn tuổi sống một mình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children in small households may feel lonely when their parents are busy at work, while elderly grandparents living alone lack daily companionship.",
                     "example_vi": "Trẻ em trong các gia đình ít con thường cảm thấy buồn chán khi bố mẹ đi làm vắng cả ngày, trong khi ông bà ở quê hoặc sống riêng lại thiếu đi niềm vui sum vầy bên con cháu."
                   },
@@ -15780,7 +15780,7 @@ const ESSAY_DATA = [
                     "en": "lack of companionship",
                     "vi": "thiếu sự bầu bạn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children in small households may feel lonely when their parents are busy at work, while elderly grandparents living alone lack daily companionship.",
                     "example_vi": "Trẻ em trong các gia đình ít con thường cảm thấy buồn chán khi bố mẹ đi làm vắng cả ngày, trong khi ông bà ở quê hoặc sống riêng lại thiếu đi niềm vui sum vầy bên con cháu."
                   },
@@ -15812,7 +15812,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, living in a nuclear family has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, sống trong gia đình hạt nhân ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -15820,7 +15820,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of living in a nuclear family.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của sống trong gia đình hạt nhân."
                   },
@@ -15828,7 +15828,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -15836,7 +15836,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -17488,7 +17488,7 @@ const ESSAY_DATA = [
                 "word": "companionship",
                 "ipa": "/kəmˈpænjənʃɪp/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đồng hành, bầu bạn",
                 "example_en": "Grandparents enjoy the constant companionship of their children and grandchildren.",
                 "example_vi": "Ông bà tận hưởng sự bầu bạn thường xuyên của con cháu.",
@@ -17498,7 +17498,7 @@ const ESSAY_DATA = [
                 "word": "upbringing",
                 "ipa": "/ˈʌpbrɪŋɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự nuôi dạy (trẻ nhỏ)",
                 "example_en": "Grandparents often play a vital role in the upbringing of young children.",
                 "example_vi": "Ông bà thường đóng vai trò quan trọng trong việc nuôi dạy trẻ nhỏ.",
@@ -17508,7 +17508,7 @@ const ESSAY_DATA = [
                 "word": "privacy",
                 "ipa": "/ˈprɪvəsi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự riêng tư",
                 "example_en": "A lack of personal privacy is a common drawback of living in a large household.",
                 "example_vi": "Thiếu sự riêng tư cá nhân là một hạn chế phổ biến khi sống trong một gia đình đông người.",
@@ -17518,7 +17518,7 @@ const ESSAY_DATA = [
                 "word": "harmonious",
                 "ipa": "/hɑːˈməʊniəs/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hòa thuận, êm ấm",
                 "example_en": "Mutual respect is essential for maintaining a harmonious family atmosphere.",
                 "example_vi": "Sự tôn trọng lẫn nhau là điều thiết yếu để duy trì bầu không khí gia đình hòa thuận.",
@@ -17528,7 +17528,7 @@ const ESSAY_DATA = [
                 "word": "obligation",
                 "ipa": "/ˌɒblɪˈɡeɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nghĩa vụ, bổn phận",
                 "example_en": "Sharing household chores and financial obligations reduces stress for working parents.",
                 "example_vi": "Chia sẻ việc nhà và các nghĩa vụ tài chính giúp giảm căng thẳng cho các bậc cha mẹ đi làm.",
@@ -17538,7 +17538,7 @@ const ESSAY_DATA = [
                 "word": "friction",
                 "ipa": "/ˈfrɪkʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự va chạm, bất đồng",
                 "example_en": "Differences in daily routines can sometimes cause friction between generations.",
                 "example_vi": "Sự khác biệt trong thói quen sinh hoạt đôi khi có thể gây ra bất đồng giữa các thế hệ.",
@@ -17548,7 +17548,7 @@ const ESSAY_DATA = [
                 "word": "heritage",
                 "ipa": "/ˈherɪtɪdʒ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "di sản, truyền thống gia đình",
                 "example_en": "Older relatives pass down cultural heritage and moral lessons to the youth.",
                 "example_vi": "Những người họ hàng lớn tuổi truyền lại truyền thống văn hóa và bài học đạo đức cho thế hệ trẻ.",
@@ -17558,7 +17558,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒnəmi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền tự chủ, sự tự lập",
                 "example_en": "Young couples may feel they have less autonomy when living with their parents.",
                 "example_vi": "Các cặp vợ chồng trẻ có thể cảm thấy ít có quyền tự chủ hơn khi sống cùng bố mẹ.",
@@ -17568,7 +17568,7 @@ const ESSAY_DATA = [
                 "word": "solidarity",
                 "ipa": "/ˌsɒl.ɪˈdær.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tình đoàn kết, sự tương trợ lẫn nhau",
                 "family": "solid (adj)",
                 "example_en": "Living under one roof strengthens family solidarity during times of financial hardship.",
@@ -17638,7 +17638,7 @@ const ESSAY_DATA = [
                 "word": "compromise",
                 "ipa": "/ˈkɒm.prə.maɪz/",
                 "pos": "noun/verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thỏa hiệp, nhường nhịn lẫn nhau",
                 "family": "uncompromising (adj)",
                 "example_en": "Maintaining peace in a multigenerational home requires constant patience and mutual compromise.",
@@ -17676,7 +17676,7 @@ const ESSAY_DATA = [
                     "en": "provide stronger support",
                     "vi": "mang lại sự hỗ trợ lớn hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Extended families provide stronger support for family members.",
                     "example_vi": "Gia đình nhiều thế hệ mang lại sự hỗ trợ toàn diện hơn cho các thành viên."
                   },
@@ -17684,7 +17684,7 @@ const ESSAY_DATA = [
                     "en": "share responsibilities",
                     "vi": "chia sẻ trách nhiệm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Family members can share responsibilities for childcare and elderly care.",
                     "example_vi": "Các thành viên có thể chia sẻ trách nhiệm chăm sóc trẻ em và người cao tuổi."
                   },
@@ -17692,7 +17692,7 @@ const ESSAY_DATA = [
                     "en": "childcare and elderly care",
                     "vi": "chăm sóc trẻ em và người cao tuổi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Family members can share responsibilities for childcare and elderly care.",
                     "example_vi": "Các thành viên có thể chia sẻ trách nhiệm chăm sóc trẻ em và người cao tuổi."
                   },
@@ -17724,7 +17724,7 @@ const ESSAY_DATA = [
                     "en": "strengthen family bonds",
                     "vi": "tăng cường sự gắn kết gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Extended families strengthen family bonds.",
                     "example_vi": "Gia đình nhiều thế hệ giúp tăng cường sự gắn kết giữa các thành viên."
                   },
@@ -17732,7 +17732,7 @@ const ESSAY_DATA = [
                     "en": "opportunities to communicate",
                     "vi": "cơ hội giao tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living together gives family members more opportunities to communicate and support one another.",
                     "example_vi": "Sống cùng nhau giúp các thành viên có nhiều thời gian giao tiếp và hỗ trợ nhau."
                   },
@@ -17740,7 +17740,7 @@ const ESSAY_DATA = [
                     "en": "support one another",
                     "vi": "hỗ trợ lẫn nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living together gives family members more opportunities to communicate and support one another.",
                     "example_vi": "Sống cùng nhau giúp các thành viên có nhiều thời gian giao tiếp và hỗ trợ nhau."
                   },
@@ -17772,7 +17772,7 @@ const ESSAY_DATA = [
                     "en": "benefit from",
                     "vi": "hưởng lợi từ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can benefit from older generations.",
                     "example_vi": "Trẻ em có thể nhận được nhiều lợi ích từ những người lớn tuổi trong gia đình."
                   },
@@ -17780,7 +17780,7 @@ const ESSAY_DATA = [
                     "en": "older generations",
                     "vi": "thế hệ lớn tuổi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can benefit from older generations.",
                     "example_vi": "Trẻ em có thể nhận được nhiều lợi ích từ những người lớn tuổi trong gia đình."
                   },
@@ -17788,7 +17788,7 @@ const ESSAY_DATA = [
                     "en": "pass on",
                     "vi": "truyền lại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Grandparents can pass on life experiences and traditional values.",
                     "example_vi": "Ông bà có thể truyền đạt kinh nghiệm sống và những giá trị truyền thống."
                   },
@@ -17796,7 +17796,7 @@ const ESSAY_DATA = [
                     "en": "life experiences",
                     "vi": "kinh nghiệm sống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Grandparents can pass on life experiences and traditional values.",
                     "example_vi": "Ông bà có thể truyền đạt kinh nghiệm sống và những giá trị truyền thống."
                   },
@@ -17836,7 +17836,7 @@ const ESSAY_DATA = [
                     "en": "reduce living expenses per person",
                     "vi": "giảm chi phí sinh hoạt bình quân đầu người",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living together helps family members share and save on housing and utility costs.",
                     "example_vi": "Sống chung giúp các thành viên chia sẻ và tiết kiệm chi phí nhà ở, tiện ích."
                   },
@@ -17844,7 +17844,7 @@ const ESSAY_DATA = [
                     "en": "share household utilities",
                     "vi": "chia sẻ chi phí tiện ích gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living together helps family members share and save on housing and utility costs.",
                     "example_vi": "Sống chung giúp các thành viên chia sẻ và tiết kiệm chi phí nhà ở, tiện ích."
                   },
@@ -17852,7 +17852,7 @@ const ESSAY_DATA = [
                     "en": "housing and maintenance costs",
                     "vi": "chi phí nhà ở và bảo trì",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living together helps family members share and save on housing and utility costs.",
                     "example_vi": "Sống chung giúp các thành viên chia sẻ và tiết kiệm chi phí nhà ở, tiện ích."
                   },
@@ -17884,7 +17884,7 @@ const ESSAY_DATA = [
                     "en": "prevent loneliness among the elderly",
                     "vi": "ngăn ngừa sự cô đơn ở người cao tuổi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Extended families help prevent loneliness among elderly family members.",
                     "example_vi": "Gia đình nhiều thế hệ giúp người cao tuổi tránh khỏi cảm giác cô đơn."
                   },
@@ -17892,7 +17892,7 @@ const ESSAY_DATA = [
                     "en": "emotional companionship",
                     "vi": "sự đồng hành về mặt tinh thần",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Daily interaction with children and grandchildren brings joy and emotional companionship to grandparents.",
                     "example_vi": "Việc trò chuyện hằng ngày với con cháu mang lại niềm vui và sự đồng hành tinh thần cho ông bà."
                   },
@@ -17900,7 +17900,7 @@ const ESSAY_DATA = [
                     "en": "daily interaction with grandchildren",
                     "vi": "tương tác hằng ngày với con cháu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Daily interaction with children and grandchildren brings joy and emotional companionship to grandparents.",
                     "example_vi": "Việc trò chuyện hằng ngày với con cháu mang lại niềm vui và sự đồng hành tinh thần cho ông bà."
                   },
@@ -17932,7 +17932,7 @@ const ESSAY_DATA = [
                     "en": "experience conflicts",
                     "vi": "trải qua mâu thuẫn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Different generations may experience conflicts.",
                     "example_vi": "Các thế hệ khác nhau có thể xảy ra mâu thuẫn."
                   },
@@ -17940,7 +17940,7 @@ const ESSAY_DATA = [
                     "en": "different generations",
                     "vi": "các thế hệ khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Different generations may experience conflicts.",
                     "example_vi": "Các thế hệ khác nhau có thể xảy ra mâu thuẫn."
                   },
@@ -17948,7 +17948,7 @@ const ESSAY_DATA = [
                     "en": "different opinions and lifestyles",
                     "vi": "những quan điểm và lối sống khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They often have different opinions and lifestyles.",
                     "example_vi": "Họ thường có những quan điểm và thói quen sống khác nhau."
                   },
@@ -17980,7 +17980,7 @@ const ESSAY_DATA = [
                     "en": "have less privacy",
                     "vi": "có ít sự riêng tư hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Family members may have less privacy.",
                     "example_vi": "Các thành viên có thể có ít không gian riêng hơn."
                   },
@@ -17988,7 +17988,7 @@ const ESSAY_DATA = [
                     "en": "many people",
                     "vi": "nhiều người",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many people live in the same house.",
                     "example_vi": "Nhiều người cùng sống trong một ngôi nhà."
                   },
@@ -17996,7 +17996,7 @@ const ESSAY_DATA = [
                     "en": "live in the same house",
                     "vi": "sống trong cùng một ngôi nhà",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many people live in the same house.",
                     "example_vi": "Nhiều người cùng sống trong một ngôi nhà."
                   },
@@ -18036,7 +18036,7 @@ const ESSAY_DATA = [
                     "en": "living expenses",
                     "vi": "chi phí sinh hoạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living expenses may increase in extended families.",
                     "example_vi": "Chi phí sinh hoạt của gia đình có thể cao hơn."
                   },
@@ -18044,7 +18044,7 @@ const ESSAY_DATA = [
                     "en": "increase",
                     "vi": "tăng lên",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living expenses may increase in extended families.",
                     "example_vi": "Chi phí sinh hoạt của gia đình có thể cao hơn."
                   },
@@ -18052,7 +18052,7 @@ const ESSAY_DATA = [
                     "en": "large families",
                     "vi": "gia đình đông người",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Large families need more money for food and monthly bills.",
                     "example_vi": "Gia đình đông người cần nhiều tiền hơn cho thực phẩm và các hóa đơn hằng tháng."
                   },
@@ -18084,7 +18084,7 @@ const ESSAY_DATA = [
                     "en": "disagreements over parenting styles",
                     "vi": "bất đồng về phương pháp nuôi dạy con",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Differences in parenting styles between grandparents and parents can easily cause disagreements.",
                     "example_vi": "Sự khác biệt trong cách nuôi dạy con cái giữa ông bà và cha mẹ dễ gây bất đồng."
                   },
@@ -18092,7 +18092,7 @@ const ESSAY_DATA = [
                     "en": "traditional vs modern upbringing",
                     "vi": "cách nuôi dạy truyền thống và hiện đại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Young parents often apply modern scientific parenting methods, whereas grandparents tend to spoil grandchildren based on traditional habits.",
                     "example_vi": "Cha mẹ trẻ thường áp dụng phương pháp giáo dục khoa học hiện đại, trong khi ông bà có xu hướng nuông chiều cháu theo kinh nghiệm truyền thống."
                   },
@@ -18100,7 +18100,7 @@ const ESSAY_DATA = [
                     "en": "spoil grandchildren",
                     "vi": "nuông chiều cháu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Young parents often apply modern scientific parenting methods, whereas grandparents tend to spoil grandchildren based on traditional habits.",
                     "example_vi": "Cha mẹ trẻ thường áp dụng phương pháp giáo dục khoa học hiện đại, trong khi ông bà có xu hướng nuông chiều cháu theo kinh nghiệm truyền thống."
                   },
@@ -18132,7 +18132,7 @@ const ESSAY_DATA = [
                     "en": "limit personal independence",
                     "vi": "hạn chế sự tự lập cá nhân",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Young adults may experience limited personal independence and decision-making freedom.",
                     "example_vi": "Người trẻ có thể bị hạn chế sự tự lập và quyền tự quyết cá nhân."
                   },
@@ -18140,7 +18140,7 @@ const ESSAY_DATA = [
                     "en": "rely heavily on family support",
                     "vi": "ỷ lại quá nhiều vào sự hỗ trợ của gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When living together, young adults often have to consult older relatives before making major life decisions or rely too heavily on family support.",
                     "example_vi": "Khi sống chung, các thành viên trẻ thường phải hỏi ý kiến người lớn tuổi trước khi đưa ra các quyết định quan trọng hoặc dễ ỷ lại vào sự giúp đỡ của ông bà."
                   },
@@ -18148,7 +18148,7 @@ const ESSAY_DATA = [
                     "en": "consult elders before making decisions",
                     "vi": "hỏi ý kiến người lớn trước khi quyết định",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When living together, young adults often have to consult older relatives before making major life decisions or rely too heavily on family support.",
                     "example_vi": "Khi sống chung, các thành viên trẻ thường phải hỏi ý kiến người lớn tuổi trước khi đưa ra các quyết định quan trọng hoặc dễ ỷ lại vào sự giúp đỡ của ông bà."
                   },
@@ -18180,7 +18180,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, living in an extended family has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, sống trong gia đình nhiều thế hệ ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -18188,7 +18188,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of living in an extended family.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của sống trong gia đình nhiều thế hệ."
                   },
@@ -18196,7 +18196,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -18204,7 +18204,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -19836,7 +19836,7 @@ const ESSAY_DATA = [
                 "word": "sacred",
                 "ipa": "/ˈseɪkrɪd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "linh thiêng, thiêng liêng",
                 "example_en": "Visitors are asked to dress modestly when entering sacred places.",
                 "example_vi": "Du khách được yêu cầu ăn mặc kín đáo khi bước vào những nơi linh thiêng.",
@@ -19846,7 +19846,7 @@ const ESSAY_DATA = [
                 "word": "heritage",
                 "ipa": "/ˈherɪtɪdʒ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "di sản",
                 "example_en": "Religious tourism plays a key role in preserving national cultural heritage.",
                 "example_vi": "Du lịch tâm linh đóng vai trò quan trọng trong việc bảo tồn di sản văn hóa quốc gia.",
@@ -19866,7 +19866,7 @@ const ESSAY_DATA = [
                 "word": "tranquility",
                 "ipa": "/træŋˈkwɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự yên bình, thanh tịnh",
                 "example_en": "Many urban residents visit monasteries in search of inner peace and tranquility.",
                 "example_vi": "Nhiều cư dân đô thị tìm đến các tu viện để tìm kiếm sự bình yên và thanh tịnh trong tâm hồn.",
@@ -19876,7 +19876,7 @@ const ESSAY_DATA = [
                 "word": "congestion",
                 "ipa": "/kənˈdʒestʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự ùn tắc, quá tải",
                 "example_en": "Large crowds during festival seasons often cause severe traffic congestion.",
                 "example_vi": "Đám đông lớn vào mùa lễ hội thường gây ra tình trạng ùn tắc giao thông nghiêm trọng.",
@@ -19886,7 +19886,7 @@ const ESSAY_DATA = [
                 "word": "solemnity",
                 "ipa": "/səˈlemnəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trang nghiêm",
                 "example_en": "Noisy tourists may disrupt the solemnity of traditional religious rituals.",
                 "example_vi": "Những du khách ồn ào có thể làm ảnh hưởng đến sự trang nghiêm của các nghi lễ tôn giáo truyền thống.",
@@ -19896,7 +19896,7 @@ const ESSAY_DATA = [
                 "word": "restoration",
                 "ipa": "/ˌrestəˈreɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trùng tu, phục hồi",
                 "example_en": "Ticket revenue is used to fund the restoration of ancient architecture.",
                 "example_vi": "Doanh thu bán vé được sử dụng để tài trợ cho việc trùng tu các kiến trúc cổ.",
@@ -19906,7 +19906,7 @@ const ESSAY_DATA = [
                 "word": "spiritual",
                 "ipa": "/ˈspɪrɪtʃuəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về tinh thần, tâm linh",
                 "example_en": "Spiritual journeys help individuals relieve stress and reconnect with themselves.",
                 "example_vi": "Những chuyến đi tâm linh giúp mỗi cá nhân giải tỏa căng thẳng và kết nối lại với chính mình.",
@@ -19936,7 +19936,7 @@ const ESSAY_DATA = [
                 "word": "preservation",
                 "ipa": "/ˌprez.əˈveɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự bảo tồn, gìn giữ di sản",
                 "family": "preserve (v), preservative (n/adj)",
                 "example_en": "Revenue from entrance tickets contributes directly to the preservation of historic pagodas.",
@@ -19986,7 +19986,7 @@ const ESSAY_DATA = [
                 "word": "serenity",
                 "ipa": "/səˈren.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thanh tịnh, tĩnh lặng trong tâm hồn",
                 "family": "serene (adj), serenely (adv)",
                 "example_en": "Mass tourism and loud loudspeakers destroy the natural serenity of monastic retreats.",
@@ -20016,7 +20016,7 @@ const ESSAY_DATA = [
                 "word": "Littering",
                 "ipa": "/ˈlɪt.ər.ɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hành vi xả rác bừa bãi",
                 "family": "litter (n/v)",
                 "example_en": "Widespread littering during peak festival seasons places a heavy burden on local sanitation crews.",
@@ -20034,7 +20034,7 @@ const ESSAY_DATA = [
                     "en": "preserve",
                     "vi": "bảo tồn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism helps preserve cultural and religious heritage.",
                     "example_vi": "Du lịch tâm linh góp phần bảo tồn các giá trị văn hóa và tôn giáo."
                   },
@@ -20042,7 +20042,7 @@ const ESSAY_DATA = [
                     "en": "cultural and religious heritage",
                     "vi": "di sản văn hóa và tôn giáo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism helps preserve cultural and religious heritage.",
                     "example_vi": "Du lịch tâm linh góp phần bảo tồn các giá trị văn hóa và tôn giáo."
                   },
@@ -20074,7 +20074,7 @@ const ESSAY_DATA = [
                     "en": "local economic development",
                     "vi": "phát triển kinh tế địa phương",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism supports local economic development.",
                     "example_vi": "Du lịch tâm linh góp phần thúc đẩy sự phát triển kinh tế địa phương."
                   },
@@ -20082,7 +20082,7 @@ const ESSAY_DATA = [
                     "en": "accommodation",
                     "vi": "chỗ ở",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourists spend money on accommodation, food, and local services.",
                     "example_vi": "Khách du lịch chi tiêu cho chỗ ở, ăn uống và các dịch vụ địa phương."
                   },
@@ -20090,7 +20090,7 @@ const ESSAY_DATA = [
                     "en": "local income",
                     "vi": "thu nhập địa phương",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This creates more jobs and increases local income.",
                     "example_vi": "Điều này tạo thêm việc làm và tăng thu nhập cho người dân địa phương."
                   },
@@ -20122,7 +20122,7 @@ const ESSAY_DATA = [
                     "en": "mental well-being",
                     "vi": "sức khỏe tinh thần",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism improves people's mental well-being.",
                     "example_vi": "Du lịch tâm linh giúp cải thiện sức khỏe tinh thần."
                   },
@@ -20130,7 +20130,7 @@ const ESSAY_DATA = [
                     "en": "inner peace",
                     "vi": "sự bình yên trong tâm hồn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many people visit religious sites to pray and find inner peace.",
                     "example_vi": "Nhiều người đến các địa điểm tôn giáo để cầu nguyện và tìm sự bình yên."
                   },
@@ -20138,7 +20138,7 @@ const ESSAY_DATA = [
                     "en": "reduce stress",
                     "vi": "giảm căng thẳng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps them reduce stress and feel more relaxed.",
                     "example_vi": "Điều này giúp họ giảm căng thẳng và cảm thấy thư giãn hơn."
                   },
@@ -20170,7 +20170,7 @@ const ESSAY_DATA = [
                     "en": "foster cultural exchange and tolerance",
                     "vi": "thúc đẩy giao lưu văn hóa và sự bao dung",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism fosters cultural exchange and mutual respect among communities.",
                     "example_vi": "Du lịch tâm linh giúp thúc đẩy giao lưu văn hóa và sự tôn trọng giữa các cộng đồng."
                   },
@@ -20178,7 +20178,7 @@ const ESSAY_DATA = [
                     "en": "understand diverse spiritual beliefs",
                     "vi": "hiểu biết về các tín ngưỡng đa dạng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When visiting temples, churches, or sacred sites, visitors gain a deeper understanding of different regional customs and spiritual beliefs.",
                     "example_vi": "Khi tham quan các đền chùa, nhà thờ hay thánh địa, du khách hiểu rõ hơn về tín ngưỡng và phong tục của các vùng miền khác nhau."
                   },
@@ -20186,7 +20186,7 @@ const ESSAY_DATA = [
                     "en": "promote mutual respect",
                     "vi": "thúc đẩy sự tôn trọng lẫn nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism fosters cultural exchange and mutual respect among communities.",
                     "example_vi": "Du lịch tâm linh giúp thúc đẩy giao lưu văn hóa và sự tôn trọng giữa các cộng đồng."
                   },
@@ -20218,7 +20218,7 @@ const ESSAY_DATA = [
                     "en": "fund the restoration of historical monuments",
                     "vi": "tài trợ cho việc trùng tu các di tích lịch sử",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Revenue from religious tourism provides vital funding for the restoration of ancient monuments.",
                     "example_vi": "Nguồn thu từ du lịch tâm linh đóng góp kinh phí lớn để trùng tu các di tích cổ."
                   },
@@ -20226,7 +20226,7 @@ const ESSAY_DATA = [
                     "en": "entrance fees and donations",
                     "vi": "phí tham quan và tiền công đức/quyên góp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Entrance fees and voluntary donations from visitors provide management boards with funds to repair deteriorating religious architecture.",
                     "example_vi": "Tiền vé tham quan và sự đóng góp của du khách giúp ban quản lý có ngân sách tu bổ các công trình kiến trúc tôn giáo xuống cấp."
                   },
@@ -20234,7 +20234,7 @@ const ESSAY_DATA = [
                     "en": "maintain ancient architecture",
                     "vi": "duy trì kiến trúc cổ kính",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Revenue from religious tourism provides vital funding for the restoration of ancient monuments.",
                     "example_vi": "Nguồn thu từ du lịch tâm linh đóng góp kinh phí lớn để trùng tu các di tích cổ."
                   },
@@ -20266,7 +20266,7 @@ const ESSAY_DATA = [
                     "en": "overcrowded",
                     "vi": "quá đông",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious sites may become overcrowded.",
                     "example_vi": "Các địa điểm tôn giáo có thể trở nên quá đông."
                   },
@@ -20274,7 +20274,7 @@ const ESSAY_DATA = [
                     "en": "congestion",
                     "vi": "ùn tắc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Large numbers of tourists may cause congestion and noise.",
                     "example_vi": "Lượng lớn khách du lịch có thể gây ùn tắc và tiếng ồn."
                   },
@@ -20306,7 +20306,7 @@ const ESSAY_DATA = [
                     "en": "damage the environment",
                     "vi": "gây hại cho môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Religious tourism may damage the environment.",
                     "example_vi": "Du lịch tâm linh có thể gây tác động tiêu cực đến môi trường."
                   },
@@ -20314,7 +20314,7 @@ const ESSAY_DATA = [
                     "en": "natural surroundings",
                     "vi": "cảnh quan tự nhiên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some tourists leave litter or damage the natural surroundings.",
                     "example_vi": "Một số du khách xả rác hoặc làm hư hại cảnh quan tự nhiên."
                   },
@@ -20346,7 +20346,7 @@ const ESSAY_DATA = [
                     "en": "commercialization",
                     "vi": "sự thương mại hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commercialization may reduce the religious value of these sites.",
                     "example_vi": "Hoạt động thương mại hóa có thể làm giảm giá trị của các địa điểm tôn giáo."
                   },
@@ -20354,7 +20354,7 @@ const ESSAY_DATA = [
                     "en": "religious value",
                     "vi": "giá trị tôn giáo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commercialization may reduce the religious value of these sites.",
                     "example_vi": "Hoạt động thương mại hóa có thể làm giảm giá trị của các địa điểm tôn giáo."
                   },
@@ -20362,7 +20362,7 @@ const ESSAY_DATA = [
                     "en": "sacred atmosphere",
                     "vi": "bầu không khí linh thiêng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Too many shops and commercial services may reduce the sacred atmosphere.",
                     "example_vi": "Quá nhiều cửa hàng và dịch vụ có thể làm mất đi bầu không khí trang nghiêm."
                   },
@@ -20402,7 +20402,7 @@ const ESSAY_DATA = [
                     "en": "inappropriate tourist behaviour",
                     "vi": "hành vi thiếu chuẩn mực của du khách",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Inappropriate behaviour from some tourists can disturb the solemnity of worship places.",
                     "example_vi": "Hành vi thiếu ý thức của một số du khách có thể làm mất đi sự tôn nghiêm nơi thờ tự."
                   },
@@ -20410,7 +20410,7 @@ const ESSAY_DATA = [
                     "en": "disrespect local dress codes",
                     "vi": "không tôn trọng quy định trang phục địa phương",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some visitors wear inappropriate clothing, speak loudly, or take photos disrespectfully during ongoing religious ceremonies.",
                     "example_vi": "Một số khách du lịch mặc trang phục không phù hợp, nói cười lớn tiếng hoặc chụp ảnh thiếu tôn trọng trong lúc đang diễn ra nghi lễ."
                   },
@@ -20418,7 +20418,7 @@ const ESSAY_DATA = [
                     "en": "disturb religious ceremonies",
                     "vi": "làm phiền các nghi lễ tôn giáo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some visitors wear inappropriate clothing, speak loudly, or take photos disrespectfully during ongoing religious ceremonies.",
                     "example_vi": "Một số khách du lịch mặc trang phục không phù hợp, nói cười lớn tiếng hoặc chụp ảnh thiếu tôn trọng trong lúc đang diễn ra nghi lễ."
                   },
@@ -20450,7 +20450,7 @@ const ESSAY_DATA = [
                     "en": "accelerate wear and tear on ancient structures",
                     "vi": "làm đẩy nhanh sự xuống cấp của các công trình cổ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Massive tourist numbers can accelerate physical wear and tear on fragile ancient structures.",
                     "example_vi": "Lượng khách quá lớn có thể làm hư hại nhanh chóng các kiến trúc cổ nhạy cảm."
                   },
@@ -20458,7 +20458,7 @@ const ESSAY_DATA = [
                     "en": "massive foot traffic",
                     "vi": "lượng người qua lại khổng lồ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Massive tourist numbers can accelerate physical wear and tear on fragile ancient structures.",
                     "example_vi": "Lượng khách quá lớn có thể làm hư hại nhanh chóng các kiến trúc cổ nhạy cảm."
                   },
@@ -20466,7 +20466,7 @@ const ESSAY_DATA = [
                     "en": "fragile historical relics",
                     "vi": "các di vật lịch sử dễ hư tổn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Thousands of visitors walking on ancient floors, touching statues, or burning excessive incense in enclosed spaces can cause irreversible damage to centuries-old historical relics.",
                     "example_vi": "Việc hàng vạn người dẫm đạp, chạm tay vào tượng cổ hoặc đốt quá nhiều hương khói trong không gian hẹp có thể gây hư hại không thể phục hồi cho các di tích lịch sử hàng trăm năm tuổi."
                   },
@@ -20498,7 +20498,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, religious tourism has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, du lịch tâm linh ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -20506,7 +20506,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of religious tourism.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của du lịch tâm linh."
                   },
@@ -20514,7 +20514,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -20522,7 +20522,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -22090,7 +22090,7 @@ const ESSAY_DATA = [
                 "word": "congestion",
                 "ipa": "/kənˈdʒestʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự ùn tắc giao thông",
                 "example_en": "Building skytrains is an effective solution to severe traffic congestion in megacities.",
                 "example_vi": "Xây dựng tàu điện trên cao là một giải pháp hiệu quả cho tình trạng ùn tắc giao thông nghiêm trọng ở các siêu đô thị.",
@@ -22110,7 +22110,7 @@ const ESSAY_DATA = [
                 "word": "commuter",
                 "ipa": "/kəˈmjuːtə(r)/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "người đi làm/đi học hằng ngày",
                 "example_en": "Thousands of daily commuters save time by taking the elevated train during rush hours.",
                 "example_vi": "Hàng ngàn người đi làm hằng ngày tiết kiệm được thời gian nhờ đi tàu điện trên cao vào giờ cao điểm.",
@@ -22130,7 +22130,7 @@ const ESSAY_DATA = [
                 "word": "emission",
                 "ipa": "/ɪˈmɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khí thải",
                 "example_en": "Switching from private cars to electric trains significantly reduces carbon emissions.",
                 "example_vi": "Chuyển từ ô tô cá nhân sang tàu điện giúp giảm đáng kể lượng khí thải carbon.",
@@ -22140,7 +22140,7 @@ const ESSAY_DATA = [
                 "word": "disruption",
                 "ipa": "/dɪsˈrʌpʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự gián đoạn, xáo trộn",
                 "example_en": "Prolonged construction work can cause major disruption to local businesses and residents.",
                 "example_vi": "Việc thi công kéo dài có thể gây ra sự xáo trộn lớn cho các hộ kinh doanh và cư dân địa phương.",
@@ -22150,7 +22150,7 @@ const ESSAY_DATA = [
                 "word": "accessibility",
                 "ipa": "/əkˌsesəˈbɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng tiếp cận",
                 "example_en": "Limited station accessibility prevents people in remote suburbs from using the skytrain.",
                 "example_vi": "Khả năng tiếp cận nhà ga hạn chế khiến người dân ở các vùng ngoại ô xa xôi khó sử dụng tàu điện trên cao.",
@@ -22160,7 +22160,7 @@ const ESSAY_DATA = [
                 "word": "expenditure",
                 "ipa": "/ɪkˈspendɪtʃə(r)/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chi tiêu, kinh phí",
                 "example_en": "Huge capital expenditure on metro lines may reduce budgets for healthcare and education.",
                 "example_vi": "Kinh phí đầu tư lớn cho các tuyến metro có thể làm giảm ngân sách dành cho y tế và giáo dục.",
@@ -22170,7 +22170,7 @@ const ESSAY_DATA = [
                 "word": "sustainable",
                 "ipa": "/səˈsteɪnəbl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bền vững",
                 "example_en": "Electric transit networks play a vital role in sustainable urban development.",
                 "example_vi": "Mạng lưới giao thông điện đóng vai trò thiết yếu trong sự phát triển đô thị bền vững.",
@@ -22180,7 +22180,7 @@ const ESSAY_DATA = [
                 "word": "viaduct",
                 "ipa": "/ˈvaɪədʌkt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "cầu cạn",
                 "example_en": "Concrete viaducts stretching across the city may alter the traditional urban landscape.",
                 "example_vi": "Những cây cầu cạn bê tông trải dài khắp thành phố có thể làm thay đổi cảnh quan đô thị truyền thống.",
@@ -22190,7 +22190,7 @@ const ESSAY_DATA = [
                 "word": "punctuality",
                 "ipa": "/ˌpʌŋk.tʃuˈæl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đúng giờ tuyệt đối",
                 "family": "punctual (adj), punctually (adv)",
                 "example_en": "Operating on dedicated elevated tracks ensures high punctuality for skytrain services.",
@@ -22260,7 +22260,7 @@ const ESSAY_DATA = [
                 "word": "overrun",
                 "ipa": "/ˌəʊ.vəˈrʌn/",
                 "pos": "noun/verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đội vốn, kéo dài tiến độ dự án",
                 "family": "cost overrun (n.phr)",
                 "example_en": "Large infrastructure projects in developing cities frequently suffer from budget overruns.",
@@ -22298,7 +22298,7 @@ const ESSAY_DATA = [
                     "en": "rush hours",
                     "vi": "giờ cao điểm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This makes roads less crowded, especially during rush hours.",
                     "example_vi": "Điều này giúp các tuyến đường bớt đông đúc hơn, đặc biệt vào giờ cao điểm."
                   },
@@ -22306,7 +22306,7 @@ const ESSAY_DATA = [
                     "en": "switch from",
                     "vi": "chuyển từ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "More people will switch from private vehicles to public transport.",
                     "example_vi": "Nhiều người sẽ chuyển từ phương tiện cá nhân sang giao thông công cộng."
                   },
@@ -22330,7 +22330,7 @@ const ESSAY_DATA = [
                     "en": "passengers",
                     "vi": "hành khách",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "As a result, passengers can save time when travelling around the city.",
                     "example_vi": "Nhờ đó, hành khách có thể tiết kiệm thời gian khi di chuyển trong thành phố."
                   },
@@ -22354,7 +22354,7 @@ const ESSAY_DATA = [
                     "en": "emissions",
                     "vi": "khí thải",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Reducing the number of private vehicles helps reduce emissions.",
                     "example_vi": "Việc giảm số lượng phương tiện cá nhân giúp giảm lượng khí thải."
                   },
@@ -22362,7 +22362,7 @@ const ESSAY_DATA = [
                     "en": "air quality",
                     "vi": "chất lượng không khí",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This contributes to improving air quality in urban areas.",
                     "example_vi": "Điều này góp phần cải thiện chất lượng không khí ở các thành phố lớn."
                   },
@@ -22370,7 +22370,7 @@ const ESSAY_DATA = [
                     "en": "urban areas",
                     "vi": "khu vực đô thị",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This contributes to improving air quality in urban areas.",
                     "example_vi": "Điều này góp phần cải thiện chất lượng không khí ở các thành phố lớn."
                   },
@@ -22402,7 +22402,7 @@ const ESSAY_DATA = [
                     "en": "reduce traffic accidents",
                     "vi": "giảm thiểu tai nạn giao thông",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Skytrains help significantly reduce road traffic accidents.",
                     "example_vi": "Tàu điện trên cao giúp giảm thiểu tai nạn giao thông đường bộ."
                   },
@@ -22410,7 +22410,7 @@ const ESSAY_DATA = [
                     "en": "dedicated elevated tracks",
                     "vi": "đường ray trên cao chuyên biệt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because they run on dedicated elevated tracks operated by modern automated systems, skytrains avoid collisions with cars and motorbikes on the ground.",
                     "example_vi": "Do di chuyển trên đường ray riêng biệt trên cao và được vận hành bằng hệ thống tự động hiện đại, tàu điện tránh được các va chạm với xe máy, ô tô dưới mặt đất."
                   },
@@ -22418,7 +22418,7 @@ const ESSAY_DATA = [
                     "en": "automated safety systems",
                     "vi": "hệ thống an toàn tự động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because they run on dedicated elevated tracks operated by modern automated systems, skytrains avoid collisions with cars and motorbikes on the ground.",
                     "example_vi": "Do di chuyển trên đường ray riêng biệt trên cao và được vận hành bằng hệ thống tự động hiện đại, tàu điện tránh được các va chạm với xe máy, ô tô dưới mặt đất."
                   },
@@ -22450,7 +22450,7 @@ const ESSAY_DATA = [
                     "en": "stimulate urban economic growth",
                     "vi": "kích thích tăng trưởng kinh tế đô thị",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Skytrain systems stimulate economic and urban development along transit corridors.",
                     "example_vi": "Hệ thống tàu điện trên cao thúc đẩy phát triển kinh tế và đô thị dọc các tuyến đường."
                   },
@@ -22458,7 +22458,7 @@ const ESSAY_DATA = [
                     "en": "attract commercial investment",
                     "vi": "thu hút đầu tư thương mại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Areas surrounding train stations often attract new shopping centers, offices, and residential developments.",
                     "example_vi": "Các khu vực xung quanh nhà ga thường thu hút nhiều trung tâm thương mại, văn phòng và khu dân cư mới."
                   },
@@ -22466,7 +22466,7 @@ const ESSAY_DATA = [
                     "en": "boost property values around stations",
                     "vi": "tăng giá trị bất động sản quanh nhà ga",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Areas surrounding train stations often attract new shopping centers, offices, and residential developments.",
                     "example_vi": "Các khu vực xung quanh nhà ga thường thu hút nhiều trung tâm thương mại, văn phòng và khu dân cư mới."
                   },
@@ -22498,7 +22498,7 @@ const ESSAY_DATA = [
                     "en": "infrastructure",
                     "vi": "cơ sở hạ tầng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The government must spend a large amount of money on railway lines, stations, and related infrastructure.",
                     "example_vi": "Chính phủ phải chi rất nhiều tiền để xây dựng đường ray, nhà ga và các cơ sở hạ tầng liên quan."
                   },
@@ -22506,7 +22506,7 @@ const ESSAY_DATA = [
                     "en": "public services",
                     "vi": "dịch vụ công",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may reduce the budget available for other public services.",
                     "example_vi": "Điều này có thể làm giảm ngân sách dành cho các dịch vụ công khác."
                   },
@@ -22530,7 +22530,7 @@ const ESSAY_DATA = [
                     "en": "disrupt daily life",
                     "vi": "làm gián đoạn cuộc sống hằng ngày",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Building skytrains may disrupt daily life.",
                     "example_vi": "Việc xây dựng tàu điện trên cao có thể làm gián đoạn cuộc sống hằng ngày."
                   },
@@ -22554,7 +22554,7 @@ const ESSAY_DATA = [
                     "en": "benefit",
                     "vi": "mang lại lợi ích",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Skytrains may not benefit everyone.",
                     "example_vi": "Không phải mọi người đều có thể hưởng lợi từ tàu điện trên cao."
                   },
@@ -22562,7 +22562,7 @@ const ESSAY_DATA = [
                     "en": "access",
                     "vi": "tiếp cận",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some areas do not have train stations, making the system difficult to access.",
                     "example_vi": "Một số khu vực không có nhà ga nên người dân khó tiếp cận hệ thống này."
                   },
@@ -22586,7 +22586,7 @@ const ESSAY_DATA = [
                     "en": "affect urban aesthetics",
                     "vi": "ảnh hưởng đến mỹ quan đô thị",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Massive elevated concrete structures may negatively affect urban aesthetics and green spaces.",
                     "example_vi": "Các trụ bê tông lớn trên cao có thể làm ảnh hưởng đến cảnh quan và cây xanh đô thị."
                   },
@@ -22594,7 +22594,7 @@ const ESSAY_DATA = [
                     "en": "massive concrete pillars and viaducts",
                     "vi": "những trụ bê tông và cầu cạn khổng lồ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To construct elevated viaducts, cities sometimes have to cut down mature street trees and erect massive concrete pillars.",
                     "example_vi": "Để xây dựng cầu cạn trên cao, thành phố đôi khi phải chặt bỏ nhiều hàng cây cổ thụ và dựng lên các khối bê tông đồ sộ."
                   },
@@ -22602,7 +22602,7 @@ const ESSAY_DATA = [
                     "en": "block natural sunlight and views",
                     "vi": "che khuất ánh sáng tự nhiên và tầm nhìn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can block natural views and diminish the traditional architectural beauty of the city.",
                     "example_vi": "Điều này có thể che khuất tầm nhìn và làm giảm vẻ đẹp kiến trúc truyền thống."
                   },
@@ -22634,7 +22634,7 @@ const ESSAY_DATA = [
                     "en": "high operation and maintenance costs",
                     "vi": "chi phí vận hành và bảo trì cao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Annual operation, maintenance, and ticket subsidy costs are extremely high.",
                     "example_vi": "Chi phí vận hành, bảo dưỡng và trợ giá vé hằng năm rất tốn kém."
                   },
@@ -22642,7 +22642,7 @@ const ESSAY_DATA = [
                     "en": "require specialized technical experts",
                     "vi": "đòi hỏi chuyên gia kỹ thuật chuyên sâu",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Even after construction is completed, municipal governments must spend large sums on maintaining high-tech equipment and subsidizing ticket prices for citizens.",
                     "example_vi": "Sau khi đi vào hoạt động, chính quyền thành phố vẫn phải chi nguồn ngân sách lớn để bảo trì thiết bị công nghệ cao và trợ giá vé cho người dân."
                   },
@@ -22650,7 +22650,7 @@ const ESSAY_DATA = [
                     "en": "subsidize ticket prices",
                     "vi": "trợ giá vé",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Even after construction is completed, municipal governments must spend large sums on maintaining high-tech equipment and subsidizing ticket prices for citizens.",
                     "example_vi": "Sau khi đi vào hoạt động, chính quyền thành phố vẫn phải chi nguồn ngân sách lớn để bảo trì thiết bị công nghệ cao và trợ giá vé cho người dân."
                   },
@@ -22682,7 +22682,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, building skytrains in big cities has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, xây dựng tàu điện trên cao ở thành phố lớn ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -22690,7 +22690,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of building skytrains in big cities.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của xây dựng tàu điện trên cao ở thành phố lớn."
                   },
@@ -22698,7 +22698,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -22706,7 +22706,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -24332,7 +24332,7 @@ const ESSAY_DATA = [
                 "word": "instantaneous",
                 "ipa": "/ˌɪnstənˈteɪniəs/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tức thời, ngay lập tức",
                 "example_en": "Modern apps provide instantaneous translation of spoken conversations.",
                 "example_vi": "Các ứng dụng hiện đại cung cấp bản dịch tức thời cho các cuộc hội thoại bằng giọng nói.",
@@ -24342,7 +24342,7 @@ const ESSAY_DATA = [
                 "word": "accessible",
                 "ipa": "/əkˈsesəbl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "dễ tiếp cận",
                 "example_en": "Machine translation makes foreign scientific research accessible to everyone.",
                 "example_vi": "Dịch máy giúp các nghiên cứu khoa học nước ngoài trở nên dễ tiếp cận với tất cả mọi người.",
@@ -24362,7 +24362,7 @@ const ESSAY_DATA = [
                 "word": "context",
                 "ipa": "/ˈkɒntekst/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ngữ cảnh, văn cảnh",
                 "example_en": "Automated software often fails to grasp the cultural context of an expression.",
                 "example_vi": "Phần mềm tự động thường không nắm bắt được ngữ cảnh văn hóa của một cách diễn đạt.",
@@ -24372,7 +24372,7 @@ const ESSAY_DATA = [
                 "word": "idiom",
                 "ipa": "/ˈɪdiəm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thành ngữ",
                 "example_en": "Translating idioms word for word usually results in awkward and confusing sentences.",
                 "example_vi": "Dịch thành ngữ từng chữ một thường tạo ra những câu văn ngượng nghịu và khó hiểu.",
@@ -24382,7 +24382,7 @@ const ESSAY_DATA = [
                 "word": "nuance",
                 "ipa": "/ˈnjuːɑːns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sắc thái tinh tế",
                 "example_en": "Human translators are much better at capturing emotional nuances in literature.",
                 "example_vi": "Biên dịch viên con người giỏi hơn nhiều trong việc nắm bắt các sắc thái cảm xúc trong văn học.",
@@ -24402,7 +24402,7 @@ const ESSAY_DATA = [
                 "word": "confidential",
                 "ipa": "/ˌkɒnfɪˈdenʃl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bảo mật, tuyệt mật",
                 "example_en": "Employees should avoid uploading confidential company files to free translation websites.",
                 "example_vi": "Nhân viên nên tránh tải các tệp tài liệu mật của công ty lên các trang web dịch thuật miễn phí.",
@@ -24422,7 +24422,7 @@ const ESSAY_DATA = [
                 "word": "misinterpretation",
                 "ipa": "/ˌmɪsɪnˌtɜːprəˈteɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự hiểu sai, dịch sai ý",
                 "example_en": "Grammatical errors made by machines can cause misinterpretation in business emails.",
                 "example_vi": "Các lỗi ngữ pháp do máy móc tạo ra có thể gây hiểu sai ý trong các email công việc.",
@@ -24442,7 +24442,7 @@ const ESSAY_DATA = [
                 "word": "literal",
                 "ipa": "/ˈlɪt.ər.əl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "dịch sát từng chữ (nghĩa đen)",
                 "family": "literally (adv), literalness (n)",
                 "example_en": "Word-for-word literal translation often produces awkward and unnatural sentences.",
@@ -24472,7 +24472,7 @@ const ESSAY_DATA = [
                 "word": "breach",
                 "ipa": "/briːtʃ/",
                 "pos": "noun/verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự vi phạm, rò rỉ dữ liệu bảo mật",
                 "family": "data breach (n.phr)",
                 "example_en": "Pasting internal corporate contracts into free online translators risks a serious data breach.",
@@ -24522,7 +24522,7 @@ const ESSAY_DATA = [
                 "word": "terminology",
                 "ipa": "/ˌtɜː.mɪˈnɒl.ə.dʒi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuật ngữ chuyên ngành",
                 "family": "term (n/v), terminological (adj)",
                 "example_en": "Medical and engineering terminology requires careful verification by subject experts.",
@@ -24540,7 +24540,7 @@ const ESSAY_DATA = [
                     "en": "improve efficiency",
                     "vi": "nâng cao hiệu quả",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation saves time and improves efficiency.",
                     "example_vi": "Dịch máy giúp tiết kiệm thời gian và nâng cao hiệu quả làm việc."
                   },
@@ -24548,7 +24548,7 @@ const ESSAY_DATA = [
                     "en": "long texts",
                     "vi": "văn bản dài",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can translate words, sentences, and long texts within seconds.",
                     "example_vi": "Người dùng có thể dịch các từ, câu và văn bản dài chỉ trong vài giây."
                   },
@@ -24556,7 +24556,7 @@ const ESSAY_DATA = [
                     "en": "within seconds",
                     "vi": "chỉ trong vài giây",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can translate words, sentences, and long texts within seconds.",
                     "example_vi": "Người dùng có thể dịch các từ, câu và văn bản dài chỉ trong vài giây."
                   },
@@ -24596,7 +24596,7 @@ const ESSAY_DATA = [
                     "en": "accessible",
                     "vi": "dễ tiếp cận",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation makes information more accessible in different languages.",
                     "example_vi": "Dịch máy giúp mọi người tiếp cận thông tin bằng nhiều ngôn ngữ khác nhau."
                   },
@@ -24604,7 +24604,7 @@ const ESSAY_DATA = [
                     "en": "articles",
                     "vi": "bài báo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can read books, articles, and foreign documents more easily.",
                     "example_vi": "Người dùng có thể đọc sách, bài báo và tài liệu nước ngoài dễ dàng hơn."
                   },
@@ -24612,7 +24612,7 @@ const ESSAY_DATA = [
                     "en": "foreign documents",
                     "vi": "tài liệu nước ngoài",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Users can read books, articles, and foreign documents more easily.",
                     "example_vi": "Người dùng có thể đọc sách, bài báo và tài liệu nước ngoài dễ dàng hơn."
                   },
@@ -24652,7 +24652,7 @@ const ESSAY_DATA = [
                     "en": "useful tool",
                     "vi": "công cụ hữu ích",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation is a useful tool for language learning.",
                     "example_vi": "Dịch máy là công cụ hữu ích cho việc học ngoại ngữ."
                   },
@@ -24660,7 +24660,7 @@ const ESSAY_DATA = [
                     "en": "sentence structures",
                     "vi": "cấu trúc câu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learners can quickly check the meanings of words and sentence structures.",
                     "example_vi": "Người học có thể nhanh chóng kiểm tra nghĩa của từ và cấu trúc câu."
                   },
@@ -24668,7 +24668,7 @@ const ESSAY_DATA = [
                     "en": "vocabulary",
                     "vi": "từ vựng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps them learn vocabulary and improve their reading skills more effectively.",
                     "example_vi": "Điều này giúp họ học từ vựng và cải thiện kỹ năng đọc hiệu quả hơn."
                   },
@@ -24700,7 +24700,7 @@ const ESSAY_DATA = [
                     "en": "reduce translation costs",
                     "vi": "giảm chi phí dịch thuật",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation significantly reduces costs compared to hiring human translators.",
                     "example_vi": "Dịch máy giúp tiết kiệm đáng kể chi phí so với việc thuê biên dịch viên."
                   },
@@ -24708,7 +24708,7 @@ const ESSAY_DATA = [
                     "en": "free online translation tools",
                     "vi": "các công cụ dịch trực tuyến miễn phí",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Most modern translation applications are free or very affordable.",
                     "example_vi": "Hầu hết các ứng dụng dịch thuật hiện nay đều miễn phí hoặc có chi phí rất thấp."
                   },
@@ -24716,7 +24716,7 @@ const ESSAY_DATA = [
                     "en": "hire professional human translators",
                     "vi": "thuê biên dịch viên chuyên nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation significantly reduces costs compared to hiring human translators.",
                     "example_vi": "Dịch máy giúp tiết kiệm đáng kể chi phí so với việc thuê biên dịch viên."
                   },
@@ -24748,7 +24748,7 @@ const ESSAY_DATA = [
                     "en": "facilitate international travel and tourism",
                     "vi": "tạo thuận lợi cho du lịch và đi lại quốc tế",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consequently, language barriers during international travel are effectively overcome.",
                     "example_vi": "Nhờ đó, rào cản ngôn ngữ khi du lịch quốc tế được xóa bỏ."
                   },
@@ -24756,7 +24756,7 @@ const ESSAY_DATA = [
                     "en": "real-time voice and image translation",
                     "vi": "dịch giọng nói và hình ảnh theo thời gian thực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "With instant voice and camera translation features on smartphones, tourists can easily read street signs, menus, and ask locals for directions.",
                     "example_vi": "Với tính năng dịch giọng nói và hình ảnh tức thời trên điện thoại, du khách có thể dễ dàng đọc biển báo, thực đơn và hỏi đường người dân bản xứ."
                   },
@@ -24764,7 +24764,7 @@ const ESSAY_DATA = [
                     "en": "overcome language barriers",
                     "vi": "vượt qua rào cản ngôn ngữ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consequently, language barriers during international travel are effectively overcome.",
                     "example_vi": "Nhờ đó, rào cản ngôn ngữ khi du lịch quốc tế được xóa bỏ."
                   },
@@ -24796,7 +24796,7 @@ const ESSAY_DATA = [
                     "en": "accurate translations",
                     "vi": "bản dịch chính xác",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation does not always produce accurate translations.",
                     "example_vi": "Dịch máy không phải lúc nào cũng cho kết quả chính xác."
                   },
@@ -24804,7 +24804,7 @@ const ESSAY_DATA = [
                     "en": "grammar structures",
                     "vi": "cấu trúc ngữ pháp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "It may translate vocabulary or grammar structures incorrectly.",
                     "example_vi": "Hệ thống có thể dịch sai từ vựng hoặc cấu trúc ngữ pháp."
                   },
@@ -24812,7 +24812,7 @@ const ESSAY_DATA = [
                     "en": "misunderstandings",
                     "vi": "sự hiểu nhầm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may lead to misunderstandings in communication.",
                     "example_vi": "Điều này có thể gây hiểu nhầm trong quá trình giao tiếp."
                   },
@@ -24844,7 +24844,7 @@ const ESSAY_DATA = [
                     "en": "context",
                     "vi": "ngữ cảnh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation may not understand the context correctly.",
                     "example_vi": "Dịch máy có thể không hiểu đúng ngữ cảnh."
                   },
@@ -24852,7 +24852,7 @@ const ESSAY_DATA = [
                     "en": "idioms",
                     "vi": "thành ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some idioms or expressions may be translated incorrectly.",
                     "example_vi": "Một số thành ngữ hoặc cách diễn đạt có thể được dịch không chính xác."
                   },
@@ -24860,7 +24860,7 @@ const ESSAY_DATA = [
                     "en": "expressions",
                     "vi": "cách diễn đạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some idioms or expressions may be translated incorrectly.",
                     "example_vi": "Một số thành ngữ hoặc cách diễn đạt có thể được dịch không chính xác."
                   },
@@ -24900,7 +24900,7 @@ const ESSAY_DATA = [
                     "en": "rely on",
                     "vi": "phụ thuộc vào",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may practise their language skills less frequently.",
                     "example_vi": "Họ có thể ít luyện tập các kỹ năng ngoại ngữ của mình hơn."
                   },
@@ -24908,7 +24908,7 @@ const ESSAY_DATA = [
                     "en": "language skills",
                     "vi": "kỹ năng ngôn ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may practise their language skills less frequently.",
                     "example_vi": "Họ có thể ít luyện tập các kỹ năng ngoại ngữ của mình hơn."
                   },
@@ -24940,7 +24940,7 @@ const ESSAY_DATA = [
                     "en": "pose data privacy and security risks",
                     "vi": "tiềm ẩn rủi ro về bảo mật và quyền riêng tư dữ liệu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using free online translation tools may expose confidential information to security risks.",
                     "example_vi": "Sử dụng công cụ dịch trực tuyến miễn phí có thể làm lộ thông tin bảo mật."
                   },
@@ -24948,7 +24948,7 @@ const ESSAY_DATA = [
                     "en": "upload confidential documents",
                     "vi": "tải lên các tài liệu mật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using free online translation tools may expose confidential information to security risks.",
                     "example_vi": "Sử dụng công cụ dịch trực tuyến miễn phí có thể làm lộ thông tin bảo mật."
                   },
@@ -24956,7 +24956,7 @@ const ESSAY_DATA = [
                     "en": "third-party cloud servers",
                     "vi": "máy chủ đám mây của bên thứ ba",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When users paste business contracts, medical records, or personal data into public translation websites, the information may be stored on third-party servers, leading to potential data leaks.",
                     "example_vi": "Khi người dùng sao chép các hợp đồng kinh doanh, hồ sơ y tế hoặc dữ liệu cá nhân lên các trang web dịch máy công cộng, thông tin có thể bị lưu trữ trên máy chủ bên thứ ba và dẫn đến nguy cơ rò rỉ dữ liệu."
                   },
@@ -24988,7 +24988,7 @@ const ESSAY_DATA = [
                     "en": "lack emotional nuance and literary creativity",
                     "vi": "thiếu sắc thái cảm xúc và sự sáng tạo văn học",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation fails to capture emotional depth and cultural nuances in literary works.",
                     "example_vi": "Dịch máy không thể truyền tải trọn vẹn cảm xúc và chiều sâu văn hóa trong các tác phẩm văn học."
                   },
@@ -24996,7 +24996,7 @@ const ESSAY_DATA = [
                     "en": "word-for-word mechanical translation",
                     "vi": "dịch máy móc từng từ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation fails to capture emotional depth and cultural nuances in literary works.",
                     "example_vi": "Dịch máy không thể truyền tải trọn vẹn cảm xúc và chiều sâu văn hóa trong các tác phẩm văn học."
                   },
@@ -25004,7 +25004,7 @@ const ESSAY_DATA = [
                     "en": "fail to convey cultural subtleties",
                     "vi": "không truyền tải được sự tinh tế về văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Machine translation fails to capture emotional depth and cultural nuances in literary works.",
                     "example_vi": "Dịch máy không thể truyền tải trọn vẹn cảm xúc và chiều sâu văn hóa trong các tác phẩm văn học."
                   },
@@ -25036,7 +25036,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, machine translation has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, dịch máy ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -25044,7 +25044,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of machine translation.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của dịch máy."
                   },
@@ -25052,7 +25052,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -25060,7 +25060,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -26598,7 +26598,7 @@ const ESSAY_DATA = [
                 "word": "educational",
                 "ipa": "/ˌedʒuˈkeɪʃənl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mang tính giáo dục",
                 "example_en": "Educational documentaries help children explore nature, history, and science.",
                 "example_vi": "Các bộ phim tài liệu mang tính giáo dục giúp trẻ khám phá thiên nhiên, lịch sử và khoa học.",
@@ -26608,7 +26608,7 @@ const ESSAY_DATA = [
                 "word": "sedentary",
                 "ipa": "/ˈsedntri/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ít vận động, ngồi một chỗ",
                 "example_en": "Excessive television viewing encourages a sedentary lifestyle among young children.",
                 "example_vi": "Việc xem truyền hình quá mức khuyến khích lối sống ít vận động ở trẻ nhỏ.",
@@ -26618,7 +26618,7 @@ const ESSAY_DATA = [
                 "word": "supervision",
                 "ipa": "/ˌsuːpəˈvɪʒn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự giám sát, định hướng",
                 "example_en": "Children should watch television under parental supervision to avoid harmful content.",
                 "example_vi": "Trẻ em nên xem truyền hình dưới sự giám sát của cha mẹ để tránh các nội dung độc hại.",
@@ -26638,7 +26638,7 @@ const ESSAY_DATA = [
                 "word": "imitate",
                 "ipa": "/ˈɪmɪteɪt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bắt chước",
                 "example_en": "Young viewers tend to imitate the actions and language of characters on screen.",
                 "example_vi": "Khán giả nhỏ tuổi có xu hướng bắt chước hành động và ngôn ngữ của các nhân vật trên màn ảnh.",
@@ -26648,7 +26648,7 @@ const ESSAY_DATA = [
                 "word": "broaden",
                 "ipa": "/ˈbrɔːdn/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mở rộng (kiến thức, tầm nhìn)",
                 "example_en": "Science programmes can broaden children's horizons beyond school textbooks.",
                 "example_vi": "Các chương trình khoa học có thể mở rộng tầm hiểu biết của trẻ vượt ra ngoài sách giáo khoa ở trường.",
@@ -26668,7 +26668,7 @@ const ESSAY_DATA = [
                 "word": "obesity",
                 "ipa": "/əʊˈbiːsəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bệnh béo phì",
                 "example_en": "Lack of outdoor exercise combined with snacking while watching TV increases the risk of childhood obesity.",
                 "example_vi": "Thiếu vận động ngoài trời kết hợp với ăn vặt khi xem tivi làm tăng nguy cơ béo phì ở trẻ em.",
@@ -26678,7 +26678,7 @@ const ESSAY_DATA = [
                 "word": "passive",
                 "ipa": "/ˈpæsɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thụ động",
                 "example_en": "Watching too much television turns children into passive learners rather than active thinkers.",
                 "example_vi": "Xem tivi quá nhiều biến trẻ thành những người tiếp thu thụ động thay vì những người tư duy chủ động.",
@@ -26708,7 +26708,7 @@ const ESSAY_DATA = [
                 "word": "aggression",
                 "ipa": "/əˈɡreʃ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hành vi hung hăng, bạo lực",
                 "family": "aggressive (adj), aggressively (adv), aggressor (n)",
                 "example_en": "Frequent exposure to violent cartoons may trigger aggression in young viewers.",
@@ -26718,7 +26718,7 @@ const ESSAY_DATA = [
                 "word": "commercial",
                 "ipa": "/kəˈmɜː.ʃəl/",
                 "pos": "noun/adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quảng cáo truyền hình; mang tính thương mại",
                 "family": "commercialize (v), commerce (n)",
                 "example_en": "Television commercials often persuade children to demand unhealthy sugary snacks.",
@@ -26748,7 +26748,7 @@ const ESSAY_DATA = [
                 "word": "insomnia",
                 "ipa": "/ɪnˈsɒm.ni.ə/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chứng mất ngủ, rối loạn giấc ngủ",
                 "family": "insomniac (n/adj)",
                 "example_en": "Watching bright television screens right before bedtime can cause sleep disruption and insomnia.",
@@ -26806,7 +26806,7 @@ const ESSAY_DATA = [
                     "en": "educational programmes",
                     "vi": "chương trình giáo dục",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many educational programmes provide knowledge about science, history, and the natural world.",
                     "example_vi": "Nhiều chương trình giáo dục cung cấp kiến thức về khoa học, lịch sử và thế giới tự nhiên."
                   },
@@ -26814,7 +26814,7 @@ const ESSAY_DATA = [
                     "en": "the natural world",
                     "vi": "thế giới tự nhiên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many educational programmes provide knowledge about science, history, and the natural world.",
                     "example_vi": "Nhiều chương trình giáo dục cung cấp kiến thức về khoa học, lịch sử và thế giới tự nhiên."
                   },
@@ -26822,7 +26822,7 @@ const ESSAY_DATA = [
                     "en": "broaden knowledge",
                     "vi": "mở rộng kiến thức",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps children broaden their knowledge beyond the classroom.",
                     "example_vi": "Điều này giúp trẻ mở rộng kiến thức ngoài những gì được học ở trường."
                   },
@@ -26854,7 +26854,7 @@ const ESSAY_DATA = [
                     "en": "entertainment programmes",
                     "vi": "chương trình giải trí",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Entertainment programmes help reduce stress after a busy school day.",
                     "example_vi": "Các chương trình giải trí giúp giảm căng thẳng sau một ngày học."
                   },
@@ -26862,7 +26862,7 @@ const ESSAY_DATA = [
                     "en": "improve mood",
                     "vi": "cải thiện tâm trạng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can improve their mood and help them feel more relaxed.",
                     "example_vi": "Điều này có thể cải thiện tâm trạng và giúp các em cảm thấy thoải mái hơn."
                   },
@@ -26870,7 +26870,7 @@ const ESSAY_DATA = [
                     "en": "reduce stress",
                     "vi": "giảm căng thẳng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Entertainment programmes help reduce stress after a busy school day.",
                     "example_vi": "Các chương trình giải trí giúp giảm căng thẳng sau một ngày học."
                   },
@@ -26902,7 +26902,7 @@ const ESSAY_DATA = [
                     "en": "language skills",
                     "vi": "kỹ năng ngôn ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Watching television can improve children's language skills.",
                     "example_vi": "Xem truyền hình có thể giúp trẻ phát triển kỹ năng ngôn ngữ."
                   },
@@ -26910,7 +26910,7 @@ const ESSAY_DATA = [
                     "en": "expressions",
                     "vi": "cách diễn đạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can learn new vocabulary, pronunciation, and expressions.",
                     "example_vi": "Các em có thể học thêm từ vựng, cách phát âm và các cách diễn đạt mới."
                   },
@@ -26918,7 +26918,7 @@ const ESSAY_DATA = [
                     "en": "pronunciation",
                     "vi": "phát âm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can learn new vocabulary, pronunciation, and expressions.",
                     "example_vi": "Các em có thể học thêm từ vựng, cách phát âm và các cách diễn đạt mới."
                   },
@@ -26958,7 +26958,7 @@ const ESSAY_DATA = [
                     "en": "foster family bonding time",
                     "vi": "thúc đẩy thời gian gắn kết gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Watching television together can strengthen family bonds between parents and children.",
                     "example_vi": "Cùng xem truyền hình giúp gắn kết tình cảm giữa cha mẹ và con cái."
                   },
@@ -26966,7 +26966,7 @@ const ESSAY_DATA = [
                     "en": "watch family-friendly programmes together",
                     "vi": "cùng nhau xem các chương trình gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Watching television together can strengthen family bonds between parents and children.",
                     "example_vi": "Cùng xem truyền hình giúp gắn kết tình cảm giữa cha mẹ và con cái."
                   },
@@ -26974,7 +26974,7 @@ const ESSAY_DATA = [
                     "en": "discuss moral lessons",
                     "vi": "thảo luận về các bài học đạo đức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When the whole family watches an animated movie or a quiz show together in the evening, parents and children can chat, share laughter, and discuss meaningful moral lessons.",
                     "example_vi": "Khi cả gia đình cùng xem một bộ phim hoạt hình hay chương trình đố vui vào buổi tối, cha mẹ và con cái có dịp trò chuyện, chia sẻ cảm xúc và giải thích cho trẻ những bài học ý nghĩa."
                   },
@@ -27006,7 +27006,7 @@ const ESSAY_DATA = [
                     "en": "spark curiosity and artistic creativity",
                     "vi": "khơi dậy sự tò mò và óc sáng tạo nghệ thuật",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Art and discovery programmes help spark children's imagination and creative talents.",
                     "example_vi": "Các chương trình nghệ thuật và khám phá giúp khơi dậy trí tưởng tượng và năng khiếu của trẻ."
                   },
@@ -27014,7 +27014,7 @@ const ESSAY_DATA = [
                     "en": "music, art, and DIY programmes",
                     "vi": "các chương trình âm nhạc, hội họa và thủ công",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Art and discovery programmes help spark children's imagination and creative talents.",
                     "example_vi": "Các chương trình nghệ thuật và khám phá giúp khơi dậy trí tưởng tượng và năng khiếu của trẻ."
                   },
@@ -27022,7 +27022,7 @@ const ESSAY_DATA = [
                     "en": "inspire new hobbies and talents",
                     "vi": "truyền cảm hứng cho những sở thích và tài năng mới",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Television shows featuring drawing, music, or fun science experiments encourage children to try new hobbies and develop creative thinking in daily life.",
                     "example_vi": "Những chương trình dạy vẽ, âm nhạc hay thí nghiệm khoa học vui trên tivi khuyến khích trẻ thử nghiệm các sở thích mới và phát triển tư duy sáng tạo trong cuộc sống."
                   },
@@ -27054,7 +27054,7 @@ const ESSAY_DATA = [
                     "en": "valuable time",
                     "vi": "thời gian quý giá",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Watching too much television can waste children's valuable time.",
                     "example_vi": "Xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian."
                   },
@@ -27062,7 +27062,7 @@ const ESSAY_DATA = [
                     "en": "academic performance",
                     "vi": "kết quả học tập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may affect their academic performance.",
                     "example_vi": "Điều này có thể ảnh hưởng đến kết quả học tập của các em."
                   },
@@ -27086,7 +27086,7 @@ const ESSAY_DATA = [
                     "en": "harm health",
                     "vi": "gây hại cho sức khỏe",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Watching too much television may harm children's health.",
                     "example_vi": "Xem truyền hình quá nhiều có thể gây ảnh hưởng xấu đến sức khỏe của trẻ em."
                   },
@@ -27094,7 +27094,7 @@ const ESSAY_DATA = [
                     "en": "eye strain",
                     "vi": "mỏi mắt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sitting in front of screens for long periods may cause eye strain and reduce physical activity.",
                     "example_vi": "Ngồi trước màn hình quá lâu có thể gây mỏi mắt và giảm hoạt động thể chất."
                   },
@@ -27102,7 +27102,7 @@ const ESSAY_DATA = [
                     "en": "physical activity",
                     "vi": "hoạt động thể chất",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sitting in front of screens for long periods may cause eye strain and reduce physical activity.",
                     "example_vi": "Ngồi trước màn hình quá lâu có thể gây mỏi mắt và giảm hoạt động thể chất."
                   },
@@ -27134,7 +27134,7 @@ const ESSAY_DATA = [
                     "en": "negative influences",
                     "vi": "ảnh hưởng tiêu cực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some television programmes may have negative influences on children.",
                     "example_vi": "Một số chương trình truyền hình có thể ảnh hưởng tiêu cực đến trẻ em."
                   },
@@ -27142,7 +27142,7 @@ const ESSAY_DATA = [
                     "en": "violence",
                     "vi": "bạo lực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some programmes may contain violence or inappropriate behaviour.",
                     "example_vi": "Một số nội dung có thể chứa bạo lực hoặc những hành vi không phù hợp."
                   },
@@ -27150,7 +27150,7 @@ const ESSAY_DATA = [
                     "en": "inappropriate behaviour",
                     "vi": "hành vi không phù hợp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some programmes may contain violence or inappropriate behaviour.",
                     "example_vi": "Một số nội dung có thể chứa bạo lực hoặc những hành vi không phù hợp."
                   },
@@ -27182,7 +27182,7 @@ const ESSAY_DATA = [
                     "en": "reduce face-to-face social interaction",
                     "vi": "làm giảm sự tương tác xã hội trực tiếp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive television viewing reduces children's face-to-face interaction with family and peers.",
                     "example_vi": "Xem tivi quá nhiều làm giảm thời gian giao tiếp trực tiếp với gia đình và bạn bè."
                   },
@@ -27190,7 +27190,7 @@ const ESSAY_DATA = [
                     "en": "isolate children from peers",
                     "vi": "cô lập trẻ khỏi bạn bè đồng trang lứa",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive television viewing reduces children's face-to-face interaction with family and peers.",
                     "example_vi": "Xem tivi quá nhiều làm giảm thời gian giao tiếp trực tiếp với gia đình và bạn bè."
                   },
@@ -27198,7 +27198,7 @@ const ESSAY_DATA = [
                     "en": "spend less time playing outdoors",
                     "vi": "dành ít thời gian vui chơi ngoài trời hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children who spend hours glued to the screen spend far less time playing outdoors with friends or talking with relatives.",
                     "example_vi": "Trẻ dành hàng giờ dán mắt vào màn hình sẽ ít ra ngoài vui chơi cùng bạn bè hoặc trò chuyện với người thân."
                   },
@@ -27230,7 +27230,7 @@ const ESSAY_DATA = [
                     "en": "shortened attention span",
                     "vi": "khả năng tập trung bị rút ngắn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Passive screen viewing can shorten children's attention spans and reduce independent thinking.",
                     "example_vi": "Thói quen tiếp nhận hình ảnh thụ động có thể làm giảm khả năng tập trung và tư duy độc lập."
                   },
@@ -27238,7 +27238,7 @@ const ESSAY_DATA = [
                     "en": "passive information consumption",
                     "vi": "tiếp nhận thông tin một cách thụ động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Passive screen viewing can shorten children's attention spans and reduce independent thinking.",
                     "example_vi": "Thói quen tiếp nhận hình ảnh thụ động có thể làm giảm khả năng tập trung và tư duy độc lập."
                   },
@@ -27246,7 +27246,7 @@ const ESSAY_DATA = [
                     "en": "fast-paced visual effects",
                     "vi": "hiệu ứng hình ảnh chuyển động nhanh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Once accustomed to fast-paced visuals and catchy sounds on television, children may easily feel bored when reading books or solving school tasks that require patience and deep thinking.",
                     "example_vi": "Khi quen với các hình ảnh chuyển động nhanh và âm thanh bắt tai trên tivi, trẻ dễ cảm thấy nhàm chán khi phải đọc sách hoặc giải quyết các bài tập đòi hỏi sự kiên nhẫn và suy nghĩ sâu."
                   },
@@ -27278,7 +27278,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, children’s television viewing habits has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, thói quen xem tv của trẻ em ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -27286,7 +27286,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of children’s television viewing habits.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của thói quen xem tv của trẻ em."
                   },
@@ -27294,7 +27294,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -27302,7 +27302,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -28936,7 +28936,7 @@ const ESSAY_DATA = [
                 "word": "renewable",
                 "ipa": "/rɪˈnjuːəbl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "có thể tái tạo",
                 "example_en": "Solar and wind power are renewable energy sources that will never run out.",
                 "example_vi": "Năng lượng mặt trời và năng lượng gió là các nguồn năng lượng tái tạo sẽ không bao giờ cạn kiệt.",
@@ -28946,7 +28946,7 @@ const ESSAY_DATA = [
                 "word": "sustainable",
                 "ipa": "/səˈsteɪnəbl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bền vững",
                 "example_en": "Green energy is key to ensuring a sustainable energy supply for future generations.",
                 "example_vi": "Năng lượng xanh là chìa khóa để đảm bảo nguồn cung năng lượng bền vững cho các thế hệ tương lai.",
@@ -28956,7 +28956,7 @@ const ESSAY_DATA = [
                 "word": "fossil fuel",
                 "ipa": "/ˈfɒsl fjuːəl/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nhiên liệu hóa thạch (than đá, dầu mỏ)",
                 "example_en": "Burning fossil fuels releases massive amounts of greenhouse gases into the atmosphere.",
                 "example_vi": "Đốt nhiên liệu hóa thạch giải phóng một lượng lớn khí nhà kính vào bầu khí quyển.",
@@ -28966,7 +28966,7 @@ const ESSAY_DATA = [
                 "word": "deplete",
                 "ipa": "/dɪˈpliːt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "làm cạn kiệt",
                 "example_en": "Natural reserves of coal and oil are being rapidly depleted worldwide.",
                 "example_vi": "Trữ lượng than đá và dầu mỏ tự nhiên đang bị làm cạn kiệt nhanh chóng trên toàn thế giới.",
@@ -28976,7 +28976,7 @@ const ESSAY_DATA = [
                 "word": "intermittent",
                 "ipa": "/ˌɪntəˈmɪtənt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "không liên tục, gián đoạn (tùy theo thời tiết)",
                 "example_en": "Because sunlight and wind are intermittent, backup battery storage is required.",
                 "example_vi": "Vì ánh nắng và gió không liên tục nên cần có hệ thống pin lưu trữ dự phòng.",
@@ -28986,7 +28986,7 @@ const ESSAY_DATA = [
                 "word": "emission",
                 "ipa": "/ɪˈmɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "lượng phát thải, khí thải",
                 "example_en": "Clean energy technologies help countries achieve their zero-emission targets.",
                 "example_vi": "Các công nghệ năng lượng sạch giúp các quốc gia đạt được mục tiêu phát thải bằng không.",
@@ -29036,7 +29036,7 @@ const ESSAY_DATA = [
                 "word": "mitigate",
                 "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "giảm thiểu, làm dịu bớt (tác hại biến đổi khí hậu)",
                 "family": "mitigation (n)",
                 "example_en": "Transitioning to solar and wind power is crucial to mitigate global warming.",
@@ -29056,7 +29056,7 @@ const ESSAY_DATA = [
                 "word": "subsidy",
                 "ipa": "/ˈsʌb.sɪ.di/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khoản trợ cấp tài chính từ chính phủ",
                 "family": "subsidize (v), subsidized (adj)",
                 "example_en": "Government subsidies help lower the cost of installing rooftop solar panels.",
@@ -29076,7 +29076,7 @@ const ESSAY_DATA = [
                 "word": "grid",
                 "ipa": "/ɡrɪd/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mạng lưới điện quốc gia",
                 "family": "power grid (n.phr), off-grid (adj)",
                 "example_en": "Upgrading the national power grid is necessary to store and distribute green energy.",
@@ -29106,7 +29106,7 @@ const ESSAY_DATA = [
                 "word": "habitat",
                 "ipa": "/ˈhæb.ɪ.tæt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "môi trường sống tự nhiên của động thực vật",
                 "family": "inhabit (v), inhabitant (n)",
                 "example_en": "Clearing vast tracts of land for solar farms can encroach on wildlife habitats.",
@@ -29144,7 +29144,7 @@ const ESSAY_DATA = [
                     "en": "pollution",
                     "vi": "ô nhiễm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Unlike fossil fuels, green energy produces much less pollution when generating electricity.",
                     "example_vi": "Không giống như nhiên liệu hóa thạch, năng lượng xanh tạo ra rất ít chất ô nhiễm trong quá trình sản xuất điện."
                   },
@@ -29152,7 +29152,7 @@ const ESSAY_DATA = [
                     "en": "climate change",
                     "vi": "biến đổi khí hậu",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps slow down climate change.",
                     "example_vi": "Điều này góp phần làm chậm quá trình biến đổi khí hậu."
                   },
@@ -29176,7 +29176,7 @@ const ESSAY_DATA = [
                     "en": "sustainable energy supply",
                     "vi": "nguồn cung năng lượng bền vững",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps ensure a sustainable energy supply for the future.",
                     "example_vi": "Điều này giúp đảm bảo nguồn cung năng lượng ổn định cho tương lai."
                   },
@@ -29200,7 +29200,7 @@ const ESSAY_DATA = [
                     "en": "natural gas",
                     "vi": "khí đốt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Countries can use more clean energy instead of coal, oil, and natural gas.",
                     "example_vi": "Các quốc gia có thể sử dụng nhiều nguồn năng lượng sạch hơn thay cho than đá, dầu mỏ và khí đốt."
                   },
@@ -29208,7 +29208,7 @@ const ESSAY_DATA = [
                     "en": "energy security",
                     "vi": "an ninh năng lượng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps improve long-term energy security.",
                     "example_vi": "Điều này giúp tăng cường an ninh năng lượng trong dài hạn."
                   },
@@ -29240,7 +29240,7 @@ const ESSAY_DATA = [
                     "en": "create green jobs and economic opportunities",
                     "vi": "tạo việc làm xanh và cơ hội kinh tế",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consequently, this creates stable employment opportunities and stimulates local economic growth.",
                     "example_vi": "Điều này giúp tạo thêm nhiều việc làm ổn định và thúc đẩy kinh tế địa phương phát triển."
                   },
@@ -29248,7 +29248,7 @@ const ESSAY_DATA = [
                     "en": "renewable energy sector",
                     "vi": "ngành công nghiệp năng lượng tái tạo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Developing green energy creates millions of new jobs in the clean technology sector.",
                     "example_vi": "Phát triển năng lượng xanh tạo ra hàng triệu việc làm mới trong ngành công nghệ sạch."
                   },
@@ -29256,7 +29256,7 @@ const ESSAY_DATA = [
                     "en": "manufacturing, installation, and maintenance",
                     "vi": "sản xuất, lắp đặt và bảo trì",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Manufacturing, installing, and maintaining solar panels and wind turbines require a large workforce.",
                     "example_vi": "Việc sản xuất, lắp đặt và vận hành các tấm pin mặt trời hay tua-bin gió đòi hỏi lực lượng lao động lớn."
                   },
@@ -29288,7 +29288,7 @@ const ESSAY_DATA = [
                     "en": "lower long-term operating costs",
                     "vi": "giảm chi phí vận hành trong dài hạn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Renewable energy helps lower operating costs and electricity bills in the long run.",
                     "example_vi": "Năng lượng tái tạo giúp tiết kiệm chi phí vận hành và tiền điện trong dài hạn."
                   },
@@ -29296,7 +29296,7 @@ const ESSAY_DATA = [
                     "en": "free natural resources like sunlight and wind",
                     "vi": "nguồn tài nguyên tự nhiên miễn phí như nắng và gió",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Although initial installation costs are high, natural sunlight and wind are completely free.",
                     "example_vi": "Dù chi phí lắp đặt ban đầu cao, nguồn nắng và gió tự nhiên là hoàn toàn miễn phí."
                   },
@@ -29304,7 +29304,7 @@ const ESSAY_DATA = [
                     "en": "reduce household electricity bills",
                     "vi": "giảm hóa đơn tiền điện hộ gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "As a result, households and factories with rooftop solar panels can significantly reduce their monthly electricity bills.",
                     "example_vi": "Nhờ vậy, các hộ gia đình và nhà máy lắp đặt điện mặt trời áp mái có thể giảm đáng kể hóa đơn tiền điện hằng tháng."
                   },
@@ -29336,7 +29336,7 @@ const ESSAY_DATA = [
                     "en": "financial investment",
                     "vi": "nguồn vốn đầu tư",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Building solar and wind power plants requires significant financial investment.",
                     "example_vi": "Việc xây dựng các nhà máy điện mặt trời hoặc điện gió cần nguồn vốn rất lớn."
                   },
@@ -29344,7 +29344,7 @@ const ESSAY_DATA = [
                     "en": "power plants",
                     "vi": "nhà máy điện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Building solar and wind power plants requires significant financial investment.",
                     "example_vi": "Việc xây dựng các nhà máy điện mặt trời hoặc điện gió cần nguồn vốn rất lớn."
                   },
@@ -29376,7 +29376,7 @@ const ESSAY_DATA = [
                     "en": "natural conditions",
                     "vi": "điều kiện tự nhiên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Green energy depends on natural conditions.",
                     "example_vi": "Năng lượng xanh phụ thuộc vào điều kiện tự nhiên."
                   },
@@ -29384,7 +29384,7 @@ const ESSAY_DATA = [
                     "en": "sunlight",
                     "vi": "ánh nắng mặt trời",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Solar power requires sunlight, while wind power depends on wind speed.",
                     "example_vi": "Năng lượng mặt trời cần ánh nắng, trong khi năng lượng gió phụ thuộc vào tốc độ gió."
                   },
@@ -29392,7 +29392,7 @@ const ESSAY_DATA = [
                     "en": "wind speed",
                     "vi": "tốc độ gió",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Solar power requires sunlight, while wind power depends on wind speed.",
                     "example_vi": "Năng lượng mặt trời cần ánh nắng, trong khi năng lượng gió phụ thuộc vào tốc độ gió."
                   },
@@ -29432,7 +29432,7 @@ const ESSAY_DATA = [
                     "en": "occupy",
                     "vi": "chiếm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Solar farms and wind farms usually occupy large areas of land.",
                     "example_vi": "Các trang trại điện mặt trời và điện gió thường chiếm nhiều không gian."
                   },
@@ -29440,7 +29440,7 @@ const ESSAY_DATA = [
                     "en": "agriculture",
                     "vi": "nông nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may reduce the amount of land available for agriculture or construction.",
                     "example_vi": "Điều này có thể làm giảm diện tích đất dành cho các mục đích khác như nông nghiệp hoặc xây dựng."
                   },
@@ -29472,7 +29472,7 @@ const ESSAY_DATA = [
                     "en": "energy storage and grid integration challenges",
                     "vi": "thách thức về lưu trữ năng lượng và tích hợp lưới điện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Storing renewable electricity and integrating it into national power grids remain technically challenging.",
                     "example_vi": "Việc lưu trữ điện năng và tích hợp vào lưới điện quốc gia còn gặp nhiều rào cản kỹ thuật."
                   },
@@ -29480,7 +29480,7 @@ const ESSAY_DATA = [
                     "en": "expensive battery storage systems",
                     "vi": "hệ thống pin lưu trữ đắt đỏ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "High-capacity battery storage systems remain very expensive, and surplus solar electricity generated at midday can easily overload transmission grids if infrastructure is not upgraded.",
                     "example_vi": "Hệ thống pin lưu trữ công suất lớn hiện nay vẫn rất đắt đỏ, trong khi lượng điện mặt trời tạo ra vào buổi trưa dễ gây quá tải lưới điện truyền tải nếu hạ tầng chưa được nâng cấp đồng bộ."
                   },
@@ -29488,7 +29488,7 @@ const ESSAY_DATA = [
                     "en": "overload existing power grids",
                     "vi": "gây quá tải lưới điện hiện hữu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Storing renewable electricity and integrating it into national power grids remain technically challenging.",
                     "example_vi": "Việc lưu trữ điện năng và tích hợp vào lưới điện quốc gia còn gặp nhiều rào cản kỹ thuật."
                   },
@@ -29520,7 +29520,7 @@ const ESSAY_DATA = [
                     "en": "environmental impact of equipment disposal",
                     "vi": "tác động môi trường của việc xử lý thiết bị hết hạn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Disposing of expired solar panels and protecting local ecosystems pose new environmental concerns.",
                     "example_vi": "Việc xử lý các tấm pin mặt trời hết hạn sử dụng và tác động đến hệ sinh thái địa phương là vấn đề đáng lo ngại."
                   },
@@ -29528,7 +29528,7 @@ const ESSAY_DATA = [
                     "en": "expired solar panels and wind turbine blades",
                     "vi": "tấm pin mặt trời và cánh quạt gió hết niên hạn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "After 20 to 25 years of use, old solar panels and wind turbine blades become industrial waste that is difficult to recycle.",
                     "example_vi": "Sau khoảng 20–25 năm hoạt động, các tấm pin mặt trời và cánh tua-bin gió cũ sẽ trở thành rác thải công nghiệp khó tái chế."
                   },
@@ -29536,7 +29536,7 @@ const ESSAY_DATA = [
                     "en": "difficult to recycle heavy metals",
                     "vi": "khó tái chế các kim loại nặng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "After 20 to 25 years of use, old solar panels and wind turbine blades become industrial waste that is difficult to recycle.",
                     "example_vi": "Sau khoảng 20–25 năm hoạt động, các tấm pin mặt trời và cánh tua-bin gió cũ sẽ trở thành rác thải công nghiệp khó tái chế."
                   },
@@ -29568,7 +29568,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, green (alternative) energy has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, năng lượng xanh (năng lượng thay thế) ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -29576,7 +29576,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of green (alternative) energy.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của năng lượng xanh (năng lượng thay thế)."
                   },
@@ -29584,7 +29584,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -29592,7 +29592,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -31100,7 +31100,7 @@ const ESSAY_DATA = [
                 "word": "systematic",
                 "ipa": "/ˌsɪstəˈmætɪk/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "có tính hệ thống, bài bản",
                 "example_en": "Textbooks provide a systematic approach to learning complex subjects.",
                 "example_vi": "Sách giáo khoa cung cấp một cách tiếp cận có hệ thống để học các môn phức tạp.",
@@ -31120,7 +31120,7 @@ const ESSAY_DATA = [
                 "word": "curriculum",
                 "ipa": "/kəˈrɪkjələm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chương trình giảng dạy",
                 "example_en": "Printed textbooks are designed to follow the national curriculum closely.",
                 "example_vi": "Sách giáo khoa in ấn được thiết kế để bám sát chương trình giảng dạy quốc gia.",
@@ -31140,7 +31140,7 @@ const ESSAY_DATA = [
                 "word": "stifle",
                 "ipa": "/ˈstaɪfl/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "kìm hãm, bóp nghẹt",
                 "example_en": "Strict adherence to fixed textbooks may stifle students' creativity.",
                 "example_vi": "Việc tuân thủ cứng nhắc sách giáo khoa cố định có thể kìm hãm sự sáng tạo của học sinh.",
@@ -31160,7 +31160,7 @@ const ESSAY_DATA = [
                 "word": "inflexible",
                 "ipa": "/ɪnˈfleksəbl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thiếu linh hoạt, cứng nhắc",
                 "example_en": "Relying solely on one coursebook can make classroom teaching inflexible.",
                 "example_vi": "Chỉ dựa vào một cuốn giáo trình có thể khiến việc giảng dạy trên lớp thiếu linh hoạt.",
@@ -31190,7 +31190,7 @@ const ESSAY_DATA = [
                 "word": "outdated",
                 "ipa": "/ˌaʊtˈdeɪtɪd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "lỗi thời, lạc hậu",
                 "example_en": "Some statistics in printed textbooks quickly become outdated.",
                 "example_vi": "Một số số liệu thống kê trong sách giáo khoa in ấn nhanh chóng trở nên lỗi thời.",
@@ -31200,7 +31200,7 @@ const ESSAY_DATA = [
                 "word": "standardized",
                 "ipa": "/ˈstæn.də.daɪzd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "được chuẩn hóa đồng bộ",
                 "family": "standard (n/adj), standardize (v), standardization (n)",
                 "example_en": "Textbooks ensure that all students across the country receive standardized knowledge.",
@@ -31220,7 +31220,7 @@ const ESSAY_DATA = [
                 "word": "creativity",
                 "ipa": "/ˌkriː.eɪˈtɪv.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự sáng tạo, tư duy đổi mới",
                 "family": "create (v), creative (adj), creatively (adv)",
                 "example_en": "Following a single textbook too strictly can limit classroom creativity.",
@@ -31230,7 +31230,7 @@ const ESSAY_DATA = [
                 "word": "obsolete",
                 "ipa": "/ˌɒb.səlˈiːt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "lỗi thời, lạc hậu so với thực tế",
                 "family": "obsolescence (n)",
                 "example_en": "Printed science textbooks can quickly become obsolete due to rapid technological advances.",
@@ -31280,7 +31280,7 @@ const ESSAY_DATA = [
                 "word": "revision",
                 "ipa": "/rɪˈvɪʒ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "việc ôn tập; sự chỉnh sửa cập nhật sách",
                 "family": "revise (v), revised (adj)",
                 "example_en": "Summary tables at the end of each textbook chapter facilitate effective exam revision.",
@@ -31290,7 +31290,7 @@ const ESSAY_DATA = [
                 "word": "critical",
                 "ipa": "/ˈkrɪt.ɪ.kəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mang tính phản biện, phân tích sâu",
                 "family": "criticize (v), criticism (n), critically (adv)",
                 "example_en": "Students should be encouraged to question information rather than accept textbooks without critical thought.",
@@ -31308,7 +31308,7 @@ const ESSAY_DATA = [
                     "en": "systematic lessons",
                     "vi": "bài học có tính hệ thống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks provide organized and systematic lessons.",
                     "example_vi": "Sách giáo khoa cung cấp các bài học được tổ chức và sắp xếp có hệ thống."
                   },
@@ -31316,7 +31316,7 @@ const ESSAY_DATA = [
                     "en": "learning process",
                     "vi": "quá trình học tập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The content is presented in a clear order, helping students follow the learning process more easily.",
                     "example_vi": "Nội dung được trình bày theo một trình tự rõ ràng, giúp học sinh dễ theo dõi quá trình học."
                   },
@@ -31324,7 +31324,7 @@ const ESSAY_DATA = [
                     "en": "structured curriculum",
                     "vi": "khung chương trình có cấu trúc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The content is presented in a clear order, helping students follow the learning process more easily.",
                     "example_vi": "Nội dung được trình bày theo một trình tự rõ ràng, giúp học sinh dễ theo dõi quá trình học."
                   },
@@ -31356,7 +31356,7 @@ const ESSAY_DATA = [
                     "en": "reinforce understanding",
                     "vi": "củng cố sự hiểu biết",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks provide useful exercises for students to practise and reinforce their knowledge.",
                     "example_vi": "Sách giáo khoa cung cấp nhiều bài tập hữu ích để học sinh thực hành và củng cố kiến thức."
                   },
@@ -31364,7 +31364,7 @@ const ESSAY_DATA = [
                     "en": "apply theoretical concepts",
                     "vi": "áp dụng các khái niệm lý thuyết",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can apply what they have learned through these exercises.",
                     "example_vi": "Học sinh có thể áp dụng những kiến thức đã học thông qua các bài tập."
                   },
@@ -31372,7 +31372,7 @@ const ESSAY_DATA = [
                     "en": "regular practice",
                     "vi": "việc luyện tập thường xuyên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Regular practice helps them remember the knowledge more effectively.",
                     "example_vi": "Việc luyện tập thường xuyên giúp các em nhớ kiến thức tốt hơn."
                   },
@@ -31404,7 +31404,7 @@ const ESSAY_DATA = [
                     "en": "academic resource",
                     "vi": "nguồn tài liệu học thuật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks provide important knowledge and learning resources for different subjects.",
                     "example_vi": "Sách giáo khoa cung cấp kiến thức quan trọng và nguồn tài liệu học tập cho các môn học khác nhau."
                   },
@@ -31412,7 +31412,7 @@ const ESSAY_DATA = [
                     "en": "retrieve information",
                     "vi": "truy xuất thông tin",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can use textbooks to study and review their lessons.",
                     "example_vi": "Học sinh có thể sử dụng sách để học bài và ôn tập kiến thức."
                   },
@@ -31420,7 +31420,7 @@ const ESSAY_DATA = [
                     "en": "core knowledge base",
                     "vi": "nền tảng kiến thức cốt lõi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks provide important knowledge and learning resources for different subjects.",
                     "example_vi": "Sách giáo khoa cung cấp kiến thức quan trọng và nguồn tài liệu học tập cho các môn học khác nhau."
                   },
@@ -31452,7 +31452,7 @@ const ESSAY_DATA = [
                     "en": "uniform educational standards",
                     "vi": "tiêu chuẩn giáo dục đồng đều",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks help ensure uniform educational standards across different schools.",
                     "example_vi": "Sách giáo khoa giúp đảm bảo các tiêu chuẩn giáo dục đồng đều giữa các trường học."
                   },
@@ -31460,7 +31460,7 @@ const ESSAY_DATA = [
                     "en": "core curriculum requirements",
                     "vi": "yêu cầu chương trình cốt lõi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students in different regions can access the same core curriculum requirements and learning outcomes.",
                     "example_vi": "Học sinh ở các vùng miền khác nhau đều được tiếp cận cùng một khung kiến thức cốt lõi và chuẩn đầu ra như nhau."
                   },
@@ -31468,7 +31468,7 @@ const ESSAY_DATA = [
                     "en": "consistent academic quality",
                     "vi": "chất lượng học thuật nhất quán",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps maintain consistent academic quality and ensures fairness in standardized examinations.",
                     "example_vi": "Điều này giúp duy trì chất lượng giảng dạy nhất quán và tạo sự công bằng trong các kỳ thi đánh giá chung."
                   },
@@ -31500,7 +31500,7 @@ const ESSAY_DATA = [
                     "en": "lesson preparation time",
                     "vi": "thời gian chuẩn bị bài giảng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks help teachers save a significant amount of lesson preparation time.",
                     "example_vi": "Sách giáo khoa giúp giáo viên tiết kiệm đáng kể thời gian chuẩn bị bài giảng."
                   },
@@ -31508,7 +31508,7 @@ const ESSAY_DATA = [
                     "en": "ready-made instructional framework",
                     "vi": "khung giảng dạy có sẵn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "With a ready-made instructional framework and lesson sequence, teachers do not have to design all learning materials from scratch.",
                     "example_vi": "Nhờ có khung nội dung và lộ trình bài học được thiết kế sẵn, giáo viên không phải tự biên soạn toàn bộ tài liệu từ đầu."
                   },
@@ -31516,7 +31516,7 @@ const ESSAY_DATA = [
                     "en": "reduce administrative workload",
                     "vi": "giảm khối lượng công việc hành chính",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "With a ready-made instructional framework and lesson sequence, teachers do not have to design all learning materials from scratch.",
                     "example_vi": "Nhờ có khung nội dung và lộ trình bài học được thiết kế sẵn, giáo viên không phải tự biên soạn toàn bộ tài liệu từ đầu."
                   },
@@ -31548,7 +31548,7 @@ const ESSAY_DATA = [
                     "en": "stifle creativity",
                     "vi": "kìm hãm sự sáng tạo",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Relying too much on textbooks may limit students' creativity.",
                     "example_vi": "Việc phụ thuộc quá nhiều vào sách giáo khoa có thể hạn chế sự sáng tạo của học sinh."
                   },
@@ -31556,7 +31556,7 @@ const ESSAY_DATA = [
                     "en": "predetermined approaches",
                     "vi": "các cách tiếp cận định sẵn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students often have to follow the fixed content and approaches in textbooks.",
                     "example_vi": "Học sinh thường phải học theo nội dung và cách tiếp cận có sẵn trong sách."
                   },
@@ -31564,7 +31564,7 @@ const ESSAY_DATA = [
                     "en": "independent thinking",
                     "vi": "tư duy độc lập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students often have to follow the fixed content and approaches in textbooks.",
                     "example_vi": "Học sinh thường phải học theo nội dung và cách tiếp cận có sẵn trong sách."
                   },
@@ -31596,7 +31596,7 @@ const ESSAY_DATA = [
                     "en": "inflexible learning process",
                     "vi": "quá trình học tập thiếu linh hoạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Relying only on textbooks may make the learning process less flexible.",
                     "example_vi": "Việc chỉ dựa vào sách giáo khoa có thể khiến quá trình học tập kém linh hoạt hơn."
                   },
@@ -31604,7 +31604,7 @@ const ESSAY_DATA = [
                     "en": "cater to diverse needs",
                     "vi": "phục vụ các nhu cầu đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Teachers may find it difficult to adapt the content to students' different levels and needs.",
                     "example_vi": "Giáo viên có thể gặp khó khăn khi điều chỉnh nội dung theo trình độ và nhu cầu khác nhau của học sinh."
                   },
@@ -31612,7 +31612,7 @@ const ESSAY_DATA = [
                     "en": "differentiated instruction",
                     "vi": "giảng dạy phân hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks often have fixed content that does not always suit every group of students.",
                     "example_vi": "Các sách thường có nội dung cố định và không phải lúc nào cũng phù hợp với mọi nhóm học sinh."
                   },
@@ -31644,7 +31644,7 @@ const ESSAY_DATA = [
                     "en": "overreliance on textbooks",
                     "vi": "sự phụ thuộc quá mức vào SGK",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students may become too dependent on textbooks during the learning process.",
                     "example_vi": "Học sinh có thể trở nên quá phụ thuộc vào sách giáo khoa trong quá trình học tập."
                   },
@@ -31652,7 +31652,7 @@ const ESSAY_DATA = [
                     "en": "autonomous research skills",
                     "vi": "kỹ năng tự nghiên cứu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may rely only on information in textbooks instead of looking for other learning resources.",
                     "example_vi": "Các em có thể chỉ dựa vào thông tin trong sách thay vì tìm kiếm các nguồn tài liệu khác."
                   },
@@ -31660,7 +31660,7 @@ const ESSAY_DATA = [
                     "en": "diverse knowledge sources",
                     "vi": "các nguồn kiến thức đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may rely only on information in textbooks instead of looking for other learning resources.",
                     "example_vi": "Các em có thể chỉ dựa vào thông tin trong sách thay vì tìm kiếm các nguồn tài liệu khác."
                   },
@@ -31692,7 +31692,7 @@ const ESSAY_DATA = [
                     "en": "outdated information",
                     "vi": "thông tin lỗi thời",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Information in printed textbooks may quickly become outdated.",
                     "example_vi": "Thông tin trong sách giáo khoa in ấn có thể nhanh chóng trở nên lỗi thời."
                   },
@@ -31700,7 +31700,7 @@ const ESSAY_DATA = [
                     "en": "rapid technological advancements",
                     "vi": "những tiến bộ công nghệ nhanh chóng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Due to long publication cycles, printed textbooks often fail to keep pace with the latest scientific discoveries or social trends.",
                     "example_vi": "Do chu kỳ biên soạn và xuất bản kéo dài, sách giáo khoa khó có thể cập nhật kịp thời những phát hiện khoa học hay xu hướng xã hội mới nhất."
                   },
@@ -31708,7 +31708,7 @@ const ESSAY_DATA = [
                     "en": "long publication cycles",
                     "vi": "chu kỳ xuất bản kéo dài",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Due to long publication cycles, printed textbooks often fail to keep pace with the latest scientific discoveries or social trends.",
                     "example_vi": "Do chu kỳ biên soạn và xuất bản kéo dài, sách giáo khoa khó có thể cập nhật kịp thời những phát hiện khoa học hay xu hướng xã hội mới nhất."
                   },
@@ -31740,7 +31740,7 @@ const ESSAY_DATA = [
                     "en": "financial burden",
                     "vi": "gánh nặng tài chính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Purchasing new textbooks every year can create a financial burden for many families.",
                     "example_vi": "Việc mua sắm sách giáo khoa mới hằng năm có thể tạo ra gánh nặng chi phí cho nhiều gia đình."
                   },
@@ -31748,7 +31748,7 @@ const ESSAY_DATA = [
                     "en": "annual textbook expenses",
                     "vi": "chi phí sách giáo khoa hằng năm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Purchasing new textbooks every year can create a financial burden for many families.",
                     "example_vi": "Việc mua sắm sách giáo khoa mới hằng năm có thể tạo ra gánh nặng chi phí cho nhiều gia đình."
                   },
@@ -31756,7 +31756,7 @@ const ESSAY_DATA = [
                     "en": "low-income households",
                     "vi": "các hộ gia đình thu nhập thấp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The cost of buying a full set of textbooks for multiple subjects at each grade level is considerable, especially for low-income households.",
                     "example_vi": "Chi phí mua trọn bộ sách giáo khoa cho nhiều môn học ở mỗi cấp lớp là không hề nhỏ, đặc biệt đối với các hộ gia đình có thu nhập thấp."
                   },
@@ -31788,7 +31788,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, using textbooks in education has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, sử dụng sách giáo khoa trong giáo dục ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -31796,7 +31796,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of using textbooks in education.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của sử dụng sách giáo khoa trong giáo dục."
                   },
@@ -31804,7 +31804,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -31812,7 +31812,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -32965,7 +32965,7 @@ const ESSAY_DATA = [
                 "word": "perspective",
                 "ipa": "/pəˈspektɪv/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "góc nhìn, quan điểm",
                 "example_en": "Reading multiple textbooks allows students to examine a topic from different perspectives.",
                 "example_vi": "Đọc nhiều sách giáo khoa cho phép học sinh xem xét một chủ đề từ nhiều góc nhìn khác nhau.",
@@ -32975,7 +32975,7 @@ const ESSAY_DATA = [
                 "word": "accommodate",
                 "ipa": "/əˈkɒmədeɪt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "đáp ứng, điều chỉnh cho phù hợp",
                 "example_en": "Diverse coursebooks help schools accommodate students' varied learning styles.",
                 "example_vi": "Các giáo trình đa dạng giúp nhà trường đáp ứng các phong cách học tập khác nhau của học sinh.",
@@ -32985,7 +32985,7 @@ const ESSAY_DATA = [
                 "word": "proficiency",
                 "ipa": "/prəˈfɪʃnsi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "trình độ thông thạo, năng lực",
                 "example_en": "Teachers can select books that match their students' current proficiency levels.",
                 "example_vi": "Giáo viên có thể chọn những cuốn sách phù hợp với mức độ năng lực hiện tại của học sinh.",
@@ -32995,7 +32995,7 @@ const ESSAY_DATA = [
                 "word": "supplementary",
                 "ipa": "/ˌsʌplɪˈmentri/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bổ sung, phụ trợ",
                 "example_en": "Additional textbooks serve as valuable supplementary materials for exam revision.",
                 "example_vi": "Các cuốn sách giáo khoa bổ sung đóng vai trò là tài liệu phụ trợ quý giá để ôn thi.",
@@ -33005,7 +33005,7 @@ const ESSAY_DATA = [
                 "word": "pedagogical",
                 "ipa": "/ˌpedəˈɡɒdʒɪkl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về sư phạm",
                 "example_en": "Having multiple textbooks gives teachers greater pedagogical flexibility.",
                 "example_vi": "Có nhiều sách giáo khoa mang lại cho giáo viên sự linh hoạt sư phạm lớn hơn.",
@@ -33015,7 +33015,7 @@ const ESSAY_DATA = [
                 "word": "synthesize",
                 "ipa": "/ˈsɪnθəsaɪz/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tổng hợp",
                 "example_en": "Students learn to synthesize information from several reliable sources.",
                 "example_vi": "Học sinh học cách tổng hợp thông tin từ nhiều nguồn đáng tin cậy.",
@@ -33025,7 +33025,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒnəmi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền tự chủ",
                 "example_en": "Professional autonomy enables educators to design more engaging lessons.",
                 "example_vi": "Quyền tự chủ chuyên môn cho phép các nhà giáo dục thiết kế các bài giảng hấp dẫn hơn.",
@@ -33035,7 +33035,7 @@ const ESSAY_DATA = [
                 "word": "monotony",
                 "ipa": "/məˈnɒtəni/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đơn điệu, nhàm chán",
                 "example_en": "Using varied learning materials prevents classroom monotony.",
                 "example_vi": "Sử dụng tài liệu học tập đa dạng giúp ngăn chặn sự đơn điệu trong lớp học.",
@@ -33045,7 +33045,7 @@ const ESSAY_DATA = [
                 "word": "intrinsic",
                 "ipa": "/ɪnˈtrɪnzɪk/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nội tại, bên trong",
                 "example_en": "Engaging textbooks help stimulate students' intrinsic motivation to learn.",
                 "example_vi": "Những cuốn sách giáo khoa hấp dẫn giúp kích thích động lực học tập nội tại của học sinh.",
@@ -33095,7 +33095,7 @@ const ESSAY_DATA = [
                 "word": "flexibility",
                 "ipa": "/ˌflek.səˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự linh hoạt trong giảng dạy",
                 "family": "flexible (adj), flexibly (adv)",
                 "example_en": "Multiple textbook policies grant teachers greater flexibility in lesson planning.",
@@ -33173,7 +33173,7 @@ const ESSAY_DATA = [
                     "en": "diverse learning resources",
                     "vi": "nguồn tài liệu học tập đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using multiple textbooks provides students with more diverse learning resources.",
                     "example_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nguồn tài liệu học tập đa dạng hơn."
                   },
@@ -33181,7 +33181,7 @@ const ESSAY_DATA = [
                     "en": "varied explanations",
                     "vi": "cách giải thích đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Different textbooks present the same academic subject through varied explanations and methodologies.",
                     "example_vi": "Các cuốn sách giáo khoa khác nhau trình bày cùng một môn học thông qua các cách giải thích và phương pháp luận đa dạng."
                   },
@@ -33189,7 +33189,7 @@ const ESSAY_DATA = [
                     "en": "supplementary exercises",
                     "vi": "bài tập bổ trợ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Furthermore, they supply an extensive collection of supplementary exercises and illustrative examples.",
                     "example_vi": "Hơn nữa, chúng cung cấp một kho bài tập bổ trợ và ví dụ minh họa phong phú."
                   },
@@ -33221,7 +33221,7 @@ const ESSAY_DATA = [
                     "en": "accommodates varied learning needs",
                     "vi": "đáp ứng nhu cầu học tập đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Having multiple textbooks effectively accommodates the varied learning needs of different students.",
                     "example_vi": "Có nhiều bộ sách giáo khoa đáp ứng hiệu quả các nhu cầu học tập đa dạng của từng học sinh."
                   },
@@ -33229,7 +33229,7 @@ const ESSAY_DATA = [
                     "en": "diverse learning styles",
                     "vi": "phong cách học đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Distinct textbooks cater to diverse learning styles, including visual, auditory, and reading preferences.",
                     "example_vi": "Các bộ sách giáo khoa khác nhau phục vụ các phong cách học đa dạng, bao gồm sở thích thị giác, thính giác và đọc hiểu."
                   },
@@ -33237,7 +33237,7 @@ const ESSAY_DATA = [
                     "en": "proficiency levels",
                     "vi": "mức độ năng lực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Moreover, educational materials can be selected according to students' varied proficiency levels.",
                     "example_vi": "Hơn nữa, tài liệu giáo dục có thể được lựa chọn theo các mức độ năng lực khác nhau của học sinh."
                   },
@@ -33269,7 +33269,7 @@ const ESSAY_DATA = [
                     "en": "pedagogical flexibility",
                     "vi": "sự linh hoạt sư phạm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Multiple textbooks grant educators greater pedagogical flexibility.",
                     "example_vi": "Nhiều sách giáo khoa mang lại cho các nhà giáo dục sự linh hoạt sư phạm lớn hơn."
                   },
@@ -33277,7 +33277,7 @@ const ESSAY_DATA = [
                     "en": "professional autonomy",
                     "vi": "quyền tự chủ chuyên môn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Teachers have the professional autonomy to curate instructional materials that best match classroom dynamics.",
                     "example_vi": "Giáo viên có quyền tự chủ chuyên môn để tuyển chọn tài liệu giảng dạy phù hợp nhất với đặc thù lớp học."
                   },
@@ -33285,7 +33285,7 @@ const ESSAY_DATA = [
                     "en": "instructional materials",
                     "vi": "tài liệu giảng dạy",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Teachers have the professional autonomy to curate instructional materials that best match classroom dynamics.",
                     "example_vi": "Giáo viên có quyền tự chủ chuyên môn để tuyển chọn tài liệu giảng dạy phù hợp nhất với đặc thù lớp học."
                   },
@@ -33317,7 +33317,7 @@ const ESSAY_DATA = [
                     "en": "enrich educational experience",
                     "vi": "làm phong phú trải nghiệm giáo dục",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Multiple textbooks substantially enrich students' overall educational experience.",
                     "example_vi": "Nhiều sách giáo khoa làm phong phú đáng kể trải nghiệm giáo dục tổng thể của học sinh."
                   },
@@ -33325,7 +33325,7 @@ const ESSAY_DATA = [
                     "en": "contemporary contexts",
                     "vi": "bối cảnh đương đại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Diverse publications offer visually engaging layouts and authentic contemporary contexts for learners.",
                     "example_vi": "Các ấn bản đa dạng mang lại bố cục trực quan bắt mắt và các bối cảnh đương đại chân thực cho người học."
                   },
@@ -33333,7 +33333,7 @@ const ESSAY_DATA = [
                     "en": "pedagogical monotony",
                     "vi": "sự đơn điệu trong sư phạm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In addition, this variety prevents pedagogical monotony and stimulates intellectual curiosity.",
                     "example_vi": "Thêm vào đó, sự đa dạng này ngăn chặn sự đơn điệu trong sư phạm và kích thích trí tò mò hiểu biết."
                   },
@@ -33365,7 +33365,7 @@ const ESSAY_DATA = [
                     "en": "critical thinking",
                     "vi": "tư duy phản biện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using multiple textbooks fosters critical thinking and autonomous learning competencies.",
                     "example_vi": "Sử dụng nhiều sách giáo khoa nuôi dưỡng tư duy phản biện và năng lực tự học tự chủ."
                   },
@@ -33373,7 +33373,7 @@ const ESSAY_DATA = [
                     "en": "autonomous learning competencies",
                     "vi": "năng lực tự học tự chủ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using multiple textbooks fosters critical thinking and autonomous learning competencies.",
                     "example_vi": "Sử dụng nhiều sách giáo khoa nuôi dưỡng tư duy phản biện và năng lực tự học tự chủ."
                   },
@@ -33381,7 +33381,7 @@ const ESSAY_DATA = [
                     "en": "distinct viewpoints",
                     "vi": "các quan điểm khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consulting multiple authors prompts students to compare distinct viewpoints and evaluate factual evidence critically.",
                     "example_vi": "Việc tham khảo nhiều tác giả thúc đẩy học sinh so sánh các quan điểm khác nhau và đánh giá chứng cứ thực tế một cách phản biện."
                   },
@@ -33413,7 +33413,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, having multiple textbooks in education has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, sử dụng nhiều sách giáo khoa trong giáo dục ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -33421,7 +33421,7 @@ const ESSAY_DATA = [
                     "en": "lead to a range of benefits across different contexts",
                     "vi": "dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This has led to a range of benefits across different contexts for learners and society.",
                     "example_vi": "Điều này đã dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau cho người học và xã hội."
                   },
@@ -33429,7 +33429,7 @@ const ESSAY_DATA = [
                     "en": "focus on the main advantages associated with",
                     "vi": "tập trung vào những lợi ích chính gắn liền với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will focus on the main advantages associated with having multiple textbooks in education.",
                     "example_vi": "Bài tiểu luận này sẽ tập trung vào những lợi ích chính gắn liền với sử dụng nhiều sách giáo khoa trong giáo dục."
                   },
@@ -33437,7 +33437,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that practical experience reinforces theoretical learning.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là trải nghiệm thực tế giúp củng cố kiến thức lý thuyết."
                   },
@@ -33445,7 +33445,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu nguyên nhân B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that active participation builds lasting confidence.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là sự tham gia chủ động giúp xây dựng sự tự tin lâu dài."
                   },
@@ -34557,7 +34557,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒnəmi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền tự chủ, sự tự quyết",
                 "example_en": "Granting schools autonomy in textbook selection improves language teaching.",
                 "example_vi": "Trao quyền tự chủ chọn sách giáo khoa cho các trường giúp cải thiện việc dạy ngôn ngữ.",
@@ -34567,7 +34567,7 @@ const ESSAY_DATA = [
                 "word": "tailor",
                 "ipa": "/ˈteɪlə(r)/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "điều chỉnh cho phù hợp với nhu cầu riêng",
                 "example_en": "Teachers can tailor language materials to suit different groups of learners.",
                 "example_vi": "Giáo viên có thể điều chỉnh tài liệu ngôn ngữ cho phù hợp với các nhóm người học khác nhau.",
@@ -34577,7 +34577,7 @@ const ESSAY_DATA = [
                 "word": "acquisition",
                 "ipa": "/ˌækwɪˈzɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tiếp thu, lĩnh hội (ngôn ngữ)",
                 "example_en": "Engaging coursebooks play a vital role in second language acquisition.",
                 "example_vi": "Những cuốn giáo trình hấp dẫn đóng vai trò quan trọng trong việc tiếp thu ngôn ngữ thứ hai.",
@@ -34647,7 +34647,7 @@ const ESSAY_DATA = [
                 "word": "lifelong",
                 "ipa": "/ˈlaɪflɒŋ/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "suốt đời, lâu dài",
                 "example_en": "Consulting multiple sources helps learners build lifelong learning skills.",
                 "example_vi": "Tham khảo nhiều nguồn giúp người học xây dựng kỹ năng học tập suốt đời.",
@@ -34657,7 +34657,7 @@ const ESSAY_DATA = [
                 "word": "empower",
                 "ipa": "/ɪmˈpaʊər/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "trao quyền chủ động (cho nhà trường, giáo viên)",
                 "family": "empowerment (n), empowering (adj)",
                 "example_en": "Allowing schools to select language textbooks empowers teachers to innovate.",
@@ -34677,7 +34677,7 @@ const ESSAY_DATA = [
                 "word": "fluency",
                 "ipa": "/ˈfluː.ən.si/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trôi chảy, lưu loát khi giao tiếp",
                 "family": "fluent (adj), fluently (adv)",
                 "example_en": "Interactive textbooks focus on building speaking fluency alongside grammar.",
@@ -34687,7 +34687,7 @@ const ESSAY_DATA = [
                 "word": "motivation",
                 "ipa": "/ˌməʊ.tɪˈveɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "động lực học tập",
                 "family": "motivate (v), motivated (adj), motivating (adj)",
                 "example_en": "Engaging topics that match students' interests significantly boost learning motivation.",
@@ -34697,7 +34697,7 @@ const ESSAY_DATA = [
                 "word": "pedagogy",
                 "ipa": "/ˈped.ə.ɡɒdʒ.i/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "phương pháp sư phạm, nghệ thuật giảng dạy",
                 "family": "pedagogical (adj), pedagogue (n)",
                 "example_en": "Modern language pedagogy emphasizes real-world communication over rote memorization.",
@@ -34737,7 +34737,7 @@ const ESSAY_DATA = [
                 "word": "diversity",
                 "ipa": "/daɪˈvɜː.sə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đa dạng về văn hóa và trình độ",
                 "family": "diverse (adj), diversify (v)",
                 "example_en": "Flexible textbook selection respects the socioeconomic diversity of different school districts.",
@@ -34755,7 +34755,7 @@ const ESSAY_DATA = [
                     "en": "deeper understanding",
                     "vi": "sự hiểu biết sâu sắc hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using different textbooks helps students develop a deeper understanding of language knowledge.",
                     "example_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu kiến thức ngôn ngữ sâu sắc hơn."
                   },
@@ -34763,7 +34763,7 @@ const ESSAY_DATA = [
                     "en": "language knowledge",
                     "vi": "kiến thức ngôn ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using different textbooks helps students develop a deeper understanding of language knowledge.",
                     "example_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu kiến thức ngôn ngữ sâu sắc hơn."
                   },
@@ -34771,7 +34771,7 @@ const ESSAY_DATA = [
                     "en": "different explanations",
                     "vi": "các cách giải thích khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Different textbooks can present the same content through different explanations.",
                     "example_vi": "Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau."
                   },
@@ -34779,7 +34779,7 @@ const ESSAY_DATA = [
                     "en": "wider range of approaches",
                     "vi": "nhiều cách tiếp cận rộng hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They also provide a wider range of examples and approaches.",
                     "example_vi": "Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau."
                   },
@@ -34819,7 +34819,7 @@ const ESSAY_DATA = [
                     "en": "textbook choice",
                     "vi": "việc lựa chọn sách giáo khoa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbook choice allows schools to better meet differences in students' levels and learning needs.",
                     "example_vi": "Việc lựa chọn sách giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh."
                   },
@@ -34827,7 +34827,7 @@ const ESSAY_DATA = [
                     "en": "meet differences in levels",
                     "vi": "đáp ứng sự khác biệt về trình độ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbook choice allows schools to better meet differences in students' levels and learning needs.",
                     "example_vi": "Việc lựa chọn sách giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh."
                   },
@@ -34835,7 +34835,7 @@ const ESSAY_DATA = [
                     "en": "differ in presentation",
                     "vi": "khác nhau về cách trình bày",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbooks can differ in language, structure, difficulty, and presentation.",
                     "example_vi": "Các sách có thể khác nhau về ngôn ngữ, cấu trúc, độ khó và cách trình bày."
                   },
@@ -34843,7 +34843,7 @@ const ESSAY_DATA = [
                     "en": "learning styles",
                     "vi": "phong cách học tập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Teachers can select materials that suit students' abilities and learning styles.",
                     "example_vi": "Giáo viên có thể chọn tài liệu phù hợp với khả năng và phong cách học tập của học sinh."
                   },
@@ -34883,7 +34883,7 @@ const ESSAY_DATA = [
                     "en": "additional resources",
                     "vi": "nguồn tài liệu bổ sung",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using different textbooks provides additional resources for students' learning and preparation.",
                     "example_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để học sinh học tập và chuẩn bị tốt hơn."
                   },
@@ -34891,7 +34891,7 @@ const ESSAY_DATA = [
                     "en": "learning and preparation",
                     "vi": "học tập và sự chuẩn bị",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using different textbooks provides additional resources for students' learning and preparation.",
                     "example_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để học sinh học tập và chuẩn bị tốt hơn."
                   },
@@ -34899,7 +34899,7 @@ const ESSAY_DATA = [
                     "en": "review and reinforce knowledge",
                     "vi": "ôn tập và củng cố kiến thức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Students can use different materials to review and reinforce their knowledge.",
                     "example_vi": "Học sinh có thể sử dụng nhiều tài liệu để ôn tập và củng cố kiến thức."
                   },
@@ -34907,7 +34907,7 @@ const ESSAY_DATA = [
                     "en": "fill gaps in knowledge",
                     "vi": "lấp đầy khoảng trống kiến thức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Different materials help them fill gaps in their knowledge.",
                     "example_vi": "Các tài liệu khác nhau giúp các em lấp đầy những khoảng trống về kiến thức."
                   },
@@ -34947,7 +34947,7 @@ const ESSAY_DATA = [
                     "en": "local teaching conditions",
                     "vi": "điều kiện giảng dạy địa phương",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbook autonomy enables schools to select materials that align with local teaching conditions and institutional learning goals.",
                     "example_vi": "Quyền tự chọn sách giúp nhà trường lựa chọn giáo trình phù hợp với điều kiện giảng dạy và mục tiêu đào tạo tại địa phương."
                   },
@@ -34955,7 +34955,7 @@ const ESSAY_DATA = [
                     "en": "institutional learning goals",
                     "vi": "mục tiêu đào tạo của nhà trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Textbook autonomy enables schools to select materials that align with local teaching conditions and institutional learning goals.",
                     "example_vi": "Quyền tự chọn sách giúp nhà trường lựa chọn giáo trình phù hợp với điều kiện giảng dạy và mục tiêu đào tạo tại địa phương."
                   },
@@ -34963,7 +34963,7 @@ const ESSAY_DATA = [
                     "en": "cultural relevance",
                     "vi": "sự phù hợp về văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Choosing their own textbooks allows schools to adopt materials with high practical relevance to students' cultural contexts.",
                     "example_vi": "Việc tự chọn sách giúp nhà trường tích hợp các học liệu có tính ứng dụng cao và phù hợp với bối cảnh văn hóa của học sinh."
                   },
@@ -34995,7 +34995,7 @@ const ESSAY_DATA = [
                     "en": "communicative language teaching",
                     "vi": "dạy học ngôn ngữ giao tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Allowing schools to choose language textbooks encourages teachers to innovate their teaching methods toward modern communicative approaches.",
                     "example_vi": "Việc tự chủ chọn sách giáo khoa ngôn ngữ khuyến khích giáo viên đổi mới phương pháp giảng dạy theo hướng giao tiếp hiện đại."
                   },
@@ -35003,7 +35003,7 @@ const ESSAY_DATA = [
                     "en": "interactive digital resources",
                     "vi": "học liệu số tương tác",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Schools can prioritize modern language coursebooks that integrate interactive digital resources and authentic communicative situations.",
                     "example_vi": "Các trường có thể ưu tiên lựa chọn những bộ giáo trình ngoại ngữ tích hợp học liệu số tương tác và tình huống giao tiếp thực tế."
                   },
@@ -35011,7 +35011,7 @@ const ESSAY_DATA = [
                     "en": "pedagogical innovation",
                     "vi": "đổi mới phương pháp sư phạm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Allowing schools to choose language textbooks encourages teachers to innovate their teaching methods toward modern communicative approaches.",
                     "example_vi": "Việc tự chủ chọn sách giáo khoa ngôn ngữ khuyến khích giáo viên đổi mới phương pháp giảng dạy theo hướng giao tiếp hiện đại."
                   },
@@ -35043,7 +35043,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, allowing schools to choose their own language textbooks has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, cho phép trường học tự chọn sách giáo khoa ngôn ngữ ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -35051,7 +35051,7 @@ const ESSAY_DATA = [
                     "en": "lead to a range of benefits across different contexts",
                     "vi": "dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This has led to a range of benefits across different contexts for learners and society.",
                     "example_vi": "Điều này đã dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau cho người học và xã hội."
                   },
@@ -35059,7 +35059,7 @@ const ESSAY_DATA = [
                     "en": "focus on the main advantages associated with",
                     "vi": "tập trung vào những lợi ích chính gắn liền với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will focus on the main advantages associated with allowing schools to choose their own language textbooks.",
                     "example_vi": "Bài tiểu luận này sẽ tập trung vào những lợi ích chính gắn liền với cho phép trường học tự chọn sách giáo khoa ngôn ngữ."
                   },
@@ -35067,7 +35067,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that practical experience reinforces theoretical learning.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là trải nghiệm thực tế giúp củng cố kiến thức lý thuyết."
                   },
@@ -35075,7 +35075,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu nguyên nhân B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that active participation builds lasting confidence.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là sự tham gia chủ động giúp xây dựng sự tự tin lâu dài."
                   },
@@ -36595,7 +36595,7 @@ const ESSAY_DATA = [
                 "word": "livelihood",
                 "ipa": "/ˈlaɪvlihʊd/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sinh kế, kế sinh nhai",
                 "example_en": "Tourism provides a sustainable livelihood for many rural families.",
                 "example_vi": "Du lịch mang lại sinh kế bền vững cho nhiều gia đình ở nông thôn.",
@@ -36605,7 +36605,7 @@ const ESSAY_DATA = [
                 "word": "prosperity",
                 "ipa": "/prɒˈsperəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thịnh vượng, phát đạt",
                 "example_en": "Visitor spending contributes significantly to the economic prosperity of the town.",
                 "example_vi": "Chi tiêu của du khách đóng góp đáng kể vào sự thịnh vượng kinh tế của thị trấn.",
@@ -36615,7 +36615,7 @@ const ESSAY_DATA = [
                 "word": "preserve",
                 "ipa": "/prɪˈzɜːv/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bảo tồn, gìn giữ",
                 "example_en": "Revenue from ticket sales is used to preserve traditional crafts and festivals.",
                 "example_vi": "Doanh thu từ bán vé được sử dụng để bảo tồn các nghề thủ công và lễ hội truyền thống.",
@@ -36625,7 +36625,7 @@ const ESSAY_DATA = [
                 "word": "handicraft",
                 "ipa": "/ˈhændikrɑːft/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nghề thủ công, đồ thủ công mỹ nghệ",
                 "example_en": "Tourists enjoy buying local handicrafts as souvenirs.",
                 "example_vi": "Du khách thích mua các sản phẩm thủ công địa phương làm quà lưu niệm.",
@@ -36635,7 +36635,7 @@ const ESSAY_DATA = [
                 "word": "degrade",
                 "ipa": "/dɪˈɡreɪd/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "làm suy thoái, xuống cấp",
                 "example_en": "Uncontrolled mass tourism can degrade fragile natural habitats.",
                 "example_vi": "Du lịch đại trà không kiểm soát có thể làm suy thoái các môi trường sống tự nhiên mỏng manh.",
@@ -36655,7 +36655,7 @@ const ESSAY_DATA = [
                 "word": "erosion",
                 "ipa": "/ɪˈrəʊʒn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự xói mòn, mai một",
                 "example_en": "Many elders worry about the gradual erosion of indigenous cultural values.",
                 "example_vi": "Nhiều người lớn tuổi lo ngại về sự mai một dần của các giá trị văn hóa bản địa.",
@@ -36675,7 +36675,7 @@ const ESSAY_DATA = [
                 "word": "overcrowded",
                 "ipa": "/ˌəʊvəˈkraʊdɪd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quá đông đúc, quá tải",
                 "example_en": "Narrow village streets become overcrowded during peak holiday seasons.",
                 "example_vi": "Những con đường làng nhỏ hẹp trở nên quá tải vào các mùa nghỉ lễ cao điểm.",
@@ -36685,7 +36685,7 @@ const ESSAY_DATA = [
                 "word": "hospitality",
                 "ipa": "/ˌhɒspɪˈtæləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ngành dịch vụ khách sạn - nhà hàng; lòng hiếu khách",
                 "example_en": "Many young locals find jobs in the hospitality and travel sector.",
                 "example_vi": "Nhiều thanh niên địa phương tìm được việc làm trong ngành dịch vụ khách sạn và lữ hành.",
@@ -36715,7 +36715,7 @@ const ESSAY_DATA = [
                 "word": "revenue",
                 "ipa": "/ˈrev.ən.juː/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nguồn thu nhập, doanh thu",
                 "family": "revenues (n)",
                 "example_en": "Tourism generates vital revenue to upgrade rural roads, clinics, and schools.",
@@ -36785,7 +36785,7 @@ const ESSAY_DATA = [
                 "word": "artisan",
                 "ipa": "/ˌɑː.tɪˈzæn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nghệ nhân thủ công truyền thống",
                 "family": "artisanal (adj)",
                 "example_en": "Selling woven textiles directly to visitors allows local artisans to earn a fair income.",
@@ -36803,7 +36803,7 @@ const ESSAY_DATA = [
                     "en": "employment opportunities",
                     "vi": "cơ hội việc làm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism creates more employment opportunities for local people.",
                     "example_vi": "Du lịch tạo ra nhiều cơ hội việc làm cho người dân địa phương."
                   },
@@ -36811,7 +36811,7 @@ const ESSAY_DATA = [
                     "en": "tourism-related services",
                     "vi": "dịch vụ liên quan đến du lịch",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Local people can work in hotels, restaurants, and tourism-related services.",
                     "example_vi": "Người dân có thể làm việc trong khách sạn, nhà hàng và các dịch vụ liên quan đến du lịch."
                   },
@@ -36819,7 +36819,7 @@ const ESSAY_DATA = [
                     "en": "stable incomes",
                     "vi": "thu nhập ổn định",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This provides them with more stable incomes and improves their living conditions.",
                     "example_vi": "Điều này giúp họ có thu nhập ổn định hơn và cải thiện cuộc sống."
                   },
@@ -36851,7 +36851,7 @@ const ESSAY_DATA = [
                     "en": "boost the local economy",
                     "vi": "thúc đẩy kinh tế địa phương",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism boosts the local economy.",
                     "example_vi": "Du lịch thúc đẩy nền kinh tế của các cộng đồng địa phương."
                   },
@@ -36859,7 +36859,7 @@ const ESSAY_DATA = [
                     "en": "local business growth",
                     "vi": "sự phát triển của doanh nghiệp địa phương",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps local businesses increase their income and grow.",
                     "example_vi": "Điều này giúp các doanh nghiệp địa phương tăng doanh thu và phát triển."
                   },
@@ -36867,7 +36867,7 @@ const ESSAY_DATA = [
                     "en": "increase commercial revenue",
                     "vi": "tăng doanh thu thương mại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps local businesses increase their income and grow.",
                     "example_vi": "Điều này giúp các doanh nghiệp địa phương tăng doanh thu và phát triển."
                   },
@@ -36899,7 +36899,7 @@ const ESSAY_DATA = [
                     "en": "preserve local culture and traditions",
                     "vi": "bảo tồn văn hóa và truyền thống địa phương",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism contributes to preserving local culture and traditions.",
                     "example_vi": "Du lịch góp phần bảo tồn văn hóa và truyền thống địa phương."
                   },
@@ -36907,7 +36907,7 @@ const ESSAY_DATA = [
                     "en": "traditional handicrafts",
                     "vi": "nghề thủ công truyền thống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Local people can introduce traditional festivals, crafts, and customs to visitors.",
                     "example_vi": "Người dân có thể giới thiệu các lễ hội, nghề thủ công và phong tục truyền thống cho du khách."
                   },
@@ -36915,7 +36915,7 @@ const ESSAY_DATA = [
                     "en": "maintain cultural activities",
                     "vi": "duy trì các hoạt động văn hóa",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Income from tourism can be used to maintain local cultural activities.",
                     "example_vi": "Thu nhập từ du lịch có thể được sử dụng để duy trì các hoạt động văn hóa địa phương."
                   },
@@ -36947,7 +36947,7 @@ const ESSAY_DATA = [
                     "en": "upgrade public infrastructure",
                     "vi": "nâng cấp cơ sở hạ tầng công cộng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism development encourages investment in and upgrading of local infrastructure.",
                     "example_vi": "Sự phát triển du lịch thúc đẩy việc đầu tư và nâng cấp cơ sở hạ tầng tại địa phương."
                   },
@@ -36955,7 +36955,7 @@ const ESSAY_DATA = [
                     "en": "transportation networks",
                     "vi": "mạng lưới giao thông",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To better accommodate visitors, authorities and investors often improve road networks, public utilities, and healthcare facilities.",
                     "example_vi": "Để phục vụ du khách tốt hơn, chính quyền và các nhà đầu tư thường cải thiện hệ thống đường sá, mạng lưới giao thông, điện nước và cơ sở y tế."
                   },
@@ -36963,7 +36963,7 @@ const ESSAY_DATA = [
                     "en": "healthcare and sanitation facilities",
                     "vi": "cơ sở y tế và vệ sinh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To better accommodate visitors, authorities and investors often improve road networks, public utilities, and healthcare facilities.",
                     "example_vi": "Để phục vụ du khách tốt hơn, chính quyền và các nhà đầu tư thường cải thiện hệ thống đường sá, mạng lưới giao thông, điện nước và cơ sở y tế."
                   },
@@ -36995,7 +36995,7 @@ const ESSAY_DATA = [
                     "en": "cross-cultural exchange",
                     "vi": "giao lưu liên văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism creates opportunities for cultural exchange and broadens the horizons of local communities.",
                     "example_vi": "Du lịch tạo cơ hội giao lưu văn hóa và mở rộng tầm nhìn cho cộng đồng địa phương."
                   },
@@ -37003,7 +37003,7 @@ const ESSAY_DATA = [
                     "en": "broaden social horizons",
                     "vi": "mở rộng tầm nhìn xã hội",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism creates opportunities for cultural exchange and broadens the horizons of local communities.",
                     "example_vi": "Du lịch tạo cơ hội giao lưu văn hóa và mở rộng tầm nhìn cho cộng đồng địa phương."
                   },
@@ -37011,7 +37011,7 @@ const ESSAY_DATA = [
                     "en": "mutual understanding",
                     "vi": "sự thấu hiểu lẫn nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Through direct interaction with domestic and international visitors, local residents have the opportunity to learn foreign languages, communication skills, and new ideas.",
                     "example_vi": "Thông qua việc tiếp xúc trực tiếp với du khách trong và ngoài nước, người dân địa phương có cơ hội học hỏi thêm ngoại ngữ, kỹ năng giao tiếp và những ý tưởng mới."
                   },
@@ -37043,7 +37043,7 @@ const ESSAY_DATA = [
                     "en": "negative environmental effects",
                     "vi": "tác động tiêu cực đến môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism development can have negative effects on the local environment.",
                     "example_vi": "Sự phát triển du lịch có thể gây ảnh hưởng tiêu cực đến môi trường địa phương."
                   },
@@ -37051,7 +37051,7 @@ const ESSAY_DATA = [
                     "en": "waste and environmental pollution",
                     "vi": "rác thải và ô nhiễm môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Large numbers of visitors can create more waste and pollution.",
                     "example_vi": "Một lượng lớn du khách có thể tạo ra nhiều rác thải và ô nhiễm."
                   },
@@ -37059,7 +37059,7 @@ const ESSAY_DATA = [
                     "en": "degrade natural habitats",
                     "vi": "làm suy giảm môi trường tự nhiên",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can reduce the quality of natural areas and tourist attractions.",
                     "example_vi": "Điều này có thể làm giảm chất lượng của các khu vực tự nhiên và điểm du lịch."
                   },
@@ -37091,7 +37091,7 @@ const ESSAY_DATA = [
                     "en": "threaten traditional lifestyles",
                     "vi": "đe dọa lối sống truyền thống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism can threaten the traditional ways of life of local communities.",
                     "example_vi": "Du lịch có thể đe dọa lối sống và truyền thống của cộng đồng địa phương."
                   },
@@ -37099,7 +37099,7 @@ const ESSAY_DATA = [
                     "en": "cultural commercialization",
                     "vi": "thương mại hóa văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may cause some cultural values to gradually disappear.",
                     "example_vi": "Điều này có thể làm cho một số giá trị văn hóa dần mất đi."
                   },
@@ -37107,7 +37107,7 @@ const ESSAY_DATA = [
                     "en": "gradual loss of cultural values",
                     "vi": "sự mai một dần các giá trị văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may cause some cultural values to gradually disappear.",
                     "example_vi": "Điều này có thể làm cho một số giá trị văn hóa dần mất đi."
                   },
@@ -37139,7 +37139,7 @@ const ESSAY_DATA = [
                     "en": "increase the cost of living",
                     "vi": "làm tăng chi phí sinh hoạt",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism development can increase the cost of living for local people.",
                     "example_vi": "Sự phát triển du lịch có thể làm tăng chi phí sinh hoạt của người dân địa phương."
                   },
@@ -37147,7 +37147,7 @@ const ESSAY_DATA = [
                     "en": "soaring property and housing prices",
                     "vi": "giá nhà đất tăng vọt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "High demand from tourists can increase the prices of housing, food, and services.",
                     "example_vi": "Nhu cầu cao từ du khách có thể làm tăng giá nhà ở, thực phẩm và các dịch vụ."
                   },
@@ -37155,7 +37155,7 @@ const ESSAY_DATA = [
                     "en": "inflationary pressure on local prices",
                     "vi": "áp lực lạm phát lên giá cả địa phương",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Tourism development can increase the cost of living for local people.",
                     "example_vi": "Sự phát triển du lịch có thể làm tăng chi phí sinh hoạt của người dân địa phương."
                   },
@@ -37187,7 +37187,7 @@ const ESSAY_DATA = [
                     "en": "severe overcrowding",
                     "vi": "tình trạng quá tải nghiêm trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive numbers of tourists can cause severe overcrowding and disrupt the daily routines of local residents.",
                     "example_vi": "Lượng khách du lịch quá đông có thể gây ra tình trạng quá tải và làm xáo trộn cuộc sống thường nhật của người dân."
                   },
@@ -37195,7 +37195,7 @@ const ESSAY_DATA = [
                     "en": "traffic congestion",
                     "vi": "tắc nghẽn giao thông",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "During peak tourist seasons, a sudden influx of visitors often leads to traffic congestion, noise pollution, and heavy strain on local water and power supplies.",
                     "example_vi": "Vào mùa cao điểm, sự gia tăng đột biến của du khách thường dẫn đến tắc nghẽn giao thông, tiếng ồn và gây áp lực lớn lên hệ thống cấp nước, điện năng."
                   },
@@ -37203,7 +37203,7 @@ const ESSAY_DATA = [
                     "en": "strain public utilities",
                     "vi": "gây quá tải cho dịch vụ công ích",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "During peak tourist seasons, a sudden influx of visitors often leads to traffic congestion, noise pollution, and heavy strain on local water and power supplies.",
                     "example_vi": "Vào mùa cao điểm, sự gia tăng đột biến của du khách thường dẫn đến tắc nghẽn giao thông, tiếng ồn và gây áp lực lớn lên hệ thống cấp nước, điện năng."
                   },
@@ -37235,7 +37235,7 @@ const ESSAY_DATA = [
                     "en": "seasonal employment",
                     "vi": "việc làm mang tính thời vụ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Overdependence on tourism can expose local residents to unstable, seasonal employment.",
                     "example_vi": "Sự phụ thuộc quá mức vào du lịch có thể khiến người dân đối mặt với tình trạng việc làm thời vụ bấp bênh."
                   },
@@ -37243,7 +37243,7 @@ const ESSAY_DATA = [
                     "en": "economic vulnerability",
                     "vi": "sự dễ tổn thương về kinh tế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Furthermore, if tourism declines due to pandemics or economic downturns, the livelihoods of the entire community suffer severely.",
                     "example_vi": "Hơn nữa, nếu ngành du lịch bị đình trệ do dịch bệnh hoặc suy thoái kinh tế, sinh kế của cả cộng đồng sẽ bị ảnh hưởng nặng nề."
                   },
@@ -37251,7 +37251,7 @@ const ESSAY_DATA = [
                     "en": "fluctuating tourist arrivals",
                     "vi": "lượng khách du lịch biến động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many jobs in the hospitality sector are only active during certain months of the year, leaving workers with unstable incomes during off-peak seasons.",
                     "example_vi": "Nhiều công việc trong ngành du lịch chỉ nhộn nhịp vào một số tháng nhất định trong năm, khiến người lao động thiếu thu nhập ổn định vào mùa thấp điểm."
                   },
@@ -37283,7 +37283,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, tourism to local communities has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, ngành du lịch đối với cộng đồng địa phương ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -37291,7 +37291,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of tourism to local communities.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của ngành du lịch đối với cộng đồng địa phương."
                   },
@@ -37299,7 +37299,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -37307,7 +37307,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -38411,7 +38411,7 @@ const ESSAY_DATA = [
                 "word": "foundation",
                 "ipa": "/faʊnˈdeɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nền tảng",
                 "example_en": "Early exposure to picture books builds a strong language foundation.",
                 "example_vi": "Việc tiếp xúc sớm với sách tranh giúp xây dựng một nền tảng ngôn ngữ vững chắc.",
@@ -38421,7 +38421,7 @@ const ESSAY_DATA = [
                 "word": "imagination",
                 "ipa": "/ɪˌmædʒɪˈneɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "trí tưởng tượng",
                 "example_en": "Vivid stories and artwork stimulate children's imagination.",
                 "example_vi": "Những câu chuyện và tranh vẽ sinh động kích thích trí tưởng tượng của trẻ.",
@@ -38451,7 +38451,7 @@ const ESSAY_DATA = [
                 "word": "attractive",
                 "ipa": "/əˈtræktɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thu hút, hấp dẫn",
                 "example_en": "Brightly painted pages make books more attractive to reluctant readers.",
                 "example_vi": "Những trang sách có màu sắc tươi sáng làm cho sách trở nên thu hút hơn với những trẻ lười đọc.",
@@ -38461,7 +38461,7 @@ const ESSAY_DATA = [
                 "word": "empathy",
                 "ipa": "/ˈempəθi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thấu cảm, đồng cảm",
                 "example_en": "Following characters' journeys helps children develop empathy for others.",
                 "example_vi": "Theo dõi hành trình của các nhân vật giúp trẻ phát triển sự thấu cảm với người khác.",
@@ -38471,7 +38471,7 @@ const ESSAY_DATA = [
                 "word": "context",
                 "ipa": "/ˈkɒntekst/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ngữ cảnh, bối cảnh",
                 "example_en": "Pictures allow children to guess the meaning of new words in specific contexts.",
                 "example_vi": "Hình ảnh cho phép trẻ đoán nghĩa của từ mới trong những ngữ cảnh cụ thể.",
@@ -38481,7 +38481,7 @@ const ESSAY_DATA = [
                 "word": "stimulate",
                 "ipa": "/ˈstɪmjuleɪt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "kích thích, khơi gợi",
                 "example_en": "Picture books stimulate curiosity and a love of learning from an early age.",
                 "example_vi": "Sách tranh khơi gợi sự tò mò và niềm yêu thích học hỏi ngay từ khi còn nhỏ.",
@@ -38491,7 +38491,7 @@ const ESSAY_DATA = [
                 "word": "literacy",
                 "ipa": "/ˈlɪt.ər.ə.si/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "năng lực đọc viết và ngôn ngữ đầu đời",
                 "family": "literate (adj), illiterate (adj)",
                 "example_en": "Reading picture books aloud lays a strong foundation for early childhood literacy.",
@@ -38551,7 +38551,7 @@ const ESSAY_DATA = [
                 "word": "intimacy",
                 "ipa": "/ˈɪn.tɪ.mə.si/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự gắn bó ấm áp (giữa cha mẹ và con khi đọc sách)",
                 "family": "intimate (adj), intimately (adv)",
                 "example_en": "Bedtime storytelling with picture books fosters emotional intimacy between parents and children.",
@@ -38561,7 +38561,7 @@ const ESSAY_DATA = [
                 "word": "concentration",
                 "ipa": "/ˌkɒn.sənˈtreɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tập trung chú ý",
                 "family": "concentrate (v), concentrated (adj)",
                 "example_en": "Observing detailed illustrations trains young children to sustain their concentration.",
@@ -38571,7 +38571,7 @@ const ESSAY_DATA = [
                 "word": "moral",
                 "ipa": "/ˈmɒr.əl/",
                 "pos": "noun/adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bài học đạo đức, giá trị nhân văn",
                 "family": "morality (n), morally (adv)",
                 "example_en": "Fables in picture books convey meaningful moral lessons about kindness and honesty.",
@@ -38599,7 +38599,7 @@ const ESSAY_DATA = [
                     "en": "language abilities",
                     "vi": "khả năng ngôn ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Reading picture books helps children develop their language abilities.",
                     "example_vi": "Đọc sách tranh giúp trẻ phát triển khả năng ngôn ngữ."
                   },
@@ -38607,7 +38607,7 @@ const ESSAY_DATA = [
                     "en": "learn new vocabulary",
                     "vi": "học từ vựng mới",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can learn new vocabulary through simple stories.",
                     "example_vi": "Trẻ có thể học thêm từ vựng mới thông qua những câu chuyện đơn giản."
                   },
@@ -38615,7 +38615,7 @@ const ESSAY_DATA = [
                     "en": "specific contexts",
                     "vi": "ngữ cảnh cụ thể",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They can also learn how to use words and sentences in specific contexts.",
                     "example_vi": "Trẻ cũng có thể học cách sử dụng từ và câu trong những ngữ cảnh cụ thể."
                   },
@@ -38655,7 +38655,7 @@ const ESSAY_DATA = [
                     "en": "imagination and creativity",
                     "vi": "trí tưởng tượng và sự sáng tạo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Reading picture books develops children's imagination and creativity.",
                     "example_vi": "Đọc sách tranh giúp phát triển trí tưởng tượng và khả năng sáng tạo của trẻ."
                   },
@@ -38663,7 +38663,7 @@ const ESSAY_DATA = [
                     "en": "imagine places and events",
                     "vi": "tưởng tượng địa điểm và sự kiện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Stories help children imagine characters, places, and events.",
                     "example_vi": "Các câu chuyện giúp trẻ tưởng tượng về nhân vật, địa điểm và sự việc."
                   },
@@ -38671,7 +38671,7 @@ const ESSAY_DATA = [
                     "en": "think in different ways",
                     "vi": "suy nghĩ theo những cách khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This encourages children to think in different ways.",
                     "example_vi": "Điều này khuyến khích trẻ suy nghĩ theo những cách khác nhau."
                   },
@@ -38711,7 +38711,7 @@ const ESSAY_DATA = [
                     "en": "positive reading habits",
                     "vi": "thói quen đọc sách tích cực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Reading picture books helps children develop positive reading habits.",
                     "example_vi": "Đọc sách tranh giúp trẻ hình thành thói quen đọc sách tích cực."
                   },
@@ -38719,7 +38719,7 @@ const ESSAY_DATA = [
                     "en": "colourful illustrations",
                     "vi": "hình ảnh minh họa nhiều màu sắc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Colourful illustrations make books more attractive to children.",
                     "example_vi": "Hình ảnh nhiều màu sắc khiến sách trở nên hấp dẫn hơn đối với trẻ."
                   },
@@ -38727,7 +38727,7 @@ const ESSAY_DATA = [
                     "en": "attractive to children",
                     "vi": "hấp dẫn đối với trẻ em",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Colourful illustrations make books more attractive to children.",
                     "example_vi": "Hình ảnh nhiều màu sắc khiến sách trở nên hấp dẫn hơn đối với trẻ."
                   },
@@ -38767,7 +38767,7 @@ const ESSAY_DATA = [
                     "en": "emotional intelligence",
                     "vi": "trí tuệ cảm xúc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Reading picture books helps foster emotional intelligence and empathy in young children.",
                     "example_vi": "Đọc sách tranh giúp nuôi dưỡng trí tuệ cảm xúc và sự thấu cảm ở trẻ nhỏ."
                   },
@@ -38775,7 +38775,7 @@ const ESSAY_DATA = [
                     "en": "empathize with story characters",
                     "vi": "đồng cảm với các nhân vật trong truyện",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Through vivid facial expressions in illustrations and story situations, children can easily recognize characters' feelings of joy, sadness, or worry.",
                     "example_vi": "Thông qua các biểu cảm khuôn mặt sinh động trên tranh vẽ và tình huống trong truyện, trẻ dễ dàng nhận diện được cảm xúc vui, buồn hay lo lắng của nhân vật."
                   },
@@ -38783,7 +38783,7 @@ const ESSAY_DATA = [
                     "en": "facial expressions in illustrations",
                     "vi": "biểu cảm khuôn mặt trong tranh minh họa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Through vivid facial expressions in illustrations and story situations, children can easily recognize characters' feelings of joy, sadness, or worry.",
                     "example_vi": "Thông qua các biểu cảm khuôn mặt sinh động trên tranh vẽ và tình huống trong truyện, trẻ dễ dàng nhận diện được cảm xúc vui, buồn hay lo lắng của nhân vật."
                   },
@@ -38815,7 +38815,7 @@ const ESSAY_DATA = [
                     "en": "parent-child bonding",
                     "vi": "sự gắn kết giữa cha mẹ và con cái",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Shared picture book reading strengthens emotional bonding between parents and children.",
                     "example_vi": "Hoạt động cùng đọc sách tranh giúp thắt chặt tình cảm giữa cha mẹ và con cái."
                   },
@@ -38823,7 +38823,7 @@ const ESSAY_DATA = [
                     "en": "shared bedtime reading",
                     "vi": "hoạt động đọc sách cùng nhau trước giờ ngủ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Shared picture book reading strengthens emotional bonding between parents and children.",
                     "example_vi": "Hoạt động cùng đọc sách tranh giúp thắt chặt tình cảm giữa cha mẹ và con cái."
                   },
@@ -38831,7 +38831,7 @@ const ESSAY_DATA = [
                     "en": "meaningful family interaction",
                     "vi": "sự tương tác gia đình ý nghĩa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When parents spend time reading picture books and discussing the illustrations with their children, both sides enjoy warm and meaningful interaction.",
                     "example_vi": "Khi cha mẹ dành thời gian đọc truyện tranh và cùng con trò chuyện về các bức hình, hai bên sẽ có những giây phút tương tác gần gũi và ấm áp."
                   },
@@ -38863,7 +38863,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, reading picture books has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, đọc sách tranh ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -38871,7 +38871,7 @@ const ESSAY_DATA = [
                     "en": "lead to a range of benefits across different contexts",
                     "vi": "dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This has led to a range of benefits across different contexts for learners and society.",
                     "example_vi": "Điều này đã dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau cho người học và xã hội."
                   },
@@ -38879,7 +38879,7 @@ const ESSAY_DATA = [
                     "en": "focus on the main advantages associated with",
                     "vi": "tập trung vào những lợi ích chính gắn liền với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will focus on the main advantages associated with reading picture books.",
                     "example_vi": "Bài tiểu luận này sẽ tập trung vào những lợi ích chính gắn liền với đọc sách tranh."
                   },
@@ -38887,7 +38887,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that practical experience reinforces theoretical learning.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là trải nghiệm thực tế giúp củng cố kiến thức lý thuyết."
                   },
@@ -38895,7 +38895,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu nguyên nhân B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that active participation builds lasting confidence.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là sự tham gia chủ động giúp xây dựng sự tự tin lâu dài."
                   },
@@ -40417,7 +40417,7 @@ const ESSAY_DATA = [
                 "word": "analyse",
                 "ipa": "/ˈænəlaɪz/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "phân tích",
                 "example_en": "Players must analyse complex situations quickly to win the game.",
                 "example_vi": "Người chơi phải phân tích các tình huống phức tạp một cách nhanh chóng để chiến thắng trò chơi.",
@@ -40447,7 +40447,7 @@ const ESSAY_DATA = [
                 "word": "sedentary",
                 "ipa": "/ˈsedntri/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ít vận động, ngồi nhiều",
                 "example_en": "Spending hours playing video games promotes a sedentary lifestyle.",
                 "example_vi": "Dành hàng giờ chơi trò chơi điện tử thúc đẩy một lối sống ít vận động.",
@@ -40467,7 +40467,7 @@ const ESSAY_DATA = [
                 "word": "distraction",
                 "ipa": "/dɪˈstrækʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự xao nhãng, yếu tố gây phân tâm",
                 "example_en": "Online games can become a major distraction from academic studies.",
                 "example_vi": "Trò chơi trực tuyến có thể trở thành một yếu tố gây xao nhãng lớn đối với việc học.",
@@ -40497,7 +40497,7 @@ const ESSAY_DATA = [
                 "word": "supervision",
                 "ipa": "/ˌsuːpəˈvɪʒn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự giám sát, định hướng",
                 "example_en": "Children should only play online games under parental supervision.",
                 "example_vi": "Trẻ em chỉ nên chơi các trò chơi trực tuyến dưới sự giám sát của cha mẹ.",
@@ -40507,7 +40507,7 @@ const ESSAY_DATA = [
                 "word": "reflex",
                 "ipa": "/ˈriː.fleks/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "phản xạ nhanh nhạy (tay - mắt)",
                 "family": "reflexive (adj)",
                 "example_en": "Action and sports games can sharpen children's hand-eye coordination and reflexes.",
@@ -40527,7 +40527,7 @@ const ESSAY_DATA = [
                 "word": "resilience",
                 "ipa": "/rɪˈzɪl.jəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiên trì vượt qua thất bại",
                 "family": "resilient (adj)",
                 "example_en": "Overcoming difficult game levels teaches children perseverance and emotional resilience.",
@@ -40547,7 +40547,7 @@ const ESSAY_DATA = [
                 "word": "myopia",
                 "ipa": "/maɪˈəʊ.pi.ə/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tật cận thị",
                 "family": "myopic (adj)",
                 "example_en": "Staring at digital screens for hours is a leading cause of childhood myopia.",
@@ -40567,7 +40567,7 @@ const ESSAY_DATA = [
                 "word": "neglect",
                 "ipa": "/nɪˈɡlekt/",
                 "pos": "verb/noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sao nhãng, bỏ bê (việc học, bài tập)",
                 "family": "neglectful (adj), negligible (adj)",
                 "example_en": "Children who are obsessed with video games often neglect their schoolwork and chores.",
@@ -40577,7 +40577,7 @@ const ESSAY_DATA = [
                 "word": "aggression",
                 "ipa": "/əˈɡreʃ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính hung hăng, bạo lực",
                 "family": "aggressive (adj), aggressively (adv)",
                 "example_en": "Violent combat games may desensitize children and increase verbal aggression.",
@@ -40597,7 +40597,7 @@ const ESSAY_DATA = [
                 "word": "recreation",
                 "ipa": "/ˌrek.riˈeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hoạt động vui chơi giải trí lành mạnh",
                 "family": "recreational (adj), recreate (v)",
                 "example_en": "Play is an essential form of recreation after hours of intensive classroom study.",
@@ -40615,7 +40615,7 @@ const ESSAY_DATA = [
                     "en": "thinking and problem-solving skills",
                     "vi": "kỹ năng tư duy và giải quyết vấn đề",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing games can develop children's thinking and problem-solving skills.",
                     "example_vi": "Chơi trò chơi có thể phát triển khả năng tư duy và giải quyết vấn đề của trẻ."
                   },
@@ -40623,7 +40623,7 @@ const ESSAY_DATA = [
                     "en": "analyse situations",
                     "vi": "phân tích tình huống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many games require children to analyse situations and make decisions.",
                     "example_vi": "Nhiều trò chơi yêu cầu trẻ phân tích tình huống và đưa ra quyết định."
                   },
@@ -40631,7 +40631,7 @@ const ESSAY_DATA = [
                     "en": "make decisions",
                     "vi": "đưa ra quyết định",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many games require children to analyse situations and make decisions.",
                     "example_vi": "Nhiều trò chơi yêu cầu trẻ phân tích tình huống và đưa ra quyết định."
                   },
@@ -40663,7 +40663,7 @@ const ESSAY_DATA = [
                     "en": "support mental well-being",
                     "vi": "hỗ trợ sức khỏe tinh thần",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing games provides entertainment and supports children's mental well-being.",
                     "example_vi": "Chơi trò chơi mang lại sự giải trí và hỗ trợ sức khỏe tinh thần của trẻ."
                   },
@@ -40671,7 +40671,7 @@ const ESSAY_DATA = [
                     "en": "relax and reduce stress",
                     "vi": "thư giãn và giảm căng thẳng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can relax and reduce stress after studying.",
                     "example_vi": "Trẻ có thể thư giãn và giảm căng thẳng sau những giờ học."
                   },
@@ -40679,7 +40679,7 @@ const ESSAY_DATA = [
                     "en": "after studying",
                     "vi": "sau giờ học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children can relax and reduce stress after studying.",
                     "example_vi": "Trẻ có thể thư giãn và giảm căng thẳng sau những giờ học."
                   },
@@ -40711,7 +40711,7 @@ const ESSAY_DATA = [
                     "en": "playing multiplayer games",
                     "vi": "chơi trò chơi nhiều người",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing multiplayer games can help children develop social skills.",
                     "example_vi": "Chơi các trò chơi nhiều người có thể giúp trẻ phát triển kỹ năng xã hội."
                   },
@@ -40719,7 +40719,7 @@ const ESSAY_DATA = [
                     "en": "develop social skills",
                     "vi": "phát triển kỹ năng xã hội",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing multiplayer games can help children develop social skills.",
                     "example_vi": "Chơi các trò chơi nhiều người có thể giúp trẻ phát triển kỹ năng xã hội."
                   },
@@ -40727,7 +40727,7 @@ const ESSAY_DATA = [
                     "en": "communicate and cooperate",
                     "vi": "giao tiếp và hợp tác",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children need to communicate and cooperate with other players to complete tasks.",
                     "example_vi": "Trẻ phải giao tiếp và phối hợp với những người chơi khác để hoàn thành nhiệm vụ."
                   },
@@ -40759,7 +40759,7 @@ const ESSAY_DATA = [
                     "en": "digital literacy",
                     "vi": "kỹ năng sử dụng công nghệ số",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing video games helps children enhance their digital literacy and improve hand-eye coordination.",
                     "example_vi": "Chơi trò chơi điện tử giúp trẻ nâng cao sự nhạy bén với công nghệ và cải thiện khả năng phối hợp phản xạ."
                   },
@@ -40767,7 +40767,7 @@ const ESSAY_DATA = [
                     "en": "hand-eye coordination",
                     "vi": "sự phối hợp tay và mắt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing video games helps children enhance their digital literacy and improve hand-eye coordination.",
                     "example_vi": "Chơi trò chơi điện tử giúp trẻ nâng cao sự nhạy bén với công nghệ và cải thiện khả năng phối hợp phản xạ."
                   },
@@ -40775,7 +40775,7 @@ const ESSAY_DATA = [
                     "en": "quick reflexes",
                     "vi": "phản xạ nhanh nhạy",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "By controlling characters and responding to fast-paced on-screen events, children develop quicker reflexes and better spatial awareness.",
                     "example_vi": "Thông qua việc điều khiển nhân vật và xử lý các tình huống diễn ra nhanh trên màn hình, trẻ rèn luyện được phản xạ nhanh nhạy và nhận thức không gian tốt hơn."
                   },
@@ -40807,7 +40807,7 @@ const ESSAY_DATA = [
                     "en": "educational video games",
                     "vi": "trò chơi điện tử mang tính giáo dục",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Educational video games can help children acquire new knowledge and foreign languages naturally.",
                     "example_vi": "Các trò chơi điện tử mang tính giáo dục có thể hỗ trợ trẻ tiếp thu kiến thức mới và học ngoại ngữ một cách tự nhiên."
                   },
@@ -40815,7 +40815,7 @@ const ESSAY_DATA = [
                     "en": "gamified learning experience",
                     "vi": "trải nghiệm học tập qua trò chơi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many modern games incorporate mathematical puzzles, historical settings, or English instructions as part of the gameplay.",
                     "example_vi": "Nhiều trò chơi hiện nay lồng ghép các câu đố toán học, bối cảnh lịch sử hoặc sử dụng tiếng Anh làm ngôn ngữ hướng dẫn chính."
                   },
@@ -40823,7 +40823,7 @@ const ESSAY_DATA = [
                     "en": "acquire foreign vocabulary",
                     "vi": "tiếp thu từ vựng ngoại ngữ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Educational video games can help children acquire new knowledge and foreign languages naturally.",
                     "example_vi": "Các trò chơi điện tử mang tính giáo dục có thể hỗ trợ trẻ tiếp thu kiến thức mới và học ngoại ngữ một cách tự nhiên."
                   },
@@ -40855,7 +40855,7 @@ const ESSAY_DATA = [
                     "en": "excessive gaming",
                     "vi": "chơi game quá mức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive gaming can have negative effects on children's health.",
                     "example_vi": "Chơi game quá mức có thể gây ảnh hưởng tiêu cực đến sức khỏe của trẻ."
                   },
@@ -40863,7 +40863,7 @@ const ESSAY_DATA = [
                     "en": "negative effects on health",
                     "vi": "ảnh hưởng tiêu cực đến sức khỏe",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive gaming can have negative effects on children's health.",
                     "example_vi": "Chơi game quá mức có thể gây ảnh hưởng tiêu cực đến sức khỏe của trẻ."
                   },
@@ -40871,7 +40871,7 @@ const ESSAY_DATA = [
                     "en": "sit in front of screens",
                     "vi": "ngồi trước màn hình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children may spend too much time sitting in front of screens and doing little physical activity.",
                     "example_vi": "Trẻ có thể dành quá nhiều thời gian ngồi trước màn hình và ít vận động."
                   },
@@ -40903,7 +40903,7 @@ const ESSAY_DATA = [
                     "en": "affect academic performance",
                     "vi": "ảnh hưởng đến kết quả học tập",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive gaming can negatively affect children's academic performance.",
                     "example_vi": "Chơi game quá mức có thể ảnh hưởng tiêu cực đến kết quả học tập của trẻ."
                   },
@@ -40911,7 +40911,7 @@ const ESSAY_DATA = [
                     "en": "spend less time on homework",
                     "vi": "dành ít thời gian cho bài tập",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children may spend less time on homework and studying.",
                     "example_vi": "Trẻ có thể dành ít thời gian hơn cho bài tập và việc học."
                   },
@@ -40919,7 +40919,7 @@ const ESSAY_DATA = [
                     "en": "difficult to concentrate on lessons",
                     "vi": "khó tập trung vào bài học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Frequent gaming can make it difficult for them to concentrate on their lessons.",
                     "example_vi": "Việc chơi game thường xuyên có thể khiến các em khó tập trung vào bài học."
                   },
@@ -40951,7 +40951,7 @@ const ESSAY_DATA = [
                     "en": "affect children's behaviour",
                     "vi": "ảnh hưởng đến hành vi của trẻ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Excessive gaming can affect children's behaviour.",
                     "example_vi": "Chơi game quá mức có thể ảnh hưởng đến hành vi của trẻ."
                   },
@@ -40959,7 +40959,7 @@ const ESSAY_DATA = [
                     "en": "easily angry or impatient",
                     "vi": "dễ cáu gắt hoặc thiếu kiên nhẫn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children may become easily angry or impatient when they cannot play games.",
                     "example_vi": "Trẻ có thể trở nên dễ cáu hoặc thiếu kiên nhẫn khi không thể chơi game."
                   },
@@ -40967,7 +40967,7 @@ const ESSAY_DATA = [
                     "en": "spend less time with families",
                     "vi": "dành ít thời gian cho gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may also spend less time with their families and on real-life activities.",
                     "example_vi": "Các em cũng có thể dành ít thời gian hơn cho gia đình và các hoạt động ngoài đời thực."
                   },
@@ -40999,7 +40999,7 @@ const ESSAY_DATA = [
                     "en": "gaming addiction",
                     "vi": "chứng nghiện trò chơi điện tử",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Immersion in virtual worlds can lead to gaming addiction and reduce face-to-face communication in real life.",
                     "example_vi": "Việc đắm chìm vào thế giới ảo có thể dẫn đến nguy cơ nghiện game và làm giảm giao tiếp trực tiếp ngoài đời thực."
                   },
@@ -41007,7 +41007,7 @@ const ESSAY_DATA = [
                     "en": "social isolation",
                     "vi": "sự cô lập xã hội",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When children prefer virtual interactions, they tend to withdraw socially and avoid participating in real-world group activities.",
                     "example_vi": "Khi chỉ thích giao tiếp qua mạng ảo, trẻ có xu hướng thu mình và ngại tham gia các hoạt động tập thể ngoài đời thực."
                   },
@@ -41015,7 +41015,7 @@ const ESSAY_DATA = [
                     "en": "virtual world immersion",
                     "vi": "đắm chìm vào thế giới ảo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Immersion in virtual worlds can lead to gaming addiction and reduce face-to-face communication in real life.",
                     "example_vi": "Việc đắm chìm vào thế giới ảo có thể dẫn đến nguy cơ nghiện game và làm giảm giao tiếp trực tiếp ngoài đời thực."
                   },
@@ -41047,7 +41047,7 @@ const ESSAY_DATA = [
                     "en": "violent gaming content",
                     "vi": "nội dung trò chơi bạo lực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children playing online games without supervision may be exposed to violent content and online safety risks.",
                     "example_vi": "Trẻ em chơi game trực tuyến mà thiếu sự giám sát có thể tiếp xúc với nội dung bạo lực và các rủi ro trên mạng."
                   },
@@ -41055,7 +41055,7 @@ const ESSAY_DATA = [
                     "en": "aggressive tendencies",
                     "vi": "xu hướng hành vi hung hăng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some games contain violent imagery or toxic language from strangers, which may encourage children to imitate aggressive behaviours.",
                     "example_vi": "Một số trò chơi chứa đựng hình ảnh bạo lực hoặc ngôn từ tiêu cực từ người lạ, dễ khiến trẻ bắt chước các hành vi hung hăng."
                   },
@@ -41063,7 +41063,7 @@ const ESSAY_DATA = [
                     "en": "cyberbullying in online games",
                     "vi": "bắt nạt qua mạng trong game trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children playing online games without supervision may be exposed to violent content and online safety risks.",
                     "example_vi": "Trẻ em chơi game trực tuyến mà thiếu sự giám sát có thể tiếp xúc với nội dung bạo lực và các rủi ro trên mạng."
                   },
@@ -41095,7 +41095,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, children playing games has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, trẻ em chơi trò chơi điện tử ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -41103,7 +41103,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of children playing games.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của trẻ em chơi trò chơi điện tử."
                   },
@@ -41111,7 +41111,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -41119,7 +41119,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -42599,7 +42599,7 @@ const ESSAY_DATA = [
                 "word": "remuneration",
                 "ipa": "/rɪˌmjuː.nərˈeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tiền lương, thù lao và phúc lợi",
                 "example_en": "Many professionals change jobs to seek better remuneration.",
                 "example_vi": "Nhiều người đi làm chuyển việc để tìm kiếm chế độ đãi ngộ tốt hơn.",
@@ -42609,7 +42609,7 @@ const ESSAY_DATA = [
                 "word": "adaptability",
                 "ipa": "/əˌdæp.təˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng thích nghi",
                 "example_en": "Working in different environments enhances an employee's adaptability.",
                 "example_vi": "Làm việc trong nhiều môi trường khác nhau giúp nâng cao khả năng thích nghi của nhân viên.",
@@ -42619,7 +42619,7 @@ const ESSAY_DATA = [
                 "word": "advancement",
                 "ipa": "/ədˈvɑːns.mənt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thăng tiến",
                 "example_en": "Strategic job changes can accelerate career advancement.",
                 "example_vi": "Những lần chuyển việc có chiến lược có thể thúc đẩy nhanh sự thăng tiến.",
@@ -42629,7 +42629,7 @@ const ESSAY_DATA = [
                 "word": "instability",
                 "ipa": "/ˌɪn.stəˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự bất ổn, thiếu ổn định",
                 "example_en": "Leaving a job without a backup plan may cause financial instability.",
                 "example_vi": "Nghỉ việc khi chưa có phương án dự phòng có thể gây bất ổn tài chính.",
@@ -42639,7 +42639,7 @@ const ESSAY_DATA = [
                 "word": "turnover",
                 "ipa": "/ˈtɜːnˌəʊ.vər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tỷ lệ biến động nhân sự",
                 "example_en": "High staff turnover increases recruitment costs for businesses.",
                 "example_vi": "Tỷ lệ biến động nhân sự cao làm tăng chi phí tuyển dụng cho doanh nghiệp.",
@@ -42679,7 +42679,7 @@ const ESSAY_DATA = [
                 "word": "burnout",
                 "ipa": "/ˈbɜːn.aʊt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiệt sức vì công việc",
                 "example_en": "Leaving a stressful workplace can prevent severe occupational burnout.",
                 "example_vi": "Rời bỏ nơi làm việc căng thẳng có thể ngăn ngừa tình trạng kiệt sức nghề nghiệp.",
@@ -42689,7 +42689,7 @@ const ESSAY_DATA = [
                 "word": "prospect",
                 "ipa": "/ˈprɒs.pekt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "triển vọng nghề nghiệp",
                 "example_en": "Acquiring diverse skills significantly improves future career prospects.",
                 "example_vi": "Tích lũy các kỹ năng đa dạng giúp cải thiện đáng kể triển vọng nghề nghiệp tương lai.",
@@ -42699,7 +42699,7 @@ const ESSAY_DATA = [
                 "word": "stagnation",
                 "ipa": "/stæɡˈneɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trì trệ, giẫm chân tại chỗ trong sự nghiệp",
                 "family": "stagnate (v), stagnant (adj)",
                 "example_en": "Switching companies helps ambitious professionals avoid career stagnation.",
@@ -42719,7 +42719,7 @@ const ESSAY_DATA = [
                 "word": "loyalty",
                 "ipa": "/ˈlɔɪ.əl.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "lòng trung thành, sự gắn bó với tổ chức",
                 "family": "loyal (adj), loyally (adv), disloyal (adj)",
                 "example_en": "Frequent job changes may cause recruiters to question an applicant's loyalty.",
@@ -42759,7 +42759,7 @@ const ESSAY_DATA = [
                 "word": "mastery",
                 "ipa": "/ˈmɑː.stər.i/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tinh thông, làm chủ chuyên môn sâu",
                 "family": "master (n/v), masterful (adj)",
                 "example_en": "True mastery of a complex profession requires years of sustained dedication.",
@@ -42807,7 +42807,7 @@ const ESSAY_DATA = [
                     "en": "financial rewards",
                     "vi": "đãi ngộ tài chính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can improve their financial situation and standard of living.",
                     "example_vi": "Điều này giúp họ cải thiện tình hình tài chính và mức sống."
                   },
@@ -42815,7 +42815,7 @@ const ESSAY_DATA = [
                     "en": "remuneration package",
                     "vi": "gói đãi ngộ / lương thưởng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Workers can look for companies that are willing to pay more for their experience and skills.",
                     "example_vi": "Người lao động có thể tìm những công ty sẵn sàng trả nhiều tiền hơn cho kinh nghiệm và kỹ năng của họ."
                   },
@@ -42823,7 +42823,7 @@ const ESSAY_DATA = [
                     "en": "standard of living",
                     "vi": "mức sống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can improve their financial situation and standard of living.",
                     "example_vi": "Điều này giúp họ cải thiện tình hình tài chính và mức sống."
                   },
@@ -42855,7 +42855,7 @@ const ESSAY_DATA = [
                     "en": "diverse experience",
                     "vi": "kinh nghiệm đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Job hopping allows workers to gain diverse experience and skills.",
                     "example_vi": "Nhảy việc giúp người lao động tích lũy nhiều kinh nghiệm và kỹ năng đa dạng."
                   },
@@ -42863,7 +42863,7 @@ const ESSAY_DATA = [
                     "en": "expand professional network",
                     "vi": "mở rộng mạng lưới chuyên môn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They can work in different positions and working environments.",
                     "example_vi": "Họ có thể làm việc ở nhiều vị trí và môi trường khác nhau."
                   },
@@ -42871,7 +42871,7 @@ const ESSAY_DATA = [
                     "en": "ability to adapt",
                     "vi": "khả năng thích nghi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This broadens their knowledge and develops their ability to adapt.",
                     "example_vi": "Điều này giúp họ mở rộng kiến thức và phát triển khả năng thích nghi."
                   },
@@ -42903,7 +42903,7 @@ const ESSAY_DATA = [
                     "en": "career opportunities",
                     "vi": "cơ hội nghề nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Job hopping helps workers find better career opportunities.",
                     "example_vi": "Nhảy việc giúp người lao động tìm được những cơ hội nghề nghiệp phù hợp hơn."
                   },
@@ -42911,7 +42911,7 @@ const ESSAY_DATA = [
                     "en": "career trajectory",
                     "vi": "lộ trình phát triển nghề nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Job hopping helps workers find better career opportunities.",
                     "example_vi": "Nhảy việc giúp người lao động tìm được những cơ hội nghề nghiệp phù hợp hơn."
                   },
@@ -42919,7 +42919,7 @@ const ESSAY_DATA = [
                     "en": "motivated at work",
                     "vi": "có động lực làm việc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can make them more satisfied and motivated at work.",
                     "example_vi": "Điều này có thể giúp họ cảm thấy hài lòng hơn và có động lực làm việc cao hơn."
                   },
@@ -42951,7 +42951,7 @@ const ESSAY_DATA = [
                     "en": "expand professional networks",
                     "vi": "mở rộng mạng lưới quan hệ chuyên môn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Job hopping enables workers to expand their professional networks across different organizations.",
                     "example_vi": "Nhảy việc giúp người lao động mở rộng mạng lưới quan hệ công việc trong nhiều lĩnh vực."
                   },
@@ -42959,7 +42959,7 @@ const ESSAY_DATA = [
                     "en": "build valuable connections",
                     "vi": "xây dựng các mối quan hệ giá trị",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "These valuable connections can open doors to future business collaborations and support long-term career advancement.",
                     "example_vi": "Những mối quan hệ giá trị này có thể mang lại các cơ hội hợp tác hoặc hỗ trợ đắc lực cho sự thăng tiến lâu dài."
                   },
@@ -42967,7 +42967,7 @@ const ESSAY_DATA = [
                     "en": "industry experts",
                     "vi": "các chuyên gia trong ngành",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "By working at various companies, employees have opportunities to connect with diverse colleagues, managers, and industry experts.",
                     "example_vi": "Khi làm việc tại nhiều công ty khác nhau, họ có cơ hội gặp gỡ và kết nối với nhiều đồng nghiệp, quản lý cũng như chuyên gia trong ngành."
                   },
@@ -42999,7 +42999,7 @@ const ESSAY_DATA = [
                     "en": "toxic work environments",
                     "vi": "môi trường làm việc độc hại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Changing jobs allows employees to leave toxic work environments and protect their mental well-being.",
                     "example_vi": "Chuyển việc giúp người lao động thoát khỏi môi trường làm việc độc hại và bảo vệ sức khỏe tinh thần."
                   },
@@ -43007,7 +43007,7 @@ const ESSAY_DATA = [
                     "en": "protect mental well-being",
                     "vi": "bảo vệ sức khỏe tinh thần",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Changing jobs allows employees to leave toxic work environments and protect their mental well-being.",
                     "example_vi": "Chuyển việc giúp người lao động thoát khỏi môi trường làm việc độc hại và bảo vệ sức khỏe tinh thần."
                   },
@@ -43015,7 +43015,7 @@ const ESSAY_DATA = [
                     "en": "avoid occupational burnout",
                     "vi": "tránh tình trạng kiệt sức nghề nghiệp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When facing excessive stress or unfair management, moving to a company with a supportive corporate culture helps workers avoid occupational burnout.",
                     "example_vi": "Nếu phải chịu đựng áp lực quá mức hoặc sự quản lý thiếu công bằng, việc chuyển sang một doanh nghiệp có văn hóa tích cực hơn sẽ giúp họ tránh bị kiệt sức."
                   },
@@ -43047,7 +43047,7 @@ const ESSAY_DATA = [
                     "en": "financial vulnerability",
                     "vi": "rủi ro tài chính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Frequent job hopping may create financial instability for workers.",
                     "example_vi": "Nhảy việc thường xuyên có thể khiến người lao động gặp khó khăn về tài chính."
                   },
@@ -43055,7 +43055,7 @@ const ESSAY_DATA = [
                     "en": "forfeit severance packages",
                     "vi": "mất các gói trợ cấp thôi việc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may lose part of their income while looking for a new job.",
                     "example_vi": "Họ có thể mất một phần thu nhập trong thời gian tìm công việc mới."
                   },
@@ -43063,7 +43063,7 @@ const ESSAY_DATA = [
                     "en": "long-term benefits",
                     "vi": "phúc lợi lâu dài",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They may also miss out on long-term benefits from a company.",
                     "example_vi": "Họ cũng có thể không được hưởng đầy đủ các phúc lợi lâu dài từ một công ty."
                   },
@@ -43095,7 +43095,7 @@ const ESSAY_DATA = [
                     "en": "interrupt career trajectory",
                     "vi": "làm gián đoạn lộ trình sự nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Job hopping too frequently may interrupt career development.",
                     "example_vi": "Nhảy việc quá thường xuyên có thể làm gián đoạn quá trình phát triển nghề nghiệp."
                   },
@@ -43103,7 +43103,7 @@ const ESSAY_DATA = [
                     "en": "deep domain expertise",
                     "vi": "chuyên môn sâu trong ngành",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Workers have less time to develop deep expertise in one field.",
                     "example_vi": "Người lao động có ít thời gian để phát triển chuyên môn sâu trong một lĩnh vực."
                   },
@@ -43111,7 +43111,7 @@ const ESSAY_DATA = [
                     "en": "perceived lack of loyalty",
                     "vi": "bị đánh giá thiếu lòng trung thành",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Workers have less time to develop deep expertise in one field.",
                     "example_vi": "Người lao động có ít thời gian để phát triển chuyên môn sâu trong một lĩnh vực."
                   },
@@ -43143,7 +43143,7 @@ const ESSAY_DATA = [
                     "en": "corporate turnover costs",
                     "vi": "chi phí thay thế nhân sự của DN",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Frequent job hopping can create costs and difficulties for companies.",
                     "example_vi": "Nhảy việc thường xuyên có thể gây ra nhiều chi phí và khó khăn cho doanh nghiệp."
                   },
@@ -43151,7 +43151,7 @@ const ESSAY_DATA = [
                     "en": "onboarding expenditures",
                     "vi": "chi phí tuyển dụng và hội nhập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Companies have to recruit and train new employees frequently.",
                     "example_vi": "Doanh nghiệp phải tuyển dụng và đào tạo nhân viên mới thường xuyên."
                   },
@@ -43159,7 +43159,7 @@ const ESSAY_DATA = [
                     "en": "disrupt workforce stability",
                     "vi": "làm gián đoạn sự ổn định nhân sự",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can reduce productivity and affect the stability of the workforce.",
                     "example_vi": "Điều này có thể làm giảm năng suất và ảnh hưởng đến sự ổn định của đội ngũ."
                   },
@@ -43191,7 +43191,7 @@ const ESSAY_DATA = [
                     "en": "negative impression on employers",
                     "vi": "ấn tượng xấu với nhà tuyển dụng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Changing jobs too frequently may create a negative impression on potential employers.",
                     "example_vi": "Nhảy việc quá thường xuyên có thể tạo ấn tượng không tốt đối với các nhà tuyển dụng."
                   },
@@ -43199,7 +43199,7 @@ const ESSAY_DATA = [
                     "en": "lack of commitment and loyalty",
                     "vi": "thiếu sự cam kết và lòng trung thành",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many recruiters may view candidates with a history of frequent job changes as lacking commitment, patience, and loyalty.",
                     "example_vi": "Nhiều nhà tuyển dụng có thể đánh giá những ứng viên liên tục đổi việc là thiếu sự cam kết, kiên nhẫn và lòng trung thành."
                   },
@@ -43207,7 +43207,7 @@ const ESSAY_DATA = [
                     "en": "scrutinize employment history",
                     "vi": "xem xét kỹ lưỡng lịch sử làm việc",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Changing jobs too frequently may create a negative impression on potential employers.",
                     "example_vi": "Nhảy việc quá thường xuyên có thể tạo ấn tượng không tốt đối với các nhà tuyển dụng."
                   },
@@ -43239,7 +43239,7 @@ const ESSAY_DATA = [
                     "en": "constant pressure to adapt",
                     "vi": "áp lực phải liên tục thích nghi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Frequent job hoppers face psychological stress from constantly adapting to new workplaces.",
                     "example_vi": "Người nhảy việc thường xuyên phải đối mặt với áp lực tâm lý khi liên tục thích nghi với môi trường mới."
                   },
@@ -43247,7 +43247,7 @@ const ESSAY_DATA = [
                     "en": "unfamiliar workplace procedures",
                     "vi": "quy trình làm việc mới lạ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Every time employees start a new job, they must learn unfamiliar workplace procedures, adjust to a new corporate culture, and rebuild workplace relationships.",
                     "example_vi": "Mỗi khi bắt đầu công việc mới, nhân viên lại phải làm quen từ đầu với quy trình làm việc, văn hóa công ty và xây dựng lại mối quan hệ với đồng nghiệp."
                   },
@@ -43255,7 +43255,7 @@ const ESSAY_DATA = [
                     "en": "rebuild workplace relationships",
                     "vi": "xây dựng lại mối quan hệ đồng nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Every time employees start a new job, they must learn unfamiliar workplace procedures, adjust to a new corporate culture, and rebuild workplace relationships.",
                     "example_vi": "Mỗi khi bắt đầu công việc mới, nhân viên lại phải làm quen từ đầu với quy trình làm việc, văn hóa công ty và xây dựng lại mối quan hệ với đồng nghiệp."
                   },
@@ -43287,7 +43287,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, job hopping has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, nhảy việc ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -43295,7 +43295,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of job hopping.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của nhảy việc."
                   },
@@ -43303,7 +43303,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -43311,7 +43311,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -44771,7 +44771,7 @@ const ESSAY_DATA = [
                 "word": "yield",
                 "ipa": "/jiːld/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sản lượng, năng suất cây trồng",
                 "example_en": "Biotech crops can produce higher agricultural yields.",
                 "example_vi": "Cây trồng công nghệ sinh học có thể mang lại sản lượng nông nghiệp cao hơn.",
@@ -44781,7 +44781,7 @@ const ESSAY_DATA = [
                 "word": "nutrient",
                 "ipa": "/ˈnjuː.tri.ənt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chất dinh dưỡng",
                 "example_en": "Biofortified rice is enriched with essential nutrients like vitamin A.",
                 "example_vi": "Gạo tăng cường sinh học được bổ sung các chất dinh dưỡng thiết yếu như vitamin A.",
@@ -44791,7 +44791,7 @@ const ESSAY_DATA = [
                 "word": "pesticide",
                 "ipa": "/ˈpes.tɪ.saɪd/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuốc trừ sâu",
                 "example_en": "Pest-resistant plants reduce the need for chemical pesticides.",
                 "example_vi": "Cây trồng kháng sâu bệnh làm giảm nhu cầu sử dụng thuốc trừ sâu hóa học.",
@@ -44811,7 +44811,7 @@ const ESSAY_DATA = [
                 "word": "allergy",
                 "ipa": "/ˈæl.ə.dʒi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "dị ứng",
                 "example_en": "New food products must be tested to prevent food allergies.",
                 "example_vi": "Các sản phẩm thực phẩm mới phải được kiểm nghiệm để ngăn ngừa dị ứng thực phẩm.",
@@ -44821,7 +44821,7 @@ const ESSAY_DATA = [
                 "word": "drought",
                 "ipa": "/draʊt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hạn hán",
                 "example_en": "Drought-tolerant crops help farmers survive dry seasons.",
                 "example_vi": "Các giống cây chịu hạn giúp nông dân vượt qua những mùa khô hạn.",
@@ -44871,7 +44871,7 @@ const ESSAY_DATA = [
                 "word": "modification",
                 "ipa": "/ˌmɒd.ɪ.fɪˈkeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự biến đổi, chỉnh sửa (gen)",
                 "family": "modify (v), modified (adj)",
                 "example_en": "Genetic modification enables scientists to create crops that resist severe pests.",
@@ -44901,7 +44901,7 @@ const ESSAY_DATA = [
                 "word": "monopoly",
                 "ipa": "/məˈnɒp.əl.i/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự độc quyền (của các tập đoàn hạt giống)",
                 "family": "monopolize (v), monopolistic (adj)",
                 "example_en": "Patented GM seeds can create a corporate monopoly over global food supplies.",
@@ -44921,7 +44921,7 @@ const ESSAY_DATA = [
                 "word": "spoilage",
                 "ipa": "/ˈspɔɪ.lɪdʒ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự hư hỏng, thối rữa thực phẩm",
                 "family": "spoil (v), spoiled (adj)",
                 "example_en": "Delayed-ripening technology reduces post-harvest spoilage during long-distance transport.",
@@ -44931,7 +44931,7 @@ const ESSAY_DATA = [
                 "word": "labeling",
                 "ipa": "/ˈleɪ.bəl.ɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "việc dán nhãn thông tin minh bạch",
                 "family": "label (n/v)",
                 "example_en": "Mandatory GMO labeling empowers consumers to make informed dietary choices.",
@@ -44941,7 +44941,7 @@ const ESSAY_DATA = [
                 "word": "famine",
                 "ipa": "/ˈfæm.ɪn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nạn đói, sự khan hiếm lương thực",
                 "family": "famished (adj)",
                 "example_en": "High-yielding biotech crops play a vital role in preventing famine in overpopulated countries.",
@@ -44979,7 +44979,7 @@ const ESSAY_DATA = [
                     "en": "contribute to higher food production",
                     "vi": "góp phần tăng sản lượng lương thực",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food can contribute to higher food production.",
                     "example_vi": "Thực phẩm công nghệ sinh học có thể góp phần tăng sản lượng lương thực."
                   },
@@ -44987,7 +44987,7 @@ const ESSAY_DATA = [
                     "en": "produce higher yields",
                     "vi": "cho năng suất cao hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some crops can grow faster and produce higher yields.",
                     "example_vi": "Một số loại cây có thể phát triển nhanh hơn và cho năng suất cao hơn."
                   },
@@ -44995,7 +44995,7 @@ const ESSAY_DATA = [
                     "en": "growing food needs",
                     "vi": "nhu cầu lương thực ngày càng tăng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps meet the growing food needs of the population.",
                     "example_vi": "Điều này giúp đáp ứng nhu cầu lương thực ngày càng tăng của dân số."
                   },
@@ -45027,7 +45027,7 @@ const ESSAY_DATA = [
                     "en": "longer shelf life",
                     "vi": "thời hạn sử dụng lâu hơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food can have a longer shelf life.",
                     "example_vi": "Thực phẩm công nghệ sinh học có thể có thời hạn sử dụng lâu hơn."
                   },
@@ -45035,7 +45035,7 @@ const ESSAY_DATA = [
                     "en": "maintain quality for longer periods",
                     "vi": "duy trì chất lượng lâu hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some products can maintain their quality for longer periods.",
                     "example_vi": "Một số sản phẩm có thể giữ được chất lượng trong thời gian dài hơn."
                   },
@@ -45043,7 +45043,7 @@ const ESSAY_DATA = [
                     "en": "reduce food waste",
                     "vi": "giảm lãng phí thực phẩm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can help reduce food waste.",
                     "example_vi": "Điều này có thể giúp giảm lượng thực phẩm bị lãng phí."
                   },
@@ -45075,7 +45075,7 @@ const ESSAY_DATA = [
                     "en": "provide higher levels of nutrients",
                     "vi": "cung cấp mức dinh dưỡng cao hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food can provide higher levels of nutrients.",
                     "example_vi": "Thực phẩm công nghệ sinh học có thể cung cấp nhiều chất dinh dưỡng hơn."
                   },
@@ -45083,7 +45083,7 @@ const ESSAY_DATA = [
                     "en": "fortified with vitamins and minerals",
                     "vi": "được bổ sung vitamin và khoáng chất",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some foods can be produced with higher levels of vitamins and minerals.",
                     "example_vi": "Một số loại thực phẩm có thể được sản xuất với hàm lượng vitamin và khoáng chất cao hơn."
                   },
@@ -45091,7 +45091,7 @@ const ESSAY_DATA = [
                     "en": "improve consumers' diets",
                     "vi": "cải thiện chế độ ăn người tiêu dùng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can help improve consumers' diets.",
                     "example_vi": "Điều này có thể giúp cải thiện chế độ ăn uống của người tiêu dùng."
                   },
@@ -45123,7 +45123,7 @@ const ESSAY_DATA = [
                     "en": "harsh weather conditions",
                     "vi": "điều kiện thời tiết khắc nghiệt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech crops have greater resistance to harsh weather conditions and climate change.",
                     "example_vi": "Thực phẩm công nghệ sinh học giúp cây trồng tăng khả năng chống chịu với thời tiết khắc nghiệt."
                   },
@@ -45131,7 +45131,7 @@ const ESSAY_DATA = [
                     "en": "drought-resistant crops",
                     "vi": "cây trồng chịu hạn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech crops have greater resistance to harsh weather conditions and climate change.",
                     "example_vi": "Thực phẩm công nghệ sinh học giúp cây trồng tăng khả năng chống chịu với thời tiết khắc nghiệt."
                   },
@@ -45139,7 +45139,7 @@ const ESSAY_DATA = [
                     "en": "ensure global food security",
                     "vi": "đảm bảo an ninh lương thực toàn cầu",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps stabilize agricultural yields and ensures global food security in the face of climate change.",
                     "example_vi": "Điều này giúp ổn định sản lượng nông nghiệp và đảm bảo an ninh lương thực toàn cầu."
                   },
@@ -45171,7 +45171,7 @@ const ESSAY_DATA = [
                     "en": "chemical pesticides",
                     "vi": "thuốc trừ sâu hóa học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Pest-resistant biotech crops help reduce the need for harmful chemical pesticides.",
                     "example_vi": "Cây trồng công nghệ sinh học có khả năng kháng sâu bệnh tự nhiên, giúp giảm việc phun thuốc trừ sâu hóa học."
                   },
@@ -45179,7 +45179,7 @@ const ESSAY_DATA = [
                     "en": "natural pest resistance",
                     "vi": "khả năng kháng sâu bệnh tự nhiên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When crops possess natural pest resistance, farmers do not need to spray excessive toxic chemicals on their fields.",
                     "example_vi": "Khi cây trồng tự có khả năng chống lại côn trùng gây hại, người nông dân không cần phải phun quá nhiều hóa chất độc hại trên đồng ruộng."
                   },
@@ -45187,7 +45187,7 @@ const ESSAY_DATA = [
                     "en": "lower farming costs",
                     "vi": "giảm chi phí canh tác",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Consequently, they can lower farming costs while reducing soil and water contamination.",
                     "example_vi": "Nhờ đó, họ vừa tiết kiệm được chi phí canh tác vừa hạn chế ô nhiễm đất và nguồn nước."
                   },
@@ -45219,7 +45219,7 @@ const ESSAY_DATA = [
                     "en": "create health risks",
                     "vi": "tạo ra những rủi ro về sức khỏe",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food may create health risks.",
                     "example_vi": "Thực phẩm công nghệ sinh học có thể tạo ra những rủi ro về sức khỏe."
                   },
@@ -45227,7 +45227,7 @@ const ESSAY_DATA = [
                     "en": "long-term effects of consumption",
                     "vi": "ảnh hưởng lâu dài của việc tiêu thụ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some people are concerned about the long-term effects of consuming these products.",
                     "example_vi": "Một số người lo ngại về những ảnh hưởng lâu dài của việc tiêu thụ các sản phẩm này."
                   },
@@ -45235,7 +45235,7 @@ const ESSAY_DATA = [
                     "en": "consumer skepticism",
                     "vi": "sự hoài nghi của người tiêu dùng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "These concerns may make consumers less confident in biotech food.",
                     "example_vi": "Những lo ngại này có thể khiến người tiêu dùng không tin tưởng vào thực phẩm công nghệ sinh học."
                   },
@@ -45267,7 +45267,7 @@ const ESSAY_DATA = [
                     "en": "negative environmental impact",
                     "vi": "tác động tiêu cực đến môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food may have negative effects on the environment.",
                     "example_vi": "Thực phẩm công nghệ sinh học có thể gây ra những ảnh hưởng tiêu cực đến môi trường."
                   },
@@ -45275,7 +45275,7 @@ const ESSAY_DATA = [
                     "en": "affect native flora and fauna",
                     "vi": "ảnh hưởng đến hệ thực vật và động vật bản địa",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some modified crops may affect other plants and animals.",
                     "example_vi": "Một số cây trồng biến đổi có thể ảnh hưởng đến các loài thực vật và động vật khác."
                   },
@@ -45283,7 +45283,7 @@ const ESSAY_DATA = [
                     "en": "disrupt natural balance of ecosystems",
                     "vi": "phá vỡ sự cân bằng tự nhiên của hệ sinh thái",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may change the natural balance of ecosystems.",
                     "example_vi": "Điều này có thể làm thay đổi sự cân bằng tự nhiên trong hệ sinh thái."
                   },
@@ -45315,7 +45315,7 @@ const ESSAY_DATA = [
                     "en": "costly to produce",
                     "vi": "tốn kém để sản xuất",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food can be costly to produce.",
                     "example_vi": "Thực phẩm công nghệ sinh học có thể tốn kém để sản xuất."
                   },
@@ -45323,7 +45323,7 @@ const ESSAY_DATA = [
                     "en": "heavy capital investment in R&D",
                     "vi": "đầu tư vốn lớn vào nghiên cứu & phát triển",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Companies need to invest large amounts of money in technology and research.",
                     "example_vi": "Các công ty cần đầu tư nhiều tiền vào công nghệ và nghiên cứu."
                   },
@@ -45331,7 +45331,7 @@ const ESSAY_DATA = [
                     "en": "increase retail prices",
                     "vi": "làm tăng giá bán lẻ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "High costs can increase product prices for consumers.",
                     "example_vi": "Chi phí cao có thể làm tăng giá sản phẩm đối với người tiêu dùng."
                   },
@@ -45363,7 +45363,7 @@ const ESSAY_DATA = [
                     "en": "multinational biotech corporations",
                     "vi": "các tập đoàn công nghệ sinh học đa quốc gia",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Small-scale farmers may become overly dependent on large biotechnology corporations.",
                     "example_vi": "Nông dân quy mô nhỏ có thể trở nên phụ thuộc vào các tập đoàn công nghệ sinh học đa quốc gia."
                   },
@@ -45371,7 +45371,7 @@ const ESSAY_DATA = [
                     "en": "patented seeds",
                     "vi": "hạt giống được cấp bằng sáng chế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because genetically modified seeds are often patented, farmers cannot save seeds for the next harvest and must purchase new ones annually.",
                     "example_vi": "Do các giống cây biến đổi gen thường được đăng ký bản quyền, nông dân không thể tự giữ giống cho vụ mùa sau mà phải mua hạt giống mới mỗi năm."
                   },
@@ -45379,7 +45379,7 @@ const ESSAY_DATA = [
                     "en": "small-scale farmers",
                     "vi": "nông dân quy mô nhỏ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Small-scale farmers may become overly dependent on large biotechnology corporations.",
                     "example_vi": "Nông dân quy mô nhỏ có thể trở nên phụ thuộc vào các tập đoàn công nghệ sinh học đa quốc gia."
                   },
@@ -45411,7 +45411,7 @@ const ESSAY_DATA = [
                     "en": "consumer skepticism",
                     "vi": "sự hoài nghi của người tiêu dùng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food often faces consumer skepticism and ethical controversies.",
                     "example_vi": "Thực phẩm công nghệ sinh học vẫn vấp phải sự hoài nghi và tranh cãi về mặt đạo đức từ người tiêu dùng."
                   },
@@ -45419,7 +45419,7 @@ const ESSAY_DATA = [
                     "en": "ethical controversies",
                     "vi": "những tranh cãi về mặt đạo đức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Biotech food often faces consumer skepticism and ethical controversies.",
                     "example_vi": "Thực phẩm công nghệ sinh học vẫn vấp phải sự hoài nghi và tranh cãi về mặt đạo đức từ người tiêu dùng."
                   },
@@ -45427,7 +45427,7 @@ const ESSAY_DATA = [
                     "en": "interfere with natural processes",
                     "vi": "can thiệp vào các quy luật tự nhiên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many consumers worry that altering genetic structures interferes with natural processes and carries unknown long-term consequences.",
                     "example_vi": "Nhiều người tiêu dùng lo ngại rằng việc can thiệp vào cấu trúc gen là đi ngược lại quy luật tự nhiên và tiềm ẩn những hệ lụy chưa được kiểm chứng hết."
                   },
@@ -45459,7 +45459,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, biotech food has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, thực phẩm công nghệ sinh học ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -45467,7 +45467,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of biotech food.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của thực phẩm công nghệ sinh học."
                   },
@@ -45475,7 +45475,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -45483,7 +45483,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -45603,7 +45603,7 @@ const ESSAY_DATA = [
                 "word": "practical",
                 "ipa": "/ˈpræk.tɪ.kəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thực tế, có tính ứng dụng cao",
                 "example_en": "Volunteering provides students with practical experience outside the classroom.",
                 "example_vi": "Hoạt động tình nguyện mang lại cho học sinh kinh nghiệm thực tế ngoài lớp học.",
@@ -45633,7 +45633,7 @@ const ESSAY_DATA = [
                 "word": "network",
                 "ipa": "/ˈnet.wɜːk/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mạng lưới quan hệ, mạng lưới kết nối",
                 "example_en": "Taking part in charity events helps expand your social and professional network.",
                 "example_vi": "Tham gia các sự kiện từ thiện giúp mở rộng mạng lưới quan hệ xã hội và công việc của bạn.",
@@ -45643,7 +45643,7 @@ const ESSAY_DATA = [
                 "word": "well-being",
                 "ipa": "/ˈwelˌbiː.ɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sức khỏe tinh thần và thể chất, hạnh phúc",
                 "example_en": "Helping underprivileged people significantly improves emotional well-being.",
                 "example_vi": "Giúp đỡ những người khó khăn cải thiện đáng kể sức khỏe tinh thần và cảm xúc.",
@@ -45653,7 +45653,7 @@ const ESSAY_DATA = [
                 "word": "satisfaction",
                 "ipa": "/ˌsæt.ɪsˈfæk.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự hài lòng, sự thỏa nguyện",
                 "example_en": "Volunteers gain a profound sense of satisfaction from contributing to society.",
                 "example_vi": "Tình nguyện viên cảm nhận được sự thỏa nguyện sâu sắc khi cống hiến cho xã hội.",
@@ -45663,7 +45663,7 @@ const ESSAY_DATA = [
                 "word": "responsibility",
                 "ipa": "/rɪˌspɒn.səˈbɪl.ə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tinh thần trách nhiệm",
                 "example_en": "Community service nurtures a strong sense of civic responsibility in youth.",
                 "example_vi": "Hoạt động cộng đồng nuôi dưỡng ý thức trách nhiệm công dân mạnh mẽ ở người trẻ.",
@@ -45703,7 +45703,7 @@ const ESSAY_DATA = [
                 "word": "empathy",
                 "ipa": "/ˈem.pə.θi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thấu cảm, lòng trắc ẩn",
                 "example_en": "Direct interactions with disadvantaged communities foster deep empathy.",
                 "example_vi": "Tương tác trực tiếp với những cộng đồng yếu thế nuôi dưỡng lòng thấu cảm sâu sắc.",
@@ -45713,7 +45713,7 @@ const ESSAY_DATA = [
                 "word": "contribution",
                 "ipa": "/ˌkɒn.trɪˈbjuː.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đóng góp, cống hiến",
                 "example_en": "Every volunteer makes a meaningful contribution to building a better society.",
                 "example_vi": "Mỗi tình nguyện viên đều đóng góp có ý nghĩa vào việc xây dựng một xã hội tốt đẹp hơn.",
@@ -45723,7 +45723,7 @@ const ESSAY_DATA = [
                 "word": "altruism",
                 "ipa": "/ˈæl.tru.ɪ.zəm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "lòng vị tha, tinh thần vì người khác",
                 "family": "altruistic (adj), altruistically (adv)",
                 "example_en": "Unpaid volunteer work cultivates altruism and civic spirit among teenagers.",
@@ -45753,7 +45753,7 @@ const ESSAY_DATA = [
                 "word": "cohesion",
                 "ipa": "/kəʊˈhiː.ʒən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự gắn kết cộng đồng",
                 "family": "cohesive (adj), cohere (v)",
                 "example_en": "Local charity campaigns strengthen social cohesion across neighborhoods.",
@@ -45783,7 +45783,7 @@ const ESSAY_DATA = [
                 "word": "civic",
                 "ipa": "/ˈsɪv.ɪk/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về bổn phận công dân",
                 "family": "civics (n), civil (adj)",
                 "example_en": "Participating in environmental clean-ups fosters a strong sense of civic duty.",
@@ -45831,7 +45831,7 @@ const ESSAY_DATA = [
                     "en": "develop practical skills",
                     "vi": "phát triển kỹ năng thực tế",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Community service enables participants to develop essential practical skills.",
                     "example_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu."
                   },
@@ -45839,7 +45839,7 @@ const ESSAY_DATA = [
                     "en": "improve communication skills",
                     "vi": "cải thiện kỹ năng giao tiếp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They have opportunities to improve communication skills with people from different backgrounds.",
                     "example_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội."
                   },
@@ -45847,7 +45847,7 @@ const ESSAY_DATA = [
                     "en": "people from different backgrounds",
                     "vi": "người từ nhiều hoàn cảnh khác nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They have opportunities to improve communication skills with people from different backgrounds.",
                     "example_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội."
                   },
@@ -45879,7 +45879,7 @@ const ESSAY_DATA = [
                     "en": "expand social networks",
                     "vi": "mở rộng mạng lưới quan hệ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Engaging in volunteer work allows individuals to significantly expand their social networks.",
                     "example_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách tích cực."
                   },
@@ -45887,7 +45887,7 @@ const ESSAY_DATA = [
                     "en": "meet people from various age groups",
                     "vi": "gặp gỡ người thuộc nhiều lứa tuổi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Participants meet people from different backgrounds, age groups, and professions, thereby building friendships and lasting connections.",
                     "example_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau, từ đó xây dựng tình bạn và sự gắn kết lâu dài."
                   },
@@ -45919,7 +45919,7 @@ const ESSAY_DATA = [
                     "en": "improve mental well-being",
                     "vi": "cải thiện sức khỏe tinh thần",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Voluntary activities contribute substantially to improving participants' mental well-being.",
                     "example_vi": "Các hoạt động công ích mang lại những lợi ích to lớn cho sức khỏe tinh thần của người tham gia."
                   },
@@ -45927,7 +45927,7 @@ const ESSAY_DATA = [
                     "en": "sense of happiness and satisfaction",
                     "vi": "cảm giác hạnh phúc và thỏa nguyện",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life.",
                     "example_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn."
                   },
@@ -45959,7 +45959,7 @@ const ESSAY_DATA = [
                     "en": "develop a sense of responsibility",
                     "vi": "hình thành tinh thần trách nhiệm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Participating in community service fosters a strong sense of civic responsibility.",
                     "example_vi": "Tham gia tình nguyện giúp tôi luyện và hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng."
                   },
@@ -45967,7 +45967,7 @@ const ESSAY_DATA = [
                     "en": "take responsibility for assigned tasks",
                     "vi": "chịu trách nhiệm với công việc được giao",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Participants learn to take responsibility for assigned tasks and understand the challenges faced by disadvantaged groups.",
                     "example_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao và thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội."
                   },
@@ -45999,7 +45999,7 @@ const ESSAY_DATA = [
                     "en": "make a positive impact on the community",
                     "vi": "tạo tác động tích cực đến cộng đồng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Volunteer initiatives generate profound and lasting positive impacts on local communities.",
                     "example_vi": "Các chương trình tình nguyện tạo ra những tác động tích cực và lâu dài đối với đời sống cộng đồng."
                   },
@@ -46007,7 +46007,7 @@ const ESSAY_DATA = [
                     "en": "provide essential supplies and education",
                     "vi": "cung cấp nhu yếu phẩm và giáo dục",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "These initiatives provide essential supplies and educational support to disadvantaged people.",
                     "example_vi": "Các hoạt động này hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn."
                   },
@@ -46039,7 +46039,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, unpaid community service has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, hoạt động cộng đồng không lương ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -46047,7 +46047,7 @@ const ESSAY_DATA = [
                     "en": "lead to a range of benefits across different contexts",
                     "vi": "dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This has led to a range of benefits across different contexts for learners and society.",
                     "example_vi": "Điều này đã dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau cho người học và xã hội."
                   },
@@ -46055,7 +46055,7 @@ const ESSAY_DATA = [
                     "en": "focus on the main advantages associated with",
                     "vi": "tập trung vào những lợi ích chính gắn liền với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will focus on the main advantages associated with unpaid community service.",
                     "example_vi": "Bài tiểu luận này sẽ tập trung vào những lợi ích chính gắn liền với hoạt động cộng đồng không lương."
                   },
@@ -46063,7 +46063,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that practical experience reinforces theoretical learning.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là trải nghiệm thực tế giúp củng cố kiến thức lý thuyết."
                   },
@@ -46071,7 +46071,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu nguyên nhân B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that active participation builds lasting confidence.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là sự tham gia chủ động giúp xây dựng sự tự tin lâu dài."
                   },
@@ -47091,7 +47091,7 @@ const ESSAY_DATA = [
                 "word": "interactive",
                 "ipa": "/ˌɪntərˈæktɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mang tính tương tác hai chiều",
                 "example_en": "Interactive software makes grammar exercises far more engaging.",
                 "example_vi": "Phần mềm tương tác giúp các bài tập ngữ pháp trở nên hấp dẫn hơn nhiều.",
@@ -47101,7 +47101,7 @@ const ESSAY_DATA = [
                 "word": "multimedia",
                 "ipa": "/ˌmʌltiˈmiːdiə/",
                 "pos": "noun/adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "đa phương tiện (âm thanh, hình ảnh, video)",
                 "example_en": "Students can learn vocabulary faster through multimedia resources.",
                 "example_vi": "Học sinh có thể học từ vựng nhanh hơn thông qua các tài nguyên đa phương tiện.",
@@ -47111,7 +47111,7 @@ const ESSAY_DATA = [
                 "word": "pronunciation",
                 "ipa": "/prəˌnʌnsiˈeɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "cách phát âm",
                 "example_en": "Speech recognition tools help learners correct their pronunciation.",
                 "example_vi": "Các công cụ nhận diện giọng nói giúp người học sửa cách phát âm của mình.",
@@ -47131,7 +47131,7 @@ const ESSAY_DATA = [
                 "word": "instantaneous",
                 "ipa": "/ˌɪnstənˈteɪniəs/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ngay tức thì, lập tức",
                 "example_en": "Digital dictionaries provide instantaneous word definitions and audio.",
                 "example_vi": "Từ điển điện tử cung cấp định nghĩa từ và âm thanh ngay tức thì.",
@@ -47151,7 +47151,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒnəmi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính tự chủ trong học tập",
                 "example_en": "Computer technology fosters greater learner autonomy outside school.",
                 "example_vi": "Công nghệ máy tính thúc đẩy tính tự chủ cao hơn của người học ngoài giờ lên lớp.",
@@ -47181,7 +47181,7 @@ const ESSAY_DATA = [
                 "word": "accuracy",
                 "ipa": "/ˈækjərəsi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "độ chính xác",
                 "example_en": "Automated grammar checkers help students improve writing accuracy.",
                 "example_vi": "Các công cụ kiểm tra ngữ pháp tự động giúp học sinh cải thiện độ chính xác khi viết.",
@@ -47191,7 +47191,7 @@ const ESSAY_DATA = [
                 "word": "distraction",
                 "ipa": "/dɪˈstrækʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự xao nhãng, yếu tố gây mất tập trung",
                 "example_en": "Social media notifications on computers are a major source of distraction.",
                 "example_vi": "Thông báo mạng xã hội trên máy tính là một nguồn gây xao nhãng lớn.",
@@ -47221,7 +47221,7 @@ const ESSAY_DATA = [
                 "word": "nuance",
                 "ipa": "/ˈnjuːɑːns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sắc thái tinh tế (về ngữ nghĩa, văn hóa)",
                 "example_en": "Machine translators often miss subtle cultural nuances.",
                 "example_vi": "Các công cụ dịch máy thường bỏ lỡ những sắc thái văn hóa tinh tế.",
@@ -47231,7 +47231,7 @@ const ESSAY_DATA = [
                 "word": "fatigue",
                 "ipa": "/fəˈtiːɡ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự mệt mỏi, mỏi mắt (do nhìn màn hình)",
                 "example_en": "Staring at a computer monitor for hours causes visual fatigue.",
                 "example_vi": "Nhìn chằm chằm vào màn hình máy tính nhiều giờ liền gây mỏi mắt.",
@@ -47281,7 +47281,7 @@ const ESSAY_DATA = [
                 "word": "accessibility",
                 "ipa": "/əkˌsesəˈbɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng tiếp cận dễ dàng",
                 "example_en": "Computer technology enhances the accessibility of foreign language materials.",
                 "example_vi": "Công nghệ máy tính nâng cao khả năng tiếp cận các tài liệu ngoại ngữ.",
@@ -47299,7 +47299,7 @@ const ESSAY_DATA = [
                     "en": "computer technology",
                     "vi": "công nghệ máy tính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
                     "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
                   },
@@ -47307,7 +47307,7 @@ const ESSAY_DATA = [
                     "en": "give learners easy access to",
                     "vi": "giúp người học dễ dàng tiếp cận",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
                     "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
                   },
@@ -47315,7 +47315,7 @@ const ESSAY_DATA = [
                     "en": "a wide range of language learning materials",
                     "vi": "nguồn tài liệu học ngôn ngữ phong phú",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology gives learners easy access to a wide range of language learning materials.",
                     "example_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú."
                   },
@@ -47347,7 +47347,7 @@ const ESSAY_DATA = [
                     "en": "computer technology",
                     "vi": "công nghệ máy tính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology makes language learning more interactive and engaging.",
                     "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
                   },
@@ -47355,7 +47355,7 @@ const ESSAY_DATA = [
                     "en": "make language learning",
                     "vi": "làm cho việc học ngôn ngữ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology makes language learning more interactive and engaging.",
                     "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
                   },
@@ -47363,7 +47363,7 @@ const ESSAY_DATA = [
                     "en": "more interactive and engaging",
                     "vi": "trở nên sinh động và hấp dẫn hơn",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology makes language learning more interactive and engaging.",
                     "example_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn."
                   },
@@ -47395,7 +47395,7 @@ const ESSAY_DATA = [
                     "en": "computer tools",
                     "vi": "các công cụ máy tính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
                     "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
                   },
@@ -47403,7 +47403,7 @@ const ESSAY_DATA = [
                     "en": "provide immediate feedback",
                     "vi": "đưa ra phản hồi ngay lập tức",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
                     "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
                   },
@@ -47411,7 +47411,7 @@ const ESSAY_DATA = [
                     "en": "on pronunciation and grammar",
                     "vi": "về phát âm và ngữ pháp",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer tools can provide immediate feedback on pronunciation and grammar.",
                     "example_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp."
                   },
@@ -47443,7 +47443,7 @@ const ESSAY_DATA = [
                     "en": "computer technology",
                     "vi": "công nghệ máy tính",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology allows learners to practice a language at their own pace.",
                     "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
                   },
@@ -47451,7 +47451,7 @@ const ESSAY_DATA = [
                     "en": "practice a language",
                     "vi": "tự rèn luyện ngôn ngữ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology allows learners to practice a language at their own pace.",
                     "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
                   },
@@ -47459,7 +47459,7 @@ const ESSAY_DATA = [
                     "en": "at their own pace",
                     "vi": "theo tốc độ phù hợp với bản thân",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computer technology allows learners to practice a language at their own pace.",
                     "example_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân."
                   },
@@ -47491,7 +47491,7 @@ const ESSAY_DATA = [
                     "en": "save considerable time",
                     "vi": "tiết kiệm đáng kể thời gian",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
                     "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
                   },
@@ -47499,7 +47499,7 @@ const ESSAY_DATA = [
                     "en": "look up words",
                     "vi": "tra cứu từ vựng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
                     "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
                   },
@@ -47507,7 +47507,7 @@ const ESSAY_DATA = [
                     "en": "organize notes",
                     "vi": "sắp xếp ghi chú",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using computers helps learners save considerable time when looking up words and organizing notes.",
                     "example_vi": "Việc sử dụng máy tính giúp người học tiết kiệm đáng kể thời gian tra cứu và sắp xếp ghi chú."
                   },
@@ -47539,7 +47539,7 @@ const ESSAY_DATA = [
                     "en": "rely heavily on computers",
                     "vi": "phụ thuộc nhiều vào máy tính",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
                     "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
                   },
@@ -47547,7 +47547,7 @@ const ESSAY_DATA = [
                     "en": "reduce learners' opportunities",
                     "vi": "làm giảm cơ hội của người học",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
                     "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
                   },
@@ -47555,7 +47555,7 @@ const ESSAY_DATA = [
                     "en": "face-to-face communication",
                     "vi": "giao tiếp trực tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
                     "example_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học."
                   },
@@ -47587,7 +47587,7 @@ const ESSAY_DATA = [
                     "en": "computers connected to the Internet",
                     "vi": "máy tính có kết nối mạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
                     "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
                   },
@@ -47595,7 +47595,7 @@ const ESSAY_DATA = [
                     "en": "easily distract learners",
                     "vi": "dễ khiến người học bị xao nhãng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
                     "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
                   },
@@ -47603,7 +47603,7 @@ const ESSAY_DATA = [
                     "en": "from their studies",
                     "vi": "khỏi việc học tập",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computers connected to the Internet can easily distract learners from their studies.",
                     "example_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học."
                   },
@@ -47635,7 +47635,7 @@ const ESSAY_DATA = [
                     "en": "become overly dependent on",
                     "vi": "phụ thuộc quá mức vào",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
                     "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
                   },
@@ -47643,7 +47643,7 @@ const ESSAY_DATA = [
                     "en": "automatic translation",
                     "vi": "dịch thuật tự động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
                     "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
                   },
@@ -47651,7 +47651,7 @@ const ESSAY_DATA = [
                     "en": "correction tools",
                     "vi": "các công cụ sửa lỗi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learners may become overly dependent on automatic translation and correction tools.",
                     "example_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động."
                   },
@@ -47683,7 +47683,7 @@ const ESSAY_DATA = [
                     "en": "sit in front of a computer screen",
                     "vi": "ngồi trước màn hình máy tính",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
                     "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
                   },
@@ -47691,7 +47691,7 @@ const ESSAY_DATA = [
                     "en": "for long hours",
                     "vi": "trong nhiều giờ liền",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
                     "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
                   },
@@ -47699,7 +47699,7 @@ const ESSAY_DATA = [
                     "en": "harm learners' health",
                     "vi": "gây hại cho sức khỏe của người học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
                     "example_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học."
                   },
@@ -47731,7 +47731,7 @@ const ESSAY_DATA = [
                     "en": "equipment costs",
                     "vi": "chi phí mua sắm thiết bị",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
                     "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
                   },
@@ -47739,7 +47739,7 @@ const ESSAY_DATA = [
                     "en": "technical problems",
                     "vi": "các sự cố kỹ thuật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
                     "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
                   },
@@ -47747,7 +47747,7 @@ const ESSAY_DATA = [
                     "en": "create barriers for many learners",
                     "vi": "tạo ra rào cản đối với nhiều người học",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Equipment costs and technical problems can also create barriers for many learners.",
                     "example_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học."
                   },
@@ -47779,7 +47779,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, computer technology in language learning has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, công nghệ máy tính trong học ngôn ngữ ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -47787,7 +47787,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of computer technology in language learning.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của công nghệ máy tính trong học ngôn ngữ."
                   },
@@ -47795,7 +47795,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, computer technology in language learning offers several notable advantages.",
                     "example_vi": "Một mặt, công nghệ máy tính trong học ngôn ngữ mang lại một số thuận lợi đáng chú ý."
                   },
@@ -47803,7 +47803,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -50215,7 +50215,7 @@ const ESSAY_DATA = [
                 "word": "flexibility",
                 "ipa": "/ˌfleksəˈbɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự linh hoạt (về thời gian và địa điểm)",
                 "example_en": "Online programs offer great flexibility for busy adult learners.",
                 "example_vi": "Các chương trình trực tuyến mang lại sự linh hoạt lớn cho người lớn bận rộn.",
@@ -50235,7 +50235,7 @@ const ESSAY_DATA = [
                 "word": "curriculum",
                 "ipa": "/kəˈrɪkjələm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chương trình giảng dạy, lộ trình học",
                 "example_en": "Reputable online courses follow a well-structured curriculum.",
                 "example_vi": "Các khóa học trực tuyến uy tín tuân theo một lộ trình học bài bản.",
@@ -50255,7 +50255,7 @@ const ESSAY_DATA = [
                 "word": "adaptive",
                 "ipa": "/əˈdæptɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thích ứng thông minh theo trình độ người học",
                 "example_en": "Adaptive learning programs adjust exercise difficulty automatically.",
                 "example_vi": "Các chương trình học thích ứng tự động điều chỉnh độ khó của bài tập.",
@@ -50285,7 +50285,7 @@ const ESSAY_DATA = [
                 "word": "tutor",
                 "ipa": "/ˈtjuːtə(r)/",
                 "pos": "noun/v",
-                "level": "B2",
+                "level": "B1",
                 "vi": "gia sư, người hướng dẫn trực tuyến",
                 "example_en": "Learners can book speaking sessions with native tutors worldwide.",
                 "example_vi": "Người học có thể đặt lịch luyện nói với gia sư bản ngữ trên toàn thế giới.",
@@ -50295,7 +50295,7 @@ const ESSAY_DATA = [
                 "word": "commute",
                 "ipa": "/kəˈmjuːt/",
                 "pos": "verb/noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "di chuyển, đi lại tới trung tâm học",
                 "example_en": "Online programs eliminate the need to commute to language centers.",
                 "example_vi": "Các chương trình trực tuyến loại bỏ việc phải đi lại tới các trung tâm ngoại ngữ.",
@@ -50315,7 +50315,7 @@ const ESSAY_DATA = [
                 "word": "connectivity",
                 "ipa": "/ˌkɒnekˈtɪvəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng kết nối đường truyền mạng",
                 "example_en": "Poor Internet connectivity ruins live online speaking classes.",
                 "example_vi": "Đường truyền Internet kém làm hỏng các buổi học nói trực tuyến.",
@@ -50355,7 +50355,7 @@ const ESSAY_DATA = [
                 "word": "progress",
                 "ipa": "/ˈprəʊɡres/",
                 "pos": "noun/v",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tiến bộ trong học tập",
                 "example_en": "Online dashboards allow students to track their weekly progress.",
                 "example_vi": "Bảng theo dõi trực tuyến giúp học sinh kiểm soát sự tiến bộ hằng tuần.",
@@ -50365,7 +50365,7 @@ const ESSAY_DATA = [
                 "word": "supervision",
                 "ipa": "/ˌsuːpəˈvɪʒn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự theo sát, giám sát của giáo viên",
                 "example_en": "Young learners often struggle without direct classroom supervision.",
                 "example_vi": "Người học nhỏ tuổi thường gặp khó khăn khi thiếu sự giám sát trực tiếp trên lớp.",
@@ -50385,7 +50385,7 @@ const ESSAY_DATA = [
                 "word": "fluent",
                 "ipa": "/ˈfluːənt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "trôi chảy, lưu loát",
                 "example_en": "App drills alone rarely make a learner completely fluent.",
                 "example_vi": "Chỉ làm bài tập trên ứng dụng hiếm khi giúp người học lưu loát hoàn toàn.",
@@ -50395,7 +50395,7 @@ const ESSAY_DATA = [
                 "word": "convenience",
                 "ipa": "/kənˈviːniəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tiện lợi, thuận tiện",
                 "example_en": "Working professionals value the convenience of evening online lessons.",
                 "example_vi": "Người đi làm đánh giá cao sự tiện lợi của các bài học trực tuyến buổi tối.",
@@ -50423,7 +50423,7 @@ const ESSAY_DATA = [
                     "en": "computers and online programs",
                     "vi": "máy tính và các chương trình trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
                     "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
                   },
@@ -50431,7 +50431,7 @@ const ESSAY_DATA = [
                     "en": "second language learners",
                     "vi": "người học ngoại ngữ thứ hai",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
                     "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
                   },
@@ -50439,7 +50439,7 @@ const ESSAY_DATA = [
                     "en": "great flexibility in time and location",
                     "vi": "sự linh hoạt lớn về thời gian và địa điểm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Computers and online programs offer second language learners great flexibility in time and location.",
                     "example_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ."
                   },
@@ -50471,7 +50471,7 @@ const ESSAY_DATA = [
                     "en": "online learning programs",
                     "vi": "các chương trình học trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
                     "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
                   },
@@ -50479,7 +50479,7 @@ const ESSAY_DATA = [
                     "en": "connect learners directly with",
                     "vi": "kết nối người học trực tiếp với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
                     "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
                   },
@@ -50487,7 +50487,7 @@ const ESSAY_DATA = [
                     "en": "native-speaking instructors",
                     "vi": "giáo viên bản ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online learning programs connect learners directly with native-speaking instructors from different countries.",
                     "example_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia."
                   },
@@ -50519,7 +50519,7 @@ const ESSAY_DATA = [
                     "en": "modern language platforms",
                     "vi": "các nền tảng ngoại ngữ hiện đại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
                     "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
                   },
@@ -50527,7 +50527,7 @@ const ESSAY_DATA = [
                     "en": "design study pathways",
                     "vi": "thiết kế lộ trình học tập",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
                     "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
                   },
@@ -50535,7 +50535,7 @@ const ESSAY_DATA = [
                     "en": "tailored to each learner's proficiency level",
                     "vi": "phù hợp với trình độ của từng người học",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many modern language platforms design study pathways tailored to each learner's proficiency level.",
                     "example_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân."
                   },
@@ -50567,7 +50567,7 @@ const ESSAY_DATA = [
                     "en": "online courses and language applications",
                     "vi": "các khóa học trực tuyến và ứng dụng ngoại ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
                     "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
                   },
@@ -50575,7 +50575,7 @@ const ESSAY_DATA = [
                     "en": "more affordable than",
                     "vi": "có chi phí tiết kiệm hơn so với",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
                     "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
                   },
@@ -50583,7 +50583,7 @@ const ESSAY_DATA = [
                     "en": "traditional classroom courses",
                     "vi": "các khóa học trực tiếp truyền thống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online courses and language applications are often more affordable than traditional classroom courses.",
                     "example_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống."
                   },
@@ -50615,7 +50615,7 @@ const ESSAY_DATA = [
                     "en": "practice with online programs",
                     "vi": "luyện tập với các chương trình trực tuyến",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
                     "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
                   },
@@ -50623,7 +50623,7 @@ const ESSAY_DATA = [
                     "en": "reduce their fear of making mistakes",
                     "vi": "giảm bớt nỗi sợ mắc lỗi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
                     "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
                   },
@@ -50631,7 +50631,7 @@ const ESSAY_DATA = [
                     "en": "in front of others",
                     "vi": "trước mặt người khác",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Practicing with online programs helps beginners reduce their fear of making mistakes in front of others.",
                     "example_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông."
                   },
@@ -50663,7 +50663,7 @@ const ESSAY_DATA = [
                     "en": "require strong self-discipline",
                     "vi": "đòi hỏi tính tự giác cao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
                     "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
                   },
@@ -50671,7 +50671,7 @@ const ESSAY_DATA = [
                     "en": "online programs",
                     "vi": "các chương trình trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
                     "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
                   },
@@ -50679,7 +50679,7 @@ const ESSAY_DATA = [
                     "en": "many learners lack",
                     "vi": "nhiều người học còn thiếu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
                     "example_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu."
                   },
@@ -50711,7 +50711,7 @@ const ESSAY_DATA = [
                     "en": "apps and online courses",
                     "vi": "các ứng dụng và khóa học trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
                     "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
                   },
@@ -50719,7 +50719,7 @@ const ESSAY_DATA = [
                     "en": "lively group interaction",
                     "vi": "tương tác nhóm sôi nổi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
                     "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
                   },
@@ -50727,7 +50727,7 @@ const ESSAY_DATA = [
                     "en": "traditional classrooms",
                     "vi": "các lớp học truyền thống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
                     "example_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống."
                   },
@@ -50759,7 +50759,7 @@ const ESSAY_DATA = [
                     "en": "the quality of language learning websites",
                     "vi": "chất lượng của các trang web học ngoại ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The quality of language learning websites and online programs varies considerably.",
                     "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
                   },
@@ -50767,7 +50767,7 @@ const ESSAY_DATA = [
                     "en": "online programs",
                     "vi": "các chương trình trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The quality of language learning websites and online programs varies considerably.",
                     "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
                   },
@@ -50775,7 +50775,7 @@ const ESSAY_DATA = [
                     "en": "vary considerably",
                     "vi": "rất không đồng đều / chênh lệch đáng kể",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The quality of language learning websites and online programs varies considerably.",
                     "example_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều."
                   },
@@ -50807,7 +50807,7 @@ const ESSAY_DATA = [
                     "en": "the effectiveness of online learning programs",
                     "vi": "hiệu quả của các chương trình học trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
                     "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
                   },
@@ -50815,7 +50815,7 @@ const ESSAY_DATA = [
                     "en": "depend heavily on",
                     "vi": "phụ thuộc chặt chẽ vào",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
                     "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
                   },
@@ -50823,7 +50823,7 @@ const ESSAY_DATA = [
                     "en": "a stable Internet connection",
                     "vi": "đường truyền Internet ổn định",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
                     "example_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet."
                   },
@@ -50855,7 +50855,7 @@ const ESSAY_DATA = [
                     "en": "automated online programs",
                     "vi": "các chương trình trực tuyến tự động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
                     "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
                   },
@@ -50863,7 +50863,7 @@ const ESSAY_DATA = [
                     "en": "give in-depth feedback",
                     "vi": "đưa ra nhận xét chuyên sâu",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
                     "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
                   },
@@ -50871,7 +50871,7 @@ const ESSAY_DATA = [
                     "en": "extended speaking and essay writing",
                     "vi": "kỹ năng nói dài và viết luận",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Automated online programs often struggle to give in-depth feedback on extended speaking and essay writing.",
                     "example_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài."
                   },
@@ -50903,7 +50903,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, computer and online learning programs on second language learning has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -50911,7 +50911,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of computer and online learning programs on second language learning.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai."
                   },
@@ -50919,7 +50919,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, computer and online learning programs on second language learning offers several notable advantages.",
                     "example_vi": "Một mặt, máy tính và các chương trình học trực tuyến trong việc học ngoại ngữ thứ hai mang lại một số thuận lợi đáng chú ý."
                   },
@@ -50927,7 +50927,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -53327,7 +53327,7 @@ const ESSAY_DATA = [
                 "word": "self-reliance",
                 "ipa": "/ˌself rɪˈlaɪəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính tự lực, khả năng tự dựa vào chính mình",
                 "example_en": "Doing daily chores helps children develop strong self-reliance.",
                 "example_vi": "Làm việc nhà hằng ngày giúp trẻ hình thành tính tự lực vững vàng.",
@@ -53337,7 +53337,7 @@ const ESSAY_DATA = [
                 "word": "responsibility",
                 "ipa": "/rɪˌspɒnsəˈbɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tinh thần trách nhiệm, bổn phận",
                 "example_en": "Children learn responsibility when they tidy their own bedrooms.",
                 "example_vi": "Trẻ học được tinh thần trách nhiệm khi tự dọn phòng ngủ của mình.",
@@ -53347,7 +53347,7 @@ const ESSAY_DATA = [
                 "word": "autonomy",
                 "ipa": "/ɔːˈtɒnəmi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền/khả năng tự chủ cá nhân",
                 "example_en": "Parents should grant children age-appropriate autonomy.",
                 "example_vi": "Cha mẹ nên trao cho trẻ sự tự chủ phù hợp với lứa tuổi.",
@@ -53357,7 +53357,7 @@ const ESSAY_DATA = [
                 "word": "maturity",
                 "ipa": "/məˈtʃʊərəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trưởng thành, chín chắn",
                 "example_en": "Handling small daily tasks promotes emotional maturity in children.",
                 "example_vi": "Giải quyết các công việc nhỏ hằng ngày thúc đẩy sự trưởng thành cảm xúc ở trẻ.",
@@ -53367,7 +53367,7 @@ const ESSAY_DATA = [
                 "word": "resilience",
                 "ipa": "/rɪˈzɪliəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng vượt khó, bản lĩnh kiên cường",
                 "example_en": "Learning from small mistakes builds resilience in young learners.",
                 "example_vi": "Học hỏi từ những sai lầm nhỏ xây dựng bản lĩnh vượt khó ở trẻ.",
@@ -53377,7 +53377,7 @@ const ESSAY_DATA = [
                 "word": "adaptability",
                 "ipa": "/əˌdæptəˈbɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng thích nghi với hoàn cảnh mới",
                 "example_en": "Independent children show greater adaptability when entering university.",
                 "example_vi": "Những đứa trẻ tự lập thể hiện khả năng thích nghi cao hơn khi vào đại học.",
@@ -53447,7 +53447,7 @@ const ESSAY_DATA = [
                 "word": "guidance",
                 "ipa": "/ˈɡaɪdns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự định hướng, dìu dắt của người lớn",
                 "example_en": "Children still need parental guidance while learning independence.",
                 "example_vi": "Trẻ vẫn cần sự định hướng của cha mẹ trong quá trình học sống tự lập.",
@@ -53457,7 +53457,7 @@ const ESSAY_DATA = [
                 "word": "neglect",
                 "ipa": "/nɪˈɡlekt/",
                 "pos": "noun/v",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự sao nhãng, thiếu quan tâm chăm sóc",
                 "example_en": "Pushing independence without support can feel like emotional neglect.",
                 "example_vi": "Ép con tự lập mà thiếu sự nâng đỡ có thể giống như sự bỏ bê tình cảm.",
@@ -53487,7 +53487,7 @@ const ESSAY_DATA = [
                 "word": "discipline",
                 "ipa": "/ˈdɪsəplɪn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính kỷ luật, nề nếp sinh hoạt",
                 "example_en": "Managing study hours builds personal discipline from childhood.",
                 "example_vi": "Tự quản lý giờ học xây dựng tính kỷ luật cá nhân ngay từ thời thơ ấu.",
@@ -53497,7 +53497,7 @@ const ESSAY_DATA = [
                 "word": "distant",
                 "ipa": "/ˈdɪstənt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "xa cách về mặt tình cảm",
                 "example_en": "Excessive independence might make family bonds become distant.",
                 "example_vi": "Sự độc lập quá mức có thể khiến sợi dây gắn kết gia đình trở nên xa cách.",
@@ -53535,7 +53535,7 @@ const ESSAY_DATA = [
                     "en": "live independently",
                     "vi": "sống tự lập",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
                     "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
                   },
@@ -53543,7 +53543,7 @@ const ESSAY_DATA = [
                     "en": "develop essential practical skills",
                     "vi": "hình thành những kỹ năng thực tế cần thiết",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
                     "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
                   },
@@ -53551,7 +53551,7 @@ const ESSAY_DATA = [
                     "en": "from an early age",
                     "vi": "ngay từ độ tuổi còn sớm",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living independently helps children develop essential practical skills for daily life from an early age.",
                     "example_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày."
                   },
@@ -53583,7 +53583,7 @@ const ESSAY_DATA = [
                     "en": "handle personal tasks",
                     "vi": "tự giải quyết công việc cá nhân",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
                     "example_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao."
                   },
@@ -53591,7 +53591,7 @@ const ESSAY_DATA = [
                     "en": "a strong sense of responsibility",
                     "vi": "tinh thần trách nhiệm cao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Handling personal tasks encourages children to build a strong sense of responsibility and self-discipline.",
                     "example_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật cao."
                   },
@@ -53599,7 +53599,7 @@ const ESSAY_DATA = [
                     "en": "keep personal belongings tidy",
                     "vi": "giữ gìn đồ dùng cá nhân gọn gàng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves.",
                     "example_vi": "Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân, chính các em sẽ phải đối mặt với kết quả đó."
                   },
@@ -53631,7 +53631,7 @@ const ESSAY_DATA = [
                     "en": "independent children",
                     "vi": "những đứa trẻ sống tự lập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Independent children often become more confident and develop better problem-solving skills.",
                     "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
                   },
@@ -53639,7 +53639,7 @@ const ESSAY_DATA = [
                     "en": "become more confident",
                     "vi": "trở nên tự tin hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Independent children often become more confident and develop better problem-solving skills.",
                     "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
                   },
@@ -53647,7 +53647,7 @@ const ESSAY_DATA = [
                     "en": "develop better problem-solving skills",
                     "vi": "phát triển tốt hơn kỹ năng giải quyết vấn đề",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Independent children often become more confident and develop better problem-solving skills.",
                     "example_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề."
                   },
@@ -53679,7 +53679,7 @@ const ESSAY_DATA = [
                     "en": "take care of themselves",
                     "vi": "tự lo cho bản thân",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
                     "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
                   },
@@ -53687,7 +53687,7 @@ const ESSAY_DATA = [
                     "en": "help with chores",
                     "vi": "phụ giúp công việc nhà",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
                     "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
                   },
@@ -53695,7 +53695,7 @@ const ESSAY_DATA = [
                     "en": "parents' daily burden",
                     "vi": "gánh nặng hằng ngày của cha mẹ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When children take care of themselves and help with chores, their parents' daily burden is noticeably reduced.",
                     "example_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt đáng kể."
                   },
@@ -53727,7 +53727,7 @@ const ESSAY_DATA = [
                     "en": "manage their time",
                     "vi": "quản lý quỹ thời gian",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
                     "example_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý."
                   },
@@ -53735,7 +53735,7 @@ const ESSAY_DATA = [
                     "en": "pocket money",
                     "vi": "tiền tiêu vặt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living independently also teaches children how to manage their time and pocket money wisely.",
                     "example_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý."
                   },
@@ -53743,7 +53743,7 @@ const ESSAY_DATA = [
                     "en": "balance study hours with leisure activities",
                     "vi": "cân đối giữa giờ học và hoạt động giải trí",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children learn to balance study hours with leisure activities and think carefully before spending money on toys or snacks.",
                     "example_vi": "Trẻ học cách cân đối giữa giờ học và giờ giải trí, đồng thời suy nghĩ kỹ trước khi chi tiêu cho đồ chơi hay quà vặt."
                   },
@@ -53775,7 +53775,7 @@ const ESSAY_DATA = [
                     "en": "young and inexperienced",
                     "vi": "còn nhỏ và thiếu kinh nghiệm sống",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
                     "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
                   },
@@ -53783,7 +53783,7 @@ const ESSAY_DATA = [
                     "en": "live too independently",
                     "vi": "sống tự lập quá mức/quá sớm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
                     "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
                   },
@@ -53791,7 +53791,7 @@ const ESSAY_DATA = [
                     "en": "make unwise decisions",
                     "vi": "đưa ra những quyết định thiếu khôn ngoan",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
                     "example_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan."
                   },
@@ -53823,7 +53823,7 @@ const ESSAY_DATA = [
                     "en": "take on too many responsibilities",
                     "vi": "gánh vác quá nhiều trách nhiệm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
                     "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
                   },
@@ -53831,7 +53831,7 @@ const ESSAY_DATA = [
                     "en": "too early",
                     "vi": "từ quá sớm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
                     "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
                   },
@@ -53839,7 +53839,7 @@ const ESSAY_DATA = [
                     "en": "feel stressed and overwhelmed",
                     "vi": "cảm thấy căng thẳng và quá tải",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
                     "example_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải."
                   },
@@ -53871,7 +53871,7 @@ const ESSAY_DATA = [
                     "en": "manage tasks",
                     "vi": "tự xoay xở công việc",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
                     "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
                   },
@@ -53879,7 +53879,7 @@ const ESSAY_DATA = [
                     "en": "without adult supervision",
                     "vi": "thiếu sự giám sát của người lớn",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
                     "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
                   },
@@ -53887,7 +53887,7 @@ const ESSAY_DATA = [
                     "en": "expose them to safety risks",
                     "vi": "khiến các em đối mặt với rủi ro an toàn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
                     "example_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn."
                   },
@@ -53919,7 +53919,7 @@ const ESSAY_DATA = [
                     "en": "without emotional warmth",
                     "vi": "thiếu đi sự ấm áp/quan tâm tình cảm",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
                     "example_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách."
                   },
@@ -53927,7 +53927,7 @@ const ESSAY_DATA = [
                     "en": "the bond between parents and children",
                     "vi": "sợi dây gắn kết giữa cha mẹ và con cái",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
                     "example_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách."
                   },
@@ -53935,7 +53935,7 @@ const ESSAY_DATA = [
                     "en": "do everything alone in their rooms",
                     "vi": "tự làm mọi việc một mình trong phòng riêng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When children get used to doing everything alone in their rooms and talking less each day, parents may fail to notice their worries.",
                     "example_vi": "Khi trẻ quen tự làm mọi việc trong phòng riêng và ít trò chuyện hằng ngày, cha mẹ khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con."
                   },
@@ -53967,7 +53967,7 @@ const ESSAY_DATA = [
                     "en": "decide everything alone",
                     "vi": "tự quyết định mọi việc một mình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
                     "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
                   },
@@ -53975,7 +53975,7 @@ const ESSAY_DATA = [
                     "en": "become stubborn",
                     "vi": "trở nên bướng bỉnh",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
                     "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
                   },
@@ -53983,7 +53983,7 @@ const ESSAY_DATA = [
                     "en": "ignore adult advice",
                     "vi": "phớt lờ lời khuyên của người lớn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some children who get used to deciding everything alone may become stubborn and ignore adult advice.",
                     "example_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn."
                   },
@@ -54015,7 +54015,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, children living independently has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, trẻ em sống tự lập ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -54023,7 +54023,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of children living independently.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của trẻ em sống tự lập."
                   },
@@ -54031,7 +54031,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, children living independently offers several notable advantages.",
                     "example_vi": "Một mặt, trẻ em sống tự lập mang lại một số thuận lợi đáng chú ý."
                   },
@@ -54039,7 +54039,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -56443,7 +56443,7 @@ const ESSAY_DATA = [
                 "word": "virtual",
                 "ipa": "/ˈvɜːtʃuəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ảo, diễn ra trên không gian mạng",
                 "example_en": "Many teenagers spend hours chatting with virtual friends.",
                 "example_vi": "Nhiều thanh thiếu niên dành hàng giờ trò chuyện với bạn bè ảo.",
@@ -56473,7 +56473,7 @@ const ESSAY_DATA = [
                 "word": "companionship",
                 "ipa": "/kəmˈpænjənʃɪp/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự bầu bạn, đồng hành sẻ chia",
                 "example_en": "Online communities can offer comforting companionship to shy youths.",
                 "example_vi": "Cộng đồng trực tuyến có thể mang lại sự bầu bạn ấm áp cho người trẻ rụt rè.",
@@ -56513,7 +56513,7 @@ const ESSAY_DATA = [
                 "word": "perspective",
                 "ipa": "/pəˈspektɪv/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "góc nhìn, quan điểm sống",
                 "example_en": "International online friends broaden young people's cultural perspectives.",
                 "example_vi": "Bạn bè quốc tế trên mạng mở rộng góc nhìn văn hóa của giới trẻ.",
@@ -56523,7 +56523,7 @@ const ESSAY_DATA = [
                 "word": "genuine",
                 "ipa": "/ˈdʒenjuɪn/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chân thành, thật sự",
                 "example_en": "Hundreds of likes cannot replace one genuine close friend.",
                 "example_vi": "Hàng trăm lượt thích không thể thay thế một người bạn thân chân thành.",
@@ -56533,7 +56533,7 @@ const ESSAY_DATA = [
                 "word": "privacy",
                 "ipa": "/ˈprɪvəsi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quyền riêng tư cá nhân",
                 "example_en": "Sharing personal details with online strangers threatens your privacy.",
                 "example_vi": "Chia sẻ thông tin cá nhân với người lạ trên mạng đe dọa quyền riêng tư của bạn.",
@@ -56543,7 +56543,7 @@ const ESSAY_DATA = [
                 "word": "scam",
                 "ipa": "/skæm/",
                 "pos": "noun/v",
-                "level": "B2",
+                "level": "B1",
                 "vi": "vụ lừa đảo chiếm đoạt tài sản",
                 "example_en": "Fake online friends sometimes trick victims into financial scams.",
                 "example_vi": "Những người bạn ảo giả mạo đôi khi dụ nạn nhân vào các vụ lừa đảo tài chính.",
@@ -56553,7 +56553,7 @@ const ESSAY_DATA = [
                 "word": "isolation",
                 "ipa": "/ˌaɪsəˈleɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự cô lập khỏi đời sống xã hội thực",
                 "example_en": "Living only in online chats can deepen real-world social isolation.",
                 "example_vi": "Chỉ đắm chìm trong trò chuyện mạng có thể làm trầm trọng sự cô lập ngoài đời thực.",
@@ -56563,7 +56563,7 @@ const ESSAY_DATA = [
                 "word": "border",
                 "ipa": "/ˈbɔːdə(r)/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "biên giới, ranh giới quốc gia",
                 "example_en": "Social media allows friendships to cross geographical borders.",
                 "example_vi": "Mạng xã hội cho phép tình bạn vượt qua biên giới địa lý.",
@@ -56583,7 +56583,7 @@ const ESSAY_DATA = [
                 "word": "empathy",
                 "ipa": "/ˈempəθi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thấu cảm, đồng cảm",
                 "example_en": "Supportive online groups offer empathy during stressful exam periods.",
                 "example_vi": "Các hội nhóm trực tuyến tích cực mang lại sự đồng cảm trong mùa thi căng thẳng.",
@@ -56633,7 +56633,7 @@ const ESSAY_DATA = [
                 "word": "addictive",
                 "ipa": "/əˈdɪktɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "gây nghiện, dễ cuốn hút quá đà",
                 "example_en": "Constant online chatting can become addictive for young people.",
                 "example_vi": "Trò chuyện trực tuyến liên tục có thể gây nghiện đối với người trẻ.",
@@ -56651,7 +56651,7 @@ const ESSAY_DATA = [
                     "en": "have many online friends",
                     "vi": "có nhiều bạn trực tuyến",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
                     "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
                   },
@@ -56659,7 +56659,7 @@ const ESSAY_DATA = [
                     "en": "connect easily with others",
                     "vi": "dễ dàng kết nối với những người khác",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
                     "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
                   },
@@ -56667,7 +56667,7 @@ const ESSAY_DATA = [
                     "en": "share similar interests",
                     "vi": "có chung những sở thích tương đồng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Having many online friends allows young people to connect easily with others who share similar interests.",
                     "example_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê."
                   },
@@ -56699,7 +56699,7 @@ const ESSAY_DATA = [
                     "en": "a wide network of online friends",
                     "vi": "mạng lưới bạn bè trực tuyến rộng khắp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
                     "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
                   },
@@ -56707,7 +56707,7 @@ const ESSAY_DATA = [
                     "en": "broaden cultural understanding",
                     "vi": "mở rộng tầm hiểu biết văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
                     "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
                   },
@@ -56715,7 +56715,7 @@ const ESSAY_DATA = [
                     "en": "improve foreign language skills",
                     "vi": "cải thiện kỹ năng ngoại ngữ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
                     "example_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ."
                   },
@@ -56747,7 +56747,7 @@ const ESSAY_DATA = [
                     "en": "make friends online",
                     "vi": "kết bạn qua mạng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
                     "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
                   },
@@ -56755,7 +56755,7 @@ const ESSAY_DATA = [
                     "en": "shy or introverted people",
                     "vi": "những người rụt rè hoặc hướng nội",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
                     "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
                   },
@@ -56763,7 +56763,7 @@ const ESSAY_DATA = [
                     "en": "express their thoughts",
                     "vi": "bày tỏ suy nghĩ của mình",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
                     "example_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ."
                   },
@@ -56795,7 +56795,7 @@ const ESSAY_DATA = [
                     "en": "a large circle of online friends",
                     "vi": "vòng tròn bạn bè trực tuyến rộng lớn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
                     "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
                   },
@@ -56803,7 +56803,7 @@ const ESSAY_DATA = [
                     "en": "obtain useful information",
                     "vi": "thu nhận thông tin hữu ích",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
                     "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
                   },
@@ -56811,7 +56811,7 @@ const ESSAY_DATA = [
                     "en": "practical advice",
                     "vi": "lời khuyên thực tế",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
                     "example_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế."
                   },
@@ -56843,7 +56843,7 @@ const ESSAY_DATA = [
                     "en": "online friendships",
                     "vi": "các mối quan hệ tình bạn trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
                     "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
                   },
@@ -56851,7 +56851,7 @@ const ESSAY_DATA = [
                     "en": "convenient to maintain",
                     "vi": "thuận tiện để duy trì",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
                     "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
                   },
@@ -56859,7 +56859,7 @@ const ESSAY_DATA = [
                     "en": "instant communication",
                     "vi": "sự liên lạc tức thì",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
                     "example_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi."
                   },
@@ -56891,7 +56891,7 @@ const ESSAY_DATA = [
                     "en": "online friendships",
                     "vi": "các tình bạn trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
                     "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
                   },
@@ -56899,7 +56899,7 @@ const ESSAY_DATA = [
                     "en": "tend to be superficial",
                     "vi": "thường mang tính hời hợt/bề nổi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
                     "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
                   },
@@ -56907,7 +56907,7 @@ const ESSAY_DATA = [
                     "en": "lack genuine emotional depth",
                     "vi": "thiếu chiều sâu tình cảm chân thành",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
                     "example_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành."
                   },
@@ -56939,7 +56939,7 @@ const ESSAY_DATA = [
                     "en": "add many strangers online",
                     "vi": "kết bạn với nhiều người lạ trên mạng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
                     "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
                   },
@@ -56947,7 +56947,7 @@ const ESSAY_DATA = [
                     "en": "risks of deception, scams, and privacy invasion",
                     "vi": "nguy cơ bị lừa dối, lừa đảo và xâm phạm quyền riêng tư",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
                     "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
                   },
@@ -56955,7 +56955,7 @@ const ESSAY_DATA = [
                     "en": "carry serious risks",
                     "vi": "tiềm ẩn những rủi ro nghiêm trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Adding many strangers online carries serious risks of deception, scams, and privacy invasion.",
                     "example_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân."
                   },
@@ -56987,7 +56987,7 @@ const ESSAY_DATA = [
                     "en": "spend excessive time",
                     "vi": "dành quá nhiều thời gian",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
                     "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
                   },
@@ -56995,7 +56995,7 @@ const ESSAY_DATA = [
                     "en": "online friends",
                     "vi": "bạn bè trên mạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
                     "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
                   },
@@ -57003,7 +57003,7 @@ const ESSAY_DATA = [
                     "en": "neglect family and real-life relationships",
                     "vi": "bỏ bê gia đình và các mối quan hệ đời thực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
                     "example_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực."
                   },
@@ -57035,7 +57035,7 @@ const ESSAY_DATA = [
                     "en": "constantly reply to messages",
                     "vi": "liên tục trả lời tin nhắn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
                     "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
                   },
@@ -57043,7 +57043,7 @@ const ESSAY_DATA = [
                     "en": "hundreds of online friends",
                     "vi": "hàng trăm người bạn trên mạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
                     "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
                   },
@@ -57051,7 +57051,7 @@ const ESSAY_DATA = [
                     "en": "waste valuable study and work time",
                     "vi": "làm lãng phí thời gian học tập và làm việc quý báu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Constantly replying to messages from hundreds of online friends wastes valuable study and work time.",
                     "example_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc."
                   },
@@ -57083,7 +57083,7 @@ const ESSAY_DATA = [
                     "en": "an overly large network of online contacts",
                     "vi": "mạng lưới bạn bè trên mạng quá rộng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
                     "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
                   },
@@ -57091,7 +57091,7 @@ const ESSAY_DATA = [
                     "en": "increase exposure to negative comments",
                     "vi": "làm tăng nguy cơ tiếp xúc bình luận tiêu cực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
                     "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
                   },
@@ -57099,7 +57099,7 @@ const ESSAY_DATA = [
                     "en": "social comparison",
                     "vi": "sự so sánh xã hội",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
                     "example_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng."
                   },
@@ -57131,7 +57131,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, having lots of online friends has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, có nhiều bạn trực tuyến ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -57139,7 +57139,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of having lots of online friends.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của có nhiều bạn trực tuyến."
                   },
@@ -57147,7 +57147,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, having lots of online friends offers several notable advantages.",
                     "example_vi": "Một mặt, có nhiều bạn trực tuyến mang lại một số thuận lợi đáng chú ý."
                   },
@@ -57155,7 +57155,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -59539,7 +59539,7 @@ const ESSAY_DATA = [
                 "word": "lucrative",
                 "ipa": "/ˈluːkrətɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sinh lời cao, mang lại thu nhập lớn",
                 "example_en": "Famous influencers often sign lucrative advertising contracts.",
                 "example_vi": "Những người có sức ảnh hưởng nổi tiếng thường ký các hợp đồng quảng cáo thu nhập cao.",
@@ -59549,7 +59549,7 @@ const ESSAY_DATA = [
                 "word": "endorsement",
                 "ipa": "/ɪnˈdɔːsmənt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hợp đồng đại diện quảng bá thương hiệu",
                 "example_en": "Brand endorsements generate huge income for sports stars.",
                 "example_vi": "Hợp đồng đại diện thương hiệu mang lại nguồn thu lớn cho các ngôi sao thể thao.",
@@ -59559,7 +59559,7 @@ const ESSAY_DATA = [
                 "word": "recognition",
                 "ipa": "/ˌrekəɡˈnɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự công nhận, biết đến rộng rãi",
                 "example_en": "Talented singers gain nationwide recognition for their hard work.",
                 "example_vi": "Các ca sĩ tài năng nhận được sự công nhận trên toàn quốc cho nỗ lực của họ.",
@@ -59589,7 +59589,7 @@ const ESSAY_DATA = [
                 "word": "charity",
                 "ipa": "/ˈtʃærəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hoạt động từ thiện, thiện nguyện",
                 "example_en": "Many actors use their fame to raise money for charity.",
                 "example_vi": "Nhiều diễn viên dùng danh tiếng của mình để gây quỹ từ thiện.",
@@ -59599,7 +59599,7 @@ const ESSAY_DATA = [
                 "word": "scrutiny",
                 "ipa": "/ˈskruːtəni/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự săm soi, giám sát khắt khe của dư luận",
                 "example_en": "Celebrities live under constant public and media scrutiny.",
                 "example_vi": "Người nổi tiếng sống dưới sự săm soi liên tục của công chúng và truyền thông.",
@@ -59619,7 +59619,7 @@ const ESSAY_DATA = [
                 "word": "reputation",
                 "ipa": "/ˌrepjuˈteɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "danh tiếng, uy tín cá nhân",
                 "example_en": "A single careless remark can ruin a celebrity's reputation overnight.",
                 "example_vi": "Chỉ một phát ngôn bất cẩn có thể hủy hoại danh tiếng của ngôi sao sau một đêm.",
@@ -59629,7 +59629,7 @@ const ESSAY_DATA = [
                 "word": "rumor",
                 "ipa": "/ˈruːmə(r)/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tin đồn thất thiệt",
                 "example_en": "False online rumors cause severe distress to public figures.",
                 "example_vi": "Những tin đồn sai sự thật trên mạng gây tổn thương nặng nề cho người của công chúng.",
@@ -59649,7 +59649,7 @@ const ESSAY_DATA = [
                 "word": "burnout",
                 "ipa": "/ˈbɜːnaʊt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiệt sức cả về thể chất lẫn tinh thần",
                 "example_en": "Demanding schedules and harsh criticism lead many stars to burnout.",
                 "example_vi": "Lịch trình dày đặc và chỉ trích gay gắt khiến nhiều ngôi sao rơi vào kiệt sức.",
@@ -59669,7 +59669,7 @@ const ESSAY_DATA = [
                 "word": "ulterior",
                 "ipa": "/ʌlˈtɪəriə(r)/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ẩn giấu vụ lợi (động cơ không trong sáng)",
                 "example_en": "Wealthy stars worry that new acquaintances have ulterior motives.",
                 "example_vi": "Ngôi sao giàu có thường lo ngại người mới quen có động cơ vụ lợi.",
@@ -59699,7 +59699,7 @@ const ESSAY_DATA = [
                 "word": "criticism",
                 "ipa": "/ˈkrɪtɪsɪzəm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự chỉ trích, phê phán gay gắt",
                 "example_en": "Content creators face harsh public criticism whenever they make mistakes.",
                 "example_vi": "Nhà sáng tạo nội dung đối mặt với sự chỉ trích gay gắt mỗi khi mắc sai lầm.",
@@ -59747,7 +59747,7 @@ const ESSAY_DATA = [
                     "en": "become famous",
                     "vi": "trở nên nổi tiếng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Becoming famous can bring substantial income and long-term financial security.",
                     "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
                   },
@@ -59755,7 +59755,7 @@ const ESSAY_DATA = [
                     "en": "bring substantial income",
                     "vi": "mang lại nguồn thu nhập rất lớn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Becoming famous can bring substantial income and long-term financial security.",
                     "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
                   },
@@ -59763,7 +59763,7 @@ const ESSAY_DATA = [
                     "en": "long-term financial security",
                     "vi": "sự đảm bảo tài chính lâu dài",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Becoming famous can bring substantial income and long-term financial security.",
                     "example_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất lớn và sự sung túc về tài chính."
                   },
@@ -59795,7 +59795,7 @@ const ESSAY_DATA = [
                     "en": "open up attractive career opportunities",
                     "vi": "mở ra nhiều cơ hội nghề nghiệp hấp dẫn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Fame opens up attractive career opportunities and valuable professional connections.",
                     "example_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị."
                   },
@@ -59803,7 +59803,7 @@ const ESSAY_DATA = [
                     "en": "valuable professional connections",
                     "vi": "các mối quan hệ chuyên môn giá trị",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Fame opens up attractive career opportunities and valuable professional connections.",
                     "example_vi": "Danh tiếng mở ra nhiều cơ hội phát triển sự nghiệp hấp dẫn và các mối quan hệ giá trị."
                   },
@@ -59811,7 +59811,7 @@ const ESSAY_DATA = [
                     "en": "widely recognized by the public",
                     "vi": "được công chúng biết đến rộng rãi",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events.",
                     "example_vi": "Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung dễ nhận được lời mời tham gia những dự án lớn và sự kiện uy tín."
                   },
@@ -59843,7 +59843,7 @@ const ESSAY_DATA = [
                     "en": "use their public influence",
                     "vi": "dùng sức ảnh hưởng trước công chúng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
                     "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
                   },
@@ -59851,7 +59851,7 @@ const ESSAY_DATA = [
                     "en": "inspire others",
                     "vi": "truyền cảm hứng cho người khác",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
                     "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
                   },
@@ -59859,7 +59859,7 @@ const ESSAY_DATA = [
                     "en": "contribute positively to society",
                     "vi": "đóng góp tích cực cho xã hội",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Famous people can use their public influence to inspire others and contribute positively to society.",
                     "example_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và đóng góp tích cực cho xã hội."
                   },
@@ -59891,7 +59891,7 @@ const ESSAY_DATA = [
                     "en": "a strong sense of pride",
                     "vi": "niềm tự hào lớn lao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
                     "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
                   },
@@ -59899,7 +59899,7 @@ const ESSAY_DATA = [
                     "en": "personal talent and hard work",
                     "vi": "tài năng và sự nỗ lực cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
                     "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
                   },
@@ -59907,7 +59907,7 @@ const ESSAY_DATA = [
                     "en": "widely admired",
                     "vi": "được ngưỡng mộ rộng rãi",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Being famous brings a strong sense of pride when personal talent and hard work are widely admired.",
                     "example_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được đông đảo khán giả ghi nhận."
                   },
@@ -59939,7 +59939,7 @@ const ESSAY_DATA = [
                     "en": "well-known individuals",
                     "vi": "những cá nhân nổi tiếng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
                     "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
                   },
@@ -59947,7 +59947,7 @@ const ESSAY_DATA = [
                     "en": "receive warm hospitality",
                     "vi": "nhận được sự đón tiếp nồng hậu",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
                     "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
                   },
@@ -59955,7 +59955,7 @@ const ESSAY_DATA = [
                     "en": "special privileges",
                     "vi": "những đặc quyền riêng biệt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Well-known individuals often receive warm hospitality and special privileges in everyday social life.",
                     "example_vi": "Những người có tên tuổi thường nhận được sự đón tiếp nồng hậu và nhiều đặc quyền thuận lợi trong cuộc sống."
                   },
@@ -59987,7 +59987,7 @@ const ESSAY_DATA = [
                     "en": "the biggest prices",
                     "vi": "những cái giá phải trả lớn nhất",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
                     "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
                   },
@@ -59995,7 +59995,7 @@ const ESSAY_DATA = [
                     "en": "become famous",
                     "vi": "trở nên nổi tiếng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
                     "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
                   },
@@ -60003,7 +60003,7 @@ const ESSAY_DATA = [
                     "en": "severe loss of personal privacy",
                     "vi": "sự đánh mất nghiêm trọng quyền riêng tư cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
                     "example_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân."
                   },
@@ -60035,7 +60035,7 @@ const ESSAY_DATA = [
                     "en": "face intense mental pressure",
                     "vi": "đối mặt với áp lực tinh thần nặng nề",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
                     "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
                   },
@@ -60043,7 +60043,7 @@ const ESSAY_DATA = [
                     "en": "every word and action",
                     "vi": "mọi lời nói và hành động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
                     "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
                   },
@@ -60051,7 +60051,7 @@ const ESSAY_DATA = [
                     "en": "be closely scrutinized",
                     "vi": "bị săm soi khắt khe",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
                     "example_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi."
                   },
@@ -60083,7 +60083,7 @@ const ESSAY_DATA = [
                     "en": "wealth and stardom",
                     "vi": "sự giàu có và ánh hào quang ngôi sao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
                     "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
                   },
@@ -60091,7 +60091,7 @@ const ESSAY_DATA = [
                     "en": "make it difficult for famous people",
                     "vi": "khiến người nổi tiếng gặp khó khăn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
                     "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
                   },
@@ -60099,7 +60099,7 @@ const ESSAY_DATA = [
                     "en": "truly care about them",
                     "vi": "thật lòng quan tâm đến họ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Wealth and stardom sometimes make it difficult for famous people to know who truly cares about them.",
                     "example_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng."
                   },
@@ -60131,7 +60131,7 @@ const ESSAY_DATA = [
                     "en": "expose their loved ones to unwanted attention",
                     "vi": "khiến người thân phải chịu sự chú ý ngoài ý muốn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
                     "example_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn."
                   },
@@ -60139,7 +60139,7 @@ const ESSAY_DATA = [
                     "en": "celebrities themselves",
                     "vi": "bản thân những người nổi tiếng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
                     "example_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn."
                   },
@@ -60147,7 +60147,7 @@ const ESSAY_DATA = [
                     "en": "be photographed secretly",
                     "vi": "bị chụp ảnh lén",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Celebrities' children or relatives may be photographed secretly, discussed in tabloids, or even harassed by obsessive fans.",
                     "example_vi": "Con cái hoặc người thân của nghệ sĩ có thể bị chụp ảnh lén, bàn tán trên báo chí hoặc thậm chí bị kẻ quá khích quấy rối."
                   },
@@ -60179,7 +60179,7 @@ const ESSAY_DATA = [
                     "en": "stay relevant in the spotlight",
                     "vi": "duy trì sức hút dưới tâm điểm chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
                     "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
                   },
@@ -60187,7 +60187,7 @@ const ESSAY_DATA = [
                     "en": "endure exhausting schedules",
                     "vi": "chịu đựng lịch trình làm việc kiệt sức",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
                     "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
                   },
@@ -60195,7 +60195,7 @@ const ESSAY_DATA = [
                     "en": "fame itself remains unstable",
                     "vi": "bản thân danh tiếng lại thiếu ổn định",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
                     "example_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt."
                   },
@@ -60227,7 +60227,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, becoming famous has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, trở nên nổi tiếng ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -60235,7 +60235,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of becoming famous.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của trở nên nổi tiếng."
                   },
@@ -60243,7 +60243,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, becoming famous offers several notable advantages.",
                     "example_vi": "Một mặt, trở nên nổi tiếng mang lại một số thuận lợi đáng chú ý."
                   },
@@ -60251,7 +60251,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -62631,7 +62631,7 @@ const ESSAY_DATA = [
                 "word": "consumer",
                 "ipa": "/kənˈsjuːmə(r)/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "người tiêu dùng",
                 "example_en": "Advertising helps consumers compare different brands easily.",
                 "example_vi": "Quảng cáo giúp người tiêu dùng dễ dàng so sánh các thương hiệu khác nhau.",
@@ -62641,7 +62641,7 @@ const ESSAY_DATA = [
                 "word": "promote",
                 "ipa": "/prəˈməʊt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quảng bá, xúc tiến tiêu thụ",
                 "example_en": "Companies use social media to promote new products quickly.",
                 "example_vi": "Các công ty dùng mạng xã hội để quảng bá sản phẩm mới một cách nhanh chóng.",
@@ -62651,7 +62651,7 @@ const ESSAY_DATA = [
                 "word": "persuasive",
                 "ipa": "/pəˈsweɪsɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "có tính thuyết phục, lôi cuốn cao",
                 "example_en": "Persuasive slogans can strongly influence people's shopping habits.",
                 "example_vi": "Những khẩu hiệu giàu tính thuyết phục có thể tác động mạnh đến thói quen mua sắm.",
@@ -62661,7 +62661,7 @@ const ESSAY_DATA = [
                 "word": "misleading",
                 "ipa": "/ˌmɪsˈliːdɪŋ/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "gây hiểu lầm, sai lệch sự thật",
                 "example_en": "Governments should fine companies that publish misleading advertisements.",
                 "example_vi": "Chính phủ nên phạt các công ty đăng tải quảng cáo gây hiểu lầm.",
@@ -62691,7 +62691,7 @@ const ESSAY_DATA = [
                 "word": "revenue",
                 "ipa": "/ˈrevənjuː/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "doanh thu",
                 "example_en": "Effective marketing campaigns significantly boost company revenue.",
                 "example_vi": "Các chiến dịch tiếp thị hiệu quả làm tăng đáng kể doanh thu của công ty.",
@@ -62731,7 +62731,7 @@ const ESSAY_DATA = [
                 "word": "commercial",
                 "ipa": "/kəˈmɜːʃl/",
                 "pos": "noun/adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "đoạn quảng cáo (trên TV/radio); thuộc thương mại",
                 "example_en": "Catchy TV commercials are easy for viewers to remember.",
                 "example_vi": "Những đoạn quảng cáo truyền hình bắt tai rất dễ nhớ đối với khán giả.",
@@ -62751,7 +62751,7 @@ const ESSAY_DATA = [
                 "word": "informed",
                 "ipa": "/ɪnˈfɔːmd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "có đầy đủ thông tin, sáng suốt",
                 "example_en": "Detailed product ads help customers make informed purchasing choices.",
                 "example_vi": "Quảng cáo sản phẩm chi tiết giúp khách hàng đưa ra lựa chọn mua hàng sáng suốt.",
@@ -62771,7 +62771,7 @@ const ESSAY_DATA = [
                 "word": "sponsor",
                 "ipa": "/ˈspɒnsə(r)/",
                 "pos": "verb/noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tài trợ; nhà tài trợ",
                 "example_en": "Advertising revenue allows companies to sponsor free sports broadcasts.",
                 "example_vi": "Doanh thu quảng cáo cho phép các hãng tài trợ chương trình thể thao miễn phí.",
@@ -62781,7 +62781,7 @@ const ESSAY_DATA = [
                 "word": "launch",
                 "ipa": "/lɔːntʃ/",
                 "pos": "verb/noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tung ra, ra mắt (sản phẩm mới)",
                 "example_en": "Startups rely on online ads when they launch innovative products.",
                 "example_vi": "Các công ty khởi nghiệp dựa vào quảng cáo mạng khi ra mắt sản phẩm mới.",
@@ -62811,7 +62811,7 @@ const ESSAY_DATA = [
                 "word": "target",
                 "ipa": "/ˈtɑːɡɪt/",
                 "pos": "verb/noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nhắm mục tiêu vào (nhóm khách hàng)",
                 "example_en": "Fast-food advertisements frequently target young children.",
                 "example_vi": "Quảng cáo đồ ăn nhanh thường xuyên nhắm vào đối tượng trẻ nhỏ.",
@@ -62839,7 +62839,7 @@ const ESSAY_DATA = [
                     "en": "provide useful information",
                     "vi": "cung cấp thông tin hữu ích",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
                     "example_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn."
                   },
@@ -62847,7 +62847,7 @@ const ESSAY_DATA = [
                     "en": "make better purchasing decisions",
                     "vi": "đưa ra lựa chọn mua sắm tốt hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
                     "example_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn."
                   },
@@ -62855,7 +62855,7 @@ const ESSAY_DATA = [
                     "en": "learn about new features, prices, and special discounts",
                     "vi": "nắm được tính năng mới, mức giá và ưu đãi giảm giá",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods.",
                     "example_vi": "Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và chương trình khuyến mãi của nhiều mặt hàng khác nhau."
                   },
@@ -62887,7 +62887,7 @@ const ESSAY_DATA = [
                     "en": "play a vital role",
                     "vi": "đóng vai trò thiết yếu/then chốt",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
                     "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
                   },
@@ -62895,7 +62895,7 @@ const ESSAY_DATA = [
                     "en": "attract customers",
                     "vi": "thu hút khách hàng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
                     "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
                   },
@@ -62903,7 +62903,7 @@ const ESSAY_DATA = [
                     "en": "increase sales",
                     "vi": "gia tăng doanh số bán hàng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
                     "example_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu."
                   },
@@ -62935,7 +62935,7 @@ const ESSAY_DATA = [
                     "en": "encourage healthy competition",
                     "vi": "thúc đẩy sự cạnh tranh lành mạnh",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
                     "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
                   },
@@ -62943,7 +62943,7 @@ const ESSAY_DATA = [
                     "en": "among companies",
                     "vi": "giữa các doanh nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
                     "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
                   },
@@ -62951,7 +62951,7 @@ const ESSAY_DATA = [
                     "en": "ultimately benefit buyers",
                     "vi": "cuối cùng mang lại lợi ích cho người mua",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising encourages healthy competition among companies, which ultimately benefits buyers.",
                     "example_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua."
                   },
@@ -62983,7 +62983,7 @@ const ESSAY_DATA = [
                     "en": "advertising revenue",
                     "vi": "doanh thu từ quảng cáo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
                     "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
                   },
@@ -62991,7 +62991,7 @@ const ESSAY_DATA = [
                     "en": "fund many free media services",
                     "vi": "tài trợ cho nhiều dịch vụ truyền thông miễn phí",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
                     "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
                   },
@@ -62999,7 +62999,7 @@ const ESSAY_DATA = [
                     "en": "major cultural or sporting events",
                     "vi": "các sự kiện văn hóa hoặc thể thao lớn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
                     "example_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn."
                   },
@@ -63031,7 +63031,7 @@ const ESSAY_DATA = [
                     "en": "public-service advertisements",
                     "vi": "các quảng cáo tuyên truyền vì cộng đồng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
                     "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
                   },
@@ -63039,7 +63039,7 @@ const ESSAY_DATA = [
                     "en": "raise awareness",
                     "vi": "nâng cao nhận thức",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
                     "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
                   },
@@ -63047,7 +63047,7 @@ const ESSAY_DATA = [
                     "en": "important social issues",
                     "vi": "những vấn đề xã hội quan trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
                     "example_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội."
                   },
@@ -63079,7 +63079,7 @@ const ESSAY_DATA = [
                     "en": "exaggerate product quality",
                     "vi": "phóng đại chất lượng sản phẩm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
                     "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
                   },
@@ -63087,7 +63087,7 @@ const ESSAY_DATA = [
                     "en": "give misleading information",
                     "vi": "đưa ra thông tin gây hiểu lầm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
                     "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
                   },
@@ -63095,7 +63095,7 @@ const ESSAY_DATA = [
                     "en": "deceive consumers",
                     "vi": "đánh lừa người tiêu dùng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
                     "example_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối."
                   },
@@ -63127,7 +63127,7 @@ const ESSAY_DATA = [
                     "en": "attractive advertisements",
                     "vi": "những quảng cáo bắt mắt, hấp dẫn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
                     "example_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết."
                   },
@@ -63135,7 +63135,7 @@ const ESSAY_DATA = [
                     "en": "buy unnecessary items",
                     "vi": "mua những món đồ không cần thiết",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
                     "example_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết."
                   },
@@ -63143,7 +63143,7 @@ const ESSAY_DATA = [
                     "en": "clever marketing techniques",
                     "vi": "các kỹ thuật tiếp thị khôn khéo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought.",
                     "example_vi": "Các kỹ thuật tiếp thị khéo léo đánh vào tâm lý sợ bỏ lỡ ưu đãi khiến nhiều người vội vàng đặt hàng dù chưa có nhu cầu sử dụng."
                   },
@@ -63175,7 +63175,7 @@ const ESSAY_DATA = [
                     "en": "the constant presence of advertisements",
                     "vi": "sự xuất hiện liên tục của quảng cáo",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
                     "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
                   },
@@ -63183,7 +63183,7 @@ const ESSAY_DATA = [
                     "en": "annoy people",
                     "vi": "gây khó chịu cho mọi người",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
                     "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
                   },
@@ -63191,7 +63191,7 @@ const ESSAY_DATA = [
                     "en": "interrupt their daily activities",
                     "vi": "làm gián đoạn các sinh hoạt hằng ngày",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The constant presence of advertisements across platforms often annoys people and interrupts their daily activities.",
                     "example_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng."
                   },
@@ -63223,7 +63223,7 @@ const ESSAY_DATA = [
                     "en": "commercial advertisements",
                     "vi": "các quảng cáo thương mại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
                     "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
                   },
@@ -63231,7 +63231,7 @@ const ESSAY_DATA = [
                     "en": "children's habits",
                     "vi": "thói quen của trẻ em",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
                     "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
                   },
@@ -63239,7 +63239,7 @@ const ESSAY_DATA = [
                     "en": "emotional well-being",
                     "vi": "sức khỏe tinh thần/cảm xúc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
                     "example_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em."
                   },
@@ -63271,7 +63271,7 @@ const ESSAY_DATA = [
                     "en": "huge advertising expenses",
                     "vi": "chi phí quảng cáo khổng lồ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
                     "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
                   },
@@ -63279,7 +63279,7 @@ const ESSAY_DATA = [
                     "en": "push up retail prices",
                     "vi": "đẩy giá bán lẻ tăng lên",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
                     "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
                   },
@@ -63287,7 +63287,7 @@ const ESSAY_DATA = [
                     "en": "put small businesses at a disadvantage",
                     "vi": "đặt các doanh nghiệp nhỏ vào thế bất lợi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
                     "example_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ."
                   },
@@ -63319,7 +63319,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, advertising has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, quảng cáo ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -63327,7 +63327,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of advertising.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của quảng cáo."
                   },
@@ -63335,7 +63335,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, advertising offers several notable advantages.",
                     "example_vi": "Một mặt, quảng cáo mang lại một số thuận lợi đáng chú ý."
                   },
@@ -63343,7 +63343,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -65763,7 +65763,7 @@ const ESSAY_DATA = [
                 "word": "emergency",
                 "ipa": "/ɪˈmɜːdʒənsi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tình huống khẩn cấp, đột xuất",
                 "example_en": "Mobile phones help students contact parents quickly in an emergency.",
                 "example_vi": "Điện thoại di động giúp học sinh liên lạc nhanh với cha mẹ trong tình huống khẩn cấp.",
@@ -65773,7 +65773,7 @@ const ESSAY_DATA = [
                 "word": "concentration",
                 "ipa": "/ˌkɒnsnˈtreɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tập trung chú ý",
                 "example_en": "Message alerts in class can easily break students' concentration.",
                 "example_vi": "Thông báo tin nhắn trong lớp rất dễ làm đứt quãng sự tập trung của học sinh.",
@@ -65813,7 +65813,7 @@ const ESSAY_DATA = [
                 "word": "recess",
                 "ipa": "/rɪˈses/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "giờ ra chơi, giờ giải lao ở trường",
                 "example_en": "Students often stare at phone screens instead of talking during recess.",
                 "example_vi": "Học sinh thường nhìn chằm chằm vào màn hình điện thoại thay vì trò chuyện giờ ra chơi.",
@@ -65823,7 +65823,7 @@ const ESSAY_DATA = [
                 "word": "reassure",
                 "ipa": "/ˌriːəˈʃʊə(r)/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "làm yên tâm, giúp an lòng",
                 "example_en": "A quick call after school reassures worried working parents.",
                 "example_vi": "Một cuộc gọi ngắn sau giờ tan học giúp các bậc phụ huynh đi làm yên tâm hơn.",
@@ -65833,7 +65833,7 @@ const ESSAY_DATA = [
                 "word": "educational",
                 "ipa": "/ˌedʒuˈkeɪʃənl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mang tính giáo dục, phục vụ học tập",
                 "example_en": "Teachers sometimes use educational apps for live classroom quizzes.",
                 "example_vi": "Giáo viên đôi khi dùng ứng dụng giáo dục cho các phần đố vui trực tiếp trên lớp.",
@@ -65853,7 +65853,7 @@ const ESSAY_DATA = [
                 "word": "portable",
                 "ipa": "/ˈpɔːtəbl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nhỏ gọn, dễ mang theo bên mình",
                 "example_en": "A smartphone is a portable device for reading e-books and dictionaries.",
                 "example_vi": "Điện thoại thông minh là thiết bị nhỏ gọn để đọc sách điện tử và tra từ điển.",
@@ -65863,7 +65863,7 @@ const ESSAY_DATA = [
                 "word": "supervision",
                 "ipa": "/ˌsuːpəˈvɪʒn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự giám sát, quản lý của giáo viên",
                 "example_en": "Classroom phone use works best under clear teacher supervision.",
                 "example_vi": "Việc dùng điện thoại trên lớp hiệu quả nhất khi có sự giám sát rõ ràng của giáo viên.",
@@ -65883,7 +65883,7 @@ const ESSAY_DATA = [
                 "word": "sedentary",
                 "ipa": "/ˈsedntri/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ít vận động, ngồi lì một chỗ",
                 "example_en": "Playing phone games at break time encourages sedentary habits.",
                 "example_vi": "Chơi game điện thoại vào giờ giải lao khuyến khích thói quen thụ động ít vận động.",
@@ -65923,7 +65923,7 @@ const ESSAY_DATA = [
                 "word": "instant",
                 "ipa": "/ˈɪnstənt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tức thì, ngay lập tức",
                 "example_en": "Mobile dictionaries give students instant access to word meanings.",
                 "example_vi": "Từ điển trên di động giúp học sinh tra cứu nghĩa của từ ngay tức thì.",
@@ -65933,7 +65933,7 @@ const ESSAY_DATA = [
                 "word": "cheat",
                 "ipa": "/tʃiːt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "quay cóp, gian lận trong thi cử",
                 "example_en": "Some dishonest students use smartphones to cheat on exams.",
                 "example_vi": "Một số học sinh thiếu trung thực dùng điện thoại thông minh để quay cóp trong kỳ thi.",
@@ -65971,7 +65971,7 @@ const ESSAY_DATA = [
                     "en": "stay in touch with their parents",
                     "vi": "giữ liên lạc với cha mẹ",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
                     "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
                   },
@@ -65979,7 +65979,7 @@ const ESSAY_DATA = [
                     "en": "in emergencies",
                     "vi": "trong những tình huống khẩn cấp",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
                     "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
                   },
@@ -65987,7 +65987,7 @@ const ESSAY_DATA = [
                     "en": "mobile phones",
                     "vi": "điện thoại di động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
                     "example_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất."
                   },
@@ -66019,7 +66019,7 @@ const ESSAY_DATA = [
                     "en": "serve as useful tools",
                     "vi": "đóng vai trò là những công cụ hữu ích",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
                     "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
                   },
@@ -66027,7 +66027,7 @@ const ESSAY_DATA = [
                     "en": "search for academic information quickly",
                     "vi": "tra cứu thông tin học tập nhanh chóng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
                     "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
                   },
@@ -66035,7 +66035,7 @@ const ESSAY_DATA = [
                     "en": "in class",
                     "vi": "ngay tại lớp học",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Smartphones serve as useful tools that help students search for academic information quickly in class.",
                     "example_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp."
                   },
@@ -66067,7 +66067,7 @@ const ESSAY_DATA = [
                     "en": "educational applications",
                     "vi": "các ứng dụng giáo dục",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
                     "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
                   },
@@ -66075,7 +66075,7 @@ const ESSAY_DATA = [
                     "en": "make classroom lessons",
                     "vi": "làm cho các tiết học trên lớp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
                     "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
                   },
@@ -66083,7 +66083,7 @@ const ESSAY_DATA = [
                     "en": "more lively and engaging",
                     "vi": "trở nên sinh động và hấp dẫn hơn",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
                     "example_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn."
                   },
@@ -66115,7 +66115,7 @@ const ESSAY_DATA = [
                     "en": "record study schedules",
                     "vi": "ghi chú lịch trình học tập",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
                     "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
                   },
@@ -66123,7 +66123,7 @@ const ESSAY_DATA = [
                     "en": "store documents",
                     "vi": "lưu trữ tài liệu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
                     "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
                   },
@@ -66131,7 +66131,7 @@ const ESSAY_DATA = [
                     "en": "coordinate group assignments",
                     "vi": "phối hợp các bài tập nhóm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
                     "example_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện."
                   },
@@ -66163,7 +66163,7 @@ const ESSAY_DATA = [
                     "en": "use phones properly at school",
                     "vi": "sử dụng điện thoại đúng cách ở trường",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
                     "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
                   },
@@ -66171,7 +66171,7 @@ const ESSAY_DATA = [
                     "en": "develop responsible digital habits",
                     "vi": "hình thành thói quen công nghệ có trách nhiệm",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
                     "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
                   },
@@ -66179,7 +66179,7 @@ const ESSAY_DATA = [
                     "en": "guide students",
                     "vi": "hướng dẫn học sinh",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
                     "example_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh."
                   },
@@ -66211,7 +66211,7 @@ const ESSAY_DATA = [
                     "en": "easily distract students",
                     "vi": "dễ khiến học sinh bị xao nhãng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
                     "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
                   },
@@ -66219,7 +66219,7 @@ const ESSAY_DATA = [
                     "en": "pay attention to teachers' lectures",
                     "vi": "chú ý lắng nghe bài giảng của thầy cô",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
                     "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
                   },
@@ -66227,7 +66227,7 @@ const ESSAY_DATA = [
                     "en": "in class",
                     "vi": "ở trên lớp",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
                     "example_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp."
                   },
@@ -66259,7 +66259,7 @@ const ESSAY_DATA = [
                     "en": "overuse mobile phones at school",
                     "vi": "lạm dụng điện thoại di động ở trường",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
                     "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
                   },
@@ -66267,7 +66267,7 @@ const ESSAY_DATA = [
                     "en": "face-to-face interaction",
                     "vi": "sự tương tác/giao tiếp trực tiếp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
                     "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
                   },
@@ -66275,7 +66275,7 @@ const ESSAY_DATA = [
                     "en": "physical activity during break time",
                     "vi": "hoạt động thể chất vào giờ giải lao",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
                     "example_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao."
                   },
@@ -66307,7 +66307,7 @@ const ESSAY_DATA = [
                     "en": "allow mobile phones in classrooms",
                     "vi": "cho phép mang điện thoại vào lớp học",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
                     "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
                   },
@@ -66315,7 +66315,7 @@ const ESSAY_DATA = [
                     "en": "increase the risk of cheating",
                     "vi": "làm tăng nguy cơ gian lận",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
                     "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
                   },
@@ -66323,7 +66323,7 @@ const ESSAY_DATA = [
                     "en": "during tests and examinations",
                     "vi": "trong các bài kiểm tra và kỳ thi",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
                     "example_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra."
                   },
@@ -66355,7 +66355,7 @@ const ESSAY_DATA = [
                     "en": "uncontrolled phone use at school",
                     "vi": "việc dùng điện thoại thiếu kiểm soát ở trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
                     "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
                   },
@@ -66363,7 +66363,7 @@ const ESSAY_DATA = [
                     "en": "secret recording",
                     "vi": "hành vi quay phim/ghi hình lén",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
                     "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
                   },
@@ -66371,7 +66371,7 @@ const ESSAY_DATA = [
                     "en": "cyberbullying among students",
                     "vi": "nạn bắt nạt qua mạng giữa học sinh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
                     "example_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng."
                   },
@@ -66403,7 +66403,7 @@ const ESSAY_DATA = [
                     "en": "bring expensive smartphones to school",
                     "vi": "mang điện thoại thông minh đắt tiền đến trường",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
                     "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
                   },
@@ -66411,7 +66411,7 @@ const ESSAY_DATA = [
                     "en": "cause theft problems",
                     "vi": "gây ra các rắc rối về trộm cắp/mất mát",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
                     "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
                   },
@@ -66419,7 +66419,7 @@ const ESSAY_DATA = [
                     "en": "unhealthy comparison among peers",
                     "vi": "sự so bì thiếu lành mạnh giữa bạn bè",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
                     "example_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học."
                   },
@@ -66451,7 +66451,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, students using mobile phones at school has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, học sinh sử dụng điện thoại ở trường ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -66459,7 +66459,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of students using mobile phones at school.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của học sinh sử dụng điện thoại ở trường."
                   },
@@ -66467,7 +66467,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, students using mobile phones at school offers several notable advantages.",
                     "example_vi": "Một mặt, học sinh sử dụng điện thoại ở trường mang lại một số thuận lợi đáng chú ý."
                   },
@@ -66475,7 +66475,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -68907,7 +68907,7 @@ const ESSAY_DATA = [
                 "word": "productivity",
                 "ipa": "/ˌprɒdʌkˈtɪvəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "năng suất làm việc",
                 "example_en": "Frequent personal calls can reduce overall office productivity.",
                 "example_vi": "Các cuộc gọi cá nhân thường xuyên có thể làm giảm năng suất chung tại văn phòng.",
@@ -68927,7 +68927,7 @@ const ESSAY_DATA = [
                 "word": "efficiency",
                 "ipa": "/ɪˈfɪʃnsi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "hiệu suất, sự nhanh gọn hiệu quả",
                 "example_en": "Mobile scheduling tools improve daily workflow efficiency.",
                 "example_vi": "Các công cụ quản lý lịch trên di động nâng cao hiệu suất quy trình làm việc hằng ngày.",
@@ -68937,7 +68937,7 @@ const ESSAY_DATA = [
                 "word": "confidential",
                 "ipa": "/ˌkɒnfɪˈdenʃl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tuyệt mật, bảo mật nội bộ",
                 "example_en": "Employees must never photograph confidential company documents.",
                 "example_vi": "Nhân viên tuyệt đối không được chụp ảnh các tài liệu bảo mật của công ty.",
@@ -68947,7 +68947,7 @@ const ESSAY_DATA = [
                 "word": "coordination",
                 "ipa": "/kəʊˌɔːdɪˈneɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự phối hợp nhịp nhàng giữa các bộ phận",
                 "example_en": "Smartphones allow smooth coordination between field staff and headquarters.",
                 "example_vi": "Điện thoại thông minh giúp phối hợp nhịp nhàng giữa nhân viên hiện trường và trụ sở chính.",
@@ -68967,7 +68967,7 @@ const ESSAY_DATA = [
                 "word": "boundary",
                 "ipa": "/ˈbaʊndri/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ranh giới (giữa công việc và đời tư)",
                 "example_en": "After-hours work chats often blur the boundary between work and rest.",
                 "example_vi": "Tin nhắn công việc ngoài giờ thường làm mờ ranh giới giữa làm việc và nghỉ ngơi.",
@@ -68977,7 +68977,7 @@ const ESSAY_DATA = [
                 "word": "interrupt",
                 "ipa": "/ˌɪntəˈrʌpt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "cắt ngang, làm gián đoạn mạch làm việc",
                 "example_en": "Constant notification pings interrupt deep thinking at work.",
                 "example_vi": "Tiếng báo thông báo liên tục làm gián đoạn sự suy nghĩ sâu trong công việc.",
@@ -68997,7 +68997,7 @@ const ESSAY_DATA = [
                 "word": "burnout",
                 "ipa": "/ˈbɜːnaʊt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiệt sức nghề nghiệp",
                 "example_en": "Being reachable by phone 24/7 increases the risk of employee burnout.",
                 "example_vi": "Phải giữ liên lạc điện thoại 24/7 làm tăng nguy cơ kiệt sức ở nhân viên.",
@@ -69007,7 +69007,7 @@ const ESSAY_DATA = [
                 "word": "urgent",
                 "ipa": "/ˈɜːdʒənt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khẩn cấp, cấp bách",
                 "example_en": "Managers can resolve urgent problems quickly via mobile calls.",
                 "example_vi": "Người quản lý có thể giải quyết các vấn đề cấp bách nhanh chóng qua cuộc gọi di động.",
@@ -69027,7 +69027,7 @@ const ESSAY_DATA = [
                 "word": "leak",
                 "ipa": "/liːk/",
                 "pos": "noun/verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự rò rỉ; làm rò rỉ (thông tin, dữ liệu)",
                 "example_en": "Unsecured personal phones may cause sensitive data leaks.",
                 "example_vi": "Điện thoại cá nhân thiếu bảo mật có thể gây rò rỉ dữ liệu nhạy cảm.",
@@ -69057,7 +69057,7 @@ const ESSAY_DATA = [
                 "word": "concentration",
                 "ipa": "/ˌkɒnsnˈtreɪʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tập trung chuyên môn",
                 "example_en": "Even brief phone glances break an employee's concentration.",
                 "example_vi": "Ngay cả những cái liếc nhìn điện thoại ngắn ngủi cũng làm đứt mạch tập trung của nhân viên.",
@@ -69115,7 +69115,7 @@ const ESSAY_DATA = [
                     "en": "communicate quickly with colleagues and clients",
                     "vi": "liên lạc nhanh chóng với đồng nghiệp và khách hàng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
                     "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
                   },
@@ -69123,7 +69123,7 @@ const ESSAY_DATA = [
                     "en": "throughout the workday",
                     "vi": "trong suốt ngày làm việc",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
                     "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
                   },
@@ -69131,7 +69131,7 @@ const ESSAY_DATA = [
                     "en": "mobile phones",
                     "vi": "điện thoại di động",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones enable employees to communicate quickly with colleagues and clients throughout the workday.",
                     "example_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc."
                   },
@@ -69163,7 +69163,7 @@ const ESSAY_DATA = [
                     "en": "handle tasks flexibly",
                     "vi": "xử lý công việc một cách linh hoạt",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
                     "example_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài."
                   },
@@ -69171,7 +69171,7 @@ const ESSAY_DATA = [
                     "en": "meet partners outside the office",
                     "vi": "gặp gỡ đối tác bên ngoài văn phòng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Smartphones allow workers to handle tasks flexibly even while traveling or meeting partners outside the office.",
                     "example_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang đi công tác hoặc gặp đối tác bên ngoài."
                   },
@@ -69179,7 +69179,7 @@ const ESSAY_DATA = [
                     "en": "attend online meetings",
                     "vi": "tham gia các cuộc họp trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk.",
                     "example_vi": "Nhân viên có thể kiểm tra thư điện tử, tham gia cuộc họp trực tuyến hoặc xem tài liệu trên nền tảng đám mây mà không cần ngồi cố định trước máy tính bàn."
                   },
@@ -69211,7 +69211,7 @@ const ESSAY_DATA = [
                     "en": "useful mobile applications",
                     "vi": "những ứng dụng di động hữu ích",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
                     "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
                   },
@@ -69219,7 +69219,7 @@ const ESSAY_DATA = [
                     "en": "organize schedules",
                     "vi": "sắp xếp lịch trình làm việc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
                     "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
                   },
@@ -69227,7 +69227,7 @@ const ESSAY_DATA = [
                     "en": "look up work information efficiently",
                     "vi": "tra cứu thông tin công việc hiệu quả",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Useful mobile applications help employees organize schedules and look up work information efficiently.",
                     "example_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc rất hiệu quả."
                   },
@@ -69259,7 +69259,7 @@ const ESSAY_DATA = [
                     "en": "keep mobile phones nearby",
                     "vi": "giữ điện thoại di động bên mình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
                     "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
                   },
@@ -69267,7 +69267,7 @@ const ESSAY_DATA = [
                     "en": "give employees peace of mind",
                     "vi": "mang lại sự an tâm cho nhân viên",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
                     "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
                   },
@@ -69275,7 +69275,7 @@ const ESSAY_DATA = [
                     "en": "urgent family situations",
                     "vi": "những tình huống gia đình khẩn cấp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Keeping mobile phones nearby gives employees peace of mind in case of urgent family situations.",
                     "example_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình."
                   },
@@ -69307,7 +69307,7 @@ const ESSAY_DATA = [
                     "en": "during lunch breaks",
                     "vi": "trong giờ nghỉ trưa",
                     "type": "prep.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
                     "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
                   },
@@ -69315,7 +69315,7 @@ const ESSAY_DATA = [
                     "en": "relax briefly",
                     "vi": "thư giãn ngắn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
                     "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
                   },
@@ -69323,7 +69323,7 @@ const ESSAY_DATA = [
                     "en": "recharge their mental energy",
                     "vi": "nạp lại năng lượng tinh thần",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using mobile phones moderately during lunch breaks helps workers relax briefly and recharge their mental energy.",
                     "example_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần."
                   },
@@ -69355,7 +69355,7 @@ const ESSAY_DATA = [
                     "en": "personal entertainment",
                     "vi": "các hoạt động giải trí cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
                     "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
                   },
@@ -69363,7 +69363,7 @@ const ESSAY_DATA = [
                     "en": "reduce overall workplace productivity",
                     "vi": "làm giảm năng suất làm việc chung",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
                     "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
                   },
@@ -69371,7 +69371,7 @@ const ESSAY_DATA = [
                     "en": "easily distract employees",
                     "vi": "dễ khiến nhân viên bị xao nhãng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
                     "example_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động."
                   },
@@ -69403,7 +69403,7 @@ const ESSAY_DATA = [
                     "en": "use mobile phones inappropriately",
                     "vi": "sử dụng điện thoại không đúng lúc/thiếu phù hợp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
                     "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
                   },
@@ -69411,7 +69411,7 @@ const ESSAY_DATA = [
                     "en": "client discussions",
                     "vi": "các buổi trao đổi với khách hàng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
                     "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
                   },
@@ -69419,7 +69419,7 @@ const ESSAY_DATA = [
                     "en": "create an unprofessional impression",
                     "vi": "tạo ấn tượng thiếu chuyên nghiệp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
                     "example_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp."
                   },
@@ -69451,7 +69451,7 @@ const ESSAY_DATA = [
                     "en": "unrestricted use of personal phones",
                     "vi": "việc dùng điện thoại cá nhân không giới hạn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
                     "example_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp."
                   },
@@ -69459,7 +69459,7 @@ const ESSAY_DATA = [
                     "en": "company data security",
                     "vi": "an toàn dữ liệu của doanh nghiệp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
                     "example_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp."
                   },
@@ -69467,7 +69467,7 @@ const ESSAY_DATA = [
                     "en": "photograph internal documents",
                     "vi": "chụp ảnh tài liệu nội bộ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks.",
                     "example_vi": "Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu thông tin khách hàng trên máy cá nhân kém bảo mật hoặc truy cập đường dẫn chứa mã độc qua mạng công ty."
                   },
@@ -69499,7 +69499,7 @@ const ESSAY_DATA = [
                     "en": "constant connectivity",
                     "vi": "sự kết nối liên tục không ngừng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
                     "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
                   },
@@ -69507,7 +69507,7 @@ const ESSAY_DATA = [
                     "en": "blur the boundary",
                     "vi": "làm mờ đi ranh giới",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
                     "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
                   },
@@ -69515,7 +69515,7 @@ const ESSAY_DATA = [
                     "en": "working hours and personal rest",
                     "vi": "giờ làm việc và thời gian nghỉ ngơi cá nhân",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Constant connectivity through mobile phones blurs the boundary between working hours and personal rest.",
                     "example_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức."
                   },
@@ -69547,7 +69547,7 @@ const ESSAY_DATA = [
                     "en": "construction sites",
                     "vi": "các công trường xây dựng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
                     "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
                   },
@@ -69555,7 +69555,7 @@ const ESSAY_DATA = [
                     "en": "cause dangerous workplace accidents",
                     "vi": "gây ra những tai nạn lao động nguy hiểm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
                     "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
                   },
@@ -69563,7 +69563,7 @@ const ESSAY_DATA = [
                     "en": "look at mobile phones",
                     "vi": "nhìn vào điện thoại di động",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
                     "example_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm."
                   },
@@ -69595,7 +69595,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, using mobile phones in the workplace has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, sử dụng điện thoại ở nơi làm việc ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -69603,7 +69603,7 @@ const ESSAY_DATA = [
                     "en": "examine both the advantages and disadvantages",
                     "vi": "xem xét cả mặt thuận lợi và bất lợi",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will examine both the advantages and disadvantages of using mobile phones in the workplace.",
                     "example_vi": "Bài tiểu luận này sẽ xem xét cả mặt thuận lợi và bất lợi của sử dụng điện thoại ở nơi làm việc."
                   },
@@ -69611,7 +69611,7 @@ const ESSAY_DATA = [
                     "en": "offer several notable advantages",
                     "vi": "mang lại một số thuận lợi đáng chú ý",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "On the one hand, using mobile phones in the workplace offers several notable advantages.",
                     "example_vi": "Một mặt, sử dụng điện thoại ở nơi làm việc mang lại một số thuận lợi đáng chú ý."
                   },
@@ -69619,7 +69619,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern lifestyles are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là lối sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -72061,7 +72061,7 @@ const ESSAY_DATA = [
                 "word": "discipline",
                 "ipa": "/ˈdɪsəplɪn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính kỷ luật, sự tự giác",
                 "example_en": "Walking a pet every morning builds personal discipline.",
                 "example_vi": "Dắt thú cưng đi dạo mỗi sáng xây dựng tính kỷ luật cá nhân.",
@@ -72091,7 +72091,7 @@ const ESSAY_DATA = [
                 "word": "expenditure",
                 "ipa": "/ɪkˈspendɪtʃə(r)/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khoản chi tiêu, chi phí",
                 "example_en": "Veterinary expenditures can be higher than expected.",
                 "example_vi": "Các khoản chi tiêu thú y có thể cao hơn dự tính.",
@@ -72151,7 +72151,7 @@ const ESSAY_DATA = [
                 "word": "friction",
                 "ipa": "/ˈfrɪkʃn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự bất hòa, xích mích",
                 "example_en": "Unleashed dogs often create friction in shared residential areas.",
                 "example_vi": "Chó không xích thường tạo ra bất hòa tại các khu dân cư chung.",
@@ -72237,23 +72237,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "keep pets",
-                    "vi": "nuôi thú cưng"
+                    "vi": "nuôi thú cưng",
+                    "level": "B1"
                   },
                   {
                     "en": "bring joy",
-                    "vi": "mang lại niềm vui"
+                    "vi": "mang lại niềm vui",
+                    "level": "B1"
                   },
                   {
                     "en": "reduce stress",
-                    "vi": "giảm căng thẳng"
+                    "vi": "giảm căng thẳng",
+                    "level": "B1"
                   },
                   {
                     "en": "provide emotional companionship",
-                    "vi": "mang lại sự đồng hành về mặt cảm xúc"
+                    "vi": "mang lại sự đồng hành về mặt cảm xúc",
+                    "level": "B2"
                   },
                   {
                     "en": "soothe psychological stress",
-                    "vi": "xoa dịu căng thẳng tâm lý"
+                    "vi": "xoa dịu căng thẳng tâm lý",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72265,23 +72270,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "care for pets",
-                    "vi": "chăm sóc thú cưng"
+                    "vi": "chăm sóc thú cưng",
+                    "level": "B1"
                   },
                   {
                     "en": "learn responsibility",
-                    "vi": "học được tính trách nhiệm"
+                    "vi": "học được tính trách nhiệm",
+                    "level": "B1"
                   },
                   {
                     "en": "foster a deep sense of responsibility",
-                    "vi": "nuôi dưỡng tinh thần trách nhiệm sâu sắc"
+                    "vi": "nuôi dưỡng tinh thần trách nhiệm sâu sắc",
+                    "level": "B1"
                   },
                   {
                     "en": "cultivate self-discipline",
-                    "vi": "rèn luyện tính tự giác"
+                    "vi": "rèn luyện tính tự giác",
+                    "level": "B2"
                   },
                   {
                     "en": "strictly follow regular schedules",
-                    "vi": "tuân thủ nghiêm ngặt lịch trình"
+                    "vi": "tuân thủ nghiêm ngặt lịch trình",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72293,23 +72303,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "physical activity",
-                    "vi": "vận động thể chất"
+                    "vi": "vận động thể chất",
+                    "level": "B1"
                   },
                   {
                     "en": "walk dogs in parks",
-                    "vi": "dắt chó đi dạo trong công viên"
+                    "vi": "dắt chó đi dạo trong công viên",
+                    "level": "B1"
                   },
                   {
                     "en": "promote an active lifestyle",
-                    "vi": "thúc đẩy lối sống năng động"
+                    "vi": "thúc đẩy lối sống năng động",
+                    "level": "B1"
                   },
                   {
                     "en": "cardiovascular health",
-                    "vi": "sức khỏe tim mạch"
+                    "vi": "sức khỏe tim mạch",
+                    "level": "B2"
                   },
                   {
                     "en": "maintain regular walking routines",
-                    "vi": "duy trì thói quen đi bộ đều đặn"
+                    "vi": "duy trì thói quen đi bộ đều đặn",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72321,23 +72336,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "make friends",
-                    "vi": "kết bạn"
+                    "vi": "kết bạn",
+                    "level": "B1"
                   },
                   {
                     "en": "expand friendships",
-                    "vi": "mở rộng mối quan hệ bạn bè"
+                    "vi": "mở rộng mối quan hệ bạn bè",
+                    "level": "B1"
                   },
                   {
                     "en": "natural catalysts for social interaction",
-                    "vi": "cầu nối tự nhiên thúc đẩy sự tương tác xã hội"
+                    "vi": "cầu nối tự nhiên thúc đẩy sự tương tác xã hội",
+                    "level": "B1"
                   },
                   {
                     "en": "integrate into local communities",
-                    "vi": "hòa nhập cộng đồng"
+                    "vi": "hòa nhập cộng đồng",
+                    "level": "B2"
                   },
                   {
                     "en": "build mutual support networks",
-                    "vi": "thiết lập các mối quan hệ hỗ trợ lẫn nhau"
+                    "vi": "thiết lập các mối quan hệ hỗ trợ lẫn nhau",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72349,23 +72369,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "protect houses",
-                    "vi": "bảo vệ nhà cửa"
+                    "vi": "bảo vệ nhà cửa",
+                    "level": "B1"
                   },
                   {
                     "en": "keep families safe",
-                    "vi": "bảo vệ gia đình an toàn"
+                    "vi": "bảo vệ gia đình an toàn",
+                    "level": "B1"
                   },
                   {
                     "en": "keep guard dogs",
-                    "vi": "nuôi các giống chó cảnh vệ"
+                    "vi": "nuôi các giống chó cảnh vệ",
+                    "level": "B1"
                   },
                   {
                     "en": "effective security measure",
-                    "vi": "giải pháp an ninh hữu hiệu"
+                    "vi": "giải pháp an ninh hữu hiệu",
+                    "level": "B2"
                   },
                   {
                     "en": "powerful deterrents against potential intruders",
-                    "vi": "tác dụng răn đe mạnh mẽ đối với những kẻ có ý đồ trộm cắp"
+                    "vi": "tác dụng răn đe mạnh mẽ đối với những kẻ có ý đồ trộm cắp",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72377,23 +72402,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "high living costs",
-                    "vi": "nhiều chi phí sinh hoạt tốn kém"
+                    "vi": "nhiều chi phí sinh hoạt tốn kém",
+                    "level": "B1"
                   },
                   {
                     "en": "create a financial burden",
-                    "vi": "tạo gánh nặng tiền bạc"
+                    "vi": "tạo gánh nặng tiền bạc",
+                    "level": "B1"
                   },
                   {
                     "en": "impose a considerable financial strain on",
-                    "vi": "tạo ra áp lực tài chính đáng kể đối với"
+                    "vi": "tạo ra áp lực tài chính đáng kể đối với",
+                    "level": "B1"
                   },
                   {
                     "en": "household budgets",
-                    "vi": "ngân sách gia đình"
+                    "vi": "ngân sách gia đình",
+                    "level": "B2"
                   },
                   {
                     "en": "specialized pet food",
-                    "vi": "thức ăn chuyên dụng"
+                    "vi": "thức ăn chuyên dụng",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72405,23 +72435,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "take up a lot of daily time and effort",
-                    "vi": "làm mất nhiều thời gian và công sức mỗi ngày"
+                    "vi": "làm mất nhiều thời gian và công sức mỗi ngày",
+                    "level": "B1"
                   },
                   {
                     "en": "find reliable pet sitters",
-                    "vi": "tìm người trông nom giúp"
+                    "vi": "tìm người trông nom giúp",
+                    "level": "B1"
                   },
                   {
                     "en": "pet ownership",
-                    "vi": "việc sở hữu thú cưng"
+                    "vi": "việc sở hữu thú cưng",
+                    "level": "B1"
                   },
                   {
                     "en": "substantial time commitment",
-                    "vi": "sự đầu tư lớn về quỹ thời gian"
+                    "vi": "sự đầu tư lớn về quỹ thời gian",
+                    "level": "B2"
                   },
                   {
                     "en": "restrict personal flexibility",
-                    "vi": "làm giảm tính linh hoạt trong sinh hoạt cá nhân"
+                    "vi": "làm giảm tính linh hoạt trong sinh hoạt cá nhân",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72433,23 +72468,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "cause home hygiene problems",
-                    "vi": "gây mất vệ sinh nhà cửa"
+                    "vi": "gây mất vệ sinh nhà cửa",
+                    "level": "B1"
                   },
                   {
                     "en": "trigger allergies",
-                    "vi": "làm phát sinh dị ứng"
+                    "vi": "làm phát sinh dị ứng",
+                    "level": "B1"
                   },
                   {
                     "en": "pose sanitation hazards",
-                    "vi": "tiềm ẩn nguy cơ gây mất vệ sinh môi trường sống"
+                    "vi": "tiềm ẩn nguy cơ gây mất vệ sinh môi trường sống",
+                    "level": "B1"
                   },
                   {
                     "en": "risk spreading zoonotic infections",
-                    "vi": "làm bùng phát các bệnh truyền nhiễm"
+                    "vi": "làm bùng phát các bệnh truyền nhiễm",
+                    "level": "B2"
                   },
                   {
                     "en": "shed pet dander and fur",
-                    "vi": "lông và vảy da rụng từ vật nuôi"
+                    "vi": "lông và vảy da rụng từ vật nuôi",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72461,23 +72501,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "make loud noises",
-                    "vi": "gây ồn ào"
+                    "vi": "gây ồn ào",
+                    "level": "B1"
                   },
                   {
                     "en": "cause conflicts with neighbors",
-                    "vi": "làm mất lòng hàng xóm"
+                    "vi": "làm mất lòng hàng xóm",
+                    "level": "B1"
                   },
                   {
                     "en": "persistent animal noise",
-                    "vi": "tiếng ồn khó chịu"
+                    "vi": "tiếng ồn khó chịu",
+                    "level": "B1"
                   },
                   {
                     "en": "spark neighborhood friction",
-                    "vi": "làm rạn nứt hòa khí láng giềng"
+                    "vi": "làm rạn nứt hòa khí láng giềng",
+                    "level": "B2"
                   },
                   {
                     "en": "incessant barking",
-                    "vi": "tiếng sủa dai dẳng của chó"
+                    "vi": "tiếng sủa dai dẳng của chó",
+                    "level": "B2"
                   }
                 ]
               },
@@ -72489,23 +72534,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "bite people",
-                    "vi": "cắn người"
+                    "vi": "cắn người",
+                    "level": "B1"
                   },
                   {
                     "en": "cause grief",
-                    "vi": "làm chủ nuôi đau buồn"
+                    "vi": "làm chủ nuôi đau buồn",
+                    "level": "B1"
                   },
                   {
                     "en": "profound emotional trauma upon bereavement",
-                    "vi": "nỗi đau tâm lý lớn khi chia ly"
+                    "vi": "nỗi đau tâm lý lớn khi chia ly",
+                    "level": "B1"
                   },
                   {
                     "en": "physical safety risks",
-                    "vi": "những rủi ro tai nạn thể chất"
+                    "vi": "những rủi ro tai nạn thể chất",
+                    "level": "B2"
                   },
                   {
                     "en": "unprovoked aggressive outbursts",
-                    "vi": "những phản ứng hung dữ bất ngờ"
+                    "vi": "những phản ứng hung dữ bất ngờ",
+                    "level": "B2"
                   }
                 ]
               }
@@ -74013,7 +74063,7 @@ const ESSAY_DATA = [
                 "word": "critical",
                 "ipa": "/ˈkrɪtɪkl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mang tính phản biện, đánh giá sâu sắc",
                 "example_en": "Students learn critical thinking through group debates.",
                 "example_vi": "Học sinh học tư duy phản biện thông qua các buổi tranh biện nhóm.",
@@ -74053,7 +74103,7 @@ const ESSAY_DATA = [
                 "word": "mobility",
                 "ipa": "/məʊˈbɪləti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự dịch chuyển, thăng tiến trong xã hội",
                 "example_en": "Quality schooling promotes upward social mobility.",
                 "example_vi": "Giáo dục chất lượng cao thúc đẩy sự thăng tiến trong bậc thang xã hội.",
@@ -74083,7 +74133,7 @@ const ESSAY_DATA = [
                 "word": "civic",
                 "ipa": "/ˈsɪvɪk/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về công dân, nghĩa vụ công dân",
                 "example_en": "Civic education encourages youth to participate in community affairs.",
                 "example_vi": "Giáo dục công dân khuyến khích người trẻ tham gia vào các công việc cộng đồng.",
@@ -74113,7 +74163,7 @@ const ESSAY_DATA = [
                 "word": "catalyst",
                 "ipa": "/ˈkætəlɪst/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "chất xúc tác, động lực thúc đẩy",
                 "example_en": "Education serves as a catalyst for economic modernization.",
                 "example_vi": "Giáo dục đóng vai trò là chất xúc tác cho hiện đại hóa kinh tế.",
@@ -74199,23 +74249,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "acquire knowledge",
-                    "vi": "tiếp thu kiến thức"
+                    "vi": "tiếp thu kiến thức",
+                    "level": "B1"
                   },
                   {
                     "en": "learn essential work skills",
-                    "vi": "học các kỹ năng làm việc cần thiết"
+                    "vi": "học các kỹ năng làm việc cần thiết",
+                    "level": "B1"
                   },
                   {
                     "en": "equip individuals with",
-                    "vi": "trang bị cho con người"
+                    "vi": "trang bị cho con người",
+                    "level": "B1"
                   },
                   {
                     "en": "profound academic knowledge",
-                    "vi": "nền tảng tri thức chuyên sâu"
+                    "vi": "nền tảng tri thức chuyên sâu",
+                    "level": "B2"
                   },
                   {
                     "en": "cultivate core professional competencies",
-                    "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi"
+                    "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi",
+                    "level": "B2"
                   }
                 ]
               },
@@ -74227,23 +74282,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "cultivate thinking skills",
-                    "vi": "rèn luyện khả năng tư duy"
+                    "vi": "rèn luyện khả năng tư duy",
+                    "level": "B1"
                   },
                   {
                     "en": "think independently",
-                    "vi": "suy nghĩ độc lập"
+                    "vi": "suy nghĩ độc lập",
+                    "level": "B1"
                   },
                   {
                     "en": "foster rigorous critical thinking",
-                    "vi": "thúc đẩy tư duy phản biện sắc bén"
+                    "vi": "thúc đẩy tư duy phản biện sắc bén",
+                    "level": "B1"
                   },
                   {
                     "en": "resolve complex problems",
-                    "vi": "giải quyết vấn đề phức tạp"
+                    "vi": "giải quyết vấn đề phức tạp",
+                    "level": "B2"
                   },
                   {
                     "en": "analyze multidimensional data",
-                    "vi": "phân tích dữ liệu đa chiều"
+                    "vi": "phân tích dữ liệu đa chiều",
+                    "level": "B2"
                   }
                 ]
               },
@@ -74255,23 +74315,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "escape poverty sustainably",
-                    "vi": "thoát nghèo bền vững"
+                    "vi": "thoát nghèo bền vững",
+                    "level": "B1"
                   },
                   {
                     "en": "earn higher incomes",
-                    "vi": "kiếm được mức thu nhập cao hơn"
+                    "vi": "kiếm được mức thu nhập cao hơn",
+                    "level": "B1"
                   },
                   {
                     "en": "poverty alleviation",
-                    "vi": "xóa đói giảm nghèo"
+                    "vi": "xóa đói giảm nghèo",
+                    "level": "B1"
                   },
                   {
                     "en": "upward social mobility",
-                    "vi": "thúc đẩy bình đẳng xã hội"
+                    "vi": "thúc đẩy bình đẳng xã hội",
+                    "level": "B2"
                   },
                   {
                     "en": "break generational cycles of deprivation",
-                    "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ"
+                    "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ",
+                    "level": "B2"
                   }
                 ]
               },
@@ -74283,23 +74348,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "teach good morals",
-                    "vi": "dạy con người đạo đức tốt"
+                    "vi": "dạy con người đạo đức tốt",
+                    "level": "B1"
                   },
                   {
                     "en": "model citizens",
-                    "vi": "những công dân gương mẫu"
+                    "vi": "những công dân gương mẫu",
+                    "level": "B1"
                   },
                   {
                     "en": "cultivate moral integrity",
-                    "vi": "vun đắp nhân cách đạo đức"
+                    "vi": "vun đắp nhân cách đạo đức",
+                    "level": "B1"
                   },
                   {
                     "en": "foster active civic consciousness",
-                    "vi": "bồi dưỡng ý thức công dân tích cực"
+                    "vi": "bồi dưỡng ý thức công dân tích cực",
+                    "level": "B2"
                   },
                   {
                     "en": "build an equitable, law-abiding civil society",
-                    "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật"
+                    "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật",
+                    "level": "B2"
                   }
                 ]
               },
@@ -74311,23 +74381,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "talented human resources",
-                    "vi": "nguồn nhân lực giỏi"
+                    "vi": "nguồn nhân lực giỏi",
+                    "level": "B1"
                   },
                   {
                     "en": "make countries prosperous",
-                    "vi": "giúp đất nước phát triển giàu mạnh"
+                    "vi": "giúp đất nước phát triển giàu mạnh",
+                    "level": "B1"
                   },
                   {
                     "en": "invest in high-quality education",
-                    "vi": "đầu tư vào giáo dục chất lượng cao"
+                    "vi": "đầu tư vào giáo dục chất lượng cao",
+                    "level": "B1"
                   },
                   {
                     "en": "technological innovation",
-                    "vi": "đổi mới công nghệ"
+                    "vi": "đổi mới công nghệ",
+                    "level": "B2"
                   },
                   {
                     "en": "national economic prosperity",
-                    "vi": "thịnh vượng kinh tế quốc gia"
+                    "vi": "thịnh vượng kinh tế quốc gia",
+                    "level": "B2"
                   }
                 ]
               }
@@ -75155,7 +75230,7 @@ const ESSAY_DATA = [
                 "word": "resilience",
                 "ipa": "/rɪˈzɪliəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng phục hồi, sức chống chịu kiên cường",
                 "example_en": "Community resilience helps residents recover quickly after floods.",
                 "example_vi": "Sức chống chịu của cộng đồng giúp người dân phục hồi nhanh chóng sau lũ lụt.",
@@ -75165,7 +75240,7 @@ const ESSAY_DATA = [
                 "word": "solidarity",
                 "ipa": "/ˌsɒlɪˈdærəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đoàn kết, tinh thần đồng lòng tương trợ",
                 "example_en": "Neighborhood solidarity saved many lives during the storm.",
                 "example_vi": "Sự đoàn kết xóm giềng đã cứu sống nhiều mạng người trong cơn bão.",
@@ -75175,7 +75250,7 @@ const ESSAY_DATA = [
                 "word": "evacuate",
                 "ipa": "/ɪˈvækjuːeɪt/",
                 "pos": "verb",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sơ tán, di tản khỏi nơi nguy hiểm",
                 "example_en": "Neighbors helped evacuate elderly residents from the flooded area.",
                 "example_vi": "Hàng xóm đã giúp sơ tán những người già ra khỏi khu vực ngập lụt.",
@@ -75225,7 +75300,7 @@ const ESSAY_DATA = [
                 "word": "stranded",
                 "ipa": "/ˈstrændɪd/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bị mắc kẹt, cô lập không có lối thoát",
                 "example_en": "Floodwaters left hundreds of families stranded on their rooftops.",
                 "example_vi": "Nước lũ khiến hàng trăm gia đình bị mắc kẹt trên nóc nhà.",
@@ -75245,7 +75320,7 @@ const ESSAY_DATA = [
                 "word": "hazard",
                 "ipa": "/ˈhæzəd/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "mối hiểm nguy, rủi ro tự nhiên",
                 "example_en": "Neighbors warned each other about landslide hazards.",
                 "example_vi": "Hàng xóm cảnh báo cho nhau về các mối nguy cơ sạt lở đất.",
@@ -75361,23 +75436,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "neighborhood connection",
-                    "vi": "tình làng nghĩa xóm"
+                    "vi": "tình làng nghĩa xóm",
+                    "level": "B1"
                   },
                   {
                     "en": "support and rescue each other",
-                    "vi": "hỗ trợ và cứu giúp nhau kịp thời"
+                    "vi": "hỗ trợ và cứu giúp nhau kịp thời",
+                    "level": "B1"
                   },
                   {
                     "en": "on-site first-response network",
-                    "vi": "mạng lưới ứng phó tại chỗ"
+                    "vi": "mạng lưới ứng phó tại chỗ",
+                    "level": "B1"
                   },
                   {
                     "en": "instant emergency rescue",
-                    "vi": "công tác cứu nạn khẩn cấp tức thì"
+                    "vi": "công tác cứu nạn khẩn cấp tức thì",
+                    "level": "B2"
                   },
                   {
                     "en": "evacuate stranded individuals",
-                    "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm"
+                    "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm",
+                    "level": "B2"
                   }
                 ]
               },
@@ -75389,23 +75469,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "community bonding",
-                    "vi": "sự gắn kết xóm giềng"
+                    "vi": "sự gắn kết xóm giềng",
+                    "level": "B1"
                   },
                   {
                     "en": "share food, clean water, and medicine",
-                    "vi": "chia sẻ đồ ăn, nước sạch và thuốc men"
+                    "vi": "chia sẻ đồ ăn, nước sạch và thuốc men",
+                    "level": "B1"
                   },
                   {
                     "en": "local solidarity",
-                    "vi": "tinh thần đoàn kết địa phương"
+                    "vi": "tinh thần đoàn kết địa phương",
+                    "level": "B1"
                   },
                   {
                     "en": "equitable sharing of vital resources",
-                    "vi": "chia sẻ tài nguyên"
+                    "vi": "chia sẻ tài nguyên",
+                    "level": "B2"
                   },
                   {
                     "en": "relief provisions",
-                    "vi": "hỗ trợ nhu yếu phẩm một cách công bằng"
+                    "vi": "hỗ trợ nhu yếu phẩm một cách công bằng",
+                    "level": "B2"
                   }
                 ]
               },
@@ -75417,23 +75502,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "spread storm and flood warnings",
-                    "vi": "truyền tin tức cảnh báo bão lũ nhanh hơn"
+                    "vi": "truyền tin tức cảnh báo bão lũ nhanh hơn",
+                    "level": "B1"
                   },
                   {
                     "en": "knock on doors to give warnings",
-                    "vi": "gõ cửa từng nhà để báo động"
+                    "vi": "gõ cửa từng nhà để báo động",
+                    "level": "B1"
                   },
                   {
                     "en": "interconnected neighborhood networks",
-                    "vi": "mạng lưới gắn kết xóm giềng"
+                    "vi": "mạng lưới gắn kết xóm giềng",
+                    "level": "B1"
                   },
                   {
                     "en": "uninhibited flow of survival information",
-                    "vi": "dòng chảy thông tin thông suốt"
+                    "vi": "dòng chảy thông tin thông suốt",
+                    "level": "B2"
                   },
                   {
                     "en": "localized early warnings",
-                    "vi": "lan tỏa các cảnh báo an toàn kịp thời"
+                    "vi": "lan tỏa các cảnh báo an toàn kịp thời",
+                    "level": "B2"
                   }
                 ]
               },
@@ -75445,23 +75535,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "calm fears",
-                    "vi": "xoa dịu nỗi sợ hãi"
+                    "vi": "xoa dịu nỗi sợ hãi",
+                    "level": "B1"
                   },
                   {
                     "en": "brings peace of mind",
-                    "vi": "mang lại cảm giác an tâm cho mọi người"
+                    "vi": "mang lại cảm giác an tâm cho mọi người",
+                    "level": "B1"
                   },
                   {
                     "en": "psychological anchor",
-                    "vi": "chỗ dựa tâm lý vững vàng"
+                    "vi": "chỗ dựa tâm lý vững vàng",
+                    "level": "B1"
                   },
                   {
                     "en": "catastrophic emotional trauma",
-                    "vi": "cú sốc tinh thần sau thảm họa"
+                    "vi": "cú sốc tinh thần sau thảm họa",
+                    "level": "B2"
                   },
                   {
                     "en": "rekindle optimism",
-                    "vi": "thắp lại niềm hy vọng sống"
+                    "vi": "thắp lại niềm hy vọng sống",
+                    "level": "B2"
                   }
                 ]
               },
@@ -75473,23 +75568,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "clean up debris",
-                    "vi": "dọn dẹp vệ sinh"
+                    "vi": "dọn dẹp vệ sinh",
+                    "level": "B1"
                   },
                   {
                     "en": "repair homes",
-                    "vi": "sửa chữa nhà cửa sau thiên tai"
+                    "vi": "sửa chữa nhà cửa sau thiên tai",
+                    "level": "B1"
                   },
                   {
                     "en": "collective neighborhood action",
-                    "vi": "sức mạnh hợp lực của cộng đồng"
+                    "vi": "sức mạnh hợp lực của cộng đồng",
+                    "level": "B1"
                   },
                   {
                     "en": "environmental cleanup",
-                    "vi": "dọn dẹp hiện trường"
+                    "vi": "dọn dẹp hiện trường",
+                    "level": "B2"
                   },
                   {
                     "en": "reconstruction of basic infrastructure",
-                    "vi": "tái thiết hạ tầng dân sinh sau bão lũ"
+                    "vi": "tái thiết hạ tầng dân sinh sau bão lũ",
+                    "level": "B2"
                   }
                 ]
               }
@@ -76357,7 +76457,7 @@ const ESSAY_DATA = [
                 "word": "kinship",
                 "ipa": "/ˈkɪnʃɪp/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tình thân, mối quan hệ ruột thịt gắn bó",
                 "example_en": "Strong kinship motivates family members to protect one another during floods.",
                 "example_vi": "Tình thân bền chặt thúc đẩy các thành viên gia đình bảo vệ lẫn nhau trong lũ lụt.",
@@ -76397,7 +76497,7 @@ const ESSAY_DATA = [
                 "word": "solace",
                 "ipa": "/ˈsɒlɪs/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự an ủi, niềm khuây khỏa trong đau thương",
                 "example_en": "Survivors found emotional solace in the embrace of their loved ones.",
                 "example_vi": "Những người sống sót tìm thấy sự an ủi tinh thần trong vòng tay của người thân.",
@@ -76407,7 +76507,7 @@ const ESSAY_DATA = [
                 "word": "altruism",
                 "ipa": "/ˈæltruɪzəm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "lòng vị tha, tinh thần vì người khác",
                 "example_en": "Acts of altruism among strangers saved dozens of lives in the landslide.",
                 "example_vi": "Những hành động vị tha giữa những người xa lạ đã cứu sống hàng chục mạng người trong vụ sạt lở.",
@@ -76547,7 +76647,7 @@ const ESSAY_DATA = [
                 "word": "solidarity",
                 "ipa": "/ˌsɒlɪˈdærəti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tinh thần đoàn kết, tương thân tương ái",
                 "example_en": "Human solidarity is the strongest shield against natural catastrophes.",
                 "example_vi": "Tinh thần đoàn kết của con người là lá chắn vững chắc nhất trước các thảm họa tự nhiên.",
@@ -76563,23 +76663,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "strong human relationships",
-                    "vi": "mối quan hệ con người bền chặt"
+                    "vi": "mối quan hệ con người bền chặt",
+                    "level": "B1"
                   },
                   {
                     "en": "provide practical help and rescue",
-                    "vi": "hỗ trợ thiết thực và ứng cứu kịp thời"
+                    "vi": "hỗ trợ thiết thực và ứng cứu kịp thời",
+                    "level": "B1"
                   },
                   {
                     "en": "close interpersonal bonds",
-                    "vi": "mối gắn kết khăng khít giữa con người"
+                    "vi": "mối gắn kết khăng khít giữa con người",
+                    "level": "B1"
                   },
                   {
                     "en": "immediate life-saving assistance",
-                    "vi": "sự trợ giúp cứu mạng tức thì"
+                    "vi": "sự trợ giúp cứu mạng tức thì",
+                    "level": "B2"
                   },
                   {
                     "en": "protect vulnerable family members",
-                    "vi": "bảo vệ các thành viên gia đình dễ bị tổn thương"
+                    "vi": "bảo vệ các thành viên gia đình dễ bị tổn thương",
+                    "level": "B2"
                   }
                 ]
               },
@@ -76591,23 +76696,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "share food, water, and safe shelter",
-                    "vi": "chia sẻ thức ăn, nước uống và chỗ trú ẩn an toàn"
+                    "vi": "chia sẻ thức ăn, nước uống và chỗ trú ẩn an toàn",
+                    "level": "B1"
                   },
                   {
                     "en": "overcome severe shortages",
-                    "vi": "vượt qua sự thiếu thốn nghiêm trọng"
+                    "vi": "vượt qua sự thiếu thốn nghiêm trọng",
+                    "level": "B1"
                   },
                   {
                     "en": "mutual resource pooling",
-                    "vi": "việc góp chung nguồn lực tương trợ"
+                    "vi": "việc góp chung nguồn lực tương trợ",
+                    "level": "B1"
                   },
                   {
                     "en": "provide temporary refuge",
-                    "vi": "cung cấp nơi trú ẩn tạm thời"
+                    "vi": "cung cấp nơi trú ẩn tạm thời",
+                    "level": "B2"
                   },
                   {
                     "en": "sustain basic survival needs",
-                    "vi": "duy trì các nhu cầu sinh tồn thiết yếu"
+                    "vi": "duy trì các nhu cầu sinh tồn thiết yếu",
+                    "level": "B2"
                   }
                 ]
               },
@@ -76619,23 +76729,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "give emotional support and comfort",
-                    "vi": "mang lại sự nâng đỡ tinh thần và an ủi"
+                    "vi": "mang lại sự nâng đỡ tinh thần và an ủi",
+                    "level": "B1"
                   },
                   {
                     "en": "reduce fear and panic",
-                    "vi": "giảm bớt nỗi sợ hãi và hoảng loạn"
+                    "vi": "giảm bớt nỗi sợ hãi và hoảng loạn",
+                    "level": "B1"
                   },
                   {
                     "en": "empathetic human connections",
-                    "vi": "những kết nối con người giàu sự thấu cảm"
+                    "vi": "những kết nối con người giàu sự thấu cảm",
+                    "level": "B1"
                   },
                   {
                     "en": "buffer against psychological trauma",
-                    "vi": "làm tấm đệm giảm chấn thương tâm lý"
+                    "vi": "làm tấm đệm giảm chấn thương tâm lý",
+                    "level": "B2"
                   },
                   {
                     "en": "foster inner fortitude and hope",
-                    "vi": "nuôi dưỡng nghị lực nội tâm và niềm hy vọng"
+                    "vi": "nuôi dưỡng nghị lực nội tâm và niềm hy vọng",
+                    "level": "B2"
                   }
                 ]
               },
@@ -76647,23 +76762,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "share reliable information and warnings",
-                    "vi": "chia sẻ thông tin đáng tin cậy và cảnh báo sớm"
+                    "vi": "chia sẻ thông tin đáng tin cậy và cảnh báo sớm",
+                    "level": "B1"
                   },
                   {
                     "en": "prepare and move to safety",
-                    "vi": "chuẩn bị và di chuyển đến nơi an toàn"
+                    "vi": "chuẩn bị và di chuyển đến nơi an toàn",
+                    "level": "B1"
                   },
                   {
                     "en": "trusted social networks",
-                    "vi": "mạng lưới quan hệ xã hội đáng tin cậy"
+                    "vi": "mạng lưới quan hệ xã hội đáng tin cậy",
+                    "level": "B1"
                   },
                   {
                     "en": "transmit accurate hazard updates",
-                    "vi": "truyền tải cập nhật hiểm họa chính xác"
+                    "vi": "truyền tải cập nhật hiểm họa chính xác",
+                    "level": "B2"
                   },
                   {
                     "en": "make informed survival decisions",
-                    "vi": "đưa ra quyết định sinh tồn sáng suốt"
+                    "vi": "đưa ra quyết định sinh tồn sáng suốt",
+                    "level": "B2"
                   }
                 ]
               },
@@ -76675,23 +76795,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "work together to rebuild homes",
-                    "vi": "cùng nhau sửa chữa nhà cửa"
+                    "vi": "cùng nhau sửa chữa nhà cửa",
+                    "level": "B1"
                   },
                   {
                     "en": "return to normal life quickly",
-                    "vi": "sớm ổn định lại cuộc sống bình thường"
+                    "vi": "sớm ổn định lại cuộc sống bình thường",
+                    "level": "B1"
                   },
                   {
                     "en": "collaborative social support",
-                    "vi": "sự hỗ trợ xã hội mang tính hợp lực"
+                    "vi": "sự hỗ trợ xã hội mang tính hợp lực",
+                    "level": "B1"
                   },
                   {
                     "en": "accelerate post-disaster recovery",
-                    "vi": "đẩy nhanh quá trình phục hồi sau thảm họa"
+                    "vi": "đẩy nhanh quá trình phục hồi sau thảm họa",
+                    "level": "B2"
                   },
                   {
                     "en": "restore shattered livelihoods",
-                    "vi": "khôi phục lại sinh kế bị tàn phá"
+                    "vi": "khôi phục lại sinh kế bị tàn phá",
+                    "level": "B2"
                   }
                 ]
               }
@@ -77522,7 +77647,7 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "phonetic": "/ɔːˈtɒnəmi/",
                 "vi": "sự tự chủ, quyền tự quyết",
-                "level": "B2",
+                "level": "B1",
                 "example": "Staying single allows young adults to enjoy complete personal autonomy."
               },
               {
@@ -77538,7 +77663,7 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "phonetic": "/ˌfleksəˈbɪləti/",
                 "vi": "sự linh hoạt",
-                "level": "B2",
+                "level": "B1",
                 "example": "Living alone gives workers greater flexibility to relocate for better jobs."
               },
               {
@@ -77634,7 +77759,7 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "phonetic": "/ˈbɜːdn/",
                 "vi": "gánh nặng",
-                "level": "B2",
+                "level": "B1",
                 "example": "Paying rent and bills alone can become a heavy financial burden."
               },
               {
@@ -78873,7 +78998,7 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "phonetic": "/ɔːˈtɒnəmi/",
                 "vi": "quyền tự chủ, sự tự quyết",
-                "level": "B2",
+                "level": "B1",
                 "example": "Personal autonomy is one of the greatest rewards of being single."
               },
               {
@@ -78937,7 +79062,7 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "phonetic": "/træŋˈkwɪləti/",
                 "vi": "sự yên bình, tĩnh lặng",
-                "level": "B2",
+                "level": "B1",
                 "example": "Living solo provides a sense of domestic tranquility after work."
               },
               {
@@ -78945,7 +79070,7 @@ const ESSAY_DATA = [
                 "pos": "adj",
                 "phonetic": "/hɑːˈməʊniəs/",
                 "vi": "hài hòa, êm ấm",
-                "level": "B2",
+                "level": "B1",
                 "example": "Single adults can build harmonious friendships within their community."
               },
               {
@@ -79032,7 +79157,7 @@ const ESSAY_DATA = [
                     "en": "enjoy complete personal freedom and autonomy",
                     "vi": "tận hưởng sự tự do và quyền tự chủ cá nhân trọn vẹn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Being single allows adults to enjoy complete personal freedom and autonomy.",
                     "example_vi": "Sống độc thân cho phép người trưởng thành tận hưởng sự tự do và quyền tự chủ cá nhân trọn vẹn."
                   },
@@ -79040,7 +79165,7 @@ const ESSAY_DATA = [
                     "en": "design their own lifestyle without compromise",
                     "vi": "tự thiết kế lối sống riêng mà không cần thỏa hiệp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Unmarried people can design their own lifestyle without compromise.",
                     "example_vi": "Những người chưa kết hôn có thể tự thiết kế lối sống riêng mà không cần thỏa hiệp."
                   },
@@ -79072,7 +79197,7 @@ const ESSAY_DATA = [
                     "en": "achieve full financial independence",
                     "vi": "đạt được sự độc lập hoàn toàn về tài chính",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Living alone helps young people achieve full financial independence.",
                     "example_vi": "Sống một mình giúp người trẻ đạt được sự độc lập hoàn toàn về tài chính."
                   },
@@ -79080,7 +79205,7 @@ const ESSAY_DATA = [
                     "en": "invest in self-improvement and lifelong hobbies",
                     "vi": "đầu tư vào việc hoàn thiện bản thân và các sở thích lâu dài",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They can freely invest in self-improvement and lifelong hobbies.",
                     "example_vi": "Họ có thể tự do đầu tư vào việc hoàn thiện bản thân và các sở thích lâu dài."
                   },
@@ -81253,7 +81378,7 @@ const ESSAY_DATA = [
                 "word": "convenience",
                 "ipa": "/kənˈviː.ni.əns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tiện lợi",
                 "example_en": "Many busy workers value the convenience of food delivery apps.",
                 "example_vi": "Nhiều người đi làm bận rộn đề cao sự tiện lợi của các ứng dụng giao đồ ăn.",
@@ -81263,7 +81388,7 @@ const ESSAY_DATA = [
                 "word": "accessible",
                 "ipa": "/əkˈses.ə.bəl/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "dễ tiếp cận, dễ sử dụng",
                 "example_en": "Smartphone applications make restaurant meals easily accessible.",
                 "example_vi": "Các ứng dụng điện thoại giúp những bữa ăn nhà hàng trở nên dễ tiếp cận.",
@@ -81273,7 +81398,7 @@ const ESSAY_DATA = [
                 "word": "culinary",
                 "ipa": "/ˈkʌl.ɪ.nər.i/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về ẩm thực, nấu nướng",
                 "example_en": "Consumers can explore diverse culinary options from home.",
                 "example_vi": "Người tiêu dùng có thể khám phá các lựa chọn ẩm thực đa dạng ngay tại nhà.",
@@ -81283,7 +81408,7 @@ const ESSAY_DATA = [
                 "word": "surcharge",
                 "ipa": "/ˈsɜː.tʃɑːdʒ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "phụ phí",
                 "example_en": "Delivery fees and peak-hour surcharges increase meal costs.",
                 "example_vi": "Phí giao hàng và phụ phí giờ cao điểm làm tăng chi phí bữa ăn.",
@@ -81293,7 +81418,7 @@ const ESSAY_DATA = [
                 "word": "nutrition",
                 "ipa": "/njuːˈtrɪʃ.ən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "dinh dưỡng",
                 "example_en": "Home-cooked meals usually offer better nutrition than fast food.",
                 "example_vi": "Bữa ăn tự nấu tại nhà thường mang lại dinh dưỡng tốt hơn thức ăn nhanh.",
@@ -81303,7 +81428,7 @@ const ESSAY_DATA = [
                 "word": "obesity",
                 "ipa": "/əʊˈbiː.sə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bệnh béo phì",
                 "example_en": "Frequent consumption of high-calorie takeaway food can lead to obesity.",
                 "example_vi": "Việc tiêu thụ thường xuyên đồ ăn mua sẵn giàu calo có thể dẫn đến béo phì.",
@@ -81323,7 +81448,7 @@ const ESSAY_DATA = [
                 "word": "packaging",
                 "ipa": "/ˈpæk.ɪ.dʒɪŋ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bao bì đóng gói",
                 "example_en": "Restaurants should switch to eco-friendly food packaging.",
                 "example_vi": "Các nhà hàng nên chuyển sang sử dụng bao bì thực phẩm thân thiện với môi trường.",
@@ -81333,7 +81458,7 @@ const ESSAY_DATA = [
                 "word": "hygiene",
                 "ipa": "/ˈhaɪ.dʒiːn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "vệ sinh an toàn",
                 "example_en": "Customers are increasingly concerned about kitchen hygiene standards.",
                 "example_vi": "Khách hàng ngày càng quan tâm đến các tiêu chuẩn vệ sinh nhà bếp.",
@@ -81343,7 +81468,7 @@ const ESSAY_DATA = [
                 "word": "sedentary",
                 "ipa": "/ˈsed.ən.tər.i/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "ít vận động, thụ động",
                 "example_en": "Ordering everything online encourages a sedentary lifestyle.",
                 "example_vi": "Việc đặt mọi thứ qua mạng khuyến khích lối sống ít vận động.",
@@ -81353,7 +81478,7 @@ const ESSAY_DATA = [
                 "word": "expenditure",
                 "ipa": "/ɪkˈspen.dɪ.tʃər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khoản chi tiêu tài chính",
                 "family": "expend (v), expense (n), expensive (adj)",
                 "example_en": "Frequent ordering via food apps significantly inflates monthly household expenditure.",
@@ -81461,7 +81586,7 @@ const ESSAY_DATA = [
                     "en": "save both time and effort",
                     "vi": "tiết kiệm cả thời gian và công sức",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services help people save both time and effort.",
                     "example_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian và công sức."
                   },
@@ -81469,7 +81594,7 @@ const ESSAY_DATA = [
                     "en": "prepare meals",
                     "vi": "chuẩn bị bữa ăn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "People do not need to visit restaurants or prepare meals themselves.",
                     "example_vi": "Người dùng không cần đến nhà hàng hoặc tự chuẩn bị bữa ăn."
                   },
@@ -81477,7 +81602,7 @@ const ESSAY_DATA = [
                     "en": "beneficial",
                     "vi": "có lợi",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This is especially beneficial for people with busy schedules.",
                     "example_vi": "Điều này đặc biệt thuận tiện đối với những người có lịch trình bận rộn."
                   },
@@ -81485,7 +81610,7 @@ const ESSAY_DATA = [
                     "en": "busy schedules",
                     "vi": "lịch trình bận rộn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This is especially beneficial for people with busy schedules.",
                     "example_vi": "Điều này đặc biệt thuận tiện đối với những người có lịch trình bận rộn."
                   },
@@ -81533,7 +81658,7 @@ const ESSAY_DATA = [
                     "en": "provide consumers with",
                     "vi": "cung cấp cho người tiêu dùng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services provide consumers with a wider variety of meals.",
                     "example_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn cho người tiêu dùng."
                   },
@@ -81541,7 +81666,7 @@ const ESSAY_DATA = [
                     "en": "compare prices and menus",
                     "vi": "so sánh giá cả và thực đơn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They can also compare prices and menus before placing an order.",
                     "example_vi": "Họ cũng có thể dễ dàng so sánh giá cả và thực đơn trước khi đặt món."
                   },
@@ -81549,7 +81674,7 @@ const ESSAY_DATA = [
                     "en": "place an order",
                     "vi": "đặt món",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Customers can order meals from many different restaurants.",
                     "example_vi": "Khách hàng có thể đặt món từ nhiều nhà hàng khác nhau."
                   },
@@ -81557,7 +81682,7 @@ const ESSAY_DATA = [
                     "en": "a positive effect",
                     "vi": "một tác động tích cực",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Customers can order meals from many different restaurants.",
                     "example_vi": "Khách hàng có thể đặt món từ nhiều nhà hàng khác nhau."
                   },
@@ -81605,7 +81730,7 @@ const ESSAY_DATA = [
                     "en": "modern technology",
                     "vi": "công nghệ hiện đại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Modern technology makes food delivery services more accessible.",
                     "example_vi": "Công nghệ hiện đại giúp việc đặt đồ ăn trở nên dễ dàng hơn."
                   },
@@ -81613,7 +81738,7 @@ const ESSAY_DATA = [
                     "en": "accessible",
                     "vi": "dễ tiếp cận",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Modern technology makes food delivery services more accessible.",
                     "example_vi": "Công nghệ hiện đại giúp việc đặt đồ ăn trở nên dễ dàng hơn."
                   },
@@ -81621,7 +81746,7 @@ const ESSAY_DATA = [
                     "en": "user-friendly",
                     "vi": "thân thiện với người dùng",
                     "type": "adj.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery applications are user-friendly and easy to use.",
                     "example_vi": "Các ứng dụng đặt đồ ăn rất dễ sử dụng."
                   },
@@ -81629,7 +81754,7 @@ const ESSAY_DATA = [
                     "en": "online payment",
                     "vi": "thanh toán trực tuyến",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Online payment and delivery services have become faster and more convenient.",
                     "example_vi": "Thanh toán trực tuyến và dịch vụ giao hàng ngày càng nhanh và thuận tiện."
                   },
@@ -81677,7 +81802,7 @@ const ESSAY_DATA = [
                     "en": "expand customer reach",
                     "vi": "mở rộng tệp khách hàng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Small eateries can reach a much larger online customer base without paying for expensive dining space.",
                     "example_vi": "Các quán ăn nhỏ có thể tiếp cận lượng lớn khách hàng trực tuyến mà không cần tốn nhiều chi phí thuê mặt bằng lớn."
                   },
@@ -81685,7 +81810,7 @@ const ESSAY_DATA = [
                     "en": "small restaurants and eateries",
                     "vi": "các nhà hàng và quán ăn nhỏ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery platforms help local restaurants expand their business and create jobs for delivery drivers.",
                     "example_vi": "Dịch vụ giao đồ ăn giúp các hàng quán mở rộng doanh thu và tạo thêm nhiều việc làm cho xã hội."
                   },
@@ -81693,7 +81818,7 @@ const ESSAY_DATA = [
                     "en": "flexible job opportunities",
                     "vi": "cơ hội việc làm linh hoạt",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "At the same time, this industry provides flexible job opportunities and income for thousands of delivery drivers.",
                     "example_vi": "Đồng thời, ngành dịch vụ này còn mang lại nguồn thu nhập linh hoạt cho hàng ngàn tài xế giao hàng."
                   },
@@ -81725,7 +81850,7 @@ const ESSAY_DATA = [
                     "en": "inclement weather conditions",
                     "vi": "điều kiện thời tiết xấu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Ordering food online is extremely helpful during bad weather or for people with limited mobility.",
                     "example_vi": "Đặt đồ ăn trực tuyến vô cùng hữu ích khi thời tiết xấu hoặc đối với người gặp khó khăn khi đi lại."
                   },
@@ -81733,7 +81858,7 @@ const ESSAY_DATA = [
                     "en": "mobility-impaired individuals",
                     "vi": "những người hạn chế khả năng đi lại",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "During heavy rain, extreme heat, or illness, users do not have to go outside and can still receive warm meals at their doorstep.",
                     "example_vi": "Trong những ngày mưa bão, nắng gắt hoặc khi bị ốm, người dùng không phải mạo hiểm ra đường mà vẫn nhận được bữa ăn nóng hổi tận nhà."
                   },
@@ -81741,7 +81866,7 @@ const ESSAY_DATA = [
                     "en": "doorstep delivery",
                     "vi": "giao hàng tận cửa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "During heavy rain, extreme heat, or illness, users do not have to go outside and can still receive warm meals at their doorstep.",
                     "example_vi": "Trong những ngày mưa bão, nắng gắt hoặc khi bị ốm, người dùng không phải mạo hiểm ra đường mà vẫn nhận được bữa ăn nóng hổi tận nhà."
                   },
@@ -81773,7 +81898,7 @@ const ESSAY_DATA = [
                     "en": "daily living expenses",
                     "vi": "chi phí sinh hoạt hàng ngày",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services can increase daily living expenses.",
                     "example_vi": "Dịch vụ giao đồ ăn có thể làm tăng chi phí sinh hoạt."
                   },
@@ -81781,7 +81906,7 @@ const ESSAY_DATA = [
                     "en": "meal prices",
                     "vi": "giá bữa ăn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Meal prices on delivery applications are sometimes higher than those in restaurants.",
                     "example_vi": "Giá món ăn trên ứng dụng đôi khi cao hơn tại nhà hàng."
                   },
@@ -81789,7 +81914,7 @@ const ESSAY_DATA = [
                     "en": "delivery applications",
                     "vi": "ứng dụng giao hàng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Meal prices on delivery applications are sometimes higher than those in restaurants.",
                     "example_vi": "Giá món ăn trên ứng dụng đôi khi cao hơn tại nhà hàng."
                   },
@@ -81797,7 +81922,7 @@ const ESSAY_DATA = [
                     "en": "increase expenses",
                     "vi": "làm tăng chi phí",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services can increase daily living expenses.",
                     "example_vi": "Dịch vụ giao đồ ăn có thể làm tăng chi phí sinh hoạt."
                   },
@@ -81837,7 +81962,7 @@ const ESSAY_DATA = [
                     "en": "lead to",
                     "vi": "dẫn đến",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services may lead to unhealthy eating habits.",
                     "example_vi": "Dịch vụ giao đồ ăn có thể dẫn đến thói quen ăn uống không lành mạnh."
                   },
@@ -81845,7 +81970,7 @@ const ESSAY_DATA = [
                     "en": "frequently",
                     "vi": "thường xuyên",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Many people frequently order fast food.",
                     "example_vi": "Nhiều người thường xuyên gọi đồ ăn nhanh."
                   },
@@ -81853,7 +81978,7 @@ const ESSAY_DATA = [
                     "en": "risk of health problems",
                     "vi": "nguy cơ mắc các vấn đề sức khỏe",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This may increase the risk of health problems.",
                     "example_vi": "Điều này có thể làm tăng nguy cơ gặp các vấn đề về sức khỏe."
                   },
@@ -81861,7 +81986,7 @@ const ESSAY_DATA = [
                     "en": "prepare healthy meals",
                     "vi": "chuẩn bị các bữa ăn lành mạnh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services may lead to unhealthy eating habits.",
                     "example_vi": "Dịch vụ giao đồ ăn có thể dẫn đến thói quen ăn uống không lành mạnh."
                   },
@@ -81901,7 +82026,7 @@ const ESSAY_DATA = [
                     "en": "environmental problems",
                     "vi": "vấn đề môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Food delivery services may create environmental problems.",
                     "example_vi": "Dịch vụ giao đồ ăn có thể gây ra các vấn đề về môi trường."
                   },
@@ -81909,7 +82034,7 @@ const ESSAY_DATA = [
                     "en": "a large amount of",
                     "vi": "một lượng lớn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Each order usually uses a large amount of disposable plastic packaging.",
                     "example_vi": "Mỗi đơn hàng thường sử dụng nhiều bao bì nhựa dùng một lần."
                   },
@@ -81917,7 +82042,7 @@ const ESSAY_DATA = [
                     "en": "disposable plastic packaging",
                     "vi": "bao bì nhựa dùng một lần",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Each order usually uses a large amount of disposable plastic packaging.",
                     "example_vi": "Mỗi đơn hàng thường sử dụng nhiều bao bì nhựa dùng một lần."
                   },
@@ -81925,7 +82050,7 @@ const ESSAY_DATA = [
                     "en": "environmental pollution",
                     "vi": "ô nhiễm môi trường",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This increases the amount of waste and causes environmental pollution.",
                     "example_vi": "Điều này làm tăng lượng rác thải và gây ô nhiễm môi trường."
                   },
@@ -81965,7 +82090,7 @@ const ESSAY_DATA = [
                     "en": "compromise food quality",
                     "vi": "làm giảm chất lượng món ăn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "The quality and freshness of meals may be compromised during the delivery process.",
                     "example_vi": "Chất lượng và độ tươi ngon của món ăn có thể bị giảm sút trong quá trình vận chuyển."
                   },
@@ -81973,7 +82098,7 @@ const ESSAY_DATA = [
                     "en": "delivery delays",
                     "vi": "sự chậm trễ khi giao hàng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Traffic congestion or delivery delays can cause meals to become cold, spilled, or lose their original freshness.",
                     "example_vi": "Tình trạng tắc đường hoặc thời gian chờ đợi lâu có thể khiến thức ăn bị nguội, đổ vỡ hoặc mất đi hương vị ban đầu."
                   },
@@ -81981,7 +82106,7 @@ const ESSAY_DATA = [
                     "en": "food hygiene standards",
                     "vi": "tiêu chuẩn vệ sinh thực phẩm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Furthermore, online customers cannot easily verify the food hygiene standards of the kitchens preparing their meals.",
                     "example_vi": "Ngoài ra, khách hàng đặt qua mạng cũng khó kiểm chứng trực tiếp quy trình vệ sinh an toàn thực phẩm tại nơi chế biến."
                   },
@@ -82013,7 +82138,7 @@ const ESSAY_DATA = [
                     "en": "over-reliance on takeaway food",
                     "vi": "sự phụ thuộc quá mức vào đồ ăn mua sẵn",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "When people habitually order takeaway food on their phones, families have fewer opportunities to prepare home-cooked meals and converse together.",
                     "example_vi": "Khi các thành viên quen đặt món ăn nhanh qua điện thoại, gia đình sẽ ít có cơ hội cùng nhau chuẩn bị bữa cơm và trò chuyện ấm cúng."
                   },
@@ -82021,7 +82146,7 @@ const ESSAY_DATA = [
                     "en": "weaken family bonding",
                     "vi": "làm giảm sự gắn kết gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Over-reliance on food delivery may weaken home-cooking skills and family bonding.",
                     "example_vi": "Phụ thuộc quá nhiều vào dịch vụ giao đồ ăn có thể làm mai một kỹ năng nấu nướng và sự gắn kết gia đình."
                   },
@@ -82029,7 +82154,7 @@ const ESSAY_DATA = [
                     "en": "basic culinary skills",
                     "vi": "kỹ năng nấu nướng cơ bản",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Over time, young adults may also lose basic culinary skills needed for independent living.",
                     "example_vi": "Về lâu dài, người trẻ cũng dễ đánh mất kỹ năng nấu ăn cơ bản để tự chăm sóc bản thân."
                   },
@@ -82061,7 +82186,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, food delivery services has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, dịch vụ giao đồ ăn ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -82069,7 +82194,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that modern living conditions are changing rapidly.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là điều kiện sống hiện đại đang thay đổi nhanh chóng."
                   },
@@ -82077,7 +82202,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu lý do B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that individuals prioritize convenience and efficiency.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là các cá nhân ưu tiên sự tiện lợi và hiệu quả."
                   },
@@ -82085,7 +82210,7 @@ const ESSAY_DATA = [
                     "en": "lead to far-reaching consequences",
                     "vi": "dẫn đến những hệ quả sâu rộng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Overlooking these challenges can lead to far-reaching consequences in the long run.",
                     "example_vi": "Việc xem nhẹ những thách thức này có thể dẫn đến những hệ quả sâu rộng về lâu dài."
                   },
@@ -82255,7 +82380,7 @@ const ESSAY_DATA = [
                 "word": "counterfeit",
                 "ipa": "/ˈkaʊn.tə.fɪt/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "giả mạo, hàng giả",
                 "example_en": "Authorities are struggling to curb the sale of counterfeit cosmetics on unverified websites.",
                 "example_vi": "Các cơ quan chức năng đang nỗ lực ngăn chặn việc buôn bán mỹ phẩm giả mạo trên các trang web chưa được kiểm chứng.",
@@ -82285,7 +82410,7 @@ const ESSAY_DATA = [
                 "word": "retailer",
                 "ipa": "/ˈriː.teɪ.lər/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "nhà bán lẻ, đơn vị bán lẻ",
                 "example_en": "Online retailers can offer lower prices because they do not have to pay expensive store rents.",
                 "example_vi": "Các nhà bán lẻ trực tuyến có thể đưa ra mức giá thấp hơn vì họ không phải trả tiền thuê cửa hàng đắt đỏ.",
@@ -82405,7 +82530,7 @@ const ESSAY_DATA = [
                 "word": "seamless",
                 "ipa": "/ˈsiːm.ləs/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "liền mạch, trơn tru, không gián đoạn",
                 "example_en": "E-wallets provide a seamless checkout experience that minimizes shopping friction.",
                 "example_vi": "Các ví điện tử đem lại trải nghiệm thanh toán liền mạch giúp giảm thiểu tối đa sự bất tiện khi mua hàng.",
@@ -82431,23 +82556,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "exceptional convenience",
-                    "vi": "sự tiện lợi vượt trội"
+                    "vi": "sự tiện lợi vượt trội",
+                    "level": "B1"
                   },
                   {
                     "en": "save travel time",
-                    "vi": "tiết kiệm thời gian đi lại"
+                    "vi": "tiết kiệm thời gian đi lại",
+                    "level": "B1"
                   },
                   {
                     "en": "delivered to their doorstep",
-                    "vi": "giao đến tận cửa nhà"
+                    "vi": "giao đến tận cửa nhà",
+                    "level": "B1"
                   },
                   {
                     "en": "order goods anytime from home",
-                    "vi": "đặt mua hàng hóa bất cứ lúc nào ngay tại nhà"
+                    "vi": "đặt mua hàng hóa bất cứ lúc nào ngay tại nhà",
+                    "level": "B2"
                   },
                   {
                     "en": "seamless digital transactions",
-                    "vi": "thao tác kỹ thuật số liền mạch"
+                    "vi": "thao tác kỹ thuật số liền mạch",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82459,23 +82589,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "compare prices easily",
-                    "vi": "so sánh giá cả"
+                    "vi": "so sánh giá cả",
+                    "level": "B1"
                   },
                   {
                     "en": "attractive discount programs",
-                    "vi": "chương trình giảm giá hấp dẫn"
+                    "vi": "chương trình giảm giá hấp dẫn",
+                    "level": "B1"
                   },
                   {
                     "en": "free shipping vouchers",
-                    "vi": "miễn phí vận chuyển"
+                    "vi": "miễn phí vận chuyển",
+                    "level": "B1"
                   },
                   {
                     "en": "transparent price discovery",
-                    "vi": "minh bạch hóa giá cả"
+                    "vi": "minh bạch hóa giá cả",
+                    "level": "B2"
                   },
                   {
                     "en": "competitive market dynamics",
-                    "vi": "cạnh tranh lành mạnh trên thị trường"
+                    "vi": "cạnh tranh lành mạnh trên thị trường",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82487,23 +82622,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "extensive product variety",
-                    "vi": "sự đa dạng sản phẩm vô cùng phong phú"
+                    "vi": "sự đa dạng sản phẩm vô cùng phong phú",
+                    "level": "B1"
                   },
                   {
                     "en": "e-commerce platforms",
-                    "vi": "các sàn thương mại điện tử"
+                    "vi": "các sàn thương mại điện tử",
+                    "level": "B1"
                   },
                   {
                     "en": "rare items unavailable locally",
-                    "vi": "mặt hàng hiếm mà các chợ truyền thống không có bán"
+                    "vi": "mặt hàng hiếm mà các chợ truyền thống không có bán",
+                    "level": "B1"
                   },
                   {
                     "en": "limitless virtual storefronts",
-                    "vi": "sàn thương mại số"
+                    "vi": "sàn thương mại số",
+                    "level": "B2"
                   },
                   {
                     "en": "personalized consumer items",
-                    "vi": "nhu cầu cá nhân hóa"
+                    "vi": "nhu cầu cá nhân hóa",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82515,23 +82655,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "check customer reviews",
-                    "vi": "tham khảo đánh giá của khách hàng"
+                    "vi": "tham khảo đánh giá của khách hàng",
+                    "level": "B1"
                   },
                   {
                     "en": "real photos and genuine comments",
-                    "vi": "hình ảnh chụp thực tế"
+                    "vi": "hình ảnh chụp thực tế",
+                    "level": "B1"
                   },
                   {
                     "en": "feel more confident",
-                    "vi": "cảm thấy yên tâm hơn"
+                    "vi": "cảm thấy yên tâm hơn",
+                    "level": "B1"
                   },
                   {
                     "en": "empirical social proof",
-                    "vi": "bằng chứng thực chứng"
+                    "vi": "bằng chứng thực chứng",
+                    "level": "B2"
                   },
                   {
                     "en": "informed purchasing decisions",
-                    "vi": "quyết định mua hàng sáng suốt"
+                    "vi": "quyết định mua hàng sáng suốt",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82543,23 +82688,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "cashless payment methods",
-                    "vi": "thanh toán không tiền mặt"
+                    "vi": "thanh toán không tiền mặt",
+                    "level": "B1"
                   },
                   {
                     "en": "cash on delivery",
-                    "vi": "thanh toán khi nhận hàng"
+                    "vi": "thanh toán khi nhận hàng",
+                    "level": "B1"
                   },
                   {
                     "en": "flexible payment options",
-                    "vi": "phương thức thanh toán linh hoạt"
+                    "vi": "phương thức thanh toán linh hoạt",
+                    "level": "B1"
                   },
                   {
                     "en": "secure payment gateways",
-                    "vi": "cổng thanh toán bảo mật"
+                    "vi": "cổng thanh toán bảo mật",
+                    "level": "B2"
                   },
                   {
                     "en": "real-time delivery tracking",
-                    "vi": "theo dõi đơn hàng tự động"
+                    "vi": "theo dõi đơn hàng tự động",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82571,23 +82721,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "counterfeit products",
-                    "vi": "hàng giả"
+                    "vi": "hàng giả",
+                    "level": "B1"
                   },
                   {
                     "en": "poor-quality goods",
-                    "vi": "hàng kém chất lượng"
+                    "vi": "hàng kém chất lượng",
+                    "level": "B1"
                   },
                   {
                     "en": "cannot inspect items directly",
-                    "vi": "không thể sờ trực tiếp hoặc thử đồ"
+                    "vi": "không thể sờ trực tiếp hoặc thử đồ",
+                    "level": "B1"
                   },
                   {
                     "en": "discrepancies from advertised images",
-                    "vi": "khác hoàn toàn so với hình ảnh quảng cáo"
+                    "vi": "khác hoàn toàn so với hình ảnh quảng cáo",
+                    "level": "B2"
                   },
                   {
                     "en": "unscrupulous vendors",
-                    "vi": "gian thương trục lợi"
+                    "vi": "gian thương trục lợi",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82599,23 +82754,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "personal data leaks",
-                    "vi": "lộ thông tin cá nhân"
+                    "vi": "lộ thông tin cá nhân",
+                    "level": "B1"
                   },
                   {
                     "en": "financial fraud",
-                    "vi": "lừa đảo tiền bạc"
+                    "vi": "lừa đảo tiền bạc",
+                    "level": "B1"
                   },
                   {
                     "en": "fake websites steal credentials",
-                    "vi": "trang web bán hàng giả mạo"
+                    "vi": "trang web bán hàng giả mạo",
+                    "level": "B1"
                   },
                   {
                     "en": "cybersecurity vulnerabilities",
-                    "vi": "lỗ hổng an ninh mạng"
+                    "vi": "lỗ hổng an ninh mạng",
+                    "level": "B2"
                   },
                   {
                     "en": "heavy financial losses",
-                    "vi": "tổn thất tài chính nặng nề"
+                    "vi": "tổn thất tài chính nặng nề",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82627,23 +82787,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "impulsive spending habits",
-                    "vi": "thói quen chi tiêu bốc đồng"
+                    "vi": "thói quen chi tiêu bốc đồng",
+                    "level": "B1"
                   },
                   {
                     "en": "unnecessary expenses",
-                    "vi": "tốn kém tiền bạc"
+                    "vi": "tốn kém tiền bạc",
+                    "level": "B1"
                   },
                   {
                     "en": "targeted advertising algorithms",
-                    "vi": "thuật toán tiếp thị"
+                    "vi": "thuật toán tiếp thị",
+                    "level": "B1"
                   },
                   {
                     "en": "flash sale pressure",
-                    "vi": "chiến thuật giảm giá chớp nhoáng"
+                    "vi": "chiến thuật giảm giá chớp nhoáng",
+                    "level": "B2"
                   },
                   {
                     "en": "accumulate unnecessary debt",
-                    "vi": "nợ nần không đáng có"
+                    "vi": "nợ nần không đáng có",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82655,23 +82820,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "delivery delays",
-                    "vi": "chậm trễ"
+                    "vi": "chậm trễ",
+                    "level": "B1"
                   },
                   {
                     "en": "damaged items during transit",
-                    "vi": "hàng hóa bị hư hỏng khi vận chuyển"
+                    "vi": "hàng hóa bị hư hỏng khi vận chuyển",
+                    "level": "B1"
                   },
                   {
                     "en": "supply chain bottlenecks",
-                    "vi": "gián đoạn trong chuỗi cung ứng"
+                    "vi": "gián đoạn trong chuỗi cung ứng",
+                    "level": "B1"
                   },
                   {
                     "en": "overburdened warehouses",
-                    "vi": "quá tải kho bãi"
+                    "vi": "quá tải kho bãi",
+                    "level": "B2"
                   },
                   {
                     "en": "compromise fragile goods",
-                    "vi": "hư hại hàng hóa"
+                    "vi": "hư hại hàng hóa",
+                    "level": "B2"
                   }
                 ]
               },
@@ -82683,23 +82853,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "tedious return procedures",
-                    "vi": "thủ tục đổi trả hàng"
+                    "vi": "thủ tục đổi trả hàng",
+                    "level": "B1"
                   },
                   {
                     "en": "prolonged customer disputes",
-                    "vi": "khiếu nại mua hàng"
+                    "vi": "khiếu nại mua hàng",
+                    "level": "B1"
                   },
                   {
                     "en": "refuse warranty obligations",
-                    "vi": "trốn tránh trách nhiệm bảo hành"
+                    "vi": "trốn tránh trách nhiệm bảo hành",
+                    "level": "B1"
                   },
                   {
                     "en": "excessive return shipping fees",
-                    "vi": "phí vận chuyển đắt đỏ"
+                    "vi": "phí vận chuyển đắt đỏ",
+                    "level": "B2"
                   },
                   {
                     "en": "disappointing customer service",
-                    "vi": "chăm sóc khách hàng"
+                    "vi": "chăm sóc khách hàng",
+                    "level": "B2"
                   }
                 ]
               }
@@ -85144,7 +85319,7 @@ const ESSAY_DATA = [
                 "word": "workload",
                 "ipa": "/ˈwɜːk.ləʊd/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khối lượng công việc",
                 "example_en": "Sharing chores significantly reduces the domestic workload for parents.",
                 "example_vi": "Chia sẻ việc nhà giúp giảm đáng kể khối lượng công việc nội trợ cho cha mẹ.",
@@ -85154,7 +85329,7 @@ const ESSAY_DATA = [
                 "word": "domestic",
                 "ipa": "/dəˈmes.tɪk/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về gia đình, nội trợ",
                 "example_en": "Both partners should share domestic responsibilities equally.",
                 "example_vi": "Cả hai người bạn đời nên chia sẻ trách nhiệm nội trợ một cách bình đẳng.",
@@ -85164,7 +85339,7 @@ const ESSAY_DATA = [
                 "word": "harmony",
                 "ipa": "/ˈhɑː.mə.ni/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự hòa thuận, êm ấm",
                 "example_en": "Mutual support in housework promotes family harmony.",
                 "example_vi": "Sự hỗ trợ lẫn nhau trong việc nhà thúc đẩy sự hòa thuận trong gia đình.",
@@ -85174,7 +85349,7 @@ const ESSAY_DATA = [
                 "word": "self-reliance",
                 "ipa": "/ˌself.rɪˈlaɪ.əns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính tự lực, tự lập",
                 "example_en": "Doing household tasks teaches children self-reliance from an early age.",
                 "example_vi": "Làm việc nhà dạy trẻ tính tự lập ngay từ khi còn nhỏ.",
@@ -85184,7 +85359,7 @@ const ESSAY_DATA = [
                 "word": "appreciation",
                 "ipa": "/əˌpriː.ʃiˈeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trân trọng, biết ơn",
                 "example_en": "Sharing chores helps family members show appreciation for one another.",
                 "example_vi": "San sẻ việc nhà giúp các thành viên thể hiện sự trân trọng dành cho nhau.",
@@ -85194,7 +85369,7 @@ const ESSAY_DATA = [
                 "word": "resentment",
                 "ipa": "/rɪˈzent.mənt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự ấm ức, bất mãn",
                 "example_en": "Fair division of labor prevents feelings of resentment between spouses.",
                 "example_vi": "Phân chia công việc công bằng ngăn ngừa cảm giác bất mãn giữa vợ và chồng.",
@@ -85204,7 +85379,7 @@ const ESSAY_DATA = [
                 "word": "cohesion",
                 "ipa": "/kəʊˈhiː.ʒən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự gắn kết bền chặt",
                 "example_en": "Working together on weekend cleaning strengthens family cohesion.",
                 "example_vi": "Cùng nhau dọn dẹp cuối tuần giúp tăng cường sự gắn kết gia đình.",
@@ -85254,7 +85429,7 @@ const ESSAY_DATA = [
                 "word": "empathy",
                 "ipa": "/ˈem.pə.θi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự thấu cảm với nỗi vất vả của người thân",
                 "family": "empathize (v), empathetic (adj)",
                 "example_en": "Doing housework helps family members develop deep empathy for each other's daily efforts.",
@@ -85264,7 +85439,7 @@ const ESSAY_DATA = [
                 "word": "maturity",
                 "ipa": "/məˈtʃʊə.rə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự trưởng thành, chững chạc của trẻ",
                 "family": "mature (adj/v), immature (adj)",
                 "example_en": "Assigning age-appropriate chores fosters emotional maturity in young children.",
@@ -85274,7 +85449,7 @@ const ESSAY_DATA = [
                 "word": "exhaustion",
                 "ipa": "/ɪɡˈzɔːs.tʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiệt sức (khi một người phải gánh hết việc nhà)",
                 "family": "exhaust (v), exhausted (adj), exhausting (adj)",
                 "example_en": "Dividing household tasks prevents physical and mental exhaustion in working mothers.",
@@ -85352,7 +85527,7 @@ const ESSAY_DATA = [
                     "en": "workload",
                     "vi": "khối lượng công việc",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sharing housework reduces the workload for all family members.",
                     "example_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho tất cả các thành viên trong gia đình."
                   },
@@ -85360,7 +85535,7 @@ const ESSAY_DATA = [
                     "en": "household tasks",
                     "vi": "công việc nhà",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Household tasks are shared fairly among family members.",
                     "example_vi": "Các công việc được phân chia công bằng giữa mọi người."
                   },
@@ -85368,7 +85543,7 @@ const ESSAY_DATA = [
                     "en": "share fairly",
                     "vi": "chia sẻ công bằng",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Household tasks are shared fairly among family members.",
                     "example_vi": "Các công việc được phân chia công bằng giữa mọi người."
                   },
@@ -85376,7 +85551,7 @@ const ESSAY_DATA = [
                     "en": "responsibilities",
                     "vi": "trách nhiệm",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "No one has to take on too many responsibilities.",
                     "example_vi": "Không ai phải chịu quá nhiều trách nhiệm."
                   },
@@ -85384,7 +85559,7 @@ const ESSAY_DATA = [
                     "en": "achieve a better balance",
                     "vi": "cân bằng tốt hơn",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps them achieve a better balance between work, study, and personal life.",
                     "example_vi": "Điều này giúp mọi người cân bằng tốt hơn giữa công việc, học tập và cuộc sống."
                   },
@@ -85432,7 +85607,7 @@ const ESSAY_DATA = [
                     "en": "strengthen family relationships",
                     "vi": "tăng cường mối quan hệ gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sharing housework strengthens family relationships.",
                     "example_vi": "Chia sẻ việc nhà giúp tăng cường mối quan hệ giữa các thành viên trong gia đình."
                   },
@@ -85440,7 +85615,7 @@ const ESSAY_DATA = [
                     "en": "cooperate with",
                     "vi": "hợp tác với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Family members have more opportunities to cooperate with one another.",
                     "example_vi": "Các thành viên có nhiều cơ hội hợp tác với nhau hơn."
                   },
@@ -85448,7 +85623,7 @@ const ESSAY_DATA = [
                     "en": "support each other",
                     "vi": "hỗ trợ lẫn nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They also spend more time talking and supporting each other.",
                     "example_vi": "Họ cũng dành nhiều thời gian trò chuyện và hỗ trợ nhau."
                   },
@@ -85456,7 +85631,7 @@ const ESSAY_DATA = [
                     "en": "mutual understanding",
                     "vi": "sự thấu hiểu lẫn nhau",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps build mutual understanding and respect.",
                     "example_vi": "Điều này giúp xây dựng sự thấu hiểu và tôn trọng lẫn nhau."
                   },
@@ -85464,7 +85639,7 @@ const ESSAY_DATA = [
                     "en": "respect",
                     "vi": "sự tôn trọng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps build mutual understanding and respect.",
                     "example_vi": "Điều này giúp xây dựng sự thấu hiểu và tôn trọng lẫn nhau."
                   },
@@ -85512,7 +85687,7 @@ const ESSAY_DATA = [
                     "en": "life skills",
                     "vi": "kỹ năng sống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sharing housework helps children develop important life skills.",
                     "example_vi": "Chia sẻ việc nhà giúp trẻ em phát triển những kỹ năng sống quan trọng."
                   },
@@ -85520,7 +85695,7 @@ const ESSAY_DATA = [
                     "en": "take responsibility for",
                     "vi": "chịu trách nhiệm về",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Children learn to take responsibility for their own tasks.",
                     "example_vi": "Các em học cách chịu trách nhiệm về công việc của mình."
                   },
@@ -85528,7 +85703,7 @@ const ESSAY_DATA = [
                     "en": "time management skills",
                     "vi": "kỹ năng quản lý thời gian",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They also develop time management skills.",
                     "example_vi": "Các em cũng phát triển kỹ năng quản lý thời gian."
                   },
@@ -85536,7 +85711,7 @@ const ESSAY_DATA = [
                     "en": "independent",
                     "vi": "tự lập",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This helps them become more independent.",
                     "example_vi": "Điều này giúp các em trở nên tự lập hơn."
                   },
@@ -85544,7 +85719,7 @@ const ESSAY_DATA = [
                     "en": "adult life",
                     "vi": "cuộc sống trưởng thành",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "These skills are very useful in adult life.",
                     "example_vi": "Các kỹ năng này rất hữu ích khi các em trưởng thành."
                   },
@@ -85592,7 +85767,7 @@ const ESSAY_DATA = [
                     "en": "promote gender equality",
                     "vi": "thúc đẩy bình đẳng giới",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sharing household chores promotes gender equality and eliminates traditional stereotypes at home.",
                     "example_vi": "Việc cùng chia sẻ việc nhà góp phần thúc đẩy bình đẳng giới và xóa bỏ định kiến truyền thống trong gia đình."
                   },
@@ -85600,7 +85775,7 @@ const ESSAY_DATA = [
                     "en": "eliminate traditional stereotypes",
                     "vi": "xóa bỏ định kiến truyền thống",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Sharing household chores promotes gender equality and eliminates traditional stereotypes at home.",
                     "example_vi": "Việc cùng chia sẻ việc nhà góp phần thúc đẩy bình đẳng giới và xóa bỏ định kiến truyền thống trong gia đình."
                   },
@@ -85608,7 +85783,7 @@ const ESSAY_DATA = [
                     "en": "equal partnership",
                     "vi": "mối quan hệ bạn đời bình đẳng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This fosters mutual respect between spouses and sets a positive example for children regarding equal partnership.",
                     "example_vi": "Điều này tạo dựng sự tôn trọng lẫn nhau giữa hai vợ chồng và làm gương tích cực cho con cái về sự bình đẳng."
                   },
@@ -85640,7 +85815,7 @@ const ESSAY_DATA = [
                     "en": "clean and organized home",
                     "vi": "ngôi nhà sạch sẽ và ngăn nắp",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "A clean and organized home brings emotional comfort and protects the physical health of all family members.",
                     "example_vi": "Một ngôi nhà sạch đẹp, gọn gàng sẽ mang lại cảm giác thư thái tinh thần cho mọi thành viên khi trở về nhà."
                   },
@@ -85648,7 +85823,7 @@ const ESSAY_DATA = [
                     "en": "healthy living environment",
                     "vi": "môi trường sống lành mạnh",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Collective participation in housework maintains a cleaner, more organized, and healthier living environment.",
                     "example_vi": "Sự chung tay của cả gia đình giúp duy trì không gian sống luôn sạch sẽ, ngăn nắp và tốt cho sức khỏe."
                   },
@@ -85656,7 +85831,7 @@ const ESSAY_DATA = [
                     "en": "reduce household stress",
                     "vi": "giảm căng thẳng trong gia đình",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "With fair task distribution, cleaning and cooking are completed more regularly and efficiently every day.",
                     "example_vi": "Nhờ sự phân công hợp lý, các công việc dọn dẹp và nấu nướng được thực hiện đều đặn và hiệu quả hơn mỗi ngày."
                   },
@@ -85688,7 +85863,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, sharing housework among family members has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, chia sẻ việc nhà giữa các thành viên ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -85696,7 +85871,7 @@ const ESSAY_DATA = [
                     "en": "lead to a range of benefits across different contexts",
                     "vi": "dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This has led to a range of benefits across different contexts for learners and society.",
                     "example_vi": "Điều này đã dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau cho người học và xã hội."
                   },
@@ -85704,7 +85879,7 @@ const ESSAY_DATA = [
                     "en": "focus on the main advantages associated with",
                     "vi": "tập trung vào những lợi ích chính gắn liền với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will focus on the main advantages associated with sharing housework among family members.",
                     "example_vi": "Bài tiểu luận này sẽ tập trung vào những lợi ích chính gắn liền với chia sẻ việc nhà giữa các thành viên."
                   },
@@ -85712,7 +85887,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that practical experience reinforces theoretical learning.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là trải nghiệm thực tế giúp củng cố kiến thức lý thuyết."
                   },
@@ -85720,7 +85895,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu nguyên nhân B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that active participation builds lasting confidence.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là sự tham gia chủ động giúp xây dựng sự tự tin lâu dài."
                   },
@@ -86784,7 +86959,7 @@ const ESSAY_DATA = [
                 "word": "cognitive",
                 "ipa": "/ˈkɒɡ.nə.tɪv/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "thuộc về nhận thức, tư duy",
                 "example_en": "Learning music significantly enhances cognitive development in children.",
                 "example_vi": "Học âm nhạc giúp nâng cao đáng kể sự phát triển nhận thức ở trẻ em.",
@@ -86794,7 +86969,7 @@ const ESSAY_DATA = [
                 "word": "coordination",
                 "ipa": "/kəʊˌɔː.dɪˈneɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự phối hợp nhịp nhàng (tay, mắt)",
                 "example_en": "Playing the piano requires excellent hand-eye coordination.",
                 "example_vi": "Chơi đàn piano đòi hỏi sự phối hợp tay và mắt tuyệt vời.",
@@ -86804,7 +86979,7 @@ const ESSAY_DATA = [
                 "word": "concentration",
                 "ipa": "/ˌkɒn.sənˈtreɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tập trung",
                 "example_en": "Reading musical scores demands a high level of concentration.",
                 "example_vi": "Đọc bản nhạc đòi hỏi mức độ tập trung cao.",
@@ -86814,7 +86989,7 @@ const ESSAY_DATA = [
                 "word": "perseverance",
                 "ipa": "/ˌpɜː.sɪˈvɪə.rəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự kiên trì, bền bỉ",
                 "example_en": "Mastering a complex instrument teaches learners perseverance.",
                 "example_vi": "Làm chủ một nhạc cụ phức tạp dạy người học tính kiên trì.",
@@ -86824,7 +86999,7 @@ const ESSAY_DATA = [
                 "word": "self-discipline",
                 "ipa": "/ˌselfˈdɪs.ə.plɪn/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tính kỷ luật tự giác",
                 "example_en": "Daily practice routines help cultivate strong self-discipline.",
                 "example_vi": "Thói quen luyện tập hằng ngày giúp rèn luyện tính kỷ luật tự giác mạnh mẽ.",
@@ -86834,7 +87009,7 @@ const ESSAY_DATA = [
                 "word": "therapeutic",
                 "ipa": "/ˌθer.əˈpjuː.tɪk/",
                 "pos": "adj",
-                "level": "B2",
+                "level": "B1",
                 "vi": "có tính trị liệu, thư giãn tinh thần",
                 "example_en": "Playing gentle melodies has a therapeutic effect after a stressful day.",
                 "example_vi": "Chơi những giai điệu nhẹ nhàng có tác dụng thư giãn tinh thần sau ngày căng thẳng.",
@@ -86904,7 +87079,7 @@ const ESSAY_DATA = [
                 "word": "resilience",
                 "ipa": "/rɪˈzɪl.jəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự bền bỉ, kiên tâm trước thử thách",
                 "family": "resilient (adj)",
                 "example_en": "Mastering a complex piece of music builds mental resilience and patience.",
@@ -86954,7 +87129,7 @@ const ESSAY_DATA = [
                 "word": "poise",
                 "ipa": "/pɔɪz/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "bản lĩnh, sự tự tin đĩnh đạc trên sân khấu",
                 "family": "poised (adj)",
                 "example_en": "Performing recitals in front of an audience develops stage poise and public confidence.",
@@ -86964,7 +87139,7 @@ const ESSAY_DATA = [
                 "word": "heritage",
                 "ipa": "/ˈher.ɪ.tɪdʒ/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "di sản văn hóa âm nhạc truyền thống",
                 "family": "inherit (v), inheritance (n)",
                 "example_en": "Learning traditional instruments connects young generations with their national cultural heritage.",
@@ -86974,7 +87149,7 @@ const ESSAY_DATA = [
                 "word": "dedication",
                 "ipa": "/ˌded.ɪˈkeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tận tâm, chuyên cần luyện tập",
                 "family": "dedicate (v), dedicated (adj)",
                 "example_en": "Daily instrument practice instills a lifelong habit of dedication and hard work.",
@@ -86992,7 +87167,7 @@ const ESSAY_DATA = [
                     "en": "cognitive skills",
                     "vi": "kỹ năng nhận thức",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning to play a musical instrument develops cognitive and memory skills.",
                     "example_vi": "Học chơi một loại nhạc cụ giúp phát triển khả năng tư duy và ghi nhớ."
                   },
@@ -87000,7 +87175,7 @@ const ESSAY_DATA = [
                     "en": "memory skills",
                     "vi": "khả năng ghi nhớ",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning to play a musical instrument develops cognitive and memory skills.",
                     "example_vi": "Học chơi một loại nhạc cụ giúp phát triển khả năng tư duy và ghi nhớ."
                   },
@@ -87008,7 +87183,7 @@ const ESSAY_DATA = [
                     "en": "coordinate",
                     "vi": "phối hợp",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "They also need to coordinate their hands, eyes, and ears while playing.",
                     "example_vi": "Họ cũng phải phối hợp tay, mắt và tai trong khi chơi."
                   },
@@ -87040,7 +87215,7 @@ const ESSAY_DATA = [
                     "en": "mental well-being",
                     "vi": "sức khỏe tinh thần",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing a musical instrument supports mental well-being.",
                     "example_vi": "Chơi nhạc cụ giúp cải thiện sức khỏe tinh thần."
                   },
@@ -87048,7 +87223,7 @@ const ESSAY_DATA = [
                     "en": "anxiety",
                     "vi": "lo âu",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "It reduces stress and anxiety.",
                     "example_vi": "Nó giúp giảm căng thẳng và lo âu."
                   },
@@ -87056,7 +87231,7 @@ const ESSAY_DATA = [
                     "en": "quality of life",
                     "vi": "chất lượng cuộc sống",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "As a result, their quality of life improves.",
                     "example_vi": "Nhờ đó, chất lượng cuộc sống cũng được cải thiện."
                   },
@@ -87088,7 +87263,7 @@ const ESSAY_DATA = [
                     "en": "self-confidence",
                     "vi": "sự tự tin",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning to play a musical instrument improves self-confidence and self-discipline.",
                     "example_vi": "Học chơi nhạc cụ giúp mọi người trở nên tự tin và có tính kỷ luật hơn."
                   },
@@ -87096,7 +87271,7 @@ const ESSAY_DATA = [
                     "en": "self-discipline",
                     "vi": "tính kỷ luật",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learning to play a musical instrument improves self-confidence and self-discipline.",
                     "example_vi": "Học chơi nhạc cụ giúp mọi người trở nên tự tin và có tính kỷ luật hơn."
                   },
@@ -87104,7 +87279,7 @@ const ESSAY_DATA = [
                     "en": "perseverance",
                     "vi": "sự kiên trì",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Regular practice also helps them develop perseverance.",
                     "example_vi": "Việc luyện tập đều đặn cũng giúp họ hình thành tính kiên trì."
                   },
@@ -87144,7 +87319,7 @@ const ESSAY_DATA = [
                     "en": "play in a band or orchestra",
                     "vi": "chơi nhạc trong ban nhạc hoặc dàn nhạc",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "By joining music clubs, bands, or orchestras, learners have opportunities to make friends who share a common passion.",
                     "example_vi": "Khi tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc, người học có cơ hội kết bạn với những người có cùng đam mê."
                   },
@@ -87152,7 +87327,7 @@ const ESSAY_DATA = [
                     "en": "listen and coordinate with others",
                     "vi": "lắng nghe và phối hợp với người khác",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing music together requires participants to listen attentively and coordinate harmoniously with others.",
                     "example_vi": "Quá trình hòa tấu đòi hỏi mỗi thành viên phải biết lắng nghe và phối hợp nhịp nhàng với tập thể."
                   },
@@ -87160,7 +87335,7 @@ const ESSAY_DATA = [
                     "en": "share a common passion",
                     "vi": "chia sẻ chung niềm đam mê",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "By joining music clubs, bands, or orchestras, learners have opportunities to make friends who share a common passion.",
                     "example_vi": "Khi tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc, người học có cơ hội kết bạn với những người có cùng đam mê."
                   },
@@ -87192,7 +87367,7 @@ const ESSAY_DATA = [
                     "en": "foster artistic creativity",
                     "vi": "nuôi dưỡng sự sáng tạo nghệ thuật",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing a musical instrument fosters artistic creativity and deepens cultural appreciation.",
                     "example_vi": "Chơi nhạc cụ nuôi dưỡng khả năng sáng tạo nghệ thuật và sự trân trọng các giá trị văn hóa."
                   },
@@ -87200,7 +87375,7 @@ const ESSAY_DATA = [
                     "en": "cultural appreciation",
                     "vi": "sự cảm thụ văn hóa",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Playing a musical instrument fosters artistic creativity and deepens cultural appreciation.",
                     "example_vi": "Chơi nhạc cụ nuôi dưỡng khả năng sáng tạo nghệ thuật và sự trân trọng các giá trị văn hóa."
                   },
@@ -87208,7 +87383,7 @@ const ESSAY_DATA = [
                     "en": "diverse musical genres",
                     "vi": "các thể loại âm nhạc đa dạng",
                     "type": "n.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "Learners are exposed to diverse musical genres from various cultures and historical periods.",
                     "example_vi": "Người học được tiếp xúc với nhiều giai điệu và thể loại âm nhạc đến từ các nền văn hóa, thời kỳ lịch sử khác nhau."
                   },
@@ -87240,7 +87415,7 @@ const ESSAY_DATA = [
                     "en": "become increasingly prevalent in modern society",
                     "vi": "ngày càng trở nên phổ biến trong xã hội hiện đại",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "In recent years, learning to play a musical instrument has become increasingly prevalent in modern society.",
                     "example_vi": "Trong những năm gần đây, chơi một nhạc cụ ngày càng trở nên phổ biến trong xã hội hiện đại."
                   },
@@ -87248,7 +87423,7 @@ const ESSAY_DATA = [
                     "en": "lead to a range of benefits across different contexts",
                     "vi": "dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This has led to a range of benefits across different contexts for learners and society.",
                     "example_vi": "Điều này đã dẫn đến hàng loạt lợi ích trong nhiều bối cảnh khác nhau cho người học và xã hội."
                   },
@@ -87256,7 +87431,7 @@ const ESSAY_DATA = [
                     "en": "focus on the main advantages associated with",
                     "vi": "tập trung vào những lợi ích chính gắn liền với",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This essay will focus on the main advantages associated with learning to play a musical instrument.",
                     "example_vi": "Bài tiểu luận này sẽ tập trung vào những lợi ích chính gắn liền với chơi một nhạc cụ."
                   },
@@ -87264,7 +87439,7 @@ const ESSAY_DATA = [
                     "en": "be explained by the fact that",
                     "vi": "được lý giải bởi thực tế là (dẫn câu giải thích B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This can be explained by the fact that practical experience reinforces theoretical learning.",
                     "example_vi": "Điều này có thể được lý giải bởi thực tế là trải nghiệm thực tế giúp củng cố kiến thức lý thuyết."
                   },
@@ -87272,7 +87447,7 @@ const ESSAY_DATA = [
                     "en": "stem from the fact that",
                     "vi": "bắt nguồn từ thực tế là (dẫn câu nguyên nhân B2)",
                     "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "example_en": "This largely stems from the fact that active participation builds lasting confidence.",
                     "example_vi": "Điều này phần lớn bắt nguồn từ thực tế là sự tham gia chủ động giúp xây dựng sự tự tin lâu dài."
                   },
@@ -87445,7 +87620,7 @@ const ESSAY_DATA = [
                 "word": "urbanization",
                 "ipa": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự đô thị hóa, quá trình đô thị hóa",
                 "example_en": "Rapid urbanization has transformed rural landscapes into vibrant metropolitan hubs.",
                 "example_vi": "Quá trình đô thị hóa nhanh chóng đã biến đổi các vùng nông thôn thành các trung tâm đại đô thị sôi động.",
@@ -87475,7 +87650,7 @@ const ESSAY_DATA = [
                 "word": "migration",
                 "ipa": "/maɪˈɡreɪ.ʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự di cư, luồng di dân",
                 "example_en": "Rural-to-urban migration has significantly increased the workforce in industrial zones.",
                 "example_vi": "Luồng di cư từ nông thôn ra thành thị đã gia tăng đáng kể lực lượng lao động tại các khu công nghiệp.",
@@ -87485,7 +87660,7 @@ const ESSAY_DATA = [
                 "word": "amenity",
                 "ipa": "/əˈmiː.nə.ti/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "tiện ích, tiện nghi công cộng",
                 "example_en": "City dwellers enjoy convenient access to modern amenities such as parks and gyms.",
                 "example_vi": "Cư dân thành thị được hưởng lợi từ việc tiếp cận thuận tiện các tiện ích hiện đại như công viên và phòng tập gym.",
@@ -87495,7 +87670,7 @@ const ESSAY_DATA = [
                 "word": "congestion",
                 "ipa": "/kənˈdʒes.tʃən/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự tắc nghẽn, tình trạng ùn ứ",
                 "example_en": "Traffic congestion during peak hours incurs heavy economic and psychological costs.",
                 "example_vi": "Tình trạng ùn tắc giao thông vào giờ cao điểm gây ra tổn thất nặng nề về kinh tế và tâm lý.",
@@ -87515,7 +87690,7 @@ const ESSAY_DATA = [
                 "word": "slum",
                 "ipa": "/slʌm/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khu ổ chuột, khu nhà ổ chuột",
                 "example_en": "Unplanned urbanization often results in the emergence of impoverished slums.",
                 "example_vi": "Đô thị hóa thiếu quy hoạch thường dẫn tới sự xuất hiện của những khu ổ chuột nghèo nàn.",
@@ -87585,7 +87760,7 @@ const ESSAY_DATA = [
                 "word": "transit",
                 "ipa": "/ˈtræn.zɪt/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "giao thông công cộng, sự trung chuyển",
                 "example_en": "Efficient rapid transit systems encourage commuters to leave private motorbikes at home.",
                 "example_vi": "Hệ thống giao thông công cộng tốc độ cao khuyến khích người đi làm để xe máy cá nhân ở nhà.",
@@ -87625,7 +87800,7 @@ const ESSAY_DATA = [
                 "word": "resilience",
                 "ipa": "/rɪˈzɪl.jəns/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "khả năng thích ứng và hồi phục, tính kiên cường",
                 "example_en": "Modern city engineering reinforces urban resilience against climate change impacts.",
                 "example_vi": "Kỹ thuật xây dựng đô thị hiện đại củng cố khả năng hồi phục của đô thị trước tác động biến đổi khí hậu.",
@@ -87635,7 +87810,7 @@ const ESSAY_DATA = [
                 "word": "synergy",
                 "ipa": "/ˈsɪn.ə.dʒi/",
                 "pos": "noun",
-                "level": "B2",
+                "level": "B1",
                 "vi": "sự cộng hưởng, sức mạnh tổng hợp",
                 "example_en": "Close collaboration between universities and tech firms creates powerful economic synergy.",
                 "example_vi": "Sự hợp tác chặt chẽ giữa các trường đại học và các công ty công nghệ tạo ra sự cộng hưởng kinh tế mạnh mẽ.",
@@ -87651,23 +87826,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "create abundant job opportunities",
-                    "vi": "tạo ra nhiều cơ hội việc làm phong phú"
+                    "vi": "tạo ra nhiều cơ hội việc làm phong phú",
+                    "level": "B1"
                   },
                   {
                     "en": "find jobs with better income",
-                    "vi": "tìm kiếm việc làm với thu nhập tốt hơn"
+                    "vi": "tìm kiếm việc làm với thu nhập tốt hơn",
+                    "level": "B1"
                   },
                   {
                     "en": "catalyst for economic dynamism",
-                    "vi": "đòn bẩy thúc đẩy tăng trưởng kinh tế"
+                    "vi": "đòn bẩy thúc đẩy tăng trưởng kinh tế",
+                    "level": "B1"
                   },
                   {
                     "en": "diversify employment prospects",
-                    "vi": "đa dạng hóa cơ hội việc làm"
+                    "vi": "đa dạng hóa cơ hội việc làm",
+                    "level": "B2"
                   },
                   {
                     "en": "sustainable income growth",
-                    "vi": "cải thiện thu nhập bền vững"
+                    "vi": "cải thiện thu nhập bền vững",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87679,23 +87859,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "access high-quality education",
-                    "vi": "tiếp cận giáo dục chất lượng cao"
+                    "vi": "tiếp cận giáo dục chất lượng cao",
+                    "level": "B1"
                   },
                   {
                     "en": "receive timely treatment",
-                    "vi": "được chữa bệnh kịp thời"
+                    "vi": "được chữa bệnh kịp thời",
+                    "level": "B1"
                   },
                   {
                     "en": "superior access to specialized services",
-                    "vi": "khả năng tiếp cận vượt trội đối với các dịch vụ chuyên sâu"
+                    "vi": "khả năng tiếp cận vượt trội đối với các dịch vụ chuyên sâu",
+                    "level": "B1"
                   },
                   {
                     "en": "leading medical facilities",
-                    "vi": "bệnh viện tuyến đầu"
+                    "vi": "bệnh viện tuyến đầu",
+                    "level": "B2"
                   },
                   {
                     "en": "prestigious universities",
-                    "vi": "trường đại học danh tiếng"
+                    "vi": "trường đại học danh tiếng",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87707,23 +87892,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "modern infrastructure systems",
-                    "vi": "hệ thống cơ sở hạ tầng hiện đại"
+                    "vi": "hệ thống cơ sở hạ tầng hiện đại",
+                    "level": "B1"
                   },
                   {
                     "en": "improve living standards",
-                    "vi": "nâng cao đời sống"
+                    "vi": "nâng cao đời sống",
+                    "level": "B1"
                   },
                   {
                     "en": "comprehensive infrastructure modernization",
-                    "vi": "hiện đại hóa hạ tầng đồng bộ"
+                    "vi": "hiện đại hóa hạ tầng đồng bộ",
+                    "level": "B1"
                   },
                   {
                     "en": "advanced metro systems",
-                    "vi": "hệ thống tàu điện ngầm hiện đại"
+                    "vi": "hệ thống tàu điện ngầm hiện đại",
+                    "level": "B2"
                   },
                   {
                     "en": "optimize social connectivity",
-                    "vi": "tối ưu hóa sự kết nối trong xã hội"
+                    "vi": "tối ưu hóa sự kết nối trong xã hội",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87735,23 +87925,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "enjoy diverse cultural life",
-                    "vi": "tận hưởng đời sống văn hóa"
+                    "vi": "tận hưởng đời sống văn hóa",
+                    "level": "B1"
                   },
                   {
                     "en": "shopping malls and public parks",
-                    "vi": "trung tâm thương mại và công viên công cộng"
+                    "vi": "trung tâm thương mại và công viên công cộng",
+                    "level": "B1"
                   },
                   {
                     "en": "vibrant cultural interchange",
-                    "vi": "giao lưu văn hóa đa dạng"
+                    "vi": "giao lưu văn hóa đa dạng",
+                    "level": "B1"
                   },
                   {
                     "en": "open-minded perspectives",
-                    "vi": "tư duy cởi mở"
+                    "vi": "tư duy cởi mở",
+                    "level": "B2"
                   },
                   {
                     "en": "multifaceted socio-cultural landscape",
-                    "vi": "bức tranh xã hội phong phú"
+                    "vi": "bức tranh xã hội phong phú",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87763,23 +87958,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "powerful engine for economic growth",
-                    "vi": "động lực mạnh mẽ thúc đẩy tăng trưởng kinh tế"
+                    "vi": "động lực mạnh mẽ thúc đẩy tăng trưởng kinh tế",
+                    "level": "B1"
                   },
                   {
                     "en": "stimulate commercial activities",
-                    "vi": "kích thích các hoạt động mua bán"
+                    "vi": "kích thích các hoạt động mua bán",
+                    "level": "B1"
                   },
                   {
                     "en": "entrepreneurial innovation",
-                    "vi": "khởi nghiệp sáng tạo"
+                    "vi": "khởi nghiệp sáng tạo",
+                    "level": "B1"
                   },
                   {
                     "en": "industrial synergy",
-                    "vi": "sự cộng hưởng giữa các ngành công nghiệp"
+                    "vi": "sự cộng hưởng giữa các ngành công nghiệp",
+                    "level": "B2"
                   },
                   {
                     "en": "aggregate labor productivity",
-                    "vi": "năng suất lao động xã hội"
+                    "vi": "năng suất lao động xã hội",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87791,23 +87991,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "severe traffic congestion",
-                    "vi": "ùn tắc giao thông nghiêm trọng"
+                    "vi": "ùn tắc giao thông nghiêm trọng",
+                    "level": "B1"
                   },
                   {
                     "en": "spend hours stuck in traffic",
-                    "vi": "chôn chân hàng giờ liền"
+                    "vi": "chôn chân hàng giờ liền",
+                    "level": "B1"
                   },
                   {
                     "en": "chronic vehicular congestion",
-                    "vi": "ùn tắc giao thông kinh niên"
+                    "vi": "ùn tắc giao thông kinh niên",
+                    "level": "B1"
                   },
                   {
                     "en": "overburden road infrastructure",
-                    "vi": "quá tải hạ tầng đường bộ"
+                    "vi": "quá tải hạ tầng đường bộ",
+                    "level": "B2"
                   },
                   {
                     "en": "severe gridlock during daily commutes",
-                    "vi": "tắc nghẽn giao thông cục bộ"
+                    "vi": "tắc nghẽn giao thông cục bộ",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87819,23 +88024,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "air pollution and excessive noise",
-                    "vi": "ô nhiễm không khí và tiếng ồn nặng nề"
+                    "vi": "ô nhiễm không khí và tiếng ồn nặng nề",
+                    "level": "B1"
                   },
                   {
                     "en": "respiratory illnesses",
-                    "vi": "bệnh về đường hô hấp"
+                    "vi": "bệnh về đường hô hấp",
+                    "level": "B1"
                   },
                   {
                     "en": "severe environmental degradation",
-                    "vi": "suy thoái môi trường nghiêm trọng"
+                    "vi": "suy thoái môi trường nghiêm trọng",
+                    "level": "B1"
                   },
                   {
                     "en": "urban heat island effect",
-                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                    "vi": "hiệu ứng đảo nhiệt đô thị",
+                    "level": "B2"
                   },
                   {
                     "en": "toxic emissions from vehicles",
-                    "vi": "khí thải độc hại"
+                    "vi": "khí thải độc hại",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87847,23 +88057,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "high living expenses",
-                    "vi": "chi phí sinh hoạt và giá nhà ở"
+                    "vi": "chi phí sinh hoạt và giá nhà ở",
+                    "level": "B1"
                   },
                   {
                     "en": "financial pressure",
-                    "vi": "áp lực tài chính"
+                    "vi": "áp lực tài chính",
+                    "level": "B1"
                   },
                   {
                     "en": "housing unaffordability",
-                    "vi": "khả năng chi trả"
+                    "vi": "khả năng chi trả",
+                    "level": "B1"
                   },
                   {
                     "en": "property values",
-                    "vi": "giá cả bất động sản"
+                    "vi": "giá cả bất động sản",
+                    "level": "B2"
                   },
                   {
                     "en": "socio-economic inequalities",
-                    "vi": "bất bình đẳng giàu nghèo"
+                    "vi": "bất bình đẳng giàu nghèo",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87875,23 +88090,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "overburden hospitals and schools",
-                    "vi": "quá tải hệ thống bệnh viện và trường học"
+                    "vi": "quá tải hệ thống bệnh viện và trường học",
+                    "level": "B1"
                   },
                   {
                     "en": "overcrowded with students",
-                    "vi": "quá đông đúc học sinh"
+                    "vi": "quá đông đúc học sinh",
+                    "level": "B1"
                   },
                   {
                     "en": "strain public utilities",
-                    "vi": "áp lực nặng nề"
+                    "vi": "áp lực nặng nề",
+                    "level": "B1"
                   },
                   {
                     "en": "patient overcrowding",
-                    "vi": "quá tải bệnh nhân"
+                    "vi": "quá tải bệnh nhân",
+                    "level": "B2"
                   },
                   {
                     "en": "compromise service quality",
-                    "vi": "suy giảm chất lượng"
+                    "vi": "suy giảm chất lượng",
+                    "level": "B2"
                   }
                 ]
               },
@@ -87903,23 +88123,28 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "growth of slums",
-                    "vi": "khu ổ chuột"
+                    "vi": "khu ổ chuột",
+                    "level": "B1"
                   },
                   {
                     "en": "social evils",
-                    "vi": "tệ nạn xã hội"
+                    "vi": "tệ nạn xã hội",
+                    "level": "B1"
                   },
                   {
                     "en": "unplanned urban expansion",
-                    "vi": "đô thị hóa thiếu quy hoạch"
+                    "vi": "đô thị hóa thiếu quy hoạch",
+                    "level": "B1"
                   },
                   {
                     "en": "precarious living conditions",
-                    "vi": "môi trường sống bấp bênh"
+                    "vi": "môi trường sống bấp bênh",
+                    "level": "B2"
                   },
                   {
                     "en": "threaten social security",
-                    "vi": "mất an ninh trật tự xã hội"
+                    "vi": "mất an ninh trật tự xã hội",
+                    "level": "B2"
                   }
                 ]
               }

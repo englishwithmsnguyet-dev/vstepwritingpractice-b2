@@ -1166,7 +1166,7 @@ function filterVocabCategory(catId) {
 }
 
 function switchVocabLevel(level) {
-  currentVocabLevel = 'B2';
+  currentVocabLevel = level;
   currentVocabFilter = 'all';
   renderStepVocab();
 }
@@ -1190,7 +1190,56 @@ function renderStepVocab() {
   const container = document.getElementById('ws-vocab-step-content');
   if (!container) return;
   const topic = currentTopic;
-  if (!topic || !topic.details || !topic.details.vocab_step) {
+  if (!topic || !topic.details) {
+    container.innerHTML = '<div class="empty-state">Chủ đề này chưa có dữ liệu Nạp từ vựng.</div>';
+    return;
+  }
+
+  // Gracefully handle legacy vocab schema if modern vocab_step is not present
+  if (!topic.details.vocab_step) {
+    if (topic.details.vocab && topic.details.vocab.length > 0) {
+      const vList = topic.details.vocab;
+      const filterQuery = (currentVocabSearch || '').trim().toLowerCase();
+      const filteredVocab = vList.filter(item => {
+        if (!filterQuery) return true;
+        return (item.en && item.en.toLowerCase().includes(filterQuery)) || (item.vi && item.vi.toLowerCase().includes(filterQuery));
+      });
+
+      container.innerHTML = `
+        <div class="vocab-hero-banner">
+          <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG CHỦ ĐỀ</span>
+          <h2>${topic.title_vi || topic.title_en} (Topic Vocabulary)</h2>
+          <p>Tổng hợp các từ vựng và cụm từ cốt lõi được chọn lọc kỹ lưỡng cho chủ đề này.</p>
+        </div>
+
+        <div class="vocab-controls-bar" style="margin-top: 1rem;">
+          <div class="vocab-search-box" style="max-width: 100%; width: 100%;">
+            <svg class="vocab-search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input type="text" class="vocab-search-input" placeholder="Tìm nhanh từ vựng, cụm từ..." value="${currentVocabSearch}" oninput="handleVocabSearch(this.value)">
+          </div>
+        </div>
+
+        <div class="vocab-group-section" style="margin-top: 1.5rem;">
+          <div class="vocab-group-header">
+            <div class="vocab-group-title">
+              <span>📚</span>
+              <span>Từ vựng & Cụm từ then chốt &bull; ${filteredVocab.length} mục</span>
+            </div>
+          </div>
+          <div class="collocation-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem;">
+            ${filteredVocab.map(v => `
+              <div class="collocation-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 0.85rem 1rem;">
+                <div style="font-weight: 700; font-size: 0.95rem; color: var(--accent-primary); margin-bottom: 0.25rem;">${v.en}</div>
+                <div style="font-size: 0.85rem; color: var(--text-secondary);">${v.vi}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+      return;
+    }
     container.innerHTML = '<div class="empty-state">Chủ đề này chưa có dữ liệu Nạp từ vựng.</div>';
     return;
   }
@@ -1201,19 +1250,7 @@ function renderStepVocab() {
   
   // Detect if modern schema (single_words + collocation_groups) or legacy categories
   const hasModernSchema = Boolean(vData.single_words || vData.collocation_groups);
-  
-  // Level filter helper
-  const filterByLevel = (item) => {
-    if (!item) return false;
-    if (currentVocabLevel === 'all') return true;
-    if (!item.level) return true;
-    return item.level.toUpperCase() === currentVocabLevel.toUpperCase();
-  };
 
-  const levelSingleWords = (vData.single_words || []).filter(filterByLevel);
-  const singleWordsCount = levelSingleWords.length;
-
-  let collocationsCount = 0;
   let rawGroups = vData.collocation_groups;
   if ((!rawGroups || rawGroups.length === 0) && vData.collocations && vData.collocations.length > 0) {
     rawGroups = [
@@ -1233,6 +1270,32 @@ function renderStepVocab() {
       }
     ];
   }
+
+  // Level check & automatic fallback so user NEVER gets an empty/blank screen
+  let hasMatchingLevelSingle = (vData.single_words || []).some(w => !w.level || w.level.toUpperCase() === currentVocabLevel.toUpperCase());
+  let hasMatchingLevelCols = false;
+  (rawGroups || []).forEach(group => {
+    const rawItems = group.items || group.collocations || [];
+    if (rawItems.some(c => !c.level || c.level.toUpperCase() === currentVocabLevel.toUpperCase())) {
+      hasMatchingLevelCols = true;
+    }
+  });
+
+  const isLevelEmpty = (currentVocabLevel !== 'all' && !hasMatchingLevelSingle && !hasMatchingLevelCols);
+  const effectiveVocabLevel = isLevelEmpty ? 'all' : currentVocabLevel;
+  
+  // Level filter helper
+  const filterByLevel = (item) => {
+    if (!item) return false;
+    if (effectiveVocabLevel === 'all') return true;
+    if (!item.level) return true;
+    return item.level.toUpperCase() === effectiveVocabLevel.toUpperCase();
+  };
+
+  const levelSingleWords = (vData.single_words || []).filter(filterByLevel);
+  const singleWordsCount = levelSingleWords.length;
+
+  let collocationsCount = 0;
   const levelCollocationGroups = (rawGroups || []).map(group => {
     const rawItems = group.items || group.collocations || [];
     const items = rawItems.map(c => ({
@@ -1556,12 +1619,23 @@ function renderStepVocab() {
       ${vData.overview ? `<p>${vData.overview}</p>` : ''}
     </div>
     
-    <!-- LEVEL SELECTOR: Cố định B2 -->
-    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px; justify-content: center;">
-      <div class="level-pill active" style="pointer-events: none; width: 100%;">
+    <!-- LEVEL SELECTOR: Tách riêng B1 và B2 rõ ràng -->
+    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px;">
+      <div class="level-pill ${currentVocabLevel === 'B1' ? 'active' : ''}" onclick="switchVocabLevel('B1')">
+        📘 TỪ VỰNG CẤP ĐỘ B1 (DỄ HỌC - VỪA SỨC)
+      </div>
+      <div class="level-pill ${currentVocabLevel === 'B2' ? 'active' : ''}" onclick="switchVocabLevel('B2')">
         📕 TỪ VỰNG CẤP ĐỘ B2 (HỌC THUẬT - NÂNG CAO)
       </div>
+      <div class="level-pill ${currentVocabLevel === 'all' ? 'active' : ''}" onclick="switchVocabLevel('all')">
+        🌟 TẤT CẢ (B1 & B2)
+      </div>
     </div>
+    ${isLevelEmpty ? `
+      <div style="font-size: 0.85rem; color: var(--accent-primary); margin: -0.5rem auto 1rem auto; max-width: 680px; text-align: center; padding: 0.5rem 0.75rem; background: rgba(99, 102, 241, 0.08); border-radius: 6px; border: 1px dashed var(--accent-primary);">
+        💡 Chủ đề này đang hiển thị toàn bộ từ vựng trọng tâm để bạn tham khảo đầy đủ nhất.
+      </div>
+    ` : ''}
     
     ${statsSummaryHtml}
     
@@ -1772,14 +1846,38 @@ function splitSentences(text) {
 
 // --- Interactive Idea Selection Helpers ---
 function hasSelectableIdeas(topic) {
-  return false;
+  if (!topic) return false;
+  let details = topic.details;
+  if (!details && topic.approaches && topic.approaches.length > 0) {
+    details = topic.approaches[0].details;
+  }
+  if (!details) return false;
+  const ideas = details.ideas_b2 || details.ideas_b1;
+  if (!ideas) return false;
+  const bCount = (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []).length;
+  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []).length;
+  return bCount > 3 || dCount > 3;
 }
 
 function getSelectedIdeaIndices(topic, groupType) {
-  if (!topic || !topic.details) return [];
-  const ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
+  if (!topic) return [];
+  let details = topic.details;
+  if (!details && topic.approaches && topic.approaches.length > 0) {
+    details = topic.approaches[0].details;
+  }
+  if (!details) return [];
+  const ideas = details.ideas_b2 || details.ideas_b1;
   if (!ideas) return [];
-  const items = (ideas[groupType] || []);
+  
+  let items = [];
+  if (groupType === 'benefits') {
+    items = ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || [];
+  } else if (groupType === 'drawbacks') {
+    items = ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || [];
+  } else {
+    items = ideas[groupType] || [];
+  }
+  
   const total = items.length;
   if (total <= 3) {
     return items.map((_, i) => i);
@@ -1797,8 +1895,8 @@ function getSelectedIdeaIndices(topic, groupType) {
   } catch (e) {}
 
   // Default selection if not yet set
-  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || []).length;
-  if (groupType === 'benefits' && dCount === 0) {
+  const dItems = ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || [];
+  if (groupType === 'benefits' && dItems.length === 0) {
     return [0, 1, 2].slice(0, total);
   }
   return [0, 1].slice(0, total);
@@ -1818,7 +1916,7 @@ function toggleIdeaSelection(groupType, index) {
     updated = currentSelected.filter(i => i !== index);
   } else {
     if (currentSelected.length >= 3) {
-      showToast("Khuyên chọn tối đa 3 gợi ý để bài viết có chiều sâu theo chuẩn B2 nhé!", "warning");
+      showToast("Khuyên chọn tối đa 3 gợi ý để bài viết có chiều sâu theo chuẩn VSTEP nhé!", "warning");
       return;
     }
     updated = [...currentSelected, index].sort((a, b) => a - b);
@@ -1833,16 +1931,32 @@ function toggleIdeaSelection(groupType, index) {
     renderTranslationExercises();
   }
   renderOutline();
+  renderVietnameseOutline();
   showToast("Đã cập nhật lựa chọn gợi ý!", "info");
 }
 
 function renderIdeaSelectionComponent(topic) {
-  if (!topic || !topic.has_full_details || !topic.details || !hasSelectableIdeas(topic)) return '';
-  const b2IdeasObj = topic.details.ideas_b2 || topic.details.ideas_b1;
-  const bItems = b2IdeasObj.benefits || b2IdeasObj.causes || b2IdeasObj.reasons || b2IdeasObj.views || [];
-  const dItems = b2IdeasObj.drawbacks || b2IdeasObj.effects || b2IdeasObj.solutions || [];
+  if (!topic || !hasSelectableIdeas(topic)) return '';
+  let details = topic.details;
+  if (!details && topic.approaches && topic.approaches.length > 0) {
+    details = topic.approaches[0].details;
+  }
+  if (!details) return '';
+  const b2IdeasObj = details.ideas_b2 || details.ideas_b1;
+  if (!b2IdeasObj) return '';
+
+  const bItems = b2IdeasObj.benefits || b2IdeasObj.causes || b2IdeasObj.reasons || b2IdeasObj.views || b2IdeasObj.factors || [];
+  const dItems = b2IdeasObj.drawbacks || b2IdeasObj.effects || b2IdeasObj.solutions || b2IdeasObj.problems || b2IdeasObj.measures || [];
   const selB = getSelectedIdeaIndices(topic, 'benefits');
   const selD = getSelectedIdeaIndices(topic, 'drawbacks');
+
+  const isCausesSolutions = currentCategory && currentCategory.id === 2;
+  const isOpinion = currentCategory && currentCategory.id === 3;
+  const isDiscussion = currentCategory && currentCategory.id === 4;
+  let bLabel = isCausesSolutions ? "NGUYÊN NHÂN / VẤN ĐỀ" : (isOpinion ? "LÝ DO QUAN ĐIỂM" : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
+  let dLabel = isCausesSolutions ? "GIẢI PHÁP / BIỆN PHÁP" : (isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ"));
+  let bIcon = isCausesSolutions ? "🔍" : (isOpinion ? "💬" : (isDiscussion ? "👥" : "✨"));
+  let dIcon = isCausesSolutions ? "💡" : (isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️"));
 
   return `
     <div class="reading-section-card idea-selection-card" style="margin-bottom: 1.5rem;">
@@ -1863,7 +1977,7 @@ function renderIdeaSelectionComponent(topic) {
           <div class="idea-group-col">
             <div class="idea-group-title-row">
               <span class="idea-group-title benefit">
-                <span>✨</span> THUẬN LỢI / LỢI ÍCH
+                <span>${bIcon}</span> ${bLabel}
               </span>
               <span class="idea-group-badge">Đã chọn: ${selB.length} / ${bItems.length} ý</span>
             </div>
@@ -1877,7 +1991,7 @@ function renderIdeaSelectionComponent(topic) {
                     </svg>
                   </div>
                   <div class="idea-card-content">
-                    <div class="idea-card-title">${b.title || `LỢI ÍCH 0${idx+1}`}</div>
+                    <div class="idea-card-title">${b.title || `${bLabel} 0${idx+1}`}</div>
                     <div class="idea-card-point">${b.point_vi}</div>
                     ${b.point_en ? `<div style="font-size: 0.8rem; color: var(--accent-primary); margin-top: 0.2rem; font-style: italic;">↳ ${b.point_en}</div>` : ''}
                   </div>
@@ -1891,7 +2005,7 @@ function renderIdeaSelectionComponent(topic) {
           <div class="idea-group-col">
             <div class="idea-group-title-row">
               <span class="idea-group-title drawback">
-                <span>⚠️</span> BẤT LỢI / HẠN CHẾ
+                <span>${dIcon}</span> ${dLabel}
               </span>
               <span class="idea-group-badge">Đã chọn: ${selD.length} / ${dItems.length} ý</span>
             </div>
@@ -1905,7 +2019,7 @@ function renderIdeaSelectionComponent(topic) {
                     </svg>
                   </div>
                   <div class="idea-card-content">
-                    <div class="idea-card-title">${d.title || `BẤT LỢI 0${idx+1}`}</div>
+                    <div class="idea-card-title">${d.title || `${dLabel} 0${idx+1}`}</div>
                     <div class="idea-card-point">${d.point_vi}</div>
                     ${d.point_en ? `<div style="font-size: 0.8rem; color: var(--danger-color, #f43f5e); margin-top: 0.2rem; font-style: italic;">↳ ${d.point_en}</div>` : ''}
                   </div>
@@ -7183,10 +7297,24 @@ function renderStep1Reading() {
     }
 
     const b2Ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
-    const b1Benefits = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || [])
+    let b1BenefitsList = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || b2Ideas.views || b2Ideas.factors || []);
+    let b1DrawbacksList = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || b2Ideas.problems || b2Ideas.measures || []);
+
+    if (hasSelectableIdeas(topic)) {
+      if (b1BenefitsList.length > 3) {
+        const selB = getSelectedIdeaIndices(topic, 'benefits');
+        b1BenefitsList = b1BenefitsList.filter((_, idx) => selB.includes(idx));
+      }
+      if (b1DrawbacksList.length > 3) {
+        const selD = getSelectedIdeaIndices(topic, 'drawbacks');
+        b1DrawbacksList = b1DrawbacksList.filter((_, idx) => selD.includes(idx));
+      }
+    }
+
+    const b1Benefits = b1BenefitsList
       .map((b, idx) => formatPoint(b, defaultLabel1, idx))
       .join('');
-    const b1Drawbacks = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || [])
+    const b1Drawbacks = b1DrawbacksList
       .map((d, idx) => formatPoint(d, defaultLabel2, idx))
       .join('');
     
