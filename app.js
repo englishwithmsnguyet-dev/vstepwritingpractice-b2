@@ -201,16 +201,35 @@ function switchScreen(screenName) {
   window.scrollTo(0, 0);
 }
 
+// Get theme group for Category 3 (Opinion Essays)
+function getCategory3Group(t) {
+  if (!t) return 'GIÁO DỤC, HỌC ĐƯỜNG & PHÁT TRIỂN KỸ NĂNG';
+  const id = t.id;
+  if ([1, 2, 4, 5, 8, 9, 13, 15, 16, 17, 20, 21, 29].includes(id)) {
+    return 'GIÁO DỤC, HỌC ĐƯỜNG & PHÁT TRIỂN KỸ NĂNG';
+  }
+  if ([6, 12, 18, 22, 30].includes(id)) {
+    return 'CÔNG NGHỆ, MẠNG XÃ HỘI & TRÍ TUỆ NHÂN TẠO';
+  }
+  if ([3, 7, 11, 23, 24, 25].includes(id)) {
+    return 'MÔI TRƯỜNG, GIAO THÔNG & TRÁCH NHIỆM XÃ HỘI';
+  }
+  if ([10, 14, 19, 26, 27, 28].includes(id)) {
+    return 'SỨC KHỎE, VĂN HÓA & LỐI SỐNG HIỆN ĐẠI';
+  }
+  return 'GIÁO DỤC, HỌC ĐƯỜNG & PHÁT TRIỂN KỸ NĂNG';
+}
+
 // Switch to a Category browse screen
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01 và TYPE 02!', 'warning');
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
     return;
   }
-  if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
+  if (userClass === 'CB210' && catId === 4) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
     return;
   }
 
@@ -299,7 +318,16 @@ function switchCategory(catId) {
     });
     document.getElementById('category-description').innerText = `Trong dạng luận này, hệ thống bao gồm ${cs} đề phân tích nguyên nhân & giải pháp, ${ce} đề phân tích nguyên nhân & ảnh hưởng, ${es} đề phân tích ảnh hưởng & giải pháp, ${oc} đề chỉ phân tích nguyên nhân, ${oe} đề chỉ phân tích ảnh hưởng và ${os} đề chỉ phân tích giải pháp.`;
   } else if (currentCategory.id === 3) {
-    document.getElementById('category-description').innerText = `Trong dạng luận này, hệ thống bao gồm ${currentCategory.topics.length} đề luyện tập viết luận bày tỏ ý kiến đồng ý hoặc phản đối.`;
+    const total = currentCategory.topics.length;
+    let gEdu = 0, gTech = 0, gEnv = 0, gLife = 0;
+    currentCategory.topics.forEach(t => {
+      const g = getCategory3Group(t);
+      if (g.includes('GIÁO DỤC')) gEdu++;
+      else if (g.includes('CÔNG NGHỆ')) gTech++;
+      else if (g.includes('MÔI TRƯỜNG')) gEnv++;
+      else gLife++;
+    });
+    document.getElementById('category-description').innerText = `Trong dạng luận này, hệ thống bao gồm ${total} đề luyện tập viết luận bày tỏ quan điểm (Agree / Disagree), được chia thành 4 nhóm chuyên đề: ${gEdu} đề Giáo dục & Kỹ năng, ${gTech} đề Công nghệ & AI, ${gEnv} đề Môi trường & Xã hội, và ${gLife} đề Sức khỏe & Lối sống.`;
   } else if (currentCategory.id === 4) {
     document.getElementById('category-description').innerText = `Trong dạng luận này, hệ thống bao gồm ${currentCategory.topics.length} đề luyện tập bàn luận hai luồng quan điểm trái chiều và đưa ra ý kiến cá nhân.`;
   } else {
@@ -327,7 +355,7 @@ function renderDashboard() {
   // Grab all topics that have full details (ideas and sample essays)
   const featuredTopics = [];
   ESSAY_DATA.forEach(cat => {
-    if (isGiaTueUser && cat.id !== 1 && cat.id !== 2) return;
+    if (isGiaTueUser && cat.id !== 1 && cat.id !== 2 && cat.id !== 3) return;
     cat.topics.forEach(t => {
       if (t.hidden) return;
       if (t.has_full_details) {
@@ -562,6 +590,49 @@ function renderCategoryTopics(searchQuery = '') {
         groupWrapper.appendChild(groupGrid);
         banner.appendChild(groupWrapper);
       });
+    } else if (currentCategory.id === 3) {
+      const groupsConfig3 = [
+        { name: 'GIÁO DỤC, HỌC ĐƯỜNG & PHÁT TRIỂN KỸ NĂNG', icon: '🎓', color: 'var(--accent-primary)' },
+        { name: 'CÔNG NGHỆ, MẠNG XÃ HỘI & TRÍ TUỆ NHÂN TẠO', icon: '💻', color: '#8b5cf6' },
+        { name: 'MÔI TRƯỜNG, GIAO THÔNG & TRÁCH NHIỆM XÃ HỘI', icon: '🌍', color: '#10b981' },
+        { name: 'SỨC KHỎE, VĂN HÓA & LỐI SỐNG HIỆN ĐẠI', icon: '🥗', color: '#f59e0b' }
+      ];
+
+      groupsConfig3.forEach(cfg => {
+        const list = updatedTopics.filter(t => getCategory3Group(t) === cfg.name);
+        if (list.length === 0) return;
+
+        const groupWrapper = document.createElement('div');
+        groupWrapper.style.marginTop = '1.25rem';
+
+        const groupTitle = document.createElement('div');
+        groupTitle.style.fontWeight = '700';
+        groupTitle.style.color = cfg.color;
+        groupTitle.style.marginBottom = '0.65rem';
+        groupTitle.style.fontSize = '0.95rem';
+        groupTitle.style.display = 'flex';
+        groupTitle.style.alignItems = 'center';
+        groupTitle.style.gap = '0.4rem';
+        groupTitle.innerHTML = `${cfg.icon} <span>${cfg.name} (${list.length})</span>`;
+        groupWrapper.appendChild(groupTitle);
+
+        const groupGrid = document.createElement('div');
+        groupGrid.className = 'updated-topics-grid';
+
+        list.forEach(topic => {
+          const pill = document.createElement('div');
+          pill.className = 'updated-topic-pill';
+          pill.onclick = () => startPractice(currentCategory.id, topic.id);
+          pill.innerHTML = `
+            <span class="pill-icon">📚</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+          `;
+          groupGrid.appendChild(pill);
+        });
+
+        groupWrapper.appendChild(groupGrid);
+        banner.appendChild(groupWrapper);
+      });
     } else {
       const grid = document.createElement('div');
       grid.className = 'updated-topics-grid';
@@ -718,12 +789,12 @@ function startPractice(catId, topicId) {
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01 và TYPE 02!', 'warning');
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
     return;
   }
-  if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
+  if (userClass === 'CB210' && catId === 4) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
     return;
   }
 
@@ -8198,7 +8269,16 @@ function updateClassAccessUI() {
     cat2Link.removeAttribute('title');
   }
 
-  [3, 4].forEach(catId => {
+  // Category 3 lock/unlock (Unlocked for Gia Tuệ and CB210)
+  const cat3Link = document.getElementById('nav-link-cat-3');
+  if (cat3Link) {
+    const existingBadge3 = cat3Link.querySelector('.cat-lock-badge');
+    if (existingBadge3) existingBadge3.remove();
+    cat3Link.classList.remove('is-locked');
+    cat3Link.removeAttribute('title');
+  }
+
+  [4].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
     if (!link) return;
     
@@ -8208,7 +8288,7 @@ function updateClassAccessUI() {
     
     if (isGiaTue || isCB210) {
       link.classList.add('is-locked');
-      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01 & TYPE 02)' : 'Dạng luận này chưa mở cho lớp CB210');
+      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)' : 'Dạng luận này chưa mở cho lớp CB210');
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -8219,9 +8299,9 @@ function updateClassAccessUI() {
     }
   });
 
-  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2) {
+  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2 && currentCategory.id !== 3) {
     switchCategory(1);
-  } else if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
+  } else if (isCB210 && currentCategory && currentCategory.id === 4) {
     switchCategory(1);
   }
 }
