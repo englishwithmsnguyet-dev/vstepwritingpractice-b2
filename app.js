@@ -205,8 +205,8 @@ function switchScreen(screenName) {
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ chỉ mở TYPE 01 (Advantages & Disadvantages)!', 'warning');
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01 và TYPE 02!', 'warning');
     return;
   }
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
@@ -327,7 +327,7 @@ function renderDashboard() {
   // Grab all topics that have full details (ideas and sample essays)
   const featuredTopics = [];
   ESSAY_DATA.forEach(cat => {
-    if (isGiaTueUser && cat.id !== 1) return;
+    if (isGiaTueUser && cat.id !== 1 && cat.id !== 2) return;
     cat.topics.forEach(t => {
       if (t.hidden) return;
       if (t.has_full_details) {
@@ -470,10 +470,20 @@ function renderCategoryTopics(searchQuery = '') {
       createGroupSection('NHÓM 2: CHỈ PHÂN TÍCH THUẬN LỢI', '✨', '#10b981', benefitsOnlyList);
     } else if (currentCategory.id === 2) {
       const getCategory2Group = (t) => {
-        const tag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).toLowerCase();
+        const rawTag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).trim();
+        let firstTag = rawTag.includes(']') ? (rawTag.split(']')[0].trim() + ']').toLowerCase() : rawTag.toLowerCase();
+        const tag = rawTag.toLowerCase();
         const prompt = (t.prompt || '').toLowerCase();
         
-        // 1. Check details.ideas_b2 / ideas_b1 keys if present
+        // 1. Check primary tag first (consistent with switchCategory & getTopicSubtypeLabel)
+        if (firstTag === '[causes & solutions]' || firstTag === '[problems & solutions]') return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
+        if (firstTag === '[causes & effects]' || firstTag === '[causes & effects – on youth and society]') return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
+        if (firstTag === '[effects & solutions]' || firstTag === '[impacts & solutions]') return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
+        if (firstTag === '[causes]' || firstTag === '[factors]' || firstTag === '[causes / factors]' || firstTag === '[causes / reasons]') return 'PHÂN TÍCH NGUYÊN NHÂN';
+        if (firstTag === '[effects]' || firstTag === '[positive & negative effects]') return 'PHÂN TÍCH ẢNH HƯỞNG';
+        if (firstTag === '[measures]' || firstTag === '[solutions]' || firstTag === '[measures / solutions]') return 'PHÂN TÍCH GIẢI PHÁP';
+
+        // 2. Check details.ideas_b2 / ideas_b1 keys if present
         const ideasObj = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
         if (ideasObj) {
           const keys = Object.keys(ideasObj);
@@ -485,7 +495,7 @@ function renderCategoryTopics(searchQuery = '') {
           if (keys.includes('solutions') || keys.includes('measures')) return 'PHÂN TÍCH GIẢI PHÁP';
         }
 
-        // 2. Check tags & prompt
+        // 3. Check tags & prompt
         if (tag.includes('causes & solutions') || (prompt.includes('causes') && (prompt.includes('solutions') || prompt.includes('measures') || prompt.includes('suggest')))) {
           return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
         }
@@ -708,8 +718,8 @@ function startPractice(catId, topicId) {
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ chỉ mở TYPE 01 (Advantages & Disadvantages)!', 'warning');
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01 và TYPE 02!', 'warning');
     return;
   }
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
@@ -4154,6 +4164,7 @@ function renderVietnameseOutline() {
         <li>Tuyên bố luận đề (Nêu rõ mục đích bài viết - thảo luận cả hai khía cạnh hoặc quan điểm)</li>
       </ul>
       
+      ${group2Items.length > 0 ? `
       <p><strong>2. Thân bài 1 (Body Paragraph 1):</strong></p>
       <ul style="padding-left: 1rem; margin-bottom: 0.75rem;">
         ${group1Items.length > 0 ? group1Items.map((item, idx) => `
@@ -4168,17 +4179,32 @@ function renderVietnameseOutline() {
       
       <p><strong>3. Thân bài 2 (Body Paragraph 2):</strong></p>
       <ul style="padding-left: 1rem; margin-bottom: 0.75rem;">
-        ${group2Items.length > 0 ? group2Items.map((item, idx) => `
+        ${group2Items.map((item, idx) => `
         <li style="${idx > 0 ? 'margin-top: 0.5rem;' : ''}">
           Nêu luận điểm ${idx + 1}:
           <br><span style="color: var(--text-primary); font-weight: 500;">- ${item.point_vi}</span>
           <br><span style="color: var(--text-secondary); font-size: 0.8rem;">Ý phụ bổ sung lý giải:</span>
           <br><span>${formatOutlineEvidence(item.evidence_vi)}</span>
         </li>
-        `).join('') : '<li>Phát triển các ý tưởng chính cho thân bài 2</li>'}
+        `).join('')}
       </ul>
       
       <p><strong>4. Kết bài (Conclusion):</strong></p>
+      ` : `
+      <p><strong>2. Phần Thân bài (Body Paragraphs - Chọn 3 luận điểm tiêu biểu để phát triển thành 3 đoạn thân bài):</strong></p>
+      <ul style="padding-left: 1rem; margin-bottom: 0.75rem;">
+        ${group1Items.map((item, idx) => `
+        <li style="${idx > 0 ? 'margin-top: 0.5rem;' : ''}">
+          <strong>Luận điểm gợi ý 0${idx + 1}:</strong>
+          <br><span style="color: var(--text-primary); font-weight: 500;">- ${item.point_vi}</span>
+          <br><span style="color: var(--text-secondary); font-size: 0.8rem;">Ý phụ bổ sung lý giải:</span>
+          <br><span>${formatOutlineEvidence(item.evidence_vi)}</span>
+        </li>
+        `).join('')}
+      </ul>
+      
+      <p><strong>3. Kết bài (Conclusion):</strong></p>
+      `}
       <ul style="padding-left: 1rem;">
         <li>Khẳng định lại vấn đề (Tóm tắt lại các điểm chính của hai đoạn thân bài)</li>
         <li>Ý kiến hoặc khuyến nghị cuối cùng của bản thân</li>
@@ -7218,6 +7244,67 @@ function renderStep1Reading() {
           </ul>
         `;
       }
+    } else if (category.id === 2) {
+      const rawTag = (Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || '')).toLowerCase();
+      const p = ((topic.prompt || '') + ' ' + rawTag).toLowerCase();
+      if (rawTag.includes('causes & effects') || (p.includes('causes') && (p.includes('effects') || p.includes('consequences') || p.includes('impacts')) && !p.includes('solutions'))) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. This essay will examine the main causes of this problem and discuss its possible effects.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Causes):</strong> <em>This issue can be attributed to several key factors. One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ]. Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ]. A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Effects):</strong> <em>This problem can lead to several significant consequences. One negative effect is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ]. Another serious impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ]. A further consequence is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] is caused by several factors and leads to various negative effects. Understanding these causes and consequences is essential to address the problem effectively in the future. Without appropriate attention, this issue may continue to affect both individuals and society.</em></li>
+          </ul>
+        `;
+      } else if (rawTag.includes('effects & solutions') || rawTag.includes('impacts & solutions') || rawTag.includes('problems & solutions') || ((p.includes('effects') || p.includes('impacts') || p.includes('problems')) && (p.includes('solutions') || p.includes('measures')) && !p.includes('causes'))) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has had a significant impact on both individuals and society. This essay will examine its main effects and suggest possible solutions.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Effects):</strong> <em>This issue can lead to several serious consequences. One major effect is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ]. Another significant impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ]. A further consequence is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Solutions):</strong> <em>To address this problem, several practical measures can be implemented. One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ]. Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ]. Finally, it is necessary to [giải pháp 3 – Vo]. &rarr; [luận cứ].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] causes several serious effects and requires practical solutions. Taking appropriate measures is essential to reduce its negative impacts in the future. With effective action, this problem can be better controlled, leading to positive changes in society.</em></li>
+          </ul>
+        `;
+      } else if ((rawTag.includes('[causes]') || rawTag.includes('[factors]') || rawTag.includes('[causes /')) && !rawTag.includes('solutions') && !rawTag.includes('effects')) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has attracted increasing attention because of its impact on individuals and society. This essay will examine the main causes of this problem.</em></li>
+            <li><strong>Thân bài 1 (Body 1):</strong> <em>One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 3 (Body 3):</strong> <em>A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] can be attributed to several main factors. Understanding these causes is essential to deal with this issue effectively in the future. Greater awareness of these factors can help individuals and society respond more appropriately.</em></li>
+          </ul>
+        `;
+      } else if ((rawTag.includes('[effects]') || rawTag.includes('positive & negative effects')) && !rawTag.includes('solutions') && !rawTag.includes('causes')) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has had a considerable impact on both individuals and society. This essay will examine the main effects of this problem.</em></li>
+            <li><strong>Thân bài 1 (Body 1):</strong> <em>One major effect is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another significant impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 3 (Body 3):</strong> <em>A further consequence is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] leads to several serious effects on individuals and society. Recognizing these consequences is essential to address the issue more effectively in the future. Without proper attention, these impacts may become even more serious over time.</em></li>
+          </ul>
+        `;
+      } else if ((rawTag.includes('[measures]') || rawTag.includes('[solutions]') || rawTag.includes('[measures / solutions]')) && !rawTag.includes('causes') && !rawTag.includes('effects')) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. It has had a profound impact on both individuals and society. This essay will suggest several practical solutions to address this issue effectively.</em></li>
+            <li><strong>Thân bài 1 (Body 1):</strong> <em>One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 3 (Body 3):</strong> <em>A further approach is to [giải pháp 3 – Vo]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, several practical measures can be taken to address [chủ đề - danh từ / cụm danh từ]. Implementing these solutions is essential to improve the situation in the future. With appropriate action from both individuals and authorities, this problem can be significantly reduced over time.</em></li>
+          </ul>
+        `;
+      } else {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. This essay will examine the main causes of this problem and suggest possible solutions.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Causes):</strong> <em>This issue can be attributed to several key factors. One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ]. Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ]. A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Solutions):</strong> <em>To address this problem, several practical solutions can be implemented. One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ]. Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ]. Finally, it is necessary to [giải pháp 3 – Vo]. &rarr; [luận cứ].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] is caused by several factors and requires practical solutions to address it effectively. Addressing these causes is essential to improve the situation in the future. With appropriate measures, this issue can be reduced, leading to positive changes in society.</em></li>
+          </ul>
+        `;
+      }
     } else {
       customOutlineGuide = `
         <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem;">
@@ -7274,7 +7361,7 @@ function renderStep1Reading() {
                         </a>
                       </div>
                       <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
-                      ${a.summary ? `<div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>` : ""}
+                      ${a.summary && a.summary !== 'undefined' ? `<div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>` : ""}
                     </div>
                   `).join('')}
                 </div>
@@ -7296,7 +7383,7 @@ function renderStep1Reading() {
                         </a>
                       </div>
                       <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
-                      ${a.summary ? `<div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>` : ""}
+                      ${a.summary && a.summary !== 'undefined' ? `<div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>` : ""}
                     </div>
                   `).join('')}
                 </div>
@@ -7901,22 +7988,13 @@ function updateClassAccessUI() {
   const isCB210 = (userClass === 'CB210');
   const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
   
-  // Category 2 lock/unlock (Locked for Gia Tuệ, unlocked for others)
+  // Category 2 lock/unlock (Unlocked for Gia Tuệ and CB210)
   const cat2Link = document.getElementById('nav-link-cat-2');
   if (cat2Link) {
     const existingBadge2 = cat2Link.querySelector('.cat-lock-badge');
     if (existingBadge2) existingBadge2.remove();
-    if (isGiaTue) {
-      cat2Link.classList.add('is-locked');
-      cat2Link.setAttribute('title', 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện chỉ mở TYPE 01)');
-      const badge2 = document.createElement('span');
-      badge2.className = 'cat-lock-badge';
-      badge2.innerHTML = '🔒 Khoá';
-      cat2Link.appendChild(badge2);
-    } else {
-      cat2Link.classList.remove('is-locked');
-      cat2Link.removeAttribute('title');
-    }
+    cat2Link.classList.remove('is-locked');
+    cat2Link.removeAttribute('title');
   }
 
   [3, 4].forEach(catId => {
@@ -7929,7 +8007,7 @@ function updateClassAccessUI() {
     
     if (isGiaTue || isCB210) {
       link.classList.add('is-locked');
-      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện chỉ mở TYPE 01)' : 'Dạng luận này chưa mở cho lớp CB210');
+      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01 & TYPE 02)' : 'Dạng luận này chưa mở cho lớp CB210');
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -7940,7 +8018,7 @@ function updateClassAccessUI() {
     }
   });
 
-  if (isGiaTue && currentCategory && currentCategory.id !== 1) {
+  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2) {
     switchCategory(1);
   } else if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
     switchCategory(1);

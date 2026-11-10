@@ -2409,33 +2409,53 @@ h1, h2, h3, h4, h5, h6,
 
 /* Specific styling for Top Header on Workspace, History, Drafts (without search bar) */
 .top-header.view-workspace {
-  grid-template-columns: minmax(0, 1fr) auto;
-  column-gap: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
 }
 
 .top-header.view-workspace .page-title {
-  grid-column: 1;
-  justify-self: start;
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.25rem;
 }
 
 .top-header.view-workspace .header-middle-brand {
-  grid-column: 2;
-  justify-self: end;
-  font-size: 1.25rem;
-  letter-spacing: 1.5px;
+  flex-shrink: 0;
+  margin-left: auto;
+  font-size: 1.15rem;
+  letter-spacing: 1.2px;
 }
 
 .top-header.view-workspace .header-actions {
-  display: none;
+  display: none !important;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
   .header-middle-brand {
-    font-size: 1.1rem !important;
+    font-size: 1.05rem !important;
     letter-spacing: 1px !important;
   }
   .page-title {
-    font-size: 1.2rem !important;
+    font-size: 1.15rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .top-header.view-workspace .header-middle-brand {
+    font-size: 0.95rem !important;
+    letter-spacing: 0.8px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .top-header.view-workspace .header-middle-brand {
+    display: none !important;
   }
 }
 
