@@ -1808,6 +1808,56 @@ const IGNORED_LINKING_WORDS = [
   'however', 'on the other hand', 'besides', 'thus', 'hence'
 ];
 
+function wordsAreFormsOfSame(w1, w2) {
+  if (w1 === w2) return true;
+  if (w1 + "s" === w2 || w1 + "es" === w2 || w1 + "d" === w2 || w1 + "ed" === w2 || w1 + "ing" === w2) return true;
+  if (w2 + "s" === w1 || w2 + "es" === w1 || w2 + "d" === w1 || w2 + "ed" === w1 || w2 + "ing" === w1) return true;
+  return false;
+}
+
+function isWordSubphrase(shortPhrase, longPhrase) {
+  const normS = (shortPhrase || "").toLowerCase().trim();
+  const normL = (longPhrase || "").toLowerCase().trim();
+  if (!normS || !normL || normS === normL) return false;
+  if ((" " + normL + " ").includes(" " + normS + " ")) return true;
+  
+  const sWords = normS.split(" ").filter(Boolean);
+  const lWords = normL.split(" ").filter(Boolean);
+  if (sWords.length < lWords.length) {
+    for (let i = 0; i <= lWords.length - sWords.length; i++) {
+      let match = true;
+      for (let j = 0; j < sWords.length; j++) {
+        if (!wordsAreFormsOfSame(sWords[j], lWords[i + j])) {
+          match = false;
+          break;
+        }
+      }
+      if (match) return true;
+    }
+  }
+  return false;
+}
+
+function deduplicateCollocations(cols) {
+  if (!Array.isArray(cols)) return [];
+  const unique = [];
+  cols.forEach(c => {
+    if (!c || !c.en) return;
+    const norm = c.en.toLowerCase().trim();
+    if (!unique.some(u => u.en.toLowerCase().trim() === norm)) {
+      unique.push(c);
+    }
+  });
+
+  return unique.filter(c => {
+    const isSub = unique.some(other => {
+      if (other === c) return false;
+      return isWordSubphrase(c.en, other.en);
+    });
+    return !isSub;
+  });
+}
+
 function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   if (!collocations || collocations.length === 0) return [];
   const normVi = ' ' + normalizeTextForMatching(sentenceVi) + ' ';
@@ -1818,7 +1868,9 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   const matched = collocations.filter(col => {
     if (!col || !col.en) return false;
     const rawEnLower = col.en.toLowerCase().trim();
-    if (IGNORED_LINKING_WORDS.includes(rawEnLower)) return false;
+    if (IGNORED_LINKING_WORDS.includes(rawEnLower)) {
+      if (!normEn.includes(' ' + rawEnLower + ' ')) return false;
+    }
 
     const colEn = normalizeTextForMatching(col.en);
     const colVi = normalizeTextForMatching(col.vi);
@@ -1826,40 +1878,28 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
     const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số', 'sự', 'việc', 'tính'].includes(w));
 
-    // Must match Vietnamese sentence so we never suggest words absent from sentenceVi
+    // 1. Direct substring match (EN or VI)
+    const enMatchesExact = Boolean(colEn && normEn.includes(' ' + colEn + ' '));
     const viMatchesExact = Boolean(colVi && normVi.includes(' ' + colVi + ' '));
-    const viMatchesSeq = viWords.length >= 1 && (
-      (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 3)) ||
-      viWords.every(vw => sWordsVi.includes(vw))
-    );
-    if (!viMatchesExact && !viMatchesSeq) return false;
-
-    // 1. Direct substring match (VI or EN)
-    if (viMatchesExact) return true;
-    if (colEn && normEn.includes(' ' + colEn + ' ')) return true;
+    if (enMatchesExact || viMatchesExact) return true;
 
     // 2. In-sequence phrase matching allowing up to 3 filler words between keywords
-    if (enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 3)) {
-      return true;
-    }
-
-    if (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 3)) {
-      return true;
-    }
+    const enMatchesSeq = enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 3);
+    const viMatchesSeq = viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 3);
+    if (enMatchesSeq || viMatchesSeq) return true;
 
     // 3. Short key phrase / key content word match
-    if (enWords.length === 1 && enWords[0].length >= 4 && sWordsEn.some(sw => wordsEqual(sw, enWords[0]))) {
+    if (enWords.length === 1 && enWords[0].length >= 4 && sWordsEn.some(sw => wordsAreFormsOfSame(sw, enWords[0]))) {
+      return true;
+    }
+    if (viWords.length === 1 && viWords[0].length >= 3 && sWordsVi.some(sw => sw === viWords[0])) {
       return true;
     }
 
     return false;
   });
 
-  // Remove redundant sub-phrases if longer phrase is already present in matched
-  return matched.filter(c => {
-    const isSubphrase = matched.some(other => other !== c && other.vi.includes(c.vi) && other.en.includes(c.en));
-    return !isSubphrase;
-  });
+  return deduplicateCollocations(matched);
 }
 
 // Match strictly sentence-specific vocabulary suggestions ordered by appearance in sentence
@@ -1928,9 +1968,14 @@ function hasSelectableIdeas(topic) {
   if (!details) return false;
   const ideas = details.ideas_b2 || details.ideas_b1;
   if (!ideas) return false;
-  const bCount = (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []).length;
-  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []).length;
-  return bCount > 3 || dCount > 3;
+  const isCausesSolutions = currentCategory && currentCategory.id === 2;
+  const bGroup = isCausesSolutions
+    ? (ideas.causes || ideas.problems || ideas.benefits || ideas.reasons || ideas.views || ideas.factors || [])
+    : (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []);
+  const dGroup = isCausesSolutions
+    ? (ideas.solutions || ideas.effects || ideas.drawbacks || ideas.problems || ideas.measures || [])
+    : (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []);
+  return bGroup.length > 3 || dGroup.length > 3;
 }
 
 function getSelectedIdeaIndices(topic, groupType) {
@@ -1943,11 +1988,16 @@ function getSelectedIdeaIndices(topic, groupType) {
   const ideas = details.ideas_b2 || details.ideas_b1;
   if (!ideas) return [];
   
+  const isCausesSolutions = currentCategory && currentCategory.id === 2;
   let items = [];
   if (groupType === 'benefits') {
-    items = ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || [];
+    items = isCausesSolutions
+      ? (ideas.causes || ideas.problems || ideas.benefits || ideas.reasons || ideas.views || ideas.factors || [])
+      : (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []);
   } else if (groupType === 'drawbacks') {
-    items = ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || [];
+    items = isCausesSolutions
+      ? (ideas.solutions || ideas.effects || ideas.drawbacks || ideas.problems || ideas.measures || [])
+      : (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []);
   } else {
     items = ideas[groupType] || [];
   }
@@ -2198,8 +2248,12 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
   
-  const allGroup1 = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
-  const allGroup2 = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
+  const allGroup1 = isCausesSolutions
+    ? (ideasObj.causes || ideasObj.problems || ideasObj.benefits || ideasObj.reasons || ideasObj.factors)
+    : (ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors);
+  const allGroup2 = isCausesSolutions
+    ? (ideasObj.solutions || ideasObj.effects || ideasObj.drawbacks || ideasObj.problems || ideasObj.measures)
+    : (ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures);
 
   let group1Items = allGroup1;
   let group2Items = allGroup2;
@@ -2248,8 +2302,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
       let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
-        ? item.point_collocations
+        ? deduplicateCollocations(item.point_collocations)
         : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
+      pointCols = deduplicateCollocations(pointCols);
       if (transLevel === 'B1') {
         pointCols = pointCols.map(adaptCollocationForB1);
       }
@@ -2267,8 +2322,9 @@ function buildTranslationExercises(topic, transLevel, category) {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
         let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
-          ? item.evidence_collocations[sIdx]
+          ? deduplicateCollocations(item.evidence_collocations[sIdx])
           : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        evCols = deduplicateCollocations(evCols);
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
@@ -2290,8 +2346,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
       let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
-        ? item.point_collocations
+        ? deduplicateCollocations(item.point_collocations)
         : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
+      pointCols = deduplicateCollocations(pointCols);
       if (transLevel === 'B1') {
         pointCols = pointCols.map(adaptCollocationForB1);
       }
@@ -2309,8 +2366,9 @@ function buildTranslationExercises(topic, transLevel, category) {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
         let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
-          ? item.evidence_collocations[sIdx]
+          ? deduplicateCollocations(item.evidence_collocations[sIdx])
           : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        evCols = deduplicateCollocations(evCols);
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
@@ -4273,19 +4331,25 @@ function renderOutline() {
     }
   }
   
-  const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
-  const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
+  const group1Items = isCausesSolutions
+    ? (ideasObj.causes || ideasObj.problems || ideasObj.benefits || ideasObj.reasons || ideasObj.factors)
+    : (ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors);
+  const group2Items = isCausesSolutions
+    ? (ideasObj.solutions || ideasObj.effects || ideasObj.drawbacks || ideasObj.problems || ideasObj.measures)
+    : (ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures);
 
   const isSelectable = hasSelectableIdeas(topic);
   const selB = isSelectable ? getSelectedIdeaIndices(topic, 'benefits') : [];
   const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
 
   if (isSelectable) {
+    const group1Name = isCausesSolutions ? 'nguyên nhân' : (isOpinion ? 'lý do' : (isDiscussion ? 'quan điểm 1' : 'thuận lợi'));
+    const group2Name = isCausesSolutions ? 'giải pháp' : (isOpinion ? 'lý do' : (isDiscussion ? 'quan điểm 2' : 'bất lợi'));
     const selBanner = document.createElement('div');
     selBanner.className = 'outline-idea-selector-banner';
     selBanner.innerHTML = `
       <div style="font-weight: 700; font-size: 0.8rem; color: var(--accent-primary);">
-        🎯 Đang chọn: ${selB.length} thuận lợi ${group2Items && group2Items.length > 0 ? `& ${selD.length} bất lợi` : ''}
+        🎯 Đang chọn: ${selB.length} ${group1Name} ${group2Items && group2Items.length > 0 ? `& ${selD.length} ${group2Name}` : ''}
       </div>
       <div style="font-size: 0.72rem; color: var(--text-muted);">
         (Tick chọn ý luyện viết)
