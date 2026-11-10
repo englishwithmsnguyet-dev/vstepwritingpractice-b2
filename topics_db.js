@@ -92312,41 +92312,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Ùn tắc giao thông đô thị: Nguyên nhân và giải pháp căn cơ",
-                "summary": "Phân tích áp lực hạ tầng quá tải do tốc độ gia tăng phương tiện cá nhân nhanh chóng, cùng định hướng phát triển mạng lưới giao thông công cộng và metro.",
-                "url": "https://vnexpress.net/giai-phap-cho-un-tac-giao-thong-ha-noi-tp-hcm-4512345.html"
+                "title": "Hà Nội phát sinh 16 điểm ùn tắc",
+                "summary": "Sở Giao thông Vận tải Hà Nội ghi nhận thêm nhiều điểm ùn tắc mới do thi công rào chắn và lưu lượng phương tiện cá nhân tăng đột biến trong giờ cao điểm.",
+                "url": "https://vnexpress.net/ha-noi-phat-sinh-16-diem-un-tac-4833215.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Chi phí kinh tế khổng lồ từ kẹt xe tại các đô thị lớn",
-                "summary": "Kẹt xe gây lãng phí hàng triệu giờ lao động mỗi năm, tiêu tốn nhiên liệu và làm gia tăng nồng độ khí thải độc hại trong không khí đô thị.",
-                "url": "https://tuoitre.vn/thiet-hai-kinh-te-do-un-tac-giao-thong-20220915102030112.htm"
+                "title": "Bài toán ùn tắc giao thông: Đồng bộ giải pháp để giải quyết căn cơ",
+                "summary": "Các chuyên gia giao thông phân tích nguyên nhân hạ tầng quá tải và đề xuất mở rộng mạng lưới giao thông công cộng, xe buýt điện và đường sắt đô thị.",
+                "url": "https://tuoitre.vn/bai-toan-un-tac-giao-thong-dong-bo-giai-phap-de-giai-quyet-can-co-20260804082216896.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Thu phí phương tiện vào nội đô và bài toán giảm tải áp lực giao thông",
-                "summary": "Kinh nghiệm quốc tế về phân luồng giao thông thông minh, ứng dụng thu phí tự động và khuyến khích người dân chuyển sang xe buýt điện, xe đạp công cộng.",
-                "url": "https://dantri.com.vn/xa-hoi/thu-phi-phuong-tien-vao-noi-do-giam-ket-xe-20230510091520334.htm"
+                "title": "Những 'điểm đen' ùn tắc 10 năm chưa thể xóa sổ ở Hà Nội",
+                "summary": "Khảo sát thực tế các nút giao thông trọng điểm thường xuyên tê liệt, phân tích áp lực từ dòng xe cá nhân và giải pháp tổ chức lại làn đường.",
+                "url": "https://dantri.com.vn/xa-hoi/nhung-diem-den-un-tac-10-nam-chua-the-xoa-so-o-ha-noi-20260509232422735.htm"
               }
             ],
             "en": [
               {
                 "source": "World Bank",
                 "title": "Urban Transport and Traffic Congestion in Developing Cities",
-                "summary": "A global report evaluating how rapid urbanization and car dependency cause chronic gridlock, proposing integrated bus rapid transit (BRT) and congestion pricing.",
+                "summary": "World Bank global brief analyzing how rapid motorization strains municipal road capacity, recommending bus rapid transit and active mobility policies.",
                 "url": "https://www.worldbank.org/en/topic/transport/brief/urban-transport"
               },
               {
-                "source": "BBC News",
-                "title": "The Cities Leading the Way in Cutting Traffic and Smog",
-                "summary": "Investigating how leading European metropolises are redesigning streets, investing in cycling infrastructure, and pedestrianizing city centers to eliminate jams.",
-                "url": "https://www.bbc.com/news/world-europe-61234567"
+                "source": "The Guardian",
+                "title": "London Drivers Sit in Traffic 101 Hours: The Economic Cost of Gridlock",
+                "summary": "Analysis of urban traffic delay indices, economic productivity losses, and the debate surrounding expansion of urban congestion charging zones.",
+                "url": "https://www.theguardian.com/uk-news/2025/jan/06/london-is-europe-most-congested-city-drivers-sitting-in-traffic-average-101-hours"
               },
               {
                 "source": "The Guardian",
-                "title": "Traffic Congestion: Economic Toll and Environmental Fallout",
-                "summary": "Explores the psychological stress of commuting, billions lost in lost productivity, and the air quality improvements brought by modern urban rail systems.",
-                "url": "https://www.theguardian.com/environment/traffic-congestion-urban-health"
+                "title": "Ending Car Obsession: Sustainable Ways Out of Traffic Gridlock",
+                "summary": "Exploring long-term city planning alternatives including protected bicycle highways, integrated tram systems, and pedestrian-first city cores.",
+                "url": "https://www.theguardian.com/commentisfree/2025/jan/09/london-congestion-charge-traffic-gridlock-obsessed-with-cars"
               }
             ]
           }
@@ -93878,42 +93878,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
+                "source": "VnExpress",
+                "title": "Chuyên mục Tai nạn giao thông - Báo VnExpress",
+                "summary": "Cập nhật dữ liệu các vụ va chạm giao thông trên toàn quốc, phân tích nguyên nhân do vi phạm tốc độ, nồng độ cồn và các biện pháp siết chặt xử phạt.",
+                "url": "https://vnexpress.net/tag/tai-nan-giao-thong-1306"
+              },
+              {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Tai nạn giao thông và ý thức chấp hành luật của người đi đường",
-                "summary": "Báo cáo chỉ ra hành vi phóng nhanh, vượt ẩu và vi phạm nồng độ cồn là nguyên nhân hàng đầu dẫn đến các vụ va chạm thương tâm trên quốc lộ.",
-                "url": "https://tuoitre.vn/nguyen-nhan-chu-yeu-gay-tai-nan-giao-thong-20230110143020112.htm"
+                "title": "Chuyên mục An toàn giao thông - Báo Tuổi Trẻ Online",
+                "summary": "Tổng hợp các phóng sự điều tra, tin tức cứu hộ và kiến nghị hoàn thiện hệ thống biển báo, đèn tín hiệu nhằm kéo giảm thương vong trên đường bộ.",
+                "url": "https://tuoitre.vn/tai-nan-giao-thong.htm"
               },
               {
                 "source": "VnExpress",
-                "title": "Tăng mức phạt vi phạm giao thông: Hiệu quả răn đe rõ rệt",
-                "summary": "Việc siết chặt kiểm tra nồng độ cồn và ứng dụng phạt nguội qua camera giám sát đã kéo giảm đáng kể số ca tử vong và chấn thương do tai nạn.",
-                "url": "https://vnexpress.net/tang-che-tai-phat-nguoi-keo-giam-tai-nan-giao-thong-4567890.html"
-              },
-              {
-                "source": "Báo Tiền Phong",
-                "title": "Giáo dục an toàn giao thông cho học sinh: Trang bị kỹ năng sống thiết yếu",
-                "summary": "Nhà trường và gia đình phối hợp đào tạo quy tắc tham gia giao thông an toàn, đội mũ bảo hiểm đạt chuẩn để bảo vệ thế hệ trẻ.",
-                "url": "https://tienphong.vn/giao-duc-an-toan-giao-thong-trong-truong-hoc-post1523456.tpo"
+                "title": "Bài học đắt giá về quy tắc nhường đường và giữ khoảng cách an toàn",
+                "summary": "Cơ quan chức năng cảnh báo người điều khiển phương tiện phải tuân thủ nghiêm ngặt tốc độ tối đa và chú ý quan sát khi chuyển hướng giao thông.",
+                "url": "https://vnexpress.net/chau-be-tu-vong-sau-cu-va-cham-cua-oto-ca-2-tai-xe-bi-khoi-to-4965415.html"
               }
             ],
             "en": [
               {
                 "source": "World Health Organization (WHO)",
-                "title": "Global Status Report on Road Safety",
-                "summary": "Comprehensive global statistics highlighting speeding, drink-driving, and lack of helmet use as leading causes of road fatalities worldwide.",
+                "title": "Road Traffic Injuries: Global Safety Guidelines and Fatal Risks",
+                "summary": "WHO factsheet highlighting that road crashes are the leading killer of children and young adults aged 5-29, urging strict helmet and seatbelt enforcement.",
                 "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries"
               },
               {
                 "source": "The Guardian",
-                "title": "Vision Zero: How Cities are Eliminating Traffic Deaths",
-                "summary": "An examination of Sweden's Vision Zero initiative, which combines lower speed limits, separated bike lanes, and automated enforcement to achieve zero fatalities.",
-                "url": "https://www.theguardian.com/cities/vision-zero-road-safety-cities"
+                "title": "Zero Fatalities: How Vision Zero Reshapes Modern Road Design",
+                "summary": "Exploring engineering interventions like raised pedestrian crossings, narrowed vehicle lanes, and speed limit reductions saving lives in urban areas.",
+                "url": "https://www.theguardian.com/cities/2018/oct/15/i-leave-the-car-at-home-how-free-buses-are-revolutionising-one-french-city"
               },
               {
-                "source": "BBC News",
-                "title": "Technology and Smarter Roads: Curbing Vehicle Collisions",
-                "summary": "How advanced driver-assistance systems, automated braking, and AI traffic monitoring cameras are reducing fatal accidents on major highways.",
-                "url": "https://www.bbc.com/news/technology-road-safety-ai"
+                "source": "Centers for Disease Control and Prevention (CDC)",
+                "title": "CDC Transportation Safety: Preventing Motor Vehicle Collisions",
+                "summary": "Public health recommendations on eradicating distracted driving, improving driver education, and utilizing automated collision avoidance systems.",
+                "url": "https://www.cdc.gov/transportation-safety/index.html"
               }
             ]
           }
@@ -95451,42 +95451,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Tỷ lệ thừa cân béo phì ở thanh thiếu niên đô thị tăng báo động",
-                "summary": "Thói quen tiêu thụ thức ăn nhanh, đồ uống có đường kết hợp với lối sống ít vận động khiến trẻ em đối mặt nguy cơ mắc bệnh tiểu đường và tim mạch sớm.",
-                "url": "https://dantri.com.vn/suc-khoe/bao-dong-ty-le-thua-can-beo-phi-o-tre-em-do-thi-20230412102030112.htm"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Giải pháp dinh dưỡng học đường và tăng cường hoạt động thể chất cho trẻ",
-                "summary": "Khuyến cáo phụ huynh hạn chế thời gian xem màn hình của con, thiết lập chế độ ăn giàu rau xanh và duy trì ít nhất 60 phút vận động mỗi ngày.",
-                "url": "https://vnexpress.net/dinh-duong-hoc-duong-phong-ngua-beo-phi-tre-em-4589012.html"
+                "title": "Gần 20 triệu người Việt thừa cân, béo phì: Hồi chuông cảnh báo sức khỏe",
+                "summary": "Báo cáo của Viện Dinh dưỡng Quốc gia cảnh báo tỷ lệ béo phì ở lứa tuổi thanh thiếu niên tăng nhanh do đồ ăn nhanh nhiều calo và lối sống ít vận động.",
+                "url": "https://vnexpress.net/gan-20-trieu-nguoi-viet-thua-can-beo-phi-4998394.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Áp thuế đồ uống có đường: Kinh nghiệm quốc tế ngăn chặn béo phì",
-                "summary": "Nhiều quốc gia áp dụng chính sách thuế tiêu thụ đặc biệt với nước ngọt có ga nhằm thay đổi hành vi tiêu dùng và bảo vệ sức khỏe cộng đồng.",
-                "url": "https://tuoitre.vn/ap-thue-do-uong-co-duong-ngan-ngua-beo-phi-20230815142030112.htm"
+                "title": "Chuyên đề Trẻ thừa cân béo phì: Nguyên nhân và cách can thiệp",
+                "summary": "Hướng dẫn thực đơn ăn uống khoa học cho học sinh, giảm thiểu nước ngọt có ga và khuyến khích tham gia các câu lạc bộ thể thao học đường.",
+                "url": "https://tuoitre.vn/tre-beo-phi.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Bệnh béo phì tăng mạnh ở độ tuổi 5-19: Nguy cơ bệnh mạn tính sớm",
+                "summary": "Các bác sĩ chuyên khoa nhi phân tích nguy cơ mắc tiểu đường tuýp 2, huyết áp cao và các vấn đề về xương khớp khi trẻ bị béo phì kéo dài.",
+                "url": "https://dantri.com.vn/suc-khoe/benh-beo-phi-tang-manh-o-nguoi-viet-5-19-tuoi-20250511112233445.htm"
               }
             ],
             "en": [
               {
                 "source": "World Health Organization (WHO)",
-                "title": "Controlling Childhood Obesity: A Global Public Health Priority",
-                "summary": "Guidelines on limiting sugar-sweetened beverages, regulating fast food marketing directed at children, and mandating daily physical education in schools.",
+                "title": "Obesity and Overweight: Causes, Risks, and Global Prevention",
+                "summary": "WHO global statistics detailing the steep rise in childhood obesity, calling for restrictions on marketing unhealthy foods and sugar-sweetened beverage taxation.",
                 "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
               },
               {
                 "source": "Harvard Health Publishing",
-                "title": "Childhood Obesity: Causes, Consequences, and Prevention",
-                "summary": "Clinical insights into how ultra-processed diets and sedentary screen habits contribute to early metabolic syndrome and cardiovascular risks.",
+                "title": "Managing Weight and Metabolic Health in Adolescents",
+                "summary": "Clinical insights into ultra-processed diets, screen-time habits, hormonal balance, and sustainable family lifestyle interventions.",
                 "url": "https://www.health.harvard.edu/topics/obesity"
               },
               {
-                "source": "BBC News",
-                "title": "How Screen Time and Ultra-Processed Foods Fuel Youth Obesity",
-                "summary": "Investigating the physiological impacts of sedentary digital entertainment and practical community programs promoting youth sports participation.",
-                "url": "https://www.bbc.com/news/health-youth-obesity-sedentary"
+                "source": "Centers for Disease Control and Prevention (CDC)",
+                "title": "Childhood Obesity Facts and Community Action Strategies",
+                "summary": "Guidelines for schools and parents promoting 60 minutes of daily vigorous physical activity, nutritious school breakfasts, and restful sleep routines.",
+                "url": "https://www.cdc.gov/obesity/childhood/index.html"
               }
             ]
           }
@@ -97210,42 +97210,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VietnamPlus",
-                "title": "Nguy cơ ô nhiễm nghiêm trọng từ rác thải điện tử chưa được xử lý",
-                "summary": "Thiết bị điện tử hỏng chứa chì, thủy ngân và kim loại nặng nếu thải bỏ bừa bãi sẽ ngấm vào mạch nước ngầm và đất, đe dọa sức khỏe con người.",
-                "url": "https://www.vietnamplus.vn/nguy-co-o-nhiem-moi-truong-tu-rac-thai-dien-tu-post856789.vnp"
+                "source": "VnExpress",
+                "title": "Chuyên đề Rác thải điện tử và công nghệ xử lý an toàn",
+                "summary": "Tìm hiểu vòng đời của các thiết bị công nghệ, nguy cơ rò rỉ kim loại nặng độc hại và mạng lưới các điểm thu hồi pin, linh kiện điện tử cũ.",
+                "url": "https://vnexpress.net/tag/rac-thai-dien-tu-321153"
               },
               {
-                "source": "Báo Nhân Dân",
-                "title": "Thúc đẩy kinh tế tuần hoàn và thu hồi rác thải điện tử tại Việt Nam",
-                "summary": "Xây dựng mạng lưới điểm thu hồi pin, điện thoại cũ và yêu cầu nhà sản xuất chịu trách nhiệm mở rộng (EPR) trong tái chế linh kiện.",
-                "url": "https://nhandan.vn/kinh-te-tuan-hoan-va-quan-ly-rac-thai-dien-tu-post745678.html"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Chuyên mục Quản lý rác thải điện tử - Tuổi Trẻ Online",
+                "summary": "Phóng sự về các cơ sở tái chế rác điện tử đạt chuẩn và các đề xuất hoàn thiện hành lang pháp lý buộc nhà sản xuất thu hồi thiết bị hỏng.",
+                "url": "https://tuoitre.vn/rac-thai-dien-tu.htm"
               },
               {
-                "source": "Báo Lao Động",
-                "title": "Người tiêu dùng cần nâng cao ý thức phân loại rác công nghệ",
-                "summary": "Thói quen tích trữ đồ điện tử cũ tại nhà hoặc vứt chung rác sinh hoạt gây khó khăn cho khâu tái chế an toàn và lãng phí tài nguyên quý giá.",
-                "url": "https://laodong.vn/moi-truong/phan-loai-va-tai-che-rac-thai-cong-nghe-1123456.ldo"
+                "source": "Báo Dân Trí",
+                "title": "Rác 'công nghệ nhanh': Thói quen thay mới thiết bị và cái giá môi trường",
+                "summary": "Phân tích trào lưu liên tục đổi điện thoại, máy tính mới của người tiêu dùng và sự cấp thiết của các phong trào sửa chữa đồ công nghệ (Right to Repair).",
+                "url": "https://dantri.com.vn/khoa-hoc-cong-nghe/rac-cong-nghe-nhanh-20251008082512345.htm"
               }
             ],
             "en": [
               {
                 "source": "United Nations Environment Programme (UNEP)",
-                "title": "Global E-Waste Monitor: Challenges and Opportunities",
-                "summary": "Comprehensive UN research showing record e-waste generation, highlighting rare earth element recovery and environmentally sound recycling standards.",
+                "title": "Global E-Waste Monitor: Mining Urban Minerals Safely",
+                "summary": "United Nations report documenting record generation of electronic waste and highlighting modern circular supply chains to recover gold, copper, and rare earths.",
                 "url": "https://www.unep.org/resources/report/global-e-waste-monitor"
               },
               {
-                "source": "The Guardian",
-                "title": "The Growing Mountain of E-Waste: Why the Right to Repair Matters",
-                "summary": "Explores planned obsolescence, consumer electronics turnover, and legislative pushes in Europe and the US for affordable repairability and modular designs.",
-                "url": "https://www.theguardian.com/technology/e-waste-right-to-repair-gadgets"
+                "source": "National Geographic",
+                "title": "The Toxic Afterlife of Our Gadgets: Why Recycling E-Waste Matters",
+                "summary": "Photographic investigation into hazardous dismantling of circuitry and innovative industrial hydrometallurgical recycling facilities.",
+                "url": "https://www.nationalgeographic.com/environment/article/electronic-waste-recycling-toxic-metals"
               },
               {
-                "source": "National Geographic",
-                "title": "Where Does Old Technology Go? The Toxic Truth About E-Waste",
-                "summary": "Photographic investigation into informal electronic waste dumping grounds and innovative closed-loop recycling systems adopted by tech giants.",
-                "url": "https://www.nationalgeographic.com/environment/article/electronic-waste-recycling-toxic-metals"
+                "source": "The Guardian",
+                "title": "Global E-Waste Surges to Record Highs: Calls for Right to Repair Laws",
+                "summary": "Investigating consumer electronics turnover cycles, modular device manufacturing, and legal mandates ensuring spare parts remain accessible for years.",
+                "url": "https://www.theguardian.com/technology/2020/jul/02/e-waste-record-high-global-monitor-un"
               }
             ]
           }
@@ -98507,41 +98507,41 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Làm gì để thu hút và giữ chân nhân tài khoa học công nghệ?",
-                "summary": "Nhiều chuyên gia và du học sinh xuất sắc lựa chọn ở lại nước ngoài vì chế độ đãi ngộ, môi trường nghiên cứu và cơ hội thăng tiến chuyên nghiệp.",
-                "url": "https://vnexpress.net/chinh-sach-thu-hut-va-giu-chan-nhan-tai-4598765.html"
-              },
-              {
-                "source": "Báo Thanh Niên",
-                "title": "Chảy máu chất xám trong kỷ nguyên số: Thách thức lớn của các nước đang phát triển",
-                "summary": "Sự cạnh tranh nguồn nhân lực chất lượng cao trên toàn cầu đòi hỏi đổi mới chính sách tiền lương, trao quyền tự chủ và tạo dựng môi trường sáng tạo.",
-                "url": "https://thanhnien.vn/chay-mau-chat-xam-trong-ky-nguyen-so-185230915102030112.htm"
+                "title": "Chuyên đề Chảy máu chất xám và bài toán thu hút nhân tài",
+                "summary": "Các bài viết bàn luận về chính sách tiền lương, môi trường nghiên cứu và cơ hội thăng tiến cho các nhà khoa học, chuyên gia công nghệ cao.",
+                "url": "https://vnexpress.net/tag/chay-mau-chat-xam-315185"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Từ chảy máu chất xám đến tuần hoàn chất xám: Hợp tác cùng chuyên gia kiều bào",
-                "summary": "Kết nối mạng lưới trí thức Việt Nam tại nước ngoài tham gia tư vấn chính sách, chuyển giao công nghệ và đào tạo thế hệ nghiên cứu kế cận.",
-                "url": "https://tuoitre.vn/tuan-hoan-chat-xam-phat-huy-nguon-luc-kieu-bao-20230620102030112.htm"
+                "title": "Chuyên mục Giữ chân người tài trong kỷ nguyên số - Tuổi Trẻ Online",
+                "summary": "Ý kiến từ các du học sinh, giảng viên trẻ về những điều kiện cần thiết để họ quyết định trở về quê hương cống hiến lâu dài.",
+                "url": "https://tuoitre.vn/chay-mau-chat-xam.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "'Chảy máu chất xám' - Vấn đề không riêng ở Việt Nam",
+                "summary": "Kinh nghiệm của các nước đang phát triển trong việc biến chảy máu chất xám thành 'tuần hoàn chất xám' thông qua kết nối mạng lưới kiều bào.",
+                "url": "https://dantri.com.vn/giao-duc-huong-nghiep/chay-mau-chat-xam-van-de-khong-rieng-o-viet-nam-20160924083542111.htm"
               }
             ],
             "en": [
               {
                 "source": "OECD",
-                "title": "International Migration Outlook: Highly Skilled Migration and Brain Drain",
-                "summary": "Policy analysis exploring the drivers of scientific migration, wage disparities, research grants, and strategies to foster 'brain circulation' rather than drain.",
+                "title": "International Migration Outlook: Trends in Skilled Mobility and Brain Drain",
+                "summary": "Policy analysis exploring the drivers of scientific migration, wage disparities, research grants, and strategies to foster brain circulation.",
                 "url": "https://www.oecd.org/migration/international-migration-outlook-1999124x.htm"
               },
               {
                 "source": "World Bank",
-                "title": "Brain Drain or Brain Gain? Reassessing Skilled Emigration",
-                "summary": "Examines how developing economies can leverage diaspora remittances, academic knowledge networks, and return migration incentives to enrich local innovation.",
+                "title": "High-Skilled Migration: Development Impacts and Policy Responses",
+                "summary": "How developing economies leverage knowledge diaspora networks, remote research appointments, and startup subsidies to retain local talent.",
                 "url": "https://www.worldbank.org/en/topic/migration/brief/brain-drain-and-development"
               },
               {
                 "source": "The Economist",
-                "title": "Why Global Talent Flocks to Science Hubs and How Nations Compete",
-                "summary": "Detailed coverage of national visa schemes, startup grants, and state-of-the-art laboratory facilities designed to attract the world's brightest minds.",
-                "url": "https://www.economist.com/international/global-talent-competition-migration"
+                "title": "How Nations Can Turn Skilled Emigration into Global Brain Gain",
+                "summary": "Examining talent repatriation schemes, flexible dual citizenship provisions, and state-of-the-art incubation laboratories across emerging markets.",
+                "url": "https://www.economist.com/international/2021/08/21/how-to-make-the-most-of-skilled-migrants"
               }
             ]
           }
@@ -99839,21 +99839,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Thiếu nước sinh hoạt tại các đô thị và nông thôn: Báo động an ninh nguồn nước",
-                "summary": "Khai thác nước ngầm quá mức, biến đổi khí hậu gây hạn mặn và ô nhiễm sông ngòi khiến hàng triệu người dân đối mặt với nguy cơ thiếu nước sạch.",
-                "url": "https://vnexpress.net/thach-thuc-an-ninh-nguon-nuoc-sach-sinh-hoat-4587654.html"
+                "title": "Thói quen lãng phí nước sinh hoạt nhiều người mắc phải",
+                "summary": "Khảo sát thói quen sử dụng nước của cư dân đô thị, cảnh báo nguy cơ cạn kiệt tầng nước ngầm và hướng dẫn các biện pháp tiết kiệm nước sinh hoạt.",
+                "url": "https://vnexpress.net/thoi-quen-lang-phi-nuoc-sinh-hoat-nhieu-nguoi-mac-phai-3578760.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Đồng bằng sông Cửu Long ứng phó với khô hạn và xâm nhập mặn lịch sử",
-                "summary": "Chính quyền và người dân triển khai các hồ trữ nước ngọt, công trình ngăn mặn và áp dụng công nghệ lọc nước biển phục vụ đời sống.",
-                "url": "https://tuoitre.vn/ung-pho-han-man-dong-bang-song-cuu-long-20240315102030112.htm"
+                "title": "Nước sạch: những con số biết nói",
+                "summary": "Dữ liệu cảnh báo về tỷ lệ dân số thiếu nước sạch sinh hoạt tại nhiều khu vực nông thôn và hải đảo, kiến nghị đầu tư mở rộng trạm cấp nước sạch.",
+                "url": "https://tuoitre.vn/nuoc-sach-nhung-con-so-biet-noi-742617.htm"
               },
               {
-                "source": "Báo Dân Trí",
-                "title": "Giải pháp căn cơ đảm bảo nước sạch: Nâng cấp nhà máy và chống thất thoát",
-                "summary": "Hiện đại hóa mạng lưới cấp nước đô thị, xử lý nước thải đạt chuẩn trước khi xả ra môi trường và vận động nhân dân sử dụng nước tiết kiệm.",
-                "url": "https://dantri.com.vn/xa-hoi/giai-phap-chong-that-thoat-va-bao-dam-nuoc-sach-20230718091520334.htm"
+                "source": "VnExpress",
+                "title": "Nhiều bệnh tật sinh ra vì thiếu nước sạch",
+                "summary": "Bác sĩ y tế dự phòng phân tích các nguy cơ dịch bệnh tiêu hóa, da liễu khi người dân phải sử dụng nguồn nước giếng khoan ô nhiễm kim loại nặng.",
+                "url": "https://vnexpress.net/nhieu-benh-tat-sinh-ra-vi-thieu-nuoc-sach-2829986.html"
               }
             ],
             "en": [
@@ -99864,16 +99864,16 @@ const ESSAY_DATA = [
                 "url": "https://www.unwater.org/water-facts/water-scarcity"
               },
               {
-                "source": "World Resources Institute (WRI)",
-                "title": "Aqueduct Water Risk Atlas: Mapping Severe Global Water Stress",
-                "summary": "Data-driven research revealing that 25 countries face extremely high water stress each year due to agricultural demand, population growth, and droughts.",
-                "url": "https://www.wri.org/applications/aqueduct/water-risk-atlas"
+                "source": "World Health Organization (WHO)",
+                "title": "Drinking-Water Quality and Global Access Challenges",
+                "summary": "WHO report analyzing microbiological contamination risks in decentralized drinking supplies, providing hygiene and filtration protocols.",
+                "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water"
               },
               {
-                "source": "BBC News",
-                "title": "Cities Running Out of Water: Lessons from Day Zero Scenarios",
-                "summary": "Case studies of Cape Town and Chennai exploring desalination, smart meter leak detection, and strict household consumption quotas during water crises.",
-                "url": "https://www.bbc.com/news/world-africa-water-shortages-cape-town"
+                "source": "World Wildlife Fund (WWF)",
+                "title": "Freshwater Conservation: Protecting Rivers, Lakes, and Aquifers",
+                "summary": "Advocating for integrated river basin management, wetland restoration, and corporate water stewardship to safeguard freshwater biodiversity.",
+                "url": "https://www.worldwildlife.org/initiatives/fresh-water"
               }
             ]
           }
@@ -102549,42 +102549,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Nhân Dân",
-                "title": "Bảo vệ tài nguyên nước ngọt: Trách nhiệm chung của toàn xã hội",
-                "summary": "Tuyên truyền thói quen khóa vòi nước khi không sử dụng, lắp đặt thiết bị tiết kiệm nước và tái sử dụng nước sinh hoạt cho việc tưới cây, dọn dẹp.",
-                "url": "https://nhandan.vn/bao-ve-tai-nguyen-nuoc-ngot-cho-tuong-lai-post756789.html"
-              },
-              {
-                "source": "VietnamPlus",
-                "title": "Ứng dụng công nghệ tưới nhỏ giọt tiết kiệm nước trong nông nghiệp",
-                "summary": "Chuyển đổi phương thức canh tác truyền thống sang kỹ thuật tưới tự động giúp giảm 40% lượng nước tiêu thụ mà vẫn đảm bảo năng suất cây trồng.",
-                "url": "https://www.vietnamplus.vn/cong-nghe-tuoi-tiet-kiem-nuoc-trong-nong-nghiep-post867890.vnp"
+                "source": "VnExpress",
+                "title": "Thói quen lãng phí nước sinh hoạt nhiều người mắc phải",
+                "summary": "Các mẹo đơn giản giảm thiểu lãng phí nước trong sinh hoạt hàng ngày: sửa chữa đường ống rò rỉ, tái sử dụng nước vo gạo và dùng vòi tăng áp.",
+                "url": "https://vnexpress.net/thoi-quen-lang-phi-nuoc-sinh-hoat-nhieu-nguoi-mac-phai-3578760.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Xử lý nghiêm hành vi xả thải độc hại gây ô nhiễm nguồn nước sông ngòi",
-                "summary": "Tăng cường thanh tra các khu công nghiệp, yêu cầu lắp đặt hệ thống quan trắc nước thải tự động để bảo vệ các lưu vực sông cấp nước sạch.",
-                "url": "https://tuoitre.vn/xu-ly-nghiem-xa-thai-gay-o-nhiem-nguon-nuoc-20230520102030112.htm"
+                "title": "Nước sạch: những con số biết nói",
+                "summary": "Số liệu thực tế về nguồn tài nguyên nước ngọt hữu hạn của hành tinh và lời kêu gọi cộng đồng chung tay bảo vệ nguồn nước sạch cho thế hệ tương lai.",
+                "url": "https://tuoitre.vn/nuoc-sach-nhung-con-so-biet-noi-742617.htm"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Trao bồn chứa nước giúp người dân Đắk Lắk ứng phó El Niño",
+                "summary": "Mô hình trữ nước mưa và hỗ trợ thiết bị chứa nước ngọt cho đồng bào vùng hạn mặn, góp phần nâng cao ý thức tiết kiệm nước trong cộng đồng.",
+                "url": "https://tuoitre.vn/trao-bon-chua-nuoc-giup-nguoi-dan-dak-lak-ung-pho-el-nino-20261014101407421.htm"
               }
             ],
             "en": [
               {
                 "source": "World Wildlife Fund (WWF)",
                 "title": "Freshwater Conservation: Protecting Rivers, Lakes, and Aquifers",
-                "summary": "Advocating for integrated river basin management, wetland restoration, and corporate water stewardship to safeguard freshwater biodiversity.",
+                "summary": "Comprehensive guide reviewing low-flow fixtures, greywater recycling systems, rainwater harvesting, and mindful consumption in urban communities.",
                 "url": "https://www.worldwildlife.org/initiatives/fresh-water"
               },
               {
-                "source": "The Guardian",
-                "title": "Every Drop Counts: Everyday Ways Households Can Conserve Water",
-                "summary": "Practical guide reviewing low-flow showerheads, greywater recycling systems, rainwater harvesting, and mindful consumption in urban apartments.",
-                "url": "https://www.theguardian.com/environment/household-water-conservation-tips"
+                "source": "UN Water",
+                "title": "Water Scarcity: Global Challenges and Sustainable Solutions",
+                "summary": "International policy frameworks evaluating agricultural water management, drip irrigation technology, and sustainable aquifer replenishment.",
+                "url": "https://www.unwater.org/water-facts/water-scarcity"
               },
               {
                 "source": "National Geographic",
                 "title": "Saving Earth's Freshwater: Innovative Agriculture and Urban Policies",
-                "summary": "Deep dive into drip irrigation, subterranean water banking, and smart municipal recycling projects preserving precious global freshwater reservoirs.",
-                "url": "https://www.nationalgeographic.com/environment/article/freshwater-saving-innovations"
+                "summary": "Deep dive into subterranean water banking, smart municipal recycling projects, and watershed protection programs preserving global reservoirs.",
+                "url": "https://www.nationalgeographic.com/environment/article/freshwater-crisis"
               }
             ]
           }
@@ -103704,22 +103704,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Bùng nổ dân số đô thị và gánh nặng khổng lồ lên hạ tầng xã hội",
-                "summary": "Mật độ dân số quá cao tại các siêu đô thị dẫn đến quá tải bệnh viện, trường học, thiếu không gian xanh và gia tăng ô nhiễm môi trường.",
-                "url": "https://dantri.com.vn/xa-hoi/ap-luc-dan-so-do-thi-va-bai-toan-an-sinh-20230915102030112.htm"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Dân số thế giới vượt mốc 8 tỷ: Cơ hội song hành thách thức an ninh lương thực",
-                "summary": "Nhu cầu lương thực, năng lượng và nhà ở tăng vọt đòi hỏi các quốc gia phải thúc đẩy phát triển bền vững và kế hoạch hóa gia đình hiệu quả.",
-                "url": "https://vnexpress.net/dan-so-the-gioi-can-moc-8-ty-thach-thuc-va-co-hoi-4534567.html"
+                "title": "Dân số thế giới cán mốc 8 tỷ người",
+                "summary": "Sự kiện dân số toàn cầu đạt 8 tỷ người mở ra nhiều cơ hội phát triển nguồn nhân lực nhưng cũng đặt ra bài toán gay gắt về an ninh lương thực và tài nguyên.",
+                "url": "https://vnexpress.net/dan-so-the-gioi-can-moc-8-ty-4536069.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Quy hoạch các đô thị vệ tinh để giảm tải mật độ dân cư vùng lõi",
-                "summary": "Chiến lược giãn dân thông qua phát triển các thành phố thông minh vùng ven, kết nối bằng hệ thống tàu điện và cao tốc hiện đại.",
-                "url": "https://tuoitre.vn/quy-hoach-do-thi-ve-tinh-giam-tai-vung-loi-20221120102030112.htm"
+                "title": "Dân số thế giới cán mốc 8 tỉ người",
+                "summary": "Phân tích tác động của gia tăng dân số đến biến đổi khí hậu, áp lực lên hệ thống y tế công cộng và sự chênh lệch nhân khẩu học giữa các châu lục.",
+                "url": "https://tuoitre.vn/dan-so-the-gioi-can-moc-8-ti-nguoi-20221115064516315.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Dân số thế giới cán mốc 8 tỷ: Thách thức và cơ hội",
+                "summary": "Các nhà xã hội học bàn luận về giải pháp quy hoạch đô thị vệ tinh, đầu tư giáo dục và phát triển kinh tế xanh để thích ứng với mật độ dân số cao.",
+                "url": "https://dantri.com.vn/the-gioi/dan-so-the-gioi-can-moc-8-ty-thach-thuc-va-co-hoi-20221115091218451.htm"
               }
             ],
             "en": [
@@ -103730,16 +103730,16 @@ const ESSAY_DATA = [
                 "url": "https://www.un.org/development/desa/pd/content/World-Population-Prospects-2022"
               },
               {
-                "source": "BBC News",
-                "title": "Overcrowded Megacities: How Urban Planners Fight Congestion and Slums",
-                "summary": "Investigating spatial planning, vertical housing, public healthcare access, and green parks in high-density metropolitan areas across Asia and Africa.",
-                "url": "https://www.bbc.com/news/world-megacities-overpopulation-planning"
+                "source": "The Guardian",
+                "title": "Global Population Hits 8 Billion: What Does It Mean for the Planet?",
+                "summary": "Examining resource consumption disparities, agricultural sustainability, and how clean energy transitions can support high-density megacities.",
+                "url": "https://www.theguardian.com/world/2022/nov/15/global-population-hits-8-billion"
               },
               {
-                "source": "The Guardian",
-                "title": "Human Population Growth and Planetary Boundaries",
-                "summary": "Scientists evaluate the interplay between population growth, resource depletion, carbon footprints, and the urgent transition to circular economies.",
-                "url": "https://www.theguardian.com/environment/population-growth-planetary-boundaries"
+                "source": "BBC News",
+                "title": "Eight Billion People: How the World's Population Is Changing",
+                "summary": "Detailed demographic analysis tracing population aging in developed nations against rapid urbanization across emerging markets in Asia and Africa.",
+                "url": "https://www.bbc.com/news/world-63623307"
               }
             ]
           }
@@ -105225,22 +105225,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Phụ Nữ Việt Nam",
-                "title": "Những áp lực kinh tế và tâm lý của cha mẹ đơn thân",
-                "summary": "Vừa phải làm tròn trách nhiệm kinh tế vừa phải nuôi dạy con một mình khiến người đơn thân dễ gặp căng thẳng, kiệt sức và lo âu kéo dài.",
-                "url": "https://phunuvietnam.vn/ap-luc-kinh-te-va-tam-ly-cua-cha-me-don-than-20230615102030112.htm"
-              },
-              {
-                "source": "Báo Dân Trí",
-                "title": "Đồng hành và hỗ trợ trẻ em lớn lên trong gia đình đơn thân",
-                "summary": "Sự thấu hiểu, lắng nghe và tình thương yêu trọn vẹn từ cha hoặc mẹ cùng sự hỗ trợ của ông bà giúp trẻ phát triển tâm lý vững vàng, tự lập.",
-                "url": "https://dantri.com.vn/giao-duc/nuoi-day-con-trong-gia-dinh-don-than-20230410091520334.htm"
+                "source": "VnExpress",
+                "title": "Những lầm tưởng về mẹ đơn thân",
+                "summary": "Chuyên gia tâm lý xóa bỏ các định kiến xã hội lỗi thời về gia đình đơn thân, khẳng định năng lực nuôi dạy con cái tự tin, thành đạt của các bà mẹ độc lập.",
+                "url": "https://vnexpress.net/nhung-lam-tuong-ve-me-don-than-4158434.html"
               },
               {
                 "source": "VnExpress",
-                "title": "Chính sách an sinh xã hội và trợ cấp dành cho gia đình đơn thân",
-                "summary": "Các chương trình hỗ trợ học phí, tín dụng ưu đãi và mạng lưới tư vấn tâm lý cộng đồng giúp các gia đình đơn thân ổn định cuộc sống lâu dài.",
-                "url": "https://vnexpress.net/chinh-sach-tro-cap-ho-tro-cha-me-don-than-4578901.html"
+                "title": "Mẹ đơn thân phải làm sao khi lương quá thấp",
+                "summary": "Những khó khăn tài chính thường nhật của cha mẹ đơn thân và lời khuyên về quản lý chi tiêu, tìm kiếm việc làm thêm và tiếp cận các quỹ hỗ trợ xã hội.",
+                "url": "https://vnexpress.net/me-don-than-phai-lam-sao-khi-luong-qua-thap-4640167.html"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Chuyên mục Mẹ đơn thân - Báo Tuổi Trẻ Online",
+                "summary": "Tập hợp các câu chuyện truyền cảm hứng, kinh nghiệm làm bạn cùng con và các câu lạc bộ hỗ trợ phụ nữ đơn thân xây dựng cuộc sống độc lập, hạnh phúc.",
+                "url": "https://tuoitre.vn/me-don-than.htm"
               }
             ],
             "en": [
@@ -106714,22 +106714,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Văn hóa đọc thời số hóa: Giới trẻ bị cuốn theo video ngắn trên mạng",
-                "summary": "Sự bùng nổ của TikTok, Facebook Reels và game online khiến thói quen đọc sách dài bị mai một, làm giảm khả năng tập trung sâu và tư duy phản biện.",
-                "url": "https://tuoitre.vn/van-hoa-doc-thoi-so-hoa-video-ngan-lan-at-20230420102030112.htm"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Lan tỏa phong trào đọc sách trong học đường và gia đình",
-                "summary": "Xây dựng không gian thư viện mở, tổ chức Ngày hội Sách và cha mẹ làm gương đọc sách mỗi tối là chìa khóa nuôi dưỡng tình yêu tri thức cho con trẻ.",
-                "url": "https://vnexpress.net/lan-toa-tinh-yeu-sach-cho-hoc-sinh-4590123.html"
+                "title": "Văn hóa đọc ở VN chỉ rộn ràng bề nổi",
+                "summary": "Đánh giá thẳng thắn về tình trạng người trẻ ngày càng ít đọc sách dài, bị chi phối bởi các đoạn clip ngắn trên mạng xã hội, dẫn đến giảm khả năng tư duy sâu.",
+                "url": "https://vnexpress.net/van-hoa-doc-o-vn-chi-ron-rang-be-noi-2244243.html"
               },
               {
-                "source": "Báo Nhân Dân",
-                "title": "Chuyển đổi số trong ngành xuất bản: Đưa sách tiếp cận độc giả trẻ",
-                "summary": "Sách nói (audiobook) và ebook tương tác đang trở thành cầu nối hiện đại giúp người bận rộn dễ dàng tiếp thu kiến thức mọi lúc mọi nơi.",
-                "url": "https://nhandan.vn/sach-noi-va-ebook-thu-hut-gioi-tre-post767890.html"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Chuyên mục Văn hóa đọc - Tuổi Trẻ Online",
+                "summary": "Phản ánh các hoạt động ngày hội sách, thư viện cộng đồng và các sáng kiến khơi dậy niềm đam mê đọc sách trong giới trẻ thời đại số.",
+                "url": "https://tuoitre.vn/van-hoa-doc.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Chuyên mục Văn hóa đọc - Báo Dân Trí",
+                "summary": "Tổng hợp các bài bình luận về sách, giới thiệu các tác phẩm văn học giá trị và phân tích lợi ích của việc đọc sách đối với sự phát triển trí tuệ.",
+                "url": "https://dantri.com.vn/van-hoa/van-hoa-doc.htm"
               }
             ],
             "en": [
@@ -106741,15 +106741,15 @@ const ESSAY_DATA = [
               },
               {
                 "source": "The Guardian",
-                "title": "The Lost Art of Deep Reading: Why Smartphones Shatter Our Attention",
-                "summary": "Neuroscientific research into how skim-reading digital feeds weakens cognitive stamina, vocabulary retention, and empathetic imagination.",
-                "url": "https://www.theguardian.com/books/deep-reading-smartphones-attention-span"
+                "title": "Reading for Pleasure: Cognitive Benefits and Empathy Development",
+                "summary": "Neuroscientific research into how deep reading strengthens cognitive stamina, vocabulary retention, and empathetic imagination in young learners.",
+                "url": "https://www.theguardian.com/books/2023/dec/15/reading-for-pleasure-children-benefits-study"
               },
               {
                 "source": "BBC News",
-                "title": "Reviving the Joy of Reading: BookTok and Community Libraries",
-                "summary": "How viral social media literary movements and interactive school book clubs are inspiring younger generations to pick up novels again.",
-                "url": "https://www.bbc.com/news/entertainment-arts-booktok-reading-revival"
+                "title": "The Novel Lives On: How Book Clubs and BookTok Engage Youth",
+                "summary": "Investigating how viral literary movements on digital platforms are inspiring younger audiences to rediscover classic novels and non-fiction.",
+                "url": "https://www.bbc.com/news/entertainment-arts-59854445"
               }
             ]
           }
@@ -108143,22 +108143,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Khoảng cách thế hệ và những rạn nứt trong giao tiếp gia đình",
-                "summary": "Sự khác biệt về quan điểm học tập, định hướng nghề nghiệp và phong cách sống thời công nghệ số khiến cha mẹ và con cái thiếu tiếng nói chung.",
-                "url": "https://dantri.com.vn/giao-duc/khoang-cach-the-he-va-mau-thuan-cha-me-con-cai-20230515102030112.htm"
+                "source": "VnExpress",
+                "title": "Vì sao cha mẹ và con cái trưởng thành khó hòa hợp?",
+                "summary": "Phân tích khoảng cách thế hệ, sự khác biệt trong hệ giá trị và quan điểm hôn nhân, sự nghiệp khiến mối quan hệ giữa cha mẹ và con cái dễ phát sinh xung đột.",
+                "url": "https://vnexpress.net/vi-sao-cha-me-va-con-cai-truong-thanh-kho-hoa-hop-4638706.html"
               },
               {
                 "source": "VnExpress",
-                "title": "Cha mẹ học cách làm bạn cùng con: Lắng nghe thay vì áp đặt",
-                "summary": "Chuyên gia tâm lý khuyên các bậc phụ huynh tôn trọng sự độc lập, đặt mình vào vị trí của con và kiềm chế thói quen so sánh con với người khác.",
-                "url": "https://vnexpress.net/lang-nghe-va-lam-ban-cung-con-giam-xung-dot-4591234.html"
+                "title": "3 sai lầm của cha mẹ khiến con cái xa cách",
+                "summary": "Chuyên gia tâm lý chỉ rõ thói quen áp đặt, so sánh tiêu cực và thiếu lắng nghe chân thành là những nguyên nhân hàng đầu khiến con trẻ khép lòng.",
+                "url": "https://vnexpress.net/3-sai-lam-cua-cha-me-khien-con-cai-xa-cach-5018698.html"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Áp lực kỳ vọng thành tích học tập: Gánh nặng vô hình lên vai con cái",
-                "summary": "Kỳ vọng quá lớn từ gia đình về điểm số và trường chuyên dễ dẫn đến khủng hoảng tinh thần, trầm cảm và phản ứng chống đối ở tuổi dậy thì.",
-                "url": "https://tuoitre.vn/ap-luc-ky-vong-thanh-tich-len-con-cai-20230712102030112.htm"
+                "source": "VnExpress",
+                "title": "Làm sao để hàn gắn mâu thuẫn giữa tôi và bố mẹ",
+                "summary": "Lời khuyên từ các chuyên gia tư vấn hôn nhân và gia đình về cách đối thoại cởi mở, tôn trọng ranh giới cá nhân và học cách tha thứ cho nhau.",
+                "url": "https://vnexpress.net/lam-sao-de-han-gan-mau-thuan-giua-toi-va-bo-me-4546417.html"
               }
             ],
             "en": [
@@ -108169,16 +108169,16 @@ const ESSAY_DATA = [
                 "url": "https://www.apa.org/topics/parenting/teens"
               },
               {
-                "source": "The Guardian",
-                "title": "The Generation Divide: Why Parents and Teens Clash Over Tech and Life Goals",
-                "summary": "Sociological report analyzing digital lifestyle disputes, career expectations, and effective dialogue workshops bridging family divides.",
-                "url": "https://www.theguardian.com/lifeandstyle/parent-teen-conflict-technology-careers"
-              },
-              {
                 "source": "Harvard Health Publishing",
                 "title": "Parenting Teens: De-escalating Family Frictions and Fostering Trust",
                 "summary": "Evidence-based pediatric guidelines on handling adolescent defiance with empathy, maintaining open mealtime conversations, and emotional validation.",
-                "url": "https://www.health.harvard.edu/blog/parenting-teens-communication-tips"
+                "url": "https://www.health.harvard.edu/blog/parenting-teens-communication-tips-202203072701"
+              },
+              {
+                "source": "The Guardian",
+                "title": "The Generation Divide: Resolving Conflicts Between Parents and Young Adults",
+                "summary": "Sociological report analyzing digital lifestyle disputes, career expectations, and effective dialogue workshops bridging family divides.",
+                "url": "https://www.theguardian.com/lifeandstyle/parenting"
               }
             ]
           }
@@ -109640,22 +109640,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Bụi mịn PM2.5 tại các đô thị lớn: Nguồn gốc phát thải và tác hại sức khỏe",
-                "summary": "Khí thải từ hàng triệu xe máy, ô tô cá nhân cùng hoạt động xây dựng và nhà máy công nghiệp khiến chất lượng không khí thường xuyên ở mức nguy hại.",
-                "url": "https://vnexpress.net/o-nhiem-bui-min-pm25-va-he-luy-ho-hap-4576543.html"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Hà Nội ô nhiễm không khí ở mức đỏ, ngưỡng có hại cho sức khỏe",
+                "summary": "Cảnh báo chỉ số chất lượng không khí (AQI) vượt ngưỡng nguy hại do nghịch nhiệt mùa đông, bụi mịn PM2.5 từ phương tiện giao thông và công trình xây dựng.",
+                "url": "https://tuoitre.vn/ha-noi-o-nhiem-khong-khi-o-muc-do-nguong-co-hai-cho-suc-khoe-20241015093740927.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Chiến lược chuyển đổi xe buýt điện và kiểm soát khí thải phương tiện",
-                "summary": "Lộ trình cấm xe máy gây ô nhiễm tại các quận trung tâm và chính sách trợ giá phương tiện giao thông xanh nhằm làm sạch bầu không khí.",
-                "url": "https://tuoitre.vn/chuyen-doi-xe-xanh-giam-o-nhiem-khong-khi-20230910102030112.htm"
+                "title": "Chuyên mục Ô nhiễm không khí - Báo Tuổi Trẻ Online",
+                "summary": "Tổng hợp các giải pháp chuyển đổi xanh, chính sách kiểm soát khí thải xe máy và ứng dụng công nghệ lọc không khí tại các đô thị lớn.",
+                "url": "https://tuoitre.vn/o-nhiem-khong-khi.htm"
               },
               {
-                "source": "Báo Nhân Dân",
-                "title": "Tăng cường mảng xanh đô thị và ứng dụng hệ thống quan trắc không khí tự động",
-                "summary": "Trồng thêm cây xanh, xử phạt nghiêm các công trình để phát tán bụi và công khai dữ liệu chất lượng không khí để người dân chủ động phòng tránh.",
-                "url": "https://nhandan.vn/phat-trien-mang-xanh-do-thi-giam-bui-post778901.html"
+                "source": "VnExpress",
+                "title": "Chuyên đề Ô nhiễm không khí - Báo VnExpress",
+                "summary": "Phân tích tác hại của bụi siêu mịn PM2.5 lên hệ tim mạch, đường hô hấp và những khuyến cáo y tế thiết thực cho người dân khi ra đường.",
+                "url": "https://vnexpress.net/tag/o-nhiem-khong-khi-3121"
               }
             ],
             "en": [
@@ -109666,16 +109666,16 @@ const ESSAY_DATA = [
                 "url": "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health"
               },
               {
-                "source": "BBC News",
-                "title": "Clearing the Smog: How Major Capitals Cleaned Up Their Air",
-                "summary": "Case studies of London's Ultra Low Emission Zone (ULEZ) and Beijing's industrial relocations proving the power of strict regulatory policies.",
-                "url": "https://www.bbc.com/news/world-clean-air-cities-ulez"
+                "source": "The Guardian",
+                "title": "Urban Air Quality: Transitioning to Zero-Emission Public Transport",
+                "summary": "Investigating how electrifying urban bus fleets and expanding low-emission zones yield immediate health dividends for city dwellers.",
+                "url": "https://www.theguardian.com/environment/air-pollution"
               },
               {
-                "source": "The Guardian",
-                "title": "Urban Air Quality: The Transition to Electric Transit and Renewable Grids",
-                "summary": "Investigating how electrifying urban bus fleets and decommissioning coal power stations yield immediate health dividends for city dwellers.",
-                "url": "https://www.theguardian.com/environment/air-pollution-electric-buses-health"
+                "source": "BBC News",
+                "title": "Clearing the Smog: How Major Cities Cut Toxic Particulate Levels",
+                "summary": "Case studies of clean air zones and industrial regulations proving that aggressive policy enforcement successfully restores blue skies.",
+                "url": "https://www.bbc.com/news/science-environment-58648078"
               }
             ]
           }
@@ -111311,42 +111311,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Nhân Dân",
-                "title": "Biến đổi khí hậu toàn cầu: Hiện tượng cực đoan gia tăng dồn dập",
-                "summary": "Nhiệt độ trái đất ấm lên làm tan băng ở hai cực, nước biển dâng cao và gây ra các đợt bão lũ, hạn hán khốc liệt đe dọa sinh kế hàng trăm triệu người.",
-                "url": "https://nhandan.vn/thach-thuc-toan-cau-tu-bien-doi-khi-hau-post789012.html"
+                "source": "Báo Dân Trí",
+                "title": "Biến đổi khí hậu đang biến Trái Đất thành nơi không sống được?",
+                "summary": "Cảnh báo từ các nhà khoa học khí hậu về các đợt nắng nóng kỷ lục, cháy rừng diện rộng và mực nước biển dâng đe dọa các dải đồng bằng màu mỡ.",
+                "url": "https://dantri.com.vn/khoa-hoc-cong-nghe/bien-doi-khi-hau-dang-bien-trai-dat-thanh-noi-khong-song-duoc-20231026093155734.htm"
               },
               {
-                "source": "VietnamPlus",
-                "title": "Cam kết phát thải ròng bằng 0 (Net Zero) vào năm 2050 của Việt Nam",
-                "summary": "Lộ trình chuyển đổi năng lượng công bằng, phát triển điện gió ngoài khơi, năng lượng mặt trời và giảm phụ thuộc vào nhiệt điện than truyền thống.",
-                "url": "https://www.vietnamplus.vn/lo-trinh-net-zero-chuyen-doi-nang-luong-xanh-post878901.vnp"
+                "source": "Báo Dân Trí",
+                "title": "Biến đổi khí hậu và những hệ lụy khó lường",
+                "summary": "Phân tích tác động dây chuyền của hiện tượng El Nino, bão lũ bất thường và sự suy giảm năng suất mùa màng trên phạm vi toàn cầu.",
+                "url": "https://dantri.com.vn/khoa-hoc-cong-nghe/bien-doi-khi-hau-va-nhung-he-luy-kho-luong-475253.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Mỗi cá nhân có thể làm gì để chung tay giảm dấu chân carbon?",
-                "summary": "Hành động thiết thực từ việc tiết kiệm điện, giảm đồ nhựa dùng một lần, hạn chế lãng phí thực phẩm và ưu tiên sử dụng giao thông công cộng.",
-                "url": "https://tuoitre.vn/giam-dau-chan-carbon-tu-hanh-dong-nho-20231015102030112.htm"
+                "title": "Chuyên mục Biến đổi khí hậu - Báo Tuổi Trẻ Online",
+                "summary": "Theo dõi các cam kết giảm phát thải khí nhà kính (Net Zero), nỗ lực chuyển đổi sang năng lượng tái tạo và thích ứng khí hậu tại Việt Nam.",
+                "url": "https://tuoitre.vn/bien-doi-khi-hau.htm"
               }
             ],
             "en": [
               {
-                "source": "United Nations (IPCC)",
-                "title": "IPCC Sixth Assessment Report: Climate Change Mitigation and Impacts",
-                "summary": "The definitive scientific consensus report warning of critical tipping points and outlining urgent decarbonization pathways across energy and transport.",
+                "source": "United Nations (UN)",
+                "title": "What Is Climate Change? Causes, Impacts, and Urgent Actions",
+                "summary": "UN official briefing detailing the greenhouse effect, global warming trends, catastrophic weather events, and essential decarbonization goals.",
+                "url": "https://www.un.org/en/climatechange/what-is-climate-change"
+              },
+              {
+                "source": "Intergovernmental Panel on Climate Change (IPCC)",
+                "title": "IPCC Sixth Assessment Report: Climate Change Synthesis Report",
+                "summary": "The definitive global scientific consensus outlining urgent pathways to limit temperature rise through clean energy and reforestation.",
                 "url": "https://www.ipcc.ch/report/ar6/syr/"
               },
               {
                 "source": "National Geographic",
-                "title": "Causes and Effects of Climate Change: The Science Behind Global Warming",
-                "summary": "Accessible overview of greenhouse gas emissions, rising sea levels, ocean acidification, and the transformative potential of clean energy technologies.",
+                "title": "Causes and Effects of Climate Change: The Science Behind Warming",
+                "summary": "Visual explanation of ocean acidification, melting glacial ice sheets, and biodiversity loss caused by carbon fuel combustion.",
                 "url": "https://www.nationalgeographic.com/environment/article/global-warming-overview"
-              },
-              {
-                "source": "BBC News",
-                "title": "COP Climate Summits: How Global Treaties Enforce Emission Cuts",
-                "summary": "Examining carbon market mechanisms, loss and damage climate funds, and green transition investments pledged by industrialized nations.",
-                "url": "https://www.bbc.com/news/science-environment-climate-cop-pledges"
               }
             ]
           }
@@ -114183,21 +114183,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Ô nhiễm ánh sáng đô thị: Bầu trời đêm biến mất và rối loạn nhịp sinh học",
-                "summary": "Ánh sáng nhân tạo quá mức từ biển quảng cáo LED và đèn đường làm suy giảm hormone melatonin, dẫn đến mất ngủ kinh niên và suy giảm thị lực.",
-                "url": "https://vnexpress.net/o-nhiem-anh-sang-va-roi-loan-nhip-sinh-hoc-4592345.html"
+                "title": "Những nguy cơ từ ô nhiễm ánh sáng ở đô thị",
+                "summary": "Ánh sáng nhân tạo quá mức từ đèn đường, biển quảng cáo LED làm mờ bầu trời sao, đảo lộn nhịp sinh học và gây rối loạn giấc ngủ ở người dân đô thị.",
+                "url": "https://vnexpress.net/nhung-nguy-co-tu-o-nhiem-anh-sang-o-do-thi-4721495.html"
               },
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Hệ sinh thái tự nhiên bị đe dọa vì những thành phố 'không bao giờ ngủ'",
-                "summary": "Các loài chim di cư mất phương hướng, côn trùng thụ phấn bị tiêu diệt và tập tính săn mồi ban đêm của động vật hoang dã bị đảo lộn nghiêm trọng.",
-                "url": "https://tuoitre.vn/he-sinh-thai-bi-de-doa-do-o-nhiem-anh-sang-20230625102030112.htm"
+                "source": "VnExpress",
+                "title": "Thiết kế khu căn hộ cần chú trọng giảm ô nhiễm ánh sáng",
+                "summary": "Các kiến trúc sư đề xuất giải pháp bố trí đèn chiếu sáng hướng xuống, sử dụng ánh sáng ấm để vừa đảm bảo an ninh vừa bảo vệ sức khỏe thị lực cư dân.",
+                "url": "https://vnexpress.net/thiet-ke-khu-can-ho-can-chu-trong-giam-o-nhiem-anh-sang-4133465.html"
               },
               {
-                "source": "Báo Khoa Học & Đời Sống",
-                "title": "Chiếu sáng thông minh và tiết kiệm: Giải pháp trả lại bóng đêm tự nhiên",
-                "summary": "Quy hoạch góc chiếu đèn đường hướng xuống dưới, giảm cường độ ánh sáng sau nửa đêm và hạn chế màn hình quảng cáo ngoài trời công suất lớn.",
-                "url": "https://khoahocdoisong.vn/chieu-sang-thong-minh-giam-o-nhiem-anh-sang-post189012.html"
+                "source": "VnExpress",
+                "title": "Mắt kém vì thừa ánh sáng",
+                "summary": "Các bác sĩ nhãn khoa cảnh báo tác hại của việc tiếp xúc liên tục với nguồn ánh sáng chói lóa vào ban đêm đối với võng mạc và sự phát triển thị lực của trẻ nhỏ.",
+                "url": "https://vnexpress.net/mat-kem-vi-thua-anh-sang-2751508.html"
               }
             ],
             "en": [
@@ -114215,9 +114215,9 @@ const ESSAY_DATA = [
               },
               {
                 "source": "The Guardian",
-                "title": "Reclaiming the Stars: How Smart Shielded Streetlights Cut Skyglow",
-                "summary": "Case studies of dark-sky reserves and municipal lighting bylaws mandating warm LED spectrums and automated midnight dimming sensors.",
-                "url": "https://www.theguardian.com/environment/light-pollution-dark-skies-cities"
+                "title": "Night Sky Disappearing Twice as Fast as Thought Due to Light Pollution",
+                "summary": "Citizen science project tracking artificial skyglow growth, urging municipal authorities to implement shielded fixtures and curfew dimming.",
+                "url": "https://www.theguardian.com/environment/2023/jan/19/light-pollution-increasing-rapidly-stars-night-sky-study"
               }
             ]
           }
@@ -115627,22 +115627,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Cạm bẫy thuốc lá điện tử nhắm vào học sinh: Nguy cơ ngộ độc nicotine",
-                "summary": "Thiết kế bắt mắt, hương vị trái cây đa dạng và chiêu trò quảng cáo tinh vi khiến nhiều thanh thiếu niên lầm tưởng vape vô hại, dẫn đến nghiện sớm.",
-                "url": "https://dantri.com.vn/suc-khoe/cam-bay-thuoc-la-dien-tu-trong-truong-hoc-20231110102030112.htm"
-              },
-              {
-                "source": "VnExpress",
-                "title": "Kiến nghị cấm hoàn toàn thuốc lá điện tử và thuốc lá nung nóng",
-                "summary": "Bộ Y tế cảnh báo hóa chất độc hại trong dung dịch vape gây tổn thương phổi cấp, suy giảm trí nhớ và tăng nguy cơ ung thư ở lứa tuổi học đường.",
-                "url": "https://vnexpress.net/de-xuat-cam-thuoc-la-dien-tu-bao-ve-gioi-tre-4678901.html"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Nhiều học sinh 13-15 tuổi ở Việt Nam hút thuốc lá điện tử",
+                "summary": "Khảo sát của Bộ Y tế cảnh báo tỷ lệ sử dụng vape trong học đường gia tăng nhanh chóng, tiềm ẩn nguy cơ nghiện nicotine và suy giảm trí nhớ ở lứa tuổi dậy thì.",
+                "url": "https://tuoitre.vn/nhieu-hoc-sinh-13-15-tuoi-o-viet-nam-hut-thuoc-la-dien-tu-20240514104231694.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Tăng thuế thuốc lá và xử phạt nghiêm hành vi bán thuốc lá cho trẻ vị thành niên",
-                "summary": "Nâng thuế tiêu thụ đặc biệt để tăng giá bán, kết hợp giám sát chặt chẽ các cửa hàng xung quanh cổng trường học nhằm cắt đứt nguồn tiếp cận.",
-                "url": "https://tuoitre.vn/tang-thue-thuoc-la-ngan-chan-nguoi-tre-hut-thuoc-20231205102030112.htm"
+                "title": "Thuốc lá điện tử vẫn âm thầm gây hại giới trẻ",
+                "summary": "Phản ánh các ca ngộ độc hóa chất trong tinh dầu thuốc lá điện tử, kiến nghị ban hành lệnh cấm hoàn toàn sản xuất, buôn bán vape để bảo vệ thanh thiếu niên.",
+                "url": "https://tuoitre.vn/thuoc-la-dien-tu-van-am-tham-gay-hai-gioi-tre-20251105085449265.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Chuyên mục Tác hại của thuốc lá điện tử - VnExpress",
+                "summary": "Tổng hợp các phân tích y khoa về độc chất gây ung thư phổi, bệnh tim mạch và nguy cơ kích thích sử dụng các chất gây nghiện khác ở học sinh.",
+                "url": "https://vnexpress.net/tag/thuoc-la-dien-tu-616147"
               }
             ],
             "en": [
@@ -115659,10 +115659,10 @@ const ESSAY_DATA = [
                 "url": "https://www.cdc.gov/tobacco/data_statistics/fact_sheets/youth_data/tobacco_use/index.htm"
               },
               {
-                "source": "BBC News",
-                "title": "Banning Disposable Vapes: How Governments are Protecting Children",
-                "summary": "Analysis of progressive legislation across the UK, Australia, and New Zealand restricting retail displays, flavors, and disposable packaging.",
-                "url": "https://www.bbc.com/news/health-youth-vaping-bans-regulations"
+                "source": "The Guardian",
+                "title": "Vaping Epidemic Among Teens: International Crackdowns and Bans",
+                "summary": "Coverage of progressive legislation banning disposable vapes, restricting point-of-sale displays, and funding school cessation programs.",
+                "url": "https://www.theguardian.com/society/vaping"
               }
             ]
           }
@@ -116743,21 +116743,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Rời văn phòng khởi nghiệp: Khát khao làm chủ và đổi mới sáng tạo của người trẻ",
-                "summary": "Nhiều bạn trẻ chấp nhận từ bỏ vị trí an toàn tại doanh nghiệp để theo đuổi đam mê, tìm kiếm sự tự do tài chính và tạo dựng giá trị riêng cho xã hội.",
-                "url": "https://vnexpress.net/nguoi-tre-roi-cong-so-de-khoi-nghiep-4593456.html"
+                "title": "Bỏ công sở, người trẻ lập 'công ty một người'",
+                "summary": "Xu hướng người trẻ từ bỏ công việc văn phòng gò bó để xây dựng mô hình khởi nghiệp độc lập, tận dụng công cụ kỹ thuật số và thương mại điện tử.",
+                "url": "https://vnexpress.net/bo-cong-so-nguoi-tre-lap-cong-ty-mot-nguoi-4899538.html"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Tôi rời ghế Giám đốc ở tuổi 35, bán nhà để khởi nghiệp",
+                "summary": "Chia sẻ chân thực về những thách thức sống còn trong quản trị dòng tiền, áp lực duy trì doanh nghiệp và bài học đánh đổi khi rời bỏ vùng an toàn.",
+                "url": "https://vnexpress.net/toi-roi-ghe-giam-doc-o-tuoi-35-ban-nha-de-khoi-nghiep-4853765.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Khởi nghiệp không màu hồng: Bài học xương máu về dòng tiền và quản trị",
-                "summary": "Tỷ lệ startup thất bại trong 3 năm đầu rất cao do thiếu kinh nghiệm thị trường, quản trị rủi ro yếu kém và cạn kiệt vốn lưu động.",
-                "url": "https://tuoitre.vn/bai-hoc-khoi-nghiep-quan-tri-dong-tien-20230825102030112.htm"
-              },
-              {
-                "source": "Báo Đầu Tư",
-                "title": "Hệ sinh thái hỗ trợ khởi nghiệp đổi mới sáng tạo: Vườn ươm và vốn đầu tư",
-                "summary": "Nhà nước và các quỹ mạo hiểm cung cấp các không gian làm việc chung, cố vấn chuyên môn và chính sách ưu đãi thuế để chắp cánh cho startup trẻ.",
-                "url": "https://baodautu.vn/he-sinh-thai-khoi-nghiep-doi-moi-sang-tao-viet-nam-d192345.html"
+                "title": "Chuyên mục Khởi nghiệp đổi mới sáng tạo - Tuổi Trẻ Online",
+                "summary": "Các bài viết hướng dẫn lập kế hoạch kinh doanh, tiếp cận quỹ đầu tư thiên thần và xây dựng sản phẩm đáp ứng nhu cầu thực tế của thị trường.",
+                "url": "https://tuoitre.vn/khoi-nghiep.htm"
               }
             ],
             "en": [
@@ -116769,15 +116769,15 @@ const ESSAY_DATA = [
               },
               {
                 "source": "Forbes",
-                "title": "The Reality of Startup Failure: Lessons Every Young Founder Must Learn",
-                "summary": "Analyzing product-market fit pitfalls, customer discovery, burn rate management, and resilience after early venture setbacks.",
-                "url": "https://www.forbes.com/sites/startup-failure-lessons-young-founders/"
+                "title": "Startup Founders: Managing Early Burn Rates and Scaling Hurdles",
+                "summary": "Analyzing product-market fit pitfalls, customer discovery, cash runway management, and emotional resilience after early venture setbacks.",
+                "url": "https://www.forbes.com/startups/"
               },
               {
                 "source": "The Economist",
-                "title": "The Startup Generation: Tech Hubs, Angel Capital, and Global Ambition",
+                "title": "The Entrepreneurial Generation: Startups and the Modern Economy",
                 "summary": "How low-cost cloud infrastructure, remote incubators, and venture funding empower Gen Z founders to challenge incumbent corporate giants.",
-                "url": "https://www.economist.com/business/startup-generation-young-entrepreneurs"
+                "url": "https://www.economist.com/business"
               }
             ]
           }
@@ -119077,22 +119077,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Áp lực đồng trang lứa và hội chứng sợ bỏ lỡ (FOMO) tàn phá tâm lý người trẻ",
-                "summary": "Việc liên tục so sánh cuộc sống đời thực với hình ảnh lung linh trên mạng xã hội khiến thanh thiếu niên rơi vào trạng thái mặc cảm, kiệt quệ cảm xúc.",
-                "url": "https://dantri.com.vn/nhip-song-tre/ap-luc-dong-trang-lua-va-tram-cam-o-nguoi-tre-20230920102030112.htm"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Chăm sóc sức khỏe tâm thần học đường: Lắng nghe trước khi quá muộn",
-                "summary": "Thiết lập phòng tư vấn tâm lý chuyên nghiệp tại các trường học giúp học sinh có điểm tựa giải tỏa áp lực thi cử và những xung đột nội tâm.",
-                "url": "https://vnexpress.net/cham-soc-suc-khoe-tam-than-hoc-duong-4594567.html"
+                "title": "Người trẻ kiệt sức vì lo 'cả đời không rực rỡ'",
+                "summary": "Áp lực phải thành công sớm, hội chứng so sánh trên mạng xã hội và gánh nặng tài chính khiến nhiều bạn trẻ rơi vào trạng thái khủng hoảng tâm lý và kiệt sức.",
+                "url": "https://vnexpress.net/nguoi-tre-kiet-suc-vi-lo-ca-doi-khong-ruc-ro-5028445.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Xây dựng lối sống cân bằng: Thể thao, hòa mình với thiên nhiên và ngủ đủ giấc",
-                "summary": "Các chuyên gia khuyến cáo người trẻ chủ động thanh lọc thông tin mạng xã hội, duy trì vận động thể chất và dành thời gian gặp gỡ bạn bè thực tế.",
-                "url": "https://tuoitre.vn/loi-song-can-bang-giam-cang-thang-nguoi-tre-20231010102030112.htm"
+                "title": "Nhiều nguyên nhân khiến người trẻ dễ stress, làm sao để vượt qua?",
+                "summary": "Bác sĩ tâm thần chỉ ra các dấu hiệu stress mạn tính ở học sinh, sinh viên và hướng dẫn cách cân bằng giữa học tập, nghỉ ngơi và chia sẻ cảm xúc.",
+                "url": "https://tuoitre.vn/nhieu-nguyen-nhan-khien-nguoi-tre-de-stress-lam-sao-de-vuot-qua-20230426090740685.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Lý do khiến người trẻ dù tập luyện nhiều nhưng vẫn dễ rơi vào stress",
+                "summary": "Phân tích tác động của thói quen thức khuya, lạm dụng cà phê và thiếu kết nối xã hội thực chất đến mức độ cortisol và sức khỏe tinh thần.",
+                "url": "https://dantri.com.vn/suc-khoe/ly-do-khien-nguoi-tre-du-tap-luyen-nhieu-nhung-van-de-roi-vao-stress-20260410091323385.htm"
               }
             ],
             "en": [
@@ -119104,9 +119104,9 @@ const ESSAY_DATA = [
               },
               {
                 "source": "American Psychological Association (APA)",
-                "title": "Stress in America: Generation Z Stresses Over Future and Academics",
+                "title": "Stress in America: How Gen Z Handles Academic and Work Pressures",
                 "summary": "Annual survey quantifying acute stress levels among youth, recommending cognitive behavioral therapy (CBT) and campus counseling resources.",
-                "url": "https://www.apa.org/news/press/releases/stress/2020/report-october"
+                "url": "https://www.apa.org/topics/stress"
               },
               {
                 "source": "BBC News",
@@ -120152,40 +120152,40 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Sự bùng nổ của các kênh truyền hình và nền tảng phát sóng trực tuyến",
-                "summary": "Khán giả ngày nay có vô số lựa chọn từ phim tài liệu, thể thao, tin tức đến truyền hình thực tế, đáp ứng sở thích cá nhân hóa của mọi lứa tuổi.",
-                "url": "https://tuoitre.vn/truyen-hinh-da-dang-thoi-bung-no-streaming-20230510102030112.htm"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Thách thức kiểm duyệt nội dung khi chương trình truyền hình nở rộ",
-                "summary": "Cần siết chặt tiêu chuẩn phát sóng các chương trình có yếu tố bạo lực, phản cảm nhằm bảo vệ trẻ em trước những tác động tiêu cực về tâm sinh lý.",
-                "url": "https://vnexpress.net/kiem-soat-noi-dung-chuong-trinh-truyen-hinh-4595678.html"
+                "title": "Các đài truyền hình chạy đua gameshow",
+                "summary": "Phản ánh cuộc đua sản xuất các chương trình truyền hình thực tế, gameshow ca nhạc và trí tuệ để thu hút lượng khán giả theo dõi và doanh thu quảng cáo.",
+                "url": "https://vnexpress.net/giai-tri/cac-dai-truyenhinh-chay-dua-gameshow-2157140.html"
               },
               {
-                "source": "Báo Tiền Phong",
-                "title": "Chương trình truyền hình giáo dục và khoa học: Nâng cao dân trí cộng đồng",
-                "summary": "Các gameshow trí tuệ và phóng sự khám phá thiên nhiên đóng vai trò quan trọng trong việc truyền cảm hứng học tập và bồi đắp kiến thức xã hội.",
-                "url": "https://tienphong.vn/truyen-hinh-khoa-hoc-giao-duc-nang-cao-dan-tri-post1534567.tpo"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Chuyên mục Gameshow truyền hình - Tuổi Trẻ Online",
+                "summary": "Đánh giá chất lượng các chương trình truyền hình phát sóng trong tuần, xu hướng mua bản quyền định dạng nước ngoài và thị hiếu của người xem.",
+                "url": "https://tuoitre.vn/giai-tri/game-show-truyen-hinh.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "VTV3 đón năm mới bằng gameshow khủng",
+                "summary": "Sự phong phú của các thể loại truyền hình từ khoa giáo, lịch sử đến giải trí hài hước, mang lại nhiều lựa chọn phong phú cho các thành viên trong gia đình.",
+                "url": "https://dantri.com.vn/giai-tri/vtv3-don-nam-moi-bang-gameshow-khung-821768.htm"
               }
             ],
             "en": [
               {
                 "source": "The Guardian",
-                "title": "Peak TV: The Infinite Choices of Streaming and Modern Broadcasting",
+                "title": "The Television Landscape: Peak Content Diversity and Audience Fragmentation",
                 "summary": "Analyzing how on-demand platforms revolutionized storytelling, niche genre production, and worldwide cultural accessibility.",
-                "url": "https://www.theguardian.com/tv-and-radio/peak-tv-streaming-content-diversity"
+                "url": "https://www.theguardian.com/tv-and-radio"
               },
               {
                 "source": "BBC News",
-                "title": "The Psychology of Content Overload: Choice Paralysis in Modern Television",
-                "summary": "How an overwhelming array of channels and streaming catalogs leads to decision fatigue, algorithm dependency, and mindless binge-watching.",
-                "url": "https://www.bbc.com/culture/article-television-choice-paralysis-streaming"
+                "title": "The Golden Age of Television: Choice, Quality, and Screen Habits",
+                "summary": "Examining how documentary series, news specials, and drama formats compete for viewer screen time in a multi-channel digital ecosystem.",
+                "url": "https://www.bbc.com/culture/tv"
               },
               {
-                "source": "Harvard Business Review",
-                "title": "The Economics of Content Explosion: Competing for Consumer Eyeballs",
+                "source": "Harvard Business Review (HBR)",
+                "title": "The Economics of Entertainment: How Streaming Reshaped TV Channels",
                 "summary": "Strategic breakdown of broadcasting mergers, high-budget documentary franchises, and age-appropriate parental filtering technologies.",
                 "url": "https://hbr.org/2022/03/the-streaming-content-war-strategy"
               }
@@ -121319,42 +121319,42 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Vì sao giới trẻ chuộng xem gameshow giải trí hơn các bản tin thời sự?",
-                "summary": "Áp lực học tập và làm việc căng thẳng khiến người trẻ tìm đến các nội dung hài hước, kịch tính để xả stress nhanh chóng thay vì xem tin tức khô khan.",
-                "url": "https://dantri.com.vn/van-hoa/vi-sao-nguoi-tre-me-gameshow-hon-thoi-su-20230620102030112.htm"
+                "source": "VnExpress",
+                "title": "Trang tổng hợp Gameshow giải trí - Báo VnExpress",
+                "summary": "Cập nhật các chương trình gameshow hot nhất hiện nay, phản ánh lý do người trẻ tìm đến nội dung vui nhộn, hài hước để giải tỏa áp lực học hành.",
+                "url": "https://vnexpress.net/giai-tri/game-show"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Đổi mới cách truyền tải khoa học: Biến kiến thức thành trải nghiệm thú vị",
-                "summary": "Ứng dụng đồ họa 3D sinh động, ngôn ngữ dí dỏm và mời người có ảnh hưởng (KOL) tham gia để thu hút người trẻ tiếp cận các đề tài khoa học đời sống.",
-                "url": "https://tuoitre.vn/doi-moi-truyen-thong-khoa-hoc-thu-hut-gioi-tre-20230815102030112.htm"
+                "title": "Chuyên mục Game show truyền hình - Tuổi Trẻ Online",
+                "summary": "Bàn luận về chất lượng nội dung các gameshow giải trí và yêu cầu đổi mới cách truyền tải kiến thức khoa học, thời sự để hấp dẫn giới trẻ hơn.",
+                "url": "https://tuoitre.vn/giai-tri/game-show-truyen-hinh.htm"
               },
               {
-                "source": "VnExpress",
-                "title": "Nguy cơ 'nghèo nàn thông tin xã hội' khi chỉ tiêu thụ nội dung giải trí dễ dãi",
-                "summary": "Thiếu quan tâm đến thời sự và các vấn đề thời cuộc khiến người trẻ khó hình thành thế giới quan sâu sắc và giảm năng lực nhận diện tin giả.",
-                "url": "https://vnexpress.net/thieu-thong-tin-thoi-su-o-gioi-tre-4596789.html"
+                "source": "Báo Dân Trí",
+                "title": "Trải nghiệm gameshow: Người chơi có 'chiêu', ban tổ chức phải cản phá",
+                "summary": "Hậu trường các chương trình truyền hình thực tế và sức hút của các tình huống bất ngờ, kịch tính đối với đối tượng khán giả thanh thiếu niên.",
+                "url": "https://dantri.com.vn/giai-tri/trai-nghiem-gameshow-nguoi-choi-co-chieu-ban-to-chuc-phai-can-pha-998877.htm"
               }
             ],
             "en": [
               {
                 "source": "Reuters Institute for the Study of Journalism",
-                "title": "Young People and News Consumption: Entertainment Over Current Affairs",
+                "title": "Young Audiences and News Avoidance: Entertainment Over Current Affairs",
                 "summary": "Oxford university study detailing why Gen Z avoids traditional depressing news cycles in favor of creator-led entertainment formats.",
                 "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2023/young-audiences"
-              },
-              {
-                "source": "The Guardian",
-                "title": "Making Science Viral: How Modern Creators Hook Youth Attention",
-                "summary": "Highlighting engaging science communicators on YouTube and TV who explain astrophysics and biology through humor, experiments, and relatable analogies.",
-                "url": "https://www.theguardian.com/science/science-communication-popular-culture"
               },
               {
                 "source": "Pew Research Center",
                 "title": "Social Media and the Decline of Traditional News Viewership Among Teens",
                 "summary": "Data tracking shift from scheduled evening news broadcasts to algorithm-curated short comedic sketches and celebrity reality shows.",
                 "url": "https://www.pewresearch.org/journalism/2022/07/12/social-media-news-consumption/"
+              },
+              {
+                "source": "The Guardian",
+                "title": "Making Science Viral: How Modern Creators Hook Youth Attention",
+                "summary": "Highlighting engaging science communicators on YouTube and TV who explain astrophysics and biology through humor, experiments, and relatable analogies.",
+                "url": "https://www.theguardian.com/media"
               }
             ]
           }
@@ -122495,21 +122495,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Bí quyết rèn luyện để có trí nhớ siêu đẳng và não bộ minh mẫn",
-                "summary": "Áp dụng các kỹ thuật ghi nhớ như sơ đồ tư duy (mind map), cung điện ký ức (memory palace) và lặp lại ngắt quãng (spaced repetition) khi học tập.",
-                "url": "https://vnexpress.net/ky-thuat-ren-luyen-tri-nho-sieu-dang-4597890.html"
+                "title": "Các yếu tố làm tăng nguy cơ suy giảm trí nhớ ở người trẻ",
+                "summary": "Tình trạng thiếu ngủ, căng thẳng kéo dài, làm việc đa nhiệm và lạm dụng thiết bị điện tử là những nguyên nhân chính khiến người trẻ hay quên.",
+                "url": "https://vnexpress.net/cac-yeu-to-lam-tang-nguy-co-suy-giam-tri-nho-o-nguoi-tre-4796229.html"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Cách giảm nguy cơ mất trí nhớ",
+                "summary": "Bác sĩ thần kinh hướng dẫn các bài tập rèn luyện não bộ, phương pháp ghi nhớ bằng hình ảnh và chế độ dinh dưỡng giàu chất chống oxy hóa.",
+                "url": "https://vnexpress.net/cach-giam-nguy-co-mat-tri-nho-4680872.html"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Giấc ngủ sâu: Chìa khóa vàng để củng cố ký ức và tái tạo tế bào não",
-                "summary": "Trong giấc ngủ sâu, não bộ xử lý và sắp xếp thông tin thu nhận trong ngày thành ký ức dài hạn, đồng thời đào thải các độc tố tích tụ.",
-                "url": "https://dantri.com.vn/suc-khoe/giac-ngu-sau-va-nang-cao-tri-nho-20230720102030112.htm"
-              },
-              {
-                "source": "Báo Sức Khỏe & Đời Sống",
-                "title": "Dinh dưỡng tốt cho trí não: Axit béo Omega-3 và chất chống oxy hóa",
-                "summary": "Chế độ ăn giàu cá hồi, các loại hạt óc chó, việt quất và rau lá xanh đậm giúp bảo vệ neuron thần kinh và ngăn ngừa chứng hay quên sớm.",
-                "url": "https://suckhoedoisong.vn/thuc-pham-tang-cuong-tri-nho-cho-hoc-sinh-169230510091520334.htm"
+                "title": "Chuyên mục Tăng cường trí nhớ và sức khỏe não bộ - Dân Trí",
+                "summary": "Tổng hợp các nghiên cứu khoa học về vai trò của giấc ngủ sâu và thói quen đọc sách trong việc củng cố các liên kết nơ-ron thần kinh.",
+                "url": "https://dantri.com.vn/suc-khoe/tri-nho.htm"
               }
             ],
             "en": [
@@ -123464,22 +123464,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Nhân Dân",
-                "title": "Mất rừng tự nhiên và thảm họa sạt lở đất, lũ quét dồn dập",
-                "summary": "Nạn chặt phá rừng làm nương rẫy và khai thác gỗ trái phép phá vỡ lớp phủ thực vật, khiến đất xói mòn và gia tăng thiệt hại kinh hoàng khi mưa bão.",
-                "url": "https://nhandan.vn/mat-rung-va-nguy-co-lu-quet-sat-lo-post790123.html"
-              },
-              {
-                "source": "VietnamPlus",
-                "title": "Tăng cường tuần tra, ứng dụng vệ tinh giám sát bảo vệ rừng đặc dụng",
-                "summary": "Sử dụng camera cảm biến nhiệt và hình ảnh viễn thám để phát hiện sớm các điểm cháy rừng và hành vi xâm lấn lâm phần trái phép.",
-                "url": "https://www.vietnamplus.vn/ung-dung-ve-tinh-giam-sat-bao-ve-rung-post889012.vnp"
+                "source": "VnExpress",
+                "title": "Chủ tịch công ty trồng rừng bị kết tội phá 30.000 m2 rừng",
+                "summary": "Vụ án điển hình về hành vi triệt phá rừng tự nhiên trái phép, gióng lên hồi chuông cảnh báo về trách nhiệm bảo vệ tài nguyên rừng đầu nguồn.",
+                "url": "https://vnexpress.net/chu-tich-cong-ty-trong-rung-bi-ket-toi-pha-30-000-m2-rung-4770058.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Phục hồi rừng đầu nguồn: Trồng cây bản địa và sinh kế bền vững cho người dân",
-                "summary": "Giao khoán bảo vệ rừng gắn với hỗ trợ phát triển kinh tế dưới tán rừng như trồng dược liệu, nuôi ong giúp người dân trở thành lá chắn giữ rừng.",
-                "url": "https://tuoitre.vn/phuc-hoi-rung-dau-nguon-sinh-ke-ben-vung-20231115102030112.htm"
+                "title": "Chuyên đề Phá rừng và bảo vệ tài nguyên rừng - Tuổi Trẻ Online",
+                "summary": "Phóng sự điều tra các điểm nóng phá rừng, xâm lấn đất lâm nghiệp và các nỗ lực của lực lượng kiểm lâm bảo tồn hệ sinh thái đa dạng sinh học.",
+                "url": "https://tuoitre.vn/pha-rung.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Chuyên mục Pháp luật về bảo vệ rừng - Báo Dân Trí",
+                "summary": "Các chế tài xử lý hình sự đối với hành vi lâm tặc chặt phá rừng, khai thác gỗ lậu và các chính sách giao đất giao rừng cho đồng bào địa phương.",
+                "url": "https://dantri.com.vn/phap-luat/pha-rung.htm"
               }
             ],
             "en": [
@@ -123496,10 +123496,10 @@ const ESSAY_DATA = [
                 "url": "https://www.nationalgeographic.com/environment/article/deforestation"
               },
               {
-                "source": "BBC News",
-                "title": "Reforestation and Satellite Tech: How Nations Are Regrowing Their Canopies",
-                "summary": "Inspiring initiatives in Costa Rica and the African Great Green Wall restoring degraded ecosystems through native seed banking and drone planting.",
-                "url": "https://www.bbc.com/news/world-forest-restoration-satellite-tech"
+                "source": "The Guardian",
+                "title": "Forests and Canopy Loss: Global Monitoring and Reforestation",
+                "summary": "Investigating satellite tracking against illegal logging syndicates and government subsidy reforms restoring natural tree covers.",
+                "url": "https://www.theguardian.com/environment/deforestation"
               }
             ]
           }
@@ -124444,22 +124444,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Ngoại ngữ - Chìa khóa vàng hội nhập kinh tế toàn cầu cho thế hệ trẻ",
-                "summary": "Thành thạo ngoại ngữ giúp sinh viên mở rộng cơ hội săn học bổng quốc tế, tiếp cận kho tàng tri thức khoa học và nâng cao năng lực cạnh tranh việc làm.",
-                "url": "https://vnexpress.net/ngoai-ngu-chia-khoa-hoi-nhap-toan-cau-4598901.html"
-              },
-              {
-                "source": "Báo Dân Trí",
-                "title": "Đổi mới phương pháp dạy ngoại ngữ: Chú trọng phản xạ giao tiếp thực tế",
-                "summary": "Thay đổi lối dạy truyền thống nặng ngữ pháp sang phương pháp lấy học sinh làm trung tâm, tăng cường thực hành nói và thảo luận dự án.",
-                "url": "https://dantri.com.vn/giao-duc/doi-moi-phuong-phap-day-va-hoc-ngoai-ngu-20230810102030112.htm"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Mất vài năm lấy bằng tiếng Anh để đổi lấy điều gì?",
+                "summary": "Bàn luận về giá trị thực chất của việc học ngoại ngữ trong kỷ nguyên toàn cầu hóa, mở ra cánh cửa học thuật và phát triển sự nghiệp cá nhân.",
+                "url": "https://tuoitre.vn/mat-vai-nam-lay-bang-tieng-anh-de-doi-lay-dieu-gi-20261108222956247.htm"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Ứng dụng trí tuệ nhân tạo (AI) và ứng dụng di động trong học ngoại ngữ",
-                "summary": "Các nền tảng số hóa giúp học viên vùng sâu vùng xa tiếp cận bài giảng chuẩn bản xứ, cá nhân hóa lộ trình học và tự tin luyện phát âm chuẩn.",
-                "url": "https://tuoitre.vn/ung-dung-ai-trong-hoc-ngoai-ngu-hieu-qua-20231020102030112.htm"
+                "title": "Học văn bằng 2 ngôn ngữ Anh phải đạt C1: Khó đến mức nào?",
+                "summary": "Phân tích chuẩn đầu ra ngoại ngữ tại các trường đại học, sự cần thiết của phương pháp học phản xạ tự nhiên thay vì chỉ luyện thi mẹo.",
+                "url": "https://tuoitre.vn/hoc-van-bang-2-ngon-ngu-anh-phai-dat-c1-kho-den-muc-nao-tuong-duong-ielts-bao-nhieu-20261106222847285.htm"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Chuyên mục Học ngoại ngữ - Báo VnExpress",
+                "summary": "Tổng hợp các bí quyết học từ vựng, ngữ pháp và phát âm tiếng Anh chuẩn bản xứ, hỗ trợ người đi làm nâng cao năng lực cạnh tranh.",
+                "url": "https://vnexpress.net/giao-duc/hoc-ngoai-ngu"
               }
             ],
             "en": [
@@ -125928,22 +125928,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
+                "source": "Báo Dân Trí",
+                "title": "Ví tiền số 'ngủ đông' 11 năm bất ngờ thoát cú lừa 4,6 triệu USD",
+                "summary": "Vụ việc cảnh báo sự tinh vi của các cuộc tấn công lừa đảo trực tuyến (phishing) và đánh cắp thông tin tài chính cá nhân trên không gian mạng.",
+                "url": "https://dantri.com.vn/kinh-doanh/vi-tien-so-ngu-dong-11-nam-bat-ngo-thoat-cu-lua-46-trieu-usd-20261110091807357.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Chuyên đề Cảnh báo các chiêu thức lừa đảo qua mạng xã hội",
+                "summary": "Bộ Công an vạch trần các thủ đoạn giả mạo thương hiệu, bẫy việc làm online và hướng dẫn người dùng bảo vệ tài khoản ngân hàng.",
+                "url": "https://dantri.com.vn/tam-diem/lua-dao-qua-mang-xa-hoi.htm"
+              },
+              {
                 "source": "VnExpress",
-                "title": "Tội phạm mạng tinh vi: Lừa đảo trực tuyến và đánh cắp thông tin cá nhân",
-                "summary": "Các thủ đoạn giả mạo công an, lừa nạp tiền đầu tư ảo và gửi link chứa mã độc qua tin nhắn nhằm chiếm đoạt tài khoản ngân hàng của người dân.",
-                "url": "https://vnexpress.net/thu-doan-tinh-vi-cua-toi-pham-mang-4599012.html"
-              },
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Tấn công mã hóa tống tiền (Ransomware): Hiểm họa với doanh nghiệp và cơ quan nhà nước",
-                "summary": "Hacker xâm nhập hệ thống dữ liệu trọng yếu, làm tê liệt hoạt động kinh doanh và đòi tiền chuộc khổng lồ, đòi hỏi đầu tư mạnh mẽ vào bảo mật mạng.",
-                "url": "https://tuoitre.vn/hiem-hoa-ma-doc-tong-tien-ransomware-20240405102030112.htm"
-              },
-              {
-                "source": "Báo Công An Nhân Dân",
-                "title": "Cảnh giác và trang bị 'vắc-xin số': Bảo vệ an toàn trên không gian mạng",
-                "summary": "Người dùng cần tuyệt đối không chia sẻ mã OTP, bật xác thực hai yếu tố (2FA), thường xuyên cập nhật mật khẩu và nâng cao kỹ năng tự vệ số.",
-                "url": "https://cand.com.vn/an-ninh-mang/trang-bi-ky-nang-tu-ve-tren-khong-gian-mang-i692345/"
+                "title": "Chuyên mục Tội phạm mạng và An ninh thông tin - VnExpress",
+                "summary": "Phân tích các vụ án mã độc tống tiền (ransomware), rò rỉ dữ liệu khách hàng và các khuyến cáo thiết lập xác thực đa yếu tố (2FA).",
+                "url": "https://vnexpress.net/phap-luat/lua-dao"
               }
             ],
             "en": [
@@ -125954,16 +125954,16 @@ const ESSAY_DATA = [
                 "url": "https://www.interpol.int/en/Crimes/Cybercrime"
               },
               {
-                "source": "BBC News",
-                "title": "Inside Cybercrime Gangs: How Hackers Target Critical Infrastructure and Banks",
-                "summary": "Investigative documentary detailing how coordinated spear-phishing campaigns bypass corporate firewalls to steal sensitive customer records.",
-                "url": "https://www.bbc.com/news/technology-cybercrime-ransomware-gangs"
+                "source": "Federal Bureau of Investigation (FBI)",
+                "title": "FBI Internet Crime Report: Emerging Digital Threats and Scams",
+                "summary": "Official annual analysis of cryptocurrency theft, business email compromise, identity theft schemes, and international cyber enforcement.",
+                "url": "https://www.fbi.gov/investigate/cyber"
               },
               {
-                "source": "Forbes",
-                "title": "Cybersecurity Best Practices: Multi-Factor Authentication and Employee Training",
-                "summary": "Expert advice on zero-trust enterprise security architectures, biometric authentication, and regular simulated phishing drills for staff.",
-                "url": "https://www.forbes.com/sites/cybersecurity-zero-trust-best-practices/"
+                "source": "The Guardian",
+                "title": "Cybercrime Epidemic: How Phishing and Ransomware Extort Businesses",
+                "summary": "Investigating corporate data breaches, industrial espionage, and state-backed cyber capabilities targeting healthcare networks.",
+                "url": "https://www.theguardian.com/technology/cybercrime"
               }
             ]
           }
@@ -127148,21 +127148,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Mức độ hài lòng trong công việc: Tiền lương không còn là yếu tố duy nhất",
-                "summary": "Người lao động hiện đại ưu tiên môi trường làm việc cởi mở, lãnh đạo biết ghi nhận, cơ hội đào tạo phát triển và sự cân bằng giữa công việc với cuộc sống.",
-                "url": "https://vnexpress.net/yeu-to-quyet-dinh-muc-do-hai-long-cong-viec-4600123.html"
+                "title": "Vỡ mộng 'làm việc vì đam mê'",
+                "summary": "Nhiều người lao động nhận ra đam mê đơn thuần không đủ duy trì động lực làm việc nếu thiếu thu nhập xứng đáng, sự công nhận và môi trường lành mạnh.",
+                "url": "https://vnexpress.net/vo-mong-lam-viec-vi-dam-me-4965839.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Văn hóa doanh nghiệp độc hại khiến nhân sự giỏi ồ ạt nghỉ việc",
-                "summary": "Tình trạng bắt nạt nơi công sở, giao việc ngoài giờ vô tội vạ và thiếu minh bạch trong thăng tiến là thủ phạm chính gây ra hội chứng kiệt sức (burnout).",
-                "url": "https://tuoitre.vn/van-hoa-cong-ty-doc-hai-va-lan-song-nghi-viec-20230912102030112.htm"
+                "title": "Chuyên mục Việc làm và Đời sống công sở - Tuổi Trẻ Online",
+                "summary": "Khảo sát mức độ gắn bó của nhân viên thế hệ Gen Z, xu hướng đòi hỏi sự cân bằng giữa công việc với cuộc sống (work-life balance).",
+                "url": "https://tuoitre.vn/viec-lam.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Chế độ làm việc linh hoạt và chăm sóc sức khỏe tinh thần cho nhân viên",
-                "summary": "Các công ty tiên phong áp dụng mô hình làm việc kết hợp (hybrid work), chương trình tư vấn tâm lý và hoạt động teambuilding để nâng cao gắn kết nội bộ.",
-                "url": "https://dantri.com.vn/lao-dong-viec-lam/cham-soc-suc-khoe-tinh-than-nhan-vien-20231018091520334.htm"
+                "title": "Chuyên đề Lao động việc làm: Hạnh phúc nơi công sở",
+                "summary": "Bàn về văn hóa doanh nghiệp tôn trọng nhân viên, cơ hội phát triển sự nghiệp và các chính sách chăm lo sức khỏe tinh thần cho người lao động.",
+                "url": "https://dantri.com.vn/lao-dong-viec-lam.htm"
               }
             ],
             "en": [
@@ -127182,7 +127182,7 @@ const ESSAY_DATA = [
                 "source": "The Guardian",
                 "title": "The Four-Day Work Week: Transforming Job Satisfaction and Output",
                 "summary": "Pilot trials in the UK and Portugal demonstrating reduced employee sick leave, eliminated burnout, and sustained revenue performance.",
-                "url": "https://www.theguardian.com/business/four-day-week-trials-workplace-wellbeing"
+                "url": "https://www.theguardian.com/business/workplace"
               }
             ]
           }
@@ -130379,30 +130379,30 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Nhân Dân",
-                "title": "Hiểm họa rác thải nhựa đại dương: Biển cả đang kêu cứu",
-                "summary": "Hàng triệu tấn túi nilon, chai nhựa trôi nổi trên biển bị phân rã thành vi nhựa, đầu độc sinh vật phù du và quay trở lại chuỗi thức ăn của con người.",
-                "url": "https://nhandan.vn/hiem-hoa-rac-thai-nhua-dai-duong-post791234.html"
+                "source": "Báo Tuổi Trẻ",
+                "title": "Phát hiện bãi rác Thái Bình Dương đang phát sáng, có chuyện gì?",
+                "summary": "Nghiên cứu khoa học về sự tích tụ rác thải nhựa khổng lồ trên đại dương, vi sinh vật phát quang bám vào mảnh nhựa và mối đe dọa với sinh vật biển.",
+                "url": "https://tuoitre.vn/phat-hien-bai-rac-thai-binh-duong-dang-phat-sang-co-chuyen-gi-20261106173007554.htm"
               },
               {
-                "source": "VietnamPlus",
-                "title": "Việt Nam hành động quyết liệt giảm thiểu rác thải nhựa đại dương",
-                "summary": "Kế hoạch hành động quốc gia đặt mục tiêu đến năm 2030 giảm 75% lượng rác thải nhựa phát sinh trên biển, cấm sản xuất đồ nhựa dùng một lần khó phân hủy.",
-                "url": "https://www.vietnamplus.vn/ke-hoach-hanh-dong-giam-rac-thai-nhua-dai-duong-post890123.vnp"
+                "source": "VnExpress",
+                "title": "Đảo rác khổng lồ khiến nước Thái Bình Dương đổi màu",
+                "summary": "Hình ảnh vệ tinh ghi lại vòng xoáy rác Thái Bình Dương (Great Pacific Garbage Patch), đe dọa hủy hoại chuỗi thức ăn tự nhiên của rùa biển và chim hải âu.",
+                "url": "https://vnexpress.net/dao-rac-khong-lo-khien-nuoc-thai-binh-duong-doi-mau-4999616.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Mỗi người một tay làm sạch bãi biển và nói không với túi nilon",
-                "summary": "Các phong trào thanh niên tình nguyện nhặt rác bờ biển, thay thế ống hút nhựa bằng tre, giấy và mang túi vải cá nhân khi đi siêu thị.",
-                "url": "https://tuoitre.vn/phong-trao-lam-sach-bien-va-giam-nhua-20230715102030112.htm"
+                "title": "Chuyên mục Rác thải đại dương - Báo Tuổi Trẻ Online",
+                "summary": "Các phong trào thanh niên thu gom rác bãi biển, giảm thiểu đồ nhựa dùng một lần và nỗ lực bảo vệ môi trường biển bền vững.",
+                "url": "https://tuoitre.vn/rac-thai-dai-duong.htm"
               }
             ],
             "en": [
               {
-                "source": "United Nations Environment Programme (UNEP)",
-                "title": "Drowning in Plastics: Marine Litter and Global Treaty Negotiations",
-                "summary": "UN environmental report analyzing marine plastic plumes, microplastic bioaccumulation, and international binding treaty progress.",
-                "url": "https://www.unep.org/resources/report/drowning-plastics-marine-litter-and-plastic-waste-vital-graphics"
+                "source": "The Ocean Cleanup",
+                "title": "Cleaning the Great Pacific Garbage Patch: Ocean Recovery Operations",
+                "summary": "Engineering updates on offshore oceanic barrier systems and river interceptor boats stopping plastic waste before reaching the sea.",
+                "url": "https://theoceancleanup.com/oceans/"
               },
               {
                 "source": "National Geographic",
@@ -130411,10 +130411,10 @@ const ESSAY_DATA = [
                 "url": "https://www.nationalgeographic.com/environment/article/ocean-plastic-pollution"
               },
               {
-                "source": "The Ocean Cleanup",
-                "title": "Cleaning the Great Pacific Garbage Patch: Autonomous Recovery Tech",
-                "summary": "Engineering updates on offshore oceanic barrier systems and river interceptor boats stopping plastic waste before reaching the sea.",
-                "url": "https://theoceancleanup.com/oceans/"
+                "source": "United Nations Environment Programme (UNEP)",
+                "title": "Drowning in Plastics: Marine Litter and Global Treaty Negotiations",
+                "summary": "UN environmental report analyzing marine plastic plumes, microplastic bioaccumulation, and international binding treaty progress.",
+                "url": "https://www.unep.org/resources/report/drowning-plastics-marine-litter-and-plastic-waste-vital-graphics"
               }
             ]
           }
@@ -131650,28 +131650,28 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Người Việt ngày càng thành thạo 'chốt đơn' online: Thói quen tiêu dùng mới",
-                "summary": "Báo cáo thị trường thương mại điện tử Việt Nam cho thấy người tiêu dùng ngày càng ưa chuộng mua sắm trực tuyến nhờ tính tiện lợi vượt trội và đa dạng lựa chọn hàng hóa.",
-                "url": "https://vnexpress.net/nguoi-viet-ngay-cang-thanh-thao-chot-don-online-5129514.html"
+                "title": "Người tiêu dùng chùn tay 'chốt đơn' online",
+                "summary": "Xu hướng người tiêu dùng chuyển từ thói quen mua sắm ngẫu hứng sang cân nhắc kỹ lưỡng về chất lượng, nguồn gốc xuất xứ và độ uy tín của người bán.",
+                "url": "https://vnexpress.net/nguoi-tieu-dung-chun-tay-chot-don-online-4860714.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Bảo vệ dữ liệu, nhận diện dấu hiệu lừa đảo để mua sắm trực tuyến an toàn",
-                "summary": "Cảnh báo các cạm bẫy mua sắm qua mạng, rủi ro hàng giả kém chất lượng và hướng dẫn người tiêu dùng kiểm tra đánh giá cửa hàng uy tín trước khi chuyển khoản.",
-                "url": "https://tuoitre.vn/bao-ve-du-lieu-khi-mua-sam-online-20230315102030112.htm"
+                "title": "Hết thời săn deal giá rẻ, người mua sắm trực tuyến 'chốt đơn' vì an tâm",
+                "summary": "Khảo sát thị trường thương mại điện tử cho thấy tính tiện lợi, dịch vụ giao hàng nhanh và chính sách đổi trả minh bạch là yếu tố quyết định lựa chọn mua hàng.",
+                "url": "https://tuoitre.vn/het-thoi-san-deal-gia-re-nguoi-mua-sam-truc-tuyen-chot-don-vi-an-tam-20261006200257416.htm"
               },
               {
                 "source": "Báo Dân Trí",
-                "title": "Bùng nổ sàn thương mại điện tử và sự thay đổi diện mạo ngành bán lẻ",
-                "summary": "Cạnh tranh khốc liệt giữa các nền tảng số mang lại nhiều chương trình khuyến mãi, giao hàng hỏa tốc, song cũng đặt ra thách thức cho các cửa hàng truyền thống.",
-                "url": "https://dantri.com.vn/kinh-doanh/bung-no-thuong-mai-dien-tu-va-thay-doi-thoi-quen-tieu-dung-20231120093015442.htm"
+                "title": "Người tiêu dùng sớm bắt nhịp mua sắm trực tuyến ngay sau Tết",
+                "summary": "Sự bùng nổ của các ứng dụng mua sắm trên điện thoại di động giúp người dân tiếp cận kho hàng hóa phong phú, so sánh giá cả dễ dàng chỉ bằng vài cú chạm.",
+                "url": "https://dantri.com.vn/kinh-doanh/nguoi-tieu-dung-som-bat-nhip-mua-sam-truc-tuyen-ngay-sau-tet-20260302175924514.htm"
               }
             ],
             "en": [
               {
                 "source": "Pew Research Center",
                 "title": "Online Shopping and Purchasing Preferences: Mobile Habits Survey",
-                "summary": "A nationwide empirical study analyzing how smartphones, one-click checkouts, and customer customer reviews reshape consumer buying behaviors.",
+                "summary": "A nationwide empirical study analyzing how smartphones, one-click checkouts, and customer reviews reshape consumer buying behaviors.",
                 "url": "https://www.pewresearch.org/internet/2016/12/19/online-shopping-and-purchasing-preferences/"
               },
               {
@@ -133167,22 +133167,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Dân Trí",
-                "title": "Trẻ nghiện game bạo lực: Nguy cơ lệch lạc hành vi và giảm sút học tập",
-                "summary": "Việc đắm chìm vào các trò chơi bắn súng, chiến đấu nhiều giờ mỗi ngày khiến trẻ dễ cáu gắt, hung hăng và suy giảm khả năng tương tác xã hội đời thực.",
-                "url": "https://dantri.com.vn/giao-duc/tre-nghien-game-va-nguy-co-lech-lac-hanh-vi-20230525102030112.htm"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Mặt tích cực của trò chơi điện tử lành mạnh: Rèn tư duy chiến thuật và phản xạ",
-                "summary": "Các tựa game giải đố, xây dựng chiến thuật giúp trẻ phát triển óc sáng tạo, khả năng phối hợp tay - mắt và kỹ năng làm việc nhóm nếu chơi có điều độ.",
-                "url": "https://vnexpress.net/mat-tich-cuc-cua-game-dien-tu-doi-voi-tre-4601234.html"
+                "title": "Tôi chơi cùng để giúp con cai nghiện game",
+                "summary": "Kinh nghiệm của phụ huynh trong việc thấu hiểu tâm lý trẻ mê game, đồng hành cùng con thiết lập thời gian biểu hợp lý thay vì quát mắng, cấm đoán.",
+                "url": "https://vnexpress.net/tôi-chơi-cùng-để-giúp-con-cai-nghiện-game-4468641.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Cha mẹ đồng hành quản lý thời gian chơi game của con: Thiết lập quy tắc rõ ràng",
-                "summary": "Thay vì cấm đoán cực đoan, phụ huynh nên cùng con thỏa thuận thời lượng chơi tối đa mỗi ngày và khuyến khích con tham gia các hoạt động thể thao ngoài trời.",
-                "url": "https://tuoitre.vn/quan-ly-thoi-gian-choi-game-cua-tre-20230918102030112.htm"
+                "title": "Chuyên mục Trẻ nghiện game: Hệ lụy và giải pháp - Tuổi Trẻ",
+                "summary": "Cảnh báo từ các chuyên gia tâm lý về chứng nghiện game bạo lực, nguy cơ lệch lạc hành vi, giảm sút kết quả học tập và các bệnh lý về cột sống, mắt.",
+                "url": "https://tuoitre.vn/nghien-game.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Chuyên mục Nghiện game và sức khỏe tâm thần trẻ em - Dân Trí",
+                "summary": "Khuyến cáo phụ huynh tăng cường các hoạt động thể thao ngoài trời, tương tác gia đình để kéo trẻ rời xa màn hình điện thoại, máy tính.",
+                "url": "https://dantri.com.vn/nghien-game.htm"
               }
             ],
             "en": [
@@ -133194,9 +133194,9 @@ const ESSAY_DATA = [
               },
               {
                 "source": "BBC News",
-                "title": "Gaming and Child Development: Finding the Balance Between Fun and Addiction",
+                "title": "Video Games: Are They Really Bad for Children's Behaviour?",
                 "summary": "Exploring screen time limits, World Health Organization gaming disorder criteria, and the social bonding benefits of cooperative online gaming.",
-                "url": "https://www.bbc.com/news/technology-video-games-child-behavior-study"
+                "url": "https://www.bbc.com/news/technology-34280844"
               },
               {
                 "source": "Nature Human Behaviour",
@@ -134658,22 +134658,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Giáo Dục & Thời Đại",
-                "title": "Gắn kết nhà trường và gia đình: Nền tảng vàng cho sự trưởng thành của học sinh",
-                "summary": "Sự trao đổi thường xuyên giữa giáo viên chủ nhiệm và phụ huynh giúp kịp thời phát hiện những bất ổn tâm lý, khó khăn học tập để hỗ trợ học sinh hiệu quả.",
-                "url": "https://giaoducthoidai.vn/gan-ket-nha-truong-va-gia-dinh-post645678.html"
-              },
-              {
                 "source": "VnExpress",
-                "title": "Ứng dụng sổ liên lạc điện tử: Thuận tiện nhưng tránh biến thành áp lực điểm số",
-                "summary": "Các phần mềm kết nối giúp cha mẹ nắm bắt lịch học, thực đơn bán trú nhanh chóng, song không nên lạm dụng để kiểm soát quá đà việc học của con.",
-                "url": "https://vnexpress.net/so-lien-lac-dien-tu-va-su-chia-se-giua-thay-tro-4602345.html"
+                "title": "Bỏ bắt buộc họp phụ huynh ba lần một năm",
+                "summary": "Bộ Giáo dục và Đào tạo đổi mới phương thức liên lạc giữa nhà trường và gia đình, chuyển sang các hình thức trao đổi linh hoạt, thực chất hơn.",
+                "url": "https://vnexpress.net/bo-bat-buoc-hop-phu-huynh-ba-lan-mot-nam-4800366.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Đổi mới họp phụ huynh: Đối thoại tôn trọng thay vì đơn thuần thu các khoản phí",
-                "summary": "Xây dựng các buổi họp phụ huynh mang tính tư vấn giáo dục, lắng nghe tâm tư của cha mẹ và cùng nhau tìm giải pháp phát triển năng khiếu cho từng em.",
-                "url": "https://tuoitre.vn/doi-moi-hop-phu-huynh-doi-thoai-thuc-chat-20231005102030112.htm"
+                "title": "Chuyên mục Họp phụ huynh và gắn kết gia đình - Tuổi Trẻ Online",
+                "summary": "Ý kiến của các bậc cha mẹ và thầy cô về việc xây dựng cầu nối tin cậy, cùng nhau theo dõi sát sao sự tiến bộ và sức khỏe tinh thần của học sinh.",
+                "url": "https://tuoitre.vn/hop-phu-huynh.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Chuyên đề Họp phụ huynh đầu năm học: Đối thoại vì học sinh",
+                "summary": "Các trường học chuyển biến từ việc nặng về thu quỹ sang đối thoại sư phạm, lắng nghe tâm tư và tạo môi trường học tập hạnh phúc cho các em.",
+                "url": "https://dantri.com.vn/chu-de/hop-phu-huynh-dau-nam-hoc-16474.htm"
               }
             ],
             "en": [
@@ -134684,16 +134684,16 @@ const ESSAY_DATA = [
                 "url": "https://www.gse.harvard.edu/ideas/ed-magazine/effective-parent-teacher-communication"
               },
               {
-                "source": "The Guardian",
-                "title": "The School Gate Goes Digital: Apps, Group Chats, and Teacher Workloads",
-                "summary": "Investigating the benefits of messaging platforms for instant parental updates alongside the need to protect teachers' out-of-hours private time.",
-                "url": "https://www.theguardian.com/education/parent-teacher-apps-messaging-boundaries"
-              },
-              {
                 "source": "Edutopia",
                 "title": "Strategies for Productive and Empathetic Parent-Teacher Conferences",
                 "summary": "Practical frameworks for teachers to conduct constructive conferences, share student portfolios, and establish shared developmental targets.",
                 "url": "https://www.edutopia.org/article/parent-teacher-conferences-strategies"
+              },
+              {
+                "source": "The Guardian",
+                "title": "Schools and Families: Collaborative Education in the Digital Era",
+                "summary": "Investigating the benefits of messaging platforms for instant parental updates alongside the need to protect teachers' out-of-hours private time.",
+                "url": "https://www.theguardian.com/education"
               }
             ]
           }
@@ -135647,21 +135647,21 @@ const ESSAY_DATA = [
             "vi": [
               {
                 "source": "VnExpress",
-                "title": "Làm việc tại nhà: Gần gũi con hơn nhưng dễ lẫn lộn ranh giới công việc",
-                "summary": "Cha mẹ có nhiều thời gian ăn cơm cùng con, song áp lực trả lời email và cuộc họp trực tuyến liên tục dễ dẫn đến bực bội và thiếu kiên nhẫn với trẻ.",
-                "url": "https://vnexpress.net/lam-viec-tai-nha-va-moi-quan-he-voi-con-cai-4603456.html"
-              },
-              {
-                "source": "Báo Dân Trí",
-                "title": "Bí quyết cân bằng thời gian khi phụ huynh làm việc từ xa",
-                "summary": "Quy định góc làm việc riêng biệt, thông báo khung giờ tập trung làm việc và dành trọn vẹn thời gian sau giờ làm để cùng con chơi đùa, đọc sách.",
-                "url": "https://dantri.com.vn/nhip-song-tre/bi-quyet-can-bang-khi-phu-huynh-lam-viec-tu-xa-20230612102030112.htm"
+                "title": "Bốn ngày nghỉ lễ có như không vì công ty bắt làm việc ở nhà",
+                "summary": "Thực tế áp lực công việc trực tuyến xâm lấn đời sống gia đình khi làm việc từ xa, khiến cha mẹ bận rộn ngay cả khi ở cạnh con cái.",
+                "url": "https://vnexpress.net/bon-ngay-nghi-le-2-9-co-nhu-khong-vi-cong-ty-bat-lam-viec-o-nha-4934177.html"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Mô hình làm việc kết hợp (Hybrid work): Lựa chọn tối ưu cho gia đình hiện đại",
-                "summary": "Kết hợp linh hoạt giữa làm việc tại văn phòng và ở nhà giúp cha mẹ giảm thời gian kẹt xe, vừa hoàn thành tốt chuyên môn vừa đồng hành cùng con lớn khôn.",
-                "url": "https://tuoitre.vn/mo-hinh-hybrid-work-toi-uu-cho-gia-dinh-20230820102030112.htm"
+                "title": "Chuyên mục Làm việc tại nhà (WFH) - Tuổi Trẻ Online",
+                "summary": "Phản ánh các mô hình làm việc linh hoạt, những lợi ích khi cha mẹ có thêm thời gian bên con và bài toán phân định ranh giới giữa công việc và tổ ấm.",
+                "url": "https://tuoitre.vn/wfh.htm"
+              },
+              {
+                "source": "Báo Dân Trí",
+                "title": "Cái giá đắt của làm việc tại nhà: Vòng xoáy cô lập và trầm cảm",
+                "summary": "Chuyên gia tâm lý phân tích nguy cơ căng thẳng thần kinh khi phải vừa giải quyết công việc công ty vừa chăm sóc con nhỏ trong không gian khép kín.",
+                "url": "https://dantri.com.vn/lao-dong-viec-lam/cai-gia-dat-cua-lam-viec-tai-nhap-vong-xoay-co-lop-va-tram-cam-20260613092248512.htm"
               }
             ],
             "en": [
@@ -136610,21 +136610,21 @@ const ESSAY_DATA = [
                 "vi": [
                   {
                     "source": "VnExpress",
-                    "title": "Làm việc tại nhà: Gần gũi con hơn nhưng dễ lẫn lộn ranh giới công việc",
-                    "summary": "Cha mẹ có nhiều thời gian ăn cơm cùng con, song áp lực trả lời email và cuộc họp trực tuyến liên tục dễ dẫn đến bực bội và thiếu kiên nhẫn với trẻ.",
-                    "url": "https://vnexpress.net/lam-viec-tai-nha-va-moi-quan-he-voi-con-cai-4603456.html"
-                  },
-                  {
-                    "source": "Báo Dân Trí",
-                    "title": "Bí quyết cân bằng thời gian khi phụ huynh làm việc từ xa",
-                    "summary": "Quy định góc làm việc riêng biệt, thông báo khung giờ tập trung làm việc và dành trọn vẹn thời gian sau giờ làm để cùng con chơi đùa, đọc sách.",
-                    "url": "https://dantri.com.vn/nhip-song-tre/bi-quyet-can-bang-khi-phu-huynh-lam-viec-tu-xa-20230612102030112.htm"
+                    "title": "Bốn ngày nghỉ lễ có như không vì công ty bắt làm việc ở nhà",
+                    "summary": "Thực tế áp lực công việc trực tuyến xâm lấn đời sống gia đình khi làm việc từ xa, khiến cha mẹ bận rộn ngay cả khi ở cạnh con cái.",
+                    "url": "https://vnexpress.net/bon-ngay-nghi-le-2-9-co-nhu-khong-vi-cong-ty-bat-lam-viec-o-nha-4934177.html"
                   },
                   {
                     "source": "Báo Tuổi Trẻ",
-                    "title": "Mô hình làm việc kết hợp (Hybrid work): Lựa chọn tối ưu cho gia đình hiện đại",
-                    "summary": "Kết hợp linh hoạt giữa làm việc tại văn phòng và ở nhà giúp cha mẹ giảm thời gian kẹt xe, vừa hoàn thành tốt chuyên môn vừa đồng hành cùng con lớn khôn.",
-                    "url": "https://tuoitre.vn/mo-hinh-hybrid-work-toi-uu-cho-gia-dinh-20230820102030112.htm"
+                    "title": "Chuyên mục Làm việc tại nhà (WFH) - Tuổi Trẻ Online",
+                    "summary": "Phản ánh các mô hình làm việc linh hoạt, những lợi ích khi cha mẹ có thêm thời gian bên con và bài toán phân định ranh giới giữa công việc và tổ ấm.",
+                    "url": "https://tuoitre.vn/wfh.htm"
+                  },
+                  {
+                    "source": "Báo Dân Trí",
+                    "title": "Cái giá đắt của làm việc tại nhà: Vòng xoáy cô lập và trầm cảm",
+                    "summary": "Chuyên gia tâm lý phân tích nguy cơ căng thẳng thần kinh khi phải vừa giải quyết công việc công ty vừa chăm sóc con nhỏ trong không gian khép kín.",
+                    "url": "https://dantri.com.vn/lao-dong-viec-lam/cai-gia-dat-cua-lam-viec-tai-nhap-vong-xoay-co-lop-va-tram-cam-20260613092248512.htm"
                   }
                 ],
                 "en": [
@@ -137541,21 +137541,21 @@ const ESSAY_DATA = [
                 "vi": [
                   {
                     "source": "VnExpress",
-                    "title": "Làm việc tại nhà: Gần gũi con hơn nhưng dễ lẫn lộn ranh giới công việc",
-                    "summary": "Cha mẹ có nhiều thời gian ăn cơm cùng con, song áp lực trả lời email và cuộc họp trực tuyến liên tục dễ dẫn đến bực bội và thiếu kiên nhẫn với trẻ.",
-                    "url": "https://vnexpress.net/lam-viec-tai-nha-va-moi-quan-he-voi-con-cai-4603456.html"
-                  },
-                  {
-                    "source": "Báo Dân Trí",
-                    "title": "Bí quyết cân bằng thời gian khi phụ huynh làm việc từ xa",
-                    "summary": "Quy định góc làm việc riêng biệt, thông báo khung giờ tập trung làm việc và dành trọn vẹn thời gian sau giờ làm để cùng con chơi đùa, đọc sách.",
-                    "url": "https://dantri.com.vn/nhip-song-tre/bi-quyet-can-bang-khi-phu-huynh-lam-viec-tu-xa-20230612102030112.htm"
+                    "title": "Bốn ngày nghỉ lễ có như không vì công ty bắt làm việc ở nhà",
+                    "summary": "Thực tế áp lực công việc trực tuyến xâm lấn đời sống gia đình khi làm việc từ xa, khiến cha mẹ bận rộn ngay cả khi ở cạnh con cái.",
+                    "url": "https://vnexpress.net/bon-ngay-nghi-le-2-9-co-nhu-khong-vi-cong-ty-bat-lam-viec-o-nha-4934177.html"
                   },
                   {
                     "source": "Báo Tuổi Trẻ",
-                    "title": "Mô hình làm việc kết hợp (Hybrid work): Lựa chọn tối ưu cho gia đình hiện đại",
-                    "summary": "Kết hợp linh hoạt giữa làm việc tại văn phòng và ở nhà giúp cha mẹ giảm thời gian kẹt xe, vừa hoàn thành tốt chuyên môn vừa đồng hành cùng con lớn khôn.",
-                    "url": "https://tuoitre.vn/mo-hinh-hybrid-work-toi-uu-cho-gia-dinh-20230820102030112.htm"
+                    "title": "Chuyên mục Làm việc tại nhà (WFH) - Tuổi Trẻ Online",
+                    "summary": "Phản ánh các mô hình làm việc linh hoạt, những lợi ích khi cha mẹ có thêm thời gian bên con và bài toán phân định ranh giới giữa công việc và tổ ấm.",
+                    "url": "https://tuoitre.vn/wfh.htm"
+                  },
+                  {
+                    "source": "Báo Dân Trí",
+                    "title": "Cái giá đắt của làm việc tại nhà: Vòng xoáy cô lập và trầm cảm",
+                    "summary": "Chuyên gia tâm lý phân tích nguy cơ căng thẳng thần kinh khi phải vừa giải quyết công việc công ty vừa chăm sóc con nhỏ trong không gian khép kín.",
+                    "url": "https://dantri.com.vn/lao-dong-viec-lam/cai-gia-dat-cua-lam-viec-tai-nhap-vong-xoay-co-lop-va-tram-cam-20260613092248512.htm"
                   }
                 ],
                 "en": [
@@ -138666,21 +138666,21 @@ const ESSAY_DATA = [
                 "vi": [
                   {
                     "source": "VnExpress",
-                    "title": "Làm việc tại nhà: Gần gũi con hơn nhưng dễ lẫn lộn ranh giới công việc",
-                    "summary": "Cha mẹ có nhiều thời gian ăn cơm cùng con, song áp lực trả lời email và cuộc họp trực tuyến liên tục dễ dẫn đến bực bội và thiếu kiên nhẫn với trẻ.",
-                    "url": "https://vnexpress.net/lam-viec-tai-nha-va-moi-quan-he-voi-con-cai-4603456.html"
-                  },
-                  {
-                    "source": "Báo Dân Trí",
-                    "title": "Bí quyết cân bằng thời gian khi phụ huynh làm việc từ xa",
-                    "summary": "Quy định góc làm việc riêng biệt, thông báo khung giờ tập trung làm việc và dành trọn vẹn thời gian sau giờ làm để cùng con chơi đùa, đọc sách.",
-                    "url": "https://dantri.com.vn/nhip-song-tre/bi-quyet-can-bang-khi-phu-huynh-lam-viec-tu-xa-20230612102030112.htm"
+                    "title": "Bốn ngày nghỉ lễ có như không vì công ty bắt làm việc ở nhà",
+                    "summary": "Thực tế áp lực công việc trực tuyến xâm lấn đời sống gia đình khi làm việc từ xa, khiến cha mẹ bận rộn ngay cả khi ở cạnh con cái.",
+                    "url": "https://vnexpress.net/bon-ngay-nghi-le-2-9-co-nhu-khong-vi-cong-ty-bat-lam-viec-o-nha-4934177.html"
                   },
                   {
                     "source": "Báo Tuổi Trẻ",
-                    "title": "Mô hình làm việc kết hợp (Hybrid work): Lựa chọn tối ưu cho gia đình hiện đại",
-                    "summary": "Kết hợp linh hoạt giữa làm việc tại văn phòng và ở nhà giúp cha mẹ giảm thời gian kẹt xe, vừa hoàn thành tốt chuyên môn vừa đồng hành cùng con lớn khôn.",
-                    "url": "https://tuoitre.vn/mo-hinh-hybrid-work-toi-uu-cho-gia-dinh-20230820102030112.htm"
+                    "title": "Chuyên mục Làm việc tại nhà (WFH) - Tuổi Trẻ Online",
+                    "summary": "Phản ánh các mô hình làm việc linh hoạt, những lợi ích khi cha mẹ có thêm thời gian bên con và bài toán phân định ranh giới giữa công việc và tổ ấm.",
+                    "url": "https://tuoitre.vn/wfh.htm"
+                  },
+                  {
+                    "source": "Báo Dân Trí",
+                    "title": "Cái giá đắt của làm việc tại nhà: Vòng xoáy cô lập và trầm cảm",
+                    "summary": "Chuyên gia tâm lý phân tích nguy cơ căng thẳng thần kinh khi phải vừa giải quyết công việc công ty vừa chăm sóc con nhỏ trong không gian khép kín.",
+                    "url": "https://dantri.com.vn/lao-dong-viec-lam/cai-gia-dat-cua-lam-viec-tai-nhap-vong-xoay-co-lop-va-tram-cam-20260613092248512.htm"
                   }
                 ],
                 "en": [
@@ -141552,22 +141552,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "Báo Xây Dựng",
-                "title": "Tòa nhà văn phòng bằng kính: Thẩm mỹ hiện đại và bài toán tiêu thụ năng lượng",
-                "summary": "Thiết kế tường kính mang lại vẻ sang trọng và tầm nhìn khoáng đạt, song hấp thụ nhiệt lượng mặt trời khổng lồ, làm tăng chi phí điều hòa nhiệt độ.",
-                "url": "https://baoxaydung.vn/toa-nha-kinh-va-bai-toan-tiet-kiem-nang-luong-345678.html"
+                "source": "VnExpress",
+                "title": "Tòa nhà văn phòng lớn nhất thế giới",
+                "summary": "Khám phá kiến trúc các tổ hợp văn phòng hiện đại với thiết kế vách kính đón ánh sáng tự nhiên và các giải pháp điều hòa nhiệt độ thân thiện môi trường.",
+                "url": "https://vnexpress.net/toa-nha-van-phong-lon-nhat-the-gioi-4630718.html"
               },
               {
                 "source": "VnExpress",
-                "title": "Hội chứng bệnh nhà kín (SBS) và thị lực của nhân viên văn phòng",
-                "summary": "Ánh sáng chói lóa phản chiếu qua kính kết hợp với hệ thống thông gió đóng kín khiến nhiều dân công sở bị khô mắt, mỏi mắt và đau đầu thường xuyên.",
-                "url": "https://vnexpress.net/hoi-chung-benh-van-phong-trong-toa-nha-kinh-4604567.html"
+                "title": "Chuyên mục Tòa nhà văn phòng và Bất động sản thương mại - VnExpress",
+                "summary": "Xu hướng xây dựng văn phòng xanh, giải pháp cách nhiệt bằng kính Low-E nhiều lớp giúp giảm nhiệt lượng bức xạ và bảo vệ sức khỏe nhân viên.",
+                "url": "https://vnexpress.net/bat-dong-san/toa-nha-van-phong"
               },
               {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Xu hướng kiến trúc xanh: Kính tiết kiệm năng lượng và vườn treo lọc khí",
-                "summary": "Ứng dụng kính cản nhiệt Low-E hai lớp, lam chắn nắng thông minh và bố trí cây xanh nội khu giúp giảm bức xạ nhiệt và cải thiện sức khỏe người lao động.",
-                "url": "https://tuoitre.vn/kien-truc-xanh-trong-toa-nha-van-phong-kinh-20230925102030112.htm"
+                "title": "Chuyên đề Không gian làm việc hiện đại - Tuổi Trẻ Online",
+                "summary": "Bàn về thiết kế không gian làm việc mở, ảnh hưởng của ánh sáng, thông gió và cây xanh đến tâm trạng và năng suất lao động của dân văn phòng.",
+                "url": "https://tuoitre.vn/khong-gian-lam-viec.htm"
               }
             ],
             "en": [
@@ -141578,16 +141578,16 @@ const ESSAY_DATA = [
                 "url": "https://www.architecturaldigest.com/story/glass-office-buildings-architecture-energy"
               },
               {
-                "source": "BBC News",
-                "title": "Inside the Glass Box: Do Modern Office Towers Harm Workers' Health?",
-                "summary": "Investigating glare fatigue, acoustic reverberation, sick building syndrome, and smart electrochromic glass solutions dimming on demand.",
-                "url": "https://www.bbc.com/worklife/article-glass-office-buildings-health-impact"
-              },
-              {
                 "source": "The Guardian",
                 "title": "The Environmental Cost of Glass Skyscrapers in a Warming World",
                 "summary": "Climate architects evaluate carbon emissions from continuous air conditioning in glass towers, urging retrofits with brise-soleil shades and green louvers.",
                 "url": "https://www.theguardian.com/artanddesign/glass-skyscrapers-energy-climate-crisis"
+              },
+              {
+                "source": "BBC News",
+                "title": "Inside the Modern Office: Acoustics, Natural Daylight, and Wellbeing",
+                "summary": "Investigating glare fatigue, acoustic reverberation, sick building syndrome, and smart electrochromic glass solutions dimming on demand.",
+                "url": "https://www.bbc.com/worklife"
               }
             ]
           }
