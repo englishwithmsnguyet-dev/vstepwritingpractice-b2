@@ -1809,6 +1809,147 @@ input, textarea, button, select {
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.35);
 }
 
+.approach-pill-btn.stance-agree.active {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  border-color: #059669;
+  box-shadow: 0 3px 10px rgba(16, 185, 129, 0.35);
+}
+
+.approach-pill-btn.stance-disagree.active {
+  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
+  border-color: #e11d48;
+  box-shadow: 0 3px 10px rgba(244, 63, 94, 0.35);
+}
+
+/* --- Stance Chooser Card in Step 1 --- */
+.stance-selector-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.stance-selector-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.stance-selector-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.stance-selector-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.45;
+}
+
+.stance-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.stance-card-btn {
+  background: var(--bg-primary);
+  border: 2px solid var(--panel-border);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  position: relative;
+}
+
+.stance-card-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary);
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.12);
+}
+
+.stance-card-btn.stance-agree.active {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.04);
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.15);
+}
+
+.stance-card-btn.stance-disagree.active {
+  border-color: #f43f5e;
+  background: rgba(244, 63, 94, 0.04);
+  box-shadow: 0 4px 16px rgba(244, 63, 94, 0.15);
+}
+
+.stance-icon-bubble {
+  font-size: 1.6rem;
+  line-height: 1;
+  flex-shrink: 0;
+  padding: 0.4rem;
+  border-radius: 12px;
+  background: var(--bg-secondary);
+}
+
+.stance-agree .stance-icon-bubble {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.stance-disagree .stance-icon-bubble {
+  background: rgba(244, 63, 94, 0.1);
+}
+
+.stance-card-info {
+  flex: 1;
+}
+
+.stance-card-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stance-card-sub {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.stance-active-indicator {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stance-agree.active .stance-active-indicator {
+  background: #10b981;
+  color: #fff;
+}
+
+.stance-disagree.active .stance-active-indicator {
+  background: #f43f5e;
+  color: #fff;
+}
+
 /* --- Step Indicator Wizard --- */
 .workspace-step-header {
   display: flex;

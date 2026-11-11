@@ -160483,7 +160483,2740 @@ const ESSAY_DATA = [
         ],
         "id": 1,
         "context_vi": "Điện thoại di động đã trở thành một phần thiết yếu của cuộc sống hàng ngày và được sử dụng rộng rãi để liên lạc, học tập và giải trí. Tuy nhiên, đang có những tranh luận liên tục về việc liệu trẻ nhỏ có nên được phép sử dụng điện thoại di động ở trường hay không. Một số người tin rằng điện thoại di động có thể hỗ trợ học tập và giúp học sinh giữ kết nối với gia đình, trong khi những người khác lập luận rằng chúng có thể gây xao nhãng và ảnh hưởng tiêu cực đến giáo dục và sự phát triển của trẻ.",
-        "prompt_vi": "Bạn đồng ý hay không đồng ý ở mức độ nào với quan điểm rằng điện thoại di động nên bị cấm ở các trường tiểu học? Hãy đưa ra các lý do và ví dụ liên quan để củng cố câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành yêu cầu đề bài, Tổ chức bố cục, Vốn từ vựng và Ngữ pháp."
+        "prompt_vi": "Bạn đồng ý hay không đồng ý ở mức độ nào với quan điểm rằng điện thoại di động nên bị cấm ở các trường tiểu học? Hãy đưa ra các lý do và ví dụ liên quan để củng cố câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành yêu cầu đề bài, Tổ chức bố cục, Vốn từ vựng và Ngữ pháp.",
+        "approaches": [
+          {
+            "name": "HƯỚNG 01: ĐỒNG Ý (AGREE)",
+            "stance": "agree",
+            "tags": "",
+            "paraphrases": [
+              {
+                "en": "Prohibiting mobile phones in primary education",
+                "vi": "Cấm điện thoại di động trong bậc tiểu học"
+              },
+              {
+                "en": "Restricting smartphone usage among elementary pupils",
+                "vi": "Hạn chế sử dụng điện thoại thông minh ở học sinh tiểu học"
+              },
+              {
+                "en": "Implementing a complete ban on hand-held devices at school",
+                "vi": "Áp dụng lệnh cấm hoàn toàn thiết bị cầm tay tại trường học"
+              },
+              {
+                "en": "Creating phone-free classroom environments for young learners",
+                "vi": "Tạo môi trường lớp học không điện thoại cho học sinh nhỏ tuổi"
+              }
+            ],
+            "details": {
+              "vocab": [
+                {
+                  "en": "distract",
+                  "vi": "làm xao nhãng"
+                },
+                {
+                  "en": "focus on ~ concentrate on",
+                  "vi": "tập trung vào"
+                },
+                {
+                  "en": "academic performance",
+                  "vi": "thành tích học tập"
+                },
+                {
+                  "en": "academic results ~ study results",
+                  "vi": "kết quả học tập"
+                },
+                {
+                  "en": "This makes it difficult for + O + to Vo",
+                  "vi": "Điều này khiến ai đó khó khăn làm việc gì đó"
+                },
+                {
+                  "en": "miss",
+                  "vi": "bỏ lỡ"
+                },
+                {
+                  "en": "decline ~ decrease",
+                  "vi": "giảm xuống"
+                },
+                {
+                  "en": "excessive mobile phone use",
+                  "vi": "việc sử dụng điện thoại quá mức"
+                },
+                {
+                  "en": "social skills",
+                  "vi": "kỹ năng xã hội"
+                },
+                {
+                  "en": "face-to-face communication",
+                  "vi": "giao tiếp trực tiếp"
+                },
+                {
+                  "en": "social relationships",
+                  "vi": "các mối quan hệ xã hội"
+                },
+                {
+                  "en": "negatively affect",
+                  "vi": "ảnh hưởng tiêu cực đến"
+                },
+                {
+                  "en": "have difficulty + Ving : gặp khó khăn khi làm gì đó",
+                  "vi": "have difficulty + Ving : gặp khó khăn khi làm gì đó"
+                },
+                {
+                  "en": "to be be negatively affected: bị ảnh hưởng một cách tiêu cực",
+                  "vi": "to be be negatively affected: bị ảnh hưởng một cách tiêu cực"
+                },
+                {
+                  "en": "inappropriate content",
+                  "vi": "nội dung không phù hợp"
+                },
+                {
+                  "en": "mobile phones",
+                  "vi": "điện thoại di động"
+                },
+                {
+                  "en": "access websites",
+                  "vi": "truy cập các trang web"
+                },
+                {
+                  "en": "be suitable for",
+                  "vi": "phù hợp với"
+                },
+                {
+                  "en": "become victims of",
+                  "vi": "trở thành nạn nhân của"
+                },
+                {
+                  "en": "cyberbullying",
+                  "vi": "bắt nạt trực tuyến"
+                },
+                {
+                  "en": "mental health",
+                  "vi": "sức khỏe tinh thần"
+                },
+                {
+                  "en": "ban",
+                  "vi": "cấm"
+                },
+                {
+                  "en": "concentration ~ focus",
+                  "vi": "sự tập trung"
+                },
+                {
+                  "en": "the learning process",
+                  "vi": "quá trình học tập"
+                },
+                {
+                  "en": "tobe distracted by",
+                  "vi": "bị phân tâm bởi"
+                },
+                {
+                  "en": "entertainment applications",
+                  "vi": "ứng dụng giải trí"
+                },
+                {
+                  "en": "absorb knowledge",
+                  "vi": "tiếp thu kiến thức"
+                },
+                {
+                  "en": "learning effectiveness",
+                  "vi": "hiệu quả học tập"
+                },
+                {
+                  "en": "attention",
+                  "vi": "sự chú ý"
+                },
+                {
+                  "en": "a focused learning environment",
+                  "vi": "một môi trường học tập tập trung"
+                },
+                {
+                  "en": "make it + adj + for + O + to Vo: make it + adj + for + O + to Vo",
+                  "vi": "khiến ai đó cảm thấy khó/dễ/... để làm việc gì"
+                },
+                {
+                  "en": "have difficulty + Ving:",
+                  "vi": "gặp khó khăn khi làm việc gì"
+                },
+                {
+                  "en": "struggle to + Vo",
+                  "vi": "gặp nhiều khó khăn/chật vật để làm việc gì"
+                },
+                {
+                  "en": "find it + adj + to Vo",
+                  "vi": "cảm thấy việc làm gì đó khó/dễ/quan trọng để làm"
+                },
+                {
+                  "en": "social development",
+                  "vi": "sự phát triển kỹ năng xã hội"
+                },
+                {
+                  "en": "interact with peers",
+                  "vi": "tương tác với bạn bè"
+                },
+                {
+                  "en": "face-to-face communication",
+                  "vi": "giao tiếp trực tiếp"
+                },
+                {
+                  "en": "real-life social situations",
+                  "vi": "các tình huống xã hội thực tế"
+                },
+                {
+                  "en": "teamwork skills",
+                  "vi": "kỹ năng làm việc nhóm"
+                },
+                {
+                  "en": "cooperation skills",
+                  "vi": "kỹ năng hợp tác"
+                },
+                {
+                  "en": "restrict mobile phones",
+                  "vi": "hạn chế điện thoại di động"
+                },
+                {
+                  "en": "instead of + Ving",
+                  "vi": "thay vì"
+                },
+                {
+                  "en": "reduce opportunities to + Vo",
+                  "vi": "làm giảm cơ hội làm gì"
+                },
+                {
+                  "en": "online risks",
+                  "vi": "các rủi ro trực tuyến"
+                },
+                {
+                  "en": "primary school pupils",
+                  "vi": "học sinh tiểu học"
+                },
+                {
+                  "en": "inappropriate content",
+                  "vi": "nội dung không phù hợp"
+                },
+                {
+                  "en": "cyberbullying",
+                  "vi": "bắt nạt trực tuyến"
+                },
+                {
+                  "en": "online harassment",
+                  "vi": "quấy rối trực tuyến"
+                },
+                {
+                  "en": "mental health",
+                  "vi": "sức khỏe tinh thần"
+                },
+                {
+                  "en": "self-protection skills",
+                  "vi": "kỹ năng tự bảo vệ"
+                },
+                {
+                  "en": "be vulnerable to",
+                  "vi": "dễ bị ảnh hưởng bởi"
+                },
+                {
+                  "en": "harmful information",
+                  "vi": "thông tin có hại"
+                },
+                {
+                  "en": "a reasonable measure ~ a suitable solution",
+                  "vi": "biện pháp hợp lý"
+                },
+                {
+                  "en": "access + N",
+                  "vi": "tiếp cận/truy cập..."
+                },
+                {
+                  "en": "experience + N",
+                  "vi": "trải qua, gặp phải..."
+                }
+              ],
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: GIẢM THIỂU SỰ PHÂN TÂM TRONG HỌC TẬP",
+                    "collocations": [
+                      {
+                        "en": "distract students' attention",
+                        "vi": "làm phân tán sự chú ý của học sinh"
+                      },
+                      {
+                        "en": "significantly degrade",
+                        "vi": "suy giảm đáng kể"
+                      },
+                      {
+                        "en": "learning efficiency",
+                        "vi": "hiệu quả học tập"
+                      },
+                      {
+                        "en": "young learners",
+                        "vi": "học sinh nhỏ tuổi"
+                      },
+                      {
+                        "en": "elementary pupils",
+                        "vi": "học sinh tiểu học"
+                      },
+                      {
+                        "en": "be easily lured by",
+                        "vi": "dễ bị cám dỗ / cuốn vào"
+                      },
+                      {
+                        "en": "social media notifications",
+                        "vi": "thông báo mạng xã hội"
+                      },
+                      {
+                        "en": "constantly distracted",
+                        "vi": "liên tục bị xao nhãng"
+                      },
+                      {
+                        "en": "struggle to absorb",
+                        "vi": "chật vật tiếp thu"
+                      },
+                      {
+                        "en": "retain instructional content",
+                        "vi": "ghi nhớ nội dung bài giảng"
+                      },
+                      {
+                        "en": "enforce a phone ban",
+                        "vi": "thực thi lệnh cấm điện thoại"
+                      },
+                      {
+                        "en": "foster a focused environment",
+                        "vi": "xây dựng môi trường tập trung"
+                      },
+                      {
+                        "en": "disciplined classroom",
+                        "vi": "lớp học có kỷ luật"
+                      }
+                    ],
+                    "point_vi": "Điện thoại di động làm phân tán sự chú ý và suy giảm đáng kể hiệu quả học tập của học sinh nhỏ tuổi.",
+                    "point_en": "Mobile phones distract students' attention and significantly degrade the learning efficiency of young learners.",
+                    "evidence_vi": "Học sinh tiểu học dễ bị cuốn vào các trò chơi điện tử và thông báo mạng xã hội. Khi bị xao nhãng liên tục, các em khó có thể tiếp thu và ghi nhớ bài giảng của giáo viên. Việc cấm thiết bị này giúp tạo ra một môi trường lớp học tập trung và kỷ luật hơn.",
+                    "evidence_en": "Elementary pupils are easily lured by video games and social media notifications. When constantly distracted, they struggle to absorb and retain instructional content. Enforcing a phone ban helps foster a more focused and disciplined classroom environment.",
+                    "point_collocations": [
+                      {
+                        "en": "distract students' attention",
+                        "vi": "làm phân tán sự chú ý của học sinh"
+                      },
+                      {
+                        "en": "significantly degrade",
+                        "vi": "suy giảm đáng kể"
+                      },
+                      {
+                        "en": "learning efficiency",
+                        "vi": "hiệu quả học tập"
+                      },
+                      {
+                        "en": "young learners",
+                        "vi": "học sinh nhỏ tuổi"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "elementary pupils",
+                          "vi": "học sinh tiểu học"
+                        },
+                        {
+                          "en": "be easily lured by",
+                          "vi": "dễ bị cám dỗ / cuốn vào"
+                        },
+                        {
+                          "en": "social media notifications",
+                          "vi": "thông báo mạng xã hội"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "constantly distracted",
+                          "vi": "liên tục bị xao nhãng"
+                        },
+                        {
+                          "en": "struggle to absorb",
+                          "vi": "chật vật tiếp thu"
+                        },
+                        {
+                          "en": "retain instructional content",
+                          "vi": "ghi nhớ nội dung bài giảng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "enforce a phone ban",
+                          "vi": "thực thi lệnh cấm điện thoại"
+                        },
+                        {
+                          "en": "foster a focused environment",
+                          "vi": "xây dựng môi trường tập trung"
+                        },
+                        {
+                          "en": "disciplined classroom",
+                          "vi": "lớp học có kỷ luật"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: PHÁT TRIỂN KỸ NĂNG GIAO TIẾP VÀ HÒA NHẬP XÃ HỘI",
+                    "collocations": [
+                      {
+                        "en": "mobile phone ban",
+                        "vi": "lệnh cấm điện thoại di động"
+                      },
+                      {
+                        "en": "engage in physical activities",
+                        "vi": "tham gia các hoạt động thể chất"
+                      },
+                      {
+                        "en": "direct interpersonal interactions",
+                        "vi": "tương tác trực tiếp giữa người với người"
+                      },
+                      {
+                        "en": "with peers",
+                        "vi": "với bạn bè đồng trang lứa"
+                      },
+                      {
+                        "en": "forge friendships",
+                        "vi": "xây dựng / kết bạn"
+                      },
+                      {
+                        "en": "cultivate social skills",
+                        "vi": "rèn luyện kỹ năng xã hội"
+                      },
+                      {
+                        "en": "active games",
+                        "vi": "trò chơi vận động"
+                      },
+                      {
+                        "en": "stay glued to screens",
+                        "vi": "dán mắt vào màn hình"
+                      },
+                      {
+                        "en": "become socially isolated",
+                        "vi": "trở nên cô lập về mặt xã hội"
+                      },
+                      {
+                        "en": "remove these devices",
+                        "vi": "loại bỏ các thiết bị này"
+                      },
+                      {
+                        "en": "connect with classmates",
+                        "vi": "gắn kết với bạn học"
+                      },
+                      {
+                        "en": "build teamwork abilities",
+                        "vi": "xây dựng khả năng làm việc nhóm"
+                      }
+                    ],
+                    "point_vi": "Lệnh cấm điện thoại thúc đẩy học sinh tham gia các hoạt động thể chất và tương tác trực tiếp với bạn bè.",
+                    "point_en": "A mobile phone ban encourages children to engage in physical activities and direct interpersonal interactions with peers.",
+                    "evidence_vi": "Giờ ra chơi là khoảng thời gian quý báu để trẻ xây dựng tình bạn và rèn luyện kỹ năng xã hội thông qua các trò chơi vận động. Nếu được dùng điện thoại, nhiều em sẽ chỉ dán mắt vào màn hình và trở nên thụ động. Việc loại bỏ thiết bị này giúp học sinh gắn kết và phát triển kỹ năng làm việc nhóm tốt hơn.",
+                    "evidence_en": "Recess is valuable time for children to forge friendships and cultivate social skills through active games. If allowed to use phones, many children simply stay glued to screens and become socially isolated. Removing these devices helps students connect and build teamwork abilities more effectively.",
+                    "point_collocations": [
+                      {
+                        "en": "mobile phone ban",
+                        "vi": "lệnh cấm điện thoại di động"
+                      },
+                      {
+                        "en": "engage in physical activities",
+                        "vi": "tham gia các hoạt động thể chất"
+                      },
+                      {
+                        "en": "direct interpersonal interactions",
+                        "vi": "tương tác trực tiếp giữa người với người"
+                      },
+                      {
+                        "en": "with peers",
+                        "vi": "với bạn bè đồng trang lứa"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "forge friendships",
+                          "vi": "xây dựng / kết bạn"
+                        },
+                        {
+                          "en": "cultivate social skills",
+                          "vi": "rèn luyện kỹ năng xã hội"
+                        },
+                        {
+                          "en": "active games",
+                          "vi": "trò chơi vận động"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "stay glued to screens",
+                          "vi": "dán mắt vào màn hình"
+                        },
+                        {
+                          "en": "become socially isolated",
+                          "vi": "trở nên cô lập về mặt xã hội"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "remove these devices",
+                          "vi": "loại bỏ các thiết bị này"
+                        },
+                        {
+                          "en": "connect with classmates",
+                          "vi": "gắn kết với bạn học"
+                        },
+                        {
+                          "en": "build teamwork abilities",
+                          "vi": "xây dựng khả năng làm việc nhóm"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: BẢO VỆ TRẺ KHỎI NGUY CƠ BẮT NẠT TRỰC TUYẾN",
+                    "collocations": [
+                      {
+                        "en": "ban smartphones",
+                        "vi": "cấm điện thoại thông minh"
+                      },
+                      {
+                        "en": "prevent cyberbullying incidents",
+                        "vi": "ngăn chặn các vụ bắt nạt trên mạng"
+                      },
+                      {
+                        "en": "shield young students from",
+                        "vi": "bảo vệ học sinh nhỏ tuổi khỏi"
+                      },
+                      {
+                        "en": "harmful online content",
+                        "vi": "nội dung độc hại trên mạng"
+                      },
+                      {
+                        "en": "lack the maturity",
+                        "vi": "chưa có đủ sự trưởng thành"
+                      },
+                      {
+                        "en": "critical thinking",
+                        "vi": "tư duy phản biện"
+                      },
+                      {
+                        "en": "safeguard themselves in cyberspace",
+                        "vi": "tự bảo vệ trên không gian mạng"
+                      },
+                      {
+                        "en": "access violent websites",
+                        "vi": "truy cập các trang web bạo lực"
+                      },
+                      {
+                        "en": "fall victim to online harassment",
+                        "vi": "trở thành nạn nhân của quấy rối trên mạng"
+                      },
+                      {
+                        "en": "safe havens",
+                        "vi": "nơi trú ẩn an toàn"
+                      },
+                      {
+                        "en": "completely free from digital threats",
+                        "vi": "hoàn toàn không có các mối đe dọa số"
+                      }
+                    ],
+                    "point_vi": "Cấm điện thoại giúp ngăn chặn hành vi bắt nạt qua mạng và bảo vệ học sinh khỏi các nội dung độc hại.",
+                    "point_en": "Banning smartphones prevents cyberbullying incidents and shields young students from harmful online content.",
+                    "evidence_vi": "Trẻ em tiểu học chưa có đủ nhận thức và kỹ năng để tự bảo vệ mình trên không gian mạng. Các em có thể vô tình truy cập các trang web có nội dung bạo lực hoặc trở thành nạn nhân của việc xúc phạm trực tuyến. Do đó, trường học phải là nơi an toàn và không có các mối đe dọa kỹ thuật số.",
+                    "evidence_en": "Primary students lack the maturity and critical thinking to safeguard themselves in cyberspace. They might accidentally access violent websites or fall victim to online harassment. Therefore, schools must remain safe havens completely free from digital threats.",
+                    "point_collocations": [
+                      {
+                        "en": "ban smartphones",
+                        "vi": "cấm điện thoại thông minh"
+                      },
+                      {
+                        "en": "prevent cyberbullying incidents",
+                        "vi": "ngăn chặn các vụ bắt nạt trên mạng"
+                      },
+                      {
+                        "en": "shield young students from",
+                        "vi": "bảo vệ học sinh nhỏ tuổi khỏi"
+                      },
+                      {
+                        "en": "harmful online content",
+                        "vi": "nội dung độc hại trên mạng"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "lack the maturity",
+                          "vi": "chưa có đủ sự trưởng thành"
+                        },
+                        {
+                          "en": "critical thinking",
+                          "vi": "tư duy phản biện"
+                        },
+                        {
+                          "en": "safeguard themselves in cyberspace",
+                          "vi": "tự bảo vệ trên không gian mạng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "access violent websites",
+                          "vi": "truy cập các trang web bạo lực"
+                        },
+                        {
+                          "en": "fall victim to online harassment",
+                          "vi": "trở thành nạn nhân của quấy rối trên mạng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "safe havens",
+                          "vi": "nơi trú ẩn an toàn"
+                        },
+                        {
+                          "en": "completely free from digital threats",
+                          "vi": "hoàn toàn không có các mối đe dọa số"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: BẢO VỆ THỊ LỰC VÀ SỨC KHỎE THỂ CHẤT CỦA TRẺ",
+                    "collocations": [
+                      {
+                        "en": "limit screen time",
+                        "vi": "hạn chế thời gian nhìn màn hình"
+                      },
+                      {
+                        "en": "prevent myopia",
+                        "vi": "phòng ngừa tật cận thị"
+                      },
+                      {
+                        "en": "musculoskeletal issues",
+                        "vi": "các vấn đề về cơ xương khớp / cột sống"
+                      },
+                      {
+                        "en": "young children",
+                        "vi": "trẻ nhỏ"
+                      },
+                      {
+                        "en": "severe eye strain",
+                        "vi": "mỏi mắt nghiêm trọng"
+                      },
+                      {
+                        "en": "spinal deformities",
+                        "vi": "dị tật / cong vẹo cột sống"
+                      },
+                      {
+                        "en": "in youngsters",
+                        "vi": "ở giới trẻ / trẻ nhỏ"
+                      },
+                      {
+                        "en": "childhood myopia rates",
+                        "vi": "tỷ lệ cận thị ở trẻ em"
+                      },
+                      {
+                        "en": "soar primarily due to",
+                        "vi": "tăng vọt chủ yếu do"
+                      },
+                      {
+                        "en": "excessive exposure to blue light",
+                        "vi": "tiếp xúc quá nhiều với ánh sáng xanh"
+                      },
+                      {
+                        "en": "school prohibition",
+                        "vi": "lệnh cấm ở trường học"
+                      },
+                      {
+                        "en": "allow eyes to rest",
+                        "vi": "cho mắt được nghỉ ngơi"
+                      },
+                      {
+                        "en": "outdoor physical recreation",
+                        "vi": "hoạt động giải trí thể chất ngoài trời"
+                      }
+                    ],
+                    "point_vi": "Hạn chế thời gian nhìn vào màn hình điện thoại giúp phòng ngừa cận thị và các vấn đề về cột sống ở trẻ nhỏ.",
+                    "point_en": "Limiting screen time on mobile phones helps prevent myopia and musculoskeletal issues among young children.",
+                    "evidence_vi": "Việc cúi đầu bấm điện thoại liên tục trong nhiều giờ khiến trẻ dễ bị cong vẹo cột sống và mỏi mắt nghiêm trọng. Tỷ lệ trẻ em bị cận thị học đường đang tăng vọt do tiếp xúc quá nhiều với ánh sáng xanh. Lệnh cấm ở trường tạo điều kiện cho đôi mắt của trẻ được nghỉ ngơi và khuyến khích vận động ngoài trời.",
+                    "evidence_en": "Bending necks over screens for hours causes severe eye strain and spinal deformities in youngsters. Childhood myopia rates are soaring primarily due to excessive exposure to blue light. A school prohibition allows children's eyes to rest and encourages outdoor physical recreation.",
+                    "point_collocations": [
+                      {
+                        "en": "limit screen time",
+                        "vi": "hạn chế thời gian nhìn màn hình"
+                      },
+                      {
+                        "en": "prevent myopia",
+                        "vi": "phòng ngừa tật cận thị"
+                      },
+                      {
+                        "en": "musculoskeletal issues",
+                        "vi": "các vấn đề về cơ xương khớp / cột sống"
+                      },
+                      {
+                        "en": "young children",
+                        "vi": "trẻ nhỏ"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "severe eye strain",
+                          "vi": "mỏi mắt nghiêm trọng"
+                        },
+                        {
+                          "en": "spinal deformities",
+                          "vi": "dị tật / cong vẹo cột sống"
+                        },
+                        {
+                          "en": "in youngsters",
+                          "vi": "ở giới trẻ / trẻ nhỏ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "childhood myopia rates",
+                          "vi": "tỷ lệ cận thị ở trẻ em"
+                        },
+                        {
+                          "en": "soar primarily due to",
+                          "vi": "tăng vọt chủ yếu do"
+                        },
+                        {
+                          "en": "excessive exposure to blue light",
+                          "vi": "tiếp xúc quá nhiều với ánh sáng xanh"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "school prohibition",
+                          "vi": "lệnh cấm ở trường học"
+                        },
+                        {
+                          "en": "allow eyes to rest",
+                          "vi": "cho mắt được nghỉ ngơi"
+                        },
+                        {
+                          "en": "outdoor physical recreation",
+                          "vi": "hoạt động giải trí thể chất ngoài trời"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: ĐẢM BẢO SỰ CÔNG BẰNG VÀ KỶ CƯƠNG TRONG TRƯỜNG HỌC",
+                    "collocations": [
+                      {
+                        "en": "prevent socioeconomic discrimination",
+                        "vi": "ngăn ngừa sự phân biệt kinh tế xã hội"
+                      },
+                      {
+                        "en": "reduce management burdens",
+                        "vi": "giảm thiểu gánh nặng quản lý"
+                      },
+                      {
+                        "en": "for educators",
+                        "vi": "cho các nhà giáo / giáo viên"
+                      },
+                      {
+                        "en": "among students",
+                        "vi": "giữa các học sinh"
+                      },
+                      {
+                        "en": "disparities in expensive brands",
+                        "vi": "chênh lệch về các thương hiệu đắt tiền"
+                      },
+                      {
+                        "en": "foster materialism",
+                        "vi": "tạo ra thói đua đòi vật chất"
+                      },
+                      {
+                        "en": "feelings of inferiority",
+                        "vi": "cảm giác tự ti / mặc cảm"
+                      },
+                      {
+                        "en": "instructors",
+                        "vi": "giáo viên / giảng viên"
+                      },
+                      {
+                        "en": "waste valuable lecture time",
+                        "vi": "lãng phí thời gian giảng dạy quý báu"
+                      },
+                      {
+                        "en": "monitor devices",
+                        "vi": "giám sát thiết bị"
+                      },
+                      {
+                        "en": "reinforce an equitable atmosphere",
+                        "vi": "củng cố bầu không khí bình đẳng"
+                      },
+                      {
+                        "en": "disciplined and cohesive",
+                        "vi": "kỷ luật và gắn kết"
+                      }
+                    ],
+                    "point_vi": "Lệnh cấm điện thoại ngăn ngừa sự phân biệt đối xử và giảm thiểu áp lực quản lý lớp học cho giáo viên.",
+                    "point_en": "A phone ban prevents socioeconomic discrimination among students and reduces management burdens for educators.",
+                    "evidence_vi": "Sự chênh lệch về giá trị của các dòng điện thoại đắt tiền có thể tạo ra thói quen đua đòi và mặc cảm tự ti ở học sinh nghèo. Ngoài ra, giáo viên không còn phải mất thời gian nhắc nhở học sinh cất điện thoại trong giờ học. Điều này giúp thiết lập một môi trường học đường bình đẳng và văn minh hơn.",
+                    "evidence_en": "Disparities in expensive smartphone brands can foster materialism and feelings of inferiority among less privileged pupils. Additionally, instructors no longer waste valuable lecture time confiscating or monitoring devices. This reinforces an equitable, disciplined, and cohesive educational atmosphere.",
+                    "point_collocations": [
+                      {
+                        "en": "prevent socioeconomic discrimination",
+                        "vi": "ngăn ngừa sự phân biệt kinh tế xã hội"
+                      },
+                      {
+                        "en": "reduce management burdens",
+                        "vi": "giảm thiểu gánh nặng quản lý"
+                      },
+                      {
+                        "en": "for educators",
+                        "vi": "cho các nhà giáo / giáo viên"
+                      },
+                      {
+                        "en": "among students",
+                        "vi": "giữa các học sinh"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "disparities in expensive brands",
+                          "vi": "chênh lệch về các thương hiệu đắt tiền"
+                        },
+                        {
+                          "en": "foster materialism",
+                          "vi": "tạo ra thói đua đòi vật chất"
+                        },
+                        {
+                          "en": "feelings of inferiority",
+                          "vi": "cảm giác tự ti / mặc cảm"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "instructors",
+                          "vi": "giáo viên / giảng viên"
+                        },
+                        {
+                          "en": "waste valuable lecture time",
+                          "vi": "lãng phí thời gian giảng dạy quý báu"
+                        },
+                        {
+                          "en": "monitor devices",
+                          "vi": "giám sát thiết bị"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "reinforce an equitable atmosphere",
+                          "vi": "củng cố bầu không khí bình đẳng"
+                        },
+                        {
+                          "en": "disciplined and cohesive",
+                          "vi": "kỷ luật và gắn kết"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: GIẢM THIỂU SỰ PHÂN TÂM TRONG HỌC TẬP",
+                    "collocations": [
+                      {
+                        "en": "distract students' attention",
+                        "vi": "làm phân tán sự chú ý của học sinh"
+                      },
+                      {
+                        "en": "significantly degrade",
+                        "vi": "suy giảm đáng kể"
+                      },
+                      {
+                        "en": "learning efficiency",
+                        "vi": "hiệu quả học tập"
+                      },
+                      {
+                        "en": "young learners",
+                        "vi": "học sinh nhỏ tuổi"
+                      },
+                      {
+                        "en": "elementary pupils",
+                        "vi": "học sinh tiểu học"
+                      },
+                      {
+                        "en": "be easily lured by",
+                        "vi": "dễ bị cám dỗ / cuốn vào"
+                      },
+                      {
+                        "en": "social media notifications",
+                        "vi": "thông báo mạng xã hội"
+                      },
+                      {
+                        "en": "constantly distracted",
+                        "vi": "liên tục bị xao nhãng"
+                      },
+                      {
+                        "en": "struggle to absorb",
+                        "vi": "chật vật tiếp thu"
+                      },
+                      {
+                        "en": "retain instructional content",
+                        "vi": "ghi nhớ nội dung bài giảng"
+                      },
+                      {
+                        "en": "enforce a phone ban",
+                        "vi": "thực thi lệnh cấm điện thoại"
+                      },
+                      {
+                        "en": "foster a focused environment",
+                        "vi": "xây dựng môi trường tập trung"
+                      },
+                      {
+                        "en": "disciplined classroom",
+                        "vi": "lớp học có kỷ luật"
+                      }
+                    ],
+                    "point_vi": "Điện thoại di động làm phân tán sự chú ý và suy giảm đáng kể hiệu quả học tập của học sinh nhỏ tuổi.",
+                    "point_en": "Mobile phones distract students' attention and significantly degrade the learning efficiency of young learners.",
+                    "evidence_vi": "Học sinh tiểu học dễ bị cuốn vào các trò chơi điện tử và thông báo mạng xã hội. Khi bị xao nhãng liên tục, các em khó có thể tiếp thu và ghi nhớ bài giảng của giáo viên. Việc cấm thiết bị này giúp tạo ra một môi trường lớp học tập trung và kỷ luật hơn.",
+                    "evidence_en": "Elementary pupils are easily lured by video games and social media notifications. When constantly distracted, they struggle to absorb and retain instructional content. Enforcing a phone ban helps foster a more focused and disciplined classroom environment.",
+                    "point_collocations": [
+                      {
+                        "en": "distract students' attention",
+                        "vi": "làm phân tán sự chú ý của học sinh"
+                      },
+                      {
+                        "en": "significantly degrade",
+                        "vi": "suy giảm đáng kể"
+                      },
+                      {
+                        "en": "learning efficiency",
+                        "vi": "hiệu quả học tập"
+                      },
+                      {
+                        "en": "young learners",
+                        "vi": "học sinh nhỏ tuổi"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "elementary pupils",
+                          "vi": "học sinh tiểu học"
+                        },
+                        {
+                          "en": "be easily lured by",
+                          "vi": "dễ bị cám dỗ / cuốn vào"
+                        },
+                        {
+                          "en": "social media notifications",
+                          "vi": "thông báo mạng xã hội"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "constantly distracted",
+                          "vi": "liên tục bị xao nhãng"
+                        },
+                        {
+                          "en": "struggle to absorb",
+                          "vi": "chật vật tiếp thu"
+                        },
+                        {
+                          "en": "retain instructional content",
+                          "vi": "ghi nhớ nội dung bài giảng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "enforce a phone ban",
+                          "vi": "thực thi lệnh cấm điện thoại"
+                        },
+                        {
+                          "en": "foster a focused environment",
+                          "vi": "xây dựng môi trường tập trung"
+                        },
+                        {
+                          "en": "disciplined classroom",
+                          "vi": "lớp học có kỷ luật"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: PHÁT TRIỂN KỸ NĂNG GIAO TIẾP VÀ HÒA NHẬP XÃ HỘI",
+                    "collocations": [
+                      {
+                        "en": "mobile phone ban",
+                        "vi": "lệnh cấm điện thoại di động"
+                      },
+                      {
+                        "en": "engage in physical activities",
+                        "vi": "tham gia các hoạt động thể chất"
+                      },
+                      {
+                        "en": "direct interpersonal interactions",
+                        "vi": "tương tác trực tiếp giữa người với người"
+                      },
+                      {
+                        "en": "with peers",
+                        "vi": "với bạn bè đồng trang lứa"
+                      },
+                      {
+                        "en": "forge friendships",
+                        "vi": "xây dựng / kết bạn"
+                      },
+                      {
+                        "en": "cultivate social skills",
+                        "vi": "rèn luyện kỹ năng xã hội"
+                      },
+                      {
+                        "en": "active games",
+                        "vi": "trò chơi vận động"
+                      },
+                      {
+                        "en": "stay glued to screens",
+                        "vi": "dán mắt vào màn hình"
+                      },
+                      {
+                        "en": "become socially isolated",
+                        "vi": "trở nên cô lập về mặt xã hội"
+                      },
+                      {
+                        "en": "remove these devices",
+                        "vi": "loại bỏ các thiết bị này"
+                      },
+                      {
+                        "en": "connect with classmates",
+                        "vi": "gắn kết với bạn học"
+                      },
+                      {
+                        "en": "build teamwork abilities",
+                        "vi": "xây dựng khả năng làm việc nhóm"
+                      }
+                    ],
+                    "point_vi": "Lệnh cấm điện thoại thúc đẩy học sinh tham gia các hoạt động thể chất và tương tác trực tiếp với bạn bè.",
+                    "point_en": "A mobile phone ban encourages children to engage in physical activities and direct interpersonal interactions with peers.",
+                    "evidence_vi": "Giờ ra chơi là khoảng thời gian quý báu để trẻ xây dựng tình bạn và rèn luyện kỹ năng xã hội thông qua các trò chơi vận động. Nếu được dùng điện thoại, nhiều em sẽ chỉ dán mắt vào màn hình và trở nên thụ động. Việc loại bỏ thiết bị này giúp học sinh gắn kết và phát triển kỹ năng làm việc nhóm tốt hơn.",
+                    "evidence_en": "Recess is valuable time for children to forge friendships and cultivate social skills through active games. If allowed to use phones, many children simply stay glued to screens and become socially isolated. Removing these devices helps students connect and build teamwork abilities more effectively.",
+                    "point_collocations": [
+                      {
+                        "en": "mobile phone ban",
+                        "vi": "lệnh cấm điện thoại di động"
+                      },
+                      {
+                        "en": "engage in physical activities",
+                        "vi": "tham gia các hoạt động thể chất"
+                      },
+                      {
+                        "en": "direct interpersonal interactions",
+                        "vi": "tương tác trực tiếp giữa người với người"
+                      },
+                      {
+                        "en": "with peers",
+                        "vi": "với bạn bè đồng trang lứa"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "forge friendships",
+                          "vi": "xây dựng / kết bạn"
+                        },
+                        {
+                          "en": "cultivate social skills",
+                          "vi": "rèn luyện kỹ năng xã hội"
+                        },
+                        {
+                          "en": "active games",
+                          "vi": "trò chơi vận động"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "stay glued to screens",
+                          "vi": "dán mắt vào màn hình"
+                        },
+                        {
+                          "en": "become socially isolated",
+                          "vi": "trở nên cô lập về mặt xã hội"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "remove these devices",
+                          "vi": "loại bỏ các thiết bị này"
+                        },
+                        {
+                          "en": "connect with classmates",
+                          "vi": "gắn kết với bạn học"
+                        },
+                        {
+                          "en": "build teamwork abilities",
+                          "vi": "xây dựng khả năng làm việc nhóm"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: BẢO VỆ TRẺ KHỎI NGUY CƠ BẮT NẠT TRỰC TUYẾN",
+                    "collocations": [
+                      {
+                        "en": "ban smartphones",
+                        "vi": "cấm điện thoại thông minh"
+                      },
+                      {
+                        "en": "prevent cyberbullying incidents",
+                        "vi": "ngăn chặn các vụ bắt nạt trên mạng"
+                      },
+                      {
+                        "en": "shield young students from",
+                        "vi": "bảo vệ học sinh nhỏ tuổi khỏi"
+                      },
+                      {
+                        "en": "harmful online content",
+                        "vi": "nội dung độc hại trên mạng"
+                      },
+                      {
+                        "en": "lack the maturity",
+                        "vi": "chưa có đủ sự trưởng thành"
+                      },
+                      {
+                        "en": "critical thinking",
+                        "vi": "tư duy phản biện"
+                      },
+                      {
+                        "en": "safeguard themselves in cyberspace",
+                        "vi": "tự bảo vệ trên không gian mạng"
+                      },
+                      {
+                        "en": "access violent websites",
+                        "vi": "truy cập các trang web bạo lực"
+                      },
+                      {
+                        "en": "fall victim to online harassment",
+                        "vi": "trở thành nạn nhân của quấy rối trên mạng"
+                      },
+                      {
+                        "en": "safe havens",
+                        "vi": "nơi trú ẩn an toàn"
+                      },
+                      {
+                        "en": "completely free from digital threats",
+                        "vi": "hoàn toàn không có các mối đe dọa số"
+                      }
+                    ],
+                    "point_vi": "Cấm điện thoại giúp ngăn chặn hành vi bắt nạt qua mạng và bảo vệ học sinh khỏi các nội dung độc hại.",
+                    "point_en": "Banning smartphones prevents cyberbullying incidents and shields young students from harmful online content.",
+                    "evidence_vi": "Trẻ em tiểu học chưa có đủ nhận thức và kỹ năng để tự bảo vệ mình trên không gian mạng. Các em có thể vô tình truy cập các trang web có nội dung bạo lực hoặc trở thành nạn nhân của việc xúc phạm trực tuyến. Do đó, trường học phải là nơi an toàn và không có các mối đe dọa kỹ thuật số.",
+                    "evidence_en": "Primary students lack the maturity and critical thinking to safeguard themselves in cyberspace. They might accidentally access violent websites or fall victim to online harassment. Therefore, schools must remain safe havens completely free from digital threats.",
+                    "point_collocations": [
+                      {
+                        "en": "ban smartphones",
+                        "vi": "cấm điện thoại thông minh"
+                      },
+                      {
+                        "en": "prevent cyberbullying incidents",
+                        "vi": "ngăn chặn các vụ bắt nạt trên mạng"
+                      },
+                      {
+                        "en": "shield young students from",
+                        "vi": "bảo vệ học sinh nhỏ tuổi khỏi"
+                      },
+                      {
+                        "en": "harmful online content",
+                        "vi": "nội dung độc hại trên mạng"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "lack the maturity",
+                          "vi": "chưa có đủ sự trưởng thành"
+                        },
+                        {
+                          "en": "critical thinking",
+                          "vi": "tư duy phản biện"
+                        },
+                        {
+                          "en": "safeguard themselves in cyberspace",
+                          "vi": "tự bảo vệ trên không gian mạng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "access violent websites",
+                          "vi": "truy cập các trang web bạo lực"
+                        },
+                        {
+                          "en": "fall victim to online harassment",
+                          "vi": "trở thành nạn nhân của quấy rối trên mạng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "safe havens",
+                          "vi": "nơi trú ẩn an toàn"
+                        },
+                        {
+                          "en": "completely free from digital threats",
+                          "vi": "hoàn toàn không có các mối đe dọa số"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: BẢO VỆ THỊ LỰC VÀ SỨC KHỎE THỂ CHẤT CỦA TRẺ",
+                    "collocations": [
+                      {
+                        "en": "limit screen time",
+                        "vi": "hạn chế thời gian nhìn màn hình"
+                      },
+                      {
+                        "en": "prevent myopia",
+                        "vi": "phòng ngừa tật cận thị"
+                      },
+                      {
+                        "en": "musculoskeletal issues",
+                        "vi": "các vấn đề về cơ xương khớp / cột sống"
+                      },
+                      {
+                        "en": "young children",
+                        "vi": "trẻ nhỏ"
+                      },
+                      {
+                        "en": "severe eye strain",
+                        "vi": "mỏi mắt nghiêm trọng"
+                      },
+                      {
+                        "en": "spinal deformities",
+                        "vi": "dị tật / cong vẹo cột sống"
+                      },
+                      {
+                        "en": "in youngsters",
+                        "vi": "ở giới trẻ / trẻ nhỏ"
+                      },
+                      {
+                        "en": "childhood myopia rates",
+                        "vi": "tỷ lệ cận thị ở trẻ em"
+                      },
+                      {
+                        "en": "soar primarily due to",
+                        "vi": "tăng vọt chủ yếu do"
+                      },
+                      {
+                        "en": "excessive exposure to blue light",
+                        "vi": "tiếp xúc quá nhiều với ánh sáng xanh"
+                      },
+                      {
+                        "en": "school prohibition",
+                        "vi": "lệnh cấm ở trường học"
+                      },
+                      {
+                        "en": "allow eyes to rest",
+                        "vi": "cho mắt được nghỉ ngơi"
+                      },
+                      {
+                        "en": "outdoor physical recreation",
+                        "vi": "hoạt động giải trí thể chất ngoài trời"
+                      }
+                    ],
+                    "point_vi": "Hạn chế thời gian nhìn vào màn hình điện thoại giúp phòng ngừa cận thị và các vấn đề về cột sống ở trẻ nhỏ.",
+                    "point_en": "Limiting screen time on mobile phones helps prevent myopia and musculoskeletal issues among young children.",
+                    "evidence_vi": "Việc cúi đầu bấm điện thoại liên tục trong nhiều giờ khiến trẻ dễ bị cong vẹo cột sống và mỏi mắt nghiêm trọng. Tỷ lệ trẻ em bị cận thị học đường đang tăng vọt do tiếp xúc quá nhiều với ánh sáng xanh. Lệnh cấm ở trường tạo điều kiện cho đôi mắt của trẻ được nghỉ ngơi và khuyến khích vận động ngoài trời.",
+                    "evidence_en": "Bending necks over screens for hours causes severe eye strain and spinal deformities in youngsters. Childhood myopia rates are soaring primarily due to excessive exposure to blue light. A school prohibition allows children's eyes to rest and encourages outdoor physical recreation.",
+                    "point_collocations": [
+                      {
+                        "en": "limit screen time",
+                        "vi": "hạn chế thời gian nhìn màn hình"
+                      },
+                      {
+                        "en": "prevent myopia",
+                        "vi": "phòng ngừa tật cận thị"
+                      },
+                      {
+                        "en": "musculoskeletal issues",
+                        "vi": "các vấn đề về cơ xương khớp / cột sống"
+                      },
+                      {
+                        "en": "young children",
+                        "vi": "trẻ nhỏ"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "severe eye strain",
+                          "vi": "mỏi mắt nghiêm trọng"
+                        },
+                        {
+                          "en": "spinal deformities",
+                          "vi": "dị tật / cong vẹo cột sống"
+                        },
+                        {
+                          "en": "in youngsters",
+                          "vi": "ở giới trẻ / trẻ nhỏ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "childhood myopia rates",
+                          "vi": "tỷ lệ cận thị ở trẻ em"
+                        },
+                        {
+                          "en": "soar primarily due to",
+                          "vi": "tăng vọt chủ yếu do"
+                        },
+                        {
+                          "en": "excessive exposure to blue light",
+                          "vi": "tiếp xúc quá nhiều với ánh sáng xanh"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "school prohibition",
+                          "vi": "lệnh cấm ở trường học"
+                        },
+                        {
+                          "en": "allow eyes to rest",
+                          "vi": "cho mắt được nghỉ ngơi"
+                        },
+                        {
+                          "en": "outdoor physical recreation",
+                          "vi": "hoạt động giải trí thể chất ngoài trời"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: ĐẢM BẢO SỰ CÔNG BẰNG VÀ KỶ CƯƠNG TRONG TRƯỜNG HỌC",
+                    "collocations": [
+                      {
+                        "en": "prevent socioeconomic discrimination",
+                        "vi": "ngăn ngừa sự phân biệt kinh tế xã hội"
+                      },
+                      {
+                        "en": "reduce management burdens",
+                        "vi": "giảm thiểu gánh nặng quản lý"
+                      },
+                      {
+                        "en": "for educators",
+                        "vi": "cho các nhà giáo / giáo viên"
+                      },
+                      {
+                        "en": "among students",
+                        "vi": "giữa các học sinh"
+                      },
+                      {
+                        "en": "disparities in expensive brands",
+                        "vi": "chênh lệch về các thương hiệu đắt tiền"
+                      },
+                      {
+                        "en": "foster materialism",
+                        "vi": "tạo ra thói đua đòi vật chất"
+                      },
+                      {
+                        "en": "feelings of inferiority",
+                        "vi": "cảm giác tự ti / mặc cảm"
+                      },
+                      {
+                        "en": "instructors",
+                        "vi": "giáo viên / giảng viên"
+                      },
+                      {
+                        "en": "waste valuable lecture time",
+                        "vi": "lãng phí thời gian giảng dạy quý báu"
+                      },
+                      {
+                        "en": "monitor devices",
+                        "vi": "giám sát thiết bị"
+                      },
+                      {
+                        "en": "reinforce an equitable atmosphere",
+                        "vi": "củng cố bầu không khí bình đẳng"
+                      },
+                      {
+                        "en": "disciplined and cohesive",
+                        "vi": "kỷ luật và gắn kết"
+                      }
+                    ],
+                    "point_vi": "Lệnh cấm điện thoại ngăn ngừa sự phân biệt đối xử và giảm thiểu áp lực quản lý lớp học cho giáo viên.",
+                    "point_en": "A phone ban prevents socioeconomic discrimination among students and reduces management burdens for educators.",
+                    "evidence_vi": "Sự chênh lệch về giá trị của các dòng điện thoại đắt tiền có thể tạo ra thói quen đua đòi và mặc cảm tự ti ở học sinh nghèo. Ngoài ra, giáo viên không còn phải mất thời gian nhắc nhở học sinh cất điện thoại trong giờ học. Điều này giúp thiết lập một môi trường học đường bình đẳng và văn minh hơn.",
+                    "evidence_en": "Disparities in expensive smartphone brands can foster materialism and feelings of inferiority among less privileged pupils. Additionally, instructors no longer waste valuable lecture time confiscating or monitoring devices. This reinforces an equitable, disciplined, and cohesive educational atmosphere.",
+                    "point_collocations": [
+                      {
+                        "en": "prevent socioeconomic discrimination",
+                        "vi": "ngăn ngừa sự phân biệt kinh tế xã hội"
+                      },
+                      {
+                        "en": "reduce management burdens",
+                        "vi": "giảm thiểu gánh nặng quản lý"
+                      },
+                      {
+                        "en": "for educators",
+                        "vi": "cho các nhà giáo / giáo viên"
+                      },
+                      {
+                        "en": "among students",
+                        "vi": "giữa các học sinh"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "disparities in expensive brands",
+                          "vi": "chênh lệch về các thương hiệu đắt tiền"
+                        },
+                        {
+                          "en": "foster materialism",
+                          "vi": "tạo ra thói đua đòi vật chất"
+                        },
+                        {
+                          "en": "feelings of inferiority",
+                          "vi": "cảm giác tự ti / mặc cảm"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "instructors",
+                          "vi": "giáo viên / giảng viên"
+                        },
+                        {
+                          "en": "waste valuable lecture time",
+                          "vi": "lãng phí thời gian giảng dạy quý báu"
+                        },
+                        {
+                          "en": "monitor devices",
+                          "vi": "giám sát thiết bị"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "reinforce an equitable atmosphere",
+                          "vi": "củng cố bầu không khí bình đẳng"
+                        },
+                        {
+                          "en": "disciplined and cohesive",
+                          "vi": "kỷ luật và gắn kết"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "sample_b1": "In recent years, the idea that <strong><em>mobile phones should be banned in primary schools</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong>mobile phones can distract students during classes</strong>. This is because students may use mobile phones to play games or watch videos during lessons. This makes it difficult for them to focus on teachers' lessons. Besides, they may miss important information in class. As a result, their academic performance may decline.\n\nAnother important reason is that <strong>excessive mobile phone use may affect children's social skills</strong>. In fact, many pupils spend more time looking at screens than talking to friends. This reduces opportunities for face-to-face communication with others. Therefore, they may have difficulty building social relationships. In addition, teamwork skills may be negatively affected.\n\nA further reason supporting my viewpoint is that <strong>mobile phones can create online risks for children</strong>. This means that children may see inappropriate content on mobile phones. They may also access websites that are not suitable for their age. Moreover, some children may become victims of cyberbullying. This may negatively affect their mental health. Therefore, banning mobile phones in primary schools is necessary.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>mobile phones should be banned in primary schools.</em></strong> The reasons above clearly explain why I support this viewpoint. Therefore, people should think about this issue carefully in modern education.",
+              "sample_b2": "In recent years, the idea that <strong><em>mobile phones should be banned in primary schools</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons</strong>. This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong>mobile phones can reduce students' concentration during the learning proces</strong>s. To begin with, students may be distracted by games, social media, or entertainment applications. These distractions can make it harder for students to absorb new knowledge effectively. When attention is divided, learning effectiveness often decreases significantly. In addition, teachers may have difficulty managing the classroom effectively. Therefore, banning mobile phones can help create a more focused learning environment.\n\nAnother important reason is that <strong>frequent mobile phone use may limit children's social</strong> <strong>development</strong>. Many students spend time online instead of interacting with their peers. As a result, this reduces opportunities to practice face-to-face communication. They may become less confident in real-life social situations. Furthermore, teamwork and cooperation skills may also be affected significantly. Therefore, restricting mobile phones at school can support children's social development.\n\nA further reason supporting my viewpoint is that <strong>mobile phones may cause primary school pupils to face various online risks</strong>. For example, children may access content that is inappropriate for their age. Some pupils may also experience cyberbullying or online harassment. These problems may negatively affect children's mental health. Moreover, because their ability to protect themselves is still limited, children can be easily influenced by harmful information. For this reason, banning mobile phones in primary schools is a reasonable measure.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>mobile phones should be banned in primary schools</em></strong>. The arguments presented above clearly explain why I support this viewpoint. Therefore, this opinion should be considered carefully in modern society.",
+              "translation_b1": "Trong những năm gần đây, ý kiến cho rằng <strong><em>điện thoại di động nên bị cấm ở các trường tiểu học</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Từ góc nhìn của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài viết này sẽ trình bày những lập luận chính để ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong>điện thoại di động có thể làm học sinh xao nhãng trong giờ học</strong>. Điều này là do học sinh có thể sử dụng điện thoại để chơi game hoặc xem video trong giờ học. Điều này khiến các em khó tập trung vào bài giảng của giáo viên. Bên cạnh đó, các em có thể bỏ lỡ những thông tin quan trọng trong lớp. Kết quả là thành tích học tập của các em có thể bị giảm sút.\n\nMột lý do quan trọng khác là <strong>việc sử dụng điện thoại quá mức có thể ảnh hưởng đến kỹ năng xã hội của trẻ em</strong>. Trên thực tế, nhiều học sinh dành nhiều thời gian nhìn vào màn hình hơn là trò chuyện với bạn bè. Điều này làm giảm cơ hội giao tiếp trực tiếp với người khác. Do đó, các em có thể gặp khó khăn trong việc xây dựng các mối quan hệ xã hội. Ngoài ra, kỹ năng làm việc nhóm cũng có thể bị ảnh hưởng một cách tiêu cực.\n\nMột lý do khác ủng hộ quan điểm của tôi là <strong>điện thoại di động có thể tạo ra những rủi ro trực tuyến cho trẻ em</strong>. Điều này có nghĩa là trẻ em có thể xem những nội dung không phù hợp trên điện thoại di động. Các em cũng có thể truy cập các trang web không phù hợp với lứa tuổi của mình. Hơn nữa, một số trẻ em có thể trở thành nạn nhân của nạn bắt nạt trực tuyến. Điều này có thể ảnh hưởng tiêu cực đến sức khỏe tinh thần của các em. Vì vậy, việc cấm điện thoại di động ở các trường tiểu học là cần thiết.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>điện thoại di động nên bị cấm ở các trường tiểu học.</em></strong> Các lý do nêu trên đã giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Do đó, mọi người nên suy nghĩ kỹ về vấn đề này trong nền giáo dục hiện đại.",
+              "translation_b2": "Trong những năm gần đây, ý kiến cho rằng <strong><em>điện thoại di động nên bị cấm ở các trường tiểu học</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Từ góc nhìn của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng</strong>. Bài viết này sẽ trình bày những lập luận chính nhằm ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong>điện thoại di động có thể làm giảm sự tập trung của học sinh trong quá trình học tập</strong>. Trước hết, học sinh có thể bị phân tâm bởi các trò chơi, mạng xã hội hoặc các ứng dụng giải trí. Những tác nhân gây xao nhãng này có thể khiến học sinh khó tiếp thu kiến thức mới một cách hiệu quả. Khi sự chú ý bị chia sẻ, hiệu quả học tập thường giảm đi đáng kể. Ngoài ra, giáo viên có thể gặp khó khăn trong việc quản lý lớp học một cách hiệu quả. Do đó, việc cấm điện thoại di động có thể giúp tạo ra một môi trường học tập tập trung hơn.\n\nMột lý do quan trọng khác là <strong>việc sử dụng điện thoại thường xuyên có thể hạn chế sự phát triển xã hội của trẻ em</strong>. Nhiều học sinh dành thời gian trực tuyến thay vì tương tác với bạn bè đồng trang lứa. Hệ quả là, điều này làm giảm cơ hội thực hành giao tiếp trực tiếp. Các em có thể trở nên thiếu tự tin trong các tình huống xã hội thực tế. Hơn nữa, kỹ năng làm việc nhóm và hợp tác cũng có thể bị ảnh hưởng một cách đáng kể. Vì vậy, việc hạn chế sử dụng điện thoại ở trường học có thể hỗ trợ sự phát triển xã hội của trẻ.\n\nMột lý do khác ủng hộ quan điểm của tôi là <strong>điện thoại di động có thể khiến học sinh tiểu học phải đối mặt với nhiều rủi ro trực tuyến khác nhau</strong>. Ví dụ, trẻ em có thể tiếp cận những nội dung không phù hợp với lứa tuổi của mình. Một số học sinh cũng có thể gặp phải tình trạng bắt nạt trực tuyến hoặc quấy rối trên mạng. Những vấn đề này có thể ảnh hưởng tiêu cực đến sức khỏe tinh thần của trẻ. Hơn nữa, vì khả năng tự bảo vệ của các em còn hạn chế, trẻ em dễ bị tác động bởi các thông tin độc hại. Vì lý do này, cấm điện thoại di động ở trường tiểu học là một biện pháp hợp lý.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>điện thoại di động nên bị cấm ở các trường tiểu học</em></strong>. Các lập luận được trình bày ở trên đã giải thích rõ ràng lý do tại sao tôi ủng hộ quan điểm này. Do đó, ý kiến này nên được xem xét một cách cẩn trọng trong xã hội hiện đại.",
+              "key_vocab_notes": [
+                {
+                  "en": "distract",
+                  "vi": "làm xao nhãng"
+                },
+                {
+                  "en": "focus on ~ concentrate on",
+                  "vi": "tập trung vào"
+                },
+                {
+                  "en": "academic performance",
+                  "vi": "thành tích học tập"
+                },
+                {
+                  "en": "academic results ~ study results",
+                  "vi": "kết quả học tập"
+                },
+                {
+                  "en": "This makes it difficult for + O + to Vo",
+                  "vi": "Điều này khiến ai đó khó khăn làm việc gì đó"
+                },
+                {
+                  "en": "miss",
+                  "vi": "bỏ lỡ"
+                },
+                {
+                  "en": "decline ~ decrease",
+                  "vi": "giảm xuống"
+                },
+                {
+                  "en": "excessive mobile phone use",
+                  "vi": "việc sử dụng điện thoại quá mức"
+                },
+                {
+                  "en": "social skills",
+                  "vi": "kỹ năng xã hội"
+                },
+                {
+                  "en": "face-to-face communication",
+                  "vi": "giao tiếp trực tiếp"
+                },
+                {
+                  "en": "social relationships",
+                  "vi": "các mối quan hệ xã hội"
+                },
+                {
+                  "en": "negatively affect",
+                  "vi": "ảnh hưởng tiêu cực đến"
+                },
+                {
+                  "en": "have difficulty + Ving : gặp khó khăn khi làm gì đó",
+                  "vi": "have difficulty + Ving : gặp khó khăn khi làm gì đó"
+                },
+                {
+                  "en": "to be be negatively affected: bị ảnh hưởng một cách tiêu cực",
+                  "vi": "to be be negatively affected: bị ảnh hưởng một cách tiêu cực"
+                },
+                {
+                  "en": "inappropriate content",
+                  "vi": "nội dung không phù hợp"
+                },
+                {
+                  "en": "mobile phones",
+                  "vi": "điện thoại di động"
+                },
+                {
+                  "en": "access websites",
+                  "vi": "truy cập các trang web"
+                },
+                {
+                  "en": "be suitable for",
+                  "vi": "phù hợp với"
+                },
+                {
+                  "en": "become victims of",
+                  "vi": "trở thành nạn nhân của"
+                },
+                {
+                  "en": "cyberbullying",
+                  "vi": "bắt nạt trực tuyến"
+                },
+                {
+                  "en": "mental health",
+                  "vi": "sức khỏe tinh thần"
+                },
+                {
+                  "en": "ban",
+                  "vi": "cấm"
+                },
+                {
+                  "en": "concentration ~ focus",
+                  "vi": "sự tập trung"
+                },
+                {
+                  "en": "the learning process",
+                  "vi": "quá trình học tập"
+                },
+                {
+                  "en": "tobe distracted by",
+                  "vi": "bị phân tâm bởi"
+                },
+                {
+                  "en": "entertainment applications",
+                  "vi": "ứng dụng giải trí"
+                },
+                {
+                  "en": "absorb knowledge",
+                  "vi": "tiếp thu kiến thức"
+                },
+                {
+                  "en": "learning effectiveness",
+                  "vi": "hiệu quả học tập"
+                },
+                {
+                  "en": "attention",
+                  "vi": "sự chú ý"
+                },
+                {
+                  "en": "a focused learning environment",
+                  "vi": "một môi trường học tập tập trung"
+                },
+                {
+                  "en": "make it + adj + for + O + to Vo: make it + adj + for + O + to Vo",
+                  "vi": "khiến ai đó cảm thấy khó/dễ/... để làm việc gì"
+                },
+                {
+                  "en": "have difficulty + Ving:",
+                  "vi": "gặp khó khăn khi làm việc gì"
+                },
+                {
+                  "en": "struggle to + Vo",
+                  "vi": "gặp nhiều khó khăn/chật vật để làm việc gì"
+                },
+                {
+                  "en": "find it + adj + to Vo",
+                  "vi": "cảm thấy việc làm gì đó khó/dễ/quan trọng để làm"
+                },
+                {
+                  "en": "social development",
+                  "vi": "sự phát triển kỹ năng xã hội"
+                },
+                {
+                  "en": "interact with peers",
+                  "vi": "tương tác với bạn bè"
+                },
+                {
+                  "en": "face-to-face communication",
+                  "vi": "giao tiếp trực tiếp"
+                },
+                {
+                  "en": "real-life social situations",
+                  "vi": "các tình huống xã hội thực tế"
+                },
+                {
+                  "en": "teamwork skills",
+                  "vi": "kỹ năng làm việc nhóm"
+                },
+                {
+                  "en": "cooperation skills",
+                  "vi": "kỹ năng hợp tác"
+                },
+                {
+                  "en": "restrict mobile phones",
+                  "vi": "hạn chế điện thoại di động"
+                },
+                {
+                  "en": "instead of + Ving",
+                  "vi": "thay vì"
+                },
+                {
+                  "en": "reduce opportunities to + Vo",
+                  "vi": "làm giảm cơ hội làm gì"
+                },
+                {
+                  "en": "online risks",
+                  "vi": "các rủi ro trực tuyến"
+                },
+                {
+                  "en": "primary school pupils",
+                  "vi": "học sinh tiểu học"
+                },
+                {
+                  "en": "inappropriate content",
+                  "vi": "nội dung không phù hợp"
+                },
+                {
+                  "en": "cyberbullying",
+                  "vi": "bắt nạt trực tuyến"
+                },
+                {
+                  "en": "online harassment",
+                  "vi": "quấy rối trực tuyến"
+                },
+                {
+                  "en": "mental health",
+                  "vi": "sức khỏe tinh thần"
+                },
+                {
+                  "en": "self-protection skills",
+                  "vi": "kỹ năng tự bảo vệ"
+                },
+                {
+                  "en": "be vulnerable to",
+                  "vi": "dễ bị ảnh hưởng bởi"
+                },
+                {
+                  "en": "harmful information",
+                  "vi": "thông tin có hại"
+                },
+                {
+                  "en": "a reasonable measure ~ a suitable solution",
+                  "vi": "biện pháp hợp lý"
+                },
+                {
+                  "en": "access + N",
+                  "vi": "tiếp cận/truy cập..."
+                },
+                {
+                  "en": "experience + N",
+                  "vi": "trải qua, gặp phải..."
+                }
+              ],
+              "vocab_step": {
+                "theme": "Mobile Phones in Primary Schools (Điện thoại di động ở trường tiểu học)",
+                "overview": "Từ vựng và cấu trúc diễn đạt học thuật chuẩn VSTEP về cấm điện thoại di động trong trường tiểu học.",
+                "single_words": [
+                  {
+                    "word": "distract",
+                    "ipa": "/dɪˈstrækt/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "làm xao nhãng",
+                    "example_en": "Mobile devices easily distract young children from their lessons.",
+                    "example_vi": "Thiết bị di động dễ dàng làm trẻ nhỏ xao nhãng khỏi bài học.",
+                    "family": "distraction (n), distracting (adj)"
+                  },
+                  {
+                    "word": "concentrate",
+                    "ipa": "/ˈkɒn.sən.treɪt/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "tập trung",
+                    "example_en": "Pupils find it difficult to concentrate when notifications arrive.",
+                    "example_vi": "Học sinh cảm thấy khó tập trung khi có thông báo đến.",
+                    "family": "concentration (n)"
+                  },
+                  {
+                    "word": "discipline",
+                    "ipa": "/ˈdɪs.ə.plɪn/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "kỷ luật",
+                    "example_en": "A phone ban helps teachers maintain better classroom discipline.",
+                    "example_vi": "Lệnh cấm điện thoại giúp giáo viên duy trì kỷ luật lớp học tốt hơn.",
+                    "family": "disciplinary (adj)"
+                  },
+                  {
+                    "word": "academic",
+                    "ipa": "/ˌæk.əˈdem.ɪk/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "thuộc về học tập",
+                    "example_en": "Constant phone use severely degrades academic achievement.",
+                    "example_vi": "Dùng điện thoại liên tục làm giảm nghiêm trọng thành tích học tập.",
+                    "family": "academia (n)"
+                  },
+                  {
+                    "word": "prohibit",
+                    "ipa": "/prəˈhɪb.ɪt/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "cấm chính thức",
+                    "example_en": "Several countries prohibit smartphone use during school hours.",
+                    "example_vi": "Nhiều quốc gia cấm sử dụng điện thoại thông minh trong giờ học.",
+                    "family": "prohibition (n)"
+                  },
+                  {
+                    "word": "interaction",
+                    "ipa": "/ˌɪn.təˈræk.ʃən/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "sự tương tác",
+                    "example_en": "Banning devices encourages direct social interaction during recess.",
+                    "example_vi": "Cấm thiết bị khuyến khích sự tương tác xã hội trực tiếp trong giờ ra chơi.",
+                    "family": "interact (v)"
+                  },
+                  {
+                    "word": "cyberbullying",
+                    "ipa": "/ˈsaɪ.bəˌbʊl.i.ɪŋ/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "bắt nạt trên mạng",
+                    "example_en": "Schools must shield young learners from online cyberbullying.",
+                    "example_vi": "Nhà trường phải bảo vệ học sinh nhỏ tuổi khỏi nạn bắt nạt trên mạng.",
+                    "family": "cyberbully (n/v)"
+                  },
+                  {
+                    "word": "vulnerable",
+                    "ipa": "/ˈvʌl.nər.ə.bəl/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "dễ bị tổn thương",
+                    "example_en": "Primary students are exceptionally vulnerable to harmful digital content.",
+                    "example_vi": "Học sinh tiểu học đặc biệt dễ bị tổn thương trước nội dung độc hại trên mạng.",
+                    "family": "vulnerability (n)"
+                  },
+                  {
+                    "word": "inappropriate",
+                    "ipa": "/ˌɪn.əˈprəʊ.pri.ət/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "không phù hợp",
+                    "example_en": "Unfiltered Internet access exposes children to inappropriate material.",
+                    "example_vi": "Internet không chọn lọc khiến trẻ tiếp xúc nội dung không phù hợp.",
+                    "family": "appropriately (adv)"
+                  },
+                  {
+                    "word": "sedentary",
+                    "ipa": "/ˈsed.ən.tər.i/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "ít vận động",
+                    "example_en": "Excessive screen time promotes a sedentary lifestyle.",
+                    "example_vi": "Dùng màn hình quá mức thúc đẩy lối sống thụ động, ít vận động.",
+                    "family": "sedentariness (n)"
+                  },
+                  {
+                    "word": "supervision",
+                    "ipa": "/ˌsuː.pəˈvɪʒ.ən/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "sự giám sát",
+                    "example_en": "Without parental supervision, pupils browse games all day.",
+                    "example_vi": "Nếu thiếu sự giám sát, học sinh sẽ chơi game suốt ngày.",
+                    "family": "supervise (v)"
+                  },
+                  {
+                    "word": "socialization",
+                    "ipa": "/ˌsəʊ.ʃəl.aɪˈzeɪ.ʃən/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự hòa nhập xã hội",
+                    "example_en": "Recess is essential for normal childhood socialization.",
+                    "example_vi": "Giờ ra chơi rất cần thiết cho sự hòa nhập xã hội của trẻ nhỏ.",
+                    "family": "socialize (v)"
+                  },
+                  {
+                    "word": "detrimental",
+                    "ipa": "/ˌdet.rɪˈmen.təl/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "có hại",
+                    "example_en": "Unregulated smartphone use has a detrimental impact on cognitive progress.",
+                    "example_vi": "Dùng điện thoại không kiểm soát có tác động gây hại đến sự tiến bộ nhận thức.",
+                    "family": "detriment (n)"
+                  },
+                  {
+                    "word": "restriction",
+                    "ipa": "/rɪˈstrɪk.ʃən/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "quy định giới hạn",
+                    "example_en": "Authorities are considering strict restrictions on mobile devices.",
+                    "example_vi": "Các nhà chức trách đang cân nhắc quy định giới hạn nghiêm ngặt đối với thiết bị di động.",
+                    "family": "restrict (v)"
+                  },
+                  {
+                    "word": "addiction",
+                    "ipa": "/əˈdɪk.ʃən/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "sự nghiện, lệ thuộc",
+                    "example_en": "Phone addiction causes severe attention deficits in children.",
+                    "example_vi": "Nghiện điện thoại gây ra tình trạng giảm chú ý nghiêm trọng ở trẻ em.",
+                    "family": "addict (n), addictive (adj)"
+                  }
+                ],
+                "collocation_groups": [
+                  {
+                    "id": "group_1",
+                    "name": "Nhóm 1: Tác động tiêu cực đến học tập & Kỷ luật",
+                    "icon": "⚠️",
+                    "badge": "Academic Focus",
+                    "items": [
+                      {
+                        "en": "distract students from lessons",
+                        "vi": "làm học sinh xao nhãng khỏi bài học",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Ringing phones distract students from lessons.",
+                        "example_vi": "Tiếng chuông điện thoại làm học sinh xao nhãng khỏi bài học."
+                      },
+                      {
+                        "en": "impair academic performance",
+                        "vi": "làm giảm sút thành tích học tập",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Multitasking on mobile apps will severely impair academic performance.",
+                        "example_vi": "Dùng nhiều ứng dụng cùng lúc sẽ làm giảm sút kết quả học tập."
+                      },
+                      {
+                        "en": "maintain classroom discipline",
+                        "vi": "duy trì kỷ luật phòng học",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Teachers maintain classroom discipline more easily without electronic screens.",
+                        "example_vi": "Giáo viên duy trì kỷ luật lớp học dễ dàng hơn khi không có màn hình điện tử."
+                      },
+                      {
+                        "en": "create a focused learning environment",
+                        "vi": "tạo dựng một môi trường học tập tập trung",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "A phone ban helps create a focused learning environment.",
+                        "example_vi": "Lệnh cấm điện thoại giúp tạo dựng môi trường học tập tập trung."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "group_2",
+                    "name": "Nhóm 2: Kỹ năng xã hội & Rủi ro trực tuyến",
+                    "icon": "🛡️",
+                    "badge": "Social & Safety",
+                    "items": [
+                      {
+                        "en": "practice face-to-face communication",
+                        "vi": "thực hành giao tiếp trực tiếp",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Children practice face-to-face communication during breaks.",
+                        "example_vi": "Trẻ em thực hành giao tiếp trực tiếp trong giờ nghỉ."
+                      },
+                      {
+                        "en": "be exposed to cyberbullying",
+                        "vi": "bị phơi nhiễm trước nạn bắt nạt trực tuyến",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Young pupils might be exposed to cyberbullying on online platforms.",
+                        "example_vi": "Học sinh nhỏ tuổi có thể bị bắt nạt mạng trên các nền tảng trực tuyến."
+                      },
+                      {
+                        "en": "access age-inappropriate content",
+                        "vi": "tiếp cận nội dung không phù hợp lứa tuổi",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Unrestricted Internet allows children to access age-inappropriate content.",
+                        "example_vi": "Internet không giới hạn cho phép trẻ tiếp cận nội dung không phù hợp lứa tuổi."
+                      },
+                      {
+                        "en": "engage in physical activities",
+                        "vi": "tham gia các hoạt động thể chất",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Pupils eagerly engage in outdoor physical activities.",
+                        "example_vi": "Học sinh háo hức tham gia các hoạt động thể chất ngoài trời."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "reference_articles": {
+                "vi": [
+                  {
+                    "source": "VnExpress",
+                    "title": "Tranh cãi cấm điện thoại trong trường học",
+                    "summary": "Các chuyên gia giáo dục phân tích tác động tiêu cực của điện thoại đối với mức độ tập trung và hành vi của học sinh nhỏ tuổi.",
+                    "url": "https://vnexpress.net/tranh-cai-cam-dien-thoai-trong-truong-hoc-4795328.html"
+                  },
+                  {
+                    "source": "Báo Tuổi Trẻ",
+                    "title": "Cấm học sinh dùng điện thoại trong lớp: Nhiều nước làm, Việt Nam nên theo?",
+                    "summary": "Kinh nghiệm quốc tế từ Pháp, Anh và Hà Lan trong việc ban hành luật cấm điện thoại tại trường phổ thông.",
+                    "url": "https://tuoitre.vn/cam-hoc-sinh-dung-dien-thoai-trong-lop-nhieu-nuoc-lam-viet-nam-nen-theo-20240921102945763.htm"
+                  },
+                  {
+                    "source": "Báo Dân Trí",
+                    "title": "Học sinh sử dụng điện thoại trong lớp: Lợi bất cập hại",
+                    "summary": "Cảnh báo nguy cơ nghiện màn hình điện tử, giảm thị lực và thiếu hụt kỹ năng giao tiếp trực tiếp ở trẻ em tiểu học.",
+                    "url": "https://dantri.com.vn/giao-duc/hoc-sinh-su-dung-dien-thoai-trong-lop-loi-bat-cap-hai-20240924083645312.htm"
+                  }
+                ],
+                "en": [
+                  {
+                    "source": "UNESCO",
+                    "title": "Smartphones in schools: Only when they support learning",
+                    "summary": "UNESCO global report calls for strict smartphone regulations in schools to protect student focus and reduce cyberbullying.",
+                    "url": "https://www.unesco.org/en/articles/smartphones-schools-only-when-they-support-learning"
+                  },
+                  {
+                    "source": "The Guardian",
+                    "title": "Ban smartphones in schools to protect mental health and reduce distraction, UN says",
+                    "summary": "United Nations study links excessive screen time in schools to degraded academic performance among children.",
+                    "url": "https://www.theguardian.com/world/2023/jul/26/un-smartphones-school-ban-children-learning"
+                  },
+                  {
+                    "source": "BBC News",
+                    "title": "Mobile phones in schools: What does the evidence say?",
+                    "summary": "Research synthesis demonstrating that banning mobile devices in classrooms leads to measurable increases in test scores.",
+                    "url": "https://www.bbc.com/news/education-67018029"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "HƯỚNG 02: KHÔNG ĐỒNG Ý (DISAGREE)",
+            "stance": "disagree",
+            "tags": "",
+            "paraphrases": [
+              {
+                "en": "Prohibiting mobile phones in primary education",
+                "vi": "Cấm điện thoại di động trong bậc tiểu học"
+              },
+              {
+                "en": "Restricting smartphone usage among elementary pupils",
+                "vi": "Hạn chế sử dụng điện thoại thông minh ở học sinh tiểu học"
+              },
+              {
+                "en": "Implementing a complete ban on hand-held devices at school",
+                "vi": "Áp dụng lệnh cấm hoàn toàn thiết bị cầm tay tại trường học"
+              },
+              {
+                "en": "Creating phone-free classroom environments for young learners",
+                "vi": "Tạo môi trường lớp học không điện thoại cho học sinh nhỏ tuổi"
+              }
+            ],
+            "details": {
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: KÊNH LIÊN LẠC KHẨN CẤP VÀ ĐẢM BẢO AN TOÀN TRÊN ĐƯỜNG",
+                    "point_vi": "Điện thoại di động là phương tiện thiết yếu giúp học sinh giữ liên lạc với phụ huynh trong các tình huống khẩn cấp và bảo đảm an toàn trên đường đi học.",
+                    "point_en": "Mobile phones serve as an indispensable lifeline for pupils to maintain urgent communication with parents during emergencies and guarantee transit safety.",
+                    "point_collocations": [
+                      {
+                        "en": "indispensable lifeline",
+                        "vi": "kênh liên lạc thiết yếu"
+                      },
+                      {
+                        "en": "maintain urgent communication",
+                        "vi": "duy trì liên lạc khẩn cấp"
+                      },
+                      {
+                        "en": "guarantee transit safety",
+                        "vi": "bảo đảm an toàn khi đi lại"
+                      },
+                      {
+                        "en": "elementary pupils",
+                        "vi": "học sinh tiểu học"
+                      }
+                    ],
+                    "evidence_vi": "Nhiều học sinh tiểu học ngày nay tự đi học bằng phương tiện công cộng hoặc phải chờ phụ huynh đón muộn sau giờ học. Trong trường hợp xảy ra tai nạn, lạc đường hoặc thời tiết xấu đột ngột, việc sở hữu điện thoại giúp các em nhanh chóng gọi trợ giúp từ gia đình. Lệnh cấm hoàn toàn có thể vô tình tước đoạt công cụ bảo vệ an ninh thiết yếu này của trẻ.",
+                    "evidence_en": "Many elementary students commute independently using public transit or await parental pickup after extracurricular sessions. In adverse events such as road accidents, route disorientation, or sudden inclement weather, carrying a mobile phone enables children to swiftly summon familial assistance. A blanket ban could inadvertently deprive young learners of this crucial personal security measure.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "commute independently",
+                          "vi": "tự đi lại một mình"
+                        },
+                        {
+                          "en": "public transit",
+                          "vi": "phương tiện giao thông công cộng"
+                        },
+                        {
+                          "en": "await parental pickup",
+                          "vi": "chờ phụ huynh đón"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "adverse events",
+                          "vi": "các biến cố bất trắc"
+                        },
+                        {
+                          "en": "route disorientation",
+                          "vi": "lạc đường"
+                        },
+                        {
+                          "en": "inclement weather",
+                          "vi": "thời tiết khắc nghiệt"
+                        },
+                        {
+                          "en": "swiftly summon assistance",
+                          "vi": "nhanh chóng gọi trợ giúp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "a blanket ban",
+                          "vi": "lệnh cấm toàn diện"
+                        },
+                        {
+                          "en": "inadvertently deprive of",
+                          "vi": "vô tình tước đoạt đi"
+                        },
+                        {
+                          "en": "crucial personal security measure",
+                          "vi": "biện pháp an toàn cá nhân cốt yếu"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: TẬN DỤNG CÁC ỨNG DỤNG HỌC TẬP TƯƠNG TÁC",
+                    "point_vi": "Điện thoại thông minh mang lại cơ hội tiếp cận trực tiếp các ứng dụng giáo dục tương tác và tài liệu tham khảo phong phú.",
+                    "point_en": "Smartphones provide direct access to interactive educational applications and diverse digital reference materials during lessons.",
+                    "point_collocations": [
+                      {
+                        "en": "direct access",
+                        "vi": "tiếp cận trực tiếp"
+                      },
+                      {
+                        "en": "interactive educational applications",
+                        "vi": "các ứng dụng giáo dục tương tác"
+                      },
+                      {
+                        "en": "digital reference materials",
+                        "vi": "tài liệu tham khảo kỹ thuật số"
+                      }
+                    ],
+                    "evidence_vi": "Giáo viên có thể tận dụng thiết bị để tổ chức các trò chơi đố vui kiến thức trực tuyến và bài tập tìm kiếm thông tin theo nhóm. Các phần mềm học từ vựng và toán học bằng hình ảnh động kích thích sự hào hứng và tò mò tự nhiên của học sinh. Việc tích hợp công nghệ hợp lý giúp biến giờ học truyền thống thành trải nghiệm sinh động và hấp dẫn hơn.",
+                    "evidence_en": "Educators can utilize mobile devices to conduct interactive knowledge quizzes and collaborative web research assignments. Gamified learning software with vibrant animations sparks students' natural curiosity and enthusiasm for complex subjects. Integrating technology prudently transforms conventional lectures into engaging, student-centered learning experiences.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "utilize mobile devices",
+                          "vi": "sử dụng các thiết bị di động"
+                        },
+                        {
+                          "en": "interactive knowledge quizzes",
+                          "vi": "các bài đố vui kiến thức tương tác"
+                        },
+                        {
+                          "en": "collaborative web research assignments",
+                          "vi": "bài tập nghiên cứu mạng theo nhóm"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "gamified learning software",
+                          "vi": "phần mềm học tập dưới dạng trò chơi"
+                        },
+                        {
+                          "en": "vibrant animations",
+                          "vi": "hình ảnh hoạt họa sinh động"
+                        },
+                        {
+                          "en": "spark natural curiosity",
+                          "vi": "khơi gợi trí tò mò tự nhiên"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "integrate technology prudently",
+                          "vi": "tích hợp công nghệ một cách khôn ngoan"
+                        },
+                        {
+                          "en": "conventional lectures",
+                          "vi": "các bài giảng truyền thống"
+                        },
+                        {
+                          "en": "student-centered learning experiences",
+                          "vi": "trải nghiệm học tập lấy học sinh làm trung tâm"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: RÈN LUYỆN NĂNG LỰC SỐ VÀ TỰ ĐIỀU CHỈNH TỪ SỚM",
+                    "point_vi": "Hướng dẫn học sinh sử dụng điện thoại đúng cách giúp các em xây dựng năng lực số và thói quen tự điều chỉnh hành vi từ sớm.",
+                    "point_en": "Guiding students to use mobile devices responsibly fosters early digital literacy and essential self-regulatory habits.",
+                    "point_collocations": [
+                      {
+                        "en": "use mobile devices responsibly",
+                        "vi": "sử dụng thiết bị di động có trách nhiệm"
+                      },
+                      {
+                        "en": "foster early digital literacy",
+                        "vi": "xây dựng năng lực số từ sớm"
+                      },
+                      {
+                        "en": "self-regulatory habits",
+                        "vi": "thói quen tự điều chỉnh hành vi"
+                      }
+                    ],
+                    "evidence_vi": "Thay vì trốn tránh công nghệ bằng các lệnh cấm gắt gao, nhà trường nên dạy trẻ cách quản lý thời gian sử dụng màn hình và nhận diện thông tin lành mạnh. Khi được trao quyền tự chủ có giám sát, học sinh sẽ hình thành ý thức kỷ luật tự giác khi bước vào thời đại số. Đây là kỹ năng sinh tồn thiết yếu mà các biện pháp cấm đoán đơn thuần không thể mang lại.",
+                    "evidence_en": "Rather than evading technology through rigid prohibitions, schools should instruct children on moderating screen time and evaluating digital content critically. When granted supervised autonomy, pupils develop internal self-discipline and discernment in digital environments. This constitutes a fundamental life skill that outright bans fail to cultivate.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "rigid prohibitions",
+                          "vi": "những lệnh cấm cứng nhắc"
+                        },
+                        {
+                          "en": "moderate screen time",
+                          "vi": "kiểm soát thời gian dùng màn hình"
+                        },
+                        {
+                          "en": "evaluate digital content critically",
+                          "vi": "đánh giá nội dung số một cách phản biện"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "supervised autonomy",
+                          "vi": "quyền tự chủ có giám sát"
+                        },
+                        {
+                          "en": "internal self-discipline",
+                          "vi": "tính tự giác kỷ luật nội tại"
+                        },
+                        {
+                          "en": "digital environments",
+                          "vi": "môi trường kỹ thuật số"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "fundamental life skill",
+                          "vi": "kỹ năng sống nền tảng"
+                        },
+                        {
+                          "en": "outright bans",
+                          "vi": "những lệnh cấm hoàn toàn"
+                        },
+                        {
+                          "en": "fail to cultivate",
+                          "vi": "không thể nuôi dưỡng được"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: ĐỊNH VỊ GPS VÀ HỖ TRỢ PHỤ HUYNH THEO DÕI TỪ XA",
+                    "point_vi": "Tính năng định vị thời gian thực trên điện thoại giúp phụ huynh dễ dàng giám sát vị trí và đảm bảo an toàn cho con nhỏ.",
+                    "point_en": "Real-time GPS location features on mobile phones allow parents to monitor their children's whereabouts and alleviate safety anxieties.",
+                    "point_collocations": [
+                      {
+                        "en": "real-time GPS location features",
+                        "vi": "tính năng định vị GPS thời gian thực"
+                      },
+                      {
+                        "en": "monitor children's whereabouts",
+                        "vi": "giám sát nơi chốn / hành trình của con"
+                      },
+                      {
+                        "en": "alleviate safety anxieties",
+                        "vi": "giảm bớt lo lắng về an toàn"
+                      }
+                    ],
+                    "evidence_vi": "Phụ huynh có thể sử dụng các ứng dụng giám sát để xác nhận học sinh đã đến trường an toàn hoặc đang trên đường về nhà. Điều này mang lại sự an tâm to lớn cho những gia đình có lịch làm việc bận rộn và không thể trực tiếp đưa đón con em. Nếu điện thoại bị cấm hoàn toàn, phụ huynh sẽ mất đi phương thức kiểm tra an ninh từ xa hữu hiệu này.",
+                    "evidence_en": "Parents can employ monitoring applications to confirm that their children have reached campus safely or are en route home. This provides immense peace of mind for families juggling demanding work schedules without the flexibility for direct daily supervision. Prohibiting phones altogether would eliminate this practical channel of remote safety verification.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "employ monitoring applications",
+                          "vi": "sử dụng ứng dụng giám sát"
+                        },
+                        {
+                          "en": "reach campus safely",
+                          "vi": "đến trường an toàn"
+                        },
+                        {
+                          "en": "en route home",
+                          "vi": "trên đường về nhà"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "immense peace of mind",
+                          "vi": "sự an tâm to lớn"
+                        },
+                        {
+                          "en": "juggle demanding work schedules",
+                          "vi": "bận rộn với lịch trình công việc dày đặc"
+                        },
+                        {
+                          "en": "direct daily supervision",
+                          "vi": "sự giám sát trực tiếp hàng ngày"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "prohibit phones altogether",
+                          "vi": "cấm điện thoại hoàn toàn"
+                        },
+                        {
+                          "en": "eliminate this practical channel",
+                          "vi": "triệt tiêu kênh liên lạc thực tế này"
+                        },
+                        {
+                          "en": "remote safety verification",
+                          "vi": "xác minh an toàn từ xa"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: ĐỔI MỚI QUY CHẾ QUẢN LÝ THAY VÌ ÁP ĐẶT LỆNH CẤM TOÀN DIỆN",
+                    "point_vi": "Nhà trường nên áp dụng các quy chế quản lý thông minh thay vì ban hành một lệnh cấm mang tính cực đoan và khó khả thi.",
+                    "point_en": "Schools should implement sensible usage policies rather than enforcing an extreme and impractical total ban.",
+                    "point_collocations": [
+                      {
+                        "en": "implement sensible usage policies",
+                        "vi": "áp dụng các quy chế sử dụng hợp lý"
+                      },
+                      {
+                        "en": "enforce an extreme total ban",
+                        "vi": "thực thi một lệnh cấm cực đoan toàn diện"
+                      },
+                      {
+                        "en": "impractical total ban",
+                        "vi": "lệnh cấm thiếu tính khả thi"
+                      }
+                    ],
+                    "evidence_vi": "Các cơ sở giáo dục có thể yêu cầu học sinh cất điện thoại vào hộp đựng chuyên dụng hoặc chuyển sang chế độ im lặng trong suốt giờ giảng. Thiết bị chỉ được phép sử dụng trong các hoạt động học tập có chỉ định hoặc giờ giải lao dưới sự quản lý của giáo viên. Mô hình quản lý linh hoạt này giải quyết triệt để nguy cơ xao nhãng mà vẫn bảo toàn mọi lợi ích thực tiễn của công nghệ.",
+                    "evidence_en": "Educational institutions can instruct pupils to place phones into designated storage lockers or activate silent mode during instructional periods. Devices are permitted solely during supervised educational activities or urgent personal calls at recess. This balanced regulatory approach eliminates classroom distractions while preserving the tangible advantages of contemporary telecommunications.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "educational institutions",
+                          "vi": "các cơ sở giáo dục"
+                        },
+                        {
+                          "en": "designated storage lockers",
+                          "vi": "tủ / hộp đựng chuyên dụng"
+                        },
+                        {
+                          "en": "instructional periods",
+                          "vi": "các tiết học / giờ giảng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "supervised educational activities",
+                          "vi": "các hoạt động học tập có giám sát"
+                        },
+                        {
+                          "en": "urgent personal calls",
+                          "vi": "các cuộc gọi cá nhân khẩn cấp"
+                        },
+                        {
+                          "en": "at recess",
+                          "vi": "trong giờ ra chơi"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "balanced regulatory approach",
+                          "vi": "cách tiếp cận quản lý cân bằng"
+                        },
+                        {
+                          "en": "eliminate classroom distractions",
+                          "vi": "loại bỏ sự xao nhãng trong lớp học"
+                        },
+                        {
+                          "en": "preserve tangible advantages",
+                          "vi": "bảo toàn những lợi thế hữu hình"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: KÊNH LIÊN LẠC KHẨN CẤP VÀ ĐẢM BẢO AN TOÀN TRÊN ĐƯỜNG",
+                    "point_vi": "Điện thoại di động là phương tiện thiết yếu giúp học sinh giữ liên lạc với phụ huynh trong các tình huống khẩn cấp và bảo đảm an toàn trên đường đi học.",
+                    "point_en": "Mobile phones help elementary students stay in contact with their parents in urgent situations and stay safe on their way to school.",
+                    "point_collocations": [
+                      {
+                        "en": "stay in contact with parents",
+                        "vi": "giữ liên lạc với phụ huynh"
+                      },
+                      {
+                        "en": "urgent situations",
+                        "vi": "các tình huống khẩn cấp"
+                      },
+                      {
+                        "en": "on the way to school",
+                        "vi": "trên đường đến trường"
+                      }
+                    ],
+                    "evidence_vi": "Nhiều học sinh tự đi học bằng xe buýt hoặc phải chờ cha mẹ đón muộn. Nếu xảy ra tai nạn hoặc thời tiết xấu, các em có thể gọi ngay cho người thân để nhờ trợ giúp. Việc cấm hoàn toàn điện thoại có thể khiến học sinh gặp nguy hiểm.",
+                    "evidence_en": "Many students travel to school by bus or wait for their parents late after class. If an accident happens or the weather is bad, they can call family members immediately for help. Banning phones completely could put students in danger.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "travel to school by bus",
+                          "vi": "đi học bằng xe buýt"
+                        },
+                        {
+                          "en": "wait for parents",
+                          "vi": "chờ bố mẹ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "call family members immediately",
+                          "vi": "gọi người thân ngay lập tức"
+                        },
+                        {
+                          "en": "ask for help",
+                          "vi": "nhờ trợ giúp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "banning phones completely",
+                          "vi": "cấm điện thoại hoàn toàn"
+                        },
+                        {
+                          "en": "put students in danger",
+                          "vi": "đặt học sinh vào nguy hiểm"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: TẬN DỤNG CÁC ỨNG DỤNG HỌC TẬP TƯƠNG TÁC",
+                    "point_vi": "Điện thoại thông minh mang lại cơ hội tiếp cận trực tiếp các ứng dụng giáo dục tương tác và tài liệu tham khảo phong phú.",
+                    "point_en": "Smartphones allow students to use helpful learning apps and look up useful information easily.",
+                    "point_collocations": [
+                      {
+                        "en": "helpful learning apps",
+                        "vi": "các ứng dụng học tập hữu ích"
+                      },
+                      {
+                        "en": "look up useful information",
+                        "vi": "tra cứu thông tin hữu ích"
+                      }
+                    ],
+                    "evidence_vi": "Giáo viên có thể sử dụng điện thoại để tổ chức các trò chơi câu đố vui trong lớp. Các ứng dụng học từ vựng và toán học giúp học sinh thấy việc học thú vị hơn. Nhờ đó, lớp học trở nên sinh động và lôi cuốn hơn.",
+                    "evidence_en": "Teachers can use mobile phones to organize fun quizzes in class. Vocabulary and math applications help make learning more exciting for young learners. As a result, lessons become much more lively and engaging.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "organize fun quizzes",
+                          "vi": "tổ chức các câu đố vui"
+                        },
+                        {
+                          "en": "in class",
+                          "vi": "trong lớp học"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "vocabulary and math applications",
+                          "vi": "ứng dụng từ vựng và toán học"
+                        },
+                        {
+                          "en": "make learning more exciting",
+                          "vi": "khiến việc học thú vị hơn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "lively and engaging lessons",
+                          "vi": "các bài học sinh động và lôi cuốn"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: RÈN LUYỆN NĂNG LỰC SỐ VÀ TỰ ĐIỀU CHỈNH TỪ SỚM",
+                    "point_vi": "Hướng dẫn học sinh sử dụng điện thoại đúng cách giúp các em xây dựng năng lực số và thói quen tự điều chỉnh hành vi từ sớm.",
+                    "point_en": "Teaching children how to use phones properly helps them develop good digital habits and self-discipline.",
+                    "point_collocations": [
+                      {
+                        "en": "use phones properly",
+                        "vi": "sử dụng điện thoại đúng cách"
+                      },
+                      {
+                        "en": "good digital habits",
+                        "vi": "thói quen dùng đồ công nghệ tốt"
+                      },
+                      {
+                        "en": "self-discipline",
+                        "vi": "tính tự giác kỷ luật"
+                      }
+                    ],
+                    "evidence_vi": "Thay vì cấm hoàn toàn, nhà trường nên dạy trẻ cách kiểm soát thời gian sử dụng điện thoại. Khi được hướng dẫn cẩn thận, học sinh sẽ biết cách tự bảo vệ mình trên không gian mạng. Đây là kỹ năng quan trọng trong thế giới hiện đại.",
+                    "evidence_en": "Instead of banning phones entirely, schools should teach children how to limit screen time. With proper guidance, students will know how to stay safe online. This is an important skill in the modern world.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "banning phones entirely",
+                          "vi": "cấm điện thoại hoàn toàn"
+                        },
+                        {
+                          "en": "limit screen time",
+                          "vi": "hạn chế thời gian nhìn màn hình"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "proper guidance",
+                          "vi": "sự chỉ dẫn đúng đắn"
+                        },
+                        {
+                          "en": "stay safe online",
+                          "vi": "an toàn trên mạng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "important skill",
+                          "vi": "kỹ năng quan trọng"
+                        },
+                        {
+                          "en": "modern world",
+                          "vi": "thế giới hiện đại"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: ĐỊNH VỊ GPS VÀ HỖ TRỢ PHỤ HUYNH THEO DÕI TỪ XA",
+                    "point_vi": "Tính năng định vị thời gian thực trên điện thoại giúp phụ huynh dễ dàng giám sát vị trí và đảm bảo an toàn cho con nhỏ.",
+                    "point_en": "GPS features on smartphones help parents track their children's location and feel more confident about their safety.",
+                    "point_collocations": [
+                      {
+                        "en": "track location",
+                        "vi": "theo dõi vị trí"
+                      },
+                      {
+                        "en": "feel more confident about safety",
+                        "vi": "cảm thấy yên tâm hơn về sự an toàn"
+                      }
+                    ],
+                    "evidence_vi": "Phụ huynh có thể kiểm tra xem con mình đã đến trường an toàn hay chưa bằng các ứng dụng điện thoại. Điều này giúp các bậc cha mẹ bận rộn bớt lo lắng trong giờ làm việc. Nếu cấm điện thoại, phụ huynh sẽ khó theo dõi con từ xa.",
+                    "evidence_en": "Parents can check whether their children have arrived at school safely via mobile applications. This gives busy parents peace of mind during working hours. If phones are banned, it will be hard for parents to monitor their children remotely.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "arrive at school safely",
+                          "vi": "đến trường an toàn"
+                        },
+                        {
+                          "en": "mobile applications",
+                          "vi": "ứng dụng di động"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "peace of mind",
+                          "vi": "sự yên tâm"
+                        },
+                        {
+                          "en": "working hours",
+                          "vi": "giờ làm việc"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "monitor children remotely",
+                          "vi": "theo dõi con cái từ xa"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: ĐỔI MỚI QUY CHẾ QUẢN LÝ THAY VÌ ÁP ĐẶT LỆNH CẤM TOÀN DIỆN",
+                    "point_vi": "Nhà trường nên áp dụng các quy chế quản lý thông minh thay vì ban hành một lệnh cấm mang tính cực đoan và khó khả thi.",
+                    "point_en": "Schools should create sensible school rules for phone use instead of applying a strict total ban.",
+                    "point_collocations": [
+                      {
+                        "en": "sensible school rules",
+                        "vi": "nội quy trường học hợp lý"
+                      },
+                      {
+                        "en": "strict total ban",
+                        "vi": "lệnh cấm nghiêm ngặt toàn diện"
+                      }
+                    ],
+                    "evidence_vi": "Học sinh có thể được yêu cầu để điện thoại trong cặp hoặc tủ đồ trong suốt tiết học. Các em chỉ sử dụng điện thoại khi giáo viên cho phép hoặc trong giờ ra chơi. Cách làm này vừa giữ trật tự lớp học vừa giúp tận dụng lợi ích của công nghệ.",
+                    "evidence_en": "Students can be asked to keep their phones in backpacks or lockers during lessons. They should only use them during break time or when permitted by teachers. This solution keeps classes organized while still allowing students to benefit from technology.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "keep phones in backpacks",
+                          "vi": "để điện thoại trong ba lô"
+                        },
+                        {
+                          "en": "during lessons",
+                          "vi": "trong giờ học"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "during break time",
+                          "vi": "trong giờ nghỉ giải lao"
+                        },
+                        {
+                          "en": "permitted by teachers",
+                          "vi": "được giáo viên cho phép"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "keep classes organized",
+                          "vi": "giữ lớp học có trật tự"
+                        },
+                        {
+                          "en": "benefit from technology",
+                          "vi": "hưởng lợi từ công nghệ"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "sample_b2": "In recent years, the question of whether mobile phones should be prohibited in primary schools has sparked considerable debate among educators and parents. While some critics argue that handheld devices induce chronic distractions in classrooms, <strong>I strongly disagree with the notion of an outright ban</strong>. Instead, I firmly contend that mobile phones serve as vital safety instruments and valuable educational resources when governed by sensible school regulations.\n\nFirst and foremost, mobile phones constitute an indispensable safety lifeline for young children commuting to and from school. In modern metropolitan areas, many elementary pupils commute independently via public transit or must await parental collection after late extracurricular activities. In the event of unforeseen emergencies, traffic accidents, or hazardous weather conditions, carrying a mobile phone enables children to instantly summon parental or emergency assistance. Furthermore, real-time GPS tracking capabilities integrated into modern smartphones allow anxious working parents to verify their child's location throughout the day. Imposing a blanket prohibition would deprive young learners of this fundamental security blanket, needlessly exacerbating parental apprehension.\n\nIn addition to ensuring personal safety, mobile devices offer immense pedagogical value when integrated purposefully into elementary curricula. Rather than being mere sources of diversion, smartphones grant pupils immediate access to interactive educational platforms, gamified math quizzes, and visual language-learning tools. Through supervised digital activities, educators can cultivate essential digital literacy, teaching children how to locate credible information and regulate their own screen habits responsibly from an early age. If schools simply ban mobile technology rather than guiding its constructive utilization, students will enter an increasingly digitized society unprepared to navigate online environments responsibly.\n\nIn conclusion, I firmly oppose the proposal to ban mobile phones in primary institutions. While classroom focus must be preserved through clear rules such as storing devices during formal instruction, an outright ban overlooks the critical importance of emergency contact and digital skill development. Schools should therefore implement balanced management policies rather than adopting reactionary prohibitions.",
+              "translation_b2": "Trong những năm gần đây, câu hỏi liệu có nên cấm điện thoại di động trong các trường tiểu học hay không đã dấy lên cuộc tranh luận sôi nổi giữa các nhà giáo dục và phụ huynh. Mặc dù một số người chỉ trích cho rằng thiết bị cầm tay gây ra sự xao nhãng triền miên trong lớp học, tôi mạnh mẽ không đồng ý với quan điểm ban hành lệnh cấm hoàn toàn. Thay vào đó, tôi kiên quyết cho rằng điện thoại di động đóng vai trò là công cụ an toàn thiết yếu và nguồn tài nguyên giáo dục quý giá khi được quản lý bằng các quy định hợp lý của nhà trường.\n\nTrước hết, điện thoại di động tạo nên một kênh liên lạc an toàn không thể thiếu đối với trẻ nhỏ trên đường đi học và về nhà. Tại các đô thị hiện đại, nhiều học sinh tiểu học tự đi lại bằng phương tiện giao thông công cộng hoặc phải chờ cha mẹ đón sau các buổi sinh hoạt ngoại khóa muộn. Trong trường hợp xảy ra các tình huống bất trắc bất ngờ, tai nạn giao thông hoặc thời tiết nguy hiểm, việc mang theo điện thoại cho phép trẻ em liên lạc ngay lập tức với gia đình hoặc gọi trợ giúp khẩn cấp. Hơn nữa, tính năng định vị GPS thời gian thực được tích hợp trong điện thoại thông minh hiện đại cho phép các bậc cha mẹ bận rộn kiểm tra vị trí của con mình trong suốt cả ngày. Việc áp đặt một lệnh cấm toàn diện sẽ tước đoạt biện pháp an ninh cơ bản này của học sinh nhỏ tuổi, làm gia tăng sự lo lắng không cần thiết của phụ huynh.\n\nBên cạnh việc bảo đảm an toàn cá nhân, thiết bị di động mang lại giá trị sư phạm to lớn khi được tích hợp có mục đích vào chương trình tiểu học. Thay vì chỉ là nguồn gây xao nhãng, điện thoại thông minh mang lại cho học sinh quyền truy cập tức thì vào các nền tảng giáo dục tương tác, bài đố vui toán học được trò chơi hóa và công cụ học ngôn ngữ trực quan. Thông qua các hoạt động kỹ thuật số có giám sát, các nhà giáo dục có thể nuôi dưỡng năng lực số thiết yếu, dạy trẻ cách tìm kiếm thông tin đáng tin cậy và tự điều chỉnh thói quen sử dụng màn hình một cách có trách nhiệm ngay từ khi còn nhỏ. Nếu nhà trường chỉ đơn thuần cấm đoán công nghệ di động thay vì hướng dẫn cách sử dụng mang tính xây dựng, học sinh sẽ bước vào một xã hội số hóa ngày càng cao mà không được chuẩn bị đầy đủ để vận hành an toàn trong môi trường mạng.\n\nTóm lại, tôi kiên quyết phản đối đề xuất cấm điện thoại di động trong các cơ sở giáo dục tiểu học. Mặc dù sự tập trung trong lớp học cần được duy trì thông qua các nội quy rõ ràng như cất thiết bị trong giờ giảng chính thức, một lệnh cấm hoàn toàn đã bỏ qua tầm quan trọng cốt yếu của việc liên lạc khẩn cấp và phát triển kỹ năng số. Do đó, các trường học nên thực hiện các chính sách quản lý cân bằng thay vì áp dụng các biện pháp cấm đoán mang tính phản ứng cực đoan.",
+              "sample_b1": "Nowadays, many people discuss whether mobile phones should be banned in primary schools. Some people think that phones cause many distractions during classes. However, <strong>I strongly disagree with banning mobile phones</strong> because they keep children safe and help them learn important digital skills.\n\nFirst of all, mobile phones are very important for children's safety. Many primary school students have to go home alone by bus or wait for their parents after school. If something bad happens, such as an accident or bad weather, children can use their phones to call their parents immediately for help. Also, parents can use location features on smartphones to see where their children are. If schools ban mobile phones completely, students will not be able to contact their families in urgent situations.\n\nSecondly, mobile phones can be very useful for learning if teachers manage them well. Modern smartphones have many helpful educational apps for learning vocabulary, English, and math. Teachers can organize fun learning games on phones to make classes more interesting. By using phones under teacher guidance, students can learn how to use technology responsibly. This is a very important skill that every child needs for the future.\n\nIn conclusion, I disagree with the idea of banning mobile phones in primary schools. Instead of an outright ban, schools should make clear rules, such as asking students to keep phones in their bags during lessons and only allowing phone use during break time or for learning activities.",
+              "translation_b1": "Ngày nay, nhiều người thảo luận về việc liệu có nên cấm điện thoại di động trong các trường tiểu học hay không. Một số người nghĩ rằng điện thoại gây ra nhiều sự xao nhãng trong giờ học. Tuy nhiên, tôi mạnh mẽ không đồng ý với việc cấm điện thoại di động vì chúng giúp trẻ em an toàn và hỗ trợ các em học các kỹ năng số quan trọng.\n\nTrước hết, điện thoại di động rất quan trọng đối với sự an toàn của trẻ em. Nhiều học sinh tiểu học phải tự về nhà bằng xe buýt hoặc chờ cha mẹ sau giờ học. Nếu có điều gì xấu xảy ra, chẳng hạn như tai nạn hoặc thời tiết xấu, trẻ có thể sử dụng điện thoại để gọi ngay cho cha mẹ để nhờ giúp đỡ. Ngoài ra, cha mẹ có thể sử dụng các tính năng định vị trên điện thoại thông minh để xem con mình đang ở đâu. Nếu các trường học cấm hoàn toàn điện thoại di động, học sinh sẽ không thể liên lạc với gia đình trong các tình huống khẩn cấp.\n\nThứ hai, điện thoại di động có thể rất hữu ích cho việc học tập nếu giáo viên quản lý tốt. Điện thoại thông minh hiện đại có nhiều ứng dụng giáo dục hữu ích để học từ vựng, tiếng Anh và toán học. Giáo viên có thể tổ chức các trò chơi học tập vui vẻ trên điện thoại để làm cho các lớp học thú vị hơn. Bằng cách sử dụng điện thoại dưới sự hướng dẫn của giáo viên, học sinh có thể học cách sử dụng công nghệ một cách có trách nhiệm. Đây là một kỹ năng rất quan trọng mà mọi đứa trẻ đều cần cho tương lai.\n\nTóm lại, tôi không đồng ý với ý kiến cấm điện thoại di động trong các trường tiểu học. Thay vì một lệnh cấm hoàn toàn, nhà trường nên đưa ra những quy định rõ ràng, chẳng hạn như yêu cầu học sinh để điện thoại trong cặp trong giờ học và chỉ cho phép sử dụng điện thoại trong giờ ra chơi hoặc cho các hoạt động học tập.",
+              "vocab": [
+                {
+                  "en": "indispensable lifeline",
+                  "vi": "kênh liên lạc thiết yếu"
+                },
+                {
+                  "en": "transit safety",
+                  "vi": "an toàn khi đi lại trên đường"
+                },
+                {
+                  "en": "blanket ban / outright ban",
+                  "vi": "lệnh cấm hoàn toàn"
+                },
+                {
+                  "en": "gamified learning software",
+                  "vi": "phần mềm học tập dưới dạng trò chơi"
+                },
+                {
+                  "en": "foster digital literacy",
+                  "vi": "xây dựng năng lực số"
+                },
+                {
+                  "en": "self-regulatory habits",
+                  "vi": "thói quen tự điều chỉnh hành vi"
+                },
+                {
+                  "en": "peace of mind",
+                  "vi": "sự an tâm"
+                },
+                {
+                  "en": "remote safety verification",
+                  "vi": "xác minh an toàn từ xa"
+                },
+                {
+                  "en": "sensible usage policies",
+                  "vi": "các quy chế sử dụng hợp lý"
+                },
+                {
+                  "en": "balanced regulatory approach",
+                  "vi": "cách tiếp cận quản lý cân bằng"
+                }
+              ],
+              "vocab_step": {
+                "theme": "QUAN ĐIỂM: KHÔNG ĐỒNG Ý CẤM ĐIỆN THOẠI Ở TIỂU HỌC",
+                "overview": "Vốn từ vựng và Collocation chuyên sâu bảo vệ lập trường ủng hộ việc sử dụng điện thoại có kiểm soát để bảo đảm an toàn và phát triển kỹ năng số.",
+                "single_words": [
+                  {
+                    "en": "lifeline",
+                    "vi": "dây cứu sinh / kênh liên lạc thiết yếu",
+                    "pos": "n",
+                    "phonetic": "/ˈlaɪflaɪn/"
+                  },
+                  {
+                    "en": "autonomy",
+                    "vi": "quyền tự chủ",
+                    "pos": "n",
+                    "phonetic": "/ɔːˈtɒnəmi/"
+                  },
+                  {
+                    "en": "pedagogical",
+                    "vi": "thuộc về sư phạm",
+                    "pos": "adj",
+                    "phonetic": "/ˌpedəˈɡɒdʒɪkl/"
+                  },
+                  {
+                    "en": "reassurance",
+                    "vi": "sự an tâm",
+                    "pos": "n",
+                    "phonetic": "/ˌriːəˈʃʊərəns/"
+                  },
+                  {
+                    "en": "prohibition",
+                    "vi": "sự cấm đoán",
+                    "pos": "n",
+                    "phonetic": "/ˌprəʊhɪˈbɪʃn/"
+                  }
+                ],
+                "collocation_groups": [
+                  {
+                    "group_name": "An toàn & Liên lạc khẩn cấp",
+                    "items": [
+                      {
+                        "en": "indispensable lifeline",
+                        "vi": "kênh liên lạc thiết yếu",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "maintain urgent communication",
+                        "vi": "duy trì liên lạc khẩn cấp",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "guarantee transit safety",
+                        "vi": "bảo đảm an toàn khi đi lại",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "swiftly summon assistance",
+                        "vi": "nhanh chóng gọi trợ giúp",
+                        "level": "B2"
+                      }
+                    ]
+                  },
+                  {
+                    "group_name": "Học tập số & Năng lực công nghệ",
+                    "items": [
+                      {
+                        "en": "interactive educational applications",
+                        "vi": "ứng dụng học tập tương tác",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "gamified learning software",
+                        "vi": "phần mềm học tập trò chơi hóa",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "foster early digital literacy",
+                        "vi": "xây dựng năng lực số từ sớm",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "self-regulatory habits",
+                        "vi": "thói quen tự điều chỉnh hành vi",
+                        "level": "B2"
+                      }
+                    ]
+                  },
+                  {
+                    "group_name": "Quản lý & Giải pháp thay thế",
+                    "items": [
+                      {
+                        "en": "sensible usage policies",
+                        "vi": "quy chế sử dụng hợp lý",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "balanced regulatory approach",
+                        "vi": "cách tiếp cận quản lý cân bằng",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "designated storage lockers",
+                        "vi": "tủ đựng chuyên dụng",
+                        "level": "B2"
+                      },
+                      {
+                        "en": "eliminate classroom distractions",
+                        "vi": "loại bỏ xao nhãng trong lớp",
+                        "level": "B2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "reference_articles": {
+                "vi": [
+                  {
+                    "title": "Sử dụng điện thoại trong lớp học: Cấm hoàn toàn hay quản lý linh hoạt?",
+                    "summary": "Phân tích xu hướng quản lý thiết bị di động trong trường học hiện đại, đề xuất giải pháp hộp cất giữ và giờ sử dụng có chỉ định thay vì cấm đoán cực đoan.",
+                    "source": "BÁO TUỔI TRẺ",
+                    "url": "https://tuoitre.vn/tim-kiem.htm?keywords=dien-thoai-truong-hoc"
+                  },
+                  {
+                    "title": "Đảm bảo an toàn cho học sinh tiểu học: Vai trò của công nghệ định vị và liên lạc",
+                    "summary": "Góc nhìn của phụ huynh và chuyên gia tâm lý về sự an tâm khi có thể theo dõi và liên lạc với con em trong các tình huống khẩn cấp ngoài giờ học.",
+                    "source": "VNEXPRESS",
+                    "url": "https://timkiem.vnexpress.net/?q=an-toan-hoc-sinh-tieu-hoc"
+                  }
+                ],
+                "en": [
+                  {
+                    "title": "Smartphones in Elementary Education: Balancing Safety, Learning, and Regulation",
+                    "summary": "An international policy brief examining how managed smartphone access aids emergency response and digital literacy among primary school children.",
+                    "source": "UNESCO EDUCATION REPORT",
+                    "url": "https://en.unesco.org/gem-report/"
+                  },
+                  {
+                    "title": "Parental Reassurance and Child Safety: The Role of Mobile Connectivity in Urban Schools",
+                    "summary": "Educational research on the psychological benefits for families when young pupils have access to mobile communications for daily transit.",
+                    "source": "HARVARD GRADUATE SCHOOL OF EDUCATION",
+                    "url": "https://www.gse.harvard.edu/"
+                  }
+                ]
+              }
+            }
+          }
+        ]
       },
       {
         "title_en": "It’s never too late to learn.",
@@ -162346,7 +165079,2459 @@ const ESSAY_DATA = [
         ],
         "id": 2,
         "context_vi": "Trong xã hội hiện đại, việc học tập không còn bị giới hạn ở độ tuổi thanh thiếu niên hay các trường học chính quy. Với sự thay đổi nhanh chóng của công nghệ và môi trường làm việc, ngày càng có nhiều người lớn tuổi tham gia các khóa học, học các kỹ năng mới và theo đuổi các bằng cấp học thuật. Câu danh ngôn 'Không bao giờ là quá muộn để học' đã trở thành chủ đề thảo luận sôi nổi về tầm quan trọng của việc học tập suốt đời.",
-        "prompt_vi": "Bạn đồng ý hay không đồng ý với quan điểm rằng không bao giờ là quá muộn để học tập? Hãy đưa ra các lý do và ví dụ liên quan để củng cố câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành yêu cầu đề bài, Tổ chức bố cục, Vốn từ vựng và Ngữ pháp."
+        "prompt_vi": "Bạn đồng ý hay không đồng ý với quan điểm rằng không bao giờ là quá muộn để học tập? Hãy đưa ra các lý do và ví dụ liên quan để củng cố câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành yêu cầu đề bài, Tổ chức bố cục, Vốn từ vựng và Ngữ pháp.",
+        "approaches": [
+          {
+            "name": "HƯỚNG 01: ĐỒNG Ý (AGREE)",
+            "stance": "agree",
+            "tags": "",
+            "paraphrases": [
+              {
+                "en": "Lifelong learning and continuous education",
+                "vi": "Học tập suốt đời và giáo dục liên tục"
+              },
+              {
+                "en": "Pursuing knowledge at any stage of life",
+                "vi": "Theo đuổi tri thức ở bất kỳ giai đoạn nào của cuộc đời"
+              },
+              {
+                "en": "Acquiring new skills regardless of age",
+                "vi": "Tiếp thu kỹ năng mới bất kể độ tuổi"
+              },
+              {
+                "en": "Adult education and personal self-development",
+                "vi": "Giáo dục cho người lớn và tự phát triển bản thân"
+              }
+            ],
+            "details": {
+              "vocab": [
+                {
+                  "en": "different areas of life",
+                  "vi": "nhiều lĩnh vực trong cuộc sống"
+                },
+                {
+                  "en": "future jobs",
+                  "vi": "công việc trong tương lai"
+                },
+                {
+                  "en": "daily tasks",
+                  "vi": "công việc hằng ngày"
+                },
+                {
+                  "en": "handle + N",
+                  "vi": "xử lý, giải quyết cái gì"
+                },
+                {
+                  "en": "career opportunities ~ job opportunities",
+                  "vi": "cơ hội việc làm"
+                },
+                {
+                  "en": "learn new skills",
+                  "vi": "học kỹ năng mới"
+                },
+                {
+                  "en": "current job requirements",
+                  "vi": "yêu cầu công việc hiện nay"
+                },
+                {
+                  "en": "meet job requirements",
+                  "vi": "đáp ứng yêu cầu công việc"
+                },
+                {
+                  "en": "earn higher incomes",
+                  "vi": "kiếm được thu nhập cao hơn"
+                },
+                {
+                  "en": "opportunities for promotion",
+                  "vi": "cơ hội thăng tiến"
+                },
+                {
+                  "en": "future career prospects",
+                  "vi": "triển vọng nghề nghiệp trong tương lai"
+                },
+                {
+                  "en": "better jobs ≈ higher-quality jobs",
+                  "vi": "công việc chất lượng hơn"
+                },
+                {
+                  "en": "adapt to",
+                  "vi": "thích nghi với"
+                },
+                {
+                  "en": "the modern world",
+                  "vi": "thế giới hiện đại"
+                },
+                {
+                  "en": "keep up with",
+                  "vi": "theo kịp"
+                },
+                {
+                  "en": "rapidly ~ quickly",
+                  "vi": "một cách nhanh chóng"
+                },
+                {
+                  "en": "at any stage of life",
+                  "vi": "ở bất kỳ giai đoạn nào của cuộc sống"
+                },
+                {
+                  "en": "explore new fields",
+                  "vi": "khám phá những lĩnh vực mới"
+                },
+                {
+                  "en": "essential skills",
+                  "vi": "kỹ năng thiết yếu"
+                },
+                {
+                  "en": "the requirements of society",
+                  "vi": "những yêu cầu của xã hội"
+                },
+                {
+                  "en": "continuous learning",
+                  "vi": "học tập liên tục"
+                },
+                {
+                  "en": "stay motivated",
+                  "vi": "duy trì động lực"
+                },
+                {
+                  "en": "self-development",
+                  "vi": "phát triển bản thân"
+                },
+                {
+                  "en": "a barrier to",
+                  "vi": "rào cản đối với"
+                },
+                {
+                  "en": "continue + Ving",
+                  "vi": "tiếp tục làm gì"
+                },
+                {
+                  "en": "meet + requirements",
+                  "vi": "đáp ứng yêu cầu"
+                },
+                {
+                  "en": "deal with + N",
+                  "vi": "giải quyết, xử lý cái gì"
+                },
+                {
+                  "en": "a changing job market",
+                  "vi": "thị trường lao động đang thay đổi"
+                },
+                {
+                  "en": "professions",
+                  "vi": "ngành nghề"
+                },
+                {
+                  "en": "professional requirements",
+                  "vi": "yêu cầu nghề nghiệp"
+                },
+                {
+                  "en": "employment opportunities",
+                  "vi": "cơ hội việc làm"
+                },
+                {
+                  "en": "promotion",
+                  "vi": "sự thăng tiến"
+                },
+                {
+                  "en": "highly skilled individuals",
+                  "vi": "những người có trình độ cao"
+                },
+                {
+                  "en": "be competitive in the job market",
+                  "vi": "có khả năng cạnh tranh trên thị trường lao động"
+                },
+                {
+                  "en": "long-term career development",
+                  "vi": "phát triển sự nghiệp lâu dài"
+                },
+                {
+                  "en": "require + O + to Vo",
+                  "vi": "yêu cầu ai làm gì"
+                },
+                {
+                  "en": "meet requirements",
+                  "vi": "đáp ứng yêu cầu"
+                },
+                {
+                  "en": "create opportunities for + N",
+                  "vi": "tạo cơ hội cho"
+                },
+                {
+                  "en": "keep up with",
+                  "vi": "theo kịp"
+                },
+                {
+                  "en": "rapid change ~ quick change",
+                  "vi": "những thay đổi nhanh chóng"
+                },
+                {
+                  "en": "modern society",
+                  "vi": "xã hội hiện đại"
+                },
+                {
+                  "en": "perform daily tasks",
+                  "vi": "thực hiện các công việc hằng ngày"
+                },
+                {
+                  "en": "independent",
+                  "vi": "độc lập"
+                },
+                {
+                  "en": "proactive",
+                  "vi": "chủ động"
+                },
+                {
+                  "en": "all stages of life",
+                  "vi": "mọi giai đoạn của cuộc sống"
+                },
+                {
+                  "en": "in order to + Vo",
+                  "vi": "để làm gì"
+                },
+                {
+                  "en": "remain + adj",
+                  "vi": "duy trì trạng thái nào đó"
+                },
+                {
+                  "en": "encourage + O + to Vo",
+                  "vi": "khuyến khích ai làm gì"
+                }
+              ],
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: PHÁT TRIỂN BẢN THÂN VÀ MỞ RỘNG VỐN HIỂU BIẾT",
+                    "collocations": [
+                      {
+                        "en": "lifelong learning",
+                        "vi": "học tập suốt đời"
+                      },
+                      {
+                        "en": "unlock personal potential",
+                        "vi": "khai phá tiềm năng cá nhân"
+                      },
+                      {
+                        "en": "enrich intellectual horizons",
+                        "vi": "làm phong phú chân trời tri thức"
+                      },
+                      {
+                        "en": "at any age",
+                        "vi": "ở bất kỳ độ tuổi nào"
+                      },
+                      {
+                        "en": "retain neuroplasticity",
+                        "vi": "duy trì tính mềm dẻo thần kinh"
+                      },
+                      {
+                        "en": "forge new neural pathways",
+                        "vi": "hình thành các đường dẫn thần kinh mới"
+                      },
+                      {
+                        "en": "master unfamiliar skills",
+                        "vi": "làm chủ những kỹ năng mới lạ"
+                      },
+                      {
+                        "en": "in middle age or retirement",
+                        "vi": "ở tuổi trung niên hoặc khi nghỉ hưu"
+                      },
+                      {
+                        "en": "foreign language",
+                        "vi": "ngoại ngữ"
+                      },
+                      {
+                        "en": "mental stimulation",
+                        "vi": "sự kích thích trí tuệ"
+                      },
+                      {
+                        "en": "transformative journey",
+                        "vi": "hành trình chuyển hóa / thay đổi bản thân"
+                      },
+                      {
+                        "en": "profoundly purposeful",
+                        "vi": "vô cùng có mục đích / ý nghĩa"
+                      },
+                      {
+                        "en": "deeply inspiring",
+                        "vi": "tràn đầy cảm hứng"
+                      }
+                    ],
+                    "point_vi": "Học tập suốt đời giúp mỗi cá nhân liên tục khai phá tiềm năng và làm phong phú thêm vốn tri thức ở mọi độ tuổi.",
+                    "point_en": "Lifelong learning empowers individuals to continuously unlock their potential and enrich their intellectual horizons at any age.",
+                    "evidence_vi": "Bộ não con người luôn có khả năng tạo ra các kết nối thần kinh mới khi tiếp thu những kỹ năng chưa từng biết. Dù ở tuổi trung niên hay về hưu, việc bắt đầu học một ngôn ngữ mới hay một nhạc cụ luôn mang lại sự khai sáng. Quá trình này giúp cuộc sống của mỗi người trở nên ý nghĩa và tràn đầy cảm hứng.",
+                    "evidence_en": "The human brain retains neuroplasticity to forge new neural pathways whenever mastering unfamiliar skills. Whether in middle age or retirement, learning a foreign language or musical instrument offers mental stimulation. This transformative journey makes personal life profoundly purposeful and deeply inspiring.",
+                    "point_collocations": [
+                      {
+                        "en": "lifelong learning",
+                        "vi": "học tập suốt đời"
+                      },
+                      {
+                        "en": "unlock personal potential",
+                        "vi": "khai phá tiềm năng cá nhân"
+                      },
+                      {
+                        "en": "enrich intellectual horizons",
+                        "vi": "làm phong phú chân trời tri thức"
+                      },
+                      {
+                        "en": "at any age",
+                        "vi": "ở bất kỳ độ tuổi nào"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "retain neuroplasticity",
+                          "vi": "duy trì tính mềm dẻo thần kinh"
+                        },
+                        {
+                          "en": "forge new neural pathways",
+                          "vi": "hình thành các đường dẫn thần kinh mới"
+                        },
+                        {
+                          "en": "master unfamiliar skills",
+                          "vi": "làm chủ những kỹ năng mới lạ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "in middle age or retirement",
+                          "vi": "ở tuổi trung niên hoặc khi nghỉ hưu"
+                        },
+                        {
+                          "en": "foreign language",
+                          "vi": "ngoại ngữ"
+                        },
+                        {
+                          "en": "mental stimulation",
+                          "vi": "sự kích thích trí tuệ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "transformative journey",
+                          "vi": "hành trình chuyển hóa / thay đổi bản thân"
+                        },
+                        {
+                          "en": "profoundly purposeful",
+                          "vi": "vô cùng có mục đích / ý nghĩa"
+                        },
+                        {
+                          "en": "deeply inspiring",
+                          "vi": "tràn đầy cảm hứng"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: NÂNG CAO KHẢ NĂNG THÍCH ỨNG TRONG SỰ NGHIỆP",
+                    "collocations": [
+                      {
+                        "en": "proactively acquire competencies",
+                        "vi": "chủ động tiếp thu các năng lực mới"
+                      },
+                      {
+                        "en": "avoid professional obsolescence",
+                        "vi": "tránh bị tụt hậu / đào thải nghề nghiệp"
+                      },
+                      {
+                        "en": "rapidly evolving job market",
+                        "vi": "thị trường việc làm biến đổi nhanh chóng"
+                      },
+                      {
+                        "en": "surge of artificial intelligence",
+                        "vi": "sự bùng nổ của trí tuệ nhân tạo"
+                      },
+                      {
+                        "en": "automation",
+                        "vi": "tự động hóa"
+                      },
+                      {
+                        "en": "radically restructure",
+                        "vi": "tái cấu trúc triệt để"
+                      },
+                      {
+                        "en": "embrace digital upskilling",
+                        "vi": "đón nhận việc nâng cao kỹ năng số"
+                      },
+                      {
+                        "en": "smoothly pivot careers",
+                        "vi": "chuyển hướng sự nghiệp một cách suôn sẻ"
+                      },
+                      {
+                        "en": "capture promotion prospects",
+                        "vi": "nắm bắt triển vọng thăng tiến"
+                      },
+                      {
+                        "en": "pose no barrier",
+                        "vi": "không tạo ra rào cản nào"
+                      },
+                      {
+                        "en": "insatiable desire to learn",
+                        "vi": "khao khát học hỏi không ngừng"
+                      }
+                    ],
+                    "point_vi": "Chủ động trau dồi kỹ năng mới giúp người lao động không bị đào thải trước sự thay đổi của thị trường.",
+                    "point_en": "Proactively acquiring new competencies helps workers avoid professional obsolescence in a rapidly evolving job market.",
+                    "evidence_vi": "Sự bùng nổ của trí tuệ nhân tạo và tự động hóa đang tái định hình mọi lĩnh vực sản xuất và kinh doanh. Những ai sẵn sàng học hỏi kỹ năng số có thể dễ dàng chuyển đổi công việc và nắm bắt các cơ hội thăng tiến. Tuổi tác không phải là rào cản đối với những người có tinh thần cầu tiến và ham học hỏi.",
+                    "evidence_en": "The surge of artificial intelligence and automation is radically restructuring every business sector. Those who eagerly embrace digital upskilling can smoothly pivot their careers and capture promotion prospects. Age poses no barrier to workers possessing resilience and an insatiable desire to learn.",
+                    "point_collocations": [
+                      {
+                        "en": "proactively acquire competencies",
+                        "vi": "chủ động tiếp thu các năng lực mới"
+                      },
+                      {
+                        "en": "avoid professional obsolescence",
+                        "vi": "tránh bị tụt hậu / đào thải nghề nghiệp"
+                      },
+                      {
+                        "en": "rapidly evolving job market",
+                        "vi": "thị trường việc làm biến đổi nhanh chóng"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "surge of artificial intelligence",
+                          "vi": "sự bùng nổ của trí tuệ nhân tạo"
+                        },
+                        {
+                          "en": "automation",
+                          "vi": "tự động hóa"
+                        },
+                        {
+                          "en": "radically restructure",
+                          "vi": "tái cấu trúc triệt để"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "embrace digital upskilling",
+                          "vi": "đón nhận việc nâng cao kỹ năng số"
+                        },
+                        {
+                          "en": "smoothly pivot careers",
+                          "vi": "chuyển hướng sự nghiệp một cách suôn sẻ"
+                        },
+                        {
+                          "en": "capture promotion prospects",
+                          "vi": "nắm bắt triển vọng thăng tiến"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "pose no barrier",
+                          "vi": "không tạo ra rào cản nào"
+                        },
+                        {
+                          "en": "insatiable desire to learn",
+                          "vi": "khao khát học hỏi không ngừng"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: DUY TRÌ SỰ MINH MẪN VÀ PHÒNG NGỪA SUY GIẢM NHẬN THỨC",
+                    "collocations": [
+                      {
+                        "en": "intellectual engagement",
+                        "vi": "sự gắn kết trí tuệ / hoạt động học hỏi"
+                      },
+                      {
+                        "en": "stimulate cognitive functions",
+                        "vi": "kích thích các chức năng nhận thức"
+                      },
+                      {
+                        "en": "delay memory deterioration",
+                        "vi": "làm chậm sự suy giảm trí nhớ"
+                      },
+                      {
+                        "en": "older adults",
+                        "vi": "người lớn tuổi"
+                      },
+                      {
+                        "en": "medical research indicates",
+                        "vi": "nghiên cứu y học chỉ ra rằng"
+                      },
+                      {
+                        "en": "pursue new knowledge",
+                        "vi": "theo đuổi tri thức mới"
+                      },
+                      {
+                        "en": "diminish the risk of dementia",
+                        "vi": "giảm nguy cơ mắc bệnh sa sút trí tuệ"
+                      },
+                      {
+                        "en": "novel mental tasks",
+                        "vi": "các nhiệm vụ tư duy mới mẻ"
+                      },
+                      {
+                        "en": "maintain flexibility and vitality",
+                        "vi": "duy trì sự linh hoạt và sức sống"
+                      },
+                      {
+                        "en": "late-life learning",
+                        "vi": "việc học tập khi về già"
+                      },
+                      {
+                        "en": "preventive medicine",
+                        "vi": "biện pháp y học phòng ngừa"
+                      },
+                      {
+                        "en": "safeguard psychological health",
+                        "vi": "bảo vệ sức khỏe tâm lý"
+                      }
+                    ],
+                    "point_vi": "Hoạt động học tập thường xuyên giúp người cao tuổi rèn luyện trí não và làm chậm quá trình lão hóa nhận thức.",
+                    "point_en": "Regular intellectual engagement helps older adults stimulate cognitive functions and delay memory deterioration.",
+                    "evidence_vi": "Các nghiên cứu y khoa chỉ ra rằng đọc sách và nghiên cứu kiến thức mới giúp giảm nguy cơ mắc bệnh suy giảm trí nhớ. Khi não bộ được thử thách bằng các bài toán tư duy, các tế bào thần kinh duy trì được sự linh hoạt. Do vậy, học tập khi về già là một phương thuốc tự nhiên để bảo vệ sức khỏe tâm thần.",
+                    "evidence_en": "Medical research indicates that reading and pursuing new knowledge significantly diminish the risk of dementia. When challenged by novel mental tasks, neurons maintain flexibility and vitality. Consequently, late-life learning acts as natural preventive medicine safeguarding psychological health.",
+                    "point_collocations": [
+                      {
+                        "en": "intellectual engagement",
+                        "vi": "sự gắn kết trí tuệ / hoạt động học hỏi"
+                      },
+                      {
+                        "en": "stimulate cognitive functions",
+                        "vi": "kích thích các chức năng nhận thức"
+                      },
+                      {
+                        "en": "delay memory deterioration",
+                        "vi": "làm chậm sự suy giảm trí nhớ"
+                      },
+                      {
+                        "en": "older adults",
+                        "vi": "người lớn tuổi"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "medical research indicates",
+                          "vi": "nghiên cứu y học chỉ ra rằng"
+                        },
+                        {
+                          "en": "pursue new knowledge",
+                          "vi": "theo đuổi tri thức mới"
+                        },
+                        {
+                          "en": "diminish the risk of dementia",
+                          "vi": "giảm nguy cơ mắc bệnh sa sút trí tuệ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "novel mental tasks",
+                          "vi": "các nhiệm vụ tư duy mới mẻ"
+                        },
+                        {
+                          "en": "maintain flexibility and vitality",
+                          "vi": "duy trì sự linh hoạt và sức sống"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "late-life learning",
+                          "vi": "việc học tập khi về già"
+                        },
+                        {
+                          "en": "preventive medicine",
+                          "vi": "biện pháp y học phòng ngừa"
+                        },
+                        {
+                          "en": "safeguard psychological health",
+                          "vi": "bảo vệ sức khỏe tâm lý"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: THU HẸP KHOẢNG CÁCH THẾ HỆ VÀ HÒA NHẬP XÃ HỘI",
+                    "collocations": [
+                      {
+                        "en": "embrace modern technology",
+                        "vi": "tiếp nhận công nghệ hiện đại"
+                      },
+                      {
+                        "en": "older generations",
+                        "vi": "các thế hệ đi trước"
+                      },
+                      {
+                        "en": "understand contemporary culture",
+                        "vi": "thấu hiểu văn hóa đương đại"
+                      },
+                      {
+                        "en": "bridge generational divides",
+                        "vi": "thu hẹp khoảng cách thế hệ"
+                      },
+                      {
+                        "en": "master smartphone functions",
+                        "vi": "thành thạo các chức năng điện thoại"
+                      },
+                      {
+                        "en": "communicate effortlessly",
+                        "vi": "giao tiếp một cách dễ dàng"
+                      },
+                      {
+                        "en": "with grandchildren",
+                        "vi": "với con cháu"
+                      },
+                      {
+                        "en": "technological literacy",
+                        "vi": "sự hiểu biết về công nghệ"
+                      },
+                      {
+                        "en": "feelings of alienation",
+                        "vi": "cảm giác bị cô lập / lạc lõng"
+                      },
+                      {
+                        "en": "fast-paced digital era",
+                        "vi": "thời đại số chuyển động nhanh"
+                      },
+                      {
+                        "en": "substantially strengthen",
+                        "vi": "củng cố đáng kể"
+                      },
+                      {
+                        "en": "emotional closeness",
+                        "vi": "sự gần gũi về cảm xúc"
+                      },
+                      {
+                        "en": "across multiple generations",
+                        "vi": "qua nhiều thế hệ"
+                      }
+                    ],
+                    "point_vi": "Tiếp cận kiến thức công nghệ hiện đại giúp các thế hệ đi trước thấu hiểu và hòa nhập với giới trẻ.",
+                    "point_en": "Embracing modern technology enables older generations to understand contemporary culture and bridge generational divides.",
+                    "evidence_vi": "Khi ông bà và cha mẹ học cách sử dụng điện thoại thông minh, họ có thể dễ dàng trò chuyện với con cháu qua mạng. Sự thấu hiểu về công nghệ giúp xóa bỏ cảm giác lạc lõng trong thời đại số. Điều này củng cố sự gắn kết tình cảm giữa các thành viên trong gia đình.",
+                    "evidence_en": "When grandparents master smartphone functions, they can communicate effortlessly with their grandchildren online. Technological literacy eliminates feelings of alienation in the fast-paced digital era. This substantially strengthens emotional closeness across multiple generations.",
+                    "point_collocations": [
+                      {
+                        "en": "embrace modern technology",
+                        "vi": "tiếp nhận công nghệ hiện đại"
+                      },
+                      {
+                        "en": "older generations",
+                        "vi": "các thế hệ đi trước"
+                      },
+                      {
+                        "en": "understand contemporary culture",
+                        "vi": "thấu hiểu văn hóa đương đại"
+                      },
+                      {
+                        "en": "bridge generational divides",
+                        "vi": "thu hẹp khoảng cách thế hệ"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "master smartphone functions",
+                          "vi": "thành thạo các chức năng điện thoại"
+                        },
+                        {
+                          "en": "communicate effortlessly",
+                          "vi": "giao tiếp một cách dễ dàng"
+                        },
+                        {
+                          "en": "with grandchildren",
+                          "vi": "với con cháu"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "technological literacy",
+                          "vi": "sự hiểu biết về công nghệ"
+                        },
+                        {
+                          "en": "feelings of alienation",
+                          "vi": "cảm giác bị cô lập / lạc lõng"
+                        },
+                        {
+                          "en": "fast-paced digital era",
+                          "vi": "thời đại số chuyển động nhanh"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "substantially strengthen",
+                          "vi": "củng cố đáng kể"
+                        },
+                        {
+                          "en": "emotional closeness",
+                          "vi": "sự gần gũi về cảm xúc"
+                        },
+                        {
+                          "en": "across multiple generations",
+                          "vi": "qua nhiều thế hệ"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: TẠO DỰNG NIỀM VUI VÀ Ý NGHĨA SỐNG TÍCH CỰC",
+                    "collocations": [
+                      {
+                        "en": "pursue lifelong passions",
+                        "vi": "theo đuổi đam mê cả đời"
+                      },
+                      {
+                        "en": "provide immense satisfaction",
+                        "vi": "mang lại sự thỏa nguyện to lớn"
+                      },
+                      {
+                        "en": "combat feelings of boredom",
+                        "vi": "đẩy lùi cảm giác buồn chán"
+                      },
+                      {
+                        "en": "in later life",
+                        "vi": "trong giai đoạn sau của cuộc đời"
+                      },
+                      {
+                        "en": "postpone personal passions",
+                        "vi": "trì hoãn những đam mê cá nhân"
+                      },
+                      {
+                        "en": "pressing career obligations",
+                        "vi": "những nghĩa vụ sự nghiệp cấp bách"
+                      },
+                      {
+                        "en": "academic hobbies",
+                        "vi": "sở thích học thuật"
+                      },
+                      {
+                        "en": "like-minded social circles",
+                        "vi": "vòng tròn bạn bè cùng chí hướng"
+                      },
+                      {
+                        "en": "optimistic outlook",
+                        "vi": "quan điểm sống lạc quan"
+                      },
+                      {
+                        "en": "elevate psychological wellbeing",
+                        "vi": "nâng cao sức khỏe tinh thần"
+                      },
+                      {
+                        "en": "enrich life quality",
+                        "vi": "làm phong phú chất lượng cuộc sống"
+                      }
+                    ],
+                    "point_vi": "Học tập những điều mình yêu thích mang lại niềm hứng khởi và loại bỏ cảm giác vô dụng ở tuổi xế chiều.",
+                    "point_en": "Pursuing lifelong passions provides immense satisfaction and combats feelings of boredom or purposelessness in later life.",
+                    "evidence_vi": "Nhiều người từng phải gác lại đam mê hội họa hay làm vườn vì gánh nặng mưu sinh thời trẻ. Khi có thời gian, việc trở lại với sở thích học tập giúp họ kết nối với những người bạn cùng chí hướng. Tinh thần phấn chấn này giúp con người sống vui vẻ, lạc quan và yêu đời hơn.",
+                    "evidence_en": "Many individuals previously postponed passions like painting or gardening due to pressing career obligations. Later in life, returning to academic hobbies introduces them to like-minded social circles. This optimistic outlook elevates psychological wellbeing and enriches life quality.",
+                    "point_collocations": [
+                      {
+                        "en": "pursue lifelong passions",
+                        "vi": "theo đuổi đam mê cả đời"
+                      },
+                      {
+                        "en": "provide immense satisfaction",
+                        "vi": "mang lại sự thỏa nguyện to lớn"
+                      },
+                      {
+                        "en": "combat feelings of boredom",
+                        "vi": "đẩy lùi cảm giác buồn chán"
+                      },
+                      {
+                        "en": "in later life",
+                        "vi": "trong giai đoạn sau của cuộc đời"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "postpone personal passions",
+                          "vi": "trì hoãn những đam mê cá nhân"
+                        },
+                        {
+                          "en": "pressing career obligations",
+                          "vi": "những nghĩa vụ sự nghiệp cấp bách"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "academic hobbies",
+                          "vi": "sở thích học thuật"
+                        },
+                        {
+                          "en": "like-minded social circles",
+                          "vi": "vòng tròn bạn bè cùng chí hướng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "optimistic outlook",
+                          "vi": "quan điểm sống lạc quan"
+                        },
+                        {
+                          "en": "elevate psychological wellbeing",
+                          "vi": "nâng cao sức khỏe tinh thần"
+                        },
+                        {
+                          "en": "enrich life quality",
+                          "vi": "làm phong phú chất lượng cuộc sống"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: PHÁT TRIỂN BẢN THÂN VÀ MỞ RỘNG VỐN HIỂU BIẾT",
+                    "collocations": [
+                      {
+                        "en": "lifelong learning",
+                        "vi": "học tập suốt đời"
+                      },
+                      {
+                        "en": "unlock personal potential",
+                        "vi": "khai phá tiềm năng cá nhân"
+                      },
+                      {
+                        "en": "enrich intellectual horizons",
+                        "vi": "làm phong phú chân trời tri thức"
+                      },
+                      {
+                        "en": "at any age",
+                        "vi": "ở bất kỳ độ tuổi nào"
+                      },
+                      {
+                        "en": "retain neuroplasticity",
+                        "vi": "duy trì tính mềm dẻo thần kinh"
+                      },
+                      {
+                        "en": "forge new neural pathways",
+                        "vi": "hình thành các đường dẫn thần kinh mới"
+                      },
+                      {
+                        "en": "master unfamiliar skills",
+                        "vi": "làm chủ những kỹ năng mới lạ"
+                      },
+                      {
+                        "en": "in middle age or retirement",
+                        "vi": "ở tuổi trung niên hoặc khi nghỉ hưu"
+                      },
+                      {
+                        "en": "foreign language",
+                        "vi": "ngoại ngữ"
+                      },
+                      {
+                        "en": "mental stimulation",
+                        "vi": "sự kích thích trí tuệ"
+                      },
+                      {
+                        "en": "transformative journey",
+                        "vi": "hành trình chuyển hóa / thay đổi bản thân"
+                      },
+                      {
+                        "en": "profoundly purposeful",
+                        "vi": "vô cùng có mục đích / ý nghĩa"
+                      },
+                      {
+                        "en": "deeply inspiring",
+                        "vi": "tràn đầy cảm hứng"
+                      }
+                    ],
+                    "point_vi": "Học tập suốt đời giúp mỗi cá nhân liên tục khai phá tiềm năng và làm phong phú thêm vốn tri thức ở mọi độ tuổi.",
+                    "point_en": "Lifelong learning empowers individuals to continuously unlock their potential and enrich their intellectual horizons at any age.",
+                    "evidence_vi": "Bộ não con người luôn có khả năng tạo ra các kết nối thần kinh mới khi tiếp thu những kỹ năng chưa từng biết. Dù ở tuổi trung niên hay về hưu, việc bắt đầu học một ngôn ngữ mới hay một nhạc cụ luôn mang lại sự khai sáng. Quá trình này giúp cuộc sống của mỗi người trở nên ý nghĩa và tràn đầy cảm hứng.",
+                    "evidence_en": "The human brain retains neuroplasticity to forge new neural pathways whenever mastering unfamiliar skills. Whether in middle age or retirement, learning a foreign language or musical instrument offers mental stimulation. This transformative journey makes personal life profoundly purposeful and deeply inspiring.",
+                    "point_collocations": [
+                      {
+                        "en": "lifelong learning",
+                        "vi": "học tập suốt đời"
+                      },
+                      {
+                        "en": "unlock personal potential",
+                        "vi": "khai phá tiềm năng cá nhân"
+                      },
+                      {
+                        "en": "enrich intellectual horizons",
+                        "vi": "làm phong phú chân trời tri thức"
+                      },
+                      {
+                        "en": "at any age",
+                        "vi": "ở bất kỳ độ tuổi nào"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "retain neuroplasticity",
+                          "vi": "duy trì tính mềm dẻo thần kinh"
+                        },
+                        {
+                          "en": "forge new neural pathways",
+                          "vi": "hình thành các đường dẫn thần kinh mới"
+                        },
+                        {
+                          "en": "master unfamiliar skills",
+                          "vi": "làm chủ những kỹ năng mới lạ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "in middle age or retirement",
+                          "vi": "ở tuổi trung niên hoặc khi nghỉ hưu"
+                        },
+                        {
+                          "en": "foreign language",
+                          "vi": "ngoại ngữ"
+                        },
+                        {
+                          "en": "mental stimulation",
+                          "vi": "sự kích thích trí tuệ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "transformative journey",
+                          "vi": "hành trình chuyển hóa / thay đổi bản thân"
+                        },
+                        {
+                          "en": "profoundly purposeful",
+                          "vi": "vô cùng có mục đích / ý nghĩa"
+                        },
+                        {
+                          "en": "deeply inspiring",
+                          "vi": "tràn đầy cảm hứng"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: NÂNG CAO KHẢ NĂNG THÍCH ỨNG TRONG SỰ NGHIỆP",
+                    "collocations": [
+                      {
+                        "en": "proactively acquire competencies",
+                        "vi": "chủ động tiếp thu các năng lực mới"
+                      },
+                      {
+                        "en": "avoid professional obsolescence",
+                        "vi": "tránh bị tụt hậu / đào thải nghề nghiệp"
+                      },
+                      {
+                        "en": "rapidly evolving job market",
+                        "vi": "thị trường việc làm biến đổi nhanh chóng"
+                      },
+                      {
+                        "en": "surge of artificial intelligence",
+                        "vi": "sự bùng nổ của trí tuệ nhân tạo"
+                      },
+                      {
+                        "en": "automation",
+                        "vi": "tự động hóa"
+                      },
+                      {
+                        "en": "radically restructure",
+                        "vi": "tái cấu trúc triệt để"
+                      },
+                      {
+                        "en": "embrace digital upskilling",
+                        "vi": "đón nhận việc nâng cao kỹ năng số"
+                      },
+                      {
+                        "en": "smoothly pivot careers",
+                        "vi": "chuyển hướng sự nghiệp một cách suôn sẻ"
+                      },
+                      {
+                        "en": "capture promotion prospects",
+                        "vi": "nắm bắt triển vọng thăng tiến"
+                      },
+                      {
+                        "en": "pose no barrier",
+                        "vi": "không tạo ra rào cản nào"
+                      },
+                      {
+                        "en": "insatiable desire to learn",
+                        "vi": "khao khát học hỏi không ngừng"
+                      }
+                    ],
+                    "point_vi": "Chủ động trau dồi kỹ năng mới giúp người lao động không bị đào thải trước sự thay đổi của thị trường.",
+                    "point_en": "Proactively acquiring new competencies helps workers avoid professional obsolescence in a rapidly evolving job market.",
+                    "evidence_vi": "Sự bùng nổ của trí tuệ nhân tạo và tự động hóa đang tái định hình mọi lĩnh vực sản xuất và kinh doanh. Những ai sẵn sàng học hỏi kỹ năng số có thể dễ dàng chuyển đổi công việc và nắm bắt các cơ hội thăng tiến. Tuổi tác không phải là rào cản đối với những người có tinh thần cầu tiến và ham học hỏi.",
+                    "evidence_en": "The surge of artificial intelligence and automation is radically restructuring every business sector. Those who eagerly embrace digital upskilling can smoothly pivot their careers and capture promotion prospects. Age poses no barrier to workers possessing resilience and an insatiable desire to learn.",
+                    "point_collocations": [
+                      {
+                        "en": "proactively acquire competencies",
+                        "vi": "chủ động tiếp thu các năng lực mới"
+                      },
+                      {
+                        "en": "avoid professional obsolescence",
+                        "vi": "tránh bị tụt hậu / đào thải nghề nghiệp"
+                      },
+                      {
+                        "en": "rapidly evolving job market",
+                        "vi": "thị trường việc làm biến đổi nhanh chóng"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "surge of artificial intelligence",
+                          "vi": "sự bùng nổ của trí tuệ nhân tạo"
+                        },
+                        {
+                          "en": "automation",
+                          "vi": "tự động hóa"
+                        },
+                        {
+                          "en": "radically restructure",
+                          "vi": "tái cấu trúc triệt để"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "embrace digital upskilling",
+                          "vi": "đón nhận việc nâng cao kỹ năng số"
+                        },
+                        {
+                          "en": "smoothly pivot careers",
+                          "vi": "chuyển hướng sự nghiệp một cách suôn sẻ"
+                        },
+                        {
+                          "en": "capture promotion prospects",
+                          "vi": "nắm bắt triển vọng thăng tiến"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "pose no barrier",
+                          "vi": "không tạo ra rào cản nào"
+                        },
+                        {
+                          "en": "insatiable desire to learn",
+                          "vi": "khao khát học hỏi không ngừng"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: DUY TRÌ SỰ MINH MẪN VÀ PHÒNG NGỪA SUY GIẢM NHẬN THỨC",
+                    "collocations": [
+                      {
+                        "en": "intellectual engagement",
+                        "vi": "sự gắn kết trí tuệ / hoạt động học hỏi"
+                      },
+                      {
+                        "en": "stimulate cognitive functions",
+                        "vi": "kích thích các chức năng nhận thức"
+                      },
+                      {
+                        "en": "delay memory deterioration",
+                        "vi": "làm chậm sự suy giảm trí nhớ"
+                      },
+                      {
+                        "en": "older adults",
+                        "vi": "người lớn tuổi"
+                      },
+                      {
+                        "en": "medical research indicates",
+                        "vi": "nghiên cứu y học chỉ ra rằng"
+                      },
+                      {
+                        "en": "pursue new knowledge",
+                        "vi": "theo đuổi tri thức mới"
+                      },
+                      {
+                        "en": "diminish the risk of dementia",
+                        "vi": "giảm nguy cơ mắc bệnh sa sút trí tuệ"
+                      },
+                      {
+                        "en": "novel mental tasks",
+                        "vi": "các nhiệm vụ tư duy mới mẻ"
+                      },
+                      {
+                        "en": "maintain flexibility and vitality",
+                        "vi": "duy trì sự linh hoạt và sức sống"
+                      },
+                      {
+                        "en": "late-life learning",
+                        "vi": "việc học tập khi về già"
+                      },
+                      {
+                        "en": "preventive medicine",
+                        "vi": "biện pháp y học phòng ngừa"
+                      },
+                      {
+                        "en": "safeguard psychological health",
+                        "vi": "bảo vệ sức khỏe tâm lý"
+                      }
+                    ],
+                    "point_vi": "Hoạt động học tập thường xuyên giúp người cao tuổi rèn luyện trí não và làm chậm quá trình lão hóa nhận thức.",
+                    "point_en": "Regular intellectual engagement helps older adults stimulate cognitive functions and delay memory deterioration.",
+                    "evidence_vi": "Các nghiên cứu y khoa chỉ ra rằng đọc sách và nghiên cứu kiến thức mới giúp giảm nguy cơ mắc bệnh suy giảm trí nhớ. Khi não bộ được thử thách bằng các bài toán tư duy, các tế bào thần kinh duy trì được sự linh hoạt. Do vậy, học tập khi về già là một phương thuốc tự nhiên để bảo vệ sức khỏe tâm thần.",
+                    "evidence_en": "Medical research indicates that reading and pursuing new knowledge significantly diminish the risk of dementia. When challenged by novel mental tasks, neurons maintain flexibility and vitality. Consequently, late-life learning acts as natural preventive medicine safeguarding psychological health.",
+                    "point_collocations": [
+                      {
+                        "en": "intellectual engagement",
+                        "vi": "sự gắn kết trí tuệ / hoạt động học hỏi"
+                      },
+                      {
+                        "en": "stimulate cognitive functions",
+                        "vi": "kích thích các chức năng nhận thức"
+                      },
+                      {
+                        "en": "delay memory deterioration",
+                        "vi": "làm chậm sự suy giảm trí nhớ"
+                      },
+                      {
+                        "en": "older adults",
+                        "vi": "người lớn tuổi"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "medical research indicates",
+                          "vi": "nghiên cứu y học chỉ ra rằng"
+                        },
+                        {
+                          "en": "pursue new knowledge",
+                          "vi": "theo đuổi tri thức mới"
+                        },
+                        {
+                          "en": "diminish the risk of dementia",
+                          "vi": "giảm nguy cơ mắc bệnh sa sút trí tuệ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "novel mental tasks",
+                          "vi": "các nhiệm vụ tư duy mới mẻ"
+                        },
+                        {
+                          "en": "maintain flexibility and vitality",
+                          "vi": "duy trì sự linh hoạt và sức sống"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "late-life learning",
+                          "vi": "việc học tập khi về già"
+                        },
+                        {
+                          "en": "preventive medicine",
+                          "vi": "biện pháp y học phòng ngừa"
+                        },
+                        {
+                          "en": "safeguard psychological health",
+                          "vi": "bảo vệ sức khỏe tâm lý"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: THU HẸP KHOẢNG CÁCH THẾ HỆ VÀ HÒA NHẬP XÃ HỘI",
+                    "collocations": [
+                      {
+                        "en": "embrace modern technology",
+                        "vi": "tiếp nhận công nghệ hiện đại"
+                      },
+                      {
+                        "en": "older generations",
+                        "vi": "các thế hệ đi trước"
+                      },
+                      {
+                        "en": "understand contemporary culture",
+                        "vi": "thấu hiểu văn hóa đương đại"
+                      },
+                      {
+                        "en": "bridge generational divides",
+                        "vi": "thu hẹp khoảng cách thế hệ"
+                      },
+                      {
+                        "en": "master smartphone functions",
+                        "vi": "thành thạo các chức năng điện thoại"
+                      },
+                      {
+                        "en": "communicate effortlessly",
+                        "vi": "giao tiếp một cách dễ dàng"
+                      },
+                      {
+                        "en": "with grandchildren",
+                        "vi": "với con cháu"
+                      },
+                      {
+                        "en": "technological literacy",
+                        "vi": "sự hiểu biết về công nghệ"
+                      },
+                      {
+                        "en": "feelings of alienation",
+                        "vi": "cảm giác bị cô lập / lạc lõng"
+                      },
+                      {
+                        "en": "fast-paced digital era",
+                        "vi": "thời đại số chuyển động nhanh"
+                      },
+                      {
+                        "en": "substantially strengthen",
+                        "vi": "củng cố đáng kể"
+                      },
+                      {
+                        "en": "emotional closeness",
+                        "vi": "sự gần gũi về cảm xúc"
+                      },
+                      {
+                        "en": "across multiple generations",
+                        "vi": "qua nhiều thế hệ"
+                      }
+                    ],
+                    "point_vi": "Tiếp cận kiến thức công nghệ hiện đại giúp các thế hệ đi trước thấu hiểu và hòa nhập với giới trẻ.",
+                    "point_en": "Embracing modern technology enables older generations to understand contemporary culture and bridge generational divides.",
+                    "evidence_vi": "Khi ông bà và cha mẹ học cách sử dụng điện thoại thông minh, họ có thể dễ dàng trò chuyện với con cháu qua mạng. Sự thấu hiểu về công nghệ giúp xóa bỏ cảm giác lạc lõng trong thời đại số. Điều này củng cố sự gắn kết tình cảm giữa các thành viên trong gia đình.",
+                    "evidence_en": "When grandparents master smartphone functions, they can communicate effortlessly with their grandchildren online. Technological literacy eliminates feelings of alienation in the fast-paced digital era. This substantially strengthens emotional closeness across multiple generations.",
+                    "point_collocations": [
+                      {
+                        "en": "embrace modern technology",
+                        "vi": "tiếp nhận công nghệ hiện đại"
+                      },
+                      {
+                        "en": "older generations",
+                        "vi": "các thế hệ đi trước"
+                      },
+                      {
+                        "en": "understand contemporary culture",
+                        "vi": "thấu hiểu văn hóa đương đại"
+                      },
+                      {
+                        "en": "bridge generational divides",
+                        "vi": "thu hẹp khoảng cách thế hệ"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "master smartphone functions",
+                          "vi": "thành thạo các chức năng điện thoại"
+                        },
+                        {
+                          "en": "communicate effortlessly",
+                          "vi": "giao tiếp một cách dễ dàng"
+                        },
+                        {
+                          "en": "with grandchildren",
+                          "vi": "với con cháu"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "technological literacy",
+                          "vi": "sự hiểu biết về công nghệ"
+                        },
+                        {
+                          "en": "feelings of alienation",
+                          "vi": "cảm giác bị cô lập / lạc lõng"
+                        },
+                        {
+                          "en": "fast-paced digital era",
+                          "vi": "thời đại số chuyển động nhanh"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "substantially strengthen",
+                          "vi": "củng cố đáng kể"
+                        },
+                        {
+                          "en": "emotional closeness",
+                          "vi": "sự gần gũi về cảm xúc"
+                        },
+                        {
+                          "en": "across multiple generations",
+                          "vi": "qua nhiều thế hệ"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: TẠO DỰNG NIỀM VUI VÀ Ý NGHĨA SỐNG TÍCH CỰC",
+                    "collocations": [
+                      {
+                        "en": "pursue lifelong passions",
+                        "vi": "theo đuổi đam mê cả đời"
+                      },
+                      {
+                        "en": "provide immense satisfaction",
+                        "vi": "mang lại sự thỏa nguyện to lớn"
+                      },
+                      {
+                        "en": "combat feelings of boredom",
+                        "vi": "đẩy lùi cảm giác buồn chán"
+                      },
+                      {
+                        "en": "in later life",
+                        "vi": "trong giai đoạn sau của cuộc đời"
+                      },
+                      {
+                        "en": "postpone personal passions",
+                        "vi": "trì hoãn những đam mê cá nhân"
+                      },
+                      {
+                        "en": "pressing career obligations",
+                        "vi": "những nghĩa vụ sự nghiệp cấp bách"
+                      },
+                      {
+                        "en": "academic hobbies",
+                        "vi": "sở thích học thuật"
+                      },
+                      {
+                        "en": "like-minded social circles",
+                        "vi": "vòng tròn bạn bè cùng chí hướng"
+                      },
+                      {
+                        "en": "optimistic outlook",
+                        "vi": "quan điểm sống lạc quan"
+                      },
+                      {
+                        "en": "elevate psychological wellbeing",
+                        "vi": "nâng cao sức khỏe tinh thần"
+                      },
+                      {
+                        "en": "enrich life quality",
+                        "vi": "làm phong phú chất lượng cuộc sống"
+                      }
+                    ],
+                    "point_vi": "Học tập những điều mình yêu thích mang lại niềm hứng khởi và loại bỏ cảm giác vô dụng ở tuổi xế chiều.",
+                    "point_en": "Pursuing lifelong passions provides immense satisfaction and combats feelings of boredom or purposelessness in later life.",
+                    "evidence_vi": "Nhiều người từng phải gác lại đam mê hội họa hay làm vườn vì gánh nặng mưu sinh thời trẻ. Khi có thời gian, việc trở lại với sở thích học tập giúp họ kết nối với những người bạn cùng chí hướng. Tinh thần phấn chấn này giúp con người sống vui vẻ, lạc quan và yêu đời hơn.",
+                    "evidence_en": "Many individuals previously postponed passions like painting or gardening due to pressing career obligations. Later in life, returning to academic hobbies introduces them to like-minded social circles. This optimistic outlook elevates psychological wellbeing and enriches life quality.",
+                    "point_collocations": [
+                      {
+                        "en": "pursue lifelong passions",
+                        "vi": "theo đuổi đam mê cả đời"
+                      },
+                      {
+                        "en": "provide immense satisfaction",
+                        "vi": "mang lại sự thỏa nguyện to lớn"
+                      },
+                      {
+                        "en": "combat feelings of boredom",
+                        "vi": "đẩy lùi cảm giác buồn chán"
+                      },
+                      {
+                        "en": "in later life",
+                        "vi": "trong giai đoạn sau của cuộc đời"
+                      }
+                    ],
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "postpone personal passions",
+                          "vi": "trì hoãn những đam mê cá nhân"
+                        },
+                        {
+                          "en": "pressing career obligations",
+                          "vi": "những nghĩa vụ sự nghiệp cấp bách"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "academic hobbies",
+                          "vi": "sở thích học thuật"
+                        },
+                        {
+                          "en": "like-minded social circles",
+                          "vi": "vòng tròn bạn bè cùng chí hướng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "optimistic outlook",
+                          "vi": "quan điểm sống lạc quan"
+                        },
+                        {
+                          "en": "elevate psychological wellbeing",
+                          "vi": "nâng cao sức khỏe tinh thần"
+                        },
+                        {
+                          "en": "enrich life quality",
+                          "vi": "làm phong phú chất lượng cuộc sống"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "sample_b1": "In recent years, the idea that <strong><em>people can learn new things at any stage of life</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons</strong>. This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong>learning helps people develop their knowledge and skills</strong>. Learning helps them broaden their knowledge in different areas of life. In addition, they can develop useful skills for their lives and future jobs. As a result, they can handle daily tasks more easily and effectively. Furthermore, this helps them feel more confident in their daily lives.\n\nAnother important reason is that <strong>learning can create more career opportunities</strong>. Many people learn new skills to better meet current job requirements. Consequently, this can help them find better jobs and earn higher incomes. They may also have more opportunities for promotion at work. Therefore, learning can improve their future career prospects.\n\nA further reason supporting my viewpoint is that <strong>learning helps people adapt to the modern world</strong>. Nowadays, technology and society are changing rapidly. Therefore, people need to learn new things to keep up with these changes. This helps them use technology more effectively in their daily lives. For this reason, it is never too late to continue learning.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>it is never too late to learn</em></strong>. The reasons above clearly explain why I support this viewpoint. Therefore, people should continue learning throughout their lives to develop their knowledge, improve their careers, and adapt to the modern world.",
+              "sample_b2": "In recent years, the idea that <strong><em>people can learn new things at any stage of life</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons</strong>. This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong>learning helps people develop themselves throughout their lives</strong>. In fact, learning allows them to broaden their knowledge and explore new fields in both life and work. In addition, they can develop essential skills to meet the increasingly demanding requirements of society. As a result, they can deal with daily problems and new challenges more effectively. Furthermore, continuous learning can help them become more confident and stay more motivated. Therefore, age should not be a barrier to learning and self-development.\n\nAnother important reason is that <strong>learning can improve career opportunities</strong>. In today's competitive world, many professions require workers to update their knowledge and skills regularly. Learning new skills can help them better meet modern professional requirements. Consequently, they may have more opportunities for employment and promotion in the future. In addition, highly skilled individuals are often more competitive in the job market. For this reason, learning at any age is highly important for long-term career development.\n\nA further reason supporting my viewpoint is that <strong>learning helps people adapt to rapid changes in modern society</strong>. Nowadays, new technologies constantly emerge and influence both people's lives and work. Therefore, people need to learn in order to use these technologies more effectively and safely. This helps them perform daily tasks more efficiently and save time. Moreover, learning helps them become more confident and independent in life. As a result, learning should be encouraged at all stages of life.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>it is never too late to learn</em></strong>. The arguments presented above clearly explain why I support this viewpoint. Therefore, people should continue learning throughout their lives in order to develop themselves, improve their careers, and adapt successfully to modern society.",
+              "translation_b1": "Trong những năm gần đây, ý kiến cho rằng <strong><em>mọi người có thể học những điều mới ở bất kỳ giai đoạn nào của cuộc sống</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Từ góc nhìn của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng</strong>. Bài viết này sẽ trình bày các lập luận chính để ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong>việc học giúp con người phát triển kiến thức và kỹ năng của họ</strong>. Học tập giúp họ mở rộng hiểu biết về nhiều lĩnh vực khác nhau trong cuộc sống. Ngoài ra, họ có thể phát triển các kỹ năng hữu ích cho cuộc sống và công việc trong tương lai. Nhờ đó, họ có thể giải quyết các công việc hàng ngày một cách dễ dàng và hiệu quả hơn. Hơn nữa, điều này giúp họ cảm thấy tự tin hơn trong cuộc sống hàng ngày.\n\nMột lý do quan trọng khác là <strong>học tập có thể tạo ra nhiều cơ hội nghề nghiệp hơn</strong>. Nhiều người học các kỹ năng mới để đáp ứng tốt hơn các yêu cầu công việc hiện tại. Do đó, điều này có thể giúp họ tìm được những công việc tốt hơn và kiếm được thu nhập cao hơn. Họ cũng có thể có nhiều cơ hội thăng tiến hơn trong công việc. Vì vậy, học tập có thể cải thiện triển vọng nghề nghiệp tương lai của họ.\n\nMột lý do khác ủng hộ quan điểm của tôi là <strong>học tập giúp con người thích nghi với thế giới hiện đại</strong>. Ngày nay, công nghệ và xã hội đang thay đổi một cách nhanh chóng. Vì vậy, mọi người cần học hỏi những điều mới để theo kịp những thay đổi này. Điều này giúp họ sử dụng công nghệ một cách hiệu quả hơn trong cuộc sống hàng ngày. Vì lý do đó, không bao giờ là quá muộn để tiếp tục học tập.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>không bao giờ là quá muộn để học tập</em></strong>. Các lý do nêu trên đã giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Do đó, mọi người nên tiếp tục học tập suốt đời để phát triển kiến thức, cải thiện sự nghiệp và thích nghi với thế giới hiện đại.",
+              "translation_b2": "Trong những năm gần đây, ý kiến cho rằng <strong><em>mọi người có thể học những điều mới ở bất kỳ giai đoạn nào của cuộc sống</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Từ góc nhìn của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng</strong>. Bài viết này sẽ trình bày các lập luận chính nhằm ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong>học tập giúp con người phát triển bản thân suốt cuộc đời</strong>. Trên thực tế, học tập cho phép họ mở rộng kiến thức và khám phá các lĩnh vực mới trong cả cuộc sống lẫn công việc. Ngoài ra, họ có thể phát triển các kỹ năng thiết yếu để đáp ứng những yêu cầu ngày càng khắt khe của xã hội. Nhờ đó, họ có thể giải quyết các vấn đề hàng ngày và những thách thức mới một cách hiệu quả hơn. Hơn nữa, việc học tập liên tục có thể giúp họ trở nên tự tin hơn và duy trì động lực tốt hơn. Do đó, tuổi tác không nên là một rào cản đối với việc học tập và phát triển bản thân.\n\nMột lý do quan trọng khác là <strong>học tập có thể cải thiện cơ hội nghề nghiệp</strong>. Trong thế giới cạnh tranh ngày nay, nhiều ngành nghề đòi hỏi người lao động phải cập nhật kiến thức và kỹ năng thường xuyên. Học các kỹ năng mới có thể giúp họ đáp ứng tốt hơn các yêu cầu nghề nghiệp hiện đại. Kết quả là, họ có thể có nhiều cơ hội việc làm và thăng tiến hơn trong tương lai. Ngoài ra, những cá nhân có trình độ cao thường có khả năng cạnh tranh tốt hơn trên thị trường lao động. Vì lý do này, học tập ở mọi lứa tuổi là cực kỳ quan trọng đối với sự phát triển sự nghiệp lâu dài.\n\nMột lý do khác ủng hộ quan điểm của tôi là <strong>học tập giúp con người thích nghi với những thay đổi nhanh chóng của xã hội hiện đại</strong>. Ngày nay, các công nghệ mới liên tục xuất hiện và ảnh hưởng đến cả cuộc sống lẫn công việc của con người. Vì vậy, mọi người cần học hỏi để sử dụng những công nghệ này một cách hiệu quả và an toàn hơn. Điều này giúp họ thực hiện các công việc hàng ngày hiệu quả hơn và tiết kiệm thời gian. Hơn nữa, học tập giúp họ trở nên tự tin và độc lập hơn trong cuộc sống. Do đó, việc học tập nên được khuyến khích ở mọi giai đoạn của cuộc sống.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>không bao giờ là quá muộn để học tập</em></strong>. Các lập luận được trình bày ở trên đã giải thích rõ ràng lý do tại sao tôi ủng hộ quan điểm này. Do đó, mọi người nên tiếp tục học tập suốt đời để phát triển bản thân, cải thiện sự nghiệp và thích nghi thành công với xã hội hiện đại.",
+              "key_vocab_notes": [
+                {
+                  "en": "different areas of life",
+                  "vi": "nhiều lĩnh vực trong cuộc sống"
+                },
+                {
+                  "en": "future jobs",
+                  "vi": "công việc trong tương lai"
+                },
+                {
+                  "en": "daily tasks",
+                  "vi": "công việc hằng ngày"
+                },
+                {
+                  "en": "handle + N",
+                  "vi": "xử lý, giải quyết cái gì"
+                },
+                {
+                  "en": "career opportunities ~ job opportunities",
+                  "vi": "cơ hội việc làm"
+                },
+                {
+                  "en": "learn new skills",
+                  "vi": "học kỹ năng mới"
+                },
+                {
+                  "en": "current job requirements",
+                  "vi": "yêu cầu công việc hiện nay"
+                },
+                {
+                  "en": "meet job requirements",
+                  "vi": "đáp ứng yêu cầu công việc"
+                },
+                {
+                  "en": "earn higher incomes",
+                  "vi": "kiếm được thu nhập cao hơn"
+                },
+                {
+                  "en": "opportunities for promotion",
+                  "vi": "cơ hội thăng tiến"
+                },
+                {
+                  "en": "future career prospects",
+                  "vi": "triển vọng nghề nghiệp trong tương lai"
+                },
+                {
+                  "en": "better jobs ≈ higher-quality jobs",
+                  "vi": "công việc chất lượng hơn"
+                },
+                {
+                  "en": "adapt to",
+                  "vi": "thích nghi với"
+                },
+                {
+                  "en": "the modern world",
+                  "vi": "thế giới hiện đại"
+                },
+                {
+                  "en": "keep up with",
+                  "vi": "theo kịp"
+                },
+                {
+                  "en": "rapidly ~ quickly",
+                  "vi": "một cách nhanh chóng"
+                },
+                {
+                  "en": "at any stage of life",
+                  "vi": "ở bất kỳ giai đoạn nào của cuộc sống"
+                },
+                {
+                  "en": "explore new fields",
+                  "vi": "khám phá những lĩnh vực mới"
+                },
+                {
+                  "en": "essential skills",
+                  "vi": "kỹ năng thiết yếu"
+                },
+                {
+                  "en": "the requirements of society",
+                  "vi": "những yêu cầu của xã hội"
+                },
+                {
+                  "en": "continuous learning",
+                  "vi": "học tập liên tục"
+                },
+                {
+                  "en": "stay motivated",
+                  "vi": "duy trì động lực"
+                },
+                {
+                  "en": "self-development",
+                  "vi": "phát triển bản thân"
+                },
+                {
+                  "en": "a barrier to",
+                  "vi": "rào cản đối với"
+                },
+                {
+                  "en": "continue + Ving",
+                  "vi": "tiếp tục làm gì"
+                },
+                {
+                  "en": "meet + requirements",
+                  "vi": "đáp ứng yêu cầu"
+                },
+                {
+                  "en": "deal with + N",
+                  "vi": "giải quyết, xử lý cái gì"
+                },
+                {
+                  "en": "a changing job market",
+                  "vi": "thị trường lao động đang thay đổi"
+                },
+                {
+                  "en": "professions",
+                  "vi": "ngành nghề"
+                },
+                {
+                  "en": "professional requirements",
+                  "vi": "yêu cầu nghề nghiệp"
+                },
+                {
+                  "en": "employment opportunities",
+                  "vi": "cơ hội việc làm"
+                },
+                {
+                  "en": "promotion",
+                  "vi": "sự thăng tiến"
+                },
+                {
+                  "en": "highly skilled individuals",
+                  "vi": "những người có trình độ cao"
+                },
+                {
+                  "en": "be competitive in the job market",
+                  "vi": "có khả năng cạnh tranh trên thị trường lao động"
+                },
+                {
+                  "en": "long-term career development",
+                  "vi": "phát triển sự nghiệp lâu dài"
+                },
+                {
+                  "en": "require + O + to Vo",
+                  "vi": "yêu cầu ai làm gì"
+                },
+                {
+                  "en": "meet requirements",
+                  "vi": "đáp ứng yêu cầu"
+                },
+                {
+                  "en": "create opportunities for + N",
+                  "vi": "tạo cơ hội cho"
+                },
+                {
+                  "en": "keep up with",
+                  "vi": "theo kịp"
+                },
+                {
+                  "en": "rapid change ~ quick change",
+                  "vi": "những thay đổi nhanh chóng"
+                },
+                {
+                  "en": "modern society",
+                  "vi": "xã hội hiện đại"
+                },
+                {
+                  "en": "perform daily tasks",
+                  "vi": "thực hiện các công việc hằng ngày"
+                },
+                {
+                  "en": "independent",
+                  "vi": "độc lập"
+                },
+                {
+                  "en": "proactive",
+                  "vi": "chủ động"
+                },
+                {
+                  "en": "all stages of life",
+                  "vi": "mọi giai đoạn của cuộc sống"
+                },
+                {
+                  "en": "in order to + Vo",
+                  "vi": "để làm gì"
+                },
+                {
+                  "en": "remain + adj",
+                  "vi": "duy trì trạng thái nào đó"
+                },
+                {
+                  "en": "encourage + O + to Vo",
+                  "vi": "khuyến khích ai làm gì"
+                }
+              ],
+              "vocab_step": {
+                "theme": "Lifelong Learning (Học tập suốt đời)",
+                "overview": "Từ vựng và cấu trúc diễn đạt nâng cao về tinh thần học tập liên tục và tự hoàn thiện bản thân ở mọi lứa tuổi.",
+                "single_words": [
+                  {
+                    "word": "lifelong",
+                    "ipa": "/ˈlaɪf.lɒŋ/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "suốt đời, cả đời",
+                    "example_en": "Lifelong learning is indispensable in a knowledge economy.",
+                    "example_vi": "Học tập suốt đời là điều không thể thiếu trong nền kinh tế tri thức.",
+                    "family": "lifetime (n)"
+                  },
+                  {
+                    "word": "acquire",
+                    "ipa": "/əˈkwaɪər/",
+                    "pos": "verb",
+                    "level": "B1, B2",
+                    "vi": "tiếp thu kỹ năng",
+                    "example_en": "Elderly citizens can acquire technological skills.",
+                    "example_vi": "Người cao tuổi có thể tiếp thu các kỹ năng công nghệ.",
+                    "family": "acquisition (n)"
+                  },
+                  {
+                    "word": "adaptability",
+                    "ipa": "/əˌdæp.təˈbɪl.ə.ti/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "khả năng thích ứng",
+                    "example_en": "Continuous study fosters intellectual adaptability.",
+                    "example_vi": "Học tập liên tục nuôi dưỡng khả năng thích ứng trí tuệ.",
+                    "family": "adapt (v), adaptable (adj)"
+                  },
+                  {
+                    "word": "cognitive",
+                    "ipa": "/ˈkɒɡ.nə.tɪv/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "thuộc về nhận thức",
+                    "example_en": "Mental exercises stimulate cognitive function in older adults.",
+                    "example_vi": "Rèn luyện trí não kích thích chức năng nhận thức ở người lớn tuổi.",
+                    "family": "cognition (n)"
+                  },
+                  {
+                    "word": "fulfillment",
+                    "ipa": "/fʊlˈfɪl.mənt/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự mãn nguyện",
+                    "example_en": "Studying foreign languages brings immense personal fulfillment.",
+                    "example_vi": "Học ngoại ngữ mang lại sự mãn nguyện cá nhân to lớn.",
+                    "family": "fulfill (v), fulfilling (adj)"
+                  },
+                  {
+                    "word": "qualification",
+                    "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "bằng cấp chuyên môn",
+                    "example_en": "Many professionals return to university to earn higher qualifications.",
+                    "example_vi": "Nhiều chuyên gia quay lại đại học để giành các bằng cấp cao hơn.",
+                    "family": "qualify (v)"
+                  },
+                  {
+                    "word": "retirement",
+                    "ipa": "/rɪˈtaɪə.mənt/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "sự nghỉ hưu",
+                    "example_en": "Retirement offers free time to pursue neglected passions.",
+                    "example_vi": "Nghỉ hưu mang lại thời gian để theo đuổi đam mê từng bỏ lỡ.",
+                    "family": "retire (v), retired (adj)"
+                  },
+                  {
+                    "word": "curiosity",
+                    "ipa": "/ˌkjʊə.riˈɒs.ə.ti/",
+                    "pos": "noun",
+                    "level": "B1, B2",
+                    "vi": "tính tò mò ham học",
+                    "example_en": "Intellectual curiosity keeps human minds vibrant and sharp.",
+                    "example_vi": "Sự tò mò trí tuệ giúp tâm trí con người luôn sắc bén.",
+                    "family": "curious (adj)"
+                  },
+                  {
+                    "word": "broaden",
+                    "ipa": "/ˈbrɔː.dən/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "mở rộng",
+                    "example_en": "Reading widely helps individuals broaden their academic horizons.",
+                    "example_vi": "Đọc sách rộng rãi giúp cá nhân mở rộng chân trời học thuật.",
+                    "family": "broad (adj)"
+                  },
+                  {
+                    "word": "perspective",
+                    "ipa": "/pəˈspek.tɪv/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "góc nhìn, quan điểm",
+                    "example_en": "Interacting with classmates enriches mature students' perspective.",
+                    "example_vi": "Tương tác với bạn học làm phong phú góc nhìn của học viên lớn tuổi.",
+                    "family": ""
+                  },
+                  {
+                    "word": "agility",
+                    "ipa": "/əˈdʒɪl.ə.ti/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự nhạy bén",
+                    "example_en": "Lifelong learning maintains mental agility across decades.",
+                    "example_vi": "Học suốt đời duy trì sự nhạy bén tinh thần qua nhiều thập kỷ.",
+                    "family": "agile (adj)"
+                  },
+                  {
+                    "word": "upskill",
+                    "ipa": "/ˌʌpˈskɪl/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "nâng cao kỹ năng",
+                    "example_en": "Employees must upskill to remain employable.",
+                    "example_vi": "Nhân viên phải nâng cao kỹ năng để duy trì khả năng có việc làm.",
+                    "family": "upskilling (n)"
+                  },
+                  {
+                    "word": "self-worth",
+                    "ipa": "/ˌselfˈwɜːθ/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "giá trị bản thân",
+                    "example_en": "Mastering a new skill boosts an adult's sense of self-worth.",
+                    "example_vi": "Làm chủ kỹ năng mới nâng cao giá trị bản thân của người lớn.",
+                    "family": ""
+                  },
+                  {
+                    "word": "enrich",
+                    "ipa": "/ɪnˈrɪtʃ/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "làm phong phú thêm",
+                    "example_en": "Artistic subjects enrich daily life with creative vitality.",
+                    "example_vi": "Môn nghệ thuật làm phong phú cuộc sống với sức sống sáng tạo.",
+                    "family": "enrichment (n)"
+                  },
+                  {
+                    "word": "persistent",
+                    "ipa": "/pəˈsɪs.tənt/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "kiên trì, bền bỉ",
+                    "example_en": "Persistent effort allows mature learners to grasp digital tools.",
+                    "example_vi": "Nỗ lực kiên trì cho phép người học lớn tuổi nắm vững công cụ số.",
+                    "family": "persist (v)"
+                  }
+                ],
+                "collocation_groups": [
+                  {
+                    "id": "group_1",
+                    "name": "Nhóm 1: Phát triển Trí tuệ & Nhận thức",
+                    "icon": "🧠",
+                    "badge": "Cognitive Growth",
+                    "items": [
+                      {
+                        "en": "maintain mental agility",
+                        "vi": "duy trì sự nhạy bén trí não",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Active study helps elderly adults maintain mental agility.",
+                        "example_vi": "Học tập tích cực giúp người cao tuổi duy trì sự nhạy bén của trí não."
+                      },
+                      {
+                        "en": "broaden one's horizons",
+                        "vi": "mở rộng tầm nhìn và hiểu biết",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Studying foreign cultures broadens a person's life horizons.",
+                        "example_vi": "Tìm hiểu văn hóa nước ngoài mở rộng tầm nhìn cuộc sống của con người."
+                      },
+                      {
+                        "en": "prevent cognitive decline",
+                        "vi": "ngăn ngừa sự suy giảm nhận thức",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Mental challenges effectively prevent cognitive decline.",
+                        "example_vi": "Thử thách trí tuệ ngăn ngừa hiệu quả sự suy giảm nhận thức."
+                      },
+                      {
+                        "en": "pursue personal passions",
+                        "vi": "theo đuổi đam mê cá nhân",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Adults can pursue personal passions delayed in youth.",
+                        "example_vi": "Người trưởng thành có thể theo đuổi đam mê từng bị trì hoãn thời trẻ."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "group_2",
+                    "name": "Nhóm 2: Thích ứng Nghề nghiệp & Xã hội hiện đại",
+                    "icon": "💼",
+                    "badge": "Career & Life",
+                    "items": [
+                      {
+                        "en": "adapt to technological advancements",
+                        "vi": "thích ứng với những tiến bộ công nghệ",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Older workers adapt to technological advancements.",
+                        "example_vi": "Công nhân lớn tuổi thích ứng với những tiến bộ công nghệ."
+                      },
+                      {
+                        "en": "enhance career prospects",
+                        "vi": "nâng cao triển vọng nghề nghiệp",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Earning a degree enhances career prospects considerably.",
+                        "example_vi": "Đạt được tấm bằng nâng cao triển vọng nghề nghiệp đáng kể."
+                      },
+                      {
+                        "en": "boost self-confidence and self-worth",
+                        "vi": "nâng cao sự tự tin và giá trị bản thân",
+                        "type": "v.phr",
+                        "level": "B2",
+                        "example_en": "Passing exams boosts self-confidence and self-worth.",
+                        "example_vi": "Vượt qua kỳ thi giúp củng cố sự tự tin và giá trị bản thân."
+                      },
+                      {
+                        "en": "achieve a sense of accomplishment",
+                        "vi": "đạt được cảm giác thành tựu",
+                        "type": "v.phr",
+                        "level": "B1",
+                        "example_en": "Finishing a course gives learners a sense of accomplishment.",
+                        "example_vi": "Hoàn thành khóa học mang lại cho người học cảm giác thành tựu."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "reference_articles": {
+                "vi": [
+                  {
+                    "source": "VnExpress",
+                    "title": "Học tập suốt đời để không bị tụt lại phía sau",
+                    "summary": "Trong kỷ nguyên số, không ngừng học hỏi là yếu tố sống còn để người lao động duy trì năng lực cạnh tranh nghề nghiệp.",
+                    "url": "https://vnexpress.net/hoc-tap-suot-doi-de-khong-bi-tut-lai-phia-sau-4366405.html"
+                  },
+                  {
+                    "source": "Báo Tuổi Trẻ",
+                    "title": "Học tập suốt đời: Chìa khóa vàng cho công dân số",
+                    "summary": "Các mô hình học tập trực tuyến giúp người trưởng thành tiếp cận kho tri thức toàn cầu, phá vỡ giới hạn tuổi tác.",
+                    "url": "https://tuoitre.vn/hoc-tap-suot-doi-chia-khoa-vang-cho-cong-dan-so-20221002084532158.htm"
+                  },
+                  {
+                    "source": "Báo Dân Trí",
+                    "title": "Những tấm gương 70, 80 tuổi vẫn miệt mài học đại học",
+                    "summary": "Câu chuyện truyền cảm hứng từ những cụ ông, cụ bà tốt nghiệp đại học, chứng minh niềm đam mê tri thức không phân biệt tuổi tác.",
+                    "url": "https://dantri.com.vn/giao-duc/nhung-tam-guong-70-80-tuoi-van-miet-mai-hoc-dai-hoc-20231015112045612.htm"
+                  }
+                ],
+                "en": [
+                  {
+                    "source": "World Economic Forum",
+                    "title": "Why Lifelong Learning is the Ultimate 21st-Century Skill",
+                    "summary": "Global report outlining how ongoing upskilling enables mature workers to navigate technological disruption in the modern workforce.",
+                    "url": "https://www.weforum.org/agenda/2021/04/lifelong-learning-upskilling-future-of-work/"
+                  },
+                  {
+                    "source": "Harvard Business Review",
+                    "title": "Making Learning a Lifelong Habit",
+                    "summary": "Scientific analysis of brain neuroplasticity proving that adult minds retain strong cognitive agility throughout life.",
+                    "url": "https://hbr.org/2019/01/making-learning-a-lifelong-habit"
+                  },
+                  {
+                    "source": "UNESCO",
+                    "title": "Lifelong Learning: A Key to Personal and Social Development",
+                    "summary": "International framework promoting adult education as a catalyst for active aging and civic empowerment.",
+                    "url": "https://www.unesco.org/en/education/lifelong-learning"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "HƯỚNG 02: KHÔNG ĐỒNG Ý (DISAGREE)",
+            "stance": "disagree",
+            "tags": "",
+            "paraphrases": [
+              {
+                "en": "Lifelong learning and continuous education",
+                "vi": "Học tập suốt đời và giáo dục liên tục"
+              },
+              {
+                "en": "Pursuing knowledge at any stage of life",
+                "vi": "Theo đuổi tri thức ở bất kỳ giai đoạn nào của cuộc đời"
+              },
+              {
+                "en": "Acquiring new skills regardless of age",
+                "vi": "Tiếp thu kỹ năng mới bất kể độ tuổi"
+              },
+              {
+                "en": "Adult education and personal self-development",
+                "vi": "Giáo dục cho người lớn và tự phát triển bản thân"
+              }
+            ],
+            "details": {
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: SUY GIẢM KHẢ NĂNG NHẬN THỨC VÀ TIẾP THU Ở TUỔI GIÀ",
+                    "point_vi": "Khả năng ghi nhớ và độ nhạy bén của não bộ suy giảm tự nhiên theo tuổi tác, khiến việc học kiến thức mới trở nên vô cùng khó khăn.",
+                    "point_en": "Natural neurobiological decline in older age reduces memory retention and cognitive agility, making acquiring new knowledge exceptionally strenuous.",
+                    "point_collocations": [
+                      {
+                        "en": "natural neurobiological decline",
+                        "vi": "sự suy giảm sinh học thần kinh tự nhiên"
+                      },
+                      {
+                        "en": "memory retention",
+                        "vi": "khả năng ghi nhớ"
+                      },
+                      {
+                        "en": "cognitive agility",
+                        "vi": "sự nhạy bén nhận thức"
+                      }
+                    ],
+                    "evidence_vi": "Người cao tuổi thường gặp trở ngại khi phải tiếp thu các công nghệ phức tạp hoặc ngôn ngữ mới đòi hỏi phản xạ nhanh. Việc cố gắng học các lĩnh vực hoàn toàn xa lạ có thể gây ra cảm giác ức chế và kiệt sức tinh thần. Do đó, quan điểm cho rằng không bao giờ là quá muộn để học là thiếu thực tế về mặt sinh học.",
+                    "evidence_en": "Elderly individuals frequently struggle to master sophisticated digital technologies or foreign languages that demand swift neural reflexes. Striving to absorb completely unfamiliar disciplines can induce acute frustration and mental fatigue. Therefore, the assertion that learning remains boundless regardless of age is biologically unrealistic.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "elderly individuals",
+                          "vi": "người cao tuổi"
+                        },
+                        {
+                          "en": "master sophisticated digital technologies",
+                          "vi": "làm chủ công nghệ số phức tạp"
+                        },
+                        {
+                          "en": "swift neural reflexes",
+                          "vi": "phản xạ thần kinh nhanh nhạy"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "strive to absorb",
+                          "vi": "cố gắng tiếp thu"
+                        },
+                        {
+                          "en": "unfamiliar disciplines",
+                          "vi": "các ngành học xa lạ"
+                        },
+                        {
+                          "en": "mental fatigue",
+                          "vi": "sự kiệt sức về tinh thần"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "assertion",
+                          "vi": "nhận định"
+                        },
+                        {
+                          "en": "learning remains boundless",
+                          "vi": "việc học là vô hạn"
+                        },
+                        {
+                          "en": "biologically unrealistic",
+                          "vi": "thiếu thực tế về mặt sinh học"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: CHI PHÍ CƠ HỘI VÀ ÁP LỰC GÁNH NẶNG CUỘC SỐNG",
+                    "point_vi": "Người trưởng thành phải đối mặt với gánh nặng tài chính và trách nhiệm gia đình, khiến việc học tập bị hạn chế nghiêm trọng về thời gian.",
+                    "point_en": "Mature adults confront heavy financial obligations and familial duties that severely constrain the time and capital available for education.",
+                    "point_collocations": [
+                      {
+                        "en": "financial obligations",
+                        "vi": "nghĩa vụ tài chính"
+                      },
+                      {
+                        "en": "familial duties",
+                        "vi": "trách nhiệm gia đình"
+                      },
+                      {
+                        "en": "constrain available time",
+                        "vi": "giới hạn thời gian sẵn có"
+                      }
+                    ],
+                    "evidence_vi": "Một người đang trong độ tuổi trung niên với công việc bận rộn không thể dành nhiều năm theo đuổi một văn bằng mới mà không hy sinh thu nhập của gia đình. Chi phí học phí đắt đỏ và thời gian kéo dài có thể gây bất ổn cho cuộc sống thường nhật. Trong giai đoạn này, tập trung phát triển sự nghiệp hiện tại mang lại hiệu quả thiết thực hơn.",
+                    "evidence_en": "A middle-aged individual managing demanding employment cannot realistically dedicate years to pursuing a degree without sacrificing familial livelihood. Substantial tuition fees and protracted study hours often destabilize household financial equilibrium. At this life stage, consolidating existing professional competence offers substantially greater practical utility.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "middle-aged individual",
+                          "vi": "người trung niên"
+                        },
+                        {
+                          "en": "demanding employment",
+                          "vi": "công việc áp lực"
+                        },
+                        {
+                          "en": "sacrificing familial livelihood",
+                          "vi": "hy sinh kế sinh nhai gia đình"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "substantial tuition fees",
+                          "vi": "học phí đắt đỏ"
+                        },
+                        {
+                          "en": "protracted study hours",
+                          "vi": "giờ học kéo dài"
+                        },
+                        {
+                          "en": "destabilize financial equilibrium",
+                          "vi": "làm mất cân bằng tài chính"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "consolidate existing competence",
+                          "vi": "củng cố năng lực hiện có"
+                        },
+                        {
+                          "en": "practical utility",
+                          "vi": "tính hữu ích thực tế"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: RÀO CẢN TUYỂN DỤNG VÀ PHÂN BIỆT TUỔI TÁC TRÊN THỊ TRƯỜNG LAO ĐỘNG",
+                    "point_vi": "Thị trường lao động hiện đại ưu tiên lao động trẻ tuổi, khiến văn bằng mới của người lớn tuổi ít có giá trị cạnh tranh thực tế.",
+                    "point_en": "The contemporary job market overwhelmingly favors younger candidates, drastically diminishing the commercial return on late-stage qualifications.",
+                    "point_collocations": [
+                      {
+                        "en": "job market",
+                        "vi": "thị trường lao động"
+                      },
+                      {
+                        "en": "commercial return",
+                        "vi": "lợi tức thương mại / hiệu quả kinh tế"
+                      },
+                      {
+                        "en": "late-stage qualifications",
+                        "vi": "bằng cấp đạt được khi lớn tuổi"
+                      }
+                    ],
+                    "evidence_vi": "Các nhà tuyển dụng thường ngần ngại thuê những ứng viên bắt đầu một nghề nghiệp mới ở độ tuổi 40 hoặc 50 do lo ngại về thời gian cống hiến ngắn ngủi. Bằng cấp đạt được quá muộn thường không mang lại cơ hội thăng tiến tương xứng với công sức bỏ ra. Đây là một rào cản thực tế mà người học lớn tuổi khó lòng vượt qua.",
+                    "evidence_en": "Corporate recruiters routinely hesitate to onboard applicants embarking on entry-level careers in their forties due to limited prospective tenure. Degrees acquired belatedly rarely translate into career advancement commensurate with the exhaustive effort invested. This represents a tangible structural barrier that late-in-life learners seldom overcome.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "corporate recruiters",
+                          "vi": "nhà tuyển dụng doanh nghiệp"
+                        },
+                        {
+                          "en": "embark on entry-level careers",
+                          "vi": "bắt đầu nghề nghiệp ở vị trí sơ cấp"
+                        },
+                        {
+                          "en": "limited prospective tenure",
+                          "vi": "thời gian gắn bó tương lai có hạn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "degrees acquired belatedly",
+                          "vi": "bằng cấp đạt được muộn màng"
+                        },
+                        {
+                          "en": "career advancement",
+                          "vi": "sự thăng tiến sự nghiệp"
+                        },
+                        {
+                          "en": "exhaustive effort invested",
+                          "vi": "nỗ lực kiệt cùng đã đầu tư"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "tangible structural barrier",
+                          "vi": "rào cản cấu trúc hữu hình"
+                        },
+                        {
+                          "en": "late-in-life learners",
+                          "vi": "người học ở giai đoạn muộn của đời người"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: TẬP TRUNG VÀO KINH NGHIỆM THỰC TẾ THAY VÌ BẮT ĐẦU LẠI TỪ CON SỐ KHÔNG",
+                    "point_vi": "Tích lũy kinh nghiệm sống và phát huy thế mạnh vốn có mang lại giá trị lớn hơn nhiều so với việc bắt đầu học lại các lĩnh vực xa lạ.",
+                    "point_en": "Capitalizing on established life experience and honed expertise yields substantially greater fulfillment than restarting from scratch in unfamiliar domains.",
+                    "point_collocations": [
+                      {
+                        "en": "capitalize on established experience",
+                        "vi": "tận dụng kinh nghiệm đã tích lũy"
+                      },
+                      {
+                        "en": "honed expertise",
+                        "vi": "chuyên môn đã được mài giũa"
+                      },
+                      {
+                        "en": "restart from scratch",
+                        "vi": "bắt đầu lại từ con số không"
+                      }
+                    ],
+                    "evidence_vi": "Sự thông thái của người trưởng thành nằm ở khả năng ứng dụng các kỹ năng và mối quan hệ xã hội đã dày công gây dựng. Việc bỏ dở chuyên môn để theo học những môn học lý thuyết hàn lâm thường dẫn đến lãng phí nguồn lực quý giá. Thay vào đó, việc phát triển chiều sâu từ nền tảng sẵn có là chiến lược khôn ngoan hơn.",
+                    "evidence_en": "Mature individuals possess hard-won pragmatic wisdom and established professional networks that constitute their genuine competitive edge. Discarding cultivated expertise to pursue rudimentary academic courses frequently wastes invaluable human capital. Cultivating profound depth within existing foundations represents a markedly more prudent life strategy.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "pragmatic wisdom",
+                          "vi": "sự thông thái thực tế"
+                        },
+                        {
+                          "en": "established professional networks",
+                          "vi": "mạng lưới quan hệ chuyên môn sẵn có"
+                        },
+                        {
+                          "en": "genuine competitive edge",
+                          "vi": "lợi thế cạnh tranh thực sự"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "cultivated expertise",
+                          "vi": "chuyên môn đã tích lũy"
+                        },
+                        {
+                          "en": "rudimentary academic courses",
+                          "vi": "các khóa học học thuật sơ cấp"
+                        },
+                        {
+                          "en": "invaluable human capital",
+                          "vi": "nguồn vốn con người vô giá"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "cultivate profound depth",
+                          "vi": "phát triển chiều sâu vững chắc"
+                        },
+                        {
+                          "en": "prudent life strategy",
+                          "vi": "chiến lược sống khôn ngoan"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: GIAI ĐOẠN VÀNG TRONG PHÁT TRIỂN NÃO BỘ CỦA TUỔI TRẺ",
+                    "point_vi": "Một số kỹ năng phức tạp như ngôn ngữ chuẩn bản ngữ hay âm nhạc đòi hỏi phải được tiếp cận trong giai đoạn phát triển vàng thời thơ ấu.",
+                    "point_en": "Acquiring certain intricate capabilities such as native linguistic fluency or virtuoso musicianship depends strictly on critical childhood neurodevelopmental windows.",
+                    "point_collocations": [
+                      {
+                        "en": "intricate capabilities",
+                        "vi": "các năng lực phức tạp"
+                      },
+                      {
+                        "en": "linguistic fluency",
+                        "vi": "sự lưu loát ngôn ngữ"
+                      },
+                      {
+                        "en": "neurodevelopmental windows",
+                        "vi": "những giai đoạn phát triển thần kinh vàng"
+                      }
+                    ],
+                    "evidence_vi": "Nghiên cứu khoa học chỉ ra rằng khả năng phát âm chuẩn xác không thể đạt được trọn vẹn nếu bắt đầu học ngôn ngữ sau tuổi dậy thì. Tương tự, các vận động viên và nghệ sĩ đỉnh cao đều phải trải qua quá trình khổ luyện từ lúc nhỏ. Bỏ lỡ giai đoạn này đồng nghĩa với việc không thể chạm tới đỉnh cao chuyên môn, chứng minh rằng thời điểm bắt đầu đóng vai trò quyết định.",
+                    "evidence_en": "Empirical neuroscience indicates that accent-free articulation cannot be completely attained when foreign language acquisition begins post-puberty. Similarly, elite athletes and concert virtuosos depend on intensive psychomotor conditioning initiated during early childhood. Missing this developmental threshold precludes achieving pinnacle mastery, proving that timing is genuinely decisive.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "empirical neuroscience",
+                          "vi": "khoa học thần kinh thực nghiệm"
+                        },
+                        {
+                          "en": "accent-free articulation",
+                          "vi": "khả năng phát âm chuẩn xác không vướng ngữ điệu"
+                        },
+                        {
+                          "en": "foreign language acquisition",
+                          "vi": "việc tiếp thu ngoại ngữ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "elite athletes",
+                          "vi": "vận động viên ưu tú"
+                        },
+                        {
+                          "en": "psychomotor conditioning",
+                          "vi": "sự rèn luyện tâm vận động"
+                        },
+                        {
+                          "en": "early childhood",
+                          "vi": "thời thơ ấu"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "developmental threshold",
+                          "vi": "ngưỡng phát triển"
+                        },
+                        {
+                          "en": "pinnacle mastery",
+                          "vi": "trình độ đỉnh cao"
+                        },
+                        {
+                          "en": "timing is genuinely decisive",
+                          "vi": "thời điểm bắt đầu thực sự mang tính quyết định"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO 01: SUY GIẢM KHẢ NĂNG NHẬN THỨC VÀ TIẾP THU Ở TUỔI GIÀ",
+                    "point_vi": "Khả năng ghi nhớ và độ nhạy bén của não bộ suy giảm tự nhiên theo tuổi tác, khiến việc học kiến thức mới trở nên vô cùng khó khăn.",
+                    "point_en": "As people grow older, their memory and brain speed decline naturally, making it difficult to learn new things.",
+                    "point_collocations": [
+                      {
+                        "en": "grow older",
+                        "vi": "già đi"
+                      },
+                      {
+                        "en": "memory decline",
+                        "vi": "suy giảm trí nhớ"
+                      }
+                    ],
+                    "evidence_vi": "Người già thường khó học cách sử dụng các ứng dụng công nghệ hiện đại. Việc học những điều hoàn toàn mới khiến họ dễ mệt mỏi và chán nản. Do đó, việc học khi lớn tuổi không hề dễ dàng như người ta thường nói.",
+                    "evidence_en": "Older people often struggle to learn how to use modern technology. Trying to understand completely new subjects makes them feel tired and frustrated. Therefore, learning in old age is not as easy as people often claim.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "older people",
+                          "vi": "người lớn tuổi"
+                        },
+                        {
+                          "en": "use modern technology",
+                          "vi": "sử dụng công nghệ hiện đại"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "understand new subjects",
+                          "vi": "hiểu các môn học mới"
+                        },
+                        {
+                          "en": "feel tired and frustrated",
+                          "vi": "cảm thấy mệt mỏi và thất vọng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "learning in old age",
+                          "vi": "học khi về già"
+                        },
+                        {
+                          "en": "as easy as people claim",
+                          "vi": "dễ dàng như người ta nói"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 02: CHI PHÍ CƠ HỘI VÀ ÁP LỰC GÁNH NẶNG CUỘC SỐNG",
+                    "point_vi": "Người trưởng thành phải đối mặt với gánh nặng tài chính và trách nhiệm gia đình, khiến việc học tập bị hạn chế nghiêm trọng về thời gian.",
+                    "point_en": "Adults have heavy family responsibilities and bills to pay, leaving them with little time to study.",
+                    "point_collocations": [
+                      {
+                        "en": "family responsibilities",
+                        "vi": "trách nhiệm gia đình"
+                      },
+                      {
+                        "en": "little time to study",
+                        "vi": "ít thời gian để học"
+                      }
+                    ],
+                    "evidence_vi": "Người đi làm phải tập trung kiếm tiền nuôi gia đình và con cái. Họ không thể bỏ ra nhiều năm để đi học đại học lại từ đầu. Chi phí học tập đắt đỏ cũng là một gánh nặng lớn đối với nhiều gia đình.",
+                    "evidence_en": "Working people must focus on earning money to support their children and families. They cannot spend years attending university from the beginning. Expensive course fees are also a big burden for households.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "earn money",
+                          "vi": "kiếm tiền"
+                        },
+                        {
+                          "en": "support families",
+                          "vi": "nuôi gia đình"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "attend university",
+                          "vi": "học đại học"
+                        },
+                        {
+                          "en": "from the beginning",
+                          "vi": "từ đầu"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "expensive course fees",
+                          "vi": "học phí đắt"
+                        },
+                        {
+                          "en": "big burden",
+                          "vi": "gánh nặng lớn"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 03: RÀO CẢN TUYỂN DỤNG VÀ PHÂN BIỆT TUỔI TÁC TRÊN THỊ TRƯỜNG LAO ĐỘNG",
+                    "point_vi": "Thị trường lao động hiện đại ưu tiên lao động trẻ tuổi, khiến văn bằng mới của người lớn tuổi ít có giá trị cạnh tranh thực tế.",
+                    "point_en": "Companies prefer young workers, so new qualifications achieved by older people have less job value.",
+                    "point_collocations": [
+                      {
+                        "en": "prefer young workers",
+                        "vi": "thích người lao động trẻ hơn"
+                      },
+                      {
+                        "en": "job value",
+                        "vi": "giá trị việc làm"
+                      }
+                    ],
+                    "evidence_vi": "Các công ty thường không muốn tuyển nhân viên mới ở độ tuổi 40 hoặc 50. Dù có thêm bằng cấp mới, người lớn tuổi vẫn khó cạnh tranh với sinh viên mới ra trường. Vì vậy, việc học lại khi đã lớn tuổi không mang lại nhiều lợi ích nghề nghiệp.",
+                    "evidence_en": "Companies rarely want to hire entry-level employees in their forties or fifties. Even with new degrees, older people struggle to compete with young graduates. Therefore, studying late in life brings few career benefits.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "hire employees",
+                          "vi": "tuyển nhân viên"
+                        },
+                        {
+                          "en": "in their forties",
+                          "vi": "ở độ tuổi bốn mươi"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "compete with graduates",
+                          "vi": "cạnh tranh với sinh viên tốt nghiệp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "studying late in life",
+                          "vi": "học khi đã nhiều tuổi"
+                        },
+                        {
+                          "en": "career benefits",
+                          "vi": "lợi ích nghề nghiệp"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 04: TẬP TRUNG VÀO KINH NGHIỆM THỰC TẾ THAY VÌ BẮT ĐẦU LẠI TỪ CON SỐ KHÔNG",
+                    "point_vi": "Tích lũy kinh nghiệm sống và phát huy thế mạnh vốn có mang lại giá trị lớn hơn nhiều so với việc bắt đầu học lại các lĩnh vực xa lạ.",
+                    "point_en": "Focusing on practical life experience and existing job skills is much more useful than starting over from zero.",
+                    "point_collocations": [
+                      {
+                        "en": "practical life experience",
+                        "vi": "kinh nghiệm sống thực tế"
+                      },
+                      {
+                        "en": "start over from zero",
+                        "vi": "bắt đầu lại từ con số không"
+                      }
+                    ],
+                    "evidence_vi": "Người lớn tuổi đã có kinh nghiệm và các mối quan hệ xã hội tốt. Bỏ thời gian học những môn lý thuyết cơ bản có thể lãng phí thời gian quý báu. Làm tốt công việc hiện tại mang lại kết quả tốt hơn nhiều.",
+                    "evidence_en": "Older adults already have valuable experience and strong social networks. Spending time on basic academic subjects can waste valuable time. Doing their current job well brings far better results.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "valuable experience",
+                          "vi": "kinh nghiệm quý giá"
+                        },
+                        {
+                          "en": "social networks",
+                          "vi": "mạng lưới xã hội"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "basic academic subjects",
+                          "vi": "các môn học thuật cơ bản"
+                        },
+                        {
+                          "en": "waste valuable time",
+                          "vi": "lãng phí thời gian quý báu"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "current job",
+                          "vi": "công việc hiện tại"
+                        },
+                        {
+                          "en": "far better results",
+                          "vi": "kết quả tốt hơn nhiều"
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO 05: GIAI ĐOẠN VÀNG TRONG PHÁT TRIỂN NÃO BỘ CỦA TUỔI TRẺ",
+                    "point_vi": "Một số kỹ năng phức tạp như ngôn ngữ chuẩn bản ngữ hay âm nhạc đòi hỏi phải được tiếp cận trong giai đoạn phát triển vàng thời thơ ấu.",
+                    "point_en": "Some skills such as foreign languages or musical instruments must be learned during childhood for best results.",
+                    "point_collocations": [
+                      {
+                        "en": "foreign languages",
+                        "vi": "ngoại ngữ"
+                      },
+                      {
+                        "en": "musical instruments",
+                        "vi": "nhạc cụ"
+                      },
+                      {
+                        "en": "during childhood",
+                        "vi": "trong thời thơ ấu"
+                      }
+                    ],
+                    "evidence_vi": "Trẻ em có khả năng bắt chước phát âm rất nhanh và chuẩn xác. Khi lớn tuổi, não bộ không còn linh hoạt để phát âm hoàn hảo như người bản xứ. Điều này chứng minh rằng thời điểm bắt đầu học là cực kỳ quan trọng.",
+                    "evidence_en": "Young children can imitate native pronunciation very quickly and accurately. When adults learn languages, their brains are no longer flexible enough to achieve a perfect accent. This proves that the right age to start learning is very important.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "imitate pronunciation",
+                          "vi": "bắt chước phát âm"
+                        },
+                        {
+                          "en": "quickly and accurately",
+                          "vi": "nhanh chóng và chính xác"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "flexible brains",
+                          "vi": "não bộ linh hoạt"
+                        },
+                        {
+                          "en": "perfect accent",
+                          "vi": "ngữ điệu hoàn hảo"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "right age to learn",
+                          "vi": "độ tuổi thích hợp để học"
+                        }
+                      ]
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "sample_b2": "The popular proverb \"it is never too late to learn\" has long been celebrated as an inspiring affirmation of lifelong personal growth. While this sentiment fosters admirable optimism, <strong>I strongly disagree with the literal idea that learning is equally viable regardless of age</strong>. In reality, biological cognitive constraints, overwhelming adult responsibilities, and structural labor market barriers clearly demonstrate that timing is genuinely decisive in education.\n\nThe primary argument against this romanticized view is the biological reality of human neurodevelopment. Scientific research in neuroscience confirms that cognitive plasticity reaches its zenith during childhood and early adulthood before declining steadily. Complex intellectual capabilities, particularly acquiring native-like linguistic pronunciation or mastering virtuoso musical techniques, depend heavily on critical developmental windows. An adult embarking on learning an intricate foreign language inevitably faces permanent phonetic hurdles that children overcome effortlessly. Pretending that age imposes no disadvantage overlooks fundamental biological limitations.\n\nFurthermore, pragmatic socio-economic obligations severely constrain an adult's realistic ability to pursue formal education. Mature individuals bear substantial financial commitments, demanding employment, and familial responsibilities that leave minimal time or energy for rigorous academic study. Abandoning an established career in mid-life to pursue an entry-level degree entails immense opportunity costs and household instability. Moreover, the modern corporate job market routinely discriminates against older graduates, heavily favoring youthful candidates with decades of future tenure. Consequently, qualifications achieved belatedly rarely translate into tangible economic returns.\n\nIn conclusion, while casual hobbyist pursuits remain possible throughout life, I firmly disagree that it is never too late to engage in serious education. Biological cognitive limitations, heavy adult duties, and corporate employment biases clearly prove that youth represents an irreplaceable window of opportunity that cannot be recreated in later stages of life.",
+              "translation_b2": "Câu ngạn ngữ nổi tiếng \"không bao giờ là quá muộn để học\" từ lâu đã được ngợi ca như một lời khẳng định đầy cảm hứng về sự phát triển cá nhân suốt đời. Mặc dù tinh thần này mang lại sự lạc quan đáng khích lệ, tôi mạnh mẽ không đồng ý với quan điểm cho rằng việc học tập luôn khả thi như nhau ở bất kỳ độ tuổi nào. Trên thực tế, các giới hạn nhận thức sinh học, trách nhiệm nặng nề của người trưởng thành và các rào cản trên thị trường lao động chứng minh rõ ràng rằng thời điểm bắt đầu đóng vai trò quyết định trong giáo dục.\n\nLập luận hàng đầu phản bác quan điểm lãng mạn hóa này chính là thực tế sinh học về sự phát triển thần kinh của con người. Nghiên cứu khoa học trong lĩnh vực khoa học thần kinh khẳng định rằng độ dẻo dai của não bộ đạt đỉnh cao nhất trong thời thơ ấu và giai đoạn đầu trưởng thành trước khi suy giảm dần. Các năng lực trí tuệ phức tạp, đặc biệt là việc phát âm ngoại ngữ chuẩn như người bản xứ hoặc làm chủ các kỹ thuật âm nhạc điêu luyện, phụ thuộc rất lớn vào các giai đoạn phát triển vàng. Một người trưởng thành bắt đầu học một ngôn ngữ phức tạp chắc chắn sẽ đối mặt với những rào cản ngữ âm vĩnh viễn mà trẻ em vượt qua một cách dễ dàng. Cho rằng tuổi tác không mang lại bất lợi nào là bỏ qua các giới hạn sinh học cơ bản.\n\nHơn nữa, các nghĩa vụ kinh tế xã hội thực tế hạn chế nghiêm trọng khả năng theo đuổi nền giáo dục chính quy của một người lớn. Những người trưởng thành phải gánh vác các cam kết tài chính nặng nề, công việc áp lực và trách nhiệm gia đình khiến họ còn rất ít thời gian hoặc năng lượng cho việc học tập học thuật nghiêm ngặt. Việc từ bỏ sự nghiệp đã ổn định ở tuổi trung niên để theo đuổi một tấm bằng đại học khởi đầu đòi hỏi chi phí cơ hội quá lớn và gây bất ổn cho gia đình. Hơn nữa, thị trường lao động doanh nghiệp hiện đại thường phân biệt đối xử với các sinh viên lớn tuổi, ưu ái mạnh mẽ các ứng viên trẻ tuổi có nhiều thập kỷ cống hiến trong tương lai. Do đó, các bằng cấp đạt được muộn màng hiếm khi mang lại lợi ích kinh tế cụ thể.\n\nTóm lại, trong khi việc theo đuổi các sở thích thông thường vẫn có thể diễn ra trong suốt cuộc đời, tôi kiên quyết không đồng ý rằng không bao giờ là quá muộn để tham gia vào con đường học vấn nghiêm túc. Các giới hạn nhận thức sinh học, bổn phận gia đình nặng nề và sự thiên vị tuyển dụng của doanh nghiệp chứng minh rõ ràng rằng tuổi trẻ đại diện cho một cơ hội không thể thay thế mà các giai đoạn sau của cuộc đời không thể tái tạo lại được.",
+              "sample_b1": "Many people believe in the saying \"it is never too late to learn.\" They think that anyone can start studying at any age. However, <strong>I strongly disagree with this opinion</strong> because learning when you are older is much more difficult, expensive, and stressful.\n\nFirst of all, our brains change as we get older. When we are young, we can remember new information quickly and speak new languages easily. As people grow old, their memory declines naturally. For example, older adults find it very hard to learn difficult digital technology or understand complex science subjects. It takes them much more time and effort to learn something new compared to young students.\n\nSecondly, adults have many real-life responsibilities that make studying very hard. Working people have to work long hours to pay bills and take care of their children. They do not have enough free time to attend classes or do homework every evening. In addition, going back to university costs a lot of money and does not guarantee a better job, because companies usually prefer hiring young graduates.\n\nIn conclusion, I disagree with the idea that it is never too late to learn. Because of natural aging, family duties, and job market difficulties, youth is the best and most effective time for education.",
+              "translation_b1": "Nhiều người tin vào câu nói \"không bao giờ là quá muộn để học.\" Họ nghĩ rằng bất kỳ ai cũng có thể bắt đầu học ở mọi lứa tuổi. Tuy nhiên, tôi mạnh mẽ không đồng ý với ý kiến này vì việc học khi bạn lớn tuổi khó khăn hơn, tốn kém hơn và căng thẳng hơn nhiều.\n\nTrước hết, não bộ của chúng ta thay đổi khi chúng ta già đi. Khi còn trẻ, chúng ta có thể ghi nhớ thông tin mới nhanh chóng và nói các ngôn ngữ mới một cách dễ dàng. Khi con người già đi, trí nhớ suy giảm một cách tự nhiên. Ví dụ, người lớn tuổi cảm thấy rất khó học công nghệ số phức tạp hoặc hiểu các môn khoa học khó. Họ mất nhiều thời gian và nỗ lực hơn nhiều để học điều gì đó mới so với học sinh trẻ.\n\nThứ hai, người lớn có nhiều trách nhiệm thực tế khiến việc học trở nên rất khó khăn. Những người đi làm phải làm việc nhiều giờ để trả các hóa đơn và chăm sóc con cái. Họ không có đủ thời gian rảnh để tham gia các lớp học hoặc làm bài tập về nhà mỗi buổi tối. Ngoài ra, việc quay lại trường đại học tốn rất nhiều tiền và không đảm bảo có một công việc tốt hơn, vì các công ty thường thích tuyển dụng sinh viên trẻ mới ra trường.\n\nTóm lại, tôi không đồng ý với ý kiến cho rằng không bao giờ là quá muộn để học. Do sự lão hóa tự nhiên, nghĩa vụ gia đình và những khó khăn trên thị trường việc làm, tuổi trẻ là thời điểm tốt nhất và hiệu quả nhất cho việc học tập."
+            }
+          }
+        ]
       },
       {
         "id": 3,

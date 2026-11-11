@@ -966,6 +966,9 @@ function renderWorkspaceApproachSwitcher() {
     return;
   }
   
+  const isOpinion = currentCategory && currentCategory.id === 3;
+  const switcherLabel = isOpinion ? "QUAN ĐIỂM BÀI VIẾT (YOUR STANCE):" : "HƯỚNG BÀI VIẾT:";
+
   container.style.display = 'flex';
   container.innerHTML = `
     <span class="approach-switcher-label">
@@ -973,14 +976,20 @@ function renderWorkspaceApproachSwitcher() {
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
       </svg>
-      HƯỚNG BÀI VIẾT:
+      ${switcherLabel}
     </span>
     <div class="approach-pills-list">
-      ${currentTopic.approaches.map((appr, idx) => `
-        <button class="approach-pill-btn ${idx === currentApproachIndex ? 'active' : ''}" onclick="switchTopicApproach(${idx})">
-          ${appr.name}
-        </button>
-      `).join('')}
+      ${currentTopic.approaches.map((appr, idx) => {
+        const isAgree = appr.stance === 'agree' || (appr.name && appr.name.includes('ĐỒNG Ý') && !appr.name.includes('KHÔNG ĐỒNG Ý'));
+        const isDisagree = appr.stance === 'disagree' || (appr.name && appr.name.includes('KHÔNG ĐỒNG Ý'));
+        const stanceClass = isAgree ? 'stance-agree' : (isDisagree ? 'stance-disagree' : '');
+        const stanceIcon = isAgree ? '👍 ' : (isDisagree ? '👎 ' : '');
+        return `
+          <button class="approach-pill-btn ${idx === currentApproachIndex ? 'active' : ''} ${stanceClass}" onclick="switchTopicApproach(${idx})">
+            ${stanceIcon}${appr.name}
+          </button>
+        `;
+      }).join('')}
     </div>
   `;
 }
@@ -2007,7 +2016,8 @@ function getSelectedIdeaIndices(topic, groupType) {
     return items.map((_, i) => i);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
-  const storageKey = `idea_sel_${catId}_${topic.id}_${groupType}`;
+  const apprSuffix = (topic.approaches && topic.approaches.length > 0) ? `_appr${currentApproachIndex}` : '';
+  const storageKey = `idea_sel_${catId}_${topic.id}_${groupType}${apprSuffix}`;
   try {
     const raw = localStorage.getItem(storageKey);
     if (raw) {
@@ -2046,7 +2056,8 @@ function toggleIdeaSelection(groupType, index) {
     updated = [...currentSelected, index].sort((a, b) => a - b);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
-  localStorage.setItem(`idea_sel_${catId}_${topic.id}_${groupType}`, JSON.stringify(updated));
+  const apprSuffix = (topic.approaches && topic.approaches.length > 0) ? `_appr${currentApproachIndex}` : '';
+  localStorage.setItem(`idea_sel_${catId}_${topic.id}_${groupType}${apprSuffix}`, JSON.stringify(updated));
 
   // Re-render UI components
   if (currentStepKey === 'read') {
@@ -2077,9 +2088,15 @@ function renderIdeaSelectionComponent(topic) {
   const isCausesSolutions = currentCategory && currentCategory.id === 2;
   const isOpinion = currentCategory && currentCategory.id === 3;
   const isDiscussion = currentCategory && currentCategory.id === 4;
-  let bLabel = isCausesSolutions ? "NGUYÊN NHÂN / VẤN ĐỀ" : (isOpinion ? "LÝ DO QUAN ĐIỂM" : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
+
+  const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex])
+    ? topic.approaches[currentApproachIndex]
+    : null;
+  const isOpinionDisagree = isOpinion && activeApp && (activeApp.stance === 'disagree' || (activeApp.name && activeApp.name.includes('KHÔNG ĐỒNG Ý')));
+
+  let bLabel = isCausesSolutions ? "NGUYÊN NHÂN / VẤN ĐỀ" : (isOpinion ? (isOpinionDisagree ? "LÝ DO PHẢN ĐỐI / KHÔNG ĐỒNG Ý (DISAGREE)" : "LÝ DO ĐỒNG Ý (AGREE)") : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
   let dLabel = isCausesSolutions ? "GIẢI PHÁP / BIỆN PHÁP" : (isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ"));
-  let bIcon = isCausesSolutions ? "🔍" : (isOpinion ? "💬" : (isDiscussion ? "👥" : "✨"));
+  let bIcon = isCausesSolutions ? "🔍" : (isOpinion ? (isOpinionDisagree ? "👎" : "👍") : (isDiscussion ? "👥" : "✨"));
   let dIcon = isCausesSolutions ? "💡" : (isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️"));
 
   return `
@@ -4304,7 +4321,13 @@ function renderOutline() {
   const isCausesSolutions = currentCategory.id === 2;
   const isOpinion = currentCategory.id === 3;
   const isDiscussion = currentCategory.id === 4;
-  let benefitLabel = isCausesSolutions ? "CAUSES (NGUYÊN NHÂN)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 01 (QUAN ĐIỂM 1)" : "ADVANTAGES (LỢI ÍCH)"));
+
+  const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex])
+    ? topic.approaches[currentApproachIndex]
+    : null;
+  const isOpinionDisagree = isOpinion && activeApp && (activeApp.stance === 'disagree' || (activeApp.name && activeApp.name.includes('KHÔNG ĐỒNG Ý')));
+
+  let benefitLabel = isCausesSolutions ? "CAUSES (NGUYÊN NHÂN)" : (isOpinion ? (isOpinionDisagree ? "REASONS FOR DISAGREEMENT (LÝ DO KHÔNG ĐỒNG Ý)" : "REASONS FOR AGREEMENT (LÝ DO ĐỒNG Ý)") : (isDiscussion ? "VIEW 01 (QUAN ĐIỂM 1)" : "ADVANTAGES (LỢI ÍCH)"));
   let drawbackLabel = isCausesSolutions ? "SOLUTIONS (GIẢI PHÁP)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 02 (QUAN ĐIỂM 2)" : "DISADVANTAGES (BẤT LỢI)"));
   if (isCausesSolutions && currentTopic) {
     const tags = (Array.isArray(currentTopic.tags) ? currentTopic.tags.join(', ') : (currentTopic.tags || '')).toLowerCase();
@@ -4343,7 +4366,7 @@ function renderOutline() {
   const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
 
   if (isSelectable) {
-    const group1Name = isCausesSolutions ? 'nguyên nhân' : (isOpinion ? 'lý do' : (isDiscussion ? 'quan điểm 1' : 'thuận lợi'));
+    const group1Name = isCausesSolutions ? 'nguyên nhân' : (isOpinion ? (isOpinionDisagree ? 'lý do không đồng ý' : 'lý do đồng ý') : (isDiscussion ? 'quan điểm 1' : 'thuận lợi'));
     const group2Name = isCausesSolutions ? 'giải pháp' : (isOpinion ? 'lý do' : (isDiscussion ? 'quan điểm 2' : 'bất lợi'));
     const selBanner = document.createElement('div');
     selBanner.className = 'outline-idea-selector-banner';
@@ -7459,7 +7482,13 @@ function renderStep1Reading() {
   
   if (topic.has_full_details && topic.details) {
     if (category.id === 3) {
-      outlineIntroText = 'Đối với đề này, phương án ĐỒNG Ý sẽ dễ diễn đạt hơn. Sau đây là những LÝ DO CHÍNH để bảo vệ quan điểm:';
+      const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex]) ? topic.approaches[currentApproachIndex] : null;
+      const isDisagree = activeApp && (activeApp.stance === 'disagree' || (activeApp.name && activeApp.name.includes('KHÔNG ĐỒNG Ý')));
+      if (isDisagree) {
+        outlineIntroText = 'Sau đây là những LÝ DO CHÍNH để bảo vệ quan điểm KHÔNG ĐỒNG Ý (DISAGREE):';
+      } else {
+        outlineIntroText = 'Sau đây là những LÝ DO CHÍNH để bảo vệ quan điểm ĐỒNG Ý (AGREE):';
+      }
     } else if (category.id === 4) {
       outlineIntroText = 'Sau đây là những LUẬN ĐIỂM CHÍNH của hai quan điểm trái chiều và ý kiến cá nhân:';
     }
@@ -7702,6 +7731,48 @@ function renderStep1Reading() {
     `;
   }
 
+  let stanceSelectorHtml = '';
+  if (currentCategory && currentCategory.id === 3 && topic.approaches && topic.approaches.length > 0) {
+    stanceSelectorHtml = `
+      <div class="stance-selector-card">
+        <div class="stance-selector-header">
+          <div class="stance-selector-title">
+            <span>⚖️</span>
+            <span>BẠN LỰA CHỌN QUAN ĐIỂM NÀO CHO BÀI VIẾT NÀY?</span>
+          </div>
+          <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.25rem 0.65rem; border-radius: 999px;">
+            TÙY CHỌN 2 HƯỚNG BÀI VIẾT
+          </span>
+        </div>
+        <p class="stance-selector-desc">
+          Đề thi yêu cầu bày tỏ quan điểm cá nhân (Agree or Disagree). Hãy bấm chọn lập trường bạn muốn bảo vệ &mdash; toàn bộ 5 luận điểm, bài tập luyện dịch và bài mẫu sẽ tự động cập nhật theo đúng quan điểm bạn đã chọn:
+        </p>
+        <div class="stance-cards-grid">
+          ${topic.approaches.map((appr, idx) => {
+            const isAgree = appr.stance === 'agree' || (appr.name && appr.name.includes('ĐỒNG Ý') && !appr.name.includes('KHÔNG ĐỒNG Ý'));
+            const isDisagree = appr.stance === 'disagree' || (appr.name && appr.name.includes('KHÔNG ĐỒNG Ý'));
+            const isActive = idx === currentApproachIndex;
+            const stanceClass = isAgree ? 'stance-agree' : (isDisagree ? 'stance-disagree' : '');
+            const icon = isAgree ? '👍' : (isDisagree ? '👎' : '📝');
+            const sub = isAgree ? 'Ủng hộ nhận định trong đề bài (Bảo vệ quan điểm tích cực / thuận lợi)' : 'Phản đối nhận định trong đề bài (Lập luận theo hướng ngược lại / bảo vệ góc nhìn đối lập)';
+            return `
+              <div class="stance-card-btn ${stanceClass} ${isActive ? 'active' : ''}" onclick="switchTopicApproach(${idx})">
+                <div class="stance-icon-bubble">${icon}</div>
+                <div class="stance-card-info">
+                  <div class="stance-card-name">
+                    <span>${appr.name}</span>
+                    ${isActive ? '<span class="stance-active-indicator">Đang chọn</span>' : ''}
+                  </div>
+                  <div class="stance-card-sub">${sub}</div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }
+
   const ideaSelectorHtml = renderIdeaSelectionComponent(topic);
 
   let referenceArticlesHtml = '';
@@ -7815,6 +7886,8 @@ function renderStep1Reading() {
         </div>
       </div>
     ` : ''}
+
+    ${stanceSelectorHtml}
 
     ${ideaSelectorHtml}
     
