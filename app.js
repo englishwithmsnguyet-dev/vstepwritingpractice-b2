@@ -8015,6 +8015,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('gateway-class').value = savedClass;
     updateClassAccessUI();
   }
+  updateStudentProfileDisplay();
 
   // Anti-cheat: tab switch & window blur detection (chỉ cảnh báo khi THỰC SỰ chuyển tab hoặc qua màn hình/ứng dụng khác)
   let essayBlurTimeout = null;
@@ -8281,6 +8282,7 @@ function submitGatewayAccess() {
       appContainer.style.setProperty('display', 'flex', 'important');
     }
     updateClassAccessUI();
+    updateStudentProfileDisplay();
     showToast(`Chào mừng Giáo viên ${teacherName} đã đăng nhập hệ thống!`, 'success');
 
     // Post teacher entry in background
@@ -8402,6 +8404,7 @@ function submitGatewayAccess() {
     appContainer.style.setProperty('display', 'flex', 'important');
   }
   updateClassAccessUI();
+  updateStudentProfileDisplay();
   renderDashboard();
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
 
@@ -8415,6 +8418,47 @@ function submitGatewayAccess() {
     formData.append('entry.1205151935', finalData);
     fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
   } catch(e) {}
+}
+
+function updateStudentProfileDisplay() {
+  const nameEl = document.getElementById('studentNameDisplay');
+  const classEl = document.getElementById('studentClassDisplay');
+  const avatarIcon = document.getElementById('studentAvatarIcon');
+  const userName = sessionStorage.getItem('current_user_name');
+  const userClass = sessionStorage.getItem('current_user_class');
+  const isTeacher = userClass === 'GV' || (userName && (userName === 'PTMN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))));
+  
+  if (nameEl) {
+    nameEl.textContent = userName || 'Chưa đăng nhập';
+    nameEl.title = userName || '';
+  }
+  if (classEl) {
+    if (isTeacher) {
+      classEl.innerHTML = '<span class="badge-class" style="background: rgba(16,185,129,0.15); color: #059669;">Giáo viên (GV)</span>';
+    } else {
+      classEl.innerHTML = `<span class="badge-class">${userClass ? 'Lớp: ' + userClass : 'Lớp: --'}</span>`;
+    }
+  }
+  if (avatarIcon) {
+    avatarIcon.innerHTML = isTeacher ? '<i class="fa-solid fa-chalkboard-user"></i>' : '<i class="fa-solid fa-user-graduate"></i>';
+  }
+}
+
+function reopenGateway() {
+  if (confirm('Bạn có muốn đăng xuất và đổi thông tin tài khoản không?')) {
+    sessionStorage.removeItem('current_user_name');
+    sessionStorage.removeItem('current_user_class');
+    const gateway = document.getElementById('access-gateway');
+    const appContainer = document.getElementById('app-container');
+    if (gateway) {
+      gateway.classList.remove('hidden-gateway');
+      gateway.style.setProperty('display', 'flex', 'important');
+    }
+    if (appContainer) {
+      appContainer.style.setProperty('display', 'none', 'important');
+    }
+    updateStudentProfileDisplay();
+  }
 }
 
 // Mobile Sidebar Helpers
