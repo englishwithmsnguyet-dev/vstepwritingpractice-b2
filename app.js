@@ -175,7 +175,7 @@ function switchScreen(screenName) {
   const links = document.querySelectorAll('.nav-link');
   if (screenName === 'dashboard') {
     links[0].classList.add('active');
-    document.getElementById('page-header-title').innerText = 'HOME PAGE';
+    document.getElementById('page-header-title').innerText = 'PHÒNG VIẾT LUẬN B2';
     document.getElementById('global-search-container').style.display = 'block';
     renderDashboard();
   } else if (screenName === 'history') {
