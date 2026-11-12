@@ -806,6 +806,7 @@ function startPractice(catId, topicId) {
   
   currentCategory = category;
   currentTopic = topic;
+  recordTopicVisit(category, topic);
   currentApproachIndex = 0;
   if (topic.approaches && topic.approaches.length > 0) {
     topic.details = topic.approaches[0].details;
@@ -1167,6 +1168,10 @@ function switchStep(stepTarget) {
     if (!confirmLeave) return;
     saveProgressAction(true);
     stopTimer();
+  }
+
+  if (typeof currentStepKey !== 'undefined' && currentStepKey === 'trans' && targetKey !== 'trans') {
+    reportTranslationProgressIfAny();
   }
 
   currentStepKey = targetKey;
@@ -2567,6 +2572,17 @@ function checkTranslation(idx) {
     }
   }
   
+  // Track current session translation attempt & accuracy
+  if (sessionTracking.isLoggedIn && currentCategory && currentTopic) {
+    const transKey = `${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
+    sessionTracking.transResults[transKey] = { isCorrect: Boolean(evalResult.isCorrect) };
+    localStorage.setItem(`trans_correct_${transKey}`, evalResult.isCorrect ? 'true' : 'false');
+    const transStats = getTranslationSessionStats(currentTopic, currentCategory, currentTransLevel);
+    if (transStats.topicTotal > 0 && transStats.topicAttempted === transStats.topicTotal) {
+      reportTranslationProgressIfAny();
+    }
+  }
+
   if (!isChecked) {
     // First time checking: reveal answer, mark as checked
     ansBox.classList.add('active');
@@ -5625,16 +5641,36 @@ function submitEssay() {
   
   hasSubmitted = true;
 
-  // Report essay submission & total cheating count to Google Forms
+  // Record submission and report complete results + time on site + cheating count to Google Forms
   try {
     const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
     const studentClass = sessionStorage.getItem('current_user_class') || '';
     const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
+    if (sessionTracking.isLoggedIn) {
+      sessionTracking.essaySubmissions.push({
+        topicTitle,
+        score: finalScore,
+        tfScore,
+        orgScore,
+        vocabScore,
+        grammarScore,
+        wordCount: words,
+        cheatCount: cheatViolationCount
+      });
+    }
     const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
     const isTeacher = typeof checkIsTeacher === 'function' && checkIsTeacher(studentName, studentClass, '');
     const prefix = isTeacher ? '[GIÁO VIÊN TEST] ' : '';
     const cheatSummary = cheatViolationCount > 0 ? `⚠️ Số lần gian lận: ${cheatViolationCount} lần` : 'Số lần gian lận: 0 lần (Nghiêm túc)';
-    sendTrackingReport(`${prefix}[NỘP BÀI] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Điểm: ${finalScore.toFixed(1)}/10 (${words} từ) - ${cheatSummary} lúc ${nowVi}`);
+    const { totalElapsed, activeSeconds } = getSessionDurations();
+    const writeTime = formatDurationVi(sessionTracking.stepSeconds.write);
+    const transStats = getTranslationSessionStats(currentTopic, currentCategory, currentTransLevel);
+    const transPart = transStats.topicAttempted > 0
+      ? ` - Dịch câu: ${transStats.topicCorrect}/${transStats.topicTotal} đúng (Đã làm ${transStats.topicAttempted})`
+      : '';
+    sendTrackingReport(
+      `${prefix}[NỘP BÀI] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Điểm: ${finalScore.toFixed(1)}/10 (TF:${tfScore.toFixed(1)} ORG:${orgScore.toFixed(1)} VOC:${vocabScore.toFixed(1)} GRA:${grammarScore.toFixed(1)} | ${words} từ)${transPart} - ${cheatSummary} - Ở web: ${formatDurationVi(totalElapsed)} (Hoạt động thực: ${formatDurationVi(activeSeconds)}, Viết bài: ${writeTime}) lúc ${nowVi}`
+    );
   } catch (e) {}
 
   renderStep3VstepEvaluation({
@@ -6172,22 +6208,229 @@ function exitExamMode() {
   showToast("🚪 Bạn đã rời khỏi phòng thi. Bản nháp đã được lưu an toàn.", "info");
 }
 
-// --- Anti-Cheat & Teacher Account Lock System ---
+// --- Anti-Cheat, Time-on-Site & Result Telemetry System ---
 
 const TRACKING_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
 const TRACKING_FORM_ENTRY = 'entry.1205151935';
 
+const sessionTracking = {
+  isLoggedIn: false,
+  userName: '',
+  userClass: '',
+  isTeacher: false,
+  loginTimeMs: 0,
+  activeSeconds: 0,
+  stepSeconds: { read: 0, vocab: 0, trans: 0, write: 0, model: 0 },
+  topicsVisited: [],
+  transResults: {},
+  lastTransReportKey: '',
+  essaySubmissions: [],
+  totalCheats: 0,
+  exitReportSent: false,
+  tickerInterval: null
+};
+
 /**
- * Send attendance, login, submission, anti-cheat, or lock/unlock event to Google Forms.
- * Uses no-cors POST so tracking fails silently without blocking the UI.
+ * Format duration in seconds to a concise Vietnamese string.
  */
-function sendTrackingReport(message) {
+function formatDurationVi(totalSeconds) {
+  const secs = Math.max(0, Math.round(totalSeconds || 0));
+  const h = Math.floor(secs / 3600);
+  const m = Math.floor((secs % 3600) / 60);
+  const s = secs % 60;
+  if (h > 0) return `${h}g ${m}p ${s}s`;
+  if (m > 0) return `${m}p ${s}s`;
+  return `${s}s`;
+}
+
+/**
+ * Send attendance, login, study time, result, or anti-cheat report to Google Forms.
+ * Uses sendBeacon + keepalive fetch when closing the page so exit reports reliably arrive.
+ */
+function sendTrackingReport(message, useBeacon = false) {
   try {
     if (!message) return;
+    if (useBeacon && typeof navigator !== 'undefined' && navigator.sendBeacon) {
+      const params = new URLSearchParams();
+      params.append(TRACKING_FORM_ENTRY, message);
+      if (navigator.sendBeacon(TRACKING_FORM_URL, params)) {
+        return;
+      }
+    }
     const formData = new FormData();
     formData.append(TRACKING_FORM_ENTRY, message);
-    fetch(TRACKING_FORM_URL, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+    fetch(TRACKING_FORM_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      keepalive: Boolean(useBeacon),
+      body: formData
+    }).catch(() => {});
   } catch (err) {}
+}
+
+/**
+ * Initialize or reset the active session timer upon login.
+ */
+function startSessionTracking(userName, userClass, isTeacher) {
+  if (sessionTracking.tickerInterval) {
+    clearInterval(sessionTracking.tickerInterval);
+    sessionTracking.tickerInterval = null;
+  }
+  sessionTracking.isLoggedIn = true;
+  sessionTracking.userName = userName || 'Học viên';
+  sessionTracking.userClass = userClass || '';
+  sessionTracking.isTeacher = Boolean(isTeacher);
+  sessionTracking.loginTimeMs = Date.now();
+  sessionTracking.activeSeconds = 0;
+  sessionTracking.stepSeconds = { read: 0, vocab: 0, trans: 0, write: 0, model: 0 };
+  sessionTracking.topicsVisited = [];
+  sessionTracking.transResults = {};
+  sessionTracking.lastTransReportKey = '';
+  sessionTracking.essaySubmissions = [];
+  sessionTracking.totalCheats = 0;
+  sessionTracking.exitReportSent = false;
+
+  sessionTracking.tickerInterval = setInterval(() => {
+    if (!sessionTracking.isLoggedIn || document.hidden) return;
+    sessionTracking.activeSeconds++;
+    if (typeof currentScreen !== 'undefined' && currentScreen === 'workspace' &&
+        typeof currentStepKey !== 'undefined' && sessionTracking.stepSeconds.hasOwnProperty(currentStepKey)) {
+      sessionTracking.stepSeconds[currentStepKey]++;
+    }
+  }, 1000);
+}
+
+/**
+ * Record a topic opened during the current session.
+ */
+function recordTopicVisit(category, topic) {
+  if (!sessionTracking.isLoggedIn || !category || !topic) return;
+  const label = `Dạng ${category.id}-${topic.id}: ${topic.title_en}`;
+  if (!sessionTracking.topicsVisited.includes(label)) {
+    sessionTracking.topicsVisited.push(label);
+  }
+}
+
+/**
+ * Return elapsed wall-clock seconds and active foreground seconds for this session.
+ */
+function getSessionDurations() {
+  const totalElapsed = sessionTracking.loginTimeMs
+    ? Math.max(0, Math.round((Date.now() - sessionTracking.loginTimeMs) / 1000))
+    : 0;
+  return {
+    totalElapsed,
+    activeSeconds: sessionTracking.activeSeconds
+  };
+}
+
+/**
+ * Summarize translation exercise attempts & correctness across the session (and optional topic).
+ */
+function getTranslationSessionStats(topic = null, category = null, level = 'B2') {
+  const entries = Object.values(sessionTracking.transResults);
+  const totalAttempted = entries.length;
+  const totalCorrect = entries.filter(e => e.isCorrect).length;
+
+  let topicAttempted = 0;
+  let topicCorrect = 0;
+  let topicTotal = 0;
+  if (topic && category) {
+    const exercises = buildTranslationExercises(topic, level, category);
+    topicTotal = exercises.length;
+    const prefix = `${category.id}_${topic.id}_${level}_`;
+    Object.keys(sessionTracking.transResults).forEach(k => {
+      if (k.startsWith(prefix)) {
+        topicAttempted++;
+        if (sessionTracking.transResults[k].isCorrect) topicCorrect++;
+      }
+    });
+  }
+
+  return { totalAttempted, totalCorrect, topicAttempted, topicCorrect, topicTotal };
+}
+
+/**
+ * Send translation practice progress report when completing exercises or moving to Write step.
+ */
+function reportTranslationProgressIfAny() {
+  if (!sessionTracking.isLoggedIn || !currentTopic || !currentCategory) return;
+  const stats = getTranslationSessionStats(currentTopic, currentCategory, currentTransLevel);
+  if (stats.topicAttempted === 0) return;
+
+  const dedupKey = `${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${stats.topicAttempted}_${stats.topicCorrect}`;
+  if (sessionTracking.lastTransReportKey === dedupKey) return;
+  sessionTracking.lastTransReportKey = dedupKey;
+
+  const { totalElapsed, activeSeconds } = getSessionDurations();
+  const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
+  const prefix = sessionTracking.isTeacher ? '[GIÁO VIÊN TEST] ' : '';
+  sendTrackingReport(
+    `${prefix}[KẾT QUẢ DỊCH CÂU] ${sessionTracking.userName} - Lớp ${sessionTracking.userClass} - Đề: ${currentTopic.title_en} (${currentTransLevel}) - Kết quả: ${stats.topicCorrect}/${stats.topicTotal} đúng (Đã làm ${stats.topicAttempted}/${stats.topicTotal}) - Ở web: ${formatDurationVi(totalElapsed)} (Hoạt động thực: ${formatDurationVi(activeSeconds)}) - Gian lận: ${sessionTracking.totalCheats} lần lúc ${nowVi}`
+  );
+}
+
+/**
+ * Send final session summary (time spent on web, activities completed, scores, cheat count)
+ * when the user logs out or closes the tab. Helps detect superficial logins.
+ */
+function sendExitSessionReport(reason = 'leave') {
+  if (!sessionTracking.isLoggedIn || sessionTracking.exitReportSent) return;
+  sessionTracking.exitReportSent = true;
+  if (sessionTracking.tickerInterval) {
+    clearInterval(sessionTracking.tickerInterval);
+    sessionTracking.tickerInterval = null;
+  }
+
+  const { totalElapsed, activeSeconds } = getSessionDurations();
+  const transStats = getTranslationSessionStats();
+  const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
+
+  const isLowEffort = !sessionTracking.isTeacher &&
+    activeSeconds < 60 &&
+    transStats.totalAttempted === 0 &&
+    sessionTracking.essaySubmissions.length === 0;
+
+  const prefix = sessionTracking.isTeacher
+    ? '[GIÁO VIÊN TEST] [RỜI WEB]'
+    : (isLowEffort ? '[RỜI WEB - ⚠️ NGHI VẤN VÀO ĐỐI PHÓ (< 1 PHÚT)]' : '[RỜI WEB / TỔNG KẾT PHIÊN]');
+
+  const s = sessionTracking.stepSeconds;
+  const stepDetail = `Đọc: ${formatDurationVi(s.read)}, Từ vựng: ${formatDurationVi(s.vocab)}, Dịch: ${formatDurationVi(s.trans)}, Viết: ${formatDurationVi(s.write)}, Mẫu: ${formatDurationVi(s.model)}`;
+  const topicsStr = sessionTracking.topicsVisited.length > 0
+    ? `${sessionTracking.topicsVisited.length} đề (${sessionTracking.topicsVisited.slice(0, 3).join('; ')})`
+    : 'Chưa mở đề nào';
+  const transStr = transStats.totalAttempted > 0
+    ? `${transStats.totalCorrect}/${transStats.totalAttempted} câu đúng`
+    : 'Chưa làm dịch câu';
+
+  let essayStr = 'Chưa nộp bài luận';
+  if (sessionTracking.essaySubmissions.length > 0) {
+    essayStr = sessionTracking.essaySubmissions
+      .map(sub => `${sub.topicTitle}: ${sub.score.toFixed(1)}/10 (${sub.wordCount} từ)`)
+      .join(' | ');
+  } else {
+    const textarea = document.getElementById('essay-textarea');
+    const draftText = textarea ? textarea.value.trim() : '';
+    if (draftText) {
+      const draftWords = draftText.split(/\s+/).filter(Boolean).length;
+      essayStr = `Chưa nộp (Đang gõ nháp ${draftWords} từ)`;
+    }
+  }
+
+  const cheatStr = sessionTracking.totalCheats > 0
+    ? `⚠️ ${sessionTracking.totalCheats} lần`
+    : '0 lần';
+
+  const msg = `${prefix} ${sessionTracking.userName} - Lớp ${sessionTracking.userClass} - Thời gian ở web: ${formatDurationVi(totalElapsed)} (Hoạt động thực: ${formatDurationVi(activeSeconds)} | ${stepDetail}) - Đề đã xem: ${topicsStr} - Dịch câu: ${transStr} - Bài luận: ${essayStr} - Số lần gian lận: ${cheatStr} (${reason}) lúc ${nowVi}`;
+
+  sendTrackingReport(msg, true);
+  sessionTracking.isLoggedIn = false;
+}
+
+if (typeof window !== 'undefined' && window.addEventListener) {
+  window.addEventListener('pagehide', () => sendExitSessionReport('pagehide'));
+  window.addEventListener('beforeunload', () => sendExitSessionReport('beforeunload'));
 }
 
 /**
@@ -6253,7 +6496,8 @@ function lockCurrentAccount(reason) {
   // Send lock event to Google Forms
   const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
   const reasonText = formatCheatReasonText(reason);
-  sendTrackingReport(`[TẠM KHÓA TÀI KHOẢN DO VI PHẠM 3 LẦN] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Lý do: ${reasonText} - Tổng số lần gian lận: ${cheatViolationCount} lúc ${lockInfo.timeVi}`);
+  const { totalElapsed } = getSessionDurations();
+  sendTrackingReport(`[TẠM KHÓA TÀI KHOẢN DO VI PHẠM 3 LẦN] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Lý do: ${reasonText} - Tổng số lần gian lận: ${cheatViolationCount} - Ở web: ${formatDurationVi(totalElapsed)} lúc ${lockInfo.timeVi}`);
 
   showAccountLockedModal(reason);
 }
@@ -6386,6 +6630,7 @@ function handleCheatViolation(reason) {
   if (now - lastCheatAlertTime < 2500) return; // Debounce alerts
   lastCheatAlertTime = now;
   cheatViolationCount++;
+  sessionTracking.totalCheats++;
 
   const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
   const studentClass = sessionStorage.getItem('current_user_class') || '';
@@ -6400,8 +6645,9 @@ function handleCheatViolation(reason) {
   const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
   const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
   const reasonText = formatCheatReasonText(reason);
+  const { totalElapsed } = getSessionDurations();
   const prefix = isTeacher ? '[GIÁO VIÊN TEST] ' : '';
-  sendTrackingReport(`${prefix}[VI PHẠM GIAN LẬN LẦN ${String(cheatViolationCount).padStart(2, '0')}/3] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Hành vi: ${reasonText} - Tổng số lần gian lận: ${cheatViolationCount} lúc ${nowVi}`);
+  sendTrackingReport(`${prefix}[VI PHẠM GIAN LẬN LẦN ${String(cheatViolationCount).padStart(2, '0')}/3] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Hành vi: ${reasonText} - Tổng số lần gian lận: ${cheatViolationCount} - Tổng gian lận phiên: ${sessionTracking.totalCheats} - Ở web: ${formatDurationVi(totalElapsed)} lúc ${nowVi}`);
 
   const modal = document.getElementById('cheat-warning-modal');
   const countBadge = document.getElementById('cheat-warning-count');
@@ -8319,6 +8565,7 @@ function submitGatewayAccess() {
     }
     updateClassAccessUI();
     updateStudentProfileDisplay();
+    startSessionTracking(teacherName, classInput || 'GV', true);
     showToast(`Chào mừng Giáo viên ${teacherName} đã đăng nhập hệ thống!`, 'success');
 
     // Post teacher entry in background
@@ -8435,6 +8682,7 @@ function submitGatewayAccess() {
   }
   updateClassAccessUI();
   updateStudentProfileDisplay();
+  startSessionTracking(matchedName, classInput, false);
   renderDashboard();
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
 
@@ -8470,6 +8718,7 @@ function updateStudentProfileDisplay() {
 
 function reopenGateway() {
   if (confirm('Bạn có muốn đăng xuất và đổi thông tin tài khoản không?')) {
+    sendExitSessionReport('logout');
     sessionStorage.removeItem('current_user_name');
     sessionStorage.removeItem('current_user_class');
     const gateway = document.getElementById('access-gateway');
