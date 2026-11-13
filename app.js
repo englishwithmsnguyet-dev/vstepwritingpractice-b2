@@ -5474,13 +5474,16 @@ function submitEssay() {
   const frequentLanguageControlIssues = (totalControlErrors >= 4 || hasRepeatedErrors);
 
   // 5. Compute VSTEP Criteria Scores out of 10
-  let tfScore = 4.0;
+  // Thang điểm chuẩn VSTEP Task 2 (quy định tối thiểu 250 từ)
+  let tfScore = 3.5;
   if (words >= 350) tfScore = 9.0;
-  else if (words >= 300) tfScore = 8.0;
-  else if (words >= 250) tfScore = 7.0;
-  else if (words >= 200) tfScore = 6.0;
-  else if (words >= 170) tfScore = 5.0;
-  else tfScore = 4.0;
+  else if (words >= 300) tfScore = 8.5;
+  else if (words >= 260) tfScore = 7.5;
+  else if (words >= 250) tfScore = 7.0; // Đạt chuẩn tối thiểu VSTEP Task 2 (>= 250 từ)
+  else if (words >= 230) tfScore = 5.5; // Thiếu nhẹ (230 - 249 từ)
+  else if (words >= 200) tfScore = 4.5; // Thiếu nhiều (200 - 229 từ): không đủ dung lượng đạt B2
+  else if (words >= 170) tfScore = 4.0;
+  else tfScore = 3.5;
 
   // TOPIC RELEVANCE VALIDATION
   if (currentTopic && currentTopic.title_en) {
@@ -5519,7 +5522,7 @@ function submitEssay() {
   const orgBonus = Math.min(1.5, transitionMatches * 0.3);
   const orgScore = Math.min(10.0, orgBase + orgBonus);
 
-  let vocabBase = 6.0;
+  let vocabBase = 5.5;
   if (vocabMatches.length > 0) {
     vocabBase += (matchedCount / vocabMatches.length) * 2.0;
   } else {
@@ -5530,7 +5533,7 @@ function submitEssay() {
   const vocabDeduction = (totalVocabErrors * 0.3) + (totalCollocErrors * 0.4);
   let vocabScore = Math.max(1.0, Math.min(10.0, vocabBase - vocabDeduction));
 
-  let grammarBase = 6.0;
+  let grammarBase = 5.5;
   const complexSentenceRegex = /\b(although|because|which|who|whom|whose|if|unless|while|whereas|despite|whether|provided)\b/gi;
   const complexMatches = trimmed.match(complexSentenceRegex);
   if (complexMatches && complexMatches.length >= 3) grammarBase += 1.0;
@@ -5553,6 +5556,29 @@ function submitEssay() {
 
   const rawScore = (tfScore + orgScore + vocabScore + grammarScore) / 4;
   let finalScore = Math.min(10.0, Math.round(rawScore * 2) / 2);
+
+  // HARD WORD COUNT LEVEL CAP (VSTEP Task 2 quy định bài viết tối thiểu 250 từ)
+  let wordCountCapTriggered = false;
+  let wordCountCapLimit = 10.0;
+  let wordCountCapReason = "";
+
+  if (words < 200) {
+    wordCountCapTriggered = true;
+    wordCountCapLimit = 4.5;
+    wordCountCapReason = `Bài viết chỉ có ${words} từ (thiếu ${250 - words} từ so với chuẩn tối thiểu 250 từ). Theo quy chế khảo thí VSTEP Task 2, bài viết dưới 200 từ bị trừ nặng điểm Task Fulfillment và bị giới hạn trần điểm tối đa ở mức 4.5 (Dưới B1).`;
+  } else if (words < 230) {
+    wordCountCapTriggered = true;
+    wordCountCapLimit = 5.0;
+    wordCountCapReason = `Bài viết có ${words} từ (chưa đạt chuẩn tối thiểu 250 từ của VSTEP Task 2). Mặc dù các đoạn văn có thể được tổ chức tốt, dung lượng 200-229 từ chưa đủ sâu để đạt trình độ B2. Do đó, điểm số tổng thể được giới hạn tối đa ở trình độ B1 (tối đa 5.0).`;
+  } else if (words < 250) {
+    wordCountCapTriggered = true;
+    wordCountCapLimit = 5.5;
+    wordCountCapReason = `Bài viết có ${words} từ (thiếu ${250 - words} từ so với chuẩn tối thiểu 250 từ). Tiêu chí Task Fulfillment bị trừ điểm do dung lượng chưa trọn vẹn, trần điểm tổng thể được giới hạn ở mức tối đa 5.5 (B1+).`;
+  }
+
+  if (wordCountCapTriggered && finalScore > wordCountCapLimit) {
+    finalScore = wordCountCapLimit;
+  }
   
   // OFF-TOPIC CRITICAL OVERRIDE
   let isOffTopic = false;
@@ -5593,6 +5619,8 @@ function submitEssay() {
   let feedbackText = "";
   if (isOffTopic) {
     feedbackText = "LẠC ĐỀ HOÀN TOÀN (0% Topic Match): Bài làm không giải quyết bất cứ yêu cầu nào của đề thi hoặc có dấu hiệu học tủ một bài mẫu khác. Ngôn ngữ mạnh không thể bù đắp cho việc trả lời sai đề. Bài viết bị đánh trượt (1.0).";
+  } else if (wordCountCapTriggered && rawScore > wordCountCapLimit) {
+    feedbackText = wordCountCapReason;
   } else if (languageControlOverrideSevere && rawScore > 4.0) {
     feedbackText = "Bài viết có độ dài hoặc bố cục đạt yêu cầu nhưng việc kiểm soát ngôn ngữ (Từ vựng & Ngữ pháp) đều yếu (dưới 4.5). Điểm số tổng thể bị giới hạn tối đa ở mức 4.0 do ngôn từ không đủ chính xác để bù đắp cho cấu trúc.";
   } else if (languageControlOverrideTriggered && rawScore > 4.5) {
@@ -5600,10 +5628,13 @@ function submitEssay() {
   } else if (frequentLanguageControlIssues && rawScore >= 5.5) {
     feedbackText = "Bài viết có độ dài tốt nhưng mắc nhiều lỗi lặp lại hoặc xuất hiện lỗi hệ thống (chia động từ, giới từ, dạng từ, collocation) tại nhiều đoạn văn khác nhau. Điều này thể hiện khả năng kiểm soát ngôn ngữ còn hạn chế, do đó điểm số được giới hạn ở trình độ B1 (tối đa 5.0).";
   } else {
-    if (finalScore >= 8.5) feedbackText = "Xuất sắc! Đạt trình độ C1. Sử dụng từ vựng đa dạng và liên kết đoạn tốt.";
-    else if (finalScore >= 6.0) feedbackText = "Khá tốt! Đạt trình độ B2. Bài viết mạch lạc, đủ từ và cấu trúc hợp lệ.";
-    else if (finalScore >= 4.0) feedbackText = "Đạt yêu cầu! Trình độ B1. Hãy bổ sung thêm từ nối và mở rộng luận cứ.";
-    else feedbackText = "Dưới trung bình. Cần cố gắng viết dài hơn và bổ sung từ vựng cơ bản.";
+    const wordStatusNote = words >= 250 
+      ? "đạt chuẩn dung lượng tối thiểu (≥ 250 từ)" 
+      : `chưa đủ dung lượng chuẩn VSTEP (có ${words}/250 từ)`;
+    if (finalScore >= 8.5) feedbackText = `Xuất sắc! Đạt trình độ C1. Sử dụng từ vựng phong phú, bố cục chặt chẽ và ${wordStatusNote}.`;
+    else if (finalScore >= 6.0) feedbackText = `Khá tốt! Đạt trình độ B2. Bài viết mạch lạc, bố cục rõ ràng và ${wordStatusNote}.`;
+    else if (finalScore >= 4.0) feedbackText = `Đạt trình độ B1. Bài viết ${wordStatusNote}. Hãy mở rộng thêm luận cứ, ví dụ minh họa và từ nối chuyển ý.`;
+    else feedbackText = `Dưới chuẩn B1 (${words} từ). Cần viết dài hơn (tối thiểu 250 từ) và bổ sung cấu trúc, từ vựng nền tảng.`;
   }
   
   document.getElementById('estimated-score').innerText = finalScore.toFixed(1);
@@ -5611,13 +5642,13 @@ function submitEssay() {
   
   const detailsList = document.getElementById('feedback-details-list');
   detailsList.innerHTML = `
-    <div class="grade-detail-card ${tfScore >= 8.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
+    <div class="grade-detail-card ${tfScore >= 7.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
       <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
         <span class="grade-detail-title" style="font-weight: 700;">1. TASK FULFILLMENT</span>
         <span style="font-weight: bold;">${tfScore.toFixed(1)} / 10</span>
       </div>
       <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-        Độ dài: ${words} từ. ${words >= 250 ? 'Đạt độ dài tiêu chuẩn tối thiểu 250 từ.' : 'Chưa đạt độ dài yêu cầu. Hãy viết dài hơn.'}
+        Độ dài: ${words} từ. ${words >= 250 ? 'Đạt độ dài tiêu chuẩn tối thiểu (≥ 250 từ).' : 'Chưa đạt chuẩn tối thiểu 250 từ (thiếu ' + (250 - words) + ' từ). Bị trừ điểm Task Fulfillment.'}
       </div>
     </div>
     <div class="grade-detail-card ${orgScore >= 8.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
@@ -5730,7 +5761,9 @@ function submitEssay() {
     totalVocabErrors: totalVocabErrors,
     totalCollocErrors: totalCollocErrors,
     totalStructureErrors: totalStructureErrors,
-    frequentLanguageControlIssues: frequentLanguageControlIssues
+    frequentLanguageControlIssues: frequentLanguageControlIssues,
+    wordCountCapTriggered: wordCountCapTriggered,
+    wordCountCapReason: wordCountCapReason
   });
 
   const editorView = document.getElementById('step3-editor-view');
@@ -5792,7 +5825,9 @@ function renderStep3VstepEvaluation(data) {
     totalVocabErrors,
     totalCollocErrors,
     totalStructureErrors,
-    frequentLanguageControlIssues
+    frequentLanguageControlIssues,
+    wordCountCapTriggered,
+    wordCountCapReason
   } = data;
 
   const pTF = (tfScore / 10) * 100;
@@ -5800,11 +5835,20 @@ function renderStep3VstepEvaluation(data) {
   const pVocab = (vocabScore / 10) * 100;
   const pGrammar = (grammarScore / 10) * 100;
   
-  let commentTF = tfScore >= 9.0 
-    ? "Xuất sắc! Bài viết đạt độ dài lý tưởng (trên 250 từ) đáp ứng hoàn hảo yêu cầu VSTEP Task 2."
-    : tfScore >= 7.0 
-    ? "Khá tốt. Bài viết đạt trên 200 từ, đáp ứng tương đối đầy đủ yêu cầu nhưng nên mở rộng sâu hơn."
-    : "Bài viết chưa đạt độ dài khuyến nghị (250 từ). Bạn cần đưa thêm luận điểm và ví dụ cụ thể hơn.";
+  let commentTF = "";
+  if (wordCount >= 350) {
+    commentTF = "Xuất sắc! Độ dài bài viết rất tốt (trên 350 từ), phát triển ý sâu và toàn diện theo chuẩn VSTEP Task 2.";
+  } else if (wordCount >= 300) {
+    commentTF = "Rất tốt! Bài viết đạt trên 300 từ, đáp ứng vượt mức dung lượng yêu cầu và phát triển ý đầy đủ.";
+  } else if (wordCount >= 250) {
+    commentTF = "Đạt yêu cầu chuẩn độ dài tối thiểu của VSTEP Task 2 (≥ 250 từ). Các luận điểm đã được triển khai tương đối trọn vẹn.";
+  } else if (wordCount >= 230) {
+    commentTF = `Bài viết có ${wordCount} từ (thiếu nhẹ ${250 - wordCount} từ so với chuẩn 250 từ). Tiêu chí Task Fulfillment bị trừ điểm do dung lượng chưa hoàn thiện.`;
+  } else if (wordCount >= 200) {
+    commentTF = `Chưa đạt chuẩn độ dài VSTEP Task 2! Bài viết chỉ có ${wordCount} từ (thiếu ${250 - wordCount} từ để đạt mức tối thiểu 250 từ). Với dung lượng này, bài viết chưa đủ sâu để đạt B2.`;
+  } else {
+    commentTF = `Bài viết quá ngắn (${wordCount} từ, thiếu ${250 - wordCount} từ so với chuẩn 250 từ). Bị trừ điểm nặng ở Task Fulfillment và giới hạn bậc trình độ.`;
+  }
 
   let commentORG = orgScore >= 9.0
     ? "Tuyệt vời! Bố cục mạch lạc chuẩn 4 đoạn với hệ thống từ nối (Transitions) cực kỳ liên kết, chuyển mạch tự nhiên."
@@ -6065,6 +6109,18 @@ function renderStep3VstepEvaluation(data) {
         </div>
       </div>
     </div>
+
+    <!-- WORD COUNT CALIBRATION ALERT -->
+    ${wordCountCapTriggered ? `
+      <div style="background-color: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: var(--radius-md); padding: 1rem 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="var(--warning, #f59e0b)" style="width: 20px; height: 20px; margin-top: 0.1rem; flex-shrink: 0;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+        </svg>
+        <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
+          <strong style="color: var(--warning, #d97706);">Giới hạn trình độ theo độ dài (Word Count Calibration):</strong> ${wordCountCapReason}
+        </div>
+      </div>
+    ` : ''}
 
     <!-- VSTEP BAND CALIBRATION ALERT -->
     ${frequentLanguageControlIssues ? `
