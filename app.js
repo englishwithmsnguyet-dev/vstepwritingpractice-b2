@@ -3830,50 +3830,83 @@ function evaluateTranslationInput(userInput, modelAnswer) {
   }
 
   // 4. Subject-Verb Agreement checks (Lỗi sự hoà hợp giữa chủ từ và động từ)
-  if (cleanInput.includes("online learning help ") && !cleanInput.includes("helps")) {
-    structuredErrors.push({
-      category: "Lỗi hòa hợp chủ ngữ - động từ (Subject-Verb Agreement)",
-      location: '"online learning help"',
-      explanation: "Động từ đi sau chủ ngữ số ít 'online learning' phải chia số ít ('helps' thay vì 'help')."
-    });
-  }
-  if (cleanInput.includes("distance learning help ") && !cleanInput.includes("helps")) {
-    structuredErrors.push({
-      category: "Lỗi hòa hợp chủ ngữ - động từ (Subject-Verb Agreement)",
-      location: '"distance learning help"',
-      explanation: "Động từ đi sau chủ ngữ số ít 'distance learning' phải chia số ít ('helps' thay vì 'help')."
-    });
-  }
-  if (cleanInput.includes("e-learning help ") && !cleanInput.includes("helps")) {
-    structuredErrors.push({
-      category: "Lỗi hòa hợp chủ ngữ - động từ (Subject-Verb Agreement)",
-      location: '"e-learning help"',
-      explanation: "Động từ đi sau chủ ngữ số ít 'e-learning' phải chia số ít ('helps' thay vì 'help')."
-    });
-  }
+  const ADVERBS = ["always", "often", "usually", "sometimes", "rarely", "seldom", "never", "greatly", "strongly", "actively", "directly", "indirectly", "successfully", "easily", "actually", "probably", "certainly", "definitely", "highly", "fully", "totally", "completely"];
+  const adverbPattern = '(?:(?:' + ADVERBS.join('|') + ')\\s+)?';
 
-  // Subject-Verb Agreement Check for other common verbs
-  const singularSubjects = ["online learning", "distance learning", "e-learning", "it", "education", "study", "studying online", "learning online"];
-  singularSubjects.forEach(subj => {
-    const subjIdx = cleanInput.indexOf(subj);
-    if (subjIdx !== -1) {
-      for (const [plurVerb, singVerb] of Object.entries(VERB_PLURAL_TO_SINGULAR)) {
-        const verbIdx = cleanInput.indexOf(plurVerb);
-        if (verbIdx > subjIdx) {
-          const verbRegex = new RegExp('\\b' + plurVerb + '\\b');
-          if (verbRegex.test(cleanInput.slice(subjIdx))) {
-            structuredErrors.push({
-              category: "Lỗi hòa hợp chủ ngữ - động từ (Subject-Verb Agreement)",
-              location: `"${plurVerb}" đi sau chủ ngữ "${subj}"`,
-              explanation: `Động từ đi sau chủ ngữ số ít '${subj}' phải chia số ít. Hãy dùng '${singVerb}' thay vì '${plurVerb}'.`
-            });
-          }
+  const singularSubjectList = [
+    "online learning", "distance learning", "e-learning", "digital learning", "virtual learning",
+    "studying online", "learning online", "working from home", "remote work", "telecommuting",
+    "it", "he", "she", "this", "that", "education", "study", "technology", "the internet",
+    "public transport", "traffic", "pollution", "the government", "society"
+  ];
+  singularSubjectList.sort((a, b) => b.length - a.length);
+
+  const foundSubjectVerbErrors = [];
+
+  // 4A. Singular subjects followed by plural/base verbs
+  for (const subj of singularSubjectList) {
+    for (const [plurVerb, singVerb] of Object.entries(VERB_PLURAL_TO_SINGULAR)) {
+      if (modelWordsSet.has(plurVerb)) {
+        continue;
+      }
+      const verbRegex = new RegExp('\\b(' + subj + ')\\s+(' + adverbPattern + ')(' + plurVerb + ')\\b', 'i');
+      const match = verbRegex.exec(cleanInput);
+      if (match) {
+        const matchIdx = match.index;
+        const textBefore = cleanInput.slice(0, matchIdx).trim();
+        const lastWordBefore = textBefore.split(/\s+/).pop();
+        if (['can', 'could', 'will', 'would', 'should', 'may', 'might', 'must', 'to', 'help', 'helps', 'helped', 'make', 'makes', 'made', 'let', 'lets'].includes(lastWordBefore)) {
+          continue;
+        }
+
+        const subjMatched = match[1];
+        const verbMatched = match[3];
+        const errorLocation = `"${subjMatched} ${verbMatched}"`;
+        if (!structuredErrors.some(e => e.location === errorLocation)) {
+          structuredErrors.push({
+            category: "Lỗi hòa hợp chủ ngữ - động từ (Subject-Verb Agreement)",
+            location: errorLocation,
+            explanation: `Động từ đi sau chủ ngữ số ít '${subjMatched}' phải chia số ít ('${singVerb}' thay vì '${verbMatched}').`
+          });
+          foundSubjectVerbErrors.push({
+            pattern: new RegExp('\\b(' + subjMatched.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '\\s+' + adverbPattern + ')' + verbMatched + '\\b', 'gi'),
+            replacement: `$1${singVerb}`
+          });
         }
       }
     }
-  });
+  }
+
+  // 4B. Plural subjects followed by singular verbs (e.g., "students helps" -> "students help")
+  const pluralSubjectList = ["learners", "students", "teachers", "parents", "children", "people", "they", "we", "schools", "platforms", "benefits", "drawbacks", "problems", "solutions"];
+  for (const subj of pluralSubjectList) {
+    for (const [singVerb, plurVerb] of Object.entries(VERB_SINGULAR_TO_PLURAL)) {
+      if (modelWordsSet.has(singVerb)) {
+        continue;
+      }
+      const verbRegex = new RegExp('\\b(' + subj + ')\\s+(' + adverbPattern + ')(' + singVerb + ')\\b', 'i');
+      const match = verbRegex.exec(cleanInput);
+      if (match) {
+        const subjMatched = match[1];
+        const verbMatched = match[3];
+        const errorLocation = `"${subjMatched} ${verbMatched}"`;
+        if (!structuredErrors.some(e => e.location === errorLocation)) {
+          structuredErrors.push({
+            category: "Lỗi hòa hợp chủ ngữ - động từ (Subject-Verb Agreement)",
+            location: errorLocation,
+            explanation: `Chủ ngữ số nhiều '${subjMatched}' đi với động từ chia số nhiều ('${plurVerb}' thay vì '${verbMatched}').`
+          });
+          foundSubjectVerbErrors.push({
+            pattern: new RegExp('\\b(' + subjMatched.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&') + '\\s+' + adverbPattern + ')' + verbMatched + '\\b', 'gi'),
+            replacement: `$1${plurVerb}`
+          });
+        }
+      }
+    }
+  }
 
   // 5. Tense Check (Lỗi về thì)
+  const foundTenseErrors = [];
   userWords.forEach(w => {
     const presentForms = PAST_TO_PRESENT[w];
     if (presentForms) {
@@ -3884,6 +3917,7 @@ function evaluateTranslationInput(userInput, modelAnswer) {
         location: `"${w}"`,
         explanation: `Hãy dùng thì Hiện tại Đơn (Present Simple) để diễn đạt chân lý/sự thật khách quan. Nên dùng '${suggestedForm}' thay vì dạng quá khứ '${w}'.`
       });
+      foundTenseErrors.push({ word: w, suggestedForm });
     }
   });
 
@@ -3918,10 +3952,12 @@ function evaluateTranslationInput(userInput, modelAnswer) {
   }
 
   // spend time/money for -> on
+  let foundSpendForError = false;
   if (cleanInput.includes("spend") && /\b(time|money|costs|hours|days)\b/.test(cleanInput)) {
     const spendIdx = userWords.indexOf("spend");
     const forIdx = userWords.indexOf("for");
     if (spendIdx !== -1 && forIdx > spendIdx && forIdx - spendIdx <= 4) {
+      foundSpendForError = true;
       structuredErrors.push({
         category: "Lỗi giới từ (Preposition)",
         location: '"for" đi sau "spend"',
@@ -3931,11 +3967,13 @@ function evaluateTranslationInput(userInput, modelAnswer) {
   }
 
   // focus to/in/at -> on
+  let foundFocusError = false;
   if (userWords.includes("focus")) {
     const focusIdx = userWords.indexOf("focus");
     if (focusIdx !== -1 && focusIdx < userWords.length - 1) {
       const nextWord = userWords[focusIdx + 1];
       if (nextWord === 'to' || nextWord === 'in' || nextWord === 'at' || nextWord === 'for') {
+        foundFocusError = true;
         structuredErrors.push({
           category: "Lỗi giới từ (Preposition)",
           location: `"${nextWord}" đi sau "focus"`,
@@ -3946,11 +3984,13 @@ function evaluateTranslationInput(userInput, modelAnswer) {
   }
 
   // participate on/to/for -> in
+  let foundParticipateError = false;
   if (userWords.includes("participate")) {
     const partIdx = userWords.indexOf("participate");
     if (partIdx !== -1 && partIdx < userWords.length - 1) {
       const nextWord = userWords[partIdx + 1];
       if (nextWord === 'on' || nextWord === 'to' || nextWord === 'at' || nextWord === 'for') {
+        foundParticipateError = true;
         structuredErrors.push({
           category: "Lỗi giới từ (Preposition)",
           location: `"${nextWord}" đi sau "participate"`,
@@ -3961,6 +4001,7 @@ function evaluateTranslationInput(userInput, modelAnswer) {
   }
 
   // 8. Word Choice / Context Check (Lỗi dùng từ sai ngữ cảnh)
+  const foundWordChoiceErrors = [];
   for (const [wrongPhrase, suggestion] of Object.entries(CONTEXTUAL_WORD_CHOICES)) {
     if (cleanInput.includes(wrongPhrase)) {
       structuredErrors.push({
@@ -3968,6 +4009,7 @@ function evaluateTranslationInput(userInput, modelAnswer) {
         location: `"${wrongPhrase}"`,
         explanation: `Cụm từ '${wrongPhrase}' chưa tự nhiên. Bạn nên dùng '${suggestion}'.`
       });
+      foundWordChoiceErrors.push({ wrongPhrase, suggestion });
     }
   }
 
@@ -4058,60 +4100,61 @@ function evaluateTranslationInput(userInput, modelAnswer) {
     let corrected = trimmed;
     
     // 1. Contractions
-    for (const [contra, full] of Object.entries(ACADEMIC_CONTRACTIONS)) {
-      const regex = new RegExp('\\b' + contra + '\\b', 'gi');
-      corrected = corrected.replace(regex, full);
-    }
+    foundContractions.forEach(c => {
+      const regex = new RegExp('\\b' + c + '\\b', 'gi');
+      corrected = corrected.replace(regex, ACADEMIC_CONTRACTIONS[c]);
+    });
 
     // 2. Word Choice / Context
-    for (const [wrongPhrase, suggestion] of Object.entries(CONTEXTUAL_WORD_CHOICES)) {
-      const cleanSuggestion = suggestion.split(' / ')[0].split(' (')[0];
-      const regex = new RegExp('\\b' + wrongPhrase + '\\b', 'gi');
+    foundWordChoiceErrors.forEach(err => {
+      const cleanSuggestion = err.suggestion.split(' / ')[0].split(' (')[0];
+      const regex = new RegExp('\\b' + err.wrongPhrase + '\\b', 'gi');
       corrected = corrected.replace(regex, cleanSuggestion);
-    }
+    });
 
-    // 3. Subject-Verb Agreement specific cases
-    corrected = corrected.replace(/\bonline learning help\b/gi, "online learning helps");
-    corrected = corrected.replace(/\bdistance learning help\b/gi, "distance learning helps");
-    corrected = corrected.replace(/\be-learning help\b/gi, "e-learning helps");
+    // 3. Subject-Verb Agreement corrections (ONLY for detected errors!)
+    foundSubjectVerbErrors.forEach(err => {
+      corrected = corrected.replace(err.pattern, err.replacement);
+    });
 
-    // General S-V agreement
-    for (const [plurVerb, singVerb] of Object.entries(VERB_PLURAL_TO_SINGULAR)) {
-      const regex = new RegExp('\\b' + plurVerb + '\\b', 'gi');
-      corrected = corrected.replace(regex, singVerb);
-    }
+    // 4. Tense Check (ONLY for detected tense errors!)
+    foundTenseErrors.forEach(err => {
+      const regex = new RegExp('\\b' + err.word + '\\b', 'gi');
+      corrected = corrected.replace(regex, err.suggestedForm);
+    });
 
-    // 4. Tense Check
-    for (const [past, presObj] of Object.entries(PAST_TO_PRESENT)) {
-      const regex = new RegExp('\\b' + past + '\\b', 'gi');
-      const hasSingularSubject = /\b(online learning|distance learning|e-learning|study|education|it)\b/i.test(corrected);
-      const suggestedForm = hasSingularSubject ? presObj.sing : presObj.plur;
-      corrected = corrected.replace(regex, suggestedForm);
-    }
-
-    // 5. Word Form Check
-    for (const [adj, noun] of Object.entries(ADJECTIVE_TO_NOUN)) {
-      const regex = new RegExp('\\b' + adj + '\\b', 'gi');
-      corrected = corrected.replace(regex, noun);
-    }
+    // 5. Word Form Check (ONLY for detected word form errors!)
+    foundWordFormErrors.forEach(err => {
+      const regex = new RegExp('\\b' + err.adj + '\\b', 'gi');
+      corrected = corrected.replace(regex, err.noun);
+    });
 
     // 6. Prepositions
-    recipients.forEach(r => {
-      const regex = new RegExp('\\bfor\\s+' + r + '\\b', 'gi');
-      corrected = corrected.replace(regex, "to " + r);
-    });
-    corrected = corrected.replace(/\b(spend\s+\w+\s+)for\b/gi, "$1on");
-    corrected = corrected.replace(/\b(spend\s+\w+\s+\w+\s+)for\b/gi, "$1on");
-    corrected = corrected.replace(/\bfocus\s+(to|in|at|for)\b/gi, "focus on");
-    corrected = corrected.replace(/\bparticipate\s+(on|to|at|for)\b/gi, "participate in");
-
-    // 7. Pluralization check
-    for (const [sing, plur] of Object.entries(NOUN_SINGULAR_TO_PLURAL)) {
-      const regex = new RegExp('\\b' + sing + '\\b', 'gi');
-      corrected = corrected.replace(regex, plur);
+    if (hasUserForRecipient && hasModelToRecipient) {
+      recipients.forEach(r => {
+        const regex = new RegExp('\\bfor\\s+' + r + '\\b', 'gi');
+        corrected = corrected.replace(regex, "to " + r);
+      });
+    }
+    if (foundSpendForError) {
+      corrected = corrected.replace(/\b(spend\s+\w+\s+)for\b/gi, "$1on");
+      corrected = corrected.replace(/\b(spend\s+\w+\s+\w+\s+)for\b/gi, "$1on");
+    }
+    if (foundFocusError) {
+      corrected = corrected.replace(/\bfocus\s+(to|in|at|for)\b/gi, "focus on");
+    }
+    if (foundParticipateError) {
+      corrected = corrected.replace(/\bparticipate\s+(on|to|at|for)\b/gi, "participate in");
     }
 
-    // 8. Spelling errors
+    // 7. Pluralization check (ONLY for detected plural errors!)
+    foundPluralErrors.forEach(sing => {
+      const plur = NOUN_SINGULAR_TO_PLURAL[sing];
+      const regex = new RegExp('\\b' + sing + '\\b', 'gi');
+      corrected = corrected.replace(regex, plur);
+    });
+
+    // 8. Spelling errors (ONLY for detected spelling errors!)
     foundSpellingErrors.forEach(err => {
       const regex = new RegExp('\\b' + err.word + '\\b', 'gi');
       corrected = corrected.replace(regex, err.suggestion);
