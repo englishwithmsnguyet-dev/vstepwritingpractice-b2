@@ -5473,17 +5473,45 @@ function submitEssay() {
   const totalControlErrors = totalSVAErrors + totalWFErrors + totalPrepErrors + totalCollocErrors + totalPlurErrors + totalVerbPatternErrors + totalRelativeClauseErrors;
   const frequentLanguageControlIssues = (totalControlErrors >= 4 || hasRepeatedErrors);
 
-  // 5. Compute VSTEP Criteria Scores out of 10
-  // Thang điểm chuẩn VSTEP Task 2 (quy định tối thiểu 250 từ)
+  // 5. Compute VSTEP Criteria Scores out of 10 based on official VSTEP Writing Task Scoring Guide
+  const totalSentences = sentenceAnalysisList.length;
+  const sentencesWithErrors = sentenceAnalysisList.filter(s => s.errors && s.errors.length > 0).length;
+  const errorFreeSentences = Math.max(0, totalSentences - sentencesWithErrors);
+  const errorFreeRatio = totalSentences > 0 ? (errorFreeSentences / totalSentences) : 0;
+  const errorSentenceRatio = totalSentences > 0 ? (sentencesWithErrors / totalSentences) : 0;
+
+  // 1. TASK FULFILMENT (TF) - VSTEP Task 2 Rubric (Band 0 - 10)
+  const exampleRegex = /\b(for example|for instance|such as|specifically|to illustrate|an example of this is|take .* as an example|evidence shows|studies show|a clear case in point)\b/gi;
+  const exampleMatches = (trimmed.match(exampleRegex) || []).length;
+
+  const explanationRegex = /\b(this means that|leads to|as a result|consequently|therefore|because of this|contribute to|results in|owing to|due to this|for this reason)\b/gi;
+  const explanationMatches = (trimmed.match(explanationRegex) || []).length;
+
   let tfScore = 3.5;
-  if (words >= 350) tfScore = 9.0;
-  else if (words >= 300) tfScore = 8.5;
-  else if (words >= 260) tfScore = 7.5;
-  else if (words >= 250) tfScore = 7.0; // Đạt chuẩn tối thiểu VSTEP Task 2 (>= 250 từ)
-  else if (words >= 230) tfScore = 5.5; // Thiếu nhẹ (230 - 249 từ)
-  else if (words >= 200) tfScore = 4.5; // Thiếu nhiều (200 - 229 từ): không đủ dung lượng đạt B2
-  else if (words >= 170) tfScore = 4.0;
-  else tfScore = 3.5;
+  if (words >= 250) {
+    let tfBase = 6.0; // Base score for fulfilling word length requirement
+    if (words >= 300) tfBase = 6.5;
+    if (words >= 350) tfBase = 7.0;
+
+    // Idea development with explanations and concrete examples (VSTEP Band 6 - 9)
+    if (exampleMatches >= 2 && explanationMatches >= 2) {
+      tfScore = tfBase + 1.5; // Well developed with relevant details & examples (Band 8-9)
+    } else if (exampleMatches >= 1 || explanationMatches >= 1) {
+      tfScore = tfBase + 0.5; // Adequately presents key points (Band 6-7)
+    } else {
+      // Missing supporting examples & explanations: Undeveloped key points (Band 5)
+      tfScore = 5.5;
+    }
+  } else if (words >= 230) {
+    tfScore = 5.5; // Slightly underlength
+  } else if (words >= 200) {
+    tfScore = 4.5; // Substantially underlength (Band 4-5)
+  } else if (words >= 170) {
+    tfScore = 4.0;
+  } else {
+    tfScore = 3.5;
+  }
+  tfScore = Math.min(10.0, tfScore);
 
   // TOPIC RELEVANCE VALIDATION
   if (currentTopic && currentTopic.title_en) {
@@ -5514,13 +5542,60 @@ function submitEssay() {
       tfScore = Math.max(1.0, tfScore - topicRelevancePenalty);
     }
   }
+
+  // 2. ORGANIZATION (ORG) - VSTEP Rubric (Within and Across sentences & paragraphing)
   const paragraphsCount = paragraphsList.length;
-  let orgBase = 3.5;
-  if (paragraphsCount >= 4) orgBase = 5.5;
-  else if (paragraphsCount === 3) orgBase = 4.5;
-  
-  const orgBonus = Math.min(1.5, transitionMatches * 0.3);
-  const orgScore = Math.min(10.0, orgBase + orgBonus);
+  const conclusionRegex = /\b(in conclusion|to conclude|to sum up|in summary|all things considered|on the whole|in a nutshell|to encapsulate|taking everything into account)\b/i;
+  const lastParagraph = paragraphsList.length > 0 ? paragraphsList[paragraphsList.length - 1] : "";
+  const hasConclusion = paragraphsCount >= 3 && conclusionRegex.test(lastParagraph);
+
+  let orgScore = 3.5;
+  if (paragraphsCount >= 4) {
+    orgScore = 5.5;
+  } else if (paragraphsCount === 3) {
+    orgScore = 4.5;
+  } else {
+    orgScore = 3.5;
+  }
+
+  // Cohesive devices across sentences and within sentences
+  const orgBonus = Math.min(2.0, transitionMatches * 0.35);
+  orgScore += orgBonus;
+
+  // VSTEP formatting penalty: Missing clear conclusion caps ORG at Band 5
+  if (!hasConclusion && paragraphsCount >= 3) {
+    orgScore = Math.min(5.0, orgScore);
+  }
+
+  // Body paragraph balance check
+  let isBodyUnbalanced = false;
+  if (paragraphsCount >= 4) {
+    const wBody1 = (paragraphsList[1].match(/\S+/g) || []).length;
+    const wBody2 = (paragraphsList[2].match(/\S+/g) || []).length;
+    const bodyRatio = Math.max(wBody1, wBody2) / Math.max(1, Math.min(wBody1, wBody2));
+    if (bodyRatio > 2.8 && (wBody1 > 40 || wBody2 > 40)) {
+      isBodyUnbalanced = true;
+      orgScore = Math.max(3.5, orgScore - 1.0);
+    }
+  }
+  orgScore = Math.min(10.0, orgScore);
+
+  // 3. VOCABULARY (VOCAB) - VSTEP Rubric (Lexical diversity & Overuse check)
+  const rawWords = trimmed.toLowerCase().match(/\b[a-z]{2,}\b/g) || [];
+  const uniqueWords = new Set(rawWords);
+  const ttr = rawWords.length > 0 ? (uniqueWords.size / rawWords.length) : 0;
+
+  // Basic words overuse check
+  const basicWords = ['good', 'bad', 'thing', 'things', 'people', 'many', 'very', 'like', 'get', 'make'];
+  let maxBasicRepeat = 0;
+  let overusedBasicWord = "";
+  basicWords.forEach(w => {
+    const count = rawWords.filter(rw => rw === w).length;
+    if (count > maxBasicRepeat) {
+      maxBasicRepeat = count;
+      overusedBasicWord = w;
+    }
+  });
 
   let vocabBase = 5.5;
   if (vocabMatches.length > 0) {
@@ -5533,6 +5608,13 @@ function submitEssay() {
   const vocabDeduction = (totalVocabErrors * 0.3) + (totalCollocErrors * 0.4);
   let vocabScore = Math.max(1.0, Math.min(10.0, vocabBase - vocabDeduction));
 
+  // VSTEP Band 5 descriptor: "tends to overuse certain lexical items"
+  const isLexicalOveruse = (words >= 200 && (ttr < 0.40 || maxBasicRepeat >= 6));
+  if (isLexicalOveruse) {
+    vocabScore = Math.min(5.0, vocabScore);
+  }
+
+  // 4. GRAMMAR & ACCURACY (GRA) - VSTEP Rubric (Sentence error-free ratio & structure control)
   let grammarBase = 5.5;
   const complexSentenceRegex = /\b(although|because|which|who|whom|whose|if|unless|while|whereas|despite|whether|provided)\b/gi;
   const complexMatches = trimmed.match(complexSentenceRegex);
@@ -5541,6 +5623,20 @@ function submitEssay() {
 
   const grammarDeduction = (totalGrammarErrors * 0.4) + (totalStructureErrors * 0.1);
   let grammarScore = Math.max(1.0, Math.min(10.0, grammarBase - grammarDeduction));
+
+  // VSTEP Grammar Calibration:
+  // Band 8+: "the majority of the sentences are error-free"
+  if (errorFreeRatio >= 0.70 && totalGrammarErrors <= 2 && complexMatches && complexMatches.length >= 2) {
+    grammarScore = Math.max(7.5, grammarScore);
+  }
+  // Band 5: "attempts complex structures, but most are faulty"
+  else if (errorSentenceRatio > 0.35 || totalGrammarErrors >= 5) {
+    grammarScore = Math.min(5.0, grammarScore);
+  }
+  // Band 4: "errors occur frequently"
+  if (errorSentenceRatio > 0.55 || totalGrammarErrors >= 9) {
+    grammarScore = Math.min(4.0, grammarScore);
+  }
 
   // Apply calibration limits if frequent control issues exist
   if (totalControlErrors >= 12) {
@@ -5578,6 +5674,22 @@ function submitEssay() {
 
   if (wordCountCapTriggered && finalScore > wordCountCapLimit) {
     finalScore = wordCountCapLimit;
+  }
+
+  // HOLISTIC B2 REQUIREMENT (Quy chế khảo thí VSTEP: Để đạt B2, không tiêu chí nào dưới 5.0)
+  const minCriterion = Math.min(tfScore, orgScore, vocabScore, grammarScore);
+  let holisticCapTriggered = false;
+  let holisticCapReason = "";
+
+  if (minCriterion < 5.0 && finalScore >= 6.0) {
+    finalScore = 5.0; // Capped at B1
+    holisticCapTriggered = true;
+    const weakCriteriaNames = [];
+    if (tfScore < 5.0) weakCriteriaNames.push(`Task Fulfillment (${tfScore.toFixed(1)})`);
+    if (orgScore < 5.0) weakCriteriaNames.push(`Organization (${orgScore.toFixed(1)})`);
+    if (vocabScore < 5.0) weakCriteriaNames.push(`Vocabulary (${vocabScore.toFixed(1)})`);
+    if (grammarScore < 5.0) weakCriteriaNames.push(`Grammar (${grammarScore.toFixed(1)})`);
+    holisticCapReason = `Để đạt chuẩn B2 (Overall ≥ 6.0), theo quy chế khảo thí VSTEP bài viết phải thể hiện năng lực đồng đều ở cả 4 tiêu chí (không có tiêu chí nào dưới 5.0). Bài viết hiện có tiêu chí chưa đạt chuẩn: ${weakCriteriaNames.join(', ')}. Do đó điểm chung được giới hạn ở trình độ B1 (5.0).`;
   }
   
   // OFF-TOPIC CRITICAL OVERRIDE
@@ -5619,6 +5731,8 @@ function submitEssay() {
   let feedbackText = "";
   if (isOffTopic) {
     feedbackText = "LẠC ĐỀ HOÀN TOÀN (0% Topic Match): Bài làm không giải quyết bất cứ yêu cầu nào của đề thi hoặc có dấu hiệu học tủ một bài mẫu khác. Ngôn ngữ mạnh không thể bù đắp cho việc trả lời sai đề. Bài viết bị đánh trượt (1.0).";
+  } else if (holisticCapTriggered) {
+    feedbackText = holisticCapReason;
   } else if (wordCountCapTriggered && rawScore > wordCountCapLimit) {
     feedbackText = wordCountCapReason;
   } else if (languageControlOverrideSevere && rawScore > 4.0) {
@@ -5648,16 +5762,16 @@ function submitEssay() {
         <span style="font-weight: bold;">${tfScore.toFixed(1)} / 10</span>
       </div>
       <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-        Độ dài: ${words} từ. ${words >= 250 ? 'Đạt độ dài tiêu chuẩn tối thiểu (≥ 250 từ).' : 'Chưa đạt chuẩn tối thiểu 250 từ (thiếu ' + (250 - words) + ' từ). Bị trừ điểm Task Fulfillment.'}
+        Độ dài: ${words} từ (${words >= 250 ? 'Đạt chuẩn ≥ 250 từ' : 'Thiếu ' + (250 - words) + ' từ'}). Phát hiện ${exampleMatches} dẫn chứng/ví dụ và ${explanationMatches} cấu trúc phân tích lập luận.
       </div>
     </div>
-    <div class="grade-detail-card ${orgScore >= 8.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
+    <div class="grade-detail-card ${orgScore >= 7.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
       <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
         <span class="grade-detail-title" style="font-weight: 700;">2. ORGANIZATION</span>
         <span style="font-weight: bold;">${orgScore.toFixed(1)} / 10</span>
       </div>
       <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-        Bài viết chia thành ${paragraphsCount} đoạn. Phát hiện ${transitionMatches} từ liên kết chuyển ý.
+        Bố cục: ${paragraphsCount} đoạn. ${hasConclusion ? 'Đã có đoạn Kết luận (Conclusion) ✓.' : '⚠️ Thiếu đoạn Kết luận chuẩn VSTEP.'} ${isBodyUnbalanced ? '⚠️ Thân bài chênh lệch độ dài.' : ''} Phát hiện ${transitionMatches} liên từ liên kết.
       </div>
     </div>
     <div class="grade-detail-card ${vocabScore >= 7.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
@@ -5666,7 +5780,7 @@ function submitEssay() {
         <span style="font-weight: bold;">${vocabScore.toFixed(1)} / 10</span>
       </div>
       <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-        Sử dụng ${matchedCount} collocations từ bài học. Tổng số lỗi từ vựng/collocations: ${totalVocabErrors + totalCollocErrors}.
+        Độ phong phú từ vựng (TTR): ${(ttr * 100).toFixed(0)}%. ${isLexicalOveruse ? '⚠️ Lặp từ nhiều / lạm dụng từ cơ bản.' : 'Vốn từ đa dạng.'} Collocations bài học: ${matchedCount}. Tổng lỗi từ vựng: ${totalVocabErrors + totalCollocErrors}.
       </div>
     </div>
     <div class="grade-detail-card ${grammarScore >= 7.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
@@ -5675,7 +5789,7 @@ function submitEssay() {
         <span style="font-weight: bold;">${grammarScore.toFixed(1)} / 10</span>
       </div>
       <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-        Tổng số lỗi ngữ pháp/dấu câu phát hiện: ${totalGrammarErrors + totalStructureErrors}.
+        Tỷ lệ câu sạch lỗi: ${(errorFreeRatio * 100).toFixed(0)}% (${errorFreeSentences}/${totalSentences} câu). ${errorSentenceRatio > 0.35 ? '⚠️ Mắc lỗi ở > 35% số câu, giới hạn Band 5.' : 'Kiểm soát câu tốt.'} Tổng lỗi ngữ pháp: ${totalGrammarErrors + totalStructureErrors}.
       </div>
     </div>
   `;
@@ -5763,7 +5877,16 @@ function submitEssay() {
     totalStructureErrors: totalStructureErrors,
     frequentLanguageControlIssues: frequentLanguageControlIssues,
     wordCountCapTriggered: wordCountCapTriggered,
-    wordCountCapReason: wordCountCapReason
+    wordCountCapReason: wordCountCapReason,
+    holisticCapTriggered: holisticCapTriggered,
+    holisticCapReason: holisticCapReason,
+    hasConclusion: hasConclusion,
+    exampleMatches: exampleMatches,
+    explanationMatches: explanationMatches,
+    ttr: ttr,
+    errorSentenceRatio: errorSentenceRatio,
+    errorFreeRatio: errorFreeRatio,
+    isLexicalOveruse: isLexicalOveruse
   });
 
   const editorView = document.getElementById('step3-editor-view');
@@ -5827,7 +5950,16 @@ function renderStep3VstepEvaluation(data) {
     totalStructureErrors,
     frequentLanguageControlIssues,
     wordCountCapTriggered,
-    wordCountCapReason
+    wordCountCapReason,
+    holisticCapTriggered,
+    holisticCapReason,
+    hasConclusion,
+    exampleMatches,
+    explanationMatches,
+    ttr,
+    errorSentenceRatio,
+    errorFreeRatio,
+    isLexicalOveruse
   } = data;
 
   const pTF = (tfScore / 10) * 100;
@@ -5836,37 +5968,52 @@ function renderStep3VstepEvaluation(data) {
   const pGrammar = (grammarScore / 10) * 100;
   
   let commentTF = "";
-  if (wordCount >= 350) {
-    commentTF = "Xuất sắc! Độ dài bài viết rất tốt (trên 350 từ), phát triển ý sâu và toàn diện theo chuẩn VSTEP Task 2.";
-  } else if (wordCount >= 300) {
-    commentTF = "Rất tốt! Bài viết đạt trên 300 từ, đáp ứng vượt mức dung lượng yêu cầu và phát triển ý đầy đủ.";
+  if (wordCount >= 250 && exampleMatches >= 2 && explanationMatches >= 2) {
+    commentTF = `Xuất sắc! Đạt chuẩn độ dài VSTEP Task 2 (${wordCount} từ) và phát triển luận điểm rất sâu sắc với ${exampleMatches} dẫn chứng cụ thể và ${explanationMatches} phân tích nguyên nhân - hệ quả (VSTEP Band 8-9).`;
+  } else if (wordCount >= 250 && (exampleMatches >= 1 || explanationMatches >= 1)) {
+    commentTF = `Khá tốt! Đạt chuẩn độ dài tối thiểu (${wordCount} từ), luận điểm được trình bày rõ ràng và có dẫn chứng/giải thích minh họa (VSTEP Band 6-7).`;
   } else if (wordCount >= 250) {
-    commentTF = "Đạt yêu cầu chuẩn độ dài tối thiểu của VSTEP Task 2 (≥ 250 từ). Các luận điểm đã được triển khai tương đối trọn vẹn.";
+    commentTF = `Bài viết đạt độ dài (${wordCount} từ) nhưng thiếu dẫn chứng thực tế (ví dụ: 'for example', 'such as'...) và thiếu phân tích chiều sâu. Luận điểm còn chung chung, giới hạn ở Band 5.`;
   } else if (wordCount >= 230) {
-    commentTF = `Bài viết có ${wordCount} từ (thiếu nhẹ ${250 - wordCount} từ so với chuẩn 250 từ). Tiêu chí Task Fulfillment bị trừ điểm do dung lượng chưa hoàn thiện.`;
+    commentTF = `Bài viết có ${wordCount} từ (thiếu nhẹ ${250 - wordCount} từ so với chuẩn tối thiểu 250 từ). Tiêu chí Task Fulfillment bị trừ điểm do dung lượng chưa trọn vẹn.`;
   } else if (wordCount >= 200) {
-    commentTF = `Chưa đạt chuẩn độ dài VSTEP Task 2! Bài viết chỉ có ${wordCount} từ (thiếu ${250 - wordCount} từ để đạt mức tối thiểu 250 từ). Với dung lượng này, bài viết chưa đủ sâu để đạt B2.`;
+    commentTF = `Chưa đạt chuẩn độ dài VSTEP Task 2! Bài viết chỉ có ${wordCount} từ (thiếu ${250 - wordCount} từ). Với dung lượng này, bài viết chưa đủ sâu để đạt B2.`;
   } else {
-    commentTF = `Bài viết quá ngắn (${wordCount} từ, thiếu ${250 - wordCount} từ so với chuẩn 250 từ). Bị trừ điểm nặng ở Task Fulfillment và giới hạn bậc trình độ.`;
+    commentTF = `Bài viết quá ngắn (${wordCount} từ, thiếu ${250 - wordCount} từ). Bị trừ điểm nặng ở Task Fulfillment và giới hạn bậc trình độ.`;
   }
 
-  let commentORG = orgScore >= 9.0
-    ? "Tuyệt vời! Bố cục mạch lạc chuẩn 4 đoạn với hệ thống từ nối (Transitions) cực kỳ liên kết, chuyển mạch tự nhiên."
-    : orgScore >= 7.0
-    ? "Bố cục rõ ràng, các phần cân đối. Nên làm phong phú thêm các liên từ chuyển tiếp."
-    : "Bố cục thiếu cân đối hoặc thiếu liên từ kết nối câu và đoạn. Cần chia đoạn chuẩn (Mở, 2 Thân, Kết).";
+  let commentORG = "";
+  if (orgScore >= 8.5) {
+    commentORG = "Xuất sắc! Bố cục mạch lạc chuẩn 4 đoạn, mở bài và kết bài hoàn chỉnh, liên kết câu và đoạn rất tự nhiên, linh hoạt (VSTEP Band 8-9).";
+  } else if (orgScore >= 7.0) {
+    commentORG = "Bố cục rõ ràng, các đoạn văn cân đối và có câu kết luận. Sử dụng từ nối tương đối hiệu quả giữa các câu và đoạn.";
+  } else if (hasConclusion === false) {
+    commentORG = "⚠️ Thiếu đoạn Kết luận chuẩn VSTEP (chưa có từ khóa kết luận: 'in conclusion', 'to sum up'...). Bố cục chưa hoàn chỉnh, bị giới hạn ở Band 5.";
+  } else {
+    commentORG = "Bố cục thiếu cân đối hoặc thiếu liên từ kết nối câu và đoạn. Cần chia đoạn chuẩn (Mở, 2 Thân, Kết) và đa dạng từ nối.";
+  }
 
-  let commentVocab = vocabScore >= 9.0
-    ? "Từ vựng phong phú! Lồng ghép thành thạo các collocations nâng cao, diễn đạt học thuật tự nhiên, ít lỗi."
-    : vocabScore >= 7.0
-    ? "Vốn từ khá tốt. Đã sử dụng collocations chuyên đề phù hợp nhưng còn một số lỗi chính tả hoặc dùng từ."
-    : "Vốn từ còn đơn giản, lặp từ nhiều và gặp lỗi từ loại/collocations. Hãy chèn từ vựng chuyên đề ở Bước 2.";
+  let commentVocab = "";
+  if (vocabScore >= 8.5) {
+    commentVocab = "Vốn từ phong phú và học thuật! Sử dụng thành thạo collocations nâng cao, độ đa dạng từ vựng cao và hầu như không mắc lỗi dùng từ (VSTEP Band 8-9).";
+  } else if (vocabScore >= 7.0) {
+    commentVocab = "Vốn từ khá tốt (Sufficient range). Đã sử dụng collocations chuyên đề phù hợp, độ đa dạng từ vựng đạt chuẩn B2.";
+  } else if (isLexicalOveruse) {
+    commentVocab = "⚠️ Lạm dụng và lặp lại từ vựng cơ bản nhiều lần (VSTEP: tends to overuse certain lexical items). Hãy dùng các từ đồng nghĩa hoặc collocations chuyên đề ở Bước 2.";
+  } else {
+    commentVocab = "Vốn từ còn đơn giản, lặp từ hoặc mắc lỗi từ loại/collocations. Cần bổ sung thêm từ vựng học thuật chuyên đề.";
+  }
 
-  let commentGrammar = grammarScore >= 9.0
-    ? "Ngữ pháp xuất sắc! Cấu trúc câu phức hợp đa dạng, hầu như không mắc lỗi chia động từ hay dấu câu."
-    : grammarScore >= 7.0
-    ? "Ngữ pháp khá ổn. Bài viết dùng được câu phức nhưng vẫn còn một số lỗi nhỏ về chia động từ, giới từ."
-    : "Mắc nhiều lỗi ngữ pháp cơ bản (chia động từ, số ít số nhiều, giới từ). Cần chú ý rà soát lỗi kĩ hơn.";
+  let commentGrammar = "";
+  if (grammarScore >= 8.5) {
+    commentGrammar = `Ngữ pháp xuất sắc! Đa số câu trong bài hoàn toàn sạch lỗi (${(errorFreeRatio * 100).toFixed(0)}% Error-free), sử dụng linh hoạt câu phức và câu đơn (VSTEP Band 8-9).`;
+  } else if (grammarScore >= 7.0) {
+    commentGrammar = `Ngữ pháp khá tốt. Sử dụng được câu phức, các lỗi nhỏ xuất hiện không làm sai lệch ý nghĩa (Rarely lead to misunderstanding).`;
+  } else if (errorSentenceRatio > 0.35) {
+    commentGrammar = `⚠️ Mắc lỗi ngữ pháp ở nhiều câu (${(errorSentenceRatio * 100).toFixed(0)}% số câu có lỗi). Theo chuẩn VSTEP, câu phức bị lỗi nhiều (faulty complex structures) bị giới hạn ở Band 5.`;
+  } else {
+    commentGrammar = "Mắc nhiều lỗi ngữ pháp cơ bản (chia động từ, thì, số ít số nhiều, giới từ). Cần chú ý rà soát lỗi kĩ hơn.";
+  }
 
   const getSummary = (freq, type) => {
     let severity = "None";
@@ -6118,6 +6265,18 @@ function renderStep3VstepEvaluation(data) {
         </svg>
         <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
           <strong style="color: var(--warning, #d97706);">Giới hạn trình độ theo độ dài (Word Count Calibration):</strong> ${wordCountCapReason}
+        </div>
+      </div>
+    ` : ''}
+
+    <!-- HOLISTIC B2 CALIBRATION ALERT -->
+    ${holisticCapTriggered ? `
+      <div style="background-color: rgba(139, 92, 246, 0.08); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: var(--radius-md); padding: 1rem 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#8b5cf6" style="width: 20px; height: 20px; margin-top: 0.1rem; flex-shrink: 0;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+        </svg>
+        <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text-primary);">
+          <strong style="color: #8b5cf6;">Chuẩn năng lực toàn diện VSTEP (Holistic B2 Requirement):</strong> ${holisticCapReason}
         </div>
       </div>
     ` : ''}
