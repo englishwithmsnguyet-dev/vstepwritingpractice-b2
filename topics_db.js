@@ -150012,8 +150012,8 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 01",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
                 "point_en": "First, working from home helps parents support their children's studies more effectively.",
-                "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn. Nhờ đó, họ có thể phát hiện sớm những khó khăn của con ở trường để giúp con tiến bộ.",
-                "evidence_en": "Parents can help their children with homework when needed and monitor their studies more regularly. As a result, they can quickly notice their children's difficulties at school to help them improve.",
+                "evidence_vi": "Trên thực tế, cha mẹ có thể giúp con làm bài tập về nhà bất cứ khi nào con cần hỗ trợ. Thêm vào đó, cha mẹ có thể theo dõi tiến độ học tập của con thường xuyên hơn. Kết quả là, cha mẹ có thể dễ dàng phát hiện sớm những khó khăn của con ở trường và giúp con vượt qua các thử thách học tập.",
+                "evidence_en": "In fact, parents can help their children with homework whenever they need support. In addition, they can monitor their learning progress more regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.",
                 "collocations": [
                   {
                     "en": "support their children's studies",
@@ -150057,12 +150057,14 @@ const ESSAY_DATA = [
                       "vi": "giúp làm bài tập về nhà"
                     },
                     {
-                      "en": "monitor studies regularly",
-                      "vi": "theo dõi việc học thường xuyên"
-                    },
-                    {
                       "en": "homework",
                       "vi": "bài tập về nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "monitor studies regularly",
+                      "vi": "theo dõi việc học thường xuyên"
                     },
                     {
                       "en": "monitor",
@@ -150081,10 +150083,6 @@ const ESSAY_DATA = [
                     {
                       "en": "improve",
                       "vi": "cải thiện, tiến bộ"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -150093,8 +150091,8 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 02",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
                 "point_en": "Second, working from home allows parents to understand their children's habits and behavior better.",
-                "evidence_vi": "Cha mẹ có thể quan sát cách con học tập và sinh hoạt ở nhà mỗi ngày. Khi nhận ra những thay đổi trong hành vi của con, họ có thể đưa ra lời khuyên và hỗ trợ phù hợp.",
-                "evidence_en": "Parents can observe how their children study and live at home every day. When they notice changes in behavior, they can offer useful advice and suitable support.",
+                "evidence_vi": "Lý do chính là cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập và sinh hoạt tại nhà mỗi ngày. Do đó, cha mẹ có thể nhận thấy kịp thời những thay đổi trong hành vi và tâm trạng của con. Vì vậy, họ có thể đưa ra lời khuyên phù hợp và sự hỗ trợ đúng đắn để định hướng cho con trong cuộc sống hằng ngày.",
+                "evidence_en": "The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly. Therefore, they can give suitable advice and appropriate support to guide their children in daily life.",
                 "collocations": [
                   {
                     "en": "understand children's habits",
@@ -150148,12 +150146,14 @@ const ESSAY_DATA = [
                       "vi": "những thay đổi trong hành vi"
                     },
                     {
-                      "en": "give suitable advice",
-                      "vi": "đưa ra lời khuyên phù hợp"
-                    },
-                    {
                       "en": "behavior",
                       "vi": "hành vi, cách ứng xử"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "give suitable advice",
+                      "vi": "đưa ra lời khuyên phù hợp"
                     },
                     {
                       "en": "advice",
@@ -150170,8 +150170,8 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 03",
                 "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
                 "point_en": "Finally, working from home makes children feel safer and more cared for.",
-                "evidence_vi": "Trẻ biết rằng cha mẹ luôn ở gần khi mình cần giúp đỡ, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề của mình. Điều này giúp trẻ cảm thấy tự tin và yên tâm hơn.",
-                "evidence_en": "Children know that their parents are always nearby when they need help, so they can easily share their worries or problems. This helps children feel more confident and secure.",
+                "evidence_vi": "Điều này là do trẻ biết rằng cha mẹ luôn ở gần bên, tạo ra cảm giác an tâm mạnh mẽ về mặt cảm xúc. Hơn nữa, các bạn trẻ có thể dễ dàng chia sẻ những khó khăn và lo lắng với cha mẹ bất cứ lúc nào. Vì lý do này, các tương tác hằng ngày giúp các thành viên trong gia đình hiểu nhau hơn và củng cố tình cảm gia đình khăng khít.",
+                "evidence_en": "This is because children know that their parents are always nearby, so this creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.",
                 "collocations": [
                   {
                     "en": "feel safer and more cared for",
@@ -150211,12 +150211,14 @@ const ESSAY_DATA = [
                       "vi": "luôn ở gần bên"
                     },
                     {
-                      "en": "share worries and problems",
-                      "vi": "chia sẻ lo lắng và vấn đề"
-                    },
-                    {
                       "en": "nearby",
                       "vi": "ở gần bên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "share worries and problems",
+                      "vi": "chia sẻ lo lắng và vấn đề"
                     },
                     {
                       "en": "share",
@@ -150239,7 +150241,8 @@ const ESSAY_DATA = [
                   ]
                 ]
               }
-            ]
+            ],
+            "drawbacks": []
           },
           "ideas_b2": {
             "benefits": [
@@ -150468,7 +150471,7 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "In recent years, <strong>working from home</strong> has become increasingly common in many parts of the world. This trend affects both individuals and family life in different ways. <strong>This essay will discuss three positive effects of working from home on parent–child relationships.</strong>\n\nOne major effect is that <strong><em>working from home helps parents support their children's studies better</em></strong>. In fact, parents can help their children with homework whenever they need support and monitor their learning progress regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.\n\nAnother positive impact is that <strong><em>working from home helps parents understand their children's habits and behaviors more deeply</em></strong>. The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly, so they can give suitable advice to guide their children in daily life.\n\nA further consequence is that <strong><em>working from home can help children feel safer and more cared for</em></strong>. This is because children know that their parents are always nearby, which creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.\n\nIn conclusion, <strong>working from home leads to several positive effects on parent–child relationships</strong>. It helps parents support children's education, understand daily habits, and create a warm family environment. Therefore, parents should use this opportunity to build a close relationship with their children.",
+          "sample_b1": "In recent years, <strong>working from home</strong> has become increasingly common in many parts of the world. This trend affects both individuals and family life in different ways. <strong>This essay will discuss three positive effects of working from home on parent–child relationships.</strong>\n\nOne major effect is that <strong><em>working from home helps parents support their children's studies better</em></strong>. In fact, parents can help their children with homework whenever they need support. In addition, they can monitor their learning progress more regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.\n\nAnother positive impact is that <strong><em>working from home helps parents understand their children's habits and behaviors more deeply</em></strong>. The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly. Therefore, they can give suitable advice and appropriate support to guide their children in daily life.\n\nA further consequence is that <strong><em>working from home can help children feel safer and more cared for</em></strong>. This is because children know that their parents are always nearby, so this creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.\n\nIn conclusion, <strong>working from home leads to several positive effects on parent–child relationships</strong>. It helps parents support children's education, understand daily habits, and create a warm family environment. Therefore, parents should use this opportunity to build a close relationship with their children.",
           "translation_b1": "Những năm gần đây, <strong>làm việc tại nhà</strong> đã trở nên ngày càng phổ biến ở nhiều nơi trên thế giới. Xu hướng này ảnh hưởng đến cả cá nhân và đời sống gia đình theo nhiều cách khác nhau. <strong>Bài luận này sẽ thảo luận về ba tác động tích cực của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.</strong>\n\nMột ảnh hưởng lớn là <strong><em>làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con tốt hơn.</em></strong> Trên thực tế, cha mẹ có thể giúp con làm bài tập về nhà bất cứ khi nào con cần hỗ trợ. Thêm vào đó, cha mẹ có thể theo dõi tiến độ học tập của con thường xuyên hơn. Kết quả là, cha mẹ có thể dễ dàng phát hiện sớm những khó khăn của con ở trường và giúp con vượt qua các thử thách học tập.\n\nMột tác động tích cực khác là <strong><em>làm việc tại nhà giúp cha mẹ hiểu sâu sắc hơn về thói quen và hành vi của con.</em></strong> Lý do chính là cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập và sinh hoạt tại nhà mỗi ngày. Do đó, cha mẹ có thể nhận thấy kịp thời những thay đổi trong hành vi và tâm trạng của con. Vì vậy, họ có thể đưa ra lời khuyên phù hợp và sự hỗ trợ đúng đắn để định hướng cho con trong cuộc sống hằng ngày.\n\nMột kết quả tích cực nữa là <strong><em>làm việc tại nhà có thể giúp trẻ cảm thấy an toàn và được quan tâm hơn.</em></strong> Điều này là do trẻ biết rằng cha mẹ luôn ở gần bên, tạo ra cảm giác an tâm mạnh mẽ về mặt cảm xúc. Hơn nữa, các bạn trẻ có thể dễ dàng chia sẻ những khó khăn và lo lắng với cha mẹ bất cứ lúc nào. Vì lý do này, các tương tác hằng ngày giúp các thành viên trong gia đình hiểu nhau hơn và củng cố tình cảm gia đình khăng khít.\n\nTóm lại, <strong>làm việc tại nhà mang lại một số tác động tích cực đến mối quan hệ giữa cha mẹ và con cái.</strong> Những tác động này giúp cha mẹ hỗ trợ việc học của con, thấu hiểu thói quen hằng ngày và tạo ra một môi trường gia đình ấm áp. Do đó, cha mẹ nên tận dụng cơ hội này để xây dựng mối quan hệ gần gũi với con cái.",
           "sample_b2": "In recent years, <strong>the practice of working from home</strong> has become a growing trend in many parts of the world. This phenomenon has created notable impacts on family dynamics, particularly between parents and their children. <strong>This essay will examine three major positive effects of telecommuting on parent–child relationships.</strong>\n\nOne major effect is that <strong><em>home-based working enables parents to support their children's academic progress more effectively.</em></strong> In fact, parents are readily available to assist with challenging homework assignments whenever necessary. Furthermore, having parents nearby allows for regular supervision of study routines. As a result, caregivers can identify learning difficulties early and provide timely intervention to help children improve their performance.\n\nAnother positive impact is that <strong><em>telecommuting allows parents to gain deeper insights into their children's daily habits and behavior.</em></strong> The primary reason is that parents can directly observe how their children manage their study time and handle personal tasks at home. Consequently, adults can quickly detect subtle changes in children's emotional states or behavioral patterns. This continuous observation enables parents to offer empathetic guidance and constructive advice when children encounter personal problems.\n\nA further consequence is that <strong><em>working from home helps children develop a profound sense of security and emotional support.</em></strong> This can be explained by the constant presence of parents in the household, which fosters a comforting and reassuring atmosphere. Children feel encouraged to communicate openly about their fears, academic stress, or social challenges. Over time, these meaningful daily interactions help solidify mutual trust and cultivate a resilient parent–child bond.\n\nIn conclusion, <strong>working from home leads to several significant positive effects on parent–child relationships.</strong> These impacts enhance academic support, provide valuable behavioral insights, and strengthen emotional security within the household. Therefore, working parents should make effective use of this arrangement to nurture a loving and supportive family environment.",
           "translation_b2": "Trong những năm gần đây, <strong>việc làm việc tại nhà</strong> đã trở thành một xu hướng ngày càng phát triển ở nhiều nơi trên thế giới. Hiện tượng này đã tạo ra những tác động đáng kể đến đời sống gia đình, đặc biệt là giữa cha mẹ và con cái. <strong>Bài luận này sẽ xem xét ba tác động tích cực chủ yếu của việc làm việc từ xa đối với mối quan hệ giữa cha mẹ và con cái.</strong>\n\nMột ảnh hưởng lớn là <strong><em>làm việc tại gia cho phép cha mẹ hỗ trợ sự tiến bộ học tập của con hiệu quả hơn.</em></strong> Trên thực tế, cha mẹ luôn sẵn sàng hỗ trợ các bài tập về nhà đầy thách thức bất cứ khi nào cần thiết. Hơn nữa, việc cha mẹ ở gần cho phép giám sát đều đặn nề nếp học tập. Kết quả là, người chăm sóc có thể phát hiện sớm những khó khăn trong việc học và có sự can thiệp kịp thời giúp trẻ nâng cao thành tích.\n\nMột tác động tích cực khác là <strong><em>làm việc từ xa cho phép cha mẹ có được những hiểu biết sâu sắc hơn về thói quen và hành vi hằng ngày của con.</em></strong> Lý do chủ yếu là cha mẹ có thể quan sát trực tiếp cách con quản lý thời gian học và giải quyết các công việc cá nhân tại nhà. Do đó, người lớn có thể nhanh chóng nhận ra những thay đổi tinh tế trong trạng thái cảm xúc hoặc khuôn mẫu hành vi của trẻ. Sự quan sát liên tục này giúp cha mẹ đưa ra sự định hướng đầy thấu cảm và những lời khuyên mang tính xây dựng khi con gặp phải các vấn đề cá nhân.\n\nMột kết quả nữa là <strong><em>làm việc tại nhà giúp trẻ phát triển cảm giác an tâm sâu sắc và nhận được sự nâng đỡ về mặt tinh thần.</em></strong> Điều này có thể được giải thích bởi sự hiện diện thường trực của cha mẹ trong gia đình, tạo nên bầu không khí ấm áp và yên lòng. Trẻ cảm thấy được khuyến khích giao tiếp cởi mở về những nỗi sợ, căng thẳng học đường hoặc thử thách xã hội. Theo thời gian, những tương tác ý nghĩa mỗi ngày này giúp củng cố niềm tin lẫn nhau và vun đắp tình cảm phụ huynh - con cái bền chặt.\n\nTóm lại, <strong>làm việc tại nhà mang lại một số ảnh hưởng tích cực đáng kể đối với mối quan hệ giữa cha mẹ và con cái.</strong> Những tác động này giúp nâng cao sự hỗ trợ học tập, mang lại những hiểu biết quý giá về hành vi và thắt chặt sự an tâm cảm xúc trong gia đình. Vì vậy, các bậc cha mẹ đi làm nên tận dụng hiệu quả sự sắp xếp này để nuôi dưỡng một môi trường gia đình yêu thương và luôn nâng đỡ nhau.",
