@@ -4013,6 +4013,15 @@ function evaluateTranslationInput(userInput, modelAnswer) {
     }
   }
 
+  // Collocation check: go to school -> travel to school / commute to school
+  if (cleanInput.includes("go to school") && (cleanModel.includes("travel to school") || cleanModel.includes("commute to school"))) {
+    structuredErrors.push({
+      category: "Lỗi kết hợp từ (Collocation)",
+      location: '"go to school"',
+      explanation: "Trong bài luận học thuật khi nói về việc di chuyển/đi lại đến trường, nên dùng 'travel to school' hoặc 'commute to school' để câu văn tự nhiên và đạt điểm từ vựng cao hơn."
+    });
+  }
+
   // 9. Contraction check (Lỗi viết tắt)
   const foundContractions = new Set();
   userWords.forEach(w => {
@@ -4093,6 +4102,34 @@ function evaluateTranslationInput(userInput, modelAnswer) {
       });
     });
   }
+
+  // 12. Modal Verbs Check (Kiểm tra trợ động từ khuyết thiếu: can, could, should, will, would, may, might, must)
+  const MODAL_VERBS = ['can', 'could', 'should', 'will', 'would', 'may', 'might', 'must'];
+  const modelModals = MODAL_VERBS.filter(m => modelWords.includes(m));
+  modelModals.forEach(modal => {
+    let userHasEquivalent = false;
+    if (modal === 'can') {
+      userHasEquivalent = userWords.includes('can') || userWords.includes('could') || cleanInput.includes('able to') || cleanInput.includes('enable');
+    } else if (modal === 'could') {
+      userHasEquivalent = userWords.includes('could') || userWords.includes('can') || cleanInput.includes('able to');
+    } else if (modal === 'should') {
+      userHasEquivalent = userWords.includes('should') || cleanInput.includes('ought to') || cleanInput.includes('need to') || cleanInput.includes('supposed to');
+    } else if (modal === 'will') {
+      userHasEquivalent = userWords.includes('will') || userWords.includes('would');
+    } else if (modal === 'would') {
+      userHasEquivalent = userWords.includes('would') || userWords.includes('will');
+    } else {
+      userHasEquivalent = userWords.includes(modal);
+    }
+
+    if (!userHasEquivalent) {
+      structuredErrors.push({
+        category: "Lỗi trợ động từ khuyết thiếu (Modal Verb)",
+        location: `Thiếu '${modal}'`,
+        explanation: `Câu gốc tiếng Việt có ý diễn đạt khả năng / sự cần thiết ('có thể', 'sẽ', 'nên'). Bạn cần thêm '${modal}' trước động từ (ví dụ: '${modal} reduce' thay vì chỉ dùng 'reduce').`
+      });
+    }
+  });
 
   // Return list of errors if any grammar/spelling issues exist
   if (structuredErrors.length > 0) {
@@ -4212,8 +4249,8 @@ function evaluateTranslationInput(userInput, modelAnswer) {
         </div>
 
         <div style="margin-bottom: 1rem; font-family: inherit;">
-          <div style="font-weight: 700; color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.25rem;">CÂU ĐÃ SỬA:</div>
-          <div style="background-color: var(--success-bg); padding: 0.75rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--success); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600; line-height: 1.4;">"${corrected}"</div>
+          <div style="font-weight: 700; color: var(--success); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 0.25rem;">CÂU ĐÃ SỬA CHUẨN XÁC 100% (ĐÁP ÁN MẪU ĐỂ HỌC):</div>
+          <div style="background-color: var(--success-bg); padding: 0.75rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--success); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600; line-height: 1.4;">"${modelAnswer}"</div>
         </div>
 
         <div style="border-top: 1px solid var(--panel-border); padding-top: 0.75rem; display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase;">
@@ -4221,7 +4258,7 @@ function evaluateTranslationInput(userInput, modelAnswer) {
           <div style="display: flex; gap: 1rem; color: var(--text-primary);">
             <span>Tổng số lỗi phát hiện: <strong style="color: var(--danger);">${structuredErrors.length}</strong></span>
             <span>|</span>
-            <span>Tổng số lỗi đã sửa: <strong style="color: var(--success);">${structuredErrors.length}</strong></span>
+            <span>Đã chuẩn hóa: <strong style="color: var(--success);">100% Đúng chuẩn VSTEP</strong></span>
           </div>
         </div>
       `
@@ -4300,7 +4337,7 @@ function evaluateTranslationInput(userInput, modelAnswer) {
         </div>
 
         <div style="margin-bottom: 1rem; font-family: inherit;">
-          <div style="font-weight: 700; color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 0.25rem;">CÂU ĐÃ SỬA:</div>
+          <div style="font-weight: 700; color: var(--success); font-size: 0.85rem; text-transform: uppercase; margin-bottom: 0.25rem;">CÂU ĐÃ SỬA CHUẨN XÁC 100% (ĐÁP ÁN MẪU ĐỂ HỌC):</div>
           <div style="background-color: var(--success-bg); padding: 0.75rem 1rem; border-radius: var(--radius-sm); border: 1px solid var(--success); color: var(--text-primary); font-family: var(--font-mono); font-size: 0.95rem; font-weight: 600; line-height: 1.4;">"${modelAnswer}"</div>
         </div>
 
@@ -4309,7 +4346,7 @@ function evaluateTranslationInput(userInput, modelAnswer) {
           <div style="display: flex; gap: 1rem; color: var(--text-primary);">
             <span>Tổng số lỗi phát hiện: <strong style="color: var(--danger);">1</strong></span>
             <span>|</span>
-            <span>Tổng số lỗi đã sửa: <strong style="color: var(--success);">1</strong></span>
+            <span>Đã chuẩn hóa: <strong style="color: var(--success);">100% Đúng chuẩn VSTEP</strong></span>
           </div>
         </div>
       `
