@@ -46181,437 +46181,437 @@ const ESSAY_DATA = [
           },
           "ideas_b2": {
             "benefits": [
-                          {
-                                        "title": "LỢI ÍCH 01: Phát triển kỹ năng thực tế (Developing Practical Skills)",
-                                        "point_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.",
-                                        "point_en": "Community service enables participants to develop essential practical skills.",
-                                        "point_collocations": [
-                                                      {
-                                                                    "en": "community service",
-                                                                    "vi": "làm công tác cộng đồng"
-                                                      },
-                                                      {
-                                                                    "en": "enable participants",
-                                                                    "vi": "giúp người tham gia"
-                                                      },
-                                                      {
-                                                                    "en": "develop essential practical skills",
-                                                                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
-                                                      }
-                                        ],
-                                        "evidence_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả trong các tình huống thực tế. Kết quả là, họ có thể nâng cao kỹ năng giải quyết vấn đề và tự tin ứng phó với các tình huống bất ngờ trong công việc tương lai.",
-                                        "evidence_en": "They have opportunities to improve communication skills with people from different backgrounds. Furthermore, participants develop teamwork and effective cooperation in real-life situations. As a result, they can strengthen problem-solving skills and handle unexpected situations with confidence in their future careers.",
-                                        "collocations": [
-                                                      {
-                                                                    "en": "community service",
-                                                                    "vi": "làm công tác cộng đồng"
-                                                      },
-                                                      {
-                                                                    "en": "enable participants",
-                                                                    "vi": "giúp người tham gia"
-                                                      },
-                                                      {
-                                                                    "en": "develop essential practical skills",
-                                                                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
-                                                      },
-                                                      {
-                                                                    "en": "have opportunities",
-                                                                    "vi": "có cơ hội"
-                                                      },
-                                                      {
-                                                                    "en": "improve communication skills",
-                                                                    "vi": "cải thiện kỹ năng giao tiếp"
-                                                      },
-                                                      {
-                                                                    "en": "people from different backgrounds",
-                                                                    "vi": "nhiều đối tượng khác nhau"
-                                                      },
-                                                      {
-                                                                    "en": "develop teamwork and effective cooperation",
-                                                                    "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
-                                                      },
-                                                      {
-                                                                    "en": "strengthen problem-solving skills",
-                                                                    "vi": "nâng cao kỹ năng giải quyết vấn đề"
-                                                      },
-                                                      {
-                                                                    "en": "unexpected situations",
-                                                                    "vi": "tình huống bất ngờ"
-                                                      }
-                                        ],
-                                        "evidence_collocations": [
-                                                      [
-                                                                    {
-                                                                                  "en": "have opportunities",
-                                                                                  "vi": "có cơ hội"
-                                                                    },
-                                                                    {
-                                                                                  "en": "improve communication skills",
-                                                                                  "vi": "cải thiện kỹ năng giao tiếp"
-                                                                    },
-                                                                    {
-                                                                                  "en": "people from different backgrounds",
-                                                                                  "vi": "nhiều đối tượng khác nhau"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "develop teamwork and effective cooperation",
-                                                                                  "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
-                                                                    },
-                                                                    {
-                                                                                  "en": "develop teamwork",
-                                                                                  "vi": "rèn luyện làm việc nhóm"
-                                                                    },
-                                                                    {
-                                                                                  "en": "effective cooperation",
-                                                                                  "vi": "phối hợp hiệu quả"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "strengthen problem-solving skills",
-                                                                                  "vi": "nâng cao kỹ năng giải quyết vấn đề"
-                                                                    },
-                                                                    {
-                                                                                  "en": "handle unexpected situations",
-                                                                                  "vi": "xử lý các tình huống bất ngờ"
-                                                                    },
-                                                                    {
-                                                                                  "en": "unexpected situations",
-                                                                                  "vi": "tình huống bất ngờ"
-                                                                    }
-                                                      ]
-                                        ]
-                          },
-                          {
-                                        "title": "LỢI ÍCH 02: Mở rộng mạng lưới quan hệ (Expanding Social Networks)",
-                                        "point_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách tích cực.",
-                                        "point_en": "Engaging in volunteer work allows individuals to significantly expand their social networks.",
-                                        "point_collocations": [
-                                                      {
-                                                                    "en": "engaging in volunteer work",
-                                                                    "vi": "tham gia hoạt động tình nguyện"
-                                                      },
-                                                      {
-                                                                    "en": "allow individuals",
-                                                                    "vi": "giúp mỗi cá nhân"
-                                                      },
-                                                      {
-                                                                    "en": "significantly expand social networks",
-                                                                    "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
-                                                      }
-                                        ],
-                                        "evidence_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau. Thêm vào đó, việc cùng nhau thực hiện các dự án từ thiện giúp họ xây dựng tình bạn và sự gắn kết lâu dài. Vì vậy, việc tạo thêm các mối quan hệ hữu ích này sẽ hỗ trợ đắc lực cho học tập và sự nghiệp sau này.",
-                                        "evidence_en": "Participants meet people from different backgrounds, age groups, and professions. In addition, collaborating on charity projects helps them build friendships and lasting connections. Therefore, establishing these useful relationships can greatly benefit their future study and work.",
-                                        "collocations": [
-                                                      {
-                                                                    "en": "engaging in volunteer work",
-                                                                    "vi": "tham gia hoạt động tình nguyện"
-                                                      },
-                                                      {
-                                                                    "en": "significantly expand social networks",
-                                                                    "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
-                                                      },
-                                                      {
-                                                                    "en": "meet people from different backgrounds",
-                                                                    "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
-                                                      },
-                                                      {
-                                                                    "en": "different backgrounds, age groups, and professions",
-                                                                    "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
-                                                      },
-                                                      {
-                                                                    "en": "build friendships and lasting connections",
-                                                                    "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
-                                                      },
-                                                      {
-                                                                    "en": "establishing useful relationships",
-                                                                    "vi": "tạo thêm các mối quan hệ hữu ích"
-                                                      },
-                                                      {
-                                                                    "en": "benefit future study and work",
-                                                                    "vi": "hỗ trợ cho học tập và công việc sau này"
-                                                      }
-                                        ],
-                                        "evidence_collocations": [
-                                                      [
-                                                                    {
-                                                                                  "en": "meet people from different backgrounds",
-                                                                                  "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
-                                                                    },
-                                                                    {
-                                                                                  "en": "different backgrounds, age groups, and professions",
-                                                                                  "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "build friendships and lasting connections",
-                                                                                  "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
-                                                                    },
-                                                                    {
-                                                                                  "en": "collaborating on charity projects",
-                                                                                  "vi": "cùng nhau thực hiện các dự án từ thiện"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "establishing useful relationships",
-                                                                                  "vi": "tạo thêm các mối quan hệ hữu ích"
-                                                                    },
-                                                                    {
-                                                                                  "en": "benefit future study and work",
-                                                                                  "vi": "hỗ trợ cho học tập và công việc sau này"
-                                                                    }
-                                                      ]
-                                        ]
-                          },
-                          {
-                                        "title": "LỢI ÍCH 03: Cải thiện sức khỏe tinh thần (Improving Mental Well-being)",
-                                        "point_vi": "Các hoạt động công ích mang lại những lợi ích to lớn cho sức khỏe tinh thần của người tham gia.",
-                                        "point_en": "Voluntary activities contribute substantially to improving participants' mental well-being.",
-                                        "point_collocations": [
-                                                      {
-                                                                    "en": "voluntary activities",
-                                                                    "vi": "các hoạt động công ích, tình nguyện"
-                                                      },
-                                                      {
-                                                                    "en": "contribute substantially to",
-                                                                    "vi": "mang lại những lợi ích to lớn cho"
-                                                      },
-                                                      {
-                                                                    "en": "improving participants' mental well-being",
-                                                                    "vi": "cải thiện sức khỏe tinh thần của người tham gia"
-                                                      }
-                                        ],
-                                        "evidence_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn. Hơn nữa, việc tham gia vào các hoạt động tập thể ý nghĩa cho phép họ tạm gác lại những căng thẳng thường nhật. Do đó, những trải nghiệm này giúp giải tỏa áp lực hiệu quả và giảm bớt cảm giác cô đơn.",
-                                        "evidence_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life. Furthermore, taking part in meaningful collective activities allows them to set aside daily pressures. Consequently, these experiences help relieve stress effectively and alleviate feelings of loneliness.",
-                                        "collocations": [
-                                                      {
-                                                                    "en": "voluntary activities",
-                                                                    "vi": "các hoạt động công ích, tình nguyện"
-                                                      },
-                                                      {
-                                                                    "en": "improving participants' mental well-being",
-                                                                    "vi": "cải thiện sức khỏe tinh thần của người tham gia"
-                                                      },
-                                                      {
-                                                                    "en": "profound sense of happiness and satisfaction",
-                                                                    "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
-                                                      },
-                                                      {
-                                                                    "en": "find greater meaning and purpose in life",
-                                                                    "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
-                                                      },
-                                                      {
-                                                                    "en": "meaningful activities",
-                                                                    "vi": "các hoạt động ý nghĩa"
-                                                      },
-                                                      {
-                                                                    "en": "relieve stress effectively",
-                                                                    "vi": "giải tỏa căng thẳng hiệu quả"
-                                                      },
-                                                      {
-                                                                    "en": "alleviate feelings of loneliness",
-                                                                    "vi": "giảm bớt cảm giác cô đơn"
-                                                      }
-                                        ],
-                                        "evidence_collocations": [
-                                                      [
-                                                                    {
-                                                                                  "en": "profound sense of happiness and satisfaction",
-                                                                                  "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
-                                                                    },
-                                                                    {
-                                                                                  "en": "find greater meaning and purpose in life",
-                                                                                  "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "taking part in meaningful activities",
-                                                                                  "vi": "tham gia các hoạt động ý nghĩa"
-                                                                    },
-                                                                    {
-                                                                                  "en": "set aside daily pressures",
-                                                                                  "vi": "tạm gác lại áp lực thường nhật"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "relieve stress effectively",
-                                                                                  "vi": "giải tỏa căng thẳng hiệu quả"
-                                                                    },
-                                                                    {
-                                                                                  "en": "alleviate feelings of loneliness",
-                                                                                  "vi": "giảm bớt cảm giác cô đơn"
-                                                                    }
-                                                      ]
-                                        ]
-                          },
-                          {
-                                        "title": "LỢI ÍCH 04: Hình thành tinh thần trách nhiệm (Developing a Sense of Responsibility)",
-                                        "point_vi": "Tham gia tình nguyện giúp tôi luyện và hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng.",
-                                        "point_en": "Participating in community service fosters a strong sense of civic responsibility.",
-                                        "point_collocations": [
-                                                      {
-                                                                    "en": "participating in community service",
-                                                                    "vi": "tham gia tình nguyện công tác cộng đồng"
-                                                      },
-                                                      {
-                                                                    "en": "fosters a strong sense of civic responsibility",
-                                                                    "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
-                                                      }
-                                        ],
-                                        "evidence_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao khi hoạt động trong môi trường tập thể. Bên cạnh đó, việc tiếp xúc thực tế giúp họ thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội. Nhờ đó, họ trở nên chủ động đóng góp và luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.",
-                                        "evidence_en": "Participants learn to take responsibility for assigned tasks when working in a team environment. In addition, firsthand exposure helps them understand the challenges faced by disadvantaged groups more deeply. As a result, they become willing to contribute proactively and support the community whenever needed.",
-                                        "collocations": [
-                                                      {
-                                                                    "en": "participating in community service",
-                                                                    "vi": "tham gia công tác cộng đồng"
-                                                      },
-                                                      {
-                                                                    "en": "fosters a strong sense of civic responsibility",
-                                                                    "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
-                                                      },
-                                                      {
-                                                                    "en": "take responsibility for assigned tasks",
-                                                                    "vi": "chịu trách nhiệm với công việc được giao"
-                                                      },
-                                                      {
-                                                                    "en": "understand challenges faced by disadvantaged groups",
-                                                                    "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
-                                                      },
-                                                      {
-                                                                    "en": "contribute proactively",
-                                                                    "vi": "chủ động đóng góp"
-                                                      },
-                                                      {
-                                                                    "en": "support the community whenever needed",
-                                                                    "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
-                                                      }
-                                        ],
-                                        "evidence_collocations": [
-                                                      [
-                                                                    {
-                                                                                  "en": "take responsibility for assigned tasks",
-                                                                                  "vi": "chịu trách nhiệm với công việc được giao"
-                                                                    },
-                                                                    {
-                                                                                  "en": "take responsibility",
-                                                                                  "vi": "chịu trách nhiệm"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "understand challenges faced by disadvantaged groups",
-                                                                                  "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
-                                                                    },
-                                                                    {
-                                                                                  "en": "disadvantaged groups",
-                                                                                  "vi": "các nhóm yếu thế"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "contribute proactively",
-                                                                                  "vi": "chủ động đóng góp"
-                                                                    },
-                                                                    {
-                                                                                  "en": "support the community whenever needed",
-                                                                                  "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
-                                                                    }
-                                                      ]
-                                        ]
-                          },
-                          {
-                                        "title": "LỢI ÍCH 05: Tạo tác động tích cực đến cộng đồng (Making a Positive Impact on the Community)",
-                                        "point_vi": "Các chương trình tình nguyện tạo ra những tác động tích cực và lâu dài đối với đời sống cộng đồng.",
-                                        "point_en": "Volunteer initiatives generate profound and lasting positive impacts on community life.",
-                                        "point_collocations": [
-                                                      {
-                                                                    "en": "volunteer initiatives",
-                                                                    "vi": "các chương trình, sáng kiến tình nguyện"
-                                                      },
-                                                      {
-                                                                    "en": "generate profound and lasting positive impacts",
-                                                                    "vi": "tạo ra những tác động tích cực sâu sắc và lâu dài"
-                                                      },
-                                                      {
-                                                                    "en": "community life",
-                                                                    "vi": "đời sống cộng đồng"
-                                                      }
-                                        ],
-                                        "evidence_vi": "Các hoạt động này trực tiếp hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn. Bên cạnh đó, việc tham gia các chiến dịch bảo vệ môi trường như trồng cây hay dọn rác góp phần khôi phục cảnh quan công cộng. Kết quả là, những nỗ lực chung này trực tiếp cải thiện điều kiện sống và xây dựng cộng đồng tốt đẹp hơn.",
-                                        "evidence_en": "These initiatives directly provide essential supplies and educational support to disadvantaged people. Furthermore, participating in environmental activities such as tree planting and clean-up campaigns helps restore public spaces. Consequently, these collective efforts directly improve living conditions and build a better community.",
-                                        "collocations": [
-                                                      {
-                                                                    "en": "volunteer initiatives",
-                                                                    "vi": "các chương trình tình nguyện"
-                                                      },
-                                                      {
-                                                                    "en": "generate lasting positive impacts",
-                                                                    "vi": "tạo ra những tác động tích cực lâu dài"
-                                                      },
-                                                      {
-                                                                    "en": "provide essential supplies and educational support",
-                                                                    "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
-                                                      },
-                                                      {
-                                                                    "en": "disadvantaged people",
-                                                                    "vi": "người có hoàn cảnh khó khăn"
-                                                      },
-                                                      {
-                                                                    "en": "environmental activities",
-                                                                    "vi": "các hoạt động môi trường"
-                                                      },
-                                                      {
-                                                                    "en": "tree planting and clean-up campaigns",
-                                                                    "vi": "chiến dịch trồng cây và dọn rác"
-                                                      },
-                                                      {
-                                                                    "en": "improve living conditions",
-                                                                    "vi": "cải thiện điều kiện sống"
-                                                      },
-                                                      {
-                                                                    "en": "build a better community",
-                                                                    "vi": "xây dựng cộng đồng tốt đẹp hơn"
-                                                      }
-                                        ],
-                                        "evidence_collocations": [
-                                                      [
-                                                                    {
-                                                                                  "en": "provide essential supplies and educational support",
-                                                                                  "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
-                                                                    },
-                                                                    {
-                                                                                  "en": "disadvantaged people",
-                                                                                  "vi": "người có hoàn cảnh khó khăn"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "participating in environmental activities",
-                                                                                  "vi": "tham gia các hoạt động môi trường"
-                                                                    },
-                                                                    {
-                                                                                  "en": "tree planting and clean-up campaigns",
-                                                                                  "vi": "chiến dịch trồng cây và dọn rác"
-                                                                    }
-                                                      ],
-                                                      [
-                                                                    {
-                                                                                  "en": "directly improve living conditions",
-                                                                                  "vi": "trực tiếp cải thiện điều kiện sống"
-                                                                    },
-                                                                    {
-                                                                                  "en": "build a better community",
-                                                                                  "vi": "xây dựng cộng đồng tốt đẹp hơn"
-                                                                    }
-                                                      ]
-                                        ]
-                          }
+              {
+                "title": "LỢI ÍCH 01: Phát triển kỹ năng thực tế (Developing Practical Skills)",
+                "point_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.",
+                "point_en": "Community service enables participants to develop essential practical skills.",
+                "point_collocations": [
+                  {
+                    "en": "community service",
+                    "vi": "làm công tác cộng đồng"
+                  },
+                  {
+                    "en": "enable participants",
+                    "vi": "giúp người tham gia"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
+                  }
+                ],
+                "evidence_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả trong các tình huống thực tế. Kết quả là, họ có thể nâng cao kỹ năng giải quyết vấn đề và tự tin ứng phó với các tình huống bất ngờ trong công việc tương lai.",
+                "evidence_en": "They have opportunities to improve communication skills with people from different backgrounds. Furthermore, participants develop teamwork and effective cooperation in real-life situations. As a result, they can strengthen problem-solving skills and handle unexpected situations with confidence in their future careers.",
+                "collocations": [
+                  {
+                    "en": "community service",
+                    "vi": "làm công tác cộng đồng"
+                  },
+                  {
+                    "en": "enable participants",
+                    "vi": "giúp người tham gia"
+                  },
+                  {
+                    "en": "develop essential practical skills",
+                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
+                  },
+                  {
+                    "en": "have opportunities",
+                    "vi": "có cơ hội"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "people from different backgrounds",
+                    "vi": "nhiều đối tượng khác nhau"
+                  },
+                  {
+                    "en": "develop teamwork and effective cooperation",
+                    "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
+                  },
+                  {
+                    "en": "strengthen problem-solving skills",
+                    "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "unexpected situations",
+                    "vi": "tình huống bất ngờ"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "have opportunities",
+                      "vi": "có cơ hội"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "people from different backgrounds",
+                      "vi": "nhiều đối tượng khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop teamwork and effective cooperation",
+                      "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
+                    },
+                    {
+                      "en": "develop teamwork",
+                      "vi": "rèn luyện làm việc nhóm"
+                    },
+                    {
+                      "en": "effective cooperation",
+                      "vi": "phối hợp hiệu quả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "strengthen problem-solving skills",
+                      "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                    },
+                    {
+                      "en": "handle unexpected situations",
+                      "vi": "xử lý các tình huống bất ngờ"
+                    },
+                    {
+                      "en": "unexpected situations",
+                      "vi": "tình huống bất ngờ"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: Mở rộng mạng lưới quan hệ (Expanding Social Networks)",
+                "point_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách tích cực.",
+                "point_en": "Engaging in volunteer work allows individuals to significantly expand their social networks.",
+                "point_collocations": [
+                  {
+                    "en": "engaging in volunteer work",
+                    "vi": "tham gia hoạt động tình nguyện"
+                  },
+                  {
+                    "en": "allow individuals",
+                    "vi": "giúp mỗi cá nhân"
+                  },
+                  {
+                    "en": "significantly expand social networks",
+                    "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
+                  }
+                ],
+                "evidence_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau. Thêm vào đó, việc cùng nhau thực hiện các dự án từ thiện giúp họ xây dựng tình bạn và sự gắn kết lâu dài. Vì vậy, việc tạo thêm các mối quan hệ hữu ích này sẽ hỗ trợ đắc lực cho học tập và sự nghiệp sau này.",
+                "evidence_en": "Participants meet people from different backgrounds, age groups, and professions. In addition, collaborating on charity projects helps them build friendships and lasting connections. Therefore, establishing these useful relationships can greatly benefit their future study and work.",
+                "collocations": [
+                  {
+                    "en": "engaging in volunteer work",
+                    "vi": "tham gia hoạt động tình nguyện"
+                  },
+                  {
+                    "en": "significantly expand social networks",
+                    "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
+                  },
+                  {
+                    "en": "meet people from different backgrounds",
+                    "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
+                  },
+                  {
+                    "en": "different backgrounds, age groups, and professions",
+                    "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                  },
+                  {
+                    "en": "build friendships and lasting connections",
+                    "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                  },
+                  {
+                    "en": "establishing useful relationships",
+                    "vi": "tạo thêm các mối quan hệ hữu ích"
+                  },
+                  {
+                    "en": "benefit future study and work",
+                    "vi": "hỗ trợ cho học tập và công việc sau này"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "meet people from different backgrounds",
+                      "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
+                    },
+                    {
+                      "en": "different backgrounds, age groups, and professions",
+                      "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "build friendships and lasting connections",
+                      "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                    },
+                    {
+                      "en": "collaborating on charity projects",
+                      "vi": "cùng nhau thực hiện các dự án từ thiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "establishing useful relationships",
+                      "vi": "tạo thêm các mối quan hệ hữu ích"
+                    },
+                    {
+                      "en": "benefit future study and work",
+                      "vi": "hỗ trợ cho học tập và công việc sau này"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: Cải thiện sức khỏe tinh thần (Improving Mental Well-being)",
+                "point_vi": "Các hoạt động công ích mang lại những lợi ích to lớn cho sức khỏe tinh thần của người tham gia.",
+                "point_en": "Voluntary activities contribute substantially to improving participants' mental well-being.",
+                "point_collocations": [
+                  {
+                    "en": "voluntary activities",
+                    "vi": "các hoạt động công ích, tình nguyện"
+                  },
+                  {
+                    "en": "contribute substantially to",
+                    "vi": "mang lại những lợi ích to lớn cho"
+                  },
+                  {
+                    "en": "improving participants' mental well-being",
+                    "vi": "cải thiện sức khỏe tinh thần của người tham gia"
+                  }
+                ],
+                "evidence_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn. Hơn nữa, việc tham gia vào các hoạt động tập thể ý nghĩa cho phép họ tạm gác lại những căng thẳng thường nhật. Do đó, những trải nghiệm này giúp giải tỏa áp lực hiệu quả và giảm bớt cảm giác cô đơn.",
+                "evidence_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life. Furthermore, taking part in meaningful collective activities allows them to set aside daily pressures. Consequently, these experiences help relieve stress effectively and alleviate feelings of loneliness.",
+                "collocations": [
+                  {
+                    "en": "voluntary activities",
+                    "vi": "các hoạt động công ích, tình nguyện"
+                  },
+                  {
+                    "en": "improving participants' mental well-being",
+                    "vi": "cải thiện sức khỏe tinh thần của người tham gia"
+                  },
+                  {
+                    "en": "profound sense of happiness and satisfaction",
+                    "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
+                  },
+                  {
+                    "en": "find greater meaning and purpose in life",
+                    "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                  },
+                  {
+                    "en": "meaningful activities",
+                    "vi": "các hoạt động ý nghĩa"
+                  },
+                  {
+                    "en": "relieve stress effectively",
+                    "vi": "giải tỏa căng thẳng hiệu quả"
+                  },
+                  {
+                    "en": "alleviate feelings of loneliness",
+                    "vi": "giảm bớt cảm giác cô đơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "profound sense of happiness and satisfaction",
+                      "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
+                    },
+                    {
+                      "en": "find greater meaning and purpose in life",
+                      "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "taking part in meaningful activities",
+                      "vi": "tham gia các hoạt động ý nghĩa"
+                    },
+                    {
+                      "en": "set aside daily pressures",
+                      "vi": "tạm gác lại áp lực thường nhật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "relieve stress effectively",
+                      "vi": "giải tỏa căng thẳng hiệu quả"
+                    },
+                    {
+                      "en": "alleviate feelings of loneliness",
+                      "vi": "giảm bớt cảm giác cô đơn"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: Hình thành tinh thần trách nhiệm (Developing a Sense of Responsibility)",
+                "point_vi": "Tham gia tình nguyện giúp tôi luyện và hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng.",
+                "point_en": "Participating in community service fosters a strong sense of civic responsibility.",
+                "point_collocations": [
+                  {
+                    "en": "participating in community service",
+                    "vi": "tham gia tình nguyện công tác cộng đồng"
+                  },
+                  {
+                    "en": "fosters a strong sense of civic responsibility",
+                    "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao khi hoạt động trong môi trường tập thể. Bên cạnh đó, việc tiếp xúc thực tế giúp họ thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội. Nhờ đó, họ trở nên chủ động đóng góp và luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.",
+                "evidence_en": "Participants learn to take responsibility for assigned tasks when working in a team environment. In addition, firsthand exposure helps them understand the challenges faced by disadvantaged groups more deeply. As a result, they become willing to contribute proactively and support the community whenever needed.",
+                "collocations": [
+                  {
+                    "en": "participating in community service",
+                    "vi": "tham gia công tác cộng đồng"
+                  },
+                  {
+                    "en": "fosters a strong sense of civic responsibility",
+                    "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
+                  },
+                  {
+                    "en": "take responsibility for assigned tasks",
+                    "vi": "chịu trách nhiệm với công việc được giao"
+                  },
+                  {
+                    "en": "understand challenges faced by disadvantaged groups",
+                    "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
+                  },
+                  {
+                    "en": "contribute proactively",
+                    "vi": "chủ động đóng góp"
+                  },
+                  {
+                    "en": "support the community whenever needed",
+                    "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take responsibility for assigned tasks",
+                      "vi": "chịu trách nhiệm với công việc được giao"
+                    },
+                    {
+                      "en": "take responsibility",
+                      "vi": "chịu trách nhiệm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "understand challenges faced by disadvantaged groups",
+                      "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
+                    },
+                    {
+                      "en": "disadvantaged groups",
+                      "vi": "các nhóm yếu thế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "contribute proactively",
+                      "vi": "chủ động đóng góp"
+                    },
+                    {
+                      "en": "support the community whenever needed",
+                      "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: Tạo tác động tích cực đến cộng đồng (Making a Positive Impact on the Community)",
+                "point_vi": "Các chương trình tình nguyện tạo ra những tác động tích cực và lâu dài đối với đời sống cộng đồng.",
+                "point_en": "Volunteer initiatives generate profound and lasting positive impacts on community life.",
+                "point_collocations": [
+                  {
+                    "en": "volunteer initiatives",
+                    "vi": "các chương trình, sáng kiến tình nguyện"
+                  },
+                  {
+                    "en": "generate profound and lasting positive impacts",
+                    "vi": "tạo ra những tác động tích cực sâu sắc và lâu dài"
+                  },
+                  {
+                    "en": "community life",
+                    "vi": "đời sống cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Các hoạt động này trực tiếp hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn. Bên cạnh đó, việc tham gia các chiến dịch bảo vệ môi trường như trồng cây hay dọn rác góp phần khôi phục cảnh quan công cộng. Kết quả là, những nỗ lực chung này trực tiếp cải thiện điều kiện sống và xây dựng cộng đồng tốt đẹp hơn.",
+                "evidence_en": "These initiatives directly provide essential supplies and educational support to disadvantaged people. Furthermore, participating in environmental activities such as tree planting and clean-up campaigns helps restore public spaces. Consequently, these collective efforts directly improve living conditions and build a better community.",
+                "collocations": [
+                  {
+                    "en": "volunteer initiatives",
+                    "vi": "các chương trình tình nguyện"
+                  },
+                  {
+                    "en": "generate lasting positive impacts",
+                    "vi": "tạo ra những tác động tích cực lâu dài"
+                  },
+                  {
+                    "en": "provide essential supplies and educational support",
+                    "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
+                  },
+                  {
+                    "en": "disadvantaged people",
+                    "vi": "người có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "environmental activities",
+                    "vi": "các hoạt động môi trường"
+                  },
+                  {
+                    "en": "tree planting and clean-up campaigns",
+                    "vi": "chiến dịch trồng cây và dọn rác"
+                  },
+                  {
+                    "en": "improve living conditions",
+                    "vi": "cải thiện điều kiện sống"
+                  },
+                  {
+                    "en": "build a better community",
+                    "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "provide essential supplies and educational support",
+                      "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
+                    },
+                    {
+                      "en": "disadvantaged people",
+                      "vi": "người có hoàn cảnh khó khăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "participating in environmental activities",
+                      "vi": "tham gia các hoạt động môi trường"
+                    },
+                    {
+                      "en": "tree planting and clean-up campaigns",
+                      "vi": "chiến dịch trồng cây và dọn rác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "directly improve living conditions",
+                      "vi": "trực tiếp cải thiện điều kiện sống"
+                    },
+                    {
+                      "en": "build a better community",
+                      "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                    }
+                  ]
+                ]
+              }
             ],
             "drawbacks": []
           },
@@ -135469,1216 +135469,8 @@ const ESSAY_DATA = [
         "context": "In today’s globalized world, language education plays a key role in helping people communicate, work, and study across borders. However, in many countries, language learning is still limited or ineffective.",
         "prompt": "Write an essay to suggest measures that can be taken to promote language education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
-        "details": {
-          "vocab": [
-            {
-              "en": "language education",
-              "vi": "giáo dục ngôn ngữ"
-            },
-            {
-              "en": "communicate across borders",
-              "vi": "giao tiếp xuyên biên giới"
-            },
-            {
-              "en": "teaching methods",
-              "vi": "phương pháp giảng dạy"
-            },
-            {
-              "en": "interactive activities",
-              "vi": "các hoạt động tương tác"
-            },
-            {
-              "en": "group discussions",
-              "vi": "thảo luận nhóm"
-            },
-            {
-              "en": "speaking practice",
-              "vi": "luyện nói"
-            },
-            {
-              "en": "learning resources",
-              "vi": "nguồn tài liệu học tập"
-            },
-            {
-              "en": "learning applications",
-              "vi": "ứng dụng học tập"
-            },
-            {
-              "en": "cultural exchange programs",
-              "vi": "chương trình giao lưu văn hóa"
-            },
-            {
-              "en": "speaking confidence",
-              "vi": "sự tự tin khi nói"
-            },
-            {
-              "en": "communication skills",
-              "vi": "kỹ năng giao tiếp"
-            }
-          ],
-          "sample_b1": "In recent years, <strong>language education</strong> has become increasingly important in modern society. Effective language learning helps people communicate, work, and study across borders. <strong>This essay will suggest several practical solutions to improve language education.</strong>\n\nOne effective solution is to <strong><em>improve language teaching methods in schools</em></strong>. Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons. As a result, students may become more interested in language learning and improve their language skills.\n\nAnother possible measure is to <strong><em>increase access to language learning resources</em></strong>. Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily.\n\nA further approach is to <strong><em>create more opportunities for people to practise foreign languages in daily life</em></strong>. Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations.\n\nIn conclusion, several practical solutions can help <strong>improve language education</strong>. By applying suitable measures, schools and governments can help improve the situation in the future. These efforts will benefit both learners and society.",
-          "sample_b2": "In recent years, <strong>promoting language education</strong> has become a top priority in many countries around the world. In an increasingly globalized economy, proficiency in foreign languages equips individuals with vital communication skills for international study and career advancement. <strong>This essay will suggest several practical measures that can be taken to enhance language education effectively.</strong>\n\nOne effective step is that <strong><em>schools should modernize language teaching methods to focus on practical communication</em></strong>. Instead of relying heavily on rote memorization and written grammar exercises, educators should integrate interactive classroom activities such as role-playing, debates, and collaborative projects. Encouraging students to use the target language actively during lessons stimulates their interest and helps them develop natural fluency across all four skills.\n\nAnother possible measure is that <strong><em>governments and educational institutions should expand access to high-quality language learning resources</em></strong>. Schools can invest in multimedia libraries, digital learning platforms, and interactive language applications that allow students to practice listening and pronunciation at their own pace. Furthermore, providing free or subsidized language courses in local communities ensures that learners from low-income families enjoy equal opportunities to master foreign languages.\n\nA further approach is that <strong><em>more immersive environments should be created for learners to practice foreign languages outside the classroom</em></strong>. Schools and universities can regularly organize extracurricular language clubs, public speaking competitions, and cultural exchange programs with international students or native speakers. Through these authentic interactions, learners can overcome their fear of making mistakes, build speaking confidence, and develop strong cross-cultural communication competence.\n\nIn conclusion, several practical measures can be implemented to <strong>promote language education</strong>. By reforming teaching methodologies, broadening access to digital learning resources, and fostering real-world practice opportunities, society can cultivate a generation of confident multilingual citizens.",
-          "ideas_b1": {
-            "benefits": [
-              {
-                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
-                "collocations": [
-                  {
-                    "en": "teaching methods",
-                    "vi": "phương pháp giảng dạy"
-                  },
-                  {
-                    "en": "interactive activities",
-                    "vi": "các hoạt động tương tác"
-                  },
-                  {
-                    "en": "group discussions",
-                    "vi": "thảo luận nhóm"
-                  },
-                  {
-                    "en": "speaking practice",
-                    "vi": "luyện nói"
-                  },
-                  {
-                    "en": "real communication",
-                    "vi": "giao tiếp thực tế"
-                  }
-                ],
-                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
-                "point_en": "Improve language teaching methods in schools.",
-                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
-                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills.",
-                "point_collocations": [
-                  {
-                    "en": "teaching methods",
-                    "vi": "phương pháp giảng dạy"
-                  },
-                  {
-                    "en": "interactive activities",
-                    "vi": "các hoạt động tương tác"
-                  },
-                  {
-                    "en": "group discussions",
-                    "vi": "thảo luận nhóm"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "interactive activities",
-                      "vi": "các hoạt động tương tác"
-                    },
-                    {
-                      "en": "group discussions",
-                      "vi": "thảo luận nhóm"
-                    },
-                    {
-                      "en": "speaking practice",
-                      "vi": "luyện nói"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "on a daily basis",
-                      "vi": "hằng ngày"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "real communication",
-                      "vi": "giao tiếp thực tế"
-                    },
-                    {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
-                    },
-                    {
-                      "en": "to be specific",
-                      "vi": "cụ thể là"
-                    },
-                    {
-                      "en": "in daily life",
-                      "vi": "trong đời sống hằng ngày"
-                    },
-                    {
-                      "en": "in the long run",
-                      "vi": "trong dài hạn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "teaching methods",
-                      "vi": "phương pháp giảng dạy"
-                    },
-                    {
-                      "en": "interactive activities",
-                      "vi": "các hoạt động tương tác"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
-                "collocations": [
-                  {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập"
-                  },
-                  {
-                    "en": "online materials",
-                    "vi": "tài liệu trực tuyến"
-                  },
-                  {
-                    "en": "learning applications",
-                    "vi": "ứng dụng học tập"
-                  },
-                  {
-                    "en": "low-income families",
-                    "vi": "gia đình thu nhập thấp"
-                  },
-                  {
-                    "en": "foreign languages",
-                    "vi": "ngoại ngữ"
-                  }
-                ],
-                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
-                "point_en": "Increase access to language learning resources.",
-                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
-                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily.",
-                "point_collocations": [
-                  {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập"
-                  },
-                  {
-                    "en": "online materials",
-                    "vi": "tài liệu trực tuyến"
-                  },
-                  {
-                    "en": "learning applications",
-                    "vi": "ứng dụng học tập"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "online materials",
-                      "vi": "tài liệu trực tuyến"
-                    },
-                    {
-                      "en": "learning applications",
-                      "vi": "ứng dụng học tập"
-                    },
-                    {
-                      "en": "learning resources",
-                      "vi": "nguồn tài liệu học tập"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "low-income families",
-                      "vi": "gia đình thu nhập thấp"
-                    },
-                    {
-                      "en": "foreign languages",
-                      "vi": "ngoại ngữ"
-                    },
-                    {
-                      "en": "moreover",
-                      "vi": "ngoài ra / hơn nữa"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "consequently",
-                      "vi": "hệ quả là / do đó"
-                    },
-                    {
-                      "en": "to be specific",
-                      "vi": "cụ thể là"
-                    },
-                    {
-                      "en": "more easily",
-                      "vi": "một cách dễ dàng hơn"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
-                "collocations": [
-                  {
-                    "en": "practise foreign languages",
-                    "vi": "thực hành ngoại ngữ"
-                  },
-                  {
-                    "en": "language clubs",
-                    "vi": "câu lạc bộ ngoại ngữ"
-                  },
-                  {
-                    "en": "cultural exchange programs",
-                    "vi": "chương trình giao lưu văn hóa"
-                  },
-                  {
-                    "en": "speaking confidence",
-                    "vi": "sự tự tin khi nói"
-                  },
-                  {
-                    "en": "communication skills",
-                    "vi": "kỹ năng giao tiếp"
-                  }
-                ],
-                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
-                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
-                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations.",
-                "point_collocations": [
-                  {
-                    "en": "practise foreign languages",
-                    "vi": "thực hành ngoại ngữ"
-                  },
-                  {
-                    "en": "in daily life",
-                    "vi": "trong đời sống hằng ngày"
-                  },
-                  {
-                    "en": "language clubs",
-                    "vi": "câu lạc bộ ngoại ngữ"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "language clubs",
-                      "vi": "câu lạc bộ ngoại ngữ"
-                    },
-                    {
-                      "en": "cultural exchange programs",
-                      "vi": "chương trình giao lưu văn hóa"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "on a daily basis",
-                      "vi": "hằng ngày"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "speaking confidence",
-                      "vi": "sự tự tin khi nói"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
-                      "en": "practise foreign languages",
-                      "vi": "thực hành ngoại ngữ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "practise foreign languages",
-                      "vi": "thực hành ngoại ngữ"
-                    },
-                    {
-                      "en": "communication skills",
-                      "vi": "kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
-                    }
-                  ]
-                ]
-              }
-            ],
-            "drawbacks": []
-          },
-          "ideas_b2": {
-            "benefits": [
-              {
-                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY THEO HƯỚNG GIAO TIẾP",
-                "collocations": [
-                  {
-                    "en": "communicative teaching methods",
-                    "vi": "phương pháp giảng dạy giao tiếp"
-                  },
-                  {
-                    "en": "interactive classroom activities",
-                    "vi": "hoạt động lớp học tương tác"
-                  },
-                  {
-                    "en": "real-world communication",
-                    "vi": "giao tiếp trong thực tế"
-                  },
-                  {
-                    "en": "active learner engagement",
-                    "vi": "sự tham gia chủ động của người học"
-                  },
-                  {
-                    "en": "practical language proficiency",
-                    "vi": "năng lực sử dụng ngôn ngữ thực tế"
-                  }
-                ],
-                "point_vi": "Các trường học cần hiện đại hóa phương pháp giảng dạy ngôn ngữ theo hướng giao tiếp thực tế.",
-                "point_en": "Schools should modernize language teaching methods to focus on practical communication.",
-                "evidence_vi": "Thay vì chỉ tập trung vào việc học thuộc lòng từ vựng và làm bài tập ngữ pháp trên giấy, giáo viên nên lồng ghép các hoạt động tương tác như đóng vai, tranh biện và thảo luận nhóm. Cách tiếp cận này giúp học sinh rèn luyện phản xạ tự nhiên và nâng cao năng lực sử dụng ngoại ngữ trong đời sống.",
-                "evidence_en": "Instead of focusing solely on rote memorization and written grammar exercises, teachers should integrate interactive activities such as role-playing, debates, and group discussions. This approach helps students develop natural fluency and improve their practical language proficiency.",
-                "point_collocations": [
-                  {
-                    "en": "communicative teaching methods",
-                    "vi": "phương pháp giảng dạy giao tiếp"
-                  },
-                  {
-                    "en": "practical language proficiency",
-                    "vi": "năng lực sử dụng ngôn ngữ thực tế"
-                  },
-                  {
-                    "en": "teaching methods",
-                    "vi": "phương pháp giảng dạy"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "interactive classroom activities",
-                      "vi": "hoạt động lớp học tương tác"
-                    },
-                    {
-                      "en": "interactive activities",
-                      "vi": "các hoạt động tương tác"
-                    },
-                    {
-                      "en": "group discussions",
-                      "vi": "thảo luận nhóm"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "on a daily basis",
-                      "vi": "hằng ngày"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "practical language proficiency",
-                      "vi": "năng lực sử dụng ngôn ngữ thực tế"
-                    },
-                    {
-                      "en": "communicative teaching methods",
-                      "vi": "phương pháp giảng dạy giao tiếp"
-                    },
-                    {
-                      "en": "interactive classroom activities",
-                      "vi": "hoạt động lớp học tương tác"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 02: MỞ RỘNG KHẢ NĂNG TIẾP CẬN HỌC LIỆU SỐ VÀ KHÓA HỌC GIÁ RẺ",
-                "collocations": [
-                  {
-                    "en": "digital learning resources",
-                    "vi": "nguồn học liệu kỹ thuật số"
-                  },
-                  {
-                    "en": "interactive language applications",
-                    "vi": "ứng dụng học ngôn ngữ tương tác"
-                  },
-                  {
-                    "en": "subsidized language courses",
-                    "vi": "các khóa học ngôn ngữ được trợ giá"
-                  },
-                  {
-                    "en": "underprivileged students",
-                    "vi": "học sinh có hoàn cảnh khó khăn"
-                  },
-                  {
-                    "en": "equal educational opportunities",
-                    "vi": "cơ hội giáo dục bình đẳng"
-                  }
-                ],
-                "point_vi": "Chính phủ và nhà trường nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao.",
-                "point_en": "Governments and schools should expand access to high-quality language learning resources.",
-                "evidence_vi": "Các cơ sở giáo dục có thể đầu tư vào thư viện đa phương tiện, tài liệu trực tuyến và các ứng dụng học ngoại ngữ thông minh cho học sinh. Bên cạnh đó, việc cung cấp các khóa học miễn phí hoặc chi phí thấp sẽ tạo cơ hội bình đẳng cho người học từ các gia đình thu nhập thấp.",
-                "evidence_en": "Educational institutions can invest in multimedia libraries, online materials, and smart language-learning applications for students. Furthermore, offering free or subsidized courses creates equal opportunities for learners from low-income families.",
-                "point_collocations": [
-                  {
-                    "en": "digital learning resources",
-                    "vi": "nguồn học liệu kỹ thuật số"
-                  },
-                  {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập"
-                  },
-                  {
-                    "en": "interactive language applications",
-                    "vi": "ứng dụng học ngôn ngữ tương tác"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "interactive language applications",
-                      "vi": "ứng dụng học ngôn ngữ tương tác"
-                    },
-                    {
-                      "en": "learning applications",
-                      "vi": "ứng dụng học tập"
-                    },
-                    {
-                      "en": "digital learning resources",
-                      "vi": "nguồn học liệu kỹ thuật số"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "subsidized language courses",
-                      "vi": "các khóa học ngôn ngữ được trợ giá"
-                    },
-                    {
-                      "en": "equal educational opportunities",
-                      "vi": "cơ hội giáo dục bình đẳng"
-                    },
-                    {
-                      "en": "furthermore",
-                      "vi": "hơn nữa"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 03: XÂY DỰNG MÔI TRƯỜNG THỰC HÀNH VÀ GIAO LƯU QUỐC TẾ",
-                "collocations": [
-                  {
-                    "en": "immersive language environments",
-                    "vi": "môi trường trải nghiệm ngôn ngữ"
-                  },
-                  {
-                    "en": "cultural exchange programs",
-                    "vi": "chương trình giao lưu văn hóa"
-                  },
-                  {
-                    "en": "extracurricular language clubs",
-                    "vi": "câu lạc bộ ngoại ngữ ngoại khóa"
-                  },
-                  {
-                    "en": "native speakers",
-                    "vi": "người bản xứ"
-                  },
-                  {
-                    "en": "cross-cultural competence",
-                    "vi": "năng lực giao tiếp liên văn hóa"
-                  }
-                ],
-                "point_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa.",
-                "point_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                "evidence_vi": "Nhà trường và cộng đồng có thể thường xuyên tổ chức các câu lạc bộ ngoại ngữ, cuộc thi hùng biện và chương trình giao lưu văn hóa với sinh viên quốc tế hoặc người bản xứ. Nhờ đó, người học có thể vượt qua tâm lý e ngại, phát triển sự tự tin và sử dụng ngoại ngữ lưu loát trong các tình huống thực tế.",
-                "evidence_en": "Schools and communities can regularly organize language clubs, public speaking contests, and cultural exchange programs with international students or native speakers. As a result, learners can overcome shyness, build confidence, and use foreign languages fluently in real-life situations.",
-                "point_collocations": [
-                  {
-                    "en": "immersive language environments",
-                    "vi": "môi trường trải nghiệm ngôn ngữ"
-                  },
-                  {
-                    "en": "to be specific",
-                    "vi": "cụ thể là"
-                  },
-                  {
-                    "en": "cultural exchange programs",
-                    "vi": "chương trình giao lưu văn hóa"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "cultural exchange programs",
-                      "vi": "chương trình giao lưu văn hóa"
-                    },
-                    {
-                      "en": "extracurricular language clubs",
-                      "vi": "câu lạc bộ ngoại ngữ ngoại khóa"
-                    },
-                    {
-                      "en": "native speakers",
-                      "vi": "người bản xứ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "in daily life",
-                      "vi": "trong đời sống hằng ngày"
-                    },
-                    {
-                      "en": "immersive language environments",
-                      "vi": "môi trường trải nghiệm ngôn ngữ"
-                    }
-                  ]
-                ]
-              }
-            ],
-            "drawbacks": []
-          },
-          "translation_b1": "Trong những năm gần đây, <strong>giáo dục ngôn ngữ</strong> ngày càng trở nên quan trọng trong xã hội hiện đại. Việc học ngôn ngữ hiệu quả giúp mọi người giao tiếp, làm việc và học tập xuyên biên giới. <strong>Bài tiểu luận này sẽ đề xuất một số giải pháp thiết thực để cải thiện giáo dục ngôn ngữ.</strong>\n\nMột giải pháp hiệu quả là <strong><em>cải thiện phương pháp giảng dạy ngôn ngữ trong nhà trường</em></strong>. Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hằng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng của mình.\n\nMột biện pháp khả thi khác là <strong><em>tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ</em></strong>. Các trường học và chính phủ có thể cung cấp thêm nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.\n\nMột cách tiếp cận nữa là <strong><em>tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hằng ngày</em></strong>. Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ tự nhiên hơn trong các tình huống thực tế.\n\nTóm lại, một số giải pháp thiết thực có thể giúp <strong>cải thiện giáo dục ngôn ngữ</strong>. Bằng cách áp dụng các biện pháp phù hợp, nhà trường và chính phủ có thể giúp cải thiện tình hình trong tương lai. Những nỗ lực này có thể mang lại những thay đổi tích cực cho cả cá nhân và xã hội.",
-          "translation_b2": "Trong những năm gần đây, <strong>việc thúc đẩy giáo dục ngôn ngữ</strong> đã trở thành một ưu tiên hàng đầu tại nhiều quốc gia trên thế giới. Trong một nền kinh tế ngày càng toàn cầu hóa, sự thông thạo ngoại ngữ trang bị cho mỗi cá nhân những kỹ năng giao tiếp thiết yếu để học tập quốc tế và thăng tiến trong sự nghiệp. <strong>Bài tiểu luận này sẽ đề xuất một số biện pháp thiết thực có thể được triển khai nhằm nâng cao hiệu quả giáo dục ngôn ngữ.</strong>\n\nMột bước đi hiệu quả là <strong><em>các trường học cần hiện đại hóa phương pháp giảng dạy ngôn ngữ theo hướng tập trung vào giao tiếp thực tế</em></strong>. Thay vì phụ thuộc nặng nề vào việc học vẹt và làm các bài tập ngữ pháp trên giấy, các nhà giáo dục nên lồng ghép các hoạt động lớp học tương tác như đóng vai, tranh biện và các dự án hợp tác nhóm. Việc khuyến khích học sinh chủ động sử dụng ngôn ngữ mục tiêu trong giờ học sẽ khơi dậy sự hứng thú và giúp các em phát triển sự lưu loát tự nhiên ở cả bốn kỹ năng.\n\nMột biện pháp khả thi khác là <strong><em>chính phủ và các cơ sở giáo dục nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao</em></strong>. Nhà trường có thể đầu tư vào thư viện đa phương tiện, các nền tảng học tập kỹ thuật số và các ứng dụng ngôn ngữ tương tác cho phép học sinh tự luyện nghe và phát âm theo tốc độ của riêng mình. Hơn nữa, việc cung cấp các khóa học ngoại ngữ miễn phí hoặc được trợ giá tại cộng đồng địa phương đảm bảo rằng người học từ các gia đình thu nhập thấp cũng có cơ hội bình đẳng để làm chủ ngoại ngữ.\n\nMột cách tiếp cận nữa là <strong><em>cần tạo thêm nhiều môi trường trải nghiệm thực tế để người học thực hành ngoại ngữ bên ngoài lớp học</em></strong>. Các trường phổ thông và đại học có thể thường xuyên tổ chức các câu lạc bộ ngoại ngữ ngoại khóa, các cuộc thi hùng biện và chương trình giao lưu văn hóa với sinh viên quốc tế hoặc người bản xứ. Thông qua những tương tác chân thực này, người học có thể vượt qua nỗi sợ mắc lỗi, xây dựng sự tự tin khi nói và phát triển năng lực giao tiếp liên văn hóa vững vàng.\n\nTóm lại, có nhiều biện pháp thiết thực có thể được thực hiện để <strong>thúc đẩy giáo dục ngôn ngữ</strong>. Bằng cách đổi mới phương pháp giảng dạy, mở rộng khả năng tiếp cận học liệu số và tăng cường cơ hội thực hành thực tế, xã hội có thể đào tạo nên một thế hệ công dân đa ngôn ngữ đầy tự tin.",
-          "vocab_step": {
-            "theme": "Thúc đẩy giáo dục ngôn ngữ (Promoting Language Education)",
-            "overview": "Các từ vựng về đổi mới phương pháp giảng dạy tương tác, ứng dụng học liệu số, nâng cao phản xạ giao tiếp thực tế và hội nhập toàn cầu.",
-            "single_words": [
-              {
-                "word": "proficiency",
-                "ipa": "/prəˈfɪʃ.ən.si/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự thông thạo, thành thạo",
-                "family": "proficient (adj)",
-                "example_en": "High English proficiency unlocks superior international career prospects.",
-                "example_vi": "Sự thông thạo tiếng Anh cao mở ra những triển vọng sự nghiệp quốc tế vượt trội."
-              },
-              {
-                "word": "fluency",
-                "ipa": "/ˈfluː.ən.si/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự lưu loát trôi chảy",
-                "family": "fluent (adj), fluently (adv)",
-                "example_en": "Daily speaking practice develops natural conversational fluency.",
-                "example_vi": "Luyện nói hằng ngày giúp phát triển sự lưu loát tự nhiên trong giao tiếp."
-              },
-              {
-                "word": "interactive",
-                "ipa": "/ˌɪn.təˈræk.tɪv/",
-                "pos": "adj",
-                "level": "B1, B2",
-                "vi": "tương tác",
-                "family": "interact (v), interaction (n)",
-                "example_en": "Interactive classroom games engage shy students much better than lectures.",
-                "example_vi": "Các trò chơi lớp học tương tác thu hút học sinh nhút nhát tốt hơn bài giảng."
-              },
-              {
-                "word": "curriculum",
-                "ipa": "/kəˈrɪk.jə.ləm/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "chương trình học",
-                "family": "curricular (adj)",
-                "example_en": "Reforming the national language curriculum emphasizes communicative skills.",
-                "example_vi": "Đổi mới chương trình ngoại ngữ quốc gia chú trọng kỹ năng giao tiếp."
-              },
-              {
-                "word": "pedagogy",
-                "ipa": "/ˈped.ə.ɡɒdʒ.i/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "phương pháp sư phạm",
-                "family": "pedagogical (adj)",
-                "example_en": "Modern language pedagogy moves away from dry grammatical translation.",
-                "example_vi": "Phương pháp sư phạm ngôn ngữ hiện đại tránh xa lối dịch ngữ pháp khô khan."
-              },
-              {
-                "word": "immersion",
-                "ipa": "/ɪˈmɜː.ʃən/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự đắm mình vào môi trường ngôn ngữ",
-                "family": "immerse (v), immersive (adj)",
-                "example_en": "Language immersion camps help teens master pronunciation naturally.",
-                "example_vi": "Trại hè đắm mình ngôn ngữ giúp thanh thiếu niên làm chủ phát âm tự nhiên."
-              },
-              {
-                "word": "acquisition",
-                "ipa": "/ˌæk.wɪˈzɪʃ.ən/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự tiếp thu, lĩnh hội ngôn ngữ",
-                "family": "acquire (v)",
-                "example_en": "Early second language acquisition is swifter and more effortless in children.",
-                "example_vi": "Việc tiếp thu ngôn ngữ thứ hai từ sớm diễn ra nhanh hơn và dễ dàng hơn ở trẻ nhỏ."
-              },
-              {
-                "word": "bilingual",
-                "ipa": "/baɪˈlɪŋ.ɡwəl/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "song ngữ",
-                "family": "bilingualism (n)",
-                "example_en": "Bilingual education enhances cognitive flexibility and problem-solving.",
-                "example_vi": "Giáo dục song ngữ nâng cao sự linh hoạt nhận thức và giải quyết vấn đề."
-              },
-              {
-                "word": "multimedia",
-                "ipa": "/ˌmʌl.tiˈmiː.di.ə/",
-                "pos": "noun/adj",
-                "level": "B1, B2",
-                "vi": "đa phương tiện",
-                "family": "media (n)",
-                "example_en": "Multimedia listening podcasts train students on various foreign accents.",
-                "example_vi": "Các tệp âm thanh đa phương tiện rèn luyện học sinh với nhiều chất giọng ngoại quốc."
-              },
-              {
-                "word": "subsidize",
-                "ipa": "/ˈsʌb.sɪ.daɪz/",
-                "pos": "verb",
-                "level": "B2",
-                "vi": "trợ cấp kinh phí",
-                "family": "subsidy (n)",
-                "example_en": "Governments should subsidize language training for rural teachers.",
-                "example_vi": "Chính phủ nên trợ cấp kinh phí đào tạo ngôn ngữ cho giáo viên vùng sâu."
-              },
-              {
-                "word": "comprehension",
-                "ipa": "/ˌkɒm.prɪˈhen.ʃən/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự đọc hiểu / nghe hiểu",
-                "family": "comprehend (v)",
-                "example_en": "Authentic movie clips improve listening comprehension substantially.",
-                "example_vi": "Các đoạn trích phim chân thực cải thiện kỹ năng nghe hiểu một cách đáng kể."
-              },
-              {
-                "word": "extracurricular",
-                "ipa": "/ˌek.strə.kəˈrɪk.jə.lər/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "ngoại khóa",
-                "family": "curriculum (n)",
-                "example_en": "Extracurricular English debate clubs build tremendous speaking confidence.",
-                "example_vi": "Câu lạc bộ tranh biện tiếng Anh ngoại khóa xây dựng sự tự tin nói tuyệt vời."
-              },
-              {
-                "word": "competence",
-                "ipa": "/ˈkɒm.pɪ.təns/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "năng lực, khả năng thành thạo",
-                "family": "competent (adj)",
-                "example_en": "Cultural competence is just as important as mastering vocabulary.",
-                "example_vi": "Năng lực hiểu biết văn hóa cũng quan trọng không kém việc làm chủ từ vựng."
-              },
-              {
-                "word": "exchange",
-                "ipa": "/ɪksˈtʃeɪndʒ/",
-                "pos": "noun/verb",
-                "level": "B1, B2",
-                "vi": "sự giao lưu, trao đổi",
-                "family": "exchanging (n)",
-                "example_en": "Student exchange programs expose learners to native conversational idioms.",
-                "example_vi": "Chương trình trao đổi học sinh giúp người học tiếp cận thành ngữ giao tiếp bản xứ."
-              },
-              {
-                "word": "linguistic",
-                "ipa": "/lɪŋˈɡwɪs.tɪk/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "thuộc ngôn ngữ học",
-                "family": "linguist (n), linguistics (n)",
-                "example_en": "Studying foreign languages expands one's broader linguistic perspective.",
-                "example_vi": "Học ngoại ngữ mở rộng tầm nhìn ngôn ngữ học sâu rộng của mỗi cá nhân."
-              },
-              {
-                "word": "pronunciation",
-                "ipa": "/prəˌnʌn.siˈeɪ.ʃən/",
-                "pos": "noun",
-                "level": "B1, B2",
-                "vi": "sự phát âm",
-                "family": "pronounce (v)",
-                "example_en": "Smart mobile apps provide instant feedback on phonetics and pronunciation.",
-                "example_vi": "Ứng dụng di động thông minh cung cấp phản hồi tức thì về ngữ âm và phát âm."
-              },
-              {
-                "word": "empower",
-                "ipa": "/ɪmˈpaʊ.ər/",
-                "pos": "verb",
-                "level": "B2",
-                "vi": "trao quyền, tiếp sức",
-                "family": "empowerment (n)",
-                "example_en": "Language skills empower young graduates in multinational job interviews.",
-                "example_vi": "Kỹ năng ngoại ngữ tiếp sức cho cử nhân trẻ trong phỏng vấn tuyển dụng đa quốc gia."
-              },
-              {
-                "word": "underprivileged",
-                "ipa": "/ˌʌn.dəˈprɪv.əl.ɪdʒd/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "thiệt thòi, hoàn cảnh khó khăn",
-                "family": "privilege (n)",
-                "example_en": "Free online courses guarantee underprivileged children quality foreign education.",
-                "example_vi": "Các khóa học mạng miễn phí đảm bảo trẻ em khó khăn nhận được giáo dục ngoại ngữ tốt."
-              },
-              {
-                "word": "globalization",
-                "ipa": "/ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự toàn cầu hóa",
-                "family": "globalize (v), global (adj)",
-                "example_en": "In the era of globalization, multilingualism has become a powerful asset.",
-                "example_vi": "Trong kỷ nguyên toàn cầu hóa, việc biết nhiều thứ tiếng đã trở thành tài sản đắc lực."
-              },
-              {
-                "word": "confidence",
-                "ipa": "/ˈkɒn.fɪ.dəns/",
-                "pos": "noun",
-                "level": "B1, B2",
-                "vi": "sự tự tin",
-                "family": "confident (adj)",
-                "example_en": "Friendly teachers create a safe environment where students speak with confidence.",
-                "example_vi": "Thầy cô thân thiện tạo ra môi trường an toàn nơi học sinh tự tin cất lời."
-              }
-            ],
-            "collocation_groups": [
-              {
-                "id": "teaching_methods",
-                "name": "Nhóm Collocations: Đổi mới phương pháp giảng dạy",
-                "icon": "🗣️",
-                "badge": "Thân bài 1 (Body 1)",
-                "items": [
-                  {
-                    "en": "communicative teaching methods",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "phương pháp giảng dạy giao tiếp",
-                    "example": "Adopting communicative teaching methods replaces boring grammar drills."
-                  },
-                  {
-                    "en": "interactive classroom activities",
-                    "type": "n.phr",
-                    "level": "B1",
-                    "vi": "hoạt động tương tác trong lớp học",
-                    "example": "Teachers use interactive classroom activities like role-playing and group games."
-                  },
-                  {
-                    "en": "real-world communication",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "giao tiếp trong thực tế đời sống",
-                    "example": "Lessons should prepare students for real-world communication with foreigners."
-                  },
-                  {
-                    "en": "speaking practice",
-                    "type": "n.phr",
-                    "level": "B1",
-                    "vi": "luyện tập kỹ năng nói",
-                    "example": "Providing dedicated daily speaking practice builds natural conversational reflex."
-                  },
-                  {
-                    "en": "active learner engagement",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "sự tham gia chủ động của người học",
-                    "example": "Project-based tasks stimulate active learner engagement in foreign languages."
-                  },
-                  {
-                    "en": "teaching methods",
-                    "vi": "phương pháp giảng dạy",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "group discussions",
-                    "vi": "thảo luận nhóm",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "real communication",
-                    "vi": "giao tiếp thực tế",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "interactive activities",
-                    "vi": "các hoạt động tương tác",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "learning applications",
-                    "vi": "ứng dụng học tập",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "foreign languages",
-                    "vi": "ngoại ngữ",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "online materials",
-                    "vi": "tài liệu trực tuyến",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "practise foreign languages",
-                    "vi": "thực hành ngoại ngữ",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "cultural exchange programs",
-                    "vi": "chương trình giao lưu văn hóa",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "communication skills",
-                    "vi": "kỹ năng giao tiếp",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "in daily life",
-                    "vi": "trong đời sống hằng ngày",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "practical language proficiency",
-                    "vi": "năng lực sử dụng ngôn ngữ thực tế",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Schools should modernize language teaching methods to focus on practical communication.",
-                    "example_vi": "Các trường học cần hiện đại hóa phương pháp giảng dạy ngôn ngữ theo hướng giao tiếp thực tế."
-                  },
-                  {
-                    "en": "digital learning resources",
-                    "vi": "nguồn học liệu kỹ thuật số",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Governments and schools should expand access to high-quality language learning resources.",
-                    "example_vi": "Chính phủ và nhà trường nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao."
-                  },
-                  {
-                    "en": "subsidized language courses",
-                    "vi": "các khóa học ngôn ngữ được trợ giá",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Governments and schools should expand access to high-quality language learning resources.",
-                    "example_vi": "Chính phủ và nhà trường nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao."
-                  },
-                  {
-                    "en": "equal educational opportunities",
-                    "vi": "cơ hội giáo dục bình đẳng",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Governments and schools should expand access to high-quality language learning resources.",
-                    "example_vi": "Chính phủ và nhà trường nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao."
-                  },
-                  {
-                    "en": "immersive language environments",
-                    "vi": "môi trường trải nghiệm ngôn ngữ",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                    "example_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa."
-                  },
-                  {
-                    "en": "extracurricular language clubs",
-                    "vi": "câu lạc bộ ngoại ngữ ngoại khóa",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                    "example_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa."
-                  },
-                  {
-                    "en": "cross-cultural competence",
-                    "vi": "năng lực giao tiếp liên văn hóa",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                    "example_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa."
-                  },
-                  {
-                    "en": "to be specific",
-                    "vi": "cụ thể là",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                    "example_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa."
-                  }
-                ]
-              },
-              {
-                "id": "resources_and_exchange",
-                "name": "Nhóm Collocations: Mở rộng học liệu & Giao lưu quốc tế",
-                "icon": "🌍",
-                "badge": "Thân bài 2 (Body 2)",
-                "items": [
-                  {
-                    "en": "digital learning resources",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "nguồn tài liệu học tập kỹ thuật số",
-                    "example": "Schools provide digital learning resources including podcasts and e-books."
-                  },
-                  {
-                    "en": "cultural exchange programs",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "chương trình giao lưu văn hóa",
-                    "example": "Joining cultural exchange programs helps students practice with native speakers."
-                  },
-                  {
-                    "en": "subsidized language courses",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "các khóa học ngoại ngữ được trợ giá",
-                    "example": "Governments should offer subsidized language courses for low-income youths."
-                  },
-                  {
-                    "en": "extracurricular language clubs",
-                    "type": "n.phr",
-                    "level": "B1",
-                    "vi": "câu lạc bộ ngoại ngữ ngoại khóa",
-                    "example": "Extracurricular language clubs organize debates and fun public speaking."
-                  },
-                  {
-                    "en": "build speaking confidence",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "vi": "xây dựng sự tự tin khi nói",
-                    "example": "Regular informal dialogue helps shy students build speaking confidence."
-                  },
-                  {
-                    "en": "interactive activities",
-                    "vi": "các hoạt động tương tác",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "speaking practice",
-                    "vi": "luyện nói",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "teaching methods",
-                    "vi": "phương pháp giảng dạy",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "group discussions",
-                    "vi": "thảo luận nhóm",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Improve language teaching methods in schools.",
-                    "example_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường."
-                  },
-                  {
-                    "en": "online materials",
-                    "vi": "tài liệu trực tuyến",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "low-income families",
-                    "vi": "gia đình thu nhập thấp",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "learning applications",
-                    "vi": "ứng dụng học tập",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Increase access to language learning resources.",
-                    "example_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ."
-                  },
-                  {
-                    "en": "language clubs",
-                    "vi": "câu lạc bộ ngoại ngữ",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "speaking confidence",
-                    "vi": "sự tự tin khi nói",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "practise foreign languages",
-                    "vi": "thực hành ngoại ngữ",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Create more opportunities for people to practise foreign languages in daily life.",
-                    "example_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày."
-                  },
-                  {
-                    "en": "interactive classroom activities",
-                    "vi": "hoạt động lớp học tương tác",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Schools should modernize language teaching methods to focus on practical communication.",
-                    "example_vi": "Các trường học cần hiện đại hóa phương pháp giảng dạy ngôn ngữ theo hướng giao tiếp thực tế."
-                  },
-                  {
-                    "en": "active learner engagement",
-                    "vi": "sự tham gia chủ động của người học",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Schools should modernize language teaching methods to focus on practical communication.",
-                    "example_vi": "Các trường học cần hiện đại hóa phương pháp giảng dạy ngôn ngữ theo hướng giao tiếp thực tế."
-                  },
-                  {
-                    "en": "communicative teaching methods",
-                    "vi": "phương pháp giảng dạy giao tiếp",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Schools should modernize language teaching methods to focus on practical communication.",
-                    "example_vi": "Các trường học cần hiện đại hóa phương pháp giảng dạy ngôn ngữ theo hướng giao tiếp thực tế."
-                  },
-                  {
-                    "en": "interactive language applications",
-                    "vi": "ứng dụng học ngôn ngữ tương tác",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Governments and schools should expand access to high-quality language learning resources.",
-                    "example_vi": "Chính phủ và nhà trường nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao."
-                  },
-                  {
-                    "en": "underprivileged students",
-                    "vi": "học sinh có hoàn cảnh khó khăn",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Governments and schools should expand access to high-quality language learning resources.",
-                    "example_vi": "Chính phủ và nhà trường nên mở rộng khả năng tiếp cận nguồn học liệu ngôn ngữ chất lượng cao."
-                  },
-                  {
-                    "en": "native speakers",
-                    "vi": "người bản xứ",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                    "example_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa."
-                  },
-                  {
-                    "en": "immersive language environments",
-                    "vi": "môi trường trải nghiệm ngôn ngữ",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "More immersive environments should be created for learners to practice foreign languages outside the classroom.",
-                    "example_vi": "Cần tạo thêm nhiều môi trường thực hành ngoại ngữ phong phú ngoài giờ học chính khóa."
-                  }
-                ]
-              }
-            ]
-          },
-          "reference_articles": {
-            "vi": [
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Mất vài năm lấy bằng tiếng Anh để đổi lấy điều gì?",
-                "summary": "Bàn luận về giá trị thực chất của việc học ngoại ngữ trong kỷ nguyên toàn cầu hóa, mở ra cánh cửa học thuật và phát triển sự nghiệp cá nhân.",
-                "url": "https://tuoitre.vn/mat-vai-nam-lay-bang-tieng-anh-de-doi-lay-dieu-gi-20261108222956247.htm"
-              },
-              {
-                "source": "Báo Tuổi Trẻ",
-                "title": "Học văn bằng 2 ngôn ngữ Anh phải đạt C1: Khó đến mức nào?",
-                "summary": "Phân tích chuẩn đầu ra ngoại ngữ tại các trường đại học, sự cần thiết của phương pháp học phản xạ tự nhiên thay vì chỉ luyện thi mẹo.",
-                "url": "https://tuoitre.vn/hoc-van-bang-2-ngon-ngu-anh-phai-dat-c1-kho-den-muc-nao-tuong-duong-ielts-bao-nhieu-20261106222847285.htm"
-              },
-              {
-                "source": "VnExpress",
-                "title": "Chuyên mục Học ngoại ngữ - Báo VnExpress",
-                "summary": "Tổng hợp các bí quyết học từ vựng, ngữ pháp và phát âm tiếng Anh chuẩn bản xứ, hỗ trợ người đi làm nâng cao năng lực cạnh tranh.",
-                "url": "https://vnexpress.net/giao-duc/hoc-ngoai-ngu"
-              }
-            ],
-            "en": [
-              {
-                "source": "British Council",
-                "title": "The Future of English: Global Perspectives on Language Learning",
-                "summary": "Comprehensive report examining English as an international lingua franca driving science, digital commerce, diplomacy, and cross-border research.",
-                "url": "https://www.britishcouncil.org/research-policy-insight/research-reports/future-english"
-              },
-              {
-                "source": "The Guardian",
-                "title": "The Cognitive Perks of Bilingualism: Brain Health and Cultural Empathy",
-                "summary": "Psycholinguistic research demonstrating that acquiring additional languages sharpens executive function, delays dementia, and fosters global empathy.",
-                "url": "https://www.theguardian.com/education/bilingual-brains-cognitive-benefits-languages"
-              },
-              {
-                "source": "World Economic Forum (WEF)",
-                "title": "Language Skills in the Digital Economy: Breaking Barriers to Global Employment",
-                "summary": "How multilingual talent pools attract international foreign direct investment (FDI) and power remote global engineering collaboration.",
-                "url": "https://www.weforum.org/agenda/2021/09/languages-global-employment-opportunities/"
-              }
-            ]
-          }
-        },
+        "context_vi": "Trong thế giới toàn cầu hóa ngày nay, giáo dục ngôn ngữ đóng vai trò then chốt trong việc giúp con người giao tiếp, làm việc và học tập xuyên biên giới. Tuy nhiên, tại nhiều quốc gia, việc dạy và học ngoại ngữ vẫn còn nhiều hạn chế hoặc chưa đạt hiệu quả cao.",
+        "prompt_vi": "Hãy viết một bài luận để đề xuất các biện pháp có thể thực hiện nhằm thúc đẩy và nâng cao chất lượng giáo dục ngôn ngữ. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
         "paraphrases": [
           {
             "original": "promote language education",
@@ -136715,8 +135507,7526 @@ const ESSAY_DATA = [
             ]
           }
         ],
-        "context_vi": "Trong thế giới toàn cầu hóa ngày nay, giáo dục ngôn ngữ đóng vai trò then chốt trong việc giúp con người giao tiếp, làm việc và học tập xuyên biên giới. Tuy nhiên, tại nhiều quốc gia, việc dạy và học ngoại ngữ vẫn còn nhiều hạn chế hoặc chưa đạt hiệu quả cao.",
-        "prompt_vi": "Hãy viết một bài luận để đề xuất các biện pháp có thể thực hiện nhằm thúc đẩy và nâng cao chất lượng giáo dục ngôn ngữ. Đưa ra các lý do và bất kỳ ví dụ liên quan nào để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp."
+        "details": {
+          "mindmap_img": "assets/mindmaps/cat2_topic25_mindmap.png",
+          "mindmap_img_en": "assets/mindmaps/cat2_topic25_mindmap_en.png",
+          "ideas_b1": {
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: TĂNG CƯỜNG ĐẦU TƯ VÀ HỖ TRỢ TỪ CHÍNH PHỦ",
+                "point_vi": "Chính phủ nên tăng cường đầu tư và hỗ trợ tài chính cho giáo dục ngôn ngữ.",
+                "point_en": "Governments should invest more money and provide financial support for language education.",
+                "point_collocations": [
+                  {
+                    "en": "invest more money",
+                    "vi": "đầu tư nhiều tiền hơn"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
+                  }
+                ],
+                "evidence_vi": "Phân bổ thêm ngân sách cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở vật chất và trang thiết bị. Cung cấp học bổng hoặc hỗ trợ tài chính cho học sinh, sinh viên có hoàn cảnh khó khăn để họ có thêm cơ hội học ngoại ngữ. Xây dựng các chính sách khuyến khích việc học ngoại ngữ từ bậc tiểu học nhằm tạo nền tảng ngôn ngữ vững chắc. Hợp tác với các tổ chức giáo dục quốc tế để tiếp cận nguồn tài trợ và các chương trình giáo dục tiên tiến.",
+                "evidence_en": "Authorities can allocate a larger budget to schools and language centres, using government funding to improve educational infrastructure, upgrade school facilities, and provide modern teaching equipment. The state should provide financial assistance and offer scholarships to students from low-income families, helping disadvantaged students expand access to language courses and reduce educational inequality. Policymakers should introduce supportive policies to promote early language learning in primary education, helping children build a strong language foundation, develop language skills from an early age, and encourage students to learn foreign languages. Schools can establish international partnerships and cooperate with international organizations to access international funding, exchange educational resources, use advanced educational programs, and benefit from international cooperation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "allocate a larger budget to",
+                      "vi": "phân bổ ngân sách lớn hơn cho"
+                    },
+                    {
+                      "en": "government funding",
+                      "vi": "nguồn tài trợ của chính phủ"
+                    },
+                    {
+                      "en": "language centres",
+                      "vi": "các trung tâm ngoại ngữ"
+                    },
+                    {
+                      "en": "improve educational infrastructure",
+                      "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                    },
+                    {
+                      "en": "upgrade school facilities",
+                      "vi": "nâng cấp cơ sở vật chất trường học"
+                    },
+                    {
+                      "en": "teaching equipment",
+                      "vi": "thiết bị giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide financial assistance",
+                      "vi": "cung cấp hỗ trợ tài chính"
+                    },
+                    {
+                      "en": "offer scholarships to students",
+                      "vi": "cấp học bổng cho học sinh, sinh viên"
+                    },
+                    {
+                      "en": "disadvantaged students",
+                      "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                    },
+                    {
+                      "en": "low-income families",
+                      "vi": "các gia đình có thu nhập thấp"
+                    },
+                    {
+                      "en": "expand access to language courses",
+                      "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                    },
+                    {
+                      "en": "reduce educational inequality",
+                      "vi": "giảm bất bình đẳng trong giáo dục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "introduce supportive policies",
+                      "vi": "ban hành các chính sách hỗ trợ"
+                    },
+                    {
+                      "en": "promote early language learning",
+                      "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                    },
+                    {
+                      "en": "primary education",
+                      "vi": "giáo dục tiểu học"
+                    },
+                    {
+                      "en": "build a strong language foundation",
+                      "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                    },
+                    {
+                      "en": "develop language skills from an early age",
+                      "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                    },
+                    {
+                      "en": "encourage students to learn foreign languages",
+                      "vi": "khuyến khích học sinh học ngoại ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "establish international partnerships",
+                      "vi": "thiết lập quan hệ hợp tác quốc tế"
+                    },
+                    {
+                      "en": "cooperate with international organizations",
+                      "vi": "hợp tác với các tổ chức quốc tế"
+                    },
+                    {
+                      "en": "access international funding",
+                      "vi": "tiếp cận nguồn tài trợ quốc tế"
+                    },
+                    {
+                      "en": "exchange educational resources",
+                      "vi": "trao đổi tài nguyên giáo dục"
+                    },
+                    {
+                      "en": "advanced educational programs",
+                      "vi": "các chương trình giáo dục tiên tiến"
+                    },
+                    {
+                      "en": "benefit from international cooperation",
+                      "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "allocate a larger budget to",
+                    "vi": "phân bổ ngân sách lớn hơn cho"
+                  },
+                  {
+                    "en": "government funding",
+                    "vi": "nguồn tài trợ của chính phủ"
+                  },
+                  {
+                    "en": "language centres",
+                    "vi": "các trung tâm ngoại ngữ"
+                  },
+                  {
+                    "en": "improve educational infrastructure",
+                    "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                  },
+                  {
+                    "en": "upgrade school facilities",
+                    "vi": "nâng cấp cơ sở vật chất trường học"
+                  },
+                  {
+                    "en": "teaching equipment",
+                    "vi": "thiết bị giảng dạy"
+                  },
+                  {
+                    "en": "provide financial assistance",
+                    "vi": "cung cấp hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "offer scholarships to students",
+                    "vi": "cấp học bổng cho học sinh, sinh viên"
+                  },
+                  {
+                    "en": "disadvantaged students",
+                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "các gia đình có thu nhập thấp"
+                  },
+                  {
+                    "en": "expand access to language courses",
+                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                  },
+                  {
+                    "en": "reduce educational inequality",
+                    "vi": "giảm bất bình đẳng trong giáo dục"
+                  },
+                  {
+                    "en": "introduce supportive policies",
+                    "vi": "ban hành các chính sách hỗ trợ"
+                  },
+                  {
+                    "en": "promote early language learning",
+                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                  },
+                  {
+                    "en": "primary education",
+                    "vi": "giáo dục tiểu học"
+                  },
+                  {
+                    "en": "build a strong language foundation",
+                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                  },
+                  {
+                    "en": "develop language skills from an early age",
+                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                  },
+                  {
+                    "en": "encourage students to learn foreign languages",
+                    "vi": "khuyến khích học sinh học ngoại ngữ"
+                  },
+                  {
+                    "en": "establish international partnerships",
+                    "vi": "thiết lập quan hệ hợp tác quốc tế"
+                  },
+                  {
+                    "en": "cooperate with international organizations",
+                    "vi": "hợp tác với các tổ chức quốc tế"
+                  },
+                  {
+                    "en": "access international funding",
+                    "vi": "tiếp cận nguồn tài trợ quốc tế"
+                  },
+                  {
+                    "en": "exchange educational resources",
+                    "vi": "trao đổi tài nguyên giáo dục"
+                  },
+                  {
+                    "en": "advanced educational programs",
+                    "vi": "các chương trình giáo dục tiên tiến"
+                  },
+                  {
+                    "en": "benefit from international cooperation",
+                    "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: CẢI THIỆN CHƯƠNG TRÌNH VÀ PHƯƠNG PHÁP GIẢNG DẠY",
+                "point_vi": "Các trường học nên cải thiện chương trình và phương pháp giảng dạy để giúp người học phát triển năng lực ngôn ngữ toàn diện.",
+                "point_en": "Schools should improve their curriculum and teaching methods to help students develop complete language skills.",
+                "point_collocations": [
+                  {
+                    "en": "improve their curriculum",
+                    "vi": "cải thiện chương trình học"
+                  },
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  }
+                ],
+                "evidence_vi": "Thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì tập trung quá nhiều vào ngữ pháp và từ vựng. Giảm sự phụ thuộc vào việc ghi nhớ máy móc các quy tắc ngữ pháp và từ vựng. Tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để học sinh có cơ hội sử dụng ngôn ngữ. Xây dựng nội dung bài học gắn với các tình huống thực tế như giao tiếp tại nơi làm việc, du lịch và học tập.",
+                "evidence_en": "In curriculum design, the language curriculum should place equal emphasis on the four language skills—listening comprehension, speaking fluency, reading comprehension, and written communication—to achieve balanced language development. Teachers should replace traditional teaching methods that focus heavily on grammar and vocabulary memorization, reducing rote memorization so that students can memorize grammar rules less, develop practical language skills, and apply knowledge in real-life situations. Teachers should increase communicative activities like group discussions, role-play activities, and give presentations to improve classroom interaction, encourage active participation, help students use the target language, and improve communication skills. Lessons should integrate real-life situations and authentic learning materials into practical learning content, including workplace communication, travel-related situations, and academic communication, to prepare learners for real-life communication.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "language curriculum",
+                      "vi": "chương trình giảng dạy ngôn ngữ"
+                    },
+                    {
+                      "en": "curriculum design",
+                      "vi": "thiết kế chương trình học"
+                    },
+                    {
+                      "en": "the four language skills",
+                      "vi": "bốn kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "listening comprehension",
+                      "vi": "khả năng nghe hiểu"
+                    },
+                    {
+                      "en": "speaking fluency",
+                      "vi": "độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "reading comprehension",
+                      "vi": "khả năng đọc hiểu"
+                    },
+                    {
+                      "en": "written communication",
+                      "vi": "giao tiếp bằng văn bản"
+                    },
+                    {
+                      "en": "balanced language development",
+                      "vi": "sự phát triển ngôn ngữ cân bằng"
+                    },
+                    {
+                      "en": "place equal emphasis on",
+                      "vi": "chú trọng đồng đều vào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reduce rote memorization",
+                      "vi": "giảm việc học thuộc lòng máy móc"
+                    },
+                    {
+                      "en": "memorize grammar rules",
+                      "vi": "ghi nhớ các quy tắc ngữ pháp"
+                    },
+                    {
+                      "en": "focus heavily on grammar",
+                      "vi": "tập trung quá nhiều vào ngữ pháp"
+                    },
+                    {
+                      "en": "vocabulary memorization",
+                      "vi": "việc ghi nhớ từ vựng"
+                    },
+                    {
+                      "en": "traditional teaching methods",
+                      "vi": "các phương pháp giảng dạy truyền thống"
+                    },
+                    {
+                      "en": "develop practical language skills",
+                      "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                    },
+                    {
+                      "en": "apply knowledge in real-life situations",
+                      "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "increase communicative activities",
+                      "vi": "tăng cường các hoạt động giao tiếp"
+                    },
+                    {
+                      "en": "group discussions",
+                      "vi": "thảo luận nhóm"
+                    },
+                    {
+                      "en": "role-play activities",
+                      "vi": "hoạt động đóng vai"
+                    },
+                    {
+                      "en": "give presentations",
+                      "vi": "thực hiện bài thuyết trình"
+                    },
+                    {
+                      "en": "classroom interaction",
+                      "vi": "sự tương tác trong lớp học"
+                    },
+                    {
+                      "en": "encourage active participation",
+                      "vi": "khuyến khích sự tham gia tích cực"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "use the target language",
+                      "vi": "sử dụng ngôn ngữ đích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "integrate real-life situations",
+                      "vi": "lồng ghép các tình huống thực tế"
+                    },
+                    {
+                      "en": "practical learning content",
+                      "vi": "nội dung học tập mang tính thực tiễn"
+                    },
+                    {
+                      "en": "workplace communication",
+                      "vi": "giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "travel-related situations",
+                      "vi": "các tình huống liên quan đến du lịch"
+                    },
+                    {
+                      "en": "academic communication",
+                      "vi": "giao tiếp trong môi trường học thuật"
+                    },
+                    {
+                      "en": "authentic learning materials",
+                      "vi": "tài liệu học tập thực tế"
+                    },
+                    {
+                      "en": "prepare learners for real-life communication",
+                      "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "language curriculum",
+                    "vi": "chương trình giảng dạy ngôn ngữ"
+                  },
+                  {
+                    "en": "curriculum design",
+                    "vi": "thiết kế chương trình học"
+                  },
+                  {
+                    "en": "the four language skills",
+                    "vi": "bốn kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "listening comprehension",
+                    "vi": "khả năng nghe hiểu"
+                  },
+                  {
+                    "en": "speaking fluency",
+                    "vi": "độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "reading comprehension",
+                    "vi": "khả năng đọc hiểu"
+                  },
+                  {
+                    "en": "written communication",
+                    "vi": "giao tiếp bằng văn bản"
+                  },
+                  {
+                    "en": "balanced language development",
+                    "vi": "sự phát triển ngôn ngữ cân bằng"
+                  },
+                  {
+                    "en": "place equal emphasis on",
+                    "vi": "chú trọng đồng đều vào"
+                  },
+                  {
+                    "en": "reduce rote memorization",
+                    "vi": "giảm việc học thuộc lòng máy móc"
+                  },
+                  {
+                    "en": "memorize grammar rules",
+                    "vi": "ghi nhớ các quy tắc ngữ pháp"
+                  },
+                  {
+                    "en": "focus heavily on grammar",
+                    "vi": "tập trung quá nhiều vào ngữ pháp"
+                  },
+                  {
+                    "en": "vocabulary memorization",
+                    "vi": "việc ghi nhớ từ vựng"
+                  },
+                  {
+                    "en": "traditional teaching methods",
+                    "vi": "các phương pháp giảng dạy truyền thống"
+                  },
+                  {
+                    "en": "develop practical language skills",
+                    "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                  },
+                  {
+                    "en": "apply knowledge in real-life situations",
+                    "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                  },
+                  {
+                    "en": "increase communicative activities",
+                    "vi": "tăng cường các hoạt động giao tiếp"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "role-play activities",
+                    "vi": "hoạt động đóng vai"
+                  },
+                  {
+                    "en": "give presentations",
+                    "vi": "thực hiện bài thuyết trình"
+                  },
+                  {
+                    "en": "classroom interaction",
+                    "vi": "sự tương tác trong lớp học"
+                  },
+                  {
+                    "en": "encourage active participation",
+                    "vi": "khuyến khích sự tham gia tích cực"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "use the target language",
+                    "vi": "sử dụng ngôn ngữ đích"
+                  },
+                  {
+                    "en": "integrate real-life situations",
+                    "vi": "lồng ghép các tình huống thực tế"
+                  },
+                  {
+                    "en": "practical learning content",
+                    "vi": "nội dung học tập mang tính thực tiễn"
+                  },
+                  {
+                    "en": "workplace communication",
+                    "vi": "giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "travel-related situations",
+                    "vi": "các tình huống liên quan đến du lịch"
+                  },
+                  {
+                    "en": "academic communication",
+                    "vi": "giao tiếp trong môi trường học thuật"
+                  },
+                  {
+                    "en": "authentic learning materials",
+                    "vi": "tài liệu học tập thực tế"
+                  },
+                  {
+                    "en": "prepare learners for real-life communication",
+                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: NÂNG CAO TRÌNH ĐỘ CHUYÊN MÔN CỦA GIÁO VIÊN",
+                "point_vi": "Các cơ sở giáo dục nên nâng cao trình độ chuyên môn của giáo viên để đảm bảo chất lượng giảng dạy ngôn ngữ.",
+                "point_en": "Schools should improve teachers’ professional skills to ensure good quality of language teaching.",
+                "point_collocations": [
+                  {
+                    "en": "improve teachers' professional skills",
+                    "vi": "cải thiện kỹ năng chuyên môn của giáo viên"
+                  },
+                  {
+                    "en": "quality of language teaching",
+                    "vi": "chất lượng giảng dạy ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Tổ chức các khóa đào tạo chuyên môn định kỳ để giúp giáo viên cập nhật kiến thức và nâng cao năng lực giảng dạy. Khuyến khích giáo viên tham gia các khóa học và lấy chứng chỉ giảng dạy ngoại ngữ phù hợp. Tạo cơ hội cho giáo viên tham gia hội thảo và chương trình trao đổi quốc tế để học hỏi kinh nghiệm từ các chuyên gia. Thực hiện đánh giá năng lực giảng dạy định kỳ và cung cấp phản hồi mang tính xây dựng để giúp giáo viên cải thiện chuyên môn.",
+                "evidence_en": "Schools should organize regular training courses and professional development courses so that teachers can update professional knowledge, improve teaching competence, and enhance teaching effectiveness. Schools should encourage teachers to attend courses and obtain relevant teaching certificates to improve their professional qualifications, build professional competence, and meet professional standards. Schools should provide opportunities for teachers to attend professional workshops and join international exchange programs to exchange teaching experiences, learn from experienced educators, keep up with educational trends, and gain international teaching experience. Leaders should conduct regular assessments to evaluate teaching performance and provide constructive feedback, which helps teachers identify professional weaknesses, improve instructional skills, and ensure continuous professional improvement.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize regular training courses",
+                      "vi": "tổ chức các khóa đào tạo định kỳ"
+                    },
+                    {
+                      "en": "professional development",
+                      "vi": "phát triển chuyên môn"
+                    },
+                    {
+                      "en": "professional development courses",
+                      "vi": "các khóa phát triển chuyên môn"
+                    },
+                    {
+                      "en": "update professional knowledge",
+                      "vi": "cập nhật kiến thức chuyên môn"
+                    },
+                    {
+                      "en": "improve teaching competence",
+                      "vi": "cải thiện năng lực giảng dạy"
+                    },
+                    {
+                      "en": "enhance teaching effectiveness",
+                      "vi": "nâng cao hiệu quả giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage teachers to attend courses",
+                      "vi": "khuyến khích giáo viên tham gia các khóa học"
+                    },
+                    {
+                      "en": "obtain relevant teaching certificates",
+                      "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                    },
+                    {
+                      "en": "professional qualifications",
+                      "vi": "trình độ chuyên môn"
+                    },
+                    {
+                      "en": "teaching certificates",
+                      "vi": "chứng chỉ giảng dạy"
+                    },
+                    {
+                      "en": "improve professional competence",
+                      "vi": "nâng cao năng lực chuyên môn"
+                    },
+                    {
+                      "en": "meet professional standards",
+                      "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide opportunities for teachers to",
+                      "vi": "tạo cơ hội cho giáo viên"
+                    },
+                    {
+                      "en": "attend professional workshops",
+                      "vi": "tham gia các hội thảo chuyên môn"
+                    },
+                    {
+                      "en": "international exchange programs",
+                      "vi": "chương trình trao đổi quốc tế"
+                    },
+                    {
+                      "en": "exchange teaching experiences",
+                      "vi": "trao đổi kinh nghiệm giảng dạy"
+                    },
+                    {
+                      "en": "learn from experienced educators",
+                      "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                    },
+                    {
+                      "en": "keep up with educational trends",
+                      "vi": "cập nhật các xu hướng giáo dục"
+                    },
+                    {
+                      "en": "gain international teaching experience",
+                      "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evaluate teaching performance",
+                      "vi": "đánh giá năng lực giảng dạy"
+                    },
+                    {
+                      "en": "conduct regular assessments",
+                      "vi": "tiến hành đánh giá định kỳ"
+                    },
+                    {
+                      "en": "provide constructive feedback",
+                      "vi": "cung cấp phản hồi mang tính xây dựng"
+                    },
+                    {
+                      "en": "identify professional weaknesses",
+                      "vi": "xác định những hạn chế về chuyên môn"
+                    },
+                    {
+                      "en": "improve instructional skills",
+                      "vi": "cải thiện kỹ năng giảng dạy"
+                    },
+                    {
+                      "en": "continuous professional improvement",
+                      "vi": "cải thiện chuyên môn liên tục"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "organize regular training courses",
+                    "vi": "tổ chức các khóa đào tạo định kỳ"
+                  },
+                  {
+                    "en": "professional development",
+                    "vi": "phát triển chuyên môn"
+                  },
+                  {
+                    "en": "professional development courses",
+                    "vi": "các khóa phát triển chuyên môn"
+                  },
+                  {
+                    "en": "update professional knowledge",
+                    "vi": "cập nhật kiến thức chuyên môn"
+                  },
+                  {
+                    "en": "improve teaching competence",
+                    "vi": "cải thiện năng lực giảng dạy"
+                  },
+                  {
+                    "en": "enhance teaching effectiveness",
+                    "vi": "nâng cao hiệu quả giảng dạy"
+                  },
+                  {
+                    "en": "encourage teachers to attend courses",
+                    "vi": "khuyến khích giáo viên tham gia các khóa học"
+                  },
+                  {
+                    "en": "obtain relevant teaching certificates",
+                    "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                  },
+                  {
+                    "en": "professional qualifications",
+                    "vi": "trình độ chuyên môn"
+                  },
+                  {
+                    "en": "teaching certificates",
+                    "vi": "chứng chỉ giảng dạy"
+                  },
+                  {
+                    "en": "improve professional competence",
+                    "vi": "nâng cao năng lực chuyên môn"
+                  },
+                  {
+                    "en": "meet professional standards",
+                    "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                  },
+                  {
+                    "en": "provide opportunities for teachers to",
+                    "vi": "tạo cơ hội cho giáo viên"
+                  },
+                  {
+                    "en": "attend professional workshops",
+                    "vi": "tham gia các hội thảo chuyên môn"
+                  },
+                  {
+                    "en": "international exchange programs",
+                    "vi": "chương trình trao đổi quốc tế"
+                  },
+                  {
+                    "en": "exchange teaching experiences",
+                    "vi": "trao đổi kinh nghiệm giảng dạy"
+                  },
+                  {
+                    "en": "learn from experienced educators",
+                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                  },
+                  {
+                    "en": "keep up with educational trends",
+                    "vi": "cập nhật các xu hướng giáo dục"
+                  },
+                  {
+                    "en": "gain international teaching experience",
+                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                  },
+                  {
+                    "en": "evaluate teaching performance",
+                    "vi": "đánh giá năng lực giảng dạy"
+                  },
+                  {
+                    "en": "conduct regular assessments",
+                    "vi": "tiến hành đánh giá định kỳ"
+                  },
+                  {
+                    "en": "provide constructive feedback",
+                    "vi": "cung cấp phản hồi mang tính xây dựng"
+                  },
+                  {
+                    "en": "identify professional weaknesses",
+                    "vi": "xác định những hạn chế về chuyên môn"
+                  },
+                  {
+                    "en": "improve instructional skills",
+                    "vi": "cải thiện kỹ năng giảng dạy"
+                  },
+                  {
+                    "en": "continuous professional improvement",
+                    "vi": "cải thiện chuyên môn liên tục"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: CUNG CẤP TÀI LIỆU HỌC TẬP VÀ HỖ TRỢ CÔNG NGHỆ",
+                "point_vi": "Các trường học nên cung cấp tài liệu học tập và công cụ công nghệ phù hợp để tạo điều kiện thuận lợi cho việc học ngôn ngữ.",
+                "point_en": "Schools should provide good learning materials and technology tools to make language learning easier.",
+                "point_collocations": [
+                  {
+                    "en": "learning materials",
+                    "vi": "tài liệu học tập"
+                  },
+                  {
+                    "en": "technology tools",
+                    "vi": "công cụ công nghệ"
+                  }
+                ],
+                "evidence_vi": "Trang bị thư viện với sách, truyện, báo và tài liệu ngoại ngữ phù hợp với nhiều trình độ khác nhau. Cung cấp máy tính, thiết bị nghe nhìn và kết nối Internet ổn định để hỗ trợ các hoạt động học tập. Khuyến khích học sinh sử dụng ứng dụng học ngoại ngữ và nền tảng trực tuyến để mở rộng vốn từ vựng và luyện tập các kỹ năng. Xây dựng thư viện học liệu trực tuyến để người học có thể truy cập tài liệu và tự học mọi lúc, mọi nơi.",
+                "evidence_en": "Schools should equip libraries with foreign language books, reference books, supplementary materials, authentic materials, and foreign language publications suitable for different proficiency levels, offering a wide range of learning materials. Schools should provide computers and audiovisual equipment with a stable Internet connection and helpful technological support to create a digital learning environment that can support language learning activities. Teachers should encourage the use of language-learning applications and online learning platforms with interactive learning tools so students can expand their vocabulary, practise language skills, and improve independent learning. Schools can develop online resource libraries and digital libraries so learners can access learning materials and study anytime and anywhere, which will facilitate independent learning, support self-directed learning, provide flexible learning opportunities, and let them learn at their own pace.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "equip libraries with",
+                      "vi": "trang bị cho thư viện"
+                    },
+                    {
+                      "en": "foreign language books",
+                      "vi": "sách ngoại ngữ"
+                    },
+                    {
+                      "en": "reference books",
+                      "vi": "sách tham khảo"
+                    },
+                    {
+                      "en": "supplementary materials",
+                      "vi": "tài liệu bổ trợ"
+                    },
+                    {
+                      "en": "authentic materials",
+                      "vi": "tài liệu thực tế"
+                    },
+                    {
+                      "en": "foreign language publications",
+                      "vi": "các ấn phẩm ngoại ngữ"
+                    },
+                    {
+                      "en": "different proficiency levels",
+                      "vi": "các trình độ năng lực khác nhau"
+                    },
+                    {
+                      "en": "a wide range of learning materials",
+                      "vi": "nhiều loại tài liệu học tập đa dạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide computers and audiovisual equipment",
+                      "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "audiovisual equipment",
+                      "vi": "thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "stable Internet connection",
+                      "vi": "kết nối Internet ổn định"
+                    },
+                    {
+                      "en": "technological support",
+                      "vi": "sự hỗ trợ về công nghệ"
+                    },
+                    {
+                      "en": "digital learning environment",
+                      "vi": "môi trường học tập kỹ thuật số"
+                    },
+                    {
+                      "en": "support language learning activities",
+                      "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage the use of",
+                      "vi": "khuyến khích việc sử dụng"
+                    },
+                    {
+                      "en": "language-learning applications",
+                      "vi": "ứng dụng học ngôn ngữ"
+                    },
+                    {
+                      "en": "online learning platforms",
+                      "vi": "nền tảng học tập trực tuyến"
+                    },
+                    {
+                      "en": "expand one's vocabulary",
+                      "vi": "mở rộng vốn từ vựng"
+                    },
+                    {
+                      "en": "practise language skills",
+                      "vi": "luyện tập các kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "interactive learning tools",
+                      "vi": "công cụ học tập tương tác"
+                    },
+                    {
+                      "en": "improve independent learning",
+                      "vi": "cải thiện khả năng tự học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop online resource libraries",
+                      "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                    },
+                    {
+                      "en": "digital libraries",
+                      "vi": "thư viện kỹ thuật số"
+                    },
+                    {
+                      "en": "access learning materials",
+                      "vi": "truy cập tài liệu học tập"
+                    },
+                    {
+                      "en": "study anytime and anywhere",
+                      "vi": "học mọi lúc, mọi nơi"
+                    },
+                    {
+                      "en": "facilitate independent learning",
+                      "vi": "tạo điều kiện cho việc tự học"
+                    },
+                    {
+                      "en": "support self-directed learning",
+                      "vi": "hỗ trợ việc tự học có định hướng"
+                    },
+                    {
+                      "en": "provide flexible learning opportunities",
+                      "vi": "cung cấp cơ hội học tập linh hoạt"
+                    },
+                    {
+                      "en": "learn at one's own pace",
+                      "vi": "học theo tốc độ của bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "equip libraries with",
+                    "vi": "trang bị cho thư viện"
+                  },
+                  {
+                    "en": "foreign language books",
+                    "vi": "sách ngoại ngữ"
+                  },
+                  {
+                    "en": "reference books",
+                    "vi": "sách tham khảo"
+                  },
+                  {
+                    "en": "supplementary materials",
+                    "vi": "tài liệu bổ trợ"
+                  },
+                  {
+                    "en": "authentic materials",
+                    "vi": "tài liệu thực tế"
+                  },
+                  {
+                    "en": "foreign language publications",
+                    "vi": "các ấn phẩm ngoại ngữ"
+                  },
+                  {
+                    "en": "different proficiency levels",
+                    "vi": "các trình độ năng lực khác nhau"
+                  },
+                  {
+                    "en": "a wide range of learning materials",
+                    "vi": "nhiều loại tài liệu học tập đa dạng"
+                  },
+                  {
+                    "en": "provide computers and audiovisual equipment",
+                    "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "audiovisual equipment",
+                    "vi": "thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "stable Internet connection",
+                    "vi": "kết nối Internet ổn định"
+                  },
+                  {
+                    "en": "technological support",
+                    "vi": "sự hỗ trợ về công nghệ"
+                  },
+                  {
+                    "en": "digital learning environment",
+                    "vi": "môi trường học tập kỹ thuật số"
+                  },
+                  {
+                    "en": "support language learning activities",
+                    "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                  },
+                  {
+                    "en": "encourage the use of",
+                    "vi": "khuyến khích việc sử dụng"
+                  },
+                  {
+                    "en": "language-learning applications",
+                    "vi": "ứng dụng học ngôn ngữ"
+                  },
+                  {
+                    "en": "online learning platforms",
+                    "vi": "nền tảng học tập trực tuyến"
+                  },
+                  {
+                    "en": "expand one's vocabulary",
+                    "vi": "mở rộng vốn từ vựng"
+                  },
+                  {
+                    "en": "practise language skills",
+                    "vi": "luyện tập các kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "interactive learning tools",
+                    "vi": "công cụ học tập tương tác"
+                  },
+                  {
+                    "en": "improve independent learning",
+                    "vi": "cải thiện khả năng tự học"
+                  },
+                  {
+                    "en": "develop online resource libraries",
+                    "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                  },
+                  {
+                    "en": "digital libraries",
+                    "vi": "thư viện kỹ thuật số"
+                  },
+                  {
+                    "en": "access learning materials",
+                    "vi": "truy cập tài liệu học tập"
+                  },
+                  {
+                    "en": "study anytime and anywhere",
+                    "vi": "học mọi lúc, mọi nơi"
+                  },
+                  {
+                    "en": "facilitate independent learning",
+                    "vi": "tạo điều kiện cho việc tự học"
+                  },
+                  {
+                    "en": "support self-directed learning",
+                    "vi": "hỗ trợ việc tự học có định hướng"
+                  },
+                  {
+                    "en": "provide flexible learning opportunities",
+                    "vi": "cung cấp cơ hội học tập linh hoạt"
+                  },
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của bản thân"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TẠO THÊM CƠ HỘI THỰC HÀNH NGÔN NGỮ TRONG THỰC TẾ",
+                "point_vi": "Các trường học và cộng đồng nên tạo thêm cơ hội để người học sử dụng ngoại ngữ trong những tình huống giao tiếp thực tế.",
+                "point_en": "Schools and communities should create more chances for students to use foreign languages in real communication.",
+                "point_collocations": [
+                  {
+                    "en": "create more chances",
+                    "vi": "tạo thêm cơ hội"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "evidence_vi": "Thành lập các câu lạc bộ ngoại ngữ để học sinh có thể giao tiếp và trao đổi với nhau thường xuyên. Tổ chức các cuộc thi hùng biện, ngày hội ngôn ngữ và hoạt động ngoại khóa để khuyến khích người học sử dụng ngoại ngữ một cách tự nhiên. Tạo điều kiện cho học sinh tham gia các chương trình giao lưu với người bản ngữ hoặc sinh viên quốc tế để cải thiện kỹ năng giao tiếp. Khuyến khích các doanh nghiệp tạo cơ hội thực tập và làm việc trong môi trường quốc tế để người học áp dụng ngoại ngữ vào công việc thực tế.",
+                "evidence_en": "Schools can establish language clubs and host language practice sessions so that students communicate regularly, interact with other learners, practise speaking skills, create a supportive environment, and build communication confidence. Schools should organize public speaking competitions, hold language festivals, and arrange extracurricular activities to encourage natural language use, help students participate in language events, develop presentation skills, and increase learners’ motivation. Schools should arrange exchange programs and cultural exchange activities so students can interact with native speakers and communicate with international students to improve communication skills, improve speaking fluency, overcome language barriers, and gain cross-cultural experience. Governments should encourage businesses to provide internship opportunities in international working environments so that young people gain practical experience, apply language skills in practice, communicate with foreign colleagues, develop workplace communication skills, and improve future career prospects.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "establish language clubs",
+                      "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                    },
+                    {
+                      "en": "language practice sessions",
+                      "vi": "các buổi thực hành ngôn ngữ"
+                    },
+                    {
+                      "en": "communicate regularly",
+                      "vi": "giao tiếp thường xuyên"
+                    },
+                    {
+                      "en": "interact with other learners",
+                      "vi": "tương tác với những người học khác"
+                    },
+                    {
+                      "en": "practise speaking skills",
+                      "vi": "luyện tập kỹ năng nói"
+                    },
+                    {
+                      "en": "create a supportive environment",
+                      "vi": "tạo môi trường hỗ trợ"
+                    },
+                    {
+                      "en": "build communication confidence",
+                      "vi": "xây dựng sự tự tin trong giao tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "organize public speaking competitions",
+                      "vi": "tổ chức các cuộc thi hùng biện"
+                    },
+                    {
+                      "en": "hold language festivals",
+                      "vi": "tổ chức ngày hội ngôn ngữ"
+                    },
+                    {
+                      "en": "extracurricular activities",
+                      "vi": "các hoạt động ngoại khóa"
+                    },
+                    {
+                      "en": "encourage natural language use",
+                      "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                    },
+                    {
+                      "en": "participate in language events",
+                      "vi": "tham gia các sự kiện ngôn ngữ"
+                    },
+                    {
+                      "en": "develop presentation skills",
+                      "vi": "phát triển kỹ năng thuyết trình"
+                    },
+                    {
+                      "en": "increase learners' motivation",
+                      "vi": "tăng động lực học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "arrange exchange programs",
+                      "vi": "tổ chức các chương trình giao lưu"
+                    },
+                    {
+                      "en": "interact with native speakers",
+                      "vi": "tương tác với người bản ngữ"
+                    },
+                    {
+                      "en": "communicate with international students",
+                      "vi": "giao tiếp với sinh viên quốc tế"
+                    },
+                    {
+                      "en": "cultural exchange activities",
+                      "vi": "các hoạt động giao lưu văn hóa"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "improve speaking fluency",
+                      "vi": "cải thiện độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "overcome language barriers",
+                      "vi": "vượt qua rào cản ngôn ngữ"
+                    },
+                    {
+                      "en": "gain cross-cultural experience",
+                      "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage businesses to",
+                      "vi": "khuyến khích các doanh nghiệp"
+                    },
+                    {
+                      "en": "provide internship opportunities",
+                      "vi": "cung cấp cơ hội thực tập"
+                    },
+                    {
+                      "en": "international working environments",
+                      "vi": "môi trường làm việc quốc tế"
+                    },
+                    {
+                      "en": "gain practical experience",
+                      "vi": "tích lũy kinh nghiệm thực tế"
+                    },
+                    {
+                      "en": "apply language skills in practice",
+                      "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                    },
+                    {
+                      "en": "communicate with foreign colleagues",
+                      "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                    },
+                    {
+                      "en": "develop workplace communication skills",
+                      "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "improve future career prospects",
+                      "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "establish language clubs",
+                    "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "language practice sessions",
+                    "vi": "các buổi thực hành ngôn ngữ"
+                  },
+                  {
+                    "en": "communicate regularly",
+                    "vi": "giao tiếp thường xuyên"
+                  },
+                  {
+                    "en": "interact with other learners",
+                    "vi": "tương tác với những người học khác"
+                  },
+                  {
+                    "en": "practise speaking skills",
+                    "vi": "luyện tập kỹ năng nói"
+                  },
+                  {
+                    "en": "create a supportive environment",
+                    "vi": "tạo môi trường hỗ trợ"
+                  },
+                  {
+                    "en": "build communication confidence",
+                    "vi": "xây dựng sự tự tin trong giao tiếp"
+                  },
+                  {
+                    "en": "organize public speaking competitions",
+                    "vi": "tổ chức các cuộc thi hùng biện"
+                  },
+                  {
+                    "en": "hold language festivals",
+                    "vi": "tổ chức ngày hội ngôn ngữ"
+                  },
+                  {
+                    "en": "extracurricular activities",
+                    "vi": "các hoạt động ngoại khóa"
+                  },
+                  {
+                    "en": "encourage natural language use",
+                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                  },
+                  {
+                    "en": "participate in language events",
+                    "vi": "tham gia các sự kiện ngôn ngữ"
+                  },
+                  {
+                    "en": "develop presentation skills",
+                    "vi": "phát triển kỹ năng thuyết trình"
+                  },
+                  {
+                    "en": "increase learners' motivation",
+                    "vi": "tăng động lực học tập"
+                  },
+                  {
+                    "en": "arrange exchange programs",
+                    "vi": "tổ chức các chương trình giao lưu"
+                  },
+                  {
+                    "en": "interact with native speakers",
+                    "vi": "tương tác với người bản ngữ"
+                  },
+                  {
+                    "en": "communicate with international students",
+                    "vi": "giao tiếp với sinh viên quốc tế"
+                  },
+                  {
+                    "en": "cultural exchange activities",
+                    "vi": "các hoạt động giao lưu văn hóa"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "improve speaking fluency",
+                    "vi": "cải thiện độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "overcome language barriers",
+                    "vi": "vượt qua rào cản ngôn ngữ"
+                  },
+                  {
+                    "en": "gain cross-cultural experience",
+                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                  },
+                  {
+                    "en": "encourage businesses to",
+                    "vi": "khuyến khích các doanh nghiệp"
+                  },
+                  {
+                    "en": "provide internship opportunities",
+                    "vi": "cung cấp cơ hội thực tập"
+                  },
+                  {
+                    "en": "international working environments",
+                    "vi": "môi trường làm việc quốc tế"
+                  },
+                  {
+                    "en": "gain practical experience",
+                    "vi": "tích lũy kinh nghiệm thực tế"
+                  },
+                  {
+                    "en": "apply language skills in practice",
+                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                  },
+                  {
+                    "en": "communicate with foreign colleagues",
+                    "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                  },
+                  {
+                    "en": "develop workplace communication skills",
+                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "improve future career prospects",
+                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "GIẢI PHÁP 01: TĂNG CƯỜNG ĐẦU TƯ VÀ HỖ TRỢ TỪ CHÍNH PHỦ",
+                "point_vi": "Chính phủ nên tăng cường đầu tư và hỗ trợ tài chính cho giáo dục ngôn ngữ.",
+                "point_en": "Governments should invest more money and provide financial support for language education.",
+                "point_collocations": [
+                  {
+                    "en": "invest more money",
+                    "vi": "đầu tư nhiều tiền hơn"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
+                  }
+                ],
+                "evidence_vi": "Phân bổ thêm ngân sách cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở vật chất và trang thiết bị. Cung cấp học bổng hoặc hỗ trợ tài chính cho học sinh, sinh viên có hoàn cảnh khó khăn để họ có thêm cơ hội học ngoại ngữ. Xây dựng các chính sách khuyến khích việc học ngoại ngữ từ bậc tiểu học nhằm tạo nền tảng ngôn ngữ vững chắc. Hợp tác với các tổ chức giáo dục quốc tế để tiếp cận nguồn tài trợ và các chương trình giáo dục tiên tiến.",
+                "evidence_en": "Authorities can allocate a larger budget to schools and language centres, using government funding to improve educational infrastructure, upgrade school facilities, and provide modern teaching equipment. The state should provide financial assistance and offer scholarships to students from low-income families, helping disadvantaged students expand access to language courses and reduce educational inequality. Policymakers should introduce supportive policies to promote early language learning in primary education, helping children build a strong language foundation, develop language skills from an early age, and encourage students to learn foreign languages. Schools can establish international partnerships and cooperate with international organizations to access international funding, exchange educational resources, use advanced educational programs, and benefit from international cooperation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "allocate a larger budget to",
+                      "vi": "phân bổ ngân sách lớn hơn cho"
+                    },
+                    {
+                      "en": "government funding",
+                      "vi": "nguồn tài trợ của chính phủ"
+                    },
+                    {
+                      "en": "language centres",
+                      "vi": "các trung tâm ngoại ngữ"
+                    },
+                    {
+                      "en": "improve educational infrastructure",
+                      "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                    },
+                    {
+                      "en": "upgrade school facilities",
+                      "vi": "nâng cấp cơ sở vật chất trường học"
+                    },
+                    {
+                      "en": "teaching equipment",
+                      "vi": "thiết bị giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide financial assistance",
+                      "vi": "cung cấp hỗ trợ tài chính"
+                    },
+                    {
+                      "en": "offer scholarships to students",
+                      "vi": "cấp học bổng cho học sinh, sinh viên"
+                    },
+                    {
+                      "en": "disadvantaged students",
+                      "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                    },
+                    {
+                      "en": "low-income families",
+                      "vi": "các gia đình có thu nhập thấp"
+                    },
+                    {
+                      "en": "expand access to language courses",
+                      "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                    },
+                    {
+                      "en": "reduce educational inequality",
+                      "vi": "giảm bất bình đẳng trong giáo dục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "introduce supportive policies",
+                      "vi": "ban hành các chính sách hỗ trợ"
+                    },
+                    {
+                      "en": "promote early language learning",
+                      "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                    },
+                    {
+                      "en": "primary education",
+                      "vi": "giáo dục tiểu học"
+                    },
+                    {
+                      "en": "build a strong language foundation",
+                      "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                    },
+                    {
+                      "en": "develop language skills from an early age",
+                      "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                    },
+                    {
+                      "en": "encourage students to learn foreign languages",
+                      "vi": "khuyến khích học sinh học ngoại ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "establish international partnerships",
+                      "vi": "thiết lập quan hệ hợp tác quốc tế"
+                    },
+                    {
+                      "en": "cooperate with international organizations",
+                      "vi": "hợp tác với các tổ chức quốc tế"
+                    },
+                    {
+                      "en": "access international funding",
+                      "vi": "tiếp cận nguồn tài trợ quốc tế"
+                    },
+                    {
+                      "en": "exchange educational resources",
+                      "vi": "trao đổi tài nguyên giáo dục"
+                    },
+                    {
+                      "en": "advanced educational programs",
+                      "vi": "các chương trình giáo dục tiên tiến"
+                    },
+                    {
+                      "en": "benefit from international cooperation",
+                      "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "allocate a larger budget to",
+                    "vi": "phân bổ ngân sách lớn hơn cho"
+                  },
+                  {
+                    "en": "government funding",
+                    "vi": "nguồn tài trợ của chính phủ"
+                  },
+                  {
+                    "en": "language centres",
+                    "vi": "các trung tâm ngoại ngữ"
+                  },
+                  {
+                    "en": "improve educational infrastructure",
+                    "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                  },
+                  {
+                    "en": "upgrade school facilities",
+                    "vi": "nâng cấp cơ sở vật chất trường học"
+                  },
+                  {
+                    "en": "teaching equipment",
+                    "vi": "thiết bị giảng dạy"
+                  },
+                  {
+                    "en": "provide financial assistance",
+                    "vi": "cung cấp hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "offer scholarships to students",
+                    "vi": "cấp học bổng cho học sinh, sinh viên"
+                  },
+                  {
+                    "en": "disadvantaged students",
+                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "các gia đình có thu nhập thấp"
+                  },
+                  {
+                    "en": "expand access to language courses",
+                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                  },
+                  {
+                    "en": "reduce educational inequality",
+                    "vi": "giảm bất bình đẳng trong giáo dục"
+                  },
+                  {
+                    "en": "introduce supportive policies",
+                    "vi": "ban hành các chính sách hỗ trợ"
+                  },
+                  {
+                    "en": "promote early language learning",
+                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                  },
+                  {
+                    "en": "primary education",
+                    "vi": "giáo dục tiểu học"
+                  },
+                  {
+                    "en": "build a strong language foundation",
+                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                  },
+                  {
+                    "en": "develop language skills from an early age",
+                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                  },
+                  {
+                    "en": "encourage students to learn foreign languages",
+                    "vi": "khuyến khích học sinh học ngoại ngữ"
+                  },
+                  {
+                    "en": "establish international partnerships",
+                    "vi": "thiết lập quan hệ hợp tác quốc tế"
+                  },
+                  {
+                    "en": "cooperate with international organizations",
+                    "vi": "hợp tác với các tổ chức quốc tế"
+                  },
+                  {
+                    "en": "access international funding",
+                    "vi": "tiếp cận nguồn tài trợ quốc tế"
+                  },
+                  {
+                    "en": "exchange educational resources",
+                    "vi": "trao đổi tài nguyên giáo dục"
+                  },
+                  {
+                    "en": "advanced educational programs",
+                    "vi": "các chương trình giáo dục tiên tiến"
+                  },
+                  {
+                    "en": "benefit from international cooperation",
+                    "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: CẢI THIỆN CHƯƠNG TRÌNH VÀ PHƯƠNG PHÁP GIẢNG DẠY",
+                "point_vi": "Các trường học nên cải thiện chương trình và phương pháp giảng dạy để giúp người học phát triển năng lực ngôn ngữ toàn diện.",
+                "point_en": "Schools should improve their curriculum and teaching methods to help students develop complete language skills.",
+                "point_collocations": [
+                  {
+                    "en": "improve their curriculum",
+                    "vi": "cải thiện chương trình học"
+                  },
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  }
+                ],
+                "evidence_vi": "Thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì tập trung quá nhiều vào ngữ pháp và từ vựng. Giảm sự phụ thuộc vào việc ghi nhớ máy móc các quy tắc ngữ pháp và từ vựng. Tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để học sinh có cơ hội sử dụng ngôn ngữ. Xây dựng nội dung bài học gắn với các tình huống thực tế như giao tiếp tại nơi làm việc, du lịch và học tập.",
+                "evidence_en": "In curriculum design, the language curriculum should place equal emphasis on the four language skills—listening comprehension, speaking fluency, reading comprehension, and written communication—to achieve balanced language development. Teachers should replace traditional teaching methods that focus heavily on grammar and vocabulary memorization, reducing rote memorization so that students can memorize grammar rules less, develop practical language skills, and apply knowledge in real-life situations. Teachers should increase communicative activities like group discussions, role-play activities, and give presentations to improve classroom interaction, encourage active participation, help students use the target language, and improve communication skills. Lessons should integrate real-life situations and authentic learning materials into practical learning content, including workplace communication, travel-related situations, and academic communication, to prepare learners for real-life communication.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "language curriculum",
+                      "vi": "chương trình giảng dạy ngôn ngữ"
+                    },
+                    {
+                      "en": "curriculum design",
+                      "vi": "thiết kế chương trình học"
+                    },
+                    {
+                      "en": "the four language skills",
+                      "vi": "bốn kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "listening comprehension",
+                      "vi": "khả năng nghe hiểu"
+                    },
+                    {
+                      "en": "speaking fluency",
+                      "vi": "độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "reading comprehension",
+                      "vi": "khả năng đọc hiểu"
+                    },
+                    {
+                      "en": "written communication",
+                      "vi": "giao tiếp bằng văn bản"
+                    },
+                    {
+                      "en": "balanced language development",
+                      "vi": "sự phát triển ngôn ngữ cân bằng"
+                    },
+                    {
+                      "en": "place equal emphasis on",
+                      "vi": "chú trọng đồng đều vào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reduce rote memorization",
+                      "vi": "giảm việc học thuộc lòng máy móc"
+                    },
+                    {
+                      "en": "memorize grammar rules",
+                      "vi": "ghi nhớ các quy tắc ngữ pháp"
+                    },
+                    {
+                      "en": "focus heavily on grammar",
+                      "vi": "tập trung quá nhiều vào ngữ pháp"
+                    },
+                    {
+                      "en": "vocabulary memorization",
+                      "vi": "việc ghi nhớ từ vựng"
+                    },
+                    {
+                      "en": "traditional teaching methods",
+                      "vi": "các phương pháp giảng dạy truyền thống"
+                    },
+                    {
+                      "en": "develop practical language skills",
+                      "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                    },
+                    {
+                      "en": "apply knowledge in real-life situations",
+                      "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "increase communicative activities",
+                      "vi": "tăng cường các hoạt động giao tiếp"
+                    },
+                    {
+                      "en": "group discussions",
+                      "vi": "thảo luận nhóm"
+                    },
+                    {
+                      "en": "role-play activities",
+                      "vi": "hoạt động đóng vai"
+                    },
+                    {
+                      "en": "give presentations",
+                      "vi": "thực hiện bài thuyết trình"
+                    },
+                    {
+                      "en": "classroom interaction",
+                      "vi": "sự tương tác trong lớp học"
+                    },
+                    {
+                      "en": "encourage active participation",
+                      "vi": "khuyến khích sự tham gia tích cực"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "use the target language",
+                      "vi": "sử dụng ngôn ngữ đích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "integrate real-life situations",
+                      "vi": "lồng ghép các tình huống thực tế"
+                    },
+                    {
+                      "en": "practical learning content",
+                      "vi": "nội dung học tập mang tính thực tiễn"
+                    },
+                    {
+                      "en": "workplace communication",
+                      "vi": "giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "travel-related situations",
+                      "vi": "các tình huống liên quan đến du lịch"
+                    },
+                    {
+                      "en": "academic communication",
+                      "vi": "giao tiếp trong môi trường học thuật"
+                    },
+                    {
+                      "en": "authentic learning materials",
+                      "vi": "tài liệu học tập thực tế"
+                    },
+                    {
+                      "en": "prepare learners for real-life communication",
+                      "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "language curriculum",
+                    "vi": "chương trình giảng dạy ngôn ngữ"
+                  },
+                  {
+                    "en": "curriculum design",
+                    "vi": "thiết kế chương trình học"
+                  },
+                  {
+                    "en": "the four language skills",
+                    "vi": "bốn kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "listening comprehension",
+                    "vi": "khả năng nghe hiểu"
+                  },
+                  {
+                    "en": "speaking fluency",
+                    "vi": "độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "reading comprehension",
+                    "vi": "khả năng đọc hiểu"
+                  },
+                  {
+                    "en": "written communication",
+                    "vi": "giao tiếp bằng văn bản"
+                  },
+                  {
+                    "en": "balanced language development",
+                    "vi": "sự phát triển ngôn ngữ cân bằng"
+                  },
+                  {
+                    "en": "place equal emphasis on",
+                    "vi": "chú trọng đồng đều vào"
+                  },
+                  {
+                    "en": "reduce rote memorization",
+                    "vi": "giảm việc học thuộc lòng máy móc"
+                  },
+                  {
+                    "en": "memorize grammar rules",
+                    "vi": "ghi nhớ các quy tắc ngữ pháp"
+                  },
+                  {
+                    "en": "focus heavily on grammar",
+                    "vi": "tập trung quá nhiều vào ngữ pháp"
+                  },
+                  {
+                    "en": "vocabulary memorization",
+                    "vi": "việc ghi nhớ từ vựng"
+                  },
+                  {
+                    "en": "traditional teaching methods",
+                    "vi": "các phương pháp giảng dạy truyền thống"
+                  },
+                  {
+                    "en": "develop practical language skills",
+                    "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                  },
+                  {
+                    "en": "apply knowledge in real-life situations",
+                    "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                  },
+                  {
+                    "en": "increase communicative activities",
+                    "vi": "tăng cường các hoạt động giao tiếp"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "role-play activities",
+                    "vi": "hoạt động đóng vai"
+                  },
+                  {
+                    "en": "give presentations",
+                    "vi": "thực hiện bài thuyết trình"
+                  },
+                  {
+                    "en": "classroom interaction",
+                    "vi": "sự tương tác trong lớp học"
+                  },
+                  {
+                    "en": "encourage active participation",
+                    "vi": "khuyến khích sự tham gia tích cực"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "use the target language",
+                    "vi": "sử dụng ngôn ngữ đích"
+                  },
+                  {
+                    "en": "integrate real-life situations",
+                    "vi": "lồng ghép các tình huống thực tế"
+                  },
+                  {
+                    "en": "practical learning content",
+                    "vi": "nội dung học tập mang tính thực tiễn"
+                  },
+                  {
+                    "en": "workplace communication",
+                    "vi": "giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "travel-related situations",
+                    "vi": "các tình huống liên quan đến du lịch"
+                  },
+                  {
+                    "en": "academic communication",
+                    "vi": "giao tiếp trong môi trường học thuật"
+                  },
+                  {
+                    "en": "authentic learning materials",
+                    "vi": "tài liệu học tập thực tế"
+                  },
+                  {
+                    "en": "prepare learners for real-life communication",
+                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: NÂNG CAO TRÌNH ĐỘ CHUYÊN MÔN CỦA GIÁO VIÊN",
+                "point_vi": "Các cơ sở giáo dục nên nâng cao trình độ chuyên môn của giáo viên để đảm bảo chất lượng giảng dạy ngôn ngữ.",
+                "point_en": "Schools should improve teachers’ professional skills to ensure good quality of language teaching.",
+                "point_collocations": [
+                  {
+                    "en": "improve teachers' professional skills",
+                    "vi": "cải thiện kỹ năng chuyên môn của giáo viên"
+                  },
+                  {
+                    "en": "quality of language teaching",
+                    "vi": "chất lượng giảng dạy ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Tổ chức các khóa đào tạo chuyên môn định kỳ để giúp giáo viên cập nhật kiến thức và nâng cao năng lực giảng dạy. Khuyến khích giáo viên tham gia các khóa học và lấy chứng chỉ giảng dạy ngoại ngữ phù hợp. Tạo cơ hội cho giáo viên tham gia hội thảo và chương trình trao đổi quốc tế để học hỏi kinh nghiệm từ các chuyên gia. Thực hiện đánh giá năng lực giảng dạy định kỳ và cung cấp phản hồi mang tính xây dựng để giúp giáo viên cải thiện chuyên môn.",
+                "evidence_en": "Schools should organize regular training courses and professional development courses so that teachers can update professional knowledge, improve teaching competence, and enhance teaching effectiveness. Schools should encourage teachers to attend courses and obtain relevant teaching certificates to improve their professional qualifications, build professional competence, and meet professional standards. Schools should provide opportunities for teachers to attend professional workshops and join international exchange programs to exchange teaching experiences, learn from experienced educators, keep up with educational trends, and gain international teaching experience. Leaders should conduct regular assessments to evaluate teaching performance and provide constructive feedback, which helps teachers identify professional weaknesses, improve instructional skills, and ensure continuous professional improvement.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize regular training courses",
+                      "vi": "tổ chức các khóa đào tạo định kỳ"
+                    },
+                    {
+                      "en": "professional development",
+                      "vi": "phát triển chuyên môn"
+                    },
+                    {
+                      "en": "professional development courses",
+                      "vi": "các khóa phát triển chuyên môn"
+                    },
+                    {
+                      "en": "update professional knowledge",
+                      "vi": "cập nhật kiến thức chuyên môn"
+                    },
+                    {
+                      "en": "improve teaching competence",
+                      "vi": "cải thiện năng lực giảng dạy"
+                    },
+                    {
+                      "en": "enhance teaching effectiveness",
+                      "vi": "nâng cao hiệu quả giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage teachers to attend courses",
+                      "vi": "khuyến khích giáo viên tham gia các khóa học"
+                    },
+                    {
+                      "en": "obtain relevant teaching certificates",
+                      "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                    },
+                    {
+                      "en": "professional qualifications",
+                      "vi": "trình độ chuyên môn"
+                    },
+                    {
+                      "en": "teaching certificates",
+                      "vi": "chứng chỉ giảng dạy"
+                    },
+                    {
+                      "en": "improve professional competence",
+                      "vi": "nâng cao năng lực chuyên môn"
+                    },
+                    {
+                      "en": "meet professional standards",
+                      "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide opportunities for teachers to",
+                      "vi": "tạo cơ hội cho giáo viên"
+                    },
+                    {
+                      "en": "attend professional workshops",
+                      "vi": "tham gia các hội thảo chuyên môn"
+                    },
+                    {
+                      "en": "international exchange programs",
+                      "vi": "chương trình trao đổi quốc tế"
+                    },
+                    {
+                      "en": "exchange teaching experiences",
+                      "vi": "trao đổi kinh nghiệm giảng dạy"
+                    },
+                    {
+                      "en": "learn from experienced educators",
+                      "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                    },
+                    {
+                      "en": "keep up with educational trends",
+                      "vi": "cập nhật các xu hướng giáo dục"
+                    },
+                    {
+                      "en": "gain international teaching experience",
+                      "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evaluate teaching performance",
+                      "vi": "đánh giá năng lực giảng dạy"
+                    },
+                    {
+                      "en": "conduct regular assessments",
+                      "vi": "tiến hành đánh giá định kỳ"
+                    },
+                    {
+                      "en": "provide constructive feedback",
+                      "vi": "cung cấp phản hồi mang tính xây dựng"
+                    },
+                    {
+                      "en": "identify professional weaknesses",
+                      "vi": "xác định những hạn chế về chuyên môn"
+                    },
+                    {
+                      "en": "improve instructional skills",
+                      "vi": "cải thiện kỹ năng giảng dạy"
+                    },
+                    {
+                      "en": "continuous professional improvement",
+                      "vi": "cải thiện chuyên môn liên tục"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "organize regular training courses",
+                    "vi": "tổ chức các khóa đào tạo định kỳ"
+                  },
+                  {
+                    "en": "professional development",
+                    "vi": "phát triển chuyên môn"
+                  },
+                  {
+                    "en": "professional development courses",
+                    "vi": "các khóa phát triển chuyên môn"
+                  },
+                  {
+                    "en": "update professional knowledge",
+                    "vi": "cập nhật kiến thức chuyên môn"
+                  },
+                  {
+                    "en": "improve teaching competence",
+                    "vi": "cải thiện năng lực giảng dạy"
+                  },
+                  {
+                    "en": "enhance teaching effectiveness",
+                    "vi": "nâng cao hiệu quả giảng dạy"
+                  },
+                  {
+                    "en": "encourage teachers to attend courses",
+                    "vi": "khuyến khích giáo viên tham gia các khóa học"
+                  },
+                  {
+                    "en": "obtain relevant teaching certificates",
+                    "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                  },
+                  {
+                    "en": "professional qualifications",
+                    "vi": "trình độ chuyên môn"
+                  },
+                  {
+                    "en": "teaching certificates",
+                    "vi": "chứng chỉ giảng dạy"
+                  },
+                  {
+                    "en": "improve professional competence",
+                    "vi": "nâng cao năng lực chuyên môn"
+                  },
+                  {
+                    "en": "meet professional standards",
+                    "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                  },
+                  {
+                    "en": "provide opportunities for teachers to",
+                    "vi": "tạo cơ hội cho giáo viên"
+                  },
+                  {
+                    "en": "attend professional workshops",
+                    "vi": "tham gia các hội thảo chuyên môn"
+                  },
+                  {
+                    "en": "international exchange programs",
+                    "vi": "chương trình trao đổi quốc tế"
+                  },
+                  {
+                    "en": "exchange teaching experiences",
+                    "vi": "trao đổi kinh nghiệm giảng dạy"
+                  },
+                  {
+                    "en": "learn from experienced educators",
+                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                  },
+                  {
+                    "en": "keep up with educational trends",
+                    "vi": "cập nhật các xu hướng giáo dục"
+                  },
+                  {
+                    "en": "gain international teaching experience",
+                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                  },
+                  {
+                    "en": "evaluate teaching performance",
+                    "vi": "đánh giá năng lực giảng dạy"
+                  },
+                  {
+                    "en": "conduct regular assessments",
+                    "vi": "tiến hành đánh giá định kỳ"
+                  },
+                  {
+                    "en": "provide constructive feedback",
+                    "vi": "cung cấp phản hồi mang tính xây dựng"
+                  },
+                  {
+                    "en": "identify professional weaknesses",
+                    "vi": "xác định những hạn chế về chuyên môn"
+                  },
+                  {
+                    "en": "improve instructional skills",
+                    "vi": "cải thiện kỹ năng giảng dạy"
+                  },
+                  {
+                    "en": "continuous professional improvement",
+                    "vi": "cải thiện chuyên môn liên tục"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: CUNG CẤP TÀI LIỆU HỌC TẬP VÀ HỖ TRỢ CÔNG NGHỆ",
+                "point_vi": "Các trường học nên cung cấp tài liệu học tập và công cụ công nghệ phù hợp để tạo điều kiện thuận lợi cho việc học ngôn ngữ.",
+                "point_en": "Schools should provide good learning materials and technology tools to make language learning easier.",
+                "point_collocations": [
+                  {
+                    "en": "learning materials",
+                    "vi": "tài liệu học tập"
+                  },
+                  {
+                    "en": "technology tools",
+                    "vi": "công cụ công nghệ"
+                  }
+                ],
+                "evidence_vi": "Trang bị thư viện với sách, truyện, báo và tài liệu ngoại ngữ phù hợp với nhiều trình độ khác nhau. Cung cấp máy tính, thiết bị nghe nhìn và kết nối Internet ổn định để hỗ trợ các hoạt động học tập. Khuyến khích học sinh sử dụng ứng dụng học ngoại ngữ và nền tảng trực tuyến để mở rộng vốn từ vựng và luyện tập các kỹ năng. Xây dựng thư viện học liệu trực tuyến để người học có thể truy cập tài liệu và tự học mọi lúc, mọi nơi.",
+                "evidence_en": "Schools should equip libraries with foreign language books, reference books, supplementary materials, authentic materials, and foreign language publications suitable for different proficiency levels, offering a wide range of learning materials. Schools should provide computers and audiovisual equipment with a stable Internet connection and helpful technological support to create a digital learning environment that can support language learning activities. Teachers should encourage the use of language-learning applications and online learning platforms with interactive learning tools so students can expand their vocabulary, practise language skills, and improve independent learning. Schools can develop online resource libraries and digital libraries so learners can access learning materials and study anytime and anywhere, which will facilitate independent learning, support self-directed learning, provide flexible learning opportunities, and let them learn at their own pace.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "equip libraries with",
+                      "vi": "trang bị cho thư viện"
+                    },
+                    {
+                      "en": "foreign language books",
+                      "vi": "sách ngoại ngữ"
+                    },
+                    {
+                      "en": "reference books",
+                      "vi": "sách tham khảo"
+                    },
+                    {
+                      "en": "supplementary materials",
+                      "vi": "tài liệu bổ trợ"
+                    },
+                    {
+                      "en": "authentic materials",
+                      "vi": "tài liệu thực tế"
+                    },
+                    {
+                      "en": "foreign language publications",
+                      "vi": "các ấn phẩm ngoại ngữ"
+                    },
+                    {
+                      "en": "different proficiency levels",
+                      "vi": "các trình độ năng lực khác nhau"
+                    },
+                    {
+                      "en": "a wide range of learning materials",
+                      "vi": "nhiều loại tài liệu học tập đa dạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide computers and audiovisual equipment",
+                      "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "audiovisual equipment",
+                      "vi": "thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "stable Internet connection",
+                      "vi": "kết nối Internet ổn định"
+                    },
+                    {
+                      "en": "technological support",
+                      "vi": "sự hỗ trợ về công nghệ"
+                    },
+                    {
+                      "en": "digital learning environment",
+                      "vi": "môi trường học tập kỹ thuật số"
+                    },
+                    {
+                      "en": "support language learning activities",
+                      "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage the use of",
+                      "vi": "khuyến khích việc sử dụng"
+                    },
+                    {
+                      "en": "language-learning applications",
+                      "vi": "ứng dụng học ngôn ngữ"
+                    },
+                    {
+                      "en": "online learning platforms",
+                      "vi": "nền tảng học tập trực tuyến"
+                    },
+                    {
+                      "en": "expand one's vocabulary",
+                      "vi": "mở rộng vốn từ vựng"
+                    },
+                    {
+                      "en": "practise language skills",
+                      "vi": "luyện tập các kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "interactive learning tools",
+                      "vi": "công cụ học tập tương tác"
+                    },
+                    {
+                      "en": "improve independent learning",
+                      "vi": "cải thiện khả năng tự học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop online resource libraries",
+                      "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                    },
+                    {
+                      "en": "digital libraries",
+                      "vi": "thư viện kỹ thuật số"
+                    },
+                    {
+                      "en": "access learning materials",
+                      "vi": "truy cập tài liệu học tập"
+                    },
+                    {
+                      "en": "study anytime and anywhere",
+                      "vi": "học mọi lúc, mọi nơi"
+                    },
+                    {
+                      "en": "facilitate independent learning",
+                      "vi": "tạo điều kiện cho việc tự học"
+                    },
+                    {
+                      "en": "support self-directed learning",
+                      "vi": "hỗ trợ việc tự học có định hướng"
+                    },
+                    {
+                      "en": "provide flexible learning opportunities",
+                      "vi": "cung cấp cơ hội học tập linh hoạt"
+                    },
+                    {
+                      "en": "learn at one's own pace",
+                      "vi": "học theo tốc độ của bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "equip libraries with",
+                    "vi": "trang bị cho thư viện"
+                  },
+                  {
+                    "en": "foreign language books",
+                    "vi": "sách ngoại ngữ"
+                  },
+                  {
+                    "en": "reference books",
+                    "vi": "sách tham khảo"
+                  },
+                  {
+                    "en": "supplementary materials",
+                    "vi": "tài liệu bổ trợ"
+                  },
+                  {
+                    "en": "authentic materials",
+                    "vi": "tài liệu thực tế"
+                  },
+                  {
+                    "en": "foreign language publications",
+                    "vi": "các ấn phẩm ngoại ngữ"
+                  },
+                  {
+                    "en": "different proficiency levels",
+                    "vi": "các trình độ năng lực khác nhau"
+                  },
+                  {
+                    "en": "a wide range of learning materials",
+                    "vi": "nhiều loại tài liệu học tập đa dạng"
+                  },
+                  {
+                    "en": "provide computers and audiovisual equipment",
+                    "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "audiovisual equipment",
+                    "vi": "thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "stable Internet connection",
+                    "vi": "kết nối Internet ổn định"
+                  },
+                  {
+                    "en": "technological support",
+                    "vi": "sự hỗ trợ về công nghệ"
+                  },
+                  {
+                    "en": "digital learning environment",
+                    "vi": "môi trường học tập kỹ thuật số"
+                  },
+                  {
+                    "en": "support language learning activities",
+                    "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                  },
+                  {
+                    "en": "encourage the use of",
+                    "vi": "khuyến khích việc sử dụng"
+                  },
+                  {
+                    "en": "language-learning applications",
+                    "vi": "ứng dụng học ngôn ngữ"
+                  },
+                  {
+                    "en": "online learning platforms",
+                    "vi": "nền tảng học tập trực tuyến"
+                  },
+                  {
+                    "en": "expand one's vocabulary",
+                    "vi": "mở rộng vốn từ vựng"
+                  },
+                  {
+                    "en": "practise language skills",
+                    "vi": "luyện tập các kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "interactive learning tools",
+                    "vi": "công cụ học tập tương tác"
+                  },
+                  {
+                    "en": "improve independent learning",
+                    "vi": "cải thiện khả năng tự học"
+                  },
+                  {
+                    "en": "develop online resource libraries",
+                    "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                  },
+                  {
+                    "en": "digital libraries",
+                    "vi": "thư viện kỹ thuật số"
+                  },
+                  {
+                    "en": "access learning materials",
+                    "vi": "truy cập tài liệu học tập"
+                  },
+                  {
+                    "en": "study anytime and anywhere",
+                    "vi": "học mọi lúc, mọi nơi"
+                  },
+                  {
+                    "en": "facilitate independent learning",
+                    "vi": "tạo điều kiện cho việc tự học"
+                  },
+                  {
+                    "en": "support self-directed learning",
+                    "vi": "hỗ trợ việc tự học có định hướng"
+                  },
+                  {
+                    "en": "provide flexible learning opportunities",
+                    "vi": "cung cấp cơ hội học tập linh hoạt"
+                  },
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của bản thân"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TẠO THÊM CƠ HỘI THỰC HÀNH NGÔN NGỮ TRONG THỰC TẾ",
+                "point_vi": "Các trường học và cộng đồng nên tạo thêm cơ hội để người học sử dụng ngoại ngữ trong những tình huống giao tiếp thực tế.",
+                "point_en": "Schools and communities should create more chances for students to use foreign languages in real communication.",
+                "point_collocations": [
+                  {
+                    "en": "create more chances",
+                    "vi": "tạo thêm cơ hội"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "evidence_vi": "Thành lập các câu lạc bộ ngoại ngữ để học sinh có thể giao tiếp và trao đổi với nhau thường xuyên. Tổ chức các cuộc thi hùng biện, ngày hội ngôn ngữ và hoạt động ngoại khóa để khuyến khích người học sử dụng ngoại ngữ một cách tự nhiên. Tạo điều kiện cho học sinh tham gia các chương trình giao lưu với người bản ngữ hoặc sinh viên quốc tế để cải thiện kỹ năng giao tiếp. Khuyến khích các doanh nghiệp tạo cơ hội thực tập và làm việc trong môi trường quốc tế để người học áp dụng ngoại ngữ vào công việc thực tế.",
+                "evidence_en": "Schools can establish language clubs and host language practice sessions so that students communicate regularly, interact with other learners, practise speaking skills, create a supportive environment, and build communication confidence. Schools should organize public speaking competitions, hold language festivals, and arrange extracurricular activities to encourage natural language use, help students participate in language events, develop presentation skills, and increase learners’ motivation. Schools should arrange exchange programs and cultural exchange activities so students can interact with native speakers and communicate with international students to improve communication skills, improve speaking fluency, overcome language barriers, and gain cross-cultural experience. Governments should encourage businesses to provide internship opportunities in international working environments so that young people gain practical experience, apply language skills in practice, communicate with foreign colleagues, develop workplace communication skills, and improve future career prospects.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "establish language clubs",
+                      "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                    },
+                    {
+                      "en": "language practice sessions",
+                      "vi": "các buổi thực hành ngôn ngữ"
+                    },
+                    {
+                      "en": "communicate regularly",
+                      "vi": "giao tiếp thường xuyên"
+                    },
+                    {
+                      "en": "interact with other learners",
+                      "vi": "tương tác với những người học khác"
+                    },
+                    {
+                      "en": "practise speaking skills",
+                      "vi": "luyện tập kỹ năng nói"
+                    },
+                    {
+                      "en": "create a supportive environment",
+                      "vi": "tạo môi trường hỗ trợ"
+                    },
+                    {
+                      "en": "build communication confidence",
+                      "vi": "xây dựng sự tự tin trong giao tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "organize public speaking competitions",
+                      "vi": "tổ chức các cuộc thi hùng biện"
+                    },
+                    {
+                      "en": "hold language festivals",
+                      "vi": "tổ chức ngày hội ngôn ngữ"
+                    },
+                    {
+                      "en": "extracurricular activities",
+                      "vi": "các hoạt động ngoại khóa"
+                    },
+                    {
+                      "en": "encourage natural language use",
+                      "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                    },
+                    {
+                      "en": "participate in language events",
+                      "vi": "tham gia các sự kiện ngôn ngữ"
+                    },
+                    {
+                      "en": "develop presentation skills",
+                      "vi": "phát triển kỹ năng thuyết trình"
+                    },
+                    {
+                      "en": "increase learners' motivation",
+                      "vi": "tăng động lực học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "arrange exchange programs",
+                      "vi": "tổ chức các chương trình giao lưu"
+                    },
+                    {
+                      "en": "interact with native speakers",
+                      "vi": "tương tác với người bản ngữ"
+                    },
+                    {
+                      "en": "communicate with international students",
+                      "vi": "giao tiếp với sinh viên quốc tế"
+                    },
+                    {
+                      "en": "cultural exchange activities",
+                      "vi": "các hoạt động giao lưu văn hóa"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "improve speaking fluency",
+                      "vi": "cải thiện độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "overcome language barriers",
+                      "vi": "vượt qua rào cản ngôn ngữ"
+                    },
+                    {
+                      "en": "gain cross-cultural experience",
+                      "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage businesses to",
+                      "vi": "khuyến khích các doanh nghiệp"
+                    },
+                    {
+                      "en": "provide internship opportunities",
+                      "vi": "cung cấp cơ hội thực tập"
+                    },
+                    {
+                      "en": "international working environments",
+                      "vi": "môi trường làm việc quốc tế"
+                    },
+                    {
+                      "en": "gain practical experience",
+                      "vi": "tích lũy kinh nghiệm thực tế"
+                    },
+                    {
+                      "en": "apply language skills in practice",
+                      "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                    },
+                    {
+                      "en": "communicate with foreign colleagues",
+                      "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                    },
+                    {
+                      "en": "develop workplace communication skills",
+                      "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "improve future career prospects",
+                      "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "establish language clubs",
+                    "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "language practice sessions",
+                    "vi": "các buổi thực hành ngôn ngữ"
+                  },
+                  {
+                    "en": "communicate regularly",
+                    "vi": "giao tiếp thường xuyên"
+                  },
+                  {
+                    "en": "interact with other learners",
+                    "vi": "tương tác với những người học khác"
+                  },
+                  {
+                    "en": "practise speaking skills",
+                    "vi": "luyện tập kỹ năng nói"
+                  },
+                  {
+                    "en": "create a supportive environment",
+                    "vi": "tạo môi trường hỗ trợ"
+                  },
+                  {
+                    "en": "build communication confidence",
+                    "vi": "xây dựng sự tự tin trong giao tiếp"
+                  },
+                  {
+                    "en": "organize public speaking competitions",
+                    "vi": "tổ chức các cuộc thi hùng biện"
+                  },
+                  {
+                    "en": "hold language festivals",
+                    "vi": "tổ chức ngày hội ngôn ngữ"
+                  },
+                  {
+                    "en": "extracurricular activities",
+                    "vi": "các hoạt động ngoại khóa"
+                  },
+                  {
+                    "en": "encourage natural language use",
+                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                  },
+                  {
+                    "en": "participate in language events",
+                    "vi": "tham gia các sự kiện ngôn ngữ"
+                  },
+                  {
+                    "en": "develop presentation skills",
+                    "vi": "phát triển kỹ năng thuyết trình"
+                  },
+                  {
+                    "en": "increase learners' motivation",
+                    "vi": "tăng động lực học tập"
+                  },
+                  {
+                    "en": "arrange exchange programs",
+                    "vi": "tổ chức các chương trình giao lưu"
+                  },
+                  {
+                    "en": "interact with native speakers",
+                    "vi": "tương tác với người bản ngữ"
+                  },
+                  {
+                    "en": "communicate with international students",
+                    "vi": "giao tiếp với sinh viên quốc tế"
+                  },
+                  {
+                    "en": "cultural exchange activities",
+                    "vi": "các hoạt động giao lưu văn hóa"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "improve speaking fluency",
+                    "vi": "cải thiện độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "overcome language barriers",
+                    "vi": "vượt qua rào cản ngôn ngữ"
+                  },
+                  {
+                    "en": "gain cross-cultural experience",
+                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                  },
+                  {
+                    "en": "encourage businesses to",
+                    "vi": "khuyến khích các doanh nghiệp"
+                  },
+                  {
+                    "en": "provide internship opportunities",
+                    "vi": "cung cấp cơ hội thực tập"
+                  },
+                  {
+                    "en": "international working environments",
+                    "vi": "môi trường làm việc quốc tế"
+                  },
+                  {
+                    "en": "gain practical experience",
+                    "vi": "tích lũy kinh nghiệm thực tế"
+                  },
+                  {
+                    "en": "apply language skills in practice",
+                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                  },
+                  {
+                    "en": "communicate with foreign colleagues",
+                    "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                  },
+                  {
+                    "en": "develop workplace communication skills",
+                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "improve future career prospects",
+                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: TĂNG CƯỜNG ĐẦU TƯ VÀ HỖ TRỢ TỪ CHÍNH PHỦ",
+                "point_vi": "Chính phủ nên tăng cường đầu tư và hỗ trợ tài chính cho giáo dục ngôn ngữ.",
+                "point_en": "Governments should increase investment and financial support for language education.",
+                "point_collocations": [
+                  {
+                    "en": "increase investment",
+                    "vi": "tăng cường đầu tư"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "language education",
+                    "vi": "giáo dục ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Phân bổ thêm ngân sách cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở vật chất và trang thiết bị. Cung cấp học bổng hoặc hỗ trợ tài chính cho học sinh, sinh viên có hoàn cảnh khó khăn để họ có thêm cơ hội học ngoại ngữ. Xây dựng các chính sách khuyến khích việc học ngoại ngữ từ bậc tiểu học nhằm tạo nền tảng ngôn ngữ vững chắc. Hợp tác với các tổ chức giáo dục quốc tế để tiếp cận nguồn tài trợ và các chương trình giáo dục tiên tiến.",
+                "evidence_en": "Authorities should allocate a larger budget to schools and language centres to improve educational infrastructure, upgrade school facilities, and purchase modern teaching equipment through increased government funding. The state should provide financial assistance and offer scholarships to students from low-income families, enabling disadvantaged students to expand access to language courses and helping reduce educational inequality. Policymakers need to introduce supportive policies to promote early language learning in primary education, which helps children build a strong language foundation, develop language skills from an early age, and encourages students to learn foreign languages effectively. Educational institutions can establish international partnerships and cooperate with international organizations to access international funding, exchange educational resources, implement advanced educational programs, and benefit from international cooperation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "allocate a larger budget to",
+                      "vi": "phân bổ ngân sách lớn hơn cho"
+                    },
+                    {
+                      "en": "government funding",
+                      "vi": "nguồn tài trợ của chính phủ"
+                    },
+                    {
+                      "en": "language centres",
+                      "vi": "các trung tâm ngoại ngữ"
+                    },
+                    {
+                      "en": "improve educational infrastructure",
+                      "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                    },
+                    {
+                      "en": "upgrade school facilities",
+                      "vi": "nâng cấp cơ sở vật chất trường học"
+                    },
+                    {
+                      "en": "teaching equipment",
+                      "vi": "thiết bị giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide financial assistance",
+                      "vi": "cung cấp hỗ trợ tài chính"
+                    },
+                    {
+                      "en": "offer scholarships to students",
+                      "vi": "cấp học bổng cho học sinh, sinh viên"
+                    },
+                    {
+                      "en": "disadvantaged students",
+                      "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                    },
+                    {
+                      "en": "low-income families",
+                      "vi": "các gia đình có thu nhập thấp"
+                    },
+                    {
+                      "en": "expand access to language courses",
+                      "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                    },
+                    {
+                      "en": "reduce educational inequality",
+                      "vi": "giảm bất bình đẳng trong giáo dục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "introduce supportive policies",
+                      "vi": "ban hành các chính sách hỗ trợ"
+                    },
+                    {
+                      "en": "promote early language learning",
+                      "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                    },
+                    {
+                      "en": "primary education",
+                      "vi": "giáo dục tiểu học"
+                    },
+                    {
+                      "en": "build a strong language foundation",
+                      "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                    },
+                    {
+                      "en": "develop language skills from an early age",
+                      "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                    },
+                    {
+                      "en": "encourage students to learn foreign languages",
+                      "vi": "khuyến khích học sinh học ngoại ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "establish international partnerships",
+                      "vi": "thiết lập quan hệ hợp tác quốc tế"
+                    },
+                    {
+                      "en": "cooperate with international organizations",
+                      "vi": "hợp tác với các tổ chức quốc tế"
+                    },
+                    {
+                      "en": "access international funding",
+                      "vi": "tiếp cận nguồn tài trợ quốc tế"
+                    },
+                    {
+                      "en": "exchange educational resources",
+                      "vi": "trao đổi tài nguyên giáo dục"
+                    },
+                    {
+                      "en": "advanced educational programs",
+                      "vi": "các chương trình giáo dục tiên tiến"
+                    },
+                    {
+                      "en": "benefit from international cooperation",
+                      "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "allocate a larger budget to",
+                    "vi": "phân bổ ngân sách lớn hơn cho"
+                  },
+                  {
+                    "en": "government funding",
+                    "vi": "nguồn tài trợ của chính phủ"
+                  },
+                  {
+                    "en": "language centres",
+                    "vi": "các trung tâm ngoại ngữ"
+                  },
+                  {
+                    "en": "improve educational infrastructure",
+                    "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                  },
+                  {
+                    "en": "upgrade school facilities",
+                    "vi": "nâng cấp cơ sở vật chất trường học"
+                  },
+                  {
+                    "en": "teaching equipment",
+                    "vi": "thiết bị giảng dạy"
+                  },
+                  {
+                    "en": "provide financial assistance",
+                    "vi": "cung cấp hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "offer scholarships to students",
+                    "vi": "cấp học bổng cho học sinh, sinh viên"
+                  },
+                  {
+                    "en": "disadvantaged students",
+                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "các gia đình có thu nhập thấp"
+                  },
+                  {
+                    "en": "expand access to language courses",
+                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                  },
+                  {
+                    "en": "reduce educational inequality",
+                    "vi": "giảm bất bình đẳng trong giáo dục"
+                  },
+                  {
+                    "en": "introduce supportive policies",
+                    "vi": "ban hành các chính sách hỗ trợ"
+                  },
+                  {
+                    "en": "promote early language learning",
+                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                  },
+                  {
+                    "en": "primary education",
+                    "vi": "giáo dục tiểu học"
+                  },
+                  {
+                    "en": "build a strong language foundation",
+                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                  },
+                  {
+                    "en": "develop language skills from an early age",
+                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                  },
+                  {
+                    "en": "encourage students to learn foreign languages",
+                    "vi": "khuyến khích học sinh học ngoại ngữ"
+                  },
+                  {
+                    "en": "establish international partnerships",
+                    "vi": "thiết lập quan hệ hợp tác quốc tế"
+                  },
+                  {
+                    "en": "cooperate with international organizations",
+                    "vi": "hợp tác với các tổ chức quốc tế"
+                  },
+                  {
+                    "en": "access international funding",
+                    "vi": "tiếp cận nguồn tài trợ quốc tế"
+                  },
+                  {
+                    "en": "exchange educational resources",
+                    "vi": "trao đổi tài nguyên giáo dục"
+                  },
+                  {
+                    "en": "advanced educational programs",
+                    "vi": "các chương trình giáo dục tiên tiến"
+                  },
+                  {
+                    "en": "benefit from international cooperation",
+                    "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: CẢI THIỆN CHƯƠNG TRÌNH VÀ PHƯƠNG PHÁP GIẢNG DẠY",
+                "point_vi": "Các trường học nên cải thiện chương trình và phương pháp giảng dạy để giúp người học phát triển năng lực ngôn ngữ toàn diện.",
+                "point_en": "Schools should improve the curriculum and teaching methods to help learners develop comprehensive language competence.",
+                "point_collocations": [
+                  {
+                    "en": "improve the curriculum",
+                    "vi": "cải thiện chương trình học"
+                  },
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "develop comprehensive language competence",
+                    "vi": "phát triển năng lực ngôn ngữ toàn diện"
+                  }
+                ],
+                "evidence_vi": "Thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì tập trung quá nhiều vào ngữ pháp và từ vựng. Giảm sự phụ thuộc vào việc ghi nhớ máy móc các quy tắc ngữ pháp và từ vựng. Tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để học sinh có cơ hội sử dụng ngôn ngữ. Xây dựng nội dung bài học gắn với các tình huống thực tế như giao tiếp tại nơi làm việc, du lịch và học tập.",
+                "evidence_en": "In curriculum design, the language curriculum should place equal emphasis on the four language skills—including listening comprehension, speaking fluency, reading comprehension, and written communication—to promote balanced language development. Teachers must move beyond traditional teaching methods that focus heavily on grammar and vocabulary memorization, thereby helping reduce rote memorization of grammar rules so that learners can develop practical language skills and apply knowledge in real-life situations. Classrooms should increase communicative activities such as group discussions, role-play activities, and giving presentations to enhance classroom interaction, encourage active participation, allow learners to use the target language, and improve communication skills. Lesson plans should integrate real-life situations and authentic learning materials into practical learning content, such as workplace communication, travel-related situations, and academic communication, in order to prepare learners for real-life communication.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "language curriculum",
+                      "vi": "chương trình giảng dạy ngôn ngữ"
+                    },
+                    {
+                      "en": "curriculum design",
+                      "vi": "thiết kế chương trình học"
+                    },
+                    {
+                      "en": "the four language skills",
+                      "vi": "bốn kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "listening comprehension",
+                      "vi": "khả năng nghe hiểu"
+                    },
+                    {
+                      "en": "speaking fluency",
+                      "vi": "độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "reading comprehension",
+                      "vi": "khả năng đọc hiểu"
+                    },
+                    {
+                      "en": "written communication",
+                      "vi": "giao tiếp bằng văn bản"
+                    },
+                    {
+                      "en": "balanced language development",
+                      "vi": "sự phát triển ngôn ngữ cân bằng"
+                    },
+                    {
+                      "en": "place equal emphasis on",
+                      "vi": "chú trọng đồng đều vào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reduce rote memorization",
+                      "vi": "giảm việc học thuộc lòng máy móc"
+                    },
+                    {
+                      "en": "memorize grammar rules",
+                      "vi": "ghi nhớ các quy tắc ngữ pháp"
+                    },
+                    {
+                      "en": "focus heavily on grammar",
+                      "vi": "tập trung quá nhiều vào ngữ pháp"
+                    },
+                    {
+                      "en": "vocabulary memorization",
+                      "vi": "việc ghi nhớ từ vựng"
+                    },
+                    {
+                      "en": "traditional teaching methods",
+                      "vi": "các phương pháp giảng dạy truyền thống"
+                    },
+                    {
+                      "en": "develop practical language skills",
+                      "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                    },
+                    {
+                      "en": "apply knowledge in real-life situations",
+                      "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "increase communicative activities",
+                      "vi": "tăng cường các hoạt động giao tiếp"
+                    },
+                    {
+                      "en": "group discussions",
+                      "vi": "thảo luận nhóm"
+                    },
+                    {
+                      "en": "role-play activities",
+                      "vi": "hoạt động đóng vai"
+                    },
+                    {
+                      "en": "give presentations",
+                      "vi": "thực hiện bài thuyết trình"
+                    },
+                    {
+                      "en": "classroom interaction",
+                      "vi": "sự tương tác trong lớp học"
+                    },
+                    {
+                      "en": "encourage active participation",
+                      "vi": "khuyến khích sự tham gia tích cực"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "use the target language",
+                      "vi": "sử dụng ngôn ngữ đích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "integrate real-life situations",
+                      "vi": "lồng ghép các tình huống thực tế"
+                    },
+                    {
+                      "en": "practical learning content",
+                      "vi": "nội dung học tập mang tính thực tiễn"
+                    },
+                    {
+                      "en": "workplace communication",
+                      "vi": "giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "travel-related situations",
+                      "vi": "các tình huống liên quan đến du lịch"
+                    },
+                    {
+                      "en": "academic communication",
+                      "vi": "giao tiếp trong môi trường học thuật"
+                    },
+                    {
+                      "en": "authentic learning materials",
+                      "vi": "tài liệu học tập thực tế"
+                    },
+                    {
+                      "en": "prepare learners for real-life communication",
+                      "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "language curriculum",
+                    "vi": "chương trình giảng dạy ngôn ngữ"
+                  },
+                  {
+                    "en": "curriculum design",
+                    "vi": "thiết kế chương trình học"
+                  },
+                  {
+                    "en": "the four language skills",
+                    "vi": "bốn kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "listening comprehension",
+                    "vi": "khả năng nghe hiểu"
+                  },
+                  {
+                    "en": "speaking fluency",
+                    "vi": "độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "reading comprehension",
+                    "vi": "khả năng đọc hiểu"
+                  },
+                  {
+                    "en": "written communication",
+                    "vi": "giao tiếp bằng văn bản"
+                  },
+                  {
+                    "en": "balanced language development",
+                    "vi": "sự phát triển ngôn ngữ cân bằng"
+                  },
+                  {
+                    "en": "place equal emphasis on",
+                    "vi": "chú trọng đồng đều vào"
+                  },
+                  {
+                    "en": "reduce rote memorization",
+                    "vi": "giảm việc học thuộc lòng máy móc"
+                  },
+                  {
+                    "en": "memorize grammar rules",
+                    "vi": "ghi nhớ các quy tắc ngữ pháp"
+                  },
+                  {
+                    "en": "focus heavily on grammar",
+                    "vi": "tập trung quá nhiều vào ngữ pháp"
+                  },
+                  {
+                    "en": "vocabulary memorization",
+                    "vi": "việc ghi nhớ từ vựng"
+                  },
+                  {
+                    "en": "traditional teaching methods",
+                    "vi": "các phương pháp giảng dạy truyền thống"
+                  },
+                  {
+                    "en": "develop practical language skills",
+                    "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                  },
+                  {
+                    "en": "apply knowledge in real-life situations",
+                    "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                  },
+                  {
+                    "en": "increase communicative activities",
+                    "vi": "tăng cường các hoạt động giao tiếp"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "role-play activities",
+                    "vi": "hoạt động đóng vai"
+                  },
+                  {
+                    "en": "give presentations",
+                    "vi": "thực hiện bài thuyết trình"
+                  },
+                  {
+                    "en": "classroom interaction",
+                    "vi": "sự tương tác trong lớp học"
+                  },
+                  {
+                    "en": "encourage active participation",
+                    "vi": "khuyến khích sự tham gia tích cực"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "use the target language",
+                    "vi": "sử dụng ngôn ngữ đích"
+                  },
+                  {
+                    "en": "integrate real-life situations",
+                    "vi": "lồng ghép các tình huống thực tế"
+                  },
+                  {
+                    "en": "practical learning content",
+                    "vi": "nội dung học tập mang tính thực tiễn"
+                  },
+                  {
+                    "en": "workplace communication",
+                    "vi": "giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "travel-related situations",
+                    "vi": "các tình huống liên quan đến du lịch"
+                  },
+                  {
+                    "en": "academic communication",
+                    "vi": "giao tiếp trong môi trường học thuật"
+                  },
+                  {
+                    "en": "authentic learning materials",
+                    "vi": "tài liệu học tập thực tế"
+                  },
+                  {
+                    "en": "prepare learners for real-life communication",
+                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: NÂNG CAO TRÌNH ĐỘ CHUYÊN MÔN CỦA GIÁO VIÊN",
+                "point_vi": "Các cơ sở giáo dục nên nâng cao trình độ chuyên môn của giáo viên để đảm bảo chất lượng giảng dạy ngôn ngữ.",
+                "point_en": "Educational institutions should upgrade teachers’ professional competence to guarantee the quality of language teaching.",
+                "point_collocations": [
+                  {
+                    "en": "upgrade teachers' professional competence",
+                    "vi": "nâng cao năng lực chuyên môn của giáo viên"
+                  },
+                  {
+                    "en": "quality of language teaching",
+                    "vi": "chất lượng giảng dạy ngôn ngữ"
+                  },
+                  {
+                    "en": "educational institutions",
+                    "vi": "các cơ sở giáo dục"
+                  }
+                ],
+                "evidence_vi": "Tổ chức các khóa đào tạo chuyên môn định kỳ để giúp giáo viên cập nhật kiến thức và nâng cao năng lực giảng dạy. Khuyến khích giáo viên tham gia các khóa học và lấy chứng chỉ giảng dạy ngoại ngữ phù hợp. Tạo cơ hội cho giáo viên tham gia hội thảo và chương trình trao đổi quốc tế để học hỏi kinh nghiệm từ các chuyên gia. Thực hiện đánh giá năng lực giảng dạy định kỳ và cung cấp phản hồi mang tính xây dựng để giúp giáo viên cải thiện chuyên môn.",
+                "evidence_en": "Schools must organize regular training courses and professional development courses to help educators update professional knowledge, improve teaching competence, and enhance teaching effectiveness. Administrators should encourage teachers to attend courses and obtain relevant teaching certificates, which enhances their professional qualifications, improves professional competence, and helps them meet professional standards. It is essential to provide opportunities for teachers to attend professional workshops and participate in international exchange programs so that they can exchange teaching experiences, learn from experienced educators, keep up with educational trends, and gain international teaching experience. School leaders need to conduct regular assessments to evaluate teaching performance and provide constructive feedback, enabling instructors to identify professional weaknesses, improve instructional skills, and achieve continuous professional improvement.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize regular training courses",
+                      "vi": "tổ chức các khóa đào tạo định kỳ"
+                    },
+                    {
+                      "en": "professional development",
+                      "vi": "phát triển chuyên môn"
+                    },
+                    {
+                      "en": "professional development courses",
+                      "vi": "các khóa phát triển chuyên môn"
+                    },
+                    {
+                      "en": "update professional knowledge",
+                      "vi": "cập nhật kiến thức chuyên môn"
+                    },
+                    {
+                      "en": "improve teaching competence",
+                      "vi": "cải thiện năng lực giảng dạy"
+                    },
+                    {
+                      "en": "enhance teaching effectiveness",
+                      "vi": "nâng cao hiệu quả giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage teachers to attend courses",
+                      "vi": "khuyến khích giáo viên tham gia các khóa học"
+                    },
+                    {
+                      "en": "obtain relevant teaching certificates",
+                      "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                    },
+                    {
+                      "en": "professional qualifications",
+                      "vi": "trình độ chuyên môn"
+                    },
+                    {
+                      "en": "teaching certificates",
+                      "vi": "chứng chỉ giảng dạy"
+                    },
+                    {
+                      "en": "improve professional competence",
+                      "vi": "nâng cao năng lực chuyên môn"
+                    },
+                    {
+                      "en": "meet professional standards",
+                      "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide opportunities for teachers to",
+                      "vi": "tạo cơ hội cho giáo viên"
+                    },
+                    {
+                      "en": "attend professional workshops",
+                      "vi": "tham gia các hội thảo chuyên môn"
+                    },
+                    {
+                      "en": "international exchange programs",
+                      "vi": "chương trình trao đổi quốc tế"
+                    },
+                    {
+                      "en": "exchange teaching experiences",
+                      "vi": "trao đổi kinh nghiệm giảng dạy"
+                    },
+                    {
+                      "en": "learn from experienced educators",
+                      "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                    },
+                    {
+                      "en": "keep up with educational trends",
+                      "vi": "cập nhật các xu hướng giáo dục"
+                    },
+                    {
+                      "en": "gain international teaching experience",
+                      "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evaluate teaching performance",
+                      "vi": "đánh giá năng lực giảng dạy"
+                    },
+                    {
+                      "en": "conduct regular assessments",
+                      "vi": "tiến hành đánh giá định kỳ"
+                    },
+                    {
+                      "en": "provide constructive feedback",
+                      "vi": "cung cấp phản hồi mang tính xây dựng"
+                    },
+                    {
+                      "en": "identify professional weaknesses",
+                      "vi": "xác định những hạn chế về chuyên môn"
+                    },
+                    {
+                      "en": "improve instructional skills",
+                      "vi": "cải thiện kỹ năng giảng dạy"
+                    },
+                    {
+                      "en": "continuous professional improvement",
+                      "vi": "cải thiện chuyên môn liên tục"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "organize regular training courses",
+                    "vi": "tổ chức các khóa đào tạo định kỳ"
+                  },
+                  {
+                    "en": "professional development",
+                    "vi": "phát triển chuyên môn"
+                  },
+                  {
+                    "en": "professional development courses",
+                    "vi": "các khóa phát triển chuyên môn"
+                  },
+                  {
+                    "en": "update professional knowledge",
+                    "vi": "cập nhật kiến thức chuyên môn"
+                  },
+                  {
+                    "en": "improve teaching competence",
+                    "vi": "cải thiện năng lực giảng dạy"
+                  },
+                  {
+                    "en": "enhance teaching effectiveness",
+                    "vi": "nâng cao hiệu quả giảng dạy"
+                  },
+                  {
+                    "en": "encourage teachers to attend courses",
+                    "vi": "khuyến khích giáo viên tham gia các khóa học"
+                  },
+                  {
+                    "en": "obtain relevant teaching certificates",
+                    "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                  },
+                  {
+                    "en": "professional qualifications",
+                    "vi": "trình độ chuyên môn"
+                  },
+                  {
+                    "en": "teaching certificates",
+                    "vi": "chứng chỉ giảng dạy"
+                  },
+                  {
+                    "en": "improve professional competence",
+                    "vi": "nâng cao năng lực chuyên môn"
+                  },
+                  {
+                    "en": "meet professional standards",
+                    "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                  },
+                  {
+                    "en": "provide opportunities for teachers to",
+                    "vi": "tạo cơ hội cho giáo viên"
+                  },
+                  {
+                    "en": "attend professional workshops",
+                    "vi": "tham gia các hội thảo chuyên môn"
+                  },
+                  {
+                    "en": "international exchange programs",
+                    "vi": "chương trình trao đổi quốc tế"
+                  },
+                  {
+                    "en": "exchange teaching experiences",
+                    "vi": "trao đổi kinh nghiệm giảng dạy"
+                  },
+                  {
+                    "en": "learn from experienced educators",
+                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                  },
+                  {
+                    "en": "keep up with educational trends",
+                    "vi": "cập nhật các xu hướng giáo dục"
+                  },
+                  {
+                    "en": "gain international teaching experience",
+                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                  },
+                  {
+                    "en": "evaluate teaching performance",
+                    "vi": "đánh giá năng lực giảng dạy"
+                  },
+                  {
+                    "en": "conduct regular assessments",
+                    "vi": "tiến hành đánh giá định kỳ"
+                  },
+                  {
+                    "en": "provide constructive feedback",
+                    "vi": "cung cấp phản hồi mang tính xây dựng"
+                  },
+                  {
+                    "en": "identify professional weaknesses",
+                    "vi": "xác định những hạn chế về chuyên môn"
+                  },
+                  {
+                    "en": "improve instructional skills",
+                    "vi": "cải thiện kỹ năng giảng dạy"
+                  },
+                  {
+                    "en": "continuous professional improvement",
+                    "vi": "cải thiện chuyên môn liên tục"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: CUNG CẤP TÀI LIỆU HỌC TẬP VÀ HỖ TRỢ CÔNG NGHỆ",
+                "point_vi": "Các trường học nên cung cấp tài liệu học tập và công cụ công nghệ phù hợp để tạo điều kiện thuận lợi cho việc học ngôn ngữ.",
+                "point_en": "Schools should provide suitable learning materials and technological tools to facilitate language acquisition.",
+                "point_collocations": [
+                  {
+                    "en": "suitable learning materials",
+                    "vi": "tài liệu học tập phù hợp"
+                  },
+                  {
+                    "en": "technological tools",
+                    "vi": "công cụ công nghệ"
+                  },
+                  {
+                    "en": "facilitate language acquisition",
+                    "vi": "tạo điều kiện thuận lợi cho việc tiếp thu ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Trang bị thư viện với sách, truyện, báo và tài liệu ngoại ngữ phù hợp với nhiều trình độ khác nhau. Cung cấp máy tính, thiết bị nghe nhìn và kết nối Internet ổn định để hỗ trợ các hoạt động học tập. Khuyến khích học sinh sử dụng ứng dụng học ngoại ngữ và nền tảng trực tuyến để mở rộng vốn từ vựng và luyện tập các kỹ năng. Xây dựng thư viện học liệu trực tuyến để người học có thể truy cập tài liệu và tự học mọi lúc, mọi nơi.",
+                "evidence_en": "Educational centres should equip libraries with foreign language books, reference books, supplementary materials, authentic materials, and foreign language publications across different proficiency levels, creating a wide range of learning materials. Campuses must provide computers and audiovisual equipment alongside a stable Internet connection and reliable technological support, fostering a modern digital learning environment to support language learning activities. Teachers should encourage the use of language-learning applications and online learning platforms equipped with interactive learning tools, helping students expand their vocabulary, practise language skills, and improve independent learning. Institutions can develop online resource libraries and digital libraries so that students can easily access learning materials to study anytime and anywhere, which helps facilitate independent learning, support self-directed learning, provide flexible learning opportunities, and allow students to learn at their own pace.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "equip libraries with",
+                      "vi": "trang bị cho thư viện"
+                    },
+                    {
+                      "en": "foreign language books",
+                      "vi": "sách ngoại ngữ"
+                    },
+                    {
+                      "en": "reference books",
+                      "vi": "sách tham khảo"
+                    },
+                    {
+                      "en": "supplementary materials",
+                      "vi": "tài liệu bổ trợ"
+                    },
+                    {
+                      "en": "authentic materials",
+                      "vi": "tài liệu thực tế"
+                    },
+                    {
+                      "en": "foreign language publications",
+                      "vi": "các ấn phẩm ngoại ngữ"
+                    },
+                    {
+                      "en": "different proficiency levels",
+                      "vi": "các trình độ năng lực khác nhau"
+                    },
+                    {
+                      "en": "a wide range of learning materials",
+                      "vi": "nhiều loại tài liệu học tập đa dạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide computers and audiovisual equipment",
+                      "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "audiovisual equipment",
+                      "vi": "thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "stable Internet connection",
+                      "vi": "kết nối Internet ổn định"
+                    },
+                    {
+                      "en": "technological support",
+                      "vi": "sự hỗ trợ về công nghệ"
+                    },
+                    {
+                      "en": "digital learning environment",
+                      "vi": "môi trường học tập kỹ thuật số"
+                    },
+                    {
+                      "en": "support language learning activities",
+                      "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage the use of",
+                      "vi": "khuyến khích việc sử dụng"
+                    },
+                    {
+                      "en": "language-learning applications",
+                      "vi": "ứng dụng học ngôn ngữ"
+                    },
+                    {
+                      "en": "online learning platforms",
+                      "vi": "nền tảng học tập trực tuyến"
+                    },
+                    {
+                      "en": "expand one's vocabulary",
+                      "vi": "mở rộng vốn từ vựng"
+                    },
+                    {
+                      "en": "practise language skills",
+                      "vi": "luyện tập các kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "interactive learning tools",
+                      "vi": "công cụ học tập tương tác"
+                    },
+                    {
+                      "en": "improve independent learning",
+                      "vi": "cải thiện khả năng tự học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop online resource libraries",
+                      "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                    },
+                    {
+                      "en": "digital libraries",
+                      "vi": "thư viện kỹ thuật số"
+                    },
+                    {
+                      "en": "access learning materials",
+                      "vi": "truy cập tài liệu học tập"
+                    },
+                    {
+                      "en": "study anytime and anywhere",
+                      "vi": "học mọi lúc, mọi nơi"
+                    },
+                    {
+                      "en": "facilitate independent learning",
+                      "vi": "tạo điều kiện cho việc tự học"
+                    },
+                    {
+                      "en": "support self-directed learning",
+                      "vi": "hỗ trợ việc tự học có định hướng"
+                    },
+                    {
+                      "en": "provide flexible learning opportunities",
+                      "vi": "cung cấp cơ hội học tập linh hoạt"
+                    },
+                    {
+                      "en": "learn at one's own pace",
+                      "vi": "học theo tốc độ của bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "equip libraries with",
+                    "vi": "trang bị cho thư viện"
+                  },
+                  {
+                    "en": "foreign language books",
+                    "vi": "sách ngoại ngữ"
+                  },
+                  {
+                    "en": "reference books",
+                    "vi": "sách tham khảo"
+                  },
+                  {
+                    "en": "supplementary materials",
+                    "vi": "tài liệu bổ trợ"
+                  },
+                  {
+                    "en": "authentic materials",
+                    "vi": "tài liệu thực tế"
+                  },
+                  {
+                    "en": "foreign language publications",
+                    "vi": "các ấn phẩm ngoại ngữ"
+                  },
+                  {
+                    "en": "different proficiency levels",
+                    "vi": "các trình độ năng lực khác nhau"
+                  },
+                  {
+                    "en": "a wide range of learning materials",
+                    "vi": "nhiều loại tài liệu học tập đa dạng"
+                  },
+                  {
+                    "en": "provide computers and audiovisual equipment",
+                    "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "audiovisual equipment",
+                    "vi": "thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "stable Internet connection",
+                    "vi": "kết nối Internet ổn định"
+                  },
+                  {
+                    "en": "technological support",
+                    "vi": "sự hỗ trợ về công nghệ"
+                  },
+                  {
+                    "en": "digital learning environment",
+                    "vi": "môi trường học tập kỹ thuật số"
+                  },
+                  {
+                    "en": "support language learning activities",
+                    "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                  },
+                  {
+                    "en": "encourage the use of",
+                    "vi": "khuyến khích việc sử dụng"
+                  },
+                  {
+                    "en": "language-learning applications",
+                    "vi": "ứng dụng học ngôn ngữ"
+                  },
+                  {
+                    "en": "online learning platforms",
+                    "vi": "nền tảng học tập trực tuyến"
+                  },
+                  {
+                    "en": "expand one's vocabulary",
+                    "vi": "mở rộng vốn từ vựng"
+                  },
+                  {
+                    "en": "practise language skills",
+                    "vi": "luyện tập các kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "interactive learning tools",
+                    "vi": "công cụ học tập tương tác"
+                  },
+                  {
+                    "en": "improve independent learning",
+                    "vi": "cải thiện khả năng tự học"
+                  },
+                  {
+                    "en": "develop online resource libraries",
+                    "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                  },
+                  {
+                    "en": "digital libraries",
+                    "vi": "thư viện kỹ thuật số"
+                  },
+                  {
+                    "en": "access learning materials",
+                    "vi": "truy cập tài liệu học tập"
+                  },
+                  {
+                    "en": "study anytime and anywhere",
+                    "vi": "học mọi lúc, mọi nơi"
+                  },
+                  {
+                    "en": "facilitate independent learning",
+                    "vi": "tạo điều kiện cho việc tự học"
+                  },
+                  {
+                    "en": "support self-directed learning",
+                    "vi": "hỗ trợ việc tự học có định hướng"
+                  },
+                  {
+                    "en": "provide flexible learning opportunities",
+                    "vi": "cung cấp cơ hội học tập linh hoạt"
+                  },
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của bản thân"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TẠO THÊM CƠ HỘI THỰC HÀNH NGÔN NGỮ TRONG THỰC TẾ",
+                "point_vi": "Các trường học và cộng đồng nên tạo thêm cơ hội để người học sử dụng ngoại ngữ trong những tình huống giao tiếp thực tế.",
+                "point_en": "Schools and local communities should create more opportunities for learners to use foreign languages in authentic communicative situations.",
+                "point_collocations": [
+                  {
+                    "en": "create more opportunities",
+                    "vi": "tạo thêm cơ hội"
+                  },
+                  {
+                    "en": "use foreign languages in authentic communicative situations",
+                    "vi": "sử dụng ngoại ngữ trong những tình huống giao tiếp thực tế"
+                  },
+                  {
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
+                  }
+                ],
+                "evidence_vi": "Thành lập các câu lạc bộ ngoại ngữ để học sinh có thể giao tiếp và trao đổi với nhau thường xuyên. Tổ chức các cuộc thi hùng biện, ngày hội ngôn ngữ và hoạt động ngoại khóa để khuyến khích người học sử dụng ngoại ngữ một cách tự nhiên. Tạo điều kiện cho học sinh tham gia các chương trình giao lưu với người bản ngữ hoặc sinh viên quốc tế để cải thiện kỹ năng giao tiếp. Khuyến khích các doanh nghiệp tạo cơ hội thực tập và làm việc trong môi trường quốc tế để người học áp dụng ngoại ngữ vào công việc thực tế.",
+                "evidence_en": "Schools can establish language clubs and organize regular language practice sessions, allowing members to communicate regularly, interact with other learners, practise speaking skills, create a supportive environment, and build communication confidence. Organizers can organize public speaking competitions, hold language festivals, and host engaging extracurricular activities to encourage natural language use, motivate students to participate in language events, develop presentation skills, and increase learners’ motivation. Schools ought to arrange exchange programs and cultural exchange activities for students to interact with native speakers and communicate with international students, which helps them improve communication skills, improve speaking fluency, overcome language barriers, and gain cross-cultural experience. Governments should encourage businesses to provide internship opportunities in international working environments, allowing interns to gain practical experience, apply language skills in practice, communicate with foreign colleagues, develop workplace communication skills, and improve future career prospects.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "establish language clubs",
+                      "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                    },
+                    {
+                      "en": "language practice sessions",
+                      "vi": "các buổi thực hành ngôn ngữ"
+                    },
+                    {
+                      "en": "communicate regularly",
+                      "vi": "giao tiếp thường xuyên"
+                    },
+                    {
+                      "en": "interact with other learners",
+                      "vi": "tương tác với những người học khác"
+                    },
+                    {
+                      "en": "practise speaking skills",
+                      "vi": "luyện tập kỹ năng nói"
+                    },
+                    {
+                      "en": "create a supportive environment",
+                      "vi": "tạo môi trường hỗ trợ"
+                    },
+                    {
+                      "en": "build communication confidence",
+                      "vi": "xây dựng sự tự tin trong giao tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "organize public speaking competitions",
+                      "vi": "tổ chức các cuộc thi hùng biện"
+                    },
+                    {
+                      "en": "hold language festivals",
+                      "vi": "tổ chức ngày hội ngôn ngữ"
+                    },
+                    {
+                      "en": "extracurricular activities",
+                      "vi": "các hoạt động ngoại khóa"
+                    },
+                    {
+                      "en": "encourage natural language use",
+                      "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                    },
+                    {
+                      "en": "participate in language events",
+                      "vi": "tham gia các sự kiện ngôn ngữ"
+                    },
+                    {
+                      "en": "develop presentation skills",
+                      "vi": "phát triển kỹ năng thuyết trình"
+                    },
+                    {
+                      "en": "increase learners' motivation",
+                      "vi": "tăng động lực học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "arrange exchange programs",
+                      "vi": "tổ chức các chương trình giao lưu"
+                    },
+                    {
+                      "en": "interact with native speakers",
+                      "vi": "tương tác với người bản ngữ"
+                    },
+                    {
+                      "en": "communicate with international students",
+                      "vi": "giao tiếp với sinh viên quốc tế"
+                    },
+                    {
+                      "en": "cultural exchange activities",
+                      "vi": "các hoạt động giao lưu văn hóa"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "improve speaking fluency",
+                      "vi": "cải thiện độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "overcome language barriers",
+                      "vi": "vượt qua rào cản ngôn ngữ"
+                    },
+                    {
+                      "en": "gain cross-cultural experience",
+                      "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage businesses to",
+                      "vi": "khuyến khích các doanh nghiệp"
+                    },
+                    {
+                      "en": "provide internship opportunities",
+                      "vi": "cung cấp cơ hội thực tập"
+                    },
+                    {
+                      "en": "international working environments",
+                      "vi": "môi trường làm việc quốc tế"
+                    },
+                    {
+                      "en": "gain practical experience",
+                      "vi": "tích lũy kinh nghiệm thực tế"
+                    },
+                    {
+                      "en": "apply language skills in practice",
+                      "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                    },
+                    {
+                      "en": "communicate with foreign colleagues",
+                      "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                    },
+                    {
+                      "en": "develop workplace communication skills",
+                      "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "improve future career prospects",
+                      "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "establish language clubs",
+                    "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "language practice sessions",
+                    "vi": "các buổi thực hành ngôn ngữ"
+                  },
+                  {
+                    "en": "communicate regularly",
+                    "vi": "giao tiếp thường xuyên"
+                  },
+                  {
+                    "en": "interact with other learners",
+                    "vi": "tương tác với những người học khác"
+                  },
+                  {
+                    "en": "practise speaking skills",
+                    "vi": "luyện tập kỹ năng nói"
+                  },
+                  {
+                    "en": "create a supportive environment",
+                    "vi": "tạo môi trường hỗ trợ"
+                  },
+                  {
+                    "en": "build communication confidence",
+                    "vi": "xây dựng sự tự tin trong giao tiếp"
+                  },
+                  {
+                    "en": "organize public speaking competitions",
+                    "vi": "tổ chức các cuộc thi hùng biện"
+                  },
+                  {
+                    "en": "hold language festivals",
+                    "vi": "tổ chức ngày hội ngôn ngữ"
+                  },
+                  {
+                    "en": "extracurricular activities",
+                    "vi": "các hoạt động ngoại khóa"
+                  },
+                  {
+                    "en": "encourage natural language use",
+                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                  },
+                  {
+                    "en": "participate in language events",
+                    "vi": "tham gia các sự kiện ngôn ngữ"
+                  },
+                  {
+                    "en": "develop presentation skills",
+                    "vi": "phát triển kỹ năng thuyết trình"
+                  },
+                  {
+                    "en": "increase learners' motivation",
+                    "vi": "tăng động lực học tập"
+                  },
+                  {
+                    "en": "arrange exchange programs",
+                    "vi": "tổ chức các chương trình giao lưu"
+                  },
+                  {
+                    "en": "interact with native speakers",
+                    "vi": "tương tác với người bản ngữ"
+                  },
+                  {
+                    "en": "communicate with international students",
+                    "vi": "giao tiếp với sinh viên quốc tế"
+                  },
+                  {
+                    "en": "cultural exchange activities",
+                    "vi": "các hoạt động giao lưu văn hóa"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "improve speaking fluency",
+                    "vi": "cải thiện độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "overcome language barriers",
+                    "vi": "vượt qua rào cản ngôn ngữ"
+                  },
+                  {
+                    "en": "gain cross-cultural experience",
+                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                  },
+                  {
+                    "en": "encourage businesses to",
+                    "vi": "khuyến khích các doanh nghiệp"
+                  },
+                  {
+                    "en": "provide internship opportunities",
+                    "vi": "cung cấp cơ hội thực tập"
+                  },
+                  {
+                    "en": "international working environments",
+                    "vi": "môi trường làm việc quốc tế"
+                  },
+                  {
+                    "en": "gain practical experience",
+                    "vi": "tích lũy kinh nghiệm thực tế"
+                  },
+                  {
+                    "en": "apply language skills in practice",
+                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                  },
+                  {
+                    "en": "communicate with foreign colleagues",
+                    "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                  },
+                  {
+                    "en": "develop workplace communication skills",
+                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "improve future career prospects",
+                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "GIẢI PHÁP 01: TĂNG CƯỜNG ĐẦU TƯ VÀ HỖ TRỢ TỪ CHÍNH PHỦ",
+                "point_vi": "Chính phủ nên tăng cường đầu tư và hỗ trợ tài chính cho giáo dục ngôn ngữ.",
+                "point_en": "Governments should increase investment and financial support for language education.",
+                "point_collocations": [
+                  {
+                    "en": "increase investment",
+                    "vi": "tăng cường đầu tư"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "language education",
+                    "vi": "giáo dục ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Phân bổ thêm ngân sách cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở vật chất và trang thiết bị. Cung cấp học bổng hoặc hỗ trợ tài chính cho học sinh, sinh viên có hoàn cảnh khó khăn để họ có thêm cơ hội học ngoại ngữ. Xây dựng các chính sách khuyến khích việc học ngoại ngữ từ bậc tiểu học nhằm tạo nền tảng ngôn ngữ vững chắc. Hợp tác với các tổ chức giáo dục quốc tế để tiếp cận nguồn tài trợ và các chương trình giáo dục tiên tiến.",
+                "evidence_en": "Authorities should allocate a larger budget to schools and language centres to improve educational infrastructure, upgrade school facilities, and purchase modern teaching equipment through increased government funding. The state should provide financial assistance and offer scholarships to students from low-income families, enabling disadvantaged students to expand access to language courses and helping reduce educational inequality. Policymakers need to introduce supportive policies to promote early language learning in primary education, which helps children build a strong language foundation, develop language skills from an early age, and encourages students to learn foreign languages effectively. Educational institutions can establish international partnerships and cooperate with international organizations to access international funding, exchange educational resources, implement advanced educational programs, and benefit from international cooperation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "allocate a larger budget to",
+                      "vi": "phân bổ ngân sách lớn hơn cho"
+                    },
+                    {
+                      "en": "government funding",
+                      "vi": "nguồn tài trợ của chính phủ"
+                    },
+                    {
+                      "en": "language centres",
+                      "vi": "các trung tâm ngoại ngữ"
+                    },
+                    {
+                      "en": "improve educational infrastructure",
+                      "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                    },
+                    {
+                      "en": "upgrade school facilities",
+                      "vi": "nâng cấp cơ sở vật chất trường học"
+                    },
+                    {
+                      "en": "teaching equipment",
+                      "vi": "thiết bị giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide financial assistance",
+                      "vi": "cung cấp hỗ trợ tài chính"
+                    },
+                    {
+                      "en": "offer scholarships to students",
+                      "vi": "cấp học bổng cho học sinh, sinh viên"
+                    },
+                    {
+                      "en": "disadvantaged students",
+                      "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                    },
+                    {
+                      "en": "low-income families",
+                      "vi": "các gia đình có thu nhập thấp"
+                    },
+                    {
+                      "en": "expand access to language courses",
+                      "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                    },
+                    {
+                      "en": "reduce educational inequality",
+                      "vi": "giảm bất bình đẳng trong giáo dục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "introduce supportive policies",
+                      "vi": "ban hành các chính sách hỗ trợ"
+                    },
+                    {
+                      "en": "promote early language learning",
+                      "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                    },
+                    {
+                      "en": "primary education",
+                      "vi": "giáo dục tiểu học"
+                    },
+                    {
+                      "en": "build a strong language foundation",
+                      "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                    },
+                    {
+                      "en": "develop language skills from an early age",
+                      "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                    },
+                    {
+                      "en": "encourage students to learn foreign languages",
+                      "vi": "khuyến khích học sinh học ngoại ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "establish international partnerships",
+                      "vi": "thiết lập quan hệ hợp tác quốc tế"
+                    },
+                    {
+                      "en": "cooperate with international organizations",
+                      "vi": "hợp tác với các tổ chức quốc tế"
+                    },
+                    {
+                      "en": "access international funding",
+                      "vi": "tiếp cận nguồn tài trợ quốc tế"
+                    },
+                    {
+                      "en": "exchange educational resources",
+                      "vi": "trao đổi tài nguyên giáo dục"
+                    },
+                    {
+                      "en": "advanced educational programs",
+                      "vi": "các chương trình giáo dục tiên tiến"
+                    },
+                    {
+                      "en": "benefit from international cooperation",
+                      "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "allocate a larger budget to",
+                    "vi": "phân bổ ngân sách lớn hơn cho"
+                  },
+                  {
+                    "en": "government funding",
+                    "vi": "nguồn tài trợ của chính phủ"
+                  },
+                  {
+                    "en": "language centres",
+                    "vi": "các trung tâm ngoại ngữ"
+                  },
+                  {
+                    "en": "improve educational infrastructure",
+                    "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                  },
+                  {
+                    "en": "upgrade school facilities",
+                    "vi": "nâng cấp cơ sở vật chất trường học"
+                  },
+                  {
+                    "en": "teaching equipment",
+                    "vi": "thiết bị giảng dạy"
+                  },
+                  {
+                    "en": "provide financial assistance",
+                    "vi": "cung cấp hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "offer scholarships to students",
+                    "vi": "cấp học bổng cho học sinh, sinh viên"
+                  },
+                  {
+                    "en": "disadvantaged students",
+                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "các gia đình có thu nhập thấp"
+                  },
+                  {
+                    "en": "expand access to language courses",
+                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+                  },
+                  {
+                    "en": "reduce educational inequality",
+                    "vi": "giảm bất bình đẳng trong giáo dục"
+                  },
+                  {
+                    "en": "introduce supportive policies",
+                    "vi": "ban hành các chính sách hỗ trợ"
+                  },
+                  {
+                    "en": "promote early language learning",
+                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+                  },
+                  {
+                    "en": "primary education",
+                    "vi": "giáo dục tiểu học"
+                  },
+                  {
+                    "en": "build a strong language foundation",
+                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+                  },
+                  {
+                    "en": "develop language skills from an early age",
+                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+                  },
+                  {
+                    "en": "encourage students to learn foreign languages",
+                    "vi": "khuyến khích học sinh học ngoại ngữ"
+                  },
+                  {
+                    "en": "establish international partnerships",
+                    "vi": "thiết lập quan hệ hợp tác quốc tế"
+                  },
+                  {
+                    "en": "cooperate with international organizations",
+                    "vi": "hợp tác với các tổ chức quốc tế"
+                  },
+                  {
+                    "en": "access international funding",
+                    "vi": "tiếp cận nguồn tài trợ quốc tế"
+                  },
+                  {
+                    "en": "exchange educational resources",
+                    "vi": "trao đổi tài nguyên giáo dục"
+                  },
+                  {
+                    "en": "advanced educational programs",
+                    "vi": "các chương trình giáo dục tiên tiến"
+                  },
+                  {
+                    "en": "benefit from international cooperation",
+                    "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: CẢI THIỆN CHƯƠNG TRÌNH VÀ PHƯƠNG PHÁP GIẢNG DẠY",
+                "point_vi": "Các trường học nên cải thiện chương trình và phương pháp giảng dạy để giúp người học phát triển năng lực ngôn ngữ toàn diện.",
+                "point_en": "Schools should improve the curriculum and teaching methods to help learners develop comprehensive language competence.",
+                "point_collocations": [
+                  {
+                    "en": "improve the curriculum",
+                    "vi": "cải thiện chương trình học"
+                  },
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "develop comprehensive language competence",
+                    "vi": "phát triển năng lực ngôn ngữ toàn diện"
+                  }
+                ],
+                "evidence_vi": "Thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì tập trung quá nhiều vào ngữ pháp và từ vựng. Giảm sự phụ thuộc vào việc ghi nhớ máy móc các quy tắc ngữ pháp và từ vựng. Tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để học sinh có cơ hội sử dụng ngôn ngữ. Xây dựng nội dung bài học gắn với các tình huống thực tế như giao tiếp tại nơi làm việc, du lịch và học tập.",
+                "evidence_en": "In curriculum design, the language curriculum should place equal emphasis on the four language skills—including listening comprehension, speaking fluency, reading comprehension, and written communication—to promote balanced language development. Teachers must move beyond traditional teaching methods that focus heavily on grammar and vocabulary memorization, thereby helping reduce rote memorization of grammar rules so that learners can develop practical language skills and apply knowledge in real-life situations. Classrooms should increase communicative activities such as group discussions, role-play activities, and giving presentations to enhance classroom interaction, encourage active participation, allow learners to use the target language, and improve communication skills. Lesson plans should integrate real-life situations and authentic learning materials into practical learning content, such as workplace communication, travel-related situations, and academic communication, in order to prepare learners for real-life communication.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "language curriculum",
+                      "vi": "chương trình giảng dạy ngôn ngữ"
+                    },
+                    {
+                      "en": "curriculum design",
+                      "vi": "thiết kế chương trình học"
+                    },
+                    {
+                      "en": "the four language skills",
+                      "vi": "bốn kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "listening comprehension",
+                      "vi": "khả năng nghe hiểu"
+                    },
+                    {
+                      "en": "speaking fluency",
+                      "vi": "độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "reading comprehension",
+                      "vi": "khả năng đọc hiểu"
+                    },
+                    {
+                      "en": "written communication",
+                      "vi": "giao tiếp bằng văn bản"
+                    },
+                    {
+                      "en": "balanced language development",
+                      "vi": "sự phát triển ngôn ngữ cân bằng"
+                    },
+                    {
+                      "en": "place equal emphasis on",
+                      "vi": "chú trọng đồng đều vào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reduce rote memorization",
+                      "vi": "giảm việc học thuộc lòng máy móc"
+                    },
+                    {
+                      "en": "memorize grammar rules",
+                      "vi": "ghi nhớ các quy tắc ngữ pháp"
+                    },
+                    {
+                      "en": "focus heavily on grammar",
+                      "vi": "tập trung quá nhiều vào ngữ pháp"
+                    },
+                    {
+                      "en": "vocabulary memorization",
+                      "vi": "việc ghi nhớ từ vựng"
+                    },
+                    {
+                      "en": "traditional teaching methods",
+                      "vi": "các phương pháp giảng dạy truyền thống"
+                    },
+                    {
+                      "en": "develop practical language skills",
+                      "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                    },
+                    {
+                      "en": "apply knowledge in real-life situations",
+                      "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "increase communicative activities",
+                      "vi": "tăng cường các hoạt động giao tiếp"
+                    },
+                    {
+                      "en": "group discussions",
+                      "vi": "thảo luận nhóm"
+                    },
+                    {
+                      "en": "role-play activities",
+                      "vi": "hoạt động đóng vai"
+                    },
+                    {
+                      "en": "give presentations",
+                      "vi": "thực hiện bài thuyết trình"
+                    },
+                    {
+                      "en": "classroom interaction",
+                      "vi": "sự tương tác trong lớp học"
+                    },
+                    {
+                      "en": "encourage active participation",
+                      "vi": "khuyến khích sự tham gia tích cực"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "use the target language",
+                      "vi": "sử dụng ngôn ngữ đích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "integrate real-life situations",
+                      "vi": "lồng ghép các tình huống thực tế"
+                    },
+                    {
+                      "en": "practical learning content",
+                      "vi": "nội dung học tập mang tính thực tiễn"
+                    },
+                    {
+                      "en": "workplace communication",
+                      "vi": "giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "travel-related situations",
+                      "vi": "các tình huống liên quan đến du lịch"
+                    },
+                    {
+                      "en": "academic communication",
+                      "vi": "giao tiếp trong môi trường học thuật"
+                    },
+                    {
+                      "en": "authentic learning materials",
+                      "vi": "tài liệu học tập thực tế"
+                    },
+                    {
+                      "en": "prepare learners for real-life communication",
+                      "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "language curriculum",
+                    "vi": "chương trình giảng dạy ngôn ngữ"
+                  },
+                  {
+                    "en": "curriculum design",
+                    "vi": "thiết kế chương trình học"
+                  },
+                  {
+                    "en": "the four language skills",
+                    "vi": "bốn kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "listening comprehension",
+                    "vi": "khả năng nghe hiểu"
+                  },
+                  {
+                    "en": "speaking fluency",
+                    "vi": "độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "reading comprehension",
+                    "vi": "khả năng đọc hiểu"
+                  },
+                  {
+                    "en": "written communication",
+                    "vi": "giao tiếp bằng văn bản"
+                  },
+                  {
+                    "en": "balanced language development",
+                    "vi": "sự phát triển ngôn ngữ cân bằng"
+                  },
+                  {
+                    "en": "place equal emphasis on",
+                    "vi": "chú trọng đồng đều vào"
+                  },
+                  {
+                    "en": "reduce rote memorization",
+                    "vi": "giảm việc học thuộc lòng máy móc"
+                  },
+                  {
+                    "en": "memorize grammar rules",
+                    "vi": "ghi nhớ các quy tắc ngữ pháp"
+                  },
+                  {
+                    "en": "focus heavily on grammar",
+                    "vi": "tập trung quá nhiều vào ngữ pháp"
+                  },
+                  {
+                    "en": "vocabulary memorization",
+                    "vi": "việc ghi nhớ từ vựng"
+                  },
+                  {
+                    "en": "traditional teaching methods",
+                    "vi": "các phương pháp giảng dạy truyền thống"
+                  },
+                  {
+                    "en": "develop practical language skills",
+                    "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+                  },
+                  {
+                    "en": "apply knowledge in real-life situations",
+                    "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                  },
+                  {
+                    "en": "increase communicative activities",
+                    "vi": "tăng cường các hoạt động giao tiếp"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "role-play activities",
+                    "vi": "hoạt động đóng vai"
+                  },
+                  {
+                    "en": "give presentations",
+                    "vi": "thực hiện bài thuyết trình"
+                  },
+                  {
+                    "en": "classroom interaction",
+                    "vi": "sự tương tác trong lớp học"
+                  },
+                  {
+                    "en": "encourage active participation",
+                    "vi": "khuyến khích sự tham gia tích cực"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "use the target language",
+                    "vi": "sử dụng ngôn ngữ đích"
+                  },
+                  {
+                    "en": "integrate real-life situations",
+                    "vi": "lồng ghép các tình huống thực tế"
+                  },
+                  {
+                    "en": "practical learning content",
+                    "vi": "nội dung học tập mang tính thực tiễn"
+                  },
+                  {
+                    "en": "workplace communication",
+                    "vi": "giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "travel-related situations",
+                    "vi": "các tình huống liên quan đến du lịch"
+                  },
+                  {
+                    "en": "academic communication",
+                    "vi": "giao tiếp trong môi trường học thuật"
+                  },
+                  {
+                    "en": "authentic learning materials",
+                    "vi": "tài liệu học tập thực tế"
+                  },
+                  {
+                    "en": "prepare learners for real-life communication",
+                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: NÂNG CAO TRÌNH ĐỘ CHUYÊN MÔN CỦA GIÁO VIÊN",
+                "point_vi": "Các cơ sở giáo dục nên nâng cao trình độ chuyên môn của giáo viên để đảm bảo chất lượng giảng dạy ngôn ngữ.",
+                "point_en": "Educational institutions should upgrade teachers’ professional competence to guarantee the quality of language teaching.",
+                "point_collocations": [
+                  {
+                    "en": "upgrade teachers' professional competence",
+                    "vi": "nâng cao năng lực chuyên môn của giáo viên"
+                  },
+                  {
+                    "en": "quality of language teaching",
+                    "vi": "chất lượng giảng dạy ngôn ngữ"
+                  },
+                  {
+                    "en": "educational institutions",
+                    "vi": "các cơ sở giáo dục"
+                  }
+                ],
+                "evidence_vi": "Tổ chức các khóa đào tạo chuyên môn định kỳ để giúp giáo viên cập nhật kiến thức và nâng cao năng lực giảng dạy. Khuyến khích giáo viên tham gia các khóa học và lấy chứng chỉ giảng dạy ngoại ngữ phù hợp. Tạo cơ hội cho giáo viên tham gia hội thảo và chương trình trao đổi quốc tế để học hỏi kinh nghiệm từ các chuyên gia. Thực hiện đánh giá năng lực giảng dạy định kỳ và cung cấp phản hồi mang tính xây dựng để giúp giáo viên cải thiện chuyên môn.",
+                "evidence_en": "Schools must organize regular training courses and professional development courses to help educators update professional knowledge, improve teaching competence, and enhance teaching effectiveness. Administrators should encourage teachers to attend courses and obtain relevant teaching certificates, which enhances their professional qualifications, improves professional competence, and helps them meet professional standards. It is essential to provide opportunities for teachers to attend professional workshops and participate in international exchange programs so that they can exchange teaching experiences, learn from experienced educators, keep up with educational trends, and gain international teaching experience. School leaders need to conduct regular assessments to evaluate teaching performance and provide constructive feedback, enabling instructors to identify professional weaknesses, improve instructional skills, and achieve continuous professional improvement.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize regular training courses",
+                      "vi": "tổ chức các khóa đào tạo định kỳ"
+                    },
+                    {
+                      "en": "professional development",
+                      "vi": "phát triển chuyên môn"
+                    },
+                    {
+                      "en": "professional development courses",
+                      "vi": "các khóa phát triển chuyên môn"
+                    },
+                    {
+                      "en": "update professional knowledge",
+                      "vi": "cập nhật kiến thức chuyên môn"
+                    },
+                    {
+                      "en": "improve teaching competence",
+                      "vi": "cải thiện năng lực giảng dạy"
+                    },
+                    {
+                      "en": "enhance teaching effectiveness",
+                      "vi": "nâng cao hiệu quả giảng dạy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage teachers to attend courses",
+                      "vi": "khuyến khích giáo viên tham gia các khóa học"
+                    },
+                    {
+                      "en": "obtain relevant teaching certificates",
+                      "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                    },
+                    {
+                      "en": "professional qualifications",
+                      "vi": "trình độ chuyên môn"
+                    },
+                    {
+                      "en": "teaching certificates",
+                      "vi": "chứng chỉ giảng dạy"
+                    },
+                    {
+                      "en": "improve professional competence",
+                      "vi": "nâng cao năng lực chuyên môn"
+                    },
+                    {
+                      "en": "meet professional standards",
+                      "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide opportunities for teachers to",
+                      "vi": "tạo cơ hội cho giáo viên"
+                    },
+                    {
+                      "en": "attend professional workshops",
+                      "vi": "tham gia các hội thảo chuyên môn"
+                    },
+                    {
+                      "en": "international exchange programs",
+                      "vi": "chương trình trao đổi quốc tế"
+                    },
+                    {
+                      "en": "exchange teaching experiences",
+                      "vi": "trao đổi kinh nghiệm giảng dạy"
+                    },
+                    {
+                      "en": "learn from experienced educators",
+                      "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                    },
+                    {
+                      "en": "keep up with educational trends",
+                      "vi": "cập nhật các xu hướng giáo dục"
+                    },
+                    {
+                      "en": "gain international teaching experience",
+                      "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evaluate teaching performance",
+                      "vi": "đánh giá năng lực giảng dạy"
+                    },
+                    {
+                      "en": "conduct regular assessments",
+                      "vi": "tiến hành đánh giá định kỳ"
+                    },
+                    {
+                      "en": "provide constructive feedback",
+                      "vi": "cung cấp phản hồi mang tính xây dựng"
+                    },
+                    {
+                      "en": "identify professional weaknesses",
+                      "vi": "xác định những hạn chế về chuyên môn"
+                    },
+                    {
+                      "en": "improve instructional skills",
+                      "vi": "cải thiện kỹ năng giảng dạy"
+                    },
+                    {
+                      "en": "continuous professional improvement",
+                      "vi": "cải thiện chuyên môn liên tục"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "organize regular training courses",
+                    "vi": "tổ chức các khóa đào tạo định kỳ"
+                  },
+                  {
+                    "en": "professional development",
+                    "vi": "phát triển chuyên môn"
+                  },
+                  {
+                    "en": "professional development courses",
+                    "vi": "các khóa phát triển chuyên môn"
+                  },
+                  {
+                    "en": "update professional knowledge",
+                    "vi": "cập nhật kiến thức chuyên môn"
+                  },
+                  {
+                    "en": "improve teaching competence",
+                    "vi": "cải thiện năng lực giảng dạy"
+                  },
+                  {
+                    "en": "enhance teaching effectiveness",
+                    "vi": "nâng cao hiệu quả giảng dạy"
+                  },
+                  {
+                    "en": "encourage teachers to attend courses",
+                    "vi": "khuyến khích giáo viên tham gia các khóa học"
+                  },
+                  {
+                    "en": "obtain relevant teaching certificates",
+                    "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+                  },
+                  {
+                    "en": "professional qualifications",
+                    "vi": "trình độ chuyên môn"
+                  },
+                  {
+                    "en": "teaching certificates",
+                    "vi": "chứng chỉ giảng dạy"
+                  },
+                  {
+                    "en": "improve professional competence",
+                    "vi": "nâng cao năng lực chuyên môn"
+                  },
+                  {
+                    "en": "meet professional standards",
+                    "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+                  },
+                  {
+                    "en": "provide opportunities for teachers to",
+                    "vi": "tạo cơ hội cho giáo viên"
+                  },
+                  {
+                    "en": "attend professional workshops",
+                    "vi": "tham gia các hội thảo chuyên môn"
+                  },
+                  {
+                    "en": "international exchange programs",
+                    "vi": "chương trình trao đổi quốc tế"
+                  },
+                  {
+                    "en": "exchange teaching experiences",
+                    "vi": "trao đổi kinh nghiệm giảng dạy"
+                  },
+                  {
+                    "en": "learn from experienced educators",
+                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+                  },
+                  {
+                    "en": "keep up with educational trends",
+                    "vi": "cập nhật các xu hướng giáo dục"
+                  },
+                  {
+                    "en": "gain international teaching experience",
+                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+                  },
+                  {
+                    "en": "evaluate teaching performance",
+                    "vi": "đánh giá năng lực giảng dạy"
+                  },
+                  {
+                    "en": "conduct regular assessments",
+                    "vi": "tiến hành đánh giá định kỳ"
+                  },
+                  {
+                    "en": "provide constructive feedback",
+                    "vi": "cung cấp phản hồi mang tính xây dựng"
+                  },
+                  {
+                    "en": "identify professional weaknesses",
+                    "vi": "xác định những hạn chế về chuyên môn"
+                  },
+                  {
+                    "en": "improve instructional skills",
+                    "vi": "cải thiện kỹ năng giảng dạy"
+                  },
+                  {
+                    "en": "continuous professional improvement",
+                    "vi": "cải thiện chuyên môn liên tục"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: CUNG CẤP TÀI LIỆU HỌC TẬP VÀ HỖ TRỢ CÔNG NGHỆ",
+                "point_vi": "Các trường học nên cung cấp tài liệu học tập và công cụ công nghệ phù hợp để tạo điều kiện thuận lợi cho việc học ngôn ngữ.",
+                "point_en": "Schools should provide suitable learning materials and technological tools to facilitate language acquisition.",
+                "point_collocations": [
+                  {
+                    "en": "suitable learning materials",
+                    "vi": "tài liệu học tập phù hợp"
+                  },
+                  {
+                    "en": "technological tools",
+                    "vi": "công cụ công nghệ"
+                  },
+                  {
+                    "en": "facilitate language acquisition",
+                    "vi": "tạo điều kiện thuận lợi cho việc tiếp thu ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Trang bị thư viện với sách, truyện, báo và tài liệu ngoại ngữ phù hợp với nhiều trình độ khác nhau. Cung cấp máy tính, thiết bị nghe nhìn và kết nối Internet ổn định để hỗ trợ các hoạt động học tập. Khuyến khích học sinh sử dụng ứng dụng học ngoại ngữ và nền tảng trực tuyến để mở rộng vốn từ vựng và luyện tập các kỹ năng. Xây dựng thư viện học liệu trực tuyến để người học có thể truy cập tài liệu và tự học mọi lúc, mọi nơi.",
+                "evidence_en": "Educational centres should equip libraries with foreign language books, reference books, supplementary materials, authentic materials, and foreign language publications across different proficiency levels, creating a wide range of learning materials. Campuses must provide computers and audiovisual equipment alongside a stable Internet connection and reliable technological support, fostering a modern digital learning environment to support language learning activities. Teachers should encourage the use of language-learning applications and online learning platforms equipped with interactive learning tools, helping students expand their vocabulary, practise language skills, and improve independent learning. Institutions can develop online resource libraries and digital libraries so that students can easily access learning materials to study anytime and anywhere, which helps facilitate independent learning, support self-directed learning, provide flexible learning opportunities, and allow students to learn at their own pace.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "equip libraries with",
+                      "vi": "trang bị cho thư viện"
+                    },
+                    {
+                      "en": "foreign language books",
+                      "vi": "sách ngoại ngữ"
+                    },
+                    {
+                      "en": "reference books",
+                      "vi": "sách tham khảo"
+                    },
+                    {
+                      "en": "supplementary materials",
+                      "vi": "tài liệu bổ trợ"
+                    },
+                    {
+                      "en": "authentic materials",
+                      "vi": "tài liệu thực tế"
+                    },
+                    {
+                      "en": "foreign language publications",
+                      "vi": "các ấn phẩm ngoại ngữ"
+                    },
+                    {
+                      "en": "different proficiency levels",
+                      "vi": "các trình độ năng lực khác nhau"
+                    },
+                    {
+                      "en": "a wide range of learning materials",
+                      "vi": "nhiều loại tài liệu học tập đa dạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide computers and audiovisual equipment",
+                      "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "audiovisual equipment",
+                      "vi": "thiết bị nghe nhìn"
+                    },
+                    {
+                      "en": "stable Internet connection",
+                      "vi": "kết nối Internet ổn định"
+                    },
+                    {
+                      "en": "technological support",
+                      "vi": "sự hỗ trợ về công nghệ"
+                    },
+                    {
+                      "en": "digital learning environment",
+                      "vi": "môi trường học tập kỹ thuật số"
+                    },
+                    {
+                      "en": "support language learning activities",
+                      "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage the use of",
+                      "vi": "khuyến khích việc sử dụng"
+                    },
+                    {
+                      "en": "language-learning applications",
+                      "vi": "ứng dụng học ngôn ngữ"
+                    },
+                    {
+                      "en": "online learning platforms",
+                      "vi": "nền tảng học tập trực tuyến"
+                    },
+                    {
+                      "en": "expand one's vocabulary",
+                      "vi": "mở rộng vốn từ vựng"
+                    },
+                    {
+                      "en": "practise language skills",
+                      "vi": "luyện tập các kỹ năng ngôn ngữ"
+                    },
+                    {
+                      "en": "interactive learning tools",
+                      "vi": "công cụ học tập tương tác"
+                    },
+                    {
+                      "en": "improve independent learning",
+                      "vi": "cải thiện khả năng tự học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop online resource libraries",
+                      "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                    },
+                    {
+                      "en": "digital libraries",
+                      "vi": "thư viện kỹ thuật số"
+                    },
+                    {
+                      "en": "access learning materials",
+                      "vi": "truy cập tài liệu học tập"
+                    },
+                    {
+                      "en": "study anytime and anywhere",
+                      "vi": "học mọi lúc, mọi nơi"
+                    },
+                    {
+                      "en": "facilitate independent learning",
+                      "vi": "tạo điều kiện cho việc tự học"
+                    },
+                    {
+                      "en": "support self-directed learning",
+                      "vi": "hỗ trợ việc tự học có định hướng"
+                    },
+                    {
+                      "en": "provide flexible learning opportunities",
+                      "vi": "cung cấp cơ hội học tập linh hoạt"
+                    },
+                    {
+                      "en": "learn at one's own pace",
+                      "vi": "học theo tốc độ của bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "equip libraries with",
+                    "vi": "trang bị cho thư viện"
+                  },
+                  {
+                    "en": "foreign language books",
+                    "vi": "sách ngoại ngữ"
+                  },
+                  {
+                    "en": "reference books",
+                    "vi": "sách tham khảo"
+                  },
+                  {
+                    "en": "supplementary materials",
+                    "vi": "tài liệu bổ trợ"
+                  },
+                  {
+                    "en": "authentic materials",
+                    "vi": "tài liệu thực tế"
+                  },
+                  {
+                    "en": "foreign language publications",
+                    "vi": "các ấn phẩm ngoại ngữ"
+                  },
+                  {
+                    "en": "different proficiency levels",
+                    "vi": "các trình độ năng lực khác nhau"
+                  },
+                  {
+                    "en": "a wide range of learning materials",
+                    "vi": "nhiều loại tài liệu học tập đa dạng"
+                  },
+                  {
+                    "en": "provide computers and audiovisual equipment",
+                    "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "audiovisual equipment",
+                    "vi": "thiết bị nghe nhìn"
+                  },
+                  {
+                    "en": "stable Internet connection",
+                    "vi": "kết nối Internet ổn định"
+                  },
+                  {
+                    "en": "technological support",
+                    "vi": "sự hỗ trợ về công nghệ"
+                  },
+                  {
+                    "en": "digital learning environment",
+                    "vi": "môi trường học tập kỹ thuật số"
+                  },
+                  {
+                    "en": "support language learning activities",
+                    "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                  },
+                  {
+                    "en": "encourage the use of",
+                    "vi": "khuyến khích việc sử dụng"
+                  },
+                  {
+                    "en": "language-learning applications",
+                    "vi": "ứng dụng học ngôn ngữ"
+                  },
+                  {
+                    "en": "online learning platforms",
+                    "vi": "nền tảng học tập trực tuyến"
+                  },
+                  {
+                    "en": "expand one's vocabulary",
+                    "vi": "mở rộng vốn từ vựng"
+                  },
+                  {
+                    "en": "practise language skills",
+                    "vi": "luyện tập các kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "interactive learning tools",
+                    "vi": "công cụ học tập tương tác"
+                  },
+                  {
+                    "en": "improve independent learning",
+                    "vi": "cải thiện khả năng tự học"
+                  },
+                  {
+                    "en": "develop online resource libraries",
+                    "vi": "xây dựng thư viện tài nguyên trực tuyến"
+                  },
+                  {
+                    "en": "digital libraries",
+                    "vi": "thư viện kỹ thuật số"
+                  },
+                  {
+                    "en": "access learning materials",
+                    "vi": "truy cập tài liệu học tập"
+                  },
+                  {
+                    "en": "study anytime and anywhere",
+                    "vi": "học mọi lúc, mọi nơi"
+                  },
+                  {
+                    "en": "facilitate independent learning",
+                    "vi": "tạo điều kiện cho việc tự học"
+                  },
+                  {
+                    "en": "support self-directed learning",
+                    "vi": "hỗ trợ việc tự học có định hướng"
+                  },
+                  {
+                    "en": "provide flexible learning opportunities",
+                    "vi": "cung cấp cơ hội học tập linh hoạt"
+                  },
+                  {
+                    "en": "learn at one's own pace",
+                    "vi": "học theo tốc độ của bản thân"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TẠO THÊM CƠ HỘI THỰC HÀNH NGÔN NGỮ TRONG THỰC TẾ",
+                "point_vi": "Các trường học và cộng đồng nên tạo thêm cơ hội để người học sử dụng ngoại ngữ trong những tình huống giao tiếp thực tế.",
+                "point_en": "Schools and local communities should create more opportunities for learners to use foreign languages in authentic communicative situations.",
+                "point_collocations": [
+                  {
+                    "en": "create more opportunities",
+                    "vi": "tạo thêm cơ hội"
+                  },
+                  {
+                    "en": "use foreign languages in authentic communicative situations",
+                    "vi": "sử dụng ngoại ngữ trong những tình huống giao tiếp thực tế"
+                  },
+                  {
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
+                  }
+                ],
+                "evidence_vi": "Thành lập các câu lạc bộ ngoại ngữ để học sinh có thể giao tiếp và trao đổi với nhau thường xuyên. Tổ chức các cuộc thi hùng biện, ngày hội ngôn ngữ và hoạt động ngoại khóa để khuyến khích người học sử dụng ngoại ngữ một cách tự nhiên. Tạo điều kiện cho học sinh tham gia các chương trình giao lưu với người bản ngữ hoặc sinh viên quốc tế để cải thiện kỹ năng giao tiếp. Khuyến khích các doanh nghiệp tạo cơ hội thực tập và làm việc trong môi trường quốc tế để người học áp dụng ngoại ngữ vào công việc thực tế.",
+                "evidence_en": "Schools can establish language clubs and organize regular language practice sessions, allowing members to communicate regularly, interact with other learners, practise speaking skills, create a supportive environment, and build communication confidence. Organizers can organize public speaking competitions, hold language festivals, and host engaging extracurricular activities to encourage natural language use, motivate students to participate in language events, develop presentation skills, and increase learners’ motivation. Schools ought to arrange exchange programs and cultural exchange activities for students to interact with native speakers and communicate with international students, which helps them improve communication skills, improve speaking fluency, overcome language barriers, and gain cross-cultural experience. Governments should encourage businesses to provide internship opportunities in international working environments, allowing interns to gain practical experience, apply language skills in practice, communicate with foreign colleagues, develop workplace communication skills, and improve future career prospects.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "establish language clubs",
+                      "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                    },
+                    {
+                      "en": "language practice sessions",
+                      "vi": "các buổi thực hành ngôn ngữ"
+                    },
+                    {
+                      "en": "communicate regularly",
+                      "vi": "giao tiếp thường xuyên"
+                    },
+                    {
+                      "en": "interact with other learners",
+                      "vi": "tương tác với những người học khác"
+                    },
+                    {
+                      "en": "practise speaking skills",
+                      "vi": "luyện tập kỹ năng nói"
+                    },
+                    {
+                      "en": "create a supportive environment",
+                      "vi": "tạo môi trường hỗ trợ"
+                    },
+                    {
+                      "en": "build communication confidence",
+                      "vi": "xây dựng sự tự tin trong giao tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "organize public speaking competitions",
+                      "vi": "tổ chức các cuộc thi hùng biện"
+                    },
+                    {
+                      "en": "hold language festivals",
+                      "vi": "tổ chức ngày hội ngôn ngữ"
+                    },
+                    {
+                      "en": "extracurricular activities",
+                      "vi": "các hoạt động ngoại khóa"
+                    },
+                    {
+                      "en": "encourage natural language use",
+                      "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                    },
+                    {
+                      "en": "participate in language events",
+                      "vi": "tham gia các sự kiện ngôn ngữ"
+                    },
+                    {
+                      "en": "develop presentation skills",
+                      "vi": "phát triển kỹ năng thuyết trình"
+                    },
+                    {
+                      "en": "increase learners' motivation",
+                      "vi": "tăng động lực học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "arrange exchange programs",
+                      "vi": "tổ chức các chương trình giao lưu"
+                    },
+                    {
+                      "en": "interact with native speakers",
+                      "vi": "tương tác với người bản ngữ"
+                    },
+                    {
+                      "en": "communicate with international students",
+                      "vi": "giao tiếp với sinh viên quốc tế"
+                    },
+                    {
+                      "en": "cultural exchange activities",
+                      "vi": "các hoạt động giao lưu văn hóa"
+                    },
+                    {
+                      "en": "improve communication skills",
+                      "vi": "cải thiện kỹ năng giao tiếp"
+                    },
+                    {
+                      "en": "improve speaking fluency",
+                      "vi": "cải thiện độ trôi chảy khi nói"
+                    },
+                    {
+                      "en": "overcome language barriers",
+                      "vi": "vượt qua rào cản ngôn ngữ"
+                    },
+                    {
+                      "en": "gain cross-cultural experience",
+                      "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "encourage businesses to",
+                      "vi": "khuyến khích các doanh nghiệp"
+                    },
+                    {
+                      "en": "provide internship opportunities",
+                      "vi": "cung cấp cơ hội thực tập"
+                    },
+                    {
+                      "en": "international working environments",
+                      "vi": "môi trường làm việc quốc tế"
+                    },
+                    {
+                      "en": "gain practical experience",
+                      "vi": "tích lũy kinh nghiệm thực tế"
+                    },
+                    {
+                      "en": "apply language skills in practice",
+                      "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                    },
+                    {
+                      "en": "communicate with foreign colleagues",
+                      "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                    },
+                    {
+                      "en": "develop workplace communication skills",
+                      "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                    },
+                    {
+                      "en": "improve future career prospects",
+                      "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "establish language clubs",
+                    "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "language practice sessions",
+                    "vi": "các buổi thực hành ngôn ngữ"
+                  },
+                  {
+                    "en": "communicate regularly",
+                    "vi": "giao tiếp thường xuyên"
+                  },
+                  {
+                    "en": "interact with other learners",
+                    "vi": "tương tác với những người học khác"
+                  },
+                  {
+                    "en": "practise speaking skills",
+                    "vi": "luyện tập kỹ năng nói"
+                  },
+                  {
+                    "en": "create a supportive environment",
+                    "vi": "tạo môi trường hỗ trợ"
+                  },
+                  {
+                    "en": "build communication confidence",
+                    "vi": "xây dựng sự tự tin trong giao tiếp"
+                  },
+                  {
+                    "en": "organize public speaking competitions",
+                    "vi": "tổ chức các cuộc thi hùng biện"
+                  },
+                  {
+                    "en": "hold language festivals",
+                    "vi": "tổ chức ngày hội ngôn ngữ"
+                  },
+                  {
+                    "en": "extracurricular activities",
+                    "vi": "các hoạt động ngoại khóa"
+                  },
+                  {
+                    "en": "encourage natural language use",
+                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+                  },
+                  {
+                    "en": "participate in language events",
+                    "vi": "tham gia các sự kiện ngôn ngữ"
+                  },
+                  {
+                    "en": "develop presentation skills",
+                    "vi": "phát triển kỹ năng thuyết trình"
+                  },
+                  {
+                    "en": "increase learners' motivation",
+                    "vi": "tăng động lực học tập"
+                  },
+                  {
+                    "en": "arrange exchange programs",
+                    "vi": "tổ chức các chương trình giao lưu"
+                  },
+                  {
+                    "en": "interact with native speakers",
+                    "vi": "tương tác với người bản ngữ"
+                  },
+                  {
+                    "en": "communicate with international students",
+                    "vi": "giao tiếp với sinh viên quốc tế"
+                  },
+                  {
+                    "en": "cultural exchange activities",
+                    "vi": "các hoạt động giao lưu văn hóa"
+                  },
+                  {
+                    "en": "improve communication skills",
+                    "vi": "cải thiện kỹ năng giao tiếp"
+                  },
+                  {
+                    "en": "improve speaking fluency",
+                    "vi": "cải thiện độ trôi chảy khi nói"
+                  },
+                  {
+                    "en": "overcome language barriers",
+                    "vi": "vượt qua rào cản ngôn ngữ"
+                  },
+                  {
+                    "en": "gain cross-cultural experience",
+                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+                  },
+                  {
+                    "en": "encourage businesses to",
+                    "vi": "khuyến khích các doanh nghiệp"
+                  },
+                  {
+                    "en": "provide internship opportunities",
+                    "vi": "cung cấp cơ hội thực tập"
+                  },
+                  {
+                    "en": "international working environments",
+                    "vi": "môi trường làm việc quốc tế"
+                  },
+                  {
+                    "en": "gain practical experience",
+                    "vi": "tích lũy kinh nghiệm thực tế"
+                  },
+                  {
+                    "en": "apply language skills in practice",
+                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+                  },
+                  {
+                    "en": "communicate with foreign colleagues",
+                    "vi": "giao tiếp với đồng nghiệp nước ngoài"
+                  },
+                  {
+                    "en": "develop workplace communication skills",
+                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+                  },
+                  {
+                    "en": "improve future career prospects",
+                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "allocate a larger budget to",
+              "vi": "phân bổ ngân sách lớn hơn cho"
+            },
+            {
+              "en": "government funding",
+              "vi": "nguồn tài trợ của chính phủ"
+            },
+            {
+              "en": "language centres",
+              "vi": "các trung tâm ngoại ngữ"
+            },
+            {
+              "en": "improve educational infrastructure",
+              "vi": "cải thiện cơ sở hạ tầng giáo dục"
+            },
+            {
+              "en": "upgrade school facilities",
+              "vi": "nâng cấp cơ sở vật chất trường học"
+            },
+            {
+              "en": "teaching equipment",
+              "vi": "thiết bị giảng dạy"
+            },
+            {
+              "en": "provide financial assistance",
+              "vi": "cung cấp hỗ trợ tài chính"
+            },
+            {
+              "en": "offer scholarships to students",
+              "vi": "cấp học bổng cho học sinh, sinh viên"
+            },
+            {
+              "en": "disadvantaged students",
+              "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+            },
+            {
+              "en": "low-income families",
+              "vi": "các gia đình có thu nhập thấp"
+            },
+            {
+              "en": "expand access to language courses",
+              "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+            },
+            {
+              "en": "reduce educational inequality",
+              "vi": "giảm bất bình đẳng trong giáo dục"
+            },
+            {
+              "en": "introduce supportive policies",
+              "vi": "ban hành các chính sách hỗ trợ"
+            },
+            {
+              "en": "promote early language learning",
+              "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+            },
+            {
+              "en": "primary education",
+              "vi": "giáo dục tiểu học"
+            },
+            {
+              "en": "build a strong language foundation",
+              "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+            },
+            {
+              "en": "develop language skills from an early age",
+              "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+            },
+            {
+              "en": "encourage students to learn foreign languages",
+              "vi": "khuyến khích học sinh học ngoại ngữ"
+            },
+            {
+              "en": "establish international partnerships",
+              "vi": "thiết lập quan hệ hợp tác quốc tế"
+            },
+            {
+              "en": "cooperate with international organizations",
+              "vi": "hợp tác với các tổ chức quốc tế"
+            },
+            {
+              "en": "access international funding",
+              "vi": "tiếp cận nguồn tài trợ quốc tế"
+            },
+            {
+              "en": "exchange educational resources",
+              "vi": "trao đổi tài nguyên giáo dục"
+            },
+            {
+              "en": "advanced educational programs",
+              "vi": "các chương trình giáo dục tiên tiến"
+            },
+            {
+              "en": "benefit from international cooperation",
+              "vi": "hưởng lợi từ sự hợp tác quốc tế"
+            },
+            {
+              "en": "language curriculum",
+              "vi": "chương trình giảng dạy ngôn ngữ"
+            },
+            {
+              "en": "curriculum design",
+              "vi": "thiết kế chương trình học"
+            },
+            {
+              "en": "the four language skills",
+              "vi": "bốn kỹ năng ngôn ngữ"
+            },
+            {
+              "en": "listening comprehension",
+              "vi": "khả năng nghe hiểu"
+            },
+            {
+              "en": "speaking fluency",
+              "vi": "độ trôi chảy khi nói"
+            },
+            {
+              "en": "reading comprehension",
+              "vi": "khả năng đọc hiểu"
+            },
+            {
+              "en": "written communication",
+              "vi": "giao tiếp bằng văn bản"
+            },
+            {
+              "en": "balanced language development",
+              "vi": "sự phát triển ngôn ngữ cân bằng"
+            },
+            {
+              "en": "place equal emphasis on",
+              "vi": "chú trọng đồng đều vào"
+            },
+            {
+              "en": "reduce rote memorization",
+              "vi": "giảm việc học thuộc lòng máy móc"
+            },
+            {
+              "en": "memorize grammar rules",
+              "vi": "ghi nhớ các quy tắc ngữ pháp"
+            },
+            {
+              "en": "focus heavily on grammar",
+              "vi": "tập trung quá nhiều vào ngữ pháp"
+            },
+            {
+              "en": "vocabulary memorization",
+              "vi": "việc ghi nhớ từ vựng"
+            },
+            {
+              "en": "traditional teaching methods",
+              "vi": "các phương pháp giảng dạy truyền thống"
+            },
+            {
+              "en": "develop practical language skills",
+              "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+            },
+            {
+              "en": "apply knowledge in real-life situations",
+              "vi": "áp dụng kiến thức vào các tình huống thực tế"
+            },
+            {
+              "en": "increase communicative activities",
+              "vi": "tăng cường các hoạt động giao tiếp"
+            },
+            {
+              "en": "group discussions",
+              "vi": "thảo luận nhóm"
+            },
+            {
+              "en": "role-play activities",
+              "vi": "hoạt động đóng vai"
+            },
+            {
+              "en": "give presentations",
+              "vi": "thực hiện bài thuyết trình"
+            },
+            {
+              "en": "classroom interaction",
+              "vi": "sự tương tác trong lớp học"
+            },
+            {
+              "en": "encourage active participation",
+              "vi": "khuyến khích sự tham gia tích cực"
+            },
+            {
+              "en": "improve communication skills",
+              "vi": "cải thiện kỹ năng giao tiếp"
+            },
+            {
+              "en": "use the target language",
+              "vi": "sử dụng ngôn ngữ đích"
+            },
+            {
+              "en": "integrate real-life situations",
+              "vi": "lồng ghép các tình huống thực tế"
+            },
+            {
+              "en": "practical learning content",
+              "vi": "nội dung học tập mang tính thực tiễn"
+            },
+            {
+              "en": "workplace communication",
+              "vi": "giao tiếp tại nơi làm việc"
+            },
+            {
+              "en": "travel-related situations",
+              "vi": "các tình huống liên quan đến du lịch"
+            },
+            {
+              "en": "academic communication",
+              "vi": "giao tiếp trong môi trường học thuật"
+            },
+            {
+              "en": "authentic learning materials",
+              "vi": "tài liệu học tập thực tế"
+            },
+            {
+              "en": "prepare learners for real-life communication",
+              "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+            },
+            {
+              "en": "organize regular training courses",
+              "vi": "tổ chức các khóa đào tạo định kỳ"
+            },
+            {
+              "en": "professional development",
+              "vi": "phát triển chuyên môn"
+            },
+            {
+              "en": "professional development courses",
+              "vi": "các khóa phát triển chuyên môn"
+            },
+            {
+              "en": "update professional knowledge",
+              "vi": "cập nhật kiến thức chuyên môn"
+            },
+            {
+              "en": "improve teaching competence",
+              "vi": "cải thiện năng lực giảng dạy"
+            },
+            {
+              "en": "enhance teaching effectiveness",
+              "vi": "nâng cao hiệu quả giảng dạy"
+            },
+            {
+              "en": "encourage teachers to attend courses",
+              "vi": "khuyến khích giáo viên tham gia các khóa học"
+            },
+            {
+              "en": "obtain relevant teaching certificates",
+              "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+            },
+            {
+              "en": "professional qualifications",
+              "vi": "trình độ chuyên môn"
+            },
+            {
+              "en": "teaching certificates",
+              "vi": "chứng chỉ giảng dạy"
+            },
+            {
+              "en": "improve professional competence",
+              "vi": "nâng cao năng lực chuyên môn"
+            },
+            {
+              "en": "meet professional standards",
+              "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+            },
+            {
+              "en": "provide opportunities for teachers to",
+              "vi": "tạo cơ hội cho giáo viên"
+            },
+            {
+              "en": "attend professional workshops",
+              "vi": "tham gia các hội thảo chuyên môn"
+            },
+            {
+              "en": "international exchange programs",
+              "vi": "chương trình trao đổi quốc tế"
+            },
+            {
+              "en": "exchange teaching experiences",
+              "vi": "trao đổi kinh nghiệm giảng dạy"
+            },
+            {
+              "en": "learn from experienced educators",
+              "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+            },
+            {
+              "en": "keep up with educational trends",
+              "vi": "cập nhật các xu hướng giáo dục"
+            },
+            {
+              "en": "gain international teaching experience",
+              "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+            },
+            {
+              "en": "evaluate teaching performance",
+              "vi": "đánh giá năng lực giảng dạy"
+            },
+            {
+              "en": "conduct regular assessments",
+              "vi": "tiến hành đánh giá định kỳ"
+            },
+            {
+              "en": "provide constructive feedback",
+              "vi": "cung cấp phản hồi mang tính xây dựng"
+            },
+            {
+              "en": "identify professional weaknesses",
+              "vi": "xác định những hạn chế về chuyên môn"
+            },
+            {
+              "en": "improve instructional skills",
+              "vi": "cải thiện kỹ năng giảng dạy"
+            },
+            {
+              "en": "continuous professional improvement",
+              "vi": "cải thiện chuyên môn liên tục"
+            },
+            {
+              "en": "equip libraries with",
+              "vi": "trang bị cho thư viện"
+            },
+            {
+              "en": "foreign language books",
+              "vi": "sách ngoại ngữ"
+            },
+            {
+              "en": "reference books",
+              "vi": "sách tham khảo"
+            },
+            {
+              "en": "supplementary materials",
+              "vi": "tài liệu bổ trợ"
+            },
+            {
+              "en": "authentic materials",
+              "vi": "tài liệu thực tế"
+            },
+            {
+              "en": "foreign language publications",
+              "vi": "các ấn phẩm ngoại ngữ"
+            },
+            {
+              "en": "different proficiency levels",
+              "vi": "các trình độ năng lực khác nhau"
+            },
+            {
+              "en": "a wide range of learning materials",
+              "vi": "nhiều loại tài liệu học tập đa dạng"
+            },
+            {
+              "en": "provide computers and audiovisual equipment",
+              "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+            },
+            {
+              "en": "audiovisual equipment",
+              "vi": "thiết bị nghe nhìn"
+            },
+            {
+              "en": "stable Internet connection",
+              "vi": "kết nối Internet ổn định"
+            },
+            {
+              "en": "technological support",
+              "vi": "sự hỗ trợ về công nghệ"
+            },
+            {
+              "en": "digital learning environment",
+              "vi": "môi trường học tập kỹ thuật số"
+            },
+            {
+              "en": "support language learning activities",
+              "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+            },
+            {
+              "en": "encourage the use of",
+              "vi": "khuyến khích việc sử dụng"
+            },
+            {
+              "en": "language-learning applications",
+              "vi": "ứng dụng học ngôn ngữ"
+            },
+            {
+              "en": "online learning platforms",
+              "vi": "nền tảng học tập trực tuyến"
+            },
+            {
+              "en": "expand one's vocabulary",
+              "vi": "mở rộng vốn từ vựng"
+            },
+            {
+              "en": "practise language skills",
+              "vi": "luyện tập các kỹ năng ngôn ngữ"
+            },
+            {
+              "en": "interactive learning tools",
+              "vi": "công cụ học tập tương tác"
+            },
+            {
+              "en": "improve independent learning",
+              "vi": "cải thiện khả năng tự học"
+            },
+            {
+              "en": "develop online resource libraries",
+              "vi": "xây dựng thư viện tài nguyên trực tuyến"
+            },
+            {
+              "en": "digital libraries",
+              "vi": "thư viện kỹ thuật số"
+            },
+            {
+              "en": "access learning materials",
+              "vi": "truy cập tài liệu học tập"
+            },
+            {
+              "en": "study anytime and anywhere",
+              "vi": "học mọi lúc, mọi nơi"
+            },
+            {
+              "en": "facilitate independent learning",
+              "vi": "tạo điều kiện cho việc tự học"
+            },
+            {
+              "en": "support self-directed learning",
+              "vi": "hỗ trợ việc tự học có định hướng"
+            },
+            {
+              "en": "provide flexible learning opportunities",
+              "vi": "cung cấp cơ hội học tập linh hoạt"
+            },
+            {
+              "en": "learn at one's own pace",
+              "vi": "học theo tốc độ của bản thân"
+            },
+            {
+              "en": "establish language clubs",
+              "vi": "thành lập các câu lạc bộ ngoại ngữ"
+            },
+            {
+              "en": "language practice sessions",
+              "vi": "các buổi thực hành ngôn ngữ"
+            },
+            {
+              "en": "communicate regularly",
+              "vi": "giao tiếp thường xuyên"
+            },
+            {
+              "en": "interact with other learners",
+              "vi": "tương tác với những người học khác"
+            },
+            {
+              "en": "practise speaking skills",
+              "vi": "luyện tập kỹ năng nói"
+            },
+            {
+              "en": "create a supportive environment",
+              "vi": "tạo môi trường hỗ trợ"
+            },
+            {
+              "en": "build communication confidence",
+              "vi": "xây dựng sự tự tin trong giao tiếp"
+            },
+            {
+              "en": "organize public speaking competitions",
+              "vi": "tổ chức các cuộc thi hùng biện"
+            },
+            {
+              "en": "hold language festivals",
+              "vi": "tổ chức ngày hội ngôn ngữ"
+            },
+            {
+              "en": "extracurricular activities",
+              "vi": "các hoạt động ngoại khóa"
+            },
+            {
+              "en": "encourage natural language use",
+              "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+            },
+            {
+              "en": "participate in language events",
+              "vi": "tham gia các sự kiện ngôn ngữ"
+            },
+            {
+              "en": "develop presentation skills",
+              "vi": "phát triển kỹ năng thuyết trình"
+            },
+            {
+              "en": "increase learners' motivation",
+              "vi": "tăng động lực học tập"
+            },
+            {
+              "en": "arrange exchange programs",
+              "vi": "tổ chức các chương trình giao lưu"
+            },
+            {
+              "en": "interact with native speakers",
+              "vi": "tương tác với người bản ngữ"
+            },
+            {
+              "en": "communicate with international students",
+              "vi": "giao tiếp với sinh viên quốc tế"
+            },
+            {
+              "en": "cultural exchange activities",
+              "vi": "các hoạt động giao lưu văn hóa"
+            },
+            {
+              "en": "improve speaking fluency",
+              "vi": "cải thiện độ trôi chảy khi nói"
+            },
+            {
+              "en": "overcome language barriers",
+              "vi": "vượt qua rào cản ngôn ngữ"
+            },
+            {
+              "en": "gain cross-cultural experience",
+              "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+            },
+            {
+              "en": "encourage businesses to",
+              "vi": "khuyến khích các doanh nghiệp"
+            },
+            {
+              "en": "provide internship opportunities",
+              "vi": "cung cấp cơ hội thực tập"
+            },
+            {
+              "en": "international working environments",
+              "vi": "môi trường làm việc quốc tế"
+            },
+            {
+              "en": "gain practical experience",
+              "vi": "tích lũy kinh nghiệm thực tế"
+            },
+            {
+              "en": "apply language skills in practice",
+              "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+            },
+            {
+              "en": "communicate with foreign colleagues",
+              "vi": "giao tiếp với đồng nghiệp nước ngoài"
+            },
+            {
+              "en": "develop workplace communication skills",
+              "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+            },
+            {
+              "en": "improve future career prospects",
+              "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+            }
+          ],
+          "vocab_step": {
+            "theme": "Thúc đẩy giáo dục ngôn ngữ (Promoting Language Education)",
+            "overview": "Tổng hợp từ vựng học thuật chuẩn VSTEP về đầu tư tài chính của chính phủ, đổi mới chương trình và phương pháp giảng dạy tương tác, bồi dưỡng chuyên môn giáo viên, ứng dụng học liệu số và tạo dựng môi trường giao tiếp thực tế.",
+            "single_words": [
+              {
+                "word": "proficiency",
+                "ipa": "/prəˈfɪʃ.ən.si/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thành thạo, thông thạo",
+                "family": "proficient (adj), proficiently (adv)",
+                "example_en": "High English proficiency unlocks outstanding international employment opportunities.",
+                "example_vi": "Sự thông thạo tiếng Anh cao mở ra những cơ hội việc làm quốc tế vượt trội."
+              },
+              {
+                "word": "fluency",
+                "ipa": "/ˈfluː.ən.si/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "độ trôi chảy, lưu loát",
+                "family": "fluent (adj), fluently (adv)",
+                "example_en": "Daily communicative practice improves speaking fluency significantly.",
+                "example_vi": "Luyện tập giao tiếp hằng ngày giúp cải thiện đáng kể độ trôi chảy khi nói."
+              },
+              {
+                "word": "curriculum",
+                "ipa": "/kəˈrɪk.jə.ləm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chương trình giảng dạy",
+                "family": "curricular (adj), extracurricular (adj)",
+                "example_en": "The modern language curriculum places equal emphasis on all four core skills.",
+                "example_vi": "Chương trình ngôn ngữ hiện đại chú trọng đồng đều vào cả bốn kỹ năng cốt lõi."
+              },
+              {
+                "word": "infrastructure",
+                "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cơ sở hạ tầng",
+                "family": "infrastructural (adj)",
+                "example_en": "Investing in school infrastructure provides students with modern language labs.",
+                "example_vi": "Đầu tư vào cơ sở hạ tầng trường học cung cấp cho học sinh các phòng lab ngoại ngữ hiện đại."
+              },
+              {
+                "word": "disadvantaged",
+                "ipa": "/ˌdɪs.ədˈvæn.tɪdʒd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có hoàn cảnh khó khăn, thiệt thòi",
+                "family": "disadvantage (n)",
+                "example_en": "Scholarships provide disadvantaged students with access to high-quality language courses.",
+                "example_vi": "Học bổng mang lại cho học sinh có hoàn cảnh khó khăn cơ hội tiếp cận các khóa học ngôn ngữ chất lượng cao."
+              },
+              {
+                "word": "competence",
+                "ipa": "/ˈkɑːm.pə.təns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "năng lực, khả năng thành thạo",
+                "family": "competent (adj), competently (adv)",
+                "example_en": "Teachers must continually upgrade their professional competence.",
+                "example_vi": "Giáo viên phải liên tục nâng cao năng lực chuyên môn của mình."
+              },
+              {
+                "word": "interactive",
+                "ipa": "/ˌɪn.tərˈæk.tɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "mang tính tương tác",
+                "family": "interact (v), interaction (n)",
+                "example_en": "Interactive classroom activities encourage students to participate enthusiastically.",
+                "example_vi": "Các hoạt động lớp học tương tác khuyến khích học sinh tham gia nhiệt tình."
+              },
+              {
+                "word": "authentic",
+                "ipa": "/ɔːˈθen.tɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thực tế, chuẩn xác bản ngữ",
+                "family": "authenticity (n), authentically (adv)",
+                "example_en": "Using authentic learning materials prepares students for real-world communication.",
+                "example_vi": "Sử dụng tài liệu học tập thực tế chuẩn bị cho học sinh giao tiếp trong thế giới thực."
+              },
+              {
+                "word": "facilitate",
+                "ipa": "/fəˈsɪl.ɪ.teɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "tạo điều kiện thuận lợi, thúc đẩy",
+                "family": "facilitation (n), facilitator (n)",
+                "example_en": "Digital learning platforms facilitate independent language practice anytime and anywhere.",
+                "example_vi": "Các nền tảng học tập kỹ thuật số tạo điều kiện thuận lợi cho việc tự luyện ngôn ngữ mọi lúc mọi nơi."
+              },
+              {
+                "word": "partnership",
+                "ipa": "/ˈpɑːrt.nər.ʃɪp/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quan hệ đối tác, hợp tác",
+                "family": "partner (n, v)",
+                "example_en": "International partnerships allow schools to exchange valuable educational resources.",
+                "example_vi": "Quan hệ hợp tác quốc tế cho phép các trường trao đổi các tài nguyên giáo dục quý báu."
+              },
+              {
+                "word": "initiative",
+                "ipa": "/ɪˈnɪʃ.ə.tɪv/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sáng kiến, bước đi chủ động",
+                "family": "initiate (v), initiation (n)",
+                "example_en": "The government launched a new initiative to promote early language acquisition.",
+                "example_vi": "Chính phủ đã phát động một sáng kiến mới nhằm thúc đẩy việc tiếp thu ngôn ngữ từ sớm."
+              },
+              {
+                "word": "multimedia",
+                "ipa": "/ˌmʌl.tiˈmiː.di.ə/",
+                "pos": "noun, adj",
+                "level": "B1, B2",
+                "vi": "đa phương tiện",
+                "family": "medium (n), media (n)",
+                "example_en": "Multimedia equipment makes language lessons far more engaging for young learners.",
+                "example_vi": "Thiết bị đa phương tiện làm cho các tiết học ngoại ngữ trở nên hấp dẫn hơn nhiều đối với người học trẻ."
+              }
+            ],
+            "collocations": [
+              {
+                "en": "allocate a larger budget to",
+                "vi": "phân bổ ngân sách lớn hơn cho"
+              },
+              {
+                "en": "government funding",
+                "vi": "nguồn tài trợ của chính phủ"
+              },
+              {
+                "en": "language centres",
+                "vi": "các trung tâm ngoại ngữ"
+              },
+              {
+                "en": "improve educational infrastructure",
+                "vi": "cải thiện cơ sở hạ tầng giáo dục"
+              },
+              {
+                "en": "upgrade school facilities",
+                "vi": "nâng cấp cơ sở vật chất trường học"
+              },
+              {
+                "en": "teaching equipment",
+                "vi": "thiết bị giảng dạy"
+              },
+              {
+                "en": "provide financial assistance",
+                "vi": "cung cấp hỗ trợ tài chính"
+              },
+              {
+                "en": "offer scholarships to students",
+                "vi": "cấp học bổng cho học sinh, sinh viên"
+              },
+              {
+                "en": "disadvantaged students",
+                "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+              },
+              {
+                "en": "low-income families",
+                "vi": "các gia đình có thu nhập thấp"
+              },
+              {
+                "en": "expand access to language courses",
+                "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
+              },
+              {
+                "en": "reduce educational inequality",
+                "vi": "giảm bất bình đẳng trong giáo dục"
+              },
+              {
+                "en": "introduce supportive policies",
+                "vi": "ban hành các chính sách hỗ trợ"
+              },
+              {
+                "en": "promote early language learning",
+                "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
+              },
+              {
+                "en": "primary education",
+                "vi": "giáo dục tiểu học"
+              },
+              {
+                "en": "build a strong language foundation",
+                "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
+              },
+              {
+                "en": "develop language skills from an early age",
+                "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
+              },
+              {
+                "en": "encourage students to learn foreign languages",
+                "vi": "khuyến khích học sinh học ngoại ngữ"
+              },
+              {
+                "en": "establish international partnerships",
+                "vi": "thiết lập quan hệ hợp tác quốc tế"
+              },
+              {
+                "en": "cooperate with international organizations",
+                "vi": "hợp tác với các tổ chức quốc tế"
+              },
+              {
+                "en": "access international funding",
+                "vi": "tiếp cận nguồn tài trợ quốc tế"
+              },
+              {
+                "en": "exchange educational resources",
+                "vi": "trao đổi tài nguyên giáo dục"
+              },
+              {
+                "en": "advanced educational programs",
+                "vi": "các chương trình giáo dục tiên tiến"
+              },
+              {
+                "en": "benefit from international cooperation",
+                "vi": "hưởng lợi từ sự hợp tác quốc tế"
+              },
+              {
+                "en": "language curriculum",
+                "vi": "chương trình giảng dạy ngôn ngữ"
+              },
+              {
+                "en": "curriculum design",
+                "vi": "thiết kế chương trình học"
+              },
+              {
+                "en": "the four language skills",
+                "vi": "bốn kỹ năng ngôn ngữ"
+              },
+              {
+                "en": "listening comprehension",
+                "vi": "khả năng nghe hiểu"
+              },
+              {
+                "en": "speaking fluency",
+                "vi": "độ trôi chảy khi nói"
+              },
+              {
+                "en": "reading comprehension",
+                "vi": "khả năng đọc hiểu"
+              },
+              {
+                "en": "written communication",
+                "vi": "giao tiếp bằng văn bản"
+              },
+              {
+                "en": "balanced language development",
+                "vi": "sự phát triển ngôn ngữ cân bằng"
+              },
+              {
+                "en": "place equal emphasis on",
+                "vi": "chú trọng đồng đều vào"
+              },
+              {
+                "en": "reduce rote memorization",
+                "vi": "giảm việc học thuộc lòng máy móc"
+              },
+              {
+                "en": "memorize grammar rules",
+                "vi": "ghi nhớ các quy tắc ngữ pháp"
+              },
+              {
+                "en": "focus heavily on grammar",
+                "vi": "tập trung quá nhiều vào ngữ pháp"
+              },
+              {
+                "en": "vocabulary memorization",
+                "vi": "việc ghi nhớ từ vựng"
+              },
+              {
+                "en": "traditional teaching methods",
+                "vi": "các phương pháp giảng dạy truyền thống"
+              },
+              {
+                "en": "develop practical language skills",
+                "vi": "phát triển kỹ năng ngôn ngữ thực tế"
+              },
+              {
+                "en": "apply knowledge in real-life situations",
+                "vi": "áp dụng kiến thức vào các tình huống thực tế"
+              },
+              {
+                "en": "increase communicative activities",
+                "vi": "tăng cường các hoạt động giao tiếp"
+              },
+              {
+                "en": "group discussions",
+                "vi": "thảo luận nhóm"
+              },
+              {
+                "en": "role-play activities",
+                "vi": "hoạt động đóng vai"
+              },
+              {
+                "en": "give presentations",
+                "vi": "thực hiện bài thuyết trình"
+              },
+              {
+                "en": "classroom interaction",
+                "vi": "sự tương tác trong lớp học"
+              },
+              {
+                "en": "encourage active participation",
+                "vi": "khuyến khích sự tham gia tích cực"
+              },
+              {
+                "en": "improve communication skills",
+                "vi": "cải thiện kỹ năng giao tiếp"
+              },
+              {
+                "en": "use the target language",
+                "vi": "sử dụng ngôn ngữ đích"
+              },
+              {
+                "en": "integrate real-life situations",
+                "vi": "lồng ghép các tình huống thực tế"
+              },
+              {
+                "en": "practical learning content",
+                "vi": "nội dung học tập mang tính thực tiễn"
+              },
+              {
+                "en": "workplace communication",
+                "vi": "giao tiếp tại nơi làm việc"
+              },
+              {
+                "en": "travel-related situations",
+                "vi": "các tình huống liên quan đến du lịch"
+              },
+              {
+                "en": "academic communication",
+                "vi": "giao tiếp trong môi trường học thuật"
+              },
+              {
+                "en": "authentic learning materials",
+                "vi": "tài liệu học tập thực tế"
+              },
+              {
+                "en": "prepare learners for real-life communication",
+                "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+              },
+              {
+                "en": "organize regular training courses",
+                "vi": "tổ chức các khóa đào tạo định kỳ"
+              },
+              {
+                "en": "professional development",
+                "vi": "phát triển chuyên môn"
+              },
+              {
+                "en": "professional development courses",
+                "vi": "các khóa phát triển chuyên môn"
+              },
+              {
+                "en": "update professional knowledge",
+                "vi": "cập nhật kiến thức chuyên môn"
+              },
+              {
+                "en": "improve teaching competence",
+                "vi": "cải thiện năng lực giảng dạy"
+              },
+              {
+                "en": "enhance teaching effectiveness",
+                "vi": "nâng cao hiệu quả giảng dạy"
+              },
+              {
+                "en": "encourage teachers to attend courses",
+                "vi": "khuyến khích giáo viên tham gia các khóa học"
+              },
+              {
+                "en": "obtain relevant teaching certificates",
+                "vi": "đạt các chứng chỉ giảng dạy phù hợp"
+              },
+              {
+                "en": "professional qualifications",
+                "vi": "trình độ chuyên môn"
+              },
+              {
+                "en": "teaching certificates",
+                "vi": "chứng chỉ giảng dạy"
+              },
+              {
+                "en": "improve professional competence",
+                "vi": "nâng cao năng lực chuyên môn"
+              },
+              {
+                "en": "meet professional standards",
+                "vi": "đáp ứng các tiêu chuẩn chuyên môn"
+              },
+              {
+                "en": "provide opportunities for teachers to",
+                "vi": "tạo cơ hội cho giáo viên"
+              },
+              {
+                "en": "attend professional workshops",
+                "vi": "tham gia các hội thảo chuyên môn"
+              },
+              {
+                "en": "international exchange programs",
+                "vi": "chương trình trao đổi quốc tế"
+              },
+              {
+                "en": "exchange teaching experiences",
+                "vi": "trao đổi kinh nghiệm giảng dạy"
+              },
+              {
+                "en": "learn from experienced educators",
+                "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
+              },
+              {
+                "en": "keep up with educational trends",
+                "vi": "cập nhật các xu hướng giáo dục"
+              },
+              {
+                "en": "gain international teaching experience",
+                "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
+              },
+              {
+                "en": "evaluate teaching performance",
+                "vi": "đánh giá năng lực giảng dạy"
+              },
+              {
+                "en": "conduct regular assessments",
+                "vi": "tiến hành đánh giá định kỳ"
+              },
+              {
+                "en": "provide constructive feedback",
+                "vi": "cung cấp phản hồi mang tính xây dựng"
+              },
+              {
+                "en": "identify professional weaknesses",
+                "vi": "xác định những hạn chế về chuyên môn"
+              },
+              {
+                "en": "improve instructional skills",
+                "vi": "cải thiện kỹ năng giảng dạy"
+              },
+              {
+                "en": "continuous professional improvement",
+                "vi": "cải thiện chuyên môn liên tục"
+              },
+              {
+                "en": "equip libraries with",
+                "vi": "trang bị cho thư viện"
+              },
+              {
+                "en": "foreign language books",
+                "vi": "sách ngoại ngữ"
+              },
+              {
+                "en": "reference books",
+                "vi": "sách tham khảo"
+              },
+              {
+                "en": "supplementary materials",
+                "vi": "tài liệu bổ trợ"
+              },
+              {
+                "en": "authentic materials",
+                "vi": "tài liệu thực tế"
+              },
+              {
+                "en": "foreign language publications",
+                "vi": "các ấn phẩm ngoại ngữ"
+              },
+              {
+                "en": "different proficiency levels",
+                "vi": "các trình độ năng lực khác nhau"
+              },
+              {
+                "en": "a wide range of learning materials",
+                "vi": "nhiều loại tài liệu học tập đa dạng"
+              },
+              {
+                "en": "provide computers and audiovisual equipment",
+                "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+              },
+              {
+                "en": "audiovisual equipment",
+                "vi": "thiết bị nghe nhìn"
+              },
+              {
+                "en": "stable Internet connection",
+                "vi": "kết nối Internet ổn định"
+              },
+              {
+                "en": "technological support",
+                "vi": "sự hỗ trợ về công nghệ"
+              },
+              {
+                "en": "digital learning environment",
+                "vi": "môi trường học tập kỹ thuật số"
+              },
+              {
+                "en": "support language learning activities",
+                "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+              },
+              {
+                "en": "encourage the use of",
+                "vi": "khuyến khích việc sử dụng"
+              },
+              {
+                "en": "language-learning applications",
+                "vi": "ứng dụng học ngôn ngữ"
+              },
+              {
+                "en": "online learning platforms",
+                "vi": "nền tảng học tập trực tuyến"
+              },
+              {
+                "en": "expand one's vocabulary",
+                "vi": "mở rộng vốn từ vựng"
+              },
+              {
+                "en": "practise language skills",
+                "vi": "luyện tập các kỹ năng ngôn ngữ"
+              },
+              {
+                "en": "interactive learning tools",
+                "vi": "công cụ học tập tương tác"
+              },
+              {
+                "en": "improve independent learning",
+                "vi": "cải thiện khả năng tự học"
+              },
+              {
+                "en": "develop online resource libraries",
+                "vi": "xây dựng thư viện tài nguyên trực tuyến"
+              },
+              {
+                "en": "digital libraries",
+                "vi": "thư viện kỹ thuật số"
+              },
+              {
+                "en": "access learning materials",
+                "vi": "truy cập tài liệu học tập"
+              },
+              {
+                "en": "study anytime and anywhere",
+                "vi": "học mọi lúc, mọi nơi"
+              },
+              {
+                "en": "facilitate independent learning",
+                "vi": "tạo điều kiện cho việc tự học"
+              },
+              {
+                "en": "support self-directed learning",
+                "vi": "hỗ trợ việc tự học có định hướng"
+              },
+              {
+                "en": "provide flexible learning opportunities",
+                "vi": "cung cấp cơ hội học tập linh hoạt"
+              },
+              {
+                "en": "learn at one's own pace",
+                "vi": "học theo tốc độ của bản thân"
+              },
+              {
+                "en": "establish language clubs",
+                "vi": "thành lập các câu lạc bộ ngoại ngữ"
+              },
+              {
+                "en": "language practice sessions",
+                "vi": "các buổi thực hành ngôn ngữ"
+              },
+              {
+                "en": "communicate regularly",
+                "vi": "giao tiếp thường xuyên"
+              },
+              {
+                "en": "interact with other learners",
+                "vi": "tương tác với những người học khác"
+              },
+              {
+                "en": "practise speaking skills",
+                "vi": "luyện tập kỹ năng nói"
+              },
+              {
+                "en": "create a supportive environment",
+                "vi": "tạo môi trường hỗ trợ"
+              },
+              {
+                "en": "build communication confidence",
+                "vi": "xây dựng sự tự tin trong giao tiếp"
+              },
+              {
+                "en": "organize public speaking competitions",
+                "vi": "tổ chức các cuộc thi hùng biện"
+              },
+              {
+                "en": "hold language festivals",
+                "vi": "tổ chức ngày hội ngôn ngữ"
+              },
+              {
+                "en": "extracurricular activities",
+                "vi": "các hoạt động ngoại khóa"
+              },
+              {
+                "en": "encourage natural language use",
+                "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
+              },
+              {
+                "en": "participate in language events",
+                "vi": "tham gia các sự kiện ngôn ngữ"
+              },
+              {
+                "en": "develop presentation skills",
+                "vi": "phát triển kỹ năng thuyết trình"
+              },
+              {
+                "en": "increase learners' motivation",
+                "vi": "tăng động lực học tập"
+              },
+              {
+                "en": "arrange exchange programs",
+                "vi": "tổ chức các chương trình giao lưu"
+              },
+              {
+                "en": "interact with native speakers",
+                "vi": "tương tác với người bản ngữ"
+              },
+              {
+                "en": "communicate with international students",
+                "vi": "giao tiếp với sinh viên quốc tế"
+              },
+              {
+                "en": "cultural exchange activities",
+                "vi": "các hoạt động giao lưu văn hóa"
+              },
+              {
+                "en": "improve speaking fluency",
+                "vi": "cải thiện độ trôi chảy khi nói"
+              },
+              {
+                "en": "overcome language barriers",
+                "vi": "vượt qua rào cản ngôn ngữ"
+              },
+              {
+                "en": "gain cross-cultural experience",
+                "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
+              },
+              {
+                "en": "encourage businesses to",
+                "vi": "khuyến khích các doanh nghiệp"
+              },
+              {
+                "en": "provide internship opportunities",
+                "vi": "cung cấp cơ hội thực tập"
+              },
+              {
+                "en": "international working environments",
+                "vi": "môi trường làm việc quốc tế"
+              },
+              {
+                "en": "gain practical experience",
+                "vi": "tích lũy kinh nghiệm thực tế"
+              },
+              {
+                "en": "apply language skills in practice",
+                "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
+              },
+              {
+                "en": "communicate with foreign colleagues",
+                "vi": "giao tiếp với đồng nghiệp nước ngoài"
+              },
+              {
+                "en": "develop workplace communication skills",
+                "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
+              },
+              {
+                "en": "improve future career prospects",
+                "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_sol1_gov",
+                "name": "Nhóm 1: Đầu tư & Hỗ trợ từ chính phủ (Government Funding & Financial Support)",
+                "icon": "🏛️",
+                "badge": "Đầu tư nhà nước",
+                "items": [
+                  {
+                    "phrase": "allocate a larger budget to",
+                    "level": "B2",
+                    "vi": "phân bổ ngân sách lớn hơn cho",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to allocate a larger budget to effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc phân bổ ngân sách lớn hơn cho một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "government funding",
+                    "level": "B2",
+                    "vi": "nguồn tài trợ của chính phủ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to government funding effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nguồn tài trợ của chính phủ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "language centres",
+                    "level": "B2",
+                    "vi": "các trung tâm ngoại ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to language centres effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các trung tâm ngoại ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve educational infrastructure",
+                    "level": "B2",
+                    "vi": "cải thiện cơ sở hạ tầng giáo dục",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve educational infrastructure effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện cơ sở hạ tầng giáo dục một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "upgrade school facilities",
+                    "level": "B2",
+                    "vi": "nâng cấp cơ sở vật chất trường học",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to upgrade school facilities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nâng cấp cơ sở vật chất trường học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "teaching equipment",
+                    "level": "B2",
+                    "vi": "thiết bị giảng dạy",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to teaching equipment effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thiết bị giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "provide financial assistance",
+                    "level": "B2",
+                    "vi": "cung cấp hỗ trợ tài chính",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to provide financial assistance effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cung cấp hỗ trợ tài chính một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "offer scholarships to students",
+                    "level": "B2",
+                    "vi": "cấp học bổng cho học sinh, sinh viên",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to offer scholarships to students effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cấp học bổng cho học sinh, sinh viên một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "disadvantaged students",
+                    "level": "B2",
+                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to disadvantaged students effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc học sinh, sinh viên có hoàn cảnh khó khăn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "low-income families",
+                    "level": "B2",
+                    "vi": "các gia đình có thu nhập thấp",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to low-income families effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các gia đình có thu nhập thấp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "expand access to language courses",
+                    "level": "B2",
+                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to expand access to language courses effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc mở rộng cơ hội tiếp cận các khóa học ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "reduce educational inequality",
+                    "level": "B2",
+                    "vi": "giảm bất bình đẳng trong giáo dục",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to reduce educational inequality effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giảm bất bình đẳng trong giáo dục một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "introduce supportive policies",
+                    "level": "B2",
+                    "vi": "ban hành các chính sách hỗ trợ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to introduce supportive policies effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc ban hành các chính sách hỗ trợ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "promote early language learning",
+                    "level": "B2",
+                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to promote early language learning effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thúc đẩy việc học ngôn ngữ từ sớm một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "primary education",
+                    "level": "B2",
+                    "vi": "giáo dục tiểu học",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to primary education effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giáo dục tiểu học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "build a strong language foundation",
+                    "level": "B2",
+                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to build a strong language foundation effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc xây dựng nền tảng ngôn ngữ vững chắc một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "develop language skills from an early age",
+                    "level": "B2",
+                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to develop language skills from an early age effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc phát triển kỹ năng ngôn ngữ từ khi còn nhỏ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "encourage students to learn foreign languages",
+                    "level": "B2",
+                    "vi": "khuyến khích học sinh học ngoại ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to encourage students to learn foreign languages effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khuyến khích học sinh học ngoại ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "establish international partnerships",
+                    "level": "B2",
+                    "vi": "thiết lập quan hệ hợp tác quốc tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to establish international partnerships effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thiết lập quan hệ hợp tác quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "cooperate with international organizations",
+                    "level": "B2",
+                    "vi": "hợp tác với các tổ chức quốc tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to cooperate with international organizations effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc hợp tác với các tổ chức quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "access international funding",
+                    "level": "B2",
+                    "vi": "tiếp cận nguồn tài trợ quốc tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to access international funding effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tiếp cận nguồn tài trợ quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "exchange educational resources",
+                    "level": "B2",
+                    "vi": "trao đổi tài nguyên giáo dục",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to exchange educational resources effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc trao đổi tài nguyên giáo dục một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "advanced educational programs",
+                    "level": "B2",
+                    "vi": "các chương trình giáo dục tiên tiến",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to advanced educational programs effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các chương trình giáo dục tiên tiến một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "benefit from international cooperation",
+                    "level": "B2",
+                    "vi": "hưởng lợi từ sự hợp tác quốc tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to benefit from international cooperation effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc hưởng lợi từ sự hợp tác quốc tế một cách hiệu quả."
+                  }
+                ]
+              },
+              {
+                "id": "group_sol2_curriculum",
+                "name": "Nhóm 2: Đổi mới chương trình & Phương pháp giảng dạy (Curriculum & Modern Teaching Methods)",
+                "icon": "📚",
+                "badge": "Chương trình & Phương pháp",
+                "items": [
+                  {
+                    "phrase": "language curriculum",
+                    "level": "B2",
+                    "vi": "chương trình giảng dạy ngôn ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to language curriculum effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc chương trình giảng dạy ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "curriculum design",
+                    "level": "B2",
+                    "vi": "thiết kế chương trình học",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to curriculum design effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thiết kế chương trình học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "the four language skills",
+                    "level": "B2",
+                    "vi": "bốn kỹ năng ngôn ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to the four language skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc bốn kỹ năng ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "listening comprehension",
+                    "level": "B2",
+                    "vi": "khả năng nghe hiểu",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to listening comprehension effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khả năng nghe hiểu một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "speaking fluency",
+                    "level": "B2",
+                    "vi": "độ trôi chảy khi nói",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to speaking fluency effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc độ trôi chảy khi nói một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "reading comprehension",
+                    "level": "B2",
+                    "vi": "khả năng đọc hiểu",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to reading comprehension effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khả năng đọc hiểu một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "written communication",
+                    "level": "B2",
+                    "vi": "giao tiếp bằng văn bản",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to written communication effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giao tiếp bằng văn bản một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "balanced language development",
+                    "level": "B2",
+                    "vi": "sự phát triển ngôn ngữ cân bằng",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to balanced language development effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc sự phát triển ngôn ngữ cân bằng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "place equal emphasis on",
+                    "level": "B2",
+                    "vi": "chú trọng đồng đều vào",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to place equal emphasis on effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc chú trọng đồng đều vào một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "reduce rote memorization",
+                    "level": "B2",
+                    "vi": "giảm việc học thuộc lòng máy móc",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to reduce rote memorization effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giảm việc học thuộc lòng máy móc một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "memorize grammar rules",
+                    "level": "B2",
+                    "vi": "ghi nhớ các quy tắc ngữ pháp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to memorize grammar rules effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc ghi nhớ các quy tắc ngữ pháp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "focus heavily on grammar",
+                    "level": "B2",
+                    "vi": "tập trung quá nhiều vào ngữ pháp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to focus heavily on grammar effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tập trung quá nhiều vào ngữ pháp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "vocabulary memorization",
+                    "level": "B2",
+                    "vi": "việc ghi nhớ từ vựng",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to vocabulary memorization effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc việc ghi nhớ từ vựng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "traditional teaching methods",
+                    "level": "B2",
+                    "vi": "các phương pháp giảng dạy truyền thống",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to traditional teaching methods effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các phương pháp giảng dạy truyền thống một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "develop practical language skills",
+                    "level": "B2",
+                    "vi": "phát triển kỹ năng ngôn ngữ thực tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to develop practical language skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc phát triển kỹ năng ngôn ngữ thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "apply knowledge in real-life situations",
+                    "level": "B2",
+                    "vi": "áp dụng kiến thức vào các tình huống thực tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to apply knowledge in real-life situations effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc áp dụng kiến thức vào các tình huống thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "increase communicative activities",
+                    "level": "B2",
+                    "vi": "tăng cường các hoạt động giao tiếp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to increase communicative activities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tăng cường các hoạt động giao tiếp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "group discussions",
+                    "level": "B2",
+                    "vi": "thảo luận nhóm",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to group discussions effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thảo luận nhóm một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "role-play activities",
+                    "level": "B2",
+                    "vi": "hoạt động đóng vai",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to role-play activities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc hoạt động đóng vai một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "give presentations",
+                    "level": "B2",
+                    "vi": "thực hiện bài thuyết trình",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to give presentations effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thực hiện bài thuyết trình một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "classroom interaction",
+                    "level": "B2",
+                    "vi": "sự tương tác trong lớp học",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to classroom interaction effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc sự tương tác trong lớp học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "encourage active participation",
+                    "level": "B2",
+                    "vi": "khuyến khích sự tham gia tích cực",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to encourage active participation effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khuyến khích sự tham gia tích cực một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve communication skills",
+                    "level": "B2",
+                    "vi": "cải thiện kỹ năng giao tiếp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve communication skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện kỹ năng giao tiếp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "use the target language",
+                    "level": "B2",
+                    "vi": "sử dụng ngôn ngữ đích",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to use the target language effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc sử dụng ngôn ngữ đích một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "integrate real-life situations",
+                    "level": "B2",
+                    "vi": "lồng ghép các tình huống thực tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to integrate real-life situations effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc lồng ghép các tình huống thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "practical learning content",
+                    "level": "B2",
+                    "vi": "nội dung học tập mang tính thực tiễn",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to practical learning content effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nội dung học tập mang tính thực tiễn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "workplace communication",
+                    "level": "B2",
+                    "vi": "giao tiếp tại nơi làm việc",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to workplace communication effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giao tiếp tại nơi làm việc một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "travel-related situations",
+                    "level": "B2",
+                    "vi": "các tình huống liên quan đến du lịch",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to travel-related situations effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các tình huống liên quan đến du lịch một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "academic communication",
+                    "level": "B2",
+                    "vi": "giao tiếp trong môi trường học thuật",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to academic communication effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giao tiếp trong môi trường học thuật một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "authentic learning materials",
+                    "level": "B2",
+                    "vi": "tài liệu học tập thực tế",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to authentic learning materials effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tài liệu học tập thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "prepare learners for real-life communication",
+                    "level": "B2",
+                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to prepare learners for real-life communication effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc chuẩn bị cho người học giao tiếp trong đời sống thực tế một cách hiệu quả."
+                  }
+                ]
+              },
+              {
+                "id": "group_sol3_teachers",
+                "name": "Nhóm 3: Nâng cao năng lực chuyên môn của giáo viên (Teacher Professional Competence)",
+                "icon": "👩‍🏫",
+                "badge": "Đội ngũ giáo viên",
+                "items": [
+                  {
+                    "phrase": "organize regular training courses",
+                    "level": "B2",
+                    "vi": "tổ chức các khóa đào tạo định kỳ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to organize regular training courses effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tổ chức các khóa đào tạo định kỳ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "professional development",
+                    "level": "B2",
+                    "vi": "phát triển chuyên môn",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to professional development effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc phát triển chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "professional development courses",
+                    "level": "B2",
+                    "vi": "các khóa phát triển chuyên môn",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to professional development courses effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các khóa phát triển chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "update professional knowledge",
+                    "level": "B2",
+                    "vi": "cập nhật kiến thức chuyên môn",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to update professional knowledge effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cập nhật kiến thức chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve teaching competence",
+                    "level": "B2",
+                    "vi": "cải thiện năng lực giảng dạy",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve teaching competence effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện năng lực giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "enhance teaching effectiveness",
+                    "level": "B2",
+                    "vi": "nâng cao hiệu quả giảng dạy",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to enhance teaching effectiveness effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nâng cao hiệu quả giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "encourage teachers to attend courses",
+                    "level": "B2",
+                    "vi": "khuyến khích giáo viên tham gia các khóa học",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to encourage teachers to attend courses effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khuyến khích giáo viên tham gia các khóa học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "obtain relevant teaching certificates",
+                    "level": "B2",
+                    "vi": "đạt các chứng chỉ giảng dạy phù hợp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to obtain relevant teaching certificates effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc đạt các chứng chỉ giảng dạy phù hợp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "professional qualifications",
+                    "level": "B2",
+                    "vi": "trình độ chuyên môn",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to professional qualifications effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc trình độ chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "teaching certificates",
+                    "level": "B2",
+                    "vi": "chứng chỉ giảng dạy",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to teaching certificates effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc chứng chỉ giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve professional competence",
+                    "level": "B2",
+                    "vi": "nâng cao năng lực chuyên môn",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve professional competence effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nâng cao năng lực chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "meet professional standards",
+                    "level": "B2",
+                    "vi": "đáp ứng các tiêu chuẩn chuyên môn",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to meet professional standards effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc đáp ứng các tiêu chuẩn chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "provide opportunities for teachers to",
+                    "level": "B2",
+                    "vi": "tạo cơ hội cho giáo viên",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to provide opportunities for teachers to effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tạo cơ hội cho giáo viên một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "attend professional workshops",
+                    "level": "B2",
+                    "vi": "tham gia các hội thảo chuyên môn",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to attend professional workshops effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tham gia các hội thảo chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "international exchange programs",
+                    "level": "B2",
+                    "vi": "chương trình trao đổi quốc tế",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to international exchange programs effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc chương trình trao đổi quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "exchange teaching experiences",
+                    "level": "B2",
+                    "vi": "trao đổi kinh nghiệm giảng dạy",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to exchange teaching experiences effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc trao đổi kinh nghiệm giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "learn from experienced educators",
+                    "level": "B2",
+                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to learn from experienced educators effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc học hỏi từ các nhà giáo dục giàu kinh nghiệm một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "keep up with educational trends",
+                    "level": "B2",
+                    "vi": "cập nhật các xu hướng giáo dục",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to keep up with educational trends effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cập nhật các xu hướng giáo dục một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "gain international teaching experience",
+                    "level": "B2",
+                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to gain international teaching experience effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tích lũy kinh nghiệm giảng dạy quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "evaluate teaching performance",
+                    "level": "B2",
+                    "vi": "đánh giá năng lực giảng dạy",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to evaluate teaching performance effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc đánh giá năng lực giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "conduct regular assessments",
+                    "level": "B2",
+                    "vi": "tiến hành đánh giá định kỳ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to conduct regular assessments effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tiến hành đánh giá định kỳ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "provide constructive feedback",
+                    "level": "B2",
+                    "vi": "cung cấp phản hồi mang tính xây dựng",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to provide constructive feedback effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cung cấp phản hồi mang tính xây dựng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "identify professional weaknesses",
+                    "level": "B2",
+                    "vi": "xác định những hạn chế về chuyên môn",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to identify professional weaknesses effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc xác định những hạn chế về chuyên môn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve instructional skills",
+                    "level": "B2",
+                    "vi": "cải thiện kỹ năng giảng dạy",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve instructional skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện kỹ năng giảng dạy một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "continuous professional improvement",
+                    "level": "B2",
+                    "vi": "cải thiện chuyên môn liên tục",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to continuous professional improvement effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện chuyên môn liên tục một cách hiệu quả."
+                  }
+                ]
+              },
+              {
+                "id": "group_sol4_resources",
+                "name": "Nhóm 4: Học liệu & Hỗ trợ công nghệ (Learning Materials & Technological Tools)",
+                "icon": "💻",
+                "badge": "Học liệu & Công nghệ",
+                "items": [
+                  {
+                    "phrase": "equip libraries with",
+                    "level": "B2",
+                    "vi": "trang bị cho thư viện",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to equip libraries with effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc trang bị cho thư viện một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "foreign language books",
+                    "level": "B2",
+                    "vi": "sách ngoại ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to foreign language books effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc sách ngoại ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "reference books",
+                    "level": "B2",
+                    "vi": "sách tham khảo",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to reference books effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc sách tham khảo một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "supplementary materials",
+                    "level": "B2",
+                    "vi": "tài liệu bổ trợ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to supplementary materials effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tài liệu bổ trợ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "authentic materials",
+                    "level": "B2",
+                    "vi": "tài liệu thực tế",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to authentic materials effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tài liệu thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "foreign language publications",
+                    "level": "B2",
+                    "vi": "các ấn phẩm ngoại ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to foreign language publications effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các ấn phẩm ngoại ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "different proficiency levels",
+                    "level": "B2",
+                    "vi": "các trình độ năng lực khác nhau",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to different proficiency levels effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các trình độ năng lực khác nhau một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "a wide range of learning materials",
+                    "level": "B2",
+                    "vi": "nhiều loại tài liệu học tập đa dạng",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to a wide range of learning materials effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nhiều loại tài liệu học tập đa dạng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "provide computers and audiovisual equipment",
+                    "level": "B2",
+                    "vi": "cung cấp máy tính và thiết bị nghe nhìn",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to provide computers and audiovisual equipment effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cung cấp máy tính và thiết bị nghe nhìn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "audiovisual equipment",
+                    "level": "B2",
+                    "vi": "thiết bị nghe nhìn",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to audiovisual equipment effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thiết bị nghe nhìn một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "stable Internet connection",
+                    "level": "B2",
+                    "vi": "kết nối Internet ổn định",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to stable Internet connection effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc kết nối Internet ổn định một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "technological support",
+                    "level": "B2",
+                    "vi": "sự hỗ trợ về công nghệ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to technological support effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc sự hỗ trợ về công nghệ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "digital learning environment",
+                    "level": "B2",
+                    "vi": "môi trường học tập kỹ thuật số",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to digital learning environment effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc môi trường học tập kỹ thuật số một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "support language learning activities",
+                    "level": "B2",
+                    "vi": "hỗ trợ các hoạt động học ngôn ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to support language learning activities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc hỗ trợ các hoạt động học ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "encourage the use of",
+                    "level": "B2",
+                    "vi": "khuyến khích việc sử dụng",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to encourage the use of effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khuyến khích việc sử dụng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "language-learning applications",
+                    "level": "B2",
+                    "vi": "ứng dụng học ngôn ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to language-learning applications effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc ứng dụng học ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "online learning platforms",
+                    "level": "B2",
+                    "vi": "nền tảng học tập trực tuyến",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to online learning platforms effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc nền tảng học tập trực tuyến một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "expand one's vocabulary",
+                    "level": "B2",
+                    "vi": "mở rộng vốn từ vựng",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to expand one's vocabulary effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc mở rộng vốn từ vựng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "practise language skills",
+                    "level": "B2",
+                    "vi": "luyện tập các kỹ năng ngôn ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to practise language skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc luyện tập các kỹ năng ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "interactive learning tools",
+                    "level": "B2",
+                    "vi": "công cụ học tập tương tác",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to interactive learning tools effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc công cụ học tập tương tác một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve independent learning",
+                    "level": "B2",
+                    "vi": "cải thiện khả năng tự học",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve independent learning effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện khả năng tự học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "develop online resource libraries",
+                    "level": "B2",
+                    "vi": "xây dựng thư viện tài nguyên trực tuyến",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to develop online resource libraries effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc xây dựng thư viện tài nguyên trực tuyến một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "digital libraries",
+                    "level": "B2",
+                    "vi": "thư viện kỹ thuật số",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to digital libraries effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thư viện kỹ thuật số một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "access learning materials",
+                    "level": "B2",
+                    "vi": "truy cập tài liệu học tập",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to access learning materials effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc truy cập tài liệu học tập một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "study anytime and anywhere",
+                    "level": "B2",
+                    "vi": "học mọi lúc, mọi nơi",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to study anytime and anywhere effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc học mọi lúc, mọi nơi một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "facilitate independent learning",
+                    "level": "B2",
+                    "vi": "tạo điều kiện cho việc tự học",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to facilitate independent learning effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tạo điều kiện cho việc tự học một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "support self-directed learning",
+                    "level": "B2",
+                    "vi": "hỗ trợ việc tự học có định hướng",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to support self-directed learning effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc hỗ trợ việc tự học có định hướng một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "provide flexible learning opportunities",
+                    "level": "B2",
+                    "vi": "cung cấp cơ hội học tập linh hoạt",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to provide flexible learning opportunities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cung cấp cơ hội học tập linh hoạt một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "learn at one's own pace",
+                    "level": "B2",
+                    "vi": "học theo tốc độ của bản thân",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to learn at one's own pace effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc học theo tốc độ của bản thân một cách hiệu quả."
+                  }
+                ]
+              },
+              {
+                "id": "group_sol5_practice",
+                "name": "Nhóm 5: Môi trường thực hành & Giao lưu thực tế (Practical Communication & Real-life Practice)",
+                "icon": "🗣️",
+                "badge": "Thực hành giao tiếp",
+                "items": [
+                  {
+                    "phrase": "establish language clubs",
+                    "level": "B2",
+                    "vi": "thành lập các câu lạc bộ ngoại ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to establish language clubs effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc thành lập các câu lạc bộ ngoại ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "language practice sessions",
+                    "level": "B2",
+                    "vi": "các buổi thực hành ngôn ngữ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to language practice sessions effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các buổi thực hành ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "communicate regularly",
+                    "level": "B2",
+                    "vi": "giao tiếp thường xuyên",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to communicate regularly effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giao tiếp thường xuyên một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "interact with other learners",
+                    "level": "B2",
+                    "vi": "tương tác với những người học khác",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to interact with other learners effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tương tác với những người học khác một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "practise speaking skills",
+                    "level": "B2",
+                    "vi": "luyện tập kỹ năng nói",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to practise speaking skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc luyện tập kỹ năng nói một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "create a supportive environment",
+                    "level": "B2",
+                    "vi": "tạo môi trường hỗ trợ",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to create a supportive environment effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tạo môi trường hỗ trợ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "build communication confidence",
+                    "level": "B2",
+                    "vi": "xây dựng sự tự tin trong giao tiếp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to build communication confidence effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc xây dựng sự tự tin trong giao tiếp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "organize public speaking competitions",
+                    "level": "B2",
+                    "vi": "tổ chức các cuộc thi hùng biện",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to organize public speaking competitions effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tổ chức các cuộc thi hùng biện một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "hold language festivals",
+                    "level": "B2",
+                    "vi": "tổ chức ngày hội ngôn ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to hold language festivals effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tổ chức ngày hội ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "extracurricular activities",
+                    "level": "B2",
+                    "vi": "các hoạt động ngoại khóa",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to extracurricular activities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các hoạt động ngoại khóa một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "encourage natural language use",
+                    "level": "B2",
+                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to encourage natural language use effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khuyến khích sử dụng ngôn ngữ tự nhiên một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "participate in language events",
+                    "level": "B2",
+                    "vi": "tham gia các sự kiện ngôn ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to participate in language events effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tham gia các sự kiện ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "develop presentation skills",
+                    "level": "B2",
+                    "vi": "phát triển kỹ năng thuyết trình",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to develop presentation skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc phát triển kỹ năng thuyết trình một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "increase learners' motivation",
+                    "level": "B2",
+                    "vi": "tăng động lực học tập",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to increase learners' motivation effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tăng động lực học tập một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "arrange exchange programs",
+                    "level": "B2",
+                    "vi": "tổ chức các chương trình giao lưu",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to arrange exchange programs effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tổ chức các chương trình giao lưu một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "interact with native speakers",
+                    "level": "B2",
+                    "vi": "tương tác với người bản ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to interact with native speakers effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tương tác với người bản ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "communicate with international students",
+                    "level": "B2",
+                    "vi": "giao tiếp với sinh viên quốc tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to communicate with international students effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giao tiếp với sinh viên quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "cultural exchange activities",
+                    "level": "B2",
+                    "vi": "các hoạt động giao lưu văn hóa",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to cultural exchange activities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc các hoạt động giao lưu văn hóa một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve communication skills",
+                    "level": "B2",
+                    "vi": "cải thiện kỹ năng giao tiếp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve communication skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện kỹ năng giao tiếp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve speaking fluency",
+                    "level": "B2",
+                    "vi": "cải thiện độ trôi chảy khi nói",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve speaking fluency effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện độ trôi chảy khi nói một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "overcome language barriers",
+                    "level": "B2",
+                    "vi": "vượt qua rào cản ngôn ngữ",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to overcome language barriers effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc vượt qua rào cản ngôn ngữ một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "gain cross-cultural experience",
+                    "level": "B2",
+                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to gain cross-cultural experience effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tích lũy kinh nghiệm giao tiếp liên văn hóa một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "encourage businesses to",
+                    "level": "B2",
+                    "vi": "khuyến khích các doanh nghiệp",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to encourage businesses to effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc khuyến khích các doanh nghiệp một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "provide internship opportunities",
+                    "level": "B2",
+                    "vi": "cung cấp cơ hội thực tập",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to provide internship opportunities effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cung cấp cơ hội thực tập một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "international working environments",
+                    "level": "B2",
+                    "vi": "môi trường làm việc quốc tế",
+                    "type": "n.phr",
+                    "example_en": "Educational institutions focus on how to international working environments effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc môi trường làm việc quốc tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "gain practical experience",
+                    "level": "B2",
+                    "vi": "tích lũy kinh nghiệm thực tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to gain practical experience effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc tích lũy kinh nghiệm thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "apply language skills in practice",
+                    "level": "B2",
+                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to apply language skills in practice effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc áp dụng kỹ năng ngôn ngữ vào thực tế một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "communicate with foreign colleagues",
+                    "level": "B2",
+                    "vi": "giao tiếp với đồng nghiệp nước ngoài",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to communicate with foreign colleagues effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc giao tiếp với đồng nghiệp nước ngoài một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "develop workplace communication skills",
+                    "level": "B2",
+                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to develop workplace communication skills effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc phát triển kỹ năng giao tiếp tại nơi làm việc một cách hiệu quả."
+                  },
+                  {
+                    "phrase": "improve future career prospects",
+                    "level": "B2",
+                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai",
+                    "type": "v.phr",
+                    "example_en": "Educational institutions focus on how to improve future career prospects effectively.",
+                    "example_vi": "Các cơ sở giáo dục tập trung vào việc cải thiện triển vọng nghề nghiệp trong tương lai một cách hiệu quả."
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>language education</strong> has become very important in modern society. Effective language learning helps people communicate, work, and study across borders easily. <strong>This essay will suggest several practical solutions to promote language education.</strong>\n\nFirst of all, <strong><em>governments should invest more money and provide financial support for language education</em></strong>. Authorities can allocate a larger budget to schools and language centres to improve educational infrastructure and teaching equipment. Furthermore, offering scholarships to students from low-income families helps disadvantaged students have equal chances to study languages. Schools can also cooperate with international organizations to access international funding and adopt advanced educational programs.\n\nSecondly, <strong><em>schools should improve their curriculum and teaching methods</em></strong>. The language curriculum should place equal emphasis on the four language skills: listening comprehension, speaking fluency, reading comprehension, and written communication. Teachers should reduce rote memorization and grammar drills, and instead increase communicative activities like group discussions and role-play activities. Lessons should also include real-life situations to prepare learners for everyday communication.\n\nFinally, <strong><em>schools and communities should create more opportunities for practical communication</em></strong>. Organizing language clubs, language festivals, and cultural exchange programs with native speakers helps students practise speaking skills and build communication confidence.\n\nIn conclusion, several solutions can help <strong>improve language education</strong>. By increasing government investment, improving teaching methods, and creating real-life practice opportunities, schools and society can help learners achieve better language competence.",
+          "translation_b1": "Trong những năm gần đây, <strong>giáo dục ngôn ngữ</strong> đã trở nên rất quan trọng trong xã hội hiện đại. Việc học ngôn ngữ hiệu quả giúp con người giao tiếp, làm việc và học tập xuyên biên giới một cách dễ dàng. <strong>Bài luận này sẽ đề xuất một số giải pháp thiết thực để thúc đẩy giáo dục ngôn ngữ.</strong>\n\nTrước hết, <strong><em>chính phủ nên đầu tư nhiều tiền hơn và hỗ trợ tài chính cho giáo dục ngôn ngữ</em></strong>. Các nhà chức trách có thể phân bổ ngân sách lớn hơn cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở hạ tầng giáo dục và trang thiết bị giảng dạy. Hơn nữa, việc trao học bổng cho học sinh có hoàn cảnh khó khăn từ các gia đình thu nhập thấp giúp các em có cơ hội bình đẳng để học ngoại ngữ. Các trường học cũng có thể hợp tác với các tổ chức quốc tế để tiếp cận nguồn tài trợ quốc tế và áp dụng các chương trình giáo dục tiên tiến.\n\nThứ hai, <strong><em>các trường học nên cải thiện chương trình và phương pháp giảng dạy</em></strong>. Chương trình giảng dạy ngôn ngữ nên chú trọng đồng đều vào cả bốn kỹ năng: nghe hiểu, nói trôi chảy, đọc hiểu và giao tiếp bằng văn bản. Giáo viên nên giảm việc học thuộc lòng máy móc và bài tập ngữ pháp, thay vào đó tăng cường các hoạt động giao tiếp như thảo luận nhóm và đóng vai. Các bài học cũng nên đưa vào các tình huống thực tế để chuẩn bị cho người học giao tiếp hằng ngày.\n\nCuối cùng, <strong><em>nhà trường và cộng đồng nên tạo thêm nhiều cơ hội thực hành giao tiếp thực tế</em></strong>. Việc tổ chức các câu lạc bộ ngoại ngữ, ngày hội ngôn ngữ và các chương trình giao lưu văn hóa với người bản ngữ giúp học sinh luyện tập kỹ năng nói và xây dựng sự tự tin trong giao tiếp.\n\nTóm lại, một số giải pháp có thể giúp <strong>cải thiện giáo dục ngôn ngữ</strong>. Bằng cách tăng cường đầu tư của chính phủ, cải tiến phương pháp giảng dạy và tạo ra các cơ hội thực hành trong đời thực, nhà trường và xã hội có thể giúp người học đạt được năng lực ngôn ngữ tốt hơn.",
+          "sample_b2": "In today’s interconnected and globalized world, <strong>promoting language education</strong> has become an urgent priority for both governments and educational institutions. Foreign language proficiency not only unlocks individual career prospects but also enhances national competitiveness and cross-border collaboration. <strong>This essay will put forward several practical measures that can be implemented to advance language education effectively.</strong>\n\nFirst and foremost, <strong><em>governments should increase investment and financial support for language education</em></strong>. State authorities can allocate a larger budget to schools and language centres to improve educational infrastructure, upgrade facilities, and install modern teaching equipment. In addition, providing financial assistance and scholarships to disadvantaged students from low-income families ensures equal access to language courses and helps reduce educational disparity. Furthermore, establishing international partnerships allows domestic institutions to access funding and adopt advanced curricula, maximizing the benefits of international cooperation.\n\nEqually important, <strong><em>schools should improve their curriculum design and modernize teaching methods</em></strong>. Instead of relying on traditional teaching methods that emphasize grammar rules and rote memorization, educators ought to design a balanced curriculum placing equal emphasis on all four language skills—listening comprehension, speaking fluency, reading comprehension, and written communication. Moreover, teachers should increase communicative activities such as group discussions, role-plays, and presentations to foster active classroom interaction. Integrating practical learning content and authentic materials related to workplace communication and travel further prepares learners for real-life communication.\n\nFinally, <strong><em>schools and communities should create more opportunities for real-life language practice</em></strong>. Establishing extracurricular language clubs, holding language festivals, and arranging exchange programs with native speakers enable students to overcome language barriers and build conversational confidence naturally.\n\nIn conclusion, <strong>improving language education</strong> requires a comprehensive approach. By increasing financial investment, reforming curriculum design, and expanding authentic communicative opportunities, society can ensure that learners gain the vital linguistic competence needed for personal and academic success in the modern era.",
+          "translation_b2": "Trong thế giới hội nhập và toàn cầu hóa ngày nay, <strong>thúc đẩy giáo dục ngôn ngữ</strong> đã trở thành một ưu tiên cấp bách đối với cả chính phủ và các cơ sở giáo dục. Sự thông thạo ngoại ngữ không chỉ mở ra triển vọng nghề nghiệp cho mỗi cá nhân mà còn nâng cao năng lực cạnh tranh quốc gia và sự hợp tác xuyên biên giới. <strong>Bài luận này sẽ đề xuất một số biện pháp thiết thực có thể triển khai nhằm nâng cao chất lượng giáo dục ngôn ngữ một cách hiệu quả.</strong>\n\nTrước hết, <strong><em>chính phủ nên tăng cường đầu tư và hỗ trợ tài chính cho giáo dục ngôn ngữ</em></strong>. Các cơ quan nhà nước có thể phân bổ ngân sách lớn hơn cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở hạ tầng giáo dục, nâng cấp cơ sở vật chất và lắp đặt các trang thiết bị giảng dạy hiện đại. Ngoài ra, việc cung cấp hỗ trợ tài chính và học bổng cho học sinh nghèo có hoàn cảnh khó khăn sẽ đảm bảo cơ hội tiếp cận bình đẳng với các khóa học ngoại ngữ và giúp giảm bớt bất bình đẳng trong giáo dục. Hơn nữa, việc thiết lập quan hệ đối tác quốc tế cho phép các cơ sở giáo dục trong nước tiếp cận nguồn tài trợ và áp dụng các chương trình tiên tiến, tối đa hóa lợi ích từ hợp tác quốc tế.\n\nQuan trọng không kém, <strong><em>các trường học nên cải thiện thiết kế chương trình và hiện đại hóa phương pháp giảng dạy</em></strong>. Thay vì phụ thuộc vào các phương pháp giảng dạy truyền thống vốn quá chú trọng vào quy tắc ngữ pháp và học thuộc lòng máy móc, các nhà giáo dục nên thiết kế chương trình học cân bằng, chú trọng đồng đều vào cả bốn kỹ năng—nghe hiểu, nói trôi chảy, đọc hiểu và giao tiếp bằng văn bản. Hơn nữa, giáo viên nên tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để thúc đẩy sự tương tác tích cực trong lớp học. Việc lồng ghép nội dung học tập thực tiễn và tài liệu thực tế gắn liền với giao tiếp công sở và du lịch sẽ chuẩn bị tốt hơn cho người học bước vào giao tiếp trong đời sống thực tế.\n\nCuối cùng, <strong><em>nhà trường và cộng đồng nên tạo thêm nhiều cơ hội thực hành ngôn ngữ trong thực tế</em></strong>. Việc thành lập các câu lạc bộ ngoại ngữ ngoại khóa, tổ chức ngày hội ngôn ngữ và sắp xếp các chương trình trao đổi với người bản ngữ sẽ giúp học sinh vượt qua rào cản ngôn ngữ và xây dựng sự tự tin trong giao tiếp một cách tự nhiên.\n\nTóm lại, <strong>việc nâng cao chất lượng giáo dục ngôn ngữ</strong> đòi hỏi một cách tiếp cận toàn diện. Bằng cách tăng cường đầu tư tài chính, đổi mới thiết kế chương trình học và mở rộng các cơ hội giao tiếp thực tế, xã hội có thể đảm bảo rằng người học sẽ đạt được năng lực ngôn ngữ thiết yếu phục vụ cho sự thành công của bản thân và học thuật trong thời đại mới.",
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Chuyên mục Học ngoại ngữ - Báo VnExpress",
+                "summary": "Tổng hợp các phương pháp học tiếng Anh phản xạ, bí quyết mở rộng vốn từ vựng và kinh nghiệm giảng dạy ngoại ngữ hiện đại.",
+                "url": "https://vnexpress.net/giao-duc/hoc-tieng-anh"
+              },
+              {
+                "source": "Báo Tuổi Trẻ",
+                "title": "Đổi mới dạy học ngoại ngữ theo định hướng phát triển năng lực giao tiếp",
+                "summary": "Phân tích xu hướng đổi mới phương pháp giảng dạy tiếng Anh trong nhà trường phổ thông, chú trọng kỹ năng nói và tương tác thực tế.",
+                "url": "https://tuoitre.vn/giao-duc.htm"
+              },
+              {
+                "source": "Báo Thanh Niên",
+                "title": "Nâng cao chất lượng giáo dục ngôn ngữ đáp ứng yêu cầu hội nhập quốc tế",
+                "summary": "Các chính sách đầu tư cơ sở hạ tầng, nâng cao năng lực giáo viên và tạo môi trường giao lưu quốc tế cho học sinh, sinh viên.",
+                "url": "https://thanhnien.vn/giao-duc.html"
+              }
+            ],
+            "en": [
+              {
+                "source": "British Council",
+                "title": "Innovations in Language Teaching and Learning: Global Evidence",
+                "summary": "Comprehensive research detailing innovative communicative language teaching methodologies, teacher development, and technology integration.",
+                "url": "https://www.britishcouncil.org/research-policy-insight/research-reports"
+              },
+              {
+                "source": "UNESCO",
+                "title": "Promoting Multilingual Education and Lifelong Language Learning",
+                "summary": "Global educational guidelines highlighting the importance of early language acquisition, educational equity, and government investment.",
+                "url": "https://www.unesco.org/en/education"
+              },
+              {
+                "source": "Cambridge English",
+                "title": "Digital Technologies in Language Learning and Real-World Communication",
+                "summary": "Expert insights into utilizing digital platforms, interactive multimedia, and authentic communicative resources to accelerate language proficiency.",
+                "url": "https://www.cambridgeenglish.org/research-and-validation/"
+              }
+            ]
+          }
+        }
       },
       {
         "id": 26,

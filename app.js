@@ -1852,7 +1852,7 @@ function isWordSubphrase(shortPhrase, longPhrase) {
   return false;
 }
 
-function deduplicateCollocations(cols) {
+function deduplicateCollocations(cols, filterSubphrases = true) {
   if (!Array.isArray(cols)) return [];
   const unique = [];
   cols.forEach(c => {
@@ -1862,6 +1862,8 @@ function deduplicateCollocations(cols) {
       unique.push(c);
     }
   });
+
+  if (!filterSubphrases) return unique;
 
   return unique.filter(c => {
     const isSub = unique.some(other => {
@@ -2099,9 +2101,12 @@ function renderIdeaSelectionComponent(topic) {
     : null;
   const isOpinionDisagree = isOpinion && activeApp && (activeApp.stance === 'disagree' || (activeApp.name && activeApp.name.includes('KHÔNG ĐỒNG Ý')));
 
-  let bLabel = isCausesSolutions ? "NGUYÊN NHÂN / VẤN ĐỀ" : (isOpinion ? (isOpinionDisagree ? "LÝ DO PHẢN ĐỐI / KHÔNG ĐỒNG Ý (DISAGREE)" : "LÝ DO ĐỒNG Ý (AGREE)") : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
+  const topicTagsLower = ((Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || ''))).toLowerCase();
+  const isCausesSolutionsOnlySolutions = isCausesSolutions && (topicTagsLower.includes('solution') || topicTagsLower.includes('measure')) && !topicTagsLower.includes('cause') && !topicTagsLower.includes('effect') && !topicTagsLower.includes('problem');
+
+  let bLabel = isCausesSolutions ? (isCausesSolutionsOnlySolutions ? "GIẢI PHÁP / BIỆN PHÁP ĐỀ XUẤT" : "NGUYÊN NHÂN / VẤN ĐỀ") : (isOpinion ? (isOpinionDisagree ? "LÝ DO PHẢN ĐỐI / KHÔNG ĐỒNG Ý (DISAGREE)" : "LÝ DO ĐỒNG Ý (AGREE)") : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
   let dLabel = isCausesSolutions ? "GIẢI PHÁP / BIỆN PHÁP" : (isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ"));
-  let bIcon = isCausesSolutions ? "🔍" : (isOpinion ? (isOpinionDisagree ? "👎" : "👍") : (isDiscussion ? "👥" : "✨"));
+  let bIcon = isCausesSolutions ? (isCausesSolutionsOnlySolutions ? "💡" : "🔍") : (isOpinion ? (isOpinionDisagree ? "👎" : "👍") : (isDiscussion ? "👥" : "✨"));
   let dIcon = isCausesSolutions ? "💡" : (isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️"));
 
   return `
@@ -2323,10 +2328,13 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
-        ? deduplicateCollocations(item.point_collocations)
-        : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
-      pointCols = deduplicateCollocations(pointCols);
+      const hasExplicitPointCols = Array.isArray(item.point_collocations) && item.point_collocations.length > 0;
+      let pointCols = hasExplicitPointCols
+        ? deduplicateCollocations(item.point_collocations, false)
+        : deduplicateCollocations(getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6));
+      if (!hasExplicitPointCols) {
+        pointCols = deduplicateCollocations(pointCols);
+      }
       if (transLevel === 'B1') {
         pointCols = pointCols.map(adaptCollocationForB1);
       }
@@ -2343,10 +2351,13 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
-          ? deduplicateCollocations(item.evidence_collocations[sIdx])
-          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
-        evCols = deduplicateCollocations(evCols);
+        const hasExplicitEvCols = Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0;
+        let evCols = hasExplicitEvCols
+          ? deduplicateCollocations(item.evidence_collocations[sIdx], false)
+          : deduplicateCollocations(getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6));
+        if (!hasExplicitEvCols) {
+          evCols = deduplicateCollocations(evCols);
+        }
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
@@ -2367,10 +2378,13 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
-        ? deduplicateCollocations(item.point_collocations)
-        : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
-      pointCols = deduplicateCollocations(pointCols);
+      const hasExplicitPointCols = Array.isArray(item.point_collocations) && item.point_collocations.length > 0;
+      let pointCols = hasExplicitPointCols
+        ? deduplicateCollocations(item.point_collocations, false)
+        : deduplicateCollocations(getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6));
+      if (!hasExplicitPointCols) {
+        pointCols = deduplicateCollocations(pointCols);
+      }
       if (transLevel === 'B1') {
         pointCols = pointCols.map(adaptCollocationForB1);
       }
@@ -2387,10 +2401,13 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
-          ? deduplicateCollocations(item.evidence_collocations[sIdx])
-          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
-        evCols = deduplicateCollocations(evCols);
+        const hasExplicitEvCols = Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0;
+        let evCols = hasExplicitEvCols
+          ? deduplicateCollocations(item.evidence_collocations[sIdx], false)
+          : deduplicateCollocations(getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6));
+        if (!hasExplicitEvCols) {
+          evCols = deduplicateCollocations(evCols);
+        }
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
@@ -4462,7 +4479,9 @@ function renderOutline() {
   const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
 
   if (isSelectable) {
-    const group1Name = isCausesSolutions ? 'nguyên nhân' : (isOpinion ? (isOpinionDisagree ? 'lý do không đồng ý' : 'lý do đồng ý') : (isDiscussion ? 'quan điểm 1' : 'thuận lợi'));
+    const topicTagsLower = ((Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || ''))).toLowerCase();
+    const isCausesSolutionsOnlySolutions = isCausesSolutions && (topicTagsLower.includes('solution') || topicTagsLower.includes('measure')) && !topicTagsLower.includes('cause') && !topicTagsLower.includes('effect') && !topicTagsLower.includes('problem');
+    const group1Name = isCausesSolutions ? (isCausesSolutionsOnlySolutions ? 'giải pháp' : 'nguyên nhân') : (isOpinion ? (isOpinionDisagree ? 'lý do không đồng ý' : 'lý do đồng ý') : (isDiscussion ? 'quan điểm 1' : 'thuận lợi'));
     const group2Name = isCausesSolutions ? 'giải pháp' : (isOpinion ? 'lý do' : (isDiscussion ? 'quan điểm 2' : 'bất lợi'));
     const selBanner = document.createElement('div');
     selBanner.className = 'outline-idea-selector-banner';
