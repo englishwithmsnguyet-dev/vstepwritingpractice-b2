@@ -142987,22 +142987,22 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Chuyên mục Học ngoại ngữ - Báo VnExpress",
-                "summary": "Tổng hợp các phương pháp học tiếng Anh phản xạ, bí quyết mở rộng vốn từ vựng và kinh nghiệm giảng dạy ngoại ngữ hiện đại.",
-                "url": "https://vnexpress.net/giao-duc/hoc-tieng-anh"
-              },
-              {
                 "source": "Báo Tuổi Trẻ",
-                "title": "Đổi mới dạy học ngoại ngữ theo định hướng phát triển năng lực giao tiếp",
-                "summary": "Phân tích xu hướng đổi mới phương pháp giảng dạy tiếng Anh trong nhà trường phổ thông, chú trọng kỹ năng nói và tương tác thực tế.",
-                "url": "https://tuoitre.vn/giao-duc.htm"
+                "title": "Thí điểm dùng tiếng Anh dạy học: TP.HCM chuẩn bị ra sao?",
+                "summary": "Phân tích lộ trình thí điểm sử dụng tiếng Anh làm ngôn ngữ giảng dạy các môn học, giải pháp bồi dưỡng đội ngũ giáo viên và chuẩn bị cơ sở vật chất.",
+                "url": "https://tuoitre.vn/thi-diem-dung-tieng-anh-day-hoc-tp-hcm-chuan-bi-ra-sao-20240915222528129.htm"
               },
               {
-                "source": "Báo Thanh Niên",
-                "title": "Nâng cao chất lượng giáo dục ngôn ngữ đáp ứng yêu cầu hội nhập quốc tế",
-                "summary": "Các chính sách đầu tư cơ sở hạ tầng, nâng cao năng lực giáo viên và tạo môi trường giao lưu quốc tế cho học sinh, sinh viên.",
-                "url": "https://thanhnien.vn/giao-duc.html"
+                "source": "VnExpress",
+                "title": "Phương pháp Linearthinking đón đầu xu thế dạy học bằng tiếng Anh",
+                "summary": "Đổi mới phương pháp sư phạm, rèn luyện tư duy logic bằng ngoại ngữ thay vì học thuộc lòng ngữ pháp máy móc, giúp học sinh phát triển phản xạ tự nhiên.",
+                "url": "https://vnexpress.net/phuong-phap-linearthinking-don-dau-xu-the-day-hoc-bang-tieng-anh-4947292.html"
+              },
+              {
+                "source": "VnExpress",
+                "title": "Đưa tiếng Anh thành ngôn ngữ thứ hai trong trường học",
+                "summary": "Chuyên đề tổng hợp chính sách của Chính phủ, đề án đào tạo năng lực giáo viên và đầu tư nguồn lực tài chính nhằm thúc đẩy giáo dục ngoại ngữ toàn diện.",
+                "url": "https://vnexpress.net/topic/dua-tieng-anh-thanh-ngon-ngu-thu-hai-trong-truong-hoc-28330"
               }
             ],
             "en": [
