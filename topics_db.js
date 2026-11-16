@@ -59211,7 +59211,7 @@ const ESSAY_DATA = [
           },
           "vocab_step": {
             "theme": "Becoming famous (Trở nên nổi tiếng)",
-            "overview": "Hệ thống từ vựng chuyên sâu phân cấp rõ ràng theo 2 trình độ B1 và B2, bám sát toàn diện 5 Thuận lợi và 5 Bất lợi của chủ đề người nổi tiếng.",
+            "overview": "Hệ thống từ vựng và cụm từ thực tế, tự nhiên theo chuẩn khảo thí VSTEP B1 và B2, bám sát toàn diện 5 Thuận lợi và 5 Bất lợi của chủ đề người nổi tiếng.",
             "single_words": [
               {
                 "word": "celebrity",
@@ -59221,7 +59221,7 @@ const ESSAY_DATA = [
                 "vi": "người nổi tiếng",
                 "example_en": "Many young people dream of becoming a famous celebrity.",
                 "example_vi": "Nhiều người trẻ mơ ước trở thành một người nổi tiếng.",
-                "family": "celebrate (v), celebration (n)"
+                "family": "celebrated (adj)"
               },
               {
                 "word": "recognition",
@@ -59229,18 +59229,18 @@ const ESSAY_DATA = [
                 "pos": "noun",
                 "level": "B1, B2",
                 "vi": "sự công nhận, biết đến rộng rãi",
-                "example_en": "She finally received recognition for her musical talent.",
-                "example_vi": "Cô ấy cuối cùng đã nhận được sự công nhận cho tài năng âm nhạc của mình.",
+                "example_en": "She finally received public recognition for her hard work.",
+                "example_vi": "Cô ấy cuối cùng đã nhận được sự công nhận của công chúng cho nỗ lực của mình.",
                 "family": "recognize (v), recognizable (adj)"
               },
               {
                 "word": "admire",
                 "ipa": "/ədˈmaɪə(r)/",
                 "pos": "verb",
-                "level": "B1",
+                "level": "B1, B2",
                 "vi": "ngưỡng mộ, khâm phục",
-                "example_en": "Fans deeply admire the singer for her beautiful voice and kindness.",
-                "example_vi": "Người hâm mộ rất ngưỡng mộ nữ ca sĩ vì giọng hát hay và lòng tốt của cô.",
+                "example_en": "Fans deeply admire the singer for her talent and generosity.",
+                "example_vi": "Người hâm mộ rất ngưỡng mộ nữ ca sĩ vì tài năng và sự hào phóng của cô.",
                 "family": "admiration (n), admirable (adj)"
               },
               {
@@ -59257,21 +59257,21 @@ const ESSAY_DATA = [
                 "word": "commercial",
                 "ipa": "/kəˈmɜːʃl/",
                 "pos": "adj",
-                "level": "B1",
+                "level": "B1, B2",
                 "vi": "mang tính thương mại, quảng cáo",
-                "example_en": "Celebrities earn high income by appearing in commercial advertisements.",
-                "example_vi": "Người nổi tiếng kiếm thu nhập cao bằng cách xuất hiện trong các quảng cáo thương mại.",
-                "family": "commerce (n), commercially (adv)"
+                "example_en": "Celebrities earn extra income by appearing in commercial advertisements.",
+                "example_vi": "Người nổi tiếng kiếm thêm thu nhập bằng cách xuất hiện trong các quảng cáo thương mại.",
+                "family": "commercially (adv)"
               },
               {
-                "word": "advertise",
-                "ipa": "/ˈædvətaɪz/",
-                "pos": "verb",
-                "level": "B1",
-                "vi": "quảng cáo, quảng bá sản phẩm",
-                "example_en": "Top sports stars often advertise popular shoe brands.",
-                "example_vi": "Các ngôi sao thể thao hàng đầu thường quảng cáo cho các nhãn hàng giày nổi tiếng.",
-                "family": "advertisement (n), advertising (n)"
+                "word": "endorsement",
+                "ipa": "/ɪnˈdɔːsmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hợp đồng quảng bá, đại diện sản phẩm",
+                "example_en": "Product endorsements bring large profits for popular sports stars.",
+                "example_vi": "Hợp đồng quảng bá sản phẩm đem lại lợi nhuận lớn cho các ngôi sao thể thao.",
+                "family": "endorse (v)"
               },
               {
                 "word": "influence",
@@ -59279,9 +59279,9 @@ const ESSAY_DATA = [
                 "pos": "noun",
                 "level": "B1, B2",
                 "vi": "sức ảnh hưởng, tác động",
-                "example_en": "Famous people have a huge influence on young audiences.",
-                "example_vi": "Người nổi tiếng có sức ảnh hưởng rất lớn đối với khán giả trẻ.",
-                "family": "influential (adj), influencer (n)"
+                "example_en": "Public figures have a strong influence on the lifestyle of young people.",
+                "example_vi": "Các nhân vật của công chúng có ảnh hưởng mạnh mẽ đến lối sống của giới trẻ.",
+                "family": "influential (adj)"
               },
               {
                 "word": "inspire",
@@ -59289,19 +59289,19 @@ const ESSAY_DATA = [
                 "pos": "verb",
                 "level": "B1, B2",
                 "vi": "truyền cảm hứng",
-                "example_en": "Good leaders use their fame to inspire people to protect the environment.",
-                "example_vi": "Những nhà lãnh đạo tốt sử dụng danh tiếng của mình để truyền cảm hứng cho mọi người bảo vệ môi trường.",
+                "example_en": "Successful leaders use their fame to inspire people to do charity work.",
+                "example_vi": "Những người thành công dùng danh tiếng của mình để truyền cảm hứng làm việc thiện.",
                 "family": "inspiration (n), inspirational (adj)"
               },
               {
-                "word": "relationship",
-                "ipa": "/rɪˈleɪʃnʃɪp/",
+                "word": "partnership",
+                "ipa": "/ˈpɑːtnəʃɪp/",
                 "pos": "noun",
-                "level": "B1",
-                "vi": "mối quan hệ",
-                "example_en": "Fame helps artists build good relationships with top movie directors.",
-                "example_vi": "Danh tiếng giúp các nghệ sĩ xây dựng mối quan hệ tốt với các đạo diễn phim hàng đầu.",
-                "family": "relate (v), relative (adj/n)"
+                "level": "B1, B2",
+                "vi": "mối quan hệ hợp tác",
+                "example_en": "Long-term partnerships with big brands ensure a steady income for creators.",
+                "example_vi": "Quan hệ hợp tác lâu dài với các nhãn hàng lớn đảm bảo thu nhập ổn định cho người làm sáng tạo.",
+                "family": "partner (n)"
               },
               {
                 "word": "collaborate",
@@ -59309,38 +59309,68 @@ const ESSAY_DATA = [
                 "pos": "verb",
                 "level": "B1, B2",
                 "vi": "hợp tác, phối hợp làm việc",
-                "example_en": "Famous singers often collaborate with international producers.",
-                "example_vi": "Các ca sĩ nổi tiếng thường hợp tác với các nhà sản xuất quốc tế.",
-                "family": "collaboration (n), collaborative (adj)"
+                "example_en": "Famous artists frequently collaborate with foreign directors on new film projects.",
+                "example_vi": "Các nghệ sĩ nổi tiếng thường xuyên hợp tác với các đạo diễn nước ngoài trong các dự án phim mới.",
+                "family": "collaboration (n)"
+              },
+              {
+                "word": "network",
+                "ipa": "/ˈnetwɜːk/",
+                "pos": "noun/verb",
+                "level": "B1, B2",
+                "vi": "mạng lưới quan hệ / kết nối quan hệ",
+                "example_en": "Fame helps performers build an extensive professional network.",
+                "example_vi": "Danh tiếng giúp những người biểu diễn xây dựng một mạng lưới quan hệ công việc rộng lớn.",
+                "family": "networking (n)"
               },
               {
                 "word": "privacy",
                 "ipa": "/ˈprɪvəsi/",
                 "pos": "noun",
                 "level": "B1, B2",
-                "vi": "quyền riêng tư, đời tư",
-                "example_en": "Celebrities lose their personal privacy because cameras follow them everywhere.",
-                "example_vi": "Người nổi tiếng mất quyền riêng tư cá nhân vì ống kính máy ảnh theo chân họ khắp nơi.",
+                "vi": "quyền riêng tư, đời tư cá nhân",
+                "example_en": "Celebrities often complain about the loss of personal privacy in their daily lives.",
+                "example_vi": "Người nổi tiếng thường phàn nàn về việc mất quyền riêng tư cá nhân trong đời sống hằng ngày.",
                 "family": "private (adj), privately (adv)"
               },
               {
-                "word": "criticize",
-                "ipa": "/ˈkrɪtɪsaɪz/",
-                "pos": "verb",
-                "level": "B1",
-                "vi": "chỉ trích, phê phán",
-                "example_en": "Public figures are easily criticized whenever they make a small mistake.",
-                "example_vi": "Nhân vật của công chúng rất dễ bị chỉ trích mỗi khi họ phạm một lỗi nhỏ.",
-                "family": "criticism (n), critical (adj)"
+                "word": "paparazzi",
+                "ipa": "/ˌpæpəˈrætsi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "thợ săn ảnh bám đuôi người nổi tiếng",
+                "example_en": "Paparazzi often wait outside celebrities' houses to take secret photos.",
+                "example_vi": "Cánh thợ săn ảnh thường chờ sẵn bên ngoài nhà người nổi tiếng để chụp ảnh lén.",
+                "family": "paparazzo (n.sing)"
+              },
+              {
+                "word": "scrutiny",
+                "ipa": "/ˈskruːtəni/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự săm soi, theo dõi sát sao của dư luận",
+                "example_en": "Public figures must learn to live under constant media scrutiny.",
+                "example_vi": "Nhân vật của công chúng phải học cách sống dưới sự săm soi thường xuyên của truyền thông.",
+                "family": "scrutinize (v)"
+              },
+              {
+                "word": "criticism",
+                "ipa": "/ˈkrɪtɪsɪzəm/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự chỉ trích, phê bình",
+                "example_en": "Famous stars often face harsh criticism whenever they make a mistake in public.",
+                "example_vi": "Các ngôi sao nổi tiếng thường đối mặt với sự chỉ trích gay gắt mỗi khi họ mắc lỗi trước công chúng.",
+                "family": "criticize (v), critical (adj)"
               },
               {
                 "word": "rumor",
                 "ipa": "/ˈruːmə(r)/",
                 "pos": "noun",
                 "level": "B1, B2",
-                "vi": "tin đồn, lời đồn thất thiệt",
-                "example_en": "False rumors on the Internet can hurt a celebrity's feelings and reputation.",
-                "example_vi": "Những tin đồn sai sự thật trên mạng có thể làm tổn thương tình cảm và danh tiếng của người nổi tiếng.",
+                "vi": "tin đồn, lời đồn đại",
+                "example_en": "False rumors spread quickly on social media and can damage an artist's image.",
+                "example_vi": "Những tin đồn thất thiệt lan truyền nhanh trên mạng xã hội và có thể làm hại hình ảnh nghệ sĩ.",
                 "family": "rumored (adj)"
               },
               {
@@ -59348,40 +59378,50 @@ const ESSAY_DATA = [
                 "ipa": "/ˈpreʃə(r)/",
                 "pos": "noun",
                 "level": "B1, B2",
-                "vi": "áp lực, gánh nặng tâm lý",
-                "example_en": "Young stars are under continuous pressure to look perfect.",
-                "example_vi": "Các ngôi sao trẻ chịu áp lực liên tục để luôn có vẻ ngoài hoàn hảo.",
+                "vi": "áp lực tâm lý",
+                "example_en": "Young idols are under tremendous pressure to maintain a perfect public image.",
+                "example_vi": "Các thần tượng trẻ chịu áp lực to lớn để duy trì hình ảnh hoàn hảo trước công chúng.",
                 "family": "pressurize (v)"
               },
               {
-                "word": "stressful",
-                "ipa": "/ˈstresfl/",
-                "pos": "adj",
-                "level": "B1",
-                "vi": "căng thẳng, gây áp lực",
-                "example_en": "Living in the public eye can be extremely stressful.",
-                "example_vi": "Sống dưới sự chú ý của dư luận có thể vô cùng căng thẳng.",
-                "family": "stress (n/v), stressed (adj)"
+                "word": "anxiety",
+                "ipa": "/æŋˈzaɪəti/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự lo âu, cảm giác bất an",
+                "example_en": "Continuous public attention can cause severe anxiety and sleeping problems for stars.",
+                "example_vi": "Sự chú ý liên tục của công chúng có thể gây ra chứng lo âu nặng và mất ngủ cho các ngôi sao.",
+                "family": "anxious (adj), anxiously (adv)"
               },
               {
                 "word": "exhausted",
                 "ipa": "/ɪɡˈzɔːstɪd/",
                 "pos": "adj",
                 "level": "B1, B2",
-                "vi": "kiệt sức, mệt mỏi rã rời",
-                "example_en": "Tight schedules leave many performers completely exhausted.",
-                "example_vi": "Lịch trình dày đặc khiến nhiều người biểu diễn hoàn toàn kiệt sức.",
+                "vi": "kiệt sức, vô cùng mệt mỏi",
+                "example_en": "Non-stop travel and rehearsals leave many performers completely exhausted.",
+                "example_vi": "Việc di chuyển và tập luyện không ngừng khiến nhiều người biểu diễn hoàn toàn kiệt sức.",
                 "family": "exhaust (v), exhaustion (n)"
               },
               {
                 "word": "complacent",
                 "ipa": "/kəmˈpleɪsnt/",
                 "pos": "adj",
-                "level": "B1, B2",
-                "vi": "tự mãn, tự hài lòng quá sớm",
-                "example_en": "If stars become complacent, they may stop practicing their skills.",
-                "example_vi": "Nếu các ngôi sao trở nên tự mãn, họ có thể ngừng rèn luyện kỹ năng của mình.",
+                "level": "B2",
+                "vi": "tự mãn, chủ quan tự hài lòng",
+                "example_en": "If a star becomes complacent after early success, their skills may stop improving.",
+                "example_vi": "Nếu một ngôi sao trở nên tự mãn sau thành công sớm, kỹ năng của họ có thể ngừng tiến bộ.",
                 "family": "complacency (n)"
+              },
+              {
+                "word": "flaw",
+                "ipa": "/flɔː/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "khuyết điểm, thiếu sót",
+                "example_en": "When people always receive praise, they may fail to notice their own personal flaws.",
+                "example_vi": "Khi luôn nhận được lời khen ngợi, con người ta có thể không nhận ra khuyết điểm của chính mình.",
+                "family": "flawed (adj), flawless (adj)"
               },
               {
                 "word": "temptation",
@@ -59389,18 +59429,18 @@ const ESSAY_DATA = [
                 "pos": "noun",
                 "level": "B1, B2",
                 "vi": "sự cám dỗ",
-                "example_en": "Sudden wealth brings many temptations that young people cannot resist.",
-                "example_vi": "Sự giàu có bất ngờ mang lại nhiều cám dỗ mà người trẻ khó lòng cưỡng lại.",
+                "example_en": "Sudden wealth brings many temptations that young people find difficult to resist.",
+                "example_vi": "Sự giàu có bất ngờ mang đến nhiều cám dỗ mà người trẻ thấy khó lòng cưỡng lại.",
                 "family": "tempt (v), tempting (adj)"
               },
               {
                 "word": "lavish",
                 "ipa": "/ˈlævɪʃ/",
                 "pos": "adj",
-                "level": "B1, B2",
+                "level": "B2",
                 "vi": "xa hoa, phung phí",
-                "example_en": "Spending money on a lavish lifestyle can lead to financial trouble.",
-                "example_vi": "Tiêu tiền vào một lối sống xa hoa có thể dẫn đến rắc rối tài chính.",
+                "example_en": "Some celebrities spend too much money on luxury cars and lavish parties.",
+                "example_vi": "Một số người nổi tiếng tiêu quá nhiều tiền vào xe sang và những bữa tiệc xa hoa.",
                 "family": "lavishly (adv)"
               },
               {
@@ -59409,159 +59449,19 @@ const ESSAY_DATA = [
                 "pos": "noun",
                 "level": "B1, B2",
                 "vi": "danh tiếng, uy tín cá nhân",
-                "example_en": "A bad scandal can ruin a celebrity's reputation overnight.",
-                "example_vi": "Một vụ bê bối tai tiếng có thể hủy hoại danh tiếng của một ngôi sao chỉ sau một đêm.",
+                "example_en": "It takes years to build a good reputation, but a single scandal can ruin it.",
+                "example_vi": "Mất nhiều năm để xây dựng danh tiếng tốt, nhưng chỉ một vụ bê bối có thể hủy hoại nó.",
                 "family": "reputable (adj)"
               },
               {
-                "word": "lucrative",
-                "ipa": "/ˈluːkrətɪv/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "sinh lời cao, đem lại thu nhập khủng",
-                "example_en": "Top influencers frequently sign lucrative endorsement deals with luxury brands.",
-                "example_vi": "Những người có sức ảnh hưởng hàng đầu thường ký các hợp đồng quảng bá béo bở với các thương hiệu xa xỉ.",
-                "family": "lucratively (adv)"
-              },
-              {
-                "word": "endorsement",
-                "ipa": "/ɪnˈdɔːsmənt/",
+                "word": "spotlight",
+                "ipa": "/ˈspɒtlaɪt/",
                 "pos": "noun",
-                "level": "B2",
-                "vi": "sự bảo chứng, hợp đồng đại diện quảng bá",
-                "example_en": "Commercial endorsements generate massive revenues for celebrated athletes.",
-                "example_vi": "Các hợp đồng đại diện thương mại đem lại doanh thu khổng lồ cho các vận động viên danh tiếng.",
-                "family": "endorse (v)"
-              },
-              {
-                "word": "validation",
-                "ipa": "/ˌvælɪˈdeɪʃn/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự công nhận, khẳng định giá trị chính thức",
-                "example_en": "Winning prestigious awards provides public validation for years of artistic dedication.",
-                "example_vi": "Chiến thắng các giải thưởng danh giá mang lại sự ghi nhận từ công chúng cho những năm tháng cống hiến nghệ thuật.",
-                "family": "validate (v), valid (adj)"
-              },
-              {
-                "word": "adulation",
-                "ipa": "/ˌædʒuˈleɪʃn/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự tán tụng, tâng bốc nồng nhiệt của công chúng",
-                "example_en": "Constant public adulation can easily distort a celebrity's sense of reality.",
-                "example_vi": "Sự tán dương liên tục từ công chúng có thể dễ dàng làm méo mó nhận thức thực tế của một người nổi tiếng.",
-                "family": "adulatory (adj)"
-              },
-              {
-                "word": "philanthropic",
-                "ipa": "/ˌfɪlənˈθrɒpɪk/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "mang tính bác ái, từ thiện xã hội",
-                "example_en": "Many wealthy stars establish philanthropic foundations to support underprivileged children.",
-                "example_vi": "Nhiều ngôi sao giàu có thành lập các quỹ thiện nguyện để hỗ trợ trẻ em có hoàn cảnh khó khăn.",
-                "family": "philanthropy (n), philanthropist (n)"
-              },
-              {
-                "word": "deprivation",
-                "ipa": "/ˌdeprɪˈveɪʃn/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự tước đoạt, sự mất mát nghiêm trọng",
-                "example_en": "A major drawback of stardom is the acute deprivation of fundamental personal privacy.",
-                "example_vi": "Một bất lợi lớn của danh vọng là sự tước đoạt nghiêm trọng quyền riêng tư cá nhân cơ bản.",
-                "family": "deprive (v), deprived (adj)"
-              },
-              {
-                "word": "scrutiny",
-                "ipa": "/ˈskruːtəni/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự săm soi, giám sát khắt khe của dư luận",
-                "example_en": "Public figures must endure relentless media scrutiny in both their professional and private lives.",
-                "example_vi": "Những nhân vật của công chúng phải chịu đựng sự săm soi khắt khe không ngừng từ truyền thông trong cả sự nghiệp lẫn đời tư.",
-                "family": "scrutinize (v)"
-              },
-              {
-                "word": "paparazzi",
-                "ipa": "/ˌpæpəˈrætsi/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "cánh săn ảnh bám đuôi người nổi tiếng",
-                "example_en": "Aggressive paparazzi often invade celebrities' private residences to capture sensational photos.",
-                "example_vi": "Những thợ săn ảnh quá khích thường xâm nhập tư gia của người nổi tiếng để săn những bức ảnh giật gân.",
-                "family": "paparazzo (n.sing)"
-              },
-              {
-                "word": "slander",
-                "ipa": "/ˈslɑːndə(r)/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự vu khống, phỉ báng danh dự",
-                "example_en": "Artists frequently file lawsuits against internet users for malicious slander and defamation.",
-                "example_vi": "Các nghệ sĩ thường xuyên đệ đơn kiện người dùng mạng vì hành vi vu khống và bôi nhọ danh dự.",
-                "family": "slanderous (adj)"
-              },
-              {
-                "word": "vitriol",
-                "ipa": "/ˈvɪtriəl/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "lời lẽ cay độc, độc hại mang tính công kích",
-                "example_en": "Cyberbullying and anonymous vitriol on social media take a heavy toll on performers' mental health.",
-                "example_vi": "Nạn bắt nạt trên mạng và những lời lẽ cay độc ẩn danh trên mạng xã hội gây tổn hại nặng nề đến sức khỏe tâm thần của người biểu diễn.",
-                "family": "vitriolic (adj)"
-              },
-              {
-                "word": "infallible",
-                "ipa": "/ɪnˈfæləbl/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "hoàn hảo không tì vết, không bao giờ phạm sai lầm",
-                "example_en": "Expecting public icons to maintain an infallible facade at all times is unrealistic.",
-                "example_vi": "Kỳ vọng các thần tượng công chúng luôn duy trì vẻ ngoài hoàn hảo không tì vết là điều phi thực tế.",
-                "family": "infallibility (n)"
-              },
-              {
-                "word": "conspicuous",
-                "ipa": "/kənˈspɪkjuəs/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "phô trương, dễ gây chú ý",
-                "example_en": "Conspicuous consumption of sports cars and designer jewellery can alienate working-class audiences.",
-                "example_vi": "Việc phô trương tiêu dùng siêu xe và trang sức hàng hiệu có thể làm mất thiện cảm với bộ phận khán giả bình dân.",
-                "family": "conspicuously (adv)"
-              },
-              {
-                "word": "hedonistic",
-                "ipa": "/ˌhiːdəˈnɪstɪk/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "hưởng lạc buông thả, chạy theo khoái lạc",
-                "example_en": "Uncontrolled fame can drive some stars into hedonistic lifestyles and reckless habits.",
-                "example_vi": "Danh vọng mất kiểm soát có thể đẩy một số ngôi sao vào lối sống hưởng lạc buông thả và những thói quen liều lĩnh.",
-                "family": "hedonism (n)"
-              },
-              {
-                "word": "tarnish",
-                "ipa": "/ˈtɑːnɪʃ/",
-                "pos": "verb",
-                "level": "B2",
-                "vi": "làm hoen ố, làm vấy bẩn danh tiếng",
-                "example_en": "A single ethical scandal can irreversibly tarnish an illustrious career built over decades.",
-                "example_vi": "Một vụ bê bối đạo đức đơn lẻ có thể làm hoen ố vĩnh viễn sự nghiệp lẫy lừng được gây dựng qua nhiều thập kỷ.",
-                "family": "tarnished (adj)"
-              },
-              {
-                "word": "prestige",
-                "ipa": "/preˈstiːʒ/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "uy tín, địa vị xã hội cao quý",
-                "example_en": "National awards cement an artist's social prestige and enduring artistic legacy.",
-                "example_vi": "Những giải thưởng quốc gia củng cố uy tín xã hội và di sản nghệ thuật lâu dài của một nghệ sĩ.",
-                "family": "prestigious (adj)"
+                "level": "B1, B2",
+                "vi": "ánh đèn sân khấu, sự chú ý của dư luận",
+                "example_en": "Living in the spotlight means that your personal life is never truly private.",
+                "example_vi": "Sống dưới sự chú ý của dư luận đồng nghĩa với việc đời tư không bao giờ thực sự riêng tư.",
+                "family": "spotlit (adj)"
               }
             ],
             "collocation_groups": [
@@ -59576,48 +59476,40 @@ const ESSAY_DATA = [
                     "vi": "được nhiều người biết đến",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Talented singers quickly become widely known after winning television contests.",
-                    "example_vi": "Các ca sĩ tài năng nhanh chóng được nhiều người biết đến sau khi chiến thắng các cuộc thi truyền hình."
+                    "example_en": "Talented singers quickly become widely known after winning popular music shows.",
+                    "example_vi": "Các ca sĩ tài năng nhanh chóng được nhiều người biết đến sau khi chiến thắng các chương trình âm nhạc."
                   },
                   {
                     "en": "recognized for their talents",
                     "vi": "được công nhận tài năng",
                     "type": "adj.phr",
                     "level": "B1",
-                    "example_en": "They feel proud when they are recognized for their talents and hard work.",
-                    "example_vi": "Họ cảm thấy tự hào khi được công nhận về tài năng và sự nỗ lực làm việc."
+                    "example_en": "People feel happy when they are recognized for their talents and achievements.",
+                    "example_vi": "Mọi người cảm thấy hạnh phúc khi được công nhận tài năng và thành tựu của mình."
                   },
                   {
-                    "en": "achieve great success",
-                    "vi": "đạt được thành công lớn",
-                    "type": "v.phr",
-                    "level": "B1",
-                    "example_en": "Young actors work hard to achieve great success in the film industry.",
-                    "example_vi": "Các diễn viên trẻ nỗ lực làm việc để đạt được thành công lớn trong ngành điện ảnh."
-                  },
-                  {
-                    "en": "gain widespread public recognition",
-                    "vi": "nhận được sự công nhận rộng rãi của công chúng",
+                    "en": "gain public recognition",
+                    "vi": "nhận được sự công nhận của công chúng",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Achieving stardom allows artists to gain widespread public recognition for their creative efforts.",
-                    "example_vi": "Chạm tới danh vọng giúp nghệ sĩ nhận được sự công nhận rộng rãi của công chúng cho nỗ lực sáng tạo."
+                    "example_en": "Fame enables hard-working artists to gain public recognition for their creative efforts.",
+                    "example_vi": "Danh tiếng giúp những nghệ sĩ chăm chỉ nhận được sự công nhận của công chúng cho nỗ lực sáng tạo."
                   },
                   {
-                    "en": "receive formal validation",
-                    "vi": "nhận được sự ghi nhận chính thức",
-                    "type": "v.phr",
+                    "en": "appreciated for their achievements",
+                    "vi": "được trân trọng vì những thành tựu đạt được",
+                    "type": "adj.phr",
                     "level": "B2",
-                    "example_en": "Winning international prizes provides formal validation for exceptional performers.",
-                    "example_vi": "Chiến thắng giải thưởng quốc tế đem lại sự ghi nhận chính thức cho những người biểu diễn xuất sắc."
+                    "example_en": "Celebrities are widely appreciated for their achievements in sports and entertainment.",
+                    "example_vi": "Người nổi tiếng được công chúng trân trọng vì những thành tựu trong thể thao và giải trí."
                   },
                   {
-                    "en": "cement social prestige",
-                    "vi": "củng cố uy tín và vị thế xã hội",
+                    "en": "build a successful reputation",
+                    "vi": "xây dựng danh tiếng thành công",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Decades of high-quality work cement an actor's social prestige and legacy.",
-                    "example_vi": "Nhiều thập kỷ làm việc chất lượng cao củng cố uy tín xã hội và di sản của một diễn viên."
+                    "example_en": "Consistent hard work helps young performers build a successful reputation.",
+                    "example_vi": "Sự chăm chỉ bền bỉ giúp những người biểu diễn trẻ xây dựng được danh tiếng thành công."
                   }
                 ]
               },
@@ -59629,51 +59521,43 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "receive love and admiration",
-                    "vi": "nhận được tình yêu thương và sự ngưỡng mộ",
+                    "vi": "nhận được tình cảm yêu mến và sự ngưỡng mộ",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Popular performers receive great love and admiration from audiences everywhere.",
-                    "example_vi": "Những người biểu diễn được mến mộ nhận được tình yêu thương và sự ngưỡng mộ to lớn từ khán giả ở khắp mọi nơi."
+                    "example_en": "Famous figures receive great love and admiration from people around the world.",
+                    "example_vi": "Những người nổi tiếng nhận được tình cảm yêu mến và sự ngưỡng mộ lớn từ mọi người."
                   },
                   {
-                    "en": "receive numerous compliments",
-                    "vi": "nhận được nhiều lời khen ngợi",
+                    "en": "receive compliments and encouragement",
+                    "vi": "nhận được lời khen ngợi và động viên",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "They receive numerous compliments and warm encouragement on their personal pages.",
-                    "example_vi": "Họ nhận được nhiều lời khen ngợi và sự khích lệ ấm áp trên trang cá nhân."
+                    "example_en": "They regularly receive positive compliments and warm encouragement on their fan pages.",
+                    "example_vi": "Họ thường xuyên nhận được những lời khen tích cực và lời động viên ấm áp trên trang người hâm mộ."
                   },
                   {
                     "en": "strong support from fans",
                     "vi": "sự ủng hộ mạnh mẽ từ người hâm mộ",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Strong support from fans motivates artists to practice and improve every day.",
-                    "example_vi": "Sự ủng hộ mạnh mẽ từ người hâm mộ thúc đẩy các nghệ sĩ rèn luyện và tiến bộ mỗi ngày."
+                    "example_en": "Strong support from fans motivates artists to practice and perform better.",
+                    "example_vi": "Sự ủng hộ mạnh mẽ từ người hâm mộ thôi thúc các nghệ sĩ luyện tập và biểu diễn tốt hơn."
                   },
                   {
-                    "en": "enjoy immense public admiration",
-                    "vi": "tận hưởng sự ngưỡng mộ to lớn của công chúng",
+                    "en": "earn great admiration and respect",
+                    "vi": "nhận được sự ngưỡng mộ và tôn trọng lớn",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Celebrated authors enjoy immense public admiration across different generations.",
-                    "example_vi": "Các tác giả danh tiếng tận hưởng sự ngưỡng mộ to lớn của công chúng qua nhiều thế hệ."
+                    "example_en": "Talented creators easily earn great admiration and respect from their audiences.",
+                    "example_vi": "Những người làm sáng tạo tài năng dễ dàng nhận được sự ngưỡng mộ và tôn trọng từ khán giả."
                   },
                   {
-                    "en": "unwavering affection from audiences",
-                    "vi": "tình cảm bền chặt, không đổi từ khán giả",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "example_en": "Sincere artists maintain unwavering affection from devoted audiences throughout their careers.",
-                    "example_vi": "Những nghệ sĩ chân chính luôn giữ được tình cảm bền chặt từ khán giả trung thành suốt sự nghiệp."
-                  },
-                  {
-                    "en": "derive emotional fulfillment",
-                    "vi": "có được sự thỏa mãn sâu sắc về mặt cảm xúc",
+                    "en": "boost self-confidence",
+                    "vi": "gia tăng sự tự tin cho bản thân",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Performing before cheering stadiums provides deep emotional fulfillment for musicians.",
-                    "example_vi": "Biểu diễn trước những sân vận động hò reo đem lại sự thỏa mãn cảm xúc sâu sắc cho các nhạc sĩ."
+                    "example_en": "Kind words from supporters help boost self-confidence and inspire future work.",
+                    "example_vi": "Những lời nói tốt đẹp từ người ủng hộ giúp gia tăng sự tự tin và truyền cảm hứng cho công việc tương lai."
                   }
                 ]
               },
@@ -59688,48 +59572,48 @@ const ESSAY_DATA = [
                     "vi": "kiếm thêm thu nhập",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Celebrities can easily earn extra income through different promotional activities.",
-                    "example_vi": "Người nổi tiếng có thể dễ dàng kiếm thêm thu nhập thông qua các hoạt động quảng bá khác nhau."
+                    "example_en": "Fame allows popular singers to earn extra income from concerts and events.",
+                    "example_vi": "Danh tiếng cho phép các ca sĩ nổi tiếng kiếm thêm thu nhập từ các buổi hòa nhạc và sự kiện."
                   },
                   {
                     "en": "commercial advertising",
                     "vi": "quảng cáo thương mại",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Participating in commercial advertising brings significant financial returns.",
-                    "example_vi": "Tham gia vào quảng cáo thương mại mang lại nguồn lợi tài chính đáng kể."
+                    "example_en": "Many celebrities make good money through commercial advertising on television.",
+                    "example_vi": "Nhiều người nổi tiếng kiếm được tiền tốt thông qua quảng cáo thương mại trên truyền hình."
                   },
                   {
-                    "en": "product endorsements",
-                    "vi": "giới thiệu và bảo chứng sản phẩm",
+                    "en": "product promotions",
+                    "vi": "quảng bá sản phẩm",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Product endorsements allow famous figures to earn money from trusted consumer goods.",
-                    "example_vi": "Quảng bá sản phẩm cho phép người có tên tuổi kiếm tiền từ các mặt hàng tiêu dùng uy tín."
+                    "example_en": "Social media stars often do product promotions for clothing and beauty brands.",
+                    "example_vi": "Các ngôi sao mạng xã hội thường quảng bá sản phẩm cho các nhãn hàng thời trang và làm đẹp."
                   },
                   {
-                    "en": "brand partnerships",
-                    "vi": "hợp tác với các thương hiệu",
+                    "en": "earn high income from advertising",
+                    "vi": "kiếm thu nhập cao từ quảng cáo",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Influencers can earn high income from advertising and sponsored posts.",
+                    "example_vi": "Những người có sức ảnh hưởng có thể kiếm thu nhập cao từ quảng cáo và bài đăng tài trợ."
+                  },
+                  {
+                    "en": "partnerships with famous brands",
+                    "vi": "hợp tác với các thương hiệu nổi tiếng",
                     "type": "n.phr",
-                    "level": "B1",
-                    "example_en": "Long-term brand partnerships guarantee steady earnings for digital creators.",
-                    "example_vi": "Hợp tác thương hiệu dài hạn đảm bảo thu nhập ổn định cho các nhà sáng tạo nội dung số."
+                    "level": "B2",
+                    "example_en": "Successful athletes sign profitable partnerships with famous global brands.",
+                    "example_vi": "Các vận động viên thành công ký hợp đồng hợp tác sinh lời với các thương hiệu nổi tiếng toàn cầu."
                   },
                   {
-                    "en": "command lucrative endorsement fees",
-                    "vi": "nhận mức thù lao quảng cáo béo bở",
+                    "en": "achieve financial security",
+                    "vi": "đạt được sự đảm bảo tài chính",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "A-list celebrities can command lucrative endorsement fees for television commercials.",
-                    "example_vi": "Những ngôi sao hạng A có thể đòi hỏi mức thù lao quảng cáo béo bở cho các quảng cáo truyền hình."
-                  },
-                  {
-                    "en": "amass substantial financial wealth",
-                    "vi": "tích lũy khối tài sản tài chính đáng kể",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Fame enables entrepreneurial stars to amass substantial financial wealth through smart investments.",
-                    "example_vi": "Danh tiếng cho phép các ngôi sao có óc kinh doanh tích lũy khối tài sản đáng kể qua đầu tư khôn ngoan."
+                    "example_en": "Becoming famous enables many people to achieve long-term financial security.",
+                    "example_vi": "Trở nên nổi tiếng giúp nhiều người đạt được sự đảm bảo tài chính lâu dài."
                   }
                 ]
               },
@@ -59744,48 +59628,48 @@ const ESSAY_DATA = [
                     "vi": "ảnh hưởng tích cực đến cộng đồng",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Good role models have a strong positive influence on the community.",
-                    "example_vi": "Những tấm gương sáng có sức ảnh hưởng tích cực mạnh mẽ đối với cộng đồng."
+                    "example_en": "Celebrities should have a positive influence on the community through their actions.",
+                    "example_vi": "Người nổi tiếng nên tạo ảnh hưởng tích cực đến cộng đồng thông qua hành động của họ."
                   },
                   {
-                    "en": "large following",
-                    "vi": "lượng người theo dõi đông đảo",
+                    "en": "large following on social media",
+                    "vi": "lượng người theo dõi lớn trên mạng xã hội",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "With a large following, internet stars can spread good news very quickly.",
-                    "example_vi": "Với lượng người theo dõi lớn, các ngôi sao mạng có thể lan tỏa tin tốt rất nhanh chóng."
+                    "example_en": "With a large following on social media, stars can share messages with millions.",
+                    "example_vi": "Với lượng người theo dõi lớn trên mạng, các ngôi sao có thể chia sẻ thông điệp tới hàng triệu người."
                   },
                   {
-                    "en": "share inspiring messages",
-                    "vi": "chia sẻ các thông điệp truyền cảm hứng",
+                    "en": "share positive messages",
+                    "vi": "chia sẻ các thông điệp tích cực",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Famous athletes often share inspiring messages to encourage young people to stay fit.",
-                    "example_vi": "Các vận động viên nổi tiếng thường chia sẻ thông điệp truyền cảm hứng để khuyến khích giới trẻ rèn luyện."
+                    "example_en": "Famous figures often share positive messages to encourage people to live healthy lives.",
+                    "example_vi": "Người nổi tiếng thường chia sẻ thông điệp tích cực để khuyến khích mọi người sống lành mạnh."
                   },
                   {
-                    "en": "exert formidable social influence",
-                    "vi": "tạo ra sức ảnh hưởng xã hội to lớn",
+                    "en": "have a strong influence on society",
+                    "vi": "có sức ảnh hưởng mạnh mẽ đến xã hội",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Renowned personalities exert formidable social influence capable of mobilizing public opinion.",
-                    "example_vi": "Các nhân vật tên tuổi tạo ra sức ảnh hưởng xã hội to lớn có khả năng huy động dư luận công chúng."
+                    "example_en": "Prominent personalities have a strong influence on society and can shape public trends.",
+                    "example_vi": "Những nhân vật nổi bật có ảnh hưởng mạnh đến xã hội và có thể định hình xu hướng cộng đồng."
                   },
                   {
-                    "en": "champion philanthropic causes",
-                    "vi": "dẫn dắt và ủng hộ các phong trào thiện nguyện",
+                    "en": "support community and charity projects",
+                    "vi": "ủng hộ các dự án cộng đồng và từ thiện",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Prominent figures frequently champion philanthropic causes such as environmental sustainability.",
-                    "example_vi": "Những nhân vật nổi bật thường xuyên dẫn dắt các phong trào từ thiện như bảo vệ môi trường bền vững."
+                    "example_en": "Many stars use their popularity to support community and charity projects across the country.",
+                    "example_vi": "Nhiều ngôi sao dùng danh tiếng của mình để ủng hộ các dự án cộng đồng và từ thiện trên toàn quốc."
                   },
                   {
-                    "en": "inspire meaningful civic participation",
-                    "vi": "khơi dậy sự tham gia công dân có ý nghĩa",
+                    "en": "raise awareness of important issues",
+                    "vi": "nâng cao nhận thức về các vấn đề quan trọng",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Celebrity advocacy can inspire meaningful civic participation during natural disaster relief.",
-                    "example_vi": "Sự ủng hộ từ người nổi tiếng có thể khơi dậy sự tham gia công dân tích cực trong cứu trợ thiên tai."
+                    "example_en": "Celebrities help raise awareness of important issues like climate change and education.",
+                    "example_vi": "Người nổi tiếng giúp nâng cao nhận thức về các vấn đề quan trọng như biến đổi khí hậu và giáo dục."
                   }
                 ]
               },
@@ -59800,48 +59684,48 @@ const ESSAY_DATA = [
                     "vi": "mở rộng các mối quan hệ xã hội",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Becoming famous helps people expand their social relationships rapidly.",
-                    "example_vi": "Trở nên nổi tiếng giúp mọi người mở rộng các mối quan hệ xã hội một cách nhanh chóng."
+                    "example_en": "Fame gives people the chance to expand social relationships very quickly.",
+                    "example_vi": "Danh tiếng cho mọi người cơ hội mở rộng các mối quan hệ xã hội rất nhanh chóng."
                   },
                   {
                     "en": "meet talented people",
                     "vi": "gặp gỡ những người tài năng",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Popular creators have the opportunity to meet talented people from different fields.",
-                    "example_vi": "Các nhà sáng tạo có cơ hội gặp gỡ những người tài năng từ nhiều lĩnh vực khác nhau."
+                    "example_en": "Successful actors often meet talented people from many different fields.",
+                    "example_vi": "Các diễn viên thành công thường gặp gỡ những người tài năng từ nhiều lĩnh vực khác nhau."
                   },
                   {
                     "en": "new career opportunities",
-                    "vi": "cơ hội nghề nghiệp mới mẻ",
+                    "vi": "những cơ hội nghề nghiệp mới",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Public fame unlocks exciting new career opportunities in media and fashion.",
-                    "example_vi": "Danh tiếng công chúng mở ra những cơ hội nghề nghiệp mới mẻ trong truyền thông và thời trang."
+                    "example_en": "Being famous opens the door to new career opportunities in film and television.",
+                    "example_vi": "Trở nên nổi tiếng mở ra cánh cửa cho những cơ hội nghề nghiệp mới trong phim ảnh và truyền hình."
                   },
                   {
-                    "en": "privileged access to elite networks",
-                    "vi": "đặc quyền tiếp cận các mạng lưới quan hệ cao cấp",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "example_en": "Stardom provides privileged access to elite professional networks unavailable to ordinary individuals.",
-                    "example_vi": "Địa vị ngôi sao đem lại đặc quyền tiếp cận các mạng lưới tinh hoa mà người bình thường không thể có."
-                  },
-                  {
-                    "en": "groundbreaking career ventures",
-                    "vi": "những dự án sự nghiệp mang tính đột phá",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "example_en": "High-profile artists can launch groundbreaking career ventures in global entertainment markets.",
-                    "example_vi": "Nghệ sĩ tên tuổi có thể khởi động các dự án sự nghiệp đột phá trên thị trường giải trí toàn cầu."
-                  },
-                  {
-                    "en": "collaborate with foremost industry leaders",
-                    "vi": "hợp tác với những chuyên gia đầu ngành",
+                    "en": "expand professional networks",
+                    "vi": "mở rộng mạng lưới quan hệ công việc",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Fame enables creatives to collaborate with foremost industry leaders to diversify their artistic portfolios.",
-                    "example_vi": "Danh tiếng cho phép người làm sáng tạo hợp tác với những chuyên gia đầu ngành để đa dạng hóa năng lực."
+                    "example_en": "Fame allows professionals to expand their professional networks and find business partners.",
+                    "example_vi": "Danh tiếng cho phép mọi người mở rộng mạng lưới quan hệ công việc và tìm kiếm đối tác kinh doanh."
+                  },
+                  {
+                    "en": "connect with experts in different fields",
+                    "vi": "kết nối với các chuyên gia trong nhiều lĩnh vực",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Being famous helps creators connect with experts in different fields to produce quality work.",
+                    "example_vi": "Nổi tiếng giúp người làm sáng tạo kết nối với các chuyên gia trong nhiều lĩnh vực để tạo ra sản phẩm chất lượng."
+                  },
+                  {
+                    "en": "valuable work collaborations",
+                    "vi": "sự hợp tác công việc giá trị",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Good relationships lead to valuable work collaborations on major projects.",
+                    "example_vi": "Mối quan hệ tốt dẫn tới sự hợp tác công việc giá trị trong các dự án lớn."
                   }
                 ]
               },
@@ -59853,51 +59737,51 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "loss of personal privacy",
-                    "vi": "đánh mất quyền riêng tư cá nhân",
+                    "vi": "mất quyền riêng tư cá nhân",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "The biggest drawback of fame is the severe loss of personal privacy.",
-                    "example_vi": "Bất lợi lớn nhất của sự nổi tiếng là sự mất mát nghiêm trọng quyền riêng tư cá nhân."
+                    "example_en": "A major drawback of fame is the serious loss of personal privacy.",
+                    "example_vi": "Một bất lợi lớn của danh tiếng là sự mất mát quyền riêng tư cá nhân nghiêm trọng."
                   },
                   {
                     "en": "watched by the public",
-                    "vi": "bị công chúng theo dõi, chú ý",
+                    "vi": "bị công chúng theo dõi và để ý",
                     "type": "adj.phr",
                     "level": "B1",
-                    "example_en": "Famous figures are constantly watched by the public wherever they go.",
-                    "example_vi": "Những nhân vật nổi tiếng luôn bị công chúng theo dõi ở bất cứ nơi nào họ đi qua."
+                    "example_en": "Famous figures are always watched by the public wherever they go in public.",
+                    "example_vi": "Những nhân vật nổi tiếng luôn bị công chúng theo dõi ở bất cứ nơi nào họ đến."
                   },
                   {
                     "en": "lack of personal space",
-                    "vi": "thiếu không gian cá nhân",
+                    "vi": "thiếu không gian riêng tư",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Celebrities suffer from a total lack of personal space even at private family dinners.",
-                    "example_vi": "Người nổi tiếng phải chịu sự thiếu thốn hoàn toàn không gian cá nhân ngay cả khi ăn tối cùng gia đình."
+                    "example_en": "Celebrities frequently suffer from a lack of personal space when outside.",
+                    "example_vi": "Người nổi tiếng thường xuyên thiếu không gian riêng tư khi ra ngoài."
                   },
                   {
-                    "en": "acute deprivation of personal privacy",
-                    "vi": "sự tước đoạt nghiêm trọng quyền riêng tư cá nhân",
-                    "type": "n.phr",
+                    "en": "followed by reporters and photographers",
+                    "vi": "bị phóng viên và thợ chụp ảnh theo dõi",
+                    "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Living under public glare leads to the acute deprivation of fundamental personal privacy.",
-                    "example_vi": "Sống dưới ánh nhìn soi mói của công chúng dẫn đến sự tước đoạt nghiêm trọng quyền riêng tư cơ bản."
+                    "example_en": "They are constantly followed by reporters and photographers trying to get private news.",
+                    "example_vi": "Họ liên tục bị phóng viên và thợ ảnh theo dõi nhằm săn tin tức đời tư."
                   },
                   {
-                    "en": "invasive media scrutiny",
-                    "vi": "sự săm soi xâm phạm của giới truyền thông",
+                    "en": "private life exposed in the media",
+                    "vi": "đời tư bị phơi bày trên các phương tiện truyền thông",
                     "type": "n.phr",
                     "level": "B2",
-                    "example_en": "Every private conversation can become subject to invasive media scrutiny and paparazzi harassment.",
-                    "example_vi": "Mọi cuộc trò chuyện riêng tư đều có thể trở thành đối tượng bị truyền thông săm soi và bị săn ảnh quấy rối."
+                    "example_en": "Having your private life exposed in the media can be painful for family members.",
+                    "example_vi": "Việc đời tư bị phơi bày trên truyền thông có thể gây đau lòng cho các thành viên trong gia đình."
                   },
                   {
-                    "en": "relentless paparazzi tracking",
-                    "vi": "sự đeo bám ráo riết của cánh săn ảnh",
-                    "type": "n.phr",
+                    "en": "live under constant public attention",
+                    "vi": "sống dưới sự chú ý thường xuyên của dư luận",
+                    "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Public figures face relentless paparazzi tracking, leaving them with no sanctuary in ordinary life.",
-                    "example_vi": "Các nhân vật công chúng đối mặt với sự đeo bám ráo riết của thợ săn ảnh, tước đi mọi chốn bình yên đời thường."
+                    "example_en": "It is hard to relax when you live under constant public attention.",
+                    "example_vi": "Rất khó để thư giãn khi bạn phải sống dưới sự chú ý thường xuyên của dư luận."
                   }
                 ]
               },
@@ -59912,48 +59796,40 @@ const ESSAY_DATA = [
                     "vi": "trở thành mục tiêu của sự chỉ trích",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Celebrities easily become targets of criticism whenever public mood changes.",
-                    "example_vi": "Người nổi tiếng rất dễ trở thành mục tiêu chỉ trích bất cứ khi nào tâm trạng dư luận thay đổi."
+                    "example_en": "Famous individuals easily become targets of criticism when things go wrong.",
+                    "example_vi": "Người nổi tiếng dễ trở thành mục tiêu chỉ trích khi mọi việc diễn ra không suôn sẻ."
                   },
                   {
                     "en": "negative comments on social media",
                     "vi": "bình luận tiêu cực trên mạng xã hội",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Reading hundreds of negative comments on social media can hurt anyone's feelings.",
-                    "example_vi": "Đọc hàng trăm bình luận tiêu cực trên mạng xã hội có thể làm tổn thương bất kỳ ai."
+                    "example_en": "Reading hundreds of negative comments on social media can hurt their feelings.",
+                    "example_vi": "Đọc hàng trăm bình luận tiêu cực trên mạng xã hội có thể làm tổn thương cảm xúc của họ."
                   },
                   {
-                    "en": "harsh judgments from the public",
-                    "vi": "những lời phán xét khắt khe từ công chúng",
-                    "type": "n.phr",
+                    "en": "face harsh public judgment",
+                    "vi": "đối mặt với sự phán xét khắt khe của công chúng",
+                    "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Famous people must deal with harsh judgments from the public about their lifestyle.",
-                    "example_vi": "Người nổi tiếng phải đối phó với những phán xét khắt khe từ dư luận về lối sống của mình."
+                    "example_en": "Celebrities must face harsh public judgment about their personal lifestyle choices.",
+                    "example_vi": "Người nổi tiếng phải đối mặt với sự phán xét gay gắt từ công chúng về lối sống của mình."
                   },
                   {
-                    "en": "prime targets for malicious slander",
-                    "vi": "mục tiêu hàng đầu của sự vu khống ác ý",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "example_en": "Prominent personalities routinely become prime targets for malicious slander and fabricated scandals.",
-                    "example_vi": "Những nhân vật nổi tiếng thường xuyên trở thành mục tiêu hàng đầu của sự vu khống ác ý và scandal thêu dệt."
-                  },
-                  {
-                    "en": "subjected to online vitriol",
-                    "vi": "hứng chịu những lời lẽ độc hại trên không gian mạng",
+                    "en": "deal with rumors and jealousy",
+                    "vi": "đối phó với những tin đồn và sự ghen ghét",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Public icons are frequently subjected to intense online vitriol from anonymous internet users.",
-                    "example_vi": "Các thần tượng công chúng thường xuyên phải hứng chịu những lời lẽ độc hại từ người dùng mạng ẩn danh."
+                    "example_en": "Public figures frequently have to deal with rumors and jealousy from critics.",
+                    "example_vi": "Nhân vật công chúng thường xuyên phải đối phó với những tin đồn và sự ghen ghét từ người chỉ trích."
                   },
                   {
-                    "en": "inflict severe reputational damage",
-                    "vi": "gây tổn hại danh tiếng nặng nề",
+                    "en": "damage their personal reputation",
+                    "vi": "làm tổn hại danh tiếng cá nhân",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Sensationalized media controversies can inflict severe reputational damage within hours.",
-                    "example_vi": "Những cuộc tranh cãi truyền thông giật gân có thể gây tổn hại danh tiếng nghiêm trọng chỉ trong vài giờ."
+                    "example_en": "Unfair scandals and false stories can quickly damage their personal reputation.",
+                    "example_vi": "Những vụ bê bối vô căn cứ và câu chuyện sai sự thật có thể nhanh chóng làm hại danh tiếng cá nhân."
                   }
                 ]
               },
@@ -59968,48 +59844,48 @@ const ESSAY_DATA = [
                     "vi": "áp lực tâm lý nặng nề",
                     "type": "n.phr",
                     "level": "B1",
-                    "example_en": "Young stars experience heavy psychological pressure to remain successful.",
-                    "example_vi": "Những ngôi sao trẻ trải qua áp lực tâm lý nặng nề để duy trì được thành công."
+                    "example_en": "Famous people experience heavy psychological pressure to stay at the top.",
+                    "example_vi": "Người nổi tiếng trải qua áp lực tâm lý nặng nề để giữ vững đỉnh cao."
                   },
                   {
                     "en": "feel stressed and tired",
                     "vi": "cảm thấy căng thẳng và mệt mỏi",
                     "type": "adj.phr",
                     "level": "B1",
-                    "example_en": "Living in the spotlight makes performers feel stressed and tired most of the time.",
-                    "example_vi": "Sống dưới ánh đèn sân khấu khiến người biểu diễn cảm thấy căng thẳng và mệt mỏi phần lớn thời gian."
+                    "example_en": "Busy working schedules make performers feel stressed and tired.",
+                    "example_vi": "Lịch làm việc bận rộn khiến những người biểu diễn cảm thấy căng thẳng và mệt mỏi."
                   },
                   {
                     "en": "suffer from anxiety",
-                    "vi": "chịu đựng chứng rối loạn lo âu",
+                    "vi": "chịu đựng chứng lo âu",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Many famous singers suffer from anxiety due to tight tour schedules.",
-                    "example_vi": "Nhiều ca sĩ nổi tiếng chịu đựng chứng lo âu do lịch trình lưu diễn dày đặc."
+                    "example_en": "Many young stars suffer from anxiety because of unrealistic public expectations.",
+                    "example_vi": "Nhiều ngôi sao trẻ chịu đựng chứng lo âu vì những kỳ vọng thiếu thực tế của công chúng."
                   },
                   {
-                    "en": "bear an immense psychological toll",
-                    "vi": "gánh chịu tổn thất tâm lý to lớn",
+                    "en": "live in the spotlight",
+                    "vi": "sống dưới ánh đèn sân khấu, tâm điểm chú ý",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Enduring relentless evaluation under the public gaze takes an immense psychological toll on mental health.",
-                    "example_vi": "Chịu đựng sự đánh giá không ngừng dưới ánh nhìn dư luận gây tổn hại tâm lý to lớn cho sức khỏe tinh thần."
+                    "example_en": "To live in the spotlight requires great emotional strength and maturity.",
+                    "example_vi": "Sống dưới ánh đèn sân khấu đòi hỏi sức mạnh cảm xúc và sự chín chắn to lớn."
                   },
                   {
-                    "en": "maintain an infallible facade",
-                    "vi": "duy trì vẻ ngoài hoàn hảo không tì vết",
-                    "type": "v.phr",
+                    "en": "feel mentally exhausted",
+                    "vi": "cảm thấy kiệt sức về mặt tinh thần",
+                    "type": "adj.phr",
                     "level": "B2",
-                    "example_en": "The continuous burden of maintaining an infallible facade often precipitates severe depressive episodes.",
-                    "example_vi": "Gánh nặng thường trực phải duy trì vẻ ngoài hoàn hảo thường dẫn tới những đợt trầm cảm nặng nề."
+                    "example_en": "Enduring constant scrutiny can make artists feel mentally exhausted.",
+                    "example_vi": "Chịu đựng sự săm soi liên tục có thể khiến các nghệ sĩ cảm thấy kiệt quệ về mặt tinh thần."
                   },
                   {
-                    "en": "debilitating stress and emotional burnout",
-                    "vi": "căng thẳng suy nhược và kiệt quệ cảm xúc",
-                    "type": "n.phr",
+                    "en": "hard to enjoy a normal life",
+                    "vi": "khó có thể tận hưởng cuộc sống bình thường",
+                    "type": "phrase",
                     "level": "B2",
-                    "example_en": "Unchecked hypercritical expectations precipitate debilitating stress and chronic emotional burnout.",
-                    "example_vi": "Những kỳ vọng khắt khe không ngừng dẫn tới căng thẳng làm suy nhược cơ thể và kiệt quệ cảm xúc kéo dài."
+                    "example_en": "Because of public attention, it is very hard for them to enjoy a normal life.",
+                    "example_vi": "Vì sự chú ý của công chúng, rất khó để họ tận hưởng một cuộc sống bình thường."
                   }
                 ]
               },
@@ -60024,48 +59900,40 @@ const ESSAY_DATA = [
                     "vi": "trở nên tự mãn",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Receiving praise all the time can cause young people to become complacent.",
-                    "example_vi": "Nhận lời khen suốt ngày có thể khiến người trẻ trở nên tự mãn."
+                    "example_en": "Hearing compliments all the time can cause young stars to become complacent.",
+                    "example_vi": "Nghe lời khen suốt ngày có thể khiến các ngôi sao trẻ trở nên tự mãn."
                   },
                   {
-                    "en": "lose motivation for self-improvement",
-                    "vi": "đánh mất động lực hoàn thiện bản thân",
+                    "en": "lose motivation to improve",
+                    "vi": "đánh mất động lực để tiến bộ",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Some celebrities lose motivation for self-improvement once they achieve rapid fame.",
-                    "example_vi": "Một số người nổi tiếng đánh mất động lực hoàn thiện bản thân khi họ đạt được danh tiếng nhanh chóng."
+                    "example_en": "Some individuals lose motivation to improve their skills once they become popular.",
+                    "example_vi": "Một số người mất động lực cải thiện kỹ năng khi họ đã trở nên nổi tiếng."
                   },
                   {
-                    "en": "fail to see personal flaws",
+                    "en": "fail to recognize personal flaws",
                     "vi": "không nhận ra khuyết điểm của bản thân",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Surrounded by praise, they fail to see personal flaws and stop learning from mistakes.",
-                    "example_vi": "Được bao quanh bởi lời tán tụng, họ không nhận ra khuyết điểm và ngừng học hỏi từ sai lầm."
+                    "example_en": "Surrounded by praise, they may fail to recognize personal flaws in their work.",
+                    "example_vi": "Được bao quanh bởi lời khen, họ có thể không nhận ra khuyết điểm trong công việc của mình."
                   },
                   {
-                    "en": "breed dangerous complacency",
-                    "vi": "nuôi dưỡng thói tự mãn nguy hiểm",
-                    "type": "v.phr",
+                    "en": "too confident about their abilities",
+                    "vi": "quá tự tin về năng lực của mình",
+                    "type": "adj.phr",
                     "level": "B2",
-                    "example_en": "Uncritical praise risks breeding dangerous complacency and intellectual stagnation.",
-                    "example_vi": "Lời khen ngợi thiếu phản biện có nguy cơ nuôi dưỡng thói tự mãn nguy hiểm và sự trì trệ về trí tuệ."
+                    "example_en": "Celebrities who become too confident about their abilities may stop learning.",
+                    "example_vi": "Những người nổi tiếng quá tự tin vào năng lực của mình có thể ngừng học hỏi."
                   },
                   {
-                    "en": "develop an inflated ego",
-                    "vi": "hình thành cái tôi phóng đại quá mức",
+                    "en": "stop putting effort into self-improvement",
+                    "vi": "ngừng nỗ lực hoàn thiện bản thân",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "When surrounded by sycophantic entourages, stars often develop an inflated ego.",
-                    "example_vi": "Khi bị vây quanh bởi những người xu nịnh, các ngôi sao thường hình thành cái tôi kiêu ngạo quá mức."
-                  },
-                  {
-                    "en": "stifle intrinsic motivation for growth",
-                    "vi": "kìm hãm động lực phát triển tự thân",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "example_en": "Premature public adulation can stifle intrinsic motivation for artistic and intellectual growth.",
-                    "example_vi": "Sự tán dương sớm từ dư luận có thể kìm hãm động lực tự thân để phát triển nghệ thuật và trí tuệ."
+                    "example_en": "Success should not cause artists to stop putting effort into self-improvement.",
+                    "example_vi": "Thành công không nên khiến các nghệ sĩ ngừng nỗ lực hoàn thiện bản thân."
                   }
                 ]
               },
@@ -60076,58 +59944,58 @@ const ESSAY_DATA = [
                 "badge": "Bất lợi 05",
                 "items": [
                   {
-                    "en": "tempted by vast wealth",
-                    "vi": "bị cám dỗ bởi tiền bạc lớn",
+                    "en": "tempted by money and wealth",
+                    "vi": "bị cám dỗ bởi tiền bạc và sự giàu sang",
                     "type": "adj.phr",
                     "level": "B1",
-                    "example_en": "Inexperienced youngsters are easily tempted by vast wealth and lavish lifestyles.",
-                    "example_vi": "Những người trẻ chưa có kinh nghiệm rất dễ bị cám dỗ bởi khối tài sản lớn và lối sống xa hoa."
+                    "example_en": "Young people are easily tempted by money and wealth after becoming famous.",
+                    "example_vi": "Người trẻ rất dễ bị cám dỗ bởi tiền bạc và sự giàu sang sau khi trở nên nổi tiếng."
                   },
                   {
-                    "en": "excessive spending",
-                    "vi": "tiêu xài quá mức, hoang phí",
-                    "type": "n.phr",
+                    "en": "spend money recklessly",
+                    "vi": "tiêu tiền một cách thiếu suy nghĩ / phung phí",
+                    "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Excessive spending on luxury cars can quickly lead to bankruptcy.",
-                    "example_vi": "Tiêu xài quá mức vào xe sang có thể nhanh chóng dẫn tới phá sản."
+                    "example_en": "Spending money recklessly on luxury cars can quickly lead to financial difficulties.",
+                    "example_vi": "Tiêu tiền phung phí vào xe sang có thể nhanh chóng dẫn đến khó khăn tài chính."
                   },
                   {
-                    "en": "damage personal image",
+                    "en": "damage their personal image",
                     "vi": "làm tổn hại hình ảnh cá nhân",
                     "type": "v.phr",
                     "level": "B1",
-                    "example_en": "Making bad choices in social life will damage their personal image severely.",
-                    "example_vi": "Đưa ra những lựa chọn sai lầm trong cuộc sống xã hội sẽ làm tổn hại hình ảnh cá nhân nghiêm trọng."
+                    "example_en": "Making bad choices in personal life will damage their personal image.",
+                    "example_vi": "Đưa ra những lựa chọn sai lầm trong đời tư sẽ làm tổn hại hình ảnh cá nhân của họ."
                   },
                   {
-                    "en": "succumb to conspicuous consumption",
-                    "vi": "sa vào lối tiêu dùng phô trương",
+                    "en": "fall into a lavish lifestyle",
+                    "vi": "sa vào lối sống xa hoa, phung phí",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Lacking financial discipline, newly rich stars frequently succumb to conspicuous consumption.",
-                    "example_vi": "Thiếu kỷ luật tài chính, những ngôi sao mới nổi thường sa vào lối tiêu dùng phô trương quá đà."
+                    "example_en": "Without good guidance, stars can fall into a lavish lifestyle they cannot maintain.",
+                    "example_vi": "Nếu không có sự định hướng tốt, các ngôi sao có thể sa vào lối sống xa hoa mà họ không thể duy trì."
                   },
                   {
-                    "en": "unchecked hedonistic indulgence",
-                    "vi": "lối sống hưởng lạc buông thả không kiểm soát",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "example_en": "Unchecked hedonistic indulgence often triggers moral compromises and legal controversies.",
-                    "example_vi": "Lối sống hưởng lạc buông thả không kiểm soát thường châm ngòi cho sự suy đồi đạo đức và rắc rối pháp lý."
-                  },
-                  {
-                    "en": "irreversibly tarnish public legacy",
-                    "vi": "làm hoen ố vĩnh viễn di sản và hình ảnh trước công chúng",
+                    "en": "waste money on expensive items",
+                    "vi": "lãng phí tiền vào những món đồ đắt đỏ",
                     "type": "v.phr",
                     "level": "B2",
-                    "example_en": "Reckless misconduct in the public eye can irreversibly tarnish an otherwise celebrated public legacy.",
-                    "example_vi": "Hành vi liều lĩnh trước công chúng có thể làm hoen ố vĩnh viễn một di sản vốn từng được tôn vinh."
+                    "example_en": "Some individuals waste money on expensive items instead of saving for the future.",
+                    "example_vi": "Một số người lãng phí tiền vào đồ xa xỉ thay vì tiết kiệm cho tương lai."
+                  },
+                  {
+                    "en": "make bad personal decisions",
+                    "vi": "đưa ra những quyết định cá nhân sai lầm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Material temptations may push them to make bad personal decisions.",
+                    "example_vi": "Cám dỗ vật chất có thể đẩy họ vào việc đưa ra những quyết định cá nhân sai lầm."
                   }
                 ]
               },
               {
                 "id": "essay_connectors",
-                "name": "TỪ NỐI VÀ CỤM TỪ NGHỊ LUẬN VSTEP (ESSAY TRANSITIONS)",
+                "name": "TỪ NỐI VÀ CỤM TỪ NGHỊ LUẬN VSTEP (ESSAY CONNECTORS)",
                 "icon": "✍️",
                 "badge": "Liên kết câu",
                 "items": [
@@ -60136,8 +60004,8 @@ const ESSAY_DATA = [
                     "vi": "một mặt / mặt khác",
                     "type": "adv.phr",
                     "level": "B1",
-                    "example_en": "On the one hand, fame brings wealth; on the other hand, it destroys privacy.",
-                    "example_vi": "Một mặt, danh tiếng mang lại sự giàu có; mặt khác, nó hủy hoại quyền riêng tư."
+                    "example_en": "On the one hand, fame brings money; on the other hand, it reduces privacy.",
+                    "example_vi": "Một mặt, danh tiếng mang lại tiền bạc; mặt khác, nó làm giảm sự riêng tư."
                   },
                   {
                     "en": "one major benefit is that",
@@ -60145,7 +60013,7 @@ const ESSAY_DATA = [
                     "type": "phrase",
                     "level": "B1",
                     "example_en": "One major benefit is that celebrities can inspire positive social change.",
-                    "example_vi": "Một lợi ích lớn là người nổi tiếng có thể truyền cảm hứng cho những thay đổi xã hội tích cực."
+                    "example_vi": "Một lợi ích lớn là người nổi tiếng có thể truyền cảm hứng cho sự thay đổi xã hội tích cực."
                   },
                   {
                     "en": "another negative aspect is that",
@@ -60153,31 +60021,31 @@ const ESSAY_DATA = [
                     "type": "phrase",
                     "level": "B1",
                     "example_en": "Another negative aspect is that famous figures face constant public judgment.",
-                    "example_vi": "Một khía cạnh tiêu cực khác là những nhân vật có tên tuổi phải đối mặt với sự phán xét liên tục từ dư luận."
+                    "example_vi": "Một khía cạnh tiêu cực khác là những nhân vật nổi tiếng đối mặt với sự phán xét liên tục từ dư luận."
                   },
                   {
-                    "en": "a paramount advantage of",
-                    "vi": "một thuận lợi tối quan trọng của",
-                    "type": "phrase",
+                    "en": "first and foremost",
+                    "vi": "trước hết và quan trọng nhất",
+                    "type": "adv.phr",
                     "level": "B2",
-                    "example_en": "A paramount advantage of celebrity status is unparalleled commercial opportunity.",
-                    "example_vi": "Một thuận lợi tối quan trọng của vị thế người nổi tiếng là cơ hội thương mại vô song."
+                    "example_en": "First and foremost, fame provides individuals with widespread public recognition.",
+                    "example_vi": "Trước hết và quan trọng nhất, sự nổi tiếng mang lại cho các cá nhân sự công nhận rộng rãi."
                   },
                   {
-                    "en": "conversely, it entails severe liabilities",
-                    "vi": "ngược lại, nó kéo theo những gánh nặng nghiêm trọng",
-                    "type": "phrase",
-                    "level": "B2",
-                    "example_en": "Conversely, achieving fame entails severe psychological and personal liabilities.",
-                    "example_vi": "Ngược lại, việc đạt được danh tiếng kéo theo những gánh nặng tâm lý và đời tư nghiêm trọng."
-                  },
-                  {
-                    "en": "a double-edged sword",
-                    "vi": "con dao hai lưỡi (vừa có lợi vừa có hại)",
+                    "en": "considerable advantages / noticeable drawbacks",
+                    "vi": "thuận lợi đáng kể / bất lợi rõ rệt",
                     "type": "n.phr",
                     "level": "B2",
-                    "example_en": "Fame unquestionably represents a double-edged sword for ambitious individuals.",
-                    "example_vi": "Danh vọng chắc chắn biểu trưng cho một con dao hai lưỡi đối với những cá nhân giàu tham vọng."
+                    "example_en": "While stardom offers considerable advantages, it also brings noticeable drawbacks.",
+                    "example_vi": "Mặc dù danh tiếng mang lại những thuận lợi đáng kể, nó cũng đem đến những bất lợi rõ rệt."
+                  },
+                  {
+                    "en": "weigh the pros and cons carefully",
+                    "vi": "cân nhắc kỹ lưỡng điểm tốt và điểm xấu",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Young people should weigh the pros and cons carefully before seeking fame.",
+                    "example_vi": "Người trẻ nên cân nhắc kỹ điểm tốt và xấu trước khi tìm kiếm sự nổi tiếng."
                   }
                 ]
               }
@@ -60186,558 +60054,502 @@ const ESSAY_DATA = [
           "ideas_b2": {
             "benefits": [
               {
-                "title": "THUẬN LỢI 01: ĐƯỢC NHIỀU NGƯỜI BIẾT ĐẾN VÀ CÔNG NHẬN (WIDESPREAD PUBLIC RECOGNITION)",
+                "title": "THUẬN LỢI 01: ĐƯỢC NHIỀU NGƯỜI BIẾT ĐẾN VÀ CÔNG NHẬN",
                 "point_vi": "Trở nên nổi tiếng giúp một người được nhiều người biết đến và công nhận tài năng một cách rộng rãi.",
-                "point_en": "Achieving fame enables individuals to gain widespread public recognition and formal validation for their exceptional talents.",
+                "point_en": "Becoming famous enables individuals to gain public recognition and respect for their special talents.",
                 "point_collocations": [
                   {
-                    "en": "achieving fame",
-                    "vi": "đạt được danh tiếng"
+                    "en": "gain public recognition",
+                    "vi": "nhận được sự công nhận của công chúng"
                   },
                   {
-                    "en": "widespread public recognition",
-                    "vi": "sự công nhận rộng rãi của công chúng"
-                  },
-                  {
-                    "en": "validation for exceptional talents",
-                    "vi": "sự ghi nhận tài năng xuất sắc"
+                    "en": "respect for their talents",
+                    "vi": "sự tôn trọng dành cho tài năng"
                   }
                 ],
                 "evidence_vi": "Người nổi tiếng thường được công chúng nhận ra ở nơi công cộng và ghi nhận tài năng hoặc những thành tựu mà họ đạt được trong sự nghiệp.",
-                "evidence_en": "Celebrities are widely acknowledged for their professional milestones, which not only validates their relentless dedication but also cements their social prestige.",
+                "evidence_en": "Celebrities are often recognized by the public wherever they go and appreciated for the achievements they have made in their careers.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "widely acknowledged for professional milestones",
-                      "vi": "được ghi nhận rộng rãi cho những cột mốc sự nghiệp"
+                      "en": "recognized by the public",
+                      "vi": "được công chúng nhận ra"
                     },
                     {
-                      "en": "validate relentless dedication",
-                      "vi": "ghi nhận sự cống hiến bền bỉ"
+                      "en": "wherever they go",
+                      "vi": "ở bất cứ nơi nào họ đến"
                     }
                   ],
                   [
                     {
-                      "en": "cement social prestige",
-                      "vi": "củng cố vị thế và uy tín xã hội"
+                      "en": "appreciated for achievements",
+                      "vi": "được trân trọng vì những thành tựu"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "widespread public recognition",
-                    "vi": "sự công nhận rộng rãi của công chúng"
+                    "en": "gain public recognition",
+                    "vi": "nhận được sự công nhận của công chúng"
                   },
                   {
-                    "en": "validation for exceptional talents",
-                    "vi": "sự ghi nhận tài năng xuất sắc"
+                    "en": "appreciated for achievements",
+                    "vi": "được ghi nhận thành tựu"
                   },
                   {
-                    "en": "professional milestones",
-                    "vi": "cột mốc sự nghiệp"
-                  },
-                  {
-                    "en": "cement social prestige",
-                    "vi": "củng cố uy tín xã hội"
+                    "en": "build a successful reputation",
+                    "vi": "xây dựng danh tiếng thành công"
                   }
                 ]
               },
               {
-                "title": "THUẬN LỢI 02: NHẬN ĐƯỢC SỰ NGƯỠNG MỘ VÀ YÊU MẾN TỪ CÔNG CHÚNG (PUBLIC ADMIRATION AND DEVOTED FANS)",
+                "title": "THUẬN LỢI 02: NHẬN ĐƯỢC SỰ NGƯỠNG MỘ VÀ YÊU MẾN TỪ CÔNG CHÚNG",
                 "point_vi": "Người nổi tiếng thường nhận được sự ngưỡng mộ to lớn và tình cảm chân thành từ công chúng.",
-                "point_en": "Prominent personalities frequently enjoy immense public admiration and unwavering affection from devoted audiences.",
+                "point_en": "Celebrities frequently receive great admiration and genuine affection from the public.",
                 "point_collocations": [
                   {
-                    "en": "prominent personalities",
-                    "vi": "những nhân vật nổi tiếng"
+                    "en": "receive great admiration",
+                    "vi": "nhận được sự ngưỡng mộ to lớn"
                   },
                   {
-                    "en": "immense public admiration",
-                    "vi": "sự ngưỡng mộ to lớn của công chúng"
-                  },
-                  {
-                    "en": "unwavering affection from audiences",
-                    "vi": "tình cảm bền chặt từ khán giả"
+                    "en": "genuine affection from the public",
+                    "vi": "tình cảm chân thành từ công chúng"
                   }
                 ],
                 "evidence_vi": "Họ thường nhận được nhiều lời khen ngợi, sự ủng hộ tinh thần mạnh mẽ và sự quan tâm tích cực từ cộng đồng người hâm mộ.",
-                "evidence_en": "Such widespread appreciation provides emotional fulfillment and moral support, motivating artists and creators to consistently refine their craft.",
+                "evidence_en": "They often receive warm compliments, continuous support, and positive attention from their loyal fans, which boosts their confidence.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "emotional fulfillment",
-                      "vi": "sự thỏa mãn về cảm xúc"
+                      "en": "warm compliments",
+                      "vi": "lời khen ngợi ấm áp"
                     },
                     {
-                      "en": "moral support",
-                      "vi": "sự ủng hộ về tinh thần"
+                      "en": "continuous support from loyal fans",
+                      "vi": "sự ủng hộ liên tục từ người hâm mộ trung thành"
                     }
                   ],
                   [
                     {
-                      "en": "refine their craft",
-                      "vi": "trau dồi năng lực chuyên môn"
+                      "en": "boost their confidence",
+                      "vi": "gia tăng sự tự tin"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "immense public admiration",
-                    "vi": "sự ngưỡng mộ to lớn của công chúng"
+                    "en": "receive great admiration",
+                    "vi": "nhận được sự ngưỡng mộ to lớn"
                   },
                   {
-                    "en": "unwavering affection",
-                    "vi": "tình cảm bền chặt"
+                    "en": "support from loyal fans",
+                    "vi": "sự ủng hộ từ người hâm mộ trung thành"
                   },
                   {
-                    "en": "emotional fulfillment",
-                    "vi": "sự thỏa mãn về mặt cảm xúc"
-                  },
-                  {
-                    "en": "refine their craft",
-                    "vi": "trau dồi năng lực chuyên môn"
+                    "en": "boost self-confidence",
+                    "vi": "nâng cao sự tự tin"
                   }
                 ]
               },
               {
-                "title": "THUẬN LỢI 03: CÓ NHIỀU CƠ HỘI KIẾM TIỀN HƠN (LUCRATIVE FINANCIAL REWARDS AND COMMERCIAL CONTRACTS)",
-                "point_vi": "Danh tiếng mở ra vô số cơ hội thương mại béo bở để tích lũy tài sản và gia tăng thu nhập.",
-                "point_en": "Fame creates unparalleled avenues for lucrative income and commercial prosperity.",
+                "title": "THUẬN LỢI 03: CÓ NHIỀU CƠ HỘI KIẾM TIỀN HƠN",
+                "point_vi": "Danh tiếng mở ra vô số cơ hội để gia tăng thu nhập và đạt được sự đảm bảo về tài chính.",
+                "point_en": "Fame provides people with numerous opportunities to earn high income and achieve financial security.",
                 "point_collocations": [
                   {
-                    "en": "unparalleled avenues for income",
-                    "vi": "những con đường kiếm thu nhập chưa từng có"
+                    "en": "numerous opportunities to earn high income",
+                    "vi": "nhiều cơ hội để kiếm thu nhập cao"
                   },
                   {
-                    "en": "commercial prosperity",
-                    "vi": "sự thịnh vượng về mặt thương mại"
+                    "en": "achieve financial security",
+                    "vi": "đạt được sự đảm bảo tài chính"
                   }
                 ],
-                "evidence_vi": "Người nổi tiếng có thể kiếm thêm thu nhập đáng kể thông qua quảng cáo, giới thiệu sản phẩm và hợp tác chiến lược với các thương hiệu lớn.",
-                "evidence_en": "Through high-paying brand ambassadorships, sponsored advertising, and commercial endorsements, celebrities can amass substantial financial wealth.",
+                "evidence_vi": "Người nổi tiếng có thể kiếm thêm thu nhập đáng kể thông qua quảng cáo, giới thiệu sản phẩm và hợp tác với các thương hiệu lớn.",
+                "evidence_en": "Well-known figures can make significant money through commercial advertisements, product promotions, and partnerships with popular brands.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "high-paying brand ambassadorships",
-                      "vi": "vai trò đại sứ thương hiệu lương cao"
+                      "en": "make significant money",
+                      "vi": "kiếm được khoản tiền đáng kể"
                     },
                     {
-                      "en": "sponsored advertising",
-                      "vi": "quảng cáo được tài trợ"
+                      "en": "commercial advertisements",
+                      "vi": "quảng cáo thương mại"
                     }
                   ],
                   [
                     {
-                      "en": "commercial endorsements",
-                      "vi": "sự quảng bá/bảo chứng thương mại"
+                      "en": "product promotions",
+                      "vi": "quảng bá sản phẩm"
                     },
                     {
-                      "en": "amass substantial financial wealth",
-                      "vi": "tích lũy khối tài sản tài chính đáng kể"
+                      "en": "partnerships with popular brands",
+                      "vi": "hợp tác với các thương hiệu nổi tiếng"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "unparalleled avenues for income",
-                    "vi": "cơ hội thu nhập vô song"
+                    "en": "earn high income",
+                    "vi": "kiếm thu nhập cao"
                   },
                   {
-                    "en": "brand ambassadorships",
-                    "vi": "vai trò đại sứ thương hiệu"
+                    "en": "commercial advertisements",
+                    "vi": "quảng cáo thương mại"
                   },
                   {
-                    "en": "commercial endorsements",
-                    "vi": "quảng bá sản phẩm thương mại"
+                    "en": "partnerships with popular brands",
+                    "vi": "hợp tác với các thương hiệu lớn"
                   },
                   {
-                    "en": "amass substantial financial wealth",
-                    "vi": "tích lũy khối tài sản đáng kể"
+                    "en": "financial security",
+                    "vi": "sự đảm bảo tài chính"
                   }
                 ]
               },
               {
-                "title": "THUẬN LỢI 04: CÓ SỨC ẢNH HƯỞNG LỚN ĐẾN CỘNG ĐỒNG (PROFOUND SOCIAL INFLUENCE AND CIVIC IMPACT)",
-                "point_vi": "Những người có danh tiếng có thể sử dụng sức ảnh hưởng sâu rộng của mình để thúc đẩy những chuyển biến tích cực trong xã hội.",
-                "point_en": "Prominent public figures possess formidable social influence capable of driving positive societal change.",
+                "title": "THUẬN LỢI 04: CÓ SỨC ẢNH HƯỞNG LỚN ĐẾN CỘNG ĐỒNG",
+                "point_vi": "Những người có danh tiếng có thể sử dụng sức ảnh hưởng mạnh mẽ của mình để mang lại những chuyển biến tích cực trong xã hội.",
+                "point_en": "Public figures can use their strong influence to bring about positive changes in the community.",
                 "point_collocations": [
                   {
-                    "en": "prominent public figures",
-                    "vi": "nhân vật công chúng nổi bật"
+                    "en": "public figures",
+                    "vi": "nhân vật của công chúng"
                   },
                   {
-                    "en": "formidable social influence",
-                    "vi": "sức ảnh hưởng xã hội to lớn"
-                  },
-                  {
-                    "en": "drive positive societal change",
-                    "vi": "thúc đẩy thay đổi tích cực trong xã hội"
+                    "en": "bring about positive changes",
+                    "vi": "mang lại những thay đổi tích cực"
                   }
                 ],
                 "evidence_vi": "Những người có lượng người theo dõi lớn có thể sử dụng danh tiếng để chia sẻ thông điệp tích cực và khuyến khích mọi người tham gia các hoạt động thiện nguyện có ích.",
-                "evidence_en": "By leveraging extensive media platforms, they can champion philanthropic causes, raise awareness for environmental protection, and inspire meaningful civic participation.",
+                "evidence_en": "Those with millions of followers can easily share meaningful messages, inspire young people, and encourage the public to participate in community and charity projects.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "leveraging extensive media platforms",
-                      "vi": "tận dụng các nền tảng truyền thông rộng lớn"
+                      "en": "millions of followers",
+                      "vi": "hàng triệu người theo dõi"
                     },
                     {
-                      "en": "champion philanthropic causes",
-                      "vi": "dẫn dắt các hoạt động từ thiện"
+                      "en": "share meaningful messages",
+                      "vi": "chia sẻ những thông điệp ý nghĩa"
                     }
                   ],
                   [
                     {
-                      "en": "inspire meaningful civic participation",
-                      "vi": "khơi dậy sự tham gia công dân có ý nghĩa"
+                      "en": "inspire young people",
+                      "vi": "truyền cảm hứng cho người trẻ"
+                    },
+                    {
+                      "en": "support community and charity projects",
+                      "vi": "ủng hộ các dự án cộng đồng và từ thiện"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "formidable social influence",
-                    "vi": "sức ảnh hưởng xã hội to lớn"
+                    "en": "strong influence on the community",
+                    "vi": "sức ảnh hưởng mạnh mẽ đến cộng đồng"
                   },
                   {
-                    "en": "champion philanthropic causes",
-                    "vi": "dẫn dắt các phong trào thiện nguyện"
+                    "en": "share meaningful messages",
+                    "vi": "chia sẻ thông điệp ý nghĩa"
                   },
                   {
-                    "en": "inspire civic participation",
-                    "vi": "khuyến khích người dân tham gia hoạt động xã hội"
+                    "en": "charity projects",
+                    "vi": "các dự án từ thiện"
                   }
                 ]
               },
               {
-                "title": "THUẬN LỢI 05: MỞ RỘNG CÁC MỐI QUAN HỆ VÀ CƠ HỘI NGHỀ NGHIỆP (STRATEGIC NETWORKING AND CAREER PROSPECTS)",
-                "point_vi": "Sự nổi tiếng mang lại đặc quyền tiếp cận những mạng lưới quan hệ cao cấp và các dự án nghề nghiệp đột phá.",
-                "point_en": "Stardom grants individuals privileged access to elite professional networks and groundbreaking career ventures.",
+                "title": "THUẬN LỢI 05: MỞ RỘNG CÁC MỐI QUAN HỆ VÀ CƠ HỘI NGHỀ NGHIỆP",
+                "point_vi": "Sự nổi tiếng giúp mở rộng các mối quan hệ công việc và mang lại nhiều cơ hội nghề nghiệp giá trị.",
+                "point_en": "Fame helps individuals expand their social networks and discover new career opportunities.",
                 "point_collocations": [
                   {
-                    "en": "stardom",
-                    "vi": "sự nổi tiếng / địa vị ngôi sao"
+                    "en": "expand social networks",
+                    "vi": "mở rộng mạng lưới quan hệ xã hội"
                   },
                   {
-                    "en": "elite professional networks",
-                    "vi": "mạng lưới quan hệ chuyên môn cao cấp"
-                  },
-                  {
-                    "en": "groundbreaking career ventures",
-                    "vi": "các dự án sự nghiệp đột phá"
+                    "en": "discover new career opportunities",
+                    "vi": "khám phá những cơ hội nghề nghiệp mới"
                   }
                 ],
                 "evidence_vi": "Sự nổi tiếng giúp họ tiếp cận nhiều người trong các lĩnh vực khác nhau và có thêm cơ hội hợp tác quy mô lớn trong công việc.",
-                "evidence_en": "Collaborating with foremost industry leaders allows celebrated artists to diversify their professional portfolios and unlock unprecedented career advancements.",
+                "evidence_en": "Being well-known allows them to connect with professionals across various fields, which leads to valuable work collaborations and future projects.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "collaborating with foremost industry leaders",
-                      "vi": "hợp tác với những người dẫn đầu ngành"
+                      "en": "connect with professionals across various fields",
+                      "vi": "kết nối với các chuyên gia trong nhiều lĩnh vực"
                     }
                   ],
                   [
                     {
-                      "en": "diversify professional portfolios",
-                      "vi": "đa dạng hóa hồ sơ năng lực chuyên môn"
-                    },
-                    {
-                      "en": "unlock unprecedented career advancements",
-                      "vi": "mở ra những bước tiến sự nghiệp chưa từng có"
+                      "en": "valuable work collaborations",
+                      "vi": "sự hợp tác làm việc giá trị"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "elite professional networks",
-                    "vi": "mạng lưới quan hệ cao cấp"
+                    "en": "expand professional networks",
+                    "vi": "mở rộng mạng lưới quan hệ công việc"
                   },
                   {
-                    "en": "groundbreaking career ventures",
-                    "vi": "dự án nghề nghiệp đột phá"
+                    "en": "connect with professionals",
+                    "vi": "kết nối với các chuyên gia"
                   },
                   {
-                    "en": "foremost industry leaders",
-                    "vi": "những chuyên gia hàng đầu trong ngành"
-                  },
-                  {
-                    "en": "unlock unprecedented advancements",
-                    "vi": "mở ra những bước tiến chưa từng thấy"
+                    "en": "valuable work collaborations",
+                    "vi": "sự hợp tác công việc giá trị"
                   }
                 ]
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: MẤT QUYỀN RIÊNG TƯ TRONG ĐỜI SỐNG CÁ NHÂN (INVASIVE SCRUTINY AND DEPRIVATION OF PRIVACY)",
-                "point_vi": "Bất lợi nghiêm trọng hàng đầu của ánh hào quang là sự tước đoạt gần như hoàn toàn quyền riêng tư cá nhân cơ bản.",
-                "point_en": "A paramount drawback of stardom is the acute deprivation of fundamental personal privacy.",
+                "title": "BẤT LỢI 01: MẤT QUYỀN RIÊNG TƯ TRONG ĐỜI SỐNG CÁ NHÂN",
+                "point_vi": "Một trong những bất lợi nghiêm trọng nhất của sự nổi tiếng là việc đánh mất quyền riêng tư cá nhân.",
+                "point_en": "One of the most serious disadvantages of fame is the complete loss of personal privacy.",
                 "point_collocations": [
                   {
-                    "en": "paramount drawback",
-                    "vi": "bất lợi nghiêm trọng hàng đầu"
+                    "en": "serious disadvantages of fame",
+                    "vi": "bất lợi nghiêm trọng của sự nổi tiếng"
                   },
                   {
-                    "en": "acute deprivation of personal privacy",
-                    "vi": "sự tước đoạt nghiêm trọng quyền riêng tư cá nhân"
+                    "en": "loss of personal privacy",
+                    "vi": "sự mất mát quyền riêng tư cá nhân"
                   }
                 ],
                 "evidence_vi": "Người nổi tiếng thường bị công chúng theo dõi và chú ý đến những hành động, lời nói cũng như đời sống sinh hoạt cá nhân của họ.",
-                "evidence_en": "Subjected to relentless paparazzi tracking and obsessive public curiosity, celebrities frequently find their private relationships and routine domestic affairs exposed to unyielding scrutiny.",
+                "evidence_en": "Famous people are constantly followed by reporters and curious crowds, meaning that their personal actions, words, and private lives are always watched.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "relentless paparazzi tracking",
-                      "vi": "sự bám đuôi không ngừng của thợ săn ảnh"
-                    },
-                    {
-                      "en": "obsessive public curiosity",
-                      "vi": "sự tò mò quá mức của công chúng"
+                      "en": "followed by reporters and curious crowds",
+                      "vi": "bị phóng viên và đám đông hiếu kỳ theo dõi"
                     }
                   ],
                   [
                     {
-                      "en": "unyielding scrutiny",
-                      "vi": "sự săm soi không dứt"
+                      "en": "live under constant public attention",
+                      "vi": "sống dưới sự chú ý liên tục của công chúng"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "acute deprivation of privacy",
-                    "vi": "mất quyền riêng tư nghiêm trọng"
+                    "en": "loss of personal privacy",
+                    "vi": "mất quyền riêng tư cá nhân"
                   },
                   {
-                    "en": "relentless paparazzi tracking",
-                    "vi": "sự theo dõi gắt gao của cánh săn ảnh"
+                    "en": "followed by reporters",
+                    "vi": "bị phóng viên theo dõi"
                   },
                   {
-                    "en": "unyielding scrutiny",
-                    "vi": "sự săm soi liên tục"
+                    "en": "constant public attention",
+                    "vi": "sự chú ý liên tục của dư luận"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 02: DỄ TRỞ THÀNH MỤC TIÊU CỦA SỰ CHỈ TRÍCH (VULNERABILITY TO HARSH CRITICISM AND BACKLASH)",
-                "point_vi": "Những nhân vật nổi tiếng luôn dễ bị biến thành mục tiêu của những lời chỉ trích gay gắt và sự công kích từ dư luận.",
-                "point_en": "Prominent personalities routinely become prime targets for malicious slander, online vitriol, and unjustified public hostility.",
+                "title": "BẤT LỢI 02: DỄ TRỞ THÀNH MỤC TIÊU CỦA SỰ CHỈ TRÍCH",
+                "point_vi": "Người nổi tiếng rất dễ trở thành mục tiêu của sự chỉ trích gay gắt và phán xét từ dư luận.",
+                "point_en": "Celebrities easily become targets of public criticism and harsh judgment.",
                 "point_collocations": [
                   {
-                    "en": "prime targets for slander",
-                    "vi": "mục tiêu hàng đầu của sự vu khống"
+                    "en": "targets of public criticism",
+                    "vi": "mục tiêu của sự chỉ trích từ dư luận"
                   },
                   {
-                    "en": "online vitriol",
-                    "vi": "lời lẽ cay độc trên mạng"
-                  },
-                  {
-                    "en": "unjustified public hostility",
-                    "vi": "sự thù địch vô cớ từ công chúng"
+                    "en": "harsh judgment",
+                    "vi": "sự phán xét gay gắt"
                   }
                 ],
                 "evidence_vi": "Bên cạnh những người yêu mến, họ cũng có thể phải đối mặt với những bình luận tiêu cực, sự ghen ghét và những lời phán xét khắt khe từ công chúng.",
-                "evidence_en": "Even trivial misjudgments or fabricated rumors can trigger sensationalized controversies across cyberspace, inflicting severe reputational damage.",
+                "evidence_en": "Besides their supporters, they frequently deal with negative comments, jealousy, and false rumors on social media, which can damage their reputation.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "trivial misjudgments",
-                      "vi": "những phán đoán/sai sót nhỏ nhặt"
+                      "en": "deal with negative comments",
+                      "vi": "đối phó với những bình luận tiêu cực"
                     },
                     {
-                      "en": "fabricated rumors",
-                      "vi": "tin đồn thêu dệt sai sự thật"
+                      "en": "false rumors on social media",
+                      "vi": "tin đồn sai sự thật trên mạng xã hội"
                     }
                   ],
                   [
                     {
-                      "en": "sensationalized controversies",
-                      "vi": "các cuộc tranh cãi bị giật gân hóa"
-                    },
-                    {
-                      "en": "inflict severe reputational damage",
-                      "vi": "gây tổn hại danh tiếng nặng nề"
+                      "en": "damage their reputation",
+                      "vi": "làm tổn hại danh tiếng"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "prime targets for criticism",
-                    "vi": "mục tiêu hàng đầu của sự chỉ trích"
+                    "en": "targets of public criticism",
+                    "vi": "mục tiêu của sự chỉ trích"
                   },
                   {
-                    "en": "online vitriol",
-                    "vi": "những lời lẽ độc hại trên mạng"
+                    "en": "negative comments and rumors",
+                    "vi": "bình luận tiêu cực và tin đồn"
                   },
                   {
-                    "en": "fabricated rumors",
-                    "vi": "tin đồn thêu dệt"
-                  },
-                  {
-                    "en": "reputational damage",
-                    "vi": "tổn hại danh tiếng"
+                    "en": "damage personal reputation",
+                    "vi": "làm tổn hại danh tiếng cá nhân"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 03: CHỊU ÁP LỰC TÂM LÝ LỚN (INTENSE PSYCHOLOGICAL STRAIN AND EMOTIONAL BURNOUT)",
-                "point_vi": "Việc thường trực chịu sự đánh giá dưới ánh nhìn của công chúng tạo ra gánh nặng tâm lý vô cùng nặng nề.",
-                "point_en": "Enduring constant evaluation under the public gaze takes a heavy psychological toll on mental well-being.",
+                "title": "BẤT LỢI 03: CHỊU ÁP LỰC TÂM LÝ LỚN",
+                "point_vi": "Việc thường trực chịu sự đánh giá dưới ánh nhìn của công chúng tạo ra áp lực tâm lý vô cùng nặng nề.",
+                "point_en": "Living in the spotlight places immense psychological pressure on famous individuals.",
                 "point_collocations": [
                   {
-                    "en": "under the public gaze",
-                    "vi": "dưới ánh nhìn của công chúng"
+                    "en": "living in the spotlight",
+                    "vi": "sống dưới ánh đèn sân khấu"
                   },
                   {
-                    "en": "heavy psychological toll",
-                    "vi": "gánh nặng tâm lý nặng nề"
+                    "en": "immense psychological pressure",
+                    "vi": "áp lực tâm lý to lớn"
                   }
                 ],
                 "evidence_vi": "Việc liên tục bị chú ý và đánh giá có thể khiến người nổi tiếng cảm thấy căng thẳng, mệt mỏi và khó thoải mái trong cuộc sống.",
-                "evidence_en": "The relentless burden of maintaining an infallible facade under hypercritical expectations often precipitates chronic anxiety, profound exhaustion, and clinical depression.",
+                "evidence_en": "Being constantly judged and compared makes many celebrities feel highly stressed, mentally exhausted, and unable to relax or enjoy everyday life.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "maintaining an infallible facade",
-                      "vi": "duy trì vẻ ngoài hoàn hảo không tì vết"
+                      "en": "constantly judged and compared",
+                      "vi": "liên tục bị phán xét và so sánh"
                     },
                     {
-                      "en": "hypercritical expectations",
-                      "vi": "kỳ vọng khắt khe tột cùng"
+                      "en": "feel highly stressed and exhausted",
+                      "vi": "cảm thấy vô cùng căng thẳng và kiệt sức"
                     }
                   ],
                   [
                     {
-                      "en": "precipitates chronic anxiety and depression",
-                      "vi": "dẫn tới lo âu mãn tính và trầm cảm"
+                      "en": "unable to relax",
+                      "vi": "không thể thư giãn thoải mái"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "heavy psychological toll",
-                    "vi": "gánh nặng tâm lý nặng nề"
+                    "en": "immense psychological pressure",
+                    "vi": "áp lực tâm lý to lớn"
                   },
                   {
-                    "en": "infallible facade",
-                    "vi": "vẻ ngoài hoàn hảo"
+                    "en": "feel mentally exhausted",
+                    "vi": "cảm thấy kiệt sức về mặt tinh thần"
                   },
                   {
-                    "en": "hypercritical expectations",
-                    "vi": "kỳ vọng khắt khe"
-                  },
-                  {
-                    "en": "chronic anxiety",
-                    "vi": "lo âu mãn tính"
+                    "en": "hard to enjoy a normal life",
+                    "vi": "khó tận hưởng một cuộc sống bình thường"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 04: DỄ TRỞ NÊN TỰ MÃN VÀ ĐÁNH MẤT ĐỘNG LỰC PHÁT TRIỂN (RISK OF COMPLACENCY AND STIFLED GROWTH)",
-                "point_vi": "Sự tán tụng liên tục từ công chúng có thể nuôi dưỡng thói tự mãn nguy hiểm và kìm hãm động lực hoàn thiện bản thân.",
-                "point_en": "Continuous adulation and excessive praise risk breeding dangerous complacency and stifling intrinsic motivation for self-improvement.",
+                "title": "BẤT LỢI 04: DỄ TRỞ NÊN TỰ MÃN VÀ ĐÁNH MẤT ĐỘNG LỰC PHÁT TRIỂN",
+                "point_vi": "Sự tung hô quá mức có thể khiến một số người trở nên tự mãn và đánh mất động lực tự hoàn thiện bản thân.",
+                "point_en": "Excessive praise can cause some famous people to become complacent and lose motivation for self-improvement.",
                 "point_collocations": [
                   {
-                    "en": "continuous adulation",
-                    "vi": "sự tâng bốc liên tục"
+                    "en": "excessive praise",
+                    "vi": "lời khen ngợi quá mức"
                   },
                   {
-                    "en": "breeding dangerous complacency",
-                    "vi": "nuôi dưỡng sự tự mãn nguy hiểm"
+                    "en": "become complacent",
+                    "vi": "trở nên tự mãn"
                   },
                   {
-                    "en": "stifle intrinsic motivation",
-                    "vi": "kìm hãm động lực tự thân"
+                    "en": "lose motivation for self-improvement",
+                    "vi": "mất động lực tự hoàn thiện bản thân"
                   }
                 ],
                 "evidence_vi": "Khi thường xuyên nhận được lời khen ngợi, một số người có thể không còn nhận ra khuyết điểm và không muốn tiếp tục cải thiện năng lực của mình.",
-                "evidence_en": "When surrounded by uncritical flattery, celebrities may develop inflated egos, overlook their shortcomings, and eventually neglect artistic development.",
+                "evidence_en": "When people are constantly flattered, they may fail to see their own weaknesses and stop putting effort into developing their skills.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "uncritical flattery",
-                      "vi": "những lời tâng bốc thiếu khách quan"
+                      "en": "constantly flattered",
+                      "vi": "liên tục được tâng bốc"
                     },
                     {
-                      "en": "develop inflated egos",
-                      "vi": "phát triển cái tôi quá lớn"
+                      "en": "fail to see their own weaknesses",
+                      "vi": "không nhận ra khuyết điểm của bản thân"
                     }
                   ],
                   [
                     {
-                      "en": "overlook shortcomings",
-                      "vi": "phớt lờ khuyết điểm"
-                    },
-                    {
-                      "en": "neglect artistic development",
-                      "vi": "bỏ bê sự phát triển nghệ thuật"
+                      "en": "stop putting effort into self-improvement",
+                      "vi": "ngừng nỗ lực hoàn thiện bản thân"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "dangerous complacency",
-                    "vi": "sự tự mãn nguy hiểm"
+                    "en": "become complacent",
+                    "vi": "trở nên tự mãn"
                   },
                   {
-                    "en": "stifle motivation for self-improvement",
-                    "vi": "kìm hãm động lực hoàn thiện bản thân"
+                    "en": "lose motivation to improve",
+                    "vi": "mất động lực tiến bộ"
                   },
                   {
-                    "en": "overlook shortcomings",
-                    "vi": "bỏ qua các khuyết điểm"
+                    "en": "fail to recognize personal flaws",
+                    "vi": "không nhận ra khuyết điểm cá nhân"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 05: DỄ BỊ CÁM DỖ BỞI TIỀN BẠC VÀ LỐI SỐNG XA HOA (TEMPTATIONS OF MATERIAL WEALTH AND EXTRAVAGANCE)",
-                "point_vi": "Sự giàu có nhanh chóng và danh vọng dễ đưa đẩy người nổi tiếng vào những cám dỗ vật chất và lối sống hưởng lạc quá đà.",
-                "point_en": "Unchecked affluence and elevated status can induce hazardous temptations toward hedonistic indulgence and moral compromises.",
+                "title": "BẤT LỢI 05: DỄ BỊ CÁM DỖ BỞI TIỀN BẠC VÀ LỐI SỐNG XA HOA",
+                "point_vi": "Người nổi tiếng rất dễ bị cám dỗ bởi tiền bạc và lối sống xa hoa, phung phí.",
+                "point_en": "Celebrities can easily fall into the temptations of money and a lavish lifestyle.",
                 "point_collocations": [
                   {
-                    "en": "unchecked affluence",
-                    "vi": "sự giàu sang không được kiểm soát"
+                    "en": "fall into temptations",
+                    "vi": "sa vào những cám dỗ"
                   },
                   {
-                    "en": "hedonistic indulgence",
-                    "vi": "lối sống hưởng lạc buông thả"
-                  },
-                  {
-                    "en": "moral compromises",
-                    "vi": "những thỏa hiệp về mặt đạo đức"
+                    "en": "a lavish lifestyle",
+                    "vi": "lối sống xa hoa, phung phí"
                   }
                 ],
                 "evidence_vi": "Danh tiếng và sự giàu có có thể khiến một số người chạy theo những thú vui vật chất, đưa ra những quyết định sai lầm và làm tổn hại hình ảnh cá nhân.",
-                "evidence_en": "Lacking mature financial restraint, some celebrities succumb to conspicuous consumption and reckless conduct, which irreversibly tarnishes their public legacy.",
+                "evidence_en": "Sudden wealth and popularity may lead some individuals to spend money recklessly, make foolish personal choices, and ultimately ruin their public image.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "mature financial restraint",
-                      "vi": "sự kiềm chế tài chính chín chắn"
+                      "en": "spend money recklessly",
+                      "vi": "tiêu tiền thiếu suy nghĩ / phung phí"
                     },
                     {
-                      "en": "succumb to conspicuous consumption",
-                      "vi": "sa vào lối tiêu xài phô trương"
+                      "en": "make foolish personal choices",
+                      "vi": "đưa ra những lựa chọn cá nhân dại dột"
                     }
                   ],
                   [
                     {
-                      "en": "tarnish public legacy",
-                      "vi": "làm hoen ố hình ảnh và di sản công chúng"
+                      "en": "ruin their public image",
+                      "vi": "hủy hoại hình ảnh trước công chúng"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "material temptations",
-                    "vi": "cám dỗ vật chất"
+                    "en": "tempted by money and wealth",
+                    "vi": "bị cám dỗ bởi tiền bạc"
                   },
                   {
-                    "en": "conspicuous consumption",
-                    "vi": "tiêu xài phô trương"
+                    "en": "spend money recklessly",
+                    "vi": "tiêu tiền phung phí"
                   },
                   {
-                    "en": "tarnish public legacy",
-                    "vi": "làm tổn hại hình ảnh trước công chúng"
+                    "en": "damage their personal image",
+                    "vi": "làm tổn hại hình ảnh cá nhân"
                   }
                 ]
               }
@@ -60757,16 +60569,16 @@ const ESSAY_DATA = [
               "vi": "sự công nhận, biết đến rộng rãi",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "She finally received recognition for her musical talent.",
-              "example_vi": "Cô ấy cuối cùng đã nhận được sự công nhận cho tài năng âm nhạc của mình."
+              "example_en": "She finally received public recognition for her hard work.",
+              "example_vi": "Cô ấy cuối cùng đã nhận được sự công nhận của công chúng cho nỗ lực của mình."
             },
             {
               "en": "admire",
               "vi": "ngưỡng mộ, khâm phục",
               "type": "verb",
-              "level": "B1",
-              "example_en": "Fans deeply admire the singer for her beautiful voice and kindness.",
-              "example_vi": "Người hâm mộ rất ngưỡng mộ nữ ca sĩ vì giọng hát hay và lòng tốt của cô."
+              "level": "B1, B2",
+              "example_en": "Fans deeply admire the singer for her talent and generosity.",
+              "example_vi": "Người hâm mộ rất ngưỡng mộ nữ ca sĩ vì tài năng và sự hào phóng của cô."
             },
             {
               "en": "compliment",
@@ -60780,737 +60592,625 @@ const ESSAY_DATA = [
               "en": "commercial",
               "vi": "mang tính thương mại, quảng cáo",
               "type": "adj",
-              "level": "B1",
-              "example_en": "Celebrities earn high income by appearing in commercial advertisements.",
-              "example_vi": "Người nổi tiếng kiếm thu nhập cao bằng cách xuất hiện trong các quảng cáo thương mại."
+              "level": "B1, B2",
+              "example_en": "Celebrities earn extra income by appearing in commercial advertisements.",
+              "example_vi": "Người nổi tiếng kiếm thêm thu nhập bằng cách xuất hiện trong các quảng cáo thương mại."
             },
             {
-              "en": "advertise",
-              "vi": "quảng cáo, quảng bá sản phẩm",
-              "type": "verb",
-              "level": "B1",
-              "example_en": "Top sports stars often advertise popular shoe brands.",
-              "example_vi": "Các ngôi sao thể thao hàng đầu thường quảng cáo cho các nhãn hàng giày nổi tiếng."
+              "en": "endorsement",
+              "vi": "hợp đồng quảng bá, đại diện sản phẩm",
+              "type": "noun",
+              "level": "B2",
+              "example_en": "Product endorsements bring large profits for popular sports stars.",
+              "example_vi": "Hợp đồng quảng bá sản phẩm đem lại lợi nhuận lớn cho các ngôi sao thể thao."
             },
             {
               "en": "influence",
               "vi": "sức ảnh hưởng, tác động",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "Famous people have a huge influence on young audiences.",
-              "example_vi": "Người nổi tiếng có sức ảnh hưởng rất lớn đối với khán giả trẻ."
+              "example_en": "Public figures have a strong influence on the lifestyle of young people.",
+              "example_vi": "Các nhân vật của công chúng có ảnh hưởng mạnh mẽ đến lối sống của giới trẻ."
             },
             {
               "en": "inspire",
               "vi": "truyền cảm hứng",
               "type": "verb",
               "level": "B1, B2",
-              "example_en": "Good leaders use their fame to inspire people to protect the environment.",
-              "example_vi": "Những nhà lãnh đạo tốt sử dụng danh tiếng của mình để truyền cảm hứng cho mọi người bảo vệ môi trường."
+              "example_en": "Successful leaders use their fame to inspire people to do charity work.",
+              "example_vi": "Những người thành công dùng danh tiếng của mình để truyền cảm hứng làm việc thiện."
             },
             {
-              "en": "relationship",
-              "vi": "mối quan hệ",
+              "en": "partnership",
+              "vi": "mối quan hệ hợp tác",
               "type": "noun",
-              "level": "B1",
-              "example_en": "Fame helps artists build good relationships with top movie directors.",
-              "example_vi": "Danh tiếng giúp các nghệ sĩ xây dựng mối quan hệ tốt với các đạo diễn phim hàng đầu."
+              "level": "B1, B2",
+              "example_en": "Long-term partnerships with big brands ensure a steady income for creators.",
+              "example_vi": "Quan hệ hợp tác lâu dài với các nhãn hàng lớn đảm bảo thu nhập ổn định cho người làm sáng tạo."
             },
             {
               "en": "collaborate",
               "vi": "hợp tác, phối hợp làm việc",
               "type": "verb",
               "level": "B1, B2",
-              "example_en": "Famous singers often collaborate with international producers.",
-              "example_vi": "Các ca sĩ nổi tiếng thường hợp tác với các nhà sản xuất quốc tế."
+              "example_en": "Famous artists frequently collaborate with foreign directors on new film projects.",
+              "example_vi": "Các nghệ sĩ nổi tiếng thường xuyên hợp tác với các đạo diễn nước ngoài trong các dự án phim mới."
+            },
+            {
+              "en": "network",
+              "vi": "mạng lưới quan hệ / kết nối quan hệ",
+              "type": "noun/verb",
+              "level": "B1, B2",
+              "example_en": "Fame helps performers build an extensive professional network.",
+              "example_vi": "Danh tiếng giúp những người biểu diễn xây dựng một mạng lưới quan hệ công việc rộng lớn."
             },
             {
               "en": "privacy",
-              "vi": "quyền riêng tư, đời tư",
+              "vi": "quyền riêng tư, đời tư cá nhân",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "Celebrities lose their personal privacy because cameras follow them everywhere.",
-              "example_vi": "Người nổi tiếng mất quyền riêng tư cá nhân vì ống kính máy ảnh theo chân họ khắp nơi."
+              "example_en": "Celebrities often complain about the loss of personal privacy in their daily lives.",
+              "example_vi": "Người nổi tiếng thường phàn nàn về việc mất quyền riêng tư cá nhân trong đời sống hằng ngày."
             },
             {
-              "en": "criticize",
-              "vi": "chỉ trích, phê phán",
-              "type": "verb",
-              "level": "B1",
-              "example_en": "Public figures are easily criticized whenever they make a small mistake.",
-              "example_vi": "Nhân vật của công chúng rất dễ bị chỉ trích mỗi khi họ phạm một lỗi nhỏ."
+              "en": "paparazzi",
+              "vi": "thợ săn ảnh bám đuôi người nổi tiếng",
+              "type": "noun",
+              "level": "B2",
+              "example_en": "Paparazzi often wait outside celebrities' houses to take secret photos.",
+              "example_vi": "Cánh thợ săn ảnh thường chờ sẵn bên ngoài nhà người nổi tiếng để chụp ảnh lén."
+            },
+            {
+              "en": "scrutiny",
+              "vi": "sự săm soi, theo dõi sát sao của dư luận",
+              "type": "noun",
+              "level": "B2",
+              "example_en": "Public figures must learn to live under constant media scrutiny.",
+              "example_vi": "Nhân vật của công chúng phải học cách sống dưới sự săm soi thường xuyên của truyền thông."
+            },
+            {
+              "en": "criticism",
+              "vi": "sự chỉ trích, phê bình",
+              "type": "noun",
+              "level": "B1, B2",
+              "example_en": "Famous stars often face harsh criticism whenever they make a mistake in public.",
+              "example_vi": "Các ngôi sao nổi tiếng thường đối mặt với sự chỉ trích gay gắt mỗi khi họ mắc lỗi trước công chúng."
             },
             {
               "en": "rumor",
-              "vi": "tin đồn, lời đồn thất thiệt",
+              "vi": "tin đồn, lời đồn đại",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "False rumors on the Internet can hurt a celebrity's feelings and reputation.",
-              "example_vi": "Những tin đồn sai sự thật trên mạng có thể làm tổn thương tình cảm và danh tiếng của người nổi tiếng."
+              "example_en": "False rumors spread quickly on social media and can damage an artist's image.",
+              "example_vi": "Những tin đồn thất thiệt lan truyền nhanh trên mạng xã hội và có thể làm hại hình ảnh nghệ sĩ."
             },
             {
               "en": "pressure",
-              "vi": "áp lực, gánh nặng tâm lý",
+              "vi": "áp lực tâm lý",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "Young stars are under continuous pressure to look perfect.",
-              "example_vi": "Các ngôi sao trẻ chịu áp lực liên tục để luôn có vẻ ngoài hoàn hảo."
+              "example_en": "Young idols are under tremendous pressure to maintain a perfect public image.",
+              "example_vi": "Các thần tượng trẻ chịu áp lực to lớn để duy trì hình ảnh hoàn hảo trước công chúng."
             },
             {
-              "en": "stressful",
-              "vi": "căng thẳng, gây áp lực",
-              "type": "adj",
-              "level": "B1",
-              "example_en": "Living in the public eye can be extremely stressful.",
-              "example_vi": "Sống dưới sự chú ý của dư luận có thể vô cùng căng thẳng."
+              "en": "anxiety",
+              "vi": "sự lo âu, cảm giác bất an",
+              "type": "noun",
+              "level": "B1, B2",
+              "example_en": "Continuous public attention can cause severe anxiety and sleeping problems for stars.",
+              "example_vi": "Sự chú ý liên tục của công chúng có thể gây ra chứng lo âu nặng và mất ngủ cho các ngôi sao."
             },
             {
               "en": "exhausted",
-              "vi": "kiệt sức, mệt mỏi rã rời",
+              "vi": "kiệt sức, vô cùng mệt mỏi",
               "type": "adj",
               "level": "B1, B2",
-              "example_en": "Tight schedules leave many performers completely exhausted.",
-              "example_vi": "Lịch trình dày đặc khiến nhiều người biểu diễn hoàn toàn kiệt sức."
+              "example_en": "Non-stop travel and rehearsals leave many performers completely exhausted.",
+              "example_vi": "Việc di chuyển và tập luyện không ngừng khiến nhiều người biểu diễn hoàn toàn kiệt sức."
             },
             {
               "en": "complacent",
-              "vi": "tự mãn, tự hài lòng quá sớm",
+              "vi": "tự mãn, chủ quan tự hài lòng",
               "type": "adj",
+              "level": "B2",
+              "example_en": "If a star becomes complacent after early success, their skills may stop improving.",
+              "example_vi": "Nếu một ngôi sao trở nên tự mãn sau thành công sớm, kỹ năng của họ có thể ngừng tiến bộ."
+            },
+            {
+              "en": "flaw",
+              "vi": "khuyết điểm, thiếu sót",
+              "type": "noun",
               "level": "B1, B2",
-              "example_en": "If stars become complacent, they may stop practicing their skills.",
-              "example_vi": "Nếu các ngôi sao trở nên tự mãn, họ có thể ngừng rèn luyện kỹ năng của mình."
+              "example_en": "When people always receive praise, they may fail to notice their own personal flaws.",
+              "example_vi": "Khi luôn nhận được lời khen ngợi, con người ta có thể không nhận ra khuyết điểm của chính mình."
             },
             {
               "en": "temptation",
               "vi": "sự cám dỗ",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "Sudden wealth brings many temptations that young people cannot resist.",
-              "example_vi": "Sự giàu có bất ngờ mang lại nhiều cám dỗ mà người trẻ khó lòng cưỡng lại."
+              "example_en": "Sudden wealth brings many temptations that young people find difficult to resist.",
+              "example_vi": "Sự giàu có bất ngờ mang đến nhiều cám dỗ mà người trẻ thấy khó lòng cưỡng lại."
             },
             {
               "en": "lavish",
               "vi": "xa hoa, phung phí",
               "type": "adj",
-              "level": "B1, B2",
-              "example_en": "Spending money on a lavish lifestyle can lead to financial trouble.",
-              "example_vi": "Tiêu tiền vào một lối sống xa hoa có thể dẫn đến rắc rối tài chính."
+              "level": "B2",
+              "example_en": "Some celebrities spend too much money on luxury cars and lavish parties.",
+              "example_vi": "Một số người nổi tiếng tiêu quá nhiều tiền vào xe sang và những bữa tiệc xa hoa."
             },
             {
               "en": "reputation",
               "vi": "danh tiếng, uy tín cá nhân",
               "type": "noun",
               "level": "B1, B2",
-              "example_en": "A bad scandal can ruin a celebrity's reputation overnight.",
-              "example_vi": "Một vụ bê bối tai tiếng có thể hủy hoại danh tiếng của một ngôi sao chỉ sau một đêm."
+              "example_en": "It takes years to build a good reputation, but a single scandal can ruin it.",
+              "example_vi": "Mất nhiều năm để xây dựng danh tiếng tốt, nhưng chỉ một vụ bê bối có thể hủy hoại nó."
             },
             {
-              "en": "lucrative",
-              "vi": "sinh lời cao, đem lại thu nhập khủng",
-              "type": "adj",
-              "level": "B2",
-              "example_en": "Top influencers frequently sign lucrative endorsement deals with luxury brands.",
-              "example_vi": "Những người có sức ảnh hưởng hàng đầu thường ký các hợp đồng quảng bá béo bở với các thương hiệu xa xỉ."
-            },
-            {
-              "en": "endorsement",
-              "vi": "sự bảo chứng, hợp đồng đại diện quảng bá",
+              "en": "spotlight",
+              "vi": "ánh đèn sân khấu, sự chú ý của dư luận",
               "type": "noun",
-              "level": "B2",
-              "example_en": "Commercial endorsements generate massive revenues for celebrated athletes.",
-              "example_vi": "Các hợp đồng đại diện thương mại đem lại doanh thu khổng lồ cho các vận động viên danh tiếng."
-            },
-            {
-              "en": "validation",
-              "vi": "sự công nhận, khẳng định giá trị chính thức",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "Winning prestigious awards provides public validation for years of artistic dedication.",
-              "example_vi": "Chiến thắng các giải thưởng danh giá mang lại sự ghi nhận từ công chúng cho những năm tháng cống hiến nghệ thuật."
-            },
-            {
-              "en": "adulation",
-              "vi": "sự tán tụng, tâng bốc nồng nhiệt của công chúng",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "Constant public adulation can easily distort a celebrity's sense of reality.",
-              "example_vi": "Sự tán dương liên tục từ công chúng có thể dễ dàng làm méo mó nhận thức thực tế của một người nổi tiếng."
-            },
-            {
-              "en": "philanthropic",
-              "vi": "mang tính bác ái, từ thiện xã hội",
-              "type": "adj",
-              "level": "B2",
-              "example_en": "Many wealthy stars establish philanthropic foundations to support underprivileged children.",
-              "example_vi": "Nhiều ngôi sao giàu có thành lập các quỹ thiện nguyện để hỗ trợ trẻ em có hoàn cảnh khó khăn."
-            },
-            {
-              "en": "deprivation",
-              "vi": "sự tước đoạt, sự mất mát nghiêm trọng",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "A major drawback of stardom is the acute deprivation of fundamental personal privacy.",
-              "example_vi": "Một bất lợi lớn của danh vọng là sự tước đoạt nghiêm trọng quyền riêng tư cá nhân cơ bản."
-            },
-            {
-              "en": "scrutiny",
-              "vi": "sự săm soi, giám sát khắt khe của dư luận",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "Public figures must endure relentless media scrutiny in both their professional and private lives.",
-              "example_vi": "Những nhân vật của công chúng phải chịu đựng sự săm soi khắt khe không ngừng từ truyền thông trong cả sự nghiệp lẫn đời tư."
-            },
-            {
-              "en": "paparazzi",
-              "vi": "cánh săn ảnh bám đuôi người nổi tiếng",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "Aggressive paparazzi often invade celebrities' private residences to capture sensational photos.",
-              "example_vi": "Những thợ săn ảnh quá khích thường xâm nhập tư gia của người nổi tiếng để săn những bức ảnh giật gân."
-            },
-            {
-              "en": "slander",
-              "vi": "sự vu khống, phỉ báng danh dự",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "Artists frequently file lawsuits against internet users for malicious slander and defamation.",
-              "example_vi": "Các nghệ sĩ thường xuyên đệ đơn kiện người dùng mạng vì hành vi vu khống và bôi nhọ danh dự."
-            },
-            {
-              "en": "vitriol",
-              "vi": "lời lẽ cay độc, độc hại mang tính công kích",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "Cyberbullying and anonymous vitriol on social media take a heavy toll on performers' mental health.",
-              "example_vi": "Nạn bắt nạt trên mạng và những lời lẽ cay độc ẩn danh trên mạng xã hội gây tổn hại nặng nề đến sức khỏe tâm thần của người biểu diễn."
-            },
-            {
-              "en": "infallible",
-              "vi": "hoàn hảo không tì vết, không bao giờ phạm sai lầm",
-              "type": "adj",
-              "level": "B2",
-              "example_en": "Expecting public icons to maintain an infallible facade at all times is unrealistic.",
-              "example_vi": "Kỳ vọng các thần tượng công chúng luôn duy trì vẻ ngoài hoàn hảo không tì vết là điều phi thực tế."
-            },
-            {
-              "en": "conspicuous",
-              "vi": "phô trương, dễ gây chú ý",
-              "type": "adj",
-              "level": "B2",
-              "example_en": "Conspicuous consumption of sports cars and designer jewellery can alienate working-class audiences.",
-              "example_vi": "Việc phô trương tiêu dùng siêu xe và trang sức hàng hiệu có thể làm mất thiện cảm với bộ phận khán giả bình dân."
-            },
-            {
-              "en": "hedonistic",
-              "vi": "hưởng lạc buông thả, chạy theo khoái lạc",
-              "type": "adj",
-              "level": "B2",
-              "example_en": "Uncontrolled fame can drive some stars into hedonistic lifestyles and reckless habits.",
-              "example_vi": "Danh vọng mất kiểm soát có thể đẩy một số ngôi sao vào lối sống hưởng lạc buông thả và những thói quen liều lĩnh."
-            },
-            {
-              "en": "tarnish",
-              "vi": "làm hoen ố, làm vấy bẩn danh tiếng",
-              "type": "verb",
-              "level": "B2",
-              "example_en": "A single ethical scandal can irreversibly tarnish an illustrious career built over decades.",
-              "example_vi": "Một vụ bê bối đạo đức đơn lẻ có thể làm hoen ố vĩnh viễn sự nghiệp lẫy lừng được gây dựng qua nhiều thập kỷ."
-            },
-            {
-              "en": "prestige",
-              "vi": "uy tín, địa vị xã hội cao quý",
-              "type": "noun",
-              "level": "B2",
-              "example_en": "National awards cement an artist's social prestige and enduring artistic legacy.",
-              "example_vi": "Những giải thưởng quốc gia củng cố uy tín xã hội và di sản nghệ thuật lâu dài của một nghệ sĩ."
+              "level": "B1, B2",
+              "example_en": "Living in the spotlight means that your personal life is never truly private.",
+              "example_vi": "Sống dưới sự chú ý của dư luận đồng nghĩa với việc đời tư không bao giờ thực sự riêng tư."
             },
             {
               "en": "become widely known",
               "vi": "được nhiều người biết đến",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Talented singers quickly become widely known after winning television contests.",
-              "example_vi": "Các ca sĩ tài năng nhanh chóng được nhiều người biết đến sau khi chiến thắng các cuộc thi truyền hình."
+              "example_en": "Talented singers quickly become widely known after winning popular music shows.",
+              "example_vi": "Các ca sĩ tài năng nhanh chóng được nhiều người biết đến sau khi chiến thắng các chương trình âm nhạc."
             },
             {
               "en": "recognized for their talents",
               "vi": "được công nhận tài năng",
               "type": "adj.phr",
               "level": "B1",
-              "example_en": "They feel proud when they are recognized for their talents and hard work.",
-              "example_vi": "Họ cảm thấy tự hào khi được công nhận về tài năng và sự nỗ lực làm việc."
+              "example_en": "People feel happy when they are recognized for their talents and achievements.",
+              "example_vi": "Mọi người cảm thấy hạnh phúc khi được công nhận tài năng và thành tựu của mình."
             },
             {
-              "en": "achieve great success",
-              "vi": "đạt được thành công lớn",
-              "type": "v.phr",
-              "level": "B1",
-              "example_en": "Young actors work hard to achieve great success in the film industry.",
-              "example_vi": "Các diễn viên trẻ nỗ lực làm việc để đạt được thành công lớn trong ngành điện ảnh."
-            },
-            {
-              "en": "gain widespread public recognition",
-              "vi": "nhận được sự công nhận rộng rãi của công chúng",
+              "en": "gain public recognition",
+              "vi": "nhận được sự công nhận của công chúng",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Achieving stardom allows artists to gain widespread public recognition for their creative efforts.",
-              "example_vi": "Chạm tới danh vọng giúp nghệ sĩ nhận được sự công nhận rộng rãi của công chúng cho nỗ lực sáng tạo."
+              "example_en": "Fame enables hard-working artists to gain public recognition for their creative efforts.",
+              "example_vi": "Danh tiếng giúp những nghệ sĩ chăm chỉ nhận được sự công nhận của công chúng cho nỗ lực sáng tạo."
             },
             {
-              "en": "receive formal validation",
-              "vi": "nhận được sự ghi nhận chính thức",
-              "type": "v.phr",
+              "en": "appreciated for their achievements",
+              "vi": "được trân trọng vì những thành tựu đạt được",
+              "type": "adj.phr",
               "level": "B2",
-              "example_en": "Winning international prizes provides formal validation for exceptional performers.",
-              "example_vi": "Chiến thắng giải thưởng quốc tế đem lại sự ghi nhận chính thức cho những người biểu diễn xuất sắc."
+              "example_en": "Celebrities are widely appreciated for their achievements in sports and entertainment.",
+              "example_vi": "Người nổi tiếng được công chúng trân trọng vì những thành tựu trong thể thao và giải trí."
             },
             {
-              "en": "cement social prestige",
-              "vi": "củng cố uy tín và vị thế xã hội",
+              "en": "build a successful reputation",
+              "vi": "xây dựng danh tiếng thành công",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Decades of high-quality work cement an actor's social prestige and legacy.",
-              "example_vi": "Nhiều thập kỷ làm việc chất lượng cao củng cố uy tín xã hội và di sản của một diễn viên."
+              "example_en": "Consistent hard work helps young performers build a successful reputation.",
+              "example_vi": "Sự chăm chỉ bền bỉ giúp những người biểu diễn trẻ xây dựng được danh tiếng thành công."
             },
             {
               "en": "receive love and admiration",
-              "vi": "nhận được tình yêu thương và sự ngưỡng mộ",
+              "vi": "nhận được tình cảm yêu mến và sự ngưỡng mộ",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Popular performers receive great love and admiration from audiences everywhere.",
-              "example_vi": "Những người biểu diễn được mến mộ nhận được tình yêu thương và sự ngưỡng mộ to lớn từ khán giả ở khắp mọi nơi."
+              "example_en": "Famous figures receive great love and admiration from people around the world.",
+              "example_vi": "Những người nổi tiếng nhận được tình cảm yêu mến và sự ngưỡng mộ lớn từ mọi người."
             },
             {
-              "en": "receive numerous compliments",
-              "vi": "nhận được nhiều lời khen ngợi",
+              "en": "receive compliments and encouragement",
+              "vi": "nhận được lời khen ngợi và động viên",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "They receive numerous compliments and warm encouragement on their personal pages.",
-              "example_vi": "Họ nhận được nhiều lời khen ngợi và sự khích lệ ấm áp trên trang cá nhân."
+              "example_en": "They regularly receive positive compliments and warm encouragement on their fan pages.",
+              "example_vi": "Họ thường xuyên nhận được những lời khen tích cực và lời động viên ấm áp trên trang người hâm mộ."
             },
             {
               "en": "strong support from fans",
               "vi": "sự ủng hộ mạnh mẽ từ người hâm mộ",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Strong support from fans motivates artists to practice and improve every day.",
-              "example_vi": "Sự ủng hộ mạnh mẽ từ người hâm mộ thúc đẩy các nghệ sĩ rèn luyện và tiến bộ mỗi ngày."
+              "example_en": "Strong support from fans motivates artists to practice and perform better.",
+              "example_vi": "Sự ủng hộ mạnh mẽ từ người hâm mộ thôi thúc các nghệ sĩ luyện tập và biểu diễn tốt hơn."
             },
             {
-              "en": "enjoy immense public admiration",
-              "vi": "tận hưởng sự ngưỡng mộ to lớn của công chúng",
+              "en": "earn great admiration and respect",
+              "vi": "nhận được sự ngưỡng mộ và tôn trọng lớn",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Celebrated authors enjoy immense public admiration across different generations.",
-              "example_vi": "Các tác giả danh tiếng tận hưởng sự ngưỡng mộ to lớn của công chúng qua nhiều thế hệ."
+              "example_en": "Talented creators easily earn great admiration and respect from their audiences.",
+              "example_vi": "Những người làm sáng tạo tài năng dễ dàng nhận được sự ngưỡng mộ và tôn trọng từ khán giả."
             },
             {
-              "en": "unwavering affection from audiences",
-              "vi": "tình cảm bền chặt, không đổi từ khán giả",
-              "type": "n.phr",
-              "level": "B2",
-              "example_en": "Sincere artists maintain unwavering affection from devoted audiences throughout their careers.",
-              "example_vi": "Những nghệ sĩ chân chính luôn giữ được tình cảm bền chặt từ khán giả trung thành suốt sự nghiệp."
-            },
-            {
-              "en": "derive emotional fulfillment",
-              "vi": "có được sự thỏa mãn sâu sắc về mặt cảm xúc",
+              "en": "boost self-confidence",
+              "vi": "gia tăng sự tự tin cho bản thân",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Performing before cheering stadiums provides deep emotional fulfillment for musicians.",
-              "example_vi": "Biểu diễn trước những sân vận động hò reo đem lại sự thỏa mãn cảm xúc sâu sắc cho các nhạc sĩ."
+              "example_en": "Kind words from supporters help boost self-confidence and inspire future work.",
+              "example_vi": "Những lời nói tốt đẹp từ người ủng hộ giúp gia tăng sự tự tin và truyền cảm hứng cho công việc tương lai."
             },
             {
               "en": "earn extra income",
               "vi": "kiếm thêm thu nhập",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Celebrities can easily earn extra income through different promotional activities.",
-              "example_vi": "Người nổi tiếng có thể dễ dàng kiếm thêm thu nhập thông qua các hoạt động quảng bá khác nhau."
+              "example_en": "Fame allows popular singers to earn extra income from concerts and events.",
+              "example_vi": "Danh tiếng cho phép các ca sĩ nổi tiếng kiếm thêm thu nhập từ các buổi hòa nhạc và sự kiện."
             },
             {
               "en": "commercial advertising",
               "vi": "quảng cáo thương mại",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Participating in commercial advertising brings significant financial returns.",
-              "example_vi": "Tham gia vào quảng cáo thương mại mang lại nguồn lợi tài chính đáng kể."
+              "example_en": "Many celebrities make good money through commercial advertising on television.",
+              "example_vi": "Nhiều người nổi tiếng kiếm được tiền tốt thông qua quảng cáo thương mại trên truyền hình."
             },
             {
-              "en": "product endorsements",
-              "vi": "giới thiệu và bảo chứng sản phẩm",
+              "en": "product promotions",
+              "vi": "quảng bá sản phẩm",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Product endorsements allow famous figures to earn money from trusted consumer goods.",
-              "example_vi": "Quảng bá sản phẩm cho phép người có tên tuổi kiếm tiền từ các mặt hàng tiêu dùng uy tín."
+              "example_en": "Social media stars often do product promotions for clothing and beauty brands.",
+              "example_vi": "Các ngôi sao mạng xã hội thường quảng bá sản phẩm cho các nhãn hàng thời trang và làm đẹp."
             },
             {
-              "en": "brand partnerships",
-              "vi": "hợp tác với các thương hiệu",
+              "en": "earn high income from advertising",
+              "vi": "kiếm thu nhập cao từ quảng cáo",
+              "type": "v.phr",
+              "level": "B2",
+              "example_en": "Influencers can earn high income from advertising and sponsored posts.",
+              "example_vi": "Những người có sức ảnh hưởng có thể kiếm thu nhập cao từ quảng cáo và bài đăng tài trợ."
+            },
+            {
+              "en": "partnerships with famous brands",
+              "vi": "hợp tác với các thương hiệu nổi tiếng",
               "type": "n.phr",
-              "level": "B1",
-              "example_en": "Long-term brand partnerships guarantee steady earnings for digital creators.",
-              "example_vi": "Hợp tác thương hiệu dài hạn đảm bảo thu nhập ổn định cho các nhà sáng tạo nội dung số."
+              "level": "B2",
+              "example_en": "Successful athletes sign profitable partnerships with famous global brands.",
+              "example_vi": "Các vận động viên thành công ký hợp đồng hợp tác sinh lời với các thương hiệu nổi tiếng toàn cầu."
             },
             {
-              "en": "command lucrative endorsement fees",
-              "vi": "nhận mức thù lao quảng cáo béo bở",
+              "en": "achieve financial security",
+              "vi": "đạt được sự đảm bảo tài chính",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "A-list celebrities can command lucrative endorsement fees for television commercials.",
-              "example_vi": "Những ngôi sao hạng A có thể đòi hỏi mức thù lao quảng cáo béo bở cho các quảng cáo truyền hình."
-            },
-            {
-              "en": "amass substantial financial wealth",
-              "vi": "tích lũy khối tài sản tài chính đáng kể",
-              "type": "v.phr",
-              "level": "B2",
-              "example_en": "Fame enables entrepreneurial stars to amass substantial financial wealth through smart investments.",
-              "example_vi": "Danh tiếng cho phép các ngôi sao có óc kinh doanh tích lũy khối tài sản đáng kể qua đầu tư khôn ngoan."
+              "example_en": "Becoming famous enables many people to achieve long-term financial security.",
+              "example_vi": "Trở nên nổi tiếng giúp nhiều người đạt được sự đảm bảo tài chính lâu dài."
             },
             {
               "en": "positive influence on the community",
               "vi": "ảnh hưởng tích cực đến cộng đồng",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Good role models have a strong positive influence on the community.",
-              "example_vi": "Những tấm gương sáng có sức ảnh hưởng tích cực mạnh mẽ đối với cộng đồng."
+              "example_en": "Celebrities should have a positive influence on the community through their actions.",
+              "example_vi": "Người nổi tiếng nên tạo ảnh hưởng tích cực đến cộng đồng thông qua hành động của họ."
             },
             {
-              "en": "large following",
-              "vi": "lượng người theo dõi đông đảo",
+              "en": "large following on social media",
+              "vi": "lượng người theo dõi lớn trên mạng xã hội",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "With a large following, internet stars can spread good news very quickly.",
-              "example_vi": "Với lượng người theo dõi lớn, các ngôi sao mạng có thể lan tỏa tin tốt rất nhanh chóng."
+              "example_en": "With a large following on social media, stars can share messages with millions.",
+              "example_vi": "Với lượng người theo dõi lớn trên mạng, các ngôi sao có thể chia sẻ thông điệp tới hàng triệu người."
             },
             {
-              "en": "share inspiring messages",
-              "vi": "chia sẻ các thông điệp truyền cảm hứng",
+              "en": "share positive messages",
+              "vi": "chia sẻ các thông điệp tích cực",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Famous athletes often share inspiring messages to encourage young people to stay fit.",
-              "example_vi": "Các vận động viên nổi tiếng thường chia sẻ thông điệp truyền cảm hứng để khuyến khích giới trẻ rèn luyện."
+              "example_en": "Famous figures often share positive messages to encourage people to live healthy lives.",
+              "example_vi": "Người nổi tiếng thường chia sẻ thông điệp tích cực để khuyến khích mọi người sống lành mạnh."
             },
             {
-              "en": "exert formidable social influence",
-              "vi": "tạo ra sức ảnh hưởng xã hội to lớn",
+              "en": "have a strong influence on society",
+              "vi": "có sức ảnh hưởng mạnh mẽ đến xã hội",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Renowned personalities exert formidable social influence capable of mobilizing public opinion.",
-              "example_vi": "Các nhân vật tên tuổi tạo ra sức ảnh hưởng xã hội to lớn có khả năng huy động dư luận công chúng."
+              "example_en": "Prominent personalities have a strong influence on society and can shape public trends.",
+              "example_vi": "Những nhân vật nổi bật có ảnh hưởng mạnh đến xã hội và có thể định hình xu hướng cộng đồng."
             },
             {
-              "en": "champion philanthropic causes",
-              "vi": "dẫn dắt và ủng hộ các phong trào thiện nguyện",
+              "en": "support community and charity projects",
+              "vi": "ủng hộ các dự án cộng đồng và từ thiện",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Prominent figures frequently champion philanthropic causes such as environmental sustainability.",
-              "example_vi": "Những nhân vật nổi bật thường xuyên dẫn dắt các phong trào từ thiện như bảo vệ môi trường bền vững."
+              "example_en": "Many stars use their popularity to support community and charity projects across the country.",
+              "example_vi": "Nhiều ngôi sao dùng danh tiếng của mình để ủng hộ các dự án cộng đồng và từ thiện trên toàn quốc."
             },
             {
-              "en": "inspire meaningful civic participation",
-              "vi": "khơi dậy sự tham gia công dân có ý nghĩa",
+              "en": "raise awareness of important issues",
+              "vi": "nâng cao nhận thức về các vấn đề quan trọng",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Celebrity advocacy can inspire meaningful civic participation during natural disaster relief.",
-              "example_vi": "Sự ủng hộ từ người nổi tiếng có thể khơi dậy sự tham gia công dân tích cực trong cứu trợ thiên tai."
+              "example_en": "Celebrities help raise awareness of important issues like climate change and education.",
+              "example_vi": "Người nổi tiếng giúp nâng cao nhận thức về các vấn đề quan trọng như biến đổi khí hậu và giáo dục."
             },
             {
               "en": "expand social relationships",
               "vi": "mở rộng các mối quan hệ xã hội",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Becoming famous helps people expand their social relationships rapidly.",
-              "example_vi": "Trở nên nổi tiếng giúp mọi người mở rộng các mối quan hệ xã hội một cách nhanh chóng."
+              "example_en": "Fame gives people the chance to expand social relationships very quickly.",
+              "example_vi": "Danh tiếng cho mọi người cơ hội mở rộng các mối quan hệ xã hội rất nhanh chóng."
             },
             {
               "en": "meet talented people",
               "vi": "gặp gỡ những người tài năng",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Popular creators have the opportunity to meet talented people from different fields.",
-              "example_vi": "Các nhà sáng tạo có cơ hội gặp gỡ những người tài năng từ nhiều lĩnh vực khác nhau."
+              "example_en": "Successful actors often meet talented people from many different fields.",
+              "example_vi": "Các diễn viên thành công thường gặp gỡ những người tài năng từ nhiều lĩnh vực khác nhau."
             },
             {
               "en": "new career opportunities",
-              "vi": "cơ hội nghề nghiệp mới mẻ",
+              "vi": "những cơ hội nghề nghiệp mới",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Public fame unlocks exciting new career opportunities in media and fashion.",
-              "example_vi": "Danh tiếng công chúng mở ra những cơ hội nghề nghiệp mới mẻ trong truyền thông và thời trang."
+              "example_en": "Being famous opens the door to new career opportunities in film and television.",
+              "example_vi": "Trở nên nổi tiếng mở ra cánh cửa cho những cơ hội nghề nghiệp mới trong phim ảnh và truyền hình."
             },
             {
-              "en": "privileged access to elite networks",
-              "vi": "đặc quyền tiếp cận các mạng lưới quan hệ cao cấp",
-              "type": "n.phr",
-              "level": "B2",
-              "example_en": "Stardom provides privileged access to elite professional networks unavailable to ordinary individuals.",
-              "example_vi": "Địa vị ngôi sao đem lại đặc quyền tiếp cận các mạng lưới tinh hoa mà người bình thường không thể có."
-            },
-            {
-              "en": "groundbreaking career ventures",
-              "vi": "những dự án sự nghiệp mang tính đột phá",
-              "type": "n.phr",
-              "level": "B2",
-              "example_en": "High-profile artists can launch groundbreaking career ventures in global entertainment markets.",
-              "example_vi": "Nghệ sĩ tên tuổi có thể khởi động các dự án sự nghiệp đột phá trên thị trường giải trí toàn cầu."
-            },
-            {
-              "en": "collaborate with foremost industry leaders",
-              "vi": "hợp tác với những chuyên gia đầu ngành",
+              "en": "expand professional networks",
+              "vi": "mở rộng mạng lưới quan hệ công việc",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Fame enables creatives to collaborate with foremost industry leaders to diversify their artistic portfolios.",
-              "example_vi": "Danh tiếng cho phép người làm sáng tạo hợp tác với những chuyên gia đầu ngành để đa dạng hóa năng lực."
+              "example_en": "Fame allows professionals to expand their professional networks and find business partners.",
+              "example_vi": "Danh tiếng cho phép mọi người mở rộng mạng lưới quan hệ công việc và tìm kiếm đối tác kinh doanh."
+            },
+            {
+              "en": "connect with experts in different fields",
+              "vi": "kết nối với các chuyên gia trong nhiều lĩnh vực",
+              "type": "v.phr",
+              "level": "B2",
+              "example_en": "Being famous helps creators connect with experts in different fields to produce quality work.",
+              "example_vi": "Nổi tiếng giúp người làm sáng tạo kết nối với các chuyên gia trong nhiều lĩnh vực để tạo ra sản phẩm chất lượng."
+            },
+            {
+              "en": "valuable work collaborations",
+              "vi": "sự hợp tác công việc giá trị",
+              "type": "n.phr",
+              "level": "B2",
+              "example_en": "Good relationships lead to valuable work collaborations on major projects.",
+              "example_vi": "Mối quan hệ tốt dẫn tới sự hợp tác công việc giá trị trong các dự án lớn."
             },
             {
               "en": "loss of personal privacy",
-              "vi": "đánh mất quyền riêng tư cá nhân",
+              "vi": "mất quyền riêng tư cá nhân",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "The biggest drawback of fame is the severe loss of personal privacy.",
-              "example_vi": "Bất lợi lớn nhất của sự nổi tiếng là sự mất mát nghiêm trọng quyền riêng tư cá nhân."
+              "example_en": "A major drawback of fame is the serious loss of personal privacy.",
+              "example_vi": "Một bất lợi lớn của danh tiếng là sự mất mát quyền riêng tư cá nhân nghiêm trọng."
             },
             {
               "en": "watched by the public",
-              "vi": "bị công chúng theo dõi, chú ý",
+              "vi": "bị công chúng theo dõi và để ý",
               "type": "adj.phr",
               "level": "B1",
-              "example_en": "Famous figures are constantly watched by the public wherever they go.",
-              "example_vi": "Những nhân vật nổi tiếng luôn bị công chúng theo dõi ở bất cứ nơi nào họ đi qua."
+              "example_en": "Famous figures are always watched by the public wherever they go in public.",
+              "example_vi": "Những nhân vật nổi tiếng luôn bị công chúng theo dõi ở bất cứ nơi nào họ đến."
             },
             {
               "en": "lack of personal space",
-              "vi": "thiếu không gian cá nhân",
+              "vi": "thiếu không gian riêng tư",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Celebrities suffer from a total lack of personal space even at private family dinners.",
-              "example_vi": "Người nổi tiếng phải chịu sự thiếu thốn hoàn toàn không gian cá nhân ngay cả khi ăn tối cùng gia đình."
+              "example_en": "Celebrities frequently suffer from a lack of personal space when outside.",
+              "example_vi": "Người nổi tiếng thường xuyên thiếu không gian riêng tư khi ra ngoài."
             },
             {
-              "en": "acute deprivation of personal privacy",
-              "vi": "sự tước đoạt nghiêm trọng quyền riêng tư cá nhân",
-              "type": "n.phr",
+              "en": "followed by reporters and photographers",
+              "vi": "bị phóng viên và thợ chụp ảnh theo dõi",
+              "type": "v.phr",
               "level": "B2",
-              "example_en": "Living under public glare leads to the acute deprivation of fundamental personal privacy.",
-              "example_vi": "Sống dưới ánh nhìn soi mói của công chúng dẫn đến sự tước đoạt nghiêm trọng quyền riêng tư cơ bản."
+              "example_en": "They are constantly followed by reporters and photographers trying to get private news.",
+              "example_vi": "Họ liên tục bị phóng viên và thợ ảnh theo dõi nhằm săn tin tức đời tư."
             },
             {
-              "en": "invasive media scrutiny",
-              "vi": "sự săm soi xâm phạm của giới truyền thông",
+              "en": "private life exposed in the media",
+              "vi": "đời tư bị phơi bày trên các phương tiện truyền thông",
               "type": "n.phr",
               "level": "B2",
-              "example_en": "Every private conversation can become subject to invasive media scrutiny and paparazzi harassment.",
-              "example_vi": "Mọi cuộc trò chuyện riêng tư đều có thể trở thành đối tượng bị truyền thông săm soi và bị săn ảnh quấy rối."
+              "example_en": "Having your private life exposed in the media can be painful for family members.",
+              "example_vi": "Việc đời tư bị phơi bày trên truyền thông có thể gây đau lòng cho các thành viên trong gia đình."
             },
             {
-              "en": "relentless paparazzi tracking",
-              "vi": "sự đeo bám ráo riết của cánh săn ảnh",
-              "type": "n.phr",
+              "en": "live under constant public attention",
+              "vi": "sống dưới sự chú ý thường xuyên của dư luận",
+              "type": "v.phr",
               "level": "B2",
-              "example_en": "Public figures face relentless paparazzi tracking, leaving them with no sanctuary in ordinary life.",
-              "example_vi": "Các nhân vật công chúng đối mặt với sự đeo bám ráo riết của thợ săn ảnh, tước đi mọi chốn bình yên đời thường."
+              "example_en": "It is hard to relax when you live under constant public attention.",
+              "example_vi": "Rất khó để thư giãn khi bạn phải sống dưới sự chú ý thường xuyên của dư luận."
             },
             {
               "en": "become targets of criticism",
               "vi": "trở thành mục tiêu của sự chỉ trích",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Celebrities easily become targets of criticism whenever public mood changes.",
-              "example_vi": "Người nổi tiếng rất dễ trở thành mục tiêu chỉ trích bất cứ khi nào tâm trạng dư luận thay đổi."
+              "example_en": "Famous individuals easily become targets of criticism when things go wrong.",
+              "example_vi": "Người nổi tiếng dễ trở thành mục tiêu chỉ trích khi mọi việc diễn ra không suôn sẻ."
             },
             {
               "en": "negative comments on social media",
               "vi": "bình luận tiêu cực trên mạng xã hội",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Reading hundreds of negative comments on social media can hurt anyone's feelings.",
-              "example_vi": "Đọc hàng trăm bình luận tiêu cực trên mạng xã hội có thể làm tổn thương bất kỳ ai."
+              "example_en": "Reading hundreds of negative comments on social media can hurt their feelings.",
+              "example_vi": "Đọc hàng trăm bình luận tiêu cực trên mạng xã hội có thể làm tổn thương cảm xúc của họ."
             },
             {
-              "en": "harsh judgments from the public",
-              "vi": "những lời phán xét khắt khe từ công chúng",
-              "type": "n.phr",
+              "en": "face harsh public judgment",
+              "vi": "đối mặt với sự phán xét khắt khe của công chúng",
+              "type": "v.phr",
               "level": "B1",
-              "example_en": "Famous people must deal with harsh judgments from the public about their lifestyle.",
-              "example_vi": "Người nổi tiếng phải đối phó với những phán xét khắt khe từ dư luận về lối sống của mình."
+              "example_en": "Celebrities must face harsh public judgment about their personal lifestyle choices.",
+              "example_vi": "Người nổi tiếng phải đối mặt với sự phán xét gay gắt từ công chúng về lối sống của mình."
             },
             {
-              "en": "prime targets for malicious slander",
-              "vi": "mục tiêu hàng đầu của sự vu khống ác ý",
-              "type": "n.phr",
-              "level": "B2",
-              "example_en": "Prominent personalities routinely become prime targets for malicious slander and fabricated scandals.",
-              "example_vi": "Những nhân vật nổi tiếng thường xuyên trở thành mục tiêu hàng đầu của sự vu khống ác ý và scandal thêu dệt."
-            },
-            {
-              "en": "subjected to online vitriol",
-              "vi": "hứng chịu những lời lẽ độc hại trên không gian mạng",
+              "en": "deal with rumors and jealousy",
+              "vi": "đối phó với những tin đồn và sự ghen ghét",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Public icons are frequently subjected to intense online vitriol from anonymous internet users.",
-              "example_vi": "Các thần tượng công chúng thường xuyên phải hứng chịu những lời lẽ độc hại từ người dùng mạng ẩn danh."
+              "example_en": "Public figures frequently have to deal with rumors and jealousy from critics.",
+              "example_vi": "Nhân vật công chúng thường xuyên phải đối phó với những tin đồn và sự ghen ghét từ người chỉ trích."
             },
             {
-              "en": "inflict severe reputational damage",
-              "vi": "gây tổn hại danh tiếng nặng nề",
+              "en": "damage their personal reputation",
+              "vi": "làm tổn hại danh tiếng cá nhân",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Sensationalized media controversies can inflict severe reputational damage within hours.",
-              "example_vi": "Những cuộc tranh cãi truyền thông giật gân có thể gây tổn hại danh tiếng nghiêm trọng chỉ trong vài giờ."
+              "example_en": "Unfair scandals and false stories can quickly damage their personal reputation.",
+              "example_vi": "Những vụ bê bối vô căn cứ và câu chuyện sai sự thật có thể nhanh chóng làm hại danh tiếng cá nhân."
             },
             {
               "en": "heavy psychological pressure",
               "vi": "áp lực tâm lý nặng nề",
               "type": "n.phr",
               "level": "B1",
-              "example_en": "Young stars experience heavy psychological pressure to remain successful.",
-              "example_vi": "Những ngôi sao trẻ trải qua áp lực tâm lý nặng nề để duy trì được thành công."
+              "example_en": "Famous people experience heavy psychological pressure to stay at the top.",
+              "example_vi": "Người nổi tiếng trải qua áp lực tâm lý nặng nề để giữ vững đỉnh cao."
             },
             {
               "en": "feel stressed and tired",
               "vi": "cảm thấy căng thẳng và mệt mỏi",
               "type": "adj.phr",
               "level": "B1",
-              "example_en": "Living in the spotlight makes performers feel stressed and tired most of the time.",
-              "example_vi": "Sống dưới ánh đèn sân khấu khiến người biểu diễn cảm thấy căng thẳng và mệt mỏi phần lớn thời gian."
+              "example_en": "Busy working schedules make performers feel stressed and tired.",
+              "example_vi": "Lịch làm việc bận rộn khiến những người biểu diễn cảm thấy căng thẳng và mệt mỏi."
             },
             {
               "en": "suffer from anxiety",
-              "vi": "chịu đựng chứng rối loạn lo âu",
+              "vi": "chịu đựng chứng lo âu",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Many famous singers suffer from anxiety due to tight tour schedules.",
-              "example_vi": "Nhiều ca sĩ nổi tiếng chịu đựng chứng lo âu do lịch trình lưu diễn dày đặc."
+              "example_en": "Many young stars suffer from anxiety because of unrealistic public expectations.",
+              "example_vi": "Nhiều ngôi sao trẻ chịu đựng chứng lo âu vì những kỳ vọng thiếu thực tế của công chúng."
             },
             {
-              "en": "bear an immense psychological toll",
-              "vi": "gánh chịu tổn thất tâm lý to lớn",
+              "en": "live in the spotlight",
+              "vi": "sống dưới ánh đèn sân khấu, tâm điểm chú ý",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Enduring relentless evaluation under the public gaze takes an immense psychological toll on mental health.",
-              "example_vi": "Chịu đựng sự đánh giá không ngừng dưới ánh nhìn dư luận gây tổn hại tâm lý to lớn cho sức khỏe tinh thần."
+              "example_en": "To live in the spotlight requires great emotional strength and maturity.",
+              "example_vi": "Sống dưới ánh đèn sân khấu đòi hỏi sức mạnh cảm xúc và sự chín chắn to lớn."
             },
             {
-              "en": "maintain an infallible facade",
-              "vi": "duy trì vẻ ngoài hoàn hảo không tì vết",
-              "type": "v.phr",
+              "en": "feel mentally exhausted",
+              "vi": "cảm thấy kiệt sức về mặt tinh thần",
+              "type": "adj.phr",
               "level": "B2",
-              "example_en": "The continuous burden of maintaining an infallible facade often precipitates severe depressive episodes.",
-              "example_vi": "Gánh nặng thường trực phải duy trì vẻ ngoài hoàn hảo thường dẫn tới những đợt trầm cảm nặng nề."
+              "example_en": "Enduring constant scrutiny can make artists feel mentally exhausted.",
+              "example_vi": "Chịu đựng sự săm soi liên tục có thể khiến các nghệ sĩ cảm thấy kiệt quệ về mặt tinh thần."
             },
             {
-              "en": "debilitating stress and emotional burnout",
-              "vi": "căng thẳng suy nhược và kiệt quệ cảm xúc",
-              "type": "n.phr",
+              "en": "hard to enjoy a normal life",
+              "vi": "khó có thể tận hưởng cuộc sống bình thường",
+              "type": "phrase",
               "level": "B2",
-              "example_en": "Unchecked hypercritical expectations precipitate debilitating stress and chronic emotional burnout.",
-              "example_vi": "Những kỳ vọng khắt khe không ngừng dẫn tới căng thẳng làm suy nhược cơ thể và kiệt quệ cảm xúc kéo dài."
+              "example_en": "Because of public attention, it is very hard for them to enjoy a normal life.",
+              "example_vi": "Vì sự chú ý của công chúng, rất khó để họ tận hưởng một cuộc sống bình thường."
             },
             {
               "en": "become complacent",
               "vi": "trở nên tự mãn",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Receiving praise all the time can cause young people to become complacent.",
-              "example_vi": "Nhận lời khen suốt ngày có thể khiến người trẻ trở nên tự mãn."
+              "example_en": "Hearing compliments all the time can cause young stars to become complacent.",
+              "example_vi": "Nghe lời khen suốt ngày có thể khiến các ngôi sao trẻ trở nên tự mãn."
             },
             {
-              "en": "lose motivation for self-improvement",
-              "vi": "đánh mất động lực hoàn thiện bản thân",
+              "en": "lose motivation to improve",
+              "vi": "đánh mất động lực để tiến bộ",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Some celebrities lose motivation for self-improvement once they achieve rapid fame.",
-              "example_vi": "Một số người nổi tiếng đánh mất động lực hoàn thiện bản thân khi họ đạt được danh tiếng nhanh chóng."
+              "example_en": "Some individuals lose motivation to improve their skills once they become popular.",
+              "example_vi": "Một số người mất động lực cải thiện kỹ năng khi họ đã trở nên nổi tiếng."
             },
             {
-              "en": "fail to see personal flaws",
+              "en": "fail to recognize personal flaws",
               "vi": "không nhận ra khuyết điểm của bản thân",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Surrounded by praise, they fail to see personal flaws and stop learning from mistakes.",
-              "example_vi": "Được bao quanh bởi lời tán tụng, họ không nhận ra khuyết điểm và ngừng học hỏi từ sai lầm."
+              "example_en": "Surrounded by praise, they may fail to recognize personal flaws in their work.",
+              "example_vi": "Được bao quanh bởi lời khen, họ có thể không nhận ra khuyết điểm trong công việc của mình."
             },
             {
-              "en": "breed dangerous complacency",
-              "vi": "nuôi dưỡng thói tự mãn nguy hiểm",
+              "en": "too confident about their abilities",
+              "vi": "quá tự tin về năng lực của mình",
+              "type": "adj.phr",
+              "level": "B2",
+              "example_en": "Celebrities who become too confident about their abilities may stop learning.",
+              "example_vi": "Những người nổi tiếng quá tự tin vào năng lực của mình có thể ngừng học hỏi."
+            },
+            {
+              "en": "stop putting effort into self-improvement",
+              "vi": "ngừng nỗ lực hoàn thiện bản thân",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Uncritical praise risks breeding dangerous complacency and intellectual stagnation.",
-              "example_vi": "Lời khen ngợi thiếu phản biện có nguy cơ nuôi dưỡng thói tự mãn nguy hiểm và sự trì trệ về trí tuệ."
+              "example_en": "Success should not cause artists to stop putting effort into self-improvement.",
+              "example_vi": "Thành công không nên khiến các nghệ sĩ ngừng nỗ lực hoàn thiện bản thân."
             },
             {
-              "en": "develop an inflated ego",
-              "vi": "hình thành cái tôi phóng đại quá mức",
-              "type": "v.phr",
-              "level": "B2",
-              "example_en": "When surrounded by sycophantic entourages, stars often develop an inflated ego.",
-              "example_vi": "Khi bị vây quanh bởi những người xu nịnh, các ngôi sao thường hình thành cái tôi kiêu ngạo quá mức."
-            },
-            {
-              "en": "stifle intrinsic motivation for growth",
-              "vi": "kìm hãm động lực phát triển tự thân",
-              "type": "v.phr",
-              "level": "B2",
-              "example_en": "Premature public adulation can stifle intrinsic motivation for artistic and intellectual growth.",
-              "example_vi": "Sự tán dương sớm từ dư luận có thể kìm hãm động lực tự thân để phát triển nghệ thuật và trí tuệ."
-            },
-            {
-              "en": "tempted by vast wealth",
-              "vi": "bị cám dỗ bởi tiền bạc lớn",
+              "en": "tempted by money and wealth",
+              "vi": "bị cám dỗ bởi tiền bạc và sự giàu sang",
               "type": "adj.phr",
               "level": "B1",
-              "example_en": "Inexperienced youngsters are easily tempted by vast wealth and lavish lifestyles.",
-              "example_vi": "Những người trẻ chưa có kinh nghiệm rất dễ bị cám dỗ bởi khối tài sản lớn và lối sống xa hoa."
+              "example_en": "Young people are easily tempted by money and wealth after becoming famous.",
+              "example_vi": "Người trẻ rất dễ bị cám dỗ bởi tiền bạc và sự giàu sang sau khi trở nên nổi tiếng."
             },
             {
-              "en": "excessive spending",
-              "vi": "tiêu xài quá mức, hoang phí",
-              "type": "n.phr",
+              "en": "spend money recklessly",
+              "vi": "tiêu tiền một cách thiếu suy nghĩ / phung phí",
+              "type": "v.phr",
               "level": "B1",
-              "example_en": "Excessive spending on luxury cars can quickly lead to bankruptcy.",
-              "example_vi": "Tiêu xài quá mức vào xe sang có thể nhanh chóng dẫn tới phá sản."
+              "example_en": "Spending money recklessly on luxury cars can quickly lead to financial difficulties.",
+              "example_vi": "Tiêu tiền phung phí vào xe sang có thể nhanh chóng dẫn đến khó khăn tài chính."
             },
             {
-              "en": "damage personal image",
+              "en": "damage their personal image",
               "vi": "làm tổn hại hình ảnh cá nhân",
               "type": "v.phr",
               "level": "B1",
-              "example_en": "Making bad choices in social life will damage their personal image severely.",
-              "example_vi": "Đưa ra những lựa chọn sai lầm trong cuộc sống xã hội sẽ làm tổn hại hình ảnh cá nhân nghiêm trọng."
+              "example_en": "Making bad choices in personal life will damage their personal image.",
+              "example_vi": "Đưa ra những lựa chọn sai lầm trong đời tư sẽ làm tổn hại hình ảnh cá nhân của họ."
             },
             {
-              "en": "succumb to conspicuous consumption",
-              "vi": "sa vào lối tiêu dùng phô trương",
+              "en": "fall into a lavish lifestyle",
+              "vi": "sa vào lối sống xa hoa, phung phí",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Lacking financial discipline, newly rich stars frequently succumb to conspicuous consumption.",
-              "example_vi": "Thiếu kỷ luật tài chính, những ngôi sao mới nổi thường sa vào lối tiêu dùng phô trương quá đà."
+              "example_en": "Without good guidance, stars can fall into a lavish lifestyle they cannot maintain.",
+              "example_vi": "Nếu không có sự định hướng tốt, các ngôi sao có thể sa vào lối sống xa hoa mà họ không thể duy trì."
             },
             {
-              "en": "unchecked hedonistic indulgence",
-              "vi": "lối sống hưởng lạc buông thả không kiểm soát",
-              "type": "n.phr",
-              "level": "B2",
-              "example_en": "Unchecked hedonistic indulgence often triggers moral compromises and legal controversies.",
-              "example_vi": "Lối sống hưởng lạc buông thả không kiểm soát thường châm ngòi cho sự suy đồi đạo đức và rắc rối pháp lý."
-            },
-            {
-              "en": "irreversibly tarnish public legacy",
-              "vi": "làm hoen ố vĩnh viễn di sản và hình ảnh trước công chúng",
+              "en": "waste money on expensive items",
+              "vi": "lãng phí tiền vào những món đồ đắt đỏ",
               "type": "v.phr",
               "level": "B2",
-              "example_en": "Reckless misconduct in the public eye can irreversibly tarnish an otherwise celebrated public legacy.",
-              "example_vi": "Hành vi liều lĩnh trước công chúng có thể làm hoen ố vĩnh viễn một di sản vốn từng được tôn vinh."
+              "example_en": "Some individuals waste money on expensive items instead of saving for the future.",
+              "example_vi": "Một số người lãng phí tiền vào đồ xa xỉ thay vì tiết kiệm cho tương lai."
+            },
+            {
+              "en": "make bad personal decisions",
+              "vi": "đưa ra những quyết định cá nhân sai lầm",
+              "type": "v.phr",
+              "level": "B2",
+              "example_en": "Material temptations may push them to make bad personal decisions.",
+              "example_vi": "Cám dỗ vật chất có thể đẩy họ vào việc đưa ra những quyết định cá nhân sai lầm."
             },
             {
               "en": "on the one hand / on the other hand",
               "vi": "một mặt / mặt khác",
               "type": "adv.phr",
               "level": "B1",
-              "example_en": "On the one hand, fame brings wealth; on the other hand, it destroys privacy.",
-              "example_vi": "Một mặt, danh tiếng mang lại sự giàu có; mặt khác, nó hủy hoại quyền riêng tư."
+              "example_en": "On the one hand, fame brings money; on the other hand, it reduces privacy.",
+              "example_vi": "Một mặt, danh tiếng mang lại tiền bạc; mặt khác, nó làm giảm sự riêng tư."
             },
             {
               "en": "one major benefit is that",
@@ -61518,7 +61218,7 @@ const ESSAY_DATA = [
               "type": "phrase",
               "level": "B1",
               "example_en": "One major benefit is that celebrities can inspire positive social change.",
-              "example_vi": "Một lợi ích lớn là người nổi tiếng có thể truyền cảm hứng cho những thay đổi xã hội tích cực."
+              "example_vi": "Một lợi ích lớn là người nổi tiếng có thể truyền cảm hứng cho sự thay đổi xã hội tích cực."
             },
             {
               "en": "another negative aspect is that",
@@ -61526,75 +61226,75 @@ const ESSAY_DATA = [
               "type": "phrase",
               "level": "B1",
               "example_en": "Another negative aspect is that famous figures face constant public judgment.",
-              "example_vi": "Một khía cạnh tiêu cực khác là những nhân vật có tên tuổi phải đối mặt với sự phán xét liên tục từ dư luận."
+              "example_vi": "Một khía cạnh tiêu cực khác là những nhân vật nổi tiếng đối mặt với sự phán xét liên tục từ dư luận."
             },
             {
-              "en": "a paramount advantage of",
-              "vi": "một thuận lợi tối quan trọng của",
-              "type": "phrase",
+              "en": "first and foremost",
+              "vi": "trước hết và quan trọng nhất",
+              "type": "adv.phr",
               "level": "B2",
-              "example_en": "A paramount advantage of celebrity status is unparalleled commercial opportunity.",
-              "example_vi": "Một thuận lợi tối quan trọng của vị thế người nổi tiếng là cơ hội thương mại vô song."
+              "example_en": "First and foremost, fame provides individuals with widespread public recognition.",
+              "example_vi": "Trước hết và quan trọng nhất, sự nổi tiếng mang lại cho các cá nhân sự công nhận rộng rãi."
             },
             {
-              "en": "conversely, it entails severe liabilities",
-              "vi": "ngược lại, nó kéo theo những gánh nặng nghiêm trọng",
-              "type": "phrase",
-              "level": "B2",
-              "example_en": "Conversely, achieving fame entails severe psychological and personal liabilities.",
-              "example_vi": "Ngược lại, việc đạt được danh tiếng kéo theo những gánh nặng tâm lý và đời tư nghiêm trọng."
-            },
-            {
-              "en": "a double-edged sword",
-              "vi": "con dao hai lưỡi (vừa có lợi vừa có hại)",
+              "en": "considerable advantages / noticeable drawbacks",
+              "vi": "thuận lợi đáng kể / bất lợi rõ rệt",
               "type": "n.phr",
               "level": "B2",
-              "example_en": "Fame unquestionably represents a double-edged sword for ambitious individuals.",
-              "example_vi": "Danh vọng chắc chắn biểu trưng cho một con dao hai lưỡi đối với những cá nhân giàu tham vọng."
+              "example_en": "While stardom offers considerable advantages, it also brings noticeable drawbacks.",
+              "example_vi": "Mặc dù danh tiếng mang lại những thuận lợi đáng kể, nó cũng đem đến những bất lợi rõ rệt."
+            },
+            {
+              "en": "weigh the pros and cons carefully",
+              "vi": "cân nhắc kỹ lưỡng điểm tốt và điểm xấu",
+              "type": "v.phr",
+              "level": "B2",
+              "example_en": "Young people should weigh the pros and cons carefully before seeking fame.",
+              "example_vi": "Người trẻ nên cân nhắc kỹ điểm tốt và xấu trước khi tìm kiếm sự nổi tiếng."
             }
           ],
-          "sample_b2": "In today’s media-saturated era, <strong>the pursuit of fame</strong> has emerged as a compelling aspiration for countless individuals worldwide. While celebrity status undeniably confers substantial socio-economic privileges, it simultaneously imposes acute personal and psychological liabilities. <strong>This essay will critically examine both the merits and drawbacks of living in the public spotlight.</strong>\n\n<strong>On the one hand, achieving stardom yields significant tangible advantages.</strong> Primarily, <strong><em>prominent figures enjoy widespread public recognition and lucrative commercial opportunities</em></strong>. Due to their vast market appeal, celebrated artists and influencers can command exceptionally high fees through corporate sponsorships, product endorsements, and exclusive business ventures, thereby establishing long-term financial security. Additionally, <strong><em>renowned personalities possess formidable social influence capable of instigating constructive civic changes</em></strong>. By leveraging their expansive digital platforms, they can effectively champion philanthropic initiatives, mobilize disaster relief, and inspire global audiences toward sustainable and charitable causes.\n\n<strong>On the other hand, the perils associated with fame are equally profound.</strong> Foremost among these is <strong><em>the acute deprivation of personal privacy resulting from invasive media scrutiny</em></strong>. Relentlessly pursued by paparazzi and sensationalist journalists, public figures find their intimate relationships and private affairs incessantly commodified for public entertainment, leaving them virtually stripped of a normal personal existence. Furthermore, <strong><em>the hypercritical nature of the public eye inflicts severe psychological trauma on high-profile individuals</em></strong>. Enduring relentless toxic feedback, cyberbullying, and the persistent terror of reputational ruin, numerous celebrities experience debilitating stress, insomnia, and profound emotional vulnerability. Finally, excessive adulation may cultivate complacency, blinding some stars to their flaws and leading to ethical compromises.\n\nIn conclusion, <strong>becoming famous</strong> represents a double-edged sword. While it provides unparalleled wealth, societal reverence, and a powerful voice, it demands exorbitant sacrifices in terms of individual autonomy and mental well-being. Aspiring public figures must therefore maintain emotional resilience to navigate the formidable shadows cast by fame.",
-          "translation_b2": "Trong kỷ nguyên bùng nổ truyền thông ngày nay, <strong>việc mưu cầu danh tiếng</strong> đã nổi lên như một khát vọng mãnh liệt của vô số người trên khắp thế giới. Mặc dù địa vị người nổi tiếng mang lại những đặc quyền kinh tế - xã hội to lớn không thể chối cãi, nó đồng thời đặt ra những gánh nặng nghiêm trọng về mặt cá nhân và tâm lý. <strong>Bài luận này sẽ phân tích có phê phán cả những mặt tích cực lẫn bất lợi của cuộc sống dưới ánh đèn sân khấu.</strong>\n\n<strong>Một mặt, việc chạm tới đỉnh cao danh vọng mang lại những lợi ích cụ thể to lớn.</strong> Trước hết, <strong><em>các nhân vật tên tuổi được hưởng sự công nhận rộng rãi của công chúng và những cơ hội thương mại vô cùng béo bở</em></strong>. Nhờ sức hút thị trường khổng lồ, các nghệ sĩ và người có sức ảnh hưởng có thể nhận được mức thù lao rất cao thông qua các hợp đồng tài trợ doanh nghiệp, đại sứ thương hiệu và các dự án kinh doanh độc quyền, từ đó xây dựng nền tảng tài chính bền vững lâu dài. Ngoài ra, <strong><em>những nhân vật nổi tiếng sở hữu sức ảnh hưởng xã hội mạnh mẽ, có khả năng khởi xướng những thay đổi mang tính xây dựng cho cộng đồng</em></strong>. Bằng cách tận dụng các nền tảng kỹ thuật số rộng lớn của mình, họ có thể dẫn dắt các phong trào thiện nguyện, kêu gọi cứu trợ thiên tai và truyền cảm hứng cho công chúng hướng tới các hoạt động nhân ái.\n\n<strong>Mặt khác, những hiểm họa đi liền với sự nổi tiếng cũng sâu sắc không kém.</strong> Đáng kể nhất trong số đó là <strong><em>sự tước đoạt nghiêm trọng quyền riêng tư cá nhân bắt nguồn từ sự săm soi xâm phạm của truyền thông</em></strong>. Bị cánh săn ảnh và các phóng viên giật gân bám đuổi không dứt, các nhân vật công chúng chứng kiến những mối quan hệ thân mật và sinh hoạt đời tư của mình liên tục bị thương mại hóa để phục vụ cho sự hiếu kỳ của công chúng, tước đi của họ một cuộc sống bình thường. Hơn nữa, <strong><em>bản chất khắt khe đến nghiệt ngã của dư luận gây ra những tổn thương tâm lý nặng nề cho các nhân vật nổi tiếng</em></strong>. Việc phải chịu đựng làn sóng bình luận độc hại, bạo lực mạng và nỗi ám ảnh thường trực về sự sụp đổ danh tiếng khiến nhiều ngôi sao rơi vào căng thẳng suy nhược, mất ngủ và kiệt quệ cảm xúc. Cuối cùng, sự tán dương quá mức có thể nuôi dưỡng thói tự mãn, khiến một số ngôi sao phớt lờ khuyết điểm và đưa ra những quyết định sai lầm.\n\nTóm lại, <strong>việc trở nên nổi tiếng</strong> thực sự là một con dao hai lưỡi. Trong khi nó mang lại sự giàu có vô song, sự tôn kính của xã hội và tiếng nói quyền lực, nó đòi hỏi những sự đánh đổi vô cùng đắt giá về sự tự do cá nhân và sức khỏe tinh thần. Do đó, những ai muốn bước chân vào thế giới người nổi tiếng cần giữ vững sự bản lĩnh và kiên định để đối mặt với những góc khuất phía sau ánh hào quang.",
+          "sample_b2": "In today’s media-driven world, <strong>becoming famous</strong> has become a popular aspiration for many people, especially the younger generation. While public recognition offers significant advantages, it also brings serious personal and emotional challenges. <strong>This essay will discuss both the benefits and drawbacks of living in the public eye.</strong>\n\n<strong>On the one hand, being a celebrity offers several noticeable advantages.</strong> First and foremost, <strong><em>fame allows individuals to gain widespread public recognition and respect for their talents</em></strong>. Talented actors, musicians, or athletes are widely acknowledged for their achievements, which gives them great pride and confidence in their work. Furthermore, <strong><em>famous figures enjoy numerous financial opportunities through commercial advertising and brand partnerships</em></strong>. By promoting popular products and collaborating with major companies, they can earn a high income and achieve financial security. Finally, <strong><em>celebrities have a strong voice to influence the community positively</em></strong>, as they can inspire their followers to support charity projects and raise awareness of important social issues.\n\n<strong>On the other hand, there are major disadvantages that celebrities must face.</strong> The most significant drawback is <strong><em>the loss of personal privacy in their everyday lives</em></strong>. Because they are constantly followed by reporters and the public, it is almost impossible for them to enjoy quiet moments with their families. Another serious issue is <strong><em>the intense psychological pressure caused by public criticism and rumors</em></strong>. Living under continuous public attention means that any small mistake can attract harsh negative comments on social media, leading to stress, anxiety, and mental exhaustion. Lastly, <strong><em>some famous individuals may become complacent or fall into the temptation of a lavish lifestyle</em></strong>, which can ruin their personal reputation.\n\nIn conclusion, <strong>becoming famous</strong> brings both great rewards and significant difficulties. While it provides wealth, recognition, and social influence, it also demands the sacrifice of personal privacy and peace of mind. Therefore, people should carefully consider these challenges before pursuing a life of fame.",
+          "translation_b2": "Trong thế giới truyền thông ngày nay, <strong>việc trở nên nổi tiếng</strong> đã trở thành ước mơ phổ biến của nhiều người, đặc biệt là thế hệ trẻ. Mặc dù sự nổi tiếng mang lại những thuận lợi đáng kể, nó cũng đem đến những thách thức lớn về mặt cá nhân và tâm lý. <strong>Bài luận này sẽ thảo luận về cả những thuận lợi và khó khăn của cuộc sống dưới sự chú ý của công chúng.</strong>\n\n<strong>Một mặt, việc trở thành người nổi tiếng mang lại nhiều lợi ích rõ rệt.</strong> Trước hết, <strong><em>danh tiếng cho phép các cá nhân nhận được sự công nhận rộng rãi của công chúng và sự tôn trọng cho tài năng của họ</em></strong>. Những diễn viên, nhạc sĩ hay vận động viên tài năng được ghi nhận vì những thành tựu của mình, điều này mang lại cho họ niềm tự hào và sự tự tin lớn trong công việc. Hơn nữa, <strong><em>những nhân vật nổi tiếng có nhiều cơ hội tài chính thông qua quảng cáo thương mại và hợp tác với các nhãn hàng</em></strong>. Nhờ quảng bá sản phẩm và hợp tác với các công ty lớn, họ có thể kiếm thu nhập cao và đạt được sự ổn định tài chính. Cuối cùng, <strong><em>người nổi tiếng có tiếng nói mạnh mẽ để tạo ảnh hưởng tích cực đến cộng đồng</em></strong>, vì họ có thể truyền cảm hứng cho người theo dõi ủng hộ các hoạt động từ thiện và nâng cao nhận thức về các vấn đề xã hội quan trọng.\n\n<strong>Mặt khác, có những bất lợi lớn mà người nổi tiếng phải đối mặt.</strong> Khuyết điểm lớn nhất là <strong><em>sự mất mát quyền riêng tư cá nhân trong cuộc sống hằng ngày</em></strong>. Do liên tục bị phóng viên và công chúng theo dõi, họ gần như không thể tận hưởng những khoảnh khắc yên bình bên gia đình. Một vấn đề nghiêm trọng khác là <strong><em>áp lực tâm lý nặng nề bắt nguồn từ sự chỉ trích và những tin đồn của dư luận</em></strong>. Việc sống dưới sự chú ý thường xuyên của công chúng đồng nghĩa với việc bất kỳ sai sót nhỏ nào cũng có thể chuốc lấy những bình luận tiêu cực gay gắt trên mạng xã hội, dẫn đến căng thẳng, lo âu và kiệt sức tinh thần. Cuối cùng, <strong><em>một số người nổi tiếng có thể trở nên tự mãn hoặc sa vào cám dỗ của lối sống xa hoa</em></strong>, điều này có thể làm hủy hoại danh tiếng cá nhân của họ.\n\nTóm lại, <strong>việc trở nên nổi tiếng</strong> mang lại cả những phần thưởng to lớn lẫn những khó khăn đáng kể. Trong khi nó mang lại sự giàu có, sự công nhận và tầm ảnh hưởng xã hội, nó cũng đòi hỏi sự hy sinh quyền riêng tư và sự bình yên trong tâm hồn. Vì vậy, mọi người nên cân nhắc kỹ những thách thức này trước khi theo đuổi con đường danh vọng.",
           "key_vocab_notes": [
             {
-              "en": "widespread public recognition",
-              "vi": "sự công nhận rộng rãi của công chúng"
+              "en": "gain public recognition",
+              "vi": "nhận được sự công nhận của công chúng"
             },
             {
-              "en": "command lucrative fees",
-              "vi": "nhận mức thù lao béo bở"
+              "en": "commercial advertising",
+              "vi": "quảng cáo thương mại"
             },
             {
-              "en": "brand ambassadorship",
-              "vi": "vai trò đại sứ thương hiệu"
+              "en": "partnerships with famous brands",
+              "vi": "hợp tác với các thương hiệu nổi tiếng"
             },
             {
-              "en": "exert formidable social influence",
-              "vi": "tạo ra sức ảnh hưởng xã hội to lớn"
+              "en": "positive influence on the community",
+              "vi": "ảnh hưởng tích cực đến cộng đồng"
             },
             {
-              "en": "acute deprivation of personal privacy",
-              "vi": "sự tước đoạt nghiêm trọng quyền riêng tư cá nhân"
+              "en": "loss of personal privacy",
+              "vi": "mất quyền riêng tư cá nhân"
             },
             {
-              "en": "invasive media scrutiny",
-              "vi": "sự săm soi xâm phạm của giới truyền thông"
+              "en": "live in the spotlight",
+              "vi": "sống dưới sự chú ý thường xuyên của dư luận"
             },
             {
-              "en": "inflict severe psychological trauma",
-              "vi": "gây ra tổn thương tâm lý nặng nề"
+              "en": "targets of public criticism",
+              "vi": "mục tiêu của sự chỉ trích từ công chúng"
             },
             {
-              "en": "breed dangerous complacency",
-              "vi": "nuôi dưỡng thói tự mãn nguy hiểm"
+              "en": "feel mentally exhausted",
+              "vi": "cảm thấy kiệt sức về mặt tinh thần"
             },
             {
-              "en": "a double-edged sword",
-              "vi": "con dao hai lưỡi (vừa có lợi vừa có hại)"
+              "en": "become complacent",
+              "vi": "trở nên tự mãn"
             },
             {
-              "en": "exorbitant sacrifices",
-              "vi": "những sự đánh đổi vô cùng đắt giá"
+              "en": "fall into a lavish lifestyle",
+              "vi": "sa vào lối sống xa hoa, phung phí"
             }
           ],
           "sample_b1": "In modern society, <strong>becoming famous</strong> has become an attractive dream for many people, especially the youth. Although popularity brings several noticeable advantages, it also entails some significant disadvantages. <strong>This essay will discuss both sides of this trend.</strong>\n\n<strong>On the one hand, being famous brings several undeniable benefits.</strong> The first major advantage is that <strong><em>celebrities receive widespread recognition and great admiration from the public</em></strong>. Talented individuals are warmly praised for their achievements, which gives them immense pride and confidence to pursue their passions. Furthermore, <strong><em>fame opens up lucrative financial opportunities through advertising and brand partnerships</em></strong>. Prominent figures can earn substantial extra income by endorsing quality products or collaborating with global brands, allowing them to enjoy higher living standards and support their families comfortably.\n\n<strong>On the other hand, there are considerable drawbacks that famous individuals must endure.</strong> The most serious problem is <strong><em>the severe loss of personal privacy in everyday life</em></strong>. Famous people are constantly followed by curious crowds and reporters, making it nearly impossible for them to enjoy a peaceful private routine. Another negative aspect is <strong><em>the immense psychological pressure from public criticism and unrealistic expectations</em></strong>. Living under constant scrutiny means that any small error can attract harsh negative comments on social media, which often leads to severe mental exhaustion, chronic stress, and anxiety.\n\nIn conclusion, <strong>becoming famous</strong> has both positive and negative consequences. While it provides widespread recognition and exceptional earning power, it also causes loss of privacy and heavy mental stress. Therefore, individuals should weigh both sides carefully before pursuing a life in the spotlight.",
