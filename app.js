@@ -224,10 +224,6 @@ function getCategory3Group(t) {
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
-    return;
-  }
   if (userClass === 'CB210' && catId === 4) {
     showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
     return;
@@ -347,15 +343,10 @@ function switchCategory(catId) {
 function renderDashboard() {
   const container = document.getElementById('featured-topics-container');
   container.innerHTML = '';
-  
-  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  const userName = sessionStorage.getItem('current_user_name') || '';
-  const isGiaTueUser = (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName)));
 
   // Grab all topics that have full details (ideas and sample essays)
   const featuredTopics = [];
   ESSAY_DATA.forEach(cat => {
-    if (isGiaTueUser && cat.id !== 1 && cat.id !== 2 && cat.id !== 3) return;
     cat.topics.forEach(t => {
       if (t.hidden) return;
       if (t.has_full_details) {
@@ -789,10 +780,6 @@ function startPractice(catId, topicId) {
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
-    return;
-  }
   if (userClass === 'CB210' && catId === 4) {
     showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
     return;
@@ -9068,25 +9055,17 @@ function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
   const isCB210 = (userClass === 'CB210');
-  const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
   
-  // Category 2 lock/unlock (Unlocked for Gia Tuệ and CB210)
-  const cat2Link = document.getElementById('nav-link-cat-2');
-  if (cat2Link) {
-    const existingBadge2 = cat2Link.querySelector('.cat-lock-badge');
-    if (existingBadge2) existingBadge2.remove();
-    cat2Link.classList.remove('is-locked');
-    cat2Link.removeAttribute('title');
-  }
-
-  // Category 3 lock/unlock (Unlocked for Gia Tuệ and CB210)
-  const cat3Link = document.getElementById('nav-link-cat-3');
-  if (cat3Link) {
-    const existingBadge3 = cat3Link.querySelector('.cat-lock-badge');
-    if (existingBadge3) existingBadge3.remove();
-    cat3Link.classList.remove('is-locked');
-    cat3Link.removeAttribute('title');
-  }
+  // Category 2 & 3 lock/unlock
+  [2, 3].forEach(catId => {
+    const catLink = document.getElementById(`nav-link-cat-${catId}`);
+    if (catLink) {
+      const existingBadge = catLink.querySelector('.cat-lock-badge');
+      if (existingBadge) existingBadge.remove();
+      catLink.classList.remove('is-locked');
+      catLink.removeAttribute('title');
+    }
+  });
 
   [4].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
@@ -9096,9 +9075,9 @@ function updateClassAccessUI() {
     const existingBadge = link.querySelector('.cat-lock-badge');
     if (existingBadge) existingBadge.remove();
     
-    if (isGiaTue || isCB210) {
+    if (isCB210) {
       link.classList.add('is-locked');
-      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)' : 'Dạng luận này chưa mở cho lớp CB210');
+      link.setAttribute('title', 'Dạng luận này chưa mở cho lớp CB210 (Hiện lớp mở DẠNG 01, 02 & 03)');
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -9109,9 +9088,7 @@ function updateClassAccessUI() {
     }
   });
 
-  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2 && currentCategory.id !== 3) {
-    switchCategory(1);
-  } else if (isCB210 && currentCategory && currentCategory.id === 4) {
+  if (isCB210 && currentCategory && currentCategory.id === 4) {
     switchCategory(1);
   }
 }
