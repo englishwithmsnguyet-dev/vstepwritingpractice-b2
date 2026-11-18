@@ -349,6 +349,7 @@ function renderDashboard() {
   ESSAY_DATA.forEach(cat => {
     cat.topics.forEach(t => {
       if (t.hidden) return;
+      if (typeof isTopicAllowedForUser === 'function' && !isTopicAllowedForUser(cat.id, t.id, t)) return;
       if (t.has_full_details) {
         featuredTopics.push({
           catId: cat.id,
@@ -471,12 +472,19 @@ function renderCategoryTopics(searchQuery = '') {
         groupGrid.className = 'updated-topics-grid';
 
         list.forEach(topic => {
+          const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
+          const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
           const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill';
+          pill.className = 'updated-topic-pill' + (!isAllowed ? ' is-locked' : '');
+          if (!isAllowed) {
+            pill.style.opacity = '0.6';
+            pill.style.cursor = 'not-allowed';
+            pill.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
+          }
           pill.onclick = () => startPractice(currentCategory.id, topic.id);
           pill.innerHTML = `
-            <span class="pill-icon">📚</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+            <span class="pill-icon">${isAllowed ? '📚' : '🔒'}</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : ''}</span>
           `;
           groupGrid.appendChild(pill);
         });
@@ -678,11 +686,20 @@ function renderCategoryTopics(searchQuery = '') {
   if (currentCategory.id === 4) tagClass = 'tag-discussion';
   
   pageItems.forEach(topic => {
+    const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
+    const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
     const card = document.createElement('div');
-    card.className = 'topic-card';
+    card.className = 'topic-card' + (!isAllowed ? ' is-locked' : '');
     card.onclick = () => startPractice(currentCategory.id, topic.id);
+    if (!isAllowed) {
+      card.style.opacity = '0.65';
+      card.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
+    }
     
-    const badgeText = topic.has_full_details ? '<span class="detail-badge">Đã cập nhật</span>' : '<span class="detail-badge" style="background: var(--panel-border); color: var(--text-secondary); border: 1px solid var(--panel-border)">Đang cập nhật</span>';
+    let badgeText = topic.has_full_details ? '<span class="detail-badge">Đã cập nhật</span>' : '<span class="detail-badge" style="background: var(--panel-border); color: var(--text-secondary); border: 1px solid var(--panel-border)">Đang cập nhật</span>';
+    if (!isAllowed) {
+      badgeText = '<span class="detail-badge" style="background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3)">🔒 Khoá</span>';
+    }
     
     card.innerHTML = `
       <div class="card-header">
@@ -695,8 +712,8 @@ function renderCategoryTopics(searchQuery = '') {
       </div>
       <div class="card-footer">
         <span>VSTEP Task 2</span>
-        <div class="start-btn">
-          Luyện tập
+        <div class="start-btn" style="${!isAllowed ? 'background: #64748b; color: white;' : ''}">
+          ${isAllowed ? 'Luyện tập' : '🔒 Chưa mở'}
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
           </svg>
@@ -790,6 +807,11 @@ function startPractice(catId, topicId) {
   
   const topic = category.topics.find(t => t.id === topicId);
   if (!topic) return;
+
+  if (typeof isTopicAllowedForUser === 'function' && !isTopicAllowedForUser(catId, topicId, topic)) {
+    showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở đề "Béo phì ở giới trẻ" (Obesity) và "Gia đình đơn thân" (Single-parent families)!`, 'warning');
+    return;
+  }
   
   currentCategory = category;
   currentTopic = topic;
@@ -1044,6 +1066,9 @@ function renderWorkspaceStepHeader() {
   
   const activeKey = currentStepKey || 'read';
   const withVocab = hasVocabStep();
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const isWriteLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('write', currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic);
+  const isModelLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('model', currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic);
 
   if (withVocab) {
     container.innerHTML = `
@@ -1068,18 +1093,18 @@ function renderWorkspaceStepHeader() {
           <span class="step-title">TẬP DIỄN ĐẠT Ý TƯỞNG</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
-        <span class="step-num">4</span>
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''} ${isWriteLocked ? 'is-locked' : ''}" id="ws-tab-write" onclick="switchStep('write')" style="${isWriteLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isWriteLocked ? `Bước 04 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+        <span class="step-num">${isWriteLocked ? '🔒' : '4'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 04</span>
-          <span class="step-title">VIẾT BÀI LUẬN</span>
+          <span class="step-title">VIẾT BÀI LUẬN ${isWriteLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
-        <span class="step-num">5</span>
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''} ${isModelLocked ? 'is-locked' : ''}" id="ws-tab-model" onclick="switchStep('model')" style="${isModelLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isModelLocked ? `Bước 05 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+        <span class="step-num">${isModelLocked ? '🔒' : '5'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 05</span>
-          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU</span>
+          <span class="step-title">THAM KHẢO BÀI MẪU ${isModelLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
         </span>
       </div>
     `;
@@ -1145,6 +1170,12 @@ function switchStep(stepTarget) {
     }
   } else if (typeof stepTarget === 'string') {
     targetKey = stepTarget;
+  }
+  
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  if (typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser(targetKey, currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic)) {
+    showToast(`🔒 Bước 04 (Viết bài luận) và Bước 05 (Bài mẫu) tạm thời chưa mở cho lớp ${userClass}! Vui lòng hoàn thành 3 bước đầu của đề.`, 'warning');
+    return;
   }
   
   // Anti-cheat Exam Lock: prevent leaving 'write' step during active exam without explicit exit confirmation
@@ -2521,9 +2552,15 @@ function renderTranslationExercises() {
         ← QUAY LẠI: BƯỚC 01 - ĐỌC HIỂU ĐỀ
       </button>
     `}
-    <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep('write')">
-      HOÀN THÀNH DỊCH Ý TƯỞNG → CHUYỂN SANG VIẾT BÀI LUẬN
-    </button>
+    ${(typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('write', currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic)) ? `
+      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; opacity: 0.85; background: #64748b; cursor: not-allowed;" onclick="showToast('🔒 Bước 04 (Viết bài luận) và Bước 05 (Bài mẫu) tạm thời chưa mở cho lớp của bạn! Bạn đã hoàn thành xuất sắc 3 bước học đầu tiên của đề này.', 'warning')">
+        🔒 ĐÃ HOÀN THÀNH 3 BƯỚC ĐẦU (BƯỚC 04 & 05 TẠM KHOÁ)
+      </button>
+    ` : `
+      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep('write')">
+        HOÀN THÀNH DỊCH Ý TƯỞNG → CHUYỂN SANG VIẾT BÀI LUẬN
+      </button>
+    `}
   `;
   container.appendChild(footerDiv);
 }
@@ -9050,34 +9087,100 @@ function closeMobileSidebar() {
   if (overlay) overlay.classList.remove('active');
 }
 
+
+// Check if a category (1..4) is allowed for current student/class
+function isCategoryAllowedForUser(catId) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+
+  // Teachers always have access to all categories
+  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+    return true;
+  }
+
+  // Classes ONB103, CB211, CB213: Categories 1 & 2 are opened
+  if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+    return catId === 1 || catId === 2;
+  }
+
+  // CB210: Categories 1, 2, 3 are opened; 4 is locked
+  if (userClass === 'CB210') {
+    return catId === 1 || catId === 2 || catId === 3;
+  }
+
+  return true;
+}
+
+// Check if a topic is allowed for current student/class
+function isTopicAllowedForUser(catId, topicId, topic) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+
+  // Teachers always have access to all topics
+  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+    return true;
+  }
+
+  // Category must be allowed first
+  if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
+    return false;
+  }
+
+  // Classes ONB103, CB211, CB213: in Category 2, ONLY Obesity (id: 3) and Single-parent families (id: 9) are opened
+  if (['ONB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
+    const tid = topicId || (topic ? topic.id : 0);
+    const ten = topic ? (topic.title_en || '').toLowerCase() : '';
+    const isObesity = (tid === 3 || ten.includes('obesity'));
+    const isSingleFamilies = (tid === 9 || ten.includes('single-parent') || ten.includes('single families'));
+    return isObesity || isSingleFamilies;
+  }
+
+  return true;
+}
+
+// Check if a workspace step ('read', 'vocab', 'trans', 'write', 'model') is allowed for current student/class
+function isStepAllowedForUser(stepKey, catId, topicId, topic) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+
+  // Teachers always have access to all steps
+  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+    return true;
+  }
+
+  // Classes ONB103, CB211, CB213: in Category 2, ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
+  if (['ONB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
+    if (stepKey === 'write' || stepKey === 'model') {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 // Class-based Feature Restriction Handler
 function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
   const isCB210 = (userClass === 'CB210');
   
-  // Category 2 & 3 lock/unlock
-  [2, 3].forEach(catId => {
-    const catLink = document.getElementById(`nav-link-cat-${catId}`);
-    if (catLink) {
-      const existingBadge = catLink.querySelector('.cat-lock-badge');
-      if (existingBadge) existingBadge.remove();
-      catLink.classList.remove('is-locked');
-      catLink.removeAttribute('title');
-    }
-  });
-
-  [4].forEach(catId => {
+  // Category 2, 3 & 4 lock/unlock based on isCategoryAllowedForUser
+  [1, 2, 3, 4].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
     if (!link) return;
-    
-    // Remove existing lock badge if any
+
     const existingBadge = link.querySelector('.cat-lock-badge');
     if (existingBadge) existingBadge.remove();
-    
-    if (isCB210) {
+
+    if (!isCategoryAllowedForUser(catId)) {
       link.classList.add('is-locked');
-      link.setAttribute('title', 'Dạng luận này chưa mở cho lớp CB210 (Hiện lớp mở DẠNG 01, 02 & 03)');
+      let lockMsg = 'Dạng luận này tạm thời chưa mở';
+      if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+        lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp đã mở DẠNG LUẬN 01 & 02)`;
+      } else if (isCB210) {
+        lockMsg = 'Dạng luận này chưa mở cho lớp CB210 (Hiện lớp mở DẠNG 01, 02 & 03)';
+      }
+      link.setAttribute('title', lockMsg);
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -9087,6 +9190,8 @@ function updateClassAccessUI() {
       link.removeAttribute('title');
     }
   });
+
+
 
   if (isCB210 && currentCategory && currentCategory.id === 4) {
     switchCategory(1);
