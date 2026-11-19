@@ -9222,8 +9222,21 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
     }
   }
 
-  // Classes ONB103, CB211, CB213: in Category 2, ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
-  if (['ONB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
+  // Class CB213: in Category 2, steps 4 & 5 ('write', 'model') are UNLOCKED for topics 03 and 09
+  if (userClass === 'CB213' && catId === 2) {
+    const tid = topicId || (topic ? topic.id : 0);
+    const ten = topic ? (topic.title_en || '').toLowerCase() : '';
+    const isTopic03Or09 = (tid === 3 || tid === 9 || ten.includes('obesity') || ten.includes('single-parent') || ten.includes('single families'));
+    if (isTopic03Or09) {
+      return true; // All steps 1..5 unlocked for topics 03 and 09
+    }
+    if (stepKey === 'write' || stepKey === 'model') {
+      return false;
+    }
+  }
+
+  // Classes ONB103, CB211: in Category 2, ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
+  if (['ONB103', 'CB211'].includes(userClass) && catId === 2) {
     if (stepKey === 'write' || stepKey === 'model') {
       return false;
     }
