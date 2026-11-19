@@ -2369,9 +2369,14 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        const hasExplicitEvCols = Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0;
+        const explicitEvCols = Array.isArray(item.evidence_collocations)
+          ? (Array.isArray(item.evidence_collocations[sIdx])
+              ? item.evidence_collocations[sIdx]
+              : (sIdx === 0 && !Array.isArray(item.evidence_collocations[0]) ? item.evidence_collocations : []))
+          : [];
+        const hasExplicitEvCols = explicitEvCols && explicitEvCols.length > 0;
         let evCols = hasExplicitEvCols
-          ? deduplicateCollocations(item.evidence_collocations[sIdx], false)
+          ? deduplicateCollocations(explicitEvCols, false)
           : deduplicateCollocations(getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6));
         if (!hasExplicitEvCols) {
           evCols = deduplicateCollocations(evCols);
@@ -2419,9 +2424,14 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        const hasExplicitEvCols = Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0;
+        const explicitEvCols = Array.isArray(item.evidence_collocations)
+          ? (Array.isArray(item.evidence_collocations[sIdx])
+              ? item.evidence_collocations[sIdx]
+              : (sIdx === 0 && !Array.isArray(item.evidence_collocations[0]) ? item.evidence_collocations : []))
+          : [];
+        const hasExplicitEvCols = explicitEvCols && explicitEvCols.length > 0;
         let evCols = hasExplicitEvCols
-          ? deduplicateCollocations(item.evidence_collocations[sIdx], false)
+          ? deduplicateCollocations(explicitEvCols, false)
           : deduplicateCollocations(getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6));
         if (!hasExplicitEvCols) {
           evCols = deduplicateCollocations(evCols);

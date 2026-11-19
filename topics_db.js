@@ -317,18 +317,20 @@ const ESSAY_DATA = [
                 "evidence_vi": "Người học không cần phải đi đến trường mỗi ngày, nhờ đó họ có thể giảm chi phí đi lại.",
                 "evidence_en": "Learners do not need to travel to school every day, so they can reduce travel costs.",
                 "evidence_collocations": [
-                  {
-                    "en": "do not need to",
-                    "vi": "không cần phải"
-                  },
-                  {
-                    "en": "travel to school every day",
-                    "vi": "đi đến trường mỗi ngày"
-                  },
-                  {
-                    "en": "reduce travel costs",
-                    "vi": "giảm chi phí đi lại"
-                  }
+                  [
+                    {
+                      "en": "do not need to",
+                      "vi": "không cần phải"
+                    },
+                    {
+                      "en": "travel to school every day",
+                      "vi": "đi đến trường mỗi ngày"
+                    },
+                    {
+                      "en": "reduce travel costs",
+                      "vi": "giảm chi phí đi lại"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -370,18 +372,20 @@ const ESSAY_DATA = [
                 "evidence_vi": "Người học có thể tham gia lớp học từ bất cứ đâu, miễn là họ có kết nối Internet ổn định.",
                 "evidence_en": "Learners can attend classes from anywhere, as long as they have a stable Internet connection.",
                 "evidence_collocations": [
-                  {
-                    "en": "attend classes from anywhere",
-                    "vi": "tham gia lớp học từ bất cứ đâu"
-                  },
-                  {
-                    "en": "as long as",
-                    "vi": "miễn là"
-                  },
-                  {
-                    "en": "stable Internet connection",
-                    "vi": "kết nối Internet ổn định"
-                  }
+                  [
+                    {
+                      "en": "attend classes from anywhere",
+                      "vi": "tham gia lớp học từ bất cứ đâu"
+                    },
+                    {
+                      "en": "as long as",
+                      "vi": "miễn là"
+                    },
+                    {
+                      "en": "stable Internet connection",
+                      "vi": "kết nối Internet ổn định"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -423,18 +427,20 @@ const ESSAY_DATA = [
                 "evidence_vi": "Học sinh có thể dễ dàng tìm kiếm sách điện tử và bài giảng trên mạng để phục vụ việc học tập.",
                 "evidence_en": "Students can easily find e-books and online lectures for their studies.",
                 "evidence_collocations": [
-                  {
-                    "en": "easily find",
-                    "vi": "dễ dàng tìm kiếm"
-                  },
-                  {
-                    "en": "e-books and online lectures",
-                    "vi": "sách điện tử và bài giảng trên mạng"
-                  },
-                  {
-                    "en": "for their studies",
-                    "vi": "phục vụ việc học tập"
-                  }
+                  [
+                    {
+                      "en": "easily find",
+                      "vi": "dễ dàng tìm kiếm"
+                    },
+                    {
+                      "en": "e-books and online lectures",
+                      "vi": "sách điện tử và bài giảng trên mạng"
+                    },
+                    {
+                      "en": "for their studies",
+                      "vi": "phục vụ việc học tập"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -472,22 +478,24 @@ const ESSAY_DATA = [
                 "evidence_vi": "Học viên có thể xem lại bài giảng bất cứ lúc nào, nhờ đó họ có thêm thời gian để hiểu bài học tốt hơn.",
                 "evidence_en": "Students can watch lessons again at any time, so they have more time to understand the lessons better.",
                 "evidence_collocations": [
-                  {
-                    "en": "watch lessons again",
-                    "vi": "xem lại bài giảng"
-                  },
-                  {
-                    "en": "at any time",
-                    "vi": "bất cứ lúc nào"
-                  },
-                  {
-                    "en": "have more time to",
-                    "vi": "có thêm thời gian để"
-                  },
-                  {
-                    "en": "understand the lessons better",
-                    "vi": "hiểu bài học tốt hơn"
-                  }
+                  [
+                    {
+                      "en": "watch lessons again",
+                      "vi": "xem lại bài giảng"
+                    },
+                    {
+                      "en": "at any time",
+                      "vi": "bất cứ lúc nào"
+                    },
+                    {
+                      "en": "have more time to",
+                      "vi": "có thêm thời gian để"
+                    },
+                    {
+                      "en": "understand the lessons better",
+                      "vi": "hiểu bài học tốt hơn"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -533,18 +541,20 @@ const ESSAY_DATA = [
                 "evidence_vi": "Người học sử dụng nhiều ứng dụng học tập mỗi ngày, nhờ đó họ thành thạo công nghệ hơn.",
                 "evidence_en": "Students use varied learning applications every day, so they become more confident with technology.",
                 "evidence_collocations": [
-                  {
-                    "en": "use learning applications",
-                    "vi": "sử dụng các ứng dụng học tập"
-                  },
-                  {
-                    "en": "every day",
-                    "vi": "mỗi ngày"
-                  },
-                  {
-                    "en": "more confident with technology",
-                    "vi": "thành thạo / tự tin với công nghệ hơn"
-                  }
+                  [
+                    {
+                      "en": "use learning applications",
+                      "vi": "sử dụng các ứng dụng học tập"
+                    },
+                    {
+                      "en": "every day",
+                      "vi": "mỗi ngày"
+                    },
+                    {
+                      "en": "more confident with technology",
+                      "vi": "thành thạo / tự tin với công nghệ hơn"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -584,22 +594,24 @@ const ESSAY_DATA = [
                 "evidence_vi": "Việc giao tiếp chủ yếu diễn ra qua màn hình, vì vậy người học có thể cảm thấy cô đơn và thiếu sự hỗ trợ kịp thời.",
                 "evidence_en": "Communication mainly takes place through screens, so learners may feel lonely and lack immediate support.",
                 "evidence_collocations": [
-                  {
-                    "en": "communication mainly takes place",
-                    "vi": "việc giao tiếp chủ yếu diễn ra"
-                  },
-                  {
-                    "en": "through screens",
-                    "vi": "qua màn hình"
-                  },
-                  {
-                    "en": "feel lonely",
-                    "vi": "cảm thấy cô đơn"
-                  },
-                  {
-                    "en": "lack immediate support",
-                    "vi": "thiếu sự hỗ trợ kịp thời"
-                  }
+                  [
+                    {
+                      "en": "communication mainly takes place",
+                      "vi": "việc giao tiếp chủ yếu diễn ra"
+                    },
+                    {
+                      "en": "through screens",
+                      "vi": "qua màn hình"
+                    },
+                    {
+                      "en": "feel lonely",
+                      "vi": "cảm thấy cô đơn"
+                    },
+                    {
+                      "en": "lack immediate support",
+                      "vi": "thiếu sự hỗ trợ kịp thời"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -641,22 +653,24 @@ const ESSAY_DATA = [
                 "evidence_vi": "Ở nhà có nhiều thứ gây xao nhãng như điện thoại và tiếng ồn, vì vậy kết quả học tập có thể bị giảm sút.",
                 "evidence_en": "There are many distractions at home like mobile phones and noise, so learning results may drop.",
                 "evidence_collocations": [
-                  {
-                    "en": "distractions at home",
-                    "vi": "thứ gây xao nhãng ở nhà"
-                  },
-                  {
-                    "en": "mobile phones and noise",
-                    "vi": "điện thoại và tiếng ồn"
-                  },
-                  {
-                    "en": "learning results",
-                    "vi": "kết quả học tập"
-                  },
-                  {
-                    "en": "drop",
-                    "vi": "giảm sút"
-                  }
+                  [
+                    {
+                      "en": "distractions at home",
+                      "vi": "thứ gây xao nhãng ở nhà"
+                    },
+                    {
+                      "en": "mobile phones and noise",
+                      "vi": "điện thoại và tiếng ồn"
+                    },
+                    {
+                      "en": "learning results",
+                      "vi": "kết quả học tập"
+                    },
+                    {
+                      "en": "drop",
+                      "vi": "giảm sút"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -694,14 +708,16 @@ const ESSAY_DATA = [
                 "evidence_vi": "Nếu kết nối mạng không ổn định, học sinh có thể bỏ lỡ các bài học quan trọng.",
                 "evidence_en": "If network connections are unstable, students may miss important lessons.",
                 "evidence_collocations": [
-                  {
-                    "en": "unstable network connections",
-                    "vi": "kết nối mạng không ổn định"
-                  },
-                  {
-                    "en": "miss important lessons",
-                    "vi": "bỏ lỡ các bài học quan trọng"
-                  }
+                  [
+                    {
+                      "en": "unstable network connections",
+                      "vi": "kết nối mạng không ổn định"
+                    },
+                    {
+                      "en": "miss important lessons",
+                      "vi": "bỏ lỡ các bài học quan trọng"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -739,18 +755,20 @@ const ESSAY_DATA = [
                 "evidence_vi": "Học sinh nhìn màn hình máy tính nhiều giờ dễ bị mỏi mắt và đau lưng.",
                 "evidence_en": "Students staring at computer screens for many hours can suffer from eye strain and back pain.",
                 "evidence_collocations": [
-                  {
-                    "en": "stare at computer screens",
-                    "vi": "nhìn màn hình máy tính"
-                  },
-                  {
-                    "en": "for many hours",
-                    "vi": "nhiều giờ liền"
-                  },
-                  {
-                    "en": "suffer from eye strain and back pain",
-                    "vi": "bị mỏi mắt và đau lưng"
-                  }
+                  [
+                    {
+                      "en": "stare at computer screens",
+                      "vi": "nhìn màn hình máy tính"
+                    },
+                    {
+                      "en": "for many hours",
+                      "vi": "nhiều giờ liền"
+                    },
+                    {
+                      "en": "suffer from eye strain and back pain",
+                      "vi": "bị mỏi mắt và đau lưng"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -788,18 +806,20 @@ const ESSAY_DATA = [
                 "evidence_vi": "Nhiều môn học cần làm thí nghiệm trực tiếp, vì vậy học sinh qua mạng khó rèn luyện kỹ năng thực tế.",
                 "evidence_en": "Many subjects require direct experiments, so online learners struggle to practice real-life skills.",
                 "evidence_collocations": [
-                  {
-                    "en": "require direct experiments",
-                    "vi": "cần làm thí nghiệm trực tiếp"
-                  },
-                  {
-                    "en": "struggle to practice",
-                    "vi": "gặp khó khăn khi rèn luyện"
-                  },
-                  {
-                    "en": "real-life skills",
-                    "vi": "kỹ năng thực tế"
-                  }
+                  [
+                    {
+                      "en": "require direct experiments",
+                      "vi": "cần làm thí nghiệm trực tiếp"
+                    },
+                    {
+                      "en": "struggle to practice",
+                      "vi": "gặp khó khăn khi rèn luyện"
+                    },
+                    {
+                      "en": "real-life skills",
+                      "vi": "kỹ năng thực tế"
+                    }
+                  ]
                 ],
                 "collocations": [
                   {
@@ -1790,7 +1810,7 @@ const ESSAY_DATA = [
           },
           "vocab_step": {
             "theme": "Học trực tuyến (Online Learning & E-Learning)",
-            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Học trực tuyến\" (Online learning), bao gồm 22 từ đơn cốt lõi kèm Họ từ (Word Family) và 49 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Học trực tuyến\" (Online learning), bao gồm 36 từ đơn cốt lõi kèm Họ từ (Word Family) và 82 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
             "single_words": [
               {
                 "word": "flexibility",
@@ -2011,6 +2031,146 @@ const ESSAY_DATA = [
                 "family": "accommodation (n), accommodating (adj)",
                 "example_en": "Self-paced online modules can easily accommodate different learning speeds and styles.",
                 "example_vi": "Các học phần trực tuyến tự điều chỉnh tốc độ có thể dễ dàng đáp ứng các tốc độ và phong cách học tập khác nhau."
+              },
+              {
+                "word": "procrastination",
+                "ipa": "/prəˌkræs.tɪˈneɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự trì hoãn, thói quen chần chừ",
+                "family": "procrastinate (v), procrastinator (n)",
+                "example_en": "Poor time management in online learning often leads to chronic procrastination.",
+                "example_vi": "Kỹ năng quản lý thời gian kém khi học trực tuyến thường dẫn đến thói quen trì hoãn kinh niên."
+              },
+              {
+                "word": "collaborative",
+                "ipa": "/kəˈlæb.ə.rə.tɪv/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "hợp tác, phối hợp",
+                "family": "collaborate (v), collaboration (n)",
+                "example_en": "Online learning platforms provide various tools for collaborative group projects.",
+                "example_vi": "Các nền tảng học trực tuyến cung cấp nhiều công cụ cho các dự án hợp tác nhóm."
+              },
+              {
+                "word": "multitasking",
+                "ipa": "/ˌmʌl.tiˈtɑːs.kɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "việc làm nhiều việc cùng một lúc",
+                "family": "multitask (v), multitasked (adj)",
+                "example_en": "Multitasking while attending virtual lectures significantly impairs concentration.",
+                "example_vi": "Làm nhiều việc cùng lúc khi nghe giảng ảo làm suy giảm đáng kể khả năng tập trung."
+              },
+              {
+                "word": "competence",
+                "ipa": "/ˈkɒm.pɪ.təns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "năng lực, khả năng thành thạo",
+                "family": "competent (adj), competently (adv)",
+                "example_en": "Students gradually develop digital competence through daily online coursework.",
+                "example_vi": "Học sinh dần phát triển năng lực số thông qua các bài tập trực tuyến hằng ngày."
+              },
+              {
+                "word": "engagement",
+                "ipa": "/ɪnˈɡeɪdʒ.mənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự gắn kết, sự tham gia chủ động",
+                "family": "engage (v), engaged (adj)",
+                "example_en": "Interactive quizzes and live polls help sustain student engagement in virtual classrooms.",
+                "example_vi": "Các bài kiểm tra tương tác và bình chọn trực tiếp giúp duy trì sự gắn kết của học sinh trong lớp học ảo."
+              },
+              {
+                "word": "conventional",
+                "ipa": "/kənˈven.ʃən.əl/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "truyền thống, thông thường",
+                "family": "convention (n), conventionally (adv)",
+                "example_en": "Virtual classes require different pedagogical approaches compared to conventional schooling.",
+                "example_vi": "Các lớp học ảo đòi hỏi phương pháp sư phạm khác biệt so với trường học truyền thống."
+              },
+              {
+                "word": "facilitate",
+                "ipa": "/fəˈsɪl.ɪ.teɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "tạo điều kiện thuận lợi, thúc đẩy",
+                "family": "facility (n), facilitator (n), facilitation (n)",
+                "example_en": "Modern digital management systems facilitate effective tracking of academic progress.",
+                "example_vi": "Các hệ thống quản lý số hiện đại tạo điều kiện thuận lợi cho việc theo dõi tiến độ học tập."
+              },
+              {
+                "word": "comprehension",
+                "ipa": "/ˌkɒm.prɪˈhen.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự thấu hiểu, khả năng tiếp thu",
+                "family": "comprehend (v), comprehensive (adj)",
+                "example_en": "Rewatching recorded lectures aids in deeper comprehension of complex subjects.",
+                "example_vi": "Xem lại bài giảng đã ghi hình giúp tiếp thu sâu sắc hơn những môn học phức tạp."
+              },
+              {
+                "word": "motivation",
+                "ipa": "/ˌməʊ.tɪˈveɪ.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "động lực học tập",
+                "family": "motivate (v), motivated (adj), demotivate (v)",
+                "example_en": "Without direct encouragement from teachers, learners may lose motivation.",
+                "example_vi": "Nếu không có sự khích lệ trực tiếp từ giáo viên, người học có thể mất động lực."
+              },
+              {
+                "word": "accessible",
+                "ipa": "/əkˈses.ə.bəl/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "dễ tiếp cận, có thể tiếp cận được",
+                "family": "access (n/v), accessibility (n)",
+                "example_en": "Digital libraries make high-quality academic publications accessible to remote learners.",
+                "example_vi": "Thư viện số giúp tài liệu học thuật chất lượng cao trở nên dễ tiếp cận với người học ở vùng xa."
+              },
+              {
+                "word": "self-reliance",
+                "ipa": "/ˌself.rɪˈlaɪ.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tinh thần tự lập, sự tự lực",
+                "family": "self-reliant (adj)",
+                "example_en": "Distance education fosters greater self-reliance and autonomous problem-solving.",
+                "example_vi": "Giáo dục từ xa rèn luyện tinh thần tự lập cao hơn và khả năng tự giải quyết vấn đề."
+              },
+              {
+                "word": "over-reliance",
+                "ipa": "/ˌəʊ.və.rɪˈlaɪ.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự phụ thuộc quá mức",
+                "family": "over-rely (v), reliant (adj)",
+                "example_en": "Over-reliance on electronic gadgets may adversely affect learners' mental agility.",
+                "example_vi": "Sự phụ thuộc quá mức vào thiết bị điện tử có thể gây ảnh hưởng xấu đến sự nhạy bén trí não của người học."
+              },
+              {
+                "word": "bandwidth",
+                "ipa": "/ˈbænd.wɪtθ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "băng thông mạng, tốc độ truyền dẫn",
+                "family": "broadband (n)",
+                "example_en": "Insufficient Internet bandwidth frequently causes video freezing during live sessions.",
+                "example_vi": "Băng thông Internet không đủ thường gây ra tình trạng đứng hình trong các buổi học trực tiếp."
+              },
+              {
+                "word": "demotivate",
+                "ipa": "/diːˈməʊ.tɪ.veɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm mất động lực, làm nản lòng",
+                "family": "demotivation (n), demotivated (adj)",
+                "example_en": "Prolonged screen isolation can severely demotivate students from active participation.",
+                "example_vi": "Sự cô lập kéo dài trước màn hình có thể làm học sinh nản lòng, giảm bớt sự tham gia tích cực."
               }
             ],
             "collocation_groups": [
@@ -2051,6 +2211,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "As a result, they can arrange their study schedules around personal responsibilities more effectively.",
                     "example_vi": "Nhờ đó, họ có thể dễ dàng sắp xếp lịch học phù hợp với các công việc và trách nhiệm cá nhân khác."
+                  },
+                  {
+                    "en": "balance work and study",
+                    "vi": "cân bằng giữa công việc và học tập",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Flexible timetables allow adult learners to balance work and study effectively.",
+                    "example_vi": "Thời khóa biểu linh hoạt cho phép người học trưởng thành cân bằng công việc và học tập hiệu quả."
+                  },
+                  {
+                    "en": "tailor study time to personal preferences",
+                    "vi": "điều chỉnh thời gian học theo ý muốn cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Learners can tailor study time to personal preferences without adhering to rigid school hours.",
+                    "example_vi": "Người học có thể điều chỉnh thời gian học theo sở thích cá nhân mà không phải tuân theo giờ học cứng nhắc."
+                  },
+                  {
+                    "en": "eliminate daily commuting time",
+                    "vi": "loại bỏ hoàn toàn thời gian di chuyển hàng ngày",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Attending virtual lectures helps eliminate daily commuting time during peak rush hours.",
+                    "example_vi": "Tham gia bài giảng ảo giúp loại bỏ hoàn toàn thời gian đi lại trong giờ cao điểm."
                   }
                 ]
               },
@@ -2091,6 +2275,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "In addition, students can save a substantial amount of money on daily transportation and accommodation.",
                     "example_vi": "Ngoài ra, người học có thể tiết kiệm một khoản tiền lớn cho chi phí đi lại và chi phí thuê chỗ ở."
+                  },
+                  {
+                    "en": "cut down on travel expenses",
+                    "vi": "cắt giảm chi phí đi lại",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Studying from home allows students to cut down on travel expenses substantially.",
+                    "example_vi": "Học tại nhà giúp sinh viên cắt giảm chi phí đi lại một cách đáng kể."
+                  },
+                  {
+                    "en": "affordable tuition fees",
+                    "vi": "học phí hợp lý, phải chăng",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Many distance courses offer affordable tuition fees compared to on-campus degrees.",
+                    "example_vi": "Nhiều khóa học từ xa cung cấp mức học phí phải chăng so với các văn bằng học tại trường."
+                  },
+                  {
+                    "en": "minimize unnecessary campus expenditures",
+                    "vi": "giảm thiểu tối đa các khoản chi tiêu tại trường không cần thiết",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online learning helps families minimize unnecessary campus expenditures such as dorm rentals.",
+                    "example_vi": "Học trực tuyến giúp các gia đình giảm thiểu các khoản chi tiêu không cần thiết tại trường như tiền thuê ký túc xá."
                   }
                 ]
               },
@@ -2131,6 +2339,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Furthermore, they have valuable opportunities to learn from experienced teachers and experts around the world.",
                     "example_vi": "Bên cạnh đó, họ có cơ hội học hỏi trực tiếp từ các giảng viên giàu kinh nghiệm và chuyên gia trên khắp thế giới."
+                  },
+                  {
+                    "en": "download digital textbooks and handouts",
+                    "vi": "tải sách giáo trình số và tài liệu phát tay",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Students can effortlessly download digital textbooks and handouts at zero additional cost.",
+                    "example_vi": "Sinh viên có thể dễ dàng tải sách giáo trình số và tài liệu mà không tốn thêm chi phí."
+                  },
+                  {
+                    "en": "enrich academic knowledge",
+                    "vi": "làm phong phú vốn kiến thức học thuật",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Unlimited access to reputable open-source materials helps enrich academic knowledge.",
+                    "example_vi": "Khả năng tiếp cận vô hạn các tài liệu mã nguồn mở uy tín giúp làm phong phú vốn kiến thức học thuật."
+                  },
+                  {
+                    "en": "access prestigious international courses",
+                    "vi": "tiếp cận các khóa học quốc tế danh tiếng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "E-learning bridges geographical barriers, enabling students to access prestigious international courses.",
+                    "example_vi": "Học trực tuyến xóa nhòa rào cản địa lý, cho phép học sinh tiếp cận các khóa học quốc tế danh tiếng."
                   }
                 ]
               },
@@ -2171,6 +2403,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Consequently, they can spend more time understanding difficult concepts thoroughly without feeling pressured.",
                     "example_vi": "Nhờ đó, họ có thêm nhiều thời gian để suy ngẫm và hiểu sâu các khái niệm khó mà không cảm thấy áp lực."
+                  },
+                  {
+                    "en": "review complex lessons repeatedly",
+                    "vi": "ôn tập lại bài học phức tạp nhiều lần",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Students are empowered to review complex lessons repeatedly until they master the topic.",
+                    "example_vi": "Học sinh có thể ôn tập lại bài học phức tạp nhiều lần cho đến khi nắm vững chủ đề."
+                  },
+                  {
+                    "en": "absorb difficult knowledge thoroughly",
+                    "vi": "tiếp thu kiến thức khó một cách thấu đáo",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Self-paced study enables learners to absorb difficult knowledge thoroughly without peer pressure.",
+                    "example_vi": "Học theo tốc độ tự chọn giúp người học tiếp thu kiến thức khó một cách thấu đáo mà không bị áp lực từ bạn bè."
+                  },
+                  {
+                    "en": "progress according to individual capabilities",
+                    "vi": "tiến bộ theo năng lực của từng cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Digital curricula allow every learner to progress according to individual capabilities.",
+                    "example_vi": "Chương trình học số cho phép mỗi người học tiến bộ theo năng lực của từng cá nhân."
                   }
                 ]
               },
@@ -2211,6 +2467,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "This significantly improves their computer skills, which are highly useful for their future careers.",
                     "example_vi": "Điều này giúp nâng cao kỹ năng sử dụng máy tính, tạo lợi thế lớn cho con đường nghề nghiệp trong tương lai."
+                  },
+                  {
+                    "en": "proficient in operating educational software",
+                    "vi": "thành thạo sử dụng phần mềm giáo dục",
+                    "type": "adj.phr",
+                    "level": "B1",
+                    "example_en": "Daily coursework makes students proficient in operating educational software.",
+                    "example_vi": "Việc học hằng ngày giúp học sinh thành thạo trong việc sử dụng các phần mềm giáo dục."
+                  },
+                  {
+                    "en": "adapt to digital learning environments",
+                    "vi": "thích nghi với môi trường học tập số hóa",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Continuous exposure enables youngsters to adapt to digital learning environments quickly.",
+                    "example_vi": "Việc tiếp xúc liên tục giúp giới trẻ nhanh chóng thích nghi với môi trường học tập số hóa."
+                  },
+                  {
+                    "en": "acquire competitive workplace skills",
+                    "vi": "tích lũy những kỹ năng cạnh tranh cho nơi làm việc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Mastering virtual collaboration tools helps undergraduates acquire competitive workplace skills.",
+                    "example_vi": "Làm chủ các công cụ cộng tác ảo giúp sinh viên tích lũy những kỹ năng cạnh tranh cho công việc sau này."
                   }
                 ]
               },
@@ -2251,6 +2531,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "As a result, it can be more difficult to ask questions and receive immediate feedback.",
                     "example_vi": "Điều này khiến việc đặt câu hỏi thắc mắc và nhận phản hồi ngay lập tức trở nên khó khăn hơn."
+                  },
+                  {
+                    "en": "lack real-time social interaction",
+                    "vi": "thiếu tương tác xã hội theo thời gian thực",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Students often lack real-time social interaction with classmates in virtual rooms.",
+                    "example_vi": "Học sinh thường thiếu tương tác xã hội theo thời gian thực với bạn cùng lớp trong các phòng học ảo."
+                  },
+                  {
+                    "en": "weaken teamwork and social bonds",
+                    "vi": "làm suy yếu kỹ năng làm việc nhóm và mối gắn kết xã hội",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Extended remote schooling may weaken teamwork and social bonds among young peers.",
+                    "example_vi": "Học từ xa kéo dài có thể làm suy yếu kỹ năng làm việc nhóm và mối gắn kết xã hội giữa các bạn trẻ."
+                  },
+                  {
+                    "en": "feel isolated from peers",
+                    "vi": "cảm thấy bị cô lập với bạn cùng học",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Studying alone behind a screen often causes individuals to feel isolated from peers.",
+                    "example_vi": "Học một mình sau màn hình máy tính thường khiến các cá nhân cảm thấy bị cô lập với bạn bè."
                   }
                 ]
               },
@@ -2291,6 +2595,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Therefore, poor Internet connections may interrupt lessons and make it difficult to follow.",
                     "example_vi": "Đường truyền mạng chập chờn có thể làm gián đoạn bài học và khiến người học gặp nhiều khó khăn khi theo dõi bài giảng."
+                  },
+                  {
+                    "en": "experience unexpected connection drops",
+                    "vi": "gặp phải tình trạng rớt mạng đột ngột",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Learners in rural areas frequently experience unexpected connection drops during exams.",
+                    "example_vi": "Người học ở vùng nông thôn thường xuyên gặp tình trạng rớt mạng đột ngột trong giờ thi."
+                  },
+                  {
+                    "en": "unstable broadband connection",
+                    "vi": "đường truyền mạng băng thông không ổn định",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "An unstable broadband connection severely disrupts audio streaming and live video conferences.",
+                    "example_vi": "Đường truyền băng thông không ổn định làm gián đoạn nghiêm trọng âm thanh và hội nghị truyền hình trực tiếp."
+                  },
+                  {
+                    "en": "hinder smooth learning progress",
+                    "vi": "cản trở tiến độ học tập thông suốt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Recurring system crashes and audio lag heavily hinder smooth learning progress.",
+                    "example_vi": "Sự cố sập hệ thống và trễ âm thanh liên tục cản trở nặng nề tiến độ học tập thông suốt."
                   }
                 ]
               },
@@ -2331,6 +2659,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Consequently, they may procrastinate on their tasks and fail to complete assignments on time.",
                     "example_vi": "Hậu quả là, họ có thể trì hoãn việc học và không hoàn thành bài tập đúng hạn."
+                  },
+                  {
+                    "en": "struggle with procrastination",
+                    "vi": "chật vật với thói quen trì hoãn",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Many students struggle with procrastination when deadlines are not monitored closely.",
+                    "example_vi": "Nhiều học sinh chật vật với thói quen trì hoãn khi thời hạn nộp bài không được giám sát chặt chẽ."
+                  },
+                  {
+                    "en": "lack self-motivation and strict discipline",
+                    "vi": "thiếu động lực tự thân và kỷ luật nghiêm ngặt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Students who lack self-motivation and strict discipline frequently submit late assignments.",
+                    "example_vi": "Những học sinh thiếu động lực tự thân và kỷ luật nghiêm ngặt thường xuyên nộp bài muộn."
+                  },
+                  {
+                    "en": "fall behind in academic coursework",
+                    "vi": "bị tụt hậu lại trong tiến độ bài vở học tập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Without a structured routine, students can easily fall behind in academic coursework.",
+                    "example_vi": "Nếu không có thời gian biểu quy củ, học sinh có thể dễ dàng bị tụt hậu trong bài vở học tập."
                   }
                 ]
               },
@@ -2379,6 +2731,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Furthermore, sitting for extended periods reduces physical activity and easily leads to back pain and mental stress.",
                     "example_vi": "Hơn nữa, thói quen ngồi yên một chỗ kéo dài làm giảm vận động thể chất và dễ dẫn đến đau lưng cùng sự căng thẳng."
+                  },
+                  {
+                    "en": "suffer from visual fatigue",
+                    "vi": "bị mỏi mắt, suy giảm thị lực",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Staring at high-brightness monitors causes students to suffer from visual fatigue.",
+                    "example_vi": "Nhìn chằm chằm vào màn hình độ sáng cao khiến học sinh bị mỏi mắt và suy giảm thị lực."
+                  },
+                  {
+                    "en": "adopt a sedentary study routine",
+                    "vi": "hình thành thói quen học tập ngồi thụ động một chỗ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Online learners tend to adopt a sedentary study routine that lacks physical movement.",
+                    "example_vi": "Người học trực tuyến có xu hướng hình thành thói quen học tập thụ động, thiếu vận động thể chất."
+                  },
+                  {
+                    "en": "exacerbate physical stiffness and headaches",
+                    "vi": "làm trầm trọng thêm chứng cứng cơ và đau đầu",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Poor sitting posture during prolonged screen sessions can exacerbate physical stiffness and headaches.",
+                    "example_vi": "Tư thế ngồi không đúng khi học màn hình kéo dài có thể làm trầm trọng thêm chứng cứng cơ và đau đầu."
                   }
                 ]
               },
@@ -2419,6 +2795,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Some academic subjects require hands-on activities, laboratory experiments, or direct physical practice.",
                     "example_vi": "Nhiều môn học đòi hỏi phải có các hoạt động thực hành thực tế, làm thí nghiệm hoặc tương tác trực tiếp."
+                  },
+                  {
+                    "en": "miss out on physical laboratory experiments",
+                    "vi": "bỏ lỡ cơ hội làm thí nghiệm thực tế tại phòng lab",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Science majors miss out on physical laboratory experiments when studying exclusively online.",
+                    "example_vi": "Sinh viên ngành khoa học bỏ lỡ các thí nghiệm tại phòng lab thực tế khi chỉ học trực tuyến."
+                  },
+                  {
+                    "en": "lack direct tactile feedback",
+                    "vi": "thiếu trải nghiệm tương tác chạm thực tế",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Computer simulations inevitably lack direct tactile feedback necessary for technical training.",
+                    "example_vi": "Mô phỏng máy tính chắc chắn thiếu đi phản hồi xúc giác trực tiếp cần thiết cho đào tạo kỹ thuật."
+                  },
+                  {
+                    "en": "struggle to acquire practical competencies",
+                    "vi": "gặp khó khăn trong việc tích lũy năng lực thao tác thực tế",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Medical and engineering students struggle to acquire practical competencies without clinical workshops.",
+                    "example_vi": "Sinh viên y khoa và kỹ thuật gặp khó khăn trong việc tích lũy năng lực thực hành nếu không có các buổi xưởng thực tế."
                   }
                 ]
               },
@@ -2491,6 +2891,30 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "example_en": "Therefore, a balanced consideration of both aspects of online learning is essential.",
                     "example_vi": "Do đó, sự cân nhắc hài hòa cả hai khía cạnh của học trực tuyến là vô cùng cần thiết."
+                  },
+                  {
+                    "en": "warrant serious scholarly deliberation",
+                    "vi": "cần được xem xét và mổ xẻ học thuật nghiêm túc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The trade-offs of digital pedagogy warrant serious scholarly deliberation by policymakers.",
+                    "example_vi": "Những sự đánh đổi của phương pháp sư phạm số cần được các nhà hoạch định chính sách xem xét và mổ xẻ nghiêm túc."
+                  },
+                  {
+                    "en": "a double-edged sword in modern education",
+                    "vi": "một con dao hai lưỡi trong nền giáo dục hiện đại",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Virtual learning is undeniably a double-edged sword in modern education.",
+                    "example_vi": "Học tập trực tuyến không thể phủ nhận là một con dao hai lưỡi trong nền giáo dục hiện đại."
+                  },
+                  {
+                    "en": "strike an optimal balance between virtual and physical schooling",
+                    "vi": "đạt được sự cân bằng tối ưu giữa học trực tuyến và trường học truyền thống",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Educators must strike an optimal balance between virtual and physical schooling to optimize learning outcomes.",
+                    "example_vi": "Các nhà giáo dục phải đạt được sự cân bằng tối ưu giữa học trực tuyến và trường học truyền thống để tối ưu hóa kết quả học tập."
                   }
                 ]
               }
@@ -45825,7 +46249,7 @@ const ESSAY_DATA = [
           },
           "vocab_step": {
             "theme": "Hoạt động tình nguyện & Phục vụ cộng đồng (Volunteer Work & Community Service)",
-            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Hoạt động cộng đồng không lương\" (Unpaid community service), bao gồm 22 từ đơn cốt lõi kèm Họ từ (Word Family) và 31 cụm Collocations bám sát 100% các luận điểm Thuận lợi - Bất lợi cùng cấu trúc khung bài viết B2.",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề \"Hoạt động cộng đồng không lương\" (Unpaid community service), bao gồm 34 từ đơn cốt lõi kèm Họ từ (Word Family) và 76 cụm Collocations bám sát 100% các luận điểm Thuận lợi cùng cấu trúc khung bài viết B2.",
             "single_words": [
               {
                 "word": "practical",
@@ -46046,6 +46470,126 @@ const ESSAY_DATA = [
                 "family": "fulfill (v), fulfilling (adj), fulfilled (adj)",
                 "example_en": "Giving back to society brings a profound sense of emotional fulfillment.",
                 "example_vi": "Đóng góp lại cho xã hội mang đến cảm giác viên mãn sâu sắc về mặt tinh thần."
+              },
+              {
+                "word": "solidarity",
+                "ipa": "/ˌsɒl.ɪˈdær.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tinh thần đoàn kết, tương thân tương ái",
+                "family": "solidary (adj)",
+                "example_en": "Community projects foster a strong spirit of solidarity among local citizens.",
+                "example_vi": "Các dự án cộng đồng thắt chặt tinh thần đoàn kết mạnh mẽ giữa những người dân địa phương."
+              },
+              {
+                "word": "empower",
+                "ipa": "/ɪmˈpaʊ.ər/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "trao quyền, nâng cao năng lực",
+                "family": "empowerment (n), empowered (adj)",
+                "example_en": "Free education initiatives empower disadvantaged children to escape poverty.",
+                "example_vi": "Các sáng kiến giáo dục miễn phí trao quyền cho trẻ em nghèo vươn lên thoát nghèo."
+              },
+              {
+                "word": "dedication",
+                "ipa": "/ˌded.ɪˈkeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cống hiến, tận tụy",
+                "family": "dedicate (v), dedicated (adj)",
+                "example_en": "Their remarkable dedication to charity work inspired many younger generations.",
+                "example_vi": "Sự cống hiến đáng khâm phục của họ cho công tác từ thiện đã truyền cảm hứng cho nhiều thế hệ trẻ."
+              },
+              {
+                "word": "volunteerism",
+                "ipa": "/ˌvɒl.ənˈtɪə.rɪ.zəm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tinh thần tình nguyện, hoạt động thiện nguyện",
+                "family": "volunteer (n/v), voluntary (adj)",
+                "example_en": "Schools should promote active volunteerism to cultivate civic responsibility.",
+                "example_vi": "Các trường học nên thúc đẩy tinh thần tình nguyện tích cực nhằm nuôi dưỡng trách nhiệm công dân."
+              },
+              {
+                "word": "marginalized",
+                "ipa": "/ˈmɑː.dʒɪ.nəl.aɪzd/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "yếu thế, bị gạt ra ngoài lề xã hội",
+                "family": "marginalize (v), marginalization (n)",
+                "example_en": "Social programs aim to provide essential support for marginalized populations.",
+                "example_vi": "Các chương trình xã hội nhằm mục tiêu cung cấp hỗ trợ thiết yếu cho các nhóm dân cư yếu thế."
+              },
+              {
+                "word": "benevolence",
+                "ipa": "/bəˈnev.əl.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng nhân ái, sự hảo tâm",
+                "family": "benevolent (adj), benevolently (adv)",
+                "example_en": "Acts of genuine benevolence create a warmer and more supportive neighborhood.",
+                "example_vi": "Những hành động nhân ái chân thành tạo nên một khu dân cư ấm áp và tương trợ lẫn nhau hơn."
+              },
+              {
+                "word": "perseverance",
+                "ipa": "/ˌpɜː.sɪˈvɪə.rəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự kiên trì, bền bỉ",
+                "family": "persevere (v)",
+                "example_en": "Volunteering in remote areas requires great patience and perseverance.",
+                "example_vi": "Làm tình nguyện ở những vùng sâu vùng xa đòi hỏi sự kiên nhẫn và kiên trì rất lớn."
+              },
+              {
+                "word": "perspective",
+                "ipa": "/pəˈspek.tɪv/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "góc nhìn, quan điểm sống",
+                "family": "perspectival (adj)",
+                "example_en": "Helping underprivileged people broadens students' life perspective considerably.",
+                "example_vi": "Giúp đỡ những người có hoàn cảnh khó khăn mở rộng đáng kể thế giới quan của học sinh."
+              },
+              {
+                "word": "societal",
+                "ipa": "/səˈsaɪ.ə.təl/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về xã hội",
+                "family": "society (n), socially (adv)",
+                "example_en": "Youth involvement in community projects addresses pressing societal issues.",
+                "example_vi": "Sự tham gia của giới trẻ vào các dự án cộng đồng góp phần giải quyết các vấn đề xã hội cấp bách."
+              },
+              {
+                "word": "generosity",
+                "ipa": "/ˌdʒen.əˈrɒs.ə.ti/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự hào phóng, lòng rộng lượng",
+                "family": "generous (adj), generously (adv)",
+                "example_en": "The community flourished thanks to the extraordinary generosity of voluntary benefactors.",
+                "example_vi": "Cộng đồng phát triển mạnh mẽ nhờ vào lòng hảo tâm phi thường của những nhà hảo tâm thiện nguyện."
+              },
+              {
+                "word": "humanitarian",
+                "ipa": "/hjuːˌmæn.ɪˈteə.ri.ən/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "nhân đạo, vì con người",
+                "family": "humanity (n), humanitarianism (n)",
+                "example_en": "Volunteers delivered emergency humanitarian aid to flood-affected communities.",
+                "example_vi": "Các tình nguyện viên đã vận chuyển cứu trợ nhân đạo khẩn cấp đến các cộng đồng bị ảnh hưởng bởi lũ lụt."
+              },
+              {
+                "word": "selflessness",
+                "ipa": "/ˈself.ləs.nəs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng vị tha, sự quên mình vì người khác",
+                "family": "selfless (adj), selflessly (adv)",
+                "example_en": "Unpaid community work teaches young adults the true beauty of selflessness.",
+                "example_vi": "Công việc cộng đồng không lương dạy cho người trẻ vẻ đẹp thực sự của lòng vị tha."
               }
             ],
             "collocation_groups": [
@@ -46107,6 +46651,22 @@ const ESSAY_DATA = [
                     "en": "strengthen adaptive problem-solving skills",
                     "vi": "tăng cường kỹ năng giải quyết vấn đề linh hoạt",
                     "level": "B2"
+                  },
+                  {
+                    "en": "hone problem-solving skills under pressure",
+                    "vi": "rèn luyện kỹ năng xử lý tình huống dưới áp lực",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Managing unexpected logistics in charity campaigns helps volunteers hone problem-solving skills under pressure.",
+                    "example_vi": "Xử lý khâu hậu cần bất ngờ trong các chiến dịch từ thiện giúp tình nguyện viên rèn luyện kỹ năng giải quyết vấn đề dưới áp lực."
+                  },
+                  {
+                    "en": "cultivate leadership and teamwork competencies",
+                    "vi": "trau dồi năng lực lãnh đạo và phối hợp làm việc nhóm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Organizing voluntary youth programs serves to cultivate leadership and teamwork competencies effectively.",
+                    "example_vi": "Tổ chức các chương trình thanh niên tình nguyện giúp trau dồi năng lực lãnh đạo và làm việc nhóm một cách hiệu quả."
                   }
                 ]
               },
@@ -46168,6 +46728,22 @@ const ESSAY_DATA = [
                     "en": "yield long-term career benefits",
                     "vi": "mang lại lợi ích nghề nghiệp lâu dài",
                     "level": "B2"
+                  },
+                  {
+                    "en": "forge meaningful and lasting connections",
+                    "vi": "tạo dựng những mối gắn kết ý nghĩa và lâu dài",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Working side by side for a common social purpose helps individuals forge meaningful and lasting connections.",
+                    "example_vi": "Kề vai sát cánh vì mục tiêu xã hội chung giúp các cá nhân tạo dựng những mối gắn kết ý nghĩa và lâu dài."
+                  },
+                  {
+                    "en": "widen professional social horizons",
+                    "vi": "mở rộng chân trời quan hệ xã hội mang tính nghề nghiệp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Meeting experienced organizers in civic events enables undergraduates to widen professional social horizons.",
+                    "example_vi": "Gặp gỡ các nhà tổ chức giàu kinh nghiệm trong sự kiện cộng đồng giúp sinh viên mở rộng các mối quan hệ nghề nghiệp."
                   }
                 ]
               },
@@ -46224,6 +46800,22 @@ const ESSAY_DATA = [
                     "en": "foster emotional resilience and optimism",
                     "vi": "bồi dưỡng tinh thần lạc quan và khả năng phục hồi cảm xúc",
                     "level": "B2"
+                  },
+                  {
+                    "en": "alleviate mental fatigue and social anxiety",
+                    "vi": "xoa dịu mệt mỏi tinh thần và chứng lo âu xã hội",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Immersing oneself in helpful philanthropic activities can alleviate mental fatigue and social anxiety.",
+                    "example_vi": "Hòa mình vào các hoạt động thiện nguyện giúp đỡ người khác có thể xoa dịu mệt mỏi tinh thần và chứng lo âu xã hội."
+                  },
+                  {
+                    "en": "gain emotional fulfillment and joy",
+                    "vi": "đón nhận niềm vui và sự thỏa nguyện cảm xúc sâu sắc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Witnessing underprivileged lives improve allows volunteers to gain emotional fulfillment and joy.",
+                    "example_vi": "Chứng kiến cuộc sống của những người yếu thế tốt đẹp hơn giúp các tình nguyện viên đón nhận niềm vui và sự thỏa nguyện cảm xúc."
                   }
                 ]
               },
@@ -46280,6 +46872,22 @@ const ESSAY_DATA = [
                     "en": "cultivate exemplary civic citizenship",
                     "vi": "rèn luyện tư cách công dân kiểu mẫu",
                     "level": "B2"
+                  },
+                  {
+                    "en": "instill a lifelong commitment to civic duty",
+                    "vi": "khắc sâu cam kết trọn đời đối với nghĩa vụ công dân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Early voluntary work serves to instill a lifelong commitment to civic duty among high schoolers.",
+                    "example_vi": "Hoạt động tình nguyện từ sớm giúp khắc sâu cam kết trọn đời đối với nghĩa vụ công dân trong học sinh."
+                  },
+                  {
+                    "en": "develop genuine empathy towards marginalized groups",
+                    "vi": "phát triển sự đồng cảm chân thành đối với các nhóm yếu thế",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Firsthand community interactions help teenagers develop genuine empathy towards marginalized groups.",
+                    "example_vi": "Tiếp xúc thực tế với cộng đồng giúp thanh thiếu niên phát triển sự đồng cảm chân thành đối với các nhóm yếu thế."
                   }
                 ]
               },
@@ -46336,6 +46944,22 @@ const ESSAY_DATA = [
                     "en": "strengthen overall community resilience",
                     "vi": "củng cố sức bền tổng thể của cộng đồng",
                     "level": "B2"
+                  },
+                  {
+                    "en": "revitalize local community spaces",
+                    "vi": "tái sinh các không gian sinh hoạt cộng đồng tại địa phương",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Clean-up drives and mural painting projects revitalize local community spaces remarkably.",
+                    "example_vi": "Các chiến dịch dọn vệ sinh và vẽ tranh bích họa đã tái sinh không gian sinh hoạt cộng đồng một cách ấn tượng."
+                  },
+                  {
+                    "en": "bridge social and economic divides",
+                    "vi": "thu hẹp khoảng cách giàu nghèo và phân hóa xã hội",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Grassroots charity initiatives effectively bridge social and economic divides across neighborhoods.",
+                    "example_vi": "Các sáng kiến từ thiện từ cơ sở góp phần thu hẹp hiệu quả khoảng cách xã hội và kinh tế giữa các khu dân cư."
                   }
                 ]
               },
@@ -46402,6 +47026,22 @@ const ESSAY_DATA = [
                     "en": "In summation, the multifaceted dividends of civic service are indisputable.",
                     "vi": "Tóm lại, những lợi ích đa chiều của việc phục vụ cộng đồng là không thể phủ nhận.",
                     "level": "B2"
+                  },
+                  {
+                    "en": "play an indispensable role in shaping",
+                    "vi": "đóng một vai trò không thể thiếu trong việc định hình",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Civic engagement plays an indispensable role in shaping mature and compassionate personalities.",
+                    "example_vi": "Sự dấn thân vì cộng đồng đóng một vai trò không thể thiếu trong việc định hình nhân cách trưởng thành và giàu lòng nhân ái."
+                  },
+                  {
+                    "en": "bring immense intangible rewards to",
+                    "vi": "mang lại những phần thưởng vô hình to lớn cho",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Volunteering brings immense intangible rewards to both active contributors and local recipients.",
+                    "example_vi": "Hoạt động thiện nguyện mang lại những phần thưởng vô hình to lớn cho cả người cống hiến lẫn người thụ hưởng tại địa phương."
                   }
                 ]
               }
@@ -46959,6 +47599,10 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
+                      "en": "gradually build",
+                      "vi": "từng bước hình thành / xây dựng"
+                    },
+                    {
                       "en": "kind and socially responsible lifestyle",
                       "vi": "lối sống tử tế và có trách nhiệm xã hội"
                     }
@@ -47052,6 +47696,10 @@ const ESSAY_DATA = [
                 "point_en": "Volunteering connects young people with like-minded friends.",
                 "point_collocations": [
                   {
+                    "en": "volunteering connects young people",
+                    "vi": "hoạt động tình nguyện kết nối người trẻ / thanh niên"
+                  },
+                  {
                     "en": "connect with like-minded friends",
                     "vi": "kết nối với những người bạn cùng chí hướng"
                   }
@@ -47084,6 +47732,10 @@ const ESSAY_DATA = [
                     }
                   ],
                   [
+                    {
+                      "en": "teenagers build",
+                      "vi": "thanh thiếu niên xây dựng"
+                    },
                     {
                       "en": "positive and healthy social circles",
                       "vi": "vòng tròn quan hệ xã hội tích cực và lành mạnh"
