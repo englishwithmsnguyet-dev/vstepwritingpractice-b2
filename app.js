@@ -224,8 +224,16 @@ function getCategory3Group(t) {
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if (userClass === 'CB210' && catId === 4) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
+  if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
+    if (userClass === 'B212') {
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 22)!', 'warning');
+    } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Lớp hiện đã mở Dạng 01 & Dạng 02!`, 'warning');
+    } else if (userClass === 'CB210') {
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
+    } else {
+      showToast('🔒 Dạng luận này tạm thời chưa mở!', 'warning');
+    }
     return;
   }
 
@@ -797,8 +805,16 @@ function startPractice(catId, topicId) {
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if (userClass === 'CB210' && catId === 4) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
+  if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
+    if (userClass === 'B212') {
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 22)!', 'warning');
+    } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp đã mở DẠNG LUẬN 01 & DẠNG LUẬN 02!`, 'warning');
+    } else if (userClass === 'CB210') {
+      showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
+    } else {
+      showToast('🔒 Đề bài thuộc Dạng luận tạm thời chưa mở!', 'warning');
+    }
     return;
   }
 
@@ -809,7 +825,13 @@ function startPractice(catId, topicId) {
   if (!topic) return;
 
   if (typeof isTopicAllowedForUser === 'function' && !isTopicAllowedForUser(catId, topicId, topic)) {
-    showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở đề "Béo phì ở giới trẻ" (Obesity) và "Gia đình đơn thân" (Single-parent families)!`, 'warning');
+    if (userClass === 'B212') {
+      showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện chỉ mở Đề 01 (Học trực tuyến) và Đề 22 (Hoạt động cộng đồng)!', 'warning');
+    } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở đề "Béo phì ở giới trẻ" (Obesity) và "Gia đình đơn thân" (Single-parent families)!`, 'warning');
+    } else {
+      showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}!`, 'warning');
+    }
     return;
   }
   
@@ -1124,18 +1146,18 @@ function renderWorkspaceStepHeader() {
           <span class="step-title">TẬP DIỄN ĐẠT Ý TƯỞNG</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
-        <span class="step-num">3</span>
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''} ${isWriteLocked ? 'is-locked' : ''}" id="ws-tab-write" onclick="switchStep('write')" style="${isWriteLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isWriteLocked ? `Bước 03 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+        <span class="step-num">${isWriteLocked ? '🔒' : '3'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 03</span>
-          <span class="step-title">VIẾT BÀI LUẬN</span>
+          <span class="step-title">VIẾT BÀI LUẬN ${isWriteLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
-        <span class="step-num">4</span>
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''} ${isModelLocked ? 'is-locked' : ''}" id="ws-tab-model" onclick="switchStep('model')" style="${isModelLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isModelLocked ? `Bước 04 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+        <span class="step-num">${isModelLocked ? '🔒' : '4'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 04</span>
-          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU</span>
+          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU ${isModelLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
         </span>
       </div>
     `;
@@ -9128,6 +9150,11 @@ function isCategoryAllowedForUser(catId) {
     return true;
   }
 
+  // Class B212: ONLY Category 1 is opened; Categories 2, 3, 4 are locked
+  if (userClass === 'B212') {
+    return catId === 1;
+  }
+
   // Classes ONB103, CB211, CB213: Categories 1 & 2 are opened
   if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
     return catId === 1 || catId === 2;
@@ -9156,6 +9183,16 @@ function isTopicAllowedForUser(catId, topicId, topic) {
     return false;
   }
 
+  // Class B212: in Category 1, ONLY Online learning (id: 1) and Unpaid community service (id: 22) are opened; all others locked
+  if (userClass === 'B212') {
+    if (catId !== 1) return false;
+    const tid = topicId || (topic ? topic.id : 0);
+    const ten = topic ? (topic.title_en || '').toLowerCase() : '';
+    const isTopic1 = (tid === 1 || ten.includes('online learning'));
+    const isTopic22 = (tid === 22 || ten.includes('unpaid community service') || ten.includes('community service'));
+    return isTopic1 || isTopic22;
+  }
+
   // Classes ONB103, CB211, CB213: in Category 2, ONLY Obesity (id: 3) and Single-parent families (id: 9) are opened
   if (['ONB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
     const tid = topicId || (topic ? topic.id : 0);
@@ -9178,6 +9215,13 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
     return true;
   }
 
+  // Class B212: ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
+  if (userClass === 'B212') {
+    if (stepKey === 'write' || stepKey === 'model') {
+      return false;
+    }
+  }
+
   // Classes ONB103, CB211, CB213: in Category 2, ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
   if (['ONB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
     if (stepKey === 'write' || stepKey === 'model') {
@@ -9193,8 +9237,9 @@ function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
   const isCB210 = (userClass === 'CB210');
+  const isB212 = (userClass === 'B212');
   
-  // Category 2, 3 & 4 lock/unlock based on isCategoryAllowedForUser
+  // Category 1, 2, 3 & 4 lock/unlock based on isCategoryAllowedForUser
   [1, 2, 3, 4].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
     if (!link) return;
@@ -9205,7 +9250,9 @@ function updateClassAccessUI() {
     if (!isCategoryAllowedForUser(catId)) {
       link.classList.add('is-locked');
       let lockMsg = 'Dạng luận này tạm thời chưa mở';
-      if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      if (isB212) {
+        lockMsg = 'Dạng luận này tạm thời chưa mở cho lớp B212 (Hiện tại lớp chỉ mở DẠNG LUẬN 01: Đề 01 & Đề 22)';
+      } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
         lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp đã mở DẠNG LUẬN 01 & 02)`;
       } else if (isCB210) {
         lockMsg = 'Dạng luận này chưa mở cho lớp CB210 (Hiện lớp mở DẠNG 01, 02 & 03)';
@@ -9221,9 +9268,7 @@ function updateClassAccessUI() {
     }
   });
 
-
-
-  if (isCB210 && currentCategory && currentCategory.id === 4) {
+  if (currentCategory && !isCategoryAllowedForUser(currentCategory.id)) {
     switchCategory(1);
   }
 }
