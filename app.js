@@ -3572,24 +3572,27 @@ function getValidWordDictionary() {
         const words = text.toLowerCase().replace(/[^a-z\s]/g, '').split(/\s+/);
         words.forEach(w => dict.add(w));
       };
-      if (ideas.benefits) {
-        ideas.benefits.forEach(b => {
-          processText(b.point_en);
-          processText(b.evidence_en);
-          if (b.collocations) {
-            b.collocations.forEach(c => processText(c.en));
-          }
-        });
-      }
-      if (ideas.drawbacks) {
-        ideas.drawbacks.forEach(d => {
-          processText(d.point_en);
-          processText(d.evidence_en);
-          if (d.collocations) {
-            d.collocations.forEach(c => processText(c.en));
-          }
-        });
-      }
+      const allIdeaGroups = ['benefits', 'drawbacks', 'causes', 'solutions', 'problems', 'effects', 'measures', 'views', 'reasons', 'factors'];
+      allIdeaGroups.forEach(grp => {
+        if (Array.isArray(ideas[grp])) {
+          ideas[grp].forEach(item => {
+            processText(item.point_en);
+            processText(item.evidence_en);
+            if (Array.isArray(item.collocations)) {
+              item.collocations.forEach(c => processText(c.en));
+            }
+            if (Array.isArray(item.point_collocations)) {
+              item.point_collocations.forEach(c => processText(c.en));
+            }
+            if (Array.isArray(item.evidence_collocations)) {
+              item.evidence_collocations.forEach(ev => {
+                if (Array.isArray(ev)) ev.forEach(c => processText(c.en));
+                else if (ev && ev.en) processText(ev.en);
+              });
+            }
+          });
+        }
+      });
     };
     addFromIdeas(currentTopic.details.ideas_b1);
     addFromIdeas(currentTopic.details.ideas_b2);
@@ -3948,11 +3951,17 @@ function evaluateTranslationInput(userInput, modelAnswer) {
 
   // 5. Tense Check (Lỗi về thì)
   const foundTenseErrors = [];
-  userWords.forEach(w => {
+  userWords.forEach((w, wIdx) => {
     const presentForms = PAST_TO_PRESENT[w];
     if (presentForms) {
-      const hasSingularSubject = /\b(online learning|distance learning|e-learning|study|education|it)\b/i.test(cleanInput);
-      const suggestedForm = hasSingularSubject ? presentForms.sing : presentForms.plur;
+      // Do not flag if model answer itself uses this exact word
+      if (modelWordsSet.has(w)) return;
+      // Do not flag if preceded by auxiliary verb (passive voice or perfect aspect)
+      const prevWord = wIdx > 0 ? userWords[wIdx - 1] : '';
+      if (['is', 'are', 'was', 'were', 'be', 'been', 'being', 'has', 'have', 'had', 'having', 'get', 'gets', 'got'].includes(prevWord)) return;
+
+      const isPluralSubject = pluralSubjectList.some(ps => cleanInput.includes(ps));
+      const suggestedForm = isPluralSubject ? presentForms.plur : presentForms.sing;
       structuredErrors.push({
         category: "Lỗi thì (Tense)",
         location: `"${w}"`,
@@ -4106,6 +4115,11 @@ function evaluateTranslationInput(userInput, modelAnswer) {
 
   // 11. Spellchecking (Lỗi chính tả)
   const dict = getValidWordDictionary();
+  modelWords.forEach(mw => {
+    const pure = mw.replace(/[^a-z]/g, '');
+    if (pure) dict.add(pure);
+    dict.add(mw);
+  });
   const foundSpellingErrors = [];
 
   userWords.forEach(w => {
@@ -4156,9 +4170,15 @@ function evaluateTranslationInput(userInput, modelAnswer) {
     } else if (modal === 'should') {
       userHasEquivalent = userWords.includes('should') || cleanInput.includes('ought to') || cleanInput.includes('need to') || cleanInput.includes('supposed to');
     } else if (modal === 'will') {
-      userHasEquivalent = userWords.includes('will') || userWords.includes('would');
+      userHasEquivalent = userWords.includes('will') || userWords.includes('would') || userWords.includes('can');
     } else if (modal === 'would') {
-      userHasEquivalent = userWords.includes('would') || userWords.includes('will');
+      userHasEquivalent = userWords.includes('would') || userWords.includes('will') || userWords.includes('could');
+    } else if (modal === 'may') {
+      userHasEquivalent = userWords.includes('may') || userWords.includes('might') || userWords.includes('can');
+    } else if (modal === 'might') {
+      userHasEquivalent = userWords.includes('might') || userWords.includes('may') || userWords.includes('could');
+    } else if (modal === 'must') {
+      userHasEquivalent = userWords.includes('must') || cleanInput.includes('have to') || cleanInput.includes('has to') || cleanInput.includes('need to');
     } else {
       userHasEquivalent = userWords.includes(modal);
     }
@@ -4343,13 +4363,13 @@ function evaluateTranslationInput(userInput, modelAnswer) {
   essentialModelTerms.forEach(term => {
     const baseTerm = getBaseForm(term);
     
-    // Check exact term
-    if (inputTokens.includes(term)) {
+    // Check exact term or base form match
+    if (inputTokens.includes(term) || inputTokens.some(it => getBaseForm(it) === baseTerm)) {
       matchedTerms++;
       return;
     }
-    const termSynonyms = synonyms[term] || [];
-    const hasSynonym = termSynonyms.some(syn => inputTokens.includes(syn));
+    const termSynonyms = synonyms[term] || synonyms[baseTerm] || [];
+    const hasSynonym = termSynonyms.some(syn => inputTokens.includes(syn) || inputTokens.some(it => getBaseForm(it) === getBaseForm(syn)));
     if (hasSynonym) {
       matchedTerms++;
     }
