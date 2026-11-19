@@ -218635,8 +218635,1265 @@ const ESSAY_DATA = [
         "title_en": "Smoking in public places: personal freedom or public health concern?",
         "title_vi": "Hút thuốc nơi công cộng: quyền tự do cá nhân hay mối nguy hại cho sức khỏe cộng đồng?",
         "context": "Smoking in public places has long been a topic of debate in many societies. Some smokers believe that smoking is a personal choice and that individuals should have the freedom to smoke wherever they want. Others argue that smoking in public places should be restricted or banned because second-hand smoke can harm non-smokers, especially children and other vulnerable groups. As a result, many governments have introduced regulations to balance individual rights and public health concerns.",
-        "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "prompt": "Smoking in public places has become a controversial topic in modern society. Some people believe that smoking in public places is a matter of personal freedom, while others argue that it is a serious public health concern. Discuss both views and give your own opinion. Include reasons and relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "details": {
+          "vocab": [
+            {
+              "en": "have the right to do something",
+              "vi": "có quyền làm gì"
+            },
+            {
+              "en": "decide whether to do something",
+              "vi": "quyết định có làm gì hay không"
+            },
+            {
+              "en": "as long as",
+              "vi": "miễn là"
+            },
+            {
+              "en": "disturb or affect others",
+              "vi": "làm phiền hoặc ảnh hưởng đến người khác"
+            },
+            {
+              "en": "personal choice",
+              "vi": "lựa chọn cá nhân"
+            },
+            {
+              "en": "be free to do something",
+              "vi": "được tự do làm gì"
+            },
+            {
+              "en": "make decisions about lifestyles",
+              "vi": "đưa ra quyết định về lối sống"
+            },
+            {
+              "en": "help somebody relax",
+              "vi": "giúp ai đó thư giãn"
+            },
+            {
+              "en": "stressful working hours",
+              "vi": "những giờ làm việc căng thẳng"
+            },
+            {
+              "en": "a complete smoking ban",
+              "vi": "lệnh cấm hút thuốc hoàn toàn"
+            },
+            {
+              "en": "public areas",
+              "vi": "các khu vực công cộng"
+            },
+            {
+              "en": "personal freedom is limited",
+              "vi": "quyền tự do cá nhân bị hạn chế"
+            },
+            {
+              "en": "pay taxes",
+              "vi": "đóng thuế"
+            },
+            {
+              "en": "legal tobacco products",
+              "vi": "các sản phẩm thuốc lá hợp pháp"
+            },
+            {
+              "en": "provide separate smoking areas",
+              "vi": "bố trí các khu vực hút thuốc riêng"
+            },
+            {
+              "en": "completely ban",
+              "vi": "cấm hoàn toàn"
+            },
+            {
+              "en": "respect personal choices",
+              "vi": "tôn trọng lựa chọn cá nhân"
+            },
+            {
+              "en": "follow public rules",
+              "vi": "tuân thủ các quy định chung"
+            },
+            {
+              "en": "put somebody's health at risk",
+              "vi": "gây nguy hiểm cho sức khỏe ai"
+            },
+            {
+              "en": "breathe in second-hand smoke",
+              "vi": "hít phải khói thuốc thụ động"
+            },
+            {
+              "en": "public health concern",
+              "vi": "mối lo ngại về sức khỏe cộng đồng"
+            },
+            {
+              "en": "cigarette smoke",
+              "vi": "khói thuốc lá"
+            },
+            {
+              "en": "spread into the surrounding area",
+              "vi": "lan ra khu vực xung quanh"
+            },
+            {
+              "en": "non-smokers",
+              "vi": "người không hút thuốc"
+            },
+            {
+              "en": "elderly people",
+              "vi": "người cao tuổi"
+            },
+            {
+              "en": "breathing problems",
+              "vi": "các vấn đề về hô hấp"
+            },
+            {
+              "en": "be sensitive to",
+              "vi": "nhạy cảm với"
+            },
+            {
+              "en": "exposure to second-hand smoke",
+              "vi": "tiếp xúc với khói thuốc thụ động"
+            },
+            {
+              "en": "cause serious health problems",
+              "vi": "gây ra các vấn đề sức khỏe nghiêm trọng"
+            },
+            {
+              "en": "heart and lung diseases",
+              "vi": "bệnh tim và bệnh phổi"
+            },
+            {
+              "en": "be exposed to cigarette smoke",
+              "vi": "bị phơi nhiễm khói thuốc"
+            },
+            {
+              "en": "for long periods",
+              "vi": "trong thời gian dài"
+            },
+            {
+              "en": "unpleasant and less fresh",
+              "vi": "khó chịu và kém trong lành"
+            },
+            {
+              "en": "restrict smoking in public places",
+              "vi": "hạn chế hút thuốc ở nơi công cộng"
+            },
+            {
+              "en": "protect people's health",
+              "vi": "bảo vệ sức khỏe mọi người"
+            },
+            {
+              "en": "create a safer environment",
+              "vi": "tạo ra môi trường an toàn hơn"
+            },
+            {
+              "en": "designated smoking areas",
+              "vi": "những khu vực được chỉ định hút thuốc"
+            },
+            {
+              "en": "personal freedom should not be more important than health",
+              "vi": "quyền tự do cá nhân không nên được đặt cao hơn sức khỏe"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1: HÚT THUỐC LÀ QUYỀN TỰ DO CÁ NHÂN (VIEW 01: PERSONAL FREEDOM)",
+                "point_vi": "Người trưởng thành nên có quyền tự quyết định việc hút thuốc ở nơi công cộng nếu họ không làm phiền hoặc gây ảnh hưởng đến người khác.",
+                "point_en": "Adults should have the right to decide whether to smoke in public places as long as they do not disturb or affect others.",
+                "point_collocations": [
+                  {
+                    "en": "have the right to decide",
+                    "vi": "có quyền tự quyết định"
+                  },
+                  {
+                    "en": "smoke in public places",
+                    "vi": "hút thuốc ở nơi công cộng"
+                  },
+                  {
+                    "en": "as long as",
+                    "vi": "miễn là"
+                  },
+                  {
+                    "en": "disturb or affect others",
+                    "vi": "làm phiền hoặc ảnh hưởng đến người khác"
+                  }
+                ],
+                "evidence_vi": "Hút thuốc là lựa chọn cá nhân của mỗi người trưởng thành và họ nên được tự do đưa ra quyết định về lối sống của mình. Một số người hút thuốc cho rằng đây là cách giúp họ thư giãn sau những giờ làm việc căng thẳng. Việc cấm hút thuốc hoàn toàn ở tất cả các khu vực công cộng có thể khiến họ cảm thấy quyền cá nhân bị hạn chế. Người hút thuốc cũng đóng thuế thông qua việc mua các sản phẩm thuốc lá hợp pháp. Chính phủ có thể bố trí những khu vực hút thuốc riêng thay vì cấm hoàn toàn hoạt động này ở nơi công cộng.",
+                "evidence_en": "Smoking is a personal choice, and adults should be free to make decisions about their lifestyles. Some smokers believe that smoking helps them relax after stressful working hours. A complete smoking ban in all public areas may make them feel that their personal freedom is limited. Smokers also pay taxes when they buy legal tobacco products. The government can provide separate smoking areas instead of completely banning this activity in public places.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "smoking is a personal choice",
+                      "vi": "hút thuốc là một lựa chọn cá nhân"
+                    },
+                    {
+                      "en": "be free to make decisions",
+                      "vi": "được tự do đưa ra quyết định"
+                    },
+                    {
+                      "en": "about their lifestyles",
+                      "vi": "về lối sống của mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "help them relax",
+                      "vi": "giúp họ thư giãn"
+                    },
+                    {
+                      "en": "after stressful working hours",
+                      "vi": "sau những giờ làm việc căng thẳng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "a complete smoking ban",
+                      "vi": "lệnh cấm hút thuốc hoàn toàn"
+                    },
+                    {
+                      "en": "in all public areas",
+                      "vi": "ở tất cả các khu vực công cộng"
+                    },
+                    {
+                      "en": "personal freedom is limited",
+                      "vi": "quyền tự do cá nhân bị hạn chế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pay taxes",
+                      "vi": "đóng thuế"
+                    },
+                    {
+                      "en": "legal tobacco products",
+                      "vi": "các sản phẩm thuốc lá hợp pháp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide separate smoking areas",
+                      "vi": "bố trí các khu vực hút thuốc riêng"
+                    },
+                    {
+                      "en": "instead of completely banning",
+                      "vi": "thay vì cấm hoàn toàn"
+                    },
+                    {
+                      "en": "in public places",
+                      "vi": "ở những nơi công cộng"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2: HÚT THUỐC LÀ MỐI LO NGẠI SỨC KHỎE CỘNG ĐỒNG (VIEW 02: PUBLIC HEALTH CONCERN)",
+                "point_vi": "Hút thuốc ở nơi công cộng gây nguy hiểm cho sức khỏe của những người xung quanh vì họ có thể vô tình hít phải khói thuốc.",
+                "point_en": "Smoking in public places puts other people's health at risk because they may breathe in second-hand smoke.",
+                "point_collocations": [
+                  {
+                    "en": "puts other people's health at risk",
+                    "vi": "gây nguy hiểm cho sức khỏe của người khác"
+                  },
+                  {
+                    "en": "breathe in second-hand smoke",
+                    "vi": "hít phải khói thuốc thụ động"
+                  },
+                  {
+                    "en": "public health concern",
+                    "vi": "mối lo ngại về sức khỏe cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Khói thuốc có thể lan ra xung quanh và ảnh hưởng đến những người không hút thuốc. Trẻ em, người cao tuổi và những người có vấn đề về hô hấp đặc biệt dễ bị ảnh hưởng bởi khói thuốc. Tiếp xúc với khói thuốc thụ động có thể gây ra các vấn đề sức khỏe nghiêm trọng, chẳng hạn như bệnh tim và bệnh phổi. Những người thường xuyên làm việc ở nhà hàng, quán cà phê hoặc các địa điểm công cộng có thể phải tiếp xúc với khói thuốc trong thời gian dài. Ngoài ra, khói thuốc và mùi thuốc lá có thể khiến không gian công cộng trở nên khó chịu và kém trong lành.",
+                "evidence_en": "Cigarette smoke can spread into the surrounding area and affect non-smokers. Children, elderly people and those with breathing problems are especially sensitive to cigarette smoke. Exposure to second-hand smoke can cause serious health problems, such as heart and lung diseases. People who work in restaurants, cafés or other public places may be exposed to cigarette smoke for long periods. In addition, cigarette smoke and its smell can make public spaces unpleasant and less fresh.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cigarette smoke can spread",
+                      "vi": "khói thuốc lá có thể lan tỏa"
+                    },
+                    {
+                      "en": "surrounding area",
+                      "vi": "khu vực xung quanh"
+                    },
+                    {
+                      "en": "affect non-smokers",
+                      "vi": "ảnh hưởng đến những người không hút thuốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "children and elderly people",
+                      "vi": "trẻ em và người cao tuổi"
+                    },
+                    {
+                      "en": "breathing problems",
+                      "vi": "các vấn đề về đường hô hấp"
+                    },
+                    {
+                      "en": "especially sensitive to",
+                      "vi": "đặc biệt nhạy cảm với"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "exposure to second-hand smoke",
+                      "vi": "sự tiếp xúc với khói thuốc thụ động"
+                    },
+                    {
+                      "en": "cause serious health problems",
+                      "vi": "gây ra các vấn đề sức khỏe nghiêm trọng"
+                    },
+                    {
+                      "en": "heart and lung diseases",
+                      "vi": "bệnh tim mạch và bệnh phổi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "work in restaurants and cafés",
+                      "vi": "làm việc ở nhà hàng và quán cà phê"
+                    },
+                    {
+                      "en": "exposed to cigarette smoke",
+                      "vi": "phơi nhiễm khói thuốc"
+                    },
+                    {
+                      "en": "for long periods",
+                      "vi": "trong khoảng thời gian dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cigarette smoke and its smell",
+                      "vi": "khói thuốc và mùi thuốc lá"
+                    },
+                    {
+                      "en": "make public spaces unpleasant",
+                      "vi": "khiến không gian công cộng trở nên khó chịu"
+                    },
+                    {
+                      "en": "less fresh",
+                      "vi": "kém trong lành"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1: HÚT THUỐC LÀ QUYỀN TỰ DO CÁ NHÂN (VIEW 01: PERSONAL FREEDOM)",
+                "point_vi": "Người trưởng thành nên có quyền tự quyết định việc hút thuốc ở nơi công cộng nếu họ không làm phiền hoặc gây ảnh hưởng đến người khác.",
+                "point_en": "Adults should have the autonomous right to decide whether to smoke in public places as long as they do not disturb or affect others.",
+                "point_collocations": [
+                  {
+                    "en": "autonomous right to decide",
+                    "vi": "quyền tự chủ đưa ra quyết định"
+                  },
+                  {
+                    "en": "smoke in public places",
+                    "vi": "hút thuốc ở nơi công cộng"
+                  },
+                  {
+                    "en": "as long as",
+                    "vi": "miễn là"
+                  },
+                  {
+                    "en": "do not disturb or affect others",
+                    "vi": "không làm phiền hoặc gây ảnh hưởng người khác"
+                  }
+                ],
+                "evidence_vi": "Hút thuốc là lựa chọn cá nhân của mỗi người trưởng thành và họ nên được tự do đưa ra quyết định về lối sống của mình. Một số người hút thuốc cho rằng đây là cách giúp họ thư giãn sau những giờ làm việc căng thẳng. Việc cấm hút thuốc hoàn toàn ở tất cả các khu vực công cộng có thể khiến họ cảm thấy quyền cá nhân bị hạn chế. Người hút thuốc cũng đóng thuế thông qua việc mua các sản phẩm thuốc lá hợp pháp. Chính phủ có thể bố trí những khu vực hút thuốc riêng thay vì cấm hoàn toàn hoạt động này ở nơi công cộng. Cách tiếp cận này vừa tôn trọng lựa chọn cá nhân vừa giúp người hút thuốc tuân thủ các quy định chung.",
+                "evidence_en": "Smoking is fundamentally a personal choice, and adults should be free to make decisions regarding their lifestyles. Some smokers believe that smoking helps them relax after stressful and demanding working hours. A complete smoking ban in all public areas may make them feel that their personal freedom is excessively limited. Smokers also pay substantial taxes when purchasing legal tobacco products. The government can provide designated smoking areas instead of completely banning this activity in public places. This approach respects personal choices while helping smokers follow public rules effectively.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fundamentally a personal choice",
+                      "vi": "về cơ bản là một lựa chọn cá nhân"
+                    },
+                    {
+                      "en": "free to make decisions",
+                      "vi": "tự do đưa ra các quyết định"
+                    },
+                    {
+                      "en": "regarding their lifestyles",
+                      "vi": "liên quan đến lối sống của họ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "helps them relax",
+                      "vi": "giúp họ thư giãn, giải tỏa"
+                    },
+                    {
+                      "en": "demanding working hours",
+                      "vi": "những giờ làm việc căng thẳng và đòi hỏi cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "a complete smoking ban",
+                      "vi": "lệnh cấm hút thuốc triệt để"
+                    },
+                    {
+                      "en": "in all public areas",
+                      "vi": "ở tất cả các khu vực công cộng"
+                    },
+                    {
+                      "en": "personal freedom is limited",
+                      "vi": "quyền tự do cá nhân bị giới hạn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pay substantial taxes",
+                      "vi": "đóng góp các khoản thuế đáng kể"
+                    },
+                    {
+                      "en": "legal tobacco products",
+                      "vi": "các sản phẩm thuốc lá hợp pháp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "designated smoking areas",
+                      "vi": "các khu vực hút thuốc được chỉ định riêng"
+                    },
+                    {
+                      "en": "instead of completely banning",
+                      "vi": "thay vì cấm đoán hoàn toàn"
+                    },
+                    {
+                      "en": "in public places",
+                      "vi": "ở những nơi công cộng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "respects personal choices",
+                      "vi": "tôn trọng những sự lựa chọn cá nhân"
+                    },
+                    {
+                      "en": "follow public rules effectively",
+                      "vi": "tuân thủ các quy tắc công cộng một cách hiệu quả"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2: HÚT THUỐC LÀ MỐI LO NGẠI SỨC KHỎE CỘNG ĐỒNG (VIEW 02: PUBLIC HEALTH CONCERN)",
+                "point_vi": "Hút thuốc ở nơi công cộng gây nguy hiểm cho sức khỏe của những người xung quanh vì họ có thể vô tình hít phải khói thuốc.",
+                "point_en": "Smoking in public places puts other people's health at grave risk because they may involuntarily breathe in second-hand smoke.",
+                "point_collocations": [
+                  {
+                    "en": "puts other people's health at grave risk",
+                    "vi": "gây nguy hiểm nghiêm trọng cho sức khỏe người khác"
+                  },
+                  {
+                    "en": "involuntarily breathe in",
+                    "vi": "vô tình / thụ động hít phải"
+                  },
+                  {
+                    "en": "second-hand smoke",
+                    "vi": "khói thuốc lá thụ động"
+                  },
+                  {
+                    "en": "public health concern",
+                    "vi": "mối lo ngại sức khỏe cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Khói thuốc có thể lan ra xung quanh và ảnh hưởng đến những người không hút thuốc. Trẻ em, người cao tuổi và những người có vấn đề về hô hấp đặc biệt dễ bị ảnh hưởng bởi khói thuốc. Tiếp xúc với khói thuốc thụ động có thể gây ra các vấn đề sức khỏe nghiêm trọng, chẳng hạn như bệnh tim và bệnh phổi. Những người thường xuyên làm việc ở nhà hàng, quán cà phê hoặc các địa điểm công cộng có thể phải tiếp xúc với khói thuốc trong thời gian dài. Ngoài ra, khói thuốc và mùi thuốc lá có thể khiến không gian công cộng trở nên khó chịu và kém trong lành. Vì vậy, việc hạn chế hút thuốc ở nơi công cộng là cần thiết để bảo vệ sức khỏe và tạo ra môi trường an toàn hơn cho mọi người.",
+                "evidence_en": "Cigarette smoke can easily spread into the surrounding area and adversely affect non-smokers. Children, elderly people and those with breathing problems are especially sensitive to cigarette smoke. Exposure to second-hand smoke can cause serious health problems, such as cardiovascular diseases and lung cancer. People who work in restaurants, cafés or other public venues may be exposed to cigarette smoke for long periods. In addition, cigarette smoke and its smell can make public spaces unpleasant and less fresh. Therefore, restricting smoking in public places is necessary to protect people's health and create a safer environment for everyone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "easily spread into surrounding areas",
+                      "vi": "dễ dàng lan tỏa vào các khu vực xung quanh"
+                    },
+                    {
+                      "en": "adversely affect non-smokers",
+                      "vi": "ảnh hưởng tiêu cực đến người không hút thuốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "vulnerable groups such as children",
+                      "vi": "các nhóm yếu thế như trẻ nhỏ và người già"
+                    },
+                    {
+                      "en": "breathing problems",
+                      "vi": "các vấn đề về hô hấp"
+                    },
+                    {
+                      "en": "especially sensitive to",
+                      "vi": "đặc biệt nhạy cảm với"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "exposure to second-hand smoke",
+                      "vi": "tiếp xúc với khói thuốc thụ động"
+                    },
+                    {
+                      "en": "serious health problems",
+                      "vi": "những vấn đề sức khỏe nghiêm trọng"
+                    },
+                    {
+                      "en": "cardiovascular diseases and lung cancer",
+                      "vi": "bệnh tim mạch và ung thư phổi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "work in hospitality venues",
+                      "vi": "làm việc tại các địa điểm dịch vụ như quán ăn, cà phê"
+                    },
+                    {
+                      "en": "exposed to cigarette smoke",
+                      "vi": "phơi nhiễm khói thuốc"
+                    },
+                    {
+                      "en": "for long periods",
+                      "vi": "trong những khoảng thời gian dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cigarette smoke and its smell",
+                      "vi": "khói thuốc và mùi khói thuốc lá"
+                    },
+                    {
+                      "en": "make public spaces unpleasant",
+                      "vi": "khiến các không gian công cộng trở nên khó chịu"
+                    },
+                    {
+                      "en": "less fresh",
+                      "vi": "kém trong lành"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "restricting smoking in public places",
+                      "vi": "hạn chế việc hút thuốc ở những nơi công cộng"
+                    },
+                    {
+                      "en": "protect people's health",
+                      "vi": "bảo vệ sức khỏe cho người dân"
+                    },
+                    {
+                      "en": "create a safer environment for everyone",
+                      "vi": "tạo dựng một môi trường an toàn hơn cho tất cả mọi người"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>smoking in public places</strong> has become a common topic of discussion. Some people believe that <strong><em>smoking in public places is a matter of personal freedom</em></strong>, while others argue that <strong><em>it is a serious public health concern</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that smoking in public places is a personal choice.</strong> The main reason is that <em>adults should have the right to decide whether to smoke in public places as long as they do not disturb or affect others.</em> First, smoking is a personal choice, and adults should be free to make decisions about their lifestyles. In addition, some smokers believe that smoking helps them relax after stressful working hours. A complete smoking ban in all public areas may make them feel that their personal freedom is limited. Furthermore, smokers also pay taxes when they buy legal tobacco products. Therefore, the government can provide separate smoking areas instead of completely banning this activity in public places.\n\n<strong>On the other hand, it is believed that smoking in public places is a public health concern.</strong> This is because <em>smoking in public places puts other people's health at risk because they may breathe in second-hand smoke.</em> To begin with, cigarette smoke can spread into the surrounding area and affect non-smokers. In particular, children, elderly people and those with breathing problems are especially sensitive to cigarette smoke. Moreover, exposure to second-hand smoke can cause serious health problems, such as heart and lung diseases. People who work in restaurants, cafés or other public places may also be exposed to cigarette smoke for long periods. In addition, cigarette smoke and its smell can make public spaces unpleasant and less fresh.\n\nIn conclusion, both views have valid arguments. However, <strong><em>I support the second view because personal freedom should not be more important than other people's health.</em></strong> Smokers can still make their own choices in designated smoking areas without harming the public.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc hút thuốc ở nơi công cộng</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>hút thuốc ở nơi công cộng là vấn đề thuộc về quyền tự do cá nhân</em></strong>, trong khi những người khác cho rằng <strong><em>đây là một mối lo ngại nghiêm trọng đối với sức khỏe cộng đồng</em></strong>. <strong>Bài viết này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến cá nhân của tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng hút thuốc ở nơi công cộng là một lựa chọn cá nhân.</strong> Lý do chính là <em>người trưởng thành nên có quyền tự quyết định việc hút thuốc ở nơi công cộng nếu họ không làm phiền hoặc gây ảnh hưởng đến người khác.</em> Trước hết, hút thuốc là lựa chọn cá nhân và người lớn nên được tự do đưa ra quyết định về lối sống của mình. Thêm vào đó, một số người hút thuốc tin rằng hút thuốc giúp họ thư giãn sau những giờ làm việc căng thẳng. Việc cấm hút thuốc hoàn toàn ở tất cả các khu vực công cộng có thể khiến họ cảm thấy quyền tự do cá nhân của mình bị hạn chế. Hơn nữa, người hút thuốc cũng đóng thuế khi mua các sản phẩm thuốc lá hợp pháp. Do đó, chính phủ có thể bố trí các khu vực hút thuốc riêng thay vì cấm hoàn toàn hoạt động này ở nơi công cộng.\n\n<strong>Mặt khác, người ta tin rằng hút thuốc ở nơi công cộng là một mối lo ngại về sức khỏe cộng đồng.</strong> Điều này là do <em>hút thuốc ở nơi công cộng gây nguy hiểm cho sức khỏe của những người xung quanh vì họ có thể vô tình hít phải khói thuốc thụ động.</em> Đầu tiên, khói thuốc lá có thể lan ra khu vực xung quanh và ảnh hưởng đến những người không hút thuốc. Đặc biệt, trẻ em, người cao tuổi và những người có vấn đề về hô hấp rất nhạy cảm với khói thuốc. Hơn nữa, việc tiếp xúc với khói thuốc thụ động có thể gây ra các vấn đề sức khỏe nghiêm trọng như bệnh tim và bệnh phổi. Những người làm việc trong nhà hàng, quán cà phê hoặc các địa điểm công cộng khác cũng có thể phải tiếp xúc với khói thuốc trong thời gian dài. Ngoài ra, khói thuốc và mùi của nó có thể khiến không gian công cộng trở nên khó chịu và kém trong lành.\n\nTóm lại, cả hai quan điểm đều có những lý lẽ xác đáng. Tuy nhiên, <strong><em>tôi ủng hộ quan điểm thứ hai vì quyền tự do cá nhân không nên được đặt cao hơn sức khỏe của người khác.</em></strong> Người hút thuốc vẫn có thể đưa ra lựa chọn của riêng mình tại các khu vực hút thuốc được chỉ định mà không gây hại cho cộng đồng.",
+          "sample_b2": "In contemporary society, <strong>the issue of smoking in public places</strong> has sparked intense public controversy. While some individuals contend that <strong><em>smoking in public spaces is a matter of personal freedom and individual autonomy</em></strong>, others firmly argue that <strong><em>it constitutes a grave public health concern that demands strict regulation</em></strong>. <strong>This essay will critically examine both perspectives before articulating my personal stance.</strong>\n\n<strong>On the one hand, compelling arguments suggest that adults should be granted personal autonomy regarding smoking.</strong> Proponents assert that <em>adults should have the autonomous right to decide whether to smoke in public places as long as they do not disturb or affect others.</em> Primarily, smoking is considered a personal lifestyle choice, and mature individuals should be free to make decisions regarding their own habits. Furthermore, many smokers regard nicotine consumption as an effective coping mechanism to alleviate stress after demanding working hours. Consequently, enforcing a total smoking ban across all public domains may induce a perception that their fundamental personal freedoms are excessively infringed upon. Additionally, consumers of legal tobacco products contribute substantially to government revenue through excise taxes. Therefore, authorities could establish designated, well-ventilated smoking areas rather than imposing an outright prohibition. Ultimately, this balanced approach respects personal choices while encouraging smokers to comply with civic regulations.\n\n<strong>On the other hand, there are undeniable justifications for viewing public smoking as an urgent public health crisis.</strong> Most significantly, <em>smoking in shared spaces puts other people's health at grave risk because innocent bystanders involuntarily inhale toxic second-hand smoke.</em> Airborne tobacco pollutants readily disperse throughout surrounding environments, causing non-smokers to suffer passive inhalation. Vulnerable demographics, including young children, senior citizens, and patients with chronic respiratory conditions, are exceptionally sensitive to these airborne toxins. Abundant clinical evidence confirms that prolonged exposure to environmental tobacco smoke precipitates life-threatening illnesses, notably cardiovascular disorders and lung cancer. Moreover, service personnel in hospitality venues, such as restaurants and cafés, endure prolonged occupational exposure to hazardous fumes. Beyond severe physiological harm, persistent cigarette odor deteriorates atmospheric quality, rendering public spaces offensive and unhygienic. Therefore, strictly restricting smoking in public places is imperative to safeguard community well-being and cultivate a cleaner, safer living environment for everyone.\n\nIn conclusion, although the rights and personal liberty of smokers warrant consideration, <strong><em>I firmly maintain that individual freedom should never take precedence over public health.</em></strong> Smokers should exercise their habits exclusively within designated smoking zones so that the health and comfort of the wider community remain uncompromised.",
+          "translation_b2": "Trong xã hội hiện đại, <strong>vấn đề hút thuốc ở nơi công cộng</strong> đã làm dấy lên những cuộc tranh luận công khai gay gắt. Trong khi một số cá nhân cho rằng <strong><em>hút thuốc ở không gian công cộng là vấn đề thuộc về quyền tự do cá nhân và quyền tự chủ của mỗi người</em></strong>, những người khác lại lập luận mạnh mẽ rằng <strong><em>nó cấu thành một mối lo ngại nghiêm trọng đối với sức khỏe cộng đồng đòi hỏi sự quản lý chặt chẽ</em></strong>. <strong>Bài viết này sẽ phân tích kỹ lưỡng cả hai góc nhìn trước khi nêu rõ lập trường cá nhân của tôi.</strong>\n\n<strong>Một mặt, có những lập luận thuyết phục cho rằng người trưởng thành nên được trao quyền tự chủ cá nhân đối với việc hút thuốc.</strong> Những người ủng hộ khẳng định rằng <em>người lớn nên có quyền tự quyết định việc hút thuốc ở nơi công cộng miễn là họ không làm phiền hay gây ảnh hưởng đến người khác.</em> Trước hết, hút thuốc được xem là một lựa chọn lối sống cá nhân, và các cá nhân trưởng thành cần được tự do đưa ra quyết định liên quan đến thói quen của chính mình. Hơn nữa, nhiều người hút thuốc xem việc sử dụng nicotine như một cơ chế giải tỏa căng thẳng hiệu quả sau những giờ làm việc đòi hỏi cao. Do đó, việc thực thi lệnh cấm hút thuốc hoàn toàn trên mọi không gian công cộng có thể tạo ra cảm giác rằng các quyền tự do cơ bản của họ đang bị xâm phạm quá mức. Thêm vào đó, những người tiêu dùng sản phẩm thuốc lá hợp pháp đóng góp đáng kể cho ngân sách nhà nước thông qua các khoản thuế tiêu thụ đặc biệt. Vì vậy, các nhà chức trách có thể thiết lập các khu vực hút thuốc riêng biệt, thông gió tốt thay vì áp đặt lệnh cấm triệt để. Xét cho cùng, cách tiếp cận cân bằng này vừa tôn trọng sự lựa chọn cá nhân vừa khuyến khích người hút thuốc tuân thủ các quy định chung của xã hội.\n\n<strong>Mặt khác, có những căn cứ không thể phủ nhận khi coi việc hút thuốc nơi công cộng là một cuộc khủng hoảng sức khỏe cộng đồng cấp bách.</strong> Đáng chú ý nhất, <em>hút thuốc trong không gian chung đe dọa nghiêm trọng đến sức khỏe của người khác vì những người xung quanh vô tình hít phải khói thuốc độc hại.</em> Các chất ô nhiễm trong khói thuốc dễ dàng khuếch tán ra môi trường xung quanh, khiến những người không hút thuốc phải chịu cảnh hít khói thụ động. Các nhóm dân cư dễ bị tổn thương, bao gồm trẻ nhỏ, người cao tuổi và các bệnh nhân mắc bệnh hô hấp mãn tính, đặc biệt nhạy cảm với các chất độc trong không khí này. Vô số bằng chứng lâm sàng khẳng định rằng việc tiếp xúc kéo dài với khói thuốc lá từ môi trường sẽ dẫn đến các căn bệnh nguy hiểm đến tính mạng, đặc biệt là rối loạn tim mạch và ung thư phổi. Hơn nữa, nhân viên phục vụ tại các địa điểm dịch vụ như nhà hàng và quán cà phê phải chịu sự phơi nhiễm nghề nghiệp kéo dài với các làn khói độc hại. Vượt lên trên những tác hại sinh lý nghiêm trọng, mùi khói thuốc dai dẳng làm suy giảm chất lượng không khí, khiến không gian công cộng trở nên khó chịu và mất vệ sinh. Do đó, việc hạn chế nghiêm ngặt hút thuốc ở nơi công cộng là điều cấp thiết để bảo vệ sức khỏe cộng đồng và xây dựng môi trường sống trong lành, an toàn hơn cho tất cả mọi người.\n\nTóm lại, mặc dù các quyền và tự do cá nhân của người hút thuốc cần được xem xét, <strong><em>tôi kiên quyết khẳng định rằng tự do cá nhân không bao giờ được đặt cao hơn sức khỏe cộng đồng.</em></strong> Người hút thuốc nên thực hiện thói quen của mình độc quyền tại các khu vực hút thuốc được chỉ định để sức khỏe và sự thoải mái của cộng đồng rộng lớn hơn không bị xâm phạm.",
+          "key_vocab_notes": "📌 Ghi chú sư phạm dành cho giáo viên và học viên:\n- Bậc B1: Tập trung vào 5 luận cứ cốt lõi, diễn đạt ngắn gọn, tự nhiên với các cụm: 'personal choice', 'be free to make decisions', 'breathe in second-hand smoke', 'exposure to', 'protect people's health'.\n- Bậc B2: Mở rộng đầy đủ 6 luận cứ với từ vựng học thuật cao cấp: 'autonomous right', 'excessively infringed upon', 'involuntarily breathe in', 'cardiovascular diseases and lung cancer', 'take precedence over'.\n- Cấu trúc kết bài nêu quan điểm cá nhân (Personal Opinion): Sử dụng mệnh đề 'personal freedom should not be more important than other people's health' (B1) hoặc 'individual freedom should never take precedence over public health' (B2) để bài viết có tính thuyết phục cao và đạt điểm tối đa ở tiêu chí Task Fulfillment.",
+          "my_opinion": {
+            "vi": "Tôi nghiêng về quan điểm thứ hai vì quyền tự do cá nhân không nên được đặt cao hơn sức khỏe của người khác. Người hút thuốc vẫn có thể duy trì lựa chọn cá nhân của mình tại những khu vực được phép hút thuốc.",
+            "en": "I support the second view because personal freedom should not be more important than other people's health. Smokers can still make their own choices in designated smoking areas."
+          },
+          "vocab_step": {
+            "theme": "Hút thuốc nơi công cộng: Quyền tự do cá nhân hay Sức khỏe cộng đồng (Smoking in Public Places)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề Dạng 04 \"Hút thuốc nơi công cộng: Quyền tự do cá nhân hay Nguy hại sức khỏe cộng đồng?\", bao gồm 30 từ đơn cốt lõi kèm Họ từ (Word Family) và 44 cụm Collocations bám sát 100% hai quan điểm Đối lập và Góc nhìn cá nhân.",
+            "single_words": [
+              {
+                "word": "tobacco",
+                "ipa": "/təˈbæk.əʊ/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "thuốc lá, cây thuốc lá",
+                "family": "tobacconist (n)",
+                "example_en": "High excise taxes are imposed on legal tobacco products.",
+                "example_vi": "Các mức thuế tiêu thụ đặc biệt cao được áp đặt lên các sản phẩm thuốc lá hợp pháp."
+              },
+              {
+                "word": "second-hand",
+                "ipa": "/ˌsek.əndˈhænd/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "thụ động, gián tiếp",
+                "family": "second-hand (adv)",
+                "example_en": "Second-hand smoke poses substantial health hazards to innocent bystanders.",
+                "example_vi": "Khói thuốc thụ động gây ra những mối nguy hại sức khỏe đáng kể cho người xung quanh."
+              },
+              {
+                "word": "respiratory",
+                "ipa": "/rɪˈspɪr.ə.tər.i/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về hô hấp",
+                "family": "respire (v), respiration (n)",
+                "example_en": "Patients with chronic respiratory ailments suffer acutely from airborne smoke.",
+                "example_vi": "Bệnh nhân mắc các bệnh hô hấp mãn tính chịu ảnh hưởng nặng nề bởi khói thuốc trong không khí."
+              },
+              {
+                "word": "involuntary",
+                "ipa": "/ɪnˈvɒl.ən.tər.i/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "không tự nguyện, vô tình",
+                "family": "involuntarily (adv)",
+                "example_en": "Non-smokers endure involuntary inhalation of toxic fumes in enclosed restaurants.",
+                "example_vi": "Người không hút thuốc phải chịu cảnh vô tình hít phải khói độc trong các nhà hàng kín."
+              },
+              {
+                "word": "bystander",
+                "ipa": "/ˈbaɪˌstæn.dər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "người đứng gần, người qua đường vô can",
+                "family": "bystander (n)",
+                "example_en": "Innocent bystanders should not be subjected to harmful cigarette chemicals.",
+                "example_vi": "Những người vô can đứng gần không nên bị bắt phải chịu đựng các hóa chất độc hại từ thuốc lá."
+              },
+              {
+                "word": "autonomy",
+                "ipa": "/ɔːˈtɒn.ə.mi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quyền tự chủ, quyền độc lập cá nhân",
+                "family": "autonomous (adj), autonomously (adv)",
+                "example_en": "Proponents argue that personal autonomy entitles adults to make lifestyle choices.",
+                "example_vi": "Những người ủng hộ cho rằng quyền tự chủ cá nhân trao cho người lớn quyền lựa chọn lối sống."
+              },
+              {
+                "word": "carcinogen",
+                "ipa": "/kɑːˈsɪn.ə.dʒən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chất gây ung thư",
+                "family": "carcinogenic (adj)",
+                "example_en": "Tobacco smoke contains dozens of proven carcinogenic substances.",
+                "example_vi": "Khói thuốc lá chứa hàng chục hợp chất đã được chứng minh là chất gây ung thư."
+              },
+              {
+                "word": "infringe",
+                "ipa": "/ɪnˈfrɪndʒ/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "xâm phạm, vi phạm quyền lợi",
+                "family": "infringement (n)",
+                "example_en": "Overly strict regulations may infringe upon basic civil liberties.",
+                "example_vi": "Các quy định quá khắt khe có thể xâm phạm đến các quyền tự do dân sự cơ bản."
+              },
+              {
+                "word": "prohibition",
+                "ipa": "/ˌprəʊ.hɪˈbɪʃ.ən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lệnh cấm đoán, sự ngăn cấm",
+                "family": "prohibit (v), prohibitive (adj)",
+                "example_en": "An outright prohibition on public smoking could provoke fierce public opposition.",
+                "example_vi": "Lệnh cấm triệt để hút thuốc nơi công cộng có thể gây ra làn sóng phản đối dữ dội từ dư luận."
+              },
+              {
+                "word": "designated",
+                "ipa": "/ˈdez.ɪɡ.neɪ.tɪd/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "được chỉ định, được phân bổ riêng",
+                "family": "designate (v), designation (n)",
+                "example_en": "Smokers are required to confine their habit to designated outdoor kiosks.",
+                "example_vi": "Người hút thuốc được yêu cầu chỉ hút trong các khu vực được chỉ định riêng ngoài trời."
+              },
+              {
+                "word": "inhale",
+                "ipa": "/ɪnˈheɪl/",
+                "pos": "verb",
+                "level": "B1, B2",
+                "vi": "hít vào",
+                "family": "inhalation (n), inhaler (n)",
+                "example_en": "Breathing near smokers causes non-smokers to inhale dangerous particulates.",
+                "example_vi": "Hít thở gần người hút thuốc khiến người không hút hít phải những hạt bụi nguy hiểm."
+              },
+              {
+                "word": "toxic",
+                "ipa": "/ˈtɒk.sɪk/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "độc hại",
+                "family": "toxicity (n), toxin (n)",
+                "example_en": "Cigarettes release toxic chemical residues into indoor atmospheres.",
+                "example_vi": "Thuốc lá thải ra các dư lượng hóa chất độc hại vào bầu không khí trong nhà."
+              },
+              {
+                "word": "precedence",
+                "ipa": "/ˈpres.ɪ.dəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự ưu tiên hàng đầu, quyền đi trước",
+                "family": "precede (v), precedent (n)",
+                "example_en": "Public health should consistently take precedence over individual indulgence.",
+                "example_vi": "Sức khỏe cộng đồng phải luôn luôn được ưu tiên hàng đầu so với sở thích của cá nhân."
+              },
+              {
+                "word": "sensory",
+                "ipa": "/ˈsen.sər.i/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về giác quan, cảm quan",
+                "family": "sense (n/v)",
+                "example_en": "Dense cigarette smoke produces an offensive sensory experience for patrons.",
+                "example_vi": "Khói thuốc dày đặc tạo ra trải nghiệm cảm quan khó chịu cho các thực khách."
+              },
+              {
+                "word": "ventilation",
+                "ipa": "/ˌven.tɪˈleɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thông gió, hệ thống thông khí",
+                "family": "ventilate (v), ventilator (n)",
+                "example_en": "Proper ventilation systems can help isolate smoke within specialized booths.",
+                "example_vi": "Hệ thống thông gió thích hợp có thể giúp cô lập khói trong các buồng hút chuyên dụng."
+              },
+              {
+                "word": "nicotine",
+                "ipa": "/ˈnɪk.ə.tiːn/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "chất nicotine",
+                "family": "nicotinic (adj)",
+                "example_en": "Nicotine is a highly addictive compound found in tobacco leaves.",
+                "example_vi": "Nicotine là một hợp chất gây nghiện cao được tìm thấy trong lá thuốc lá."
+              },
+              {
+                "word": "cardiovascular",
+                "ipa": "/ˌkɑː.di.əʊˈvæs.kjə.lər/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về tim mạch",
+                "family": "cardiology (n)",
+                "example_en": "Passive smoking significantly elevates the incidence of cardiovascular disease.",
+                "example_vi": "Hút thuốc thụ động làm tăng đáng kể tỷ lệ mắc bệnh tim mạch."
+              },
+              {
+                "word": "restriction",
+                "ipa": "/rɪˈstrɪk.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự hạn chế, quy định giới hạn",
+                "family": "restrict (v), restrictive (adj)",
+                "example_en": "Tightening restrictions on public smoking safeguards vulnerable demographics.",
+                "example_vi": "Siết chặt các hạn chế đối với việc hút thuốc nơi công cộng giúp bảo vệ các nhóm đối tượng dễ tổn thương."
+              },
+              {
+                "word": "demographic",
+                "ipa": "/ˌdem.əˈɡræf.ɪk/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nhóm nhân khẩu học, nhóm đối tượng",
+                "family": "demography (n)",
+                "example_en": "Children and elderly citizens represent vulnerable demographic segments.",
+                "example_vi": "Trẻ em và người già đại diện cho những phân khúc nhân khẩu học dễ bị tổn thương."
+              },
+              {
+                "word": "hazardous",
+                "ipa": "/ˈhæz.ə.dəs/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "nguy hiểm, rủi ro cho sức khỏe",
+                "family": "hazard (n)",
+                "example_en": "Second-hand aerosol is officially categorized as a hazardous environmental pollutant.",
+                "example_vi": "Khói thuốc thụ động được phân loại chính thức là chất gây ô nhiễm môi trường nguy hại."
+              },
+              {
+                "word": "disperse",
+                "ipa": "/dɪˈspɜːs/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "khuếch tán, lan tỏa vào không gian",
+                "family": "dispersal (n), dispersion (n)",
+                "example_en": "Toxic particles disperse swiftly into adjoining rooms through open doorways.",
+                "example_vi": "Các hạt độc hại khuếch tán nhanh chóng sang các phòng liền kề qua các ô cửa mở."
+              },
+              {
+                "word": "passive",
+                "ipa": "/ˈpæs.ɪv/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "thụ động, không tự nguyện",
+                "family": "passively (adv), passivity (n)",
+                "example_en": "Passive smokers face comparable cancer risks to moderate regular smokers.",
+                "example_vi": "Người hút thuốc thụ động đối mặt với nguy cơ ung thư tương đương người hút thuốc mức độ vừa."
+              },
+              {
+                "word": "unpleasant",
+                "ipa": "/ʌnˈplez.ənt/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "khó chịu, không thoải mái",
+                "family": "unpleasantly (adv), unpleasantness (n)",
+                "example_en": "Littered cigarette butts and stale odor create an unpleasant public ambiance.",
+                "example_vi": "Tàn thuốc xả bừa bãi và mùi khét tạo nên bầu không khí công cộng khó chịu."
+              },
+              {
+                "word": "exhale",
+                "ipa": "/eksˈheɪl/",
+                "pos": "verb",
+                "level": "B1, B2",
+                "vi": "thở ra, phả khói ra",
+                "family": "exhalation (n)",
+                "example_en": "Exhaled smoke lingering in bus shelters irritates waiting commuters.",
+                "example_vi": "Làn khói phả ra đọng lại trong nhà chờ xe buýt làm khó chịu những hành khách đang đứng đợi."
+              },
+              {
+                "word": "lifestyle",
+                "ipa": "/ˈlaɪf.staɪl/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "lối sống, phong cách sống",
+                "family": "lifestyle (n)",
+                "example_en": "Adult citizens are entitled to pursue their desired lifestyle choices.",
+                "example_vi": "Công dân trưởng thành có quyền theo đuổi các lựa chọn lối sống mong muốn của mình."
+              },
+              {
+                "word": "coping",
+                "ipa": "/ˈkəʊ.pɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đối phó, cơ chế vượt qua căng thẳng",
+                "family": "cope (v)",
+                "example_en": "Some workers utilize brief cigarette pauses as a psychological coping mechanism.",
+                "example_vi": "Một số công nhân sử dụng những khoảng nghỉ hút thuốc ngắn như một cơ chế tâm lý đối phó áp lực."
+              },
+              {
+                "word": "excise",
+                "ipa": "/ˈek.saɪz/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "thuế tiêu thụ đặc biệt",
+                "family": "excise (v)",
+                "example_en": "Governments collect tremendous excise duties from legal cigarette distribution.",
+                "example_vi": "Các chính phủ thu về khoản thuế tiêu thụ đặc biệt khổng lồ từ việc phân phối thuốc lá hợp pháp."
+              },
+              {
+                "word": "pollutant",
+                "ipa": "/pəˈluː.tənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chất gây ô nhiễm",
+                "family": "pollute (v), pollution (n)",
+                "example_en": "Tobacco smoke is among the most widespread indoor air pollutants.",
+                "example_vi": "Khói thuốc lá là một trong những chất gây ô nhiễm không khí trong nhà phổ biến nhất."
+              },
+              {
+                "word": "vulnerable",
+                "ipa": "/ˈvʌl.nər.ə.bəl/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "dễ bị tổn thương, sức đề kháng yếu",
+                "family": "vulnerability (n)",
+                "example_en": "Asthmatic children are especially vulnerable to ambient smoke exposure.",
+                "example_vi": "Trẻ em bị hen suyễn đặc biệt dễ bị tổn thương khi tiếp xúc với khói thuốc xung quanh."
+              },
+              {
+                "word": "safeguard",
+                "ipa": "/ˈseɪf.ɡɑːd/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "bảo vệ, che chắn an toàn",
+                "family": "safeguarded (adj)",
+                "example_en": "Strict public health policies are formulated to safeguard community well-being.",
+                "example_vi": "Các chính sách y tế công cộng nghiêm ngặt được xây dựng nhằm bảo vệ sức khỏe cộng đồng."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "personal_freedom",
+                "name": "QUAN ĐIỂM 1: QUYỀN TỰ DO CÁ NHÂN & LỐI SỐNG (VIEW 01: PERSONAL FREEDOM)",
+                "icon": "⚖️",
+                "badge": "Phần Thân bài 1 (Body 1)",
+                "items": [
+                  {
+                    "en": "a matter of personal freedom",
+                    "vi": "vấn đề thuộc về quyền tự do cá nhân",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Many argue that choosing to smoke is a matter of personal freedom.",
+                    "example_vi": "Nhiều người lập luận rằng lựa chọn hút thuốc là một vấn đề thuộc quyền tự do cá nhân."
+                  },
+                  {
+                    "en": "have the autonomous right to decide",
+                    "vi": "có quyền tự chủ đưa ra quyết định",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Competent adults should have the autonomous right to decide their lifestyle habits.",
+                    "example_vi": "Người trưởng thành có đầy đủ năng lực nên có quyền tự chủ quyết định các thói quen lối sống."
+                  },
+                  {
+                    "en": "as long as they do not disturb others",
+                    "vi": "miễn là họ không làm phiền người khác",
+                    "type": "clause",
+                    "level": "B1",
+                    "example_en": "Citizens should enjoy liberties as long as they do not disturb others.",
+                    "example_vi": "Công dân nên được hưởng các quyền tự do miễn là họ không làm phiền đến người khác."
+                  },
+                  {
+                    "en": "free to make decisions about lifestyles",
+                    "vi": "tự do đưa ra quyết định về lối sống của mình",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Every adult is entitled to be free to make decisions about lifestyles.",
+                    "example_vi": "Mọi người trưởng thành đều có quyền được tự do đưa ra quyết định về lối sống của mình."
+                  },
+                  {
+                    "en": "alleviate stress after working hours",
+                    "vi": "giải tỏa căng thẳng sau những giờ làm việc",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Some individuals smoke briefly to alleviate stress after working hours.",
+                    "example_vi": "Một số cá nhân hút thuốc trong chốc lát để giải tỏa căng thẳng sau những giờ làm việc."
+                  },
+                  {
+                    "en": "feel that personal freedom is limited",
+                    "vi": "cảm thấy quyền tự do cá nhân bị gò bó, hạn chế",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Blanket prohibitions make law-abiding smokers feel that personal freedom is limited.",
+                    "example_vi": "Lệnh cấm triệt để khiến những người hút thuốc tuân thủ luật cảm thấy quyền tự do bị hạn chế."
+                  },
+                  {
+                    "en": "pay substantial excise taxes",
+                    "vi": "đóng các khoản thuế tiêu thụ đặc biệt đáng kể",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smokers pay substantial excise taxes that enrich national healthcare budgets.",
+                    "example_vi": "Người hút thuốc đóng các khoản thuế tiêu thụ đặc biệt lớn làm tăng ngân sách y tế quốc gia."
+                  },
+                  {
+                    "en": "buy legal tobacco products",
+                    "vi": "mua các sản phẩm thuốc lá hợp pháp",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Consumers who buy legal tobacco products expect fair public accommodation.",
+                    "example_vi": "Những người tiêu dùng mua sản phẩm thuốc lá hợp pháp kỳ vọng có không gian phù hợp nơi công cộng."
+                  },
+                  {
+                    "en": "excessively infringe upon personal rights",
+                    "vi": "xâm phạm quá mức đến các quyền cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Total bans are criticized because they excessively infringe upon personal rights.",
+                    "example_vi": "Lệnh cấm toàn diện bị chỉ trích vì chúng xâm phạm quá mức đến các quyền cá nhân."
+                  },
+                  {
+                    "en": "respect personal autonomy",
+                    "vi": "tôn trọng quyền tự chủ của mỗi cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Democratic societies consistently strive to respect personal autonomy.",
+                    "example_vi": "Các xã hội dân chủ luôn nỗ lực tôn trọng quyền tự chủ của mỗi cá nhân."
+                  },
+                  {
+                    "en": "follow public rules and social norms",
+                    "vi": "tuân thủ các quy tắc công cộng và chuẩn mực xã hội",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Providing smoking booths encourages people to follow public rules and social norms.",
+                    "example_vi": "Bố trí các buồng hút thuốc khuyến khích mọi người tuân thủ quy tắc và chuẩn mực công cộng."
+                  }
+                ]
+              },
+              {
+                "id": "public_health_concerns",
+                "name": "QUAN ĐIỂM 2: MỐI NGUY HẠI SỨC KHỎE CỘNG ĐỒNG (VIEW 02: HEALTH CONCERNS)",
+                "icon": "🫁",
+                "badge": "Phần Thân bài 2 (Body 2)",
+                "items": [
+                  {
+                    "en": "put other people's health at grave risk",
+                    "vi": "gây nguy hiểm nghiêm trọng cho sức khỏe người khác",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Smoking near crowds puts other people's health at grave risk.",
+                    "example_vi": "Hút thuốc gần đám đông gây nguy hiểm nghiêm trọng cho sức khỏe của người khác."
+                  },
+                  {
+                    "en": "breathe in second-hand smoke",
+                    "vi": "hít phải khói thuốc thụ động",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Bystanders involuntarily breathe in second-hand smoke at open-air bus stops.",
+                    "example_vi": "Người qua đường vô tình hít phải khói thuốc thụ động tại các trạm chờ xe buýt ngoài trời."
+                  },
+                  {
+                    "en": "spread into the surrounding area",
+                    "vi": "lan tỏa rộng ra khu vực xung quanh",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Air currents cause toxic fumes to spread into the surrounding area rapidly.",
+                    "example_vi": "Các luồng không khí khiến khói độc nhanh chóng lan tỏa ra khu vực xung quanh."
+                  },
+                  {
+                    "en": "adversely affect non-smokers",
+                    "vi": "tác động tiêu cực đến những người không hút thuốc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Outdoor smoking areas near building entrances adversely affect non-smokers.",
+                    "example_vi": "Khu vực hút thuốc ngoài trời gần cửa ra vào tòa nhà tác động tiêu cực đến người không hút."
+                  },
+                  {
+                    "en": "especially sensitive to cigarette smoke",
+                    "vi": "đặc biệt nhạy cảm với khói thuốc lá",
+                    "type": "adj.phr",
+                    "level": "B1",
+                    "example_en": "Infants and seniors are especially sensitive to cigarette smoke particulates.",
+                    "example_vi": "Trẻ sơ sinh và người cao tuổi đặc biệt nhạy cảm với các hạt khói thuốc lá."
+                  },
+                  {
+                    "en": "people with chronic breathing problems",
+                    "vi": "những người có bệnh lý đường hô hấp mãn tính",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Exposure is hazardous for people with chronic breathing problems such as asthma.",
+                    "example_vi": "Sự tiếp xúc rất nguy hiểm đối với những người có vấn đề hô hấp mãn tính như hen suyễn."
+                  },
+                  {
+                    "en": "cause heart and lung diseases",
+                    "vi": "gây ra các bệnh lý về tim mạch và phổi",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Passive inhalation is clinically proven to cause heart and lung diseases.",
+                    "example_vi": "Hít khói thụ động đã được chứng minh lâm sàng là nguyên nhân gây bệnh tim và phổi."
+                  },
+                  {
+                    "en": "elevate the risk of lung cancer",
+                    "vi": "làm tăng nguy cơ mắc ung thư phổi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Continuous exposure can significantly elevate the risk of lung cancer in non-smokers.",
+                    "example_vi": "Tiếp xúc liên tục có thể làm tăng đáng kể nguy cơ ung thư phổi ở người không hút thuốc."
+                  },
+                  {
+                    "en": "endure prolonged occupational exposure",
+                    "vi": "chịu đựng sự phơi nhiễm nghề nghiệp kéo dài",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Waiters and bartenders endure prolonged occupational exposure to toxic haze.",
+                    "example_vi": "Nhân viên phục vụ bàn và pha chế phải chịu đựng sự phơi nhiễm nghề nghiệp kéo dài với khói độc."
+                  },
+                  {
+                    "en": "make public spaces unpleasant and foul",
+                    "vi": "làm cho không gian công cộng trở nên khó chịu và nồng nặc mùi hôi",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Stale tobacco odors make public spaces unpleasant and foul for families.",
+                    "example_vi": "Mùi thuốc lá nồng nặc khiến các không gian công cộng trở nên khó chịu đối với các gia đình."
+                  },
+                  {
+                    "en": "deteriorate ambient air quality",
+                    "vi": "làm suy giảm chất lượng không khí xung quanh",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Unregulated smoking continues to deteriorate ambient air quality in city parks.",
+                    "example_vi": "Hút thuốc không kiểm soát tiếp tục làm suy giảm chất lượng không khí tại các công viên thành phố."
+                  },
+                  {
+                    "en": "protect public well-being",
+                    "vi": "bảo vệ sức khỏe và phúc lợi của cộng đồng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Stringent measures are designed primarily to protect public well-being.",
+                    "example_vi": "Các biện pháp nghiêm ngặt được thiết kế chủ yếu nhằm bảo vệ sức khỏe cộng đồng."
+                  }
+                ]
+              },
+              {
+                "id": "safety_regulations",
+                "name": "QUY ĐỊNH PHÁP LÝ & KHU VỰC HÚT THUỐC RIÊNG (DESIGNATED AREAS & POLICY)",
+                "icon": "🚭",
+                "badge": "Góc nhìn cá nhân (Personal Opinion)",
+                "items": [
+                  {
+                    "en": "personal freedom should not take precedence over health",
+                    "vi": "tự do cá nhân không nên được đặt cao hơn sức khỏe cộng đồng",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "In civic life, personal freedom should not take precedence over health.",
+                    "example_vi": "Trong đời sống công dân, tự do cá nhân không nên được đặt cao hơn sức khỏe cộng đồng."
+                  },
+                  {
+                    "en": "provide designated smoking areas",
+                    "vi": "bố trí những khu vực hút thuốc được chỉ định riêng",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Airports provide designated smoking areas equipped with powerful exhaust filters.",
+                    "example_vi": "Các sân bay bố trí các khu vực hút thuốc riêng biệt được trang bị màng lọc khí công suất lớn."
+                  },
+                  {
+                    "en": "restrict smoking in shared public spaces",
+                    "vi": "hạn chế việc hút thuốc tại các không gian công cộng chung",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Municipal councils restrict smoking in shared public spaces such as playgrounds.",
+                    "example_vi": "Hội đồng thành phố hạn chế hút thuốc ở các không gian công cộng chung như sân chơi trẻ em."
+                  },
+                  {
+                    "en": "create a cleaner and safer environment",
+                    "vi": "tạo dựng một môi trường trong lành và an toàn hơn",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Smoke-free legislation helps create a cleaner and safer environment for children.",
+                    "example_vi": "Luật không khói thuốc giúp tạo dựng một môi trường trong lành và an toàn hơn cho trẻ nhỏ."
+                  },
+                  {
+                    "en": "strike a pragmatic balance",
+                    "vi": "đạt được sự cân bằng thực tế và hài hòa",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Designated smoking zones strike a pragmatic balance between smokers and non-smokers.",
+                    "example_vi": "Các khu hút thuốc riêng biệt tạo ra sự cân bằng thực tế giữa người hút và người không hút thuốc."
+                  },
+                  {
+                    "en": "prevent passive smoking hazards",
+                    "vi": "ngăn chặn những hiểm họa từ việc hút thuốc thụ động",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Enclosed glass booths successfully prevent passive smoking hazards.",
+                    "example_vi": "Các buồng kính kín ngăn chặn thành công các mối nguy từ việc hút thuốc thụ động."
+                  },
+                  {
+                    "en": "exercise personal lifestyle choices responsibly",
+                    "vi": "thực hiện các lựa chọn lối sống cá nhân một cách có trách nhiệm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Citizens should exercise personal lifestyle choices responsibly without infringing on others.",
+                    "example_vi": "Công dân nên thực hiện các lựa chọn lối sống có trách nhiệm mà không xâm phạm đến người khác."
+                  },
+                  {
+                    "en": "enact strict municipal ordinances",
+                    "vi": "ban hành các sắc lệnh quy định đô thị nghiêm ngặt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Major metropolises enact strict municipal ordinances against indoor smoking.",
+                    "example_vi": "Các đại đô thị ban hành những quy định đô thị nghiêm ngặt chống lại việc hút thuốc trong nhà."
+                  },
+                  {
+                    "en": "confine smoking to ventilated outdoor kiosks",
+                    "vi": "giới hạn việc hút thuốc trong các ki-ốt ngoài trời thông thoáng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Offices confine smoking to ventilated outdoor kiosks far from common entrances.",
+                    "example_vi": "Các văn phòng giới hạn việc hút thuốc trong các buồng ngoài trời cách xa lối vào chung."
+                  },
+                  {
+                    "en": "maintain uncompromised public safety",
+                    "vi": "duy trì sự an toàn công cộng tuyệt đối không bị xâm phạm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Good urban policy aims to maintain uncompromised public safety.",
+                    "example_vi": "Chính sách đô thị tốt nhằm mục tiêu duy trì sự an toàn công cộng một cách trọn vẹn."
+                  },
+                  {
+                    "en": "support smoke-free public spaces",
+                    "vi": "ủng hộ các không gian công cộng không khói thuốc",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "The general public overwhelmingly supports smoke-free public spaces.",
+                    "example_vi": "Đông đảo người dân ủng hộ mạnh mẽ các không gian công cộng không khói thuốc."
+                  }
+                ]
+              },
+              {
+                "id": "discussion_framing",
+                "name": "CẤU TRÚC TRANH LUẬN 2 QUAN ĐIỂM (DISCUSSION ESSAY FRAMING)",
+                "icon": "⚖️",
+                "badge": "Cấu trúc khung bài viết (Discourse)",
+                "items": [
+                  {
+                    "en": "has long been a subject of intense controversy",
+                    "vi": "từ lâu đã là một chủ đề gây nhiều tranh cãi gay gắt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Public smoking has long been a subject of intense controversy worldwide.",
+                    "example_vi": "Hút thuốc nơi công cộng từ lâu đã là chủ đề gây nhiều tranh cãi gay gắt trên toàn thế giới."
+                  },
+                  {
+                    "en": "on the one hand, proponents contend that",
+                    "vi": "một mặt, những người ủng hộ lập luận rằng (mở Body 1)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "On the one hand, proponents contend that adult choices should be respected.",
+                    "example_vi": "Một mặt, những người ủng hộ cho rằng các lựa chọn của người lớn cần được tôn trọng."
+                  },
+                  {
+                    "en": "on the other hand, there are compelling reasons to argue that",
+                    "vi": "mặt khác, có những lý do thuyết phục để lập luận rằng (mở Body 2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "On the other hand, there are compelling reasons to argue that public health comes first.",
+                    "example_vi": "Mặt khác, có những lý do thuyết phục để lập luận rằng sức khỏe cộng đồng là trên hết."
+                  },
+                  {
+                    "en": "this essay will examine both perspectives before articulating",
+                    "vi": "bài viết này sẽ xem xét cả hai góc nhìn trước khi khẳng định",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "This essay will examine both perspectives before articulating a reasoned conclusion.",
+                    "example_vi": "Bài viết này sẽ xem xét cả hai góc nhìn trước khi đưa ra kết luận có căn cứ."
+                  },
+                  {
+                    "en": "while both viewpoints present valid rationale",
+                    "vi": "trong khi cả hai luồng quan điểm đều đưa ra những lý lẽ hợp lý",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "While both viewpoints present valid rationale, one must prioritize life preservation.",
+                    "example_vi": "Trong khi cả hai luồng ý kiến đều đưa ra lý lẽ hợp lý, sinh mạng con người phải được ưu tiên."
+                  },
+                  {
+                    "en": "I firmly maintain that individual freedom should never take precedence over",
+                    "vi": "tôi kiên định cho rằng tự do cá nhân không bao giờ được đặt cao hơn",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "I firmly maintain that individual freedom should never take precedence over public health.",
+                    "example_vi": "Tôi kiên quyết cho rằng tự do cá nhân không bao giờ được đặt cao hơn sức khỏe cộng đồng."
+                  },
+                  {
+                    "en": "from a societal standpoint",
+                    "vi": "xét từ góc độ toàn xã hội",
+                    "type": "adv.phr",
+                    "level": "B2",
+                    "example_en": "From a societal standpoint, clean ambient air is an essential human right.",
+                    "example_vi": "Xét từ góc độ xã hội, không khí xung quanh trong lành là một quyền con người thiết yếu."
+                  },
+                  {
+                    "en": "strike a delicate balance between",
+                    "vi": "đạt được sự cân bằng tinh tế giữa",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Policymakers must strike a delicate balance between individual liberties and civic health.",
+                    "example_vi": "Các nhà hoạch định chính sách phải đạt được sự cân bằng giữa quyền tự do cá nhân và sức khỏe cộng đồng."
+                  },
+                  {
+                    "en": "warrant serious consideration",
+                    "vi": "xứng đáng nhận được sự cân nhắc nghiêm túc",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The concerns raised by affected non-smokers warrant serious consideration.",
+                    "example_vi": "Những mối lo ngại của người không hút thuốc bị ảnh hưởng rất đáng được cân nhắc nghiêm túc."
+                  },
+                  {
+                    "en": "in conclusion, both sides hold legitimate arguments",
+                    "vi": "tóm lại, cả hai bên đều nắm giữ những lập luận chính đáng",
+                    "type": "clause",
+                    "level": "B1",
+                    "example_en": "In conclusion, both sides hold legitimate arguments regarding public smoking.",
+                    "example_vi": "Tóm lại, cả hai bên đều nắm giữ những lập luận chính đáng liên quan đến việc hút thuốc nơi công cộng."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 14,
