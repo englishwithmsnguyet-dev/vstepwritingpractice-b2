@@ -218627,8 +218627,1237 @@ const ESSAY_DATA = [
         "title_en": "Smoking in public places: ban or allow?",
         "title_vi": "Hút thuốc nơi công cộng: nên cấm hay cho phép?",
         "context": "Smoking in public places remains a controversial issue in many countries. While smoking is a personal choice, it can also affect people nearby through exposure to second-hand smoke. As governments and communities seek to improve public health, different opinions have emerged regarding whether smoking should be permitted in public areas. Some people believe that smoking should be banned in public places to protect public health. Others argue that such restrictions limit personal freedom and may negatively affect certain businesses.",
-        "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "prompt": "Smoking in public places remains a controversial topic in modern society. Some people believe that smoking in public places should be banned, while others argue that it should be allowed. Discuss both views and give your own opinion. Include reasons and relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "details": {
+          "vocab": [
+            {
+              "en": "ban smoking in public places",
+              "vi": "cấm hút thuốc ở nơi công cộng"
+            },
+            {
+              "en": "protect people's health",
+              "vi": "bảo vệ sức khỏe mọi người"
+            },
+            {
+              "en": "keep public spaces cleaner",
+              "vi": "giữ cho không gian công cộng sạch sẽ hơn"
+            },
+            {
+              "en": "cigarette smoke",
+              "vi": "khói thuốc lá"
+            },
+            {
+              "en": "spread into the surrounding area",
+              "vi": "lan ra khu vực xung quanh"
+            },
+            {
+              "en": "non-smokers",
+              "vi": "người không hút thuốc"
+            },
+            {
+              "en": "breathe in cigarette smoke",
+              "vi": "hít phải khói thuốc lá"
+            },
+            {
+              "en": "even if they do not smoke",
+              "vi": "ngay cả khi họ không hút thuốc"
+            },
+            {
+              "en": "have a smoking habit",
+              "vi": "có thói quen hút thuốc"
+            },
+            {
+              "en": "be exposed to cigarette smoke",
+              "vi": "tiếp xúc với khói thuốc"
+            },
+            {
+              "en": "for a long time",
+              "vi": "trong thời gian dài"
+            },
+            {
+              "en": "cause health problems",
+              "vi": "gây ra các vấn đề sức khỏe"
+            },
+            {
+              "en": "heart and lung diseases",
+              "vi": "bệnh tim và bệnh phổi"
+            },
+            {
+              "en": "elderly people",
+              "vi": "người cao tuổi"
+            },
+            {
+              "en": "breathing problems",
+              "vi": "vấn đề về hô hấp"
+            },
+            {
+              "en": "especially affected by",
+              "vi": "đặc biệt bị ảnh hưởng bởi"
+            },
+            {
+              "en": "cigarette ashes and filters",
+              "vi": "tàn thuốc và đầu lọc thuốc lá"
+            },
+            {
+              "en": "thrown on the ground",
+              "vi": "bị vứt xuống đất"
+            },
+            {
+              "en": "environmental pollution",
+              "vi": "ô nhiễm môi trường"
+            },
+            {
+              "en": "a smoking ban",
+              "vi": "lệnh cấm hút thuốc"
+            },
+            {
+              "en": "create safer and healthier public spaces",
+              "vi": "tạo ra không gian công cộng an toàn và lành mạnh hơn"
+            },
+            {
+              "en": "allow smoking in some public areas",
+              "vi": "cho phép hút thuốc ở một số khu vực công cộng"
+            },
+            {
+              "en": "respect personal freedom",
+              "vi": "tôn trọng quyền tự do cá nhân"
+            },
+            {
+              "en": "meet the needs of smokers",
+              "vi": "đáp ứng nhu cầu của người hút thuốc"
+            },
+            {
+              "en": "have the right to decide whether to smoke",
+              "vi": "có quyền tự quyết định việc hút thuốc"
+            },
+            {
+              "en": "personal choice",
+              "vi": "lựa chọn cá nhân"
+            },
+            {
+              "en": "help somebody relax",
+              "vi": "giúp ai thư giãn"
+            },
+            {
+              "en": "stressful working hours",
+              "vi": "những giờ làm việc căng thẳng"
+            },
+            {
+              "en": "a complete ban",
+              "vi": "lệnh cấm hoàn toàn"
+            },
+            {
+              "en": "personal freedom is not respected",
+              "vi": "quyền tự do cá nhân không được tôn trọng"
+            },
+            {
+              "en": "provide separate smoking areas",
+              "vi": "bố trí những khu vực hút thuốc riêng"
+            },
+            {
+              "en": "without affecting others",
+              "vi": "mà không làm ảnh hưởng đến người khác"
+            },
+            {
+              "en": "places with many children and elderly people",
+              "vi": "những nơi có nhiều trẻ em và người cao tuổi"
+            },
+            {
+              "en": "instead of banning smoking completely",
+              "vi": "thay vì cấm hút thuốc hoàn toàn"
+            },
+            {
+              "en": "manage smoking areas properly",
+              "vi": "quản lý các khu vực hút thuốc một cách hợp lý"
+            },
+            {
+              "en": "shared public spaces",
+              "vi": "những không gian công cộng chung"
+            },
+            {
+              "en": "protect public health while respecting personal choices",
+              "vi": "bảo vệ sức khỏe cộng đồng đồng thời tôn trọng lựa chọn cá nhân"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1: NÊN CẤM HÚT THUỐC Ở NƠI CÔNG CỘNG (VIEW 01: SMOKING SHOULD BE BANNED)",
+                "point_vi": "Cấm hút thuốc ở nơi công cộng là cần thiết để bảo vệ sức khỏe của mọi người và giữ cho môi trường công cộng trong lành hơn.",
+                "point_en": "Banning smoking in public places is necessary to protect people's health and keep public spaces cleaner.",
+                "point_collocations": [
+                  {
+                    "en": "ban smoking in public places",
+                    "vi": "cấm hút thuốc ở nơi công cộng"
+                  },
+                  {
+                    "en": "protect people's health",
+                    "vi": "bảo vệ sức khỏe mọi người"
+                  },
+                  {
+                    "en": "keep public spaces cleaner",
+                    "vi": "giữ cho không gian công cộng sạch sẽ hơn"
+                  }
+                ],
+                "evidence_vi": "Khói thuốc có thể lan ra xung quanh và ảnh hưởng đến những người không hút thuốc. Những người này có thể vô tình hít phải khói thuốc ngay cả khi họ không có thói quen hút thuốc. Việc tiếp xúc với khói thuốc trong thời gian dài có thể gây ra các vấn đề sức khỏe như bệnh tim và bệnh phổi. Trẻ em, người cao tuổi và những người có vấn đề về hô hấp đặc biệt dễ bị ảnh hưởng bởi khói thuốc. Bên cạnh đó, tàn thuốc và đầu lọc thuốc lá có thể bị vứt bừa bãi, gây ô nhiễm môi trường.",
+                "evidence_en": "Cigarette smoke can spread into the surrounding area and affect non-smokers. These people may breathe in cigarette smoke even if they do not smoke. Being exposed to cigarette smoke for a long time can cause health problems such as heart and lung diseases. Children, elderly people and those with breathing problems are especially affected by cigarette smoke. In addition, cigarette ashes and filters may be thrown on the ground, causing environmental pollution.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cigarette smoke can spread",
+                      "vi": "khói thuốc lá có thể lan ra"
+                    },
+                    {
+                      "en": "surrounding area",
+                      "vi": "khu vực xung quanh"
+                    },
+                    {
+                      "en": "affect non-smokers",
+                      "vi": "ảnh hưởng đến người không hút thuốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "breathe in cigarette smoke",
+                      "vi": "hít phải khói thuốc lá"
+                    },
+                    {
+                      "en": "even if they do not smoke",
+                      "vi": "ngay cả khi họ không hút thuốc"
+                    },
+                    {
+                      "en": "smoking habit",
+                      "vi": "thói quen hút thuốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "exposed to cigarette smoke",
+                      "vi": "tiếp xúc với khói thuốc"
+                    },
+                    {
+                      "en": "for a long time",
+                      "vi": "trong thời gian dài"
+                    },
+                    {
+                      "en": "heart and lung diseases",
+                      "vi": "bệnh tim và bệnh phổi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "children and elderly people",
+                      "vi": "trẻ em và người cao tuổi"
+                    },
+                    {
+                      "en": "breathing problems",
+                      "vi": "các vấn đề về hô hấp"
+                    },
+                    {
+                      "en": "especially affected by",
+                      "vi": "đặc biệt bị ảnh hưởng bởi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cigarette ashes and filters",
+                      "vi": "tàn thuốc và đầu lọc thuốc lá"
+                    },
+                    {
+                      "en": "thrown on the ground",
+                      "vi": "bị vứt bừa bãi xuống đất"
+                    },
+                    {
+                      "en": "causing environmental pollution",
+                      "vi": "gây ô nhiễm môi trường"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2: NÊN CHO PHÉP HÚT THUỐC CÓ QUẢN LÝ (VIEW 02: SMOKING SHOULD BE ALLOWED)",
+                "point_vi": "Cho phép hút thuốc ở một số khu vực công cộng có thể giúp tôn trọng quyền tự do cá nhân và đáp ứng nhu cầu của người hút thuốc.",
+                "point_en": "Allowing smoking in some public areas can respect personal freedom and meet the needs of smokers.",
+                "point_collocations": [
+                  {
+                    "en": "allowing smoking in some public areas",
+                    "vi": "cho phép hút thuốc ở một số khu vực công cộng"
+                  },
+                  {
+                    "en": "respect personal freedom",
+                    "vi": "tôn trọng quyền tự do cá nhân"
+                  },
+                  {
+                    "en": "meet the needs of smokers",
+                    "vi": "đáp ứng nhu cầu của người hút thuốc"
+                  }
+                ],
+                "evidence_vi": "Người trưởng thành nên có quyền tự quyết định việc hút thuốc vì đó là lựa chọn cá nhân của họ. Một số người hút thuốc cho rằng hút thuốc giúp họ thư giãn sau những giờ làm việc căng thẳng. Việc cấm hoàn toàn có thể khiến những người hút thuốc cảm thấy quyền cá nhân của họ không được tôn trọng. Chính phủ có thể bố trí những khu vực hút thuốc riêng để người hút thuốc có thể sử dụng mà không làm ảnh hưởng đến người khác. Điều này cũng giúp người hút thuốc tránh hút thuốc ở những nơi có nhiều trẻ em và người cao tuổi.",
+                "evidence_en": "Adults should have the right to decide whether to smoke because it is their personal choice. Some smokers believe that smoking helps them relax after stressful working hours. A complete ban may make smokers feel that their personal freedom is not respected. The government can provide separate smoking areas so that smokers can use them without affecting others. This also helps smokers avoid smoking in places with many children and elderly people.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "have the right to decide",
+                      "vi": "có quyền tự quyết định"
+                    },
+                    {
+                      "en": "whether to smoke",
+                      "vi": "có hút thuốc hay không"
+                    },
+                    {
+                      "en": "personal choice",
+                      "vi": "lựa chọn cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "some smokers believe that",
+                      "vi": "một số người hút thuốc tin rằng"
+                    },
+                    {
+                      "en": "helps them relax",
+                      "vi": "giúp họ thư giãn"
+                    },
+                    {
+                      "en": "stressful working hours",
+                      "vi": "những giờ làm việc căng thẳng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "a complete ban",
+                      "vi": "lệnh cấm hoàn toàn"
+                    },
+                    {
+                      "en": "make smokers feel that",
+                      "vi": "khiến người hút thuốc cảm thấy rằng"
+                    },
+                    {
+                      "en": "personal freedom is not respected",
+                      "vi": "quyền tự do cá nhân không được tôn trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide separate smoking areas",
+                      "vi": "bố trí những khu vực hút thuốc riêng"
+                    },
+                    {
+                      "en": "without affecting others",
+                      "vi": "mà không làm ảnh hưởng đến người khác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "avoid smoking in places",
+                      "vi": "tránh hút thuốc ở những nơi"
+                    },
+                    {
+                      "en": "many children and elderly people",
+                      "vi": "nhiều trẻ em và người cao tuổi"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1: NÊN CẤM HÚT THUỐC Ở NƠI CÔNG CỘNG (VIEW 01: SMOKING SHOULD BE BANNED)",
+                "point_vi": "Cấm hút thuốc ở nơi công cộng là điều cấp thiết để bảo vệ sức khỏe của cộng đồng và giữ cho môi trường công cộng trong lành, sạch đẹp hơn.",
+                "point_en": "Banning smoking in public places is essential to protect people's health and keep shared public spaces cleaner.",
+                "point_collocations": [
+                  {
+                    "en": "banning smoking in public places",
+                    "vi": "cấm hút thuốc ở nơi công cộng"
+                  },
+                  {
+                    "en": "protect people's health",
+                    "vi": "bảo vệ sức khỏe người dân"
+                  },
+                  {
+                    "en": "keep shared public spaces cleaner",
+                    "vi": "giữ cho các không gian công cộng chung sạch sẽ hơn"
+                  }
+                ],
+                "evidence_vi": "Khói thuốc có thể lan ra xung quanh và ảnh hưởng đến những người không hút thuốc. Những người này có thể vô tình hít phải khói thuốc ngay cả khi họ không có thói quen hút thuốc. Việc tiếp xúc với khói thuốc trong thời gian dài có thể gây ra các vấn đề sức khỏe như bệnh tim và bệnh phổi. Trẻ em, người cao tuổi và những người có vấn đề về hô hấp đặc biệt dễ bị ảnh hưởng bởi khói thuốc. Bên cạnh đó, tàn thuốc và đầu lọc thuốc lá có thể bị vứt bừa bãi, gây ô nhiễm môi trường. Do đó, lệnh cấm hút thuốc có thể giúp tạo ra không gian công cộng an toàn và lành mạnh hơn cho tất cả mọi người.",
+                "evidence_en": "Cigarette smoke can easily spread into the surrounding area and adversely affect non-smokers. These bystanders may breathe in hazardous cigarette smoke even if they do not smoke. Being exposed to cigarette smoke for a long time can cause severe health problems such as cardiovascular and lung diseases. Children, elderly people and those with breathing problems are especially vulnerable to cigarette smoke. In addition, cigarette ashes and discarded filters may be thrown on the ground, causing environmental pollution and littering. Therefore, a smoking ban can help create safer and healthier public spaces for everyone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spread into surrounding areas",
+                      "vi": "lan tỏa vào khu vực xung quanh"
+                    },
+                    {
+                      "en": "adversely affect non-smokers",
+                      "vi": "tác động tiêu cực đến người không hút thuốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "breathe in hazardous smoke",
+                      "vi": "hít phải khói thuốc nguy hại"
+                    },
+                    {
+                      "en": "even if they do not smoke",
+                      "vi": "ngay cả khi họ không hề hút thuốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "exposed to cigarette smoke",
+                      "vi": "tiếp xúc với khói thuốc lá"
+                    },
+                    {
+                      "en": "for a long time",
+                      "vi": "trong một thời gian dài"
+                    },
+                    {
+                      "en": "cardiovascular and lung diseases",
+                      "vi": "các bệnh tim mạch và phổi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "children and elderly people",
+                      "vi": "trẻ nhỏ và người cao tuổi"
+                    },
+                    {
+                      "en": "breathing problems",
+                      "vi": "các vấn đề về đường hô hấp"
+                    },
+                    {
+                      "en": "especially vulnerable to",
+                      "vi": "đặc biệt dễ bị tổn thương trước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cigarette ashes and discarded filters",
+                      "vi": "tàn thuốc và đầu lọc thuốc lá bị vứt bỏ"
+                    },
+                    {
+                      "en": "thrown on the ground",
+                      "vi": "bị vứt bừa bãi trên mặt đất"
+                    },
+                    {
+                      "en": "environmental pollution and littering",
+                      "vi": "ô nhiễm môi trường và xả rác bừa bãi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "a comprehensive smoking ban",
+                      "vi": "lệnh cấm hút thuốc toàn diện"
+                    },
+                    {
+                      "en": "create safer and healthier public spaces",
+                      "vi": "tạo ra không gian công cộng an toàn và lành mạnh hơn"
+                    },
+                    {
+                      "en": "for everyone",
+                      "vi": "dành cho tất cả mọi người"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2: NÊN CHO PHÉP HÚT THUỐC CÓ QUẢN LÝ (VIEW 02: SMOKING SHOULD BE ALLOWED)",
+                "point_vi": "Cho phép hút thuốc ở một số khu vực công cộng có thể giúp tôn trọng quyền tự do cá nhân và đáp ứng nhu cầu của người hút thuốc một cách hợp lý.",
+                "point_en": "Allowing smoking in some regulated public areas can respect personal freedom and accommodate the needs of smokers.",
+                "point_collocations": [
+                  {
+                    "en": "allowing smoking in regulated public areas",
+                    "vi": "cho phép hút thuốc ở các khu vực công cộng được kiểm soát"
+                  },
+                  {
+                    "en": "respect personal freedom",
+                    "vi": "tôn trọng quyền tự do cá nhân"
+                  },
+                  {
+                    "en": "accommodate the needs of smokers",
+                    "vi": "đáp ứng nhu cầu của người hút thuốc"
+                  }
+                ],
+                "evidence_vi": "Người trưởng thành nên có quyền tự quyết định việc hút thuốc vì đó là lựa chọn cá nhân của họ. Một số người hút thuốc cho rằng hút thuốc giúp họ thư giãn sau những giờ làm việc căng thẳng. Việc cấm hoàn toàn có thể khiến những người hút thuốc cảm thấy quyền cá nhân của họ không được tôn trọng. Chính phủ có thể bố trí những khu vực hút thuốc riêng để người hút thuốc có thể sử dụng mà không làm ảnh hưởng đến người khác. Điều này cũng giúp người hút thuốc tránh hút thuốc ở những nơi có nhiều trẻ em và người cao tuổi. Vì vậy, thay vì cấm hoàn toàn, chính phủ nên quản lý các khu vực hút thuốc một cách hợp lý.",
+                "evidence_en": "Adults should have the autonomous right to decide whether to smoke because it is fundamentally their personal choice. Some smokers believe that smoking helps them relax after stressful and demanding working hours. A complete ban may make smokers feel that their personal freedom is not respected by authorities. The government can provide separate smoking areas so that smokers can use them without affecting others. This infrastructure also helps smokers avoid smoking in places with many children and elderly people. Therefore, instead of banning smoking completely, the government should manage smoking areas properly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "autonomous right to decide",
+                      "vi": "quyền tự chủ đưa ra quyết định"
+                    },
+                    {
+                      "en": "whether to smoke",
+                      "vi": "có hút thuốc hay không"
+                    },
+                    {
+                      "en": "fundamentally their personal choice",
+                      "vi": "về bản chất là lựa chọn cá nhân của họ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "helps them relax",
+                      "vi": "giúp họ thư giãn tinh thần"
+                    },
+                    {
+                      "en": "demanding working hours",
+                      "vi": "những giờ làm việc căng thẳng và đòi hỏi cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "a complete ban",
+                      "vi": "lệnh cấm hoàn toàn"
+                    },
+                    {
+                      "en": "personal freedom is not respected",
+                      "vi": "quyền tự do cá nhân không được tôn trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "provide separate smoking areas",
+                      "vi": "bố trí những khu vực hút thuốc riêng biệt"
+                    },
+                    {
+                      "en": "without affecting others",
+                      "vi": "mà không làm ảnh hưởng tiêu cực đến người khác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "avoid smoking in places",
+                      "vi": "tránh hút thuốc ở những địa điểm"
+                    },
+                    {
+                      "en": "frequented by children and elderly people",
+                      "vi": "nơi nhiều trẻ em và người cao tuổi thường lui tới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "instead of banning smoking completely",
+                      "vi": "thay vì cấm hút thuốc hoàn toàn"
+                    },
+                    {
+                      "en": "manage smoking areas properly",
+                      "vi": "quản lý các khu vực hút thuốc một cách bài bản, hợp lý"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>smoking in public places</strong> has become a subject of considerable debate. Some people believe that <strong><em>smoking in public places should be banned to protect public health</em></strong>, while others argue that <strong><em>it should be allowed to respect personal freedom</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that smoking in public places should be banned.</strong> The main reason is that <em>banning smoking in public places is necessary to protect people's health and keep public spaces cleaner.</em> First, cigarette smoke can spread into the surrounding area and affect non-smokers. These people may breathe in cigarette smoke even if they do not smoke. In addition, being exposed to cigarette smoke for a long time can cause health problems such as heart and lung diseases. In particular, children, elderly people and those with breathing problems are especially affected by cigarette smoke. Furthermore, cigarette ashes and filters may be thrown on the ground, causing environmental pollution.\n\n<strong>On the other hand, it is believed that smoking in public places should be allowed.</strong> This is because <em>allowing smoking in some public areas can respect personal freedom and meet the needs of smokers.</em> First of all, adults should have the right to decide whether to smoke because it is their personal choice. Some smokers believe that smoking helps them relax after stressful working hours. A complete ban may make smokers feel that their personal freedom is not respected. To solve this problem, the government can provide separate smoking areas so that smokers can use them without affecting others. This also helps smokers avoid smoking in places with many children and elderly people.\n\nIn conclusion, both views have valid arguments. However, <strong><em>I support banning smoking in shared public spaces, but the government can provide separate smoking areas.</em></strong> This approach protects public health while respecting personal choices.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc hút thuốc ở nơi công cộng</strong> đã trở thành một chủ đề gây nhiều tranh luận. Một số người tin rằng <strong><em>việc hút thuốc ở nơi công cộng nên bị cấm để bảo vệ sức khỏe cộng đồng</em></strong>, trong khi những người khác cho rằng <strong><em>hoạt động này nên được cho phép để tôn trọng quyền tự do cá nhân</em></strong>. <strong>Bài viết này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến cá nhân của tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng nên cấm hút thuốc ở nơi công cộng.</strong> Lý do chính là <em>việc cấm hút thuốc ở nơi công cộng là cần thiết để bảo vệ sức khỏe của mọi người và giữ cho không gian công cộng sạch sẽ hơn.</em> Trước hết, khói thuốc lá có thể lan ra khu vực xung quanh và ảnh hưởng đến những người không hút thuốc. Những người này có thể hít phải khói thuốc ngay cả khi họ không hút thuốc. Ngoài ra, việc tiếp xúc với khói thuốc trong thời gian dài có thể gây ra các vấn đề sức khỏe như bệnh tim và bệnh phổi. Đặc biệt, trẻ em, người cao tuổi và những người có vấn đề về hô hấp rất dễ bị ảnh hưởng bởi khói thuốc. Hơn nữa, tàn thuốc và đầu lọc thuốc lá có thể bị vứt xuống đất, gây ô nhiễm môi trường.\n\n<strong>Mặt khác, người ta tin rằng nên cho phép hút thuốc ở nơi công cộng.</strong> Điều này là do <em>việc cho phép hút thuốc ở một số khu vực công cộng có thể tôn trọng quyền tự do cá nhân và đáp ứng nhu cầu của người hút thuốc.</em> Trước hết, người lớn nên có quyền quyết định có hút thuốc hay không vì đó là lựa chọn cá nhân của họ. Một số người hút thuốc tin rằng hút thuốc giúp họ thư giãn sau những giờ làm việc căng thẳng. Lệnh cấm hoàn toàn có thể khiến người hút thuốc cảm thấy quyền tự do cá nhân của họ không được tôn trọng. Để giải quyết vấn đề này, chính phủ có thể bố trí các khu vực hút thuốc riêng để người hút thuốc có thể sử dụng mà không ảnh hưởng đến người khác. Điều này cũng giúp người hút thuốc tránh hút thuốc ở những nơi có nhiều trẻ em và người già.\n\nTóm lại, cả hai quan điểm đều có những lý lẽ xác đáng. Tuy nhiên, <strong><em>tôi ủng hộ việc cấm hút thuốc ở các không gian công cộng chung, nhưng chính phủ có thể bố trí các khu vực hút thuốc riêng biệt.</em></strong> Cách làm này vừa bảo vệ sức khỏe cộng đồng vừa tôn trọng quyền lựa chọn của cá nhân.",
+          "sample_b2": "In contemporary society, <strong>the question of whether smoking should be prohibited or permitted in public places</strong> has sparked intense public debate. While some individuals assert that <strong><em>smoking in public spaces should be completely banned to safeguard communal health and preserve environmental cleanliness</em></strong>, others contend that <strong><em>it should be allowed under reasonable regulations to uphold personal liberty</em></strong>. <strong>This essay will critically examine both viewpoints before presenting my own perspective.</strong>\n\n<strong>On the one hand, compelling arguments support an outright prohibition of smoking in public areas.</strong> Most notably, <em>banning smoking in public places is essential to protect public health and maintain cleaner shared environments.</em> Cigarette smoke readily disperses throughout surrounding areas, directly impacting innocent non-smokers. These bystanders inevitably inhale hazardous second-hand smoke despite having no smoking habit themselves. Medical research confirms that prolonged exposure to environmental tobacco smoke precipitates severe medical conditions, including cardiovascular disorders and chronic respiratory diseases. Highly vulnerable demographics, such as infants, senior citizens, and asthma sufferers, are disproportionately harmed by airborne toxic chemicals. In addition to grave health risks, discarded cigarette butts and ashes degrade urban aesthetics and cause severe environmental contamination. Therefore, enforcing a comprehensive smoking ban is indispensable for establishing safer and healthier public spaces for the entire community.\n\n<strong>On the other hand, proponents argue that smoking should be accommodated in designated public settings.</strong> Primarily, <em>allowing smoking in certain regulated zones respects individual autonomy and accommodates the practical needs of smokers.</em> Mature adults should possess the fundamental right to decide their lifestyle habits, as smoking remains a legal personal choice. Furthermore, many individuals rely on smoking as an accessible coping mechanism to relieve psychological tension after strenuous working hours. Imposing a blanket prohibition across all public domains may induce frustration and a sense that their civil rights are unjustly compromised. Rather than enforcing an absolute ban, authorities can establish designated, well-ventilated smoking kiosks, allowing smokers to indulge their habit without harming bystanders. This infrastructure also naturally steers smokers away from crowded venues frequented by children and elderly citizens. Therefore, instead of banning smoking completely, governments should manage designated smoking areas in a rational and balanced manner.\n\nIn conclusion, while both perspectives present justifiable rationales, <strong><em>I firmly advocate for prohibiting smoking across shared public areas while accommodating designated smoking zones.</em></strong> This pragmatic compromise successfully safeguards community health while demonstrating due respect for personal liberty.",
+          "translation_b2": "Trong xã hội đương đại, <strong>câu hỏi liệu việc hút thuốc nên bị cấm hay được cho phép ở những nơi công cộng</strong> đã làm dấy lên những cuộc tranh luận công khai gay gắt. Trong khi một số cá nhân khẳng định rằng <strong><em>việc hút thuốc ở không gian công cộng nên bị cấm hoàn toàn để bảo vệ sức khỏe cộng đồng và giữ gìn sự trong sạch của môi trường</em></strong>, những người khác lại cho rằng <strong><em>hoạt động này nên được cho phép dưới các quy định hợp lý để tôn trọng quyền tự do cá nhân</em></strong>. <strong>Bài viết này sẽ phân tích kỹ lưỡng cả hai góc nhìn trước khi đưa ra quan điểm cá nhân của tôi.</strong>\n\n<strong>Một mặt, có những lập luận thuyết phục ủng hộ lệnh cấm triệt để hút thuốc ở các khu vực công cộng.</strong> Đáng chú ý nhất, <em>việc cấm hút thuốc ở nơi công cộng là điều thiết yếu để bảo vệ sức khỏe cộng đồng và duy trì các không gian chung sạch sẽ hơn.</em> Khói thuốc lá dễ dàng lan tỏa khắp các khu vực xung quanh, ảnh hưởng trực tiếp đến những người không hút thuốc vô can. Những người đứng gần này buộc phải hít vào khói thuốc nguy hại dù bản thân họ không có thói quen hút thuốc. Nghiên cứu y khoa khẳng định rằng việc tiếp xúc kéo dài với khói thuốc môi trường sẽ gây ra các bệnh lý nghiêm trọng, bao gồm rối loạn tim mạch và các bệnh hô hấp mãn tính. Các nhóm dân cư rất dễ bị tổn thương, chẳng hạn như trẻ sơ sinh, người cao tuổi và những người mắc bệnh hen suyễn, phải chịu tác hại nặng nề từ các hóa chất độc hại trong không khí. Ngoài những rủi ro sức khỏe nghiêm trọng, tàn thuốc và đầu lọc thuốc lá bị vứt bỏ làm suy giảm mỹ quan đô thị và gây ô nhiễm môi trường nghiêm trọng. Do đó, việc thực thi lệnh cấm hút thuốc toàn diện là điều không thể thiếu để tạo ra các không gian công cộng an toàn và lành mạnh hơn cho toàn thể cộng đồng.\n\n<strong>Mặt khác, những người ủng hộ cho rằng việc hút thuốc nên được đáp ứng tại các địa điểm công cộng được chỉ định.</strong> Trước hết, <em>cho phép hút thuốc ở một số khu vực được kiểm soát sẽ tôn trọng quyền tự chủ của cá nhân và đáp ứng nhu cầu thực tế của người hút thuốc.</em> Những người trưởng thành cần có quyền cơ bản để tự quyết định các thói quen lối sống của mình, bởi hút thuốc vẫn là một lựa chọn cá nhân hợp pháp. Hơn nữa, nhiều người dựa vào việc hút thuốc như một cơ chế giải tỏa dễ tiếp cận để xoa dịu căng thẳng tâm lý sau những giờ làm việc mệt mỏi. Việc áp đặt lệnh cấm triệt để trên toàn bộ các không gian công cộng có thể gây ra sự bực bội và cảm giác rằng các quyền công dân của họ đang bị xâm phạm một cách bất công. Thay vì thực thi lệnh cấm tuyệt đối, các nhà chức trách có thể thiết lập các buồng hút thuốc được chỉ định, thông gió tốt, cho phép người hút thuốc thực hiện thói quen của mình mà không làm tổn hại đến người xung quanh. Cơ sở hạ tầng này cũng tự nhiên hướng người hút thuốc tránh xa những địa điểm đông đúc mà trẻ em và người già thường lui tới. Vì vậy, thay vì cấm hút thuốc hoàn toàn, chính phủ nên quản lý các khu vực hút thuốc được chỉ định một cách hợp lý và cân bằng.\n\nTóm lại, mặc dù cả hai quan điểm đều đưa ra những lý lẽ chính đáng, <strong><em>tôi kiên quyết ủng hộ việc cấm hút thuốc trên khắp các không gian công cộng chung, đồng thời bố trí các khu vực hút thuốc riêng biệt.</em></strong> Sự thỏa hiệp thực tế này vừa bảo vệ thành công sức khỏe cộng đồng vừa thể hiện sự tôn trọng đúng mực đối với quyền tự do cá nhân.",
+          "key_vocab_notes": "📌 Ghi chú sư phạm khi triển khai bài viết:\n- Đề bài này phân định rất rõ nét giữa hai quan điểm: View 1 tập trung vào Bảo vệ sức khỏe cộng đồng & Giữ gìn môi trường (public health and environmental protection: khói thuốc thụ động, bệnh tật, tàn thuốc bừa bãi); còn View 2 tập trung vào Quyền tự do cá nhân & Bố trí khu vực riêng (personal freedom and designated smoking areas). Cần tránh để cả hai đoạn thân bài lặp lại cùng một luận cứ y tế.\n- Bậc B1: Giữ 5 luận cứ cốt lõi cho mỗi quan điểm, tập trung diễn đạt chuẩn ngữ pháp và liên từ rõ ràng (~265 từ).\n- Bậc B2: Triển khai trọn vẹn 6 luận cứ với từ vựng chuyên sâu: 'disperse throughout', 'involuntarily inhale', 'cardiovascular disorders', 'disproportionately harmed', 'individual autonomy', 'pragmatic compromise' (~330 từ).\n- Quan điểm cá nhân (Personal Opinion): Khuyến khích học viên lựa chọn giải pháp thỏa hiệp hài hòa (balanced/pragmatic compromise): ủng hộ cấm ở không gian công cộng chung nhưng đồng ý bố trí khu vực hút thuốc riêng để vừa bảo vệ sức khỏe vừa tôn trọng quyền lựa chọn cá nhân.",
+          "my_opinion": {
+            "vi": "Tôi ủng hộ việc cấm hút thuốc ở những khu vực công cộng chung, nhưng chính phủ có thể bố trí các khu vực hút thuốc riêng biệt. Cách làm này vừa bảo vệ sức khỏe cộng đồng vừa tôn trọng quyền lựa chọn cá nhân.",
+            "en": "I support banning smoking in shared public spaces, but the government can provide separate smoking areas. This approach protects public health while respecting personal choices."
+          },
+          "vocab_step": {
+            "theme": "Hút thuốc nơi công cộng: Nên cấm hay Cho phép? (Smoking in Public Places: Ban or Allow?)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề Dạng 04 \"Hút thuốc nơi công cộng: Nên cấm hay Cho phép?\", bao gồm 30 từ đơn cốt lõi kèm Họ từ (Word Family) và 44 cụm Collocations bám sát 100% hai quan điểm Đối lập và Góc nhìn cá nhân thỏa hiệp hài hòa.",
+            "single_words": [
+              {
+                "word": "ban",
+                "ipa": "/bæn/",
+                "pos": "verb/noun",
+                "level": "B1, B2",
+                "vi": "cấm, lệnh cấm chính thức",
+                "family": "banned (adj)",
+                "example_en": "Several European countries have banned smoking inside public buildings.",
+                "example_vi": "Nhiều quốc gia châu Âu đã cấm hút thuốc bên trong các tòa nhà công cộng."
+              },
+              {
+                "word": "prohibit",
+                "ipa": "/prəˈhɪb.ɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "nghiêm cấm bằng luật pháp",
+                "family": "prohibition (n), prohibitive (adj)",
+                "example_en": "Municipal laws prohibit smoking within ten meters of hospital entrances.",
+                "example_vi": "Luật đô thị nghiêm cấm hút thuốc trong phạm vi mười mét tính từ cổng bệnh viện."
+              },
+              {
+                "word": "permit",
+                "ipa": "/pəˈmɪt/",
+                "pos": "verb/noun",
+                "level": "B1, B2",
+                "vi": "cho phép, giấy phép",
+                "family": "permission (n), permissive (adj)",
+                "example_en": "Smoking is only permitted in designated open-air courtyards.",
+                "example_vi": "Hút thuốc chỉ được cho phép tại các khoảng sân lộ thiên được chỉ định."
+              },
+              {
+                "word": "litter",
+                "ipa": "/ˈlɪt.ər/",
+                "pos": "verb/noun",
+                "level": "B1, B2",
+                "vi": "xả rác bừa bãi, rác thải",
+                "family": "littered (adj)",
+                "example_en": "Careless smokers frequently litter streets with cigarette ends.",
+                "example_vi": "Những người hút thuốc thiếu ý thức thường xả đầu lọc thuốc lá bừa bãi ra đường phố."
+              },
+              {
+                "word": "filter",
+                "ipa": "/ˈfɪl.tər/",
+                "pos": "noun/verb",
+                "level": "B1, B2",
+                "vi": "đầu lọc thuốc lá, màng lọc",
+                "family": "filtration (n)",
+                "example_en": "Synthetic cigarette filters take years to decompose in nature.",
+                "example_vi": "Đầu lọc thuốc lá nhân tạo mất nhiều năm mới có thể phân hủy trong tự nhiên."
+              },
+              {
+                "word": "ash",
+                "ipa": "/æʃ/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "tàn thuốc, tro",
+                "family": "ashtray (n)",
+                "example_en": "Public benches are often stained by cigarette ashes.",
+                "example_vi": "Các băng ghế công cộng thường bị hoen ố bởi tàn thuốc lá."
+              },
+              {
+                "word": "cleanliness",
+                "ipa": "/ˈklen.li.nəs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự sạch sẽ, tình trạng vệ sinh",
+                "family": "clean (adj), cleanly (adv)",
+                "example_en": "Maintaining cleanliness in parks requires strict anti-littering rules.",
+                "example_vi": "Việc giữ gìn sự sạch sẽ trong công viên đòi hỏi các quy định chống xả rác nghiêm ngặt."
+              },
+              {
+                "word": "hygiene",
+                "ipa": "/ˈhaɪ.dʒiːn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "vệ sinh dịch tễ, vệ sinh môi trường",
+                "family": "hygienic (adj), hygienically (adv)",
+                "example_en": "Smoke-free zones contribute directly to urban public hygiene.",
+                "example_vi": "Các khu vực không khói thuốc đóng góp trực tiếp vào vệ sinh công cộng đô thị."
+              },
+              {
+                "word": "tolerance",
+                "ipa": "/ˈtɒl.ər.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự khoan dung, sự chấp nhận sự khác biệt",
+                "family": "tolerant (adj), tolerate (v)",
+                "example_en": "Public tolerance towards indoor smoking has sharply declined.",
+                "example_vi": "Sự chấp nhận của công chúng đối với việc hút thuốc trong nhà đã giảm mạnh."
+              },
+              {
+                "word": "recreation",
+                "ipa": "/ˌrek.riˈeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "hoạt động giải trí, nơi vui chơi",
+                "family": "recreational (adj)",
+                "example_en": "Families visit recreation centers to breathe clean, unpolluted air.",
+                "example_vi": "Các gia đình đến các trung tâm giải trí để hít thở không khí trong lành, không ô nhiễm."
+              },
+              {
+                "word": "inhalation",
+                "ipa": "/ˌɪn.həˈleɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự hít vào",
+                "family": "inhale (v), inhaler (n)",
+                "example_en": "Passive inhalation of tobacco smoke damages fragile lung tissues.",
+                "example_vi": "Việc hít khói thuốc lá thụ động gây tổn thương các mô phổi mỏng manh."
+              },
+              {
+                "word": "chronic",
+                "ipa": "/ˈkrɒn.ɪk/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "mãn tính, kinh niên",
+                "family": "chronically (adv)",
+                "example_en": "Second-hand smoke exacerbates chronic bronchitis in elderly citizens.",
+                "example_vi": "Khói thuốc thụ động làm trầm trọng thêm bệnh viêm phế quản mãn tính ở người già."
+              },
+              {
+                "word": "amenity",
+                "ipa": "/əˈmiː.nə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tiện ích công cộng, sự tiện nghi",
+                "family": "amenities (n pl)",
+                "example_en": "Clean air is a vital public amenity that every resident deserves.",
+                "example_vi": "Không khí sạch là một tiện ích công cộng quan trọng mà mọi cư dân đều xứng đáng được hưởng."
+              },
+              {
+                "word": "demarcate",
+                "ipa": "/ˈdiː.mɑː.keɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "phân định ranh giới rõ ràng",
+                "family": "demarcation (n)",
+                "example_en": "Authorities should demarcate clear smoking zones away from pedestrian paths.",
+                "example_vi": "Nhà chức trách nên phân định rõ ràng các khu vực hút thuốc cách xa lối đi bộ."
+              },
+              {
+                "word": "segregation",
+                "ipa": "/ˌseɡ.rɪˈɡeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự phân tách, sự cách ly không gian",
+                "family": "segregate (v)",
+                "example_en": "Spatial segregation of smokers shields the wider public from fumes.",
+                "example_vi": "Việc phân tách không gian đối với người hút thuốc giúp bảo vệ công chúng khỏi khói độc."
+              },
+              {
+                "word": "enforcement",
+                "ipa": "/ɪnˈfɔːs.mənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thực thi, sự cưỡng chế thi hành luật",
+                "family": "enforce (v), enforceable (adj)",
+                "example_en": "Rigorous legal enforcement is key to the success of smoking bans.",
+                "example_vi": "Sự thực thi luật pháp nghiêm minh là chìa khóa cho sự thành công của các lệnh cấm hút thuốc."
+              },
+              {
+                "word": "compliance",
+                "ipa": "/kəmˈplaɪ.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tuân thủ quy định",
+                "family": "comply (v), compliant (adj)",
+                "example_en": "Smokers demonstrate higher compliance when designated booths are available.",
+                "example_vi": "Người hút thuốc thể hiện sự tuân thủ cao hơn khi có sẵn các buồng hút thuốc được chỉ định."
+              },
+              {
+                "word": "degradation",
+                "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự xuống cấp, sự suy thoái môi trường",
+                "family": "degrade (v), degrading (adj)",
+                "example_en": "Discarded cigarette ends cause serious environmental degradation in parks.",
+                "example_vi": "Đầu lọc thuốc lá bị vứt bỏ gây suy thoái môi trường nghiêm trọng trong các công viên."
+              },
+              {
+                "word": "aesthetic",
+                "ipa": "/esˈθet.ɪk/",
+                "pos": "adjective/noun",
+                "level": "B2",
+                "vi": "thuộc về mỹ quan, tính thẩm mỹ",
+                "family": "aesthetically (adv)",
+                "example_en": "Scattered cigarette waste spoils the aesthetic appeal of tourist spots.",
+                "example_vi": "Rác thải thuốc lá rải rác làm hỏng mỹ quan của các điểm du lịch."
+              },
+              {
+                "word": "butt",
+                "ipa": "/bʌt/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "tàn thuốc, mẩu đầu lọc thuốc lá",
+                "family": "ashtray (n)",
+                "example_en": "Dropping cigarette butts on pavements is punishable by spot fines.",
+                "example_vi": "Vứt mẩu thuốc lá xuống vỉa hè có thể bị phạt tiền ngay tại chỗ."
+              },
+              {
+                "word": "non-smoker",
+                "ipa": "/ˌnɒnˈsməʊ.kər/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "người không hút thuốc",
+                "family": "non-smoking (adj)",
+                "example_en": "The majority of non-smokers favor smoke-free dining environments.",
+                "example_vi": "Đa số người không hút thuốc ủng hộ môi trường ăn uống không có khói thuốc."
+              },
+              {
+                "word": "sensory",
+                "ipa": "/ˈsen.sər.i/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về cảm quan, giác quan",
+                "family": "sense (n/v)",
+                "example_en": "The sensory unpleasantness of stale smoke deters patrons from outdoor cafés.",
+                "example_vi": "Cảm giác khó chịu về mặt cảm quan từ mùi khói cũ khiến khách hàng ngại ngồi quán cà phê ngoài trời."
+              },
+              {
+                "word": "disposal",
+                "ipa": "/dɪˈspəʊ.zəl/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "việc tiêu hủy, nơi vứt rác an toàn",
+                "family": "dispose (v), disposable (adj)",
+                "example_en": "Providing fireproof disposal bins reduces dangerous littering.",
+                "example_vi": "Bố trí các thùng tiêu hủy rác chống cháy giúp giảm tình trạng xả rác nguy hiểm."
+              },
+              {
+                "word": "designated",
+                "ipa": "/ˈdez.ɪɡ.neɪ.tɪd/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "được chỉ định, được phân bổ riêng",
+                "family": "designate (v)",
+                "example_en": "Smoking should be restricted to designated outdoor perimeters.",
+                "example_vi": "Hút thuốc nên được giới hạn trong các ranh giới ngoài trời được chỉ định."
+              },
+              {
+                "word": "unregulated",
+                "ipa": "/ʌnˈreɡ.jə.leɪ.tɪd/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "không được quản lý, thả nổi",
+                "family": "regulate (v), regulation (n)",
+                "example_en": "Unregulated smoking in public plazas inevitably harms vulnerable groups.",
+                "example_vi": "Hút thuốc không được quản lý tại các quảng trường công cộng chắc chắn gây hại cho người yếu thế."
+              },
+              {
+                "word": "respiratory",
+                "ipa": "/rɪˈspɪr.ə.tər.i/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về đường hô hấp",
+                "family": "respiration (n)",
+                "example_en": "Smoke exposure triggers severe respiratory distress among asthmatic children.",
+                "example_vi": "Tiếp xúc với khói thuốc gây ra cơn suy hô hấp nghiêm trọng ở trẻ em bị hen."
+              },
+              {
+                "word": "cardiovascular",
+                "ipa": "/ˌkɑː.di.əʊˈvæs.kjə.lər/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thuộc về tim mạch",
+                "family": "cardiology (n)",
+                "example_en": "Second-hand tobacco smoke is a proven risk factor for cardiovascular disease.",
+                "example_vi": "Khói thuốc lá thụ động là một yếu tố nguy cơ đã được chứng minh của bệnh tim mạch."
+              },
+              {
+                "word": "contamination",
+                "ipa": "/kənˌtæm.ɪˈneɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự ô nhiễm, sự làm bẩn",
+                "family": "contaminate (v), contaminant (n)",
+                "example_en": "Toxic chemicals from butts cause long-term soil and water contamination.",
+                "example_vi": "Hóa chất độc hại từ tàn thuốc lá gây ô nhiễm đất và nước lâu dài."
+              },
+              {
+                "word": "pragmatic",
+                "ipa": "/præɡˈmæt.ɪk/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "thực tế, mang tính thực tiễn cao",
+                "family": "pragmatically (adv)",
+                "example_en": "A pragmatic solution balances individual liberties with communal sanitation.",
+                "example_vi": "Một giải pháp thực tế sẽ cân bằng giữa các quyền tự do cá nhân và vệ sinh công cộng."
+              },
+              {
+                "word": "compromise",
+                "ipa": "/ˈkɒm.prə.maɪz/",
+                "pos": "noun/verb",
+                "level": "B2",
+                "vi": "sự thỏa hiệp, giải pháp dung hòa",
+                "family": "compromising (adj)",
+                "example_en": "Zoned smoking shelters represent a sensible compromise for cities.",
+                "example_vi": "Các khu vực hút thuốc có phân vùng đại diện cho một giải pháp thỏa hiệp hợp lý cho các thành phố."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "ban_arguments",
+                "name": "QUAN ĐIỂM 1: LÝ DO NÊN CẤM HÚT THUỐC (VIEW 01: BANNING SMOKING)",
+                "icon": "🚭",
+                "badge": "Phần Thân bài 1 (Body 1)",
+                "items": [
+                  {
+                    "en": "ban smoking in public places",
+                    "vi": "cấm hút thuốc ở những nơi công cộng",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Many metropolises ban smoking in public places to protect citizens.",
+                    "example_vi": "Nhiều đô thị cấm hút thuốc ở nơi công cộng để bảo vệ người dân."
+                  },
+                  {
+                    "en": "protect people's health",
+                    "vi": "bảo vệ sức khỏe của người dân",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Banning smoking is an effective measure to protect people's health.",
+                    "example_vi": "Cấm hút thuốc là biện pháp hiệu quả nhằm bảo vệ sức khỏe người dân."
+                  },
+                  {
+                    "en": "keep public spaces cleaner",
+                    "vi": "giữ cho không gian công cộng sạch sẽ hơn",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Anti-smoking policies help keep public spaces cleaner and fresher.",
+                    "example_vi": "Chính sách chống hút thuốc giúp giữ cho không gian công cộng sạch sẽ và trong lành hơn."
+                  },
+                  {
+                    "en": "spread into the surrounding area",
+                    "vi": "lan tỏa nhanh ra khu vực xung quanh",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Harmful fumes spread into the surrounding area, irritating innocent bystanders.",
+                    "example_vi": "Khói độc lan ra khu vực xung quanh, làm khó chịu những người vô can gần đó."
+                  },
+                  {
+                    "en": "breathe in cigarette smoke",
+                    "vi": "hít phải khói thuốc lá",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Pedestrians involuntarily breathe in cigarette smoke on crowded pavements.",
+                    "example_vi": "Người đi bộ vô tình hít phải khói thuốc lá trên vỉa hè đông đúc."
+                  },
+                  {
+                    "en": "exposed to cigarette smoke for a long time",
+                    "vi": "tiếp xúc với khói thuốc trong thời gian dài",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Being exposed to cigarette smoke for a long time impairs lung function.",
+                    "example_vi": "Tiếp xúc với khói thuốc trong thời gian dài làm suy giảm chức năng phổi."
+                  },
+                  {
+                    "en": "cause heart and lung diseases",
+                    "vi": "gây ra các căn bệnh tim mạch và phổi",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Inhaling second-hand smoke can cause heart and lung diseases.",
+                    "example_vi": "Hít khói thuốc thụ động có thể gây ra các bệnh về tim mạch và phổi."
+                  },
+                  {
+                    "en": "especially affected by cigarette smoke",
+                    "vi": "đặc biệt bị ảnh hưởng bởi khói thuốc lá",
+                    "type": "adj.phr",
+                    "level": "B1",
+                    "example_en": "Young toddlers and elderly people are especially affected by cigarette smoke.",
+                    "example_vi": "Trẻ nhỏ và người cao tuổi đặc biệt bị ảnh hưởng bởi khói thuốc lá."
+                  },
+                  {
+                    "en": "throw cigarette ashes and filters on the ground",
+                    "vi": "vứt tàn thuốc và đầu lọc bừa bãi xuống đất",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Irresponsible individuals throw cigarette ashes and filters on the ground.",
+                    "example_vi": "Những cá nhân vô trách nhiệm vứt tàn thuốc và đầu lọc bừa bãi xuống đất."
+                  },
+                  {
+                    "en": "cause severe environmental pollution",
+                    "vi": "gây ra tình trạng ô nhiễm môi trường nghiêm trọng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Discarded filters take decades to degrade, causing severe environmental pollution.",
+                    "example_vi": "Đầu lọc thuốc lá vứt bỏ mất hàng thập kỷ để phân hủy, gây ô nhiễm môi trường nghiêm trọng."
+                  },
+                  {
+                    "en": "create safer and healthier public spaces",
+                    "vi": "tạo dựng các không gian công cộng an toàn và lành mạnh hơn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Strict restrictions create safer and healthier public spaces for all families.",
+                    "example_vi": "Các quy định nghiêm ngặt tạo dựng không gian công cộng an toàn và lành mạnh hơn cho mọi gia đình."
+                  }
+                ]
+              },
+              {
+                "id": "allow_arguments",
+                "name": "QUAN ĐIỂM 2: LÝ DO NÊN CHO PHÉP CÓ QUẢN LÝ (VIEW 02: ALLOWING WITH REGULATION)",
+                "icon": "🚬",
+                "badge": "Phần Thân bài 2 (Body 2)",
+                "items": [
+                  {
+                    "en": "allow smoking in some public areas",
+                    "vi": "cho phép hút thuốc ở một số khu vực công cộng",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Certain municipalities allow smoking in some public areas under supervision.",
+                    "example_vi": "Một số chính quyền thành phố cho phép hút thuốc ở một vài khu vực công cộng có kiểm soát."
+                  },
+                  {
+                    "en": "respect personal freedom",
+                    "vi": "tôn trọng quyền tự do cá nhân",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Sensible public policies respect personal freedom without harming non-smokers.",
+                    "example_vi": "Chính sách công hợp lý sẽ tôn trọng quyền tự do cá nhân mà không gây hại cho người không hút."
+                  },
+                  {
+                    "en": "meet the needs of smokers",
+                    "vi": "đáp ứng nhu cầu của người hút thuốc",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Designated kiosks meet the needs of smokers in urban environments.",
+                    "example_vi": "Các ki-ốt chuyên dụng đáp ứng nhu cầu của người hút thuốc trong môi trường đô thị."
+                  },
+                  {
+                    "en": "have the right to decide whether to smoke",
+                    "vi": "có quyền tự quyết định có hút thuốc hay không",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Adults have the right to decide whether to smoke as a legal choice.",
+                    "example_vi": "Người lớn có quyền tự quyết định có hút thuốc hay không như một lựa chọn hợp pháp."
+                  },
+                  {
+                    "en": "fundamentally a personal choice",
+                    "vi": "về bản chất là một lựa chọn mang tính cá nhân",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Consuming tobacco is fundamentally a personal choice for adult citizens.",
+                    "example_vi": "Sử dụng thuốc lá về cơ bản là lựa chọn cá nhân của công dân trưởng thành."
+                  },
+                  {
+                    "en": "help them relax after stressful working hours",
+                    "vi": "giúp họ thư giãn sau những giờ làm việc căng thẳng",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Workers claim that a brief smoke helps them relax after stressful working hours.",
+                    "example_vi": "Người lao động cho rằng một điếu thuốc ngắn giúp họ thư giãn sau giờ làm việc căng thẳng."
+                  },
+                  {
+                    "en": "feel that personal freedom is not respected",
+                    "vi": "cảm thấy quyền tự do cá nhân không được tôn trọng",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "An absolute ban may make citizens feel that personal freedom is not respected.",
+                    "example_vi": "Lệnh cấm tuyệt đối có thể khiến người dân cảm thấy quyền tự do không được tôn trọng."
+                  },
+                  {
+                    "en": "provide separate smoking areas",
+                    "vi": "bố trí những khu vực hút thuốc riêng biệt",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Modern railway stations provide separate smoking areas with air purifiers.",
+                    "example_vi": "Các nhà ga hiện đại bố trí khu vực hút thuốc riêng biệt có máy lọc không khí."
+                  },
+                  {
+                    "en": "without affecting others nearby",
+                    "vi": "mà không làm ảnh hưởng đến những người xung quanh",
+                    "type": "adv.phr",
+                    "level": "B1",
+                    "example_en": "Enclosed booths permit smoking without affecting others nearby.",
+                    "example_vi": "Các buồng kín cho phép hút thuốc mà không gây ảnh hưởng đến những người xung quanh."
+                  },
+                  {
+                    "en": "avoid smoking in places frequented by children",
+                    "vi": "tránh hút thuốc ở những nơi trẻ em thường xuyên lui tới",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Clear zoning helps smokers avoid smoking in places frequented by children.",
+                    "example_vi": "Phân vùng rõ ràng giúp người hút thuốc tránh hút ở những nơi trẻ em hay lui tới."
+                  },
+                  {
+                    "en": "manage smoking areas properly",
+                    "vi": "quản lý các khu vực hút thuốc một cách bài bản, đúng mực",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Instead of complete bans, governments should manage smoking areas properly.",
+                    "example_vi": "Thay vì cấm hoàn toàn, chính phủ nên quản lý các khu vực hút thuốc một cách bài bản."
+                  }
+                ]
+              },
+              {
+                "id": "environmental_and_zoning",
+                "name": "MÔI TRƯỜNG & KHU VỰC PHÂN VÙNG HỢP LÝ (ENVIRONMENT & ZONING)",
+                "icon": "🏙️",
+                "badge": "Góc nhìn cá nhân (Personal Opinion)",
+                "items": [
+                  {
+                    "en": "support banning smoking in shared public spaces",
+                    "vi": "ủng hộ việc cấm hút thuốc ở những không gian công cộng chung",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "I support banning smoking in shared public spaces such as parks and malls.",
+                    "example_vi": "Tôi ủng hộ việc cấm hút thuốc tại các không gian công cộng chung như công viên và trung tâm thương mại."
+                  },
+                  {
+                    "en": "protect public health while respecting personal choices",
+                    "vi": "bảo vệ sức khỏe cộng đồng đồng thời tôn trọng lựa chọn cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "A dual strategy protects public health while respecting personal choices.",
+                    "example_vi": "Chiến lược kép vừa bảo vệ sức khỏe cộng đồng vừa tôn trọng các lựa chọn cá nhân."
+                  },
+                  {
+                    "en": "equipped with dedicated smoke extractors",
+                    "vi": "được trang bị hệ thống hút khói chuyên dụng",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Smoking cabins must be equipped with dedicated smoke extractors.",
+                    "example_vi": "Các buồng hút thuốc phải được trang bị hệ thống hút khói chuyên dụng."
+                  },
+                  {
+                    "en": "eliminate hazardous littering",
+                    "vi": "loại bỏ tình trạng xả rác bừa bãi nguy hiểm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Supplying ashtrays at designated zones helps eliminate hazardous littering.",
+                    "example_vi": "Cung cấp gạt tàn tại các khu quy định giúp loại bỏ tình trạng vứt rác nguy hiểm."
+                  },
+                  {
+                    "en": "protect non-smokers from passive inhalation",
+                    "vi": "bảo vệ người không hút thuốc khỏi việc hít khói thụ động",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Strict indoor bans reliably protect non-smokers from passive inhalation.",
+                    "example_vi": "Các lệnh cấm trong nhà bảo vệ hiệu quả người không hút khỏi việc hít khói thụ động."
+                  },
+                  {
+                    "en": "spatial isolation of tobacco smoke",
+                    "vi": "sự cách ly không gian đối với khói thuốc lá",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Spatial isolation of tobacco smoke keeps common pedestrian paths clean.",
+                    "example_vi": "Việc cách ly không gian đối với khói thuốc giúp giữ cho các lối đi bộ chung luôn sạch sẽ."
+                  },
+                  {
+                    "en": "maintain pleasant urban aesthetics",
+                    "vi": "duy trì mỹ quan đô thị thoáng mát, dễ chịu",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Clean pavements free of cigarette butts maintain pleasant urban aesthetics.",
+                    "example_vi": "Những vỉa hè sạch sẽ không có tàn thuốc giúp duy trì mỹ quan đô thị dễ chịu."
+                  },
+                  {
+                    "en": "impose stringent fines for violations",
+                    "vi": "áp dụng mức phạt nghiêm khắc đối với các hành vi vi phạm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "City inspectors impose stringent fines for violations of smoke-free rules.",
+                    "example_vi": "Thanh tra đô thị áp dụng mức phạt nghiêm khắc đối với các vi phạm quy định không khói thuốc."
+                  },
+                  {
+                    "en": "accommodate adult preferences reasonably",
+                    "vi": "đáp ứng sở thích của người trưởng thành một cách hợp lý",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Well-designed public spaces accommodate adult preferences reasonably.",
+                    "example_vi": "Các không gian công cộng được quy hoạch tốt sẽ đáp ứng hợp lý sở thích của người lớn."
+                  },
+                  {
+                    "en": "promote communal well-being and civic order",
+                    "vi": "thúc đẩy phúc lợi cộng đồng và trật tự công dân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Thoughtful zoning promotes communal well-being and civic order.",
+                    "example_vi": "Quy hoạch phân vùng thấu đáo thúc đẩy phúc lợi cộng đồng và trật tự công dân."
+                  },
+                  {
+                    "en": "a sensible compromise between opposing views",
+                    "vi": "một sự thỏa hiệp hợp tình hợp lý giữa hai quan điểm đối lập",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Designated kiosks represent a sensible compromise between opposing views.",
+                    "example_vi": "Các ki-ốt chuyên dụng thể hiện một sự thỏa hiệp hợp lý giữa các quan điểm đối lập."
+                  }
+                ]
+              },
+              {
+                "id": "discussion_framing",
+                "name": "CẤU TRÚC TRANH LUẬN 2 QUAN ĐIỂM (DISCUSSION ESSAY FRAMING)",
+                "icon": "⚖️",
+                "badge": "Cấu trúc khung bài viết (Discourse)",
+                "items": [
+                  {
+                    "en": "whether smoking should be prohibited or permitted",
+                    "vi": "liệu việc hút thuốc nên bị cấm hay được cho phép",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "Citizens passionately debate whether smoking should be prohibited or permitted.",
+                    "example_vi": "Người dân tranh luận sôi nổi về việc liệu hút thuốc nên bị cấm hay được cho phép."
+                  },
+                  {
+                    "en": "on the one hand, compelling arguments support an outright prohibition",
+                    "vi": "một mặt, có những lập luận thuyết phục ủng hộ lệnh cấm triệt để (mở Body 1)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "On the one hand, compelling arguments support an outright prohibition in crowded zones.",
+                    "example_vi": "Một mặt, các lập luận xác đáng ủng hộ lệnh cấm triệt để tại các khu vực đông người."
+                  },
+                  {
+                    "en": "on the other hand, proponents argue that smoking should be accommodated",
+                    "vi": "mặt khác, những người ủng hộ cho rằng việc hút thuốc nên được đáp ứng (mở Body 2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "On the other hand, proponents argue that smoking should be accommodated in designated spots.",
+                    "example_vi": "Mặt khác, những người ủng hộ cho rằng việc hút thuốc nên được bố trí tại những điểm riêng."
+                  },
+                  {
+                    "en": "this essay will critically examine both viewpoints before presenting",
+                    "vi": "bài viết này sẽ xem xét kỹ lưỡng cả hai góc nhìn trước khi đưa ra",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "This essay will critically examine both viewpoints before presenting a balanced stance.",
+                    "example_vi": "Bài viết này sẽ phân tích cả hai góc nhìn trước khi đưa ra lập trường cân bằng."
+                  },
+                  {
+                    "en": "while both perspectives present justifiable rationales",
+                    "vi": "trong khi cả hai góc nhìn đều đưa ra những lý lẽ có thể hiểu được",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "While both perspectives present justifiable rationales, public welfare remains paramount.",
+                    "example_vi": "Trong khi cả hai luồng ý kiến đều có lý lẽ chính đáng, phúc lợi công cộng vẫn là trên hết."
+                  },
+                  {
+                    "en": "I firmly advocate for prohibiting smoking across shared public areas",
+                    "vi": "tôi kiên quyết ủng hộ việc cấm hút thuốc ở khắp các không gian công cộng chung",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "I firmly advocate for prohibiting smoking across shared public areas while allowing booths.",
+                    "example_vi": "Tôi kiên quyết ủng hộ việc cấm hút thuốc ở không gian chung trong khi cho phép các buồng riêng."
+                  },
+                  {
+                    "en": "this pragmatic compromise successfully safeguards community health",
+                    "vi": "sự thỏa hiệp thực tế này bảo vệ thành công sức khỏe cộng đồng",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "This pragmatic compromise successfully safeguards community health without total alienation.",
+                    "example_vi": "Sự thỏa hiệp thực tế này bảo vệ thành công sức khỏe cộng đồng mà không gây cô lập hoàn toàn."
+                  },
+                  {
+                    "en": "from an environmental and health perspective",
+                    "vi": "từ góc độ môi trường và sức khỏe",
+                    "type": "adv.phr",
+                    "level": "B2",
+                    "example_en": "From an environmental and health perspective, passive smoke and litter must be curbed.",
+                    "example_vi": "Xét từ góc độ môi trường và sức khỏe, khói thuốc thụ động và rác thải phải được kiềm chế."
+                  },
+                  {
+                    "en": "it is imperative to strike a rational equilibrium",
+                    "vi": "điều cấp thiết là phải đạt được sự cân bằng hợp lý",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "It is imperative to strike a rational equilibrium between liberty and sanitation.",
+                    "example_vi": "Điều cấp thiết là phải đạt được trạng thái cân bằng hợp lý giữa tự do và vệ sinh."
+                  },
+                  {
+                    "en": "in conclusion, both sides hold valid arguments",
+                    "vi": "tóm lại, cả hai bên đều nắm giữ những lập luận xác đáng",
+                    "type": "clause",
+                    "level": "B1",
+                    "example_en": "In conclusion, both sides hold valid arguments regarding public smoking.",
+                    "example_vi": "Tóm lại, cả hai bên đều có những lập luận xác đáng về việc hút thuốc nơi công cộng."
+                  },
+                  {
+                    "en": "uphold personal liberty without compromising hygiene",
+                    "vi": "giữ vững quyền tự do cá nhân mà không làm tổn hại đến vệ sinh chung",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Zoning policies uphold personal liberty without compromising hygiene.",
+                    "example_vi": "Chính sách phân vùng bảo đảm quyền tự do cá nhân mà không tổn hại đến vệ sinh."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 13,
