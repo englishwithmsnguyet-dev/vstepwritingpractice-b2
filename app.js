@@ -424,7 +424,10 @@ function renderRecentActivity() {
     li.innerHTML = `
       <span class="item-title" title="${item.topicTitle}">${item.topicTitle}</span>
       <span class="item-meta">${item.wordCount} từ</span>
-      <span class="item-stat">${item.score} / 10</span>
+      <span class="item-stat" style="display: flex; flex-direction: column; align-items: flex-end; line-height: 1.25;">
+        <span style="font-weight: 700;">${item.score} / 10</span>
+        <span style="font-size: 0.72rem; color: #059669; font-weight: 600;">Quy đổi: ${((item.score * 7) / 10).toFixed(1)}/7.0</span>
+      </span>
     `;
     list.appendChild(li);
   });
@@ -5883,7 +5886,22 @@ function submitEssay() {
     else feedbackText = `Dưới chuẩn B1 (${words} từ). Cần viết dài hơn (tối thiểu 250 từ) và bổ sung cấu trúc, từ vựng nền tảng.`;
   }
   
+  const conv7 = ((finalScore * 7) / 10).toFixed(1);
+  const conv67 = ((finalScore * 2) / 3).toFixed(1);
+
   document.getElementById('estimated-score').innerText = finalScore.toFixed(1);
+  const elScale = document.getElementById('estimated-score-scale');
+  if (elScale) elScale.innerText = '/ 10 (Thang 10)';
+  
+  const elDisp10 = document.getElementById('score-display-10');
+  if (elDisp10) elDisp10.innerText = `${finalScore.toFixed(1)} / 10`;
+
+  const elDispConv = document.getElementById('score-display-converted');
+  if (elDispConv) elDispConv.innerText = `${conv7} / 7.0`;
+
+  const elDispRatio = document.getElementById('score-display-ratio');
+  if (elDispRatio) elDispRatio.innerText = `(Tỷ trọng 2/3 bài thi: ${conv67} / 6.7)`;
+
   document.getElementById('ws-feedback-general').innerText = feedbackText;
   
   const detailsList = document.getElementById('feedback-details-list');
@@ -6373,7 +6391,7 @@ function renderStep3VstepEvaluation(data) {
       <div class="score-radial-wrapper" style="position: relative; width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; background: radial-gradient(closest-side, var(--bg-secondary) 85%, transparent 86% 100%), conic-gradient(var(--accent-primary) ${score * 10}%, var(--panel-border) 0); border-radius: 50%;">
         <div style="text-align: center; position: relative; z-index: 2;">
           <div style="font-size: 2.25rem; font-weight: 800; font-family: var(--font-display); color: var(--accent-primary); line-height: 1;">${score.toFixed(1)}</div>
-          <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-top: 0.15rem;">Overall Band</div>
+          <div style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-top: 0.15rem;">Thang 10</div>
         </div>
       </div>
       
@@ -6381,6 +6399,20 @@ function renderStep3VstepEvaluation(data) {
         <div class="score-badge-level" style="display: inline-block; background: var(--accent-gradient); color: #fff; padding: 0.35rem 0.85rem; border-radius: 50px; font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; box-shadow: 0 4px 10px rgba(59, 130, 246, 0.25);">
           Kết quả ước lượng: Trình độ ${score >= 8.5 ? 'C1' : score >= 6.0 ? 'B2' : score >= 4.0 ? 'B1' : 'Dưới B1'}
         </div>
+        
+        <!-- Score conversion pill group -->
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.65rem; align-items: center;">
+          <span style="background: rgba(59, 130, 246, 0.12); color: var(--accent-primary); border: 1px solid rgba(59, 130, 246, 0.3); padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem;">
+            🎯 Thang điểm 10: ${score.toFixed(1)} / 10
+          </span>
+          <span style="background: rgba(16, 185, 129, 0.12); color: #059669; border: 1px solid rgba(16, 185, 129, 0.3); padding: 0.35rem 0.75rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem;">
+            📊 Quy đổi Task 2 (Thang 7.0): ${((score * 7) / 10).toFixed(1)} / 7.0
+          </span>
+          <span style="background: rgba(100, 116, 139, 0.1); color: #475569; border: 1px solid rgba(100, 116, 139, 0.2); padding: 0.35rem 0.65rem; border-radius: 6px; font-weight: 600; font-size: 0.82rem;">
+            (Tỷ trọng 2/3 bài thi: ${((score * 2) / 3).toFixed(1)} / 6.7)
+          </span>
+        </div>
+
         <p style="font-size: 1.05rem; font-weight: 600; line-height: 1.5; color: var(--text-primary); margin: 0;">${feedback}</p>
         <div style="display: flex; gap: 1rem; margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
           <span>⏱️ Độ dài: <strong>${wordCount} từ</strong></span>
@@ -7273,7 +7305,7 @@ function downloadStudentEssay(format = 'doc') {
     docHtml += `
       <div class="section-heading">3. KẾT QUẢ ĐÁNH GIÁ & CHẤM ĐIỂM CHI TIẾT</div>
       <div class="score-box">
-        <p style="margin: 0 0 6pt 0; font-size: 13pt;"><strong>Điểm tổng ước tính:</strong> <span style="font-size: 16pt; color: #15803d; font-weight: bold;">${currentEvaluationData.score}/10.0</span> - Trình độ: <strong>${cefr}</strong></p>
+        <p style="margin: 0 0 6pt 0; font-size: 13pt;"><strong>Điểm tổng ước tính (Thang 10):</strong> <span style="font-size: 16pt; color: #15803d; font-weight: bold;">${currentEvaluationData.score}/10.0</span> • <strong>Quy đổi Task 2 (Thang 7.0):</strong> <span style="font-size: 14pt; color: #0284c7; font-weight: bold;">${((currentEvaluationData.score * 7) / 10).toFixed(1)}/7.0</span> <span style="font-size: 10pt; color: #64748b;">(tỷ trọng 2/3 bài thi: ${((currentEvaluationData.score * 2) / 3).toFixed(1)}/6.7)</span> - Trình độ: <strong>${cefr}</strong></p>
         <table class="score-table">
           <tr>
             <th>Tiêu chí chấm VSTEP</th>
@@ -7443,7 +7475,10 @@ function renderHistory() {
       <td>${item.catTitleVi}</td>
       <td style="font-weight: 500;">${item.topicId}. ${item.topicTitle}</td>
       <td>${item.wordCount} từ</td>
-      <td><strong style="color: var(--accent-primary); font-size: 1.05rem;">${item.score.toFixed(1)}</strong> / 10</td>
+      <td>
+        <strong style="color: var(--accent-primary); font-size: 1.05rem;">${item.score.toFixed(1)}</strong> / 10
+        <div style="font-size: 0.72rem; color: #059669; font-weight: 600;">(Quy đổi: ${((item.score * 7) / 10).toFixed(1)}/7.0)</div>
+      </td>
       <td>
         <button class="history-action-btn" onclick="reviewSubmission(${item.id})">Xem lại & So sánh</button>
       </td>
