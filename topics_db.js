@@ -147269,8 +147269,3216 @@ const ESSAY_DATA = [
         "title_vi": "Xu hướng nhảy việc thường xuyên",
         "tags": "[Causes & Effects]",
         "context": "Job hopping, or changing jobs frequently, has become increasingly common among young professionals in many countries. Instead of staying with one employer for a long period of time, many employees choose to move from one job to another in search of better opportunities, higher salaries, improved working conditions, or greater career satisfaction. This trend has attracted considerable attention from employers, employees, and policymakers.",
+        "context_vi": "Hiện tượng nhảy việc, hay thay đổi công việc thường xuyên, đang ngày càng trở nên phổ biến ở giới trẻ và người lao động tại nhiều quốc gia. Thay vì gắn bó lâu dài với một cơ quan hay doanh nghiệp, nhiều nhân viên lựa chọn chuyển từ công việc này sang công việc khác nhằm tìm kiếm cơ hội tốt hơn, mức lương cao hơn, điều kiện làm việc cải thiện hoặc sự hài lòng nghề nghiệp lớn hơn. Xu hướng này đang thu hút sự quan tâm sâu sắc từ giới chủ, người lao động và các nhà hoạch định chính sách.",
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of job hopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "prompt_vi": "Hãy viết một bài luận gửi tới một độc giả có học thức để thảo luận về các nguyên nhân và ảnh hưởng của xu hướng nhảy việc thường xuyên. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Đáp ứng yêu cầu đề bài, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "original": "job hopping / changing jobs frequently",
+            "rewrites": [
+              {
+                "en": "frequent job changing among young professionals",
+                "vi": "việc thay đổi công việc thường xuyên trong giới lao động trẻ"
+              },
+              {
+                "en": "switching employers on a regular basis",
+                "vi": "chuyển đổi nơi làm việc một cách thường xuyên"
+              },
+              {
+                "en": "moving rapidly from one position to another",
+                "vi": "di chuyển nhanh chóng từ vị trí này sang vị trí khác"
+              }
+            ]
+          },
+          {
+            "original": "causes and effects",
+            "rewrites": [
+              {
+                "en": "underlying factors and potential consequences",
+                "vi": "những nguyên nhân sâu xa và các hậu quả tiềm tàng"
+              },
+              {
+                "en": "driving reasons behind this trend and its widespread impacts",
+                "vi": "những nguyên do thúc đẩy xu hướng này cùng các tác động sâu rộng"
+              },
+              {
+                "en": "motivating forces and subsequent repercussions on workers and firms",
+                "vi": "những động lực thúc đẩy và hệ lụy kéo theo đối với người lao động và doanh nghiệp"
+              }
+            ]
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "causes": [
+              {
+                "title": "NGUYÊN NHÂN 01: TÌM KIẾM MỨC LƯƠNG CAO HƠN (SEEKING HIGHER SALARIES)",
+                "point_vi": "Nhiều người thường chuyển việc vì muốn có mức lương tốt hơn để cải thiện tình hình tài chính cá nhân.",
+                "point_en": "Many people change jobs because they want higher salaries to improve their financial situation.",
+                "point_collocations": [
+                  {
+                    "en": "change jobs",
+                    "vi": "chuyển việc"
+                  },
+                  {
+                    "en": "higher salaries",
+                    "vi": "mức lương cao hơn"
+                  },
+                  {
+                    "en": "improve one's financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  }
+                ],
+                "evidence_vi": "Các công ty khác sẵn sàng trả lương cao hơn cho người có kinh nghiệm, giúp họ kiếm được nhiều tiền hơn để trang trải chi phí sinh hoạt.",
+                "evidence_en": "Other companies are willing to offer higher salaries to experienced workers, helping them earn more money to cover their living expenses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "offer higher salaries",
+                      "vi": "trả mức lương cao hơn"
+                    },
+                    {
+                      "en": "earn more money",
+                      "vi": "kiếm được nhiều tiền hơn"
+                    },
+                    {
+                      "en": "cover living expenses",
+                      "vi": "trang trải chi phí sinh hoạt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "offer higher salaries",
+                    "vi": "trả mức lương cao hơn"
+                  },
+                  {
+                    "en": "earn more money",
+                    "vi": "kiếm được nhiều tiền hơn"
+                  },
+                  {
+                    "en": "cover living expenses",
+                    "vi": "trang trải chi phí sinh hoạt"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: TÌM KIẾM ĐIỀU KIỆN LÀM VIỆC TỐT HƠN (LOOKING FOR BETTER WORKING CONDITIONS)",
+                "point_vi": "Một số nhân viên quyết định nghỉ việc vì không hài lòng với môi trường và điều kiện làm việc hiện tại.",
+                "point_en": "Some employees decide to leave their jobs because they are unhappy with their current working conditions.",
+                "point_collocations": [
+                  {
+                    "en": "working conditions",
+                    "vi": "điều kiện làm việc"
+                  },
+                  {
+                    "en": "leave their jobs",
+                    "vi": "nghỉ việc"
+                  }
+                ],
+                "evidence_vi": "Họ thường phải làm việc nhiều giờ dưới áp lực lớn, vì vậy họ muốn tìm những công việc có thời gian linh hoạt và môi trường thoải mái hơn.",
+                "evidence_en": "They often work long hours under high pressure, so they tend to look for jobs with flexible hours and a more comfortable working environment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work long hours",
+                      "vi": "làm việc nhiều giờ"
+                    },
+                    {
+                      "en": "deal with high pressure",
+                      "vi": "đối mặt với áp lực lớn"
+                    },
+                    {
+                      "en": "flexible working hours",
+                      "vi": "giờ làm việc linh hoạt"
+                    },
+                    {
+                      "en": "working environment",
+                      "vi": "môi trường làm việc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work long hours",
+                    "vi": "làm việc nhiều giờ"
+                  },
+                  {
+                    "en": "deal with high pressure",
+                    "vi": "đối mặt với áp lực lớn"
+                  },
+                  {
+                    "en": "flexible working hours",
+                    "vi": "giờ làm việc linh hoạt"
+                  },
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: TÌM KIẾM CƠ HỘI PHÁT TRIỂN NGHỀ NGHIỆP TỐT HƠN (SEEKING BETTER CAREER OPPORTUNITIES)",
+                "point_vi": "Mong muốn phát triển sự nghiệp cũng là một lý do khiến nhiều người trẻ thường xuyên thay đổi công việc.",
+                "point_en": "The desire for career development is another reason why many young people change jobs frequently.",
+                "point_collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "change jobs frequently",
+                    "vi": "thường xuyên thay đổi công việc"
+                  }
+                ],
+                "evidence_vi": "Họ chuyển sang những vị trí mới để học hỏi kiến thức mới, tích lũy kinh nghiệm và có cơ hội thăng tiến tốt hơn.",
+                "evidence_en": "They move to new positions to gain new knowledge, develop new skills and have better chances of promotion in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "gain new knowledge",
+                      "vi": "tiếp thu kiến thức mới"
+                    },
+                    {
+                      "en": "develop new skills",
+                      "vi": "phát triển kỹ năng mới"
+                    },
+                    {
+                      "en": "chances of promotion",
+                      "vi": "cơ hội thăng tiến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "gain new knowledge",
+                    "vi": "tiếp thu kiến thức mới"
+                  },
+                  {
+                    "en": "develop new skills",
+                    "vi": "phát triển kỹ năng mới"
+                  },
+                  {
+                    "en": "chances of promotion",
+                    "vi": "cơ hội thăng tiến"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: KHÔNG HÀI LÒNG VỚI CÔNG VIỆC HIỆN TẠI (EXPERIENCING JOB DISSATISFACTION)",
+                "point_vi": "Sự thiếu hài lòng với công việc hiện tại có thể khiến nhân viên muốn tìm kiếm một công việc khác phù hợp hơn.",
+                "point_en": "Being unhappy with their current jobs can encourage employees to look for more suitable positions.",
+                "point_collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "suitable positions",
+                    "vi": "vị trí phù hợp"
+                  }
+                ],
+                "evidence_vi": "Khi nhiệm vụ hằng ngày không phù hợp với sở thích và khả năng, họ muốn chuyển sang công việc mang lại nhiều niềm vui và sự hài lòng hơn.",
+                "evidence_en": "When their daily tasks do not match their interests and abilities, they want to move to jobs that bring them more happiness and satisfaction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily tasks",
+                      "vi": "nhiệm vụ hằng ngày"
+                    },
+                    {
+                      "en": "match one's interests and abilities",
+                      "vi": "phù hợp với sở thích và khả năng"
+                    },
+                    {
+                      "en": "job satisfaction",
+                      "vi": "sự hài lòng trong công việc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "daily tasks",
+                    "vi": "nhiệm vụ hằng ngày"
+                  },
+                  {
+                    "en": "match one's interests and abilities",
+                    "vi": "phù hợp với sở thích và khả năng"
+                  },
+                  {
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: TÌM KIẾM SỰ CÂN BẰNG TỐT HƠN GIỮA CÔNG VIỆC VÀ CUỘC SỐNG (SEEKING A BETTER WORK-LIFE BALANCE)",
+                "point_vi": "Mong muốn cân bằng giữa công việc và cuộc sống cá nhân cũng thúc đẩy nhiều người thay đổi công việc.",
+                "point_en": "The desire for a better work-life balance also encourages many people to change jobs.",
+                "point_collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "change jobs",
+                    "vi": "thay đổi công việc"
+                  }
+                ],
+                "evidence_vi": "Những người phải làm việc quá nhiều thường tìm kiếm những công việc có lịch trình linh hoạt hơn để có thời gian chăm sóc bản thân và gia đình.",
+                "evidence_en": "Employees who spend too much time working seek jobs with more flexible schedules so that they can take care of their families and personal activities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spend too much time working",
+                      "vi": "dành quá nhiều thời gian làm việc"
+                    },
+                    {
+                      "en": "flexible schedules",
+                      "vi": "lịch trình linh hoạt"
+                    },
+                    {
+                      "en": "take care of",
+                      "vi": "chăm sóc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "spend too much time working",
+                    "vi": "dành quá nhiều thời gian làm việc"
+                  },
+                  {
+                    "en": "flexible schedules",
+                    "vi": "lịch trình linh hoạt"
+                  },
+                  {
+                    "en": "take care of",
+                    "vi": "chăm sóc"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "title": "TÁC ĐỘNG 01: GÂY KHÓ KHĂN VỀ TÀI CHÍNH (CAUSING FINANCIAL DIFFICULTIES)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể gây ra những khó khăn về tài chính cho người lao động.",
+                "point_en": "Changing jobs frequently can cause financial difficulties for employees.",
+                "point_collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "changing jobs frequently",
+                    "vi": "thay đổi công việc thường xuyên"
+                  }
+                ],
+                "evidence_vi": "Họ có thể mất thu nhập trong thời gian tìm kiếm việc làm mới và phải chi trả thêm các khoản phí phát sinh cho việc đi lại hoặc đào tạo.",
+                "evidence_en": "They may lose their income while looking for new employment and have to pay extra costs for travelling or new training courses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lose one's income",
+                      "vi": "mất thu nhập"
+                    },
+                    {
+                      "en": "look for new employment",
+                      "vi": "tìm kiếm công việc mới"
+                    },
+                    {
+                      "en": "extra costs",
+                      "vi": "chi phí phát sinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "lose one's income",
+                    "vi": "mất thu nhập"
+                  },
+                  {
+                    "en": "look for new employment",
+                    "vi": "tìm kiếm công việc mới"
+                  },
+                  {
+                    "en": "extra costs",
+                    "vi": "chi phí phát sinh"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: LÀM GIẢM NĂNG SUẤT LÀM VIỆC (REDUCING WORK PRODUCTIVITY)",
+                "point_vi": "Việc chuyển việc liên tục có thể làm giảm năng suất làm việc của nhân viên và ảnh hưởng đến hoạt động của công ty.",
+                "point_en": "Changing jobs frequently can reduce employees' productivity and affect company operations.",
+                "point_collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "company operations",
+                    "vi": "hoạt động của công ty"
+                  }
+                ],
+                "evidence_vi": "Nhân viên mới cần thời gian để làm quen với quy trình làm việc, vì vậy họ có thể làm việc chậm hơn và dễ mắc lỗi hơn.",
+                "evidence_en": "New employees need time to get used to company procedures and working methods, so they may work more slowly and make more mistakes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "get used to",
+                      "vi": "làm quen với"
+                    },
+                    {
+                      "en": "working procedures",
+                      "vi": "quy trình làm việc"
+                    },
+                    {
+                      "en": "make mistakes",
+                      "vi": "mắc lỗi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "get used to",
+                    "vi": "làm quen với"
+                  },
+                  {
+                    "en": "working procedures",
+                    "vi": "quy trình làm việc"
+                  },
+                  {
+                    "en": "make mistakes",
+                    "vi": "mắc lỗi"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: GÂY KHÓ KHĂN CHO NHÀ TUYỂN DỤNG (CREATING DIFFICULTIES FOR EMPLOYERS)",
+                "point_vi": "Tình trạng nhân viên thường xuyên nghỉ việc có thể làm tăng chi phí và khối lượng công việc của các công ty.",
+                "point_en": "Frequent employee turnover can increase companies' costs and workload.",
+                "point_collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  }
+                ],
+                "evidence_vi": "Doanh nghiệp phải tốn nhiều tiền bạc để tuyển dụng và đào tạo nhân viên thay thế, trong khi những nhân viên còn lại phải chịu nhiều áp lực hơn.",
+                "evidence_en": "Companies have to spend time and money recruiting replacement employees, while remaining workers have to take on extra tasks under greater pressure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recruitment costs",
+                      "vi": "chi phí tuyển dụng"
+                    },
+                    {
+                      "en": "replacement employees",
+                      "vi": "nhân viên thay thế"
+                    },
+                    {
+                      "en": "take on extra tasks",
+                      "vi": "đảm nhận thêm nhiệm vụ"
+                    },
+                    {
+                      "en": "under greater pressure",
+                      "vi": "chịu áp lực lớn hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "replacement employees",
+                    "vi": "nhân viên thay thế"
+                  },
+                  {
+                    "en": "take on extra tasks",
+                    "vi": "đảm nhận thêm nhiệm vụ"
+                  },
+                  {
+                    "en": "under greater pressure",
+                    "vi": "chịu áp lực lớn hơn"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: LÀM ẢNH HƯỞNG ĐẾN CÁC MỐI QUAN HỆ TRONG CÔNG VIỆC (DAMAGING PROFESSIONAL RELATIONSHIPS)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể khiến người lao động khó xây dựng các mối quan hệ tốt đẹp với đồng nghiệp và cấp trên.",
+                "point_en": "Changing jobs frequently can make it difficult for employees to build good relationships with colleagues and managers.",
+                "point_collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "colleagues and managers",
+                    "vi": "đồng nghiệp và cấp trên"
+                  }
+                ],
+                "evidence_vi": "Việc liên tục phải xây dựng lòng tin từ đầu ở công ty mới có thể hạn chế cơ hội hợp tác lâu dài và làm giảm sự hỗ trợ từ đồng nghiệp.",
+                "evidence_en": "Having to meet new people and build trust from the beginning at a new company can limit long-term cooperation and make it harder to receive support.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "build trust",
+                      "vi": "xây dựng lòng tin"
+                    },
+                    {
+                      "en": "from the beginning",
+                      "vi": "từ đầu"
+                    },
+                    {
+                      "en": "long-term cooperation",
+                      "vi": "sự hợp tác lâu dài"
+                    },
+                    {
+                      "en": "receive support",
+                      "vi": "nhận được sự hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "build trust",
+                    "vi": "xây dựng lòng tin"
+                  },
+                  {
+                    "en": "from the beginning",
+                    "vi": "từ đầu"
+                  },
+                  {
+                    "en": "long-term cooperation",
+                    "vi": "sự hợp tác lâu dài"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: TẠO ẤN TƯỢNG TIÊU CỰC ĐỐI VỚI NHÀ TUYỂN DỤNG (CREATING A NEGATIVE IMPRESSION ON EMPLOYERS)",
+                "point_vi": "Việc thay đổi công việc quá thường xuyên có thể khiến nhà tuyển dụng có cái nhìn không tốt về ứng viên.",
+                "point_en": "Changing jobs too frequently can create a negative impression on employers.",
+                "point_collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "employers",
+                    "vi": "nhà tuyển dụng"
+                  }
+                ],
+                "evidence_vi": "Nhà tuyển dụng có thể nghĩ rằng ứng viên thiếu kiên nhẫn và không gắn bó lâu dài, khiến họ gặp bất lợi khi ứng tuyển vào các vị trí tốt.",
+                "evidence_en": "Employers may think that these candidates lack patience or commitment, putting them at a disadvantage when applying for good positions in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "candidates",
+                      "vi": "ứng viên"
+                    },
+                    {
+                      "en": "lack patience",
+                      "vi": "thiếu kiên nhẫn"
+                    },
+                    {
+                      "en": "be at a disadvantage",
+                      "vi": "gặp bất lợi"
+                    },
+                    {
+                      "en": "apply for a position",
+                      "vi": "ứng tuyển vào một vị trí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "candidates",
+                    "vi": "ứng viên"
+                  },
+                  {
+                    "en": "lack patience",
+                    "vi": "thiếu kiên nhẫn"
+                  },
+                  {
+                    "en": "be at a disadvantage",
+                    "vi": "gặp bất lợi"
+                  },
+                  {
+                    "en": "apply for a position",
+                    "vi": "ứng tuyển vào một vị trí"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: TÌM KIẾM MỨC LƯƠNG CAO HƠN (SEEKING HIGHER SALARIES)",
+                "point_vi": "Nhiều người thường chuyển việc vì muốn có mức lương tốt hơn để cải thiện tình hình tài chính cá nhân.",
+                "point_en": "Many people change jobs because they want higher salaries to improve their financial situation.",
+                "point_collocations": [
+                  {
+                    "en": "change jobs",
+                    "vi": "chuyển việc"
+                  },
+                  {
+                    "en": "higher salaries",
+                    "vi": "mức lương cao hơn"
+                  },
+                  {
+                    "en": "improve one's financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  }
+                ],
+                "evidence_vi": "Các công ty khác sẵn sàng trả lương cao hơn cho người có kinh nghiệm, giúp họ kiếm được nhiều tiền hơn để trang trải chi phí sinh hoạt.",
+                "evidence_en": "Other companies are willing to offer higher salaries to experienced workers, helping them earn more money to cover their living expenses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "offer higher salaries",
+                      "vi": "trả mức lương cao hơn"
+                    },
+                    {
+                      "en": "earn more money",
+                      "vi": "kiếm được nhiều tiền hơn"
+                    },
+                    {
+                      "en": "cover living expenses",
+                      "vi": "trang trải chi phí sinh hoạt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "offer higher salaries",
+                    "vi": "trả mức lương cao hơn"
+                  },
+                  {
+                    "en": "earn more money",
+                    "vi": "kiếm được nhiều tiền hơn"
+                  },
+                  {
+                    "en": "cover living expenses",
+                    "vi": "trang trải chi phí sinh hoạt"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: TÌM KIẾM ĐIỀU KIỆN LÀM VIỆC TỐT HƠN (LOOKING FOR BETTER WORKING CONDITIONS)",
+                "point_vi": "Một số nhân viên quyết định nghỉ việc vì không hài lòng với môi trường và điều kiện làm việc hiện tại.",
+                "point_en": "Some employees decide to leave their jobs because they are unhappy with their current working conditions.",
+                "point_collocations": [
+                  {
+                    "en": "working conditions",
+                    "vi": "điều kiện làm việc"
+                  },
+                  {
+                    "en": "leave their jobs",
+                    "vi": "nghỉ việc"
+                  }
+                ],
+                "evidence_vi": "Họ thường phải làm việc nhiều giờ dưới áp lực lớn, vì vậy họ muốn tìm những công việc có thời gian linh hoạt và môi trường thoải mái hơn.",
+                "evidence_en": "They often work long hours under high pressure, so they tend to look for jobs with flexible hours and a more comfortable working environment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work long hours",
+                      "vi": "làm việc nhiều giờ"
+                    },
+                    {
+                      "en": "deal with high pressure",
+                      "vi": "đối mặt với áp lực lớn"
+                    },
+                    {
+                      "en": "flexible working hours",
+                      "vi": "giờ làm việc linh hoạt"
+                    },
+                    {
+                      "en": "working environment",
+                      "vi": "môi trường làm việc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work long hours",
+                    "vi": "làm việc nhiều giờ"
+                  },
+                  {
+                    "en": "deal with high pressure",
+                    "vi": "đối mặt với áp lực lớn"
+                  },
+                  {
+                    "en": "flexible working hours",
+                    "vi": "giờ làm việc linh hoạt"
+                  },
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: TÌM KIẾM CƠ HỘI PHÁT TRIỂN NGHỀ NGHIỆP TỐT HƠN (SEEKING BETTER CAREER OPPORTUNITIES)",
+                "point_vi": "Mong muốn phát triển sự nghiệp cũng là một lý do khiến nhiều người trẻ thường xuyên thay đổi công việc.",
+                "point_en": "The desire for career development is another reason why many young people change jobs frequently.",
+                "point_collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "change jobs frequently",
+                    "vi": "thường xuyên thay đổi công việc"
+                  }
+                ],
+                "evidence_vi": "Họ chuyển sang những vị trí mới để học hỏi kiến thức mới, tích lũy kinh nghiệm và có cơ hội thăng tiến tốt hơn.",
+                "evidence_en": "They move to new positions to gain new knowledge, develop new skills and have better chances of promotion in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "gain new knowledge",
+                      "vi": "tiếp thu kiến thức mới"
+                    },
+                    {
+                      "en": "develop new skills",
+                      "vi": "phát triển kỹ năng mới"
+                    },
+                    {
+                      "en": "chances of promotion",
+                      "vi": "cơ hội thăng tiến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "gain new knowledge",
+                    "vi": "tiếp thu kiến thức mới"
+                  },
+                  {
+                    "en": "develop new skills",
+                    "vi": "phát triển kỹ năng mới"
+                  },
+                  {
+                    "en": "chances of promotion",
+                    "vi": "cơ hội thăng tiến"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: KHÔNG HÀI LÒNG VỚI CÔNG VIỆC HIỆN TẠI (EXPERIENCING JOB DISSATISFACTION)",
+                "point_vi": "Sự thiếu hài lòng với công việc hiện tại có thể khiến nhân viên muốn tìm kiếm một công việc khác phù hợp hơn.",
+                "point_en": "Being unhappy with their current jobs can encourage employees to look for more suitable positions.",
+                "point_collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "suitable positions",
+                    "vi": "vị trí phù hợp"
+                  }
+                ],
+                "evidence_vi": "Khi nhiệm vụ hằng ngày không phù hợp với sở thích và khả năng, họ muốn chuyển sang công việc mang lại nhiều niềm vui và sự hài lòng hơn.",
+                "evidence_en": "When their daily tasks do not match their interests and abilities, they want to move to jobs that bring them more happiness and satisfaction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily tasks",
+                      "vi": "nhiệm vụ hằng ngày"
+                    },
+                    {
+                      "en": "match one's interests and abilities",
+                      "vi": "phù hợp với sở thích và khả năng"
+                    },
+                    {
+                      "en": "job satisfaction",
+                      "vi": "sự hài lòng trong công việc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "daily tasks",
+                    "vi": "nhiệm vụ hằng ngày"
+                  },
+                  {
+                    "en": "match one's interests and abilities",
+                    "vi": "phù hợp với sở thích và khả năng"
+                  },
+                  {
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: TÌM KIẾM SỰ CÂN BẰNG TỐT HƠN GIỮA CÔNG VIỆC VÀ CUỘC SỐNG (SEEKING A BETTER WORK-LIFE BALANCE)",
+                "point_vi": "Mong muốn cân bằng giữa công việc và cuộc sống cá nhân cũng thúc đẩy nhiều người thay đổi công việc.",
+                "point_en": "The desire for a better work-life balance also encourages many people to change jobs.",
+                "point_collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "change jobs",
+                    "vi": "thay đổi công việc"
+                  }
+                ],
+                "evidence_vi": "Những người phải làm việc quá nhiều thường tìm kiếm những công việc có lịch trình linh hoạt hơn để có thời gian chăm sóc bản thân và gia đình.",
+                "evidence_en": "Employees who spend too much time working seek jobs with more flexible schedules so that they can take care of their families and personal activities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spend too much time working",
+                      "vi": "dành quá nhiều thời gian làm việc"
+                    },
+                    {
+                      "en": "flexible schedules",
+                      "vi": "lịch trình linh hoạt"
+                    },
+                    {
+                      "en": "take care of",
+                      "vi": "chăm sóc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "spend too much time working",
+                    "vi": "dành quá nhiều thời gian làm việc"
+                  },
+                  {
+                    "en": "flexible schedules",
+                    "vi": "lịch trình linh hoạt"
+                  },
+                  {
+                    "en": "take care of",
+                    "vi": "chăm sóc"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "TÁC ĐỘNG 01: GÂY KHÓ KHĂN VỀ TÀI CHÍNH (CAUSING FINANCIAL DIFFICULTIES)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể gây ra những khó khăn về tài chính cho người lao động.",
+                "point_en": "Changing jobs frequently can cause financial difficulties for employees.",
+                "point_collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "changing jobs frequently",
+                    "vi": "thay đổi công việc thường xuyên"
+                  }
+                ],
+                "evidence_vi": "Họ có thể mất thu nhập trong thời gian tìm kiếm việc làm mới và phải chi trả thêm các khoản phí phát sinh cho việc đi lại hoặc đào tạo.",
+                "evidence_en": "They may lose their income while looking for new employment and have to pay extra costs for travelling or new training courses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lose one's income",
+                      "vi": "mất thu nhập"
+                    },
+                    {
+                      "en": "look for new employment",
+                      "vi": "tìm kiếm công việc mới"
+                    },
+                    {
+                      "en": "extra costs",
+                      "vi": "chi phí phát sinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "lose one's income",
+                    "vi": "mất thu nhập"
+                  },
+                  {
+                    "en": "look for new employment",
+                    "vi": "tìm kiếm công việc mới"
+                  },
+                  {
+                    "en": "extra costs",
+                    "vi": "chi phí phát sinh"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: LÀM GIẢM NĂNG SUẤT LÀM VIỆC (REDUCING WORK PRODUCTIVITY)",
+                "point_vi": "Việc chuyển việc liên tục có thể làm giảm năng suất làm việc của nhân viên và ảnh hưởng đến hoạt động của công ty.",
+                "point_en": "Changing jobs frequently can reduce employees' productivity and affect company operations.",
+                "point_collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "company operations",
+                    "vi": "hoạt động của công ty"
+                  }
+                ],
+                "evidence_vi": "Nhân viên mới cần thời gian để làm quen với quy trình làm việc, vì vậy họ có thể làm việc chậm hơn và dễ mắc lỗi hơn.",
+                "evidence_en": "New employees need time to get used to company procedures and working methods, so they may work more slowly and make more mistakes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "get used to",
+                      "vi": "làm quen với"
+                    },
+                    {
+                      "en": "working procedures",
+                      "vi": "quy trình làm việc"
+                    },
+                    {
+                      "en": "make mistakes",
+                      "vi": "mắc lỗi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "get used to",
+                    "vi": "làm quen với"
+                  },
+                  {
+                    "en": "working procedures",
+                    "vi": "quy trình làm việc"
+                  },
+                  {
+                    "en": "make mistakes",
+                    "vi": "mắc lỗi"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: GÂY KHÓ KHĂN CHO NHÀ TUYỂN DỤNG (CREATING DIFFICULTIES FOR EMPLOYERS)",
+                "point_vi": "Tình trạng nhân viên thường xuyên nghỉ việc có thể làm tăng chi phí và khối lượng công việc của các công ty.",
+                "point_en": "Frequent employee turnover can increase companies' costs and workload.",
+                "point_collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  }
+                ],
+                "evidence_vi": "Doanh nghiệp phải tốn nhiều tiền bạc để tuyển dụng và đào tạo nhân viên thay thế, trong khi những nhân viên còn lại phải chịu nhiều áp lực hơn.",
+                "evidence_en": "Companies have to spend time and money recruiting replacement employees, while remaining workers have to take on extra tasks under greater pressure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recruitment costs",
+                      "vi": "chi phí tuyển dụng"
+                    },
+                    {
+                      "en": "replacement employees",
+                      "vi": "nhân viên thay thế"
+                    },
+                    {
+                      "en": "take on extra tasks",
+                      "vi": "đảm nhận thêm nhiệm vụ"
+                    },
+                    {
+                      "en": "under greater pressure",
+                      "vi": "chịu áp lực lớn hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "replacement employees",
+                    "vi": "nhân viên thay thế"
+                  },
+                  {
+                    "en": "take on extra tasks",
+                    "vi": "đảm nhận thêm nhiệm vụ"
+                  },
+                  {
+                    "en": "under greater pressure",
+                    "vi": "chịu áp lực lớn hơn"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: LÀM ẢNH HƯỞNG ĐẾN CÁC MỐI QUAN HỆ TRONG CÔNG VIỆC (DAMAGING PROFESSIONAL RELATIONSHIPS)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể khiến người lao động khó xây dựng các mối quan hệ tốt đẹp với đồng nghiệp và cấp trên.",
+                "point_en": "Changing jobs frequently can make it difficult for employees to build good relationships with colleagues and managers.",
+                "point_collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "colleagues and managers",
+                    "vi": "đồng nghiệp và cấp trên"
+                  }
+                ],
+                "evidence_vi": "Việc liên tục phải xây dựng lòng tin từ đầu ở công ty mới có thể hạn chế cơ hội hợp tác lâu dài và làm giảm sự hỗ trợ từ đồng nghiệp.",
+                "evidence_en": "Having to meet new people and build trust from the beginning at a new company can limit long-term cooperation and make it harder to receive support.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "build trust",
+                      "vi": "xây dựng lòng tin"
+                    },
+                    {
+                      "en": "from the beginning",
+                      "vi": "từ đầu"
+                    },
+                    {
+                      "en": "long-term cooperation",
+                      "vi": "sự hợp tác lâu dài"
+                    },
+                    {
+                      "en": "receive support",
+                      "vi": "nhận được sự hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "build trust",
+                    "vi": "xây dựng lòng tin"
+                  },
+                  {
+                    "en": "from the beginning",
+                    "vi": "từ đầu"
+                  },
+                  {
+                    "en": "long-term cooperation",
+                    "vi": "sự hợp tác lâu dài"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: TẠO ẤN TƯỢNG TIÊU CỰC ĐỐI VỚI NHÀ TUYỂN DỤNG (CREATING A NEGATIVE IMPRESSION ON EMPLOYERS)",
+                "point_vi": "Việc thay đổi công việc quá thường xuyên có thể khiến nhà tuyển dụng có cái nhìn không tốt về ứng viên.",
+                "point_en": "Changing jobs too frequently can create a negative impression on employers.",
+                "point_collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "employers",
+                    "vi": "nhà tuyển dụng"
+                  }
+                ],
+                "evidence_vi": "Nhà tuyển dụng có thể nghĩ rằng ứng viên thiếu kiên nhẫn và không gắn bó lâu dài, khiến họ gặp bất lợi khi ứng tuyển vào các vị trí tốt.",
+                "evidence_en": "Employers may think that these candidates lack patience or commitment, putting them at a disadvantage when applying for good positions in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "candidates",
+                      "vi": "ứng viên"
+                    },
+                    {
+                      "en": "lack patience",
+                      "vi": "thiếu kiên nhẫn"
+                    },
+                    {
+                      "en": "be at a disadvantage",
+                      "vi": "gặp bất lợi"
+                    },
+                    {
+                      "en": "apply for a position",
+                      "vi": "ứng tuyển vào một vị trí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "candidates",
+                    "vi": "ứng viên"
+                  },
+                  {
+                    "en": "lack patience",
+                    "vi": "thiếu kiên nhẫn"
+                  },
+                  {
+                    "en": "be at a disadvantage",
+                    "vi": "gặp bất lợi"
+                  },
+                  {
+                    "en": "apply for a position",
+                    "vi": "ứng tuyển vào một vị trí"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "causes": [
+              {
+                "title": "NGUYÊN NHÂN 01: TÌM KIẾM MỨC LƯƠNG CAO HƠN (SEEKING HIGHER SALARIES)",
+                "point_vi": "Nhiều người thường chuyển việc vì muốn có mức lương tốt hơn để cải thiện tình hình tài chính cá nhân.",
+                "point_en": "Many people change jobs because they want higher salaries to improve their financial situation.",
+                "point_collocations": [
+                  {
+                    "en": "change jobs",
+                    "vi": "chuyển việc"
+                  },
+                  {
+                    "en": "higher salaries",
+                    "vi": "mức lương cao hơn"
+                  },
+                  {
+                    "en": "improve one's financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  }
+                ],
+                "evidence_vi": "Một số công ty khác sẵn sàng trả lương cao hơn cho những người có kinh nghiệm và kỹ năng tốt. Vì vậy, nhân viên có thể chuyển sang công ty mới để tăng thu nhập và trang trải các chi phí sinh hoạt.",
+                "evidence_en": "Some other companies are willing to offer higher salaries to people with good experience and skills. As a result, employees may move to new companies to earn more money and cover their living expenses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "offer higher salaries",
+                      "vi": "trả mức lương cao hơn"
+                    },
+                    {
+                      "en": "good experience and skills",
+                      "vi": "kinh nghiệm và kỹ năng tốt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "as a result",
+                      "vi": "vì vậy, kết quả là"
+                    },
+                    {
+                      "en": "earn more money",
+                      "vi": "kiếm được nhiều tiền hơn"
+                    },
+                    {
+                      "en": "cover living expenses",
+                      "vi": "trang trải chi phí sinh hoạt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "offer higher salaries",
+                    "vi": "trả mức lương cao hơn"
+                  },
+                  {
+                    "en": "improve one's financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  },
+                  {
+                    "en": "earn more money",
+                    "vi": "kiếm được nhiều tiền hơn"
+                  },
+                  {
+                    "en": "cover living expenses",
+                    "vi": "trang trải chi phí sinh hoạt"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: TÌM KIẾM ĐIỀU KIỆN LÀM VIỆC TỐT HƠN (LOOKING FOR BETTER WORKING CONDITIONS)",
+                "point_vi": "Một số nhân viên quyết định nghỉ việc vì không hài lòng với môi trường và điều kiện làm việc hiện tại.",
+                "point_en": "Some employees decide to leave their jobs because they are unhappy with their current working conditions.",
+                "point_collocations": [
+                  {
+                    "en": "working conditions",
+                    "vi": "điều kiện làm việc"
+                  },
+                  {
+                    "en": "leave their jobs",
+                    "vi": "nghỉ việc, rời bỏ công việc"
+                  },
+                  {
+                    "en": "unhappy with",
+                    "vi": "không hài lòng với"
+                  }
+                ],
+                "evidence_vi": "Họ có thể phải làm việc nhiều giờ, chịu áp lực lớn hoặc không nhận được sự hỗ trợ cần thiết từ cấp trên. Do đó, họ có xu hướng tìm kiếm những công việc có thời gian linh hoạt hơn và môi trường làm việc thoải mái hơn.",
+                "evidence_en": "They may have to work long hours, deal with high pressure or receive little support from their managers. Therefore, they tend to look for jobs with more flexible working hours and a more comfortable working environment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work long hours",
+                      "vi": "làm việc nhiều giờ"
+                    },
+                    {
+                      "en": "deal with high pressure",
+                      "vi": "đối mặt với áp lực lớn"
+                    },
+                    {
+                      "en": "receive little support from managers",
+                      "vi": "nhận được ít sự hỗ trợ từ cấp trên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "flexible working hours",
+                      "vi": "giờ làm việc linh hoạt"
+                    },
+                    {
+                      "en": "comfortable working environment",
+                      "vi": "môi trường làm việc thoải mái hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "working conditions",
+                    "vi": "điều kiện làm việc"
+                  },
+                  {
+                    "en": "work long hours",
+                    "vi": "làm việc nhiều giờ"
+                  },
+                  {
+                    "en": "deal with high pressure",
+                    "vi": "đối mặt với áp lực lớn"
+                  },
+                  {
+                    "en": "flexible working hours",
+                    "vi": "giờ làm việc linh hoạt"
+                  },
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: TÌM KIẾM CƠ HỘI PHÁT TRIỂN NGHỀ NGHIỆP TỐT HƠN (SEEKING BETTER CAREER OPPORTUNITIES)",
+                "point_vi": "Mong muốn phát triển sự nghiệp cũng là một lý do khiến nhiều người trẻ thường xuyên thay đổi công việc.",
+                "point_en": "The desire for career development is another reason why many young people change jobs frequently.",
+                "point_collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "change jobs frequently",
+                    "vi": "thường xuyên thay đổi công việc"
+                  },
+                  {
+                    "en": "young people",
+                    "vi": "người trẻ"
+                  }
+                ],
+                "evidence_vi": "Họ có thể cảm thấy công việc hiện tại không giúp họ học hỏi thêm kiến thức hoặc phát triển các kỹ năng mới. Vì vậy, họ chuyển sang những vị trí mới để tích lũy kinh nghiệm và có cơ hội thăng tiến trong tương lai.",
+                "evidence_en": "They may feel that their current jobs do not help them gain new knowledge or develop new skills. As a result, they move to new positions to gain experience and have better chances of promotion in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "gain new knowledge",
+                      "vi": "tiếp thu kiến thức mới"
+                    },
+                    {
+                      "en": "develop new skills",
+                      "vi": "phát triển kỹ năng mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "gain experience",
+                      "vi": "tích lũy kinh nghiệm"
+                    },
+                    {
+                      "en": "chances of promotion",
+                      "vi": "cơ hội thăng tiến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "gain new knowledge",
+                    "vi": "tiếp thu kiến thức mới"
+                  },
+                  {
+                    "en": "develop new skills",
+                    "vi": "phát triển kỹ năng mới"
+                  },
+                  {
+                    "en": "gain experience",
+                    "vi": "tích lũy kinh nghiệm"
+                  },
+                  {
+                    "en": "chances of promotion",
+                    "vi": "cơ hội thăng tiến"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: KHÔNG HÀI LÒNG VỚI CÔNG VIỆC HIỆN TẠI (EXPERIENCING JOB DISSATISFACTION)",
+                "point_vi": "Sự thiếu hài lòng với công việc hiện tại có thể khiến nhân viên muốn tìm kiếm một công việc khác phù hợp hơn.",
+                "point_en": "Being unhappy with their current jobs can encourage employees to look for more suitable positions.",
+                "point_collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "suitable positions",
+                    "vi": "vị trí phù hợp hơn"
+                  },
+                  {
+                    "en": "encourage employees to",
+                    "vi": "thúc đẩy nhân viên làm gì"
+                  }
+                ],
+                "evidence_vi": "Họ có thể không yêu thích những nhiệm vụ hằng ngày hoặc cảm thấy công việc không phù hợp với sở thích và khả năng của mình. Vì vậy, họ muốn chuyển sang những công việc mang lại nhiều niềm vui và sự hài lòng hơn.",
+                "evidence_en": "They may dislike their daily tasks or feel that their jobs do not match their interests and abilities. Therefore, they want to move to jobs that bring them more happiness and satisfaction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily tasks",
+                      "vi": "nhiệm vụ hằng ngày"
+                    },
+                    {
+                      "en": "match one's interests and abilities",
+                      "vi": "phù hợp với sở thích và khả năng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "job satisfaction",
+                      "vi": "sự hài lòng trong công việc"
+                    },
+                    {
+                      "en": "bring more happiness and satisfaction",
+                      "vi": "mang lại nhiều niềm vui và sự hài lòng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "daily tasks",
+                    "vi": "nhiệm vụ hằng ngày"
+                  },
+                  {
+                    "en": "match one's interests and abilities",
+                    "vi": "phù hợp với sở thích và khả năng"
+                  },
+                  {
+                    "en": "suitable positions",
+                    "vi": "vị trí phù hợp"
+                  },
+                  {
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: TÌM KIẾM SỰ CÂN BẰNG TỐT HƠN GIỮA CÔNG VIỆC VÀ CUỘC SỐNG (SEEKING A BETTER WORK-LIFE BALANCE)",
+                "point_vi": "Mong muốn cân bằng giữa công việc và cuộc sống cá nhân cũng thúc đẩy nhiều người thay đổi công việc.",
+                "point_en": "The desire for a better work-life balance also encourages many people to change jobs.",
+                "point_collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "change jobs",
+                    "vi": "thay đổi công việc"
+                  }
+                ],
+                "evidence_vi": "Một số nhân viên phải dành quá nhiều thời gian cho công việc, khiến họ có ít thời gian cho gia đình và các hoạt động cá nhân. Do đó, họ tìm kiếm những công việc có lịch trình linh hoạt hơn để có thể chăm sóc bản thân và gia đình.",
+                "evidence_en": "Some employees have to spend too much time working, leaving them with little time for their families and personal activities. As a result, they look for jobs with more flexible schedules so that they can take care of themselves and their families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spend too much time working",
+                      "vi": "dành quá nhiều thời gian làm việc"
+                    },
+                    {
+                      "en": "personal activities",
+                      "vi": "hoạt động cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "flexible schedules",
+                      "vi": "lịch trình linh hoạt"
+                    },
+                    {
+                      "en": "take care of",
+                      "vi": "chăm sóc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "spend too much time working",
+                    "vi": "dành quá nhiều thời gian làm việc"
+                  },
+                  {
+                    "en": "personal activities",
+                    "vi": "hoạt động cá nhân"
+                  },
+                  {
+                    "en": "flexible schedules",
+                    "vi": "lịch trình linh hoạt"
+                  },
+                  {
+                    "en": "take care of",
+                    "vi": "chăm sóc"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "title": "TÁC ĐỘNG 01: GÂY KHÓ KHĂN VỀ TÀI CHÍNH (CAUSING FINANCIAL DIFFICULTIES)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể gây ra những khó khăn về tài chính cho người lao động.",
+                "point_en": "Changing jobs frequently can cause financial difficulties for employees.",
+                "point_collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "changing jobs frequently",
+                    "vi": "thay đổi công việc thường xuyên"
+                  }
+                ],
+                "evidence_vi": "Khi nghỉ việc, một số người có thể mất thu nhập trong khoảng thời gian tìm kiếm công việc mới. Ngoài ra, họ có thể phải chi trả thêm các khoản phí cho việc đi lại, chuyển nhà hoặc tham gia những khóa đào tạo mới.",
+                "evidence_en": "When they leave their jobs, some people may lose their income while looking for new employment. In addition, they may have to pay extra costs for travelling, moving house or taking new training courses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lose one's income",
+                      "vi": "mất thu nhập"
+                    },
+                    {
+                      "en": "look for new employment",
+                      "vi": "tìm kiếm công việc mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "extra costs",
+                      "vi": "chi phí phát sinh"
+                    },
+                    {
+                      "en": "training courses",
+                      "vi": "khóa đào tạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "lose one's income",
+                    "vi": "mất thu nhập"
+                  },
+                  {
+                    "en": "look for new employment",
+                    "vi": "tìm kiếm công việc mới"
+                  },
+                  {
+                    "en": "extra costs",
+                    "vi": "chi phí phát sinh"
+                  },
+                  {
+                    "en": "training courses",
+                    "vi": "khóa đào tạo"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: LÀM GIẢM NĂNG SUẤT LÀM VIỆC (REDUCING WORK PRODUCTIVITY)",
+                "point_vi": "Việc chuyển việc liên tục có thể làm giảm năng suất làm việc của nhân viên và ảnh hưởng đến hoạt động của công ty.",
+                "point_en": "Changing jobs frequently can reduce employees' productivity and affect company operations.",
+                "point_collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "company operations",
+                    "vi": "hoạt động của công ty"
+                  }
+                ],
+                "evidence_vi": "Nhân viên mới thường cần thời gian để làm quen với nhiệm vụ, quy trình và cách làm việc của công ty. Trong thời gian này, họ có thể làm việc chậm hơn và mắc nhiều lỗi hơn do chưa có đủ kinh nghiệm ở vị trí mới.",
+                "evidence_en": "New employees often need time to get used to their tasks, procedures and working methods. During this time, they may work more slowly and make more mistakes because they do not have enough experience in their new positions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "get used to",
+                      "vi": "làm quen với"
+                    },
+                    {
+                      "en": "working procedures",
+                      "vi": "quy trình làm việc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "make mistakes",
+                      "vi": "mắc lỗi"
+                    },
+                    {
+                      "en": "new positions",
+                      "vi": "vị trí mới"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "company operations",
+                    "vi": "hoạt động của công ty"
+                  },
+                  {
+                    "en": "get used to",
+                    "vi": "làm quen với"
+                  },
+                  {
+                    "en": "working procedures",
+                    "vi": "quy trình làm việc"
+                  },
+                  {
+                    "en": "make mistakes",
+                    "vi": "mắc lỗi"
+                  },
+                  {
+                    "en": "new positions",
+                    "vi": "vị trí mới"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: GÂY KHÓ KHĂN CHO NHÀ TUYỂN DỤNG (CREATING DIFFICULTIES FOR EMPLOYERS)",
+                "point_vi": "Tình trạng nhân viên thường xuyên nghỉ việc có thể làm tăng chi phí và khối lượng công việc của các công ty.",
+                "point_en": "Frequent employee turnover can increase companies' costs and workload.",
+                "point_collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  }
+                ],
+                "evidence_vi": "Các công ty phải dành nhiều thời gian và tiền bạc để tuyển dụng và đào tạo nhân viên thay thế. Bên cạnh đó, những nhân viên còn lại có thể phải đảm nhận thêm nhiệm vụ, khiến họ chịu nhiều áp lực hơn.",
+                "evidence_en": "Companies have to spend more time and money recruiting and training replacement employees. In addition, other employees may have to take on extra tasks, putting them under greater pressure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recruitment costs",
+                      "vi": "chi phí tuyển dụng"
+                    },
+                    {
+                      "en": "replacement employees",
+                      "vi": "nhân viên thay thế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take on extra tasks",
+                      "vi": "đảm nhận thêm nhiệm vụ"
+                    },
+                    {
+                      "en": "under greater pressure",
+                      "vi": "chịu áp lực lớn hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  },
+                  {
+                    "en": "recruitment costs",
+                    "vi": "chi phí tuyển dụng"
+                  },
+                  {
+                    "en": "replacement employees",
+                    "vi": "nhân viên thay thế"
+                  },
+                  {
+                    "en": "take on extra tasks",
+                    "vi": "đảm nhận thêm nhiệm vụ"
+                  },
+                  {
+                    "en": "under greater pressure",
+                    "vi": "chịu áp lực lớn hơn"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: LÀM ẢNH HƯỞNG ĐẾN CÁC MỐI QUAN HỆ TRONG CÔNG VIỆC (DAMAGING PROFESSIONAL RELATIONSHIPS)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể khiến người lao động khó xây dựng các mối quan hệ tốt đẹp với đồng nghiệp và cấp trên.",
+                "point_en": "Changing jobs frequently can make it difficult for employees to build good relationships with colleagues and managers.",
+                "point_collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "colleagues and managers",
+                    "vi": "đồng nghiệp và cấp trên"
+                  }
+                ],
+                "evidence_vi": "Họ thường phải làm quen với những người mới và xây dựng lòng tin từ đầu mỗi khi chuyển sang công ty khác. Điều này có thể hạn chế cơ hội hợp tác lâu dài và khiến họ khó nhận được sự hỗ trợ từ đồng nghiệp.",
+                "evidence_en": "They often have to meet new people and build trust from the beginning whenever they move to another company. This can limit long-term cooperation and make it harder for them to receive support from colleagues.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "build trust",
+                      "vi": "xây dựng lòng tin"
+                    },
+                    {
+                      "en": "from the beginning",
+                      "vi": "từ đầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "long-term cooperation",
+                      "vi": "sự hợp tác lâu dài"
+                    },
+                    {
+                      "en": "receive support",
+                      "vi": "nhận được sự hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "colleagues and managers",
+                    "vi": "đồng nghiệp và cấp trên"
+                  },
+                  {
+                    "en": "build trust",
+                    "vi": "xây dựng lòng tin"
+                  },
+                  {
+                    "en": "from the beginning",
+                    "vi": "từ đầu"
+                  },
+                  {
+                    "en": "long-term cooperation",
+                    "vi": "sự hợp tác lâu dài"
+                  },
+                  {
+                    "en": "receive support",
+                    "vi": "nhận được sự hỗ trợ"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: TẠO ẤN TƯỢNG TIÊU CỰC ĐỐI VỚI NHÀ TUYỂN DỤNG (CREATING A NEGATIVE IMPRESSION ON EMPLOYERS)",
+                "point_vi": "Việc thay đổi công việc quá thường xuyên có thể khiến nhà tuyển dụng có cái nhìn không tốt về ứng viên.",
+                "point_en": "Changing jobs too frequently can create a negative impression on employers.",
+                "point_collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "employers",
+                    "vi": "nhà tuyển dụng"
+                  }
+                ],
+                "evidence_vi": "Họ có thể cho rằng những ứng viên này thiếu sự kiên nhẫn hoặc không có ý định gắn bó lâu dài với công ty. Do đó, những ứng viên này có thể gặp bất lợi khi ứng tuyển vào các vị trí tốt trong tương lai.",
+                "evidence_en": "They may think that these candidates lack patience or do not plan to stay with a company for a long time. As a result, these candidates may be at a disadvantage when applying for good positions in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "candidates",
+                      "vi": "ứng viên"
+                    },
+                    {
+                      "en": "lack patience",
+                      "vi": "thiếu kiên nhẫn"
+                    },
+                    {
+                      "en": "stay with a company",
+                      "vi": "gắn bó với một công ty"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "be at a disadvantage",
+                      "vi": "gặp bất lợi"
+                    },
+                    {
+                      "en": "apply for a position",
+                      "vi": "ứng tuyển vào một vị trí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "employers",
+                    "vi": "nhà tuyển dụng"
+                  },
+                  {
+                    "en": "candidates",
+                    "vi": "ứng viên"
+                  },
+                  {
+                    "en": "lack patience",
+                    "vi": "thiếu kiên nhẫn"
+                  },
+                  {
+                    "en": "stay with a company",
+                    "vi": "gắn bó với một công ty"
+                  },
+                  {
+                    "en": "be at a disadvantage",
+                    "vi": "gặp bất lợi"
+                  },
+                  {
+                    "en": "apply for a position",
+                    "vi": "ứng tuyển vào một vị trí"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: TÌM KIẾM MỨC LƯƠNG CAO HƠN (SEEKING HIGHER SALARIES)",
+                "point_vi": "Nhiều người thường chuyển việc vì muốn có mức lương tốt hơn để cải thiện tình hình tài chính cá nhân.",
+                "point_en": "Many people change jobs because they want higher salaries to improve their financial situation.",
+                "point_collocations": [
+                  {
+                    "en": "change jobs",
+                    "vi": "chuyển việc"
+                  },
+                  {
+                    "en": "higher salaries",
+                    "vi": "mức lương cao hơn"
+                  },
+                  {
+                    "en": "improve one's financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  }
+                ],
+                "evidence_vi": "Một số công ty khác sẵn sàng trả lương cao hơn cho những người có kinh nghiệm và kỹ năng tốt. Vì vậy, nhân viên có thể chuyển sang công ty mới để tăng thu nhập và trang trải các chi phí sinh hoạt.",
+                "evidence_en": "Some other companies are willing to offer higher salaries to people with good experience and skills. As a result, employees may move to new companies to earn more money and cover their living expenses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "offer higher salaries",
+                      "vi": "trả mức lương cao hơn"
+                    },
+                    {
+                      "en": "good experience and skills",
+                      "vi": "kinh nghiệm và kỹ năng tốt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "as a result",
+                      "vi": "vì vậy, kết quả là"
+                    },
+                    {
+                      "en": "earn more money",
+                      "vi": "kiếm được nhiều tiền hơn"
+                    },
+                    {
+                      "en": "cover living expenses",
+                      "vi": "trang trải chi phí sinh hoạt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "offer higher salaries",
+                    "vi": "trả mức lương cao hơn"
+                  },
+                  {
+                    "en": "improve one's financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  },
+                  {
+                    "en": "earn more money",
+                    "vi": "kiếm được nhiều tiền hơn"
+                  },
+                  {
+                    "en": "cover living expenses",
+                    "vi": "trang trải chi phí sinh hoạt"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: TÌM KIẾM ĐIỀU KIỆN LÀM VIỆC TỐT HƠN (LOOKING FOR BETTER WORKING CONDITIONS)",
+                "point_vi": "Một số nhân viên quyết định nghỉ việc vì không hài lòng với môi trường và điều kiện làm việc hiện tại.",
+                "point_en": "Some employees decide to leave their jobs because they are unhappy with their current working conditions.",
+                "point_collocations": [
+                  {
+                    "en": "working conditions",
+                    "vi": "điều kiện làm việc"
+                  },
+                  {
+                    "en": "leave their jobs",
+                    "vi": "nghỉ việc, rời bỏ công việc"
+                  },
+                  {
+                    "en": "unhappy with",
+                    "vi": "không hài lòng với"
+                  }
+                ],
+                "evidence_vi": "Họ có thể phải làm việc nhiều giờ, chịu áp lực lớn hoặc không nhận được sự hỗ trợ cần thiết từ cấp trên. Do đó, họ có xu hướng tìm kiếm những công việc có thời gian linh hoạt hơn và môi trường làm việc thoải mái hơn.",
+                "evidence_en": "They may have to work long hours, deal with high pressure or receive little support from their managers. Therefore, they tend to look for jobs with more flexible working hours and a more comfortable working environment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work long hours",
+                      "vi": "làm việc nhiều giờ"
+                    },
+                    {
+                      "en": "deal with high pressure",
+                      "vi": "đối mặt với áp lực lớn"
+                    },
+                    {
+                      "en": "receive little support from managers",
+                      "vi": "nhận được ít sự hỗ trợ từ cấp trên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "flexible working hours",
+                      "vi": "giờ làm việc linh hoạt"
+                    },
+                    {
+                      "en": "comfortable working environment",
+                      "vi": "môi trường làm việc thoải mái hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "working conditions",
+                    "vi": "điều kiện làm việc"
+                  },
+                  {
+                    "en": "work long hours",
+                    "vi": "làm việc nhiều giờ"
+                  },
+                  {
+                    "en": "deal with high pressure",
+                    "vi": "đối mặt với áp lực lớn"
+                  },
+                  {
+                    "en": "flexible working hours",
+                    "vi": "giờ làm việc linh hoạt"
+                  },
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: TÌM KIẾM CƠ HỘI PHÁT TRIỂN NGHỀ NGHIỆP TỐT HƠN (SEEKING BETTER CAREER OPPORTUNITIES)",
+                "point_vi": "Mong muốn phát triển sự nghiệp cũng là một lý do khiến nhiều người trẻ thường xuyên thay đổi công việc.",
+                "point_en": "The desire for career development is another reason why many young people change jobs frequently.",
+                "point_collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "change jobs frequently",
+                    "vi": "thường xuyên thay đổi công việc"
+                  },
+                  {
+                    "en": "young people",
+                    "vi": "người trẻ"
+                  }
+                ],
+                "evidence_vi": "Họ có thể cảm thấy công việc hiện tại không giúp họ học hỏi thêm kiến thức hoặc phát triển các kỹ năng mới. Vì vậy, họ chuyển sang những vị trí mới để tích lũy kinh nghiệm và có cơ hội thăng tiến trong tương lai.",
+                "evidence_en": "They may feel that their current jobs do not help them gain new knowledge or develop new skills. As a result, they move to new positions to gain experience and have better chances of promotion in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "gain new knowledge",
+                      "vi": "tiếp thu kiến thức mới"
+                    },
+                    {
+                      "en": "develop new skills",
+                      "vi": "phát triển kỹ năng mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "gain experience",
+                      "vi": "tích lũy kinh nghiệm"
+                    },
+                    {
+                      "en": "chances of promotion",
+                      "vi": "cơ hội thăng tiến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "gain new knowledge",
+                    "vi": "tiếp thu kiến thức mới"
+                  },
+                  {
+                    "en": "develop new skills",
+                    "vi": "phát triển kỹ năng mới"
+                  },
+                  {
+                    "en": "gain experience",
+                    "vi": "tích lũy kinh nghiệm"
+                  },
+                  {
+                    "en": "chances of promotion",
+                    "vi": "cơ hội thăng tiến"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: KHÔNG HÀI LÒNG VỚI CÔNG VIỆC HIỆN TẠI (EXPERIENCING JOB DISSATISFACTION)",
+                "point_vi": "Sự thiếu hài lòng với công việc hiện tại có thể khiến nhân viên muốn tìm kiếm một công việc khác phù hợp hơn.",
+                "point_en": "Being unhappy with their current jobs can encourage employees to look for more suitable positions.",
+                "point_collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "suitable positions",
+                    "vi": "vị trí phù hợp hơn"
+                  },
+                  {
+                    "en": "encourage employees to",
+                    "vi": "thúc đẩy nhân viên làm gì"
+                  }
+                ],
+                "evidence_vi": "Họ có thể không yêu thích những nhiệm vụ hằng ngày hoặc cảm thấy công việc không phù hợp với sở thích và khả năng của mình. Vì vậy, họ muốn chuyển sang những công việc mang lại nhiều niềm vui và sự hài lòng hơn.",
+                "evidence_en": "They may dislike their daily tasks or feel that their jobs do not match their interests and abilities. Therefore, they want to move to jobs that bring them more happiness and satisfaction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily tasks",
+                      "vi": "nhiệm vụ hằng ngày"
+                    },
+                    {
+                      "en": "match one's interests and abilities",
+                      "vi": "phù hợp với sở thích và khả năng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "job satisfaction",
+                      "vi": "sự hài lòng trong công việc"
+                    },
+                    {
+                      "en": "bring more happiness and satisfaction",
+                      "vi": "mang lại nhiều niềm vui và sự hài lòng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "job dissatisfaction",
+                    "vi": "sự không hài lòng với công việc"
+                  },
+                  {
+                    "en": "daily tasks",
+                    "vi": "nhiệm vụ hằng ngày"
+                  },
+                  {
+                    "en": "match one's interests and abilities",
+                    "vi": "phù hợp với sở thích và khả năng"
+                  },
+                  {
+                    "en": "suitable positions",
+                    "vi": "vị trí phù hợp"
+                  },
+                  {
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: TÌM KIẾM SỰ CÂN BẰNG TỐT HƠN GIỮA CÔNG VIỆC VÀ CUỘC SỐNG (SEEKING A BETTER WORK-LIFE BALANCE)",
+                "point_vi": "Mong muốn cân bằng giữa công việc và cuộc sống cá nhân cũng thúc đẩy nhiều người thay đổi công việc.",
+                "point_en": "The desire for a better work-life balance also encourages many people to change jobs.",
+                "point_collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "change jobs",
+                    "vi": "thay đổi công việc"
+                  }
+                ],
+                "evidence_vi": "Một số nhân viên phải dành quá nhiều thời gian cho công việc, khiến họ có ít thời gian cho gia đình và các hoạt động cá nhân. Do đó, họ tìm kiếm những công việc có lịch trình linh hoạt hơn để có thể chăm sóc bản thân và gia đình.",
+                "evidence_en": "Some employees have to spend too much time working, leaving them with little time for their families and personal activities. As a result, they look for jobs with more flexible schedules so that they can take care of themselves and their families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spend too much time working",
+                      "vi": "dành quá nhiều thời gian làm việc"
+                    },
+                    {
+                      "en": "personal activities",
+                      "vi": "hoạt động cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "flexible schedules",
+                      "vi": "lịch trình linh hoạt"
+                    },
+                    {
+                      "en": "take care of",
+                      "vi": "chăm sóc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống"
+                  },
+                  {
+                    "en": "spend too much time working",
+                    "vi": "dành quá nhiều thời gian làm việc"
+                  },
+                  {
+                    "en": "personal activities",
+                    "vi": "hoạt động cá nhân"
+                  },
+                  {
+                    "en": "flexible schedules",
+                    "vi": "lịch trình linh hoạt"
+                  },
+                  {
+                    "en": "take care of",
+                    "vi": "chăm sóc"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "TÁC ĐỘNG 01: GÂY KHÓ KHĂN VỀ TÀI CHÍNH (CAUSING FINANCIAL DIFFICULTIES)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể gây ra những khó khăn về tài chính cho người lao động.",
+                "point_en": "Changing jobs frequently can cause financial difficulties for employees.",
+                "point_collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "changing jobs frequently",
+                    "vi": "thay đổi công việc thường xuyên"
+                  }
+                ],
+                "evidence_vi": "Khi nghỉ việc, một số người có thể mất thu nhập trong khoảng thời gian tìm kiếm công việc mới. Ngoài ra, họ có thể phải chi trả thêm các khoản phí cho việc đi lại, chuyển nhà hoặc tham gia những khóa đào tạo mới.",
+                "evidence_en": "When they leave their jobs, some people may lose their income while looking for new employment. In addition, they may have to pay extra costs for travelling, moving house or taking new training courses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lose one's income",
+                      "vi": "mất thu nhập"
+                    },
+                    {
+                      "en": "look for new employment",
+                      "vi": "tìm kiếm công việc mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "extra costs",
+                      "vi": "chi phí phát sinh"
+                    },
+                    {
+                      "en": "training courses",
+                      "vi": "khóa đào tạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "lose one's income",
+                    "vi": "mất thu nhập"
+                  },
+                  {
+                    "en": "look for new employment",
+                    "vi": "tìm kiếm công việc mới"
+                  },
+                  {
+                    "en": "extra costs",
+                    "vi": "chi phí phát sinh"
+                  },
+                  {
+                    "en": "training courses",
+                    "vi": "khóa đào tạo"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: LÀM GIẢM NĂNG SUẤT LÀM VIỆC (REDUCING WORK PRODUCTIVITY)",
+                "point_vi": "Việc chuyển việc liên tục có thể làm giảm năng suất làm việc của nhân viên và ảnh hưởng đến hoạt động của công ty.",
+                "point_en": "Changing jobs frequently can reduce employees' productivity and affect company operations.",
+                "point_collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "company operations",
+                    "vi": "hoạt động của công ty"
+                  }
+                ],
+                "evidence_vi": "Nhân viên mới thường cần thời gian để làm quen với nhiệm vụ, quy trình và cách làm việc của công ty. Trong thời gian này, họ có thể làm việc chậm hơn và mắc nhiều lỗi hơn do chưa có đủ kinh nghiệm ở vị trí mới.",
+                "evidence_en": "New employees often need time to get used to their tasks, procedures and working methods. During this time, they may work more slowly and make more mistakes because they do not have enough experience in their new positions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "get used to",
+                      "vi": "làm quen với"
+                    },
+                    {
+                      "en": "working procedures",
+                      "vi": "quy trình làm việc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "make mistakes",
+                      "vi": "mắc lỗi"
+                    },
+                    {
+                      "en": "new positions",
+                      "vi": "vị trí mới"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work productivity",
+                    "vi": "năng suất làm việc"
+                  },
+                  {
+                    "en": "company operations",
+                    "vi": "hoạt động của công ty"
+                  },
+                  {
+                    "en": "get used to",
+                    "vi": "làm quen với"
+                  },
+                  {
+                    "en": "working procedures",
+                    "vi": "quy trình làm việc"
+                  },
+                  {
+                    "en": "make mistakes",
+                    "vi": "mắc lỗi"
+                  },
+                  {
+                    "en": "new positions",
+                    "vi": "vị trí mới"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: GÂY KHÓ KHĂN CHO NHÀ TUYỂN DỤNG (CREATING DIFFICULTIES FOR EMPLOYERS)",
+                "point_vi": "Tình trạng nhân viên thường xuyên nghỉ việc có thể làm tăng chi phí và khối lượng công việc của các công ty.",
+                "point_en": "Frequent employee turnover can increase companies' costs and workload.",
+                "point_collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  }
+                ],
+                "evidence_vi": "Các công ty phải dành nhiều thời gian và tiền bạc để tuyển dụng và đào tạo nhân viên thay thế. Bên cạnh đó, những nhân viên còn lại có thể phải đảm nhận thêm nhiệm vụ, khiến họ chịu nhiều áp lực hơn.",
+                "evidence_en": "Companies have to spend more time and money recruiting and training replacement employees. In addition, other employees may have to take on extra tasks, putting them under greater pressure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recruitment costs",
+                      "vi": "chi phí tuyển dụng"
+                    },
+                    {
+                      "en": "replacement employees",
+                      "vi": "nhân viên thay thế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take on extra tasks",
+                      "vi": "đảm nhận thêm nhiệm vụ"
+                    },
+                    {
+                      "en": "under greater pressure",
+                      "vi": "chịu áp lực lớn hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "employee turnover",
+                    "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+                  },
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  },
+                  {
+                    "en": "recruitment costs",
+                    "vi": "chi phí tuyển dụng"
+                  },
+                  {
+                    "en": "replacement employees",
+                    "vi": "nhân viên thay thế"
+                  },
+                  {
+                    "en": "take on extra tasks",
+                    "vi": "đảm nhận thêm nhiệm vụ"
+                  },
+                  {
+                    "en": "under greater pressure",
+                    "vi": "chịu áp lực lớn hơn"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: LÀM ẢNH HƯỞNG ĐẾN CÁC MỐI QUAN HỆ TRONG CÔNG VIỆC (DAMAGING PROFESSIONAL RELATIONSHIPS)",
+                "point_vi": "Thay đổi công việc thường xuyên có thể khiến người lao động khó xây dựng các mối quan hệ tốt đẹp với đồng nghiệp và cấp trên.",
+                "point_en": "Changing jobs frequently can make it difficult for employees to build good relationships with colleagues and managers.",
+                "point_collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "colleagues and managers",
+                    "vi": "đồng nghiệp và cấp trên"
+                  }
+                ],
+                "evidence_vi": "Họ thường phải làm quen với những người mới và xây dựng lòng tin từ đầu mỗi khi chuyển sang công ty khác. Điều này có thể hạn chế cơ hội hợp tác lâu dài và khiến họ khó nhận được sự hỗ trợ từ đồng nghiệp.",
+                "evidence_en": "They often have to meet new people and build trust from the beginning whenever they move to another company. This can limit long-term cooperation and make it harder for them to receive support from colleagues.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "build trust",
+                      "vi": "xây dựng lòng tin"
+                    },
+                    {
+                      "en": "from the beginning",
+                      "vi": "từ đầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "long-term cooperation",
+                      "vi": "sự hợp tác lâu dài"
+                    },
+                    {
+                      "en": "receive support",
+                      "vi": "nhận được sự hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "professional relationships",
+                    "vi": "các mối quan hệ trong công việc"
+                  },
+                  {
+                    "en": "colleagues and managers",
+                    "vi": "đồng nghiệp và cấp trên"
+                  },
+                  {
+                    "en": "build trust",
+                    "vi": "xây dựng lòng tin"
+                  },
+                  {
+                    "en": "from the beginning",
+                    "vi": "từ đầu"
+                  },
+                  {
+                    "en": "long-term cooperation",
+                    "vi": "sự hợp tác lâu dài"
+                  },
+                  {
+                    "en": "receive support",
+                    "vi": "nhận được sự hỗ trợ"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: TẠO ẤN TƯỢNG TIÊU CỰC ĐỐI VỚI NHÀ TUYỂN DỤNG (CREATING A NEGATIVE IMPRESSION ON EMPLOYERS)",
+                "point_vi": "Việc thay đổi công việc quá thường xuyên có thể khiến nhà tuyển dụng có cái nhìn không tốt về ứng viên.",
+                "point_en": "Changing jobs too frequently can create a negative impression on employers.",
+                "point_collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "employers",
+                    "vi": "nhà tuyển dụng"
+                  }
+                ],
+                "evidence_vi": "Họ có thể cho rằng những ứng viên này thiếu sự kiên nhẫn hoặc không có ý định gắn bó lâu dài với công ty. Do đó, những ứng viên này có thể gặp bất lợi khi ứng tuyển vào các vị trí tốt trong tương lai.",
+                "evidence_en": "They may think that these candidates lack patience or do not plan to stay with a company for a long time. As a result, these candidates may be at a disadvantage when applying for good positions in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "candidates",
+                      "vi": "ứng viên"
+                    },
+                    {
+                      "en": "lack patience",
+                      "vi": "thiếu kiên nhẫn"
+                    },
+                    {
+                      "en": "stay with a company",
+                      "vi": "gắn bó với một công ty"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "be at a disadvantage",
+                      "vi": "gặp bất lợi"
+                    },
+                    {
+                      "en": "apply for a position",
+                      "vi": "ứng tuyển vào một vị trí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "create a negative impression",
+                    "vi": "tạo ấn tượng tiêu cực"
+                  },
+                  {
+                    "en": "employers",
+                    "vi": "nhà tuyển dụng"
+                  },
+                  {
+                    "en": "candidates",
+                    "vi": "ứng viên"
+                  },
+                  {
+                    "en": "lack patience",
+                    "vi": "thiếu kiên nhẫn"
+                  },
+                  {
+                    "en": "stay with a company",
+                    "vi": "gắn bó với một công ty"
+                  },
+                  {
+                    "en": "be at a disadvantage",
+                    "vi": "gặp bất lợi"
+                  },
+                  {
+                    "en": "apply for a position",
+                    "vi": "ứng tuyển vào một vị trí"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "offer higher salaries",
+              "vi": "trả mức lương cao hơn"
+            },
+            {
+              "en": "improve one's financial situation",
+              "vi": "cải thiện tình hình tài chính"
+            },
+            {
+              "en": "earn more money",
+              "vi": "kiếm được nhiều tiền hơn"
+            },
+            {
+              "en": "cover living expenses",
+              "vi": "trang trải chi phí sinh hoạt"
+            },
+            {
+              "en": "working conditions",
+              "vi": "điều kiện làm việc"
+            },
+            {
+              "en": "work long hours",
+              "vi": "làm việc nhiều giờ"
+            },
+            {
+              "en": "deal with high pressure",
+              "vi": "đối mặt với áp lực lớn"
+            },
+            {
+              "en": "flexible working hours",
+              "vi": "giờ làm việc linh hoạt"
+            },
+            {
+              "en": "working environment",
+              "vi": "môi trường làm việc"
+            },
+            {
+              "en": "career development",
+              "vi": "phát triển sự nghiệp"
+            },
+            {
+              "en": "gain new knowledge",
+              "vi": "tiếp thu kiến thức mới"
+            },
+            {
+              "en": "develop new skills",
+              "vi": "phát triển kỹ năng mới"
+            },
+            {
+              "en": "gain experience",
+              "vi": "tích lũy kinh nghiệm"
+            },
+            {
+              "en": "chances of promotion",
+              "vi": "cơ hội thăng tiến"
+            },
+            {
+              "en": "job dissatisfaction",
+              "vi": "sự không hài lòng với công việc"
+            },
+            {
+              "en": "daily tasks",
+              "vi": "nhiệm vụ hằng ngày"
+            },
+            {
+              "en": "match one's interests and abilities",
+              "vi": "phù hợp với sở thích và khả năng"
+            },
+            {
+              "en": "suitable positions",
+              "vi": "vị trí phù hợp"
+            },
+            {
+              "en": "job satisfaction",
+              "vi": "sự hài lòng trong công việc"
+            },
+            {
+              "en": "work-life balance",
+              "vi": "sự cân bằng giữa công việc và cuộc sống"
+            },
+            {
+              "en": "spend too much time working",
+              "vi": "dành quá nhiều thời gian làm việc"
+            },
+            {
+              "en": "personal activities",
+              "vi": "hoạt động cá nhân"
+            },
+            {
+              "en": "flexible schedules",
+              "vi": "lịch trình linh hoạt"
+            },
+            {
+              "en": "take care of",
+              "vi": "chăm sóc"
+            },
+            {
+              "en": "financial difficulties",
+              "vi": "khó khăn tài chính"
+            },
+            {
+              "en": "lose one's income",
+              "vi": "mất thu nhập"
+            },
+            {
+              "en": "look for new employment",
+              "vi": "tìm kiếm công việc mới"
+            },
+            {
+              "en": "extra costs",
+              "vi": "chi phí phát sinh"
+            },
+            {
+              "en": "training courses",
+              "vi": "khóa đào tạo"
+            },
+            {
+              "en": "work productivity",
+              "vi": "năng suất làm việc"
+            },
+            {
+              "en": "company operations",
+              "vi": "hoạt động của công ty"
+            },
+            {
+              "en": "get used to",
+              "vi": "làm quen với"
+            },
+            {
+              "en": "working procedures",
+              "vi": "quy trình làm việc"
+            },
+            {
+              "en": "make mistakes",
+              "vi": "mắc lỗi"
+            },
+            {
+              "en": "new positions",
+              "vi": "vị trí mới"
+            },
+            {
+              "en": "employee turnover",
+              "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+            },
+            {
+              "en": "workload",
+              "vi": "khối lượng công việc"
+            },
+            {
+              "en": "recruitment costs",
+              "vi": "chi phí tuyển dụng"
+            },
+            {
+              "en": "replacement employees",
+              "vi": "nhân viên thay thế"
+            },
+            {
+              "en": "take on extra tasks",
+              "vi": "đảm nhận thêm nhiệm vụ"
+            },
+            {
+              "en": "under greater pressure",
+              "vi": "chịu áp lực lớn hơn"
+            },
+            {
+              "en": "professional relationships",
+              "vi": "các mối quan hệ trong công việc"
+            },
+            {
+              "en": "colleagues and managers",
+              "vi": "đồng nghiệp và cấp trên"
+            },
+            {
+              "en": "build trust",
+              "vi": "xây dựng lòng tin"
+            },
+            {
+              "en": "from the beginning",
+              "vi": "từ đầu"
+            },
+            {
+              "en": "long-term cooperation",
+              "vi": "sự hợp tác lâu dài"
+            },
+            {
+              "en": "receive support",
+              "vi": "nhận được sự hỗ trợ"
+            },
+            {
+              "en": "create a negative impression",
+              "vi": "tạo ấn tượng tiêu cực"
+            },
+            {
+              "en": "employers",
+              "vi": "nhà tuyển dụng"
+            },
+            {
+              "en": "candidates",
+              "vi": "ứng viên"
+            },
+            {
+              "en": "lack patience",
+              "vi": "thiếu kiên nhẫn"
+            },
+            {
+              "en": "stay with a company",
+              "vi": "gắn bó với một công ty"
+            },
+            {
+              "en": "be at a disadvantage",
+              "vi": "gặp bất lợi"
+            },
+            {
+              "en": "apply for a position",
+              "vi": "ứng tuyển vào một vị trí"
+            }
+          ],
+          "vocab_step": {
+            "theme": "Job Hopping – Causes and Effects (Nguyên nhân và Tác động của Hiện tượng Nhảy việc)",
+            "overview": "Bộ từ vựng toàn diện giúp học viên nắm vững các thuật ngữ chuyên ngành nhân sự, động lực tài chính, thăng tiến sự nghiệp, điều kiện làm việc và các hệ lụy đối với người lao động cũng như doanh nghiệp.",
+            "single_words": [
+              {
+                "word": "turnover",
+                "ipa": "/ˈtɜːnˌəʊ.vər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tỷ lệ luân chuyển / thay thế nhân sự",
+                "family": "turn over (phr v)",
+                "example_en": "High employee turnover costs companies significant amounts of money each year.",
+                "example_vi": "Tỷ lệ luân chuyển nhân sự cao khiến các công ty tốn kém những khoản tiền đáng kể mỗi năm."
+              },
+              {
+                "word": "dissatisfaction",
+                "ipa": "/dɪsˌsæt.ɪsˈfæk.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự không hài lòng, bất mãn",
+                "family": "dissatisfied (adj), dissatisfy (v), satisfaction (n)",
+                "example_en": "Job dissatisfaction often arises from poor management or unfair compensation.",
+                "example_vi": "Sự không hài lòng trong công việc thường bắt nguồn từ cách quản lý kém hoặc chế độ đãi ngộ bất công."
+              },
+              {
+                "word": "promotion",
+                "ipa": "/prəˈməʊ.ʃən/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự thăng tiến trong nghề nghiệp",
+                "family": "promote (v), promotional (adj)",
+                "example_en": "Young workers change companies when they see limited chances of promotion.",
+                "example_vi": "Người lao động trẻ chuyển công ty khi họ nhận thấy cơ hội thăng tiến bị hạn chế."
+              },
+              {
+                "word": "loyalty",
+                "ipa": "/ˈlɔɪ.əl.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng trung thành, sự gắn bó",
+                "family": "loyal (adj), loyally (adv)",
+                "example_en": "Some recruiters worry that frequent job hoppers lack organizational loyalty.",
+                "example_vi": "Một số nhà tuyển dụng lo ngại rằng những người thường xuyên nhảy việc thiếu lòng trung thành với tổ chức."
+              },
+              {
+                "word": "workload",
+                "ipa": "/ˈwɜːk.ləʊd/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "khối lượng công việc",
+                "family": "load (n, v)",
+                "example_en": "When employees resign unexpectedly, the remaining team members face a heavier workload.",
+                "example_vi": "Khi nhân viên đột ngột nghỉ việc, các thành viên còn lại trong nhóm phải gánh vác khối lượng công việc nặng nề hơn."
+              },
+              {
+                "word": "disadvantage",
+                "ipa": "/ˌdɪs.ədˈvɑːn.tɪdʒ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự bất lợi, thế yếu",
+                "family": "disadvantaged (adj), advantageous (adj)",
+                "example_en": "Candidates with unstable work histories may be at a disadvantage during interviews.",
+                "example_vi": "Những ứng viên có lịch sử làm việc không ổn định có thể gặp bất lợi trong các buổi phỏng vấn."
+              },
+              {
+                "word": "candidate",
+                "ipa": "/ˈkæn.dɪ.dət/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "ứng viên xin việc",
+                "family": "candidacy (n)",
+                "example_en": "Employers evaluate each candidate carefully to ensure long-term cultural fit.",
+                "example_vi": "Các nhà tuyển dụng đánh giá kỹ lưỡng từng ứng viên nhằm đảm bảo sự phù hợp lâu dài về văn hóa."
+              },
+              {
+                "word": "flexible",
+                "ipa": "/ˈflek.sə.bəl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "linh hoạt",
+                "family": "flexibility (n), flexibly (adv)",
+                "example_en": "Modern job seekers highly appreciate flexible working hours and remote options.",
+                "example_vi": "Những người tìm việc thời hiện đại đánh giá rất cao giờ làm việc linh hoạt và các lựa chọn làm từ xa."
+              },
+              {
+                "word": "colleague",
+                "ipa": "/ˈkɒl.iːɡ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "đồng nghiệp",
+                "family": "colleagueship (n)",
+                "example_en": "Building strong bonds with colleagues creates a pleasant and supportive office environment.",
+                "example_vi": "Xây dựng mối liên kết bền chặt với đồng nghiệp tạo ra một môi trường văn phòng dễ chịu và hỗ trợ lẫn nhau."
+              },
+              {
+                "word": "compensation",
+                "ipa": "/ˌkɒm.penˈseɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chế độ đãi ngộ, tiền lương và phụ cấp",
+                "family": "compensate (v), compensatory (adj)",
+                "example_en": "Competitive compensation packages remain the most effective tool to attract top talent.",
+                "example_vi": "Các gói đãi ngộ cạnh tranh vẫn là công cụ hữu hiệu nhất để thu hút nhân tài hàng đầu."
+              },
+              {
+                "word": "retention",
+                "ipa": "/rɪˈten.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "việc giữ chân nhân tài",
+                "family": "retain (v), retentive (adj)",
+                "example_en": "Companies must improve workplace culture to enhance employee retention rates.",
+                "example_vi": "Các công ty phải cải thiện văn hóa làm việc để nâng cao tỷ lệ giữ chân nhân viên."
+              },
+              {
+                "word": "commitment",
+                "ipa": "/kəˈmɪt.mənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cam kết, gắn bó lâu dài",
+                "family": "commit (v), committed (adj)",
+                "example_en": "Employers value long-term commitment when selecting candidates for leadership roles.",
+                "example_vi": "Nhà tuyển dụng đánh giá cao sự gắn bó lâu dài khi lựa chọn ứng viên cho các vai trò lãnh đạo."
+              }
+            ],
+            "collocations": [
+              {
+                "en": "offer higher salaries",
+                "vi": "trả mức lương cao hơn"
+              },
+              {
+                "en": "improve one's financial situation",
+                "vi": "cải thiện tình hình tài chính"
+              },
+              {
+                "en": "earn more money",
+                "vi": "kiếm được nhiều tiền hơn"
+              },
+              {
+                "en": "cover living expenses",
+                "vi": "trang trải chi phí sinh hoạt"
+              },
+              {
+                "en": "working conditions",
+                "vi": "điều kiện làm việc"
+              },
+              {
+                "en": "work long hours",
+                "vi": "làm việc nhiều giờ"
+              },
+              {
+                "en": "deal with high pressure",
+                "vi": "đối mặt với áp lực lớn"
+              },
+              {
+                "en": "flexible working hours",
+                "vi": "giờ làm việc linh hoạt"
+              },
+              {
+                "en": "working environment",
+                "vi": "môi trường làm việc"
+              },
+              {
+                "en": "career development",
+                "vi": "phát triển sự nghiệp"
+              },
+              {
+                "en": "gain new knowledge",
+                "vi": "tiếp thu kiến thức mới"
+              },
+              {
+                "en": "develop new skills",
+                "vi": "phát triển kỹ năng mới"
+              },
+              {
+                "en": "gain experience",
+                "vi": "tích lũy kinh nghiệm"
+              },
+              {
+                "en": "chances of promotion",
+                "vi": "cơ hội thăng tiến"
+              },
+              {
+                "en": "job dissatisfaction",
+                "vi": "sự không hài lòng với công việc"
+              },
+              {
+                "en": "daily tasks",
+                "vi": "nhiệm vụ hằng ngày"
+              },
+              {
+                "en": "match one's interests and abilities",
+                "vi": "phù hợp với sở thích và khả năng"
+              },
+              {
+                "en": "suitable positions",
+                "vi": "vị trí phù hợp"
+              },
+              {
+                "en": "job satisfaction",
+                "vi": "sự hài lòng trong công việc"
+              },
+              {
+                "en": "work-life balance",
+                "vi": "sự cân bằng giữa công việc và cuộc sống"
+              },
+              {
+                "en": "spend too much time working",
+                "vi": "dành quá nhiều thời gian làm việc"
+              },
+              {
+                "en": "personal activities",
+                "vi": "hoạt động cá nhân"
+              },
+              {
+                "en": "flexible schedules",
+                "vi": "lịch trình linh hoạt"
+              },
+              {
+                "en": "take care of",
+                "vi": "chăm sóc"
+              },
+              {
+                "en": "financial difficulties",
+                "vi": "khó khăn tài chính"
+              },
+              {
+                "en": "lose one's income",
+                "vi": "mất thu nhập"
+              },
+              {
+                "en": "look for new employment",
+                "vi": "tìm kiếm công việc mới"
+              },
+              {
+                "en": "extra costs",
+                "vi": "chi phí phát sinh"
+              },
+              {
+                "en": "training courses",
+                "vi": "khóa đào tạo"
+              },
+              {
+                "en": "work productivity",
+                "vi": "năng suất làm việc"
+              },
+              {
+                "en": "company operations",
+                "vi": "hoạt động của công ty"
+              },
+              {
+                "en": "get used to",
+                "vi": "làm quen với"
+              },
+              {
+                "en": "working procedures",
+                "vi": "quy trình làm việc"
+              },
+              {
+                "en": "make mistakes",
+                "vi": "mắc lỗi"
+              },
+              {
+                "en": "new positions",
+                "vi": "vị trí mới"
+              },
+              {
+                "en": "employee turnover",
+                "vi": "tình trạng nhân viên nghỉ việc và được thay thế"
+              },
+              {
+                "en": "workload",
+                "vi": "khối lượng công việc"
+              },
+              {
+                "en": "recruitment costs",
+                "vi": "chi phí tuyển dụng"
+              },
+              {
+                "en": "replacement employees",
+                "vi": "nhân viên thay thế"
+              },
+              {
+                "en": "take on extra tasks",
+                "vi": "đảm nhận thêm nhiệm vụ"
+              },
+              {
+                "en": "under greater pressure",
+                "vi": "chịu áp lực lớn hơn"
+              },
+              {
+                "en": "professional relationships",
+                "vi": "các mối quan hệ trong công việc"
+              },
+              {
+                "en": "colleagues and managers",
+                "vi": "đồng nghiệp và cấp trên"
+              },
+              {
+                "en": "build trust",
+                "vi": "xây dựng lòng tin"
+              },
+              {
+                "en": "from the beginning",
+                "vi": "từ đầu"
+              },
+              {
+                "en": "long-term cooperation",
+                "vi": "sự hợp tác lâu dài"
+              },
+              {
+                "en": "receive support",
+                "vi": "nhận được sự hỗ trợ"
+              },
+              {
+                "en": "create a negative impression",
+                "vi": "tạo ấn tượng tiêu cực"
+              },
+              {
+                "en": "employers",
+                "vi": "nhà tuyển dụng"
+              },
+              {
+                "en": "candidates",
+                "vi": "ứng viên"
+              },
+              {
+                "en": "lack patience",
+                "vi": "thiếu kiên nhẫn"
+              },
+              {
+                "en": "stay with a company",
+                "vi": "gắn bó với một công ty"
+              },
+              {
+                "en": "be at a disadvantage",
+                "vi": "gặp bất lợi"
+              },
+              {
+                "en": "apply for a position",
+                "vi": "ứng tuyển vào một vị trí"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_cause_financial_career",
+                "name": "Nhóm 1: Động lực tài chính & Thăng tiến sự nghiệp (Financial & Career Drivers)",
+                "icon": "💼",
+                "badge": "Lương bổng & Cơ hội",
+                "items": [
+                  {
+                    "phrase": "offer higher salaries",
+                    "level": "B1",
+                    "vi": "trả mức lương cao hơn",
+                    "type": "v.phr",
+                    "example_en": "Competitor firms frequently offer higher salaries to attract skilled personnel.",
+                    "example_vi": "Các công ty đối thủ thường xuyên trả mức lương cao hơn để thu hút nhân sự lành nghề."
+                  },
+                  {
+                    "phrase": "improve one's financial situation",
+                    "level": "B1",
+                    "vi": "cải thiện tình hình tài chính",
+                    "type": "v.phr",
+                    "example_en": "Changing jobs can help professionals improve their financial situation quickly.",
+                    "example_vi": "Chuyển việc có thể giúp người đi làm cải thiện tình hình tài chính của mình một cách nhanh chóng."
+                  },
+                  {
+                    "phrase": "career development",
+                    "level": "B1",
+                    "vi": "sự phát triển nghề nghiệp",
+                    "type": "n.phr",
+                    "example_en": "Ambitious employees prioritize long-term career development over short-term comfort.",
+                    "example_vi": "Những nhân viên có tham vọng ưu tiên phát triển sự nghiệp lâu dài hơn sự thoải mái ngắn hạn."
+                  },
+                  {
+                    "phrase": "chances of promotion",
+                    "level": "B1",
+                    "vi": "cơ hội thăng tiến",
+                    "type": "n.phr",
+                    "example_en": "A lack of chances of promotion leads many capable workers to seek new employers.",
+                    "example_vi": "Việc thiếu cơ hội thăng tiến khiến nhiều nhân viên có năng lực tìm kiếm nhà tuyển dụng mới."
+                  },
+                  {
+                    "phrase": "gain new knowledge",
+                    "level": "B1",
+                    "vi": "tiếp thu kiến thức mới",
+                    "type": "v.phr",
+                    "example_en": "Switching industries allows workers to gain new knowledge and diverse experience.",
+                    "example_vi": "Chuyển đổi ngành nghề cho phép người lao động tiếp thu kiến thức mới và kinh nghiệm đa dạng."
+                  }
+                ]
+              },
+              {
+                "id": "group_cause_workplace_balance",
+                "name": "Nhóm 2: Môi trường làm việc & Cân bằng cuộc sống (Working Environment & Balance)",
+                "icon": "⚖️",
+                "badge": "Môi trường & Đời sống",
+                "items": [
+                  {
+                    "phrase": "working conditions",
+                    "level": "B1",
+                    "vi": "điều kiện làm việc",
+                    "type": "n.phr",
+                    "example_en": "Unfavorable working conditions are a primary reason for high staff turnover.",
+                    "example_vi": "Điều kiện làm việc bất lợi là nguyên nhân chính dẫn đến tỷ lệ nhân viên nghỉ việc cao."
+                  },
+                  {
+                    "phrase": "work long hours",
+                    "level": "B1",
+                    "vi": "làm việc nhiều giờ",
+                    "type": "v.phr",
+                    "example_en": "Having to work long hours without overtime pay causes deep employee resentment.",
+                    "example_vi": "Việc phải làm việc nhiều giờ mà không có phụ cấp tăng ca gây ra sự bất mãn sâu sắc."
+                  },
+                  {
+                    "phrase": "deal with high pressure",
+                    "level": "B2",
+                    "vi": "đối mặt với áp lực lớn",
+                    "type": "v.phr",
+                    "example_en": "Staff who deal with high pressure every day are susceptible to physical burnout.",
+                    "example_vi": "Nhân viên đối mặt với áp lực lớn mỗi ngày rất dễ rơi vào tình trạng kiệt sức."
+                  },
+                  {
+                    "phrase": "work-life balance",
+                    "level": "B1",
+                    "vi": "sự cân bằng giữa công việc và cuộc sống",
+                    "type": "n.phr",
+                    "example_en": "Maintaining a healthy work-life balance is essential for sustained productivity.",
+                    "example_vi": "Duy trì sự cân bằng lành mạnh giữa công việc và cuộc sống là điều cần thiết để có năng suất bền vững."
+                  },
+                  {
+                    "phrase": "flexible working hours",
+                    "level": "B1",
+                    "vi": "giờ làm việc linh hoạt",
+                    "type": "n.phr",
+                    "example_en": "Companies offering flexible working hours attract a wider pool of applicants.",
+                    "example_vi": "Các công ty có giờ làm việc linh hoạt thu hút được lượng ứng viên rộng rãi hơn."
+                  }
+                ]
+              },
+              {
+                "id": "group_effect_individual",
+                "name": "Nhóm 3: Tác động tiêu cực đối với người lao động (Adverse Effects on Employees)",
+                "icon": "📉",
+                "badge": "Hậu quả cá nhân",
+                "items": [
+                  {
+                    "phrase": "financial difficulties",
+                    "level": "B1",
+                    "vi": "khó khăn về tài chính",
+                    "type": "n.phr",
+                    "example_en": "Job hoppers may encounter financial difficulties during career gaps.",
+                    "example_vi": "Những người nhảy việc có thể gặp khó khăn tài chính trong các giai đoạn chuyển tiếp."
+                  },
+                  {
+                    "phrase": "lose one's income",
+                    "level": "B1",
+                    "vi": "mất đi nguồn thu nhập",
+                    "type": "v.phr",
+                    "example_en": "Workers who resign without a signed offer risk losing their income temporarily.",
+                    "example_vi": "Những người lao động nghỉ việc khi chưa có thư mời nhận việc có nguy cơ mất thu nhập tạm thời."
+                  },
+                  {
+                    "phrase": "create a negative impression",
+                    "level": "B2",
+                    "vi": "tạo ấn tượng tiêu cực",
+                    "type": "v.phr",
+                    "example_en": "Numerous short stints on a resume create a negative impression on recruiters.",
+                    "example_vi": "Nhiều khoảng thời gian làm việc ngắn trên CV tạo ấn tượng tiêu cực đối với nhà tuyển dụng."
+                  },
+                  {
+                    "phrase": "lack patience",
+                    "level": "B1",
+                    "vi": "thiếu sự kiên nhẫn",
+                    "type": "v.phr",
+                    "example_en": "Employers often assume that frequent movers lack patience to overcome challenges.",
+                    "example_vi": "Nhà tuyển dụng thường cho rằng những người chuyển việc thường xuyên thiếu kiên nhẫn để vượt qua khó khăn."
+                  },
+                  {
+                    "phrase": "be at a disadvantage",
+                    "level": "B2",
+                    "vi": "gặp bất lợi",
+                    "type": "v.phr",
+                    "example_en": "Unstable candidates are at a disadvantage when competing for senior appointments.",
+                    "example_vi": "Các ứng viên có lịch sử làm việc thiếu ổn định gặp bất lợi khi cạnh tranh vào các vị trí cấp cao."
+                  }
+                ]
+              },
+              {
+                "id": "group_effect_employers",
+                "name": "Nhóm 4: Thách thức đối với nhà tuyển dụng & Doanh nghiệp (Challenges for Employers)",
+                "icon": "🏢",
+                "badge": "Gánh nặng doanh nghiệp",
+                "items": [
+                  {
+                    "phrase": "employee turnover",
+                    "level": "B2",
+                    "vi": "tỷ lệ thay thế nhân sự",
+                    "type": "n.phr",
+                    "example_en": "Excessive employee turnover drains company financial and human resources.",
+                    "example_vi": "Tỷ lệ thay thế nhân sự quá mức làm tiêu hao nguồn tài chính và nhân lực của công ty."
+                  },
+                  {
+                    "phrase": "recruitment costs",
+                    "level": "B1",
+                    "vi": "chi phí tuyển dụng",
+                    "type": "n.phr",
+                    "example_en": "High turnover inevitably inflates advertising and recruitment costs.",
+                    "example_vi": "Tỷ lệ nghỉ việc cao chắc chắn làm tăng chi phí quảng cáo và tuyển dụng."
+                  },
+                  {
+                    "phrase": "replacement employees",
+                    "level": "B2",
+                    "vi": "nhân viên thay thế",
+                    "type": "n.phr",
+                    "example_en": "Onboarding replacement employees requires weeks of dedicated supervisory time.",
+                    "example_vi": "Đào tạo nhân viên thay thế đòi hỏi nhiều tuần giám sát tận tụy của cấp trên."
+                  },
+                  {
+                    "phrase": "take on extra tasks",
+                    "level": "B1",
+                    "vi": "đảm nhận thêm nhiệm vụ",
+                    "type": "v.phr",
+                    "example_en": "Remaining workers must take on extra tasks to maintain team deadlines.",
+                    "example_vi": "Các nhân viên ở lại phải gánh thêm nhiệm vụ để đảm bảo tiến độ của nhóm."
+                  },
+                  {
+                    "phrase": "under greater pressure",
+                    "level": "B1",
+                    "vi": "chịu áp lực lớn hơn",
+                    "type": "prep.phr",
+                    "example_en": "Understaffed departments operate under greater pressure, raising error rates.",
+                    "example_vi": "Các phòng ban thiếu nhân sự phải hoạt động dưới áp lực lớn hơn, làm tăng tỷ lệ sai sót."
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "<p>In recent years, job hopping has become a popular trend among young workers in modern society. While some people believe that changing jobs brings fresh opportunities, this phenomenon is driven by specific causes and can lead to notable negative effects.</p>\n\n<p>To begin with, there are two primary reasons why employees frequently change their jobs. First, the search for higher salaries motivates many workers to move to other companies, especially when their current wages cannot keep up with rising living expenses. Another key factor is the pursuit of better career development. Many young professionals feel that their existing positions lack promotion opportunities or learning potential, so they seek new jobs to acquire valuable skills and advance their careers.</p>\n\n<p>However, frequent job switching can lead to significant drawbacks for both workers and companies. For individual employees, leaving a job can cause temporary financial instability because they might lose their income while looking for new employment. Furthermore, it can damage their professional reputation. Hiring managers often hesitate to recruit candidates who change jobs too often, suspecting that they lack patience and organizational loyalty. For employers, constant employee turnover increases recruitment and training expenses, while placing heavier workloads on the remaining staff.</p>\n\n<p>In conclusion, the desire for higher income and career growth are the main driving forces behind job hopping. Nonetheless, this practice can result in financial hardship and reduced career prospects. Therefore, workers should consider their decisions carefully before switching careers.</p>",
+          "translation_b1": "Trong những năm gần đây, nhảy việc đã trở thành một xu hướng phổ biến trong giới lao động trẻ trong xã hội hiện đại. Mặc dù một số người tin rằng thay đổi công việc mang lại những cơ hội mới, hiện tượng này bắt nguồn từ những nguyên nhân cụ thể và có thể dẫn đến những ảnh hưởng tiêu cực đáng kể.\n\nTrước hết, có hai lý do chính khiến nhân viên thường xuyên thay đổi công việc. Thứ nhất, việc tìm kiếm mức lương cao hơn thúc đẩy nhiều người chuyển sang các công ty khác, đặc biệt khi mức lương hiện tại không theo kịp chi phí sinh hoạt ngày càng tăng. Một yếu tố quan trọng khác là việc theo đuổi sự phát triển sự nghiệp tốt hơn. Nhiều nhân sự trẻ cảm thấy vị trí hiện tại thiếu cơ hội thăng tiến hoặc tiềm năng học hỏi, vì vậy họ tìm kiếm công việc mới để tiếp thu các kỹ năng giá trị và thăng tiến trong sự nghiệp.\n\nTuy nhiên, việc nhảy việc liên tục có thể dẫn đến những bất lợi lớn cho cả người lao động và doanh nghiệp. Đối với cá nhân người lao động, nghỉ việc có thể gây ra bất ổn tài chính tạm thời vì họ có thể mất nguồn thu nhập trong khi tìm việc làm mới. Hơn nữa, điều này có thể làm tổn hại đến danh tiếng nghề nghiệp của họ. Các nhà tuyển dụng thường do dự khi tuyển những ứng viên thay đổi việc quá thường xuyên, do nghi ngờ họ thiếu sự kiên nhẫn và lòng trung thành với tổ chức. Đối với người sử dụng lao động, tỷ lệ luân chuyển nhân sự liên tục làm tăng chi phí tuyển dụng và đào tạo, đồng thời tạo ra khối lượng công việc nặng nề hơn cho đội ngũ nhân viên còn lại.\n\nTóm lại, mong muốn có thu nhập cao hơn và phát triển sự nghiệp là những động lực chính đằng sau hiện tượng nhảy việc. Tuy nhiên, thói quen này có thể dẫn đến khó khăn tài chính và làm giảm triển vọng nghề nghiệp. Do đó, người lao động nên cân nhắc kỹ lưỡng các quyết định của mình trước khi chuyển đổi nghề nghiệp.",
+          "sample_b2": "<p>In today's dynamic and competitive labor market, job hopping—the practice of changing employers at relatively short intervals—has evolved from an unconventional choice into a prevalent phenomenon among millennial and Gen Z professionals. While this trend is primarily precipitated by remuneration aspirations and career advancement motives, it simultaneously produces detrimental repercussions for both individual career trajectories and organizational stability.</p>\n\n<p>There are several fundamental drivers underpinning the surge in voluntary turnover. Chief among these is the pursuit of competitive compensation packages. In an era marked by escalating living expenditures, professionals frequently realize that external lateral moves yield considerably larger pay increments than internal merit increases. Furthermore, contemporary employees place unprecedented emphasis on professional fulfillment and work-life balance. When confronted with stagnant organizational hierarchies, uninspiring daily tasks, or toxic managerial cultures, ambitious individuals actively seek alternative positions that promise holistic career development, modern upskilling opportunities, and flexible working arrangements.</p>\n\n<p>Conversely, the recurrent disruption of employment tenure entails grave drawbacks that should not be overlooked. From an employee perspective, frequent mobility can severely compromise long-term professional credibility. Talent acquisition specialists and senior executives routinely perceive serial job hoppers as unreliable candidates deficient in perseverance and organizational allegiance, potentially disqualifying them from senior leadership roles that necessitate sustained dedication. Moreover, perpetual transitions impede the cultivation of profound workplace relationships and institutional trust. From an enterprise viewpoint, elevated attrition rates impose staggering financial burdens related to headhunting and onboarding replacement staff, while simultaneously disrupting workflow continuity and demoralizing retained personnel who must absorb surplus workloads.</p>\n\n<p>In conclusion, while job hopping is fundamentally catalyzed by legitimate ambitions for financial prosperity and superior working conditions, excessive volatility can prejudice career prospects and undermine corporate productivity. Striking a judicious equilibrium between personal career agility and institutional commitment remains imperative for sustainable professional success.</p>",
+          "translation_b2": "Trong thị trường lao động năng động và cạnh tranh ngày nay, nhảy việc — thói quen thay đổi nơi làm việc sau những khoảng thời gian tương đối ngắn — đã phát triển từ một lựa chọn khác biệt thành một hiện tượng phổ biến trong giới nhân sự thế hệ Millennials và Gen Z. Mặc dù xu hướng này chủ yếu bắt nguồn từ nguyện vọng về thù lao và động lực thăng tiến nghề nghiệp, nó đồng thời gây ra những hệ lụy tiêu cực cho cả lộ trình sự nghiệp cá nhân lẫn sự ổn định của tổ chức.\n\nCó một số động lực cốt lõi thúc đẩy sự gia tăng của tình trạng tự nguyện thôi việc. Đứng đầu trong số này là việc theo đuổi các gói đãi ngộ cạnh tranh. Trong thời đại được đánh dấu bởi chi phí sinh hoạt leo thang, người đi làm thường nhận ra rằng việc chuyển việc sang công ty khác mang lại mức tăng lương lớn hơn đáng kể so với các đợt tăng lương định kỳ nội bộ. Hơn nữa, người lao động đương đại đặt sự chú trọng chưa từng có vào sự thỏa mãn nghề nghiệp và cân bằng giữa công việc với cuộc sống. Khi đối mặt với hệ thống phân cấp tổ chức trì trệ, nhiệm vụ hằng ngày tẻ nhạt hoặc văn hóa quản lý độc hại, các cá nhân giàu tham vọng chủ động tìm kiếm các vị trí thay thế hứa hẹn sự phát triển nghề nghiệp toàn diện, cơ hội nâng cao kỹ năng hiện đại và chế độ làm việc linh hoạt.\n\nNgược lại, sự gián đoạn liên tục của thời gian làm việc mang lại những bất lợi nghiêm trọng không thể bỏ qua. Từ góc độ nhân viên, việc thay đổi liên tục có thể làm tổn hại nghiêm trọng đến uy tín nghề nghiệp lâu dài. Các chuyên gia tuyển dụng và lãnh đạo cấp cao thường nhìn nhận những người nhảy việc liên miên là những ứng viên thiếu độ tin cậy, thiếu sự kiên nhẫn và lòng trung thành với tổ chức, từ đó có thể tước đi cơ hội của họ đối với các vị trí lãnh đạo cấp cao vốn đòi hỏi sự cống hiến bền bỉ. Hơn nữa, việc chuyển đổi liên tục cản trở sự xây dựng các mối quan hệ sâu sắc tại nơi làm việc và lòng tin từ tổ chức. Từ góc độ doanh nghiệp, tỷ lệ nghỉ việc cao đặt ra gánh nặng tài chính khổng lồ liên quan đến việc săn đầu người và đào tạo nhân viên thay thế, đồng thời làm gián đoạn tính liên tục của quy trình làm việc và gây nản lòng cho nhân viên ở lại khi phải gánh thêm khối lượng công việc dư thừa.\n\nTóm lại, trong khi nhảy việc về cơ bản được thúc đẩy bởi những tham vọng chính đáng về sự thịnh vượng tài chính và điều kiện làm việc ưu việt, thì sự thay đổi quá mức có thể gây tổn hại đến triển vọng nghề nghiệp và làm suy giảm năng suất của doanh nghiệp. Việc duy trì sự cân bằng khôn ngoan giữa sự linh hoạt trong sự nghiệp cá nhân và cam kết gắn bó với tổ chức vẫn là điều kiện tiên quyết cho sự thành công nghề nghiệp bền vững.",
+          "reference_articles": [
+            {
+              "title": "The Causes and Consequences of Job Hopping in Modern Workplaces",
+              "source": "Harvard Business Review",
+              "summary": "Nghiên cứu toàn diện về động lực thúc đẩy người lao động chuyển việc, sự gia tăng mức lương ngắn hạn so với những rủi ro danh tiếng nghề nghiệp lâu dài.",
+              "url": "https://hbr.org/topic/career-transitions"
+            },
+            {
+              "title": "Why Millennials and Gen Z Change Jobs Frequently: A Labor Market Study",
+              "source": "Journal of Applied Psychology",
+              "summary": "Khảo sát tâm lý và hành vi nghề nghiệp của thế hệ lao động trẻ: ưu tiên sự cân bằng cuộc sống, cơ hội học hỏi kỹ năng mới và môi trường làm việc linh hoạt.",
+              "url": "https://www.apa.org/pubs/journals/apl"
+            },
+            {
+              "title": "The Hidden Costs of Employee Turnover for Employers",
+              "source": "Forbes Human Resources Council",
+              "summary": "Phân tích tác động tài chính và hiệu suất làm việc đối với doanh nghiệp khi đối mặt với tỷ lệ nhân viên nghỉ việc cao và giải pháp giữ chân nhân tài.",
+              "url": "https://www.forbes.com/human-resources-council"
+            }
+          ]
+        }
       },
       {
         "id": 35,
