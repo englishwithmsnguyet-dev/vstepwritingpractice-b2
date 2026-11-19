@@ -161293,8 +161293,2200 @@ const ESSAY_DATA = [
         "title_vi": "Các cách chia sẻ văn hoá",
         "tags": "[Solutions]",
         "context": "Culture plays an important role in shaping a society's identity, traditions, values, and way of life. In today's globalized world, sharing culture has become increasingly important because it helps people from different backgrounds understand and appreciate one another. Governments, communities, educational institutions, and individuals can all contribute to promoting cultural exchange and preserving cultural heritage.",
+        "context_vi": "Văn hóa đóng vai trò quan trọng trong việc định hình bản sắc, truyền thống, các giá trị và lối sống của một xã hội. Trong thế giới toàn cầu hóa ngày nay, việc chia sẻ văn hóa ngày càng trở nên quan trọng vì nó giúp mọi người từ các nền tảng khác nhau thấu hiểu và trân trọng lẫn nhau. Chính phủ, cộng đồng, các cơ sở giáo dục và mỗi cá nhân đều có thể đóng góp vào việc thúc đẩy giao lưu văn hóa và bảo tồn di sản văn hóa.",
         "prompt": "Write an essay to an educated reader to suggest possible ways of sharing culture. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "prompt_vi": "Hãy viết một bài luận gửi tới một độc giả có học thức để đề xuất các cách có thể thực hiện nhằm chia sẻ văn hóa. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên các tiêu chí: Đáp ứng yêu cầu đề bài, Tổ chức bài viết, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "original": "sharing culture",
+            "rewrites": [
+              {
+                "en": "promoting cultural exchange and mutual understanding",
+                "vi": "thúc đẩy giao lưu văn hóa và hiểu biết lẫn nhau"
+              },
+              {
+                "en": "disseminating cultural traditions and heritage to the world",
+                "vi": "lan tỏa các truyền thống văn hóa và di sản ra thế giới"
+              },
+              {
+                "en": "introducing national culture to international communities",
+                "vi": "giới thiệu văn hóa dân tộc đến cộng đồng quốc tế"
+              }
+            ]
+          },
+          {
+            "original": "possible ways to share culture",
+            "rewrites": [
+              {
+                "en": "practical approaches that governments, schools, and citizens can adopt",
+                "vi": "những cách tiếp cận thiết thực mà chính phủ, nhà trường và người dân có thể áp dụng"
+              },
+              {
+                "en": "effective measures to foster intercultural dialogue and connection",
+                "vi": "những giải pháp hiệu quả nhằm thúc đẩy đối thoại và kết nối liên văn hóa"
+              },
+              {
+                "en": "meaningful initiatives to bridge cultural divides and celebrate diversity",
+                "vi": "những sáng kiến ý nghĩa nhằm xóa nhòa ranh giới văn hóa và tôn vinh sự đa dạng"
+              }
+            ]
+          }
+        ],
+        "details": {
+          "mindmap_img": "",
+          "mindmap_img_en": "",
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CÁCH 01: TỔ CHỨC CÁC LỄ HỘI VĂN HÓA (ORGANIZING CULTURAL FESTIVALS)",
+                "point_vi": "Chính phủ và cộng đồng có thể tổ chức các lễ hội văn hóa để giới thiệu những nét đặc trưng của đất nước đến với mọi người.",
+                "point_en": "Governments and communities can organize cultural festivals to introduce the unique features of their countries to the public.",
+                "point_collocations": [
+                  {
+                    "en": "organize cultural festivals",
+                    "vi": "tổ chức các lễ hội văn hóa"
+                  },
+                  {
+                    "en": "introduce the unique features",
+                    "vi": "giới thiệu những nét đặc trưng"
+                  },
+                  {
+                    "en": "to the public",
+                    "vi": "đến với công chúng / mọi người"
+                  },
+                  {
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
+                  }
+                ],
+                "evidence_vi": "Những sự kiện này có thể giới thiệu các món ăn truyền thống, trang phục, âm nhạc và điệu múa dân gian. Du khách có cơ hội trực tiếp trải nghiệm những hoạt động văn hóa thay vì chỉ tìm hiểu qua sách vở hoặc Internet. Người dân địa phương cũng có thể chia sẻ phong tục và truyền thống của mình với khách nước ngoài. Nhờ đó, mọi người có thể hiểu rõ hơn về các nền văn hóa khác nhau và phát triển sự tôn trọng đối với những khác biệt văn hóa.",
+                "evidence_en": "These events can introduce traditional food, costumes, music and folk dances. Visitors have a chance to experience cultural activities instead of only learning about them through books or the Internet. Local people can also share their customs and traditions with foreign visitors. As a result, people can better understand different cultures and develop respect for cultural differences.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "introduce traditional food",
+                      "vi": "giới thiệu các món ăn truyền thống"
+                    },
+                    {
+                      "en": "traditional costumes",
+                      "vi": "trang phục truyền thống"
+                    },
+                    {
+                      "en": "folk dances",
+                      "vi": "điệu múa dân gian"
+                    },
+                    {
+                      "en": "traditional music",
+                      "vi": "âm nhạc truyền thống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "have a chance to",
+                      "vi": "có cơ hội làm gì"
+                    },
+                    {
+                      "en": "experience cultural activities",
+                      "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+                    },
+                    {
+                      "en": "instead of",
+                      "vi": "thay vì"
+                    },
+                    {
+                      "en": "learn through books or the Internet",
+                      "vi": "tìm hiểu qua sách vở hoặc Internet"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "local people",
+                      "vi": "người dân địa phương"
+                    },
+                    {
+                      "en": "share customs and traditions",
+                      "vi": "chia sẻ phong tục và truyền thống"
+                    },
+                    {
+                      "en": "foreign visitors",
+                      "vi": "khách nước ngoài, du khách quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "as a result",
+                      "vi": "nhờ đó, kết quả là"
+                    },
+                    {
+                      "en": "understand different cultures",
+                      "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
+                    },
+                    {
+                      "en": "develop respect for",
+                      "vi": "phát triển sự tôn trọng đối với"
+                    },
+                    {
+                      "en": "cultural differences",
+                      "vi": "những khác biệt văn hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "organize cultural festivals",
+                    "vi": "tổ chức các lễ hội văn hóa"
+                  },
+                  {
+                    "en": "introduce the unique features",
+                    "vi": "giới thiệu những nét đặc trưng"
+                  },
+                  {
+                    "en": "to the public",
+                    "vi": "đến với công chúng / mọi người"
+                  },
+                  {
+                    "en": "traditional food",
+                    "vi": "món ăn truyền thống"
+                  },
+                  {
+                    "en": "traditional costumes",
+                    "vi": "trang phục truyền thống"
+                  },
+                  {
+                    "en": "folk dances",
+                    "vi": "điệu múa dân gian"
+                  },
+                  {
+                    "en": "have a chance to",
+                    "vi": "có cơ hội làm gì"
+                  },
+                  {
+                    "en": "experience cultural activities",
+                    "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+                  },
+                  {
+                    "en": "instead of",
+                    "vi": "thay vì"
+                  },
+                  {
+                    "en": "learn through books or the Internet",
+                    "vi": "tìm hiểu qua sách vở hoặc Internet"
+                  },
+                  {
+                    "en": "local people",
+                    "vi": "người dân địa phương"
+                  },
+                  {
+                    "en": "share customs and traditions",
+                    "vi": "chia sẻ phong tục và truyền thống"
+                  },
+                  {
+                    "en": "foreign visitors",
+                    "vi": "khách nước ngoài, du khách quốc tế"
+                  },
+                  {
+                    "en": "understand different cultures",
+                    "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
+                  },
+                  {
+                    "en": "develop respect for",
+                    "vi": "phát triển sự tôn trọng đối với"
+                  },
+                  {
+                    "en": "cultural differences",
+                    "vi": "những khác biệt văn hóa"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 02: SỬ DỤNG MẠNG XÃ HỘI VÀ CÁC NỀN TẢNG KỸ THUẬT SỐ (USING SOCIAL MEDIA AND DIGITAL PLATFORMS)",
+                "point_vi": "Mạng xã hội và các nền tảng trực tuyến giúp mọi người chia sẻ văn hóa với người dân ở nhiều quốc gia một cách nhanh chóng và dễ dàng.",
+                "point_en": "Social media and online platforms help people share their cultures with people in different countries quickly and easily.",
+                "point_collocations": [
+                  {
+                    "en": "social media and online platforms",
+                    "vi": "mạng xã hội và các nền tảng trực tuyến"
+                  },
+                  {
+                    "en": "share culture with",
+                    "vi": "chia sẻ văn hóa với"
+                  },
+                  {
+                    "en": "in different countries",
+                    "vi": "ở nhiều quốc gia khác nhau"
+                  },
+                  {
+                    "en": "quickly and easily",
+                    "vi": "một cách nhanh chóng và dễ dàng"
+                  }
+                ],
+                "evidence_vi": "Mọi người có thể đăng tải hình ảnh, video và bài viết về ẩm thực, lễ hội và lối sống truyền thống của đất nước mình. Những nội dung này có thể tiếp cận lượng lớn người xem trên toàn thế giới mà không cần phải đi du lịch. Người dùng từ các quốc gia khác nhau cũng có thể bình luận, đặt câu hỏi và trao đổi thông tin về văn hóa của họ. Điều này giúp mọi người mở rộng hiểu biết về thế giới và kết nối với những người có nền tảng văn hóa khác nhau.",
+                "evidence_en": "People can post pictures, videos and articles about their country's food, festivals and traditional lifestyles. This content can reach a large number of people around the world without the need to travel. Users from different countries can also leave comments, ask questions and exchange information about their cultures. This helps people broaden their knowledge of the world and connect with people from different cultural backgrounds.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "post pictures and videos",
+                      "vi": "đăng tải hình ảnh và video"
+                    },
+                    {
+                      "en": "articles about",
+                      "vi": "các bài viết về"
+                    },
+                    {
+                      "en": "traditional lifestyles",
+                      "vi": "lối sống truyền thống"
+                    },
+                    {
+                      "en": "cultural festivals",
+                      "vi": "lễ hội văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reach a large number of people",
+                      "vi": "tiếp cận lượng lớn người xem"
+                    },
+                    {
+                      "en": "around the world",
+                      "vi": "trên toàn thế giới"
+                    },
+                    {
+                      "en": "without the need to travel",
+                      "vi": "mà không cần phải đi du lịch"
+                    },
+                    {
+                      "en": "global audience",
+                      "vi": "khán giả toàn cầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "leave comments",
+                      "vi": "để lại bình luận"
+                    },
+                    {
+                      "en": "ask questions",
+                      "vi": "đặt câu hỏi"
+                    },
+                    {
+                      "en": "exchange information about",
+                      "vi": "trao đổi thông tin về"
+                    },
+                    {
+                      "en": "interactive communication",
+                      "vi": "giao tiếp tương tác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broaden one's knowledge of the world",
+                      "vi": "mở rộng hiểu biết về thế giới"
+                    },
+                    {
+                      "en": "connect with people",
+                      "vi": "kết nối với mọi người"
+                    },
+                    {
+                      "en": "different cultural backgrounds",
+                      "vi": "những nền tảng văn hóa khác nhau"
+                    },
+                    {
+                      "en": "global community",
+                      "vi": "cộng đồng toàn cầu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital platforms",
+                    "vi": "nền tảng kỹ thuật số"
+                  },
+                  {
+                    "en": "social media and online platforms",
+                    "vi": "mạng xã hội và các nền tảng trực tuyến"
+                  },
+                  {
+                    "en": "share culture with",
+                    "vi": "chia sẻ văn hóa với"
+                  },
+                  {
+                    "en": "post pictures and videos",
+                    "vi": "đăng tải hình ảnh và video"
+                  },
+                  {
+                    "en": "traditional lifestyles",
+                    "vi": "lối sống truyền thống"
+                  },
+                  {
+                    "en": "reach a large number of people",
+                    "vi": "tiếp cận lượng lớn người xem"
+                  },
+                  {
+                    "en": "around the world",
+                    "vi": "trên toàn thế giới"
+                  },
+                  {
+                    "en": "without the need to travel",
+                    "vi": "mà không cần phải đi du lịch"
+                  },
+                  {
+                    "en": "leave comments",
+                    "vi": "để lại bình luận"
+                  },
+                  {
+                    "en": "ask questions",
+                    "vi": "đặt câu hỏi"
+                  },
+                  {
+                    "en": "exchange information about",
+                    "vi": "trao đổi thông tin về"
+                  },
+                  {
+                    "en": "broaden one's knowledge of the world",
+                    "vi": "mở rộng hiểu biết về thế giới"
+                  },
+                  {
+                    "en": "connect with people",
+                    "vi": "kết nối với mọi người"
+                  },
+                  {
+                    "en": "different cultural backgrounds",
+                    "vi": "những nền tảng văn hóa khác nhau"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 03: ĐƯA GIÁO DỤC VĂN HÓA VÀO CHƯƠNG TRÌNH HỌC (INCLUDING CULTURAL EDUCATION IN SCHOOL PROGRAMMES)",
+                "point_vi": "Các trường học nên đưa những nội dung về văn hóa vào chương trình giảng dạy để giúp học sinh hiểu và trân trọng các nền văn hóa khác nhau.",
+                "point_en": "Schools should include cultural topics in their teaching programmes to help students understand and appreciate different cultures.",
+                "point_collocations": [
+                  {
+                    "en": "include cultural topics in",
+                    "vi": "đưa những nội dung về văn hóa vào"
+                  },
+                  {
+                    "en": "teaching programmes",
+                    "vi": "chương trình giảng dạy"
+                  },
+                  {
+                    "en": "understand and appreciate",
+                    "vi": "thấu hiểu và trân trọng"
+                  },
+                  {
+                    "en": "different cultures",
+                    "vi": "các nền văn hóa khác nhau"
+                  }
+                ],
+                "evidence_vi": "Giáo viên có thể giới thiệu cho học sinh về lịch sử, phong tục, lễ hội và truyền thống của các quốc gia khác nhau. Học sinh có thể tham gia các hoạt động như thuyết trình, làm dự án và tìm hiểu về các nền văn hóa trên thế giới. Những hoạt động này giúp các em phát triển kiến thức và hiểu biết về sự đa dạng văn hóa. Quan trọng hơn, học sinh sẽ học cách tôn trọng những người có lối sống, niềm tin và truyền thống khác với mình.",
+                "evidence_en": "Teachers can introduce students to the history, customs, festivals and traditions of different countries. Students can take part in activities such as presentations, projects and research about cultures around the world. These activities help them develop their knowledge and understanding of cultural diversity. More importantly, students will learn to respect people with different lifestyles, beliefs and traditions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "introduce somebody to something",
+                      "vi": "giới thiệu cho ai về điều gì"
+                    },
+                    {
+                      "en": "customs and traditions",
+                      "vi": "phong tục và truyền thống"
+                    },
+                    {
+                      "en": "festivals and history",
+                      "vi": "lễ hội và lịch sử"
+                    },
+                    {
+                      "en": "different countries",
+                      "vi": "các quốc gia khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take part in activities",
+                      "vi": "tham gia các hoạt động"
+                    },
+                    {
+                      "en": "presentations and projects",
+                      "vi": "thuyết trình và làm dự án"
+                    },
+                    {
+                      "en": "research about cultures",
+                      "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+                    },
+                    {
+                      "en": "cultures around the world",
+                      "vi": "các nền văn hóa trên thế giới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop knowledge and understanding",
+                      "vi": "phát triển kiến thức và hiểu biết"
+                    },
+                    {
+                      "en": "cultural diversity",
+                      "vi": "sự đa dạng văn hóa"
+                    },
+                    {
+                      "en": "broaden students' horizons",
+                      "vi": "mở rộng tầm nhìn của học sinh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "more importantly",
+                      "vi": "quan trọng hơn là"
+                    },
+                    {
+                      "en": "learn to respect people",
+                      "vi": "học cách tôn trọng người khác"
+                    },
+                    {
+                      "en": "different lifestyles",
+                      "vi": "lối sống khác nhau"
+                    },
+                    {
+                      "en": "beliefs and traditions",
+                      "vi": "niềm tin và truyền thống"
+                    },
+                    {
+                      "en": "respect differences",
+                      "vi": "tôn trọng sự khác biệt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "teaching programmes",
+                    "vi": "chương trình giảng dạy"
+                  },
+                  {
+                    "en": "include cultural topics in",
+                    "vi": "đưa những nội dung về văn hóa vào"
+                  },
+                  {
+                    "en": "understand and appreciate",
+                    "vi": "thấu hiểu và trân trọng"
+                  },
+                  {
+                    "en": "introduce somebody to something",
+                    "vi": "giới thiệu cho ai về điều gì"
+                  },
+                  {
+                    "en": "customs and traditions",
+                    "vi": "phong tục và truyền thống"
+                  },
+                  {
+                    "en": "take part in activities",
+                    "vi": "tham gia các hoạt động"
+                  },
+                  {
+                    "en": "presentations and projects",
+                    "vi": "thuyết trình và làm dự án"
+                  },
+                  {
+                    "en": "research about cultures",
+                    "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+                  },
+                  {
+                    "en": "cultural diversity",
+                    "vi": "sự đa dạng văn hóa"
+                  },
+                  {
+                    "en": "learn to respect people",
+                    "vi": "học cách tôn trọng người khác"
+                  },
+                  {
+                    "en": "different lifestyles",
+                    "vi": "lối sống khác nhau"
+                  },
+                  {
+                    "en": "beliefs and traditions",
+                    "vi": "niềm tin và truyền thống"
+                  },
+                  {
+                    "en": "respect differences",
+                    "vi": "tôn trọng sự khác biệt"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 04: THÚC ĐẨY CÁC CHƯƠNG TRÌNH GIAO LƯU VĂN HÓA (PROMOTING CULTURAL EXCHANGE PROGRAMMES)",
+                "point_vi": "Các chương trình giao lưu văn hóa tạo cơ hội cho mọi người trực tiếp gặp gỡ và tìm hiểu về cuộc sống của những người đến từ các quốc gia khác.",
+                "point_en": "Cultural exchange programmes give people opportunities to meet and learn about the lives of people from other countries.",
+                "point_collocations": [
+                  {
+                    "en": "cultural exchange programmes",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "give people opportunities to",
+                    "vi": "tạo cơ hội cho mọi người làm gì"
+                  },
+                  {
+                    "en": "meet and learn about",
+                    "vi": "gặp gỡ và tìm hiểu về"
+                  },
+                  {
+                    "en": "people from other countries",
+                    "vi": "người dân đến từ các quốc gia khác"
+                  }
+                ],
+                "evidence_vi": "Chính phủ và các trường đại học có thể tổ chức các chương trình trao đổi sinh viên hoặc các chuyến thăm quốc tế. Người tham gia có thể sống, học tập hoặc làm việc cùng người dân địa phương trong một khoảng thời gian. Qua những trải nghiệm thực tế này, họ có thể tìm hiểu về cách giao tiếp, thói quen sinh hoạt và các giá trị văn hóa của người dân địa phương. Những cuộc gặp gỡ trực tiếp này giúp xây dựng tình bạn, giảm định kiến và tăng cường sự hiểu biết giữa các quốc gia.",
+                "evidence_en": "Governments and universities can organize student exchange programmes or international visits. Participants can live, study or work with local people for a period of time. Through these real-life experiences, they can learn about local people's communication styles, daily habits and cultural values. These face-to-face interactions help build friendships, reduce stereotypes and improve understanding between countries.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "governments and universities",
+                      "vi": "chính phủ và các trường đại học"
+                    },
+                    {
+                      "en": "student exchange programmes",
+                      "vi": "chương trình trao đổi sinh viên"
+                    },
+                    {
+                      "en": "international visits",
+                      "vi": "các chuyến thăm quốc tế"
+                    },
+                    {
+                      "en": "organize exchange activities",
+                      "vi": "tổ chức các hoạt động giao lưu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "participants",
+                      "vi": "người tham gia"
+                    },
+                    {
+                      "en": "live, study or work with",
+                      "vi": "sống, học tập hoặc làm việc cùng"
+                    },
+                    {
+                      "en": "local people",
+                      "vi": "người dân địa phương"
+                    },
+                    {
+                      "en": "for a period of time",
+                      "vi": "trong một khoảng thời gian"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "real-life experiences",
+                      "vi": "trải nghiệm thực tế"
+                    },
+                    {
+                      "en": "communication styles",
+                      "vi": "cách giao tiếp, phong cách giao tiếp"
+                    },
+                    {
+                      "en": "daily habits",
+                      "vi": "thói quen sinh hoạt"
+                    },
+                    {
+                      "en": "cultural values",
+                      "vi": "các giá trị văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "face-to-face interactions",
+                      "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
+                    },
+                    {
+                      "en": "build friendships",
+                      "vi": "xây dựng tình bạn"
+                    },
+                    {
+                      "en": "reduce stereotypes",
+                      "vi": "giảm định kiến"
+                    },
+                    {
+                      "en": "improve understanding between countries",
+                      "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+                    },
+                    {
+                      "en": "mutual understanding",
+                      "vi": "sự hiểu biết lẫn nhau"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultural exchange programmes",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "student exchange programmes",
+                    "vi": "chương trình trao đổi sinh viên"
+                  },
+                  {
+                    "en": "international visits",
+                    "vi": "các chuyến thăm quốc tế"
+                  },
+                  {
+                    "en": "live, study or work with",
+                    "vi": "sống, học tập hoặc làm việc cùng"
+                  },
+                  {
+                    "en": "local people",
+                    "vi": "người dân địa phương"
+                  },
+                  {
+                    "en": "real-life experiences",
+                    "vi": "trải nghiệm thực tế"
+                  },
+                  {
+                    "en": "communication styles",
+                    "vi": "cách giao tiếp, phong cách giao tiếp"
+                  },
+                  {
+                    "en": "daily habits",
+                    "vi": "thói quen sinh hoạt"
+                  },
+                  {
+                    "en": "cultural values",
+                    "vi": "các giá trị văn hóa"
+                  },
+                  {
+                    "en": "face-to-face interactions",
+                    "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
+                  },
+                  {
+                    "en": "build friendships",
+                    "vi": "xây dựng tình bạn"
+                  },
+                  {
+                    "en": "reduce stereotypes",
+                    "vi": "giảm định kiến"
+                  },
+                  {
+                    "en": "improve understanding between countries",
+                    "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CÁCH 01: TỔ CHỨC CÁC LỄ HỘI VĂN HÓA (ORGANIZING CULTURAL FESTIVALS)",
+                "point_vi": "Chính phủ và cộng đồng có thể tổ chức các lễ hội văn hóa để giới thiệu những nét đặc trưng của đất nước đến với mọi người.",
+                "point_en": "Governments and communities can organize cultural festivals to introduce the unique features of their countries to the public.",
+                "point_collocations": [
+                  {
+                    "en": "organize cultural festivals",
+                    "vi": "tổ chức các lễ hội văn hóa"
+                  },
+                  {
+                    "en": "introduce the unique features",
+                    "vi": "giới thiệu những nét đặc trưng"
+                  },
+                  {
+                    "en": "to the public",
+                    "vi": "đến với công chúng / mọi người"
+                  },
+                  {
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
+                  }
+                ],
+                "evidence_vi": "Những sự kiện này có thể giới thiệu các món ăn truyền thống, trang phục, âm nhạc và điệu múa dân gian. Du khách có cơ hội trực tiếp trải nghiệm những hoạt động văn hóa thay vì chỉ tìm hiểu qua sách vở hoặc Internet. Người dân địa phương cũng có thể chia sẻ phong tục và truyền thống của mình với khách nước ngoài. Nhờ đó, mọi người có thể hiểu rõ hơn về các nền văn hóa khác nhau và phát triển sự tôn trọng đối với những khác biệt văn hóa.",
+                "evidence_en": "These events can introduce traditional food, costumes, music and folk dances. Visitors have a chance to experience cultural activities instead of only learning about them through books or the Internet. Local people can also share their customs and traditions with foreign visitors. As a result, people can better understand different cultures and develop respect for cultural differences.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "introduce traditional food",
+                      "vi": "giới thiệu các món ăn truyền thống"
+                    },
+                    {
+                      "en": "traditional costumes",
+                      "vi": "trang phục truyền thống"
+                    },
+                    {
+                      "en": "folk dances",
+                      "vi": "điệu múa dân gian"
+                    },
+                    {
+                      "en": "traditional music",
+                      "vi": "âm nhạc truyền thống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "have a chance to",
+                      "vi": "có cơ hội làm gì"
+                    },
+                    {
+                      "en": "experience cultural activities",
+                      "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+                    },
+                    {
+                      "en": "instead of",
+                      "vi": "thay vì"
+                    },
+                    {
+                      "en": "learn through books or the Internet",
+                      "vi": "tìm hiểu qua sách vở hoặc Internet"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "local people",
+                      "vi": "người dân địa phương"
+                    },
+                    {
+                      "en": "share customs and traditions",
+                      "vi": "chia sẻ phong tục và truyền thống"
+                    },
+                    {
+                      "en": "foreign visitors",
+                      "vi": "khách nước ngoài, du khách quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "as a result",
+                      "vi": "nhờ đó, kết quả là"
+                    },
+                    {
+                      "en": "understand different cultures",
+                      "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
+                    },
+                    {
+                      "en": "develop respect for",
+                      "vi": "phát triển sự tôn trọng đối với"
+                    },
+                    {
+                      "en": "cultural differences",
+                      "vi": "những khác biệt văn hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "organize cultural festivals",
+                    "vi": "tổ chức các lễ hội văn hóa"
+                  },
+                  {
+                    "en": "introduce the unique features",
+                    "vi": "giới thiệu những nét đặc trưng"
+                  },
+                  {
+                    "en": "to the public",
+                    "vi": "đến với công chúng / mọi người"
+                  },
+                  {
+                    "en": "traditional food",
+                    "vi": "món ăn truyền thống"
+                  },
+                  {
+                    "en": "traditional costumes",
+                    "vi": "trang phục truyền thống"
+                  },
+                  {
+                    "en": "folk dances",
+                    "vi": "điệu múa dân gian"
+                  },
+                  {
+                    "en": "have a chance to",
+                    "vi": "có cơ hội làm gì"
+                  },
+                  {
+                    "en": "experience cultural activities",
+                    "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+                  },
+                  {
+                    "en": "instead of",
+                    "vi": "thay vì"
+                  },
+                  {
+                    "en": "learn through books or the Internet",
+                    "vi": "tìm hiểu qua sách vở hoặc Internet"
+                  },
+                  {
+                    "en": "local people",
+                    "vi": "người dân địa phương"
+                  },
+                  {
+                    "en": "share customs and traditions",
+                    "vi": "chia sẻ phong tục và truyền thống"
+                  },
+                  {
+                    "en": "foreign visitors",
+                    "vi": "khách nước ngoài, du khách quốc tế"
+                  },
+                  {
+                    "en": "understand different cultures",
+                    "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
+                  },
+                  {
+                    "en": "develop respect for",
+                    "vi": "phát triển sự tôn trọng đối với"
+                  },
+                  {
+                    "en": "cultural differences",
+                    "vi": "những khác biệt văn hóa"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 02: SỬ DỤNG MẠNG XÃ HỘI VÀ CÁC NỀN TẢNG KỸ THUẬT SỐ (USING SOCIAL MEDIA AND DIGITAL PLATFORMS)",
+                "point_vi": "Mạng xã hội và các nền tảng trực tuyến giúp mọi người chia sẻ văn hóa với người dân ở nhiều quốc gia một cách nhanh chóng và dễ dàng.",
+                "point_en": "Social media and online platforms help people share their cultures with people in different countries quickly and easily.",
+                "point_collocations": [
+                  {
+                    "en": "social media and online platforms",
+                    "vi": "mạng xã hội và các nền tảng trực tuyến"
+                  },
+                  {
+                    "en": "share culture with",
+                    "vi": "chia sẻ văn hóa với"
+                  },
+                  {
+                    "en": "in different countries",
+                    "vi": "ở nhiều quốc gia khác nhau"
+                  },
+                  {
+                    "en": "quickly and easily",
+                    "vi": "một cách nhanh chóng và dễ dàng"
+                  }
+                ],
+                "evidence_vi": "Mọi người có thể đăng tải hình ảnh, video và bài viết về ẩm thực, lễ hội và lối sống truyền thống của đất nước mình. Những nội dung này có thể tiếp cận lượng lớn người xem trên toàn thế giới mà không cần phải đi du lịch. Người dùng từ các quốc gia khác nhau cũng có thể bình luận, đặt câu hỏi và trao đổi thông tin về văn hóa của họ. Điều này giúp mọi người mở rộng hiểu biết về thế giới và kết nối với những người có nền tảng văn hóa khác nhau.",
+                "evidence_en": "People can post pictures, videos and articles about their country's food, festivals and traditional lifestyles. This content can reach a large number of people around the world without the need to travel. Users from different countries can also leave comments, ask questions and exchange information about their cultures. This helps people broaden their knowledge of the world and connect with people from different cultural backgrounds.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "post pictures and videos",
+                      "vi": "đăng tải hình ảnh và video"
+                    },
+                    {
+                      "en": "articles about",
+                      "vi": "các bài viết về"
+                    },
+                    {
+                      "en": "traditional lifestyles",
+                      "vi": "lối sống truyền thống"
+                    },
+                    {
+                      "en": "cultural festivals",
+                      "vi": "lễ hội văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reach a large number of people",
+                      "vi": "tiếp cận lượng lớn người xem"
+                    },
+                    {
+                      "en": "around the world",
+                      "vi": "trên toàn thế giới"
+                    },
+                    {
+                      "en": "without the need to travel",
+                      "vi": "mà không cần phải đi du lịch"
+                    },
+                    {
+                      "en": "global audience",
+                      "vi": "khán giả toàn cầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "leave comments",
+                      "vi": "để lại bình luận"
+                    },
+                    {
+                      "en": "ask questions",
+                      "vi": "đặt câu hỏi"
+                    },
+                    {
+                      "en": "exchange information about",
+                      "vi": "trao đổi thông tin về"
+                    },
+                    {
+                      "en": "interactive communication",
+                      "vi": "giao tiếp tương tác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broaden one's knowledge of the world",
+                      "vi": "mở rộng hiểu biết về thế giới"
+                    },
+                    {
+                      "en": "connect with people",
+                      "vi": "kết nối với mọi người"
+                    },
+                    {
+                      "en": "different cultural backgrounds",
+                      "vi": "những nền tảng văn hóa khác nhau"
+                    },
+                    {
+                      "en": "global community",
+                      "vi": "cộng đồng toàn cầu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital platforms",
+                    "vi": "nền tảng kỹ thuật số"
+                  },
+                  {
+                    "en": "social media and online platforms",
+                    "vi": "mạng xã hội và các nền tảng trực tuyến"
+                  },
+                  {
+                    "en": "share culture with",
+                    "vi": "chia sẻ văn hóa với"
+                  },
+                  {
+                    "en": "post pictures and videos",
+                    "vi": "đăng tải hình ảnh và video"
+                  },
+                  {
+                    "en": "traditional lifestyles",
+                    "vi": "lối sống truyền thống"
+                  },
+                  {
+                    "en": "reach a large number of people",
+                    "vi": "tiếp cận lượng lớn người xem"
+                  },
+                  {
+                    "en": "around the world",
+                    "vi": "trên toàn thế giới"
+                  },
+                  {
+                    "en": "without the need to travel",
+                    "vi": "mà không cần phải đi du lịch"
+                  },
+                  {
+                    "en": "leave comments",
+                    "vi": "để lại bình luận"
+                  },
+                  {
+                    "en": "ask questions",
+                    "vi": "đặt câu hỏi"
+                  },
+                  {
+                    "en": "exchange information about",
+                    "vi": "trao đổi thông tin về"
+                  },
+                  {
+                    "en": "broaden one's knowledge of the world",
+                    "vi": "mở rộng hiểu biết về thế giới"
+                  },
+                  {
+                    "en": "connect with people",
+                    "vi": "kết nối với mọi người"
+                  },
+                  {
+                    "en": "different cultural backgrounds",
+                    "vi": "những nền tảng văn hóa khác nhau"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 03: ĐƯA GIÁO DỤC VĂN HÓA VÀO CHƯƠNG TRÌNH HỌC (INCLUDING CULTURAL EDUCATION IN SCHOOL PROGRAMMES)",
+                "point_vi": "Các trường học nên đưa những nội dung về văn hóa vào chương trình giảng dạy để giúp học sinh hiểu và trân trọng các nền văn hóa khác nhau.",
+                "point_en": "Schools should include cultural topics in their teaching programmes to help students understand and appreciate different cultures.",
+                "point_collocations": [
+                  {
+                    "en": "include cultural topics in",
+                    "vi": "đưa những nội dung về văn hóa vào"
+                  },
+                  {
+                    "en": "teaching programmes",
+                    "vi": "chương trình giảng dạy"
+                  },
+                  {
+                    "en": "understand and appreciate",
+                    "vi": "thấu hiểu và trân trọng"
+                  },
+                  {
+                    "en": "different cultures",
+                    "vi": "các nền văn hóa khác nhau"
+                  }
+                ],
+                "evidence_vi": "Giáo viên có thể giới thiệu cho học sinh về lịch sử, phong tục, lễ hội và truyền thống của các quốc gia khác nhau. Học sinh có thể tham gia các hoạt động như thuyết trình, làm dự án và tìm hiểu về các nền văn hóa trên thế giới. Những hoạt động này giúp các em phát triển kiến thức và hiểu biết về sự đa dạng văn hóa. Quan trọng hơn, học sinh sẽ học cách tôn trọng những người có lối sống, niềm tin và truyền thống khác với mình.",
+                "evidence_en": "Teachers can introduce students to the history, customs, festivals and traditions of different countries. Students can take part in activities such as presentations, projects and research about cultures around the world. These activities help them develop their knowledge and understanding of cultural diversity. More importantly, students will learn to respect people with different lifestyles, beliefs and traditions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "introduce somebody to something",
+                      "vi": "giới thiệu cho ai về điều gì"
+                    },
+                    {
+                      "en": "customs and traditions",
+                      "vi": "phong tục và truyền thống"
+                    },
+                    {
+                      "en": "festivals and history",
+                      "vi": "lễ hội và lịch sử"
+                    },
+                    {
+                      "en": "different countries",
+                      "vi": "các quốc gia khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take part in activities",
+                      "vi": "tham gia các hoạt động"
+                    },
+                    {
+                      "en": "presentations and projects",
+                      "vi": "thuyết trình và làm dự án"
+                    },
+                    {
+                      "en": "research about cultures",
+                      "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+                    },
+                    {
+                      "en": "cultures around the world",
+                      "vi": "các nền văn hóa trên thế giới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop knowledge and understanding",
+                      "vi": "phát triển kiến thức và hiểu biết"
+                    },
+                    {
+                      "en": "cultural diversity",
+                      "vi": "sự đa dạng văn hóa"
+                    },
+                    {
+                      "en": "broaden students' horizons",
+                      "vi": "mở rộng tầm nhìn của học sinh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "more importantly",
+                      "vi": "quan trọng hơn là"
+                    },
+                    {
+                      "en": "learn to respect people",
+                      "vi": "học cách tôn trọng người khác"
+                    },
+                    {
+                      "en": "different lifestyles",
+                      "vi": "lối sống khác nhau"
+                    },
+                    {
+                      "en": "beliefs and traditions",
+                      "vi": "niềm tin và truyền thống"
+                    },
+                    {
+                      "en": "respect differences",
+                      "vi": "tôn trọng sự khác biệt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "teaching programmes",
+                    "vi": "chương trình giảng dạy"
+                  },
+                  {
+                    "en": "include cultural topics in",
+                    "vi": "đưa những nội dung về văn hóa vào"
+                  },
+                  {
+                    "en": "understand and appreciate",
+                    "vi": "thấu hiểu và trân trọng"
+                  },
+                  {
+                    "en": "introduce somebody to something",
+                    "vi": "giới thiệu cho ai về điều gì"
+                  },
+                  {
+                    "en": "customs and traditions",
+                    "vi": "phong tục và truyền thống"
+                  },
+                  {
+                    "en": "take part in activities",
+                    "vi": "tham gia các hoạt động"
+                  },
+                  {
+                    "en": "presentations and projects",
+                    "vi": "thuyết trình và làm dự án"
+                  },
+                  {
+                    "en": "research about cultures",
+                    "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+                  },
+                  {
+                    "en": "cultural diversity",
+                    "vi": "sự đa dạng văn hóa"
+                  },
+                  {
+                    "en": "learn to respect people",
+                    "vi": "học cách tôn trọng người khác"
+                  },
+                  {
+                    "en": "different lifestyles",
+                    "vi": "lối sống khác nhau"
+                  },
+                  {
+                    "en": "beliefs and traditions",
+                    "vi": "niềm tin và truyền thống"
+                  },
+                  {
+                    "en": "respect differences",
+                    "vi": "tôn trọng sự khác biệt"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 04: THÚC ĐẨY CÁC CHƯƠNG TRÌNH GIAO LƯU VĂN HÓA (PROMOTING CULTURAL EXCHANGE PROGRAMMES)",
+                "point_vi": "Các chương trình giao lưu văn hóa tạo cơ hội cho mọi người trực tiếp gặp gỡ và tìm hiểu về cuộc sống của những người đến từ các quốc gia khác.",
+                "point_en": "Cultural exchange programmes give people opportunities to meet and learn about the lives of people from other countries.",
+                "point_collocations": [
+                  {
+                    "en": "cultural exchange programmes",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "give people opportunities to",
+                    "vi": "tạo cơ hội cho mọi người làm gì"
+                  },
+                  {
+                    "en": "meet and learn about",
+                    "vi": "gặp gỡ và tìm hiểu về"
+                  },
+                  {
+                    "en": "people from other countries",
+                    "vi": "người dân đến từ các quốc gia khác"
+                  }
+                ],
+                "evidence_vi": "Chính phủ và các trường đại học có thể tổ chức các chương trình trao đổi sinh viên hoặc các chuyến thăm quốc tế. Người tham gia có thể sống, học tập hoặc làm việc cùng người dân địa phương trong một khoảng thời gian. Qua những trải nghiệm thực tế này, họ có thể tìm hiểu về cách giao tiếp, thói quen sinh hoạt và các giá trị văn hóa của người dân địa phương. Những cuộc gặp gỡ trực tiếp này giúp xây dựng tình bạn, giảm định kiến và tăng cường sự hiểu biết giữa các quốc gia.",
+                "evidence_en": "Governments and universities can organize student exchange programmes or international visits. Participants can live, study or work with local people for a period of time. Through these real-life experiences, they can learn about local people's communication styles, daily habits and cultural values. These face-to-face interactions help build friendships, reduce stereotypes and improve understanding between countries.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "governments and universities",
+                      "vi": "chính phủ và các trường đại học"
+                    },
+                    {
+                      "en": "student exchange programmes",
+                      "vi": "chương trình trao đổi sinh viên"
+                    },
+                    {
+                      "en": "international visits",
+                      "vi": "các chuyến thăm quốc tế"
+                    },
+                    {
+                      "en": "organize exchange activities",
+                      "vi": "tổ chức các hoạt động giao lưu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "participants",
+                      "vi": "người tham gia"
+                    },
+                    {
+                      "en": "live, study or work with",
+                      "vi": "sống, học tập hoặc làm việc cùng"
+                    },
+                    {
+                      "en": "local people",
+                      "vi": "người dân địa phương"
+                    },
+                    {
+                      "en": "for a period of time",
+                      "vi": "trong một khoảng thời gian"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "real-life experiences",
+                      "vi": "trải nghiệm thực tế"
+                    },
+                    {
+                      "en": "communication styles",
+                      "vi": "cách giao tiếp, phong cách giao tiếp"
+                    },
+                    {
+                      "en": "daily habits",
+                      "vi": "thói quen sinh hoạt"
+                    },
+                    {
+                      "en": "cultural values",
+                      "vi": "các giá trị văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "face-to-face interactions",
+                      "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
+                    },
+                    {
+                      "en": "build friendships",
+                      "vi": "xây dựng tình bạn"
+                    },
+                    {
+                      "en": "reduce stereotypes",
+                      "vi": "giảm định kiến"
+                    },
+                    {
+                      "en": "improve understanding between countries",
+                      "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+                    },
+                    {
+                      "en": "mutual understanding",
+                      "vi": "sự hiểu biết lẫn nhau"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultural exchange programmes",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "student exchange programmes",
+                    "vi": "chương trình trao đổi sinh viên"
+                  },
+                  {
+                    "en": "international visits",
+                    "vi": "các chuyến thăm quốc tế"
+                  },
+                  {
+                    "en": "live, study or work with",
+                    "vi": "sống, học tập hoặc làm việc cùng"
+                  },
+                  {
+                    "en": "local people",
+                    "vi": "người dân địa phương"
+                  },
+                  {
+                    "en": "real-life experiences",
+                    "vi": "trải nghiệm thực tế"
+                  },
+                  {
+                    "en": "communication styles",
+                    "vi": "cách giao tiếp, phong cách giao tiếp"
+                  },
+                  {
+                    "en": "daily habits",
+                    "vi": "thói quen sinh hoạt"
+                  },
+                  {
+                    "en": "cultural values",
+                    "vi": "các giá trị văn hóa"
+                  },
+                  {
+                    "en": "face-to-face interactions",
+                    "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
+                  },
+                  {
+                    "en": "build friendships",
+                    "vi": "xây dựng tình bạn"
+                  },
+                  {
+                    "en": "reduce stereotypes",
+                    "vi": "giảm định kiến"
+                  },
+                  {
+                    "en": "improve understanding between countries",
+                    "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "organize cultural festivals",
+              "vi": "tổ chức các lễ hội văn hóa"
+            },
+            {
+              "en": "introduce the unique features",
+              "vi": "giới thiệu những nét đặc trưng"
+            },
+            {
+              "en": "to the public",
+              "vi": "đến với công chúng / mọi người"
+            },
+            {
+              "en": "traditional food",
+              "vi": "món ăn truyền thống"
+            },
+            {
+              "en": "traditional costumes",
+              "vi": "trang phục truyền thống"
+            },
+            {
+              "en": "folk dances",
+              "vi": "điệu múa dân gian"
+            },
+            {
+              "en": "have a chance to",
+              "vi": "có cơ hội làm gì"
+            },
+            {
+              "en": "experience cultural activities",
+              "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+            },
+            {
+              "en": "instead of",
+              "vi": "thay vì"
+            },
+            {
+              "en": "learn through books or the Internet",
+              "vi": "tìm hiểu qua sách vở hoặc Internet"
+            },
+            {
+              "en": "local people",
+              "vi": "người dân địa phương"
+            },
+            {
+              "en": "share customs and traditions",
+              "vi": "chia sẻ phong tục và truyền thống"
+            },
+            {
+              "en": "foreign visitors",
+              "vi": "khách nước ngoài, du khách quốc tế"
+            },
+            {
+              "en": "understand different cultures",
+              "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
+            },
+            {
+              "en": "develop respect for",
+              "vi": "phát triển sự tôn trọng đối với"
+            },
+            {
+              "en": "cultural differences",
+              "vi": "những khác biệt văn hóa"
+            },
+            {
+              "en": "digital platforms",
+              "vi": "nền tảng kỹ thuật số"
+            },
+            {
+              "en": "social media and online platforms",
+              "vi": "mạng xã hội và các nền tảng trực tuyến"
+            },
+            {
+              "en": "share culture with",
+              "vi": "chia sẻ văn hóa với"
+            },
+            {
+              "en": "post pictures and videos",
+              "vi": "đăng tải hình ảnh và video"
+            },
+            {
+              "en": "traditional lifestyles",
+              "vi": "lối sống truyền thống"
+            },
+            {
+              "en": "reach a large number of people",
+              "vi": "tiếp cận lượng lớn người xem"
+            },
+            {
+              "en": "around the world",
+              "vi": "trên toàn thế giới"
+            },
+            {
+              "en": "without the need to travel",
+              "vi": "mà không cần phải đi du lịch"
+            },
+            {
+              "en": "leave comments",
+              "vi": "để lại bình luận"
+            },
+            {
+              "en": "ask questions",
+              "vi": "đặt câu hỏi"
+            },
+            {
+              "en": "exchange information about",
+              "vi": "trao đổi thông tin về"
+            },
+            {
+              "en": "broaden one's knowledge of the world",
+              "vi": "mở rộng hiểu biết về thế giới"
+            },
+            {
+              "en": "connect with people",
+              "vi": "kết nối với mọi người"
+            },
+            {
+              "en": "different cultural backgrounds",
+              "vi": "những nền tảng văn hóa khác nhau"
+            },
+            {
+              "en": "teaching programmes",
+              "vi": "chương trình giảng dạy"
+            },
+            {
+              "en": "include cultural topics in",
+              "vi": "đưa những nội dung về văn hóa vào"
+            },
+            {
+              "en": "understand and appreciate",
+              "vi": "thấu hiểu và trân trọng"
+            },
+            {
+              "en": "introduce somebody to something",
+              "vi": "giới thiệu cho ai về điều gì"
+            },
+            {
+              "en": "customs and traditions",
+              "vi": "phong tục và truyền thống"
+            },
+            {
+              "en": "take part in activities",
+              "vi": "tham gia các hoạt động"
+            },
+            {
+              "en": "presentations and projects",
+              "vi": "thuyết trình và làm dự án"
+            },
+            {
+              "en": "research about cultures",
+              "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+            },
+            {
+              "en": "cultural diversity",
+              "vi": "sự đa dạng văn hóa"
+            },
+            {
+              "en": "learn to respect people",
+              "vi": "học cách tôn trọng người khác"
+            },
+            {
+              "en": "different lifestyles",
+              "vi": "lối sống khác nhau"
+            },
+            {
+              "en": "beliefs and traditions",
+              "vi": "niềm tin và truyền thống"
+            },
+            {
+              "en": "respect differences",
+              "vi": "tôn trọng sự khác biệt"
+            },
+            {
+              "en": "cultural exchange programmes",
+              "vi": "chương trình giao lưu văn hóa"
+            },
+            {
+              "en": "student exchange programmes",
+              "vi": "chương trình trao đổi sinh viên"
+            },
+            {
+              "en": "international visits",
+              "vi": "các chuyến thăm quốc tế"
+            },
+            {
+              "en": "live, study or work with",
+              "vi": "sống, học tập hoặc làm việc cùng"
+            },
+            {
+              "en": "real-life experiences",
+              "vi": "trải nghiệm thực tế"
+            },
+            {
+              "en": "communication styles",
+              "vi": "cách giao tiếp, phong cách giao tiếp"
+            },
+            {
+              "en": "daily habits",
+              "vi": "thói quen sinh hoạt"
+            },
+            {
+              "en": "cultural values",
+              "vi": "các giá trị văn hóa"
+            },
+            {
+              "en": "face-to-face interactions",
+              "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
+            },
+            {
+              "en": "build friendships",
+              "vi": "xây dựng tình bạn"
+            },
+            {
+              "en": "reduce stereotypes",
+              "vi": "giảm định kiến"
+            },
+            {
+              "en": "improve understanding between countries",
+              "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+            }
+          ],
+          "vocab_step": {
+            "theme": "Possible Ways of Sharing Culture (Các phương thức chia sẻ và lan tỏa văn hóa)",
+            "overview": "Bộ từ vựng toàn diện giúp học viên diễn đạt các ý tưởng về tổ chức lễ hội văn hóa, truyền thông kỹ thuật số, giáo dục học đường và các chương trình trao đổi sinh viên quốc tế nhằm thúc đẩy giao lưu liên văn hóa và giảm định kiến.",
+            "single_words": [
+              {
+                "word": "heritage",
+                "ipa": "/ˈher.ɪ.tɪdʒ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "di sản văn hóa",
+                "family": "inherit (v), inheritance (n)",
+                "example_en": "Cultural festivals play a vital role in preserving and promoting national heritage.",
+                "example_vi": "Các lễ hội văn hóa đóng vai trò quan trọng trong việc bảo tồn và quảng bá di sản dân tộc."
+              },
+              {
+                "word": "diversity",
+                "ipa": "/daɪˈvɜː.sə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đa dạng",
+                "family": "diverse (adj), diversify (v)",
+                "example_en": "School programmes help students appreciate cultural diversity around the world.",
+                "example_vi": "Các chương trình học đường giúp học sinh trân trọng sự đa dạng văn hóa trên thế giới."
+              },
+              {
+                "word": "tradition",
+                "ipa": "/trəˈdɪʃ.ən/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "truyền thống",
+                "family": "traditional (adj), traditionally (adv)",
+                "example_en": "Local communities are proud to share their long-standing customs and traditions.",
+                "example_vi": "Cộng đồng địa phương rất tự hào khi chia sẻ những phong tục và truyền thống lâu đời của họ."
+              },
+              {
+                "word": "custom",
+                "ipa": "/ˈkʌs.təm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "phong tục, tập quán",
+                "family": "customary (adj), accustom (v)",
+                "example_en": "Visitors can learn about unique customs by living with local families.",
+                "example_vi": "Du khách có thể tìm hiểu về những phong tục độc đáo bằng cách sống cùng các gia đình bản địa."
+              },
+              {
+                "word": "stereotype",
+                "ipa": "/ˈster.i.ə.taɪp/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "định kiến, khuôn mẫu tiêu cực",
+                "family": "stereotypical (adj), stereotyped (adj)",
+                "example_en": "Direct interactions between people of different nations help break down harmful stereotypes.",
+                "example_vi": "Các tương tác trực tiếp giữa người dân từ các quốc gia giúp xóa bỏ những định kiến tai hại."
+              },
+              {
+                "word": "appreciation",
+                "ipa": "/əˌpriː.ʃiˈeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự trân trọng, đánh giá cao",
+                "family": "appreciate (v), appreciative (adj)",
+                "example_en": "Cultural education fosters a deep appreciation for other ways of life.",
+                "example_vi": "Giáo dục văn hóa nuôi dưỡng sự trân trọng sâu sắc đối với những lối sống khác nhau."
+              },
+              {
+                "word": "interaction",
+                "ipa": "/ˌɪn.təˈræk.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tương tác, tiếp xúc",
+                "family": "interact (v), interactive (adj)",
+                "example_en": "Face-to-face interactions build mutual trust and lasting cross-border friendships.",
+                "example_vi": "Những cuộc tương tác trực tiếp xây dựng niềm tin lẫn nhau và tình bạn xuyên biên giới bền lâu."
+              },
+              {
+                "word": "platform",
+                "ipa": "/ˈplæt.fɔːm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "nền tảng trực tuyến / kỹ thuật số",
+                "family": "cross-platform (adj)",
+                "example_en": "Digital platforms enable creators to showcase traditional music to millions of viewers.",
+                "example_vi": "Các nền tảng kỹ thuật số cho phép người sáng tạo giới thiệu âm nhạc truyền thống tới hàng triệu người xem."
+              },
+              {
+                "word": "costume",
+                "ipa": "/ˈkɒs.tʃuːm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "trang phục truyền thống",
+                "family": "costumed (adj)",
+                "example_en": "Performers wearing traditional costumes captivated the international audience.",
+                "example_vi": "Các nghệ sĩ biểu diễn mặc trang phục truyền thống đã thu hút đông đảo khán giả quốc tế."
+              },
+              {
+                "word": "lifestyle",
+                "ipa": "/ˈlaɪf.staɪl/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "lối sống, nếp sống",
+                "family": "life (n), style (n)",
+                "example_en": "Sharing videos about rural lifestyles helps foreigners understand everyday culture.",
+                "example_vi": "Chia sẻ các video về lối sống thôn quê giúp người nước ngoài hiểu được văn hóa đời thường."
+              },
+              {
+                "word": "identity",
+                "ipa": "/aɪˈden.tə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "bản sắc, nét đặc trưng",
+                "family": "identify (v), identification (n)",
+                "example_en": "Every country takes pride in its distinct cultural identity and rich history.",
+                "example_vi": "Mỗi quốc gia đều tự hào về bản sắc văn hóa riêng biệt và bề dày lịch sử của mình."
+              },
+              {
+                "word": "tolerance",
+                "ipa": "/ˈtɒl.ər.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "lòng khoan dung, sự chấp nhận khác biệt",
+                "family": "tolerant (adj), tolerate (v)",
+                "example_en": "Learning about diverse traditions cultivates tolerance and open-mindedness in students.",
+                "example_vi": "Tìm hiểu về các truyền thống đa dạng rèn luyện lòng bao dung và tư duy cởi mở ở học sinh."
+              }
+            ],
+            "collocations": [
+              {
+                "en": "organize cultural festivals",
+                "vi": "tổ chức các lễ hội văn hóa"
+              },
+              {
+                "en": "introduce the unique features",
+                "vi": "giới thiệu những nét đặc trưng"
+              },
+              {
+                "en": "to the public",
+                "vi": "đến với công chúng / mọi người"
+              },
+              {
+                "en": "traditional food",
+                "vi": "món ăn truyền thống"
+              },
+              {
+                "en": "traditional costumes",
+                "vi": "trang phục truyền thống"
+              },
+              {
+                "en": "folk dances",
+                "vi": "điệu múa dân gian"
+              },
+              {
+                "en": "have a chance to",
+                "vi": "có cơ hội làm gì"
+              },
+              {
+                "en": "experience cultural activities",
+                "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+              },
+              {
+                "en": "instead of",
+                "vi": "thay vì"
+              },
+              {
+                "en": "learn through books or the Internet",
+                "vi": "tìm hiểu qua sách vở hoặc Internet"
+              },
+              {
+                "en": "local people",
+                "vi": "người dân địa phương"
+              },
+              {
+                "en": "share customs and traditions",
+                "vi": "chia sẻ phong tục và truyền thống"
+              },
+              {
+                "en": "foreign visitors",
+                "vi": "khách nước ngoài, du khách quốc tế"
+              },
+              {
+                "en": "understand different cultures",
+                "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
+              },
+              {
+                "en": "develop respect for",
+                "vi": "phát triển sự tôn trọng đối với"
+              },
+              {
+                "en": "cultural differences",
+                "vi": "những khác biệt văn hóa"
+              },
+              {
+                "en": "digital platforms",
+                "vi": "nền tảng kỹ thuật số"
+              },
+              {
+                "en": "social media and online platforms",
+                "vi": "mạng xã hội và các nền tảng trực tuyến"
+              },
+              {
+                "en": "share culture with",
+                "vi": "chia sẻ văn hóa với"
+              },
+              {
+                "en": "post pictures and videos",
+                "vi": "đăng tải hình ảnh và video"
+              },
+              {
+                "en": "traditional lifestyles",
+                "vi": "lối sống truyền thống"
+              },
+              {
+                "en": "reach a large number of people",
+                "vi": "tiếp cận lượng lớn người xem"
+              },
+              {
+                "en": "around the world",
+                "vi": "trên toàn thế giới"
+              },
+              {
+                "en": "without the need to travel",
+                "vi": "mà không cần phải đi du lịch"
+              },
+              {
+                "en": "leave comments",
+                "vi": "để lại bình luận"
+              },
+              {
+                "en": "ask questions",
+                "vi": "đặt câu hỏi"
+              },
+              {
+                "en": "exchange information about",
+                "vi": "trao đổi thông tin về"
+              },
+              {
+                "en": "broaden one's knowledge of the world",
+                "vi": "mở rộng hiểu biết về thế giới"
+              },
+              {
+                "en": "connect with people",
+                "vi": "kết nối với mọi người"
+              },
+              {
+                "en": "different cultural backgrounds",
+                "vi": "những nền tảng văn hóa khác nhau"
+              },
+              {
+                "en": "teaching programmes",
+                "vi": "chương trình giảng dạy"
+              },
+              {
+                "en": "include cultural topics in",
+                "vi": "đưa những nội dung về văn hóa vào"
+              },
+              {
+                "en": "understand and appreciate",
+                "vi": "thấu hiểu và trân trọng"
+              },
+              {
+                "en": "introduce somebody to something",
+                "vi": "giới thiệu cho ai về điều gì"
+              },
+              {
+                "en": "customs and traditions",
+                "vi": "phong tục và truyền thống"
+              },
+              {
+                "en": "take part in activities",
+                "vi": "tham gia các hoạt động"
+              },
+              {
+                "en": "presentations and projects",
+                "vi": "thuyết trình và làm dự án"
+              },
+              {
+                "en": "research about cultures",
+                "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+              },
+              {
+                "en": "cultural diversity",
+                "vi": "sự đa dạng văn hóa"
+              },
+              {
+                "en": "learn to respect people",
+                "vi": "học cách tôn trọng người khác"
+              },
+              {
+                "en": "different lifestyles",
+                "vi": "lối sống khác nhau"
+              },
+              {
+                "en": "beliefs and traditions",
+                "vi": "niềm tin và truyền thống"
+              },
+              {
+                "en": "respect differences",
+                "vi": "tôn trọng sự khác biệt"
+              },
+              {
+                "en": "cultural exchange programmes",
+                "vi": "chương trình giao lưu văn hóa"
+              },
+              {
+                "en": "student exchange programmes",
+                "vi": "chương trình trao đổi sinh viên"
+              },
+              {
+                "en": "international visits",
+                "vi": "các chuyến thăm quốc tế"
+              },
+              {
+                "en": "live, study or work with",
+                "vi": "sống, học tập hoặc làm việc cùng"
+              },
+              {
+                "en": "real-life experiences",
+                "vi": "trải nghiệm thực tế"
+              },
+              {
+                "en": "communication styles",
+                "vi": "cách giao tiếp, phong cách giao tiếp"
+              },
+              {
+                "en": "daily habits",
+                "vi": "thói quen sinh hoạt"
+              },
+              {
+                "en": "cultural values",
+                "vi": "các giá trị văn hóa"
+              },
+              {
+                "en": "face-to-face interactions",
+                "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
+              },
+              {
+                "en": "build friendships",
+                "vi": "xây dựng tình bạn"
+              },
+              {
+                "en": "reduce stereotypes",
+                "vi": "giảm định kiến"
+              },
+              {
+                "en": "improve understanding between countries",
+                "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_way1_festivals",
+                "name": "Nhóm 1: Tổ chức lễ hội văn hóa (Organizing Cultural Festivals)",
+                "icon": "🎪",
+                "badge": "Lễ hội & Sự kiện",
+                "items": [
+                  {
+                    "phrase": "organize cultural festivals",
+                    "level": "B1",
+                    "vi": "tổ chức các lễ hội văn hóa",
+                    "type": "v.phr",
+                    "example_en": "Governments can organize cultural festivals to promote tourism and friendship.",
+                    "example_vi": "Chính phủ có thể tổ chức các lễ hội văn hóa để thúc đẩy du lịch và tình hữu nghị."
+                  },
+                  {
+                    "phrase": "introduce the unique features",
+                    "level": "B2",
+                    "vi": "giới thiệu những nét đặc trưng",
+                    "type": "v.phr",
+                    "example_en": "Events help introduce the unique features of local culture to visitors.",
+                    "example_vi": "Các sự kiện giúp giới thiệu những nét đặc trưng của văn hóa bản địa tới du khách."
+                  },
+                  {
+                    "phrase": "traditional costumes",
+                    "level": "B1",
+                    "vi": "trang phục truyền thống",
+                    "type": "n.phr",
+                    "example_en": "Dancers wearing traditional costumes performed in front of a large crowd.",
+                    "example_vi": "Các vũ công mặc trang phục truyền thống đã biểu diễn trước đám đông lớn."
+                  },
+                  {
+                    "phrase": "folk dances",
+                    "level": "B1",
+                    "vi": "điệu múa dân gian",
+                    "type": "n.phr",
+                    "example_en": "Folk dances convey historical stories and ancient customs.",
+                    "example_vi": "Các điệu múa dân gian truyền tải những câu chuyện lịch sử và phong tục cổ xưa."
+                  },
+                  {
+                    "phrase": "experience cultural activities",
+                    "level": "B2",
+                    "vi": "trực tiếp trải nghiệm những hoạt động văn hóa",
+                    "type": "v.phr",
+                    "example_en": "Tourists eagerly participate to experience cultural activities firsthand.",
+                    "example_vi": "Khách du lịch háo hức tham gia để trực tiếp trải nghiệm các hoạt động văn hóa."
+                  },
+                  {
+                    "phrase": "share customs and traditions",
+                    "level": "B1",
+                    "vi": "chia sẻ phong tục và truyền thống",
+                    "type": "v.phr",
+                    "example_en": "Elders take pride in sharing customs and traditions with the younger generation.",
+                    "example_vi": "Các bậc cao niên tự hào chia sẻ phong tục và truyền thống với thế hệ trẻ."
+                  },
+                  {
+                    "phrase": "cultural differences",
+                    "level": "B1",
+                    "vi": "những khác biệt văn hóa",
+                    "type": "n.phr",
+                    "example_en": "Festivals teach people to respect and celebrate cultural differences.",
+                    "example_vi": "Lễ hội dạy mọi người tôn trọng và đón nhận những khác biệt văn hóa."
+                  }
+                ]
+              },
+              {
+                "id": "group_way2_digital",
+                "name": "Nhóm 2: Mạng xã hội & Nền tảng số (Social Media & Digital Platforms)",
+                "icon": "📱",
+                "badge": "Truyền thông số",
+                "items": [
+                  {
+                    "phrase": "digital platforms",
+                    "level": "B1",
+                    "vi": "nền tảng kỹ thuật số",
+                    "type": "n.phr",
+                    "example_en": "Modern digital platforms make global communication instantaneous and effortless.",
+                    "example_vi": "Các nền tảng kỹ thuật số hiện đại giúp việc giao tiếp toàn cầu trở nên tức thì và dễ dàng."
+                  },
+                  {
+                    "phrase": "social media and online platforms",
+                    "level": "B1",
+                    "vi": "mạng xã hội và các nền tảng trực tuyến",
+                    "type": "n.phr",
+                    "example_en": "People rely on social media and online platforms to discover world cultures.",
+                    "example_vi": "Mọi người dựa vào mạng xã hội và các nền tảng trực tuyến để khám phá văn hóa thế giới."
+                  },
+                  {
+                    "phrase": "post pictures and videos",
+                    "level": "B1",
+                    "vi": "đăng tải hình ảnh và video",
+                    "type": "v.phr",
+                    "example_en": "Young travelers post pictures and videos to showcase local festivities.",
+                    "example_vi": "Những du khách trẻ đăng tải hình ảnh và video để giới thiệu các lễ hội địa phương."
+                  },
+                  {
+                    "phrase": "traditional lifestyles",
+                    "level": "B2",
+                    "vi": "lối sống truyền thống",
+                    "type": "n.phr",
+                    "example_en": "Short documentaries highlight traditional lifestyles in remote areas.",
+                    "example_vi": "Các bộ phim tài liệu ngắn nêu bật lối sống truyền thống ở những vùng xa xôi."
+                  },
+                  {
+                    "phrase": "reach a large number of people",
+                    "level": "B1",
+                    "vi": "tiếp cận lượng lớn người xem",
+                    "type": "v.phr",
+                    "example_en": "Viral videos can reach a large number of people within hours.",
+                    "example_vi": "Các video lan truyền có thể tiếp cận lượng lớn người xem chỉ trong vài giờ."
+                  },
+                  {
+                    "phrase": "without the need to travel",
+                    "level": "B1",
+                    "vi": "mà không cần phải đi du lịch",
+                    "type": "prep.phr",
+                    "example_en": "Viewers can explore distant cultures without the need to travel abroad.",
+                    "example_vi": "Người xem có thể khám phá những nền văn hóa xa xôi mà không cần phải đi du lịch nước ngoài."
+                  },
+                  {
+                    "phrase": "broaden one's knowledge of the world",
+                    "level": "B2",
+                    "vi": "mở rộng hiểu biết về thế giới",
+                    "type": "v.phr",
+                    "example_en": "Reading international blogs helps broaden one's knowledge of the world.",
+                    "example_vi": "Đọc các trang blog quốc tế giúp mở rộng hiểu biết của bản thân về thế giới."
+                  },
+                  {
+                    "phrase": "different cultural backgrounds",
+                    "level": "B2",
+                    "vi": "những nền tảng văn hóa khác nhau",
+                    "type": "n.phr",
+                    "example_en": "Online forums connect individuals from different cultural backgrounds.",
+                    "example_vi": "Các diễn đàn trực tuyến kết nối các cá nhân đến từ những nền tảng văn hóa khác nhau."
+                  }
+                ]
+              },
+              {
+                "id": "group_way3_education",
+                "name": "Nhóm 3: Đưa văn hóa vào giáo dục học đường (Cultural Education in Schools)",
+                "icon": "🎓",
+                "badge": "Giáo dục học đường",
+                "items": [
+                  {
+                    "phrase": "teaching programmes",
+                    "level": "B1",
+                    "vi": "chương trình giảng dạy",
+                    "type": "n.phr",
+                    "example_en": "Schools are updating their teaching programmes to reflect global citizenship.",
+                    "example_vi": "Các trường học đang cập nhật chương trình giảng dạy để phản ánh tư cách công dân toàn cầu."
+                  },
+                  {
+                    "phrase": "include cultural topics in",
+                    "level": "B2",
+                    "vi": "đưa những nội dung về văn hóa vào",
+                    "type": "v.phr",
+                    "example_en": "Educators should include cultural topics in social studies classes.",
+                    "example_vi": "Các nhà giáo dục nên đưa những nội dung văn hóa vào các tiết học xã hội."
+                  },
+                  {
+                    "phrase": "understand and appreciate",
+                    "level": "B2",
+                    "vi": "thấu hiểu và trân trọng",
+                    "type": "v.phr",
+                    "example_en": "Cultural lessons train young minds to understand and appreciate diverse communities.",
+                    "example_vi": "Các bài học văn hóa rèn luyện cho giới trẻ thấu hiểu và trân trọng các cộng đồng đa dạng."
+                  },
+                  {
+                    "phrase": "take part in activities",
+                    "level": "B1",
+                    "vi": "tham gia các hoạt động",
+                    "type": "v.phr",
+                    "example_en": "Pupils enthusiastically take part in activities celebrating foreign cultures.",
+                    "example_vi": "Học sinh hào hứng tham gia các hoạt động tôn vinh văn hóa nước ngoài."
+                  },
+                  {
+                    "phrase": "presentations and projects",
+                    "level": "B1",
+                    "vi": "thuyết trình và làm dự án",
+                    "type": "n.phr",
+                    "example_en": "Students prepare group presentations and projects on world folklore.",
+                    "example_vi": "Học sinh chuẩn bị các bài thuyết trình và dự án nhóm về văn hóa dân gian thế giới."
+                  },
+                  {
+                    "phrase": "cultural diversity",
+                    "level": "B2",
+                    "vi": "sự đa dạng văn hóa",
+                    "type": "n.phr",
+                    "example_en": "Promoting cultural diversity enriches the school environment.",
+                    "example_vi": "Thúc đẩy sự đa dạng văn hóa làm phong phú thêm môi trường học đường."
+                  },
+                  {
+                    "phrase": "learn to respect people",
+                    "level": "B1",
+                    "vi": "học cách tôn trọng người khác",
+                    "type": "v.phr",
+                    "example_en": "Children learn to respect people from varied social backgrounds.",
+                    "example_vi": "Trẻ em học cách tôn trọng những người đến từ các hoàn cảnh xã hội khác nhau."
+                  },
+                  {
+                    "phrase": "respect differences",
+                    "level": "B1",
+                    "vi": "tôn trọng sự khác biệt",
+                    "type": "v.phr",
+                    "example_en": "Mutual respect differences is the foundation of global peace.",
+                    "example_vi": "Tôn trọng sự khác biệt lẫn nhau là nền tảng của hòa bình thế giới."
+                  }
+                ]
+              },
+              {
+                "id": "group_way4_exchange",
+                "name": "Nhóm 4: Thúc đẩy các chương trình giao lưu quốc tế (Cultural Exchange Programmes)",
+                "icon": "🌍",
+                "badge": "Giao lưu quốc tế",
+                "items": [
+                  {
+                    "phrase": "cultural exchange programmes",
+                    "level": "B2",
+                    "vi": "chương trình giao lưu văn hóa",
+                    "type": "n.phr",
+                    "example_en": "Bilateral agreements support extensive cultural exchange programmes.",
+                    "example_vi": "Các hiệp định song phương hỗ trợ các chương trình giao lưu văn hóa sâu rộng."
+                  },
+                  {
+                    "phrase": "student exchange programmes",
+                    "level": "B1",
+                    "vi": "chương trình trao đổi sinh viên",
+                    "type": "n.phr",
+                    "example_en": "Many universities offer one-semester student exchange programmes.",
+                    "example_vi": "Nhiều trường đại học cung cấp các chương trình trao đổi sinh viên kéo dài một học kỳ."
+                  },
+                  {
+                    "phrase": "international visits",
+                    "level": "B1",
+                    "vi": "các chuyến thăm quốc tế",
+                    "type": "n.phr",
+                    "example_en": "Academic delegations conduct regular international visits to partner schools.",
+                    "example_vi": "Các đoàn học thuật tiến hành các chuyến thăm quốc tế định kỳ tới các trường đối tác."
+                  },
+                  {
+                    "phrase": "live, study or work with",
+                    "level": "B1",
+                    "vi": "sống, học tập hoặc làm việc cùng",
+                    "type": "v.phr",
+                    "example_en": "Exchange students live, study or work with host families abroad.",
+                    "example_vi": "Sinh viên trao đổi sống, học tập hoặc làm việc cùng các gia đình bản xứ ở nước ngoài."
+                  },
+                  {
+                    "phrase": "real-life experiences",
+                    "level": "B2",
+                    "vi": "trải nghiệm thực tế",
+                    "type": "n.phr",
+                    "example_en": "Immersion gives youth priceless real-life experiences in another country.",
+                    "example_vi": "Sự hòa nhập mang lại cho giới trẻ những trải nghiệm thực tế vô giá tại một quốc gia khác."
+                  },
+                  {
+                    "phrase": "communication styles",
+                    "level": "B2",
+                    "vi": "cách giao tiếp, phong cách giao tiếp",
+                    "type": "n.phr",
+                    "example_en": "Understanding foreign communication styles avoids unnecessary misunderstandings.",
+                    "example_vi": "Hiểu được các phong cách giao tiếp nước ngoài giúp tránh được những hiểu lầm không đáng có."
+                  },
+                  {
+                    "phrase": "face-to-face interactions",
+                    "level": "B2",
+                    "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp",
+                    "type": "n.phr",
+                    "example_en": "Face-to-face interactions foster empathy faster than virtual talks.",
+                    "example_vi": "Những tương tác trực tiếp nuôi dưỡng sự đồng cảm nhanh hơn các cuộc trò chuyện ảo."
+                  },
+                  {
+                    "phrase": "reduce stereotypes",
+                    "level": "B2",
+                    "vi": "giảm định kiến",
+                    "type": "v.phr",
+                    "example_en": "Daily social contact helps reduce stereotypes and bias between nations.",
+                    "example_vi": "Tiếp xúc xã hội hằng ngày giúp giảm bớt định kiến và thành kiến giữa các quốc gia."
+                  },
+                  {
+                    "phrase": "build friendships",
+                    "level": "B1",
+                    "vi": "xây dựng tình bạn",
+                    "type": "v.phr",
+                    "example_en": "International camps help teenagers build friendships that last a lifetime.",
+                    "example_vi": "Các trại hè quốc tế giúp thanh thiếu niên xây dựng tình bạn gắn bó suốt đời."
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "<p>In our modern and connected world, culture plays a vital role in shaping the identity and values of every society. Therefore, finding effective ways to share culture has become increasingly essential to foster mutual understanding between nations. In my opinion, organizing cultural festivals, utilizing social media, and incorporating cultural topics into school education are among the most practical solutions.</p>\n\n<p>First and foremost, holding cultural festivals is a wonderful way to introduce national identity to the public. During these events, visitors can taste traditional cuisine, admire colorful costumes, and enjoy folk music and dances. This direct participation allows people to experience culture firsthand instead of just reading about it online. In addition, social media platforms enable individuals to share photos, videos, and articles about their daily lives and traditions. As a result, valuable cultural content can reach millions of people worldwide quickly and affordably without the need for expensive travel.</p>\n\n<p>Furthermore, schools should include cultural lessons and exchange activities in their teaching programmes. When teachers teach students about the history, customs, and beliefs of other nations, children develop an open mind and learn to respect diversity from an early age. Moreover, student exchange programmes offer young people valuable opportunities to live and study abroad, which helps build international friendships and reduce negative stereotypes.</p>\n\n<p>In conclusion, promoting culture is crucial for creating a peaceful and harmonious world. By organizing community festivals, leveraging digital platforms, and enhancing educational programmes, we can successfully connect people from different backgrounds and celebrate cultural diversity.</p>",
+          "translation_b1": "Trong thế giới hiện đại và kết nối ngày nay, văn hóa đóng vai trò sống còn trong việc định hình bản sắc và các giá trị của mỗi xã hội. Do đó, việc tìm ra những cách hiệu quả để chia sẻ văn hóa ngày càng trở nên thiết yếu nhằm thúc đẩy sự hiểu biết lẫn nhau giữa các quốc gia. Theo quan điểm của tôi, việc tổ chức các lễ hội văn hóa, tận dụng mạng xã hội và đưa các chủ đề văn hóa vào giáo dục học đường là những giải pháp thiết thực nhất.\n\nTrước hết, việc tổ chức các lễ hội văn hóa là một cách tuyệt vời để giới thiệu bản sắc dân tộc đến với công chúng. Trong các sự kiện này, du khách có thể thưởng thức ẩm thực truyền thống, chiêm ngưỡng trang phục rực rỡ và thưởng thức âm nhạc cũng như các điệu múa dân gian. Sự tham gia trực tiếp này cho phép mọi người trải nghiệm văn hóa tận mắt thay vì chỉ đọc về nó trên mạng. Ngoài ra, các nền tảng mạng xã hội cho phép các cá nhân chia sẻ hình ảnh, video và bài viết về đời sống thường ngày cũng như truyền thống của họ. Nhờ đó, những nội dung văn hóa giá trị có thể tiếp cận hàng triệu người trên toàn cầu một cách nhanh chóng và tiết kiệm mà không cần phải đi du lịch tốn kém.\n\nHơn nữa, các trường học nên đưa các bài học văn hóa và hoạt động giao lưu vào chương trình giảng dạy. Khi giáo viên dạy cho học sinh về lịch sử, phong tục và niềm tin của các quốc gia khác, trẻ em sẽ phát triển tư duy cởi mở và học cách tôn trọng sự đa dạng ngay từ khi còn nhỏ. Hơn nữa, các chương trình trao đổi học sinh mang lại cho giới trẻ cơ hội quý giá để sinh sống và học tập tại nước ngoài, giúp xây dựng tình bạn quốc tế và giảm bớt những định kiến tiêu cực.\n\nTóm lại, việc quảng bá văn hóa là vô cùng quan trọng để tạo dựng một thế giới hòa bình và hòa hợp. Bằng cách tổ chức các lễ hội cộng đồng, tận dụng các nền tảng số và tăng cường các chương trình giáo dục, chúng ta có thể kết nối thành công những con người từ các nền tảng khác nhau và tôn vinh sự đa dạng văn hóa.",
+          "sample_b2": "<p>In an increasingly globalized and interconnected era, culture serves as the bedrock of a nation's identity, embodying its historical values, traditions, and collective worldview. Consequently, actively disseminating cultural heritage and fostering intercultural dialogue have become vital endeavors to bridge societal divides. This essay will examine several highly effective measures to share culture, notably through experiential cultural festivals, digital communications, curriculum integration, and bilateral exchange initiatives.</p>\n\n<p>To begin with, experiential and technological avenues offer immediate access to rich cultural traditions. Governments and civic organizations can organize international cultural festivals where attendees directly immerse themselves in traditional gastronomy, authentic costumes, and folk performances. Such tangible interactions leave indelible impressions far beyond what passive literature or internet searches can offer. Concurrently, the proliferation of digital platforms and social media empowers ordinary citizens to broadcast visual narratives, culinary demonstrations, and traditional lifestyles to a borderless global audience. This instantaneous exchange democratizes cultural sharing, allowing users from disparate corners of the globe to engage in meaningful conversations and dismantle geographical boundaries without the necessity of international travel.</p>\n\n<p>Equally indispensable are institutional and educational strategies that cultivate cultural empathy over the long term. Academic institutions ought to embed comprehensive cultural studies into their formal curricula, exposing students to diverse histories, customs, and philosophical beliefs. By participating in research projects and cross-cultural presentations, young learners develop nuanced perspectives on cultural diversity and learn to embrace individuals with contrasting worldviews. Furthermore, promoting governmental and university student exchange programmes allows participants to live, study, and collaborate alongside local residents. These immersive, real-world experiences build authentic communication skills, eradicate deep-rooted stereotypes, and forge lifelong transatlantic friendships.</p>\n\n<p>In conclusion, preserving and sharing cultural wealth demands a multifaceted approach combining community-driven celebrations, digital innovations, and educational enrichment. Implementing these collaborative strategies ensures that cultural diversity is not merely preserved, but actively celebrated as a cornerstone of global harmony and mutual respect.</p>",
+          "translation_b2": "Trong kỷ nguyên ngày càng toàn cầu hóa và gắn kết chặt chẽ, văn hóa đóng vai trò là nền tảng bản sắc của một quốc gia, kết tinh những giá trị lịch sử, truyền thống và nhân sinh quan tập thể. Do đó, việc chủ động lan tỏa di sản văn hóa và thúc đẩy đối thoại liên văn hóa đã trở thành những nỗ lực thiết yếu nhằm xóa nhòa các ranh giới xã hội. Bài luận này sẽ xem xét một số biện pháp vô cùng hiệu quả để chia sẻ văn hóa, nổi bật là thông qua các lễ hội văn hóa trải nghiệm, truyền thông kỹ thuật số, lồng ghép vào chương trình giảng dạy và các sáng kiến trao đổi song phương.\n\nTrước hết, các con đường trải nghiệm thực tế và công nghệ mang lại khả năng tiếp cận trực tiếp với các truyền thống văn hóa phong phú. Chính phủ và các tổ chức cộng đồng có thể tổ chức các lễ hội văn hóa quốc tế, nơi người tham dự được đắm mình vào ẩm thực truyền thống, trang phục đích thực và các tiết mục biểu diễn dân gian. Những tương tác hữu hình này để lại ấn tượng sâu sắc vượt xa những gì tài liệu thụ động hay việc tìm kiếm trên mạng có thể mang lại. Đồng thời, sự phát triển bùng nổ của các nền tảng số và mạng xã hội cho phép người dân bình thường lan tỏa những câu chuyện thị giác, màn trình diễn ẩm thực và lối sống truyền thống đến khán giả toàn cầu không biên giới. Sự trao đổi tức thì này dân chủ hóa việc chia sẻ văn hóa, cho phép người dùng từ khắp mọi miền thế giới tham gia vào các cuộc đối thoại ý nghĩa và xóa nhòa rào cản địa lý mà không nhất thiết phải du lịch nước ngoài.\n\nKhông kém phần quan trọng là các chiến lược mang tính thể chế và giáo dục giúp nuôi dưỡng sự thấu cảm văn hóa về lâu dài. Các cơ sở học thuật cần lồng ghép các nghiên cứu văn hóa toàn diện vào chương trình giảng dạy chính khóa, giúp học sinh tiếp cận với các giai đoạn lịch sử, phong tục và niềm tin triết học đa dạng. Bằng cách tham gia vào các dự án nghiên cứu và bài thuyết trình giao lưu văn hóa, học sinh phát triển góc nhìn sâu sắc về sự đa dạng văn hóa và học cách đón nhận những cá nhân có thế giới quan khác biệt. Hơn nữa, việc thúc đẩy các chương trình trao đổi sinh viên do chính phủ và trường đại học tài trợ cho phép người tham gia sinh sống, học tập và cộng tác cùng người dân bản địa. Những trải nghiệm thực tế, hòa nhập này xây dựng kỹ năng giao tiếp đích thực, xóa bỏ những định kiến ăn sâu bám rễ và tạo dựng tình bạn xuyên đại dương bền vững suốt đời.\n\nTóm lại, việc gìn giữ và lan tỏa kho tàng văn hóa đòi hỏi một cách tiếp cận đa chiều kết hợp giữa các lễ hội cộng đồng, sự đổi mới kỹ thuật số và việc làm giàu tri thức giáo dục. Việc thực hiện những chiến lược phối hợp này đảm bảo rằng sự đa dạng văn hóa không chỉ đơn thuần được bảo tồn, mà còn được tôn vinh một cách tích cực như một trụ cột của sự hòa hợp và tôn trọng lẫn nhau trên toàn cầu.",
+          "reference_articles": [
+            {
+              "title": "The Power of Cultural Festivals in Safeguarding Living Heritage",
+              "source": "UNESCO Culture & Heritage Reports",
+              "summary": "Nghiên cứu về vai trò của các lễ hội văn hóa và hoạt động cộng đồng trong việc tôn vinh, bảo tồn các giá trị truyền thống phi vật thể và thu hút du khách quốc tế.",
+              "url": "https://en.unesco.org/themes/intangible-cultural-heritage"
+            },
+            {
+              "title": "Bridging Cultures in the Digital Age: The Role of Social Media",
+              "source": "Journal of Cross-Cultural Communication",
+              "summary": "Phân tích tác động của các nền tảng mạng xã hội và nội dung số trong việc kết nối các cộng đồng đa văn hóa và giảm định kiến sắc tộc trên toàn cầu.",
+              "url": "https://www.sciencedirect.com/journal/international-journal-of-intercultural-relations"
+            },
+            {
+              "title": "Long-term Impacts of International Student Exchange Programs",
+              "source": "International Education Review",
+              "summary": "Khảo sát về ảnh hưởng tích cực của các chương trình trao đổi sinh viên và trải nghiệm sống cùng người bản địa đối với năng lực giao tiếp liên văn hóa và tình hữu nghị quốc tế.",
+              "url": "https://www.nafsa.org/policy-and-advocacy/trends-international-education"
+            }
+          ]
+        }
       },
       {
         "id": 52,
