@@ -221409,8 +221409,1273 @@ const ESSAY_DATA = [
         "title_en": "Using mobile phones while driving: acceptable or dangerous?",
         "title_vi": "Việc sử dụng điện thoại khi lái xe: có thể chấp nhận được hay nguy hiểm?",
         "context": "The use of mobile phones has become an essential part of daily life, even while people are travelling. Some people believe that using mobile phones while driving is acceptable when it is necessary, such as for navigation or handling urgent calls. Others argue that any use of mobile phones behind the wheel is dangerous because it distracts drivers and significantly increases the risk of traffic accidents.",
-        "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "prompt": "Some people believe that drivers should not use mobile phones while driving because they can cause serious danger on the road. However, others argue that mobile phones can be useful tools for drivers, such as providing warnings about potential hazards. Discuss both views and give your own opinion. Include reasons and relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "details": {
+          "vocab": [
+            {
+              "en": "distract drivers",
+              "vi": "khiến người lái xe mất tập trung"
+            },
+            {
+              "en": "increase the risk of",
+              "vi": "làm tăng nguy cơ"
+            },
+            {
+              "en": "road accidents",
+              "vi": "tai nạn giao thông"
+            },
+            {
+              "en": "look at the phone screen",
+              "vi": "nhìn vào màn hình điện thoại"
+            },
+            {
+              "en": "read messages",
+              "vi": "đọc tin nhắn"
+            },
+            {
+              "en": "check notifications",
+              "vi": "kiểm tra thông báo"
+            },
+            {
+              "en": "make it hard for somebody to do something",
+              "vi": "khiến ai khó làm gì"
+            },
+            {
+              "en": "pay attention to",
+              "vi": "chú ý đến"
+            },
+            {
+              "en": "traffic conditions ahead",
+              "vi": "tình hình giao thông phía trước"
+            },
+            {
+              "en": "may not notice",
+              "vi": "có thể không nhận ra / không chú ý đến"
+            },
+            {
+              "en": "other vehicles",
+              "vi": "các phương tiện khác"
+            },
+            {
+              "en": "slow down",
+              "vi": "giảm tốc độ"
+            },
+            {
+              "en": "change direction",
+              "vi": "chuyển hướng"
+            },
+            {
+              "en": "texting or making phone calls",
+              "vi": "nhắn tin hoặc thực hiện cuộc gọi"
+            },
+            {
+              "en": "slow down drivers' reactions",
+              "vi": "làm chậm phản ứng của người lái xe"
+            },
+            {
+              "en": "unexpected situations",
+              "vi": "những tình huống bất ngờ"
+            },
+            {
+              "en": "a few seconds of distraction",
+              "vi": "một vài giây mất tập trung"
+            },
+            {
+              "en": "lead to serious accidents",
+              "vi": "dẫn đến tai nạn nghiêm trọng"
+            },
+            {
+              "en": "put somebody's life at risk",
+              "vi": "đe dọa tính mạng ai"
+            },
+            {
+              "en": "other road users",
+              "vi": "những người tham gia giao thông khác"
+            },
+            {
+              "en": "not only... but also...",
+              "vi": "không chỉ... mà còn..."
+            },
+            {
+              "en": "support drivers",
+              "vi": "hỗ trợ người lái xe"
+            },
+            {
+              "en": "provide useful information",
+              "vi": "cung cấp thông tin hữu ích"
+            },
+            {
+              "en": "deal with different situations on the road",
+              "vi": "xử lý các tình huống trên đường"
+            },
+            {
+              "en": "map applications",
+              "vi": "ứng dụng bản đồ"
+            },
+            {
+              "en": "find directions",
+              "vi": "tìm đường"
+            },
+            {
+              "en": "choose suitable routes",
+              "vi": "chọn tuyến đường phù hợp"
+            },
+            {
+              "en": "avoid areas with heavy traffic",
+              "vi": "tránh những khu vực giao thông đông đúc"
+            },
+            {
+              "en": "traffic congestion",
+              "vi": "ùn tắc giao thông"
+            },
+            {
+              "en": "save travel time",
+              "vi": "tiết kiệm thời gian di chuyển"
+            },
+            {
+              "en": "warn drivers about accidents",
+              "vi": "cảnh báo người lái xe về tai nạn"
+            },
+            {
+              "en": "roadworks or dangers on the road",
+              "vi": "công trình sửa chữa hoặc nguy hiểm trên đường"
+            },
+            {
+              "en": "prepare in advance",
+              "vi": "chuẩn bị trước"
+            },
+            {
+              "en": "change their speed or routes",
+              "vi": "điều chỉnh tốc độ hoặc tuyến đường"
+            },
+            {
+              "en": "when necessary",
+              "vi": "khi cần thiết"
+            },
+            {
+              "en": "contact emergency services",
+              "vi": "liên hệ các dịch vụ khẩn cấp"
+            },
+            {
+              "en": "vehicles break down",
+              "vi": "xe cộ bị hỏng / gặp sự cố"
+            },
+            {
+              "en": "when used properly",
+              "vi": "khi được sử dụng đúng cách"
+            },
+            {
+              "en": "make journeys safer and more convenient",
+              "vi": "giúp chuyến đi an toàn và thuận tiện hơn"
+            },
+            {
+              "en": "hands-free devices",
+              "vi": "thiết bị rảnh tay"
+            },
+            {
+              "en": "road safety should always come first",
+              "vi": "an toàn giao thông phải luôn được đặt lên hàng đầu"
+            }
+          ],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1: KHÔNG NÊN SỬ DỤNG ĐIỆN THOẠI KHI LÁI XE (VIEW 01: DRIVERS SHOULD NOT USE PHONES)",
+                "point_vi": "Sử dụng điện thoại khi lái xe có thể gây mất tập trung và làm tăng nguy cơ xảy ra tai nạn giao thông.",
+                "point_en": "Using mobile phones while driving can distract drivers and increase the risk of road accidents.",
+                "point_collocations": [
+                  {
+                    "en": "distract drivers",
+                    "vi": "khiến người lái xe mất tập trung"
+                  },
+                  {
+                    "en": "increase the risk of",
+                    "vi": "làm tăng nguy cơ"
+                  },
+                  {
+                    "en": "road accidents",
+                    "vi": "tai nạn giao thông"
+                  }
+                ],
+                "evidence_vi": "Người lái xe thường phải nhìn vào màn hình điện thoại để đọc tin nhắn hoặc kiểm tra thông báo. Điều này khiến họ không thể tập trung hoàn toàn vào tình hình giao thông phía trước. Họ có thể không chú ý đến các phương tiện khác đang giảm tốc độ hoặc chuyển hướng. Ngoài ra, việc trả lời tin nhắn hoặc thực hiện cuộc gọi có thể khiến người lái xe phản ứng chậm hơn. Trong những tình huống bất ngờ, chỉ một vài giây mất tập trung cũng có thể dẫn đến va chạm nghiêm trọng. Vì vậy, việc sử dụng điện thoại khi lái xe không chỉ đe dọa tính mạng của người lái mà còn gây nguy hiểm cho những người tham gia giao thông khác.",
+                "evidence_en": "Drivers often have to look at their phone screens to read messages or check notifications. This makes it hard for them to pay full attention to the traffic conditions ahead. They may not notice other vehicles slowing down or changing direction. In addition, texting or making phone calls can slow down drivers' reactions. In unexpected situations, even a few seconds of distraction can lead to serious accidents. Therefore, using mobile phones while driving puts not only drivers' lives but also other road users at risk.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "look at the phone screen",
+                      "vi": "nhìn vào màn hình điện thoại"
+                    },
+                    {
+                      "en": "read messages",
+                      "vi": "đọc tin nhắn"
+                    },
+                    {
+                      "en": "check notifications",
+                      "vi": "kiểm tra thông báo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "make it hard for somebody to do something",
+                      "vi": "khiến ai khó làm gì"
+                    },
+                    {
+                      "en": "pay attention to",
+                      "vi": "chú ý đến"
+                    },
+                    {
+                      "en": "traffic conditions ahead",
+                      "vi": "tình hình giao thông phía trước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "may not notice",
+                      "vi": "có thể không chú ý / nhận thấy"
+                    },
+                    {
+                      "en": "other vehicles",
+                      "vi": "các phương tiện khác"
+                    },
+                    {
+                      "en": "slow down or change direction",
+                      "vi": "giảm tốc độ hoặc chuyển hướng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "texting or making phone calls",
+                      "vi": "nhắn tin hoặc thực hiện cuộc gọi"
+                    },
+                    {
+                      "en": "slow down drivers' reactions",
+                      "vi": "làm chậm phản ứng của người lái xe"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unexpected situations",
+                      "vi": "những tình huống bất ngờ"
+                    },
+                    {
+                      "en": "a few seconds of distraction",
+                      "vi": "một vài giây mất tập trung"
+                    },
+                    {
+                      "en": "lead to serious accidents",
+                      "vi": "dẫn đến tai nạn nghiêm trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "using mobile phones while driving",
+                      "vi": "việc sử dụng điện thoại khi lái xe"
+                    },
+                    {
+                      "en": "put somebody's life at risk",
+                      "vi": "đe dọa tính mạng ai"
+                    },
+                    {
+                      "en": "other road users",
+                      "vi": "những người tham gia giao thông khác"
+                    },
+                    {
+                      "en": "not only... but also...",
+                      "vi": "không chỉ... mà còn..."
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2: ĐIỆN THOẠI LÀ CÔNG CỤ HỮU ÍCH CHO TÀI XẾ (VIEW 02: PHONES AS USEFUL TOOLS)",
+                "point_vi": "Điện thoại di động có thể hỗ trợ người lái xe bằng cách cung cấp thông tin hữu ích và giúp họ xử lý các tình huống trên đường tốt hơn.",
+                "point_en": "Mobile phones can support drivers by providing useful information and helping them deal with different situations on the road.",
+                "point_collocations": [
+                  {
+                    "en": "support drivers",
+                    "vi": "hỗ trợ người lái xe"
+                  },
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích"
+                  },
+                  {
+                    "en": "deal with",
+                    "vi": "xử lý, đối phó với"
+                  },
+                  {
+                    "en": "situations on the road",
+                    "vi": "các tình huống trên đường"
+                  }
+                ],
+                "evidence_vi": "Trước hết, các ứng dụng bản đồ có thể hướng dẫn người lái xe tìm đường và lựa chọn tuyến đường phù hợp. Nhờ đó, họ có thể tránh những khu vực thường xuyên xảy ra ùn tắc giao thông và tiết kiệm thời gian di chuyển. Bên cạnh đó, một số ứng dụng có thể cảnh báo về tai nạn, công trình xây dựng hoặc những nguy hiểm trên đường. Những cảnh báo này giúp người lái xe chuẩn bị trước và điều chỉnh tốc độ hoặc tuyến đường khi cần thiết. Điện thoại cũng cho phép người lái xe liên hệ với gia đình hoặc các dịch vụ khẩn cấp khi xe gặp sự cố. Vì vậy, nếu được sử dụng đúng cách, điện thoại di động có thể góp phần giúp chuyến đi an toàn và thuận tiện hơn.",
+                "evidence_en": "First, map applications can help drivers find directions and choose suitable routes. As a result, they can avoid areas with heavy traffic and save travel time. In addition, some applications can warn drivers about accidents, roadworks or dangers on the road. These warnings help drivers prepare in advance and change their speed or routes when necessary. Phones also allow drivers to contact their families or emergency services when their vehicles break down. Therefore, when used properly, mobile phones can help make journeys safer and more convenient.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "map applications",
+                      "vi": "ứng dụng bản đồ"
+                    },
+                    {
+                      "en": "find directions",
+                      "vi": "tìm đường"
+                    },
+                    {
+                      "en": "choose suitable routes",
+                      "vi": "chọn tuyến đường phù hợp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "avoid areas with heavy traffic",
+                      "vi": "tránh những khu vực giao thông đông đúc"
+                    },
+                    {
+                      "en": "save travel time",
+                      "vi": "tiết kiệm thời gian di chuyển"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "warn drivers about accidents",
+                      "vi": "cảnh báo người lái xe về tai nạn"
+                    },
+                    {
+                      "en": "roadworks or dangers on the road",
+                      "vi": "công trình sửa chữa hoặc những nguy hiểm trên đường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prepare in advance",
+                      "vi": "chuẩn bị trước"
+                    },
+                    {
+                      "en": "change their speed or routes",
+                      "vi": "điều chỉnh tốc độ hoặc tuyến đường"
+                    },
+                    {
+                      "en": "when necessary",
+                      "vi": "khi cần thiết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "contact their families or emergency services",
+                      "vi": "liên hệ với gia đình hoặc các dịch vụ khẩn cấp"
+                    },
+                    {
+                      "en": "when vehicles break down",
+                      "vi": "khi phương tiện bị hỏng / gặp sự cố"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "when used properly",
+                      "vi": "khi được sử dụng đúng cách"
+                    },
+                    {
+                      "en": "help make journeys safer and more convenient",
+                      "vi": "giúp chuyến đi an toàn và thuận tiện hơn"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1: KHÔNG NÊN SỬ DỤNG ĐIỆN THOẠI KHI LÁI XE (VIEW 01: DRIVERS SHOULD NOT USE PHONES)",
+                "point_vi": "Sử dụng điện thoại khi lái xe có thể gây mất tập trung nghiêm trọng và làm tăng đáng kể nguy cơ xảy ra tai nạn giao thông.",
+                "point_en": "Using mobile phones while driving can distract drivers severely and significantly increase the risk of road accidents.",
+                "point_collocations": [
+                  {
+                    "en": "distract drivers severely",
+                    "vi": "khiến người lái xe mất tập trung nghiêm trọng"
+                  },
+                  {
+                    "en": "increase the risk of road accidents",
+                    "vi": "làm tăng đáng kể nguy cơ tai nạn giao thông"
+                  },
+                  {
+                    "en": "behind the wheel",
+                    "vi": "ngồi sau tay lái / khi đang điều khiển xe"
+                  }
+                ],
+                "evidence_vi": "Người lái xe thường phải nhìn vào màn hình điện thoại để đọc tin nhắn hoặc kiểm tra thông báo. Điều này khiến họ không thể tập trung hoàn toàn vào tình hình giao thông phía trước. Họ có thể không chú ý đến các phương tiện khác đang giảm tốc độ hoặc chuyển hướng. Ngoài ra, việc trả lời tin nhắn hoặc thực hiện cuộc gọi có thể khiến người lái xe phản ứng chậm hơn. Trong những tình huống bất ngờ, chỉ một vài giây mất tập trung cũng có thể dẫn đến va chạm nghiêm trọng. Vì vậy, việc sử dụng điện thoại khi lái xe không chỉ đe dọa tính mạng của người lái mà còn gây nguy hiểm cho những người tham gia giao thông khác.",
+                "evidence_en": "Drivers often have to glance at their phone screens to read messages or check notifications. This makes it hard for them to pay full attention to the traffic conditions ahead. Consequently, they may not notice other vehicles slowing down or changing direction. In addition, texting or making phone calls can slow down drivers' reactions considerably. In unexpected situations, even a few seconds of distraction can lead to serious accidents. Therefore, using mobile phones while driving puts not only drivers' lives but also other road users at severe risk.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "glance at phone screens",
+                      "vi": "liếc nhìn màn hình điện thoại"
+                    },
+                    {
+                      "en": "read messages or check notifications",
+                      "vi": "đọc tin nhắn hoặc kiểm tra thông báo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pay full attention to",
+                      "vi": "tập trung chú ý hoàn toàn vào"
+                    },
+                    {
+                      "en": "traffic conditions ahead",
+                      "vi": "tình hình giao thông phía trước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "may not notice",
+                      "vi": "có thể không nhận ra / không chú ý đến"
+                    },
+                    {
+                      "en": "slowing down or changing direction",
+                      "vi": "giảm tốc độ hoặc chuyển hướng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "texting or making phone calls",
+                      "vi": "nhắn tin hoặc thực hiện cuộc gọi"
+                    },
+                    {
+                      "en": "slow down drivers' reactions",
+                      "vi": "làm chậm phản ứng của người lái xe"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unexpected situations",
+                      "vi": "những tình huống bất ngờ"
+                    },
+                    {
+                      "en": "seconds of distraction",
+                      "vi": "giây phút mất tập trung"
+                    },
+                    {
+                      "en": "lead to serious accidents",
+                      "vi": "dẫn đến các vụ tai nạn nghiêm trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "puts drivers' lives at risk",
+                      "vi": "đe dọa tính mạng của người lái xe"
+                    },
+                    {
+                      "en": "other road users",
+                      "vi": "những người tham gia giao thông khác"
+                    },
+                    {
+                      "en": "not only... but also...",
+                      "vi": "không chỉ... mà còn..."
+                    }
+                  ]
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2: ĐIỆN THOẠI LÀ CÔNG CỤ HỮU ÍCH CHO TÀI XẾ (VIEW 02: PHONES AS USEFUL TOOLS)",
+                "point_vi": "Điện thoại di động có thể hỗ trợ người lái xe bằng cách cung cấp thông tin hữu ích và giúp họ xử lý các tình huống trên đường tốt hơn.",
+                "point_en": "Mobile phones can support drivers by providing useful information and helping them deal with different situations on the road effectively.",
+                "point_collocations": [
+                  {
+                    "en": "support drivers effectively",
+                    "vi": "hỗ trợ người lái xe một cách hiệu quả"
+                  },
+                  {
+                    "en": "provide useful information",
+                    "vi": "cung cấp thông tin hữu ích"
+                  },
+                  {
+                    "en": "deal with different situations on the road",
+                    "vi": "xử lý các tình huống đa dạng trên đường"
+                  }
+                ],
+                "evidence_vi": "Trước hết, các ứng dụng bản đồ có thể hướng dẫn người lái xe tìm đường và lựa chọn tuyến đường phù hợp. Nhờ đó, họ có thể tránh những khu vực thường xuyên xảy ra ùn tắc giao thông và tiết kiệm thời gian di chuyển. Bên cạnh đó, một số ứng dụng có thể cảnh báo về tai nạn, công trình xây dựng hoặc những nguy hiểm trên đường. Những cảnh báo này giúp người lái xe chuẩn bị trước và điều chỉnh tốc độ hoặc tuyến đường khi cần thiết. Điện thoại cũng cho phép người lái xe liên hệ với gia đình hoặc các dịch vụ khẩn cấp khi xe gặp sự cố. Vì vậy, nếu được sử dụng đúng cách, điện thoại di động có thể góp phần giúp chuyến đi an toàn và thuận tiện hơn.",
+                "evidence_en": "First, map applications can help drivers find directions and choose suitable routes easily. As a result, they can avoid areas with heavy traffic and save valuable travel time. In addition, some navigation applications can warn drivers about accidents, roadworks or potential dangers on the road. These warnings help drivers prepare in advance and change their speed or routes when necessary. Phones also allow drivers to contact their families or emergency services when their vehicles break down. Therefore, when used properly, mobile phones can help make journeys safer and more convenient.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "map applications",
+                      "vi": "các ứng dụng bản đồ"
+                    },
+                    {
+                      "en": "find directions",
+                      "vi": "tìm đường đi"
+                    },
+                    {
+                      "en": "choose suitable routes",
+                      "vi": "lựa chọn tuyến đường phù hợp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "avoid areas with heavy traffic",
+                      "vi": "tránh các khu vực mật độ giao thông đông đúc"
+                    },
+                    {
+                      "en": "save travel time",
+                      "vi": "tiết kiệm thời gian di chuyển"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "warn drivers about accidents",
+                      "vi": "cảnh báo người lái xe về các vụ tai nạn"
+                    },
+                    {
+                      "en": "roadworks or potential dangers",
+                      "vi": "công trình sửa đường hoặc nguy cơ tiềm ẩn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prepare in advance",
+                      "vi": "chuẩn bị trước tinh thần và phương án"
+                    },
+                    {
+                      "en": "change their speed or routes",
+                      "vi": "điều chỉnh tốc độ hoặc lộ trình"
+                    },
+                    {
+                      "en": "when necessary",
+                      "vi": "khi cần thiết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "contact emergency services",
+                      "vi": "liên hệ các dịch vụ khẩn cấp / cứu hộ"
+                    },
+                    {
+                      "en": "when vehicles break down",
+                      "vi": "khi phương tiện bị hỏng hóc giữa đường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "when used properly",
+                      "vi": "khi được sử dụng đúng cách và đúng lúc"
+                    },
+                    {
+                      "en": "make journeys safer and more convenient",
+                      "vi": "giúp các chuyến hành trình an toàn và thuận tiện hơn"
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>using mobile phones while driving</strong> has become a common topic of discussion. Some people believe that <strong><em>drivers should not use mobile phones while driving because they can cause serious danger</em></strong>, while others argue that <strong><em>mobile phones can be useful tools for drivers on the road</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that drivers should not use mobile phones behind the wheel.</strong> The primary reason is that <em>using mobile phones while driving can distract drivers and increase the risk of road accidents.</em> In fact, drivers often have to look at their phone screens to read messages or check notifications. This makes it hard for them to pay full attention to the traffic conditions ahead. Consequently, they may not notice other vehicles slowing down or changing direction. In addition, texting or making phone calls can slow down drivers' reactions. In unexpected situations, even a few seconds of distraction can lead to serious accidents. Therefore, using mobile phones while driving puts not only drivers' lives but also other road users at risk.\n\n<strong>On the other hand, it is believed that mobile phones can be useful tools for drivers.</strong> This is because <em>mobile phones can support drivers by providing useful information and helping them deal with different situations on the road.</em> First, map applications can help drivers find directions and choose suitable routes. As a result, they can avoid areas with heavy traffic and save travel time. In addition, some applications can warn drivers about accidents, roadworks or dangers on the road. These warnings help drivers prepare in advance and change their speed or routes when necessary. Furthermore, phones also allow drivers to contact their families or emergency services when their vehicles break down. Therefore, when used properly, mobile phones can help make journeys safer and more convenient.\n\nIn conclusion, both views have valid points. However, <strong><em>I agree that mobile phones can offer several benefits to drivers, but road safety should always come first.</em></strong> Drivers should only use necessary functions through hands-free devices or set them up before starting their journeys, rather than holding their phones to read messages or operate them while driving.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng điện thoại khi lái xe</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>người lái xe không nên sử dụng điện thoại di động khi lái xe vì chúng có thể gây ra nguy hiểm nghiêm trọng</em></strong>, trong khi những người khác lập luận rằng <strong><em>điện thoại di động có thể là công cụ hữu ích cho người lái xe trên đường</em></strong>. <strong>Bài viết này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến cá nhân của tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng người lái xe không nên sử dụng điện thoại khi đang ngồi sau tay lái.</strong> Lý do chính là <em>việc sử dụng điện thoại khi lái xe có thể gây mất tập trung và làm tăng nguy cơ xảy ra tai nạn giao thông.</em> Trên thực tế, người lái xe thường phải nhìn vào màn hình điện thoại để đọc tin nhắn hoặc kiểm tra thông báo. Điều này khiến họ không thể tập trung hoàn toàn vào tình hình giao thông phía trước. Kết quả là, họ có thể không chú ý đến các phương tiện khác đang giảm tốc độ hoặc chuyển hướng. Ngoài ra, việc nhắn tin hoặc gọi điện thoại có thể làm chậm phản ứng của người lái xe. Trong những tình huống bất ngờ, chỉ một vài giây mất tập trung cũng có thể dẫn đến va chạm nghiêm trọng. Vì vậy, việc sử dụng điện thoại khi lái xe không chỉ đe dọa tính mạng của người lái mà còn gây nguy hiểm cho những người tham gia giao thông khác.\n\n<strong>Mặt khác, người ta tin rằng điện thoại di động có thể là công cụ hữu ích cho người lái xe.</strong> Điều này là do <em>điện thoại di động có thể hỗ trợ người lái xe bằng cách cung cấp thông tin hữu ích và giúp họ xử lý các tình huống khác nhau trên đường.</em> Trước hết, các ứng dụng bản đồ có thể giúp người lái xe tìm đường và lựa chọn tuyến đường phù hợp. Nhờ đó, họ có thể tránh những khu vực thường xuyên ùn tắc giao thông và tiết kiệm thời gian di chuyển. Bên cạnh đó, một số ứng dụng có thể cảnh báo người lái xe về tai nạn, công trình sửa đường hoặc những nguy hiểm trên đường. Những cảnh báo này giúp người lái xe chuẩn bị trước và điều chỉnh tốc độ hoặc tuyến đường khi cần thiết. Hơn nữa, điện thoại cũng cho phép người lái xe liên hệ với gia đình hoặc các dịch vụ khẩn cấp khi xe gặp sự cố. Vì vậy, nếu được sử dụng đúng cách, điện thoại di động có thể góp phần giúp chuyến đi an toàn và thuận tiện hơn.\n\nTóm lại, cả hai quan điểm đều có những lý lẽ xác đáng. Tuy nhiên, <strong><em>tôi đồng ý rằng điện thoại có thể mang lại nhiều lợi ích cho người lái xe, nhưng an toàn giao thông phải luôn được đặt lên hàng đầu.</em></strong> Người lái xe chỉ nên sử dụng các chức năng cần thiết thông qua thiết bị rảnh tay hoặc cài đặt trước khi khởi hành, thay vì cầm điện thoại để đọc tin nhắn hay thao tác khi xe đang chạy.",
+          "sample_b2": "In contemporary society, <strong>the practice of using mobile phones while driving</strong> has sparked intense public controversy. While some individuals contend that <strong><em>drivers should strictly refrain from operating mobile phones due to severe road hazards</em></strong>, others argue that <strong><em>these portable devices can serve as invaluable tools by providing timely warnings about potential dangers</em></strong>. <strong>This essay will critically examine both perspectives before articulating my personal viewpoint.</strong>\n\n<strong>On the one hand, compelling arguments support the view that drivers should avoid using mobile phones behind the wheel.</strong> Most notably, <em>operating mobile devices causes severe visual and mental distraction, significantly elevating the risk of catastrophic road collisions.</em> When motorists frequently look down at electronic screens to read incoming messages or inspect notifications, they compromise their situational awareness. Consequently, they may not notice other vehicles slowing down abruptly or changing direction without signaling. Furthermore, manual texting or holding phone conversations substantially impairs drivers' reflexes and physical reaction times. In sudden and unexpected traffic situations, even a few seconds of inattention can lead to severe, irreversible crashes. Therefore, using mobile phones while driving not only jeopardizes drivers' own survival but also puts innocent pedestrians and other road users at grave risk.\n\n<strong>On the other hand, proponents argue that mobile phones offer indispensable utility for motorists when utilized appropriately.</strong> In essence, <em>mobile handsets can support drivers effectively by delivering critical travel information and assisting them in managing demanding situations on the road.</em> Modern GPS and map applications reliably guide motorists along optimal routes, allowing them to bypass congested arterial roads and save valuable commuting time. Additionally, specialized driving applications can issue early warnings regarding road accidents, ongoing roadworks, or potential hazards ahead. These advance alerts enable drivers to adjust their cruising speed and modify their routes proactively. Crucially, cellular devices allow drivers to contact family members or summon emergency rescue services immediately when their vehicles suffer mechanical breakdowns in remote areas. Thus, when utilized properly, mobile phones render vehicular journeys substantially safer and more convenient.\n\nIn conclusion, while both viewpoints present legitimate rationale, <strong><em>I firmly believe that road safety must always remain the paramount consideration.</em></strong> Drivers should strictly confine phone usage to essential navigation and communication via hands-free systems or configure them prior to departure, rather than physically handling their devices while operating a vehicle.",
+          "translation_b2": "Trong xã hội hiện đại, <strong>thói quen sử dụng điện thoại khi lái xe</strong> đã làm dấy lên cuộc tranh luận công khai gay gắt. Trong khi một số cá nhân cho rằng <strong><em>người lái xe nên tuyệt đối tránh sử dụng điện thoại do những mối nguy hại nghiêm trọng trên đường</em></strong>, những người khác lại lập luận rằng <strong><em>các thiết bị cầm tay này có thể đóng vai trò là công cụ vô giá nhờ cung cấp những cảnh báo kịp thời về các mối nguy tiềm ẩn</em></strong>. <strong>Bài viết này sẽ xem xét kỹ lưỡng cả hai góc nhìn trước khi nêu rõ quan điểm cá nhân của tôi.</strong>\n\n<strong>Một mặt, có những lập luận thuyết phục ủng hộ quan điểm rằng người lái xe không nên sử dụng điện thoại khi ngồi sau tay lái.</strong> Đáng chú ý nhất, <em>việc thao tác trên thiết bị di động gây ra sự mất tập trung nghiêm trọng về thị giác và nhận thức, làm tăng đáng kể nguy cơ xảy ra các vụ va chạm giao thông thảm khốc.</em> Khi tài xế thường xuyên nhìn xuống màn hình điện tử để đọc tin nhắn đến hoặc kiểm tra thông báo, khả năng quan sát tình huống của họ bị tổn hại nặng nề. Do đó, họ có thể không nhận ra các phương tiện khác đang đột ngột giảm tốc độ hoặc chuyển hướng mà không phát tín hiệu. Hơn nữa, việc nhắn tin thủ công hoặc đàm thoại qua điện thoại làm suy giảm đáng kể phản xạ và thời gian phản ứng của người lái. Trong các tình huống giao thông bất ngờ, chỉ một vài giây thiếu chú ý cũng có thể dẫn đến các vụ tai nạn thảm khốc không thể cứu vãn. Vì vậy, việc sử dụng điện thoại khi lái xe không chỉ đe dọa sự an toàn của chính tài xế mà còn đẩy những người đi bộ vô tội và những người tham gia giao thông khác vào tình thế đặc biệt nguy hiểm.\n\n<strong>Mặt khác, những người ủng hộ cho rằng điện thoại di động mang lại những tiện ích không thể thiếu cho người lái xe khi được sử dụng hợp lý.</strong> Về bản chất, <em>điện thoại di động có thể hỗ trợ tài xế hiệu quả bằng cách cung cấp thông tin hành trình thiết yếu và giúp họ xử lý các tình huống phức tạp trên đường.</em> Các ứng dụng GPS và bản đồ hiện đại điều hướng người lái xe một cách đáng tin cậy theo các lộ trình tối ưu, giúp họ tránh được các tuyến đường huyết mạch bị ùn tắc và tiết kiệm thời gian di chuyển quý báu. Thêm vào đó, các ứng dụng chuyên dụng có thể phát ra cảnh báo sớm về tai nạn giao thông, các công trình đường bộ đang thi công hoặc nguy hiểm tiềm ẩn phía trước. Những cảnh báo trước này cho phép tài xế chủ động điều chỉnh tốc độ di chuyển và thay đổi lộ trình kịp thời. Quan trọng hơn, kết nối di động cho phép tài xế liên hệ ngay với người thân hoặc gọi dịch vụ cứu hộ khẩn cấp khi xe gặp sự cố hỏng hóc ở những khu vực hẻo lánh. Như vậy, khi được sử dụng đúng cách, điện thoại di động thực sự giúp các chuyến đi bằng ô tô trở nên an toàn và thuận tiện hơn rất nhiều.\n\nTóm lại, mặc dù cả hai luồng ý kiến đều đưa ra những lý lẽ chính đáng, <strong><em>tôi kiên định cho rằng an toàn giao thông phải luôn là yếu tố được ưu tiên hàng đầu.</em></strong> Người điều khiển phương tiện chỉ nên giới hạn việc tương tác với điện thoại ở các chức năng dẫn đường và liên lạc thiết yếu thông qua hệ thống rảnh tay hoặc cài đặt lộ trình trước khi xuất phát, thay vì cầm nắm thiết bị khi đang điều khiển phương tiện trên đường.",
+          "key_vocab_notes": "📌 Ghi chú sư phạm dành cho giáo viên và học viên:\n- Trong phần luyện viết câu: Thay vì dùng cấu trúc phức tạp 'fail to notice' (không nhận ra), học sinh có thể sử dụng 'may not notice' (có thể không chú ý / không nhận ra). Cách diễn đạt này vừa tự nhiên, vừa dễ nhớ, phù hợp cho cả mục tiêu B1 và B2.\n- Cụm từ 'put somebody's life at risk' (đe dọa tính mạng ai) và 'other road users' (những người tham gia giao thông khác) là cụm collocations điểm nhấn cho tiêu chí Từ vựng (Lexical Resource).\n- Cấu trúc kết bài nêu góc nhìn cá nhân (Personal Opinion): Sử dụng mô hình nhượng bộ 'I agree that... but road safety should always come first' để bài viết đạt điểm tối đa ở tiêu chí Task Fulfillment.",
+          "my_opinion": {
+            "vi": "Tôi đồng ý rằng điện thoại có thể mang lại nhiều lợi ích cho người lái xe, nhưng an toàn giao thông phải được đặt lên hàng đầu. Người lái xe chỉ nên sử dụng các chức năng cần thiết thông qua thiết bị rảnh tay hoặc cài đặt trước khi khởi hành, thay vì cầm điện thoại để đọc tin nhắn hay thao tác khi xe đang chạy.",
+            "en": "I agree that mobile phones can offer several benefits to drivers, but road safety should always come first. Drivers should only use necessary functions through hands-free devices or set them up before starting their journeys, rather than holding their phones to read messages or operate them while driving."
+          },
+          "vocab_step": {
+            "theme": "Điện thoại di động & An toàn giao thông khi lái xe (Mobile Phones & Road Safety)",
+            "overview": "Hệ thống từ vựng học thuật B2 chuyên sâu cho chủ đề Dạng 04 \"Sử dụng điện thoại khi lái xe: Chấp nhận được hay Nguy hiểm?\", bao gồm 30 từ đơn cốt lõi kèm Họ từ (Word Family) và 44 cụm Collocations bám sát 100% hai quan điểm Đối lập và Góc nhìn cá nhân.",
+            "single_words": [
+              {
+                "word": "distraction",
+                "ipa": "/dɪˈstræk.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự mất tập trung, điều làm xao nhãng",
+                "family": "distract (v), distracted (adj), distracting (adj)",
+                "example_en": "Looking at mobile screens creates severe visual distraction for drivers.",
+                "example_vi": "Nhìn vào màn hình điện thoại gây ra sự mất tập trung thị giác nghiêm trọng cho người lái xe."
+              },
+              {
+                "word": "collision",
+                "ipa": "/kəˈlɪʒ.ən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự va chạm, vụ tai nạn va chạm",
+                "family": "collide (v)",
+                "example_en": "Even a split-second distraction can result in a fatal vehicle collision.",
+                "example_vi": "Chỉ một khoảnh khắc mất tập trung cũng có thể dẫn đến vụ va chạm phương tiện chết người."
+              },
+              {
+                "word": "reaction",
+                "ipa": "/riˈæk.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "phản ứng, thời gian phản xạ",
+                "family": "react (v), reactive (adj)",
+                "example_en": "Texting while driving substantially slows down motorists' reaction times.",
+                "example_vi": "Nhắn tin khi lái xe làm chậm đáng kể thời gian phản xạ của người điều khiển xe."
+              },
+              {
+                "word": "notification",
+                "ipa": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "thông báo, tín hiệu nhắc nhở",
+                "family": "notify (v), notified (adj)",
+                "example_en": "Drivers are often tempted to check incoming phone notifications on the road.",
+                "example_vi": "Người lái xe thường bị cám dỗ kiểm tra các thông báo điện thoại gửi đến khi đang đi trên đường."
+              },
+              {
+                "word": "navigation",
+                "ipa": "/ˌnæv.ɪˈɡeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "việc điều hướng, định vị dẫn đường",
+                "family": "navigate (v), navigational (adj), navigator (n)",
+                "example_en": "Satellite navigation apps help motorists find the quickest route to their destinations.",
+                "example_vi": "Các ứng dụng định vị vệ tinh giúp tài xế tìm ra tuyến đường nhanh nhất đến điểm đến."
+              },
+              {
+                "word": "hazard",
+                "ipa": "/ˈhæz.əd/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "mối nguy hiểm, chướng ngại hiểm họa",
+                "family": "hazardous (adj)",
+                "example_en": "Early warnings enable commuters to evade unexpected road hazards.",
+                "example_vi": "Những cảnh báo sớm cho phép người tham gia giao thông né tránh những mối nguy hiểm bất ngờ trên đường."
+              },
+              {
+                "word": "breakdown",
+                "ipa": "/ˈbreɪk.daʊn/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự hỏng hóc, sự cố máy móc",
+                "family": "break down (phr v)",
+                "example_en": "A mobile phone is invaluable for summoning help during a sudden car breakdown.",
+                "example_vi": "Điện thoại di động là công cụ vô giá để gọi trợ giúp khi xe bất ngờ bị hỏng."
+              },
+              {
+                "word": "emergency",
+                "ipa": "/ɪˈmɜː.dʒən.si/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "tình huống khẩn cấp",
+                "family": "emergent (adj)",
+                "example_en": "Drivers can dial emergency services immediately if an accident occurs.",
+                "example_vi": "Người lái xe có thể gọi ngay cho các dịch vụ khẩn cấp nếu xảy ra tai nạn."
+              },
+              {
+                "word": "impair",
+                "ipa": "/ɪmˈpeər/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm suy yếu, làm tổn hại",
+                "family": "impairment (n), impaired (adj)",
+                "example_en": "Handling a handheld device severely impairs a motorist's ability to steer safely.",
+                "example_vi": "Cầm thiết bị trên tay làm suy giảm nghiêm trọng khả năng đánh lái an toàn của tài xế."
+              },
+              {
+                "word": "fatal",
+                "ipa": "/ˈfeɪ.təl/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "gây chết người, tai hại",
+                "family": "fatality (n), fatally (adv)",
+                "example_en": "Reckless phone usage remains a major cause of fatal crashes worldwide.",
+                "example_vi": "Sử dụng điện thoại liều lĩnh vẫn là một nguyên nhân hàng đầu gây ra các vụ tai nạn chết người trên thế giới."
+              },
+              {
+                "word": "inattention",
+                "ipa": "/ˌɪn.əˈten.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thiếu chú ý, sự lơ đãng",
+                "family": "attentive (adj), inattentive (adj)",
+                "example_en": "Driver inattention is directly linked to thousands of highway incidents annually.",
+                "example_vi": "Sự thiếu chú ý của người lái xe liên quan trực tiếp đến hàng nghìn vụ tai nạn trên đường cao tốc mỗi năm."
+              },
+              {
+                "word": "maneuver",
+                "ipa": "/məˈnuː.vər/",
+                "pos": "noun/verb",
+                "level": "B2",
+                "vi": "thao tác điều khiển xe, chuyển làn",
+                "family": "maneuverable (adj)",
+                "example_en": "Distracted drivers often fail to spot sudden turning maneuvers by other vehicles.",
+                "example_vi": "Những tài xế mất tập trung thường không phát hiện kịp các thao tác chuyển hướng bất ngờ của xe khác."
+              },
+              {
+                "word": "congestion",
+                "ipa": "/kənˈdʒes.tʃən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự tắc nghẽn giao thông",
+                "family": "congested (adj)",
+                "example_en": "Live digital maps notify travelers of severe congestion along their commute.",
+                "example_vi": "Bản đồ số trực tiếp thông báo cho người đi đường về tình trạng ùn tắc nghiêm trọng trên lộ trình của họ."
+              },
+              {
+                "word": "hands-free",
+                "ipa": "/ˌhændzˈfriː/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "rảnh tay, không cần cầm tay",
+                "family": "hands-free (adv)",
+                "example_en": "Motorists are legally advised to employ hands-free headsets or voice controls.",
+                "example_vi": "Người lái xe được khuyến cáo về mặt pháp lý nên sử dụng tai nghe rảnh tay hoặc điều khiển bằng giọng nói."
+              },
+              {
+                "word": "reckless",
+                "ipa": "/ˈrek.ləs/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "liều lĩnh, bất cẩn",
+                "family": "recklessly (adv), recklessness (n)",
+                "example_en": "Holding a phone while driving at high speed is deemed reckless driving behavior.",
+                "example_vi": "Cầm điện thoại khi đang lái xe ở tốc độ cao bị coi là hành vi lái xe liều lĩnh."
+              },
+              {
+                "word": "pedestrian",
+                "ipa": "/pəˈdes.tri.ən/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "người đi bộ",
+                "family": "pedestrianized (adj)",
+                "example_en": "Inattentive motorists frequently pose mortal threats to innocent pedestrians.",
+                "example_vi": "Những tài xế lơ đãng thường gây ra mối đe dọa đến tính mạng đối với những người đi bộ vô tội."
+              },
+              {
+                "word": "commute",
+                "ipa": "/kəˈmjuːt/",
+                "pos": "noun/verb",
+                "level": "B1, B2",
+                "vi": "quãng đường đi lại hằng ngày",
+                "family": "commuter (n)",
+                "example_en": "Route guidance applications streamline the daily morning commute.",
+                "example_vi": "Các ứng dụng chỉ đường giúp việc đi lại buổi sáng hằng ngày trở nên suôn sẻ hơn."
+              },
+              {
+                "word": "adherence",
+                "ipa": "/ədˈhɪə.rəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự tuân thủ nghiêm ngặt",
+                "family": "adhere (v), adherent (adj)",
+                "example_en": "Strict adherence to traffic safety regulations minimizes accident rates.",
+                "example_vi": "Sự tuân thủ nghiêm ngặt luật an toàn giao thông giúp giảm thiểu tỷ lệ tai nạn."
+              },
+              {
+                "word": "violation",
+                "ipa": "/ˌvaɪ.əˈleɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hành vi vi phạm luật",
+                "family": "violate (v), violator (n)",
+                "example_en": "Operating a handheld phone while driving constitutes a serious traffic violation.",
+                "example_vi": "Sử dụng điện thoại cầm tay khi đang lái xe cấu thành một hành vi vi phạm giao thông nghiêm trọng."
+              },
+              {
+                "word": "safeguard",
+                "ipa": "/ˈseɪf.ɡɑːd/",
+                "pos": "verb/noun",
+                "level": "B2",
+                "vi": "bảo vệ, biện pháp bảo đảm an toàn",
+                "family": "safeguarded (adj)",
+                "example_en": "Road regulations are enacted to safeguard the lives of all citizens.",
+                "example_vi": "Các quy định giao thông được ban hành nhằm bảo vệ tính mạng của mọi người dân."
+              },
+              {
+                "word": "deterrent",
+                "ipa": "/dɪˈter.ənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "biện pháp ngăn chặn, răn đe",
+                "family": "deter (v)",
+                "example_en": "Heavy monetary fines act as a strong deterrent against phone usage on roads.",
+                "example_vi": "Mức phạt tiền nặng đóng vai trò như biện pháp răn đe mạnh mẽ chống lại việc dùng điện thoại trên đường."
+              },
+              {
+                "word": "portable",
+                "ipa": "/ˈpɔː.tə.bəl/",
+                "pos": "adjective",
+                "level": "B1, B2",
+                "vi": "di động, có thể mang theo",
+                "family": "portability (n)",
+                "example_en": "Portable digital gadgets provide drivers with versatile functionalities.",
+                "example_vi": "Các thiết bị số di động cung cấp cho tài xế nhiều chức năng đa dạng."
+              },
+              {
+                "word": "prompt",
+                "ipa": "/prɒmpt/",
+                "pos": "adjective",
+                "level": "B2",
+                "vi": "kịp thời, nhanh chóng",
+                "family": "promptly (adv)",
+                "example_en": "Drivers require prompt warnings to avoid sudden road construction zones.",
+                "example_vi": "Người lái xe cần những cảnh báo kịp thời để tránh các khu vực công trường bất ngờ."
+              },
+              {
+                "word": "alert",
+                "ipa": "/əˈlɜːt/",
+                "pos": "noun/verb",
+                "level": "B1, B2",
+                "vi": "sự cảnh báo, báo động",
+                "family": "alertness (n)",
+                "example_en": "Automated voice alerts keep drivers informed without taking their eyes off the road.",
+                "example_vi": "Cảnh báo bằng giọng nói tự động giúp người lái xe nắm bắt thông tin mà không cần rời mắt khỏi đường."
+              },
+              {
+                "word": "detour",
+                "ipa": "/ˈdiː.tʊər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "đường vòng, lộ trình đi vòng",
+                "family": "detoured (adj)",
+                "example_en": "When a highway is blocked, navigation software promptly suggests a detour.",
+                "example_vi": "Khi đường cao tốc bị phong tỏa, phần mềm chỉ đường sẽ gợi ý lộ trình đi vòng ngay lập tức."
+              },
+              {
+                "word": "motorist",
+                "ipa": "/ˈməʊ.tər.ɪst/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "người điều khiển xe ô tô / xe cơ giới",
+                "family": "motor (n)",
+                "example_en": "Every motorist has an obligation to maintain undivided focus while driving.",
+                "example_vi": "Mỗi người lái xe đều có nghĩa vụ duy trì sự tập trung tuyệt đối khi điều khiển phương tiện."
+              },
+              {
+                "word": "guidance",
+                "ipa": "/ˈɡaɪ.dəns/",
+                "pos": "noun",
+                "level": "B1, B2",
+                "vi": "sự chỉ dẫn, sự định hướng",
+                "family": "guide (v/n)",
+                "example_en": "Turn-by-turn route guidance prevents drivers from getting lost in unfamiliar cities.",
+                "example_vi": "Chỉ dẫn lộ trình từng ngã rẽ giúp người lái xe không bị lạc ở những thành phố lạ."
+              },
+              {
+                "word": "intervention",
+                "ipa": "/ˌɪn.təˈven.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự can thiệp, biện pháp can thiệp",
+                "family": "intervene (v)",
+                "example_en": "Timely rescue intervention can save lives following a catastrophic crash.",
+                "example_vi": "Sự can thiệp cứu hộ kịp thời có thể cứu sống nhiều sinh mạng sau vụ tai nạn thảm khốc."
+              },
+              {
+                "word": "fatality",
+                "ipa": "/fəˈtæl.ə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "ca tử vong do tai nạn",
+                "family": "fatal (adj)",
+                "example_en": "Banning phone manipulation behind the wheel aims to reduce road fatalities.",
+                "example_vi": "Cấm thao tác điện thoại khi lái xe nhằm giảm bớt các ca tử vong do tai nạn giao thông."
+              },
+              {
+                "word": "prohibit",
+                "ipa": "/prəˈhɪb.ɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "nghiêm cấm, ngăn cấm bằng luật",
+                "family": "prohibition (n), prohibitive (adj)",
+                "example_en": "Most developed jurisdictions explicitly prohibit texting while operating a motor vehicle.",
+                "example_vi": "Hầu hết các quốc gia phát triển đều nghiêm cấm hành vi nhắn tin khi đang điều khiển phương tiện cơ giới."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "distraction_risks",
+                "name": "QUAN ĐIỂM 1: NGUY CƠ MẤT TẬP TRUNG & TAI NẠN (VIEW 01: RISKS & DISTRACTIONS)",
+                "icon": "⚠️",
+                "badge": "Phần Thân bài 1 (Body 1)",
+                "items": [
+                  {
+                    "en": "distract drivers from the road",
+                    "vi": "khiến người lái xe mất tập trung vào mặt đường",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Smartphones easily distract drivers from the road ahead.",
+                    "example_vi": "Điện thoại thông minh rất dễ khiến người lái xe mất tập trung vào đoạn đường phía trước."
+                  },
+                  {
+                    "en": "increase the risk of road accidents",
+                    "vi": "làm tăng nguy cơ tai nạn giao thông",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Reading text messages can dramatically increase the risk of road accidents.",
+                    "example_vi": "Đọc tin nhắn văn bản có thể làm tăng đáng kể nguy cơ xảy ra tai nạn giao thông."
+                  },
+                  {
+                    "en": "look at phone screens",
+                    "vi": "nhìn vào màn hình điện thoại",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Motorists should never look at phone screens while their vehicles are moving.",
+                    "example_vi": "Người điều khiển xe tuyệt đối không nên nhìn vào màn hình điện thoại khi xe đang chạy."
+                  },
+                  {
+                    "en": "check incoming notifications",
+                    "vi": "kiểm tra các thông báo gửi đến",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "The reflex to check incoming notifications diverts attention from traffic.",
+                    "example_vi": "Thói quen kiểm tra thông báo gửi đến làm phân tán sự chú ý khỏi tình hình giao thông."
+                  },
+                  {
+                    "en": "pay full attention to traffic conditions",
+                    "vi": "tập trung hoàn toàn vào tình hình giao thông",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Drivers must pay full attention to traffic conditions ahead to prevent collisions.",
+                    "example_vi": "Người lái xe phải tập trung hoàn toàn vào tình hình giao thông phía trước để ngăn ngừa va chạm."
+                  },
+                  {
+                    "en": "may not notice sudden maneuvers",
+                    "vi": "có thể không nhận ra các thao tác bất ngờ",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Distracted commuters may not notice other vehicles slowing down or signaling.",
+                    "example_vi": "Người tham gia giao thông mất tập trung có thể không nhận ra xe khác đang giảm tốc độ hoặc xi nhan."
+                  },
+                  {
+                    "en": "slow down drivers' reactions",
+                    "vi": "làm chậm thời gian phản ứng của người lái",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Texting or dialling numbers can drastically slow down drivers' reactions.",
+                    "example_vi": "Nhắn tin hay bấm số gọi điện có thể làm chậm trầm trọng phản xạ của người lái xe."
+                  },
+                  {
+                    "en": "a few seconds of distraction",
+                    "vi": "một vài giây mất tập trung",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "In fast highway traffic, a few seconds of distraction can be lethal.",
+                    "example_vi": "Trên đường cao tốc chạy tốc độ cao, chỉ vài giây mất tập trung cũng có thể gây tử vong."
+                  },
+                  {
+                    "en": "lead to severe collisions",
+                    "vi": "dẫn đến các vụ va chạm nghiêm trọng",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Loss of visual focus frequently leads to severe collisions at intersections.",
+                    "example_vi": "Việc mất tập trung thị giác thường dẫn đến các vụ va chạm nghiêm trọng tại ngã tư."
+                  },
+                  {
+                    "en": "put innocent road users at risk",
+                    "vi": "đặt những người tham gia giao thông vô tội vào vòng nguy hiểm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Reckless phone usage puts innocent road users and pedestrians at grave risk.",
+                    "example_vi": "Thói quen dùng điện thoại liều lĩnh đẩy những người đi đường và người đi bộ vô tội vào tình thế nguy hiểm."
+                  },
+                  {
+                    "en": "impair situational awareness",
+                    "vi": "làm suy giảm khả năng nhận thức tình huống",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Cognitive overload from phone calls impairs situational awareness behind the wheel.",
+                    "example_vi": "Sự quá tải nhận thức từ các cuộc gọi điện thoại làm suy giảm khả năng quan sát tình huống của tài xế."
+                  },
+                  {
+                    "en": "compromise vehicle control",
+                    "vi": "làm mất khả năng kiểm soát phương tiện chuẩn xác",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Typing with one hand severely compromises vehicle control in unexpected incidents.",
+                    "example_vi": "Gõ phím bằng một tay làm tổn hại nghiêm trọng khả năng làm chủ phương tiện khi có sự cố bất ngờ."
+                  }
+                ]
+              },
+              {
+                "id": "practical_utility",
+                "name": "QUAN ĐIỂM 2: LỢI ÍCH DẪN ĐƯỜNG & KHẨN CẤP (VIEW 02: UTILITY & NAVIGATION)",
+                "icon": "📱",
+                "badge": "Phần Thân bài 2 (Body 2)",
+                "items": [
+                  {
+                    "en": "provide useful navigational information",
+                    "vi": "cung cấp thông tin dẫn đường hữu ích",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Smartphones provide useful navigational information in real time.",
+                    "example_vi": "Điện thoại thông minh cung cấp thông tin dẫn đường hữu ích theo thời gian thực."
+                  },
+                  {
+                    "en": "help drivers find directions",
+                    "vi": "giúp người lái xe tìm đường",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Digital map applications help drivers find directions easily in new cities.",
+                    "example_vi": "Các ứng dụng bản đồ số giúp tài xế tìm đường dễ dàng tại các thành phố mới."
+                  },
+                  {
+                    "en": "choose suitable routes",
+                    "vi": "lựa chọn các tuyến đường phù hợp",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "GPS systems analyze traffic data to recommend suitable routes.",
+                    "example_vi": "Hệ thống định vị GPS phân tích dữ liệu giao thông để đề xuất những tuyến đường phù hợp."
+                  },
+                  {
+                    "en": "avoid areas with heavy traffic",
+                    "vi": "tránh những khu vực giao thông đông đúc",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Intelligent rerouting allows drivers to avoid areas with heavy traffic.",
+                    "example_vi": "Tính năng tự động đổi lộ trình thông minh cho phép tài xế tránh các khu vực giao thông đông đúc."
+                  },
+                  {
+                    "en": "save travel time and fuel",
+                    "vi": "tiết kiệm thời gian di chuyển và nhiên liệu",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Choosing optimal routes helps commuters save travel time and fuel.",
+                    "example_vi": "Lựa chọn tuyến đường tối ưu giúp người tham gia giao thông tiết kiệm thời gian đi lại và nhiên liệu."
+                  },
+                  {
+                    "en": "warn drivers about potential hazards",
+                    "vi": "cảnh báo người lái xe về những mối nguy tiềm ẩn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Community-based apps warn drivers about potential hazards and road closures.",
+                    "example_vi": "Các ứng dụng dựa trên cộng đồng cảnh báo tài xế về các mối nguy tiềm ẩn và các đoạn đường bị phong tỏa."
+                  },
+                  {
+                    "en": "alert commuters to roadworks or accidents",
+                    "vi": "báo hiệu cho tài xế về công trường hoặc tai nạn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Sensors alert commuters to roadworks or accidents occurring miles ahead.",
+                    "example_vi": "Các cảm biến cảnh báo người đi đường về các công trình sửa đường hoặc tai nạn xảy ra cách đó nhiều dặm."
+                  },
+                  {
+                    "en": "prepare in advance for route changes",
+                    "vi": "chuẩn bị trước cho các thay đổi lộ trình",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Auditory alerts help drivers prepare in advance for necessary speed adjustments.",
+                    "example_vi": "Các cảnh báo bằng âm thanh giúp tài xế chuẩn bị trước cho việc điều chỉnh tốc độ cần thiết."
+                  },
+                  {
+                    "en": "contact emergency rescue services",
+                    "vi": "liên hệ các dịch vụ cứu hộ khẩn cấp",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "A cellular phone enables motorists to contact emergency rescue services in isolated areas.",
+                    "example_vi": "Điện thoại di động cho phép tài xế liên hệ với các dịch vụ cứu hộ khẩn cấp ở những khu vực hẻo lánh."
+                  },
+                  {
+                    "en": "deal with unexpected vehicle breakdowns",
+                    "vi": "xử lý các sự cố hỏng hóc xe bất ngờ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Having a mobile phone helps motorists deal with unexpected vehicle breakdowns securely.",
+                    "example_vi": "Có sẵn điện thoại giúp người lái xe xử lý các sự cố chết máy bất ngờ một cách an toàn."
+                  },
+                  {
+                    "en": "make journeys safer and more convenient",
+                    "vi": "giúp các chuyến hành trình an toàn và thuận tiện hơn",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "When utilized sensibly, digital assistants make journeys safer and more convenient.",
+                    "example_vi": "Khi được sử dụng hợp lý, các trợ lý số giúp các chuyến đi an toàn và thuận tiện hơn."
+                  },
+                  {
+                    "en": "streamline road transportation",
+                    "vi": "tối ưu hóa hoạt động vận tải đường bộ",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Real-time navigation algorithms substantially streamline road transportation across metropolitan areas.",
+                    "example_vi": "Các thuật toán chỉ đường thời gian thực giúp tối ưu hóa hoạt động giao thông vận tải tại các đô thị lớn."
+                  }
+                ]
+              },
+              {
+                "id": "safety_measures",
+                "name": "BIỆN PHÁP AN TOÀN & THIẾT BỊ RẢNH TAY (HANDS-FREE & SAFETY MEASURES)",
+                "icon": "🛡️",
+                "badge": "Góc nhìn cá nhân (Personal Opinion)",
+                "items": [
+                  {
+                    "en": "road safety should always come first",
+                    "vi": "an toàn giao thông phải luôn được đặt lên hàng đầu",
+                    "type": "clause",
+                    "level": "B1",
+                    "example_en": "Despite technological conveniences, road safety should always come first.",
+                    "example_vi": "Bất chấp những tiện ích công nghệ, an toàn giao thông phải luôn được đặt lên hàng đầu."
+                  },
+                  {
+                    "en": "use hands-free devices",
+                    "vi": "sử dụng các thiết bị rảnh tay",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Drivers should solely use hands-free devices if communication is urgent.",
+                    "example_vi": "Người lái xe chỉ nên sử dụng thiết bị rảnh tay nếu cuộc gọi thực sự khẩn cấp."
+                  },
+                  {
+                    "en": "set up navigation before starting the journey",
+                    "vi": "cài đặt lộ trình dẫn đường trước khi khởi hành",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "It is prudent to set up navigation before starting the journey.",
+                    "example_vi": "Điều khôn ngoan là nên cài đặt lộ trình định vị trước khi bắt đầu chuyến đi."
+                  },
+                  {
+                    "en": "refrain from physically holding phones",
+                    "vi": "kiềm chế việc cầm nắm điện thoại trực tiếp bằng tay",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Motorists must strictly refrain from physically holding phones while in motion.",
+                    "example_vi": "Tài xế phải nghiêm ngặt kiềm chế hành vi cầm điện thoại trực tiếp khi xe đang di chuyển."
+                  },
+                  {
+                    "en": "voice-activated commands",
+                    "vi": "các lệnh điều khiển kích hoạt bằng giọng nói",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Voice-activated commands eliminate the danger of looking away from the windshield.",
+                    "example_vi": "Các lệnh điều khiển bằng giọng nói loại bỏ nguy cơ phải rời mắt khỏi kính chắn gió."
+                  },
+                  {
+                    "en": "mount mobile phones on dashboards",
+                    "vi": "gắn cố định điện thoại lên bảng táp-lô",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Drivers should mount mobile phones on dashboards within their peripheral line of sight.",
+                    "example_vi": "Tài xế nên gắn điện thoại cố định lên bảng táp-lô trong tầm nhìn ngoại vi của mình."
+                  },
+                  {
+                    "en": "strictly enforce traffic penalties",
+                    "vi": "thực thi nghiêm ngặt các mức xử phạt giao thông",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Traffic police should strictly enforce traffic penalties against distracted drivers.",
+                    "example_vi": "Cảnh sát giao thông nên thực thi nghiêm khắc các mức phạt đối với tài xế mất tập trung."
+                  },
+                  {
+                    "en": "remain the paramount priority",
+                    "vi": "vẫn là ưu tiên tối thượng hàng đầu",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The preservation of human life must remain the paramount priority on highways.",
+                    "example_vi": "Việc bảo vệ sinh mạng con người phải luôn là ưu tiên tối thượng trên các tuyến cao tốc."
+                  },
+                  {
+                    "en": "curb risky driving behavior",
+                    "vi": "kiềm chế các hành vi lái xe rủi ro nguy hiểm",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Educational campaigns help curb risky driving behavior among novice motorists.",
+                    "example_vi": "Các chiến dịch tuyên truyền giúp kiềm chế hành vi lái xe nguy hiểm ở các tài xế mới."
+                  },
+                  {
+                    "en": "ensure uncompromised focus",
+                    "vi": "đảm bảo sự tập trung tuyệt đối không bị phân tán",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Hands-free systems ensure uncompromised focus on the surrounding traffic environment.",
+                    "example_vi": "Các hệ thống rảnh tay giúp đảm bảo sự tập trung tuyệt đối vào môi trường giao thông xung quanh."
+                  }
+                ]
+              },
+              {
+                "id": "discussion_framing",
+                "name": "CẤU TRÚC TRANH LUẬN 2 QUAN ĐIỂM (DISCUSSION ESSAY FRAMING & DISCOURSE)",
+                "icon": "⚖️",
+                "badge": "Cấu trúc khung bài viết (Discourse)",
+                "items": [
+                  {
+                    "en": "spark intense public controversy",
+                    "vi": "làm dấy lên cuộc tranh cãi công khai gay gắt",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The use of electronic devices while driving has sparked intense public controversy.",
+                    "example_vi": "Việc sử dụng thiết bị điện tử khi lái xe đã làm dấy lên cuộc tranh cãi công chúng gay gắt."
+                  },
+                  {
+                    "en": "critically examine both perspectives",
+                    "vi": "xem xét và phân tích kỹ lưỡng cả hai góc nhìn",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "This essay will critically examine both perspectives before articulating a conclusion.",
+                    "example_vi": "Bài luận này sẽ phân tích kỹ lưỡng cả hai góc nhìn trước khi đưa ra kết luận."
+                  },
+                  {
+                    "en": "on the one hand, it is argued that",
+                    "vi": "một mặt, có ý kiến lập luận rằng (mở Body 1)",
+                    "type": "clause",
+                    "level": "B1",
+                    "example_en": "On the one hand, it is argued that drivers should not use mobile phones.",
+                    "example_vi": "Một mặt, có ý kiến lập luận rằng người lái xe không nên sử dụng điện thoại."
+                  },
+                  {
+                    "en": "on the other hand, proponents argue that",
+                    "vi": "mặt khác, những người ủng hộ lại cho rằng (mở Body 2)",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "On the other hand, proponents argue that mobile phones offer indispensable utility.",
+                    "example_vi": "Mặt khác, những người ủng hộ lại cho rằng điện thoại di động mang lại tiện ích không thể thiếu."
+                  },
+                  {
+                    "en": "compelling arguments support the view that",
+                    "vi": "những lập luận thuyết phục ủng hộ quan điểm rằng",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "Compelling arguments support the view that distracted driving endangers public safety.",
+                    "example_vi": "Những lập luận xác đáng ủng hộ quan điểm rằng lái xe mất tập trung gây nguy hiểm cho an toàn công cộng."
+                  },
+                  {
+                    "en": "both viewpoints present legitimate rationale",
+                    "vi": "cả hai luồng quan điểm đều đưa ra những lý lẽ chính đáng",
+                    "type": "clause",
+                    "level": "B2",
+                    "example_en": "While both viewpoints present legitimate rationale, one must prioritize life preservation.",
+                    "example_vi": "Mặc dù cả hai luồng ý kiến đều đưa ra những lý do xác đáng, người ta vẫn phải đặt tính mạng lên hàng đầu."
+                  },
+                  {
+                    "en": "a balanced consideration of both views",
+                    "vi": "sự xem xét cân bằng cả hai quan điểm",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "A balanced consideration of both views reveals that sensible regulation is paramount.",
+                    "example_vi": "Sự xem xét cân bằng cả hai quan điểm cho thấy quy định chặt chẽ là điều tối quan trọng."
+                  },
+                  {
+                    "en": "articulate a personal stance",
+                    "vi": "nêu rõ và khẳng định lập trường cá nhân",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "The final section aims to articulate a clear and reasoned personal stance.",
+                    "example_vi": "Phần cuối cùng nhằm khẳng định một lập trường cá nhân rõ ràng và có căn cứ."
+                  },
+                  {
+                    "en": "when deployed appropriately",
+                    "vi": "khi được triển khai và sử dụng một cách hợp lý",
+                    "type": "adv.phr",
+                    "level": "B2",
+                    "example_en": "When deployed appropriately, mobile features assist drivers without causing distraction.",
+                    "example_vi": "Khi được sử dụng hợp lý, các tính năng điện thoại hỗ trợ tài xế mà không gây mất tập trung."
+                  },
+                  {
+                    "en": "hold valid points but road safety must come first",
+                    "vi": "đưa ra điểm xác đáng nhưng an toàn đường bộ phải đi đầu",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Both sides hold valid points, but road safety must always come first.",
+                    "example_vi": "Cả hai bên đều có lý lẽ đúng, nhưng an toàn giao thông phải luôn luôn là ưu tiên hàng đầu."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 23,
