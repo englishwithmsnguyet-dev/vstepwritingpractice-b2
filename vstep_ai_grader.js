@@ -393,7 +393,7 @@
 
   async function callGraderApi(payload) {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 50000);
+    const timer = setTimeout(() => controller.abort(), 90000);
     try {
       const res = await fetch(VSTEP_AI_ENDPOINT, {
         method: 'POST',
@@ -412,6 +412,11 @@
         throw new Error((json && json.error) || 'Không nhận được kết quả chấm từ AI.');
       }
       return json.data;
+    } catch (err) {
+      if (err && (err.name === 'AbortError' || /aborted/i.test(err.message))) {
+        throw new Error('Hệ thống AI phản hồi chậm hơn thường lệ do mạng. Bạn vui lòng bấm nút "Thử chấm AI lại" nhé.');
+      }
+      throw err;
     } finally {
       clearTimeout(timer);
     }
