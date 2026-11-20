@@ -227,7 +227,7 @@ function switchCategory(catId) {
   if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
     if (userClass === 'B212') {
       showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 22)!', 'warning');
-    } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+    } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Lớp hiện đã mở Dạng 01 & Dạng 02!`, 'warning');
     } else if (userClass === 'CB210') {
       showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
@@ -306,9 +306,9 @@ function switchCategory(catId) {
       }
       firstTag = firstTag.toLowerCase();
       
-      if (firstTag === '[causes & solutions]' || firstTag === '[problems & solutions]') {
+      if (firstTag === '[causes & solutions]' || firstTag === '[problems & solutions]' || (firstTag.includes('causes') && firstTag.includes('solutions'))) {
         cs++;
-      } else if (firstTag === '[causes & effects]' || firstTag === '[causes & effects – on youth and society]') {
+      } else if (firstTag === '[causes & effects]' || firstTag === '[causes & effects – on youth and society]' || (firstTag.includes('causes') && firstTag.includes('effects'))) {
         ce++;
       } else if (firstTag === '[effects & solutions]' || firstTag === '[impacts & solutions]') {
         es++;
@@ -811,7 +811,7 @@ function startPractice(catId, topicId) {
   if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
     if (userClass === 'B212') {
       showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 22)!', 'warning');
-    } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+    } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp đã mở DẠNG LUẬN 01 & DẠNG LUẬN 02!`, 'warning');
     } else if (userClass === 'CB210') {
       showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, 2 và 3!', 'warning');
@@ -830,8 +830,8 @@ function startPractice(catId, topicId) {
   if (typeof isTopicAllowedForUser === 'function' && !isTopicAllowedForUser(catId, topicId, topic)) {
     if (userClass === 'B212') {
       showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện chỉ mở Đề 01 (Học trực tuyến) và Đề 22 (Hoạt động cộng đồng)!', 'warning');
-    } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
-      showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở đề "Béo phì ở giới trẻ" (Obesity) và "Gia đình đơn thân" (Single-parent families)!`, 'warning');
+    } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
+      showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở các đề phân tích "Nguyên nhân & Giải pháp" và "Nguyên nhân & Ảnh hưởng"!`, 'warning');
     } else {
       showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}!`, 'warning');
     }
@@ -6597,6 +6597,10 @@ function renderStep3VstepEvaluation(data) {
       </button>
     </div>
   `;
+  if (window.VstepAIGrader && container) {
+    const _p = (typeof currentTopic !== 'undefined' && currentTopic) ? (currentTopic.context ? (currentTopic.context + '\n\n' + (currentTopic.prompt || '')) : (currentTopic.prompt || currentTopic.title_en || '')) : '';
+    window.VstepAIGrader.mountSingle(container, { taskType: 'task2', targetLevel: 'B2', prompt: _p, essay: text || '' });
+  }
 }
 
 
@@ -7884,9 +7888,9 @@ function getTopicSubtypeLabel(topic, catId) {
     }
     firstTag = firstTag.toLowerCase();
     
-    if (firstTag === '[causes & solutions]' || firstTag === '[problems & solutions]') {
+    if (firstTag === '[causes & solutions]' || firstTag === '[problems & solutions]' || (firstTag.includes('causes') && firstTag.includes('solutions'))) {
       return "NGUYÊN NHÂN & GIẢI PHÁP";
-    } else if (firstTag === '[causes & effects]' || firstTag === '[causes & effects – on youth and society]') {
+    } else if (firstTag === '[causes & effects]' || firstTag === '[causes & effects – on youth and society]' || (firstTag.includes('causes') && firstTag.includes('effects'))) {
       return "NGUYÊN NHÂN & ẢNH HƯỞNG";
     } else if (firstTag === '[effects & solutions]' || firstTag === '[impacts & solutions]') {
       return "ẢNH HƯỞNG & GIẢI PHÁP";
@@ -9274,8 +9278,8 @@ function isCategoryAllowedForUser(catId) {
     return catId === 1;
   }
 
-  // Classes ONB103, CB211, CB213: Categories 1 & 2 are opened
-  if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+  // Classes ONB103, 0NB103, CB211, CB213: Categories 1 & 2 are opened
+  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
     return catId === 1 || catId === 2;
   }
 
@@ -9312,13 +9316,22 @@ function isTopicAllowedForUser(catId, topicId, topic) {
     return isTopic1 || isTopic22;
   }
 
-  // Classes ONB103, 0NB103, CB211, CB213: in Category 2, ONLY Obesity (id: 3) and Single-parent families (id: 9) are opened
-  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
-    const tid = topicId || (topic ? topic.id : 0);
-    const ten = topic ? (topic.title_en || '').toLowerCase() : '';
-    const isObesity = (tid === 3 || ten.includes('obesity'));
-    const isSingleFamilies = (tid === 9 || ten.includes('single-parent') || ten.includes('single families'));
-    return isObesity || isSingleFamilies;
+  // Classes ONB103, 0NB103, CB211, CB213:
+  // - Category 1: ALL topics are unlocked
+  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked; other topics remain locked
+  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
+    if (catId === 1) return true;
+    if (catId === 2) {
+      const tid = topicId || (topic ? topic.id : 0);
+      const allowedCat2Ids = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 23, 24, 27, 30, 32, 33, 34, 36, 37, 40, 41, 42, 43];
+      if (allowedCat2Ids.includes(tid)) return true;
+      if (topic) {
+        const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
+        if (subtype === 'NGUYÊN NHÂN & GIẢI PHÁP' || subtype === 'NGUYÊN NHÂN & ẢNH HƯỞNG') return true;
+      }
+      return false;
+    }
+    return false;
   }
 
   return true;
@@ -9341,16 +9354,16 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
     }
   }
 
-  // Classes CB211, ONB103, 0NB103, CB213: in Category 2, steps 4 & 5 ('write', 'model') are UNLOCKED for topics 03 and 09
-  if (['CB211', 'ONB103', '0NB103', 'CB213'].includes(userClass) && catId === 2) {
-    const tid = topicId || (topic ? topic.id : 0);
-    const ten = topic ? (topic.title_en || '').toLowerCase() : '';
-    const isTopic03Or09 = (tid === 3 || tid === 9 || ten.includes('obesity') || ten.includes('single-parent') || ten.includes('single families'));
-    if (isTopic03Or09) {
-      return true; // All steps 1..5 unlocked for topics 03 and 09
-    }
-    if (stepKey === 'write' || stepKey === 'model') {
-      return false;
+  // Classes CB211, ONB103, 0NB103, CB213:
+  // - Category 1: ALL steps unlocked
+  // - Category 2: for all allowed topics ("Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng"), ALL steps (1..5) are unlocked
+  if (['CB211', 'ONB103', '0NB103', 'CB213'].includes(userClass)) {
+    if (catId === 1) return true;
+    if (catId === 2) {
+      if (typeof isTopicAllowedForUser === 'function') {
+        return isTopicAllowedForUser(catId, topicId, topic);
+      }
+      return true;
     }
   }
 
@@ -9377,7 +9390,7 @@ function updateClassAccessUI() {
       let lockMsg = 'Dạng luận này tạm thời chưa mở';
       if (isB212) {
         lockMsg = 'Dạng luận này tạm thời chưa mở cho lớp B212 (Hiện tại lớp chỉ mở DẠNG LUẬN 01: Đề 01 & Đề 22)';
-      } else if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
         lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp đã mở DẠNG LUẬN 01 & 02)`;
       } else if (isCB210) {
         lockMsg = 'Dạng luận này chưa mở cho lớp CB210 (Hiện lớp mở DẠNG 01, 02 & 03)';
