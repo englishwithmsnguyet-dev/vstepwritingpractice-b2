@@ -44,6 +44,7 @@ let currentStep = 1; // 1: Reading, 2: Translation Practice, 3: Full Essay Edito
 let hasSubmitted = false; // Tracks if the essay has been submitted for grading
 let currentPage = 1;
 const itemsPerPage = 9;
+let currentTopicStatusFilter = 'all'; // 'all' | 'written' | 'unwritten'
 
 // Timer State
 let timerInterval = null;
@@ -76,6 +77,133 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+// --- Stick / Checkmark Topic Feature ---
+function getStudentStickKey() {
+  const userName = (sessionStorage.getItem('current_user_name') || 'default').trim().toLowerCase();
+  return `vstep_stick_topics_${userName}`;
+}
+
+function getStudentUnstickKey() {
+  const userName = (sessionStorage.getItem('current_user_name') || 'default').trim().toLowerCase();
+  return `vstep_unstick_topics_${userName}`;
+}
+
+function getManualStickList() {
+  try {
+    const raw = localStorage.getItem(getStudentStickKey());
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function getManualUnstickList() {
+  try {
+    const raw = localStorage.getItem(getStudentUnstickKey());
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function getTopicSubmissionInfo(catId, topicId) {
+  try {
+    const history = typeof getHistory === 'function' ? getHistory() : [];
+    return history.find(item => item.catId === catId && item.topicId === topicId) || null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function isTopicWritten(catId, topicId) {
+  const topicKey = `${catId}_${topicId}`;
+  const unstickList = getManualUnstickList();
+  if (unstickList.includes(topicKey)) return false;
+  
+  const stickList = getManualStickList();
+  if (stickList.includes(topicKey)) return true;
+  
+  const subInfo = getTopicSubmissionInfo(catId, topicId);
+  return !!subInfo;
+}
+
+function toggleTopicStick(catId, topicId, event) {
+  if (event) {
+    event.stopPropagation(); // Avoid triggering startPractice
+  }
+  const topicKey = `${catId}_${topicId}`;
+  const currentlyWritten = isTopicWritten(catId, topicId);
+  let stickList = getManualStickList();
+  let unstickList = getManualUnstickList();
+
+  if (currentlyWritten) {
+    stickList = stickList.filter(k => k !== topicKey);
+    if (!unstickList.includes(topicKey)) unstickList.push(topicKey);
+    localStorage.setItem(getStudentStickKey(), JSON.stringify(stickList));
+    localStorage.setItem(getStudentUnstickKey(), JSON.stringify(unstickList));
+    showToast(`Đã bỏ đánh dấu: Đề ${topicId}`, 'info');
+  } else {
+    unstickList = unstickList.filter(k => k !== topicKey);
+    if (!stickList.includes(topicKey)) stickList.push(topicKey);
+    localStorage.setItem(getStudentStickKey(), JSON.stringify(stickList));
+    localStorage.setItem(getStudentUnstickKey(), JSON.stringify(unstickList));
+    showToast(`Đã đánh dấu hoàn thành: Đề ${topicId} ✓`, 'success');
+  }
+
+  updateStats();
+  if (currentScreen === 'category') {
+    const searchVal = document.getElementById('search-input-field') ? document.getElementById('search-input-field').value : '';
+    renderCategoryTopics(searchVal);
+  }
+  if (currentScreen === 'workspace' && currentTopic && currentTopic.id === topicId) {
+    updateWorkspaceStickBadge();
+  }
+}
+
+function toggleCurrentTopicStick() {
+  if (!currentCategory || !currentTopic) return;
+  toggleTopicStick(currentCategory.id, currentTopic.id);
+}
+
+function updateWorkspaceStickBadge() {
+  const badge = document.getElementById('workspace-stick-badge');
+  if (!badge || !currentCategory || !currentTopic) return;
+  const written = isTopicWritten(currentCategory.id, currentTopic.id);
+  const subInfo = getTopicSubmissionInfo(currentCategory.id, currentTopic.id);
+  
+  badge.style.display = 'inline-flex';
+  if (written) {
+    const scoreText = subInfo && typeof subInfo.score === 'number' ? ` (${subInfo.score.toFixed(1)}đ)` : '';
+    badge.className = 'workspace-stick-badge';
+    badge.style.background = 'rgba(16, 185, 129, 0.15)';
+    badge.style.borderColor = 'rgba(16, 185, 129, 0.4)';
+    badge.style.color = '#059669';
+    badge.innerHTML = `✓ ĐÃ VIẾT${scoreText}`;
+    badge.title = 'Bài viết đã hoàn thành. Nhấp để chuyển trạng thái Chưa viết.';
+  } else {
+    badge.className = 'workspace-stick-badge';
+    badge.style.background = 'rgba(100, 116, 139, 0.1)';
+    badge.style.borderColor = 'rgba(100, 116, 139, 0.3)';
+    badge.style.color = 'var(--text-muted)';
+    badge.innerHTML = `○ Chưa viết (Stick)`;
+    badge.title = 'Nhấp để đánh dấu Đã viết';
+  }
+}
+
+function setTopicStatusFilter(status) {
+  currentTopicStatusFilter = status;
+  currentPage = 1;
+  const btnAll = document.getElementById('filter-all-btn');
+  const btnWritten = document.getElementById('filter-written-btn');
+  const btnUnwritten = document.getElementById('filter-unwritten-btn');
+  if (btnAll) btnAll.classList.toggle('active', status === 'all');
+  if (btnWritten) btnWritten.classList.toggle('active', status === 'written');
+  if (btnUnwritten) btnUnwritten.classList.toggle('active', status === 'unwritten');
+  
+  const searchVal = document.getElementById('search-input-field') ? document.getElementById('search-input-field').value : '';
+  renderCategoryTopics(searchVal);
 }
 
 // Mock database check
@@ -442,6 +570,21 @@ function renderRecentActivity() {
 function renderCategoryTopics(searchQuery = '') {
   if (!currentCategory) return;
   
+  // Calculate status filter counts for this category
+  const allCategoryTopics = currentCategory.topics;
+  let writtenCount = 0;
+  allCategoryTopics.forEach(t => {
+    if (isTopicWritten(currentCategory.id, t.id)) writtenCount++;
+  });
+  const unwrittenCount = allCategoryTopics.length - writtenCount;
+  
+  const elCountAll = document.getElementById('count-filter-all');
+  const elCountWritten = document.getElementById('count-filter-written');
+  const elCountUnwritten = document.getElementById('count-filter-unwritten');
+  if (elCountAll) elCountAll.innerText = allCategoryTopics.length;
+  if (elCountWritten) elCountWritten.innerText = writtenCount;
+  if (elCountUnwritten) elCountUnwritten.innerText = unwrittenCount;
+
   const container = document.getElementById('topics-list-container');
   container.innerHTML = '';
 
@@ -490,8 +633,9 @@ function renderCategoryTopics(searchQuery = '') {
         list.forEach(topic => {
           const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
           const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+          const isWritten = isTopicWritten(currentCategory.id, topic.id);
           const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill' + (!isAllowed ? ' is-locked' : '');
+          pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
           if (!isAllowed) {
             pill.style.opacity = '0.6';
             pill.style.cursor = 'not-allowed';
@@ -499,8 +643,8 @@ function renderCategoryTopics(searchQuery = '') {
           }
           pill.onclick = () => startPractice(currentCategory.id, topic.id);
           pill.innerHTML = `
-            <span class="pill-icon">${isAllowed ? '📚' : '🔒'}</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : ''}</span>
+            <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : (isWritten ? ' (✓ Đã viết)' : '')}</span>
           `;
           groupGrid.appendChild(pill);
         });
@@ -592,12 +736,20 @@ function renderCategoryTopics(searchQuery = '') {
         groupGrid.className = 'updated-topics-grid';
 
         list.forEach(topic => {
+          const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
+          const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+          const isWritten = isTopicWritten(currentCategory.id, topic.id);
           const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill';
+          pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
+          if (!isAllowed) {
+            pill.style.opacity = '0.6';
+            pill.style.cursor = 'not-allowed';
+            pill.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
+          }
           pill.onclick = () => startPractice(currentCategory.id, topic.id);
           pill.innerHTML = `
-            <span class="pill-icon">📚</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+            <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : (isWritten ? ' (✓ Đã viết)' : '')}</span>
           `;
           groupGrid.appendChild(pill);
         });
@@ -635,12 +787,20 @@ function renderCategoryTopics(searchQuery = '') {
         groupGrid.className = 'updated-topics-grid';
 
         list.forEach(topic => {
+          const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
+          const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+          const isWritten = isTopicWritten(currentCategory.id, topic.id);
           const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill';
+          pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
+          if (!isAllowed) {
+            pill.style.opacity = '0.6';
+            pill.style.cursor = 'not-allowed';
+            pill.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
+          }
           pill.onclick = () => startPractice(currentCategory.id, topic.id);
           pill.innerHTML = `
-            <span class="pill-icon">📚</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+            <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : (isWritten ? ' (✓ Đã viết)' : '')}</span>
           `;
           groupGrid.appendChild(pill);
         });
@@ -653,12 +813,14 @@ function renderCategoryTopics(searchQuery = '') {
       grid.className = 'updated-topics-grid';
       
       updatedTopics.forEach(topic => {
+        const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
+        const isWritten = isTopicWritten(currentCategory.id, topic.id);
         const pill = document.createElement('div');
-        pill.className = 'updated-topic-pill';
+        pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
         pill.onclick = () => startPractice(currentCategory.id, topic.id);
         pill.innerHTML = `
-          <span class="pill-icon">📚</span>
-          <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+          <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
+          <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${isWritten ? ' (✓ Đã viết)' : ''}</span>
         `;
         grid.appendChild(pill);
       });
@@ -671,6 +833,13 @@ function renderCategoryTopics(searchQuery = '') {
 
   
   let topics = currentCategory.topics;
+  
+  // Apply Written/Unwritten Status Filter
+  if (currentTopicStatusFilter === 'written') {
+    topics = topics.filter(t => isTopicWritten(currentCategory.id, t.id));
+  } else if (currentTopicStatusFilter === 'unwritten') {
+    topics = topics.filter(t => !isTopicWritten(currentCategory.id, t.id));
+  }
   
   // Filter by search query if present
   if (searchQuery.trim()) {
@@ -704,8 +873,12 @@ function renderCategoryTopics(searchQuery = '') {
   pageItems.forEach(topic => {
     const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
     const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+    const isWritten = isTopicWritten(currentCategory.id, topic.id);
+    const subInfo = getTopicSubmissionInfo(currentCategory.id, topic.id);
+    const scoreText = subInfo && typeof subInfo.score === 'number' ? ` (${subInfo.score.toFixed(1)}đ)` : '';
+    
     const card = document.createElement('div');
-    card.className = 'topic-card' + (!isAllowed ? ' is-locked' : '');
+    card.className = 'topic-card' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
     card.onclick = () => startPractice(currentCategory.id, topic.id);
     if (!isAllowed) {
       card.style.opacity = '0.65';
@@ -716,11 +889,22 @@ function renderCategoryTopics(searchQuery = '') {
     if (!isAllowed) {
       badgeText = '<span class="detail-badge" style="background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3)">🔒 Khoá</span>';
     }
+
+    const stickBtn = `
+      <button class="topic-stick-btn ${isWritten ? 'completed' : 'uncompleted'}" 
+              onclick="toggleTopicStick(${currentCategory.id}, ${topic.id}, event)"
+              title="${isWritten ? 'Nhấp để bỏ đánh dấu Đã viết' : 'Nhấp để đánh dấu Đã viết'}">
+        ${isWritten ? `✓ ĐÃ VIẾT${scoreText}` : `○ Chưa viết`}
+      </button>
+    `;
     
     card.innerHTML = `
       <div class="card-header">
         <span class="category-tag ${tagClass}">${getTopicSubtypeLabel(topic, currentCategory.id)}</span>
-        ${badgeText}
+        <div style="display: flex; align-items: center; gap: 0.45rem;">
+          ${stickBtn}
+          ${badgeText}
+        </div>
       </div>
       <div class="card-body">
         <h4>${topic.id}. ${topic.title_en}</h4>
@@ -728,8 +912,8 @@ function renderCategoryTopics(searchQuery = '') {
       </div>
       <div class="card-footer">
         <span>VSTEP Task 2</span>
-        <div class="start-btn" style="${!isAllowed ? 'background: #64748b; color: white;' : ''}">
-          ${isAllowed ? 'Luyện tập' : '🔒 Chưa mở'}
+        <div class="start-btn" style="${!isAllowed ? 'background: #64748b; color: white;' : (isWritten ? 'background: #10b981; color: white;' : '')}">
+          ${isAllowed ? (isWritten ? 'Luyện lại' : 'Luyện tập') : '🔒 Chưa mở'}
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
           </svg>
@@ -878,6 +1062,9 @@ function startPractice(catId, topicId) {
     badge.style.color = 'var(--text-secondary)';
     badge.style.border = '1px solid var(--panel-border)';
   }
+
+  // Update stick badge in workspace header
+  updateWorkspaceStickBadge();
   
   // Populate Left Resource Pane if elements exist (Optional reference)
   const wsPromptEn = document.getElementById('ws-prompt-en');
@@ -7457,11 +7644,25 @@ function saveSubmission(score, wordCount, content) {
       content: content,
       outlineLevel: currentOutlineLevel,
       sampleLevel: currentSampleLevel,
-      cheatViolations: cheatViolationCount
+      cheatViolations: cheatViolationCount,
+      studentName: sessionStorage.getItem('current_user_name') || '',
+      studentClass: sessionStorage.getItem('current_user_class') || ''
     };
     
     history.unshift(submission); // Add to beginning
     localStorage.setItem("writing_history", JSON.stringify(history));
+
+    // Clear unstick record so submitted topic is permanently recognized as written
+    if (currentCategory && currentTopic) {
+      const topicKey = `${currentCategory.id}_${currentTopic.id}`;
+      let unstickList = getManualUnstickList();
+      if (unstickList.includes(topicKey)) {
+        unstickList = unstickList.filter(k => k !== topicKey);
+        localStorage.setItem(getStudentUnstickKey(), JSON.stringify(unstickList));
+      }
+      updateWorkspaceStickBadge();
+    }
+    updateStats();
   } catch (err) {
     console.warn("Could not save submission to history:", err);
   }
@@ -7682,9 +7883,21 @@ function updateStats() {
   try {
     const history = getHistory();
     
-    // 1. Completed essays
+    // 1. Completed essays (unique written topics)
+    let totalUniqueWritten = 0;
+    if (typeof ESSAY_DATA !== 'undefined' && Array.isArray(ESSAY_DATA)) {
+      ESSAY_DATA.forEach(cat => {
+        if (cat.topics && Array.isArray(cat.topics)) {
+          cat.topics.forEach(t => {
+            if (isTopicWritten(cat.id, t.id)) totalUniqueWritten++;
+          });
+        }
+      });
+    } else {
+      totalUniqueWritten = history.length;
+    }
     const elCompleted = document.getElementById('stat-completed-count');
-    if (elCompleted) elCompleted.innerText = history.length;
+    if (elCompleted) elCompleted.innerText = totalUniqueWritten;
     
     // 2. Drafts count
     let draftsCount = 0;

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PHÒNG VIẾT LUẬN B2 - ENGLISH WITH MISS NGUYET</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=149">
+  <link rel="stylesheet" href="styles.css?v=152">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -299,6 +299,22 @@
           <p id="category-description">Mô tả chi tiết về dạng bài và hướng tiếp cận viết bài.</p>
         </div>
 
+        <!-- Filter bar for written / unwritten topics -->
+        <div class="category-filter-bar" id="category-filter-bar">
+          <button class="filter-pill-btn active" id="filter-all-btn" onclick="setTopicStatusFilter('all')">
+            <span>Tất cả đề bài</span>
+            <span class="filter-pill-count" id="count-filter-all">0</span>
+          </button>
+          <button class="filter-pill-btn written" id="filter-written-btn" onclick="setTopicStatusFilter('written')">
+            <span>✓ Đã viết</span>
+            <span class="filter-pill-count" id="count-filter-written">0</span>
+          </button>
+          <button class="filter-pill-btn unwritten" id="filter-unwritten-btn" onclick="setTopicStatusFilter('unwritten')">
+            <span>○ Chưa viết</span>
+            <span class="filter-pill-count" id="count-filter-unwritten">0</span>
+          </button>
+        </div>
+
         <div class="topics-grid" id="topics-list-container">
           <!-- Dynamically loaded topic cards -->
         </div>
@@ -320,7 +336,10 @@
                 <span class="topic-header-title" id="workspace-topic-title" style="font-size: 1.15rem; font-weight: 700; color: var(--accent-primary); margin: 0; text-transform: uppercase;">Chủ đề viết bài</span>
                 <span id="workspace-topic-category" style="font-size: 0.8rem; color: var(--text-muted);">Dạng luận</span>
               </div>
-              <span class="detail-badge" id="workspace-enrichment-badge" style="padding: 0.25rem 0.65rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: #fff;">Nâng cao</span>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span class="workspace-stick-badge" id="workspace-stick-badge" style="display: none;" onclick="toggleCurrentTopicStick()" title="Nhấp để chuyển trạng thái Đã viết / Chưa viết">✓ ĐÃ VIẾT</span>
+                <span class="detail-badge" id="workspace-enrichment-badge" style="padding: 0.25rem 0.65rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: #fff;">Nâng cao</span>
+              </div>
             </div>
 
             <!-- Approach Selector Tabs (Multi-approach topics) -->
@@ -713,9 +732,9 @@
   <div id="toast-container"></div>
 
   <!-- Loaded global topic data -->
-  <script src="topics_db.js?v=149"></script>
+  <script src="topics_db.js?v=152"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=151"></script>
+  <script src="app.js?v=152"></script>
   <script src="vstep_ai_grader.js"></script>
 </body>
 </html>

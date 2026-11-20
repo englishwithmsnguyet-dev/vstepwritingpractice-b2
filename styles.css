@@ -4192,3 +4192,137 @@ h1, h2, h3, h4, h5, h6,
     font-size: 0.95rem !important;
   }
 }
+
+
+/* --- Topic Written / Checkmark Stick Feature --- */
+.category-filter-bar {
+  display: flex;
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--panel-border);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.filter-pill-btn:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  transform: translateY(-1px);
+}
+
+.filter-pill-btn.active {
+  background: var(--accent-primary);
+  color: #fff;
+  border-color: var(--accent-primary);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.25);
+}
+
+.filter-pill-btn.written.active {
+  background: #10b981;
+  color: #fff;
+  border-color: #10b981;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.25);
+}
+
+.filter-pill-btn.unwritten.active {
+  background: #64748b;
+  color: #fff;
+  border-color: #64748b;
+  box-shadow: 0 2px 8px rgba(100, 116, 139, 0.25);
+}
+
+.filter-pill-count {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 9999px;
+  background: rgba(0, 0, 0, 0.08);
+  font-weight: 700;
+}
+
+.filter-pill-btn.active .filter-pill-count {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.topic-card.is-completed {
+  border-left: 4.5px solid #10b981 !important;
+  background: linear-gradient(to right, rgba(16, 185, 129, 0.03), transparent);
+}
+
+.topic-stick-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.topic-stick-btn.completed {
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
+  border-color: rgba(16, 185, 129, 0.35);
+  box-shadow: 0 1px 3px rgba(16, 185, 129, 0.1);
+}
+
+.topic-stick-btn.completed:hover {
+  background: rgba(239, 68, 68, 0.1);
+  color: #dc2626;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.topic-stick-btn.uncompleted {
+  background: rgba(100, 116, 139, 0.08);
+  color: var(--text-muted);
+  border-color: rgba(100, 116, 139, 0.25);
+}
+
+.topic-stick-btn.uncompleted:hover {
+  background: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+.updated-topic-pill.is-completed {
+  border-color: rgba(16, 185, 129, 0.6) !important;
+  background: rgba(16, 185, 129, 0.08) !important;
+}
+
+.workspace-stick-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
+  transition: all 0.2s ease;
+}
+
+.workspace-stick-badge:hover {
+  background: rgba(16, 185, 129, 0.2);
+}
