@@ -6414,6 +6414,16 @@ function renderStep3VstepEvaluation(data) {
   const cSum = getSummary(totalCollocErrors, "colloc");
   const sSum = getSummary(totalStructureErrors, "structure");
 
+  // Save complete evaluation texts and error summaries for PDF export
+  data.commentTF = commentTF;
+  data.commentORG = commentORG;
+  data.commentVocab = commentVocab;
+  data.commentGrammar = commentGrammar;
+  data.gSum = gSum;
+  data.vSum = vSum;
+  data.cSum = cSum;
+  data.sSum = sSum;
+
   let rawReportText = "";
   sentenceAnalysisList.forEach(item => {
     const checks = [
@@ -6777,10 +6787,10 @@ function renderStep3VstepEvaluation(data) {
     
     <!-- ACTIONS -->
     <div class="evaluation-actions-row" style="display: flex; gap: 1rem; justify-content: flex-end; flex-wrap: wrap; margin-bottom: 2rem;">
-      <button class="btn btn-secondary" style="padding: 0.65rem 1.5rem; border-color: var(--accent-primary); color: var(--accent-primary); font-weight: 700;" onclick="downloadStudentEssay('doc')">
+      <button class="btn btn-secondary" style="padding: 0.65rem 1.5rem; border-color: var(--accent-primary); color: var(--accent-primary); font-weight: 700;" onclick="downloadStudentEssay('pdf')">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; margin-right: 0.35rem; display: inline-block; vertical-align: middle;">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-        </svg>📥 Tải bài viết về máy (.doc)
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+        </svg>📄 Xuất bài viết & Kết quả chấm (.PDF)
       </button>
       <button class="btn btn-secondary" style="padding: 0.65rem 1.5rem;" onclick="rewriteEssay()">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; margin-right: 0.35rem; display: inline-block; vertical-align: middle;">
@@ -7330,19 +7340,27 @@ function closeCheatWarningModal() {
   if (textarea) textarea.focus();
 }
 
-// --- Download Student Essay (.doc) ---
-function downloadStudentEssay(format = 'doc') {
+// --- Export Student Essay & Comprehensive Analysis Report (PDF / DOC) ---
+function downloadStudentEssay(format = 'pdf') {
   isPromptingUser = true;
   setTimeout(() => { isPromptingUser = false; }, 500);
 
   const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
   const studentClass = sessionStorage.getItem('current_user_class') || 'Chưa xác định';
-  const topicTitle = currentTopic ? currentTopic.title_en : 'VSTEP Writing Task 2';
+  const topicId = currentTopic ? currentTopic.id : '';
+  const topicTitleEn = currentTopic ? currentTopic.title_en : 'VSTEP Writing Task 2';
+  const topicTitleVi = currentTopic ? currentTopic.title_vi : '';
   const topicCategory = currentCategory ? currentCategory.title_vi : '';
   
   let promptText = '';
   if (currentTopic) {
     promptText = currentTopic.context ? `${currentTopic.context}\n\n${currentTopic.prompt}` : (currentTopic.prompt || '');
+  }
+  let promptVi = '';
+  if (typeof getPromptTranslation === 'function' && currentTopic && currentCategory) {
+    try {
+      promptVi = getPromptTranslation(currentTopic, currentCategory) || '';
+    } catch (e) {}
   }
   
   let essayContent = '';
@@ -7353,7 +7371,7 @@ function downloadStudentEssay(format = 'doc') {
   }
   
   if (!essayContent.trim()) {
-    showToast("⚠️ Bài viết đang trống, chưa có nội dung để tải về!", "warning");
+    showToast("⚠️ Bài viết đang trống, chưa có nội dung để xuất file!", "warning");
     return;
   }
   
@@ -7362,112 +7380,46 @@ function downloadStudentEssay(format = 'doc') {
   const now = new Date();
   const dateStr = now.toLocaleDateString('vi-VN') + ' ' + now.toLocaleTimeString('vi-VN');
   
-  // Format HTML for Word (.doc)
+  const safeStudent = (studentName || 'HocVien').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '_');
+  const safeTopic = (topicTitleEn || 'BaiLuan').slice(0, 30).normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-zA-Z0-9]/g, '_');
+  const filename = `BaoCao_VSTEP_Task2_${safeStudent}_${safeTopic}`;
+
+  const evalData = (hasSubmitted && currentEvaluationData) ? currentEvaluationData : null;
+
+  if (format === 'doc') {
+    exportEssayAsDoc(studentName, studentClass, topicCategory, topicTitleEn, promptText, essayContent, wordCount, dateStr, evalData, filename);
+    return;
+  }
+
+  exportEssayAsPdf(studentName, studentClass, topicCategory, topicId, topicTitleEn, topicTitleVi, promptText, promptVi, essayContent, wordCount, dateStr, evalData, filename);
+}
+
+function exportEssayAsDoc(studentName, studentClass, topicCategory, topicTitle, promptText, essayContent, wordCount, dateStr, evalData, filename) {
   let docHtml = `
     <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
     <head>
       <meta charset='utf-8'>
-      <title>VSTEP Writing Task 2 - ${escapeHtml(studentName)}</title>
+      <title>${escapeHtml(filename)}</title>
       <style>
-        body {
-          font-family: 'Times New Roman', Times, serif;
-          font-size: 13pt;
-          line-height: 1.6;
-          color: #111827;
-          margin: 1in;
-        }
-        h1 {
-          font-size: 18pt;
-          text-align: center;
-          color: #1e3a8a;
-          margin-bottom: 4pt;
-          text-transform: uppercase;
-        }
-        .header-sub {
-          text-align: center;
-          font-size: 11pt;
-          color: #4b5563;
-          margin-bottom: 20pt;
-        }
-        .info-table {
-          width: 100%;
-          border-collapse: collapse;
-          margin-bottom: 20pt;
-        }
-        .info-table td {
-          padding: 6pt 10pt;
-          font-size: 11pt;
-          border: 1px solid #d1d5db;
-        }
-        .info-label {
-          background-color: #f3f4f6;
-          font-weight: bold;
-          width: 25%;
-          color: #374151;
-        }
-        .section-heading {
-          font-size: 13pt;
-          font-weight: bold;
-          color: #1e40af;
-          border-bottom: 1.5pt solid #2563eb;
-          padding-bottom: 4pt;
-          margin-top: 18pt;
-          margin-bottom: 10pt;
-          text-transform: uppercase;
-        }
-        .prompt-box {
-          background-color: #f8fafc;
-          border-left: 4pt solid #3b82f6;
-          padding: 10pt 14pt;
-          font-style: italic;
-          font-size: 12pt;
-          line-height: 1.5;
-          margin-bottom: 16pt;
-        }
-        .essay-body {
-          font-size: 13pt;
-          line-height: 1.8;
-          text-align: justify;
-          white-space: pre-wrap;
-          margin-bottom: 25pt;
-          background: #ffffff;
-        }
-        .score-box {
-          background-color: #f0fdf4;
-          border: 1px solid #86efac;
-          padding: 12pt;
-          border-radius: 6pt;
-          margin-top: 15pt;
-        }
-        .score-table {
-          width: 100%;
-          border-collapse: collapse;
-          margin-top: 10pt;
-        }
-        .score-table th, .score-table td {
-          border: 1px solid #cbd5e1;
-          padding: 6pt 10pt;
-          text-align: left;
-          font-size: 11pt;
-        }
-        .score-table th {
-          background-color: #e2e8f0;
-          font-weight: bold;
-        }
-        .footer-note {
-          margin-top: 30pt;
-          font-size: 10pt;
-          color: #6b7280;
-          text-align: center;
-          border-top: 1px solid #e5e7eb;
-          padding-top: 8pt;
-        }
+        body { font-family: 'Times New Roman', Times, serif; font-size: 13pt; line-height: 1.6; color: #111827; margin: 1in; }
+        h1 { font-size: 18pt; text-align: center; color: #1e3a8a; margin-bottom: 4pt; text-transform: uppercase; }
+        .header-sub { text-align: center; font-size: 11pt; color: #4b5563; margin-bottom: 20pt; }
+        .info-table { width: 100%; border-collapse: collapse; margin-bottom: 20pt; }
+        .info-table td { padding: 6pt 10pt; font-size: 11pt; border: 1px solid #d1d5db; }
+        .info-label { background-color: #f3f4f6; font-weight: bold; width: 25%; color: #374151; }
+        .section-heading { font-size: 13pt; font-weight: bold; color: #1e40af; border-bottom: 1.5pt solid #2563eb; padding-bottom: 4pt; margin-top: 18pt; margin-bottom: 10pt; text-transform: uppercase; }
+        .prompt-box { background-color: #f8fafc; border-left: 4pt solid #3b82f6; padding: 10pt 14pt; font-style: italic; font-size: 12pt; line-height: 1.5; margin-bottom: 16pt; }
+        .essay-body { font-size: 13pt; line-height: 1.8; text-align: justify; white-space: pre-wrap; margin-bottom: 25pt; background: #ffffff; }
+        .score-box { background-color: #f0fdf4; border: 1px solid #86efac; padding: 12pt; border-radius: 6pt; margin-top: 15pt; }
+        .score-table { width: 100%; border-collapse: collapse; margin-top: 10pt; }
+        .score-table th, .score-table td { border: 1px solid #cbd5e1; padding: 6pt 10pt; text-align: left; font-size: 11pt; }
+        .score-table th { background-color: #e2e8f0; font-weight: bold; }
+        .footer-note { margin-top: 30pt; font-size: 10pt; color: #6b7280; text-align: center; border-top: 1px solid #e5e7eb; padding-top: 8pt; }
       </style>
     </head>
     <body>
       <h1>BÀI LÀM LUYỆN THI VSTEP WRITING TASK 2</h1>
-      <div class="header-sub">HỆ THỐNG LUYỆN VIẾT VSTEP ESSAY MASTER</div>
-
+      <div class="header-sub">HỆ THỐNG LUYỆN VIẾT VSTEP ESSAY MASTER • ENGLISH WITH MISS NGUYET</div>
       <table class="info-table">
         <tr>
           <td class="info-label">Họ và tên học viên:</td>
@@ -7485,85 +7437,466 @@ function downloadStudentEssay(format = 'doc') {
           <td class="info-label">Tổng số từ:</td>
           <td><strong>${wordCount} từ</strong> ${wordCount >= 250 ? '(Đạt yêu cầu tối thiểu 250 từ)' : '(Chưa đạt 250 từ)'}</td>
         </tr>
-        <tr>
-          <td class="info-label">Giám sát phòng thi:</td>
-          <td colspan="3">${cheatViolationCount > 0 ? `<span style="color: #dc2626; font-weight: bold;">Có ${cheatViolationCount} lần rời khỏi màn hình/đổi tab</span>` : '<span style="color: #16a34a; font-weight: bold;">Hoàn thành nghiêm túc (Không vi phạm)</span>'}</td>
-        </tr>
       </table>
-
       <div class="section-heading">1. ĐỀ BÀI (WRITING PROMPT)</div>
-      <div class="prompt-box">
-        ${escapeHtml(promptText).replace(/\n/g, '<br>')}
-      </div>
-
-      <div class="section-heading">2. BÀI LUẬN CỦA HỌC VIÊN (STUDENT\'S ESSAY)</div>
+      <div class="prompt-box">${escapeHtml(promptText).replace(/\n/g, '<br>')}</div>
+      <div class="section-heading">2. BÀI LUẬN CỦA HỌC VIÊN (STUDENT'S ESSAY)</div>
       <div class="essay-body">${escapeHtml(essayContent)}</div>
   `;
 
-  if (hasSubmitted && currentEvaluationData) {
-    const cefr = currentEvaluationData.score >= 8.5 ? 'C1 (Advanced)' : currentEvaluationData.score >= 6.5 ? 'B2 (Upper-Intermediate)' : currentEvaluationData.score >= 4.0 ? 'B1 (Intermediate)' : 'Dưới B1';
+  if (evalData) {
+    const cefr = evalData.score >= 8.5 ? 'C1 (Advanced)' : evalData.score >= 6.5 ? 'B2 (Upper-Intermediate)' : evalData.score >= 4.0 ? 'B1 (Intermediate)' : 'Dưới B1';
     docHtml += `
       <div class="section-heading">3. KẾT QUẢ ĐÁNH GIÁ & CHẤM ĐIỂM CHI TIẾT</div>
       <div class="score-box">
-        <p style="margin: 0 0 6pt 0; font-size: 13pt;"><strong>Điểm tổng ước tính (Thang 10):</strong> <span style="font-size: 16pt; color: #15803d; font-weight: bold;">${currentEvaluationData.score}/10.0</span> • <strong>Quy đổi Task 2 (Thang 7.0):</strong> <span style="font-size: 14pt; color: #0284c7; font-weight: bold;">${((currentEvaluationData.score * 7) / 10).toFixed(1)}/7.0</span> <span style="font-size: 10pt; color: #64748b;">(tỷ trọng 2/3 bài thi: ${((currentEvaluationData.score * 2) / 3).toFixed(1)}/6.7)</span> - Trình độ: <strong>${cefr}</strong></p>
+        <p style="margin: 0 0 6pt 0; font-size: 13pt;"><strong>Điểm tổng (Thang 10):</strong> <span style="font-size: 16pt; color: #15803d; font-weight: bold;">${evalData.score}/10.0</span> • <strong>Quy đổi Task 2 (Thang 7.0):</strong> <span style="font-size: 14pt; color: #0284c7; font-weight: bold;">${((evalData.score * 7) / 10).toFixed(1)}/7.0</span> - Trình độ: <strong>${cefr}</strong></p>
         <table class="score-table">
-          <tr>
-            <th>Tiêu chí chấm VSTEP</th>
-            <th>Điểm</th>
-            <th>Trọng số</th>
-          </tr>
-          <tr>
-            <td>Task Fulfillment (Đáp ứng yêu cầu đề bài)</td>
-            <td><strong>${currentEvaluationData.tfScore != null ? currentEvaluationData.tfScore : '-'}/10.0</strong></td>
-            <td>25%</td>
-          </tr>
-          <tr>
-            <td>Organization (Bố cục, mạch lạc & liên kết ý)</td>
-            <td><strong>${currentEvaluationData.orgScore != null ? currentEvaluationData.orgScore : '-'}/10.0</strong></td>
-            <td>25%</td>
-          </tr>
-          <tr>
-            <td>Vocabulary (Vốn từ & Collocations)</td>
-            <td><strong>${currentEvaluationData.vocabScore != null ? currentEvaluationData.vocabScore : '-'}/10.0</strong></td>
-            <td>25%</td>
-          </tr>
-          <tr>
-            <td>Grammar (Cấu trúc ngữ pháp & độ chính xác)</td>
-            <td><strong>${currentEvaluationData.grammarScore != null ? currentEvaluationData.grammarScore : '-'}/10.0</strong></td>
-            <td>25%</td>
-          </tr>
+          <tr><th>Tiêu chí chấm VSTEP</th><th>Điểm</th><th>Trọng số</th></tr>
+          <tr><td>Task Fulfillment (Đáp ứng yêu cầu đề bài)</td><td><strong>${evalData.tfScore != null ? evalData.tfScore : '-'}/10.0</strong></td><td>25%</td></tr>
+          <tr><td>Organization (Bố cục, mạch lạc & liên kết ý)</td><td><strong>${evalData.orgScore != null ? evalData.orgScore : '-'}/10.0</strong></td><td>25%</td></tr>
+          <tr><td>Vocabulary (Vốn từ & Collocations)</td><td><strong>${evalData.vocabScore != null ? evalData.vocabScore : '-'}/10.0</strong></td><td>25%</td></tr>
+          <tr><td>Grammar (Cấu trúc ngữ pháp & độ chính xác)</td><td><strong>${evalData.grammarScore != null ? evalData.grammarScore : '-'}/10.0</strong></td><td>25%</td></tr>
         </table>
-        ${currentEvaluationData.feedback ? `
-          <div style="margin-top: 12pt; padding: 10pt; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 4pt;">
-            <strong>Nhận xét tổng quan của hệ thống:</strong>
-            <p style="margin: 6pt 0 0 0; line-height: 1.5;">${escapeHtml(currentEvaluationData.feedback)}</p>
-          </div>
-        ` : ''}
+        ${evalData.feedback ? `<div style="margin-top: 10pt;"><strong>Nhận xét tổng quan:</strong><p style="margin: 4pt 0 0 0;">${escapeHtml(evalData.feedback)}</p></div>` : ''}
       </div>
     `;
   }
 
-  docHtml += `
-      <div class="footer-note">
-        Tài liệu được xuất tự động từ hệ thống Luyện viết luận VSTEP Task 2 • Giáo viên hướng dẫn: Ms. Nguyệt
-      </div>
-    </body>
-    </html>
-  `;
+  docHtml += `<div class="footer-note">Tài liệu được xuất tự động từ hệ thống Luyện viết luận VSTEP Task 2 • Giáo viên hướng dẫn: Ms. Nguyệt</div></body></html>`;
 
   const blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
   const downloadLink = document.createElement('a');
-  const safeStudent = (studentName || 'HocVien').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '_');
-  const safeTopic = (topicTitle || 'BaiLuan').slice(0, 30).replace(/[^a-zA-Z0-9]/g, '_');
   downloadLink.href = URL.createObjectURL(blob);
-  downloadLink.download = `VSTEP_Task2_${safeStudent}_${safeTopic}.doc`;
+  downloadLink.download = `${filename}.doc`;
   document.body.appendChild(downloadLink);
   downloadLink.click();
   document.body.removeChild(downloadLink);
   URL.revokeObjectURL(downloadLink.href);
 
-  showToast("📥 Đã tải bài viết về máy (.doc) thành công!", "success");
+  showToast("📥 Đã tải file bài viết (.doc) thành công!", "success");
 }
+
+function exportEssayAsPdf(studentName, studentClass, topicCategory, topicId, topicTitleEn, topicTitleVi, promptText, promptVi, essayContent, wordCount, dateStr, evalData, filename) {
+  let scoreBadgeHtml = '';
+  let criteriaCardsHtml = '';
+  let calibrationsHtml = '';
+  let errorSummaryHtml = '';
+  let sentenceBreakdownHtml = '';
+  let vocabMatchesHtml = '';
+  let modelEssayHtml = '';
+
+  if (evalData) {
+    const score = evalData.score || 0;
+    const scoreConverted = ((score * 7) / 10).toFixed(1);
+    const scoreRatio = ((score * 2) / 3).toFixed(1);
+    const cefr = score >= 8.5 ? 'C1 (Advanced - Xuất sắc)' : score >= 6.5 ? 'B2 (Upper-Intermediate - Đạt chuẩn B2)' : score >= 6.0 ? 'B1 (Vượt chuẩn B1)' : score >= 4.0 ? 'B1 (Đạt chuẩn B1)' : 'Chưa đạt chuẩn B1';
+
+    scoreBadgeHtml = `
+      <div class="score-summary-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 8px;">
+          <div>
+            <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #166534; letter-spacing: 0.5px;">KẾT QUẢ ĐÁNH GIÁ ƯỚC LƯỢNG VSTEP TASK 2</span>
+            <div style="font-size: 14px; font-weight: 800; color: #0f172a; margin-top: 2px;">Trình độ: <span style="color: #2563eb;">${escapeHtml(cefr)}</span></div>
+          </div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+            <div style="background: #ffffff; border: 1.5px solid #2563eb; border-radius: 8px; padding: 4px 12px; text-align: center;">
+              <div style="font-size: 9.5px; font-weight: 700; text-transform: uppercase; color: #64748b;">Thang điểm 10</div>
+              <div style="font-size: 16px; font-weight: 900; color: #2563eb;">${score.toFixed(1)} <span style="font-size: 11px; font-weight: 600; color: #94a3b8;">/ 10</span></div>
+            </div>
+            <div style="background: #ffffff; border: 1.5px solid #10b981; border-radius: 8px; padding: 4px 12px; text-align: center;">
+              <div style="font-size: 9.5px; font-weight: 700; text-transform: uppercase; color: #64748b;">Quy đổi Task 2</div>
+              <div style="font-size: 16px; font-weight: 900; color: #059669;">${scoreConverted} <span style="font-size: 11px; font-weight: 600; color: #94a3b8;">/ 7.0</span></div>
+            </div>
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 4px 10px; text-align: center;">
+              <div style="font-size: 9.5px; font-weight: 700; text-transform: uppercase; color: #64748b;">Tỷ trọng 2/3 bài thi</div>
+              <div style="font-size: 13px; font-weight: 800; color: #475569;">${scoreRatio} <span style="font-size: 10px; font-weight: 500; color: #94a3b8;">/ 6.7</span></div>
+            </div>
+          </div>
+        </div>
+        ${evalData.feedback ? `
+          <div style="background: #ffffff; border: 1px solid #bbf7d0; border-radius: 6px; padding: 8px 12px; font-size: 12px; line-height: 1.5; color: #1e293b; margin-top: 6px;">
+            <strong>Nhận xét tổng quan:</strong> ${escapeHtml(evalData.feedback)}
+          </div>
+        ` : ''}
+      </div>
+    `;
+
+    // 4 Criteria
+    const tf = evalData.tfScore != null ? evalData.tfScore.toFixed(1) : '-';
+    const org = evalData.orgScore != null ? evalData.orgScore.toFixed(1) : '-';
+    const voc = evalData.vocabScore != null ? evalData.vocabScore.toFixed(1) : '-';
+    const gra = evalData.grammarScore != null ? evalData.grammarScore.toFixed(1) : '-';
+
+    criteriaCardsHtml = `
+      <div class="section-title">📊 ĐÁNH GIÁ CHI TIẾT THEO 4 TIÊU CHÍ VSTEP TASK 2</div>
+      <div class="criteria-grid">
+        <div class="criteria-card">
+          <div class="criteria-header">
+            <span class="criteria-title">1. Task Fulfillment (TF)</span>
+            <span class="criteria-score">${tf} / 10</span>
+          </div>
+          <p class="criteria-comment">${escapeHtml(evalData.commentTF || 'Độ dài và khả năng phát triển luận điểm.')}</p>
+        </div>
+        <div class="criteria-card">
+          <div class="criteria-header">
+            <span class="criteria-title">2. Organization (ORG)</span>
+            <span class="criteria-score">${org} / 10</span>
+          </div>
+          <p class="criteria-comment">${escapeHtml(evalData.commentORG || 'Bố cục bài viết, tính liên kết câu và đoạn văn.')}</p>
+        </div>
+        <div class="criteria-card">
+          <div class="criteria-header">
+            <span class="criteria-title">3. Lexical Resource (VOCAB)</span>
+            <span class="criteria-score">${voc} / 10</span>
+          </div>
+          <p class="criteria-comment">${escapeHtml(evalData.commentVocab || 'Vốn từ vựng học thuật, độ chính xác và collocations.')}</p>
+        </div>
+        <div class="criteria-card">
+          <div class="criteria-header">
+            <span class="criteria-title">4. Grammar & Accuracy (GRA)</span>
+            <span class="criteria-score">${gra} / 10</span>
+          </div>
+          <p class="criteria-comment">${escapeHtml(evalData.commentGrammar || 'Độ chính xác ngữ pháp, câu phức và kiểm soát lỗi.')}</p>
+        </div>
+      </div>
+    `;
+
+    // Calibrations
+    const calibs = [];
+    if (evalData.wordCountCapTriggered && evalData.wordCountCapReason) {
+      calibs.push(`<div style="background: #fffbeb; border-left: 3.5px solid #f59e0b; padding: 6px 10px; margin-bottom: 6px; font-size: 11.5px; color: #92400e;"><strong>Giới hạn dung lượng từ:</strong> ${escapeHtml(evalData.wordCountCapReason)}</div>`);
+    }
+    if (evalData.holisticCapTriggered && evalData.holisticCapReason) {
+      calibs.push(`<div style="background: #faf5ff; border-left: 3.5px solid #8b5cf6; padding: 6px 10px; margin-bottom: 6px; font-size: 11.5px; color: #6b21a8;"><strong>Chuẩn năng lực toàn diện VSTEP (Holistic Requirement):</strong> ${escapeHtml(evalData.holisticCapReason)}</div>`);
+    }
+    if (evalData.frequentLanguageControlIssues) {
+      calibs.push(`<div style="background: #fef2f2; border-left: 3.5px solid #ef4444; padding: 6px 10px; margin-bottom: 6px; font-size: 11.5px; color: #991b1b;"><strong>Hiệu chuẩn kiểm soát ngôn ngữ:</strong> Bài viết xuất hiện lỗi ngữ pháp/từ vựng hệ thống lặp lại, điểm số được điều chỉnh phản ánh đúng chuẩn kiểm soát thực tế.</div>`);
+    }
+    if (calibs.length > 0) {
+      calibrationsHtml = `
+        <div class="section-title">⚠️ THÔNG BÁO HIỆU CHUẨN ĐIỂM KHẢO THÍ (BAND CALIBRATION)</div>
+        <div style="margin-bottom: 14px; page-break-inside: avoid;">${calibs.join('')}</div>
+      `;
+    }
+
+    // Error summary table
+    const gCount = evalData.totalGrammarErrors || 0;
+    const vCount = evalData.totalVocabErrors || 0;
+    const cCount = evalData.totalCollocErrors || 0;
+    const sCount = evalData.totalStructureErrors || 0;
+    const gSum = evalData.gSum || { severity: gCount > 3 ? 'Serious' : gCount > 1 ? 'Moderate' : gCount > 0 ? 'Minor' : 'None', effect: gCount > 0 ? 'Ảnh hưởng ngữ pháp' : 'Không ảnh hưởng' };
+    const vSum = evalData.vSum || { severity: vCount > 3 ? 'Serious' : vCount > 1 ? 'Moderate' : vCount > 0 ? 'Minor' : 'None', effect: vCount > 0 ? 'Ảnh hưởng từ vựng' : 'Không ảnh hưởng' };
+    const cSum = evalData.cSum || { severity: cCount > 2 ? 'Serious' : cCount > 0 ? 'Moderate' : 'None', effect: cCount > 0 ? 'Hạn chế tự nhiên' : 'Không ảnh hưởng' };
+    const sSum = evalData.sSum || { severity: sCount > 3 ? 'Serious' : sCount > 0 ? 'Moderate' : 'None', effect: sCount > 0 ? 'Ảnh hưởng mạch lạc' : 'Không ảnh hưởng' };
+
+    errorSummaryHtml = `
+      <div class="section-title">🔍 BẢNG TỔNG HỢP LỖI SAI (ERROR CATEGORY SUMMARY)</div>
+      <table class="error-table">
+        <thead>
+          <tr>
+            <th style="width: 32%;">Phân loại lỗi</th>
+            <th style="width: 18%; text-align: center;">Số lượng lỗi</th>
+            <th style="width: 20%; text-align: center;">Mức độ nghiêm trọng</th>
+            <th style="width: 30%;">Ảnh hưởng đến điểm B1/B2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Grammar</strong> (Ngữ pháp, Dạng từ, Giới từ)</td>
+            <td style="text-align: center; font-weight: 700; color: ${gCount > 0 ? '#dc2626' : '#16a34a'};">${gCount}</td>
+            <td style="text-align: center;"><span class="err-badge" style="background: ${gSum.severity === 'Serious' ? '#fee2e2' : gSum.severity === 'Moderate' ? '#fef3c7' : gSum.severity === 'Minor' ? '#e0f2fe' : '#dcfce7'}; color: ${gSum.severity === 'Serious' ? '#dc2626' : gSum.severity === 'Moderate' ? '#d97706' : gSum.severity === 'Minor' ? '#0284c7' : '#15803d'};">${gSum.severity}</span></td>
+            <td style="color: #475569; font-size: 11px;">${escapeHtml(gSum.effect)}</td>
+          </tr>
+          <tr>
+            <td><strong>Vocabulary</strong> (Chính tả, Dùng từ)</td>
+            <td style="text-align: center; font-weight: 700; color: ${vCount > 0 ? '#dc2626' : '#16a34a'};">${vCount}</td>
+            <td style="text-align: center;"><span class="err-badge" style="background: ${vSum.severity === 'Serious' ? '#fee2e2' : vSum.severity === 'Moderate' ? '#fef3c7' : vSum.severity === 'Minor' ? '#e0f2fe' : '#dcfce7'}; color: ${vSum.severity === 'Serious' ? '#dc2626' : vSum.severity === 'Moderate' ? '#d97706' : vSum.severity === 'Minor' ? '#0284c7' : '#15803d'};">${vSum.severity}</span></td>
+            <td style="color: #475569; font-size: 11px;">${escapeHtml(vSum.effect)}</td>
+          </tr>
+          <tr>
+            <td><strong>Collocation</strong> (Từ ghép tự nhiên)</td>
+            <td style="text-align: center; font-weight: 700; color: ${cCount > 0 ? '#dc2626' : '#16a34a'};">${cCount}</td>
+            <td style="text-align: center;"><span class="err-badge" style="background: ${cSum.severity === 'Serious' ? '#fee2e2' : cSum.severity === 'Moderate' ? '#fef3c7' : '#dcfce7'}; color: ${cSum.severity === 'Serious' ? '#dc2626' : cSum.severity === 'Moderate' ? '#d97706' : '#15803d'};">${cSum.severity}</span></td>
+            <td style="color: #475569; font-size: 11px;">${escapeHtml(cSum.effect)}</td>
+          </tr>
+          <tr>
+            <td><strong>Sentence Structure</strong> (Cấu trúc, Dấu câu)</td>
+            <td style="text-align: center; font-weight: 700; color: ${sCount > 0 ? '#dc2626' : '#16a34a'};">${sCount}</td>
+            <td style="text-align: center;"><span class="err-badge" style="background: ${sSum.severity === 'Serious' ? '#fee2e2' : sSum.severity === 'Moderate' ? '#fef3c7' : '#dcfce7'}; color: ${sSum.severity === 'Serious' ? '#dc2626' : sSum.severity === 'Moderate' ? '#d97706' : '#15803d'};">${sSum.severity}</span></td>
+            <td style="color: #475569; font-size: 11px;">${escapeHtml(sSum.effect)}</td>
+          </tr>
+        </tbody>
+      </table>
+    `;
+
+    // Sentence by sentence breakdown
+    if (evalData.sentenceAnalysisList && evalData.sentenceAnalysisList.length > 0) {
+      const sentenceItemsHtml = evalData.sentenceAnalysisList.map((item, idx) => {
+        if (item.hasError && item.errors && item.errors.length > 0) {
+          const errListHtml = item.errors.map(err => `
+            <tr style="border-bottom: 1px dashed #fca5a5;">
+              <td style="padding: 4px 6px; color: #dc2626; font-weight: 700; width: 25%;">Sai: '${escapeHtml(err.incorrect)}'</td>
+              <td style="padding: 4px 6px; color: #16a34a; font-weight: 700; width: 25%;">Sửa: '${escapeHtml(err.correction)}'</td>
+              <td style="padding: 4px 6px; color: #64748b; font-size: 10.5px; width: 20%;">${escapeHtml(err.errorType)}</td>
+              <td style="padding: 4px 6px; color: #334155; font-size: 11px;">${escapeHtml(err.explanation)}</td>
+            </tr>
+          `).join('');
+
+          return `
+            <div class="sentence-card has-error">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                <strong style="color: #991b1b; font-size: 11.5px;">Câu ${idx + 1}:</strong>
+                <span class="err-badge" style="background: #fee2e2; color: #dc2626;">⚠️ Phát hiện ${item.errors.length} lỗi</span>
+              </div>
+              <div style="font-style: italic; color: #1e293b; margin-bottom: 6px; line-height: 1.45; font-size: 12px;">"${escapeHtml(item.sentence)}"</div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 11px; background: #ffffff; border: 1px solid #fee2e2; border-radius: 4px;">
+                ${errListHtml}
+              </table>
+            </div>
+          `;
+        } else {
+          return `
+            <div class="sentence-card error-free">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <strong style="color: #166534; font-size: 11.5px;">Câu ${idx + 1}:</strong>
+                <span class="err-badge" style="background: #dcfce7; color: #15803d;">✓ Sạch lỗi (Error-free)</span>
+              </div>
+              <div style="font-style: italic; color: #334155; margin-top: 3px; line-height: 1.45; font-size: 12px;">"${escapeHtml(item.sentence)}"</div>
+            </div>
+          `;
+        }
+      }).join('');
+
+      sentenceBreakdownHtml = `
+        <div class="section-title">📝 BÁO CÁO PHÂN TÍCH CHI TIẾT TỪNG CÂU & SỬA LỖI</div>
+        <div style="margin-bottom: 16px;">${sentenceItemsHtml}</div>
+      `;
+    }
+
+    // Collocations matches
+    const matchContainer = document.getElementById('ws-vocab-match-container');
+    if (matchContainer && matchContainer.children.length > 0) {
+      const matched = Array.from(matchContainer.querySelectorAll('.vocab-match-item.matched')).map(el => el.innerText.trim());
+      if (matched.length > 0) {
+        vocabMatchesHtml = `
+          <div class="section-title">📚 COLLOCATIONS TIÊU CHUẨN ĐÃ ÁP DỤNG (${matched.length})</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; page-break-inside: avoid;">
+            ${matched.map(m => `<span style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600;">✓ ${escapeHtml(m)}</span>`).join('')}
+          </div>
+        `;
+      }
+    }
+
+    // Model essay
+    if (currentTopic && currentTopic.details) {
+      const sampleText = (currentSampleLevel === 'B2' ? currentTopic.details.sample_b2 : currentTopic.details.sample_b1) || currentTopic.details.sample_b1 || currentTopic.details.sample_b2 || '';
+      if (sampleText) {
+        modelEssayHtml = `
+          <div class="section-title">📘 BÀI LUẬN MẪU THAM KHẢO CHUẨN (${escapeHtml(currentSampleLevel || 'B1')})</div>
+          <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px 14px; font-size: 12px; line-height: 1.7; color: #1e293b; text-align: justify; white-space: pre-wrap; margin-bottom: 16px; page-break-inside: avoid;">${sampleText}</div>
+        `;
+      }
+    }
+  } else {
+    scoreBadgeHtml = `
+      <div style="background: #fef3c7; border: 1px solid #fde68a; border-radius: 6px; padding: 10px 14px; margin-bottom: 16px; font-size: 12px; color: #92400e;">
+        ⚠️ <em>Bài viết hiện đang trong quá trình soạn thảo (Chưa nộp bài chấm điểm). Báo cáo phân tích chi tiết sẽ được tự động tạo sau khi học viên nộp bài.</em>
+      </div>
+    `;
+  }
+
+  const pdfHtml = `
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>${escapeHtml(filename)}</title>
+  <style>
+    @page { size: A4 portrait; margin: 12mm 14mm 12mm 14mm; }
+    * { box-sizing: border-box; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 12.5px; line-height: 1.55; color: #1e293b; background: #f1f5f9; margin: 0; padding: 0; }
+    @media print {
+      body { background: #ffffff !important; }
+      .no-print { display: none !important; }
+      .page-break { page-break-before: always; }
+    }
+    .pdf-container { max-width: 820px; margin: 0 auto; background: #ffffff; padding: 22px 28px; }
+    @media screen {
+      .pdf-container { margin: 20px auto; box-shadow: 0 4px 24px rgba(0,0,0,0.1); border-radius: 8px; }
+    }
+    .top-bar-print { position: sticky; top: 0; z-index: 9999; background: #0f172a; color: #ffffff; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.25); }
+    .header-banner { border-bottom: 2.5px solid #2563eb; padding-bottom: 12px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; }
+    .brand-title { font-size: 11px; font-weight: 800; letter-spacing: 0.8px; color: #2563eb; text-transform: uppercase; }
+    .report-main-title { font-size: 16.5px; font-weight: 800; color: #0f172a; margin: 4px 0 2px 0; text-transform: uppercase; letter-spacing: 0.3px; }
+    .report-subtitle { font-size: 11.5px; color: #64748b; }
+    .meta-table { width: 100%; border-collapse: collapse; margin-bottom: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 12px; page-break-inside: avoid; }
+    .meta-table td { padding: 6px 10px; border: 1px solid #e2e8f0; }
+    .meta-label { background: #f1f5f9; font-weight: 700; color: #475569; width: 22%; }
+    .section-title { font-size: 12.5px; font-weight: 800; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin: 18px 0 8px 0; display: flex; align-items: center; gap: 6px; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 4px; page-break-after: avoid; }
+    .prompt-box { background: #f8fafc; border-left: 4px solid #3b82f6; border-top: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 10px 14px; border-radius: 0 6px 6px 0; font-size: 12px; line-height: 1.6; color: #1e293b; margin-bottom: 14px; page-break-inside: avoid; }
+    .essay-box { background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 14px 18px; font-size: 13px; line-height: 1.8; text-align: justify; color: #0f172a; white-space: pre-wrap; margin-bottom: 16px; }
+    .score-summary-card { background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%); border: 1.5px solid #86efac; border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; page-break-inside: avoid; }
+    .criteria-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; page-break-inside: avoid; }
+    .criteria-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px 12px; page-break-inside: avoid; }
+    .criteria-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .criteria-title { font-weight: 800; font-size: 11.5px; text-transform: uppercase; color: #0f172a; }
+    .criteria-score { font-weight: 800; font-size: 13px; color: #2563eb; }
+    .criteria-comment { font-size: 11px; color: #475569; line-height: 1.45; margin: 0; }
+    .error-table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 11.5px; page-break-inside: avoid; }
+    .error-table th, .error-table td { border: 1px solid #e2e8f0; padding: 6px 10px; text-align: left; }
+    .error-table th { background: #f1f5f9; font-weight: 700; color: #475569; }
+    .sentence-card { border: 1px solid #e2e8f0; border-radius: 6px; padding: 8px 12px; margin-bottom: 8px; background: #ffffff; page-break-inside: avoid; font-size: 12px; }
+    .sentence-card.has-error { border-left: 3.5px solid #ef4444; background: #fef2f2; }
+    .sentence-card.error-free { border-left: 3.5px solid #10b981; background: #f0fdf4; }
+    .err-badge { display: inline-block; padding: 1px 6px; border-radius: 4px; font-size: 10.5px; font-weight: 700; text-transform: uppercase; }
+    .signature-row { display: flex; justify-content: space-between; margin-top: 24px; padding-top: 14px; border-top: 1px solid #e2e8f0; page-break-inside: avoid; }
+    .sig-col { text-align: center; width: 40%; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <!-- Print control bar (hidden in actual print / PDF) -->
+  <div class="top-bar-print no-print">
+    <div style="font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+      <span>📄 BÁO CÁO KẾT QUẢ BÀI VIẾT & CHẤM ĐIỂM VSTEP TASK 2</span>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <button onclick="window.print()" style="background: #2563eb; color: #fff; border: none; padding: 7px 16px; border-radius: 6px; font-weight: 700; cursor: pointer; display: flex; align-items: center; gap: 6px; font-size: 13px;">
+        🖨️ In bài / Lưu thành PDF
+      </button>
+      <button onclick="window.close()" style="background: rgba(255,255,255,0.15); color: #fff; border: none; padding: 7px 12px; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 13px;">
+        ✕ Đóng
+      </button>
+    </div>
+  </div>
+
+  <div class="pdf-container">
+    <!-- Header -->
+    <div class="header-banner">
+      <div>
+        <div class="brand-title">ENGLISH WITH MISS NGUYET • VSTEP ESSAY MASTER</div>
+        <div class="report-main-title">BÁO CÁO PHÂN TÍCH KẾT QUẢ BÀI VIẾT VSTEP TASK 2</div>
+        <div class="report-subtitle">Hệ thống khảo thí & phân tích năng lực viết luận chuẩn khung VSTEP B1 - B2</div>
+      </div>
+      <div style="text-align: right; font-size: 11px; color: #64748b;">
+        <div>Ngày xuất: <strong>${dateStr}</strong></div>
+        <div style="margin-top: 3px;"><span style="color: #16a34a; font-weight: 700;">Double-Review Pass ✓</span></div>
+      </div>
+    </div>
+
+    <!-- Meta Information -->
+    <table class="meta-table">
+      <tr>
+        <td class="meta-label">Học viên:</td>
+        <td><strong>${escapeHtml(studentName)}</strong></td>
+        <td class="meta-label">Lớp học:</td>
+        <td><strong>${escapeHtml(studentClass)}</strong></td>
+      </tr>
+      <tr>
+        <td class="meta-label">Dạng bài luận:</td>
+        <td colspan="3">${escapeHtml(topicCategory)} - <strong>Đề ${escapeHtml(String(topicId))}: ${escapeHtml(topicTitleEn)}</strong> ${topicTitleVi ? `(${escapeHtml(topicTitleVi)})` : ''}</td>
+      </tr>
+      <tr>
+        <td class="meta-label">Độ dài bài viết:</td>
+        <td><strong>${wordCount} từ</strong> ${wordCount >= 250 ? '<span style="color: #16a34a; font-weight: 700;">(Đạt chuẩn ≥ 250 từ)</span>' : '<span style="color: #dc2626; font-weight: 700;">(Chưa đạt 250 từ)</span>'}</td>
+        <td class="meta-label">Giám sát phòng thi:</td>
+        <td>${cheatViolationCount > 0 ? `<span style="color: #dc2626; font-weight: 700;">Ghi nhận ${cheatViolationCount} lần rời phòng thi</span>` : '<span style="color: #16a34a; font-weight: 700;">Hoàn thành nghiêm túc (0 vi phạm)</span>'}</td>
+      </tr>
+    </table>
+
+    <!-- 1. Writing Prompt -->
+    <div class="section-title">1. ĐỀ BÀI (WRITING PROMPT & CONTEXT)</div>
+    <div class="prompt-box">
+      <div style="white-space: pre-wrap; font-weight: 500;">${escapeHtml(promptText)}</div>
+      ${promptVi ? `<div style="margin-top: 8px; padding-top: 8px; border-top: 1px dashed #cbd5e1; font-size: 11.5px; color: #475569;"><strong>Dịch nghĩa đề bài:</strong> ${promptVi}</div>` : ''}
+    </div>
+
+    <!-- 2. Student Essay -->
+    <div class="section-title">2. BÀI LUẬN CỦA HỌC VIÊN (STUDENT'S ESSAY)</div>
+    <div class="essay-box">${escapeHtml(essayContent)}</div>
+
+    <!-- 3. Overall Score -->
+    ${scoreBadgeHtml}
+
+    <!-- 4. 4 Criteria -->
+    ${criteriaCardsHtml}
+
+    <!-- 5. Calibrations -->
+    ${calibrationsHtml}
+
+    <!-- 6. Error Summary -->
+    ${errorSummaryHtml}
+
+    <!-- 7. Sentence Breakdown -->
+    ${sentenceBreakdownHtml}
+
+    <!-- 8. Vocab Matches -->
+    ${vocabMatchesHtml}
+
+    <!-- 9. Model Essay -->
+    ${modelEssayHtml}
+
+    <!-- 10. Signatures -->
+    <div class="signature-row">
+      <div class="sig-col">
+        <strong>HỌC VIÊN THỰC HIỆN</strong>
+        <div style="font-size: 11px; color: #64748b; margin-top: 2px;">(Ký và ghi rõ họ tên)</div>
+        <div style="margin-top: 45px; font-weight: 700; color: #1e293b;">${escapeHtml(studentName)}</div>
+      </div>
+      <div class="sig-col">
+        <strong>GIÁO VIÊN HƯỚNG DẪN</strong>
+        <div style="font-size: 11px; color: #64748b; margin-top: 2px;">(Xác nhận kết quả khảo thí)</div>
+        <div style="margin-top: 45px; font-weight: 800; color: #2563eb;">ENGLISH WITH MISS NGUYET</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        try { window.print(); } catch(e) {}
+      }, 450);
+    });
+  </script>
+</body>
+</html>
+  `;
+
+  // Open in printable window with iframe fallback
+  let printWindow = null;
+  try {
+    printWindow = window.open('', '_blank');
+  } catch (err) {}
+
+  if (printWindow && !printWindow.closed) {
+    printWindow.document.open();
+    printWindow.document.write(pdfHtml);
+    printWindow.document.close();
+    printWindow.focus();
+  } else {
+    // Popup fallback: use hidden iframe
+    const iframe = document.createElement('iframe');
+    iframe.style.position = 'fixed';
+    iframe.style.right = '0';
+    iframe.style.bottom = '0';
+    iframe.style.width = '0';
+    iframe.style.height = '0';
+    iframe.style.border = '0';
+    document.body.appendChild(iframe);
+    iframe.contentDocument.open();
+    iframe.contentDocument.write(pdfHtml);
+    iframe.contentDocument.close();
+    setTimeout(() => {
+      iframe.contentWindow.focus();
+      iframe.contentWindow.print();
+      setTimeout(() => {
+        try { document.body.removeChild(iframe); } catch(e) {}
+      }, 3000);
+    }, 600);
+  }
+
+  showToast("📄 Đang xuất báo cáo PDF... Vui lòng chọn 'Lưu dưới dạng PDF' (Save as PDF)!", "success");
+}
+
 
 // Switch between Right Analysis tabs (Score, Vocab checklist, Model essay)
 function switchAnalysisTab(tabName) {
