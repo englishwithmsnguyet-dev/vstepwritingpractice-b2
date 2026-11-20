@@ -8724,7 +8724,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   updateStudentProfileDisplay();
 
-  // Anti-cheat: tab switch & window blur detection (chỉ cảnh báo khi THỰC SỰ chuyển tab hoặc qua màn hình/ứng dụng khác)
+  // Anti-cheat: tab switch & window blur detection (giám sát nghiêm ngặt khi chuyển tab hoặc rời ứng dụng)
   let essayBlurTimeout = null;
   let hasLeftEssayContext = false;
   let leaveEssayReason = '';
@@ -8749,9 +8749,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (essayBlurTimeout) clearTimeout(essayBlurTimeout);
 
-    // Bộ lọc thời gian 2000ms:
-    // Tránh cảnh báo oan khi click nội bộ, thanh cuộn, thông báo chớp nhoáng hệ thống.
-    // Chỉ ghi nhận khi học viên THỰC SỰ chuyển sang màn hình khác / ứng dụng khác liên tục >= 2 giây!
+    // Giám sát nghiêm ngặt: 500ms
+    // Đảm bảo bắt trọn mọi hành vi chuyển tab, chia đôi màn hình hay click sang app khác (ChatGPT, Zalo, Google Dịch)
     essayBlurTimeout = setTimeout(() => {
       if (isExamModeActive() && !isPromptingUser) {
         if (!document.hasFocus() || document.hidden) {
@@ -8759,7 +8758,7 @@ document.addEventListener('DOMContentLoaded', () => {
           leaveEssayReason = 'window_blur';
         }
       }
-    }, 2000);
+    }, 500);
   });
 
   window.addEventListener('focus', () => {
@@ -8777,16 +8776,99 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Anti-cheat: disable pasting external text into essay during exam
+  // Anti-cheat: Ngăn chặn triệt để mọi hành vi copy paste vào bài thi
   const essayArea = document.getElementById('essay-textarea');
   if (essayArea) {
+    // 1. Chặn dán (paste) trực tiếp trên ô làm bài
     essayArea.addEventListener('paste', (e) => {
       if (isExamModeActive()) {
         e.preventDefault();
+        e.stopPropagation();
         handleCheatViolation('paste');
+        showToast("🚫 ĐÃ CHẶN DÁN VĂN BẢN! Phòng thi yêu cầu học viên tự gõ từng câu chữ.", "danger");
+      }
+    }, true);
+
+    // 2. Chặn kéo thả (drag & drop) văn bản từ bên ngoài vào
+    essayArea.addEventListener('drop', (e) => {
+      if (isExamModeActive()) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleCheatViolation('paste');
+        showToast("🚫 ĐÃ CHẶN KÉO THẢ VĂN BẢN! Vui lòng tự gõ nội dung bài viết.", "danger");
+      }
+    }, true);
+
+    essayArea.addEventListener('dragover', (e) => {
+      if (isExamModeActive()) {
+        e.preventDefault();
+      }
+    });
+
+    // 3. Chặn menu chuột phải (contextmenu) trong phòng thi để ngăn dán qua chuột
+    essayArea.addEventListener('contextmenu', (e) => {
+      if (isExamModeActive()) {
+        e.preventDefault();
+        showToast("⚠️ Tính năng chuột phải (Dán/Paste) bị vô hiệu hoá trong phòng thi!", "warning");
+      }
+    });
+
+    // 4. Phát hiện chèn văn bản hàng loạt bất thường (chống auto-typer hoặc script extension)
+    let lastExamInputLen = 0;
+    essayArea.addEventListener('focus', () => {
+      if (isExamModeActive()) lastExamInputLen = essayArea.value.length;
+    });
+    essayArea.addEventListener('input', (e) => {
+      if (isExamModeActive()) {
+        const curLen = essayArea.value.length;
+        const diff = curLen - lastExamInputLen;
+        // Nếu một lần nhập xuất hiện > 50 ký tự trong chớp mắt
+        if (diff > 50 && e.inputType !== 'historyUndo') {
+          essayArea.value = essayArea.value.slice(0, lastExamInputLen);
+          handleCheatViolation('paste');
+          showToast("⚠️ Phát hiện chèn văn bản hàng loạt bất thường! Bài thi yêu cầu tự gõ bàn phím.", "danger");
+          return;
+        }
+        lastExamInputLen = curLen;
       }
     });
   }
+
+  // Chặn sự kiện dán ở cấp độ toàn trang (document-level)
+  document.addEventListener('paste', (e) => {
+    if (isExamModeActive()) {
+      e.preventDefault();
+      e.stopPropagation();
+      handleCheatViolation('paste');
+      showToast("🚫 ĐÃ CHẶN DÁN VĂN BẢN! Mọi thao tác dán đều bị ghi nhận.", "danger");
+    }
+  }, true);
+
+  // Chặn phím tắt Ctrl+V / Cmd+V ở cấp độ toàn trang
+  document.addEventListener('keydown', (e) => {
+    if (isExamModeActive()) {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'v' || e.key === 'V' || e.code === 'KeyV')) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleCheatViolation('paste');
+        showToast("🚫 ĐÃ CHẶN PHÍM TẮT DÁN (Ctrl+V/Cmd+V)!", "danger");
+      }
+    }
+  }, true);
+
+  // Chặn sao chép đề bài/tài liệu ra bên ngoài trong khi thi
+  document.addEventListener('copy', (e) => {
+    if (isExamModeActive()) {
+      const selection = window.getSelection ? window.getSelection().toString() : '';
+      if (selection && selection.length > 30) {
+        const activeEl = document.activeElement;
+        if (activeEl !== essayArea) {
+          e.preventDefault();
+          showToast("⚠️ Không được phép sao chép đề bài hoặc tài liệu ra ngoài phòng thi!", "warning");
+        }
+      }
+    }
+  }, true);
 });
 
 const VALID_CLASSES = {
@@ -9034,11 +9116,13 @@ function submitGatewayAccess() {
   const noToneClass = removeVietnameseTones(cleanClass.toLowerCase()).replace(/[^a-z0-9]/g, '').toUpperCase();
   if (checkIsGiaTue(nameInput) || noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
     cleanClass = 'B2';
+  } else if (noToneClass === '0NB103') {
+    cleanClass = 'ONB103';
   } else {
     cleanClass = noToneClass;
   }
 
-  const ALLOWED_CLASS_KEYS = ['CB210', 'CB211', 'CB213', 'ONB103', 'B212', 'B2'];
+  const ALLOWED_CLASS_KEYS = ['CB210', 'CB211', 'CB213', 'ONB103', '0NB103', 'B212', 'B2'];
   if (!ALLOWED_CLASS_KEYS.includes(cleanClass)) {
     errorEl.textContent = 'Hệ thống hiện chỉ mở cho các lớp: CB210, CB211, CB213, ONB103, B212 và Gia Tuệ (B2)!';
     errorEl.style.display = 'block';
@@ -9228,8 +9312,8 @@ function isTopicAllowedForUser(catId, topicId, topic) {
     return isTopic1 || isTopic22;
   }
 
-  // Classes ONB103, CB211, CB213: in Category 2, ONLY Obesity (id: 3) and Single-parent families (id: 9) are opened
-  if (['ONB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
+  // Classes ONB103, 0NB103, CB211, CB213: in Category 2, ONLY Obesity (id: 3) and Single-parent families (id: 9) are opened
+  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass) && catId === 2) {
     const tid = topicId || (topic ? topic.id : 0);
     const ten = topic ? (topic.title_en || '').toLowerCase() : '';
     const isObesity = (tid === 3 || ten.includes('obesity'));
@@ -9257,21 +9341,14 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
     }
   }
 
-  // Class CB213: in Category 2, steps 4 & 5 ('write', 'model') are UNLOCKED for topics 03 and 09
-  if (userClass === 'CB213' && catId === 2) {
+  // Classes CB211, ONB103, 0NB103, CB213: in Category 2, steps 4 & 5 ('write', 'model') are UNLOCKED for topics 03 and 09
+  if (['CB211', 'ONB103', '0NB103', 'CB213'].includes(userClass) && catId === 2) {
     const tid = topicId || (topic ? topic.id : 0);
     const ten = topic ? (topic.title_en || '').toLowerCase() : '';
     const isTopic03Or09 = (tid === 3 || tid === 9 || ten.includes('obesity') || ten.includes('single-parent') || ten.includes('single families'));
     if (isTopic03Or09) {
       return true; // All steps 1..5 unlocked for topics 03 and 09
     }
-    if (stepKey === 'write' || stepKey === 'model') {
-      return false;
-    }
-  }
-
-  // Classes ONB103, CB211: in Category 2, ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
-  if (['ONB103', 'CB211'].includes(userClass) && catId === 2) {
     if (stepKey === 'write' || stepKey === 'model') {
       return false;
     }
