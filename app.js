@@ -5762,7 +5762,7 @@ function showSuperficialWarningModal(check) {
       <div style="background:linear-gradient(135deg, #b91c1c, #dc2626);color:#ffffff;padding:18px 22px;text-align:center;">
         <div style="font-size:2.3rem;line-height:1;margin-bottom:8px;">🚨</div>
         <h3 style="margin:0;font-size:1.18rem;font-weight:900;letter-spacing:0.02em;line-height:1.35;">
-          CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ!
+          CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ! ĐIỀU NÀY CÓ THỂ KHIẾN GIÁO VIÊN CỦA BẠN BUỒN ĐẤY!
         </h3>
       </div>
       <div style="padding:20px 22px;">
@@ -6435,7 +6435,7 @@ function renderStep3Rejection(message, superficialCheck = null) {
   const superficialBannerHtml = (superficialCheck && superficialCheck.flagged) ? `
     <div style="background:linear-gradient(135deg, #fef2f2, #fee2e2);border:2.5px solid #dc2626;border-radius:14px;padding:18px 20px;margin-bottom:1.25rem;box-shadow:0 8px 24px rgba(220,38,38,0.16);">
       <div style="font-size:1.12rem;font-weight:900;color:#b91c1c;display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-        <span>🚨 CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ!</span>
+        <span>🚨 CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ! ĐIỀU NÀY CÓ THỂ KHIẾN GIÁO VIÊN CỦA BẠN BUỒN ĐẤY!</span>
       </div>
       <ul style="margin:0;padding-left:20px;color:#991b1b;font-size:0.9rem;font-weight:700;line-height:1.55;">
         ${(superficialCheck.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('')}
@@ -7130,7 +7130,7 @@ function buildStudentResultReportCardHtml(meta) {
   const superficialAlertHtml = (meta.superficialCheck && meta.superficialCheck.flagged) ? `
     <div style="background:linear-gradient(135deg, #fef2f2, #fee2e2);border:2px solid #dc2626;border-radius:12px;padding:12px 15px;">
       <div style="font-size:0.98rem;font-weight:900;color:#b91c1c;display:flex;align-items:center;gap:7px;margin-bottom:5px;">
-        <span>🚨 CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ!</span>
+        <span>🚨 CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ! ĐIỀU NÀY CÓ THỂ KHIẾN GIÁO VIÊN CỦA BẠN BUỒN ĐẤY!</span>
       </div>
       <ul style="margin:0;padding-left:20px;color:#991b1b;font-size:0.82rem;font-weight:700;line-height:1.5;">
         ${(meta.superficialCheck.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('')}
