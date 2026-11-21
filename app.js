@@ -5666,7 +5666,143 @@ function analyzeSentenceErrors(sentenceStr) {
   return { errors, corrected };
 }
 
-function submitEssay() {
+function detectSuperficialAttempt(text, words, elapsedSec) {
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  // Teachers bypass superficial attempt warning
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
+    return { flagged: false, reasons: [], isUnder200: false, isOutlineSkeleton: false, isUnderTwoThirdsTime: false, elapsedSec };
+  }
+
+  const TWO_THIRDS_TIME_SEC = Math.floor((40 * 60 * 2) / 3); // 1600s = 26 phút 40 giây
+  const isUnder200 = words < 200;
+  const isUnderTwoThirdsTime = elapsedSec < TWO_THIRDS_TIME_SEC;
+
+  const lines = text.split(/\n+/).map(l => l.trim()).filter(l => l.length > 0);
+  const sentences = text.split(/[.!?]+/).map(s => s.trim()).filter(s => s.length > 2);
+  const avgWordsPerSentence = sentences.length > 0 ? (words / sentences.length) : 0;
+
+  // 1. Outline section headers (Introduction:, Body 1:, Conclusion:, Idea 1:, Mở bài:, ...)
+  const headingRegex = /^(?:introduction|intro|body(?:\s*\d+)?|paragraph\s*\d+|conclusion|concl|overview|thesis|topic\s*sentence|idea\s*\d+|point\s*\d+|reason\s*\d+|cause\s*\d+|effect\s*\d+|solution\s*\d+|advantage\s*\d+|disadvantage\s*\d+|mở\s*bài|thân\s*bài(?:\s*\d+)?|kết\s*bài|ý\s*\d+)\s*[:\-–]/i;
+  const headingLineCount = lines.filter(l => headingRegex.test(l)).length;
+
+  // 2. Bullet / numbered outline points (-, •, *, +, 1., 2.)
+  const bulletRegex = /^(?:[-•*+]|(?:\d+|[a-z])[.)])\s+/i;
+  const bulletLineCount = lines.filter(l => bulletRegex.test(l)).length;
+
+  // 3. Fragmented short lines typical of an outline
+  const shortLineCount = lines.filter(l => l.split(/\s+/).length < 12).length;
+  const isFragmentedOutline = lines.length >= 5 && (shortLineCount / lines.length) >= 0.6;
+
+  // 4. Thin template skeleton (generic connectors/frame without real body development)
+  const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(p => p.length > 0);
+  const developedParagraphs = paragraphs.filter(p => p.split(/\s+/).length >= 45).length;
+  const templateMarkers = (text.match(/\b(in recent years|nowadays|this essay will|on the one hand|on the other hand|firstly|secondly|thirdly|moreover|furthermore|in addition|in conclusion|to sum up|all in all)\b/gi) || []).length;
+  const isThinTemplate = (words < 230 && developedParagraphs < 2 && (templateMarkers >= 3 || avgWordsPerSentence < 11));
+
+  // 5. Repetitive low-effort padding
+  const rawWords = text.toLowerCase().replace(/[^a-z']/g, ' ').split(/\s+/).filter(w => w.length > 2);
+  const uniqueRatio = rawWords.length > 0 ? (new Set(rawWords).size / rawWords.length) : 1;
+  const isLowEffortRepetition = rawWords.length >= 60 && uniqueRatio < 0.36;
+
+  const isOutlineSkeleton = (
+    headingLineCount >= 2 ||
+    bulletLineCount >= 3 ||
+    isFragmentedOutline ||
+    isThinTemplate ||
+    isLowEffortRepetition ||
+    (sentences.length >= 3 && avgWordsPerSentence < 8.5)
+  );
+
+  const flagged = (
+    (isUnder200 && isUnderTwoThirdsTime) ||
+    (isOutlineSkeleton && isUnderTwoThirdsTime) ||
+    (isUnder200 && isOutlineSkeleton)
+  );
+
+  const reasons = [];
+  if (isUnder200) {
+    reasons.push(`Viết dưới 200 từ (${words}/200 từ — chưa đạt chuẩn tối thiểu 250 từ VSTEP)`);
+  }
+  if (isOutlineSkeleton) {
+    if (headingLineCount >= 2 || bulletLineCount >= 3 || isFragmentedOutline) {
+      reasons.push('Chỉ viết dạng khung dàn ý / gạch đầu dòng rời rạc, chưa viết thành bài luận hoàn chỉnh');
+    } else if (isLowEffortRepetition) {
+      reasons.push('Nội dung lặp từ/lặp ý quá nhiều mang tính đối phó');
+    } else {
+      reasons.push('Chỉ viết khung sườn mở–thân–kết sơ sài, chưa triển khai lập luận và ví dụ');
+    }
+  }
+  if (isUnderTwoThirdsTime) {
+    reasons.push(`Nộp bài quá sớm: ${formatWritingDurationVi(elapsedSec)} (chưa tới 2/3 thời gian thi 26 phút 40 giây)`);
+  }
+
+  return {
+    flagged,
+    reasons,
+    isUnder200,
+    isOutlineSkeleton,
+    isUnderTwoThirdsTime,
+    elapsedSec
+  };
+}
+
+function showSuperficialWarningModal(check) {
+  let modal = document.getElementById('superficial-warning-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'superficial-warning-modal';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(15,23,42,0.72);backdrop-filter:blur(4px);z-index:13000;display:flex;align-items:center;justify-content:center;padding:18px;';
+    document.body.appendChild(modal);
+  }
+
+  const reasonsHtml = (check.reasons || []).map(r => `<li style="margin-bottom:6px;">${escapeHtml(r)}</li>`).join('');
+  modal.innerHTML = `
+    <div style="width:100%;max-width:540px;background:var(--bg-surface, #ffffff);color:var(--text-primary, #0f172a);border:2.5px solid #dc2626;border-radius:18px;overflow:hidden;box-shadow:0 24px 60px rgba(220,38,38,0.32);">
+      <div style="background:linear-gradient(135deg, #b91c1c, #dc2626);color:#ffffff;padding:18px 22px;text-align:center;">
+        <div style="font-size:2.3rem;line-height:1;margin-bottom:8px;">🚨</div>
+        <h3 style="margin:0;font-size:1.18rem;font-weight:900;letter-spacing:0.02em;line-height:1.35;">
+          CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ!
+        </h3>
+      </div>
+      <div style="padding:20px 22px;">
+        <p style="margin:0 0 12px 0;font-size:0.92rem;line-height:1.55;color:var(--text-primary, #1e293b);font-weight:600;">
+          Hệ thống giám sát phòng thi phát hiện bài nộp của bạn có các dấu hiệu chưa nghiêm túc:
+        </p>
+        <ul style="margin:0 0 14px 0;padding:12px 16px 6px 30px;background:#fef2f2;border:1.5px solid #fca5a5;border-radius:12px;color:#991b1b;font-size:0.88rem;font-weight:700;line-height:1.5;">
+          ${reasonsHtml}
+        </ul>
+        <p style="margin:0 0 18px 0;font-size:0.84rem;line-height:1.5;color:var(--text-secondary, #475569);">
+          ⚠️ Nếu vẫn cố tình nộp bài, cảnh báo <strong>"Làm bài đối phó"</strong> sẽ được in nổi bật trực tiếp trên <strong>Phiếu Báo Cáo Kết Quả</strong> và tự động gửi về Giáo viên.
+        </p>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <button type="button" onclick="closeSuperficialWarningModal(true)" style="width:100%;padding:12px 16px;border:none;border-radius:11px;background:linear-gradient(135deg, #2563eb, #4f46e5);color:#ffffff;font-family:inherit;font-size:0.94rem;font-weight:800;cursor:pointer;box-shadow:0 4px 14px rgba(37,99,235,0.3);">
+            ✏️ QUAY LẠI VIẾT BÀI NGHIÊM TÚC TIẾP
+          </button>
+          <button type="button" onclick="closeSuperficialWarningModal(false)" style="width:100%;padding:10px 14px;border:1.5px solid #fca5a5;border-radius:11px;background:#fef2f2;color:#b91c1c;font-family:inherit;font-size:0.83rem;font-weight:800;cursor:pointer;">
+            ⚠️ Vẫn nộp bài (Chấp nhận ghi nhận cảnh báo Đối phó)
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+  modal.style.display = 'flex';
+}
+
+function closeSuperficialWarningModal(returnToEdit) {
+  const modal = document.getElementById('superficial-warning-modal');
+  if (modal) modal.style.display = 'none';
+  if (returnToEdit) {
+    startTimer();
+    const textarea = document.getElementById('essay-textarea');
+    if (textarea) textarea.focus();
+    showToast('✏️ Rất tốt! Hãy triển khai đầy đủ ý và đạt ít nhất 250 từ trước khi nộp nhé.', 'info');
+  } else {
+    submitEssay(true);
+  }
+}
+
+function submitEssay(forceSubmit = false) {
   const text = document.getElementById('essay-textarea').value;
   const trimmed = text.trim();
   
@@ -5676,6 +5812,21 @@ function submitEssay() {
   }
   
   const words = trimmed.split(/\s+/).filter(w => w.length > 0).length;
+  const elapsedSec = Math.max(writingElapsedSeconds || 0, Math.max(0, 40 * 60 - (timerSeconds || 0)));
+  const superficialCheck = detectSuperficialAttempt(trimmed, words, elapsedSec);
+
+  if (superficialCheck.flagged && !forceSubmit) {
+    stopTimer();
+    showSuperficialWarningModal(superficialCheck);
+    return;
+  }
+
+  if (superficialCheck.flagged && forceSubmit) {
+    const stName = sessionStorage.getItem('current_user_name') || 'Học viên';
+    const stClass = sessionStorage.getItem('current_user_class') || 'Chưa xác định';
+    const tTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
+    sendTrackingReport(`[CẢNH BÁO LÀM BÀI ĐỐI PHÓ] ${stName} - Lớp ${stClass} - Đề: ${tTitle} - ${words} từ - Thời gian: ${formatWritingDurationVi(elapsedSec)} - Lý do: ${superficialCheck.reasons.join(' | ')}`);
+  }
   
   // --- ESSAY VALIDATION CHECK ---
   // 1. Check for Evaluation Comments / Random text
@@ -5684,14 +5835,14 @@ function submitEssay() {
   const evalMatches = (trimmed.match(evalKeywords) || []).length;
   
   if (isVietnamese || evalMatches >= 2) {
-    renderStep3Rejection("Submission Rejected.\n\nThe text provided is an evaluation comment, not an essay response.");
+    renderStep3Rejection("Submission Rejected.\n\nThe text provided is an evaluation comment, not an essay response.", superficialCheck);
     return;
   }
 
   // 2. Check structure (150 words minimum, multiple sentences)
   const sentences = trimmed.split(/[.!?]+/).filter(s => s.trim().length > 3);
   if (words < 150 || sentences.length < 5) {
-    renderStep3Rejection("Submission Rejected.\n\nThe text provided is not an essay response. Please submit a complete essay written in response to the task prompt.");
+    renderStep3Rejection("Submission Rejected.\n\nThe text provided is not an essay response. Please submit a complete essay written in response to the task prompt.", superficialCheck);
     return;
   }
   // --- END VALIDATION ---
@@ -6003,10 +6154,14 @@ function submitEssay() {
   let wordCountCapLimit = 10.0;
   let wordCountCapReason = "";
 
-  if (words < 200) {
+  if (words < 150) {
     wordCountCapTriggered = true;
-    wordCountCapLimit = 4.5;
-    wordCountCapReason = `Bài viết chỉ có ${words} từ (thiếu ${250 - words} từ so với chuẩn tối thiểu 250 từ). Theo quy chế khảo thí VSTEP Task 2, bài viết dưới 200 từ bị trừ nặng điểm Task Fulfillment và bị giới hạn trần điểm tối đa ở mức 4.5 (Dưới B1).`;
+    wordCountCapLimit = 2.5;
+    wordCountCapReason = `Bài viết chỉ có ${words} từ (quá ngắn so với chuẩn tối thiểu 250 từ của VSTEP Task 2). Điểm số tổng thể bị giới hạn tối đa ở mức 2.5 (Dưới B1 / Không đạt).`;
+  } else if (words < 200) {
+    wordCountCapTriggered = true;
+    wordCountCapLimit = 3.5;
+    wordCountCapReason = `Bài viết chỉ có ${words} từ (thiếu ${250 - words} từ so với chuẩn tối thiểu 250 từ). Theo quy chế khảo thí VSTEP Task 2, bài viết dưới 200 từ bị trừ nặng điểm Task Fulfillment và bị giới hạn trần điểm tối đa ở mức 3.5 (Dưới B1 / Chưa đạt chuẩn).`;
   } else if (words < 230) {
     wordCountCapTriggered = true;
     wordCountCapLimit = 5.0;
@@ -6254,7 +6409,8 @@ function submitEssay() {
     ttr: ttr,
     errorSentenceRatio: errorSentenceRatio,
     errorFreeRatio: errorFreeRatio,
-    isLexicalOveruse: isLexicalOveruse
+    isLexicalOveruse: isLexicalOveruse,
+    superficialCheck: superficialCheck
   });
 
   const editorView = document.getElementById('step3-editor-view');
@@ -6272,11 +6428,23 @@ function submitEssay() {
   showToast("🎉 Đã hoàn thành nộp bài! Báo cáo đánh giá chi tiết hiển thị bên dưới.", "success");
 }
 
-function renderStep3Rejection(message) {
+function renderStep3Rejection(message, superficialCheck = null) {
   const container = document.getElementById('step3-evaluation-view');
   if (!container) return;
+
+  const superficialBannerHtml = (superficialCheck && superficialCheck.flagged) ? `
+    <div style="background:linear-gradient(135deg, #fef2f2, #fee2e2);border:2.5px solid #dc2626;border-radius:14px;padding:18px 20px;margin-bottom:1.25rem;box-shadow:0 8px 24px rgba(220,38,38,0.16);">
+      <div style="font-size:1.12rem;font-weight:900;color:#b91c1c;display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+        <span>🚨 CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ!</span>
+      </div>
+      <ul style="margin:0;padding-left:20px;color:#991b1b;font-size:0.9rem;font-weight:700;line-height:1.55;">
+        ${(superficialCheck.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('')}
+      </ul>
+    </div>
+  ` : '';
   
   container.innerHTML = `
+    ${superficialBannerHtml}
     <div class="evaluation-header">
       <h3 style="color: var(--danger-color); display: flex; align-items: center; gap: 0.5rem; margin: 0;">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -6864,7 +7032,8 @@ function renderStep3VstepEvaluation(data) {
       score: score,
       scoreSource: (window.VstepAIGrader ? 'syncing' : 'system'),
       targetLevel: 'B2',
-      passThreshold: 6.0
+      passThreshold: 6.0,
+      superficialCheck: data.superficialCheck || null
     };
     currentEvaluationData._reportMeta = reportMeta;
 
@@ -6891,7 +7060,10 @@ function buildStudentResultReportCardHtml(meta) {
   const displayScore = Number(meta.score || 0);
   const threshold = Number(meta.passThreshold || 6.0);
   const lvl = meta.targetLevel || 'B2';
-  const isPassed = displayScore >= threshold;
+  const words = Number(meta.wordCount || 0);
+  const minRequiredWords = (lvl === 'B2') ? 220 : 200; // Ngưỡng sàn số từ tối thiểu để được xét Đạt
+  const isLengthOk = words >= minRequiredWords;
+  const isPassed = (displayScore >= threshold) && isLengthOk;
 
   const durationText = formatWritingDurationVi(meta.elapsedSeconds);
   const isOvertime = (meta.elapsedSeconds || 0) > 40 * 60;
@@ -6924,9 +7096,14 @@ function buildStudentResultReportCardHtml(meta) {
   let passSubText = '';
   if (isPassed) {
     if (displayScore >= 8.5) passSubText = 'Vượt chuẩn — Tương đương C1';
-    else passSubText = `Đạt chuẩn ${lvl} (từ ${threshold.toFixed(1)}/10 trở lên)`;
+    else if (lvl === 'B1' && displayScore >= 6.0) passSubText = 'Vượt chuẩn B1 — Tương đương B2';
+    else passSubText = `Đạt chuẩn ${lvl} (từ ${threshold.toFixed(1)}/10 trở lên & đủ dung lượng)`;
   } else {
-    passSubText = `Cần đạt từ ${threshold.toFixed(1)}/10 để đạt ${lvl}`;
+    if (!isLengthOk) {
+      passSubText = `Chưa đủ dung lượng (${words}/250 từ — Cần tối thiểu ${minRequiredWords} từ để xét đạt)`;
+    } else {
+      passSubText = `Cần đạt từ ${threshold.toFixed(1)}/10 để đạt ${lvl}`;
+    }
   }
 
   let scoreSourceBadge = '';
@@ -6941,7 +7118,25 @@ function buildStudentResultReportCardHtml(meta) {
   const statusBg = isPassed ? 'linear-gradient(135deg, #ecfdf5, #d1fae5)' : 'linear-gradient(135deg, #fef2f2, #fee2e2)';
   const statusBorder = isPassed ? '#10b981' : '#ef4444';
   const statusColor = isPassed ? '#047857' : '#b91c1c';
-  const statusText = isPassed ? `✅ ĐẠT ${lvl}` : `❌ KHÔNG ĐẠT ${lvl}`;
+  let statusText = '';
+  if (isPassed) {
+    statusText = `✅ ĐẠT ${lvl}`;
+  } else if (!isLengthOk) {
+    statusText = `❌ CHƯA ĐẠT (Thiếu từ: ${words}/250)`;
+  } else {
+    statusText = `❌ KHÔNG ĐẠT ${lvl}`;
+  }
+
+  const superficialAlertHtml = (meta.superficialCheck && meta.superficialCheck.flagged) ? `
+    <div style="background:linear-gradient(135deg, #fef2f2, #fee2e2);border:2px solid #dc2626;border-radius:12px;padding:12px 15px;">
+      <div style="font-size:0.98rem;font-weight:900;color:#b91c1c;display:flex;align-items:center;gap:7px;margin-bottom:5px;">
+        <span>🚨 CÓ VẺ BẠN ĐANG CỐ GẮNG LÀM BÀI ĐỂ ĐỐI PHÓ!</span>
+      </div>
+      <ul style="margin:0;padding-left:20px;color:#991b1b;font-size:0.82rem;font-weight:700;line-height:1.5;">
+        ${(meta.superficialCheck.reasons || []).map(r => `<li>${escapeHtml(r)}</li>`).join('')}
+      </ul>
+    </div>
+  ` : '';
 
   return `
     <div style="background:var(--bg-surface, #ffffff);border:2px solid #2563eb;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(37,99,235,0.14);margin-bottom:1.5rem;">
@@ -6960,6 +7155,7 @@ function buildStudentResultReportCardHtml(meta) {
 
       <!-- Report Body -->
       <div style="padding:18px 20px;display:flex;flex-direction:column;gap:14px;">
+        ${superficialAlertHtml}
         <!-- Info Rows -->
         <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));gap:10px 18px;background:var(--bg-secondary, #f8fafc);border:1px solid var(--panel-border, #e2e8f0);border-radius:12px;padding:14px 16px;">
           <div>
