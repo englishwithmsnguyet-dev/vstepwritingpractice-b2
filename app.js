@@ -359,7 +359,7 @@ function switchCategory(catId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
     if (userClass === 'B212') {
-      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 22)!', 'warning');
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 02)!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Lớp hiện đã mở Dạng 01 & Dạng 02!`, 'warning');
     } else if (userClass === 'CB210') {
@@ -1001,7 +1001,7 @@ function startPractice(catId, topicId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
     if (userClass === 'B212') {
-      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 22)!', 'warning');
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 02)!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp đã mở DẠNG LUẬN 01 & DẠNG LUẬN 02!`, 'warning');
     } else if (userClass === 'CB210') {
@@ -1020,7 +1020,7 @@ function startPractice(catId, topicId) {
 
   if (typeof isTopicAllowedForUser === 'function' && !isTopicAllowedForUser(catId, topicId, topic)) {
     if (userClass === 'B212') {
-      showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện chỉ mở Đề 01 (Học trực tuyến) và Đề 22 (Hoạt động cộng đồng)!', 'warning');
+      showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện chỉ mở Đề 01 (Học trực tuyến), Đề 02 (Du học) và Đề 22 (Hoạt động cộng đồng)!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       if (userClass === 'CB213') {
         showToast('🔒 Đề bài này tạm thời chưa mở cho lớp CB213. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (Bước 1-3)!', 'warning');
@@ -9901,14 +9901,15 @@ function isTopicAllowedForUser(catId, topicId, topic) {
     return false;
   }
 
-  // Class B212: in Category 1, ONLY Online learning (id: 1) and Unpaid community service (id: 22) are opened; all others locked
+  // Class B212: in Category 1, ONLY Topic 1 (Online learning), Topic 2 (Studying abroad), and Topic 22 (Unpaid community service) are opened; all others locked
   if (userClass === 'B212') {
-    if (catId !== 1) return false;
-    const tid = topicId || (topic ? topic.id : 0);
+    if (catId !== 1 && String(catId) !== '1') return false;
+    const tid = Number(topicId || (topic ? topic.id : 0));
     const ten = topic ? (topic.title_en || '').toLowerCase() : '';
     const isTopic1 = (tid === 1 || ten.includes('online learning'));
+    const isTopic2 = (tid === 2 || ten.includes('studying abroad'));
     const isTopic22 = (tid === 22 || ten.includes('unpaid community service') || ten.includes('community service'));
-    return isTopic1 || isTopic22;
+    return isTopic1 || isTopic2 || isTopic22;
   }
 
   // Classes ONB103, 0NB103, CB211, CB213:
@@ -9946,8 +9947,18 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
     return true;
   }
 
-  // Class B212: ONLY steps 1, 2, 3 ('read', 'vocab', 'trans') are opened; steps 4 & 5 ('write', 'model') are locked
+  // Class B212:
+  // - Category 1: For Topic 1, Topic 2, and Topic 22, ALL steps (1..5) including steps 4 & 5 ('write', 'model') are OPEN!
+  // - For any other topic/category, steps 4 & 5 ('write', 'model') are locked
   if (userClass === 'B212') {
+    if (catId === 1 || String(catId) === '1') {
+      const tid = Number(topicId || (topic ? topic.id : 0));
+      const ten = topic ? (topic.title_en || '').toLowerCase() : '';
+      const isAllowedTopic = (tid === 1 || tid === 2 || tid === 22 || ten.includes('online learning') || ten.includes('studying abroad') || ten.includes('community service'));
+      if (isAllowedTopic) {
+        return true; // All steps 1..5 unlocked!
+      }
+    }
     if (stepKey === 'write' || stepKey === 'model') {
       return false;
     }
@@ -9997,7 +10008,7 @@ function updateClassAccessUI() {
       link.classList.add('is-locked');
       let lockMsg = 'Dạng luận này tạm thời chưa mở';
       if (isB212) {
-        lockMsg = 'Dạng luận này tạm thời chưa mở cho lớp B212 (Hiện tại lớp chỉ mở DẠNG LUẬN 01: Đề 01 & Đề 22)';
+        lockMsg = 'Dạng luận này tạm thời chưa mở cho lớp B212 (Hiện tại lớp chỉ mở DẠNG LUẬN 01: Đề 01 & Đề 02)';
       } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
         lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp đã mở DẠNG LUẬN 01 & 02)`;
       } else if (isCB210) {
