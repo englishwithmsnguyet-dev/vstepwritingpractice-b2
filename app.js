@@ -6169,6 +6169,14 @@ function submitEssay() {
   
   try {
     saveSubmission(finalScore, words, text);
+    if (window.CB210StreakGuard && typeof window.CB210StreakGuard.recordEssaySubmission === 'function') {
+      const tTitle = currentTopic ? `Đề ${currentTopic.id}: ${currentTopic.title_en}` : 'VSTEP Task 2';
+      window.CB210StreakGuard.recordEssaySubmission({
+        topicTitle: tTitle,
+        wordCount: words,
+        score: finalScore
+      });
+    }
     updateStats();
     if (currentCategory && currentTopic) {
       const draftKey = `draft_${currentCategory.id}_${currentTopic.id}`;
@@ -9599,7 +9607,7 @@ function checkIsTeacher(nameInput, classInput, passInput) {
   return false;
 }
 
-function submitGatewayAccess() {
+async function submitGatewayAccess() {
   const nameInput = document.getElementById('gateway-name').value.trim();
   let classInput = document.getElementById('gateway-class').value.trim().toUpperCase();
   const passInput = (document.getElementById('gateway-pass')?.value || '').trim();
@@ -9638,6 +9646,9 @@ function submitGatewayAccess() {
     updateClassAccessUI();
     updateStudentProfileDisplay();
     startSessionTracking(teacherName, classInput || 'GV', true);
+    if (window.CB210StreakGuard && typeof window.CB210StreakGuard.onTeacherLoggedIn === 'function') {
+      window.CB210StreakGuard.onTeacherLoggedIn();
+    }
     showToast(`Chào mừng Giáo viên ${teacherName} đã đăng nhập hệ thống!`, 'success');
 
     // Post teacher entry in background
@@ -9739,6 +9750,26 @@ function submitGatewayAccess() {
     return;
   }
 
+  // 4. CB210 DAILY WRITING STREAK GUARD (Google Sheets Cloud Check)
+  if (classInput === 'CB210' && window.CB210StreakGuard && typeof window.CB210StreakGuard.checkStudentLogin === 'function') {
+    const origBtnHtml = btnSubmit ? btnSubmit.innerHTML : '';
+    if (btnSubmit) {
+      btnSubmit.disabled = true;
+      btnSubmit.innerHTML = '<span>ĐANG KIỂM TRA CHUYÊN CẦN CB210...</span><i class="fa-solid fa-spinner fa-spin"></i>';
+    }
+    const streakRes = await window.CB210StreakGuard.checkStudentLogin(matchedName, 'CB210');
+    if (btnSubmit) {
+      btnSubmit.disabled = false;
+      btnSubmit.innerHTML = origBtnHtml;
+    }
+    if (!streakRes || !streakRes.allowed) {
+      errorEl.style.display = 'none';
+      return;
+    }
+  } else if (window.CB210StreakGuard && typeof window.CB210StreakGuard.onLogout === 'function') {
+    window.CB210StreakGuard.onLogout();
+  }
+
   // SUCCESSFUL STUDENT LOGIN
   errorEl.style.display = 'none';
   sessionStorage.setItem('current_user_name', matchedName);
@@ -9795,6 +9826,9 @@ function reopenGateway() {
     sendExitSessionReport('logout');
     sessionStorage.removeItem('current_user_name');
     sessionStorage.removeItem('current_user_class');
+    if (window.CB210StreakGuard && typeof window.CB210StreakGuard.onLogout === 'function') {
+      window.CB210StreakGuard.onLogout();
+    }
     const gateway = document.getElementById('access-gateway');
     const appContainer = document.getElementById('app-container');
     if (gateway) {
