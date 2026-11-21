@@ -888,6 +888,8 @@ function renderCategoryTopics(searchQuery = '') {
     let badgeText = topic.has_full_details ? '<span class="detail-badge">Đã cập nhật</span>' : '<span class="detail-badge" style="background: var(--panel-border); color: var(--text-secondary); border: 1px solid var(--panel-border)">Đang cập nhật</span>';
     if (!isAllowed) {
       badgeText = '<span class="detail-badge" style="background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.3)">🔒 Khoá</span>';
+    } else if (typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('write', currentCategory.id, topic.id, topic)) {
+      badgeText += '<span class="detail-badge" style="background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3); font-weight: 700; margin-left: 0.35rem;">Mở Bước 1-3</span>';
     }
 
     const stickBtn = `
@@ -1020,7 +1022,11 @@ function startPractice(catId, topicId) {
     if (userClass === 'B212') {
       showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện chỉ mở Đề 01 (Học trực tuyến) và Đề 22 (Hoạt động cộng đồng)!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
-      showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở các đề phân tích "Nguyên nhân & Giải pháp" và "Nguyên nhân & Ảnh hưởng"!`, 'warning');
+      if (userClass === 'CB213') {
+        showToast('🔒 Đề bài này tạm thời chưa mở cho lớp CB213. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (Bước 1-3)!', 'warning');
+      } else {
+        showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở các đề phân tích "Nguyên nhân & Giải pháp" và "Nguyên nhân & Ảnh hưởng"!`, 'warning');
+      }
     } else {
       showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}!`, 'warning');
     }
@@ -1391,7 +1397,7 @@ function switchStep(stepTarget) {
   
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   if (typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser(targetKey, currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic)) {
-    showToast(`🔒 Bước 04 (Viết bài luận) và Bước 05 (Bài mẫu) tạm thời chưa mở cho lớp ${userClass}! Vui lòng hoàn thành 3 bước đầu của đề.`, 'warning');
+    showToast(`🔒 Bước 04 (Viết bài luận) và Bước 05 (Bài mẫu) tạm thời chưa mở cho lớp ${userClass} ở đề này! Vui lòng hoàn thành 3 bước đầu của đề.`, 'warning');
     return;
   }
   
@@ -9873,16 +9879,20 @@ function isTopicAllowedForUser(catId, topicId, topic) {
 
   // Classes ONB103, 0NB103, CB211, CB213:
   // - Category 1: ALL topics are unlocked
-  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked; other topics remain locked
+  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked (plus Topic 16 & 28 for CB213); other topics remain locked
   if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
-    if (catId === 1) return true;
-    if (catId === 2) {
-      const tid = topicId || (topic ? topic.id : 0);
+    if (catId === 1 || String(catId) === '1') return true;
+    if (catId === 2 || String(catId) === '2') {
+      const tid = Number(topicId || (topic ? topic.id : 0));
       const allowedCat2Ids = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 23, 24, 27, 30, 32, 33, 34, 36, 37, 40, 41, 42, 43];
       if (allowedCat2Ids.includes(tid)) return true;
       if (topic) {
         const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
         if (subtype === 'NGUYÊN NHÂN & GIẢI PHÁP' || subtype === 'NGUYÊN NHÂN & ẢNH HƯỞNG') return true;
+      }
+      // For CB213: additionally open Topic 16 and Topic 28 in Category 2
+      if (userClass === 'CB213' && (tid === 16 || tid === 28)) {
+        return true;
       }
       return false;
     }
@@ -9911,10 +9921,19 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
 
   // Classes CB211, ONB103, 0NB103, CB213:
   // - Category 1: ALL steps unlocked
-  // - Category 2: for all allowed topics ("Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng"), ALL steps (1..5) are unlocked
+  // - Category 2:
+  //   + For CB213: Topic 16 and Topic 28 are unlocked ONLY for steps 1, 2, 3 ('read', 'vocab', 'trans'); steps 4 & 5 ('write', 'model') are locked!
+  //   + For all other allowed topics in Category 2: ALL steps (1..5) are unlocked
   if (['CB211', 'ONB103', '0NB103', 'CB213'].includes(userClass)) {
-    if (catId === 1) return true;
-    if (catId === 2) {
+    if (catId === 1 || String(catId) === '1') return true;
+    if (catId === 2 || String(catId) === '2') {
+      const tid = Number(topicId || (topic ? topic.id : 0));
+      if (userClass === 'CB213' && (tid === 16 || tid === 28)) {
+        if (stepKey === 'write' || stepKey === 'model') {
+          return false;
+        }
+        return true;
+      }
       if (typeof isTopicAllowedForUser === 'function') {
         return isTopicAllowedForUser(catId, topicId, topic);
       }
