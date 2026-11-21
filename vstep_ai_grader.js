@@ -603,6 +603,7 @@
         if (cached) {
           cached.targetLevel = cached.targetLevel || targetLevel;
           renderResult(cached);
+          if (typeof options.onGraded === 'function') options.onGraded(cached);
           return;
         }
       }
@@ -634,6 +635,7 @@
         renderResult(data);
         if (typeof options.onGraded === 'function') options.onGraded(data);
       } catch (err) {
+        if (typeof options.onError === 'function') options.onError(err);
         slot.innerHTML = `
           <div class="vai-card">
             <div class="vai-header">
@@ -766,6 +768,7 @@
         writeCache(cacheKey, bundle);
         renderFullResult(bundle);
       } catch (err) {
+        if (typeof options.onError === 'function') options.onError(err);
         slot.innerHTML = `
           <div class="vai-card">
             <div class="vai-header">

@@ -49,6 +49,8 @@ let currentTopicStatusFilter = 'all'; // 'all' | 'written' | 'unwritten'
 // Timer State
 let timerInterval = null;
 let timerSeconds = 40 * 60; // 40 minutes VSTEP standard
+let writingElapsedSeconds = 0;
+let overtimeNotified = false;
 let isTimerRunning = false;
 
 // Unsaved Progress State
@@ -56,6 +58,8 @@ let isDirty = false;
 
 // Anti-Cheat & Exam Lock State
 let cheatViolationCount = 0;
+let cheatTabSwitchCount = 0;
+let cheatPasteCount = 0;
 let lastCheatAlertTime = 0;
 let isPromptingUser = false;
 let currentEvaluationData = null;
@@ -1159,6 +1163,8 @@ function startPractice(catId, topicId) {
   // Reset VSTEP evaluation state
   hasSubmitted = false;
   cheatViolationCount = 0;
+  cheatTabSwitchCount = 0;
+  cheatPasteCount = 0;
   currentEvaluationData = null;
   document.getElementById('step3-editor-view').style.display = 'flex';
   document.getElementById('step3-evaluation-view').style.display = 'none';
@@ -4964,12 +4970,13 @@ function startTimer() {
   document.getElementById('timer-icon-svg').innerHTML = `<path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />`;
   
   timerInterval = setInterval(() => {
+    writingElapsedSeconds++;
     if (timerSeconds > 0) {
       timerSeconds--;
       updateTimerDisplay();
-    } else {
-      stopTimer();
-      showToast("⏰ Hết thời gian làm bài thi 40 phút! Hãy kiểm tra và nộp bài viết nhé.", "warning");
+    } else if (!overtimeNotified) {
+      overtimeNotified = true;
+      showToast("⏰ Hết thời gian làm bài thi 40 phút! Đồng hồ vẫn tiếp tục ghi nhận tổng thời gian viết.", "warning");
     }
   }, 1000);
 }
@@ -4994,6 +5001,8 @@ function toggleTimer() {
 function resetTimer() {
   stopTimer();
   timerSeconds = 40 * 60;
+  writingElapsedSeconds = 0;
+  overtimeNotified = false;
   updateTimerDisplay();
 }
 
@@ -6818,7 +6827,207 @@ function renderStep3VstepEvaluation(data) {
   `;
   if (window.VstepAIGrader && container) {
     const _p = (typeof currentTopic !== 'undefined' && currentTopic) ? (currentTopic.context ? (currentTopic.context + '\n\n' + (currentTopic.prompt || '')) : (currentTopic.prompt || currentTopic.title_en || '')) : '';
-    window.VstepAIGrader.mountSingle(container, { taskType: 'task2', targetLevel: 'B2', prompt: _p, essay: text || '' });
+    window.VstepAIGrader.mountSingle(container, {
+      taskType: 'task2',
+      targetLevel: 'B2',
+      prompt: _p,
+      essay: text || '',
+      onGraded: function(aiData) {
+        updateStudentResultReportCard(aiData);
+      },
+      onError: function() {
+        if (currentEvaluationData && currentEvaluationData._reportMeta) {
+          currentEvaluationData._reportMeta.scoreSource = 'system';
+          const cardEl = document.getElementById('student-result-report-card');
+          if (cardEl) cardEl.innerHTML = buildStudentResultReportCardHtml(currentEvaluationData._reportMeta);
+        }
+      }
+    });
+  }
+
+  // Render Screenshot-ready Student Result Report Card at the VERY TOP of Result Screen
+  if (container) {
+    const elapsedSec = Math.max(writingElapsedSeconds || 0, Math.max(0, 40 * 60 - (timerSeconds || 0)));
+    const nowDt = new Date();
+    const submittedAtVi = nowDt.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' }) + ' • ' + nowDt.toLocaleDateString('vi-VN');
+    const reportMeta = {
+      studentName: sessionStorage.getItem('current_user_name') || 'Học viên',
+      studentClass: sessionStorage.getItem('current_user_class') || 'Chưa xác định',
+      topicTitle: currentTopic ? (`Đề ${currentTopic.id}: ${currentTopic.title_en}` + (currentTopic.title_vi ? ` (${currentTopic.title_vi})` : '')) : 'VSTEP Writing Task 2',
+      categoryTitle: currentCategory ? (currentCategory.title_vi || currentCategory.title || '') : '',
+      elapsedSeconds: elapsedSec,
+      submittedAtVi: submittedAtVi,
+      wordCount: wordCount,
+      cheatTotal: cheatViolationCount || 0,
+      cheatTabSwitches: cheatTabSwitchCount || 0,
+      cheatPastes: cheatPasteCount || 0,
+      score: score,
+      scoreSource: (window.VstepAIGrader ? 'syncing' : 'system'),
+      targetLevel: 'B2',
+      passThreshold: 6.0
+    };
+    currentEvaluationData._reportMeta = reportMeta;
+
+    const existingCard = document.getElementById('student-result-report-card');
+    if (existingCard) existingCard.remove();
+    const reportCardEl = document.createElement('div');
+    reportCardEl.id = 'student-result-report-card';
+    reportCardEl.innerHTML = buildStudentResultReportCardHtml(reportMeta);
+    container.prepend(reportCardEl);
+  }
+}
+
+function formatWritingDurationVi(totalSeconds) {
+  const sec = Math.max(0, Math.round(totalSeconds || 0));
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = sec % 60;
+  if (h > 0) return `${h} giờ ${m} phút ${String(s).padStart(2, '0')} giây`;
+  if (m > 0) return `${m} phút ${String(s).padStart(2, '0')} giây`;
+  return `${s} giây`;
+}
+
+function buildStudentResultReportCardHtml(meta) {
+  const displayScore = Number(meta.score || 0);
+  const threshold = Number(meta.passThreshold || 6.0);
+  const lvl = meta.targetLevel || 'B2';
+  const isPassed = displayScore >= threshold;
+
+  const durationText = formatWritingDurationVi(meta.elapsedSeconds);
+  const isOvertime = (meta.elapsedSeconds || 0) > 40 * 60;
+
+  let integrityHtml = '';
+  if ((meta.cheatTotal || 0) === 0) {
+    integrityHtml = `
+      <span style="display:inline-flex;align-items:center;gap:6px;background:#dcfce7;color:#15803d;border:1.5px solid #86efac;padding:5px 12px;border-radius:999px;font-weight:800;font-size:0.86rem;">
+        ✅ Làm bài trung thực (0 lần chuyển tab)
+      </span>
+    `;
+  } else {
+    const tabCnt = meta.cheatTabSwitches || 0;
+    const pasteCnt = meta.cheatPastes || 0;
+    let warnDetail = '';
+    if (tabCnt > 0 && pasteCnt > 0) {
+      warnDetail = `Chuyển tab ${tabCnt} lần • Cố dán văn bản ${pasteCnt} lần (Tổng ${meta.cheatTotal} lần)`;
+    } else if (tabCnt > 0) {
+      warnDetail = `Phát hiện chuyển tab / rời phòng thi: ${tabCnt} lần`;
+    } else {
+      warnDetail = `Phát hiện hành vi vi phạm (chuyển tab / dán): ${meta.cheatTotal} lần`;
+    }
+    integrityHtml = `
+      <span style="display:inline-flex;align-items:center;gap:6px;background:#fee2e2;color:#b91c1c;border:1.5px solid #fca5a5;padding:5px 12px;border-radius:999px;font-weight:800;font-size:0.86rem;">
+        ⚠️ ${escapeHtml(warnDetail)}
+      </span>
+    `;
+  }
+
+  let passSubText = '';
+  if (isPassed) {
+    if (displayScore >= 8.5) passSubText = 'Vượt chuẩn — Tương đương C1';
+    else passSubText = `Đạt chuẩn ${lvl} (từ ${threshold.toFixed(1)}/10 trở lên)`;
+  } else {
+    passSubText = `Cần đạt từ ${threshold.toFixed(1)}/10 để đạt ${lvl}`;
+  }
+
+  let scoreSourceBadge = '';
+  if (meta.scoreSource === 'ai') {
+    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:800;color:#1d4ed8;background:#dbeafe;padding:2px 8px;border-radius:999px;">🎓 Điểm Giám khảo AI VSTEP</span>`;
+  } else if (meta.scoreSource === 'syncing') {
+    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:700;color:#b45309;background:#fef3c7;padding:2px 8px;border-radius:999px;">⏳ Đang đồng bộ điểm Giám khảo AI...</span>`;
+  } else {
+    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:700;color:#475569;background:#f1f5f9;padding:2px 8px;border-radius:999px;">📊 Điểm chấm hệ thống</span>`;
+  }
+
+  const statusBg = isPassed ? 'linear-gradient(135deg, #ecfdf5, #d1fae5)' : 'linear-gradient(135deg, #fef2f2, #fee2e2)';
+  const statusBorder = isPassed ? '#10b981' : '#ef4444';
+  const statusColor = isPassed ? '#047857' : '#b91c1c';
+  const statusText = isPassed ? `✅ ĐẠT ${lvl}` : `❌ KHÔNG ĐẠT ${lvl}`;
+
+  return `
+    <div style="background:var(--bg-surface, #ffffff);border:2px solid #2563eb;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(37,99,235,0.14);margin-bottom:1.5rem;">
+      <!-- Report Top Banner -->
+      <div style="background:linear-gradient(135deg, #1e3a8a 0%, #2563eb 65%, #4f46e5 100%);color:#ffffff;padding:14px 20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;">
+        <div>
+          <div style="font-size:1.08rem;font-weight:900;letter-spacing:0.02em;display:flex;align-items:center;gap:8px;">
+            <span>📋 BÁO CÁO KẾT QUẢ BÀI VIẾT VSTEP (${lvl})</span>
+          </div>
+          <div style="font-size:0.78rem;opacity:0.9;margin-top:2px;">ENGLISH WITH MISS NGUYET • PHIẾU XÁC NHẬN KẾT QUẢ LÀM BÀI</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.35);padding:5px 12px;border-radius:999px;font-size:0.78rem;font-weight:800;white-space:nowrap;">
+          📸 Chụp khung này gửi Giáo viên
+        </div>
+      </div>
+
+      <!-- Report Body -->
+      <div style="padding:18px 20px;display:flex;flex-direction:column;gap:14px;">
+        <!-- Info Rows -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));gap:10px 18px;background:var(--bg-secondary, #f8fafc);border:1px solid var(--panel-border, #e2e8f0);border-radius:12px;padding:14px 16px;">
+          <div>
+            <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;">👤 Tên học viên</div>
+            <div style="font-size:1.02rem;font-weight:800;color:var(--text-primary, #0f172a);margin-top:2px;">${escapeHtml(meta.studentName)}</div>
+          </div>
+          <div>
+            <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;">🏫 Lớp</div>
+            <div style="font-size:1.02rem;font-weight:800;color:#2563eb;margin-top:2px;">${escapeHtml(meta.studentClass)}</div>
+          </div>
+          <div style="grid-column:1 / -1;border-top:1px dashed var(--panel-border, #cbd5e1);padding-top:10px;">
+            <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;">📝 Chủ đề viết</div>
+            <div style="font-size:0.96rem;font-weight:800;color:var(--text-primary, #0f172a);margin-top:2px;">
+              ${escapeHtml(meta.topicTitle)}
+              ${meta.categoryTitle ? `<span style="font-size:0.78rem;font-weight:600;color:var(--text-secondary, #64748b);"> • ${escapeHtml(meta.categoryTitle)}</span>` : ''}
+            </div>
+          </div>
+          <div style="border-top:1px dashed var(--panel-border, #cbd5e1);padding-top:10px;">
+            <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;">⏱️ Thời gian viết</div>
+            <div style="font-size:0.95rem;font-weight:800;color:var(--text-primary, #0f172a);margin-top:2px;">
+              ${escapeHtml(durationText)} ${isOvertime ? '<span style="color:#dc2626;font-size:0.78rem;">(Quá 40 phút)</span>' : ''}
+            </div>
+            <div style="font-size:0.76rem;color:var(--text-secondary, #64748b);margin-top:2px;">Nộp lúc ${escapeHtml(meta.submittedAtVi)} • Độ dài: <strong>${meta.wordCount} từ</strong></div>
+          </div>
+          <div style="border-top:1px dashed var(--panel-border, #cbd5e1);padding-top:10px;">
+            <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;margin-bottom:5px;">🛡️ Cảnh báo gian lận</div>
+            <div>${integrityHtml}</div>
+          </div>
+        </div>
+
+        <!-- Score & Pass/Fail Verdict Strip -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));gap:12px;">
+          <div style="background:linear-gradient(135deg, #eff6ff, #dbeafe);border:2px solid #3b82f6;border-radius:13px;padding:14px 16px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;">
+            <div style="font-size:0.75rem;font-weight:800;text-transform:uppercase;color:#1e40af;letter-spacing:0.05em;">🎯 ĐIỂM SỐ BÀI VIẾT</div>
+            <div style="font-size:2.1rem;font-weight:900;color:#1d4ed8;line-height:1.1;">
+              ${displayScore.toFixed(1)} <span style="font-size:1rem;font-weight:700;color:#3b82f6;">/ 10</span>
+            </div>
+            <div style="font-size:0.77rem;font-weight:700;color:#1e3a8a;">
+              Quy đổi Task 2: ${((displayScore * 7) / 10).toFixed(1)}/7.0 • 2/3 bài thi: ${((displayScore * 2) / 3).toFixed(1)}/6.7
+            </div>
+            <div style="margin-top:3px;">${scoreSourceBadge}</div>
+          </div>
+
+          <div style="background:${statusBg};border:2px solid ${statusBorder};border-radius:13px;padding:14px 16px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;">
+            <div style="font-size:0.75rem;font-weight:800;text-transform:uppercase;color:${statusColor};letter-spacing:0.05em;">🏅 KẾT QUẢ XÉT CHUẨN ${lvl}</div>
+            <div style="font-size:1.55rem;font-weight:900;color:${statusColor};line-height:1.15;letter-spacing:0.02em;">
+              ${statusText}
+            </div>
+            <div style="font-size:0.8rem;font-weight:700;color:${statusColor};opacity:0.9;">
+              ${escapeHtml(passSubText)}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function updateStudentResultReportCard(aiData) {
+  if (!aiData || typeof aiData.overallScore === 'undefined' || !currentEvaluationData || !currentEvaluationData._reportMeta) return;
+  const aiScore = Number(aiData.overallScore);
+  if (isNaN(aiScore)) return;
+  currentEvaluationData.aiScore = aiScore;
+  currentEvaluationData._reportMeta.score = aiScore;
+  currentEvaluationData._reportMeta.scoreSource = 'ai';
+  const cardEl = document.getElementById('student-result-report-card');
+  if (cardEl) {
+    cardEl.innerHTML = buildStudentResultReportCardHtml(currentEvaluationData._reportMeta);
   }
 }
 
@@ -6829,7 +7038,8 @@ function rewriteEssay() {
   document.getElementById('step3-evaluation-view').style.display = 'none';
   document.getElementById('step3-editor-view').style.display = 'flex';
   
-  // Re-enable editing and focus textarea
+  // Re-enable editing, resume timer, and focus textarea
+  startTimer();
   const textarea = document.getElementById('essay-textarea');
   if (textarea) textarea.focus();
   
@@ -7280,6 +7490,11 @@ function handleCheatViolation(reason) {
   if (now - lastCheatAlertTime < 2500) return; // Debounce alerts
   lastCheatAlertTime = now;
   cheatViolationCount++;
+  if (reason === 'paste') {
+    cheatPasteCount++;
+  } else {
+    cheatTabSwitchCount++;
+  }
   sessionTracking.totalCheats++;
 
   if (cheatViolationCount >= 3) {
