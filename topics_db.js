@@ -106253,50 +106253,68 @@ const ESSAY_DATA = [
             "solutions": [
               {
                 "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
-                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên để bảo vệ nguồn nước ngọt.",
-                "point_en": "Raising public awareness is the first important solution to protect freshwater resources.",
-                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
-                "evidence_en": "Schools and local organizations should educate people about the importance of clean water through environmental campaigns, so citizens will build daily water-saving habits.",
+                "point_vi": "Nâng cao nhận thức của cộng đồng là một giải pháp rất quan trọng.",
+                "point_en": "Raising public awareness is a very important solution.",
+                "evidence_vi": "Nhà trường và truyền thông địa phương nên tổ chức các chiến dịch môi trường để giải thích giá trị của nước sạch. Qua các chương trình này, mọi người sẽ hiểu rõ hơn những nguy cơ của tình trạng thiếu nước. Nhờ đó, người dân sẽ chủ động hình thành thói quen tiết kiệm nước mỗi ngày.",
+                "evidence_en": "Schools and local media should run environmental campaigns to explain the value of clean water. Through these programs, people can better understand the dangers of water shortages. As a result, citizens will actively build daily water-saving habits.",
                 "collocations": [
                   {
-                    "en": "raising public awareness",
+                    "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "first important solution",
-                    "vi": "giải pháp quan trọng đầu tiên"
-                  },
-                  {
-                    "en": "protect freshwater resources",
-                    "vi": "bảo vệ nguồn nước ngọt"
-                  },
-                  {
-                    "en": "schools and local organizations",
-                    "vi": "nhà trường và các tổ chức địa phương"
-                  },
-                  {
-                    "en": "educate people",
-                    "vi": "giáo dục mọi người"
-                  },
-                  {
-                    "en": "importance of clean water",
-                    "vi": "tầm quan trọng của nước sạch"
+                    "en": "important solution",
+                    "vi": "giải pháp quan trọng"
                   },
                   {
                     "en": "environmental campaigns",
                     "vi": "các chiến dịch môi trường"
                   },
                   {
-                    "en": "citizens",
-                    "vi": "người dân"
+                    "en": "value of clean water",
+                    "vi": "giá trị của nước sạch"
+                  },
+                  {
+                    "en": "dangers of water shortages",
+                    "vi": "nguy cơ của tình trạng thiếu nước"
                   },
                   {
                     "en": "daily water-saving habits",
                     "vi": "thói quen tiết kiệm nước hằng ngày"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "environmental campaigns",
+                      "vi": "các chiến dịch môi trường"
+                    },
+                    {
+                      "en": "value of clean water",
+                      "vi": "giá trị của nước sạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "dangers of water shortages",
+                      "vi": "nguy cơ của tình trạng thiếu nước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "daily water-saving habits",
+                      "vi": "thói quen tiết kiệm nước hằng ngày"
+                    }
+                  ]
+                ],
+                "point_collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "save water every day",
-                    "vi": "tiết kiệm nước mỗi ngày"
+                    "en": "important solution",
+                    "vi": "giải pháp quan trọng"
                   }
                 ]
               },
@@ -106304,73 +106322,69 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
                 "point_vi": "Mỗi cá nhân cần chủ động tiết kiệm nước trong các hoạt động sinh hoạt hằng ngày.",
                 "point_en": "Each individual should actively save water in daily household activities.",
-                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
-                "evidence_en": "People should turn off taps when brushing teeth and repair leaking pipes promptly, and families can also collect rainwater for watering plants or household cleaning.",
+                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng hoặc rửa bát. Bên cạnh đó, các gia đình cần sửa chữa ngay các đường ống bị rò rỉ và tận dụng nước mưa để tưới cây. Những hành động nhỏ này giúp giảm đáng kể lượng nước bị lãng phí mỗi tháng.",
+                "evidence_en": "People should turn off taps when brushing their teeth or washing dishes. In addition, families need to fix leaking pipes quickly and collect rainwater to water plants. These small actions help reduce a large amount of wasted water every month.",
                 "collocations": [
-                  {
-                    "en": "save water in daily life",
-                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày"
-                  },
-                  {
-                    "en": "household activities",
-                    "vi": "các hoạt động gia đình"
-                  },
-                  {
-                    "en": "actively save water",
-                    "vi": "chủ động tiết kiệm nước"
-                  },
-                  {
-                    "en": "turn off taps when brushing teeth",
-                    "vi": "tắt vòi nước khi đánh răng"
-                  },
                   {
                     "en": "turn off taps",
                     "vi": "tắt vòi nước"
                   },
                   {
-                    "en": "repair leaking pipes promptly",
-                    "vi": "sửa chữa đường ống rò rỉ kịp thời"
+                    "en": "brush teeth",
+                    "vi": "đánh răng"
                   },
                   {
-                    "en": "leaking pipes",
-                    "vi": "đường ống rò rỉ"
+                    "en": "fix leaking pipes",
+                    "vi": "sửa đường ống rò rỉ"
                   },
                   {
                     "en": "collect rainwater",
                     "vi": "thu gom nước mưa"
                   },
                   {
-                    "en": "watering plants or household cleaning",
-                    "vi": "tưới cây hoặc dọn dẹp nhà cửa"
-                  },
-                  {
-                    "en": "watering plants",
-                    "vi": "tưới cây"
+                    "en": "wasted water",
+                    "vi": "lượng nước bị lãng phí"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "turn off taps",
+                      "vi": "tắt vòi nước"
+                    },
+                    {
+                      "en": "brush teeth",
+                      "vi": "đánh răng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fix leaking pipes",
+                      "vi": "sửa đường ống rò rỉ"
+                    },
+                    {
+                      "en": "collect rainwater",
+                      "vi": "thu gom nước mưa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "wasted water",
+                      "vi": "lượng nước bị lãng phí"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
                 "point_vi": "Kiểm soát ô nhiễm nguồn nước là biện pháp cấp bách để giữ cho sông hồ luôn trong sạch.",
                 "point_en": "Controlling water pollution is an urgent measure to keep rivers and lakes clean.",
-                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
-                "evidence_en": "People must not dump rubbish into canals, and factories must treat industrial wastewater carefully before releasing it into the natural environment.",
+                "evidence_vi": "Người dân tuyệt đối không nên xả rác sinh hoạt xuống sông, hồ và kênh rạch. Đồng thời, các nhà máy phải xử lý nước thải công nghiệp sạch sẽ trước khi xả ra môi trường. Nhờ vậy, nguồn nước tự nhiên sẽ luôn an toàn cho sinh hoạt của con người và động vật.",
+                "evidence_en": "Citizens must not dump household trash into rivers, lakes, or canals. At the same time, factories have to treat industrial wastewater carefully before releasing it into nature. Therefore, natural water sources will stay safe for both humans and animals.",
                 "collocations": [
                   {
-                    "en": "controlling water pollution",
-                    "vi": "kiểm soát ô nhiễm nguồn nước"
-                  },
-                  {
-                    "en": "urgent measure",
-                    "vi": "biện pháp cấp bách"
-                  },
-                  {
-                    "en": "keep rivers and lakes clean",
-                    "vi": "giữ cho sông hồ luôn sạch"
-                  },
-                  {
-                    "en": "dump rubbish into canals",
-                    "vi": "vứt rác xuống kênh rạch"
+                    "en": "dump household trash",
+                    "vi": "xả rác sinh hoạt"
                   },
                   {
                     "en": "rivers and lakes",
@@ -106381,198 +106395,222 @@ const ESSAY_DATA = [
                     "vi": "xử lý nước thải công nghiệp"
                   },
                   {
-                    "en": "wastewater treatment",
-                    "vi": "xử lý nước thải"
+                    "en": "release into nature",
+                    "vi": "xả ra tự nhiên"
                   },
                   {
-                    "en": "natural environment",
-                    "vi": "môi trường tự nhiên"
-                  },
-                  {
-                    "en": "releasing into the natural environment",
-                    "vi": "xả ra môi trường tự nhiên"
+                    "en": "natural water sources",
+                    "vi": "nguồn nước tự nhiên"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dump household trash",
+                      "vi": "xả rác sinh hoạt"
+                    },
+                    {
+                      "en": "rivers and lakes",
+                      "vi": "sông và hồ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "treat industrial wastewater",
+                      "vi": "xử lý nước thải công nghiệp"
+                    },
+                    {
+                      "en": "release into nature",
+                      "vi": "xả ra tự nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "natural water sources",
+                      "vi": "nguồn nước tự nhiên"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
                 "point_vi": "Nông dân nên áp dụng các phương pháp nông nghiệp bền vững để sử dụng nước hiệu quả hơn.",
                 "point_en": "Farmers should adopt sustainable farming methods to use water more efficiently.",
-                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
-                "evidence_en": "Farmers can install modern drip irrigation systems and reduce chemical fertilizers, because these methods save water and protect the soil.",
+                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt để đưa nước trực tiếp đến rễ cây trồng. Ngoài ra, việc giảm bớt phân bón hóa học cũng giúp bảo vệ nguồn nước ngầm không bị ô nhiễm. Vì vậy, ngành nông nghiệp có thể tiết kiệm rất nhiều nước ngọt mà vẫn đảm bảo năng suất.",
+                "evidence_en": "Farmers can install drip irrigation systems to bring water directly to plant roots. Moreover, using fewer chemical fertilizers also protects groundwater from pollution. As a result, agriculture can save a lot of freshwater while still producing enough food.",
                 "collocations": [
-                  {
-                    "en": "sustainable farming methods",
-                    "vi": "phương pháp nông nghiệp bền vững"
-                  },
-                  {
-                    "en": "use water more efficiently",
-                    "vi": "sử dụng nước hiệu quả hơn"
-                  },
-                  {
-                    "en": "install modern drip irrigation systems",
-                    "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
-                  },
                   {
                     "en": "drip irrigation systems",
                     "vi": "hệ thống tưới nhỏ giọt"
                   },
                   {
-                    "en": "reduce chemical fertilizers",
-                    "vi": "giảm phân bón hóa học"
+                    "en": "plant roots",
+                    "vi": "rễ cây"
                   },
                   {
-                    "en": "protect the soil",
-                    "vi": "bảo vệ đất trồng"
+                    "en": "chemical fertilizers",
+                    "vi": "phân bón hóa học"
                   },
                   {
-                    "en": "save water and protect the soil",
-                    "vi": "tiết kiệm nước và bảo vệ đất"
+                    "en": "protect groundwater",
+                    "vi": "bảo vệ nước ngầm"
                   },
                   {
-                    "en": "agricultural practices",
-                    "vi": "phương thức canh tác nông nghiệp"
+                    "en": "save freshwater",
+                    "vi": "tiết kiệm nước ngọt"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "drip irrigation systems",
+                      "vi": "hệ thống tưới nhỏ giọt"
+                    },
+                    {
+                      "en": "plant roots",
+                      "vi": "rễ cây"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "chemical fertilizers",
+                      "vi": "phân bón hóa học"
+                    },
+                    {
+                      "en": "protect groundwater",
+                      "vi": "bảo vệ nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "save freshwater",
+                      "vi": "tiết kiệm nước ngọt"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
                 "point_vi": "Chính phủ cần tăng cường quản lý và đầu tư nhiều hơn vào cơ sở hạ tầng nguồn nước.",
                 "point_en": "Governments should strengthen management and invest more in water infrastructure.",
-                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc về sử dụng nước và xây dựng các nhà máy xử lý nước hiện đại để cung cấp đủ nước sạch cho người dân.",
-                "evidence_en": "Leaders should introduce strict laws on water use and build modern water treatment plants to provide enough clean water for citizens.",
+                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc để xử phạt những hành vi lãng phí hoặc gây ô nhiễm nguồn nước. Bên cạnh đó, nhà nước cần xây dựng thêm các nhà máy lọc nước hiện đại và nâng cấp đường ống cũ. Điều này giúp cung cấp nguồn nước sạch ổn định và lâu dài cho toàn xã hội.",
+                "evidence_en": "Leaders should pass strict laws to punish people or companies that waste or pollute water. Besides, the state needs to build modern water treatment plants and repair old water pipes. This helps provide a clean and stable water supply for society in the long term.",
                 "collocations": [
                   {
-                    "en": "strengthen management",
-                    "vi": "tăng cường công tác quản lý"
+                    "en": "pass strict laws",
+                    "vi": "ban hành luật nghiêm khắc"
                   },
                   {
-                    "en": "invest in water infrastructure",
-                    "vi": "đầu tư vào cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "water infrastructure",
-                    "vi": "cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "introduce strict laws on water use",
-                    "vi": "ban hành luật nghiêm khắc về sử dụng nước"
-                  },
-                  {
-                    "en": "strict laws",
-                    "vi": "luật nghiêm khắc"
-                  },
-                  {
-                    "en": "build modern water treatment plants",
-                    "vi": "xây dựng nhà máy xử lý nước hiện đại"
+                    "en": "pollute water",
+                    "vi": "gây ô nhiễm nước"
                   },
                   {
                     "en": "water treatment plants",
                     "vi": "nhà máy xử lý nước"
                   },
                   {
-                    "en": "provide enough clean water",
-                    "vi": "cung cấp đủ nước sạch"
+                    "en": "repair old pipes",
+                    "vi": "sửa đường ống cũ"
                   },
                   {
-                    "en": "clean water for citizens",
-                    "vi": "nước sạch cho người dân"
+                    "en": "stable water supply",
+                    "vi": "nguồn cung nước ổn định"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "pass strict laws",
+                      "vi": "ban hành luật nghiêm khắc"
+                    },
+                    {
+                      "en": "pollute water",
+                      "vi": "gây ô nhiễm nước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "water treatment plants",
+                      "vi": "nhà máy xử lý nước"
+                    },
+                    {
+                      "en": "repair old pipes",
+                      "vi": "sửa đường ống cũ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stable water supply",
+                      "vi": "nguồn cung nước ổn định"
+                    }
+                  ]
                 ]
               }
             ],
             "benefits": [
               {
                 "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
-                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên để bảo vệ nguồn nước ngọt.",
-                "point_en": "Raising public awareness is the first important solution to protect freshwater resources.",
-                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
-                "evidence_en": "Schools and local organizations should educate people about the importance of clean water through environmental campaigns, so citizens will build daily water-saving habits.",
+                "point_vi": "Nâng cao nhận thức của cộng đồng là một giải pháp rất quan trọng.",
+                "point_en": "Raising public awareness is a very important solution.",
+                "evidence_vi": "Nhà trường và truyền thông địa phương nên tổ chức các chiến dịch môi trường để giải thích giá trị của nước sạch. Qua các chương trình này, mọi người sẽ hiểu rõ hơn những nguy cơ của tình trạng thiếu nước. Nhờ đó, người dân sẽ chủ động hình thành thói quen tiết kiệm nước mỗi ngày.",
+                "evidence_en": "Schools and local media should run environmental campaigns to explain the value of clean water. Through these programs, people can better understand the dangers of water shortages. As a result, citizens will actively build daily water-saving habits.",
                 "collocations": [
                   {
-                    "en": "raising public awareness",
+                    "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "first important solution",
-                    "vi": "giải pháp quan trọng đầu tiên"
-                  },
-                  {
-                    "en": "protect freshwater resources",
-                    "vi": "bảo vệ nguồn nước ngọt"
-                  },
-                  {
-                    "en": "schools and local organizations",
-                    "vi": "nhà trường và các tổ chức địa phương"
-                  },
-                  {
-                    "en": "educate people",
-                    "vi": "giáo dục mọi người"
-                  },
-                  {
-                    "en": "importance of clean water",
-                    "vi": "tầm quan trọng của nước sạch"
+                    "en": "important solution",
+                    "vi": "giải pháp quan trọng"
                   },
                   {
                     "en": "environmental campaigns",
                     "vi": "các chiến dịch môi trường"
                   },
                   {
-                    "en": "citizens",
-                    "vi": "người dân"
+                    "en": "value of clean water",
+                    "vi": "giá trị của nước sạch"
+                  },
+                  {
+                    "en": "dangers of water shortages",
+                    "vi": "nguy cơ của tình trạng thiếu nước"
                   },
                   {
                     "en": "daily water-saving habits",
                     "vi": "thói quen tiết kiệm nước hằng ngày"
-                  },
-                  {
-                    "en": "save water every day",
-                    "vi": "tiết kiệm nước mỗi ngày"
                   }
                 ],
                 "point_collocations": [
                   {
-                    "en": "raising public awareness",
+                    "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "first important solution",
-                    "vi": "giải pháp quan trọng đầu tiên"
-                  },
-                  {
-                    "en": "protect freshwater resources",
-                    "vi": "bảo vệ nguồn nước ngọt"
-                  },
-                  {
-                    "en": "freshwater resources",
-                    "vi": "nguồn tài nguyên nước ngọt"
-                  },
-                  {
-                    "en": "freshwater",
-                    "vi": "nước ngọt (nước không mặn)"
+                    "en": "important solution",
+                    "vi": "giải pháp quan trọng"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "schools and local organizations",
-                      "vi": "nhà trường và các tổ chức địa phương"
-                    },
-                    {
-                      "en": "educate people",
-                      "vi": "giáo dục mọi người"
-                    },
-                    {
-                      "en": "importance of clean water",
-                      "vi": "tầm quan trọng của nước sạch"
-                    },
-                    {
                       "en": "environmental campaigns",
                       "vi": "các chiến dịch môi trường"
                     },
                     {
-                      "en": "citizens",
-                      "vi": "người dân"
+                      "en": "value of clean water",
+                      "vi": "giá trị của nước sạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "dangers of water shortages",
+                      "vi": "nguy cơ của tình trạng thiếu nước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "daily water-saving habits",
+                      "vi": "thói quen tiết kiệm nước hằng ngày"
                     }
                   ]
                 ]
@@ -106581,13 +106619,9 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
                 "point_vi": "Mỗi cá nhân cần chủ động tiết kiệm nước trong các hoạt động sinh hoạt hằng ngày.",
                 "point_en": "Each individual should actively save water in daily household activities.",
-                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
-                "evidence_en": "People should turn off taps when brushing teeth and repair leaking pipes promptly, and families can also collect rainwater for watering plants or household cleaning.",
+                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng hoặc rửa bát. Bên cạnh đó, các gia đình cần sửa chữa ngay các đường ống bị rò rỉ và tận dụng nước mưa để tưới cây. Những hành động nhỏ này giúp giảm đáng kể lượng nước bị lãng phí mỗi tháng.",
+                "evidence_en": "People should turn off taps when brushing their teeth or washing dishes. In addition, families need to fix leaking pipes quickly and collect rainwater to water plants. These small actions help reduce a large amount of wasted water every month.",
                 "collocations": [
-                  {
-                    "en": "save water in daily life",
-                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày"
-                  },
                   {
                     "en": "household activities",
                     "vi": "các hoạt động gia đình"
@@ -106597,32 +106631,36 @@ const ESSAY_DATA = [
                     "vi": "chủ động tiết kiệm nước"
                   },
                   {
-                    "en": "turn off taps when brushing teeth",
-                    "vi": "tắt vòi nước khi đánh răng"
+                    "en": "household",
+                    "vi": "hộ gia đình, trong gia đình"
+                  },
+                  {
+                    "en": "in daily life",
+                    "vi": "trong đời sống hằng ngày"
+                  },
+                  {
+                    "en": "daily activities",
+                    "vi": "sinh hoạt hằng ngày"
                   },
                   {
                     "en": "turn off taps",
                     "vi": "tắt vòi nước"
                   },
                   {
-                    "en": "repair leaking pipes promptly",
-                    "vi": "sửa chữa đường ống rò rỉ kịp thời"
+                    "en": "brush teeth",
+                    "vi": "đánh răng"
                   },
                   {
-                    "en": "leaking pipes",
-                    "vi": "đường ống rò rỉ"
+                    "en": "fix leaking pipes",
+                    "vi": "sửa đường ống rò rỉ"
                   },
                   {
                     "en": "collect rainwater",
                     "vi": "thu gom nước mưa"
                   },
                   {
-                    "en": "watering plants or household cleaning",
-                    "vi": "tưới cây hoặc dọn dẹp nhà cửa"
-                  },
-                  {
-                    "en": "watering plants",
-                    "vi": "tưới cây"
+                    "en": "wasted water",
+                    "vi": "lượng nước bị lãng phí"
                   }
                 ],
                 "point_collocations": [
@@ -106650,24 +106688,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "turn off taps when brushing teeth",
-                      "vi": "tắt vòi nước khi đánh răng"
-                    },
-                    {
                       "en": "turn off taps",
                       "vi": "tắt vòi nước"
                     },
                     {
-                      "en": "repair leaking pipes promptly",
-                      "vi": "sửa chữa đường ống rò rỉ kịp thời"
-                    },
+                      "en": "brush teeth",
+                      "vi": "đánh răng"
+                    }
+                  ],
+                  [
                     {
-                      "en": "leaking pipes",
-                      "vi": "đường ống rò rỉ"
+                      "en": "fix leaking pipes",
+                      "vi": "sửa đường ống rò rỉ"
                     },
                     {
                       "en": "collect rainwater",
                       "vi": "thu gom nước mưa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "wasted water",
+                      "vi": "lượng nước bị lãng phí"
                     }
                   ]
                 ]
@@ -106676,8 +106718,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
                 "point_vi": "Kiểm soát ô nhiễm nguồn nước là biện pháp cấp bách để giữ cho sông hồ luôn trong sạch.",
                 "point_en": "Controlling water pollution is an urgent measure to keep rivers and lakes clean.",
-                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
-                "evidence_en": "People must not dump rubbish into canals, and factories must treat industrial wastewater carefully before releasing it into the natural environment.",
+                "evidence_vi": "Người dân tuyệt đối không nên xả rác sinh hoạt xuống sông, hồ và kênh rạch. Đồng thời, các nhà máy phải xử lý nước thải công nghiệp sạch sẽ trước khi xả ra môi trường. Nhờ vậy, nguồn nước tự nhiên sẽ luôn an toàn cho sinh hoạt của con người và động vật.",
+                "evidence_en": "Citizens must not dump household trash into rivers, lakes, or canals. At the same time, factories have to treat industrial wastewater carefully before releasing it into nature. Therefore, natural water sources will stay safe for both humans and animals.",
                 "collocations": [
                   {
                     "en": "controlling water pollution",
@@ -106692,28 +106734,28 @@ const ESSAY_DATA = [
                     "vi": "giữ cho sông hồ luôn sạch"
                   },
                   {
-                    "en": "dump rubbish into canals",
-                    "vi": "vứt rác xuống kênh rạch"
-                  },
-                  {
                     "en": "rivers and lakes",
                     "vi": "sông và hồ"
+                  },
+                  {
+                    "en": "control water pollution",
+                    "vi": "kiểm soát ô nhiễm nguồn nước"
+                  },
+                  {
+                    "en": "dump household trash",
+                    "vi": "xả rác sinh hoạt"
                   },
                   {
                     "en": "treat industrial wastewater",
                     "vi": "xử lý nước thải công nghiệp"
                   },
                   {
-                    "en": "wastewater treatment",
-                    "vi": "xử lý nước thải"
+                    "en": "release into nature",
+                    "vi": "xả ra tự nhiên"
                   },
                   {
-                    "en": "natural environment",
-                    "vi": "môi trường tự nhiên"
-                  },
-                  {
-                    "en": "releasing into the natural environment",
-                    "vi": "xả ra môi trường tự nhiên"
+                    "en": "natural water sources",
+                    "vi": "nguồn nước tự nhiên"
                   }
                 ],
                 "point_collocations": [
@@ -106741,24 +106783,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "dump rubbish into canals",
-                      "vi": "vứt rác xuống kênh rạch"
+                      "en": "dump household trash",
+                      "vi": "xả rác sinh hoạt"
                     },
+                    {
+                      "en": "rivers and lakes",
+                      "vi": "sông và hồ"
+                    }
+                  ],
+                  [
                     {
                       "en": "treat industrial wastewater",
                       "vi": "xử lý nước thải công nghiệp"
                     },
                     {
-                      "en": "natural environment",
-                      "vi": "môi trường tự nhiên"
-                    },
+                      "en": "release into nature",
+                      "vi": "xả ra tự nhiên"
+                    }
+                  ],
+                  [
                     {
-                      "en": "industrial wastewater",
-                      "vi": "nước thải công nghiệp"
-                    },
-                    {
-                      "en": "waste",
-                      "vi": "lãng phí, chất thải"
+                      "en": "natural water sources",
+                      "vi": "nguồn nước tự nhiên"
                     }
                   ]
                 ]
@@ -106767,8 +106813,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
                 "point_vi": "Nông dân nên áp dụng các phương pháp nông nghiệp bền vững để sử dụng nước hiệu quả hơn.",
                 "point_en": "Farmers should adopt sustainable farming methods to use water more efficiently.",
-                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
-                "evidence_en": "Farmers can install modern drip irrigation systems and reduce chemical fertilizers, because these methods save water and protect the soil.",
+                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt để đưa nước trực tiếp đến rễ cây trồng. Ngoài ra, việc giảm bớt phân bón hóa học cũng giúp bảo vệ nguồn nước ngầm không bị ô nhiễm. Vì vậy, ngành nông nghiệp có thể tiết kiệm rất nhiều nước ngọt mà vẫn đảm bảo năng suất.",
+                "evidence_en": "Farmers can install drip irrigation systems to bring water directly to plant roots. Moreover, using fewer chemical fertilizers also protects groundwater from pollution. As a result, agriculture can save a lot of freshwater while still producing enough food.",
                 "collocations": [
                   {
                     "en": "sustainable farming methods",
@@ -106779,28 +106825,36 @@ const ESSAY_DATA = [
                     "vi": "sử dụng nước hiệu quả hơn"
                   },
                   {
-                    "en": "install modern drip irrigation systems",
-                    "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
+                    "en": "sustainable farming",
+                    "vi": "nông nghiệp bền vững"
+                  },
+                  {
+                    "en": "sustainable",
+                    "vi": "bền vững, thân thiện môi trường"
+                  },
+                  {
+                    "en": "more efficiently",
+                    "vi": "một cách năng suất và hiệu quả hơn"
                   },
                   {
                     "en": "drip irrigation systems",
                     "vi": "hệ thống tưới nhỏ giọt"
                   },
                   {
-                    "en": "reduce chemical fertilizers",
-                    "vi": "giảm phân bón hóa học"
+                    "en": "plant roots",
+                    "vi": "rễ cây"
                   },
                   {
-                    "en": "protect the soil",
-                    "vi": "bảo vệ đất trồng"
+                    "en": "chemical fertilizers",
+                    "vi": "phân bón hóa học"
                   },
                   {
-                    "en": "save water and protect the soil",
-                    "vi": "tiết kiệm nước và bảo vệ đất"
+                    "en": "protect groundwater",
+                    "vi": "bảo vệ nước ngầm"
                   },
                   {
-                    "en": "agricultural practices",
-                    "vi": "phương thức canh tác nông nghiệp"
+                    "en": "save freshwater",
+                    "vi": "tiết kiệm nước ngọt"
                   }
                 ],
                 "point_collocations": [
@@ -106828,24 +106882,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "install modern drip irrigation systems",
-                      "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
-                    },
-                    {
                       "en": "drip irrigation systems",
                       "vi": "hệ thống tưới nhỏ giọt"
                     },
                     {
-                      "en": "reduce chemical fertilizers",
-                      "vi": "giảm phân bón hóa học"
+                      "en": "plant roots",
+                      "vi": "rễ cây"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "chemical fertilizers",
+                      "vi": "phân bón hóa học"
                     },
                     {
-                      "en": "protect the soil",
-                      "vi": "bảo vệ đất trồng"
-                    },
+                      "en": "protect groundwater",
+                      "vi": "bảo vệ nước ngầm"
+                    }
+                  ],
+                  [
                     {
-                      "en": "save water and protect the soil",
-                      "vi": "tiết kiệm nước và bảo vệ đất"
+                      "en": "save freshwater",
+                      "vi": "tiết kiệm nước ngọt"
                     }
                   ]
                 ]
@@ -106854,8 +106912,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
                 "point_vi": "Chính phủ cần tăng cường quản lý và đầu tư nhiều hơn vào cơ sở hạ tầng nguồn nước.",
                 "point_en": "Governments should strengthen management and invest more in water infrastructure.",
-                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc về sử dụng nước và xây dựng các nhà máy xử lý nước hiện đại để cung cấp đủ nước sạch cho người dân.",
-                "evidence_en": "Leaders should introduce strict laws on water use and build modern water treatment plants to provide enough clean water for citizens.",
+                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc để xử phạt những hành vi lãng phí hoặc gây ô nhiễm nguồn nước. Bên cạnh đó, nhà nước cần xây dựng thêm các nhà máy lọc nước hiện đại và nâng cấp đường ống cũ. Điều này giúp cung cấp nguồn nước sạch ổn định và lâu dài cho toàn xã hội.",
+                "evidence_en": "Leaders should pass strict laws to punish people or companies that waste or pollute water. Besides, the state needs to build modern water treatment plants and repair old water pipes. This helps provide a clean and stable water supply for society in the long term.",
                 "collocations": [
                   {
                     "en": "strengthen management",
@@ -106870,28 +106928,28 @@ const ESSAY_DATA = [
                     "vi": "cơ sở hạ tầng nguồn nước"
                   },
                   {
-                    "en": "introduce strict laws on water use",
-                    "vi": "ban hành luật nghiêm khắc về sử dụng nước"
+                    "en": "infrastructure",
+                    "vi": "cơ sở hạ tầng"
                   },
                   {
-                    "en": "strict laws",
-                    "vi": "luật nghiêm khắc"
+                    "en": "pass strict laws",
+                    "vi": "ban hành luật nghiêm khắc"
                   },
                   {
-                    "en": "build modern water treatment plants",
-                    "vi": "xây dựng nhà máy xử lý nước hiện đại"
+                    "en": "pollute water",
+                    "vi": "gây ô nhiễm nước"
                   },
                   {
                     "en": "water treatment plants",
                     "vi": "nhà máy xử lý nước"
                   },
                   {
-                    "en": "provide enough clean water",
-                    "vi": "cung cấp đủ nước sạch"
+                    "en": "repair old pipes",
+                    "vi": "sửa đường ống cũ"
                   },
                   {
-                    "en": "clean water for citizens",
-                    "vi": "nước sạch cho người dân"
+                    "en": "stable water supply",
+                    "vi": "nguồn cung nước ổn định"
                   }
                 ],
                 "point_collocations": [
@@ -106915,24 +106973,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "introduce strict laws on water use",
-                      "vi": "ban hành luật nghiêm khắc về sử dụng nước"
+                      "en": "pass strict laws",
+                      "vi": "ban hành luật nghiêm khắc"
                     },
                     {
-                      "en": "strict laws",
-                      "vi": "luật nghiêm khắc"
-                    },
-                    {
-                      "en": "build modern water treatment plants",
-                      "vi": "xây dựng nhà máy xử lý nước hiện đại"
-                    },
+                      "en": "pollute water",
+                      "vi": "gây ô nhiễm nước"
+                    }
+                  ],
+                  [
                     {
                       "en": "water treatment plants",
                       "vi": "nhà máy xử lý nước"
                     },
                     {
-                      "en": "provide enough clean water",
-                      "vi": "cung cấp đủ nước sạch"
+                      "en": "repair old pipes",
+                      "vi": "sửa đường ống cũ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stable water supply",
+                      "vi": "nguồn cung nước ổn định"
                     }
                   ]
                 ]
@@ -106946,249 +107008,399 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
                 "point_vi": "Nâng cao nhận thức cộng đồng và giáo dục về bảo tồn nước đóng vai trò then chốt trong việc thay đổi hành vi của xã hội đối với tài nguyên nước ngọt.",
                 "point_en": "Raising public awareness and promoting conservation education play a vital role in transforming societal attitudes toward freshwater preservation.",
-                "evidence_vi": "Các trường học và tổ chức xã hội cần thường xuyên phát động các chiến dịch truyền thông về giá trị vô giá của nước ngọt. Bên cạnh đó, việc tổ chức các hoạt động ngoại khóa thực tế giúp khuyến khích thế hệ trẻ chủ động hình thành nếp sống tiết kiệm nước và cùng nhau bảo vệ nguồn nước tại địa phương.",
-                "evidence_en": "Educational institutions and social organizations should frequently organize environmental campaigns to highlight the essential value of clean water. Moreover, hands-on community projects encourage young citizens to adopt water-saving habits and actively participate in safeguarding local water basins.",
+                "evidence_vi": "Các trường học và tổ chức xã hội cần thường xuyên phát động các chiến dịch truyền thông về giá trị thiết yếu của nước sạch. Bên cạnh đó, việc lồng ghép giáo dục bảo vệ môi trường vào chương trình học giúp học sinh nhận thức sớm nguy cơ cạn kiệt nguồn nước. Ví dụ, các dự án cộng đồng như ngày hội tiết kiệm nước có thể khuyến khích người trẻ trực tiếp tham gia bảo vệ lưu vực sông địa phương. Về lâu dài, sự thay đổi nhận thức rộng khắp này sẽ hình thành văn hóa sử dụng nước có trách nhiệm trong toàn xã hội.",
+                "evidence_en": "Educational institutions and social organizations should regularly launch environmental campaigns highlighting the essential value of clean water. Moreover, integrating water conservation into school curricula helps young learners recognize the looming threat of water scarcity early on. For example, hands-on community initiatives such as water-saving workshops can engage youths directly in safeguarding local river basins. Over the long term, this widespread shift in awareness will cultivate a lasting culture of responsible water consumption across society.",
                 "collocations": [
                   {
-                    "en": "raising public awareness",
-                    "vi": "nâng cao nhận thức cộng đồng"
+                    "en": "launch environmental campaigns",
+                    "vi": "phát động chiến dịch môi trường"
                   },
                   {
-                    "en": "freshwater preservation",
-                    "vi": "bảo tồn nguồn nước ngọt"
+                    "en": "essential value",
+                    "vi": "giá trị thiết yếu"
                   },
                   {
-                    "en": "transforming societal attitudes",
-                    "vi": "thay đổi thái độ của xã hội"
+                    "en": "school curricula",
+                    "vi": "chương trình học"
                   },
                   {
-                    "en": "environmental campaigns",
-                    "vi": "các chiến dịch môi trường"
+                    "en": "looming threat of water scarcity",
+                    "vi": "nguy cơ khan hiếm nước cận kề"
                   },
                   {
-                    "en": "essential value of clean water",
-                    "vi": "giá trị vô giá của nước sạch"
+                    "en": "hands-on community initiatives",
+                    "vi": "sáng kiến cộng đồng thực tế"
                   },
                   {
-                    "en": "hands-on community projects",
-                    "vi": "các dự án cộng đồng thực tế"
+                    "en": "local river basins",
+                    "vi": "lưu vực sông địa phương"
                   },
                   {
-                    "en": "adopt water-saving habits",
-                    "vi": "hình thành nếp sống tiết kiệm nước"
-                  },
-                  {
-                    "en": "safeguarding local water basins",
-                    "vi": "bảo vệ nguồn nước tại địa phương"
-                  },
-                  {
-                    "en": "educational institutions",
-                    "vi": "các cơ sở giáo dục"
+                    "en": "responsible water consumption",
+                    "vi": "tiêu thụ nước có trách nhiệm"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "launch environmental campaigns",
+                      "vi": "phát động chiến dịch môi trường"
+                    },
+                    {
+                      "en": "essential value",
+                      "vi": "giá trị thiết yếu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "school curricula",
+                      "vi": "chương trình học"
+                    },
+                    {
+                      "en": "looming threat of water scarcity",
+                      "vi": "nguy cơ khan hiếm nước cận kề"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "hands-on community initiatives",
+                      "vi": "sáng kiến cộng đồng thực tế"
+                    },
+                    {
+                      "en": "local river basins",
+                      "vi": "lưu vực sông địa phương"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "responsible water consumption",
+                      "vi": "tiêu thụ nước có trách nhiệm"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
                 "point_vi": "Thực hành tiết kiệm nước trong sinh hoạt gia đình là một biện pháp thiết thực giúp giảm thiểu đáng kể tình trạng lãng phí nước sạch.",
                 "point_en": "Practicing strict water conservation in domestic environments represents a practical measure to substantially curb excessive freshwater wastage.",
-                "evidence_vi": "Các thành viên trong gia đình cần chú ý tắt vòi nước trong lúc vệ sinh cá nhân và kịp thời sửa chữa hệ thống ống dẫn bị rò rỉ để tránh hao hụt nước sạch. Ngoài ra, việc lắp đặt các bồn chứa để thu gom nước mưa nhằm phục vụ tưới tiêu cây cảnh và vệ sinh sân vườn là một giải pháp đơn giản nhưng mang lại hiệu quả kinh tế và môi trường rất cao.",
-                "evidence_en": "Household members should make a conscious effort to turn off taps during personal hygiene and immediately repair leaking plumbing systems to prevent unneeded loss. Furthermore, installing storage tanks to collect rainwater for landscape irrigation and domestic cleaning provides a cost-effective way to preserve purified municipal water.",
+                "evidence_vi": "Các thành viên trong gia đình cần có ý thức tắt vòi nước khi không sử dụng và nhanh chóng sửa chữa hệ thống ống dẫn bị rò rỉ. Ngoài ra, việc chuyển sang các thiết bị vệ sinh và máy giặt tiết kiệm nước giúp cắt giảm đáng kể lượng tiêu thụ hằng tháng. Chẳng hạn, nhiều hộ gia đình lắp đặt bồn thu gom nước mưa để tưới cây cảnh và vệ sinh sân vườn thay vì dùng nước máy đã qua xử lý. Khi hàng triệu hộ dân duy trì những thói quen thiết thực này, tổng lượng nước ngọt tiết kiệm được sẽ vô cùng to lớn.",
+                "evidence_en": "Household members should make a conscious effort to turn off taps when unused and promptly repair leaking plumbing fixtures. Furthermore, upgrading to water-efficient showerheads and washing machines substantially lowers monthly domestic consumption. For instance, many families install rainwater harvesting tanks for garden irrigation and outdoor cleaning instead of using purified tap water. When millions of households sustain these practical habits, the cumulative volume of conserved freshwater becomes truly substantial.",
                 "collocations": [
                   {
-                    "en": "household water conservation",
-                    "vi": "bảo tồn nước trong hộ gia đình"
+                    "en": "conscious effort",
+                    "vi": "nỗ lực có ý thức"
                   },
                   {
-                    "en": "cumulative impact",
-                    "vi": "tác động tích lũy"
+                    "en": "leaking plumbing fixtures",
+                    "vi": "thiết bị đường ống rò rỉ"
                   },
                   {
-                    "en": "domestic water demand",
-                    "vi": "nhu cầu nước sinh hoạt"
+                    "en": "water-efficient",
+                    "vi": "tiết kiệm nước"
                   },
                   {
-                    "en": "water-efficient fixtures",
-                    "vi": "thiết bị tiết kiệm nước"
+                    "en": "domestic consumption",
+                    "vi": "tiêu thụ sinh hoạt"
                   },
                   {
-                    "en": "low-flow aerators",
-                    "vi": "đầu vòi sục khí lưu lượng thấp"
+                    "en": "rainwater harvesting tanks",
+                    "vi": "bồn thu gom nước mưa"
                   },
                   {
-                    "en": "dual-flush toilets",
-                    "vi": "bồn cầu hai chế độ xả"
+                    "en": "purified tap water",
+                    "vi": "nước máy đã lọc sạch"
                   },
                   {
-                    "en": "unnecessary water dissipation",
-                    "vi": "sự lãng phí nước không cần thiết"
+                    "en": "cumulative volume",
+                    "vi": "tổng lượng tích lũy"
                   },
                   {
-                    "en": "rainwater harvesting systems",
-                    "vi": "hệ thống thu gom nước mưa"
-                  },
-                  {
-                    "en": "residential gardens",
-                    "vi": "vườn nhà ở"
-                  },
-                  {
-                    "en": "non-potable domestic tasks",
-                    "vi": "các công việc gia đình không dùng nước uống"
-                  },
-                  {
-                    "en": "municipal water supplies",
-                    "vi": "nguồn cấp nước đô thị"
+                    "en": "conserved freshwater",
+                    "vi": "nước ngọt được bảo tồn"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "conscious effort",
+                      "vi": "nỗ lực có ý thức"
+                    },
+                    {
+                      "en": "leaking plumbing fixtures",
+                      "vi": "thiết bị đường ống rò rỉ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "water-efficient",
+                      "vi": "tiết kiệm nước"
+                    },
+                    {
+                      "en": "domestic consumption",
+                      "vi": "tiêu thụ sinh hoạt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rainwater harvesting tanks",
+                      "vi": "bồn thu gom nước mưa"
+                    },
+                    {
+                      "en": "purified tap water",
+                      "vi": "nước máy đã lọc sạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cumulative volume",
+                      "vi": "tổng lượng tích lũy"
+                    },
+                    {
+                      "en": "conserved freshwater",
+                      "vi": "nước ngọt được bảo tồn"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
                 "point_vi": "Kiểm soát chặt chẽ các nguồn gây ô nhiễm nước có ý nghĩa quyết định trong việc bảo vệ các hệ sinh thái thủy sinh và nguồn nước uống.",
                 "point_en": "Strictly managing pollutant discharge into natural waterways is crucial for protecting aquatic ecosystems and securing safe drinking water supplies.",
-                "evidence_vi": "Các cơ quan quản lý cần cấm tuyệt đối hành vi vứt rác thải sinh hoạt xuống sông hồ và yêu cầu tất cả các khu công nghiệp phải xử lý nước thải đạt chuẩn trước khi thải ra ngoài. Đồng thời, việc hạn chế lạm dụng các loại hóa chất độc hại và chất tẩy rửa công nghiệp sẽ ngăn ngừa nguy cơ các chất độc ngấm sâu vào các tầng nước ngầm quý giá.",
-                "evidence_en": "Regulatory authorities must strictly prohibit direct dumping of municipal refuse into rivers and mandate that manufacturing factories treat chemical effluents before discharging them. At the same time, reducing the widespread use of hazardous agricultural chemicals and industrial solvents prevents harmful toxins from contaminating vital groundwater reservoirs.",
+                "evidence_vi": "Các cơ quan chức năng cần nghiêm cấm hành vi xả rác sinh hoạt xuống sông hồ và bắt buộc khu công nghiệp xử lý nước thải đạt chuẩn trước khi xả ra môi trường. Đồng thời, cần hạn chế tình trạng lạm dụng thuốc trừ sâu và dung môi công nghiệp để ngăn chất độc thấm xuống tầng nước ngầm. Ví dụ, việc lắp đặt hệ thống cảm biến giám sát chất lượng nước tự động tại các nhà máy giúp phát hiện sớm mọi vi phạm xả thải. Nhờ kiểm soát chặt nguồn ô nhiễm, cả hệ sinh thái thủy sinh lẫn nguồn nước sinh hoạt an toàn sẽ được bảo vệ bền vững.",
+                "evidence_en": "Regulatory bodies must strictly prohibit dumping municipal refuse into waterways and require industrial zones to treat chemical effluents before discharge. Simultaneously, curbing the overuse of agricultural pesticides and industrial solvents prevents hazardous toxins from seeping into underground aquifers. For example, installing automated water-quality sensors near factory outlets enables authorities to detect illegal discharge immediately. Through strict pollution control, both aquatic ecosystems and safe municipal drinking supplies can be protected sustainably.",
                 "collocations": [
                   {
-                    "en": "pollutant discharge",
-                    "vi": "sự xả thải các chất ô nhiễm"
+                    "en": "municipal refuse",
+                    "vi": "rác thải đô thị"
                   },
                   {
-                    "en": "natural waterways",
-                    "vi": "các tuyến đường thủy tự nhiên"
+                    "en": "chemical effluents",
+                    "vi": "nước thải hóa chất"
+                  },
+                  {
+                    "en": "agricultural pesticides",
+                    "vi": "thuốc trừ sâu nông nghiệp"
+                  },
+                  {
+                    "en": "underground aquifers",
+                    "vi": "tầng chứa nước ngầm"
+                  },
+                  {
+                    "en": "water-quality sensors",
+                    "vi": "cảm biến chất lượng nước"
+                  },
+                  {
+                    "en": "illegal discharge",
+                    "vi": "xả thải trái phép"
                   },
                   {
                     "en": "aquatic ecosystems",
-                    "vi": "các hệ sinh thái thủy sinh"
+                    "vi": "hệ sinh thái thủy sinh"
                   },
                   {
-                    "en": "safe drinking water supplies",
-                    "vi": "nguồn cung cấp nước uống an toàn"
-                  },
-                  {
-                    "en": "direct dumping of municipal refuse",
-                    "vi": "xả rác thải sinh hoạt trực tiếp"
-                  },
-                  {
-                    "en": "treat chemical effluents",
-                    "vi": "xử lý nước thải hóa chất"
-                  },
-                  {
-                    "en": "industrial facilities",
-                    "vi": "các cơ sở công nghiệp"
-                  },
-                  {
-                    "en": "stringent filtration standards",
-                    "vi": "tiêu chuẩn lọc nghiêm ngặt"
-                  },
-                  {
-                    "en": "contaminating vital groundwater reservoirs",
-                    "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
-                  },
-                  {
-                    "en": "groundwater reservoirs",
-                    "vi": "tầng chứa nước ngầm"
+                    "en": "drinking supplies",
+                    "vi": "nguồn cung nước uống"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "municipal refuse",
+                      "vi": "rác thải đô thị"
+                    },
+                    {
+                      "en": "chemical effluents",
+                      "vi": "nước thải hóa chất"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "agricultural pesticides",
+                      "vi": "thuốc trừ sâu nông nghiệp"
+                    },
+                    {
+                      "en": "underground aquifers",
+                      "vi": "tầng chứa nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "water-quality sensors",
+                      "vi": "cảm biến chất lượng nước"
+                    },
+                    {
+                      "en": "illegal discharge",
+                      "vi": "xả thải trái phép"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "aquatic ecosystems",
+                      "vi": "hệ sinh thái thủy sinh"
+                    },
+                    {
+                      "en": "drinking supplies",
+                      "vi": "nguồn cung nước uống"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
                 "point_vi": "Chuyển đổi sang các mô hình nông nghiệp bền vững là giải pháp thiết yếu vì ngành nông nghiệp hiện tiêu thụ phần lớn lượng nước ngọt trên toàn cầu.",
                 "point_en": "Transitioning to sustainable agricultural practices is imperative since farming accounts for the overwhelming majority of global freshwater withdrawals.",
-                "evidence_vi": "Nhà nông cần được hỗ trợ để triển khai các hệ thống tưới tiêu thông minh như công nghệ tưới nhỏ giọt nhằm cung cấp nước trực tiếp vào rễ cây và hạn chế sự bay hơi nước. Thêm vào đó, việc cắt giảm phân bón hóa học và tái sử dụng nguồn nước thải đã qua xử lý an toàn cho cây trồng sẽ giúp tiết kiệm tài nguyên nước quý giá trên quy mô lớn.",
-                "evidence_en": "Agricultural producers should be encouraged to implement precision irrigation technologies such as drip irrigation, which deliver moisture directly to plant roots with minimal evaporation. In addition, minimizing synthetic fertilizers and utilizing purified recycled wastewater for crop irrigation substantially decrease pressure on natural water reserves.",
+                "evidence_vi": "Nhà nông cần được hỗ trợ tài chính và kỹ thuật để triển khai công nghệ tưới nhỏ giọt, giúp đưa nước trực tiếp đến rễ cây với tỷ lệ bay hơi thấp nhất. Bên cạnh đó, việc lựa chọn các giống cây trồng chịu hạn phù hợp với điều kiện khí hậu địa phương giúp giảm mạnh nhu cầu tưới tiêu. Chẳng hạn, nhiều trang trại hiện đại đã tái sử dụng nước thải nông nghiệp đã qua lọc an toàn để tưới cho các vụ mùa. Nhờ áp dụng đồng bộ các phương thức canh tác bền vững này, áp lực lên các hồ chứa và mạch nước ngầm sẽ giảm xuống rõ rệt.",
+                "evidence_en": "Agricultural producers should receive financial and technical support to deploy drip irrigation, which delivers moisture directly to plant roots with minimal evaporation. Additionally, cultivating drought-resistant crop varieties suited to local climates dramatically lowers overall irrigation demand. For example, many modern farms safely reuse purified agricultural wastewater to irrigate seasonal crops. By adopting these sustainable farming practices widely, pressure on natural reservoirs and groundwater reserves will decline considerably.",
                 "collocations": [
                   {
-                    "en": "sustainable agricultural practices",
-                    "vi": "phương thức nông nghiệp bền vững"
-                  },
-                  {
-                    "en": "global freshwater withdrawals",
-                    "vi": "lượng khai thác nước ngọt toàn cầu"
-                  },
-                  {
-                    "en": "precision irrigation technologies",
-                    "vi": "công nghệ tưới tiêu chính xác"
-                  },
-                  {
-                    "en": "drip irrigation",
-                    "vi": "tưới nhỏ giọt"
-                  },
-                  {
-                    "en": "deliver moisture directly to plant roots",
-                    "vi": "cung cấp độ ẩm trực tiếp vào rễ cây"
+                    "en": "deploy drip irrigation",
+                    "vi": "triển khai tưới nhỏ giọt"
                   },
                   {
                     "en": "minimal evaporation",
-                    "vi": "sự bay hơi tối thiểu"
+                    "vi": "bay hơi tối thiểu"
                   },
                   {
-                    "en": "minimizing synthetic fertilizers",
-                    "vi": "cắt giảm phân bón hóa học tổng hợp"
+                    "en": "drought-resistant crop varieties",
+                    "vi": "giống cây trồng chịu hạn"
                   },
                   {
-                    "en": "purified recycled wastewater",
-                    "vi": "nước thải tái chế đã qua làm sạch"
+                    "en": "irrigation demand",
+                    "vi": "nhu cầu tưới tiêu"
                   },
                   {
-                    "en": "crop irrigation",
-                    "vi": "tưới tiêu cây trồng"
+                    "en": "purified wastewater",
+                    "vi": "nước thải đã lọc sạch"
                   },
                   {
-                    "en": "natural water reserves",
-                    "vi": "các nguồn trữ nước tự nhiên"
+                    "en": "seasonal crops",
+                    "vi": "vụ mùa"
+                  },
+                  {
+                    "en": "natural reservoirs",
+                    "vi": "hồ chứa tự nhiên"
+                  },
+                  {
+                    "en": "decline considerably",
+                    "vi": "giảm đáng kể"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "deploy drip irrigation",
+                      "vi": "triển khai tưới nhỏ giọt"
+                    },
+                    {
+                      "en": "minimal evaporation",
+                      "vi": "bay hơi tối thiểu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "drought-resistant crop varieties",
+                      "vi": "giống cây trồng chịu hạn"
+                    },
+                    {
+                      "en": "irrigation demand",
+                      "vi": "nhu cầu tưới tiêu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "purified wastewater",
+                      "vi": "nước thải đã lọc sạch"
+                    },
+                    {
+                      "en": "seasonal crops",
+                      "vi": "vụ mùa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "natural reservoirs",
+                      "vi": "hồ chứa tự nhiên"
+                    },
+                    {
+                      "en": "decline considerably",
+                      "vi": "giảm đáng kể"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
                 "point_vi": "Sự can thiệp mạnh mẽ từ chính phủ thông qua chính sách quản lý nghiêm ngặt và đầu tư tài chính dài hạn là điều kiện tiên quyết để bảo tồn nguồn nước bền vững.",
                 "point_en": "Robust governmental intervention through stringent policy frameworks and sustained infrastructure funding is essential for long-term freshwater security.",
-                "evidence_vi": "Nhà nước cần ban hành và thực thi các chế tài xử phạt nặng đối với các hành vi xả thải trái phép hoặc khai thác nguồn nước ngầm quá mức. Đồng thời, việc phân bổ ngân sách để nâng cấp mạng lưới đường ống cấp nước đô thị và xây dựng các trạm xử lý nước thải công nghệ cao sẽ giảm bớt thất thoát nước và nâng cao hiệu quả tái tạo tài nguyên nước.",
-                "evidence_en": "Authorities must enforce rigorous environmental regulations and impose punitive fines on unauthorized waste disposal and unregulated groundwater extraction. Furthermore, allocating financial capital to upgrade aging municipal distribution pipe networks and construct advanced purification plants prevents massive physical leakage while boosting recycling capacity.",
+                "evidence_vi": "Nhà nước cần ban hành và thực thi khung pháp lý chặt chẽ kèm mức phạt nặng đối với hành vi khai thác nước ngầm trái phép hoặc gây ô nhiễm nghiêm trọng. Song song đó, chính phủ nên phân bổ ngân sách nâng cấp hệ thống đường ống cấp nước đô thị cũ kỹ nhằm giảm thiểu thất thoát vật lý. Chẳng hạn, việc xây dựng thêm các trạm tái chế nước thải và nhà máy khử mặn công nghệ cao có thể bổ sung nguồn cung ổn định cho các đô thị ven biển. Sự kết hợp giữa luật pháp nghiêm minh và đầu tư hạ tầng dài hạn sẽ đảm bảo an ninh nguồn nước quốc gia.",
+                "evidence_en": "Governments must enforce stringent legal frameworks imposing severe penalties on unregulated groundwater extraction and serious pollution offenses. Concurrently, public budgets should be allocated to modernize aging municipal pipe networks so that physical water leakage is minimized. For instance, constructing advanced wastewater recycling facilities and coastal desalination plants can provide reliable supplementary water supplies. Combining rigorous legislation with long-term infrastructure investment will ultimately guarantee national water security.",
                 "collocations": [
                   {
-                    "en": "governmental intervention",
-                    "vi": "sự can thiệp của chính phủ"
+                    "en": "stringent legal frameworks",
+                    "vi": "khung pháp lý nghiêm ngặt"
                   },
                   {
-                    "en": "stringent policy frameworks",
-                    "vi": "khuôn khổ chính sách nghiêm ngặt"
+                    "en": "unregulated extraction",
+                    "vi": "khai thác không kiểm soát"
                   },
                   {
-                    "en": "long-term freshwater security",
-                    "vi": "an ninh nguồn nước ngọt lâu dài"
+                    "en": "aging pipe networks",
+                    "vi": "mạng lưới đường ống xuống cấp"
                   },
                   {
-                    "en": "rigorous environmental regulations",
-                    "vi": "các quy định môi trường nghiêm ngặt"
+                    "en": "physical water leakage",
+                    "vi": "thất thoát nước vật lý"
                   },
                   {
-                    "en": "unregulated groundwater extraction",
-                    "vi": "khai thác nước ngầm không kiểm soát"
+                    "en": "desalination plants",
+                    "vi": "nhà máy khử mặn"
                   },
                   {
-                    "en": "punitive fines",
-                    "vi": "các chế tài xử phạt nặng"
+                    "en": "supplementary supplies",
+                    "vi": "nguồn cung bổ sung"
                   },
                   {
-                    "en": "aging municipal distribution pipe networks",
-                    "vi": "mạng lưới đường ống phân phối đô thị xuống cấp"
-                  },
-                  {
-                    "en": "upgrade municipal distribution networks",
-                    "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
-                  },
-                  {
-                    "en": "advanced purification plants",
-                    "vi": "các nhà máy lọc nước tiên tiến"
-                  },
-                  {
-                    "en": "physical leakage",
-                    "vi": "thất thoát vật lý"
-                  },
-                  {
-                    "en": "recycling capacity",
-                    "vi": "khả năng tái chế nước"
+                    "en": "national water security",
+                    "vi": "an ninh nguồn nước quốc gia"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stringent legal frameworks",
+                      "vi": "khung pháp lý nghiêm ngặt"
+                    },
+                    {
+                      "en": "unregulated extraction",
+                      "vi": "khai thác không kiểm soát"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "aging pipe networks",
+                      "vi": "mạng lưới đường ống xuống cấp"
+                    },
+                    {
+                      "en": "physical water leakage",
+                      "vi": "thất thoát nước vật lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "desalination plants",
+                      "vi": "nhà máy khử mặn"
+                    },
+                    {
+                      "en": "supplementary supplies",
+                      "vi": "nguồn cung bổ sung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "national water security",
+                      "vi": "an ninh nguồn nước quốc gia"
+                    }
+                  ]
                 ]
               }
             ],
@@ -107197,8 +107409,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
                 "point_vi": "Nâng cao nhận thức cộng đồng và giáo dục về bảo tồn nước đóng vai trò then chốt trong việc thay đổi hành vi của xã hội đối với tài nguyên nước ngọt.",
                 "point_en": "Raising public awareness and promoting conservation education play a vital role in transforming societal attitudes toward freshwater preservation.",
-                "evidence_vi": "Các trường học và tổ chức xã hội cần thường xuyên phát động các chiến dịch truyền thông về giá trị vô giá của nước ngọt. Bên cạnh đó, việc tổ chức các hoạt động ngoại khóa thực tế giúp khuyến khích thế hệ trẻ chủ động hình thành nếp sống tiết kiệm nước và cùng nhau bảo vệ nguồn nước tại địa phương.",
-                "evidence_en": "Educational institutions and social organizations should frequently organize environmental campaigns to highlight the essential value of clean water. Moreover, hands-on community projects encourage young citizens to adopt water-saving habits and actively participate in safeguarding local water basins.",
+                "evidence_vi": "Các trường học và tổ chức xã hội cần thường xuyên phát động các chiến dịch truyền thông về giá trị thiết yếu của nước sạch. Bên cạnh đó, việc lồng ghép giáo dục bảo vệ môi trường vào chương trình học giúp học sinh nhận thức sớm nguy cơ cạn kiệt nguồn nước. Ví dụ, các dự án cộng đồng như ngày hội tiết kiệm nước có thể khuyến khích người trẻ trực tiếp tham gia bảo vệ lưu vực sông địa phương. Về lâu dài, sự thay đổi nhận thức rộng khắp này sẽ hình thành văn hóa sử dụng nước có trách nhiệm trong toàn xã hội.",
+                "evidence_en": "Educational institutions and social organizations should regularly launch environmental campaigns highlighting the essential value of clean water. Moreover, integrating water conservation into school curricula helps young learners recognize the looming threat of water scarcity early on. For example, hands-on community initiatives such as water-saving workshops can engage youths directly in safeguarding local river basins. Over the long term, this widespread shift in awareness will cultivate a lasting culture of responsible water consumption across society.",
                 "collocations": [
                   {
                     "en": "raising public awareness",
@@ -107213,28 +107425,40 @@ const ESSAY_DATA = [
                     "vi": "thay đổi thái độ của xã hội"
                   },
                   {
-                    "en": "environmental campaigns",
-                    "vi": "các chiến dịch môi trường"
+                    "en": "freshwater",
+                    "vi": "nước ngọt (nước không mặn)"
                   },
                   {
-                    "en": "essential value of clean water",
-                    "vi": "giá trị vô giá của nước sạch"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
                   },
                   {
-                    "en": "hands-on community projects",
-                    "vi": "các dự án cộng đồng thực tế"
+                    "en": "launch environmental campaigns",
+                    "vi": "phát động chiến dịch môi trường"
                   },
                   {
-                    "en": "adopt water-saving habits",
-                    "vi": "hình thành nếp sống tiết kiệm nước"
+                    "en": "essential value",
+                    "vi": "giá trị thiết yếu"
                   },
                   {
-                    "en": "safeguarding local water basins",
-                    "vi": "bảo vệ nguồn nước tại địa phương"
+                    "en": "school curricula",
+                    "vi": "chương trình học"
                   },
                   {
-                    "en": "educational institutions",
-                    "vi": "các cơ sở giáo dục"
+                    "en": "looming threat of water scarcity",
+                    "vi": "nguy cơ khan hiếm nước cận kề"
+                  },
+                  {
+                    "en": "hands-on community initiatives",
+                    "vi": "sáng kiến cộng đồng thực tế"
+                  },
+                  {
+                    "en": "local river basins",
+                    "vi": "lưu vực sông địa phương"
+                  },
+                  {
+                    "en": "responsible water consumption",
+                    "vi": "tiêu thụ nước có trách nhiệm"
                   }
                 ],
                 "point_collocations": [
@@ -107262,46 +107486,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "environmental campaigns",
-                      "vi": "các chiến dịch môi trường"
+                      "en": "launch environmental campaigns",
+                      "vi": "phát động chiến dịch môi trường"
                     },
                     {
-                      "en": "essential value of clean water",
-                      "vi": "giá trị vô giá của nước sạch"
-                    },
-                    {
-                      "en": "educational institutions",
-                      "vi": "các cơ sở giáo dục"
-                    },
-                    {
-                      "en": "clean water supplies",
-                      "vi": "nguồn cung cấp nước sạch"
-                    },
-                    {
-                      "en": "campaign",
-                      "vi": "chiến dịch"
+                      "en": "essential value",
+                      "vi": "giá trị thiết yếu"
                     }
                   ],
                   [
                     {
-                      "en": "hands-on community projects",
-                      "vi": "các dự án cộng đồng thực tế"
+                      "en": "school curricula",
+                      "vi": "chương trình học"
                     },
                     {
-                      "en": "adopt water-saving habits",
-                      "vi": "hình thành nếp sống tiết kiệm nước"
+                      "en": "looming threat of water scarcity",
+                      "vi": "nguy cơ khan hiếm nước cận kề"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "hands-on community initiatives",
+                      "vi": "sáng kiến cộng đồng thực tế"
                     },
                     {
-                      "en": "safeguarding local water basins",
-                      "vi": "bảo vệ nguồn nước tại địa phương"
-                    },
+                      "en": "local river basins",
+                      "vi": "lưu vực sông địa phương"
+                    }
+                  ],
+                  [
                     {
-                      "en": "water-saving habits",
-                      "vi": "thói quen tiết kiệm nước"
-                    },
-                    {
-                      "en": "habit",
-                      "vi": "thói quen, tập quán"
+                      "en": "responsible water consumption",
+                      "vi": "tiêu thụ nước có trách nhiệm"
                     }
                   ]
                 ]
@@ -107310,52 +107526,60 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
                 "point_vi": "Thực hành tiết kiệm nước trong sinh hoạt gia đình là một biện pháp thiết thực giúp giảm thiểu đáng kể tình trạng lãng phí nước sạch.",
                 "point_en": "Practicing strict water conservation in domestic environments represents a practical measure to substantially curb excessive freshwater wastage.",
-                "evidence_vi": "Các thành viên trong gia đình cần chú ý tắt vòi nước trong lúc vệ sinh cá nhân và kịp thời sửa chữa hệ thống ống dẫn bị rò rỉ để tránh hao hụt nước sạch. Ngoài ra, việc lắp đặt các bồn chứa để thu gom nước mưa nhằm phục vụ tưới tiêu cây cảnh và vệ sinh sân vườn là một giải pháp đơn giản nhưng mang lại hiệu quả kinh tế và môi trường rất cao.",
-                "evidence_en": "Household members should make a conscious effort to turn off taps during personal hygiene and immediately repair leaking plumbing systems to prevent unneeded loss. Furthermore, installing storage tanks to collect rainwater for landscape irrigation and domestic cleaning provides a cost-effective way to preserve purified municipal water.",
+                "evidence_vi": "Các thành viên trong gia đình cần có ý thức tắt vòi nước khi không sử dụng và nhanh chóng sửa chữa hệ thống ống dẫn bị rò rỉ. Ngoài ra, việc chuyển sang các thiết bị vệ sinh và máy giặt tiết kiệm nước giúp cắt giảm đáng kể lượng tiêu thụ hằng tháng. Chẳng hạn, nhiều hộ gia đình lắp đặt bồn thu gom nước mưa để tưới cây cảnh và vệ sinh sân vườn thay vì dùng nước máy đã qua xử lý. Khi hàng triệu hộ dân duy trì những thói quen thiết thực này, tổng lượng nước ngọt tiết kiệm được sẽ vô cùng to lớn.",
+                "evidence_en": "Household members should make a conscious effort to turn off taps when unused and promptly repair leaking plumbing fixtures. Furthermore, upgrading to water-efficient showerheads and washing machines substantially lowers monthly domestic consumption. For instance, many families install rainwater harvesting tanks for garden irrigation and outdoor cleaning instead of using purified tap water. When millions of households sustain these practical habits, the cumulative volume of conserved freshwater becomes truly substantial.",
                 "collocations": [
                   {
                     "en": "household water conservation",
                     "vi": "bảo tồn nước trong hộ gia đình"
                   },
                   {
-                    "en": "cumulative impact",
-                    "vi": "tác động tích lũy"
-                  },
-                  {
                     "en": "domestic water demand",
                     "vi": "nhu cầu nước sinh hoạt"
                   },
                   {
-                    "en": "water-efficient fixtures",
-                    "vi": "thiết bị tiết kiệm nước"
+                    "en": "water conservation",
+                    "vi": "bảo tồn nguồn nước"
                   },
                   {
-                    "en": "low-flow aerators",
-                    "vi": "đầu vòi sục khí lưu lượng thấp"
+                    "en": "curb water wastage",
+                    "vi": "hạn chế lãng phí nước"
                   },
                   {
-                    "en": "dual-flush toilets",
-                    "vi": "bồn cầu hai chế độ xả"
+                    "en": "freshwater",
+                    "vi": "nước ngọt (nước không mặn)"
                   },
                   {
-                    "en": "unnecessary water dissipation",
-                    "vi": "sự lãng phí nước không cần thiết"
+                    "en": "conscious effort",
+                    "vi": "nỗ lực có ý thức"
                   },
                   {
-                    "en": "rainwater harvesting systems",
-                    "vi": "hệ thống thu gom nước mưa"
+                    "en": "leaking plumbing fixtures",
+                    "vi": "thiết bị đường ống rò rỉ"
                   },
                   {
-                    "en": "residential gardens",
-                    "vi": "vườn nhà ở"
+                    "en": "water-efficient",
+                    "vi": "tiết kiệm nước"
                   },
                   {
-                    "en": "non-potable domestic tasks",
-                    "vi": "các công việc gia đình không dùng nước uống"
+                    "en": "domestic consumption",
+                    "vi": "tiêu thụ sinh hoạt"
                   },
                   {
-                    "en": "municipal water supplies",
-                    "vi": "nguồn cấp nước đô thị"
+                    "en": "rainwater harvesting tanks",
+                    "vi": "bồn thu gom nước mưa"
+                  },
+                  {
+                    "en": "purified tap water",
+                    "vi": "nước máy đã lọc sạch"
+                  },
+                  {
+                    "en": "cumulative volume",
+                    "vi": "tổng lượng tích lũy"
+                  },
+                  {
+                    "en": "conserved freshwater",
+                    "vi": "nước ngọt được bảo tồn"
                   }
                 ],
                 "point_collocations": [
@@ -107383,46 +107607,42 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "turn off taps",
-                      "vi": "tắt vòi nước"
+                      "en": "conscious effort",
+                      "vi": "nỗ lực có ý thức"
                     },
                     {
-                      "en": "repair leaking pipes",
-                      "vi": "sửa chữa ống nước rò rỉ"
-                    },
-                    {
-                      "en": "leak",
-                      "vi": "rò rỉ, chỗ rò rỉ"
-                    },
-                    {
-                      "en": "tap",
-                      "vi": "vòi nước"
-                    },
-                    {
-                      "en": "household",
-                      "vi": "hộ gia đình, trong gia đình"
+                      "en": "leaking plumbing fixtures",
+                      "vi": "thiết bị đường ống rò rỉ"
                     }
                   ],
                   [
                     {
-                      "en": "domestic water demand",
-                      "vi": "nhu cầu nước sinh hoạt"
+                      "en": "water-efficient",
+                      "vi": "tiết kiệm nước"
                     },
                     {
-                      "en": "municipal water supplies",
-                      "vi": "nguồn cấp nước đô thị"
+                      "en": "domestic consumption",
+                      "vi": "tiêu thụ sinh hoạt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rainwater harvesting tanks",
+                      "vi": "bồn thu gom nước mưa"
                     },
                     {
-                      "en": "collect rainwater",
-                      "vi": "thu gom nước mưa"
+                      "en": "purified tap water",
+                      "vi": "nước máy đã lọc sạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cumulative volume",
+                      "vi": "tổng lượng tích lũy"
                     },
                     {
-                      "en": "clean water supplies",
-                      "vi": "nguồn cung cấp nước sạch"
-                    },
-                    {
-                      "en": "rainwater",
-                      "vi": "nước mưa"
+                      "en": "conserved freshwater",
+                      "vi": "nước ngọt được bảo tồn"
                     }
                   ]
                 ]
@@ -107431,8 +107651,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
                 "point_vi": "Kiểm soát chặt chẽ các nguồn gây ô nhiễm nước có ý nghĩa quyết định trong việc bảo vệ các hệ sinh thái thủy sinh và nguồn nước uống.",
                 "point_en": "Strictly managing pollutant discharge into natural waterways is crucial for protecting aquatic ecosystems and securing safe drinking water supplies.",
-                "evidence_vi": "Các cơ quan quản lý cần cấm tuyệt đối hành vi vứt rác thải sinh hoạt xuống sông hồ và yêu cầu tất cả các khu công nghiệp phải xử lý nước thải đạt chuẩn trước khi thải ra ngoài. Đồng thời, việc hạn chế lạm dụng các loại hóa chất độc hại và chất tẩy rửa công nghiệp sẽ ngăn ngừa nguy cơ các chất độc ngấm sâu vào các tầng nước ngầm quý giá.",
-                "evidence_en": "Regulatory authorities must strictly prohibit direct dumping of municipal refuse into rivers and mandate that manufacturing factories treat chemical effluents before discharging them. At the same time, reducing the widespread use of hazardous agricultural chemicals and industrial solvents prevents harmful toxins from contaminating vital groundwater reservoirs.",
+                "evidence_vi": "Các cơ quan chức năng cần nghiêm cấm hành vi xả rác sinh hoạt xuống sông hồ và bắt buộc khu công nghiệp xử lý nước thải đạt chuẩn trước khi xả ra môi trường. Đồng thời, cần hạn chế tình trạng lạm dụng thuốc trừ sâu và dung môi công nghiệp để ngăn chất độc thấm xuống tầng nước ngầm. Ví dụ, việc lắp đặt hệ thống cảm biến giám sát chất lượng nước tự động tại các nhà máy giúp phát hiện sớm mọi vi phạm xả thải. Nhờ kiểm soát chặt nguồn ô nhiễm, cả hệ sinh thái thủy sinh lẫn nguồn nước sinh hoạt an toàn sẽ được bảo vệ bền vững.",
+                "evidence_en": "Regulatory bodies must strictly prohibit dumping municipal refuse into waterways and require industrial zones to treat chemical effluents before discharge. Simultaneously, curbing the overuse of agricultural pesticides and industrial solvents prevents hazardous toxins from seeping into underground aquifers. For example, installing automated water-quality sensors near factory outlets enables authorities to detect illegal discharge immediately. Through strict pollution control, both aquatic ecosystems and safe municipal drinking supplies can be protected sustainably.",
                 "collocations": [
                   {
                     "en": "pollutant discharge",
@@ -107451,28 +107671,36 @@ const ESSAY_DATA = [
                     "vi": "nguồn cung cấp nước uống an toàn"
                   },
                   {
-                    "en": "direct dumping of municipal refuse",
-                    "vi": "xả rác thải sinh hoạt trực tiếp"
+                    "en": "clean water supplies",
+                    "vi": "nguồn cung cấp nước sạch"
                   },
                   {
-                    "en": "treat chemical effluents",
-                    "vi": "xử lý nước thải hóa chất"
+                    "en": "municipal refuse",
+                    "vi": "rác thải đô thị"
                   },
                   {
-                    "en": "industrial facilities",
-                    "vi": "các cơ sở công nghiệp"
+                    "en": "chemical effluents",
+                    "vi": "nước thải hóa chất"
                   },
                   {
-                    "en": "stringent filtration standards",
-                    "vi": "tiêu chuẩn lọc nghiêm ngặt"
+                    "en": "agricultural pesticides",
+                    "vi": "thuốc trừ sâu nông nghiệp"
                   },
                   {
-                    "en": "contaminating vital groundwater reservoirs",
-                    "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
-                  },
-                  {
-                    "en": "groundwater reservoirs",
+                    "en": "underground aquifers",
                     "vi": "tầng chứa nước ngầm"
+                  },
+                  {
+                    "en": "water-quality sensors",
+                    "vi": "cảm biến chất lượng nước"
+                  },
+                  {
+                    "en": "illegal discharge",
+                    "vi": "xả thải trái phép"
+                  },
+                  {
+                    "en": "drinking supplies",
+                    "vi": "nguồn cung nước uống"
                   }
                 ],
                 "point_collocations": [
@@ -107500,42 +107728,42 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "direct dumping of municipal refuse",
-                      "vi": "xả rác thải sinh hoạt trực tiếp"
+                      "en": "municipal refuse",
+                      "vi": "rác thải đô thị"
                     },
                     {
-                      "en": "treat chemical effluents",
-                      "vi": "xử lý nước thải hóa chất"
-                    },
-                    {
-                      "en": "treat",
-                      "vi": "xử lý (nước thải, rác thải)"
-                    },
-                    {
-                      "en": "effluent",
-                      "vi": "nước thải công nghiệp xả ra"
+                      "en": "chemical effluents",
+                      "vi": "nước thải hóa chất"
                     }
                   ],
                   [
                     {
-                      "en": "contaminating vital groundwater reservoirs",
-                      "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
+                      "en": "agricultural pesticides",
+                      "vi": "thuốc trừ sâu nông nghiệp"
                     },
                     {
-                      "en": "groundwater reservoirs",
+                      "en": "underground aquifers",
                       "vi": "tầng chứa nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "water-quality sensors",
+                      "vi": "cảm biến chất lượng nước"
                     },
                     {
-                      "en": "reservoir",
-                      "vi": "hồ chứa nước, bể tích trữ"
+                      "en": "illegal discharge",
+                      "vi": "xả thải trái phép"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "aquatic ecosystems",
+                      "vi": "hệ sinh thái thủy sinh"
                     },
                     {
-                      "en": "groundwater",
-                      "vi": "nước ngầm"
-                    },
-                    {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
+                      "en": "drinking supplies",
+                      "vi": "nguồn cung nước uống"
                     }
                   ]
                 ]
@@ -107544,8 +107772,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
                 "point_vi": "Chuyển đổi sang các mô hình nông nghiệp bền vững là giải pháp thiết yếu vì ngành nông nghiệp hiện tiêu thụ phần lớn lượng nước ngọt trên toàn cầu.",
                 "point_en": "Transitioning to sustainable agricultural practices is imperative since farming accounts for the overwhelming majority of global freshwater withdrawals.",
-                "evidence_vi": "Nhà nông cần được hỗ trợ để triển khai các hệ thống tưới tiêu thông minh như công nghệ tưới nhỏ giọt nhằm cung cấp nước trực tiếp vào rễ cây và hạn chế sự bay hơi nước. Thêm vào đó, việc cắt giảm phân bón hóa học và tái sử dụng nguồn nước thải đã qua xử lý an toàn cho cây trồng sẽ giúp tiết kiệm tài nguyên nước quý giá trên quy mô lớn.",
-                "evidence_en": "Agricultural producers should be encouraged to implement precision irrigation technologies such as drip irrigation, which deliver moisture directly to plant roots with minimal evaporation. In addition, minimizing synthetic fertilizers and utilizing purified recycled wastewater for crop irrigation substantially decrease pressure on natural water reserves.",
+                "evidence_vi": "Nhà nông cần được hỗ trợ tài chính và kỹ thuật để triển khai công nghệ tưới nhỏ giọt, giúp đưa nước trực tiếp đến rễ cây với tỷ lệ bay hơi thấp nhất. Bên cạnh đó, việc lựa chọn các giống cây trồng chịu hạn phù hợp với điều kiện khí hậu địa phương giúp giảm mạnh nhu cầu tưới tiêu. Chẳng hạn, nhiều trang trại hiện đại đã tái sử dụng nước thải nông nghiệp đã qua lọc an toàn để tưới cho các vụ mùa. Nhờ áp dụng đồng bộ các phương thức canh tác bền vững này, áp lực lên các hồ chứa và mạch nước ngầm sẽ giảm xuống rõ rệt.",
+                "evidence_en": "Agricultural producers should receive financial and technical support to deploy drip irrigation, which delivers moisture directly to plant roots with minimal evaporation. Additionally, cultivating drought-resistant crop varieties suited to local climates dramatically lowers overall irrigation demand. For example, many modern farms safely reuse purified agricultural wastewater to irrigate seasonal crops. By adopting these sustainable farming practices widely, pressure on natural reservoirs and groundwater reserves will decline considerably.",
                 "collocations": [
                   {
                     "en": "sustainable agricultural practices",
@@ -107556,36 +107784,48 @@ const ESSAY_DATA = [
                     "vi": "lượng khai thác nước ngọt toàn cầu"
                   },
                   {
-                    "en": "precision irrigation technologies",
-                    "vi": "công nghệ tưới tiêu chính xác"
+                    "en": "sustainable farming",
+                    "vi": "nông nghiệp bền vững"
                   },
                   {
-                    "en": "drip irrigation",
-                    "vi": "tưới nhỏ giọt"
+                    "en": "freshwater",
+                    "vi": "nước ngọt (nước không mặn)"
                   },
                   {
-                    "en": "deliver moisture directly to plant roots",
-                    "vi": "cung cấp độ ẩm trực tiếp vào rễ cây"
+                    "en": "sustainable",
+                    "vi": "bền vững, thân thiện môi trường"
+                  },
+                  {
+                    "en": "deploy drip irrigation",
+                    "vi": "triển khai tưới nhỏ giọt"
                   },
                   {
                     "en": "minimal evaporation",
-                    "vi": "sự bay hơi tối thiểu"
+                    "vi": "bay hơi tối thiểu"
                   },
                   {
-                    "en": "minimizing synthetic fertilizers",
-                    "vi": "cắt giảm phân bón hóa học tổng hợp"
+                    "en": "drought-resistant crop varieties",
+                    "vi": "giống cây trồng chịu hạn"
                   },
                   {
-                    "en": "purified recycled wastewater",
-                    "vi": "nước thải tái chế đã qua làm sạch"
+                    "en": "irrigation demand",
+                    "vi": "nhu cầu tưới tiêu"
                   },
                   {
-                    "en": "crop irrigation",
-                    "vi": "tưới tiêu cây trồng"
+                    "en": "purified wastewater",
+                    "vi": "nước thải đã lọc sạch"
                   },
                   {
-                    "en": "natural water reserves",
-                    "vi": "các nguồn trữ nước tự nhiên"
+                    "en": "seasonal crops",
+                    "vi": "vụ mùa"
+                  },
+                  {
+                    "en": "natural reservoirs",
+                    "vi": "hồ chứa tự nhiên"
+                  },
+                  {
+                    "en": "decline considerably",
+                    "vi": "giảm đáng kể"
                   }
                 ],
                 "point_collocations": [
@@ -107613,46 +107853,42 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "precision irrigation technologies",
-                      "vi": "công nghệ tưới tiêu chính xác"
-                    },
-                    {
-                      "en": "drip irrigation",
-                      "vi": "tưới nhỏ giọt"
-                    },
-                    {
-                      "en": "deliver moisture directly to plant roots",
-                      "vi": "cung cấp độ ẩm trực tiếp vào rễ cây"
+                      "en": "deploy drip irrigation",
+                      "vi": "triển khai tưới nhỏ giọt"
                     },
                     {
                       "en": "minimal evaporation",
-                      "vi": "sự bay hơi tối thiểu"
-                    },
-                    {
-                      "en": "irrigation",
-                      "vi": "sự tưới tiêu"
+                      "vi": "bay hơi tối thiểu"
                     }
                   ],
                   [
                     {
-                      "en": "minimizing synthetic fertilizers",
-                      "vi": "cắt giảm phân bón hóa học tổng hợp"
+                      "en": "drought-resistant crop varieties",
+                      "vi": "giống cây trồng chịu hạn"
                     },
                     {
-                      "en": "purified recycled wastewater",
-                      "vi": "nước thải tái chế đã qua làm sạch"
+                      "en": "irrigation demand",
+                      "vi": "nhu cầu tưới tiêu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "purified wastewater",
+                      "vi": "nước thải đã lọc sạch"
                     },
                     {
-                      "en": "crop irrigation",
-                      "vi": "tưới tiêu cây trồng"
+                      "en": "seasonal crops",
+                      "vi": "vụ mùa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "natural reservoirs",
+                      "vi": "hồ chứa tự nhiên"
                     },
                     {
-                      "en": "natural water reserves",
-                      "vi": "các nguồn trữ nước tự nhiên"
-                    },
-                    {
-                      "en": "waste",
-                      "vi": "lãng phí, chất thải"
+                      "en": "decline considerably",
+                      "vi": "giảm đáng kể"
                     }
                   ]
                 ]
@@ -107661,8 +107897,8 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
                 "point_vi": "Sự can thiệp mạnh mẽ từ chính phủ thông qua chính sách quản lý nghiêm ngặt và đầu tư tài chính dài hạn là điều kiện tiên quyết để bảo tồn nguồn nước bền vững.",
                 "point_en": "Robust governmental intervention through stringent policy frameworks and sustained infrastructure funding is essential for long-term freshwater security.",
-                "evidence_vi": "Nhà nước cần ban hành và thực thi các chế tài xử phạt nặng đối với các hành vi xả thải trái phép hoặc khai thác nguồn nước ngầm quá mức. Đồng thời, việc phân bổ ngân sách để nâng cấp mạng lưới đường ống cấp nước đô thị và xây dựng các trạm xử lý nước thải công nghệ cao sẽ giảm bớt thất thoát nước và nâng cao hiệu quả tái tạo tài nguyên nước.",
-                "evidence_en": "Authorities must enforce rigorous environmental regulations and impose punitive fines on unauthorized waste disposal and unregulated groundwater extraction. Furthermore, allocating financial capital to upgrade aging municipal distribution pipe networks and construct advanced purification plants prevents massive physical leakage while boosting recycling capacity.",
+                "evidence_vi": "Nhà nước cần ban hành và thực thi khung pháp lý chặt chẽ kèm mức phạt nặng đối với hành vi khai thác nước ngầm trái phép hoặc gây ô nhiễm nghiêm trọng. Song song đó, chính phủ nên phân bổ ngân sách nâng cấp hệ thống đường ống cấp nước đô thị cũ kỹ nhằm giảm thiểu thất thoát vật lý. Chẳng hạn, việc xây dựng thêm các trạm tái chế nước thải và nhà máy khử mặn công nghệ cao có thể bổ sung nguồn cung ổn định cho các đô thị ven biển. Sự kết hợp giữa luật pháp nghiêm minh và đầu tư hạ tầng dài hạn sẽ đảm bảo an ninh nguồn nước quốc gia.",
+                "evidence_en": "Governments must enforce stringent legal frameworks imposing severe penalties on unregulated groundwater extraction and serious pollution offenses. Concurrently, public budgets should be allocated to modernize aging municipal pipe networks so that physical water leakage is minimized. For instance, constructing advanced wastewater recycling facilities and coastal desalination plants can provide reliable supplementary water supplies. Combining rigorous legislation with long-term infrastructure investment will ultimately guarantee national water security.",
                 "collocations": [
                   {
                     "en": "governmental intervention",
@@ -107677,36 +107913,40 @@ const ESSAY_DATA = [
                     "vi": "an ninh nguồn nước ngọt lâu dài"
                   },
                   {
-                    "en": "rigorous environmental regulations",
-                    "vi": "các quy định môi trường nghiêm ngặt"
+                    "en": "freshwater",
+                    "vi": "nước ngọt (nước không mặn)"
                   },
                   {
-                    "en": "unregulated groundwater extraction",
-                    "vi": "khai thác nước ngầm không kiểm soát"
+                    "en": "infrastructure",
+                    "vi": "cơ sở hạ tầng"
                   },
                   {
-                    "en": "punitive fines",
-                    "vi": "các chế tài xử phạt nặng"
+                    "en": "stringent legal frameworks",
+                    "vi": "khung pháp lý nghiêm ngặt"
                   },
                   {
-                    "en": "aging municipal distribution pipe networks",
-                    "vi": "mạng lưới đường ống phân phối đô thị xuống cấp"
+                    "en": "unregulated extraction",
+                    "vi": "khai thác không kiểm soát"
                   },
                   {
-                    "en": "upgrade municipal distribution networks",
-                    "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
+                    "en": "aging pipe networks",
+                    "vi": "mạng lưới đường ống xuống cấp"
                   },
                   {
-                    "en": "advanced purification plants",
-                    "vi": "các nhà máy lọc nước tiên tiến"
+                    "en": "physical water leakage",
+                    "vi": "thất thoát nước vật lý"
                   },
                   {
-                    "en": "physical leakage",
-                    "vi": "thất thoát vật lý"
+                    "en": "desalination plants",
+                    "vi": "nhà máy khử mặn"
                   },
                   {
-                    "en": "recycling capacity",
-                    "vi": "khả năng tái chế nước"
+                    "en": "supplementary supplies",
+                    "vi": "nguồn cung bổ sung"
+                  },
+                  {
+                    "en": "national water security",
+                    "vi": "an ninh nguồn nước quốc gia"
                   }
                 ],
                 "point_collocations": [
@@ -107734,46 +107974,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "rigorous environmental regulations",
-                      "vi": "các quy định môi trường nghiêm ngặt"
+                      "en": "stringent legal frameworks",
+                      "vi": "khung pháp lý nghiêm ngặt"
                     },
                     {
-                      "en": "unregulated groundwater extraction",
-                      "vi": "khai thác nước ngầm không kiểm soát"
-                    },
-                    {
-                      "en": "punitive fines",
-                      "vi": "các chế tài xử phạt nặng"
-                    },
-                    {
-                      "en": "enforce strict regulations",
-                      "vi": "thực thi quy định nghiêm ngặt"
-                    },
-                    {
-                      "en": "waste",
-                      "vi": "lãng phí, chất thải"
+                      "en": "unregulated extraction",
+                      "vi": "khai thác không kiểm soát"
                     }
                   ],
                   [
                     {
-                      "en": "aging municipal distribution pipe networks",
-                      "vi": "mạng lưới đường ống phân phối đô thị xuống cấp"
+                      "en": "aging pipe networks",
+                      "vi": "mạng lưới đường ống xuống cấp"
                     },
                     {
-                      "en": "upgrade municipal distribution networks",
-                      "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
+                      "en": "physical water leakage",
+                      "vi": "thất thoát nước vật lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "desalination plants",
+                      "vi": "nhà máy khử mặn"
                     },
                     {
-                      "en": "advanced purification plants",
-                      "vi": "các nhà máy lọc nước tiên tiến"
-                    },
+                      "en": "supplementary supplies",
+                      "vi": "nguồn cung bổ sung"
+                    }
+                  ],
+                  [
                     {
-                      "en": "physical leakage",
-                      "vi": "thất thoát vật lý"
-                    },
-                    {
-                      "en": "recycling capacity",
-                      "vi": "khả năng tái chế nước"
+                      "en": "national water security",
+                      "vi": "an ninh nguồn nước quốc gia"
                     }
                   ]
                 ]
@@ -132349,8 +132581,8 @@ const ESSAY_DATA = [
                     "vi": "biến ý tưởng thành hiện thực"
                   }
                 ],
-                "evidence_vi": "Khi làm thuê cho công ty, họ thường phải làm theo chỉ đạo của sếp, nhưng mở doanh nghiệp riêng giúp họ tạo ra sản phẩm mình yêu thích.",
-                "evidence_en": "When working for a company, they usually follow a boss's instructions, whereas owning a business lets them create products they truly love.",
+                "evidence_vi": "Khi làm thuê cho công ty, nhân viên thường phải làm theo chỉ đạo của cấp trên và ít được thử nghiệm ý tưởng mới. Ngược lại, việc mở doanh nghiệp riêng giúp họ tạo ra các sản phẩm hoặc dịch vụ mà mình thực sự yêu thích. Vì vậy, nhiều bạn trẻ chọn khởi nghiệp để cảm thấy tự hào và có ý nghĩa hơn trong công việc.",
+                "evidence_en": "When working for a company, employees usually have to follow a boss's instructions and rarely test new ideas. In contrast, owning a business allows them to create products or services that they truly love. Therefore, many young people start businesses to feel prouder and find more meaning in their work.",
                 "evidence_collocations": [
                   [
                     {
@@ -132358,8 +132590,24 @@ const ESSAY_DATA = [
                       "vi": "làm theo chỉ đạo"
                     },
                     {
+                      "en": "test new ideas",
+                      "vi": "thử nghiệm ý tưởng mới"
+                    }
+                  ],
+                  [
+                    {
                       "en": "own a business",
                       "vi": "sở hữu doanh nghiệp riêng"
+                    },
+                    {
+                      "en": "products or services",
+                      "vi": "sản phẩm hoặc dịch vụ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "find more meaning",
+                      "vi": "tìm thấy nhiều ý nghĩa hơn"
                     }
                   ]
                 ],
@@ -132377,8 +132625,20 @@ const ESSAY_DATA = [
                     "vi": "làm theo chỉ đạo"
                   },
                   {
+                    "en": "test new ideas",
+                    "vi": "thử nghiệm ý tưởng mới"
+                  },
+                  {
                     "en": "own a business",
                     "vi": "sở hữu doanh nghiệp riêng"
+                  },
+                  {
+                    "en": "products or services",
+                    "vi": "sản phẩm hoặc dịch vụ"
+                  },
+                  {
+                    "en": "find more meaning",
+                    "vi": "tìm thấy nhiều ý nghĩa hơn"
                   }
                 ]
               },
@@ -132396,16 +132656,32 @@ const ESSAY_DATA = [
                     "vi": "doanh nhân trẻ"
                   }
                 ],
-                "evidence_vi": "Nhiều bạn trẻ cảm thấy nhàm chán với công việc văn phòng lặp đi lặp lại và muốn thử thách bản thân sau khi thấy bạn bè khởi nghiệp thành công.",
-                "evidence_en": "Many young workers feel bored with repetitive office routines and want to challenge themselves after seeing peers succeed with startups.",
+                "evidence_vi": "Nhiều nhân viên trẻ cảm thấy căng thẳng hoặc nhàm chán với công việc văn phòng lặp đi lặp lại mỗi ngày. Bên cạnh đó, họ thường đọc được câu chuyện của những doanh nhân trẻ thành công trên báo chí và mạng xã hội. Những tấm gương này truyền cảm hứng và khuyến khích họ rời công ty để tự thử thách bản thân.",
+                "evidence_en": "Many young employees feel stressed or bored with repetitive office tasks every day. In addition, they often read stories about successful young entrepreneurs in the media and online. These role models inspire them to leave their jobs and challenge themselves with a startup.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "repetitive office routines",
+                      "en": "repetitive office tasks",
                       "vi": "công việc văn phòng lặp đi lặp lại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "young entrepreneurs",
+                      "vi": "doanh nhân trẻ"
                     },
                     {
-                      "en": "challenge oneself",
+                      "en": "in the media",
+                      "vi": "trên truyền thông"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "role models",
+                      "vi": "tấm gương"
+                    },
+                    {
+                      "en": "challenge themselves",
                       "vi": "thử thách bản thân"
                     }
                   ]
@@ -132420,11 +132696,19 @@ const ESSAY_DATA = [
                     "vi": "doanh nhân trẻ"
                   },
                   {
-                    "en": "repetitive office routines",
+                    "en": "repetitive office tasks",
                     "vi": "công việc văn phòng lặp đi lặp lại"
                   },
                   {
-                    "en": "challenge oneself",
+                    "en": "in the media",
+                    "vi": "trên truyền thông"
+                  },
+                  {
+                    "en": "role models",
+                    "vi": "tấm gương"
+                  },
+                  {
+                    "en": "challenge themselves",
                     "vi": "thử thách bản thân"
                   }
                 ]
@@ -132759,8 +133043,8 @@ const ESSAY_DATA = [
                     "vi": "hiện thực hóa ý tưởng sáng tạo"
                   }
                 ],
-                "evidence_vi": "Trong môi trường doanh nghiệp truyền thống, nhân viên trẻ thường bị giới hạn trong những quy trình cứng nhắc và ít có cơ hội thử nghiệm sáng kiến mới. Bằng việc xây dựng doanh nghiệp riêng, họ có thể trực tiếp phát triển các sản phẩm ý nghĩa và tạo dấu ấn cá nhân trên thị trường.",
-                "evidence_en": "Within traditional corporate structures, junior staff are often constrained by rigid procedures and have limited room to test original concepts. By founding their own ventures, they can develop meaningful products directly and leave a personal mark on the market.",
+                "evidence_vi": "Trong các cơ cấu doanh nghiệp truyền thống, nhân viên trẻ thường bị ràng buộc bởi quy trình cứng nhắc và có rất ít không gian thử nghiệm sáng kiến cá nhân. Bằng việc thành lập doanh nghiệp riêng, họ có thể trực tiếp thiết kế các sản phẩm mang đậm dấu ấn sáng tạo và giá trị mình tin tưởng. Chẳng hạn, nhiều bạn trẻ yêu thích thời trang bền vững hoặc ẩm thực đã tự mở thương hiệu riêng thay vì làm công việc hành chính đơn điệu. Chính khát vọng tự khẳng định năng lực và tạo ra giá trị thực tiễn này đã thôi thúc họ rời bỏ công việc làm công ăn lương.",
+                "evidence_en": "Within traditional corporate structures, junior employees are often constrained by rigid procedures and have minimal room to experiment with original concepts. By founding their own ventures, they can directly shape products that reflect their creativity and personal values. For example, many young enthusiasts in sustainable fashion or culinary arts launch independent brands instead of staying in routine office roles. This strong desire for self-expression and tangible impact encourages them to leave conventional employment.",
                 "evidence_collocations": [
                   [
                     {
@@ -132774,12 +133058,32 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "found one's own venture",
+                      "en": "found their own ventures",
                       "vi": "thành lập doanh nghiệp riêng"
                     },
                     {
-                      "en": "leave a personal mark",
-                      "vi": "tạo dấu ấn cá nhân"
+                      "en": "personal values",
+                      "vi": "giá trị cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sustainable fashion",
+                      "vi": "thời trang bền vững"
+                    },
+                    {
+                      "en": "routine office roles",
+                      "vi": "vai trò văn phòng đơn điệu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-expression",
+                      "vi": "sự thể hiện bản thân"
+                    },
+                    {
+                      "en": "conventional employment",
+                      "vi": "việc làm truyền thống"
                     }
                   ]
                 ],
@@ -132801,12 +133105,28 @@ const ESSAY_DATA = [
                     "vi": "quy trình cứng nhắc"
                   },
                   {
-                    "en": "found one's own venture",
+                    "en": "found their own ventures",
                     "vi": "thành lập doanh nghiệp riêng"
                   },
                   {
-                    "en": "leave a personal mark",
-                    "vi": "tạo dấu ấn cá nhân"
+                    "en": "personal values",
+                    "vi": "giá trị cá nhân"
+                  },
+                  {
+                    "en": "sustainable fashion",
+                    "vi": "thời trang bền vững"
+                  },
+                  {
+                    "en": "routine office roles",
+                    "vi": "vai trò văn phòng đơn điệu"
+                  },
+                  {
+                    "en": "self-expression",
+                    "vi": "sự thể hiện bản thân"
+                  },
+                  {
+                    "en": "conventional employment",
+                    "vi": "việc làm truyền thống"
                   }
                 ]
               },
@@ -132824,8 +133144,8 @@ const ESSAY_DATA = [
                     "vi": "những nhà sáng lập trẻ thành công"
                   }
                 ],
-                "evidence_vi": "Nhiều lao động trẻ cảm thấy kiệt sức trước văn hóa làm thêm giờ, sự thiếu ghi nhận hoặc các mối quan hệ phức tạp nơi văn phòng. Đồng thời, những câu chuyện khởi nghiệp thành công được chia sẻ rộng rãi trên truyền thông giúp họ thêm tự tin rẽ hướng sang con đường kinh doanh độc lập.",
-                "evidence_en": "Many young employees experience burnout from overtime culture, insufficient recognition, or workplace politics. Meanwhile, widely publicized startup success stories give them the confidence to leave conventional jobs and pursue entrepreneurship.",
+                "evidence_vi": "Nhiều lao động trẻ cảm thấy kiệt sức trước văn hóa làm thêm giờ kéo dài, sự thiếu ghi nhận công bằng hoặc những áp lực quan hệ nơi công sở. Trong khi đó, truyền thông và mạng xã hội liên tục lan tỏa câu chuyện về các nhà sáng lập trẻ xây dựng sự nghiệp rực rỡ từ con số không. Ví dụ, việc chứng kiến bạn bè đồng trang lứa vận hành thành công các công ty công nghệ hay chuỗi cửa hàng tạo ra nguồn động lực tâm lý rất mạnh mẽ. Sự kết hợp giữa nỗi thất vọng nơi công sở và cảm hứng khởi nghiệp khiến ngày càng nhiều người mạnh dạn rẽ hướng.",
+                "evidence_en": "Many young professionals suffer burnout from relentless overtime culture, inadequate recognition, or stressful workplace politics. Meanwhile, mainstream media and social platforms constantly highlight young founders who built thriving enterprises from scratch. For instance, watching peers successfully run tech startups or retail chains generates powerful psychological motivation to take risks. Together, corporate dissatisfaction and entrepreneurial inspiration persuade growing numbers of young people to strike out on their own.",
                 "evidence_collocations": [
                   [
                     {
@@ -132834,17 +133154,37 @@ const ESSAY_DATA = [
                     },
                     {
                       "en": "workplace politics",
-                      "vi": "sự phức tạp trong quan hệ công sở"
+                      "vi": "mâu thuẫn / chính trị công sở"
                     }
                   ],
                   [
                     {
-                      "en": "widely publicized",
-                      "vi": "được truyền thông rộng rãi"
+                      "en": "thriving enterprises",
+                      "vi": "doanh nghiệp phát triển mạnh"
                     },
                     {
-                      "en": "pursue entrepreneurship",
-                      "vi": "theo đuổi con đường khởi nghiệp"
+                      "en": "from scratch",
+                      "vi": "từ con số không"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take risks",
+                      "vi": "chấp nhận rủi ro"
+                    },
+                    {
+                      "en": "psychological motivation",
+                      "vi": "động lực tâm lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "corporate dissatisfaction",
+                      "vi": "sự bất mãn với công sở"
+                    },
+                    {
+                      "en": "strike out on one's own",
+                      "vi": "tự lập nghiệp riêng"
                     }
                   ]
                 ],
@@ -132863,15 +133203,31 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "workplace politics",
-                    "vi": "sự phức tạp trong quan hệ công sở"
+                    "vi": "mâu thuẫn / chính trị công sở"
                   },
                   {
-                    "en": "widely publicized",
-                    "vi": "được truyền thông rộng rãi"
+                    "en": "thriving enterprises",
+                    "vi": "doanh nghiệp phát triển mạnh"
                   },
                   {
-                    "en": "pursue entrepreneurship",
-                    "vi": "theo đuổi con đường khởi nghiệp"
+                    "en": "from scratch",
+                    "vi": "từ con số không"
+                  },
+                  {
+                    "en": "take risks",
+                    "vi": "chấp nhận rủi ro"
+                  },
+                  {
+                    "en": "psychological motivation",
+                    "vi": "động lực tâm lý"
+                  },
+                  {
+                    "en": "corporate dissatisfaction",
+                    "vi": "sự bất mãn với công sở"
+                  },
+                  {
+                    "en": "strike out on one's own",
+                    "vi": "tự lập nghiệp riêng"
                   }
                 ]
               }
@@ -133711,149 +134067,293 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP",
                 "point_vi": "Áp lực học tập nặng nề là nguyên nhân hàng đầu gây căng thẳng cho giới trẻ.",
                 "point_en": "Heavy academic pressure is the leading cause of stress for young people.",
-                "evidence_vi": "Học sinh phải hoàn thành khối lượng lớn bài tập và đối mặt với các kỳ thi cạnh tranh, vì vậy các bạn luôn lo lắng về điểm số.",
-                "evidence_en": "Students must complete a heavy workload of homework and face competitive exams, so they constantly worry about their grades.",
+                "evidence_vi": "Học sinh và sinh viên phải hoàn thành rất nhiều bài tập về nhà và chuẩn bị cho các kỳ thi khó khăn. Nhiều bạn còn phải đi học thêm vào buổi tối và cuối tuần nên hầu như không có thời gian nghỉ ngơi. Vì vậy, các em thường xuyên cảm thấy lo lắng, mệt mỏi và thiếu ngủ.",
+                "evidence_en": "Students have to complete a lot of homework and prepare for difficult exams. Many of them also attend extra classes in the evenings and on weekends, so they barely have time to rest. As a result, they often feel anxious, tired, and short of sleep.",
                 "collocations": [
                   {
-                    "en": "academic pressure",
-                    "vi": "áp lực học tập"
+                    "en": "complete homework",
+                    "vi": "hoàn thành bài tập"
                   },
                   {
-                    "en": "leading cause of stress",
-                    "vi": "nguyên nhân hàng đầu gây căng thẳng"
+                    "en": "difficult exams",
+                    "vi": "các kỳ thi khó"
                   },
                   {
-                    "en": "heavy workload",
-                    "vi": "khối lượng bài vở lớn"
+                    "en": "extra classes",
+                    "vi": "lớp học thêm"
                   },
                   {
-                    "en": "competitive exams",
-                    "vi": "các kỳ thi cạnh tranh"
+                    "en": "barely have time to rest",
+                    "vi": "hầu như không có thời gian nghỉ"
                   },
                   {
-                    "en": "worry about grades",
-                    "vi": "lo lắng về điểm số"
+                    "en": "feel anxious",
+                    "vi": "cảm thấy lo lắng"
+                  },
+                  {
+                    "en": "short of sleep",
+                    "vi": "thiếu ngủ"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "complete homework",
+                      "vi": "hoàn thành bài tập"
+                    },
+                    {
+                      "en": "difficult exams",
+                      "vi": "các kỳ thi khó"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "extra classes",
+                      "vi": "lớp học thêm"
+                    },
+                    {
+                      "en": "barely have time to rest",
+                      "vi": "hầu như không có thời gian nghỉ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel anxious",
+                      "vi": "cảm thấy lo lắng"
+                    },
+                    {
+                      "en": "short of sleep",
+                      "vi": "thiếu ngủ"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: KỲ VỌNG VỀ SỰ NGHIỆP TRONG TƯƠNG LAI",
                 "point_vi": "Nỗi lo lắng về công việc tương lai cũng khiến nhiều bạn trẻ cảm thấy căng thẳng.",
                 "point_en": "Worry about future careers also makes many young people feel stressed.",
-                "evidence_vi": "Các bạn trẻ lo lắng về việc chọn ngành học và sợ không tìm được việc làm tốt sau khi ra trường.",
-                "evidence_en": "Young adults worry about choosing the right major and fear failing to find a good job after graduation.",
+                "evidence_vi": "Nhiều bậc phụ huynh luôn mong con mình đạt điểm số cao nhất và đỗ vào các trường đại học danh tiếng. Đôi khi cha mẹ còn so sánh kết quả của con với bạn bè hoặc anh chị em trong gia đình. Điều này khiến người trẻ sợ làm gia đình thất vọng và luôn sống trong áp lực nặng nề.",
+                "evidence_en": "Many parents always want their children to get the highest grades and enter top universities. Sometimes they also compare their children's results with friends or siblings. This makes young people afraid of disappointing their family and causes constant pressure.",
                 "collocations": [
                   {
-                    "en": "worry about future careers",
-                    "vi": "lo lắng về công việc tương lai"
+                    "en": "highest grades",
+                    "vi": "điểm số cao nhất"
                   },
                   {
-                    "en": "feel stressed",
-                    "vi": "cảm thấy căng thẳng"
+                    "en": "top universities",
+                    "vi": "các trường đại học hàng đầu"
                   },
                   {
-                    "en": "choose the right major",
-                    "vi": "chọn đúng ngành học"
+                    "en": "compare results",
+                    "vi": "so sánh kết quả"
                   },
                   {
-                    "en": "find a good job",
-                    "vi": "tìm được việc làm tốt"
+                    "en": "disappoint one's family",
+                    "vi": "làm gia đình thất vọng"
                   },
                   {
-                    "en": "after graduation",
-                    "vi": "sau khi tốt nghiệp"
+                    "en": "constant pressure",
+                    "vi": "áp lực thường trực"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "highest grades",
+                      "vi": "điểm số cao nhất"
+                    },
+                    {
+                      "en": "top universities",
+                      "vi": "các trường đại học hàng đầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "compare results",
+                      "vi": "so sánh kết quả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "disappoint one's family",
+                      "vi": "làm gia đình thất vọng"
+                    },
+                    {
+                      "en": "constant pressure",
+                      "vi": "áp lực thường trực"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 03: CÁC MỐI QUAN HỆ XÃ HỘI",
                 "point_vi": "Những rắc rối trong các mối quan hệ xã hội gây ra nhiều mệt mỏi cho người trẻ.",
                 "point_en": "Troubles in social relationships cause a lot of exhaustion for young people.",
-                "evidence_vi": "Nhiều bạn trẻ so sánh bản thân với người khác trên mạng xã hội và cảm thấy cô đơn khi gặp mâu thuẫn với bạn bè.",
-                "evidence_en": "Many young people compare themselves with others on social media and feel lonely when they have conflicts with friends.",
+                "evidence_vi": "Giới trẻ ngày nay dành nhiều giờ lướt mạng xã hội và thấy những hình ảnh thành công hoàn hảo của người khác. Các em thường tự so sánh ngoại hình, cuộc sống và thành tích của mình với bạn bè đồng trang lứa. Do đó, nhiều thanh thiếu niên dễ cảm thấy tự ti, buồn bã và căng thẳng tinh thần.",
+                "evidence_en": "Young people today spend hours on social media seeing perfect pictures of other people's lives. They often compare their looks, lifestyle, and achievements with their peers. Consequently, many teenagers easily feel insecure, sad, and mentally stressed.",
                 "collocations": [
                   {
-                    "en": "social relationships",
-                    "vi": "các mối quan hệ xã hội"
+                    "en": "spend hours on social media",
+                    "vi": "dành nhiều giờ trên mạng xã hội"
                   },
                   {
-                    "en": "cause a lot of exhaustion",
-                    "vi": "gây ra nhiều mệt mỏi"
+                    "en": "compare with peers",
+                    "vi": "so sánh với bạn đồng trang lứa"
                   },
                   {
-                    "en": "compare themselves with others",
-                    "vi": "so sánh bản thân với người khác"
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti"
                   },
                   {
-                    "en": "on social media",
-                    "vi": "trên mạng xã hội"
-                  },
-                  {
-                    "en": "conflicts with friends",
-                    "vi": "mâu thuẫn với bạn bè"
-                  },
-                  {
-                    "en": "feel lonely",
-                    "vi": "cảm thấy cô đơn"
+                    "en": "mentally stressed",
+                    "vi": "căng thẳng tinh thần"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spend hours on social media",
+                      "vi": "dành nhiều giờ trên mạng xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "compare with peers",
+                      "vi": "so sánh với bạn đồng trang lứa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel insecure",
+                      "vi": "cảm thấy tự ti"
+                    },
+                    {
+                      "en": "mentally stressed",
+                      "vi": "căng thẳng tinh thần"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 04: VẤN ĐỀ TÀI CHÍNH",
                 "point_vi": "Gánh nặng tài chính là một lý do phổ biến khác gây ra căng thẳng cho sinh viên.",
                 "point_en": "Financial burden is another common reason for stress among students.",
-                "evidence_vi": "Học phí và chi phí sinh hoạt ngày càng tăng, vì vậy nhiều sinh viên phải làm thêm nhiều giờ để trang trải cuộc sống.",
-                "evidence_en": "Tuition fees and living costs are rising, so many students have to work long hours in part-time jobs to cover expenses.",
+                "evidence_vi": "Thị trường việc làm ngày càng cạnh tranh khiến nhiều sinh viên lo lắng không tìm được công việc tốt sau khi tốt nghiệp. Ngoài ra, chi phí sinh hoạt tăng cao cũng khiến người trẻ áp lực về việc tự kiếm tiền nuôi sống bản thân. Vì thế, nỗi lo về tương lai trở thành nguồn gây căng thẳng lớn cho thanh niên.",
+                "evidence_en": "The job market is becoming more competitive, so many students worry about finding a good job after graduation. Moreover, rising living costs put pressure on young adults to earn enough money to support themselves. Therefore, worries about the future become a major source of stress for youth.",
                 "collocations": [
                   {
-                    "en": "financial burden",
-                    "vi": "gánh nặng tài chính"
+                    "en": "competitive job market",
+                    "vi": "thị trường việc làm cạnh tranh"
                   },
                   {
-                    "en": "common reason for stress",
-                    "vi": "lý do phổ biến gây căng thẳng"
+                    "en": "after graduation",
+                    "vi": "sau khi tốt nghiệp"
                   },
                   {
-                    "en": "tuition fees and living costs",
-                    "vi": "học phí và chi phí sinh hoạt"
+                    "en": "rising living costs",
+                    "vi": "chi phí sinh hoạt tăng cao"
                   },
                   {
-                    "en": "part-time jobs",
-                    "vi": "việc làm thêm bán thời gian"
+                    "en": "support themselves",
+                    "vi": "tự nuôi sống bản thân"
                   },
                   {
-                    "en": "cover expenses",
-                    "vi": "trang trải chi phí"
+                    "en": "source of stress",
+                    "vi": "nguồn gây căng thẳng"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "competitive job market",
+                      "vi": "thị trường việc làm cạnh tranh"
+                    },
+                    {
+                      "en": "after graduation",
+                      "vi": "sau khi tốt nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rising living costs",
+                      "vi": "chi phí sinh hoạt tăng cao"
+                    },
+                    {
+                      "en": "support themselves",
+                      "vi": "tự nuôi sống bản thân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "source of stress",
+                      "vi": "nguồn gây căng thẳng"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 05: NHỮNG THÁCH THỨC VÀ THAY ĐỔI TRONG CUỘC SỐNG",
                 "point_vi": "Việc thích nghi với những thay đổi lớn trong cuộc sống cũng tạo ra nhiều áp lực.",
                 "point_en": "Adapting to major life changes also creates a lot of pressure.",
-                "evidence_vi": "Khi chuyển đến một thành phố mới hoặc bắt đầu sống tự lập, người trẻ phải tự mình làm mọi việc và dễ cảm thấy bỡ ngỡ.",
-                "evidence_en": "When moving to a new city or starting to live independently, young people must do everything by themselves and easily feel overwhelmed.",
+                "evidence_vi": "Nhiều bạn trẻ thường thức quá khuya để dùng điện thoại, chơi game hoặc học bài dồn vào phút chót. Họ cũng ít tập thể dục và không biết cách chia sẻ cảm xúc khi gặp khó khăn. Chính lối sống thiếu cân bằng này khiến cả sức khỏe thể chất lẫn tinh thần nhanh chóng kiệt quệ.",
+                "evidence_en": "Many young people stay up too late using phones, playing games, or studying at the last minute. They also rarely exercise and do not know how to share their feelings when facing problems. This unbalanced lifestyle quickly exhausts both their physical and mental health.",
                 "collocations": [
                   {
-                    "en": "adapting to major life changes",
-                    "vi": "thích nghi với những thay đổi lớn trong cuộc sống"
+                    "en": "stay up too late",
+                    "vi": "thức quá khuya"
                   },
                   {
-                    "en": "creates a lot of pressure",
-                    "vi": "tạo ra nhiều áp lực"
+                    "en": "at the last minute",
+                    "vi": "vào phút chót"
                   },
                   {
-                    "en": "moving to a new city",
-                    "vi": "chuyển đến một thành phố mới"
+                    "en": "share feelings",
+                    "vi": "chia sẻ cảm xúc"
                   },
                   {
-                    "en": "live independently",
-                    "vi": "sống tự lập"
+                    "en": "face problems",
+                    "vi": "đối mặt khó khăn"
                   },
                   {
-                    "en": "feel overwhelmed",
-                    "vi": "cảm thấy bỡ ngỡ / quá tải"
+                    "en": "unbalanced lifestyle",
+                    "vi": "lối sống thiếu cân bằng"
+                  },
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stay up too late",
+                      "vi": "thức quá khuya"
+                    },
+                    {
+                      "en": "at the last minute",
+                      "vi": "vào phút chót"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "share feelings",
+                      "vi": "chia sẻ cảm xúc"
+                    },
+                    {
+                      "en": "face problems",
+                      "vi": "đối mặt khó khăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unbalanced lifestyle",
+                      "vi": "lối sống thiếu cân bằng"
+                    },
+                    {
+                      "en": "physical and mental health",
+                      "vi": "sức khỏe thể chất và tinh thần"
+                    }
+                  ]
                 ]
               }
             ],
@@ -133862,8 +134362,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP",
                 "point_vi": "Áp lực học tập nặng nề là nguyên nhân hàng đầu gây căng thẳng cho giới trẻ.",
                 "point_en": "Heavy academic pressure is the leading cause of stress for young people.",
-                "evidence_vi": "Học sinh phải hoàn thành khối lượng lớn bài tập và đối mặt với các kỳ thi cạnh tranh, vì vậy các bạn luôn lo lắng về điểm số.",
-                "evidence_en": "Students must complete a heavy workload of homework and face competitive exams, so they constantly worry about their grades.",
+                "evidence_vi": "Học sinh và sinh viên phải hoàn thành rất nhiều bài tập về nhà và chuẩn bị cho các kỳ thi khó khăn. Nhiều bạn còn phải đi học thêm vào buổi tối và cuối tuần nên hầu như không có thời gian nghỉ ngơi. Vì vậy, các em thường xuyên cảm thấy lo lắng, mệt mỏi và thiếu ngủ.",
+                "evidence_en": "Students have to complete a lot of homework and prepare for difficult exams. Many of them also attend extra classes in the evenings and on weekends, so they barely have time to rest. As a result, they often feel anxious, tired, and short of sleep.",
                 "collocations": [
                   {
                     "en": "academic pressure",
@@ -133874,16 +134374,40 @@ const ESSAY_DATA = [
                     "vi": "nguyên nhân hàng đầu gây căng thẳng"
                   },
                   {
-                    "en": "heavy workload",
-                    "vi": "khối lượng bài vở lớn"
+                    "en": "stress among young people",
+                    "vi": "căng thẳng ở giới trẻ"
                   },
                   {
-                    "en": "competitive exams",
-                    "vi": "các kỳ thi cạnh tranh"
+                    "en": "stress",
+                    "vi": "sự căng thẳng, áp lực"
                   },
                   {
-                    "en": "worry about grades",
-                    "vi": "lo lắng về điểm số"
+                    "en": "pressure",
+                    "vi": "áp lực, sự đè nặng"
+                  },
+                  {
+                    "en": "complete homework",
+                    "vi": "hoàn thành bài tập"
+                  },
+                  {
+                    "en": "difficult exams",
+                    "vi": "các kỳ thi khó"
+                  },
+                  {
+                    "en": "extra classes",
+                    "vi": "lớp học thêm"
+                  },
+                  {
+                    "en": "barely have time to rest",
+                    "vi": "hầu như không có thời gian nghỉ"
+                  },
+                  {
+                    "en": "feel anxious",
+                    "vi": "cảm thấy lo lắng"
+                  },
+                  {
+                    "en": "short of sleep",
+                    "vi": "thiếu ngủ"
                   }
                 ],
                 "point_collocations": [
@@ -133911,24 +134435,32 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "heavy workload",
-                      "vi": "khối lượng bài vở lớn"
+                      "en": "complete homework",
+                      "vi": "hoàn thành bài tập"
                     },
                     {
-                      "en": "competitive exams",
-                      "vi": "các kỳ thi cạnh tranh"
+                      "en": "difficult exams",
+                      "vi": "các kỳ thi khó"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "extra classes",
+                      "vi": "lớp học thêm"
                     },
                     {
-                      "en": "worry about grades",
-                      "vi": "lo lắng về điểm số"
+                      "en": "barely have time to rest",
+                      "vi": "hầu như không có thời gian nghỉ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel anxious",
+                      "vi": "cảm thấy lo lắng"
                     },
                     {
-                      "en": "workload",
-                      "vi": "khối lượng công việc / bài vở"
-                    },
-                    {
-                      "en": "competitive",
-                      "vi": "có tính cạnh tranh"
+                      "en": "short of sleep",
+                      "vi": "thiếu ngủ"
                     }
                   ]
                 ]
@@ -133937,8 +134469,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 02: KỲ VỌNG VỀ SỰ NGHIỆP TRONG TƯƠNG LAI",
                 "point_vi": "Nỗi lo lắng về công việc tương lai cũng khiến nhiều bạn trẻ cảm thấy căng thẳng.",
                 "point_en": "Worry about future careers also makes many young people feel stressed.",
-                "evidence_vi": "Các bạn trẻ lo lắng về việc chọn ngành học và sợ không tìm được việc làm tốt sau khi ra trường.",
-                "evidence_en": "Young adults worry about choosing the right major and fear failing to find a good job after graduation.",
+                "evidence_vi": "Nhiều bậc phụ huynh luôn mong con mình đạt điểm số cao nhất và đỗ vào các trường đại học danh tiếng. Đôi khi cha mẹ còn so sánh kết quả của con với bạn bè hoặc anh chị em trong gia đình. Điều này khiến người trẻ sợ làm gia đình thất vọng và luôn sống trong áp lực nặng nề.",
+                "evidence_en": "Many parents always want their children to get the highest grades and enter top universities. Sometimes they also compare their children's results with friends or siblings. This makes young people afraid of disappointing their family and causes constant pressure.",
                 "collocations": [
                   {
                     "en": "worry about future careers",
@@ -133949,16 +134481,36 @@ const ESSAY_DATA = [
                     "vi": "cảm thấy căng thẳng"
                   },
                   {
-                    "en": "choose the right major",
-                    "vi": "chọn đúng ngành học"
+                    "en": "stress among young people",
+                    "vi": "căng thẳng ở giới trẻ"
                   },
                   {
-                    "en": "find a good job",
-                    "vi": "tìm được việc làm tốt"
+                    "en": "worry about grades",
+                    "vi": "lo lắng về điểm số"
                   },
                   {
-                    "en": "after graduation",
-                    "vi": "sau khi tốt nghiệp"
+                    "en": "uncertainty about the future",
+                    "vi": "sự bất định về tương lai"
+                  },
+                  {
+                    "en": "highest grades",
+                    "vi": "điểm số cao nhất"
+                  },
+                  {
+                    "en": "top universities",
+                    "vi": "các trường đại học hàng đầu"
+                  },
+                  {
+                    "en": "compare results",
+                    "vi": "so sánh kết quả"
+                  },
+                  {
+                    "en": "disappoint one's family",
+                    "vi": "làm gia đình thất vọng"
+                  },
+                  {
+                    "en": "constant pressure",
+                    "vi": "áp lực thường trực"
                   }
                 ],
                 "point_collocations": [
@@ -133986,24 +134538,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "worry about future careers",
-                      "vi": "lo lắng về công việc tương lai"
+                      "en": "highest grades",
+                      "vi": "điểm số cao nhất"
                     },
                     {
-                      "en": "choose the right major",
-                      "vi": "chọn đúng ngành học"
+                      "en": "top universities",
+                      "vi": "các trường đại học hàng đầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "compare results",
+                      "vi": "so sánh kết quả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "disappoint one's family",
+                      "vi": "làm gia đình thất vọng"
                     },
                     {
-                      "en": "find a good job",
-                      "vi": "tìm được việc làm tốt"
-                    },
-                    {
-                      "en": "after graduation",
-                      "vi": "sau khi tốt nghiệp"
-                    },
-                    {
-                      "en": "worry about grades",
-                      "vi": "lo lắng về điểm số"
+                      "en": "constant pressure",
+                      "vi": "áp lực thường trực"
                     }
                   ]
                 ]
@@ -134012,8 +134568,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 03: CÁC MỐI QUAN HỆ XÃ HỘI",
                 "point_vi": "Những rắc rối trong các mối quan hệ xã hội gây ra nhiều mệt mỏi cho người trẻ.",
                 "point_en": "Troubles in social relationships cause a lot of exhaustion for young people.",
-                "evidence_vi": "Nhiều bạn trẻ so sánh bản thân với người khác trên mạng xã hội và cảm thấy cô đơn khi gặp mâu thuẫn với bạn bè.",
-                "evidence_en": "Many young people compare themselves with others on social media and feel lonely when they have conflicts with friends.",
+                "evidence_vi": "Giới trẻ ngày nay dành nhiều giờ lướt mạng xã hội và thấy những hình ảnh thành công hoàn hảo của người khác. Các em thường tự so sánh ngoại hình, cuộc sống và thành tích của mình với bạn bè đồng trang lứa. Do đó, nhiều thanh thiếu niên dễ cảm thấy tự ti, buồn bã và căng thẳng tinh thần.",
+                "evidence_en": "Young people today spend hours on social media seeing perfect pictures of other people's lives. They often compare their looks, lifestyle, and achievements with their peers. Consequently, many teenagers easily feel insecure, sad, and mentally stressed.",
                 "collocations": [
                   {
                     "en": "social relationships",
@@ -134024,20 +134580,32 @@ const ESSAY_DATA = [
                     "vi": "gây ra nhiều mệt mỏi"
                   },
                   {
-                    "en": "compare themselves with others",
-                    "vi": "so sánh bản thân với người khác"
+                    "en": "stress among young people",
+                    "vi": "căng thẳng ở giới trẻ"
                   },
                   {
-                    "en": "on social media",
-                    "vi": "trên mạng xã hội"
+                    "en": "exhaustion",
+                    "vi": "sự kiệt sức, tình trạng kiệt quệ"
                   },
                   {
-                    "en": "conflicts with friends",
-                    "vi": "mâu thuẫn với bạn bè"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
                   },
                   {
-                    "en": "feel lonely",
-                    "vi": "cảm thấy cô đơn"
+                    "en": "spend hours on social media",
+                    "vi": "dành nhiều giờ trên mạng xã hội"
+                  },
+                  {
+                    "en": "compare with peers",
+                    "vi": "so sánh với bạn đồng trang lứa"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti"
+                  },
+                  {
+                    "en": "mentally stressed",
+                    "vi": "căng thẳng tinh thần"
                   }
                 ],
                 "point_collocations": [
@@ -134065,24 +134633,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "compare themselves with others",
-                      "vi": "so sánh bản thân với người khác"
+                      "en": "spend hours on social media",
+                      "vi": "dành nhiều giờ trên mạng xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "compare with peers",
+                      "vi": "so sánh với bạn đồng trang lứa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel insecure",
+                      "vi": "cảm thấy tự ti"
                     },
                     {
-                      "en": "on social media",
-                      "vi": "trên mạng xã hội"
-                    },
-                    {
-                      "en": "conflicts with friends",
-                      "vi": "mâu thuẫn với bạn bè"
-                    },
-                    {
-                      "en": "feel lonely",
-                      "vi": "cảm thấy cô đơn"
-                    },
-                    {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
+                      "en": "mentally stressed",
+                      "vi": "căng thẳng tinh thần"
                     }
                   ]
                 ]
@@ -134091,8 +134659,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 04: VẤN ĐỀ TÀI CHÍNH",
                 "point_vi": "Gánh nặng tài chính là một lý do phổ biến khác gây ra căng thẳng cho sinh viên.",
                 "point_en": "Financial burden is another common reason for stress among students.",
-                "evidence_vi": "Học phí và chi phí sinh hoạt ngày càng tăng, vì vậy nhiều sinh viên phải làm thêm nhiều giờ để trang trải cuộc sống.",
-                "evidence_en": "Tuition fees and living costs are rising, so many students have to work long hours in part-time jobs to cover expenses.",
+                "evidence_vi": "Thị trường việc làm ngày càng cạnh tranh khiến nhiều sinh viên lo lắng không tìm được công việc tốt sau khi tốt nghiệp. Ngoài ra, chi phí sinh hoạt tăng cao cũng khiến người trẻ áp lực về việc tự kiếm tiền nuôi sống bản thân. Vì thế, nỗi lo về tương lai trở thành nguồn gây căng thẳng lớn cho thanh niên.",
+                "evidence_en": "The job market is becoming more competitive, so many students worry about finding a good job after graduation. Moreover, rising living costs put pressure on young adults to earn enough money to support themselves. Therefore, worries about the future become a major source of stress for youth.",
                 "collocations": [
                   {
                     "en": "financial burden",
@@ -134103,16 +134671,32 @@ const ESSAY_DATA = [
                     "vi": "lý do phổ biến gây căng thẳng"
                   },
                   {
-                    "en": "tuition fees and living costs",
-                    "vi": "học phí và chi phí sinh hoạt"
+                    "en": "stress among young people",
+                    "vi": "căng thẳng ở giới trẻ"
                   },
                   {
-                    "en": "part-time jobs",
-                    "vi": "việc làm thêm bán thời gian"
+                    "en": "stress",
+                    "vi": "sự căng thẳng, áp lực"
                   },
                   {
-                    "en": "cover expenses",
-                    "vi": "trang trải chi phí"
+                    "en": "competitive job market",
+                    "vi": "thị trường việc làm cạnh tranh"
+                  },
+                  {
+                    "en": "after graduation",
+                    "vi": "sau khi tốt nghiệp"
+                  },
+                  {
+                    "en": "rising living costs",
+                    "vi": "chi phí sinh hoạt tăng cao"
+                  },
+                  {
+                    "en": "support themselves",
+                    "vi": "tự nuôi sống bản thân"
+                  },
+                  {
+                    "en": "source of stress",
+                    "vi": "nguồn gây căng thẳng"
                   }
                 ],
                 "point_collocations": [
@@ -134136,24 +134720,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "tuition fees and living costs",
-                      "vi": "học phí và chi phí sinh hoạt"
+                      "en": "competitive job market",
+                      "vi": "thị trường việc làm cạnh tranh"
                     },
                     {
-                      "en": "part-time jobs",
-                      "vi": "việc làm thêm bán thời gian"
+                      "en": "after graduation",
+                      "vi": "sau khi tốt nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rising living costs",
+                      "vi": "chi phí sinh hoạt tăng cao"
                     },
                     {
-                      "en": "cover expenses",
-                      "vi": "trang trải chi phí"
-                    },
+                      "en": "support themselves",
+                      "vi": "tự nuôi sống bản thân"
+                    }
+                  ],
+                  [
                     {
-                      "en": "tuition fees",
-                      "vi": "học phí"
-                    },
-                    {
-                      "en": "living expenses",
-                      "vi": "chi phí sinh hoạt"
+                      "en": "source of stress",
+                      "vi": "nguồn gây căng thẳng"
                     }
                   ]
                 ]
@@ -134162,8 +134750,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 05: NHỮNG THÁCH THỨC VÀ THAY ĐỔI TRONG CUỘC SỐNG",
                 "point_vi": "Việc thích nghi với những thay đổi lớn trong cuộc sống cũng tạo ra nhiều áp lực.",
                 "point_en": "Adapting to major life changes also creates a lot of pressure.",
-                "evidence_vi": "Khi chuyển đến một thành phố mới hoặc bắt đầu sống tự lập, người trẻ phải tự mình làm mọi việc và dễ cảm thấy bỡ ngỡ.",
-                "evidence_en": "When moving to a new city or starting to live independently, young people must do everything by themselves and easily feel overwhelmed.",
+                "evidence_vi": "Nhiều bạn trẻ thường thức quá khuya để dùng điện thoại, chơi game hoặc học bài dồn vào phút chót. Họ cũng ít tập thể dục và không biết cách chia sẻ cảm xúc khi gặp khó khăn. Chính lối sống thiếu cân bằng này khiến cả sức khỏe thể chất lẫn tinh thần nhanh chóng kiệt quệ.",
+                "evidence_en": "Many young people stay up too late using phones, playing games, or studying at the last minute. They also rarely exercise and do not know how to share their feelings when facing problems. This unbalanced lifestyle quickly exhausts both their physical and mental health.",
                 "collocations": [
                   {
                     "en": "adapting to major life changes",
@@ -134174,16 +134762,40 @@ const ESSAY_DATA = [
                     "vi": "tạo ra nhiều áp lực"
                   },
                   {
-                    "en": "moving to a new city",
-                    "vi": "chuyển đến một thành phố mới"
+                    "en": "pressure",
+                    "vi": "áp lực, sự đè nặng"
                   },
                   {
-                    "en": "live independently",
-                    "vi": "sống tự lập"
+                    "en": "adapt",
+                    "vi": "thích nghi, làm quen"
                   },
                   {
-                    "en": "feel overwhelmed",
-                    "vi": "cảm thấy bỡ ngỡ / quá tải"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
+                  },
+                  {
+                    "en": "stay up too late",
+                    "vi": "thức quá khuya"
+                  },
+                  {
+                    "en": "at the last minute",
+                    "vi": "vào phút chót"
+                  },
+                  {
+                    "en": "share feelings",
+                    "vi": "chia sẻ cảm xúc"
+                  },
+                  {
+                    "en": "face problems",
+                    "vi": "đối mặt khó khăn"
+                  },
+                  {
+                    "en": "unbalanced lifestyle",
+                    "vi": "lối sống thiếu cân bằng"
+                  },
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
                   }
                 ],
                 "point_collocations": [
@@ -134211,24 +134823,32 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "moving to a new city",
-                      "vi": "chuyển đến một thành phố mới"
+                      "en": "stay up too late",
+                      "vi": "thức quá khuya"
                     },
                     {
-                      "en": "live independently",
-                      "vi": "sống tự lập"
+                      "en": "at the last minute",
+                      "vi": "vào phút chót"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "share feelings",
+                      "vi": "chia sẻ cảm xúc"
                     },
                     {
-                      "en": "feel overwhelmed",
-                      "vi": "cảm thấy bỡ ngỡ / quá tải"
+                      "en": "face problems",
+                      "vi": "đối mặt khó khăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unbalanced lifestyle",
+                      "vi": "lối sống thiếu cân bằng"
                     },
                     {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
-                    },
-                    {
-                      "en": "independent",
-                      "vi": "tự lập, độc lập"
+                      "en": "physical and mental health",
+                      "vi": "sức khỏe thể chất và tinh thần"
                     }
                   ]
                 ]
@@ -134242,181 +134862,343 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP",
                 "point_vi": "Áp lực học tập nặng nề và sự cạnh tranh điểm số khốc liệt là nguyên nhân chủ yếu khiến giới trẻ rơi vào tình trạng căng thẳng kéo dài.",
                 "point_en": "Intense academic pressure and demanding curriculum requirements represent a primary source of chronic stress for modern students.",
-                "evidence_vi": "Học sinh và sinh viên ngày nay thường xuyên phải đối mặt với lịch học dày đặc cùng vô số bài tập lớn và các kỳ thi chuẩn hóa quan trọng. Sự kỳ vọng cao từ phía gia đình cùng thói quen so sánh điểm số với bạn bè đồng trang lứa tạo ra gánh nặng tâm lý nặng nề, khiến nhiều bạn trẻ kiệt sức cả về thể chất lẫn tinh thần.",
-                "evidence_en": "Modern learners are frequently overwhelmed by dense course schedules, demanding assignments, and high-stakes standardized examinations. Moreover, unrealistic academic expectations from parents combined with peer comparison create immense psychological distress, which frequently leads to emotional exhaustion and burnout.",
+                "evidence_vi": "Học sinh và sinh viên hiện đại thường xuyên phải xoay xở với lịch học dày đặc, hàng loạt bài tập lớn và những kỳ thi chuẩn hóa có tính cạnh tranh cao. Bên cạnh đó, kỳ vọng khắt khe từ phụ huynh cùng thói quen so sánh thành tích giữa các bạn đồng trang lứa càng làm tăng gánh nặng tâm lý. Ví dụ, nhiều học sinh cuối cấp phải học thêm liên tục đến tận khuya để giành suất vào các trường đại học hàng đầu. Khi áp lực thành tích kéo dài mà thiếu sự nghỉ ngơi, giới trẻ rất dễ rơi vào tình trạng kiệt sức cảm xúc và lo âu mạn tính.",
+                "evidence_en": "Modern learners are constantly overwhelmed by dense course schedules, demanding assignments, and high-stakes standardized examinations. Moreover, strict parental expectations combined with intense peer comparison place an enormous psychological weight on students. For example, many high school seniors attend cram classes late into the night just to secure places at prestigious universities. When such relentless academic demands persist without adequate rest, young people frequently suffer emotional burnout and chronic anxiety.",
                 "collocations": [
-                  {
-                    "en": "academic pressure",
-                    "vi": "áp lực học tập"
-                  },
-                  {
-                    "en": "demanding curriculum requirements",
-                    "vi": "yêu cầu chương trình học khắt khe"
-                  },
                   {
                     "en": "dense course schedules",
                     "vi": "lịch học dày đặc"
                   },
                   {
-                    "en": "demanding assignments",
-                    "vi": "vô số bài tập lớn"
+                    "en": "high-stakes examinations",
+                    "vi": "kỳ thi quan trọng mang tính quyết định"
                   },
                   {
-                    "en": "high-stakes standardized examinations",
-                    "vi": "các kỳ thi chuẩn hóa quan trọng"
+                    "en": "intense peer comparison",
+                    "vi": "sự so sánh gay gắt với bạn cùng lứa"
                   },
                   {
-                    "en": "unrealistic academic expectations",
-                    "vi": "kỳ vọng học tập thiếu thực tế"
+                    "en": "cram classes",
+                    "vi": "lớp học luyện thi / học thêm"
                   },
                   {
-                    "en": "peer comparison",
-                    "vi": "so sánh điểm số với bạn bè"
+                    "en": "prestigious universities",
+                    "vi": "các trường đại học danh tiếng"
                   },
                   {
-                    "en": "emotional exhaustion and burnout",
-                    "vi": "kiệt sức cả về thể chất lẫn tinh thần"
+                    "en": "emotional burnout",
+                    "vi": "kiệt sức về cảm xúc"
+                  },
+                  {
+                    "en": "chronic anxiety",
+                    "vi": "lo âu kéo dài"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dense course schedules",
+                      "vi": "lịch học dày đặc"
+                    },
+                    {
+                      "en": "high-stakes examinations",
+                      "vi": "kỳ thi quan trọng mang tính quyết định"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intense peer comparison",
+                      "vi": "sự so sánh gay gắt với bạn cùng lứa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cram classes",
+                      "vi": "lớp học luyện thi / học thêm"
+                    },
+                    {
+                      "en": "prestigious universities",
+                      "vi": "các trường đại học danh tiếng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional burnout",
+                      "vi": "kiệt sức về cảm xúc"
+                    },
+                    {
+                      "en": "chronic anxiety",
+                      "vi": "lo âu kéo dài"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: KỲ VỌNG VỀ SỰ NGHIỆP TRONG TƯƠNG LAI",
                 "point_vi": "Sự bất định về định hướng nghề nghiệp và áp lực phải đạt được thành công tài chính tạo ra nỗi bất an lớn cho thanh niên.",
                 "point_en": "Uncertainty surrounding career prospects and the intense pressure to achieve financial success generate profound anxiety for young adults.",
-                "evidence_vi": "Thị trường lao động ngày càng cạnh tranh gay gắt đòi hỏi sinh viên mới tốt nghiệp phải sở hữu nhiều kỹ năng và kinh nghiệm thực tế để tìm được việc làm tốt. Nỗi sợ không đáp ứng được kỳ vọng của gia đình và viễn cảnh thất nghiệp sau khi ra trường khiến nhiều người trẻ rơi vào trạng thái hoang mang và lo âu thường trực.",
-                "evidence_en": "The increasingly competitive job market requires fresh graduates to possess exceptional qualifications and diverse professional skills to secure stable employment. Consequently, the pervasive fear of unemployment and the anxiety of disappointing family expectations cause prolonged mental strain among young job seekers.",
+                "evidence_vi": "Thị trường lao động ngày càng cạnh tranh khốc liệt đòi hỏi sinh viên mới ra trường phải sở hữu bằng cấp xuất sắc lẫn kỹ năng thực tế đa dạng. Đồng thời, tốc độ thay đổi nhanh chóng của công nghệ và biến động kinh tế khiến nhiều bạn trẻ bất an về sự ổn định nghề nghiệp lâu dài. Chẳng hạn, không ít cử nhân mới tốt nghiệp phải nộp hàng chục hồ sơ trong nhiều tháng nhưng vẫn chật vật tìm kiếm vị trí phù hợp. Nỗi sợ thất nghiệp và áp lực khẳng định bản thân sớm khiến thế hệ trẻ luôn sống trong trạng thái căng thẳng kéo dài.",
+                "evidence_en": "An increasingly competitive labor market demands that fresh graduates possess both outstanding qualifications and versatile practical skills. At the same time, rapid technological shifts and economic uncertainty leave many young adults anxious about long-term job stability. For instance, numerous university graduates submit dozens of applications for months yet still struggle to land suitable positions. This pervasive fear of unemployment and pressure to succeed early subject young people to prolonged mental strain.",
                 "collocations": [
                   {
-                    "en": "career prospects",
-                    "vi": "định hướng nghề nghiệp / triển vọng sự nghiệp"
+                    "en": "outstanding qualifications",
+                    "vi": "bằng cấp xuất sắc"
                   },
                   {
-                    "en": "achieve financial success",
-                    "vi": "đạt được thành công tài chính"
+                    "en": "versatile practical skills",
+                    "vi": "kỹ năng thực tế đa dạng"
                   },
                   {
-                    "en": "competitive job market",
-                    "vi": "thị trường lao động cạnh tranh gay gắt"
+                    "en": "economic uncertainty",
+                    "vi": "sự bất ổn kinh tế"
                   },
                   {
-                    "en": "secure stable employment",
-                    "vi": "tìm được việc làm tốt / việc làm ổn định"
+                    "en": "job stability",
+                    "vi": "sự ổn định việc làm"
                   },
                   {
-                    "en": "fear of unemployment",
-                    "vi": "nỗi sợ thất nghiệp"
-                  },
-                  {
-                    "en": "disappointing family expectations",
-                    "vi": "không đáp ứng được kỳ vọng của gia đình"
+                    "en": "land suitable positions",
+                    "vi": "tìm được vị trí phù hợp"
                   },
                   {
                     "en": "prolonged mental strain",
-                    "vi": "trạng thái hoang mang và lo âu thường trực"
+                    "vi": "căng thẳng tinh thần kéo dài"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "outstanding qualifications",
+                      "vi": "bằng cấp xuất sắc"
+                    },
+                    {
+                      "en": "versatile practical skills",
+                      "vi": "kỹ năng thực tế đa dạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "economic uncertainty",
+                      "vi": "sự bất ổn kinh tế"
+                    },
+                    {
+                      "en": "job stability",
+                      "vi": "sự ổn định việc làm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "land suitable positions",
+                      "vi": "tìm được vị trí phù hợp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prolonged mental strain",
+                      "vi": "căng thẳng tinh thần kéo dài"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 03: CÁC MỐI QUAN HỆ XÃ HỘI",
                 "point_vi": "Áp lực hòa nhập xã hội và xu hướng so sánh bản thân trên mạng xã hội làm gia tăng căng thẳng tinh thần ở giới trẻ.",
                 "point_en": "The desire for social acceptance and unhealthy comparisons on digital platforms significantly intensify psychological stress among adolescents.",
-                "evidence_vi": "Người trẻ thường xuyên tiếp xúc với những hình ảnh hào nhoáng, thành công của người khác trên mạng xã hội, dẫn đến cảm giác tự ti và lo sợ bị bỏ lại phía sau. Bên cạnh đó, những hiểu lầm hay mâu thuẫn trong các mối quan hệ bạn bè thân thiết dễ khiến thanh thiếu niên cảm thấy bị cô lập và tổn thương.",
-                "evidence_en": "Constant exposure to idealized lifestyles on social networking sites often triggers feelings of inadequacy and the fear of missing out. Furthermore, interpersonal misunderstandings and social conflicts with peer groups leave many teenagers feeling emotionally isolated and insecure.",
+                "evidence_vi": "Việc liên tục tiếp xúc với những hình ảnh hào nhoáng và thành công được chọn lọc trên mạng xã hội dễ khơi dậy cảm giác tự ti và nỗi sợ bị bỏ lại phía sau. Hơn nữa, những mâu thuẫn trong nhóm bạn, áp lực phải hòa nhập hoặc nạn bắt nạt trực tuyến có thể gây tổn thương tâm lý sâu sắc. Ví dụ, nhiều thanh thiếu niên cảm thấy bất an chỉ vì bài đăng của mình nhận được ít lượt thích hoặc bị bình luận tiêu cực trên mạng. Theo thời gian, sự thiếu gắn kết chân thành ngoài đời thực khiến các em cảm thấy cô lập và ngày càng căng thẳng.",
+                "evidence_en": "Constant exposure to idealized lifestyles and curated success stories on social media frequently triggers feelings of inadequacy and fear of missing out. Furthermore, conflicts within friend groups, pressure to fit in, or cyberbullying can inflict deep emotional wounds. For example, many adolescents feel deeply insecure simply because their posts receive few likes or attract harsh online comments. Over time, a lack of genuine offline support leaves them feeling isolated and increasingly stressed.",
                 "collocations": [
                   {
-                    "en": "social acceptance",
-                    "vi": "hòa nhập xã hội / sự chấp nhận của xã hội"
-                  },
-                  {
-                    "en": "unhealthy comparisons on digital platforms",
-                    "vi": "so sánh bản thân trên mạng xã hội"
-                  },
-                  {
-                    "en": "idealized lifestyles",
-                    "vi": "hình ảnh hào nhoáng thành công"
+                    "en": "curated success stories",
+                    "vi": "câu chuyện thành công được tô vẽ"
                   },
                   {
                     "en": "feelings of inadequacy",
-                    "vi": "cảm giác tự ti"
+                    "vi": "cảm giác kém cỏi / tự ti"
                   },
                   {
-                    "en": "fear of missing out",
-                    "vi": "lo sợ bị bỏ lại phía sau"
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt trực tuyến"
                   },
                   {
-                    "en": "interpersonal misunderstandings",
-                    "vi": "những hiểu lầm trong quan hệ bạn bè"
+                    "en": "emotional wounds",
+                    "vi": "tổn thương cảm xúc"
                   },
                   {
-                    "en": "emotionally isolated and insecure",
-                    "vi": "cảm thấy bị cô lập và tổn thương"
+                    "en": "harsh online comments",
+                    "vi": "bình luận gay gắt trên mạng"
+                  },
+                  {
+                    "en": "genuine offline support",
+                    "vi": "sự hỗ trợ chân thành ngoài đời thực"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "curated success stories",
+                      "vi": "câu chuyện thành công được tô vẽ"
+                    },
+                    {
+                      "en": "feelings of inadequacy",
+                      "vi": "cảm giác kém cỏi / tự ti"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cyberbullying",
+                      "vi": "bắt nạt trực tuyến"
+                    },
+                    {
+                      "en": "emotional wounds",
+                      "vi": "tổn thương cảm xúc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "harsh online comments",
+                      "vi": "bình luận gay gắt trên mạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "genuine offline support",
+                      "vi": "sự hỗ trợ chân thành ngoài đời thực"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 04: VẤN ĐỀ TÀI CHÍNH",
                 "point_vi": "Khó khăn về tài chính và chi phí học tập đắt đỏ đặt lên vai người trẻ những gánh nặng sinh nhai nặng nề.",
                 "point_en": "Financial hardship and escalating education expenses place a heavy economic burden on young adults striving for independence.",
-                "evidence_vi": "Mức học phí đại học tăng cao cùng chi phí thuê nhà và sinh hoạt đắt đỏ tại các thành phố lớn khiến nhiều sinh viên phải gánh những khoản nợ lớn. Để tự trang trải chi phí, nhiều bạn trẻ buộc phải vừa học vừa làm thêm cật lực, dẫn đến tình trạng thiếu ngủ trầm trọng và căng thẳng kéo dài.",
-                "evidence_en": "Skyrocketing university tuition fees combined with high accommodation and daily living costs force many students to accumulate significant debt. In order to sustain themselves, young people frequently juggle demanding part-time jobs alongside rigorous academic studies, resulting in chronic sleep deprivation and severe stress.",
+                "evidence_vi": "Học phí đại học ngày càng đắt đỏ kết hợp với giá thuê nhà và chi phí sinh hoạt tăng cao tại các đô thị lớn đặt gánh nặng tài chính lên vai người trẻ. Để tự trang trải chi tiêu và giảm bớt nợ học phí, nhiều sinh viên buộc phải nhận những công việc làm thêm tốn nhiều sức lực song song với lịch học dày đặc. Chẳng hạn, không ít sinh viên làm việc ca tối tại nhà hàng hoặc cửa hàng tiện lợi rồi tiếp tục ôn thi đến rạng sáng. Sự căng thẳng kéo dài giữa bài vở và mưu sinh dẫn đến thiếu ngủ trầm trọng và suy kiệt tinh thần.",
+                "evidence_en": "Escalating university tuition fees combined with soaring rent and living expenses in major cities place a heavy financial burden on young adults. To cover daily costs and avoid heavy student debt, many learners must take on demanding part-time jobs alongside full academic workloads. For instance, numerous students work evening shifts in cafes or retail stores before staying up late to complete assignments. Juggling financial survival with academic demands frequently results in severe sleep deprivation and persistent stress.",
                 "collocations": [
                   {
-                    "en": "financial hardship",
-                    "vi": "khó khăn về tài chính"
+                    "en": "soaring rent",
+                    "vi": "tiền thuê nhà tăng vọt"
                   },
                   {
-                    "en": "escalating education expenses",
-                    "vi": "chi phí học tập đắt đỏ"
+                    "en": "financial burden",
+                    "vi": "gánh nặng tài chính"
                   },
                   {
-                    "en": "skyrocketing university tuition fees",
-                    "vi": "học phí đại học tăng cao"
+                    "en": "student debt",
+                    "vi": "nợ học phí sinh viên"
                   },
                   {
-                    "en": "accumulate significant debt",
-                    "vi": "gánh những khoản nợ lớn"
+                    "en": "academic workloads",
+                    "vi": "khối lượng học tập"
                   },
                   {
-                    "en": "juggle demanding part-time jobs",
-                    "vi": "vừa học vừa làm thêm cật lực"
+                    "en": "work evening shifts",
+                    "vi": "làm ca tối"
                   },
                   {
-                    "en": "chronic sleep deprivation",
+                    "en": "sleep deprivation",
                     "vi": "tình trạng thiếu ngủ trầm trọng"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "soaring rent",
+                      "vi": "tiền thuê nhà tăng vọt"
+                    },
+                    {
+                      "en": "financial burden",
+                      "vi": "gánh nặng tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "student debt",
+                      "vi": "nợ học phí sinh viên"
+                    },
+                    {
+                      "en": "academic workloads",
+                      "vi": "khối lượng học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "work evening shifts",
+                      "vi": "làm ca tối"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sleep deprivation",
+                      "vi": "tình trạng thiếu ngủ trầm trọng"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 05: NHỮNG THÁCH THỨC VÀ THAY ĐỔI TRONG CUỘC SỐNG",
                 "point_vi": "Những bước ngoặt lớn trong cuộc sống và quá trình thích nghi với môi trường sống độc lập thường đẩy người trẻ vào trạng thái khủng hoảng tâm lý.",
                 "point_en": "Major transitional phases and the abrupt shift toward independent adulthood frequently induce emotional turmoil and anxiety.",
-                "evidence_vi": "Quá trình chuyển tiếp từ môi trường phổ thông lên giảng đường đại học hoặc rời xa gia đình để đến một thành phố xa lạ đòi hỏi thanh niên phải tự quản lý thời gian và giải quyết mọi khó khăn cá nhân. Việc thiếu vắng sự hỗ trợ trực tiếp từ gia đình và khó khăn trong việc thích ứng với nhịp sống mới khiến nhiều bạn trẻ cảm thấy chới với và căng thẳng sâu sắc.",
-                "evidence_en": "Transitioning from secondary education to university or moving away from home demands that young people master self-discipline, time management, and domestic responsibilities simultaneously. Without immediate emotional guidance from family members, navigating these sudden lifestyle changes often leaves young adults feeling vulnerable and overwhelmed.",
+                "evidence_vi": "Quá trình chuyển tiếp từ bậc phổ thông lên đại học hoặc chuyển đến một thành phố xa lạ buộc người trẻ phải đột ngột tự quản lý mọi khía cạnh của cuộc sống. Bên cạnh việc thích nghi với môi trường học tập và làm việc mới, họ còn phải tự xoay xở tài chính, chăm sóc sức khỏe và giải quyết các rắc rối cá nhân. Chẳng hạn, nhiều tân sinh viên sống xa nhà lần đầu thường trải qua cảm giác nhớ nhà và lúng túng khi không có gia đình trực tiếp ở bên hỗ trợ. Nếu thiếu kỹ năng thích nghi và người định hướng, những biến đổi lớn này dễ đẩy người trẻ vào trạng thái quá tải tâm lý.",
+                "evidence_en": "Transitioning from high school to university or relocating to an unfamiliar city forces young people to take sudden control over every aspect of daily life. Alongside adapting to new academic or workplace environments, they must independently manage budgets, health, and personal challenges. For example, many first-year students living away from home experience intense homesickness and confusion without immediate family guidance. Without strong coping skills and mentorship, these major life transitions can easily leave young adults feeling vulnerable and overwhelmed.",
                 "collocations": [
                   {
-                    "en": "major transitional phases",
-                    "vi": "những bước ngoặt lớn trong cuộc sống"
+                    "en": "relocating to an unfamiliar city",
+                    "vi": "chuyển đến thành phố xa lạ"
                   },
                   {
-                    "en": "independent adulthood",
-                    "vi": "cuộc sống độc lập tự lập"
+                    "en": "manage budgets",
+                    "vi": "quản lý ngân sách"
                   },
                   {
-                    "en": "transitioning to university",
-                    "vi": "chuyển tiếp lên giảng đường đại học"
+                    "en": "intense homesickness",
+                    "vi": "nỗi nhớ nhà sâu sắc"
                   },
                   {
-                    "en": "time management",
-                    "vi": "quản lý thời gian"
+                    "en": "family guidance",
+                    "vi": "sự định hướng từ gia đình"
                   },
                   {
-                    "en": "emotional guidance from family",
-                    "vi": "sự hỗ trợ trực tiếp từ gia đình"
+                    "en": "coping skills",
+                    "vi": "kỹ năng đối phó / thích nghi"
                   },
                   {
-                    "en": "feeling vulnerable and overwhelmed",
-                    "vi": "cảm thấy chới với và căng thẳng sâu sắc"
+                    "en": "major life transitions",
+                    "vi": "những bước ngoặt lớn trong đời"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "relocating to an unfamiliar city",
+                      "vi": "chuyển đến thành phố xa lạ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "manage budgets",
+                      "vi": "quản lý ngân sách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intense homesickness",
+                      "vi": "nỗi nhớ nhà sâu sắc"
+                    },
+                    {
+                      "en": "family guidance",
+                      "vi": "sự định hướng từ gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "coping skills",
+                      "vi": "kỹ năng đối phó / thích nghi"
+                    },
+                    {
+                      "en": "major life transitions",
+                      "vi": "những bước ngoặt lớn trong đời"
+                    }
+                  ]
                 ]
               }
             ],
@@ -134425,8 +135207,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP",
                 "point_vi": "Áp lực học tập nặng nề và sự cạnh tranh điểm số khốc liệt là nguyên nhân chủ yếu khiến giới trẻ rơi vào tình trạng căng thẳng kéo dài.",
                 "point_en": "Intense academic pressure and demanding curriculum requirements represent a primary source of chronic stress for modern students.",
-                "evidence_vi": "Học sinh và sinh viên ngày nay thường xuyên phải đối mặt với lịch học dày đặc cùng vô số bài tập lớn và các kỳ thi chuẩn hóa quan trọng. Sự kỳ vọng cao từ phía gia đình cùng thói quen so sánh điểm số với bạn bè đồng trang lứa tạo ra gánh nặng tâm lý nặng nề, khiến nhiều bạn trẻ kiệt sức cả về thể chất lẫn tinh thần.",
-                "evidence_en": "Modern learners are frequently overwhelmed by dense course schedules, demanding assignments, and high-stakes standardized examinations. Moreover, unrealistic academic expectations from parents combined with peer comparison create immense psychological distress, which frequently leads to emotional exhaustion and burnout.",
+                "evidence_vi": "Học sinh và sinh viên hiện đại thường xuyên phải xoay xở với lịch học dày đặc, hàng loạt bài tập lớn và những kỳ thi chuẩn hóa có tính cạnh tranh cao. Bên cạnh đó, kỳ vọng khắt khe từ phụ huynh cùng thói quen so sánh thành tích giữa các bạn đồng trang lứa càng làm tăng gánh nặng tâm lý. Ví dụ, nhiều học sinh cuối cấp phải học thêm liên tục đến tận khuya để giành suất vào các trường đại học hàng đầu. Khi áp lực thành tích kéo dài mà thiếu sự nghỉ ngơi, giới trẻ rất dễ rơi vào tình trạng kiệt sức cảm xúc và lo âu mạn tính.",
+                "evidence_en": "Modern learners are constantly overwhelmed by dense course schedules, demanding assignments, and high-stakes standardized examinations. Moreover, strict parental expectations combined with intense peer comparison place an enormous psychological weight on students. For example, many high school seniors attend cram classes late into the night just to secure places at prestigious universities. When such relentless academic demands persist without adequate rest, young people frequently suffer emotional burnout and chronic anxiety.",
                 "collocations": [
                   {
                     "en": "academic pressure",
@@ -134437,28 +135219,44 @@ const ESSAY_DATA = [
                     "vi": "yêu cầu chương trình học khắt khe"
                   },
                   {
+                    "en": "stress",
+                    "vi": "sự căng thẳng, áp lực"
+                  },
+                  {
+                    "en": "pressure",
+                    "vi": "áp lực, sự đè nặng"
+                  },
+                  {
+                    "en": "academic",
+                    "vi": "thuộc về học tập, học thuật"
+                  },
+                  {
                     "en": "dense course schedules",
                     "vi": "lịch học dày đặc"
                   },
                   {
-                    "en": "demanding assignments",
-                    "vi": "vô số bài tập lớn"
+                    "en": "high-stakes examinations",
+                    "vi": "kỳ thi quan trọng mang tính quyết định"
                   },
                   {
-                    "en": "high-stakes standardized examinations",
-                    "vi": "các kỳ thi chuẩn hóa quan trọng"
+                    "en": "intense peer comparison",
+                    "vi": "sự so sánh gay gắt với bạn cùng lứa"
                   },
                   {
-                    "en": "unrealistic academic expectations",
-                    "vi": "kỳ vọng học tập thiếu thực tế"
+                    "en": "cram classes",
+                    "vi": "lớp học luyện thi / học thêm"
                   },
                   {
-                    "en": "peer comparison",
-                    "vi": "so sánh điểm số với bạn bè"
+                    "en": "prestigious universities",
+                    "vi": "các trường đại học danh tiếng"
                   },
                   {
-                    "en": "emotional exhaustion and burnout",
-                    "vi": "kiệt sức cả về thể chất lẫn tinh thần"
+                    "en": "emotional burnout",
+                    "vi": "kiệt sức về cảm xúc"
+                  },
+                  {
+                    "en": "chronic anxiety",
+                    "vi": "lo âu kéo dài"
                   }
                 ],
                 "point_collocations": [
@@ -134490,42 +135288,34 @@ const ESSAY_DATA = [
                       "vi": "lịch học dày đặc"
                     },
                     {
-                      "en": "demanding assignments",
-                      "vi": "vô số bài tập lớn"
-                    },
-                    {
-                      "en": "high-stakes standardized examinations",
-                      "vi": "các kỳ thi chuẩn hóa quan trọng"
-                    },
-                    {
-                      "en": "assignment",
-                      "vi": "bài tập được giao, nhiệm vụ"
-                    },
-                    {
-                      "en": "overwhelmed",
-                      "vi": "bị choáng ngợp, bị quá tải"
+                      "en": "high-stakes examinations",
+                      "vi": "kỳ thi quan trọng mang tính quyết định"
                     }
                   ],
                   [
                     {
-                      "en": "unrealistic academic expectations",
-                      "vi": "kỳ vọng học tập thiếu thực tế"
+                      "en": "intense peer comparison",
+                      "vi": "sự so sánh gay gắt với bạn cùng lứa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cram classes",
+                      "vi": "lớp học luyện thi / học thêm"
                     },
                     {
-                      "en": "peer comparison",
-                      "vi": "so sánh điểm số với bạn bè"
-                    },
+                      "en": "prestigious universities",
+                      "vi": "các trường đại học danh tiếng"
+                    }
+                  ],
+                  [
                     {
-                      "en": "emotional exhaustion and burnout",
-                      "vi": "kiệt sức cả về thể chất lẫn tinh thần"
-                    },
-                    {
-                      "en": "emotional exhaustion",
+                      "en": "emotional burnout",
                       "vi": "kiệt sức về cảm xúc"
                     },
                     {
-                      "en": "stress",
-                      "vi": "sự căng thẳng, áp lực"
+                      "en": "chronic anxiety",
+                      "vi": "lo âu kéo dài"
                     }
                   ]
                 ]
@@ -134534,8 +135324,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 02: KỲ VỌNG VỀ SỰ NGHIỆP TRONG TƯƠNG LAI",
                 "point_vi": "Sự bất định về định hướng nghề nghiệp và áp lực phải đạt được thành công tài chính tạo ra nỗi bất an lớn cho thanh niên.",
                 "point_en": "Uncertainty surrounding career prospects and the intense pressure to achieve financial success generate profound anxiety for young adults.",
-                "evidence_vi": "Thị trường lao động ngày càng cạnh tranh gay gắt đòi hỏi sinh viên mới tốt nghiệp phải sở hữu nhiều kỹ năng và kinh nghiệm thực tế để tìm được việc làm tốt. Nỗi sợ không đáp ứng được kỳ vọng của gia đình và viễn cảnh thất nghiệp sau khi ra trường khiến nhiều người trẻ rơi vào trạng thái hoang mang và lo âu thường trực.",
-                "evidence_en": "The increasingly competitive job market requires fresh graduates to possess exceptional qualifications and diverse professional skills to secure stable employment. Consequently, the pervasive fear of unemployment and the anxiety of disappointing family expectations cause prolonged mental strain among young job seekers.",
+                "evidence_vi": "Thị trường lao động ngày càng cạnh tranh khốc liệt đòi hỏi sinh viên mới ra trường phải sở hữu bằng cấp xuất sắc lẫn kỹ năng thực tế đa dạng. Đồng thời, tốc độ thay đổi nhanh chóng của công nghệ và biến động kinh tế khiến nhiều bạn trẻ bất an về sự ổn định nghề nghiệp lâu dài. Chẳng hạn, không ít cử nhân mới tốt nghiệp phải nộp hàng chục hồ sơ trong nhiều tháng nhưng vẫn chật vật tìm kiếm vị trí phù hợp. Nỗi sợ thất nghiệp và áp lực khẳng định bản thân sớm khiến thế hệ trẻ luôn sống trong trạng thái căng thẳng kéo dài.",
+                "evidence_en": "An increasingly competitive labor market demands that fresh graduates possess both outstanding qualifications and versatile practical skills. At the same time, rapid technological shifts and economic uncertainty leave many young adults anxious about long-term job stability. For instance, numerous university graduates submit dozens of applications for months yet still struggle to land suitable positions. This pervasive fear of unemployment and pressure to succeed early subject young people to prolonged mental strain.",
                 "collocations": [
                   {
                     "en": "career prospects",
@@ -134546,24 +135336,40 @@ const ESSAY_DATA = [
                     "vi": "đạt được thành công tài chính"
                   },
                   {
-                    "en": "competitive job market",
-                    "vi": "thị trường lao động cạnh tranh gay gắt"
+                    "en": "uncertainty about the future",
+                    "vi": "sự bất định về tương lai"
                   },
                   {
-                    "en": "secure stable employment",
-                    "vi": "tìm được việc làm tốt / việc làm ổn định"
+                    "en": "financial success",
+                    "vi": "thành công về tài chính"
                   },
                   {
-                    "en": "fear of unemployment",
-                    "vi": "nỗi sợ thất nghiệp"
+                    "en": "pressure",
+                    "vi": "áp lực, sự đè nặng"
                   },
                   {
-                    "en": "disappointing family expectations",
-                    "vi": "không đáp ứng được kỳ vọng của gia đình"
+                    "en": "outstanding qualifications",
+                    "vi": "bằng cấp xuất sắc"
+                  },
+                  {
+                    "en": "versatile practical skills",
+                    "vi": "kỹ năng thực tế đa dạng"
+                  },
+                  {
+                    "en": "economic uncertainty",
+                    "vi": "sự bất ổn kinh tế"
+                  },
+                  {
+                    "en": "job stability",
+                    "vi": "sự ổn định việc làm"
+                  },
+                  {
+                    "en": "land suitable positions",
+                    "vi": "tìm được vị trí phù hợp"
                   },
                   {
                     "en": "prolonged mental strain",
-                    "vi": "trạng thái hoang mang và lo âu thường trực"
+                    "vi": "căng thẳng tinh thần kéo dài"
                   }
                 ],
                 "point_collocations": [
@@ -134591,42 +135397,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "competitive job market",
-                      "vi": "thị trường lao động cạnh tranh gay gắt"
+                      "en": "outstanding qualifications",
+                      "vi": "bằng cấp xuất sắc"
                     },
                     {
-                      "en": "secure stable employment",
-                      "vi": "tìm được việc làm tốt / việc làm ổn định"
-                    },
-                    {
-                      "en": "competitive",
-                      "vi": "có tính cạnh tranh"
-                    },
-                    {
-                      "en": "qualification",
-                      "vi": "bằng cấp, năng lực chuyên môn"
+                      "en": "versatile practical skills",
+                      "vi": "kỹ năng thực tế đa dạng"
                     }
                   ],
                   [
                     {
-                      "en": "fear of unemployment",
-                      "vi": "nỗi sợ thất nghiệp"
+                      "en": "economic uncertainty",
+                      "vi": "sự bất ổn kinh tế"
                     },
                     {
-                      "en": "disappointing family expectations",
-                      "vi": "không đáp ứng được kỳ vọng của gia đình"
-                    },
+                      "en": "job stability",
+                      "vi": "sự ổn định việc làm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "land suitable positions",
+                      "vi": "tìm được vị trí phù hợp"
+                    }
+                  ],
+                  [
                     {
                       "en": "prolonged mental strain",
-                      "vi": "trạng thái hoang mang và lo âu thường trực"
-                    },
-                    {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
-                    },
-                    {
-                      "en": "expectation",
-                      "vi": "sự kỳ vọng, mong mỏi"
+                      "vi": "căng thẳng tinh thần kéo dài"
                     }
                   ]
                 ]
@@ -134635,8 +135433,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 03: CÁC MỐI QUAN HỆ XÃ HỘI",
                 "point_vi": "Áp lực hòa nhập xã hội và xu hướng so sánh bản thân trên mạng xã hội làm gia tăng căng thẳng tinh thần ở giới trẻ.",
                 "point_en": "The desire for social acceptance and unhealthy comparisons on digital platforms significantly intensify psychological stress among adolescents.",
-                "evidence_vi": "Người trẻ thường xuyên tiếp xúc với những hình ảnh hào nhoáng, thành công của người khác trên mạng xã hội, dẫn đến cảm giác tự ti và lo sợ bị bỏ lại phía sau. Bên cạnh đó, những hiểu lầm hay mâu thuẫn trong các mối quan hệ bạn bè thân thiết dễ khiến thanh thiếu niên cảm thấy bị cô lập và tổn thương.",
-                "evidence_en": "Constant exposure to idealized lifestyles on social networking sites often triggers feelings of inadequacy and the fear of missing out. Furthermore, interpersonal misunderstandings and social conflicts with peer groups leave many teenagers feeling emotionally isolated and insecure.",
+                "evidence_vi": "Việc liên tục tiếp xúc với những hình ảnh hào nhoáng và thành công được chọn lọc trên mạng xã hội dễ khơi dậy cảm giác tự ti và nỗi sợ bị bỏ lại phía sau. Hơn nữa, những mâu thuẫn trong nhóm bạn, áp lực phải hòa nhập hoặc nạn bắt nạt trực tuyến có thể gây tổn thương tâm lý sâu sắc. Ví dụ, nhiều thanh thiếu niên cảm thấy bất an chỉ vì bài đăng của mình nhận được ít lượt thích hoặc bị bình luận tiêu cực trên mạng. Theo thời gian, sự thiếu gắn kết chân thành ngoài đời thực khiến các em cảm thấy cô lập và ngày càng căng thẳng.",
+                "evidence_en": "Constant exposure to idealized lifestyles and curated success stories on social media frequently triggers feelings of inadequacy and fear of missing out. Furthermore, conflicts within friend groups, pressure to fit in, or cyberbullying can inflict deep emotional wounds. For example, many adolescents feel deeply insecure simply because their posts receive few likes or attract harsh online comments. Over time, a lack of genuine offline support leaves them feeling isolated and increasingly stressed.",
                 "collocations": [
                   {
                     "en": "social acceptance",
@@ -134647,24 +135445,40 @@ const ESSAY_DATA = [
                     "vi": "so sánh bản thân trên mạng xã hội"
                   },
                   {
-                    "en": "idealized lifestyles",
-                    "vi": "hình ảnh hào nhoáng thành công"
+                    "en": "stress among young people",
+                    "vi": "căng thẳng ở giới trẻ"
+                  },
+                  {
+                    "en": "social media comparisons",
+                    "vi": "so sánh trên mạng xã hội"
+                  },
+                  {
+                    "en": "stress",
+                    "vi": "sự căng thẳng, áp lực"
+                  },
+                  {
+                    "en": "curated success stories",
+                    "vi": "câu chuyện thành công được tô vẽ"
                   },
                   {
                     "en": "feelings of inadequacy",
-                    "vi": "cảm giác tự ti"
+                    "vi": "cảm giác kém cỏi / tự ti"
                   },
                   {
-                    "en": "fear of missing out",
-                    "vi": "lo sợ bị bỏ lại phía sau"
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt trực tuyến"
                   },
                   {
-                    "en": "interpersonal misunderstandings",
-                    "vi": "những hiểu lầm trong quan hệ bạn bè"
+                    "en": "emotional wounds",
+                    "vi": "tổn thương cảm xúc"
                   },
                   {
-                    "en": "emotionally isolated and insecure",
-                    "vi": "cảm thấy bị cô lập và tổn thương"
+                    "en": "harsh online comments",
+                    "vi": "bình luận gay gắt trên mạng"
+                  },
+                  {
+                    "en": "genuine offline support",
+                    "vi": "sự hỗ trợ chân thành ngoài đời thực"
                   }
                 ],
                 "point_collocations": [
@@ -134692,46 +135506,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "idealized lifestyles",
-                      "vi": "hình ảnh hào nhoáng thành công"
+                      "en": "curated success stories",
+                      "vi": "câu chuyện thành công được tô vẽ"
                     },
                     {
                       "en": "feelings of inadequacy",
-                      "vi": "cảm giác tự ti"
-                    },
-                    {
-                      "en": "fear of missing out",
-                      "vi": "lo sợ bị bỏ lại phía sau"
-                    },
-                    {
-                      "en": "fear of unemployment",
-                      "vi": "nỗi sợ thất nghiệp"
-                    },
-                    {
-                      "en": "feeling of loneliness",
-                      "vi": "cảm giác cô đơn"
+                      "vi": "cảm giác kém cỏi / tự ti"
                     }
                   ],
                   [
                     {
-                      "en": "interpersonal misunderstandings",
-                      "vi": "những hiểu lầm trong quan hệ bạn bè"
+                      "en": "cyberbullying",
+                      "vi": "bắt nạt trực tuyến"
                     },
                     {
-                      "en": "emotionally isolated and insecure",
-                      "vi": "cảm thấy bị cô lập và tổn thương"
-                    },
+                      "en": "emotional wounds",
+                      "vi": "tổn thương cảm xúc"
+                    }
+                  ],
+                  [
                     {
-                      "en": "feel isolated",
-                      "vi": "cảm thấy bị cô lập"
-                    },
+                      "en": "harsh online comments",
+                      "vi": "bình luận gay gắt trên mạng"
+                    }
+                  ],
+                  [
                     {
-                      "en": "peer",
-                      "vi": "bạn bè đồng trang lứa"
-                    },
-                    {
-                      "en": "conflict",
-                      "vi": "sự xung đột, mâu thuẫn"
+                      "en": "genuine offline support",
+                      "vi": "sự hỗ trợ chân thành ngoài đời thực"
                     }
                   ]
                 ]
@@ -134740,8 +135542,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 04: VẤN ĐỀ TÀI CHÍNH",
                 "point_vi": "Khó khăn về tài chính và chi phí học tập đắt đỏ đặt lên vai người trẻ những gánh nặng sinh nhai nặng nề.",
                 "point_en": "Financial hardship and escalating education expenses place a heavy economic burden on young adults striving for independence.",
-                "evidence_vi": "Mức học phí đại học tăng cao cùng chi phí thuê nhà và sinh hoạt đắt đỏ tại các thành phố lớn khiến nhiều sinh viên phải gánh những khoản nợ lớn. Để tự trang trải chi phí, nhiều bạn trẻ buộc phải vừa học vừa làm thêm cật lực, dẫn đến tình trạng thiếu ngủ trầm trọng và căng thẳng kéo dài.",
-                "evidence_en": "Skyrocketing university tuition fees combined with high accommodation and daily living costs force many students to accumulate significant debt. In order to sustain themselves, young people frequently juggle demanding part-time jobs alongside rigorous academic studies, resulting in chronic sleep deprivation and severe stress.",
+                "evidence_vi": "Học phí đại học ngày càng đắt đỏ kết hợp với giá thuê nhà và chi phí sinh hoạt tăng cao tại các đô thị lớn đặt gánh nặng tài chính lên vai người trẻ. Để tự trang trải chi tiêu và giảm bớt nợ học phí, nhiều sinh viên buộc phải nhận những công việc làm thêm tốn nhiều sức lực song song với lịch học dày đặc. Chẳng hạn, không ít sinh viên làm việc ca tối tại nhà hàng hoặc cửa hàng tiện lợi rồi tiếp tục ôn thi đến rạng sáng. Sự căng thẳng kéo dài giữa bài vở và mưu sinh dẫn đến thiếu ngủ trầm trọng và suy kiệt tinh thần.",
+                "evidence_en": "Escalating university tuition fees combined with soaring rent and living expenses in major cities place a heavy financial burden on young adults. To cover daily costs and avoid heavy student debt, many learners must take on demanding part-time jobs alongside full academic workloads. For instance, numerous students work evening shifts in cafes or retail stores before staying up late to complete assignments. Juggling financial survival with academic demands frequently results in severe sleep deprivation and persistent stress.",
                 "collocations": [
                   {
                     "en": "financial hardship",
@@ -134752,19 +135554,39 @@ const ESSAY_DATA = [
                     "vi": "chi phí học tập đắt đỏ"
                   },
                   {
-                    "en": "skyrocketing university tuition fees",
-                    "vi": "học phí đại học tăng cao"
+                    "en": "financial independence",
+                    "vi": "độc lập tài chính"
                   },
                   {
-                    "en": "accumulate significant debt",
-                    "vi": "gánh những khoản nợ lớn"
+                    "en": "expense",
+                    "vi": "chi phí, khoản chi tiêu"
                   },
                   {
-                    "en": "juggle demanding part-time jobs",
-                    "vi": "vừa học vừa làm thêm cật lực"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
                   },
                   {
-                    "en": "chronic sleep deprivation",
+                    "en": "soaring rent",
+                    "vi": "tiền thuê nhà tăng vọt"
+                  },
+                  {
+                    "en": "financial burden",
+                    "vi": "gánh nặng tài chính"
+                  },
+                  {
+                    "en": "student debt",
+                    "vi": "nợ học phí sinh viên"
+                  },
+                  {
+                    "en": "academic workloads",
+                    "vi": "khối lượng học tập"
+                  },
+                  {
+                    "en": "work evening shifts",
+                    "vi": "làm ca tối"
+                  },
+                  {
+                    "en": "sleep deprivation",
                     "vi": "tình trạng thiếu ngủ trầm trọng"
                   }
                 ],
@@ -134793,46 +135615,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "skyrocketing university tuition fees",
-                      "vi": "học phí đại học tăng cao"
+                      "en": "soaring rent",
+                      "vi": "tiền thuê nhà tăng vọt"
                     },
                     {
-                      "en": "accumulate significant debt",
-                      "vi": "gánh những khoản nợ lớn"
-                    },
-                    {
-                      "en": "tuition fees",
-                      "vi": "học phí"
-                    },
-                    {
-                      "en": "accumulate debt",
-                      "vi": "tích lũy nợ nần"
-                    },
-                    {
-                      "en": "tuition",
-                      "vi": "tiền học phí"
+                      "en": "financial burden",
+                      "vi": "gánh nặng tài chính"
                     }
                   ],
                   [
                     {
-                      "en": "juggle demanding part-time jobs",
-                      "vi": "vừa học vừa làm thêm cật lực"
+                      "en": "student debt",
+                      "vi": "nợ học phí sinh viên"
                     },
                     {
-                      "en": "chronic sleep deprivation",
+                      "en": "academic workloads",
+                      "vi": "khối lượng học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "work evening shifts",
+                      "vi": "làm ca tối"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sleep deprivation",
                       "vi": "tình trạng thiếu ngủ trầm trọng"
-                    },
-                    {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
-                    },
-                    {
-                      "en": "part-time jobs",
-                      "vi": "việc làm thêm bán thời gian"
-                    },
-                    {
-                      "en": "stress",
-                      "vi": "sự căng thẳng, áp lực"
                     }
                   ]
                 ]
@@ -134841,8 +135651,8 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 05: NHỮNG THÁCH THỨC VÀ THAY ĐỔI TRONG CUỘC SỐNG",
                 "point_vi": "Những bước ngoặt lớn trong cuộc sống và quá trình thích nghi với môi trường sống độc lập thường đẩy người trẻ vào trạng thái khủng hoảng tâm lý.",
                 "point_en": "Major transitional phases and the abrupt shift toward independent adulthood frequently induce emotional turmoil and anxiety.",
-                "evidence_vi": "Quá trình chuyển tiếp từ môi trường phổ thông lên giảng đường đại học hoặc rời xa gia đình để đến một thành phố xa lạ đòi hỏi thanh niên phải tự quản lý thời gian và giải quyết mọi khó khăn cá nhân. Việc thiếu vắng sự hỗ trợ trực tiếp từ gia đình và khó khăn trong việc thích ứng với nhịp sống mới khiến nhiều bạn trẻ cảm thấy chới với và căng thẳng sâu sắc.",
-                "evidence_en": "Transitioning from secondary education to university or moving away from home demands that young people master self-discipline, time management, and domestic responsibilities simultaneously. Without immediate emotional guidance from family members, navigating these sudden lifestyle changes often leaves young adults feeling vulnerable and overwhelmed.",
+                "evidence_vi": "Quá trình chuyển tiếp từ bậc phổ thông lên đại học hoặc chuyển đến một thành phố xa lạ buộc người trẻ phải đột ngột tự quản lý mọi khía cạnh của cuộc sống. Bên cạnh việc thích nghi với môi trường học tập và làm việc mới, họ còn phải tự xoay xở tài chính, chăm sóc sức khỏe và giải quyết các rắc rối cá nhân. Chẳng hạn, nhiều tân sinh viên sống xa nhà lần đầu thường trải qua cảm giác nhớ nhà và lúng túng khi không có gia đình trực tiếp ở bên hỗ trợ. Nếu thiếu kỹ năng thích nghi và người định hướng, những biến đổi lớn này dễ đẩy người trẻ vào trạng thái quá tải tâm lý.",
+                "evidence_en": "Transitioning from high school to university or relocating to an unfamiliar city forces young people to take sudden control over every aspect of daily life. Alongside adapting to new academic or workplace environments, they must independently manage budgets, health, and personal challenges. For example, many first-year students living away from home experience intense homesickness and confusion without immediate family guidance. Without strong coping skills and mentorship, these major life transitions can easily leave young adults feeling vulnerable and overwhelmed.",
                 "collocations": [
                   {
                     "en": "major transitional phases",
@@ -134853,20 +135663,40 @@ const ESSAY_DATA = [
                     "vi": "cuộc sống độc lập tự lập"
                   },
                   {
-                    "en": "transitioning to university",
-                    "vi": "chuyển tiếp lên giảng đường đại học"
+                    "en": "choose the right major",
+                    "vi": "chọn đúng ngành học"
                   },
                   {
-                    "en": "time management",
-                    "vi": "quản lý thời gian"
+                    "en": "independent",
+                    "vi": "tự lập, độc lập"
                   },
                   {
-                    "en": "emotional guidance from family",
-                    "vi": "sự hỗ trợ trực tiếp từ gia đình"
+                    "en": "anxiety",
+                    "vi": "sự lo âu, nỗi bất an"
                   },
                   {
-                    "en": "feeling vulnerable and overwhelmed",
-                    "vi": "cảm thấy chới với và căng thẳng sâu sắc"
+                    "en": "relocating to an unfamiliar city",
+                    "vi": "chuyển đến thành phố xa lạ"
+                  },
+                  {
+                    "en": "manage budgets",
+                    "vi": "quản lý ngân sách"
+                  },
+                  {
+                    "en": "intense homesickness",
+                    "vi": "nỗi nhớ nhà sâu sắc"
+                  },
+                  {
+                    "en": "family guidance",
+                    "vi": "sự định hướng từ gia đình"
+                  },
+                  {
+                    "en": "coping skills",
+                    "vi": "kỹ năng đối phó / thích nghi"
+                  },
+                  {
+                    "en": "major life transitions",
+                    "vi": "những bước ngoặt lớn trong đời"
                   }
                 ],
                 "point_collocations": [
@@ -134894,42 +135724,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "transitioning to university",
-                      "vi": "chuyển tiếp lên giảng đường đại học"
-                    },
-                    {
-                      "en": "time management",
-                      "vi": "quản lý thời gian"
-                    },
-                    {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
-                    },
-                    {
-                      "en": "responsibility",
-                      "vi": "trách nhiệm, bổn phận"
-                    },
-                    {
-                      "en": "transition",
-                      "vi": "sự chuyển tiếp, quá trình chuyển đổi"
+                      "en": "relocating to an unfamiliar city",
+                      "vi": "chuyển đến thành phố xa lạ"
                     }
                   ],
                   [
                     {
-                      "en": "emotional guidance from family",
-                      "vi": "sự hỗ trợ trực tiếp từ gia đình"
+                      "en": "manage budgets",
+                      "vi": "quản lý ngân sách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intense homesickness",
+                      "vi": "nỗi nhớ nhà sâu sắc"
                     },
                     {
-                      "en": "feeling vulnerable and overwhelmed",
-                      "vi": "cảm thấy chới với và căng thẳng sâu sắc"
+                      "en": "family guidance",
+                      "vi": "sự định hướng từ gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "coping skills",
+                      "vi": "kỹ năng đối phó / thích nghi"
                     },
                     {
-                      "en": "feel overwhelmed",
-                      "vi": "cảm thấy quá tải / choáng ngợp"
-                    },
-                    {
-                      "en": "overwhelmed",
-                      "vi": "bị choáng ngợp, bị quá tải"
+                      "en": "major life transitions",
+                      "vi": "những bước ngoặt lớn trong đời"
                     }
                   ]
                 ]
@@ -137119,17 +137941,29 @@ const ESSAY_DATA = [
                     "vi": "chương trình nước ngoài"
                   }
                 ],
-                "evidence_vi": "Các đài truyền hình thường mua bản quyền phim bộ, chương trình thực tế và phim tài liệu từ nhiều quốc gia khác nhau.",
-                "evidence_en": "Television stations often buy the rights to dramas, reality shows, and documentaries from many different countries.",
+                "evidence_vi": "Các đài truyền hình thường mua bản quyền phim bộ, chương trình thực tế và phim tài liệu từ nhiều quốc gia khác nhau. Nhờ đó, khán giả có thể xem các nội dung thú vị đến từ châu Á, châu Âu và châu Mỹ ngay tại nhà. Điều này làm cho danh sách chương trình truyền hình trở nên phong phú hơn nhiều.",
+                "evidence_en": "Television stations often buy the rights to dramas, reality shows, and documentaries from many different countries. Thanks to this, viewers can watch exciting content from Asia, Europe, and America right at home. This makes the list of television programs much richer and more varied.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "reality shows",
-                      "vi": "chương trình truyền hình thực tế"
+                      "en": "buy the rights to",
+                      "vi": "mua bản quyền"
                     },
                     {
-                      "en": "documentaries",
-                      "vi": "phim tài liệu"
+                      "en": "reality shows",
+                      "vi": "chương trình thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "exciting content",
+                      "vi": "nội dung hấp dẫn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "richer and more varied",
+                      "vi": "phong phú và đa dạng hơn"
                     }
                   ]
                 ],
@@ -137143,12 +137977,20 @@ const ESSAY_DATA = [
                     "vi": "chương trình nước ngoài"
                   },
                   {
-                    "en": "reality shows",
-                    "vi": "chương trình truyền hình thực tế"
+                    "en": "buy the rights to",
+                    "vi": "mua bản quyền"
                   },
                   {
-                    "en": "documentaries",
-                    "vi": "phim tài liệu"
+                    "en": "reality shows",
+                    "vi": "chương trình thực tế"
+                  },
+                  {
+                    "en": "exciting content",
+                    "vi": "nội dung hấp dẫn"
+                  },
+                  {
+                    "en": "richer and more varied",
+                    "vi": "phong phú và đa dạng hơn"
                   }
                 ]
               },
@@ -137166,8 +138008,8 @@ const ESSAY_DATA = [
                     "vi": "chương trình đa dạng"
                   }
                 ],
-                "evidence_vi": "Nhiều doanh nghiệp sẵn sàng tài trợ cho các chương trình nấu ăn, du lịch hoặc âm nhạc để tiếp cận nhóm khách hàng mục tiêu của họ.",
-                "evidence_en": "Many businesses are willing to sponsor cooking, travel, or music shows to reach their target customers.",
+                "evidence_vi": "Nhiều doanh nghiệp sẵn sàng trả tiền tài trợ cho các chương trình nấu ăn, du lịch hoặc âm nhạc để quảng bá sản phẩm của họ. Để thu hút thêm các nhà tài trợ lớn, đài truyền hình cần xây dựng nhiều chuyên mục mới phù hợp với từng nhóm khách hàng. Nhờ nguồn kinh phí này, số lượng và thể loại chương trình không ngừng tăng lên.",
+                "evidence_en": "Many businesses are willing to pay to sponsor cooking, travel, or music shows to advertise their products. To attract more big sponsors, TV channels need to create new shows for different groups of customers. With this financial support, the number and types of programs keep growing.",
                 "evidence_collocations": [
                   [
                     {
@@ -137175,8 +138017,24 @@ const ESSAY_DATA = [
                       "vi": "tài trợ chương trình"
                     },
                     {
-                      "en": "target customers",
-                      "vi": "khách hàng mục tiêu"
+                      "en": "advertise products",
+                      "vi": "quảng bá sản phẩm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "attract sponsors",
+                      "vi": "thu hút nhà tài trợ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "financial support",
+                      "vi": "hỗ trợ tài chính"
+                    },
+                    {
+                      "en": "keep growing",
+                      "vi": "không ngừng tăng lên"
                     }
                   ]
                 ],
@@ -137194,8 +138052,20 @@ const ESSAY_DATA = [
                     "vi": "tài trợ chương trình"
                   },
                   {
-                    "en": "target customers",
-                    "vi": "khách hàng mục tiêu"
+                    "en": "advertise products",
+                    "vi": "quảng bá sản phẩm"
+                  },
+                  {
+                    "en": "attract sponsors",
+                    "vi": "thu hút nhà tài trợ"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
+                  },
+                  {
+                    "en": "keep growing",
+                    "vi": "không ngừng tăng lên"
                   }
                 ]
               }
@@ -137529,27 +138399,35 @@ const ESSAY_DATA = [
                     "vi": "làm phong phú chương trình truyền hình"
                   }
                 ],
-                "evidence_vi": "Các nhà đài trong nước ngày nay dễ dàng nhập khẩu hoặc Việt hóa nhiều định dạng chương trình ăn khách như trò chơi truyền hình, phim truyền hình dài tập và phim tài liệu từ khắp nơi trên thế giới. Điều này không chỉ mở rộng lựa chọn cho khán giả mà còn tạo ra những thể loại kết hợp sáng tạo.",
-                "evidence_en": "Local broadcasters can now easily import or adapt successful international formats such as game shows, drama series, and documentaries from around the globe. This not only broadens viewer choices but also inspires creative cross-cultural genres.",
+                "evidence_vi": "Các nhà đài trong nước ngày nay có thể dễ dàng nhập khẩu hoặc Việt hóa nhiều định dạng chương trình ăn khách từ khắp nơi trên thế giới. Sự giao lưu này mang đến vô số lựa chọn mới mẻ như phim truyền hình dài tập, chương trình thực tế và phim tài liệu đa văn hóa. Chẳng hạn, nhiều cuộc thi âm nhạc hay ẩm thực nổi tiếng quốc tế đã được sản xuất lại với màu sắc bản địa để phục vụ khán giả địa phương. Nhờ vậy, bức tranh truyền hình hiện đại trở nên phong phú và sáng tạo hơn bao giờ hết.",
+                "evidence_en": "Domestic broadcasters can now easily import or adapt successful international formats from across the globe. This cultural exchange introduces a wide array of fresh genres, including foreign drama series, reality competitions, and cross-cultural documentaries. For example, many globally renowned singing and cooking competitions have been localized to appeal directly to regional audiences. Consequently, modern television schedules have become far more varied and creative than ever before.",
                 "evidence_collocations": [
                   [
                     {
                       "en": "adapt international formats",
                       "vi": "chuyển thể định dạng quốc tế"
-                    },
-                    {
-                      "en": "drama series",
-                      "vi": "phim truyền hình dài tập"
                     }
                   ],
                   [
                     {
-                      "en": "broaden viewer choices",
-                      "vi": "mở rộng lựa chọn cho khán giả"
+                      "en": "cross-cultural documentaries",
+                      "vi": "phim tài liệu đa văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "globally renowned",
+                      "vi": "nổi tiếng toàn cầu"
                     },
                     {
-                      "en": "cross-cultural genres",
-                      "vi": "thể loại giao thoa văn hóa"
+                      "en": "regional audiences",
+                      "vi": "khán giả địa phương"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "television schedules",
+                      "vi": "lịch phát sóng truyền hình"
                     }
                   ]
                 ],
@@ -137567,16 +138445,20 @@ const ESSAY_DATA = [
                     "vi": "chuyển thể định dạng quốc tế"
                   },
                   {
-                    "en": "drama series",
-                    "vi": "phim truyền hình dài tập"
+                    "en": "cross-cultural documentaries",
+                    "vi": "phim tài liệu đa văn hóa"
                   },
                   {
-                    "en": "broaden viewer choices",
-                    "vi": "mở rộng lựa chọn cho khán giả"
+                    "en": "globally renowned",
+                    "vi": "nổi tiếng toàn cầu"
                   },
                   {
-                    "en": "cross-cultural genres",
-                    "vi": "thể loại giao thoa văn hóa"
+                    "en": "regional audiences",
+                    "vi": "khán giả địa phương"
+                  },
+                  {
+                    "en": "television schedules",
+                    "vi": "lịch phát sóng truyền hình"
                   }
                 ]
               },
@@ -137594,27 +138476,43 @@ const ESSAY_DATA = [
                     "vi": "phân khúc khán giả"
                   }
                 ],
-                "evidence_vi": "Các thương hiệu thuộc nhiều lĩnh vực như ẩm thực, du lịch, tài chính hay thể thao đều muốn quảng bá sản phẩm đúng đối tượng khách hàng tiềm năng. Để thu hút nguồn tài trợ dồi dào này, các đài truyền hình liên tục phát triển những chương trình chuyên biệt đáp ứng từng nhóm người xem cụ thể.",
-                "evidence_en": "Brands across sectors such as food, travel, finance, and sports seek to promote their products to specific consumer groups. To attract this lucrative funding, television networks continuously launch specialized shows tailored to niche viewer markets.",
+                "evidence_vi": "Các thương hiệu thuộc nhiều lĩnh vực như ẩm thực, du lịch, tài chính hay thể thao đều tìm kiếm những khung giờ phù hợp để tiếp cận đúng khách hàng mục tiêu. Để thu hút nguồn doanh thu quảng cáo và tài trợ béo bở này, các đài truyền hình liên tục phát triển những chương trình chuyên biệt cho từng phân khúc khán giả. Ví dụ, các kênh chuyên về nhà cửa, sức khỏe hay kinh doanh thường nhận được đầu tư mạnh mẽ từ các công ty liên quan. Chính động lực thương mại này thúc đẩy các nhà sản xuất không ngừng mở rộng và đa dạng hóa nội dung phát sóng.",
+                "evidence_en": "Brands across industries such as food, travel, finance, and sports constantly seek targeted slots to reach specific consumer demographics. To secure lucrative advertising and sponsorship revenue, television networks actively produce specialized shows for distinct viewer segments. For instance, dedicated lifestyle, wellness, and business channels frequently attract substantial backing from relevant corporate sponsors. This commercial drive continuously pushes producers to broaden and diversify their broadcast lineups.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "specific consumer groups",
-                      "vi": "nhóm người tiêu dùng cụ thể"
-                    },
-                    {
-                      "en": "lucrative funding",
-                      "vi": "nguồn tài trợ sinh lợi"
+                      "en": "consumer demographics",
+                      "vi": "nhóm khách hàng mục tiêu"
                     }
                   ],
                   [
                     {
-                      "en": "specialized shows",
-                      "vi": "chương trình chuyên biệt"
+                      "en": "lucrative sponsorship revenue",
+                      "vi": "doanh thu tài trợ béo bở"
                     },
                     {
-                      "en": "niche viewer markets",
-                      "vi": "thị trường khán giả ngách"
+                      "en": "viewer segments",
+                      "vi": "phân khúc khán giả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "substantial backing",
+                      "vi": "nguồn hậu thuẫn lớn"
+                    },
+                    {
+                      "en": "corporate sponsors",
+                      "vi": "nhà tài trợ doanh nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "commercial drive",
+                      "vi": "động lực thương mại"
+                    },
+                    {
+                      "en": "broadcast lineups",
+                      "vi": "danh mục phát sóng"
                     }
                   ]
                 ],
@@ -137628,20 +138526,32 @@ const ESSAY_DATA = [
                     "vi": "phân khúc khán giả"
                   },
                   {
-                    "en": "specific consumer groups",
-                    "vi": "nhóm người tiêu dùng cụ thể"
+                    "en": "consumer demographics",
+                    "vi": "nhóm khách hàng mục tiêu"
                   },
                   {
-                    "en": "lucrative funding",
-                    "vi": "nguồn tài trợ sinh lợi"
+                    "en": "lucrative sponsorship revenue",
+                    "vi": "doanh thu tài trợ béo bở"
                   },
                   {
-                    "en": "specialized shows",
-                    "vi": "chương trình chuyên biệt"
+                    "en": "viewer segments",
+                    "vi": "phân khúc khán giả"
                   },
                   {
-                    "en": "niche viewer markets",
-                    "vi": "thị trường khán giả ngách"
+                    "en": "substantial backing",
+                    "vi": "nguồn hậu thuẫn lớn"
+                  },
+                  {
+                    "en": "corporate sponsors",
+                    "vi": "nhà tài trợ doanh nghiệp"
+                  },
+                  {
+                    "en": "commercial drive",
+                    "vi": "động lực thương mại"
+                  },
+                  {
+                    "en": "broadcast lineups",
+                    "vi": "danh mục phát sóng"
                   }
                 ]
               }
@@ -138455,18 +139365,26 @@ const ESSAY_DATA = [
                     "vi": "vui nhộn và dễ xem"
                   },
                   {
-                    "en": "forget daily pressure",
-                    "vi": "quên đi áp lực hằng ngày"
+                    "en": "easy to watch",
+                    "vi": "dễ xem"
                   },
                   {
-                    "en": "leisure time activity",
-                    "vi": "hoạt động trong thời gian rảnh"
+                    "en": "tiring day",
+                    "vi": "ngày mệt mỏi"
+                  },
+                  {
+                    "en": "forget study pressure",
+                    "vi": "quên đi áp lực học tập"
+                  },
+                  {
+                    "en": "free time",
+                    "vi": "thời gian rảnh"
                   }
                 ],
                 "point_vi": "Các chương trình giải trí giúp người trẻ thư giãn sau những giờ học tập và làm việc.",
                 "point_en": "Entertainment programs help young people relax after studying or working.",
-                "evidence_vi": "Những chương trình này thường vui nhộn và dễ xem. Chúng giúp người trẻ tạm quên những áp lực hằng ngày. Người xem không cần suy nghĩ quá nhiều khi theo dõi những chương trình này. Vì vậy, chúng phù hợp với thời gian nghỉ ngơi của người trẻ.",
-                "evidence_en": "These programs are often fun and easy to watch. They help young people forget their daily pressure for a while. Viewers do not need to think too much when watching these programs. Therefore, they are suitable for young people's leisure time.",
+                "evidence_vi": "Những chương trình này thường rất vui nhộn và dễ xem sau một ngày dài mệt mỏi. Chúng giúp người trẻ tạm quên đi áp lực học tập mà không cần phải suy nghĩ quá nhiều. Vì vậy, các chương trình giải trí rất phù hợp với thời gian nghỉ ngơi của giới trẻ.",
+                "evidence_en": "These programs are often very fun and easy to watch after a long, tiring day. They help young people forget study pressure without having to think too much. Therefore, entertainment shows are very suitable for young people's free time.",
                 "point_collocations": [
                   {
                     "en": "entertainment programs",
@@ -138484,58 +139402,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "fun and easy to watch",
-                      "vi": "vui nhộn và dễ xem"
+                      "en": "easy to watch",
+                      "vi": "dễ xem"
                     },
                     {
-                      "en": "entertainment programs",
-                      "vi": "các chương trình giải trí"
-                    },
-                    {
-                      "en": "relax after studying",
-                      "vi": "thư giãn sau khi học"
+                      "en": "tiring day",
+                      "vi": "ngày mệt mỏi"
                     }
                   ],
                   [
                     {
-                      "en": "forget daily pressure",
-                      "vi": "quên đi áp lực hằng ngày"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "on a daily basis",
-                      "vi": "hằng ngày"
+                      "en": "forget study pressure",
+                      "vi": "quên đi áp lực học tập"
                     }
                   ],
                   [
                     {
-                      "en": "entertainment programs",
-                      "vi": "các chương trình giải trí"
-                    },
-                    {
-                      "en": "relax after studying",
-                      "vi": "thư giãn sau khi học"
-                    },
-                    {
-                      "en": "fun and easy to watch",
-                      "vi": "vui nhộn và dễ xem"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "leisure time activity",
-                      "vi": "hoạt động trong thời gian rảnh"
-                    },
-                    {
-                      "en": "leisure time preference",
-                      "vi": "ưu tiên trong thời gian rảnh"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
+                      "en": "free time",
+                      "vi": "thời gian rảnh"
                     }
                   ]
                 ]
@@ -138560,14 +139444,14 @@ const ESSAY_DATA = [
                     "vi": "tình huống quen thuộc"
                   },
                   {
-                    "en": "watch without concentrating",
-                    "vi": "xem không cần tập trung cao"
+                    "en": "academic programs",
+                    "vi": "chương trình học thuật"
                   }
                 ],
                 "point_vi": "Nội dung giải trí thường dễ tiếp cận hơn đối với người trẻ.",
                 "point_en": "Entertainment content is often easier for young people to follow.",
-                "evidence_vi": "Các chương trình này thường sử dụng ngôn ngữ đơn giản và hình ảnh hấp dẫn. Nội dung thường xoay quanh những tình huống quen thuộc và dễ hiểu. Người trẻ có thể hiểu nội dung mà không cần tập trung quá nhiều. Do đó, họ có thể thưởng thức các chương trình này một cách thoải mái hơn.",
-                "evidence_en": "These programs often use simple language and attractive visuals. The content often focuses on familiar and easy-to-understand situations. Young people can understand the content without concentrating too much. Therefore, they can enjoy these programs more comfortably.",
+                "evidence_vi": "Các chương trình giải trí thường dùng ngôn ngữ đơn giản, hình ảnh đẹp và âm nhạc sôi động. Nội dung thường xoay quanh những tình huống quen thuộc nên người trẻ dễ dàng hiểu ngay. Do đó, họ có thể thưởng thức các chương trình này một cách thoải mái hơn nhiều so với chương trình học thuật.",
+                "evidence_en": "Entertainment shows usually use simple language, attractive visuals, and lively music. The content focuses on familiar situations, so young people can understand it right away. As a result, they can enjoy these shows much more comfortably than academic programs.",
                 "point_collocations": [
                   {
                     "en": "entertainment content",
@@ -138591,52 +139475,18 @@ const ESSAY_DATA = [
                     {
                       "en": "attractive visuals",
                       "vi": "hình ảnh hấp dẫn"
-                    },
-                    {
-                      "en": "entertainment content",
-                      "vi": "nội dung giải trí"
                     }
                   ],
                   [
                     {
                       "en": "familiar situations",
                       "vi": "tình huống quen thuộc"
-                    },
-                    {
-                      "en": "improve the situation",
-                      "vi": "cải thiện tình hình"
-                    },
-                    {
-                      "en": "entertainment content",
-                      "vi": "nội dung giải trí"
                     }
                   ],
                   [
                     {
-                      "en": "watch without concentrating",
-                      "vi": "xem không cần tập trung cao"
-                    },
-                    {
-                      "en": "entertainment content",
-                      "vi": "nội dung giải trí"
-                    },
-                    {
-                      "en": "simple language",
-                      "vi": "ngôn ngữ đơn giản"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
-                    },
-                    {
-                      "en": "entertainment content",
-                      "vi": "nội dung giải trí"
-                    },
-                    {
-                      "en": "simple language",
-                      "vi": "ngôn ngữ đơn giản"
+                      "en": "academic programs",
+                      "vi": "chương trình học thuật"
                     }
                   ]
                 ]
@@ -138653,22 +139503,30 @@ const ESSAY_DATA = [
                     "vi": "định hướng sự lựa chọn"
                   },
                   {
-                    "en": "share about celebrities",
-                    "vi": "chia sẻ về người nổi tiếng"
+                    "en": "viral social media trends",
+                    "vi": "xu hướng lan truyền trên mạng xã hội"
                   },
                   {
-                    "en": "popular content",
-                    "vi": "nội dung phổ biến"
+                    "en": "famous singers or actors",
+                    "vi": "ca sĩ hoặc diễn viên nổi tiếng"
                   },
                   {
-                    "en": "trending programs",
-                    "vi": "các chương trình đang thịnh hành"
+                    "en": "short clips",
+                    "vi": "đoạn video ngắn"
+                  },
+                  {
+                    "en": "on social media",
+                    "vi": "trên mạng xã hội"
+                  },
+                  {
+                    "en": "join conversations",
+                    "vi": "tham gia cuộc trò chuyện"
                   }
                 ],
                 "point_vi": "Bạn bè và các xu hướng trên mạng xã hội có thể định hướng lựa chọn của người trẻ.",
                 "point_en": "Friends and social media trends can influence young people's choices.",
-                "evidence_vi": "Người trẻ thường chia sẻ về những chương trình và người nổi tiếng mà họ yêu thích. Những cuộc trò chuyện này có thể khiến các chương trình trở nên hấp dẫn hơn. Các nội dung phổ biến cũng thường xuất hiện nhiều trên mạng xã hội. Vì vậy, người trẻ có xu hướng xem những chương trình đang được nhiều người quan tâm.",
-                "evidence_en": "Young people often share information about shows and celebrities they like. These conversations can make the programs more attractive. Popular content also often appears frequently on social media. Therefore, young people tend to watch programs that many people are interested in.",
+                "evidence_vi": "Người trẻ thường xuyên trò chuyện với bạn bè về các chương trình thực tế và ca sĩ, diễn viên nổi tiếng. Ngoài ra, những đoạn video ngắn từ các chương trình giải trí xuất hiện rất nhiều trên mạng xã hội mỗi ngày. Vì thế, giới trẻ thường chọn xem những chương trình phổ biến để dễ dàng hòa nhập với bạn bè.",
+                "evidence_en": "Young people often talk with friends about reality shows and famous singers or actors. Moreover, short clips from entertainment programs appear everywhere on social media every day. For this reason, young viewers watch popular shows so they can easily join conversations with friends.",
                 "point_collocations": [
                   {
                     "en": "social media trends",
@@ -138686,62 +139544,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "share about celebrities",
-                      "vi": "chia sẻ về người nổi tiếng"
-                    },
-                    {
-                      "en": "social media trends",
-                      "vi": "các xu hướng trên mạng xã hội"
-                    },
-                    {
-                      "en": "influence choices",
-                      "vi": "định hướng sự lựa chọn"
+                      "en": "famous singers or actors",
+                      "vi": "ca sĩ hoặc diễn viên nổi tiếng"
                     }
                   ],
                   [
                     {
-                      "en": "social media trends",
-                      "vi": "các xu hướng trên mạng xã hội"
+                      "en": "short clips",
+                      "vi": "đoạn video ngắn"
                     },
                     {
-                      "en": "influence choices",
-                      "vi": "định hướng sự lựa chọn"
-                    },
-                    {
-                      "en": "share about celebrities",
-                      "vi": "chia sẻ về người nổi tiếng"
+                      "en": "on social media",
+                      "vi": "trên mạng xã hội"
                     }
                   ],
                   [
                     {
-                      "en": "social media trends",
-                      "vi": "các xu hướng trên mạng xã hội"
-                    },
-                    {
-                      "en": "popular content",
-                      "vi": "nội dung phổ biến"
-                    },
-                    {
-                      "en": "viral social media trends",
-                      "vi": "xu hướng lan truyền trên mạng xã hội"
-                    },
-                    {
-                      "en": "frequently",
-                      "vi": "thường xuyên"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
-                    },
-                    {
-                      "en": "social media trends",
-                      "vi": "các xu hướng trên mạng xã hội"
-                    },
-                    {
-                      "en": "influence choices",
-                      "vi": "định hướng sự lựa chọn"
+                      "en": "join conversations",
+                      "vi": "tham gia cuộc trò chuyện"
                     }
                   ]
                 ]
@@ -138760,17 +139580,33 @@ const ESSAY_DATA = [
                     "vi": "chương trình khoa học và tin tức"
                   }
                 ],
-                "evidence_vi": "Tin tức thường chứa nhiều thông tin tiêu cực và chương trình khoa học dùng nhiều thuật ngữ khó hiểu nên ít thu hút học sinh, sinh viên.",
-                "evidence_en": "News shows often include stressful stories, and science programs use difficult terms that rarely attract students.",
+                "evidence_vi": "Các bản tin thời sự thường đưa nhiều thông tin căng thẳng về tai nạn hoặc khó khăn kinh tế. Trong khi đó, chương trình khoa học lại sử dụng nhiều thuật ngữ khó hiểu và cách trình bày khá chậm. Điều này khiến nhiều học sinh và sinh viên nhanh chóng cảm thấy chán nản khi xem.",
+                "evidence_en": "News programs often report stressful stories about accidents or economic problems. Meanwhile, science shows use difficult terms and often have a slow presentation style. This makes many students lose interest very quickly when watching them.",
                 "evidence_collocations": [
                   [
                     {
                       "en": "stressful stories",
-                      "vi": "những câu chuyện gây căng thẳng"
+                      "vi": "những tin tức căng thẳng"
                     },
                     {
+                      "en": "economic problems",
+                      "vi": "vấn đề kinh tế"
+                    }
+                  ],
+                  [
+                    {
                       "en": "difficult terms",
-                      "vi": "thuật ngữ khó hiểu"
+                      "vi": "thuật ngữ khó"
+                    },
+                    {
+                      "en": "presentation style",
+                      "vi": "phong cách trình bày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lose interest",
+                      "vi": "mất hứng thú"
                     }
                   ]
                 ],
@@ -138785,11 +139621,23 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "stressful stories",
-                    "vi": "những câu chuyện gây căng thẳng"
+                    "vi": "những tin tức căng thẳng"
+                  },
+                  {
+                    "en": "economic problems",
+                    "vi": "vấn đề kinh tế"
                   },
                   {
                     "en": "difficult terms",
-                    "vi": "thuật ngữ khó hiểu"
+                    "vi": "thuật ngữ khó"
+                  },
+                  {
+                    "en": "presentation style",
+                    "vi": "phong cách trình bày"
+                  },
+                  {
+                    "en": "lose interest",
+                    "vi": "mất hứng thú"
                   }
                 ]
               },
@@ -138807,17 +139655,33 @@ const ESSAY_DATA = [
                     "vi": "hoạt động tương tác"
                   }
                 ],
-                "evidence_vi": "Giới trẻ rất thích theo dõi ca sĩ, diễn viên họ yêu mến và tham gia bình chọn trực tiếp cho thí sinh trong các cuộc thi truyền hình.",
-                "evidence_en": "Young viewers love watching their favorite singers and actors and voting live for contestants in TV competitions.",
+                "evidence_vi": "Giới trẻ rất thích theo dõi thần tượng, ca sĩ và diễn viên hài mà họ yêu mến trên truyền hình. Hơn nữa, nhiều cuộc thi giải trí cho phép khán giả bình chọn trực tiếp và bình luận cùng nhau trên mạng. Những hoạt động thú vị này khiến các chương trình giải trí hấp dẫn hơn nhiều so với tin tức.",
+                "evidence_en": "Young viewers love watching their favorite idols, singers, and comedians on television. Furthermore, many entertainment competitions let audiences vote live and leave comments together online. These exciting activities make entertainment shows far more attractive than news programs.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "favorite singers and actors",
-                      "vi": "ca sĩ và diễn viên yêu thích"
+                      "en": "favorite idols",
+                      "vi": "thần tượng yêu thích"
                     },
+                    {
+                      "en": "comedians",
+                      "vi": "diễn viên hài"
+                    }
+                  ],
+                  [
                     {
                       "en": "vote live",
                       "vi": "bình chọn trực tiếp"
+                    },
+                    {
+                      "en": "leave comments",
+                      "vi": "để lại bình luận"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "more attractive",
+                      "vi": "hấp dẫn hơn"
                     }
                   ]
                 ],
@@ -138831,12 +139695,24 @@ const ESSAY_DATA = [
                     "vi": "hoạt động tương tác"
                   },
                   {
-                    "en": "favorite singers and actors",
-                    "vi": "ca sĩ và diễn viên yêu thích"
+                    "en": "favorite idols",
+                    "vi": "thần tượng yêu thích"
+                  },
+                  {
+                    "en": "comedians",
+                    "vi": "diễn viên hài"
                   },
                   {
                     "en": "vote live",
                     "vi": "bình chọn trực tiếp"
+                  },
+                  {
+                    "en": "leave comments",
+                    "vi": "để lại bình luận"
+                  },
+                  {
+                    "en": "more attractive",
+                    "vi": "hấp dẫn hơn"
                   }
                 ]
               }
@@ -138849,6 +139725,10 @@ const ESSAY_DATA = [
                 "title": "CAUSE 01",
                 "collocations": [
                   {
+                    "en": "entertainment programs",
+                    "vi": "các chương trình giải trí"
+                  },
+                  {
                     "en": "emotional decompression",
                     "vi": "sự giải tỏa cảm xúc"
                   },
@@ -138857,22 +139737,42 @@ const ESSAY_DATA = [
                     "vi": "trốn thoát khỏi áp lực học đường"
                   },
                   {
-                    "en": "humorous and lighthearted",
-                    "vi": "hài hước và nhẹ nhàng"
+                    "en": "lighthearted content",
+                    "vi": "nội dung nhẹ nhàng"
                   },
                   {
-                    "en": "recreational enjoyment",
-                    "vi": "sự tận hưởng giải trí"
+                    "en": "emotionally uplifting",
+                    "vi": "nâng cao tinh thần"
                   },
                   {
-                    "en": "leisure time preference",
-                    "vi": "ưu tiên trong thời gian rảnh"
+                    "en": "temporarily escape",
+                    "vi": "tạm thời thoát khỏi"
+                  },
+                  {
+                    "en": "exhausting day",
+                    "vi": "một ngày mệt nhoài"
+                  },
+                  {
+                    "en": "talent competition",
+                    "vi": "cuộc thi tài năng"
+                  },
+                  {
+                    "en": "recharge mental energy",
+                    "vi": "nạp lại năng lượng tinh thần"
+                  },
+                  {
+                    "en": "preferred choice",
+                    "vi": "lựa chọn ưu tiên"
+                  },
+                  {
+                    "en": "leisure hours",
+                    "vi": "giờ rảnh rỗi"
                   }
                 ],
                 "point_vi": "Các chương trình giải trí đáp ứng nhu cầu thư giãn và giải tỏa cảm xúc của người trẻ.",
                 "point_en": "Entertainment programs meet young people's need for relaxation and emotional enjoyment.",
-                "evidence_vi": "Những chương trình này thường có nội dung hài hước, thú vị và dễ theo dõi. Chúng giúp người trẻ tạm thời thoát khỏi áp lực học tập và cuộc sống. Người xem có thể cảm thấy vui vẻ và thoải mái hơn sau khi xem. Ví dụ, một chương trình hài hoặc cuộc thi tài năng có thể giúp sinh viên thư giãn sau một ngày học tập căng thẳng. Vì vậy, các chương trình giải trí thường trở thành lựa chọn ưu tiên trong thời gian rảnh.",
-                "evidence_en": "These programs often contain humorous, enjoyable, and easy-to-follow content. They allow young people to temporarily escape from academic and daily pressure. Viewers can feel happier and more relaxed after watching them. For example, a comedy show or talent competition can help students relax after a stressful day of studying. Therefore, entertainment programs often become a preferred choice during leisure time.",
+                "evidence_vi": "Những chương trình này thường mang đến nội dung hài hước, nhẹ nhàng và giàu cảm xúc tích cực. Chúng cho phép người trẻ tạm thời thoát khỏi áp lực học tập và căng thẳng công việc sau một ngày dài mệt mỏi. Chẳng hạn, một chương trình hài kịch hoặc cuộc thi âm nhạc giúp sinh viên nạp lại năng lượng tinh thần rất nhanh chóng. Vì vậy, các chương trình giải trí tự nhiên trở thành lựa chọn ưu tiên hàng đầu trong thời gian rảnh rỗi.",
+                "evidence_en": "These programs typically deliver humorous, lighthearted, and emotionally uplifting content. They allow young people to temporarily escape academic pressure and daily workplace stress after an exhausting day. For example, watching a comedy show or talent competition helps students recharge their mental energy quickly. Consequently, entertainment programs naturally become the preferred choice during leisure hours.",
                 "point_collocations": [
                   {
                     "en": "entertainment programs",
@@ -138890,80 +139790,42 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "humorous and lighthearted",
-                      "vi": "hài hước và nhẹ nhàng"
+                      "en": "lighthearted content",
+                      "vi": "nội dung nhẹ nhàng"
                     },
                     {
-                      "en": "emotional decompression",
-                      "vi": "sự giải tỏa cảm xúc"
-                    },
-                    {
-                      "en": "escapism from academic stress",
-                      "vi": "trốn thoát khỏi áp lực học đường"
+                      "en": "emotionally uplifting",
+                      "vi": "nâng cao tinh thần"
                     }
                   ],
                   [
                     {
-                      "en": "escapism from academic stress",
-                      "vi": "trốn thoát khỏi áp lực học đường"
+                      "en": "temporarily escape",
+                      "vi": "tạm thời thoát khỏi"
                     },
                     {
-                      "en": "forget daily pressure",
-                      "vi": "quên đi áp lực hằng ngày"
-                    },
-                    {
-                      "en": "emotional decompression",
-                      "vi": "sự giải tỏa cảm xúc"
+                      "en": "exhausting day",
+                      "vi": "một ngày mệt nhoài"
                     }
                   ],
                   [
                     {
-                      "en": "relax after studying",
-                      "vi": "thư giãn sau khi học"
+                      "en": "talent competition",
+                      "vi": "cuộc thi tài năng"
                     },
                     {
-                      "en": "emotional decompression",
-                      "vi": "sự giải tỏa cảm xúc"
-                    },
-                    {
-                      "en": "escapism from academic stress",
-                      "vi": "trốn thoát khỏi áp lực học đường"
+                      "en": "recharge mental energy",
+                      "vi": "nạp lại năng lượng tinh thần"
                     }
                   ],
                   [
                     {
-                      "en": "relax after studying",
-                      "vi": "thư giãn sau khi học"
+                      "en": "preferred choice",
+                      "vi": "lựa chọn ưu tiên"
                     },
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "leisure time preference",
-                      "vi": "ưu tiên trong thời gian rảnh"
-                    },
-                    {
-                      "en": "entertainment programs",
-                      "vi": "các chương trình giải trí"
-                    },
-                    {
-                      "en": "leisure time activity",
-                      "vi": "hoạt động trong thời gian rảnh"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
+                      "en": "leisure hours",
+                      "vi": "giờ rảnh rỗi"
                     }
                   ]
                 ]
@@ -138971,6 +139833,10 @@ const ESSAY_DATA = [
               {
                 "title": "CAUSE 02",
                 "collocations": [
+                  {
+                    "en": "entertainment content",
+                    "vi": "nội dung giải trí"
+                  },
                   {
                     "en": "low cognitive load",
                     "vi": "tải trọng nhận thức thấp"
@@ -138980,22 +139846,38 @@ const ESSAY_DATA = [
                     "vi": "kích thích thị giác"
                   },
                   {
-                    "en": "accessible narrative format",
-                    "vi": "định dạng câu chuyện dễ tiếp cận"
+                    "en": "vivid visuals",
+                    "vi": "hình ảnh sống động"
                   },
                   {
-                    "en": "effortless content consumption",
-                    "vi": "tiêu thụ nội dung không tốn sức"
+                    "en": "relatable scenarios",
+                    "vi": "tình huống gần gũi"
                   },
                   {
-                    "en": "high-engagement visuals",
-                    "vi": "hình ảnh lôi cuốn cao"
+                    "en": "analytical concentration",
+                    "vi": "sự tập trung phân tích"
+                  },
+                  {
+                    "en": "background knowledge",
+                    "vi": "kiến thức nền"
+                  },
+                  {
+                    "en": "unwind in the evening",
+                    "vi": "thư giãn vào buổi tối"
+                  },
+                  {
+                    "en": "superior accessibility",
+                    "vi": "tính dễ tiếp cận vượt trội"
+                  },
+                  {
+                    "en": "intense mental effort",
+                    "vi": "nỗ lực trí óc cao"
                   }
                 ],
                 "point_vi": "Nội dung giải trí thường dễ tiếp cận và hấp dẫn hơn đối với nhiều người trẻ.",
                 "point_en": "Entertainment content is often easier to access and more attractive to many young people.",
-                "evidence_vi": "Các chương trình thường sử dụng ngôn ngữ đơn giản và hình ảnh sinh động. Chúng thường trình bày những tình huống gần gũi và dễ hiểu. Người xem không cần dành quá nhiều thời gian để phân tích nội dung. Điều này đặc biệt phù hợp với những người muốn xem một chương trình để nghỉ ngơi. Do đó, người trẻ có thể ưu tiên nội dung giải trí hơn những chương trình đòi hỏi sự tập trung cao.",
-                "evidence_en": "These programs often use simple language and lively visuals. They often present familiar and easy-to-understand situations. Viewers do not need to spend much time analysing the content. This is particularly suitable for people who want to watch something while relaxing. Therefore, young people may prefer entertainment content to programs that require greater concentration.",
+                "evidence_vi": "Các chương trình giải trí thường sử dụng ngôn ngữ gần gũi, hình ảnh sống động và những tình huống đời thường dễ hiểu. Người xem có thể thưởng thức trọn vẹn nội dung mà không cần tập trung phân tích hay có sẵn kiến thức nền phức tạp. Điều này đặc biệt phù hợp với giới trẻ khi họ muốn thư giãn đầu óc vào buổi tối. Nhờ tính dễ tiếp cận vượt trội, nội dung giải trí dễ dàng chiếm ưu thế hơn các chương trình khoa học đòi hỏi tư duy cao.",
+                "evidence_en": "Entertainment shows generally employ accessible language, vivid visuals, and relatable everyday scenarios. Viewers can effortlessly follow the storyline without deep analytical concentration or specialized background knowledge. This proves particularly appealing to young audiences who simply want to unwind in the evening. Thanks to this superior accessibility, entertainment easily outweighs science broadcasts that demand intense mental effort.",
                 "point_collocations": [
                   {
                     "en": "entertainment content",
@@ -139013,72 +139895,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "simple language",
-                      "vi": "ngôn ngữ đơn giản"
+                      "en": "vivid visuals",
+                      "vi": "hình ảnh sống động"
                     },
                     {
-                      "en": "low cognitive load",
-                      "vi": "tải trọng nhận thức thấp"
-                    },
-                    {
-                      "en": "visually stimulating",
-                      "vi": "kích thích thị giác"
+                      "en": "relatable scenarios",
+                      "vi": "tình huống gần gũi"
                     }
                   ],
                   [
                     {
-                      "en": "familiar situations",
-                      "vi": "tình huống quen thuộc"
+                      "en": "analytical concentration",
+                      "vi": "sự tập trung phân tích"
                     },
                     {
-                      "en": "low cognitive load",
-                      "vi": "tải trọng nhận thức thấp"
-                    },
-                    {
-                      "en": "visually stimulating",
-                      "vi": "kích thích thị giác"
+                      "en": "background knowledge",
+                      "vi": "kiến thức nền"
                     }
                   ],
                   [
                     {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
-                    },
-                    {
-                      "en": "low cognitive load",
-                      "vi": "tải trọng nhận thức thấp"
-                    },
-                    {
-                      "en": "visually stimulating",
-                      "vi": "kích thích thị giác"
+                      "en": "unwind in the evening",
+                      "vi": "thư giãn vào buổi tối"
                     }
                   ],
                   [
                     {
-                      "en": "particularly",
-                      "vi": "đặc biệt"
+                      "en": "superior accessibility",
+                      "vi": "tính dễ tiếp cận vượt trội"
                     },
                     {
-                      "en": "low cognitive load",
-                      "vi": "tải trọng nhận thức thấp"
-                    },
-                    {
-                      "en": "visually stimulating",
-                      "vi": "kích thích thị giác"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "entertainment programs",
-                      "vi": "các chương trình giải trí"
-                    },
-                    {
-                      "en": "entertainment content",
-                      "vi": "nội dung giải trí"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
+                      "en": "intense mental effort",
+                      "vi": "nỗ lực trí óc cao"
                     }
                   ]
                 ]
@@ -139087,30 +139935,46 @@ const ESSAY_DATA = [
                 "title": "CAUSE 03",
                 "collocations": [
                   {
-                    "en": "peer discourse amplification",
-                    "vi": "sự khuếch đại qua thảo luận bạn bè"
-                  },
-                  {
                     "en": "viral social media trends",
                     "vi": "xu hướng lan truyền trên mạng xã hội"
                   },
                   {
-                    "en": "algorithmic recommendation",
-                    "vi": "gợi ý từ thuật toán"
+                    "en": "entertainment programs",
+                    "vi": "các chương trình giải trí"
                   },
                   {
-                    "en": "fear of missing out",
-                    "vi": "tâm lý sợ bỏ lỡ (FOMO)"
+                    "en": "social media trends",
+                    "vi": "các xu hướng trên mạng xã hội"
                   },
                   {
-                    "en": "cultural trend alignment",
-                    "vi": "sự bắt nhịp xu hướng văn hóa"
+                    "en": "trending shows",
+                    "vi": "các chương trình đang thịnh hành"
+                  },
+                  {
+                    "en": "peer groups",
+                    "vi": "nhóm bạn cùng lứa"
+                  },
+                  {
+                    "en": "feel left out",
+                    "vi": "cảm thấy bị lạc lõng / bỏ lại"
+                  },
+                  {
+                    "en": "social media algorithms",
+                    "vi": "thuật toán mạng xã hội"
+                  },
+                  {
+                    "en": "viral clips",
+                    "vi": "đoạn video lan truyền"
+                  },
+                  {
+                    "en": "online virality",
+                    "vi": "sức lan truyền trực tuyến"
                   }
                 ],
                 "point_vi": "Ảnh hưởng từ bạn bè và mạng xã hội có thể khiến người trẻ quan tâm nhiều hơn đến các chương trình giải trí.",
                 "point_en": "Influence from friends and social media can make young people more interested in entertainment programs.",
-                "evidence_vi": "Người trẻ thường trao đổi về các chương trình, người nổi tiếng và xu hướng đang phổ biến. Những cuộc thảo luận này có thể tạo cảm giác rằng họ nên biết về những nội dung đang thịnh hành. Mạng xã hội cũng liên tục đề xuất những video và chương trình được nhiều người xem. Ví dụ, một chương trình thực tế có thể nhanh chóng trở nên phổ biến sau khi các đoạn video của nó được chia sẻ rộng rãi. Vì vậy, xu hướng xã hội có thể làm tăng sự quan tâm của người trẻ đối với nội dung giải trí.",
-                "evidence_en": "Young people often discuss popular shows, celebrities, and current trends. These discussions can create a feeling that they should know about trending content. Social media also continuously recommends videos and programs that attract many viewers. For example, a reality show can quickly become popular after its videos are widely shared. Therefore, social trends can increase young people's interest in entertainment content.",
+                "evidence_vi": "Giới trẻ thường xuyên bàn luận với bạn bè về các chương trình ăn khách, người nổi tiếng và những xu hướng văn hóa đang thịnh hành. Việc nắm bắt các nội dung nổi bật này giúp họ cảm thấy tự tin hơn và không bị lạc lõng trong các cuộc trò chuyện nhóm. Hơn nữa, thuật toán mạng xã hội liên tục đề xuất những đoạn trích hấp dẫn từ các chương trình thực tế có lượng người xem cao. Do đó, sức ép hòa nhập xã hội và hiệu ứng lan truyền trực tuyến thúc đẩy mạnh mẽ thói quen xem chương trình giải trí.",
+                "evidence_en": "Young people routinely discuss trending shows, celebrities, and pop-culture moments with their peer groups. Keeping up with these popular broadcasts helps them stay connected and avoid feeling left out of group conversations. Moreover, social media algorithms constantly promote viral clips from high-rated reality shows across their feeds. Therefore, social influence and online virality powerfully reinforce young audiences' preference for entertainment.",
                 "point_collocations": [
                   {
                     "en": "viral social media trends",
@@ -139128,76 +139992,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "peer discourse amplification",
-                      "vi": "sự khuếch đại qua thảo luận bạn bè"
+                      "en": "trending shows",
+                      "vi": "các chương trình đang thịnh hành"
                     },
                     {
-                      "en": "viral social media trends",
-                      "vi": "xu hướng lan truyền trên mạng xã hội"
-                    },
-                    {
-                      "en": "algorithmic recommendation",
-                      "vi": "gợi ý từ thuật toán"
+                      "en": "peer groups",
+                      "vi": "nhóm bạn cùng lứa"
                     }
                   ],
                   [
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "peer discourse amplification",
-                      "vi": "sự khuếch đại qua thảo luận bạn bè"
-                    },
-                    {
-                      "en": "viral social media trends",
-                      "vi": "xu hướng lan truyền trên mạng xã hội"
+                      "en": "feel left out",
+                      "vi": "cảm thấy bị lạc lõng / bỏ lại"
                     }
                   ],
                   [
                     {
-                      "en": "viral social media trends",
-                      "vi": "xu hướng lan truyền trên mạng xã hội"
+                      "en": "social media algorithms",
+                      "vi": "thuật toán mạng xã hội"
                     },
                     {
-                      "en": "social media trends",
-                      "vi": "các xu hướng trên mạng xã hội"
-                    },
-                    {
-                      "en": "peer discourse amplification",
-                      "vi": "sự khuếch đại qua thảo luận bạn bè"
+                      "en": "viral clips",
+                      "vi": "đoạn video lan truyền"
                     }
                   ],
                   [
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
-                      "en": "peer discourse amplification",
-                      "vi": "sự khuếch đại qua thảo luận bạn bè"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "viral social media trends",
-                      "vi": "xu hướng lan truyền trên mạng xã hội"
-                    },
-                    {
-                      "en": "entertainment content",
-                      "vi": "nội dung giải trí"
-                    },
-                    {
-                      "en": "social media trends",
-                      "vi": "các xu hướng trên mạng xã hội"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
+                      "en": "online virality",
+                      "vi": "sức lan truyền trực tuyến"
                     }
                   ]
                 ]
@@ -139216,17 +140038,33 @@ const ESSAY_DATA = [
                     "vi": "nặng nề về mặt cảm xúc"
                   }
                 ],
-                "evidence_vi": "Các bản tin thời sự thường xoay quanh xung đột, suy thoái kinh tế và thiên tai, trong khi chương trình khoa học chứa nhiều thuật ngữ chuyên ngành phức tạp. Khi thiếu cách kể chuyện sinh động, những nội dung này khó giữ chân người xem trẻ sau một ngày dài mệt mỏi.",
-                "evidence_en": "News broadcasts frequently focus on conflicts, economic crises, and disasters, while science documentaries often rely on dense technical jargon. Without engaging storytelling, such informative programs struggle to hold young viewers' attention after a tiring day.",
+                "evidence_vi": "Các bản tin thời sự thường tập trung vào xung đột chính trị, suy thoái kinh tế và thiên tai, dễ gây cảm giác nặng nề cho người xem. Trong khi đó, nhiều phim tài liệu khoa học lại chứa dày đặc thuật ngữ chuyên ngành và cách dẫn dắt thiếu sinh động. Ví dụ, một bài phân tích dài về biến động tài chính hoặc nghiên cứu học thuật hiếm khi giữ chân được sinh viên sau giờ học căng thẳng. Khi thiếu cách kể chuyện cuốn hút, các chương trình cung cấp tri thức khó lòng cạnh tranh với nội dung giải trí.",
+                "evidence_en": "News broadcasts frequently center on political conflicts, economic downturns, and natural disasters, which can feel emotionally draining. Meanwhile, many science documentaries rely heavily on dense technical jargon and rather dry narration. For instance, a lengthy report on financial markets or academic research rarely holds students' attention after demanding classes. Without engaging storytelling, informative programming struggles to compete with lively entertainment shows.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "economic crises",
-                      "vi": "khủng hoảng kinh tế"
+                      "en": "economic downturns",
+                      "vi": "suy thoái kinh tế"
                     },
+                    {
+                      "en": "emotionally draining",
+                      "vi": "gây cạn kiệt cảm xúc / nặng nề"
+                    }
+                  ],
+                  [
                     {
                       "en": "technical jargon",
                       "vi": "thuật ngữ chuyên ngành"
+                    },
+                    {
+                      "en": "dry narration",
+                      "vi": "lời dẫn khô khan"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "hold attention",
+                      "vi": "giữ chân sự chú ý"
                     }
                   ],
                   [
@@ -139235,8 +140073,8 @@ const ESSAY_DATA = [
                       "vi": "cách kể chuyện cuốn hút"
                     },
                     {
-                      "en": "hold viewers' attention",
-                      "vi": "giữ chân sự chú ý của khán giả"
+                      "en": "informative programming",
+                      "vi": "chương trình cung cấp thông tin"
                     }
                   ]
                 ],
@@ -139250,20 +140088,32 @@ const ESSAY_DATA = [
                     "vi": "nặng nề về mặt cảm xúc"
                   },
                   {
-                    "en": "economic crises",
-                    "vi": "khủng hoảng kinh tế"
+                    "en": "economic downturns",
+                    "vi": "suy thoái kinh tế"
+                  },
+                  {
+                    "en": "emotionally draining",
+                    "vi": "gây cạn kiệt cảm xúc / nặng nề"
                   },
                   {
                     "en": "technical jargon",
                     "vi": "thuật ngữ chuyên ngành"
                   },
                   {
+                    "en": "dry narration",
+                    "vi": "lời dẫn khô khan"
+                  },
+                  {
+                    "en": "hold attention",
+                    "vi": "giữ chân sự chú ý"
+                  },
+                  {
                     "en": "engaging storytelling",
                     "vi": "cách kể chuyện cuốn hút"
                   },
                   {
-                    "en": "hold viewers' attention",
-                    "vi": "giữ chân sự chú ý của khán giả"
+                    "en": "informative programming",
+                    "vi": "chương trình cung cấp thông tin"
                   }
                 ]
               },
@@ -139281,27 +140131,43 @@ const ESSAY_DATA = [
                     "vi": "định dạng có tính tương tác"
                   }
                 ],
-                "evidence_vi": "Các nhà sản xuất thường mời ca sĩ, diễn viên hài và những người có sức ảnh hưởng để tạo sự tò mò và lôi cuốn người hâm mộ trẻ tuổi. Ngoài ra, tính năng bình chọn trực tiếp và bình luận trực tuyến giúp khán giả cảm thấy mình là một phần của chương trình thay vì chỉ xem thụ động.",
-                "evidence_en": "Producers regularly feature popular singers, comedians, and influencers to spark excitement and draw loyal young fanbases. Moreover, live audience voting and real-time online discussions allow viewers to feel actively involved rather than passively watching.",
+                "evidence_vi": "Các nhà sản xuất thường mời ca sĩ nổi tiếng, diễn viên hài và những người có sức ảnh hưởng để tạo sức hút lớn với cộng đồng người hâm mộ trẻ. Bên cạnh đó, các định dạng hiện đại cho phép khán giả tham gia bình chọn trực tiếp, chơi mini-game và bình luận theo thời gian thực. Ví dụ, một chương trình thực tế âm nhạc có thể thu hút hàng triệu lượt tương tác trực tuyến chỉ trong một đêm phát sóng. Chính trải nghiệm tương tác sống động này khiến người trẻ hào hứng hơn nhiều so với việc tiếp nhận tin tức một chiều.",
+                "evidence_en": "Producers strategically feature popular singers, comedians, and influencers to spark excitement and attract loyal young fanbases. In addition, modern entertainment formats encourage audiences to participate through live voting, interactive games, and real-time discussions. For example, a televised music competition can generate millions of online interactions during a single broadcast evening. This dynamic, participatory experience excites young viewers far more than passively consuming one-way news reports.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "spark excitement",
-                      "vi": "khơi gợi sự hào hứng"
-                    },
-                    {
                       "en": "loyal fanbases",
                       "vi": "cộng đồng người hâm mộ trung thành"
+                    },
+                    {
+                      "en": "spark excitement",
+                      "vi": "khơi gợi sự hào hứng"
                     }
                   ],
                   [
                     {
-                      "en": "actively involved",
-                      "vi": "tham gia tích cực"
+                      "en": "live voting",
+                      "vi": "bình chọn trực tiếp"
                     },
                     {
-                      "en": "passively watching",
-                      "vi": "xem một cách thụ động"
+                      "en": "real-time discussions",
+                      "vi": "thảo luận theo thời gian thực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "online interactions",
+                      "vi": "lượt tương tác trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "participatory experience",
+                      "vi": "trải nghiệm mang tính tham gia"
+                    },
+                    {
+                      "en": "one-way news reports",
+                      "vi": "bản tin một chiều"
                     }
                   ]
                 ],
@@ -139315,20 +140181,32 @@ const ESSAY_DATA = [
                     "vi": "định dạng có tính tương tác"
                   },
                   {
-                    "en": "spark excitement",
-                    "vi": "khơi gợi sự hào hứng"
-                  },
-                  {
                     "en": "loyal fanbases",
                     "vi": "cộng đồng người hâm mộ trung thành"
                   },
                   {
-                    "en": "actively involved",
-                    "vi": "tham gia tích cực"
+                    "en": "spark excitement",
+                    "vi": "khơi gợi sự hào hứng"
                   },
                   {
-                    "en": "passively watching",
-                    "vi": "xem một cách thụ động"
+                    "en": "live voting",
+                    "vi": "bình chọn trực tiếp"
+                  },
+                  {
+                    "en": "real-time discussions",
+                    "vi": "thảo luận theo thời gian thực"
+                  },
+                  {
+                    "en": "online interactions",
+                    "vi": "lượt tương tác trực tuyến"
+                  },
+                  {
+                    "en": "participatory experience",
+                    "vi": "trải nghiệm mang tính tham gia"
+                  },
+                  {
+                    "en": "one-way news reports",
+                    "vi": "bản tin một chiều"
                   }
                 ]
               }
@@ -140102,18 +140980,26 @@ const ESSAY_DATA = [
                     "vi": "tránh thức khuya"
                   },
                   {
-                    "en": "brain rest and processing",
-                    "vi": "não nghỉ ngơi và xử lý thông tin"
+                    "en": "avoid staying up too late",
+                    "vi": "tránh thức quá khuya"
+                  },
+                  {
+                    "en": "organize information",
+                    "vi": "sắp xếp lại thông tin"
                   },
                   {
                     "en": "go to bed early",
                     "vi": "đi ngủ sớm"
+                  },
+                  {
+                    "en": "remember lessons clearly",
+                    "vi": "nhớ bài rõ ràng"
                   }
                 ],
                 "point_vi": "Mọi người nên duy trì thói quen ngủ hợp lý để hỗ trợ trí nhớ.",
                 "point_en": "People should maintain healthy sleeping habits to improve their memory.",
-                "evidence_vi": "Họ nên ngủ đủ thời gian mỗi ngày. Họ cũng nên tránh thức quá khuya. Ngủ đủ giúp não có thời gian nghỉ ngơi và xử lý thông tin. Ví dụ, sinh viên có thể đi ngủ sớm trước những ngày thi quan trọng.",
-                "evidence_en": "They should get enough sleep every day. They should also avoid staying up too late. Enough sleep gives the brain time to rest and process information. For example, students can go to bed early before important exam days.",
+                "evidence_vi": "Mọi người nên ngủ đủ 7 đến 8 tiếng mỗi đêm và tránh thức quá khuya. Giấc ngủ đủ giúp bộ não có thời gian nghỉ ngơi và sắp xếp lại thông tin đã học trong ngày. Ví dụ, học sinh đi ngủ sớm trước kỳ thi thường nhớ bài rõ và tập trung tốt hơn.",
+                "evidence_en": "People should sleep seven to eight hours every night and avoid staying up too late. Enough sleep gives the brain time to rest and organize information learned during the day. For example, students who go to bed early before exams usually remember lessons more clearly.",
                 "point_collocations": [
                   {
                     "en": "healthy sleeping habits",
@@ -140131,52 +141017,14 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "get enough sleep",
-                      "vi": "ngủ đủ giấc"
-                    },
-                    {
-                      "en": "healthy sleeping habits",
-                      "vi": "thói quen ngủ lành mạnh"
-                    },
-                    {
-                      "en": "avoid staying up late",
-                      "vi": "tránh thức khuya"
+                      "en": "avoid staying up too late",
+                      "vi": "tránh thức quá khuya"
                     }
                   ],
                   [
                     {
-                      "en": "avoid staying up late",
-                      "vi": "tránh thức khuya"
-                    },
-                    {
-                      "en": "avoid late-night cramming",
-                      "vi": "tránh nhồi nhét học khuya"
-                    },
-                    {
-                      "en": "healthy sleeping habits",
-                      "vi": "thói quen ngủ lành mạnh"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "get enough sleep",
-                      "vi": "ngủ đủ giấc"
-                    },
-                    {
-                      "en": "brain rest and processing",
-                      "vi": "não nghỉ ngơi và xử lý thông tin"
-                    },
-                    {
-                      "en": "brain activity and concentration",
-                      "vi": "hoạt động của não và sự tập trung"
-                    },
-                    {
-                      "en": "cardiovascular and brain health",
-                      "vi": "sức khỏe tim mạch và não bộ"
-                    },
-                    {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
+                      "en": "organize information",
+                      "vi": "sắp xếp lại thông tin"
                     }
                   ],
                   [
@@ -140185,12 +141033,8 @@ const ESSAY_DATA = [
                       "vi": "đi ngủ sớm"
                     },
                     {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
-                      "en": "to be specific",
-                      "vi": "cụ thể là"
+                      "en": "remember lessons clearly",
+                      "vi": "nhớ bài rõ ràng"
                     }
                   ]
                 ]
@@ -140203,26 +141047,34 @@ const ESSAY_DATA = [
                     "vi": "tập thể dục thường xuyên"
                   },
                   {
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
+                  },
+                  {
                     "en": "physical activity",
                     "vi": "hoạt động thể chất"
                   },
                   {
-                    "en": "brain activity and concentration",
-                    "vi": "hoạt động của não và sự tập trung"
+                    "en": "keep bodies healthy",
+                    "vi": "giữ cơ thể khỏe mạnh"
                   },
                   {
-                    "en": "play sports and jog",
-                    "vi": "chơi thể thao và chạy bộ"
+                    "en": "blood flow to the brain",
+                    "vi": "lưu thông máu lên não"
                   },
                   {
-                    "en": "daily 30-minute walk",
-                    "vi": "đi bộ 30 phút hằng ngày"
+                    "en": "boost concentration",
+                    "vi": "tăng cường sự tập trung"
+                  },
+                  {
+                    "en": "simple habit",
+                    "vi": "thói quen đơn giản"
                   }
                 ],
                 "point_vi": "Tập thể dục thường xuyên cũng là một cách tốt để hỗ trợ trí nhớ.",
                 "point_en": "Regular exercise is also a good way to support memory.",
-                "evidence_vi": "Mọi người có thể đi bộ, chạy bộ hoặc chơi thể thao vài lần mỗi tuần. Hoạt động thể chất giúp cơ thể khỏe mạnh hơn. Nó cũng hỗ trợ hoạt động của não và khả năng tập trung. Chẳng hạn, mọi người có thể đi bộ khoảng 30 phút mỗi ngày.",
-                "evidence_en": "People can walk, jog, or play sports several times a week. Physical activity helps keep the body healthy. It also supports brain activity and concentration. For example, people can walk for about 30 minutes a day.",
+                "evidence_vi": "Mọi người có thể đi bộ, chạy bộ hoặc chơi thể thao vài lần mỗi tuần để cơ thể khỏe mạnh hơn. Vận động thường xuyên giúp máu lưu thông tốt lên não và cải thiện sự tập trung. Chẳng hạn, đi bộ khoảng 30 phút mỗi ngày là thói quen đơn giản nhưng rất có ích cho trí nhớ.",
+                "evidence_en": "People can walk, jog, or play sports several times a week to keep their bodies healthy. Regular physical activity improves blood flow to the brain and boosts concentration. For example, walking for about 30 minutes a day is a simple habit that strongly supports memory.",
                 "point_collocations": [
                   {
                     "en": "regular exercise",
@@ -140240,58 +141092,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "play sports and jog",
-                      "vi": "chơi thể thao và chạy bộ"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "regular exercise",
-                      "vi": "tập thể dục thường xuyên"
+                      "en": "keep bodies healthy",
+                      "vi": "giữ cơ thể khỏe mạnh"
                     }
                   ],
                   [
                     {
-                      "en": "physical activity",
-                      "vi": "hoạt động thể chất"
+                      "en": "blood flow to the brain",
+                      "vi": "lưu thông máu lên não"
                     },
                     {
-                      "en": "regular exercise",
-                      "vi": "tập thể dục thường xuyên"
-                    },
-                    {
-                      "en": "brain activity and concentration",
-                      "vi": "hoạt động của não và sự tập trung"
+                      "en": "boost concentration",
+                      "vi": "tăng cường sự tập trung"
                     }
                   ],
                   [
                     {
-                      "en": "brain activity and concentration",
-                      "vi": "hoạt động của não và sự tập trung"
-                    },
-                    {
-                      "en": "brain rest and processing",
-                      "vi": "não nghỉ ngơi và xử lý thông tin"
-                    },
-                    {
-                      "en": "cardiovascular and brain health",
-                      "vi": "sức khỏe tim mạch và não bộ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "daily 30-minute walk",
-                      "vi": "đi bộ 30 phút hằng ngày"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
+                      "en": "simple habit",
+                      "vi": "thói quen đơn giản"
                     }
                   ]
                 ]
@@ -140312,18 +141130,26 @@ const ESSAY_DATA = [
                     "vi": "ôn tập thường xuyên"
                   },
                   {
-                    "en": "use flashcards",
-                    "vi": "dùng thẻ flashcards"
+                    "en": "write down main ideas",
+                    "vi": "ghi chú ý chính"
                   },
                   {
-                    "en": "remember new vocabulary",
-                    "vi": "ghi nhớ từ vựng mới"
+                    "en": "mind maps",
+                    "vi": "sơ đồ tư duy"
+                  },
+                  {
+                    "en": "store knowledge",
+                    "vi": "lưu trữ kiến thức"
+                  },
+                  {
+                    "en": "review new vocabulary",
+                    "vi": "ôn từ vựng mới"
                   }
                 ],
                 "point_vi": "Mọi người nên áp dụng những phương pháp học phù hợp để ghi nhớ thông tin tốt hơn.",
                 "point_en": "People should use suitable learning methods to remember information better.",
-                "evidence_vi": "Họ có thể ghi chú những thông tin quan trọng. Họ cũng nên ôn tập thường xuyên thay vì chỉ học một lần. Các phương pháp như flashcards có thể giúp họ ghi nhớ từ và thông tin mới. Ví dụ, sinh viên có thể dùng flashcards để ôn từ vựng trước các kỳ thi.",
-                "evidence_en": "They can take notes of important information. They should also review information regularly instead of studying it only once. Methods such as flashcards can help them remember new words and information. For example, students can use flashcards to review vocabulary before exams.",
+                "evidence_vi": "Người học nên ghi chú lại các ý chính và ôn tập thường xuyên thay vì chỉ đọc qua một lần. Các công cụ như thẻ từ vựng hoặc sơ đồ tư duy giúp não ghi nhớ kiến thức lâu hơn. Ví dụ, sinh viên có thể dùng thẻ ghi nhớ để ôn từ mới mỗi ngày trước các kỳ thi.",
+                "evidence_en": "Learners should write down main ideas and review them regularly instead of studying only once. Tools like flashcards or mind maps help the brain store knowledge for a longer time. For example, students can use flashcards to review new vocabulary every day before exams.",
                 "point_collocations": [
                   {
                     "en": "suitable learning methods",
@@ -140341,12 +141167,8 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "take notes",
-                      "vi": "ghi chú"
-                    },
-                    {
-                      "en": "suitable learning methods",
-                      "vi": "phương pháp học phù hợp"
+                      "en": "write down main ideas",
+                      "vi": "ghi chú ý chính"
                     },
                     {
                       "en": "review regularly",
@@ -140355,44 +141177,18 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "review regularly",
-                      "vi": "ôn tập thường xuyên"
+                      "en": "mind maps",
+                      "vi": "sơ đồ tư duy"
                     },
                     {
-                      "en": "suitable learning methods",
-                      "vi": "phương pháp học phù hợp"
-                    },
-                    {
-                      "en": "take notes",
-                      "vi": "ghi chú"
+                      "en": "store knowledge",
+                      "vi": "lưu trữ kiến thức"
                     }
                   ],
                   [
                     {
-                      "en": "remember new vocabulary",
-                      "vi": "ghi nhớ từ vựng mới"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "suitable learning methods",
-                      "vi": "phương pháp học phù hợp"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "use flashcards",
-                      "vi": "dùng thẻ flashcards"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
-                      "en": "suitable learning methods",
-                      "vi": "phương pháp học phù hợp"
+                      "en": "review new vocabulary",
+                      "vi": "ôn từ vựng mới"
                     }
                   ]
                 ]
@@ -140411,17 +141207,33 @@ const ESSAY_DATA = [
                     "vi": "uống đủ nước"
                   }
                 ],
-                "evidence_vi": "Ăn nhiều cá, các loại hạt, rau xanh và hạn chế đồ ăn nhiều đường giúp cải thiện trí nhớ và sự tỉnh táo hằng ngày.",
-                "evidence_en": "Eating more fish, nuts, and green vegetables while limiting sugary foods helps improve memory and daily alertness.",
+                "evidence_vi": "Các thực phẩm giàu dinh dưỡng như cá, các loại hạt, trứng và rau xanh rất tốt cho sự phát triển của não bộ. Ngược lại, mọi người nên hạn chế đồ ăn nhiều đường và thức uống có cồn vì chúng làm giảm sự tỉnh táo. Nhờ ăn uống khoa học và uống đủ nước mỗi ngày, khả năng ghi nhớ sẽ được cải thiện rõ rệt.",
+                "evidence_en": "Nutritious foods such as fish, nuts, eggs, and green vegetables are very good for brain health. On the other hand, people should limit sugary snacks and alcohol because they reduce alertness. By eating well and drinking enough water every day, memory performance will noticeably improve.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "green vegetables",
-                      "vi": "rau xanh"
+                      "en": "nutritious foods",
+                      "vi": "thực phẩm giàu dinh dưỡng"
                     },
                     {
-                      "en": "daily alertness",
-                      "vi": "sự tỉnh táo hằng ngày"
+                      "en": "brain health",
+                      "vi": "sức khỏe não bộ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sugary snacks",
+                      "vi": "đồ ăn vặt nhiều đường"
+                    },
+                    {
+                      "en": "reduce alertness",
+                      "vi": "giảm sự tỉnh táo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "memory performance",
+                      "vi": "khả năng ghi nhớ"
                     }
                   ]
                 ],
@@ -140435,12 +141247,24 @@ const ESSAY_DATA = [
                     "vi": "uống đủ nước"
                   },
                   {
-                    "en": "green vegetables",
-                    "vi": "rau xanh"
+                    "en": "nutritious foods",
+                    "vi": "thực phẩm giàu dinh dưỡng"
                   },
                   {
-                    "en": "daily alertness",
-                    "vi": "sự tỉnh táo hằng ngày"
+                    "en": "brain health",
+                    "vi": "sức khỏe não bộ"
+                  },
+                  {
+                    "en": "sugary snacks",
+                    "vi": "đồ ăn vặt nhiều đường"
+                  },
+                  {
+                    "en": "reduce alertness",
+                    "vi": "giảm sự tỉnh táo"
+                  },
+                  {
+                    "en": "memory performance",
+                    "vi": "khả năng ghi nhớ"
                   }
                 ]
               },
@@ -140458,8 +141282,8 @@ const ESSAY_DATA = [
                     "vi": "kiểm soát căng thẳng hiệu quả"
                   }
                 ],
-                "evidence_vi": "Giải câu đố, đọc sách, học kỹ năng mới và nghỉ ngơi hợp lý giúp trí não luôn linh hoạt và ghi nhớ lâu hơn.",
-                "evidence_en": "Solving puzzles, reading books, learning new skills, and taking proper breaks keep the mind sharp and improve long-term recall.",
+                "evidence_vi": "Các hoạt động như giải câu đố, đọc sách hoặc học một kỹ năng mới giúp bộ não luôn linh hoạt. Bên cạnh đó, dành thời gian nghỉ ngắn và thư giãn giúp giảm căng thẳng trong học tập và công việc. Khi tâm trí thoải mái và được rèn luyện đều đặn, con người có thể ghi nhớ thông tin chính xác hơn.",
+                "evidence_en": "Activities such as solving puzzles, reading books, or learning a new skill keep the brain active. In addition, taking short breaks and relaxing helps lower stress from studying and working. When the mind is calm and trained regularly, people can remember information much more accurately.",
                 "evidence_collocations": [
                   [
                     {
@@ -140467,8 +141291,24 @@ const ESSAY_DATA = [
                       "vi": "giải câu đố"
                     },
                     {
-                      "en": "keep the mind sharp",
-                      "vi": "giữ đầu óc minh mẫn"
+                      "en": "keep the brain active",
+                      "vi": "giữ cho não luôn linh hoạt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take short breaks",
+                      "vi": "nghỉ giải lao ngắn"
+                    },
+                    {
+                      "en": "lower stress",
+                      "vi": "giảm căng thẳng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "remember accurately",
+                      "vi": "ghi nhớ chính xác"
                     }
                   ]
                 ],
@@ -140486,8 +141326,20 @@ const ESSAY_DATA = [
                     "vi": "giải câu đố"
                   },
                   {
-                    "en": "keep the mind sharp",
-                    "vi": "giữ đầu óc minh mẫn"
+                    "en": "keep the brain active",
+                    "vi": "giữ cho não luôn linh hoạt"
+                  },
+                  {
+                    "en": "take short breaks",
+                    "vi": "nghỉ giải lao ngắn"
+                  },
+                  {
+                    "en": "lower stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "remember accurately",
+                    "vi": "ghi nhớ chính xác"
                   }
                 ]
               }
@@ -140500,6 +141352,10 @@ const ESSAY_DATA = [
                 "title": "SOLUTION 01",
                 "collocations": [
                   {
+                    "en": "healthy sleeping habits",
+                    "vi": "thói quen ngủ lành mạnh"
+                  },
+                  {
                     "en": "consistent sleep-wake cycles",
                     "vi": "chu kỳ ngủ - thức đều đặn"
                   },
@@ -140508,22 +141364,30 @@ const ESSAY_DATA = [
                     "vi": "sự củng cố trí nhớ khi ngủ"
                   },
                   {
-                    "en": "neurocognitive recovery",
-                    "vi": "sự phục hồi nhận thức thần kinh"
+                    "en": "consistent schedules",
+                    "vi": "lịch trình ổn định"
                   },
                   {
-                    "en": "circadian rhythm alignment",
-                    "vi": "sự đồng điệu nhịp sinh học"
+                    "en": "consolidate information",
+                    "vi": "củng cố thông tin"
                   },
                   {
-                    "en": "avoid late-night cramming",
-                    "vi": "tránh nhồi nhét học khuya"
+                    "en": "long-term memory",
+                    "vi": "trí nhớ dài hạn"
+                  },
+                  {
+                    "en": "impair recall",
+                    "vi": "làm suy giảm khả năng nhớ lại"
+                  },
+                  {
+                    "en": "memory retention",
+                    "vi": "khả năng lưu giữ trí nhớ"
                   }
                 ],
                 "point_vi": "Duy trì một thói quen ngủ lành mạnh là một cách hiệu quả để cải thiện khả năng ghi nhớ.",
                 "point_en": "Maintaining healthy sleeping habits is an effective way to improve memory.",
-                "evidence_vi": "Mọi người nên ngủ đủ số giờ cần thiết mỗi ngày. Họ cũng nên duy trì giờ đi ngủ và thức dậy tương đối ổn định. Điều này giúp não có thời gian nghỉ ngơi và xử lý những thông tin đã tiếp nhận. Ví dụ, sinh viên nên tránh thức khuya để học trước các kỳ thi quan trọng. Về lâu dài, thói quen ngủ tốt có thể hỗ trợ khả năng tập trung và ghi nhớ.",
-                "evidence_en": "People should get the amount of sleep they need each day. They should also maintain relatively regular sleeping and waking times. This gives the brain time to rest and process the information it has received. For example, students should avoid staying up late to study before important exams. In the long term, good sleeping habits can support concentration and memory.",
+                "evidence_vi": "Mọi người cần đảm bảo ngủ đủ số giờ khuyến nghị và duy trì khung giờ đi ngủ, thức dậy ổn định mỗi ngày. Trong lúc ngủ sâu, bộ não có thời gian phục hồi năng lượng và củng cố các ký ức mới tiếp nhận vào trí nhớ dài hạn. Ví dụ, sinh viên nên tránh thức trắng đêm ôn bài trước kỳ thi quan trọng vì thiếu ngủ làm suy giảm nghiêm trọng khả năng tái hiện kiến thức. Về lâu dài, kỷ luật giấc ngủ khoa học sẽ nâng cao rõ rệt sự tập trung và hiệu suất ghi nhớ.",
+                "evidence_en": "Individuals should obtain sufficient sleep and maintain consistent sleeping and waking schedules each day. During deep sleep, the brain rests and consolidates newly acquired information into long-term memory. For example, students should avoid staying up all night before crucial exams because fatigue severely impairs recall. In the long run, disciplined sleeping habits significantly strengthen concentration and memory retention.",
                 "point_collocations": [
                   {
                     "en": "healthy sleeping habits",
@@ -140541,84 +141405,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "get enough sleep",
-                      "vi": "ngủ đủ giấc"
-                    },
-                    {
-                      "en": "consistent sleep-wake cycles",
-                      "vi": "chu kỳ ngủ - thức đều đặn"
-                    },
-                    {
-                      "en": "memory consolidation",
-                      "vi": "sự củng cố trí nhớ khi ngủ"
+                      "en": "consistent schedules",
+                      "vi": "lịch trình ổn định"
                     }
                   ],
                   [
                     {
-                      "en": "consistent sleep-wake cycles",
-                      "vi": "chu kỳ ngủ - thức đều đặn"
+                      "en": "consolidate information",
+                      "vi": "củng cố thông tin"
                     },
                     {
-                      "en": "memory consolidation",
-                      "vi": "sự củng cố trí nhớ khi ngủ"
-                    },
-                    {
-                      "en": "neurocognitive recovery",
-                      "vi": "sự phục hồi nhận thức thần kinh"
+                      "en": "long-term memory",
+                      "vi": "trí nhớ dài hạn"
                     }
                   ],
                   [
                     {
-                      "en": "brain rest and processing",
-                      "vi": "não nghỉ ngơi và xử lý thông tin"
-                    },
-                    {
-                      "en": "brain activity and concentration",
-                      "vi": "hoạt động của não và sự tập trung"
-                    },
-                    {
-                      "en": "cardiovascular and brain health",
-                      "vi": "sức khỏe tim mạch và não bộ"
-                    },
-                    {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
+                      "en": "impair recall",
+                      "vi": "làm suy giảm khả năng nhớ lại"
                     }
                   ],
                   [
                     {
-                      "en": "avoid late-night cramming",
-                      "vi": "tránh nhồi nhét học khuya"
-                    },
-                    {
-                      "en": "avoid staying up late",
-                      "vi": "tránh thức khuya"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "healthy sleeping habits",
-                      "vi": "thói quen ngủ lành mạnh"
-                    },
-                    {
-                      "en": "brain activity and concentration",
-                      "vi": "hoạt động của não và sự tập trung"
-                    },
-                    {
-                      "en": "long-term information retention",
-                      "vi": "lưu giữ thông tin dài hạn"
-                    },
-                    {
-                      "en": "in the long run",
-                      "vi": "trong dài hạn"
-                    },
-                    {
-                      "en": "in the long term",
-                      "vi": "trong dài hạn / lâu dài"
+                      "en": "memory retention",
+                      "vi": "khả năng lưu giữ trí nhớ"
                     }
                   ]
                 ]
@@ -140626,6 +141436,10 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 02",
                 "collocations": [
+                  {
+                    "en": "physical activity",
+                    "vi": "hoạt động thể chất"
+                  },
                   {
                     "en": "aerobic physical exercise",
                     "vi": "bài tập thể dục nhịp điệu"
@@ -140635,22 +141449,30 @@ const ESSAY_DATA = [
                     "vi": "tăng cường độ dẻo dai thần kinh"
                   },
                   {
-                    "en": "cerebral blood flow",
-                    "vi": "lưu lượng máu lên não"
+                    "en": "cognitive health",
+                    "vi": "sức khỏe nhận thức"
                   },
                   {
-                    "en": "active lifestyle integration",
-                    "vi": "lồng ghép lối sống năng động"
+                    "en": "oxygen-rich blood flow",
+                    "vi": "dòng máu giàu oxy"
                   },
                   {
-                    "en": "cardiovascular and brain health",
-                    "vi": "sức khỏe tim mạch và não bộ"
+                    "en": "sharpen alertness",
+                    "vi": "tăng cường sự tỉnh táo"
+                  },
+                  {
+                    "en": "mental clarity",
+                    "vi": "sự minh mẫn của trí óc"
+                  },
+                  {
+                    "en": "age-related memory decline",
+                    "vi": "suy giảm trí nhớ do tuổi tác"
                   }
                 ],
                 "point_vi": "Tăng cường hoạt động thể chất thường xuyên có thể hỗ trợ khả năng ghi nhớ.",
                 "point_en": "Increasing regular physical activity can support memory.",
-                "evidence_vi": "Mọi người có thể đi bộ, chạy bộ, đạp xe hoặc chơi thể thao vài lần mỗi tuần. Những hoạt động này giúp duy trì sức khỏe thể chất. Đồng thời, chúng có thể hỗ trợ hoạt động của não và khả năng tập trung. Chẳng hạn, một người có thể đi bộ khoảng 30 phút mỗi ngày thay vì dành toàn bộ thời gian rảnh trước màn hình. Nếu duy trì thường xuyên, hoạt động thể chất có thể trở thành một phần của lối sống lành mạnh có lợi cho trí nhớ.",
-                "evidence_en": "People can walk, jog, cycle, or play sports several times a week. These activities help maintain physical health. At the same time, they can support brain function and concentration. For instance, a person can walk for about 30 minutes a day instead of spending all their free time in front of a screen. If maintained regularly, physical activity can become part of a healthy lifestyle that supports memory.",
+                "evidence_vi": "Các hoạt động thể chất như đi bộ nhanh, chạy bộ, đạp xe hoặc bơi lội vài lần mỗi tuần mang lại lợi ích to lớn cho cả thể chất lẫn trí não. Vận động đều đặn thúc đẩy tuần hoàn máu giàu oxy lên não, qua đó tăng cường sự tỉnh táo và khả năng tập trung. Chẳng hạn, dành 30 phút đi bộ ngoài trời mỗi ngày thay vì ngồi liên tục trước màn hình giúp đầu óc minh mẫn hơn rõ rệt. Nếu duy trì lâu dài, thói quen tập luyện này sẽ bảo vệ chức năng nhận thức và hạn chế suy giảm trí nhớ theo tuổi tác.",
+                "evidence_en": "Physical activities such as brisk walking, jogging, cycling, or swimming several times weekly benefit both physical and cognitive health. Regular exercise boosts oxygen-rich blood flow to the brain, thereby sharpening alertness and mental focus. For instance, walking outdoors for 30 minutes daily instead of sitting continuously before screens noticeably refreshes mental clarity. Sustained over time, regular physical activity protects cognitive function and slows age-related memory decline.",
                 "point_collocations": [
                   {
                     "en": "physical activity",
@@ -140668,76 +141490,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "play sports and jog",
-                      "vi": "chơi thể thao và chạy bộ"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "aerobic physical exercise",
-                      "vi": "bài tập thể dục nhịp điệu"
+                      "en": "cognitive health",
+                      "vi": "sức khỏe nhận thức"
                     }
                   ],
                   [
                     {
-                      "en": "physical activity",
-                      "vi": "hoạt động thể chất"
+                      "en": "oxygen-rich blood flow",
+                      "vi": "dòng máu giàu oxy"
                     },
                     {
-                      "en": "aerobic physical exercise",
-                      "vi": "bài tập thể dục nhịp điệu"
-                    },
-                    {
-                      "en": "neuroplasticity enhancement",
-                      "vi": "tăng cường độ dẻo dai thần kinh"
+                      "en": "sharpen alertness",
+                      "vi": "tăng cường sự tỉnh táo"
                     }
                   ],
                   [
                     {
-                      "en": "cardiovascular and brain health",
-                      "vi": "sức khỏe tim mạch và não bộ"
-                    },
-                    {
-                      "en": "brain rest and processing",
-                      "vi": "não nghỉ ngơi và xử lý thông tin"
-                    },
-                    {
-                      "en": "brain activity and concentration",
-                      "vi": "hoạt động của não và sự tập trung"
-                    },
-                    {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
+                      "en": "mental clarity",
+                      "vi": "sự minh mẫn của trí óc"
                     }
                   ],
                   [
                     {
-                      "en": "daily 30-minute walk",
-                      "vi": "đi bộ 30 phút hằng ngày"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "for instance",
-                      "vi": "chẳng hạn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "physical activity",
-                      "vi": "hoạt động thể chất"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "aerobic physical exercise",
-                      "vi": "bài tập thể dục nhịp điệu"
+                      "en": "age-related memory decline",
+                      "vi": "suy giảm trí nhớ do tuổi tác"
                     }
                   ]
                 ]
@@ -140745,6 +141521,10 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 03",
                 "collocations": [
+                  {
+                    "en": "more effectively",
+                    "vi": "một cách hiệu quả hơn"
+                  },
                   {
                     "en": "spaced repetition technique",
                     "vi": "kỹ thuật lặp lại ngắt quãng"
@@ -140754,22 +141534,30 @@ const ESSAY_DATA = [
                     "vi": "thực hành chủ động gợi nhớ"
                   },
                   {
-                    "en": "elaborative note-taking",
-                    "vi": "ghi chép chi tiết có chiều sâu"
+                    "en": "passively rereading",
+                    "vi": "đọc lại một cách thụ động"
                   },
                   {
-                    "en": "self-assessment methodologies",
-                    "vi": "phương pháp tự kiểm tra"
+                    "en": "spaced intervals",
+                    "vi": "các khoảng thời gian ngắt quãng"
                   },
                   {
-                    "en": "long-term information retention",
-                    "vi": "lưu giữ thông tin dài hạn"
+                    "en": "neural pathways",
+                    "vi": "đường dẫn thần kinh"
+                  },
+                  {
+                    "en": "quiz themselves",
+                    "vi": "tự kiểm tra bản thân"
+                  },
+                  {
+                    "en": "active strategies",
+                    "vi": "chiến lược học chủ động"
                   }
                 ],
                 "point_vi": "Sử dụng các phương pháp học chủ động có thể giúp mọi người ghi nhớ thông tin hiệu quả hơn.",
                 "point_en": "Using active learning techniques can help people remember information more effectively.",
-                "evidence_vi": "Người học có thể ghi chú những ý chính trong quá trình học. Họ cũng có thể tự kiểm tra kiến thức thay vì chỉ đọc lại tài liệu. Ôn tập thông tin theo những khoảng thời gian phù hợp có thể giúp họ nhớ lâu hơn. Ví dụ, sinh viên có thể sử dụng flashcards để tự kiểm tra từ vựng sau mỗi vài ngày. Những phương pháp này khuyến khích người học chủ động nhớ lại thông tin và hình thành thói quen học hiệu quả.",
-                "evidence_en": "Learners can take notes of the main ideas during their studies. They can also test themselves instead of simply rereading materials. Reviewing information at suitable intervals can help them remember it for longer. For example, students can use flashcards to test themselves on vocabulary every few days. These methods encourage learners to actively recall information and develop effective study habits.",
+                "evidence_vi": "Người học nên tóm tắt ý chính bằng lời văn của mình và thường xuyên tự kiểm tra thay vì chỉ đọc lướt thụ động. Kỹ thuật ôn tập ngắt quãng giúp củng cố đường dẫn thần kinh và lưu giữ kiến thức bền vững hơn rất nhiều. Ví dụ, sinh viên có thể sử dụng thẻ ghi nhớ để tự kiểm tra từ vựng sau mỗi vài ngày hoặc giảng lại bài học cho bạn cùng lớp. Những phương pháp chủ động này giúp người học khắc sâu thông tin và xây dựng chiến lược học tập hiệu quả.",
+                "evidence_en": "Learners should summarize key concepts in their own words and actively test themselves rather than passively rereading notes. Reviewing material at spaced intervals strengthens neural pathways and keeps knowledge accessible for much longer. For example, students can use flashcards to quiz themselves on vocabulary every few days or explain complex topics to peers. These active strategies deepen understanding and cultivate highly effective long-term study habits.",
                 "point_collocations": [
                   {
                     "en": "more effectively",
@@ -140787,72 +141575,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "take notes",
-                      "vi": "ghi chú"
-                    },
-                    {
-                      "en": "spaced repetition technique",
-                      "vi": "kỹ thuật lặp lại ngắt quãng"
-                    },
-                    {
-                      "en": "active retrieval practice",
-                      "vi": "thực hành chủ động gợi nhớ"
+                      "en": "passively rereading",
+                      "vi": "đọc lại một cách thụ động"
                     }
                   ],
                   [
                     {
-                      "en": "spaced repetition technique",
-                      "vi": "kỹ thuật lặp lại ngắt quãng"
+                      "en": "spaced intervals",
+                      "vi": "các khoảng thời gian ngắt quãng"
                     },
                     {
-                      "en": "active retrieval practice",
-                      "vi": "thực hành chủ động gợi nhớ"
-                    },
-                    {
-                      "en": "elaborative note-taking",
-                      "vi": "ghi chép chi tiết có chiều sâu"
+                      "en": "neural pathways",
+                      "vi": "đường dẫn thần kinh"
                     }
                   ],
                   [
                     {
-                      "en": "spaced repetition technique",
-                      "vi": "kỹ thuật lặp lại ngắt quãng"
-                    },
-                    {
-                      "en": "active retrieval practice",
-                      "vi": "thực hành chủ động gợi nhớ"
-                    },
-                    {
-                      "en": "elaborative note-taking",
-                      "vi": "ghi chép chi tiết có chiều sâu"
+                      "en": "quiz themselves",
+                      "vi": "tự kiểm tra bản thân"
                     }
                   ],
                   [
                     {
-                      "en": "use flashcards",
-                      "vi": "dùng thẻ flashcards"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
-                      "en": "spaced repetition technique",
-                      "vi": "kỹ thuật lặp lại ngắt quãng"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "spaced repetition technique",
-                      "vi": "kỹ thuật lặp lại ngắt quãng"
-                    },
-                    {
-                      "en": "active retrieval practice",
-                      "vi": "thực hành chủ động gợi nhớ"
-                    },
-                    {
-                      "en": "elaborative note-taking",
-                      "vi": "ghi chép chi tiết có chiều sâu"
+                      "en": "active strategies",
+                      "vi": "chiến lược học chủ động"
                     }
                   ]
                 ]
@@ -140871,8 +141617,8 @@ const ESSAY_DATA = [
                     "vi": "tăng cường trí nhớ"
                   }
                 ],
-                "evidence_vi": "Các thực phẩm giàu axit béo omega-3, chất chống oxy hóa và vitamin như cá hồi, quả óc chó và rau lá xanh giúp nuôi dưỡng tế bào thần kinh hiệu quả. Ngược lại, việc cắt giảm thực phẩm chế biến sẵn và đường tinh luyện giúp ngăn ngừa tình trạng mệt mỏi tinh thần và suy giảm sự tập trung.",
-                "evidence_en": "Foods rich in omega-3 fatty acids, antioxidants, and vitamins—such as fish, walnuts, and leafy greens—effectively nourish brain cells. Conversely, cutting back on processed foods and refined sugar helps prevent mental fatigue and poor concentration.",
+                "evidence_vi": "Các thực phẩm giàu axit béo omega-3, chất chống oxy hóa và vitamin như cá hồi, quả óc chó và rau lá xanh giúp nuôi dưỡng tế bào thần kinh hiệu quả. Ngược lại, việc cắt giảm thực phẩm chế biến sẵn và đường tinh luyện giúp ngăn ngừa tình trạng mệt mỏi tinh thần và giảm tập trung. Chẳng hạn, bổ sung cá vào bữa ăn hằng tuần và uống đủ nước trong lúc làm việc giúp duy trì năng lượng ổn định cho não bộ. Nhờ chế độ dinh dưỡng cân bằng và khoa học, khả năng xử lý và ghi nhớ thông tin sẽ được tối ưu hóa.",
+                "evidence_en": "Foods rich in omega-3 fatty acids, antioxidants, and vitamins—such as salmon, walnuts, and leafy greens—effectively nourish brain cells. Conversely, cutting back on processed foods and refined sugar helps prevent mental fatigue and poor concentration. For instance, adding fish to weekly meals and staying well hydrated during study sessions keeps brain energy steady. Through balanced, mindful nutrition, the brain's capacity to process and store information is greatly enhanced.",
                 "evidence_collocations": [
                   [
                     {
@@ -140892,6 +141638,18 @@ const ESSAY_DATA = [
                     {
                       "en": "mental fatigue",
                       "vi": "mệt mỏi tinh thần"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay well hydrated",
+                      "vi": "uống đủ nước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "store information",
+                      "vi": "lưu trữ thông tin"
                     }
                   ]
                 ],
@@ -140919,6 +141677,14 @@ const ESSAY_DATA = [
                   {
                     "en": "mental fatigue",
                     "vi": "mệt mỏi tinh thần"
+                  },
+                  {
+                    "en": "stay well hydrated",
+                    "vi": "uống đủ nước"
+                  },
+                  {
+                    "en": "store information",
+                    "vi": "lưu trữ thông tin"
                   }
                 ]
               },
@@ -140936,13 +141702,13 @@ const ESSAY_DATA = [
                     "vi": "quản lý căng thẳng"
                   }
                 ],
-                "evidence_vi": "Học một ngoại ngữ mới, chơi cờ hoặc giải các bài toán logic kích thích não bộ hình thành các kết nối thần kinh mới. Đồng thời, thực hành thiền định hoặc sắp xếp thời gian nghỉ ngơi hợp lý giúp giảm căng thẳng kéo dài, vốn là nguyên nhân hàng đầu gây đãng trí.",
-                "evidence_en": "Learning a foreign language, playing chess, or solving logic puzzles stimulates the brain to form new neural connections. At the same time, practicing mindfulness or taking regular breaks alleviates chronic stress, which is a major cause of forgetfulness.",
+                "evidence_vi": "Các hoạt động kích thích trí tuệ như học ngoại ngữ mới, chơi cờ hoặc giải bài toán tư duy giúp não bộ liên tục hình thành các kết nối thần kinh mới. Đồng thời, kiểm soát căng thẳng thông qua thiền định, hít thở sâu hoặc nghỉ giải lao hợp lý giúp bảo vệ vùng não phụ trách trí nhớ. Ví dụ, dành 15 phút đọc sách hoặc thực hành chánh niệm mỗi tối giúp giảm lo âu và cải thiện chất lượng suy nghĩ vào hôm sau. Sự kết hợp giữa rèn luyện trí não và cân bằng cảm xúc tạo nền tảng vững chắc cho một trí nhớ minh mẫn.",
+                "evidence_en": "Mentally stimulating activities such as learning a foreign language, playing chess, or solving logic puzzles prompt the brain to build new neural connections. Simultaneously, managing stress through mindfulness, deep breathing, or regular breaks protects the brain regions responsible for memory. For example, spending 15 minutes reading or meditating each evening lowers anxiety and improves mental sharpness the next day. Combining ongoing intellectual challenges with emotional balance builds a strong foundation for lasting memory.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "logic puzzles",
-                      "vi": "câu đố tư duy logic"
+                      "en": "mentally stimulating activities",
+                      "vi": "hoạt động kích thích trí tuệ"
                     },
                     {
                       "en": "neural connections",
@@ -140955,8 +141721,24 @@ const ESSAY_DATA = [
                       "vi": "thực hành chánh niệm"
                     },
                     {
-                      "en": "alleviate chronic stress",
-                      "vi": "giảm căng thẳng kéo dài"
+                      "en": "brain regions",
+                      "vi": "các vùng não"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mental sharpness",
+                      "vi": "sự sắc bén của trí óc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intellectual challenges",
+                      "vi": "thử thách trí tuệ"
+                    },
+                    {
+                      "en": "emotional balance",
+                      "vi": "sự cân bằng cảm xúc"
                     }
                   ]
                 ],
@@ -140970,8 +141752,8 @@ const ESSAY_DATA = [
                     "vi": "quản lý căng thẳng"
                   },
                   {
-                    "en": "logic puzzles",
-                    "vi": "câu đố tư duy logic"
+                    "en": "mentally stimulating activities",
+                    "vi": "hoạt động kích thích trí tuệ"
                   },
                   {
                     "en": "neural connections",
@@ -140982,8 +141764,20 @@ const ESSAY_DATA = [
                     "vi": "thực hành chánh niệm"
                   },
                   {
-                    "en": "alleviate chronic stress",
-                    "vi": "giảm căng thẳng kéo dài"
+                    "en": "brain regions",
+                    "vi": "các vùng não"
+                  },
+                  {
+                    "en": "mental sharpness",
+                    "vi": "sự sắc bén của trí óc"
+                  },
+                  {
+                    "en": "intellectual challenges",
+                    "vi": "thử thách trí tuệ"
+                  },
+                  {
+                    "en": "emotional balance",
+                    "vi": "sự cân bằng cảm xúc"
                   }
                 ]
               }
@@ -142111,8 +142905,8 @@ const ESSAY_DATA = [
                     "vi": "nguồn cung nước sạch"
                   }
                 ],
-                "evidence_vi": "Khi không còn rễ cây giữ đất, mưa lớn dễ cuốn trôi lớp đất màu mỡ xuống sông hồ và làm nguồn nước bị đục bẩn.",
-                "evidence_en": "Without tree roots holding the soil together, heavy rain easily washes fertile soil into rivers and makes water dirty.",
+                "evidence_vi": "Khi rừng bị chặt phá, không còn rễ cây giữ chặt lớp đất mặt trên sườn đồi và bờ sông. Do đó, mưa lớn dễ dàng cuốn trôi lớp đất màu mỡ xuống sông hồ và làm nguồn nước sinh hoạt bị đục bẩn. Điều này khiến đất canh tác kém màu mỡ hơn và làm giảm nguồn nước sạch cho cộng đồng.",
+                "evidence_en": "When forests are cut down, there are no tree roots left to hold the soil on hills and riverbanks. As a result, heavy rain easily washes fertile soil into rivers and makes drinking water dirty. This leaves farmland less productive and reduces clean water supplies for local communities.",
                 "evidence_collocations": [
                   [
                     {
@@ -142120,8 +142914,28 @@ const ESSAY_DATA = [
                       "vi": "rễ cây"
                     },
                     {
+                      "en": "hold the soil",
+                      "vi": "giữ đất"
+                    }
+                  ],
+                  [
+                    {
                       "en": "fertile soil",
                       "vi": "đất màu mỡ"
+                    },
+                    {
+                      "en": "drinking water",
+                      "vi": "nước uống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "less productive",
+                      "vi": "kém màu mỡ / năng suất hơn"
+                    },
+                    {
+                      "en": "clean water supplies",
+                      "vi": "nguồn cung nước sạch"
                     }
                   ]
                 ],
@@ -142139,8 +142953,20 @@ const ESSAY_DATA = [
                     "vi": "rễ cây"
                   },
                   {
+                    "en": "hold the soil",
+                    "vi": "giữ đất"
+                  },
+                  {
                     "en": "fertile soil",
                     "vi": "đất màu mỡ"
+                  },
+                  {
+                    "en": "drinking water",
+                    "vi": "nước uống"
+                  },
+                  {
+                    "en": "less productive",
+                    "vi": "kém màu mỡ / năng suất hơn"
                   }
                 ]
               },
@@ -142158,17 +142984,37 @@ const ESSAY_DATA = [
                     "vi": "thiệt hại kinh tế"
                   }
                 ],
-                "evidence_vi": "Các chính phủ phải chi rất nhiều tiền để khắc phục lũ lụt, trong khi ngành du lịch sinh thái cũng mất đi sức hấp dẫn vốn có.",
-                "evidence_en": "Governments have to spend a lot of money repairing flood damage, while eco-tourism also loses its natural appeal.",
+                "evidence_vi": "Việc đốt rừng lấy đất tạo ra rất nhiều khói bụi độc hại làm không khí trở nên ô nhiễm nặng. Bên cạnh đó, chính phủ phải chi khoản tiền lớn để khắc phục thiệt hại do lũ lụt và sạt lở đất gây ra. Ngoài ra, nhiều địa phương còn mất đi nguồn thu từ du lịch sinh thái khi cảnh quan thiên nhiên bị phá hủy.",
+                "evidence_en": "Burning forests for land creates thick harmful smoke that severely pollutes the air. Besides, governments have to spend large amounts of money repairing damage from floods and landslides. Furthermore, many areas lose income from eco-tourism when natural scenery is destroyed.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "repair flood damage",
-                      "vi": "khắc phục thiệt hại do lũ lụt"
+                      "en": "harmful smoke",
+                      "vi": "khói độc hại"
                     },
+                    {
+                      "en": "pollute the air",
+                      "vi": "làm ô nhiễm không khí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "repair damage",
+                      "vi": "khắc phục thiệt hại"
+                    },
+                    {
+                      "en": "floods and landslides",
+                      "vi": "lũ lụt và sạt lở đất"
+                    }
+                  ],
+                  [
                     {
                       "en": "eco-tourism",
                       "vi": "du lịch sinh thái"
+                    },
+                    {
+                      "en": "natural scenery",
+                      "vi": "cảnh quan thiên nhiên"
                     }
                   ]
                 ],
@@ -142182,12 +143028,28 @@ const ESSAY_DATA = [
                     "vi": "thiệt hại kinh tế"
                   },
                   {
-                    "en": "repair flood damage",
-                    "vi": "khắc phục thiệt hại do lũ lụt"
+                    "en": "harmful smoke",
+                    "vi": "khói độc hại"
+                  },
+                  {
+                    "en": "pollute the air",
+                    "vi": "làm ô nhiễm không khí"
+                  },
+                  {
+                    "en": "repair damage",
+                    "vi": "khắc phục thiệt hại"
+                  },
+                  {
+                    "en": "floods and landslides",
+                    "vi": "lũ lụt và sạt lở đất"
                   },
                   {
                     "en": "eco-tourism",
                     "vi": "du lịch sinh thái"
+                  },
+                  {
+                    "en": "natural scenery",
+                    "vi": "cảnh quan thiên nhiên"
                   }
                 ]
               }
@@ -142208,22 +143070,42 @@ const ESSAY_DATA = [
                     "vi": "sự suy giảm đa dạng sinh học"
                   },
                   {
-                    "en": "destroy natural habitats",
-                    "vi": "phá hủy môi trường sống tự nhiên"
+                    "en": "deforestation",
+                    "vi": "nạn phá rừng"
                   },
                   {
-                    "en": "endangered species",
-                    "vi": "các loài có nguy cơ tuyệt chủng"
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
                   },
                   {
-                    "en": "ecological balance",
-                    "vi": "sự cân bằng sinh thái"
+                    "en": "irreplaceable habitats",
+                    "vi": "môi trường sống không thể thay thế"
+                  },
+                  {
+                    "en": "be deprived of",
+                    "vi": "bị tước đoạt"
+                  },
+                  {
+                    "en": "breeding grounds",
+                    "vi": "nơi sinh sản"
+                  },
+                  {
+                    "en": "brink of extinction",
+                    "vi": "bờ vực tuyệt chủng"
+                  },
+                  {
+                    "en": "food chains",
+                    "vi": "chuỗi thức ăn"
+                  },
+                  {
+                    "en": "balance of ecosystems",
+                    "vi": "sự cân bằng hệ sinh thái"
                   }
                 ],
                 "point_vi": "Nạn phá rừng gây ra sự suy thoái môi trường nghiêm trọng và làm mất đa dạng sinh học.",
                 "point_en": "Deforestation causes severe ecological degradation and loss of biodiversity.",
-                "evidence_vi": "Rừng nhiệt đới là môi trường sống tự nhiên của hàng triệu loài động thực vật, vì vậy việc chặt phá rừng quy mô lớn sẽ tước đi nơi trú ẩn và nguồn thức ăn của chúng. Hệ quả là nhiều loài có nguy cơ tuyệt chủng và sự cân bằng của các hệ sinh thái tự nhiên bị phá vỡ nghiêm trọng.",
-                "evidence_en": "Forests are natural habitats for millions of plant and animal species, so large-scale logging deprives them of shelter and food sources. Consequently, many species face extinction and the balance of natural ecosystems is severely disrupted.",
+                "evidence_vi": "Các khu rừng nhiệt đới là môi trường sống tự nhiên không thể thay thế của hàng triệu loài động thực vật quý hiếm. Khi hoạt động khai thác gỗ quy mô lớn diễn ra, nhiều loài sinh vật bị tước đoạt nơi trú ẩn, nguồn thức ăn và không gian sinh sản. Chẳng hạn, nạn phá rừng tại nhiều vùng nhiệt đới đang đẩy các loài như đười ươi và hổ rừng đến bờ vực tuyệt chủng. Về lâu dài, sự biến mất của các loài chủ chốt này sẽ phá vỡ chuỗi thức ăn và làm mất cân bằng hệ sinh thái tự nhiên.",
+                "evidence_en": "Tropical forests serve as irreplaceable natural habitats for millions of plant and animal species. When large-scale logging occurs, countless organisms are deprived of shelter, food sources, and breeding grounds. For example, extensive forest clearance in tropical regions has pushed endangered species such as orangutans and tigers to the brink of extinction. Over time, losing these vital species breaks food chains and severely disrupts the balance of natural ecosystems.",
                 "point_collocations": [
                   {
                     "en": "ecological degradation",
@@ -142245,30 +143127,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "destroy natural habitats",
-                      "vi": "phá hủy môi trường sống tự nhiên"
-                    },
-                    {
-                      "en": "natural habitats",
-                      "vi": "môi trường sống tự nhiên"
-                    },
-                    {
-                      "en": "ecological degradation",
-                      "vi": "suy thoái sinh thái"
+                      "en": "irreplaceable habitats",
+                      "vi": "môi trường sống không thể thay thế"
                     }
                   ],
                   [
                     {
-                      "en": "consequently",
-                      "vi": "hệ quả là / do đó"
+                      "en": "be deprived of",
+                      "vi": "bị tước đoạt"
                     },
                     {
-                      "en": "ecological degradation",
-                      "vi": "suy thoái sinh thái"
+                      "en": "breeding grounds",
+                      "vi": "nơi sinh sản"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "brink of extinction",
+                      "vi": "bờ vực tuyệt chủng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "food chains",
+                      "vi": "chuỗi thức ăn"
                     },
                     {
-                      "en": "loss of biodiversity",
-                      "vi": "sự suy giảm đa dạng sinh học"
+                      "en": "balance of ecosystems",
+                      "vi": "sự cân bằng hệ sinh thái"
                     }
                   ]
                 ]
@@ -142281,26 +143167,46 @@ const ESSAY_DATA = [
                     "vi": "thúc đẩy biến đổi khí hậu"
                   },
                   {
-                    "en": "absorb carbon dioxide",
-                    "vi": "hấp thụ khí carbon dioxide"
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
                   },
                   {
-                    "en": "greenhouse gas emissions",
-                    "vi": "lượng khí thải nhà kính"
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
                   },
                   {
-                    "en": "severe soil erosion",
-                    "vi": "xói mòn đất nghiêm trọng"
+                    "en": "regulate global climate",
+                    "vi": "điều hòa khí hậu toàn cầu"
+                  },
+                  {
+                    "en": "accumulate in the atmosphere",
+                    "vi": "tích tụ trong khí quyển"
+                  },
+                  {
+                    "en": "intensify global warming",
+                    "vi": "làm trầm trọng sự nóng lên toàn cầu"
+                  },
+                  {
+                    "en": "forest cover",
+                    "vi": "độ che phủ rừng"
                   },
                   {
                     "en": "flash floods and landslides",
                     "vi": "lũ quét và sạt lở đất"
+                  },
+                  {
+                    "en": "prolonged droughts",
+                    "vi": "hạn hán kéo dài"
+                  },
+                  {
+                    "en": "devastating floods",
+                    "vi": "lũ lụt tàn khốc"
                   }
                 ],
                 "point_vi": "Việc tàn phá rừng làm gia tăng biến đổi khí hậu và khiến thiên tai xảy ra dữ dội hơn.",
                 "point_en": "Forest destruction accelerates climate change and intensifies natural disasters.",
-                "evidence_vi": "Cây xanh đóng vai trò quan trọng trong việc hấp thụ khí carbon dioxide và giữ đất, nên khi rừng bị đốn hạ, lượng lớn khí nhà kính tích tụ trong khí quyển làm Trái Đất nóng lên. Đồng thời, việc mất đi độ che phủ của rừng dẫn đến xói mòn đất nghiêm trọng, lũ quét và hạn hán kéo dài.",
-                "evidence_en": "Trees play a vital role in absorbing carbon dioxide and holding soil together, so when forests are cleared, greenhouse gases accumulate in the atmosphere and intensify global warming. Meanwhile, the loss of forest cover leads to severe soil erosion, flash floods, and prolonged droughts.",
+                "evidence_vi": "Cây xanh đóng vai trò thiết yếu trong việc hấp thụ khí carbon dioxide và điều hòa khí hậu toàn cầu. Khi hàng triệu héc-ta rừng bị đốn hạ hoặc đốt cháy, lượng khí nhà kính tích tụ ngày càng lớn trong khí quyển và đẩy nhanh sự nóng lên toàn cầu. Đồng thời, việc mất đi thảm thực vật che phủ khiến đất không còn khả năng giữ nước mưa, làm gia tăng lũ quét và sạt lở đất dữ dội. Ví dụ, nhiều khu vực miền núi từng có rừng rậm nay thường xuyên hứng chịu hạn hán kéo dài vào mùa khô và ngập lụt nặng vào mùa mưa.",
+                "evidence_en": "Trees play a vital role in absorbing carbon dioxide and regulating the global climate. When millions of hectares of forest are cleared or burned, vast amounts of greenhouse gases accumulate in the atmosphere and intensify global warming. Meanwhile, the loss of forest cover removes the land's capacity to retain rainwater, triggering severe flash floods and landslides. For instance, formerly forested mountain regions now frequently endure prolonged droughts in dry seasons and devastating floods during storms.",
                 "point_collocations": [
                   {
                     "en": "accelerate climate change",
@@ -142318,46 +143224,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "absorb carbon dioxide",
-                      "vi": "hấp thụ khí carbon dioxide"
-                    },
-                    {
-                      "en": "greenhouse gas emissions",
-                      "vi": "lượng khí thải nhà kính"
-                    },
-                    {
-                      "en": "greenhouse gases",
-                      "vi": "khí nhà kính"
-                    },
-                    {
-                      "en": "global warming",
-                      "vi": "sự nóng lên toàn cầu"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
+                      "en": "regulate global climate",
+                      "vi": "điều hòa khí hậu toàn cầu"
                     }
                   ],
                   [
                     {
-                      "en": "severe soil erosion",
-                      "vi": "xói mòn đất nghiêm trọng"
+                      "en": "accumulate in the atmosphere",
+                      "vi": "tích tụ trong khí quyển"
+                    },
+                    {
+                      "en": "intensify global warming",
+                      "vi": "làm trầm trọng sự nóng lên toàn cầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "forest cover",
+                      "vi": "độ che phủ rừng"
                     },
                     {
                       "en": "flash floods and landslides",
                       "vi": "lũ quét và sạt lở đất"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prolonged droughts",
+                      "vi": "hạn hán kéo dài"
                     },
                     {
-                      "en": "damage to the environment",
-                      "vi": "thiệt hại cho môi trường"
-                    },
-                    {
-                      "en": "soil erosion",
-                      "vi": "xói mòn đất"
-                    },
-                    {
-                      "en": "meanwhile",
-                      "vi": "đồng thời"
+                      "en": "devastating floods",
+                      "vi": "lũ lụt tàn khốc"
                     }
                   ]
                 ]
@@ -142370,26 +143268,46 @@ const ESSAY_DATA = [
                     "vi": "đe dọa sinh kế của con người"
                   },
                   {
+                    "en": "deforestation",
+                    "vi": "nạn phá rừng"
+                  },
+                  {
                     "en": "indigenous communities",
                     "vi": "các cộng đồng bản địa"
+                  },
+                  {
+                    "en": "forest resources",
+                    "vi": "tài nguyên rừng"
+                  },
+                  {
+                    "en": "traditional livelihoods",
+                    "vi": "sinh kế truyền thống"
+                  },
+                  {
+                    "en": "migrate in search of work",
+                    "vi": "di cư tìm việc làm"
+                  },
+                  {
+                    "en": "erratic rainfall",
+                    "vi": "lượng mưa thất thường"
                   },
                   {
                     "en": "agricultural productivity",
                     "vi": "năng suất nông nghiệp"
                   },
                   {
-                    "en": "water cycle disruption",
-                    "vi": "sự gián đoạn chu trình nước"
+                    "en": "food insecurity",
+                    "vi": "mất an ninh lương thực"
                   },
                   {
-                    "en": "economic hardship",
-                    "vi": "khó khăn kinh tế"
+                    "en": "living standards",
+                    "vi": "mức sống"
                   }
                 ],
                 "point_vi": "Nạn phá rừng gây ảnh hưởng tiêu cực trực tiếp đến sinh kế và chất lượng sống của con người.",
                 "point_en": "Deforestation directly threatens human livelihoods and living standards.",
-                "evidence_vi": "Hàng triệu người dân địa phương phụ thuộc vào tài nguyên rừng để có nước ngọt, lương thực và thu nhập hằng ngày. Hơn nữa, sự gián đoạn chu trình nước và thoái hóa đất làm giảm năng suất nông nghiệp, đẩy nhiều hộ gia đình nông thôn vào cảnh khó khăn kinh tế và thiếu lương thực.",
-                "evidence_en": "Millions of local residents depend on forest resources for freshwater, food, and daily income. Furthermore, water cycle disruption and soil degradation reduce agricultural productivity, pushing many rural households into economic hardship and food insecurity.",
+                "evidence_vi": "Hàng triệu cư dân nông thôn và cộng đồng bản địa phụ thuộc trực tiếp vào tài nguyên rừng để có lương thực, dược liệu và nguồn thu nhập hằng ngày. Khi rừng bị tàn phá, sinh kế truyền thống của họ bị đe dọa nghiêm trọng và nhiều gia đình buộc phải rời bỏ quê hương tìm việc làm. Hơn nữa, tình trạng thoái hóa đất và biến đổi thời tiết do phá rừng làm sụt giảm mạnh năng suất nông nghiệp ở các vùng lân cận. Hệ quả là nhiều hộ gia đình dễ rơi vào cảnh nghèo đói, mất an ninh lương thực và suy giảm chất lượng sống.",
+                "evidence_en": "Millions of rural residents and indigenous communities rely directly on forest resources for food, traditional medicine, and daily income. When woodlands are destroyed, their traditional livelihoods are severely threatened, forcing many families to migrate in search of work. Furthermore, soil degradation and erratic rainfall caused by deforestation substantially lower agricultural productivity in surrounding areas. Consequently, vulnerable rural households face heightened economic hardship, food insecurity, and declining living standards.",
                 "point_collocations": [
                   {
                     "en": "threaten human livelihoods",
@@ -142407,34 +143325,42 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "on a daily basis",
-                      "vi": "hằng ngày"
-                    },
-                    {
-                      "en": "threaten human livelihoods",
-                      "vi": "đe dọa sinh kế của con người"
-                    },
-                    {
                       "en": "indigenous communities",
-                      "vi": "các cộng đồng bản địa"
+                      "vi": "cộng đồng bản địa"
+                    },
+                    {
+                      "en": "forest resources",
+                      "vi": "tài nguyên rừng"
                     }
                   ],
                   [
                     {
+                      "en": "traditional livelihoods",
+                      "vi": "sinh kế truyền thống"
+                    },
+                    {
+                      "en": "migrate in search of work",
+                      "vi": "di cư tìm việc làm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "erratic rainfall",
+                      "vi": "lượng mưa thất thường"
+                    },
+                    {
                       "en": "agricultural productivity",
                       "vi": "năng suất nông nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "food insecurity",
+                      "vi": "mất an ninh lương thực"
                     },
                     {
-                      "en": "water cycle disruption",
-                      "vi": "sự gián đoạn chu trình nước"
-                    },
-                    {
-                      "en": "economic hardship",
-                      "vi": "khó khăn kinh tế"
-                    },
-                    {
-                      "en": "furthermore",
-                      "vi": "hơn nữa"
+                      "en": "living standards",
+                      "vi": "mức sống"
                     }
                   ]
                 ]
@@ -142453,27 +143379,43 @@ const ESSAY_DATA = [
                     "vi": "chu trình nước tự nhiên"
                   }
                 ],
-                "evidence_vi": "Hệ thống rễ cây đóng vai trò cố định tầng đất mặt và lọc nước mưa thấm xuống tầng nước ngầm. Khi rừng biến mất, đất nhanh chóng trở nên bạc màu, còn sông suối đối mặt với tình trạng bồi lắng và suy giảm chất lượng nước ngọt.",
-                "evidence_en": "Tree root systems anchor nutrient-rich topsoil and filter rainwater into underground reserves. Once forest cover is stripped away, land rapidly loses fertility while rivers suffer from heavy sedimentation and declining freshwater quality.",
+                "evidence_vi": "Hệ thống rễ cây vững chắc có chức năng cố định lớp đất mặt giàu dinh dưỡng và giúp nước mưa thấm chậm xuống các tầng chứa nước ngầm. Khi lớp phủ thực vật bị cạo sạch, mưa lớn nhanh chóng cuốn trôi đất màu, để lại những vùng đất cằn cỗi khó phục hồi. Cùng lúc đó, lượng bùn đất trôi xuống làm bồi lắng lòng sông, gây ô nhiễm nguồn nước ngọt và làm giảm khả năng tích nước của hồ chứa. Chẳng hạn, nhiều con sông chảy qua các vùng đồi trọc thường rơi vào tình trạng đục ngầu và cạn kiệt nhanh chóng vào mùa khô.",
+                "evidence_en": "Extensive tree root systems anchor nutrient-rich topsoil and allow rainwater to filter gradually into underground aquifers. Once forest vegetation is stripped away, heavy downpours rapidly wash away fertile soil, leaving behind barren land that is difficult to restore. Simultaneously, eroded sediment clogs riverbeds, pollutes freshwater supplies, and reduces the storage capacity of reservoirs. For example, rivers flowing through deforested hills often become heavily silted and dry up far more quickly during dry months.",
                 "evidence_collocations": [
                   [
                     {
                       "en": "nutrient-rich topsoil",
-                      "vi": "lớp đất mặt giàu dinh dưỡng"
+                      "vi": "tầng đất mặt giàu dinh dưỡng"
                     },
                     {
-                      "en": "underground reserves",
-                      "vi": "nguồn dự trữ nước ngầm"
+                      "en": "underground aquifers",
+                      "vi": "tầng chứa nước ngầm"
                     }
                   ],
                   [
                     {
-                      "en": "lose fertility",
-                      "vi": "mất độ màu mỡ"
+                      "en": "barren land",
+                      "vi": "vùng đất cằn cỗi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "eroded sediment",
+                      "vi": "bùn đất bị xói mòn"
                     },
                     {
-                      "en": "heavy sedimentation",
-                      "vi": "sự bồi lắng nặng"
+                      "en": "storage capacity",
+                      "vi": "khả năng tích trữ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "deforested hills",
+                      "vi": "đồi trọc do phá rừng"
+                    },
+                    {
+                      "en": "heavily silted",
+                      "vi": "bị bồi lắng nặng"
                     }
                   ]
                 ],
@@ -142488,19 +143430,31 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "nutrient-rich topsoil",
-                    "vi": "lớp đất mặt giàu dinh dưỡng"
+                    "vi": "tầng đất mặt giàu dinh dưỡng"
                   },
                   {
-                    "en": "underground reserves",
-                    "vi": "nguồn dự trữ nước ngầm"
+                    "en": "underground aquifers",
+                    "vi": "tầng chứa nước ngầm"
                   },
                   {
-                    "en": "lose fertility",
-                    "vi": "mất độ màu mỡ"
+                    "en": "barren land",
+                    "vi": "vùng đất cằn cỗi"
                   },
                   {
-                    "en": "heavy sedimentation",
-                    "vi": "sự bồi lắng nặng"
+                    "en": "eroded sediment",
+                    "vi": "bùn đất bị xói mòn"
+                  },
+                  {
+                    "en": "storage capacity",
+                    "vi": "khả năng tích trữ"
+                  },
+                  {
+                    "en": "deforested hills",
+                    "vi": "đồi trọc do phá rừng"
+                  },
+                  {
+                    "en": "heavily silted",
+                    "vi": "bị bồi lắng nặng"
                   }
                 ]
               },
@@ -142518,17 +143472,23 @@ const ESSAY_DATA = [
                     "vi": "tổn thất kinh tế dài hạn"
                   }
                 ],
-                "evidence_vi": "Việc đốt rừng lấy đất canh tác thải ra lượng khói bụi độc hại bao phủ nhiều khu vực rộng lớn và ảnh hưởng đến sức khỏe cộng đồng. Ngoài ra, nguồn ngân sách quốc gia bị tiêu tốn cho việc khắc phục thiên tai, đồng thời tiềm năng phát triển du lịch sinh thái bền vững cũng bị hủy hoại.",
-                "evidence_en": "Slash-and-burn clearing releases thick clouds of toxic haze that blanket vast regions and harm public health. Furthermore, national budgets are strained by disaster recovery expenses while the potential for sustainable eco-tourism is severely undermined.",
+                "evidence_vi": "Phương thức đốt rừng làm nương rẫy thải ra những đám khói mù dày đặc chứa nhiều hạt bụi độc hại, làm suy giảm nghiêm trọng chất lượng không khí. Lớp khói bụi này có thể lan rộng sang các đô thị lân cận, làm tăng tỷ lệ bệnh hô hấp và gây gián đoạn sinh hoạt hằng ngày. Bên cạnh tổn hại sức khỏe, ngân sách quốc gia còn phải gánh chịu chi phí khổng lồ để khắc phục hậu quả thiên tai và mất đi nguồn thu bền vững từ du lịch sinh thái. Vì vậy, lợi ích kinh tế ngắn hạn từ việc khai thác gỗ không bao giờ có thể bù đắp những tổn thất nặng nề về lâu dài.",
+                "evidence_en": "Slash-and-burn clearing releases thick clouds of toxic haze filled with fine pollutants that severely degrade regional air quality. This hazardous smoke can drift across neighboring cities, increasing respiratory illnesses and disrupting everyday activities. Beyond public health costs, national budgets are heavily strained by disaster recovery expenses while losing sustainable revenue from eco-tourism. Therefore, the short-term financial gains from logging can never outweigh the devastating long-term economic losses.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "toxic haze",
-                      "vi": "khói mù độc hại"
+                      "en": "slash-and-burn clearing",
+                      "vi": "phát quang đốt rừng"
                     },
                     {
-                      "en": "harm public health",
-                      "vi": "gây hại cho sức khỏe cộng đồng"
+                      "en": "toxic haze",
+                      "vi": "khói mù độc hại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "respiratory illnesses",
+                      "vi": "bệnh về đường hô hấp"
                     }
                   ],
                   [
@@ -142537,8 +143497,18 @@ const ESSAY_DATA = [
                       "vi": "chi phí khắc phục thiên tai"
                     },
                     {
-                      "en": "sustainable eco-tourism",
-                      "vi": "du lịch sinh thái bền vững"
+                      "en": "sustainable revenue",
+                      "vi": "nguồn thu bền vững"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "short-term financial gains",
+                      "vi": "lợi ích tài chính ngắn hạn"
+                    },
+                    {
+                      "en": "long-term economic losses",
+                      "vi": "tổn thất kinh tế dài hạn"
                     }
                   ]
                 ],
@@ -142552,20 +143522,32 @@ const ESSAY_DATA = [
                     "vi": "tổn thất kinh tế dài hạn"
                   },
                   {
+                    "en": "slash-and-burn clearing",
+                    "vi": "phát quang đốt rừng"
+                  },
+                  {
                     "en": "toxic haze",
                     "vi": "khói mù độc hại"
                   },
                   {
-                    "en": "harm public health",
-                    "vi": "gây hại cho sức khỏe cộng đồng"
+                    "en": "respiratory illnesses",
+                    "vi": "bệnh về đường hô hấp"
                   },
                   {
                     "en": "disaster recovery expenses",
                     "vi": "chi phí khắc phục thiên tai"
                   },
                   {
-                    "en": "sustainable eco-tourism",
-                    "vi": "du lịch sinh thái bền vững"
+                    "en": "sustainable revenue",
+                    "vi": "nguồn thu bền vững"
+                  },
+                  {
+                    "en": "short-term financial gains",
+                    "vi": "lợi ích tài chính ngắn hạn"
+                  },
+                  {
+                    "en": "long-term economic losses",
+                    "vi": "tổn thất kinh tế dài hạn"
                   }
                 ]
               }
@@ -143306,210 +144288,64 @@ const ESSAY_DATA = [
                     "vi": "hỗ trợ tài chính"
                   }
                 ],
-                "evidence_vi": "Phân bổ thêm ngân sách cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở vật chất và trang thiết bị. Cung cấp học bổng hoặc hỗ trợ tài chính cho học sinh, sinh viên có hoàn cảnh khó khăn để họ có thêm cơ hội học ngoại ngữ. Xây dựng các chính sách khuyến khích việc học ngoại ngữ từ bậc tiểu học nhằm tạo nền tảng ngôn ngữ vững chắc. Hợp tác với các tổ chức giáo dục quốc tế để tiếp cận nguồn tài trợ và các chương trình giáo dục tiên tiến.",
-                "evidence_en": "Authorities can allocate a larger budget to schools and language centres, using government funding to improve educational infrastructure, upgrade school facilities, and provide modern teaching equipment. The state should provide financial assistance and offer scholarships to students from low-income families, helping disadvantaged students expand access to language courses and reduce educational inequality. Policymakers should introduce supportive policies to promote early language learning in primary education, helping children build a strong language foundation, develop language skills from an early age, and encourage students to learn foreign languages. Schools can establish international partnerships and cooperate with international organizations to access international funding, exchange educational resources, use advanced educational programs, and benefit from international cooperation.",
+                "evidence_vi": "Chính phủ có thể tăng ngân sách cho các trường học và trung tâm ngoại ngữ để nâng cấp phòng học và thiết bị giảng dạy hiện đại. Bên cạnh đó, nhà nước nên cung cấp học bổng và hỗ trợ học phí cho học sinh có hoàn cảnh khó khăn. Điều này giúp nhiều bạn trẻ có cơ hội học ngoại ngữ tốt hơn ngay từ bậc tiểu học.",
+                "evidence_en": "Governments can provide more money to schools and language centers to upgrade classrooms and modern teaching equipment. In addition, the state should offer scholarships and financial support to students from low-income families. This helps more young people get better chances to learn foreign languages from primary school.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "allocate a larger budget to",
-                      "vi": "phân bổ ngân sách lớn hơn cho"
+                      "en": "modern teaching equipment",
+                      "vi": "thiết bị giảng dạy hiện đại"
                     },
                     {
-                      "en": "government funding",
-                      "vi": "nguồn tài trợ của chính phủ"
-                    },
-                    {
-                      "en": "language centres",
-                      "vi": "các trung tâm ngoại ngữ"
-                    },
-                    {
-                      "en": "improve educational infrastructure",
-                      "vi": "cải thiện cơ sở hạ tầng giáo dục"
-                    },
-                    {
-                      "en": "upgrade school facilities",
-                      "vi": "nâng cấp cơ sở vật chất trường học"
-                    },
-                    {
-                      "en": "teaching equipment",
-                      "vi": "thiết bị giảng dạy"
+                      "en": "upgrade classrooms",
+                      "vi": "nâng cấp phòng học"
                     }
                   ],
                   [
                     {
-                      "en": "provide financial assistance",
-                      "vi": "cung cấp hỗ trợ tài chính"
-                    },
-                    {
-                      "en": "offer scholarships to students",
-                      "vi": "cấp học bổng cho học sinh, sinh viên"
-                    },
-                    {
-                      "en": "disadvantaged students",
-                      "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                      "en": "offer scholarships",
+                      "vi": "cung cấp học bổng"
                     },
                     {
                       "en": "low-income families",
-                      "vi": "các gia đình có thu nhập thấp"
-                    },
-                    {
-                      "en": "expand access to language courses",
-                      "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
-                    },
-                    {
-                      "en": "reduce educational inequality",
-                      "vi": "giảm bất bình đẳng trong giáo dục"
+                      "vi": "gia đình có thu nhập thấp"
                     }
                   ],
                   [
                     {
-                      "en": "introduce supportive policies",
-                      "vi": "ban hành các chính sách hỗ trợ"
-                    },
-                    {
-                      "en": "promote early language learning",
-                      "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
-                    },
-                    {
-                      "en": "primary education",
-                      "vi": "giáo dục tiểu học"
-                    },
-                    {
-                      "en": "build a strong language foundation",
-                      "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
-                    },
-                    {
-                      "en": "develop language skills from an early age",
-                      "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
-                    },
-                    {
-                      "en": "encourage students to learn foreign languages",
-                      "vi": "khuyến khích học sinh học ngoại ngữ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "establish international partnerships",
-                      "vi": "thiết lập quan hệ hợp tác quốc tế"
-                    },
-                    {
-                      "en": "cooperate with international organizations",
-                      "vi": "hợp tác với các tổ chức quốc tế"
-                    },
-                    {
-                      "en": "access international funding",
-                      "vi": "tiếp cận nguồn tài trợ quốc tế"
-                    },
-                    {
-                      "en": "exchange educational resources",
-                      "vi": "trao đổi tài nguyên giáo dục"
-                    },
-                    {
-                      "en": "advanced educational programs",
-                      "vi": "các chương trình giáo dục tiên tiến"
-                    },
-                    {
-                      "en": "benefit from international cooperation",
-                      "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                      "en": "from primary school",
+                      "vi": "từ bậc tiểu học"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "allocate a larger budget to",
-                    "vi": "phân bổ ngân sách lớn hơn cho"
+                    "en": "invest more money",
+                    "vi": "đầu tư nhiều tiền hơn"
                   },
                   {
-                    "en": "government funding",
-                    "vi": "nguồn tài trợ của chính phủ"
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
                   },
                   {
-                    "en": "language centres",
-                    "vi": "các trung tâm ngoại ngữ"
+                    "en": "modern teaching equipment",
+                    "vi": "thiết bị giảng dạy hiện đại"
                   },
                   {
-                    "en": "improve educational infrastructure",
-                    "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                    "en": "upgrade classrooms",
+                    "vi": "nâng cấp phòng học"
                   },
                   {
-                    "en": "upgrade school facilities",
-                    "vi": "nâng cấp cơ sở vật chất trường học"
-                  },
-                  {
-                    "en": "teaching equipment",
-                    "vi": "thiết bị giảng dạy"
-                  },
-                  {
-                    "en": "provide financial assistance",
-                    "vi": "cung cấp hỗ trợ tài chính"
-                  },
-                  {
-                    "en": "offer scholarships to students",
-                    "vi": "cấp học bổng cho học sinh, sinh viên"
-                  },
-                  {
-                    "en": "disadvantaged students",
-                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                    "en": "offer scholarships",
+                    "vi": "cung cấp học bổng"
                   },
                   {
                     "en": "low-income families",
-                    "vi": "các gia đình có thu nhập thấp"
+                    "vi": "gia đình có thu nhập thấp"
                   },
                   {
-                    "en": "expand access to language courses",
-                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
-                  },
-                  {
-                    "en": "reduce educational inequality",
-                    "vi": "giảm bất bình đẳng trong giáo dục"
-                  },
-                  {
-                    "en": "introduce supportive policies",
-                    "vi": "ban hành các chính sách hỗ trợ"
-                  },
-                  {
-                    "en": "promote early language learning",
-                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
-                  },
-                  {
-                    "en": "primary education",
-                    "vi": "giáo dục tiểu học"
-                  },
-                  {
-                    "en": "build a strong language foundation",
-                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
-                  },
-                  {
-                    "en": "develop language skills from an early age",
-                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
-                  },
-                  {
-                    "en": "encourage students to learn foreign languages",
-                    "vi": "khuyến khích học sinh học ngoại ngữ"
-                  },
-                  {
-                    "en": "establish international partnerships",
-                    "vi": "thiết lập quan hệ hợp tác quốc tế"
-                  },
-                  {
-                    "en": "cooperate with international organizations",
-                    "vi": "hợp tác với các tổ chức quốc tế"
-                  },
-                  {
-                    "en": "access international funding",
-                    "vi": "tiếp cận nguồn tài trợ quốc tế"
-                  },
-                  {
-                    "en": "exchange educational resources",
-                    "vi": "trao đổi tài nguyên giáo dục"
-                  },
-                  {
-                    "en": "advanced educational programs",
-                    "vi": "các chương trình giáo dục tiên tiến"
-                  },
-                  {
-                    "en": "benefit from international cooperation",
-                    "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                    "en": "from primary school",
+                    "vi": "từ bậc tiểu học"
                   }
                 ]
               },
@@ -143527,266 +144363,56 @@ const ESSAY_DATA = [
                     "vi": "phương pháp giảng dạy"
                   }
                 ],
-                "evidence_vi": "Thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì tập trung quá nhiều vào ngữ pháp và từ vựng. Giảm sự phụ thuộc vào việc ghi nhớ máy móc các quy tắc ngữ pháp và từ vựng. Tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để học sinh có cơ hội sử dụng ngôn ngữ. Xây dựng nội dung bài học gắn với các tình huống thực tế như giao tiếp tại nơi làm việc, du lịch và học tập.",
-                "evidence_en": "In curriculum design, the language curriculum should place equal emphasis on the four language skills—listening comprehension, speaking fluency, reading comprehension, and written communication—to achieve balanced language development. Teachers should replace traditional teaching methods that focus heavily on grammar and vocabulary memorization, reducing rote memorization so that students can memorize grammar rules less, develop practical language skills, and apply knowledge in real-life situations. Teachers should increase communicative activities like group discussions, role-play activities, and give presentations to improve classroom interaction, encourage active participation, help students use the target language, and improve communication skills. Lessons should integrate real-life situations and authentic learning materials into practical learning content, including workplace communication, travel-related situations, and academic communication, to prepare learners for real-life communication.",
+                "evidence_vi": "Nhà trường nên thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì chỉ học thuộc ngữ pháp. Giáo viên cũng cần tổ chức thêm nhiều hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình trên lớp. Nhờ vậy, học sinh có thể tự tin sử dụng ngoại ngữ trong các tình huống thực tế hằng ngày.",
+                "evidence_en": "Schools should design lessons that balance listening, speaking, reading, and writing instead of only memorizing grammar rules. Teachers also need to include more communicative activities like group discussions, role-plays, and short presentations in class. As a result, students can use foreign languages confidently in real-life situations.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "language curriculum",
-                      "vi": "chương trình giảng dạy ngôn ngữ"
-                    },
-                    {
-                      "en": "curriculum design",
-                      "vi": "thiết kế chương trình học"
-                    },
-                    {
-                      "en": "the four language skills",
-                      "vi": "bốn kỹ năng ngôn ngữ"
-                    },
-                    {
-                      "en": "listening comprehension",
-                      "vi": "khả năng nghe hiểu"
-                    },
-                    {
-                      "en": "speaking fluency",
-                      "vi": "độ trôi chảy khi nói"
-                    },
-                    {
-                      "en": "reading comprehension",
-                      "vi": "khả năng đọc hiểu"
-                    },
-                    {
-                      "en": "written communication",
-                      "vi": "giao tiếp bằng văn bản"
-                    },
-                    {
-                      "en": "balanced language development",
-                      "vi": "sự phát triển ngôn ngữ cân bằng"
-                    },
-                    {
-                      "en": "place equal emphasis on",
-                      "vi": "chú trọng đồng đều vào"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "reduce rote memorization",
-                      "vi": "giảm việc học thuộc lòng máy móc"
-                    },
-                    {
                       "en": "memorize grammar rules",
-                      "vi": "ghi nhớ các quy tắc ngữ pháp"
-                    },
-                    {
-                      "en": "focus heavily on grammar",
-                      "vi": "tập trung quá nhiều vào ngữ pháp"
-                    },
-                    {
-                      "en": "vocabulary memorization",
-                      "vi": "việc ghi nhớ từ vựng"
-                    },
-                    {
-                      "en": "traditional teaching methods",
-                      "vi": "các phương pháp giảng dạy truyền thống"
-                    },
-                    {
-                      "en": "develop practical language skills",
-                      "vi": "phát triển kỹ năng ngôn ngữ thực tế"
-                    },
-                    {
-                      "en": "apply knowledge in real-life situations",
-                      "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                      "vi": "học thuộc quy tắc ngữ pháp"
                     }
                   ],
                   [
                     {
-                      "en": "increase communicative activities",
-                      "vi": "tăng cường các hoạt động giao tiếp"
+                      "en": "communicative activities",
+                      "vi": "hoạt động giao tiếp"
                     },
                     {
                       "en": "group discussions",
                       "vi": "thảo luận nhóm"
-                    },
-                    {
-                      "en": "role-play activities",
-                      "vi": "hoạt động đóng vai"
-                    },
-                    {
-                      "en": "give presentations",
-                      "vi": "thực hiện bài thuyết trình"
-                    },
-                    {
-                      "en": "classroom interaction",
-                      "vi": "sự tương tác trong lớp học"
-                    },
-                    {
-                      "en": "encourage active participation",
-                      "vi": "khuyến khích sự tham gia tích cực"
-                    },
-                    {
-                      "en": "improve communication skills",
-                      "vi": "cải thiện kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "use the target language",
-                      "vi": "sử dụng ngôn ngữ đích"
                     }
                   ],
                   [
                     {
-                      "en": "integrate real-life situations",
-                      "vi": "lồng ghép các tình huống thực tế"
-                    },
-                    {
-                      "en": "practical learning content",
-                      "vi": "nội dung học tập mang tính thực tiễn"
-                    },
-                    {
-                      "en": "workplace communication",
-                      "vi": "giao tiếp tại nơi làm việc"
-                    },
-                    {
-                      "en": "travel-related situations",
-                      "vi": "các tình huống liên quan đến du lịch"
-                    },
-                    {
-                      "en": "academic communication",
-                      "vi": "giao tiếp trong môi trường học thuật"
-                    },
-                    {
-                      "en": "authentic learning materials",
-                      "vi": "tài liệu học tập thực tế"
-                    },
-                    {
-                      "en": "prepare learners for real-life communication",
-                      "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                      "en": "real-life situations",
+                      "vi": "tình huống thực tế"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "language curriculum",
-                    "vi": "chương trình giảng dạy ngôn ngữ"
+                    "en": "improve their curriculum",
+                    "vi": "cải thiện chương trình học"
                   },
                   {
-                    "en": "curriculum design",
-                    "vi": "thiết kế chương trình học"
-                  },
-                  {
-                    "en": "the four language skills",
-                    "vi": "bốn kỹ năng ngôn ngữ"
-                  },
-                  {
-                    "en": "listening comprehension",
-                    "vi": "khả năng nghe hiểu"
-                  },
-                  {
-                    "en": "speaking fluency",
-                    "vi": "độ trôi chảy khi nói"
-                  },
-                  {
-                    "en": "reading comprehension",
-                    "vi": "khả năng đọc hiểu"
-                  },
-                  {
-                    "en": "written communication",
-                    "vi": "giao tiếp bằng văn bản"
-                  },
-                  {
-                    "en": "balanced language development",
-                    "vi": "sự phát triển ngôn ngữ cân bằng"
-                  },
-                  {
-                    "en": "place equal emphasis on",
-                    "vi": "chú trọng đồng đều vào"
-                  },
-                  {
-                    "en": "reduce rote memorization",
-                    "vi": "giảm việc học thuộc lòng máy móc"
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
                   },
                   {
                     "en": "memorize grammar rules",
-                    "vi": "ghi nhớ các quy tắc ngữ pháp"
+                    "vi": "học thuộc quy tắc ngữ pháp"
                   },
                   {
-                    "en": "focus heavily on grammar",
-                    "vi": "tập trung quá nhiều vào ngữ pháp"
-                  },
-                  {
-                    "en": "vocabulary memorization",
-                    "vi": "việc ghi nhớ từ vựng"
-                  },
-                  {
-                    "en": "traditional teaching methods",
-                    "vi": "các phương pháp giảng dạy truyền thống"
-                  },
-                  {
-                    "en": "develop practical language skills",
-                    "vi": "phát triển kỹ năng ngôn ngữ thực tế"
-                  },
-                  {
-                    "en": "apply knowledge in real-life situations",
-                    "vi": "áp dụng kiến thức vào các tình huống thực tế"
-                  },
-                  {
-                    "en": "increase communicative activities",
-                    "vi": "tăng cường các hoạt động giao tiếp"
+                    "en": "communicative activities",
+                    "vi": "hoạt động giao tiếp"
                   },
                   {
                     "en": "group discussions",
                     "vi": "thảo luận nhóm"
                   },
                   {
-                    "en": "role-play activities",
-                    "vi": "hoạt động đóng vai"
-                  },
-                  {
-                    "en": "give presentations",
-                    "vi": "thực hiện bài thuyết trình"
-                  },
-                  {
-                    "en": "classroom interaction",
-                    "vi": "sự tương tác trong lớp học"
-                  },
-                  {
-                    "en": "encourage active participation",
-                    "vi": "khuyến khích sự tham gia tích cực"
-                  },
-                  {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp"
-                  },
-                  {
-                    "en": "use the target language",
-                    "vi": "sử dụng ngôn ngữ đích"
-                  },
-                  {
-                    "en": "integrate real-life situations",
-                    "vi": "lồng ghép các tình huống thực tế"
-                  },
-                  {
-                    "en": "practical learning content",
-                    "vi": "nội dung học tập mang tính thực tiễn"
-                  },
-                  {
-                    "en": "workplace communication",
-                    "vi": "giao tiếp tại nơi làm việc"
-                  },
-                  {
-                    "en": "travel-related situations",
-                    "vi": "các tình huống liên quan đến du lịch"
-                  },
-                  {
-                    "en": "academic communication",
-                    "vi": "giao tiếp trong môi trường học thuật"
-                  },
-                  {
-                    "en": "authentic learning materials",
-                    "vi": "tài liệu học tập thực tế"
-                  },
-                  {
-                    "en": "prepare learners for real-life communication",
-                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                    "en": "real-life situations",
+                    "vi": "tình huống thực tế"
                   }
                 ]
               },
@@ -143804,218 +144430,56 @@ const ESSAY_DATA = [
                     "vi": "chất lượng giảng dạy ngôn ngữ"
                   }
                 ],
-                "evidence_vi": "Tổ chức các khóa đào tạo chuyên môn định kỳ để giúp giáo viên cập nhật kiến thức và nâng cao năng lực giảng dạy. Khuyến khích giáo viên tham gia các khóa học và lấy chứng chỉ giảng dạy ngoại ngữ phù hợp. Tạo cơ hội cho giáo viên tham gia hội thảo và chương trình trao đổi quốc tế để học hỏi kinh nghiệm từ các chuyên gia. Thực hiện đánh giá năng lực giảng dạy định kỳ và cung cấp phản hồi mang tính xây dựng để giúp giáo viên cải thiện chuyên môn.",
-                "evidence_en": "Schools should organize regular training courses and professional development courses so that teachers can update professional knowledge, improve teaching competence, and enhance teaching effectiveness. Schools should encourage teachers to attend courses and obtain relevant teaching certificates to improve their professional qualifications, build professional competence, and meet professional standards. Schools should provide opportunities for teachers to attend professional workshops and join international exchange programs to exchange teaching experiences, learn from experienced educators, keep up with educational trends, and gain international teaching experience. Leaders should conduct regular assessments to evaluate teaching performance and provide constructive feedback, which helps teachers identify professional weaknesses, improve instructional skills, and ensure continuous professional improvement.",
+                "evidence_vi": "Các trường học nên tổ chức các khóa đào tạo thường xuyên để giúp giáo viên cập nhật phương pháp giảng dạy mới. Đồng thời, giáo viên cần được tạo cơ hội tham gia hội thảo hoặc chương trình giao lưu quốc tế để học hỏi kinh nghiệm. Khi chất lượng giảng dạy được nâng cao, học sinh sẽ học ngoại ngữ hiệu quả và hứng thú hơn.",
+                "evidence_en": "Schools should organize regular training courses to help teachers update their teaching methods. At the same time, teachers should have chances to join workshops or international exchange programs to learn new skills. When teaching quality improves, students will learn foreign languages more effectively and enjoyably.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "organize regular training courses",
-                      "vi": "tổ chức các khóa đào tạo định kỳ"
+                      "en": "regular training courses",
+                      "vi": "khóa đào tạo định kỳ"
                     },
                     {
-                      "en": "professional development",
-                      "vi": "phát triển chuyên môn"
-                    },
-                    {
-                      "en": "professional development courses",
-                      "vi": "các khóa phát triển chuyên môn"
-                    },
-                    {
-                      "en": "update professional knowledge",
-                      "vi": "cập nhật kiến thức chuyên môn"
-                    },
-                    {
-                      "en": "improve teaching competence",
-                      "vi": "cải thiện năng lực giảng dạy"
-                    },
-                    {
-                      "en": "enhance teaching effectiveness",
-                      "vi": "nâng cao hiệu quả giảng dạy"
+                      "en": "teaching methods",
+                      "vi": "phương pháp giảng dạy"
                     }
                   ],
                   [
-                    {
-                      "en": "encourage teachers to attend courses",
-                      "vi": "khuyến khích giáo viên tham gia các khóa học"
-                    },
-                    {
-                      "en": "obtain relevant teaching certificates",
-                      "vi": "đạt các chứng chỉ giảng dạy phù hợp"
-                    },
-                    {
-                      "en": "professional qualifications",
-                      "vi": "trình độ chuyên môn"
-                    },
-                    {
-                      "en": "teaching certificates",
-                      "vi": "chứng chỉ giảng dạy"
-                    },
-                    {
-                      "en": "improve professional competence",
-                      "vi": "nâng cao năng lực chuyên môn"
-                    },
-                    {
-                      "en": "meet professional standards",
-                      "vi": "đáp ứng các tiêu chuẩn chuyên môn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "provide opportunities for teachers to",
-                      "vi": "tạo cơ hội cho giáo viên"
-                    },
-                    {
-                      "en": "attend professional workshops",
-                      "vi": "tham gia các hội thảo chuyên môn"
-                    },
                     {
                       "en": "international exchange programs",
                       "vi": "chương trình trao đổi quốc tế"
-                    },
-                    {
-                      "en": "exchange teaching experiences",
-                      "vi": "trao đổi kinh nghiệm giảng dạy"
-                    },
-                    {
-                      "en": "learn from experienced educators",
-                      "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
-                    },
-                    {
-                      "en": "keep up with educational trends",
-                      "vi": "cập nhật các xu hướng giáo dục"
-                    },
-                    {
-                      "en": "gain international teaching experience",
-                      "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
                     }
                   ],
                   [
                     {
-                      "en": "evaluate teaching performance",
-                      "vi": "đánh giá năng lực giảng dạy"
-                    },
-                    {
-                      "en": "conduct regular assessments",
-                      "vi": "tiến hành đánh giá định kỳ"
-                    },
-                    {
-                      "en": "provide constructive feedback",
-                      "vi": "cung cấp phản hồi mang tính xây dựng"
-                    },
-                    {
-                      "en": "identify professional weaknesses",
-                      "vi": "xác định những hạn chế về chuyên môn"
-                    },
-                    {
-                      "en": "improve instructional skills",
-                      "vi": "cải thiện kỹ năng giảng dạy"
-                    },
-                    {
-                      "en": "continuous professional improvement",
-                      "vi": "cải thiện chuyên môn liên tục"
+                      "en": "teaching quality",
+                      "vi": "chất lượng giảng dạy"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "organize regular training courses",
-                    "vi": "tổ chức các khóa đào tạo định kỳ"
+                    "en": "improve teachers' professional skills",
+                    "vi": "cải thiện kỹ năng chuyên môn của giáo viên"
                   },
                   {
-                    "en": "professional development",
-                    "vi": "phát triển chuyên môn"
+                    "en": "quality of language teaching",
+                    "vi": "chất lượng giảng dạy ngôn ngữ"
                   },
                   {
-                    "en": "professional development courses",
-                    "vi": "các khóa phát triển chuyên môn"
+                    "en": "regular training courses",
+                    "vi": "khóa đào tạo định kỳ"
                   },
                   {
-                    "en": "update professional knowledge",
-                    "vi": "cập nhật kiến thức chuyên môn"
-                  },
-                  {
-                    "en": "improve teaching competence",
-                    "vi": "cải thiện năng lực giảng dạy"
-                  },
-                  {
-                    "en": "enhance teaching effectiveness",
-                    "vi": "nâng cao hiệu quả giảng dạy"
-                  },
-                  {
-                    "en": "encourage teachers to attend courses",
-                    "vi": "khuyến khích giáo viên tham gia các khóa học"
-                  },
-                  {
-                    "en": "obtain relevant teaching certificates",
-                    "vi": "đạt các chứng chỉ giảng dạy phù hợp"
-                  },
-                  {
-                    "en": "professional qualifications",
-                    "vi": "trình độ chuyên môn"
-                  },
-                  {
-                    "en": "teaching certificates",
-                    "vi": "chứng chỉ giảng dạy"
-                  },
-                  {
-                    "en": "improve professional competence",
-                    "vi": "nâng cao năng lực chuyên môn"
-                  },
-                  {
-                    "en": "meet professional standards",
-                    "vi": "đáp ứng các tiêu chuẩn chuyên môn"
-                  },
-                  {
-                    "en": "provide opportunities for teachers to",
-                    "vi": "tạo cơ hội cho giáo viên"
-                  },
-                  {
-                    "en": "attend professional workshops",
-                    "vi": "tham gia các hội thảo chuyên môn"
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
                   },
                   {
                     "en": "international exchange programs",
                     "vi": "chương trình trao đổi quốc tế"
                   },
                   {
-                    "en": "exchange teaching experiences",
-                    "vi": "trao đổi kinh nghiệm giảng dạy"
-                  },
-                  {
-                    "en": "learn from experienced educators",
-                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
-                  },
-                  {
-                    "en": "keep up with educational trends",
-                    "vi": "cập nhật các xu hướng giáo dục"
-                  },
-                  {
-                    "en": "gain international teaching experience",
-                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
-                  },
-                  {
-                    "en": "evaluate teaching performance",
-                    "vi": "đánh giá năng lực giảng dạy"
-                  },
-                  {
-                    "en": "conduct regular assessments",
-                    "vi": "tiến hành đánh giá định kỳ"
-                  },
-                  {
-                    "en": "provide constructive feedback",
-                    "vi": "cung cấp phản hồi mang tính xây dựng"
-                  },
-                  {
-                    "en": "identify professional weaknesses",
-                    "vi": "xác định những hạn chế về chuyên môn"
-                  },
-                  {
-                    "en": "improve instructional skills",
-                    "vi": "cải thiện kỹ năng giảng dạy"
-                  },
-                  {
-                    "en": "continuous professional improvement",
-                    "vi": "cải thiện chuyên môn liên tục"
+                    "en": "teaching quality",
+                    "vi": "chất lượng giảng dạy"
                   }
                 ]
               },
@@ -144033,250 +144497,56 @@ const ESSAY_DATA = [
                     "vi": "công cụ công nghệ"
                   }
                 ],
-                "evidence_vi": "Trang bị thư viện với sách, truyện, báo và tài liệu ngoại ngữ phù hợp với nhiều trình độ khác nhau. Cung cấp máy tính, thiết bị nghe nhìn và kết nối Internet ổn định để hỗ trợ các hoạt động học tập. Khuyến khích học sinh sử dụng ứng dụng học ngoại ngữ và nền tảng trực tuyến để mở rộng vốn từ vựng và luyện tập các kỹ năng. Xây dựng thư viện học liệu trực tuyến để người học có thể truy cập tài liệu và tự học mọi lúc, mọi nơi.",
-                "evidence_en": "Schools should equip libraries with foreign language books, reference books, supplementary materials, authentic materials, and foreign language publications suitable for different proficiency levels, offering a wide range of learning materials. Schools should provide computers and audiovisual equipment with a stable Internet connection and helpful technological support to create a digital learning environment that can support language learning activities. Teachers should encourage the use of language-learning applications and online learning platforms with interactive learning tools so students can expand their vocabulary, practise language skills, and improve independent learning. Schools can develop online resource libraries and digital libraries so learners can access learning materials and study anytime and anywhere, which will facilitate independent learning, support self-directed learning, provide flexible learning opportunities, and let them learn at their own pace.",
+                "evidence_vi": "Thư viện trường học nên có thêm nhiều sách, truyện và tài liệu ngoại ngữ phù hợp với từng trình độ của học sinh. Ngoài ra, nhà trường cần trang bị máy tính, kết nối Internet ổn định và khuyến khích học sinh dùng các ứng dụng học ngôn ngữ trực tuyến. Nhờ có công cụ hỗ trợ tiện lợi, người học có thể tự luyện tập từ vựng và kỹ năng mọi lúc, mọi nơi.",
+                "evidence_en": "School libraries should offer more foreign language books, stories, and materials suitable for different student levels. Moreover, schools need to provide computers, stable Internet, and encourage students to use online language-learning apps. With these convenient tools, learners can practice vocabulary and skills anytime and anywhere.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "equip libraries with",
-                      "vi": "trang bị cho thư viện"
-                    },
-                    {
-                      "en": "foreign language books",
-                      "vi": "sách ngoại ngữ"
-                    },
-                    {
-                      "en": "reference books",
-                      "vi": "sách tham khảo"
-                    },
-                    {
-                      "en": "supplementary materials",
-                      "vi": "tài liệu bổ trợ"
-                    },
-                    {
-                      "en": "authentic materials",
-                      "vi": "tài liệu thực tế"
-                    },
-                    {
-                      "en": "foreign language publications",
-                      "vi": "các ấn phẩm ngoại ngữ"
-                    },
-                    {
-                      "en": "different proficiency levels",
-                      "vi": "các trình độ năng lực khác nhau"
-                    },
-                    {
-                      "en": "a wide range of learning materials",
-                      "vi": "nhiều loại tài liệu học tập đa dạng"
+                      "en": "different student levels",
+                      "vi": "nhiều trình độ học sinh khác nhau"
                     }
                   ],
                   [
                     {
-                      "en": "provide computers and audiovisual equipment",
-                      "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                      "en": "stable Internet",
+                      "vi": "Internet ổn định"
                     },
                     {
-                      "en": "audiovisual equipment",
-                      "vi": "thiết bị nghe nhìn"
-                    },
-                    {
-                      "en": "stable Internet connection",
-                      "vi": "kết nối Internet ổn định"
-                    },
-                    {
-                      "en": "technological support",
-                      "vi": "sự hỗ trợ về công nghệ"
-                    },
-                    {
-                      "en": "digital learning environment",
-                      "vi": "môi trường học tập kỹ thuật số"
-                    },
-                    {
-                      "en": "support language learning activities",
-                      "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                      "en": "language-learning apps",
+                      "vi": "ứng dụng học ngoại ngữ"
                     }
                   ],
                   [
                     {
-                      "en": "encourage the use of",
-                      "vi": "khuyến khích việc sử dụng"
-                    },
-                    {
-                      "en": "language-learning applications",
-                      "vi": "ứng dụng học ngôn ngữ"
-                    },
-                    {
-                      "en": "online learning platforms",
-                      "vi": "nền tảng học tập trực tuyến"
-                    },
-                    {
-                      "en": "expand one's vocabulary",
-                      "vi": "mở rộng vốn từ vựng"
-                    },
-                    {
-                      "en": "practise language skills",
-                      "vi": "luyện tập các kỹ năng ngôn ngữ"
-                    },
-                    {
-                      "en": "interactive learning tools",
-                      "vi": "công cụ học tập tương tác"
-                    },
-                    {
-                      "en": "improve independent learning",
-                      "vi": "cải thiện khả năng tự học"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "develop online resource libraries",
-                      "vi": "xây dựng thư viện tài nguyên trực tuyến"
-                    },
-                    {
-                      "en": "digital libraries",
-                      "vi": "thư viện kỹ thuật số"
-                    },
-                    {
-                      "en": "access learning materials",
-                      "vi": "truy cập tài liệu học tập"
-                    },
-                    {
-                      "en": "study anytime and anywhere",
-                      "vi": "học mọi lúc, mọi nơi"
-                    },
-                    {
-                      "en": "facilitate independent learning",
-                      "vi": "tạo điều kiện cho việc tự học"
-                    },
-                    {
-                      "en": "support self-directed learning",
-                      "vi": "hỗ trợ việc tự học có định hướng"
-                    },
-                    {
-                      "en": "provide flexible learning opportunities",
-                      "vi": "cung cấp cơ hội học tập linh hoạt"
-                    },
-                    {
-                      "en": "learn at one's own pace",
-                      "vi": "học theo tốc độ của bản thân"
+                      "en": "practice vocabulary",
+                      "vi": "luyện tập từ vựng"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "equip libraries with",
-                    "vi": "trang bị cho thư viện"
+                    "en": "learning materials",
+                    "vi": "tài liệu học tập"
                   },
                   {
-                    "en": "foreign language books",
-                    "vi": "sách ngoại ngữ"
+                    "en": "technology tools",
+                    "vi": "công cụ công nghệ"
                   },
                   {
-                    "en": "reference books",
-                    "vi": "sách tham khảo"
+                    "en": "different student levels",
+                    "vi": "nhiều trình độ học sinh khác nhau"
                   },
                   {
-                    "en": "supplementary materials",
-                    "vi": "tài liệu bổ trợ"
+                    "en": "stable Internet",
+                    "vi": "Internet ổn định"
                   },
                   {
-                    "en": "authentic materials",
-                    "vi": "tài liệu thực tế"
+                    "en": "language-learning apps",
+                    "vi": "ứng dụng học ngoại ngữ"
                   },
                   {
-                    "en": "foreign language publications",
-                    "vi": "các ấn phẩm ngoại ngữ"
-                  },
-                  {
-                    "en": "different proficiency levels",
-                    "vi": "các trình độ năng lực khác nhau"
-                  },
-                  {
-                    "en": "a wide range of learning materials",
-                    "vi": "nhiều loại tài liệu học tập đa dạng"
-                  },
-                  {
-                    "en": "provide computers and audiovisual equipment",
-                    "vi": "cung cấp máy tính và thiết bị nghe nhìn"
-                  },
-                  {
-                    "en": "audiovisual equipment",
-                    "vi": "thiết bị nghe nhìn"
-                  },
-                  {
-                    "en": "stable Internet connection",
-                    "vi": "kết nối Internet ổn định"
-                  },
-                  {
-                    "en": "technological support",
-                    "vi": "sự hỗ trợ về công nghệ"
-                  },
-                  {
-                    "en": "digital learning environment",
-                    "vi": "môi trường học tập kỹ thuật số"
-                  },
-                  {
-                    "en": "support language learning activities",
-                    "vi": "hỗ trợ các hoạt động học ngôn ngữ"
-                  },
-                  {
-                    "en": "encourage the use of",
-                    "vi": "khuyến khích việc sử dụng"
-                  },
-                  {
-                    "en": "language-learning applications",
-                    "vi": "ứng dụng học ngôn ngữ"
-                  },
-                  {
-                    "en": "online learning platforms",
-                    "vi": "nền tảng học tập trực tuyến"
-                  },
-                  {
-                    "en": "expand one's vocabulary",
-                    "vi": "mở rộng vốn từ vựng"
-                  },
-                  {
-                    "en": "practise language skills",
-                    "vi": "luyện tập các kỹ năng ngôn ngữ"
-                  },
-                  {
-                    "en": "interactive learning tools",
-                    "vi": "công cụ học tập tương tác"
-                  },
-                  {
-                    "en": "improve independent learning",
-                    "vi": "cải thiện khả năng tự học"
-                  },
-                  {
-                    "en": "develop online resource libraries",
-                    "vi": "xây dựng thư viện tài nguyên trực tuyến"
-                  },
-                  {
-                    "en": "digital libraries",
-                    "vi": "thư viện kỹ thuật số"
-                  },
-                  {
-                    "en": "access learning materials",
-                    "vi": "truy cập tài liệu học tập"
-                  },
-                  {
-                    "en": "study anytime and anywhere",
-                    "vi": "học mọi lúc, mọi nơi"
-                  },
-                  {
-                    "en": "facilitate independent learning",
-                    "vi": "tạo điều kiện cho việc tự học"
-                  },
-                  {
-                    "en": "support self-directed learning",
-                    "vi": "hỗ trợ việc tự học có định hướng"
-                  },
-                  {
-                    "en": "provide flexible learning opportunities",
-                    "vi": "cung cấp cơ hội học tập linh hoạt"
-                  },
-                  {
-                    "en": "learn at one's own pace",
-                    "vi": "học theo tốc độ của bản thân"
+                    "en": "practice vocabulary",
+                    "vi": "luyện tập từ vựng"
                   }
                 ]
               },
@@ -144294,258 +144564,72 @@ const ESSAY_DATA = [
                     "vi": "giao tiếp thực tế"
                   }
                 ],
-                "evidence_vi": "Thành lập các câu lạc bộ ngoại ngữ để học sinh có thể giao tiếp và trao đổi với nhau thường xuyên. Tổ chức các cuộc thi hùng biện, ngày hội ngôn ngữ và hoạt động ngoại khóa để khuyến khích người học sử dụng ngoại ngữ một cách tự nhiên. Tạo điều kiện cho học sinh tham gia các chương trình giao lưu với người bản ngữ hoặc sinh viên quốc tế để cải thiện kỹ năng giao tiếp. Khuyến khích các doanh nghiệp tạo cơ hội thực tập và làm việc trong môi trường quốc tế để người học áp dụng ngoại ngữ vào công việc thực tế.",
-                "evidence_en": "Schools can establish language clubs and host language practice sessions so that students communicate regularly, interact with other learners, practise speaking skills, create a supportive environment, and build communication confidence. Schools should organize public speaking competitions, hold language festivals, and arrange extracurricular activities to encourage natural language use, help students participate in language events, develop presentation skills, and increase learners’ motivation. Schools should arrange exchange programs and cultural exchange activities so students can interact with native speakers and communicate with international students to improve communication skills, improve speaking fluency, overcome language barriers, and gain cross-cultural experience. Governments should encourage businesses to provide internship opportunities in international working environments so that young people gain practical experience, apply language skills in practice, communicate with foreign colleagues, develop workplace communication skills, and improve future career prospects.",
+                "evidence_vi": "Các trường học có thể thành lập câu lạc bộ ngoại ngữ và tổ chức ngày hội ngôn ngữ để học sinh thực hành giao tiếp thường xuyên. Bên cạnh đó, việc tạo điều kiện cho học sinh giao lưu với người bản ngữ hoặc sinh viên quốc tế giúp các em cải thiện khả năng nói tự nhiên hơn. Những trải nghiệm thực tế này sẽ giúp người học vượt qua sự rụt rè và tăng động lực học tập.",
+                "evidence_en": "Schools can start language clubs and hold language festivals so students can practice speaking regularly. In addition, giving learners chances to talk with native speakers or international students helps them speak more naturally. These practical experiences help students overcome shyness and feel more motivated to learn.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "establish language clubs",
-                      "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                      "en": "language clubs",
+                      "vi": "câu lạc bộ ngoại ngữ"
                     },
                     {
-                      "en": "language practice sessions",
-                      "vi": "các buổi thực hành ngôn ngữ"
-                    },
-                    {
-                      "en": "communicate regularly",
-                      "vi": "giao tiếp thường xuyên"
-                    },
-                    {
-                      "en": "interact with other learners",
-                      "vi": "tương tác với những người học khác"
-                    },
-                    {
-                      "en": "practise speaking skills",
-                      "vi": "luyện tập kỹ năng nói"
-                    },
-                    {
-                      "en": "create a supportive environment",
-                      "vi": "tạo môi trường hỗ trợ"
-                    },
-                    {
-                      "en": "build communication confidence",
-                      "vi": "xây dựng sự tự tin trong giao tiếp"
+                      "en": "practice speaking regularly",
+                      "vi": "luyện nói thường xuyên"
                     }
                   ],
                   [
                     {
-                      "en": "organize public speaking competitions",
-                      "vi": "tổ chức các cuộc thi hùng biện"
+                      "en": "native speakers",
+                      "vi": "người bản ngữ"
                     },
                     {
-                      "en": "hold language festivals",
-                      "vi": "tổ chức ngày hội ngôn ngữ"
-                    },
-                    {
-                      "en": "extracurricular activities",
-                      "vi": "các hoạt động ngoại khóa"
-                    },
-                    {
-                      "en": "encourage natural language use",
-                      "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
-                    },
-                    {
-                      "en": "participate in language events",
-                      "vi": "tham gia các sự kiện ngôn ngữ"
-                    },
-                    {
-                      "en": "develop presentation skills",
-                      "vi": "phát triển kỹ năng thuyết trình"
-                    },
-                    {
-                      "en": "increase learners' motivation",
-                      "vi": "tăng động lực học tập"
+                      "en": "speak more naturally",
+                      "vi": "nói tự nhiên hơn"
                     }
                   ],
                   [
                     {
-                      "en": "arrange exchange programs",
-                      "vi": "tổ chức các chương trình giao lưu"
+                      "en": "overcome shyness",
+                      "vi": "vượt qua sự rụt rè"
                     },
                     {
-                      "en": "interact with native speakers",
-                      "vi": "tương tác với người bản ngữ"
-                    },
-                    {
-                      "en": "communicate with international students",
-                      "vi": "giao tiếp với sinh viên quốc tế"
-                    },
-                    {
-                      "en": "cultural exchange activities",
-                      "vi": "các hoạt động giao lưu văn hóa"
-                    },
-                    {
-                      "en": "improve communication skills",
-                      "vi": "cải thiện kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "improve speaking fluency",
-                      "vi": "cải thiện độ trôi chảy khi nói"
-                    },
-                    {
-                      "en": "overcome language barriers",
-                      "vi": "vượt qua rào cản ngôn ngữ"
-                    },
-                    {
-                      "en": "gain cross-cultural experience",
-                      "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "encourage businesses to",
-                      "vi": "khuyến khích các doanh nghiệp"
-                    },
-                    {
-                      "en": "provide internship opportunities",
-                      "vi": "cung cấp cơ hội thực tập"
-                    },
-                    {
-                      "en": "international working environments",
-                      "vi": "môi trường làm việc quốc tế"
-                    },
-                    {
-                      "en": "gain practical experience",
-                      "vi": "tích lũy kinh nghiệm thực tế"
-                    },
-                    {
-                      "en": "apply language skills in practice",
-                      "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
-                    },
-                    {
-                      "en": "communicate with foreign colleagues",
-                      "vi": "giao tiếp với đồng nghiệp nước ngoài"
-                    },
-                    {
-                      "en": "develop workplace communication skills",
-                      "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
-                    },
-                    {
-                      "en": "improve future career prospects",
-                      "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                      "en": "feel more motivated",
+                      "vi": "cảm thấy có động lực hơn"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "establish language clubs",
-                    "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                    "en": "create more chances",
+                    "vi": "tạo thêm cơ hội"
                   },
                   {
-                    "en": "language practice sessions",
-                    "vi": "các buổi thực hành ngôn ngữ"
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
                   },
                   {
-                    "en": "communicate regularly",
-                    "vi": "giao tiếp thường xuyên"
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
                   },
                   {
-                    "en": "interact with other learners",
-                    "vi": "tương tác với những người học khác"
+                    "en": "practice speaking regularly",
+                    "vi": "luyện nói thường xuyên"
                   },
                   {
-                    "en": "practise speaking skills",
-                    "vi": "luyện tập kỹ năng nói"
+                    "en": "native speakers",
+                    "vi": "người bản ngữ"
                   },
                   {
-                    "en": "create a supportive environment",
-                    "vi": "tạo môi trường hỗ trợ"
+                    "en": "speak more naturally",
+                    "vi": "nói tự nhiên hơn"
                   },
                   {
-                    "en": "build communication confidence",
-                    "vi": "xây dựng sự tự tin trong giao tiếp"
+                    "en": "overcome shyness",
+                    "vi": "vượt qua sự rụt rè"
                   },
                   {
-                    "en": "organize public speaking competitions",
-                    "vi": "tổ chức các cuộc thi hùng biện"
-                  },
-                  {
-                    "en": "hold language festivals",
-                    "vi": "tổ chức ngày hội ngôn ngữ"
-                  },
-                  {
-                    "en": "extracurricular activities",
-                    "vi": "các hoạt động ngoại khóa"
-                  },
-                  {
-                    "en": "encourage natural language use",
-                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
-                  },
-                  {
-                    "en": "participate in language events",
-                    "vi": "tham gia các sự kiện ngôn ngữ"
-                  },
-                  {
-                    "en": "develop presentation skills",
-                    "vi": "phát triển kỹ năng thuyết trình"
-                  },
-                  {
-                    "en": "increase learners' motivation",
-                    "vi": "tăng động lực học tập"
-                  },
-                  {
-                    "en": "arrange exchange programs",
-                    "vi": "tổ chức các chương trình giao lưu"
-                  },
-                  {
-                    "en": "interact with native speakers",
-                    "vi": "tương tác với người bản ngữ"
-                  },
-                  {
-                    "en": "communicate with international students",
-                    "vi": "giao tiếp với sinh viên quốc tế"
-                  },
-                  {
-                    "en": "cultural exchange activities",
-                    "vi": "các hoạt động giao lưu văn hóa"
-                  },
-                  {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp"
-                  },
-                  {
-                    "en": "improve speaking fluency",
-                    "vi": "cải thiện độ trôi chảy khi nói"
-                  },
-                  {
-                    "en": "overcome language barriers",
-                    "vi": "vượt qua rào cản ngôn ngữ"
-                  },
-                  {
-                    "en": "gain cross-cultural experience",
-                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
-                  },
-                  {
-                    "en": "encourage businesses to",
-                    "vi": "khuyến khích các doanh nghiệp"
-                  },
-                  {
-                    "en": "provide internship opportunities",
-                    "vi": "cung cấp cơ hội thực tập"
-                  },
-                  {
-                    "en": "international working environments",
-                    "vi": "môi trường làm việc quốc tế"
-                  },
-                  {
-                    "en": "gain practical experience",
-                    "vi": "tích lũy kinh nghiệm thực tế"
-                  },
-                  {
-                    "en": "apply language skills in practice",
-                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
-                  },
-                  {
-                    "en": "communicate with foreign colleagues",
-                    "vi": "giao tiếp với đồng nghiệp nước ngoài"
-                  },
-                  {
-                    "en": "develop workplace communication skills",
-                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
-                  },
-                  {
-                    "en": "improve future career prospects",
-                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                    "en": "feel more motivated",
+                    "vi": "cảm thấy có động lực hơn"
                   }
                 ]
               }
@@ -144565,210 +144649,64 @@ const ESSAY_DATA = [
                     "vi": "hỗ trợ tài chính"
                   }
                 ],
-                "evidence_vi": "Phân bổ thêm ngân sách cho các trường học và trung tâm ngoại ngữ để cải thiện cơ sở vật chất và trang thiết bị. Cung cấp học bổng hoặc hỗ trợ tài chính cho học sinh, sinh viên có hoàn cảnh khó khăn để họ có thêm cơ hội học ngoại ngữ. Xây dựng các chính sách khuyến khích việc học ngoại ngữ từ bậc tiểu học nhằm tạo nền tảng ngôn ngữ vững chắc. Hợp tác với các tổ chức giáo dục quốc tế để tiếp cận nguồn tài trợ và các chương trình giáo dục tiên tiến.",
-                "evidence_en": "Authorities can allocate a larger budget to schools and language centres, using government funding to improve educational infrastructure, upgrade school facilities, and provide modern teaching equipment. The state should provide financial assistance and offer scholarships to students from low-income families, helping disadvantaged students expand access to language courses and reduce educational inequality. Policymakers should introduce supportive policies to promote early language learning in primary education, helping children build a strong language foundation, develop language skills from an early age, and encourage students to learn foreign languages. Schools can establish international partnerships and cooperate with international organizations to access international funding, exchange educational resources, use advanced educational programs, and benefit from international cooperation.",
+                "evidence_vi": "Chính phủ có thể tăng ngân sách cho các trường học và trung tâm ngoại ngữ để nâng cấp phòng học và thiết bị giảng dạy hiện đại. Bên cạnh đó, nhà nước nên cung cấp học bổng và hỗ trợ học phí cho học sinh có hoàn cảnh khó khăn. Điều này giúp nhiều bạn trẻ có cơ hội học ngoại ngữ tốt hơn ngay từ bậc tiểu học.",
+                "evidence_en": "Governments can provide more money to schools and language centers to upgrade classrooms and modern teaching equipment. In addition, the state should offer scholarships and financial support to students from low-income families. This helps more young people get better chances to learn foreign languages from primary school.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "allocate a larger budget to",
-                      "vi": "phân bổ ngân sách lớn hơn cho"
+                      "en": "modern teaching equipment",
+                      "vi": "thiết bị giảng dạy hiện đại"
                     },
                     {
-                      "en": "government funding",
-                      "vi": "nguồn tài trợ của chính phủ"
-                    },
-                    {
-                      "en": "language centres",
-                      "vi": "các trung tâm ngoại ngữ"
-                    },
-                    {
-                      "en": "improve educational infrastructure",
-                      "vi": "cải thiện cơ sở hạ tầng giáo dục"
-                    },
-                    {
-                      "en": "upgrade school facilities",
-                      "vi": "nâng cấp cơ sở vật chất trường học"
-                    },
-                    {
-                      "en": "teaching equipment",
-                      "vi": "thiết bị giảng dạy"
+                      "en": "upgrade classrooms",
+                      "vi": "nâng cấp phòng học"
                     }
                   ],
                   [
                     {
-                      "en": "provide financial assistance",
-                      "vi": "cung cấp hỗ trợ tài chính"
-                    },
-                    {
-                      "en": "offer scholarships to students",
-                      "vi": "cấp học bổng cho học sinh, sinh viên"
-                    },
-                    {
-                      "en": "disadvantaged students",
-                      "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                      "en": "offer scholarships",
+                      "vi": "cung cấp học bổng"
                     },
                     {
                       "en": "low-income families",
-                      "vi": "các gia đình có thu nhập thấp"
-                    },
-                    {
-                      "en": "expand access to language courses",
-                      "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
-                    },
-                    {
-                      "en": "reduce educational inequality",
-                      "vi": "giảm bất bình đẳng trong giáo dục"
+                      "vi": "gia đình có thu nhập thấp"
                     }
                   ],
                   [
                     {
-                      "en": "introduce supportive policies",
-                      "vi": "ban hành các chính sách hỗ trợ"
-                    },
-                    {
-                      "en": "promote early language learning",
-                      "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
-                    },
-                    {
-                      "en": "primary education",
-                      "vi": "giáo dục tiểu học"
-                    },
-                    {
-                      "en": "build a strong language foundation",
-                      "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
-                    },
-                    {
-                      "en": "develop language skills from an early age",
-                      "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
-                    },
-                    {
-                      "en": "encourage students to learn foreign languages",
-                      "vi": "khuyến khích học sinh học ngoại ngữ"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "establish international partnerships",
-                      "vi": "thiết lập quan hệ hợp tác quốc tế"
-                    },
-                    {
-                      "en": "cooperate with international organizations",
-                      "vi": "hợp tác với các tổ chức quốc tế"
-                    },
-                    {
-                      "en": "access international funding",
-                      "vi": "tiếp cận nguồn tài trợ quốc tế"
-                    },
-                    {
-                      "en": "exchange educational resources",
-                      "vi": "trao đổi tài nguyên giáo dục"
-                    },
-                    {
-                      "en": "advanced educational programs",
-                      "vi": "các chương trình giáo dục tiên tiến"
-                    },
-                    {
-                      "en": "benefit from international cooperation",
-                      "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                      "en": "from primary school",
+                      "vi": "từ bậc tiểu học"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "allocate a larger budget to",
-                    "vi": "phân bổ ngân sách lớn hơn cho"
+                    "en": "invest more money",
+                    "vi": "đầu tư nhiều tiền hơn"
                   },
                   {
-                    "en": "government funding",
-                    "vi": "nguồn tài trợ của chính phủ"
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
                   },
                   {
-                    "en": "language centres",
-                    "vi": "các trung tâm ngoại ngữ"
+                    "en": "modern teaching equipment",
+                    "vi": "thiết bị giảng dạy hiện đại"
                   },
                   {
-                    "en": "improve educational infrastructure",
-                    "vi": "cải thiện cơ sở hạ tầng giáo dục"
+                    "en": "upgrade classrooms",
+                    "vi": "nâng cấp phòng học"
                   },
                   {
-                    "en": "upgrade school facilities",
-                    "vi": "nâng cấp cơ sở vật chất trường học"
-                  },
-                  {
-                    "en": "teaching equipment",
-                    "vi": "thiết bị giảng dạy"
-                  },
-                  {
-                    "en": "provide financial assistance",
-                    "vi": "cung cấp hỗ trợ tài chính"
-                  },
-                  {
-                    "en": "offer scholarships to students",
-                    "vi": "cấp học bổng cho học sinh, sinh viên"
-                  },
-                  {
-                    "en": "disadvantaged students",
-                    "vi": "học sinh, sinh viên có hoàn cảnh khó khăn"
+                    "en": "offer scholarships",
+                    "vi": "cung cấp học bổng"
                   },
                   {
                     "en": "low-income families",
-                    "vi": "các gia đình có thu nhập thấp"
+                    "vi": "gia đình có thu nhập thấp"
                   },
                   {
-                    "en": "expand access to language courses",
-                    "vi": "mở rộng cơ hội tiếp cận các khóa học ngôn ngữ"
-                  },
-                  {
-                    "en": "reduce educational inequality",
-                    "vi": "giảm bất bình đẳng trong giáo dục"
-                  },
-                  {
-                    "en": "introduce supportive policies",
-                    "vi": "ban hành các chính sách hỗ trợ"
-                  },
-                  {
-                    "en": "promote early language learning",
-                    "vi": "thúc đẩy việc học ngôn ngữ từ sớm"
-                  },
-                  {
-                    "en": "primary education",
-                    "vi": "giáo dục tiểu học"
-                  },
-                  {
-                    "en": "build a strong language foundation",
-                    "vi": "xây dựng nền tảng ngôn ngữ vững chắc"
-                  },
-                  {
-                    "en": "develop language skills from an early age",
-                    "vi": "phát triển kỹ năng ngôn ngữ từ khi còn nhỏ"
-                  },
-                  {
-                    "en": "encourage students to learn foreign languages",
-                    "vi": "khuyến khích học sinh học ngoại ngữ"
-                  },
-                  {
-                    "en": "establish international partnerships",
-                    "vi": "thiết lập quan hệ hợp tác quốc tế"
-                  },
-                  {
-                    "en": "cooperate with international organizations",
-                    "vi": "hợp tác với các tổ chức quốc tế"
-                  },
-                  {
-                    "en": "access international funding",
-                    "vi": "tiếp cận nguồn tài trợ quốc tế"
-                  },
-                  {
-                    "en": "exchange educational resources",
-                    "vi": "trao đổi tài nguyên giáo dục"
-                  },
-                  {
-                    "en": "advanced educational programs",
-                    "vi": "các chương trình giáo dục tiên tiến"
-                  },
-                  {
-                    "en": "benefit from international cooperation",
-                    "vi": "hưởng lợi từ sự hợp tác quốc tế"
+                    "en": "from primary school",
+                    "vi": "từ bậc tiểu học"
                   }
                 ]
               },
@@ -144786,266 +144724,56 @@ const ESSAY_DATA = [
                     "vi": "phương pháp giảng dạy"
                   }
                 ],
-                "evidence_vi": "Thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì tập trung quá nhiều vào ngữ pháp và từ vựng. Giảm sự phụ thuộc vào việc ghi nhớ máy móc các quy tắc ngữ pháp và từ vựng. Tăng cường các hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình để học sinh có cơ hội sử dụng ngôn ngữ. Xây dựng nội dung bài học gắn với các tình huống thực tế như giao tiếp tại nơi làm việc, du lịch và học tập.",
-                "evidence_en": "In curriculum design, the language curriculum should place equal emphasis on the four language skills—listening comprehension, speaking fluency, reading comprehension, and written communication—to achieve balanced language development. Teachers should replace traditional teaching methods that focus heavily on grammar and vocabulary memorization, reducing rote memorization so that students can memorize grammar rules less, develop practical language skills, and apply knowledge in real-life situations. Teachers should increase communicative activities like group discussions, role-play activities, and give presentations to improve classroom interaction, encourage active participation, help students use the target language, and improve communication skills. Lessons should integrate real-life situations and authentic learning materials into practical learning content, including workplace communication, travel-related situations, and academic communication, to prepare learners for real-life communication.",
+                "evidence_vi": "Nhà trường nên thiết kế chương trình học cân bằng cả bốn kỹ năng nghe, nói, đọc và viết thay vì chỉ học thuộc ngữ pháp. Giáo viên cũng cần tổ chức thêm nhiều hoạt động giao tiếp như thảo luận nhóm, đóng vai và thuyết trình trên lớp. Nhờ vậy, học sinh có thể tự tin sử dụng ngoại ngữ trong các tình huống thực tế hằng ngày.",
+                "evidence_en": "Schools should design lessons that balance listening, speaking, reading, and writing instead of only memorizing grammar rules. Teachers also need to include more communicative activities like group discussions, role-plays, and short presentations in class. As a result, students can use foreign languages confidently in real-life situations.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "language curriculum",
-                      "vi": "chương trình giảng dạy ngôn ngữ"
-                    },
-                    {
-                      "en": "curriculum design",
-                      "vi": "thiết kế chương trình học"
-                    },
-                    {
-                      "en": "the four language skills",
-                      "vi": "bốn kỹ năng ngôn ngữ"
-                    },
-                    {
-                      "en": "listening comprehension",
-                      "vi": "khả năng nghe hiểu"
-                    },
-                    {
-                      "en": "speaking fluency",
-                      "vi": "độ trôi chảy khi nói"
-                    },
-                    {
-                      "en": "reading comprehension",
-                      "vi": "khả năng đọc hiểu"
-                    },
-                    {
-                      "en": "written communication",
-                      "vi": "giao tiếp bằng văn bản"
-                    },
-                    {
-                      "en": "balanced language development",
-                      "vi": "sự phát triển ngôn ngữ cân bằng"
-                    },
-                    {
-                      "en": "place equal emphasis on",
-                      "vi": "chú trọng đồng đều vào"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "reduce rote memorization",
-                      "vi": "giảm việc học thuộc lòng máy móc"
-                    },
-                    {
                       "en": "memorize grammar rules",
-                      "vi": "ghi nhớ các quy tắc ngữ pháp"
-                    },
-                    {
-                      "en": "focus heavily on grammar",
-                      "vi": "tập trung quá nhiều vào ngữ pháp"
-                    },
-                    {
-                      "en": "vocabulary memorization",
-                      "vi": "việc ghi nhớ từ vựng"
-                    },
-                    {
-                      "en": "traditional teaching methods",
-                      "vi": "các phương pháp giảng dạy truyền thống"
-                    },
-                    {
-                      "en": "develop practical language skills",
-                      "vi": "phát triển kỹ năng ngôn ngữ thực tế"
-                    },
-                    {
-                      "en": "apply knowledge in real-life situations",
-                      "vi": "áp dụng kiến thức vào các tình huống thực tế"
+                      "vi": "học thuộc quy tắc ngữ pháp"
                     }
                   ],
                   [
                     {
-                      "en": "increase communicative activities",
-                      "vi": "tăng cường các hoạt động giao tiếp"
+                      "en": "communicative activities",
+                      "vi": "hoạt động giao tiếp"
                     },
                     {
                       "en": "group discussions",
                       "vi": "thảo luận nhóm"
-                    },
-                    {
-                      "en": "role-play activities",
-                      "vi": "hoạt động đóng vai"
-                    },
-                    {
-                      "en": "give presentations",
-                      "vi": "thực hiện bài thuyết trình"
-                    },
-                    {
-                      "en": "classroom interaction",
-                      "vi": "sự tương tác trong lớp học"
-                    },
-                    {
-                      "en": "encourage active participation",
-                      "vi": "khuyến khích sự tham gia tích cực"
-                    },
-                    {
-                      "en": "improve communication skills",
-                      "vi": "cải thiện kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "use the target language",
-                      "vi": "sử dụng ngôn ngữ đích"
                     }
                   ],
                   [
                     {
-                      "en": "integrate real-life situations",
-                      "vi": "lồng ghép các tình huống thực tế"
-                    },
-                    {
-                      "en": "practical learning content",
-                      "vi": "nội dung học tập mang tính thực tiễn"
-                    },
-                    {
-                      "en": "workplace communication",
-                      "vi": "giao tiếp tại nơi làm việc"
-                    },
-                    {
-                      "en": "travel-related situations",
-                      "vi": "các tình huống liên quan đến du lịch"
-                    },
-                    {
-                      "en": "academic communication",
-                      "vi": "giao tiếp trong môi trường học thuật"
-                    },
-                    {
-                      "en": "authentic learning materials",
-                      "vi": "tài liệu học tập thực tế"
-                    },
-                    {
-                      "en": "prepare learners for real-life communication",
-                      "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                      "en": "real-life situations",
+                      "vi": "tình huống thực tế"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "language curriculum",
-                    "vi": "chương trình giảng dạy ngôn ngữ"
+                    "en": "improve their curriculum",
+                    "vi": "cải thiện chương trình học"
                   },
                   {
-                    "en": "curriculum design",
-                    "vi": "thiết kế chương trình học"
-                  },
-                  {
-                    "en": "the four language skills",
-                    "vi": "bốn kỹ năng ngôn ngữ"
-                  },
-                  {
-                    "en": "listening comprehension",
-                    "vi": "khả năng nghe hiểu"
-                  },
-                  {
-                    "en": "speaking fluency",
-                    "vi": "độ trôi chảy khi nói"
-                  },
-                  {
-                    "en": "reading comprehension",
-                    "vi": "khả năng đọc hiểu"
-                  },
-                  {
-                    "en": "written communication",
-                    "vi": "giao tiếp bằng văn bản"
-                  },
-                  {
-                    "en": "balanced language development",
-                    "vi": "sự phát triển ngôn ngữ cân bằng"
-                  },
-                  {
-                    "en": "place equal emphasis on",
-                    "vi": "chú trọng đồng đều vào"
-                  },
-                  {
-                    "en": "reduce rote memorization",
-                    "vi": "giảm việc học thuộc lòng máy móc"
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
                   },
                   {
                     "en": "memorize grammar rules",
-                    "vi": "ghi nhớ các quy tắc ngữ pháp"
+                    "vi": "học thuộc quy tắc ngữ pháp"
                   },
                   {
-                    "en": "focus heavily on grammar",
-                    "vi": "tập trung quá nhiều vào ngữ pháp"
-                  },
-                  {
-                    "en": "vocabulary memorization",
-                    "vi": "việc ghi nhớ từ vựng"
-                  },
-                  {
-                    "en": "traditional teaching methods",
-                    "vi": "các phương pháp giảng dạy truyền thống"
-                  },
-                  {
-                    "en": "develop practical language skills",
-                    "vi": "phát triển kỹ năng ngôn ngữ thực tế"
-                  },
-                  {
-                    "en": "apply knowledge in real-life situations",
-                    "vi": "áp dụng kiến thức vào các tình huống thực tế"
-                  },
-                  {
-                    "en": "increase communicative activities",
-                    "vi": "tăng cường các hoạt động giao tiếp"
+                    "en": "communicative activities",
+                    "vi": "hoạt động giao tiếp"
                   },
                   {
                     "en": "group discussions",
                     "vi": "thảo luận nhóm"
                   },
                   {
-                    "en": "role-play activities",
-                    "vi": "hoạt động đóng vai"
-                  },
-                  {
-                    "en": "give presentations",
-                    "vi": "thực hiện bài thuyết trình"
-                  },
-                  {
-                    "en": "classroom interaction",
-                    "vi": "sự tương tác trong lớp học"
-                  },
-                  {
-                    "en": "encourage active participation",
-                    "vi": "khuyến khích sự tham gia tích cực"
-                  },
-                  {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp"
-                  },
-                  {
-                    "en": "use the target language",
-                    "vi": "sử dụng ngôn ngữ đích"
-                  },
-                  {
-                    "en": "integrate real-life situations",
-                    "vi": "lồng ghép các tình huống thực tế"
-                  },
-                  {
-                    "en": "practical learning content",
-                    "vi": "nội dung học tập mang tính thực tiễn"
-                  },
-                  {
-                    "en": "workplace communication",
-                    "vi": "giao tiếp tại nơi làm việc"
-                  },
-                  {
-                    "en": "travel-related situations",
-                    "vi": "các tình huống liên quan đến du lịch"
-                  },
-                  {
-                    "en": "academic communication",
-                    "vi": "giao tiếp trong môi trường học thuật"
-                  },
-                  {
-                    "en": "authentic learning materials",
-                    "vi": "tài liệu học tập thực tế"
-                  },
-                  {
-                    "en": "prepare learners for real-life communication",
-                    "vi": "chuẩn bị cho người học giao tiếp trong đời sống thực tế"
+                    "en": "real-life situations",
+                    "vi": "tình huống thực tế"
                   }
                 ]
               },
@@ -145063,218 +144791,56 @@ const ESSAY_DATA = [
                     "vi": "chất lượng giảng dạy ngôn ngữ"
                   }
                 ],
-                "evidence_vi": "Tổ chức các khóa đào tạo chuyên môn định kỳ để giúp giáo viên cập nhật kiến thức và nâng cao năng lực giảng dạy. Khuyến khích giáo viên tham gia các khóa học và lấy chứng chỉ giảng dạy ngoại ngữ phù hợp. Tạo cơ hội cho giáo viên tham gia hội thảo và chương trình trao đổi quốc tế để học hỏi kinh nghiệm từ các chuyên gia. Thực hiện đánh giá năng lực giảng dạy định kỳ và cung cấp phản hồi mang tính xây dựng để giúp giáo viên cải thiện chuyên môn.",
-                "evidence_en": "Schools should organize regular training courses and professional development courses so that teachers can update professional knowledge, improve teaching competence, and enhance teaching effectiveness. Schools should encourage teachers to attend courses and obtain relevant teaching certificates to improve their professional qualifications, build professional competence, and meet professional standards. Schools should provide opportunities for teachers to attend professional workshops and join international exchange programs to exchange teaching experiences, learn from experienced educators, keep up with educational trends, and gain international teaching experience. Leaders should conduct regular assessments to evaluate teaching performance and provide constructive feedback, which helps teachers identify professional weaknesses, improve instructional skills, and ensure continuous professional improvement.",
+                "evidence_vi": "Các trường học nên tổ chức các khóa đào tạo thường xuyên để giúp giáo viên cập nhật phương pháp giảng dạy mới. Đồng thời, giáo viên cần được tạo cơ hội tham gia hội thảo hoặc chương trình giao lưu quốc tế để học hỏi kinh nghiệm. Khi chất lượng giảng dạy được nâng cao, học sinh sẽ học ngoại ngữ hiệu quả và hứng thú hơn.",
+                "evidence_en": "Schools should organize regular training courses to help teachers update their teaching methods. At the same time, teachers should have chances to join workshops or international exchange programs to learn new skills. When teaching quality improves, students will learn foreign languages more effectively and enjoyably.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "organize regular training courses",
-                      "vi": "tổ chức các khóa đào tạo định kỳ"
+                      "en": "regular training courses",
+                      "vi": "khóa đào tạo định kỳ"
                     },
                     {
-                      "en": "professional development",
-                      "vi": "phát triển chuyên môn"
-                    },
-                    {
-                      "en": "professional development courses",
-                      "vi": "các khóa phát triển chuyên môn"
-                    },
-                    {
-                      "en": "update professional knowledge",
-                      "vi": "cập nhật kiến thức chuyên môn"
-                    },
-                    {
-                      "en": "improve teaching competence",
-                      "vi": "cải thiện năng lực giảng dạy"
-                    },
-                    {
-                      "en": "enhance teaching effectiveness",
-                      "vi": "nâng cao hiệu quả giảng dạy"
+                      "en": "teaching methods",
+                      "vi": "phương pháp giảng dạy"
                     }
                   ],
                   [
-                    {
-                      "en": "encourage teachers to attend courses",
-                      "vi": "khuyến khích giáo viên tham gia các khóa học"
-                    },
-                    {
-                      "en": "obtain relevant teaching certificates",
-                      "vi": "đạt các chứng chỉ giảng dạy phù hợp"
-                    },
-                    {
-                      "en": "professional qualifications",
-                      "vi": "trình độ chuyên môn"
-                    },
-                    {
-                      "en": "teaching certificates",
-                      "vi": "chứng chỉ giảng dạy"
-                    },
-                    {
-                      "en": "improve professional competence",
-                      "vi": "nâng cao năng lực chuyên môn"
-                    },
-                    {
-                      "en": "meet professional standards",
-                      "vi": "đáp ứng các tiêu chuẩn chuyên môn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "provide opportunities for teachers to",
-                      "vi": "tạo cơ hội cho giáo viên"
-                    },
-                    {
-                      "en": "attend professional workshops",
-                      "vi": "tham gia các hội thảo chuyên môn"
-                    },
                     {
                       "en": "international exchange programs",
                       "vi": "chương trình trao đổi quốc tế"
-                    },
-                    {
-                      "en": "exchange teaching experiences",
-                      "vi": "trao đổi kinh nghiệm giảng dạy"
-                    },
-                    {
-                      "en": "learn from experienced educators",
-                      "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
-                    },
-                    {
-                      "en": "keep up with educational trends",
-                      "vi": "cập nhật các xu hướng giáo dục"
-                    },
-                    {
-                      "en": "gain international teaching experience",
-                      "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
                     }
                   ],
                   [
                     {
-                      "en": "evaluate teaching performance",
-                      "vi": "đánh giá năng lực giảng dạy"
-                    },
-                    {
-                      "en": "conduct regular assessments",
-                      "vi": "tiến hành đánh giá định kỳ"
-                    },
-                    {
-                      "en": "provide constructive feedback",
-                      "vi": "cung cấp phản hồi mang tính xây dựng"
-                    },
-                    {
-                      "en": "identify professional weaknesses",
-                      "vi": "xác định những hạn chế về chuyên môn"
-                    },
-                    {
-                      "en": "improve instructional skills",
-                      "vi": "cải thiện kỹ năng giảng dạy"
-                    },
-                    {
-                      "en": "continuous professional improvement",
-                      "vi": "cải thiện chuyên môn liên tục"
+                      "en": "teaching quality",
+                      "vi": "chất lượng giảng dạy"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "organize regular training courses",
-                    "vi": "tổ chức các khóa đào tạo định kỳ"
+                    "en": "improve teachers' professional skills",
+                    "vi": "cải thiện kỹ năng chuyên môn của giáo viên"
                   },
                   {
-                    "en": "professional development",
-                    "vi": "phát triển chuyên môn"
+                    "en": "quality of language teaching",
+                    "vi": "chất lượng giảng dạy ngôn ngữ"
                   },
                   {
-                    "en": "professional development courses",
-                    "vi": "các khóa phát triển chuyên môn"
+                    "en": "regular training courses",
+                    "vi": "khóa đào tạo định kỳ"
                   },
                   {
-                    "en": "update professional knowledge",
-                    "vi": "cập nhật kiến thức chuyên môn"
-                  },
-                  {
-                    "en": "improve teaching competence",
-                    "vi": "cải thiện năng lực giảng dạy"
-                  },
-                  {
-                    "en": "enhance teaching effectiveness",
-                    "vi": "nâng cao hiệu quả giảng dạy"
-                  },
-                  {
-                    "en": "encourage teachers to attend courses",
-                    "vi": "khuyến khích giáo viên tham gia các khóa học"
-                  },
-                  {
-                    "en": "obtain relevant teaching certificates",
-                    "vi": "đạt các chứng chỉ giảng dạy phù hợp"
-                  },
-                  {
-                    "en": "professional qualifications",
-                    "vi": "trình độ chuyên môn"
-                  },
-                  {
-                    "en": "teaching certificates",
-                    "vi": "chứng chỉ giảng dạy"
-                  },
-                  {
-                    "en": "improve professional competence",
-                    "vi": "nâng cao năng lực chuyên môn"
-                  },
-                  {
-                    "en": "meet professional standards",
-                    "vi": "đáp ứng các tiêu chuẩn chuyên môn"
-                  },
-                  {
-                    "en": "provide opportunities for teachers to",
-                    "vi": "tạo cơ hội cho giáo viên"
-                  },
-                  {
-                    "en": "attend professional workshops",
-                    "vi": "tham gia các hội thảo chuyên môn"
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
                   },
                   {
                     "en": "international exchange programs",
                     "vi": "chương trình trao đổi quốc tế"
                   },
                   {
-                    "en": "exchange teaching experiences",
-                    "vi": "trao đổi kinh nghiệm giảng dạy"
-                  },
-                  {
-                    "en": "learn from experienced educators",
-                    "vi": "học hỏi từ các nhà giáo dục giàu kinh nghiệm"
-                  },
-                  {
-                    "en": "keep up with educational trends",
-                    "vi": "cập nhật các xu hướng giáo dục"
-                  },
-                  {
-                    "en": "gain international teaching experience",
-                    "vi": "tích lũy kinh nghiệm giảng dạy quốc tế"
-                  },
-                  {
-                    "en": "evaluate teaching performance",
-                    "vi": "đánh giá năng lực giảng dạy"
-                  },
-                  {
-                    "en": "conduct regular assessments",
-                    "vi": "tiến hành đánh giá định kỳ"
-                  },
-                  {
-                    "en": "provide constructive feedback",
-                    "vi": "cung cấp phản hồi mang tính xây dựng"
-                  },
-                  {
-                    "en": "identify professional weaknesses",
-                    "vi": "xác định những hạn chế về chuyên môn"
-                  },
-                  {
-                    "en": "improve instructional skills",
-                    "vi": "cải thiện kỹ năng giảng dạy"
-                  },
-                  {
-                    "en": "continuous professional improvement",
-                    "vi": "cải thiện chuyên môn liên tục"
+                    "en": "teaching quality",
+                    "vi": "chất lượng giảng dạy"
                   }
                 ]
               },
@@ -145292,250 +144858,56 @@ const ESSAY_DATA = [
                     "vi": "công cụ công nghệ"
                   }
                 ],
-                "evidence_vi": "Trang bị thư viện với sách, truyện, báo và tài liệu ngoại ngữ phù hợp với nhiều trình độ khác nhau. Cung cấp máy tính, thiết bị nghe nhìn và kết nối Internet ổn định để hỗ trợ các hoạt động học tập. Khuyến khích học sinh sử dụng ứng dụng học ngoại ngữ và nền tảng trực tuyến để mở rộng vốn từ vựng và luyện tập các kỹ năng. Xây dựng thư viện học liệu trực tuyến để người học có thể truy cập tài liệu và tự học mọi lúc, mọi nơi.",
-                "evidence_en": "Schools should equip libraries with foreign language books, reference books, supplementary materials, authentic materials, and foreign language publications suitable for different proficiency levels, offering a wide range of learning materials. Schools should provide computers and audiovisual equipment with a stable Internet connection and helpful technological support to create a digital learning environment that can support language learning activities. Teachers should encourage the use of language-learning applications and online learning platforms with interactive learning tools so students can expand their vocabulary, practise language skills, and improve independent learning. Schools can develop online resource libraries and digital libraries so learners can access learning materials and study anytime and anywhere, which will facilitate independent learning, support self-directed learning, provide flexible learning opportunities, and let them learn at their own pace.",
+                "evidence_vi": "Thư viện trường học nên có thêm nhiều sách, truyện và tài liệu ngoại ngữ phù hợp với từng trình độ của học sinh. Ngoài ra, nhà trường cần trang bị máy tính, kết nối Internet ổn định và khuyến khích học sinh dùng các ứng dụng học ngôn ngữ trực tuyến. Nhờ có công cụ hỗ trợ tiện lợi, người học có thể tự luyện tập từ vựng và kỹ năng mọi lúc, mọi nơi.",
+                "evidence_en": "School libraries should offer more foreign language books, stories, and materials suitable for different student levels. Moreover, schools need to provide computers, stable Internet, and encourage students to use online language-learning apps. With these convenient tools, learners can practice vocabulary and skills anytime and anywhere.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "equip libraries with",
-                      "vi": "trang bị cho thư viện"
-                    },
-                    {
-                      "en": "foreign language books",
-                      "vi": "sách ngoại ngữ"
-                    },
-                    {
-                      "en": "reference books",
-                      "vi": "sách tham khảo"
-                    },
-                    {
-                      "en": "supplementary materials",
-                      "vi": "tài liệu bổ trợ"
-                    },
-                    {
-                      "en": "authentic materials",
-                      "vi": "tài liệu thực tế"
-                    },
-                    {
-                      "en": "foreign language publications",
-                      "vi": "các ấn phẩm ngoại ngữ"
-                    },
-                    {
-                      "en": "different proficiency levels",
-                      "vi": "các trình độ năng lực khác nhau"
-                    },
-                    {
-                      "en": "a wide range of learning materials",
-                      "vi": "nhiều loại tài liệu học tập đa dạng"
+                      "en": "different student levels",
+                      "vi": "nhiều trình độ học sinh khác nhau"
                     }
                   ],
                   [
                     {
-                      "en": "provide computers and audiovisual equipment",
-                      "vi": "cung cấp máy tính và thiết bị nghe nhìn"
+                      "en": "stable Internet",
+                      "vi": "Internet ổn định"
                     },
                     {
-                      "en": "audiovisual equipment",
-                      "vi": "thiết bị nghe nhìn"
-                    },
-                    {
-                      "en": "stable Internet connection",
-                      "vi": "kết nối Internet ổn định"
-                    },
-                    {
-                      "en": "technological support",
-                      "vi": "sự hỗ trợ về công nghệ"
-                    },
-                    {
-                      "en": "digital learning environment",
-                      "vi": "môi trường học tập kỹ thuật số"
-                    },
-                    {
-                      "en": "support language learning activities",
-                      "vi": "hỗ trợ các hoạt động học ngôn ngữ"
+                      "en": "language-learning apps",
+                      "vi": "ứng dụng học ngoại ngữ"
                     }
                   ],
                   [
                     {
-                      "en": "encourage the use of",
-                      "vi": "khuyến khích việc sử dụng"
-                    },
-                    {
-                      "en": "language-learning applications",
-                      "vi": "ứng dụng học ngôn ngữ"
-                    },
-                    {
-                      "en": "online learning platforms",
-                      "vi": "nền tảng học tập trực tuyến"
-                    },
-                    {
-                      "en": "expand one's vocabulary",
-                      "vi": "mở rộng vốn từ vựng"
-                    },
-                    {
-                      "en": "practise language skills",
-                      "vi": "luyện tập các kỹ năng ngôn ngữ"
-                    },
-                    {
-                      "en": "interactive learning tools",
-                      "vi": "công cụ học tập tương tác"
-                    },
-                    {
-                      "en": "improve independent learning",
-                      "vi": "cải thiện khả năng tự học"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "develop online resource libraries",
-                      "vi": "xây dựng thư viện tài nguyên trực tuyến"
-                    },
-                    {
-                      "en": "digital libraries",
-                      "vi": "thư viện kỹ thuật số"
-                    },
-                    {
-                      "en": "access learning materials",
-                      "vi": "truy cập tài liệu học tập"
-                    },
-                    {
-                      "en": "study anytime and anywhere",
-                      "vi": "học mọi lúc, mọi nơi"
-                    },
-                    {
-                      "en": "facilitate independent learning",
-                      "vi": "tạo điều kiện cho việc tự học"
-                    },
-                    {
-                      "en": "support self-directed learning",
-                      "vi": "hỗ trợ việc tự học có định hướng"
-                    },
-                    {
-                      "en": "provide flexible learning opportunities",
-                      "vi": "cung cấp cơ hội học tập linh hoạt"
-                    },
-                    {
-                      "en": "learn at one's own pace",
-                      "vi": "học theo tốc độ của bản thân"
+                      "en": "practice vocabulary",
+                      "vi": "luyện tập từ vựng"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "equip libraries with",
-                    "vi": "trang bị cho thư viện"
+                    "en": "learning materials",
+                    "vi": "tài liệu học tập"
                   },
                   {
-                    "en": "foreign language books",
-                    "vi": "sách ngoại ngữ"
+                    "en": "technology tools",
+                    "vi": "công cụ công nghệ"
                   },
                   {
-                    "en": "reference books",
-                    "vi": "sách tham khảo"
+                    "en": "different student levels",
+                    "vi": "nhiều trình độ học sinh khác nhau"
                   },
                   {
-                    "en": "supplementary materials",
-                    "vi": "tài liệu bổ trợ"
+                    "en": "stable Internet",
+                    "vi": "Internet ổn định"
                   },
                   {
-                    "en": "authentic materials",
-                    "vi": "tài liệu thực tế"
+                    "en": "language-learning apps",
+                    "vi": "ứng dụng học ngoại ngữ"
                   },
                   {
-                    "en": "foreign language publications",
-                    "vi": "các ấn phẩm ngoại ngữ"
-                  },
-                  {
-                    "en": "different proficiency levels",
-                    "vi": "các trình độ năng lực khác nhau"
-                  },
-                  {
-                    "en": "a wide range of learning materials",
-                    "vi": "nhiều loại tài liệu học tập đa dạng"
-                  },
-                  {
-                    "en": "provide computers and audiovisual equipment",
-                    "vi": "cung cấp máy tính và thiết bị nghe nhìn"
-                  },
-                  {
-                    "en": "audiovisual equipment",
-                    "vi": "thiết bị nghe nhìn"
-                  },
-                  {
-                    "en": "stable Internet connection",
-                    "vi": "kết nối Internet ổn định"
-                  },
-                  {
-                    "en": "technological support",
-                    "vi": "sự hỗ trợ về công nghệ"
-                  },
-                  {
-                    "en": "digital learning environment",
-                    "vi": "môi trường học tập kỹ thuật số"
-                  },
-                  {
-                    "en": "support language learning activities",
-                    "vi": "hỗ trợ các hoạt động học ngôn ngữ"
-                  },
-                  {
-                    "en": "encourage the use of",
-                    "vi": "khuyến khích việc sử dụng"
-                  },
-                  {
-                    "en": "language-learning applications",
-                    "vi": "ứng dụng học ngôn ngữ"
-                  },
-                  {
-                    "en": "online learning platforms",
-                    "vi": "nền tảng học tập trực tuyến"
-                  },
-                  {
-                    "en": "expand one's vocabulary",
-                    "vi": "mở rộng vốn từ vựng"
-                  },
-                  {
-                    "en": "practise language skills",
-                    "vi": "luyện tập các kỹ năng ngôn ngữ"
-                  },
-                  {
-                    "en": "interactive learning tools",
-                    "vi": "công cụ học tập tương tác"
-                  },
-                  {
-                    "en": "improve independent learning",
-                    "vi": "cải thiện khả năng tự học"
-                  },
-                  {
-                    "en": "develop online resource libraries",
-                    "vi": "xây dựng thư viện tài nguyên trực tuyến"
-                  },
-                  {
-                    "en": "digital libraries",
-                    "vi": "thư viện kỹ thuật số"
-                  },
-                  {
-                    "en": "access learning materials",
-                    "vi": "truy cập tài liệu học tập"
-                  },
-                  {
-                    "en": "study anytime and anywhere",
-                    "vi": "học mọi lúc, mọi nơi"
-                  },
-                  {
-                    "en": "facilitate independent learning",
-                    "vi": "tạo điều kiện cho việc tự học"
-                  },
-                  {
-                    "en": "support self-directed learning",
-                    "vi": "hỗ trợ việc tự học có định hướng"
-                  },
-                  {
-                    "en": "provide flexible learning opportunities",
-                    "vi": "cung cấp cơ hội học tập linh hoạt"
-                  },
-                  {
-                    "en": "learn at one's own pace",
-                    "vi": "học theo tốc độ của bản thân"
+                    "en": "practice vocabulary",
+                    "vi": "luyện tập từ vựng"
                   }
                 ]
               },
@@ -145553,258 +144925,72 @@ const ESSAY_DATA = [
                     "vi": "giao tiếp thực tế"
                   }
                 ],
-                "evidence_vi": "Thành lập các câu lạc bộ ngoại ngữ để học sinh có thể giao tiếp và trao đổi với nhau thường xuyên. Tổ chức các cuộc thi hùng biện, ngày hội ngôn ngữ và hoạt động ngoại khóa để khuyến khích người học sử dụng ngoại ngữ một cách tự nhiên. Tạo điều kiện cho học sinh tham gia các chương trình giao lưu với người bản ngữ hoặc sinh viên quốc tế để cải thiện kỹ năng giao tiếp. Khuyến khích các doanh nghiệp tạo cơ hội thực tập và làm việc trong môi trường quốc tế để người học áp dụng ngoại ngữ vào công việc thực tế.",
-                "evidence_en": "Schools can establish language clubs and host language practice sessions so that students communicate regularly, interact with other learners, practise speaking skills, create a supportive environment, and build communication confidence. Schools should organize public speaking competitions, hold language festivals, and arrange extracurricular activities to encourage natural language use, help students participate in language events, develop presentation skills, and increase learners’ motivation. Schools should arrange exchange programs and cultural exchange activities so students can interact with native speakers and communicate with international students to improve communication skills, improve speaking fluency, overcome language barriers, and gain cross-cultural experience. Governments should encourage businesses to provide internship opportunities in international working environments so that young people gain practical experience, apply language skills in practice, communicate with foreign colleagues, develop workplace communication skills, and improve future career prospects.",
+                "evidence_vi": "Các trường học có thể thành lập câu lạc bộ ngoại ngữ và tổ chức ngày hội ngôn ngữ để học sinh thực hành giao tiếp thường xuyên. Bên cạnh đó, việc tạo điều kiện cho học sinh giao lưu với người bản ngữ hoặc sinh viên quốc tế giúp các em cải thiện khả năng nói tự nhiên hơn. Những trải nghiệm thực tế này sẽ giúp người học vượt qua sự rụt rè và tăng động lực học tập.",
+                "evidence_en": "Schools can start language clubs and hold language festivals so students can practice speaking regularly. In addition, giving learners chances to talk with native speakers or international students helps them speak more naturally. These practical experiences help students overcome shyness and feel more motivated to learn.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "establish language clubs",
-                      "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                      "en": "language clubs",
+                      "vi": "câu lạc bộ ngoại ngữ"
                     },
                     {
-                      "en": "language practice sessions",
-                      "vi": "các buổi thực hành ngôn ngữ"
-                    },
-                    {
-                      "en": "communicate regularly",
-                      "vi": "giao tiếp thường xuyên"
-                    },
-                    {
-                      "en": "interact with other learners",
-                      "vi": "tương tác với những người học khác"
-                    },
-                    {
-                      "en": "practise speaking skills",
-                      "vi": "luyện tập kỹ năng nói"
-                    },
-                    {
-                      "en": "create a supportive environment",
-                      "vi": "tạo môi trường hỗ trợ"
-                    },
-                    {
-                      "en": "build communication confidence",
-                      "vi": "xây dựng sự tự tin trong giao tiếp"
+                      "en": "practice speaking regularly",
+                      "vi": "luyện nói thường xuyên"
                     }
                   ],
                   [
                     {
-                      "en": "organize public speaking competitions",
-                      "vi": "tổ chức các cuộc thi hùng biện"
+                      "en": "native speakers",
+                      "vi": "người bản ngữ"
                     },
                     {
-                      "en": "hold language festivals",
-                      "vi": "tổ chức ngày hội ngôn ngữ"
-                    },
-                    {
-                      "en": "extracurricular activities",
-                      "vi": "các hoạt động ngoại khóa"
-                    },
-                    {
-                      "en": "encourage natural language use",
-                      "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
-                    },
-                    {
-                      "en": "participate in language events",
-                      "vi": "tham gia các sự kiện ngôn ngữ"
-                    },
-                    {
-                      "en": "develop presentation skills",
-                      "vi": "phát triển kỹ năng thuyết trình"
-                    },
-                    {
-                      "en": "increase learners' motivation",
-                      "vi": "tăng động lực học tập"
+                      "en": "speak more naturally",
+                      "vi": "nói tự nhiên hơn"
                     }
                   ],
                   [
                     {
-                      "en": "arrange exchange programs",
-                      "vi": "tổ chức các chương trình giao lưu"
+                      "en": "overcome shyness",
+                      "vi": "vượt qua sự rụt rè"
                     },
                     {
-                      "en": "interact with native speakers",
-                      "vi": "tương tác với người bản ngữ"
-                    },
-                    {
-                      "en": "communicate with international students",
-                      "vi": "giao tiếp với sinh viên quốc tế"
-                    },
-                    {
-                      "en": "cultural exchange activities",
-                      "vi": "các hoạt động giao lưu văn hóa"
-                    },
-                    {
-                      "en": "improve communication skills",
-                      "vi": "cải thiện kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "improve speaking fluency",
-                      "vi": "cải thiện độ trôi chảy khi nói"
-                    },
-                    {
-                      "en": "overcome language barriers",
-                      "vi": "vượt qua rào cản ngôn ngữ"
-                    },
-                    {
-                      "en": "gain cross-cultural experience",
-                      "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "encourage businesses to",
-                      "vi": "khuyến khích các doanh nghiệp"
-                    },
-                    {
-                      "en": "provide internship opportunities",
-                      "vi": "cung cấp cơ hội thực tập"
-                    },
-                    {
-                      "en": "international working environments",
-                      "vi": "môi trường làm việc quốc tế"
-                    },
-                    {
-                      "en": "gain practical experience",
-                      "vi": "tích lũy kinh nghiệm thực tế"
-                    },
-                    {
-                      "en": "apply language skills in practice",
-                      "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
-                    },
-                    {
-                      "en": "communicate with foreign colleagues",
-                      "vi": "giao tiếp với đồng nghiệp nước ngoài"
-                    },
-                    {
-                      "en": "develop workplace communication skills",
-                      "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
-                    },
-                    {
-                      "en": "improve future career prospects",
-                      "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                      "en": "feel more motivated",
+                      "vi": "cảm thấy có động lực hơn"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "establish language clubs",
-                    "vi": "thành lập các câu lạc bộ ngoại ngữ"
+                    "en": "create more chances",
+                    "vi": "tạo thêm cơ hội"
                   },
                   {
-                    "en": "language practice sessions",
-                    "vi": "các buổi thực hành ngôn ngữ"
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
                   },
                   {
-                    "en": "communicate regularly",
-                    "vi": "giao tiếp thường xuyên"
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
                   },
                   {
-                    "en": "interact with other learners",
-                    "vi": "tương tác với những người học khác"
+                    "en": "practice speaking regularly",
+                    "vi": "luyện nói thường xuyên"
                   },
                   {
-                    "en": "practise speaking skills",
-                    "vi": "luyện tập kỹ năng nói"
+                    "en": "native speakers",
+                    "vi": "người bản ngữ"
                   },
                   {
-                    "en": "create a supportive environment",
-                    "vi": "tạo môi trường hỗ trợ"
+                    "en": "speak more naturally",
+                    "vi": "nói tự nhiên hơn"
                   },
                   {
-                    "en": "build communication confidence",
-                    "vi": "xây dựng sự tự tin trong giao tiếp"
+                    "en": "overcome shyness",
+                    "vi": "vượt qua sự rụt rè"
                   },
                   {
-                    "en": "organize public speaking competitions",
-                    "vi": "tổ chức các cuộc thi hùng biện"
-                  },
-                  {
-                    "en": "hold language festivals",
-                    "vi": "tổ chức ngày hội ngôn ngữ"
-                  },
-                  {
-                    "en": "extracurricular activities",
-                    "vi": "các hoạt động ngoại khóa"
-                  },
-                  {
-                    "en": "encourage natural language use",
-                    "vi": "khuyến khích sử dụng ngôn ngữ tự nhiên"
-                  },
-                  {
-                    "en": "participate in language events",
-                    "vi": "tham gia các sự kiện ngôn ngữ"
-                  },
-                  {
-                    "en": "develop presentation skills",
-                    "vi": "phát triển kỹ năng thuyết trình"
-                  },
-                  {
-                    "en": "increase learners' motivation",
-                    "vi": "tăng động lực học tập"
-                  },
-                  {
-                    "en": "arrange exchange programs",
-                    "vi": "tổ chức các chương trình giao lưu"
-                  },
-                  {
-                    "en": "interact with native speakers",
-                    "vi": "tương tác với người bản ngữ"
-                  },
-                  {
-                    "en": "communicate with international students",
-                    "vi": "giao tiếp với sinh viên quốc tế"
-                  },
-                  {
-                    "en": "cultural exchange activities",
-                    "vi": "các hoạt động giao lưu văn hóa"
-                  },
-                  {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp"
-                  },
-                  {
-                    "en": "improve speaking fluency",
-                    "vi": "cải thiện độ trôi chảy khi nói"
-                  },
-                  {
-                    "en": "overcome language barriers",
-                    "vi": "vượt qua rào cản ngôn ngữ"
-                  },
-                  {
-                    "en": "gain cross-cultural experience",
-                    "vi": "tích lũy kinh nghiệm giao tiếp liên văn hóa"
-                  },
-                  {
-                    "en": "encourage businesses to",
-                    "vi": "khuyến khích các doanh nghiệp"
-                  },
-                  {
-                    "en": "provide internship opportunities",
-                    "vi": "cung cấp cơ hội thực tập"
-                  },
-                  {
-                    "en": "international working environments",
-                    "vi": "môi trường làm việc quốc tế"
-                  },
-                  {
-                    "en": "gain practical experience",
-                    "vi": "tích lũy kinh nghiệm thực tế"
-                  },
-                  {
-                    "en": "apply language skills in practice",
-                    "vi": "áp dụng kỹ năng ngôn ngữ vào thực tế"
-                  },
-                  {
-                    "en": "communicate with foreign colleagues",
-                    "vi": "giao tiếp với đồng nghiệp nước ngoài"
-                  },
-                  {
-                    "en": "develop workplace communication skills",
-                    "vi": "phát triển kỹ năng giao tiếp tại nơi làm việc"
-                  },
-                  {
-                    "en": "improve future career prospects",
-                    "vi": "cải thiện triển vọng nghề nghiệp trong tương lai"
+                    "en": "feel more motivated",
+                    "vi": "cảm thấy có động lực hơn"
                   }
                 ]
               }
@@ -153489,30 +152675,26 @@ const ESSAY_DATA = [
                     "vi": "mức lương"
                   },
                   {
-                    "en": "living expenses",
-                    "vi": "chi phí sinh hoạt"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
                   },
                   {
-                    "en": "appreciate",
-                    "vi": "ghi nhận"
+                    "en": "daily living expenses",
+                    "vi": "chi phí sinh hoạt hằng ngày"
                   },
                   {
-                    "en": "motivation",
-                    "vi": "động lực"
+                    "en": "appreciated by the company",
+                    "vi": "được công ty trân trọng"
                   },
                   {
-                    "en": "pay for",
-                    "vi": "chi trả cho"
-                  },
-                  {
-                    "en": "become satisfied with",
-                    "vi": "hài lòng với"
+                    "en": "gain motivation",
+                    "vi": "có thêm động lực"
                   }
                 ],
                 "point_vi": "Mức lương tốt giúp nhân viên hài lòng hơn với công việc.",
                 "point_en": "A good salary improves job satisfaction.",
-                "evidence_vi": "Nhân viên có thể đáp ứng các chi phí sinh hoạt hằng ngày. Họ cảm thấy công sức của mình được ghi nhận. Điều này giúp họ có thêm động lực làm việc. Nhờ đó, họ hài lòng hơn với công việc.",
-                "evidence_en": "Employees can pay for their daily living expenses. They feel that their work is appreciated. This gives them more motivation to work. As a result, they become more satisfied with their jobs.",
+                "evidence_vi": "Với mức thu nhập tốt, nhân viên có thể dễ dàng chi trả các chi phí sinh hoạt hằng ngày cho gia đình. Điều này cũng giúp họ cảm thấy công sức và thời gian làm việc của mình được công ty trân trọng. Nhờ đó, họ có thêm động lực làm việc và hài lòng hơn với công việc hiện tại.",
+                "evidence_en": "With a good income, employees can easily pay for daily living expenses for their families. It also makes them feel that their hard work and time are appreciated by the company. As a result, they gain more motivation and feel happier with their current jobs.",
                 "point_collocations": [
                   {
                     "en": "job satisfaction",
@@ -153530,58 +152712,20 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "living expenses",
-                      "vi": "chi phí sinh hoạt"
-                    },
-                    {
-                      "en": "pay for",
-                      "vi": "chi trả cho"
-                    },
-                    {
-                      "en": "job satisfaction",
-                      "vi": "sự hài lòng trong công việc"
+                      "en": "daily living expenses",
+                      "vi": "chi phí sinh hoạt hằng ngày"
                     }
                   ],
                   [
                     {
-                      "en": "appreciate",
-                      "vi": "ghi nhận"
-                    },
-                    {
-                      "en": "job satisfaction",
-                      "vi": "sự hài lòng trong công việc"
-                    },
-                    {
-                      "en": "salary",
-                      "vi": "mức lương"
+                      "en": "appreciated by the company",
+                      "vi": "được công ty trân trọng"
                     }
                   ],
                   [
                     {
-                      "en": "motivation",
-                      "vi": "động lực"
-                    },
-                    {
-                      "en": "job satisfaction",
-                      "vi": "sự hài lòng trong công việc"
-                    },
-                    {
-                      "en": "salary",
-                      "vi": "mức lương"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "become satisfied with",
-                      "vi": "hài lòng với"
-                    },
-                    {
-                      "en": "enjoy their jobs",
-                      "vi": "yêu thích công việc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
+                      "en": "gain motivation",
+                      "vi": "có thêm động lực"
                     }
                   ]
                 ]
@@ -153594,30 +152738,34 @@ const ESSAY_DATA = [
                     "vi": "môi trường làm việc"
                   },
                   {
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
+                  },
+                  {
                     "en": "friendly colleagues",
                     "vi": "đồng nghiệp thân thiện"
                   },
                   {
-                    "en": "work together",
-                    "vi": "làm việc cùng nhau"
+                    "en": "helpful colleagues",
+                    "vi": "đồng nghiệp sẵn sàng giúp đỡ"
                   },
                   {
-                    "en": "reduce stress",
-                    "vi": "giảm căng thẳng"
-                  },
-                  {
-                    "en": "enjoy their jobs",
-                    "vi": "yêu thích công việc"
-                  },
-                  {
-                    "en": "work well together",
+                    "en": "cooperate well",
                     "vi": "hợp tác tốt"
+                  },
+                  {
+                    "en": "workplace",
+                    "vi": "nơi làm việc"
+                  },
+                  {
+                    "en": "enjoy going to work",
+                    "vi": "thích đi làm"
                   }
                 ],
                 "point_vi": "Môi trường làm việc tích cực giúp nhân viên cảm thấy thoải mái hơn.",
                 "point_en": "A positive working environment makes employees feel happier.",
-                "evidence_vi": "Đồng nghiệp thân thiện giúp công việc trở nên dễ dàng hơn. Nhân viên có thể hợp tác hiệu quả với nhau. Điều này làm giảm căng thẳng trong công việc. Nhờ đó, họ cảm thấy hài lòng hơn với công việc.",
-                "evidence_en": "Friendly colleagues make work easier. Employees can work well together. This reduces stress at work. As a result, they enjoy their jobs more.",
+                "evidence_vi": "Những người đồng nghiệp thân thiện và sẵn sàng giúp đỡ làm cho công việc hằng ngày trở nên dễ dàng hơn. Khi mọi người hợp tác tốt với nhau, áp lực và căng thẳng tại nơi làm việc sẽ giảm đi đáng kể. Vì vậy, nhân viên sẽ cảm thấy thoải mái và yêu thích việc đi làm mỗi ngày hơn.",
+                "evidence_en": "Friendly and helpful colleagues make daily work much easier for everyone. When people cooperate well together, stress and pressure at the workplace drop noticeably. Therefore, employees feel more comfortable and enjoy going to work every day.",
                 "point_collocations": [
                   {
                     "en": "working environment",
@@ -153635,58 +152783,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "friendly colleagues",
-                      "vi": "đồng nghiệp thân thiện"
-                    },
-                    {
-                      "en": "working environment",
-                      "vi": "môi trường làm việc"
-                    },
-                    {
-                      "en": "work together",
-                      "vi": "làm việc cùng nhau"
+                      "en": "helpful colleagues",
+                      "vi": "đồng nghiệp sẵn sàng giúp đỡ"
                     }
                   ],
                   [
                     {
-                      "en": "work together",
-                      "vi": "làm việc cùng nhau"
-                    },
-                    {
-                      "en": "work well together",
+                      "en": "cooperate well",
                       "vi": "hợp tác tốt"
                     },
                     {
-                      "en": "working environment",
-                      "vi": "môi trường làm việc"
+                      "en": "workplace",
+                      "vi": "nơi làm việc"
                     }
                   ],
                   [
                     {
-                      "en": "reduce stress",
-                      "vi": "giảm căng thẳng"
-                    },
-                    {
-                      "en": "working environment",
-                      "vi": "môi trường làm việc"
-                    },
-                    {
-                      "en": "friendly colleagues",
-                      "vi": "đồng nghiệp thân thiện"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "enjoy their jobs",
-                      "vi": "yêu thích công việc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "working environment",
-                      "vi": "môi trường làm việc"
+                      "en": "enjoy going to work",
+                      "vi": "thích đi làm"
                     }
                   ]
                 ]
@@ -153699,34 +152813,42 @@ const ESSAY_DATA = [
                     "vi": "phát triển nghề nghiệp"
                   },
                   {
-                    "en": "new skills",
-                    "vi": "kỹ năng mới"
+                    "en": "opportunities for",
+                    "vi": "cơ hội"
                   },
                   {
-                    "en": "promotion",
-                    "vi": "sự thăng chức"
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  },
+                  {
+                    "en": "career development opportunities",
+                    "vi": "cơ hội phát triển nghề nghiệp"
+                  },
+                  {
+                    "en": "training courses",
+                    "vi": "khóa đào tạo"
+                  },
+                  {
+                    "en": "real projects",
+                    "vi": "dự án thực tế"
+                  },
+                  {
+                    "en": "chances for promotion",
+                    "vi": "cơ hội thăng chức"
                   },
                   {
                     "en": "career goals",
                     "vi": "mục tiêu nghề nghiệp"
                   },
                   {
-                    "en": "opportunities for",
-                    "vi": "cơ hội"
-                  },
-                  {
-                    "en": "achieve",
-                    "vi": "đạt được"
-                  },
-                  {
-                    "en": "be willing to",
-                    "vi": "sẵn sàng"
+                    "en": "willing to stay",
+                    "vi": "sẵn sàng gắn bó"
                   }
                 ],
                 "point_vi": "Cơ hội phát triển nghề nghiệp giúp nhân viên hài lòng hơn với công việc.",
                 "point_en": "Opportunities for career development increase job satisfaction.",
-                "evidence_vi": "Nhân viên có thể học thêm những kỹ năng mới. Họ có nhiều cơ hội được thăng chức hơn. Điều này giúp họ đạt được các mục tiêu nghề nghiệp. Nhờ đó, họ muốn gắn bó lâu dài với công ty.",
-                "evidence_en": "Employees can learn new skills. They have more opportunities for promotion. This helps them achieve their career goals. As a result, they are more willing to stay with the company.",
+                "evidence_vi": "Nhân viên có thể học thêm nhiều kỹ năng mới thông qua các khóa đào tạo và dự án thực tế tại công ty. Khi có lộ trình thăng chức rõ ràng, họ sẽ nhìn thấy tương lai tốt đẹp và mục tiêu nghề nghiệp của mình. Nhờ vậy, họ sẽ sẵn sàng cống hiến và gắn bó lâu dài với doanh nghiệp.",
+                "evidence_en": "Employees can learn many new skills through training courses and real projects at the company. When there are clear chances for promotion, they can see a bright future and achieve their career goals. As a result, they are much more willing to stay with the company for a long time.",
                 "point_collocations": [
                   {
                     "en": "career development",
@@ -153748,58 +152870,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "new skills",
-                      "vi": "kỹ năng mới"
+                      "en": "training courses",
+                      "vi": "khóa đào tạo"
                     },
                     {
-                      "en": "career development",
-                      "vi": "phát triển nghề nghiệp"
-                    },
-                    {
-                      "en": "promotion",
-                      "vi": "sự thăng chức"
+                      "en": "real projects",
+                      "vi": "dự án thực tế"
                     }
                   ],
                   [
                     {
-                      "en": "promotion",
-                      "vi": "sự thăng chức"
+                      "en": "chances for promotion",
+                      "vi": "cơ hội thăng chức"
                     },
-                    {
-                      "en": "opportunities for",
-                      "vi": "cơ hội"
-                    },
-                    {
-                      "en": "career development",
-                      "vi": "phát triển nghề nghiệp"
-                    }
-                  ],
-                  [
                     {
                       "en": "career goals",
                       "vi": "mục tiêu nghề nghiệp"
-                    },
-                    {
-                      "en": "achieve",
-                      "vi": "đạt được"
-                    },
-                    {
-                      "en": "career development",
-                      "vi": "phát triển nghề nghiệp"
                     }
                   ],
                   [
                     {
-                      "en": "be willing to",
-                      "vi": "sẵn sàng"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "career development",
-                      "vi": "phát triển nghề nghiệp"
+                      "en": "willing to stay",
+                      "vi": "sẵn sàng gắn bó"
                     }
                   ]
                 ]
@@ -153818,8 +152910,8 @@ const ESSAY_DATA = [
                     "vi": "hài lòng hơn với công việc"
                   }
                 ],
-                "evidence_vi": "Khi giờ làm việc hợp lý và linh hoạt, người lao động có đủ thời gian nghỉ ngơi và chăm sóc gia đình mà không bị kiệt sức.",
-                "evidence_en": "When working hours are reasonable and flexible, workers have enough time to rest and care for their families without feeling exhausted.",
+                "evidence_vi": "Khi giờ làm việc hợp lý và linh hoạt, nhân viên không bị kiệt sức vì phải làm thêm giờ quá nhiều. Họ có đủ thời gian để nghỉ ngơi, tập thể dục và chăm sóc gia đình sau giờ làm. Nhờ có cuộc sống cân bằng, người lao động luôn cảm thấy vui vẻ và hài lòng hơn với công việc.",
+                "evidence_en": "When working hours are reasonable and flexible, employees do not get exhausted from too much overtime. They have enough time to rest, exercise, and take care of their families after work. Because of this healthy balance, workers stay positive and feel much more satisfied with their jobs.",
                 "evidence_collocations": [
                   [
                     {
@@ -153827,8 +152919,20 @@ const ESSAY_DATA = [
                       "vi": "hợp lý và linh hoạt"
                     },
                     {
-                      "en": "care for their families",
+                      "en": "too much overtime",
+                      "vi": "làm thêm giờ quá nhiều"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take care of families",
                       "vi": "chăm sóc gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "healthy balance",
+                      "vi": "sự cân bằng lành mạnh"
                     }
                   ]
                 ],
@@ -153846,8 +152950,16 @@ const ESSAY_DATA = [
                     "vi": "hợp lý và linh hoạt"
                   },
                   {
-                    "en": "care for their families",
+                    "en": "too much overtime",
+                    "vi": "làm thêm giờ quá nhiều"
+                  },
+                  {
+                    "en": "take care of families",
                     "vi": "chăm sóc gia đình"
+                  },
+                  {
+                    "en": "healthy balance",
+                    "vi": "sự cân bằng lành mạnh"
                   }
                 ]
               },
@@ -153865,17 +152977,29 @@ const ESSAY_DATA = [
                     "vi": "những nhiệm vụ có ý nghĩa"
                   }
                 ],
-                "evidence_vi": "Khi nỗ lực của nhân viên được khen ngợi và họ thấy công việc mình làm mang lại giá trị, họ sẽ cảm thấy tự hào và yêu nghề hơn.",
-                "evidence_en": "When employees' efforts are praised and they see real value in what they do, they feel proud and more passionate about their work.",
+                "evidence_vi": "Khi quản lý thường xuyên khen ngợi những nỗ lực tốt, nhân viên sẽ cảm thấy bản thân có giá trị trong tập thể. Hơn nữa, việc thực hiện những nhiệm vụ thú vị và có ích cho xã hội mang lại cho họ niềm tự hào lớn. Nhờ vậy, họ luôn có tinh thần làm việc tích cực và gắn bó hơn với nghề nghiệp.",
+                "evidence_en": "When managers regularly praise good efforts, employees feel valued as part of the team. Moreover, doing interesting tasks that help society gives them a strong sense of pride. As a result, they stay enthusiastic and feel more connected to their careers.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "efforts are praised",
-                      "vi": "nỗ lực được khen ngợi"
+                      "en": "praise good efforts",
+                      "vi": "khen ngợi nỗ lực tốt"
                     },
                     {
-                      "en": "see real value",
-                      "vi": "thấy giá trị thực sự"
+                      "en": "feel valued",
+                      "vi": "cảm thấy có giá trị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sense of pride",
+                      "vi": "niềm tự hào"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay enthusiastic",
+                      "vi": "duy trì sự nhiệt huyết"
                     }
                   ]
                 ],
@@ -153889,12 +153013,20 @@ const ESSAY_DATA = [
                     "vi": "những nhiệm vụ có ý nghĩa"
                   },
                   {
-                    "en": "efforts are praised",
-                    "vi": "nỗ lực được khen ngợi"
+                    "en": "praise good efforts",
+                    "vi": "khen ngợi nỗ lực tốt"
                   },
                   {
-                    "en": "see real value",
-                    "vi": "thấy giá trị thực sự"
+                    "en": "feel valued",
+                    "vi": "cảm thấy có giá trị"
+                  },
+                  {
+                    "en": "sense of pride",
+                    "vi": "niềm tự hào"
+                  },
+                  {
+                    "en": "stay enthusiastic",
+                    "vi": "duy trì sự nhiệt huyết"
                   }
                 ]
               }
@@ -153911,26 +153043,50 @@ const ESSAY_DATA = [
                     "vi": "mức lương cạnh tranh"
                   },
                   {
-                    "en": "financial needs",
-                    "vi": "nhu cầu tài chính"
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
                   },
                   {
-                    "en": "contributions",
-                    "vi": "đóng góp"
+                    "en": "salary",
+                    "vi": "mức lương"
                   },
                   {
-                    "en": "fairly rewarded",
-                    "vi": "được đền đáp xứng đáng"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
                   },
                   {
-                    "en": "remain with",
-                    "vi": "gắn bó với"
+                    "en": "financial obligations",
+                    "vi": "nghĩa vụ tài chính"
+                  },
+                  {
+                    "en": "provide stability",
+                    "vi": "mang lại sự ổn định"
+                  },
+                  {
+                    "en": "fair compensation",
+                    "vi": "đãi ngộ công bằng"
+                  },
+                  {
+                    "en": "genuinely valued",
+                    "vi": "được trân trọng thực sự"
+                  },
+                  {
+                    "en": "performance bonuses",
+                    "vi": "thưởng hiệu suất"
+                  },
+                  {
+                    "en": "high morale",
+                    "vi": "tinh thần làm việc cao"
+                  },
+                  {
+                    "en": "overall job satisfaction",
+                    "vi": "sự hài lòng chung trong công việc"
                   }
                 ],
                 "point_vi": "Mức lương cạnh tranh là một trong những yếu tố quan trọng ảnh hưởng đến sự hài lòng trong công việc.",
                 "point_en": "A competitive salary is one of the most important factors influencing job satisfaction.",
-                "evidence_vi": "Nhân viên có thể đáp ứng các nhu cầu tài chính của mình. Họ cảm thấy những đóng góp của mình được ghi nhận xứng đáng. Điều này giúp họ có thêm động lực làm việc. Họ cũng có xu hướng gắn bó lâu dài với công ty. Nhờ đó, họ cảm thấy hài lòng hơn với công việc.",
-                "evidence_en": "Employees can meet their financial needs. They feel that their contributions are fairly rewarded. This gives them greater motivation to work. They are also more likely to remain with the company. As a result, they experience higher job satisfaction.",
+                "evidence_vi": "Mức lương tương xứng cho phép nhân viên đáp ứng đầy đủ các nhu cầu tài chính và đảm bảo cuộc sống ổn định cho gia đình. Quan trọng hơn, thu nhập công bằng thể hiện rằng những đóng góp và chuyên môn của họ được doanh nghiệp ghi nhận xứng đáng. Ví dụ, các công ty có chính sách thưởng hiệu suất minh bạch thường duy trì được tinh thần làm việc rất tích cực trong đội ngũ. Nhờ vậy, người lao động có động lực cống hiến mạnh mẽ và đạt mức độ hài lòng cao hơn nhiều trong công việc.",
+                "evidence_en": "An adequate income enables employees to meet financial obligations comfortably and provide stability for their families. More importantly, fair compensation signals that their expertise and daily contributions are genuinely valued by the organization. For example, companies offering transparent performance bonuses tend to maintain high morale across their teams. Consequently, workers feel strongly motivated and experience significantly greater overall job satisfaction.",
                 "point_collocations": [
                   {
                     "en": "competitive salary",
@@ -153952,72 +153108,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "financial needs",
-                      "vi": "nhu cầu tài chính"
+                      "en": "financial obligations",
+                      "vi": "nghĩa vụ tài chính"
                     },
                     {
-                      "en": "competitive salary",
-                      "vi": "mức lương cạnh tranh"
-                    },
-                    {
-                      "en": "contributions",
-                      "vi": "đóng góp"
+                      "en": "provide stability",
+                      "vi": "mang lại sự ổn định"
                     }
                   ],
                   [
                     {
-                      "en": "contributions",
-                      "vi": "đóng góp"
+                      "en": "fair compensation",
+                      "vi": "đãi ngộ công bằng"
                     },
                     {
-                      "en": "fairly rewarded",
-                      "vi": "được đền đáp xứng đáng"
-                    },
-                    {
-                      "en": "competitive salary",
-                      "vi": "mức lương cạnh tranh"
+                      "en": "genuinely valued",
+                      "vi": "được trân trọng thực sự"
                     }
                   ],
                   [
                     {
-                      "en": "motivation",
-                      "vi": "động lực"
+                      "en": "performance bonuses",
+                      "vi": "thưởng hiệu suất"
                     },
                     {
-                      "en": "competitive salary",
-                      "vi": "mức lương cạnh tranh"
-                    },
-                    {
-                      "en": "financial needs",
-                      "vi": "nhu cầu tài chính"
+                      "en": "high morale",
+                      "vi": "tinh thần làm việc cao"
                     }
                   ],
                   [
                     {
-                      "en": "remain with",
-                      "vi": "gắn bó với"
-                    },
-                    {
-                      "en": "competitive salary",
-                      "vi": "mức lương cạnh tranh"
-                    },
-                    {
-                      "en": "financial needs",
-                      "vi": "nhu cầu tài chính"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "job satisfaction",
-                      "vi": "sự hài lòng trong công việc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "competitive salary",
-                      "vi": "mức lương cạnh tranh"
+                      "en": "overall job satisfaction",
+                      "vi": "sự hài lòng chung trong công việc"
                     }
                   ]
                 ]
@@ -154026,30 +153148,46 @@ const ESSAY_DATA = [
                 "title": "FACTOR 02",
                 "collocations": [
                   {
-                    "en": "working atmosphere",
-                    "vi": "bầu không khí làm việc"
-                  },
-                  {
-                    "en": "cooperate",
-                    "vi": "hợp tác"
-                  },
-                  {
-                    "en": "support each other",
-                    "vi": "hỗ trợ lẫn nhau"
-                  },
-                  {
-                    "en": "pressure",
-                    "vi": "áp lực"
-                  },
-                  {
                     "en": "employee satisfaction",
                     "vi": "sự hài lòng của nhân viên"
+                  },
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  },
+                  {
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
+                  },
+                  {
+                    "en": "approachable managers",
+                    "vi": "quản lý dễ gần / cởi mở"
+                  },
+                  {
+                    "en": "workplace atmosphere",
+                    "vi": "bầu không khí nơi làm việc"
+                  },
+                  {
+                    "en": "collaborate smoothly",
+                    "vi": "hợp tác trôi chảy"
+                  },
+                  {
+                    "en": "demanding tasks",
+                    "vi": "nhiệm vụ đòi hỏi cao"
+                  },
+                  {
+                    "en": "workplace tension",
+                    "vi": "căng thẳng công sở"
+                  },
+                  {
+                    "en": "long-term job satisfaction",
+                    "vi": "sự hài lòng công việc lâu dài"
                   }
                 ],
                 "point_vi": "Môi trường làm việc tích cực giúp nhân viên cảm thấy hài lòng hơn.",
                 "point_en": "A positive working environment supports employee satisfaction.",
-                "evidence_vi": "Đồng nghiệp và quản lý thân thiện tạo ra bầu không khí làm việc thoải mái. Nhân viên có thể hợp tác và hỗ trợ lẫn nhau hiệu quả. Điều này giúp giảm áp lực trong công việc. Nhân viên sẽ cảm thấy vui vẻ hơn khi đi làm. Nhờ đó, họ có nhiều sự hài lòng hơn với công việc.",
-                "evidence_en": "Friendly colleagues and managers create a comfortable working atmosphere. Employees can cooperate and support each other effectively. This reduces pressure at work. Employees feel happier at work. As a result, they enjoy greater job satisfaction.",
+                "evidence_vi": "Những đồng nghiệp thân thiện và cấp quản lý biết lắng nghe tạo nên bầu không khí làm việc cởi mở và tôn trọng lẫn nhau. Trong môi trường đó, nhân viên dễ dàng hợp tác, chia sẻ ý tưởng và hỗ trợ nhau vượt qua các nhiệm vụ khó khăn. Chẳng hạn, một văn hóa làm việc nhóm tích cực giúp giảm đáng kể áp lực tinh thần và hạn chế mâu thuẫn không đáng có nơi công sở. Khi cảm thấy an toàn và được ủng hộ mỗi ngày, người lao động tự nhiên gắn bó và hài lòng hơn với công việc.",
+                "evidence_en": "Supportive colleagues and approachable managers foster an open, respectful workplace atmosphere. Within such an environment, staff can collaborate smoothly, exchange ideas, and assist one another through demanding tasks. For instance, a strong culture of teamwork dramatically reduces workplace tension and prevents unnecessary office conflicts. Feeling safe and supported each day naturally enhances employees' enjoyment and long-term job satisfaction.",
                 "point_collocations": [
                   {
                     "en": "employee satisfaction",
@@ -154067,72 +153205,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "working atmosphere",
-                      "vi": "bầu không khí làm việc"
+                      "en": "approachable managers",
+                      "vi": "quản lý dễ gần / cởi mở"
                     },
                     {
-                      "en": "friendly colleagues",
-                      "vi": "đồng nghiệp thân thiện"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
+                      "en": "workplace atmosphere",
+                      "vi": "bầu không khí nơi làm việc"
                     }
                   ],
                   [
                     {
-                      "en": "cooperate",
-                      "vi": "hợp tác"
+                      "en": "collaborate smoothly",
+                      "vi": "hợp tác trôi chảy"
                     },
                     {
-                      "en": "support each other",
-                      "vi": "hỗ trợ lẫn nhau"
-                    },
-                    {
-                      "en": "working atmosphere",
-                      "vi": "bầu không khí làm việc"
+                      "en": "demanding tasks",
+                      "vi": "nhiệm vụ đòi hỏi cao"
                     }
                   ],
                   [
                     {
-                      "en": "pressure",
-                      "vi": "áp lực"
-                    },
-                    {
-                      "en": "working atmosphere",
-                      "vi": "bầu không khí làm việc"
-                    },
-                    {
-                      "en": "cooperate",
-                      "vi": "hợp tác"
+                      "en": "workplace tension",
+                      "vi": "căng thẳng công sở"
                     }
                   ],
                   [
                     {
-                      "en": "working atmosphere",
-                      "vi": "bầu không khí làm việc"
-                    },
-                    {
-                      "en": "cooperate",
-                      "vi": "hợp tác"
-                    },
-                    {
-                      "en": "support each other",
-                      "vi": "hỗ trợ lẫn nhau"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "job satisfaction",
-                      "vi": "sự hài lòng trong công việc"
-                    },
-                    {
-                      "en": "enjoy their jobs",
-                      "vi": "yêu thích công việc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
+                      "en": "long-term job satisfaction",
+                      "vi": "sự hài lòng công việc lâu dài"
                     }
                   ]
                 ]
@@ -154149,34 +153249,46 @@ const ESSAY_DATA = [
                     "vi": "sự gắn bó lâu dài"
                   },
                   {
-                    "en": "gain knowledge",
-                    "vi": "tiếp thu kiến thức"
-                  },
-                  {
-                    "en": "career advancement",
-                    "vi": "sự thăng tiến"
-                  },
-                  {
-                    "en": "career goals",
-                    "vi": "mục tiêu nghề nghiệp"
-                  },
-                  {
-                    "en": "organisation",
-                    "vi": "tổ chức"
-                  },
-                  {
                     "en": "encourage",
                     "vi": "khuyến khích"
                   },
                   {
-                    "en": "achieve",
-                    "vi": "đạt được"
+                    "en": "career development",
+                    "vi": "phát triển nghề nghiệp"
+                  },
+                  {
+                    "en": "in the long term",
+                    "vi": "trong dài hạn / lâu dài"
+                  },
+                  {
+                    "en": "acquire new competencies",
+                    "vi": "tiếp thu năng lực mới"
+                  },
+                  {
+                    "en": "structured training",
+                    "vi": "đào tạo bài bản"
+                  },
+                  {
+                    "en": "merit-based promotion pathways",
+                    "vi": "lộ trình thăng tiến dựa trên năng lực"
+                  },
+                  {
+                    "en": "career prospects",
+                    "vi": "triển vọng nghề nghiệp"
+                  },
+                  {
+                    "en": "leadership roles",
+                    "vi": "vai trò lãnh đạo"
+                  },
+                  {
+                    "en": "job fulfillment",
+                    "vi": "sự thỏa mãn trong công việc"
                   }
                 ],
                 "point_vi": "Cơ hội phát triển nghề nghiệp giúp nhân viên gắn bó hơn với công việc.",
                 "point_en": "Career development opportunities encourage long-term commitment.",
-                "evidence_vi": "Nhân viên có thể học thêm kiến thức và kỹ năng mới. Họ có nhiều cơ hội được thăng tiến trong sự nghiệp. Điều này giúp họ đạt được mục tiêu nghề nghiệp. Họ cảm thấy tự tin hơn về tương lai của mình. Nhờ đó, họ có xu hướng gắn bó lâu dài với tổ chức.",
-                "evidence_en": "Employees can gain new knowledge and skills. They have better opportunities for career advancement. This helps them achieve their career goals. They feel more confident about their future. As a result, they are more likely to stay with the organisation.",
+                "evidence_vi": "Nhân viên luôn mong muốn tiếp thu kiến thức mới và nâng cao năng lực chuyên môn thông qua các chương trình đào tạo bài bản. Khi doanh nghiệp mang đến lộ trình thăng tiến rõ ràng và công bằng, người lao động sẽ thấy tương lai nghề nghiệp của mình rộng mở hơn. Ví dụ, việc tài trợ khóa học nâng cao hoặc giao dự án thử thách giúp nhân viên tự tin tiến tới những vị trí quản lý cao hơn. Chính cảm giác được phát triển không ngừng này củng cố lòng trung thành và sự thỏa mãn lâu dài với tổ chức.",
+                "evidence_en": "Employees naturally desire to acquire new competencies and sharpen their expertise through structured training programs. When organizations provide clear, merit-based promotion pathways, staff gain a stronger sense of confidence about their career prospects. For example, sponsoring professional workshops or assigning challenging projects prepares workers for future leadership roles. This continuous sense of personal growth deepens both job fulfillment and long-term commitment to the company.",
                 "point_collocations": [
                   {
                     "en": "career development opportunities",
@@ -154202,72 +153314,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "gain knowledge",
-                      "vi": "tiếp thu kiến thức"
+                      "en": "acquire new competencies",
+                      "vi": "tiếp thu năng lực mới"
                     },
                     {
-                      "en": "new skills",
-                      "vi": "kỹ năng mới"
-                    },
-                    {
-                      "en": "career development opportunities",
-                      "vi": "cơ hội phát triển nghề nghiệp"
+                      "en": "structured training",
+                      "vi": "đào tạo bài bản"
                     }
                   ],
                   [
                     {
-                      "en": "career development opportunities",
-                      "vi": "cơ hội phát triển nghề nghiệp"
+                      "en": "merit-based promotion pathways",
+                      "vi": "lộ trình thăng tiến dựa trên năng lực"
                     },
                     {
-                      "en": "career advancement",
-                      "vi": "sự thăng tiến"
-                    },
-                    {
-                      "en": "opportunities for",
-                      "vi": "cơ hội"
+                      "en": "career prospects",
+                      "vi": "triển vọng nghề nghiệp"
                     }
                   ],
                   [
                     {
-                      "en": "career goals",
-                      "vi": "mục tiêu nghề nghiệp"
-                    },
-                    {
-                      "en": "achieve",
-                      "vi": "đạt được"
-                    },
-                    {
-                      "en": "career development opportunities",
-                      "vi": "cơ hội phát triển nghề nghiệp"
+                      "en": "leadership roles",
+                      "vi": "vai trò lãnh đạo"
                     }
                   ],
                   [
                     {
-                      "en": "career development opportunities",
-                      "vi": "cơ hội phát triển nghề nghiệp"
+                      "en": "job fulfillment",
+                      "vi": "sự thỏa mãn trong công việc"
                     },
                     {
                       "en": "long-term commitment",
                       "vi": "sự gắn bó lâu dài"
-                    },
-                    {
-                      "en": "gain knowledge",
-                      "vi": "tiếp thu kiến thức"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "organisation",
-                      "vi": "tổ chức"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "career development opportunities",
-                      "vi": "cơ hội phát triển nghề nghiệp"
                     }
                   ]
                 ]
@@ -154286,8 +153364,8 @@ const ESSAY_DATA = [
                     "vi": "cân bằng công việc và cuộc sống"
                   }
                 ],
-                "evidence_vi": "Những doanh nghiệp cung cấp giờ làm linh hoạt, khối lượng công việc hợp lý và chính sách nghỉ phép rõ ràng giúp nhân viên tránh tình trạng kiệt sức kéo dài. Khi có đủ thời gian cho gia đình và sở thích cá nhân, người lao động thường quay trở lại công việc với tinh thần tích cực và hiệu suất cao hơn.",
-                "evidence_en": "Organizations that offer flexible schedules, manageable workloads, and fair leave policies help employees avoid chronic burnout. Having sufficient time for family and personal well-being allows staff to return to work refreshed, engaged, and more productive.",
+                "evidence_vi": "Các doanh nghiệp áp dụng giờ làm linh hoạt, khối lượng công việc hợp lý và chính sách nghỉ phép công bằng giúp nhân viên tránh tình trạng kiệt sức kéo dài. Khi có đủ thời gian dành cho gia đình, chăm sóc sức khỏe và sở thích cá nhân, người lao động duy trì được trạng thái tinh thần tích cực hơn. Chẳng hạn, mô hình làm việc kết hợp cho phép phụ huynh đưa đón con mà vẫn hoàn thành xuất sắc nhiệm vụ chuyên môn. Nhờ sự cân bằng hài hòa này, nhân viên trở lại công việc với năng lượng dồi dào và sự hài lòng bền vững.",
+                "evidence_en": "Organizations offering flexible schedules, manageable workloads, and fair leave policies help staff avoid chronic burnout. Having adequate time for family life, physical wellness, and personal hobbies enables employees to maintain positive mental health. For instance, hybrid working arrangements allow working parents to fulfill family duties while still delivering strong professional results. Because of this healthy balance, workers return to their desks refreshed, productive, and genuinely satisfied.",
                 "evidence_collocations": [
                   [
                     {
@@ -154301,12 +153379,20 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "personal well-being",
-                      "vi": "sức khỏe và hạnh phúc cá nhân"
-                    },
+                      "en": "physical wellness",
+                      "vi": "sức khỏe thể chất"
+                    }
+                  ],
+                  [
                     {
-                      "en": "engaged and productive",
-                      "vi": "gắn kết và năng suất hơn"
+                      "en": "hybrid working arrangements",
+                      "vi": "chế độ làm việc kết hợp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "genuinely satisfied",
+                      "vi": "thực sự hài lòng"
                     }
                   ]
                 ],
@@ -154328,12 +153414,16 @@ const ESSAY_DATA = [
                     "vi": "kiệt sức kéo dài"
                   },
                   {
-                    "en": "personal well-being",
-                    "vi": "sức khỏe và hạnh phúc cá nhân"
+                    "en": "physical wellness",
+                    "vi": "sức khỏe thể chất"
                   },
                   {
-                    "en": "engaged and productive",
-                    "vi": "gắn kết và năng suất hơn"
+                    "en": "hybrid working arrangements",
+                    "vi": "chế độ làm việc kết hợp"
+                  },
+                  {
+                    "en": "genuinely satisfied",
+                    "vi": "thực sự hài lòng"
                   }
                 ]
               },
@@ -154351,8 +153441,8 @@ const ESSAY_DATA = [
                     "vi": "sự thỏa mãn bền vững"
                   }
                 ],
-                "evidence_vi": "Nhân viên sẽ cảm thấy được trân trọng khi những đóng góp của họ thường xuyên nhận được phản hồi tích cực và lời khen kịp thời từ cấp quản lý. Bên cạnh đó, khi cảm nhận công việc của mình tạo ra tác động tích cực cho khách hàng hoặc xã hội, họ sẽ có động lực gắn bó bền chặt hơn với tổ chức.",
-                "evidence_en": "Staff feel genuinely valued when managers acknowledge their achievements with constructive feedback and timely appreciation. Furthermore, knowing that their daily responsibilities create tangible benefits for clients or society deepens their sense of purpose and loyalty.",
+                "evidence_vi": "Nhân viên sẽ cảm thấy được trân trọng khi ban lãnh đạo thường xuyên ghi nhận nỗ lực của họ bằng phản hồi xây dựng và lời khen kịp thời. Bên cạnh đó, việc đảm nhiệm những công việc có ý nghĩa thực tiễn giúp người lao động cảm nhận rõ giá trị đóng góp của bản thân. Chẳng hạn, một nhân viên y tế hay giáo viên thường tìm thấy niềm vui nghề nghiệp sâu sắc khi chứng kiến công việc của mình cải thiện cuộc sống của người khác. Sự kết hợp giữa ý nghĩa công việc và sự công nhận chân thành nuôi dưỡng lòng tự hào và động lực làm việc lâu dài.",
+                "evidence_en": "Staff feel deeply valued when leaders acknowledge their achievements through constructive feedback and timely appreciation. Additionally, performing meaningful tasks enables workers to see the tangible impact of their daily efforts. For example, healthcare workers and educators often derive profound fulfillment from seeing their work improve other people's lives. Combining purposeful responsibilities with genuine recognition cultivates lasting pride and high workplace satisfaction.",
                 "evidence_collocations": [
                   [
                     {
@@ -154366,12 +153456,20 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "tangible benefits",
-                      "vi": "lợi ích rõ ràng / thiết thực"
-                    },
+                      "en": "tangible impact",
+                      "vi": "tác động rõ ràng / thiết thực"
+                    }
+                  ],
+                  [
                     {
-                      "en": "sense of purpose",
-                      "vi": "cảm giác có mục đích / ý nghĩa"
+                      "en": "derive profound fulfillment",
+                      "vi": "có được sự thỏa mãn sâu sắc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "purposeful responsibilities",
+                      "vi": "nhiệm vụ giàu ý nghĩa"
                     }
                   ]
                 ],
@@ -154393,12 +153491,16 @@ const ESSAY_DATA = [
                     "vi": "sự trân trọng kịp thời"
                   },
                   {
-                    "en": "tangible benefits",
-                    "vi": "lợi ích rõ ràng / thiết thực"
+                    "en": "tangible impact",
+                    "vi": "tác động rõ ràng / thiết thực"
                   },
                   {
-                    "en": "sense of purpose",
-                    "vi": "cảm giác có mục đích / ý nghĩa"
+                    "en": "derive profound fulfillment",
+                    "vi": "có được sự thỏa mãn sâu sắc"
+                  },
+                  {
+                    "en": "purposeful responsibilities",
+                    "vi": "nhiệm vụ giàu ý nghĩa"
                   }
                 ]
               }
@@ -162937,26 +162039,34 @@ const ESSAY_DATA = [
                     "vi": "người tiêu dùng"
                   },
                   {
-                    "en": "physical stores",
-                    "vi": "cửa hàng truyền thống"
-                  },
-                  {
-                    "en": "save time and effort",
-                    "vi": "tiết kiệm thời gian và công sức"
-                  },
-                  {
                     "en": "convenient",
                     "vi": "thuận tiện"
                   },
                   {
                     "en": "choose online shopping",
                     "vi": "lựa chọn mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "order goods",
+                    "vi": "đặt mua hàng hóa"
+                  },
+                  {
+                    "en": "physical stores",
+                    "vi": "cửa hàng truyền thống"
+                  },
+                  {
+                    "en": "checkout lines",
+                    "vi": "hàng chờ thanh toán"
+                  },
+                  {
+                    "en": "save time and effort",
+                    "vi": "tiết kiệm thời gian và công sức"
                   }
                 ],
                 "point_vi": "Mua sắm trực tuyến rất thuận tiện cho người tiêu dùng.",
                 "point_en": "Online shopping is very convenient for consumers.",
-                "evidence_vi": "Mọi người có thể mua sắm ở bất cứ đâu và bất cứ lúc nào. Họ không cần đến các cửa hàng. Điều này giúp họ tiết kiệm thời gian và công sức. Vì vậy, ngày càng nhiều người lựa chọn mua sắm trực tuyến.",
-                "evidence_en": "People can shop anytime and anywhere. They do not need to visit physical stores. This helps them save time and effort. Therefore, more people choose online shopping.",
+                "evidence_vi": "Mọi người có thể đặt mua hàng ở bất cứ đâu và bất cứ lúc nào chỉ với điện thoại hoặc máy tính. Họ không cần mất thời gian đi đến các cửa hàng truyền thống hay xếp hàng chờ thanh toán. Điều này giúp tiết kiệm rất nhiều thời gian và công sức, nên ngày càng nhiều người thích mua sắm trực tuyến.",
+                "evidence_en": "People can order goods anywhere and anytime using only a smartphone or computer. They do not need to travel to physical stores or wait in long checkout lines. This saves a lot of time and effort, so more people choose online shopping.",
                 "point_collocations": [
                   {
                     "en": "online shopping",
@@ -162978,16 +162088,8 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "consumers",
-                      "vi": "người tiêu dùng"
-                    },
-                    {
-                      "en": "physical stores",
-                      "vi": "cửa hàng truyền thống"
+                      "en": "order goods",
+                      "vi": "đặt mua hàng hóa"
                     }
                   ],
                   [
@@ -162996,40 +162098,14 @@ const ESSAY_DATA = [
                       "vi": "cửa hàng truyền thống"
                     },
                     {
-                      "en": "need to + Vo",
-                      "vi": "cần làm gì"
-                    },
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
+                      "en": "checkout lines",
+                      "vi": "hàng chờ thanh toán"
                     }
                   ],
                   [
                     {
                       "en": "save time and effort",
                       "vi": "tiết kiệm thời gian và công sức"
-                    },
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "consumers",
-                      "vi": "người tiêu dùng"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "choose online shopping",
-                      "vi": "lựa chọn mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ]
                 ]
@@ -163042,26 +162118,34 @@ const ESSAY_DATA = [
                     "vi": "nhiều loại sản phẩm hơn"
                   },
                   {
-                    "en": "customers",
-                    "vi": "khách hàng"
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
                   },
                   {
-                    "en": "compare prices",
-                    "vi": "so sánh giá"
+                    "en": "choose online shopping",
+                    "vi": "lựa chọn mua sắm trực tuyến"
                   },
                   {
-                    "en": "suitable products",
-                    "vi": "sản phẩm phù hợp"
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
                   },
                   {
-                    "en": "different stores",
-                    "vi": "các cửa hàng khác nhau"
+                    "en": "local and international stores",
+                    "vi": "cửa hàng trong nước và quốc tế"
+                  },
+                  {
+                    "en": "compare prices and styles",
+                    "vi": "so sánh giá cả và kiểu dáng"
+                  },
+                  {
+                    "en": "fit needs and budgets",
+                    "vi": "phù hợp nhu cầu và ngân sách"
                   }
                 ],
                 "point_vi": "Mua sắm trực tuyến mang đến nhiều sự lựa chọn hơn.",
                 "point_en": "Online shopping offers a wider variety of products.",
-                "evidence_vi": "Khách hàng có thể tìm thấy nhiều sản phẩm từ các cửa hàng khác nhau. Họ cũng có thể dễ dàng so sánh giá cả. Điều này giúp họ mua được sản phẩm phù hợp hơn. Do đó, nhiều người thích mua sắm trực tuyến.",
-                "evidence_en": "Customers can find products from many different stores. They can also compare prices easily. This helps them choose more suitable products. As a result, many people enjoy shopping online.",
+                "evidence_vi": "Khách hàng có thể dễ dàng tìm thấy hàng ngàn mặt hàng khác nhau từ nhiều cửa hàng trong và ngoài nước. Ngoài ra, họ có thể nhanh chóng so sánh giá cả và mẫu mã chỉ trong vài phút. Nhờ đó, người tiêu dùng dễ dàng chọn được sản phẩm phù hợp nhất với nhu cầu và túi tiền của mình.",
+                "evidence_en": "Customers can easily find thousands of different products from many local and international stores. Moreover, they can quickly compare prices and styles within just a few minutes. As a result, shoppers can easily pick items that best fit their needs and budgets.",
                 "point_collocations": [
                   {
                     "en": "a wider variety of products",
@@ -163083,58 +162167,20 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "customers",
-                      "vi": "khách hàng"
-                    },
-                    {
-                      "en": "different stores",
-                      "vi": "các cửa hàng khác nhau"
-                    },
-                    {
-                      "en": "find products",
-                      "vi": "tìm sản phẩm"
+                      "en": "local and international stores",
+                      "vi": "cửa hàng trong nước và quốc tế"
                     }
                   ],
                   [
                     {
-                      "en": "compare prices",
-                      "vi": "so sánh giá"
-                    },
-                    {
-                      "en": "a wider variety of products",
-                      "vi": "nhiều loại sản phẩm hơn"
-                    },
-                    {
-                      "en": "customers",
-                      "vi": "khách hàng"
+                      "en": "compare prices and styles",
+                      "vi": "so sánh giá cả và kiểu dáng"
                     }
                   ],
                   [
                     {
-                      "en": "suitable products",
-                      "vi": "sản phẩm phù hợp"
-                    },
-                    {
-                      "en": "a wider variety of products",
-                      "vi": "nhiều loại sản phẩm hơn"
-                    },
-                    {
-                      "en": "customers",
-                      "vi": "khách hàng"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "choose online shopping",
-                      "vi": "lựa chọn mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
+                      "en": "fit needs and budgets",
+                      "vi": "phù hợp nhu cầu và ngân sách"
                     }
                   ]
                 ]
@@ -163147,26 +162193,38 @@ const ESSAY_DATA = [
                     "vi": "công nghệ hiện đại"
                   },
                   {
-                    "en": "shopping applications",
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "choose online shopping",
+                    "vi": "lựa chọn mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "shopping apps",
                     "vi": "ứng dụng mua sắm"
                   },
                   {
-                    "en": "online payment",
-                    "vi": "thanh toán trực tuyến"
+                    "en": "people of all ages",
+                    "vi": "mọi lứa tuổi"
                   },
                   {
-                    "en": "delivery services",
-                    "vi": "dịch vụ giao hàng"
+                    "en": "online payment methods",
+                    "vi": "phương thức thanh toán trực tuyến"
                   },
                   {
-                    "en": "easy to use",
-                    "vi": "dễ sử dụng"
+                    "en": "home delivery services",
+                    "vi": "dịch vụ giao hàng tận nhà"
+                  },
+                  {
+                    "en": "common daily habit",
+                    "vi": "thói quen phổ biến hằng ngày"
                   }
                 ],
                 "point_vi": "Công nghệ hiện đại giúp việc mua sắm trực tuyến trở nên dễ dàng hơn.",
                 "point_en": "Modern technology has made online shopping easier.",
-                "evidence_vi": "Nhiều ứng dụng mua sắm rất dễ sử dụng. Thanh toán trực tuyến cũng trở nên thuận tiện hơn. Ngoài ra, dịch vụ giao hàng ngày càng nhanh. Vì lý do đó, ngày càng nhiều người mua sắm trực tuyến.",
-                "evidence_en": "Many shopping applications are easy to use. Online payment has also become more convenient. In addition, delivery services are becoming faster. For this reason, more people shop online.",
+                "evidence_vi": "Nhiều ứng dụng mua sắm hiện nay được thiết kế rất đơn giản và dễ sử dụng cho mọi lứa tuổi. Bên cạnh đó, các hình thức thanh toán trực tuyến và dịch vụ giao hàng tận nhà ngày càng nhanh chóng và an toàn hơn. Vì những lý do này, việc mua hàng qua mạng đã trở thành thói quen phổ biến hằng ngày.",
+                "evidence_en": "Many shopping apps today are designed to be simple and easy to use for people of all ages. In addition, online payment methods and home delivery services are becoming much faster and safer. For these reasons, buying things online has become a common daily habit.",
                 "point_collocations": [
                   {
                     "en": "modern technology",
@@ -163184,58 +162242,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "shopping applications",
+                      "en": "shopping apps",
                       "vi": "ứng dụng mua sắm"
                     },
                     {
-                      "en": "easy to use",
-                      "vi": "dễ sử dụng"
-                    },
-                    {
-                      "en": "modern technology",
-                      "vi": "công nghệ hiện đại"
+                      "en": "people of all ages",
+                      "vi": "mọi lứa tuổi"
                     }
                   ],
                   [
                     {
-                      "en": "online payment",
-                      "vi": "thanh toán trực tuyến"
+                      "en": "online payment methods",
+                      "vi": "phương thức thanh toán trực tuyến"
                     },
                     {
-                      "en": "convenient",
-                      "vi": "thuận tiện"
-                    },
-                    {
-                      "en": "modern technology",
-                      "vi": "công nghệ hiện đại"
+                      "en": "home delivery services",
+                      "vi": "dịch vụ giao hàng tận nhà"
                     }
                   ],
                   [
                     {
-                      "en": "delivery services",
-                      "vi": "dịch vụ giao hàng"
-                    },
-                    {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
-                    },
-                    {
-                      "en": "modern technology",
-                      "vi": "công nghệ hiện đại"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "modern technology",
-                      "vi": "công nghệ hiện đại"
-                    },
-                    {
-                      "en": "shopping applications",
-                      "vi": "ứng dụng mua sắm"
-                    },
-                    {
-                      "en": "online payment",
-                      "vi": "thanh toán trực tuyến"
+                      "en": "common daily habit",
+                      "vi": "thói quen phổ biến hằng ngày"
                     }
                   ]
                 ]
@@ -163254,17 +162282,29 @@ const ESSAY_DATA = [
                     "vi": "chương trình khuyến mãi đặc biệt"
                   }
                 ],
-                "evidence_vi": "Các đợt giảm giá lớn và miễn phí vận chuyển giúp người mua tiết kiệm được một khoản tiền đáng kể so với mua tại cửa hàng.",
-                "evidence_en": "Big seasonal sales and free shipping vouchers help shoppers save a considerable amount of money compared to physical stores.",
+                "evidence_vi": "Các sàn thương mại điện tử thường tổ chức nhiều đợt giảm giá lớn và tặng mã miễn phí vận chuyển mỗi tháng. Nhờ mua hàng trong những dịp khuyến mãi này, khách hàng có thể tiết kiệm được một khoản tiền đáng kể so với mua tại cửa hàng. Chính mức giá hấp dẫn này khiến nhiều người ưu tiên mua sắm trực tuyến hơn.",
+                "evidence_en": "E-commerce platforms regularly hold big seasonal sales and offer free shipping vouchers every month. By shopping during these promotions, customers can save a considerable amount of money compared to physical shops. These attractive prices encourage many people to prefer shopping online.",
                 "evidence_collocations": [
                   [
                     {
+                      "en": "e-commerce platforms",
+                      "vi": "sàn thương mại điện tử"
+                    },
+                    {
                       "en": "free shipping vouchers",
                       "vi": "mã miễn phí vận chuyển"
-                    },
+                    }
+                  ],
+                  [
                     {
                       "en": "save a considerable amount",
                       "vi": "tiết kiệm một khoản đáng kể"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "attractive prices",
+                      "vi": "mức giá hấp dẫn"
                     }
                   ]
                 ],
@@ -163278,12 +162318,20 @@ const ESSAY_DATA = [
                     "vi": "chương trình khuyến mãi đặc biệt"
                   },
                   {
+                    "en": "e-commerce platforms",
+                    "vi": "sàn thương mại điện tử"
+                  },
+                  {
                     "en": "free shipping vouchers",
                     "vi": "mã miễn phí vận chuyển"
                   },
                   {
                     "en": "save a considerable amount",
                     "vi": "tiết kiệm một khoản đáng kể"
+                  },
+                  {
+                    "en": "attractive prices",
+                    "vi": "mức giá hấp dẫn"
                   }
                 ]
               },
@@ -163301,17 +162349,29 @@ const ESSAY_DATA = [
                     "vi": "quảng cáo trên mạng xã hội"
                   }
                 ],
-                "evidence_vi": "Người tiêu dùng có thể đọc bình luận và xem ảnh thật từ người mua trước, đồng thời dễ bị thu hút bởi các buổi bán hàng trực tiếp trên mạng.",
-                "evidence_en": "Buyers can read comments and view real photos from previous customers, while live-streaming sales easily attract their interest.",
+                "evidence_vi": "Trước khi mua, khách hàng có thể đọc nhận xét và xem ảnh thật từ những người đã sử dụng sản phẩm trước đó. Đồng thời, các video giới thiệu sản phẩm và buổi bán hàng trực tiếp trên mạng xã hội rất thu hút người xem. Những thông tin sinh động này giúp người tiêu dùng cảm thấy tin tưởng và muốn đặt hàng nhanh hơn.",
+                "evidence_en": "Before buying, shoppers can read reviews and view real photos from previous buyers. At the same time, product videos and live-streaming sales on social media strongly attract viewers. This lively information makes consumers feel confident and eager to place orders online.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "previous customers",
-                      "vi": "khách hàng trước đó"
+                      "en": "read reviews",
+                      "vi": "đọc đánh giá"
                     },
+                    {
+                      "en": "previous buyers",
+                      "vi": "người mua trước đó"
+                    }
+                  ],
+                  [
                     {
                       "en": "live-streaming sales",
                       "vi": "bán hàng phát trực tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "place orders online",
+                      "vi": "đặt hàng trực tuyến"
                     }
                   ]
                 ],
@@ -163325,12 +162385,20 @@ const ESSAY_DATA = [
                     "vi": "quảng cáo trên mạng xã hội"
                   },
                   {
-                    "en": "previous customers",
-                    "vi": "khách hàng trước đó"
+                    "en": "read reviews",
+                    "vi": "đọc đánh giá"
+                  },
+                  {
+                    "en": "previous buyers",
+                    "vi": "người mua trước đó"
                   },
                   {
                     "en": "live-streaming sales",
                     "vi": "bán hàng phát trực tiếp"
+                  },
+                  {
+                    "en": "place orders online",
+                    "vi": "đặt hàng trực tuyến"
                   }
                 ]
               }
@@ -163347,26 +162415,42 @@ const ESSAY_DATA = [
                     "vi": "sự thuận tiện hơn"
                   },
                   {
-                    "en": "busy schedules",
-                    "vi": "lịch trình bận rộn"
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
                   },
                   {
-                    "en": "physical stores",
-                    "vi": "cửa hàng truyền thống"
+                    "en": "consumers",
+                    "vi": "người tiêu dùng"
                   },
                   {
-                    "en": "save both time and effort",
-                    "vi": "tiết kiệm cả thời gian và công sức"
+                    "en": "choose online shopping",
+                    "vi": "lựa chọn mua sắm trực tuyến"
                   },
                   {
-                    "en": "beneficial",
-                    "vi": "có lợi"
+                    "en": "browse and purchase",
+                    "vi": "duyệt xem và đặt mua"
+                  },
+                  {
+                    "en": "congested streets",
+                    "vi": "đường phố đông đúc"
+                  },
+                  {
+                    "en": "demanding daily schedules",
+                    "vi": "lịch trình hằng ngày bận rộn"
+                  },
+                  {
+                    "en": "unmatched convenience",
+                    "vi": "sự tiện lợi vượt trội"
+                  },
+                  {
+                    "en": "time efficiency",
+                    "vi": "hiệu quả về thời gian"
                   }
                 ],
                 "point_vi": "Mua sắm trực tuyến mang lại sự thuận tiện hơn cho người tiêu dùng.",
                 "point_en": "Online shopping provides greater convenience for consumers.",
-                "evidence_vi": "Mọi người có thể mua sắm mọi lúc, mọi nơi chỉ với điện thoại hoặc máy tính. Họ không cần mất thời gian đến các cửa hàng truyền thống. Điều này giúp tiết kiệm cả thời gian lẫn công sức. Đây là một lợi thế đặc biệt đối với những người có lịch trình bận rộn. Vì vậy, ngày càng nhiều người lựa chọn mua sắm trực tuyến.",
-                "evidence_en": "People can shop anytime and anywhere using only a smartphone or computer. They do not need to spend time visiting physical stores. This helps save both time and effort. This is especially beneficial for people with busy schedules. Therefore, more consumers choose online shopping.",
+                "evidence_vi": "Người tiêu dùng có thể duyệt xem và đặt mua hàng hóa mọi lúc, mọi nơi chỉ với một chiếc điện thoại thông minh hoặc máy tính kết nối Internet. Họ hoàn toàn không cần tốn thời gian di chuyển qua những tuyến đường đông đúc hay đứng chờ tại các cửa hàng truyền thống. Điều này đặc biệt hữu ích đối với nhân viên văn phòng và các bậc cha mẹ có lịch trình làm việc dày đặc. Nhờ sự tiện lợi và tiết kiệm công sức vượt trội này, mua sắm trực tuyến ngày càng trở thành lựa chọn hàng đầu.",
+                "evidence_en": "Consumers can browse and purchase items anytime and anywhere using merely a smartphone or an Internet-connected computer. They completely avoid commuting through congested streets or waiting in crowded physical stores. This advantage proves especially valuable for office workers and busy parents with demanding daily schedules. Thanks to this unmatched convenience and time efficiency, online shopping has increasingly become the top preference.",
                 "point_collocations": [
                   {
                     "en": "greater convenience",
@@ -163388,76 +162472,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "greater convenience",
-                      "vi": "sự thuận tiện hơn"
-                    },
-                    {
-                      "en": "busy schedules",
-                      "vi": "lịch trình bận rộn"
+                      "en": "browse and purchase",
+                      "vi": "duyệt xem và đặt mua"
                     }
                   ],
                   [
                     {
-                      "en": "physical stores",
-                      "vi": "cửa hàng truyền thống"
-                    },
-                    {
-                      "en": "need to + Vo",
-                      "vi": "cần làm gì"
-                    },
-                    {
-                      "en": "greater convenience",
-                      "vi": "sự thuận tiện hơn"
+                      "en": "congested streets",
+                      "vi": "đường phố đông đúc"
                     }
                   ],
                   [
                     {
-                      "en": "save both time and effort",
-                      "vi": "tiết kiệm cả thời gian và công sức"
-                    },
-                    {
-                      "en": "save time and effort",
-                      "vi": "tiết kiệm thời gian và công sức"
-                    },
-                    {
-                      "en": "greater convenience",
-                      "vi": "sự thuận tiện hơn"
+                      "en": "demanding daily schedules",
+                      "vi": "lịch trình hằng ngày bận rộn"
                     }
                   ],
                   [
                     {
-                      "en": "busy schedules",
-                      "vi": "lịch trình bận rộn"
+                      "en": "unmatched convenience",
+                      "vi": "sự tiện lợi vượt trội"
                     },
                     {
-                      "en": "beneficial",
-                      "vi": "có lợi"
-                    },
-                    {
-                      "en": "especially",
-                      "vi": "đặc biệt là"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "consumers",
-                      "vi": "người tiêu dùng"
-                    },
-                    {
-                      "en": "choose online shopping",
-                      "vi": "lựa chọn mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
+                      "en": "time efficiency",
+                      "vi": "hiệu quả về thời gian"
                     }
                   ]
                 ]
@@ -163470,26 +162508,46 @@ const ESSAY_DATA = [
                     "vi": "giá cạnh tranh"
                   },
                   {
-                    "en": "different sellers",
-                    "vi": "những người bán khác nhau"
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
                   },
                   {
-                    "en": "product quality",
-                    "vi": "chất lượng sản phẩm"
+                    "en": "consumers",
+                    "vi": "người tiêu dùng"
                   },
                   {
-                    "en": "purchasing decisions",
-                    "vi": "quyết định mua hàng"
+                    "en": "choose online shopping",
+                    "vi": "lựa chọn mua sắm trực tuyến"
                   },
                   {
-                    "en": "discounts and promotions",
-                    "vi": "giảm giá và khuyến mãi"
+                    "en": "vast inventory",
+                    "vi": "kho hàng hóa khổng lồ"
+                  },
+                  {
+                    "en": "domestic and global sellers",
+                    "vi": "người bán trong nước và toàn cầu"
+                  },
+                  {
+                    "en": "specifications",
+                    "vi": "thông số kỹ thuật"
+                  },
+                  {
+                    "en": "effortlessly",
+                    "vi": "một cách dễ dàng"
+                  },
+                  {
+                    "en": "secure the best deal",
+                    "vi": "chọn được mức giá hời nhất"
+                  },
+                  {
+                    "en": "smarter decision-making",
+                    "vi": "việc ra quyết định thông minh hơn"
                   }
                 ],
                 "point_vi": "Mua sắm trực tuyến giúp người tiêu dùng có nhiều lựa chọn hơn với mức giá cạnh tranh.",
                 "point_en": "Online shopping offers consumers more choices and more competitive prices.",
-                "evidence_vi": "Khách hàng có thể tiếp cận nhiều sản phẩm từ các nhà bán hàng khác nhau. Họ cũng có thể dễ dàng so sánh giá và chất lượng. Điều này giúp họ đưa ra quyết định mua sắm tốt hơn. Ngoài ra, nhiều trang web còn thường xuyên cung cấp chương trình giảm giá. Do đó, mua sắm trực tuyến trở nên hấp dẫn hơn đối với người tiêu dùng.",
-                "evidence_en": "Customers can access products from different sellers. They can easily compare prices and product quality. This helps them make better purchasing decisions. In addition, many websites regularly offer discounts and promotions. As a result, online shopping becomes more attractive to consumers.",
+                "evidence_vi": "Khách hàng có thể tiếp cận kho hàng hóa khổng lồ từ hàng nghìn nhà bán hàng trong nước lẫn quốc tế chỉ trên một nền tảng. Hơn nữa, các công cụ lọc và so sánh giúp họ dễ dàng đối chiếu giá cả, thông số kỹ thuật và chất lượng sản phẩm trước khi quyết định. Ví dụ, một người mua thiết bị điện tử có thể kiểm tra giá của nhiều cửa hàng chỉ trong vài giây để chọn mức giá hợp lý nhất. Chính sự đa dạng phong phú cùng khả năng mua sắm thông minh này khiến thương mại điện tử vô cùng hấp dẫn.",
+                "evidence_en": "Shoppers gain instant access to a vast inventory of goods from thousands of domestic and global sellers on a single platform. Moreover, built-in search filters allow them to compare prices, specifications, and product quality effortlessly before purchasing. For example, someone buying electronics can check prices across multiple retailers within seconds to secure the best deal. This extensive variety combined with smarter decision-making makes e-commerce remarkably appealing to modern consumers.",
                 "point_collocations": [
                   {
                     "en": "competitive prices",
@@ -163511,80 +162569,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "different sellers",
-                      "vi": "những người bán khác nhau"
+                      "en": "vast inventory",
+                      "vi": "kho hàng hóa khổng lồ"
                     },
                     {
-                      "en": "customers",
-                      "vi": "khách hàng"
-                    },
-                    {
-                      "en": "competitive prices",
-                      "vi": "giá cạnh tranh"
+                      "en": "domestic and global sellers",
+                      "vi": "người bán trong nước và toàn cầu"
                     }
                   ],
                   [
                     {
-                      "en": "product quality",
-                      "vi": "chất lượng sản phẩm"
+                      "en": "specifications",
+                      "vi": "thông số kỹ thuật"
                     },
                     {
-                      "en": "compare prices",
-                      "vi": "so sánh giá"
-                    },
-                    {
-                      "en": "competitive prices",
-                      "vi": "giá cạnh tranh"
+                      "en": "effortlessly",
+                      "vi": "một cách dễ dàng"
                     }
                   ],
                   [
                     {
-                      "en": "purchasing decisions",
-                      "vi": "quyết định mua hàng"
-                    },
-                    {
-                      "en": "make decisions",
-                      "vi": "đưa ra quyết định"
-                    },
-                    {
-                      "en": "competitive prices",
-                      "vi": "giá cạnh tranh"
+                      "en": "secure the best deal",
+                      "vi": "chọn được mức giá hời nhất"
                     }
                   ],
                   [
                     {
-                      "en": "discounts and promotions",
-                      "vi": "giảm giá và khuyến mãi"
-                    },
-                    {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
-                    },
-                    {
-                      "en": "competitive prices",
-                      "vi": "giá cạnh tranh"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "consumers",
-                      "vi": "người tiêu dùng"
-                    },
-                    {
-                      "en": "choose online shopping",
-                      "vi": "lựa chọn mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "attractive to consumers",
-                      "vi": "hấp dẫn đối với người tiêu dùng"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
+                      "en": "smarter decision-making",
+                      "vi": "việc ra quyết định thông minh hơn"
                     }
                   ]
                 ]
@@ -163597,30 +162609,46 @@ const ESSAY_DATA = [
                     "vi": "sự phát triển của công nghệ"
                   },
                   {
-                    "en": "e-commerce platforms",
-                    "vi": "nền tảng thương mại điện tử"
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
                   },
                   {
-                    "en": "user-friendly",
-                    "vi": "thân thiện với người dùng"
+                    "en": "choose online shopping",
+                    "vi": "lựa chọn mua sắm trực tuyến"
                   },
                   {
-                    "en": "online payment systems",
-                    "vi": "hệ thống thanh toán trực tuyến"
+                    "en": "intuitive and personalized",
+                    "vi": "trực quan và cá nhân hóa"
                   },
                   {
-                    "en": "delivery services",
-                    "vi": "dịch vụ giao hàng"
+                    "en": "digital payment gateways",
+                    "vi": "cổng thanh toán kỹ thuật số"
                   },
                   {
-                    "en": "reliable",
-                    "vi": "đáng tin cậy"
+                    "en": "e-wallets",
+                    "vi": "ví điện tử"
+                  },
+                  {
+                    "en": "logistics networks",
+                    "vi": "mạng lưới vận chuyển / hậu cần"
+                  },
+                  {
+                    "en": "return policies",
+                    "vi": "chính sách đổi trả"
+                  },
+                  {
+                    "en": "perceived risks",
+                    "vi": "rủi ro cảm nhận"
+                  },
+                  {
+                    "en": "consumer trust",
+                    "vi": "niềm tin người tiêu dùng"
                   }
                 ],
                 "point_vi": "Sự phát triển của công nghệ đã thúc đẩy sự phổ biến của mua sắm trực tuyến.",
                 "point_en": "Technological development has encouraged the popularity of online shopping.",
-                "evidence_vi": "Các nền tảng thương mại điện tử và ứng dụng mua sắm ngày càng thân thiện với người dùng. Hệ thống thanh toán trực tuyến hiện nay nhanh chóng và an toàn hơn. Dịch vụ giao hàng cũng được cải thiện đáng kể trong những năm gần đây. Những yếu tố này giúp việc mua sắm trực tuyến trở nên đơn giản và đáng tin cậy hơn. Vì lý do đó, ngày càng nhiều người lựa chọn hình thức mua sắm này.",
-                "evidence_en": "E-commerce platforms and shopping applications have become more user-friendly. Online payment systems are now faster and more secure. Delivery services have also improved significantly in recent years. These factors make online shopping simpler and more reliable. For this reason, more people are choosing this way of shopping.",
+                "evidence_vi": "Các nền tảng thương mại điện tử và ứng dụng mua sắm ngày nay được thiết kế vô cùng thân thiện, trực quan và cá nhân hóa theo sở thích người dùng. Song song đó, hệ thống thanh toán số như ví điện tử và thẻ ngân hàng đã trở nên nhanh chóng và bảo mật cao hơn rất nhiều. Ngoài ra, mạng lưới hậu cần hiện đại cho phép giao hàng trong ngày hoặc ngay hôm sau kèm chính sách đổi trả rõ ràng. Những bước tiến công nghệ đồng bộ này đã xóa bỏ nỗi lo rủi ro và củng cố niềm tin của người tiêu dùng.",
+                "evidence_en": "Modern e-commerce platforms and shopping apps have become remarkably user-friendly, intuitive, and personalized to consumer preferences. Simultaneously, digital payment gateways such as e-wallets and bank cards are now far faster and more secure. Furthermore, upgraded logistics networks enable same-day or next-day delivery backed by transparent return policies. These coordinated technological advancements have minimized perceived risks and built strong consumer trust in online retail.",
                 "point_collocations": [
                   {
                     "en": "technological development",
@@ -163638,76 +162666,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "e-commerce platforms",
-                      "vi": "nền tảng thương mại điện tử"
-                    },
-                    {
-                      "en": "user-friendly",
-                      "vi": "thân thiện với người dùng"
-                    },
-                    {
-                      "en": "shopping applications",
-                      "vi": "ứng dụng mua sắm"
+                      "en": "intuitive and personalized",
+                      "vi": "trực quan và cá nhân hóa"
                     }
                   ],
                   [
                     {
-                      "en": "online payment systems",
-                      "vi": "hệ thống thanh toán trực tuyến"
+                      "en": "digital payment gateways",
+                      "vi": "cổng thanh toán kỹ thuật số"
                     },
                     {
-                      "en": "online payment",
-                      "vi": "thanh toán trực tuyến"
-                    },
-                    {
-                      "en": "digital payment systems",
-                      "vi": "hệ thống thanh toán kỹ thuật số"
-                    },
-                    {
-                      "en": "secure",
-                      "vi": "an toàn"
+                      "en": "e-wallets",
+                      "vi": "ví điện tử"
                     }
                   ],
                   [
                     {
-                      "en": "delivery services",
-                      "vi": "dịch vụ giao hàng"
+                      "en": "logistics networks",
+                      "vi": "mạng lưới vận chuyển / hậu cần"
                     },
                     {
-                      "en": "significantly",
-                      "vi": "một cách đáng kể"
-                    },
-                    {
-                      "en": "technological development",
-                      "vi": "sự phát triển của công nghệ"
+                      "en": "return policies",
+                      "vi": "chính sách đổi trả"
                     }
                   ],
                   [
                     {
-                      "en": "reliable",
-                      "vi": "đáng tin cậy"
+                      "en": "perceived risks",
+                      "vi": "rủi ro cảm nhận"
                     },
                     {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "choose online shopping",
-                      "vi": "lựa chọn mua sắm trực tuyến"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "technological development",
-                      "vi": "sự phát triển của công nghệ"
-                    },
-                    {
-                      "en": "e-commerce platforms",
-                      "vi": "nền tảng thương mại điện tử"
-                    },
-                    {
-                      "en": "user-friendly",
-                      "vi": "thân thiện với người dùng"
+                      "en": "consumer trust",
+                      "vi": "niềm tin người tiêu dùng"
                     }
                   ]
                 ]
@@ -163726,17 +162716,33 @@ const ESSAY_DATA = [
                     "vi": "người tiêu dùng quan tâm đến ngân sách"
                   }
                 ],
-                "evidence_vi": "Nhờ tiết kiệm được chi phí thuê mặt bằng và nhân sự, các nhà bán lẻ trực tuyến thường xuyên tổ chức sự kiện giảm giá chớp nhoáng, tặng mã miễn phí vận chuyển và hoàn tiền. Những ưu đãi hấp dẫn này mang lại cảm giác mua hời và thúc đẩy khách hàng đặt mua thường xuyên hơn.",
-                "evidence_en": "Because online retailers save on rent and staffing overheads, they regularly host flash sales, free-shipping deals, and cashback rewards. These tempting offers create a strong sense of value for money and motivate shoppers to purchase online repeatedly.",
+                "evidence_vi": "Nhờ cắt giảm đáng kể chi phí thuê mặt bằng đắt đỏ và nhân sự bán hàng trực tiếp, các nhà bán lẻ trực tuyến có thể đưa ra mức giá rất cạnh tranh. Họ thường xuyên triển khai các sự kiện giảm giá chớp nhoáng, mã miễn phí vận chuyển và chương trình tích điểm hoàn tiền hấp dẫn. Chẳng hạn, các dịp siêu khuyến mãi hằng tháng thu hút hàng triệu khách hàng săn mua hàng thiết yếu với giá ưu đãi lớn. Những lợi ích tài chính thiết thực này tạo động lực mạnh mẽ khiến người tiêu dùng đặt mua trực tuyến thường xuyên hơn.",
+                "evidence_en": "Because online retailers save substantially on expensive store rent and physical staffing overheads, they can offer highly competitive prices. They routinely organize flash sales, free-shipping vouchers, and generous cashback loyalty programs to reward shoppers. For instance, monthly mega-sale events attract millions of buyers eager to purchase household necessities at steep discounts. These tangible financial incentives create a compelling sense of value for money and encourage repeat online purchases.",
                 "evidence_collocations": [
+                  [
+                    {
+                      "en": "staffing overheads",
+                      "vi": "chi phí nhân sự vận hành"
+                    },
+                    {
+                      "en": "competitive prices",
+                      "vi": "giá cả cạnh tranh"
+                    }
+                  ],
                   [
                     {
                       "en": "flash sales",
                       "vi": "giảm giá chớp nhoáng"
                     },
                     {
-                      "en": "cashback rewards",
-                      "vi": "ưu đãi hoàn tiền"
+                      "en": "cashback loyalty programs",
+                      "vi": "chương trình hoàn tiền khách hàng thân thiết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "steep discounts",
+                      "vi": "mức giảm giá sâu"
                     }
                   ],
                   [
@@ -163745,8 +162751,8 @@ const ESSAY_DATA = [
                       "vi": "đáng đồng tiền"
                     },
                     {
-                      "en": "purchase repeatedly",
-                      "vi": "mua lặp lại nhiều lần"
+                      "en": "repeat purchases",
+                      "vi": "mua sắm lặp lại"
                     }
                   ]
                 ],
@@ -163760,20 +162766,32 @@ const ESSAY_DATA = [
                     "vi": "người tiêu dùng quan tâm đến ngân sách"
                   },
                   {
+                    "en": "staffing overheads",
+                    "vi": "chi phí nhân sự vận hành"
+                  },
+                  {
+                    "en": "competitive prices",
+                    "vi": "giá cả cạnh tranh"
+                  },
+                  {
                     "en": "flash sales",
                     "vi": "giảm giá chớp nhoáng"
                   },
                   {
-                    "en": "cashback rewards",
-                    "vi": "ưu đãi hoàn tiền"
+                    "en": "cashback loyalty programs",
+                    "vi": "chương trình hoàn tiền khách hàng thân thiết"
+                  },
+                  {
+                    "en": "steep discounts",
+                    "vi": "mức giảm giá sâu"
                   },
                   {
                     "en": "value for money",
                     "vi": "đáng đồng tiền"
                   },
                   {
-                    "en": "purchase repeatedly",
-                    "vi": "mua lặp lại nhiều lần"
+                    "en": "repeat purchases",
+                    "vi": "mua sắm lặp lại"
                   }
                 ]
               },
@@ -163791,27 +162809,39 @@ const ESSAY_DATA = [
                     "vi": "sự bùng nổ của thương mại điện tử"
                   }
                 ],
-                "evidence_vi": "Việc tham khảo nhận xét, điểm xếp hạng và hình ảnh thực tế giúp người tiêu dùng đánh giá độ tin cậy của sản phẩm trước khi quyết định chi tiền. Đồng thời, các video giới thiệu sản phẩm từ người có sức ảnh hưởng và phiên phát trực tiếp đã biến việc mua sắm trực tuyến thành trải nghiệm giải trí đầy lôi cuốn.",
-                "evidence_en": "Checking ratings, detailed feedback, and authentic photos enables shoppers to verify product reliability before spending money. Simultaneously, influencer endorsements and interactive livestreaming sessions have transformed online shopping into an engaging social experience.",
+                "evidence_vi": "Hệ thống xếp hạng sao, bình luận chi tiết và hình ảnh thực tế từ người mua trước giúp khách hàng kiểm chứng độ tin cậy của sản phẩm trước khi chi tiền. Đồng thời, sự bùng nổ của tiếp thị qua người có sức ảnh hưởng và các phiên bán hàng phát trực tiếp trên mạng xã hội tạo sức lan tỏa rất lớn. Ví dụ, chỉ một video đánh giá chân thực về sản phẩm chăm sóc da hoặc đồ gia dụng có thể nhanh chóng thúc đẩy hàng nghìn đơn đặt hàng. Chính sự kết hợp giữa niềm tin cộng đồng và trải nghiệm tương tác giải trí đã thúc đẩy mạnh mẽ xu hướng mua sắm trực tuyến.",
+                "evidence_en": "Star ratings, detailed customer reviews, and authentic buyer photos allow prospective shoppers to verify product quality before spending money. At the same time, influencer marketing and interactive livestreaming sessions on social media generate tremendous consumer interest. For example, a single convincing review video of skincare items or home gadgets can rapidly drive thousands of online orders. Combining social proof with entertaining shopping experiences has dramatically accelerated the global growth of e-commerce.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "verify product reliability",
-                      "vi": "kiểm chứng độ tin cậy của sản phẩm"
+                      "en": "prospective shoppers",
+                      "vi": "khách hàng tiềm năng"
                     },
                     {
-                      "en": "detailed feedback",
-                      "vi": "phản hồi chi tiết"
+                      "en": "verify product quality",
+                      "vi": "kiểm chứng chất lượng sản phẩm"
                     }
                   ],
                   [
                     {
-                      "en": "influencer endorsements",
-                      "vi": "sự quảng bá từ người có ảnh hưởng"
+                      "en": "influencer marketing",
+                      "vi": "tiếp thị qua người có ảnh hưởng"
                     },
                     {
                       "en": "livestreaming sessions",
-                      "vi": "các phiên phát trực tiếp"
+                      "vi": "phiên phát trực tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "convincing review video",
+                      "vi": "video đánh giá thuyết phục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social proof",
+                      "vi": "bằng chứng xã hội / niềm tin từ cộng đồng"
                     }
                   ]
                 ],
@@ -163825,20 +162855,28 @@ const ESSAY_DATA = [
                     "vi": "sự bùng nổ của thương mại điện tử"
                   },
                   {
-                    "en": "verify product reliability",
-                    "vi": "kiểm chứng độ tin cậy của sản phẩm"
+                    "en": "prospective shoppers",
+                    "vi": "khách hàng tiềm năng"
                   },
                   {
-                    "en": "detailed feedback",
-                    "vi": "phản hồi chi tiết"
+                    "en": "verify product quality",
+                    "vi": "kiểm chứng chất lượng sản phẩm"
                   },
                   {
-                    "en": "influencer endorsements",
-                    "vi": "sự quảng bá từ người có ảnh hưởng"
+                    "en": "influencer marketing",
+                    "vi": "tiếp thị qua người có ảnh hưởng"
                   },
                   {
                     "en": "livestreaming sessions",
-                    "vi": "các phiên phát trực tiếp"
+                    "vi": "phiên phát trực tiếp"
+                  },
+                  {
+                    "en": "convincing review video",
+                    "vi": "video đánh giá thuyết phục"
+                  },
+                  {
+                    "en": "social proof",
+                    "vi": "bằng chứng xã hội / niềm tin từ cộng đồng"
                   }
                 ]
               }
@@ -169417,24 +168455,36 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 01",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
                 "point_en": "Working from home helps parents support their children's studies more effectively.",
-                "evidence_vi": "Trên thực tế, cha mẹ có thể giúp con làm bài tập về nhà bất cứ khi nào con cần hỗ trợ. Thêm vào đó, cha mẹ có thể theo dõi tiến độ học tập của con thường xuyên hơn. Kết quả là, cha mẹ có thể dễ dàng phát hiện sớm những khó khăn của con ở trường và giúp con vượt qua các thử thách học tập.",
-                "evidence_en": "In fact, parents can help their children with homework whenever they need support. In addition, they can monitor their learning progress more regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.",
+                "evidence_vi": "Cha mẹ có thể trực tiếp giúp con làm bài tập khó bất cứ khi nào con cần hỗ trợ. Ngoài ra, họ cũng dễ dàng theo dõi tiến độ học tập của con mỗi ngày. Nhờ đó, phụ huynh sớm phát hiện những khó khăn ở trường để giúp con tiến bộ hơn.",
+                "evidence_en": "Parents can directly help their children with difficult homework whenever they need support. In addition, they can monitor their children's learning progress more regularly every day. As a result, parents notice school difficulties early and help their children improve faster.",
                 "collocations": [
                   {
                     "en": "support their children's studies",
                     "vi": "hỗ trợ việc học của con"
                   },
                   {
-                    "en": "help with homework",
-                    "vi": "giúp làm bài tập về nhà"
+                    "en": "support",
+                    "vi": "hỗ trợ, ủng hộ"
                   },
                   {
-                    "en": "monitor studies regularly",
-                    "vi": "theo dõi việc học thường xuyên"
+                    "en": "more effectively",
+                    "vi": "một cách hiệu quả hơn"
                   },
                   {
-                    "en": "improve school results",
-                    "vi": "cải thiện kết quả học tập"
+                    "en": "difficult homework",
+                    "vi": "bài tập khó"
+                  },
+                  {
+                    "en": "need support",
+                    "vi": "cần hỗ trợ"
+                  },
+                  {
+                    "en": "monitor learning progress",
+                    "vi": "theo dõi tiến độ học tập"
+                  },
+                  {
+                    "en": "school difficulties",
+                    "vi": "khó khăn ở trường"
                   }
                 ],
                 "point_collocations": [
@@ -169454,40 +168504,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "support their children's studies",
-                      "vi": "hỗ trợ việc học của con"
+                      "en": "difficult homework",
+                      "vi": "bài tập khó"
                     },
                     {
-                      "en": "help with homework",
-                      "vi": "giúp làm bài tập về nhà"
-                    },
-                    {
-                      "en": "homework",
-                      "vi": "bài tập về nhà"
+                      "en": "need support",
+                      "vi": "cần hỗ trợ"
                     }
                   ],
                   [
                     {
-                      "en": "monitor studies regularly",
-                      "vi": "theo dõi việc học thường xuyên"
-                    },
-                    {
-                      "en": "monitor",
-                      "vi": "theo dõi, giám sát"
+                      "en": "monitor learning progress",
+                      "vi": "theo dõi tiến độ học tập"
                     }
                   ],
                   [
                     {
-                      "en": "support their children's studies",
-                      "vi": "hỗ trợ việc học của con"
-                    },
-                    {
-                      "en": "improve school results",
-                      "vi": "cải thiện kết quả học tập"
-                    },
-                    {
-                      "en": "improve",
-                      "vi": "cải thiện, tiến bộ"
+                      "en": "school difficulties",
+                      "vi": "khó khăn ở trường"
                     }
                   ]
                 ]
@@ -169496,24 +168530,32 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 02",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
                 "point_en": "Working from home allows parents to understand their children's habits and behavior better.",
-                "evidence_vi": "Lý do chính là cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập và sinh hoạt tại nhà mỗi ngày. Do đó, cha mẹ có thể nhận thấy kịp thời những thay đổi trong hành vi và tâm trạng của con. Vì vậy, họ có thể đưa ra lời khuyên phù hợp và sự hỗ trợ đúng đắn để định hướng cho con trong cuộc sống hằng ngày.",
-                "evidence_en": "The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly. Therefore, they can give suitable advice and appropriate support to guide their children in daily life.",
+                "evidence_vi": "Cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập, vui chơi và sinh hoạt ở nhà mỗi ngày. Nhờ vậy, họ có thể nhanh chóng nhận ra những thay đổi trong tâm trạng hoặc hành vi của con. Từ đó, phụ huynh dễ dàng đưa ra lời khuyên phù hợp để định hướng con kịp thời.",
+                "evidence_en": "Parents have more opportunities to observe how their children study, play, and live at home every day. Consequently, they can quickly notice changes in their children's moods or behavior. Therefore, parents can give helpful advice and guide their children at the right time.",
                 "collocations": [
                   {
                     "en": "understand children's habits",
                     "vi": "hiểu thói quen của con"
                   },
                   {
-                    "en": "observe daily activities",
-                    "vi": "quan sát các hoạt động hằng ngày"
+                    "en": "behavior",
+                    "vi": "hành vi, cách ứng xử"
                   },
                   {
-                    "en": "changes in behavior",
-                    "vi": "những thay đổi trong hành vi"
+                    "en": "habit",
+                    "vi": "thói quen"
                   },
                   {
-                    "en": "give suitable advice",
-                    "vi": "đưa ra lời khuyên phù hợp"
+                    "en": "observe daily habits",
+                    "vi": "quan sát thói quen hằng ngày"
+                  },
+                  {
+                    "en": "changes in moods or behavior",
+                    "vi": "thay đổi về tâm trạng hoặc hành vi"
+                  },
+                  {
+                    "en": "give helpful advice",
+                    "vi": "đưa ra lời khuyên hữu ích"
                   }
                 ],
                 "point_collocations": [
@@ -169533,40 +168575,20 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "observe",
-                      "vi": "quan sát"
-                    },
-                    {
-                      "en": "understand children's habits",
-                      "vi": "hiểu thói quen của con"
-                    },
-                    {
-                      "en": "observe daily activities",
-                      "vi": "quan sát các hoạt động hằng ngày"
+                      "en": "observe daily habits",
+                      "vi": "quan sát thói quen hằng ngày"
                     }
                   ],
                   [
                     {
-                      "en": "changes in behavior",
-                      "vi": "những thay đổi trong hành vi"
-                    },
-                    {
-                      "en": "behavior",
-                      "vi": "hành vi, cách ứng xử"
+                      "en": "changes in moods or behavior",
+                      "vi": "thay đổi về tâm trạng hoặc hành vi"
                     }
                   ],
                   [
                     {
-                      "en": "give suitable advice",
-                      "vi": "đưa ra lời khuyên phù hợp"
-                    },
-                    {
-                      "en": "advice",
-                      "vi": "lời khuyên"
-                    },
-                    {
-                      "en": "support",
-                      "vi": "hỗ trợ, ủng hộ"
+                      "en": "give helpful advice",
+                      "vi": "đưa ra lời khuyên hữu ích"
                     }
                   ]
                 ]
@@ -169575,24 +168597,32 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 03",
                 "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
                 "point_en": "Working from home makes children feel safer and more cared for.",
-                "evidence_vi": "Điều này là do trẻ biết rằng cha mẹ luôn ở gần bên, tạo ra cảm giác an tâm mạnh mẽ về mặt cảm xúc. Hơn nữa, các bạn trẻ có thể dễ dàng chia sẻ những khó khăn và lo lắng với cha mẹ bất cứ lúc nào. Vì lý do này, các tương tác hằng ngày giúp các thành viên trong gia đình hiểu nhau hơn và củng cố tình cảm gia đình khăng khít.",
-                "evidence_en": "This is because children know that their parents are always nearby, so this creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.",
+                "evidence_vi": "Trẻ nhỏ biết rằng cha mẹ luôn ở ngay bên cạnh khi mình cần giúp đỡ nên cảm thấy rất an tâm. Hơn nữa, các em có thể dễ dàng chia sẻ những lo lắng hay câu chuyện ở trường với cha mẹ bất cứ lúc nào. Nhờ những cuộc trò chuyện hằng ngày này, tình cảm gia đình trở nên gắn bó hơn nhiều.",
+                "evidence_en": "Children know that their parents are always nearby when they need help, so they feel very safe. Moreover, they can easily share their worries or school stories with their parents at any time. Because of these daily talks, family bonds become much stronger.",
                 "collocations": [
                   {
                     "en": "feel safer and more cared for",
                     "vi": "cảm thấy an toàn và được quan tâm hơn"
                   },
                   {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
                     "en": "always nearby",
                     "vi": "luôn ở gần bên"
                   },
                   {
-                    "en": "share worries and problems",
-                    "vi": "chia sẻ lo lắng và vấn đề"
+                    "en": "feel safe",
+                    "vi": "cảm thấy an toàn"
                   },
                   {
-                    "en": "feel more confident",
-                    "vi": "cảm thấy tự tin hơn"
+                    "en": "share worries",
+                    "vi": "chia sẻ lo lắng"
+                  },
+                  {
+                    "en": "family bonds",
+                    "vi": "tình cảm / sự gắn kết gia đình"
                   }
                 ],
                 "point_collocations": [
@@ -169613,35 +168643,23 @@ const ESSAY_DATA = [
                   [
                     {
                       "en": "always nearby",
-                      "vi": "luôn ở gần bên"
+                      "vi": "luôn ở gần"
                     },
                     {
-                      "en": "nearby",
-                      "vi": "ở gần bên"
+                      "en": "feel safe",
+                      "vi": "cảm thấy an toàn"
                     }
                   ],
                   [
                     {
-                      "en": "share worries and problems",
-                      "vi": "chia sẻ lo lắng và vấn đề"
-                    },
-                    {
-                      "en": "share",
-                      "vi": "chia sẻ, tâm sự"
+                      "en": "share worries",
+                      "vi": "chia sẻ lo lắng"
                     }
                   ],
                   [
                     {
-                      "en": "feel more confident",
-                      "vi": "cảm thấy tự tin hơn"
-                    },
-                    {
-                      "en": "confident",
-                      "vi": "tự tin"
-                    },
-                    {
-                      "en": "secure",
-                      "vi": "an tâm, vững tâm"
+                      "en": "family bonds",
+                      "vi": "tình cảm / sự gắn kết gia đình"
                     }
                   ]
                 ]
@@ -169660,17 +168678,29 @@ const ESSAY_DATA = [
                     "vi": "ăn cơm cùng nhau"
                   }
                 ],
-                "evidence_vi": "Cha mẹ có thể đưa đón con đi học, ăn trưa cùng con và trò chuyện nhiều hơn mỗi ngày.",
-                "evidence_en": "Parents can pick their children up from school, have lunch together, and talk with them more every day.",
+                "evidence_vi": "Vì không phải mất nhiều thời gian kẹt xe trên đường đi làm, cha mẹ có thêm thời gian rảnh mỗi ngày. Họ có thể tự chuẩn bị bữa sáng, đưa đón con đi học và ăn trưa cùng con tại nhà. Những hoạt động giản dị này giúp cha mẹ và con cái gần gũi và thấu hiểu nhau hơn.",
+                "evidence_en": "Without wasting hours in traffic on the way to work, parents gain more free time every day. They can prepare breakfast, pick their children up from school, and enjoy lunch together at home. These simple daily moments bring parents and children much closer together.",
                 "evidence_collocations": [
                   [
                     {
+                      "en": "waste hours in traffic",
+                      "vi": "mất nhiều giờ kẹt xe"
+                    }
+                  ],
+                  [
+                    {
                       "en": "pick up from school",
-                      "vi": "đón con ở trường"
+                      "vi": "đón con từ trường"
                     },
                     {
-                      "en": "have lunch together",
+                      "en": "enjoy lunch together",
                       "vi": "ăn trưa cùng nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "closer together",
+                      "vi": "gần gũi với nhau hơn"
                     }
                   ]
                 ],
@@ -169684,12 +168714,20 @@ const ESSAY_DATA = [
                     "vi": "ăn cơm cùng nhau"
                   },
                   {
-                    "en": "pick up from school",
-                    "vi": "đón con ở trường"
+                    "en": "waste hours in traffic",
+                    "vi": "mất nhiều giờ kẹt xe"
                   },
                   {
-                    "en": "have lunch together",
+                    "en": "pick up from school",
+                    "vi": "đón con từ trường"
+                  },
+                  {
+                    "en": "enjoy lunch together",
                     "vi": "ăn trưa cùng nhau"
+                  },
+                  {
+                    "en": "closer together",
+                    "vi": "gần gũi với nhau hơn"
                   }
                 ]
               },
@@ -169707,17 +168745,25 @@ const ESSAY_DATA = [
                     "vi": "làm việc chăm chỉ"
                   }
                 ],
-                "evidence_vi": "Khi thấy cha mẹ sắp xếp thời gian hợp lý giữa công việc và gia đình, trẻ sẽ biết tôn trọng công việc của cha mẹ hơn.",
-                "evidence_en": "When children see parents manage their time well between work and family, they learn to respect their parents' efforts more.",
+                "evidence_vi": "Khi ở nhà cùng cha mẹ, trẻ em có thể tận mắt thấy cách cha mẹ tập trung làm việc và sắp xếp thời gian hằng ngày. Điều này giúp các em hiểu được công sức của cha mẹ và biết tôn trọng giờ làm việc hơn. Qua tấm gương đó, trẻ cũng học được tính tự giác và tinh thần trách nhiệm trong học tập.",
+                "evidence_en": "Staying at home with parents lets children see how their parents focus on tasks and manage their time daily. This helps children understand their parents' hard work and respect working hours more. Through this good example, kids also learn self-discipline and responsibility in their own studies.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "manage time well",
-                      "vi": "quản lý thời gian tốt"
-                    },
+                      "en": "manage time daily",
+                      "vi": "quản lý thời gian hằng ngày"
+                    }
+                  ],
+                  [
                     {
-                      "en": "respect efforts",
-                      "vi": "tôn trọng nỗ lực"
+                      "en": "respect working hours",
+                      "vi": "tôn trọng giờ làm việc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-discipline and responsibility",
+                      "vi": "tính tự giác và tinh thần trách nhiệm"
                     }
                   ]
                 ],
@@ -169731,12 +168777,16 @@ const ESSAY_DATA = [
                     "vi": "làm việc chăm chỉ"
                   },
                   {
-                    "en": "manage time well",
-                    "vi": "quản lý thời gian tốt"
+                    "en": "manage time daily",
+                    "vi": "quản lý thời gian hằng ngày"
                   },
                   {
-                    "en": "respect efforts",
-                    "vi": "tôn trọng nỗ lực"
+                    "en": "respect working hours",
+                    "vi": "tôn trọng giờ làm việc"
+                  },
+                  {
+                    "en": "self-discipline and responsibility",
+                    "vi": "tính tự giác và tinh thần trách nhiệm"
                   }
                 ]
               }
@@ -169749,24 +168799,44 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 01",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả và kịp thời hơn.",
                 "point_en": "Working from home enables parents to support their children's education much more effectively.",
-                "evidence_vi": "• Luận cứ 1: Cha mẹ có thể ở cạnh để hướng dẫn con làm các bài tập khó và giải đáp thắc mắc ngay khi con cần.\n• Luận cứ 2: Đồng thời, việc theo dõi thói quen học tập hằng ngày giúp phụ huynh sớm phát hiện các môn học con còn yếu để cùng con khắc phục.",
-                "evidence_en": "• Evidence 1: Parents are available at home to guide children through difficult assignments and answer academic questions immediately.\n• Evidence 2: At the same time, monitoring daily study routines allows parents to identify subjects where their children struggle early on.",
+                "evidence_vi": "Phụ huynh có mặt sẵn ở nhà để kịp thời hướng dẫn con giải quyết các bài tập khó và giải đáp thắc mắc học thuật ngay khi cần. Đồng thời, việc theo sát thói quen tự học hằng ngày giúp cha mẹ sớm nhận diện những môn học con còn yếu. Chẳng hạn, một người cha hoặc người mẹ làm việc linh hoạt có thể kiểm tra bài vở và ôn tập cùng con ngay sau giờ tan học. Nhờ sự đồng hành sát sao này, trẻ không chỉ cải thiện thành tích học tập mà còn cảm nhận được sự quan tâm sâu sắc từ gia đình.",
+                "evidence_en": "Parents are readily available at home to guide children through challenging assignments and answer academic questions promptly. Simultaneously, monitoring daily study routines enables parents to identify weak subjects before small gaps grow serious. For example, a remote-working parent can review homework and prepare for upcoming tests with their child right after school. Through such consistent academic involvement, children not only achieve stronger school results but also feel deeply supported by their families.",
                 "collocations": [
                   {
                     "en": "support children's education",
                     "vi": "hỗ trợ việc học của con"
                   },
                   {
-                    "en": "guide difficult assignments",
-                    "vi": "hướng dẫn các bài tập khó"
+                    "en": "support",
+                    "vi": "hỗ trợ, ủng hộ"
                   },
                   {
-                    "en": "monitor study routines",
-                    "vi": "theo dõi nề nếp học tập"
+                    "en": "more effectively",
+                    "vi": "một cách hiệu quả hơn"
                   },
                   {
-                    "en": "identify learning struggles",
-                    "vi": "nhận diện những khó khăn học tập"
+                    "en": "challenging assignments",
+                    "vi": "bài tập khó"
+                  },
+                  {
+                    "en": "answer promptly",
+                    "vi": "giải đáp kịp thời"
+                  },
+                  {
+                    "en": "daily study routines",
+                    "vi": "thói quen học tập hằng ngày"
+                  },
+                  {
+                    "en": "weak subjects",
+                    "vi": "môn học còn yếu"
+                  },
+                  {
+                    "en": "remote-working parent",
+                    "vi": "phụ huynh làm việc từ xa"
+                  },
+                  {
+                    "en": "academic involvement",
+                    "vi": "sự đồng hành học tập"
                   }
                 ],
                 "point_collocations": [
@@ -169786,38 +168856,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "guide difficult assignments",
-                      "vi": "hướng dẫn các bài tập khó"
+                      "en": "challenging assignments",
+                      "vi": "bài tập khó"
                     },
                     {
-                      "en": "support children's education",
-                      "vi": "hỗ trợ việc học của con"
-                    },
-                    {
-                      "en": "monitor study routines",
-                      "vi": "theo dõi nề nếp học tập"
+                      "en": "answer promptly",
+                      "vi": "giải đáp kịp thời"
                     }
                   ],
                   [
                     {
-                      "en": "monitor study routines",
-                      "vi": "theo dõi nề nếp học tập"
+                      "en": "daily study routines",
+                      "vi": "thói quen học tập hằng ngày"
                     },
                     {
-                      "en": "identify learning struggles",
-                      "vi": "nhận diện những khó khăn học tập"
-                    },
+                      "en": "weak subjects",
+                      "vi": "môn học còn yếu"
+                    }
+                  ],
+                  [
                     {
-                      "en": "monitor",
-                      "vi": "theo dõi, giám sát"
-                    },
+                      "en": "remote-working parent",
+                      "vi": "phụ huynh làm việc từ xa"
+                    }
+                  ],
+                  [
                     {
-                      "en": "routine",
-                      "vi": "nề nếp, lịch trình quen thuộc"
-                    },
-                    {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
+                      "en": "academic involvement",
+                      "vi": "sự đồng hành học tập"
                     }
                   ]
                 ]
@@ -169826,8 +168892,8 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 02",
                 "point_vi": "Làm việc tại nhà tạo điều kiện để cha mẹ thấu hiểu sâu sắc thói quen và tính cách của con.",
                 "point_en": "Telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
-                "evidence_vi": "• Luận cứ 1: Nhờ dành nhiều thời gian ở nhà, cha mẹ có thể trực tiếp quan sát cách con tự học, vui chơi và tương tác với bạn bè.\n• Luận cứ 2: Khi nhận thấy những thay đổi bất thường về tâm lý hoặc hành vi, phụ huynh có thể đưa ra những lời khuyên tích cực và định hướng kịp thời.",
-                "evidence_en": "• Evidence 1: By spending more time at home, parents can directly observe how their children study, play, and interact with peers.\n• Evidence 2: When noticing unusual emotional or behavioral shifts, caregivers can provide timely advice and positive guidance.",
+                "evidence_vi": "Nhờ dành nhiều thời gian hiện diện tại nhà, cha mẹ có thể trực tiếp quan sát cách con học tập, vui chơi và tương tác với bạn bè. Quá trình gần gũi thường xuyên này giúp phụ huynh sớm nhận ra những thay đổi tinh tế về tâm lý, thói quen hay sở thích của con. Ví dụ, nếu nhận thấy con đột nhiên thu mình hoặc lo âu vì áp lực ở trường, cha mẹ có thể trò chuyện và hỗ trợ ngay lập tức. Sự thấu hiểu sâu sắc này giúp hạn chế khoảng cách thế hệ và xây dựng nền tảng tin cậy vững chắc giữa hai thế hệ.",
+                "evidence_en": "Spending greater time at home allows parents to directly observe how their children study, play, and socialize with peers. This regular proximity helps caregivers detect subtle shifts in their children's moods, habits, or emerging interests early on. For instance, if a child suddenly appears withdrawn or anxious about school pressure, parents can intervene with timely encouragement. Such deep understanding bridges generational gaps and establishes a strong foundation of mutual trust.",
                 "collocations": [
                   {
                     "en": "deeper insights into habits",
@@ -169838,12 +168904,40 @@ const ESSAY_DATA = [
                     "vi": "các khuôn mẫu hành vi"
                   },
                   {
-                    "en": "directly observe",
-                    "vi": "quan sát trực tiếp"
+                    "en": "behavior",
+                    "vi": "hành vi, cách ứng xử"
                   },
                   {
-                    "en": "positive guidance",
-                    "vi": "sự định hướng tích cực"
+                    "en": "habit",
+                    "vi": "thói quen"
+                  },
+                  {
+                    "en": "telecommuting",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "socialize with peers",
+                    "vi": "giao tiếp với bạn đồng trang lứa"
+                  },
+                  {
+                    "en": "subtle shifts",
+                    "vi": "những thay đổi tinh tế / nhỏ"
+                  },
+                  {
+                    "en": "appear withdrawn",
+                    "vi": "có biểu hiện thu mình"
+                  },
+                  {
+                    "en": "timely encouragement",
+                    "vi": "sự động viên kịp thời"
+                  },
+                  {
+                    "en": "bridge generational gaps",
+                    "vi": "thu hẹp khoảng cách thế hệ"
+                  },
+                  {
+                    "en": "mutual trust",
+                    "vi": "lòng tin lẫn nhau"
                   }
                 ],
                 "point_collocations": [
@@ -169871,30 +168965,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "directly observe",
-                      "vi": "quan sát trực tiếp"
-                    },
-                    {
-                      "en": "observe",
-                      "vi": "quan sát"
-                    },
-                    {
-                      "en": "at the same time",
-                      "vi": "đồng thời / cùng lúc đó"
+                      "en": "socialize with peers",
+                      "vi": "giao tiếp với bạn đồng trang lứa"
                     }
                   ],
                   [
                     {
-                      "en": "positive guidance",
-                      "vi": "sự định hướng tích cực"
+                      "en": "subtle shifts",
+                      "vi": "những thay đổi tinh tế / nhỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "appear withdrawn",
+                      "vi": "có biểu hiện thu mình"
                     },
                     {
-                      "en": "behavior",
-                      "vi": "hành vi, cách ứng xử"
+                      "en": "timely encouragement",
+                      "vi": "sự động viên kịp thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bridge generational gaps",
+                      "vi": "thu hẹp khoảng cách thế hệ"
                     },
                     {
-                      "en": "advice",
-                      "vi": "lời khuyên"
+                      "en": "mutual trust",
+                      "vi": "lòng tin lẫn nhau"
                     }
                   ]
                 ]
@@ -169903,24 +169001,44 @@ const ESSAY_DATA = [
                 "title": "POSITIVE EFFECT 03",
                 "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và được yêu thương.",
                 "point_en": "Parents' presence at home fosters a strong sense of emotional security and comfort for children.",
-                "evidence_vi": "• Luận cứ 1: Con trẻ luôn cảm thấy an tâm vì biết rằng cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi các em cần sự giúp đỡ.\n• Luận cứ 2: Sự gần gũi này khuyến khích trẻ thoải mái tâm sự những khó khăn cá nhân, từ đó xây dựng sự tự tin và củng cố tình cảm gia đình.",
-                "evidence_en": "• Evidence 1: Youngsters feel secure knowing that their parents are accessible and ready to listen whenever they need assistance.\n• Evidence 2: This close connection encourages kids to open up about personal challenges, which enhances self-confidence and strengthens family bonds.",
+                "evidence_vi": "Trẻ em luôn cảm thấy an tâm và được che chở khi biết rằng cha mẹ ở ngay gần và sẵn sàng lắng nghe mỗi lúc các em cần giúp đỡ. Cảm giác an toàn về mặt tinh thần này khuyến khích trẻ cởi mở tâm sự những trăn trở cá nhân thay vì giữ kín trong lòng. Chẳng hạn, một đứa trẻ gặp chuyện buồn ở lớp sẽ dễ dàng tìm đến cha mẹ để được an ủi ngay khi về nhà thay vì chờ đến tối muộn. Chính sự hiện diện ấm áp ấy giúp trẻ phát triển sự tự tin lành mạnh và thắt chặt tình cảm gia đình.",
+                "evidence_en": "Children experience deep reassurance knowing that their parents are physically accessible and ready to listen whenever assistance is needed. This strong sense of emotional security encourages youngsters to open up about personal struggles instead of bottling up their feelings. For example, a child upset by a conflict at school can seek immediate comfort upon returning home rather than waiting until late evening. This warm, dependable presence nurtures healthy self-confidence and strengthens lifelong family bonds.",
                 "collocations": [
                   {
                     "en": "emotional security",
                     "vi": "sự an toàn về mặt cảm xúc"
                   },
                   {
+                    "en": "as a result",
+                    "vi": "nhờ đó / kết quả là"
+                  },
+                  {
                     "en": "parents are accessible",
                     "vi": "cha mẹ luôn ở gần, dễ tiếp cận"
                   },
                   {
-                    "en": "open up about challenges",
-                    "vi": "mở lòng về những thử thách"
+                    "en": "deep reassurance",
+                    "vi": "sự yên tâm sâu sắc"
                   },
                   {
-                    "en": "strengthen family bonds",
-                    "vi": "thắt chặt tình cảm gia đình"
+                    "en": "physically accessible",
+                    "vi": "hiện diện gần gũi / dễ tiếp cận"
+                  },
+                  {
+                    "en": "bottle up feelings",
+                    "vi": "giữ kín cảm xúc trong lòng"
+                  },
+                  {
+                    "en": "seek immediate comfort",
+                    "vi": "tìm kiếm sự an ủi ngay lập tức"
+                  },
+                  {
+                    "en": "healthy self-confidence",
+                    "vi": "sự tự tin lành mạnh"
+                  },
+                  {
+                    "en": "lifelong family bonds",
+                    "vi": "sự gắn kết gia đình bền chặt"
                   }
                 ],
                 "point_collocations": [
@@ -169940,30 +169058,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "parents are accessible",
-                      "vi": "cha mẹ luôn ở gần, dễ tiếp cận"
+                      "en": "deep reassurance",
+                      "vi": "sự yên tâm sâu sắc"
                     },
                     {
-                      "en": "secure",
-                      "vi": "an tâm, vững tâm"
-                    },
-                    {
-                      "en": "accessible",
-                      "vi": "dễ tiếp cận, luôn sẵn sàng"
+                      "en": "physically accessible",
+                      "vi": "hiện diện gần gũi / dễ tiếp cận"
                     }
                   ],
                   [
                     {
-                      "en": "open up about challenges",
-                      "vi": "mở lòng về những thử thách"
+                      "en": "emotional security",
+                      "vi": "sự an toàn về cảm xúc"
                     },
                     {
-                      "en": "strengthen family bonds",
-                      "vi": "thắt chặt tình cảm gia đình"
+                      "en": "bottle up feelings",
+                      "vi": "giữ kín cảm xúc trong lòng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "seek immediate comfort",
+                      "vi": "tìm kiếm sự an ủi ngay lập tức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "healthy self-confidence",
+                      "vi": "sự tự tin lành mạnh"
                     },
                     {
-                      "en": "bond",
-                      "vi": "sự gắn kết, tình cảm khăng khít"
+                      "en": "lifelong family bonds",
+                      "vi": "sự gắn kết gia đình bền chặt"
                     }
                   ]
                 ]
@@ -169982,27 +169108,39 @@ const ESSAY_DATA = [
                     "vi": "những khoảnh khắc ý nghĩa"
                   }
                 ],
-                "evidence_vi": "Thay vì mất hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh có thể tự tay chuẩn bị bữa sáng, đưa đón con đi học và trò chuyện cùng con. Những tương tác đều đặn này dần vun đắp sự gần gũi và ấm áp trong mối quan hệ cha mẹ và con cái.",
-                "evidence_en": "Instead of spending hours stuck in rush-hour traffic, parents can prepare breakfast, accompany their children to school, and enjoy relaxed conversations together. These consistent daily interactions gradually nurture warmth and closeness within the parent-child relationship.",
+                "evidence_vi": "Thay vì tiêu tốn hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh tiết kiệm được quỹ thời gian đáng kể để dành cho gia đình. Họ có thể tự tay chuẩn bị bữa sáng bổ dưỡng, trực tiếp đưa đón con đến trường và cùng con dùng bữa trưa tại nhà. Chẳng hạn, chỉ vài phút trò chuyện thoải mái trên đường đưa con đi học cũng đủ tạo nên những kỷ niệm tuổi thơ ấm áp. Những khoảnh khắc sinh hoạt chung đều đặn này dần nuôi dưỡng bầu không khí gắn kết và gần gũi giữa cha mẹ với con cái.",
+                "evidence_en": "Instead of losing hours to rush-hour congestion every morning and evening, parents reclaim valuable daily time for family life. They can prepare nutritious breakfasts, accompany their children to school personally, and share unhurried lunches at home. For instance, even relaxed conversations during the morning school run can create cherished childhood memories. These consistent shared routines gradually cultivate warmth, openness, and deeper closeness between parents and children.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "rush-hour traffic",
-                      "vi": "giao thông giờ cao điểm"
+                      "en": "rush-hour congestion",
+                      "vi": "tắc đường giờ cao điểm"
                     },
                     {
-                      "en": "relaxed conversations",
-                      "vi": "những cuộc trò chuyện thoải mái"
+                      "en": "reclaim valuable time",
+                      "vi": "giành lại thời gian quý giá"
                     }
                   ],
                   [
                     {
-                      "en": "consistent interactions",
-                      "vi": "sự tương tác đều đặn"
+                      "en": "nutritious breakfasts",
+                      "vi": "bữa sáng bổ dưỡng"
                     },
                     {
-                      "en": "nurture warmth and closeness",
-                      "vi": "vun đắp sự ấm áp và gần gũi"
+                      "en": "unhurried lunches",
+                      "vi": "bữa trưa thong thả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cherished childhood memories",
+                      "vi": "kỷ niệm tuổi thơ đáng trân quý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "shared routines",
+                      "vi": "thói quen sinh hoạt chung"
                     }
                   ]
                 ],
@@ -170016,20 +169154,28 @@ const ESSAY_DATA = [
                     "vi": "những khoảnh khắc ý nghĩa"
                   },
                   {
-                    "en": "rush-hour traffic",
-                    "vi": "giao thông giờ cao điểm"
+                    "en": "rush-hour congestion",
+                    "vi": "tắc đường giờ cao điểm"
                   },
                   {
-                    "en": "relaxed conversations",
-                    "vi": "những cuộc trò chuyện thoải mái"
+                    "en": "reclaim valuable time",
+                    "vi": "giành lại thời gian quý giá"
                   },
                   {
-                    "en": "consistent interactions",
-                    "vi": "sự tương tác đều đặn"
+                    "en": "nutritious breakfasts",
+                    "vi": "bữa sáng bổ dưỡng"
                   },
                   {
-                    "en": "nurture warmth and closeness",
-                    "vi": "vun đắp sự ấm áp và gần gũi"
+                    "en": "unhurried lunches",
+                    "vi": "bữa trưa thong thả"
+                  },
+                  {
+                    "en": "cherished childhood memories",
+                    "vi": "kỷ niệm tuổi thơ đáng trân quý"
+                  },
+                  {
+                    "en": "shared routines",
+                    "vi": "thói quen sinh hoạt chung"
                   }
                 ]
               },
@@ -170047,8 +169193,8 @@ const ESSAY_DATA = [
                     "vi": "sự trân trọng sâu sắc hơn"
                   }
                 ],
-                "evidence_vi": "Trẻ em tận mắt thấy cách cha mẹ tập trung giải quyết công việc, quản lý thời gian và hoàn thành trách nhiệm mỗi ngày. Qua tấm gương trực quan đó, các em không chỉ tôn trọng nỗ lực mưu sinh của cha mẹ hơn mà còn sớm học được kỹ năng tự giác trong học tập.",
-                "evidence_en": "Children witness firsthand how their parents stay focused, organize their schedules, and fulfill professional commitments each day. Through this tangible role modeling, youngsters not only gain greater respect for their parents' hard work but also develop stronger self-discipline in their own studies.",
+                "evidence_vi": "Khi cha mẹ làm việc tại nhà, trẻ có cơ hội tận mắt chứng kiến cách người lớn tập trung giải quyết nhiệm vụ và sắp xếp lịch trình chuyên nghiệp. Việc quan sát trực tiếp này giúp trẻ thấu hiểu những nỗ lực mưu sinh hằng ngày của cha mẹ thay vì coi mọi thứ là hiển nhiên. Ví dụ, khi thấy cha mẹ hoàn thành hạn chót đúng giờ rồi mới nghỉ ngơi, nhiều trẻ bắt đầu tự giác lập thời gian biểu học tập cho riêng mình. Tấm gương sống động ấy không chỉ bồi đắp sự tôn trọng đối với cha mẹ mà còn rèn luyện tính kỷ luật lâu dài cho trẻ.",
+                "evidence_en": "When parents work from home, children witness firsthand how adults focus on demanding tasks and organize professional schedules effectively. Direct observation helps youngsters appreciate the daily effort required to support the household rather than taking it for granted. For example, seeing parents meet deadlines diligently before relaxing often inspires children to create and follow their own study timetables. This tangible role modeling both deepens respect for parents and builds lasting self-discipline in young people.",
                 "evidence_collocations": [
                   [
                     {
@@ -170056,18 +169202,30 @@ const ESSAY_DATA = [
                       "vi": "tận mắt chứng kiến"
                     },
                     {
-                      "en": "fulfill commitments",
-                      "vi": "hoàn thành trách nhiệm / cam kết"
+                      "en": "demanding tasks",
+                      "vi": "nhiệm vụ đòi hỏi cao"
                     }
                   ],
                   [
                     {
-                      "en": "role modeling",
-                      "vi": "làm gương"
+                      "en": "take for granted",
+                      "vi": "coi là điều hiển nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "meet deadlines diligently",
+                      "vi": "hoàn thành hạn chót chăm chỉ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "tangible role modeling",
+                      "vi": "tấm gương trực quan"
                     },
                     {
-                      "en": "self-discipline",
-                      "vi": "tính tự giác / kỷ luật bản thân"
+                      "en": "lasting self-discipline",
+                      "vi": "tính kỷ luật bền vững"
                     }
                   ]
                 ],
@@ -170085,16 +169243,24 @@ const ESSAY_DATA = [
                     "vi": "tận mắt chứng kiến"
                   },
                   {
-                    "en": "fulfill commitments",
-                    "vi": "hoàn thành trách nhiệm / cam kết"
+                    "en": "demanding tasks",
+                    "vi": "nhiệm vụ đòi hỏi cao"
                   },
                   {
-                    "en": "role modeling",
-                    "vi": "làm gương"
+                    "en": "take for granted",
+                    "vi": "coi là điều hiển nhiên"
                   },
                   {
-                    "en": "self-discipline",
-                    "vi": "tính tự giác / kỷ luật bản thân"
+                    "en": "meet deadlines diligently",
+                    "vi": "hoàn thành hạn chót chăm chỉ"
+                  },
+                  {
+                    "en": "tangible role modeling",
+                    "vi": "tấm gương trực quan"
+                  },
+                  {
+                    "en": "lasting self-discipline",
+                    "vi": "tính kỷ luật bền vững"
                   }
                 ]
               }
@@ -170871,24 +170037,36 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
                     "point_en": "Working from home helps parents support their children's studies more effectively.",
-                    "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn. Nhờ đó, họ có thể phát hiện sớm những khó khăn của con ở trường để giúp con tiến bộ.",
-                    "evidence_en": "Parents can help their children with homework when needed and monitor their studies more regularly. As a result, they can quickly notice their children's difficulties at school to help them improve.",
+                    "evidence_vi": "Cha mẹ có thể trực tiếp giúp con làm bài tập khó bất cứ khi nào con cần hỗ trợ. Ngoài ra, họ cũng dễ dàng theo dõi tiến độ học tập của con mỗi ngày. Nhờ đó, phụ huynh sớm phát hiện những khó khăn ở trường để giúp con tiến bộ hơn.",
+                    "evidence_en": "Parents can directly help their children with difficult homework whenever they need support. In addition, they can monitor their children's learning progress more regularly every day. As a result, parents notice school difficulties early and help their children improve faster.",
                     "collocations": [
                       {
                         "en": "support their children's studies",
                         "vi": "hỗ trợ việc học của con"
                       },
                       {
-                        "en": "help with homework",
-                        "vi": "giúp làm bài tập về nhà"
+                        "en": "support",
+                        "vi": "hỗ trợ, ủng hộ"
                       },
                       {
-                        "en": "monitor studies regularly",
-                        "vi": "theo dõi việc học thường xuyên"
+                        "en": "more effectively",
+                        "vi": "một cách hiệu quả hơn"
                       },
                       {
-                        "en": "improve school results",
-                        "vi": "cải thiện kết quả học tập"
+                        "en": "difficult homework",
+                        "vi": "bài tập khó"
+                      },
+                      {
+                        "en": "need support",
+                        "vi": "cần hỗ trợ"
+                      },
+                      {
+                        "en": "monitor learning progress",
+                        "vi": "theo dõi tiến độ học tập"
+                      },
+                      {
+                        "en": "school difficulties",
+                        "vi": "khó khăn ở trường"
                       }
                     ],
                     "point_collocations": [
@@ -170908,42 +170086,24 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "support their children's studies",
-                          "vi": "hỗ trợ việc học của con"
+                          "en": "difficult homework",
+                          "vi": "bài tập khó"
                         },
                         {
-                          "en": "help with homework",
-                          "vi": "giúp làm bài tập về nhà"
-                        },
-                        {
-                          "en": "monitor studies regularly",
-                          "vi": "theo dõi việc học thường xuyên"
-                        },
-                        {
-                          "en": "homework",
-                          "vi": "bài tập về nhà"
-                        },
-                        {
-                          "en": "monitor",
-                          "vi": "theo dõi, giám sát"
+                          "en": "need support",
+                          "vi": "cần hỗ trợ"
                         }
                       ],
                       [
                         {
-                          "en": "support their children's studies",
-                          "vi": "hỗ trợ việc học của con"
-                        },
+                          "en": "monitor learning progress",
+                          "vi": "theo dõi tiến độ học tập"
+                        }
+                      ],
+                      [
                         {
-                          "en": "improve school results",
-                          "vi": "cải thiện kết quả học tập"
-                        },
-                        {
-                          "en": "improve",
-                          "vi": "cải thiện, tiến bộ"
-                        },
-                        {
-                          "en": "as a result",
-                          "vi": "nhờ đó / kết quả là"
+                          "en": "school difficulties",
+                          "vi": "khó khăn ở trường"
                         }
                       ]
                     ]
@@ -170952,24 +170112,32 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 02",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
                     "point_en": "Working from home allows parents to understand their children's habits and behavior better.",
-                    "evidence_vi": "Cha mẹ có thể quan sát cách con học tập và sinh hoạt ở nhà mỗi ngày. Khi nhận ra những thay đổi trong hành vi của con, họ có thể đưa ra lời khuyên và hỗ trợ phù hợp.",
-                    "evidence_en": "Parents can observe how their children study and live at home every day. When they notice changes in behavior, they can offer useful advice and suitable support.",
+                    "evidence_vi": "Cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập, vui chơi và sinh hoạt ở nhà mỗi ngày. Nhờ vậy, họ có thể nhanh chóng nhận ra những thay đổi trong tâm trạng hoặc hành vi của con. Từ đó, phụ huynh dễ dàng đưa ra lời khuyên phù hợp để định hướng con kịp thời.",
+                    "evidence_en": "Parents have more opportunities to observe how their children study, play, and live at home every day. Consequently, they can quickly notice changes in their children's moods or behavior. Therefore, parents can give helpful advice and guide their children at the right time.",
                     "collocations": [
                       {
                         "en": "understand children's habits",
                         "vi": "hiểu thói quen của con"
                       },
                       {
-                        "en": "observe daily activities",
-                        "vi": "quan sát các hoạt động hằng ngày"
+                        "en": "behavior",
+                        "vi": "hành vi, cách ứng xử"
                       },
                       {
-                        "en": "changes in behavior",
-                        "vi": "những thay đổi trong hành vi"
+                        "en": "habit",
+                        "vi": "thói quen"
                       },
                       {
-                        "en": "give suitable advice",
-                        "vi": "đưa ra lời khuyên phù hợp"
+                        "en": "observe daily habits",
+                        "vi": "quan sát thói quen hằng ngày"
+                      },
+                      {
+                        "en": "changes in moods or behavior",
+                        "vi": "thay đổi về tâm trạng hoặc hành vi"
+                      },
+                      {
+                        "en": "give helpful advice",
+                        "vi": "đưa ra lời khuyên hữu ích"
                       }
                     ],
                     "point_collocations": [
@@ -170989,38 +170157,20 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "observe",
-                          "vi": "quan sát"
-                        },
-                        {
-                          "en": "understand children's habits",
-                          "vi": "hiểu thói quen của con"
-                        },
-                        {
-                          "en": "observe daily activities",
-                          "vi": "quan sát các hoạt động hằng ngày"
+                          "en": "observe daily habits",
+                          "vi": "quan sát thói quen hằng ngày"
                         }
                       ],
                       [
                         {
-                          "en": "changes in behavior",
-                          "vi": "những thay đổi trong hành vi"
-                        },
+                          "en": "changes in moods or behavior",
+                          "vi": "thay đổi về tâm trạng hoặc hành vi"
+                        }
+                      ],
+                      [
                         {
-                          "en": "give suitable advice",
-                          "vi": "đưa ra lời khuyên phù hợp"
-                        },
-                        {
-                          "en": "behavior",
-                          "vi": "hành vi, cách ứng xử"
-                        },
-                        {
-                          "en": "advice",
-                          "vi": "lời khuyên"
-                        },
-                        {
-                          "en": "support",
-                          "vi": "hỗ trợ, ủng hộ"
+                          "en": "give helpful advice",
+                          "vi": "đưa ra lời khuyên hữu ích"
                         }
                       ]
                     ]
@@ -171029,24 +170179,32 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 03",
                     "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
                     "point_en": "Working from home makes children feel safer and more cared for.",
-                    "evidence_vi": "Trẻ biết rằng cha mẹ luôn ở gần khi mình cần giúp đỡ, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề của mình. Điều này giúp trẻ cảm thấy tự tin và yên tâm hơn.",
-                    "evidence_en": "Children know that their parents are always nearby when they need help, so they can easily share their worries or problems. This helps children feel more confident and secure.",
+                    "evidence_vi": "Trẻ nhỏ biết rằng cha mẹ luôn ở ngay bên cạnh khi mình cần giúp đỡ nên cảm thấy rất an tâm. Hơn nữa, các em có thể dễ dàng chia sẻ những lo lắng hay câu chuyện ở trường với cha mẹ bất cứ lúc nào. Nhờ những cuộc trò chuyện hằng ngày này, tình cảm gia đình trở nên gắn bó hơn nhiều.",
+                    "evidence_en": "Children know that their parents are always nearby when they need help, so they feel very safe. Moreover, they can easily share their worries or school stories with their parents at any time. Because of these daily talks, family bonds become much stronger.",
                     "collocations": [
                       {
                         "en": "feel safer and more cared for",
                         "vi": "cảm thấy an toàn và được quan tâm hơn"
                       },
                       {
+                        "en": "feel more confident",
+                        "vi": "cảm thấy tự tin hơn"
+                      },
+                      {
                         "en": "always nearby",
                         "vi": "luôn ở gần bên"
                       },
                       {
-                        "en": "share worries and problems",
-                        "vi": "chia sẻ lo lắng và vấn đề"
+                        "en": "feel safe",
+                        "vi": "cảm thấy an toàn"
                       },
                       {
-                        "en": "feel more confident",
-                        "vi": "cảm thấy tự tin hơn"
+                        "en": "share worries",
+                        "vi": "chia sẻ lo lắng"
+                      },
+                      {
+                        "en": "family bonds",
+                        "vi": "tình cảm / sự gắn kết gia đình"
                       }
                     ],
                     "point_collocations": [
@@ -171067,33 +170225,23 @@ const ESSAY_DATA = [
                       [
                         {
                           "en": "always nearby",
-                          "vi": "luôn ở gần bên"
+                          "vi": "luôn ở gần"
                         },
                         {
-                          "en": "share worries and problems",
-                          "vi": "chia sẻ lo lắng và vấn đề"
-                        },
-                        {
-                          "en": "nearby",
-                          "vi": "ở gần bên"
-                        },
-                        {
-                          "en": "share",
-                          "vi": "chia sẻ, tâm sự"
+                          "en": "feel safe",
+                          "vi": "cảm thấy an toàn"
                         }
                       ],
                       [
                         {
-                          "en": "feel more confident",
-                          "vi": "cảm thấy tự tin hơn"
-                        },
+                          "en": "share worries",
+                          "vi": "chia sẻ lo lắng"
+                        }
+                      ],
+                      [
                         {
-                          "en": "confident",
-                          "vi": "tự tin"
-                        },
-                        {
-                          "en": "secure",
-                          "vi": "an tâm, vững tâm"
+                          "en": "family bonds",
+                          "vi": "tình cảm / sự gắn kết gia đình"
                         }
                       ]
                     ]
@@ -171112,17 +170260,29 @@ const ESSAY_DATA = [
                         "vi": "ăn cơm cùng nhau"
                       }
                     ],
-                    "evidence_vi": "Cha mẹ có thể đưa đón con đi học, ăn trưa cùng con và trò chuyện nhiều hơn mỗi ngày.",
-                    "evidence_en": "Parents can pick their children up from school, have lunch together, and talk with them more every day.",
+                    "evidence_vi": "Vì không phải mất nhiều thời gian kẹt xe trên đường đi làm, cha mẹ có thêm thời gian rảnh mỗi ngày. Họ có thể tự chuẩn bị bữa sáng, đưa đón con đi học và ăn trưa cùng con tại nhà. Những hoạt động giản dị này giúp cha mẹ và con cái gần gũi và thấu hiểu nhau hơn.",
+                    "evidence_en": "Without wasting hours in traffic on the way to work, parents gain more free time every day. They can prepare breakfast, pick their children up from school, and enjoy lunch together at home. These simple daily moments bring parents and children much closer together.",
                     "evidence_collocations": [
                       [
                         {
+                          "en": "waste hours in traffic",
+                          "vi": "mất nhiều giờ kẹt xe"
+                        }
+                      ],
+                      [
+                        {
                           "en": "pick up from school",
-                          "vi": "đón con ở trường"
+                          "vi": "đón con từ trường"
                         },
                         {
-                          "en": "have lunch together",
+                          "en": "enjoy lunch together",
                           "vi": "ăn trưa cùng nhau"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "closer together",
+                          "vi": "gần gũi với nhau hơn"
                         }
                       ]
                     ],
@@ -171136,12 +170296,20 @@ const ESSAY_DATA = [
                         "vi": "ăn cơm cùng nhau"
                       },
                       {
-                        "en": "pick up from school",
-                        "vi": "đón con ở trường"
+                        "en": "waste hours in traffic",
+                        "vi": "mất nhiều giờ kẹt xe"
                       },
                       {
-                        "en": "have lunch together",
+                        "en": "pick up from school",
+                        "vi": "đón con từ trường"
+                      },
+                      {
+                        "en": "enjoy lunch together",
                         "vi": "ăn trưa cùng nhau"
+                      },
+                      {
+                        "en": "closer together",
+                        "vi": "gần gũi với nhau hơn"
                       }
                     ]
                   },
@@ -171159,17 +170327,25 @@ const ESSAY_DATA = [
                         "vi": "làm việc chăm chỉ"
                       }
                     ],
-                    "evidence_vi": "Khi thấy cha mẹ sắp xếp thời gian hợp lý giữa công việc và gia đình, trẻ sẽ biết tôn trọng công việc của cha mẹ hơn.",
-                    "evidence_en": "When children see parents manage their time well between work and family, they learn to respect their parents' efforts more.",
+                    "evidence_vi": "Khi ở nhà cùng cha mẹ, trẻ em có thể tận mắt thấy cách cha mẹ tập trung làm việc và sắp xếp thời gian hằng ngày. Điều này giúp các em hiểu được công sức của cha mẹ và biết tôn trọng giờ làm việc hơn. Qua tấm gương đó, trẻ cũng học được tính tự giác và tinh thần trách nhiệm trong học tập.",
+                    "evidence_en": "Staying at home with parents lets children see how their parents focus on tasks and manage their time daily. This helps children understand their parents' hard work and respect working hours more. Through this good example, kids also learn self-discipline and responsibility in their own studies.",
                     "evidence_collocations": [
                       [
                         {
-                          "en": "manage time well",
-                          "vi": "quản lý thời gian tốt"
-                        },
+                          "en": "manage time daily",
+                          "vi": "quản lý thời gian hằng ngày"
+                        }
+                      ],
+                      [
                         {
-                          "en": "respect efforts",
-                          "vi": "tôn trọng nỗ lực"
+                          "en": "respect working hours",
+                          "vi": "tôn trọng giờ làm việc"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "self-discipline and responsibility",
+                          "vi": "tính tự giác và tinh thần trách nhiệm"
                         }
                       ]
                     ],
@@ -171183,12 +170359,16 @@ const ESSAY_DATA = [
                         "vi": "làm việc chăm chỉ"
                       },
                       {
-                        "en": "manage time well",
-                        "vi": "quản lý thời gian tốt"
+                        "en": "manage time daily",
+                        "vi": "quản lý thời gian hằng ngày"
                       },
                       {
-                        "en": "respect efforts",
-                        "vi": "tôn trọng nỗ lực"
+                        "en": "respect working hours",
+                        "vi": "tôn trọng giờ làm việc"
+                      },
+                      {
+                        "en": "self-discipline and responsibility",
+                        "vi": "tính tự giác và tinh thần trách nhiệm"
                       }
                     ]
                   }
@@ -171200,24 +170380,44 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả và kịp thời hơn.",
                     "point_en": "Working from home enables parents to support their children's education much more effectively.",
-                    "evidence_vi": "• Luận cứ 1: Cha mẹ có thể ở cạnh để hướng dẫn con làm các bài tập khó và giải đáp thắc mắc ngay khi con cần.\n• Luận cứ 2: Đồng thời, việc theo dõi thói quen học tập hằng ngày giúp phụ huynh sớm phát hiện các môn học con còn yếu để cùng con khắc phục.",
-                    "evidence_en": "• Evidence 1: Parents are available at home to guide children through difficult assignments and answer academic questions immediately.\n• Evidence 2: At the same time, monitoring daily study routines allows parents to identify subjects where their children struggle early on.",
+                    "evidence_vi": "Phụ huynh có mặt sẵn ở nhà để kịp thời hướng dẫn con giải quyết các bài tập khó và giải đáp thắc mắc học thuật ngay khi cần. Đồng thời, việc theo sát thói quen tự học hằng ngày giúp cha mẹ sớm nhận diện những môn học con còn yếu. Chẳng hạn, một người cha hoặc người mẹ làm việc linh hoạt có thể kiểm tra bài vở và ôn tập cùng con ngay sau giờ tan học. Nhờ sự đồng hành sát sao này, trẻ không chỉ cải thiện thành tích học tập mà còn cảm nhận được sự quan tâm sâu sắc từ gia đình.",
+                    "evidence_en": "Parents are readily available at home to guide children through challenging assignments and answer academic questions promptly. Simultaneously, monitoring daily study routines enables parents to identify weak subjects before small gaps grow serious. For example, a remote-working parent can review homework and prepare for upcoming tests with their child right after school. Through such consistent academic involvement, children not only achieve stronger school results but also feel deeply supported by their families.",
                     "collocations": [
                       {
                         "en": "support children's education",
                         "vi": "hỗ trợ việc học của con"
                       },
                       {
-                        "en": "guide difficult assignments",
-                        "vi": "hướng dẫn các bài tập khó"
+                        "en": "support",
+                        "vi": "hỗ trợ, ủng hộ"
                       },
                       {
-                        "en": "monitor study routines",
-                        "vi": "theo dõi nề nếp học tập"
+                        "en": "more effectively",
+                        "vi": "một cách hiệu quả hơn"
                       },
                       {
-                        "en": "identify learning struggles",
-                        "vi": "nhận diện những khó khăn học tập"
+                        "en": "challenging assignments",
+                        "vi": "bài tập khó"
+                      },
+                      {
+                        "en": "answer promptly",
+                        "vi": "giải đáp kịp thời"
+                      },
+                      {
+                        "en": "daily study routines",
+                        "vi": "thói quen học tập hằng ngày"
+                      },
+                      {
+                        "en": "weak subjects",
+                        "vi": "môn học còn yếu"
+                      },
+                      {
+                        "en": "remote-working parent",
+                        "vi": "phụ huynh làm việc từ xa"
+                      },
+                      {
+                        "en": "academic involvement",
+                        "vi": "sự đồng hành học tập"
                       }
                     ],
                     "point_collocations": [
@@ -171237,38 +170437,34 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "guide difficult assignments",
-                          "vi": "hướng dẫn các bài tập khó"
+                          "en": "challenging assignments",
+                          "vi": "bài tập khó"
                         },
                         {
-                          "en": "support children's education",
-                          "vi": "hỗ trợ việc học của con"
-                        },
-                        {
-                          "en": "monitor study routines",
-                          "vi": "theo dõi nề nếp học tập"
+                          "en": "answer promptly",
+                          "vi": "giải đáp kịp thời"
                         }
                       ],
                       [
                         {
-                          "en": "monitor study routines",
-                          "vi": "theo dõi nề nếp học tập"
+                          "en": "daily study routines",
+                          "vi": "thói quen học tập hằng ngày"
                         },
                         {
-                          "en": "identify learning struggles",
-                          "vi": "nhận diện những khó khăn học tập"
-                        },
+                          "en": "weak subjects",
+                          "vi": "môn học còn yếu"
+                        }
+                      ],
+                      [
                         {
-                          "en": "monitor",
-                          "vi": "theo dõi, giám sát"
-                        },
+                          "en": "remote-working parent",
+                          "vi": "phụ huynh làm việc từ xa"
+                        }
+                      ],
+                      [
                         {
-                          "en": "routine",
-                          "vi": "nề nếp, lịch trình quen thuộc"
-                        },
-                        {
-                          "en": "at the same time",
-                          "vi": "đồng thời / cùng lúc đó"
+                          "en": "academic involvement",
+                          "vi": "sự đồng hành học tập"
                         }
                       ]
                     ]
@@ -171277,8 +170473,8 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 02",
                     "point_vi": "Làm việc tại nhà tạo điều kiện để cha mẹ thấu hiểu sâu sắc thói quen và tính cách của con.",
                     "point_en": "Telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
-                    "evidence_vi": "• Luận cứ 1: Nhờ dành nhiều thời gian ở nhà, cha mẹ có thể trực tiếp quan sát cách con tự học, vui chơi và tương tác với bạn bè.\n• Luận cứ 2: Khi nhận thấy những thay đổi bất thường về tâm lý hoặc hành vi, phụ huynh có thể đưa ra những lời khuyên tích cực và định hướng kịp thời.",
-                    "evidence_en": "• Evidence 1: By spending more time at home, parents can directly observe how their children study, play, and interact with peers.\n• Evidence 2: When noticing unusual emotional or behavioral shifts, caregivers can provide timely advice and positive guidance.",
+                    "evidence_vi": "Nhờ dành nhiều thời gian hiện diện tại nhà, cha mẹ có thể trực tiếp quan sát cách con học tập, vui chơi và tương tác với bạn bè. Quá trình gần gũi thường xuyên này giúp phụ huynh sớm nhận ra những thay đổi tinh tế về tâm lý, thói quen hay sở thích của con. Ví dụ, nếu nhận thấy con đột nhiên thu mình hoặc lo âu vì áp lực ở trường, cha mẹ có thể trò chuyện và hỗ trợ ngay lập tức. Sự thấu hiểu sâu sắc này giúp hạn chế khoảng cách thế hệ và xây dựng nền tảng tin cậy vững chắc giữa hai thế hệ.",
+                    "evidence_en": "Spending greater time at home allows parents to directly observe how their children study, play, and socialize with peers. This regular proximity helps caregivers detect subtle shifts in their children's moods, habits, or emerging interests early on. For instance, if a child suddenly appears withdrawn or anxious about school pressure, parents can intervene with timely encouragement. Such deep understanding bridges generational gaps and establishes a strong foundation of mutual trust.",
                     "collocations": [
                       {
                         "en": "deeper insights into habits",
@@ -171289,12 +170485,40 @@ const ESSAY_DATA = [
                         "vi": "các khuôn mẫu hành vi"
                       },
                       {
-                        "en": "directly observe",
-                        "vi": "quan sát trực tiếp"
+                        "en": "behavior",
+                        "vi": "hành vi, cách ứng xử"
                       },
                       {
-                        "en": "positive guidance",
-                        "vi": "sự định hướng tích cực"
+                        "en": "habit",
+                        "vi": "thói quen"
+                      },
+                      {
+                        "en": "telecommuting",
+                        "vi": "làm việc từ xa"
+                      },
+                      {
+                        "en": "socialize with peers",
+                        "vi": "giao tiếp với bạn đồng trang lứa"
+                      },
+                      {
+                        "en": "subtle shifts",
+                        "vi": "những thay đổi tinh tế / nhỏ"
+                      },
+                      {
+                        "en": "appear withdrawn",
+                        "vi": "có biểu hiện thu mình"
+                      },
+                      {
+                        "en": "timely encouragement",
+                        "vi": "sự động viên kịp thời"
+                      },
+                      {
+                        "en": "bridge generational gaps",
+                        "vi": "thu hẹp khoảng cách thế hệ"
+                      },
+                      {
+                        "en": "mutual trust",
+                        "vi": "lòng tin lẫn nhau"
                       }
                     ],
                     "point_collocations": [
@@ -171322,30 +170546,34 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "directly observe",
-                          "vi": "quan sát trực tiếp"
-                        },
-                        {
-                          "en": "observe",
-                          "vi": "quan sát"
-                        },
-                        {
-                          "en": "at the same time",
-                          "vi": "đồng thời / cùng lúc đó"
+                          "en": "socialize with peers",
+                          "vi": "giao tiếp với bạn đồng trang lứa"
                         }
                       ],
                       [
                         {
-                          "en": "positive guidance",
-                          "vi": "sự định hướng tích cực"
+                          "en": "subtle shifts",
+                          "vi": "những thay đổi tinh tế / nhỏ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "appear withdrawn",
+                          "vi": "có biểu hiện thu mình"
                         },
                         {
-                          "en": "behavior",
-                          "vi": "hành vi, cách ứng xử"
+                          "en": "timely encouragement",
+                          "vi": "sự động viên kịp thời"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "bridge generational gaps",
+                          "vi": "thu hẹp khoảng cách thế hệ"
                         },
                         {
-                          "en": "advice",
-                          "vi": "lời khuyên"
+                          "en": "mutual trust",
+                          "vi": "lòng tin lẫn nhau"
                         }
                       ]
                     ]
@@ -171354,24 +170582,44 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 03",
                     "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và được yêu thương.",
                     "point_en": "Parents' presence at home fosters a strong sense of emotional security and comfort for children.",
-                    "evidence_vi": "• Luận cứ 1: Con trẻ luôn cảm thấy an tâm vì biết rằng cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi các em cần sự giúp đỡ.\n• Luận cứ 2: Sự gần gũi này khuyến khích trẻ thoải mái tâm sự những khó khăn cá nhân, từ đó xây dựng sự tự tin và củng cố tình cảm gia đình.",
-                    "evidence_en": "• Evidence 1: Youngsters feel secure knowing that their parents are accessible and ready to listen whenever they need assistance.\n• Evidence 2: This close connection encourages kids to open up about personal challenges, which enhances self-confidence and strengthens family bonds.",
+                    "evidence_vi": "Trẻ em luôn cảm thấy an tâm và được che chở khi biết rằng cha mẹ ở ngay gần và sẵn sàng lắng nghe mỗi lúc các em cần giúp đỡ. Cảm giác an toàn về mặt tinh thần này khuyến khích trẻ cởi mở tâm sự những trăn trở cá nhân thay vì giữ kín trong lòng. Chẳng hạn, một đứa trẻ gặp chuyện buồn ở lớp sẽ dễ dàng tìm đến cha mẹ để được an ủi ngay khi về nhà thay vì chờ đến tối muộn. Chính sự hiện diện ấm áp ấy giúp trẻ phát triển sự tự tin lành mạnh và thắt chặt tình cảm gia đình.",
+                    "evidence_en": "Children experience deep reassurance knowing that their parents are physically accessible and ready to listen whenever assistance is needed. This strong sense of emotional security encourages youngsters to open up about personal struggles instead of bottling up their feelings. For example, a child upset by a conflict at school can seek immediate comfort upon returning home rather than waiting until late evening. This warm, dependable presence nurtures healthy self-confidence and strengthens lifelong family bonds.",
                     "collocations": [
                       {
                         "en": "emotional security",
                         "vi": "sự an toàn về mặt cảm xúc"
                       },
                       {
+                        "en": "as a result",
+                        "vi": "nhờ đó / kết quả là"
+                      },
+                      {
                         "en": "parents are accessible",
                         "vi": "cha mẹ luôn ở gần, dễ tiếp cận"
                       },
                       {
-                        "en": "open up about challenges",
-                        "vi": "mở lòng về những thử thách"
+                        "en": "deep reassurance",
+                        "vi": "sự yên tâm sâu sắc"
                       },
                       {
-                        "en": "strengthen family bonds",
-                        "vi": "thắt chặt tình cảm gia đình"
+                        "en": "physically accessible",
+                        "vi": "hiện diện gần gũi / dễ tiếp cận"
+                      },
+                      {
+                        "en": "bottle up feelings",
+                        "vi": "giữ kín cảm xúc trong lòng"
+                      },
+                      {
+                        "en": "seek immediate comfort",
+                        "vi": "tìm kiếm sự an ủi ngay lập tức"
+                      },
+                      {
+                        "en": "healthy self-confidence",
+                        "vi": "sự tự tin lành mạnh"
+                      },
+                      {
+                        "en": "lifelong family bonds",
+                        "vi": "sự gắn kết gia đình bền chặt"
                       }
                     ],
                     "point_collocations": [
@@ -171391,30 +170639,38 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "parents are accessible",
-                          "vi": "cha mẹ luôn ở gần, dễ tiếp cận"
+                          "en": "deep reassurance",
+                          "vi": "sự yên tâm sâu sắc"
                         },
                         {
-                          "en": "secure",
-                          "vi": "an tâm, vững tâm"
-                        },
-                        {
-                          "en": "accessible",
-                          "vi": "dễ tiếp cận, luôn sẵn sàng"
+                          "en": "physically accessible",
+                          "vi": "hiện diện gần gũi / dễ tiếp cận"
                         }
                       ],
                       [
                         {
-                          "en": "open up about challenges",
-                          "vi": "mở lòng về những thử thách"
+                          "en": "emotional security",
+                          "vi": "sự an toàn về cảm xúc"
                         },
                         {
-                          "en": "strengthen family bonds",
-                          "vi": "thắt chặt tình cảm gia đình"
+                          "en": "bottle up feelings",
+                          "vi": "giữ kín cảm xúc trong lòng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "seek immediate comfort",
+                          "vi": "tìm kiếm sự an ủi ngay lập tức"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "healthy self-confidence",
+                          "vi": "sự tự tin lành mạnh"
                         },
                         {
-                          "en": "bond",
-                          "vi": "sự gắn kết, tình cảm khăng khít"
+                          "en": "lifelong family bonds",
+                          "vi": "sự gắn kết gia đình bền chặt"
                         }
                       ]
                     ]
@@ -171433,27 +170689,39 @@ const ESSAY_DATA = [
                         "vi": "những khoảnh khắc ý nghĩa"
                       }
                     ],
-                    "evidence_vi": "Thay vì mất hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh có thể tự tay chuẩn bị bữa sáng, đưa đón con đi học và trò chuyện cùng con. Những tương tác đều đặn này dần vun đắp sự gần gũi và ấm áp trong mối quan hệ cha mẹ và con cái.",
-                    "evidence_en": "Instead of spending hours stuck in rush-hour traffic, parents can prepare breakfast, accompany their children to school, and enjoy relaxed conversations together. These consistent daily interactions gradually nurture warmth and closeness within the parent-child relationship.",
+                    "evidence_vi": "Thay vì tiêu tốn hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh tiết kiệm được quỹ thời gian đáng kể để dành cho gia đình. Họ có thể tự tay chuẩn bị bữa sáng bổ dưỡng, trực tiếp đưa đón con đến trường và cùng con dùng bữa trưa tại nhà. Chẳng hạn, chỉ vài phút trò chuyện thoải mái trên đường đưa con đi học cũng đủ tạo nên những kỷ niệm tuổi thơ ấm áp. Những khoảnh khắc sinh hoạt chung đều đặn này dần nuôi dưỡng bầu không khí gắn kết và gần gũi giữa cha mẹ với con cái.",
+                    "evidence_en": "Instead of losing hours to rush-hour congestion every morning and evening, parents reclaim valuable daily time for family life. They can prepare nutritious breakfasts, accompany their children to school personally, and share unhurried lunches at home. For instance, even relaxed conversations during the morning school run can create cherished childhood memories. These consistent shared routines gradually cultivate warmth, openness, and deeper closeness between parents and children.",
                     "evidence_collocations": [
                       [
                         {
-                          "en": "rush-hour traffic",
-                          "vi": "giao thông giờ cao điểm"
+                          "en": "rush-hour congestion",
+                          "vi": "tắc đường giờ cao điểm"
                         },
                         {
-                          "en": "relaxed conversations",
-                          "vi": "những cuộc trò chuyện thoải mái"
+                          "en": "reclaim valuable time",
+                          "vi": "giành lại thời gian quý giá"
                         }
                       ],
                       [
                         {
-                          "en": "consistent interactions",
-                          "vi": "sự tương tác đều đặn"
+                          "en": "nutritious breakfasts",
+                          "vi": "bữa sáng bổ dưỡng"
                         },
                         {
-                          "en": "nurture warmth and closeness",
-                          "vi": "vun đắp sự ấm áp và gần gũi"
+                          "en": "unhurried lunches",
+                          "vi": "bữa trưa thong thả"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "cherished childhood memories",
+                          "vi": "kỷ niệm tuổi thơ đáng trân quý"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "shared routines",
+                          "vi": "thói quen sinh hoạt chung"
                         }
                       ]
                     ],
@@ -171467,20 +170735,28 @@ const ESSAY_DATA = [
                         "vi": "những khoảnh khắc ý nghĩa"
                       },
                       {
-                        "en": "rush-hour traffic",
-                        "vi": "giao thông giờ cao điểm"
+                        "en": "rush-hour congestion",
+                        "vi": "tắc đường giờ cao điểm"
                       },
                       {
-                        "en": "relaxed conversations",
-                        "vi": "những cuộc trò chuyện thoải mái"
+                        "en": "reclaim valuable time",
+                        "vi": "giành lại thời gian quý giá"
                       },
                       {
-                        "en": "consistent interactions",
-                        "vi": "sự tương tác đều đặn"
+                        "en": "nutritious breakfasts",
+                        "vi": "bữa sáng bổ dưỡng"
                       },
                       {
-                        "en": "nurture warmth and closeness",
-                        "vi": "vun đắp sự ấm áp và gần gũi"
+                        "en": "unhurried lunches",
+                        "vi": "bữa trưa thong thả"
+                      },
+                      {
+                        "en": "cherished childhood memories",
+                        "vi": "kỷ niệm tuổi thơ đáng trân quý"
+                      },
+                      {
+                        "en": "shared routines",
+                        "vi": "thói quen sinh hoạt chung"
                       }
                     ]
                   },
@@ -171498,8 +170774,8 @@ const ESSAY_DATA = [
                         "vi": "sự trân trọng sâu sắc hơn"
                       }
                     ],
-                    "evidence_vi": "Trẻ em tận mắt thấy cách cha mẹ tập trung giải quyết công việc, quản lý thời gian và hoàn thành trách nhiệm mỗi ngày. Qua tấm gương trực quan đó, các em không chỉ tôn trọng nỗ lực mưu sinh của cha mẹ hơn mà còn sớm học được kỹ năng tự giác trong học tập.",
-                    "evidence_en": "Children witness firsthand how their parents stay focused, organize their schedules, and fulfill professional commitments each day. Through this tangible role modeling, youngsters not only gain greater respect for their parents' hard work but also develop stronger self-discipline in their own studies.",
+                    "evidence_vi": "Khi cha mẹ làm việc tại nhà, trẻ có cơ hội tận mắt chứng kiến cách người lớn tập trung giải quyết nhiệm vụ và sắp xếp lịch trình chuyên nghiệp. Việc quan sát trực tiếp này giúp trẻ thấu hiểu những nỗ lực mưu sinh hằng ngày của cha mẹ thay vì coi mọi thứ là hiển nhiên. Ví dụ, khi thấy cha mẹ hoàn thành hạn chót đúng giờ rồi mới nghỉ ngơi, nhiều trẻ bắt đầu tự giác lập thời gian biểu học tập cho riêng mình. Tấm gương sống động ấy không chỉ bồi đắp sự tôn trọng đối với cha mẹ mà còn rèn luyện tính kỷ luật lâu dài cho trẻ.",
+                    "evidence_en": "When parents work from home, children witness firsthand how adults focus on demanding tasks and organize professional schedules effectively. Direct observation helps youngsters appreciate the daily effort required to support the household rather than taking it for granted. For example, seeing parents meet deadlines diligently before relaxing often inspires children to create and follow their own study timetables. This tangible role modeling both deepens respect for parents and builds lasting self-discipline in young people.",
                     "evidence_collocations": [
                       [
                         {
@@ -171507,18 +170783,30 @@ const ESSAY_DATA = [
                           "vi": "tận mắt chứng kiến"
                         },
                         {
-                          "en": "fulfill commitments",
-                          "vi": "hoàn thành trách nhiệm / cam kết"
+                          "en": "demanding tasks",
+                          "vi": "nhiệm vụ đòi hỏi cao"
                         }
                       ],
                       [
                         {
-                          "en": "role modeling",
-                          "vi": "làm gương"
+                          "en": "take for granted",
+                          "vi": "coi là điều hiển nhiên"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "meet deadlines diligently",
+                          "vi": "hoàn thành hạn chót chăm chỉ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "tangible role modeling",
+                          "vi": "tấm gương trực quan"
                         },
                         {
-                          "en": "self-discipline",
-                          "vi": "tính tự giác / kỷ luật bản thân"
+                          "en": "lasting self-discipline",
+                          "vi": "tính kỷ luật bền vững"
                         }
                       ]
                     ],
@@ -171536,16 +170824,24 @@ const ESSAY_DATA = [
                         "vi": "tận mắt chứng kiến"
                       },
                       {
-                        "en": "fulfill commitments",
-                        "vi": "hoàn thành trách nhiệm / cam kết"
+                        "en": "demanding tasks",
+                        "vi": "nhiệm vụ đòi hỏi cao"
                       },
                       {
-                        "en": "role modeling",
-                        "vi": "làm gương"
+                        "en": "take for granted",
+                        "vi": "coi là điều hiển nhiên"
                       },
                       {
-                        "en": "self-discipline",
-                        "vi": "tính tự giác / kỷ luật bản thân"
+                        "en": "meet deadlines diligently",
+                        "vi": "hoàn thành hạn chót chăm chỉ"
+                      },
+                      {
+                        "en": "tangible role modeling",
+                        "vi": "tấm gương trực quan"
+                      },
+                      {
+                        "en": "lasting self-discipline",
+                        "vi": "tính kỷ luật bền vững"
                       }
                     ]
                   }
@@ -172058,8 +171354,8 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà có thể khiến cha mẹ ít chú ý đến con cái hơn.",
                     "point_en": "Working from home can reduce parents' attention toward their children.",
-                    "evidence_vi": "Cha mẹ phải dành nhiều thời gian trước máy tính và tham gia các cuộc họp trực tuyến. Họ có thể không chú ý khi con muốn nói chuyện, khiến trẻ cảm thấy cha mẹ không quan tâm đến mình.",
-                    "evidence_en": "Parents have to spend a lot of time on computers and in online meetings. They may not pay attention when their children want to talk, making kids feel neglected.",
+                    "evidence_vi": "Cha mẹ thường phải ngồi nhiều giờ trước máy tính và tham gia liên tục các cuộc họp trực tuyến. Vì quá tập trung vào công việc, họ đôi khi không kịp lắng nghe khi con muốn trò chuyện hay khoe bài học. Điều này có thể khiến trẻ cảm thấy bị phớt lờ và buồn bã dù cha mẹ đang ở ngay trong nhà.",
+                    "evidence_en": "Parents often have to sit in front of computers for hours and join many online meetings. Because they focus deeply on work, they sometimes fail to listen when their children want to talk or share news. This can make kids feel ignored and sad even though their parents are right at home.",
                     "collocations": [
                       {
                         "en": "reduce parents' attention",
@@ -172074,8 +171370,12 @@ const ESSAY_DATA = [
                         "vi": "các cuộc họp trực tuyến"
                       },
                       {
-                        "en": "feel neglected",
-                        "vi": "cảm thấy bị bỏ rơi, không được quan tâm"
+                        "en": "fail to listen",
+                        "vi": "không kịp lắng nghe"
+                      },
+                      {
+                        "en": "feel ignored",
+                        "vi": "cảm thấy bị phớt lờ"
                       }
                     ],
                     "point_collocations": [
@@ -172095,34 +171395,20 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "spend time on computers",
-                          "vi": "dành thời gian cho máy tính"
-                        },
-                        {
                           "en": "online meetings",
-                          "vi": "các cuộc họp trực tuyến"
-                        },
-                        {
-                          "en": "as a result",
-                          "vi": "nhờ đó / kết quả là"
-                        },
-                        {
-                          "en": "on a daily basis",
-                          "vi": "hằng ngày"
+                          "vi": "cuộc họp trực tuyến"
                         }
                       ],
                       [
                         {
-                          "en": "feel neglected",
-                          "vi": "cảm thấy bị bỏ rơi, không được quan tâm"
-                        },
+                          "en": "fail to listen",
+                          "vi": "không kịp lắng nghe"
+                        }
+                      ],
+                      [
                         {
-                          "en": "reduce parents' attention",
-                          "vi": "làm giảm sự chú ý của cha mẹ"
-                        },
-                        {
-                          "en": "spend time on computers",
-                          "vi": "dành thời gian cho máy tính"
+                          "en": "feel ignored",
+                          "vi": "cảm thấy bị phớt lờ"
                         }
                       ]
                     ]
@@ -172131,8 +171417,8 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 02",
                     "point_vi": "Làm việc tại nhà có thể khiến trẻ khó hiểu ranh giới giữa công việc và gia đình.",
                     "point_en": "Working from home can make it hard for children to understand work-family boundaries.",
-                    "evidence_vi": "Trẻ nhỏ thường nghĩ rằng cha mẹ luôn sẵn sàng chơi hoặc nói chuyện khi ở nhà. Các em có thể làm phiền cha mẹ trong giờ làm việc, điều này có thể gây ra hiểu lầm và tranh cãi.",
-                    "evidence_en": "Young children often think parents are always available to play or talk. Kids might disturb their parents during working hours, leading to misunderstandings and arguments.",
+                    "evidence_vi": "Trẻ nhỏ thường nghĩ rằng hễ cha mẹ ở nhà là cha mẹ luôn rảnh để chơi đùa hoặc nói chuyện cùng mình. Do đó, các em có thể vô tình chạy vào làm phiền đúng lúc cha mẹ đang họp hoặc làm báo cáo quan trọng. Những sự gián đoạn này rất dễ dẫn đến hiểu lầm và tranh cãi không đáng có trong gia đình.",
+                    "evidence_en": "Young children often think that parents are always free to play or chat whenever they stay at home. As a result, kids may accidentally interrupt right when parents are in meetings or writing important reports. These interruptions can easily lead to misunderstandings and unnecessary family arguments.",
                     "collocations": [
                       {
                         "en": "work-family boundaries",
@@ -172147,8 +171433,16 @@ const ESSAY_DATA = [
                         "vi": "làm phiền cha mẹ trong giờ làm"
                       },
                       {
-                        "en": "cause arguments",
-                        "vi": "gây ra tranh cãi"
+                        "en": "stay at home",
+                        "vi": "ở nhà"
+                      },
+                      {
+                        "en": "accidentally interrupt",
+                        "vi": "vô tình làm gián đoạn"
+                      },
+                      {
+                        "en": "unnecessary arguments",
+                        "vi": "tranh cãi không đáng có"
                       }
                     ],
                     "point_collocations": [
@@ -172168,30 +171462,20 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "available to play",
-                          "vi": "sẵn sàng chơi đùa"
-                        },
-                        {
-                          "en": "work-family boundaries",
-                          "vi": "ranh giới giữa công việc và gia đình"
-                        },
-                        {
-                          "en": "disturb parents at work",
-                          "vi": "làm phiền cha mẹ trong giờ làm"
+                          "en": "stay at home",
+                          "vi": "ở nhà"
                         }
                       ],
                       [
                         {
-                          "en": "disturb parents at work",
-                          "vi": "làm phiền cha mẹ trong giờ làm"
-                        },
+                          "en": "accidentally interrupt",
+                          "vi": "vô tình làm gián đoạn"
+                        }
+                      ],
+                      [
                         {
-                          "en": "work-family boundaries",
-                          "vi": "ranh giới giữa công việc và gia đình"
-                        },
-                        {
-                          "en": "available to play",
-                          "vi": "sẵn sàng chơi đùa"
+                          "en": "unnecessary arguments",
+                          "vi": "tranh cãi không đáng có"
                         }
                       ]
                     ]
@@ -172200,8 +171484,8 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 03",
                     "point_vi": "Làm việc tại nhà có thể làm tăng áp lực và mệt mỏi cho cha mẹ.",
                     "point_en": "Working from home can increase stress and pressure for parents.",
-                    "evidence_vi": "Phụ huynh vừa phải hoàn thành công việc đúng thời hạn, vừa phải chăm sóc con cái. Áp lực nặng nề này có thể khiến họ dễ mệt mỏi và cáu gắt với con.",
-                    "evidence_en": "Parents must finish job tasks on time while also taking care of their children. This heavy pressure can make them exhausted and easily lose their temper with their kids.",
+                    "evidence_vi": "Phụ huynh làm việc tại nhà vừa phải hoàn thành nhiệm vụ công ty đúng hạn vừa phải nấu ăn và trông nom con cái. Khi cả hai trách nhiệm cùng dồn lại trong ngày, họ rất dễ rơi vào trạng thái mệt mỏi và căng thẳng. Vì vậy, cha mẹ có thể mất kiên nhẫn và dễ nổi cáu với con vì những lỗi nhỏ.",
+                    "evidence_en": "Parents working from home must finish company tasks on time while cooking meals and looking after children. When both duties happen at the same time every day, they easily become exhausted and stressed. Consequently, parents may lose patience and get angry with their kids over small mistakes.",
                     "collocations": [
                       {
                         "en": "increase stress and pressure",
@@ -172216,8 +171500,16 @@ const ESSAY_DATA = [
                         "vi": "cảm thấy kiệt sức"
                       },
                       {
-                        "en": "lose their temper with kids",
-                        "vi": "nổi giận, cáu gắt với con"
+                        "en": "look after children",
+                        "vi": "trông nom con cái"
+                      },
+                      {
+                        "en": "exhausted and stressed",
+                        "vi": "kiệt sức và căng thẳng"
+                      },
+                      {
+                        "en": "lose patience",
+                        "vi": "mất kiên nhẫn"
                       }
                     ],
                     "point_collocations": [
@@ -172238,29 +171530,23 @@ const ESSAY_DATA = [
                       [
                         {
                           "en": "finish tasks on time",
-                          "vi": "hoàn thành công việc đúng hạn"
+                          "vi": "hoàn thành việc đúng hạn"
                         },
                         {
-                          "en": "increase stress and pressure",
-                          "vi": "gia tăng căng thẳng và áp lực"
-                        },
-                        {
-                          "en": "feel exhausted",
-                          "vi": "cảm thấy kiệt sức"
+                          "en": "look after children",
+                          "vi": "trông nom con cái"
                         }
                       ],
                       [
                         {
-                          "en": "increase stress and pressure",
-                          "vi": "gia tăng căng thẳng và áp lực"
-                        },
+                          "en": "exhausted and stressed",
+                          "vi": "kiệt sức và căng thẳng"
+                        }
+                      ],
+                      [
                         {
-                          "en": "finish tasks on time",
-                          "vi": "hoàn thành công việc đúng hạn"
-                        },
-                        {
-                          "en": "feel exhausted",
-                          "vi": "cảm thấy kiệt sức"
+                          "en": "lose patience",
+                          "vi": "mất kiên nhẫn"
                         }
                       ]
                     ]
@@ -172279,17 +171565,25 @@ const ESSAY_DATA = [
                         "vi": "không gian sống chung"
                       }
                     ],
-                    "evidence_vi": "Khi cha mẹ cần sự yên tĩnh cho các cuộc họp trực tuyến, trẻ nhỏ đang chơi đùa có thể bị la mắng và cảm thấy buồn bã.",
-                    "evidence_en": "When parents need quiet for online meetings, playing children may get scolded and feel upset.",
+                    "evidence_vi": "Trong nhiều gia đình có diện tích nhỏ, cha mẹ không có phòng làm việc riêng biệt và phải làm việc ngay tại phòng khách. Khi cha mẹ cần sự yên tĩnh cho các cuộc gọi quan trọng, tiếng vui đùa tự nhiên của trẻ có thể gây ồn ào. Do đó, trẻ dễ bị la mắng và cảm thấy không thoải mái ngay trong chính ngôi nhà của mình.",
+                    "evidence_en": "In many small homes, parents do not have a separate office and must work right in the living room. When parents need quiet for important calls, children's normal playtime can sound too noisy. As a result, kids may get scolded and feel uncomfortable in their own homes.",
                     "evidence_collocations": [
                       [
                         {
-                          "en": "online meetings",
-                          "vi": "cuộc họp trực tuyến"
-                        },
+                          "en": "separate office",
+                          "vi": "phòng làm việc riêng"
+                        }
+                      ],
+                      [
                         {
-                          "en": "feel upset",
-                          "vi": "cảm thấy buồn bã"
+                          "en": "important calls",
+                          "vi": "cuộc gọi quan trọng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "get scolded",
+                          "vi": "bị la mắng"
                         }
                       ]
                     ],
@@ -172303,12 +171597,16 @@ const ESSAY_DATA = [
                         "vi": "không gian sống chung"
                       },
                       {
-                        "en": "online meetings",
-                        "vi": "cuộc họp trực tuyến"
+                        "en": "separate office",
+                        "vi": "phòng làm việc riêng"
                       },
                       {
-                        "en": "feel upset",
-                        "vi": "cảm thấy buồn bã"
+                        "en": "important calls",
+                        "vi": "cuộc gọi quan trọng"
+                      },
+                      {
+                        "en": "get scolded",
+                        "vi": "bị la mắng"
                       }
                     ]
                   },
@@ -172326,17 +171624,25 @@ const ESSAY_DATA = [
                         "vi": "thời gian vui chơi thực sự"
                       }
                     ],
-                    "evidence_vi": "Nhiều phụ huynh vẫn kiểm tra email công việc vào buổi tối hoặc cuối tuần, nên trẻ cảm thấy bị bỏ rơi dù cha mẹ đang ở nhà.",
-                    "evidence_en": "Many parents still check work emails in the evening or on weekends, so children feel ignored even when parents are home.",
+                    "evidence_vi": "Vì máy tính và điện thoại công việc luôn ở ngay bên cạnh, nhiều phụ huynh tiếp tục làm việc vào buổi tối hoặc cuối tuần. Thay vì cùng con đi dạo hay chơi trò chơi, họ vẫn bận trả lời tin nhắn của đồng nghiệp và cấp trên. Điều này làm giảm thời gian vui chơi thực sự và khiến tình cảm cha mẹ con cái dần xa cách.",
+                    "evidence_en": "Because work laptops and phones are always nearby, many parents keep working in the evening or on weekends. Instead of walking or playing games with their children, they stay busy replying to work messages. This reduces real playtime and gradually creates distance between parents and children.",
                     "evidence_collocations": [
                       [
                         {
-                          "en": "check work emails",
-                          "vi": "kiểm tra email công việc"
-                        },
+                          "en": "keep working",
+                          "vi": "tiếp tục làm việc"
+                        }
+                      ],
+                      [
                         {
-                          "en": "feel ignored",
-                          "vi": "cảm thấy bị bỏ rơi"
+                          "en": "reply to work messages",
+                          "vi": "trả lời tin nhắn công việc"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "create distance",
+                          "vi": "tạo ra khoảng cách"
                         }
                       ]
                     ],
@@ -172350,12 +171656,16 @@ const ESSAY_DATA = [
                         "vi": "thời gian vui chơi thực sự"
                       },
                       {
-                        "en": "check work emails",
-                        "vi": "kiểm tra email công việc"
+                        "en": "keep working",
+                        "vi": "tiếp tục làm việc"
                       },
                       {
-                        "en": "feel ignored",
-                        "vi": "cảm thấy bị bỏ rơi"
+                        "en": "reply to work messages",
+                        "vi": "trả lời tin nhắn công việc"
+                      },
+                      {
+                        "en": "create distance",
+                        "vi": "tạo ra khoảng cách"
                       }
                     ]
                   }
@@ -172367,24 +171677,40 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà có thể làm giảm chất lượng tương tác và sự chú ý của cha mẹ dành cho con cái.",
                     "point_en": "Telecommuting often reduces the quality of attention that parents devote to their children.",
-                    "evidence_vi": "• Luận cứ 1: Phụ huynh phải liên tục dán mắt vào màn hình máy tính để xử lý công việc và tham gia các cuộc họp trực tuyến kéo dài.\n• Luận cứ 2: Do đó, họ thường phớt lờ các yêu cầu trò chuyện của con, khiến trẻ nảy sinh tâm lý bị bỏ rơi và tổn thương tình cảm.",
-                    "evidence_en": "• Evidence 1: Parents must spend long hours glued to computer screens, replying to emails and attending virtual conferences.\n• Evidence 2: Consequently, they frequently dismiss their children's attempts to communicate, making kids feel ignored and emotionally neglected.",
+                    "evidence_vi": "Phụ huynh làm việc từ xa thường phải dành nhiều giờ liền dán mắt vào màn hình máy tính để xử lý email và tham gia các cuộc họp trực tuyến căng thẳng. Sự tập trung cao độ vào màn hình khiến họ thường xuyên phản hồi qua loa hoặc bỏ lỡ những lúc con muốn chia sẻ chuyện vui buồn. Ví dụ, một đứa trẻ háo hức khoe bức tranh vừa vẽ có thể cảm thấy hụt hẫng khi cha mẹ chỉ gật đầu vội vàng mà không rời mắt khỏi máy tính. Về lâu dài, sự thiếu tương tác trọn vẹn này khiến trẻ cảm thấy bị bỏ rơi về mặt tinh thần dù cha mẹ ở ngay bên cạnh.",
+                    "evidence_en": "Remote-working parents often spend prolonged hours glued to computer screens, answering urgent emails and attending intense video conferences. Intense screen engagement frequently causes them to respond distractedly or miss moments when children seek meaningful conversation. For example, a child eager to share a school achievement may feel disappointed when a parent barely looks up from a laptop. Over time, this lack of genuine engagement leaves children feeling emotionally neglected despite their parents' physical presence.",
                     "collocations": [
                       {
                         "en": "reduce quality of attention",
                         "vi": "làm giảm chất lượng của sự chú ý"
                       },
                       {
-                        "en": "glued to computer screens",
-                        "vi": "dán mắt vào màn hình máy tính"
+                        "en": "telecommuting",
+                        "vi": "làm việc từ xa"
                       },
                       {
-                        "en": "dismiss communication attempts",
-                        "vi": "phớt lờ nỗ lực trò chuyện"
+                        "en": "quality of life",
+                        "vi": "chất lượng cuộc sống"
+                      },
+                      {
+                        "en": "video conferences",
+                        "vi": "cuộc họp trực tuyến qua video"
+                      },
+                      {
+                        "en": "respond distractedly",
+                        "vi": "phản hồi một cách lơ đãng"
+                      },
+                      {
+                        "en": "school achievement",
+                        "vi": "thành tích ở trường"
                       },
                       {
                         "en": "emotionally neglected",
-                        "vi": "bị bỏ rơi về mặt tình cảm"
+                        "vi": "bị bỏ bê về mặt cảm xúc"
+                      },
+                      {
+                        "en": "physical presence",
+                        "vi": "sự hiện diện thể chất"
                       }
                     ],
                     "point_collocations": [
@@ -172404,34 +171730,30 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "glued to computer screens",
-                          "vi": "dán mắt vào màn hình máy tính"
-                        },
-                        {
-                          "en": "reduce quality of attention",
-                          "vi": "làm giảm chất lượng của sự chú ý"
-                        },
-                        {
-                          "en": "dismiss communication attempts",
-                          "vi": "phớt lờ nỗ lực trò chuyện"
+                          "en": "video conferences",
+                          "vi": "cuộc họp trực tuyến qua video"
                         }
                       ],
                       [
                         {
-                          "en": "dismiss communication attempts",
-                          "vi": "phớt lờ nỗ lực trò chuyện"
-                        },
+                          "en": "respond distractedly",
+                          "vi": "phản hồi một cách lơ đãng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "school achievement",
+                          "vi": "thành tích ở trường"
+                        }
+                      ],
+                      [
                         {
                           "en": "emotionally neglected",
-                          "vi": "bị bỏ rơi về mặt tình cảm"
+                          "vi": "bị bỏ bê về mặt cảm xúc"
                         },
                         {
-                          "en": "consequently",
-                          "vi": "hệ quả là / do đó"
-                        },
-                        {
-                          "en": "frequently",
-                          "vi": "thường xuyên"
+                          "en": "physical presence",
+                          "vi": "sự hiện diện thể chất"
                         }
                       ]
                     ]
@@ -172440,24 +171762,44 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 02",
                     "point_vi": "Làm việc từ xa làm xóa nhòa ranh giới rõ ràng giữa giờ làm việc chuyên môn và không gian gia đình.",
                     "point_en": "Working from home blurs the boundary between professional obligations and personal family time.",
-                    "evidence_vi": "• Luận cứ 1: Trẻ nhỏ khó phân biệt được khi nào cha mẹ đang bận rộn vì nghĩ rằng khi ở nhà là cha mẹ luôn sẵn sàng chơi cùng mình.\n• Luận cứ 2: Việc trẻ vô tình làm gián đoạn các cuộc gọi quan trọng dễ dẫn đến những phản ứng bực dọc từ cha mẹ và gây căng thẳng trong gia đình.",
-                    "evidence_en": "• Evidence 1: Young children struggle to realize that parents are working, assuming that being at home means they are free to play.\n• Evidence 2: When kids inadvertently interrupt urgent tasks, it causes parental irritation, leading to misunderstandings and unnecessary domestic friction.",
+                    "evidence_vi": "Trẻ nhỏ thường chưa đủ chín chắn để phân biệt khi nào cha mẹ đang bận rộn công việc và khi nào đang nghỉ ngơi tại nhà. Các em mặc định rằng sự có mặt của cha mẹ ở nhà đồng nghĩa với việc luôn sẵn sàng vui chơi và đáp ứng yêu cầu của mình. Chẳng hạn, khi trẻ vô tình chạy vào làm gián đoạn một buổi thuyết trình quan trọng với khách hàng, cha mẹ rất dễ phản ứng gay gắt. Những hiểu lầm lặp đi lặp lại do ranh giới mập mờ này dễ làm nảy sinh căng thẳng và tổn thương cảm xúc trong gia đình.",
+                    "evidence_en": "Young children often lack the maturity to distinguish between their parents' working hours and personal leisure time at home. They naturally assume that having parents physically present means they are continuously available for play and attention. For instance, when a child inadvertently interrupts a crucial client presentation, parents may react abruptly out of stress. Repeated misunderstandings stemming from blurred boundaries can breed domestic tension and hurt feelings on both sides.",
                     "collocations": [
                       {
                         "en": "blur professional boundaries",
                         "vi": "xóa nhòa ranh giới công việc"
                       },
                       {
-                        "en": "struggle to distinguish",
-                        "vi": "khó phân biệt"
+                        "en": "furthermore",
+                        "vi": "hơn nữa"
                       },
                       {
-                        "en": "inadvertently interrupt tasks",
-                        "vi": "vô tình làm gián đoạn công việc"
+                        "en": "at the same time",
+                        "vi": "đồng thời / cùng lúc đó"
                       },
                       {
-                        "en": "domestic friction",
-                        "vi": "sự xích mích trong gia đình"
+                        "en": "distinguish between",
+                        "vi": "phân biệt giữa"
+                      },
+                      {
+                        "en": "continuously available",
+                        "vi": "luôn sẵn sàng"
+                      },
+                      {
+                        "en": "client presentation",
+                        "vi": "buổi thuyết trình với khách hàng"
+                      },
+                      {
+                        "en": "react abruptly",
+                        "vi": "phản ứng gay gắt đột ngột"
+                      },
+                      {
+                        "en": "blurred boundaries",
+                        "vi": "ranh giới mập mờ"
+                      },
+                      {
+                        "en": "domestic tension",
+                        "vi": "căng thẳng gia đình"
                       }
                     ],
                     "point_collocations": [
@@ -172477,30 +171819,34 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "struggle to distinguish",
-                          "vi": "khó phân biệt"
-                        },
-                        {
-                          "en": "to be specific",
-                          "vi": "cụ thể là"
-                        },
-                        {
-                          "en": "blur professional boundaries",
-                          "vi": "xóa nhòa ranh giới công việc"
+                          "en": "distinguish between",
+                          "vi": "phân biệt giữa"
                         }
                       ],
                       [
                         {
-                          "en": "inadvertently interrupt tasks",
-                          "vi": "vô tình làm gián đoạn công việc"
+                          "en": "continuously available",
+                          "vi": "luôn sẵn sàng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "client presentation",
+                          "vi": "buổi thuyết trình với khách hàng"
                         },
                         {
-                          "en": "domestic friction",
-                          "vi": "sự xích mích trong gia đình"
+                          "en": "react abruptly",
+                          "vi": "phản ứng gay gắt đột ngột"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "blurred boundaries",
+                          "vi": "ranh giới mập mờ"
                         },
                         {
-                          "en": "blur professional boundaries",
-                          "vi": "xóa nhòa ranh giới công việc"
+                          "en": "domestic tension",
+                          "vi": "căng thẳng gia đình"
                         }
                       ]
                     ]
@@ -172509,24 +171855,44 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 03",
                     "point_vi": "Việc vừa làm việc vừa chăm sóc con tại nhà gia tăng đáng kể áp lực tâm lý cho các bậc cha mẹ.",
                     "point_en": "Managing both professional deadlines and childcare duties substantially increases parental stress levels.",
-                    "evidence_vi": "• Luận cứ 1: Phụ huynh phải chịu áp lực kép khi vừa phải đáp ứng yêu cầu công việc đúng hạn, vừa phải chuẩn bị bữa ăn và trông nom con nhỏ.\n• Luận cứ 2: Tình trạng kiệt sức cả về thể chất lẫn tinh thần này khiến cha mẹ trở nên thiếu kiên nhẫn và dễ nổi cáu vô cớ với con cái.",
-                    "evidence_en": "• Evidence 1: Caregivers face dual pressure to meet strict workplace deadlines while simultaneously preparing meals and supervising children.\n• Evidence 2: This ongoing exhaustion reduces parents' patience, making them prone to irritability and harsh reactions toward their children.",
+                    "evidence_vi": "Các bậc phụ huynh phải gánh chịu áp lực kép khi vừa phải đảm bảo hiệu suất công việc đúng hạn vừa phải lo bữa ăn và trông nom con cái. Việc liên tục chuyển đổi giữa vai trò nhân viên chuyên nghiệp và người chăm sóc gia đình nhanh chóng vắt kiệt năng lượng tinh thần của họ. Ví dụ, một người mẹ vừa phải dỗ con nhỏ vừa phải hoàn thiện báo cáo gấp dễ rơi vào trạng thái quá tải nặng nề. Tình trạng kiệt sức kéo dài làm bào mòn sự kiên nhẫn, khiến cha mẹ dễ nổi nóng vô cớ và làm rạn nứt bầu không khí ấm áp với con.",
+                    "evidence_en": "Parents endure intense dual pressure as they strive to meet strict workplace deadlines while simultaneously preparing meals and supervising children. Constantly switching between professional obligations and caregiving roles rapidly drains their mental and physical reserves. For example, a parent trying to soothe a restless child while finalizing an urgent report can easily feel completely overwhelmed. Chronic exhaustion gradually erodes parental patience, leading to frequent irritability and strained parent-child interactions.",
                     "collocations": [
                       {
                         "en": "parental stress levels",
                         "vi": "mức độ căng thẳng của cha mẹ"
                       },
                       {
+                        "en": "substantially",
+                        "vi": "đáng kể / phần lớn"
+                      },
+                      {
                         "en": "dual pressure",
                         "vi": "áp lực kép"
                       },
                       {
-                        "en": "ongoing exhaustion",
-                        "vi": "sự kiệt sức liên tục"
+                        "en": "workplace deadlines",
+                        "vi": "hạn chót công việc"
                       },
                       {
-                        "en": "prone to irritability",
-                        "vi": "dễ nổi nóng, cáu gắt"
+                        "en": "caregiving roles",
+                        "vi": "vai trò chăm sóc gia đình"
+                      },
+                      {
+                        "en": "mental reserves",
+                        "vi": "nguồn lực tinh thần"
+                      },
+                      {
+                        "en": "urgent report",
+                        "vi": "báo cáo khẩn cấp"
+                      },
+                      {
+                        "en": "erode patience",
+                        "vi": "bào mòn sự kiên nhẫn"
+                      },
+                      {
+                        "en": "strained interactions",
+                        "vi": "tương tác căng thẳng"
                       }
                     ],
                     "point_collocations": [
@@ -172550,26 +171916,34 @@ const ESSAY_DATA = [
                           "vi": "áp lực kép"
                         },
                         {
-                          "en": "parental stress levels",
-                          "vi": "mức độ căng thẳng của cha mẹ"
-                        },
-                        {
-                          "en": "ongoing exhaustion",
-                          "vi": "sự kiệt sức liên tục"
+                          "en": "workplace deadlines",
+                          "vi": "hạn chót công việc"
                         }
                       ],
                       [
                         {
-                          "en": "ongoing exhaustion",
-                          "vi": "sự kiệt sức liên tục"
+                          "en": "caregiving roles",
+                          "vi": "vai trò chăm sóc gia đình"
                         },
                         {
-                          "en": "prone to irritability",
-                          "vi": "dễ nổi nóng, cáu gắt"
+                          "en": "mental reserves",
+                          "vi": "nguồn lực tinh thần"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "urgent report",
+                          "vi": "báo cáo khẩn cấp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "erode patience",
+                          "vi": "bào mòn sự kiên nhẫn"
                         },
                         {
-                          "en": "parental stress levels",
-                          "vi": "mức độ căng thẳng của cha mẹ"
+                          "en": "strained interactions",
+                          "vi": "tương tác căng thẳng"
                         }
                       ]
                     ]
@@ -172588,27 +171962,35 @@ const ESSAY_DATA = [
                         "vi": "tiếng ồn sinh hoạt"
                       }
                     ],
-                    "evidence_vi": "Trong những căn hộ nhỏ không có phòng làm việc riêng, tiếng nô đùa tự nhiên của trẻ có thể làm gián đoạn các cuộc họp quan trọng của cha mẹ. Sự bực bội tức thời có thể khiến phụ huynh lớn tiếng, làm tổn thương cảm xúc và tạo khoảng cách với con.",
-                    "evidence_en": "In compact homes lacking a separate office, children's natural playfulness can easily disrupt important online meetings. Momentary frustration may cause parents to react impatiently, hurting children's feelings and creating emotional distance.",
+                    "evidence_vi": "Trong nhiều căn hộ đô thị có diện tích khiêm tốn, cha mẹ không có phòng làm việc tách biệt nên phải dùng chung không gian sinh hoạt với con cái. Những tiếng cười nói hay trò chơi hết sức tự nhiên của trẻ có thể dễ dàng làm gián đoạn các cuộc họp quan trọng cần sự yên tĩnh. Ví dụ, việc cha mẹ liên tục nhắc nhở con giữ im lặng suốt cả ngày khiến trẻ cảm thấy gò bó và mất đi không gian vui chơi thoải mái. Sự xung đột không gian kéo dài này dễ gây ra bực bội tức thời, làm tổn thương cảm xúc và tạo khoảng cách trong gia đình.",
+                    "evidence_en": "In compact urban apartments lacking a dedicated home office, parents must share everyday living areas with their children. Children's natural playfulness and lively chatter can easily disrupt important online meetings that require silence. For instance, constantly telling children to stay quiet throughout the day leaves them feeling restricted in their own living space. Persistent spatial conflicts often trigger impatience and sharp reprimands, hurting children's feelings and creating emotional distance.",
                     "evidence_collocations": [
                       [
                         {
-                          "en": "compact homes",
-                          "vi": "ngôi nhà chật hẹp"
-                        },
-                        {
-                          "en": "disrupt online meetings",
-                          "vi": "làm gián đoạn cuộc họp trực tuyến"
+                          "en": "dedicated home office",
+                          "vi": "phòng làm việc riêng tại nhà"
                         }
                       ],
                       [
                         {
-                          "en": "react impatiently",
-                          "vi": "phản ứng mất kiên nhẫn"
+                          "en": "lively chatter",
+                          "vi": "tiếng trò chuyện ồn ào / sôi nổi"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "feel restricted",
+                          "vi": "cảm thấy bị gò bó"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "spatial conflicts",
+                          "vi": "xung đột về không gian"
                         },
                         {
                           "en": "emotional distance",
-                          "vi": "khoảng cách tình cảm"
+                          "vi": "khoảng cách cảm xúc"
                         }
                       ]
                     ],
@@ -172622,20 +172004,24 @@ const ESSAY_DATA = [
                         "vi": "tiếng ồn sinh hoạt"
                       },
                       {
-                        "en": "compact homes",
-                        "vi": "ngôi nhà chật hẹp"
+                        "en": "dedicated home office",
+                        "vi": "phòng làm việc riêng tại nhà"
                       },
                       {
-                        "en": "disrupt online meetings",
-                        "vi": "làm gián đoạn cuộc họp trực tuyến"
+                        "en": "lively chatter",
+                        "vi": "tiếng trò chuyện ồn ào / sôi nổi"
                       },
                       {
-                        "en": "react impatiently",
-                        "vi": "phản ứng mất kiên nhẫn"
+                        "en": "feel restricted",
+                        "vi": "cảm thấy bị gò bó"
+                      },
+                      {
+                        "en": "spatial conflicts",
+                        "vi": "xung đột về không gian"
                       },
                       {
                         "en": "emotional distance",
-                        "vi": "khoảng cách tình cảm"
+                        "vi": "khoảng cách cảm xúc"
                       }
                     ]
                   },
@@ -172653,8 +172039,8 @@ const ESSAY_DATA = [
                         "vi": "thời gian chất lượng"
                       }
                     ],
-                    "evidence_vi": "Vì máy tính và tin nhắn công việc luôn ở ngay bên cạnh, nhiều cha mẹ khó lòng ngắt kết nối hoàn toàn vào buổi tối hay dịp cuối tuần. Dù hiện diện về mặt thể chất trong nhà, sự bận rộn liên tục này vẫn khiến trẻ cảm thấy thiếu sự lắng nghe và quan tâm trọn vẹn.",
-                    "evidence_en": "Because laptops and work messages are constantly within reach, many parents struggle to disconnect fully during evenings and weekends. Despite being physically present at home, this perpetual availability for work leaves children feeling overlooked and emotionally unsupported.",
+                    "evidence_vi": "Vì máy tính xách tay và tin nhắn công việc luôn nằm ngay trong tầm với, nhiều phụ huynh rất khó ngắt kết nối hoàn toàn sau giờ hành chính. Thói quen kiểm tra email vào buổi tối hoặc xử lý việc phát sinh dịp cuối tuần vô tình chiếm mất quỹ thời gian vốn dành cho gia đình. Chẳng hạn, thay vì cùng con đọc truyện hay dạo chơi ngoài công viên, cha mẹ lại mải mê giải quyết công việc tồn đọng trước màn hình. Do đó, dù hiện diện về mặt thể chất tại nhà, sự bận rộn liên miên này vẫn làm giảm sút nghiêm trọng thời gian gắn kết chất lượng với con.",
+                    "evidence_en": "Because work laptops and corporate messaging apps remain constantly within reach, many parents struggle to disconnect fully after office hours. The habit of checking emails in the evening or handling urgent tasks on weekends quietly consumes precious family time. For example, instead of reading bedtime stories or visiting the park together, parents may remain absorbed in clearing backlogs on their screens. Consequently, despite being physically at home, perpetual work availability severely diminishes genuine quality time spent bonding with children.",
                     "evidence_collocations": [
                       [
                         {
@@ -172668,12 +172054,24 @@ const ESSAY_DATA = [
                       ],
                       [
                         {
-                          "en": "physically present",
-                          "vi": "hiện diện về mặt thể chất"
+                          "en": "precious family time",
+                          "vi": "thời gian gia đình quý giá"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "clearing backlogs",
+                          "vi": "xử lý công việc tồn đọng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "perpetual availability",
+                          "vi": "trạng thái luôn trực chờ công việc"
                         },
                         {
-                          "en": "feel overlooked",
-                          "vi": "cảm thấy bị ngó lơ"
+                          "en": "genuine quality time",
+                          "vi": "thời gian gắn kết chất lượng thực sự"
                         }
                       ]
                     ],
@@ -172695,12 +172093,20 @@ const ESSAY_DATA = [
                         "vi": "ngắt kết nối hoàn toàn"
                       },
                       {
-                        "en": "physically present",
-                        "vi": "hiện diện về mặt thể chất"
+                        "en": "precious family time",
+                        "vi": "thời gian gia đình quý giá"
                       },
                       {
-                        "en": "feel overlooked",
-                        "vi": "cảm thấy bị ngó lơ"
+                        "en": "clearing backlogs",
+                        "vi": "xử lý công việc tồn đọng"
+                      },
+                      {
+                        "en": "perpetual availability",
+                        "vi": "trạng thái luôn trực chờ công việc"
+                      },
+                      {
+                        "en": "genuine quality time",
+                        "vi": "thời gian gắn kết chất lượng thực sự"
                       }
                     ]
                   }
@@ -173733,8 +173139,8 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 01: ACADEMIC ASSISTANCE",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ sự tiến bộ trong học tập của con một cách hiệu quả.",
                     "point_en": "Telecommuting enables parents to support their children's academic progress more effectively.",
-                    "evidence_vi": "Cha mẹ luôn có mặt để trợ giúp giải quyết các bài tập phức tạp và kịp thời phát hiện những trở ngại học tập ở trường.",
-                    "evidence_en": "Parents are accessible to assist with challenging school assignments and identify learning obstacles promptly.",
+                    "evidence_vi": "Cha mẹ luôn có mặt tại nhà để hướng dẫn con giải quyết các bài tập khó và giải đáp thắc mắc kịp thời. Nhờ theo dõi sát sao thói quen học tập hằng ngày, phụ huynh cũng sớm phát hiện những môn học con gặp trở ngại để cùng con khắc phục.",
+                    "evidence_en": "Parents are readily accessible at home to guide children through challenging assignments and answer questions promptly. By closely observing daily study routines, caregivers can also identify learning obstacles early and support steady academic improvement.",
                     "collocations": [
                       {
                         "en": "telecommuting",
@@ -173745,8 +173151,28 @@ const ESSAY_DATA = [
                         "vi": "hỗ trợ tiến bộ học tập"
                       },
                       {
-                        "en": "identify learning obstacles promptly",
-                        "vi": "phát hiện kịp thời trở ngại học tập"
+                        "en": "support",
+                        "vi": "hỗ trợ, ủng hộ"
+                      },
+                      {
+                        "en": "more effectively",
+                        "vi": "một cách hiệu quả hơn"
+                      },
+                      {
+                        "en": "challenging assignments",
+                        "vi": "bài tập khó"
+                      },
+                      {
+                        "en": "answer promptly",
+                        "vi": "giải đáp kịp thời"
+                      },
+                      {
+                        "en": "learning obstacles",
+                        "vi": "trở ngại học tập"
+                      },
+                      {
+                        "en": "steady academic improvement",
+                        "vi": "sự tiến bộ học tập ổn định"
                       }
                     ],
                     "point_collocations": [
@@ -173770,16 +173196,22 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "identify learning obstacles promptly",
-                          "vi": "phát hiện kịp thời trở ngại học tập"
+                          "en": "challenging assignments",
+                          "vi": "bài tập khó"
                         },
                         {
-                          "en": "accessible",
-                          "vi": "dễ tiếp cận, luôn sẵn sàng"
+                          "en": "answer promptly",
+                          "vi": "giải đáp kịp thời"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "learning obstacles",
+                          "vi": "trở ngại học tập"
                         },
                         {
-                          "en": "promptly",
-                          "vi": "kịp thời, ngay lập tức"
+                          "en": "steady academic improvement",
+                          "vi": "sự tiến bộ học tập ổn định"
                         }
                       ]
                     ]
@@ -173788,20 +173220,32 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 02: BEHAVIORAL INSIGHTS",
                     "point_vi": "Làm việc tại nhà mang lại cho cha mẹ những hiểu biết sâu sắc hơn về thói quen và lối sống của con.",
                     "point_en": "Home-based working provides parents with deeper insights into their children's daily routines and behavior.",
-                    "evidence_vi": "Việc quan sát con sinh hoạt và học tập thường xuyên giúp cha mẹ nhận biết các thay đổi tâm lý để đưa ra sự định hướng phù hợp.",
-                    "evidence_en": "Observing daily routines helps caregivers detect behavioral changes early and offer appropriate guidance.",
+                    "evidence_vi": "Việc ở nhà thường xuyên giúp cha mẹ trực tiếp quan sát cách con tự học, vui chơi và ứng xử trong sinh hoạt hằng ngày. Khi sớm nhận ra những thay đổi về tâm lý hay hành vi, phụ huynh có thể đưa ra lời khuyên tích cực và định hướng phù hợp.",
+                    "evidence_en": "Spending regular time at home allows parents to observe directly how their children study, play, and behave each day. When detecting early emotional or behavioral shifts, caregivers can offer constructive advice and timely guidance.",
                     "collocations": [
                       {
-                        "en": "deep insights into daily routines",
-                        "vi": "sự hiểu biết sâu sắc về nề nếp hằng ngày"
+                        "en": "behavior",
+                        "vi": "hành vi, cách ứng xử"
                       },
                       {
-                        "en": "detect behavioral changes early",
-                        "vi": "phát hiện sớm các thay đổi hành vi"
+                        "en": "routine",
+                        "vi": "nề nếp, lịch trình quen thuộc"
                       },
                       {
-                        "en": "appropriate guidance",
-                        "vi": "sự định hướng phù hợp"
+                        "en": "insight",
+                        "vi": "sự thấu hiểu sâu sắc"
+                      },
+                      {
+                        "en": "observe directly",
+                        "vi": "quan sát trực tiếp"
+                      },
+                      {
+                        "en": "behavioral shifts",
+                        "vi": "thay đổi hành vi"
+                      },
+                      {
+                        "en": "timely guidance",
+                        "vi": "định hướng kịp thời"
                       }
                     ],
                     "point_collocations": [
@@ -173821,20 +173265,18 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "detect behavioral changes early",
-                          "vi": "phát hiện sớm các thay đổi hành vi"
+                          "en": "observe directly",
+                          "vi": "quan sát trực tiếp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "behavioral shifts",
+                          "vi": "thay đổi hành vi"
                         },
                         {
-                          "en": "appropriate guidance",
-                          "vi": "sự định hướng phù hợp"
-                        },
-                        {
-                          "en": "behavior",
-                          "vi": "hành vi, cách ứng xử"
-                        },
-                        {
-                          "en": "routine",
-                          "vi": "nề nếp, lịch trình quen thuộc"
+                          "en": "timely guidance",
+                          "vi": "định hướng kịp thời"
                         }
                       ]
                     ]
@@ -173843,20 +173285,32 @@ const ESSAY_DATA = [
                     "title": "POSITIVE EFFECT 03: EMOTIONAL SECURITY",
                     "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an tâm và được nâng đỡ tinh thần.",
                     "point_en": "Constant parental presence gives children a reassuring sense of security and emotional support.",
-                    "evidence_vi": "Trẻ cảm thấy yên lòng vì có chỗ dựa vững chắc, từ đó dễ dàng tâm sự và cởi mở về những trăn trở của bản thân.",
-                    "evidence_en": "Children feel secure in a supportive home environment, which encourages them to communicate openly about their concerns.",
+                    "evidence_vi": "Trẻ nhỏ cảm thấy yên tâm và được bảo vệ khi biết cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi cần. Bầu không khí ấm áp này khuyến khích các em cởi mở chia sẻ những lo lắng cá nhân, từ đó củng cố sự tự tin và gắn kết gia đình.",
+                    "evidence_en": "Children feel secure and reassured knowing that their parents remain nearby and ready to listen whenever needed. This supportive environment encourages youngsters to speak openly about personal concerns, strengthening both self-confidence and family bonds.",
                     "collocations": [
                       {
                         "en": "reassuring sense of security",
                         "vi": "cảm giác an tâm vững chắc"
                       },
                       {
-                        "en": "supportive home environment",
-                        "vi": "môi trường gia đình giàu sự nâng đỡ"
+                        "en": "support",
+                        "vi": "hỗ trợ, ủng hộ"
                       },
                       {
-                        "en": "communicate openly",
-                        "vi": "giao tiếp cởi mở"
+                        "en": "as a result",
+                        "vi": "nhờ đó / kết quả là"
+                      },
+                      {
+                        "en": "secure and reassured",
+                        "vi": "an toàn và yên tâm"
+                      },
+                      {
+                        "en": "speak openly",
+                        "vi": "chia sẻ cởi mở"
+                      },
+                      {
+                        "en": "family bonds",
+                        "vi": "sự gắn kết gia đình"
                       }
                     ],
                     "point_collocations": [
@@ -173876,24 +173330,18 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "supportive home environment",
-                          "vi": "môi trường gia đình giàu sự nâng đỡ"
+                          "en": "secure and reassured",
+                          "vi": "an toàn và yên tâm"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "speak openly",
+                          "vi": "chia sẻ cởi mở"
                         },
                         {
-                          "en": "communicate openly",
-                          "vi": "giao tiếp cởi mở"
-                        },
-                        {
-                          "en": "support",
-                          "vi": "hỗ trợ, ủng hộ"
-                        },
-                        {
-                          "en": "secure",
-                          "vi": "an tâm, vững tâm"
-                        },
-                        {
-                          "en": "as a result",
-                          "vi": "nhờ đó / kết quả là"
+                          "en": "family bonds",
+                          "vi": "sự gắn kết gia đình"
                         }
                       ]
                     ]
@@ -174034,20 +173482,32 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 01: REDUCED DIRECT ENGAGEMENT",
                     "point_vi": "Làm việc tại nhà có thể làm giảm sự chú ý trực tiếp và chất lượng tương tác cha mẹ dành cho con.",
                     "point_en": "Remote working can inadvertently diminish direct parental attention and engagement.",
-                    "evidence_vi": "Khi bị cuốn vào các nhiệm vụ máy tính kéo dài và những cuộc họp trực tuyến căng thẳng, cha mẹ khó có thể lắng nghe con trọn vẹn.",
-                    "evidence_en": "When absorbed in demanding digital tasks and extended video conferences, parents struggle to interact attentively with their children.",
+                    "evidence_vi": "Khi bị cuốn vào khối lượng công việc máy tính kéo dài và các cuộc họp trực tuyến căng thẳng, cha mẹ rất khó lắng nghe con trọn vẹn. Việc thường xuyên phản hồi lơ đãng này có thể khiến trẻ cảm thấy bị bỏ rơi và dần ngại chia sẻ cảm xúc.",
+                    "evidence_en": "When absorbed in demanding computer tasks and extended video conferences, parents struggle to engage attentively with their children. Frequently responding in a distracted manner can leave youngsters feeling overlooked and less willing to open up.",
                     "collocations": [
                       {
                         "en": "diminish direct attention",
                         "vi": "làm suy giảm sự chú ý trực tiếp"
                       },
                       {
+                        "en": "engagement",
+                        "vi": "sự gắn kết, hứng thú tham gia"
+                      },
+                      {
                         "en": "absorbed in digital tasks",
                         "vi": "bị cuốn vào các công việc trên máy tính"
                       },
                       {
-                        "en": "interact attentively",
-                        "vi": "tương tác một cách chú tâm"
+                        "en": "extended video conferences",
+                        "vi": "cuộc họp trực tuyến kéo dài"
+                      },
+                      {
+                        "en": "engage attentively",
+                        "vi": "tương tác chú tâm"
+                      },
+                      {
+                        "en": "feeling overlooked",
+                        "vi": "cảm thấy bị ngó lơ"
                       }
                     ],
                     "point_collocations": [
@@ -174067,16 +173527,18 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "absorbed in digital tasks",
-                          "vi": "bị cuốn vào các công việc trên máy tính"
+                          "en": "extended video conferences",
+                          "vi": "cuộc họp trực tuyến kéo dài"
                         },
                         {
-                          "en": "interact attentively",
-                          "vi": "tương tác một cách chú tâm"
-                        },
+                          "en": "engage attentively",
+                          "vi": "tương tác chú tâm"
+                        }
+                      ],
+                      [
                         {
-                          "en": "diminish direct attention",
-                          "vi": "làm suy giảm sự chú ý trực tiếp"
+                          "en": "feeling overlooked",
+                          "vi": "cảm thấy bị ngó lơ"
                         }
                       ]
                     ]
@@ -174085,8 +173547,8 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 02: BLURRED WORK-LIFE BOUNDARIES",
                     "point_vi": "Ranh giới bị xóa nhòa giữa công việc và đời sống gia đình dễ dẫn đến những xáo trộn và tranh cãi.",
                     "point_en": "Blurred boundaries between professional obligations and domestic life frequently cause friction.",
-                    "evidence_vi": "Trẻ nhỏ khó phân biệt giữa lúc cha mẹ làm việc và lúc nghỉ ngơi, dẫn đến việc ngắt quãng bất ngờ và gây ra hiểu lầm không đáng có.",
-                    "evidence_en": "Young children struggle to recognize when parents are working, leading to untimely disruptions and mutual frustration.",
+                    "evidence_vi": "Trẻ nhỏ thường khó phân biệt giữa thời gian cha mẹ đang làm việc và thời gian nghỉ ngơi tại nhà. Khi trẻ vô tình làm gián đoạn các nhiệm vụ quan trọng, những hiểu lầm và sự bực dọc không đáng có rất dễ bùng phát giữa hai bên.",
+                    "evidence_en": "Young children often struggle to recognize when parents are actively working rather than free to interact at home. When kids inadvertently interrupt urgent duties, misunderstandings and mutual frustration can quickly escalate.",
                     "collocations": [
                       {
                         "en": "blurred boundaries",
@@ -174097,8 +173559,24 @@ const ESSAY_DATA = [
                         "vi": "nghĩa vụ nghề nghiệp"
                       },
                       {
-                        "en": "untimely disruptions",
-                        "vi": "những sự ngắt quãng không đúng lúc"
+                        "en": "furthermore",
+                        "vi": "hơn nữa"
+                      },
+                      {
+                        "en": "frequently",
+                        "vi": "thường xuyên"
+                      },
+                      {
+                        "en": "free to interact",
+                        "vi": "rảnh để tương tác"
+                      },
+                      {
+                        "en": "inadvertently interrupt",
+                        "vi": "vô tình làm gián đoạn"
+                      },
+                      {
+                        "en": "mutual frustration",
+                        "vi": "sự bực dọc từ hai phía"
                       }
                     ],
                     "point_collocations": [
@@ -174122,16 +173600,18 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
-                          "en": "untimely disruptions",
-                          "vi": "những sự ngắt quãng không đúng lúc"
+                          "en": "free to interact",
+                          "vi": "rảnh để tương tác"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "inadvertently interrupt",
+                          "vi": "vô tình làm gián đoạn"
                         },
                         {
-                          "en": "blurred boundaries",
-                          "vi": "ranh giới mờ nhạt"
-                        },
-                        {
-                          "en": "professional obligations",
-                          "vi": "nghĩa vụ nghề nghiệp"
+                          "en": "mutual frustration",
+                          "vi": "sự bực dọc từ hai phía"
                         }
                       ]
                     ]
@@ -174140,20 +173620,32 @@ const ESSAY_DATA = [
                     "title": "NEGATIVE EFFECT 03: ACCUMULATED PARENTAL STRESS",
                     "point_vi": "Gánh nặng công việc tại nhà làm tăng mức độ căng thẳng và kiệt sức ở các bậc phụ huynh.",
                     "point_en": "Balancing office deadlines with household duties can substantially elevate parental stress.",
-                    "evidence_vi": "Áp lực tích tụ kéo dài làm suy giảm sự kiên nhẫn của cha mẹ, khiến họ dễ nảy sinh sự bực bội và cáu gắt trong giao tiếp với con.",
-                    "evidence_en": "Persistent fatigue often erodes parents' patience, which can result in irritability and strained family communication.",
+                    "evidence_vi": "Việc đồng thời gánh vác hạn chót công việc và trách nhiệm chăm sóc con nhỏ khiến phụ huynh nhanh chóng rơi vào trạng thái kiệt sức kéo dài. Áp lực tích tụ này làm bào mòn sự kiên nhẫn, khiến cha mẹ dễ cáu gắt và làm căng thẳng giao tiếp gia đình.",
+                    "evidence_en": "Simultaneously juggling strict workplace deadlines and childcare duties quickly leaves parents mentally and physically exhausted. This persistent fatigue erodes parental patience, often resulting in irritability and strained family communication.",
                     "collocations": [
                       {
                         "en": "elevate parental stress",
                         "vi": "làm gia tăng căng thẳng ở cha mẹ"
                       },
                       {
+                        "en": "substantially",
+                        "vi": "đáng kể / phần lớn"
+                      },
+                      {
                         "en": "erode patience",
                         "vi": "làm xói mòn sự kiên nhẫn"
                       },
                       {
-                        "en": "strained family communication",
-                        "vi": "giao tiếp gia đình bị căng thẳng"
+                        "en": "workplace deadlines",
+                        "vi": "hạn chót công việc"
+                      },
+                      {
+                        "en": "childcare duties",
+                        "vi": "trách nhiệm chăm sóc con"
+                      },
+                      {
+                        "en": "strained communication",
+                        "vi": "giao tiếp căng thẳng"
                       }
                     ],
                     "point_collocations": [
@@ -174173,16 +173665,22 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       [
                         {
+                          "en": "workplace deadlines",
+                          "vi": "hạn chót công việc"
+                        },
+                        {
+                          "en": "childcare duties",
+                          "vi": "trách nhiệm chăm sóc con"
+                        }
+                      ],
+                      [
+                        {
                           "en": "erode patience",
-                          "vi": "làm xói mòn sự kiên nhẫn"
+                          "vi": "bào mòn sự kiên nhẫn"
                         },
                         {
-                          "en": "strained family communication",
-                          "vi": "giao tiếp gia đình bị căng thẳng"
-                        },
-                        {
-                          "en": "elevate parental stress",
-                          "vi": "làm gia tăng căng thẳng ở cha mẹ"
+                          "en": "strained communication",
+                          "vi": "giao tiếp căng thẳng"
                         }
                       ]
                     ]
@@ -174844,75 +174342,29 @@ const ESSAY_DATA = [
                     "vi": "cộng đồng địa phương"
                   }
                 ],
-                "evidence_vi": "Những sự kiện này có thể giới thiệu các món ăn truyền thống, trang phục, âm nhạc và điệu múa dân gian. Du khách có cơ hội trực tiếp trải nghiệm những hoạt động văn hóa thay vì chỉ tìm hiểu qua sách vở hoặc Internet. Người dân địa phương cũng có thể chia sẻ phong tục và truyền thống của mình với khách nước ngoài. Nhờ đó, mọi người có thể hiểu rõ hơn về các nền văn hóa khác nhau và phát triển sự tôn trọng đối với những khác biệt văn hóa.",
-                "evidence_en": "These events can introduce traditional food, costumes, music and folk dances. Visitors have a chance to experience cultural activities instead of only learning about them through books or the Internet. Local people can also share their customs and traditions with foreign visitors. As a result, people can better understand different cultures and develop respect for cultural differences.",
+                "evidence_vi": "Những lễ hội này có thể giới thiệu món ăn truyền thống, trang phục dân tộc, âm nhạc và các điệu múa dân gian. Nhờ đó, du khách có cơ hội trực tiếp trải nghiệm văn hóa cùng người dân địa phương thay vì chỉ đọc qua sách vở. Kết quả là mọi người hiểu sâu hơn và biết tôn trọng các nền văn hóa khác nhau.",
+                "evidence_en": "These festivals can introduce traditional food, national costumes, music, and folk dances. Visitors get a real chance to experience cultural activities with local people instead of only reading books. As a result, people better understand and respect different cultures.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "introduce traditional food",
-                      "vi": "giới thiệu các món ăn truyền thống"
-                    },
-                    {
-                      "en": "traditional costumes",
-                      "vi": "trang phục truyền thống"
+                      "en": "traditional food",
+                      "vi": "món ăn truyền thống"
                     },
                     {
                       "en": "folk dances",
                       "vi": "điệu múa dân gian"
-                    },
-                    {
-                      "en": "traditional music",
-                      "vi": "âm nhạc truyền thống"
                     }
                   ],
                   [
-                    {
-                      "en": "have a chance to",
-                      "vi": "có cơ hội làm gì"
-                    },
                     {
                       "en": "experience cultural activities",
-                      "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
-                    },
-                    {
-                      "en": "instead of",
-                      "vi": "thay vì"
-                    },
-                    {
-                      "en": "learn through books or the Internet",
-                      "vi": "tìm hiểu qua sách vở hoặc Internet"
+                      "vi": "trải nghiệm hoạt động văn hóa"
                     }
                   ],
                   [
                     {
-                      "en": "local people",
-                      "vi": "người dân địa phương"
-                    },
-                    {
-                      "en": "share customs and traditions",
-                      "vi": "chia sẻ phong tục và truyền thống"
-                    },
-                    {
-                      "en": "foreign visitors",
-                      "vi": "khách nước ngoài, du khách quốc tế"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó, kết quả là"
-                    },
-                    {
-                      "en": "understand different cultures",
-                      "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
-                    },
-                    {
-                      "en": "develop respect for",
-                      "vi": "phát triển sự tôn trọng đối với"
-                    },
-                    {
-                      "en": "cultural differences",
-                      "vi": "những khác biệt văn hóa"
+                      "en": "respect different cultures",
+                      "vi": "tôn trọng các nền văn hóa khác nhau"
                     }
                   ]
                 ],
@@ -174930,56 +174382,24 @@ const ESSAY_DATA = [
                     "vi": "đến với công chúng / mọi người"
                   },
                   {
-                    "en": "traditional food",
-                    "vi": "món ăn truyền thống"
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
                   },
                   {
-                    "en": "traditional costumes",
-                    "vi": "trang phục truyền thống"
+                    "en": "traditional food",
+                    "vi": "món ăn truyền thống"
                   },
                   {
                     "en": "folk dances",
                     "vi": "điệu múa dân gian"
                   },
                   {
-                    "en": "have a chance to",
-                    "vi": "có cơ hội làm gì"
-                  },
-                  {
                     "en": "experience cultural activities",
-                    "vi": "trực tiếp trải nghiệm những hoạt động văn hóa"
+                    "vi": "trải nghiệm hoạt động văn hóa"
                   },
                   {
-                    "en": "instead of",
-                    "vi": "thay vì"
-                  },
-                  {
-                    "en": "learn through books or the Internet",
-                    "vi": "tìm hiểu qua sách vở hoặc Internet"
-                  },
-                  {
-                    "en": "local people",
-                    "vi": "người dân địa phương"
-                  },
-                  {
-                    "en": "share customs and traditions",
-                    "vi": "chia sẻ phong tục và truyền thống"
-                  },
-                  {
-                    "en": "foreign visitors",
-                    "vi": "khách nước ngoài, du khách quốc tế"
-                  },
-                  {
-                    "en": "understand different cultures",
-                    "vi": "hiểu rõ hơn về các nền văn hóa khác nhau"
-                  },
-                  {
-                    "en": "develop respect for",
-                    "vi": "phát triển sự tôn trọng đối với"
-                  },
-                  {
-                    "en": "cultural differences",
-                    "vi": "những khác biệt văn hóa"
+                    "en": "respect different cultures",
+                    "vi": "tôn trọng các nền văn hóa khác nhau"
                   }
                 ]
               },
@@ -175005,87 +174425,29 @@ const ESSAY_DATA = [
                     "vi": "một cách nhanh chóng và dễ dàng"
                   }
                 ],
-                "evidence_vi": "Mọi người có thể đăng tải hình ảnh, video và bài viết về ẩm thực, lễ hội và lối sống truyền thống của đất nước mình. Những nội dung này có thể tiếp cận lượng lớn người xem trên toàn thế giới mà không cần phải đi du lịch. Người dùng từ các quốc gia khác nhau cũng có thể bình luận, đặt câu hỏi và trao đổi thông tin về văn hóa của họ. Điều này giúp mọi người mở rộng hiểu biết về thế giới và kết nối với những người có nền tảng văn hóa khác nhau.",
-                "evidence_en": "People can post pictures, videos and articles about their country's food, festivals and traditional lifestyles. This content can reach a large number of people around the world without the need to travel. Users from different countries can also leave comments, ask questions and exchange information about their cultures. This helps people broaden their knowledge of the world and connect with people from different cultural backgrounds.",
+                "evidence_vi": "Mọi người có thể đăng tải hình ảnh, video và bài viết về ẩm thực, lễ hội và lối sống truyền thống của đất nước mình lên mạng. Những nội dung này nhanh chóng tiếp cận hàng triệu người xem trên khắp thế giới mà không cần phải đi du lịch xa. Người dùng từ nhiều quốc gia cũng có thể bình luận và trao đổi để mở rộng hiểu biết lẫn nhau.",
+                "evidence_en": "People can post photos, videos, and articles about their country's food, festivals, and traditional lifestyles online. This content quickly reaches millions of viewers worldwide without the need to travel. Users from many countries can also leave comments and exchange ideas to broaden their understanding.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "post pictures and videos",
-                      "vi": "đăng tải hình ảnh và video"
-                    },
-                    {
-                      "en": "articles about",
-                      "vi": "các bài viết về"
-                    },
-                    {
                       "en": "traditional lifestyles",
                       "vi": "lối sống truyền thống"
-                    },
-                    {
-                      "en": "cultural festivals",
-                      "vi": "lễ hội văn hóa"
                     }
                   ],
                   [
                     {
-                      "en": "reach a large number of people",
-                      "vi": "tiếp cận lượng lớn người xem"
-                    },
-                    {
-                      "en": "around the world",
-                      "vi": "trên toàn thế giới"
-                    },
-                    {
-                      "en": "without the need to travel",
-                      "vi": "mà không cần phải đi du lịch"
-                    },
-                    {
-                      "en": "global audience",
-                      "vi": "khán giả toàn cầu"
+                      "en": "reach millions of viewers",
+                      "vi": "tiếp cận hàng triệu người xem"
                     }
                   ],
                   [
                     {
-                      "en": "leave comments",
-                      "vi": "để lại bình luận"
-                    },
-                    {
-                      "en": "ask questions",
-                      "vi": "đặt câu hỏi"
-                    },
-                    {
-                      "en": "exchange information about",
-                      "vi": "trao đổi thông tin về"
-                    },
-                    {
-                      "en": "interactive communication",
-                      "vi": "giao tiếp tương tác"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "broaden one's knowledge of the world",
-                      "vi": "mở rộng hiểu biết về thế giới"
-                    },
-                    {
-                      "en": "connect with people",
-                      "vi": "kết nối với mọi người"
-                    },
-                    {
-                      "en": "different cultural backgrounds",
-                      "vi": "những nền tảng văn hóa khác nhau"
-                    },
-                    {
-                      "en": "global community",
-                      "vi": "cộng đồng toàn cầu"
+                      "en": "broaden understanding",
+                      "vi": "mở rộng hiểu biết"
                     }
                   ]
                 ],
                 "collocations": [
-                  {
-                    "en": "digital platforms",
-                    "vi": "nền tảng kỹ thuật số"
-                  },
                   {
                     "en": "social media and online platforms",
                     "vi": "mạng xã hội và các nền tảng trực tuyến"
@@ -175095,48 +174457,24 @@ const ESSAY_DATA = [
                     "vi": "chia sẻ văn hóa với"
                   },
                   {
-                    "en": "post pictures and videos",
-                    "vi": "đăng tải hình ảnh và video"
+                    "en": "in different countries",
+                    "vi": "ở nhiều quốc gia khác nhau"
+                  },
+                  {
+                    "en": "quickly and easily",
+                    "vi": "một cách nhanh chóng và dễ dàng"
                   },
                   {
                     "en": "traditional lifestyles",
                     "vi": "lối sống truyền thống"
                   },
                   {
-                    "en": "reach a large number of people",
-                    "vi": "tiếp cận lượng lớn người xem"
+                    "en": "reach millions of viewers",
+                    "vi": "tiếp cận hàng triệu người xem"
                   },
                   {
-                    "en": "around the world",
-                    "vi": "trên toàn thế giới"
-                  },
-                  {
-                    "en": "without the need to travel",
-                    "vi": "mà không cần phải đi du lịch"
-                  },
-                  {
-                    "en": "leave comments",
-                    "vi": "để lại bình luận"
-                  },
-                  {
-                    "en": "ask questions",
-                    "vi": "đặt câu hỏi"
-                  },
-                  {
-                    "en": "exchange information about",
-                    "vi": "trao đổi thông tin về"
-                  },
-                  {
-                    "en": "broaden one's knowledge of the world",
-                    "vi": "mở rộng hiểu biết về thế giới"
-                  },
-                  {
-                    "en": "connect with people",
-                    "vi": "kết nối với mọi người"
-                  },
-                  {
-                    "en": "different cultural backgrounds",
-                    "vi": "những nền tảng văn hóa khác nhau"
+                    "en": "broaden understanding",
+                    "vi": "mở rộng hiểu biết"
                   }
                 ]
               },
@@ -175162,134 +174500,64 @@ const ESSAY_DATA = [
                     "vi": "các nền văn hóa khác nhau"
                   }
                 ],
-                "evidence_vi": "Giáo viên có thể giới thiệu cho học sinh về lịch sử, phong tục, lễ hội và truyền thống của các quốc gia khác nhau. Học sinh có thể tham gia các hoạt động như thuyết trình, làm dự án và tìm hiểu về các nền văn hóa trên thế giới. Những hoạt động này giúp các em phát triển kiến thức và hiểu biết về sự đa dạng văn hóa. Quan trọng hơn, học sinh sẽ học cách tôn trọng những người có lối sống, niềm tin và truyền thống khác với mình.",
-                "evidence_en": "Teachers can introduce students to the history, customs, festivals and traditions of different countries. Students can take part in activities such as presentations, projects and research about cultures around the world. These activities help them develop their knowledge and understanding of cultural diversity. More importantly, students will learn to respect people with different lifestyles, beliefs and traditions.",
+                "evidence_vi": "Giáo viên có thể giới thiệu cho học sinh về lịch sử, phong tục và các lễ hội đặc trưng của nhiều quốc gia trên thế giới. Học sinh cũng có thể tham gia làm bài thuyết trình hoặc dự án nhóm để tự tìm hiểu về sự đa dạng văn hóa. Nhờ vậy, các em sớm học được cách tôn trọng những người có lối sống và truyền thống khác biệt.",
+                "evidence_en": "Teachers can introduce students to the history, customs, and special festivals of many countries. Students can also take part in group projects and presentations to learn about cultural diversity. Therefore, they learn early to respect people with different lifestyles and traditions.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "introduce somebody to something",
-                      "vi": "giới thiệu cho ai về điều gì"
-                    },
-                    {
-                      "en": "customs and traditions",
-                      "vi": "phong tục và truyền thống"
-                    },
-                    {
-                      "en": "festivals and history",
-                      "vi": "lễ hội và lịch sử"
-                    },
-                    {
-                      "en": "different countries",
-                      "vi": "các quốc gia khác nhau"
+                      "en": "history and customs",
+                      "vi": "lịch sử và phong tục"
                     }
                   ],
                   [
                     {
-                      "en": "take part in activities",
-                      "vi": "tham gia các hoạt động"
-                    },
-                    {
-                      "en": "presentations and projects",
-                      "vi": "thuyết trình và làm dự án"
-                    },
-                    {
-                      "en": "research about cultures",
-                      "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
-                    },
-                    {
-                      "en": "cultures around the world",
-                      "vi": "các nền văn hóa trên thế giới"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "develop knowledge and understanding",
-                      "vi": "phát triển kiến thức và hiểu biết"
+                      "en": "group projects",
+                      "vi": "dự án nhóm"
                     },
                     {
                       "en": "cultural diversity",
                       "vi": "sự đa dạng văn hóa"
-                    },
-                    {
-                      "en": "broaden students' horizons",
-                      "vi": "mở rộng tầm nhìn của học sinh"
                     }
                   ],
                   [
                     {
-                      "en": "more importantly",
-                      "vi": "quan trọng hơn là"
-                    },
-                    {
-                      "en": "learn to respect people",
-                      "vi": "học cách tôn trọng người khác"
-                    },
-                    {
                       "en": "different lifestyles",
-                      "vi": "lối sống khác nhau"
-                    },
-                    {
-                      "en": "beliefs and traditions",
-                      "vi": "niềm tin và truyền thống"
-                    },
-                    {
-                      "en": "respect differences",
-                      "vi": "tôn trọng sự khác biệt"
+                      "vi": "lối sống khác biệt"
                     }
                   ]
                 ],
                 "collocations": [
                   {
-                    "en": "teaching programmes",
-                    "vi": "chương trình giảng dạy"
-                  },
-                  {
                     "en": "include cultural topics in",
                     "vi": "đưa những nội dung về văn hóa vào"
+                  },
+                  {
+                    "en": "teaching programmes",
+                    "vi": "chương trình giảng dạy"
                   },
                   {
                     "en": "understand and appreciate",
                     "vi": "thấu hiểu và trân trọng"
                   },
                   {
-                    "en": "introduce somebody to something",
-                    "vi": "giới thiệu cho ai về điều gì"
+                    "en": "different cultures",
+                    "vi": "các nền văn hóa khác nhau"
                   },
                   {
-                    "en": "customs and traditions",
-                    "vi": "phong tục và truyền thống"
+                    "en": "history and customs",
+                    "vi": "lịch sử và phong tục"
                   },
                   {
-                    "en": "take part in activities",
-                    "vi": "tham gia các hoạt động"
-                  },
-                  {
-                    "en": "presentations and projects",
-                    "vi": "thuyết trình và làm dự án"
-                  },
-                  {
-                    "en": "research about cultures",
-                    "vi": "tìm hiểu / nghiên cứu về các nền văn hóa"
+                    "en": "group projects",
+                    "vi": "dự án nhóm"
                   },
                   {
                     "en": "cultural diversity",
                     "vi": "sự đa dạng văn hóa"
                   },
                   {
-                    "en": "learn to respect people",
-                    "vi": "học cách tôn trọng người khác"
-                  },
-                  {
                     "en": "different lifestyles",
-                    "vi": "lối sống khác nhau"
-                  },
-                  {
-                    "en": "beliefs and traditions",
-                    "vi": "niềm tin và truyền thống"
-                  },
-                  {
-                    "en": "respect differences",
-                    "vi": "tôn trọng sự khác biệt"
+                    "vi": "lối sống khác biệt"
                   }
                 ]
               },
@@ -175315,83 +174583,25 @@ const ESSAY_DATA = [
                     "vi": "người dân đến từ các quốc gia khác"
                   }
                 ],
-                "evidence_vi": "Chính phủ và các trường đại học có thể tổ chức các chương trình trao đổi sinh viên hoặc các chuyến thăm quốc tế. Người tham gia có thể sống, học tập hoặc làm việc cùng người dân địa phương trong một khoảng thời gian. Qua những trải nghiệm thực tế này, họ có thể tìm hiểu về cách giao tiếp, thói quen sinh hoạt và các giá trị văn hóa của người dân địa phương. Những cuộc gặp gỡ trực tiếp này giúp xây dựng tình bạn, giảm định kiến và tăng cường sự hiểu biết giữa các quốc gia.",
-                "evidence_en": "Governments and universities can organize student exchange programmes or international visits. Participants can live, study or work with local people for a period of time. Through these real-life experiences, they can learn about local people's communication styles, daily habits and cultural values. These face-to-face interactions help build friendships, reduce stereotypes and improve understanding between countries.",
+                "evidence_vi": "Chính phủ và các trường đại học có thể tổ chức chương trình trao đổi sinh viên và các chuyến giao lưu quốc tế hằng năm. Người tham gia được sống, học tập và trò chuyện trực tiếp cùng người dân bản địa trong một thời gian. Những trải nghiệm thực tế này giúp xây dựng tình bạn bền chặt và tăng cường sự thấu hiểu giữa các quốc gia.",
+                "evidence_en": "Governments and universities can organize student exchange programs and international visits every year. Participants get to live, study, and communicate directly with local residents for a period of time. These real-life experiences help build lasting friendships and improve understanding between countries.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "governments and universities",
-                      "vi": "chính phủ và các trường đại học"
-                    },
-                    {
-                      "en": "student exchange programmes",
+                      "en": "student exchange programs",
                       "vi": "chương trình trao đổi sinh viên"
-                    },
-                    {
-                      "en": "international visits",
-                      "vi": "các chuyến thăm quốc tế"
-                    },
-                    {
-                      "en": "organize exchange activities",
-                      "vi": "tổ chức các hoạt động giao lưu"
                     }
                   ],
                   [
                     {
-                      "en": "participants",
-                      "vi": "người tham gia"
-                    },
-                    {
-                      "en": "live, study or work with",
-                      "vi": "sống, học tập hoặc làm việc cùng"
-                    },
-                    {
-                      "en": "local people",
+                      "en": "local residents",
                       "vi": "người dân địa phương"
-                    },
-                    {
-                      "en": "for a period of time",
-                      "vi": "trong một khoảng thời gian"
                     }
                   ],
                   [
                     {
-                      "en": "real-life experiences",
-                      "vi": "trải nghiệm thực tế"
-                    },
-                    {
-                      "en": "communication styles",
-                      "vi": "cách giao tiếp, phong cách giao tiếp"
-                    },
-                    {
-                      "en": "daily habits",
-                      "vi": "thói quen sinh hoạt"
-                    },
-                    {
-                      "en": "cultural values",
-                      "vi": "các giá trị văn hóa"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "face-to-face interactions",
-                      "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
-                    },
-                    {
-                      "en": "build friendships",
-                      "vi": "xây dựng tình bạn"
-                    },
-                    {
-                      "en": "reduce stereotypes",
-                      "vi": "giảm định kiến"
-                    },
-                    {
-                      "en": "improve understanding between countries",
-                      "vi": "tăng cường sự hiểu biết giữa các quốc gia"
-                    },
-                    {
-                      "en": "mutual understanding",
-                      "vi": "sự hiểu biết lẫn nhau"
+                      "en": "lasting friendships",
+                      "vi": "tình bạn bền chặt"
                     }
                   ]
                 ],
@@ -175401,52 +174611,28 @@ const ESSAY_DATA = [
                     "vi": "chương trình giao lưu văn hóa"
                   },
                   {
-                    "en": "student exchange programmes",
+                    "en": "give people opportunities to",
+                    "vi": "tạo cơ hội cho mọi người làm gì"
+                  },
+                  {
+                    "en": "meet and learn about",
+                    "vi": "gặp gỡ và tìm hiểu về"
+                  },
+                  {
+                    "en": "people from other countries",
+                    "vi": "người dân đến từ các quốc gia khác"
+                  },
+                  {
+                    "en": "student exchange programs",
                     "vi": "chương trình trao đổi sinh viên"
                   },
                   {
-                    "en": "international visits",
-                    "vi": "các chuyến thăm quốc tế"
-                  },
-                  {
-                    "en": "live, study or work with",
-                    "vi": "sống, học tập hoặc làm việc cùng"
-                  },
-                  {
-                    "en": "local people",
+                    "en": "local residents",
                     "vi": "người dân địa phương"
                   },
                   {
-                    "en": "real-life experiences",
-                    "vi": "trải nghiệm thực tế"
-                  },
-                  {
-                    "en": "communication styles",
-                    "vi": "cách giao tiếp, phong cách giao tiếp"
-                  },
-                  {
-                    "en": "daily habits",
-                    "vi": "thói quen sinh hoạt"
-                  },
-                  {
-                    "en": "cultural values",
-                    "vi": "các giá trị văn hóa"
-                  },
-                  {
-                    "en": "face-to-face interactions",
-                    "vi": "những cuộc gặp gỡ trực tiếp, tương tác trực tiếp"
-                  },
-                  {
-                    "en": "build friendships",
-                    "vi": "xây dựng tình bạn"
-                  },
-                  {
-                    "en": "reduce stereotypes",
-                    "vi": "giảm định kiến"
-                  },
-                  {
-                    "en": "improve understanding between countries",
-                    "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+                    "en": "lasting friendships",
+                    "vi": "tình bạn bền chặt"
                   }
                 ]
               },
@@ -175464,8 +174650,8 @@ const ESSAY_DATA = [
                     "vi": "ẩm thực truyền thống"
                   }
                 ],
-                "evidence_vi": "Du khách nước ngoài có thể tham quan di tích lịch sử, trải nghiệm làng nghề và thưởng thức các món ăn đặc sản địa phương.",
-                "evidence_en": "Foreign tourists can visit historic sites, explore craft villages, and enjoy famous local dishes during their trips.",
+                "evidence_vi": "Các địa phương có thể mở rộng các tour tham quan di tích lịch sử, bảo tàng và làng nghề thủ công truyền thống. Bên cạnh đó, du khách nước ngoài rất thích thưởng thức các món ăn đặc sản và tham gia lớp học nấu ăn địa phương. Những trải nghiệm thú vị này giúp hình ảnh văn hóa của đất nước lan tỏa rộng rãi hơn khắp thế giới.",
+                "evidence_en": "Local areas can promote tours to historic sites, museums, and traditional craft villages. In addition, foreign tourists love tasting famous local dishes and joining short cooking classes. These enjoyable experiences help spread a country's cultural image widely around the world.",
                 "evidence_collocations": [
                   [
                     {
@@ -175475,10 +174661,22 @@ const ESSAY_DATA = [
                     {
                       "en": "craft villages",
                       "vi": "làng nghề truyền thống"
-                    },
+                    }
+                  ],
+                  [
                     {
                       "en": "local dishes",
                       "vi": "món ăn địa phương"
+                    },
+                    {
+                      "en": "cooking classes",
+                      "vi": "lớp học nấu ăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cultural image",
+                      "vi": "hình ảnh văn hóa"
                     }
                   ]
                 ],
@@ -175502,6 +174700,14 @@ const ESSAY_DATA = [
                   {
                     "en": "local dishes",
                     "vi": "món ăn địa phương"
+                  },
+                  {
+                    "en": "cooking classes",
+                    "vi": "lớp học nấu ăn"
+                  },
+                  {
+                    "en": "cultural image",
+                    "vi": "hình ảnh văn hóa"
                   }
                 ]
               }
@@ -176156,8 +175362,8 @@ const ESSAY_DATA = [
                     "vi": "bản sắc dân tộc"
                   }
                 ],
-                "evidence_vi": "Thông qua các tour tham quan di tích lịch sử, lớp học nấu ăn địa phương và bảo tàng sống động, du khách quốc tế có thể trực tiếp trải nghiệm đời sống văn hóa bản địa. Những trải nghiệm chân thực này thường để lại ấn tượng sâu đậm và khuyến khích họ chia sẻ câu chuyện văn hóa đó với cộng đồng của mình.",
-                "evidence_en": "Through guided tours of historic landmarks, local cooking classes, and interactive museums, international visitors can immerse themselves directly in indigenous heritage. Such authentic experiences leave lasting impressions and inspire travelers to share those cultural stories back home.",
+                "evidence_vi": "Thông qua các tour tham quan di tích lịch sử, bảo tàng tương tác và làng nghề truyền thống, du khách quốc tế có thể trực tiếp đắm mình vào di sản văn hóa bản địa. Bên cạnh việc tham quan, ẩm thực truyền thống mang đến trải nghiệm giác quan gần gũi giúp người nước ngoài dễ dàng cảm nhận tinh thần của một dân tộc. Chẳng hạn, nhiều du khách tham gia lớp học nấu món ăn truyền thống thường lưu giữ ấn tượng sâu đậm về nguyên liệu và phong tục ăn uống địa phương. Khi trở về quê hương, họ thường chia sẻ những trải nghiệm chân thực này với người thân, qua đó quảng bá văn hóa một cách tự nhiên và bền vững.",
+                "evidence_en": "Through guided tours of historic landmarks, interactive museums, and traditional craft villages, international visitors can immerse themselves directly in indigenous heritage. Alongside sightseeing, traditional cuisine provides an accessible sensory experience that helps foreigners connect effortlessly with a nation's spirit. For example, travelers who join local cooking classes often gain lasting appreciation for regional ingredients and dining customs. Upon returning home, they naturally share these authentic stories with their communities, promoting cultural understanding in an organic and lasting way.",
                 "evidence_collocations": [
                   [
                     {
@@ -176166,17 +175372,37 @@ const ESSAY_DATA = [
                     },
                     {
                       "en": "immerse oneself in",
-                      "vi": "đắm mình vào / trải nghiệm sâu"
+                      "vi": "đắm mình vào"
                     }
                   ],
                   [
                     {
-                      "en": "authentic experiences",
-                      "vi": "trải nghiệm chân thực"
+                      "en": "sensory experience",
+                      "vi": "trải nghiệm giác quan"
                     },
                     {
-                      "en": "lasting impressions",
-                      "vi": "ấn tượng lâu dài"
+                      "en": "nation's spirit",
+                      "vi": "tinh thần dân tộc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "regional ingredients",
+                      "vi": "nguyên liệu địa phương"
+                    },
+                    {
+                      "en": "dining customs",
+                      "vi": "phong tục ẩm thực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "authentic stories",
+                      "vi": "những câu chuyện chân thực"
+                    },
+                    {
+                      "en": "cultural understanding",
+                      "vi": "sự thấu hiểu văn hóa"
                     }
                   ]
                 ],
@@ -176199,15 +175425,31 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "immerse oneself in",
-                    "vi": "đắm mình vào / trải nghiệm sâu"
+                    "vi": "đắm mình vào"
                   },
                   {
-                    "en": "authentic experiences",
-                    "vi": "trải nghiệm chân thực"
+                    "en": "sensory experience",
+                    "vi": "trải nghiệm giác quan"
                   },
                   {
-                    "en": "lasting impressions",
-                    "vi": "ấn tượng lâu dài"
+                    "en": "nation's spirit",
+                    "vi": "tinh thần dân tộc"
+                  },
+                  {
+                    "en": "regional ingredients",
+                    "vi": "nguyên liệu địa phương"
+                  },
+                  {
+                    "en": "dining customs",
+                    "vi": "phong tục ẩm thực"
+                  },
+                  {
+                    "en": "authentic stories",
+                    "vi": "những câu chuyện chân thực"
+                  },
+                  {
+                    "en": "cultural understanding",
+                    "vi": "sự thấu hiểu văn hóa"
                   }
                 ]
               }
@@ -177135,253 +176377,261 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
                 "point_vi": "Các tòa nhà văn phòng bằng kính tiêu thụ một lượng điện năng rất lớn.",
                 "point_en": "Glass office buildings consume a very large amount of electricity.",
-                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
-                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm the environment.",
+                "evidence_vi": "Vì vách kính dễ truyền nhiệt, các tòa nhà này phải bật máy điều hòa công suất lớn suốt cả ngày. Bên cạnh đó, hàng trăm bóng đèn và máy tính văn phòng cũng tiêu tốn lượng điện năng khổng lồ mỗi tháng. Điều này làm tăng chi phí vận hành, thải ra nhiều khí carbon hơn và gây hại cho môi trường.",
+                "evidence_en": "Because glass walls let heat pass through easily, these buildings must run powerful air conditioners all day long. In addition, hundreds of office lights and computers use a huge amount of electricity every month. This raises operating costs, increases carbon emissions, and harms the environment.",
                 "collocations": [
                   {
-                    "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
+                    "en": "powerful air conditioners",
+                    "vi": "máy điều hòa công suất lớn"
                   },
                   {
-                    "en": "consume a very large amount of electricity",
-                    "vi": "tiêu thụ một lượng điện năng rất lớn"
+                    "en": "huge amount of electricity",
+                    "vi": "lượng điện năng khổng lồ"
                   },
                   {
-                    "en": "large amount of electricity",
-                    "vi": "lượng điện năng lớn"
+                    "en": "operating costs",
+                    "vi": "chi phí vận hành"
                   },
                   {
-                    "en": "high energy consumption",
-                    "vi": "mức tiêu thụ năng lượng cao"
-                  },
-                  {
-                    "en": "rely heavily on air conditioning",
-                    "vi": "phụ thuộc nhiều vào điều hòa không khí"
-                  },
-                  {
-                    "en": "air conditioning",
-                    "vi": "điều hòa không khí"
-                  },
-                  {
-                    "en": "electric lighting",
-                    "vi": "đèn chiếu sáng điện"
-                  },
-                  {
-                    "en": "increase carbon emissions",
-                    "vi": "làm tăng lượng khí thải carbon"
-                  },
-                  {
-                    "en": "harm the environment",
-                    "vi": "gây hại cho môi trường"
-                  },
-                  {
-                    "en": "office equipment",
-                    "vi": "thiết bị văn phòng"
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "powerful air conditioners",
+                      "vi": "máy điều hòa công suất lớn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "huge amount of electricity",
+                      "vi": "lượng điện năng khổng lồ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "operating costs",
+                      "vi": "chi phí vận hành"
+                    },
+                    {
+                      "en": "carbon emissions",
+                      "vi": "khí thải carbon"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
                 "point_vi": "Các tòa nhà kính cao tầng gây ra tình trạng ô nhiễm ánh sáng nghiêm trọng vào ban đêm.",
                 "point_en": "Tall glass buildings cause serious light pollution at night.",
-                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
-                "evidence_en": "Many offices leave bright lights on all night, so this intense light disrupts the sleep of local residents and the natural behavior of birds.",
+                "evidence_vi": "Nhiều văn phòng trong các tòa nhà kính thường để đèn sáng rực vào buổi tối và thậm chí suốt đêm. Ánh sáng quá mạnh chiếu qua lớp kính trong suốt làm bầu trời thành phố luôn sáng chói. Hậu quả là giấc ngủ của người dân sống gần đó bị ảnh hưởng và các loài chim ban đêm dễ bị mất phương hướng.",
+                "evidence_en": "Many offices in glass buildings leave bright lights on in the evening and even throughout the night. Strong light shining through transparent glass keeps the city sky overly bright. As a result, nearby residents sleep worse and night birds can easily lose their direction.",
                 "collocations": [
                   {
-                    "en": "tall glass buildings",
-                    "vi": "các tòa nhà kính cao tầng"
+                    "en": "bright lights",
+                    "vi": "đèn sáng rực"
                   },
                   {
-                    "en": "cause serious light pollution",
-                    "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
-                  },
-                  {
-                    "en": "light pollution at night",
-                    "vi": "ô nhiễm ánh sáng vào ban đêm"
-                  },
-                  {
-                    "en": "leave bright lights on all night",
-                    "vi": "bật đèn sáng suốt đêm"
-                  },
-                  {
-                    "en": "bright lights at night",
-                    "vi": "ánh sáng rực rỡ vào ban đêm"
-                  },
-                  {
-                    "en": "intense light",
-                    "vi": "ánh sáng mạnh"
-                  },
-                  {
-                    "en": "disrupt the sleep of local residents",
-                    "vi": "làm gián đoạn giấc ngủ của cư dân địa phương"
-                  },
-                  {
-                    "en": "local residents",
-                    "vi": "người dân địa phương"
-                  },
-                  {
-                    "en": "natural behavior of birds",
-                    "vi": "tập tính tự nhiên của loài chim"
-                  },
-                  {
-                    "en": "modern glass architecture",
-                    "vi": "kiến trúc kính hiện đại"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
-                "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
-                "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
-                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
-                "evidence_en": "Glass absorbs a lot of heat from the sun, so cities with many glass buildings are often much hotter than green areas.",
-                "collocations": [
-                  {
-                    "en": "glass walls",
-                    "vi": "vách kính"
-                  },
-                  {
-                    "en": "increase temperatures inside offices",
-                    "vi": "làm tăng nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "temperatures inside offices",
-                    "vi": "nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "surrounding environment",
-                    "vi": "môi trường xung quanh"
-                  },
-                  {
-                    "en": "make the surrounding environment hotter",
-                    "vi": "làm môi trường xung quanh nóng hơn"
-                  },
-                  {
-                    "en": "absorb heat from the sun",
-                    "vi": "hấp thụ nhiệt từ mặt trời"
-                  },
-                  {
-                    "en": "absorb a lot of heat",
-                    "vi": "hấp thụ nhiều nhiệt lượng"
-                  },
-                  {
-                    "en": "heat from the sun",
-                    "vi": "nhiệt lượng từ mặt trời"
-                  },
-                  {
-                    "en": "cities with many glass buildings",
-                    "vi": "các thành phố có nhiều tòa nhà kính"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  },
-                  {
-                    "en": "often much hotter",
-                    "vi": "thường nóng bức hơn nhiều"
-                  },
-                  {
-                    "en": "green areas",
-                    "vi": "các khu vực nhiều cây xanh"
-                  },
-                  {
-                    "en": "urban heat",
-                    "vi": "nhiệt độ đô thị"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
-                "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
-                "point_en": "Working in glass offices can cause stress and harm the health of employees.",
-                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
-                "evidence_en": "Glare from glass windows makes workers suffer from eye strain, and a workspace without natural plants reduces concentration during work hours.",
-                "collocations": [
-                  {
-                    "en": "working in glass offices",
-                    "vi": "làm việc trong văn phòng kính"
-                  },
-                  {
-                    "en": "cause stress",
-                    "vi": "gây căng thẳng"
-                  },
-                  {
-                    "en": "harm the health of employees",
-                    "vi": "làm hại sức khỏe nhân viên"
-                  },
-                  {
-                    "en": "glare from glass windows",
-                    "vi": "ánh sáng chói từ cửa kính"
-                  },
-                  {
-                    "en": "suffer from eye strain",
-                    "vi": "bị mỏi mắt"
-                  },
-                  {
-                    "en": "workspace without natural plants",
-                    "vi": "không gian làm việc thiếu cây xanh"
-                  },
-                  {
-                    "en": "natural plants",
-                    "vi": "cây xanh tự nhiên"
-                  },
-                  {
-                    "en": "reduce concentration",
-                    "vi": "làm giảm sự tập trung"
-                  },
-                  {
-                    "en": "during work hours",
-                    "vi": "trong giờ làm việc"
-                  },
-                  {
-                    "en": "visual fatigue",
-                    "vi": "mệt mỏi thị giác"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
-                "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
-                "point_en": "Glass buildings are a deadly danger to many birds in the city.",
-                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
-                "evidence_en": "Transparent glass reflects the sky and trees, so birds cannot see the glass and often fly into windows leading to death.",
-                "collocations": [
-                  {
-                    "en": "deadly danger to birds",
-                    "vi": "mối nguy hiểm chết người với loài chim"
-                  },
-                  {
-                    "en": "birds in the city",
-                    "vi": "các loài chim trong thành phố"
+                    "en": "throughout the night",
+                    "vi": "suốt đêm"
                   },
                   {
                     "en": "transparent glass",
                     "vi": "kính trong suốt"
                   },
                   {
-                    "en": "reflect the sky and trees",
-                    "vi": "phản chiếu bầu trời và cây cối"
+                    "en": "nearby residents",
+                    "vi": "cư dân sống gần đó"
                   },
                   {
-                    "en": "cannot see the glass",
-                    "vi": "không nhìn thấy kính"
-                  },
-                  {
-                    "en": "fly into windows",
-                    "vi": "bay đâm vào cửa kính"
-                  },
-                  {
-                    "en": "leading to death",
-                    "vi": "dẫn đến tử vong"
-                  },
-                  {
-                    "en": "injure or kill birds",
-                    "vi": "làm chim bị thương hoặc tử vong"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
+                    "en": "lose their direction",
+                    "vi": "mất phương hướng"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bright lights",
+                      "vi": "đèn sáng rực"
+                    },
+                    {
+                      "en": "throughout the night",
+                      "vi": "suốt đêm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "transparent glass",
+                      "vi": "kính trong suốt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "nearby residents",
+                      "vi": "cư dân sống gần đó"
+                    },
+                    {
+                      "en": "lose their direction",
+                      "vi": "mất phương hướng"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
+                "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
+                "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
+                "evidence_vi": "Các tấm kính lớn hấp thụ và giữ lại rất nhiều nhiệt từ ánh nắng mặt trời vào ban ngày. Để làm mát bên trong, các hệ thống điều hòa lại thải thêm hơi nóng ra không khí bên ngoài đường phố. Do đó, các khu vực tập trung nhiều tòa nhà kính luôn nóng bức hơn những khu phố có nhiều cây xanh.",
+                "evidence_en": "Large glass panels absorb and trap a great deal of heat from sunlight during the day. To cool the inside, air conditioning units release even more hot air onto outside streets. Consequently, districts with many glass towers feel much hotter than neighborhoods with plenty of trees.",
+                "collocations": [
+                  {
+                    "en": "absorb and trap heat",
+                    "vi": "hấp thụ và giữ nhiệt"
+                  },
+                  {
+                    "en": "release hot air",
+                    "vi": "thải khí nóng"
+                  },
+                  {
+                    "en": "glass towers",
+                    "vi": "tòa tháp kính"
+                  },
+                  {
+                    "en": "plenty of trees",
+                    "vi": "nhiều cây xanh"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "absorb and trap heat",
+                      "vi": "hấp thụ và giữ nhiệt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "release hot air",
+                      "vi": "thải khí nóng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "glass towers",
+                      "vi": "tòa tháp kính"
+                    },
+                    {
+                      "en": "plenty of trees",
+                      "vi": "nhiều cây xanh"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
+                "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
+                "point_en": "Working in glass offices can cause stress and harm the health of employees.",
+                "evidence_vi": "Ánh nắng chiếu mạnh qua cửa kính thường gây chói màn hình máy tính, khiến nhân viên dễ bị mỏi mắt và đau đầu. Ngoài ra, việc ngồi cả ngày trong không gian kín mít thiếu không khí tự nhiên làm nhiều người cảm thấy ngột ngạt. Vì vậy, sức khỏe và khả năng tập trung làm việc của nhân viên có thể bị giảm sút.",
+                "evidence_en": "Strong sunlight coming through glass windows often creates screen glare, causing eye strain and headaches for staff. Moreover, sitting all day in a closed space without fresh natural air makes many workers feel uncomfortable. Therefore, employees' health and ability to focus at work can decline.",
+                "collocations": [
+                  {
+                    "en": "screen glare",
+                    "vi": "ánh sáng chói màn hình"
+                  },
+                  {
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
+                  },
+                  {
+                    "en": "fresh natural air",
+                    "vi": "không khí tự nhiên trong lành"
+                  },
+                  {
+                    "en": "ability to focus",
+                    "vi": "khả năng tập trung"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "screen glare",
+                      "vi": "ánh sáng chói màn hình"
+                    },
+                    {
+                      "en": "eye strain",
+                      "vi": "mỏi mắt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fresh natural air",
+                      "vi": "không khí tự nhiên trong lành"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ability to focus",
+                      "vi": "khả năng tập trung"
+                    }
+                  ]
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
+                "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
+                "point_en": "Glass buildings are a deadly danger to many birds in the city.",
+                "evidence_vi": "Các bề mặt kính bóng loáng thường phản chiếu hình ảnh bầu trời xanh và tán cây xung quanh rất giống thật. Vì không nhận ra đó là vật cản cứng, nhiều loài chim thường bay thẳng vào cửa kính với tốc độ cao. Những cú va chạm mạnh này khiến hàng nghìn con chim bị thương nặng hoặc chết mỗi năm.",
+                "evidence_en": "Shiny glass surfaces often reflect images of the blue sky and nearby trees very realistically. Because they cannot see the solid barrier, many birds fly straight into windows at high speed. These hard crashes cause thousands of birds to be seriously injured or die every year.",
+                "collocations": [
+                  {
+                    "en": "shiny glass surfaces",
+                    "vi": "bề mặt kính bóng loáng"
+                  },
+                  {
+                    "en": "reflect images",
+                    "vi": "phản chiếu hình ảnh"
+                  },
+                  {
+                    "en": "solid barrier",
+                    "vi": "vật cản cứng"
+                  },
+                  {
+                    "en": "at high speed",
+                    "vi": "ở tốc độ cao"
+                  },
+                  {
+                    "en": "seriously injured",
+                    "vi": "bị thương nặng"
+                  }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shiny glass surfaces",
+                      "vi": "bề mặt kính bóng loáng"
+                    },
+                    {
+                      "en": "reflect images",
+                      "vi": "phản chiếu hình ảnh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "solid barrier",
+                      "vi": "vật cản cứng"
+                    },
+                    {
+                      "en": "at high speed",
+                      "vi": "ở tốc độ cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "seriously injured",
+                      "vi": "bị thương nặng"
+                    }
+                  ]
                 ]
               }
             ],
@@ -177390,8 +176640,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
                 "point_vi": "Các tòa nhà văn phòng bằng kính tiêu thụ một lượng điện năng rất lớn.",
                 "point_en": "Glass office buildings consume a very large amount of electricity.",
-                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
-                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm the environment.",
+                "evidence_vi": "Vì vách kính dễ truyền nhiệt, các tòa nhà này phải bật máy điều hòa công suất lớn suốt cả ngày. Bên cạnh đó, hàng trăm bóng đèn và máy tính văn phòng cũng tiêu tốn lượng điện năng khổng lồ mỗi tháng. Điều này làm tăng chi phí vận hành, thải ra nhiều khí carbon hơn và gây hại cho môi trường.",
+                "evidence_en": "Because glass walls let heat pass through easily, these buildings must run powerful air conditioners all day long. In addition, hundreds of office lights and computers use a huge amount of electricity every month. This raises operating costs, increases carbon emissions, and harms the environment.",
                 "collocations": [
                   {
                     "en": "glass office buildings",
@@ -177406,32 +176656,28 @@ const ESSAY_DATA = [
                     "vi": "lượng điện năng lớn"
                   },
                   {
-                    "en": "high energy consumption",
-                    "vi": "mức tiêu thụ năng lượng cao"
+                    "en": "modern glass buildings",
+                    "vi": "các tòa nhà kính hiện đại"
                   },
                   {
-                    "en": "rely heavily on air conditioning",
-                    "vi": "phụ thuộc nhiều vào điều hòa không khí"
+                    "en": "glass",
+                    "vi": "kính, thủy tinh"
                   },
                   {
-                    "en": "air conditioning",
-                    "vi": "điều hòa không khí"
+                    "en": "powerful air conditioners",
+                    "vi": "máy điều hòa công suất lớn"
                   },
                   {
-                    "en": "electric lighting",
-                    "vi": "đèn chiếu sáng điện"
+                    "en": "huge amount of electricity",
+                    "vi": "lượng điện năng khổng lồ"
                   },
                   {
-                    "en": "increase carbon emissions",
-                    "vi": "làm tăng lượng khí thải carbon"
+                    "en": "operating costs",
+                    "vi": "chi phí vận hành"
                   },
                   {
-                    "en": "harm the environment",
-                    "vi": "gây hại cho môi trường"
-                  },
-                  {
-                    "en": "office equipment",
-                    "vi": "thiết bị văn phòng"
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
                   }
                 ],
                 "point_collocations": [
@@ -177459,24 +176705,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "rely heavily on air conditioning",
-                      "vi": "phụ thuộc nhiều vào điều hòa không khí"
+                      "en": "powerful air conditioners",
+                      "vi": "máy điều hòa công suất lớn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "huge amount of electricity",
+                      "vi": "lượng điện năng khổng lồ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "operating costs",
+                      "vi": "chi phí vận hành"
                     },
                     {
-                      "en": "air conditioning",
-                      "vi": "điều hòa không khí"
-                    },
-                    {
-                      "en": "electric lighting",
-                      "vi": "đèn chiếu sáng điện"
-                    },
-                    {
-                      "en": "increase carbon emissions",
-                      "vi": "làm tăng lượng khí thải carbon"
-                    },
-                    {
-                      "en": "harm the environment",
-                      "vi": "gây hại cho môi trường"
+                      "en": "carbon emissions",
+                      "vi": "khí thải carbon"
                     }
                   ]
                 ]
@@ -177485,8 +176731,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
                 "point_vi": "Các tòa nhà kính cao tầng gây ra tình trạng ô nhiễm ánh sáng nghiêm trọng vào ban đêm.",
                 "point_en": "Tall glass buildings cause serious light pollution at night.",
-                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
-                "evidence_en": "Many offices leave bright lights on all night, so this intense light disrupts the sleep of local residents and the natural behavior of birds.",
+                "evidence_vi": "Nhiều văn phòng trong các tòa nhà kính thường để đèn sáng rực vào buổi tối và thậm chí suốt đêm. Ánh sáng quá mạnh chiếu qua lớp kính trong suốt làm bầu trời thành phố luôn sáng chói. Hậu quả là giấc ngủ của người dân sống gần đó bị ảnh hưởng và các loài chim ban đêm dễ bị mất phương hướng.",
+                "evidence_en": "Many offices in glass buildings leave bright lights on in the evening and even throughout the night. Strong light shining through transparent glass keeps the city sky overly bright. As a result, nearby residents sleep worse and night birds can easily lose their direction.",
                 "collocations": [
                   {
                     "en": "tall glass buildings",
@@ -177501,32 +176747,32 @@ const ESSAY_DATA = [
                     "vi": "ô nhiễm ánh sáng vào ban đêm"
                   },
                   {
-                    "en": "leave bright lights on all night",
-                    "vi": "bật đèn sáng suốt đêm"
-                  },
-                  {
                     "en": "bright lights at night",
                     "vi": "ánh sáng rực rỡ vào ban đêm"
                   },
                   {
-                    "en": "intense light",
-                    "vi": "ánh sáng mạnh"
+                    "en": "glass office buildings",
+                    "vi": "tòa nhà văn phòng bằng kính"
                   },
                   {
-                    "en": "disrupt the sleep of local residents",
-                    "vi": "làm gián đoạn giấc ngủ của cư dân địa phương"
+                    "en": "bright lights",
+                    "vi": "đèn sáng rực"
                   },
                   {
-                    "en": "local residents",
-                    "vi": "người dân địa phương"
+                    "en": "throughout the night",
+                    "vi": "suốt đêm"
                   },
                   {
-                    "en": "natural behavior of birds",
-                    "vi": "tập tính tự nhiên của loài chim"
+                    "en": "transparent glass",
+                    "vi": "kính trong suốt"
                   },
                   {
-                    "en": "modern glass architecture",
-                    "vi": "kiến trúc kính hiện đại"
+                    "en": "nearby residents",
+                    "vi": "cư dân sống gần đó"
+                  },
+                  {
+                    "en": "lose their direction",
+                    "vi": "mất phương hướng"
                   }
                 ],
                 "point_collocations": [
@@ -177554,24 +176800,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "light pollution at night",
-                      "vi": "ô nhiễm ánh sáng vào ban đêm"
+                      "en": "bright lights",
+                      "vi": "đèn sáng rực"
                     },
                     {
-                      "en": "leave bright lights on all night",
-                      "vi": "bật đèn sáng suốt đêm"
+                      "en": "throughout the night",
+                      "vi": "suốt đêm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "transparent glass",
+                      "vi": "kính trong suốt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "nearby residents",
+                      "vi": "cư dân sống gần đó"
                     },
                     {
-                      "en": "bright lights at night",
-                      "vi": "ánh sáng rực rỡ vào ban đêm"
-                    },
-                    {
-                      "en": "intense light",
-                      "vi": "ánh sáng mạnh"
-                    },
-                    {
-                      "en": "local residents",
-                      "vi": "người dân địa phương"
+                      "en": "lose their direction",
+                      "vi": "mất phương hướng"
                     }
                   ]
                 ]
@@ -177580,8 +176830,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
                 "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
                 "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
-                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
-                "evidence_en": "Glass absorbs a lot of heat from the sun, so cities with many glass buildings are often much hotter than green areas.",
+                "evidence_vi": "Các tấm kính lớn hấp thụ và giữ lại rất nhiều nhiệt từ ánh nắng mặt trời vào ban ngày. Để làm mát bên trong, các hệ thống điều hòa lại thải thêm hơi nóng ra không khí bên ngoài đường phố. Do đó, các khu vực tập trung nhiều tòa nhà kính luôn nóng bức hơn những khu phố có nhiều cây xanh.",
+                "evidence_en": "Large glass panels absorb and trap a great deal of heat from sunlight during the day. To cool the inside, air conditioning units release even more hot air onto outside streets. Consequently, districts with many glass towers feel much hotter than neighborhoods with plenty of trees.",
                 "collocations": [
                   {
                     "en": "glass walls",
@@ -177604,36 +176854,20 @@ const ESSAY_DATA = [
                     "vi": "làm môi trường xung quanh nóng hơn"
                   },
                   {
-                    "en": "absorb heat from the sun",
-                    "vi": "hấp thụ nhiệt từ mặt trời"
+                    "en": "absorb and trap heat",
+                    "vi": "hấp thụ và giữ nhiệt"
                   },
                   {
-                    "en": "absorb a lot of heat",
-                    "vi": "hấp thụ nhiều nhiệt lượng"
+                    "en": "release hot air",
+                    "vi": "thải khí nóng"
                   },
                   {
-                    "en": "heat from the sun",
-                    "vi": "nhiệt lượng từ mặt trời"
+                    "en": "glass towers",
+                    "vi": "tòa tháp kính"
                   },
                   {
-                    "en": "cities with many glass buildings",
-                    "vi": "các thành phố có nhiều tòa nhà kính"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  },
-                  {
-                    "en": "often much hotter",
-                    "vi": "thường nóng bức hơn nhiều"
-                  },
-                  {
-                    "en": "green areas",
-                    "vi": "các khu vực nhiều cây xanh"
-                  },
-                  {
-                    "en": "urban heat",
-                    "vi": "nhiệt độ đô thị"
+                    "en": "plenty of trees",
+                    "vi": "nhiều cây xanh"
                   }
                 ],
                 "point_collocations": [
@@ -177661,24 +176895,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "heat from the sun",
-                      "vi": "nhiệt lượng từ mặt trời"
+                      "en": "absorb and trap heat",
+                      "vi": "hấp thụ và giữ nhiệt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "release hot air",
+                      "vi": "thải khí nóng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "glass towers",
+                      "vi": "tòa tháp kính"
                     },
                     {
-                      "en": "cities with many glass buildings",
-                      "vi": "các thành phố có nhiều tòa nhà kính"
-                    },
-                    {
-                      "en": "glass buildings",
-                      "vi": "các tòa nhà kính"
-                    },
-                    {
-                      "en": "often much hotter",
-                      "vi": "thường nóng bức hơn nhiều"
-                    },
-                    {
-                      "en": "green areas",
-                      "vi": "các khu vực nhiều cây xanh"
+                      "en": "plenty of trees",
+                      "vi": "nhiều cây xanh"
                     }
                   ]
                 ]
@@ -177687,8 +176921,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
                 "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
                 "point_en": "Working in glass offices can cause stress and harm the health of employees.",
-                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
-                "evidence_en": "Glare from glass windows makes workers suffer from eye strain, and a workspace without natural plants reduces concentration during work hours.",
+                "evidence_vi": "Ánh nắng chiếu mạnh qua cửa kính thường gây chói màn hình máy tính, khiến nhân viên dễ bị mỏi mắt và đau đầu. Ngoài ra, việc ngồi cả ngày trong không gian kín mít thiếu không khí tự nhiên làm nhiều người cảm thấy ngột ngạt. Vì vậy, sức khỏe và khả năng tập trung làm việc của nhân viên có thể bị giảm sút.",
+                "evidence_en": "Strong sunlight coming through glass windows often creates screen glare, causing eye strain and headaches for staff. Moreover, sitting all day in a closed space without fresh natural air makes many workers feel uncomfortable. Therefore, employees' health and ability to focus at work can decline.",
                 "collocations": [
                   {
                     "en": "working in glass offices",
@@ -177703,32 +176937,28 @@ const ESSAY_DATA = [
                     "vi": "làm hại sức khỏe nhân viên"
                   },
                   {
-                    "en": "glare from glass windows",
-                    "vi": "ánh sáng chói từ cửa kính"
+                    "en": "glass office buildings",
+                    "vi": "tòa nhà văn phòng bằng kính"
                   },
                   {
-                    "en": "suffer from eye strain",
-                    "vi": "bị mỏi mắt"
+                    "en": "glass",
+                    "vi": "kính, thủy tinh"
                   },
                   {
-                    "en": "workspace without natural plants",
-                    "vi": "không gian làm việc thiếu cây xanh"
+                    "en": "screen glare",
+                    "vi": "ánh sáng chói màn hình"
                   },
                   {
-                    "en": "natural plants",
-                    "vi": "cây xanh tự nhiên"
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
                   },
                   {
-                    "en": "reduce concentration",
-                    "vi": "làm giảm sự tập trung"
+                    "en": "fresh natural air",
+                    "vi": "không khí tự nhiên trong lành"
                   },
                   {
-                    "en": "during work hours",
-                    "vi": "trong giờ làm việc"
-                  },
-                  {
-                    "en": "visual fatigue",
-                    "vi": "mệt mỏi thị giác"
+                    "en": "ability to focus",
+                    "vi": "khả năng tập trung"
                   }
                 ],
                 "point_collocations": [
@@ -177756,24 +176986,24 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "working in glass offices",
-                      "vi": "làm việc trong văn phòng kính"
+                      "en": "screen glare",
+                      "vi": "ánh sáng chói màn hình"
                     },
                     {
-                      "en": "glare from glass windows",
-                      "vi": "ánh sáng chói từ cửa kính"
-                    },
+                      "en": "eye strain",
+                      "vi": "mỏi mắt"
+                    }
+                  ],
+                  [
                     {
-                      "en": "suffer from eye strain",
-                      "vi": "bị mỏi mắt"
-                    },
+                      "en": "fresh natural air",
+                      "vi": "không khí tự nhiên trong lành"
+                    }
+                  ],
+                  [
                     {
-                      "en": "workspace without natural plants",
-                      "vi": "không gian làm việc thiếu cây xanh"
-                    },
-                    {
-                      "en": "natural plants",
-                      "vi": "cây xanh tự nhiên"
+                      "en": "ability to focus",
+                      "vi": "khả năng tập trung"
                     }
                   ]
                 ]
@@ -177782,8 +177012,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
                 "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
                 "point_en": "Glass buildings are a deadly danger to many birds in the city.",
-                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
-                "evidence_en": "Transparent glass reflects the sky and trees, so birds cannot see the glass and often fly into windows leading to death.",
+                "evidence_vi": "Các bề mặt kính bóng loáng thường phản chiếu hình ảnh bầu trời xanh và tán cây xung quanh rất giống thật. Vì không nhận ra đó là vật cản cứng, nhiều loài chim thường bay thẳng vào cửa kính với tốc độ cao. Những cú va chạm mạnh này khiến hàng nghìn con chim bị thương nặng hoặc chết mỗi năm.",
+                "evidence_en": "Shiny glass surfaces often reflect images of the blue sky and nearby trees very realistically. Because they cannot see the solid barrier, many birds fly straight into windows at high speed. These hard crashes cause thousands of birds to be seriously injured or die every year.",
                 "collocations": [
                   {
                     "en": "deadly danger to birds",
@@ -177794,32 +177024,36 @@ const ESSAY_DATA = [
                     "vi": "các loài chim trong thành phố"
                   },
                   {
-                    "en": "transparent glass",
-                    "vi": "kính trong suốt"
-                  },
-                  {
-                    "en": "reflect the sky and trees",
-                    "vi": "phản chiếu bầu trời và cây cối"
-                  },
-                  {
                     "en": "cannot see the glass",
                     "vi": "không nhìn thấy kính"
                   },
                   {
-                    "en": "fly into windows",
-                    "vi": "bay đâm vào cửa kính"
-                  },
-                  {
-                    "en": "leading to death",
-                    "vi": "dẫn đến tử vong"
-                  },
-                  {
-                    "en": "injure or kill birds",
-                    "vi": "làm chim bị thương hoặc tử vong"
-                  },
-                  {
                     "en": "glass buildings",
                     "vi": "các tòa nhà kính"
+                  },
+                  {
+                    "en": "glass office buildings",
+                    "vi": "tòa nhà văn phòng bằng kính"
+                  },
+                  {
+                    "en": "shiny glass surfaces",
+                    "vi": "bề mặt kính bóng loáng"
+                  },
+                  {
+                    "en": "reflect images",
+                    "vi": "phản chiếu hình ảnh"
+                  },
+                  {
+                    "en": "solid barrier",
+                    "vi": "vật cản cứng"
+                  },
+                  {
+                    "en": "at high speed",
+                    "vi": "ở tốc độ cao"
+                  },
+                  {
+                    "en": "seriously injured",
+                    "vi": "bị thương nặng"
                   }
                 ],
                 "point_collocations": [
@@ -177847,24 +177081,28 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "deadly danger to birds",
-                      "vi": "mối nguy hiểm chết người với loài chim"
+                      "en": "shiny glass surfaces",
+                      "vi": "bề mặt kính bóng loáng"
                     },
                     {
-                      "en": "birds in the city",
-                      "vi": "các loài chim trong thành phố"
+                      "en": "reflect images",
+                      "vi": "phản chiếu hình ảnh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "solid barrier",
+                      "vi": "vật cản cứng"
                     },
                     {
-                      "en": "transparent glass",
-                      "vi": "kính trong suốt"
-                    },
+                      "en": "at high speed",
+                      "vi": "ở tốc độ cao"
+                    }
+                  ],
+                  [
                     {
-                      "en": "cannot see the glass",
-                      "vi": "không nhìn thấy kính"
-                    },
-                    {
-                      "en": "fly into windows",
-                      "vi": "bay đâm vào cửa kính"
+                      "en": "seriously injured",
+                      "vi": "bị thương nặng"
                     }
                   ]
                 ]
@@ -177878,301 +177116,351 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
                 "point_vi": "Kiến trúc văn phòng bọc kính gây ra sự gia tăng đột biến trong mức tiêu thụ năng lượng và phát thải khí nhà kính của các đô thị.",
                 "point_en": "Extensive glass facades in modern office towers cause a dramatic surge in operational energy consumption and urban carbon footprints.",
-                "evidence_vi": "Do khả năng cách nhiệt kém của vật liệu kính thông thường, các tòa nhà này phụ thuộc nặng nề vào các hệ thống điều hòa không khí công suất lớn để duy trì nhiệt độ làm việc. Thêm vào đó, việc vận hành liên tục các thiết bị chiếu sáng nhân tạo và máy móc văn phòng đòi hỏi nguồn điện khổng lồ, trực tiếp làm trầm trọng thêm tình trạng biến đổi khí hậu toàn cầu.",
-                "evidence_en": "Due to the thermal conductivity of large glass panels, commercial complexes rely heavily on high-powered HVAC systems to maintain habitable indoor temperatures. Furthermore, continuous dependence on artificial lighting and electronic office equipment consumes tremendous electrical power, directly intensifying global climate change.",
+                "evidence_vi": "Do vật liệu kính có khả năng cách nhiệt kém hơn nhiều so với tường gạch truyền thống, nhiệt độ bên trong tòa nhà dễ dàng tăng cao vào mùa hè và giảm sâu vào mùa đông. Hệ quả là các cao ốc thương mại phải phụ thuộc nặng nề vào hệ thống điều hòa không khí và sưởi ấm công suất lớn hoạt động liên tục. Ví dụ, một tòa tháp văn phòng phủ kính hoàn toàn có thể tiêu thụ lượng điện năng cao gấp nhiều lần so với công trình được thiết kế cách nhiệt tốt. Sự tiêu hao năng lượng khổng lồ này không chỉ đội chi phí vận hành mà còn đẩy mạnh phát thải khí nhà kính và biến đổi khí hậu.",
+                "evidence_en": "Because glass provides far weaker thermal insulation than traditional masonry walls, indoor spaces rapidly overheat in summer and lose warmth in winter. Consequently, commercial towers depend heavily on high-powered heating and air conditioning systems running continuously throughout the day. For example, a fully glazed office skyscraper can consume several times more electricity than a well-insulated conventional building. This excessive energy demand not only inflates operating costs but also accelerates urban carbon emissions and global climate change.",
                 "collocations": [
                   {
-                    "en": "extensive glass facades",
-                    "vi": "mặt kính tòa nhà diện rộng"
+                    "en": "thermal insulation",
+                    "vi": "khả năng cách nhiệt"
                   },
                   {
-                    "en": "modern office towers",
-                    "vi": "các tòa tháp văn phòng hiện đại"
+                    "en": "rapidly overheat",
+                    "vi": "nhanh chóng quá nóng"
                   },
                   {
-                    "en": "dramatic surge in operational energy consumption",
-                    "vi": "sự gia tăng đột biến trong mức tiêu thụ năng lượng vận hành"
+                    "en": "high-powered systems",
+                    "vi": "hệ thống công suất lớn"
                   },
                   {
-                    "en": "urban carbon footprints",
-                    "vi": "dấu chân carbon đô thị"
+                    "en": "fully glazed skyscraper",
+                    "vi": "tòa nhà chọc trời phủ kính toàn bộ"
                   },
                   {
-                    "en": "thermal conductivity of glass panels",
-                    "vi": "tính dẫn nhiệt của các tấm kính"
+                    "en": "operating costs",
+                    "vi": "chi phí vận hành"
                   },
                   {
-                    "en": "commercial complexes",
-                    "vi": "các khu phức hợp thương mại"
-                  },
-                  {
-                    "en": "high-powered HVAC systems",
-                    "vi": "hệ thống sưởi, thông gió và điều hòa công suất lớn"
-                  },
-                  {
-                    "en": "maintain habitable indoor temperatures",
-                    "vi": "duy trì nhiệt độ phòng dễ chịu"
-                  },
-                  {
-                    "en": "continuous dependence on artificial lighting",
-                    "vi": "sự phụ thuộc liên tục vào chiếu sáng nhân tạo"
-                  },
-                  {
-                    "en": "electronic office equipment",
-                    "vi": "thiết bị văn phòng điện tử"
-                  },
-                  {
-                    "en": "consumes tremendous electrical power",
-                    "vi": "tiêu thụ nguồn điện năng khổng lồ"
-                  },
-                  {
-                    "en": "intensifying global climate change",
-                    "vi": "làm trầm trọng thêm biến đổi khí hậu toàn cầu"
+                    "en": "urban carbon emissions",
+                    "vi": "phát thải carbon đô thị"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "thermal insulation",
+                      "vi": "khả năng cách nhiệt"
+                    },
+                    {
+                      "en": "rapidly overheat",
+                      "vi": "nhanh chóng quá nóng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "high-powered systems",
+                      "vi": "hệ thống công suất lớn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fully glazed skyscraper",
+                      "vi": "tòa nhà chọc trời phủ kính toàn bộ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "operating costs",
+                      "vi": "chi phí vận hành"
+                    },
+                    {
+                      "en": "urban carbon emissions",
+                      "vi": "phát thải carbon đô thị"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
                 "point_vi": "Hiện tượng ô nhiễm ánh sáng phát ra từ các tòa tháp văn phòng kính làm xáo trộn nghiêm trọng môi trường xung quanh và đời sống hoang dã.",
                 "point_en": "Pervasive light pollution emanating from fully glazed office high-rises profoundly disrupts the nocturnal environment and local wildlife.",
-                "evidence_vi": "Hàng ngàn bóng đèn công suất lớn được thắp sáng xuyên đêm trong các văn phòng kính tạo ra quầng sáng chói lọi bao phủ bầu trời thành phố. Hiện tượng này không chỉ ảnh hưởng tiêu cực đến nhịp sinh học của cư dân sống ở khu vực lân cận mà còn làm mất phương hướng của các loài chim di cư ban đêm, khiến chúng lạc đường và suy kiệt sức lực.",
-                "evidence_en": "Thousands of interior fixtures illuminated overnight transform glass skyscrapers into massive radiant beacons that illuminate the urban sky. This continuous nighttime glare impairs the circadian rhythms of nearby residents while critically disorienting nocturnal migratory birds, causing them to deviate from their flight paths and suffer severe exhaustion.",
+                "evidence_vi": "Hàng nghìn bóng đèn văn phòng được bật sáng xuyên đêm phía sau lớp kính trong suốt biến các tòa cao ốc thành những nguồn phát sáng khổng lồ giữa đô thị. Quầng sáng nhân tạo dày đặc này làm mờ bầu trời đêm và ảnh hưởng tiêu cực đến nhịp sinh học tự nhiên của cư dân sống lân cận. Chẳng hạn, người dân ở các khu chung cư đối diện cao ốc văn phòng thường phàn nàn về tình trạng khó ngủ và suy giảm chất lượng nghỉ ngơi. Nghiêm trọng hơn, ánh sáng mạnh vào ban đêm còn khiến các loài chim di cư mất phương hướng, bay lệch lộ trình và nhanh chóng kiệt sức.",
+                "evidence_en": "Thousands of interior office lights left burning overnight behind transparent facades turn skyscrapers into massive radiant beacons across cities. This intense artificial glow brightens the night sky and disrupts the natural circadian rhythms of residents living nearby. For instance, people in apartments facing glass business centers frequently report sleep disturbances and chronic fatigue. Even more alarmingly, bright nighttime illumination disorients nocturnal migratory birds, causing them to stray off course and suffer severe exhaustion.",
                 "collocations": [
                   {
-                    "en": "pervasive light pollution",
-                    "vi": "ô nhiễm ánh sáng lan rộng"
+                    "en": "transparent facades",
+                    "vi": "mặt tiền bằng kính trong suốt"
                   },
                   {
-                    "en": "fully glazed office high-rises",
-                    "vi": "các tòa nhà văn phòng cao tầng bọc kính"
+                    "en": "artificial glow",
+                    "vi": "quầng sáng nhân tạo"
                   },
                   {
-                    "en": "disrupts the nocturnal environment",
-                    "vi": "làm xáo trộn môi trường ban đêm"
+                    "en": "circadian rhythms",
+                    "vi": "nhịp sinh học"
                   },
                   {
-                    "en": "local wildlife",
-                    "vi": "động vật hoang dã địa phương"
+                    "en": "sleep disturbances",
+                    "vi": "rối loạn giấc ngủ"
                   },
                   {
-                    "en": "interior fixtures illuminated overnight",
-                    "vi": "các bóng đèn bên trong thắp sáng xuyên đêm"
+                    "en": "migratory birds",
+                    "vi": "chim di cư"
                   },
                   {
-                    "en": "massive radiant beacons",
-                    "vi": "quầng sáng phát quang khổng lồ"
-                  },
-                  {
-                    "en": "illuminate the urban sky",
-                    "vi": "thắp sáng bầu trời đô thị"
-                  },
-                  {
-                    "en": "continuous nighttime glare",
-                    "vi": "ánh sáng chói lóa ban đêm"
-                  },
-                  {
-                    "en": "impair circadian rhythms",
-                    "vi": "làm suy giảm nhịp sinh học"
-                  },
-                  {
-                    "en": "nearby residents",
-                    "vi": "cư dân sống lân cận"
-                  },
-                  {
-                    "en": "disorienting nocturnal migratory birds",
-                    "vi": "làm mất phương hướng của chim di cư ban đêm"
-                  },
-                  {
-                    "en": "deviate from flight paths",
-                    "vi": "chệch khỏi đường bay"
-                  },
-                  {
-                    "en": "suffer severe exhaustion",
-                    "vi": "kiệt sức nghiêm trọng"
+                    "en": "stray off course",
+                    "vi": "bay lệch lộ trình"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "transparent facades",
+                      "vi": "mặt tiền bằng kính trong suốt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "artificial glow",
+                      "vi": "quầng sáng nhân tạo"
+                    },
+                    {
+                      "en": "circadian rhythms",
+                      "vi": "nhịp sinh học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sleep disturbances",
+                      "vi": "rối loạn giấc ngủ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "migratory birds",
+                      "vi": "chim di cư"
+                    },
+                    {
+                      "en": "stray off course",
+                      "vi": "bay lệch lộ trình"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
                 "point_vi": "Bề mặt kính tạo ra hiệu ứng nhà kính nhân tạo bên trong nơi làm việc và khuếch đại hiện tượng đảo nhiệt đô thị.",
                 "point_en": "Expansive glass envelopes generate localized greenhouse effects within workspaces while substantially intensifying urban heat islands.",
-                "evidence_vi": "Vật liệu kính liên tục giữ lại bức xạ nhiệt mặt trời, buộc hệ thống làm mát trung tâm phải hoạt động liên tục và thải một lượng nhiệt khổng lồ ra không khí bên ngoài. Hệ quả là nhiệt độ tại các khu phố tập trung nhiều tòa nhà kính thường cao hơn đáng kể so với vùng ngoại ô, làm trầm trọng thêm sự ngột ngạt và khó chịu cho người dân thành phố.",
-                "evidence_en": "Transparent facades trap solar radiation inside office suites, forcing refrigeration machinery to expel massive amounts of waste heat directly into external streets. Consequently, dense financial districts suffer from elevated ambient temperatures compared to greener suburbs, worsening urban heat stress and degrading metropolitan air quality.",
+                "evidence_vi": "Các mảng kính lớn hấp thụ và giữ lại lượng bức xạ mặt trời khổng lồ bên trong văn phòng, tạo ra hiệu ứng nhà kính cục bộ rất khó chịu. Để cân bằng nhiệt độ trong nhà, hệ thống làm mát trung tâm buộc phải xả lượng nhiệt thải lớn trực tiếp ra đường phố bên ngoài. Chẳng hạn, nhiệt độ không khí tại các khu tài chính dày đặc tháp kính thường cao hơn rõ rệt so với những vùng ngoại ô rợp bóng cây. Về lâu dài, hiện tượng đảo nhiệt đô thị này làm trầm trọng thêm tình trạng nắng nóng và suy giảm chất lượng sống tại thành phố.",
+                "evidence_en": "Expansive glass facades absorb and trap substantial solar radiation inside office floors, generating an uncomfortable localized greenhouse effect. To maintain cool interiors, central refrigeration systems must continuously expel massive volumes of waste heat onto surrounding streets. For example, ambient temperatures in dense financial districts lined with glass towers are noticeably higher than in greener suburban areas. Over time, this intensified urban heat island effect worsens summer heat stress and lowers metropolitan livability.",
                 "collocations": [
                   {
-                    "en": "expansive glass envelopes",
-                    "vi": "bề mặt bao che bằng kính rộng lớn"
+                    "en": "solar radiation",
+                    "vi": "bức xạ mặt trời"
                   },
                   {
-                    "en": "localized greenhouse effects",
+                    "en": "localized greenhouse effect",
                     "vi": "hiệu ứng nhà kính cục bộ"
                   },
                   {
-                    "en": "intensifying urban heat islands",
-                    "vi": "khuếch đại hiện tượng đảo nhiệt đô thị"
+                    "en": "waste heat",
+                    "vi": "nhiệt thải"
                   },
                   {
-                    "en": "transparent facades",
-                    "vi": "các mặt tiền bằng kính trong suốt"
+                    "en": "ambient temperatures",
+                    "vi": "nhiệt độ môi trường xung quanh"
                   },
                   {
-                    "en": "trap solar radiation inside office suites",
-                    "vi": "giữ lại bức xạ mặt trời bên trong văn phòng"
+                    "en": "financial districts",
+                    "vi": "khu trung tâm tài chính"
                   },
                   {
-                    "en": "refrigeration machinery",
-                    "vi": "hệ thống máy móc làm lạnh"
+                    "en": "urban heat island effect",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
                   },
                   {
-                    "en": "expel massive amounts of waste heat",
-                    "vi": "thải một lượng nhiệt khổng lồ"
-                  },
-                  {
-                    "en": "external streets",
-                    "vi": "đường phố bên ngoài"
-                  },
-                  {
-                    "en": "dense financial districts",
-                    "vi": "các khu tài chính mật độ cao"
-                  },
-                  {
-                    "en": "elevated ambient temperatures",
-                    "vi": "nhiệt độ môi trường tăng cao"
-                  },
-                  {
-                    "en": "greener suburbs",
-                    "vi": "các vùng ngoại ô nhiều cây xanh hơn"
-                  },
-                  {
-                    "en": "worsening urban heat stress",
-                    "vi": "làm trầm trọng thêm căng thẳng nhiệt đô thị"
-                  },
-                  {
-                    "en": "degrading metropolitan air quality",
-                    "vi": "làm suy giảm chất lượng không khí đô thị"
+                    "en": "metropolitan livability",
+                    "vi": "chất lượng sống đô thị"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "solar radiation",
+                      "vi": "bức xạ mặt trời"
+                    },
+                    {
+                      "en": "localized greenhouse effect",
+                      "vi": "hiệu ứng nhà kính cục bộ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "waste heat",
+                      "vi": "nhiệt thải"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ambient temperatures",
+                      "vi": "nhiệt độ môi trường xung quanh"
+                    },
+                    {
+                      "en": "financial districts",
+                      "vi": "khu trung tâm tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "urban heat island effect",
+                      "vi": "hiệu ứng đảo nhiệt đô thị"
+                    },
+                    {
+                      "en": "metropolitan livability",
+                      "vi": "chất lượng sống đô thị"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
                 "point_vi": "Môi trường văn phòng kính ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần của người lao động qua hiện tượng chói mắt và cảm giác ngột ngạt.",
                 "point_en": "Glazed office environments can undermine employees' physical health and psychological well-being through severe visual fatigue and environmental discomfort.",
-                "evidence_vi": "Hiện tượng ánh sáng mặt trời phản quang mạnh mẽ qua các ô kính lớn dễ gây chói lóa màn hình máy tính, dẫn đến tình trạng mỏi mắt kinh niên và những cơn đau đầu liên tục. Hơn nữa, việc bị bao bọc trong một khối kính kín mít thiếu sự tương tác với thiên nhiên và không khí trong lành có thể gia tăng cảm giác căng thẳng thần kinh và làm giảm hiệu suất lao động.",
-                "evidence_en": "Uncontrolled solar glare reflecting off wide glazed surfaces creates harsh screen reflections, provoking chronic eye strain, migraines, and visual exhaustion among computer users. Furthermore, spending long hours enclosed within synthetic glass compartments without natural ventilation or biophilic elements heightens psychological fatigue and diminishes cognitive performance.",
+                "evidence_vi": "Ánh nắng mặt trời phản chiếu gắt qua các vách kính lớn thường tạo hiện tượng lóa màn hình máy tính, gây mỏi mắt kinh niên và đau đầu cho nhân viên. Bên cạnh đó, thiết kế cửa kính cố định không thể mở khiến văn phòng thiếu luồng khí tự nhiên và trở nên bí bách khi làm việc nhiều giờ liền. Ví dụ, nhiều nhân viên văn phòng làm việc gần cửa kính lớn phải liên tục kéo rèm và chịu cảm giác căng thẳng do chênh lệch nhiệt độ đột ngột. Khi sức khỏe thể chất và sự thoải mái tinh thần bị ảnh hưởng, hiệu suất và khả năng sáng tạo của đội ngũ cũng suy giảm đáng kể.",
+                "evidence_en": "Harsh sunlight reflecting off wide glazed panels creates persistent screen glare, provoking chronic eye strain and frequent headaches among staff. Furthermore, sealed glass facades that cannot be opened deprive workspaces of fresh natural ventilation, creating a stuffy indoor atmosphere. For instance, employees seated near full-height windows often deal with uncomfortable temperature swings and constant visual fatigue. When physical comfort and mental well-being are undermined in this way, overall workplace productivity and creativity noticeably decline.",
                 "collocations": [
                   {
-                    "en": "glazed office environments",
-                    "vi": "môi trường văn phòng bọc kính"
+                    "en": "persistent screen glare",
+                    "vi": "tình trạng chói màn hình liên tục"
                   },
                   {
-                    "en": "undermine employees physical health",
-                    "vi": "làm suy giảm sức khỏe thể chất của nhân viên"
-                  },
-                  {
-                    "en": "psychological well-being",
-                    "vi": "sức khỏe tâm lý"
-                  },
-                  {
-                    "en": "severe visual fatigue",
-                    "vi": "mệt mỏi thị giác nghiêm trọng"
-                  },
-                  {
-                    "en": "environmental discomfort",
-                    "vi": "sự khó chịu về môi trường"
-                  },
-                  {
-                    "en": "uncontrolled solar glare",
-                    "vi": "ánh sáng chói mặt trời mất kiểm soát"
-                  },
-                  {
-                    "en": "harsh screen reflections",
-                    "vi": "phản chiếu gay gắt trên màn hình"
-                  },
-                  {
-                    "en": "chronic eye strain and migraines",
-                    "vi": "mỏi mắt mãn tính và đau đầu"
-                  },
-                  {
-                    "en": "enclosed within synthetic glass compartments",
-                    "vi": "bị giam hãm trong các ngăn kính nhân tạo"
+                    "en": "chronic eye strain",
+                    "vi": "mỏi mắt kinh niên"
                   },
                   {
                     "en": "natural ventilation",
                     "vi": "thông gió tự nhiên"
                   },
                   {
-                    "en": "biophilic elements",
-                    "vi": "yếu tố thiên nhiên gắn kết"
+                    "en": "stuffy indoor atmosphere",
+                    "vi": "không khí trong nhà bí bách"
                   },
                   {
-                    "en": "heightens psychological fatigue",
-                    "vi": "làm tăng sự mệt mỏi tâm lý"
+                    "en": "temperature swings",
+                    "vi": "chênh lệch nhiệt độ"
                   },
                   {
-                    "en": "diminishes cognitive performance",
-                    "vi": "làm suy giảm hiệu suất nhận thức"
+                    "en": "visual fatigue",
+                    "vi": "mệt mỏi thị giác"
+                  },
+                  {
+                    "en": "workplace productivity",
+                    "vi": "năng suất nơi làm việc"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "persistent screen glare",
+                      "vi": "tình trạng chói màn hình liên tục"
+                    },
+                    {
+                      "en": "chronic eye strain",
+                      "vi": "mỏi mắt kinh niên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "natural ventilation",
+                      "vi": "thông gió tự nhiên"
+                    },
+                    {
+                      "en": "stuffy indoor atmosphere",
+                      "vi": "không khí trong nhà bí bách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "temperature swings",
+                      "vi": "chênh lệch nhiệt độ"
+                    },
+                    {
+                      "en": "visual fatigue",
+                      "vi": "mệt mỏi thị giác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "workplace productivity",
+                      "vi": "năng suất nơi làm việc"
+                    }
+                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
                 "point_vi": "Bề mặt kính phản quang của các tòa cao ốc văn phòng là nguyên nhân hàng đầu gây ra hàng triệu vụ tai nạn chết chim mỗi năm.",
                 "point_en": "Reflective glass exteriors on corporate high-rises represent a catastrophic hazard responsible for millions of fatal avian collisions annually.",
-                "evidence_vi": "Các tấm kính lớn tạo ra hình ảnh phản chiếu hoàn hảo của bầu trời, mây và tán cây, khiến các loài chim nhầm tưởng rằng đó là không gian bay lượn an toàn. Khi di chuyển với tốc độ cao, những con chim va chạm trực diện với kính cứng với lực rất mạnh, dẫn đến chấn thương nặng hoặc tử vong tức thì.",
-                "evidence_en": "Polished glass surfaces produce deceitful reflections of open skies and surrounding foliage, leading birds to mistake mirrored glass for unobstructed flight corridors. Flying at high cruising velocities, birds collide with the rigid structural glass with violent impact, sustaining lethal trauma or dying instantaneously.",
+                "evidence_vi": "Bề mặt kính phản quang hiện đại tạo ra hình ảnh phản chiếu sống động của bầu trời, mây và cây cối xung quanh như một không gian bay thoáng đãng. Do không thể nhận diện tấm kính trong suốt là vật cản cứng, các loài chim thường lao thẳng vào mặt tiền tòa nhà ở tốc độ rất cao. Chẳng hạn, các nghiên cứu môi trường tại nhiều thành phố lớn ghi nhận hàng triệu cá thể chim hoang dã thiệt mạng mỗi năm vì va chạm với cao ốc kính. Tổn thất liên tục này không chỉ gây thương tâm mà còn làm suy giảm đa dạng sinh học và mất cân bằng hệ sinh thái đô thị.",
+                "evidence_en": "Polished reflective glass exteriors create deceptive reflections of open skies, clouds, and nearby foliage that appear to be clear flight paths. Unable to perceive transparent glass as a rigid physical obstacle, birds frequently fly directly into building facades at high speeds. For example, ecological surveys in major metropolitan areas estimate that millions of wild birds die each year from collisions with glass high-rises. This ongoing mortality significantly threatens urban biodiversity and disrupts the natural balance of city ecosystems.",
                 "collocations": [
                   {
-                    "en": "reflective glass exteriors",
-                    "vi": "mặt ngoài bằng kính phản quang"
+                    "en": "deceptive reflections",
+                    "vi": "hình ảnh phản chiếu đánh lừa"
                   },
                   {
-                    "en": "corporate high-rises",
-                    "vi": "các tòa cao ốc doanh nghiệp"
+                    "en": "flight paths",
+                    "vi": "đường bay"
                   },
                   {
-                    "en": "catastrophic hazard",
-                    "vi": "mối nguy hiểm thảm khốc"
+                    "en": "rigid physical obstacle",
+                    "vi": "vật cản vật lý cứng"
                   },
                   {
-                    "en": "fatal avian collisions",
-                    "vi": "các vụ va chạm chết chóc của chim"
+                    "en": "ecological surveys",
+                    "vi": "khảo sát sinh thái"
                   },
                   {
-                    "en": "polished glass surfaces",
-                    "vi": "bề mặt kính sáng bóng"
+                    "en": "glass high-rises",
+                    "vi": "tòa nhà kính cao tầng"
                   },
                   {
-                    "en": "deceitful reflections of open skies",
-                    "vi": "hình ảnh phản chiếu đánh lừa của bầu trời"
-                  },
-                  {
-                    "en": "surrounding foliage",
-                    "vi": "tán cây xung quanh"
-                  },
-                  {
-                    "en": "unobstructed flight corridors",
-                    "vi": "hành lang bay không có vật cản"
-                  },
-                  {
-                    "en": "cruising velocities",
-                    "vi": "tốc độ bay"
-                  },
-                  {
-                    "en": "rigid structural glass",
-                    "vi": "kính kiến trúc cứng"
-                  },
-                  {
-                    "en": "violent impact",
-                    "vi": "lực va đập dữ dội"
-                  },
-                  {
-                    "en": "sustaining lethal trauma",
-                    "vi": "bị chấn thương gây tử vong"
-                  },
-                  {
-                    "en": "dying instantaneously",
-                    "vi": "tử vong tức thì"
+                    "en": "urban biodiversity",
+                    "vi": "đa dạng sinh học đô thị"
                   }
+                ],
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "deceptive reflections",
+                      "vi": "hình ảnh phản chiếu đánh lừa"
+                    },
+                    {
+                      "en": "flight paths",
+                      "vi": "đường bay"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rigid physical obstacle",
+                      "vi": "vật cản vật lý cứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ecological surveys",
+                      "vi": "khảo sát sinh thái"
+                    },
+                    {
+                      "en": "glass high-rises",
+                      "vi": "tòa nhà kính cao tầng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "urban biodiversity",
+                      "vi": "đa dạng sinh học đô thị"
+                    }
+                  ]
                 ]
               }
             ],
@@ -178181,8 +177469,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
                 "point_vi": "Kiến trúc văn phòng bọc kính gây ra sự gia tăng đột biến trong mức tiêu thụ năng lượng và phát thải khí nhà kính của các đô thị.",
                 "point_en": "Extensive glass facades in modern office towers cause a dramatic surge in operational energy consumption and urban carbon footprints.",
-                "evidence_vi": "Do khả năng cách nhiệt kém của vật liệu kính thông thường, các tòa nhà này phụ thuộc nặng nề vào các hệ thống điều hòa không khí công suất lớn để duy trì nhiệt độ làm việc. Thêm vào đó, việc vận hành liên tục các thiết bị chiếu sáng nhân tạo và máy móc văn phòng đòi hỏi nguồn điện khổng lồ, trực tiếp làm trầm trọng thêm tình trạng biến đổi khí hậu toàn cầu.",
-                "evidence_en": "Due to the thermal conductivity of large glass panels, commercial complexes rely heavily on high-powered HVAC systems to maintain habitable indoor temperatures. Furthermore, continuous dependence on artificial lighting and electronic office equipment consumes tremendous electrical power, directly intensifying global climate change.",
+                "evidence_vi": "Do vật liệu kính có khả năng cách nhiệt kém hơn nhiều so với tường gạch truyền thống, nhiệt độ bên trong tòa nhà dễ dàng tăng cao vào mùa hè và giảm sâu vào mùa đông. Hệ quả là các cao ốc thương mại phải phụ thuộc nặng nề vào hệ thống điều hòa không khí và sưởi ấm công suất lớn hoạt động liên tục. Ví dụ, một tòa tháp văn phòng phủ kính hoàn toàn có thể tiêu thụ lượng điện năng cao gấp nhiều lần so với công trình được thiết kế cách nhiệt tốt. Sự tiêu hao năng lượng khổng lồ này không chỉ đội chi phí vận hành mà còn đẩy mạnh phát thải khí nhà kính và biến đổi khí hậu.",
+                "evidence_en": "Because glass provides far weaker thermal insulation than traditional masonry walls, indoor spaces rapidly overheat in summer and lose warmth in winter. Consequently, commercial towers depend heavily on high-powered heating and air conditioning systems running continuously throughout the day. For example, a fully glazed office skyscraper can consume several times more electricity than a well-insulated conventional building. This excessive energy demand not only inflates operating costs but also accelerates urban carbon emissions and global climate change.",
                 "collocations": [
                   {
                     "en": "extensive glass facades",
@@ -178201,36 +177489,32 @@ const ESSAY_DATA = [
                     "vi": "dấu chân carbon đô thị"
                   },
                   {
-                    "en": "thermal conductivity of glass panels",
-                    "vi": "tính dẫn nhiệt của các tấm kính"
+                    "en": "glass office buildings",
+                    "vi": "tòa nhà văn phòng bằng kính"
                   },
                   {
-                    "en": "commercial complexes",
-                    "vi": "các khu phức hợp thương mại"
+                    "en": "thermal insulation",
+                    "vi": "khả năng cách nhiệt"
                   },
                   {
-                    "en": "high-powered HVAC systems",
-                    "vi": "hệ thống sưởi, thông gió và điều hòa công suất lớn"
+                    "en": "rapidly overheat",
+                    "vi": "nhanh chóng quá nóng"
                   },
                   {
-                    "en": "maintain habitable indoor temperatures",
-                    "vi": "duy trì nhiệt độ phòng dễ chịu"
+                    "en": "high-powered systems",
+                    "vi": "hệ thống công suất lớn"
                   },
                   {
-                    "en": "continuous dependence on artificial lighting",
-                    "vi": "sự phụ thuộc liên tục vào chiếu sáng nhân tạo"
+                    "en": "fully glazed skyscraper",
+                    "vi": "tòa nhà chọc trời phủ kính toàn bộ"
                   },
                   {
-                    "en": "electronic office equipment",
-                    "vi": "thiết bị văn phòng điện tử"
+                    "en": "operating costs",
+                    "vi": "chi phí vận hành"
                   },
                   {
-                    "en": "consumes tremendous electrical power",
-                    "vi": "tiêu thụ nguồn điện năng khổng lồ"
-                  },
-                  {
-                    "en": "intensifying global climate change",
-                    "vi": "làm trầm trọng thêm biến đổi khí hậu toàn cầu"
+                    "en": "urban carbon emissions",
+                    "vi": "phát thải carbon đô thị"
                   }
                 ],
                 "point_collocations": [
@@ -178258,46 +177542,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "commercial complexes",
-                      "vi": "các khu phức hợp thương mại"
+                      "en": "thermal insulation",
+                      "vi": "khả năng cách nhiệt"
                     },
                     {
-                      "en": "high-powered HVAC systems",
-                      "vi": "hệ thống sưởi, thông gió và điều hòa công suất lớn"
-                    },
-                    {
-                      "en": "maintain habitable indoor temperatures",
-                      "vi": "duy trì nhiệt độ phòng dễ chịu"
-                    },
-                    {
-                      "en": "rely on air conditioning",
-                      "vi": "phụ thuộc vào điều hòa không khí"
-                    },
-                    {
-                      "en": "increase indoor temperatures",
-                      "vi": "làm tăng nhiệt độ bên trong"
+                      "en": "rapidly overheat",
+                      "vi": "nhanh chóng quá nóng"
                     }
                   ],
                   [
                     {
-                      "en": "continuous dependence on artificial lighting",
-                      "vi": "sự phụ thuộc liên tục vào chiếu sáng nhân tạo"
+                      "en": "high-powered systems",
+                      "vi": "hệ thống công suất lớn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fully glazed skyscraper",
+                      "vi": "tòa nhà chọc trời phủ kính toàn bộ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "operating costs",
+                      "vi": "chi phí vận hành"
                     },
                     {
-                      "en": "electronic office equipment",
-                      "vi": "thiết bị văn phòng điện tử"
-                    },
-                    {
-                      "en": "consumes tremendous electrical power",
-                      "vi": "tiêu thụ nguồn điện năng khổng lồ"
-                    },
-                    {
-                      "en": "intensifying global climate change",
-                      "vi": "làm trầm trọng thêm biến đổi khí hậu toàn cầu"
-                    },
-                    {
-                      "en": "office",
-                      "vi": "văn phòng làm việc"
+                      "en": "urban carbon emissions",
+                      "vi": "phát thải carbon đô thị"
                     }
                   ]
                 ]
@@ -178306,8 +177578,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
                 "point_vi": "Hiện tượng ô nhiễm ánh sáng phát ra từ các tòa tháp văn phòng kính làm xáo trộn nghiêm trọng môi trường xung quanh và đời sống hoang dã.",
                 "point_en": "Pervasive light pollution emanating from fully glazed office high-rises profoundly disrupts the nocturnal environment and local wildlife.",
-                "evidence_vi": "Hàng ngàn bóng đèn công suất lớn được thắp sáng xuyên đêm trong các văn phòng kính tạo ra quầng sáng chói lọi bao phủ bầu trời thành phố. Hiện tượng này không chỉ ảnh hưởng tiêu cực đến nhịp sinh học của cư dân sống ở khu vực lân cận mà còn làm mất phương hướng của các loài chim di cư ban đêm, khiến chúng lạc đường và suy kiệt sức lực.",
-                "evidence_en": "Thousands of interior fixtures illuminated overnight transform glass skyscrapers into massive radiant beacons that illuminate the urban sky. This continuous nighttime glare impairs the circadian rhythms of nearby residents while critically disorienting nocturnal migratory birds, causing them to deviate from their flight paths and suffer severe exhaustion.",
+                "evidence_vi": "Hàng nghìn bóng đèn văn phòng được bật sáng xuyên đêm phía sau lớp kính trong suốt biến các tòa cao ốc thành những nguồn phát sáng khổng lồ giữa đô thị. Quầng sáng nhân tạo dày đặc này làm mờ bầu trời đêm và ảnh hưởng tiêu cực đến nhịp sinh học tự nhiên của cư dân sống lân cận. Chẳng hạn, người dân ở các khu chung cư đối diện cao ốc văn phòng thường phàn nàn về tình trạng khó ngủ và suy giảm chất lượng nghỉ ngơi. Nghiêm trọng hơn, ánh sáng mạnh vào ban đêm còn khiến các loài chim di cư mất phương hướng, bay lệch lộ trình và nhanh chóng kiệt sức.",
+                "evidence_en": "Thousands of interior office lights left burning overnight behind transparent facades turn skyscrapers into massive radiant beacons across cities. This intense artificial glow brightens the night sky and disrupts the natural circadian rhythms of residents living nearby. For instance, people in apartments facing glass business centers frequently report sleep disturbances and chronic fatigue. Even more alarmingly, bright nighttime illumination disorients nocturnal migratory birds, causing them to stray off course and suffer severe exhaustion.",
                 "collocations": [
                   {
                     "en": "pervasive light pollution",
@@ -178326,40 +177598,32 @@ const ESSAY_DATA = [
                     "vi": "động vật hoang dã địa phương"
                   },
                   {
-                    "en": "interior fixtures illuminated overnight",
-                    "vi": "các bóng đèn bên trong thắp sáng xuyên đêm"
+                    "en": "light pollution",
+                    "vi": "ô nhiễm ánh sáng"
                   },
                   {
-                    "en": "massive radiant beacons",
-                    "vi": "quầng sáng phát quang khổng lồ"
+                    "en": "transparent facades",
+                    "vi": "mặt tiền bằng kính trong suốt"
                   },
                   {
-                    "en": "illuminate the urban sky",
-                    "vi": "thắp sáng bầu trời đô thị"
+                    "en": "artificial glow",
+                    "vi": "quầng sáng nhân tạo"
                   },
                   {
-                    "en": "continuous nighttime glare",
-                    "vi": "ánh sáng chói lóa ban đêm"
+                    "en": "circadian rhythms",
+                    "vi": "nhịp sinh học"
                   },
                   {
-                    "en": "impair circadian rhythms",
-                    "vi": "làm suy giảm nhịp sinh học"
+                    "en": "sleep disturbances",
+                    "vi": "rối loạn giấc ngủ"
                   },
                   {
-                    "en": "nearby residents",
-                    "vi": "cư dân sống lân cận"
+                    "en": "migratory birds",
+                    "vi": "chim di cư"
                   },
                   {
-                    "en": "disorienting nocturnal migratory birds",
-                    "vi": "làm mất phương hướng của chim di cư ban đêm"
-                  },
-                  {
-                    "en": "deviate from flight paths",
-                    "vi": "chệch khỏi đường bay"
-                  },
-                  {
-                    "en": "suffer severe exhaustion",
-                    "vi": "kiệt sức nghiêm trọng"
+                    "en": "stray off course",
+                    "vi": "bay lệch lộ trình"
                   }
                 ],
                 "point_collocations": [
@@ -178387,42 +177651,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "interior fixtures illuminated overnight",
-                      "vi": "các bóng đèn bên trong thắp sáng xuyên đêm"
-                    },
-                    {
-                      "en": "massive radiant beacons",
-                      "vi": "quầng sáng phát quang khổng lồ"
-                    },
-                    {
-                      "en": "illuminate the urban sky",
-                      "vi": "thắp sáng bầu trời đô thị"
-                    },
-                    {
-                      "en": "glass",
-                      "vi": "kính, thủy tinh"
+                      "en": "transparent facades",
+                      "vi": "mặt tiền bằng kính trong suốt"
                     }
                   ],
                   [
                     {
-                      "en": "disrupts the nocturnal environment",
-                      "vi": "làm xáo trộn môi trường ban đêm"
+                      "en": "artificial glow",
+                      "vi": "quầng sáng nhân tạo"
                     },
                     {
-                      "en": "continuous nighttime glare",
-                      "vi": "ánh sáng chói lóa ban đêm"
+                      "en": "circadian rhythms",
+                      "vi": "nhịp sinh học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sleep disturbances",
+                      "vi": "rối loạn giấc ngủ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "migratory birds",
+                      "vi": "chim di cư"
                     },
                     {
-                      "en": "impair circadian rhythms",
-                      "vi": "làm suy giảm nhịp sinh học"
-                    },
-                    {
-                      "en": "nearby residents",
-                      "vi": "cư dân sống lân cận"
-                    },
-                    {
-                      "en": "disorienting nocturnal migratory birds",
-                      "vi": "làm mất phương hướng của chim di cư ban đêm"
+                      "en": "stray off course",
+                      "vi": "bay lệch lộ trình"
                     }
                   ]
                 ]
@@ -178431,8 +177687,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
                 "point_vi": "Bề mặt kính tạo ra hiệu ứng nhà kính nhân tạo bên trong nơi làm việc và khuếch đại hiện tượng đảo nhiệt đô thị.",
                 "point_en": "Expansive glass envelopes generate localized greenhouse effects within workspaces while substantially intensifying urban heat islands.",
-                "evidence_vi": "Vật liệu kính liên tục giữ lại bức xạ nhiệt mặt trời, buộc hệ thống làm mát trung tâm phải hoạt động liên tục và thải một lượng nhiệt khổng lồ ra không khí bên ngoài. Hệ quả là nhiệt độ tại các khu phố tập trung nhiều tòa nhà kính thường cao hơn đáng kể so với vùng ngoại ô, làm trầm trọng thêm sự ngột ngạt và khó chịu cho người dân thành phố.",
-                "evidence_en": "Transparent facades trap solar radiation inside office suites, forcing refrigeration machinery to expel massive amounts of waste heat directly into external streets. Consequently, dense financial districts suffer from elevated ambient temperatures compared to greener suburbs, worsening urban heat stress and degrading metropolitan air quality.",
+                "evidence_vi": "Các mảng kính lớn hấp thụ và giữ lại lượng bức xạ mặt trời khổng lồ bên trong văn phòng, tạo ra hiệu ứng nhà kính cục bộ rất khó chịu. Để cân bằng nhiệt độ trong nhà, hệ thống làm mát trung tâm buộc phải xả lượng nhiệt thải lớn trực tiếp ra đường phố bên ngoài. Chẳng hạn, nhiệt độ không khí tại các khu tài chính dày đặc tháp kính thường cao hơn rõ rệt so với những vùng ngoại ô rợp bóng cây. Về lâu dài, hiện tượng đảo nhiệt đô thị này làm trầm trọng thêm tình trạng nắng nóng và suy giảm chất lượng sống tại thành phố.",
+                "evidence_en": "Expansive glass facades absorb and trap substantial solar radiation inside office floors, generating an uncomfortable localized greenhouse effect. To maintain cool interiors, central refrigeration systems must continuously expel massive volumes of waste heat onto surrounding streets. For example, ambient temperatures in dense financial districts lined with glass towers are noticeably higher than in greener suburban areas. Over time, this intensified urban heat island effect worsens summer heat stress and lowers metropolitan livability.",
                 "collocations": [
                   {
                     "en": "expansive glass envelopes",
@@ -178447,44 +177703,36 @@ const ESSAY_DATA = [
                     "vi": "khuếch đại hiện tượng đảo nhiệt đô thị"
                   },
                   {
-                    "en": "transparent facades",
-                    "vi": "các mặt tiền bằng kính trong suốt"
-                  },
-                  {
-                    "en": "trap solar radiation inside office suites",
-                    "vi": "giữ lại bức xạ mặt trời bên trong văn phòng"
-                  },
-                  {
-                    "en": "refrigeration machinery",
-                    "vi": "hệ thống máy móc làm lạnh"
-                  },
-                  {
-                    "en": "expel massive amounts of waste heat",
-                    "vi": "thải một lượng nhiệt khổng lồ"
-                  },
-                  {
-                    "en": "external streets",
-                    "vi": "đường phố bên ngoài"
-                  },
-                  {
-                    "en": "dense financial districts",
-                    "vi": "các khu tài chính mật độ cao"
-                  },
-                  {
-                    "en": "elevated ambient temperatures",
-                    "vi": "nhiệt độ môi trường tăng cao"
-                  },
-                  {
-                    "en": "greener suburbs",
-                    "vi": "các vùng ngoại ô nhiều cây xanh hơn"
-                  },
-                  {
                     "en": "worsening urban heat stress",
                     "vi": "làm trầm trọng thêm căng thẳng nhiệt đô thị"
                   },
                   {
-                    "en": "degrading metropolitan air quality",
-                    "vi": "làm suy giảm chất lượng không khí đô thị"
+                    "en": "urban heat island effect",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                  },
+                  {
+                    "en": "solar radiation",
+                    "vi": "bức xạ mặt trời"
+                  },
+                  {
+                    "en": "localized greenhouse effect",
+                    "vi": "hiệu ứng nhà kính cục bộ"
+                  },
+                  {
+                    "en": "waste heat",
+                    "vi": "nhiệt thải"
+                  },
+                  {
+                    "en": "ambient temperatures",
+                    "vi": "nhiệt độ môi trường xung quanh"
+                  },
+                  {
+                    "en": "financial districts",
+                    "vi": "khu trung tâm tài chính"
+                  },
+                  {
+                    "en": "metropolitan livability",
+                    "vi": "chất lượng sống đô thị"
                   }
                 ],
                 "point_collocations": [
@@ -178512,46 +177760,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "transparent facades",
-                      "vi": "các mặt tiền bằng kính trong suốt"
+                      "en": "solar radiation",
+                      "vi": "bức xạ mặt trời"
                     },
                     {
-                      "en": "trap solar radiation inside office suites",
-                      "vi": "giữ lại bức xạ mặt trời bên trong văn phòng"
-                    },
-                    {
-                      "en": "refrigeration machinery",
-                      "vi": "hệ thống máy móc làm lạnh"
-                    },
-                    {
-                      "en": "expel massive amounts of waste heat",
-                      "vi": "thải một lượng nhiệt khổng lồ"
-                    },
-                    {
-                      "en": "external streets",
-                      "vi": "đường phố bên ngoài"
+                      "en": "localized greenhouse effect",
+                      "vi": "hiệu ứng nhà kính cục bộ"
                     }
                   ],
                   [
                     {
-                      "en": "intensifying urban heat islands",
-                      "vi": "khuếch đại hiện tượng đảo nhiệt đô thị"
+                      "en": "waste heat",
+                      "vi": "nhiệt thải"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ambient temperatures",
+                      "vi": "nhiệt độ môi trường xung quanh"
                     },
                     {
-                      "en": "dense financial districts",
-                      "vi": "các khu tài chính mật độ cao"
+                      "en": "financial districts",
+                      "vi": "khu trung tâm tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "urban heat island effect",
+                      "vi": "hiệu ứng đảo nhiệt đô thị"
                     },
                     {
-                      "en": "elevated ambient temperatures",
-                      "vi": "nhiệt độ môi trường tăng cao"
-                    },
-                    {
-                      "en": "greener suburbs",
-                      "vi": "các vùng ngoại ô nhiều cây xanh hơn"
-                    },
-                    {
-                      "en": "worsening urban heat stress",
-                      "vi": "làm trầm trọng thêm căng thẳng nhiệt đô thị"
+                      "en": "metropolitan livability",
+                      "vi": "chất lượng sống đô thị"
                     }
                   ]
                 ]
@@ -178560,8 +177800,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
                 "point_vi": "Môi trường văn phòng kính ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần của người lao động qua hiện tượng chói mắt và cảm giác ngột ngạt.",
                 "point_en": "Glazed office environments can undermine employees' physical health and psychological well-being through severe visual fatigue and environmental discomfort.",
-                "evidence_vi": "Hiện tượng ánh sáng mặt trời phản quang mạnh mẽ qua các ô kính lớn dễ gây chói lóa màn hình máy tính, dẫn đến tình trạng mỏi mắt kinh niên và những cơn đau đầu liên tục. Hơn nữa, việc bị bao bọc trong một khối kính kín mít thiếu sự tương tác với thiên nhiên và không khí trong lành có thể gia tăng cảm giác căng thẳng thần kinh và làm giảm hiệu suất lao động.",
-                "evidence_en": "Uncontrolled solar glare reflecting off wide glazed surfaces creates harsh screen reflections, provoking chronic eye strain, migraines, and visual exhaustion among computer users. Furthermore, spending long hours enclosed within synthetic glass compartments without natural ventilation or biophilic elements heightens psychological fatigue and diminishes cognitive performance.",
+                "evidence_vi": "Ánh nắng mặt trời phản chiếu gắt qua các vách kính lớn thường tạo hiện tượng lóa màn hình máy tính, gây mỏi mắt kinh niên và đau đầu cho nhân viên. Bên cạnh đó, thiết kế cửa kính cố định không thể mở khiến văn phòng thiếu luồng khí tự nhiên và trở nên bí bách khi làm việc nhiều giờ liền. Ví dụ, nhiều nhân viên văn phòng làm việc gần cửa kính lớn phải liên tục kéo rèm và chịu cảm giác căng thẳng do chênh lệch nhiệt độ đột ngột. Khi sức khỏe thể chất và sự thoải mái tinh thần bị ảnh hưởng, hiệu suất và khả năng sáng tạo của đội ngũ cũng suy giảm đáng kể.",
+                "evidence_en": "Harsh sunlight reflecting off wide glazed panels creates persistent screen glare, provoking chronic eye strain and frequent headaches among staff. Furthermore, sealed glass facades that cannot be opened deprive workspaces of fresh natural ventilation, creating a stuffy indoor atmosphere. For instance, employees seated near full-height windows often deal with uncomfortable temperature swings and constant visual fatigue. When physical comfort and mental well-being are undermined in this way, overall workplace productivity and creativity noticeably decline.",
                 "collocations": [
                   {
                     "en": "glazed office environments",
@@ -178584,36 +177824,32 @@ const ESSAY_DATA = [
                     "vi": "sự khó chịu về môi trường"
                   },
                   {
-                    "en": "uncontrolled solar glare",
-                    "vi": "ánh sáng chói mặt trời mất kiểm soát"
+                    "en": "persistent screen glare",
+                    "vi": "tình trạng chói màn hình liên tục"
                   },
                   {
-                    "en": "harsh screen reflections",
-                    "vi": "phản chiếu gay gắt trên màn hình"
-                  },
-                  {
-                    "en": "chronic eye strain and migraines",
-                    "vi": "mỏi mắt mãn tính và đau đầu"
-                  },
-                  {
-                    "en": "enclosed within synthetic glass compartments",
-                    "vi": "bị giam hãm trong các ngăn kính nhân tạo"
+                    "en": "chronic eye strain",
+                    "vi": "mỏi mắt kinh niên"
                   },
                   {
                     "en": "natural ventilation",
                     "vi": "thông gió tự nhiên"
                   },
                   {
-                    "en": "biophilic elements",
-                    "vi": "yếu tố thiên nhiên gắn kết"
+                    "en": "stuffy indoor atmosphere",
+                    "vi": "không khí trong nhà bí bách"
                   },
                   {
-                    "en": "heightens psychological fatigue",
-                    "vi": "làm tăng sự mệt mỏi tâm lý"
+                    "en": "temperature swings",
+                    "vi": "chênh lệch nhiệt độ"
                   },
                   {
-                    "en": "diminishes cognitive performance",
-                    "vi": "làm suy giảm hiệu suất nhận thức"
+                    "en": "visual fatigue",
+                    "vi": "mệt mỏi thị giác"
+                  },
+                  {
+                    "en": "workplace productivity",
+                    "vi": "năng suất nơi làm việc"
                   }
                 ],
                 "point_collocations": [
@@ -178641,46 +177877,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "uncontrolled solar glare",
-                      "vi": "ánh sáng chói mặt trời mất kiểm soát"
+                      "en": "persistent screen glare",
+                      "vi": "tình trạng chói màn hình liên tục"
                     },
                     {
-                      "en": "harsh screen reflections",
-                      "vi": "phản chiếu gay gắt trên màn hình"
-                    },
-                    {
-                      "en": "eye strain",
-                      "vi": "mỏi mắt"
-                    },
-                    {
-                      "en": "glare",
-                      "vi": "ánh sáng chói lóa, chói mắt"
-                    },
-                    {
-                      "en": "strain",
-                      "vi": "sự căng thẳng, sự mỏi (mắt, cơ)"
+                      "en": "chronic eye strain",
+                      "vi": "mỏi mắt kinh niên"
                     }
                   ],
                   [
-                    {
-                      "en": "enclosed within synthetic glass compartments",
-                      "vi": "bị giam hãm trong các ngăn kính nhân tạo"
-                    },
                     {
                       "en": "natural ventilation",
                       "vi": "thông gió tự nhiên"
                     },
                     {
-                      "en": "biophilic elements",
-                      "vi": "yếu tố thiên nhiên gắn kết"
+                      "en": "stuffy indoor atmosphere",
+                      "vi": "không khí trong nhà bí bách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "temperature swings",
+                      "vi": "chênh lệch nhiệt độ"
                     },
                     {
-                      "en": "heightens psychological fatigue",
-                      "vi": "làm tăng sự mệt mỏi tâm lý"
-                    },
+                      "en": "visual fatigue",
+                      "vi": "mệt mỏi thị giác"
+                    }
+                  ],
+                  [
                     {
-                      "en": "diminishes cognitive performance",
-                      "vi": "làm suy giảm hiệu suất nhận thức"
+                      "en": "workplace productivity",
+                      "vi": "năng suất nơi làm việc"
                     }
                   ]
                 ]
@@ -178689,8 +177917,8 @@ const ESSAY_DATA = [
                 "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
                 "point_vi": "Bề mặt kính phản quang của các tòa cao ốc văn phòng là nguyên nhân hàng đầu gây ra hàng triệu vụ tai nạn chết chim mỗi năm.",
                 "point_en": "Reflective glass exteriors on corporate high-rises represent a catastrophic hazard responsible for millions of fatal avian collisions annually.",
-                "evidence_vi": "Các tấm kính lớn tạo ra hình ảnh phản chiếu hoàn hảo của bầu trời, mây và tán cây, khiến các loài chim nhầm tưởng rằng đó là không gian bay lượn an toàn. Khi di chuyển với tốc độ cao, những con chim va chạm trực diện với kính cứng với lực rất mạnh, dẫn đến chấn thương nặng hoặc tử vong tức thì.",
-                "evidence_en": "Polished glass surfaces produce deceitful reflections of open skies and surrounding foliage, leading birds to mistake mirrored glass for unobstructed flight corridors. Flying at high cruising velocities, birds collide with the rigid structural glass with violent impact, sustaining lethal trauma or dying instantaneously.",
+                "evidence_vi": "Bề mặt kính phản quang hiện đại tạo ra hình ảnh phản chiếu sống động của bầu trời, mây và cây cối xung quanh như một không gian bay thoáng đãng. Do không thể nhận diện tấm kính trong suốt là vật cản cứng, các loài chim thường lao thẳng vào mặt tiền tòa nhà ở tốc độ rất cao. Chẳng hạn, các nghiên cứu môi trường tại nhiều thành phố lớn ghi nhận hàng triệu cá thể chim hoang dã thiệt mạng mỗi năm vì va chạm với cao ốc kính. Tổn thất liên tục này không chỉ gây thương tâm mà còn làm suy giảm đa dạng sinh học và mất cân bằng hệ sinh thái đô thị.",
+                "evidence_en": "Polished reflective glass exteriors create deceptive reflections of open skies, clouds, and nearby foliage that appear to be clear flight paths. Unable to perceive transparent glass as a rigid physical obstacle, birds frequently fly directly into building facades at high speeds. For example, ecological surveys in major metropolitan areas estimate that millions of wild birds die each year from collisions with glass high-rises. This ongoing mortality significantly threatens urban biodiversity and disrupts the natural balance of city ecosystems.",
                 "collocations": [
                   {
                     "en": "reflective glass exteriors",
@@ -178709,40 +177937,32 @@ const ESSAY_DATA = [
                     "vi": "các vụ va chạm chết chóc của chim"
                   },
                   {
-                    "en": "polished glass surfaces",
-                    "vi": "bề mặt kính sáng bóng"
+                    "en": "fatal collisions",
+                    "vi": "các vụ va chạm gây tử vong"
                   },
                   {
-                    "en": "deceitful reflections of open skies",
-                    "vi": "hình ảnh phản chiếu đánh lừa của bầu trời"
+                    "en": "deceptive reflections",
+                    "vi": "hình ảnh phản chiếu đánh lừa"
                   },
                   {
-                    "en": "surrounding foliage",
-                    "vi": "tán cây xung quanh"
+                    "en": "flight paths",
+                    "vi": "đường bay"
                   },
                   {
-                    "en": "unobstructed flight corridors",
-                    "vi": "hành lang bay không có vật cản"
+                    "en": "rigid physical obstacle",
+                    "vi": "vật cản vật lý cứng"
                   },
                   {
-                    "en": "cruising velocities",
-                    "vi": "tốc độ bay"
+                    "en": "ecological surveys",
+                    "vi": "khảo sát sinh thái"
                   },
                   {
-                    "en": "rigid structural glass",
-                    "vi": "kính kiến trúc cứng"
+                    "en": "glass high-rises",
+                    "vi": "tòa nhà kính cao tầng"
                   },
                   {
-                    "en": "violent impact",
-                    "vi": "lực va đập dữ dội"
-                  },
-                  {
-                    "en": "sustaining lethal trauma",
-                    "vi": "bị chấn thương gây tử vong"
-                  },
-                  {
-                    "en": "dying instantaneously",
-                    "vi": "tử vong tức thì"
+                    "en": "urban biodiversity",
+                    "vi": "đa dạng sinh học đô thị"
                   }
                 ],
                 "point_collocations": [
@@ -178770,46 +177990,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "polished glass surfaces",
-                      "vi": "bề mặt kính sáng bóng"
+                      "en": "deceptive reflections",
+                      "vi": "hình ảnh phản chiếu đánh lừa"
                     },
                     {
-                      "en": "deceitful reflections of open skies",
-                      "vi": "hình ảnh phản chiếu đánh lừa của bầu trời"
-                    },
-                    {
-                      "en": "surrounding foliage",
-                      "vi": "tán cây xung quanh"
-                    },
-                    {
-                      "en": "unobstructed flight corridors",
-                      "vi": "hành lang bay không có vật cản"
-                    },
-                    {
-                      "en": "deadly danger to birds",
-                      "vi": "mối nguy hiểm chết người với loài chim"
+                      "en": "flight paths",
+                      "vi": "đường bay"
                     }
                   ],
                   [
                     {
-                      "en": "cruising velocities",
-                      "vi": "tốc độ bay"
+                      "en": "rigid physical obstacle",
+                      "vi": "vật cản vật lý cứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ecological surveys",
+                      "vi": "khảo sát sinh thái"
                     },
                     {
-                      "en": "rigid structural glass",
-                      "vi": "kính kiến trúc cứng"
-                    },
+                      "en": "glass high-rises",
+                      "vi": "tòa nhà kính cao tầng"
+                    }
+                  ],
+                  [
                     {
-                      "en": "violent impact",
-                      "vi": "lực va đập dữ dội"
-                    },
-                    {
-                      "en": "sustaining lethal trauma",
-                      "vi": "bị chấn thương gây tử vong"
-                    },
-                    {
-                      "en": "dying instantaneously",
-                      "vi": "tử vong tức thì"
+                      "en": "urban biodiversity",
+                      "vi": "đa dạng sinh học đô thị"
                     }
                   ]
                 ]
