@@ -985,7 +985,7 @@ input, textarea, button, select {
 }
 
 .workspace-layout.submitted {
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1fr !important;
 }
 
 .workspace-pane {
@@ -1005,7 +1005,7 @@ input, textarea, button, select {
     gap: 1rem;
   }
   .workspace-layout.submitted {
-    grid-template-columns: 1fr 380px;
+    grid-template-columns:  1fr !important;
   }
 }
 
@@ -1448,14 +1448,11 @@ input, textarea, button, select {
   background: var(--success);
 }
 
-/* Right Pane: AI Grading & Analysis (only shown after submit) */
-.analysis-pane {
-  display: none;
-}
-
-.submitted .analysis-pane {
-  display: flex;
-  flex-direction: column;
+/* Right Pane: Deprecated & hidden so AI evaluation takes 100% full screen width */
+.analysis-pane,
+.submitted .analysis-pane,
+.workspace-layout.submitted .analysis-pane {
+  display: none !important;
 }
 
 .analysis-header {
