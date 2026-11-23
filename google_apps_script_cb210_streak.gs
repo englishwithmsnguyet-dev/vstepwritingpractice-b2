@@ -62,7 +62,9 @@ const STUDENT_HEADERS = [
   'UnlockedByTeacherAt', // 14 (Col 15): Lần mở khóa gần nhất
   'GraceUntilDate',      // 15 (Col 16): Ngày ân hạn sau khi cô mở khóa (YYYY-MM-DD)
   'LastEssayInfo',       // 16 (Col 17): Thông tin bài viết gần nhất
-  'UpdatedAt'            // 17 (Col 18): Cập nhật cuối
+  'UpdatedAt',           // 17 (Col 18): Cập nhật cuối
+  'WarningCount',        // 18 (Col 19): Số lần đã nhắc nhở bỏ chuỗi (0, 1, 2...)
+  'LastWarningDate'      // 19 (Col 20): Ngày gần nhất nhận nhắc nhở bỏ chuỗi (YYYY-MM-DD)
 ];
 
 const LOG_HEADERS = [
@@ -175,6 +177,15 @@ function ensureSheets() {
     studentSheet.setFrozenRows(1);
   } else if (studentSheet.getLastRow() === 0) {
     studentSheet.getRange(1, 1, 1, STUDENT_HEADERS.length).setValues([STUDENT_HEADERS]);
+  } else if (studentSheet.getLastColumn() < STUDENT_HEADERS.length) {
+    // Tự động bổ sung cột WarningCount (19) & LastWarningDate (20) cho Sheet đã tạo trước đó
+    const startCol = studentSheet.getLastColumn() + 1;
+    const missingHeaders = STUDENT_HEADERS.slice(startCol - 1);
+    studentSheet.getRange(1, startCol, 1, missingHeaders.length)
+      .setValues([missingHeaders])
+      .setFontWeight('bold')
+      .setBackground('#0f172a')
+      .setFontColor('#ffffff');
   }
 
   // Tự động khởi tạo đủ 15 học viên CB210 nếu chưa có trong Sheet
@@ -193,7 +204,7 @@ function ensureSheets() {
       rowsToAppend.push([
         key, fullName, 'CB210',
         0, 0, '', 0, 0, 0,
-        'ACTIVE', '', '', 'NO', '', '', '', '', nowStr
+        'ACTIVE', '', '', 'NO', '', '', '', '', nowStr, 0, ''
       ]);
       existingKeys[key] = true;
     }
@@ -221,12 +232,13 @@ function ensureSheets() {
   let configSheet = ss.getSheetByName(SHEET_CONFIG);
   if (!configSheet) {
     configSheet = ss.insertSheet(SHEET_CONFIG);
-    configSheet.getRange(1, 1, 6, 2).setValues([
+    configSheet.getRange(1, 1, 7, 2).setValues([
       ['Key', 'Value'],
       ['SystemEnabled', 'TRUE'],         // TRUE = bật khóa tự động khi không viết bài, FALSE = tạm tắt
       ['StartDate', getTomorrowVN()],    // Ngày bắt đầu áp dụng (mặc định: ngày mai để không khóa oan hôm nay)
       ['StreakMode', 'STRICT_DAILY'],    // STRICT_DAILY (cả Chủ Nhật) | ALLOW_SUNDAY_OFF (miễn Chủ Nhật)
       ['MinWords', '250'],               // Số từ tối thiểu để tính là 1 bài luận hoàn chỉnh
+      ['MaxWarningsBeforeLock', '2'],    // Số lần nhắc nhở bỏ chuỗi trước khi khóa (mặc định: nhắc 2 lần, lần 3 mới khóa)
       ['UpdatedAt', nowStr]
     ]);
     configSheet.getRange(1, 1, 1, 2).setFontWeight('bold').setBackground('#059669').setFontColor('#ffffff');
@@ -241,7 +253,8 @@ function readConfig(configSheet) {
     SystemEnabled: true,
     StartDate: getTomorrowVN(),
     StreakMode: 'STRICT_DAILY',
-    MinWords: 250
+    MinWords: 250,
+    MaxWarningsBeforeLock: 2
   };
   const rows = configSheet.getDataRange().getValues();
   for (let i = 1; i < rows.length; i++) {
@@ -254,6 +267,10 @@ function readConfig(configSheet) {
     if (k === 'MinWords' && v) {
       const n = parseInt(v, 10);
       if (!isNaN(n) && n >= 50 && n <= 1000) cfg.MinWords = n;
+    }
+    if (k === 'MaxWarningsBeforeLock' && v !== '') {
+      const nw = parseInt(v, 10);
+      if (!isNaN(nw) && nw >= 0 && nw <= 10) cfg.MaxWarningsBeforeLock = nw;
     }
   }
   return cfg;
@@ -272,6 +289,10 @@ function writeConfig(configSheet, newCfg) {
   if (typeof newCfg.MinWords !== 'undefined') {
     const n = parseInt(newCfg.MinWords, 10);
     if (!isNaN(n) && n >= 50 && n <= 1000) keysToSet.MinWords = String(n);
+  }
+  if (typeof newCfg.MaxWarningsBeforeLock !== 'undefined' && String(newCfg.MaxWarningsBeforeLock).trim() !== '') {
+    const nw = parseInt(newCfg.MaxWarningsBeforeLock, 10);
+    if (!isNaN(nw) && nw >= 0 && nw <= 10) keysToSet.MaxWarningsBeforeLock = String(nw);
   }
   keysToSet.UpdatedAt = getNowVN();
 
@@ -316,7 +337,9 @@ function rowToStudentObj(row, rowIndex, today) {
     unlockedByTeacherAt: String(row[14] || ''),
     graceUntilDate: normalizeDateCell(row[15]),
     lastEssayInfo: String(row[16] || ''),
-    updatedAt: String(row[17] || '')
+    updatedAt: String(row[17] || ''),
+    warningCount: Number(row[18] || 0),
+    lastWarningDate: normalizeDateCell(row[19])
   };
 }
 
@@ -427,7 +450,7 @@ function handleAction(params) {
         studentSheet.appendRow([
           key, name, 'CB210',
           0, 0, '', 0, 0, 0,
-          'ACTIVE', '', '', 'NO', '', '', '', '', nowStr
+          'ACTIVE', '', '', 'NO', '', '', '', '', nowStr, 0, ''
         ]);
         found = findStudentRow(studentSheet, key, today);
       }
@@ -460,6 +483,8 @@ function handleAction(params) {
 
       const hasGraceToday = Boolean(st.graceUntilDate && st.graceUntilDate >= today);
 
+      const maxWarnings = (typeof cfg.MaxWarningsBeforeLock === 'number') ? cfg.MaxWarningsBeforeLock : 2;
+
       // Đang bị khóa thủ công hoặc đã bị khóa trước đó (và không có ân hạn hôm nay)
       if (st.status === 'LOCKED' && !hasGraceToday) {
         return {
@@ -471,7 +496,9 @@ function handleAction(params) {
           bestStreak: st.bestStreak,
           lastEssayDate: st.lastEssayDate,
           totalEssays: st.totalEssays,
-          lockReason: st.lockReason || ('Tài khoản CB210 đang bị khóa do chưa nộp ít nhất 1 bài luận hoàn chỉnh (≥ ' + cfg.MinWords + ' từ) mỗi ngày.'),
+          warningCount: st.warningCount,
+          maxWarnings: maxWarnings,
+          lockReason: st.lockReason || ('Tài khoản CB210 đang bị khóa do bỏ chuỗi vượt quá ' + maxWarnings + ' lần nhắc nhở.'),
           unlockRequested: st.unlockRequested,
           unlockRequestNote: st.unlockRequestNote,
           today: today,
@@ -479,13 +506,54 @@ function handleAction(params) {
         };
       }
 
-      // Đánh giá bỏ lỡ ngày viết bài
+      // Đánh giá bỏ lỡ ngày viết bài (chính sách: nhắc nhở 2 lần, bỏ lần thứ 3 mới khóa)
       const check = evaluateMissedWriting(st, cfg, today);
       if (check.shouldLock) {
-        studentSheet.getRange(rNum, 10).setValue('LOCKED');     // Status
-        studentSheet.getRange(rNum, 11).setValue(check.reason); // LockReason
-        studentSheet.getRange(rNum, 12).setValue(nowStr);       // LockedAt
-        studentSheet.getRange(rNum, 18).setValue(nowStr);       // UpdatedAt
+        // Nếu chưa hết lượt nhắc nhở (warningCount < maxWarnings) -> KHÔNG KHÓA, ghi nhận cảnh báo & cho vào viết hôm nay
+        if (st.warningCount < maxWarnings) {
+          const newWarnCount = st.warningCount + 1;
+          const warnMsg = (newWarnCount >= maxWarnings)
+            ? ('CẢNH BÁO LẦN CUỐI (' + newWarnCount + '/' + maxWarnings + '): ' + check.reason + '. Nếu tiếp tục bỏ chuỗi thêm 1 lần nữa, tài khoản sẽ TỰ ĐỘNG BỊ KHÓA!')
+            : ('NHẮC NHỞ BỎ CHUỖI LẦN ' + newWarnCount + '/' + maxWarnings + ': ' + check.reason + '. Hãy nộp đủ 1 bài luận hoàn chỉnh hôm nay để giữ quyền truy cập!');
+
+          studentSheet.getRange(rNum, 4).setValue(0);                               // Reset StreakCount = 0 vì bỏ chuỗi
+          studentSheet.getRange(rNum, 16).setNumberFormat('@').setValue(today);     // GraceUntilDate = hôm nay (để vào viết bài ngay)
+          studentSheet.getRange(rNum, 18).setValue(nowStr);                         // UpdatedAt
+          studentSheet.getRange(rNum, 19).setValue(newWarnCount);                   // WarningCount
+          studentSheet.getRange(rNum, 20).setNumberFormat('@').setValue(today);     // LastWarningDate
+
+          return {
+            ok: true,
+            locked: false,
+            streakWarning: true,
+            newlyWarned: true,
+            warningCount: newWarnCount,
+            maxWarnings: maxWarnings,
+            daysMissed: check.daysMissed,
+            warningReason: warnMsg,
+            fullName: st.fullName,
+            classCode: 'CB210',
+            streakCount: 0,
+            bestStreak: st.bestStreak,
+            lastEssayDate: st.lastEssayDate,
+            essaysToday: 0,
+            totalEssays: st.totalEssays,
+            todayDone: false,
+            hasGraceToday: true,
+            today: today,
+            config: cfg
+          };
+        }
+
+        // Đã nhắc đủ maxWarnings (2 lần) mà vẫn bỏ chuỗi tiếp -> TỰ ĐỘNG KHÓA!
+        const finalLockReason = maxWarnings > 0
+          ? ('Đã bỏ chuỗi lần thứ ' + (maxWarnings + 1) + ' sau ' + maxWarnings + ' lần nhắc nhở (' + check.reason + ')')
+          : check.reason;
+
+        studentSheet.getRange(rNum, 10).setValue('LOCKED');         // Status
+        studentSheet.getRange(rNum, 11).setValue(finalLockReason);  // LockReason
+        studentSheet.getRange(rNum, 12).setValue(nowStr);           // LockedAt
+        studentSheet.getRange(rNum, 18).setValue(nowStr);           // UpdatedAt
         return {
           ok: true,
           locked: true,
@@ -497,7 +565,9 @@ function handleAction(params) {
           lastEssayDate: st.lastEssayDate,
           totalEssays: st.totalEssays,
           daysMissed: check.daysMissed,
-          lockReason: check.reason,
+          warningCount: st.warningCount,
+          maxWarnings: maxWarnings,
+          lockReason: finalLockReason,
           unlockRequested: st.unlockRequested,
           unlockRequestNote: st.unlockRequestNote,
           today: today,
@@ -505,11 +575,23 @@ function handleAction(params) {
         };
       }
 
-      // Được phép vào học!
+      // Được phép vào học! Nếu hôm nay vừa bị nhắc nhở và vẫn chưa nộp bài hôm nay -> hiện lại nhắc nhở (không tăng WarningCount)
+      const warnedTodayNotDone = (st.lastWarningDate === today && st.lastEssayDate !== today && st.warningCount > 0);
+      const repeatWarnMsg = warnedTodayNotDone
+        ? (st.warningCount >= maxWarnings
+            ? ('CẢNH BÁO LẦN CUỐI (' + st.warningCount + '/' + maxWarnings + '): Hôm nay bạn cần nộp đủ 1 bài luận hoàn chỉnh (≥ ' + cfg.MinWords + ' từ). Nếu bỏ chuỗi thêm 1 lần nữa, tài khoản sẽ TỰ ĐỘNG BỊ KHÓA!')
+            : ('NHẮC NHỞ BỎ CHUỖI LẦN ' + st.warningCount + '/' + maxWarnings + ': Hôm nay bạn cần nộp đủ 1 bài luận hoàn chỉnh (≥ ' + cfg.MinWords + ' từ) để bắt đầu lại chuỗi viết nhé!'))
+        : '';
+
       studentSheet.getRange(rNum, 18).setValue(nowStr);
       return {
         ok: true,
         locked: false,
+        streakWarning: warnedTodayNotDone,
+        newlyWarned: false,
+        warningCount: st.warningCount,
+        maxWarnings: maxWarnings,
+        warningReason: repeatWarnMsg,
         fullName: st.fullName,
         classCode: 'CB210',
         streakCount: st.streakCount,
@@ -560,7 +642,7 @@ function handleAction(params) {
         studentSheet.appendRow([
           key, name, 'CB210',
           0, 0, '', 0, 0, 0,
-          'ACTIVE', '', '', 'NO', '', '', '', '', nowStr
+          'ACTIVE', '', '', 'NO', '', '', '', '', nowStr, 0, ''
         ]);
         found = findStudentRow(studentSheet, key, today);
       }
@@ -684,6 +766,7 @@ function handleAction(params) {
     if (action === 'listStudents') {
       const data = studentSheet.getDataRange().getValues();
       const students = [];
+      const maxWarnCfg = (typeof cfg.MaxWarningsBeforeLock === 'number') ? cfg.MaxWarningsBeforeLock : 2;
       for (let i = 1; i < data.length; i++) {
         if (!data[i][0]) continue;
         const st = rowToStudentObj(data[i], i + 1, today);
@@ -691,7 +774,9 @@ function handleAction(params) {
         st.todayDone = (st.lastEssayDate === today);
         st.hasGraceToday = Boolean(st.graceUntilDate && st.graceUntilDate >= today);
         st.daysMissed = evalRes.daysMissed;
-        st.willBeLockedOnNextLogin = (st.status !== 'LOCKED') && evalRes.shouldLock;
+        st.maxWarnings = maxWarnCfg;
+        st.willWarnOnNextLogin = (st.status !== 'LOCKED') && evalRes.shouldLock && (st.warningCount < maxWarnCfg);
+        st.willBeLockedOnNextLogin = (st.status !== 'LOCKED') && evalRes.shouldLock && (st.warningCount >= maxWarnCfg);
         st.effectiveLocked = (st.status === 'LOCKED' && !st.hasGraceToday) || st.willBeLockedOnNextLogin;
         students.push(st);
       }
@@ -731,6 +816,8 @@ function handleAction(params) {
       studentSheet.getRange(rNum, 15).setValue(nowStr);
       studentSheet.getRange(rNum, 16).setNumberFormat('@').setValue(today); // Ân hạn hôm nay để vào viết bài
       studentSheet.getRange(rNum, 18).setValue(nowStr);
+      studentSheet.getRange(rNum, 19).setValue(0);   // Reset lượt nhắc nhở về 0 sau khi cô mở khóa
+      studentSheet.getRange(rNum, 20).setValue('');
 
       return { ok: true, unlocked: studentKey, keepStreak: keepStreak, graceUntilDate: today };
     }
@@ -778,13 +865,26 @@ function handleAction(params) {
       return { ok: true, locked: studentKey };
     }
 
-    // 8. SET CONFIG
+    // 8. RESET WARNINGS (Xóa lượt nhắc nhở bỏ chuỗi về 0)
+    if (action === 'resetWarnings') {
+      const studentKey = String(params.studentKey || '').trim();
+      const found = findStudentRow(studentSheet, studentKey, today);
+      if (!found) return { ok: false, error: 'Không tìm thấy học viên' };
+      const rNum = found.rowNumber;
+      studentSheet.getRange(rNum, 19).setValue(0);
+      studentSheet.getRange(rNum, 20).setValue('');
+      studentSheet.getRange(rNum, 18).setValue(nowStr);
+      return { ok: true, resetWarnings: studentKey };
+    }
+
+    // 9. SET CONFIG
     if (action === 'setConfig') {
       const updated = writeConfig(configSheet, {
         SystemEnabled: typeof params.systemEnabled !== 'undefined' ? String(params.systemEnabled).toLowerCase() === 'true' : undefined,
         StartDate: params.startDate,
         StreakMode: params.streakMode,
-        MinWords: params.minWords
+        MinWords: params.minWords,
+        MaxWarningsBeforeLock: params.maxWarningsBeforeLock
       });
       return { ok: true, config: updated };
     }

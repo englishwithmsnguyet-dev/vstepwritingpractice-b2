@@ -118,12 +118,15 @@
     totalEssays: 0,
     todayDone: false,
     hasGraceToday: false,
+    warningCount: 0,
+    maxWarnings: 2,
     isTeacherMode: false,
     cachedStudents: [],
     cachedConfig: {
       SystemEnabled: true,
       StartDate: '',
       StreakMode: 'STRICT_DAILY',
+      MaxWarningsBeforeLock: 2,
       MinWords: 250
     },
     currentFilter: 'all',
@@ -254,6 +257,15 @@
                   </select>
                 </label>
                 <label>
+                  Nhắc bỏ chuỗi:
+                  <select id="cb210-cfg-maxwarn" class="cb210-select">
+                    <option value="0">Khóa ngay (0 nhắc)</option>
+                    <option value="1">Nhắc 1 lần → khóa</option>
+                    <option value="2" selected>Nhắc 2 lần → khóa</option>
+                    <option value="3">Nhắc 3 lần → khóa</option>
+                  </select>
+                </label>
+                <label>
                   Số từ tối thiểu:
                   <select id="cb210-cfg-minwords" class="cb210-select">
                     <option value="200">≥ 200 từ</option>
@@ -285,6 +297,15 @@
           </div>
         `;
         document.body.appendChild(overlay);
+      }
+
+      // 5. Streak Warning Modal Overlay (Nhắc nhở bỏ chuỗi 1/2 & 2/2)
+      if (!document.getElementById('cb210-warning-overlay')) {
+        const wOverlay = document.createElement('div');
+        wOverlay.id = 'cb210-warning-overlay';
+        wOverlay.className = 'cb210-warning-overlay';
+        wOverlay.innerHTML = `<div class="cb210-warning-card" id="cb210-warning-card"></div>`;
+        document.body.appendChild(wOverlay);
       }
     },
 
@@ -346,6 +367,7 @@
         const enabledEl = document.getElementById('cb210-cfg-enabled');
         const startEl = document.getElementById('cb210-cfg-startdate');
         const sundayEl = document.getElementById('cb210-cfg-sunday');
+        const maxWarnEl = document.getElementById('cb210-cfg-maxwarn');
         const minWordsEl = document.getElementById('cb210-cfg-minwords');
         const res = await callApi({
           action: 'setConfig',
@@ -353,6 +375,7 @@
           systemEnabled: enabledEl ? enabledEl.value : 'true',
           startDate: startEl ? startEl.value : '',
           streakMode: sundayEl ? sundayEl.value : 'STRICT_DAILY',
+          maxWarningsBeforeLock: maxWarnEl ? maxWarnEl.value : '2',
           minWords: minWordsEl ? minWordsEl.value : '250'
         });
         if (res && res.ok) {
@@ -364,7 +387,7 @@
         }
       };
 
-      ['cb210-cfg-enabled', 'cb210-cfg-startdate', 'cb210-cfg-sunday', 'cb210-cfg-minwords'].forEach((id) => {
+      ['cb210-cfg-enabled', 'cb210-cfg-startdate', 'cb210-cfg-sunday', 'cb210-cfg-maxwarn', 'cb210-cfg-minwords'].forEach((id) => {
         const el = document.getElementById(id);
         if (el) el.addEventListener('change', onConfigChange);
       });
@@ -447,9 +470,20 @@
         this.totalEssays = Number(res.totalEssays || 0);
         this.todayDone = Boolean(res.todayDone);
         this.hasGraceToday = Boolean(res.hasGraceToday);
+        this.warningCount = Number(res.warningCount || 0);
+        this.maxWarnings = (typeof res.maxWarnings === 'number')
+          ? res.maxWarnings
+          : (typeof this.cachedConfig.MaxWarningsBeforeLock === 'number' ? this.cachedConfig.MaxWarningsBeforeLock : 2);
 
         this.hideLockedLoginBox();
         this.renderSidebarPill();
+
+        if (res.streakWarning) {
+          this.showStreakWarningModal(name, res);
+          if (res.newlyWarned && typeof window.sendTrackingReport === 'function') {
+            window.sendTrackingReport(`[NHẮC BỎ CHUỖI ${this.warningCount}/${this.maxWarnings} - CB210] ${name} - ${res.warningReason || 'Bỏ lỡ ngày viết bài'}`);
+          }
+        }
         return { allowed: true, data: res };
       }
 
@@ -551,6 +585,7 @@
           <span class="cb210-lock-chip">📅 Lần nộp gần nhất: ${esc(lastDate)}</span>
           <span class="cb210-lock-chip">🔥 Chuỗi cũ: ${Number(data && data.streakCount || 0)} ngày</span>
           <span class="cb210-lock-chip">✍️ Yêu cầu: ≥ ${minWords} từ/ngày</span>
+          ${(data && Number(data.warningCount || 0) > 0) ? `<span class="cb210-lock-chip">⚠️ Đã nhắc nhở: ${Number(data.warningCount)}/${Number(data.maxWarnings || 2)} lần</span>` : ''}
         </div>
         <input type="text" id="cb210-unlock-note" class="cb210-unlock-note-input" placeholder="Nhập lý do gửi cô Nguyệt xin mở khóa (VD: Em bị ốm hôm qua, hôm nay em sẽ viết bù...)" value="${esc(data && data.unlockRequestNote || '')}">
         <button type="button" class="btn-cb210-request" id="btn-cb210-req-unlock" ${alreadyRequested ? 'disabled' : ''}>
@@ -598,12 +633,64 @@
       if (box) box.style.display = 'none';
     },
 
+    showStreakWarningModal(name, data) {
+      this.ensureDomElements();
+      const overlay = document.getElementById('cb210-warning-overlay');
+      const card = document.getElementById('cb210-warning-card');
+      if (!overlay || !card) return;
+
+      const warnCnt = Number(data && data.warningCount || this.warningCount || 1);
+      const maxWarn = Number(data && data.maxWarnings || this.maxWarnings || 2);
+      const isFinal = warnCnt >= maxWarn;
+      const remaining = Math.max(0, maxWarn - warnCnt);
+      const minWords = (data && data.config && data.config.MinWords) || this.cachedConfig.MinWords || 200;
+      const lastDate = (data && data.lastEssayDate) ? data.lastEssayDate : 'Chưa nộp bài nào';
+      const daysMissed = Number(data && data.daysMissed || 1);
+
+      card.className = 'cb210-warning-card' + (isFinal ? ' is-final' : '');
+      card.innerHTML = `
+        <div class="cb210-warn-badge ${isFinal ? 'is-final' : ''}">
+          ${isFinal ? `🚨 CẢNH BÁO LẦN CUỐI (${warnCnt}/${maxWarn})` : `⚠️ NHẮC NHỞ BỎ CHUỖI (LẦN ${warnCnt}/${maxWarn})`}
+        </div>
+        <h3 class="cb210-warn-title">
+          ${isFinal ? 'Đừng bỏ chuỗi thêm lần nào nữa nhé!' : 'Bạn vừa bỏ lỡ chuỗi viết luận hằng ngày!'}
+        </h3>
+        <div class="cb210-warn-desc">
+          Chào <strong>${esc(name)}</strong>, hệ thống ghi nhận bạn đã bỏ lỡ chỉ tiêu viết luận của lớp <strong>CB210</strong>.
+          ${isFinal
+            ? `<div class="cb210-warn-alert-box is-final">⚠️ <strong>Đây là lần nhắc nhở cuối cùng (${warnCnt}/${maxWarn})!</strong> Nếu bạn tiếp tục bỏ chuỗi thêm <strong>1 lần nữa</strong>, tài khoản lớp CB210 sẽ <strong>TỰ ĐỘNG BỊ KHÓA</strong> và phải xin cô Nguyệt mở lại.</div>`
+            : `<div class="cb210-warn-alert-box">Hệ thống cho phép nhắc nhở tối đa <strong>${maxWarn} lần</strong> (bạn còn <strong>${remaining} lần nhắc</strong>). Nếu vẫn tiếp tục bỏ chuỗi sau ${maxWarn} lần nhắc nhở, tài khoản sẽ <strong>tự động bị khóa</strong>!</div>`
+          }
+        </div>
+        <div class="cb210-warn-meta">
+          <span class="cb210-warn-chip">📅 Lần nộp gần nhất: ${esc(lastDate)}</span>
+          ${daysMissed > 0 ? `<span class="cb210-warn-chip">⏳ Bỏ lỡ: ${daysMissed} ngày</span>` : ''}
+          <span class="cb210-warn-chip">✍️ Hôm nay: ≥ ${minWords} từ</span>
+        </div>
+        <button type="button" class="btn-cb210-warn-ok ${isFinal ? 'is-final' : ''}" id="btn-cb210-warn-ack">
+          ✍️ TÔI ĐÃ HIỂU & BẮT ĐẦU VIẾT BÀI NGAY
+        </button>
+      `;
+
+      overlay.classList.add('open');
+      const okBtn = document.getElementById('btn-cb210-warn-ack');
+      if (okBtn) {
+        okBtn.onclick = () => overlay.classList.remove('open');
+      }
+    },
+
     renderSidebarPill() {
       this.ensureDomElements();
       const pill = document.getElementById('cb210-sidebar-pill');
       if (!pill) return;
 
       const minWords = this.cachedConfig.MinWords || 250;
+      const warnCnt = Number(this.warningCount || 0);
+      const maxWarn = Number(this.maxWarnings || this.cachedConfig.MaxWarningsBeforeLock || 2);
+      const warnLine = warnCnt > 0
+        ? `<div class="cb210-pill-warn ${warnCnt >= maxWarn ? 'is-final' : ''}">${warnCnt >= maxWarn ? `🚨 Cảnh báo cuối: ${warnCnt}/${maxWarn} — Bỏ nữa sẽ KHÓA!` : `⚠️ Nhắc bỏ chuỗi: ${warnCnt}/${maxWarn} lần`}</div>`
+        : '';
+
       if (this.todayDone) {
         pill.className = 'cb210-sidebar-pill is-done';
         pill.innerHTML = `
@@ -612,16 +699,20 @@
             <span>🔥 ${this.streakCount}d</span>
           </div>
           <div class="cb210-pill-sub">Xuất sắc! Tài khoản CB210 được giữ mở cho ngày mai.</div>
+          ${warnLine}
         `;
       } else {
-        pill.className = 'cb210-sidebar-pill';
-        const graceText = this.hasGraceToday ? 'Cô vừa mở ân hạn hôm nay! ' : '';
+        pill.className = 'cb210-sidebar-pill' + (warnCnt >= maxWarn && maxWarn > 0 ? ' is-danger' : '');
+        const ruleHint = (warnCnt >= maxWarn && maxWarn > 0)
+          ? `Nộp 1 bài (≥ ${minWords} từ) trước 23:59 kẻo BỊ KHÓA ngày mai!`
+          : `Nộp 1 bài (≥ ${minWords} từ) trước 23:59 để giữ chuỗi (nhắc tối đa ${maxWarn} lần).`;
         pill.innerHTML = `
           <div class="cb210-pill-top">
             <span>✍️ Chỉ tiêu CB210: 0/1 bài</span>
             <span>🔥 ${this.streakCount}d</span>
           </div>
-          <div class="cb210-pill-sub">${graceText}Nộp 1 bài hoàn chỉnh (≥ ${minWords} từ) trước 23:59 để không bị khoá ngày mai!</div>
+          <div class="cb210-pill-sub">${ruleHint}</div>
+          ${warnLine}
         `;
       }
       pill.style.display = 'block';
@@ -728,10 +819,12 @@
       const enabledEl = document.getElementById('cb210-cfg-enabled');
       const startEl = document.getElementById('cb210-cfg-startdate');
       const sundayEl = document.getElementById('cb210-cfg-sunday');
+      const maxWarnEl = document.getElementById('cb210-cfg-maxwarn');
       const minWordsEl = document.getElementById('cb210-cfg-minwords');
       if (enabledEl) enabledEl.value = this.cachedConfig.SystemEnabled ? 'true' : 'false';
       if (startEl && this.cachedConfig.StartDate) startEl.value = this.cachedConfig.StartDate;
       if (sundayEl) sundayEl.value = this.cachedConfig.StreakMode || 'STRICT_DAILY';
+      if (maxWarnEl) maxWarnEl.value = String(typeof this.cachedConfig.MaxWarningsBeforeLock === 'number' ? this.cachedConfig.MaxWarningsBeforeLock : 2);
       if (minWordsEl) minWordsEl.value = String(this.cachedConfig.MinWords || 250);
 
       // Update KPI stats
@@ -776,11 +869,15 @@
         const isLocked = Boolean(st.effectiveLocked);
         const rowCls = isLocked ? 'is-locked' : (st.todayDone ? 'is-done' : '');
 
+        const stWarn = Number(st.warningCount || 0);
+        const stMaxWarn = (typeof st.maxWarnings === 'number') ? st.maxWarnings : (typeof this.cachedConfig.MaxWarningsBeforeLock === 'number' ? this.cachedConfig.MaxWarningsBeforeLock : 2);
         let statusTag = '';
         if (st.status === 'LOCKED' && !st.hasGraceToday) {
           statusTag = `<span class="cb210-pill-tag cb210-tag-locked">🔒 ĐANG BỊ KHÓA</span>`;
         } else if (st.willBeLockedOnNextLogin) {
-          statusTag = `<span class="cb210-pill-tag cb210-tag-locked">⚠️ SẮP KHÓA (Bỏ ${st.daysMissed} ngày)</span>`;
+          statusTag = `<span class="cb210-pill-tag cb210-tag-locked">🔒 SẮP KHÓA (Hết ${stMaxWarn} lần nhắc)</span>`;
+        } else if (st.willWarnOnNextLogin) {
+          statusTag = `<span class="cb210-pill-tag cb210-tag-warn">⚠️ Sắp nhắc lần ${stWarn + 1}/${stMaxWarn} (Bỏ ${st.daysMissed} ngày)</span>`;
         } else if (st.todayDone) {
           statusTag = `<span class="cb210-pill-tag cb210-tag-done">✅ Đã viết hôm nay (${Math.max(1, st.essaysToday)} bài)</span>`;
         } else if (st.hasGraceToday) {
@@ -790,6 +887,9 @@
         }
 
         const reqTag = st.unlockRequested ? `<span class="cb210-pill-tag cb210-tag-req">📩 XIN MỞ KHÓA</span>` : '';
+        const warnTag = stWarn > 0
+          ? `<span class="cb210-pill-tag ${stWarn >= stMaxWarn ? 'cb210-tag-locked' : 'cb210-tag-warn'}">${stWarn >= stMaxWarn ? `🚨 Nhắc ${stWarn}/${stMaxWarn} (Cuối)` : `⚠️ Nhắc ${stWarn}/${stMaxWarn}`}</span>`
+          : '';
         const streakTag = `<span class="cb210-pill-tag cb210-tag-streak">🔥 Chuỗi: ${st.streakCount}d • Tổng: ${st.totalEssays} bài</span>`;
 
         const lastInfo = st.lastEssayInfo
@@ -808,6 +908,7 @@
           `
           : `
             ${!st.todayDone ? `<button type="button" class="btn-cb210-act btn-cb210-excuse" data-act="excuse" data-key="${kEsc}" title="Đánh dấu miễn chỉ tiêu hôm nay (xin phép nghỉ)">✅ Miễn hôm nay</button>` : ''}
+            ${stWarn > 0 ? `<button type="button" class="btn-cb210-act btn-cb210-resetwarn" data-act="resetWarn" data-key="${kEsc}" title="Đưa số lần nhắc nhở bỏ chuỗi về 0">🔄 Xóa nhắc</button>` : ''}
             <button type="button" class="btn-cb210-act btn-cb210-lock" data-act="lock" data-key="${kEsc}">🔒 Khóa tay</button>
           `;
 
@@ -817,6 +918,7 @@
               <div class="cb210-st-name-line">
                 <span class="cb210-st-name">${esc(st.fullName)}</span>
                 ${statusTag}
+                ${warnTag}
                 ${reqTag}
                 ${streakTag}
               </div>
@@ -858,6 +960,12 @@
           adminKey: TEACHER_ADMIN_KEY,
           studentKey: key,
           note: note
+        });
+      } else if (act === 'resetWarn') {
+        res = await callApi({
+          action: 'resetWarnings',
+          adminKey: TEACHER_ADMIN_KEY,
+          studentKey: key
         });
       } else if (act === 'lock') {
         const reason = prompt('Nhập lý do khóa học viên này:', 'Chưa hoàn thành bài viết luận hằng ngày theo yêu cầu');

@@ -582,3 +582,175 @@
 .btn-cb210-excuse { background: #f59e0b; color: #ffffff; }
 .btn-cb210-lock { background: #ef4444; color: #ffffff; }
 .btn-cb210-refresh { background: #4f46e5; color: #ffffff; }
+
+/* ==========================================================================
+   CB210 STREAK WARNING MODAL (NHẮC NHỞ BỎ CHUỖI 1/2 & 2/2)
+   ========================================================================== */
+.cb210-warning-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10050;
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.cb210-warning-overlay.open {
+  display: flex;
+}
+
+.cb210-warning-card {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 20px;
+  padding: 24px 24px 22px;
+  border: 2px solid #f59e0b;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+  text-align: center;
+}
+
+.cb210-warning-card.is-final {
+  border-color: #ef4444;
+  background: linear-gradient(180deg, #fff5f5 0%, #ffffff 35%);
+}
+
+.cb210-warn-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fcd34d;
+  margin-bottom: 12px;
+}
+
+.cb210-warn-badge.is-final {
+  background: #fee2e2;
+  color: #dc2626;
+  border-color: #fca5a5;
+}
+
+.cb210-warn-title {
+  margin: 0 0 10px 0;
+  font-size: 1.18rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.cb210-warning-card.is-final .cb210-warn-title {
+  color: #b91c1c;
+}
+
+.cb210-warn-desc {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #334155;
+  margin-bottom: 14px;
+}
+
+.cb210-warn-alert-box {
+  margin-top: 10px;
+  padding: 11px 13px;
+  border-radius: 12px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  font-size: 0.84rem;
+  text-align: left;
+}
+
+.cb210-warn-alert-box.is-final {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+
+.cb210-warn-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+
+.cb210-warn-chip {
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+}
+
+.btn-cb210-warn-ok {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(217, 119, 6, 0.3);
+  transition: transform 0.16s ease, filter 0.16s ease;
+}
+
+.btn-cb210-warn-ok.is-final {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.32);
+}
+
+.btn-cb210-warn-ok:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+.cb210-pill-warn {
+  margin-top: 6px;
+  padding: 4px 8px;
+  border-radius: 7px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  background: rgba(245, 158, 11, 0.16);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.32);
+}
+
+.cb210-pill-warn.is-final {
+  background: rgba(239, 68, 68, 0.15);
+  color: #dc2626;
+  border-color: rgba(239, 68, 68, 0.35);
+}
+
+.cb210-sidebar-pill.is-danger {
+  border-color: rgba(239, 68, 68, 0.45) !important;
+}
+
+.cb210-tag-warn {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fcd34d;
+}
+
+.btn-cb210-resetwarn {
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #7dd3fc;
+}
+
+.btn-cb210-resetwarn:hover {
+  background: #bae6fd;
+}
