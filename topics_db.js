@@ -181411,6 +181411,2919 @@ const ESSAY_DATA = [
         },
         "context_vi": "Trong những năm gần đây, làm việc trong các tòa nhà văn phòng bằng kính hiện đại đã trở nên ngày càng phổ biến ở nhiều đô thị. Tuy nhiên, môi trường làm việc này có thể gây ra một số tác động tiêu cực đối với người lao động và môi trường tự nhiên, chẳng hạn như tiêu thụ lượng lớn điện năng, gây ô nhiễm ánh sáng và làm gia tăng mức độ căng thẳng của nhân viên văn phòng.",
         "prompt_vi": "Hãy viết một bài luận thảo luận về các tác động của việc làm việc trong các tòa nhà văn phòng bọc kính hiện đại. Đưa ra các lý do cho câu trả lời của bạn và kèm theo các ví dụ liên quan từ kiến thức hoặc trải nghiệm của chính bạn. Bạn nên viết ít nhất 250 từ. Bài làm của bạn sẽ được đánh giá dựa trên các tiêu chí: Hoàn thành nhiệm vụ, Tổ chức bài viết, Từ vựng và Ngữ pháp."
+      },
+      {
+        "id": 53,
+        "title_en": "Internet addiction / Excessive use of the Internet",
+        "title_vi": "Nghiện Internet / Sử dụng Internet quá mức",
+        "tags": "[Effects & Solutions]",
+        "context": "In recent years, the Internet has become an indispensable part of modern life, helping people communicate, study, work, and entertain themselves more conveniently. However, an increasing number of people—especially young individuals—spend excessive amounts of time online every day. This excessive use of the Internet has caused significant problems for both individuals and society as a whole.",
+        "context_vi": "Trong những năm gần đây, Internet đã trở thành một phần không thể thiếu của cuộc sống hiện đại, giúp con người giao tiếp, học tập, làm việc và giải trí thuận tiện hơn. Tuy nhiên, ngày càng có nhiều người—đặc biệt là giới trẻ—dành quá nhiều thời gian trực tuyến mỗi ngày. Việc sử dụng Internet quá mức này đã gây ra những vấn đề nghiêm trọng đối với cả cá nhân và toàn xã hội.",
+        "prompt": "Write an essay to an educated reader to discuss the negative impacts of Internet overuse and suggest effective solutions to address this issue. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những tác động tiêu cực của việc sử dụng Internet quá mức (nghiện Internet) và đề xuất các giải pháp hiệu quả để giải quyết vấn đề này. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "excessive use of the Internet",
+            "vi": "việc sử dụng Internet quá mức"
+          },
+          {
+            "en": "Internet addiction / Internet overuse",
+            "vi": "chứng nghiện Internet / lạm dụng Internet"
+          },
+          {
+            "en": "spending excessive amounts of time online",
+            "vi": "dành quá nhiều thời gian trực tuyến"
+          },
+          {
+            "en": "over-reliance on digital platforms and screens",
+            "vi": "sự phụ thuộc quá mức vào các nền tảng số và màn hình"
+          },
+          {
+            "en": "uncontrolled Internet consumption",
+            "vi": "việc tiêu thụ Internet thiếu kiểm soát"
+          },
+          {
+            "en": "compulsive online habits",
+            "vi": "những thói quen trực tuyến mang tính cưỡng bức / khó kiểm soát"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: GÂY HẠI CHO SỨC KHỎE THỂ CHẤT VÀ TINH THẦN",
+                "point_vi": "Sử dụng Internet quá nhiều có thể gây ra nhiều vấn đề cho sức khỏe thể chất và tinh thần.",
+                "point_en": "Spending too much time on the Internet can harm both physical and mental health.",
+                "point_collocations": [
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  },
+                  {
+                    "en": "spend too much time",
+                    "vi": "dành quá nhiều thời gian"
+                  }
+                ],
+                "evidence_vi": "Ngồi trước màn hình nhiều giờ dễ gây mỏi mắt, đau lưng, thiếu ngủ và cảm giác căng thẳng kéo dài.",
+                "evidence_en": "Sitting in front of screens for long hours often causes eye strain, back pain, poor sleep, and ongoing stress.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "eye strain",
+                      "vi": "mỏi mắt"
+                    },
+                    {
+                      "en": "poor sleep",
+                      "vi": "giấc ngủ kém"
+                    },
+                    {
+                      "en": "ongoing stress",
+                      "vi": "căng thẳng kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  },
+                  {
+                    "en": "spend too much time",
+                    "vi": "dành quá nhiều thời gian"
+                  },
+                  {
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
+                  },
+                  {
+                    "en": "poor sleep",
+                    "vi": "giấc ngủ kém"
+                  },
+                  {
+                    "en": "ongoing stress",
+                    "vi": "căng thẳng kéo dài"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: LÀM GIẢM KẾT QUẢ HỌC TẬP VÀ HIỆU SUẤT LÀM VIỆC",
+                "point_vi": "Nghiện Internet khiến nhiều học sinh và người đi làm khó tập trung vào việc học tập và công việc.",
+                "point_en": "Internet addiction makes it difficult for many students and workers to focus on studying and working.",
+                "point_collocations": [
+                  {
+                    "en": "Internet addiction",
+                    "vi": "chứng nghiện Internet"
+                  },
+                  {
+                    "en": "focus on studying",
+                    "vi": "tập trung vào việc học"
+                  }
+                ],
+                "evidence_vi": "Họ thường xuyên bị xao nhãng bởi mạng xã hội, trò chơi và video ngắn nên dễ trì hoãn nhiệm vụ quan trọng.",
+                "evidence_en": "They are constantly distracted by social media, games, and short videos, so they often delay important tasks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "constantly distracted",
+                      "vi": "liên tục bị xao nhãng"
+                    },
+                    {
+                      "en": "short videos",
+                      "vi": "video ngắn"
+                    },
+                    {
+                      "en": "delay important tasks",
+                      "vi": "trì hoãn nhiệm vụ quan trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "Internet addiction",
+                    "vi": "chứng nghiện Internet"
+                  },
+                  {
+                    "en": "focus on studying",
+                    "vi": "tập trung vào việc học"
+                  },
+                  {
+                    "en": "constantly distracted",
+                    "vi": "liên tục bị xao nhãng"
+                  },
+                  {
+                    "en": "short videos",
+                    "vi": "video ngắn"
+                  },
+                  {
+                    "en": "delay important tasks",
+                    "vi": "trì hoãn nhiệm vụ quan trọng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM SUY YẾU CÁC MỐI QUAN HỆ GIA ĐÌNH VÀ XÃ HỘI",
+                "point_vi": "Dành quá nhiều thời gian trực tuyến làm giảm sự gắn kết với gia đình và bạn bè ngoài đời thực.",
+                "point_en": "Spending excessive time online weakens real-life relationships with family and friends.",
+                "point_collocations": [
+                  {
+                    "en": "excessive time online",
+                    "vi": "thời gian trực tuyến quá mức"
+                  },
+                  {
+                    "en": "real-life relationships",
+                    "vi": "các mối quan hệ ngoài đời thực"
+                  }
+                ],
+                "evidence_vi": "Nhiều người thích nhìn vào điện thoại hơn là trò chuyện trực tiếp, khiến không khí gia đình trở nên xa cách và cô đơn hơn.",
+                "evidence_en": "Many people prefer looking at their phones rather than talking face to face, making family life feel distant and lonely.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "talk face to face",
+                      "vi": "trò chuyện trực tiếp"
+                    },
+                    {
+                      "en": "distant and lonely",
+                      "vi": "xa cách và cô đơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "excessive time online",
+                    "vi": "thời gian trực tuyến quá mức"
+                  },
+                  {
+                    "en": "real-life relationships",
+                    "vi": "các mối quan hệ ngoài đời thực"
+                  },
+                  {
+                    "en": "talk face to face",
+                    "vi": "trò chuyện trực tiếp"
+                  },
+                  {
+                    "en": "distant and lonely",
+                    "vi": "xa cách và cô đơn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: TĂNG NGUY CƠ TIẾP XÚC VỚI NỘI DUNG ĐỘC HẠI VÀ LỪA ĐẢO",
+                "point_vi": "Sử dụng Internet thiếu kiểm soát khiến người dùng dễ gặp tin giả, nội dung xấu và lừa đảo trực tuyến.",
+                "point_en": "Uncontrolled Internet use exposes users to fake news, harmful content, and online scams.",
+                "point_collocations": [
+                  {
+                    "en": "fake news",
+                    "vi": "tin giả"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt là trẻ em và người thiếu kinh nghiệm có thể dễ dàng bị kẻ xấu đánh cắp thông tin cá nhân hoặc lừa lấy tiền.",
+                "evidence_en": "Children and inexperienced users in particular can easily have their personal information stolen or lose money to scammers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "personal information stolen",
+                      "vi": "bị đánh cắp thông tin cá nhân"
+                    },
+                    {
+                      "en": "lose money to scammers",
+                      "vi": "mất tiền vì kẻ lừa đảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fake news",
+                    "vi": "tin giả"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  },
+                  {
+                    "en": "personal information stolen",
+                    "vi": "bị đánh cắp thông tin cá nhân"
+                  },
+                  {
+                    "en": "lose money to scammers",
+                    "vi": "mất tiền vì kẻ lừa đảo"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÃNG PHÍ THỜI GIAN VÀ TẠO LỐI SỐNG THỤ ĐỘNG",
+                "point_vi": "Thói quen lên mạng quá mức gây lãng phí thời gian quý báu và tạo ra lối sống lười vận động.",
+                "point_en": "Overusing the Internet wastes valuable time and encourages a passive, inactive lifestyle.",
+                "point_collocations": [
+                  {
+                    "en": "waste valuable time",
+                    "vi": "lãng phí thời gian quý báu"
+                  },
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống lười vận động"
+                  }
+                ],
+                "evidence_vi": "Thay vì đọc sách, chơi thể thao hay học kỹ năng mới, nhiều người dành cả ngày rảnh rỗi chỉ để lướt mạng một cách vô mục đích.",
+                "evidence_en": "Instead of reading books, playing sports, or learning new skills, many people spend their whole free time scrolling online aimlessly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "play sports",
+                      "vi": "chơi thể thao"
+                    },
+                    {
+                      "en": "scroll online aimlessly",
+                      "vi": "lướt mạng một cách vô mục đích"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "waste valuable time",
+                    "vi": "lãng phí thời gian quý báu"
+                  },
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống lười vận động"
+                  },
+                  {
+                    "en": "play sports",
+                    "vi": "chơi thể thao"
+                  },
+                  {
+                    "en": "scroll online aimlessly",
+                    "vi": "lướt mạng một cách vô mục đích"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: TỰ ĐẶT GIỚI HẠN THỜI GIAN SỬ DỤNG INTERNET",
+                "point_vi": "Mỗi cá nhân nên tự đặt giới hạn thời gian lên mạng rõ ràng mỗi ngày.",
+                "point_en": "Individuals should set clear daily time limits for using the Internet.",
+                "point_collocations": [
+                  {
+                    "en": "set daily time limits",
+                    "vi": "đặt giới hạn thời gian hằng ngày"
+                  }
+                ],
+                "evidence_vi": "Mọi người có thể dùng ứng dụng theo dõi thời gian màn hình và tắt điện thoại ít nhất một giờ trước khi đi ngủ.",
+                "evidence_en": "People can use screen-time tracking apps and turn off their phones at least one hour before bedtime.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "screen-time tracking apps",
+                      "vi": "ứng dụng theo dõi thời gian màn hình"
+                    },
+                    {
+                      "en": "before bedtime",
+                      "vi": "trước giờ đi ngủ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "set daily time limits",
+                    "vi": "đặt giới hạn thời gian hằng ngày"
+                  },
+                  {
+                    "en": "screen-time tracking apps",
+                    "vi": "ứng dụng theo dõi thời gian màn hình"
+                  },
+                  {
+                    "en": "before bedtime",
+                    "vi": "trước giờ đi ngủ"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: KHUYẾN KHÍCH CÁC HOẠT ĐỘNG NGOÀI TRỜI VÀ SỞ THÍCH LÀNH MẠNH",
+                "point_vi": "Mọi người nên tham gia nhiều hơn vào các hoạt động thể thao và sở thích ngoài đời thực.",
+                "point_en": "People should take part more actively in outdoor activities and healthy offline hobbies.",
+                "point_collocations": [
+                  {
+                    "en": "outdoor activities",
+                    "vi": "hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "offline hobbies",
+                    "vi": "sở thích ngoài đời thực"
+                  }
+                ],
+                "evidence_vi": "Chơi thể thao, đọc sách, nấu ăn hoặc gặp gỡ bạn bè giúp người dùng giảm sự phụ thuộc vào màn hình và sống vui khỏe hơn.",
+                "evidence_en": "Playing sports, reading, cooking, or meeting friends helps users rely less on screens and live healthier, happier lives.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rely less on screens",
+                      "vi": "giảm phụ thuộc vào màn hình"
+                    },
+                    {
+                      "en": "meet friends",
+                      "vi": "gặp gỡ bạn bè"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "outdoor activities",
+                    "vi": "hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "offline hobbies",
+                    "vi": "sở thích ngoài đời thực"
+                  },
+                  {
+                    "en": "rely less on screens",
+                    "vi": "giảm phụ thuộc vào màn hình"
+                  },
+                  {
+                    "en": "meet friends",
+                    "vi": "gặp gỡ bạn bè"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: TĂNG CƯỜNG SỰ ĐỊNH HƯỚNG VÀ QUẢN LÝ TỪ GIA ĐÌNH",
+                "point_vi": "Cha mẹ nên làm gương tốt và xây dựng quy tắc sử dụng Internet hợp lý trong gia đình.",
+                "point_en": "Parents should set a good example and create reasonable Internet rules at home.",
+                "point_collocations": [
+                  {
+                    "en": "set a good example",
+                    "vi": "làm gương tốt"
+                  },
+                  {
+                    "en": "reasonable Internet rules",
+                    "vi": "quy tắc dùng Internet hợp lý"
+                  }
+                ],
+                "evidence_vi": "Gia đình có thể quy định không dùng điện thoại trong bữa ăn và dành cuối tuần để trò chuyện hoặc đi dã ngoại cùng nhau.",
+                "evidence_en": "Families can ban phones during meals and spend weekends talking or going on outings together.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "ban phones during meals",
+                      "vi": "không dùng điện thoại khi ăn"
+                    },
+                    {
+                      "en": "go on outings",
+                      "vi": "đi dã ngoại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "set a good example",
+                    "vi": "làm gương tốt"
+                  },
+                  {
+                    "en": "reasonable Internet rules",
+                    "vi": "quy tắc dùng Internet hợp lý"
+                  },
+                  {
+                    "en": "ban phones during meals",
+                    "vi": "không dùng điện thoại khi ăn"
+                  },
+                  {
+                    "en": "go on outings",
+                    "vi": "đi dã ngoại"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ĐẨY MẠNH GIÁO DỤC KỸ NĂNG SỐ TẠI NHÀ TRƯỜNG VÀ CỘNG ĐỒNG",
+                "point_vi": "Nhà trường và các cơ quan truyền thông cần nâng cao nhận thức về tác hại của nghiện Internet.",
+                "point_en": "Schools and media should raise public awareness about the dangers of Internet addiction.",
+                "point_collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "dangers of Internet addiction",
+                    "vi": "tác hại của nghiện Internet"
+                  }
+                ],
+                "evidence_vi": "Các buổi chuyên đề tại trường học giúp học sinh biết cách sử dụng mạng an toàn, có ích và tự kiểm soát thói quen trực tuyến.",
+                "evidence_en": "School workshops can teach students how to use the Internet safely, usefully, and control their online habits.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "school workshops",
+                      "vi": "buổi chuyên đề ở trường"
+                    },
+                    {
+                      "en": "control online habits",
+                      "vi": "kiểm soát thói quen trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "dangers of Internet addiction",
+                    "vi": "tác hại của nghiện Internet"
+                  },
+                  {
+                    "en": "school workshops",
+                    "vi": "buổi chuyên đề ở trường"
+                  },
+                  {
+                    "en": "control online habits",
+                    "vi": "kiểm soát thói quen trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: SỰ PHỐI HỢP TỪ CÁC CÔNG TY CÔNG NGHỆ VÀ CHÍNH PHỦ",
+                "point_vi": "Các công ty công nghệ và chính phủ nên cung cấp công cụ kiểm soát thời gian và hỗ trợ người nghiện mạng.",
+                "point_en": "Tech companies and governments should provide time-control tools and support for heavy Internet users.",
+                "point_collocations": [
+                  {
+                    "en": "time-control tools",
+                    "vi": "công cụ kiểm soát thời gian"
+                  },
+                  {
+                    "en": "heavy Internet users",
+                    "vi": "người sử dụng Internet quá mức"
+                  }
+                ],
+                "evidence_vi": "Các ứng dụng nên có thông báo nhắc nghỉ ngơi, đồng thời chính phủ cần mở dịch vụ tư vấn tâm lý cho những trường hợp nghiện nặng.",
+                "evidence_en": "Apps can send break reminders, while governments should offer counseling services for people with serious addiction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "break reminders",
+                      "vi": "thông báo nhắc nghỉ ngơi"
+                    },
+                    {
+                      "en": "counseling services",
+                      "vi": "dịch vụ tư vấn tâm lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "time-control tools",
+                    "vi": "công cụ kiểm soát thời gian"
+                  },
+                  {
+                    "en": "heavy Internet users",
+                    "vi": "người sử dụng Internet quá mức"
+                  },
+                  {
+                    "en": "break reminders",
+                    "vi": "thông báo nhắc nghỉ ngơi"
+                  },
+                  {
+                    "en": "counseling services",
+                    "vi": "dịch vụ tư vấn tâm lý"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: GÂY HẠI CHO SỨC KHỎE THỂ CHẤT VÀ TINH THẦN",
+                "point_vi": "Sử dụng Internet quá nhiều có thể gây ra nhiều vấn đề cho sức khỏe thể chất và tinh thần.",
+                "point_en": "Spending too much time on the Internet can harm both physical and mental health.",
+                "point_collocations": [
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  },
+                  {
+                    "en": "spend too much time",
+                    "vi": "dành quá nhiều thời gian"
+                  }
+                ],
+                "evidence_vi": "Ngồi trước màn hình nhiều giờ dễ gây mỏi mắt, đau lưng, thiếu ngủ và cảm giác căng thẳng kéo dài.",
+                "evidence_en": "Sitting in front of screens for long hours often causes eye strain, back pain, poor sleep, and ongoing stress.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "eye strain",
+                      "vi": "mỏi mắt"
+                    },
+                    {
+                      "en": "poor sleep",
+                      "vi": "giấc ngủ kém"
+                    },
+                    {
+                      "en": "ongoing stress",
+                      "vi": "căng thẳng kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  },
+                  {
+                    "en": "spend too much time",
+                    "vi": "dành quá nhiều thời gian"
+                  },
+                  {
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
+                  },
+                  {
+                    "en": "poor sleep",
+                    "vi": "giấc ngủ kém"
+                  },
+                  {
+                    "en": "ongoing stress",
+                    "vi": "căng thẳng kéo dài"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: LÀM GIẢM KẾT QUẢ HỌC TẬP VÀ HIỆU SUẤT LÀM VIỆC",
+                "point_vi": "Nghiện Internet khiến nhiều học sinh và người đi làm khó tập trung vào việc học tập và công việc.",
+                "point_en": "Internet addiction makes it difficult for many students and workers to focus on studying and working.",
+                "point_collocations": [
+                  {
+                    "en": "Internet addiction",
+                    "vi": "chứng nghiện Internet"
+                  },
+                  {
+                    "en": "focus on studying",
+                    "vi": "tập trung vào việc học"
+                  }
+                ],
+                "evidence_vi": "Họ thường xuyên bị xao nhãng bởi mạng xã hội, trò chơi và video ngắn nên dễ trì hoãn nhiệm vụ quan trọng.",
+                "evidence_en": "They are constantly distracted by social media, games, and short videos, so they often delay important tasks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "constantly distracted",
+                      "vi": "liên tục bị xao nhãng"
+                    },
+                    {
+                      "en": "short videos",
+                      "vi": "video ngắn"
+                    },
+                    {
+                      "en": "delay important tasks",
+                      "vi": "trì hoãn nhiệm vụ quan trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "Internet addiction",
+                    "vi": "chứng nghiện Internet"
+                  },
+                  {
+                    "en": "focus on studying",
+                    "vi": "tập trung vào việc học"
+                  },
+                  {
+                    "en": "constantly distracted",
+                    "vi": "liên tục bị xao nhãng"
+                  },
+                  {
+                    "en": "short videos",
+                    "vi": "video ngắn"
+                  },
+                  {
+                    "en": "delay important tasks",
+                    "vi": "trì hoãn nhiệm vụ quan trọng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM SUY YẾU CÁC MỐI QUAN HỆ GIA ĐÌNH VÀ XÃ HỘI",
+                "point_vi": "Dành quá nhiều thời gian trực tuyến làm giảm sự gắn kết với gia đình và bạn bè ngoài đời thực.",
+                "point_en": "Spending excessive time online weakens real-life relationships with family and friends.",
+                "point_collocations": [
+                  {
+                    "en": "excessive time online",
+                    "vi": "thời gian trực tuyến quá mức"
+                  },
+                  {
+                    "en": "real-life relationships",
+                    "vi": "các mối quan hệ ngoài đời thực"
+                  }
+                ],
+                "evidence_vi": "Nhiều người thích nhìn vào điện thoại hơn là trò chuyện trực tiếp, khiến không khí gia đình trở nên xa cách và cô đơn hơn.",
+                "evidence_en": "Many people prefer looking at their phones rather than talking face to face, making family life feel distant and lonely.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "talk face to face",
+                      "vi": "trò chuyện trực tiếp"
+                    },
+                    {
+                      "en": "distant and lonely",
+                      "vi": "xa cách và cô đơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "excessive time online",
+                    "vi": "thời gian trực tuyến quá mức"
+                  },
+                  {
+                    "en": "real-life relationships",
+                    "vi": "các mối quan hệ ngoài đời thực"
+                  },
+                  {
+                    "en": "talk face to face",
+                    "vi": "trò chuyện trực tiếp"
+                  },
+                  {
+                    "en": "distant and lonely",
+                    "vi": "xa cách và cô đơn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: TĂNG NGUY CƠ TIẾP XÚC VỚI NỘI DUNG ĐỘC HẠI VÀ LỪA ĐẢO",
+                "point_vi": "Sử dụng Internet thiếu kiểm soát khiến người dùng dễ gặp tin giả, nội dung xấu và lừa đảo trực tuyến.",
+                "point_en": "Uncontrolled Internet use exposes users to fake news, harmful content, and online scams.",
+                "point_collocations": [
+                  {
+                    "en": "fake news",
+                    "vi": "tin giả"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt là trẻ em và người thiếu kinh nghiệm có thể dễ dàng bị kẻ xấu đánh cắp thông tin cá nhân hoặc lừa lấy tiền.",
+                "evidence_en": "Children and inexperienced users in particular can easily have their personal information stolen or lose money to scammers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "personal information stolen",
+                      "vi": "bị đánh cắp thông tin cá nhân"
+                    },
+                    {
+                      "en": "lose money to scammers",
+                      "vi": "mất tiền vì kẻ lừa đảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fake news",
+                    "vi": "tin giả"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  },
+                  {
+                    "en": "personal information stolen",
+                    "vi": "bị đánh cắp thông tin cá nhân"
+                  },
+                  {
+                    "en": "lose money to scammers",
+                    "vi": "mất tiền vì kẻ lừa đảo"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÃNG PHÍ THỜI GIAN VÀ TẠO LỐI SỐNG THỤ ĐỘNG",
+                "point_vi": "Thói quen lên mạng quá mức gây lãng phí thời gian quý báu và tạo ra lối sống lười vận động.",
+                "point_en": "Overusing the Internet wastes valuable time and encourages a passive, inactive lifestyle.",
+                "point_collocations": [
+                  {
+                    "en": "waste valuable time",
+                    "vi": "lãng phí thời gian quý báu"
+                  },
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống lười vận động"
+                  }
+                ],
+                "evidence_vi": "Thay vì đọc sách, chơi thể thao hay học kỹ năng mới, nhiều người dành cả ngày rảnh rỗi chỉ để lướt mạng một cách vô mục đích.",
+                "evidence_en": "Instead of reading books, playing sports, or learning new skills, many people spend their whole free time scrolling online aimlessly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "play sports",
+                      "vi": "chơi thể thao"
+                    },
+                    {
+                      "en": "scroll online aimlessly",
+                      "vi": "lướt mạng một cách vô mục đích"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "waste valuable time",
+                    "vi": "lãng phí thời gian quý báu"
+                  },
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống lười vận động"
+                  },
+                  {
+                    "en": "play sports",
+                    "vi": "chơi thể thao"
+                  },
+                  {
+                    "en": "scroll online aimlessly",
+                    "vi": "lướt mạng một cách vô mục đích"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: TỰ ĐẶT GIỚI HẠN THỜI GIAN SỬ DỤNG INTERNET",
+                "point_vi": "Mỗi cá nhân nên tự đặt giới hạn thời gian lên mạng rõ ràng mỗi ngày.",
+                "point_en": "Individuals should set clear daily time limits for using the Internet.",
+                "point_collocations": [
+                  {
+                    "en": "set daily time limits",
+                    "vi": "đặt giới hạn thời gian hằng ngày"
+                  }
+                ],
+                "evidence_vi": "Mọi người có thể dùng ứng dụng theo dõi thời gian màn hình và tắt điện thoại ít nhất một giờ trước khi đi ngủ.",
+                "evidence_en": "People can use screen-time tracking apps and turn off their phones at least one hour before bedtime.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "screen-time tracking apps",
+                      "vi": "ứng dụng theo dõi thời gian màn hình"
+                    },
+                    {
+                      "en": "before bedtime",
+                      "vi": "trước giờ đi ngủ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "set daily time limits",
+                    "vi": "đặt giới hạn thời gian hằng ngày"
+                  },
+                  {
+                    "en": "screen-time tracking apps",
+                    "vi": "ứng dụng theo dõi thời gian màn hình"
+                  },
+                  {
+                    "en": "before bedtime",
+                    "vi": "trước giờ đi ngủ"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: KHUYẾN KHÍCH CÁC HOẠT ĐỘNG NGOÀI TRỜI VÀ SỞ THÍCH LÀNH MẠNH",
+                "point_vi": "Mọi người nên tham gia nhiều hơn vào các hoạt động thể thao và sở thích ngoài đời thực.",
+                "point_en": "People should take part more actively in outdoor activities and healthy offline hobbies.",
+                "point_collocations": [
+                  {
+                    "en": "outdoor activities",
+                    "vi": "hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "offline hobbies",
+                    "vi": "sở thích ngoài đời thực"
+                  }
+                ],
+                "evidence_vi": "Chơi thể thao, đọc sách, nấu ăn hoặc gặp gỡ bạn bè giúp người dùng giảm sự phụ thuộc vào màn hình và sống vui khỏe hơn.",
+                "evidence_en": "Playing sports, reading, cooking, or meeting friends helps users rely less on screens and live healthier, happier lives.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rely less on screens",
+                      "vi": "giảm phụ thuộc vào màn hình"
+                    },
+                    {
+                      "en": "meet friends",
+                      "vi": "gặp gỡ bạn bè"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "outdoor activities",
+                    "vi": "hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "offline hobbies",
+                    "vi": "sở thích ngoài đời thực"
+                  },
+                  {
+                    "en": "rely less on screens",
+                    "vi": "giảm phụ thuộc vào màn hình"
+                  },
+                  {
+                    "en": "meet friends",
+                    "vi": "gặp gỡ bạn bè"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: TĂNG CƯỜNG SỰ ĐỊNH HƯỚNG VÀ QUẢN LÝ TỪ GIA ĐÌNH",
+                "point_vi": "Cha mẹ nên làm gương tốt và xây dựng quy tắc sử dụng Internet hợp lý trong gia đình.",
+                "point_en": "Parents should set a good example and create reasonable Internet rules at home.",
+                "point_collocations": [
+                  {
+                    "en": "set a good example",
+                    "vi": "làm gương tốt"
+                  },
+                  {
+                    "en": "reasonable Internet rules",
+                    "vi": "quy tắc dùng Internet hợp lý"
+                  }
+                ],
+                "evidence_vi": "Gia đình có thể quy định không dùng điện thoại trong bữa ăn và dành cuối tuần để trò chuyện hoặc đi dã ngoại cùng nhau.",
+                "evidence_en": "Families can ban phones during meals and spend weekends talking or going on outings together.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "ban phones during meals",
+                      "vi": "không dùng điện thoại khi ăn"
+                    },
+                    {
+                      "en": "go on outings",
+                      "vi": "đi dã ngoại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "set a good example",
+                    "vi": "làm gương tốt"
+                  },
+                  {
+                    "en": "reasonable Internet rules",
+                    "vi": "quy tắc dùng Internet hợp lý"
+                  },
+                  {
+                    "en": "ban phones during meals",
+                    "vi": "không dùng điện thoại khi ăn"
+                  },
+                  {
+                    "en": "go on outings",
+                    "vi": "đi dã ngoại"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ĐẨY MẠNH GIÁO DỤC KỸ NĂNG SỐ TẠI NHÀ TRƯỜNG VÀ CỘNG ĐỒNG",
+                "point_vi": "Nhà trường và các cơ quan truyền thông cần nâng cao nhận thức về tác hại của nghiện Internet.",
+                "point_en": "Schools and media should raise public awareness about the dangers of Internet addiction.",
+                "point_collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "dangers of Internet addiction",
+                    "vi": "tác hại của nghiện Internet"
+                  }
+                ],
+                "evidence_vi": "Các buổi chuyên đề tại trường học giúp học sinh biết cách sử dụng mạng an toàn, có ích và tự kiểm soát thói quen trực tuyến.",
+                "evidence_en": "School workshops can teach students how to use the Internet safely, usefully, and control their online habits.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "school workshops",
+                      "vi": "buổi chuyên đề ở trường"
+                    },
+                    {
+                      "en": "control online habits",
+                      "vi": "kiểm soát thói quen trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "dangers of Internet addiction",
+                    "vi": "tác hại của nghiện Internet"
+                  },
+                  {
+                    "en": "school workshops",
+                    "vi": "buổi chuyên đề ở trường"
+                  },
+                  {
+                    "en": "control online habits",
+                    "vi": "kiểm soát thói quen trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: SỰ PHỐI HỢP TỪ CÁC CÔNG TY CÔNG NGHỆ VÀ CHÍNH PHỦ",
+                "point_vi": "Các công ty công nghệ và chính phủ nên cung cấp công cụ kiểm soát thời gian và hỗ trợ người nghiện mạng.",
+                "point_en": "Tech companies and governments should provide time-control tools and support for heavy Internet users.",
+                "point_collocations": [
+                  {
+                    "en": "time-control tools",
+                    "vi": "công cụ kiểm soát thời gian"
+                  },
+                  {
+                    "en": "heavy Internet users",
+                    "vi": "người sử dụng Internet quá mức"
+                  }
+                ],
+                "evidence_vi": "Các ứng dụng nên có thông báo nhắc nghỉ ngơi, đồng thời chính phủ cần mở dịch vụ tư vấn tâm lý cho những trường hợp nghiện nặng.",
+                "evidence_en": "Apps can send break reminders, while governments should offer counseling services for people with serious addiction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "break reminders",
+                      "vi": "thông báo nhắc nghỉ ngơi"
+                    },
+                    {
+                      "en": "counseling services",
+                      "vi": "dịch vụ tư vấn tâm lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "time-control tools",
+                    "vi": "công cụ kiểm soát thời gian"
+                  },
+                  {
+                    "en": "heavy Internet users",
+                    "vi": "người sử dụng Internet quá mức"
+                  },
+                  {
+                    "en": "break reminders",
+                    "vi": "thông báo nhắc nghỉ ngơi"
+                  },
+                  {
+                    "en": "counseling services",
+                    "vi": "dịch vụ tư vấn tâm lý"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: TỔN HẠI SỨC KHỎE THỂ CHẤT VÀ TINH THẦN (HARMING PHYSICAL AND MENTAL HEALTH)",
+                "point_vi": "Việc lạm dụng Internet kéo dài gây ra nhiều hệ lụy nghiêm trọng cho cả sức khỏe thể chất lẫn trạng thái tinh thần của người dùng.",
+                "point_en": "Prolonged Internet overuse inflicts serious harm on both users' physical health and psychological well-being.",
+                "point_collocations": [
+                  {
+                    "en": "prolonged Internet overuse",
+                    "vi": "lạm dụng Internet kéo dài"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý / tinh thần"
+                  }
+                ],
+                "evidence_vi": "Thói quen ngồi bất động nhiều giờ trước màn hình thường dẫn đến mỏi mắt kinh niên, đau cổ vai gáy, béo phì và rối loạn giấc ngủ do ánh sáng xanh. Bên cạnh đó, việc liên tục so sánh bản thân trên mạng xã hội hoặc phụ thuộc vào thông báo trực tuyến có thể làm gia tăng lo âu, căng thẳng và trầm cảm.",
+                "evidence_en": "Remaining sedentary before screens for extended periods frequently leads to chronic eye strain, posture problems, obesity, and sleep disorders caused by blue light. Furthermore, constant social comparison online and compulsive checking of notifications can intensify anxiety, chronic stress, and depression.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "remain sedentary",
+                      "vi": "ngồi thụ động ít vận động"
+                    },
+                    {
+                      "en": "sleep disorders",
+                      "vi": "rối loạn giấc ngủ"
+                    },
+                    {
+                      "en": "blue light",
+                      "vi": "ánh sáng xanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social comparison",
+                      "vi": "sự so sánh xã hội"
+                    },
+                    {
+                      "en": "compulsive checking",
+                      "vi": "thói quen kiểm tra cưỡng bức"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "prolonged Internet overuse",
+                    "vi": "lạm dụng Internet kéo dài"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý / tinh thần"
+                  },
+                  {
+                    "en": "remain sedentary",
+                    "vi": "ngồi thụ động ít vận động"
+                  },
+                  {
+                    "en": "sleep disorders",
+                    "vi": "rối loạn giấc ngủ"
+                  },
+                  {
+                    "en": "blue light",
+                    "vi": "ánh sáng xanh"
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "sự so sánh xã hội"
+                  },
+                  {
+                    "en": "compulsive checking",
+                    "vi": "thói quen kiểm tra cưỡng bức"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: SUY GIẢM KẾT QUẢ HỌC TẬP VÀ NĂNG SUẤT LAO ĐỘNG (REDUCING ACADEMIC AND WORK PRODUCTIVITY)",
+                "point_vi": "Tình trạng nghiện Internet làm suy giảm rõ rệt khả năng tập trung, thành tích học tập và hiệu suất lao động của nhiều cá nhân.",
+                "point_en": "Internet addiction significantly undermines concentration, academic achievement, and workplace productivity.",
+                "point_collocations": [
+                  {
+                    "en": "undermine concentration",
+                    "vi": "làm suy giảm sự tập trung"
+                  },
+                  {
+                    "en": "workplace productivity",
+                    "vi": "năng suất nơi làm việc"
+                  }
+                ],
+                "evidence_vi": "Những thông báo liên tục từ mạng xã hội, trò chơi trực tuyến và video ngắn dễ dàng phá vỡ mạch tư duy và khuyến khích thói quen trì hoãn. Hệ quả là nhiều học sinh bỏ bê bài vở dẫn đến điểm số sa sút, trong khi người đi làm chật vật hoàn thành công việc đúng hạn và giảm cơ hội thăng tiến.",
+                "evidence_en": "Constant alerts from social platforms, online games, and short-form videos easily fragment attention spans and fuel procrastination. As a consequence, students often neglect coursework and suffer declining grades, while employees struggle to meet deadlines and risk stagnating in their careers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fragment attention spans",
+                      "vi": "làm phân mảnh khả năng chú ý"
+                    },
+                    {
+                      "en": "fuel procrastination",
+                      "vi": "thúc đẩy thói quen trì hoãn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "declining grades",
+                      "vi": "điểm số sụt giảm"
+                    },
+                    {
+                      "en": "meet deadlines",
+                      "vi": "hoàn thành đúng hạn chót"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "undermine concentration",
+                    "vi": "làm suy giảm sự tập trung"
+                  },
+                  {
+                    "en": "workplace productivity",
+                    "vi": "năng suất nơi làm việc"
+                  },
+                  {
+                    "en": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng chú ý"
+                  },
+                  {
+                    "en": "fuel procrastination",
+                    "vi": "thúc đẩy thói quen trì hoãn"
+                  },
+                  {
+                    "en": "declining grades",
+                    "vi": "điểm số sụt giảm"
+                  },
+                  {
+                    "en": "meet deadlines",
+                    "vi": "hoàn thành đúng hạn chót"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: RẠN NỨT QUAN HỆ GIA ĐÌNH VÀ CÔ LẬP XÃ HỘI (WEAKENING REAL-LIFE RELATIONSHIPS)",
+                "point_vi": "Sự lệ thuộc quá mức vào thế giới ảo dần làm xói mòn các mối quan hệ ngoài đời thực và gia tăng tình trạng cô lập xã hội.",
+                "point_en": "Excessive dependence on the virtual world gradually erodes real-life relationships and intensifies social isolation.",
+                "point_collocations": [
+                  {
+                    "en": "virtual world",
+                    "vi": "thế giới ảo"
+                  },
+                  {
+                    "en": "erode real-life relationships",
+                    "vi": "làm xói mòn các mối quan hệ đời thực"
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội"
+                  }
+                ],
+                "evidence_vi": "Khi các thành viên trong gia đình mải mê nhìn màn hình riêng ngay cả trong bữa tối hay dịp sum họp, những cuộc trò chuyện chân thành trở nên ngày càng thưa thớt. Về lâu dài, việc ưu tiên tương tác qua tin nhắn thay vì gặp mặt trực tiếp còn làm mai một kỹ năng giao tiếp và khiến nhiều người cảm thấy cô đơn giữa cộng đồng.",
+                "evidence_en": "When family members stay absorbed in personal devices even during dinners or gatherings, meaningful face-to-face conversations become increasingly rare. Over time, substituting real-world interaction with digital messaging weakens interpersonal skills and leaves many individuals feeling emotionally isolated.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stay absorbed in",
+                      "vi": "mải mê đắm chìm vào"
+                    },
+                    {
+                      "en": "face-to-face conversations",
+                      "vi": "trò chuyện trực tiếp mặt đối mặt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "interpersonal skills",
+                      "vi": "kỹ năng giao tiếp giữa người với người"
+                    },
+                    {
+                      "en": "emotionally isolated",
+                      "vi": "cô lập về mặt cảm xúc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "virtual world",
+                    "vi": "thế giới ảo"
+                  },
+                  {
+                    "en": "erode real-life relationships",
+                    "vi": "làm xói mòn các mối quan hệ đời thực"
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội"
+                  },
+                  {
+                    "en": "stay absorbed in",
+                    "vi": "mải mê đắm chìm vào"
+                  },
+                  {
+                    "en": "face-to-face conversations",
+                    "vi": "trò chuyện trực tiếp mặt đối mặt"
+                  },
+                  {
+                    "en": "interpersonal skills",
+                    "vi": "kỹ năng giao tiếp giữa người với người"
+                  },
+                  {
+                    "en": "emotionally isolated",
+                    "vi": "cô lập về mặt cảm xúc"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GIA TĂNG RỦI RO AN NINH MẠNG VÀ NỘI DUNG ĐỘC HẠI (EXPOSURE TO ONLINE RISKS AND HARMFUL CONTENT)",
+                "point_vi": "Việc dành quá nhiều thời gian trực tuyến thiếu kiểm soát khiến người dùng đối mặt với nhiều rủi ro về thông tin sai lệch, bắt nạt mạng và lừa đảo.",
+                "point_en": "Unregulated heavy Internet usage exposes individuals to greater risks of misinformation, cyberbullying, and online fraud.",
+                "point_collocations": [
+                  {
+                    "en": "misinformation",
+                    "vi": "thông tin sai lệch"
+                  },
+                  {
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt trực tuyến"
+                  },
+                  {
+                    "en": "online fraud",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ],
+                "evidence_vi": "Thời lượng truy cập lớn làm tăng khả năng tiếp xúc với nội dung bạo lực, quảng cáo độc hại hoặc các đường link giả mạo được thiết kế tinh vi để đánh cắp dữ liệu cá nhân. Đối với thanh thiếu niên chưa đủ kỹ năng sàng lọc thông tin, những mối nguy này có thể gây tổn thương tâm lý nặng nề hoặc thiệt hại tài chính nghiêm trọng.",
+                "evidence_en": "Extended online exposure heightens the likelihood of encountering violent media, misleading news, or sophisticated phishing links designed to steal sensitive data. For impressionable youths who lack critical digital literacy, these hazards can inflict lasting emotional trauma or substantial financial losses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "phishing links",
+                      "vi": "đường dẫn giả mạo đánh cắp thông tin"
+                    },
+                    {
+                      "en": "sensitive data",
+                      "vi": "dữ liệu nhạy cảm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "critical digital literacy",
+                      "vi": "năng lực sàng lọc thông tin số"
+                    },
+                    {
+                      "en": "financial losses",
+                      "vi": "tổn thất tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "misinformation",
+                    "vi": "thông tin sai lệch"
+                  },
+                  {
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt trực tuyến"
+                  },
+                  {
+                    "en": "online fraud",
+                    "vi": "lừa đảo trực tuyến"
+                  },
+                  {
+                    "en": "phishing links",
+                    "vi": "đường dẫn giả mạo đánh cắp thông tin"
+                  },
+                  {
+                    "en": "sensitive data",
+                    "vi": "dữ liệu nhạy cảm"
+                  },
+                  {
+                    "en": "critical digital literacy",
+                    "vi": "năng lực sàng lọc thông tin số"
+                  },
+                  {
+                    "en": "financial losses",
+                    "vi": "tổn thất tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÃNG PHÍ THỜI GIAN VÀ LỐI SỐNG THỤ ĐỘNG (WASTING TIME AND FOSTERING PASSIVITY)",
+                "point_vi": "Thói quen sử dụng Internet không kiểm soát làm tiêu hao nguồn thời gian quý báu và hình thành lối sống thụ động, thiếu sáng tạo.",
+                "point_en": "Uncontrolled Internet consumption drains valuable time and fosters a passive, overly dependent lifestyle.",
+                "point_collocations": [
+                  {
+                    "en": "drain valuable time",
+                    "vi": "tiêu hao thời gian quý báu"
+                  },
+                  {
+                    "en": "passive lifestyle",
+                    "vi": "lối sống thụ động"
+                  }
+                ],
+                "evidence_vi": "Các thuật toán đề xuất nội dung liên tục giữ chân người dùng hàng giờ liền bằng chuỗi giải trí tức thời mà không mang lại giá trị phát triển bản thân rõ rệt. Thay vì rèn luyện kỹ năng thực tế, đọc sách chuyên sâu hay tham gia hoạt động cộng đồng, nhiều người trẻ trở nên phụ thuộc vào sự kích thích nhanh từ màn hình.",
+                "evidence_en": "Recommendation algorithms effortlessly trap users for hours in endless streams of instant entertainment that offer minimal personal growth. Instead of cultivating practical skills, reading deeply, or engaging in community life, many young people grow overly reliant on effortless digital stimulation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recommendation algorithms",
+                      "vi": "thuật toán đề xuất"
+                    },
+                    {
+                      "en": "instant entertainment",
+                      "vi": "giải trí tức thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "personal growth",
+                      "vi": "sự phát triển bản thân"
+                    },
+                    {
+                      "en": "digital stimulation",
+                      "vi": "sự kích thích từ thiết bị số"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "drain valuable time",
+                    "vi": "tiêu hao thời gian quý báu"
+                  },
+                  {
+                    "en": "passive lifestyle",
+                    "vi": "lối sống thụ động"
+                  },
+                  {
+                    "en": "recommendation algorithms",
+                    "vi": "thuật toán đề xuất"
+                  },
+                  {
+                    "en": "instant entertainment",
+                    "vi": "giải trí tức thời"
+                  },
+                  {
+                    "en": "personal growth",
+                    "vi": "sự phát triển bản thân"
+                  },
+                  {
+                    "en": "digital stimulation",
+                    "vi": "sự kích thích từ thiết bị số"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: RÈN LUYỆN KỶ LUẬT CÁ NHÂN VÀ GIỚI HẠN THỜI GIAN MÀN HÌNH (SETTING PERSONAL SCREEN-TIME LIMITS)",
+                "point_vi": "Mỗi cá nhân cần chủ động thiết lập kỷ luật sử dụng công nghệ và đặt giới hạn thời gian trực tuyến hợp lý mỗi ngày.",
+                "point_en": "Individuals should cultivate personal digital discipline by establishing strict daily limits on recreational screen time.",
+                "point_collocations": [
+                  {
+                    "en": "digital discipline",
+                    "vi": "kỷ luật sử dụng công nghệ số"
+                  },
+                  {
+                    "en": "recreational screen time",
+                    "vi": "thời gian xem màn hình giải trí"
+                  }
+                ],
+                "evidence_vi": "Người dùng có thể tận dụng các ứng dụng kiểm soát thời lượng truy cập, tắt thông báo không cần thiết và duy trì khung giờ không thiết bị điện tử trước khi ngủ. Việc thực hành những quy tắc tự giác này giúp khôi phục khả năng tập trung, cải thiện giấc ngủ và lấy lại quyền làm chủ thời gian.",
+                "evidence_en": "Users can activate built-in usage trackers, mute non-essential notifications, and maintain device-free hours before going to sleep. Practicing such deliberate self-regulation restores concentration, improves sleep quality, and helps individuals regain control over their daily schedules.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "usage trackers",
+                      "vi": "công cụ theo dõi thời lượng sử dụng"
+                    },
+                    {
+                      "en": "device-free hours",
+                      "vi": "khung giờ không thiết bị điện tử"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-regulation",
+                      "vi": "khả năng tự điều chỉnh"
+                    },
+                    {
+                      "en": "regain control",
+                      "vi": "lấy lại quyền kiểm soát"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital discipline",
+                    "vi": "kỷ luật sử dụng công nghệ số"
+                  },
+                  {
+                    "en": "recreational screen time",
+                    "vi": "thời gian xem màn hình giải trí"
+                  },
+                  {
+                    "en": "usage trackers",
+                    "vi": "công cụ theo dõi thời lượng sử dụng"
+                  },
+                  {
+                    "en": "device-free hours",
+                    "vi": "khung giờ không thiết bị điện tử"
+                  },
+                  {
+                    "en": "self-regulation",
+                    "vi": "khả năng tự điều chỉnh"
+                  },
+                  {
+                    "en": "regain control",
+                    "vi": "lấy lại quyền kiểm soát"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: PHÁT TRIỂN CÁC SỞ THÍCH VÀ HOẠT ĐỘNG NGOÀI ĐỜI THỰC (PROMOTING HEALTHY OFFLINE ACTIVITIES)",
+                "point_vi": "Khuyến khích tham gia các hoạt động thể chất, nghệ thuật và giao lưu trực tiếp là cách hiệu quả để thay thế thói quen lệ thuộc vào màn hình.",
+                "point_en": "Encouraging active participation in sports, creative hobbies, and face-to-face socializing offers an effective alternative to excessive screen use.",
+                "point_collocations": [
+                  {
+                    "en": "creative hobbies",
+                    "vi": "sở thích sáng tạo"
+                  },
+                  {
+                    "en": "effective alternative",
+                    "vi": "giải pháp thay thế hiệu quả"
+                  }
+                ],
+                "evidence_vi": "Các câu lạc bộ thể thao, hội sách, hoạt động thiện nguyện và sự kiện cộng đồng mang lại niềm vui chân thực cùng cảm giác gắn kết mà thế giới ảo khó lòng thay thế. Khi tìm thấy hứng thú từ những trải nghiệm đời thực giàu ý nghĩa, con người sẽ tự nhiên giảm nhu cầu tìm đến Internet để giải tỏa nhàm chán.",
+                "evidence_en": "Sports clubs, reading circles, volunteering, and local cultural events deliver genuine fulfillment and social connection that virtual platforms rarely match. Once people discover rewarding offline passions, they naturally feel far less urge to rely on the Internet to escape boredom.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "genuine fulfillment",
+                      "vi": "sự thỏa mãn chân thực"
+                    },
+                    {
+                      "en": "social connection",
+                      "vi": "sự kết nối xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rewarding offline passions",
+                      "vi": "đam mê ngoài đời thực bổ ích"
+                    },
+                    {
+                      "en": "escape boredom",
+                      "vi": "tránh sự nhàm chán"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "creative hobbies",
+                    "vi": "sở thích sáng tạo"
+                  },
+                  {
+                    "en": "effective alternative",
+                    "vi": "giải pháp thay thế hiệu quả"
+                  },
+                  {
+                    "en": "genuine fulfillment",
+                    "vi": "sự thỏa mãn chân thực"
+                  },
+                  {
+                    "en": "social connection",
+                    "vi": "sự kết nối xã hội"
+                  },
+                  {
+                    "en": "rewarding offline passions",
+                    "vi": "đam mê ngoài đời thực bổ ích"
+                  },
+                  {
+                    "en": "escape boredom",
+                    "vi": "tránh sự nhàm chán"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: TĂNG CƯỜNG VAI TRÒ LÀM GƯƠNG VÀ ĐỊNH HƯỚNG CỦA GIA ĐÌNH (STRENGTHENING PARENTAL GUIDANCE)",
+                "point_vi": "Gia đình giữ vai trò nòng cốt trong việc xây dựng quy tắc sử dụng Internet lành mạnh và làm gương về lối sống cân bằng cho trẻ em.",
+                "point_en": "Families play a vital role in establishing healthy household Internet rules and modeling balanced technology habits for children.",
+                "point_collocations": [
+                  {
+                    "en": "household Internet rules",
+                    "vi": "quy tắc dùng Internet trong gia đình"
+                  },
+                  {
+                    "en": "model balanced habits",
+                    "vi": "làm gương về thói quen cân bằng"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ có thể thiết lập các khu vực không điện thoại như bàn ăn hay phòng ngủ, đồng thời tổ chức những buổi trò chuyện và dã ngoại cuối tuần để gắn kết cả nhà. Khi phụ huynh hạn chế việc lướt điện thoại trước mặt con và tích cực đồng hành, trẻ sẽ dễ dàng hình thành thói quen sử dụng công nghệ văn minh hơn.",
+                "evidence_en": "Parents can designate tech-free zones such as dining tables and bedrooms while planning regular family conversations and weekend outings. When caregivers limit their own smartphone scrolling and engage actively with their children, youngsters are far more likely to adopt healthy digital habits.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "tech-free zones",
+                      "vi": "khu vực không thiết bị công nghệ"
+                    },
+                    {
+                      "en": "weekend outings",
+                      "vi": "chuyến dã ngoại cuối tuần"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "adopt healthy digital habits",
+                      "vi": "hình thành thói quen số lành mạnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "household Internet rules",
+                    "vi": "quy tắc dùng Internet trong gia đình"
+                  },
+                  {
+                    "en": "model balanced habits",
+                    "vi": "làm gương về thói quen cân bằng"
+                  },
+                  {
+                    "en": "tech-free zones",
+                    "vi": "khu vực không thiết bị công nghệ"
+                  },
+                  {
+                    "en": "weekend outings",
+                    "vi": "chuyến dã ngoại cuối tuần"
+                  },
+                  {
+                    "en": "adopt healthy digital habits",
+                    "vi": "hình thành thói quen số lành mạnh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ĐẨY MẠNH GIÁO DỤC NĂNG LỰC SỐ TẠI TRƯỜNG HỌC VÀ CỘNG ĐỒNG (EXPANDING DIGITAL LITERACY EDUCATION)",
+                "point_vi": "Nhà trường và các chiến dịch cộng đồng cần lồng ghép giáo dục kỹ năng số để nâng cao nhận thức về rủi ro của chứng nghiện Internet.",
+                "point_en": "Schools and public awareness campaigns should integrate digital literacy education to highlight the risks of Internet addiction.",
+                "point_collocations": [
+                  {
+                    "en": "digital literacy education",
+                    "vi": "giáo dục năng lực số"
+                  },
+                  {
+                    "en": "public awareness campaigns",
+                    "vi": "chiến dịch nâng cao nhận thức cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Các chương trình học về an toàn mạng, kiểm chứng thông tin và quản lý thời gian trực tuyến giúp học sinh hiểu cách khai thác Internet phục vụ học tập thay vì bị nó chi phối. Đồng thời, các chiến dịch truyền thông rộng rãi sẽ khuyến khích toàn xã hội nhìn nhận nghiêm túc hơn về sức khỏe tinh thần trong kỷ nguyên số.",
+                "evidence_en": "Curricula covering online safety, fact-checking, and time management teach students to harness the Internet for learning rather than being controlled by it. Meanwhile, widespread media campaigns encourage the wider public to take digital well-being and mental health far more seriously.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "online safety",
+                      "vi": "an toàn trực tuyến"
+                    },
+                    {
+                      "en": "fact-checking",
+                      "vi": "kiểm chứng thông tin"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "digital well-being",
+                      "vi": "sức khỏe trong môi trường số"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital literacy education",
+                    "vi": "giáo dục năng lực số"
+                  },
+                  {
+                    "en": "public awareness campaigns",
+                    "vi": "chiến dịch nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "online safety",
+                    "vi": "an toàn trực tuyến"
+                  },
+                  {
+                    "en": "fact-checking",
+                    "vi": "kiểm chứng thông tin"
+                  },
+                  {
+                    "en": "digital well-being",
+                    "vi": "sức khỏe trong môi trường số"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TRÁCH NHIỆM CỦA DOANH NGHIỆP CÔNG NGHỆ VÀ CHÍNH SÁCH QUẢN LÝ (PLATFORM DESIGN AND POLICY SUPPORT)",
+                "point_vi": "Các tập đoàn công nghệ và cơ quan quản lý cần chung tay phát triển công cụ kiểm soát thông minh cũng như dịch vụ hỗ trợ điều trị nghiện mạng.",
+                "point_en": "Technology companies and governments should collaborate to introduce responsible platform safeguards and accessible counseling support.",
+                "point_collocations": [
+                  {
+                    "en": "platform safeguards",
+                    "vi": "biện pháp bảo vệ trên nền tảng"
+                  },
+                  {
+                    "en": "accessible counseling support",
+                    "vi": "dịch vụ hỗ trợ tư vấn dễ tiếp cận"
+                  }
+                ],
+                "evidence_vi": "Các nền tảng mạng xã hội nên tích hợp tính năng nhắc nghỉ giải lao, giới hạn độ tuổi nghiêm ngặt và giảm bớt cơ chế tự động phát video gây nghiện. Song song đó, chính phủ có thể tài trợ các đường dây tư vấn tâm lý và chương trình cai nghiện Internet chuyên nghiệp cho những trường hợp bị ảnh hưởng nặng nề.",
+                "evidence_en": "Social platforms ought to implement break prompts, strict age-verification controls, and limits on addictive autoplay mechanisms. Simultaneously, governments can fund psychological helplines and specialized rehabilitation programs to assist individuals suffering from severe Internet dependency.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "age-verification controls",
+                      "vi": "kiểm soát xác minh độ tuổi"
+                    },
+                    {
+                      "en": "addictive autoplay mechanisms",
+                      "vi": "cơ chế tự phát gây nghiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "psychological helplines",
+                      "vi": "đường dây nóng tư vấn tâm lý"
+                    },
+                    {
+                      "en": "Internet dependency",
+                      "vi": "sự phụ thuộc vào Internet"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "platform safeguards",
+                    "vi": "biện pháp bảo vệ trên nền tảng"
+                  },
+                  {
+                    "en": "accessible counseling support",
+                    "vi": "dịch vụ hỗ trợ tư vấn dễ tiếp cận"
+                  },
+                  {
+                    "en": "age-verification controls",
+                    "vi": "kiểm soát xác minh độ tuổi"
+                  },
+                  {
+                    "en": "addictive autoplay mechanisms",
+                    "vi": "cơ chế tự phát gây nghiện"
+                  },
+                  {
+                    "en": "psychological helplines",
+                    "vi": "đường dây nóng tư vấn tâm lý"
+                  },
+                  {
+                    "en": "Internet dependency",
+                    "vi": "sự phụ thuộc vào Internet"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: TỔN HẠI SỨC KHỎE THỂ CHẤT VÀ TINH THẦN (HARMING PHYSICAL AND MENTAL HEALTH)",
+                "point_vi": "Việc lạm dụng Internet kéo dài gây ra nhiều hệ lụy nghiêm trọng cho cả sức khỏe thể chất lẫn trạng thái tinh thần của người dùng.",
+                "point_en": "Prolonged Internet overuse inflicts serious harm on both users' physical health and psychological well-being.",
+                "point_collocations": [
+                  {
+                    "en": "prolonged Internet overuse",
+                    "vi": "lạm dụng Internet kéo dài"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý / tinh thần"
+                  }
+                ],
+                "evidence_vi": "Thói quen ngồi bất động nhiều giờ trước màn hình thường dẫn đến mỏi mắt kinh niên, đau cổ vai gáy, béo phì và rối loạn giấc ngủ do ánh sáng xanh. Bên cạnh đó, việc liên tục so sánh bản thân trên mạng xã hội hoặc phụ thuộc vào thông báo trực tuyến có thể làm gia tăng lo âu, căng thẳng và trầm cảm.",
+                "evidence_en": "Remaining sedentary before screens for extended periods frequently leads to chronic eye strain, posture problems, obesity, and sleep disorders caused by blue light. Furthermore, constant social comparison online and compulsive checking of notifications can intensify anxiety, chronic stress, and depression.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "remain sedentary",
+                      "vi": "ngồi thụ động ít vận động"
+                    },
+                    {
+                      "en": "sleep disorders",
+                      "vi": "rối loạn giấc ngủ"
+                    },
+                    {
+                      "en": "blue light",
+                      "vi": "ánh sáng xanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social comparison",
+                      "vi": "sự so sánh xã hội"
+                    },
+                    {
+                      "en": "compulsive checking",
+                      "vi": "thói quen kiểm tra cưỡng bức"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "prolonged Internet overuse",
+                    "vi": "lạm dụng Internet kéo dài"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý / tinh thần"
+                  },
+                  {
+                    "en": "remain sedentary",
+                    "vi": "ngồi thụ động ít vận động"
+                  },
+                  {
+                    "en": "sleep disorders",
+                    "vi": "rối loạn giấc ngủ"
+                  },
+                  {
+                    "en": "blue light",
+                    "vi": "ánh sáng xanh"
+                  },
+                  {
+                    "en": "social comparison",
+                    "vi": "sự so sánh xã hội"
+                  },
+                  {
+                    "en": "compulsive checking",
+                    "vi": "thói quen kiểm tra cưỡng bức"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: SUY GIẢM KẾT QUẢ HỌC TẬP VÀ NĂNG SUẤT LAO ĐỘNG (REDUCING ACADEMIC AND WORK PRODUCTIVITY)",
+                "point_vi": "Tình trạng nghiện Internet làm suy giảm rõ rệt khả năng tập trung, thành tích học tập và hiệu suất lao động của nhiều cá nhân.",
+                "point_en": "Internet addiction significantly undermines concentration, academic achievement, and workplace productivity.",
+                "point_collocations": [
+                  {
+                    "en": "undermine concentration",
+                    "vi": "làm suy giảm sự tập trung"
+                  },
+                  {
+                    "en": "workplace productivity",
+                    "vi": "năng suất nơi làm việc"
+                  }
+                ],
+                "evidence_vi": "Những thông báo liên tục từ mạng xã hội, trò chơi trực tuyến và video ngắn dễ dàng phá vỡ mạch tư duy và khuyến khích thói quen trì hoãn. Hệ quả là nhiều học sinh bỏ bê bài vở dẫn đến điểm số sa sút, trong khi người đi làm chật vật hoàn thành công việc đúng hạn và giảm cơ hội thăng tiến.",
+                "evidence_en": "Constant alerts from social platforms, online games, and short-form videos easily fragment attention spans and fuel procrastination. As a consequence, students often neglect coursework and suffer declining grades, while employees struggle to meet deadlines and risk stagnating in their careers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fragment attention spans",
+                      "vi": "làm phân mảnh khả năng chú ý"
+                    },
+                    {
+                      "en": "fuel procrastination",
+                      "vi": "thúc đẩy thói quen trì hoãn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "declining grades",
+                      "vi": "điểm số sụt giảm"
+                    },
+                    {
+                      "en": "meet deadlines",
+                      "vi": "hoàn thành đúng hạn chót"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "undermine concentration",
+                    "vi": "làm suy giảm sự tập trung"
+                  },
+                  {
+                    "en": "workplace productivity",
+                    "vi": "năng suất nơi làm việc"
+                  },
+                  {
+                    "en": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng chú ý"
+                  },
+                  {
+                    "en": "fuel procrastination",
+                    "vi": "thúc đẩy thói quen trì hoãn"
+                  },
+                  {
+                    "en": "declining grades",
+                    "vi": "điểm số sụt giảm"
+                  },
+                  {
+                    "en": "meet deadlines",
+                    "vi": "hoàn thành đúng hạn chót"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: RẠN NỨT QUAN HỆ GIA ĐÌNH VÀ CÔ LẬP XÃ HỘI (WEAKENING REAL-LIFE RELATIONSHIPS)",
+                "point_vi": "Sự lệ thuộc quá mức vào thế giới ảo dần làm xói mòn các mối quan hệ ngoài đời thực và gia tăng tình trạng cô lập xã hội.",
+                "point_en": "Excessive dependence on the virtual world gradually erodes real-life relationships and intensifies social isolation.",
+                "point_collocations": [
+                  {
+                    "en": "virtual world",
+                    "vi": "thế giới ảo"
+                  },
+                  {
+                    "en": "erode real-life relationships",
+                    "vi": "làm xói mòn các mối quan hệ đời thực"
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội"
+                  }
+                ],
+                "evidence_vi": "Khi các thành viên trong gia đình mải mê nhìn màn hình riêng ngay cả trong bữa tối hay dịp sum họp, những cuộc trò chuyện chân thành trở nên ngày càng thưa thớt. Về lâu dài, việc ưu tiên tương tác qua tin nhắn thay vì gặp mặt trực tiếp còn làm mai một kỹ năng giao tiếp và khiến nhiều người cảm thấy cô đơn giữa cộng đồng.",
+                "evidence_en": "When family members stay absorbed in personal devices even during dinners or gatherings, meaningful face-to-face conversations become increasingly rare. Over time, substituting real-world interaction with digital messaging weakens interpersonal skills and leaves many individuals feeling emotionally isolated.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stay absorbed in",
+                      "vi": "mải mê đắm chìm vào"
+                    },
+                    {
+                      "en": "face-to-face conversations",
+                      "vi": "trò chuyện trực tiếp mặt đối mặt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "interpersonal skills",
+                      "vi": "kỹ năng giao tiếp giữa người với người"
+                    },
+                    {
+                      "en": "emotionally isolated",
+                      "vi": "cô lập về mặt cảm xúc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "virtual world",
+                    "vi": "thế giới ảo"
+                  },
+                  {
+                    "en": "erode real-life relationships",
+                    "vi": "làm xói mòn các mối quan hệ đời thực"
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội"
+                  },
+                  {
+                    "en": "stay absorbed in",
+                    "vi": "mải mê đắm chìm vào"
+                  },
+                  {
+                    "en": "face-to-face conversations",
+                    "vi": "trò chuyện trực tiếp mặt đối mặt"
+                  },
+                  {
+                    "en": "interpersonal skills",
+                    "vi": "kỹ năng giao tiếp giữa người với người"
+                  },
+                  {
+                    "en": "emotionally isolated",
+                    "vi": "cô lập về mặt cảm xúc"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GIA TĂNG RỦI RO AN NINH MẠNG VÀ NỘI DUNG ĐỘC HẠI (EXPOSURE TO ONLINE RISKS AND HARMFUL CONTENT)",
+                "point_vi": "Việc dành quá nhiều thời gian trực tuyến thiếu kiểm soát khiến người dùng đối mặt với nhiều rủi ro về thông tin sai lệch, bắt nạt mạng và lừa đảo.",
+                "point_en": "Unregulated heavy Internet usage exposes individuals to greater risks of misinformation, cyberbullying, and online fraud.",
+                "point_collocations": [
+                  {
+                    "en": "misinformation",
+                    "vi": "thông tin sai lệch"
+                  },
+                  {
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt trực tuyến"
+                  },
+                  {
+                    "en": "online fraud",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ],
+                "evidence_vi": "Thời lượng truy cập lớn làm tăng khả năng tiếp xúc với nội dung bạo lực, quảng cáo độc hại hoặc các đường link giả mạo được thiết kế tinh vi để đánh cắp dữ liệu cá nhân. Đối với thanh thiếu niên chưa đủ kỹ năng sàng lọc thông tin, những mối nguy này có thể gây tổn thương tâm lý nặng nề hoặc thiệt hại tài chính nghiêm trọng.",
+                "evidence_en": "Extended online exposure heightens the likelihood of encountering violent media, misleading news, or sophisticated phishing links designed to steal sensitive data. For impressionable youths who lack critical digital literacy, these hazards can inflict lasting emotional trauma or substantial financial losses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "phishing links",
+                      "vi": "đường dẫn giả mạo đánh cắp thông tin"
+                    },
+                    {
+                      "en": "sensitive data",
+                      "vi": "dữ liệu nhạy cảm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "critical digital literacy",
+                      "vi": "năng lực sàng lọc thông tin số"
+                    },
+                    {
+                      "en": "financial losses",
+                      "vi": "tổn thất tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "misinformation",
+                    "vi": "thông tin sai lệch"
+                  },
+                  {
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt trực tuyến"
+                  },
+                  {
+                    "en": "online fraud",
+                    "vi": "lừa đảo trực tuyến"
+                  },
+                  {
+                    "en": "phishing links",
+                    "vi": "đường dẫn giả mạo đánh cắp thông tin"
+                  },
+                  {
+                    "en": "sensitive data",
+                    "vi": "dữ liệu nhạy cảm"
+                  },
+                  {
+                    "en": "critical digital literacy",
+                    "vi": "năng lực sàng lọc thông tin số"
+                  },
+                  {
+                    "en": "financial losses",
+                    "vi": "tổn thất tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÃNG PHÍ THỜI GIAN VÀ LỐI SỐNG THỤ ĐỘNG (WASTING TIME AND FOSTERING PASSIVITY)",
+                "point_vi": "Thói quen sử dụng Internet không kiểm soát làm tiêu hao nguồn thời gian quý báu và hình thành lối sống thụ động, thiếu sáng tạo.",
+                "point_en": "Uncontrolled Internet consumption drains valuable time and fosters a passive, overly dependent lifestyle.",
+                "point_collocations": [
+                  {
+                    "en": "drain valuable time",
+                    "vi": "tiêu hao thời gian quý báu"
+                  },
+                  {
+                    "en": "passive lifestyle",
+                    "vi": "lối sống thụ động"
+                  }
+                ],
+                "evidence_vi": "Các thuật toán đề xuất nội dung liên tục giữ chân người dùng hàng giờ liền bằng chuỗi giải trí tức thời mà không mang lại giá trị phát triển bản thân rõ rệt. Thay vì rèn luyện kỹ năng thực tế, đọc sách chuyên sâu hay tham gia hoạt động cộng đồng, nhiều người trẻ trở nên phụ thuộc vào sự kích thích nhanh từ màn hình.",
+                "evidence_en": "Recommendation algorithms effortlessly trap users for hours in endless streams of instant entertainment that offer minimal personal growth. Instead of cultivating practical skills, reading deeply, or engaging in community life, many young people grow overly reliant on effortless digital stimulation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "recommendation algorithms",
+                      "vi": "thuật toán đề xuất"
+                    },
+                    {
+                      "en": "instant entertainment",
+                      "vi": "giải trí tức thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "personal growth",
+                      "vi": "sự phát triển bản thân"
+                    },
+                    {
+                      "en": "digital stimulation",
+                      "vi": "sự kích thích từ thiết bị số"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "drain valuable time",
+                    "vi": "tiêu hao thời gian quý báu"
+                  },
+                  {
+                    "en": "passive lifestyle",
+                    "vi": "lối sống thụ động"
+                  },
+                  {
+                    "en": "recommendation algorithms",
+                    "vi": "thuật toán đề xuất"
+                  },
+                  {
+                    "en": "instant entertainment",
+                    "vi": "giải trí tức thời"
+                  },
+                  {
+                    "en": "personal growth",
+                    "vi": "sự phát triển bản thân"
+                  },
+                  {
+                    "en": "digital stimulation",
+                    "vi": "sự kích thích từ thiết bị số"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: RÈN LUYỆN KỶ LUẬT CÁ NHÂN VÀ GIỚI HẠN THỜI GIAN MÀN HÌNH (SETTING PERSONAL SCREEN-TIME LIMITS)",
+                "point_vi": "Mỗi cá nhân cần chủ động thiết lập kỷ luật sử dụng công nghệ và đặt giới hạn thời gian trực tuyến hợp lý mỗi ngày.",
+                "point_en": "Individuals should cultivate personal digital discipline by establishing strict daily limits on recreational screen time.",
+                "point_collocations": [
+                  {
+                    "en": "digital discipline",
+                    "vi": "kỷ luật sử dụng công nghệ số"
+                  },
+                  {
+                    "en": "recreational screen time",
+                    "vi": "thời gian xem màn hình giải trí"
+                  }
+                ],
+                "evidence_vi": "Người dùng có thể tận dụng các ứng dụng kiểm soát thời lượng truy cập, tắt thông báo không cần thiết và duy trì khung giờ không thiết bị điện tử trước khi ngủ. Việc thực hành những quy tắc tự giác này giúp khôi phục khả năng tập trung, cải thiện giấc ngủ và lấy lại quyền làm chủ thời gian.",
+                "evidence_en": "Users can activate built-in usage trackers, mute non-essential notifications, and maintain device-free hours before going to sleep. Practicing such deliberate self-regulation restores concentration, improves sleep quality, and helps individuals regain control over their daily schedules.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "usage trackers",
+                      "vi": "công cụ theo dõi thời lượng sử dụng"
+                    },
+                    {
+                      "en": "device-free hours",
+                      "vi": "khung giờ không thiết bị điện tử"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-regulation",
+                      "vi": "khả năng tự điều chỉnh"
+                    },
+                    {
+                      "en": "regain control",
+                      "vi": "lấy lại quyền kiểm soát"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital discipline",
+                    "vi": "kỷ luật sử dụng công nghệ số"
+                  },
+                  {
+                    "en": "recreational screen time",
+                    "vi": "thời gian xem màn hình giải trí"
+                  },
+                  {
+                    "en": "usage trackers",
+                    "vi": "công cụ theo dõi thời lượng sử dụng"
+                  },
+                  {
+                    "en": "device-free hours",
+                    "vi": "khung giờ không thiết bị điện tử"
+                  },
+                  {
+                    "en": "self-regulation",
+                    "vi": "khả năng tự điều chỉnh"
+                  },
+                  {
+                    "en": "regain control",
+                    "vi": "lấy lại quyền kiểm soát"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: PHÁT TRIỂN CÁC SỞ THÍCH VÀ HOẠT ĐỘNG NGOÀI ĐỜI THỰC (PROMOTING HEALTHY OFFLINE ACTIVITIES)",
+                "point_vi": "Khuyến khích tham gia các hoạt động thể chất, nghệ thuật và giao lưu trực tiếp là cách hiệu quả để thay thế thói quen lệ thuộc vào màn hình.",
+                "point_en": "Encouraging active participation in sports, creative hobbies, and face-to-face socializing offers an effective alternative to excessive screen use.",
+                "point_collocations": [
+                  {
+                    "en": "creative hobbies",
+                    "vi": "sở thích sáng tạo"
+                  },
+                  {
+                    "en": "effective alternative",
+                    "vi": "giải pháp thay thế hiệu quả"
+                  }
+                ],
+                "evidence_vi": "Các câu lạc bộ thể thao, hội sách, hoạt động thiện nguyện và sự kiện cộng đồng mang lại niềm vui chân thực cùng cảm giác gắn kết mà thế giới ảo khó lòng thay thế. Khi tìm thấy hứng thú từ những trải nghiệm đời thực giàu ý nghĩa, con người sẽ tự nhiên giảm nhu cầu tìm đến Internet để giải tỏa nhàm chán.",
+                "evidence_en": "Sports clubs, reading circles, volunteering, and local cultural events deliver genuine fulfillment and social connection that virtual platforms rarely match. Once people discover rewarding offline passions, they naturally feel far less urge to rely on the Internet to escape boredom.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "genuine fulfillment",
+                      "vi": "sự thỏa mãn chân thực"
+                    },
+                    {
+                      "en": "social connection",
+                      "vi": "sự kết nối xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rewarding offline passions",
+                      "vi": "đam mê ngoài đời thực bổ ích"
+                    },
+                    {
+                      "en": "escape boredom",
+                      "vi": "tránh sự nhàm chán"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "creative hobbies",
+                    "vi": "sở thích sáng tạo"
+                  },
+                  {
+                    "en": "effective alternative",
+                    "vi": "giải pháp thay thế hiệu quả"
+                  },
+                  {
+                    "en": "genuine fulfillment",
+                    "vi": "sự thỏa mãn chân thực"
+                  },
+                  {
+                    "en": "social connection",
+                    "vi": "sự kết nối xã hội"
+                  },
+                  {
+                    "en": "rewarding offline passions",
+                    "vi": "đam mê ngoài đời thực bổ ích"
+                  },
+                  {
+                    "en": "escape boredom",
+                    "vi": "tránh sự nhàm chán"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: TĂNG CƯỜNG VAI TRÒ LÀM GƯƠNG VÀ ĐỊNH HƯỚNG CỦA GIA ĐÌNH (STRENGTHENING PARENTAL GUIDANCE)",
+                "point_vi": "Gia đình giữ vai trò nòng cốt trong việc xây dựng quy tắc sử dụng Internet lành mạnh và làm gương về lối sống cân bằng cho trẻ em.",
+                "point_en": "Families play a vital role in establishing healthy household Internet rules and modeling balanced technology habits for children.",
+                "point_collocations": [
+                  {
+                    "en": "household Internet rules",
+                    "vi": "quy tắc dùng Internet trong gia đình"
+                  },
+                  {
+                    "en": "model balanced habits",
+                    "vi": "làm gương về thói quen cân bằng"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ có thể thiết lập các khu vực không điện thoại như bàn ăn hay phòng ngủ, đồng thời tổ chức những buổi trò chuyện và dã ngoại cuối tuần để gắn kết cả nhà. Khi phụ huynh hạn chế việc lướt điện thoại trước mặt con và tích cực đồng hành, trẻ sẽ dễ dàng hình thành thói quen sử dụng công nghệ văn minh hơn.",
+                "evidence_en": "Parents can designate tech-free zones such as dining tables and bedrooms while planning regular family conversations and weekend outings. When caregivers limit their own smartphone scrolling and engage actively with their children, youngsters are far more likely to adopt healthy digital habits.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "tech-free zones",
+                      "vi": "khu vực không thiết bị công nghệ"
+                    },
+                    {
+                      "en": "weekend outings",
+                      "vi": "chuyến dã ngoại cuối tuần"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "adopt healthy digital habits",
+                      "vi": "hình thành thói quen số lành mạnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "household Internet rules",
+                    "vi": "quy tắc dùng Internet trong gia đình"
+                  },
+                  {
+                    "en": "model balanced habits",
+                    "vi": "làm gương về thói quen cân bằng"
+                  },
+                  {
+                    "en": "tech-free zones",
+                    "vi": "khu vực không thiết bị công nghệ"
+                  },
+                  {
+                    "en": "weekend outings",
+                    "vi": "chuyến dã ngoại cuối tuần"
+                  },
+                  {
+                    "en": "adopt healthy digital habits",
+                    "vi": "hình thành thói quen số lành mạnh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ĐẨY MẠNH GIÁO DỤC NĂNG LỰC SỐ TẠI TRƯỜNG HỌC VÀ CỘNG ĐỒNG (EXPANDING DIGITAL LITERACY EDUCATION)",
+                "point_vi": "Nhà trường và các chiến dịch cộng đồng cần lồng ghép giáo dục kỹ năng số để nâng cao nhận thức về rủi ro của chứng nghiện Internet.",
+                "point_en": "Schools and public awareness campaigns should integrate digital literacy education to highlight the risks of Internet addiction.",
+                "point_collocations": [
+                  {
+                    "en": "digital literacy education",
+                    "vi": "giáo dục năng lực số"
+                  },
+                  {
+                    "en": "public awareness campaigns",
+                    "vi": "chiến dịch nâng cao nhận thức cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Các chương trình học về an toàn mạng, kiểm chứng thông tin và quản lý thời gian trực tuyến giúp học sinh hiểu cách khai thác Internet phục vụ học tập thay vì bị nó chi phối. Đồng thời, các chiến dịch truyền thông rộng rãi sẽ khuyến khích toàn xã hội nhìn nhận nghiêm túc hơn về sức khỏe tinh thần trong kỷ nguyên số.",
+                "evidence_en": "Curricula covering online safety, fact-checking, and time management teach students to harness the Internet for learning rather than being controlled by it. Meanwhile, widespread media campaigns encourage the wider public to take digital well-being and mental health far more seriously.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "online safety",
+                      "vi": "an toàn trực tuyến"
+                    },
+                    {
+                      "en": "fact-checking",
+                      "vi": "kiểm chứng thông tin"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "digital well-being",
+                      "vi": "sức khỏe trong môi trường số"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital literacy education",
+                    "vi": "giáo dục năng lực số"
+                  },
+                  {
+                    "en": "public awareness campaigns",
+                    "vi": "chiến dịch nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "online safety",
+                    "vi": "an toàn trực tuyến"
+                  },
+                  {
+                    "en": "fact-checking",
+                    "vi": "kiểm chứng thông tin"
+                  },
+                  {
+                    "en": "digital well-being",
+                    "vi": "sức khỏe trong môi trường số"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TRÁCH NHIỆM CỦA DOANH NGHIỆP CÔNG NGHỆ VÀ CHÍNH SÁCH QUẢN LÝ (PLATFORM DESIGN AND POLICY SUPPORT)",
+                "point_vi": "Các tập đoàn công nghệ và cơ quan quản lý cần chung tay phát triển công cụ kiểm soát thông minh cũng như dịch vụ hỗ trợ điều trị nghiện mạng.",
+                "point_en": "Technology companies and governments should collaborate to introduce responsible platform safeguards and accessible counseling support.",
+                "point_collocations": [
+                  {
+                    "en": "platform safeguards",
+                    "vi": "biện pháp bảo vệ trên nền tảng"
+                  },
+                  {
+                    "en": "accessible counseling support",
+                    "vi": "dịch vụ hỗ trợ tư vấn dễ tiếp cận"
+                  }
+                ],
+                "evidence_vi": "Các nền tảng mạng xã hội nên tích hợp tính năng nhắc nghỉ giải lao, giới hạn độ tuổi nghiêm ngặt và giảm bớt cơ chế tự động phát video gây nghiện. Song song đó, chính phủ có thể tài trợ các đường dây tư vấn tâm lý và chương trình cai nghiện Internet chuyên nghiệp cho những trường hợp bị ảnh hưởng nặng nề.",
+                "evidence_en": "Social platforms ought to implement break prompts, strict age-verification controls, and limits on addictive autoplay mechanisms. Simultaneously, governments can fund psychological helplines and specialized rehabilitation programs to assist individuals suffering from severe Internet dependency.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "age-verification controls",
+                      "vi": "kiểm soát xác minh độ tuổi"
+                    },
+                    {
+                      "en": "addictive autoplay mechanisms",
+                      "vi": "cơ chế tự phát gây nghiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "psychological helplines",
+                      "vi": "đường dây nóng tư vấn tâm lý"
+                    },
+                    {
+                      "en": "Internet dependency",
+                      "vi": "sự phụ thuộc vào Internet"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "platform safeguards",
+                    "vi": "biện pháp bảo vệ trên nền tảng"
+                  },
+                  {
+                    "en": "accessible counseling support",
+                    "vi": "dịch vụ hỗ trợ tư vấn dễ tiếp cận"
+                  },
+                  {
+                    "en": "age-verification controls",
+                    "vi": "kiểm soát xác minh độ tuổi"
+                  },
+                  {
+                    "en": "addictive autoplay mechanisms",
+                    "vi": "cơ chế tự phát gây nghiện"
+                  },
+                  {
+                    "en": "psychological helplines",
+                    "vi": "đường dây nóng tư vấn tâm lý"
+                  },
+                  {
+                    "en": "Internet dependency",
+                    "vi": "sự phụ thuộc vào Internet"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "excessive use of the Internet",
+              "vi": "việc sử dụng Internet quá mức"
+            },
+            {
+              "en": "physical and mental health",
+              "vi": "sức khỏe thể chất và tinh thần"
+            },
+            {
+              "en": "suffer from eye strain",
+              "vi": "bị mỏi mắt"
+            },
+            {
+              "en": "disturb sleep patterns",
+              "vi": "làm rối loạn giấc ngủ"
+            },
+            {
+              "en": "declining academic performance",
+              "vi": "thành tích học tập sa sút"
+            },
+            {
+              "en": "fragment attention spans",
+              "vi": "làm phân mảnh khả năng tập trung"
+            },
+            {
+              "en": "weaken real-life relationships",
+              "vi": "làm suy yếu các mối quan hệ ngoài đời thực"
+            },
+            {
+              "en": "face-to-face communication",
+              "vi": "giao tiếp trực tiếp mặt đối mặt"
+            },
+            {
+              "en": "online scams and fraud",
+              "vi": "lừa đảo và gian lận trực tuyến"
+            },
+            {
+              "en": "set daily screen-time limits",
+              "vi": "đặt giới hạn thời gian màn hình hằng ngày"
+            },
+            {
+              "en": "device-free hours",
+              "vi": "khung giờ không thiết bị điện tử"
+            },
+            {
+              "en": "rewarding offline hobbies",
+              "vi": "những sở thích ngoài đời thực bổ ích"
+            },
+            {
+              "en": "digital literacy education",
+              "vi": "giáo dục năng lực số"
+            },
+            {
+              "en": "raise public awareness",
+              "vi": "nâng cao nhận thức cộng đồng"
+            },
+            {
+              "en": "responsible platform safeguards",
+              "vi": "biện pháp bảo vệ có trách nhiệm trên nền tảng"
+            },
+            {
+              "en": "regain control over one's schedule",
+              "vi": "lấy lại quyền kiểm soát lịch trình cá nhân"
+            }
+          ],
+          "sample_b1": "Nowadays, the Internet plays an essential role in daily life, helping people study, work, and stay connected. However, the <strong>excessive use of the Internet</strong> has become a worrying issue for both individuals and society. This essay will discuss the main negative impacts of Internet overuse and suggest several effective solutions.\n\nOn the one hand, spending too much time online causes several serious problems. Firstly, Internet addiction can harm both <strong>physical and mental health</strong>. Sitting in front of screens for long hours often causes <strong>eye strain</strong>, back pain, poor sleep, and ongoing stress. Secondly, overusing the Internet makes it difficult for students and workers to focus on their studies and jobs. Because they are <strong>constantly distracted</strong> by social media, games, and short videos, they often delay important tasks and get lower results. Finally, excessive screen time weakens <strong>real-life relationships</strong>. Many people prefer looking at their phones rather than talking <strong>face to face</strong>, which makes family life feel distant and lonely.\n\nOn the other hand, several practical measures can be taken to solve this issue. First of all, individuals should <strong>set clear daily time limits</strong> for using the Internet. Using screen-time tracking apps and turning off phones one hour <strong>before bedtime</strong> can improve sleep and self-control. In addition, people should take part more actively in <strong>outdoor activities</strong> and healthy offline hobbies such as sports, reading, or meeting friends. Moreover, parents should <strong>set a good example</strong> by banning phones during meals, while schools should hold workshops to <strong>raise awareness</strong> about safe and balanced Internet use.\n\nIn conclusion, Internet overuse negatively affects health, productivity, and real-life connections. By combining personal discipline, healthy offline habits, and guidance from families and schools, society can effectively reduce these harmful effects.",
+          "translation_b1": "Ngày nay, Internet đóng vai trò thiết yếu trong cuộc sống hằng ngày, giúp con người học tập, làm việc và giữ liên lạc. Tuy nhiên, <strong>việc sử dụng Internet quá mức</strong> đã trở thành một vấn đề đáng lo ngại cho cả cá nhân lẫn xã hội. Bài luận này sẽ bàn luận về các tác động tiêu cực chính của việc lạm dụng Internet và đề xuất một số giải pháp hiệu quả.\n\nMột mặt, dành quá nhiều thời gian trực tuyến gây ra nhiều vấn đề nghiêm trọng. Thứ nhất, chứng nghiện Internet có thể gây hại cho cả <strong>sức khỏe thể chất và tinh thần</strong>. Ngồi trước màn hình nhiều giờ thường gây <strong>mỏi mắt</strong>, đau lưng, ngủ kém và căng thẳng kéo dài. Thứ hai, lạm dụng Internet khiến học sinh và người đi làm khó tập trung vào việc học và công việc. Vì <strong>liên tục bị xao nhãng</strong> bởi mạng xã hội, trò chơi và video ngắn, họ thường trì hoãn các nhiệm vụ quan trọng và đạt kết quả thấp hơn. Cuối cùng, thời gian màn hình quá mức làm suy yếu <strong>các mối quan hệ ngoài đời thực</strong>. Nhiều người thích nhìn điện thoại hơn là trò chuyện <strong>trực tiếp</strong>, khiến đời sống gia đình trở nên xa cách và cô đơn.\n\nMặt khác, có thể áp dụng nhiều biện pháp thiết thực để giải quyết vấn đề này. Trước hết, mỗi cá nhân nên <strong>đặt giới hạn thời gian hằng ngày rõ ràng</strong> cho việc dùng Internet. Sử dụng ứng dụng theo dõi thời gian màn hình và tắt điện thoại một giờ <strong>trước khi đi ngủ</strong> giúp cải thiện giấc ngủ và khả năng tự kiểm soát. Bên cạnh đó, mọi người nên tích cực tham gia các <strong>hoạt động ngoài trời</strong> và sở thích lành mạnh như thể thao, đọc sách hay gặp gỡ bạn bè. Hơn nữa, cha mẹ nên <strong>làm gương tốt</strong> bằng cách không dùng điện thoại trong bữa ăn, trong khi nhà trường tổ chức chuyên đề để <strong>nâng cao nhận thức</strong> về việc sử dụng Internet an toàn và cân bằng.\n\nTóm lại, việc lạm dụng Internet ảnh hưởng xấu đến sức khỏe, năng suất và các mối quan hệ đời thực. Bằng cách kết hợp kỷ luật cá nhân, thói quen sống lành mạnh ngoài đời thực cùng sự định hướng từ gia đình và nhà trường, xã hội có thể giảm thiểu hiệu quả những tác hại này.",
+          "sample_b2": "In the digital era, the Internet has revolutionized how people communicate, acquire knowledge, and conduct business. Yet, <strong>prolonged Internet overuse</strong> has emerged as a pressing challenge that adversely affects both individuals and wider society. This essay will examine the major negative consequences of Internet addiction and propose practical solutions to address this growing issue.\n\nExcessive reliance on the Internet generates several detrimental impacts. First and foremost, it inflicts serious harm on users' <strong>physical and psychological well-being</strong>. Remaining sedentary before glowing screens for hours frequently causes chronic eye strain, obesity, and <strong>sleep disorders</strong> triggered by blue light. Furthermore, constant social comparison online and compulsive checking of notifications can intensify anxiety and depression. Second, Internet addiction significantly undermines <strong>academic achievement and workplace productivity</strong>. Continuous alerts from social platforms and short-form videos easily <strong>fragment attention spans</strong> and fuel procrastination, causing students to suffer declining grades and employees to struggle with deadlines. Equally concerning is the erosion of <strong>real-life relationships</strong>: when family members stay absorbed in personal devices even during meals, meaningful face-to-face conversations fade, leaving many individuals feeling <strong>emotionally isolated</strong>.\n\nAddressing Internet overuse requires coordinated efforts from individuals, families, and institutions. At the personal level, users must cultivate <strong>digital discipline</strong> by activating screen-time trackers, muting non-essential alerts, and maintaining <strong>device-free hours</strong> before sleep. Replacing aimless scrolling with <strong>rewarding offline hobbies</strong> such as sports, reading clubs, or volunteering also provides genuine fulfillment that virtual platforms cannot replicate. Meanwhile, families and schools play a pivotal role: parents should establish <strong>tech-free zones</strong> at home and model balanced habits, while schools ought to integrate <strong>digital literacy education</strong> so young people learn to harness technology productively. Finally, technology companies and governments should introduce <strong>responsible platform safeguards</strong>, including break reminders and limits on addictive autoplay features, alongside accessible counseling services for severe cases.\n\nIn conclusion, unchecked Internet consumption threatens physical health, personal productivity, and social cohesion. Only through a balanced combination of personal <strong>self-regulation</strong>, supportive offline environments, and responsible digital governance can individuals enjoy the advantages of the Internet without falling victim to its harms.",
+          "translation_b2": "Trong kỷ nguyên số, Internet đã cách mạng hóa cách con người giao tiếp, tiếp thu tri thức và kinh doanh. Tuy nhiên, <strong>việc lạm dụng Internet kéo dài</strong> đã nổi lên như một thách thức cấp bách, tác động tiêu cực đến cả cá nhân lẫn toàn xã hội. Bài luận này sẽ phân tích những hệ quả tiêu cực chính của chứng nghiện Internet và đề xuất các giải pháp thiết thực để giải quyết vấn đề ngày càng gia tăng này.\n\nSự phụ thuộc quá mức vào Internet gây ra nhiều tác hại nghiêm trọng. Trước hết, nó gây tổn hại nặng nề đến <strong>sức khỏe thể chất và tinh thần</strong> của người dùng. Thói quen ngồi thụ động hàng giờ trước màn hình sáng thường dẫn đến mỏi mắt kinh niên, béo phì và <strong>rối loạn giấc ngủ</strong> do ánh sáng xanh. Hơn nữa, sự so sánh liên tục trên mạng xã hội và thói quen kiểm tra thông báo cưỡng bức có thể làm gia tăng lo âu và trầm cảm. Thứ hai, nghiện Internet làm suy giảm đáng kể <strong>thành tích học tập và năng suất lao động</strong>. Các thông báo liên tục từ mạng xã hội và video ngắn dễ dàng <strong>làm phân mảnh khả năng chú ý</strong> và thúc đẩy sự trì hoãn, khiến học sinh sụt giảm điểm số còn nhân viên chật vật với hạn chót. Đáng lo ngại không kém là sự xói mòn của <strong>các mối quan hệ ngoài đời thực</strong>: khi các thành viên gia đình mải mê với thiết bị cá nhân ngay cả trong bữa ăn, những cuộc trò chuyện trực tiếp ý nghĩa dần biến mất, khiến nhiều người rơi vào cảnh <strong>cô lập về mặt cảm xúc</strong>.\n\nĐể giải quyết tình trạng lạm dụng Internet cần có sự phối hợp đồng bộ từ cá nhân, gia đình và các tổ chức. Ở cấp độ cá nhân, người dùng phải rèn luyện <strong>kỷ luật số</strong> bằng cách bật công cụ theo dõi thời lượng, tắt thông báo không thiết yếu và duy trì <strong>khung giờ không thiết bị điện tử</strong> trước khi ngủ. Thay thế việc lướt mạng vô định bằng các <strong>sở thích đời thực bổ ích</strong> như thể thao, câu lạc bộ đọc sách hay tình nguyện cũng mang lại niềm vui chân thực mà nền tảng ảo khó lòng thay thế. Trong khi đó, gia đình và nhà trường giữ vai trò then chốt: cha mẹ nên thiết lập <strong>khu vực không thiết bị công nghệ</strong> tại nhà và làm gương về thói quen cân bằng, còn trường học cần lồng ghép <strong>giáo dục năng lực số</strong> để người trẻ biết khai thác công nghệ hiệu quả. Cuối cùng, doanh nghiệp công nghệ và chính phủ nên áp dụng <strong>biện pháp bảo vệ có trách nhiệm trên nền tảng</strong> như thông báo nhắc nghỉ ngơi và hạn chế tính năng tự phát gây nghiện, song song với dịch vụ tư vấn dễ tiếp cận cho các trường hợp nặng.\n\nTóm lại, việc tiêu thụ Internet thiếu kiểm soát đe dọa sức khỏe thể chất, năng suất cá nhân và sự gắn kết xã hội. Chỉ thông qua sự kết hợp hài hòa giữa khả năng <strong>tự điều chỉnh</strong> của cá nhân, môi trường sống thực tế lành mạnh và cơ chế quản trị công nghệ có trách nhiệm, con người mới có thể tận hưởng lợi ích của Internet mà không trở thành nạn nhân của nó.",
+          "vocab_step": {
+            "theme": "Nghiện Internet / Sử dụng Internet quá mức (Internet Addiction / Overuse)",
+            "overview": "Hệ thống tổng hợp 18 từ vựng cốt lõi và 16 cụm từ liên kết (Collocations) phân cấp B1–B2 bao quát đầy đủ 5 Ảnh hưởng tiêu cực (Sức khỏe, Học tập/Công việc, Quan hệ gia đình & xã hội, Rủi ro an ninh mạng, Lối sống thụ động) và 5 Giải pháp hiệu quả (Tự giới hạn thời gian, Hoạt động ngoài đời thực, Định hướng gia đình, Giáo dục năng lực số, Quản lý nền tảng & hỗ trợ tâm lý).",
+            "single_words": [
+              {
+                "word": "excessive",
+                "ipa": "/ɪkˈses.ɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "quá mức, thái quá",
+                "family": "excess (n), excessively (adv)",
+                "example_en": "Excessive Internet use can harm students' health.",
+                "example_vi": "Việc sử dụng Internet quá mức có thể gây hại cho sức khỏe học sinh."
+              },
+              {
+                "word": "addiction",
+                "ipa": "/əˈdɪk.ʃən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "chứng nghiện, sự nghiện",
+                "family": "addict (n), addictive (adj), addicted (adj)",
+                "example_en": "Internet addiction has become a growing concern among teenagers.",
+                "example_vi": "Chứng nghiện Internet đang trở thành mối lo ngại ngày càng tăng ở thanh thiếu niên."
+              },
+              {
+                "word": "overuse",
+                "ipa": "/ˌəʊ.vəˈjuːs/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "sự lạm dụng, dùng quá mức",
+                "family": "overused (adj)",
+                "example_en": "The overuse of smartphones reduces face-to-face communication.",
+                "example_vi": "Việc lạm dụng điện thoại thông minh làm giảm giao tiếp trực tiếp."
+              },
+              {
+                "word": "distract",
+                "ipa": "/dɪˈstrækt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "làm xao nhãng, phân tâm",
+                "family": "distraction (n), distracted (adj)",
+                "example_en": "Constant notifications easily distract learners during class.",
+                "example_vi": "Thông báo liên tục dễ làm người học mất tập trung trong giờ học."
+              },
+              {
+                "word": "isolation",
+                "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cô lập, tách biệt",
+                "family": "isolate (v), isolated (adj)",
+                "example_en": "Spending all day online can lead to social isolation.",
+                "example_vi": "Dành cả ngày trực tuyến có thể dẫn đến sự cô lập xã hội."
+              },
+              {
+                "word": "sedentary",
+                "ipa": "/ˈsed.ən.tər.i/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ngồi nhiều, ít vận động",
+                "family": "sedentariness (n)",
+                "example_en": "A sedentary lifestyle increases the risk of obesity and back pain.",
+                "example_vi": "Lối sống ít vận động làm tăng nguy cơ béo phì và đau lưng."
+              },
+              {
+                "word": "procrastination",
+                "ipa": "/prəˌkræs.tɪˈneɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự trì hoãn",
+                "family": "procrastinate (v)",
+                "example_en": "Endless scrolling on social media often fuels procrastination.",
+                "example_vi": "Việc lướt mạng xã hội không ngừng thường thúc đẩy thói quen trì hoãn."
+              },
+              {
+                "word": "misinformation",
+                "ipa": "/ˌmɪs.ɪn.fəˈmeɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thông tin sai lệch",
+                "family": "misinform (v)",
+                "example_en": "Users should check reliable sources to avoid online misinformation.",
+                "example_vi": "Người dùng nên kiểm tra nguồn đáng tin cậy để tránh thông tin sai lệch trực tuyến."
+              },
+              {
+                "word": "cyberbullying",
+                "ipa": "/ˈsaɪ.bəˌbʊl.i.ɪŋ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bắt nạt trực tuyến",
+                "family": "cyberbully (n, v)",
+                "example_en": "Heavy social media use increases the risk of experiencing cyberbullying.",
+                "example_vi": "Sử dụng mạng xã hội nhiều làm tăng nguy cơ bị bắt nạt trực tuyến."
+              },
+              {
+                "word": "productivity",
+                "ipa": "/ˌprɒd.ʌkˈtɪv.ə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "năng suất, hiệu suất",
+                "family": "productive (adj), produce (v)",
+                "example_en": "Frequent phone checks significantly lower workplace productivity.",
+                "example_vi": "Thường xuyên kiểm tra điện thoại làm giảm đáng kể năng suất nơi làm việc."
+              },
+              {
+                "word": "insomnia",
+                "ipa": "/ɪnˈsɒm.ni.ə/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "chứng mất ngủ",
+                "family": "insomniac (n)",
+                "example_en": "Using bright screens late at night can trigger insomnia.",
+                "example_vi": "Sử dụng màn hình sáng vào đêm khuya có thể gây ra chứng mất ngủ."
+              },
+              {
+                "word": "anxiety",
+                "ipa": "/æŋˈzaɪ.ə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự lo âu, bất an",
+                "family": "anxious (adj), anxiously (adv)",
+                "example_en": "Comparing oneself with others online often causes anxiety.",
+                "example_vi": "So sánh bản thân với người khác trên mạng thường gây ra sự lo âu."
+              },
+              {
+                "word": "discipline",
+                "ipa": "/ˈdɪs.ə.plɪn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tính kỷ luật",
+                "family": "disciplined (adj), self-discipline (n)",
+                "example_en": "Personal discipline is essential to control daily screen time.",
+                "example_vi": "Kỷ luật cá nhân rất cần thiết để kiểm soát thời gian màn hình hằng ngày."
+              },
+              {
+                "word": "supervise",
+                "ipa": "/ˈsuː.pə.vaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "giám sát, hướng dẫn",
+                "family": "supervision (n), supervisor (n)",
+                "example_en": "Parents should supervise young children's online activities closely.",
+                "example_vi": "Cha mẹ nên giám sát chặt chẽ hoạt động trực tuyến của trẻ nhỏ."
+              },
+              {
+                "word": "awareness",
+                "ipa": "/əˈweə.nəs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhận thức, ý thức",
+                "family": "aware (adj)",
+                "example_en": "Schools can hold talks to raise awareness about safe Internet use.",
+                "example_vi": "Nhà trường có thể tổ chức buổi nói chuyện để nâng cao nhận thức về dùng Internet an toàn."
+              },
+              {
+                "word": "safeguard",
+                "ipa": "/ˈseɪf.ɡɑːd/",
+                "pos": "n, v",
+                "level": "B2",
+                "vi": "biện pháp bảo vệ; bảo vệ",
+                "family": "safeguarding (n)",
+                "example_en": "Digital platforms need stronger safeguards to protect underage users.",
+                "example_vi": "Các nền tảng số cần biện pháp bảo vệ mạnh mẽ hơn cho người dùng chưa đủ tuổi."
+              },
+              {
+                "word": "counseling",
+                "ipa": "/ˈkaʊn.səl.ɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tư vấn tâm lý",
+                "family": "counselor (n), counsel (v)",
+                "example_en": "Professional counseling helps severe addicts rebuild healthy routines.",
+                "example_vi": "Tư vấn chuyên môn giúp người nghiện nặng xây dựng lại nếp sống lành mạnh."
+              },
+              {
+                "word": "algorithm",
+                "ipa": "/ˈæl.ɡə.rɪ.ðəm/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thuật toán",
+                "family": "algorithmic (adj)",
+                "example_en": "Social media algorithms are designed to keep users scrolling longer.",
+                "example_vi": "Thuật toán mạng xã hội được thiết kế để giữ chân người dùng lướt lâu hơn."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "excessive use of the Internet",
+                "level": "B1",
+                "vi": "việc sử dụng Internet quá mức",
+                "context_usage": "Cụm danh từ trọng tâm mở bài và thân bài",
+                "example_en": "The excessive use of the Internet affects people of all ages.",
+                "example_vi": "Việc sử dụng Internet quá mức ảnh hưởng đến mọi lứa tuổi."
+              },
+              {
+                "phrase": "physical and mental health",
+                "level": "B1",
+                "vi": "sức khỏe thể chất và tinh thần",
+                "context_usage": "Phân tích tác hại sức khỏe tổng thể",
+                "example_en": "Too much screen time harms both physical and mental health.",
+                "example_vi": "Quá nhiều thời gian màn hình gây hại cho cả sức khỏe thể chất lẫn tinh thần."
+              },
+              {
+                "phrase": "suffer from eye strain",
+                "level": "B1",
+                "vi": "bị mỏi mắt",
+                "context_usage": "Ví dụ cụ thể về tác hại thể chất",
+                "example_en": "Many teenagers suffer from eye strain after gaming for hours.",
+                "example_vi": "Nhiều thanh thiếu niên bị mỏi mắt sau khi chơi game nhiều giờ."
+              },
+              {
+                "phrase": "disturb sleep patterns",
+                "level": "B2",
+                "vi": "làm rối loạn giấc ngủ",
+                "context_usage": "Phân tích tác hại của ánh sáng xanh ban đêm",
+                "example_en": "Checking phones in bed can seriously disturb sleep patterns.",
+                "example_vi": "Xem điện thoại trên giường có thể làm rối loạn nghiêm trọng giấc ngủ."
+              },
+              {
+                "phrase": "declining academic performance",
+                "level": "B2",
+                "vi": "thành tích học tập sa sút",
+                "context_usage": "Hậu quả đối với học sinh, sinh viên",
+                "example_en": "Internet addiction often leads to declining academic performance.",
+                "example_vi": "Nghiện Internet thường dẫn đến kết quả học tập sa sút."
+              },
+              {
+                "phrase": "fragment attention spans",
+                "level": "B2",
+                "vi": "làm phân mảnh khả năng tập trung",
+                "context_usage": "Cụm từ học thuật B2 về mất tập trung",
+                "example_en": "Short-form videos and constant alerts fragment attention spans.",
+                "example_vi": "Video ngắn và thông báo liên tục làm phân mảnh khả năng tập trung."
+              },
+              {
+                "phrase": "weaken real-life relationships",
+                "level": "B1",
+                "vi": "làm suy yếu các mối quan hệ ngoài đời thực",
+                "context_usage": "Phân tích tác động lên gia đình và xã hội",
+                "example_en": "Overusing smartphones can weaken real-life relationships.",
+                "example_vi": "Lạm dụng điện thoại có thể làm suy yếu các mối quan hệ đời thực."
+              },
+              {
+                "phrase": "face-to-face communication",
+                "level": "B1",
+                "vi": "giao tiếp trực tiếp mặt đối mặt",
+                "context_usage": "So sánh giao tiếp trực tuyến và đời thực",
+                "example_en": "Young people now spend less time on face-to-face communication.",
+                "example_vi": "Người trẻ hiện nay dành ít thời gian hơn cho giao tiếp trực tiếp."
+              },
+              {
+                "phrase": "online scams and fraud",
+                "level": "B1, B2",
+                "vi": "lừa đảo và gian lận trực tuyến",
+                "context_usage": "Phân tích rủi ro an ninh mạng",
+                "example_en": "Heavy Internet users face higher risks of online scams and fraud.",
+                "example_vi": "Người dùng Internet quá nhiều đối mặt nguy cơ cao hơn về lừa đảo trực tuyến."
+              },
+              {
+                "phrase": "set daily screen-time limits",
+                "level": "B1",
+                "vi": "đặt giới hạn thời gian màn hình hằng ngày",
+                "context_usage": "Giải pháp tự quản lý cá nhân",
+                "example_en": "Everyone should set daily screen-time limits for entertainment.",
+                "example_vi": "Mọi người nên đặt giới hạn thời gian màn hình hằng ngày cho việc giải trí."
+              },
+              {
+                "phrase": "device-free hours",
+                "level": "B2",
+                "vi": "khung giờ không thiết bị điện tử",
+                "context_usage": "Giải pháp cải thiện giấc ngủ và gắn kết gia đình",
+                "example_en": "Creating device-free hours before bed improves sleep quality.",
+                "example_vi": "Tạo khung giờ không thiết bị trước khi ngủ giúp cải thiện chất lượng giấc ngủ."
+              },
+              {
+                "phrase": "rewarding offline hobbies",
+                "level": "B2",
+                "vi": "những sở thích ngoài đời thực bổ ích",
+                "context_usage": "Giải pháp thay thế thời gian lên mạng",
+                "example_en": "Taking up rewarding offline hobbies reduces screen dependence.",
+                "example_vi": "Theo đuổi những sở thích đời thực bổ ích giúp giảm sự phụ thuộc màn hình."
+              },
+              {
+                "phrase": "digital literacy education",
+                "level": "B2",
+                "vi": "giáo dục năng lực số",
+                "context_usage": "Giải pháp từ phía nhà trường và xã hội",
+                "example_en": "Schools should include digital literacy education in their programs.",
+                "example_vi": "Nhà trường nên đưa giáo dục năng lực số vào chương trình học."
+              },
+              {
+                "phrase": "raise public awareness",
+                "level": "B1",
+                "vi": "nâng cao nhận thức cộng đồng",
+                "context_usage": "Giải pháp truyền thông cộng đồng",
+                "example_en": "Campaigns can raise public awareness of Internet overuse.",
+                "example_vi": "Các chiến dịch có thể nâng cao nhận thức cộng đồng về lạm dụng Internet."
+              },
+              {
+                "phrase": "responsible platform safeguards",
+                "level": "B2",
+                "vi": "biện pháp bảo vệ có trách nhiệm trên nền tảng",
+                "context_usage": "Giải pháp từ doanh nghiệp công nghệ",
+                "example_en": "Tech firms must build responsible platform safeguards for minors.",
+                "example_vi": "Các hãng công nghệ phải xây dựng biện pháp bảo vệ cho trẻ vị thành niên."
+              },
+              {
+                "phrase": "regain control over one's schedule",
+                "level": "B2",
+                "vi": "lấy lại quyền kiểm soát lịch trình cá nhân",
+                "context_usage": "Kết quả tích cực của giải pháp",
+                "example_en": "Self-discipline helps users regain control over their schedules.",
+                "example_vi": "Tính tự giác giúp người dùng lấy lại quyền kiểm soát lịch trình của mình."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_health_study",
+                "name": "Nhóm 1: Tác hại lên Sức khỏe & Học tập (Health & Productivity Impacts)",
+                "icon": "🩺",
+                "badge": "Ảnh hưởng 01–02",
+                "items": [
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Excessive screen time harms physical and mental health.",
+                    "example_vi": "Thời gian màn hình quá mức gây hại cho sức khỏe thể chất và tinh thần."
+                  },
+                  {
+                    "en": "suffer from eye strain",
+                    "vi": "bị mỏi mắt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Students often suffer from eye strain when staring at screens all night.",
+                    "example_vi": "Học sinh thường bị mỏi mắt khi nhìn màn hình suốt đêm."
+                  },
+                  {
+                    "en": "disturb sleep patterns",
+                    "vi": "làm rối loạn giấc ngủ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Blue light from smartphones can severely disturb sleep patterns.",
+                    "example_vi": "Ánh sáng xanh từ điện thoại có thể làm rối loạn nghiêm trọng giấc ngủ."
+                  },
+                  {
+                    "en": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng chú ý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Constant notifications fragment attention spans and lower grades.",
+                    "example_vi": "Thông báo liên tục làm phân mảnh khả năng chú ý và kéo giảm điểm số."
+                  }
+                ]
+              },
+              {
+                "id": "group_social_risk",
+                "name": "Nhóm 2: Quan hệ Xã hội & Rủi ro Mạng (Social Isolation & Online Risks)",
+                "icon": "📱",
+                "badge": "Ảnh hưởng 03–05",
+                "items": [
+                  {
+                    "en": "weaken real-life relationships",
+                    "vi": "làm suy yếu quan hệ ngoài đời thực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Spending hours online can weaken real-life relationships.",
+                    "example_vi": "Dành nhiều giờ trực tuyến có thể làm suy yếu quan hệ đời thực."
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp mặt đối mặt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Families need more face-to-face communication during meals.",
+                    "example_vi": "Các gia đình cần nhiều giao tiếp trực tiếp hơn trong bữa ăn."
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Over-reliance on virtual chat can lead to social isolation.",
+                    "example_vi": "Quá phụ thuộc vào trò chuyện ảo có thể dẫn đến cô lập xã hội."
+                  },
+                  {
+                    "en": "online scams and misinformation",
+                    "vi": "lừa đảo trực tuyến và thông tin sai lệch",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Heavy users are more exposed to online scams and misinformation.",
+                    "example_vi": "Người dùng quá nhiều dễ tiếp xúc hơn với lừa đảo mạng và tin sai lệch."
+                  }
+                ]
+              },
+              {
+                "id": "group_personal_family",
+                "name": "Nhóm 3: Giải pháp Cá nhân & Gia đình (Personal & Family Solutions)",
+                "icon": "🏡",
+                "badge": "Giải pháp 01–03",
+                "items": [
+                  {
+                    "en": "set daily screen-time limits",
+                    "vi": "đặt giới hạn thời gian màn hình hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Individuals should set daily screen-time limits for social media.",
+                    "example_vi": "Mỗi cá nhân nên đặt giới hạn thời gian hằng ngày cho mạng xã hội."
+                  },
+                  {
+                    "en": "outdoor activities and offline hobbies",
+                    "vi": "hoạt động ngoài trời và sở thích đời thực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Joining outdoor activities and offline hobbies keeps people active.",
+                    "example_vi": "Tham gia hoạt động ngoài trời và sở thích đời thực giúp mọi người năng động."
+                  },
+                  {
+                    "en": "device-free hours",
+                    "vi": "khung giờ không thiết bị điện tử",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Establishing device-free hours at dinner strengthens family bonds.",
+                    "example_vi": "Thiết lập khung giờ không thiết bị trong bữa tối giúp thắt chặt tình cảm gia đình."
+                  },
+                  {
+                    "en": "self-regulation",
+                    "vi": "khả năng tự điều chỉnh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Practicing self-regulation helps workers regain focus.",
+                    "example_vi": "Thực hành tự điều chỉnh giúp người lao động lấy lại sự tập trung."
+                  }
+                ]
+              },
+              {
+                "id": "group_school_policy",
+                "name": "Nhóm 4: Giáo dục & Quản lý Nền tảng (Education & Policy Solutions)",
+                "icon": "🏛️",
+                "badge": "Giải pháp 04–05",
+                "items": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Schools and media should raise public awareness of Internet addiction.",
+                    "example_vi": "Nhà trường và truyền thông nên nâng cao nhận thức về nghiện Internet."
+                  },
+                  {
+                    "en": "digital literacy education",
+                    "vi": "giáo dục năng lực số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Digital literacy education equips students to use technology wisely.",
+                    "example_vi": "Giáo dục năng lực số trang bị cho học sinh cách dùng công nghệ thông minh."
+                  },
+                  {
+                    "en": "responsible platform safeguards",
+                    "vi": "biện pháp bảo vệ có trách nhiệm trên nền tảng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Platforms should implement responsible safeguards such as break reminders.",
+                    "example_vi": "Các nền tảng nên áp dụng biện pháp bảo vệ như thông báo nhắc nghỉ ngơi."
+                  },
+                  {
+                    "en": "psychological helplines",
+                    "vi": "đường dây nóng tư vấn tâm lý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Governments can fund psychological helplines for severe Internet addicts.",
+                    "example_vi": "Chính phủ có thể tài trợ đường dây tư vấn tâm lý cho người nghiện mạng nặng."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Sức khỏe",
+                "title": "Hệ lụy sức khỏe và tâm lý khi sử dụng Internet và thiết bị điện tử quá mức",
+                "summary": "Phân tích các tác động của thời gian màn hình kéo dài lên giấc ngủ, thị lực, khả năng tập trung và sức khỏe tinh thần ở thanh thiếu niên cùng các khuyến nghị cân bằng thời gian số.",
+                "url": "https://vnexpress.net/suc-khoe"
+              }
+            ],
+            "en": [
+              {
+                "source": "World Health Organization (WHO)",
+                "title": "Public Health Implications of Excessive Use of the Internet and Digital Devices",
+                "summary": "Overview of physical, cognitive, and psychosocial risks linked to excessive Internet and screen use, alongside prevention and digital well-being recommendations.",
+                "url": "https://www.who.int/"
+              }
+            ]
+          }
+        }
       }
     ]
   },
