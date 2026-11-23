@@ -184324,6 +184324,2935 @@ const ESSAY_DATA = [
             ]
           }
         }
+      },
+      {
+        "id": 54,
+        "title_en": "Fast fashion trends",
+        "title_vi": "Xu hướng thời trang nhanh",
+        "tags": "[Effects & Solutions]",
+        "context": "Nowadays, following fast fashion trends—buying cheap and trendy clothes frequently—has become very popular, especially among young people. However, governments and environmental organizations warn that the fast fashion industry causes serious environmental problems, such as high carbon emissions and pollution. Therefore, many people believe that urgent action is needed to reduce its harm to the planet.",
+        "context_vi": "Ngày nay, việc chạy theo xu hướng thời trang nhanh—thường xuyên mua sắm quần áo giá rẻ, hợp mốt—đã trở nên rất phổ biến, đặc biệt là ở giới trẻ. Tuy nhiên, các chính phủ và tổ chức môi trường cảnh báo rằng ngành công nghiệp thời trang nhanh gây ra nhiều vấn đề môi trường nghiêm trọng, chẳng hạn như lượng khí thải carbon cao và ô nhiễm. Vì vậy, nhiều người cho rằng cần có những hành động khẩn cấp để giảm thiểu tác hại của ngành này đối với hành tinh.",
+        "prompt": "Write an essay to an educated reader to discuss the negative effects of fast fashion trends and suggest possible solutions to reduce their environmental impact. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những tác động tiêu cực của xu hướng thời trang nhanh và đề xuất các giải pháp khả thi nhằm giảm thiểu ảnh hưởng của chúng đến môi trường. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "fast fashion trends",
+            "vi": "xu hướng thời trang nhanh"
+          },
+          {
+            "en": "buying cheap and trendy clothes frequently",
+            "vi": "thường xuyên mua quần áo giá rẻ và hợp mốt"
+          },
+          {
+            "en": "the mass-produced clothing industry",
+            "vi": "ngành công nghiệp quần áo sản xuất hàng loạt"
+          },
+          {
+            "en": "disposable fashion culture",
+            "vi": "văn hóa thời trang dùng nhanh rồi bỏ"
+          },
+          {
+            "en": "mitigate the environmental impact of fashion",
+            "vi": "giảm nhẹ tác động môi trường của ngành thời trang"
+          },
+          {
+            "en": "sustainable and eco-friendly fashion",
+            "vi": "thời trang bền vững và thân thiện với môi trường"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: TẠO RA LƯỢNG RÁC THẢI QUẦN ÁO KHỔNG LỒ",
+                "point_vi": "Thời trang nhanh tạo ra một lượng rác thải quần áo rất lớn mỗi năm.",
+                "point_en": "Fast fashion creates a huge amount of clothing waste every year.",
+                "point_collocations": [
+                  {
+                    "en": "fast fashion",
+                    "vi": "thời trang nhanh"
+                  },
+                  {
+                    "en": "clothing waste",
+                    "vi": "rác thải quần áo"
+                  }
+                ],
+                "evidence_vi": "Vì quần áo giá rẻ nhanh hỏng và sớm lỗi mốt, nhiều người chỉ mặc vài lần rồi vứt ra bãi rác.",
+                "evidence_en": "Because cheap clothes wear out quickly and go out of style soon, many people wear them only a few times before throwing them into landfills.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "wear out quickly",
+                      "vi": "nhanh hỏng / nhanh cũ"
+                    },
+                    {
+                      "en": "go out of style",
+                      "vi": "lỗi mốt"
+                    },
+                    {
+                      "en": "landfills",
+                      "vi": "bãi rác"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fast fashion",
+                    "vi": "thời trang nhanh"
+                  },
+                  {
+                    "en": "clothing waste",
+                    "vi": "rác thải quần áo"
+                  },
+                  {
+                    "en": "wear out quickly",
+                    "vi": "nhanh hỏng / nhanh cũ"
+                  },
+                  {
+                    "en": "go out of style",
+                    "vi": "lỗi mốt"
+                  },
+                  {
+                    "en": "landfills",
+                    "vi": "bãi rác"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM NGUỒN NƯỚC VÀ LÃNG PHÍ TÀI NGUYÊN",
+                "point_vi": "Ngành sản xuất quần áo nhanh tiêu tốn rất nhiều nước sạch và gây ô nhiễm sông hồ.",
+                "point_en": "Fast fashion production uses a lot of clean water and pollutes rivers and lakes.",
+                "point_collocations": [
+                  {
+                    "en": "clean water",
+                    "vi": "nước sạch"
+                  },
+                  {
+                    "en": "pollute rivers and lakes",
+                    "vi": "gây ô nhiễm sông hồ"
+                  }
+                ],
+                "evidence_vi": "Các nhà máy dệt nhuộm thường xả hóa chất độc hại ra nguồn nước tự nhiên, gây hại cho cả sinh vật dưới nước và con người.",
+                "evidence_en": "Textile factories often release harmful dyeing chemicals into natural waterways, harming both aquatic life and local people.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "textile factories",
+                      "vi": "nhà máy dệt may"
+                    },
+                    {
+                      "en": "harmful chemicals",
+                      "vi": "hóa chất độc hại"
+                    },
+                    {
+                      "en": "aquatic life",
+                      "vi": "sinh vật dưới nước"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clean water",
+                    "vi": "nước sạch"
+                  },
+                  {
+                    "en": "pollute rivers and lakes",
+                    "vi": "gây ô nhiễm sông hồ"
+                  },
+                  {
+                    "en": "textile factories",
+                    "vi": "nhà máy dệt may"
+                  },
+                  {
+                    "en": "harmful chemicals",
+                    "vi": "hóa chất độc hại"
+                  },
+                  {
+                    "en": "aquatic life",
+                    "vi": "sinh vật dưới nước"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM GIA TĂNG KHÍ THẢI CARBON VÀ BIẾN ĐỔI KHÍ HẬU",
+                "point_vi": "Thời trang nhanh thải ra nhiều khí carbon và làm tình trạng biến đổi khí hậu nghiêm trọng hơn.",
+                "point_en": "Fast fashion releases large amounts of carbon emissions and makes climate change worse.",
+                "point_collocations": [
+                  {
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  }
+                ],
+                "evidence_vi": "Việc sản xuất hàng loạt bằng vải tổng hợp và vận chuyển quần áo đi khắp thế giới tiêu thụ rất nhiều năng lượng hóa thạch.",
+                "evidence_en": "Mass production using synthetic fabrics and shipping clothes around the world use huge amounts of fossil fuels.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mass production",
+                      "vi": "sản xuất hàng loạt"
+                    },
+                    {
+                      "en": "synthetic fabrics",
+                      "vi": "vải tổng hợp"
+                    },
+                    {
+                      "en": "fossil fuels",
+                      "vi": "nhiên liệu hóa thạch"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  },
+                  {
+                    "en": "mass production",
+                    "vi": "sản xuất hàng loạt"
+                  },
+                  {
+                    "en": "synthetic fabrics",
+                    "vi": "vải tổng hợp"
+                  },
+                  {
+                    "en": "fossil fuels",
+                    "vi": "nhiên liệu hóa thạch"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: THÚC ĐẨY THÓI QUEN MUA SẮM LÃNG PHÍ",
+                "point_vi": "Xu hướng thời trang nhanh khuyến khích người trẻ mua sắm quá mức và lãng phí tiền bạc.",
+                "point_en": "Fast fashion trends encourage young people to buy too many clothes and waste money.",
+                "point_collocations": [
+                  {
+                    "en": "fast fashion trends",
+                    "vi": "xu hướng thời trang nhanh"
+                  },
+                  {
+                    "en": "waste money",
+                    "vi": "lãng phí tiền bạc"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ liên tục chạy theo các mẫu mới trên mạng xã hội nên tủ đồ chứa đầy quần áo hiếm khi mặc đến.",
+                "evidence_en": "Many young shoppers constantly chase new styles on social media, leaving their closets full of items they rarely wear.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chase new styles",
+                      "vi": "chạy theo kiểu dáng mới"
+                    },
+                    {
+                      "en": "rarely wear",
+                      "vi": "hiếm khi mặc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fast fashion trends",
+                    "vi": "xu hướng thời trang nhanh"
+                  },
+                  {
+                    "en": "waste money",
+                    "vi": "lãng phí tiền bạc"
+                  },
+                  {
+                    "en": "chase new styles",
+                    "vi": "chạy theo kiểu dáng mới"
+                  },
+                  {
+                    "en": "rarely wear",
+                    "vi": "hiếm khi mặc"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: ĐIỀU KIỆN LÀM VIỆC KÉM CHO CÔNG NHÂN MAY MẶC",
+                "point_vi": "Để giữ giá quần áo thật rẻ, nhiều công nhân may mặc phải làm việc trong điều kiện kém an toàn.",
+                "point_en": "To keep clothing prices very low, many garment workers have to work in poor conditions.",
+                "point_collocations": [
+                  {
+                    "en": "garment workers",
+                    "vi": "công nhân may mặc"
+                  },
+                  {
+                    "en": "poor conditions",
+                    "vi": "điều kiện kém"
+                  }
+                ],
+                "evidence_vi": "Ở nhiều nhà máy tại các nước đang phát triển, người lao động thường phải làm việc nhiều giờ nhưng chỉ nhận mức lương thấp.",
+                "evidence_en": "In many factories in developing countries, workers often work long hours while receiving very low wages.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "developing countries",
+                      "vi": "các nước đang phát triển"
+                    },
+                    {
+                      "en": "low wages",
+                      "vi": "mức lương thấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "garment workers",
+                    "vi": "công nhân may mặc"
+                  },
+                  {
+                    "en": "poor conditions",
+                    "vi": "điều kiện kém"
+                  },
+                  {
+                    "en": "developing countries",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "low wages",
+                    "vi": "mức lương thấp"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: MUA ÍT HƠN VÀ CHỌN QUẦN ÁO CHẤT LƯỢNG BỀN ĐẸP",
+                "point_vi": "Người tiêu dùng nên mua ít quần áo hơn và ưu tiên những sản phẩm bền, chất lượng tốt.",
+                "point_en": "Consumers should buy fewer clothes and choose durable, high-quality items.",
+                "point_collocations": [
+                  {
+                    "en": "buy fewer clothes",
+                    "vi": "mua ít quần áo hơn"
+                  },
+                  {
+                    "en": "durable, high-quality items",
+                    "vi": "sản phẩm bền và chất lượng tốt"
+                  }
+                ],
+                "evidence_vi": "Quần áo bền có thể mặc trong nhiều năm, giúp tiết kiệm tiền về lâu dài và giảm đáng kể lượng rác thải dệt may.",
+                "evidence_en": "Durable clothes can be worn for many years, saving money in the long run and greatly reducing textile waste.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "in the long run",
+                      "vi": "về lâu dài"
+                    },
+                    {
+                      "en": "textile waste",
+                      "vi": "rác thải dệt may"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "buy fewer clothes",
+                    "vi": "mua ít quần áo hơn"
+                  },
+                  {
+                    "en": "durable, high-quality items",
+                    "vi": "sản phẩm bền và chất lượng tốt"
+                  },
+                  {
+                    "en": "in the long run",
+                    "vi": "về lâu dài"
+                  },
+                  {
+                    "en": "textile waste",
+                    "vi": "rác thải dệt may"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TÁI SỬ DỤNG, SỬA CHỮA VÀ MUA ĐỒ CŨ",
+                "point_vi": "Mọi người nên sửa chữa, quyên góp quần áo cũ và ủng hộ việc mua đồ đã qua sử dụng.",
+                "point_en": "People should repair, donate old clothes, and support buying second-hand items.",
+                "point_collocations": [
+                  {
+                    "en": "donate old clothes",
+                    "vi": "quyên góp quần áo cũ"
+                  },
+                  {
+                    "en": "second-hand items",
+                    "vi": "đồ đã qua sử dụng"
+                  }
+                ],
+                "evidence_vi": "Thay vì vứt bỏ quần áo còn dùng được, việc trao đổi hoặc tặng lại cho người khác giúp kéo dài vòng đời của sản phẩm.",
+                "evidence_en": "Instead of throwing away usable clothes, swapping or giving them to others helps extend the life of garments.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "usable clothes",
+                      "vi": "quần áo còn dùng được"
+                    },
+                    {
+                      "en": "extend the life",
+                      "vi": "kéo dài vòng đời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "donate old clothes",
+                    "vi": "quyên góp quần áo cũ"
+                  },
+                  {
+                    "en": "second-hand items",
+                    "vi": "đồ đã qua sử dụng"
+                  },
+                  {
+                    "en": "usable clothes",
+                    "vi": "quần áo còn dùng được"
+                  },
+                  {
+                    "en": "extend the life",
+                    "vi": "kéo dài vòng đời"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: CÁC THƯƠNG HIỆU SỬ DỤNG CHẤT LIỆU THÂN THIỆN VỚI MÔI TRƯỜNG",
+                "point_vi": "Các hãng thời trang cần chuyển sang dùng vải thân thiện với môi trường và quy trình sản xuất sạch hơn.",
+                "point_en": "Fashion brands need to switch to eco-friendly fabrics and cleaner production methods.",
+                "point_collocations": [
+                  {
+                    "en": "eco-friendly fabrics",
+                    "vi": "vải thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner production methods",
+                    "vi": "phương pháp sản xuất sạch hơn"
+                  }
+                ],
+                "evidence_vi": "Việc sử dụng bông hữu cơ, sợi tái chế và thuốc nhuộm an toàn giúp giảm mạnh lượng nước tiêu thụ và ô nhiễm hóa chất.",
+                "evidence_en": "Using organic cotton, recycled fibers, and safe dyes helps sharply reduce water use and chemical pollution.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organic cotton",
+                      "vi": "bông hữu cơ"
+                    },
+                    {
+                      "en": "recycled fibers",
+                      "vi": "sợi tái chế"
+                    },
+                    {
+                      "en": "chemical pollution",
+                      "vi": "ô nhiễm hóa chất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "eco-friendly fabrics",
+                    "vi": "vải thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner production methods",
+                    "vi": "phương pháp sản xuất sạch hơn"
+                  },
+                  {
+                    "en": "organic cotton",
+                    "vi": "bông hữu cơ"
+                  },
+                  {
+                    "en": "recycled fibers",
+                    "vi": "sợi tái chế"
+                  },
+                  {
+                    "en": "chemical pollution",
+                    "vi": "ô nhiễm hóa chất"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: CHÍNH PHỦ BAN HÀNH QUY ĐỊNH MÔI TRƯỜNG NGHIÊM NGẶT HƠN",
+                "point_vi": "Chính phủ nên áp dụng các quy định chặt chẽ hơn để kiểm soát khí thải và rác thải của ngành thời trang.",
+                "point_en": "Governments should apply stricter rules to control emissions and waste from the fashion industry.",
+                "point_collocations": [
+                  {
+                    "en": "stricter rules",
+                    "vi": "quy định chặt chẽ hơn"
+                  },
+                  {
+                    "en": "fashion industry",
+                    "vi": "ngành công nghiệp thời trang"
+                  }
+                ],
+                "evidence_vi": "Các cơ quan chức năng có thể phạt nặng những nhà máy xả thải bẩn và giảm thuế cho các công ty thời trang bền vững.",
+                "evidence_en": "Authorities can heavily fine polluting factories and offer tax cuts to sustainable fashion companies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "polluting factories",
+                      "vi": "nhà máy gây ô nhiễm"
+                    },
+                    {
+                      "en": "sustainable fashion",
+                      "vi": "thời trang bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stricter rules",
+                    "vi": "quy định chặt chẽ hơn"
+                  },
+                  {
+                    "en": "fashion industry",
+                    "vi": "ngành công nghiệp thời trang"
+                  },
+                  {
+                    "en": "polluting factories",
+                    "vi": "nhà máy gây ô nhiễm"
+                  },
+                  {
+                    "en": "sustainable fashion",
+                    "vi": "thời trang bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: NÂNG CAO NHẬN THỨC CỦA GIỚI TRẺ VỀ THỜI TRANG BỀN VỮNG",
+                "point_vi": "Nhà trường và truyền thông nên nâng cao nhận thức của người trẻ về tác hại của thời trang nhanh.",
+                "point_en": "Schools and media should raise young people's awareness of the harm caused by fast fashion.",
+                "point_collocations": [
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "harm caused by fast fashion",
+                    "vi": "tác hại do thời trang nhanh gây ra"
+                  }
+                ],
+                "evidence_vi": "Khi hiểu rõ cái giá môi trường đằng sau quần áo giá rẻ, người tiêu dùng sẽ lựa chọn mua sắm có trách nhiệm hơn.",
+                "evidence_en": "When consumers understand the environmental cost behind cheap clothing, they will make more responsible shopping choices.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "environmental cost",
+                      "vi": "cái giá môi trường"
+                    },
+                    {
+                      "en": "responsible shopping choices",
+                      "vi": "lựa chọn mua sắm có trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "harm caused by fast fashion",
+                    "vi": "tác hại do thời trang nhanh gây ra"
+                  },
+                  {
+                    "en": "environmental cost",
+                    "vi": "cái giá môi trường"
+                  },
+                  {
+                    "en": "responsible shopping choices",
+                    "vi": "lựa chọn mua sắm có trách nhiệm"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: TẠO RA LƯỢNG RÁC THẢI QUẦN ÁO KHỔNG LỒ",
+                "point_vi": "Thời trang nhanh tạo ra một lượng rác thải quần áo rất lớn mỗi năm.",
+                "point_en": "Fast fashion creates a huge amount of clothing waste every year.",
+                "point_collocations": [
+                  {
+                    "en": "fast fashion",
+                    "vi": "thời trang nhanh"
+                  },
+                  {
+                    "en": "clothing waste",
+                    "vi": "rác thải quần áo"
+                  }
+                ],
+                "evidence_vi": "Vì quần áo giá rẻ nhanh hỏng và sớm lỗi mốt, nhiều người chỉ mặc vài lần rồi vứt ra bãi rác.",
+                "evidence_en": "Because cheap clothes wear out quickly and go out of style soon, many people wear them only a few times before throwing them into landfills.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "wear out quickly",
+                      "vi": "nhanh hỏng / nhanh cũ"
+                    },
+                    {
+                      "en": "go out of style",
+                      "vi": "lỗi mốt"
+                    },
+                    {
+                      "en": "landfills",
+                      "vi": "bãi rác"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fast fashion",
+                    "vi": "thời trang nhanh"
+                  },
+                  {
+                    "en": "clothing waste",
+                    "vi": "rác thải quần áo"
+                  },
+                  {
+                    "en": "wear out quickly",
+                    "vi": "nhanh hỏng / nhanh cũ"
+                  },
+                  {
+                    "en": "go out of style",
+                    "vi": "lỗi mốt"
+                  },
+                  {
+                    "en": "landfills",
+                    "vi": "bãi rác"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM NGUỒN NƯỚC VÀ LÃNG PHÍ TÀI NGUYÊN",
+                "point_vi": "Ngành sản xuất quần áo nhanh tiêu tốn rất nhiều nước sạch và gây ô nhiễm sông hồ.",
+                "point_en": "Fast fashion production uses a lot of clean water and pollutes rivers and lakes.",
+                "point_collocations": [
+                  {
+                    "en": "clean water",
+                    "vi": "nước sạch"
+                  },
+                  {
+                    "en": "pollute rivers and lakes",
+                    "vi": "gây ô nhiễm sông hồ"
+                  }
+                ],
+                "evidence_vi": "Các nhà máy dệt nhuộm thường xả hóa chất độc hại ra nguồn nước tự nhiên, gây hại cho cả sinh vật dưới nước và con người.",
+                "evidence_en": "Textile factories often release harmful dyeing chemicals into natural waterways, harming both aquatic life and local people.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "textile factories",
+                      "vi": "nhà máy dệt may"
+                    },
+                    {
+                      "en": "harmful chemicals",
+                      "vi": "hóa chất độc hại"
+                    },
+                    {
+                      "en": "aquatic life",
+                      "vi": "sinh vật dưới nước"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clean water",
+                    "vi": "nước sạch"
+                  },
+                  {
+                    "en": "pollute rivers and lakes",
+                    "vi": "gây ô nhiễm sông hồ"
+                  },
+                  {
+                    "en": "textile factories",
+                    "vi": "nhà máy dệt may"
+                  },
+                  {
+                    "en": "harmful chemicals",
+                    "vi": "hóa chất độc hại"
+                  },
+                  {
+                    "en": "aquatic life",
+                    "vi": "sinh vật dưới nước"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM GIA TĂNG KHÍ THẢI CARBON VÀ BIẾN ĐỔI KHÍ HẬU",
+                "point_vi": "Thời trang nhanh thải ra nhiều khí carbon và làm tình trạng biến đổi khí hậu nghiêm trọng hơn.",
+                "point_en": "Fast fashion releases large amounts of carbon emissions and makes climate change worse.",
+                "point_collocations": [
+                  {
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  }
+                ],
+                "evidence_vi": "Việc sản xuất hàng loạt bằng vải tổng hợp và vận chuyển quần áo đi khắp thế giới tiêu thụ rất nhiều năng lượng hóa thạch.",
+                "evidence_en": "Mass production using synthetic fabrics and shipping clothes around the world use huge amounts of fossil fuels.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mass production",
+                      "vi": "sản xuất hàng loạt"
+                    },
+                    {
+                      "en": "synthetic fabrics",
+                      "vi": "vải tổng hợp"
+                    },
+                    {
+                      "en": "fossil fuels",
+                      "vi": "nhiên liệu hóa thạch"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  },
+                  {
+                    "en": "mass production",
+                    "vi": "sản xuất hàng loạt"
+                  },
+                  {
+                    "en": "synthetic fabrics",
+                    "vi": "vải tổng hợp"
+                  },
+                  {
+                    "en": "fossil fuels",
+                    "vi": "nhiên liệu hóa thạch"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: THÚC ĐẨY THÓI QUEN MUA SẮM LÃNG PHÍ",
+                "point_vi": "Xu hướng thời trang nhanh khuyến khích người trẻ mua sắm quá mức và lãng phí tiền bạc.",
+                "point_en": "Fast fashion trends encourage young people to buy too many clothes and waste money.",
+                "point_collocations": [
+                  {
+                    "en": "fast fashion trends",
+                    "vi": "xu hướng thời trang nhanh"
+                  },
+                  {
+                    "en": "waste money",
+                    "vi": "lãng phí tiền bạc"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ liên tục chạy theo các mẫu mới trên mạng xã hội nên tủ đồ chứa đầy quần áo hiếm khi mặc đến.",
+                "evidence_en": "Many young shoppers constantly chase new styles on social media, leaving their closets full of items they rarely wear.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chase new styles",
+                      "vi": "chạy theo kiểu dáng mới"
+                    },
+                    {
+                      "en": "rarely wear",
+                      "vi": "hiếm khi mặc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fast fashion trends",
+                    "vi": "xu hướng thời trang nhanh"
+                  },
+                  {
+                    "en": "waste money",
+                    "vi": "lãng phí tiền bạc"
+                  },
+                  {
+                    "en": "chase new styles",
+                    "vi": "chạy theo kiểu dáng mới"
+                  },
+                  {
+                    "en": "rarely wear",
+                    "vi": "hiếm khi mặc"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: ĐIỀU KIỆN LÀM VIỆC KÉM CHO CÔNG NHÂN MAY MẶC",
+                "point_vi": "Để giữ giá quần áo thật rẻ, nhiều công nhân may mặc phải làm việc trong điều kiện kém an toàn.",
+                "point_en": "To keep clothing prices very low, many garment workers have to work in poor conditions.",
+                "point_collocations": [
+                  {
+                    "en": "garment workers",
+                    "vi": "công nhân may mặc"
+                  },
+                  {
+                    "en": "poor conditions",
+                    "vi": "điều kiện kém"
+                  }
+                ],
+                "evidence_vi": "Ở nhiều nhà máy tại các nước đang phát triển, người lao động thường phải làm việc nhiều giờ nhưng chỉ nhận mức lương thấp.",
+                "evidence_en": "In many factories in developing countries, workers often work long hours while receiving very low wages.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "developing countries",
+                      "vi": "các nước đang phát triển"
+                    },
+                    {
+                      "en": "low wages",
+                      "vi": "mức lương thấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "garment workers",
+                    "vi": "công nhân may mặc"
+                  },
+                  {
+                    "en": "poor conditions",
+                    "vi": "điều kiện kém"
+                  },
+                  {
+                    "en": "developing countries",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "low wages",
+                    "vi": "mức lương thấp"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: MUA ÍT HƠN VÀ CHỌN QUẦN ÁO CHẤT LƯỢNG BỀN ĐẸP",
+                "point_vi": "Người tiêu dùng nên mua ít quần áo hơn và ưu tiên những sản phẩm bền, chất lượng tốt.",
+                "point_en": "Consumers should buy fewer clothes and choose durable, high-quality items.",
+                "point_collocations": [
+                  {
+                    "en": "buy fewer clothes",
+                    "vi": "mua ít quần áo hơn"
+                  },
+                  {
+                    "en": "durable, high-quality items",
+                    "vi": "sản phẩm bền và chất lượng tốt"
+                  }
+                ],
+                "evidence_vi": "Quần áo bền có thể mặc trong nhiều năm, giúp tiết kiệm tiền về lâu dài và giảm đáng kể lượng rác thải dệt may.",
+                "evidence_en": "Durable clothes can be worn for many years, saving money in the long run and greatly reducing textile waste.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "in the long run",
+                      "vi": "về lâu dài"
+                    },
+                    {
+                      "en": "textile waste",
+                      "vi": "rác thải dệt may"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "buy fewer clothes",
+                    "vi": "mua ít quần áo hơn"
+                  },
+                  {
+                    "en": "durable, high-quality items",
+                    "vi": "sản phẩm bền và chất lượng tốt"
+                  },
+                  {
+                    "en": "in the long run",
+                    "vi": "về lâu dài"
+                  },
+                  {
+                    "en": "textile waste",
+                    "vi": "rác thải dệt may"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TÁI SỬ DỤNG, SỬA CHỮA VÀ MUA ĐỒ CŨ",
+                "point_vi": "Mọi người nên sửa chữa, quyên góp quần áo cũ và ủng hộ việc mua đồ đã qua sử dụng.",
+                "point_en": "People should repair, donate old clothes, and support buying second-hand items.",
+                "point_collocations": [
+                  {
+                    "en": "donate old clothes",
+                    "vi": "quyên góp quần áo cũ"
+                  },
+                  {
+                    "en": "second-hand items",
+                    "vi": "đồ đã qua sử dụng"
+                  }
+                ],
+                "evidence_vi": "Thay vì vứt bỏ quần áo còn dùng được, việc trao đổi hoặc tặng lại cho người khác giúp kéo dài vòng đời của sản phẩm.",
+                "evidence_en": "Instead of throwing away usable clothes, swapping or giving them to others helps extend the life of garments.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "usable clothes",
+                      "vi": "quần áo còn dùng được"
+                    },
+                    {
+                      "en": "extend the life",
+                      "vi": "kéo dài vòng đời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "donate old clothes",
+                    "vi": "quyên góp quần áo cũ"
+                  },
+                  {
+                    "en": "second-hand items",
+                    "vi": "đồ đã qua sử dụng"
+                  },
+                  {
+                    "en": "usable clothes",
+                    "vi": "quần áo còn dùng được"
+                  },
+                  {
+                    "en": "extend the life",
+                    "vi": "kéo dài vòng đời"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: CÁC THƯƠNG HIỆU SỬ DỤNG CHẤT LIỆU THÂN THIỆN VỚI MÔI TRƯỜNG",
+                "point_vi": "Các hãng thời trang cần chuyển sang dùng vải thân thiện với môi trường và quy trình sản xuất sạch hơn.",
+                "point_en": "Fashion brands need to switch to eco-friendly fabrics and cleaner production methods.",
+                "point_collocations": [
+                  {
+                    "en": "eco-friendly fabrics",
+                    "vi": "vải thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner production methods",
+                    "vi": "phương pháp sản xuất sạch hơn"
+                  }
+                ],
+                "evidence_vi": "Việc sử dụng bông hữu cơ, sợi tái chế và thuốc nhuộm an toàn giúp giảm mạnh lượng nước tiêu thụ và ô nhiễm hóa chất.",
+                "evidence_en": "Using organic cotton, recycled fibers, and safe dyes helps sharply reduce water use and chemical pollution.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organic cotton",
+                      "vi": "bông hữu cơ"
+                    },
+                    {
+                      "en": "recycled fibers",
+                      "vi": "sợi tái chế"
+                    },
+                    {
+                      "en": "chemical pollution",
+                      "vi": "ô nhiễm hóa chất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "eco-friendly fabrics",
+                    "vi": "vải thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner production methods",
+                    "vi": "phương pháp sản xuất sạch hơn"
+                  },
+                  {
+                    "en": "organic cotton",
+                    "vi": "bông hữu cơ"
+                  },
+                  {
+                    "en": "recycled fibers",
+                    "vi": "sợi tái chế"
+                  },
+                  {
+                    "en": "chemical pollution",
+                    "vi": "ô nhiễm hóa chất"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: CHÍNH PHỦ BAN HÀNH QUY ĐỊNH MÔI TRƯỜNG NGHIÊM NGẶT HƠN",
+                "point_vi": "Chính phủ nên áp dụng các quy định chặt chẽ hơn để kiểm soát khí thải và rác thải của ngành thời trang.",
+                "point_en": "Governments should apply stricter rules to control emissions and waste from the fashion industry.",
+                "point_collocations": [
+                  {
+                    "en": "stricter rules",
+                    "vi": "quy định chặt chẽ hơn"
+                  },
+                  {
+                    "en": "fashion industry",
+                    "vi": "ngành công nghiệp thời trang"
+                  }
+                ],
+                "evidence_vi": "Các cơ quan chức năng có thể phạt nặng những nhà máy xả thải bẩn và giảm thuế cho các công ty thời trang bền vững.",
+                "evidence_en": "Authorities can heavily fine polluting factories and offer tax cuts to sustainable fashion companies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "polluting factories",
+                      "vi": "nhà máy gây ô nhiễm"
+                    },
+                    {
+                      "en": "sustainable fashion",
+                      "vi": "thời trang bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stricter rules",
+                    "vi": "quy định chặt chẽ hơn"
+                  },
+                  {
+                    "en": "fashion industry",
+                    "vi": "ngành công nghiệp thời trang"
+                  },
+                  {
+                    "en": "polluting factories",
+                    "vi": "nhà máy gây ô nhiễm"
+                  },
+                  {
+                    "en": "sustainable fashion",
+                    "vi": "thời trang bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: NÂNG CAO NHẬN THỨC CỦA GIỚI TRẺ VỀ THỜI TRANG BỀN VỮNG",
+                "point_vi": "Nhà trường và truyền thông nên nâng cao nhận thức của người trẻ về tác hại của thời trang nhanh.",
+                "point_en": "Schools and media should raise young people's awareness of the harm caused by fast fashion.",
+                "point_collocations": [
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "harm caused by fast fashion",
+                    "vi": "tác hại do thời trang nhanh gây ra"
+                  }
+                ],
+                "evidence_vi": "Khi hiểu rõ cái giá môi trường đằng sau quần áo giá rẻ, người tiêu dùng sẽ lựa chọn mua sắm có trách nhiệm hơn.",
+                "evidence_en": "When consumers understand the environmental cost behind cheap clothing, they will make more responsible shopping choices.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "environmental cost",
+                      "vi": "cái giá môi trường"
+                    },
+                    {
+                      "en": "responsible shopping choices",
+                      "vi": "lựa chọn mua sắm có trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise awareness",
+                    "vi": "nâng cao nhận thức"
+                  },
+                  {
+                    "en": "harm caused by fast fashion",
+                    "vi": "tác hại do thời trang nhanh gây ra"
+                  },
+                  {
+                    "en": "environmental cost",
+                    "vi": "cái giá môi trường"
+                  },
+                  {
+                    "en": "responsible shopping choices",
+                    "vi": "lựa chọn mua sắm có trách nhiệm"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: TẠO RA KHỐI LƯỢNG RÁC THẢI DỆT MAY KHỔNG LỒ (GENERATING MASSIVE TEXTILE WASTE)",
+                "point_vi": "Mô hình thời trang nhanh tạo ra khối lượng rác thải dệt may khổng lồ gây quá tải nghiêm trọng cho các bãi chôn lấp.",
+                "point_en": "The fast fashion model generates enormous volumes of textile waste that severely overburden landfills worldwide.",
+                "point_collocations": [
+                  {
+                    "en": "textile waste",
+                    "vi": "rác thải dệt may"
+                  },
+                  {
+                    "en": "overburden landfills",
+                    "vi": "làm quá tải bãi chôn lấp"
+                  }
+                ],
+                "evidence_vi": "Các thương hiệu liên tục tung ra hàng chục bộ sưu tập giá rẻ chất lượng thấp mỗi năm, khiến quần áo nhanh chóng hư hỏng hoặc bị coi là lỗi thời chỉ sau vài lần mặc. Phần lớn trang phục bị loại bỏ được làm từ sợi tổng hợp như polyester mất hàng trăm năm để phân hủy, giải phóng vi nhựa và khí độc vào đất.",
+                "evidence_en": "Retailers release dozens of low-quality, inexpensive collections annually, causing garments to fall apart or seem outdated after just a few wears. Most discarded clothing is made from synthetic fibers like polyester that take centuries to decompose, leaching microplastics and toxic gases into the soil.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "inexpensive collections",
+                      "vi": "bộ sưu tập giá rẻ"
+                    },
+                    {
+                      "en": "fall apart",
+                      "vi": "nhanh chóng hư hỏng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "synthetic fibers",
+                      "vi": "sợi tổng hợp"
+                    },
+                    {
+                      "en": "leach microplastics",
+                      "vi": "rò rỉ hạt vi nhựa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "textile waste",
+                    "vi": "rác thải dệt may"
+                  },
+                  {
+                    "en": "overburden landfills",
+                    "vi": "làm quá tải bãi chôn lấp"
+                  },
+                  {
+                    "en": "inexpensive collections",
+                    "vi": "bộ sưu tập giá rẻ"
+                  },
+                  {
+                    "en": "fall apart",
+                    "vi": "nhanh chóng hư hỏng"
+                  },
+                  {
+                    "en": "synthetic fibers",
+                    "vi": "sợi tổng hợp"
+                  },
+                  {
+                    "en": "leach microplastics",
+                    "vi": "rò rỉ hạt vi nhựa"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: Ô NHIỄM NGUỒN NƯỚC VÀ CẠN KIỆT TÀI NGUYÊN THIÊN NHIÊN (WATER POLLUTION AND RESOURCE DEPLETION)",
+                "point_vi": "Quy trình sản xuất thời trang nhanh tiêu thụ lượng tài nguyên nước khổng lồ và làm ô nhiễm nặng nề các hệ sinh thái thủy sinh.",
+                "point_en": "Fast fashion manufacturing consumes vast freshwater resources and severely pollutes aquatic ecosystems.",
+                "point_collocations": [
+                  {
+                    "en": "freshwater resources",
+                    "vi": "tài nguyên nước ngọt"
+                  },
+                  {
+                    "en": "aquatic ecosystems",
+                    "vi": "hệ sinh thái thủy sinh"
+                  }
+                ],
+                "evidence_vi": "Việc trồng bông và xử lý vải vóc đòi hỏi hàng nghìn lít nước chỉ để tạo ra một sản phẩm duy nhất, đẩy nhiều vùng khô hạn vào tình trạng khan hiếm nước. Hơn nữa, nước thải chứa thuốc nhuộm độc hại và hóa chất xử lý vải chưa qua lọc thường bị xả thẳng ra sông ngòi, đe dọa sinh vật thủy sinh và sức khỏe cộng đồng địa phương.",
+                "evidence_en": "Cultivating cotton and processing fabrics require thousands of liters of water to produce even a single garment, intensifying scarcity in drought-prone regions. Moreover, untreated wastewater loaded with toxic dyes and chemical treatments is frequently discharged into rivers, endangering marine life and local drinking supplies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "drought-prone regions",
+                      "vi": "vùng dễ xảy ra hạn hán"
+                    },
+                    {
+                      "en": "intensify scarcity",
+                      "vi": "làm trầm trọng sự khan hiếm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "untreated wastewater",
+                      "vi": "nước thải chưa qua xử lý"
+                    },
+                    {
+                      "en": "toxic dyes",
+                      "vi": "thuốc nhuộm độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "freshwater resources",
+                    "vi": "tài nguyên nước ngọt"
+                  },
+                  {
+                    "en": "aquatic ecosystems",
+                    "vi": "hệ sinh thái thủy sinh"
+                  },
+                  {
+                    "en": "drought-prone regions",
+                    "vi": "vùng dễ xảy ra hạn hán"
+                  },
+                  {
+                    "en": "intensify scarcity",
+                    "vi": "làm trầm trọng sự khan hiếm"
+                  },
+                  {
+                    "en": "untreated wastewater",
+                    "vi": "nước thải chưa qua xử lý"
+                  },
+                  {
+                    "en": "toxic dyes",
+                    "vi": "thuốc nhuộm độc hại"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: PHÁT THẢI CARBON CAO VÀ ĐẨY NHANH BIẾN ĐỔI KHÍ HẬU (ACCELERATING CARBON EMISSIONS AND CLIMATE CHANGE)",
+                "point_vi": "Ngành công nghiệp thời trang nhanh là một trong những nguồn phát thải carbon lớn, góp phần đẩy nhanh biến đổi khí hậu toàn cầu.",
+                "point_en": "The fast fashion industry is a major source of global carbon emissions, significantly accelerating climate change.",
+                "point_collocations": [
+                  {
+                    "en": "global carbon emissions",
+                    "vi": "phát thải carbon toàn cầu"
+                  },
+                  {
+                    "en": "accelerate climate change",
+                    "vi": "đẩy nhanh biến đổi khí hậu"
+                  }
+                ],
+                "evidence_vi": "Việc sản xuất sợi nhân tạo từ dầu mỏ và vận hành các nhà máy dệt may quy mô lớn phụ thuộc nặng nề vào nguồn nhiên liệu hóa thạch. Đồng thời, mạng lưới vận chuyển hàng không và đường biển liên tục để kịp giao các mẫu mới ra thị trường quốc tế càng làm phình to dấu chân carbon của toàn ngành.",
+                "evidence_en": "Producing petroleum-based synthetic fabrics and operating mass-scale textile factories rely heavily on fossil fuel energy. Simultaneously, rapid global air and sea shipping designed to rush trendy items to international stores further enlarges the industry's carbon footprint.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "petroleum-based fabrics",
+                      "vi": "vải tổng hợp gốc dầu mỏ"
+                    },
+                    {
+                      "en": "fossil fuel energy",
+                      "vi": "năng lượng nhiên liệu hóa thạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "carbon footprint",
+                      "vi": "dấu chân carbon"
+                    },
+                    {
+                      "en": "international stores",
+                      "vi": "cửa hàng quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "global carbon emissions",
+                    "vi": "phát thải carbon toàn cầu"
+                  },
+                  {
+                    "en": "accelerate climate change",
+                    "vi": "đẩy nhanh biến đổi khí hậu"
+                  },
+                  {
+                    "en": "petroleum-based fabrics",
+                    "vi": "vải tổng hợp gốc dầu mỏ"
+                  },
+                  {
+                    "en": "fossil fuel energy",
+                    "vi": "năng lượng nhiên liệu hóa thạch"
+                  },
+                  {
+                    "en": "carbon footprint",
+                    "vi": "dấu chân carbon"
+                  },
+                  {
+                    "en": "international stores",
+                    "vi": "cửa hàng quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: NUÔI DƯỠNG VĂN HÓA TIÊU DÙNG LÃNG PHÍ (FUELING OVERCONSUMPTION AND THROWAWAY CULTURE)",
+                "point_vi": "Các xu hướng thời trang thay đổi chóng mặt thúc đẩy văn hóa tiêu dùng lãng phí và tạo áp lực chi tiêu cho giới trẻ.",
+                "point_en": "Rapidly shifting fashion trends foster a wasteful throwaway culture and encourage impulsive spending among young consumers.",
+                "point_collocations": [
+                  {
+                    "en": "throwaway culture",
+                    "vi": "văn hóa dùng một lần rồi vứt"
+                  },
+                  {
+                    "en": "impulsive spending",
+                    "vi": "chi tiêu bốc đồng"
+                  }
+                ],
+                "evidence_vi": "Chiến dịch quảng cáo dày đặc từ các thương hiệu và người có sức ảnh hưởng trên mạng xã hội khiến người trẻ luôn cảm thấy trang phục của mình nhanh chóng lỗi mốt. Kết quả là họ liên tục mua sắm vượt quá nhu cầu thực tế, vừa lãng phí thu nhập cá nhân vừa làm gia tăng nhu cầu khai thác tài nguyên không bền vững.",
+                "evidence_en": "Aggressive marketing from brands and social media influencers convinces young shoppers that their wardrobes are perpetually outdated. Consequently, they continuously purchase far more clothes than necessary, draining personal finances while driving unsustainable resource extraction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "aggressive marketing",
+                      "vi": "tiếp thị dày đặc"
+                    },
+                    {
+                      "en": "perpetually outdated",
+                      "vi": "luôn bị coi là lỗi thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "drain personal finances",
+                      "vi": "làm cạn kiệt tài chính cá nhân"
+                    },
+                    {
+                      "en": "unsustainable extraction",
+                      "vi": "khai thác thiếu bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "throwaway culture",
+                    "vi": "văn hóa dùng một lần rồi vứt"
+                  },
+                  {
+                    "en": "impulsive spending",
+                    "vi": "chi tiêu bốc đồng"
+                  },
+                  {
+                    "en": "aggressive marketing",
+                    "vi": "tiếp thị dày đặc"
+                  },
+                  {
+                    "en": "perpetually outdated",
+                    "vi": "luôn bị coi là lỗi thời"
+                  },
+                  {
+                    "en": "drain personal finances",
+                    "vi": "làm cạn kiệt tài chính cá nhân"
+                  },
+                  {
+                    "en": "unsustainable extraction",
+                    "vi": "khai thác thiếu bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: BÓC LỘT LAO ĐỘNG VÀ ĐIỀU KIỆN LÀM VIỆC KHÔNG AN TOÀN (EXPLOITATIVE LABOR CONDITIONS)",
+                "point_vi": "Áp lực cắt giảm chi phí tối đa và đẩy nhanh tiến độ sản xuất thường dẫn đến tình trạng bóc lột lao động trong chuỗi cung ứng may mặc.",
+                "point_en": "The relentless drive for rock-bottom prices and rapid turnaround frequently leads to exploitative labor conditions across garment supply chains.",
+                "point_collocations": [
+                  {
+                    "en": "rock-bottom prices",
+                    "vi": "mức giá rẻ mạt"
+                  },
+                  {
+                    "en": "exploitative labor conditions",
+                    "vi": "điều kiện lao động mang tính bóc lột"
+                  }
+                ],
+                "evidence_vi": "Để tối đa hóa lợi nhuận trên từng sản phẩm giá rẻ, nhiều nhà cung cấp tại các quốc gia đang phát triển ép công nhân tăng ca quá mức với mức lương không đủ sống. Thậm chí, nhiều xưởng may còn cắt giảm chi phí bảo hộ lao động, khiến công nhân phải thường xuyên tiếp xúc với hóa chất độc hại trong môi trường kém an toàn.",
+                "evidence_en": "To maximize profits on ultra-cheap garments, many overseas suppliers force workers to endure excessive overtime for poverty-level wages. In severe cases, factories cut corners on workplace safety, exposing employees to hazardous chemicals and unsafe working conditions daily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "excessive overtime",
+                      "vi": "làm thêm giờ quá mức"
+                    },
+                    {
+                      "en": "poverty-level wages",
+                      "vi": "mức lương nghèo đói"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cut corners on safety",
+                      "vi": "cắt xén tiêu chuẩn an toàn"
+                    },
+                    {
+                      "en": "hazardous chemicals",
+                      "vi": "hóa chất nguy hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rock-bottom prices",
+                    "vi": "mức giá rẻ mạt"
+                  },
+                  {
+                    "en": "exploitative labor conditions",
+                    "vi": "điều kiện lao động mang tính bóc lột"
+                  },
+                  {
+                    "en": "excessive overtime",
+                    "vi": "làm thêm giờ quá mức"
+                  },
+                  {
+                    "en": "poverty-level wages",
+                    "vi": "mức lương nghèo đói"
+                  },
+                  {
+                    "en": "cut corners on safety",
+                    "vi": "cắt xén tiêu chuẩn an toàn"
+                  },
+                  {
+                    "en": "hazardous chemicals",
+                    "vi": "hóa chất nguy hại"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: THÚC ĐẨY TIÊU DÙNG CÓ Ý THỨC VÀ ĐẦU TƯ VÀO CHẤT LƯỢNG (PROMOTING MINDFUL CONSUMPTION)",
+                "point_vi": "Người tiêu dùng nên chuyển sang lối sống mua sắm có ý thức bằng cách giảm số lượng và ưu tiên trang phục bền đẹp, lâu dài.",
+                "point_en": "Consumers should embrace mindful consumption by buying fewer items and investing in timeless, high-quality garments.",
+                "point_collocations": [
+                  {
+                    "en": "mindful consumption",
+                    "vi": "tiêu dùng có ý thức"
+                  },
+                  {
+                    "en": "timeless, high-quality garments",
+                    "vi": "trang phục chất lượng cao không lỗi mốt"
+                  }
+                ],
+                "evidence_vi": "Thay vì chạy theo từng trào lưu ngắn ngủi trên mạng xã hội, người mua có thể xây dựng tủ đồ tối giản gồm những món cơ bản dễ phối và bền chắc. Sự thay đổi hành vi từ phía người tiêu dùng sẽ trực tiếp thu hẹp nhu cầu thị trường đối với quần áo giá rẻ kém chất lượng và cắt giảm rác thải ngay từ gốc.",
+                "evidence_en": "Rather than chasing every fleeting micro-trend on social media, shoppers can build minimalist wardrobes centered on versatile, well-made essentials. Shifting consumer demand away from disposable clothing directly curbs overproduction and cuts textile waste at its source.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fleeting micro-trends",
+                      "vi": "trào lưu vi mô ngắn ngủi"
+                    },
+                    {
+                      "en": "minimalist wardrobes",
+                      "vi": "tủ đồ tối giản"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "curb overproduction",
+                      "vi": "kiềm chế sản xuất dư thừa"
+                    },
+                    {
+                      "en": "at its source",
+                      "vi": "ngay từ gốc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mindful consumption",
+                    "vi": "tiêu dùng có ý thức"
+                  },
+                  {
+                    "en": "timeless, high-quality garments",
+                    "vi": "trang phục chất lượng cao không lỗi mốt"
+                  },
+                  {
+                    "en": "fleeting micro-trends",
+                    "vi": "trào lưu vi mô ngắn ngủi"
+                  },
+                  {
+                    "en": "minimalist wardrobes",
+                    "vi": "tủ đồ tối giản"
+                  },
+                  {
+                    "en": "curb overproduction",
+                    "vi": "kiềm chế sản xuất dư thừa"
+                  },
+                  {
+                    "en": "at its source",
+                    "vi": "ngay từ gốc"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: KHUYẾN KHÍCH KINH TẾ TUẦN HOÀN QUA TÁI SỬ DỤNG VÀ ĐỒ CŨ (ENCOURAGING CIRCULAR FASHION AND SECOND-HAND MARKETS)",
+                "point_vi": "Mở rộng thói quen sửa chữa, trao đổi, thuê trang phục và mua sắm đồ đã qua sử dụng là giải pháp thiết thực để kéo dài vòng đời quần áo.",
+                "point_en": "Expanding clothing repair, rental services, and second-hand shopping offers a practical way to extend garment lifecycles.",
+                "point_collocations": [
+                  {
+                    "en": "extend garment lifecycles",
+                    "vi": "kéo dài vòng đời trang phục"
+                  },
+                  {
+                    "en": "second-hand shopping",
+                    "vi": "mua sắm đồ đã qua sử dụng"
+                  }
+                ],
+                "evidence_vi": "Các nền tảng mua bán đồ cũ trực tuyến, cửa hàng ký gửi và dịch vụ cho thuê trang phục dự tiệc giúp người trẻ làm mới phong cách với chi phí hợp lý mà không tạo thêm nhu cầu sản xuất mới. Đồng thời, việc sửa chữa hoặc quyên góp quần áo còn tốt cho tổ chức từ thiện giúp ngăn hàng triệu tấn vải vóc bị chôn lấp lãng phí.",
+                "evidence_en": "Online resale platforms, thrift stores, and event-wear rental services allow young people to refresh their style affordably without fueling new manufacturing. Meanwhile, mending minor damage or donating wearable clothes to charities prevents millions of tons of textiles from ending up in landfills.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "online resale platforms",
+                      "vi": "nền tảng mua bán đồ cũ trực tuyến"
+                    },
+                    {
+                      "en": "thrift stores",
+                      "vi": "cửa hàng đồ cũ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mending minor damage",
+                      "vi": "sửa chữa hư hỏng nhỏ"
+                    },
+                    {
+                      "en": "end up in landfills",
+                      "vi": "bị thải ra bãi rác"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extend garment lifecycles",
+                    "vi": "kéo dài vòng đời trang phục"
+                  },
+                  {
+                    "en": "second-hand shopping",
+                    "vi": "mua sắm đồ đã qua sử dụng"
+                  },
+                  {
+                    "en": "online resale platforms",
+                    "vi": "nền tảng mua bán đồ cũ trực tuyến"
+                  },
+                  {
+                    "en": "thrift stores",
+                    "vi": "cửa hàng đồ cũ"
+                  },
+                  {
+                    "en": "mending minor damage",
+                    "vi": "sửa chữa hư hỏng nhỏ"
+                  },
+                  {
+                    "en": "end up in landfills",
+                    "vi": "bị thải ra bãi rác"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: ĐỔI MỚI CÔNG NGHỆ SẢN XUẤT VÀ VẬT LIỆU BỀN VỮNG (ADOPTING ECO-FRIENDLY MATERIALS AND CLEAN PRODUCTION)",
+                "point_vi": "Các doanh nghiệp thời trang cần đầu tư mạnh vào vật liệu tái chế thân thiện môi trường và quy trình sản xuất sạch hơn.",
+                "point_en": "Fashion companies must invest heavily in eco-friendly materials, textile recycling, and cleaner manufacturing technologies.",
+                "point_collocations": [
+                  {
+                    "en": "eco-friendly materials",
+                    "vi": "vật liệu thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner manufacturing",
+                    "vi": "quy trình sản xuất sạch hơn"
+                  }
+                ],
+                "evidence_vi": "Việc sử dụng bông hữu cơ, vải sợi tái chế từ chai nhựa và công nghệ nhuộm không dùng nước giúp giảm mạnh lượng khí thải carbon lẫn hóa chất độc hại. Hơn nữa, các thương hiệu lớn nên triển khai chương trình thu hồi quần áo cũ tại cửa hàng để tái chế thành sợi mới cho chu kỳ sản xuất tiếp theo.",
+                "evidence_en": "Switching to organic cotton, recycled fibers, and waterless dyeing innovations dramatically lowers both carbon emissions and toxic runoff. Furthermore, major brands can operate in-store take-back schemes to recycle worn-out garments into fresh fibers for future collections.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "waterless dyeing",
+                      "vi": "công nghệ nhuộm không dùng nước"
+                    },
+                    {
+                      "en": "toxic runoff",
+                      "vi": "dòng thải độc hại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take-back schemes",
+                      "vi": "chương trình thu hồi sản phẩm cũ"
+                    },
+                    {
+                      "en": "worn-out garments",
+                      "vi": "quần áo đã cũ sờn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "eco-friendly materials",
+                    "vi": "vật liệu thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner manufacturing",
+                    "vi": "quy trình sản xuất sạch hơn"
+                  },
+                  {
+                    "en": "waterless dyeing",
+                    "vi": "công nghệ nhuộm không dùng nước"
+                  },
+                  {
+                    "en": "toxic runoff",
+                    "vi": "dòng thải độc hại"
+                  },
+                  {
+                    "en": "take-back schemes",
+                    "vi": "chương trình thu hồi sản phẩm cũ"
+                  },
+                  {
+                    "en": "worn-out garments",
+                    "vi": "quần áo đã cũ sờn"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: THỰC THI QUY ĐỊNH MÔI TRƯỜNG VÀ CHÍNH SÁCH THUẾ NGHIÊM NGẶT (ENFORCING STRICT ENVIRONMENTAL REGULATIONS)",
+                "point_vi": "Chính phủ cần ban hành các tiêu chuẩn môi trường nghiêm ngặt và công cụ thuế nhằm buộc ngành thời trang phải chịu trách nhiệm về tác động sinh thái.",
+                "point_en": "Governments should enact stringent environmental regulations and fiscal policies to hold fashion corporations accountable for their ecological impact.",
+                "point_collocations": [
+                  {
+                    "en": "stringent environmental regulations",
+                    "vi": "quy định môi trường nghiêm ngặt"
+                  },
+                  {
+                    "en": "hold accountable",
+                    "vi": "buộc chịu trách nhiệm"
+                  }
+                ],
+                "evidence_vi": "Các cơ quan quản lý có thể áp thuế carbon đối với quy trình sản xuất gây ô nhiễm cao, cấm tiêu hủy hàng tồn kho chưa bán và yêu cầu minh bạch chuỗi cung ứng. Ngược lại, việc cung cấp ưu đãi thuế hoặc tài trợ nghiên cứu cho các thương hiệu thời trang xanh sẽ thúc đẩy toàn ngành chuyển đổi nhanh hơn sang mô hình bền vững.",
+                "evidence_en": "Lawmakers can impose carbon taxes on high-polluting factories, ban the destruction of unsold inventory, and mandate supply-chain transparency. Conversely, offering tax incentives and green subsidies to sustainable labels encourages the entire industry to transition toward eco-friendly practices.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "impose carbon taxes",
+                      "vi": "áp thuế carbon"
+                    },
+                    {
+                      "en": "supply-chain transparency",
+                      "vi": "tính minh bạch chuỗi cung ứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "green subsidies",
+                      "vi": "trợ cấp xanh"
+                    },
+                    {
+                      "en": "eco-friendly practices",
+                      "vi": "quy trình thân thiện môi trường"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stringent environmental regulations",
+                    "vi": "quy định môi trường nghiêm ngặt"
+                  },
+                  {
+                    "en": "hold accountable",
+                    "vi": "buộc chịu trách nhiệm"
+                  },
+                  {
+                    "en": "impose carbon taxes",
+                    "vi": "áp thuế carbon"
+                  },
+                  {
+                    "en": "supply-chain transparency",
+                    "vi": "tính minh bạch chuỗi cung ứng"
+                  },
+                  {
+                    "en": "green subsidies",
+                    "vi": "trợ cấp xanh"
+                  },
+                  {
+                    "en": "eco-friendly practices",
+                    "vi": "quy trình thân thiện môi trường"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: GIÁO DỤC VÀ CHIẾN DỊCH NÂNG CAO NHẬN THỨC CỘNG ĐỒNG (RAISING PUBLIC AWARENESS THROUGH EDUCATION)",
+                "point_vi": "Các chiến dịch truyền thông cộng đồng và giáo dục học đường đóng vai trò then chốt trong việc thay đổi nhận thức của giới trẻ về thời trang nhanh.",
+                "point_en": "Public awareness campaigns and school education play a pivotal role in reshaping young consumers' attitudes toward fast fashion.",
+                "point_collocations": [
+                  {
+                    "en": "play a pivotal role",
+                    "vi": "đóng vai trò then chốt"
+                  },
+                  {
+                    "en": "reshape attitudes",
+                    "vi": "định hình lại thái độ / nhận thức"
+                  }
+                ],
+                "evidence_vi": "Bằng cách lồng ghép kiến thức về tiêu dùng bền vững vào trường học và sản xuất các phim tài liệu trực quan, người trẻ sẽ nhận rõ cái giá môi trường đằng sau những món đồ siêu rẻ. Khi các nhãn sinh thái rõ ràng cũng được phổ biến rộng rãi, khách hàng sẽ có đủ thông tin để ủng hộ các thương hiệu có trách nhiệm xã hội.",
+                "evidence_en": "By integrating sustainability lessons into curricula and sharing eye-opening documentaries, youths gain a clearer picture of the hidden environmental toll behind ultra-cheap fashion. Alongside clear eco-labeling on clothing tags, informed consumers become far more likely to support ethical, environmentally responsible brands.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hidden environmental toll",
+                      "vi": "cái giá môi trường ẩn giấu"
+                    },
+                    {
+                      "en": "eye-opening documentaries",
+                      "vi": "phim tài liệu mở mang nhận thức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "eco-labeling",
+                      "vi": "gắn nhãn sinh thái"
+                    },
+                    {
+                      "en": "ethical brands",
+                      "vi": "thương hiệu có đạo đức / trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "play a pivotal role",
+                    "vi": "đóng vai trò then chốt"
+                  },
+                  {
+                    "en": "reshape attitudes",
+                    "vi": "định hình lại thái độ / nhận thức"
+                  },
+                  {
+                    "en": "hidden environmental toll",
+                    "vi": "cái giá môi trường ẩn giấu"
+                  },
+                  {
+                    "en": "eye-opening documentaries",
+                    "vi": "phim tài liệu mở mang nhận thức"
+                  },
+                  {
+                    "en": "eco-labeling",
+                    "vi": "gắn nhãn sinh thái"
+                  },
+                  {
+                    "en": "ethical brands",
+                    "vi": "thương hiệu có đạo đức / trách nhiệm"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: TẠO RA KHỐI LƯỢNG RÁC THẢI DỆT MAY KHỔNG LỒ (GENERATING MASSIVE TEXTILE WASTE)",
+                "point_vi": "Mô hình thời trang nhanh tạo ra khối lượng rác thải dệt may khổng lồ gây quá tải nghiêm trọng cho các bãi chôn lấp.",
+                "point_en": "The fast fashion model generates enormous volumes of textile waste that severely overburden landfills worldwide.",
+                "point_collocations": [
+                  {
+                    "en": "textile waste",
+                    "vi": "rác thải dệt may"
+                  },
+                  {
+                    "en": "overburden landfills",
+                    "vi": "làm quá tải bãi chôn lấp"
+                  }
+                ],
+                "evidence_vi": "Các thương hiệu liên tục tung ra hàng chục bộ sưu tập giá rẻ chất lượng thấp mỗi năm, khiến quần áo nhanh chóng hư hỏng hoặc bị coi là lỗi thời chỉ sau vài lần mặc. Phần lớn trang phục bị loại bỏ được làm từ sợi tổng hợp như polyester mất hàng trăm năm để phân hủy, giải phóng vi nhựa và khí độc vào đất.",
+                "evidence_en": "Retailers release dozens of low-quality, inexpensive collections annually, causing garments to fall apart or seem outdated after just a few wears. Most discarded clothing is made from synthetic fibers like polyester that take centuries to decompose, leaching microplastics and toxic gases into the soil.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "inexpensive collections",
+                      "vi": "bộ sưu tập giá rẻ"
+                    },
+                    {
+                      "en": "fall apart",
+                      "vi": "nhanh chóng hư hỏng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "synthetic fibers",
+                      "vi": "sợi tổng hợp"
+                    },
+                    {
+                      "en": "leach microplastics",
+                      "vi": "rò rỉ hạt vi nhựa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "textile waste",
+                    "vi": "rác thải dệt may"
+                  },
+                  {
+                    "en": "overburden landfills",
+                    "vi": "làm quá tải bãi chôn lấp"
+                  },
+                  {
+                    "en": "inexpensive collections",
+                    "vi": "bộ sưu tập giá rẻ"
+                  },
+                  {
+                    "en": "fall apart",
+                    "vi": "nhanh chóng hư hỏng"
+                  },
+                  {
+                    "en": "synthetic fibers",
+                    "vi": "sợi tổng hợp"
+                  },
+                  {
+                    "en": "leach microplastics",
+                    "vi": "rò rỉ hạt vi nhựa"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: Ô NHIỄM NGUỒN NƯỚC VÀ CẠN KIỆT TÀI NGUYÊN THIÊN NHIÊN (WATER POLLUTION AND RESOURCE DEPLETION)",
+                "point_vi": "Quy trình sản xuất thời trang nhanh tiêu thụ lượng tài nguyên nước khổng lồ và làm ô nhiễm nặng nề các hệ sinh thái thủy sinh.",
+                "point_en": "Fast fashion manufacturing consumes vast freshwater resources and severely pollutes aquatic ecosystems.",
+                "point_collocations": [
+                  {
+                    "en": "freshwater resources",
+                    "vi": "tài nguyên nước ngọt"
+                  },
+                  {
+                    "en": "aquatic ecosystems",
+                    "vi": "hệ sinh thái thủy sinh"
+                  }
+                ],
+                "evidence_vi": "Việc trồng bông và xử lý vải vóc đòi hỏi hàng nghìn lít nước chỉ để tạo ra một sản phẩm duy nhất, đẩy nhiều vùng khô hạn vào tình trạng khan hiếm nước. Hơn nữa, nước thải chứa thuốc nhuộm độc hại và hóa chất xử lý vải chưa qua lọc thường bị xả thẳng ra sông ngòi, đe dọa sinh vật thủy sinh và sức khỏe cộng đồng địa phương.",
+                "evidence_en": "Cultivating cotton and processing fabrics require thousands of liters of water to produce even a single garment, intensifying scarcity in drought-prone regions. Moreover, untreated wastewater loaded with toxic dyes and chemical treatments is frequently discharged into rivers, endangering marine life and local drinking supplies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "drought-prone regions",
+                      "vi": "vùng dễ xảy ra hạn hán"
+                    },
+                    {
+                      "en": "intensify scarcity",
+                      "vi": "làm trầm trọng sự khan hiếm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "untreated wastewater",
+                      "vi": "nước thải chưa qua xử lý"
+                    },
+                    {
+                      "en": "toxic dyes",
+                      "vi": "thuốc nhuộm độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "freshwater resources",
+                    "vi": "tài nguyên nước ngọt"
+                  },
+                  {
+                    "en": "aquatic ecosystems",
+                    "vi": "hệ sinh thái thủy sinh"
+                  },
+                  {
+                    "en": "drought-prone regions",
+                    "vi": "vùng dễ xảy ra hạn hán"
+                  },
+                  {
+                    "en": "intensify scarcity",
+                    "vi": "làm trầm trọng sự khan hiếm"
+                  },
+                  {
+                    "en": "untreated wastewater",
+                    "vi": "nước thải chưa qua xử lý"
+                  },
+                  {
+                    "en": "toxic dyes",
+                    "vi": "thuốc nhuộm độc hại"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: PHÁT THẢI CARBON CAO VÀ ĐẨY NHANH BIẾN ĐỔI KHÍ HẬU (ACCELERATING CARBON EMISSIONS AND CLIMATE CHANGE)",
+                "point_vi": "Ngành công nghiệp thời trang nhanh là một trong những nguồn phát thải carbon lớn, góp phần đẩy nhanh biến đổi khí hậu toàn cầu.",
+                "point_en": "The fast fashion industry is a major source of global carbon emissions, significantly accelerating climate change.",
+                "point_collocations": [
+                  {
+                    "en": "global carbon emissions",
+                    "vi": "phát thải carbon toàn cầu"
+                  },
+                  {
+                    "en": "accelerate climate change",
+                    "vi": "đẩy nhanh biến đổi khí hậu"
+                  }
+                ],
+                "evidence_vi": "Việc sản xuất sợi nhân tạo từ dầu mỏ và vận hành các nhà máy dệt may quy mô lớn phụ thuộc nặng nề vào nguồn nhiên liệu hóa thạch. Đồng thời, mạng lưới vận chuyển hàng không và đường biển liên tục để kịp giao các mẫu mới ra thị trường quốc tế càng làm phình to dấu chân carbon của toàn ngành.",
+                "evidence_en": "Producing petroleum-based synthetic fabrics and operating mass-scale textile factories rely heavily on fossil fuel energy. Simultaneously, rapid global air and sea shipping designed to rush trendy items to international stores further enlarges the industry's carbon footprint.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "petroleum-based fabrics",
+                      "vi": "vải tổng hợp gốc dầu mỏ"
+                    },
+                    {
+                      "en": "fossil fuel energy",
+                      "vi": "năng lượng nhiên liệu hóa thạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "carbon footprint",
+                      "vi": "dấu chân carbon"
+                    },
+                    {
+                      "en": "international stores",
+                      "vi": "cửa hàng quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "global carbon emissions",
+                    "vi": "phát thải carbon toàn cầu"
+                  },
+                  {
+                    "en": "accelerate climate change",
+                    "vi": "đẩy nhanh biến đổi khí hậu"
+                  },
+                  {
+                    "en": "petroleum-based fabrics",
+                    "vi": "vải tổng hợp gốc dầu mỏ"
+                  },
+                  {
+                    "en": "fossil fuel energy",
+                    "vi": "năng lượng nhiên liệu hóa thạch"
+                  },
+                  {
+                    "en": "carbon footprint",
+                    "vi": "dấu chân carbon"
+                  },
+                  {
+                    "en": "international stores",
+                    "vi": "cửa hàng quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: NUÔI DƯỠNG VĂN HÓA TIÊU DÙNG LÃNG PHÍ (FUELING OVERCONSUMPTION AND THROWAWAY CULTURE)",
+                "point_vi": "Các xu hướng thời trang thay đổi chóng mặt thúc đẩy văn hóa tiêu dùng lãng phí và tạo áp lực chi tiêu cho giới trẻ.",
+                "point_en": "Rapidly shifting fashion trends foster a wasteful throwaway culture and encourage impulsive spending among young consumers.",
+                "point_collocations": [
+                  {
+                    "en": "throwaway culture",
+                    "vi": "văn hóa dùng một lần rồi vứt"
+                  },
+                  {
+                    "en": "impulsive spending",
+                    "vi": "chi tiêu bốc đồng"
+                  }
+                ],
+                "evidence_vi": "Chiến dịch quảng cáo dày đặc từ các thương hiệu và người có sức ảnh hưởng trên mạng xã hội khiến người trẻ luôn cảm thấy trang phục của mình nhanh chóng lỗi mốt. Kết quả là họ liên tục mua sắm vượt quá nhu cầu thực tế, vừa lãng phí thu nhập cá nhân vừa làm gia tăng nhu cầu khai thác tài nguyên không bền vững.",
+                "evidence_en": "Aggressive marketing from brands and social media influencers convinces young shoppers that their wardrobes are perpetually outdated. Consequently, they continuously purchase far more clothes than necessary, draining personal finances while driving unsustainable resource extraction.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "aggressive marketing",
+                      "vi": "tiếp thị dày đặc"
+                    },
+                    {
+                      "en": "perpetually outdated",
+                      "vi": "luôn bị coi là lỗi thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "drain personal finances",
+                      "vi": "làm cạn kiệt tài chính cá nhân"
+                    },
+                    {
+                      "en": "unsustainable extraction",
+                      "vi": "khai thác thiếu bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "throwaway culture",
+                    "vi": "văn hóa dùng một lần rồi vứt"
+                  },
+                  {
+                    "en": "impulsive spending",
+                    "vi": "chi tiêu bốc đồng"
+                  },
+                  {
+                    "en": "aggressive marketing",
+                    "vi": "tiếp thị dày đặc"
+                  },
+                  {
+                    "en": "perpetually outdated",
+                    "vi": "luôn bị coi là lỗi thời"
+                  },
+                  {
+                    "en": "drain personal finances",
+                    "vi": "làm cạn kiệt tài chính cá nhân"
+                  },
+                  {
+                    "en": "unsustainable extraction",
+                    "vi": "khai thác thiếu bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: BÓC LỘT LAO ĐỘNG VÀ ĐIỀU KIỆN LÀM VIỆC KHÔNG AN TOÀN (EXPLOITATIVE LABOR CONDITIONS)",
+                "point_vi": "Áp lực cắt giảm chi phí tối đa và đẩy nhanh tiến độ sản xuất thường dẫn đến tình trạng bóc lột lao động trong chuỗi cung ứng may mặc.",
+                "point_en": "The relentless drive for rock-bottom prices and rapid turnaround frequently leads to exploitative labor conditions across garment supply chains.",
+                "point_collocations": [
+                  {
+                    "en": "rock-bottom prices",
+                    "vi": "mức giá rẻ mạt"
+                  },
+                  {
+                    "en": "exploitative labor conditions",
+                    "vi": "điều kiện lao động mang tính bóc lột"
+                  }
+                ],
+                "evidence_vi": "Để tối đa hóa lợi nhuận trên từng sản phẩm giá rẻ, nhiều nhà cung cấp tại các quốc gia đang phát triển ép công nhân tăng ca quá mức với mức lương không đủ sống. Thậm chí, nhiều xưởng may còn cắt giảm chi phí bảo hộ lao động, khiến công nhân phải thường xuyên tiếp xúc với hóa chất độc hại trong môi trường kém an toàn.",
+                "evidence_en": "To maximize profits on ultra-cheap garments, many overseas suppliers force workers to endure excessive overtime for poverty-level wages. In severe cases, factories cut corners on workplace safety, exposing employees to hazardous chemicals and unsafe working conditions daily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "excessive overtime",
+                      "vi": "làm thêm giờ quá mức"
+                    },
+                    {
+                      "en": "poverty-level wages",
+                      "vi": "mức lương nghèo đói"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cut corners on safety",
+                      "vi": "cắt xén tiêu chuẩn an toàn"
+                    },
+                    {
+                      "en": "hazardous chemicals",
+                      "vi": "hóa chất nguy hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rock-bottom prices",
+                    "vi": "mức giá rẻ mạt"
+                  },
+                  {
+                    "en": "exploitative labor conditions",
+                    "vi": "điều kiện lao động mang tính bóc lột"
+                  },
+                  {
+                    "en": "excessive overtime",
+                    "vi": "làm thêm giờ quá mức"
+                  },
+                  {
+                    "en": "poverty-level wages",
+                    "vi": "mức lương nghèo đói"
+                  },
+                  {
+                    "en": "cut corners on safety",
+                    "vi": "cắt xén tiêu chuẩn an toàn"
+                  },
+                  {
+                    "en": "hazardous chemicals",
+                    "vi": "hóa chất nguy hại"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: THÚC ĐẨY TIÊU DÙNG CÓ Ý THỨC VÀ ĐẦU TƯ VÀO CHẤT LƯỢNG (PROMOTING MINDFUL CONSUMPTION)",
+                "point_vi": "Người tiêu dùng nên chuyển sang lối sống mua sắm có ý thức bằng cách giảm số lượng và ưu tiên trang phục bền đẹp, lâu dài.",
+                "point_en": "Consumers should embrace mindful consumption by buying fewer items and investing in timeless, high-quality garments.",
+                "point_collocations": [
+                  {
+                    "en": "mindful consumption",
+                    "vi": "tiêu dùng có ý thức"
+                  },
+                  {
+                    "en": "timeless, high-quality garments",
+                    "vi": "trang phục chất lượng cao không lỗi mốt"
+                  }
+                ],
+                "evidence_vi": "Thay vì chạy theo từng trào lưu ngắn ngủi trên mạng xã hội, người mua có thể xây dựng tủ đồ tối giản gồm những món cơ bản dễ phối và bền chắc. Sự thay đổi hành vi từ phía người tiêu dùng sẽ trực tiếp thu hẹp nhu cầu thị trường đối với quần áo giá rẻ kém chất lượng và cắt giảm rác thải ngay từ gốc.",
+                "evidence_en": "Rather than chasing every fleeting micro-trend on social media, shoppers can build minimalist wardrobes centered on versatile, well-made essentials. Shifting consumer demand away from disposable clothing directly curbs overproduction and cuts textile waste at its source.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fleeting micro-trends",
+                      "vi": "trào lưu vi mô ngắn ngủi"
+                    },
+                    {
+                      "en": "minimalist wardrobes",
+                      "vi": "tủ đồ tối giản"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "curb overproduction",
+                      "vi": "kiềm chế sản xuất dư thừa"
+                    },
+                    {
+                      "en": "at its source",
+                      "vi": "ngay từ gốc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mindful consumption",
+                    "vi": "tiêu dùng có ý thức"
+                  },
+                  {
+                    "en": "timeless, high-quality garments",
+                    "vi": "trang phục chất lượng cao không lỗi mốt"
+                  },
+                  {
+                    "en": "fleeting micro-trends",
+                    "vi": "trào lưu vi mô ngắn ngủi"
+                  },
+                  {
+                    "en": "minimalist wardrobes",
+                    "vi": "tủ đồ tối giản"
+                  },
+                  {
+                    "en": "curb overproduction",
+                    "vi": "kiềm chế sản xuất dư thừa"
+                  },
+                  {
+                    "en": "at its source",
+                    "vi": "ngay từ gốc"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: KHUYẾN KHÍCH KINH TẾ TUẦN HOÀN QUA TÁI SỬ DỤNG VÀ ĐỒ CŨ (ENCOURAGING CIRCULAR FASHION AND SECOND-HAND MARKETS)",
+                "point_vi": "Mở rộng thói quen sửa chữa, trao đổi, thuê trang phục và mua sắm đồ đã qua sử dụng là giải pháp thiết thực để kéo dài vòng đời quần áo.",
+                "point_en": "Expanding clothing repair, rental services, and second-hand shopping offers a practical way to extend garment lifecycles.",
+                "point_collocations": [
+                  {
+                    "en": "extend garment lifecycles",
+                    "vi": "kéo dài vòng đời trang phục"
+                  },
+                  {
+                    "en": "second-hand shopping",
+                    "vi": "mua sắm đồ đã qua sử dụng"
+                  }
+                ],
+                "evidence_vi": "Các nền tảng mua bán đồ cũ trực tuyến, cửa hàng ký gửi và dịch vụ cho thuê trang phục dự tiệc giúp người trẻ làm mới phong cách với chi phí hợp lý mà không tạo thêm nhu cầu sản xuất mới. Đồng thời, việc sửa chữa hoặc quyên góp quần áo còn tốt cho tổ chức từ thiện giúp ngăn hàng triệu tấn vải vóc bị chôn lấp lãng phí.",
+                "evidence_en": "Online resale platforms, thrift stores, and event-wear rental services allow young people to refresh their style affordably without fueling new manufacturing. Meanwhile, mending minor damage or donating wearable clothes to charities prevents millions of tons of textiles from ending up in landfills.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "online resale platforms",
+                      "vi": "nền tảng mua bán đồ cũ trực tuyến"
+                    },
+                    {
+                      "en": "thrift stores",
+                      "vi": "cửa hàng đồ cũ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mending minor damage",
+                      "vi": "sửa chữa hư hỏng nhỏ"
+                    },
+                    {
+                      "en": "end up in landfills",
+                      "vi": "bị thải ra bãi rác"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extend garment lifecycles",
+                    "vi": "kéo dài vòng đời trang phục"
+                  },
+                  {
+                    "en": "second-hand shopping",
+                    "vi": "mua sắm đồ đã qua sử dụng"
+                  },
+                  {
+                    "en": "online resale platforms",
+                    "vi": "nền tảng mua bán đồ cũ trực tuyến"
+                  },
+                  {
+                    "en": "thrift stores",
+                    "vi": "cửa hàng đồ cũ"
+                  },
+                  {
+                    "en": "mending minor damage",
+                    "vi": "sửa chữa hư hỏng nhỏ"
+                  },
+                  {
+                    "en": "end up in landfills",
+                    "vi": "bị thải ra bãi rác"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: ĐỔI MỚI CÔNG NGHỆ SẢN XUẤT VÀ VẬT LIỆU BỀN VỮNG (ADOPTING ECO-FRIENDLY MATERIALS AND CLEAN PRODUCTION)",
+                "point_vi": "Các doanh nghiệp thời trang cần đầu tư mạnh vào vật liệu tái chế thân thiện môi trường và quy trình sản xuất sạch hơn.",
+                "point_en": "Fashion companies must invest heavily in eco-friendly materials, textile recycling, and cleaner manufacturing technologies.",
+                "point_collocations": [
+                  {
+                    "en": "eco-friendly materials",
+                    "vi": "vật liệu thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner manufacturing",
+                    "vi": "quy trình sản xuất sạch hơn"
+                  }
+                ],
+                "evidence_vi": "Việc sử dụng bông hữu cơ, vải sợi tái chế từ chai nhựa và công nghệ nhuộm không dùng nước giúp giảm mạnh lượng khí thải carbon lẫn hóa chất độc hại. Hơn nữa, các thương hiệu lớn nên triển khai chương trình thu hồi quần áo cũ tại cửa hàng để tái chế thành sợi mới cho chu kỳ sản xuất tiếp theo.",
+                "evidence_en": "Switching to organic cotton, recycled fibers, and waterless dyeing innovations dramatically lowers both carbon emissions and toxic runoff. Furthermore, major brands can operate in-store take-back schemes to recycle worn-out garments into fresh fibers for future collections.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "waterless dyeing",
+                      "vi": "công nghệ nhuộm không dùng nước"
+                    },
+                    {
+                      "en": "toxic runoff",
+                      "vi": "dòng thải độc hại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take-back schemes",
+                      "vi": "chương trình thu hồi sản phẩm cũ"
+                    },
+                    {
+                      "en": "worn-out garments",
+                      "vi": "quần áo đã cũ sờn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "eco-friendly materials",
+                    "vi": "vật liệu thân thiện môi trường"
+                  },
+                  {
+                    "en": "cleaner manufacturing",
+                    "vi": "quy trình sản xuất sạch hơn"
+                  },
+                  {
+                    "en": "waterless dyeing",
+                    "vi": "công nghệ nhuộm không dùng nước"
+                  },
+                  {
+                    "en": "toxic runoff",
+                    "vi": "dòng thải độc hại"
+                  },
+                  {
+                    "en": "take-back schemes",
+                    "vi": "chương trình thu hồi sản phẩm cũ"
+                  },
+                  {
+                    "en": "worn-out garments",
+                    "vi": "quần áo đã cũ sờn"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: THỰC THI QUY ĐỊNH MÔI TRƯỜNG VÀ CHÍNH SÁCH THUẾ NGHIÊM NGẶT (ENFORCING STRICT ENVIRONMENTAL REGULATIONS)",
+                "point_vi": "Chính phủ cần ban hành các tiêu chuẩn môi trường nghiêm ngặt và công cụ thuế nhằm buộc ngành thời trang phải chịu trách nhiệm về tác động sinh thái.",
+                "point_en": "Governments should enact stringent environmental regulations and fiscal policies to hold fashion corporations accountable for their ecological impact.",
+                "point_collocations": [
+                  {
+                    "en": "stringent environmental regulations",
+                    "vi": "quy định môi trường nghiêm ngặt"
+                  },
+                  {
+                    "en": "hold accountable",
+                    "vi": "buộc chịu trách nhiệm"
+                  }
+                ],
+                "evidence_vi": "Các cơ quan quản lý có thể áp thuế carbon đối với quy trình sản xuất gây ô nhiễm cao, cấm tiêu hủy hàng tồn kho chưa bán và yêu cầu minh bạch chuỗi cung ứng. Ngược lại, việc cung cấp ưu đãi thuế hoặc tài trợ nghiên cứu cho các thương hiệu thời trang xanh sẽ thúc đẩy toàn ngành chuyển đổi nhanh hơn sang mô hình bền vững.",
+                "evidence_en": "Lawmakers can impose carbon taxes on high-polluting factories, ban the destruction of unsold inventory, and mandate supply-chain transparency. Conversely, offering tax incentives and green subsidies to sustainable labels encourages the entire industry to transition toward eco-friendly practices.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "impose carbon taxes",
+                      "vi": "áp thuế carbon"
+                    },
+                    {
+                      "en": "supply-chain transparency",
+                      "vi": "tính minh bạch chuỗi cung ứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "green subsidies",
+                      "vi": "trợ cấp xanh"
+                    },
+                    {
+                      "en": "eco-friendly practices",
+                      "vi": "quy trình thân thiện môi trường"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stringent environmental regulations",
+                    "vi": "quy định môi trường nghiêm ngặt"
+                  },
+                  {
+                    "en": "hold accountable",
+                    "vi": "buộc chịu trách nhiệm"
+                  },
+                  {
+                    "en": "impose carbon taxes",
+                    "vi": "áp thuế carbon"
+                  },
+                  {
+                    "en": "supply-chain transparency",
+                    "vi": "tính minh bạch chuỗi cung ứng"
+                  },
+                  {
+                    "en": "green subsidies",
+                    "vi": "trợ cấp xanh"
+                  },
+                  {
+                    "en": "eco-friendly practices",
+                    "vi": "quy trình thân thiện môi trường"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: GIÁO DỤC VÀ CHIẾN DỊCH NÂNG CAO NHẬN THỨC CỘNG ĐỒNG (RAISING PUBLIC AWARENESS THROUGH EDUCATION)",
+                "point_vi": "Các chiến dịch truyền thông cộng đồng và giáo dục học đường đóng vai trò then chốt trong việc thay đổi nhận thức của giới trẻ về thời trang nhanh.",
+                "point_en": "Public awareness campaigns and school education play a pivotal role in reshaping young consumers' attitudes toward fast fashion.",
+                "point_collocations": [
+                  {
+                    "en": "play a pivotal role",
+                    "vi": "đóng vai trò then chốt"
+                  },
+                  {
+                    "en": "reshape attitudes",
+                    "vi": "định hình lại thái độ / nhận thức"
+                  }
+                ],
+                "evidence_vi": "Bằng cách lồng ghép kiến thức về tiêu dùng bền vững vào trường học và sản xuất các phim tài liệu trực quan, người trẻ sẽ nhận rõ cái giá môi trường đằng sau những món đồ siêu rẻ. Khi các nhãn sinh thái rõ ràng cũng được phổ biến rộng rãi, khách hàng sẽ có đủ thông tin để ủng hộ các thương hiệu có trách nhiệm xã hội.",
+                "evidence_en": "By integrating sustainability lessons into curricula and sharing eye-opening documentaries, youths gain a clearer picture of the hidden environmental toll behind ultra-cheap fashion. Alongside clear eco-labeling on clothing tags, informed consumers become far more likely to support ethical, environmentally responsible brands.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hidden environmental toll",
+                      "vi": "cái giá môi trường ẩn giấu"
+                    },
+                    {
+                      "en": "eye-opening documentaries",
+                      "vi": "phim tài liệu mở mang nhận thức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "eco-labeling",
+                      "vi": "gắn nhãn sinh thái"
+                    },
+                    {
+                      "en": "ethical brands",
+                      "vi": "thương hiệu có đạo đức / trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "play a pivotal role",
+                    "vi": "đóng vai trò then chốt"
+                  },
+                  {
+                    "en": "reshape attitudes",
+                    "vi": "định hình lại thái độ / nhận thức"
+                  },
+                  {
+                    "en": "hidden environmental toll",
+                    "vi": "cái giá môi trường ẩn giấu"
+                  },
+                  {
+                    "en": "eye-opening documentaries",
+                    "vi": "phim tài liệu mở mang nhận thức"
+                  },
+                  {
+                    "en": "eco-labeling",
+                    "vi": "gắn nhãn sinh thái"
+                  },
+                  {
+                    "en": "ethical brands",
+                    "vi": "thương hiệu có đạo đức / trách nhiệm"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "fast fashion trends",
+              "vi": "xu hướng thời trang nhanh"
+            },
+            {
+              "en": "massive textile waste",
+              "vi": "lượng rác thải dệt may khổng lồ"
+            },
+            {
+              "en": "wear out quickly",
+              "vi": "nhanh hỏng, nhanh sờn cũ"
+            },
+            {
+              "en": "global carbon emissions",
+              "vi": "lượng khí thải carbon toàn cầu"
+            },
+            {
+              "en": "environmental degradation",
+              "vi": "sự suy thoái môi trường"
+            },
+            {
+              "en": "toxic dyeing chemicals",
+              "vi": "hóa chất nhuộm độc hại"
+            },
+            {
+              "en": "throwaway culture",
+              "vi": "văn hóa tiêu dùng nhanh rồi vứt bỏ"
+            },
+            {
+              "en": "exploitative labor conditions",
+              "vi": "điều kiện lao động bóc lột"
+            },
+            {
+              "en": "mitigate environmental impact",
+              "vi": "giảm nhẹ tác động môi trường"
+            },
+            {
+              "en": "mindful consumption",
+              "vi": "tiêu dùng có ý thức"
+            },
+            {
+              "en": "extend garment lifecycles",
+              "vi": "kéo dài vòng đời trang phục"
+            },
+            {
+              "en": "second-hand shopping",
+              "vi": "mua sắm đồ đã qua sử dụng"
+            },
+            {
+              "en": "eco-friendly fabrics",
+              "vi": "vải thân thiện với môi trường"
+            },
+            {
+              "en": "in-store take-back schemes",
+              "vi": "chương trình thu hồi đồ cũ tại cửa hàng"
+            },
+            {
+              "en": "impose carbon taxes",
+              "vi": "áp thuế carbon"
+            },
+            {
+              "en": "responsible shopping choices",
+              "vi": "lựa chọn mua sắm có trách nhiệm"
+            }
+          ],
+          "sample_b1": "Nowadays, following <strong>fast fashion trends</strong> has become very popular, especially among young people who love buying cheap and stylish clothes. However, this trend creates serious environmental problems around the world. This essay will discuss the main negative effects of fast fashion and suggest several practical solutions to protect the environment.\n\nOn the one hand, the fast fashion industry causes severe harm to nature. Firstly, it creates a huge amount of <strong>clothing waste</strong> every year. Because cheap garments <strong>wear out quickly</strong> and go out of style soon, many consumers wear them only a few times before throwing them into <strong>landfills</strong>. Secondly, fast fashion production uses huge amounts of clean water and pollutes rivers and lakes. Textile factories often release <strong>harmful chemicals</strong> and dyes into natural waterways, damaging aquatic life and local communities. Finally, mass production using synthetic fabrics and global shipping release large amounts of <strong>carbon emissions</strong>, which makes climate change much worse.\n\nOn the other hand, several effective measures can help reduce these environmental impacts. First of all, consumers should buy fewer clothes and choose <strong>durable, high-quality items</strong> that can be worn for many years. People can also repair, donate old garments, and support <strong>second-hand shopping</strong> to extend the life of usable clothes. In addition, fashion brands need to switch to <strong>eco-friendly fabrics</strong> such as organic cotton and recycled fibers. Moreover, governments should apply <strong>stricter rules</strong> on polluting factories, while schools and media should <strong>raise awareness</strong> so young shoppers make more responsible choices.\n\nIn conclusion, fast fashion contributes heavily to waste, water pollution, and climate change. If consumers, clothing brands, and governments work together, the fashion industry can become much cleaner and more sustainable.",
+          "translation_b1": "Ngày nay, việc chạy theo <strong>xu hướng thời trang nhanh</strong> đã trở nên rất phổ biến, đặc biệt là trong giới trẻ yêu thích mua quần áo giá rẻ và hợp mốt. Tuy nhiên, xu hướng này đang gây ra những vấn đề môi trường nghiêm trọng trên toàn thế giới. Bài luận này sẽ bàn luận về các tác động tiêu cực chính của thời trang nhanh và đề xuất một số giải pháp thiết thực để bảo vệ môi trường.\n\nMột mặt, ngành công nghiệp thời trang nhanh gây ra tổn hại nặng nề cho thiên nhiên. Thứ nhất, nó tạo ra lượng <strong>rác thải quần áo</strong> khổng lồ mỗi năm. Vì quần áo giá rẻ <strong>nhanh hỏng</strong> và sớm lỗi mốt, nhiều người tiêu dùng chỉ mặc vài lần rồi vứt ra <strong>bãi rác</strong>. Thứ hai, sản xuất thời trang nhanh tiêu tốn lượng nước sạch khổng lồ và gây ô nhiễm sông hồ. Các nhà máy dệt may thường xả <strong>hóa chất độc hại</strong> và thuốc nhuộm ra nguồn nước tự nhiên, gây hại cho sinh vật dưới nước và cộng đồng địa phương. Cuối cùng, sản xuất hàng loạt bằng vải tổng hợp và vận chuyển toàn cầu thải ra lượng lớn <strong>khí thải carbon</strong>, khiến biến đổi khí hậu tồi tệ hơn nhiều.\n\nMặt khác, có thể áp dụng nhiều biện pháp hiệu quả để giảm thiểu các tác động môi trường này. Trước hết, người tiêu dùng nên mua ít quần áo hơn và chọn những <strong>sản phẩm bền, chất lượng tốt</strong> có thể mặc trong nhiều năm. Mọi người cũng có thể sửa chữa, quyên góp đồ cũ và ủng hộ <strong>mua sắm đồ đã qua sử dụng</strong> để kéo dài vòng đời quần áo còn dùng được. Bên cạnh đó, các hãng thời trang cần chuyển sang <strong>vải thân thiện môi trường</strong> như bông hữu cơ và sợi tái chế. Hơn nữa, chính phủ nên áp dụng các <strong>quy định chặt chẽ hơn</strong> đối với nhà máy gây ô nhiễm, trong khi nhà trường và truyền thông cần <strong>nâng cao nhận thức</strong> để người mua trẻ đưa ra lựa chọn có trách nhiệm hơn.\n\nTóm lại, thời trang nhanh góp phần nặng nề vào rác thải, ô nhiễm nước và biến đổi khí hậu. Nếu người tiêu dùng, các thương hiệu quần áo và chính phủ cùng chung tay, ngành thời trang có thể trở nên sạch hơn và bền vững hơn nhiều.",
+          "sample_b2": "In contemporary consumer society, following <strong>fast fashion trends</strong> has become remarkably widespread, particularly among young shoppers drawn to affordable, rapidly changing styles. Yet governments and environmental organizations increasingly warn that this industry drives severe <strong>environmental degradation</strong> and global warming. This essay will examine the major problems created by fast fashion and propose viable strategies to mitigate its ecological footprint.\n\nThe rapid expansion of fast fashion produces several alarming consequences. First and foremost, it generates <strong>massive textile waste</strong> that heavily overburdens landfills worldwide. Because retailers launch dozens of cheap, low-quality collections annually, garments fall apart or feel outdated after only a few wears, and synthetic fibers such as polyester take centuries to decompose while leaching microplastics into the soil. Second, clothing manufacturing consumes vast freshwater supplies and discharges <strong>toxic dyeing chemicals</strong> into rivers, threatening aquatic ecosystems and local communities. Equally troubling is the sector's contribution to <strong>global carbon emissions</strong>: producing petroleum-based fabrics and shipping collections across continents rely heavily on fossil fuels, while aggressive marketing fuels a wasteful <strong>throwaway culture</strong>.\n\nMitigating these impacts requires joint action from shoppers, fashion companies, and policymakers. At the consumer level, individuals should embrace <strong>mindful consumption</strong> by purchasing fewer, higher-quality essentials instead of chasing fleeting micro-trends. Expanding repair habits, rental platforms, and <strong>second-hand shopping</strong> also offers an affordable way to <strong>extend garment lifecycles</strong> and curb overproduction. Meanwhile, fashion corporations must invest in <strong>eco-friendly fabrics</strong>, waterless dyeing technologies, and <strong>in-store take-back schemes</strong> that recycle old garments into new fibers. Finally, governments ought to enact stringent environmental standards, <strong>impose carbon taxes</strong> on high-polluting factories, and fund sustainability campaigns so young consumers recognize the hidden ecological cost of ultra-cheap clothing.\n\nIn conclusion, fast fashion accelerates textile waste, water contamination, and climate change. Only through conscious consumer habits, cleaner industry innovation, and firm governmental oversight can society enjoy fashion while safeguarding the planet for future generations.",
+          "translation_b2": "Trong xã hội tiêu dùng hiện đại, việc chạy theo <strong>xu hướng thời trang nhanh</strong> đã trở nên vô cùng phổ biến, đặc biệt là ở người mua trẻ bị thu hút bởi các mẫu mã giá rẻ và thay đổi chóng mặt. Tuy nhiên, các chính phủ và tổ chức môi trường ngày càng cảnh báo rằng ngành công nghiệp này thúc đẩy sự <strong>suy thoái môi trường</strong> nghiêm trọng và hiện tượng nóng lên toàn cầu. Bài luận này sẽ phân tích những vấn đề lớn do thời trang nhanh gây ra và đề xuất các chiến lược khả thi nhằm giảm nhẹ dấu chân sinh thái của nó.\n\nSự mở rộng nhanh chóng của thời trang nhanh kéo theo nhiều hệ quả đáng báo động. Trước hết, nó tạo ra <strong>lượng rác thải dệt may khổng lồ</strong> làm quá tải nặng nề các bãi chôn lấp trên toàn cầu. Bởi vì các nhà bán lẻ tung ra hàng chục bộ sưu tập giá rẻ chất lượng kém mỗi năm, quần áo nhanh hỏng hoặc trở nên lỗi mốt chỉ sau vài lần mặc, trong khi sợi tổng hợp như polyester mất hàng thế kỷ để phân hủy và rò rỉ vi nhựa vào đất. Thứ hai, sản xuất quần áo tiêu thụ nguồn nước ngọt khổng lồ và thải <strong>hóa chất nhuộm độc hại</strong> ra sông ngòi, đe dọa hệ sinh thái thủy sinh và cộng đồng địa phương. Đáng lo ngại không kém là mức đóng góp của ngành vào <strong>lượng khí thải carbon toàn cầu</strong>: việc sản xuất vải gốc dầu mỏ và vận chuyển hàng hóa xuyên lục địa phụ thuộc lớn vào nhiên liệu hóa thạch, đồng thời hoạt động tiếp thị dày đặc nuôi dưỡng một <strong>văn hóa dùng nhanh rồi vứt</strong> đầy lãng phí.\n\nGiảm nhẹ những tác động này đòi hỏi hành động chung từ người mua sắm, doanh nghiệp thời trang và các nhà hoạch định chính sách. Ở cấp độ người tiêu dùng, mỗi cá nhân nên thực hành <strong>tiêu dùng có ý thức</strong> bằng cách mua ít sản phẩm cơ bản chất lượng cao hơn thay vì chạy theo mọi trào lưu ngắn ngủi. Mở rộng thói quen sửa chữa, nền tảng thuê đồ và <strong>mua sắm đồ đã qua sử dụng</strong> cũng là cách hợp túi tiền để <strong>kéo dài vòng đời trang phục</strong> và kiềm chế sản xuất dư thừa. Trong khi đó, các tập đoàn thời trang phải đầu tư vào <strong>vải thân thiện môi trường</strong>, công nghệ nhuộm không dùng nước và các <strong>chương trình thu hồi đồ cũ tại cửa hàng</strong> để tái chế thành sợi mới. Cuối cùng, chính phủ cần ban hành tiêu chuẩn môi trường nghiêm ngặt, <strong>áp thuế carbon</strong> đối với nhà máy gây ô nhiễm nặng và tài trợ các chiến dịch bền vững để người tiêu dùng trẻ nhận rõ cái giá sinh thái ẩn sau quần áo siêu rẻ.\n\nTóm lại, thời trang nhanh đẩy nhanh rác thải dệt may, ô nhiễm nguồn nước và biến đổi khí hậu. Chỉ thông qua thói quen tiêu dùng có ý thức, đổi mới công nghệ sạch của doanh nghiệp và sự giám sát chặt chẽ từ chính phủ, xã hội mới có thể tận hưởng thời trang mà vẫn bảo vệ hành tinh cho thế hệ tương lai.",
+          "vocab_step": {
+            "theme": "Xu hướng thời trang nhanh (Fast Fashion Trends)",
+            "overview": "Hệ thống tổng hợp 18 từ vựng trọng tâm và 16 cụm từ liên kết (Collocations) phân cấp B1–B2 bao quát đầy đủ 5 Ảnh hưởng tiêu cực (Rác thải dệt may, Ô nhiễm nguồn nước, Khí thải carbon, Tiêu dùng lãng phí, Điều kiện lao động) và 5 Giải pháp giảm tác động môi trường (Tiêu dùng có ý thức, Tái sử dụng & đồ cũ, Vật liệu xanh, Quy định môi trường & thuế carbon, Giáo dục nâng cao nhận thức).",
+            "single_words": [
+              {
+                "word": "textile",
+                "ipa": "/ˈtek.staɪl/",
+                "pos": "n, adj",
+                "level": "B2",
+                "vi": "dệt may, vải vóc",
+                "family": "textiles (n)",
+                "example_en": "Fast fashion produces millions of tons of textile waste annually.",
+                "example_vi": "Thời trang nhanh tạo ra hàng triệu tấn rác thải dệt may mỗi năm."
+              },
+              {
+                "word": "garment",
+                "ipa": "/ˈɡɑː.mənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "quần áo, trang phục (1 món đồ may mặc)",
+                "family": "garments (n)",
+                "example_en": "Many cheap garments are worn only a few times before being discarded.",
+                "example_vi": "Nhiều trang phục giá rẻ chỉ được mặc vài lần trước khi bị vứt bỏ."
+              },
+              {
+                "word": "synthetic",
+                "ipa": "/sɪnˈθet.ɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tổng hợp, nhân tạo",
+                "family": "synthetically (adv)",
+                "example_en": "Synthetic fabrics take hundreds of years to break down in landfills.",
+                "example_vi": "Vải sợi tổng hợp mất hàng trăm năm để phân hủy ở bãi rác."
+              },
+              {
+                "word": "emission",
+                "ipa": "/iˈmɪʃ.ən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự phát thải, khí thải",
+                "family": "emit (v)",
+                "example_en": "The fashion industry contributes significantly to global carbon emissions.",
+                "example_vi": "Ngành thời trang góp phần đáng kể vào lượng khí thải carbon toàn cầu."
+              },
+              {
+                "word": "degradation",
+                "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự suy thoái, xuống cấp",
+                "family": "degrade (v)",
+                "example_en": "Overproduction in fashion accelerates environmental degradation.",
+                "example_vi": "Sản xuất dư thừa trong thời trang đẩy nhanh sự suy thoái môi trường."
+              },
+              {
+                "word": "landfill",
+                "ipa": "/ˈlænd.fɪl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bãi chôn lấp rác",
+                "family": "landfills (n)",
+                "example_en": "Millions of discarded shirts end up in landfills every year.",
+                "example_vi": "Hàng triệu chiếc áo bị vứt bỏ kết thúc tại các bãi chôn lấp mỗi năm."
+              },
+              {
+                "word": "dye",
+                "ipa": "/daɪ/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "thuốc nhuộm; nhuộm màu",
+                "family": "dyeing (n)",
+                "example_en": "Toxic dyes from clothing factories pollute local rivers.",
+                "example_vi": "Thuốc nhuộm độc hại từ nhà máy may mặc gây ô nhiễm sông ngòi địa phương."
+              },
+              {
+                "word": "durable",
+                "ipa": "/ˈdʒʊə.rə.bəl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "bền bỉ, lâu hỏng",
+                "family": "durability (n)",
+                "example_en": "Buying durable clothes saves money and protects the planet.",
+                "example_vi": "Mua quần áo bền giúp tiết kiệm tiền và bảo vệ hành tinh."
+              },
+              {
+                "word": "disposable",
+                "ipa": "/dɪˈspəʊ.zə.bəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dùng một lần / nhanh bỏ đi",
+                "family": "dispose (v), disposal (n)",
+                "example_en": "Fast fashion treats clothing as a disposable product.",
+                "example_vi": "Thời trang nhanh coi quần áo như một sản phẩm dễ vứt bỏ."
+              },
+              {
+                "word": "sustainable",
+                "ipa": "/səˈsteɪ.nə.bəl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "bền vững",
+                "family": "sustainability (n), sustainably (adv)",
+                "example_en": "Young shoppers are becoming more interested in sustainable fashion.",
+                "example_vi": "Người mua trẻ ngày càng quan tâm hơn đến thời trang bền vững."
+              },
+              {
+                "word": "mitigate",
+                "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "giảm nhẹ, làm dịu bớt (tác hại)",
+                "family": "mitigation (n)",
+                "example_en": "Governments must take steps to mitigate the environmental impact of fashion.",
+                "example_vi": "Chính phủ phải hành động để giảm nhẹ tác động môi trường của ngành thời trang."
+              },
+              {
+                "word": "decompose",
+                "ipa": "/ˌdiː.kəmˈpəʊz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "phân hủy",
+                "family": "decomposition (n)",
+                "example_en": "Polyester clothes do not decompose easily in nature.",
+                "example_vi": "Quần áo polyester không dễ dàng phân hủy trong tự nhiên."
+              },
+              {
+                "word": "overconsumption",
+                "ipa": "/ˌəʊ.və.kənˈsʌmp.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự tiêu dùng quá mức",
+                "family": "consume (v), consumer (n)",
+                "example_en": "Frequent sales encourage overconsumption among young people.",
+                "example_vi": "Các đợt giảm giá liên tục khuyến khích sự tiêu dùng quá mức ở giới trẻ."
+              },
+              {
+                "word": "recycle",
+                "ipa": "/ˌriːˈsaɪ.kəl/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "tái chế",
+                "family": "recycling (n), recycled (adj)",
+                "example_en": "Brands can recycle old fabrics into new clothing lines.",
+                "example_vi": "Các thương hiệu có thể tái chế vải cũ thành dòng quần áo mới."
+              },
+              {
+                "word": "donate",
+                "ipa": "/dəʊˈneɪt/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "quyên góp, hiến tặng",
+                "family": "donation (n)",
+                "example_en": "People should donate wearable clothes instead of throwing them away.",
+                "example_vi": "Mọi người nên quyên góp quần áo còn mặc được thay vì vứt đi."
+              },
+              {
+                "word": "wardrobe",
+                "ipa": "/ˈwɔː.drəʊb/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tủ quần áo",
+                "family": "wardrobes (n)",
+                "example_en": "Building a minimalist wardrobe helps cut down on clothing waste.",
+                "example_vi": "Xây dựng tủ đồ tối giản giúp cắt giảm rác thải quần áo."
+              },
+              {
+                "word": "subsidy",
+                "ipa": "/ˈsʌb.sɪ.di/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khoản trợ cấp",
+                "family": "subsidize (v)",
+                "example_en": "Green subsidies can support small eco-friendly fashion brands.",
+                "example_vi": "Các khoản trợ cấp xanh có thể hỗ trợ các thương hiệu thời trang thân thiện môi trường."
+              },
+              {
+                "word": "transparency",
+                "ipa": "/trænˈspær.ən.si/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tính minh bạch",
+                "family": "transparent (adj)",
+                "example_en": "Supply-chain transparency helps consumers choose ethical clothing brands.",
+                "example_vi": "Tính minh bạch chuỗi cung ứng giúp người tiêu dùng chọn thương hiệu có trách nhiệm."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "fast fashion trends",
+                "level": "B1",
+                "vi": "xu hướng thời trang nhanh",
+                "context_usage": "Cụm danh từ trọng tâm mở bài và thân bài",
+                "example_en": "Fast fashion trends have become extremely popular among teenagers.",
+                "example_vi": "Xu hướng thời trang nhanh đã trở nên cực kỳ phổ biến ở thanh thiếu niên."
+              },
+              {
+                "phrase": "massive textile waste",
+                "level": "B2",
+                "vi": "lượng rác thải dệt may khổng lồ",
+                "context_usage": "Phân tích hậu quả rác thải",
+                "example_en": "Cheap clothing leads to massive textile waste in landfills.",
+                "example_vi": "Quần áo giá rẻ dẫn đến lượng rác thải dệt may khổng lồ tại các bãi rác."
+              },
+              {
+                "phrase": "wear out quickly",
+                "level": "B1",
+                "vi": "nhanh hỏng, nhanh sờn cũ",
+                "context_usage": "Giải thích chất lượng thấp của đồ thời trang nhanh",
+                "example_en": "Low-cost shirts often wear out quickly after only a few washes.",
+                "example_vi": "Áo giá rẻ thường nhanh hỏng chỉ sau vài lần giặt."
+              },
+              {
+                "phrase": "global carbon emissions",
+                "level": "B1, B2",
+                "vi": "lượng khí thải carbon toàn cầu",
+                "context_usage": "Phân tích tác động lên biến đổi khí hậu",
+                "example_en": "Mass clothing production adds heavily to global carbon emissions.",
+                "example_vi": "Sản xuất quần áo hàng loạt làm tăng mạnh lượng khí thải carbon toàn cầu."
+              },
+              {
+                "phrase": "environmental degradation",
+                "level": "B2",
+                "vi": "sự suy thoái môi trường",
+                "context_usage": "Cụm từ học thuật bao quát tác hại môi trường",
+                "example_en": "Unchecked industrial growth accelerates environmental degradation.",
+                "example_vi": "Tăng trưởng công nghiệp thiếu kiểm soát đẩy nhanh suy thoái môi trường."
+              },
+              {
+                "phrase": "toxic dyeing chemicals",
+                "level": "B2",
+                "vi": "hóa chất nhuộm độc hại",
+                "context_usage": "Phân tích nguyên nhân ô nhiễm nguồn nước",
+                "example_en": "Factories sometimes discharge toxic dyeing chemicals into rivers.",
+                "example_vi": "Các nhà máy đôi khi xả hóa chất nhuộm độc hại ra sông ngòi."
+              },
+              {
+                "phrase": "throwaway culture",
+                "level": "B2",
+                "vi": "văn hóa tiêu dùng nhanh rồi vứt bỏ",
+                "context_usage": "Phân tích thói quen mua sắm lãng phí",
+                "example_en": "Fast fashion promotes a harmful throwaway culture.",
+                "example_vi": "Thời trang nhanh thúc đẩy một văn hóa dùng nhanh rồi vứt bỏ có hại."
+              },
+              {
+                "phrase": "exploitative labor conditions",
+                "level": "B2",
+                "vi": "điều kiện lao động bóc lột",
+                "context_usage": "Phân tích hệ lụy xã hội với công nhân may mặc",
+                "example_en": "Ultra-low prices often rely on exploitative labor conditions.",
+                "example_vi": "Mức giá siêu rẻ thường dựa trên điều kiện lao động bóc lột."
+              },
+              {
+                "phrase": "mitigate environmental impact",
+                "level": "B2",
+                "vi": "giảm nhẹ tác động môi trường",
+                "context_usage": "Câu chủ đề đoạn giải pháp",
+                "example_en": "Both brands and shoppers must act to mitigate environmental impact.",
+                "example_vi": "Cả thương hiệu và người mua phải hành động để giảm nhẹ tác động môi trường."
+              },
+              {
+                "phrase": "mindful consumption",
+                "level": "B2",
+                "vi": "tiêu dùng có ý thức",
+                "context_usage": "Giải pháp thay đổi hành vi người mua",
+                "example_en": "Mindful consumption means buying fewer, better-made clothes.",
+                "example_vi": "Tiêu dùng có ý thức nghĩa là mua ít hơn và chọn đồ chất lượng hơn."
+              },
+              {
+                "phrase": "extend garment lifecycles",
+                "level": "B2",
+                "vi": "kéo dài vòng đời trang phục",
+                "context_usage": "Lợi ích của việc sửa chữa và tái sử dụng",
+                "example_en": "Repairing and swapping clothes help extend garment lifecycles.",
+                "example_vi": "Sửa chữa và trao đổi quần áo giúp kéo dài vòng đời trang phục."
+              },
+              {
+                "phrase": "second-hand shopping",
+                "level": "B1",
+                "vi": "mua sắm đồ đã qua sử dụng",
+                "context_usage": "Giải pháp thực tế, dễ áp dụng cho giới trẻ",
+                "example_en": "Second-hand shopping is affordable and environmentally friendly.",
+                "example_vi": "Mua sắm đồ cũ vừa hợp túi tiền vừa thân thiện với môi trường."
+              },
+              {
+                "phrase": "eco-friendly fabrics",
+                "level": "B1, B2",
+                "vi": "vải thân thiện với môi trường",
+                "context_usage": "Giải pháp đổi mới nguyên liệu từ nhà sản xuất",
+                "example_en": "Brands should switch to organic cotton and other eco-friendly fabrics.",
+                "example_vi": "Các thương hiệu nên chuyển sang bông hữu cơ và các loại vải thân thiện môi trường khác."
+              },
+              {
+                "phrase": "in-store take-back schemes",
+                "level": "B2",
+                "vi": "chương trình thu hồi đồ cũ tại cửa hàng",
+                "context_usage": "Ví dụ giải pháp tái chế của hãng thời trang",
+                "example_en": "In-store take-back schemes allow customers to recycle old clothes easily.",
+                "example_vi": "Chương trình thu hồi tại cửa hàng giúp khách hàng dễ dàng tái chế đồ cũ."
+              },
+              {
+                "phrase": "impose carbon taxes",
+                "level": "B2",
+                "vi": "áp thuế carbon",
+                "context_usage": "Giải pháp chính sách từ chính phủ",
+                "example_en": "Governments can impose carbon taxes on heavily polluting factories.",
+                "example_vi": "Chính phủ có thể áp thuế carbon lên các nhà máy gây ô nhiễm nặng."
+              },
+              {
+                "phrase": "responsible shopping choices",
+                "level": "B1",
+                "vi": "lựa chọn mua sắm có trách nhiệm",
+                "context_usage": "Kết quả của giáo dục và nâng cao nhận thức",
+                "example_en": "Education encourages young people to make responsible shopping choices.",
+                "example_vi": "Giáo dục khuyến khích người trẻ đưa ra những lựa chọn mua sắm có trách nhiệm."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_waste_pollution",
+                "name": "Nhóm 1: Rác thải Dệt may & Ô nhiễm Môi trường (Waste & Pollution)",
+                "icon": "🌍",
+                "badge": "Ảnh hưởng 01–03",
+                "items": [
+                  {
+                    "en": "massive textile waste",
+                    "vi": "lượng rác thải dệt may khổng lồ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Fast fashion creates massive textile waste every year.",
+                    "example_vi": "Thời trang nhanh tạo ra lượng rác thải dệt may khổng lồ mỗi năm."
+                  },
+                  {
+                    "en": "toxic dyeing chemicals",
+                    "vi": "hóa chất nhuộm độc hại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Toxic dyeing chemicals contaminate rivers near factories.",
+                    "example_vi": "Hóa chất nhuộm độc hại làm ô nhiễm các dòng sông gần nhà máy."
+                  },
+                  {
+                    "en": "global carbon emissions",
+                    "vi": "khí thải carbon toàn cầu",
+                    "level": "B1, B2",
+                    "type": "phrase",
+                    "example_en": "Global shipping of trendy clothes increases carbon emissions.",
+                    "example_vi": "Việc vận chuyển quần áo hợp mốt toàn cầu làm tăng khí thải carbon."
+                  },
+                  {
+                    "en": "wear out quickly",
+                    "vi": "nhanh hỏng, nhanh cũ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Cheap garments wear out quickly and end up in landfills.",
+                    "example_vi": "Quần áo giá rẻ nhanh hỏng và kết thúc ở bãi rác."
+                  }
+                ]
+              },
+              {
+                "id": "group_social_habits",
+                "name": "Nhóm 2: Thói quen Tiêu dùng & Lao động (Overconsumption & Labor)",
+                "icon": "🛍️",
+                "badge": "Ảnh hưởng 04–05",
+                "items": [
+                  {
+                    "en": "throwaway culture",
+                    "vi": "văn hóa dùng nhanh rồi vứt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Social media trends encourage a wasteful throwaway culture.",
+                    "example_vi": "Xu hướng mạng xã hội khuyến khích văn hóa dùng nhanh rồi vứt đầy lãng phí."
+                  },
+                  {
+                    "en": "impulsive spending",
+                    "vi": "chi tiêu bốc đồng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Constant discounts push teenagers toward impulsive spending.",
+                    "example_vi": "Giảm giá liên tục đẩy thanh thiếu niên vào việc chi tiêu bốc đồng."
+                  },
+                  {
+                    "en": "exploitative labor conditions",
+                    "vi": "điều kiện lao động bóc lột",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Ultra-cheap clothes often hide exploitative labor conditions.",
+                    "example_vi": "Quần áo siêu rẻ thường ẩn chứa điều kiện lao động bóc lột."
+                  },
+                  {
+                    "en": "chase new styles",
+                    "vi": "chạy theo kiểu dáng mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Many young shoppers chase new styles every month.",
+                    "example_vi": "Nhiều người mua trẻ chạy theo kiểu dáng mới mỗi tháng."
+                  }
+                ]
+              },
+              {
+                "id": "group_consumer_action",
+                "name": "Nhóm 3: Giải pháp từ Người tiêu dùng (Consumer Solutions)",
+                "icon": "♻️",
+                "badge": "Giải pháp 01–02",
+                "items": [
+                  {
+                    "en": "mindful consumption",
+                    "vi": "tiêu dùng có ý thức",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Practicing mindful consumption helps cut clothing waste.",
+                    "example_vi": "Thực hành tiêu dùng có ý thức giúp cắt giảm rác thải quần áo."
+                  },
+                  {
+                    "en": "durable, high-quality items",
+                    "vi": "sản phẩm bền và chất lượng cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Choosing durable, high-quality items saves money long term.",
+                    "example_vi": "Chọn sản phẩm bền và chất lượng cao giúp tiết kiệm tiền về lâu dài."
+                  },
+                  {
+                    "en": "second-hand shopping",
+                    "vi": "mua sắm đồ đã qua sử dụng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Second-hand shopping gives usable clothes a second life.",
+                    "example_vi": "Mua sắm đồ cũ mang lại vòng đời thứ hai cho quần áo còn dùng được."
+                  },
+                  {
+                    "en": "extend garment lifecycles",
+                    "vi": "kéo dài vòng đời trang phục",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Repairing clothes is a simple way to extend garment lifecycles.",
+                    "example_vi": "Sửa chữa quần áo là cách đơn giản để kéo dài vòng đời trang phục."
+                  }
+                ]
+              },
+              {
+                "id": "group_brand_policy",
+                "name": "Nhóm 4: Doanh nghiệp, Chính phủ & Giáo dục (Brands, Policy & Education)",
+                "icon": "🏛️",
+                "badge": "Giải pháp 03–05",
+                "items": [
+                  {
+                    "en": "eco-friendly fabrics",
+                    "vi": "vải thân thiện môi trường",
+                    "level": "B1, B2",
+                    "type": "phrase",
+                    "example_en": "Brands should invest in eco-friendly fabrics like organic cotton.",
+                    "example_vi": "Các thương hiệu nên đầu tư vào vải thân thiện môi trường như bông hữu cơ."
+                  },
+                  {
+                    "en": "in-store take-back schemes",
+                    "vi": "chương trình thu hồi đồ cũ tại cửa hàng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "In-store take-back schemes promote textile recycling.",
+                    "example_vi": "Chương trình thu hồi tại cửa hàng thúc đẩy việc tái chế dệt may."
+                  },
+                  {
+                    "en": "impose carbon taxes",
+                    "vi": "áp thuế carbon",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Governments can impose carbon taxes on polluting garment factories.",
+                    "example_vi": "Chính phủ có thể áp thuế carbon lên các nhà máy may mặc gây ô nhiễm."
+                  },
+                  {
+                    "en": "responsible shopping choices",
+                    "vi": "lựa chọn mua sắm có trách nhiệm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Awareness campaigns guide youths toward responsible shopping choices.",
+                    "example_vi": "Chiến dịch nâng cao nhận thức hướng giới trẻ tới lựa chọn mua sắm có trách nhiệm."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress",
+                "title": "Thời trang nhanh và cái giá đắt đối với môi trường toàn cầu",
+                "summary": "Phân tích lượng rác thải dệt may, lượng nước tiêu thụ và khí thải carbon từ ngành thời trang nhanh cùng xu hướng tiêu dùng bền vững ở giới trẻ.",
+                "url": "https://vnexpress.net/"
+              }
+            ],
+            "en": [
+              {
+                "source": "UN Environment Programme (UNEP)",
+                "title": "Putting the Brakes on Fast Fashion",
+                "summary": "Overview of how the fashion sector contributes to global carbon emissions and wastewater pollution, and practical steps toward circular, sustainable textiles.",
+                "url": "https://www.unep.org/"
+              }
+            ]
+          }
+        }
       }
     ]
   },
