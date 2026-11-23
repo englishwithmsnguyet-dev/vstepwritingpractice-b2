@@ -10778,6 +10778,79 @@ function isCategoryAllowedForUser(catId) {
     return true;
   }
 
+  // Class B212: ONLY Category 1 is opened; Categories 2, 3, 4 are locked
+  if (userClass === 'B212') {
+    return catId === 1 || String(catId) === '1';
+  }
+
+  // Classes ONB103, 0NB103, CB211, CB213: Categories 1 & 2 are opened
+  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
+    return catId === 1 || catId === 2 || String(catId) === '1' || String(catId) === '2';
+  }
+
+  // CB210: all categories 1, 2, 3, 4 are opened
+  if (userClass === 'CB210') {
+    return true;
+  }
+
+  return true;
+}
+
+// Check if a topic is allowed for current student/class
+function isTopicAllowedForUser(catId, topicId, topic) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+
+  // Teachers always have access to all topics
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
+    return true;
+  }
+
+  // Category must be allowed first
+  if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
+    return false;
+  }
+
+  // Class B212: in Category 1 (TYPE 01), ALL topics are opened; all other categories are locked
+  if (userClass === 'B212') {
+    return catId === 1 || String(catId) === '1';
+  }
+
+  // Classes ONB103, 0NB103, CB211, CB213:
+  // - Category 1: ALL topics are unlocked
+  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked (plus Topic 16 & 28 for CB213); other topics remain locked
+  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
+    if (catId === 1 || String(catId) === '1') return true;
+    if (catId === 2 || String(catId) === '2') {
+      const tid = Number(topicId || (topic ? topic.id : 0));
+      const allowedCat2Ids = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 23, 24, 27, 30, 32, 33, 34, 36, 37, 40, 41, 42, 43];
+      if (allowedCat2Ids.includes(tid)) return true;
+      if (topic) {
+        const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
+        if (subtype === 'NGUYÊN NHÂN & GIẢI PHÁP' || subtype === 'NGUYÊN NHÂN & ẢNH HƯỞNG') return true;
+      }
+      // For CB213: additionally open Topic 16 and Topic 28 in Category 2
+      if (userClass === 'CB213' && (tid === 16 || tid === 28)) {
+        return true;
+      }
+      return false;
+    }
+    return false;
+  }
+
+  return true;
+}
+
+// Check if a workspace step ('read', 'vocab', 'trans', 'write', 'model') is allowed for current student/class
+function isStepAllowedForUser(stepKey, catId, topicId, topic) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+
+  // Teachers always have access to all steps
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
+    return true;
+  }
+
   // Class B212:
   // - Category 1 (TYPE 01): ALL topics have ALL steps (1..5) unlocked!
   // - Categories 2, 3, 4: locked
