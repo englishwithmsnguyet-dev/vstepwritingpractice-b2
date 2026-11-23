@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PHÒNG VIẾT LUẬN B2 - ENGLISH WITH MISS NGUYET</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=160">
+  <link rel="stylesheet" href="styles.css?v=161">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -150,6 +150,12 @@
           <div class="welcome-text">
             <h2>Luyện Viết Luận VSTEP B2 Level</h2>
             <p>Chào mừng bạn đến với <strong>BÌNH NGUYÊN LUYỆN VIẾT VÔ TẬN</strong> của <strong>Miss Nguyet</strong>. Hãy dành thời gian luyện viết mỗi ngày để <strong>KỸ NĂNG VIẾT KHÔNG CÒN LÀ NỖI SỢ QUÁ LỚN</strong> nhé!</p>
+            <div class="welcome-actions">
+              <button type="button" class="btn-random-hero" onclick="openRandomTopicModal('all')">
+                <span class="random-dice-icon">🎲</span>
+                <span>Chọn ngẫu nhiên 1 đề luyện tập</span>
+              </button>
+            </div>
           </div>
           <div class="welcome-graphic">
             <img src="welcome_cats.png" alt="Welcome Cats">
@@ -312,6 +318,9 @@
           <button class="filter-pill-btn unwritten" id="filter-unwritten-btn" onclick="setTopicStatusFilter('unwritten')">
             <span>○ Chưa viết</span>
             <span class="filter-pill-count" id="count-filter-unwritten">0</span>
+          </button>
+          <button type="button" class="filter-pill-btn random-pick-btn" id="btn-random-category" onclick="openRandomTopicModal(currentCategory ? currentCategory.id : 'all')">
+            <span>🎲 Ngẫu nhiên 1 đề</span>
           </button>
         </div>
 
@@ -728,13 +737,50 @@
     </div>
   </div>
 
+  <!-- RANDOM TOPIC PICKER MODAL -->
+  <div id="random-topic-modal" class="random-modal-overlay" onclick="if(event.target===this) closeRandomTopicModal()">
+    <div class="random-modal-card" role="dialog" aria-modal="true" aria-labelledby="random-modal-title">
+      <div class="random-modal-header">
+        <div class="random-modal-title-wrap">
+          <span class="random-modal-icon">🎲</span>
+          <div>
+            <h3 id="random-modal-title">Chọn ngẫu nhiên 1 đề luyện tập</h3>
+            <p class="random-modal-sub">Tự động bốc thăm đề đầy đủ 5 bước đã mở khóa cho bạn</p>
+          </div>
+        </div>
+        <button type="button" class="random-modal-close" onclick="closeRandomTopicModal()" aria-label="Đóng">✕</button>
+      </div>
+
+      <div class="random-scope-bar" id="random-scope-bar"></div>
+
+      <label class="random-pref-row">
+        <input type="checkbox" id="random-unwritten-only" checked onchange="toggleRandomUnwrittenOnly()">
+        <span>Ưu tiên chọn đề <strong>chưa viết</strong></span>
+        <span class="random-pool-info" id="random-pool-info"></span>
+      </label>
+
+      <div class="random-result-box" id="random-result-box">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="random-modal-footer">
+        <button type="button" class="btn-random-reroll" id="btn-random-reroll" onclick="rollRandomTopic(true)">
+          <span>🔄</span> Quay đề khác
+        </button>
+        <button type="button" class="btn-random-start" id="btn-random-start" onclick="startPickedRandomTopic()">
+          <span>✍️</span> Bắt đầu luyện viết ngay
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Notification Toast Container -->
   <div id="toast-container"></div>
 
   <!-- Loaded global topic data -->
   <script src="topics_db.js?v=174"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=169"></script>
+  <script src="app.js?v=170"></script>
   <script src="vstep_ai_grader.js?v=162"></script>
 </body>
 </html>

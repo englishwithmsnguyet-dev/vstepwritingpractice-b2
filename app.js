@@ -363,7 +363,7 @@ function switchCategory(catId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
     if (userClass === 'B212') {
-      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 02)!', 'warning');
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp mở tất cả các đề thuộc DẠNG LUẬN 01!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Lớp hiện đã mở Dạng 01 & Dạng 02!`, 'warning');
     } else if (userClass === 'CB210') {
@@ -988,7 +988,7 @@ function startPractice(catId, topicId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
     if (userClass === 'B212') {
-      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp chỉ mở DẠNG LUẬN 01 (Đề 01 & Đề 02)!', 'warning');
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp B212. Hiện tại lớp mở tất cả các đề thuộc DẠNG LUẬN 01!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp đã mở DẠNG LUẬN 01 & DẠNG LUẬN 02!`, 'warning');
     } else if (userClass === 'CB210') {
@@ -1007,7 +1007,7 @@ function startPractice(catId, topicId) {
 
   if (typeof isTopicAllowedForUser === 'function' && !isTopicAllowedForUser(catId, topicId, topic)) {
     if (userClass === 'B212') {
-      showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện chỉ mở Đề 01 (Học trực tuyến), Đề 02 (Du học) và Đề 22 (Hoạt động cộng đồng)!', 'warning');
+      showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện mở tất cả các đề thuộc DẠNG LUẬN 01!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       if (userClass === 'CB213') {
         showToast('🔒 Đề bài này tạm thời chưa mở cho lớp CB213. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (Bước 1-3)!', 'warning');
@@ -10778,96 +10778,12 @@ function isCategoryAllowedForUser(catId) {
     return true;
   }
 
-  // Class B212: ONLY Category 1 is opened; Categories 2, 3, 4 are locked
-  if (userClass === 'B212') {
-    return catId === 1;
-  }
-
-  // Classes ONB103, 0NB103, CB211, CB213: Categories 1 & 2 are opened
-  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
-    return catId === 1 || catId === 2;
-  }
-
-  // CB210: all categories 1, 2, 3, 4 are opened
-  if (userClass === 'CB210') {
-    return true;
-  }
-
-  return true;
-}
-
-// Check if a topic is allowed for current student/class
-function isTopicAllowedForUser(catId, topicId, topic) {
-  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  const userName = sessionStorage.getItem('current_user_name') || '';
-
-  // Teachers always have access to all topics
-  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
-    return true;
-  }
-
-  // Category must be allowed first
-  if (typeof isCategoryAllowedForUser === 'function' && !isCategoryAllowedForUser(catId)) {
-    return false;
-  }
-
-  // Class B212: in Category 1, ONLY Topic 1 (Online learning), Topic 2 (Studying abroad), and Topic 22 (Unpaid community service) are opened; all others locked
-  if (userClass === 'B212') {
-    if (catId !== 1 && String(catId) !== '1') return false;
-    const tid = Number(topicId || (topic ? topic.id : 0));
-    const ten = topic ? (topic.title_en || '').toLowerCase() : '';
-    const isTopic1 = (tid === 1 || ten.includes('online learning'));
-    const isTopic2 = (tid === 2 || ten.includes('studying abroad'));
-    const isTopic22 = (tid === 22 || ten.includes('unpaid community service') || ten.includes('community service'));
-    return isTopic1 || isTopic2 || isTopic22;
-  }
-
-  // Classes ONB103, 0NB103, CB211, CB213:
-  // - Category 1: ALL topics are unlocked
-  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked (plus Topic 16 & 28 for CB213); other topics remain locked
-  if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
-    if (catId === 1 || String(catId) === '1') return true;
-    if (catId === 2 || String(catId) === '2') {
-      const tid = Number(topicId || (topic ? topic.id : 0));
-      const allowedCat2Ids = [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 23, 24, 27, 30, 32, 33, 34, 36, 37, 40, 41, 42, 43];
-      if (allowedCat2Ids.includes(tid)) return true;
-      if (topic) {
-        const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
-        if (subtype === 'NGUYÊN NHÂN & GIẢI PHÁP' || subtype === 'NGUYÊN NHÂN & ẢNH HƯỞNG') return true;
-      }
-      // For CB213: additionally open Topic 16 and Topic 28 in Category 2
-      if (userClass === 'CB213' && (tid === 16 || tid === 28)) {
-        return true;
-      }
-      return false;
-    }
-    return false;
-  }
-
-  return true;
-}
-
-// Check if a workspace step ('read', 'vocab', 'trans', 'write', 'model') is allowed for current student/class
-function isStepAllowedForUser(stepKey, catId, topicId, topic) {
-  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  const userName = sessionStorage.getItem('current_user_name') || '';
-
-  // Teachers always have access to all steps
-  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
-    return true;
-  }
-
   // Class B212:
-  // - Category 1: For Topic 1, Topic 2, and Topic 22, ALL steps (1..5) including steps 4 & 5 ('write', 'model') are OPEN!
-  // - For any other topic/category, steps 4 & 5 ('write', 'model') are locked
+  // - Category 1 (TYPE 01): ALL topics have ALL steps (1..5) unlocked!
+  // - Categories 2, 3, 4: locked
   if (userClass === 'B212') {
     if (catId === 1 || String(catId) === '1') {
-      const tid = Number(topicId || (topic ? topic.id : 0));
-      const ten = topic ? (topic.title_en || '').toLowerCase() : '';
-      const isAllowedTopic = (tid === 1 || tid === 2 || tid === 22 || ten.includes('online learning') || ten.includes('studying abroad') || ten.includes('community service'));
-      if (isAllowedTopic) {
-        return true; // All steps 1..5 unlocked!
-      }
+      return true; // All steps 1..5 unlocked for all topics in Category 1!
     }
     if (stepKey === 'write' || stepKey === 'model') {
       return false;
@@ -10918,7 +10834,7 @@ function updateClassAccessUI() {
       link.classList.add('is-locked');
       let lockMsg = 'Dạng luận này tạm thời chưa mở';
       if (isB212) {
-        lockMsg = 'Dạng luận này tạm thời chưa mở cho lớp B212 (Hiện tại lớp chỉ mở DẠNG LUẬN 01: Đề 01 & Đề 02)';
+        lockMsg = 'Dạng luận này tạm thời chưa mở cho lớp B212 (Hiện tại lớp mở tất cả các đề thuộc DẠNG LUẬN 01)';
       } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
         lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp đã mở DẠNG LUẬN 01 & 02)`;
       } else if (isCB210) {
@@ -10957,3 +10873,232 @@ function toggleGatewayPasswordVisibility() {
   }
 }
 window.toggleGatewayPasswordVisibility = toggleGatewayPasswordVisibility;
+
+/* ==========================================================================
+   RANDOM TOPIC PICKER (CHỌN NGẪU NHIÊN 1 ĐỀ LUYỆN TẬP)
+   ========================================================================== */
+let randomPickerScope = 'all';
+let randomPickerUnwrittenOnly = true;
+let randomPickedItem = null;
+let randomRollTimer = null;
+
+function getEligibleRandomTopics(scope, unwrittenOnly) {
+  if (typeof ESSAY_DATA === 'undefined' || !Array.isArray(ESSAY_DATA)) return [];
+  const allEligible = [];
+  ESSAY_DATA.forEach(cat => {
+    if (scope !== 'all' && String(cat.id) !== String(scope)) return;
+    (cat.topics || []).forEach(t => {
+      if (!t.has_full_details) return;
+      const allowed = typeof isTopicAllowedForUser === 'function'
+        ? isTopicAllowedForUser(cat.id, t.id, t)
+        : true;
+      if (!allowed) return;
+      allEligible.push({ catId: cat.id, catTitle: cat.title_vi || cat.title_en || `Dạng 0${cat.id}`, topic: t });
+    });
+  });
+
+  if (unwrittenOnly) {
+    const unwritten = allEligible.filter(item => !isTopicWritten(item.catId, item.topic.id));
+    if (unwritten.length > 0) {
+      return { pool: unwritten, totalUnlocked: allEligible.length, fallbackAllWritten: false };
+    }
+    return { pool: allEligible, totalUnlocked: allEligible.length, fallbackAllWritten: allEligible.length > 0 };
+  }
+  return { pool: allEligible, totalUnlocked: allEligible.length, fallbackAllWritten: false };
+}
+
+function renderRandomScopeBar() {
+  const bar = document.getElementById('random-scope-bar');
+  if (!bar || typeof ESSAY_DATA === 'undefined') return;
+
+  const scopes = [
+    { id: 'all', label: '✨ Tất cả dạng' },
+    { id: 1, label: 'Dạng 01: Adv/Disadv' },
+    { id: 2, label: 'Dạng 02: Causes/Solutions' },
+    { id: 3, label: 'Dạng 03: Opinion' },
+    { id: 4, label: 'Dạng 04: Discussion' }
+  ];
+
+  bar.innerHTML = scopes.map(sc => {
+    const res = getEligibleRandomTopics(sc.id, false);
+    const active = String(randomPickerScope) === String(sc.id);
+    return `
+      <button type="button" class="random-scope-pill ${active ? 'is-active' : ''}" onclick="setRandomScope('${sc.id}')">
+        <span>${sc.label}</span>
+        <span class="scope-cnt">${res.totalUnlocked}</span>
+      </button>
+    `;
+  }).join('');
+}
+
+function renderRandomResultCard(item, meta) {
+  const box = document.getElementById('random-result-box');
+  const startBtn = document.getElementById('btn-random-start');
+  const rerollBtn = document.getElementById('btn-random-reroll');
+  const poolInfo = document.getElementById('random-pool-info');
+  if (!box) return;
+
+  if (poolInfo) {
+    if (meta && meta.totalUnlocked > 0) {
+      poolInfo.textContent = meta.fallbackAllWritten
+        ? `Đã hoàn thành hết ${meta.totalUnlocked} đề — ôn tập lại`
+        : `${meta.pool.length} đề khả dụng`;
+    } else {
+      poolInfo.textContent = '0 đề khả dụng';
+    }
+  }
+
+  if (!item) {
+    box.innerHTML = `
+      <div class="random-empty-state">
+        <div style="font-size: 2rem; margin-bottom: 0.45rem;">🔒</div>
+        <div style="font-weight: 700; margin-bottom: 0.35rem;">Chưa có đề mở khóa trong dạng bài này</div>
+        <div style="font-size: 0.84rem; color: var(--text-secondary); margin-bottom: 0.85rem;">
+          Bạn có thể chuyển sang <strong>Tất cả dạng</strong> để bốc thăm trong các đề đã mở khóa cho lớp mình.
+        </div>
+        ${randomPickerScope !== 'all' ? `<button type="button" class="btn-random-reroll" onclick="setRandomScope('all')">✨ Chọn từ Tất cả dạng</button>` : ''}
+      </div>
+    `;
+    if (startBtn) startBtn.disabled = true;
+    if (rerollBtn) rerollBtn.disabled = true;
+    return;
+  }
+
+  if (startBtn) startBtn.disabled = false;
+  if (rerollBtn) rerollBtn.disabled = meta && meta.pool.length <= 1;
+
+  const t = item.topic;
+  const isWritten = isTopicWritten(item.catId, t.id);
+  const catNames = {
+    1: 'Dạng 01 • Thuận lợi & Bất lợi',
+    2: 'Dạng 02 • Nguyên nhân – Ảnh hưởng – Giải pháp',
+    3: 'Dạng 03 • Quan điểm (Opinion)',
+    4: 'Dạng 04 • Thảo luận (Discussion)'
+  };
+  const catColors = { 1: '#4f46e5', 2: '#8b5cf6', 3: '#059669', 4: '#d97706' };
+  const accent = catColors[item.catId] || '#4f46e5';
+  const rawTag = Array.isArray(t.tags) ? t.tags.join(' • ') : (t.tags || '');
+  const previewText = (t.context || t.prompt || '').trim();
+
+  box.innerHTML = `
+    <div class="random-picked-inner" style="--picked-accent: ${accent}">
+      <div class="random-picked-badges">
+        <span class="random-cat-badge">${catNames[item.catId] || item.catTitle}</span>
+        <span class="random-id-badge">Đề #${String(t.id).padStart(2, '0')}</span>
+        ${rawTag ? `<span class="random-tag-badge">${rawTag}</span>` : ''}
+        <span class="random-status-badge ${isWritten ? 'is-done' : ''}">${isWritten ? '✓ Đã viết' : '○ Chưa viết'}</span>
+      </div>
+      <div class="random-picked-vi">${t.title_vi || t.title_en}</div>
+      <div class="random-picked-en">${t.title_en}</div>
+      ${previewText ? `<div class="random-picked-preview">${previewText}</div>` : ''}
+      ${meta && meta.fallbackAllWritten ? `<div class="random-fallback-note">🎉 Bạn đã luyện xong tất cả đề trong nhóm này — hệ thống chọn lại ngẫu nhiên để bạn ôn tập!</div>` : ''}
+    </div>
+  `;
+}
+
+function rollRandomTopic(animate) {
+  if (randomRollTimer) {
+    clearInterval(randomRollTimer);
+    randomRollTimer = null;
+  }
+  const meta = getEligibleRandomTopics(randomPickerScope, randomPickerUnwrittenOnly);
+  if (!meta.pool || meta.pool.length === 0) {
+    randomPickedItem = null;
+    renderRandomResultCard(null, meta);
+    return;
+  }
+
+  const pickOne = (avoidCurrent) => {
+    let candidates = meta.pool;
+    if (avoidCurrent && randomPickedItem && candidates.length > 1) {
+      candidates = candidates.filter(c => !(c.catId === randomPickedItem.catId && c.topic.id === randomPickedItem.topic.id));
+    }
+    return candidates[Math.floor(Math.random() * candidates.length)];
+  };
+
+  const finalPick = pickOne(true);
+  const box = document.getElementById('random-result-box');
+
+  if (animate && box && meta.pool.length > 1) {
+    box.classList.add('is-rolling');
+    let ticks = 0;
+    randomRollTimer = setInterval(() => {
+      ticks++;
+      if (ticks < 5) {
+        const tempPick = meta.pool[Math.floor(Math.random() * meta.pool.length)];
+        renderRandomResultCard(tempPick, meta);
+      } else {
+        clearInterval(randomRollTimer);
+        randomRollTimer = null;
+        randomPickedItem = finalPick;
+        renderRandomResultCard(finalPick, meta);
+        box.classList.remove('is-rolling');
+      }
+    }, 65);
+  } else {
+    randomPickedItem = finalPick;
+    renderRandomResultCard(finalPick, meta);
+  }
+}
+
+function openRandomTopicModal(defaultScope) {
+  const modal = document.getElementById('random-topic-modal');
+  if (!modal) return;
+  randomPickerScope = (defaultScope !== undefined && defaultScope !== null) ? defaultScope : 'all';
+  const cb = document.getElementById('random-unwritten-only');
+  if (cb) randomPickerUnwrittenOnly = cb.checked;
+
+  // If the requested category has 0 unlocked full topics, fall back smoothly to 'all'
+  if (randomPickerScope !== 'all') {
+    const check = getEligibleRandomTopics(randomPickerScope, false);
+    if (check.totalUnlocked === 0) {
+      randomPickerScope = 'all';
+    }
+  }
+
+  renderRandomScopeBar();
+  modal.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+  rollRandomTopic(true);
+}
+
+function closeRandomTopicModal() {
+  const modal = document.getElementById('random-topic-modal');
+  if (modal) modal.classList.remove('is-open');
+  document.body.style.overflow = '';
+  if (randomRollTimer) {
+    clearInterval(randomRollTimer);
+    randomRollTimer = null;
+  }
+}
+
+function setRandomScope(scope) {
+  randomPickerScope = scope === 'all' ? 'all' : Number(scope);
+  renderRandomScopeBar();
+  rollRandomTopic(true);
+}
+
+function toggleRandomUnwrittenOnly() {
+  const cb = document.getElementById('random-unwritten-only');
+  randomPickerUnwrittenOnly = cb ? cb.checked : true;
+  rollRandomTopic(true);
+}
+
+function startPickedRandomTopic() {
+  if (!randomPickedItem) return;
+  const { catId, topic } = randomPickedItem;
+  closeRandomTopicModal();
+  if (typeof showToast === 'function') {
+    showToast(`🎲 Bắt đầu luyện đề #${topic.id}: ${topic.title_vi || topic.title_en}`, 'info');
+  }
+  startPractice(catId, topic.id);
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const modal = document.getElementById('random-topic-modal');
+    if (modal && modal.classList.contains('is-open')) {
+      closeRandomTopicModal();
+    }
+  }
+});
