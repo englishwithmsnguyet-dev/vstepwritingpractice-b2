@@ -187237,10 +187237,10 @@ const ESSAY_DATA = [
           "reference_articles": {
             "vi": [
               {
-                "source": "VnExpress",
-                "title": "Thời trang nhanh và cái giá đắt đối với môi trường toàn cầu",
-                "summary": "Phân tích lượng rác thải dệt may, lượng nước tiêu thụ và khí thải carbon từ ngành thời trang nhanh cùng xu hướng tiêu dùng bền vững ở giới trẻ.",
-                "url": "https://vnexpress.net/"
+                "source": "CANIFA Blog",
+                "title": "Thời trang nhanh ở Việt Nam: Xu hướng, lợi ích và các tác hại",
+                "summary": "Tổng quan toàn diện về khái niệm thời trang nhanh, thực trạng phát triển tại Việt Nam, các hệ lụy về rác thải, ô nhiễm môi trường, thói quen tiêu dùng lãng phí cùng định hướng chuyển dịch sang thời trang bền vững.",
+                "url": "https://canifa.com/blog/thoi-trang-nhanh-o-viet-nam"
               }
             ],
             "en": [
@@ -187248,7 +187248,7 @@ const ESSAY_DATA = [
                 "source": "UN Environment Programme (UNEP)",
                 "title": "Putting the Brakes on Fast Fashion",
                 "summary": "Overview of how the fashion sector contributes to global carbon emissions and wastewater pollution, and practical steps toward circular, sustainable textiles.",
-                "url": "https://www.unep.org/"
+                "url": "https://www.unep.org/news-and-stories/story/putting-brakes-fast-fashion"
               }
             ]
           }
