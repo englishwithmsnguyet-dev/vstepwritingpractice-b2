@@ -5698,7 +5698,7 @@ function detectSuperficialAttempt(text, words, elapsedSec) {
   const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(p => p.length > 0);
   const developedParagraphs = paragraphs.filter(p => p.split(/\s+/).length >= 45).length;
   const templateMarkers = (text.match(/\b(in recent years|nowadays|this essay will|on the one hand|on the other hand|firstly|secondly|thirdly|moreover|furthermore|in addition|in conclusion|to sum up|all in all)\b/gi) || []).length;
-  const isThinTemplate = (words < 230 && developedParagraphs < 2 && (templateMarkers >= 3 || avgWordsPerSentence < 11));
+  const isThinTemplate = (words < 200 && developedParagraphs < 2 && (templateMarkers >= 3 || avgWordsPerSentence < 11));
 
   // 5. Repetitive low-effort padding
   const rawWords = text.toLowerCase().replace(/[^a-z']/g, ' ').split(/\s+/).filter(w => w.length > 2);
