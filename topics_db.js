@@ -183771,56 +183771,248 @@ const ESSAY_DATA = [
               "vi": "bị mỏi mắt"
             },
             {
+              "en": "poor sleep",
+              "vi": "giấc ngủ kém"
+            },
+            {
+              "en": "ongoing stress",
+              "vi": "căng thẳng kéo dài"
+            },
+            {
+              "en": "constantly distracted",
+              "vi": "liên tục bị xao nhãng"
+            },
+            {
+              "en": "delay important tasks",
+              "vi": "trì hoãn nhiệm vụ quan trọng"
+            },
+            {
+              "en": "get lower results",
+              "vi": "đạt kết quả thấp hơn"
+            },
+            {
+              "en": "prolonged Internet overuse",
+              "vi": "lạm dụng Internet kéo dài"
+            },
+            {
+              "en": "psychological well-being",
+              "vi": "sức khỏe tâm lý / tinh thần"
+            },
+            {
+              "en": "remain sedentary",
+              "vi": "ngồi thụ động ít vận động"
+            },
+            {
               "en": "disturb sleep patterns",
               "vi": "làm rối loạn giấc ngủ"
             },
             {
-              "en": "declining academic performance",
-              "vi": "thành tích học tập sa sút"
+              "en": "compulsive checking of notifications",
+              "vi": "thói quen kiểm tra thông báo cưỡng bức"
             },
             {
               "en": "fragment attention spans",
               "vi": "làm phân mảnh khả năng tập trung"
             },
             {
+              "en": "fuel procrastination",
+              "vi": "thúc đẩy thói quen trì hoãn"
+            },
+            {
+              "en": "declining academic achievement",
+              "vi": "thành tích học tập sa sút"
+            },
+            {
               "en": "weaken real-life relationships",
-              "vi": "làm suy yếu các mối quan hệ ngoài đời thực"
+              "vi": "làm suy yếu quan hệ ngoài đời thực"
             },
             {
-              "en": "face-to-face communication",
-              "vi": "giao tiếp trực tiếp mặt đối mặt"
+              "en": "talk face to face",
+              "vi": "trò chuyện trực tiếp mặt đối mặt"
             },
             {
-              "en": "online scams and fraud",
-              "vi": "lừa đảo và gian lận trực tuyến"
+              "en": "distant and lonely",
+              "vi": "xa cách và cô đơn"
             },
             {
-              "en": "set daily screen-time limits",
-              "vi": "đặt giới hạn thời gian màn hình hằng ngày"
+              "en": "fake news",
+              "vi": "tin giả"
+            },
+            {
+              "en": "harmful content",
+              "vi": "nội dung độc hại"
+            },
+            {
+              "en": "online scams",
+              "vi": "lừa đảo trực tuyến"
+            },
+            {
+              "en": "waste valuable time",
+              "vi": "lãng phí thời gian quý báu"
+            },
+            {
+              "en": "inactive lifestyle",
+              "vi": "lối sống lười vận động"
+            },
+            {
+              "en": "erode real-life relationships",
+              "vi": "làm xói mòn quan hệ ngoài đời thực"
+            },
+            {
+              "en": "emotionally isolated",
+              "vi": "cô lập về mặt cảm xúc"
+            },
+            {
+              "en": "weaken interpersonal skills",
+              "vi": "làm mai một kỹ năng giao tiếp"
+            },
+            {
+              "en": "online fraud and cyberbullying",
+              "vi": "lừa đảo trực tuyến và bắt nạt mạng"
+            },
+            {
+              "en": "sophisticated phishing links",
+              "vi": "đường dẫn giả mạo tinh vi"
+            },
+            {
+              "en": "recommendation algorithms",
+              "vi": "thuật toán đề xuất nội dung"
+            },
+            {
+              "en": "effortless digital stimulation",
+              "vi": "sự kích thích dễ dãi từ thiết bị số"
+            },
+            {
+              "en": "drain valuable time",
+              "vi": "tiêu hao thời gian quý báu"
+            },
+            {
+              "en": "set daily time limits",
+              "vi": "đặt giới hạn thời gian hằng ngày"
+            },
+            {
+              "en": "screen-time tracking apps",
+              "vi": "ứng dụng theo dõi thời gian màn hình"
+            },
+            {
+              "en": "turn off phones before bedtime",
+              "vi": "tắt điện thoại trước giờ đi ngủ"
+            },
+            {
+              "en": "outdoor activities",
+              "vi": "các hoạt động ngoài trời"
+            },
+            {
+              "en": "healthy offline hobbies",
+              "vi": "sở thích ngoài đời thực lành mạnh"
+            },
+            {
+              "en": "rely less on screens",
+              "vi": "giảm phụ thuộc vào màn hình"
+            },
+            {
+              "en": "set a good example",
+              "vi": "làm gương tốt"
+            },
+            {
+              "en": "ban phones during meals",
+              "vi": "không dùng điện thoại trong bữa ăn"
+            },
+            {
+              "en": "cultivate digital discipline",
+              "vi": "rèn luyện kỷ luật sử dụng công nghệ số"
             },
             {
               "en": "device-free hours",
               "vi": "khung giờ không thiết bị điện tử"
             },
             {
-              "en": "rewarding offline hobbies",
-              "vi": "những sở thích ngoài đời thực bổ ích"
+              "en": "deliberate self-regulation",
+              "vi": "khả năng tự điều chỉnh có chủ đích"
             },
             {
-              "en": "digital literacy education",
-              "vi": "giáo dục năng lực số"
+              "en": "mute non-essential notifications",
+              "vi": "tắt các thông báo không cần thiết"
+            },
+            {
+              "en": "rewarding offline passions",
+              "vi": "những đam mê ngoài đời thực bổ ích"
+            },
+            {
+              "en": "genuine social connection",
+              "vi": "sự kết nối xã hội chân thực"
+            },
+            {
+              "en": "designate tech-free zones",
+              "vi": "thiết lập khu vực không thiết bị công nghệ"
+            },
+            {
+              "en": "model balanced digital habits",
+              "vi": "làm gương về thói quen số cân bằng"
             },
             {
               "en": "raise public awareness",
               "vi": "nâng cao nhận thức cộng đồng"
             },
             {
+              "en": "school workshops",
+              "vi": "các buổi chuyên đề tại trường học"
+            },
+            {
+              "en": "use the Internet safely",
+              "vi": "sử dụng Internet an toàn"
+            },
+            {
+              "en": "control online habits",
+              "vi": "kiểm soát thói quen trực tuyến"
+            },
+            {
+              "en": "time-control tools",
+              "vi": "công cụ kiểm soát thời gian"
+            },
+            {
+              "en": "send break reminders",
+              "vi": "gửi thông báo nhắc nghỉ ngơi"
+            },
+            {
+              "en": "counseling services",
+              "vi": "dịch vụ tư vấn tâm lý"
+            },
+            {
+              "en": "support heavy users",
+              "vi": "hỗ trợ người sử dụng quá mức"
+            },
+            {
+              "en": "digital literacy education",
+              "vi": "giáo dục năng lực số"
+            },
+            {
+              "en": "critical fact-checking skills",
+              "vi": "kỹ năng kiểm chứng thông tin phản biện"
+            },
+            {
+              "en": "digital well-being",
+              "vi": "sức khỏe trong môi trường số"
+            },
+            {
               "en": "responsible platform safeguards",
               "vi": "biện pháp bảo vệ có trách nhiệm trên nền tảng"
             },
             {
-              "en": "regain control over one's schedule",
-              "vi": "lấy lại quyền kiểm soát lịch trình cá nhân"
+              "en": "age-verification controls",
+              "vi": "kiểm soát xác minh độ tuổi"
+            },
+            {
+              "en": "addictive autoplay mechanisms",
+              "vi": "cơ chế tự động phát gây nghiện"
+            },
+            {
+              "en": "psychological helplines",
+              "vi": "đường dây nóng tư vấn tâm lý"
+            },
+            {
+              "en": "specialized rehabilitation programs",
+              "vi": "chương trình cai nghiện chuyên biệt"
             }
           ],
           "sample_b1": "Nowadays, the Internet plays an essential role in daily life, helping people study, work, and stay connected. However, the <strong>excessive use of the Internet</strong> has become a worrying issue for both individuals and society. This essay will discuss the main negative impacts of Internet overuse and suggest several effective solutions.\n\nOn the one hand, spending too much time online causes several serious problems. Firstly, Internet addiction can harm both <strong>physical and mental health</strong>. Sitting in front of screens for long hours often causes <strong>eye strain</strong>, back pain, poor sleep, and ongoing stress. Secondly, overusing the Internet makes it difficult for students and workers to focus on their studies and jobs. Because they are <strong>constantly distracted</strong> by social media, games, and short videos, they often delay important tasks and get lower results. Finally, excessive screen time weakens <strong>real-life relationships</strong>. Many people prefer looking at their phones rather than talking <strong>face to face</strong>, which makes family life feel distant and lonely.\n\nOn the other hand, several practical measures can be taken to solve this issue. First of all, individuals should <strong>set clear daily time limits</strong> for using the Internet. Using screen-time tracking apps and turning off phones one hour <strong>before bedtime</strong> can improve sleep and self-control. In addition, people should take part more actively in <strong>outdoor activities</strong> and healthy offline hobbies such as sports, reading, or meeting friends. Moreover, parents should <strong>set a good example</strong> by banning phones during meals, while schools should hold workshops to <strong>raise awareness</strong> about safe and balanced Internet use.\n\nIn conclusion, Internet overuse negatively affects health, productivity, and real-life connections. By combining personal discipline, healthy offline habits, and guidance from families and schools, society can effectively reduce these harmful effects.",
@@ -183829,8 +184021,18 @@ const ESSAY_DATA = [
           "translation_b2": "Trong kỷ nguyên số, Internet đã cách mạng hóa cách con người giao tiếp, tiếp thu tri thức và kinh doanh. Tuy nhiên, <strong>việc lạm dụng Internet kéo dài</strong> đã nổi lên như một thách thức cấp bách, tác động tiêu cực đến cả cá nhân lẫn toàn xã hội. Bài luận này sẽ phân tích những hệ quả tiêu cực chính của chứng nghiện Internet và đề xuất các giải pháp thiết thực để giải quyết vấn đề ngày càng gia tăng này.\n\nSự phụ thuộc quá mức vào Internet gây ra nhiều tác hại nghiêm trọng. Trước hết, nó gây tổn hại nặng nề đến <strong>sức khỏe thể chất và tinh thần</strong> của người dùng. Thói quen ngồi thụ động hàng giờ trước màn hình sáng thường dẫn đến mỏi mắt kinh niên, béo phì và <strong>rối loạn giấc ngủ</strong> do ánh sáng xanh. Hơn nữa, sự so sánh liên tục trên mạng xã hội và thói quen kiểm tra thông báo cưỡng bức có thể làm gia tăng lo âu và trầm cảm. Thứ hai, nghiện Internet làm suy giảm đáng kể <strong>thành tích học tập và năng suất lao động</strong>. Các thông báo liên tục từ mạng xã hội và video ngắn dễ dàng <strong>làm phân mảnh khả năng chú ý</strong> và thúc đẩy sự trì hoãn, khiến học sinh sụt giảm điểm số còn nhân viên chật vật với hạn chót. Đáng lo ngại không kém là sự xói mòn của <strong>các mối quan hệ ngoài đời thực</strong>: khi các thành viên gia đình mải mê với thiết bị cá nhân ngay cả trong bữa ăn, những cuộc trò chuyện trực tiếp ý nghĩa dần biến mất, khiến nhiều người rơi vào cảnh <strong>cô lập về mặt cảm xúc</strong>.\n\nĐể giải quyết tình trạng lạm dụng Internet cần có sự phối hợp đồng bộ từ cá nhân, gia đình và các tổ chức. Ở cấp độ cá nhân, người dùng phải rèn luyện <strong>kỷ luật số</strong> bằng cách bật công cụ theo dõi thời lượng, tắt thông báo không thiết yếu và duy trì <strong>khung giờ không thiết bị điện tử</strong> trước khi ngủ. Thay thế việc lướt mạng vô định bằng các <strong>sở thích đời thực bổ ích</strong> như thể thao, câu lạc bộ đọc sách hay tình nguyện cũng mang lại niềm vui chân thực mà nền tảng ảo khó lòng thay thế. Trong khi đó, gia đình và nhà trường giữ vai trò then chốt: cha mẹ nên thiết lập <strong>khu vực không thiết bị công nghệ</strong> tại nhà và làm gương về thói quen cân bằng, còn trường học cần lồng ghép <strong>giáo dục năng lực số</strong> để người trẻ biết khai thác công nghệ hiệu quả. Cuối cùng, doanh nghiệp công nghệ và chính phủ nên áp dụng <strong>biện pháp bảo vệ có trách nhiệm trên nền tảng</strong> như thông báo nhắc nghỉ ngơi và hạn chế tính năng tự phát gây nghiện, song song với dịch vụ tư vấn dễ tiếp cận cho các trường hợp nặng.\n\nTóm lại, việc tiêu thụ Internet thiếu kiểm soát đe dọa sức khỏe thể chất, năng suất cá nhân và sự gắn kết xã hội. Chỉ thông qua sự kết hợp hài hòa giữa khả năng <strong>tự điều chỉnh</strong> của cá nhân, môi trường sống thực tế lành mạnh và cơ chế quản trị công nghệ có trách nhiệm, con người mới có thể tận hưởng lợi ích của Internet mà không trở thành nạn nhân của nó.",
           "vocab_step": {
             "theme": "Nghiện Internet / Sử dụng Internet quá mức (Internet Addiction / Overuse)",
-            "overview": "Hệ thống tổng hợp 18 từ vựng cốt lõi và 16 cụm từ liên kết (Collocations) phân cấp B1–B2 bao quát đầy đủ 5 Ảnh hưởng tiêu cực (Sức khỏe, Học tập/Công việc, Quan hệ gia đình & xã hội, Rủi ro an ninh mạng, Lối sống thụ động) và 5 Giải pháp hiệu quả (Tự giới hạn thời gian, Hoạt động ngoài đời thực, Định hướng gia đình, Giáo dục năng lực số, Quản lý nền tảng & hỗ trợ tâm lý).",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (18 từ đơn + 32 cụm từ = 50 mục) và B2 (36 từ đơn + 32 cụm từ = 68 mục), bao quát toàn diện 5 Ảnh hưởng tiêu cực và 5 Giải pháp hiệu quả.",
             "single_words": [
+              {
+                "word": "Internet",
+                "ipa": "/ˈɪn.tə.net/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "mạng Internet",
+                "family": "online (adj, adv)",
+                "example_en": "People rely on the Internet for work, study, and entertainment.",
+                "example_vi": "Mọi người phụ thuộc vào Internet cho công việc, học tập và giải trí."
+              },
               {
                 "word": "excessive",
                 "ipa": "/ɪkˈses.ɪv/",
@@ -183838,8 +184040,8 @@ const ESSAY_DATA = [
                 "level": "B1, B2",
                 "vi": "quá mức, thái quá",
                 "family": "excess (n), excessively (adv)",
-                "example_en": "Excessive Internet use can harm students' health.",
-                "example_vi": "Việc sử dụng Internet quá mức có thể gây hại cho sức khỏe học sinh."
+                "example_en": "Excessive Internet use can harm students' health and studies.",
+                "example_vi": "Việc sử dụng Internet quá mức có thể gây hại cho sức khỏe và việc học."
               },
               {
                 "word": "addiction",
@@ -183847,9 +184049,9 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "level": "B1, B2",
                 "vi": "chứng nghiện, sự nghiện",
-                "family": "addict (n), addictive (adj), addicted (adj)",
-                "example_en": "Internet addiction has become a growing concern among teenagers.",
-                "example_vi": "Chứng nghiện Internet đang trở thành mối lo ngại ngày càng tăng ở thanh thiếu niên."
+                "family": "addict (n), addicted (adj)",
+                "example_en": "Internet addiction is becoming a serious problem among teenagers.",
+                "example_vi": "Chứng nghiện Internet đang trở thành vấn đề nghiêm trọng ở thanh thiếu niên."
               },
               {
                 "word": "overuse",
@@ -183858,8 +184060,18 @@ const ESSAY_DATA = [
                 "level": "B1, B2",
                 "vi": "sự lạm dụng, dùng quá mức",
                 "family": "overused (adj)",
-                "example_en": "The overuse of smartphones reduces face-to-face communication.",
-                "example_vi": "Việc lạm dụng điện thoại thông minh làm giảm giao tiếp trực tiếp."
+                "example_en": "The overuse of smartphones reduces real-life conversations.",
+                "example_vi": "Việc lạm dụng điện thoại thông minh làm giảm trò chuyện đời thực."
+              },
+              {
+                "word": "screen",
+                "ipa": "/skriːn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "màn hình (điện thoại, máy tính)",
+                "family": "screen time (n)",
+                "example_en": "Staring at bright screens for hours easily causes eye strain.",
+                "example_vi": "Nhìn màn hình sáng nhiều giờ dễ gây mỏi mắt."
               },
               {
                 "word": "distract",
@@ -183868,58 +184080,98 @@ const ESSAY_DATA = [
                 "level": "B1, B2",
                 "vi": "làm xao nhãng, phân tâm",
                 "family": "distraction (n), distracted (adj)",
-                "example_en": "Constant notifications easily distract learners during class.",
-                "example_vi": "Thông báo liên tục dễ làm người học mất tập trung trong giờ học."
+                "example_en": "Phone notifications quickly distract learners while doing homework.",
+                "example_vi": "Thông báo điện thoại nhanh chóng làm người học phân tâm khi làm bài tập."
               },
               {
-                "word": "isolation",
-                "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
-                "pos": "n",
-                "level": "B2",
-                "vi": "sự cô lập, tách biệt",
-                "family": "isolate (v), isolated (adj)",
-                "example_en": "Spending all day online can lead to social isolation.",
-                "example_vi": "Dành cả ngày trực tuyến có thể dẫn đến sự cô lập xã hội."
+                "word": "focus",
+                "ipa": "/ˈfəʊ.kəs/",
+                "pos": "v, n",
+                "level": "B1, B2",
+                "vi": "tập trung; sự tập trung",
+                "family": "focused (adj)",
+                "example_en": "Heavy Internet users often struggle to focus in class.",
+                "example_vi": "Người dùng Internet quá nhiều thường khó tập trung trong lớp."
               },
               {
-                "word": "sedentary",
-                "ipa": "/ˈsed.ən.tər.i/",
+                "word": "stress",
+                "ipa": "/stres/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "căng thẳng, áp lực",
+                "family": "stressful (adj), stressed (adj)",
+                "example_en": "Staying online late at night increases tiredness and stress.",
+                "example_vi": "Lên mạng khuya làm tăng sự mệt mỏi và căng thẳng."
+              },
+              {
+                "word": "lonely",
+                "ipa": "/ˈləʊn.li/",
                 "pos": "adj",
-                "level": "B2",
-                "vi": "ngồi nhiều, ít vận động",
-                "family": "sedentariness (n)",
-                "example_en": "A sedentary lifestyle increases the risk of obesity and back pain.",
-                "example_vi": "Lối sống ít vận động làm tăng nguy cơ béo phì và đau lưng."
+                "level": "B1, B2",
+                "vi": "cô đơn",
+                "family": "loneliness (n)",
+                "example_en": "Even with many online friends, people can still feel lonely in real life.",
+                "example_vi": "Dù có nhiều bạn trên mạng, mọi người vẫn có thể cảm thấy cô đơn ngoài đời thực."
               },
               {
-                "word": "procrastination",
-                "ipa": "/prəˌkræs.tɪˈneɪ.ʃən/",
-                "pos": "n",
-                "level": "B2",
-                "vi": "sự trì hoãn",
-                "family": "procrastinate (v)",
-                "example_en": "Endless scrolling on social media often fuels procrastination.",
-                "example_vi": "Việc lướt mạng xã hội không ngừng thường thúc đẩy thói quen trì hoãn."
+                "word": "scam",
+                "ipa": "/skæm/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "vụ lừa đảo; lừa đảo",
+                "family": "scammer (n)",
+                "example_en": "Inexperienced users can easily lose money to online scams.",
+                "example_vi": "Người dùng thiếu kinh nghiệm dễ mất tiền vì các vụ lừa đảo trực tuyến."
               },
               {
-                "word": "misinformation",
-                "ipa": "/ˌmɪs.ɪn.fəˈmeɪ.ʃən/",
-                "pos": "n",
-                "level": "B2",
-                "vi": "thông tin sai lệch",
-                "family": "misinform (v)",
-                "example_en": "Users should check reliable sources to avoid online misinformation.",
-                "example_vi": "Người dùng nên kiểm tra nguồn đáng tin cậy để tránh thông tin sai lệch trực tuyến."
-              },
-              {
-                "word": "cyberbullying",
-                "ipa": "/ˈsaɪ.bəˌbʊl.i.ɪŋ/",
+                "word": "privacy",
+                "ipa": "/ˈprɪv.ə.si/",
                 "pos": "n",
                 "level": "B1, B2",
-                "vi": "bắt nạt trực tuyến",
-                "family": "cyberbully (n, v)",
-                "example_en": "Heavy social media use increases the risk of experiencing cyberbullying.",
-                "example_vi": "Sử dụng mạng xã hội nhiều làm tăng nguy cơ bị bắt nạt trực tuyến."
+                "vi": "quyền riêng tư",
+                "family": "private (adj)",
+                "example_en": "Sharing too much online puts personal privacy at risk.",
+                "example_vi": "Chia sẻ quá nhiều trên mạng đặt quyền riêng tư vào tình thế nguy hiểm."
+              },
+              {
+                "word": "passive",
+                "ipa": "/ˈpæs.ɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thụ động, thiếu năng động",
+                "family": "passivity (n)",
+                "example_en": "Scrolling videos all day encourages a passive lifestyle.",
+                "example_vi": "Lướt video cả ngày khuyến khích một lối sống thụ động."
+              },
+              {
+                "word": "limit",
+                "ipa": "/ˈlɪm.ɪt/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "giới hạn; hạn chế",
+                "family": "limitation (n)",
+                "example_en": "Parents should set clear time limits for daily gaming.",
+                "example_vi": "Cha mẹ nên đặt giới hạn thời gian rõ ràng cho việc chơi game hằng ngày."
+              },
+              {
+                "word": "hobby",
+                "ipa": "/ˈhɒb.i/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sở thích",
+                "family": "hobbies (n)",
+                "example_en": "Healthy offline hobbies help young people spend less time online.",
+                "example_vi": "Những sở thích đời thực lành mạnh giúp người trẻ bớt thời gian lên mạng."
+              },
+              {
+                "word": "balance",
+                "ipa": "/ˈbæl.əns/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "sự cân bằng; cân bằng",
+                "family": "balanced (adj)",
+                "example_en": "Students need a healthy balance between screen time and outdoor play.",
+                "example_vi": "Học sinh cần sự cân bằng lành mạnh giữa thời gian màn hình và vui chơi ngoài trời."
               },
               {
                 "word": "productivity",
@@ -183927,49 +184179,9 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "level": "B1, B2",
                 "vi": "năng suất, hiệu suất",
-                "family": "productive (adj), produce (v)",
-                "example_en": "Frequent phone checks significantly lower workplace productivity.",
-                "example_vi": "Thường xuyên kiểm tra điện thoại làm giảm đáng kể năng suất nơi làm việc."
-              },
-              {
-                "word": "insomnia",
-                "ipa": "/ɪnˈsɒm.ni.ə/",
-                "pos": "n",
-                "level": "B2",
-                "vi": "chứng mất ngủ",
-                "family": "insomniac (n)",
-                "example_en": "Using bright screens late at night can trigger insomnia.",
-                "example_vi": "Sử dụng màn hình sáng vào đêm khuya có thể gây ra chứng mất ngủ."
-              },
-              {
-                "word": "anxiety",
-                "ipa": "/æŋˈzaɪ.ə.ti/",
-                "pos": "n",
-                "level": "B1, B2",
-                "vi": "sự lo âu, bất an",
-                "family": "anxious (adj), anxiously (adv)",
-                "example_en": "Comparing oneself with others online often causes anxiety.",
-                "example_vi": "So sánh bản thân với người khác trên mạng thường gây ra sự lo âu."
-              },
-              {
-                "word": "discipline",
-                "ipa": "/ˈdɪs.ə.plɪn/",
-                "pos": "n",
-                "level": "B1, B2",
-                "vi": "tính kỷ luật",
-                "family": "disciplined (adj), self-discipline (n)",
-                "example_en": "Personal discipline is essential to control daily screen time.",
-                "example_vi": "Kỷ luật cá nhân rất cần thiết để kiểm soát thời gian màn hình hằng ngày."
-              },
-              {
-                "word": "supervise",
-                "ipa": "/ˈsuː.pə.vaɪz/",
-                "pos": "v",
-                "level": "B2",
-                "vi": "giám sát, hướng dẫn",
-                "family": "supervision (n), supervisor (n)",
-                "example_en": "Parents should supervise young children's online activities closely.",
-                "example_vi": "Cha mẹ nên giám sát chặt chẽ hoạt động trực tuyến của trẻ nhỏ."
+                "family": "productive (adj)",
+                "example_en": "Checking social media at work lowers workplace productivity.",
+                "example_vi": "Kiểm tra mạng xã hội khi làm việc làm giảm năng suất công sở."
               },
               {
                 "word": "awareness",
@@ -183978,28 +184190,108 @@ const ESSAY_DATA = [
                 "level": "B1, B2",
                 "vi": "nhận thức, ý thức",
                 "family": "aware (adj)",
-                "example_en": "Schools can hold talks to raise awareness about safe Internet use.",
-                "example_vi": "Nhà trường có thể tổ chức buổi nói chuyện để nâng cao nhận thức về dùng Internet an toàn."
+                "example_en": "Workshops can raise awareness of healthy digital habits.",
+                "example_vi": "Các buổi chuyên đề có thể nâng cao nhận thức về thói quen số lành mạnh."
               },
               {
-                "word": "safeguard",
-                "ipa": "/ˈseɪf.ɡɑːd/",
-                "pos": "n, v",
+                "word": "discipline",
+                "ipa": "/ˈdɪs.ə.plɪn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tính kỷ luật",
+                "family": "self-discipline (n)",
+                "example_en": "Personal discipline helps users turn off phones before bedtime.",
+                "example_vi": "Kỷ luật cá nhân giúp người dùng tắt điện thoại trước giờ ngủ."
+              },
+              {
+                "word": "sedentary",
+                "ipa": "/ˈsed.ən.tər.i/",
+                "pos": "adj",
                 "level": "B2",
-                "vi": "biện pháp bảo vệ; bảo vệ",
-                "family": "safeguarding (n)",
-                "example_en": "Digital platforms need stronger safeguards to protect underage users.",
-                "example_vi": "Các nền tảng số cần biện pháp bảo vệ mạnh mẽ hơn cho người dùng chưa đủ tuổi."
+                "vi": "ngồi nhiều, ít vận động",
+                "family": "sedentariness (n)",
+                "example_en": "A sedentary lifestyle caused by heavy gaming raises obesity risks.",
+                "example_vi": "Lối sống ít vận động do chơi game nhiều làm tăng nguy cơ béo phì."
               },
               {
-                "word": "counseling",
-                "ipa": "/ˈkaʊn.səl.ɪŋ/",
+                "word": "insomnia",
+                "ipa": "/ɪnˈsɒm.ni.ə/",
                 "pos": "n",
                 "level": "B2",
-                "vi": "tư vấn tâm lý",
-                "family": "counselor (n), counsel (v)",
-                "example_en": "Professional counseling helps severe addicts rebuild healthy routines.",
-                "example_vi": "Tư vấn chuyên môn giúp người nghiện nặng xây dựng lại nếp sống lành mạnh."
+                "vi": "chứng mất ngủ",
+                "family": "insomniac (n)",
+                "example_en": "Blue light from smartphones at night frequently triggers insomnia.",
+                "example_vi": "Ánh sáng xanh từ điện thoại vào ban đêm thường gây ra chứng mất ngủ."
+              },
+              {
+                "word": "anxiety",
+                "ipa": "/æŋˈzaɪ.ə.ti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự lo âu, bất an",
+                "family": "anxious (adj)",
+                "example_en": "Constant social comparison online intensifies anxiety and self-doubt.",
+                "example_vi": "So sánh xã hội liên tục trên mạng làm tăng lo âu và tự ti."
+              },
+              {
+                "word": "procrastination",
+                "ipa": "/prəˌkræs.tɪˈneɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thói quen trì hoãn",
+                "family": "procrastinate (v)",
+                "example_en": "Endless short videos fuel procrastination among college students.",
+                "example_vi": "Video ngắn bất tận thúc đẩy thói quen trì hoãn ở sinh viên."
+              },
+              {
+                "word": "isolation",
+                "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cô lập, tách biệt",
+                "family": "isolate (v), isolated (adj)",
+                "example_en": "Over-reliance on virtual chat can deepen social isolation.",
+                "example_vi": "Phụ thuộc quá mức vào trò chuyện ảo có thể làm sâu sắc sự cô lập xã hội."
+              },
+              {
+                "word": "erode",
+                "ipa": "/ɪˈrəʊd/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm xói mòn, suy yếu dần",
+                "family": "erosion (n)",
+                "example_en": "Excessive device use gradually erodes face-to-face family bonds.",
+                "example_vi": "Sử dụng thiết bị quá mức dần làm xói mòn gắn kết gia đình trực tiếp."
+              },
+              {
+                "word": "misinformation",
+                "ipa": "/ˌmɪs.ɪn.fəˈmeɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thông tin sai lệch",
+                "family": "misinform (v)",
+                "example_en": "Heavy online exposure increases contact with harmful misinformation.",
+                "example_vi": "Tiếp xúc trực tuyến nhiều làm tăng khả năng gặp thông tin sai lệch độc hại."
+              },
+              {
+                "word": "cyberbullying",
+                "ipa": "/ˈsaɪ.bəˌbʊl.i.ɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bắt nạt trực tuyến",
+                "family": "cyberbully (n, v)",
+                "example_en": "Spending hours on social platforms heightens risks of cyberbullying.",
+                "example_vi": "Dành nhiều giờ trên mạng xã hội làm tăng nguy cơ bị bắt nạt trực tuyến."
+              },
+              {
+                "word": "phishing",
+                "ipa": "/ˈfɪʃ.ɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "lừa đảo đánh cắp dữ liệu qua mạng",
+                "family": "phish (v)",
+                "example_en": "Users must learn to recognize phishing links to protect their data.",
+                "example_vi": "Người dùng phải học cách nhận diện đường dẫn giả mạo để bảo vệ dữ liệu."
               },
               {
                 "word": "algorithm",
@@ -184008,8 +184300,88 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "thuật toán",
                 "family": "algorithmic (adj)",
-                "example_en": "Social media algorithms are designed to keep users scrolling longer.",
-                "example_vi": "Thuật toán mạng xã hội được thiết kế để giữ chân người dùng lướt lâu hơn."
+                "example_en": "Recommendation algorithms are engineered to keep users scrolling endlessly.",
+                "example_vi": "Thuật toán đề xuất được thiết kế để giữ chân người dùng lướt mãi không dừng."
+              },
+              {
+                "word": "compulsive",
+                "ipa": "/kəmˈpʌl.sɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính cưỡng bức / khó kiểm soát",
+                "family": "compulsion (n)",
+                "example_en": "Compulsive checking of alerts fragments attention throughout the day.",
+                "example_vi": "Thói quen kiểm tra thông báo cưỡng bức làm phân mảnh sự tập trung cả ngày."
+              },
+              {
+                "word": "fragment",
+                "ipa": "/ˈfræɡ.mənt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm phân mảnh, gián đoạn",
+                "family": "fragmentation (n)",
+                "example_en": "Frequent notifications fragment attention spans and lower efficiency.",
+                "example_vi": "Thông báo liên tục làm phân mảnh khả năng chú ý và giảm hiệu quả."
+              },
+              {
+                "word": "self-regulation",
+                "ipa": "/ˌself.reɡ.jəˈleɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng tự điều chỉnh",
+                "family": "regulate (v)",
+                "example_en": "Practicing self-regulation helps individuals regain control of their time.",
+                "example_vi": "Thực hành tự điều chỉnh giúp cá nhân lấy lại quyền kiểm soát thời gian."
+              },
+              {
+                "word": "supervise",
+                "ipa": "/ˈsuː.pə.vaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "giám sát, hướng dẫn",
+                "family": "supervision (n)",
+                "example_en": "Parents should supervise young children's online habits closely.",
+                "example_vi": "Cha mẹ nên giám sát chặt chẽ thói quen trực tuyến của trẻ nhỏ."
+              },
+              {
+                "word": "literacy",
+                "ipa": "/ˈlɪt.ər.ə.si/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "năng lực hiểu biết (digital literacy)",
+                "family": "literate (adj)",
+                "example_en": "Digital literacy empowers students to use technology safely and wisely.",
+                "example_vi": "Năng lực số giúp học sinh sử dụng công nghệ an toàn và thông minh."
+              },
+              {
+                "word": "safeguard",
+                "ipa": "/ˈseɪf.ɡɑːd/",
+                "pos": "n, v",
+                "level": "B2",
+                "vi": "biện pháp bảo vệ; bảo vệ",
+                "family": "safeguarding (n)",
+                "example_en": "Tech companies must implement stronger safeguards for underage users.",
+                "example_vi": "Các hãng công nghệ phải triển khai biện pháp bảo vệ mạnh hơn cho người dưới tuổi."
+              },
+              {
+                "word": "counseling",
+                "ipa": "/ˈkaʊn.səl.ɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tư vấn tâm lý",
+                "family": "counselor (n)",
+                "example_en": "Professional counseling supports individuals struggling with severe addiction.",
+                "example_vi": "Tư vấn chuyên môn hỗ trợ những người vật lộn với chứng nghiện nặng."
+              },
+              {
+                "word": "rehabilitation",
+                "ipa": "/ˌriː.həˌbɪl.ɪˈteɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "phục hồi chức năng / cai nghiện",
+                "family": "rehabilitate (v)",
+                "example_en": "Specialized rehabilitation programs help severe addicts rebuild daily routines.",
+                "example_vi": "Các chương trình cai nghiện chuyên biệt giúp người nghiện nặng xây dựng lại nếp sống."
               }
             ],
             "collocations": [
@@ -184017,289 +184389,1185 @@ const ESSAY_DATA = [
                 "phrase": "excessive use of the Internet",
                 "level": "B1",
                 "vi": "việc sử dụng Internet quá mức",
-                "context_usage": "Cụm danh từ trọng tâm mở bài và thân bài",
-                "example_en": "The excessive use of the Internet affects people of all ages.",
-                "example_vi": "Việc sử dụng Internet quá mức ảnh hưởng đến mọi lứa tuổi."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "The excessive use of the Internet creates many daily problems.",
+                "example_vi": "Việc sử dụng Internet quá mức tạo ra nhiều vấn đề hằng ngày."
               },
               {
                 "phrase": "physical and mental health",
                 "level": "B1",
                 "vi": "sức khỏe thể chất và tinh thần",
-                "context_usage": "Phân tích tác hại sức khỏe tổng thể",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
                 "example_en": "Too much screen time harms both physical and mental health.",
-                "example_vi": "Quá nhiều thời gian màn hình gây hại cho cả sức khỏe thể chất lẫn tinh thần."
+                "example_vi": "Quá nhiều thời gian màn hình gây hại cho cả sức khỏe thể chất và tinh thần."
               },
               {
                 "phrase": "suffer from eye strain",
                 "level": "B1",
                 "vi": "bị mỏi mắt",
-                "context_usage": "Ví dụ cụ thể về tác hại thể chất",
-                "example_en": "Many teenagers suffer from eye strain after gaming for hours.",
-                "example_vi": "Nhiều thanh thiếu niên bị mỏi mắt sau khi chơi game nhiều giờ."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Students often suffer from eye strain after studying on laptops all night.",
+                "example_vi": "Học sinh thường bị mỏi mắt sau khi nhìn máy tính suốt đêm."
+              },
+              {
+                "phrase": "poor sleep",
+                "level": "B1",
+                "vi": "giấc ngủ kém",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Using smartphones in bed frequently leads to poor sleep.",
+                "example_vi": "Dùng điện thoại trên giường thường xuyên dẫn đến giấc ngủ kém."
+              },
+              {
+                "phrase": "ongoing stress",
+                "level": "B1",
+                "vi": "căng thẳng kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Staying online constantly causes tiredness and ongoing stress.",
+                "example_vi": "Trực tuyến liên tục gây mệt mỏi và căng thẳng kéo dài."
+              },
+              {
+                "phrase": "constantly distracted",
+                "level": "B1",
+                "vi": "liên tục bị xao nhãng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Learners are constantly distracted by social media messages.",
+                "example_vi": "Người học liên tục bị xao nhãng bởi tin nhắn mạng xã hội."
+              },
+              {
+                "phrase": "delay important tasks",
+                "level": "B1",
+                "vi": "trì hoãn nhiệm vụ quan trọng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Watching short videos makes workers delay important tasks.",
+                "example_vi": "Xem video ngắn khiến nhân viên trì hoãn các nhiệm vụ quan trọng."
+              },
+              {
+                "phrase": "get lower results",
+                "level": "B1",
+                "vi": "đạt kết quả thấp hơn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Students who play games all night often get lower results at school.",
+                "example_vi": "Học sinh chơi game suốt đêm thường đạt kết quả học tập thấp hơn."
+              },
+              {
+                "phrase": "prolonged Internet overuse",
+                "level": "B2",
+                "vi": "lạm dụng Internet kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Prolonged Internet overuse inflicts severe harm on overall well-being.",
+                "example_vi": "Lạm dụng Internet kéo dài gây tổn hại nghiêm trọng cho sức khỏe tổng thể."
+              },
+              {
+                "phrase": "psychological well-being",
+                "level": "B2",
+                "vi": "sức khỏe tâm lý / tinh thần",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Excessive online comparison undermines teenagers' psychological well-being.",
+                "example_vi": "So sánh trực tuyến quá mức làm suy giảm sức khỏe tâm lý thanh thiếu niên."
+              },
+              {
+                "phrase": "remain sedentary",
+                "level": "B2",
+                "vi": "ngồi thụ động ít vận động",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Remaining sedentary before screens increases obesity and back pain.",
+                "example_vi": "Ngồi thụ động trước màn hình làm tăng nguy cơ béo phì và đau lưng."
               },
               {
                 "phrase": "disturb sleep patterns",
                 "level": "B2",
                 "vi": "làm rối loạn giấc ngủ",
-                "context_usage": "Phân tích tác hại của ánh sáng xanh ban đêm",
-                "example_en": "Checking phones in bed can seriously disturb sleep patterns.",
-                "example_vi": "Xem điện thoại trên giường có thể làm rối loạn nghiêm trọng giấc ngủ."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Blue light from digital displays can severely disturb sleep patterns.",
+                "example_vi": "Ánh sáng xanh từ màn hình số có thể làm rối loạn nghiêm trọng giấc ngủ."
               },
               {
-                "phrase": "declining academic performance",
+                "phrase": "compulsive checking of notifications",
                 "level": "B2",
-                "vi": "thành tích học tập sa sút",
-                "context_usage": "Hậu quả đối với học sinh, sinh viên",
-                "example_en": "Internet addiction often leads to declining academic performance.",
-                "example_vi": "Nghiện Internet thường dẫn đến kết quả học tập sa sút."
+                "vi": "thói quen kiểm tra thông báo cưỡng bức",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Compulsive checking of notifications heightens anxiety throughout the day.",
+                "example_vi": "Thói quen kiểm tra thông báo cưỡng bức làm tăng lo âu suốt cả ngày."
               },
               {
                 "phrase": "fragment attention spans",
                 "level": "B2",
                 "vi": "làm phân mảnh khả năng tập trung",
-                "context_usage": "Cụm từ học thuật B2 về mất tập trung",
-                "example_en": "Short-form videos and constant alerts fragment attention spans.",
-                "example_vi": "Video ngắn và thông báo liên tục làm phân mảnh khả năng tập trung."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Short-form videos easily fragment attention spans and hurt deep learning.",
+                "example_vi": "Video ngắn dễ dàng làm phân mảnh khả năng chú ý và ảnh hưởng học sâu."
+              },
+              {
+                "phrase": "fuel procrastination",
+                "level": "B2",
+                "vi": "thúc đẩy thói quen trì hoãn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Endless online entertainment fuels procrastination among university students.",
+                "example_vi": "Giải trí trực tuyến bất tận thúc đẩy thói quen trì hoãn ở sinh viên."
+              },
+              {
+                "phrase": "declining academic achievement",
+                "level": "B2",
+                "vi": "thành tích học tập sa sút",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Internet addiction is closely linked to declining academic achievement.",
+                "example_vi": "Nghiện Internet gắn liền mật thiết với thành tích học tập sa sút."
               },
               {
                 "phrase": "weaken real-life relationships",
                 "level": "B1",
-                "vi": "làm suy yếu các mối quan hệ ngoài đời thực",
-                "context_usage": "Phân tích tác động lên gia đình và xã hội",
-                "example_en": "Overusing smartphones can weaken real-life relationships.",
-                "example_vi": "Lạm dụng điện thoại có thể làm suy yếu các mối quan hệ đời thực."
+                "vi": "làm suy yếu quan hệ ngoài đời thực",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Overusing the Internet can weaken real-life relationships.",
+                "example_vi": "Lạm dụng Internet có thể làm suy yếu các mối quan hệ đời thực."
               },
               {
-                "phrase": "face-to-face communication",
+                "phrase": "talk face to face",
                 "level": "B1",
-                "vi": "giao tiếp trực tiếp mặt đối mặt",
-                "context_usage": "So sánh giao tiếp trực tuyến và đời thực",
-                "example_en": "Young people now spend less time on face-to-face communication.",
-                "example_vi": "Người trẻ hiện nay dành ít thời gian hơn cho giao tiếp trực tiếp."
+                "vi": "trò chuyện trực tiếp mặt đối mặt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Family members should talk face to face more instead of texting.",
+                "example_vi": "Các thành viên gia đình nên trò chuyện trực tiếp nhiều hơn thay vì nhắn tin."
               },
               {
-                "phrase": "online scams and fraud",
-                "level": "B1, B2",
-                "vi": "lừa đảo và gian lận trực tuyến",
-                "context_usage": "Phân tích rủi ro an ninh mạng",
-                "example_en": "Heavy Internet users face higher risks of online scams and fraud.",
-                "example_vi": "Người dùng Internet quá nhiều đối mặt nguy cơ cao hơn về lừa đảo trực tuyến."
-              },
-              {
-                "phrase": "set daily screen-time limits",
+                "phrase": "distant and lonely",
                 "level": "B1",
-                "vi": "đặt giới hạn thời gian màn hình hằng ngày",
-                "context_usage": "Giải pháp tự quản lý cá nhân",
-                "example_en": "Everyone should set daily screen-time limits for entertainment.",
-                "example_vi": "Mọi người nên đặt giới hạn thời gian màn hình hằng ngày cho việc giải trí."
+                "vi": "xa cách và cô đơn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Ignoring each other for phones makes home life feel distant and lonely.",
+                "example_vi": "Phớt lờ nhau vì điện thoại khiến gia đình trở nên xa cách và cô đơn."
+              },
+              {
+                "phrase": "fake news",
+                "level": "B1",
+                "vi": "tin giả",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Uncontrolled browsing exposes young users to fake news.",
+                "example_vi": "Lướt mạng thiếu kiểm soát khiến người dùng trẻ dễ gặp tin giả."
+              },
+              {
+                "phrase": "harmful content",
+                "level": "B1",
+                "vi": "nội dung độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Children may accidentally see harmful content without supervision.",
+                "example_vi": "Trẻ em có thể vô tình thấy nội dung độc hại nếu không được giám sát."
+              },
+              {
+                "phrase": "online scams",
+                "level": "B1",
+                "vi": "lừa đảo trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Heavy Internet users face higher risks of online scams.",
+                "example_vi": "Người dùng Internet nhiều đối mặt nguy cơ lừa đảo trực tuyến cao hơn."
+              },
+              {
+                "phrase": "waste valuable time",
+                "level": "B1",
+                "vi": "lãng phí thời gian quý báu",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Scrolling online aimlessly wastes valuable time every day.",
+                "example_vi": "Lướt mạng vô mục đích làm lãng phí thời gian quý báu mỗi ngày."
+              },
+              {
+                "phrase": "inactive lifestyle",
+                "level": "B1",
+                "vi": "lối sống lười vận động",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Playing video games indoors for hours creates an inactive lifestyle.",
+                "example_vi": "Chơi game trong nhà nhiều giờ tạo ra lối sống lười vận động."
+              },
+              {
+                "phrase": "erode real-life relationships",
+                "level": "B2",
+                "vi": "làm xói mòn quan hệ ngoài đời thực",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Dependence on virtual platforms gradually erodes real-life relationships.",
+                "example_vi": "Sự phụ thuộc vào nền tảng ảo dần làm xói mòn các mối quan hệ đời thực."
+              },
+              {
+                "phrase": "emotionally isolated",
+                "level": "B2",
+                "vi": "cô lập về mặt cảm xúc",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Substituting real conversations with messaging leaves users emotionally isolated.",
+                "example_vi": "Thay thế trò chuyện thực bằng tin nhắn khiến người dùng bị cô lập cảm xúc."
+              },
+              {
+                "phrase": "weaken interpersonal skills",
+                "level": "B2",
+                "vi": "làm mai một kỹ năng giao tiếp",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Limited face-to-face contact weakens teenagers' interpersonal skills.",
+                "example_vi": "Ít tiếp xúc trực tiếp làm mai một kỹ năng giao tiếp của thanh thiếu niên."
+              },
+              {
+                "phrase": "online fraud and cyberbullying",
+                "level": "B2",
+                "vi": "lừa đảo trực tuyến và bắt nạt mạng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Unregulated Internet use heightens exposure to online fraud and cyberbullying.",
+                "example_vi": "Dùng Internet thiếu kiểm soát làm tăng tiếp xúc với lừa đảo mạng và bắt nạt mạng."
+              },
+              {
+                "phrase": "sophisticated phishing links",
+                "level": "B2",
+                "vi": "đường dẫn giả mạo tinh vi",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Hackers use sophisticated phishing links to steal sensitive data.",
+                "example_vi": "Tin tặc dùng đường dẫn giả mạo tinh vi để đánh cắp dữ liệu nhạy cảm."
+              },
+              {
+                "phrase": "recommendation algorithms",
+                "level": "B2",
+                "vi": "thuật toán đề xuất nội dung",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Recommendation algorithms trap users in endless streams of videos.",
+                "example_vi": "Thuật toán đề xuất giữ chân người dùng trong chuỗi video bất tận."
+              },
+              {
+                "phrase": "effortless digital stimulation",
+                "level": "B2",
+                "vi": "sự kích thích dễ dãi từ thiết bị số",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Young people grow overly reliant on effortless digital stimulation.",
+                "example_vi": "Người trẻ ngày càng lệ thuộc vào sự kích thích dễ dãi từ màn hình."
+              },
+              {
+                "phrase": "drain valuable time",
+                "level": "B2",
+                "vi": "tiêu hao thời gian quý báu",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Uncontrolled browsing drains valuable time that could support personal growth.",
+                "example_vi": "Lướt mạng thiếu kiểm soát tiêu hao thời gian quý giá cho phát triển bản thân."
+              },
+              {
+                "phrase": "set daily time limits",
+                "level": "B1",
+                "vi": "đặt giới hạn thời gian hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Individuals should set daily time limits for social media and games.",
+                "example_vi": "Mỗi cá nhân nên đặt giới hạn thời gian hằng ngày cho mạng xã hội và game."
+              },
+              {
+                "phrase": "screen-time tracking apps",
+                "level": "B1",
+                "vi": "ứng dụng theo dõi thời gian màn hình",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Screen-time tracking apps help people see how many hours they spend online.",
+                "example_vi": "Ứng dụng theo dõi thời gian màn hình giúp mọi người biết mình lên mạng bao lâu."
+              },
+              {
+                "phrase": "turn off phones before bedtime",
+                "level": "B1",
+                "vi": "tắt điện thoại trước giờ đi ngủ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Turning off phones before bedtime improves sleep quality.",
+                "example_vi": "Tắt điện thoại trước giờ ngủ giúp cải thiện chất lượng giấc ngủ."
+              },
+              {
+                "phrase": "outdoor activities",
+                "level": "B1",
+                "vi": "các hoạt động ngoài trời",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Joining outdoor activities keeps young people active and happy.",
+                "example_vi": "Tham gia hoạt động ngoài trời giúp người trẻ năng động và vui vẻ."
+              },
+              {
+                "phrase": "healthy offline hobbies",
+                "level": "B1",
+                "vi": "sở thích ngoài đời thực lành mạnh",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Reading and sports are healthy offline hobbies that replace screen time.",
+                "example_vi": "Đọc sách và thể thao là sở thích đời thực lành mạnh thay thế màn hình."
+              },
+              {
+                "phrase": "rely less on screens",
+                "level": "B1",
+                "vi": "giảm phụ thuộc vào màn hình",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Meeting friends in person helps teenagers rely less on screens.",
+                "example_vi": "Gặp bạn bè trực tiếp giúp thanh thiếu niên giảm phụ thuộc màn hình."
+              },
+              {
+                "phrase": "set a good example",
+                "level": "B1",
+                "vi": "làm gương tốt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Parents should set a good example by limiting their own phone use.",
+                "example_vi": "Cha mẹ nên làm gương tốt bằng cách tự hạn chế dùng điện thoại."
+              },
+              {
+                "phrase": "ban phones during meals",
+                "level": "B1",
+                "vi": "không dùng điện thoại trong bữa ăn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Banning phones during meals encourages warmer family conversations.",
+                "example_vi": "Không dùng điện thoại khi ăn khuyến khích cuộc trò chuyện gia đình ấm áp hơn."
+              },
+              {
+                "phrase": "cultivate digital discipline",
+                "level": "B2",
+                "vi": "rèn luyện kỷ luật sử dụng công nghệ số",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Users must cultivate digital discipline to balance online and offline life.",
+                "example_vi": "Người dùng phải rèn luyện kỷ luật số để cân bằng đời sống trực tuyến và đời thực."
               },
               {
                 "phrase": "device-free hours",
                 "level": "B2",
                 "vi": "khung giờ không thiết bị điện tử",
-                "context_usage": "Giải pháp cải thiện giấc ngủ và gắn kết gia đình",
-                "example_en": "Creating device-free hours before bed improves sleep quality.",
-                "example_vi": "Tạo khung giờ không thiết bị trước khi ngủ giúp cải thiện chất lượng giấc ngủ."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Maintaining device-free hours before sleep restores healthy rest.",
+                "example_vi": "Duy trì khung giờ không thiết bị trước khi ngủ khôi phục giấc ngủ lành mạnh."
               },
               {
-                "phrase": "rewarding offline hobbies",
+                "phrase": "deliberate self-regulation",
                 "level": "B2",
-                "vi": "những sở thích ngoài đời thực bổ ích",
-                "context_usage": "Giải pháp thay thế thời gian lên mạng",
-                "example_en": "Taking up rewarding offline hobbies reduces screen dependence.",
-                "example_vi": "Theo đuổi những sở thích đời thực bổ ích giúp giảm sự phụ thuộc màn hình."
+                "vi": "khả năng tự điều chỉnh có chủ đích",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Deliberate self-regulation helps workers regain control over daily schedules.",
+                "example_vi": "Khả năng tự điều chỉnh giúp nhân viên lấy lại quyền kiểm soát lịch trình."
               },
               {
-                "phrase": "digital literacy education",
+                "phrase": "mute non-essential notifications",
                 "level": "B2",
-                "vi": "giáo dục năng lực số",
-                "context_usage": "Giải pháp từ phía nhà trường và xã hội",
-                "example_en": "Schools should include digital literacy education in their programs.",
-                "example_vi": "Nhà trường nên đưa giáo dục năng lực số vào chương trình học."
+                "vi": "tắt các thông báo không cần thiết",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Muting non-essential notifications immediately boosts deep concentration.",
+                "example_vi": "Tắt thông báo không thiết yếu lập tức tăng cường sự tập trung sâu."
+              },
+              {
+                "phrase": "rewarding offline passions",
+                "level": "B2",
+                "vi": "những đam mê ngoài đời thực bổ ích",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Discovering rewarding offline passions eases the urge to scroll online.",
+                "example_vi": "Khám phá đam mê đời thực bổ ích làm giảm thôi thúc lướt mạng."
+              },
+              {
+                "phrase": "genuine social connection",
+                "level": "B2",
+                "vi": "sự kết nối xã hội chân thực",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Volunteering and sports clubs provide genuine social connection.",
+                "example_vi": "Hoạt động tình nguyện và câu lạc bộ thể thao mang lại kết nối xã hội chân thực."
+              },
+              {
+                "phrase": "designate tech-free zones",
+                "level": "B2",
+                "vi": "thiết lập khu vực không thiết bị công nghệ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Families can designate tech-free zones in bedrooms and dining areas.",
+                "example_vi": "Gia đình có thể thiết lập khu vực không thiết bị ở phòng ngủ và bàn ăn."
+              },
+              {
+                "phrase": "model balanced digital habits",
+                "level": "B2",
+                "vi": "làm gương về thói quen số cân bằng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Parents who model balanced digital habits inspire healthier youth behavior.",
+                "example_vi": "Cha mẹ làm gương về thói quen số cân bằng truyền cảm hứng cho hành vi lành mạnh của con."
               },
               {
                 "phrase": "raise public awareness",
                 "level": "B1",
                 "vi": "nâng cao nhận thức cộng đồng",
-                "context_usage": "Giải pháp truyền thông cộng đồng",
-                "example_en": "Campaigns can raise public awareness of Internet overuse.",
-                "example_vi": "Các chiến dịch có thể nâng cao nhận thức cộng đồng về lạm dụng Internet."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Schools and media should raise public awareness about Internet addiction.",
+                "example_vi": "Nhà trường và truyền thông nên nâng cao nhận thức về nghiện Internet."
+              },
+              {
+                "phrase": "school workshops",
+                "level": "B1",
+                "vi": "các buổi chuyên đề tại trường học",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "School workshops teach students how to use the Internet safely.",
+                "example_vi": "Các buổi chuyên đề ở trường dạy học sinh cách sử dụng Internet an toàn."
+              },
+              {
+                "phrase": "use the Internet safely",
+                "level": "B1",
+                "vi": "sử dụng Internet an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Children need clear guidance to use the Internet safely every day.",
+                "example_vi": "Trẻ em cần hướng dẫn rõ ràng để dùng Internet an toàn mỗi ngày."
+              },
+              {
+                "phrase": "control online habits",
+                "level": "B1",
+                "vi": "kiểm soát thói quen trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Education helps teenagers control online habits more effectively.",
+                "example_vi": "Giáo dục giúp thanh thiếu niên kiểm soát thói quen trực tuyến hiệu quả hơn."
+              },
+              {
+                "phrase": "time-control tools",
+                "level": "B1",
+                "vi": "công cụ kiểm soát thời gian",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Tech companies should build easy time-control tools into popular apps.",
+                "example_vi": "Hãng công nghệ nên tích hợp công cụ kiểm soát thời gian dễ dùng vào ứng dụng."
+              },
+              {
+                "phrase": "send break reminders",
+                "level": "B1",
+                "vi": "gửi thông báo nhắc nghỉ ngơi",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Video apps can send break reminders after one hour of watching.",
+                "example_vi": "Ứng dụng video có thể gửi nhắc nhở nghỉ ngơi sau một giờ xem."
+              },
+              {
+                "phrase": "counseling services",
+                "level": "B1",
+                "vi": "dịch vụ tư vấn tâm lý",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Governments should offer counseling services for heavy Internet users.",
+                "example_vi": "Chính phủ nên cung cấp dịch vụ tư vấn tâm lý cho người nghiện mạng nặng."
+              },
+              {
+                "phrase": "support heavy users",
+                "level": "B1",
+                "vi": "hỗ trợ người sử dụng quá mức",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Doctors and teachers can work together to support heavy users.",
+                "example_vi": "Bác sĩ và giáo viên có thể phối hợp hỗ trợ người dùng Internet quá mức."
+              },
+              {
+                "phrase": "digital literacy education",
+                "level": "B2",
+                "vi": "giáo dục năng lực số",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Integrating digital literacy education helps youths harness technology wisely.",
+                "example_vi": "Lồng ghép giáo dục năng lực số giúp người trẻ khai thác công nghệ thông minh."
+              },
+              {
+                "phrase": "critical fact-checking skills",
+                "level": "B2",
+                "vi": "kỹ năng kiểm chứng thông tin phản biện",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Schools should teach critical fact-checking skills to combat fake news.",
+                "example_vi": "Nhà trường nên dạy kỹ năng kiểm chứng thông tin để chống tin giả."
+              },
+              {
+                "phrase": "digital well-being",
+                "level": "B2",
+                "vi": "sức khỏe trong môi trường số",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Public campaigns encourage society to prioritize digital well-being.",
+                "example_vi": "Chiến dịch cộng đồng khuyến khích xã hội ưu tiên sức khỏe trong môi trường số."
               },
               {
                 "phrase": "responsible platform safeguards",
                 "level": "B2",
                 "vi": "biện pháp bảo vệ có trách nhiệm trên nền tảng",
-                "context_usage": "Giải pháp từ doanh nghiệp công nghệ",
-                "example_en": "Tech firms must build responsible platform safeguards for minors.",
-                "example_vi": "Các hãng công nghệ phải xây dựng biện pháp bảo vệ cho trẻ vị thành niên."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Tech corporations must implement responsible platform safeguards for minors.",
+                "example_vi": "Tập đoàn công nghệ phải áp dụng biện pháp bảo vệ cho trẻ vị thành niên."
               },
               {
-                "phrase": "regain control over one's schedule",
+                "phrase": "age-verification controls",
                 "level": "B2",
-                "vi": "lấy lại quyền kiểm soát lịch trình cá nhân",
-                "context_usage": "Kết quả tích cực của giải pháp",
-                "example_en": "Self-discipline helps users regain control over their schedules.",
-                "example_vi": "Tính tự giác giúp người dùng lấy lại quyền kiểm soát lịch trình của mình."
+                "vi": "kiểm soát xác minh độ tuổi",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Strict age-verification controls protect children from harmful sites.",
+                "example_vi": "Kiểm soát xác minh độ tuổi nghiêm ngặt bảo vệ trẻ em khỏi trang độc hại."
+              },
+              {
+                "phrase": "addictive autoplay mechanisms",
+                "level": "B2",
+                "vi": "cơ chế tự động phát gây nghiện",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Regulators should limit addictive autoplay mechanisms on video apps.",
+                "example_vi": "Cơ quan quản lý nên hạn chế cơ chế tự phát gây nghiện trên ứng dụng video."
+              },
+              {
+                "phrase": "psychological helplines",
+                "level": "B2",
+                "vi": "đường dây nóng tư vấn tâm lý",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Accessible psychological helplines offer timely help for severe addicts.",
+                "example_vi": "Đường dây tư vấn tâm lý dễ tiếp cận giúp hỗ trợ kịp thời người nghiện nặng."
+              },
+              {
+                "phrase": "specialized rehabilitation programs",
+                "level": "B2",
+                "vi": "chương trình cai nghiện chuyên biệt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Governments can fund specialized rehabilitation programs for severe dependency.",
+                "example_vi": "Chính phủ có thể tài trợ chương trình cai nghiện chuyên biệt cho ca phụ thuộc nặng."
               }
             ],
             "collocation_groups": [
               {
                 "id": "group_health_study",
-                "name": "Nhóm 1: Tác hại lên Sức khỏe & Học tập (Health & Productivity Impacts)",
+                "name": "Nhóm 1: Tác hại lên Sức khỏe & Học tập – Công việc (Health & Productivity Impacts)",
                 "icon": "🩺",
                 "badge": "Ảnh hưởng 01–02",
                 "items": [
                   {
+                    "en": "excessive use of the Internet",
+                    "phrase": "excessive use of the Internet",
+                    "vi": "việc sử dụng Internet quá mức",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "The excessive use of the Internet creates many daily problems.",
+                    "example_vi": "Việc sử dụng Internet quá mức tạo ra nhiều vấn đề hằng ngày."
+                  },
+                  {
                     "en": "physical and mental health",
+                    "phrase": "physical and mental health",
                     "vi": "sức khỏe thể chất và tinh thần",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Excessive screen time harms physical and mental health.",
-                    "example_vi": "Thời gian màn hình quá mức gây hại cho sức khỏe thể chất và tinh thần."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Too much screen time harms both physical and mental health.",
+                    "example_vi": "Quá nhiều thời gian màn hình gây hại cho cả sức khỏe thể chất và tinh thần."
                   },
                   {
                     "en": "suffer from eye strain",
+                    "phrase": "suffer from eye strain",
                     "vi": "bị mỏi mắt",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Students often suffer from eye strain when staring at screens all night.",
-                    "example_vi": "Học sinh thường bị mỏi mắt khi nhìn màn hình suốt đêm."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Students often suffer from eye strain after studying on laptops all night.",
+                    "example_vi": "Học sinh thường bị mỏi mắt sau khi nhìn máy tính suốt đêm."
+                  },
+                  {
+                    "en": "poor sleep",
+                    "phrase": "poor sleep",
+                    "vi": "giấc ngủ kém",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Using smartphones in bed frequently leads to poor sleep.",
+                    "example_vi": "Dùng điện thoại trên giường thường xuyên dẫn đến giấc ngủ kém."
+                  },
+                  {
+                    "en": "ongoing stress",
+                    "phrase": "ongoing stress",
+                    "vi": "căng thẳng kéo dài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Staying online constantly causes tiredness and ongoing stress.",
+                    "example_vi": "Trực tuyến liên tục gây mệt mỏi và căng thẳng kéo dài."
+                  },
+                  {
+                    "en": "constantly distracted",
+                    "phrase": "constantly distracted",
+                    "vi": "liên tục bị xao nhãng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Learners are constantly distracted by social media messages.",
+                    "example_vi": "Người học liên tục bị xao nhãng bởi tin nhắn mạng xã hội."
+                  },
+                  {
+                    "en": "delay important tasks",
+                    "phrase": "delay important tasks",
+                    "vi": "trì hoãn nhiệm vụ quan trọng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Watching short videos makes workers delay important tasks.",
+                    "example_vi": "Xem video ngắn khiến nhân viên trì hoãn các nhiệm vụ quan trọng."
+                  },
+                  {
+                    "en": "get lower results",
+                    "phrase": "get lower results",
+                    "vi": "đạt kết quả thấp hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Students who play games all night often get lower results at school.",
+                    "example_vi": "Học sinh chơi game suốt đêm thường đạt kết quả học tập thấp hơn."
+                  },
+                  {
+                    "en": "prolonged Internet overuse",
+                    "phrase": "prolonged Internet overuse",
+                    "vi": "lạm dụng Internet kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Prolonged Internet overuse inflicts severe harm on overall well-being.",
+                    "example_vi": "Lạm dụng Internet kéo dài gây tổn hại nghiêm trọng cho sức khỏe tổng thể."
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "phrase": "psychological well-being",
+                    "vi": "sức khỏe tâm lý / tinh thần",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Excessive online comparison undermines teenagers' psychological well-being.",
+                    "example_vi": "So sánh trực tuyến quá mức làm suy giảm sức khỏe tâm lý thanh thiếu niên."
+                  },
+                  {
+                    "en": "remain sedentary",
+                    "phrase": "remain sedentary",
+                    "vi": "ngồi thụ động ít vận động",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Remaining sedentary before screens increases obesity and back pain.",
+                    "example_vi": "Ngồi thụ động trước màn hình làm tăng nguy cơ béo phì và đau lưng."
                   },
                   {
                     "en": "disturb sleep patterns",
+                    "phrase": "disturb sleep patterns",
                     "vi": "làm rối loạn giấc ngủ",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Blue light from smartphones can severely disturb sleep patterns.",
-                    "example_vi": "Ánh sáng xanh từ điện thoại có thể làm rối loạn nghiêm trọng giấc ngủ."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Blue light from digital displays can severely disturb sleep patterns.",
+                    "example_vi": "Ánh sáng xanh từ màn hình số có thể làm rối loạn nghiêm trọng giấc ngủ."
+                  },
+                  {
+                    "en": "compulsive checking of notifications",
+                    "phrase": "compulsive checking of notifications",
+                    "vi": "thói quen kiểm tra thông báo cưỡng bức",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Compulsive checking of notifications heightens anxiety throughout the day.",
+                    "example_vi": "Thói quen kiểm tra thông báo cưỡng bức làm tăng lo âu suốt cả ngày."
                   },
                   {
                     "en": "fragment attention spans",
-                    "vi": "làm phân mảnh khả năng chú ý",
+                    "phrase": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng tập trung",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Constant notifications fragment attention spans and lower grades.",
-                    "example_vi": "Thông báo liên tục làm phân mảnh khả năng chú ý và kéo giảm điểm số."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Short-form videos easily fragment attention spans and hurt deep learning.",
+                    "example_vi": "Video ngắn dễ dàng làm phân mảnh khả năng chú ý và ảnh hưởng học sâu."
+                  },
+                  {
+                    "en": "fuel procrastination",
+                    "phrase": "fuel procrastination",
+                    "vi": "thúc đẩy thói quen trì hoãn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Endless online entertainment fuels procrastination among university students.",
+                    "example_vi": "Giải trí trực tuyến bất tận thúc đẩy thói quen trì hoãn ở sinh viên."
+                  },
+                  {
+                    "en": "declining academic achievement",
+                    "phrase": "declining academic achievement",
+                    "vi": "thành tích học tập sa sút",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Internet addiction is closely linked to declining academic achievement.",
+                    "example_vi": "Nghiện Internet gắn liền mật thiết với thành tích học tập sa sút."
                   }
                 ]
               },
               {
-                "id": "group_social_risk",
-                "name": "Nhóm 2: Quan hệ Xã hội & Rủi ro Mạng (Social Isolation & Online Risks)",
+                "id": "group_social_risks",
+                "name": "Nhóm 2: Quan hệ Gia đình, Rủi ro Mạng & Lối sống Thụ động (Social & Online Risks)",
                 "icon": "📱",
                 "badge": "Ảnh hưởng 03–05",
                 "items": [
                   {
                     "en": "weaken real-life relationships",
+                    "phrase": "weaken real-life relationships",
                     "vi": "làm suy yếu quan hệ ngoài đời thực",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Spending hours online can weaken real-life relationships.",
-                    "example_vi": "Dành nhiều giờ trực tuyến có thể làm suy yếu quan hệ đời thực."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Overusing the Internet can weaken real-life relationships.",
+                    "example_vi": "Lạm dụng Internet có thể làm suy yếu các mối quan hệ đời thực."
                   },
                   {
-                    "en": "face-to-face communication",
-                    "vi": "giao tiếp trực tiếp mặt đối mặt",
+                    "en": "talk face to face",
+                    "phrase": "talk face to face",
+                    "vi": "trò chuyện trực tiếp mặt đối mặt",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Families need more face-to-face communication during meals.",
-                    "example_vi": "Các gia đình cần nhiều giao tiếp trực tiếp hơn trong bữa ăn."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Family members should talk face to face more instead of texting.",
+                    "example_vi": "Các thành viên gia đình nên trò chuyện trực tiếp nhiều hơn thay vì nhắn tin."
                   },
                   {
-                    "en": "social isolation",
-                    "vi": "sự cô lập xã hội",
-                    "level": "B2",
+                    "en": "distant and lonely",
+                    "phrase": "distant and lonely",
+                    "vi": "xa cách và cô đơn",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Over-reliance on virtual chat can lead to social isolation.",
-                    "example_vi": "Quá phụ thuộc vào trò chuyện ảo có thể dẫn đến cô lập xã hội."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Ignoring each other for phones makes home life feel distant and lonely.",
+                    "example_vi": "Phớt lờ nhau vì điện thoại khiến gia đình trở nên xa cách và cô đơn."
                   },
                   {
-                    "en": "online scams and misinformation",
-                    "vi": "lừa đảo trực tuyến và thông tin sai lệch",
+                    "en": "fake news",
+                    "phrase": "fake news",
+                    "vi": "tin giả",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Uncontrolled browsing exposes young users to fake news.",
+                    "example_vi": "Lướt mạng thiếu kiểm soát khiến người dùng trẻ dễ gặp tin giả."
+                  },
+                  {
+                    "en": "harmful content",
+                    "phrase": "harmful content",
+                    "vi": "nội dung độc hại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Children may accidentally see harmful content without supervision.",
+                    "example_vi": "Trẻ em có thể vô tình thấy nội dung độc hại nếu không được giám sát."
+                  },
+                  {
+                    "en": "online scams",
+                    "phrase": "online scams",
+                    "vi": "lừa đảo trực tuyến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Heavy Internet users face higher risks of online scams.",
+                    "example_vi": "Người dùng Internet nhiều đối mặt nguy cơ lừa đảo trực tuyến cao hơn."
+                  },
+                  {
+                    "en": "waste valuable time",
+                    "phrase": "waste valuable time",
+                    "vi": "lãng phí thời gian quý báu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Scrolling online aimlessly wastes valuable time every day.",
+                    "example_vi": "Lướt mạng vô mục đích làm lãng phí thời gian quý báu mỗi ngày."
+                  },
+                  {
+                    "en": "inactive lifestyle",
+                    "phrase": "inactive lifestyle",
+                    "vi": "lối sống lười vận động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Playing video games indoors for hours creates an inactive lifestyle.",
+                    "example_vi": "Chơi game trong nhà nhiều giờ tạo ra lối sống lười vận động."
+                  },
+                  {
+                    "en": "erode real-life relationships",
+                    "phrase": "erode real-life relationships",
+                    "vi": "làm xói mòn quan hệ ngoài đời thực",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Heavy users are more exposed to online scams and misinformation.",
-                    "example_vi": "Người dùng quá nhiều dễ tiếp xúc hơn với lừa đảo mạng và tin sai lệch."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Dependence on virtual platforms gradually erodes real-life relationships.",
+                    "example_vi": "Sự phụ thuộc vào nền tảng ảo dần làm xói mòn các mối quan hệ đời thực."
+                  },
+                  {
+                    "en": "emotionally isolated",
+                    "phrase": "emotionally isolated",
+                    "vi": "cô lập về mặt cảm xúc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Substituting real conversations with messaging leaves users emotionally isolated.",
+                    "example_vi": "Thay thế trò chuyện thực bằng tin nhắn khiến người dùng bị cô lập cảm xúc."
+                  },
+                  {
+                    "en": "weaken interpersonal skills",
+                    "phrase": "weaken interpersonal skills",
+                    "vi": "làm mai một kỹ năng giao tiếp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Limited face-to-face contact weakens teenagers' interpersonal skills.",
+                    "example_vi": "Ít tiếp xúc trực tiếp làm mai một kỹ năng giao tiếp của thanh thiếu niên."
+                  },
+                  {
+                    "en": "online fraud and cyberbullying",
+                    "phrase": "online fraud and cyberbullying",
+                    "vi": "lừa đảo trực tuyến và bắt nạt mạng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Unregulated Internet use heightens exposure to online fraud and cyberbullying.",
+                    "example_vi": "Dùng Internet thiếu kiểm soát làm tăng tiếp xúc với lừa đảo mạng và bắt nạt mạng."
+                  },
+                  {
+                    "en": "sophisticated phishing links",
+                    "phrase": "sophisticated phishing links",
+                    "vi": "đường dẫn giả mạo tinh vi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Hackers use sophisticated phishing links to steal sensitive data.",
+                    "example_vi": "Tin tặc dùng đường dẫn giả mạo tinh vi để đánh cắp dữ liệu nhạy cảm."
+                  },
+                  {
+                    "en": "recommendation algorithms",
+                    "phrase": "recommendation algorithms",
+                    "vi": "thuật toán đề xuất nội dung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Recommendation algorithms trap users in endless streams of videos.",
+                    "example_vi": "Thuật toán đề xuất giữ chân người dùng trong chuỗi video bất tận."
+                  },
+                  {
+                    "en": "effortless digital stimulation",
+                    "phrase": "effortless digital stimulation",
+                    "vi": "sự kích thích dễ dãi từ thiết bị số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Young people grow overly reliant on effortless digital stimulation.",
+                    "example_vi": "Người trẻ ngày càng lệ thuộc vào sự kích thích dễ dãi từ màn hình."
+                  },
+                  {
+                    "en": "drain valuable time",
+                    "phrase": "drain valuable time",
+                    "vi": "tiêu hao thời gian quý báu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Uncontrolled browsing drains valuable time that could support personal growth.",
+                    "example_vi": "Lướt mạng thiếu kiểm soát tiêu hao thời gian quý giá cho phát triển bản thân."
                   }
                 ]
               },
               {
                 "id": "group_personal_family",
-                "name": "Nhóm 3: Giải pháp Cá nhân & Gia đình (Personal & Family Solutions)",
+                "name": "Nhóm 3: Giải pháp Cá nhân, Sở thích Đời thực & Gia đình (Personal & Family Solutions)",
                 "icon": "🏡",
                 "badge": "Giải pháp 01–03",
                 "items": [
                   {
-                    "en": "set daily screen-time limits",
-                    "vi": "đặt giới hạn thời gian màn hình hằng ngày",
+                    "en": "set daily time limits",
+                    "phrase": "set daily time limits",
+                    "vi": "đặt giới hạn thời gian hằng ngày",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Individuals should set daily screen-time limits for social media.",
-                    "example_vi": "Mỗi cá nhân nên đặt giới hạn thời gian hằng ngày cho mạng xã hội."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Individuals should set daily time limits for social media and games.",
+                    "example_vi": "Mỗi cá nhân nên đặt giới hạn thời gian hằng ngày cho mạng xã hội và game."
                   },
                   {
-                    "en": "outdoor activities and offline hobbies",
-                    "vi": "hoạt động ngoài trời và sở thích đời thực",
+                    "en": "screen-time tracking apps",
+                    "phrase": "screen-time tracking apps",
+                    "vi": "ứng dụng theo dõi thời gian màn hình",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Joining outdoor activities and offline hobbies keeps people active.",
-                    "example_vi": "Tham gia hoạt động ngoài trời và sở thích đời thực giúp mọi người năng động."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Screen-time tracking apps help people see how many hours they spend online.",
+                    "example_vi": "Ứng dụng theo dõi thời gian màn hình giúp mọi người biết mình lên mạng bao lâu."
+                  },
+                  {
+                    "en": "turn off phones before bedtime",
+                    "phrase": "turn off phones before bedtime",
+                    "vi": "tắt điện thoại trước giờ đi ngủ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Turning off phones before bedtime improves sleep quality.",
+                    "example_vi": "Tắt điện thoại trước giờ ngủ giúp cải thiện chất lượng giấc ngủ."
+                  },
+                  {
+                    "en": "outdoor activities",
+                    "phrase": "outdoor activities",
+                    "vi": "các hoạt động ngoài trời",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Joining outdoor activities keeps young people active and happy.",
+                    "example_vi": "Tham gia hoạt động ngoài trời giúp người trẻ năng động và vui vẻ."
+                  },
+                  {
+                    "en": "healthy offline hobbies",
+                    "phrase": "healthy offline hobbies",
+                    "vi": "sở thích ngoài đời thực lành mạnh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Reading and sports are healthy offline hobbies that replace screen time.",
+                    "example_vi": "Đọc sách và thể thao là sở thích đời thực lành mạnh thay thế màn hình."
+                  },
+                  {
+                    "en": "rely less on screens",
+                    "phrase": "rely less on screens",
+                    "vi": "giảm phụ thuộc vào màn hình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Meeting friends in person helps teenagers rely less on screens.",
+                    "example_vi": "Gặp bạn bè trực tiếp giúp thanh thiếu niên giảm phụ thuộc màn hình."
+                  },
+                  {
+                    "en": "set a good example",
+                    "phrase": "set a good example",
+                    "vi": "làm gương tốt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Parents should set a good example by limiting their own phone use.",
+                    "example_vi": "Cha mẹ nên làm gương tốt bằng cách tự hạn chế dùng điện thoại."
+                  },
+                  {
+                    "en": "ban phones during meals",
+                    "phrase": "ban phones during meals",
+                    "vi": "không dùng điện thoại trong bữa ăn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Banning phones during meals encourages warmer family conversations.",
+                    "example_vi": "Không dùng điện thoại khi ăn khuyến khích cuộc trò chuyện gia đình ấm áp hơn."
+                  },
+                  {
+                    "en": "cultivate digital discipline",
+                    "phrase": "cultivate digital discipline",
+                    "vi": "rèn luyện kỷ luật sử dụng công nghệ số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Users must cultivate digital discipline to balance online and offline life.",
+                    "example_vi": "Người dùng phải rèn luyện kỷ luật số để cân bằng đời sống trực tuyến và đời thực."
                   },
                   {
                     "en": "device-free hours",
+                    "phrase": "device-free hours",
                     "vi": "khung giờ không thiết bị điện tử",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Establishing device-free hours at dinner strengthens family bonds.",
-                    "example_vi": "Thiết lập khung giờ không thiết bị trong bữa tối giúp thắt chặt tình cảm gia đình."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Maintaining device-free hours before sleep restores healthy rest.",
+                    "example_vi": "Duy trì khung giờ không thiết bị trước khi ngủ khôi phục giấc ngủ lành mạnh."
                   },
                   {
-                    "en": "self-regulation",
-                    "vi": "khả năng tự điều chỉnh",
+                    "en": "deliberate self-regulation",
+                    "phrase": "deliberate self-regulation",
+                    "vi": "khả năng tự điều chỉnh có chủ đích",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Practicing self-regulation helps workers regain focus.",
-                    "example_vi": "Thực hành tự điều chỉnh giúp người lao động lấy lại sự tập trung."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Deliberate self-regulation helps workers regain control over daily schedules.",
+                    "example_vi": "Khả năng tự điều chỉnh giúp nhân viên lấy lại quyền kiểm soát lịch trình."
+                  },
+                  {
+                    "en": "mute non-essential notifications",
+                    "phrase": "mute non-essential notifications",
+                    "vi": "tắt các thông báo không cần thiết",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Muting non-essential notifications immediately boosts deep concentration.",
+                    "example_vi": "Tắt thông báo không thiết yếu lập tức tăng cường sự tập trung sâu."
+                  },
+                  {
+                    "en": "rewarding offline passions",
+                    "phrase": "rewarding offline passions",
+                    "vi": "những đam mê ngoài đời thực bổ ích",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Discovering rewarding offline passions eases the urge to scroll online.",
+                    "example_vi": "Khám phá đam mê đời thực bổ ích làm giảm thôi thúc lướt mạng."
+                  },
+                  {
+                    "en": "genuine social connection",
+                    "phrase": "genuine social connection",
+                    "vi": "sự kết nối xã hội chân thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Volunteering and sports clubs provide genuine social connection.",
+                    "example_vi": "Hoạt động tình nguyện và câu lạc bộ thể thao mang lại kết nối xã hội chân thực."
+                  },
+                  {
+                    "en": "designate tech-free zones",
+                    "phrase": "designate tech-free zones",
+                    "vi": "thiết lập khu vực không thiết bị công nghệ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Families can designate tech-free zones in bedrooms and dining areas.",
+                    "example_vi": "Gia đình có thể thiết lập khu vực không thiết bị ở phòng ngủ và bàn ăn."
+                  },
+                  {
+                    "en": "model balanced digital habits",
+                    "phrase": "model balanced digital habits",
+                    "vi": "làm gương về thói quen số cân bằng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Parents who model balanced digital habits inspire healthier youth behavior.",
+                    "example_vi": "Cha mẹ làm gương về thói quen số cân bằng truyền cảm hứng cho hành vi lành mạnh của con."
                   }
                 ]
               },
               {
-                "id": "group_school_policy",
-                "name": "Nhóm 4: Giáo dục & Quản lý Nền tảng (Education & Policy Solutions)",
+                "id": "group_school_platform_policy",
+                "name": "Nhóm 4: Giáo dục Năng lực số, Nền tảng & Chính sách (Education, Platforms & Policy)",
                 "icon": "🏛️",
                 "badge": "Giải pháp 04–05",
                 "items": [
                   {
                     "en": "raise public awareness",
+                    "phrase": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Schools and media should raise public awareness of Internet addiction.",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Schools and media should raise public awareness about Internet addiction.",
                     "example_vi": "Nhà trường và truyền thông nên nâng cao nhận thức về nghiện Internet."
                   },
                   {
+                    "en": "school workshops",
+                    "phrase": "school workshops",
+                    "vi": "các buổi chuyên đề tại trường học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "School workshops teach students how to use the Internet safely.",
+                    "example_vi": "Các buổi chuyên đề ở trường dạy học sinh cách sử dụng Internet an toàn."
+                  },
+                  {
+                    "en": "use the Internet safely",
+                    "phrase": "use the Internet safely",
+                    "vi": "sử dụng Internet an toàn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Children need clear guidance to use the Internet safely every day.",
+                    "example_vi": "Trẻ em cần hướng dẫn rõ ràng để dùng Internet an toàn mỗi ngày."
+                  },
+                  {
+                    "en": "control online habits",
+                    "phrase": "control online habits",
+                    "vi": "kiểm soát thói quen trực tuyến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Education helps teenagers control online habits more effectively.",
+                    "example_vi": "Giáo dục giúp thanh thiếu niên kiểm soát thói quen trực tuyến hiệu quả hơn."
+                  },
+                  {
+                    "en": "time-control tools",
+                    "phrase": "time-control tools",
+                    "vi": "công cụ kiểm soát thời gian",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Tech companies should build easy time-control tools into popular apps.",
+                    "example_vi": "Hãng công nghệ nên tích hợp công cụ kiểm soát thời gian dễ dùng vào ứng dụng."
+                  },
+                  {
+                    "en": "send break reminders",
+                    "phrase": "send break reminders",
+                    "vi": "gửi thông báo nhắc nghỉ ngơi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Video apps can send break reminders after one hour of watching.",
+                    "example_vi": "Ứng dụng video có thể gửi nhắc nhở nghỉ ngơi sau một giờ xem."
+                  },
+                  {
+                    "en": "counseling services",
+                    "phrase": "counseling services",
+                    "vi": "dịch vụ tư vấn tâm lý",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Governments should offer counseling services for heavy Internet users.",
+                    "example_vi": "Chính phủ nên cung cấp dịch vụ tư vấn tâm lý cho người nghiện mạng nặng."
+                  },
+                  {
+                    "en": "support heavy users",
+                    "phrase": "support heavy users",
+                    "vi": "hỗ trợ người sử dụng quá mức",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Doctors and teachers can work together to support heavy users.",
+                    "example_vi": "Bác sĩ và giáo viên có thể phối hợp hỗ trợ người dùng Internet quá mức."
+                  },
+                  {
                     "en": "digital literacy education",
+                    "phrase": "digital literacy education",
                     "vi": "giáo dục năng lực số",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Digital literacy education equips students to use technology wisely.",
-                    "example_vi": "Giáo dục năng lực số trang bị cho học sinh cách dùng công nghệ thông minh."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Integrating digital literacy education helps youths harness technology wisely.",
+                    "example_vi": "Lồng ghép giáo dục năng lực số giúp người trẻ khai thác công nghệ thông minh."
+                  },
+                  {
+                    "en": "critical fact-checking skills",
+                    "phrase": "critical fact-checking skills",
+                    "vi": "kỹ năng kiểm chứng thông tin phản biện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Schools should teach critical fact-checking skills to combat fake news.",
+                    "example_vi": "Nhà trường nên dạy kỹ năng kiểm chứng thông tin để chống tin giả."
+                  },
+                  {
+                    "en": "digital well-being",
+                    "phrase": "digital well-being",
+                    "vi": "sức khỏe trong môi trường số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Public campaigns encourage society to prioritize digital well-being.",
+                    "example_vi": "Chiến dịch cộng đồng khuyến khích xã hội ưu tiên sức khỏe trong môi trường số."
                   },
                   {
                     "en": "responsible platform safeguards",
+                    "phrase": "responsible platform safeguards",
                     "vi": "biện pháp bảo vệ có trách nhiệm trên nền tảng",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Platforms should implement responsible safeguards such as break reminders.",
-                    "example_vi": "Các nền tảng nên áp dụng biện pháp bảo vệ như thông báo nhắc nghỉ ngơi."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Tech corporations must implement responsible platform safeguards for minors.",
+                    "example_vi": "Tập đoàn công nghệ phải áp dụng biện pháp bảo vệ cho trẻ vị thành niên."
+                  },
+                  {
+                    "en": "age-verification controls",
+                    "phrase": "age-verification controls",
+                    "vi": "kiểm soát xác minh độ tuổi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Strict age-verification controls protect children from harmful sites.",
+                    "example_vi": "Kiểm soát xác minh độ tuổi nghiêm ngặt bảo vệ trẻ em khỏi trang độc hại."
+                  },
+                  {
+                    "en": "addictive autoplay mechanisms",
+                    "phrase": "addictive autoplay mechanisms",
+                    "vi": "cơ chế tự động phát gây nghiện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Regulators should limit addictive autoplay mechanisms on video apps.",
+                    "example_vi": "Cơ quan quản lý nên hạn chế cơ chế tự phát gây nghiện trên ứng dụng video."
                   },
                   {
                     "en": "psychological helplines",
+                    "phrase": "psychological helplines",
                     "vi": "đường dây nóng tư vấn tâm lý",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Governments can fund psychological helplines for severe Internet addicts.",
-                    "example_vi": "Chính phủ có thể tài trợ đường dây tư vấn tâm lý cho người nghiện mạng nặng."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Accessible psychological helplines offer timely help for severe addicts.",
+                    "example_vi": "Đường dây tư vấn tâm lý dễ tiếp cận giúp hỗ trợ kịp thời người nghiện nặng."
+                  },
+                  {
+                    "en": "specialized rehabilitation programs",
+                    "phrase": "specialized rehabilitation programs",
+                    "vi": "chương trình cai nghiện chuyên biệt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Governments can fund specialized rehabilitation programs for severe dependency.",
+                    "example_vi": "Chính phủ có thể tài trợ chương trình cai nghiện chuyên biệt cho ca phụ thuộc nặng."
                   }
                 ]
               }
@@ -186692,52 +187960,232 @@ const ESSAY_DATA = [
               "vi": "xu hướng thời trang nhanh"
             },
             {
+              "en": "clothing waste",
+              "vi": "rác thải quần áo"
+            },
+            {
+              "en": "wear out quickly",
+              "vi": "nhanh hỏng, nhanh cũ"
+            },
+            {
+              "en": "go out of style",
+              "vi": "trở nên lỗi mốt"
+            },
+            {
+              "en": "pollute rivers and lakes",
+              "vi": "gây ô nhiễm sông hồ"
+            },
+            {
+              "en": "harmful chemicals",
+              "vi": "hóa chất độc hại"
+            },
+            {
+              "en": "carbon emissions",
+              "vi": "lượng khí thải carbon"
+            },
+            {
+              "en": "use huge amounts of water",
+              "vi": "tiêu thụ lượng nước khổng lồ"
+            },
+            {
               "en": "massive textile waste",
               "vi": "lượng rác thải dệt may khổng lồ"
             },
             {
-              "en": "wear out quickly",
-              "vi": "nhanh hỏng, nhanh sờn cũ"
+              "en": "overburden landfills",
+              "vi": "làm quá tải các bãi chôn lấp"
             },
             {
-              "en": "global carbon emissions",
-              "vi": "lượng khí thải carbon toàn cầu"
-            },
-            {
-              "en": "environmental degradation",
-              "vi": "sự suy thoái môi trường"
+              "en": "leach microplastics",
+              "vi": "rò rỉ hạt vi nhựa"
             },
             {
               "en": "toxic dyeing chemicals",
               "vi": "hóa chất nhuộm độc hại"
             },
             {
+              "en": "freshwater depletion",
+              "vi": "sự cạn kiệt nguồn nước ngọt"
+            },
+            {
+              "en": "environmental degradation",
+              "vi": "sự suy thoái môi trường"
+            },
+            {
+              "en": "enlarge the carbon footprint",
+              "vi": "làm phình to dấu chân carbon"
+            },
+            {
+              "en": "petroleum-based synthetic fibers",
+              "vi": "sợi tổng hợp gốc dầu mỏ"
+            },
+            {
+              "en": "buy too many clothes",
+              "vi": "mua quá nhiều quần áo"
+            },
+            {
+              "en": "waste money",
+              "vi": "lãng phí tiền bạc"
+            },
+            {
+              "en": "chase new styles",
+              "vi": "chạy theo kiểu dáng mới"
+            },
+            {
+              "en": "rarely wear",
+              "vi": "hiếm khi mặc đến"
+            },
+            {
+              "en": "garment workers",
+              "vi": "công nhân may mặc"
+            },
+            {
+              "en": "work long hours",
+              "vi": "làm việc nhiều giờ liền"
+            },
+            {
+              "en": "very low wages",
+              "vi": "mức lương rất thấp"
+            },
+            {
+              "en": "unsafe working conditions",
+              "vi": "điều kiện làm việc không an toàn"
+            },
+            {
               "en": "throwaway culture",
-              "vi": "văn hóa tiêu dùng nhanh rồi vứt bỏ"
+              "vi": "văn hóa dùng nhanh rồi vứt"
+            },
+            {
+              "en": "impulsive spending",
+              "vi": "chi tiêu bốc đồng"
+            },
+            {
+              "en": "fleeting micro-trends",
+              "vi": "những trào lưu vi mô ngắn ngủi"
+            },
+            {
+              "en": "drain personal finances",
+              "vi": "làm cạn kiệt tài chính cá nhân"
             },
             {
               "en": "exploitative labor conditions",
-              "vi": "điều kiện lao động bóc lột"
+              "vi": "điều kiện lao động mang tính bóc lột"
             },
             {
-              "en": "mitigate environmental impact",
-              "vi": "giảm nhẹ tác động môi trường"
+              "en": "poverty-level wages",
+              "vi": "mức lương nghèo đói / không đủ sống"
             },
             {
-              "en": "mindful consumption",
-              "vi": "tiêu dùng có ý thức"
+              "en": "cut corners on safety",
+              "vi": "cắt xén tiêu chuẩn an toàn"
             },
             {
-              "en": "extend garment lifecycles",
-              "vi": "kéo dài vòng đời trang phục"
+              "en": "unsustainable resource extraction",
+              "vi": "khai thác tài nguyên thiếu bền vững"
+            },
+            {
+              "en": "buy fewer clothes",
+              "vi": "mua ít quần áo hơn"
+            },
+            {
+              "en": "durable, high-quality items",
+              "vi": "sản phẩm bền và chất lượng cao"
+            },
+            {
+              "en": "save money in the long run",
+              "vi": "tiết kiệm tiền về lâu dài"
             },
             {
               "en": "second-hand shopping",
               "vi": "mua sắm đồ đã qua sử dụng"
             },
             {
+              "en": "donate old clothes",
+              "vi": "quyên góp quần áo cũ"
+            },
+            {
+              "en": "repair torn garments",
+              "vi": "sửa chữa quần áo bị rách"
+            },
+            {
+              "en": "swap clothes with friends",
+              "vi": "trao đổi quần áo với bạn bè"
+            },
+            {
+              "en": "extend the life of clothes",
+              "vi": "kéo dài vòng đời quần áo"
+            },
+            {
+              "en": "mindful consumption",
+              "vi": "tiêu dùng có ý thức"
+            },
+            {
+              "en": "timeless, high-quality garments",
+              "vi": "trang phục chất lượng cao không lỗi mốt"
+            },
+            {
+              "en": "minimalist wardrobe",
+              "vi": "tủ quần áo tối giản"
+            },
+            {
+              "en": "curb overproduction",
+              "vi": "kiềm chế tình trạng sản xuất dư thừa"
+            },
+            {
+              "en": "extend garment lifecycles",
+              "vi": "kéo dài vòng đời trang phục"
+            },
+            {
+              "en": "online resale platforms",
+              "vi": "nền tảng mua bán đồ cũ trực tuyến"
+            },
+            {
+              "en": "event-wear rental services",
+              "vi": "dịch vụ cho thuê trang phục dự tiệc"
+            },
+            {
+              "en": "cut waste at its source",
+              "vi": "cắt giảm rác thải ngay từ gốc"
+            },
+            {
               "en": "eco-friendly fabrics",
               "vi": "vải thân thiện với môi trường"
+            },
+            {
+              "en": "organic cotton",
+              "vi": "bông hữu cơ"
+            },
+            {
+              "en": "recycled fibers",
+              "vi": "sợi vải tái chế"
+            },
+            {
+              "en": "cleaner production methods",
+              "vi": "phương pháp sản xuất sạch hơn"
+            },
+            {
+              "en": "stricter environmental rules",
+              "vi": "quy định môi trường chặt chẽ hơn"
+            },
+            {
+              "en": "fine polluting factories",
+              "vi": "phạt nặng nhà máy gây ô nhiễm"
+            },
+            {
+              "en": "raise public awareness",
+              "vi": "nâng cao nhận thức cộng đồng"
+            },
+            {
+              "en": "responsible shopping choices",
+              "vi": "lựa chọn mua sắm có trách nhiệm"
+            },
+            {
+              "en": "mitigate environmental impact",
+              "vi": "giảm nhẹ tác động môi trường"
+            },
+            {
+              "en": "waterless dyeing innovations",
+              "vi": "công nghệ nhuộm không dùng nước"
             },
             {
               "en": "in-store take-back schemes",
@@ -186745,11 +188193,23 @@ const ESSAY_DATA = [
             },
             {
               "en": "impose carbon taxes",
-              "vi": "áp thuế carbon"
+              "vi": "áp đặt thuế carbon"
             },
             {
-              "en": "responsible shopping choices",
-              "vi": "lựa chọn mua sắm có trách nhiệm"
+              "en": "supply-chain transparency",
+              "vi": "tính minh bạch trong chuỗi cung ứng"
+            },
+            {
+              "en": "green subsidies and tax incentives",
+              "vi": "trợ cấp xanh và ưu đãi thuế"
+            },
+            {
+              "en": "hidden environmental toll",
+              "vi": "cái giá môi trường ẩn giấu"
+            },
+            {
+              "en": "clear eco-labeling",
+              "vi": "gắn nhãn sinh thái rõ ràng"
             }
           ],
           "sample_b1": "Nowadays, following <strong>fast fashion trends</strong> has become very popular, especially among young people who love buying cheap and stylish clothes. However, this trend creates serious environmental problems around the world. This essay will discuss the main negative effects of fast fashion and suggest several practical solutions to protect the environment.\n\nOn the one hand, the fast fashion industry causes severe harm to nature. Firstly, it creates a huge amount of <strong>clothing waste</strong> every year. Because cheap garments <strong>wear out quickly</strong> and go out of style soon, many consumers wear them only a few times before throwing them into <strong>landfills</strong>. Secondly, fast fashion production uses huge amounts of clean water and pollutes rivers and lakes. Textile factories often release <strong>harmful chemicals</strong> and dyes into natural waterways, damaging aquatic life and local communities. Finally, mass production using synthetic fabrics and global shipping release large amounts of <strong>carbon emissions</strong>, which makes climate change much worse.\n\nOn the other hand, several effective measures can help reduce these environmental impacts. First of all, consumers should buy fewer clothes and choose <strong>durable, high-quality items</strong> that can be worn for many years. People can also repair, donate old garments, and support <strong>second-hand shopping</strong> to extend the life of usable clothes. In addition, fashion brands need to switch to <strong>eco-friendly fabrics</strong> such as organic cotton and recycled fibers. Moreover, governments should apply <strong>stricter rules</strong> on polluting factories, while schools and media should <strong>raise awareness</strong> so young shoppers make more responsible choices.\n\nIn conclusion, fast fashion contributes heavily to waste, water pollution, and climate change. If consumers, clothing brands, and governments work together, the fashion industry can become much cleaner and more sustainable.",
@@ -186758,77 +188218,97 @@ const ESSAY_DATA = [
           "translation_b2": "Trong xã hội tiêu dùng hiện đại, việc chạy theo <strong>xu hướng thời trang nhanh</strong> đã trở nên vô cùng phổ biến, đặc biệt là ở người mua trẻ bị thu hút bởi các mẫu mã giá rẻ và thay đổi chóng mặt. Tuy nhiên, các chính phủ và tổ chức môi trường ngày càng cảnh báo rằng ngành công nghiệp này thúc đẩy sự <strong>suy thoái môi trường</strong> nghiêm trọng và hiện tượng nóng lên toàn cầu. Bài luận này sẽ phân tích những vấn đề lớn do thời trang nhanh gây ra và đề xuất các chiến lược khả thi nhằm giảm nhẹ dấu chân sinh thái của nó.\n\nSự mở rộng nhanh chóng của thời trang nhanh kéo theo nhiều hệ quả đáng báo động. Trước hết, nó tạo ra <strong>lượng rác thải dệt may khổng lồ</strong> làm quá tải nặng nề các bãi chôn lấp trên toàn cầu. Bởi vì các nhà bán lẻ tung ra hàng chục bộ sưu tập giá rẻ chất lượng kém mỗi năm, quần áo nhanh hỏng hoặc trở nên lỗi mốt chỉ sau vài lần mặc, trong khi sợi tổng hợp như polyester mất hàng thế kỷ để phân hủy và rò rỉ vi nhựa vào đất. Thứ hai, sản xuất quần áo tiêu thụ nguồn nước ngọt khổng lồ và thải <strong>hóa chất nhuộm độc hại</strong> ra sông ngòi, đe dọa hệ sinh thái thủy sinh và cộng đồng địa phương. Đáng lo ngại không kém là mức đóng góp của ngành vào <strong>lượng khí thải carbon toàn cầu</strong>: việc sản xuất vải gốc dầu mỏ và vận chuyển hàng hóa xuyên lục địa phụ thuộc lớn vào nhiên liệu hóa thạch, đồng thời hoạt động tiếp thị dày đặc nuôi dưỡng một <strong>văn hóa dùng nhanh rồi vứt</strong> đầy lãng phí.\n\nGiảm nhẹ những tác động này đòi hỏi hành động chung từ người mua sắm, doanh nghiệp thời trang và các nhà hoạch định chính sách. Ở cấp độ người tiêu dùng, mỗi cá nhân nên thực hành <strong>tiêu dùng có ý thức</strong> bằng cách mua ít sản phẩm cơ bản chất lượng cao hơn thay vì chạy theo mọi trào lưu ngắn ngủi. Mở rộng thói quen sửa chữa, nền tảng thuê đồ và <strong>mua sắm đồ đã qua sử dụng</strong> cũng là cách hợp túi tiền để <strong>kéo dài vòng đời trang phục</strong> và kiềm chế sản xuất dư thừa. Trong khi đó, các tập đoàn thời trang phải đầu tư vào <strong>vải thân thiện môi trường</strong>, công nghệ nhuộm không dùng nước và các <strong>chương trình thu hồi đồ cũ tại cửa hàng</strong> để tái chế thành sợi mới. Cuối cùng, chính phủ cần ban hành tiêu chuẩn môi trường nghiêm ngặt, <strong>áp thuế carbon</strong> đối với nhà máy gây ô nhiễm nặng và tài trợ các chiến dịch bền vững để người tiêu dùng trẻ nhận rõ cái giá sinh thái ẩn sau quần áo siêu rẻ.\n\nTóm lại, thời trang nhanh đẩy nhanh rác thải dệt may, ô nhiễm nguồn nước và biến đổi khí hậu. Chỉ thông qua thói quen tiêu dùng có ý thức, đổi mới công nghệ sạch của doanh nghiệp và sự giám sát chặt chẽ từ chính phủ, xã hội mới có thể tận hưởng thời trang mà vẫn bảo vệ hành tinh cho thế hệ tương lai.",
           "vocab_step": {
             "theme": "Xu hướng thời trang nhanh (Fast Fashion Trends)",
-            "overview": "Hệ thống tổng hợp 18 từ vựng trọng tâm và 16 cụm từ liên kết (Collocations) phân cấp B1–B2 bao quát đầy đủ 5 Ảnh hưởng tiêu cực (Rác thải dệt may, Ô nhiễm nguồn nước, Khí thải carbon, Tiêu dùng lãng phí, Điều kiện lao động) và 5 Giải pháp giảm tác động môi trường (Tiêu dùng có ý thức, Tái sử dụng & đồ cũ, Vật liệu xanh, Quy định môi trường & thuế carbon, Giáo dục nâng cao nhận thức).",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (18 từ đơn + 32 cụm từ = 50 mục) và B2 (36 từ đơn + 32 cụm từ = 68 mục), bao quát toàn diện 5 Ảnh hưởng tiêu cực và 5 Giải pháp giảm thiểu tác động môi trường.",
             "single_words": [
               {
-                "word": "textile",
-                "ipa": "/ˈtek.staɪl/",
-                "pos": "n, adj",
-                "level": "B2",
-                "vi": "dệt may, vải vóc",
-                "family": "textiles (n)",
-                "example_en": "Fast fashion produces millions of tons of textile waste annually.",
-                "example_vi": "Thời trang nhanh tạo ra hàng triệu tấn rác thải dệt may mỗi năm."
-              },
-              {
-                "word": "garment",
-                "ipa": "/ˈɡɑː.mənt/",
-                "pos": "n",
-                "level": "B2",
-                "vi": "quần áo, trang phục (1 món đồ may mặc)",
-                "family": "garments (n)",
-                "example_en": "Many cheap garments are worn only a few times before being discarded.",
-                "example_vi": "Nhiều trang phục giá rẻ chỉ được mặc vài lần trước khi bị vứt bỏ."
-              },
-              {
-                "word": "synthetic",
-                "ipa": "/sɪnˈθet.ɪk/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "tổng hợp, nhân tạo",
-                "family": "synthetically (adv)",
-                "example_en": "Synthetic fabrics take hundreds of years to break down in landfills.",
-                "example_vi": "Vải sợi tổng hợp mất hàng trăm năm để phân hủy ở bãi rác."
-              },
-              {
-                "word": "emission",
-                "ipa": "/iˈmɪʃ.ən/",
+                "word": "fashion",
+                "ipa": "/ˈfæʃ.ən/",
                 "pos": "n",
                 "level": "B1, B2",
-                "vi": "sự phát thải, khí thải",
-                "family": "emit (v)",
-                "example_en": "The fashion industry contributes significantly to global carbon emissions.",
-                "example_vi": "Ngành thời trang góp phần đáng kể vào lượng khí thải carbon toàn cầu."
+                "vi": "thời trang",
+                "family": "fashionable (adj)",
+                "example_en": "Fast fashion is very popular among young shoppers today.",
+                "example_vi": "Thời trang nhanh rất phổ biến trong giới mua sắm trẻ ngày nay."
               },
               {
-                "word": "degradation",
-                "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
-                "pos": "n",
-                "level": "B2",
-                "vi": "sự suy thoái, xuống cấp",
-                "family": "degrade (v)",
-                "example_en": "Overproduction in fashion accelerates environmental degradation.",
-                "example_vi": "Sản xuất dư thừa trong thời trang đẩy nhanh sự suy thoái môi trường."
-              },
-              {
-                "word": "landfill",
-                "ipa": "/ˈlænd.fɪl/",
+                "word": "trend",
+                "ipa": "/trend/",
                 "pos": "n",
                 "level": "B1, B2",
-                "vi": "bãi chôn lấp rác",
-                "family": "landfills (n)",
-                "example_en": "Millions of discarded shirts end up in landfills every year.",
-                "example_vi": "Hàng triệu chiếc áo bị vứt bỏ kết thúc tại các bãi chôn lấp mỗi năm."
+                "vi": "xu hướng, trào lưu",
+                "family": "trendy (adj)",
+                "example_en": "Many teenagers follow new clothing trends on social media.",
+                "example_vi": "Nhiều thanh thiếu niên chạy theo xu hướng quần áo mới trên mạng xã hội."
               },
               {
-                "word": "dye",
-                "ipa": "/daɪ/",
+                "word": "waste",
+                "ipa": "/weɪst/",
                 "pos": "n, v",
                 "level": "B1, B2",
-                "vi": "thuốc nhuộm; nhuộm màu",
-                "family": "dyeing (n)",
-                "example_en": "Toxic dyes from clothing factories pollute local rivers.",
-                "example_vi": "Thuốc nhuộm độc hại từ nhà máy may mặc gây ô nhiễm sông ngòi địa phương."
+                "vi": "rác thải; lãng phí",
+                "family": "wasteful (adj)",
+                "example_en": "Buying cheap clothes every month creates a lot of waste.",
+                "example_vi": "Mua quần áo giá rẻ mỗi tháng tạo ra rất nhiều rác thải."
+              },
+              {
+                "word": "pollution",
+                "ipa": "/pəˈluː.ʃən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự ô nhiễm",
+                "family": "pollute (v), pollutant (n)",
+                "example_en": "Clothing factories cause serious water and air pollution.",
+                "example_vi": "Các nhà máy quần áo gây ra ô nhiễm nước và không khí nghiêm trọng."
+              },
+              {
+                "word": "chemical",
+                "ipa": "/ˈkem.ɪ.kəl/",
+                "pos": "n, adj",
+                "level": "B1, B2",
+                "vi": "hóa chất; thuộc hóa học",
+                "family": "chemically (adv)",
+                "example_en": "Harmful chemicals from fabric dyeing often enter rivers.",
+                "example_vi": "Hóa chất độc hại từ việc nhuộm vải thường chảy ra sông ngòi."
+              },
+              {
+                "word": "factory",
+                "ipa": "/ˈfæk.tər.i/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhà máy, xí nghiệp",
+                "family": "factories (n)",
+                "example_en": "Many garment factories operate day and night to produce cheap clothes.",
+                "example_vi": "Nhiều nhà máy may mặc hoạt động ngày đêm để sản xuất quần áo giá rẻ."
+              },
+              {
+                "word": "fabric",
+                "ipa": "/ˈfæb.rɪk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "vải, chất liệu vải",
+                "family": "fabrics (n)",
+                "example_en": "Natural fabrics are usually safer for the environment than plastic fibers.",
+                "example_vi": "Vải tự nhiên thường an toàn cho môi trường hơn sợi nhựa."
+              },
+              {
+                "word": "cheap",
+                "ipa": "/tʃiːp/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "rẻ, giá rẻ",
+                "family": "cheaply (adv)",
+                "example_en": "Cheap clothes often break or fade after only a few washes.",
+                "example_vi": "Quần áo giá rẻ thường rách hoặc phai màu chỉ sau vài lần giặt."
+              },
+              {
+                "word": "quality",
+                "ipa": "/ˈkwɒl.ə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "chất lượng",
+                "family": "high-quality (adj)",
+                "example_en": "People should buy high-quality clothes that last for years.",
+                "example_vi": "Mọi người nên mua quần áo chất lượng cao có thể mặc nhiều năm."
               },
               {
                 "word": "durable",
@@ -186837,18 +188317,68 @@ const ESSAY_DATA = [
                 "level": "B1, B2",
                 "vi": "bền bỉ, lâu hỏng",
                 "family": "durability (n)",
-                "example_en": "Buying durable clothes saves money and protects the planet.",
-                "example_vi": "Mua quần áo bền giúp tiết kiệm tiền và bảo vệ hành tinh."
+                "example_en": "Durable items save money and help protect the planet.",
+                "example_vi": "Những món đồ bền giúp tiết kiệm tiền và bảo vệ hành tinh."
               },
               {
-                "word": "disposable",
-                "ipa": "/dɪˈspəʊ.zə.bəl/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "dùng một lần / nhanh bỏ đi",
-                "family": "dispose (v), disposal (n)",
-                "example_en": "Fast fashion treats clothing as a disposable product.",
-                "example_vi": "Thời trang nhanh coi quần áo như một sản phẩm dễ vứt bỏ."
+                "word": "recycle",
+                "ipa": "/ˌriːˈsaɪ.kəl/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "tái chế",
+                "family": "recycling (n), recycled (adj)",
+                "example_en": "Stores should encourage customers to recycle old jeans and shirts.",
+                "example_vi": "Cửa hàng nên khuyến khích khách hàng tái chế quần jeans và áo cũ."
+              },
+              {
+                "word": "reuse",
+                "ipa": "/ˌriːˈjuːz/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "tái sử dụng",
+                "family": "reusable (adj)",
+                "example_en": "Reusing old clothes is a simple way to cut down on trash.",
+                "example_vi": "Tái sử dụng quần áo cũ là cách đơn giản để cắt giảm rác thải."
+              },
+              {
+                "word": "donate",
+                "ipa": "/dəʊˈneɪt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "quyên góp, hiến tặng",
+                "family": "donation (n)",
+                "example_en": "You can donate wearable clothes to local charities instead of throwing them away.",
+                "example_vi": "Bạn có thể quyên góp quần áo còn mặc được cho tổ chức từ thiện thay vì vứt đi."
+              },
+              {
+                "word": "repair",
+                "ipa": "/rɪˈpeər/",
+                "pos": "v, n",
+                "level": "B1, B2",
+                "vi": "sửa chữa",
+                "family": "repairable (adj)",
+                "example_en": "Learning to repair torn clothes helps extend their lifespan.",
+                "example_vi": "Học cách sửa quần áo bị rách giúp kéo dài vòng đời của chúng."
+              },
+              {
+                "word": "consumer",
+                "ipa": "/kənˈsjuː.mər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "người tiêu dùng",
+                "family": "consume (v), consumption (n)",
+                "example_en": "Consumers have the power to demand greener fashion products.",
+                "example_vi": "Người tiêu dùng có quyền đòi hỏi các sản phẩm thời trang xanh hơn."
+              },
+              {
+                "word": "emission",
+                "ipa": "/iˈmɪʃ.ən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "khí thải, sự phát thải",
+                "family": "emit (v)",
+                "example_en": "Shipping clothes globally creates high carbon emissions.",
+                "example_vi": "Vận chuyển quần áo toàn cầu tạo ra lượng khí thải carbon cao."
               },
               {
                 "word": "sustainable",
@@ -186856,29 +188386,109 @@ const ESSAY_DATA = [
                 "pos": "adj",
                 "level": "B1, B2",
                 "vi": "bền vững",
-                "family": "sustainability (n), sustainably (adv)",
-                "example_en": "Young shoppers are becoming more interested in sustainable fashion.",
-                "example_vi": "Người mua trẻ ngày càng quan tâm hơn đến thời trang bền vững."
+                "family": "sustainability (n)",
+                "example_en": "Sustainable fashion focuses on protecting nature and workers.",
+                "example_vi": "Thời trang bền vững tập trung bảo vệ thiên nhiên và người lao động."
+              },
+              {
+                "word": "awareness",
+                "ipa": "/əˈweə.nəs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhận thức, ý thức",
+                "family": "aware (adj)",
+                "example_en": "Schools should raise awareness about the dangers of fast fashion.",
+                "example_vi": "Nhà trường nên nâng cao nhận thức về tác hại của thời trang nhanh."
+              },
+              {
+                "word": "textile",
+                "ipa": "/ˈtek.staɪl/",
+                "pos": "n, adj",
+                "level": "B2",
+                "vi": "dệt may, vải vóc",
+                "family": "textiles (n)",
+                "example_en": "Millions of tons of textile waste are dumped into landfills every year.",
+                "example_vi": "Hàng triệu tấn rác thải dệt may bị đổ ra bãi chôn lấp mỗi năm."
+              },
+              {
+                "word": "garment",
+                "ipa": "/ˈɡɑː.mənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "trang phục, hàng may mặc",
+                "family": "garments (n)",
+                "example_en": "Producing a single cotton garment requires thousands of liters of water.",
+                "example_vi": "Sản xuất một chiếc áo bông duy nhất đòi hỏi hàng nghìn lít nước."
+              },
+              {
+                "word": "synthetic",
+                "ipa": "/sɪnˈθet.ɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tổng hợp, nhân tạo",
+                "family": "synthetically (adv)",
+                "example_en": "Synthetic fibers like polyester are derived from fossil fuels.",
+                "example_vi": "Sợi tổng hợp như polyester có nguồn gốc từ nhiên liệu hóa thạch."
+              },
+              {
+                "word": "degradation",
+                "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự suy thoái môi trường",
+                "family": "degrade (v)",
+                "example_en": "Mass clothing production accelerates environmental degradation.",
+                "example_vi": "Sản xuất quần áo hàng loạt đẩy nhanh sự suy thoái môi trường."
+              },
+              {
+                "word": "landfill",
+                "ipa": "/ˈlænd.fɪl/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bãi chôn lấp rác",
+                "family": "landfills (n)",
+                "example_en": "Overburdened landfills struggle to handle discarded fast fashion.",
+                "example_vi": "Các bãi rác quá tải chật vật xử lý lượng thời trang nhanh bị bỏ đi."
+              },
+              {
+                "word": "dye",
+                "ipa": "/daɪ/",
+                "pos": "n, v",
+                "level": "B2",
+                "vi": "thuốc nhuộm; nhuộm màu",
+                "family": "dyeing (n)",
+                "example_en": "Toxic dyes contaminate rivers near major textile hubs.",
+                "example_vi": "Thuốc nhuộm độc hại làm ô nhiễm sông ngòi gần các trung tâm dệt may lớn."
+              },
+              {
+                "word": "disposable",
+                "ipa": "/dɪˈspəʊ.zə.bəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dùng một lần / dễ vứt bỏ",
+                "family": "dispose (v), disposal (n)",
+                "example_en": "Fast fashion promotes treating clothing as disposable items.",
+                "example_vi": "Thời trang nhanh thúc đẩy việc coi quần áo là đồ dễ vứt bỏ."
               },
               {
                 "word": "mitigate",
                 "ipa": "/ˈmɪt.ɪ.ɡeɪt/",
                 "pos": "v",
                 "level": "B2",
-                "vi": "giảm nhẹ, làm dịu bớt (tác hại)",
+                "vi": "giảm nhẹ, giảm thiểu (tác hại)",
                 "family": "mitigation (n)",
-                "example_en": "Governments must take steps to mitigate the environmental impact of fashion.",
-                "example_vi": "Chính phủ phải hành động để giảm nhẹ tác động môi trường của ngành thời trang."
+                "example_en": "Urgent policies are required to mitigate the fashion sector's carbon footprint.",
+                "example_vi": "Cần có chính sách khẩn cấp để giảm nhẹ dấu chân carbon của ngành thời trang."
               },
               {
                 "word": "decompose",
                 "ipa": "/ˌdiː.kəmˈpəʊz/",
                 "pos": "v",
                 "level": "B2",
-                "vi": "phân hủy",
+                "vi": "phân hủy sinh học",
                 "family": "decomposition (n)",
-                "example_en": "Polyester clothes do not decompose easily in nature.",
-                "example_vi": "Quần áo polyester không dễ dàng phân hủy trong tự nhiên."
+                "example_en": "Polyester garments take centuries to decompose in soil.",
+                "example_vi": "Trang phục polyester mất hàng thế kỷ để phân hủy trong đất."
               },
               {
                 "word": "overconsumption",
@@ -186886,49 +188496,49 @@ const ESSAY_DATA = [
                 "pos": "n",
                 "level": "B2",
                 "vi": "sự tiêu dùng quá mức",
-                "family": "consume (v), consumer (n)",
-                "example_en": "Frequent sales encourage overconsumption among young people.",
-                "example_vi": "Các đợt giảm giá liên tục khuyến khích sự tiêu dùng quá mức ở giới trẻ."
+                "family": "overconsume (v)",
+                "example_en": "Constant flash sales fuel overconsumption among young adults.",
+                "example_vi": "Các đợt giảm giá chớp nhoáng liên tục thúc đẩy tiêu dùng quá mức ở người trẻ."
               },
               {
-                "word": "recycle",
-                "ipa": "/ˌriːˈsaɪ.kəl/",
-                "pos": "v",
-                "level": "B1",
-                "vi": "tái chế",
-                "family": "recycling (n), recycled (adj)",
-                "example_en": "Brands can recycle old fabrics into new clothing lines.",
-                "example_vi": "Các thương hiệu có thể tái chế vải cũ thành dòng quần áo mới."
+                "word": "microplastic",
+                "ipa": "/ˌmaɪ.krəʊˈplæs.tɪk/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hạt vi nhựa",
+                "family": "microplastics (n)",
+                "example_en": "Washing synthetic clothes releases millions of microplastics into oceans.",
+                "example_vi": "Giặt quần áo sợi tổng hợp thải ra hàng triệu hạt vi nhựa ra đại dương."
               },
               {
-                "word": "donate",
-                "ipa": "/dəʊˈneɪt/",
-                "pos": "v",
-                "level": "B1",
-                "vi": "quyên góp, hiến tặng",
-                "family": "donation (n)",
-                "example_en": "People should donate wearable clothes instead of throwing them away.",
-                "example_vi": "Mọi người nên quyên góp quần áo còn mặc được thay vì vứt đi."
+                "word": "exploitative",
+                "ipa": "/ɪkˈsplɔɪ.tə.tɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính bóc lột",
+                "family": "exploit (v), exploitation (n)",
+                "example_en": "Ultra-low prices often rely on exploitative factory conditions.",
+                "example_vi": "Mức giá siêu rẻ thường dựa trên điều kiện nhà máy mang tính bóc lột."
               },
               {
                 "word": "wardrobe",
                 "ipa": "/ˈwɔː.drəʊb/",
                 "pos": "n",
-                "level": "B1, B2",
+                "level": "B2",
                 "vi": "tủ quần áo",
                 "family": "wardrobes (n)",
-                "example_en": "Building a minimalist wardrobe helps cut down on clothing waste.",
-                "example_vi": "Xây dựng tủ đồ tối giản giúp cắt giảm rác thải quần áo."
+                "example_en": "Building a minimalist wardrobe helps cut unnecessary spending.",
+                "example_vi": "Xây dựng tủ đồ tối giản giúp cắt giảm chi tiêu không cần thiết."
               },
               {
                 "word": "subsidy",
                 "ipa": "/ˈsʌb.sɪ.di/",
                 "pos": "n",
                 "level": "B2",
-                "vi": "khoản trợ cấp",
+                "vi": "trợ cấp, hỗ trợ tài chính",
                 "family": "subsidize (v)",
-                "example_en": "Green subsidies can support small eco-friendly fashion brands.",
-                "example_vi": "Các khoản trợ cấp xanh có thể hỗ trợ các thương hiệu thời trang thân thiện môi trường."
+                "example_en": "Governments can grant green subsidies to sustainable clothing labels.",
+                "example_vi": "Chính phủ có thể cấp trợ cấp xanh cho các thương hiệu thời trang bền vững."
               },
               {
                 "word": "transparency",
@@ -186937,8 +188547,38 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "tính minh bạch",
                 "family": "transparent (adj)",
-                "example_en": "Supply-chain transparency helps consumers choose ethical clothing brands.",
-                "example_vi": "Tính minh bạch chuỗi cung ứng giúp người tiêu dùng chọn thương hiệu có trách nhiệm."
+                "example_en": "Supply-chain transparency helps shoppers verify ethical production.",
+                "example_vi": "Tính minh bạch chuỗi cung ứng giúp người mua kiểm chứng sản xuất có đạo đức."
+              },
+              {
+                "word": "circular",
+                "ipa": "/ˈsɜː.kjə.lər/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tuần hoàn (kinh tế tuần hoàn)",
+                "family": "circularity (n)",
+                "example_en": "A circular fashion model keeps fabrics in use through recycling.",
+                "example_vi": "Mô hình thời trang tuần hoàn giữ vải được tái sử dụng thông qua tái chế."
+              },
+              {
+                "word": "stringent",
+                "ipa": "/ˈstrɪn.dʒənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "nghiêm ngặt, khắt khe",
+                "family": "stringently (adv)",
+                "example_en": "Stringent pollution standards force factories to treat wastewater properly.",
+                "example_vi": "Tiêu chuẩn ô nhiễm nghiêm ngặt buộc nhà máy xử lý nước thải đúng chuẩn."
+              },
+              {
+                "word": "ethical",
+                "ipa": "/ˈeθ.ɪ.kəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có đạo đức, có trách nhiệm",
+                "family": "ethically (adv), ethics (n)",
+                "example_en": "Ethical brands guarantee fair wages and eco-friendly materials.",
+                "example_vi": "Các thương hiệu có đạo đức đảm bảo lương công bằng và vật liệu thân thiện môi trường."
               }
             ],
             "collocations": [
@@ -186946,289 +188586,1185 @@ const ESSAY_DATA = [
                 "phrase": "fast fashion trends",
                 "level": "B1",
                 "vi": "xu hướng thời trang nhanh",
-                "context_usage": "Cụm danh từ trọng tâm mở bài và thân bài",
-                "example_en": "Fast fashion trends have become extremely popular among teenagers.",
-                "example_vi": "Xu hướng thời trang nhanh đã trở nên cực kỳ phổ biến ở thanh thiếu niên."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Fast fashion trends are growing quickly among young people.",
+                "example_vi": "Xu hướng thời trang nhanh đang phát triển nhanh ở giới trẻ."
+              },
+              {
+                "phrase": "clothing waste",
+                "level": "B1",
+                "vi": "rác thải quần áo",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Cheap clothes create a huge amount of clothing waste every year.",
+                "example_vi": "Quần áo giá rẻ tạo ra lượng rác thải quần áo khổng lồ mỗi năm."
+              },
+              {
+                "phrase": "wear out quickly",
+                "level": "B1",
+                "vi": "nhanh hỏng, nhanh cũ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Low-quality shirts wear out quickly after only a few washes.",
+                "example_vi": "Áo kém chất lượng nhanh hỏng chỉ sau vài lần giặt."
+              },
+              {
+                "phrase": "go out of style",
+                "level": "B1",
+                "vi": "trở nên lỗi mốt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Trendy outfits go out of style in just a few weeks.",
+                "example_vi": "Trang phục chạy theo mốt trở nên lỗi thời chỉ sau vài tuần."
+              },
+              {
+                "phrase": "pollute rivers and lakes",
+                "level": "B1",
+                "vi": "gây ô nhiễm sông hồ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Textile factories pollute rivers and lakes with dirty water.",
+                "example_vi": "Các nhà máy dệt may gây ô nhiễm sông hồ bằng nước thải bẩn."
+              },
+              {
+                "phrase": "harmful chemicals",
+                "level": "B1",
+                "vi": "hóa chất độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Factories release harmful chemicals when dyeing bright fabrics.",
+                "example_vi": "Nhà máy thải hóa chất độc hại khi nhuộm các loại vải sặc sỡ."
+              },
+              {
+                "phrase": "carbon emissions",
+                "level": "B1",
+                "vi": "lượng khí thải carbon",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Shipping cheap clothes worldwide produces high carbon emissions.",
+                "example_vi": "Vận chuyển quần áo rẻ toàn cầu tạo ra lượng khí thải carbon cao."
+              },
+              {
+                "phrase": "use huge amounts of water",
+                "level": "B1",
+                "vi": "tiêu thụ lượng nước khổng lồ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Making cotton jeans uses huge amounts of clean water.",
+                "example_vi": "Sản xuất quần jeans cotton tiêu thụ lượng nước sạch khổng lồ."
               },
               {
                 "phrase": "massive textile waste",
                 "level": "B2",
                 "vi": "lượng rác thải dệt may khổng lồ",
-                "context_usage": "Phân tích hậu quả rác thải",
-                "example_en": "Cheap clothing leads to massive textile waste in landfills.",
-                "example_vi": "Quần áo giá rẻ dẫn đến lượng rác thải dệt may khổng lồ tại các bãi rác."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "The fast fashion model generates massive textile waste worldwide.",
+                "example_vi": "Mô hình thời trang nhanh tạo ra lượng rác thải dệt may khổng lồ toàn cầu."
               },
               {
-                "phrase": "wear out quickly",
-                "level": "B1",
-                "vi": "nhanh hỏng, nhanh sờn cũ",
-                "context_usage": "Giải thích chất lượng thấp của đồ thời trang nhanh",
-                "example_en": "Low-cost shirts often wear out quickly after only a few washes.",
-                "example_vi": "Áo giá rẻ thường nhanh hỏng chỉ sau vài lần giặt."
-              },
-              {
-                "phrase": "global carbon emissions",
-                "level": "B1, B2",
-                "vi": "lượng khí thải carbon toàn cầu",
-                "context_usage": "Phân tích tác động lên biến đổi khí hậu",
-                "example_en": "Mass clothing production adds heavily to global carbon emissions.",
-                "example_vi": "Sản xuất quần áo hàng loạt làm tăng mạnh lượng khí thải carbon toàn cầu."
-              },
-              {
-                "phrase": "environmental degradation",
+                "phrase": "overburden landfills",
                 "level": "B2",
-                "vi": "sự suy thoái môi trường",
-                "context_usage": "Cụm từ học thuật bao quát tác hại môi trường",
-                "example_en": "Unchecked industrial growth accelerates environmental degradation.",
-                "example_vi": "Tăng trưởng công nghiệp thiếu kiểm soát đẩy nhanh suy thoái môi trường."
+                "vi": "làm quá tải các bãi chôn lấp",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Discarded synthetic clothes severely overburden landfills.",
+                "example_vi": "Quần áo sợi tổng hợp bị bỏ đi làm quá tải nghiêm trọng các bãi rác."
+              },
+              {
+                "phrase": "leach microplastics",
+                "level": "B2",
+                "vi": "rò rỉ hạt vi nhựa",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Decomposing polyester garments leach microplastics into soil and water.",
+                "example_vi": "Quần áo polyester phân hủy rò rỉ hạt vi nhựa vào đất và nước."
               },
               {
                 "phrase": "toxic dyeing chemicals",
                 "level": "B2",
                 "vi": "hóa chất nhuộm độc hại",
-                "context_usage": "Phân tích nguyên nhân ô nhiễm nguồn nước",
-                "example_en": "Factories sometimes discharge toxic dyeing chemicals into rivers.",
-                "example_vi": "Các nhà máy đôi khi xả hóa chất nhuộm độc hại ra sông ngòi."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Untreated toxic dyeing chemicals devastate aquatic ecosystems.",
+                "example_vi": "Hóa chất nhuộm độc hại chưa xử lý tàn phá hệ sinh thái thủy sinh."
+              },
+              {
+                "phrase": "freshwater depletion",
+                "level": "B2",
+                "vi": "sự cạn kiệt nguồn nước ngọt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Intensive cotton farming contributes to freshwater depletion in dry areas.",
+                "example_vi": "Trồng bông thâm canh góp phần gây cạn kiệt nước ngọt ở vùng khô hạn."
+              },
+              {
+                "phrase": "environmental degradation",
+                "level": "B2",
+                "vi": "sự suy thoái môi trường",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Unchecked fashion growth accelerates global environmental degradation.",
+                "example_vi": "Tăng trưởng thời trang thiếu kiểm soát đẩy nhanh suy thoái môi trường toàn cầu."
+              },
+              {
+                "phrase": "enlarge the carbon footprint",
+                "level": "B2",
+                "vi": "làm phình to dấu chân carbon",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Frequent air freight for new collections enlarges the industry's carbon footprint.",
+                "example_vi": "Vận chuyển hàng không liên tục cho bộ sưu tập mới làm phình to dấu chân carbon của ngành."
+              },
+              {
+                "phrase": "petroleum-based synthetic fibers",
+                "level": "B2",
+                "vi": "sợi tổng hợp gốc dầu mỏ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Producing petroleum-based synthetic fibers relies heavily on fossil fuels.",
+                "example_vi": "Sản xuất sợi tổng hợp gốc dầu mỏ phụ thuộc nặng nề vào nhiên liệu hóa thạch."
+              },
+              {
+                "phrase": "buy too many clothes",
+                "level": "B1",
+                "vi": "mua quá nhiều quần áo",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Online discounts tempt young people to buy too many clothes.",
+                "example_vi": "Giảm giá trực tuyến cám dỗ người trẻ mua quá nhiều quần áo."
+              },
+              {
+                "phrase": "waste money",
+                "level": "B1",
+                "vi": "lãng phí tiền bạc",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Chasing every new fashion trend makes students waste money.",
+                "example_vi": "Chạy theo mọi xu hướng mới khiến sinh viên lãng phí tiền bạc."
+              },
+              {
+                "phrase": "chase new styles",
+                "level": "B1",
+                "vi": "chạy theo kiểu dáng mới",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Many shoppers chase new styles every month on social media.",
+                "example_vi": "Nhiều người mua chạy theo kiểu dáng mới mỗi tháng trên mạng xã hội."
+              },
+              {
+                "phrase": "rarely wear",
+                "level": "B1",
+                "vi": "hiếm khi mặc đến",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Closets are often full of cheap items people rarely wear.",
+                "example_vi": "Tủ đồ thường chật kín món đồ rẻ tiền mà mọi người hiếm khi mặc."
+              },
+              {
+                "phrase": "garment workers",
+                "level": "B1",
+                "vi": "công nhân may mặc",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Many garment workers face tough conditions in clothing factories.",
+                "example_vi": "Nhiều công nhân may mặc đối mặt điều kiện khắc nghiệt ở nhà máy."
+              },
+              {
+                "phrase": "work long hours",
+                "level": "B1",
+                "vi": "làm việc nhiều giờ liền",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Factory staff often work long hours to meet tight orders.",
+                "example_vi": "Công nhân nhà máy thường làm việc nhiều giờ để kịp đơn hàng gấp."
+              },
+              {
+                "phrase": "very low wages",
+                "level": "B1",
+                "vi": "mức lương rất thấp",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Some workers receive very low wages despite hard labor.",
+                "example_vi": "Một số công nhân nhận lương rất thấp dù lao động vất vả."
+              },
+              {
+                "phrase": "unsafe working conditions",
+                "level": "B1",
+                "vi": "điều kiện làm việc không an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Cheap production sometimes leads to unsafe working conditions.",
+                "example_vi": "Sản xuất giá rẻ đôi khi dẫn đến điều kiện làm việc kém an toàn."
               },
               {
                 "phrase": "throwaway culture",
                 "level": "B2",
-                "vi": "văn hóa tiêu dùng nhanh rồi vứt bỏ",
-                "context_usage": "Phân tích thói quen mua sắm lãng phí",
-                "example_en": "Fast fashion promotes a harmful throwaway culture.",
-                "example_vi": "Thời trang nhanh thúc đẩy một văn hóa dùng nhanh rồi vứt bỏ có hại."
+                "vi": "văn hóa dùng nhanh rồi vứt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Fast fashion fosters a wasteful throwaway culture among youth.",
+                "example_vi": "Thời trang nhanh nuôi dưỡng văn hóa dùng nhanh rồi vứt đầy lãng phí ở giới trẻ."
+              },
+              {
+                "phrase": "impulsive spending",
+                "level": "B2",
+                "vi": "chi tiêu bốc đồng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Aggressive online marketing drives impulsive spending on trendy items.",
+                "example_vi": "Tiếp thị trực tuyến dày đặc thúc đẩy chi tiêu bốc đồng cho đồ hợp mốt."
+              },
+              {
+                "phrase": "fleeting micro-trends",
+                "level": "B2",
+                "vi": "những trào lưu vi mô ngắn ngủi",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Social media influencers constantly promote fleeting micro-trends.",
+                "example_vi": "Người có sức ảnh hưởng trên mạng liên tục quảng bá những trào lưu ngắn ngủi."
+              },
+              {
+                "phrase": "drain personal finances",
+                "level": "B2",
+                "vi": "làm cạn kiệt tài chính cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Compulsive clothing purchases can quickly drain personal finances.",
+                "example_vi": "Việc mua quần áo mất kiểm soát có thể nhanh chóng làm cạn kiệt tài chính cá nhân."
               },
               {
                 "phrase": "exploitative labor conditions",
                 "level": "B2",
-                "vi": "điều kiện lao động bóc lột",
-                "context_usage": "Phân tích hệ lụy xã hội với công nhân may mặc",
-                "example_en": "Ultra-low prices often rely on exploitative labor conditions.",
-                "example_vi": "Mức giá siêu rẻ thường dựa trên điều kiện lao động bóc lột."
+                "vi": "điều kiện lao động mang tính bóc lột",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Rock-bottom retail prices often conceal exploitative labor conditions.",
+                "example_vi": "Mức giá bán lẻ rẻ mạt thường che giấu điều kiện lao động bóc lột."
               },
               {
-                "phrase": "mitigate environmental impact",
+                "phrase": "poverty-level wages",
                 "level": "B2",
-                "vi": "giảm nhẹ tác động môi trường",
-                "context_usage": "Câu chủ đề đoạn giải pháp",
-                "example_en": "Both brands and shoppers must act to mitigate environmental impact.",
-                "example_vi": "Cả thương hiệu và người mua phải hành động để giảm nhẹ tác động môi trường."
+                "vi": "mức lương nghèo đói / không đủ sống",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Suppliers in developing nations sometimes pay poverty-level wages.",
+                "example_vi": "Nhà cung cấp ở các nước đang phát triển đôi khi trả mức lương không đủ sống."
               },
               {
-                "phrase": "mindful consumption",
+                "phrase": "cut corners on safety",
                 "level": "B2",
-                "vi": "tiêu dùng có ý thức",
-                "context_usage": "Giải pháp thay đổi hành vi người mua",
-                "example_en": "Mindful consumption means buying fewer, better-made clothes.",
-                "example_vi": "Tiêu dùng có ý thức nghĩa là mua ít hơn và chọn đồ chất lượng hơn."
+                "vi": "cắt xén tiêu chuẩn an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "To maximize profits, some factories cut corners on workplace safety.",
+                "example_vi": "Để tối đa hóa lợi nhuận, một số nhà máy cắt xén tiêu chuẩn an toàn lao động."
               },
               {
-                "phrase": "extend garment lifecycles",
+                "phrase": "unsustainable resource extraction",
                 "level": "B2",
-                "vi": "kéo dài vòng đời trang phục",
-                "context_usage": "Lợi ích của việc sửa chữa và tái sử dụng",
-                "example_en": "Repairing and swapping clothes help extend garment lifecycles.",
-                "example_vi": "Sửa chữa và trao đổi quần áo giúp kéo dài vòng đời trang phục."
+                "vi": "khai thác tài nguyên thiếu bền vững",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Overconsumption drives unsustainable resource extraction across the globe.",
+                "example_vi": "Tiêu dùng quá mức thúc đẩy khai thác tài nguyên thiếu bền vững trên toàn cầu."
+              },
+              {
+                "phrase": "buy fewer clothes",
+                "level": "B1",
+                "vi": "mua ít quần áo hơn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Consumers can help nature simply by choosing to buy fewer clothes.",
+                "example_vi": "Người tiêu dùng có thể giúp thiên nhiên đơn giản bằng cách mua ít quần áo hơn."
+              },
+              {
+                "phrase": "durable, high-quality items",
+                "level": "B1",
+                "vi": "sản phẩm bền và chất lượng cao",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Investing in durable, high-quality items saves money in the long run.",
+                "example_vi": "Đầu tư vào sản phẩm bền chất lượng cao giúp tiết kiệm tiền lâu dài."
+              },
+              {
+                "phrase": "save money in the long run",
+                "level": "B1",
+                "vi": "tiết kiệm tiền về lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Well-made coats cost more at first but save money in the long run.",
+                "example_vi": "Áo khoác làm kỹ tốn hơn lúc đầu nhưng tiết kiệm tiền về lâu dài."
               },
               {
                 "phrase": "second-hand shopping",
                 "level": "B1",
                 "vi": "mua sắm đồ đã qua sử dụng",
-                "context_usage": "Giải pháp thực tế, dễ áp dụng cho giới trẻ",
-                "example_en": "Second-hand shopping is affordable and environmentally friendly.",
-                "example_vi": "Mua sắm đồ cũ vừa hợp túi tiền vừa thân thiện với môi trường."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Second-hand shopping is affordable and reduces clothing waste.",
+                "example_vi": "Mua sắm đồ cũ vừa hợp túi tiền vừa giảm rác thải quần áo."
+              },
+              {
+                "phrase": "donate old clothes",
+                "level": "B1",
+                "vi": "quyên góp quần áo cũ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Families should donate old clothes that are still clean and usable.",
+                "example_vi": "Các gia đình nên quyên góp quần áo cũ vẫn còn sạch và dùng được."
+              },
+              {
+                "phrase": "repair torn garments",
+                "level": "B1",
+                "vi": "sửa chữa quần áo bị rách",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "People can repair torn garments instead of buying new ones immediately.",
+                "example_vi": "Mọi người có thể sửa quần áo rách thay vì mua ngay đồ mới."
+              },
+              {
+                "phrase": "swap clothes with friends",
+                "level": "B1",
+                "vi": "trao đổi quần áo với bạn bè",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Students often swap clothes with friends to refresh their style cheaply.",
+                "example_vi": "Sinh viên thường trao đổi quần áo với bạn để đổi phong cách tiết kiệm."
+              },
+              {
+                "phrase": "extend the life of clothes",
+                "level": "B1",
+                "vi": "kéo dài vòng đời quần áo",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Proper washing and care help extend the life of clothes.",
+                "example_vi": "Giặt giũ và bảo quản đúng cách giúp kéo dài tuổi thọ quần áo."
+              },
+              {
+                "phrase": "mindful consumption",
+                "level": "B2",
+                "vi": "tiêu dùng có ý thức",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Embracing mindful consumption is key to curbing fashion waste.",
+                "example_vi": "Thực hành tiêu dùng có ý thức là chìa khóa kiềm chế rác thải thời trang."
+              },
+              {
+                "phrase": "timeless, high-quality garments",
+                "level": "B2",
+                "vi": "trang phục chất lượng cao không lỗi mốt",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Shoppers should prioritize timeless, high-quality garments over cheap fads.",
+                "example_vi": "Người mua nên ưu tiên trang phục bền đẹp không lỗi mốt hơn trào lưu rẻ tiền."
+              },
+              {
+                "phrase": "minimalist wardrobe",
+                "level": "B2",
+                "vi": "tủ quần áo tối giản",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Curating a minimalist wardrobe reduces clutter and impulsive buying.",
+                "example_vi": "Xây dựng tủ đồ tối giản giúp giảm bừa bộn và mua sắm bốc đồng."
+              },
+              {
+                "phrase": "curb overproduction",
+                "level": "B2",
+                "vi": "kiềm chế tình trạng sản xuất dư thừa",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Lower demand for disposable clothing directly helps curb overproduction.",
+                "example_vi": "Nhu cầu thấp hơn với đồ dễ bỏ trực tiếp giúp kiềm chế sản xuất dư thừa."
+              },
+              {
+                "phrase": "extend garment lifecycles",
+                "level": "B2",
+                "vi": "kéo dài vòng đời trang phục",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Repairing and reselling items significantly extend garment lifecycles.",
+                "example_vi": "Sửa chữa và bán lại đồ cũ kéo dài đáng kể vòng đời trang phục."
+              },
+              {
+                "phrase": "online resale platforms",
+                "level": "B2",
+                "vi": "nền tảng mua bán đồ cũ trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Online resale platforms make circular fashion convenient for youth.",
+                "example_vi": "Các nền tảng mua bán đồ cũ trực tuyến giúp thời trang tuần hoàn tiện lợi cho giới trẻ."
+              },
+              {
+                "phrase": "event-wear rental services",
+                "level": "B2",
+                "vi": "dịch vụ cho thuê trang phục dự tiệc",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Event-wear rental services prevent buying expensive dresses worn only once.",
+                "example_vi": "Dịch vụ thuê đồ dự tiệc tránh việc mua váy đắt tiền chỉ mặc một lần."
+              },
+              {
+                "phrase": "cut waste at its source",
+                "level": "B2",
+                "vi": "cắt giảm rác thải ngay từ gốc",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Conscious purchasing habits cut textile waste at its source.",
+                "example_vi": "Thói quen mua sắm có ý thức cắt giảm rác thải dệt may ngay từ gốc."
               },
               {
                 "phrase": "eco-friendly fabrics",
-                "level": "B1, B2",
+                "level": "B1",
                 "vi": "vải thân thiện với môi trường",
-                "context_usage": "Giải pháp đổi mới nguyên liệu từ nhà sản xuất",
-                "example_en": "Brands should switch to organic cotton and other eco-friendly fabrics.",
-                "example_vi": "Các thương hiệu nên chuyển sang bông hữu cơ và các loại vải thân thiện môi trường khác."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Clothing brands should use eco-friendly fabrics like organic cotton.",
+                "example_vi": "Các hãng quần áo nên dùng vải thân thiện môi trường như bông hữu cơ."
               },
               {
-                "phrase": "in-store take-back schemes",
-                "level": "B2",
-                "vi": "chương trình thu hồi đồ cũ tại cửa hàng",
-                "context_usage": "Ví dụ giải pháp tái chế của hãng thời trang",
-                "example_en": "In-store take-back schemes allow customers to recycle old clothes easily.",
-                "example_vi": "Chương trình thu hồi tại cửa hàng giúp khách hàng dễ dàng tái chế đồ cũ."
+                "phrase": "organic cotton",
+                "level": "B1",
+                "vi": "bông hữu cơ",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Organic cotton requires fewer toxic chemicals than regular cotton.",
+                "example_vi": "Bông hữu cơ cần ít hóa chất độc hại hơn bông thông thường."
               },
               {
-                "phrase": "impose carbon taxes",
-                "level": "B2",
-                "vi": "áp thuế carbon",
-                "context_usage": "Giải pháp chính sách từ chính phủ",
-                "example_en": "Governments can impose carbon taxes on heavily polluting factories.",
-                "example_vi": "Chính phủ có thể áp thuế carbon lên các nhà máy gây ô nhiễm nặng."
+                "phrase": "recycled fibers",
+                "level": "B1",
+                "vi": "sợi vải tái chế",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Many sportswear brands now make jackets from recycled fibers.",
+                "example_vi": "Nhiều hãng đồ thể thao nay làm áo khoác từ sợi tái chế."
+              },
+              {
+                "phrase": "cleaner production methods",
+                "level": "B1",
+                "vi": "phương pháp sản xuất sạch hơn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Factories must invest in cleaner production methods to protect rivers.",
+                "example_vi": "Nhà máy phải đầu tư phương pháp sản xuất sạch hơn để bảo vệ sông ngòi."
+              },
+              {
+                "phrase": "stricter environmental rules",
+                "level": "B1",
+                "vi": "quy định môi trường chặt chẽ hơn",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Governments should pass stricter environmental rules for textile firms.",
+                "example_vi": "Chính phủ nên ban hành quy định môi trường chặt chẽ hơn cho hãng dệt may."
+              },
+              {
+                "phrase": "fine polluting factories",
+                "level": "B1",
+                "vi": "phạt nặng nhà máy gây ô nhiễm",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Authorities need to fine polluting factories that dump dirty water.",
+                "example_vi": "Cơ quan chức năng cần phạt nặng nhà máy xả nước thải bẩn."
+              },
+              {
+                "phrase": "raise public awareness",
+                "level": "B1",
+                "vi": "nâng cao nhận thức cộng đồng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Media campaigns can raise public awareness about sustainable fashion.",
+                "example_vi": "Các chiến dịch truyền thông có thể nâng cao nhận thức về thời trang bền vững."
               },
               {
                 "phrase": "responsible shopping choices",
                 "level": "B1",
                 "vi": "lựa chọn mua sắm có trách nhiệm",
-                "context_usage": "Kết quả của giáo dục và nâng cao nhận thức",
-                "example_en": "Education encourages young people to make responsible shopping choices.",
-                "example_vi": "Giáo dục khuyến khích người trẻ đưa ra những lựa chọn mua sắm có trách nhiệm."
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Education helps young people make more responsible shopping choices.",
+                "example_vi": "Giáo dục giúp người trẻ đưa ra lựa chọn mua sắm có trách nhiệm hơn."
+              },
+              {
+                "phrase": "mitigate environmental impact",
+                "level": "B2",
+                "vi": "giảm nhẹ tác động môi trường",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Coordinated policies are vital to mitigate the environmental impact of fashion.",
+                "example_vi": "Chính sách đồng bộ là thiết yếu để giảm nhẹ tác động môi trường của thời trang."
+              },
+              {
+                "phrase": "waterless dyeing innovations",
+                "level": "B2",
+                "vi": "công nghệ nhuộm không dùng nước",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Adopting waterless dyeing innovations drastically reduces chemical runoff.",
+                "example_vi": "Áp dụng công nghệ nhuộm không dùng nước giảm mạnh dòng thải hóa chất."
+              },
+              {
+                "phrase": "in-store take-back schemes",
+                "level": "B2",
+                "vi": "chương trình thu hồi đồ cũ tại cửa hàng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Major retailers should expand in-store take-back schemes for textile recycling.",
+                "example_vi": "Các hãng bán lẻ lớn nên mở rộng chương trình thu hồi đồ cũ để tái chế vải."
+              },
+              {
+                "phrase": "impose carbon taxes",
+                "level": "B2",
+                "vi": "áp đặt thuế carbon",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Governments can impose carbon taxes on high-emitting clothing producers.",
+                "example_vi": "Chính phủ có thể áp thuế carbon lên nhà sản xuất quần áo phát thải cao."
+              },
+              {
+                "phrase": "supply-chain transparency",
+                "level": "B2",
+                "vi": "tính minh bạch trong chuỗi cung ứng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Laws mandating supply-chain transparency deter labor exploitation.",
+                "example_vi": "Luật yêu cầu minh bạch chuỗi cung ứng ngăn chặn việc bóc lột lao động."
+              },
+              {
+                "phrase": "green subsidies and tax incentives",
+                "level": "B2",
+                "vi": "trợ cấp xanh và ưu đãi thuế",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Green subsidies and tax incentives help sustainable labels stay competitive.",
+                "example_vi": "Trợ cấp xanh và ưu đãi thuế giúp thương hiệu bền vững giữ sức cạnh tranh."
+              },
+              {
+                "phrase": "hidden environmental toll",
+                "level": "B2",
+                "vi": "cái giá môi trường ẩn giấu",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Documentaries reveal the hidden environmental toll behind ultra-cheap shirts.",
+                "example_vi": "Phim tài liệu phơi bày cái giá môi trường ẩn sau những chiếc áo siêu rẻ."
+              },
+              {
+                "phrase": "clear eco-labeling",
+                "level": "B2",
+                "vi": "gắn nhãn sinh thái rõ ràng",
+                "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                "example_en": "Clear eco-labeling empowers consumers to identify truly sustainable brands.",
+                "example_vi": "Gắn nhãn sinh thái rõ ràng giúp người tiêu dùng nhận diện thương hiệu thực sự bền vững."
               }
             ],
             "collocation_groups": [
               {
                 "id": "group_waste_pollution",
-                "name": "Nhóm 1: Rác thải Dệt may & Ô nhiễm Môi trường (Waste & Pollution)",
+                "name": "Nhóm 1: Rác thải Dệt may, Ô nhiễm Nước & Khí thải Carbon (Waste, Water & Carbon)",
                 "icon": "🌍",
                 "badge": "Ảnh hưởng 01–03",
                 "items": [
                   {
-                    "en": "massive textile waste",
-                    "vi": "lượng rác thải dệt may khổng lồ",
-                    "level": "B2",
+                    "en": "fast fashion trends",
+                    "phrase": "fast fashion trends",
+                    "vi": "xu hướng thời trang nhanh",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Fast fashion creates massive textile waste every year.",
-                    "example_vi": "Thời trang nhanh tạo ra lượng rác thải dệt may khổng lồ mỗi năm."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Fast fashion trends are growing quickly among young people.",
+                    "example_vi": "Xu hướng thời trang nhanh đang phát triển nhanh ở giới trẻ."
                   },
                   {
-                    "en": "toxic dyeing chemicals",
-                    "vi": "hóa chất nhuộm độc hại",
-                    "level": "B2",
+                    "en": "clothing waste",
+                    "phrase": "clothing waste",
+                    "vi": "rác thải quần áo",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Toxic dyeing chemicals contaminate rivers near factories.",
-                    "example_vi": "Hóa chất nhuộm độc hại làm ô nhiễm các dòng sông gần nhà máy."
-                  },
-                  {
-                    "en": "global carbon emissions",
-                    "vi": "khí thải carbon toàn cầu",
-                    "level": "B1, B2",
-                    "type": "phrase",
-                    "example_en": "Global shipping of trendy clothes increases carbon emissions.",
-                    "example_vi": "Việc vận chuyển quần áo hợp mốt toàn cầu làm tăng khí thải carbon."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Cheap clothes create a huge amount of clothing waste every year.",
+                    "example_vi": "Quần áo giá rẻ tạo ra lượng rác thải quần áo khổng lồ mỗi năm."
                   },
                   {
                     "en": "wear out quickly",
+                    "phrase": "wear out quickly",
                     "vi": "nhanh hỏng, nhanh cũ",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Cheap garments wear out quickly and end up in landfills.",
-                    "example_vi": "Quần áo giá rẻ nhanh hỏng và kết thúc ở bãi rác."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Low-quality shirts wear out quickly after only a few washes.",
+                    "example_vi": "Áo kém chất lượng nhanh hỏng chỉ sau vài lần giặt."
+                  },
+                  {
+                    "en": "go out of style",
+                    "phrase": "go out of style",
+                    "vi": "trở nên lỗi mốt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Trendy outfits go out of style in just a few weeks.",
+                    "example_vi": "Trang phục chạy theo mốt trở nên lỗi thời chỉ sau vài tuần."
+                  },
+                  {
+                    "en": "pollute rivers and lakes",
+                    "phrase": "pollute rivers and lakes",
+                    "vi": "gây ô nhiễm sông hồ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Textile factories pollute rivers and lakes with dirty water.",
+                    "example_vi": "Các nhà máy dệt may gây ô nhiễm sông hồ bằng nước thải bẩn."
+                  },
+                  {
+                    "en": "harmful chemicals",
+                    "phrase": "harmful chemicals",
+                    "vi": "hóa chất độc hại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Factories release harmful chemicals when dyeing bright fabrics.",
+                    "example_vi": "Nhà máy thải hóa chất độc hại khi nhuộm các loại vải sặc sỡ."
+                  },
+                  {
+                    "en": "carbon emissions",
+                    "phrase": "carbon emissions",
+                    "vi": "lượng khí thải carbon",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Shipping cheap clothes worldwide produces high carbon emissions.",
+                    "example_vi": "Vận chuyển quần áo rẻ toàn cầu tạo ra lượng khí thải carbon cao."
+                  },
+                  {
+                    "en": "use huge amounts of water",
+                    "phrase": "use huge amounts of water",
+                    "vi": "tiêu thụ lượng nước khổng lồ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Making cotton jeans uses huge amounts of clean water.",
+                    "example_vi": "Sản xuất quần jeans cotton tiêu thụ lượng nước sạch khổng lồ."
+                  },
+                  {
+                    "en": "massive textile waste",
+                    "phrase": "massive textile waste",
+                    "vi": "lượng rác thải dệt may khổng lồ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "The fast fashion model generates massive textile waste worldwide.",
+                    "example_vi": "Mô hình thời trang nhanh tạo ra lượng rác thải dệt may khổng lồ toàn cầu."
+                  },
+                  {
+                    "en": "overburden landfills",
+                    "phrase": "overburden landfills",
+                    "vi": "làm quá tải các bãi chôn lấp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Discarded synthetic clothes severely overburden landfills.",
+                    "example_vi": "Quần áo sợi tổng hợp bị bỏ đi làm quá tải nghiêm trọng các bãi rác."
+                  },
+                  {
+                    "en": "leach microplastics",
+                    "phrase": "leach microplastics",
+                    "vi": "rò rỉ hạt vi nhựa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Decomposing polyester garments leach microplastics into soil and water.",
+                    "example_vi": "Quần áo polyester phân hủy rò rỉ hạt vi nhựa vào đất và nước."
+                  },
+                  {
+                    "en": "toxic dyeing chemicals",
+                    "phrase": "toxic dyeing chemicals",
+                    "vi": "hóa chất nhuộm độc hại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Untreated toxic dyeing chemicals devastate aquatic ecosystems.",
+                    "example_vi": "Hóa chất nhuộm độc hại chưa xử lý tàn phá hệ sinh thái thủy sinh."
+                  },
+                  {
+                    "en": "freshwater depletion",
+                    "phrase": "freshwater depletion",
+                    "vi": "sự cạn kiệt nguồn nước ngọt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Intensive cotton farming contributes to freshwater depletion in dry areas.",
+                    "example_vi": "Trồng bông thâm canh góp phần gây cạn kiệt nước ngọt ở vùng khô hạn."
+                  },
+                  {
+                    "en": "environmental degradation",
+                    "phrase": "environmental degradation",
+                    "vi": "sự suy thoái môi trường",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Unchecked fashion growth accelerates global environmental degradation.",
+                    "example_vi": "Tăng trưởng thời trang thiếu kiểm soát đẩy nhanh suy thoái môi trường toàn cầu."
+                  },
+                  {
+                    "en": "enlarge the carbon footprint",
+                    "phrase": "enlarge the carbon footprint",
+                    "vi": "làm phình to dấu chân carbon",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Frequent air freight for new collections enlarges the industry's carbon footprint.",
+                    "example_vi": "Vận chuyển hàng không liên tục cho bộ sưu tập mới làm phình to dấu chân carbon của ngành."
+                  },
+                  {
+                    "en": "petroleum-based synthetic fibers",
+                    "phrase": "petroleum-based synthetic fibers",
+                    "vi": "sợi tổng hợp gốc dầu mỏ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Producing petroleum-based synthetic fibers relies heavily on fossil fuels.",
+                    "example_vi": "Sản xuất sợi tổng hợp gốc dầu mỏ phụ thuộc nặng nề vào nhiên liệu hóa thạch."
                   }
                 ]
               },
               {
-                "id": "group_social_habits",
-                "name": "Nhóm 2: Thói quen Tiêu dùng & Lao động (Overconsumption & Labor)",
+                "id": "group_habits_labor",
+                "name": "Nhóm 2: Thói quen Mua sắm Lãng phí & Điều kiện Lao động (Overconsumption & Labor)",
                 "icon": "🛍️",
                 "badge": "Ảnh hưởng 04–05",
                 "items": [
                   {
-                    "en": "throwaway culture",
-                    "vi": "văn hóa dùng nhanh rồi vứt",
-                    "level": "B2",
+                    "en": "buy too many clothes",
+                    "phrase": "buy too many clothes",
+                    "vi": "mua quá nhiều quần áo",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Social media trends encourage a wasteful throwaway culture.",
-                    "example_vi": "Xu hướng mạng xã hội khuyến khích văn hóa dùng nhanh rồi vứt đầy lãng phí."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Online discounts tempt young people to buy too many clothes.",
+                    "example_vi": "Giảm giá trực tuyến cám dỗ người trẻ mua quá nhiều quần áo."
                   },
                   {
-                    "en": "impulsive spending",
-                    "vi": "chi tiêu bốc đồng",
-                    "level": "B2",
+                    "en": "waste money",
+                    "phrase": "waste money",
+                    "vi": "lãng phí tiền bạc",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Constant discounts push teenagers toward impulsive spending.",
-                    "example_vi": "Giảm giá liên tục đẩy thanh thiếu niên vào việc chi tiêu bốc đồng."
-                  },
-                  {
-                    "en": "exploitative labor conditions",
-                    "vi": "điều kiện lao động bóc lột",
-                    "level": "B2",
-                    "type": "phrase",
-                    "example_en": "Ultra-cheap clothes often hide exploitative labor conditions.",
-                    "example_vi": "Quần áo siêu rẻ thường ẩn chứa điều kiện lao động bóc lột."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Chasing every new fashion trend makes students waste money.",
+                    "example_vi": "Chạy theo mọi xu hướng mới khiến sinh viên lãng phí tiền bạc."
                   },
                   {
                     "en": "chase new styles",
+                    "phrase": "chase new styles",
                     "vi": "chạy theo kiểu dáng mới",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Many young shoppers chase new styles every month.",
-                    "example_vi": "Nhiều người mua trẻ chạy theo kiểu dáng mới mỗi tháng."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Many shoppers chase new styles every month on social media.",
+                    "example_vi": "Nhiều người mua chạy theo kiểu dáng mới mỗi tháng trên mạng xã hội."
+                  },
+                  {
+                    "en": "rarely wear",
+                    "phrase": "rarely wear",
+                    "vi": "hiếm khi mặc đến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Closets are often full of cheap items people rarely wear.",
+                    "example_vi": "Tủ đồ thường chật kín món đồ rẻ tiền mà mọi người hiếm khi mặc."
+                  },
+                  {
+                    "en": "garment workers",
+                    "phrase": "garment workers",
+                    "vi": "công nhân may mặc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Many garment workers face tough conditions in clothing factories.",
+                    "example_vi": "Nhiều công nhân may mặc đối mặt điều kiện khắc nghiệt ở nhà máy."
+                  },
+                  {
+                    "en": "work long hours",
+                    "phrase": "work long hours",
+                    "vi": "làm việc nhiều giờ liền",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Factory staff often work long hours to meet tight orders.",
+                    "example_vi": "Công nhân nhà máy thường làm việc nhiều giờ để kịp đơn hàng gấp."
+                  },
+                  {
+                    "en": "very low wages",
+                    "phrase": "very low wages",
+                    "vi": "mức lương rất thấp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Some workers receive very low wages despite hard labor.",
+                    "example_vi": "Một số công nhân nhận lương rất thấp dù lao động vất vả."
+                  },
+                  {
+                    "en": "unsafe working conditions",
+                    "phrase": "unsafe working conditions",
+                    "vi": "điều kiện làm việc không an toàn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Cheap production sometimes leads to unsafe working conditions.",
+                    "example_vi": "Sản xuất giá rẻ đôi khi dẫn đến điều kiện làm việc kém an toàn."
+                  },
+                  {
+                    "en": "throwaway culture",
+                    "phrase": "throwaway culture",
+                    "vi": "văn hóa dùng nhanh rồi vứt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Fast fashion fosters a wasteful throwaway culture among youth.",
+                    "example_vi": "Thời trang nhanh nuôi dưỡng văn hóa dùng nhanh rồi vứt đầy lãng phí ở giới trẻ."
+                  },
+                  {
+                    "en": "impulsive spending",
+                    "phrase": "impulsive spending",
+                    "vi": "chi tiêu bốc đồng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Aggressive online marketing drives impulsive spending on trendy items.",
+                    "example_vi": "Tiếp thị trực tuyến dày đặc thúc đẩy chi tiêu bốc đồng cho đồ hợp mốt."
+                  },
+                  {
+                    "en": "fleeting micro-trends",
+                    "phrase": "fleeting micro-trends",
+                    "vi": "những trào lưu vi mô ngắn ngủi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Social media influencers constantly promote fleeting micro-trends.",
+                    "example_vi": "Người có sức ảnh hưởng trên mạng liên tục quảng bá những trào lưu ngắn ngủi."
+                  },
+                  {
+                    "en": "drain personal finances",
+                    "phrase": "drain personal finances",
+                    "vi": "làm cạn kiệt tài chính cá nhân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Compulsive clothing purchases can quickly drain personal finances.",
+                    "example_vi": "Việc mua quần áo mất kiểm soát có thể nhanh chóng làm cạn kiệt tài chính cá nhân."
+                  },
+                  {
+                    "en": "exploitative labor conditions",
+                    "phrase": "exploitative labor conditions",
+                    "vi": "điều kiện lao động mang tính bóc lột",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Rock-bottom retail prices often conceal exploitative labor conditions.",
+                    "example_vi": "Mức giá bán lẻ rẻ mạt thường che giấu điều kiện lao động bóc lột."
+                  },
+                  {
+                    "en": "poverty-level wages",
+                    "phrase": "poverty-level wages",
+                    "vi": "mức lương nghèo đói / không đủ sống",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Suppliers in developing nations sometimes pay poverty-level wages.",
+                    "example_vi": "Nhà cung cấp ở các nước đang phát triển đôi khi trả mức lương không đủ sống."
+                  },
+                  {
+                    "en": "cut corners on safety",
+                    "phrase": "cut corners on safety",
+                    "vi": "cắt xén tiêu chuẩn an toàn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "To maximize profits, some factories cut corners on workplace safety.",
+                    "example_vi": "Để tối đa hóa lợi nhuận, một số nhà máy cắt xén tiêu chuẩn an toàn lao động."
+                  },
+                  {
+                    "en": "unsustainable resource extraction",
+                    "phrase": "unsustainable resource extraction",
+                    "vi": "khai thác tài nguyên thiếu bền vững",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Overconsumption drives unsustainable resource extraction across the globe.",
+                    "example_vi": "Tiêu dùng quá mức thúc đẩy khai thác tài nguyên thiếu bền vững trên toàn cầu."
                   }
                 ]
               },
               {
-                "id": "group_consumer_action",
-                "name": "Nhóm 3: Giải pháp từ Người tiêu dùng (Consumer Solutions)",
+                "id": "group_consumer_solutions",
+                "name": "Nhóm 3: Giải pháp từ Người tiêu dùng & Tái sử dụng (Consumer & Circular Actions)",
                 "icon": "♻️",
                 "badge": "Giải pháp 01–02",
                 "items": [
                   {
-                    "en": "mindful consumption",
-                    "vi": "tiêu dùng có ý thức",
-                    "level": "B2",
+                    "en": "buy fewer clothes",
+                    "phrase": "buy fewer clothes",
+                    "vi": "mua ít quần áo hơn",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Practicing mindful consumption helps cut clothing waste.",
-                    "example_vi": "Thực hành tiêu dùng có ý thức giúp cắt giảm rác thải quần áo."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Consumers can help nature simply by choosing to buy fewer clothes.",
+                    "example_vi": "Người tiêu dùng có thể giúp thiên nhiên đơn giản bằng cách mua ít quần áo hơn."
                   },
                   {
                     "en": "durable, high-quality items",
+                    "phrase": "durable, high-quality items",
                     "vi": "sản phẩm bền và chất lượng cao",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Choosing durable, high-quality items saves money long term.",
-                    "example_vi": "Chọn sản phẩm bền và chất lượng cao giúp tiết kiệm tiền về lâu dài."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Investing in durable, high-quality items saves money in the long run.",
+                    "example_vi": "Đầu tư vào sản phẩm bền chất lượng cao giúp tiết kiệm tiền lâu dài."
+                  },
+                  {
+                    "en": "save money in the long run",
+                    "phrase": "save money in the long run",
+                    "vi": "tiết kiệm tiền về lâu dài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Well-made coats cost more at first but save money in the long run.",
+                    "example_vi": "Áo khoác làm kỹ tốn hơn lúc đầu nhưng tiết kiệm tiền về lâu dài."
                   },
                   {
                     "en": "second-hand shopping",
+                    "phrase": "second-hand shopping",
                     "vi": "mua sắm đồ đã qua sử dụng",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Second-hand shopping gives usable clothes a second life.",
-                    "example_vi": "Mua sắm đồ cũ mang lại vòng đời thứ hai cho quần áo còn dùng được."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Second-hand shopping is affordable and reduces clothing waste.",
+                    "example_vi": "Mua sắm đồ cũ vừa hợp túi tiền vừa giảm rác thải quần áo."
+                  },
+                  {
+                    "en": "donate old clothes",
+                    "phrase": "donate old clothes",
+                    "vi": "quyên góp quần áo cũ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Families should donate old clothes that are still clean and usable.",
+                    "example_vi": "Các gia đình nên quyên góp quần áo cũ vẫn còn sạch và dùng được."
+                  },
+                  {
+                    "en": "repair torn garments",
+                    "phrase": "repair torn garments",
+                    "vi": "sửa chữa quần áo bị rách",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "People can repair torn garments instead of buying new ones immediately.",
+                    "example_vi": "Mọi người có thể sửa quần áo rách thay vì mua ngay đồ mới."
+                  },
+                  {
+                    "en": "swap clothes with friends",
+                    "phrase": "swap clothes with friends",
+                    "vi": "trao đổi quần áo với bạn bè",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Students often swap clothes with friends to refresh their style cheaply.",
+                    "example_vi": "Sinh viên thường trao đổi quần áo với bạn để đổi phong cách tiết kiệm."
+                  },
+                  {
+                    "en": "extend the life of clothes",
+                    "phrase": "extend the life of clothes",
+                    "vi": "kéo dài vòng đời quần áo",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Proper washing and care help extend the life of clothes.",
+                    "example_vi": "Giặt giũ và bảo quản đúng cách giúp kéo dài tuổi thọ quần áo."
+                  },
+                  {
+                    "en": "mindful consumption",
+                    "phrase": "mindful consumption",
+                    "vi": "tiêu dùng có ý thức",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Embracing mindful consumption is key to curbing fashion waste.",
+                    "example_vi": "Thực hành tiêu dùng có ý thức là chìa khóa kiềm chế rác thải thời trang."
+                  },
+                  {
+                    "en": "timeless, high-quality garments",
+                    "phrase": "timeless, high-quality garments",
+                    "vi": "trang phục chất lượng cao không lỗi mốt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Shoppers should prioritize timeless, high-quality garments over cheap fads.",
+                    "example_vi": "Người mua nên ưu tiên trang phục bền đẹp không lỗi mốt hơn trào lưu rẻ tiền."
+                  },
+                  {
+                    "en": "minimalist wardrobe",
+                    "phrase": "minimalist wardrobe",
+                    "vi": "tủ quần áo tối giản",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Curating a minimalist wardrobe reduces clutter and impulsive buying.",
+                    "example_vi": "Xây dựng tủ đồ tối giản giúp giảm bừa bộn và mua sắm bốc đồng."
+                  },
+                  {
+                    "en": "curb overproduction",
+                    "phrase": "curb overproduction",
+                    "vi": "kiềm chế tình trạng sản xuất dư thừa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Lower demand for disposable clothing directly helps curb overproduction.",
+                    "example_vi": "Nhu cầu thấp hơn với đồ dễ bỏ trực tiếp giúp kiềm chế sản xuất dư thừa."
                   },
                   {
                     "en": "extend garment lifecycles",
+                    "phrase": "extend garment lifecycles",
                     "vi": "kéo dài vòng đời trang phục",
                     "level": "B2",
                     "type": "phrase",
-                    "example_en": "Repairing clothes is a simple way to extend garment lifecycles.",
-                    "example_vi": "Sửa chữa quần áo là cách đơn giản để kéo dài vòng đời trang phục."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Repairing and reselling items significantly extend garment lifecycles.",
+                    "example_vi": "Sửa chữa và bán lại đồ cũ kéo dài đáng kể vòng đời trang phục."
+                  },
+                  {
+                    "en": "online resale platforms",
+                    "phrase": "online resale platforms",
+                    "vi": "nền tảng mua bán đồ cũ trực tuyến",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Online resale platforms make circular fashion convenient for youth.",
+                    "example_vi": "Các nền tảng mua bán đồ cũ trực tuyến giúp thời trang tuần hoàn tiện lợi cho giới trẻ."
+                  },
+                  {
+                    "en": "event-wear rental services",
+                    "phrase": "event-wear rental services",
+                    "vi": "dịch vụ cho thuê trang phục dự tiệc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Event-wear rental services prevent buying expensive dresses worn only once.",
+                    "example_vi": "Dịch vụ thuê đồ dự tiệc tránh việc mua váy đắt tiền chỉ mặc một lần."
+                  },
+                  {
+                    "en": "cut waste at its source",
+                    "phrase": "cut waste at its source",
+                    "vi": "cắt giảm rác thải ngay từ gốc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Conscious purchasing habits cut textile waste at its source.",
+                    "example_vi": "Thói quen mua sắm có ý thức cắt giảm rác thải dệt may ngay từ gốc."
                   }
                 ]
               },
               {
-                "id": "group_brand_policy",
-                "name": "Nhóm 4: Doanh nghiệp, Chính phủ & Giáo dục (Brands, Policy & Education)",
+                "id": "group_brand_policy_edu",
+                "name": "Nhóm 4: Doanh nghiệp Xanh, Chính sách & Giáo dục (Brands, Policy & Education)",
                 "icon": "🏛️",
                 "badge": "Giải pháp 03–05",
                 "items": [
                   {
                     "en": "eco-friendly fabrics",
-                    "vi": "vải thân thiện môi trường",
-                    "level": "B1, B2",
+                    "phrase": "eco-friendly fabrics",
+                    "vi": "vải thân thiện với môi trường",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Brands should invest in eco-friendly fabrics like organic cotton.",
-                    "example_vi": "Các thương hiệu nên đầu tư vào vải thân thiện môi trường như bông hữu cơ."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Clothing brands should use eco-friendly fabrics like organic cotton.",
+                    "example_vi": "Các hãng quần áo nên dùng vải thân thiện môi trường như bông hữu cơ."
                   },
                   {
-                    "en": "in-store take-back schemes",
-                    "vi": "chương trình thu hồi đồ cũ tại cửa hàng",
-                    "level": "B2",
+                    "en": "organic cotton",
+                    "phrase": "organic cotton",
+                    "vi": "bông hữu cơ",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "In-store take-back schemes promote textile recycling.",
-                    "example_vi": "Chương trình thu hồi tại cửa hàng thúc đẩy việc tái chế dệt may."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Organic cotton requires fewer toxic chemicals than regular cotton.",
+                    "example_vi": "Bông hữu cơ cần ít hóa chất độc hại hơn bông thông thường."
                   },
                   {
-                    "en": "impose carbon taxes",
-                    "vi": "áp thuế carbon",
-                    "level": "B2",
+                    "en": "recycled fibers",
+                    "phrase": "recycled fibers",
+                    "vi": "sợi vải tái chế",
+                    "level": "B1",
                     "type": "phrase",
-                    "example_en": "Governments can impose carbon taxes on polluting garment factories.",
-                    "example_vi": "Chính phủ có thể áp thuế carbon lên các nhà máy may mặc gây ô nhiễm."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Many sportswear brands now make jackets from recycled fibers.",
+                    "example_vi": "Nhiều hãng đồ thể thao nay làm áo khoác từ sợi tái chế."
+                  },
+                  {
+                    "en": "cleaner production methods",
+                    "phrase": "cleaner production methods",
+                    "vi": "phương pháp sản xuất sạch hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Factories must invest in cleaner production methods to protect rivers.",
+                    "example_vi": "Nhà máy phải đầu tư phương pháp sản xuất sạch hơn để bảo vệ sông ngòi."
+                  },
+                  {
+                    "en": "stricter environmental rules",
+                    "phrase": "stricter environmental rules",
+                    "vi": "quy định môi trường chặt chẽ hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Governments should pass stricter environmental rules for textile firms.",
+                    "example_vi": "Chính phủ nên ban hành quy định môi trường chặt chẽ hơn cho hãng dệt may."
+                  },
+                  {
+                    "en": "fine polluting factories",
+                    "phrase": "fine polluting factories",
+                    "vi": "phạt nặng nhà máy gây ô nhiễm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Authorities need to fine polluting factories that dump dirty water.",
+                    "example_vi": "Cơ quan chức năng cần phạt nặng nhà máy xả nước thải bẩn."
+                  },
+                  {
+                    "en": "raise public awareness",
+                    "phrase": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Media campaigns can raise public awareness about sustainable fashion.",
+                    "example_vi": "Các chiến dịch truyền thông có thể nâng cao nhận thức về thời trang bền vững."
                   },
                   {
                     "en": "responsible shopping choices",
+                    "phrase": "responsible shopping choices",
                     "vi": "lựa chọn mua sắm có trách nhiệm",
                     "level": "B1",
                     "type": "phrase",
-                    "example_en": "Awareness campaigns guide youths toward responsible shopping choices.",
-                    "example_vi": "Chiến dịch nâng cao nhận thức hướng giới trẻ tới lựa chọn mua sắm có trách nhiệm."
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Education helps young people make more responsible shopping choices.",
+                    "example_vi": "Giáo dục giúp người trẻ đưa ra lựa chọn mua sắm có trách nhiệm hơn."
+                  },
+                  {
+                    "en": "mitigate environmental impact",
+                    "phrase": "mitigate environmental impact",
+                    "vi": "giảm nhẹ tác động môi trường",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Coordinated policies are vital to mitigate the environmental impact of fashion.",
+                    "example_vi": "Chính sách đồng bộ là thiết yếu để giảm nhẹ tác động môi trường của thời trang."
+                  },
+                  {
+                    "en": "waterless dyeing innovations",
+                    "phrase": "waterless dyeing innovations",
+                    "vi": "công nghệ nhuộm không dùng nước",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Adopting waterless dyeing innovations drastically reduces chemical runoff.",
+                    "example_vi": "Áp dụng công nghệ nhuộm không dùng nước giảm mạnh dòng thải hóa chất."
+                  },
+                  {
+                    "en": "in-store take-back schemes",
+                    "phrase": "in-store take-back schemes",
+                    "vi": "chương trình thu hồi đồ cũ tại cửa hàng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Major retailers should expand in-store take-back schemes for textile recycling.",
+                    "example_vi": "Các hãng bán lẻ lớn nên mở rộng chương trình thu hồi đồ cũ để tái chế vải."
+                  },
+                  {
+                    "en": "impose carbon taxes",
+                    "phrase": "impose carbon taxes",
+                    "vi": "áp đặt thuế carbon",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Governments can impose carbon taxes on high-emitting clothing producers.",
+                    "example_vi": "Chính phủ có thể áp thuế carbon lên nhà sản xuất quần áo phát thải cao."
+                  },
+                  {
+                    "en": "supply-chain transparency",
+                    "phrase": "supply-chain transparency",
+                    "vi": "tính minh bạch trong chuỗi cung ứng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Laws mandating supply-chain transparency deter labor exploitation.",
+                    "example_vi": "Luật yêu cầu minh bạch chuỗi cung ứng ngăn chặn việc bóc lột lao động."
+                  },
+                  {
+                    "en": "green subsidies and tax incentives",
+                    "phrase": "green subsidies and tax incentives",
+                    "vi": "trợ cấp xanh và ưu đãi thuế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Green subsidies and tax incentives help sustainable labels stay competitive.",
+                    "example_vi": "Trợ cấp xanh và ưu đãi thuế giúp thương hiệu bền vững giữ sức cạnh tranh."
+                  },
+                  {
+                    "en": "hidden environmental toll",
+                    "phrase": "hidden environmental toll",
+                    "vi": "cái giá môi trường ẩn giấu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Documentaries reveal the hidden environmental toll behind ultra-cheap shirts.",
+                    "example_vi": "Phim tài liệu phơi bày cái giá môi trường ẩn sau những chiếc áo siêu rẻ."
+                  },
+                  {
+                    "en": "clear eco-labeling",
+                    "phrase": "clear eco-labeling",
+                    "vi": "gắn nhãn sinh thái rõ ràng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp diễn đạt tự nhiên và ghi điểm tiêu chí Từ vựng (Lexical Resource)",
+                    "example_en": "Clear eco-labeling empowers consumers to identify truly sustainable brands.",
+                    "example_vi": "Gắn nhãn sinh thái rõ ràng giúp người tiêu dùng nhận diện thương hiệu thực sự bền vững."
                   }
                 ]
               }
