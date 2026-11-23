@@ -6835,6 +6835,7 @@ function renderStep3VstepEvaluation(data) {
   });
 
   container.innerHTML = `
+    <div id="offline-fallback-report" style="display: ${window.VstepAIGrader ? 'none' : 'flex'}; flex-direction: column; gap: 1.5rem;">
     <!-- HEADER -->
     <div class="evaluation-report-header" style="border-bottom: 2px solid var(--panel-border); padding-bottom: 1rem;">
       <h2 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--accent-primary); margin: 0; display: flex; align-items: center; gap: 0.5rem;">
@@ -7040,6 +7041,8 @@ function renderStep3VstepEvaluation(data) {
       <div style="font-family: inherit; font-size: 0.95rem; line-height: 1.7; color: var(--text-primary); white-space: pre-wrap; font-style: italic;">${text}</div>
     </div>
     
+    </div>
+
     <!-- ACTIONS -->
     <div class="evaluation-actions-row" style="display: flex; gap: 1rem; justify-content: flex-end; flex-wrap: wrap; margin-bottom: 2rem;">
       <button class="btn btn-secondary" style="padding: 0.65rem 1.5rem; border-color: var(--accent-primary); color: var(--accent-primary); font-weight: 700;" onclick="downloadStudentEssay('pdf')">
@@ -7110,10 +7113,14 @@ function renderStep3VstepEvaluation(data) {
       prompt: _p,
       essay: text || '',
       onGraded: function(aiData) {
+        const offlineEl = document.getElementById('offline-fallback-report');
+        if (offlineEl) offlineEl.style.display = 'none';
         updateStudentResultReportCard(aiData);
         if (reportMeta) sendEssayResultToGoogleForm(reportMeta, aiData);
       },
       onError: function() {
+        const offlineEl = document.getElementById('offline-fallback-report');
+        if (offlineEl) offlineEl.style.display = 'flex';
         if (currentEvaluationData && currentEvaluationData._reportMeta) {
           currentEvaluationData._reportMeta.scoreSource = 'system';
           const cardEl = document.getElementById('student-result-report-card');
