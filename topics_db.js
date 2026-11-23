@@ -83307,11 +83307,3007 @@ const ESSAY_DATA = [
       },
       {
         "id": 43,
-        "title_en": "Using social networking sites",
-        "title_vi": "Sử dụng mạng xã hội",
-        "context": "In today’s digital age, social networking sites have become an important part of daily life. People use platforms such as Facebook, Instagram, TikTok, and X to communicate with others, share information, express their opinions, and keep up with current events. While many people believe that social networking sites bring numerous benefits to individuals and society, others argue that they may also cause several problems.",
-        "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of using social networking sites. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "title_en": "Using social media platforms (Social networking sites)",
+        "title_vi": "Sử dụng mạng xã hội (Facebook, Instagram, TikTok)",
+        "tags": [
+          "Advantages",
+          "Disadvantages"
+        ],
+        "context": "In today's digital era, social media platforms such as Facebook, Instagram, and TikTok have become central to modern social life. Billions of people rely on these networks every day to communicate, access information, entertain themselves, and even run businesses, yet concerns about their negative impacts continue to grow.",
+        "context_vi": "Trong kỷ nguyên số ngày nay, các nền tảng mạng xã hội như Facebook, Instagram và TikTok đã trở thành trung tâm của đời sống xã hội hiện đại. Hàng tỷ người sử dụng các mạng lưới này mỗi ngày để giao tiếp, tiếp cận thông tin, giải trí và thậm chí kinh doanh, song những lo ngại về tác động tiêu cực của chúng cũng ngày càng gia tăng.",
+        "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of using social media platforms. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những thuận lợi và bất lợi của việc sử dụng các nền tảng mạng xã hội. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "using social media platforms / social networking sites",
+            "vi": "sử dụng các nền tảng mạng xã hội"
+          },
+          {
+            "en": "instant global connectivity and open knowledge",
+            "vi": "kết nối toàn cầu tức thời và tri thức mở"
+          },
+          {
+            "en": "digital commerce and civic mobilization",
+            "vi": "thương mại số và huy động cộng đồng"
+          },
+          {
+            "en": "screen addiction, mental health risks, and misinformation",
+            "vi": "nghiện màn hình, rủi ro sức khỏe tâm thần và tin giả"
+          },
+          {
+            "en": "mindful digital habits and strong digital literacy",
+            "vi": "thói quen sử dụng số tỉnh táo và hiểu biết số vững vàng"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: KẾT NỐI NHANH CHÓNG VỚI GIA ĐÌNH VÀ BẠN BÈ KHẮP NƠI",
+                "point_vi": "Mạng xã hội giúp mọi người giữ liên lạc dễ dàng với gia đình và bạn bè bất kể khoảng cách địa lý.",
+                "point_en": "Social media helps people stay in touch easily with family and friends regardless of distance.",
+                "point_collocations": [
+                  {
+                    "en": "social media",
+                    "vi": "mạng xã hội"
+                  },
+                  {
+                    "en": "stay in touch",
+                    "vi": "giữ liên lạc"
+                  }
+                ],
+                "evidence_vi": "Nhờ các ứng dụng như Facebook hay Instagram, người dùng có thể gọi video miễn phí, nhắn tin và chia sẻ khoảnh khắc hằng ngày chỉ trong vài giây.",
+                "evidence_en": "Through platforms such as Facebook and Instagram, users can make free video calls, send messages, and share daily moments in seconds.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "free video calls",
+                      "vi": "gọi video miễn phí"
+                    },
+                    {
+                      "en": "daily moments",
+                      "vi": "khoảnh khắc hằng ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "social media",
+                    "vi": "mạng xã hội"
+                  },
+                  {
+                    "en": "stay in touch",
+                    "vi": "giữ liên lạc"
+                  },
+                  {
+                    "en": "free video calls",
+                    "vi": "gọi video miễn phí"
+                  },
+                  {
+                    "en": "daily moments",
+                    "vi": "khoảnh khắc hằng ngày"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: CẬP NHẬT TIN TỨC VÀ HỌC HỎI KIẾN THỨC MỚI NHANH CHÓNG",
+                "point_vi": "Các nền tảng mạng xã hội là nguồn cung cấp tin tức tức thời và tài liệu học tập miễn phí vô cùng phong phú.",
+                "point_en": "Social media platforms provide instant news updates and a wide range of free learning content.",
+                "point_collocations": [
+                  {
+                    "en": "instant news updates",
+                    "vi": "cập nhật tin tức tức thời"
+                  },
+                  {
+                    "en": "free learning content",
+                    "vi": "nội dung học tập miễn phí"
+                  }
+                ],
+                "evidence_vi": "Học sinh và người đi làm có thể xem các video ngắn trên TikTok hoặc tham gia nhóm học tiếng Anh, nấu ăn và kỹ năng nghề nghiệp mỗi ngày.",
+                "evidence_en": "Students and workers can watch short educational videos on TikTok or join online groups to learn English, cooking, and job skills every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "educational videos",
+                      "vi": "video giáo dục"
+                    },
+                    {
+                      "en": "job skills",
+                      "vi": "kỹ năng nghề nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "instant news updates",
+                    "vi": "cập nhật tin tức tức thời"
+                  },
+                  {
+                    "en": "free learning content",
+                    "vi": "nội dung học tập miễn phí"
+                  },
+                  {
+                    "en": "educational videos",
+                    "vi": "video giáo dục"
+                  },
+                  {
+                    "en": "job skills",
+                    "vi": "kỹ năng nghề nghiệp"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: MỞ RỘNG CƠ HỘI KINH DOANH VÀ TIẾP THỊ CHI PHÍ THẤP",
+                "point_vi": "Mạng xã hội tạo ra cơ hội lớn cho các cửa hàng nhỏ quảng bá sản phẩm và tiếp cận khách hàng mới.",
+                "point_en": "Social networking sites offer great opportunities for small businesses to promote products and reach new customers.",
+                "point_collocations": [
+                  {
+                    "en": "small businesses",
+                    "vi": "doanh nghiệp / cửa hàng nhỏ"
+                  },
+                  {
+                    "en": "reach new customers",
+                    "vi": "tiếp cận khách hàng mới"
+                  }
+                ],
+                "evidence_vi": "Nhiều chủ shop và bạn trẻ khởi nghiệp có thể bán hàng trực tuyến hiệu quả mà không cần tốn nhiều tiền thuê mặt bằng truyền thống.",
+                "evidence_en": "Many shop owners and young entrepreneurs can sell goods online effectively without paying high rent for physical stores.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "young entrepreneurs",
+                      "vi": "người trẻ khởi nghiệp"
+                    },
+                    {
+                      "en": "physical stores",
+                      "vi": "cửa hàng truyền thống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "small businesses",
+                    "vi": "doanh nghiệp / cửa hàng nhỏ"
+                  },
+                  {
+                    "en": "reach new customers",
+                    "vi": "tiếp cận khách hàng mới"
+                  },
+                  {
+                    "en": "young entrepreneurs",
+                    "vi": "người trẻ khởi nghiệp"
+                  },
+                  {
+                    "en": "physical stores",
+                    "vi": "cửa hàng truyền thống"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: TẠO KHÔNG GIAN SÁNG TẠO VÀ GIẢI TRÍ ĐA DẠNG",
+                "point_vi": "Các nền tảng số cho phép người dùng thể hiện tài năng cá nhân và thư giãn sau giờ học, làm việc căng thẳng.",
+                "point_en": "Digital platforms allow users to express their creativity and relax after busy study or working hours.",
+                "point_collocations": [
+                  {
+                    "en": "express their creativity",
+                    "vi": "thể hiện sự sáng tạo"
+                  },
+                  {
+                    "en": "working hours",
+                    "vi": "giờ làm việc"
+                  }
+                ],
+                "evidence_vi": "Người dùng có thể chia sẻ âm nhạc, tranh vẽ, video du lịch và kết nối với những cộng đồng có cùng sở thích trên toàn thế giới.",
+                "evidence_en": "Users can share music, artwork, and travel clips while connecting with communities that share the same hobbies worldwide.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "travel clips",
+                      "vi": "video du lịch"
+                    },
+                    {
+                      "en": "same hobbies",
+                      "vi": "cùng sở thích"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "express their creativity",
+                    "vi": "thể hiện sự sáng tạo"
+                  },
+                  {
+                    "en": "working hours",
+                    "vi": "giờ làm việc"
+                  },
+                  {
+                    "en": "travel clips",
+                    "vi": "video du lịch"
+                  },
+                  {
+                    "en": "same hobbies",
+                    "vi": "cùng sở thích"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: LAN TỎA CÁC HOẠT ĐỘNG THIỆN NGUYỆN VÀ NHẬN THỨC XÃ HỘI",
+                "point_vi": "Mạng xã hội giúp nhanh chóng kêu gọi giúp đỡ và nâng cao nhận thức về các vấn đề cộng đồng quan trọng.",
+                "point_en": "Social media helps raise public awareness and organize charity support for important community issues quickly.",
+                "point_collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "charity support",
+                    "vi": "hỗ trợ thiện nguyện"
+                  }
+                ],
+                "evidence_vi": "Khi xảy ra thiên tai hoặc chiến dịch bảo vệ môi trường, các bài đăng lan truyền rộng rãi giúp quyên góp cứu trợ kịp thời cho người gặp khó khăn.",
+                "evidence_en": "During natural disasters or green campaigns, widely shared posts help collect timely donations and aid for people in need.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "natural disasters",
+                      "vi": "thiên tai"
+                    },
+                    {
+                      "en": "timely donations",
+                      "vi": "khoản quyên góp kịp thời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "charity support",
+                    "vi": "hỗ trợ thiện nguyện"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "timely donations",
+                    "vi": "khoản quyên góp kịp thời"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GÂY NGHIỆN, LÃNG PHÍ THỜI GIAN VÀ GIẢM HIỆU SUẤT HỌC TẬP",
+                "point_vi": "Sử dụng mạng xã hội quá nhiều dễ gây nghiện, lãng phí thời gian và làm giảm kết quả học tập, công việc.",
+                "point_en": "Overusing social media easily leads to addiction, wastes valuable time, and harms study or work performance.",
+                "point_collocations": [
+                  {
+                    "en": "overusing social media",
+                    "vi": "sử dụng mạng xã hội quá mức"
+                  },
+                  {
+                    "en": "wastes valuable time",
+                    "vi": "lãng phí thời gian quý giá"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ lướt TikTok hoặc Facebook suốt nhiều giờ liền, dẫn đến trì hoãn bài tập và mất tập trung trong giờ học.",
+                "evidence_en": "Many young people scroll through TikTok or Facebook for hours, leading to delayed homework and poor concentration in class.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "scroll through",
+                      "vi": "lướt xem liên tục"
+                    },
+                    {
+                      "en": "poor concentration",
+                      "vi": "khả năng tập trung kém"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "overusing social media",
+                    "vi": "sử dụng mạng xã hội quá mức"
+                  },
+                  {
+                    "en": "wastes valuable time",
+                    "vi": "lãng phí thời gian quý giá"
+                  },
+                  {
+                    "en": "scroll through",
+                    "vi": "lướt xem liên tục"
+                  },
+                  {
+                    "en": "poor concentration",
+                    "vi": "khả năng tập trung kém"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: ẢNH HƯỞNG XẤU ĐẾN SỨC KHỎE TINH THẦN VÀ GÂY TỰ TI",
+                "point_vi": "Thường xuyên so sánh bản thân với hình ảnh hoàn hảo trên mạng có thể gây lo âu, tự ti và buồn bã.",
+                "point_en": "Constantly comparing oneself to idealized online images can trigger anxiety, insecurity, and low self-esteem.",
+                "point_collocations": [
+                  {
+                    "en": "low self-esteem",
+                    "vi": "lòng tự trọng thấp / tự ti"
+                  },
+                  {
+                    "en": "online images",
+                    "vi": "hình ảnh trên mạng"
+                  }
+                ],
+                "evidence_vi": "Bên cạnh đó, nạn bắt nạt qua mạng và những bình luận ác ý còn gây tổn thương tâm lý nặng nề cho nhiều thanh thiếu niên.",
+                "evidence_en": "In addition, cyberbullying and cruel online comments can cause serious emotional distress for many teenagers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cyberbullying",
+                      "vi": "bắt nạt qua mạng"
+                    },
+                    {
+                      "en": "emotional distress",
+                      "vi": "tổn thương tâm lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "low self-esteem",
+                    "vi": "lòng tự trọng thấp / tự ti"
+                  },
+                  {
+                    "en": "online images",
+                    "vi": "hình ảnh trên mạng"
+                  },
+                  {
+                    "en": "cyberbullying",
+                    "vi": "bắt nạt qua mạng"
+                  },
+                  {
+                    "en": "emotional distress",
+                    "vi": "tổn thương tâm lý"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: LAN TRUYỀN TIN GIẢ VÀ NỘI DUNG ĐỘC HẠI",
+                "point_vi": "Mạng xã hội tạo điều kiện cho tin giả, thông tin sai lệch và nội dung độc hại lan truyền rất nhanh.",
+                "point_en": "Social platforms allow fake news, misleading advice, and harmful content to spread extremely quickly.",
+                "point_collocations": [
+                  {
+                    "en": "fake news",
+                    "vi": "tin giả"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  }
+                ],
+                "evidence_vi": "Người dùng thiếu kỹ năng kiểm chứng có thể tin vào các tin đồn sai sự thật về sức khỏe hoặc bị lừa đảo mất tiền trực tuyến.",
+                "evidence_en": "Users who fail to check sources may believe false health rumors or fall victim to online financial scams.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "false rumors",
+                      "vi": "tin đồn sai sự thật"
+                    },
+                    {
+                      "en": "online scams",
+                      "vi": "lừa đảo trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fake news",
+                    "vi": "tin giả"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  },
+                  {
+                    "en": "false rumors",
+                    "vi": "tin đồn sai sự thật"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: NGUY CƠ RÒ RỈ THÔNG TIN CÁ NHÂN VÀ MẤT QUYỀN RIÊNG TƯ",
+                "point_vi": "Chia sẻ quá nhiều thông tin cá nhân trên mạng xã hội làm tăng nguy cơ mất quyền riêng tư và bị đánh cắp dữ liệu.",
+                "point_en": "Sharing excessive personal details on social media increases privacy risks and the danger of data theft.",
+                "point_collocations": [
+                  {
+                    "en": "privacy risks",
+                    "vi": "rủi ro quyền riêng tư"
+                  },
+                  {
+                    "en": "data theft",
+                    "vi": "đánh cắp dữ liệu"
+                  }
+                ],
+                "evidence_vi": "Kẻ xấu có thể lợi dụng ảnh cá nhân, địa chỉ nhà hoặc lịch trình di chuyển công khai để giả mạo tài khoản hoặc thực hiện hành vi phạm tội.",
+                "evidence_en": "Criminals can misuse public photos, home addresses, or travel updates to create fake accounts or commit fraud.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fake accounts",
+                      "vi": "tài khoản giả mạo"
+                    },
+                    {
+                      "en": "commit fraud",
+                      "vi": "thực hiện hành vi lừa đảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "privacy risks",
+                    "vi": "rủi ro quyền riêng tư"
+                  },
+                  {
+                    "en": "data theft",
+                    "vi": "đánh cắp dữ liệu"
+                  },
+                  {
+                    "en": "fake accounts",
+                    "vi": "tài khoản giả mạo"
+                  },
+                  {
+                    "en": "commit fraud",
+                    "vi": "thực hiện hành vi lừa đảo"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: LÀM GIẢM GIAO TIẾP TRỰC TIẾP VÀ ẢNH HƯỞNG SỨC KHỎE THỂ CHẤT",
+                "point_vi": "Dành quá nhiều thời gian trên mạng xã hội làm giảm giao tiếp trực tiếp ngoài đời và gây hại sức khỏe thể chất.",
+                "point_en": "Spending excessive hours on social networks weakens face-to-face communication and harms physical health.",
+                "point_collocations": [
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "physical health",
+                    "vi": "sức khỏe thể chất"
+                  }
+                ],
+                "evidence_vi": "Nhiều gia đình ít trò chuyện trong bữa ăn vì mải nhìn điện thoại, còn thói quen thức khuya lướt mạng gây thiếu ngủ và mỏi mắt.",
+                "evidence_en": "Many family members barely talk during meals because they stare at phones, while late-night scrolling causes sleep loss and eye strain.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "late-night scrolling",
+                      "vi": "lướt mạng khuya"
+                    },
+                    {
+                      "en": "sleep loss",
+                      "vi": "thiếu ngủ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "physical health",
+                    "vi": "sức khỏe thể chất"
+                  },
+                  {
+                    "en": "late-night scrolling",
+                    "vi": "lướt mạng khuya"
+                  },
+                  {
+                    "en": "sleep loss",
+                    "vi": "thiếu ngủ"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: XÓA NHÒA KHOẢNG CÁCH ĐỊA LÝ VÀ KẾT NỐI TOÀN CẦU (BORDERLESS CONNECTIVITY)",
+                "point_vi": "Các nền tảng mạng xã hội đã cách mạng hóa giao tiếp nhân loại bằng cách duy trì kết nối tức thời vượt qua mọi rào cản địa lý.",
+                "point_en": "Social media platforms have revolutionized human communication by enabling instant connectivity across geographic boundaries.",
+                "point_collocations": [
+                  {
+                    "en": "instant connectivity",
+                    "vi": "kết nối tức thời"
+                  },
+                  {
+                    "en": "geographic boundaries",
+                    "vi": "ranh giới địa lý"
+                  }
+                ],
+                "evidence_vi": "Nhờ Facebook, Instagram hay các ứng dụng nhắn tin tích hợp, du học sinh và người lao động xa quê có thể chia sẻ đời sống hằng ngày với người thân mà hầu như không tốn chi phí. Đồng thời, những người có cùng mối quan tâm chuyên môn hay sở thích đặc thù dễ dàng xây dựng mạng lưới hỗ trợ rộng khắp toàn cầu.",
+                "evidence_en": "Through platforms like Facebook and Instagram, overseas students and migrant workers can maintain close everyday ties with distant relatives at minimal cost. Equally, individuals with niche hobbies or specialized professional interests can cultivate supportive communities spanning the globe.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "overseas students",
+                      "vi": "du học sinh"
+                    },
+                    {
+                      "en": "minimal cost",
+                      "vi": "chi phí tối thiểu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "niche hobbies",
+                      "vi": "sở thích chuyên biệt"
+                    },
+                    {
+                      "en": "supportive communities",
+                      "vi": "cộng đồng hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "instant connectivity",
+                    "vi": "kết nối tức thời"
+                  },
+                  {
+                    "en": "geographic boundaries",
+                    "vi": "ranh giới địa lý"
+                  },
+                  {
+                    "en": "overseas students",
+                    "vi": "du học sinh"
+                  },
+                  {
+                    "en": "minimal cost",
+                    "vi": "chi phí tối thiểu"
+                  },
+                  {
+                    "en": "niche hobbies",
+                    "vi": "sở thích chuyên biệt"
+                  },
+                  {
+                    "en": "supportive communities",
+                    "vi": "cộng đồng hỗ trợ"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: DÂN CHỦ HÓA TRI THỨC VÀ TIẾP CẬN THÔNG TIN TỨC THỜI (DEMOCRATIZED LEARNING AND NEWS)",
+                "point_vi": "Mạng xã hội mở rộng đáng kể khả năng tiếp cận tin tức thời sự và nguồn học liệu đa dạng cho mọi tầng lớp xã hội.",
+                "point_en": "Social networking sites democratize access to breaking news and diverse educational resources for people from all walks of life.",
+                "point_collocations": [
+                  {
+                    "en": "democratize access",
+                    "vi": "phổ cập / dân chủ hóa khả năng tiếp cận"
+                  },
+                  {
+                    "en": "breaking news",
+                    "vi": "tin tức nóng hổi"
+                  }
+                ],
+                "evidence_vi": "Nhiều chuyên gia, giảng viên và nhà sáng tạo nội dung chia sẻ miễn phí bài giảng ngắn, mẹo học ngoại ngữ và kiến thức khoa học dễ tiếp thu trên TikTok hay YouTube. Nhờ nguồn tri thức mở này, ngay cả học sinh vùng xa cũng có thể tự nâng cao kỹ năng và cập nhật xu thế thế giới theo thời gian thực.",
+                "evidence_en": "Educators, industry specialists, and content creators routinely share free micro-lessons, language tutorials, and accessible science explainers on platforms such as TikTok and Instagram. Through this open knowledge ecosystem, even learners in remote areas can continuously upskill and follow global developments in real time.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "micro-lessons",
+                      "vi": "bài học ngắn gọn"
+                    },
+                    {
+                      "en": "content creators",
+                      "vi": "nhà sáng tạo nội dung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "open knowledge ecosystem",
+                      "vi": "hệ sinh thái tri thức mở"
+                    },
+                    {
+                      "en": "real time",
+                      "vi": "thời gian thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "democratize access",
+                    "vi": "phổ cập / dân chủ hóa khả năng tiếp cận"
+                  },
+                  {
+                    "en": "breaking news",
+                    "vi": "tin tức nóng hổi"
+                  },
+                  {
+                    "en": "micro-lessons",
+                    "vi": "bài học ngắn gọn"
+                  },
+                  {
+                    "en": "content creators",
+                    "vi": "nhà sáng tạo nội dung"
+                  },
+                  {
+                    "en": "open knowledge ecosystem",
+                    "vi": "hệ sinh thái tri thức mở"
+                  },
+                  {
+                    "en": "real time",
+                    "vi": "thời gian thực"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: ĐỘNG LỰC TĂNG TRƯỞNG CHO KINH TẾ SỐ VÀ KHỞI NGHIỆP (DIGITAL COMMERCE AND ENTREPRENEURSHIP)",
+                "point_vi": "Mạng xã hội trở thành bệ phóng thương mại chi phí thấp giúp doanh nghiệp nhỏ và cá nhân xây dựng thương hiệu toàn cầu.",
+                "point_en": "Social media serves as a cost-effective commercial catalyst enabling small enterprises and independent creators to reach global markets.",
+                "point_collocations": [
+                  {
+                    "en": "commercial catalyst",
+                    "vi": "chất xúc tác thương mại"
+                  },
+                  {
+                    "en": "global markets",
+                    "vi": "thị trường toàn cầu"
+                  }
+                ],
+                "evidence_vi": "Các công cụ quảng cáo nhắm đúng đối tượng, phát trực tiếp bán hàng và tiếp thị qua người ảnh hưởng giúp doanh nghiệp địa phương cạnh tranh sòng phẳng hơn với tập đoàn lớn. Bên cạnh đó, nền kinh tế sáng tạo trên mạng xã hội còn mở ra nhiều ngành nghề mới năng động cho lao động trẻ.",
+                "evidence_en": "Targeted advertising tools, livestream commerce, and influencer partnerships allow local startups to compete far more effectively with established corporations. Moreover, the booming creator economy has generated flexible new career paths for digitally savvy young professionals.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "livestream commerce",
+                      "vi": "thương mại phát trực tiếp"
+                    },
+                    {
+                      "en": "targeted advertising",
+                      "vi": "quảng cáo nhắm mục tiêu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "creator economy",
+                      "vi": "nền kinh tế sáng tạo nội dung"
+                    },
+                    {
+                      "en": "digitally savvy",
+                      "vi": "am hiểu công nghệ số"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "commercial catalyst",
+                    "vi": "chất xúc tác thương mại"
+                  },
+                  {
+                    "en": "global markets",
+                    "vi": "thị trường toàn cầu"
+                  },
+                  {
+                    "en": "livestream commerce",
+                    "vi": "thương mại phát trực tiếp"
+                  },
+                  {
+                    "en": "targeted advertising",
+                    "vi": "quảng cáo nhắm mục tiêu"
+                  },
+                  {
+                    "en": "creator economy",
+                    "vi": "nền kinh tế sáng tạo nội dung"
+                  },
+                  {
+                    "en": "digitally savvy",
+                    "vi": "am hiểu công nghệ số"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: THÚC ĐẨY HÀNH ĐỘNG CỘNG ĐỒNG VÀ VẬN ĐỘNG XÃ HỘI (CIVIC MOBILIZATION)",
+                "point_vi": "Sức lan tỏa mạnh mẽ của mạng xã hội giúp khuếch đại tiếng nói cộng đồng và huy động nhanh nguồn lực cho các mục tiêu nhân đạo.",
+                "point_en": "The viral reach of social platforms amplifies civic voices and rapidly mobilizes support for humanitarian and environmental causes.",
+                "point_collocations": [
+                  {
+                    "en": "viral reach",
+                    "vi": "sức lan tỏa rộng rãi"
+                  },
+                  {
+                    "en": "humanitarian causes",
+                    "vi": "các mục tiêu nhân đạo"
+                  }
+                ],
+                "evidence_vi": "Trong các đợt thiên tai hay chiến dịch bảo vệ môi trường, mạng xã hội cho phép kết nối trực tiếp tình nguyện viên, cập nhật thông tin cứu trợ minh bạch và lan tỏa thông điệp tích cực đến hàng triệu người. Khả năng huy động tập thể này tạo nên những chuyển biến xã hội thiết thực nhanh hơn hẳn truyền thông truyền thống.",
+                "evidence_en": "During natural disasters or sustainability drives, social networks coordinate volunteers, deliver real-time relief updates, and inspire millions to contribute meaningfully. This swift collective mobilization often achieves tangible community impact far faster than conventional media channels.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sustainability drives",
+                      "vi": "chiến dịch phát triển bền vững"
+                    },
+                    {
+                      "en": "relief updates",
+                      "vi": "cập nhật cứu trợ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collective mobilization",
+                      "vi": "sự huy động tập thể"
+                    },
+                    {
+                      "en": "tangible impact",
+                      "vi": "tác động thiết thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "viral reach",
+                    "vi": "sức lan tỏa rộng rãi"
+                  },
+                  {
+                    "en": "humanitarian causes",
+                    "vi": "các mục tiêu nhân đạo"
+                  },
+                  {
+                    "en": "sustainability drives",
+                    "vi": "chiến dịch phát triển bền vững"
+                  },
+                  {
+                    "en": "relief updates",
+                    "vi": "cập nhật cứu trợ"
+                  },
+                  {
+                    "en": "collective mobilization",
+                    "vi": "sự huy động tập thể"
+                  },
+                  {
+                    "en": "tangible impact",
+                    "vi": "tác động thiết thực"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: KHÔNG GIAN BIỂU ĐẠT SÁNG TẠO VÀ XÂY DỰNG THƯƠNG HIỆU CÁ NHÂN (SELF-EXPRESSION AND NETWORKING)",
+                "point_vi": "Các nền tảng xã hội tạo sân chơi sáng tạo giúp cá nhân giới thiệu năng lực chuyên môn và kết nối cơ hội nghề nghiệp.",
+                "point_en": "Social platforms offer creative arenas for individuals to showcase talents, build personal brands, and unlock career opportunities.",
+                "point_collocations": [
+                  {
+                    "en": "personal brands",
+                    "vi": "thương hiệu cá nhân"
+                  },
+                  {
+                    "en": "unlock opportunities",
+                    "vi": "mở ra cơ hội"
+                  }
+                ],
+                "evidence_vi": "Từ nhiếp ảnh gia, nhà thiết kế trẻ đến lập trình viên đều có thể trưng bày sản phẩm thực tế trực tuyến để thu hút nhà tuyển dụng hoặc khách hàng quốc tế. Khả năng tự giới thiệu năng lực này phá bỏ nhiều rào cản truyền thống và tạo cơ hội công bằng hơn cho nhân tài mới nổi.",
+                "evidence_en": "Young photographers, designers, writers, and developers can display digital portfolios publicly to attract recruiters and international clients directly. This visibility lowers traditional gatekeeping barriers and creates fairer pathways for emerging talent.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "digital portfolios",
+                      "vi": "hồ sơ năng lực số"
+                    },
+                    {
+                      "en": "international clients",
+                      "vi": "khách hàng quốc tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "gatekeeping barriers",
+                      "vi": "rào cản kiểm soát đầu vào"
+                    },
+                    {
+                      "en": "emerging talent",
+                      "vi": "nhân tài mới nổi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal brands",
+                    "vi": "thương hiệu cá nhân"
+                  },
+                  {
+                    "en": "unlock opportunities",
+                    "vi": "mở ra cơ hội"
+                  },
+                  {
+                    "en": "digital portfolios",
+                    "vi": "hồ sơ năng lực số"
+                  },
+                  {
+                    "en": "international clients",
+                    "vi": "khách hàng quốc tế"
+                  },
+                  {
+                    "en": "gatekeeping barriers",
+                    "vi": "rào cản kiểm soát đầu vào"
+                  },
+                  {
+                    "en": "emerging talent",
+                    "vi": "nhân tài mới nổi"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GÂY NGHIỆN THUẬT TOÁN VÀ XÓI MÒN KHẢ NĂNG TẬP TRUNG (ALGORITHMIC ADDICTION)",
+                "point_vi": "Các thuật toán giữ chân người dùng dễ dẫn đến tình trạng nghiện màn hình, phân mảnh sự chú ý và suy giảm hiệu suất.",
+                "point_en": "Engagement-driven algorithms foster compulsive scrolling, fragment attention spans, and erode academic and workplace productivity.",
+                "point_collocations": [
+                  {
+                    "en": "engagement-driven algorithms",
+                    "vi": "thuật toán tối ưu tương tác"
+                  },
+                  {
+                    "en": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng tập trung"
+                  }
+                ],
+                "evidence_vi": "Luồng video ngắn liên tục trên TikTok hay Instagram kích thích phản ứng dopamine tức thì, khiến nhiều người trẻ khó đọc sâu hay hoàn thành nhiệm vụ đòi hỏi tư duy dài hơi. Việc sử dụng kéo dài đến đêm khuya còn gây rối loạn giấc ngủ và mệt mỏi kéo dài vào ngày hôm sau.",
+                "evidence_en": "Endless short-form video feeds on TikTok and Instagram trigger rapid dopamine loops that make deep reading and sustained concentration increasingly difficult. Compulsive late-night browsing further disrupts sleep cycles and leaves users chronically fatigued the next day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "short-form video feeds",
+                      "vi": "luồng video ngắn"
+                    },
+                    {
+                      "en": "dopamine loops",
+                      "vi": "vòng lặp kích thích dopamine"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "disrupt sleep cycles",
+                      "vi": "rối loạn chu kỳ giấc ngủ"
+                    },
+                    {
+                      "en": "chronically fatigued",
+                      "vi": "mệt mỏi kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "engagement-driven algorithms",
+                    "vi": "thuật toán tối ưu tương tác"
+                  },
+                  {
+                    "en": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng tập trung"
+                  },
+                  {
+                    "en": "short-form video feeds",
+                    "vi": "luồng video ngắn"
+                  },
+                  {
+                    "en": "dopamine loops",
+                    "vi": "vòng lặp kích thích dopamine"
+                  },
+                  {
+                    "en": "disrupt sleep cycles",
+                    "vi": "rối loạn chu kỳ giấc ngủ"
+                  },
+                  {
+                    "en": "chronically fatigued",
+                    "vi": "mệt mỏi kéo dài"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: TỔN HẠI SỨC KHỎE TÂM THẦN, SO SÁNH ĐỘC HẠI VÀ BẮT NẠT MẠNG (MENTAL HEALTH TOLL)",
+                "point_vi": "Môi trường mạng xã hội đầy rẫy hình ảnh tô hồng và nạn bắt nạt trực tuyến đang gây tổn hại nghiêm trọng đến sức khỏe tâm thần.",
+                "point_en": "Curated perfection and rampant cyberbullying on social platforms exact a heavy toll on users' psychological well-being.",
+                "point_collocations": [
+                  {
+                    "en": "curated perfection",
+                    "vi": "sự hoàn hảo được tô vẽ"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý"
+                  }
+                ],
+                "evidence_vi": "Việc liên tục tiếp xúc với lối sống hào nhoáng đã qua chỉnh sửa dễ khiến thanh thiếu niên nảy sinh tâm lý so sánh độc hại, lo âu ngoại hình và cảm giác tự ti kéo dài. Tệ hơn nữa, sự ẩn danh trên mạng tiếp tay cho ngôn từ thù ghét và quấy rối trực tuyến gây sang chấn tinh thần sâu sắc.",
+                "evidence_en": "Constant exposure to filtered lifestyles and unrealistic beauty standards fuels toxic social comparison, body dissatisfaction, and persistent anxiety among adolescents. Worse still, online anonymity emboldens hate speech and relentless cyberbullying that can cause severe emotional trauma.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "toxic social comparison",
+                      "vi": "sự so sánh xã hội độc hại"
+                    },
+                    {
+                      "en": "body dissatisfaction",
+                      "vi": "sự bất mãn ngoại hình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "online anonymity",
+                      "vi": "tính ẩn danh trên mạng"
+                    },
+                    {
+                      "en": "emotional trauma",
+                      "vi": "sang chấn cảm xúc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "curated perfection",
+                    "vi": "sự hoàn hảo được tô vẽ"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý"
+                  },
+                  {
+                    "en": "toxic social comparison",
+                    "vi": "sự so sánh xã hội độc hại"
+                  },
+                  {
+                    "en": "body dissatisfaction",
+                    "vi": "sự bất mãn ngoại hình"
+                  },
+                  {
+                    "en": "online anonymity",
+                    "vi": "tính ẩn danh trên mạng"
+                  },
+                  {
+                    "en": "emotional trauma",
+                    "vi": "sang chấn cảm xúc"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: BÙNG PHÁT TIN GIẢ VÀ PHÂN CỰC XÃ HỘI (MISINFORMATION AND POLARIZATION)",
+                "point_vi": "Cơ chế lan truyền nhanh thiếu kiểm duyệt biến mạng xã hội thành mảnh đất màu mỡ cho tin giả và sự phân cực dư luận.",
+                "point_en": "Unchecked viral sharing turns social networks into breeding grounds for misinformation, scams, and ideological polarization.",
+                "point_collocations": [
+                  {
+                    "en": "breeding grounds",
+                    "vi": "mảnh đất màu mỡ (cho điều xấu)"
+                  },
+                  {
+                    "en": "ideological polarization",
+                    "vi": "sự phân cực quan điểm"
+                  }
+                ],
+                "evidence_vi": "Những nội dung giật gân hoặc sai lệch thường lan truyền nhanh hơn tin tức chính thống, gây hoang mang về y tế công cộng và tạo cơ hội cho lừa đảo tài chính tinh vi. Đồng thời, các buồng vang thuật toán chỉ hiển thị quan điểm tương đồng, làm suy yếu khả năng đối thoại cởi mở trong xã hội.",
+                "evidence_en": "Sensational falsehoods routinely spread faster than verified reporting, undermining public health guidance and fueling sophisticated online financial scams. Meanwhile, algorithmic echo chambers trap users inside narrow viewpoints, steadily eroding constructive public dialogue.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "verified reporting",
+                      "vi": "tin tức đã kiểm chứng"
+                    },
+                    {
+                      "en": "financial scams",
+                      "vi": "lừa đảo tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "algorithmic echo chambers",
+                      "vi": "buồng vang thuật toán"
+                    },
+                    {
+                      "en": "constructive dialogue",
+                      "vi": "đối thoại mang tính xây dựng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "breeding grounds",
+                    "vi": "mảnh đất màu mỡ (cho điều xấu)"
+                  },
+                  {
+                    "en": "ideological polarization",
+                    "vi": "sự phân cực quan điểm"
+                  },
+                  {
+                    "en": "verified reporting",
+                    "vi": "tin tức đã kiểm chứng"
+                  },
+                  {
+                    "en": "financial scams",
+                    "vi": "lừa đảo tài chính"
+                  },
+                  {
+                    "en": "algorithmic echo chambers",
+                    "vi": "buồng vang thuật toán"
+                  },
+                  {
+                    "en": "constructive dialogue",
+                    "vi": "đối thoại mang tính xây dựng"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: XÂM PHẠM QUYỀN RIÊNG TƯ VÀ KHAI THÁC DỮ LIỆU CÁ NHÂN (PRIVACY EROSION)",
+                "point_vi": "Việc thu thập dữ liệu quy mô lớn và chia sẻ thiếu thận trọng trên mạng xã hội đe dọa nghiêm trọng quyền riêng tư cá nhân.",
+                "point_en": "Large-scale data harvesting and careless oversharing on social platforms severely compromise personal privacy and digital security.",
+                "point_collocations": [
+                  {
+                    "en": "data harvesting",
+                    "vi": "thu thập dữ liệu hàng loạt"
+                  },
+                  {
+                    "en": "digital security",
+                    "vi": "an ninh kỹ thuật số"
+                  }
+                ],
+                "evidence_vi": "Các tập đoàn công nghệ theo dõi chi tiết hành vi trực tuyến để phục vụ mục đích thương mại, trong khi dữ liệu bị rò rỉ dễ rơi vào tay tội phạm mạng. Thói quen đăng tải lịch trình hay hình ảnh gia đình công khai cũng đặt cá nhân trước nguy cơ đánh cắp danh tính và quấy rối ngoài đời thực.",
+                "evidence_en": "Tech platforms track intimate user behaviors for commercial profiling, while periodic data breaches expose sensitive details to cybercriminals. Habitual oversharing of locations and family photos also leaves users vulnerable to identity theft and real-world harassment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "commercial profiling",
+                      "vi": "lập hồ sơ người dùng thương mại"
+                    },
+                    {
+                      "en": "data breaches",
+                      "vi": "sự cố rò rỉ dữ liệu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "identity theft",
+                      "vi": "đánh cắp danh tính"
+                    },
+                    {
+                      "en": "real-world harassment",
+                      "vi": "quấy rối ngoài đời thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "data harvesting",
+                    "vi": "thu thập dữ liệu hàng loạt"
+                  },
+                  {
+                    "en": "digital security",
+                    "vi": "an ninh kỹ thuật số"
+                  },
+                  {
+                    "en": "commercial profiling",
+                    "vi": "lập hồ sơ người dùng thương mại"
+                  },
+                  {
+                    "en": "data breaches",
+                    "vi": "sự cố rò rỉ dữ liệu"
+                  },
+                  {
+                    "en": "identity theft",
+                    "vi": "đánh cắp danh tính"
+                  },
+                  {
+                    "en": "real-world harassment",
+                    "vi": "quấy rối ngoài đời thực"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: LÀM RẠN NỨT KẾT NỐI ĐỜI THỰC VÀ TĂNG LỐI SỐNG ÍT VẬN ĐỘNG (ERODED REAL-LIFE BONDS)",
+                "point_vi": "Sự lệ thuộc quá mức vào tương tác ảo làm suy giảm chất lượng giao tiếp trực diện và thúc đẩy lối sống thụ động kém lành mạnh.",
+                "point_en": "Excessive reliance on virtual interactions weakens genuine face-to-face relationships and reinforces sedentary lifestyles.",
+                "point_collocations": [
+                  {
+                    "en": "virtual interactions",
+                    "vi": "tương tác ảo"
+                  },
+                  {
+                    "en": "sedentary lifestyles",
+                    "vi": "lối sống ít vận động"
+                  }
+                ],
+                "evidence_vi": "Dù sở hữu hàng nghìn lượt kết nối trực tuyến, nhiều người vẫn trải qua cảm giác cô đơn sâu sắc vì thiếu vắng những cuộc trò chuyện chân thành ngoài đời thực. Bên cạnh đó, hàng giờ ngồi yên nhìn màn hình điện thoại làm giảm vận động thể chất, góp phần gây mỏi mắt và các bệnh chuyển hóa.",
+                "evidence_en": "Despite boasting thousands of online followers, many individuals experience heightened loneliness due to a shortage of authentic in-person conversation. Moreover, prolonged passive screen use replaces outdoor exercise, contributing to eye strain and sedentary health risks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "heightened loneliness",
+                      "vi": "cảm giác cô đơn gia tăng"
+                    },
+                    {
+                      "en": "authentic conversation",
+                      "vi": "cuộc trò chuyện chân thực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "passive screen use",
+                      "vi": "sử dụng màn hình thụ động"
+                    },
+                    {
+                      "en": "sedentary health risks",
+                      "vi": "rủi ro sức khỏe do ít vận động"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "virtual interactions",
+                    "vi": "tương tác ảo"
+                  },
+                  {
+                    "en": "sedentary lifestyles",
+                    "vi": "lối sống ít vận động"
+                  },
+                  {
+                    "en": "heightened loneliness",
+                    "vi": "cảm giác cô đơn gia tăng"
+                  },
+                  {
+                    "en": "authentic conversation",
+                    "vi": "cuộc trò chuyện chân thực"
+                  },
+                  {
+                    "en": "passive screen use",
+                    "vi": "sử dụng màn hình thụ động"
+                  },
+                  {
+                    "en": "sedentary health risks",
+                    "vi": "rủi ro sức khỏe do ít vận động"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "stay in touch easily",
+              "vi": "giữ liên lạc dễ dàng"
+            },
+            {
+              "en": "make free video calls",
+              "vi": "gọi video miễn phí"
+            },
+            {
+              "en": "instant news updates",
+              "vi": "cập nhật tin tức tức thời"
+            },
+            {
+              "en": "free educational videos",
+              "vi": "video giáo dục miễn phí"
+            },
+            {
+              "en": "learn new job skills",
+              "vi": "học kỹ năng nghề nghiệp mới"
+            },
+            {
+              "en": "share daily moments",
+              "vi": "chia sẻ khoảnh khắc hằng ngày"
+            },
+            {
+              "en": "connect with hobby groups",
+              "vi": "kết nối với nhóm cùng sở thích"
+            },
+            {
+              "en": "regardless of distance",
+              "vi": "bất kể khoảng cách địa lý"
+            },
+            {
+              "en": "instant borderless connectivity",
+              "vi": "kết nối tức thời không biên giới"
+            },
+            {
+              "en": "democratize access to knowledge",
+              "vi": "phổ cập quyền tiếp cận tri thức"
+            },
+            {
+              "en": "open knowledge ecosystem",
+              "vi": "hệ sinh thái tri thức mở"
+            },
+            {
+              "en": "free micro-lessons online",
+              "vi": "bài học ngắn miễn phí trực tuyến"
+            },
+            {
+              "en": "cultivate supportive communities",
+              "vi": "xây dựng cộng đồng hỗ trợ"
+            },
+            {
+              "en": "follow global events in real time",
+              "vi": "theo dõi sự kiện toàn cầu theo thời gian thực"
+            },
+            {
+              "en": "maintain ties at minimal cost",
+              "vi": "duy trì gắn kết với chi phí tối thiểu"
+            },
+            {
+              "en": "continuously upskill online",
+              "vi": "nâng cao kỹ năng liên tục trực tuyến"
+            },
+            {
+              "en": "promote products online",
+              "vi": "quảng bá sản phẩm trực tuyến"
+            },
+            {
+              "en": "reach new customers",
+              "vi": "tiếp cận khách hàng mới"
+            },
+            {
+              "en": "young online entrepreneurs",
+              "vi": "người trẻ khởi nghiệp trực tuyến"
+            },
+            {
+              "en": "save store rent costs",
+              "vi": "tiết kiệm tiền thuê mặt bằng"
+            },
+            {
+              "en": "express personal creativity",
+              "vi": "thể hiện sự sáng tạo cá nhân"
+            },
+            {
+              "en": "raise public awareness",
+              "vi": "nâng cao nhận thức cộng đồng"
+            },
+            {
+              "en": "organize charity support",
+              "vi": "tổ chức hỗ trợ thiện nguyện"
+            },
+            {
+              "en": "collect timely donations",
+              "vi": "quyên góp cứu trợ kịp thời"
+            },
+            {
+              "en": "cost-effective commercial catalyst",
+              "vi": "chất xúc tác thương mại tiết kiệm chi phí"
+            },
+            {
+              "en": "targeted digital advertising",
+              "vi": "quảng cáo số nhắm đúng mục tiêu"
+            },
+            {
+              "en": "booming creator economy",
+              "vi": "nền kinh tế sáng tạo nội dung bùng nổ"
+            },
+            {
+              "en": "showcase digital portfolios",
+              "vi": "trưng bày hồ sơ năng lực số"
+            },
+            {
+              "en": "lower gatekeeping barriers",
+              "vi": "hạ thấp rào cản kiểm soát đầu vào"
+            },
+            {
+              "en": "amplify civic voices",
+              "vi": "khuếch đại tiếng nói cộng đồng"
+            },
+            {
+              "en": "swift collective mobilization",
+              "vi": "sự huy động tập thể nhanh chóng"
+            },
+            {
+              "en": "achieve tangible community impact",
+              "vi": "tạo tác động cộng đồng thiết thực"
+            },
+            {
+              "en": "overuse social media",
+              "vi": "lạm dụng mạng xã hội"
+            },
+            {
+              "en": "waste valuable study time",
+              "vi": "lãng phí thời gian học quý giá"
+            },
+            {
+              "en": "scroll endlessly for hours",
+              "vi": "lướt mạng liên tục hàng giờ"
+            },
+            {
+              "en": "poor classroom concentration",
+              "vi": "khả năng tập trung trên lớp kém"
+            },
+            {
+              "en": "trigger anxiety and insecurity",
+              "vi": "gây ra lo âu và tự ti"
+            },
+            {
+              "en": "cruel cyberbullying comments",
+              "vi": "bình luận bắt nạt mạng ác ý"
+            },
+            {
+              "en": "late-night phone scrolling",
+              "vi": "lướt điện thoại khuya"
+            },
+            {
+              "en": "sleep loss and eye strain",
+              "vi": "thiếu ngủ và mỏi mắt"
+            },
+            {
+              "en": "engagement-driven algorithms",
+              "vi": "thuật toán tối ưu giữ chân người dùng"
+            },
+            {
+              "en": "fragment attention spans",
+              "vi": "làm phân mảnh khả năng tập trung"
+            },
+            {
+              "en": "trigger rapid dopamine loops",
+              "vi": "kích hoạt vòng lặp dopamine tức thì"
+            },
+            {
+              "en": "curated online perfection",
+              "vi": "sự hoàn hảo được tô vẽ trên mạng"
+            },
+            {
+              "en": "fuel toxic social comparison",
+              "vi": "thúc đẩy sự so sánh xã hội độc hại"
+            },
+            {
+              "en": "online anonymity and hate speech",
+              "vi": "ẩn danh trực tuyến và ngôn từ thù ghét"
+            },
+            {
+              "en": "inflict severe emotional trauma",
+              "vi": "gây sang chấn tâm lý nghiêm trọng"
+            },
+            {
+              "en": "reinforce sedentary lifestyles",
+              "vi": "củng cố lối sống ít vận động"
+            },
+            {
+              "en": "spread fake news rapidly",
+              "vi": "lan truyền tin giả nhanh chóng"
+            },
+            {
+              "en": "believe false rumors",
+              "vi": "tin vào tin đồn sai sự thật"
+            },
+            {
+              "en": "online financial scams",
+              "vi": "lừa đảo tài chính trực tuyến"
+            },
+            {
+              "en": "serious privacy risks",
+              "vi": "rủi ro nghiêm trọng về quyền riêng tư"
+            },
+            {
+              "en": "danger of data theft",
+              "vi": "nguy cơ bị đánh cắp dữ liệu"
+            },
+            {
+              "en": "create fake accounts",
+              "vi": "tạo tài khoản giả mạo"
+            },
+            {
+              "en": "weaken face-to-face talk",
+              "vi": "làm suy yếu trò chuyện trực tiếp"
+            },
+            {
+              "en": "use social media wisely",
+              "vi": "sử dụng mạng xã hội một cách thông minh"
+            },
+            {
+              "en": "breeding grounds for misinformation",
+              "vi": "mảnh đất màu mỡ cho thông tin sai lệch"
+            },
+            {
+              "en": "algorithmic echo chambers",
+              "vi": "buồng vang thuật toán"
+            },
+            {
+              "en": "erode constructive dialogue",
+              "vi": "xói mòn đối thoại mang tính xây dựng"
+            },
+            {
+              "en": "large-scale data harvesting",
+              "vi": "thu thập dữ liệu quy mô lớn"
+            },
+            {
+              "en": "periodic data breaches",
+              "vi": "các vụ rò rỉ dữ liệu định kỳ"
+            },
+            {
+              "en": "vulnerable to identity theft",
+              "vi": "dễ bị đánh cắp danh tính"
+            },
+            {
+              "en": "heightened real-world loneliness",
+              "vi": "cảm giác cô đơn gia tăng ngoài đời thực"
+            },
+            {
+              "en": "cultivate strong digital literacy",
+              "vi": "rèn luyện năng lực hiểu biết số vững vàng"
+            }
+          ],
+          "sample_b1": "In modern life, social media platforms such as Facebook, Instagram, and TikTok have become central to how people communicate and spend free time. While using social networks brings clear benefits, it also creates several serious drawbacks.\n\nOn the one hand, social media offers remarkable conveniences for individuals and society. First, it helps people <strong>stay in touch easily</strong> with family and friends through <strong>free video calls</strong> and instant messages regardless of distance. Second, platforms deliver <strong>instant news updates</strong> and <strong>free educational videos</strong> that help users learn languages or new job skills. Moreover, social networking sites enable small businesses and <strong>young online entrepreneurs</strong> to <strong>promote products online</strong> without paying high shop rent, and help communities <strong>collect timely donations</strong> during natural disasters.\n\nOn the other hand, overusing social media poses noticeable risks. Many young people <strong>scroll endlessly for hours</strong>, which wastes study time, damages concentration, and leads to <strong>sleep loss and eye strain</strong>. Furthermore, comparing oneself to edited photos can <strong>trigger anxiety and insecurity</strong>, while <strong>cyberbullying</strong> causes deep emotional distress. Equally worrying, social platforms allow <strong>fake news</strong> and <strong>online financial scams</strong> to spread rapidly, and oversharing personal details creates serious <strong>privacy risks</strong>.\n\nIn conclusion, social media brings valuable opportunities for connection, learning, and business, yet it also threatens mental health, privacy, and productivity. Therefore, users should set healthy time limits and verify online information carefully.",
+          "translation_b1": "Trong đời sống hiện đại, các nền tảng mạng xã hội như Facebook, Instagram và TikTok đã trở thành trung tâm trong cách con người giao tiếp và sử dụng thời gian rảnh. Dù việc sử dụng mạng xã hội mang lại những lợi ích rõ rệt, nó cũng tạo ra nhiều bất lợi nghiêm trọng.\n\nMột mặt, mạng xã hội mang đến những tiện ích vượt trội cho cá nhân và xã hội. Thứ nhất, nó giúp mọi người <strong>giữ liên lạc dễ dàng</strong> với gia đình và bạn bè qua các cuộc <strong>gọi video miễn phí</strong> và tin nhắn tức thời bất kể khoảng cách. Thứ hai, các nền tảng cung cấp <strong>cập nhật tin tức tức thời</strong> và <strong>video giáo dục miễn phí</strong> giúp người dùng học ngoại ngữ hoặc kỹ năng nghề nghiệp mới. Hơn nữa, mạng xã hội giúp cửa hàng nhỏ và <strong>người trẻ khởi nghiệp trực tuyến</strong> dễ dàng <strong>quảng bá sản phẩm trực tuyến</strong> mà không tốn tiền thuê mặt bằng cao, đồng thời hỗ trợ cộng đồng <strong>quyên góp cứu trợ kịp thời</strong> khi có thiên tai.\n\nMặt khác, lạm dụng mạng xã hội tiềm ẩn những rủi ro đáng kể. Nhiều bạn trẻ <strong>lướt mạng liên tục hàng giờ</strong>, làm lãng phí thời gian học, giảm tập trung và dẫn đến <strong>thiếu ngủ và mỏi mắt</strong>. Thêm vào đó, so sánh bản thân với những bức ảnh đã chỉnh sửa dễ <strong>gây ra lo âu và tự ti</strong>, trong khi <strong>bắt nạt qua mạng</strong> gây tổn thương tinh thần sâu sắc. Đáng lo ngại không kém, mạng xã hội khiến <strong>tin giả</strong> và <strong>lừa đảo tài chính trực tuyến</strong> lan rộng nhanh chóng, còn việc chia sẻ quá nhiều thông tin cá nhân tạo ra <strong>rủi ro quyền riêng tư</strong> nghiêm trọng.\n\nTóm lại, mạng xã hội mang lại cơ hội quý giá về kết nối, học tập và kinh doanh, nhưng cũng đe dọa sức khỏe tinh thần, quyền riêng tư và hiệu suất làm việc. Vì vậy, người dùng nên đặt giới hạn thời gian lành mạnh và kiểm chứng thông tin trực tuyến cẩn thận.",
+          "sample_b2": "Social media platforms such as Facebook, Instagram, and TikTok have evolved into indispensable hubs of contemporary social, educational, and economic life. Although these digital networks generate substantial advantages, their pervasive influence also brings far-reaching psychological and societal drawbacks.\n\nOn the positive side, social media delivers unmatched connectivity and economic opportunity. Primarily, it enables <strong>instant borderless connectivity</strong>, allowing overseas students and distant families to maintain everyday closeness at minimal cost while helping users <strong>cultivate supportive communities</strong> around shared interests. Equally important, platforms <strong>democratize access to knowledge</strong> through free micro-lessons and real-time news, while serving as a <strong>cost-effective commercial catalyst</strong>: <strong>targeted digital advertising</strong> and the <strong>booming creator economy</strong> empower small startups and emerging talent to reach global audiences. Beyond commerce, viral campaigns enable <strong>swift collective mobilization</strong> during natural disasters and environmental drives.\n\nNevertheless, the disadvantages of social media warrant serious concern. First, <strong>engagement-driven algorithms</strong> encourage compulsive scrolling that <strong>fragments attention spans</strong>, disrupts sleep, and reinforces <strong>sedentary lifestyles</strong>. Second, exposure to <strong>curated online perfection</strong> fuels <strong>toxic social comparison</strong>, while <strong>online anonymity</strong> emboldens hate speech and cyberbullying capable of inflicting severe <strong>emotional trauma</strong>. At a broader societal level, unchecked sharing turns platforms into <strong>breeding grounds for misinformation</strong> and <strong>algorithmic echo chambers</strong> that <strong>erode constructive dialogue</strong>, alongside severe privacy threats from <strong>large-scale data harvesting</strong> and <strong>identity theft</strong>.\n\nIn conclusion, social media simultaneously empowers global connection, learning, and enterprise while posing profound risks to mental well-being, truth, and privacy. Maximizing its benefits requires stronger platform accountability paired with <strong>strong digital literacy</strong> and mindful personal boundaries.",
+          "translation_b2": "Các nền tảng mạng xã hội như Facebook, Instagram và TikTok đã trở thành những trung tâm không thể thiếu của đời sống xã hội, giáo dục và kinh tế đương đại. Dù những mạng lưới kỹ thuật số này mang lại lợi ích to lớn, sức ảnh hưởng sâu rộng của chúng cũng kéo theo nhiều hệ lụy đáng kể về tâm lý và xã hội.\n\nVề mặt tích cực, mạng xã hội đem lại khả năng kết nối và cơ hội kinh tế chưa từng có. Trước hết, nó tạo ra <strong>kết nối tức thời không biên giới</strong>, giúp du học sinh và các gia đình xa nhau duy trì sự gần gũi hằng ngày với chi phí tối thiểu đồng thời giúp người dùng <strong>xây dựng cộng đồng hỗ trợ</strong> quanh những mối quan tâm chung. Quan trọng không kém, các nền tảng giúp <strong>phổ cập quyền tiếp cận tri thức</strong> qua những bài học ngắn miễn phí và tin tức thời gian thực, đồng thời đóng vai trò là <strong>chất xúc tác thương mại tiết kiệm chi phí</strong>: <strong>quảng cáo số nhắm đúng mục tiêu</strong> và <strong>nền kinh tế sáng tạo nội dung bùng nổ</strong> trao quyền cho doanh nghiệp nhỏ và nhân tài mới vươn ra thị trường toàn cầu. Vượt ngoài thương mại, các chiến dịch lan truyền cho phép <strong>huy động tập thể nhanh chóng</strong> trong thiên tai và phong trào môi trường.\n\nTuy nhiên, mặt trái của mạng xã hội đặt ra nhiều mối lo nghiêm trọng. Thứ nhất, các <strong>thuật toán tối ưu giữ chân người dùng</strong> thúc đẩy thói quen lướt màn hình khó cưỡng làm <strong>phân mảnh khả năng tập trung</strong>, rối loạn giấc ngủ và củng cố <strong>lối sống ít vận động</strong>. Thứ hai, việc tiếp xúc với <strong>sự hoàn hảo được tô vẽ trên mạng</strong> châm ngòi cho <strong>sự so sánh xã hội độc hại</strong>, trong khi <strong>tính ẩn danh trực tuyến</strong> tiếp tay cho ngôn từ thù ghét và bắt nạt mạng có thể gây <strong>sang chấn tâm lý</strong> nặng nề. Ở tầm xã hội rộng hơn, chia sẻ thiếu kiểm chứng biến nền tảng thành <strong>mảnh đất màu mỡ cho thông tin sai lệch</strong> và các <strong>buồng vang thuật toán</strong> làm <strong>xói mòn đối thoại mang tính xây dựng</strong>, bên cạnh mối đe dọa quyền riêng tư từ <strong>thu thập dữ liệu quy mô lớn</strong> và <strong>đánh cắp danh tính</strong>.\n\nTóm lại, mạng xã hội vừa thúc đẩy kết nối toàn cầu, học tập và khởi nghiệp vừa đặt ra rủi ro sâu sắc đối với sức khỏe tâm thần, sự thật và quyền riêng tư. Tối đa hóa lợi ích của nó đòi hỏi trách nhiệm chặt chẽ hơn từ nền tảng kết hợp với <strong>năng lực hiểu biết số vững vàng</strong> và giới hạn sử dụng tỉnh táo của mỗi cá nhân.",
+          "vocab_step": {
+            "theme": "Social Media Platforms",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "platform",
+                "ipa": "/ˈplætfɔːm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nền tảng (mạng xã hội)",
+                "family": "",
+                "example_en": "Social media platforms like Facebook and TikTok shape daily life.",
+                "example_vi": ""
+              },
+              {
+                "word": "network",
+                "ipa": "/ˈnetwɜːk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "mạng lưới, mạng xã hội",
+                "family": "",
+                "example_en": "Social networks help distant relatives stay closely connected.",
+                "example_vi": ""
+              },
+              {
+                "word": "instant",
+                "ipa": "/ˈɪnstənt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "tức thời, ngay lập tức",
+                "family": "",
+                "example_en": "Apps provide instant messaging and breaking news updates.",
+                "example_vi": ""
+              },
+              {
+                "word": "promote",
+                "ipa": "/prəˈməʊt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "quảng bá, thúc đẩy",
+                "family": "",
+                "example_en": "Small shops use Instagram to promote handmade products.",
+                "example_vi": ""
+              },
+              {
+                "word": "entrepreneur",
+                "ipa": "/ˌɒntrəprəˈnɜːr/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "doanh nhân, người khởi nghiệp",
+                "family": "",
+                "example_en": "Young entrepreneurs rely on social channels to reach buyers.",
+                "example_vi": ""
+              },
+              {
+                "word": "charity",
+                "ipa": "/ˈtʃærəti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "từ thiện, thiện nguyện",
+                "family": "",
+                "example_en": "Viral posts quickly raise charity funds after storms.",
+                "example_vi": ""
+              },
+              {
+                "word": "addiction",
+                "ipa": "/əˈdɪkʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự nghiện",
+                "family": "",
+                "example_en": "Screen addiction reduces students' focus and sleep quality.",
+                "example_vi": ""
+              },
+              {
+                "word": "scroll",
+                "ipa": "/skrəʊl/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "lướt (màn hình / bảng tin)",
+                "family": "",
+                "example_en": "Many teenagers scroll through short videos for hours.",
+                "example_vi": ""
+              },
+              {
+                "word": "cyberbullying",
+                "ipa": "/ˈsaɪbəbʊliɪŋ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bắt nạt qua mạng",
+                "family": "",
+                "example_en": "Cyberbullying causes serious emotional pain for young users.",
+                "example_vi": ""
+              },
+              {
+                "word": "insecurity",
+                "ipa": "/ˌɪnsɪˈkjʊərəti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự tự ti, bất an",
+                "family": "",
+                "example_en": "Edited photos often trigger body insecurity among teens.",
+                "example_vi": ""
+              },
+              {
+                "word": "rumor",
+                "ipa": "/ˈruːmər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tin đồn",
+                "family": "",
+                "example_en": "False health rumors spread dangerously fast online.",
+                "example_vi": ""
+              },
+              {
+                "word": "scam",
+                "ipa": "/skæm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "vụ lừa đảo",
+                "family": "",
+                "example_en": "Uninformed users may fall victim to online scams.",
+                "example_vi": ""
+              },
+              {
+                "word": "privacy",
+                "ipa": "/ˈprɪvəsi/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "quyền riêng tư",
+                "family": "",
+                "example_en": "Oversharing personal details puts digital privacy at risk.",
+                "example_vi": ""
+              },
+              {
+                "word": "fraud",
+                "ipa": "/frɔːd/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "gian lận, lừa đảo",
+                "family": "",
+                "example_en": "Stolen photos can be used to commit online fraud.",
+                "example_vi": ""
+              },
+              {
+                "word": "donation",
+                "ipa": "/dəʊˈneɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "khoản quyên góp",
+                "family": "",
+                "example_en": "Social campaigns collect timely donations for disaster relief.",
+                "example_vi": ""
+              },
+              {
+                "word": "distress",
+                "ipa": "/dɪˈstres/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nỗi đau khổ, căng thẳng tinh thần",
+                "family": "",
+                "example_en": "Harsh online comments inflict heavy emotional distress.",
+                "example_vi": ""
+              },
+              {
+                "word": "concentration",
+                "ipa": "/ˌkɒnsnˈtreɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự tập trung",
+                "family": "",
+                "example_en": "Frequent phone notifications damage study concentration.",
+                "example_vi": ""
+              },
+              {
+                "word": "update",
+                "ipa": "/ˈʌpdeɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tin cập nhật",
+                "family": "",
+                "example_en": "People check social feeds for real-time news updates.",
+                "example_vi": ""
+              },
+              {
+                "word": "algorithm",
+                "ipa": "/ˈælɡərɪðəm/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thuật toán",
+                "family": "",
+                "example_en": "Engagement-driven algorithms encourage compulsive scrolling.",
+                "example_vi": ""
+              },
+              {
+                "word": "democratize",
+                "ipa": "/dɪˈmɒkrətaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "phổ cập, dân chủ hóa",
+                "family": "",
+                "example_en": "Social channels democratize access to free learning tools.",
+                "example_vi": ""
+              },
+              {
+                "word": "misinformation",
+                "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thông tin sai lệch",
+                "family": "",
+                "example_en": "Unchecked sharing accelerates harmful misinformation.",
+                "example_vi": ""
+              },
+              {
+                "word": "polarization",
+                "ipa": "/ˌpəʊləraɪˈzeɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự phân cực",
+                "family": "",
+                "example_en": "Echo chambers deepen social and ideological polarization.",
+                "example_vi": ""
+              },
+              {
+                "word": "anonymity",
+                "ipa": "/ˌænəˈnɪməti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tính ẩn danh",
+                "family": "",
+                "example_en": "Online anonymity emboldens toxic speech and harassment.",
+                "example_vi": ""
+              },
+              {
+                "word": "compulsive",
+                "ipa": "/kəmˈpʌlsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "khó cưỡng lại, mang tính cưỡng chế",
+                "family": "",
+                "example_en": "Compulsive browsing disrupts healthy sleep cycles.",
+                "example_vi": ""
+              },
+              {
+                "word": "fragment",
+                "ipa": "/fræɡˈment/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm phân mảnh",
+                "family": "",
+                "example_en": "Rapid short videos gradually fragment attention spans.",
+                "example_vi": ""
+              },
+              {
+                "word": "mobilize",
+                "ipa": "/ˈməʊbəlaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "huy động",
+                "family": "",
+                "example_en": "Viral campaigns rapidly mobilize volunteers during crises.",
+                "example_vi": ""
+              },
+              {
+                "word": "breach",
+                "ipa": "/briːtʃ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cố rò rỉ / vi phạm dữ liệu",
+                "family": "",
+                "example_en": "Data breaches expose sensitive profiles to cybercriminals.",
+                "example_vi": ""
+              },
+              {
+                "word": "oversharing",
+                "ipa": "/ˌəʊvəˈʃeərɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "việc chia sẻ thông tin cá nhân quá mức",
+                "family": "",
+                "example_en": "Habitual oversharing increases identity theft risks.",
+                "example_vi": ""
+              },
+              {
+                "word": "curated",
+                "ipa": "/kjʊəˈreɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "được chọn lọc / tô vẽ kỹ lưỡng",
+                "family": "",
+                "example_en": "Curated perfection online rarely reflects everyday reality.",
+                "example_vi": ""
+              },
+              {
+                "word": "sedentary",
+                "ipa": "/ˈsedntri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ít vận động",
+                "family": "",
+                "example_en": "Excessive social media use reinforces sedentary habits.",
+                "example_vi": ""
+              },
+              {
+                "word": "viral",
+                "ipa": "/ˈvaɪrəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "lan truyền nhanh chóng",
+                "family": "",
+                "example_en": "Viral charity posts reach millions within hours.",
+                "example_vi": ""
+              },
+              {
+                "word": "trauma",
+                "ipa": "/ˈtrɔːmə/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sang chấn tâm lý",
+                "family": "",
+                "example_en": "Relentless cyberbullying can leave deep emotional trauma.",
+                "example_vi": ""
+              },
+              {
+                "word": "portfolio",
+                "ipa": "/pɔːtˈfəʊliəʊ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hồ sơ năng lực / tác phẩm",
+                "family": "",
+                "example_en": "Young artists display digital portfolios to win clients.",
+                "example_vi": ""
+              },
+              {
+                "word": "sensational",
+                "ipa": "/senˈseɪʃənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giật gân",
+                "family": "",
+                "example_en": "Sensational falsehoods spread faster than verified news.",
+                "example_vi": ""
+              },
+              {
+                "word": "embolden",
+                "ipa": "/ɪmˈbəʊldən/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tiếp tay, khiến ai đó táo tợn hơn",
+                "family": "",
+                "example_en": "Fake profiles embolden trolls to post hateful remarks.",
+                "example_vi": ""
+              },
+              {
+                "word": "gatekeeping",
+                "ipa": "/ˈɡeɪtkiːpɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự kiểm soát đầu vào truyền thống",
+                "family": "",
+                "example_en": "Open platforms lower traditional career gatekeeping barriers.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "stay in touch easily",
+                "level": "B1",
+                "vi": "giữ liên lạc dễ dàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "make free video calls",
+                "level": "B1",
+                "vi": "gọi video miễn phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "instant news updates",
+                "level": "B1",
+                "vi": "cập nhật tin tức tức thời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "free educational videos",
+                "level": "B1",
+                "vi": "video giáo dục miễn phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "learn new job skills",
+                "level": "B1",
+                "vi": "học kỹ năng nghề nghiệp mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "share daily moments",
+                "level": "B1",
+                "vi": "chia sẻ khoảnh khắc hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "connect with hobby groups",
+                "level": "B1",
+                "vi": "kết nối với nhóm cùng sở thích",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "regardless of distance",
+                "level": "B1",
+                "vi": "bất kể khoảng cách địa lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "instant borderless connectivity",
+                "level": "B2",
+                "vi": "kết nối tức thời không biên giới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "democratize access to knowledge",
+                "level": "B2",
+                "vi": "phổ cập quyền tiếp cận tri thức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "open knowledge ecosystem",
+                "level": "B2",
+                "vi": "hệ sinh thái tri thức mở",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "free micro-lessons online",
+                "level": "B2",
+                "vi": "bài học ngắn miễn phí trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cultivate supportive communities",
+                "level": "B2",
+                "vi": "xây dựng cộng đồng hỗ trợ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "follow global events in real time",
+                "level": "B2",
+                "vi": "theo dõi sự kiện toàn cầu theo thời gian thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "maintain ties at minimal cost",
+                "level": "B2",
+                "vi": "duy trì gắn kết với chi phí tối thiểu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "continuously upskill online",
+                "level": "B2",
+                "vi": "nâng cao kỹ năng liên tục trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "promote products online",
+                "level": "B1",
+                "vi": "quảng bá sản phẩm trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reach new customers",
+                "level": "B1",
+                "vi": "tiếp cận khách hàng mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "young online entrepreneurs",
+                "level": "B1",
+                "vi": "người trẻ khởi nghiệp trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "save store rent costs",
+                "level": "B1",
+                "vi": "tiết kiệm tiền thuê mặt bằng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "express personal creativity",
+                "level": "B1",
+                "vi": "thể hiện sự sáng tạo cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "raise public awareness",
+                "level": "B1",
+                "vi": "nâng cao nhận thức cộng đồng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "organize charity support",
+                "level": "B1",
+                "vi": "tổ chức hỗ trợ thiện nguyện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "collect timely donations",
+                "level": "B1",
+                "vi": "quyên góp cứu trợ kịp thời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cost-effective commercial catalyst",
+                "level": "B2",
+                "vi": "chất xúc tác thương mại tiết kiệm chi phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "targeted digital advertising",
+                "level": "B2",
+                "vi": "quảng cáo số nhắm đúng mục tiêu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "booming creator economy",
+                "level": "B2",
+                "vi": "nền kinh tế sáng tạo nội dung bùng nổ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "showcase digital portfolios",
+                "level": "B2",
+                "vi": "trưng bày hồ sơ năng lực số",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lower gatekeeping barriers",
+                "level": "B2",
+                "vi": "hạ thấp rào cản kiểm soát đầu vào",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "amplify civic voices",
+                "level": "B2",
+                "vi": "khuếch đại tiếng nói cộng đồng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "swift collective mobilization",
+                "level": "B2",
+                "vi": "sự huy động tập thể nhanh chóng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "achieve tangible community impact",
+                "level": "B2",
+                "vi": "tạo tác động cộng đồng thiết thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "overuse social media",
+                "level": "B1",
+                "vi": "lạm dụng mạng xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "waste valuable study time",
+                "level": "B1",
+                "vi": "lãng phí thời gian học quý giá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "scroll endlessly for hours",
+                "level": "B1",
+                "vi": "lướt mạng liên tục hàng giờ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "poor classroom concentration",
+                "level": "B1",
+                "vi": "khả năng tập trung trên lớp kém",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "trigger anxiety and insecurity",
+                "level": "B1",
+                "vi": "gây ra lo âu và tự ti",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cruel cyberbullying comments",
+                "level": "B1",
+                "vi": "bình luận bắt nạt mạng ác ý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "late-night phone scrolling",
+                "level": "B1",
+                "vi": "lướt điện thoại khuya",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sleep loss and eye strain",
+                "level": "B1",
+                "vi": "thiếu ngủ và mỏi mắt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "engagement-driven algorithms",
+                "level": "B2",
+                "vi": "thuật toán tối ưu giữ chân người dùng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fragment attention spans",
+                "level": "B2",
+                "vi": "làm phân mảnh khả năng tập trung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "trigger rapid dopamine loops",
+                "level": "B2",
+                "vi": "kích hoạt vòng lặp dopamine tức thì",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "curated online perfection",
+                "level": "B2",
+                "vi": "sự hoàn hảo được tô vẽ trên mạng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fuel toxic social comparison",
+                "level": "B2",
+                "vi": "thúc đẩy sự so sánh xã hội độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "online anonymity and hate speech",
+                "level": "B2",
+                "vi": "ẩn danh trực tuyến và ngôn từ thù ghét",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "inflict severe emotional trauma",
+                "level": "B2",
+                "vi": "gây sang chấn tâm lý nghiêm trọng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reinforce sedentary lifestyles",
+                "level": "B2",
+                "vi": "củng cố lối sống ít vận động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "spread fake news rapidly",
+                "level": "B1",
+                "vi": "lan truyền tin giả nhanh chóng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "believe false rumors",
+                "level": "B1",
+                "vi": "tin vào tin đồn sai sự thật",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "online financial scams",
+                "level": "B1",
+                "vi": "lừa đảo tài chính trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "serious privacy risks",
+                "level": "B1",
+                "vi": "rủi ro nghiêm trọng về quyền riêng tư",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "danger of data theft",
+                "level": "B1",
+                "vi": "nguy cơ bị đánh cắp dữ liệu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "create fake accounts",
+                "level": "B1",
+                "vi": "tạo tài khoản giả mạo",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "weaken face-to-face talk",
+                "level": "B1",
+                "vi": "làm suy yếu trò chuyện trực tiếp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "use social media wisely",
+                "level": "B1",
+                "vi": "sử dụng mạng xã hội một cách thông minh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "breeding grounds for misinformation",
+                "level": "B2",
+                "vi": "mảnh đất màu mỡ cho thông tin sai lệch",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "algorithmic echo chambers",
+                "level": "B2",
+                "vi": "buồng vang thuật toán",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "erode constructive dialogue",
+                "level": "B2",
+                "vi": "xói mòn đối thoại mang tính xây dựng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "large-scale data harvesting",
+                "level": "B2",
+                "vi": "thu thập dữ liệu quy mô lớn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "periodic data breaches",
+                "level": "B2",
+                "vi": "các vụ rò rỉ dữ liệu định kỳ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "vulnerable to identity theft",
+                "level": "B2",
+                "vi": "dễ bị đánh cắp danh tính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "heightened real-world loneliness",
+                "level": "B2",
+                "vi": "cảm giác cô đơn gia tăng ngoài đời thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cultivate strong digital literacy",
+                "level": "B2",
+                "vi": "rèn luyện năng lực hiểu biết số vững vàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Kết nối & Học tập (Benefits: Connection & Learning)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "stay in touch easily",
+                    "phrase": "stay in touch easily",
+                    "vi": "giữ liên lạc dễ dàng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "make free video calls",
+                    "phrase": "make free video calls",
+                    "vi": "gọi video miễn phí",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "instant news updates",
+                    "phrase": "instant news updates",
+                    "vi": "cập nhật tin tức tức thời",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "free educational videos",
+                    "phrase": "free educational videos",
+                    "vi": "video giáo dục miễn phí",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "learn new job skills",
+                    "phrase": "learn new job skills",
+                    "vi": "học kỹ năng nghề nghiệp mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "share daily moments",
+                    "phrase": "share daily moments",
+                    "vi": "chia sẻ khoảnh khắc hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "connect with hobby groups",
+                    "phrase": "connect with hobby groups",
+                    "vi": "kết nối với nhóm cùng sở thích",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "regardless of distance",
+                    "phrase": "regardless of distance",
+                    "vi": "bất kể khoảng cách địa lý",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "instant borderless connectivity",
+                    "phrase": "instant borderless connectivity",
+                    "vi": "kết nối tức thời không biên giới",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "democratize access to knowledge",
+                    "phrase": "democratize access to knowledge",
+                    "vi": "phổ cập quyền tiếp cận tri thức",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "open knowledge ecosystem",
+                    "phrase": "open knowledge ecosystem",
+                    "vi": "hệ sinh thái tri thức mở",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "free micro-lessons online",
+                    "phrase": "free micro-lessons online",
+                    "vi": "bài học ngắn miễn phí trực tuyến",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cultivate supportive communities",
+                    "phrase": "cultivate supportive communities",
+                    "vi": "xây dựng cộng đồng hỗ trợ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "follow global events in real time",
+                    "phrase": "follow global events in real time",
+                    "vi": "theo dõi sự kiện toàn cầu theo thời gian thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "maintain ties at minimal cost",
+                    "phrase": "maintain ties at minimal cost",
+                    "vi": "duy trì gắn kết với chi phí tối thiểu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "continuously upskill online",
+                    "phrase": "continuously upskill online",
+                    "vi": "nâng cao kỹ năng liên tục trực tuyến",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Kinh doanh, Sáng tạo & Cộng đồng (Commerce & Civic Impact)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "promote products online",
+                    "phrase": "promote products online",
+                    "vi": "quảng bá sản phẩm trực tuyến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reach new customers",
+                    "phrase": "reach new customers",
+                    "vi": "tiếp cận khách hàng mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "young online entrepreneurs",
+                    "phrase": "young online entrepreneurs",
+                    "vi": "người trẻ khởi nghiệp trực tuyến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "save store rent costs",
+                    "phrase": "save store rent costs",
+                    "vi": "tiết kiệm tiền thuê mặt bằng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "express personal creativity",
+                    "phrase": "express personal creativity",
+                    "vi": "thể hiện sự sáng tạo cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "raise public awareness",
+                    "phrase": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "organize charity support",
+                    "phrase": "organize charity support",
+                    "vi": "tổ chức hỗ trợ thiện nguyện",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "collect timely donations",
+                    "phrase": "collect timely donations",
+                    "vi": "quyên góp cứu trợ kịp thời",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cost-effective commercial catalyst",
+                    "phrase": "cost-effective commercial catalyst",
+                    "vi": "chất xúc tác thương mại tiết kiệm chi phí",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "targeted digital advertising",
+                    "phrase": "targeted digital advertising",
+                    "vi": "quảng cáo số nhắm đúng mục tiêu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "booming creator economy",
+                    "phrase": "booming creator economy",
+                    "vi": "nền kinh tế sáng tạo nội dung bùng nổ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "showcase digital portfolios",
+                    "phrase": "showcase digital portfolios",
+                    "vi": "trưng bày hồ sơ năng lực số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lower gatekeeping barriers",
+                    "phrase": "lower gatekeeping barriers",
+                    "vi": "hạ thấp rào cản kiểm soát đầu vào",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "amplify civic voices",
+                    "phrase": "amplify civic voices",
+                    "vi": "khuếch đại tiếng nói cộng đồng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "swift collective mobilization",
+                    "phrase": "swift collective mobilization",
+                    "vi": "sự huy động tập thể nhanh chóng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "achieve tangible community impact",
+                    "phrase": "achieve tangible community impact",
+                    "vi": "tạo tác động cộng đồng thiết thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Nghiện mạng & Tâm lý (Drawbacks: Addiction & Mental Health)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "overuse social media",
+                    "phrase": "overuse social media",
+                    "vi": "lạm dụng mạng xã hội",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "waste valuable study time",
+                    "phrase": "waste valuable study time",
+                    "vi": "lãng phí thời gian học quý giá",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "scroll endlessly for hours",
+                    "phrase": "scroll endlessly for hours",
+                    "vi": "lướt mạng liên tục hàng giờ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "poor classroom concentration",
+                    "phrase": "poor classroom concentration",
+                    "vi": "khả năng tập trung trên lớp kém",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "trigger anxiety and insecurity",
+                    "phrase": "trigger anxiety and insecurity",
+                    "vi": "gây ra lo âu và tự ti",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cruel cyberbullying comments",
+                    "phrase": "cruel cyberbullying comments",
+                    "vi": "bình luận bắt nạt mạng ác ý",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "late-night phone scrolling",
+                    "phrase": "late-night phone scrolling",
+                    "vi": "lướt điện thoại khuya",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sleep loss and eye strain",
+                    "phrase": "sleep loss and eye strain",
+                    "vi": "thiếu ngủ và mỏi mắt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "engagement-driven algorithms",
+                    "phrase": "engagement-driven algorithms",
+                    "vi": "thuật toán tối ưu giữ chân người dùng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fragment attention spans",
+                    "phrase": "fragment attention spans",
+                    "vi": "làm phân mảnh khả năng tập trung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "trigger rapid dopamine loops",
+                    "phrase": "trigger rapid dopamine loops",
+                    "vi": "kích hoạt vòng lặp dopamine tức thì",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "curated online perfection",
+                    "phrase": "curated online perfection",
+                    "vi": "sự hoàn hảo được tô vẽ trên mạng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fuel toxic social comparison",
+                    "phrase": "fuel toxic social comparison",
+                    "vi": "thúc đẩy sự so sánh xã hội độc hại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "online anonymity and hate speech",
+                    "phrase": "online anonymity and hate speech",
+                    "vi": "ẩn danh trực tuyến và ngôn từ thù ghét",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "inflict severe emotional trauma",
+                    "phrase": "inflict severe emotional trauma",
+                    "vi": "gây sang chấn tâm lý nghiêm trọng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reinforce sedentary lifestyles",
+                    "phrase": "reinforce sedentary lifestyles",
+                    "vi": "củng cố lối sống ít vận động",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Tin giả, Quyền riêng tư & Kết nối thật (Misinformation & Privacy)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "spread fake news rapidly",
+                    "phrase": "spread fake news rapidly",
+                    "vi": "lan truyền tin giả nhanh chóng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "believe false rumors",
+                    "phrase": "believe false rumors",
+                    "vi": "tin vào tin đồn sai sự thật",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "online financial scams",
+                    "phrase": "online financial scams",
+                    "vi": "lừa đảo tài chính trực tuyến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "serious privacy risks",
+                    "phrase": "serious privacy risks",
+                    "vi": "rủi ro nghiêm trọng về quyền riêng tư",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "danger of data theft",
+                    "phrase": "danger of data theft",
+                    "vi": "nguy cơ bị đánh cắp dữ liệu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "create fake accounts",
+                    "phrase": "create fake accounts",
+                    "vi": "tạo tài khoản giả mạo",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "weaken face-to-face talk",
+                    "phrase": "weaken face-to-face talk",
+                    "vi": "làm suy yếu trò chuyện trực tiếp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "use social media wisely",
+                    "phrase": "use social media wisely",
+                    "vi": "sử dụng mạng xã hội một cách thông minh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "breeding grounds for misinformation",
+                    "phrase": "breeding grounds for misinformation",
+                    "vi": "mảnh đất màu mỡ cho thông tin sai lệch",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "algorithmic echo chambers",
+                    "phrase": "algorithmic echo chambers",
+                    "vi": "buồng vang thuật toán",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "erode constructive dialogue",
+                    "phrase": "erode constructive dialogue",
+                    "vi": "xói mòn đối thoại mang tính xây dựng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "large-scale data harvesting",
+                    "phrase": "large-scale data harvesting",
+                    "vi": "thu thập dữ liệu quy mô lớn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "periodic data breaches",
+                    "phrase": "periodic data breaches",
+                    "vi": "các vụ rò rỉ dữ liệu định kỳ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "vulnerable to identity theft",
+                    "phrase": "vulnerable to identity theft",
+                    "vi": "dễ bị đánh cắp danh tính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "heightened real-world loneliness",
+                    "phrase": "heightened real-world loneliness",
+                    "vi": "cảm giác cô đơn gia tăng ngoài đời thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cultivate strong digital literacy",
+                    "phrase": "cultivate strong digital literacy",
+                    "vi": "rèn luyện năng lực hiểu biết số vững vàng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Số hóa",
+                "title": "Mạng xã hội: Cơ hội kết nối, kinh doanh và những hệ lụy cần kiểm soát",
+                "summary": "Phân tích hai mặt của Facebook, Instagram, TikTok đối với giao tiếp, học tập, thương mại điện tử cũng như sức khỏe tinh thần và quyền riêng tư.",
+                "url": "https://vnexpress.net/so-hoa"
+              }
+            ],
+            "en": [
+              {
+                "source": "Pew Research Center",
+                "title": "Social Media Use, Benefits, and Psychological Impacts",
+                "summary": "Research overview examining how social media platforms shape daily communication, news consumption, youth well-being, and digital privacy.",
+                "url": "https://www.pewresearch.org/topic/internet-technology/platforms-services/social-media/"
+              }
+            ]
+          }
+        }
       },
       {
         "id": 44,
@@ -88643,10 +91639,2803 @@ const ESSAY_DATA = [
       {
         "id": 65,
         "title_en": "Visiting historical exhibitions",
-        "title_vi": "Tham quan triển lãm lịch sử",
-        "context": "Historical exhibitions are organized in many museums, cultural centers, and public spaces to help people learn about important events, historical figures, and cultural heritage. By visiting these exhibitions, people can gain a deeper understanding of the past and develop a greater appreciation for their nation’s history and traditions. Many people believe that visiting historical exhibitions brings valuable benefits to individuals and society.",
-        "prompt": "Write an essay to an educated reader to discuss the importance of visiting historical exhibitions. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "title_vi": "Tham quan triển lãm lịch sử và bảo tàng",
+        "tags": [
+          "Advantages"
+        ],
+        "context": "Historical exhibitions and museum displays play a vital role in modern society. Organized in museums, cultural centers, and public spaces, these exhibitions present authentic artifacts, photographs, and stories from the past to educate and inspire visitors of all ages.",
+        "context_vi": "Các triển lãm lịch sử và trưng bày bảo tàng đóng vai trò hết sức quan trọng trong xã hội hiện đại. Được tổ chức tại bảo tàng, trung tâm văn hóa và không gian công cộng, những triển lãm này giới thiệu hiện vật gốc, hình ảnh và câu chuyện quá khứ nhằm giáo dục và truyền cảm hứng cho khách tham quan ở mọi lứa tuổi.",
+        "prompt": "Write an essay to an educated reader to discuss the benefits of visiting historical exhibitions for students and the general public. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những lợi ích của việc tham quan các triển lãm lịch sử đối với học sinh và công chúng nói chung. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "visiting historical exhibitions and museum displays",
+            "vi": "tham quan triển lãm lịch sử và trưng bày bảo tàng"
+          },
+          {
+            "en": "learning history through authentic artifacts",
+            "vi": "học lịch sử thông qua hiện vật nguyên bản"
+          },
+          {
+            "en": "educational, cultural, and civic benefits",
+            "vi": "lợi ích giáo dục, văn hóa và công dân"
+          },
+          {
+            "en": "safeguarding collective memory and national heritage",
+            "vi": "bảo vệ ký ức tập thể và di sản quốc gia"
+          },
+          {
+            "en": "accessible cultural enrichment for students and the public",
+            "vi": "bồi đắp văn hóa dễ tiếp cận cho học sinh và công chúng"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: GIÚP HỌC SINH HỌC LỊCH SỬ SINH ĐỘNG VÀ DỄ NHỚ HƠN",
+                "point_vi": "Tham quan triển lãm lịch sử và bảo tàng giúp học sinh hiểu kiến thức lịch sử sinh động và dễ ghi nhớ hơn nhiều so với sách giáo khoa.",
+                "point_en": "Visiting historical exhibitions and museums helps students understand history more vividly and remember lessons far better than textbooks alone.",
+                "point_collocations": [
+                  {
+                    "en": "historical exhibitions",
+                    "vi": "triển lãm lịch sử"
+                  },
+                  {
+                    "en": "understand history vividly",
+                    "vi": "hiểu lịch sử sinh động"
+                  }
+                ],
+                "evidence_vi": "Khi trực tiếp ngắm nhìn hiện vật cổ, tranh ảnh và mô hình thật, các sự kiện quá khứ trở nên gần gũi thay vì chỉ là những ngày tháng khô khan. Nhiều bảo tàng hiện nay còn có hướng dẫn viên và màn hình tương tác khiến buổi học thêm thú vị. Nhờ trải nghiệm trực quan này, học sinh yêu thích môn lịch sử hơn và đạt kết quả học tập tốt hơn.",
+                "evidence_en": "When learners see real ancient artifacts, old photos, and detailed models in person, past events feel real rather than like boring dates. Many modern museums also offer guides and interactive screens that make learning much more exciting. Thanks to this visual experience, students develop greater interest in history and perform better in class.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "ancient artifacts",
+                      "vi": "hiện vật cổ"
+                    },
+                    {
+                      "en": "boring dates",
+                      "vi": "những mốc ngày tháng khô khan"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "interactive screens",
+                      "vi": "màn hình tương tác"
+                    },
+                    {
+                      "en": "exciting learning",
+                      "vi": "việc học thú vị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "visual experience",
+                      "vi": "trải nghiệm trực quan"
+                    },
+                    {
+                      "en": "perform better in class",
+                      "vi": "học tốt hơn trên lớp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "historical exhibitions",
+                    "vi": "triển lãm lịch sử"
+                  },
+                  {
+                    "en": "understand history vividly",
+                    "vi": "hiểu lịch sử sinh động"
+                  },
+                  {
+                    "en": "ancient artifacts",
+                    "vi": "hiện vật cổ"
+                  },
+                  {
+                    "en": "boring dates",
+                    "vi": "những mốc ngày tháng khô khan"
+                  },
+                  {
+                    "en": "interactive screens",
+                    "vi": "màn hình tương tác"
+                  },
+                  {
+                    "en": "exciting learning",
+                    "vi": "việc học thú vị"
+                  },
+                  {
+                    "en": "visual experience",
+                    "vi": "trải nghiệm trực quan"
+                  },
+                  {
+                    "en": "perform better in class",
+                    "vi": "học tốt hơn trên lớp"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: NUÔI DƯỠNG LÒNG TỰ HÀO DÂN TỘC VÀ Ý THỨC BẢO TỒN DI SẢN",
+                "point_vi": "Các trưng bày bảo tàng nuôi dưỡng lòng tự hào văn hóa và khơi dậy ý thức bảo tồn di sản trong cộng đồng.",
+                "point_en": "Museum displays nurture cultural pride and encourage the public to protect national heritage.",
+                "point_collocations": [
+                  {
+                    "en": "cultural pride",
+                    "vi": "lòng tự hào văn hóa"
+                  },
+                  {
+                    "en": "national heritage",
+                    "vi": "di sản quốc gia"
+                  }
+                ],
+                "evidence_vi": "Qua những câu chuyện về tổ tiên và truyền thống lâu đời, người dân hiểu sâu hơn về cội nguồn của đất nước mình. Sự thấu hiểu này giúp thế hệ trẻ biết trân trọng hòa bình, văn hóa truyền thống và những hy sinh của thế hệ đi trước. Nhờ đó, cộng đồng trở nên có trách nhiệm hơn trong việc gìn giữ các công trình lịch sử.",
+                "evidence_en": "Through stories of ancestors and long-standing traditions, citizens gain a deeper understanding of their country's roots. This awareness helps young generations appreciate peace, traditional culture, and the sacrifices of earlier generations. Consequently, the public becomes more committed to preserving historic sites and relics.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "country's roots",
+                      "vi": "cội nguồn đất nước"
+                    },
+                    {
+                      "en": "long-standing traditions",
+                      "vi": "truyền thống lâu đời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "young generations",
+                      "vi": "thế hệ trẻ"
+                    },
+                    {
+                      "en": "earlier generations",
+                      "vi": "các thế hệ đi trước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "preserving historic sites",
+                      "vi": "bảo tồn di tích lịch sử"
+                    },
+                    {
+                      "en": "committed to",
+                      "vi": "có trách nhiệm / tận tâm với"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultural pride",
+                    "vi": "lòng tự hào văn hóa"
+                  },
+                  {
+                    "en": "national heritage",
+                    "vi": "di sản quốc gia"
+                  },
+                  {
+                    "en": "country's roots",
+                    "vi": "cội nguồn đất nước"
+                  },
+                  {
+                    "en": "long-standing traditions",
+                    "vi": "truyền thống lâu đời"
+                  },
+                  {
+                    "en": "young generations",
+                    "vi": "thế hệ trẻ"
+                  },
+                  {
+                    "en": "earlier generations",
+                    "vi": "các thế hệ đi trước"
+                  },
+                  {
+                    "en": "preserving historic sites",
+                    "vi": "bảo tồn di tích lịch sử"
+                  },
+                  {
+                    "en": "committed to",
+                    "vi": "có trách nhiệm / tận tâm với"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: MỞ RỘNG HIỂU BIẾT VĂN HÓA VÀ TÔN TRỌNG SỰ ĐA DẠNG",
+                "point_vi": "Triển lãm lịch sử giúp công chúng mở rộng kiến thức về nhiều nền văn minh khác nhau và học cách tôn trọng sự khác biệt.",
+                "point_en": "Historical exhibitions broaden public knowledge of diverse civilizations and promote respect for cultural differences.",
+                "point_collocations": [
+                  {
+                    "en": "diverse civilizations",
+                    "vi": "nhiều nền văn minh đa dạng"
+                  },
+                  {
+                    "en": "cultural differences",
+                    "vi": "sự khác biệt văn hóa"
+                  }
+                ],
+                "evidence_vi": "Khách tham quan có cơ hội khám phá phong tục, nghệ thuật và đời sống của các vùng miền cũng như quốc gia khác trên thế giới. Việc tìm hiểu cách các dân tộc từng sống và phát triển giúp con người cởi mở và ít định kiến hơn. Đây là kỹ năng rất cần thiết trong một thế giới ngày càng toàn cầu hóa.",
+                "evidence_en": "Visitors have the chance to explore the customs, art, and daily lives of different regions and countries around the world. Learning how various societies lived and developed helps people become more open-minded and less prejudiced. This broader perspective is highly valuable in an increasingly globalized world.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "customs and art",
+                      "vi": "phong tục và nghệ thuật"
+                    },
+                    {
+                      "en": "daily lives",
+                      "vi": "đời sống hằng ngày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "open-minded",
+                      "vi": "cởi mở"
+                    },
+                    {
+                      "en": "less prejudiced",
+                      "vi": "ít định kiến hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broader perspective",
+                      "vi": "góc nhìn rộng mở hơn"
+                    },
+                    {
+                      "en": "globalized world",
+                      "vi": "thế giới toàn cầu hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "diverse civilizations",
+                    "vi": "nhiều nền văn minh đa dạng"
+                  },
+                  {
+                    "en": "cultural differences",
+                    "vi": "sự khác biệt văn hóa"
+                  },
+                  {
+                    "en": "customs and art",
+                    "vi": "phong tục và nghệ thuật"
+                  },
+                  {
+                    "en": "daily lives",
+                    "vi": "đời sống hằng ngày"
+                  },
+                  {
+                    "en": "open-minded",
+                    "vi": "cởi mở"
+                  },
+                  {
+                    "en": "less prejudiced",
+                    "vi": "ít định kiến hơn"
+                  },
+                  {
+                    "en": "broader perspective",
+                    "vi": "góc nhìn rộng mở hơn"
+                  },
+                  {
+                    "en": "globalized world",
+                    "vi": "thế giới toàn cầu hóa"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: RÚT RA BÀI HỌC KINH NGHIỆM QUÁ KHỨ CHO HIỆN TẠI VÀ TƯƠNG LAI",
+                "point_vi": "Tìm hiểu lịch sử tại bảo tàng giúp mọi người rút ra những bài học quý giá để tránh lặp lại sai lầm trong tương lai.",
+                "point_en": "Exploring history at exhibitions helps people draw valuable lessons from the past to avoid repeating mistakes.",
+                "point_collocations": [
+                  {
+                    "en": "valuable lessons",
+                    "vi": "những bài học quý giá"
+                  },
+                  {
+                    "en": "avoid repeating mistakes",
+                    "vi": "tránh lặp lại sai lầm"
+                  }
+                ],
+                "evidence_vi": "Các chuyên đề về chiến tranh, khủng hoảng kinh tế hay tiến bộ khoa học cho thấy nguyên nhân thành công và thất bại của nhân loại. Người xem từ đó biết suy nghĩ sâu sắc hơn về các vấn đề xã hội hiện đại như hòa bình và bảo vệ môi trường. Nhờ vậy, bảo tàng góp phần xây dựng những công dân thông thái và có trách nhiệm.",
+                "evidence_en": "Exhibitions about past wars, economic crises, or scientific progress reveal why societies succeeded or failed. Seeing real evidence encourages visitors to reflect deeply on modern issues such as peace and environmental protection. As a result, museums help shape wiser and more responsible citizens.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "scientific progress",
+                      "vi": "tiến bộ khoa học"
+                    },
+                    {
+                      "en": "real evidence",
+                      "vi": "bằng chứng thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reflect deeply",
+                      "vi": "suy ngẫm sâu sắc"
+                    },
+                    {
+                      "en": "environmental protection",
+                      "vi": "bảo vệ môi trường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "wiser citizens",
+                      "vi": "công dân thông thái hơn"
+                    },
+                    {
+                      "en": "modern issues",
+                      "vi": "các vấn đề hiện đại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "valuable lessons",
+                    "vi": "những bài học quý giá"
+                  },
+                  {
+                    "en": "avoid repeating mistakes",
+                    "vi": "tránh lặp lại sai lầm"
+                  },
+                  {
+                    "en": "scientific progress",
+                    "vi": "tiến bộ khoa học"
+                  },
+                  {
+                    "en": "real evidence",
+                    "vi": "bằng chứng thực tế"
+                  },
+                  {
+                    "en": "reflect deeply",
+                    "vi": "suy ngẫm sâu sắc"
+                  },
+                  {
+                    "en": "environmental protection",
+                    "vi": "bảo vệ môi trường"
+                  },
+                  {
+                    "en": "wiser citizens",
+                    "vi": "công dân thông thái hơn"
+                  },
+                  {
+                    "en": "modern issues",
+                    "vi": "các vấn đề hiện đại"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: MANG LẠI HOẠT ĐỘNG GIẢI TRÍ LÀNH MẠNH VÀ GẮN KẾT GIA ĐÌNH",
+                "point_vi": "Đi tham quan bảo tàng là hình thức giải trí bổ ích, chi phí hợp lý giúp gắn kết gia đình và thúc đẩy du lịch địa phương.",
+                "point_en": "Visiting museum displays offers meaningful, affordable leisure that brings families together and supports local tourism.",
+                "point_collocations": [
+                  {
+                    "en": "meaningful leisure",
+                    "vi": "hoạt động giải trí bổ ích"
+                  },
+                  {
+                    "en": "local tourism",
+                    "vi": "du lịch địa phương"
+                  }
+                ],
+                "evidence_vi": "Thay vì dành cả cuối tuần xem điện thoại hay đi trung tâm thương mại, cha mẹ và con cái có thể cùng tham quan bảo tàng và trò chuyện về nhiều chủ đề thú vị. Hầu hết triển lãm công lập đều có giá vé rẻ hoặc miễn phí cho học sinh, phù hợp với mọi tầng lớp xã hội. Đồng thời, lượng khách đông đảo còn tạo thêm nguồn thu để duy trì bảo tàng và phát triển dịch vụ quanh khu vực.",
+                "evidence_en": "Instead of spending entire weekends staring at phones or shopping malls, parents and children can explore museums and share meaningful conversations. Most public exhibitions charge low fees or offer free entry for students, making culture accessible to everyone. Meanwhile, steady visitor numbers generate revenue that sustains museums and boosts nearby businesses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "meaningful conversations",
+                      "vi": "những cuộc trò chuyện ý nghĩa"
+                    },
+                    {
+                      "en": "shopping malls",
+                      "vi": "trung tâm thương mại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "free entry",
+                      "vi": "vào cửa miễn phí"
+                    },
+                    {
+                      "en": "accessible to everyone",
+                      "vi": "dễ tiếp cận với mọi người"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "generate revenue",
+                      "vi": "tạo nguồn thu"
+                    },
+                    {
+                      "en": "nearby businesses",
+                      "vi": "các cơ sở kinh doanh lân cận"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "meaningful leisure",
+                    "vi": "hoạt động giải trí bổ ích"
+                  },
+                  {
+                    "en": "local tourism",
+                    "vi": "du lịch địa phương"
+                  },
+                  {
+                    "en": "meaningful conversations",
+                    "vi": "những cuộc trò chuyện ý nghĩa"
+                  },
+                  {
+                    "en": "shopping malls",
+                    "vi": "trung tâm thương mại"
+                  },
+                  {
+                    "en": "free entry",
+                    "vi": "vào cửa miễn phí"
+                  },
+                  {
+                    "en": "accessible to everyone",
+                    "vi": "dễ tiếp cận với mọi người"
+                  },
+                  {
+                    "en": "generate revenue",
+                    "vi": "tạo nguồn thu"
+                  },
+                  {
+                    "en": "nearby businesses",
+                    "vi": "các cơ sở kinh doanh lân cận"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: BIẾN TRI THỨC LỊCH SỬ THÀNH TRẢI NGHIỆM TRỰC QUAN SÂU SẮC (EXPERIENTIAL LEARNING)",
+                "point_vi": "Triển lãm lịch sử và bảo tàng nâng cao đáng kể hiệu quả giáo dục bằng cách biến những bài học trừu tượng thành trải nghiệm trực quan sống động.",
+                "point_en": "Historical exhibitions and museum displays dramatically enrich education by transforming abstract historical narratives into tangible, memorable experiences.",
+                "point_collocations": [
+                  {
+                    "en": "abstract narratives",
+                    "vi": "bài học / câu chuyện trừu tượng"
+                  },
+                  {
+                    "en": "tangible experiences",
+                    "vi": "trải nghiệm trực quan hữu hình"
+                  }
+                ],
+                "evidence_vi": "Trong lớp học truyền thống, học sinh thường chán nản khi phải học thuộc lòng hàng loạt niên đại và sự kiện rời rạc từ sách giáo khoa. Khi tận mắt chiêm ngưỡng hiện vật gốc, thư tay cổ và các không gian tái hiện ứng dụng công nghệ tương tác tại bảo tàng, người học kích hoạt đồng thời nhiều giác quan và khả năng tưởng tượng. Quá trình học tập trải nghiệm này không chỉ giúp ghi nhớ kiến thức lâu dài hơn mà còn rèn luyện tư duy phản biện khi học sinh học cách phân tích bằng chứng lịch sử thực tế. Do đó, các chuyến tham quan bảo tàng đóng vai trò bổ trợ không thể thay thế cho giáo dục chính quy.",
+                "evidence_en": "In conventional classrooms, students frequently struggle to stay engaged when memorizing fragmented dates and facts from printed textbooks. Encountering authentic artifacts, original manuscripts, and interactive multimedia reconstructions inside museums stimulates multiple senses and brings distant eras vividly to life. This experiential mode of learning deepens long-term retention while sharpening critical thinking as learners examine primary historical evidence firsthand. Consequently, museum visits serve as an irreplaceable complement to formal academic schooling.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fragmented dates",
+                      "vi": "những mốc niên đại rời rạc"
+                    },
+                    {
+                      "en": "conventional classrooms",
+                      "vi": "lớp học truyền thống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "authentic artifacts",
+                      "vi": "hiện vật nguyên bản"
+                    },
+                    {
+                      "en": "multimedia reconstructions",
+                      "vi": "không gian tái hiện đa phương tiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "long-term retention",
+                      "vi": "khả năng ghi nhớ dài hạn"
+                    },
+                    {
+                      "en": "primary historical evidence",
+                      "vi": "bằng chứng lịch sử gốc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "irreplaceable complement",
+                      "vi": "phần bổ trợ không thể thay thế"
+                    },
+                    {
+                      "en": "formal schooling",
+                      "vi": "giáo dục chính quy"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "abstract narratives",
+                    "vi": "bài học / câu chuyện trừu tượng"
+                  },
+                  {
+                    "en": "tangible experiences",
+                    "vi": "trải nghiệm trực quan hữu hình"
+                  },
+                  {
+                    "en": "fragmented dates",
+                    "vi": "những mốc niên đại rời rạc"
+                  },
+                  {
+                    "en": "conventional classrooms",
+                    "vi": "lớp học truyền thống"
+                  },
+                  {
+                    "en": "authentic artifacts",
+                    "vi": "hiện vật nguyên bản"
+                  },
+                  {
+                    "en": "multimedia reconstructions",
+                    "vi": "không gian tái hiện đa phương tiện"
+                  },
+                  {
+                    "en": "long-term retention",
+                    "vi": "khả năng ghi nhớ dài hạn"
+                  },
+                  {
+                    "en": "primary historical evidence",
+                    "vi": "bằng chứng lịch sử gốc"
+                  },
+                  {
+                    "en": "irreplaceable complement",
+                    "vi": "phần bổ trợ không thể thay thế"
+                  },
+                  {
+                    "en": "formal schooling",
+                    "vi": "giáo dục chính quy"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: CỦNG CỐ BẢN SẮC VĂN HÓA VÀ TRÁCH NHIỆM BẢO TỒN DI SẢN (CULTURAL IDENTITY AND PRESERVATION)",
+                "point_vi": "Các trưng bày lịch sử góp phần bảo tồn ký ức tập thể, nuôi dưỡng bản sắc dân tộc và khơi dậy trách nhiệm gìn giữ di sản cho thế hệ tương lai.",
+                "point_en": "Museum exhibitions safeguard collective memory, strengthen cultural identity, and inspire public commitment to heritage preservation.",
+                "point_collocations": [
+                  {
+                    "en": "collective memory",
+                    "vi": "ký ức tập thể"
+                  },
+                  {
+                    "en": "heritage preservation",
+                    "vi": "bảo tồn di sản"
+                  }
+                ],
+                "evidence_vi": "Trong bối cảnh toàn cầu hóa diễn ra nhanh chóng, giới trẻ rất dễ đánh mất mối liên kết với truyền thống và lịch sử quê hương. Thông qua việc trưng bày tinh hoa nghệ thuật, thành tựu lịch sử và những chặng đường vượt khó của dân tộc, bảo tàng giúp mỗi công dân thấu hiểu cội nguồn chung của mình. Cảm giác tự hào và biết ơn tự nhiên này thúc đẩy người dân ủng hộ mạnh mẽ hơn các chính sách trùng tu di tích và bảo vệ di sản văn hóa. Nhờ vậy, các giá trị lịch sử quý báu tiếp tục sống động xuyên suốt nhiều thế hệ.",
+                "evidence_en": "Amid rapid globalization, younger generations risk losing their emotional connection to local traditions and ancestral history. By curating national artistry, historical milestones, and stories of collective resilience, exhibitions anchor citizens firmly in their shared heritage. This heightened appreciation motivates communities to support monument restoration, conservation funding, and responsible cultural stewardship. In turn, priceless historical legacies remain vibrant and meaningful across successive generations.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rapid globalization",
+                      "vi": "toàn cầu hóa nhanh chóng"
+                    },
+                    {
+                      "en": "ancestral history",
+                      "vi": "lịch sử tổ tiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collective resilience",
+                      "vi": "sức kiên cường tập thể"
+                    },
+                    {
+                      "en": "shared heritage",
+                      "vi": "di sản chung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "monument restoration",
+                      "vi": "trùng tu di tích"
+                    },
+                    {
+                      "en": "cultural stewardship",
+                      "vi": "trách nhiệm gìn giữ văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "historical legacies",
+                      "vi": "di sản lịch sử để lại"
+                    },
+                    {
+                      "en": "successive generations",
+                      "vi": "các thế hệ nối tiếp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "collective memory",
+                    "vi": "ký ức tập thể"
+                  },
+                  {
+                    "en": "heritage preservation",
+                    "vi": "bảo tồn di sản"
+                  },
+                  {
+                    "en": "rapid globalization",
+                    "vi": "toàn cầu hóa nhanh chóng"
+                  },
+                  {
+                    "en": "ancestral history",
+                    "vi": "lịch sử tổ tiên"
+                  },
+                  {
+                    "en": "collective resilience",
+                    "vi": "sức kiên cường tập thể"
+                  },
+                  {
+                    "en": "shared heritage",
+                    "vi": "di sản chung"
+                  },
+                  {
+                    "en": "monument restoration",
+                    "vi": "trùng tu di tích"
+                  },
+                  {
+                    "en": "cultural stewardship",
+                    "vi": "trách nhiệm gìn giữ văn hóa"
+                  },
+                  {
+                    "en": "historical legacies",
+                    "vi": "di sản lịch sử để lại"
+                  },
+                  {
+                    "en": "successive generations",
+                    "vi": "các thế hệ nối tiếp"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: NUÔI DƯỠNG LÒNG ĐỒNG CẢM VÀ HIỂU BIẾT ĐA VĂN HÓA (INTERCULTURAL EMPATHY)",
+                "point_vi": "Tham quan các triển lãm về lịch sử nhân loại mở rộng tầm nhìn văn hóa, xóa bỏ định kiến và nuôi dưỡng lòng đồng cảm trong xã hội đa dạng.",
+                "point_en": "Exploring exhibitions on diverse histories broadens cultural horizons, dismantles stereotypes, and fosters empathy across diverse societies.",
+                "point_collocations": [
+                  {
+                    "en": "cultural horizons",
+                    "vi": "tầm nhìn văn hóa"
+                  },
+                  {
+                    "en": "dismantle stereotypes",
+                    "vi": "xóa bỏ định kiến khuôn mẫu"
+                  }
+                ],
+                "evidence_vi": "Nhiều bảo tàng hiện đại tổ chức các chuyên đề giao lưu quốc tế và trưng bày câu chuyện của nhiều cộng đồng dân tộc thiểu số hoặc nền văn minh xa xưa. Việc đặt mình vào bối cảnh sống, niềm tin và thách thức của người khác trong quá khứ giúp khách tham quan hình thành tư duy nhân văn và bao dung hơn. Khả năng thấu hiểu đa chiều này đặc biệt quan trọng trong việc giảm xung đột xã hội và thúc đẩy đối thoại hòa bình giữa các nền văn hóa. Do đó, bảo tàng không chỉ lưu giữ quá khứ mà còn định hình một cộng đồng hiện đại cởi mở hơn.",
+                "evidence_en": "Many contemporary museums curate international exchanges and spotlight the lived histories of minority groups and ancient civilizations worldwide. Stepping into the social contexts, beliefs, and struggles of distant peoples cultivates genuine empathy and dismantles narrow prejudices. Such cross-cultural understanding is vital for strengthening social cohesion and promoting peaceful dialogue in multicultural societies. Thus, historical exhibitions do not merely archive the past—they actively nurture a more tolerant modern citizenry.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "international exchanges",
+                      "vi": "triển lãm giao lưu quốc tế"
+                    },
+                    {
+                      "en": "ancient civilizations",
+                      "vi": "các nền văn minh cổ đại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "genuine empathy",
+                      "vi": "lòng đồng cảm chân thành"
+                    },
+                    {
+                      "en": "narrow prejudices",
+                      "vi": "định kiến hẹp hòi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social cohesion",
+                      "vi": "sự gắn kết xã hội"
+                    },
+                    {
+                      "en": "peaceful dialogue",
+                      "vi": "đối thoại hòa bình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "archive the past",
+                      "vi": "lưu trữ quá khứ"
+                    },
+                    {
+                      "en": "tolerant citizenry",
+                      "vi": "cộng đồng công dân bao dung"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultural horizons",
+                    "vi": "tầm nhìn văn hóa"
+                  },
+                  {
+                    "en": "dismantle stereotypes",
+                    "vi": "xóa bỏ định kiến khuôn mẫu"
+                  },
+                  {
+                    "en": "international exchanges",
+                    "vi": "triển lãm giao lưu quốc tế"
+                  },
+                  {
+                    "en": "ancient civilizations",
+                    "vi": "các nền văn minh cổ đại"
+                  },
+                  {
+                    "en": "genuine empathy",
+                    "vi": "lòng đồng cảm chân thành"
+                  },
+                  {
+                    "en": "narrow prejudices",
+                    "vi": "định kiến hẹp hòi"
+                  },
+                  {
+                    "en": "social cohesion",
+                    "vi": "sự gắn kết xã hội"
+                  },
+                  {
+                    "en": "peaceful dialogue",
+                    "vi": "đối thoại hòa bình"
+                  },
+                  {
+                    "en": "archive the past",
+                    "vi": "lưu trữ quá khứ"
+                  },
+                  {
+                    "en": "tolerant citizenry",
+                    "vi": "cộng đồng công dân bao dung"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: THÚC ĐẨY Ý THỨC CÔNG DÂN VÀ TƯ DUY ĐÚC KẾT TỪ QUÁ KHỨ (CIVIC REFLECTION)",
+                "point_vi": "Các trưng bày lịch sử khuyến khích công chúng suy ngẫm sâu sắc về bài học quá khứ để đưa ra những lựa chọn sáng suốt cho tương lai.",
+                "point_en": "Historical displays encourage civic reflection by enabling the public to extract enduring lessons from past triumphs and tragedies.",
+                "point_collocations": [
+                  {
+                    "en": "civic reflection",
+                    "vi": "sự suy ngẫm mang tính công dân"
+                  },
+                  {
+                    "en": "triumphs and tragedies",
+                    "vi": "thành tựu và bi kịch"
+                  }
+                ],
+                "evidence_vi": "Khi trực tiếp đối diện với tư liệu về hậu quả tàn khốc của chiến tranh, bất công xã hội hay sự sụp đổ môi trường của các nền văn minh xưa, người xem nhận thức rõ hơn giá trị của hòa bình và quản trị minh bạch. Lịch sử qua đó trở thành tấm gương phản chiếu giúp xã hội hiện đại nhận diện sớm các nguy cơ tương tự trước khi quá muộn. Sự chiêm nghiệm nghiêm túc này rèn luyện cho học sinh lẫn người lớn năng lực đánh giá thông tin khách quan và tham gia tích cực vào đời sống xã hội. Chính vì thế, bảo tàng giữ vai trò như một trường học công dân suốt đời.",
+                "evidence_en": "Confronting documented accounts of devastating wars, social injustice, or ecological collapse in past civilizations heightens public appreciation for peace and accountable governance. History thus serves as a vital mirror helping contemporary societies recognize warning signs before repeating costly errors. Engaging thoughtfully with these narratives equips both students and adults to evaluate modern debates critically and participate responsibly in civic life. In this sense, museums function as lifelong classrooms for informed citizenship.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "ecological collapse",
+                      "vi": "sự sụp đổ sinh thái"
+                    },
+                    {
+                      "en": "accountable governance",
+                      "vi": "quản trị có trách nhiệm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "warning signs",
+                      "vi": "dấu hiệu cảnh báo"
+                    },
+                    {
+                      "en": "costly errors",
+                      "vi": "sai lầm đắt giá"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evaluate critically",
+                      "vi": "đánh giá một cách phản biện"
+                    },
+                    {
+                      "en": "civic life",
+                      "vi": "đời sống công dân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lifelong classrooms",
+                      "vi": "lớp học suốt đời"
+                    },
+                    {
+                      "en": "informed citizenship",
+                      "vi": "tư cách công dân hiểu biết"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "civic reflection",
+                    "vi": "sự suy ngẫm mang tính công dân"
+                  },
+                  {
+                    "en": "triumphs and tragedies",
+                    "vi": "thành tựu và bi kịch"
+                  },
+                  {
+                    "en": "ecological collapse",
+                    "vi": "sự sụp đổ sinh thái"
+                  },
+                  {
+                    "en": "accountable governance",
+                    "vi": "quản trị có trách nhiệm"
+                  },
+                  {
+                    "en": "warning signs",
+                    "vi": "dấu hiệu cảnh báo"
+                  },
+                  {
+                    "en": "costly errors",
+                    "vi": "sai lầm đắt giá"
+                  },
+                  {
+                    "en": "evaluate critically",
+                    "vi": "đánh giá một cách phản biện"
+                  },
+                  {
+                    "en": "civic life",
+                    "vi": "đời sống công dân"
+                  },
+                  {
+                    "en": "lifelong classrooms",
+                    "vi": "lớp học suốt đời"
+                  },
+                  {
+                    "en": "informed citizenship",
+                    "vi": "tư cách công dân hiểu biết"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: KHÔNG GIAN SINH HOẠT VĂN HÓA CÔNG CỘNG VÀ ĐỘNG LỰC KINH TẾ DU LỊCH (PUBLIC ENRICHMENT AND TOURISM)",
+                "point_vi": "Bảo tàng và triển lãm lịch sử tạo ra không gian sinh hoạt văn hóa lành mạnh cho mọi tầng lớp đồng thời thúc đẩy kinh tế du lịch địa phương.",
+                "point_en": "Historical museums provide enriching, accessible public spaces for community bonding while stimulating cultural tourism and local economies.",
+                "point_collocations": [
+                  {
+                    "en": "accessible public spaces",
+                    "vi": "không gian công cộng dễ tiếp cận"
+                  },
+                  {
+                    "en": "cultural tourism",
+                    "vi": "du lịch văn hóa"
+                  }
+                ],
+                "evidence_vi": "Khác với nhiều hoạt động giải trí thương mại đắt đỏ hoặc lệ thuộc màn hình điện tử, bảo tàng mang đến môi trường yên tĩnh nơi các thế hệ trong gia đình có thể cùng khám phá và chia sẻ câu chuyện. Mức vé vào cửa ưu đãi giúp cả những gia đình thu nhập thấp cũng được thụ hưởng đời sống tinh thần phong phú và bình đẳng. Song song đó, những triển lãm được đầu tư chuyên nghiệp thu hút mạnh du khách trong và ngoài nước, tạo việc làm cho hướng dẫn viên, nhà nghiên cứu và doanh nghiệp dịch vụ xung quanh. Nhờ vậy, giá trị của bảo tàng lan tỏa đồng thời cả về văn hóa lẫn kinh tế.",
+                "evidence_en": "Unlike costly commercial entertainment or screen-centered pastimes, museums offer stimulating public sanctuaries where different generations can explore ideas and converse together. Affordable admission policies ensure that cultural enrichment remains inclusive rather than restricted to affluent households. Simultaneously, well-curated exhibitions attract domestic and international tourists, supporting jobs for curators, guides, educators, and surrounding hospitality businesses. Consequently, historical exhibitions generate parallel dividends for community well-being and regional economic vitality.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "screen-centered pastimes",
+                      "vi": "thú vui xoay quanh màn hình"
+                    },
+                    {
+                      "en": "public sanctuaries",
+                      "vi": "không gian công cộng thanh bình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cultural enrichment",
+                      "vi": "sự bồi đắp đời sống văn hóa"
+                    },
+                    {
+                      "en": "affordable admission",
+                      "vi": "giá vé hợp lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "well-curated exhibitions",
+                      "vi": "triển lãm được giám tuyển công phu"
+                    },
+                    {
+                      "en": "hospitality businesses",
+                      "vi": "doanh nghiệp dịch vụ lưu trú - ăn uống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "parallel dividends",
+                      "vi": "lợi ích song hành"
+                    },
+                    {
+                      "en": "regional economic vitality",
+                      "vi": "sức sống kinh tế vùng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "accessible public spaces",
+                    "vi": "không gian công cộng dễ tiếp cận"
+                  },
+                  {
+                    "en": "cultural tourism",
+                    "vi": "du lịch văn hóa"
+                  },
+                  {
+                    "en": "screen-centered pastimes",
+                    "vi": "thú vui xoay quanh màn hình"
+                  },
+                  {
+                    "en": "public sanctuaries",
+                    "vi": "không gian công cộng thanh bình"
+                  },
+                  {
+                    "en": "cultural enrichment",
+                    "vi": "sự bồi đắp đời sống văn hóa"
+                  },
+                  {
+                    "en": "affordable admission",
+                    "vi": "giá vé hợp lý"
+                  },
+                  {
+                    "en": "well-curated exhibitions",
+                    "vi": "triển lãm được giám tuyển công phu"
+                  },
+                  {
+                    "en": "hospitality businesses",
+                    "vi": "doanh nghiệp dịch vụ lưu trú - ăn uống"
+                  },
+                  {
+                    "en": "parallel dividends",
+                    "vi": "lợi ích song hành"
+                  },
+                  {
+                    "en": "regional economic vitality",
+                    "vi": "sức sống kinh tế vùng"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "visit historical exhibitions",
+              "vi": "tham quan triển lãm lịch sử"
+            },
+            {
+              "en": "see ancient artifacts in person",
+              "vi": "tận mắt ngắm hiện vật cổ"
+            },
+            {
+              "en": "understand history vividly",
+              "vi": "hiểu lịch sử một cách sinh động"
+            },
+            {
+              "en": "interactive museum screens",
+              "vi": "màn hình tương tác trong bảo tàng"
+            },
+            {
+              "en": "rich visual experience",
+              "vi": "trải nghiệm trực quan phong phú"
+            },
+            {
+              "en": "beyond boring textbook dates",
+              "vi": "vượt xa mốc ngày tháng khô khan trong sách"
+            },
+            {
+              "en": "remember lessons longer",
+              "vi": "ghi nhớ bài học lâu hơn"
+            },
+            {
+              "en": "spark students' interest",
+              "vi": "khơi dậy hứng thú học sinh"
+            },
+            {
+              "en": "tangible memorable experiences",
+              "vi": "trải nghiệm trực quan đáng nhớ"
+            },
+            {
+              "en": "authentic artifacts and manuscripts",
+              "vi": "hiện vật nguyên bản và bản thảo gốc"
+            },
+            {
+              "en": "interactive multimedia reconstructions",
+              "vi": "không gian tái hiện đa phương tiện tương tác"
+            },
+            {
+              "en": "experiential mode of learning",
+              "vi": "phương thức học tập trải nghiệm"
+            },
+            {
+              "en": "deepen long-term retention",
+              "vi": "tăng cường khả năng ghi nhớ dài hạn"
+            },
+            {
+              "en": "examine primary historical evidence",
+              "vi": "phân tích bằng chứng lịch sử gốc"
+            },
+            {
+              "en": "irreplaceable complement to schooling",
+              "vi": "phần bổ trợ không thể thay thế cho trường học"
+            },
+            {
+              "en": "bring distant eras to life",
+              "vi": "tái hiện sống động các thời kỳ xa xưa"
+            },
+            {
+              "en": "nurture cultural pride",
+              "vi": "nuôi dưỡng lòng tự hào văn hóa"
+            },
+            {
+              "en": "protect national heritage",
+              "vi": "bảo vệ di sản quốc gia"
+            },
+            {
+              "en": "understand one's country's roots",
+              "vi": "hiểu rõ cội nguồn đất nước"
+            },
+            {
+              "en": "stories of ancestors",
+              "vi": "câu chuyện về tổ tiên"
+            },
+            {
+              "en": "appreciate peace and traditions",
+              "vi": "trân trọng hòa bình và truyền thống"
+            },
+            {
+              "en": "sacrifices of earlier generations",
+              "vi": "sự hy sinh của các thế hệ đi trước"
+            },
+            {
+              "en": "preserve historic sites and relics",
+              "vi": "bảo tồn di tích và cổ vật"
+            },
+            {
+              "en": "long-standing local traditions",
+              "vi": "truyền thống địa phương lâu đời"
+            },
+            {
+              "en": "safeguard collective memory",
+              "vi": "bảo vệ ký ức tập thể"
+            },
+            {
+              "en": "anchor citizens in shared heritage",
+              "vi": "gắn chặt công dân với di sản chung"
+            },
+            {
+              "en": "stories of collective resilience",
+              "vi": "câu chuyện về sức kiên cường tập thể"
+            },
+            {
+              "en": "support monument restoration",
+              "vi": "ủng hộ công tác trùng tu di tích"
+            },
+            {
+              "en": "responsible cultural stewardship",
+              "vi": "trách nhiệm gìn giữ văn hóa"
+            },
+            {
+              "en": "keep historical legacies vibrant",
+              "vi": "giữ cho di sản lịch sử luôn sống động"
+            },
+            {
+              "en": "across successive generations",
+              "vi": "xuyên suốt các thế hệ nối tiếp"
+            },
+            {
+              "en": "counter cultural disconnection",
+              "vi": "chống lại sự đứt gãy văn hóa"
+            },
+            {
+              "en": "diverse world civilizations",
+              "vi": "các nền văn minh đa dạng trên thế giới"
+            },
+            {
+              "en": "respect cultural differences",
+              "vi": "tôn trọng sự khác biệt văn hóa"
+            },
+            {
+              "en": "become more open-minded",
+              "vi": "trở nên cởi mở hơn"
+            },
+            {
+              "en": "reduce cultural prejudice",
+              "vi": "giảm định kiến văn hóa"
+            },
+            {
+              "en": "draw valuable lessons from the past",
+              "vi": "rút ra bài học quý từ quá khứ"
+            },
+            {
+              "en": "avoid repeating past mistakes",
+              "vi": "tránh lặp lại sai lầm quá khứ"
+            },
+            {
+              "en": "reflect on modern issues",
+              "vi": "suy ngẫm về các vấn đề hiện đại"
+            },
+            {
+              "en": "shape wise responsible citizens",
+              "vi": "hình thành công dân thông thái và trách nhiệm"
+            },
+            {
+              "en": "broaden cultural horizons",
+              "vi": "mở rộng tầm nhìn văn hóa"
+            },
+            {
+              "en": "dismantle narrow stereotypes",
+              "vi": "xóa bỏ định kiến khuôn mẫu hẹp hòi"
+            },
+            {
+              "en": "strengthen social cohesion",
+              "vi": "củng cố sự gắn kết xã hội"
+            },
+            {
+              "en": "promote peaceful intercultural dialogue",
+              "vi": "thúc đẩy đối thoại liên văn hóa hòa bình"
+            },
+            {
+              "en": "extract lessons from triumphs and tragedies",
+              "vi": "đúc kết bài học từ thành tựu và bi kịch"
+            },
+            {
+              "en": "recognize historical warning signs",
+              "vi": "nhận diện sớm dấu hiệu cảnh báo lịch sử"
+            },
+            {
+              "en": "lifelong classrooms for citizenship",
+              "vi": "lớp học suốt đời về tư cách công dân"
+            },
+            {
+              "en": "nurture a tolerant modern citizenry",
+              "vi": "nuôi dưỡng cộng đồng công dân bao dung"
+            },
+            {
+              "en": "meaningful family leisure",
+              "vi": "hoạt động giải trí gia đình bổ ích"
+            },
+            {
+              "en": "affordable public attractions",
+              "vi": "điểm tham quan công cộng giá hợp lý"
+            },
+            {
+              "en": "free entry for students",
+              "vi": "miễn phí vé vào cửa cho học sinh"
+            },
+            {
+              "en": "share meaningful conversations",
+              "vi": "cùng trò chuyện về chủ đề ý nghĩa"
+            },
+            {
+              "en": "away from phone screens",
+              "vi": "rời xa màn hình điện thoại"
+            },
+            {
+              "en": "accessible to everyone",
+              "vi": "dễ tiếp cận với mọi tầng lớp"
+            },
+            {
+              "en": "boost local tourism",
+              "vi": "thúc đẩy du lịch địa phương"
+            },
+            {
+              "en": "generate museum revenue",
+              "vi": "tạo nguồn thu duy trì bảo tàng"
+            },
+            {
+              "en": "stimulating public sanctuaries",
+              "vi": "không gian công cộng đầy cảm hứng"
+            },
+            {
+              "en": "inclusive cultural enrichment",
+              "vi": "sự bồi đắp văn hóa bình đẳng cho mọi người"
+            },
+            {
+              "en": "well-curated museum exhibitions",
+              "vi": "triển lãm bảo tàng được giám tuyển công phu"
+            },
+            {
+              "en": "attract domestic and foreign tourists",
+              "vi": "thu hút du khách trong và ngoài nước"
+            },
+            {
+              "en": "support local hospitality businesses",
+              "vi": "hỗ trợ doanh nghiệp dịch vụ địa phương"
+            },
+            {
+              "en": "regional economic vitality",
+              "vi": "sức sống kinh tế khu vực"
+            },
+            {
+              "en": "generate parallel social dividends",
+              "vi": "tạo ra lợi ích xã hội song hành"
+            },
+            {
+              "en": "intergenerational family outings",
+              "vi": "chuyến tham quan gắn kết nhiều thế hệ"
+            }
+          ],
+          "sample_b1": "Historical exhibitions and museum displays play a vital role in modern society. Visiting these cultural spaces offers numerous important benefits for both school students and the general public.\n\nFirst, <strong>visiting historical exhibitions</strong> helps students <strong>understand history vividly</strong> and remember lessons far better than reading textbooks alone. When young learners <strong>see ancient artifacts in person</strong> alongside <strong>interactive museum screens</strong>, past events feel alive rather than like boring dates. This <strong>rich visual experience</strong> sparks curiosity and encourages students to enjoy history much more.\n\nSecond, museum displays <strong>nurture cultural pride</strong> and help citizens <strong>understand their country's roots</strong>. Learning about <strong>stories of ancestors</strong> and the sacrifices of earlier generations inspires the public to <strong>preserve historic sites and relics</strong>. At the same time, exploring exhibits about <strong>diverse world civilizations</strong> reduces prejudice and helps visitors <strong>draw valuable lessons from the past</strong> to avoid repeating costly mistakes.\n\nFinally, museums provide <strong>meaningful family leisure</strong> that is <strong>accessible to everyone</strong>. With low fees or <strong>free entry for students</strong>, families can spend weekends learning together away from phone screens while helping <strong>boost local tourism</strong> and nearby businesses.\n\nIn conclusion, historical exhibitions enrich education, protect cultural heritage, and strengthen communities. Schools and families should therefore visit museums more regularly.",
+          "translation_b1": "Các triển lãm lịch sử và trưng bày bảo tàng đóng vai trò hết sức quan trọng trong xã hội hiện đại. Tham quan những không gian văn hóa này mang lại nhiều lợi ích to lớn cho cả học sinh lẫn công chúng nói chung.\n\nThứ nhất, <strong>tham quan triển lãm lịch sử</strong> giúp học sinh <strong>hiểu lịch sử một cách sinh động</strong> và ghi nhớ bài học tốt hơn nhiều so với chỉ đọc sách giáo khoa. Khi người học trẻ <strong>tận mắt ngắm hiện vật cổ</strong> kết hợp cùng <strong>màn hình tương tác trong bảo tàng</strong>, các sự kiện quá khứ trở nên sống động thay vì chỉ là những mốc ngày tháng khô khan. <strong>Trải nghiệm trực quan phong phú</strong> này khơi dậy trí tò mò và khuyến khích học sinh yêu thích môn lịch sử hơn.\n\nThứ hai, các trưng bày bảo tàng <strong>nuôi dưỡng lòng tự hào văn hóa</strong> và giúp công dân <strong>hiểu rõ cội nguồn đất nước</strong>. Tìm hiểu <strong>câu chuyện về tổ tiên</strong> và sự hy sinh của các thế hệ đi trước truyền cảm hứng cho công chúng <strong>bảo tồn di tích và cổ vật</strong>. Đồng thời, khám phá các trưng bày về <strong>các nền văn minh đa dạng trên thế giới</strong> giúp giảm định kiến và giúp khách tham quan <strong>rút ra bài học quý từ quá khứ</strong> để tránh lặp lại sai lầm đắt giá.\n\nCuối cùng, bảo tàng mang đến <strong>hoạt động giải trí gia đình bổ ích</strong> và <strong>dễ tiếp cận với mọi tầng lớp</strong>. Với giá vé rẻ hoặc <strong>miễn phí vé vào cửa cho học sinh</strong>, các gia đình có thể cùng nhau học hỏi vào cuối tuần rời xa màn hình điện thoại đồng thời góp phần <strong>thúc đẩy du lịch địa phương</strong> và kinh doanh lân cận.\n\nTóm lại, triển lãm lịch sử làm phong phú giáo dục, bảo vệ di sản văn hóa và gắn kết cộng đồng. Vì vậy, nhà trường và các gia đình nên đến thăm bảo tàng thường xuyên hơn.",
+          "sample_b2": "Historical exhibitions and museum displays serve as indispensable cultural pillars in contemporary society. Far from being dusty warehouses of old objects, well-curated museums deliver substantial educational, cultural, and civic benefits for both students and the general public.\n\nPrimarily, historical exhibitions revolutionize learning by turning abstract narratives into <strong>tangible, memorable experiences</strong>. Whereas conventional textbook lessons often present fragmented dates, encountering <strong>authentic artifacts and manuscripts</strong> alongside <strong>interactive multimedia reconstructions</strong> engages multiple senses and brings distant eras to life. This <strong>experiential mode of learning</strong> significantly <strong>deepens long-term retention</strong> while sharpening critical thinking as students <strong>examine primary historical evidence</strong> firsthand, serving as an <strong>irreplaceable complement to formal schooling</strong>.\n\nBeyond academics, museums play a crucial role in <strong>safeguarding collective memory</strong> and fostering social empathy. Amid rapid globalization, showcasing national artistry and stories of resilience helps <strong>anchor citizens in their shared heritage</strong>, motivating public support for <strong>monument restoration</strong> and <strong>responsible cultural stewardship</strong>. Equally important, international and multicultural exhibits <strong>broaden cultural horizons</strong>, <strong>dismantle narrow stereotypes</strong>, and invite civic reflection—allowing citizens to <strong>extract enduring lessons from past triumphs and tragedies</strong> so society avoids repeating costly errors.\n\nFinally, museums act as <strong>stimulating public sanctuaries</strong> that enrich community life and regional economies. Affordable admission ensures <strong>inclusive cultural enrichment</strong> for families of all incomes, while <strong>well-curated museum exhibitions</strong> attract domestic and foreign tourists, strengthening <strong>regional economic vitality</strong>.\n\nIn conclusion, visiting historical exhibitions deepens education, preserves shared heritage, cultivates empathy, and energizes local communities. Sustained public investment and regular school visits are therefore vital to keep these living links with the past thriving.",
+          "translation_b2": "Các triển lãm lịch sử và trưng bày bảo tàng đóng vai trò là những trụ cột văn hóa không thể thiếu trong xã hội đương đại. Hoàn toàn không phải những nhà kho bám bụi chứa đồ cũ, các bảo tàng được giám tuyển công phu mang lại lợi ích to lớn về giáo dục, văn hóa và công dân cho cả học sinh lẫn công chúng.\n\nTrước hết, triển lãm lịch sử cách mạng hóa việc học bằng cách biến các câu chuyện trừu tượng thành <strong>trải nghiệm trực quan đáng nhớ</strong>. Trong khi bài học sách giáo khoa truyền thống thường trình bày các mốc niên đại rời rạc, việc tiếp xúc với <strong>hiện vật nguyên bản và bản thảo gốc</strong> cùng <strong>không gian tái hiện đa phương tiện tương tác</strong> đánh thức nhiều giác quan và tái hiện sống động thời kỳ xa xưa. <strong>Phương thức học tập trải nghiệm</strong> này giúp <strong>tăng cường khả năng ghi nhớ dài hạn</strong> đồng thời mài giũa tư duy phản biện khi học sinh tự mình <strong>phân tích bằng chứng lịch sử gốc</strong>, trở thành <strong>phần bổ trợ không thể thay thế cho trường học chính quy</strong>.\n\nVượt ngoài học thuật, bảo tàng đóng vai trò then chốt trong việc <strong>bảo vệ ký ức tập thể</strong> và nuôi dưỡng lòng đồng cảm xã hội. Giữa làn sóng toàn cầu hóa nhanh chóng, việc trưng bày nghệ thuật dân tộc và câu chuyện về sức kiên cường giúp <strong>gắn chặt công dân với di sản chung</strong>, thúc đẩy sự ủng hộ của cộng đồng với <strong>công tác trùng tu di tích</strong> và <strong>trách nhiệm gìn giữ văn hóa</strong>. Quan trọng không kém, các trưng bày quốc tế và đa văn hóa giúp <strong>mở rộng tầm nhìn văn hóa</strong>, <strong>xóa bỏ định kiến khuôn mẫu hẹp hòi</strong> và khơi gợi suy ngẫm công dân — giúp mọi người <strong>đúc kết bài học bền vững từ thành tựu và bi kịch quá khứ</strong> để xã hội tránh lặp lại sai lầm đắt giá.\n\nCuối cùng, bảo tàng đóng vai trò như <strong>không gian công cộng đầy cảm hứng</strong> làm phong phú đời sống cộng đồng và kinh tế địa phương. Giá vé hợp lý đảm bảo <strong>sự bồi đắp văn hóa bình đẳng</strong> cho các gia đình ở mọi mức thu nhập, trong khi các <strong>triển lãm bảo tàng được giám tuyển công phu</strong> thu hút du khách trong và ngoài nước, tăng cường <strong>sức sống kinh tế khu vực</strong>.\n\nTóm lại, tham quan triển lãm lịch sử đào sâu giáo dục, bảo tồn di sản chung, nuôi dưỡng lòng đồng cảm và tạo sức sống cho cộng đồng địa phương. Do đó, sự đầu tư công bền vững và các chuyến tham quan học đường thường xuyên là thiết yếu để giữ cho cầu nối sống động với quá khứ này luôn phát triển.",
+          "vocab_step": {
+            "theme": "Historical Exhibitions & Museums",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "exhibition",
+                "ipa": "/ˌeksɪˈbɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cuộc triển lãm",
+                "family": "",
+                "example_en": "Historical exhibitions bring past eras vividly to life.",
+                "example_vi": ""
+              },
+              {
+                "word": "museum",
+                "ipa": "/mjuˈziːəm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bảo tàng",
+                "family": "",
+                "example_en": "School trips to museums make history enjoyable.",
+                "example_vi": ""
+              },
+              {
+                "word": "display",
+                "ipa": "/dɪˈspleɪ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "vật trưng bày, khu trưng bày",
+                "family": "",
+                "example_en": "Interactive museum displays capture students' attention.",
+                "example_vi": ""
+              },
+              {
+                "word": "artifact",
+                "ipa": "/ˈɑːtɪfækt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "hiện vật lịch sử",
+                "family": "",
+                "example_en": "Seeing real ancient artifacts helps learners remember lessons.",
+                "example_vi": ""
+              },
+              {
+                "word": "heritage",
+                "ipa": "/ˈherɪtɪdʒ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "di sản",
+                "family": "",
+                "example_en": "Museums encourage citizens to protect national heritage.",
+                "example_vi": ""
+              },
+              {
+                "word": "ancestor",
+                "ipa": "/ˈænsestər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tổ tiên",
+                "family": "",
+                "example_en": "Exhibitions tell inspiring stories about our ancestors.",
+                "example_vi": ""
+              },
+              {
+                "word": "vividly",
+                "ipa": "/ˈvɪvɪdli/",
+                "pos": "adv",
+                "level": "B1, B2",
+                "vi": "một cách sinh động",
+                "family": "",
+                "example_en": "Visual models show past events much more vividly.",
+                "example_vi": ""
+              },
+              {
+                "word": "preserve",
+                "ipa": "/prɪˈzɜːv/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "bảo tồn, gìn giữ",
+                "family": "",
+                "example_en": "Public awareness helps preserve precious historic sites.",
+                "example_vi": ""
+              },
+              {
+                "word": "civilization",
+                "ipa": "/ˌsɪvəlaɪˈzeɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nền văn minh",
+                "family": "",
+                "example_en": "Visitors can learn about ancient civilizations worldwide.",
+                "example_vi": ""
+              },
+              {
+                "word": "prejudice",
+                "ipa": "/ˈpredʒudɪs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "định kiến",
+                "family": "",
+                "example_en": "Understanding diverse histories reduces cultural prejudice.",
+                "example_vi": ""
+              },
+              {
+                "word": "sacrifice",
+                "ipa": "/ˈsækrɪfaɪs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự hy sinh",
+                "family": "",
+                "example_en": "Museums remind youth of earlier generations' sacrifices.",
+                "example_vi": ""
+              },
+              {
+                "word": "evidence",
+                "ipa": "/ˈevɪdəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bằng chứng",
+                "family": "",
+                "example_en": "Original letters provide real historical evidence.",
+                "example_vi": ""
+              },
+              {
+                "word": "reflect",
+                "ipa": "/rɪˈflekt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "suy ngẫm",
+                "family": "",
+                "example_en": "War exhibitions prompt visitors to reflect on peace.",
+                "example_vi": ""
+              },
+              {
+                "word": "admission",
+                "ipa": "/ədˈmɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "vé vào cửa, sự cho vào",
+                "family": "",
+                "example_en": "Free student admission makes museums accessible to all.",
+                "example_vi": ""
+              },
+              {
+                "word": "revenue",
+                "ipa": "/ˈrevənjuː/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "doanh thu, nguồn thu",
+                "family": "",
+                "example_en": "Cultural tourism generates revenue for local cities.",
+                "example_vi": ""
+              },
+              {
+                "word": "root",
+                "ipa": "/ruːt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cội nguồn",
+                "family": "",
+                "example_en": "Learning local history connects people to their roots.",
+                "example_vi": ""
+              },
+              {
+                "word": "relic",
+                "ipa": "/ˈrelɪk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "di vật, cổ vật",
+                "family": "",
+                "example_en": "Museums protect fragile relics for future generations.",
+                "example_vi": ""
+              },
+              {
+                "word": "leisure",
+                "ipa": "/ˈleʒər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "giải trí lúc nhàn rỗi",
+                "family": "",
+                "example_en": "Visiting exhibitions is a meaningful family leisure activity.",
+                "example_vi": ""
+              },
+              {
+                "word": "tangible",
+                "ipa": "/ˈtændʒəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hữu hình, trực quan",
+                "family": "",
+                "example_en": "Artifacts turn abstract lessons into tangible experiences.",
+                "example_vi": ""
+              },
+              {
+                "word": "curate",
+                "ipa": "/kjʊəˈreɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "giám tuyển, tổ chức trưng bày",
+                "family": "",
+                "example_en": "Modern museums curate engaging multimedia exhibitions.",
+                "example_vi": ""
+              },
+              {
+                "word": "manuscript",
+                "ipa": "/ˈmænjuskrɪpt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bản thảo cổ, thư tay gốc",
+                "family": "",
+                "example_en": "Original manuscripts offer firsthand insights into history.",
+                "example_vi": ""
+              },
+              {
+                "word": "retention",
+                "ipa": "/rɪˈtenʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng ghi nhớ",
+                "family": "",
+                "example_en": "Experiential visits boost long-term memory retention.",
+                "example_vi": ""
+              },
+              {
+                "word": "stewardship",
+                "ipa": "/ˈstjuːədʃɪp/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "trách nhiệm gìn giữ, trông nom",
+                "family": "",
+                "example_en": "Cultural pride encourages responsible heritage stewardship.",
+                "example_vi": ""
+              },
+              {
+                "word": "restoration",
+                "ipa": "/ˌrestəˈreɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự trùng tu, phục dựng",
+                "family": "",
+                "example_en": "Public support funds vital monument restoration.",
+                "example_vi": ""
+              },
+              {
+                "word": "cohesion",
+                "ipa": "/kəʊˈhiːʒn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự gắn kết xã hội",
+                "family": "",
+                "example_en": "Cross-cultural understanding strengthens social cohesion.",
+                "example_vi": ""
+              },
+              {
+                "word": "stereotype",
+                "ipa": "/ˈsteriətaɪp/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khuôn mẫu định kiến",
+                "family": "",
+                "example_en": "Learning other histories helps dismantle stereotypes.",
+                "example_vi": ""
+              },
+              {
+                "word": "legacy",
+                "ipa": "/ˈleɡəsi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "di sản để lại",
+                "family": "",
+                "example_en": "Exhibitions keep national historical legacies vibrant.",
+                "example_vi": ""
+              },
+              {
+                "word": "sanctuary",
+                "ipa": "/ˈsæŋktʃuəri/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "không gian thanh bình, nơi trú ẩn",
+                "family": "",
+                "example_en": "Museums act as stimulating public sanctuaries for families.",
+                "example_vi": ""
+              },
+              {
+                "word": "narrative",
+                "ipa": "/ˈnærətɪv/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "câu chuyện, mạch kể lịch sử",
+                "family": "",
+                "example_en": "Displays bring complex historical narratives to life.",
+                "example_vi": ""
+              },
+              {
+                "word": "fragmented",
+                "ipa": "/fræɡˈmentɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "rời rạc, đứt đoạn",
+                "family": "",
+                "example_en": "Textbooks often present dates as fragmented facts.",
+                "example_vi": ""
+              },
+              {
+                "word": "reconstruction",
+                "ipa": "/ˌriːkənˈstrʌkʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "mô hình / không gian tái hiện",
+                "family": "",
+                "example_en": "3D reconstructions help students visualize ancient towns.",
+                "example_vi": ""
+              },
+              {
+                "word": "archive",
+                "ipa": "/ˈɑːkaɪv/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "lưu trữ tư liệu",
+                "family": "",
+                "example_en": "Museums do more than simply archive the past.",
+                "example_vi": ""
+              },
+              {
+                "word": "dividend",
+                "ipa": "/ˈdɪvɪdend/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "lợi ích thu lại",
+                "family": "",
+                "example_en": "Cultural hubs yield social and economic dividends.",
+                "example_vi": ""
+              },
+              {
+                "word": "tolerant",
+                "ipa": "/ˈtɒlərənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "khoan dung, cởi mở",
+                "family": "",
+                "example_en": "Museum education nurtures a more tolerant citizenry.",
+                "example_vi": ""
+              },
+              {
+                "word": "accountable",
+                "ipa": "/əˈkaʊntəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có trách nhiệm giải trình",
+                "family": "",
+                "example_en": "History shows the importance of accountable governance.",
+                "example_vi": ""
+              },
+              {
+                "word": "experiential",
+                "ipa": "/ɪkˌspɪəriˈenʃl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính trải nghiệm",
+                "family": "",
+                "example_en": "Experiential learning deepens students' curiosity.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "visit historical exhibitions",
+                "level": "B1",
+                "vi": "tham quan triển lãm lịch sử",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "see ancient artifacts in person",
+                "level": "B1",
+                "vi": "tận mắt ngắm hiện vật cổ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "understand history vividly",
+                "level": "B1",
+                "vi": "hiểu lịch sử một cách sinh động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "interactive museum screens",
+                "level": "B1",
+                "vi": "màn hình tương tác trong bảo tàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "rich visual experience",
+                "level": "B1",
+                "vi": "trải nghiệm trực quan phong phú",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "beyond boring textbook dates",
+                "level": "B1",
+                "vi": "vượt xa mốc ngày tháng khô khan trong sách",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "remember lessons longer",
+                "level": "B1",
+                "vi": "ghi nhớ bài học lâu hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "spark students' interest",
+                "level": "B1",
+                "vi": "khơi dậy hứng thú học sinh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tangible memorable experiences",
+                "level": "B2",
+                "vi": "trải nghiệm trực quan đáng nhớ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "authentic artifacts and manuscripts",
+                "level": "B2",
+                "vi": "hiện vật nguyên bản và bản thảo gốc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "interactive multimedia reconstructions",
+                "level": "B2",
+                "vi": "không gian tái hiện đa phương tiện tương tác",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "experiential mode of learning",
+                "level": "B2",
+                "vi": "phương thức học tập trải nghiệm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "deepen long-term retention",
+                "level": "B2",
+                "vi": "tăng cường khả năng ghi nhớ dài hạn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "examine primary historical evidence",
+                "level": "B2",
+                "vi": "phân tích bằng chứng lịch sử gốc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "irreplaceable complement to schooling",
+                "level": "B2",
+                "vi": "phần bổ trợ không thể thay thế cho trường học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "bring distant eras to life",
+                "level": "B2",
+                "vi": "tái hiện sống động các thời kỳ xa xưa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "nurture cultural pride",
+                "level": "B1",
+                "vi": "nuôi dưỡng lòng tự hào văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "protect national heritage",
+                "level": "B1",
+                "vi": "bảo vệ di sản quốc gia",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "understand one's country's roots",
+                "level": "B1",
+                "vi": "hiểu rõ cội nguồn đất nước",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stories of ancestors",
+                "level": "B1",
+                "vi": "câu chuyện về tổ tiên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "appreciate peace and traditions",
+                "level": "B1",
+                "vi": "trân trọng hòa bình và truyền thống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sacrifices of earlier generations",
+                "level": "B1",
+                "vi": "sự hy sinh của các thế hệ đi trước",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "preserve historic sites and relics",
+                "level": "B1",
+                "vi": "bảo tồn di tích và cổ vật",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "long-standing local traditions",
+                "level": "B1",
+                "vi": "truyền thống địa phương lâu đời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safeguard collective memory",
+                "level": "B2",
+                "vi": "bảo vệ ký ức tập thể",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "anchor citizens in shared heritage",
+                "level": "B2",
+                "vi": "gắn chặt công dân với di sản chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stories of collective resilience",
+                "level": "B2",
+                "vi": "câu chuyện về sức kiên cường tập thể",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support monument restoration",
+                "level": "B2",
+                "vi": "ủng hộ công tác trùng tu di tích",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "responsible cultural stewardship",
+                "level": "B2",
+                "vi": "trách nhiệm gìn giữ văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "keep historical legacies vibrant",
+                "level": "B2",
+                "vi": "giữ cho di sản lịch sử luôn sống động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "across successive generations",
+                "level": "B2",
+                "vi": "xuyên suốt các thế hệ nối tiếp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "counter cultural disconnection",
+                "level": "B2",
+                "vi": "chống lại sự đứt gãy văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "diverse world civilizations",
+                "level": "B1",
+                "vi": "các nền văn minh đa dạng trên thế giới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "respect cultural differences",
+                "level": "B1",
+                "vi": "tôn trọng sự khác biệt văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "become more open-minded",
+                "level": "B1",
+                "vi": "trở nên cởi mở hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce cultural prejudice",
+                "level": "B1",
+                "vi": "giảm định kiến văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "draw valuable lessons from the past",
+                "level": "B1",
+                "vi": "rút ra bài học quý từ quá khứ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid repeating past mistakes",
+                "level": "B1",
+                "vi": "tránh lặp lại sai lầm quá khứ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reflect on modern issues",
+                "level": "B1",
+                "vi": "suy ngẫm về các vấn đề hiện đại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "shape wise responsible citizens",
+                "level": "B1",
+                "vi": "hình thành công dân thông thái và trách nhiệm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "broaden cultural horizons",
+                "level": "B2",
+                "vi": "mở rộng tầm nhìn văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "dismantle narrow stereotypes",
+                "level": "B2",
+                "vi": "xóa bỏ định kiến khuôn mẫu hẹp hòi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strengthen social cohesion",
+                "level": "B2",
+                "vi": "củng cố sự gắn kết xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "promote peaceful intercultural dialogue",
+                "level": "B2",
+                "vi": "thúc đẩy đối thoại liên văn hóa hòa bình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "extract lessons from triumphs and tragedies",
+                "level": "B2",
+                "vi": "đúc kết bài học từ thành tựu và bi kịch",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "recognize historical warning signs",
+                "level": "B2",
+                "vi": "nhận diện sớm dấu hiệu cảnh báo lịch sử",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lifelong classrooms for citizenship",
+                "level": "B2",
+                "vi": "lớp học suốt đời về tư cách công dân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "nurture a tolerant modern citizenry",
+                "level": "B2",
+                "vi": "nuôi dưỡng cộng đồng công dân bao dung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "meaningful family leisure",
+                "level": "B1",
+                "vi": "hoạt động giải trí gia đình bổ ích",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "affordable public attractions",
+                "level": "B1",
+                "vi": "điểm tham quan công cộng giá hợp lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "free entry for students",
+                "level": "B1",
+                "vi": "miễn phí vé vào cửa cho học sinh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "share meaningful conversations",
+                "level": "B1",
+                "vi": "cùng trò chuyện về chủ đề ý nghĩa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "away from phone screens",
+                "level": "B1",
+                "vi": "rời xa màn hình điện thoại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "accessible to everyone",
+                "level": "B1",
+                "vi": "dễ tiếp cận với mọi tầng lớp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "boost local tourism",
+                "level": "B1",
+                "vi": "thúc đẩy du lịch địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "generate museum revenue",
+                "level": "B1",
+                "vi": "tạo nguồn thu duy trì bảo tàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stimulating public sanctuaries",
+                "level": "B2",
+                "vi": "không gian công cộng đầy cảm hứng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "inclusive cultural enrichment",
+                "level": "B2",
+                "vi": "sự bồi đắp văn hóa bình đẳng cho mọi người",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "well-curated museum exhibitions",
+                "level": "B2",
+                "vi": "triển lãm bảo tàng được giám tuyển công phu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "attract domestic and foreign tourists",
+                "level": "B2",
+                "vi": "thu hút du khách trong và ngoài nước",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support local hospitality businesses",
+                "level": "B2",
+                "vi": "hỗ trợ doanh nghiệp dịch vụ địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "regional economic vitality",
+                "level": "B2",
+                "vi": "sức sống kinh tế khu vực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "generate parallel social dividends",
+                "level": "B2",
+                "vi": "tạo ra lợi ích xã hội song hành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "intergenerational family outings",
+                "level": "B2",
+                "vi": "chuyến tham quan gắn kết nhiều thế hệ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Học Lịch sử Sinh động & Tư duy (Education & Learning)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "visit historical exhibitions",
+                    "phrase": "visit historical exhibitions",
+                    "vi": "tham quan triển lãm lịch sử",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "see ancient artifacts in person",
+                    "phrase": "see ancient artifacts in person",
+                    "vi": "tận mắt ngắm hiện vật cổ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "understand history vividly",
+                    "phrase": "understand history vividly",
+                    "vi": "hiểu lịch sử một cách sinh động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "interactive museum screens",
+                    "phrase": "interactive museum screens",
+                    "vi": "màn hình tương tác trong bảo tàng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "rich visual experience",
+                    "phrase": "rich visual experience",
+                    "vi": "trải nghiệm trực quan phong phú",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "beyond boring textbook dates",
+                    "phrase": "beyond boring textbook dates",
+                    "vi": "vượt xa mốc ngày tháng khô khan trong sách",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "remember lessons longer",
+                    "phrase": "remember lessons longer",
+                    "vi": "ghi nhớ bài học lâu hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "spark students' interest",
+                    "phrase": "spark students' interest",
+                    "vi": "khơi dậy hứng thú học sinh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tangible memorable experiences",
+                    "phrase": "tangible memorable experiences",
+                    "vi": "trải nghiệm trực quan đáng nhớ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "authentic artifacts and manuscripts",
+                    "phrase": "authentic artifacts and manuscripts",
+                    "vi": "hiện vật nguyên bản và bản thảo gốc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "interactive multimedia reconstructions",
+                    "phrase": "interactive multimedia reconstructions",
+                    "vi": "không gian tái hiện đa phương tiện tương tác",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "experiential mode of learning",
+                    "phrase": "experiential mode of learning",
+                    "vi": "phương thức học tập trải nghiệm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "deepen long-term retention",
+                    "phrase": "deepen long-term retention",
+                    "vi": "tăng cường khả năng ghi nhớ dài hạn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "examine primary historical evidence",
+                    "phrase": "examine primary historical evidence",
+                    "vi": "phân tích bằng chứng lịch sử gốc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "irreplaceable complement to schooling",
+                    "phrase": "irreplaceable complement to schooling",
+                    "vi": "phần bổ trợ không thể thay thế cho trường học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "bring distant eras to life",
+                    "phrase": "bring distant eras to life",
+                    "vi": "tái hiện sống động các thời kỳ xa xưa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Bản sắc Văn hóa & Bảo tồn Di sản (Heritage & Identity)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "nurture cultural pride",
+                    "phrase": "nurture cultural pride",
+                    "vi": "nuôi dưỡng lòng tự hào văn hóa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "protect national heritage",
+                    "phrase": "protect national heritage",
+                    "vi": "bảo vệ di sản quốc gia",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "understand one's country's roots",
+                    "phrase": "understand one's country's roots",
+                    "vi": "hiểu rõ cội nguồn đất nước",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stories of ancestors",
+                    "phrase": "stories of ancestors",
+                    "vi": "câu chuyện về tổ tiên",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "appreciate peace and traditions",
+                    "phrase": "appreciate peace and traditions",
+                    "vi": "trân trọng hòa bình và truyền thống",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sacrifices of earlier generations",
+                    "phrase": "sacrifices of earlier generations",
+                    "vi": "sự hy sinh của các thế hệ đi trước",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "preserve historic sites and relics",
+                    "phrase": "preserve historic sites and relics",
+                    "vi": "bảo tồn di tích và cổ vật",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "long-standing local traditions",
+                    "phrase": "long-standing local traditions",
+                    "vi": "truyền thống địa phương lâu đời",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safeguard collective memory",
+                    "phrase": "safeguard collective memory",
+                    "vi": "bảo vệ ký ức tập thể",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "anchor citizens in shared heritage",
+                    "phrase": "anchor citizens in shared heritage",
+                    "vi": "gắn chặt công dân với di sản chung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stories of collective resilience",
+                    "phrase": "stories of collective resilience",
+                    "vi": "câu chuyện về sức kiên cường tập thể",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support monument restoration",
+                    "phrase": "support monument restoration",
+                    "vi": "ủng hộ công tác trùng tu di tích",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "responsible cultural stewardship",
+                    "phrase": "responsible cultural stewardship",
+                    "vi": "trách nhiệm gìn giữ văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "keep historical legacies vibrant",
+                    "phrase": "keep historical legacies vibrant",
+                    "vi": "giữ cho di sản lịch sử luôn sống động",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "across successive generations",
+                    "phrase": "across successive generations",
+                    "vi": "xuyên suốt các thế hệ nối tiếp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "counter cultural disconnection",
+                    "phrase": "counter cultural disconnection",
+                    "vi": "chống lại sự đứt gãy văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Đa văn hóa & Bài học Quá khứ (Empathy & Civic Lessons)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "diverse world civilizations",
+                    "phrase": "diverse world civilizations",
+                    "vi": "các nền văn minh đa dạng trên thế giới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "respect cultural differences",
+                    "phrase": "respect cultural differences",
+                    "vi": "tôn trọng sự khác biệt văn hóa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "become more open-minded",
+                    "phrase": "become more open-minded",
+                    "vi": "trở nên cởi mở hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce cultural prejudice",
+                    "phrase": "reduce cultural prejudice",
+                    "vi": "giảm định kiến văn hóa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "draw valuable lessons from the past",
+                    "phrase": "draw valuable lessons from the past",
+                    "vi": "rút ra bài học quý từ quá khứ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid repeating past mistakes",
+                    "phrase": "avoid repeating past mistakes",
+                    "vi": "tránh lặp lại sai lầm quá khứ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reflect on modern issues",
+                    "phrase": "reflect on modern issues",
+                    "vi": "suy ngẫm về các vấn đề hiện đại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "shape wise responsible citizens",
+                    "phrase": "shape wise responsible citizens",
+                    "vi": "hình thành công dân thông thái và trách nhiệm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "broaden cultural horizons",
+                    "phrase": "broaden cultural horizons",
+                    "vi": "mở rộng tầm nhìn văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "dismantle narrow stereotypes",
+                    "phrase": "dismantle narrow stereotypes",
+                    "vi": "xóa bỏ định kiến khuôn mẫu hẹp hòi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strengthen social cohesion",
+                    "phrase": "strengthen social cohesion",
+                    "vi": "củng cố sự gắn kết xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "promote peaceful intercultural dialogue",
+                    "phrase": "promote peaceful intercultural dialogue",
+                    "vi": "thúc đẩy đối thoại liên văn hóa hòa bình",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "extract lessons from triumphs and tragedies",
+                    "phrase": "extract lessons from triumphs and tragedies",
+                    "vi": "đúc kết bài học từ thành tựu và bi kịch",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "recognize historical warning signs",
+                    "phrase": "recognize historical warning signs",
+                    "vi": "nhận diện sớm dấu hiệu cảnh báo lịch sử",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lifelong classrooms for citizenship",
+                    "phrase": "lifelong classrooms for citizenship",
+                    "vi": "lớp học suốt đời về tư cách công dân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "nurture a tolerant modern citizenry",
+                    "phrase": "nurture a tolerant modern citizenry",
+                    "vi": "nuôi dưỡng cộng đồng công dân bao dung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Giải trí Lành mạnh & Du lịch Văn hóa (Leisure & Tourism)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "meaningful family leisure",
+                    "phrase": "meaningful family leisure",
+                    "vi": "hoạt động giải trí gia đình bổ ích",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "affordable public attractions",
+                    "phrase": "affordable public attractions",
+                    "vi": "điểm tham quan công cộng giá hợp lý",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "free entry for students",
+                    "phrase": "free entry for students",
+                    "vi": "miễn phí vé vào cửa cho học sinh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "share meaningful conversations",
+                    "phrase": "share meaningful conversations",
+                    "vi": "cùng trò chuyện về chủ đề ý nghĩa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "away from phone screens",
+                    "phrase": "away from phone screens",
+                    "vi": "rời xa màn hình điện thoại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "accessible to everyone",
+                    "phrase": "accessible to everyone",
+                    "vi": "dễ tiếp cận với mọi tầng lớp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "boost local tourism",
+                    "phrase": "boost local tourism",
+                    "vi": "thúc đẩy du lịch địa phương",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "generate museum revenue",
+                    "phrase": "generate museum revenue",
+                    "vi": "tạo nguồn thu duy trì bảo tàng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stimulating public sanctuaries",
+                    "phrase": "stimulating public sanctuaries",
+                    "vi": "không gian công cộng đầy cảm hứng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "inclusive cultural enrichment",
+                    "phrase": "inclusive cultural enrichment",
+                    "vi": "sự bồi đắp văn hóa bình đẳng cho mọi người",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "well-curated museum exhibitions",
+                    "phrase": "well-curated museum exhibitions",
+                    "vi": "triển lãm bảo tàng được giám tuyển công phu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "attract domestic and foreign tourists",
+                    "phrase": "attract domestic and foreign tourists",
+                    "vi": "thu hút du khách trong và ngoài nước",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support local hospitality businesses",
+                    "phrase": "support local hospitality businesses",
+                    "vi": "hỗ trợ doanh nghiệp dịch vụ địa phương",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "regional economic vitality",
+                    "phrase": "regional economic vitality",
+                    "vi": "sức sống kinh tế khu vực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "generate parallel social dividends",
+                    "phrase": "generate parallel social dividends",
+                    "vi": "tạo ra lợi ích xã hội song hành",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "intergenerational family outings",
+                    "phrase": "intergenerational family outings",
+                    "vi": "chuyến tham quan gắn kết nhiều thế hệ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Văn hóa",
+                "title": "Giá trị của bảo tàng và triển lãm lịch sử đối với thế hệ trẻ",
+                "summary": "Phân tích lợi ích của việc tham quan bảo tàng trong học tập trực quan, gìn giữ bản sắc dân tộc và phát triển du lịch văn hóa.",
+                "url": "https://vnexpress.net/giai-tri/sach"
+              }
+            ],
+            "en": [
+              {
+                "source": "UNESCO",
+                "title": "Museums: Education, Culture, and Heritage Preservation",
+                "summary": "UNESCO overview highlighting how museums and historical exhibitions foster lifelong learning, intercultural dialogue, and heritage stewardship.",
+                "url": "https://www.unesco.org/en/museums"
+              }
+            ]
+          }
+        }
       },
       {
         "id": 66,
@@ -96874,6 +102663,2807 @@ const ESSAY_DATA = [
                 "title": "Gap Years: Ideas and Things to Think About",
                 "summary": "Official UK admissions guidance on planning a purposeful gap year, weighing personal growth and employability benefits against academic and financial considerations.",
                 "url": "https://www.ucas.com/alternatives/gap-year/gap-years-ideas-and-things-think-about"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 74,
+        "title_en": "Benefits of encouraging children to be independent early",
+        "title_vi": "Lợi ích của việc khuyến khích trẻ em tự lập sớm",
+        "tags": [
+          "Advantages"
+        ],
+        "context": "Many child psychologists advocate that parents should foster early independence in children from a young age. This can be done by teaching them basic self-care skills, assigning simple household chores such as washing dishes and tidying rooms, and encouraging them to sleep in separate rooms.",
+        "context_vi": "Nhiều nhà tâm lý học trẻ em khuyến nghị rằng cha mẹ nên nuôi dưỡng tính tự lập cho trẻ từ sớm. Điều này có thể thực hiện bằng cách dạy trẻ các kỹ năng tự chăm sóc cơ bản, giao những việc nhà đơn giản như rửa bát và dọn phòng, đồng thời khuyến khích trẻ ngủ ở phòng riêng.",
+        "prompt": "Write an essay to an educated reader to discuss the benefits of encouraging children to be independent early. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những lợi ích của việc khuyến khích trẻ em tự lập sớm. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "encouraging children to be independent early",
+            "vi": "khuyến khích trẻ em tự lập từ sớm"
+          },
+          {
+            "en": "fostering early childhood independence / age-appropriate autonomy",
+            "vi": "nuôi dưỡng sự tự lập tuổi thơ / quyền tự chủ phù hợp lứa tuổi"
+          },
+          {
+            "en": "teaching self-care skills and assigning simple chores",
+            "vi": "dạy kỹ năng tự chăm sóc và giao việc nhà đơn giản"
+          },
+          {
+            "en": "building self-confidence, responsibility, and life competence",
+            "vi": "xây dựng sự tự tin, trách nhiệm và năng lực sống"
+          },
+          {
+            "en": "preparing children for a smooth transition into adulthood",
+            "vi": "chuẩn bị cho trẻ bước chuyển tiếp suôn sẻ sang tuổi trưởng thành"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: XÂY DỰNG SỰ TỰ TIN VÀ LÒNG TỰ TRỌNG TỪ SỚM",
+                "point_vi": "Khuyến khích trẻ tự lập sớm giúp các em phát triển sự tự tin và niềm tự hào về khả năng của bản thân.",
+                "point_en": "Encouraging early independence helps children develop strong self-confidence and pride in their own abilities.",
+                "point_collocations": [
+                  {
+                    "en": "early independence",
+                    "vi": "sự tự lập sớm"
+                  },
+                  {
+                    "en": "self-confidence",
+                    "vi": "sự tự tin"
+                  }
+                ],
+                "evidence_vi": "Khi trẻ tự mặc quần áo, dọn phòng hoặc ngủ riêng thành công, các em nhận ra mình có thể tự làm nhiều việc mà không cần bố mẹ làm hộ. Những chiến thắng nhỏ hằng ngày này giúp trẻ mạnh dạn hơn khi đối mặt với thử thách mới ở trường học. Nhờ vậy, các em lớn lên với thái độ tích cực và tin tưởng vào chính mình.",
+                "evidence_en": "When children successfully get dressed, tidy their rooms, or sleep in separate rooms, they realize they can handle tasks without parental help. These small daily achievements make young learners braver when facing new challenges at school. As a result, they grow up with a positive attitude and strong belief in themselves.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "separate rooms",
+                      "vi": "phòng riêng"
+                    },
+                    {
+                      "en": "parental help",
+                      "vi": "sự giúp đỡ của cha mẹ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "daily achievements",
+                      "vi": "thành tựu hằng ngày"
+                    },
+                    {
+                      "en": "new challenges",
+                      "vi": "thử thách mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "positive attitude",
+                      "vi": "thái độ tích cực"
+                    },
+                    {
+                      "en": "belief in themselves",
+                      "vi": "niềm tin vào bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "early independence",
+                    "vi": "sự tự lập sớm"
+                  },
+                  {
+                    "en": "self-confidence",
+                    "vi": "sự tự tin"
+                  },
+                  {
+                    "en": "separate rooms",
+                    "vi": "phòng riêng"
+                  },
+                  {
+                    "en": "parental help",
+                    "vi": "sự giúp đỡ của cha mẹ"
+                  },
+                  {
+                    "en": "daily achievements",
+                    "vi": "thành tựu hằng ngày"
+                  },
+                  {
+                    "en": "new challenges",
+                    "vi": "thử thách mới"
+                  },
+                  {
+                    "en": "positive attitude",
+                    "vi": "thái độ tích cực"
+                  },
+                  {
+                    "en": "belief in themselves",
+                    "vi": "niềm tin vào bản thân"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: HÌNH THÀNH KỸ NĂNG TỰ CHĂM SÓC VÀ KỸ NĂNG SỐNG THIẾT YẾU",
+                "point_vi": "Dạy trẻ tự lập sớm trang bị cho các em những kỹ năng tự chăm sóc và kỹ năng sống thiết yếu cho tương lai.",
+                "point_en": "Fostering early independence equips children with essential self-care and practical life skills for the future.",
+                "point_collocations": [
+                  {
+                    "en": "self-care skills",
+                    "vi": "kỹ năng tự chăm sóc"
+                  },
+                  {
+                    "en": "practical life skills",
+                    "vi": "kỹ năng sống thiết thực"
+                  }
+                ],
+                "evidence_vi": "Những công việc đơn giản như rửa bát, gấp quần áo hay sắp xếp bàn học giúp trẻ hình thành thói quen gọn gàng từ nhỏ. Khi bước vào bậc đại học hoặc sống xa nhà sau này, các em sẽ dễ dàng tự lo cho bản thân mà không bị bỡ ngỡ. Đây là hành trang vô giá mà không cuốn sách giáo khoa nào có thể dạy đầy đủ.",
+                "evidence_en": "Simple routines such as washing dishes, folding clothes, and organizing study desks teach children neat habits from a young age. When they later enter university or move away from home, they can easily look after themselves without feeling overwhelmed. This practical preparation is a priceless foundation that textbooks alone cannot provide.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "washing dishes",
+                      "vi": "rửa bát đĩa"
+                    },
+                    {
+                      "en": "neat habits",
+                      "vi": "thói quen gọn gàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "move away from home",
+                      "vi": "sống xa nhà"
+                    },
+                    {
+                      "en": "look after themselves",
+                      "vi": "tự chăm sóc bản thân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "practical preparation",
+                      "vi": "sự chuẩn bị thực tế"
+                    },
+                    {
+                      "en": "priceless foundation",
+                      "vi": "nền tảng vô giá"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "self-care skills",
+                    "vi": "kỹ năng tự chăm sóc"
+                  },
+                  {
+                    "en": "practical life skills",
+                    "vi": "kỹ năng sống thiết thực"
+                  },
+                  {
+                    "en": "washing dishes",
+                    "vi": "rửa bát đĩa"
+                  },
+                  {
+                    "en": "neat habits",
+                    "vi": "thói quen gọn gàng"
+                  },
+                  {
+                    "en": "move away from home",
+                    "vi": "sống xa nhà"
+                  },
+                  {
+                    "en": "look after themselves",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "practical preparation",
+                    "vi": "sự chuẩn bị thực tế"
+                  },
+                  {
+                    "en": "priceless foundation",
+                    "vi": "nền tảng vô giá"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: RÈN LUYỆN TINH THẦN TRÁCH NHIỆM VÀ TÍNH KỶ LUẬT",
+                "point_vi": "Giao việc nhà phù hợp với lứa tuổi giúp trẻ học được tinh thần trách nhiệm và tính kỷ luật tự giác.",
+                "point_en": "Assigning age-appropriate household chores helps children learn personal responsibility and self-discipline.",
+                "point_collocations": [
+                  {
+                    "en": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "en": "personal responsibility",
+                    "vi": "trách nhiệm cá nhân"
+                  }
+                ],
+                "evidence_vi": "Khi biết rằng mỗi thành viên đều có phần việc riêng trong gia đình, trẻ sẽ hiểu giá trị của sức lao động và không còn ỷ lại vào người lớn. Việc duy trì giờ ngủ riêng đúng lịch và hoàn thành việc được giao cũng rèn cho trẻ thói quen tôn trọng quy tắc. Những phẩm chất này giúp trẻ trở thành học sinh chăm chỉ và công dân có trách nhiệm.",
+                "evidence_en": "When children understand that every family member shares duties at home, they appreciate hard work and stop relying blindly on adults. Keeping a regular bedtime in their own room and finishing assigned chores also teaches them to respect daily rules. These qualities help children become diligent students and responsible citizens.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "share duties",
+                      "vi": "chia sẻ bổn phận"
+                    },
+                    {
+                      "en": "appreciate hard work",
+                      "vi": "trân trọng sức lao động"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "regular bedtime",
+                      "vi": "giờ đi ngủ đều đặn"
+                    },
+                    {
+                      "en": "assigned chores",
+                      "vi": "việc nhà được giao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "diligent students",
+                      "vi": "học sinh chăm chỉ"
+                    },
+                    {
+                      "en": "responsible citizens",
+                      "vi": "công dân có trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "en": "personal responsibility",
+                    "vi": "trách nhiệm cá nhân"
+                  },
+                  {
+                    "en": "share duties",
+                    "vi": "chia sẻ bổn phận"
+                  },
+                  {
+                    "en": "appreciate hard work",
+                    "vi": "trân trọng sức lao động"
+                  },
+                  {
+                    "en": "regular bedtime",
+                    "vi": "giờ đi ngủ đều đặn"
+                  },
+                  {
+                    "en": "assigned chores",
+                    "vi": "việc nhà được giao"
+                  },
+                  {
+                    "en": "diligent students",
+                    "vi": "học sinh chăm chỉ"
+                  },
+                  {
+                    "en": "responsible citizens",
+                    "vi": "công dân có trách nhiệm"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: PHÁT TRIỂN KỸ NĂNG GIẢI QUYẾT VẤN ĐỀ VÀ RA QUYẾT ĐỊNH",
+                "point_vi": "Tự lập sớm khuyến khích trẻ rèn luyện tư duy độc lập, kỹ năng giải quyết vấn đề và khả năng tự ra quyết định.",
+                "point_en": "Early independence encourages children to develop problem-solving skills and make smart decisions on their own.",
+                "point_collocations": [
+                  {
+                    "en": "problem-solving skills",
+                    "vi": "kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "make smart decisions",
+                    "vi": "đưa ra quyết định thông minh"
+                  }
+                ],
+                "evidence_vi": "Trong quá trình tự dọn dẹp đồ chơi hay quản lý thời gian học tập, trẻ sẽ gặp những tình huống nhỏ cần tự suy nghĩ cách xử lý. Nếu mắc sai lầm nhỏ trong môi trường gia đình an toàn, trẻ có thể rút kinh nghiệm và tiến bộ nhanh hơn. Kỹ năng tư duy chủ động này vô cùng hữu ích cho cả học tập lẫn sự nghiệp sau này.",
+                "evidence_en": "While tidying up toys or managing homework schedules, children encounter small difficulties that require independent thinking. When they make minor mistakes within a safe home environment, they learn valuable lessons and improve quickly. Such proactive thinking skills prove highly useful in both future studies and careers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "managing homework schedules",
+                      "vi": "quản lý lịch làm bài tập"
+                    },
+                    {
+                      "en": "independent thinking",
+                      "vi": "tư duy độc lập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "minor mistakes",
+                      "vi": "sai lầm nhỏ"
+                    },
+                    {
+                      "en": "safe home environment",
+                      "vi": "môi trường gia đình an toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "proactive thinking",
+                      "vi": "tư duy chủ động"
+                    },
+                    {
+                      "en": "future studies and careers",
+                      "vi": "học tập và sự nghiệp tương lai"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "problem-solving skills",
+                    "vi": "kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "make smart decisions",
+                    "vi": "đưa ra quyết định thông minh"
+                  },
+                  {
+                    "en": "managing homework schedules",
+                    "vi": "quản lý lịch làm bài tập"
+                  },
+                  {
+                    "en": "independent thinking",
+                    "vi": "tư duy độc lập"
+                  },
+                  {
+                    "en": "minor mistakes",
+                    "vi": "sai lầm nhỏ"
+                  },
+                  {
+                    "en": "safe home environment",
+                    "vi": "môi trường gia đình an toàn"
+                  },
+                  {
+                    "en": "proactive thinking",
+                    "vi": "tư duy chủ động"
+                  },
+                  {
+                    "en": "future studies and careers",
+                    "vi": "học tập và sự nghiệp tương lai"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: GIẢM GÁNH NẶNG CHO CHA MẸ VÀ TĂNG SỰ GẮN KẾT GIA ĐÌNH",
+                "point_vi": "Trẻ em biết tự lập giúp giảm áp lực công việc hằng ngày cho cha mẹ và xây dựng bầu không khí gia đình hòa thuận hơn.",
+                "point_en": "Independent children ease daily stress for busy parents and help build a more harmonious family life.",
+                "point_collocations": [
+                  {
+                    "en": "ease daily stress",
+                    "vi": "giảm áp lực hằng ngày"
+                  },
+                  {
+                    "en": "harmonious family life",
+                    "vi": "cuộc sống gia đình hòa thuận"
+                  }
+                ],
+                "evidence_vi": "Khi con cái biết tự chăm sóc cá nhân, ngủ phòng riêng và phụ giúp rửa bát, cha mẹ sẽ có thêm thời gian nghỉ ngơi sau giờ làm việc. Hơn nữa, cùng nhau làm việc nhà tạo cơ hội để cha mẹ và con cái trò chuyện, thấu hiểu và tôn trọng nhau hơn. Nhờ đó, gia đình trở nên gắn bó và hạnh phúc hơn mỗi ngày.",
+                "evidence_en": "When children handle personal care, sleep in their own rooms, and help wash dishes, busy parents gain precious time to rest after work. Moreover, doing simple chores side by side gives parents and kids chances to talk, understand, and respect one another. Consequently, the whole family enjoys stronger bonds and greater daily happiness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "personal care",
+                      "vi": "chăm sóc cá nhân"
+                    },
+                    {
+                      "en": "precious time to rest",
+                      "vi": "thời gian nghỉ ngơi quý giá"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "side by side",
+                      "vi": "cùng nhau / kề vai sát cánh"
+                    },
+                    {
+                      "en": "respect one another",
+                      "vi": "tôn trọng lẫn nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stronger bonds",
+                      "vi": "sự gắn kết bền chặt hơn"
+                    },
+                    {
+                      "en": "daily happiness",
+                      "vi": "hạnh phúc hằng ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "ease daily stress",
+                    "vi": "giảm áp lực hằng ngày"
+                  },
+                  {
+                    "en": "harmonious family life",
+                    "vi": "cuộc sống gia đình hòa thuận"
+                  },
+                  {
+                    "en": "personal care",
+                    "vi": "chăm sóc cá nhân"
+                  },
+                  {
+                    "en": "precious time to rest",
+                    "vi": "thời gian nghỉ ngơi quý giá"
+                  },
+                  {
+                    "en": "side by side",
+                    "vi": "cùng nhau / kề vai sát cánh"
+                  },
+                  {
+                    "en": "respect one another",
+                    "vi": "tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "stronger bonds",
+                    "vi": "sự gắn kết bền chặt hơn"
+                  },
+                  {
+                    "en": "daily happiness",
+                    "vi": "hạnh phúc hằng ngày"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: BỒI ĐẮP SỰ TỰ TIN VÀ KHẢ NĂNG TỰ CHỦ TÂM LÝ (SELF-EFFICACY AND EMOTIONAL MATURITY)",
+                "point_vi": "Nuôi dưỡng tính tự lập từ sớm củng cố mạnh mẽ niềm tin vào năng lực bản thân và sự trưởng thành về mặt cảm xúc ở trẻ.",
+                "point_en": "Fostering early independence powerfully strengthens children's self-efficacy and long-term emotional maturity.",
+                "point_collocations": [
+                  {
+                    "en": "self-efficacy",
+                    "vi": "niềm tin vào năng lực tự chủ"
+                  },
+                  {
+                    "en": "emotional maturity",
+                    "vi": "sự trưởng thành về cảm xúc"
+                  }
+                ],
+                "evidence_vi": "Các nhà tâm lý học trẻ em chỉ ra rằng việc làm chủ những cột mốc đời thường như tự vệ sinh cá nhân, dọn phòng hay ngủ phòng riêng giúp trẻ vượt qua nỗi sợ bị tách rời một cách lành mạnh. Mỗi nhiệm vụ hoàn thành độc lập gửi tới não bộ thông điệp tích cực rằng trẻ có năng lực kiểm soát môi trường xung quanh. Nhờ cảm giác thành tựu nội tại này, các em ít rơi vào trạng thái lo âu hay lệ thuộc quá mức khi bước vào trường học và cộng đồng rộng lớn hơn. Về lâu dài, lòng tự tin vững vàng hình thành từ thơ ấu trở thành nền móng cho khả năng chống chịu trước áp lực tuổi trưởng thành.",
+                "evidence_en": "Child psychologists emphasize that mastering everyday milestones such as self-care routines, tidying rooms, and sleeping in separate bedrooms helps children overcome separation anxiety in a healthy manner. Every task completed independently reinforces an internal belief that they are capable of managing their own surroundings. Driven by this intrinsic sense of mastery, independent children are far less prone to helplessness or over-reliance when entering school and wider social environments. Over the long run, self-assurance built in early childhood lays the foundation for resilience under adult pressures.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "everyday milestones",
+                      "vi": "những cột mốc hằng ngày"
+                    },
+                    {
+                      "en": "separation anxiety",
+                      "vi": "nỗi lo âu khi xa cha mẹ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "internal belief",
+                      "vi": "niềm tin nội tại"
+                    },
+                    {
+                      "en": "manage surroundings",
+                      "vi": "làm chủ môi trường xung quanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intrinsic sense of mastery",
+                      "vi": "cảm giác làm chủ nội tại"
+                    },
+                    {
+                      "en": "over-reliance",
+                      "vi": "sự lệ thuộc quá mức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-assurance",
+                      "vi": "sự tự tin vững vàng"
+                    },
+                    {
+                      "en": "adult pressures",
+                      "vi": "áp lực tuổi trưởng thành"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "self-efficacy",
+                    "vi": "niềm tin vào năng lực tự chủ"
+                  },
+                  {
+                    "en": "emotional maturity",
+                    "vi": "sự trưởng thành về cảm xúc"
+                  },
+                  {
+                    "en": "everyday milestones",
+                    "vi": "những cột mốc hằng ngày"
+                  },
+                  {
+                    "en": "separation anxiety",
+                    "vi": "nỗi lo âu khi xa cha mẹ"
+                  },
+                  {
+                    "en": "internal belief",
+                    "vi": "niềm tin nội tại"
+                  },
+                  {
+                    "en": "manage surroundings",
+                    "vi": "làm chủ môi trường xung quanh"
+                  },
+                  {
+                    "en": "intrinsic sense of mastery",
+                    "vi": "cảm giác làm chủ nội tại"
+                  },
+                  {
+                    "en": "over-reliance",
+                    "vi": "sự lệ thuộc quá mức"
+                  },
+                  {
+                    "en": "self-assurance",
+                    "vi": "sự tự tin vững vàng"
+                  },
+                  {
+                    "en": "adult pressures",
+                    "vi": "áp lực tuổi trưởng thành"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TRANG BỊ NĂNG LỰC TỰ CHĂM SÓC VÀ THÍCH NGHI ĐỜI SỐNG (ESSENTIAL LIFE COMPETENCE)",
+                "point_vi": "Rèn luyện kỹ năng tự chăm sóc và việc nhà từ nhỏ trang bị năng lực sống thiết thực giúp trẻ chuyển tiếp suôn sẻ sang tuổi trưởng thành.",
+                "point_en": "Teaching self-care habits and household chores early equips children with indispensable life competence for a smooth transition into adulthood.",
+                "point_collocations": [
+                  {
+                    "en": "indispensable life competence",
+                    "vi": "năng lực sống không thể thiếu"
+                  },
+                  {
+                    "en": "transition into adulthood",
+                    "vi": "chuyển tiếp sang tuổi trưởng thành"
+                  }
+                ],
+                "evidence_vi": "Thực hành đều đặn những công việc như rửa bát, giặt giũ hay giữ gìn không gian sống ngăn nắp giúp kỹ năng sinh hoạt trở thành phản xạ tự nhiên thay vì gánh nặng. Khi phải sống xa gia đình để học đại học, đi du học hoặc bắt đầu sự nghiệp đầu tiên, những thanh niên được rèn tự lập sớm thích nghi nhanh hơn hẳn bạn bè được bao bọc quá mức. Họ biết cách quản lý thời gian, giữ gìn vệ sinh và chăm sóc sức khỏe cá nhân một cách khoa học mà không bị khủng hoảng tinh thần. Sự chuẩn bị thực tiễn này vì thế mang lại lợi thế cạnh tranh rõ rệt trong cuộc sống hiện đại.",
+                "evidence_en": "Regular participation in tasks like washing dishes, organizing belongings, and maintaining clean spaces turns essential domestic habits into second nature rather than stressful burdens. When these young people later move away for university, overseas study, or early careers, they adapt far more smoothly than overprotected peers. They are able to manage personal schedules, maintain healthy routines, and handle practical demands without experiencing severe adjustment shocks. Consequently, practical independence cultivated in childhood delivers lasting real-world advantages throughout modern life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "domestic habits",
+                      "vi": "thói quen sinh hoạt gia đình"
+                    },
+                    {
+                      "en": "second nature",
+                      "vi": "phản xạ tự nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "overprotected peers",
+                      "vi": "bạn bè được bao bọc quá mức"
+                    },
+                    {
+                      "en": "adapt smoothly",
+                      "vi": "thích nghi suôn sẻ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "practical demands",
+                      "vi": "nhu cầu thực tế"
+                    },
+                    {
+                      "en": "adjustment shocks",
+                      "vi": "cú sốc thích nghi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "real-world advantages",
+                      "vi": "lợi thế thực tế"
+                    },
+                    {
+                      "en": "cultivated in childhood",
+                      "vi": "được nuôi dưỡng từ thơ ấu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "indispensable life competence",
+                    "vi": "năng lực sống không thể thiếu"
+                  },
+                  {
+                    "en": "transition into adulthood",
+                    "vi": "chuyển tiếp sang tuổi trưởng thành"
+                  },
+                  {
+                    "en": "domestic habits",
+                    "vi": "thói quen sinh hoạt gia đình"
+                  },
+                  {
+                    "en": "second nature",
+                    "vi": "phản xạ tự nhiên"
+                  },
+                  {
+                    "en": "overprotected peers",
+                    "vi": "bạn bè được bao bọc quá mức"
+                  },
+                  {
+                    "en": "adapt smoothly",
+                    "vi": "thích nghi suôn sẻ"
+                  },
+                  {
+                    "en": "practical demands",
+                    "vi": "nhu cầu thực tế"
+                  },
+                  {
+                    "en": "adjustment shocks",
+                    "vi": "cú sốc thích nghi"
+                  },
+                  {
+                    "en": "real-world advantages",
+                    "vi": "lợi thế thực tế"
+                  },
+                  {
+                    "en": "cultivated in childhood",
+                    "vi": "được nuôi dưỡng từ thơ ấu"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: NUÔI DƯỠNG TINH THẦN TRÁCH NHIỆM VÀ ĐẠO ĐỨC LAO ĐỘNG (ACCOUNTABILITY AND WORK ETHIC)",
+                "point_vi": "Tham gia công việc gia đình từ sớm hình thành ý thức trách nhiệm, kỷ luật cá nhân và sự trân trọng giá trị lao động.",
+                "point_en": "Early involvement in family chores instills accountability, self-discipline, and a genuine appreciation for everyday effort.",
+                "point_collocations": [
+                  {
+                    "en": "instill accountability",
+                    "vi": "nuôi dưỡng ý thức trách nhiệm"
+                  },
+                  {
+                    "en": "everyday effort",
+                    "vi": "công sức lao động hằng ngày"
+                  }
+                ],
+                "evidence_vi": "Khi cha mẹ luôn làm thay mọi việc, trẻ rất dễ hình thành tâm lý ỷ lại và coi sự phục vụ của người khác là điều hiển nhiên. Ngược lại, tự chịu trách nhiệm với phòng ngủ riêng và góp sức vào việc nhà giúp trẻ nhận thức rõ rằng sự thoải mái chung đòi hỏi đóng góp từ tất cả mọi người. Quá trình duy trì kỷ luật sinh hoạt đều đặn này đồng thời rèn luyện tính kiên trì và sự chủ động trong học tập. Khi trưởng thành, những cá nhân mang đạo đức lao động vững chắc như vậy thường được đánh giá cao về độ tin cậy tại nơi làm việc.",
+                "evidence_en": "When parents handle every task for their children, young people easily develop an entitled mindset and take others' labor for granted. By contrast, taking ownership of a separate bedroom and contributing to shared chores teaches children that family comfort depends on collective effort. Sustaining these daily commitments simultaneously strengthens perseverance, punctuality, and academic self-discipline. In adulthood, individuals grounded in such a strong work ethic naturally earn greater trust and respect in professional environments.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "entitled mindset",
+                      "vi": "tư duy ỷ lại, đòi hỏi"
+                    },
+                    {
+                      "en": "take labor for granted",
+                      "vi": "coi sức lao động là hiển nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take ownership of",
+                      "vi": "chịu trách nhiệm hoàn toàn với"
+                    },
+                    {
+                      "en": "collective effort",
+                      "vi": "nỗ lực chung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "perseverance",
+                      "vi": "sự kiên trì"
+                    },
+                    {
+                      "en": "academic self-discipline",
+                      "vi": "kỷ luật tự giác học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "strong work ethic",
+                      "vi": "đạo đức lao động vững chắc"
+                    },
+                    {
+                      "en": "professional environments",
+                      "vi": "môi trường chuyên nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "instill accountability",
+                    "vi": "nuôi dưỡng ý thức trách nhiệm"
+                  },
+                  {
+                    "en": "everyday effort",
+                    "vi": "công sức lao động hằng ngày"
+                  },
+                  {
+                    "en": "entitled mindset",
+                    "vi": "tư duy ỷ lại, đòi hỏi"
+                  },
+                  {
+                    "en": "take labor for granted",
+                    "vi": "coi sức lao động là hiển nhiên"
+                  },
+                  {
+                    "en": "take ownership of",
+                    "vi": "chịu trách nhiệm hoàn toàn với"
+                  },
+                  {
+                    "en": "collective effort",
+                    "vi": "nỗ lực chung"
+                  },
+                  {
+                    "en": "perseverance",
+                    "vi": "sự kiên trì"
+                  },
+                  {
+                    "en": "academic self-discipline",
+                    "vi": "kỷ luật tự giác học tập"
+                  },
+                  {
+                    "en": "strong work ethic",
+                    "vi": "đạo đức lao động vững chắc"
+                  },
+                  {
+                    "en": "professional environments",
+                    "vi": "môi trường chuyên nghiệp"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: PHÁT TRIỂN CHỨC NĂNG ĐIỀU HÀNH VÀ TƯ DUY GIẢI QUYẾT VẤN ĐỀ (EXECUTIVE FUNCTION AND PROBLEM-SOLVING)",
+                "point_vi": "Tạo không gian cho trẻ tự xử lý công việc hằng ngày kích thích khả năng tư duy phản biện, lập kế hoạch và giải quyết vấn đề độc lập.",
+                "point_en": "Granting age-appropriate autonomy stimulates executive functioning, forward planning, and independent problem-solving.",
+                "point_collocations": [
+                  {
+                    "en": "age-appropriate autonomy",
+                    "vi": "quyền tự chủ phù hợp lứa tuổi"
+                  },
+                  {
+                    "en": "executive functioning",
+                    "vi": "chức năng điều hành (não bộ)"
+                  }
+                ],
+                "evidence_vi": "Để hoàn thành tốt việc dọn dẹp phòng ốc, chuẩn bị cặp sách hay sắp xếp giờ học, trẻ phải tự phân chia thứ tự ưu tiên và điều chỉnh khi mọi thứ không diễn ra như dự kiến. Việc được phép thử nghiệm và học hỏi từ những sai sót nhỏ trong môi trường gia đình an toàn giúp phát triển tư duy linh hoạt hơn hẳn cách chỉ làm theo mệnh lệnh. Các nghiên cứu giáo dục cho thấy trẻ em thường xuyên thực hành ra quyết định sớm có khả năng xử lý tình huống bất ngờ vượt trội hơn ở bậc trung học và đại học. Nhờ đó, tính tự lập trở thành chất xúc tác trực tiếp cho năng lực trí tuệ và sáng tạo.",
+                "evidence_en": "Successfully tidying a room, packing school supplies, or budgeting study time requires children to prioritize steps and adapt when minor obstacles arise. Being allowed to experiment and learn from low-stakes mistakes within a supportive home builds far sharper cognitive flexibility than merely obeying instructions. Educational research consistently shows that children who practice early decision-making navigate unexpected academic and social challenges more effectively. In this way, everyday autonomy serves as a direct catalyst for intellectual growth and creative resourcefulness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "prioritize steps",
+                      "vi": "sắp xếp thứ tự ưu tiên các bước"
+                    },
+                    {
+                      "en": "minor obstacles",
+                      "vi": "trở ngại nhỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "low-stakes mistakes",
+                      "vi": "sai lầm ít rủi ro"
+                    },
+                    {
+                      "en": "cognitive flexibility",
+                      "vi": "tư duy linh hoạt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "early decision-making",
+                      "vi": "tập ra quyết định sớm"
+                    },
+                    {
+                      "en": "unexpected challenges",
+                      "vi": "thử thách bất ngờ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "direct catalyst",
+                      "vi": "chất xúc tác trực tiếp"
+                    },
+                    {
+                      "en": "creative resourcefulness",
+                      "vi": "khả năng xoay xở sáng tạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "age-appropriate autonomy",
+                    "vi": "quyền tự chủ phù hợp lứa tuổi"
+                  },
+                  {
+                    "en": "executive functioning",
+                    "vi": "chức năng điều hành (não bộ)"
+                  },
+                  {
+                    "en": "prioritize steps",
+                    "vi": "sắp xếp thứ tự ưu tiên các bước"
+                  },
+                  {
+                    "en": "minor obstacles",
+                    "vi": "trở ngại nhỏ"
+                  },
+                  {
+                    "en": "low-stakes mistakes",
+                    "vi": "sai lầm ít rủi ro"
+                  },
+                  {
+                    "en": "cognitive flexibility",
+                    "vi": "tư duy linh hoạt"
+                  },
+                  {
+                    "en": "early decision-making",
+                    "vi": "tập ra quyết định sớm"
+                  },
+                  {
+                    "en": "unexpected challenges",
+                    "vi": "thử thách bất ngờ"
+                  },
+                  {
+                    "en": "direct catalyst",
+                    "vi": "chất xúc tác trực tiếp"
+                  },
+                  {
+                    "en": "creative resourcefulness",
+                    "vi": "khả năng xoay xở sáng tạo"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: CẢI THIỆN SỰ CÂN BẰNG GIA ĐÌNH VÀ MỐI QUAN HỆ CHA MẸ - CON CÁI (HEALTHIER FAMILY DYNAMICS)",
+                "point_vi": "Khuyến khích trẻ tự lập giúp giảm tình trạng kiệt sức ở cha mẹ hiện đại đồng thời xây dựng mối quan hệ gia đình tôn trọng và lành mạnh.",
+                "point_en": "Encouraging childhood independence reduces parental burnout while fostering healthier, mutually respectful family dynamics.",
+                "point_collocations": [
+                  {
+                    "en": "parental burnout",
+                    "vi": "sự kiệt sức ở cha mẹ"
+                  },
+                  {
+                    "en": "family dynamics",
+                    "vi": "mối quan hệ tương tác trong gia đình"
+                  }
+                ],
+                "evidence_vi": "Trong các gia đình hiện đại nơi cả cha lẫn mẹ đều bận rộn với công việc toàn thời gian, việc trẻ biết tự lo sinh hoạt cơ bản và ngủ phòng riêng giúp người lớn có không gian nghỉ ngơi và giữ gìn đời sống riêng tư. Khi cha mẹ bớt căng thẳng vì phải giám sát từng chi tiết nhỏ, chất lượng thời gian bên con trở nên tích cực và ấm áp hơn nhiều. Bên cạnh đó, việc tin tưởng giao trách nhiệm cho trẻ thể hiện sự tôn trọng lẫn nhau và nuôi dưỡng lòng đồng cảm của con cái với công sức của cha mẹ. Nhờ vậy, tính tự lập không làm xa cách mà ngược lại giúp gia đình gắn kết bền vững hơn.",
+                "evidence_en": "In contemporary dual-income households, children who manage basic self-care and sleep independently afford parents vital rest and personal space. With less exhaustion from micromanaging every routine, parents can bring far greater patience and warmth to quality family time. Furthermore, entrusting children with meaningful responsibilities signals mutual respect and cultivates children's empathy for their parents' daily workload. Far from creating emotional distance, healthy early independence actually strengthens long-term family harmony.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dual-income households",
+                      "vi": "gia đình cả vợ chồng đều đi làm"
+                    },
+                    {
+                      "en": "personal space",
+                      "vi": "không gian riêng tư"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "micromanaging",
+                      "vi": "quản lý chi li quá mức"
+                    },
+                    {
+                      "en": "quality family time",
+                      "vi": "thời gian gia đình chất lượng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mutual respect",
+                      "vi": "sự tôn trọng lẫn nhau"
+                    },
+                    {
+                      "en": "daily workload",
+                      "vi": "khối lượng công việc hằng ngày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional distance",
+                      "vi": "khoảng cách tình cảm"
+                    },
+                    {
+                      "en": "family harmony",
+                      "vi": "sự hòa thuận gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "parental burnout",
+                    "vi": "sự kiệt sức ở cha mẹ"
+                  },
+                  {
+                    "en": "family dynamics",
+                    "vi": "mối quan hệ tương tác trong gia đình"
+                  },
+                  {
+                    "en": "dual-income households",
+                    "vi": "gia đình cả vợ chồng đều đi làm"
+                  },
+                  {
+                    "en": "personal space",
+                    "vi": "không gian riêng tư"
+                  },
+                  {
+                    "en": "micromanaging",
+                    "vi": "quản lý chi li quá mức"
+                  },
+                  {
+                    "en": "quality family time",
+                    "vi": "thời gian gia đình chất lượng"
+                  },
+                  {
+                    "en": "mutual respect",
+                    "vi": "sự tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "daily workload",
+                    "vi": "khối lượng công việc hằng ngày"
+                  },
+                  {
+                    "en": "emotional distance",
+                    "vi": "khoảng cách tình cảm"
+                  },
+                  {
+                    "en": "family harmony",
+                    "vi": "sự hòa thuận gia đình"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "foster early independence",
+              "vi": "nuôi dưỡng sự tự lập sớm"
+            },
+            {
+              "en": "build strong self-confidence",
+              "vi": "xây dựng sự tự tin vững vàng"
+            },
+            {
+              "en": "sleep in separate rooms",
+              "vi": "ngủ ở phòng riêng"
+            },
+            {
+              "en": "small daily achievements",
+              "vi": "những thành tựu nhỏ hằng ngày"
+            },
+            {
+              "en": "face new challenges bravely",
+              "vi": "mạnh dạn đối mặt thử thách mới"
+            },
+            {
+              "en": "positive attitude",
+              "vi": "thái độ tích cực"
+            },
+            {
+              "en": "without parental help",
+              "vi": "không cần cha mẹ làm hộ"
+            },
+            {
+              "en": "belief in oneself",
+              "vi": "niềm tin vào bản thân"
+            },
+            {
+              "en": "strengthen self-efficacy",
+              "vi": "củng cố niềm tin năng lực tự chủ"
+            },
+            {
+              "en": "overcome separation anxiety",
+              "vi": "vượt qua lo âu khi xa cha mẹ"
+            },
+            {
+              "en": "intrinsic sense of mastery",
+              "vi": "cảm giác làm chủ nội tại"
+            },
+            {
+              "en": "long-term emotional maturity",
+              "vi": "sự trưởng thành cảm xúc lâu dài"
+            },
+            {
+              "en": "prevent learned helplessness",
+              "vi": "ngăn ngừa tâm lý thụ động bất lực"
+            },
+            {
+              "en": "avoid over-reliance on adults",
+              "vi": "tránh lệ thuộc quá mức vào người lớn"
+            },
+            {
+              "en": "resilience under adult pressures",
+              "vi": "sức bền trước áp lực tuổi trưởng thành"
+            },
+            {
+              "en": "master everyday milestones",
+              "vi": "làm chủ các cột mốc thường ngày"
+            },
+            {
+              "en": "essential self-care skills",
+              "vi": "kỹ năng tự chăm sóc thiết yếu"
+            },
+            {
+              "en": "do household chores",
+              "vi": "làm việc nhà"
+            },
+            {
+              "en": "wash dishes and tidy rooms",
+              "vi": "rửa bát và dọn phòng"
+            },
+            {
+              "en": "neat daily habits",
+              "vi": "thói quen gọn gàng hằng ngày"
+            },
+            {
+              "en": "look after oneself",
+              "vi": "tự chăm sóc bản thân"
+            },
+            {
+              "en": "move away for university",
+              "vi": "sống xa nhà học đại học"
+            },
+            {
+              "en": "practical life preparation",
+              "vi": "sự chuẩn bị kỹ năng sống thực tế"
+            },
+            {
+              "en": "priceless life foundation",
+              "vi": "nền tảng cuộc sống vô giá"
+            },
+            {
+              "en": "indispensable life competence",
+              "vi": "năng lực sống không thể thiếu"
+            },
+            {
+              "en": "smooth transition into adulthood",
+              "vi": "chuyển tiếp suôn sẻ sang tuổi trưởng thành"
+            },
+            {
+              "en": "turn habits into second nature",
+              "vi": "biến thói quen thành phản xạ tự nhiên"
+            },
+            {
+              "en": "outperform overprotected peers",
+              "vi": "thích nghi vượt trội bạn được bao bọc"
+            },
+            {
+              "en": "avoid severe adjustment shocks",
+              "vi": "tránh cú sốc thích nghi nặng nề"
+            },
+            {
+              "en": "maintain healthy personal routines",
+              "vi": "duy trì nếp sinh hoạt cá nhân lành mạnh"
+            },
+            {
+              "en": "manage practical demands",
+              "vi": "xử lý tốt các nhu cầu thực tế"
+            },
+            {
+              "en": "lasting real-world advantages",
+              "vi": "lợi thế thực tế lâu dài"
+            },
+            {
+              "en": "age-appropriate household chores",
+              "vi": "việc nhà phù hợp lứa tuổi"
+            },
+            {
+              "en": "learn personal responsibility",
+              "vi": "học tinh thần trách nhiệm cá nhân"
+            },
+            {
+              "en": "respect daily rules",
+              "vi": "tôn trọng quy tắc hằng ngày"
+            },
+            {
+              "en": "appreciate hard work",
+              "vi": "trân trọng sức lao động"
+            },
+            {
+              "en": "develop problem-solving skills",
+              "vi": "phát triển kỹ năng giải quyết vấn đề"
+            },
+            {
+              "en": "make independent decisions",
+              "vi": "tự đưa ra quyết định độc lập"
+            },
+            {
+              "en": "learn from minor mistakes",
+              "vi": "rút kinh nghiệm từ sai lầm nhỏ"
+            },
+            {
+              "en": "proactive thinking skills",
+              "vi": "kỹ năng tư duy chủ động"
+            },
+            {
+              "en": "instill personal accountability",
+              "vi": "nuôi dưỡng ý thức trách nhiệm cá nhân"
+            },
+            {
+              "en": "avoid an entitled mindset",
+              "vi": "tránh tư duy ỷ lại đòi hỏi"
+            },
+            {
+              "en": "take ownership of personal space",
+              "vi": "chịu trách nhiệm với không gian riêng"
+            },
+            {
+              "en": "cultivate a strong work ethic",
+              "vi": "bồi đắp đạo đức lao động vững chắc"
+            },
+            {
+              "en": "stimulate executive functioning",
+              "vi": "kích thích chức năng điều hành não bộ"
+            },
+            {
+              "en": "learn from low-stakes mistakes",
+              "vi": "học hỏi từ sai lầm ít rủi ro"
+            },
+            {
+              "en": "sharpen cognitive flexibility",
+              "vi": "mài giũa tư duy linh hoạt"
+            },
+            {
+              "en": "foster creative resourcefulness",
+              "vi": "nuôi dưỡng khả năng xoay xở sáng tạo"
+            },
+            {
+              "en": "ease daily parental stress",
+              "vi": "giảm áp lực hằng ngày cho cha mẹ"
+            },
+            {
+              "en": "harmonious family life",
+              "vi": "cuộc sống gia đình hòa thuận"
+            },
+            {
+              "en": "share family duties",
+              "vi": "chia sẻ bổn phận trong gia đình"
+            },
+            {
+              "en": "precious time to rest",
+              "vi": "thời gian nghỉ ngơi quý giá"
+            },
+            {
+              "en": "work side by side",
+              "vi": "cùng làm việc bên nhau"
+            },
+            {
+              "en": "respect one another",
+              "vi": "tôn trọng lẫn nhau"
+            },
+            {
+              "en": "safe home environment",
+              "vi": "môi trường gia đình an toàn"
+            },
+            {
+              "en": "stronger family bonds",
+              "vi": "sự gắn kết gia đình bền chặt hơn"
+            },
+            {
+              "en": "reduce parental burnout",
+              "vi": "giảm tình trạng kiệt sức ở cha mẹ"
+            },
+            {
+              "en": "contemporary dual-income households",
+              "vi": "gia đình hiện đại cả hai cùng đi làm"
+            },
+            {
+              "en": "stop micromanaging routines",
+              "vi": "ngừng quản lý chi li từng sinh hoạt"
+            },
+            {
+              "en": "entrust with meaningful duties",
+              "vi": "tin tưởng giao phó trách nhiệm ý nghĩa"
+            },
+            {
+              "en": "cultivate empathy for parents",
+              "vi": "nuôi dưỡng lòng đồng cảm với cha mẹ"
+            },
+            {
+              "en": "mutually respectful dynamics",
+              "vi": "mối quan hệ tương tác tôn trọng lẫn nhau"
+            },
+            {
+              "en": "afford vital personal space",
+              "vi": "mang lại không gian riêng tư cần thiết"
+            },
+            {
+              "en": "strengthen long-term family harmony",
+              "vi": "củng cố sự hòa thuận gia đình lâu dài"
+            }
+          ],
+          "sample_b1": "In modern parenting, many child psychologists strongly recommend fostering early independence in children through self-care skills, simple household chores, and sleeping in separate rooms. Encouraging children to become independent from a young age brings several vital benefits for both their future development and family life.\n\nFirst, <strong>fostering early independence</strong> builds strong <strong>self-confidence</strong> and <strong>essential self-care skills</strong>. When children learn to get dressed, <strong>wash dishes and tidy rooms</strong>, or <strong>sleep in separate rooms</strong>, these <strong>small daily achievements</strong> show them that they can handle tasks without parental help. Such practical habits form a <strong>priceless life foundation</strong> so they can easily <strong>look after themselves</strong> later when moving away for university.\n\nSecond, assigning <strong>age-appropriate household chores</strong> teaches <strong>personal responsibility</strong> and <strong>problem-solving skills</strong>. Sharing family duties helps kids <strong>appreciate hard work</strong> and respect daily rules instead of relying blindly on adults. While organizing their rooms or homework schedules, children also practice making choices and <strong>learning from minor mistakes</strong> in a safe home environment.\n\nFinally, raising independent children helps <strong>ease daily parental stress</strong> and creates a more <strong>harmonious family life</strong>. Busy parents gain <strong>precious time to rest</strong> after work, and doing simple chores side by side builds mutual respect and <strong>stronger family bonds</strong>.\n\nIn conclusion, encouraging early independence helps children grow into confident, capable, and responsible young adults while making family life happier for everyone.",
+          "translation_b1": "Trong cách nuôi dạy con hiện đại, nhiều nhà tâm lý học trẻ em khuyên cha mẹ nên nuôi dưỡng sự tự lập sớm cho trẻ thông qua kỹ năng tự chăm sóc, việc nhà đơn giản và ngủ phòng riêng. Khuyến khích trẻ tự lập từ nhỏ mang lại nhiều lợi ích quan trọng cho cả sự phát triển tương lai của trẻ lẫn đời sống gia đình.\n\nThứ nhất, <strong>nuôi dưỡng sự tự lập sớm</strong> giúp xây dựng <strong>sự tự tin</strong> vững vàng và các <strong>kỹ năng tự chăm sóc thiết yếu</strong>. Khi trẻ học cách tự mặc đồ, <strong>rửa bát và dọn phòng</strong> hay <strong>ngủ ở phòng riêng</strong>, những <strong>thành tựu nhỏ hằng ngày</strong> này giúp trẻ thấy mình có thể tự xử lý công việc mà không cần cha mẹ làm hộ. Những thói quen thực tế đó tạo nên <strong>nền tảng cuộc sống vô giá</strong> để các em dễ dàng <strong>tự chăm sóc bản thân</strong> khi sống xa nhà học đại học sau này.\n\nThứ hai, giao <strong>việc nhà phù hợp lứa tuổi</strong> rèn cho trẻ <strong>trách nhiệm cá nhân</strong> và <strong>kỹ năng giải quyết vấn đề</strong>. Chia sẻ bổn phận gia đình giúp trẻ <strong>trân trọng sức lao động</strong> và tôn trọng quy tắc hằng ngày thay vì ỷ lại vào người lớn. Trong quá trình dọn phòng hay sắp xếp lịch học, trẻ cũng tập tự ra quyết định và <strong>rút kinh nghiệm từ sai lầm nhỏ</strong> trong môi trường gia đình an toàn.\n\nCuối cùng, nuôi dạy trẻ tự lập giúp <strong>giảm áp lực hằng ngày cho cha mẹ</strong> và xây dựng <strong>cuộc sống gia đình hòa thuận</strong> hơn. Cha mẹ bận rộn có thêm <strong>thời gian nghỉ ngơi quý giá</strong> sau giờ làm, còn việc cùng làm việc nhà giúp xây dựng sự tôn trọng và <strong>sự gắn kết gia đình bền chặt hơn</strong>.\n\nTóm lại, khuyến khích tự lập sớm giúp trẻ lớn lên thành những người trưởng thành tự tin, có năng lực và trách nhiệm, đồng thời làm đời sống gia đình hạnh phúc hơn cho tất cả mọi người.",
+          "sample_b2": "Contemporary child psychologists widely advocate cultivating early independence by teaching young children self-care routines, assigning household chores such as washing dishes and tidying rooms, and encouraging them to sleep in separate bedrooms. Far from depriving children of warmth, age-appropriate autonomy delivers profound psychological, practical, and familial advantages.\n\nForemost among these benefits is the development of strong <strong>self-efficacy</strong> and <strong>long-term emotional maturity</strong>. When children <strong>master everyday milestones</strong>—from personal hygiene to sleeping independently—they gradually <strong>overcome separation anxiety</strong> and gain an <strong>intrinsic sense of mastery</strong>. Rather than falling into <strong>learned helplessness</strong>, independent learners enter school with greater self-assurance and resilience. Simultaneously, regular participation in domestic chores turns vital life habits into <strong>second nature</strong>, equipping youth with <strong>indispensable life competence</strong> so they experience a <strong>smooth transition into adulthood</strong> without the adjustment shocks often faced by overprotected peers.\n\nEqually significant is how early autonomy nurtures <strong>personal accountability</strong> and cognitive growth. Contributing to shared household tasks prevents an <strong>entitled mindset</strong> and helps children <strong>cultivate a strong work ethic</strong> grounded in perseverance. Moreover, planning how to organize a bedroom or balance chores with homework actively <strong>stimulates executive functioning</strong>: learning from <strong>low-stakes mistakes</strong> within a supportive home sharpens <strong>cognitive flexibility</strong> and <strong>creative resourcefulness</strong> far more effectively than passive obedience.\n\nFinally, fostering independence promotes healthier family relationships. In <strong>dual-income households</strong>, children who manage basic routines help <strong>reduce parental burnout</strong> and afford adults vital personal space, allowing parents to stop micromanaging and bring greater patience to quality family time. Entrusting children with meaningful responsibilities signals mutual respect and builds genuine <strong>empathy for parents' daily workload</strong>.\n\nIn conclusion, encouraging early independence equips children with emotional resilience, practical competence, and personal accountability while strengthening family harmony. Thoughtful parents who balance guidance with autonomy give their children the finest preparation for adult life.",
+          "translation_b2": "Các nhà tâm lý học trẻ em đương đại khuyến nghị rộng rãi việc nuôi dưỡng tính tự lập sớm bằng cách dạy trẻ thói quen tự chăm sóc, giao việc nhà như rửa bát và dọn phòng, cũng như khuyến khích trẻ ngủ phòng riêng. Hoàn toàn không làm thiếu đi sự ấm áp, quyền tự chủ phù hợp lứa tuổi mang lại những lợi ích sâu sắc về tâm lý, thực tiễn và gia đình.\n\nNổi bật hàng đầu trong các lợi ích này là sự phát triển vững mạnh của <strong>niềm tin vào năng lực tự chủ</strong> và <strong>sự trưởng thành cảm xúc lâu dài</strong>. Khi trẻ <strong>làm chủ các cột mốc thường ngày</strong> — từ vệ sinh cá nhân đến ngủ độc lập — các em dần <strong>vượt qua lo âu khi xa cha mẹ</strong> và đạt được <strong>cảm giác làm chủ nội tại</strong>. Thay vì rơi vào <strong>tâm lý thụ động bất lực</strong>, trẻ tự lập bước vào trường học với sự tự tin và sức bền cao hơn. Song song đó, tham gia việc nhà đều đặn biến kỹ năng sống thiết yếu thành <strong>phản xạ tự nhiên</strong>, trang bị cho người trẻ <strong>năng lực sống không thể thiếu</strong> để có sự <strong>chuyển tiếp suôn sẻ sang tuổi trưởng thành</strong> mà không gặp cú sốc thích nghi như các bạn bị bao bọc quá mức.\n\nQuan trọng không kém là cách tự lập sớm bồi đắp <strong>ý thức trách nhiệm cá nhân</strong> và tăng trưởng trí tuệ. Đóng góp vào việc chung gia đình ngăn chặn <strong>tư duy ỷ lại đòi hỏi</strong> và giúp trẻ <strong>bồi đắp đạo đức lao động vững chắc</strong> dựa trên sự kiên trì. Hơn nữa, tự lên kế hoạch dọn phòng hay cân đối việc nhà với bài tập tích cực <strong>kích thích chức năng điều hành não bộ</strong>: học từ những <strong>sai lầm ít rủi ro</strong> trong mái ấm an toàn giúp mài giũa <strong>tư duy linh hoạt</strong> và <strong>khả năng xoay xở sáng tạo</strong> hiệu quả hơn nhiều so với chỉ làm theo mệnh lệnh thụ động.\n\nCuối cùng, khuyến khích tự lập thúc đẩy mối quan hệ gia đình lành mạnh hơn. Trong các <strong>gia đình hiện đại cả hai vợ chồng cùng đi làm</strong>, trẻ biết tự lo sinh hoạt cơ bản giúp <strong>giảm tình trạng kiệt sức ở cha mẹ</strong> và mang lại không gian riêng tư thiết yếu, để cha mẹ ngừng quản lý chi li và dành sự kiên nhẫn trọn vẹn hơn cho thời gian bên con. Tin tưởng giao phó trách nhiệm ý nghĩa cho trẻ thể hiện sự tôn trọng lẫn nhau và nuôi dưỡng <strong>lòng đồng cảm với khối lượng công việc hằng ngày của cha mẹ</strong>.\n\nTóm lại, khuyến khích tự lập sớm trang bị cho trẻ sức bền cảm xúc, năng lực thực tiễn và tinh thần trách nhiệm đồng thời củng cố sự hòa thuận gia đình. Những bậc cha mẹ biết cân bằng giữa hướng dẫn và trao quyền tự chủ đang dành cho con sự chuẩn bị tốt đẹp nhất cho cuộc sống trưởng thành.",
+          "vocab_step": {
+            "theme": "Early Childhood Independence",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "independence",
+                "ipa": "/ˌɪndɪˈpendəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự tự lập, độc lập",
+                "family": "",
+                "example_en": "Fostering early independence benefits children throughout life.",
+                "example_vi": ""
+              },
+              {
+                "word": "psychologist",
+                "ipa": "/saɪˈkɒlədʒɪst/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhà tâm lý học",
+                "family": "",
+                "example_en": "Many child psychologists encourage teaching self-care early.",
+                "example_vi": ""
+              },
+              {
+                "word": "chore",
+                "ipa": "/tʃɔːr/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "việc nhà",
+                "family": "",
+                "example_en": "Simple chores like washing dishes build responsibility.",
+                "example_vi": ""
+              },
+              {
+                "word": "tidy",
+                "ipa": "/ˈtaɪdi/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "dọn dẹp gọn gàng",
+                "family": "",
+                "example_en": "Children should learn to tidy their own bedrooms daily.",
+                "example_vi": ""
+              },
+              {
+                "word": "separate",
+                "ipa": "/ˈseprət/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "riêng biệt",
+                "family": "",
+                "example_en": "Sleeping in separate rooms helps kids build confidence.",
+                "example_vi": ""
+              },
+              {
+                "word": "confidence",
+                "ipa": "/ˈkɒnfɪdəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự tự tin",
+                "family": "",
+                "example_en": "Completing daily tasks boosts children's self-confidence.",
+                "example_vi": ""
+              },
+              {
+                "word": "responsibility",
+                "ipa": "/rɪˌspɒnsəˈbɪləti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "trách nhiệm",
+                "family": "",
+                "example_en": "Sharing household duties teaches personal responsibility.",
+                "example_vi": ""
+              },
+              {
+                "word": "routine",
+                "ipa": "/ruːˈtiːn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thói quen sinh hoạt hằng ngày",
+                "family": "",
+                "example_en": "A regular bedtime routine supports healthy discipline.",
+                "example_vi": ""
+              },
+              {
+                "word": "habit",
+                "ipa": "/ˈhæbɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thói quen",
+                "family": "",
+                "example_en": "Neat habits formed early last into adulthood.",
+                "example_vi": ""
+              },
+              {
+                "word": "overwhelmed",
+                "ipa": "/ˌəʊvəˈwelmd/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "choáng ngợp, quá tải",
+                "family": "",
+                "example_en": "Independent youths rarely feel overwhelmed at university.",
+                "example_vi": ""
+              },
+              {
+                "word": "diligent",
+                "ipa": "/ˈdɪlɪdʒənt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "chăm chỉ, siêng năng",
+                "family": "",
+                "example_en": "Responsible habits help children become diligent students.",
+                "example_vi": ""
+              },
+              {
+                "word": "rely",
+                "ipa": "/rɪˈlaɪ/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "dựa dẫm, phụ thuộc",
+                "family": "",
+                "example_en": "Kids learn not to rely on parents for every small task.",
+                "example_vi": ""
+              },
+              {
+                "word": "mistake",
+                "ipa": "/mɪˈsteɪk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sai lầm",
+                "family": "",
+                "example_en": "Learning from minor mistakes improves problem-solving.",
+                "example_vi": ""
+              },
+              {
+                "word": "proactive",
+                "ipa": "/ˌprəʊˈæktɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "chủ động",
+                "family": "",
+                "example_en": "Early autonomy encourages proactive thinking.",
+                "example_vi": ""
+              },
+              {
+                "word": "harmonious",
+                "ipa": "/hɑːˈməʊniəs/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "hòa thuận, êm ấm",
+                "family": "",
+                "example_en": "Sharing simple duties creates a harmonious family life.",
+                "example_vi": ""
+              },
+              {
+                "word": "achievement",
+                "ipa": "/əˈtʃiːvmənt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thành tựu",
+                "family": "",
+                "example_en": "Small daily achievements give children pride.",
+                "example_vi": ""
+              },
+              {
+                "word": "foundation",
+                "ipa": "/faʊnˈdeɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nền tảng",
+                "family": "",
+                "example_en": "Self-care skills form a strong foundation for adulthood.",
+                "example_vi": ""
+              },
+              {
+                "word": "encourage",
+                "ipa": "/ɪnˈkʌrɪdʒ/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "khuyến khích",
+                "family": "",
+                "example_en": "Parents should encourage kids to solve small problems.",
+                "example_vi": ""
+              },
+              {
+                "word": "advocate",
+                "ipa": "/ˈædvəkeɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "ủng hộ, khuyến nghị",
+                "family": "",
+                "example_en": "Psychologists advocate age-appropriate autonomy for children.",
+                "example_vi": ""
+              },
+              {
+                "word": "self-efficacy",
+                "ipa": "/ˌself ˈefɪkəsi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "niềm tin vào năng lực tự chủ",
+                "family": "",
+                "example_en": "Mastering chores strengthens children's self-efficacy.",
+                "example_vi": ""
+              },
+              {
+                "word": "maturity",
+                "ipa": "/məˈtʃʊərəti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự trưởng thành",
+                "family": "",
+                "example_en": "Sleeping separately supports gradual emotional maturity.",
+                "example_vi": ""
+              },
+              {
+                "word": "intrinsic",
+                "ipa": "/ɪnˈtrɪnzɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "nội tại, từ bên trong",
+                "family": "",
+                "example_en": "Completing tasks independently builds intrinsic pride.",
+                "example_vi": ""
+              },
+              {
+                "word": "overprotected",
+                "ipa": "/ˌəʊvəprəˈtektɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "được bao bọc quá mức",
+                "family": "",
+                "example_en": "Overprotected youths often struggle when living alone.",
+                "example_vi": ""
+              },
+              {
+                "word": "entitled",
+                "ipa": "/ɪnˈtaɪtld/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có tâm lý ỷ lại, đòi hỏi",
+                "family": "",
+                "example_en": "Doing everything for kids risks creating an entitled mindset.",
+                "example_vi": ""
+              },
+              {
+                "word": "accountability",
+                "ipa": "/əˌkaʊntəˈbɪləti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tinh thần chịu trách nhiệm",
+                "family": "",
+                "example_en": "Assigned chores instill personal accountability early.",
+                "example_vi": ""
+              },
+              {
+                "word": "perseverance",
+                "ipa": "/ˌpɜːsəˈvɪərəns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự kiên trì",
+                "family": "",
+                "example_en": "Daily family commitments cultivate perseverance.",
+                "example_vi": ""
+              },
+              {
+                "word": "micromanage",
+                "ipa": "/ˌmaɪkrəʊˈmænɪdʒ/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "quản lý chi li quá mức",
+                "family": "",
+                "example_en": "Parents feel calmer when they stop micromanaging every task.",
+                "example_vi": ""
+              },
+              {
+                "word": "resourcefulness",
+                "ipa": "/rɪˈsɔːsflnəs/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng xoay xở linh hoạt",
+                "family": "",
+                "example_en": "Early problem-solving nurtures creative resourcefulness.",
+                "example_vi": ""
+              },
+              {
+                "word": "catalyst",
+                "ipa": "/ˈkætəlɪst/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "chất xúc tác",
+                "family": "",
+                "example_en": "Everyday autonomy acts as a catalyst for cognitive growth.",
+                "example_vi": ""
+              },
+              {
+                "word": "prioritize",
+                "ipa": "/praɪˈɒrətaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "sắp xếp thứ tự ưu tiên",
+                "family": "",
+                "example_en": "Managing chores and homework teaches kids to prioritize.",
+                "example_vi": ""
+              },
+              {
+                "word": "milestone",
+                "ipa": "/ˈmaɪlstəʊn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "cột mốc phát triển",
+                "family": "",
+                "example_en": "Sleeping in one's own room is a major childhood milestone.",
+                "example_vi": ""
+              },
+              {
+                "word": "empathy",
+                "ipa": "/ˈempəθi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự đồng cảm",
+                "family": "",
+                "example_en": "Helping with chores builds empathy for parents' workload.",
+                "example_vi": ""
+              },
+              {
+                "word": "competence",
+                "ipa": "/ˈkɒmpɪtəns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "năng lực thực tế",
+                "family": "",
+                "example_en": "Household duties develop lifelong practical competence.",
+                "example_vi": ""
+              },
+              {
+                "word": "helplessness",
+                "ipa": "/ˈhelpləsnəs/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự bất lực, thụ động",
+                "family": "",
+                "example_en": "Early self-care prevents learned helplessness.",
+                "example_vi": ""
+              },
+              {
+                "word": "entrust",
+                "ipa": "/ɪnˈtrʌst/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tin tưởng giao phó",
+                "family": "",
+                "example_en": "Entrusting children with chores shows mutual respect.",
+                "example_vi": ""
+              },
+              {
+                "word": "burnout",
+                "ipa": "/ˈbɜːnaʊt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự kiệt sức",
+                "family": "",
+                "example_en": "Independent children help reduce parental burnout.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "foster early independence",
+                "level": "B1",
+                "vi": "nuôi dưỡng sự tự lập sớm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "build strong self-confidence",
+                "level": "B1",
+                "vi": "xây dựng sự tự tin vững vàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sleep in separate rooms",
+                "level": "B1",
+                "vi": "ngủ ở phòng riêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "small daily achievements",
+                "level": "B1",
+                "vi": "những thành tựu nhỏ hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "face new challenges bravely",
+                "level": "B1",
+                "vi": "mạnh dạn đối mặt thử thách mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "positive attitude",
+                "level": "B1",
+                "vi": "thái độ tích cực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "without parental help",
+                "level": "B1",
+                "vi": "không cần cha mẹ làm hộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "belief in oneself",
+                "level": "B1",
+                "vi": "niềm tin vào bản thân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strengthen self-efficacy",
+                "level": "B2",
+                "vi": "củng cố niềm tin năng lực tự chủ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "overcome separation anxiety",
+                "level": "B2",
+                "vi": "vượt qua lo âu khi xa cha mẹ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "intrinsic sense of mastery",
+                "level": "B2",
+                "vi": "cảm giác làm chủ nội tại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "long-term emotional maturity",
+                "level": "B2",
+                "vi": "sự trưởng thành cảm xúc lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prevent learned helplessness",
+                "level": "B2",
+                "vi": "ngăn ngừa tâm lý thụ động bất lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid over-reliance on adults",
+                "level": "B2",
+                "vi": "tránh lệ thuộc quá mức vào người lớn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "resilience under adult pressures",
+                "level": "B2",
+                "vi": "sức bền trước áp lực tuổi trưởng thành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "master everyday milestones",
+                "level": "B2",
+                "vi": "làm chủ các cột mốc thường ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "essential self-care skills",
+                "level": "B1",
+                "vi": "kỹ năng tự chăm sóc thiết yếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "do household chores",
+                "level": "B1",
+                "vi": "làm việc nhà",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "wash dishes and tidy rooms",
+                "level": "B1",
+                "vi": "rửa bát và dọn phòng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "neat daily habits",
+                "level": "B1",
+                "vi": "thói quen gọn gàng hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "look after oneself",
+                "level": "B1",
+                "vi": "tự chăm sóc bản thân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "move away for university",
+                "level": "B1",
+                "vi": "sống xa nhà học đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "practical life preparation",
+                "level": "B1",
+                "vi": "sự chuẩn bị kỹ năng sống thực tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "priceless life foundation",
+                "level": "B1",
+                "vi": "nền tảng cuộc sống vô giá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "indispensable life competence",
+                "level": "B2",
+                "vi": "năng lực sống không thể thiếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "smooth transition into adulthood",
+                "level": "B2",
+                "vi": "chuyển tiếp suôn sẻ sang tuổi trưởng thành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "turn habits into second nature",
+                "level": "B2",
+                "vi": "biến thói quen thành phản xạ tự nhiên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "outperform overprotected peers",
+                "level": "B2",
+                "vi": "thích nghi vượt trội bạn được bao bọc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid severe adjustment shocks",
+                "level": "B2",
+                "vi": "tránh cú sốc thích nghi nặng nề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "maintain healthy personal routines",
+                "level": "B2",
+                "vi": "duy trì nếp sinh hoạt cá nhân lành mạnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "manage practical demands",
+                "level": "B2",
+                "vi": "xử lý tốt các nhu cầu thực tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lasting real-world advantages",
+                "level": "B2",
+                "vi": "lợi thế thực tế lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "age-appropriate household chores",
+                "level": "B1",
+                "vi": "việc nhà phù hợp lứa tuổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "learn personal responsibility",
+                "level": "B1",
+                "vi": "học tinh thần trách nhiệm cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "respect daily rules",
+                "level": "B1",
+                "vi": "tôn trọng quy tắc hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "appreciate hard work",
+                "level": "B1",
+                "vi": "trân trọng sức lao động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "develop problem-solving skills",
+                "level": "B1",
+                "vi": "phát triển kỹ năng giải quyết vấn đề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "make independent decisions",
+                "level": "B1",
+                "vi": "tự đưa ra quyết định độc lập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "learn from minor mistakes",
+                "level": "B1",
+                "vi": "rút kinh nghiệm từ sai lầm nhỏ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "proactive thinking skills",
+                "level": "B1",
+                "vi": "kỹ năng tư duy chủ động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "instill personal accountability",
+                "level": "B2",
+                "vi": "nuôi dưỡng ý thức trách nhiệm cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid an entitled mindset",
+                "level": "B2",
+                "vi": "tránh tư duy ỷ lại đòi hỏi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "take ownership of personal space",
+                "level": "B2",
+                "vi": "chịu trách nhiệm với không gian riêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cultivate a strong work ethic",
+                "level": "B2",
+                "vi": "bồi đắp đạo đức lao động vững chắc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stimulate executive functioning",
+                "level": "B2",
+                "vi": "kích thích chức năng điều hành não bộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "learn from low-stakes mistakes",
+                "level": "B2",
+                "vi": "học hỏi từ sai lầm ít rủi ro",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sharpen cognitive flexibility",
+                "level": "B2",
+                "vi": "mài giũa tư duy linh hoạt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "foster creative resourcefulness",
+                "level": "B2",
+                "vi": "nuôi dưỡng khả năng xoay xở sáng tạo",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "ease daily parental stress",
+                "level": "B1",
+                "vi": "giảm áp lực hằng ngày cho cha mẹ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "harmonious family life",
+                "level": "B1",
+                "vi": "cuộc sống gia đình hòa thuận",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "share family duties",
+                "level": "B1",
+                "vi": "chia sẻ bổn phận trong gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "precious time to rest",
+                "level": "B1",
+                "vi": "thời gian nghỉ ngơi quý giá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "work side by side",
+                "level": "B1",
+                "vi": "cùng làm việc bên nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "respect one another",
+                "level": "B1",
+                "vi": "tôn trọng lẫn nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safe home environment",
+                "level": "B1",
+                "vi": "môi trường gia đình an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stronger family bonds",
+                "level": "B1",
+                "vi": "sự gắn kết gia đình bền chặt hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce parental burnout",
+                "level": "B2",
+                "vi": "giảm tình trạng kiệt sức ở cha mẹ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "contemporary dual-income households",
+                "level": "B2",
+                "vi": "gia đình hiện đại cả hai cùng đi làm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stop micromanaging routines",
+                "level": "B2",
+                "vi": "ngừng quản lý chi li từng sinh hoạt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "entrust with meaningful duties",
+                "level": "B2",
+                "vi": "tin tưởng giao phó trách nhiệm ý nghĩa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cultivate empathy for parents",
+                "level": "B2",
+                "vi": "nuôi dưỡng lòng đồng cảm với cha mẹ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "mutually respectful dynamics",
+                "level": "B2",
+                "vi": "mối quan hệ tương tác tôn trọng lẫn nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "afford vital personal space",
+                "level": "B2",
+                "vi": "mang lại không gian riêng tư cần thiết",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strengthen long-term family harmony",
+                "level": "B2",
+                "vi": "củng cố sự hòa thuận gia đình lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Tự tin & Trưởng thành Cảm xúc (Confidence & Maturity)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "foster early independence",
+                    "phrase": "foster early independence",
+                    "vi": "nuôi dưỡng sự tự lập sớm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "build strong self-confidence",
+                    "phrase": "build strong self-confidence",
+                    "vi": "xây dựng sự tự tin vững vàng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sleep in separate rooms",
+                    "phrase": "sleep in separate rooms",
+                    "vi": "ngủ ở phòng riêng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "small daily achievements",
+                    "phrase": "small daily achievements",
+                    "vi": "những thành tựu nhỏ hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "face new challenges bravely",
+                    "phrase": "face new challenges bravely",
+                    "vi": "mạnh dạn đối mặt thử thách mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "positive attitude",
+                    "phrase": "positive attitude",
+                    "vi": "thái độ tích cực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "without parental help",
+                    "phrase": "without parental help",
+                    "vi": "không cần cha mẹ làm hộ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "belief in oneself",
+                    "phrase": "belief in oneself",
+                    "vi": "niềm tin vào bản thân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strengthen self-efficacy",
+                    "phrase": "strengthen self-efficacy",
+                    "vi": "củng cố niềm tin năng lực tự chủ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "overcome separation anxiety",
+                    "phrase": "overcome separation anxiety",
+                    "vi": "vượt qua lo âu khi xa cha mẹ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "intrinsic sense of mastery",
+                    "phrase": "intrinsic sense of mastery",
+                    "vi": "cảm giác làm chủ nội tại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "long-term emotional maturity",
+                    "phrase": "long-term emotional maturity",
+                    "vi": "sự trưởng thành cảm xúc lâu dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prevent learned helplessness",
+                    "phrase": "prevent learned helplessness",
+                    "vi": "ngăn ngừa tâm lý thụ động bất lực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid over-reliance on adults",
+                    "phrase": "avoid over-reliance on adults",
+                    "vi": "tránh lệ thuộc quá mức vào người lớn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "resilience under adult pressures",
+                    "phrase": "resilience under adult pressures",
+                    "vi": "sức bền trước áp lực tuổi trưởng thành",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "master everyday milestones",
+                    "phrase": "master everyday milestones",
+                    "vi": "làm chủ các cột mốc thường ngày",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Kỹ năng Tự chăm sóc & Đời sống (Self-Care & Life Skills)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "essential self-care skills",
+                    "phrase": "essential self-care skills",
+                    "vi": "kỹ năng tự chăm sóc thiết yếu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "do household chores",
+                    "phrase": "do household chores",
+                    "vi": "làm việc nhà",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "wash dishes and tidy rooms",
+                    "phrase": "wash dishes and tidy rooms",
+                    "vi": "rửa bát và dọn phòng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "neat daily habits",
+                    "phrase": "neat daily habits",
+                    "vi": "thói quen gọn gàng hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "look after oneself",
+                    "phrase": "look after oneself",
+                    "vi": "tự chăm sóc bản thân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "move away for university",
+                    "phrase": "move away for university",
+                    "vi": "sống xa nhà học đại học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "practical life preparation",
+                    "phrase": "practical life preparation",
+                    "vi": "sự chuẩn bị kỹ năng sống thực tế",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "priceless life foundation",
+                    "phrase": "priceless life foundation",
+                    "vi": "nền tảng cuộc sống vô giá",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "indispensable life competence",
+                    "phrase": "indispensable life competence",
+                    "vi": "năng lực sống không thể thiếu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "smooth transition into adulthood",
+                    "phrase": "smooth transition into adulthood",
+                    "vi": "chuyển tiếp suôn sẻ sang tuổi trưởng thành",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "turn habits into second nature",
+                    "phrase": "turn habits into second nature",
+                    "vi": "biến thói quen thành phản xạ tự nhiên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "outperform overprotected peers",
+                    "phrase": "outperform overprotected peers",
+                    "vi": "thích nghi vượt trội bạn được bao bọc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid severe adjustment shocks",
+                    "phrase": "avoid severe adjustment shocks",
+                    "vi": "tránh cú sốc thích nghi nặng nề",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "maintain healthy personal routines",
+                    "phrase": "maintain healthy personal routines",
+                    "vi": "duy trì nếp sinh hoạt cá nhân lành mạnh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "manage practical demands",
+                    "phrase": "manage practical demands",
+                    "vi": "xử lý tốt các nhu cầu thực tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lasting real-world advantages",
+                    "phrase": "lasting real-world advantages",
+                    "vi": "lợi thế thực tế lâu dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Trách nhiệm, Kỷ luật & Tư duy (Responsibility & Problem-Solving)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "age-appropriate household chores",
+                    "phrase": "age-appropriate household chores",
+                    "vi": "việc nhà phù hợp lứa tuổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "learn personal responsibility",
+                    "phrase": "learn personal responsibility",
+                    "vi": "học tinh thần trách nhiệm cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "respect daily rules",
+                    "phrase": "respect daily rules",
+                    "vi": "tôn trọng quy tắc hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "appreciate hard work",
+                    "phrase": "appreciate hard work",
+                    "vi": "trân trọng sức lao động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "develop problem-solving skills",
+                    "phrase": "develop problem-solving skills",
+                    "vi": "phát triển kỹ năng giải quyết vấn đề",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "make independent decisions",
+                    "phrase": "make independent decisions",
+                    "vi": "tự đưa ra quyết định độc lập",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "learn from minor mistakes",
+                    "phrase": "learn from minor mistakes",
+                    "vi": "rút kinh nghiệm từ sai lầm nhỏ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "proactive thinking skills",
+                    "phrase": "proactive thinking skills",
+                    "vi": "kỹ năng tư duy chủ động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "instill personal accountability",
+                    "phrase": "instill personal accountability",
+                    "vi": "nuôi dưỡng ý thức trách nhiệm cá nhân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid an entitled mindset",
+                    "phrase": "avoid an entitled mindset",
+                    "vi": "tránh tư duy ỷ lại đòi hỏi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "take ownership of personal space",
+                    "phrase": "take ownership of personal space",
+                    "vi": "chịu trách nhiệm với không gian riêng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cultivate a strong work ethic",
+                    "phrase": "cultivate a strong work ethic",
+                    "vi": "bồi đắp đạo đức lao động vững chắc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stimulate executive functioning",
+                    "phrase": "stimulate executive functioning",
+                    "vi": "kích thích chức năng điều hành não bộ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "learn from low-stakes mistakes",
+                    "phrase": "learn from low-stakes mistakes",
+                    "vi": "học hỏi từ sai lầm ít rủi ro",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sharpen cognitive flexibility",
+                    "phrase": "sharpen cognitive flexibility",
+                    "vi": "mài giũa tư duy linh hoạt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "foster creative resourcefulness",
+                    "phrase": "foster creative resourcefulness",
+                    "vi": "nuôi dưỡng khả năng xoay xở sáng tạo",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Gắn kết Gia đình & Hỗ trợ Cha mẹ (Family Harmony)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "ease daily parental stress",
+                    "phrase": "ease daily parental stress",
+                    "vi": "giảm áp lực hằng ngày cho cha mẹ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "harmonious family life",
+                    "phrase": "harmonious family life",
+                    "vi": "cuộc sống gia đình hòa thuận",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "share family duties",
+                    "phrase": "share family duties",
+                    "vi": "chia sẻ bổn phận trong gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "precious time to rest",
+                    "phrase": "precious time to rest",
+                    "vi": "thời gian nghỉ ngơi quý giá",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "work side by side",
+                    "phrase": "work side by side",
+                    "vi": "cùng làm việc bên nhau",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "respect one another",
+                    "phrase": "respect one another",
+                    "vi": "tôn trọng lẫn nhau",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safe home environment",
+                    "phrase": "safe home environment",
+                    "vi": "môi trường gia đình an toàn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stronger family bonds",
+                    "phrase": "stronger family bonds",
+                    "vi": "sự gắn kết gia đình bền chặt hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce parental burnout",
+                    "phrase": "reduce parental burnout",
+                    "vi": "giảm tình trạng kiệt sức ở cha mẹ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "contemporary dual-income households",
+                    "phrase": "contemporary dual-income households",
+                    "vi": "gia đình hiện đại cả hai cùng đi làm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stop micromanaging routines",
+                    "phrase": "stop micromanaging routines",
+                    "vi": "ngừng quản lý chi li từng sinh hoạt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "entrust with meaningful duties",
+                    "phrase": "entrust with meaningful duties",
+                    "vi": "tin tưởng giao phó trách nhiệm ý nghĩa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cultivate empathy for parents",
+                    "phrase": "cultivate empathy for parents",
+                    "vi": "nuôi dưỡng lòng đồng cảm với cha mẹ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "mutually respectful dynamics",
+                    "phrase": "mutually respectful dynamics",
+                    "vi": "mối quan hệ tương tác tôn trọng lẫn nhau",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "afford vital personal space",
+                    "phrase": "afford vital personal space",
+                    "vi": "mang lại không gian riêng tư cần thiết",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strengthen long-term family harmony",
+                    "phrase": "strengthen long-term family harmony",
+                    "vi": "củng cố sự hòa thuận gia đình lâu dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Đời sống",
+                "title": "Dạy con tự lập từ nhỏ: Lợi ích tâm lý và những kỹ năng cha mẹ nên bắt đầu",
+                "summary": "Phân tích lợi ích của việc cho trẻ làm việc nhà, tự chăm sóc cá nhân và ngủ riêng đối với sự tự tin, kỷ luật và khả năng thích nghi.",
+                "url": "https://vnexpress.net/doi-song"
+              }
+            ],
+            "en": [
+              {
+                "source": "UNICEF Parenting",
+                "title": "Building independence and life skills in early childhood",
+                "summary": "Child development guidance on how age-appropriate responsibilities and self-care routines strengthen children's confidence and resilience.",
+                "url": "https://www.unicef.org/parenting/child-development"
               }
             ]
           }
@@ -287974,6 +296564,3023 @@ const ESSAY_DATA = [
                 "title": "Vocational Education and Training (VET) and Higher Education",
                 "summary": "International policy insights on balancing investments between vocational training systems and university education for resilient labor markets.",
                 "url": "https://www.oecd.org/en/topics/vocational-education-and-training.html"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 29,
+        "title_en": "Printed textbooks vs interactive digital resources in language classrooms",
+        "title_vi": "Sách giáo khoa in so với tài nguyên số tương tác trong lớp học ngoại ngữ",
+        "tags": "[Discuss Both Views]",
+        "context": "With the rapid integration of technology into education, opinions differ over the best materials for language classrooms. Some educators believe that printed textbooks remain indispensable for structured learning, while others argue that paper textbooks are outdated and teachers should rely on interactive digital resources instead.",
+        "context_vi": "Cùng với sự tích hợp nhanh chóng của công nghệ vào giáo dục, các nhà giáo dục có nhiều ý kiến khác nhau về học liệu tốt nhất cho lớp học ngoại ngữ. Một số người tin rằng sách giáo khoa in vẫn không thể thiếu cho việc học có hệ thống, trong khi những người khác cho rằng sách giáo khoa giấy đã lỗi thời và giáo viên nên sử dụng tài nguyên số tương tác thay thế.",
+        "prompt": "Write an essay to an educated reader to discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận cả hai quan điểm trên và đưa ra ý kiến cá nhân của bạn. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": {
+          "view1": {
+            "title_en": "Printed textbooks remain indispensable in language learning classrooms",
+            "title_vi": "Sách giáo khoa in vẫn giữ vai trò không thể thiếu trong lớp học ngoại ngữ",
+            "items": [
+              {
+                "en": "printed coursebooks provide a coherent pedagogical framework and rigorous academic accuracy",
+                "vi": "sách giáo trình in mang lại khung sư phạm nhất quán và độ chính xác học thuật nghiêm ngặt"
+              },
+              {
+                "en": "paper textbooks support deeper reading comprehension free from digital distractions",
+                "vi": "sách giấy hỗ trợ đọc hiểu sâu sắc hơn mà không bị xao nhãng kỹ thuật số"
+              },
+              {
+                "en": "printed materials safeguard educational equity in schools lacking stable technology",
+                "vi": "học liệu in bảo vệ sự công bằng giáo dục ở các trường thiếu hạ tầng công nghệ"
+              }
+            ]
+          },
+          "view2": {
+            "title_en": "Textbooks are outdated and teachers should use interactive digital resources instead",
+            "title_vi": "Sách giáo khoa đã lỗi thời và giáo viên nên sử dụng tài nguyên số tương tác thay thế",
+            "items": [
+              {
+                "en": "interactive digital platforms deliver authentic multimedia immersion and real-time language updates",
+                "vi": "nền tảng số tương tác mang lại trải nghiệm đa phương tiện chân thực và cập nhật ngôn ngữ tức thời"
+              },
+              {
+                "en": "adaptive e-learning tools personalize revision and provide instant diagnostic feedback",
+                "vi": "công cụ học số thích ứng cá nhân hóa việc ôn tập và cung cấp phản hồi tức thì"
+              },
+              {
+                "en": "gamified digital resources boost learner engagement while reducing paper consumption",
+                "vi": "tài nguyên số trò chơi hóa nâng cao hứng thú học tập đồng thời giảm tiêu thụ giấy"
+              }
+            ]
+          }
+        },
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 01: CUNG CẤP LỘ TRÌNH NGÔN NGỮ CÓ HỆ THỐNG VÀ RÕ RÀNG",
+                "point_vi": "Sách giáo khoa in cung cấp lộ trình ngữ pháp, từ vựng và kỹ năng theo trình tự rõ ràng cho người học ngoại ngữ.",
+                "point_en": "Printed textbooks provide a clear, step-by-step sequence of grammar, vocabulary, and language skills.",
+                "point_collocations": [
+                  {
+                    "en": "printed textbooks",
+                    "vi": "sách giáo khoa in"
+                  },
+                  {
+                    "en": "step-by-step sequence",
+                    "vi": "trình tự từng bước rõ ràng"
+                  }
+                ],
+                "evidence_vi": "Nhờ cấu trúc bài học khoa học từ dễ đến khó, cả giáo viên lẫn học sinh đều dễ theo dõi tiến độ và ôn tập chuẩn bị cho kỳ thi.",
+                "evidence_en": "Thanks to well-organized units moving from simple to advanced levels, both teachers and learners can track progress and review for exams easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "track progress",
+                      "vi": "theo dõi tiến độ"
+                    },
+                    {
+                      "en": "well-organized units",
+                      "vi": "các bài học sắp xếp khoa học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "printed textbooks",
+                    "vi": "sách giáo khoa in"
+                  },
+                  {
+                    "en": "step-by-step sequence",
+                    "vi": "trình tự từng bước rõ ràng"
+                  },
+                  {
+                    "en": "track progress",
+                    "vi": "theo dõi tiến độ"
+                  },
+                  {
+                    "en": "well-organized units",
+                    "vi": "các bài học sắp xếp khoa học"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 02: NỘI DUNG ĐƯỢC CHUYÊN GIA KIỂM DUYỆT ĐÁNG TIN CẬY",
+                "point_vi": "Kiến thức trong sách giáo khoa được các chuyên gia ngôn ngữ biên soạn và kiểm duyệt kỹ lưỡng nên rất chính xác.",
+                "point_en": "Textbook content is carefully written and checked by language experts, ensuring high accuracy.",
+                "point_collocations": [
+                  {
+                    "en": "language experts",
+                    "vi": "chuyên gia ngôn ngữ"
+                  },
+                  {
+                    "en": "high accuracy",
+                    "vi": "độ chính xác cao"
+                  }
+                ],
+                "evidence_vi": "Ngược lại, nhiều tài liệu miễn phí trên Internet chứa lỗi ngữ pháp hoặc thiếu hệ thống, dễ khiến người mới học bị nhầm lẫn.",
+                "evidence_en": "By contrast, many free online materials contain grammar errors or unverified explanations that can easily confuse beginners.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "grammar errors",
+                      "vi": "lỗi ngữ pháp"
+                    },
+                    {
+                      "en": "confuse beginners",
+                      "vi": "gây nhầm lẫn cho người mới học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "language experts",
+                    "vi": "chuyên gia ngôn ngữ"
+                  },
+                  {
+                    "en": "high accuracy",
+                    "vi": "độ chính xác cao"
+                  },
+                  {
+                    "en": "grammar errors",
+                    "vi": "lỗi ngữ pháp"
+                  },
+                  {
+                    "en": "confuse beginners",
+                    "vi": "gây nhầm lẫn cho người mới học"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 03: HẠN CHẾ XAO NHÃNG VÀ BẢO VỆ THỊ LỰC NGƯỜI HỌC",
+                "point_vi": "Học bằng sách giấy giúp học sinh tập trung sâu hơn, tránh bị phân tâm bởi thông báo điện thoại và giảm mỏi mắt.",
+                "point_en": "Studying with paper textbooks helps students focus deeply without digital distractions and protects their eyesight.",
+                "point_collocations": [
+                  {
+                    "en": "digital distractions",
+                    "vi": "sự xao nhãng kỹ thuật số"
+                  },
+                  {
+                    "en": "protects their eyesight",
+                    "vi": "bảo vệ thị lực"
+                  }
+                ],
+                "evidence_vi": "Học sinh có thể ghi chú trực tiếp bằng bút lên trang sách mà không bị cám dỗ mở mạng xã hội hay trò chơi như khi dùng máy tính bảng.",
+                "evidence_en": "Learners can underline key phrases and write notes directly on paper without being tempted to open social media or games on tablets.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "write notes directly",
+                      "vi": "ghi chú trực tiếp"
+                    },
+                    {
+                      "en": "underline key phrases",
+                      "vi": "gạch chân cụm từ trọng tâm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital distractions",
+                    "vi": "sự xao nhãng kỹ thuật số"
+                  },
+                  {
+                    "en": "protects their eyesight",
+                    "vi": "bảo vệ thị lực"
+                  },
+                  {
+                    "en": "write notes directly",
+                    "vi": "ghi chú trực tiếp"
+                  },
+                  {
+                    "en": "underline key phrases",
+                    "vi": "gạch chân cụm từ trọng tâm"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 04: CÔNG BẰNG VÀ KHÔNG PHỤ THUỘC VÀO INTERNET HAY ĐIỆN",
+                "point_vi": "Sách giáo khoa in có thể sử dụng ở mọi lớp học mà không cần đường truyền Internet mạnh hay thiết bị đắt tiền.",
+                "point_en": "Printed textbooks work reliably in any classroom without needing fast Internet or expensive electronic devices.",
+                "point_collocations": [
+                  {
+                    "en": "work reliably",
+                    "vi": "sử dụng ổn định đáng tin cậy"
+                  },
+                  {
+                    "en": "expensive electronic devices",
+                    "vi": "thiết bị điện tử đắt tiền"
+                  }
+                ],
+                "evidence_vi": "Điều này đặc biệt quan trọng tại các trường vùng nông thôn hoặc gia đình thu nhập thấp nơi không phải học sinh nào cũng có máy tính riêng.",
+                "evidence_en": "This is especially vital in rural schools or low-income families where not every student owns a personal laptop or tablet.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rural schools",
+                      "vi": "trường học vùng nông thôn"
+                    },
+                    {
+                      "en": "personal laptop",
+                      "vi": "máy tính xách tay cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work reliably",
+                    "vi": "sử dụng ổn định đáng tin cậy"
+                  },
+                  {
+                    "en": "expensive electronic devices",
+                    "vi": "thiết bị điện tử đắt tiền"
+                  },
+                  {
+                    "en": "rural schools",
+                    "vi": "trường học vùng nông thôn"
+                  },
+                  {
+                    "en": "personal laptop",
+                    "vi": "máy tính xách tay cá nhân"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 05: GIÚP GIÁO VIÊN TIẾT KIỆM THỜI GIAN SOẠN BÀI VÀ ĐỒNG BỘ CHƯƠNG TRÌNH",
+                "point_vi": "Sách giáo khoa cung cấp sẵn bài đọc, bài tập và bài kiểm tra giúp giáo viên tiết kiệm đáng kể thời gian chuẩn bị.",
+                "point_en": "Textbooks include ready-made readings, exercises, and tests that save teachers valuable preparation time.",
+                "point_collocations": [
+                  {
+                    "en": "preparation time",
+                    "vi": "thời gian soạn bài"
+                  },
+                  {
+                    "en": "ready-made exercises",
+                    "vi": "bài tập thiết kế sẵn"
+                  }
+                ],
+                "evidence_vi": "Nhờ có tài liệu chuẩn chung, giáo viên có thể dành nhiều năng lượng hơn cho việc sửa lỗi phát âm và hỗ trợ từng học sinh trên lớp.",
+                "evidence_en": "With a standard shared coursebook, teachers can devote more energy to correcting pronunciation and supporting individual students in class.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "correcting pronunciation",
+                      "vi": "sửa lỗi phát âm"
+                    },
+                    {
+                      "en": "individual students",
+                      "vi": "từng học sinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "preparation time",
+                    "vi": "thời gian soạn bài"
+                  },
+                  {
+                    "en": "ready-made exercises",
+                    "vi": "bài tập thiết kế sẵn"
+                  },
+                  {
+                    "en": "correcting pronunciation",
+                    "vi": "sửa lỗi phát âm"
+                  },
+                  {
+                    "en": "individual students",
+                    "vi": "từng học sinh"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 01: TÀI NGUYÊN SỐ TƯƠNG TÁC TĂNG HỨNG THÚ VÀ KỸ NĂNG NGHE NÓI",
+                "point_vi": "Tài nguyên số tương tác giúp bài học ngoại ngữ sinh động hơn và luyện kỹ năng nghe nói tự nhiên hiệu quả hơn.",
+                "point_en": "Interactive digital resources make language lessons far more engaging and train natural listening and speaking better.",
+                "point_collocations": [
+                  {
+                    "en": "interactive digital resources",
+                    "vi": "tài nguyên số tương tác"
+                  },
+                  {
+                    "en": "listening and speaking",
+                    "vi": "kỹ năng nghe và nói"
+                  }
+                ],
+                "evidence_vi": "Video bản ngữ, podcast, trò chơi từ vựng và bài luyện phát âm trực tuyến giúp học sinh nghe giọng nói thực tế thay vì chỉ đọc chữ in.",
+                "evidence_en": "Native videos, podcasts, vocabulary games, and pronunciation apps expose learners to authentic spoken language rather than silent printed text.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "authentic spoken language",
+                      "vi": "ngôn ngữ nói thực tế"
+                    },
+                    {
+                      "en": "pronunciation apps",
+                      "vi": "ứng dụng luyện phát âm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "interactive digital resources",
+                    "vi": "tài nguyên số tương tác"
+                  },
+                  {
+                    "en": "listening and speaking",
+                    "vi": "kỹ năng nghe và nói"
+                  },
+                  {
+                    "en": "authentic spoken language",
+                    "vi": "ngôn ngữ nói thực tế"
+                  },
+                  {
+                    "en": "pronunciation apps",
+                    "vi": "ứng dụng luyện phát âm"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 02: CẬP NHẬT LIÊN TỤC NGÔN NGỮ VÀ CHỦ ĐỀ HIỆN ĐẠI",
+                "point_vi": "Tài liệu kỹ thuật số luôn cập nhật nhanh các từ vựng mới và chủ đề thực tế mà sách giáo khoa in thường bị lỗi thời.",
+                "point_en": "Digital resources stay up to date with modern vocabulary and current topics, whereas printed textbooks quickly become outdated.",
+                "point_collocations": [
+                  {
+                    "en": "become outdated",
+                    "vi": "trở nên lỗi thời"
+                  },
+                  {
+                    "en": "modern vocabulary",
+                    "vi": "từ vựng hiện đại"
+                  }
+                ],
+                "evidence_vi": "Giáo viên có thể đưa tin tức mới nhất, đoạn phim ngắn và bài báo đương đại vào bài giảng để học sinh học cách giao tiếp sát đời sống.",
+                "evidence_en": "Teachers can bring recent news articles, short films, and contemporary blogs into class so students learn practical, real-world communication.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "real-world communication",
+                      "vi": "giao tiếp thực tế đời sống"
+                    },
+                    {
+                      "en": "recent news articles",
+                      "vi": "bài báo thời sự mới nhất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "become outdated",
+                    "vi": "trở nên lỗi thời"
+                  },
+                  {
+                    "en": "modern vocabulary",
+                    "vi": "từ vựng hiện đại"
+                  },
+                  {
+                    "en": "real-world communication",
+                    "vi": "giao tiếp thực tế đời sống"
+                  },
+                  {
+                    "en": "recent news articles",
+                    "vi": "bài báo thời sự mới nhất"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 03: CÁ NHÂN HÓA VIỆC HỌC VÀ PHẢN HỒI TỨC THÌ",
+                "point_vi": "Các nền tảng học trực tuyến có thể điều chỉnh bài tập theo trình độ riêng và chấm điểm phản hồi ngay lập tức.",
+                "point_en": "Digital learning platforms adapt exercises to each student's level and give instant feedback.",
+                "point_collocations": [
+                  {
+                    "en": "instant feedback",
+                    "vi": "phản hồi tức thì"
+                  },
+                  {
+                    "en": "each student's level",
+                    "vi": "trình độ của từng học sinh"
+                  }
+                ],
+                "evidence_vi": "Học sinh yếu có thể luyện thêm các điểm ngữ pháp còn hổng trong khi bạn giỏi hơn tiếp tục thử sức với bài tập nâng cao.",
+                "evidence_en": "Weaker learners can review difficult grammar points repeatedly while faster students move ahead with more challenging tasks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "challenging tasks",
+                      "vi": "bài tập nâng cao"
+                    },
+                    {
+                      "en": "grammar points",
+                      "vi": "điểm ngữ pháp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "instant feedback",
+                    "vi": "phản hồi tức thì"
+                  },
+                  {
+                    "en": "each student's level",
+                    "vi": "trình độ của từng học sinh"
+                  },
+                  {
+                    "en": "challenging tasks",
+                    "vi": "bài tập nâng cao"
+                  },
+                  {
+                    "en": "grammar points",
+                    "vi": "điểm ngữ pháp"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 04: TIỆN LỢI, GỌN NHẸ VÀ THÂN THIỆN VỚI MÔI TRƯỜNG",
+                "point_vi": "Tài nguyên kỹ thuật số giúp giảm gánh nặng mang vác sách vở và hạn chế lượng giấy in tiêu thụ hằng năm.",
+                "point_en": "Digital materials save students from carrying heavy books and reduce paper waste every school year.",
+                "point_collocations": [
+                  {
+                    "en": "heavy books",
+                    "vi": "sách vở nặng nề"
+                  },
+                  {
+                    "en": "paper waste",
+                    "vi": "lãng phí giấy in"
+                  }
+                ],
+                "evidence_vi": "Học sinh có thể truy cập hàng trăm bài học, từ điển và tệp âm thanh ngay trên một thiết bị nhỏ gọn ở bất kỳ đâu.",
+                "evidence_en": "Students can access hundreds of lessons, dictionaries, and audio files on a single lightweight device anywhere they go.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lightweight device",
+                      "vi": "thiết bị gọn nhẹ"
+                    },
+                    {
+                      "en": "audio files",
+                      "vi": "tệp âm thanh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy books",
+                    "vi": "sách vở nặng nề"
+                  },
+                  {
+                    "en": "paper waste",
+                    "vi": "lãng phí giấy in"
+                  },
+                  {
+                    "en": "lightweight device",
+                    "vi": "thiết bị gọn nhẹ"
+                  },
+                  {
+                    "en": "audio files",
+                    "vi": "tệp âm thanh"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 05: KHUYẾN KHÍCH TƯƠNG TÁC LỚP HỌC VÀ HỢP TÁC TRỰC TUYẾN",
+                "point_vi": "Công cụ số như trò chơi trắc nghiệm và bảng tương tác khuyến khích mọi học sinh, kể cả bạn nhút nhát, cùng tham gia.",
+                "point_en": "Digital tools such as interactive quizzes and shared boards encourage every learner, including shy students, to participate actively.",
+                "point_collocations": [
+                  {
+                    "en": "interactive quizzes",
+                    "vi": "trò chơi trắc nghiệm tương tác"
+                  },
+                  {
+                    "en": "participate actively",
+                    "vi": "tham gia tích cực"
+                  }
+                ],
+                "evidence_vi": "Các hoạt động trực tuyến sôi nổi biến lớp học ngoại ngữ thành môi trường năng động nơi học sinh hứng thú thực hành cùng nhau.",
+                "evidence_en": "Lively online polls and collaborative games transform language classes into dynamic spaces where learners enjoy practicing together.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "collaborative games",
+                      "vi": "trò chơi hợp tác"
+                    },
+                    {
+                      "en": "dynamic spaces",
+                      "vi": "không gian năng động"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "interactive quizzes",
+                    "vi": "trò chơi trắc nghiệm tương tác"
+                  },
+                  {
+                    "en": "participate actively",
+                    "vi": "tham gia tích cực"
+                  },
+                  {
+                    "en": "collaborative games",
+                    "vi": "trò chơi hợp tác"
+                  },
+                  {
+                    "en": "dynamic spaces",
+                    "vi": "không gian năng động"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 01: KHUNG CHƯƠNG TRÌNH SƯ PHẠM KHOA HỌC VÀ NHẤT QUÁN (PEDAGOGICAL STRUCTURE)",
+                "point_vi": "Sách giáo khoa in vẫn giữ vai trò cốt lõi nhờ cung cấp khung chương trình sư phạm nhất quán và lộ trình phát triển ngôn ngữ có hệ thống.",
+                "point_en": "Printed textbooks remain indispensable because they deliver a coherent pedagogical framework and systematic linguistic progression.",
+                "point_collocations": [
+                  {
+                    "en": "pedagogical framework",
+                    "vi": "khung chương trình sư phạm"
+                  },
+                  {
+                    "en": "linguistic progression",
+                    "vi": "lộ trình phát triển ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Việc tiếp thu một ngoại ngữ đòi hỏi sự tích lũy có chủ đích về ngữ pháp, từ vựng và bốn kỹ năng theo chuẩn đầu ra rõ ràng. Nếu chỉ dựa vào tài nguyên mạng rời rạc, học sinh rất dễ bị hổng kiến thức nền tảng và mất phương hướng trong quá trình ôn luyện dài hạn.",
+                "evidence_en": "Acquiring a foreign language demands deliberate scaffolding of grammar, lexical range, and core skills aligned with clear proficiency benchmarks. Relying solely on fragmented online resources risks leaving foundational gaps and undermining long-term curriculum continuity.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "deliberate scaffolding",
+                      "vi": "xây dựng kiến thức từng bước có chủ đích"
+                    },
+                    {
+                      "en": "proficiency benchmarks",
+                      "vi": "chuẩn trình độ đầu ra"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fragmented online resources",
+                      "vi": "tài nguyên trực tuyến rời rạc"
+                    },
+                    {
+                      "en": "curriculum continuity",
+                      "vi": "tính liên tục của chương trình học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "pedagogical framework",
+                    "vi": "khung chương trình sư phạm"
+                  },
+                  {
+                    "en": "linguistic progression",
+                    "vi": "lộ trình phát triển ngôn ngữ"
+                  },
+                  {
+                    "en": "deliberate scaffolding",
+                    "vi": "xây dựng kiến thức từng bước có chủ đích"
+                  },
+                  {
+                    "en": "proficiency benchmarks",
+                    "vi": "chuẩn trình độ đầu ra"
+                  },
+                  {
+                    "en": "fragmented online resources",
+                    "vi": "tài nguyên trực tuyến rời rạc"
+                  },
+                  {
+                    "en": "curriculum continuity",
+                    "vi": "tính liên tục của chương trình học"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 02: ĐỘ TIN CẬY HỌC THUẬT VÀ ĐỌC HIỂU CHUYÊN SÂU (RELIABILITY AND DEEP READING)",
+                "point_vi": "Sách giáo khoa trải qua quy trình biên tập học thuật nghiêm ngặt đồng thời hỗ trợ khả năng đọc hiểu sâu và ghi nhớ vượt trội hơn màn hình.",
+                "point_en": "Printed textbooks undergo rigorous academic vetting while supporting deeper reading comprehension and stronger memory retention than digital screens.",
+                "point_collocations": [
+                  {
+                    "en": "rigorous academic vetting",
+                    "vi": "thẩm định học thuật nghiêm ngặt"
+                  },
+                  {
+                    "en": "reading comprehension",
+                    "vi": "khả năng đọc hiểu"
+                  }
+                ],
+                "evidence_vi": "Nhiều nghiên cứu khoa học nhận thức chỉ ra rằng đọc văn bản trên giấy và ghi chú bằng tay giúp người học ghi nhớ cấu trúc câu và từ vựng sâu sắc hơn so với lướt màn hình. Hơn nữa, sách giấy loại bỏ hoàn toàn sự xao nhãng từ thông báo ứng dụng và bảo vệ học sinh khỏi tình trạng mỏi mắt kéo dài.",
+                "evidence_en": "Cognitive studies repeatedly show that reading physical pages and annotating by hand fosters deeper lexical retention than skimming backlit screens. Furthermore, printed coursebooks eliminate pop-up notifications and protect learners from prolonged visual fatigue.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lexical retention",
+                      "vi": "khả năng ghi nhớ từ vựng"
+                    },
+                    {
+                      "en": "skimming backlit screens",
+                      "vi": "đọc lướt trên màn hình phát sáng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pop-up notifications",
+                      "vi": "thông báo bật lên"
+                    },
+                    {
+                      "en": "visual fatigue",
+                      "vi": "mỏi mắt kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rigorous academic vetting",
+                    "vi": "thẩm định học thuật nghiêm ngặt"
+                  },
+                  {
+                    "en": "reading comprehension",
+                    "vi": "khả năng đọc hiểu"
+                  },
+                  {
+                    "en": "lexical retention",
+                    "vi": "khả năng ghi nhớ từ vựng"
+                  },
+                  {
+                    "en": "skimming backlit screens",
+                    "vi": "đọc lướt trên màn hình phát sáng"
+                  },
+                  {
+                    "en": "pop-up notifications",
+                    "vi": "thông báo bật lên"
+                  },
+                  {
+                    "en": "visual fatigue",
+                    "vi": "mỏi mắt kéo dài"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 03: BẢO ĐẢM CÔNG BẰNG GIÁO DỤC VÀ TÍNH ỔN ĐỊNH KỸ THUẬT (EDUCATIONAL EQUITY)",
+                "point_vi": "Sách giáo khoa in bảo đảm quyền tiếp cận học tập bình đẳng vì không phụ thuộc vào hạ tầng công nghệ hay điều kiện kinh tế gia đình.",
+                "point_en": "Printed textbooks safeguard educational equity by remaining universally accessible regardless of household wealth or technological infrastructure.",
+                "point_collocations": [
+                  {
+                    "en": "educational equity",
+                    "vi": "sự công bằng trong giáo dục"
+                  },
+                  {
+                    "en": "technological infrastructure",
+                    "vi": "hạ tầng công nghệ"
+                  }
+                ],
+                "evidence_vi": "Tại nhiều trường học thiếu ngân sách hoặc khu vực nông thôn, đường truyền Internet chập chờn và sự thiếu hụt thiết bị cá nhân có thể làm gián đoạn nghiêm trọng các lớp học thuần kỹ thuật số. Một cuốn sách in bền bỉ bảo đảm mọi học sinh đều có công cụ học tập ổn định và công bằng.",
+                "evidence_en": "In underfunded schools and rural districts, unstable Wi-Fi and limited access to personal tablets can severely disrupt fully digital classrooms. Durable printed books guarantee that every learner holds an identical, glitch-free learning tool regardless of socioeconomic background.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "underfunded schools",
+                      "vi": "trường học thiếu kinh phí"
+                    },
+                    {
+                      "en": "fully digital classrooms",
+                      "vi": "lớp học thuần kỹ thuật số"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "glitch-free learning tool",
+                      "vi": "công cụ học tập không lỗi kỹ thuật"
+                    },
+                    {
+                      "en": "socioeconomic background",
+                      "vi": "hoàn cảnh kinh tế - xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "educational equity",
+                    "vi": "sự công bằng trong giáo dục"
+                  },
+                  {
+                    "en": "technological infrastructure",
+                    "vi": "hạ tầng công nghệ"
+                  },
+                  {
+                    "en": "underfunded schools",
+                    "vi": "trường học thiếu kinh phí"
+                  },
+                  {
+                    "en": "fully digital classrooms",
+                    "vi": "lớp học thuần kỹ thuật số"
+                  },
+                  {
+                    "en": "glitch-free learning tool",
+                    "vi": "công cụ học tập không lỗi kỹ thuật"
+                  },
+                  {
+                    "en": "socioeconomic background",
+                    "vi": "hoàn cảnh kinh tế - xã hội"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 04: GIẢM TẢI ÁP LỰC SOẠN GIẢNG VÀ CHUẨN HÓA ĐÁNH GIÁ (TEACHER EFFICIENCY)",
+                "point_vi": "Sách giáo khoa chuẩn hóa giúp giảm áp lực tìm kiếm tài liệu cho giáo viên và bảo đảm tính nhất quán giữa các lớp học.",
+                "point_en": "Standardized textbooks ease lesson-preparation burdens for educators and maintain consistent academic standards across classes.",
+                "point_collocations": [
+                  {
+                    "en": "lesson-preparation burdens",
+                    "vi": "gánh nặng soạn giáo án"
+                  },
+                  {
+                    "en": "academic standards",
+                    "vi": "tiêu chuẩn học thuật"
+                  }
+                ],
+                "evidence_vi": "Việc tự tuyển chọn, kiểm chứng và thiết kế bài tập kỹ thuật số cho từng tiết học tiêu tốn rất nhiều thời gian, đặc biệt với giáo viên trẻ. Nhờ nền tảng bài học sẵn có, giáo viên có thể tập trung nâng cao chất lượng tương tác, sửa lỗi phát âm và kèm cặp học sinh trực tiếp.",
+                "evidence_en": "Sourcing, verifying, and designing bespoke digital activities for every lesson demands immense time, particularly for less experienced instructors. Relying on a vetted coursebook frees teachers to invest more energy in interactive speaking practice and individualized mentoring.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bespoke digital activities",
+                      "vi": "hoạt động số tự thiết kế riêng"
+                    },
+                    {
+                      "en": "vetted coursebook",
+                      "vi": "giáo trình đã kiểm định"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "interactive speaking practice",
+                      "vi": "thực hành nói tương tác"
+                    },
+                    {
+                      "en": "individualized mentoring",
+                      "vi": "kèm cặp cá nhân hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "lesson-preparation burdens",
+                    "vi": "gánh nặng soạn giáo án"
+                  },
+                  {
+                    "en": "academic standards",
+                    "vi": "tiêu chuẩn học thuật"
+                  },
+                  {
+                    "en": "bespoke digital activities",
+                    "vi": "hoạt động số tự thiết kế riêng"
+                  },
+                  {
+                    "en": "vetted coursebook",
+                    "vi": "giáo trình đã kiểm định"
+                  },
+                  {
+                    "en": "interactive speaking practice",
+                    "vi": "thực hành nói tương tác"
+                  },
+                  {
+                    "en": "individualized mentoring",
+                    "vi": "kèm cặp cá nhân hóa"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 05: HỖ TRỢ ÔN TẬP HỆ THỐNG VÀ CHUẨN BỊ KỲ THI CHUẨN HÓA (EXAM READINESS)",
+                "point_vi": "Cấu trúc tích hợp ôn tập và hệ thống bài tập chuẩn của sách giáo khoa đặc biệt hiệu quả cho các kỳ thi chứng chỉ ngoại ngữ.",
+                "point_en": "The structured review sections and systematic drills in printed textbooks remain highly effective for standardized language exams.",
+                "point_collocations": [
+                  {
+                    "en": "standardized language exams",
+                    "vi": "kỳ thi ngoại ngữ chuẩn hóa"
+                  },
+                  {
+                    "en": "systematic drills",
+                    "vi": "bài tập thực hành có hệ thống"
+                  }
+                ],
+                "evidence_vi": "Các kỳ thi uy tín như VSTEP hay IELTS đòi hỏi người học nắm vững kiến thức hàn lâm, cấu trúc bài luận và chiến lược làm bài chặt chẽ. Sách giáo trình biên soạn chuyên biệt giúp học viên tự tra cứu, hệ thống hóa lỗi sai và ôn luyện có mục tiêu rõ ràng.",
+                "evidence_en": "Recognized assessments such as VSTEP and IELTS demand solid mastery of formal writing conventions, academic vocabulary, and structured test strategies. Dedicated coursebooks allow candidates to annotate rules, review mistakes systematically, and prepare with clear focus.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "formal writing conventions",
+                      "vi": "quy chuẩn viết học thuật"
+                    },
+                    {
+                      "en": "test strategies",
+                      "vi": "chiến lược làm bài thi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "annotate rules",
+                      "vi": "ghi chú các quy tắc"
+                    },
+                    {
+                      "en": "review systematically",
+                      "vi": "ôn tập có hệ thống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "standardized language exams",
+                    "vi": "kỳ thi ngoại ngữ chuẩn hóa"
+                  },
+                  {
+                    "en": "systematic drills",
+                    "vi": "bài tập thực hành có hệ thống"
+                  },
+                  {
+                    "en": "formal writing conventions",
+                    "vi": "quy chuẩn viết học thuật"
+                  },
+                  {
+                    "en": "test strategies",
+                    "vi": "chiến lược làm bài thi"
+                  },
+                  {
+                    "en": "annotate rules",
+                    "vi": "ghi chú các quy tắc"
+                  },
+                  {
+                    "en": "review systematically",
+                    "vi": "ôn tập có hệ thống"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 01: TÁI HIỆN NGÔN NGỮ SỐNG ĐỘNG VÀ ĐA PHƯƠNG TIỆN (AUTHENTIC MULTIMEDIA IMMERSION)",
+                "point_vi": "Tài nguyên số tương tác mang lại trải nghiệm ngôn ngữ đa phương tiện chân thực vượt xa giới hạn tĩnh của trang giấy in.",
+                "point_en": "Interactive digital resources deliver authentic multimedia immersion that static printed pages simply cannot replicate.",
+                "point_collocations": [
+                  {
+                    "en": "multimedia immersion",
+                    "vi": "trải nghiệm đắm mình đa phương tiện"
+                  },
+                  {
+                    "en": "static printed pages",
+                    "vi": "trang giấy in tĩnh"
+                  }
+                ],
+                "evidence_vi": "Học ngoại ngữ hiệu quả đòi hỏi tiếp xúc thường xuyên với ngữ điệu tự nhiên, giọng vùng miền đa dạng và ngữ cảnh giao tiếp thực tế. Các nền tảng số tích hợp video bản ngữ, podcast, phần mềm nhận diện phát âm bằng trí tuệ nhân tạo giúp cải thiện kỹ năng nghe nói nhanh hơn hẳn sách giấy truyền thống.",
+                "evidence_en": "Effective language acquisition requires regular exposure to natural intonation, diverse regional accents, and real-life conversational contexts. Digital platforms integrating native videos, podcasts, and AI-assisted pronunciation feedback accelerate listening and speaking fluency far beyond paper texts.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "natural intonation",
+                      "vi": "ngữ điệu tự nhiên"
+                    },
+                    {
+                      "en": "regional accents",
+                      "vi": "giọng vùng miền"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pronunciation feedback",
+                      "vi": "phản hồi phát âm"
+                    },
+                    {
+                      "en": "speaking fluency",
+                      "vi": "sự trôi chảy khi nói"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "multimedia immersion",
+                    "vi": "trải nghiệm đắm mình đa phương tiện"
+                  },
+                  {
+                    "en": "static printed pages",
+                    "vi": "trang giấy in tĩnh"
+                  },
+                  {
+                    "en": "natural intonation",
+                    "vi": "ngữ điệu tự nhiên"
+                  },
+                  {
+                    "en": "regional accents",
+                    "vi": "giọng vùng miền"
+                  },
+                  {
+                    "en": "pronunciation feedback",
+                    "vi": "phản hồi phát âm"
+                  },
+                  {
+                    "en": "speaking fluency",
+                    "vi": "sự trôi chảy khi nói"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 02: CẬP NHẬT TỨC THỜI NGÔN NGỮ ĐƯƠNG ĐẠI (REAL-TIME CURRENCY)",
+                "point_vi": "Không giống sách giáo khoa nhanh chóng lỗi thời sau vài năm xuất bản, tài nguyên số luôn cập nhật sát sao ngôn ngữ và văn hóa hiện đại.",
+                "point_en": "Unlike printed textbooks that quickly grow obsolete after publication, digital materials continuously evolve alongside contemporary language and culture.",
+                "point_collocations": [
+                  {
+                    "en": "grow obsolete",
+                    "vi": "nhanh chóng lỗi thời"
+                  },
+                  {
+                    "en": "contemporary language",
+                    "vi": "ngôn ngữ đương đại"
+                  }
+                ],
+                "evidence_vi": "Ngôn ngữ biến đổi không ngừng theo công nghệ và đời sống xã hội, khiến nhiều bài đọc về thư giấy hay công nghệ cũ trong sách in trở nên xa rời thực tế. Tài nguyên trực tuyến cho phép giáo viên khai thác bài báo mới nhất, cách diễn đạt hiện hành và chủ đề toàn cầu đang được giới trẻ quan tâm.",
+                "evidence_en": "Living languages evolve rapidly alongside technology and social trends, leaving printed chapters about outdated gadgets or stiff dialogues disconnected from reality. Online resources allow instructors to weave current journalism, modern idioms, and relevant global debates seamlessly into lessons.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stiff dialogues",
+                      "vi": "hội thoại cứng nhắc"
+                    },
+                    {
+                      "en": "disconnected from reality",
+                      "vi": "xa rời thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "current journalism",
+                      "vi": "báo chí thời sự hiện hành"
+                    },
+                    {
+                      "en": "modern idioms",
+                      "vi": "thành ngữ hiện đại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "grow obsolete",
+                    "vi": "nhanh chóng lỗi thời"
+                  },
+                  {
+                    "en": "contemporary language",
+                    "vi": "ngôn ngữ đương đại"
+                  },
+                  {
+                    "en": "stiff dialogues",
+                    "vi": "hội thoại cứng nhắc"
+                  },
+                  {
+                    "en": "disconnected from reality",
+                    "vi": "xa rời thực tế"
+                  },
+                  {
+                    "en": "current journalism",
+                    "vi": "báo chí thời sự hiện hành"
+                  },
+                  {
+                    "en": "modern idioms",
+                    "vi": "thành ngữ hiện đại"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 03: CÁ NHÂN HÓA LỘ TRÌNH VÀ PHẢN HỒI THÍCH ỨNG (ADAPTIVE PERSONALIZATION)",
+                "point_vi": "Công nghệ học tập thích ứng cho phép cá nhân hóa độ khó bài tập và cung cấp phản hồi tức thì cho từng người học.",
+                "point_en": "Adaptive digital platforms personalize learning pace and provide immediate diagnostic feedback tailored to each student.",
+                "point_collocations": [
+                  {
+                    "en": "adaptive platforms",
+                    "vi": "nền tảng học thích ứng"
+                  },
+                  {
+                    "en": "diagnostic feedback",
+                    "vi": "phản hồi chẩn đoán lỗi"
+                  }
+                ],
+                "evidence_vi": "Một cuốn sách giáo khoa duy nhất khó lòng đáp ứng đồng thời cả học sinh mất gốc lẫn học sinh xuất sắc trong cùng một lớp đông. Phần mềm học ngôn ngữ thông minh có thể tự động gợi ý bài ôn tập cho từng lỗ hổng cụ thể và theo dõi tiến bộ chi tiết của mỗi cá nhân.",
+                "evidence_en": "A single uniform textbook struggles to serve both struggling learners and advanced students inside a mixed-ability classroom. Intelligent learning apps automatically assign targeted revision for individual weak spots while tracking mastery with precision.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mixed-ability classroom",
+                      "vi": "lớp học nhiều trình độ khác nhau"
+                    },
+                    {
+                      "en": "targeted revision",
+                      "vi": "ôn tập đúng trọng tâm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "individual weak spots",
+                      "vi": "điểm yếu riêng của từng người"
+                    },
+                    {
+                      "en": "track mastery",
+                      "vi": "theo dõi mức độ thành thạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "adaptive platforms",
+                    "vi": "nền tảng học thích ứng"
+                  },
+                  {
+                    "en": "diagnostic feedback",
+                    "vi": "phản hồi chẩn đoán lỗi"
+                  },
+                  {
+                    "en": "mixed-ability classroom",
+                    "vi": "lớp học nhiều trình độ khác nhau"
+                  },
+                  {
+                    "en": "targeted revision",
+                    "vi": "ôn tập đúng trọng tâm"
+                  },
+                  {
+                    "en": "individual weak spots",
+                    "vi": "điểm yếu riêng của từng người"
+                  },
+                  {
+                    "en": "track mastery",
+                    "vi": "theo dõi mức độ thành thạo"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 04: TĂNG ĐỘNG LỰC HỌC TẬP QUA TRÒ CHƠI HÓA (GAMIFICATION AND ENGAGEMENT)",
+                "point_vi": "Các yếu tố tương tác và trò chơi hóa trên nền tảng số thúc đẩy mạnh mẽ động lực và sự tham gia chủ động của học sinh thế hệ mới.",
+                "point_en": "Interactive features and gamified learning tools dramatically boost motivation and active participation among digital-native learners.",
+                "point_collocations": [
+                  {
+                    "en": "gamified learning tools",
+                    "vi": "công cụ học tập trò chơi hóa"
+                  },
+                  {
+                    "en": "digital-native learners",
+                    "vi": "người học thế hệ số"
+                  }
+                ],
+                "evidence_vi": "Các câu đố trực tiếp, dự án viết chung trên đám mây và cuộc gọi trao đổi ngôn ngữ với bạn học quốc tế biến giờ học ngoại ngữ thành trải nghiệm giao tiếp thực thụ. Ngay cả những học sinh vốn rụt rè cũng mạnh dạn đóng góp ý kiến hơn khi tham gia qua công cụ tương tác nhóm.",
+                "evidence_en": "Live quizzes, collaborative cloud writing tasks, and virtual language exchanges with international peers turn foreign-language study into genuine communication. Even reserved learners frequently participate far more confidently through interactive digital response tools.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "collaborative cloud tasks",
+                      "vi": "bài tập cộng tác trên đám mây"
+                    },
+                    {
+                      "en": "virtual language exchanges",
+                      "vi": "giao lưu ngôn ngữ trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reserved learners",
+                      "vi": "người học rụt rè"
+                    },
+                    {
+                      "en": "digital response tools",
+                      "vi": "công cụ phản hồi tương tác số"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "gamified learning tools",
+                    "vi": "công cụ học tập trò chơi hóa"
+                  },
+                  {
+                    "en": "digital-native learners",
+                    "vi": "người học thế hệ số"
+                  },
+                  {
+                    "en": "collaborative cloud tasks",
+                    "vi": "bài tập cộng tác trên đám mây"
+                  },
+                  {
+                    "en": "virtual language exchanges",
+                    "vi": "giao lưu ngôn ngữ trực tuyến"
+                  },
+                  {
+                    "en": "reserved learners",
+                    "vi": "người học rụt rè"
+                  },
+                  {
+                    "en": "digital response tools",
+                    "vi": "công cụ phản hồi tương tác số"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 05: TÍNH DI ĐỘNG VÀ BỀN VỮNG MÔI TRƯỜNG (PORTABILITY AND SUSTAINABILITY)",
+                "point_vi": "Tài nguyên số mang lại sự linh hoạt tối đa mọi lúc mọi nơi đồng thời giảm đáng kể chi phí in ấn và tác động môi trường.",
+                "point_en": "Digital resources offer effortless portability for anytime study while substantially lowering printing costs and paper consumption.",
+                "point_collocations": [
+                  {
+                    "en": "effortless portability",
+                    "vi": "tính di động linh hoạt"
+                  },
+                  {
+                    "en": "paper consumption",
+                    "vi": "lượng tiêu thụ giấy"
+                  }
+                ],
+                "evidence_vi": "Thay vì tái bản và tiêu hủy hàng triệu cuốn sách giáo khoa giấy mỗi khi cải cách chương trình, nội dung điện tử có thể cập nhật tức thì chỉ bằng một bản chỉnh sửa trực tuyến. Điều này vừa giảm bớt gánh nặng cặp sách cho học sinh vừa góp phần bảo vệ tài nguyên rừng.",
+                "evidence_en": "Rather than reprinting and discarding millions of paper volumes whenever curricula change, digital syllabi can be revised instantaneously online. This shift lightens students' heavy schoolbags while supporting broader environmental sustainability.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "revised instantaneously",
+                      "vi": "chỉnh sửa cập nhật tức thì"
+                    },
+                    {
+                      "en": "digital syllabi",
+                      "vi": "giáo trình điện tử"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "environmental sustainability",
+                      "vi": "phát triển bền vững môi trường"
+                    },
+                    {
+                      "en": "heavy schoolbags",
+                      "vi": "cặp sách nặng nề"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "effortless portability",
+                    "vi": "tính di động linh hoạt"
+                  },
+                  {
+                    "en": "paper consumption",
+                    "vi": "lượng tiêu thụ giấy"
+                  },
+                  {
+                    "en": "revised instantaneously",
+                    "vi": "chỉnh sửa cập nhật tức thì"
+                  },
+                  {
+                    "en": "digital syllabi",
+                    "vi": "giáo trình điện tử"
+                  },
+                  {
+                    "en": "environmental sustainability",
+                    "vi": "phát triển bền vững môi trường"
+                  },
+                  {
+                    "en": "heavy schoolbags",
+                    "vi": "cặp sách nặng nề"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "printed language textbooks",
+              "vi": "sách giáo khoa ngoại ngữ bản in"
+            },
+            {
+              "en": "clear step-by-step sequence",
+              "vi": "trình tự từng bước rõ ràng"
+            },
+            {
+              "en": "checked by language experts",
+              "vi": "được chuyên gia ngôn ngữ kiểm duyệt"
+            },
+            {
+              "en": "free from digital distractions",
+              "vi": "không bị xao nhãng kỹ thuật số"
+            },
+            {
+              "en": "write notes directly on paper",
+              "vi": "ghi chú trực tiếp lên trang giấy"
+            },
+            {
+              "en": "work reliably without Wi-Fi",
+              "vi": "sử dụng ổn định không cần Wi-Fi"
+            },
+            {
+              "en": "save teacher preparation time",
+              "vi": "tiết kiệm thời gian soạn bài"
+            },
+            {
+              "en": "track learning progress easily",
+              "vi": "dễ dàng theo dõi tiến độ học"
+            },
+            {
+              "en": "coherent pedagogical framework",
+              "vi": "khung chương trình sư phạm nhất quán"
+            },
+            {
+              "en": "deliberate linguistic scaffolding",
+              "vi": "xây dựng kiến thức ngôn ngữ từng bước"
+            },
+            {
+              "en": "rigorous academic vetting",
+              "vi": "thẩm định học thuật nghiêm ngặt"
+            },
+            {
+              "en": "deeper lexical retention",
+              "vi": "khả năng ghi nhớ từ vựng sâu sắc hơn"
+            },
+            {
+              "en": "safeguard educational equity",
+              "vi": "bảo vệ sự công bằng giáo dục"
+            },
+            {
+              "en": "glitch-free learning tool",
+              "vi": "công cụ học tập không lỗi kỹ thuật"
+            },
+            {
+              "en": "eliminate pop-up distractions",
+              "vi": "loại bỏ sự phân tâm từ thông báo"
+            },
+            {
+              "en": "align with proficiency benchmarks",
+              "vi": "bám sát chuẩn năng lực đầu ra"
+            },
+            {
+              "en": "interactive digital resources",
+              "vi": "tài nguyên kỹ thuật số tương tác"
+            },
+            {
+              "en": "authentic spoken language",
+              "vi": "ngôn ngữ nói thực tế bản ngữ"
+            },
+            {
+              "en": "podcasts and native videos",
+              "vi": "podcast và video người bản ngữ"
+            },
+            {
+              "en": "stay up to date easily",
+              "vi": "dễ dàng cập nhật kiến thức mới"
+            },
+            {
+              "en": "give instant feedback",
+              "vi": "đưa ra phản hồi tức thì"
+            },
+            {
+              "en": "adapt to each learner's level",
+              "vi": "thích ứng với trình độ từng người học"
+            },
+            {
+              "en": "reduce paper waste",
+              "vi": "giảm lãng phí giấy in"
+            },
+            {
+              "en": "lively collaborative quizzes",
+              "vi": "trò chơi trắc nghiệm hợp tác sôi nổi"
+            },
+            {
+              "en": "authentic multimedia immersion",
+              "vi": "trải nghiệm đắm mình đa phương tiện"
+            },
+            {
+              "en": "natural intonation and accents",
+              "vi": "ngữ điệu tự nhiên và giọng vùng miền"
+            },
+            {
+              "en": "AI-assisted pronunciation feedback",
+              "vi": "phản hồi phát âm hỗ trợ bởi AI"
+            },
+            {
+              "en": "weave current journalism into class",
+              "vi": "lồng ghép báo chí thời sự vào bài giảng"
+            },
+            {
+              "en": "adaptive personalized revision",
+              "vi": "ôn tập cá nhân hóa thích ứng"
+            },
+            {
+              "en": "gamified learning platforms",
+              "vi": "nền tảng học tập trò chơi hóa"
+            },
+            {
+              "en": "effortless anytime portability",
+              "vi": "tính di động linh hoạt mọi lúc mọi nơi"
+            },
+            {
+              "en": "virtual international exchanges",
+              "vi": "giao lưu ngôn ngữ trực tuyến quốc tế"
+            },
+            {
+              "en": "quickly become outdated",
+              "vi": "nhanh chóng trở nên lỗi thời"
+            },
+            {
+              "en": "heavy school textbooks",
+              "vi": "sách giáo khoa nặng nề"
+            },
+            {
+              "en": "silent printed text",
+              "vi": "văn bản in tĩnh không âm thanh"
+            },
+            {
+              "en": "unverified online grammar errors",
+              "vi": "lỗi ngữ pháp chưa kiểm chứng trên mạng"
+            },
+            {
+              "en": "costly electronic devices",
+              "vi": "thiết bị điện tử đắt đỏ"
+            },
+            {
+              "en": "rural schools lacking Wi-Fi",
+              "vi": "trường nông thôn thiếu mạng Wi-Fi"
+            },
+            {
+              "en": "prolonged eye strain",
+              "vi": "mỏi mắt kéo dài"
+            },
+            {
+              "en": "tempted by social media",
+              "vi": "bị cám dỗ bởi mạng xã hội"
+            },
+            {
+              "en": "static printed pages",
+              "vi": "những trang giấy in tĩnh"
+            },
+            {
+              "en": "stiff outdated dialogues",
+              "vi": "đoạn hội thoại cứng nhắc lỗi thời"
+            },
+            {
+              "en": "fragmented online materials",
+              "vi": "tài liệu trực tuyến rời rạc chắp vá"
+            },
+            {
+              "en": "leave foundational knowledge gaps",
+              "vi": "để lại lỗ hổng kiến thức nền tảng"
+            },
+            {
+              "en": "prolonged visual fatigue",
+              "vi": "mệt mỏi thị giác kéo dài"
+            },
+            {
+              "en": "mixed-ability classroom challenges",
+              "vi": "thách thức lớp học nhiều trình độ"
+            },
+            {
+              "en": "unstable rural broadband",
+              "vi": "mạng băng thông rộng thiếu ổn định ở nông thôn"
+            },
+            {
+              "en": "immense lesson-design workload",
+              "vi": "khối lượng thiết kế bài giảng khổng lồ"
+            },
+            {
+              "en": "combine books and digital tools",
+              "vi": "kết hợp sách in và công cụ số"
+            },
+            {
+              "en": "use textbooks as a core guide",
+              "vi": "dùng sách giáo khoa làm khung chính"
+            },
+            {
+              "en": "add videos for speaking practice",
+              "vi": "bổ sung video cho luyện nói"
+            },
+            {
+              "en": "best of both worlds",
+              "vi": "tận dụng ưu điểm của cả hai"
+            },
+            {
+              "en": "balanced language classroom",
+              "vi": "lớp học ngoại ngữ cân bằng"
+            },
+            {
+              "en": "support every type of learner",
+              "vi": "hỗ trợ mọi kiểu người học"
+            },
+            {
+              "en": "build grammar and fluency together",
+              "vi": "xây dựng cả ngữ pháp lẫn sự trôi chảy"
+            },
+            {
+              "en": "modern effective teaching",
+              "vi": "giảng dạy hiện đại và hiệu quả"
+            },
+            {
+              "en": "adopt a blended classroom model",
+              "vi": "áp dụng mô hình lớp học kết hợp"
+            },
+            {
+              "en": "use textbooks as structural anchors",
+              "vi": "dùng sách giáo khoa làm điểm tựa cấu trúc"
+            },
+            {
+              "en": "enrich core units with multimedia",
+              "vi": "làm giàu bài học cốt lõi bằng đa phương tiện"
+            },
+            {
+              "en": "treat both tools as complementary",
+              "vi": "xem cả hai công cụ là bổ trợ nhau"
+            },
+            {
+              "en": "maximize comprehension and engagement",
+              "vi": "tối đa hóa hiểu sâu và sự hứng thú"
+            },
+            {
+              "en": "bridge accuracy with fluency",
+              "vi": "kết nối sự chính xác với độ trôi chảy"
+            },
+            {
+              "en": "equitable yet modernized instruction",
+              "vi": "giảng dạy vừa công bằng vừa hiện đại"
+            },
+            {
+              "en": "tailor resources to teaching goals",
+              "vi": "tùy chỉnh học liệu theo mục tiêu giảng dạy"
+            }
+          ],
+          "sample_b1": "In modern language classrooms, educators hold different views about teaching materials. While some believe printed textbooks remain indispensable, others argue they are outdated and should be replaced by interactive digital resources. This essay will discuss both views before explaining why combining the two is the most effective approach.\n\nOn the one hand, supporters of <strong>printed language textbooks</strong> offer strong reasons for keeping them. First, textbooks provide a <strong>clear step-by-step sequence</strong> of grammar and vocabulary that is <strong>checked by language experts</strong>, making it easy to track progress and prepare for exams. Second, paper books keep learners <strong>free from digital distractions</strong>, protect eyesight, and <strong>work reliably without Wi-Fi</strong>, which is vital for rural schools and low-income families.\n\nOn the other hand, <strong>interactive digital resources</strong> bring clear benefits that paper books cannot match. Through <strong>podcasts and native videos</strong>, students hear <strong>authentic spoken language</strong> and improve listening and speaking much faster. Digital platforms also <strong>stay up to date easily</strong> with current news, <strong>give instant feedback</strong>, adapt exercises to each student's level, and save paper.\n\nIn my opinion, language teachers should <strong>combine books and digital tools</strong> rather than abandoning textbooks completely. Using a printed textbook as a clear core guide ensures solid grammar and equal access, while adding online videos, audio clips, and <strong>lively collaborative quizzes</strong> makes classes dynamic and practical.\n\nIn conclusion, both printed textbooks and digital materials play valuable roles in language learning. A balanced classroom that uses the <strong>best of both worlds</strong> will help students build both strong foundations and real-world fluency.",
+          "translation_b1": "Trong các lớp học ngoại ngữ hiện đại, giới giáo dục có nhiều quan điểm khác nhau về học liệu giảng dạy. Trong khi một số người tin rằng sách giáo khoa in vẫn không thể thiếu, những người khác cho rằng chúng đã lỗi thời và nên được thay bằng tài nguyên số tương tác. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích vì sao kết hợp cả hai là cách tiếp cận hiệu quả nhất.\n\nMột mặt, những người ủng hộ <strong>sách giáo khoa ngoại ngữ bản in</strong> đưa ra các lý do thuyết phục để giữ lại chúng. Thứ nhất, sách giáo khoa cung cấp <strong>trình tự từng bước rõ ràng</strong> về ngữ pháp và từ vựng đã <strong>được chuyên gia ngôn ngữ kiểm duyệt</strong>, giúp dễ theo dõi tiến độ và ôn thi. Thứ hai, sách giấy giúp người học <strong>không bị xao nhãng kỹ thuật số</strong>, bảo vệ thị lực và <strong>sử dụng ổn định không cần Wi-Fi</strong>, điều rất quan trọng với trường nông thôn và gia đình thu nhập thấp.\n\nMặt khác, <strong>tài nguyên kỹ thuật số tương tác</strong> mang lại lợi ích rõ rệt mà sách giấy không thể sánh kịp. Thông qua <strong>podcast và video người bản ngữ</strong>, học sinh được nghe <strong>ngôn ngữ nói thực tế</strong> và cải thiện nghe nói nhanh hơn nhiều. Các nền tảng số cũng <strong>dễ dàng cập nhật kiến thức mới</strong> theo thời sự, <strong>đưa ra phản hồi tức thì</strong>, điều chỉnh bài tập theo trình độ từng em và tiết kiệm giấy.\n\nTheo quan điểm của tôi, giáo viên ngoại ngữ nên <strong>kết hợp sách in và công cụ số</strong> thay vì loại bỏ hoàn toàn sách giáo khoa. Dùng sách in làm khung cốt lõi bảo đảm ngữ pháp vững chắc và sự công bằng, còn bổ sung video, tệp nghe và <strong>trò chơi trắc nghiệm hợp tác sôi nổi</strong> giúp lớp học năng động và thực tế hơn.\n\nTóm lại, cả sách giáo khoa in lẫn học liệu số đều giữ vai trò giá trị trong việc học ngoại ngữ. Một lớp học cân bằng biết tận dụng <strong>ưu điểm của cả hai</strong> sẽ giúp học sinh vừa vững nền tảng vừa giao tiếp trôi chảy ngoài đời thực.",
+          "sample_b2": "As classroom technology advances, educators increasingly debate whether printed textbooks remain indispensable in language learning or whether they have grown outdated and should be replaced by interactive digital resources. Having weighed both perspectives, I firmly believe that treating both media as complementary within a blended classroom model produces the strongest learning outcomes.\n\nAdvocates of printed textbooks highlight their enduring academic and practical value. Foremost, coursebooks provide a <strong>coherent pedagogical framework</strong> and <strong>deliberate linguistic scaffolding</strong> backed by <strong>rigorous academic vetting</strong>, preventing the foundational knowledge gaps that often arise from fragmented online materials. Cognitive research also suggests that annotating physical pages fosters <strong>deeper lexical retention</strong> while <strong>eliminating pop-up distractions</strong> and prolonged visual fatigue. Equally crucial, printed books <strong>safeguard educational equity</strong> by offering a durable, <strong>glitch-free learning tool</strong> for underfunded and rural schools lacking reliable broadband.\n\nConversely, proponents of digital resources emphasize that living languages thrive on dynamic communication. Unlike <strong>static printed pages</strong> containing stiff dialogues that soon grow obsolete, digital platforms provide <strong>authentic multimedia immersion</strong>—exposing learners to <strong>natural intonation and accents</strong>, <strong>current journalism</strong>, and <strong>AI-assisted pronunciation feedback</strong>. Furthermore, <strong>adaptive platforms</strong> deliver targeted revision and instant diagnostic feedback across mixed-ability classrooms, while <strong>gamified tools</strong> and <strong>virtual international exchanges</strong> motivate digital-native learners and reduce paper consumption.\n\nIn my opinion, abandoning printed textbooks altogether would be shortsighted, just as ignoring digital innovation would limit communicative fluency. Teachers should <strong>adopt a blended classroom model</strong> that uses vetted textbooks as <strong>structural anchors</strong> for grammar and deep reading, while <strong>enriching core units with multimedia</strong> clips, adaptive apps, and real-time discussions to <strong>bridge accuracy with fluency</strong>.\n\nIn conclusion, printed textbooks secure structure, focus, and equity, whereas interactive digital resources bring authenticity and adaptability. Integrating both thoughtfully ensures an equitable yet modernized language education.",
+          "translation_b2": "Khi công nghệ lớp học ngày càng tiến bộ, giới giáo dục tranh luận sôi nổi liệu sách giáo khoa in vẫn không thể thiếu trong việc học ngoại ngữ hay đã trở nên lỗi thời và cần thay thế bằng tài nguyên số tương tác. Sau khi cân nhắc cả hai góc nhìn, tôi tin chắc rằng xem hai phương tiện là bổ trợ cho nhau trong một mô hình lớp học kết hợp sẽ mang lại hiệu quả học tập cao nhất.\n\nNhững người ủng hộ sách giáo khoa in nhấn mạnh giá trị học thuật và thực tiễn bền vững của nó. Trước hết, giáo trình in mang lại <strong>khung chương trình sư phạm nhất quán</strong> và sự <strong>xây dựng kiến thức ngôn ngữ từng bước</strong> đã qua <strong>thẩm định học thuật nghiêm ngặt</strong>, ngăn ngừa lỗ hổng nền tảng thường phát sinh từ tài liệu mạng rời rạc. Nghiên cứu nhận thức cũng chỉ ra việc ghi chú trên trang giấy giúp đạt <strong>khả năng ghi nhớ từ vựng sâu sắc hơn</strong> đồng thời <strong>loại bỏ sự phân tâm từ thông báo</strong> và tình trạng mỏi mắt kéo dài. Quan trọng không kém, sách in giúp <strong>bảo vệ sự công bằng giáo dục</strong> nhờ cung cấp <strong>công cụ học tập không lỗi kỹ thuật</strong> cho các trường thiếu kinh phí và vùng nông thôn thiếu mạng ổn định.\n\nNgược lại, những người ủng hộ tài nguyên số nhấn mạnh rằng sinh ngữ phát triển mạnh nhất thông qua giao tiếp sống động. Khác với <strong>những trang giấy in tĩnh</strong> chứa các đoạn hội thoại cứng nhắc chóng lỗi thời, nền tảng số mang đến <strong>trải nghiệm đắm mình đa phương tiện</strong> — giúp người học tiếp xúc với <strong>ngữ điệu tự nhiên và giọng vùng miền</strong>, <strong>báo chí thời sự hiện hành</strong> và <strong>phản hồi phát âm hỗ trợ bởi AI</strong>. Hơn nữa, <strong>các nền tảng thích ứng</strong> cung cấp bài ôn tập đúng trọng tâm và phản hồi chẩn đoán tức thì trong lớp học nhiều trình độ, trong khi <strong>công cụ trò chơi hóa</strong> và <strong>giao lưu ngôn ngữ trực tuyến quốc tế</strong> tạo động lực mạnh cho thế hệ số và giảm tiêu thụ giấy.\n\nTheo quan điểm của tôi, từ bỏ hoàn toàn sách giáo khoa in sẽ là sự thiển cận, cũng như bỏ qua đổi mới số sẽ hạn chế độ trôi chảy giao tiếp. Giáo viên nên <strong>áp dụng mô hình lớp học kết hợp</strong> sử dụng giáo trình chuẩn làm <strong>điểm tựa cấu trúc</strong> cho ngữ pháp và đọc sâu, đồng thời <strong>làm giàu bài học cốt lõi bằng đa phương tiện</strong>, ứng dụng thích ứng và thảo luận thời sự để <strong>kết nối sự chính xác với độ trôi chảy</strong>.\n\nTóm lại, sách giáo khoa in bảo đảm cấu trúc, sự tập trung và tính công bằng, còn tài nguyên số tương tác mang lại tính chân thực và khả năng thích ứng. Kết hợp khéo léo cả hai sẽ mang đến nền giáo dục ngoại ngữ vừa công bằng vừa hiện đại.",
+          "vocab_step": {
+            "theme": "Printed Textbooks vs Digital Resources",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "textbook",
+                "ipa": "/ˈtekstbʊk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sách giáo khoa",
+                "family": "",
+                "example_en": "Printed textbooks provide a clear structure for language learners.",
+                "example_vi": ""
+              },
+              {
+                "word": "outdated",
+                "ipa": "/ˌaʊtˈdeɪtɪd/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "lỗi thời",
+                "family": "",
+                "example_en": "Critics argue printed textbooks quickly become outdated.",
+                "example_vi": ""
+              },
+              {
+                "word": "interactive",
+                "ipa": "/ˌɪntərˈæktɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "mang tính tương tác",
+                "family": "",
+                "example_en": "Interactive quizzes keep language students actively engaged.",
+                "example_vi": ""
+              },
+              {
+                "word": "digital",
+                "ipa": "/ˈdɪdʒɪtl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "kỹ thuật số",
+                "family": "",
+                "example_en": "Teachers increasingly blend books with digital resources.",
+                "example_vi": ""
+              },
+              {
+                "word": "sequence",
+                "ipa": "/ˈsiːkwəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "trình tự, chuỗi sắp xếp",
+                "family": "",
+                "example_en": "Coursebooks organize grammar in a clear step-by-step sequence.",
+                "example_vi": ""
+              },
+              {
+                "word": "accuracy",
+                "ipa": "/ˈækjərəsi/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "độ chính xác",
+                "family": "",
+                "example_en": "Expert editing guarantees high academic accuracy.",
+                "example_vi": ""
+              },
+              {
+                "word": "underline",
+                "ipa": "/ˌʌndəˈlaɪn/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "gạch chân",
+                "family": "",
+                "example_en": "Students can underline useful phrases directly on paper.",
+                "example_vi": ""
+              },
+              {
+                "word": "pronunciation",
+                "ipa": "/prəˌnʌnsiˈeɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "phát âm",
+                "family": "",
+                "example_en": "Audio apps help learners practice natural pronunciation.",
+                "example_vi": ""
+              },
+              {
+                "word": "authentic",
+                "ipa": "/ɔːˈθentɪk/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "chân thực, sát thực tế",
+                "family": "",
+                "example_en": "Podcasts expose students to authentic spoken English.",
+                "example_vi": ""
+              },
+              {
+                "word": "adapt",
+                "ipa": "/əˈdæpt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "điều chỉnh cho phù hợp",
+                "family": "",
+                "example_en": "Smart platforms adapt tasks to each student's level.",
+                "example_vi": ""
+              },
+              {
+                "word": "lightweight",
+                "ipa": "/ˈlaɪtweɪt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "gọn nhẹ",
+                "family": "",
+                "example_en": "Tablets hold hundreds of lessons on one lightweight device.",
+                "example_vi": ""
+              },
+              {
+                "word": "reliably",
+                "ipa": "/rɪˈlaɪəbli/",
+                "pos": "adv",
+                "level": "B1, B2",
+                "vi": "một cách ổn định, đáng tin cậy",
+                "family": "",
+                "example_en": "Printed books work reliably even during power cuts.",
+                "example_vi": ""
+              },
+              {
+                "word": "coursebook",
+                "ipa": "/ˈkɔːsbʊk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sách giáo trình",
+                "family": "",
+                "example_en": "A shared coursebook helps teachers maintain steady pacing.",
+                "example_vi": ""
+              },
+              {
+                "word": "fluency",
+                "ipa": "/ˈfluːənsi/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự trôi chảy (ngoại ngữ)",
+                "family": "",
+                "example_en": "Multimedia practice accelerates speaking fluency.",
+                "example_vi": ""
+              },
+              {
+                "word": "progress",
+                "ipa": "/ˈprəʊɡres/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tiến độ, sự tiến bộ",
+                "family": "",
+                "example_en": "Structured chapters make tracking progress simple.",
+                "example_vi": ""
+              },
+              {
+                "word": "collaborative",
+                "ipa": "/kəˈlæbərətɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "có tính hợp tác",
+                "family": "",
+                "example_en": "Collaborative online games encourage shy learners to speak.",
+                "example_vi": ""
+              },
+              {
+                "word": "current",
+                "ipa": "/ˈkʌrənt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "hiện hành, mới nhất",
+                "family": "",
+                "example_en": "Web articles bring current global topics into class.",
+                "example_vi": ""
+              },
+              {
+                "word": "combine",
+                "ipa": "/kəmˈbaɪn/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "kết hợp",
+                "family": "",
+                "example_en": "The smartest classrooms combine textbooks with digital tools.",
+                "example_vi": ""
+              },
+              {
+                "word": "indispensable",
+                "ipa": "/ˌɪndɪˈspensəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "không thể thiếu",
+                "family": "",
+                "example_en": "Many educators view textbooks as an indispensable backbone.",
+                "example_vi": ""
+              },
+              {
+                "word": "scaffolding",
+                "ipa": "/ˈskæfəldɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "xây dựng kiến thức từng bước",
+                "family": "",
+                "example_en": "Language mastery requires deliberate pedagogical scaffolding.",
+                "example_vi": ""
+              },
+              {
+                "word": "vetting",
+                "ipa": "/ˈvetɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "quy trình kiểm duyệt, thẩm định",
+                "family": "",
+                "example_en": "Published coursebooks undergo rigorous academic vetting.",
+                "example_vi": ""
+              },
+              {
+                "word": "annotate",
+                "ipa": "/ˈænəteɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "chú thích, ghi chú bên lề",
+                "family": "",
+                "example_en": "Students retain vocabulary better when they annotate pages.",
+                "example_vi": ""
+              },
+              {
+                "word": "immersion",
+                "ipa": "/ɪˈmɜːʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự đắm mình (trong môi trường ngôn ngữ)",
+                "family": "",
+                "example_en": "Videos and podcasts provide rich multimedia immersion.",
+                "example_vi": ""
+              },
+              {
+                "word": "intonation",
+                "ipa": "/ˌɪntəˈneɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "ngữ điệu",
+                "family": "",
+                "example_en": "Native audio clips teach natural stress and intonation.",
+                "example_vi": ""
+              },
+              {
+                "word": "gamified",
+                "ipa": "/ˈɡeɪmɪfaɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "được trò chơi hóa",
+                "family": "",
+                "example_en": "Gamified vocabulary apps boost teenage motivation.",
+                "example_vi": ""
+              },
+              {
+                "word": "diagnostic",
+                "ipa": "/ˌdaɪəɡˈnɒstɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính chẩn đoán (lỗi sai)",
+                "family": "",
+                "example_en": "Digital platforms provide instant diagnostic feedback.",
+                "example_vi": ""
+              },
+              {
+                "word": "portability",
+                "ipa": "/ˌpɔːtəˈbɪləti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tính di động, dễ mang theo",
+                "family": "",
+                "example_en": "E-resources offer effortless portability for busy learners.",
+                "example_vi": ""
+              },
+              {
+                "word": "syllabus",
+                "ipa": "/ˈsɪləbəs/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "đề cương chương trình học",
+                "family": "",
+                "example_en": "Digital syllabi can be revised instantaneously online.",
+                "example_vi": ""
+              },
+              {
+                "word": "static",
+                "ipa": "/ˈstætɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tĩnh, không tương tác",
+                "family": "",
+                "example_en": "Static paper texts alone cannot model spoken accents.",
+                "example_vi": ""
+              },
+              {
+                "word": "idiom",
+                "ipa": "/ˈɪdiəm/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thành ngữ",
+                "family": "",
+                "example_en": "Contemporary videos expose students to modern idioms.",
+                "example_vi": ""
+              },
+              {
+                "word": "bespoke",
+                "ipa": "/bɪˈspəʊk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thiết kế riêng theo nhu cầu",
+                "family": "",
+                "example_en": "Creating bespoke digital lessons takes teachers hours.",
+                "example_vi": ""
+              },
+              {
+                "word": "benchmark",
+                "ipa": "/ˈbentʃmɑːk/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "chuẩn đánh giá trình độ",
+                "family": "",
+                "example_en": "Textbooks align units with official proficiency benchmarks.",
+                "example_vi": ""
+              },
+              {
+                "word": "blended",
+                "ipa": "/ˈblendɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kết hợp hài hòa",
+                "family": "",
+                "example_en": "A blended approach harnesses the strengths of both media.",
+                "example_vi": ""
+              },
+              {
+                "word": "lexical",
+                "ipa": "/ˈleksɪkl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về từ vựng",
+                "family": "",
+                "example_en": "Deep paper reading strengthens long-term lexical retention.",
+                "example_vi": ""
+              },
+              {
+                "word": "glitches",
+                "ipa": "/ˈɡlɪtʃɪz/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cố kỹ thuật nhỏ",
+                "family": "",
+                "example_en": "Printed books remain unaffected by Wi-Fi glitches.",
+                "example_vi": ""
+              },
+              {
+                "word": "equity",
+                "ipa": "/ˈekwəti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự công bằng",
+                "family": "",
+                "example_en": "Low-cost printed materials protect educational equity.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "printed language textbooks",
+                "level": "B1",
+                "vi": "sách giáo khoa ngoại ngữ bản in",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "clear step-by-step sequence",
+                "level": "B1",
+                "vi": "trình tự từng bước rõ ràng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "checked by language experts",
+                "level": "B1",
+                "vi": "được chuyên gia ngôn ngữ kiểm duyệt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "free from digital distractions",
+                "level": "B1",
+                "vi": "không bị xao nhãng kỹ thuật số",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "write notes directly on paper",
+                "level": "B1",
+                "vi": "ghi chú trực tiếp lên trang giấy",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "work reliably without Wi-Fi",
+                "level": "B1",
+                "vi": "sử dụng ổn định không cần Wi-Fi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "save teacher preparation time",
+                "level": "B1",
+                "vi": "tiết kiệm thời gian soạn bài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "track learning progress easily",
+                "level": "B1",
+                "vi": "dễ dàng theo dõi tiến độ học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "coherent pedagogical framework",
+                "level": "B2",
+                "vi": "khung chương trình sư phạm nhất quán",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "deliberate linguistic scaffolding",
+                "level": "B2",
+                "vi": "xây dựng kiến thức ngôn ngữ từng bước",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "rigorous academic vetting",
+                "level": "B2",
+                "vi": "thẩm định học thuật nghiêm ngặt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "deeper lexical retention",
+                "level": "B2",
+                "vi": "khả năng ghi nhớ từ vựng sâu sắc hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safeguard educational equity",
+                "level": "B2",
+                "vi": "bảo vệ sự công bằng giáo dục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "glitch-free learning tool",
+                "level": "B2",
+                "vi": "công cụ học tập không lỗi kỹ thuật",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "eliminate pop-up distractions",
+                "level": "B2",
+                "vi": "loại bỏ sự phân tâm từ thông báo",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "align with proficiency benchmarks",
+                "level": "B2",
+                "vi": "bám sát chuẩn năng lực đầu ra",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "interactive digital resources",
+                "level": "B1",
+                "vi": "tài nguyên kỹ thuật số tương tác",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "authentic spoken language",
+                "level": "B1",
+                "vi": "ngôn ngữ nói thực tế bản ngữ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "podcasts and native videos",
+                "level": "B1",
+                "vi": "podcast và video người bản ngữ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stay up to date easily",
+                "level": "B1",
+                "vi": "dễ dàng cập nhật kiến thức mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "give instant feedback",
+                "level": "B1",
+                "vi": "đưa ra phản hồi tức thì",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "adapt to each learner's level",
+                "level": "B1",
+                "vi": "thích ứng với trình độ từng người học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce paper waste",
+                "level": "B1",
+                "vi": "giảm lãng phí giấy in",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lively collaborative quizzes",
+                "level": "B1",
+                "vi": "trò chơi trắc nghiệm hợp tác sôi nổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "authentic multimedia immersion",
+                "level": "B2",
+                "vi": "trải nghiệm đắm mình đa phương tiện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "natural intonation and accents",
+                "level": "B2",
+                "vi": "ngữ điệu tự nhiên và giọng vùng miền",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "AI-assisted pronunciation feedback",
+                "level": "B2",
+                "vi": "phản hồi phát âm hỗ trợ bởi AI",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "weave current journalism into class",
+                "level": "B2",
+                "vi": "lồng ghép báo chí thời sự vào bài giảng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "adaptive personalized revision",
+                "level": "B2",
+                "vi": "ôn tập cá nhân hóa thích ứng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "gamified learning platforms",
+                "level": "B2",
+                "vi": "nền tảng học tập trò chơi hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "effortless anytime portability",
+                "level": "B2",
+                "vi": "tính di động linh hoạt mọi lúc mọi nơi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "virtual international exchanges",
+                "level": "B2",
+                "vi": "giao lưu ngôn ngữ trực tuyến quốc tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "quickly become outdated",
+                "level": "B1",
+                "vi": "nhanh chóng trở nên lỗi thời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "heavy school textbooks",
+                "level": "B1",
+                "vi": "sách giáo khoa nặng nề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "silent printed text",
+                "level": "B1",
+                "vi": "văn bản in tĩnh không âm thanh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "unverified online grammar errors",
+                "level": "B1",
+                "vi": "lỗi ngữ pháp chưa kiểm chứng trên mạng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "costly electronic devices",
+                "level": "B1",
+                "vi": "thiết bị điện tử đắt đỏ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "rural schools lacking Wi-Fi",
+                "level": "B1",
+                "vi": "trường nông thôn thiếu mạng Wi-Fi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prolonged eye strain",
+                "level": "B1",
+                "vi": "mỏi mắt kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tempted by social media",
+                "level": "B1",
+                "vi": "bị cám dỗ bởi mạng xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "static printed pages",
+                "level": "B2",
+                "vi": "những trang giấy in tĩnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stiff outdated dialogues",
+                "level": "B2",
+                "vi": "đoạn hội thoại cứng nhắc lỗi thời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fragmented online materials",
+                "level": "B2",
+                "vi": "tài liệu trực tuyến rời rạc chắp vá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "leave foundational knowledge gaps",
+                "level": "B2",
+                "vi": "để lại lỗ hổng kiến thức nền tảng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prolonged visual fatigue",
+                "level": "B2",
+                "vi": "mệt mỏi thị giác kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "mixed-ability classroom challenges",
+                "level": "B2",
+                "vi": "thách thức lớp học nhiều trình độ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "unstable rural broadband",
+                "level": "B2",
+                "vi": "mạng băng thông rộng thiếu ổn định ở nông thôn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "immense lesson-design workload",
+                "level": "B2",
+                "vi": "khối lượng thiết kế bài giảng khổng lồ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "combine books and digital tools",
+                "level": "B1",
+                "vi": "kết hợp sách in và công cụ số",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "use textbooks as a core guide",
+                "level": "B1",
+                "vi": "dùng sách giáo khoa làm khung chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "add videos for speaking practice",
+                "level": "B1",
+                "vi": "bổ sung video cho luyện nói",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "best of both worlds",
+                "level": "B1",
+                "vi": "tận dụng ưu điểm của cả hai",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "balanced language classroom",
+                "level": "B1",
+                "vi": "lớp học ngoại ngữ cân bằng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support every type of learner",
+                "level": "B1",
+                "vi": "hỗ trợ mọi kiểu người học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "build grammar and fluency together",
+                "level": "B1",
+                "vi": "xây dựng cả ngữ pháp lẫn sự trôi chảy",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "modern effective teaching",
+                "level": "B1",
+                "vi": "giảng dạy hiện đại và hiệu quả",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "adopt a blended classroom model",
+                "level": "B2",
+                "vi": "áp dụng mô hình lớp học kết hợp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "use textbooks as structural anchors",
+                "level": "B2",
+                "vi": "dùng sách giáo khoa làm điểm tựa cấu trúc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "enrich core units with multimedia",
+                "level": "B2",
+                "vi": "làm giàu bài học cốt lõi bằng đa phương tiện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "treat both tools as complementary",
+                "level": "B2",
+                "vi": "xem cả hai công cụ là bổ trợ nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "maximize comprehension and engagement",
+                "level": "B2",
+                "vi": "tối đa hóa hiểu sâu và sự hứng thú",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "bridge accuracy with fluency",
+                "level": "B2",
+                "vi": "kết nối sự chính xác với độ trôi chảy",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "equitable yet modernized instruction",
+                "level": "B2",
+                "vi": "giảng dạy vừa công bằng vừa hiện đại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tailor resources to teaching goals",
+                "level": "B2",
+                "vi": "tùy chỉnh học liệu theo mục tiêu giảng dạy",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Ưu thế Sách giáo khoa in (View 1: Printed Textbooks)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "printed language textbooks",
+                    "phrase": "printed language textbooks",
+                    "vi": "sách giáo khoa ngoại ngữ bản in",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "clear step-by-step sequence",
+                    "phrase": "clear step-by-step sequence",
+                    "vi": "trình tự từng bước rõ ràng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "checked by language experts",
+                    "phrase": "checked by language experts",
+                    "vi": "được chuyên gia ngôn ngữ kiểm duyệt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "free from digital distractions",
+                    "phrase": "free from digital distractions",
+                    "vi": "không bị xao nhãng kỹ thuật số",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "write notes directly on paper",
+                    "phrase": "write notes directly on paper",
+                    "vi": "ghi chú trực tiếp lên trang giấy",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "work reliably without Wi-Fi",
+                    "phrase": "work reliably without Wi-Fi",
+                    "vi": "sử dụng ổn định không cần Wi-Fi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "save teacher preparation time",
+                    "phrase": "save teacher preparation time",
+                    "vi": "tiết kiệm thời gian soạn bài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "track learning progress easily",
+                    "phrase": "track learning progress easily",
+                    "vi": "dễ dàng theo dõi tiến độ học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "coherent pedagogical framework",
+                    "phrase": "coherent pedagogical framework",
+                    "vi": "khung chương trình sư phạm nhất quán",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "deliberate linguistic scaffolding",
+                    "phrase": "deliberate linguistic scaffolding",
+                    "vi": "xây dựng kiến thức ngôn ngữ từng bước",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "rigorous academic vetting",
+                    "phrase": "rigorous academic vetting",
+                    "vi": "thẩm định học thuật nghiêm ngặt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "deeper lexical retention",
+                    "phrase": "deeper lexical retention",
+                    "vi": "khả năng ghi nhớ từ vựng sâu sắc hơn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safeguard educational equity",
+                    "phrase": "safeguard educational equity",
+                    "vi": "bảo vệ sự công bằng giáo dục",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "glitch-free learning tool",
+                    "phrase": "glitch-free learning tool",
+                    "vi": "công cụ học tập không lỗi kỹ thuật",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "eliminate pop-up distractions",
+                    "phrase": "eliminate pop-up distractions",
+                    "vi": "loại bỏ sự phân tâm từ thông báo",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "align with proficiency benchmarks",
+                    "phrase": "align with proficiency benchmarks",
+                    "vi": "bám sát chuẩn năng lực đầu ra",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Ưu thế Tài nguyên số (View 2: Interactive Digital Resources)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "interactive digital resources",
+                    "phrase": "interactive digital resources",
+                    "vi": "tài nguyên kỹ thuật số tương tác",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "authentic spoken language",
+                    "phrase": "authentic spoken language",
+                    "vi": "ngôn ngữ nói thực tế bản ngữ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "podcasts and native videos",
+                    "phrase": "podcasts and native videos",
+                    "vi": "podcast và video người bản ngữ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stay up to date easily",
+                    "phrase": "stay up to date easily",
+                    "vi": "dễ dàng cập nhật kiến thức mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "give instant feedback",
+                    "phrase": "give instant feedback",
+                    "vi": "đưa ra phản hồi tức thì",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "adapt to each learner's level",
+                    "phrase": "adapt to each learner's level",
+                    "vi": "thích ứng với trình độ từng người học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce paper waste",
+                    "phrase": "reduce paper waste",
+                    "vi": "giảm lãng phí giấy in",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lively collaborative quizzes",
+                    "phrase": "lively collaborative quizzes",
+                    "vi": "trò chơi trắc nghiệm hợp tác sôi nổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "authentic multimedia immersion",
+                    "phrase": "authentic multimedia immersion",
+                    "vi": "trải nghiệm đắm mình đa phương tiện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "natural intonation and accents",
+                    "phrase": "natural intonation and accents",
+                    "vi": "ngữ điệu tự nhiên và giọng vùng miền",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "AI-assisted pronunciation feedback",
+                    "phrase": "AI-assisted pronunciation feedback",
+                    "vi": "phản hồi phát âm hỗ trợ bởi AI",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "weave current journalism into class",
+                    "phrase": "weave current journalism into class",
+                    "vi": "lồng ghép báo chí thời sự vào bài giảng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "adaptive personalized revision",
+                    "phrase": "adaptive personalized revision",
+                    "vi": "ôn tập cá nhân hóa thích ứng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "gamified learning platforms",
+                    "phrase": "gamified learning platforms",
+                    "vi": "nền tảng học tập trò chơi hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "effortless anytime portability",
+                    "phrase": "effortless anytime portability",
+                    "vi": "tính di động linh hoạt mọi lúc mọi nơi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "virtual international exchanges",
+                    "phrase": "virtual international exchanges",
+                    "vi": "giao lưu ngôn ngữ trực tuyến quốc tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Hạn chế của từng phương tiện (Limitations of Each Medium)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "quickly become outdated",
+                    "phrase": "quickly become outdated",
+                    "vi": "nhanh chóng trở nên lỗi thời",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "heavy school textbooks",
+                    "phrase": "heavy school textbooks",
+                    "vi": "sách giáo khoa nặng nề",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "silent printed text",
+                    "phrase": "silent printed text",
+                    "vi": "văn bản in tĩnh không âm thanh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "unverified online grammar errors",
+                    "phrase": "unverified online grammar errors",
+                    "vi": "lỗi ngữ pháp chưa kiểm chứng trên mạng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "costly electronic devices",
+                    "phrase": "costly electronic devices",
+                    "vi": "thiết bị điện tử đắt đỏ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "rural schools lacking Wi-Fi",
+                    "phrase": "rural schools lacking Wi-Fi",
+                    "vi": "trường nông thôn thiếu mạng Wi-Fi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prolonged eye strain",
+                    "phrase": "prolonged eye strain",
+                    "vi": "mỏi mắt kéo dài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tempted by social media",
+                    "phrase": "tempted by social media",
+                    "vi": "bị cám dỗ bởi mạng xã hội",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "static printed pages",
+                    "phrase": "static printed pages",
+                    "vi": "những trang giấy in tĩnh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stiff outdated dialogues",
+                    "phrase": "stiff outdated dialogues",
+                    "vi": "đoạn hội thoại cứng nhắc lỗi thời",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fragmented online materials",
+                    "phrase": "fragmented online materials",
+                    "vi": "tài liệu trực tuyến rời rạc chắp vá",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "leave foundational knowledge gaps",
+                    "phrase": "leave foundational knowledge gaps",
+                    "vi": "để lại lỗ hổng kiến thức nền tảng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prolonged visual fatigue",
+                    "phrase": "prolonged visual fatigue",
+                    "vi": "mệt mỏi thị giác kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "mixed-ability classroom challenges",
+                    "phrase": "mixed-ability classroom challenges",
+                    "vi": "thách thức lớp học nhiều trình độ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "unstable rural broadband",
+                    "phrase": "unstable rural broadband",
+                    "vi": "mạng băng thông rộng thiếu ổn định ở nông thôn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "immense lesson-design workload",
+                    "phrase": "immense lesson-design workload",
+                    "vi": "khối lượng thiết kế bài giảng khổng lồ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Quan điểm Kết hợp Hài hòa (Blended Classroom View)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "combine books and digital tools",
+                    "phrase": "combine books and digital tools",
+                    "vi": "kết hợp sách in và công cụ số",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "use textbooks as a core guide",
+                    "phrase": "use textbooks as a core guide",
+                    "vi": "dùng sách giáo khoa làm khung chính",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "add videos for speaking practice",
+                    "phrase": "add videos for speaking practice",
+                    "vi": "bổ sung video cho luyện nói",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "best of both worlds",
+                    "phrase": "best of both worlds",
+                    "vi": "tận dụng ưu điểm của cả hai",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "balanced language classroom",
+                    "phrase": "balanced language classroom",
+                    "vi": "lớp học ngoại ngữ cân bằng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support every type of learner",
+                    "phrase": "support every type of learner",
+                    "vi": "hỗ trợ mọi kiểu người học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "build grammar and fluency together",
+                    "phrase": "build grammar and fluency together",
+                    "vi": "xây dựng cả ngữ pháp lẫn sự trôi chảy",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "modern effective teaching",
+                    "phrase": "modern effective teaching",
+                    "vi": "giảng dạy hiện đại và hiệu quả",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "adopt a blended classroom model",
+                    "phrase": "adopt a blended classroom model",
+                    "vi": "áp dụng mô hình lớp học kết hợp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "use textbooks as structural anchors",
+                    "phrase": "use textbooks as structural anchors",
+                    "vi": "dùng sách giáo khoa làm điểm tựa cấu trúc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "enrich core units with multimedia",
+                    "phrase": "enrich core units with multimedia",
+                    "vi": "làm giàu bài học cốt lõi bằng đa phương tiện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "treat both tools as complementary",
+                    "phrase": "treat both tools as complementary",
+                    "vi": "xem cả hai công cụ là bổ trợ nhau",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "maximize comprehension and engagement",
+                    "phrase": "maximize comprehension and engagement",
+                    "vi": "tối đa hóa hiểu sâu và sự hứng thú",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "bridge accuracy with fluency",
+                    "phrase": "bridge accuracy with fluency",
+                    "vi": "kết nối sự chính xác với độ trôi chảy",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "equitable yet modernized instruction",
+                    "phrase": "equitable yet modernized instruction",
+                    "vi": "giảng dạy vừa công bằng vừa hiện đại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tailor resources to teaching goals",
+                    "phrase": "tailor resources to teaching goals",
+                    "vi": "tùy chỉnh học liệu theo mục tiêu giảng dạy",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Giáo dục",
+                "title": "Sách giáo khoa giấy hay học liệu số: Cách kết hợp hiệu quả trong dạy ngoại ngữ",
+                "summary": "So sánh ưu nhược điểm của sách giáo khoa truyền thống và nền tảng số tương tác trong giảng dạy tiếng Anh tại trường học.",
+                "url": "https://vnexpress.net/giao-duc"
+              }
+            ],
+            "en": [
+              {
+                "source": "British Council TeachingEnglish",
+                "title": "Using textbooks alongside digital resources in ELT",
+                "summary": "Practical perspectives on balancing structured language coursebooks with interactive multimedia and online teaching tools.",
+                "url": "https://www.teachingenglish.org.uk/"
               }
             ]
           }
