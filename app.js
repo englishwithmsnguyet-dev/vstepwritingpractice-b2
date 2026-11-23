@@ -7169,7 +7169,13 @@ function sendEssayResultToGoogleForm(meta, aiData = null, useBeacon = false) {
   const scoreLabel = (aiData && typeof aiData.overallScore !== 'undefined') ? 'AI VSTEP' : 'Hệ thống';
 
   let tf = meta.tfScore, org = meta.orgScore, voc = meta.vocabScore, gra = meta.grammarScore;
-  if (aiData && aiData.criteria) {
+  if (aiData && aiData.scores) {
+    const s = aiData.scores;
+    if (typeof s.tf !== 'undefined') tf = Number(s.tf);
+    if (typeof s.org !== 'undefined') org = Number(s.org);
+    if (typeof s.voc !== 'undefined') voc = Number(s.voc);
+    if (typeof s.gram !== 'undefined') gra = Number(s.gram);
+  } else if (aiData && aiData.criteria) {
     const c = aiData.criteria;
     if (c.taskFulfillment && typeof c.taskFulfillment.score !== 'undefined') tf = Number(c.taskFulfillment.score);
     if (c.organization && typeof c.organization.score !== 'undefined') org = Number(c.organization.score);
@@ -7419,12 +7425,114 @@ function updateStudentResultReportCard(aiData) {
   if (!aiData || typeof aiData.overallScore === 'undefined' || !currentEvaluationData || !currentEvaluationData._reportMeta) return;
   const aiScore = Number(aiData.overallScore);
   if (isNaN(aiScore)) return;
+
+  // 1. Đồng bộ nguồn dữ liệu chính sang điểm Giám khảo AI VSTEP
   currentEvaluationData.aiScore = aiScore;
+  currentEvaluationData.score = aiScore;
   currentEvaluationData._reportMeta.score = aiScore;
   currentEvaluationData._reportMeta.scoreSource = 'ai';
+
+  if (aiData.scores) {
+    const s = aiData.scores;
+    if (typeof s.tf !== 'undefined') currentEvaluationData._reportMeta.tfScore = Number(s.tf);
+    if (typeof s.org !== 'undefined') currentEvaluationData._reportMeta.orgScore = Number(s.org);
+    if (typeof s.voc !== 'undefined') currentEvaluationData._reportMeta.vocabScore = Number(s.voc);
+    if (typeof s.gram !== 'undefined') currentEvaluationData._reportMeta.grammarScore = Number(s.gram);
+  }
+
+  // 2. Cập nhật Phiếu báo cáo kết quả ở giữa màn hình
   const cardEl = document.getElementById('student-result-report-card');
   if (cardEl) {
     cardEl.innerHTML = buildStudentResultReportCardHtml(currentEvaluationData._reportMeta);
+  }
+
+  // 3. Đồng bộ 100% Cột bên phải (KẾT QUẢ PHÂN TÍCH BÀI) theo điểm AI
+  const conv7 = ((aiScore * 7) / 10).toFixed(1);
+  const conv67 = ((aiScore * 2) / 3).toFixed(1);
+  const elEst = document.getElementById('estimated-score');
+  if (elEst) elEst.innerText = aiScore.toFixed(1);
+  const elDisp10 = document.getElementById('score-display-10');
+  if (elDisp10) elDisp10.innerText = `${aiScore.toFixed(1)} / 10`;
+  const elDispConv = document.getElementById('score-display-converted');
+  if (elDispConv) elDispConv.innerText = `${conv7} / 7.0`;
+  const elDispRatio = document.getElementById('score-display-ratio');
+  if (elDispRatio) elDispRatio.innerText = `(Tỷ trọng 2/3 bài thi: ${conv67} / 6.7)`;
+
+  const elGen = document.getElementById('ws-feedback-general');
+  if (elGen) {
+    const aiDiag = (aiData.diagnosis && aiData.diagnosis.overallDiagnosis) ? String(aiData.diagnosis.overallDiagnosis).trim() : '';
+    const penNote = aiData.wordPenaltyNote ? String(aiData.wordPenaltyNote).trim() : '';
+    if (penNote) {
+      elGen.innerText = penNote;
+    } else if (aiDiag) {
+      elGen.innerText = aiDiag;
+    }
+    currentEvaluationData.feedback = elGen.innerText;
+  }
+
+  // Đồng bộ 4 thẻ tiêu chí cột bên phải theo đúng 4 tiêu chí của AI
+  const detailsList = document.getElementById('feedback-details-list');
+  if (detailsList && aiData.scores) {
+    const s = aiData.scores;
+    const c = aiData.criteria || {};
+    const tf = Number(s.tf || 0);
+    const org = Number(s.org || 0);
+    const voc = Number(s.voc || 0);
+    const gram = Number(s.gram || 0);
+    detailsList.innerHTML = `
+      <div class="grade-detail-card ${tf >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+          <span class="grade-detail-title" style="font-weight: 700;">1. TASK FULFILLMENT</span>
+          <span style="font-weight: bold;">${tf.toFixed(1)} / 10</span>
+        </div>
+        <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
+          ${escapeHtml((c.tf && c.tf.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+        </div>
+      </div>
+      <div class="grade-detail-card ${org >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+          <span class="grade-detail-title" style="font-weight: 700;">2. ORGANIZATION</span>
+          <span style="font-weight: bold;">${org.toFixed(1)} / 10</span>
+        </div>
+        <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
+          ${escapeHtml((c.org && c.org.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+        </div>
+      </div>
+      <div class="grade-detail-card ${voc >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+          <span class="grade-detail-title" style="font-weight: 700;">3. LEXICAL RESOURCE</span>
+          <span style="font-weight: bold;">${voc.toFixed(1)} / 10</span>
+        </div>
+        <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
+          ${escapeHtml((c.voc && c.voc.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+        </div>
+      </div>
+      <div class="grade-detail-card ${gram >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+          <span class="grade-detail-title" style="font-weight: 700;">4. GRAMMAR & ACCURACY</span>
+          <span style="font-weight: bold;">${gram.toFixed(1)} / 10</span>
+        </div>
+        <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
+          ${escapeHtml((c.gram && c.gram.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+        </div>
+      </div>
+    `;
+  }
+
+  // 4. Đồng bộ điểm mới nhất trong Lịch sử bài viết & Nút xanh "✓ ĐÃ VIẾT (x.xđ)" trên đầu trang
+  try {
+    const history = typeof getHistory === 'function' ? getHistory() : [];
+    if (Array.isArray(history) && history.length > 0 && currentTopic) {
+      const latest = history[0];
+      if (latest && Number(latest.topicId) === Number(currentTopic.id)) {
+        latest.score = aiScore;
+        localStorage.setItem('writing_history', JSON.stringify(history));
+      }
+    }
+    if (typeof updateWorkspaceStickBadge === 'function') updateWorkspaceStickBadge();
+    if (typeof updateStats === 'function') updateStats();
+  } catch (e) {
+    console.warn('Sync history score warning:', e);
   }
 }
 
