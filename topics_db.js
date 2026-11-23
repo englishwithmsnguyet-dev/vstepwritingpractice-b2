@@ -90892,6 +90892,5992 @@ const ESSAY_DATA = [
             "vi": "sự chuyển dịch dân cư về các vùng đô thị"
           }
         ]
+      },
+      {
+        "id": 72,
+        "title_en": "Traveling during the traditional Tet holiday",
+        "title_vi": "Đi du lịch trong dịp Tết cổ truyền",
+        "tags": "",
+        "context": "In recent years, the way people celebrate the traditional Tet holiday has changed noticeably. Instead of staying at home to prepare traditional meals and visit relatives as in the past, many people now choose to travel continuously throughout the holiday. While this growing trend brings exciting experiences, it also raises concerns about traditional family values.",
+        "context_vi": "Trong những năm gần đây, cách mọi người đón Tết cổ truyền đã thay đổi rõ rệt. Thay vì ở nhà chuẩn bị mâm cỗ truyền thống và đi thăm họ hàng như trước đây, nhiều người hiện chọn đi du lịch liên tục trong suốt kỳ nghỉ lễ. Dù xu hướng đang gia tăng này mang lại nhiều trải nghiệm thú vị, nó cũng làm dấy lên những lo ngại về các giá trị gia đình truyền thống.",
+        "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of traveling during the traditional Tet holiday. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những lợi ích và bất lợi của việc đi du lịch trong dịp Tết cổ truyền. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "traveling during the traditional Tet holiday",
+            "vi": "đi du lịch trong dịp Tết cổ truyền"
+          },
+          {
+            "en": "taking trips throughout the Lunar New Year break",
+            "vi": "thực hiện các chuyến đi xuyên suốt kỳ nghỉ Tết Nguyên đán"
+          },
+          {
+            "en": "celebrating Tet away from home",
+            "vi": "đón Tết xa nhà"
+          },
+          {
+            "en": "holiday travel during Tet",
+            "vi": "du lịch nghỉ lễ dịp Tết"
+          },
+          {
+            "en": "going on vacation instead of staying home for Tet",
+            "vi": "đi nghỉ mát thay vì ở nhà đón Tết"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: THƯ GIÃN THỰC SỰ VÀ TRÁNH ÁP LỰC CHUẨN BỊ TẾT",
+                "point_vi": "Đi du lịch dịp Tết giúp mọi người thực sự nghỉ ngơi và tránh áp lực nấu nướng, dọn dẹp.",
+                "point_en": "Traveling during Tet helps people truly relax and avoid the stress of cooking and cleaning.",
+                "point_collocations": [
+                  {
+                    "en": "truly relax",
+                    "vi": "thực sự thư giãn"
+                  },
+                  {
+                    "en": "cooking and cleaning",
+                    "vi": "nấu nướng và dọn dẹp"
+                  }
+                ],
+                "evidence_vi": "Thay vì dành nhiều ngày dọn nhà và chuẩn bị mâm cỗ, các gia đình có thể nghỉ ngơi thoải mái sau một năm làm việc vất vả.",
+                "evidence_en": "Instead of spending days cleaning the house and preparing big meals, families can rest comfortably after a busy working year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "prepare big meals",
+                      "vi": "chuẩn bị mâm cỗ lớn"
+                    },
+                    {
+                      "en": "busy working year",
+                      "vi": "một năm làm việc bận rộn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "truly relax",
+                    "vi": "thực sự thư giãn"
+                  },
+                  {
+                    "en": "cooking and cleaning",
+                    "vi": "nấu nướng và dọn dẹp"
+                  },
+                  {
+                    "en": "prepare big meals",
+                    "vi": "chuẩn bị mâm cỗ lớn"
+                  },
+                  {
+                    "en": "busy working year",
+                    "vi": "một năm làm việc bận rộn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: KHÁM PHÁ NHỮNG VÙNG ĐẤT VÀ TRẢI NGHIỆM MỚI",
+                "point_vi": "Du lịch vào dịp Tết mang lại cơ hội khám phá địa điểm mới và văn hóa khác nhau.",
+                "point_en": "Traveling during Tet gives people chances to explore new destinations and different cultures.",
+                "point_collocations": [
+                  {
+                    "en": "explore new destinations",
+                    "vi": "khám phá điểm đến mới"
+                  },
+                  {
+                    "en": "different cultures",
+                    "vi": "các nền văn hóa khác nhau"
+                  }
+                ],
+                "evidence_vi": "Du khách có thể ngắm cảnh đẹp, thưởng thức món ăn địa phương và tìm hiểu cách đón năm mới ở nhiều nơi.",
+                "evidence_en": "Travelers can enjoy beautiful scenery, taste local dishes, and learn how other regions celebrate the New Year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "beautiful scenery",
+                      "vi": "cảnh đẹp"
+                    },
+                    {
+                      "en": "local dishes",
+                      "vi": "món ăn địa phương"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "explore new destinations",
+                    "vi": "khám phá điểm đến mới"
+                  },
+                  {
+                    "en": "different cultures",
+                    "vi": "các nền văn hóa khác nhau"
+                  },
+                  {
+                    "en": "beautiful scenery",
+                    "vi": "cảnh đẹp"
+                  },
+                  {
+                    "en": "local dishes",
+                    "vi": "món ăn địa phương"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: TẠO KỶ NIỆM ĐẸP VÀ GẮN KẾT GIA ĐÌNH NHỎ",
+                "point_vi": "Những chuyến đi ngày Tết giúp các thành viên trong gia đình tạo thêm nhiều kỷ niệm vui vẻ bên nhau.",
+                "point_en": "Tet trips help family members create happy memories and spend quality time together.",
+                "point_collocations": [
+                  {
+                    "en": "happy memories",
+                    "vi": "kỷ niệm vui vẻ"
+                  },
+                  {
+                    "en": "quality time",
+                    "vi": "thời gian chất lượng"
+                  }
+                ],
+                "evidence_vi": "Cùng nhau đi chơi, chụp ảnh và trò chuyện giúp cha mẹ và con cái gần gũi hơn mà không bị bận rộn việc nhà.",
+                "evidence_en": "Sightseeing, taking photos, and talking together bring parents and children closer without daily chores.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take photos",
+                      "vi": "chụp ảnh"
+                    },
+                    {
+                      "en": "daily chores",
+                      "vi": "việc nhà hằng ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "happy memories",
+                    "vi": "kỷ niệm vui vẻ"
+                  },
+                  {
+                    "en": "quality time",
+                    "vi": "thời gian chất lượng"
+                  },
+                  {
+                    "en": "take photos",
+                    "vi": "chụp ảnh"
+                  },
+                  {
+                    "en": "daily chores",
+                    "vi": "việc nhà hằng ngày"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: TẬN DỤNG KỲ NGHỈ DÀI NHẤT TRONG NĂM",
+                "point_vi": "Tết là kỳ nghỉ dài hiếm hoi giúp người đi làm và học sinh dễ dàng sắp xếp chuyến đi xa.",
+                "point_en": "Tet is a rare long holiday that makes it easy for workers and students to plan long trips.",
+                "point_collocations": [
+                  {
+                    "en": "long holiday",
+                    "vi": "kỳ nghỉ dài"
+                  },
+                  {
+                    "en": "plan long trips",
+                    "vi": "lên kế hoạch chuyến đi xa"
+                  }
+                ],
+                "evidence_vi": "Vào các tháng khác trong năm, nhiều người rất khó xin nghỉ phép dài ngày để đi du lịch cùng cả nhà.",
+                "evidence_en": "During other months of the year, many people find it hard to take enough days off to travel with their families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take days off",
+                      "vi": "xin nghỉ phép"
+                    },
+                    {
+                      "en": "travel with families",
+                      "vi": "du lịch cùng gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "long holiday",
+                    "vi": "kỳ nghỉ dài"
+                  },
+                  {
+                    "en": "plan long trips",
+                    "vi": "lên kế hoạch chuyến đi xa"
+                  },
+                  {
+                    "en": "take days off",
+                    "vi": "xin nghỉ phép"
+                  },
+                  {
+                    "en": "travel with families",
+                    "vi": "du lịch cùng gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: THÚC ĐẨY NGÀNH DU LỊCH VÀ KINH TẾ ĐỊA PHƯƠNG",
+                "point_vi": "Xu hướng du lịch dịp Tết giúp phát triển ngành du lịch và tạo thêm thu nhập cho người dân địa phương.",
+                "point_en": "Traveling during Tet helps boost tourism and create more income for local communities.",
+                "point_collocations": [
+                  {
+                    "en": "boost tourism",
+                    "vi": "thúc đẩy du lịch"
+                  },
+                  {
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
+                  }
+                ],
+                "evidence_vi": "Khách sạn, nhà hàng và các dịch vụ vận tải có thêm nhiều khách hàng, giúp kinh tế địa phương phát triển mạnh hơn.",
+                "evidence_en": "Hotels, restaurants, and transport services welcome more visitors, helping local economies grow stronger.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "transport services",
+                      "vi": "dịch vụ vận tải"
+                    },
+                    {
+                      "en": "local economies",
+                      "vi": "kinh tế địa phương"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "boost tourism",
+                    "vi": "thúc đẩy du lịch"
+                  },
+                  {
+                    "en": "local communities",
+                    "vi": "cộng đồng địa phương"
+                  },
+                  {
+                    "en": "transport services",
+                    "vi": "dịch vụ vận tải"
+                  },
+                  {
+                    "en": "local economies",
+                    "vi": "kinh tế địa phương"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: BỎ LỠ DỊP SUM HỌP VỚI ÔNG BÀ VÀ HỌ HÀNG",
+                "point_vi": "Đi du lịch suốt kỳ nghỉ Tết khiến nhiều người bỏ lỡ thời gian quý giá bên ông bà và họ hàng.",
+                "point_en": "Traveling throughout Tet causes many people to miss precious reunion time with grandparents and relatives.",
+                "point_collocations": [
+                  {
+                    "en": "precious reunion time",
+                    "vi": "thời gian sum họp quý giá"
+                  },
+                  {
+                    "en": "grandparents and relatives",
+                    "vi": "ông bà và họ hàng"
+                  }
+                ],
+                "evidence_vi": "Tết là dịp hiếm hoi trong năm cả đại gia đình được quây quần, nên việc vắng mặt có thể khiến người lớn tuổi cảm thấy buồn và cô đơn.",
+                "evidence_en": "Tet is a rare occasion for the whole extended family to gather, so being away may leave elderly relatives feeling sad and lonely.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "extended family",
+                      "vi": "đại gia đình"
+                    },
+                    {
+                      "en": "elderly relatives",
+                      "vi": "người thân lớn tuổi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "precious reunion time",
+                    "vi": "thời gian sum họp quý giá"
+                  },
+                  {
+                    "en": "grandparents and relatives",
+                    "vi": "ông bà và họ hàng"
+                  },
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  },
+                  {
+                    "en": "elderly relatives",
+                    "vi": "người thân lớn tuổi"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: LÀM PHAI NHẠT PHONG TỤC TẾT CỔ TRUYỀN",
+                "point_vi": "Thói quen đi du lịch xuyên Tết có thể làm mờ nhạt các phong tục truyền thống tốt đẹp đối với trẻ em.",
+                "point_en": "Traveling away during Tet may weaken traditional customs among younger generations.",
+                "point_collocations": [
+                  {
+                    "en": "traditional customs",
+                    "vi": "phong tục truyền thống"
+                  },
+                  {
+                    "en": "younger generations",
+                    "vi": "thế hệ trẻ"
+                  }
+                ],
+                "evidence_vi": "Trẻ nhỏ sẽ có ít cơ hội trải nghiệm việc gói bánh chưng, chúc Tết hay đi thăm họ hàng để hiểu về cội nguồn văn hóa.",
+                "evidence_en": "Children have fewer chances to wrap traditional cakes, give New Year wishes, or visit relatives to learn about their cultural roots.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "New Year wishes",
+                      "vi": "lời chúc năm mới"
+                    },
+                    {
+                      "en": "cultural roots",
+                      "vi": "cội nguồn văn hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "traditional customs",
+                    "vi": "phong tục truyền thống"
+                  },
+                  {
+                    "en": "younger generations",
+                    "vi": "thế hệ trẻ"
+                  },
+                  {
+                    "en": "New Year wishes",
+                    "vi": "lời chúc năm mới"
+                  },
+                  {
+                    "en": "cultural roots",
+                    "vi": "cội nguồn văn hóa"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: CHI PHÍ DU LỊCH TĂNG RẤT CAO",
+                "point_vi": "Đi du lịch vào dịp Tết thường rất đắt đỏ vì giá vé và phòng khách sạn tăng mạnh.",
+                "point_en": "Traveling during Tet is often very expensive because ticket and hotel prices rise sharply.",
+                "point_collocations": [
+                  {
+                    "en": "rise sharply",
+                    "vi": "tăng mạnh"
+                  },
+                  {
+                    "en": "hotel prices",
+                    "vi": "giá phòng khách sạn"
+                  }
+                ],
+                "evidence_vi": "Nhiều gia đình phải trả gấp đôi tiền vé máy bay, nhà hàng và dịch vụ, tạo áp lực lớn cho ngân sách đầu năm.",
+                "evidence_en": "Many families pay double for flights, meals, and services, which puts heavy pressure on their budgets.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "pay double",
+                      "vi": "trả gấp đôi"
+                    },
+                    {
+                      "en": "heavy pressure on budgets",
+                      "vi": "áp lực lớn lên ngân sách"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rise sharply",
+                    "vi": "tăng mạnh"
+                  },
+                  {
+                    "en": "hotel prices",
+                    "vi": "giá phòng khách sạn"
+                  },
+                  {
+                    "en": "pay double",
+                    "vi": "trả gấp đôi"
+                  },
+                  {
+                    "en": "heavy pressure on budgets",
+                    "vi": "áp lực lớn lên ngân sách"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: ĐÔNG ĐÚC, TẮC ĐƯỜNG VÀ DỊCH VỤ QUÁ TẢI",
+                "point_vi": "Các điểm du lịch nổi tiếng thường rất đông đúc và tắc nghẽn trong những ngày Tết.",
+                "point_en": "Popular tourist destinations are usually very crowded and congested during Tet.",
+                "point_collocations": [
+                  {
+                    "en": "tourist destinations",
+                    "vi": "điểm đến du lịch"
+                  },
+                  {
+                    "en": "crowded and congested",
+                    "vi": "đông đúc và tắc nghẽn"
+                  }
+                ],
+                "evidence_vi": "Du khách phải xếp hàng lâu, gặp kẹt xe và đôi khi nhận chất lượng phục vụ kém hơn ngày thường.",
+                "evidence_en": "Travelers have to wait in long lines, face traffic jams, and sometimes receive poorer service than usual.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "wait in long lines",
+                      "vi": "xếp hàng dài"
+                    },
+                    {
+                      "en": "poorer service",
+                      "vi": "dịch vụ kém hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "tourist destinations",
+                    "vi": "điểm đến du lịch"
+                  },
+                  {
+                    "en": "crowded and congested",
+                    "vi": "đông đúc và tắc nghẽn"
+                  },
+                  {
+                    "en": "wait in long lines",
+                    "vi": "xếp hàng dài"
+                  },
+                  {
+                    "en": "poorer service",
+                    "vi": "dịch vụ kém hơn"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: DI CHUYỂN LIÊN TỤC GÂY MỆT MỎI SAU KỲ NGHỈ",
+                "point_vi": "Việc di chuyển liên tục suốt kỳ nghỉ Tết có thể khiến mọi người cảm thấy mệt mỏi hơn trước khi đi làm lại.",
+                "point_en": "Traveling continuously throughout Tet can leave people feeling exhausted before returning to work.",
+                "point_collocations": [
+                  {
+                    "en": "travel continuously",
+                    "vi": "di chuyển liên tục"
+                  },
+                  {
+                    "en": "feel exhausted",
+                    "vi": "cảm thấy kiệt sức"
+                  }
+                ],
+                "evidence_vi": "Lịch trình dày đặc và việc ngồi xe hoặc máy bay nhiều giờ khiến cơ thể thiếu thời gian nghỉ ngơi thật sự.",
+                "evidence_en": "Tight schedules and long hours on planes or buses leave people with little time to truly recharge.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "tight schedules",
+                      "vi": "lịch trình dày đặc"
+                    },
+                    {
+                      "en": "truly recharge",
+                      "vi": "thực sự nạp lại năng lượng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "travel continuously",
+                    "vi": "di chuyển liên tục"
+                  },
+                  {
+                    "en": "feel exhausted",
+                    "vi": "cảm thấy kiệt sức"
+                  },
+                  {
+                    "en": "tight schedules",
+                    "vi": "lịch trình dày đặc"
+                  },
+                  {
+                    "en": "truly recharge",
+                    "vi": "thực sự nạp lại năng lượng"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: GIẢI TỎA ÁP LỰC CHUẨN BỊ TẾT VÀ NGHỈ NGƠI TRỌN VẸN (ESCAPING HOLIDAY STRESS)",
+                "point_vi": "Du lịch dịp Tết cho phép các gia đình hiện đại tận hưởng kỳ nghỉ trọn vẹn mà không phải chịu áp lực chuẩn bị cầu kỳ.",
+                "point_en": "Traveling during Tet enables modern families to enjoy genuine rest while escaping the exhausting burden of holiday preparations.",
+                "point_collocations": [
+                  {
+                    "en": "genuine rest",
+                    "vi": "sự nghỉ ngơi đích thực"
+                  },
+                  {
+                    "en": "holiday preparations",
+                    "vi": "công việc chuẩn bị ngày lễ"
+                  }
+                ],
+                "evidence_vi": "Theo truyền thống, nhiều gia đình—đặc biệt là phụ nữ—phải dành hàng tuần để tổng vệ sinh, mua sắm và nấu nướng tiếp khách liên tục. Việc tạm rời khỏi những bổn phận nặng nề đó giúp mọi người thực sự thư giãn tinh thần và nạp lại năng lượng tích cực cho năm mới.",
+                "evidence_en": "Traditionally, households—especially women—spend days cleaning, shopping, and cooking elaborate feasts for endless streams of guests. Stepping away from these tiring domestic duties allows everyone to unwind mentally and recharge their energy for the year ahead.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "elaborate feasts",
+                      "vi": "mâm cỗ cầu kỳ"
+                    },
+                    {
+                      "en": "domestic duties",
+                      "vi": "bổn phận việc nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unwind mentally",
+                      "vi": "thư giãn tinh thần"
+                    },
+                    {
+                      "en": "recharge energy",
+                      "vi": "nạp lại năng lượng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "genuine rest",
+                    "vi": "sự nghỉ ngơi đích thực"
+                  },
+                  {
+                    "en": "holiday preparations",
+                    "vi": "công việc chuẩn bị ngày lễ"
+                  },
+                  {
+                    "en": "elaborate feasts",
+                    "vi": "mâm cỗ cầu kỳ"
+                  },
+                  {
+                    "en": "domestic duties",
+                    "vi": "bổn phận việc nhà"
+                  },
+                  {
+                    "en": "unwind mentally",
+                    "vi": "thư giãn tinh thần"
+                  },
+                  {
+                    "en": "recharge energy",
+                    "vi": "nạp lại năng lượng"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: MỞ RỘNG TRẢI NGHIỆM VĂN HÓA VÀ TẦM NHÌN (BROADENING CULTURAL EXPERIENCES)",
+                "point_vi": "Những chuyến du xuân dịp Tết mang đến cơ hội quý giá để khám phá các nền văn hóa đa dạng và phong cảnh mới mẻ.",
+                "point_en": "Taking trips over Tet provides valuable opportunities to discover new landscapes and broaden cultural perspectives.",
+                "point_collocations": [
+                  {
+                    "en": "broaden cultural perspectives",
+                    "vi": "mở rộng góc nhìn văn hóa"
+                  },
+                  {
+                    "en": "new landscapes",
+                    "vi": "phong cảnh mới mẻ"
+                  }
+                ],
+                "evidence_vi": "Du khách có thể trực tiếp trải nghiệm ẩm thực vùng miền, lễ hội mùa xuân đặc sắc hoặc không khí đón năm mới tại các quốc gia khác. Những trải nghiệm phong phú này giúp làm mới tư duy, mở mang kiến thức và khơi dậy cảm hứng sáng tạo cho cả người lớn lẫn trẻ nhỏ.",
+                "evidence_en": "Travelers can immerse themselves in regional cuisines, unique spring festivals, or diverse New Year atmospheres abroad. Such enriching experiences broaden worldviews and spark fresh inspiration for both adults and children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "immerse oneself in",
+                      "vi": "đắm mình vào"
+                    },
+                    {
+                      "en": "spring festivals",
+                      "vi": "lễ hội mùa xuân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broaden worldviews",
+                      "vi": "mở mang thế giới quan"
+                    },
+                    {
+                      "en": "fresh inspiration",
+                      "vi": "nguồn cảm hứng mới"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "broaden cultural perspectives",
+                    "vi": "mở rộng góc nhìn văn hóa"
+                  },
+                  {
+                    "en": "new landscapes",
+                    "vi": "phong cảnh mới mẻ"
+                  },
+                  {
+                    "en": "immerse oneself in",
+                    "vi": "đắm mình vào"
+                  },
+                  {
+                    "en": "spring festivals",
+                    "vi": "lễ hội mùa xuân"
+                  },
+                  {
+                    "en": "broaden worldviews",
+                    "vi": "mở mang thế giới quan"
+                  },
+                  {
+                    "en": "fresh inspiration",
+                    "vi": "nguồn cảm hứng mới"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: GẮN KẾT GIA ĐÌNH QUA NHỮNG KỶ NIỆM MỚI (STRENGTHENING FAMILY BONDS)",
+                "point_vi": "Các chuyến đi chung trong dịp Tết giúp các thành viên trong gia đình nhỏ tăng cường sự gắn bó qua những trải nghiệm đáng nhớ.",
+                "point_en": "Shared Tet journeys help nuclear families deepen their emotional bonds through memorable collective experiences.",
+                "point_collocations": [
+                  {
+                    "en": "nuclear families",
+                    "vi": "gia đình hạt nhân"
+                  },
+                  {
+                    "en": "deepen emotional bonds",
+                    "vi": "thắt chặt gắn kết tình cảm"
+                  }
+                ],
+                "evidence_vi": "Khi thoát khỏi guồng quay công việc bận rộn và các nghĩa vụ xã giao hình thức, cha mẹ và con cái có trọn vẹn thời gian trò chuyện và vui chơi cùng nhau. Những kỷ niệm du lịch ý nghĩa này tạo nên sự gần gũi chân thành và nâng cao chất lượng đời sống tinh thần của gia đình.",
+                "evidence_en": "Freed from hectic work routines and formal social obligations, parents and children enjoy undivided time to converse and explore together. Creating meaningful travel memories fosters genuine closeness and enriches overall family well-being.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "formal social obligations",
+                      "vi": "nghĩa vụ xã giao hình thức"
+                    },
+                    {
+                      "en": "undivided time",
+                      "vi": "thời gian trọn vẹn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "genuine closeness",
+                      "vi": "sự gần gũi chân thành"
+                    },
+                    {
+                      "en": "family well-being",
+                      "vi": "hạnh phúc gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "nuclear families",
+                    "vi": "gia đình hạt nhân"
+                  },
+                  {
+                    "en": "deepen emotional bonds",
+                    "vi": "thắt chặt gắn kết tình cảm"
+                  },
+                  {
+                    "en": "formal social obligations",
+                    "vi": "nghĩa vụ xã giao hình thức"
+                  },
+                  {
+                    "en": "undivided time",
+                    "vi": "thời gian trọn vẹn"
+                  },
+                  {
+                    "en": "genuine closeness",
+                    "vi": "sự gần gũi chân thành"
+                  },
+                  {
+                    "en": "family well-being",
+                    "vi": "hạnh phúc gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: TẬN DỤNG TỐI ĐA KỲ NGHỈ DÀI HIẾM CÓ (MAXIMIZING THE LONGEST PUBLIC HOLIDAY)",
+                "point_vi": "Kỳ nghỉ Tết kéo dài mang lại khoảng thời gian lý tưởng hiếm hoi để người đi làm và học sinh thực hiện các hành trình xa.",
+                "point_en": "The extended Tet break offers a rare window for working adults and students to undertake long-distance travel.",
+                "point_collocations": [
+                  {
+                    "en": "extended break",
+                    "vi": "kỳ nghỉ kéo dài"
+                  },
+                  {
+                    "en": "long-distance travel",
+                    "vi": "du lịch đường dài"
+                  }
+                ],
+                "evidence_vi": "Trong suốt phần còn lại của năm, lịch học tập và làm việc dày đặc thường khiến cả gia đình rất khó sắp xếp kỳ nghỉ trùng nhau. Nhờ kỳ nghỉ lễ tập trung kéo dài từ một tuần trở lên, mọi người có thể thoải mái khám phá các điểm đến xa mà không ảnh hưởng đến công việc hay học tập.",
+                "evidence_en": "Throughout the rest of the year, conflicting school calendars and tight office schedules make coordinating a family vacation difficult. Having a synchronized break lasting a week or longer allows households to visit distant destinations without disrupting work or study.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "conflicting calendars",
+                      "vi": "lịch trình không trùng khớp"
+                    },
+                    {
+                      "en": "coordinate a vacation",
+                      "vi": "sắp xếp kỳ nghỉ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "synchronized break",
+                      "vi": "kỳ nghỉ đồng bộ chung"
+                    },
+                    {
+                      "en": "distant destinations",
+                      "vi": "điểm đến xa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extended break",
+                    "vi": "kỳ nghỉ kéo dài"
+                  },
+                  {
+                    "en": "long-distance travel",
+                    "vi": "du lịch đường dài"
+                  },
+                  {
+                    "en": "conflicting calendars",
+                    "vi": "lịch trình không trùng khớp"
+                  },
+                  {
+                    "en": "coordinate a vacation",
+                    "vi": "sắp xếp kỳ nghỉ"
+                  },
+                  {
+                    "en": "synchronized break",
+                    "vi": "kỳ nghỉ đồng bộ chung"
+                  },
+                  {
+                    "en": "distant destinations",
+                    "vi": "điểm đến xa"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: KÍCH THÍCH NGÀNH DU LỊCH VÀ KINH TẾ ĐỊA PHƯƠNG (STIMULATING TOURISM AND LOCAL ECONOMIES)",
+                "point_vi": "Nhu cầu du lịch tăng mạnh trong dịp Tết tạo động lực đáng kể cho ngành dịch vụ và nền kinh tế địa phương.",
+                "point_en": "Surging holiday travel demand injects significant revenue into the tourism sector and regional economies.",
+                "point_collocations": [
+                  {
+                    "en": "surging demand",
+                    "vi": "nhu cầu tăng vọt"
+                  },
+                  {
+                    "en": "regional economies",
+                    "vi": "kinh tế địa phương / vùng"
+                  }
+                ],
+                "evidence_vi": "Chi tiêu của du khách cho lưu trú, ẩm thực, vận tải và đặc sản giúp các doanh nghiệp lữ hành lẫn người dân địa phương gia tăng thu nhập đáng kể vào đầu năm. Nguồn doanh thu này đồng thời tạo thêm việc làm thời vụ và khuyến khích đầu tư nâng cấp hạ tầng du lịch.",
+                "evidence_en": "Visitor spending on accommodation, dining, transport, and local specialties generates vital revenue for hospitality businesses and residents alike. This economic boost also creates seasonal jobs and encourages further investment in tourism infrastructure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hospitality businesses",
+                      "vi": "doanh nghiệp lưu trú – nhà hàng"
+                    },
+                    {
+                      "en": "local specialties",
+                      "vi": "đặc sản địa phương"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "seasonal jobs",
+                      "vi": "việc làm thời vụ"
+                    },
+                    {
+                      "en": "tourism infrastructure",
+                      "vi": "hạ tầng du lịch"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "surging demand",
+                    "vi": "nhu cầu tăng vọt"
+                  },
+                  {
+                    "en": "regional economies",
+                    "vi": "kinh tế địa phương / vùng"
+                  },
+                  {
+                    "en": "hospitality businesses",
+                    "vi": "doanh nghiệp lưu trú – nhà hàng"
+                  },
+                  {
+                    "en": "local specialties",
+                    "vi": "đặc sản địa phương"
+                  },
+                  {
+                    "en": "seasonal jobs",
+                    "vi": "việc làm thời vụ"
+                  },
+                  {
+                    "en": "tourism infrastructure",
+                    "vi": "hạ tầng du lịch"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: LÀM SUY GIẢM GIÁ TRỊ ĐOÀN VIÊN ĐẠI GIA ĐÌNH (WEAKENING EXTENDED FAMILY REUNIONS)",
+                "point_vi": "Việc đi du lịch xuyên Tết làm mất đi ý nghĩa cốt lõi của dịp đoàn viên bên ông bà và đại gia đình.",
+                "point_en": "Traveling continuously throughout Tet undermines the core cultural spirit of reuniting with extended family.",
+                "point_collocations": [
+                  {
+                    "en": "core cultural spirit",
+                    "vi": "tinh thần văn hóa cốt lõi"
+                  },
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  }
+                ],
+                "evidence_vi": "Đối với nhiều bậc cha mẹ và ông bà lớn tuổi, Tết là dịp mong đợi nhất trong năm để con cháu quây quần dưới một mái nhà. Khi người trẻ vắng mặt suốt kỳ nghỉ, mối liên kết giữa các thế hệ có thể dần phai nhạt và khiến người thân lớn tuổi cảm thấy hụt hẫng, cô đơn.",
+                "evidence_en": "For many aging parents and grandparents, Tet is the most anticipated occasion of the year to welcome children and grandchildren home. Prolonged absence during this sacred time can weaken intergenerational ties and leave elderly relatives feeling neglected.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "aging parents",
+                      "vi": "cha mẹ lớn tuổi"
+                    },
+                    {
+                      "en": "anticipated occasion",
+                      "vi": "dịp được mong chờ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intergenerational ties",
+                      "vi": "mối gắn kết giữa các thế hệ"
+                    },
+                    {
+                      "en": "feel neglected",
+                      "vi": "cảm thấy bị bỏ quên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "core cultural spirit",
+                    "vi": "tinh thần văn hóa cốt lõi"
+                  },
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "anticipated occasion",
+                    "vi": "dịp được mong chờ"
+                  },
+                  {
+                    "en": "intergenerational ties",
+                    "vi": "mối gắn kết giữa các thế hệ"
+                  },
+                  {
+                    "en": "feel neglected",
+                    "vi": "cảm thấy bị bỏ quên"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: LÀM MAI MỘT PHONG TỤC TẾT TRUYỀN THỐNG (ERODING TRADITIONAL TET CUSTOMS)",
+                "point_vi": "Xu hướng rời nhà đi du lịch mỗi dịp Tết có nguy cơ làm mai một những phong tục cổ truyền quý báu ở thế hệ trẻ.",
+                "point_en": "Habitual Tet travel risks eroding cherished traditional customs among younger generations.",
+                "point_collocations": [
+                  {
+                    "en": "erode cherished customs",
+                    "vi": "làm mai một phong tục trân quý"
+                  }
+                ],
+                "evidence_vi": "Nhiều nghi lễ ý nghĩa như thờ cúng tổ tiên, gói bánh chưng hay chúc Tết họ hàng đòi hỏi sự hiện diện trực tiếp tại quê nhà. Nếu trẻ em lớn lên mà hiếm khi tham gia những sinh hoạt truyền thống này, các em có thể dần mất kết nối với bản sắc văn hóa dân tộc.",
+                "evidence_en": "Meaningful rituals such as ancestral worship, preparing traditional holiday dishes, and exchanging New Year blessings rely on celebrating at home. Children who rarely witness these traditions may gradually lose appreciation for their cultural heritage and national identity.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "ancestral worship",
+                      "vi": "thờ cúng tổ tiên"
+                    },
+                    {
+                      "en": "New Year blessings",
+                      "vi": "lời chúc đầu năm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cultural heritage",
+                      "vi": "di sản văn hóa"
+                    },
+                    {
+                      "en": "national identity",
+                      "vi": "bản sắc dân tộc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "erode cherished customs",
+                    "vi": "làm mai một phong tục trân quý"
+                  },
+                  {
+                    "en": "ancestral worship",
+                    "vi": "thờ cúng tổ tiên"
+                  },
+                  {
+                    "en": "New Year blessings",
+                    "vi": "lời chúc đầu năm"
+                  },
+                  {
+                    "en": "cultural heritage",
+                    "vi": "di sản văn hóa"
+                  },
+                  {
+                    "en": "national identity",
+                    "vi": "bản sắc dân tộc"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: CHI PHÍ DU LỊCH TĂNG VỌT GÂY ÁP LỰC TÀI CHÍNH (SOARING TRAVEL EXPENSES)",
+                "point_vi": "Du lịch vào mùa cao điểm Tết đi kèm chi phí đắt đỏ, dễ tạo gánh nặng tài chính không nhỏ cho nhiều gia đình.",
+                "point_en": "Peak-season Tet travel involves inflated prices that can place considerable financial strain on households.",
+                "point_collocations": [
+                  {
+                    "en": "peak-season travel",
+                    "vi": "du lịch mùa cao điểm"
+                  },
+                  {
+                    "en": "financial strain",
+                    "vi": "áp lực tài chính"
+                  }
+                ],
+                "evidence_vi": "Giá vé máy bay, phòng khách sạn và dịch vụ ăn uống thường tăng gấp nhiều lần so với ngày thường do nhu cầu tăng đột biến và phụ thu ngày lễ. Khoản chi tiêu lớn này có thể làm hao hụt tiền tiết kiệm và gây áp lực ngân sách cho gia đình ngay trong những tháng đầu năm.",
+                "evidence_en": "Airfares, hotel rates, and dining charges often skyrocket due to intense holiday demand and seasonal surcharges. Spending excessively on a single holiday trip can deplete personal savings and create budget stress right at the start of the year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "seasonal surcharges",
+                      "vi": "phụ thu mùa lễ hội"
+                    },
+                    {
+                      "en": "skyrocket",
+                      "vi": "tăng vọt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "deplete savings",
+                      "vi": "làm hao hụt tiền tiết kiệm"
+                    },
+                    {
+                      "en": "budget stress",
+                      "vi": "áp lực ngân sách"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "peak-season travel",
+                    "vi": "du lịch mùa cao điểm"
+                  },
+                  {
+                    "en": "financial strain",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "seasonal surcharges",
+                    "vi": "phụ thu mùa lễ hội"
+                  },
+                  {
+                    "en": "skyrocket",
+                    "vi": "tăng vọt"
+                  },
+                  {
+                    "en": "deplete savings",
+                    "vi": "làm hao hụt tiền tiết kiệm"
+                  },
+                  {
+                    "en": "budget stress",
+                    "vi": "áp lực ngân sách"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: QUÁ TẢI ĐIỂM ĐẾN VÀ CHẤT LƯỢNG DỊCH VỤ GIẢM SÚT (OVERCROWDING AND POORER SERVICE)",
+                "point_vi": "Tình trạng quá tải tại các điểm du lịch nổi tiếng dịp Tết thường làm giảm đáng kể chất lượng trải nghiệm của du khách.",
+                "point_en": "Severe overcrowding at popular resorts and attractions during Tet often diminishes the overall travel experience.",
+                "point_collocations": [
+                  {
+                    "en": "severe overcrowding",
+                    "vi": "tình trạng quá tải nghiêm trọng"
+                  },
+                  {
+                    "en": "travel experience",
+                    "vi": "trải nghiệm du lịch"
+                  }
+                ],
+                "evidence_vi": "Hàng triệu người cùng đổ về một số trung tâm du lịch và danh thắng gây ra ùn tắc giao thông kéo dài, cảnh chen lấn và thời gian chờ đợi mệt mỏi. Hơn nữa, vì thiếu hụt nhân sự ngày lễ, nhiều nhà hàng và khách sạn khó đảm bảo chất lượng phục vụ chu đáo như bình thường.",
+                "evidence_en": "Millions of travelers converging on major tourist hubs cause severe traffic congestion, packed attractions, and frustrating queues. Moreover, holiday staff shortages often prevent hotels and restaurants from maintaining their usual service standards.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "tourist hubs",
+                      "vi": "trung tâm du lịch"
+                    },
+                    {
+                      "en": "frustrating queues",
+                      "vi": "cảnh xếp hàng gây bực bội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "staff shortages",
+                      "vi": "thiếu hụt nhân sự"
+                    },
+                    {
+                      "en": "service standards",
+                      "vi": "tiêu chuẩn dịch vụ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "severe overcrowding",
+                    "vi": "tình trạng quá tải nghiêm trọng"
+                  },
+                  {
+                    "en": "travel experience",
+                    "vi": "trải nghiệm du lịch"
+                  },
+                  {
+                    "en": "tourist hubs",
+                    "vi": "trung tâm du lịch"
+                  },
+                  {
+                    "en": "frustrating queues",
+                    "vi": "cảnh xếp hàng gây bực bội"
+                  },
+                  {
+                    "en": "staff shortages",
+                    "vi": "thiếu hụt nhân sự"
+                  },
+                  {
+                    "en": "service standards",
+                    "vi": "tiêu chuẩn dịch vụ"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: KIỆT SỨC DO DI CHUYỂN LIÊN TỤC (FATIGUE FROM CONTINUOUS TRAVEL)",
+                "point_vi": "Lịch trình di chuyển dày đặc xuyên suốt kỳ nghỉ có thể khiến người du lịch kiệt sức thay vì thực sự được phục hồi.",
+                "point_en": "Continuous travel with packed itineraries can leave holidaymakers physically exhausted rather than genuinely refreshed.",
+                "point_collocations": [
+                  {
+                    "en": "packed itineraries",
+                    "vi": "lịch trình dày đặc"
+                  },
+                  {
+                    "en": "physically exhausted",
+                    "vi": "kiệt sức về thể chất"
+                  }
+                ],
+                "evidence_vi": "Việc liên tục chuyển địa điểm, ngồi tàu xe nhiều giờ và thích nghi với múi giờ hay thời tiết mới tiêu hao rất nhiều thể lực. Hệ quả là nhiều người trở về nhà ngay sát ngày đi làm trong trạng thái uể oải, làm giảm năng suất và tinh thần vào đầu năm mới.",
+                "evidence_en": "Constantly moving between destinations, enduring delayed flights, and adapting to new routines consume substantial physical energy. As a result, travelers often return home just before work resumes feeling drained, which lowers productivity at the start of the year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "delayed flights",
+                      "vi": "chuyến bay bị trễ"
+                    },
+                    {
+                      "en": "physical energy",
+                      "vi": "năng lượng thể chất"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feeling drained",
+                      "vi": "cảm thấy cạn kiệt sức lực"
+                    },
+                    {
+                      "en": "lower productivity",
+                      "vi": "làm giảm năng suất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "packed itineraries",
+                    "vi": "lịch trình dày đặc"
+                  },
+                  {
+                    "en": "physically exhausted",
+                    "vi": "kiệt sức về thể chất"
+                  },
+                  {
+                    "en": "delayed flights",
+                    "vi": "chuyến bay bị trễ"
+                  },
+                  {
+                    "en": "physical energy",
+                    "vi": "năng lượng thể chất"
+                  },
+                  {
+                    "en": "feeling drained",
+                    "vi": "cảm thấy cạn kiệt sức lực"
+                  },
+                  {
+                    "en": "lower productivity",
+                    "vi": "làm giảm năng suất"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "truly relax",
+              "vi": "thực sự thư giãn"
+            },
+            {
+              "en": "avoid cooking and cleaning",
+              "vi": "tránh việc nấu nướng và dọn dẹp"
+            },
+            {
+              "en": "explore new destinations",
+              "vi": "khám phá điểm đến mới"
+            },
+            {
+              "en": "taste local dishes",
+              "vi": "thưởng thức món ăn địa phương"
+            },
+            {
+              "en": "create happy memories",
+              "vi": "tạo ra những kỷ niệm vui vẻ"
+            },
+            {
+              "en": "spend quality time",
+              "vi": "dành thời gian chất lượng"
+            },
+            {
+              "en": "busy working year",
+              "vi": "một năm làm việc bận rộn"
+            },
+            {
+              "en": "enjoy beautiful scenery",
+              "vi": "ngắm cảnh đẹp"
+            },
+            {
+              "en": "escape holiday preparations",
+              "vi": "tránh áp lực chuẩn bị ngày lễ"
+            },
+            {
+              "en": "elaborate feasts",
+              "vi": "mâm cỗ cầu kỳ"
+            },
+            {
+              "en": "broaden cultural perspectives",
+              "vi": "mở rộng góc nhìn văn hóa"
+            },
+            {
+              "en": "immerse oneself in",
+              "vi": "đắm mình vào"
+            },
+            {
+              "en": "deepen emotional bonds",
+              "vi": "thắt chặt sự gắn kết tình cảm"
+            },
+            {
+              "en": "formal social obligations",
+              "vi": "nghĩa vụ xã giao hình thức"
+            },
+            {
+              "en": "unwind mentally",
+              "vi": "thư giãn tinh thần"
+            },
+            {
+              "en": "recharge energy",
+              "vi": "nạp lại năng lượng"
+            },
+            {
+              "en": "longest holiday of the year",
+              "vi": "kỳ nghỉ dài nhất trong năm"
+            },
+            {
+              "en": "plan long trips",
+              "vi": "lên kế hoạch chuyến đi xa"
+            },
+            {
+              "en": "take days off",
+              "vi": "xin nghỉ phép"
+            },
+            {
+              "en": "boost domestic tourism",
+              "vi": "thúc đẩy du lịch nội địa"
+            },
+            {
+              "en": "create more income",
+              "vi": "tạo thêm thu nhập"
+            },
+            {
+              "en": "local economies",
+              "vi": "nền kinh tế địa phương"
+            },
+            {
+              "en": "transport services",
+              "vi": "dịch vụ vận tải"
+            },
+            {
+              "en": "welcome more visitors",
+              "vi": "đón thêm nhiều du khách"
+            },
+            {
+              "en": "extended Tet break",
+              "vi": "kỳ nghỉ Tết kéo dài"
+            },
+            {
+              "en": "synchronized holiday schedule",
+              "vi": "lịch nghỉ lễ đồng bộ"
+            },
+            {
+              "en": "surging travel demand",
+              "vi": "nhu cầu du lịch tăng vọt"
+            },
+            {
+              "en": "hospitality industry",
+              "vi": "ngành khách sạn – nhà hàng"
+            },
+            {
+              "en": "create seasonal jobs",
+              "vi": "tạo việc làm thời vụ"
+            },
+            {
+              "en": "tourism infrastructure",
+              "vi": "cơ sở hạ tầng du lịch"
+            },
+            {
+              "en": "regional specialties",
+              "vi": "đặc sản vùng miền"
+            },
+            {
+              "en": "without disrupting work or study",
+              "vi": "không làm gián đoạn công việc hay học tập"
+            },
+            {
+              "en": "precious reunion time",
+              "vi": "thời gian sum họp quý giá"
+            },
+            {
+              "en": "extended family",
+              "vi": "đại gia đình"
+            },
+            {
+              "en": "elderly relatives",
+              "vi": "người thân lớn tuổi"
+            },
+            {
+              "en": "traditional customs",
+              "vi": "phong tục truyền thống"
+            },
+            {
+              "en": "cultural roots",
+              "vi": "cội nguồn văn hóa"
+            },
+            {
+              "en": "New Year wishes",
+              "vi": "lời chúc năm mới"
+            },
+            {
+              "en": "wrap traditional cakes",
+              "vi": "gói bánh chưng / bánh truyền thống"
+            },
+            {
+              "en": "feel sad and lonely",
+              "vi": "cảm thấy buồn và cô đơn"
+            },
+            {
+              "en": "core cultural spirit",
+              "vi": "tinh thần văn hóa cốt lõi"
+            },
+            {
+              "en": "intergenerational ties",
+              "vi": "mối gắn kết liên thế hệ"
+            },
+            {
+              "en": "erode cherished customs",
+              "vi": "làm mai một phong tục trân quý"
+            },
+            {
+              "en": "ancestral worship",
+              "vi": "nghi lễ thờ cúng tổ tiên"
+            },
+            {
+              "en": "cultural heritage",
+              "vi": "di sản văn hóa"
+            },
+            {
+              "en": "national identity",
+              "vi": "bản sắc dân tộc"
+            },
+            {
+              "en": "feel emotionally neglected",
+              "vi": "cảm thấy bị bỏ quên về tình cảm"
+            },
+            {
+              "en": "sacred occasion",
+              "vi": "dịp thiêng liêng"
+            },
+            {
+              "en": "rise sharply",
+              "vi": "tăng mạnh"
+            },
+            {
+              "en": "pay double",
+              "vi": "trả giá gấp đôi"
+            },
+            {
+              "en": "crowded and congested",
+              "vi": "đông đúc và tắc nghẽn"
+            },
+            {
+              "en": "wait in long lines",
+              "vi": "xếp hàng dài chờ đợi"
+            },
+            {
+              "en": "poorer service",
+              "vi": "chất lượng dịch vụ kém hơn"
+            },
+            {
+              "en": "travel continuously",
+              "vi": "di chuyển liên tục"
+            },
+            {
+              "en": "tight schedules",
+              "vi": "lịch trình dày đặc"
+            },
+            {
+              "en": "feel exhausted",
+              "vi": "cảm thấy kiệt sức"
+            },
+            {
+              "en": "peak-season surcharges",
+              "vi": "phụ thu mùa cao điểm"
+            },
+            {
+              "en": "financial strain",
+              "vi": "áp lực tài chính"
+            },
+            {
+              "en": "deplete personal savings",
+              "vi": "làm hao hụt tiền tiết kiệm"
+            },
+            {
+              "en": "severe overcrowding",
+              "vi": "tình trạng quá tải nghiêm trọng"
+            },
+            {
+              "en": "holiday staff shortages",
+              "vi": "thiếu hụt nhân sự ngày lễ"
+            },
+            {
+              "en": "packed itineraries",
+              "vi": "lịch trình kín đặc"
+            },
+            {
+              "en": "physically drained",
+              "vi": "cạn kiệt thể lực"
+            },
+            {
+              "en": "frustrating queues",
+              "vi": "cảnh xếp hàng gây bực bội"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>traveling during the traditional Tet holiday</strong> instead of staying at home has become increasingly popular. While this growing trend brings several clear benefits, it also has noticeable drawbacks that families should consider.\n\nOn the one hand, traveling throughout Tet offers meaningful advantages. Firstly, it helps people <strong>truly relax</strong> and avoid the stress of cooking and cleaning. Instead of spending days preparing big meals and receiving guests, families can rest comfortably after a <strong>busy working year</strong>. Secondly, Tet trips give travelers great chances to <strong>explore new destinations</strong>, enjoy beautiful scenery, and experience different regional cultures. Furthermore, since Tet is the <strong>longest holiday of the year</strong>, parents and children can easily plan a long vacation and create <strong>happy memories</strong> together without daily chores.\n\nOn the other hand, this trend also brings several disadvantages. First of all, traveling away throughout Tet causes many people to miss <strong>precious reunion time</strong> with grandparents and extended family, which may leave <strong>elderly relatives</strong> feeling sad and lonely. In addition, staying away from home every year can weaken <strong>traditional customs</strong> among children, who have fewer chances to learn about their cultural roots. Finally, holiday travel is often very expensive because flight and hotel prices <strong>rise sharply</strong>, while famous tourist destinations become extremely <strong>crowded and congested</strong>.\n\nIn conclusion, traveling during Tet helps families rest and explore new places, but it can also affect family reunions, traditions, and budgets. Therefore, people should balance visiting relatives at home with taking short, well-planned trips.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc đi du lịch trong dịp Tết cổ truyền</strong> thay vì ở nhà đã trở nên ngày càng phổ biến. Mặc dù xu hướng đang phát triển này mang lại nhiều lợi ích rõ ràng, nó cũng có những bất lợi đáng chú ý mà các gia đình cần cân nhắc.\n\nMột mặt, đi du lịch dịp Tết mang lại những thuận lợi ý nghĩa. Thứ nhất, nó giúp mọi người <strong>thực sự thư giãn</strong> và tránh áp lực nấu nướng, dọn dẹp. Thay vì mất nhiều ngày chuẩn bị mâm cỗ lớn và tiếp khách, các gia đình có thể nghỉ ngơi thoải mái sau một <strong>năm làm việc bận rộn</strong>. Thứ hai, các chuyến đi Tết mang lại cơ hội tuyệt vời để <strong>khám phá điểm đến mới</strong>, ngắm cảnh đẹp và trải nghiệm văn hóa vùng miền khác nhau. Hơn nữa, vì Tết là <strong>kỳ nghỉ dài nhất trong năm</strong>, cha mẹ và con cái có thể dễ dàng lên kế hoạch du lịch dài ngày và tạo ra những <strong>kỷ niệm vui vẻ</strong> bên nhau mà không vướng bận việc nhà.\n\nMặt khác, xu hướng này cũng kéo theo một số bất lợi. Trước hết, đi du lịch suốt dịp Tết khiến nhiều người bỏ lỡ <strong>thời gian sum họp quý giá</strong> với ông bà và đại gia đình, dễ khiến <strong>người thân lớn tuổi</strong> cảm thấy buồn và cô đơn. Thêm vào đó, vắng nhà mỗi dịp Tết có thể làm phai nhạt <strong>phong tục truyền thống</strong> ở trẻ nhỏ khi các em ít có cơ hội tìm hiểu cội nguồn văn hóa. Cuối cùng, du lịch ngày lễ thường rất đắt đỏ vì giá vé máy bay và khách sạn <strong>tăng mạnh</strong>, trong khi các điểm đến nổi tiếng trở nên cực kỳ <strong>đông đúc và tắc nghẽn</strong>.\n\nTóm lại, du lịch dịp Tết giúp các gia đình nghỉ ngơi và khám phá nơi mới, nhưng cũng có thể ảnh hưởng đến sự sum họp, truyền thống và ngân sách. Vì vậy, mọi người nên cân bằng giữa việc thăm hỏi người thân tại nhà và những chuyến đi ngắn được lên kế hoạch hợp lý.",
+          "sample_b2": "In contemporary Vietnam, celebrating the Lunar New Year has undergone a remarkable shift, with growing numbers of people choosing to travel continuously throughout Tet rather than staying home. Although this modern lifestyle choice offers undeniable advantages, it also entails significant cultural, financial, and practical drawbacks.\n\nOn the positive side, holiday travel during Tet brings several compelling benefits. First and foremost, it enables families to enjoy genuine rest while <strong>escaping holiday preparations</strong>. Traditionally, households—especially women—spend days cleaning and cooking <strong>elaborate feasts</strong>, so stepping away allows everyone to <strong>unwind mentally</strong> and recharge for the year ahead. Second, taking advantage of the <strong>extended Tet break</strong> provides a rare synchronized window for nuclear families to explore new landscapes, <strong>broaden cultural perspectives</strong>, and <strong>deepen emotional bonds</strong> free from formal social obligations. Moreover, <strong>surging travel demand</strong> injects vital revenue into the <strong>hospitality industry</strong>, creating seasonal jobs and stimulating regional economies.\n\nNevertheless, traveling throughout the entire holiday presents notable disadvantages. Most importantly, prolonged absence undermines the <strong>core cultural spirit</strong> of Tet reunions, weakening <strong>intergenerational ties</strong> and leaving aging parents feeling <strong>emotionally neglected</strong>. Habitual travel also risks <strong>eroding cherished customs</strong> such as ancestral worship, potentially distancing younger generations from their <strong>cultural heritage</strong>. In practical terms, <strong>peak-season surcharges</strong> cause airfares and hotel rates to skyrocket, imposing heavy <strong>financial strain</strong>, while <strong>severe overcrowding</strong>, holiday staff shortages, and <strong>packed itineraries</strong> often leave holidaymakers physically drained rather than refreshed.\n\nIn conclusion, while Tet travel provides relaxation, cultural discovery, and economic benefits, it can weaken family traditions and prove costly and exhausting. A balanced approach—celebrating the first days of Tet with extended family before taking a short, well-paced getaway—offers the best of both worlds.",
+          "translation_b2": "Trong xã hội Việt Nam đương đại, cách đón Tết Nguyên đán đã có sự chuyển biến rõ rệt khi ngày càng nhiều người chọn đi du lịch xuyên Tết thay vì ở nhà. Mặc dù lựa chọn lối sống hiện đại này mang lại những lợi ích không thể phủ nhận, nó cũng đi kèm những bất lợi đáng kể về văn hóa, tài chính và trải nghiệm thực tế.\n\nỞ khía cạnh tích cực, du lịch dịp Tết mang đến nhiều lợi ích thuyết phục. Trước hết, nó cho phép các gia đình nghỉ ngơi trọn vẹn trong khi <strong>thoát khỏi áp lực chuẩn bị ngày lễ</strong>. Theo truyền thống, các gia đình—đặc biệt là phụ nữ—phải mất nhiều ngày dọn dẹp và nấu nướng <strong>mâm cỗ cầu kỳ</strong>, vì vậy tạm rời khỏi những công việc đó giúp mọi người <strong>thư giãn tinh thần</strong> và nạp lại năng lượng cho năm mới. Thứ hai, tận dụng <strong>kỳ nghỉ Tết kéo dài</strong> mang lại khoảng thời gian đồng bộ hiếm hoi để gia đình hạt nhân khám phá cảnh quan mới, <strong>mở rộng góc nhìn văn hóa</strong> và <strong>thắt chặt gắn kết tình cảm</strong> mà không bị ràng buộc bởi các nghĩa vụ xã giao hình thức. Hơn nữa, <strong>nhu cầu du lịch tăng vọt</strong> mang lại nguồn doanh thu thiết yếu cho <strong>ngành khách sạn – nhà hàng</strong>, tạo việc làm thời vụ và kích thích kinh tế địa phương.\n\nTuy nhiên, đi du lịch suốt cả kỳ nghỉ cũng tồn tại những hạn chế đáng lưu ý. Quan trọng nhất là việc vắng nhà kéo dài làm suy giảm <strong>tinh thần văn hóa cốt lõi</strong> của Tết đoàn viên, làm lỏng lẻo <strong>mối gắn kết liên thế hệ</strong> và khiến cha mẹ lớn tuổi cảm thấy <strong>bị bỏ quên về mặt tình cảm</strong>. Thói quen đi du lịch mỗi dịp Tết còn có nguy cơ <strong>làm mai một các phong tục trân quý</strong> như thờ cúng tổ tiên, khiến thế hệ trẻ dần xa rời <strong>di sản văn hóa</strong> của mình. Xét về thực tế, <strong>phụ thu mùa cao điểm</strong> đẩy giá vé máy bay và khách sạn tăng vọt, gây ra <strong>áp lực tài chính</strong> lớn, trong khi <strong>tình trạng quá tải nghiêm trọng</strong>, thiếu nhân sự ngày lễ và <strong>lịch trình kín đặc</strong> thường khiến du khách cạn kiệt thể lực thay vì được phục hồi.\n\nTóm lại, dù du lịch Tết mang lại sự thư giãn, khám phá văn hóa và lợi ích kinh tế, nó có thể làm phai nhạt truyền thống gia đình đồng thời tốn kém và mệt mỏi. Một cách tiếp cận cân bằng—đón những ngày đầu năm bên đại gia đình trước khi thực hiện chuyến đi ngắn thư thái—sẽ dung hòa tốt nhất cả hai giá trị.",
+          "vocab_step": {
+            "theme": "Đi du lịch trong dịp Tết cổ truyền (Traveling during the Traditional Tet Holiday)",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (50 mục) và B2 (68 mục), bao quát trọn vẹn 5 Lợi ích và 5 Bất lợi của xu hướng du lịch xuyên Tết.",
+            "single_words": [
+              {
+                "word": "holiday",
+                "ipa": "/ˈhɒl.ə.deɪ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kỳ nghỉ lễ",
+                "family": "holidays (n)",
+                "example_en": "Tet is the longest traditional holiday in Vietnam.",
+                "example_vi": "Tết là kỳ nghỉ lễ truyền thống dài nhất ở Việt Nam."
+              },
+              {
+                "word": "tradition",
+                "ipa": "/trəˈdɪʃ.ən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "truyền thống",
+                "family": "traditional (adj)",
+                "example_en": "Staying home with family is a meaningful Tet tradition.",
+                "example_vi": "Ở nhà cùng gia đình là một truyền thống Tết đầy ý nghĩa."
+              },
+              {
+                "word": "reunion",
+                "ipa": "/ˌriːˈjuː.njən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự đoàn tụ, sum họp",
+                "family": "reunite (v)",
+                "example_en": "Tet is the most important time for family reunions.",
+                "example_vi": "Tết là thời điểm quan trọng nhất cho các cuộc sum họp gia đình."
+              },
+              {
+                "word": "relative",
+                "ipa": "/ˈrel.ə.tɪv/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "họ hàng, người thân",
+                "family": "relatives (n)",
+                "example_en": "People usually visit relatives during the first days of Tet.",
+                "example_vi": "Mọi người thường đi thăm họ hàng vào những ngày đầu Tết."
+              },
+              {
+                "word": "custom",
+                "ipa": "/ˈkʌs.təm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "phong tục, tập quán",
+                "family": "customs (n)",
+                "example_en": "Children learn about local customs when celebrating Tet at home.",
+                "example_vi": "Trẻ em học về phong tục địa phương khi đón Tết tại nhà."
+              },
+              {
+                "word": "relax",
+                "ipa": "/rɪˈlæks/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "thư giãn, nghỉ ngơi",
+                "family": "relaxation (n), relaxing (adj)",
+                "example_en": "Many young families travel during Tet to truly relax.",
+                "example_vi": "Nhiều gia đình trẻ đi du lịch dịp Tết để thực sự nghỉ ngơi."
+              },
+              {
+                "word": "destination",
+                "ipa": "/ˌdes.tɪˈneɪ.ʃən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "điểm đến du lịch",
+                "family": "destinations (n)",
+                "example_en": "Beach resorts are popular destinations during the New Year break.",
+                "example_vi": "Các khu nghỉ dưỡng biển là điểm đến phổ biến vào dịp nghỉ năm mới."
+              },
+              {
+                "word": "scenery",
+                "ipa": "/ˈsiː.nər.i/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "phong cảnh, cảnh đẹp",
+                "family": "scenic (adj)",
+                "example_en": "Travelers love admiring mountain scenery in spring.",
+                "example_vi": "Du khách thích ngắm cảnh núi non vào mùa xuân."
+              },
+              {
+                "word": "memory",
+                "ipa": "/ˈmem.ər.i/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kỷ niệm",
+                "family": "memorable (adj)",
+                "example_en": "Traveling together creates unforgettable family memories.",
+                "example_vi": "Du lịch cùng nhau tạo ra những kỷ niệm gia đình khó quên."
+              },
+              {
+                "word": "expensive",
+                "ipa": "/ɪkˈspen.sɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "đắt đỏ",
+                "family": "expense (n)",
+                "example_en": "Flight tickets become very expensive during Tet.",
+                "example_vi": "Vé máy bay trở nên rất đắt đỏ trong dịp Tết."
+              },
+              {
+                "word": "crowded",
+                "ipa": "/ˈkraʊ.dɪd/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "đông đúc",
+                "family": "overcrowding (n)",
+                "example_en": "Famous tourist towns are often extremely crowded on holidays.",
+                "example_vi": "Các thị trấn du lịch nổi tiếng thường cực kỳ đông đúc vào ngày lễ."
+              },
+              {
+                "word": "budget",
+                "ipa": "/ˈbʌdʒ.ɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "ngân sách",
+                "family": "budgeting (n)",
+                "example_en": "High holiday costs can strain a family's budget.",
+                "example_vi": "Chi phí ngày lễ cao có thể gây áp lực cho ngân sách gia đình."
+              },
+              {
+                "word": "tourism",
+                "ipa": "/ˈtʊə.rɪ.zəm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "ngành du lịch",
+                "family": "tourist (n)",
+                "example_en": "Holiday travel boosts domestic tourism significantly.",
+                "example_vi": "Du lịch ngày lễ thúc đẩy đáng kể du lịch nội địa."
+              },
+              {
+                "word": "culture",
+                "ipa": "/ˈkʌl.tʃər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "văn hóa",
+                "family": "cultural (adj)",
+                "example_en": "Visiting new regions helps people discover local culture.",
+                "example_vi": "Thăm vùng đất mới giúp mọi người khám phá văn hóa địa phương."
+              },
+              {
+                "word": "exhausted",
+                "ipa": "/ɪɡˈzɔː.stɪd/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "kiệt sức, mệt nhoài",
+                "family": "exhaustion (n)",
+                "example_en": "Non-stop traveling can leave people exhausted before returning to work.",
+                "example_vi": "Di chuyển không ngừng có thể khiến mọi người kiệt sức trước khi đi làm lại."
+              },
+              {
+                "word": "elderly",
+                "ipa": "/ˈel.dəl.i/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "cao tuổi, lớn tuổi",
+                "family": "the elderly (n)",
+                "example_en": "Elderly grandparents often look forward to seeing their grandchildren at Tet.",
+                "example_vi": "Ông bà lớn tuổi thường mong chờ gặp con cháu vào dịp Tết."
+              },
+              {
+                "word": "lonely",
+                "ipa": "/ˈləʊn.li/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "cô đơn",
+                "family": "loneliness (n)",
+                "example_en": "Older parents may feel lonely if their children travel all holiday.",
+                "example_vi": "Cha mẹ lớn tuổi có thể thấy cô đơn nếu con cái đi du lịch suốt kỳ nghỉ."
+              },
+              {
+                "word": "schedule",
+                "ipa": "/ˈʃed.juːl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "lịch trình",
+                "family": "scheduled (adj)",
+                "example_en": "A busy travel schedule leaves little time to rest.",
+                "example_vi": "Lịch trình du lịch dày đặc để lại rất ít thời gian nghỉ ngơi."
+              },
+              {
+                "word": "intergenerational",
+                "ipa": "/ˌɪn.tə.dʒen.əˈreɪ.ʃən.əl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "liên thế hệ, giữa các thế hệ",
+                "family": "generation (n)",
+                "example_en": "Celebrating Tet together strengthens intergenerational bonds.",
+                "example_vi": "Đón Tết cùng nhau củng cố gắn kết giữa các thế hệ."
+              },
+              {
+                "word": "heritage",
+                "ipa": "/ˈher.ɪ.tɪdʒ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "di sản (văn hóa)",
+                "family": "cultural heritage (n)",
+                "example_en": "Traditional Tet rituals preserve Vietnam's cultural heritage.",
+                "example_vi": "Các nghi lễ Tết truyền thống gìn giữ di sản văn hóa Việt Nam."
+              },
+              {
+                "word": "ancestral",
+                "ipa": "/ænˈses.trəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về tổ tiên",
+                "family": "ancestor (n)",
+                "example_en": "Ancestral worship is a central custom during Tet.",
+                "example_vi": "Thờ cúng tổ tiên là một phong tục trung tâm trong dịp Tết."
+              },
+              {
+                "word": "itinerary",
+                "ipa": "/aɪˈtɪn.ər.ər.i/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hành trình, lịch trình chuyến đi",
+                "family": "itineraries (n)",
+                "example_en": "A packed itinerary can make a holiday feel stressful.",
+                "example_vi": "Một hành trình dày đặc có thể khiến kỳ nghỉ trở nên căng thẳng."
+              },
+              {
+                "word": "surcharge",
+                "ipa": "/ˈsɜː.tʃɑːdʒ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "phụ thu, phí tăng thêm",
+                "family": "surcharges (n)",
+                "example_en": "Many restaurants apply holiday surcharges during Tet.",
+                "example_vi": "Nhiều nhà hàng áp dụng phụ thu ngày lễ trong dịp Tết."
+              },
+              {
+                "word": "skyrocket",
+                "ipa": "/ˈskaɪ.rɒk.ɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tăng vọt",
+                "family": "skyrocketing (adj)",
+                "example_en": "Airfares and hotel rates tend to skyrocket in peak season.",
+                "example_vi": "Giá vé máy bay và khách sạn có xu hướng tăng vọt vào mùa cao điểm."
+              },
+              {
+                "word": "congestion",
+                "ipa": "/kənˈdʒes.tʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự tắc nghẽn",
+                "family": "congested (adj)",
+                "example_en": "Traffic congestion is common on routes to famous resorts.",
+                "example_vi": "Ùn tắc giao thông rất phổ biến trên các tuyến đến khu du lịch nổi tiếng."
+              },
+              {
+                "word": "hospitality",
+                "ipa": "/ˌhɒs.pɪˈtæl.ə.ti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "ngành khách sạn – nhà hàng",
+                "family": "hospitable (adj)",
+                "example_en": "Tet travel generates huge revenue for the hospitality industry.",
+                "example_vi": "Du lịch Tết mang lại doanh thu khổng lồ cho ngành khách sạn nhà hàng."
+              },
+              {
+                "word": "ritual",
+                "ipa": "/ˈrɪtʃ.u.əl/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "nghi lễ, nghi thức",
+                "family": "rituals (n)",
+                "example_en": "Younger generations may forget festive rituals if they never stay home.",
+                "example_vi": "Thế hệ trẻ có thể quên các nghi lễ ngày Tết nếu không bao giờ ở nhà."
+              },
+              {
+                "word": "elaborate",
+                "ipa": "/ɪˈlæb.ər.ət/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "cầu kỳ, công phu",
+                "family": "elaborately (adv)",
+                "example_en": "Preparing elaborate meals for days can exhaust homemakers.",
+                "example_vi": "Chuẩn bị mâm cỗ cầu kỳ suốt nhiều ngày có thể làm người nội trợ kiệt sức."
+              },
+              {
+                "word": "unwind",
+                "ipa": "/ʌnˈwaɪnd/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "thư giãn, xả hơi",
+                "family": "unwinding (n)",
+                "example_en": "Traveling abroad helps busy professionals unwind completely.",
+                "example_vi": "Du lịch nước ngoài giúp người đi làm bận rộn thư giãn hoàn toàn."
+              },
+              {
+                "word": "deplete",
+                "ipa": "/dɪˈpliːt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm cạn kiệt, hao hụt",
+                "family": "depletion (n)",
+                "example_en": "Expensive holiday trips can deplete family savings.",
+                "example_vi": "Các chuyến du lịch lễ đắt đỏ có thể làm hao hụt tiền tiết kiệm gia đình."
+              },
+              {
+                "word": "synchronized",
+                "ipa": "/ˈsɪŋ.krə.naɪzd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "đồng bộ, trùng khớp thời gian",
+                "family": "synchronize (v)",
+                "example_en": "Tet provides a rare synchronized break for the entire household.",
+                "example_vi": "Tết mang lại kỳ nghỉ đồng bộ hiếm hoi cho cả gia đình."
+              },
+              {
+                "word": "erode",
+                "ipa": "/ɪˈrəʊd/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm phai nhạt, xói mòn",
+                "family": "erosion (n)",
+                "example_en": "Abandoning home gatherings could gradually erode traditional values.",
+                "example_vi": "Bỏ dần các buổi sum họp tại nhà có thể làm phai nhạt giá trị truyền thống."
+              },
+              {
+                "word": "holidaymaker",
+                "ipa": "/ˈhɒl.ə.deɪˌmeɪ.kər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "du khách đi nghỉ lễ",
+                "family": "holidaymakers (n)",
+                "example_en": "Holidaymakers often face long queues at airports during Tet.",
+                "example_vi": "Du khách đi nghỉ lễ thường gặp cảnh xếp hàng dài ở sân bay dịp Tết."
+              },
+              {
+                "word": "neglected",
+                "ipa": "/nɪˈɡlek.tɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "cảm thấy bị bỏ quên",
+                "family": "neglect (v, n)",
+                "example_en": "Elderly relatives may feel neglected when everyone travels away.",
+                "example_vi": "Người thân lớn tuổi có thể cảm thấy bị bỏ quên khi mọi người đi du lịch hết."
+              },
+              {
+                "word": "converge",
+                "ipa": "/kənˈvɜːdʒ/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "đổ về cùng một nơi",
+                "family": "convergence (n)",
+                "example_en": "Thousands of tourists converge on Dalat and Phu Quoc during Tet.",
+                "example_vi": "Hàng nghìn du khách đổ về Đà Lạt và Phú Quốc trong dịp Tết."
+              },
+              {
+                "word": "sacred",
+                "ipa": "/ˈseɪ.krɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thiêng liêng",
+                "family": "sacredness (n)",
+                "example_en": "Tet has long been regarded as a sacred time for family harmony.",
+                "example_vi": "Tết từ lâu được coi là khoảng thời gian thiêng liêng cho sự sum vầy gia đình."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "truly relax",
+                "level": "B1",
+                "vi": "thực sự thư giãn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traveling during Tet helps busy workers truly relax.",
+                "example_vi": "Du lịch dịp Tết giúp người bận rộn thực sự thư giãn."
+              },
+              {
+                "phrase": "avoid cooking and cleaning",
+                "level": "B1",
+                "vi": "tránh việc nấu nướng và dọn dẹp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Going on holiday lets families avoid cooking and cleaning all week.",
+                "example_vi": "Đi nghỉ giúp gia đình tránh nấu nướng và dọn dẹp cả tuần."
+              },
+              {
+                "phrase": "explore new destinations",
+                "level": "B1",
+                "vi": "khám phá điểm đến mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Young people love using Tet to explore new destinations.",
+                "example_vi": "Người trẻ thích tận dụng dịp Tết để khám phá điểm đến mới."
+              },
+              {
+                "phrase": "taste local dishes",
+                "level": "B1",
+                "vi": "thưởng thức món ăn địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tourists can taste local dishes and enjoy spring scenery.",
+                "example_vi": "Du khách có thể thưởng thức món ăn địa phương và ngắm cảnh xuân."
+              },
+              {
+                "phrase": "create happy memories",
+                "level": "B1",
+                "vi": "tạo ra những kỷ niệm vui vẻ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Shared vacations help parents and kids create happy memories.",
+                "example_vi": "Kỳ nghỉ chung giúp cha mẹ và con cái tạo kỷ niệm vui vẻ."
+              },
+              {
+                "phrase": "spend quality time",
+                "level": "B1",
+                "vi": "dành thời gian chất lượng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Away from housework, families spend quality time together.",
+                "example_vi": "Rời xa việc nhà, gia đình có thời gian chất lượng bên nhau."
+              },
+              {
+                "phrase": "busy working year",
+                "level": "B1",
+                "vi": "một năm làm việc bận rộn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Everyone deserves a real break after a busy working year.",
+                "example_vi": "Ai cũng xứng đáng có kỳ nghỉ thật sự sau một năm làm việc bận rộn."
+              },
+              {
+                "phrase": "enjoy beautiful scenery",
+                "level": "B1",
+                "vi": "ngắm cảnh đẹp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many travelers visit northern mountains to enjoy beautiful scenery.",
+                "example_vi": "Nhiều du khách đến vùng núi phía Bắc để ngắm cảnh đẹp."
+              },
+              {
+                "phrase": "escape holiday preparations",
+                "level": "B2",
+                "vi": "tránh áp lực chuẩn bị ngày lễ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traveling allows modern families to escape exhausting holiday preparations.",
+                "example_vi": "Du lịch cho phép gia đình hiện đại thoát khỏi áp lực chuẩn bị Tết."
+              },
+              {
+                "phrase": "elaborate feasts",
+                "level": "B2",
+                "vi": "mâm cỗ cầu kỳ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Homemakers no longer have to cook elaborate feasts for endless guests.",
+                "example_vi": "Người nội trợ không còn phải nấu mâm cỗ cầu kỳ suốt nhiều ngày."
+              },
+              {
+                "phrase": "broaden cultural perspectives",
+                "level": "B2",
+                "vi": "mở rộng góc nhìn văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Exploring different regions during spring helps broaden cultural perspectives.",
+                "example_vi": "Khám phá các vùng miền vào mùa xuân giúp mở rộng góc nhìn văn hóa."
+              },
+              {
+                "phrase": "immerse oneself in",
+                "level": "B2",
+                "vi": "đắm mình vào",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Visitors can immerse themselves in regional spring festivals.",
+                "example_vi": "Du khách có thể đắm mình vào các lễ hội mùa xuân vùng miền."
+              },
+              {
+                "phrase": "deepen emotional bonds",
+                "level": "B2",
+                "vi": "thắt chặt sự gắn kết tình cảm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Shared adventures help nuclear families deepen emotional bonds.",
+                "example_vi": "Những chuyến đi chung giúp gia đình hạt nhân thắt chặt gắn kết tình cảm."
+              },
+              {
+                "phrase": "formal social obligations",
+                "level": "B2",
+                "vi": "nghĩa vụ xã giao hình thức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traveling frees people from tiring formal social obligations.",
+                "example_vi": "Du lịch giúp mọi người thoát khỏi các nghĩa vụ xã giao mệt mỏi."
+              },
+              {
+                "phrase": "unwind mentally",
+                "level": "B2",
+                "vi": "thư giãn tinh thần",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A peaceful beach trip helps stressed staff unwind mentally.",
+                "example_vi": "Chuyến đi biển yên bình giúp nhân viên căng thẳng thư giãn tinh thần."
+              },
+              {
+                "phrase": "recharge energy",
+                "level": "B2",
+                "vi": "nạp lại năng lượng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A genuine holiday allows workers to recharge energy for the new year.",
+                "example_vi": "Một kỳ nghỉ đúng nghĩa giúp người lao động nạp lại năng lượng cho năm mới."
+              },
+              {
+                "phrase": "longest holiday of the year",
+                "level": "B1",
+                "vi": "kỳ nghỉ dài nhất trong năm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tet is the longest holiday of the year for most Vietnamese workers.",
+                "example_vi": "Tết là kỳ nghỉ dài nhất trong năm đối với hầu hết người lao động Việt Nam."
+              },
+              {
+                "phrase": "plan long trips",
+                "level": "B1",
+                "vi": "lên kế hoạch chuyến đi xa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A nine-day break makes it easy to plan long trips abroad.",
+                "example_vi": "Kỳ nghỉ chín ngày giúp dễ dàng lên kế hoạch đi xa hoặc ra nước ngoài."
+              },
+              {
+                "phrase": "take days off",
+                "level": "B1",
+                "vi": "xin nghỉ phép",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Parents rarely have time to take days off together in normal months.",
+                "example_vi": "Cha mẹ hiếm khi có thể cùng xin nghỉ phép vào các tháng bình thường."
+              },
+              {
+                "phrase": "boost domestic tourism",
+                "level": "B1",
+                "vi": "thúc đẩy du lịch nội địa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tet travel helps boost domestic tourism across the country.",
+                "example_vi": "Du lịch Tết giúp thúc đẩy du lịch nội địa khắp cả nước."
+              },
+              {
+                "phrase": "create more income",
+                "level": "B1",
+                "vi": "tạo thêm thu nhập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tourists create more income for local restaurants and hotels.",
+                "example_vi": "Du khách tạo thêm thu nhập cho nhà hàng và khách sạn địa phương."
+              },
+              {
+                "phrase": "local economies",
+                "level": "B1",
+                "vi": "nền kinh tế địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Strong holiday spending helps local economies grow faster.",
+                "example_vi": "Chi tiêu ngày lễ mạnh giúp kinh tế địa phương tăng trưởng nhanh hơn."
+              },
+              {
+                "phrase": "transport services",
+                "level": "B1",
+                "vi": "dịch vụ vận tải",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Airlines and transport services welcome millions of holiday passengers.",
+                "example_vi": "Các hãng bay và dịch vụ vận tải đón hàng triệu hành khách dịp lễ."
+              },
+              {
+                "phrase": "welcome more visitors",
+                "level": "B1",
+                "vi": "đón thêm nhiều du khách",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Coastal cities welcome more visitors every lunar new year.",
+                "example_vi": "Các thành phố biển đón thêm nhiều du khách mỗi dịp Tết Nguyên đán."
+              },
+              {
+                "phrase": "extended Tet break",
+                "level": "B2",
+                "vi": "kỳ nghỉ Tết kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "The extended Tet break offers a rare window for international trips.",
+                "example_vi": "Kỳ nghỉ Tết kéo dài mang lại khoảng thời gian hiếm hoi cho chuyến đi quốc tế."
+              },
+              {
+                "phrase": "synchronized holiday schedule",
+                "level": "B2",
+                "vi": "lịch nghỉ lễ đồng bộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A synchronized holiday schedule allows parents and children to travel together.",
+                "example_vi": "Lịch nghỉ lễ đồng bộ giúp cha mẹ và con cái dễ dàng đi du lịch cùng nhau."
+              },
+              {
+                "phrase": "surging travel demand",
+                "level": "B2",
+                "vi": "nhu cầu du lịch tăng vọt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Surging travel demand injects substantial revenue into tourist towns.",
+                "example_vi": "Nhu cầu du lịch tăng vọt mang lại doanh thu lớn cho các đô thị du lịch."
+              },
+              {
+                "phrase": "hospitality industry",
+                "level": "B2",
+                "vi": "ngành khách sạn – nhà hàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "The hospitality industry relies heavily on peak holiday bookings.",
+                "example_vi": "Ngành khách sạn nhà hàng phụ thuộc lớn vào lượng đặt phòng mùa cao điểm."
+              },
+              {
+                "phrase": "create seasonal jobs",
+                "level": "B2",
+                "vi": "tạo việc làm thời vụ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Peak holiday tourism creates seasonal jobs for local residents.",
+                "example_vi": "Du lịch mùa cao điểm tạo ra nhiều việc làm thời vụ cho người dân địa phương."
+              },
+              {
+                "phrase": "tourism infrastructure",
+                "level": "B2",
+                "vi": "cơ sở hạ tầng du lịch",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Higher earnings encourage further investment in tourism infrastructure.",
+                "example_vi": "Doanh thu cao khuyến khích đầu tư thêm vào cơ sở hạ tầng du lịch."
+              },
+              {
+                "phrase": "regional specialties",
+                "level": "B2",
+                "vi": "đặc sản vùng miền",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Holidaymakers frequently spend generously on regional specialties.",
+                "example_vi": "Du khách đi nghỉ lễ thường chi tiêu hào phóng cho đặc sản vùng miền."
+              },
+              {
+                "phrase": "without disrupting work or study",
+                "level": "B2",
+                "vi": "không làm gián đoạn công việc hay học tập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Families can explore distant places without disrupting work or study.",
+                "example_vi": "Gia đình có thể khám phá nơi xa mà không ảnh hưởng đến công việc hay học tập."
+              },
+              {
+                "phrase": "precious reunion time",
+                "level": "B1",
+                "vi": "thời gian sum họp quý giá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traveling away makes families miss precious reunion time.",
+                "example_vi": "Đi du lịch xa khiến gia đình bỏ lỡ thời gian sum họp quý giá."
+              },
+              {
+                "phrase": "extended family",
+                "level": "B1",
+                "vi": "đại gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tet is the only time the whole extended family meets together.",
+                "example_vi": "Tết là dịp duy nhất cả đại gia đình gặp gỡ đông đủ."
+              },
+              {
+                "phrase": "elderly relatives",
+                "level": "B1",
+                "vi": "người thân lớn tuổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Being away all holiday may leave elderly relatives feeling lonely.",
+                "example_vi": "Vắng nhà suốt kỳ nghỉ có thể khiến người thân lớn tuổi thấy cô đơn."
+              },
+              {
+                "phrase": "traditional customs",
+                "level": "B1",
+                "vi": "phong tục truyền thống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traveling every Tet can weaken traditional customs among kids.",
+                "example_vi": "Đi du lịch mỗi dịp Tết có thể làm nhạt phai phong tục truyền thống ở trẻ."
+              },
+              {
+                "phrase": "cultural roots",
+                "level": "B1",
+                "vi": "cội nguồn văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Celebrating at home helps children understand their cultural roots.",
+                "example_vi": "Đón Tết ở nhà giúp trẻ hiểu rõ cội nguồn văn hóa của mình."
+              },
+              {
+                "phrase": "New Year wishes",
+                "level": "B1",
+                "vi": "lời chúc năm mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Visiting relatives to give New Year wishes strengthens family love.",
+                "example_vi": "Thăm họ hàng chúc Tết giúp củng cố tình cảm gia đình."
+              },
+              {
+                "phrase": "wrap traditional cakes",
+                "level": "B1",
+                "vi": "gói bánh chưng / bánh truyền thống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Children enjoy helping grandparents wrap traditional cakes before Tet.",
+                "example_vi": "Trẻ em thích giúp ông bà gói bánh truyền thống trước Tết."
+              },
+              {
+                "phrase": "feel sad and lonely",
+                "level": "B1",
+                "vi": "cảm thấy buồn và cô đơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Grandparents may feel sad and lonely in an empty house.",
+                "example_vi": "Ông bà có thể cảm thấy buồn và cô đơn trong ngôi nhà vắng vẻ."
+              },
+              {
+                "phrase": "core cultural spirit",
+                "level": "B2",
+                "vi": "tinh thần văn hóa cốt lõi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Non-stop travel undermines the core cultural spirit of Tet reunions.",
+                "example_vi": "Du lịch xuyên Tết làm suy giảm tinh thần văn hóa cốt lõi của Tết đoàn viên."
+              },
+              {
+                "phrase": "intergenerational ties",
+                "level": "B2",
+                "vi": "mối gắn kết liên thế hệ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Prolonged absence at Tet gradually weakens intergenerational ties.",
+                "example_vi": "Vắng mặt kéo dài dịp Tết dần làm suy yếu sự gắn kết giữa các thế hệ."
+              },
+              {
+                "phrase": "erode cherished customs",
+                "level": "B2",
+                "vi": "làm mai một phong tục trân quý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Habitual holiday trips risk eroding cherished ancestral customs.",
+                "example_vi": "Thói quen đi du lịch dịp lễ có nguy cơ làm mai một phong tục tổ tiên."
+              },
+              {
+                "phrase": "ancestral worship",
+                "level": "B2",
+                "vi": "nghi lễ thờ cúng tổ tiên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Ancestral worship requires families to gather respectfully at home.",
+                "example_vi": "Thờ cúng tổ tiên đòi hỏi gia đình tụ họp trang trọng tại nhà."
+              },
+              {
+                "phrase": "cultural heritage",
+                "level": "B2",
+                "vi": "di sản văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Young people may lose appreciation for their cultural heritage.",
+                "example_vi": "Người trẻ có thể mất dần sự trân trọng đối với di sản văn hóa."
+              },
+              {
+                "phrase": "national identity",
+                "level": "B2",
+                "vi": "bản sắc dân tộc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traditional festivals play a vital role in preserving national identity.",
+                "example_vi": "Các lễ hội truyền thống đóng vai trò thiết yếu gìn giữ bản sắc dân tộc."
+              },
+              {
+                "phrase": "feel emotionally neglected",
+                "level": "B2",
+                "vi": "cảm thấy bị bỏ quên về tình cảm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Aging parents often feel emotionally neglected when children travel away.",
+                "example_vi": "Cha mẹ lớn tuổi thường cảm thấy bị bỏ quên khi con cái đi du lịch hết."
+              },
+              {
+                "phrase": "sacred occasion",
+                "level": "B2",
+                "vi": "dịp thiêng liêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "For many families, Tet remains a sacred occasion for togetherness.",
+                "example_vi": "Với nhiều gia đình, Tết vẫn là dịp thiêng liêng cho sự sum vầy."
+              },
+              {
+                "phrase": "rise sharply",
+                "level": "B1",
+                "vi": "tăng mạnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Flight and hotel prices rise sharply before and during Tet.",
+                "example_vi": "Giá vé máy bay và khách sạn tăng mạnh trước và trong Tết."
+              },
+              {
+                "phrase": "pay double",
+                "level": "B1",
+                "vi": "trả giá gấp đôi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Travelers often have to pay double for basic rooms and meals.",
+                "example_vi": "Du khách thường phải trả gấp đôi cho phòng ở và bữa ăn cơ bản."
+              },
+              {
+                "phrase": "crowded and congested",
+                "level": "B1",
+                "vi": "đông đúc và tắc nghẽn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Major beaches become crowded and congested on holiday weekends.",
+                "example_vi": "Các bãi biển lớn trở nên đông đúc và tắc nghẽn vào dịp lễ."
+              },
+              {
+                "phrase": "wait in long lines",
+                "level": "B1",
+                "vi": "xếp hàng dài chờ đợi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tourists waste hours waiting in long lines at airports and parks.",
+                "example_vi": "Du khách tốn nhiều giờ xếp hàng dài ở sân bay và khu vui chơi."
+              },
+              {
+                "phrase": "poorer service",
+                "level": "B1",
+                "vi": "chất lượng dịch vụ kém hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Busy restaurants sometimes offer poorer service during Tet.",
+                "example_vi": "Các nhà hàng đông khách đôi khi phục vụ kém hơn trong dịp Tết."
+              },
+              {
+                "phrase": "travel continuously",
+                "level": "B1",
+                "vi": "di chuyển liên tục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Traveling continuously for a whole week can be very tiring.",
+                "example_vi": "Di chuyển liên tục suốt một tuần có thể rất mệt mỏi."
+              },
+              {
+                "phrase": "tight schedules",
+                "level": "B1",
+                "vi": "lịch trình dày đặc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tight schedules leave families with little time to relax.",
+                "example_vi": "Lịch trình dày đặc khiến gia đình còn rất ít thời gian nghỉ ngơi."
+              },
+              {
+                "phrase": "feel exhausted",
+                "level": "B1",
+                "vi": "cảm thấy kiệt sức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many workers feel exhausted on the first day back at the office.",
+                "example_vi": "Nhiều nhân viên cảm thấy kiệt sức vào ngày đầu đi làm lại."
+              },
+              {
+                "phrase": "peak-season surcharges",
+                "level": "B2",
+                "vi": "phụ thu mùa cao điểm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Peak-season surcharges make Tet vacations far more costly than usual.",
+                "example_vi": "Phụ thu mùa cao điểm khiến kỳ nghỉ Tết đắt đỏ hơn ngày thường nhiều."
+              },
+              {
+                "phrase": "financial strain",
+                "level": "B2",
+                "vi": "áp lực tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Inflated travel costs can impose heavy financial strain on families.",
+                "example_vi": "Chi phí du lịch bị đội giá có thể gây áp lực tài chính nặng nề cho gia đình."
+              },
+              {
+                "phrase": "deplete personal savings",
+                "level": "B2",
+                "vi": "làm hao hụt tiền tiết kiệm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Overspending on holiday tours can quickly deplete personal savings.",
+                "example_vi": "Chi tiêu quá tay cho tour nghỉ lễ dễ làm hao hụt tiền tiết kiệm."
+              },
+              {
+                "phrase": "severe overcrowding",
+                "level": "B2",
+                "vi": "tình trạng quá tải nghiêm trọng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Severe overcrowding diminishes the enjoyment of scenic attractions.",
+                "example_vi": "Tình trạng quá tải nghiêm trọng làm giảm niềm vui ngắm cảnh."
+              },
+              {
+                "phrase": "holiday staff shortages",
+                "level": "B2",
+                "vi": "thiếu hụt nhân sự ngày lễ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Holiday staff shortages frequently lower hospitality service standards.",
+                "example_vi": "Thiếu hụt nhân sự ngày lễ thường làm giảm tiêu chuẩn phục vụ khách sạn."
+              },
+              {
+                "phrase": "packed itineraries",
+                "level": "B2",
+                "vi": "lịch trình kín đặc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Holidaymakers with packed itineraries rarely get genuine rest.",
+                "example_vi": "Du khách với lịch trình kín đặc hiếm khi được nghỉ ngơi thật sự."
+              },
+              {
+                "phrase": "physically drained",
+                "level": "B2",
+                "vi": "cạn kiệt thể lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Returning just before work resumes leaves people physically drained.",
+                "example_vi": "Trở về ngay sát ngày đi làm khiến mọi người cạn kiệt thể lực."
+              },
+              {
+                "phrase": "frustrating queues",
+                "level": "B2",
+                "vi": "cảnh xếp hàng gây bực bội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Long, frustrating queues at airports add stress to holiday travel.",
+                "example_vi": "Cảnh xếp hàng dài gây bực bội ở sân bay làm tăng căng thẳng chuyến đi."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t72_g1",
+                "name": "Nhóm 1: Thư giãn, Trải nghiệm & Gắn kết (Rest, Discovery & Bonding)",
+                "icon": "✈️",
+                "badge": "Lợi ích 01–03",
+                "items": [
+                  {
+                    "en": "truly relax",
+                    "phrase": "truly relax",
+                    "vi": "thực sự thư giãn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traveling during Tet helps busy workers truly relax.",
+                    "example_vi": "Du lịch dịp Tết giúp người bận rộn thực sự thư giãn."
+                  },
+                  {
+                    "en": "avoid cooking and cleaning",
+                    "phrase": "avoid cooking and cleaning",
+                    "vi": "tránh việc nấu nướng và dọn dẹp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Going on holiday lets families avoid cooking and cleaning all week.",
+                    "example_vi": "Đi nghỉ giúp gia đình tránh nấu nướng và dọn dẹp cả tuần."
+                  },
+                  {
+                    "en": "explore new destinations",
+                    "phrase": "explore new destinations",
+                    "vi": "khám phá điểm đến mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Young people love using Tet to explore new destinations.",
+                    "example_vi": "Người trẻ thích tận dụng dịp Tết để khám phá điểm đến mới."
+                  },
+                  {
+                    "en": "taste local dishes",
+                    "phrase": "taste local dishes",
+                    "vi": "thưởng thức món ăn địa phương",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tourists can taste local dishes and enjoy spring scenery.",
+                    "example_vi": "Du khách có thể thưởng thức món ăn địa phương và ngắm cảnh xuân."
+                  },
+                  {
+                    "en": "create happy memories",
+                    "phrase": "create happy memories",
+                    "vi": "tạo ra những kỷ niệm vui vẻ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Shared vacations help parents and kids create happy memories.",
+                    "example_vi": "Kỳ nghỉ chung giúp cha mẹ và con cái tạo kỷ niệm vui vẻ."
+                  },
+                  {
+                    "en": "spend quality time",
+                    "phrase": "spend quality time",
+                    "vi": "dành thời gian chất lượng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Away from housework, families spend quality time together.",
+                    "example_vi": "Rời xa việc nhà, gia đình có thời gian chất lượng bên nhau."
+                  },
+                  {
+                    "en": "busy working year",
+                    "phrase": "busy working year",
+                    "vi": "một năm làm việc bận rộn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Everyone deserves a real break after a busy working year.",
+                    "example_vi": "Ai cũng xứng đáng có kỳ nghỉ thật sự sau một năm làm việc bận rộn."
+                  },
+                  {
+                    "en": "enjoy beautiful scenery",
+                    "phrase": "enjoy beautiful scenery",
+                    "vi": "ngắm cảnh đẹp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many travelers visit northern mountains to enjoy beautiful scenery.",
+                    "example_vi": "Nhiều du khách đến vùng núi phía Bắc để ngắm cảnh đẹp."
+                  },
+                  {
+                    "en": "escape holiday preparations",
+                    "phrase": "escape holiday preparations",
+                    "vi": "tránh áp lực chuẩn bị ngày lễ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traveling allows modern families to escape exhausting holiday preparations.",
+                    "example_vi": "Du lịch cho phép gia đình hiện đại thoát khỏi áp lực chuẩn bị Tết."
+                  },
+                  {
+                    "en": "elaborate feasts",
+                    "phrase": "elaborate feasts",
+                    "vi": "mâm cỗ cầu kỳ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Homemakers no longer have to cook elaborate feasts for endless guests.",
+                    "example_vi": "Người nội trợ không còn phải nấu mâm cỗ cầu kỳ suốt nhiều ngày."
+                  },
+                  {
+                    "en": "broaden cultural perspectives",
+                    "phrase": "broaden cultural perspectives",
+                    "vi": "mở rộng góc nhìn văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Exploring different regions during spring helps broaden cultural perspectives.",
+                    "example_vi": "Khám phá các vùng miền vào mùa xuân giúp mở rộng góc nhìn văn hóa."
+                  },
+                  {
+                    "en": "immerse oneself in",
+                    "phrase": "immerse oneself in",
+                    "vi": "đắm mình vào",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Visitors can immerse themselves in regional spring festivals.",
+                    "example_vi": "Du khách có thể đắm mình vào các lễ hội mùa xuân vùng miền."
+                  },
+                  {
+                    "en": "deepen emotional bonds",
+                    "phrase": "deepen emotional bonds",
+                    "vi": "thắt chặt sự gắn kết tình cảm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Shared adventures help nuclear families deepen emotional bonds.",
+                    "example_vi": "Những chuyến đi chung giúp gia đình hạt nhân thắt chặt gắn kết tình cảm."
+                  },
+                  {
+                    "en": "formal social obligations",
+                    "phrase": "formal social obligations",
+                    "vi": "nghĩa vụ xã giao hình thức",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traveling frees people from tiring formal social obligations.",
+                    "example_vi": "Du lịch giúp mọi người thoát khỏi các nghĩa vụ xã giao mệt mỏi."
+                  },
+                  {
+                    "en": "unwind mentally",
+                    "phrase": "unwind mentally",
+                    "vi": "thư giãn tinh thần",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A peaceful beach trip helps stressed staff unwind mentally.",
+                    "example_vi": "Chuyến đi biển yên bình giúp nhân viên căng thẳng thư giãn tinh thần."
+                  },
+                  {
+                    "en": "recharge energy",
+                    "phrase": "recharge energy",
+                    "vi": "nạp lại năng lượng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A genuine holiday allows workers to recharge energy for the new year.",
+                    "example_vi": "Một kỳ nghỉ đúng nghĩa giúp người lao động nạp lại năng lượng cho năm mới."
+                  }
+                ]
+              },
+              {
+                "id": "t72_g2",
+                "name": "Nhóm 2: Kỳ nghỉ dài & Kinh tế Du lịch (Long Break & Tourism Economy)",
+                "icon": "🏖️",
+                "badge": "Lợi ích 04–05",
+                "items": [
+                  {
+                    "en": "longest holiday of the year",
+                    "phrase": "longest holiday of the year",
+                    "vi": "kỳ nghỉ dài nhất trong năm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tet is the longest holiday of the year for most Vietnamese workers.",
+                    "example_vi": "Tết là kỳ nghỉ dài nhất trong năm đối với hầu hết người lao động Việt Nam."
+                  },
+                  {
+                    "en": "plan long trips",
+                    "phrase": "plan long trips",
+                    "vi": "lên kế hoạch chuyến đi xa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A nine-day break makes it easy to plan long trips abroad.",
+                    "example_vi": "Kỳ nghỉ chín ngày giúp dễ dàng lên kế hoạch đi xa hoặc ra nước ngoài."
+                  },
+                  {
+                    "en": "take days off",
+                    "phrase": "take days off",
+                    "vi": "xin nghỉ phép",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Parents rarely have time to take days off together in normal months.",
+                    "example_vi": "Cha mẹ hiếm khi có thể cùng xin nghỉ phép vào các tháng bình thường."
+                  },
+                  {
+                    "en": "boost domestic tourism",
+                    "phrase": "boost domestic tourism",
+                    "vi": "thúc đẩy du lịch nội địa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tet travel helps boost domestic tourism across the country.",
+                    "example_vi": "Du lịch Tết giúp thúc đẩy du lịch nội địa khắp cả nước."
+                  },
+                  {
+                    "en": "create more income",
+                    "phrase": "create more income",
+                    "vi": "tạo thêm thu nhập",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tourists create more income for local restaurants and hotels.",
+                    "example_vi": "Du khách tạo thêm thu nhập cho nhà hàng và khách sạn địa phương."
+                  },
+                  {
+                    "en": "local economies",
+                    "phrase": "local economies",
+                    "vi": "nền kinh tế địa phương",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong holiday spending helps local economies grow faster.",
+                    "example_vi": "Chi tiêu ngày lễ mạnh giúp kinh tế địa phương tăng trưởng nhanh hơn."
+                  },
+                  {
+                    "en": "transport services",
+                    "phrase": "transport services",
+                    "vi": "dịch vụ vận tải",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Airlines and transport services welcome millions of holiday passengers.",
+                    "example_vi": "Các hãng bay và dịch vụ vận tải đón hàng triệu hành khách dịp lễ."
+                  },
+                  {
+                    "en": "welcome more visitors",
+                    "phrase": "welcome more visitors",
+                    "vi": "đón thêm nhiều du khách",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Coastal cities welcome more visitors every lunar new year.",
+                    "example_vi": "Các thành phố biển đón thêm nhiều du khách mỗi dịp Tết Nguyên đán."
+                  },
+                  {
+                    "en": "extended Tet break",
+                    "phrase": "extended Tet break",
+                    "vi": "kỳ nghỉ Tết kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "The extended Tet break offers a rare window for international trips.",
+                    "example_vi": "Kỳ nghỉ Tết kéo dài mang lại khoảng thời gian hiếm hoi cho chuyến đi quốc tế."
+                  },
+                  {
+                    "en": "synchronized holiday schedule",
+                    "phrase": "synchronized holiday schedule",
+                    "vi": "lịch nghỉ lễ đồng bộ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A synchronized holiday schedule allows parents and children to travel together.",
+                    "example_vi": "Lịch nghỉ lễ đồng bộ giúp cha mẹ và con cái dễ dàng đi du lịch cùng nhau."
+                  },
+                  {
+                    "en": "surging travel demand",
+                    "phrase": "surging travel demand",
+                    "vi": "nhu cầu du lịch tăng vọt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Surging travel demand injects substantial revenue into tourist towns.",
+                    "example_vi": "Nhu cầu du lịch tăng vọt mang lại doanh thu lớn cho các đô thị du lịch."
+                  },
+                  {
+                    "en": "hospitality industry",
+                    "phrase": "hospitality industry",
+                    "vi": "ngành khách sạn – nhà hàng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "The hospitality industry relies heavily on peak holiday bookings.",
+                    "example_vi": "Ngành khách sạn nhà hàng phụ thuộc lớn vào lượng đặt phòng mùa cao điểm."
+                  },
+                  {
+                    "en": "create seasonal jobs",
+                    "phrase": "create seasonal jobs",
+                    "vi": "tạo việc làm thời vụ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Peak holiday tourism creates seasonal jobs for local residents.",
+                    "example_vi": "Du lịch mùa cao điểm tạo ra nhiều việc làm thời vụ cho người dân địa phương."
+                  },
+                  {
+                    "en": "tourism infrastructure",
+                    "phrase": "tourism infrastructure",
+                    "vi": "cơ sở hạ tầng du lịch",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Higher earnings encourage further investment in tourism infrastructure.",
+                    "example_vi": "Doanh thu cao khuyến khích đầu tư thêm vào cơ sở hạ tầng du lịch."
+                  },
+                  {
+                    "en": "regional specialties",
+                    "phrase": "regional specialties",
+                    "vi": "đặc sản vùng miền",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Holidaymakers frequently spend generously on regional specialties.",
+                    "example_vi": "Du khách đi nghỉ lễ thường chi tiêu hào phóng cho đặc sản vùng miền."
+                  },
+                  {
+                    "en": "without disrupting work or study",
+                    "phrase": "without disrupting work or study",
+                    "vi": "không làm gián đoạn công việc hay học tập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Families can explore distant places without disrupting work or study.",
+                    "example_vi": "Gia đình có thể khám phá nơi xa mà không ảnh hưởng đến công việc hay học tập."
+                  }
+                ]
+              },
+              {
+                "id": "t72_g3",
+                "name": "Nhóm 3: Đoàn viên Gia đình & Phong tục Tết (Reunion & Traditional Values)",
+                "icon": "🏮",
+                "badge": "Bất lợi 01–02",
+                "items": [
+                  {
+                    "en": "precious reunion time",
+                    "phrase": "precious reunion time",
+                    "vi": "thời gian sum họp quý giá",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traveling away makes families miss precious reunion time.",
+                    "example_vi": "Đi du lịch xa khiến gia đình bỏ lỡ thời gian sum họp quý giá."
+                  },
+                  {
+                    "en": "extended family",
+                    "phrase": "extended family",
+                    "vi": "đại gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tet is the only time the whole extended family meets together.",
+                    "example_vi": "Tết là dịp duy nhất cả đại gia đình gặp gỡ đông đủ."
+                  },
+                  {
+                    "en": "elderly relatives",
+                    "phrase": "elderly relatives",
+                    "vi": "người thân lớn tuổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Being away all holiday may leave elderly relatives feeling lonely.",
+                    "example_vi": "Vắng nhà suốt kỳ nghỉ có thể khiến người thân lớn tuổi thấy cô đơn."
+                  },
+                  {
+                    "en": "traditional customs",
+                    "phrase": "traditional customs",
+                    "vi": "phong tục truyền thống",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traveling every Tet can weaken traditional customs among kids.",
+                    "example_vi": "Đi du lịch mỗi dịp Tết có thể làm nhạt phai phong tục truyền thống ở trẻ."
+                  },
+                  {
+                    "en": "cultural roots",
+                    "phrase": "cultural roots",
+                    "vi": "cội nguồn văn hóa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Celebrating at home helps children understand their cultural roots.",
+                    "example_vi": "Đón Tết ở nhà giúp trẻ hiểu rõ cội nguồn văn hóa của mình."
+                  },
+                  {
+                    "en": "New Year wishes",
+                    "phrase": "New Year wishes",
+                    "vi": "lời chúc năm mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Visiting relatives to give New Year wishes strengthens family love.",
+                    "example_vi": "Thăm họ hàng chúc Tết giúp củng cố tình cảm gia đình."
+                  },
+                  {
+                    "en": "wrap traditional cakes",
+                    "phrase": "wrap traditional cakes",
+                    "vi": "gói bánh chưng / bánh truyền thống",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Children enjoy helping grandparents wrap traditional cakes before Tet.",
+                    "example_vi": "Trẻ em thích giúp ông bà gói bánh truyền thống trước Tết."
+                  },
+                  {
+                    "en": "feel sad and lonely",
+                    "phrase": "feel sad and lonely",
+                    "vi": "cảm thấy buồn và cô đơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Grandparents may feel sad and lonely in an empty house.",
+                    "example_vi": "Ông bà có thể cảm thấy buồn và cô đơn trong ngôi nhà vắng vẻ."
+                  },
+                  {
+                    "en": "core cultural spirit",
+                    "phrase": "core cultural spirit",
+                    "vi": "tinh thần văn hóa cốt lõi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Non-stop travel undermines the core cultural spirit of Tet reunions.",
+                    "example_vi": "Du lịch xuyên Tết làm suy giảm tinh thần văn hóa cốt lõi của Tết đoàn viên."
+                  },
+                  {
+                    "en": "intergenerational ties",
+                    "phrase": "intergenerational ties",
+                    "vi": "mối gắn kết liên thế hệ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Prolonged absence at Tet gradually weakens intergenerational ties.",
+                    "example_vi": "Vắng mặt kéo dài dịp Tết dần làm suy yếu sự gắn kết giữa các thế hệ."
+                  },
+                  {
+                    "en": "erode cherished customs",
+                    "phrase": "erode cherished customs",
+                    "vi": "làm mai một phong tục trân quý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Habitual holiday trips risk eroding cherished ancestral customs.",
+                    "example_vi": "Thói quen đi du lịch dịp lễ có nguy cơ làm mai một phong tục tổ tiên."
+                  },
+                  {
+                    "en": "ancestral worship",
+                    "phrase": "ancestral worship",
+                    "vi": "nghi lễ thờ cúng tổ tiên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Ancestral worship requires families to gather respectfully at home.",
+                    "example_vi": "Thờ cúng tổ tiên đòi hỏi gia đình tụ họp trang trọng tại nhà."
+                  },
+                  {
+                    "en": "cultural heritage",
+                    "phrase": "cultural heritage",
+                    "vi": "di sản văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Young people may lose appreciation for their cultural heritage.",
+                    "example_vi": "Người trẻ có thể mất dần sự trân trọng đối với di sản văn hóa."
+                  },
+                  {
+                    "en": "national identity",
+                    "phrase": "national identity",
+                    "vi": "bản sắc dân tộc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traditional festivals play a vital role in preserving national identity.",
+                    "example_vi": "Các lễ hội truyền thống đóng vai trò thiết yếu gìn giữ bản sắc dân tộc."
+                  },
+                  {
+                    "en": "feel emotionally neglected",
+                    "phrase": "feel emotionally neglected",
+                    "vi": "cảm thấy bị bỏ quên về tình cảm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Aging parents often feel emotionally neglected when children travel away.",
+                    "example_vi": "Cha mẹ lớn tuổi thường cảm thấy bị bỏ quên khi con cái đi du lịch hết."
+                  },
+                  {
+                    "en": "sacred occasion",
+                    "phrase": "sacred occasion",
+                    "vi": "dịp thiêng liêng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "For many families, Tet remains a sacred occasion for togetherness.",
+                    "example_vi": "Với nhiều gia đình, Tết vẫn là dịp thiêng liêng cho sự sum vầy."
+                  }
+                ]
+              },
+              {
+                "id": "t72_g4",
+                "name": "Nhóm 4: Chi phí, Quá tải & Mệt mỏi (Costs, Crowds & Fatigue)",
+                "icon": "💸",
+                "badge": "Bất lợi 03–05",
+                "items": [
+                  {
+                    "en": "rise sharply",
+                    "phrase": "rise sharply",
+                    "vi": "tăng mạnh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flight and hotel prices rise sharply before and during Tet.",
+                    "example_vi": "Giá vé máy bay và khách sạn tăng mạnh trước và trong Tết."
+                  },
+                  {
+                    "en": "pay double",
+                    "phrase": "pay double",
+                    "vi": "trả giá gấp đôi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Travelers often have to pay double for basic rooms and meals.",
+                    "example_vi": "Du khách thường phải trả gấp đôi cho phòng ở và bữa ăn cơ bản."
+                  },
+                  {
+                    "en": "crowded and congested",
+                    "phrase": "crowded and congested",
+                    "vi": "đông đúc và tắc nghẽn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Major beaches become crowded and congested on holiday weekends.",
+                    "example_vi": "Các bãi biển lớn trở nên đông đúc và tắc nghẽn vào dịp lễ."
+                  },
+                  {
+                    "en": "wait in long lines",
+                    "phrase": "wait in long lines",
+                    "vi": "xếp hàng dài chờ đợi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tourists waste hours waiting in long lines at airports and parks.",
+                    "example_vi": "Du khách tốn nhiều giờ xếp hàng dài ở sân bay và khu vui chơi."
+                  },
+                  {
+                    "en": "poorer service",
+                    "phrase": "poorer service",
+                    "vi": "chất lượng dịch vụ kém hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Busy restaurants sometimes offer poorer service during Tet.",
+                    "example_vi": "Các nhà hàng đông khách đôi khi phục vụ kém hơn trong dịp Tết."
+                  },
+                  {
+                    "en": "travel continuously",
+                    "phrase": "travel continuously",
+                    "vi": "di chuyển liên tục",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Traveling continuously for a whole week can be very tiring.",
+                    "example_vi": "Di chuyển liên tục suốt một tuần có thể rất mệt mỏi."
+                  },
+                  {
+                    "en": "tight schedules",
+                    "phrase": "tight schedules",
+                    "vi": "lịch trình dày đặc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tight schedules leave families with little time to relax.",
+                    "example_vi": "Lịch trình dày đặc khiến gia đình còn rất ít thời gian nghỉ ngơi."
+                  },
+                  {
+                    "en": "feel exhausted",
+                    "phrase": "feel exhausted",
+                    "vi": "cảm thấy kiệt sức",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many workers feel exhausted on the first day back at the office.",
+                    "example_vi": "Nhiều nhân viên cảm thấy kiệt sức vào ngày đầu đi làm lại."
+                  },
+                  {
+                    "en": "peak-season surcharges",
+                    "phrase": "peak-season surcharges",
+                    "vi": "phụ thu mùa cao điểm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Peak-season surcharges make Tet vacations far more costly than usual.",
+                    "example_vi": "Phụ thu mùa cao điểm khiến kỳ nghỉ Tết đắt đỏ hơn ngày thường nhiều."
+                  },
+                  {
+                    "en": "financial strain",
+                    "phrase": "financial strain",
+                    "vi": "áp lực tài chính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Inflated travel costs can impose heavy financial strain on families.",
+                    "example_vi": "Chi phí du lịch bị đội giá có thể gây áp lực tài chính nặng nề cho gia đình."
+                  },
+                  {
+                    "en": "deplete personal savings",
+                    "phrase": "deplete personal savings",
+                    "vi": "làm hao hụt tiền tiết kiệm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Overspending on holiday tours can quickly deplete personal savings.",
+                    "example_vi": "Chi tiêu quá tay cho tour nghỉ lễ dễ làm hao hụt tiền tiết kiệm."
+                  },
+                  {
+                    "en": "severe overcrowding",
+                    "phrase": "severe overcrowding",
+                    "vi": "tình trạng quá tải nghiêm trọng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Severe overcrowding diminishes the enjoyment of scenic attractions.",
+                    "example_vi": "Tình trạng quá tải nghiêm trọng làm giảm niềm vui ngắm cảnh."
+                  },
+                  {
+                    "en": "holiday staff shortages",
+                    "phrase": "holiday staff shortages",
+                    "vi": "thiếu hụt nhân sự ngày lễ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Holiday staff shortages frequently lower hospitality service standards.",
+                    "example_vi": "Thiếu hụt nhân sự ngày lễ thường làm giảm tiêu chuẩn phục vụ khách sạn."
+                  },
+                  {
+                    "en": "packed itineraries",
+                    "phrase": "packed itineraries",
+                    "vi": "lịch trình kín đặc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Holidaymakers with packed itineraries rarely get genuine rest.",
+                    "example_vi": "Du khách với lịch trình kín đặc hiếm khi được nghỉ ngơi thật sự."
+                  },
+                  {
+                    "en": "physically drained",
+                    "phrase": "physically drained",
+                    "vi": "cạn kiệt thể lực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Returning just before work resumes leaves people physically drained.",
+                    "example_vi": "Trở về ngay sát ngày đi làm khiến mọi người cạn kiệt thể lực."
+                  },
+                  {
+                    "en": "frustrating queues",
+                    "phrase": "frustrating queues",
+                    "vi": "cảnh xếp hàng gây bực bội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Long, frustrating queues at airports add stress to holiday travel.",
+                    "example_vi": "Cảnh xếp hàng dài gây bực bội ở sân bay làm tăng căng thẳng chuyến đi."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Du lịch",
+                "title": "Xu hướng du lịch dịp Tết Nguyên đán tại Việt Nam",
+                "summary": "Tổng hợp các bài viết và góc nhìn về xu hướng đi du xuân, du lịch nghỉ dưỡng dịp Tết, những lợi ích về trải nghiệm cũng như áp lực chi phí và quá tải điểm đến.",
+                "url": "https://vnexpress.net/du-lich"
+              }
+            ],
+            "en": [
+              {
+                "source": "Vietnam Tourism",
+                "title": "Tet in Vietnam: Celebrating the Lunar New Year",
+                "summary": "Overview of traditional Tet customs, family reunions, and spring travel experiences across Vietnam.",
+                "url": "https://vietnam.travel/things-to-do/tet-vietnam-lunar-new-year"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 73,
+        "title_en": "Taking a gap year",
+        "title_vi": "Nghỉ một năm (Gap year) sau THPT",
+        "tags": "",
+        "context": "Nowadays, an increasing number of high school graduates decide to take a gap year—taking one year off for travel, work, or personal development—before entering university or starting full-time employment. While many people believe this break brings valuable life experiences, others worry that it may cause academic and financial challenges.",
+        "context_vi": "Ngày nay, ngày càng có nhiều học sinh tốt nghiệp THPT quyết định nghỉ một năm (gap year)—tạm nghỉ học một năm để du lịch, làm việc hoặc phát triển bản thân—trước khi vào đại học hoặc đi làm toàn thời gian. Trong khi nhiều người tin rằng khoảng nghỉ này mang lại những trải nghiệm sống quý giá, những người khác lại lo ngại nó có thể gây ra khó khăn về học tập và tài chính.",
+        "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of taking a gap year. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về những lợi ích và bất lợi của việc nghỉ một năm (gap year). Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "taking a gap year",
+            "vi": "nghỉ một năm (gap year)"
+          },
+          {
+            "en": "taking a year off before university",
+            "vi": "tạm nghỉ một năm trước khi vào đại học"
+          },
+          {
+            "en": "deferring university enrollment for a year",
+            "vi": "bảo lưu / trì hoãn nhập học đại học một năm"
+          },
+          {
+            "en": "taking a break between high school and higher education",
+            "vi": "nghỉ một khoảng thời gian giữa THPT và đại học"
+          },
+          {
+            "en": "spending a year working or traveling after high school",
+            "vi": "dành một năm đi làm hoặc du lịch sau THPT"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: NGHỈ NGƠI VÀ TRÁNH KIỆT SỨC SAU KỲ THI",
+                "point_vi": "Nghỉ một năm giúp học sinh tốt nghiệp THPT thư giãn và phục hồi tinh thần sau những kỳ thi căng thẳng.",
+                "point_en": "Taking a gap year helps high school graduates relax and recover after stressful exams.",
+                "point_collocations": [
+                  {
+                    "en": "take a gap year",
+                    "vi": "nghỉ một năm (gap year)"
+                  },
+                  {
+                    "en": "stressful exams",
+                    "vi": "những kỳ thi căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Nhờ có thời gian nghỉ ngơi trước khi vào đại học, các bạn trẻ sẽ bắt đầu học lên cao với nhiều năng lượng và động lực hơn.",
+                "evidence_en": "Having time to rest before university helps young people start higher education with more energy and motivation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "higher education",
+                      "vi": "giáo dục đại học"
+                    },
+                    {
+                      "en": "energy and motivation",
+                      "vi": "năng lượng và động lực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "take a gap year",
+                    "vi": "nghỉ một năm (gap year)"
+                  },
+                  {
+                    "en": "stressful exams",
+                    "vi": "những kỳ thi căng thẳng"
+                  },
+                  {
+                    "en": "higher education",
+                    "vi": "giáo dục đại học"
+                  },
+                  {
+                    "en": "energy and motivation",
+                    "vi": "năng lượng và động lực"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: RÈN LUYỆN TÍNH TỰ LẬP VÀ KỸ NĂNG SỐNG",
+                "point_vi": "Một năm trải nghiệm bên ngoài lớp học giúp người trẻ trở nên tự lập và trưởng thành hơn.",
+                "point_en": "Spending a year outside the classroom helps young people become more independent and mature.",
+                "point_collocations": [
+                  {
+                    "en": "independent and mature",
+                    "vi": "tự lập và trưởng thành"
+                  }
+                ],
+                "evidence_vi": "Khi tự đi làm, du lịch hoặc tham gia tình nguyện, các em học được cách quản lý tiền bạc, thời gian và tự giải quyết vấn đề.",
+                "evidence_en": "When working, traveling, or volunteering, they learn to manage money, organize time, and solve problems on their own.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "manage money",
+                      "vi": "quản lý tiền bạc"
+                    },
+                    {
+                      "en": "solve problems on their own",
+                      "vi": "tự giải quyết vấn đề"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "independent and mature",
+                    "vi": "tự lập và trưởng thành"
+                  },
+                  {
+                    "en": "manage money",
+                    "vi": "quản lý tiền bạc"
+                  },
+                  {
+                    "en": "solve problems on their own",
+                    "vi": "tự giải quyết vấn đề"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: ĐỊNH HƯỚNG RÕ NGÀNH HỌC VÀ NGHỀ NGHIỆP",
+                "point_vi": "Gap year cho học sinh thời gian suy nghĩ kỹ để chọn đúng ngành học và nghề nghiệp phù hợp.",
+                "point_en": "A gap year gives students time to think carefully and choose the right major and future career.",
+                "point_collocations": [
+                  {
+                    "en": "choose the right major",
+                    "vi": "chọn đúng ngành học"
+                  },
+                  {
+                    "en": "future career",
+                    "vi": "nghề nghiệp tương lai"
+                  }
+                ],
+                "evidence_vi": "Nhờ thử sức với công việc thực tế trước, nhiều bạn trẻ tránh được việc chọn nhầm ngành và phải bỏ học giữa chừng.",
+                "evidence_en": "By trying real work experience first, many youths avoid picking the wrong major and dropping out later.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "real work experience",
+                      "vi": "kinh nghiệm làm việc thực tế"
+                    },
+                    {
+                      "en": "drop out",
+                      "vi": "bỏ học giữa chừng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "choose the right major",
+                    "vi": "chọn đúng ngành học"
+                  },
+                  {
+                    "en": "future career",
+                    "vi": "nghề nghiệp tương lai"
+                  },
+                  {
+                    "en": "real work experience",
+                    "vi": "kinh nghiệm làm việc thực tế"
+                  },
+                  {
+                    "en": "drop out",
+                    "vi": "bỏ học giữa chừng"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: TÍCH LŨY KINH NGHIỆM VÀ LÀM ĐẸP HỒ SƠ CÁ NHÂN",
+                "point_vi": "Tham gia thực tập, làm tình nguyện hoặc học ngoại ngữ trong năm nghỉ giúp hồ sơ cá nhân ấn tượng hơn.",
+                "point_en": "Doing internships, volunteering, or learning languages during a gap year makes a student's CV more impressive.",
+                "point_collocations": [
+                  {
+                    "en": "do internships",
+                    "vi": "đi thực tập"
+                  },
+                  {
+                    "en": "impressive CV",
+                    "vi": "hồ sơ cá nhân ấn tượng"
+                  }
+                ],
+                "evidence_vi": "Các trường đại học và nhà tuyển dụng thường đánh giá cao những ứng viên năng động và có kinh nghiệm thực tế.",
+                "evidence_en": "Universities and employers often value active candidates who already have practical experience.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "practical experience",
+                      "vi": "kinh nghiệm thực tế"
+                    },
+                    {
+                      "en": "value candidates",
+                      "vi": "đánh giá cao ứng viên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "do internships",
+                    "vi": "đi thực tập"
+                  },
+                  {
+                    "en": "impressive CV",
+                    "vi": "hồ sơ cá nhân ấn tượng"
+                  },
+                  {
+                    "en": "practical experience",
+                    "vi": "kinh nghiệm thực tế"
+                  },
+                  {
+                    "en": "value candidates",
+                    "vi": "đánh giá cao ứng viên"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: KIẾM TIỀN TIẾT KIỆM HỖ TRỢ HỌC PHÍ ĐẠI HỌC",
+                "point_vi": "Đi làm trong năm gap year giúp học sinh kiếm tiền tiết kiệm để chi trả học phí và sinh hoạt phí.",
+                "point_en": "Working during a gap year allows students to save money to pay for university tuition and living costs.",
+                "point_collocations": [
+                  {
+                    "en": "university tuition",
+                    "vi": "học phí đại học"
+                  },
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  }
+                ],
+                "evidence_vi": "Khoản tiền tự kiếm được giúp giảm bớt gánh nặng tài chính cho cha mẹ và giúp sinh viên yên tâm học tập hơn.",
+                "evidence_en": "Earning their own savings reduces financial pressure on parents and helps students study with less worry.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "financial pressure",
+                      "vi": "áp lực tài chính"
+                    },
+                    {
+                      "en": "own savings",
+                      "vi": "tiền tiết kiệm riêng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "university tuition",
+                    "vi": "học phí đại học"
+                  },
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "own savings",
+                    "vi": "tiền tiết kiệm riêng"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: DỄ MẤT THÓI QUEN VÀ ĐÀ HỌC TẬP",
+                "point_vi": "Nghỉ học một năm có thể khiến nhiều học sinh mất thói quen học tập và khó quay lại trường.",
+                "point_en": "Taking a year off can cause many students to lose their study habits and struggle to return to school.",
+                "point_collocations": [
+                  {
+                    "en": "lose study habits",
+                    "vi": "mất thói quen học tập"
+                  },
+                  {
+                    "en": "return to school",
+                    "vi": "quay lại trường học"
+                  }
+                ],
+                "evidence_vi": "Sau thời gian dài không làm bài tập hay thi cử, một số bạn quên kiến thức cũ và thấy việc học đại học khó khăn hơn.",
+                "evidence_en": "After a long break from homework and exams, some forget basic knowledge and find university classes harder to follow.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "basic knowledge",
+                      "vi": "kiến thức cơ bản"
+                    },
+                    {
+                      "en": "harder to follow",
+                      "vi": "khó theo kịp hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "lose study habits",
+                    "vi": "mất thói quen học tập"
+                  },
+                  {
+                    "en": "return to school",
+                    "vi": "quay lại trường học"
+                  },
+                  {
+                    "en": "basic knowledge",
+                    "vi": "kiến thức cơ bản"
+                  },
+                  {
+                    "en": "harder to follow",
+                    "vi": "khó theo kịp hơn"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: CHI PHÍ TỐN KÉM NẾU ĐI DU LỊCH HOẶC HỌC CHƯƠNG TRÌNH RIÊNG",
+                "point_vi": "Một năm gap year dành cho du lịch hoặc khóa học nước ngoài có thể tốn rất nhiều tiền.",
+                "point_en": "A gap year spent traveling or joining overseas programs can be very expensive.",
+                "point_collocations": [
+                  {
+                    "en": "overseas programs",
+                    "vi": "chương trình ở nước ngoài"
+                  },
+                  {
+                    "en": "very expensive",
+                    "vi": "rất tốn kém"
+                  }
+                ],
+                "evidence_vi": "Không phải gia đình nào cũng đủ khả năng chi trả vé máy bay, chỗ ở và sinh hoạt phí trong cả một năm.",
+                "evidence_en": "Not every family can afford airfares, accommodation, and daily expenses for an entire year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily expenses",
+                      "vi": "chi phí hằng ngày"
+                    },
+                    {
+                      "en": "afford accommodation",
+                      "vi": "chi trả tiền chỗ ở"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "overseas programs",
+                    "vi": "chương trình ở nước ngoài"
+                  },
+                  {
+                    "en": "very expensive",
+                    "vi": "rất tốn kém"
+                  },
+                  {
+                    "en": "daily expenses",
+                    "vi": "chi phí hằng ngày"
+                  },
+                  {
+                    "en": "afford accommodation",
+                    "vi": "chi trả tiền chỗ ở"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ LÃNG PHÍ THỜI GIAN NẾU THIẾU KẾ HOẠCH",
+                "point_vi": "Nếu không có kế hoạch rõ ràng, học sinh rất dễ lãng phí cả năm mà không đạt được điều gì hữu ích.",
+                "point_en": "Without a clear plan, students can easily waste an entire year without achieving anything useful.",
+                "point_collocations": [
+                  {
+                    "en": "clear plan",
+                    "vi": "kế hoạch rõ ràng"
+                  },
+                  {
+                    "en": "waste an entire year",
+                    "vi": "lãng phí cả một năm"
+                  }
+                ],
+                "evidence_vi": "Một số bạn trẻ chỉ ở nhà chơi game hoặc lướt mạng xã hội, khiến họ trở nên lười biếng và mất động lực.",
+                "evidence_en": "Some young people just stay home playing games or scrolling on social media, becoming lazy and unmotivated.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "scroll on social media",
+                      "vi": "lướt mạng xã hội"
+                    },
+                    {
+                      "en": "lazy and unmotivated",
+                      "vi": "lười biếng và mất động lực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clear plan",
+                    "vi": "kế hoạch rõ ràng"
+                  },
+                  {
+                    "en": "waste an entire year",
+                    "vi": "lãng phí cả một năm"
+                  },
+                  {
+                    "en": "scroll on social media",
+                    "vi": "lướt mạng xã hội"
+                  },
+                  {
+                    "en": "lazy and unmotivated",
+                    "vi": "lười biếng và mất động lực"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TỐT NGHIỆP VÀ ĐI LÀM MUỘN HƠN BẠN BÈ",
+                "point_vi": "Nghỉ một năm đồng nghĩa với việc học sinh sẽ tốt nghiệp đại học và bắt đầu sự nghiệp muộn hơn bạn cùng lứa.",
+                "point_en": "Taking a gap year means students will graduate from university and start their careers later than peers.",
+                "point_collocations": [
+                  {
+                    "en": "graduate from university",
+                    "vi": "tốt nghiệp đại học"
+                  },
+                  {
+                    "en": "start their careers later",
+                    "vi": "bắt đầu sự nghiệp muộn hơn"
+                  }
+                ],
+                "evidence_vi": "Trong một số ngành nghề cạnh tranh cao, việc chậm một năm có thể khiến họ bỏ lỡ một vài cơ hội việc làm sớm.",
+                "evidence_en": "In competitive fields, starting a year behind may make them miss some early job opportunities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "competitive fields",
+                      "vi": "lĩnh vực cạnh tranh"
+                    },
+                    {
+                      "en": "early job opportunities",
+                      "vi": "cơ hội việc làm sớm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "graduate from university",
+                    "vi": "tốt nghiệp đại học"
+                  },
+                  {
+                    "en": "start their careers later",
+                    "vi": "bắt đầu sự nghiệp muộn hơn"
+                  },
+                  {
+                    "en": "competitive fields",
+                    "vi": "lĩnh vực cạnh tranh"
+                  },
+                  {
+                    "en": "early job opportunities",
+                    "vi": "cơ hội việc làm sớm"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: CẢM GIÁC ÁP LỰC VÀ LẠC LÕNG SO VỚI BẠN CÙNG TRANG LỨA",
+                "point_vi": "Một số bạn trẻ có thể cảm thấy lo lắng hoặc bị tụt lại khi thấy bạn bè vào đại học đúng hạn.",
+                "point_en": "Some young people may feel anxious or left behind when watching their friends enter university on time.",
+                "point_collocations": [
+                  {
+                    "en": "feel left behind",
+                    "vi": "cảm thấy bị tụt lại phía sau"
+                  },
+                  {
+                    "en": "enter university on time",
+                    "vi": "vào đại học đúng hạn"
+                  }
+                ],
+                "evidence_vi": "Áp lực từ sự so sánh với bạn bè hoặc sự lo lắng của cha mẹ có thể khiến họ mất tự tin vào lựa chọn của mình.",
+                "evidence_en": "Pressure from comparing with friends or parents' worries can make them doubt their own decision.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "doubt one's decision",
+                      "vi": "nghi ngờ quyết định của bản thân"
+                    },
+                    {
+                      "en": "parents' worries",
+                      "vi": "nỗi lo của cha mẹ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "feel left behind",
+                    "vi": "cảm thấy bị tụt lại phía sau"
+                  },
+                  {
+                    "en": "enter university on time",
+                    "vi": "vào đại học đúng hạn"
+                  },
+                  {
+                    "en": "doubt one's decision",
+                    "vi": "nghi ngờ quyết định của bản thân"
+                  },
+                  {
+                    "en": "parents' worries",
+                    "vi": "nỗi lo của cha mẹ"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LỢI ÍCH 01: GIẢI TỎA KIỆT SỨC HỌC ĐƯỜNG VÀ PHỤC HỒI NĂNG LƯỢNG (PREVENTING ACADEMIC BURNOUT)",
+                "point_vi": "Nghỉ một năm trước đại học giúp học sinh phục hồi sức khỏe tinh thần và tránh tình trạng kiệt sức sau nhiều năm thi cử liên miên.",
+                "point_en": "Taking a gap year allows high school graduates to recover mentally and prevent academic burnout after years of intense schooling.",
+                "point_collocations": [
+                  {
+                    "en": "academic burnout",
+                    "vi": "kiệt sức học đường"
+                  },
+                  {
+                    "en": "intense schooling",
+                    "vi": "quá trình học tập căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Nhiều học sinh bước ra khỏi kỳ thi tốt nghiệp trung học trong trạng thái mệt mỏi kéo dài vì áp lực điểm số và lịch học dày đặc. Một khoảng nghỉ có mục đích giúp các em tái tạo năng lượng, để khi bước vào giảng đường đại học sẽ học tập tập trung và hào hứng hơn nhiều.",
+                "evidence_en": "Many students finish demanding high school examinations feeling emotionally drained from relentless grade pressure. A purposeful break restores mental energy, enabling them to begin university studies with renewed focus and enthusiasm.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "emotionally drained",
+                      "vi": "kiệt quệ về cảm xúc"
+                    },
+                    {
+                      "en": "grade pressure",
+                      "vi": "áp lực điểm số"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "purposeful break",
+                      "vi": "khoảng nghỉ có mục đích"
+                    },
+                    {
+                      "en": "renewed focus",
+                      "vi": "sự tập trung mới mẻ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "academic burnout",
+                    "vi": "kiệt sức học đường"
+                  },
+                  {
+                    "en": "intense schooling",
+                    "vi": "quá trình học tập căng thẳng"
+                  },
+                  {
+                    "en": "emotionally drained",
+                    "vi": "kiệt quệ về cảm xúc"
+                  },
+                  {
+                    "en": "grade pressure",
+                    "vi": "áp lực điểm số"
+                  },
+                  {
+                    "en": "purposeful break",
+                    "vi": "khoảng nghỉ có mục đích"
+                  },
+                  {
+                    "en": "renewed focus",
+                    "vi": "sự tập trung mới mẻ"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: PHÁT TRIỂN TÍNH TỰ LẬP VÀ SỰ TRƯỞNG THÀNH (BUILDING INDEPENDENCE AND MATURITY)",
+                "point_vi": "Một năm trải nghiệm thực tế ngoài nhà trường nuôi dưỡng tính tự lập, bản lĩnh và các kỹ năng sống thiết yếu cho người trẻ.",
+                "point_en": "A year of real-world experience outside formal classrooms cultivates independence, resilience, and vital life skills.",
+                "point_collocations": [
+                  {
+                    "en": "real-world experience",
+                    "vi": "trải nghiệm thực tế đời sống"
+                  },
+                  {
+                    "en": "vital life skills",
+                    "vi": "kỹ năng sống thiết yếu"
+                  }
+                ],
+                "evidence_vi": "Khi tự mình làm việc, du lịch hoặc tham gia các dự án cộng đồng xa gia đình, thanh niên phải tự lập ngân sách, giao tiếp với nhiều đối tượng và xử lý tình huống bất ngờ. Sự trưởng thành sớm này giúp các em thích nghi dễ dàng hơn với môi trường đại học tự do và áp lực trưởng thành sau này.",
+                "evidence_en": "Through independent travel, employment, or volunteering away from home, young adults learn to budget finances, communicate across cultures, and solve unexpected problems. This heightened maturity prepares them far better for independent university living and adult responsibilities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "budget finances",
+                      "vi": "lập ngân sách tài chính"
+                    },
+                    {
+                      "en": "unexpected problems",
+                      "vi": "vấn đề bất ngờ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "heightened maturity",
+                      "vi": "sự trưởng thành vượt bậc"
+                    },
+                    {
+                      "en": "adult responsibilities",
+                      "vi": "trách nhiệm tuổi trưởng thành"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "real-world experience",
+                    "vi": "trải nghiệm thực tế đời sống"
+                  },
+                  {
+                    "en": "vital life skills",
+                    "vi": "kỹ năng sống thiết yếu"
+                  },
+                  {
+                    "en": "budget finances",
+                    "vi": "lập ngân sách tài chính"
+                  },
+                  {
+                    "en": "unexpected problems",
+                    "vi": "vấn đề bất ngờ"
+                  },
+                  {
+                    "en": "heightened maturity",
+                    "vi": "sự trưởng thành vượt bậc"
+                  },
+                  {
+                    "en": "adult responsibilities",
+                    "vi": "trách nhiệm tuổi trưởng thành"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: XÁC ĐỊNH RÕ ĐỊNH HƯỚNG HỌC TẬP VÀ NGHỀ NGHIỆP (GAINING CAREER AND ACADEMIC CLARITY)",
+                "point_vi": "Khoảng thời gian gap year giúp người trẻ khám phá bản thân và đưa ra quyết định sáng suốt hơn về chuyên ngành lẫn sự nghiệp.",
+                "point_en": "A gap year gives young people valuable space for self-discovery, leading to clearer academic and career decisions.",
+                "point_collocations": [
+                  {
+                    "en": "self-discovery",
+                    "vi": "khám phá bản thân"
+                  },
+                  {
+                    "en": "career decisions",
+                    "vi": "quyết định nghề nghiệp"
+                  }
+                ],
+                "evidence_vi": "Rất nhiều học sinh 18 tuổi vội vàng chọn ngành đại học theo kỳ vọng của gia đình mà chưa thực sự hiểu đam mê hay thế mạnh của bản thân. Việc thử sức qua các kỳ thực tập hoặc công việc ngắn hạn giúp các em xác định đúng mục tiêu và giảm đáng kể nguy cơ bỏ học hay đổi ngành tốn kém.",
+                "evidence_en": "Countless 18-year-olds rush into degree courses driven by family expectations before truly understanding their own strengths and passions. Testing industries through short-term work or internships clarifies long-term goals and significantly lowers university drop-out rates.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "degree courses",
+                      "vi": "chương trình cử nhân / đại học"
+                    },
+                    {
+                      "en": "strengths and passions",
+                      "vi": "thế mạnh và đam mê"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "clarify long-term goals",
+                      "vi": "làm rõ mục tiêu dài hạn"
+                    },
+                    {
+                      "en": "drop-out rates",
+                      "vi": "tỷ lệ bỏ học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "self-discovery",
+                    "vi": "khám phá bản thân"
+                  },
+                  {
+                    "en": "career decisions",
+                    "vi": "quyết định nghề nghiệp"
+                  },
+                  {
+                    "en": "degree courses",
+                    "vi": "chương trình cử nhân / đại học"
+                  },
+                  {
+                    "en": "strengths and passions",
+                    "vi": "thế mạnh và đam mê"
+                  },
+                  {
+                    "en": "clarify long-term goals",
+                    "vi": "làm rõ mục tiêu dài hạn"
+                  },
+                  {
+                    "en": "drop-out rates",
+                    "vi": "tỷ lệ bỏ học"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: LÀM NỔI BẬT HỒ SƠ ĐẠI HỌC VÀ NĂNG LỰC CẠNH TRANH (ENHANCING CVS AND APPLICATIONS)",
+                "point_vi": "Một năm gap year được lên kế hoạch tốt giúp sinh viên tích lũy trải nghiệm thực tiễn và nâng cao đáng kể sức hút cho hồ sơ cá nhân.",
+                "point_en": "A well-structured gap year enriches a student's resume and strengthens future university or job applications.",
+                "point_collocations": [
+                  {
+                    "en": "well-structured gap year",
+                    "vi": "năm gap year có kế hoạch bài bản"
+                  },
+                  {
+                    "en": "job applications",
+                    "vi": "hồ sơ xin việc"
+                  }
+                ],
+                "evidence_vi": "Các hoạt động như làm tình nguyện quốc tế, học thêm ngoại ngữ hoặc thực tập chuyên môn chứng minh tinh thần chủ động và khả năng thích nghi cao. Các hội đồng tuyển sinh lẫn nhà tuyển dụng ngày nay thường đánh giá rất cao những ứng viên sở hữu trải nghiệm thực tế phong phú bên cạnh điểm số.",
+                "evidence_en": "Activities such as volunteering, acquiring a foreign language, or completing internships demonstrate initiative, adaptability, and genuine commitment. Admissions officers and employers increasingly favor well-rounded candidates who bring practical achievements alongside academic grades.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "demonstrate initiative",
+                      "vi": "thể hiện tinh thần chủ động"
+                    },
+                    {
+                      "en": "adaptability",
+                      "vi": "khả năng thích nghi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "well-rounded candidates",
+                      "vi": "ứng viên phát triển toàn diện"
+                    },
+                    {
+                      "en": "practical achievements",
+                      "vi": "thành tựu thực tiễn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "well-structured gap year",
+                    "vi": "năm gap year có kế hoạch bài bản"
+                  },
+                  {
+                    "en": "job applications",
+                    "vi": "hồ sơ xin việc"
+                  },
+                  {
+                    "en": "demonstrate initiative",
+                    "vi": "thể hiện tinh thần chủ động"
+                  },
+                  {
+                    "en": "adaptability",
+                    "vi": "khả năng thích nghi"
+                  },
+                  {
+                    "en": "well-rounded candidates",
+                    "vi": "ứng viên phát triển toàn diện"
+                  },
+                  {
+                    "en": "practical achievements",
+                    "vi": "thành tựu thực tiễn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: TÍCH LŨY TÀI CHÍNH GIẢM GÁNH NẶNG HỌC PHÍ (SAVING MONEY FOR HIGHER EDUCATION)",
+                "point_vi": "Tận dụng năm gap year để đi làm giúp người trẻ tự tích lũy nguồn tài chính đáng kể nhằm trang trải chi phí học đại học.",
+                "point_en": "Working full-time or part-time during a gap year enables students to accumulate savings that ease higher education expenses.",
+                "point_collocations": [
+                  {
+                    "en": "accumulate savings",
+                    "vi": "tích lũy tiền tiết kiệm"
+                  },
+                  {
+                    "en": "higher education expenses",
+                    "vi": "chi phí giáo dục đại học"
+                  }
+                ],
+                "evidence_vi": "Khi học phí đại học và chi phí thuê nhà tại các thành phố lớn ngày càng đắt đỏ, nhiều sinh viên phải vay nợ hoặc chịu áp lực tài chính nặng nề. Khoản thu nhập dành dụm được trước khi nhập học giúp giảm bớt gánh nặng cho gia đình và cho phép sinh viên tập trung toàn lực vào việc học.",
+                "evidence_en": "With university tuition and urban living costs rising steadily, many undergraduates face heavy debt or financial anxiety. Saving earnings before enrolling reduces reliance on parents or student loans and allows learners to devote greater focus to coursework.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "urban living costs",
+                      "vi": "chi phí sinh hoạt đô thị"
+                    },
+                    {
+                      "en": "financial anxiety",
+                      "vi": "nỗi lo tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "student loans",
+                      "vi": "khoản vay sinh viên"
+                    },
+                    {
+                      "en": "devote focus to coursework",
+                      "vi": "tập trung vào việc học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "accumulate savings",
+                    "vi": "tích lũy tiền tiết kiệm"
+                  },
+                  {
+                    "en": "higher education expenses",
+                    "vi": "chi phí giáo dục đại học"
+                  },
+                  {
+                    "en": "urban living costs",
+                    "vi": "chi phí sinh hoạt đô thị"
+                  },
+                  {
+                    "en": "financial anxiety",
+                    "vi": "nỗi lo tài chính"
+                  },
+                  {
+                    "en": "student loans",
+                    "vi": "khoản vay sinh viên"
+                  },
+                  {
+                    "en": "devote focus to coursework",
+                    "vi": "tập trung vào việc học"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: MẤT ĐÀ HỌC TẬP VÀ KHÓ THÍCH NGHI LẠI VỚI MÔI TRƯỜNG HÀN LÂM (LOSING ACADEMIC MOMENTUM)",
+                "point_vi": "Rủi ro lớn nhất của việc nghỉ một năm là học sinh dễ đánh mất thói quen học tập và gặp khó khăn khi quay lại môi trường hàn lâm.",
+                "point_en": "A primary drawback of taking a gap year is the risk of losing academic momentum and struggling to readjust to formal study.",
+                "point_collocations": [
+                  {
+                    "en": "academic momentum",
+                    "vi": "đà học tập"
+                  },
+                  {
+                    "en": "formal study",
+                    "vi": "việc học chính quy"
+                  }
+                ],
+                "evidence_vi": "Sau mười hai tháng xa rời bài giảng, nghiên cứu và các kỳ thi căng thẳng, nhiều sinh viên quên kiến thức nền tảng và mất kỷ luật tự học. Quá trình chuyển đổi trở lại nhịp độ đại học khắt khe đôi khi gây choáng ngợp và thậm chí khiến một số bạn quyết định không tiếp tục học lên cao.",
+                "evidence_en": "After twelve months away from lectures, essays, and strict exams, some students forget foundational knowledge and lose disciplined study habits. Readjusting to a rigorous university workload can feel jarring and occasionally discourages young people from resuming higher education altogether.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "foundational knowledge",
+                      "vi": "kiến thức nền tảng"
+                    },
+                    {
+                      "en": "disciplined study habits",
+                      "vi": "thói quen học có kỷ luật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rigorous workload",
+                      "vi": "khối lượng học tập khắt khe"
+                    },
+                    {
+                      "en": "resume higher education",
+                      "vi": "tiếp tục học đại học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "academic momentum",
+                    "vi": "đà học tập"
+                  },
+                  {
+                    "en": "formal study",
+                    "vi": "việc học chính quy"
+                  },
+                  {
+                    "en": "foundational knowledge",
+                    "vi": "kiến thức nền tảng"
+                  },
+                  {
+                    "en": "disciplined study habits",
+                    "vi": "thói quen học có kỷ luật"
+                  },
+                  {
+                    "en": "rigorous workload",
+                    "vi": "khối lượng học tập khắt khe"
+                  },
+                  {
+                    "en": "resume higher education",
+                    "vi": "tiếp tục học đại học"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: CHI PHÍ ĐẮT ĐỎ CHO DU LỊCH VÀ CHƯƠNG TRÌNH TRẢI NGHIỆM (HIGH FINANCIAL COSTS)",
+                "point_vi": "Nếu tập trung vào du lịch hoặc các chương trình tình nguyện quốc tế, một năm gap year có thể đòi hỏi nguồn tài chính rất lớn.",
+                "point_en": "If centered on international travel or organized overseas programs, a gap year can require substantial upfront funding.",
+                "point_collocations": [
+                  {
+                    "en": "upfront funding",
+                    "vi": "nguồn vốn ban đầu"
+                  },
+                  {
+                    "en": "overseas programs",
+                    "vi": "chương trình nước ngoài"
+                  }
+                ],
+                "evidence_vi": "Chi phí vé máy bay, bảo hiểm, ăn ở và phí tham gia các chương trình trao đổi thường vượt quá khả năng của các gia đình thu nhập trung bình. Vì vậy, thay vì tiết kiệm được tiền, nhiều bạn trẻ có thể làm cạn kiệt nguồn quỹ dự phòng vốn dành cho học phí đại học.",
+                "evidence_en": "Expenses for flights, travel insurance, accommodation, and program fees frequently exceed what middle-income families can comfortably afford. Consequently, rather than saving money, poorly budgeted gap years can drain funds originally intended for university tuition.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "travel insurance",
+                      "vi": "bảo hiểm du lịch"
+                    },
+                    {
+                      "en": "middle-income families",
+                      "vi": "gia đình thu nhập trung bình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "drain funds",
+                      "vi": "làm cạn kiệt nguồn quỹ"
+                    },
+                    {
+                      "en": "poorly budgeted",
+                      "vi": "lập ngân sách kém"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "upfront funding",
+                    "vi": "nguồn vốn ban đầu"
+                  },
+                  {
+                    "en": "overseas programs",
+                    "vi": "chương trình nước ngoài"
+                  },
+                  {
+                    "en": "travel insurance",
+                    "vi": "bảo hiểm du lịch"
+                  },
+                  {
+                    "en": "middle-income families",
+                    "vi": "gia đình thu nhập trung bình"
+                  },
+                  {
+                    "en": "drain funds",
+                    "vi": "làm cạn kiệt nguồn quỹ"
+                  },
+                  {
+                    "en": "poorly budgeted",
+                    "vi": "lập ngân sách kém"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: NGUY CƠ LÃNG PHÍ THỜI GIAN KHI THIẾU KẾ HOẠCH RÕ RÀNG (RISK OF UNPRODUCTIVITY)",
+                "point_vi": "Thiếu mục tiêu cụ thể và tính kỷ luật có thể biến một năm gap year thành khoảng thời gian trì trệ và lãng phí.",
+                "point_en": "A lack of clear objectives and self-discipline can turn a gap year into an unproductive period of wasted time.",
+                "point_collocations": [
+                  {
+                    "en": "clear objectives",
+                    "vi": "mục tiêu rõ ràng"
+                  },
+                  {
+                    "en": "unproductive period",
+                    "vi": "giai đoạn kém hiệu quả"
+                  }
+                ],
+                "evidence_vi": "Không có lịch trình bài học hay sự giám sát từ trường học, một số học sinh dễ sa vào thói quen sinh hoạt thiếu điều độ và giải trí thụ động suốt nhiều tháng. Một năm trôi qua không có thành tựu đáng kể không chỉ làm yếu hồ sơ cá nhân mà còn khiến các em khó xây dựng lại nếp sống năng suất.",
+                "evidence_en": "Without classroom structure or academic deadlines, some graduates drift into aimless routines filled with passive screen time and little meaningful activity. A stagnant year adds zero value to a CV and makes returning to a disciplined schedule considerably harder.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "aimless routines",
+                      "vi": "thói quen sinh hoạt vô định"
+                    },
+                    {
+                      "en": "passive screen time",
+                      "vi": "thời gian màn hình thụ động"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stagnant year",
+                      "vi": "một năm trì trệ"
+                    },
+                    {
+                      "en": "disciplined schedule",
+                      "vi": "lịch trình có kỷ luật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clear objectives",
+                    "vi": "mục tiêu rõ ràng"
+                  },
+                  {
+                    "en": "unproductive period",
+                    "vi": "giai đoạn kém hiệu quả"
+                  },
+                  {
+                    "en": "aimless routines",
+                    "vi": "thói quen sinh hoạt vô định"
+                  },
+                  {
+                    "en": "passive screen time",
+                    "vi": "thời gian màn hình thụ động"
+                  },
+                  {
+                    "en": "stagnant year",
+                    "vi": "một năm trì trệ"
+                  },
+                  {
+                    "en": "disciplined schedule",
+                    "vi": "lịch trình có kỷ luật"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: TỐT NGHIỆP VÀ BƯỚC VÀO THỊ TRƯỜNG LAO ĐỘNG MUỘN HƠN (DELAYED GRADUATION AND CAREER ENTRY)",
+                "point_vi": "Việc trì hoãn nhập học một năm khiến người trẻ tốt nghiệp và gia nhập thị trường lao động chậm hơn so với bạn đồng trang lứa.",
+                "point_en": "Deferring university enrollment inevitably delays graduation and entry into full-time professional careers.",
+                "point_collocations": [
+                  {
+                    "en": "defer enrollment",
+                    "vi": "trì hoãn việc nhập học"
+                  },
+                  {
+                    "en": "career entry",
+                    "vi": "gia nhập thị trường lao động"
+                  }
+                ],
+                "evidence_vi": "Trong những lĩnh vực biến động nhanh như công nghệ hay tài chính, việc ra trường chậm một năm đồng nghĩa với việc chậm tích lũy thâm niên và thu nhập ổn định. Đối với những sinh viên theo học ngành đào tạo dài như y khoa hay kiến trúc, sự chậm trễ này càng tạo thêm áp lực thời gian đáng kể.",
+                "evidence_en": "In fast-moving industries such as technology or finance, graduating a year later means postponing full-time earnings and early career progression. For students entering lengthy degrees like medicine or architecture, this extra delay can feel particularly burdensome.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fast-moving industries",
+                      "vi": "ngành công nghiệp biến đổi nhanh"
+                    },
+                    {
+                      "en": "career progression",
+                      "vi": "sự thăng tiến nghề nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lengthy degrees",
+                      "vi": "chương trình đào tạo kéo dài"
+                    },
+                    {
+                      "en": "extra delay",
+                      "vi": "sự chậm trễ thêm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "defer enrollment",
+                    "vi": "trì hoãn việc nhập học"
+                  },
+                  {
+                    "en": "career entry",
+                    "vi": "gia nhập thị trường lao động"
+                  },
+                  {
+                    "en": "fast-moving industries",
+                    "vi": "ngành công nghiệp biến đổi nhanh"
+                  },
+                  {
+                    "en": "career progression",
+                    "vi": "sự thăng tiến nghề nghiệp"
+                  },
+                  {
+                    "en": "lengthy degrees",
+                    "vi": "chương trình đào tạo kéo dài"
+                  },
+                  {
+                    "en": "extra delay",
+                    "vi": "sự chậm trễ thêm"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: ÁP LỰC TÂM LÝ VÀ CẢM GIÁC TỤT LẠI SO VỚI BẠN BÈ (SOCIAL DISCONNECT AND PEER PRESSURE)",
+                "point_vi": "Chứng kiến bạn bè cùng lứa nhập học và tiến bước theo lộ trình thông thường dễ khiến người chọn gap year cảm thấy áp lực hoặc lạc lõng.",
+                "point_en": "Watching high school peers move directly into university life can trigger social disconnect and feelings of falling behind.",
+                "point_collocations": [
+                  {
+                    "en": "social disconnect",
+                    "vi": "sự tách biệt về mặt xã hội"
+                  },
+                  {
+                    "en": "fall behind",
+                    "vi": "bị tụt lại phía sau"
+                  }
+                ],
+                "evidence_vi": "Khi bạn bè thân thiết bận rộn với môi trường đại học mới, câu lạc bộ và mối quan hệ mới, người nghỉ một năm có thể trải qua cảm giác cô đơn và sợ bị bỏ lỡ. Kết hợp với những lời dò hỏi hay kỳ vọng từ họ hàng, áp lực tâm lý này đôi khi khiến họ hoài nghi chính lựa chọn của bản thân.",
+                "evidence_en": "As close friends immerse themselves in campus life, student clubs, and new friendships, gap-year takers may experience isolation and fear of missing out. Combined with skeptical remarks from relatives or societal expectations, this pressure can erode their confidence in their chosen path.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "campus life",
+                      "vi": "đời sống đại học"
+                    },
+                    {
+                      "en": "fear of missing out",
+                      "vi": "nỗi sợ bị bỏ lỡ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "skeptical remarks",
+                      "vi": "những lời nhận xét hoài nghi"
+                    },
+                    {
+                      "en": "erode confidence",
+                      "vi": "làm lung lay sự tự tin"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "social disconnect",
+                    "vi": "sự tách biệt về mặt xã hội"
+                  },
+                  {
+                    "en": "fall behind",
+                    "vi": "bị tụt lại phía sau"
+                  },
+                  {
+                    "en": "campus life",
+                    "vi": "đời sống đại học"
+                  },
+                  {
+                    "en": "fear of missing out",
+                    "vi": "nỗi sợ bị bỏ lỡ"
+                  },
+                  {
+                    "en": "skeptical remarks",
+                    "vi": "những lời nhận xét hoài nghi"
+                  },
+                  {
+                    "en": "erode confidence",
+                    "vi": "làm lung lay sự tự tin"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "take a gap year",
+              "vi": "nghỉ một năm (gap year)"
+            },
+            {
+              "en": "recover after stressful exams",
+              "vi": "phục hồi sau các kỳ thi căng thẳng"
+            },
+            {
+              "en": "energy and motivation",
+              "vi": "năng lượng và động lực"
+            },
+            {
+              "en": "become independent and mature",
+              "vi": "trở nên tự lập và trưởng thành"
+            },
+            {
+              "en": "manage money and time",
+              "vi": "quản lý tiền bạc và thời gian"
+            },
+            {
+              "en": "choose the right major",
+              "vi": "chọn đúng chuyên ngành"
+            },
+            {
+              "en": "avoid dropping out",
+              "vi": "tránh bỏ học giữa chừng"
+            },
+            {
+              "en": "real work experience",
+              "vi": "kinh nghiệm làm việc thực tế"
+            },
+            {
+              "en": "prevent academic burnout",
+              "vi": "phòng tránh kiệt sức học đường"
+            },
+            {
+              "en": "renewed focus and enthusiasm",
+              "vi": "sự tập trung và hào hứng mới mẻ"
+            },
+            {
+              "en": "cultivate resilience",
+              "vi": "rèn luyện bản lĩnh vượt khó"
+            },
+            {
+              "en": "space for self-discovery",
+              "vi": "không gian khám phá bản thân"
+            },
+            {
+              "en": "clarify long-term goals",
+              "vi": "làm rõ mục tiêu dài hạn"
+            },
+            {
+              "en": "lower university drop-out rates",
+              "vi": "giảm tỷ lệ bỏ học đại học"
+            },
+            {
+              "en": "heightened personal maturity",
+              "vi": "sự trưởng thành cá nhân vượt bậc"
+            },
+            {
+              "en": "vital life skills",
+              "vi": "những kỹ năng sống thiết yếu"
+            },
+            {
+              "en": "impressive CV",
+              "vi": "hồ sơ cá nhân ấn tượng"
+            },
+            {
+              "en": "do internships",
+              "vi": "tham gia thực tập"
+            },
+            {
+              "en": "learn a new language",
+              "vi": "học một ngoại ngữ mới"
+            },
+            {
+              "en": "practical experience",
+              "vi": "kinh nghiệm thực tế"
+            },
+            {
+              "en": "pay for university tuition",
+              "vi": "chi trả học phí đại học"
+            },
+            {
+              "en": "reduce financial pressure",
+              "vi": "giảm áp lực tài chính"
+            },
+            {
+              "en": "cover living costs",
+              "vi": "trang trải chi phí sinh hoạt"
+            },
+            {
+              "en": "study with less worry",
+              "vi": "học tập yên tâm hơn"
+            },
+            {
+              "en": "well-structured gap year",
+              "vi": "năm gap year có kế hoạch bài bản"
+            },
+            {
+              "en": "demonstrate personal initiative",
+              "vi": "thể hiện tinh thần chủ động cá nhân"
+            },
+            {
+              "en": "well-rounded candidates",
+              "vi": "ứng viên phát triển toàn diện"
+            },
+            {
+              "en": "accumulate useful savings",
+              "vi": "tích lũy khoản tiết kiệm hữu ích"
+            },
+            {
+              "en": "ease higher education expenses",
+              "vi": "giảm nhẹ chi phí giáo dục đại học"
+            },
+            {
+              "en": "avoid heavy student loans",
+              "vi": "tránh nợ vay sinh viên nặng nề"
+            },
+            {
+              "en": "devote full focus to coursework",
+              "vi": "dành trọn tâm trí cho việc học"
+            },
+            {
+              "en": "workplace adaptability",
+              "vi": "khả năng thích nghi nơi làm việc"
+            },
+            {
+              "en": "lose study habits",
+              "vi": "đánh mất thói quen học tập"
+            },
+            {
+              "en": "forget basic knowledge",
+              "vi": "quên kiến thức cơ bản"
+            },
+            {
+              "en": "harder to follow classes",
+              "vi": "khó theo kịp bài giảng hơn"
+            },
+            {
+              "en": "without a clear plan",
+              "vi": "không có kế hoạch rõ ràng"
+            },
+            {
+              "en": "waste an entire year",
+              "vi": "lãng phí cả một năm"
+            },
+            {
+              "en": "scroll on social media",
+              "vi": "lướt mạng xã hội"
+            },
+            {
+              "en": "become lazy and unmotivated",
+              "vi": "trở nên lười biếng và mất động lực"
+            },
+            {
+              "en": "struggle to return to school",
+              "vi": "chật vật khi quay lại trường"
+            },
+            {
+              "en": "lose academic momentum",
+              "vi": "đánh mất đà học tập"
+            },
+            {
+              "en": "readjust to formal study",
+              "vi": "thích nghi lại với việc học chính quy"
+            },
+            {
+              "en": "rigorous university workload",
+              "vi": "khối lượng học đại học khắt khe"
+            },
+            {
+              "en": "resume higher education",
+              "vi": "tiếp tục quay lại học đại học"
+            },
+            {
+              "en": "unproductive period",
+              "vi": "giai đoạn kém hiệu quả"
+            },
+            {
+              "en": "drift into aimless routines",
+              "vi": "trôi vào thói quen sinh hoạt vô định"
+            },
+            {
+              "en": "stagnant year",
+              "vi": "một năm trì trệ"
+            },
+            {
+              "en": "foundational knowledge",
+              "vi": "kiến thức nền tảng"
+            },
+            {
+              "en": "overseas programs",
+              "vi": "chương trình ở nước ngoài"
+            },
+            {
+              "en": "afford daily expenses",
+              "vi": "chi trả chi phí hằng ngày"
+            },
+            {
+              "en": "graduate later than peers",
+              "vi": "tốt nghiệp muộn hơn bạn đồng trang lứa"
+            },
+            {
+              "en": "start careers later",
+              "vi": "bắt đầu sự nghiệp muộn hơn"
+            },
+            {
+              "en": "competitive fields",
+              "vi": "các lĩnh vực cạnh tranh"
+            },
+            {
+              "en": "feel left behind",
+              "vi": "cảm thấy bị tụt lại phía sau"
+            },
+            {
+              "en": "enter university on time",
+              "vi": "vào đại học đúng hạn"
+            },
+            {
+              "en": "doubt one's decision",
+              "vi": "nghi ngờ quyết định của bản thân"
+            },
+            {
+              "en": "substantial upfront funding",
+              "vi": "nguồn vốn ban đầu đáng kể"
+            },
+            {
+              "en": "drain tuition funds",
+              "vi": "làm cạn kiệt quỹ học phí"
+            },
+            {
+              "en": "defer university enrollment",
+              "vi": "bảo lưu / trì hoãn nhập học đại học"
+            },
+            {
+              "en": "delay career progression",
+              "vi": "làm chậm tiến trình thăng tiến sự nghiệp"
+            },
+            {
+              "en": "lengthy degree programs",
+              "vi": "chương trình đào tạo kéo dài"
+            },
+            {
+              "en": "social disconnect",
+              "vi": "sự tách biệt xã hội"
+            },
+            {
+              "en": "fear of missing out",
+              "vi": "nỗi sợ bị bỏ lỡ"
+            },
+            {
+              "en": "skeptical remarks from relatives",
+              "vi": "những lời nhận xét hoài nghi từ họ hàng"
+            }
+          ],
+          "sample_b1": "Nowadays, more and more high school graduates choose to <strong>take a gap year</strong> before entering university or starting full-time work. Although this trend brings many useful benefits, it also comes with certain disadvantages.\n\nOn the one hand, taking a gap year offers several clear advantages. Firstly, it helps students <strong>recover after stressful exams</strong> and begin higher education with fresh <strong>energy and motivation</strong>. Secondly, spending a year working, traveling, or volunteering allows young people to become more <strong>independent and mature</strong> while learning how to <strong>manage money and time</strong>. In addition, trying <strong>real work experience</strong> gives graduates time to think carefully and <strong>choose the right major</strong>, which helps them avoid dropping out later. Working during this year also lets students save money to <strong>pay for university tuition</strong> and reduce financial pressure on parents.\n\nOn the other hand, taking a year off also has noticeable drawbacks. First of all, a long break from classrooms can cause students to <strong>lose study habits</strong> and forget basic knowledge, making university classes harder to follow. Moreover, <strong>without a clear plan</strong>, young people can easily <strong>waste an entire year</strong> scrolling on social media and become unmotivated. Finally, traveling abroad can be very expensive, and students who defer university will <strong>graduate later than peers</strong>, which may make them <strong>feel left behind</strong>.\n\nIn conclusion, taking a gap year brings valuable personal growth, career clarity, and savings, yet it also risks academic loss, high costs, and wasted time. Therefore, students should only take a gap year if they prepare a clear and practical plan.",
+          "translation_b1": "Ngày nay, ngày càng nhiều học sinh tốt nghiệp THPT chọn <strong>nghỉ một năm (gap year)</strong> trước khi vào đại học hoặc bắt đầu đi làm toàn thời gian. Mặc dù xu hướng này mang lại nhiều lợi ích thiết thực, nó cũng đi kèm những bất lợi nhất định.\n\nMột mặt, nghỉ một năm mang lại nhiều thuận lợi rõ ràng. Thứ nhất, nó giúp học sinh <strong>phục hồi sau những kỳ thi căng thẳng</strong> và bước vào đại học với <strong>năng lượng và động lực</strong> mới. Thứ hai, dành một năm đi làm, du lịch hoặc tình nguyện cho phép người trẻ trở nên <strong>tự lập và trưởng thành</strong> hơn đồng thời học cách <strong>quản lý tiền bạc và thời gian</strong>. Bên cạnh đó, thử sức với <strong>kinh nghiệm làm việc thực tế</strong> cho người tốt nghiệp thời gian suy nghĩ kỹ và <strong>chọn đúng chuyên ngành</strong>, giúp tránh bỏ học giữa chừng. Đi làm trong năm này còn giúp học sinh tiết kiệm tiền <strong>chi trả học phí đại học</strong> và giảm áp lực tài chính cho cha mẹ.\n\nMặt khác, nghỉ một năm cũng có những hạn chế đáng lưu ý. Trước hết, rời xa lớp học lâu có thể khiến học sinh <strong>mất thói quen học tập</strong> và quên kiến thức cơ bản, khiến bài giảng đại học khó theo hơn. Hơn nữa, <strong>không có kế hoạch rõ ràng</strong>, người trẻ rất dễ <strong>lãng phí cả một năm</strong> lướt mạng xã hội và mất động lực. Cuối cùng, du lịch nước ngoài có thể rất tốn kém, và học sinh bảo lưu sẽ <strong>tốt nghiệp muộn hơn bạn đồng trang lứa</strong>, dễ khiến các em <strong>cảm thấy bị tụt lại phía sau</strong>.\n\nTóm lại, nghỉ một năm mang lại sự trưởng thành, định hướng nghề nghiệp rõ hơn và tiền tiết kiệm, nhưng cũng tiềm ẩn rủi ro mất đà học tập, tốn kém và lãng phí thời gian. Vì vậy, học sinh chỉ nên chọn gap year khi đã chuẩn bị một kế hoạch rõ ràng và thiết thực.",
+          "sample_b2": "In recent years, an increasing proportion of high school graduates have chosen to <strong>defer university enrollment</strong> for a year to travel, work, or volunteer before pursuing higher education or full-time employment. While a purposeful gap year can foster remarkable personal and academic benefits, it also poses notable academic, financial, and psychological drawbacks.\n\nOn the positive side, taking a <strong>well-structured gap year</strong> offers substantial advantages. First and foremost, it helps exhausted students <strong>prevent academic burnout</strong> after years of intense exams, enabling them to begin university with <strong>renewed focus and enthusiasm</strong>. Second, real-world experiences outside classrooms cultivate resilience, <strong>vital life skills</strong>, and <strong>space for self-discovery</strong>. By testing career paths through internships or employment, young adults can <strong>clarify long-term goals</strong> and significantly <strong>lower university drop-out rates</strong>. Furthermore, working during this year enables graduates to <strong>accumulate useful savings</strong> to ease rising tuition costs while building practical achievements that make them <strong>well-rounded candidates</strong>.\n\nConversely, taking a year off carries serious risks that must not be overlooked. The most pressing concern is <strong>losing academic momentum</strong>: after twelve months away from formal essays and exams, students may struggle to <strong>readjust to formal study</strong> and handle a <strong>rigorous university workload</strong>. Additionally, overseas travel or organized programs often demand <strong>substantial upfront funding</strong> that can drain tuition savings, whereas lacking clear objectives can turn the break into an <strong>unproductive period</strong> of aimless routines. Finally, graduating a year later can slightly <strong>delay career progression</strong> and trigger temporary <strong>social disconnect</strong> as peers move ahead on campus.\n\nIn conclusion, taking a gap year can either enrich a student's maturity, direction, and finances or disrupt study habits and waste valuable time. Ultimately, its success depends entirely on clear goal-setting, financial planning, and strong personal discipline.",
+          "translation_b2": "Trong những năm gần đây, tỷ lệ ngày càng tăng học sinh tốt nghiệp THPT chọn <strong>trì hoãn nhập học đại học</strong> một năm để du lịch, làm việc hoặc tình nguyện trước khi học lên cao hay đi làm toàn thời gian. Dù một năm gap year có mục đích có thể mang lại lợi ích vượt trội về phát triển cá nhân và học tập, nó cũng đặt ra những hạn chế đáng kể về học thuật, tài chính và tâm lý.\n\nỞ khía cạnh tích cực, một <strong>năm gap year có kế hoạch bài bản</strong> mang lại nhiều thuận lợi lớn. Trước hết, nó giúp học sinh mệt mỏi <strong>phòng tránh kiệt sức học đường</strong> sau nhiều năm thi cử căng thẳng, để bước vào đại học với <strong>sự tập trung và hào hứng mới mẻ</strong>. Thứ hai, trải nghiệm thực tế ngoài lớp học rèn luyện bản lĩnh, <strong>kỹ năng sống thiết yếu</strong> và tạo <strong>không gian khám phá bản thân</strong>. Bằng cách thử sức nghề nghiệp qua thực tập hay công việc, người trẻ có thể <strong>làm rõ mục tiêu dài hạn</strong> và <strong>giảm đáng kể tỷ lệ bỏ học đại học</strong>. Hơn nữa, đi làm trong năm này giúp người tốt nghiệp <strong>tích lũy khoản tiết kiệm hữu ích</strong> để giảm nhẹ học phí, đồng thời tạo thành tựu thực tiễn biến họ thành những <strong>ứng viên phát triển toàn diện</strong>.\n\nNgược lại, nghỉ một năm tiềm ẩn những rủi ro nghiêm trọng không thể bỏ qua. Mối lo cấp bách nhất là <strong>đánh mất đà học tập</strong>: sau mười hai tháng xa rời bài luận và thi cử, sinh viên có thể chật vật để <strong>thích nghi lại với việc học chính quy</strong> và đáp ứng <strong>khối lượng học đại học khắt khe</strong>. Thêm vào đó, du lịch nước ngoài hay chương trình trải nghiệm thường đòi hỏi <strong>nguồn vốn ban đầu đáng kể</strong> có thể làm cạn quỹ học phí, còn việc thiếu mục tiêu rõ ràng dễ biến kỳ nghỉ thành một <strong>giai đoạn kém hiệu quả</strong> với thói quen vô định. Cuối cùng, tốt nghiệp muộn một năm có thể hơi <strong>làm chậm tiến trình thăng tiến sự nghiệp</strong> và gây <strong>sự tách biệt xã hội</strong> tạm thời khi bạn bè bước vào đời sống đại học trước.\n\nTóm lại, nghỉ một năm có thể vừa bồi đắp sự trưởng thành, định hướng và tài chính, vừa có thể làm gián đoạn thói quen học tập và lãng phí thời gian. Sau cùng, thành công của nó phụ thuộc hoàn toàn vào việc đặt mục tiêu rõ ràng, lập kế hoạch tài chính và tính kỷ luật cá nhân vững vàng.",
+          "vocab_step": {
+            "theme": "Nghỉ một năm (Gap year) sau THPT (Taking a Gap Year)",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (50 mục) và B2 (68 mục), bao quát trọn vẹn 5 Lợi ích và 5 Bất lợi của việc nghỉ một năm trước đại học.",
+            "single_words": [
+              {
+                "word": "graduate",
+                "ipa": "/ˈɡrædʒ.u.ət/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "người tốt nghiệp; tốt nghiệp",
+                "family": "graduation (n)",
+                "example_en": "More high school graduates now consider taking a gap year.",
+                "example_vi": "Ngày càng nhiều học sinh tốt nghiệp THPT cân nhắc nghỉ một năm."
+              },
+              {
+                "word": "university",
+                "ipa": "/ˌjuː.nɪˈvɜː.sə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "trường đại học",
+                "family": "universities (n)",
+                "example_en": "Some students take a break before starting university.",
+                "example_vi": "Một số học sinh nghỉ một thời gian trước khi vào đại học."
+              },
+              {
+                "word": "independent",
+                "ipa": "/ˌɪn.dɪˈpen.dənt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "độc lập, tự lập",
+                "family": "independence (n)",
+                "example_en": "Living away from home helps young people become independent.",
+                "example_vi": "Sống xa nhà giúp người trẻ trở nên tự lập."
+              },
+              {
+                "word": "mature",
+                "ipa": "/məˈtʃʊər/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "trưởng thành",
+                "family": "maturity (n)",
+                "example_en": "Real-life work makes teenagers much more mature.",
+                "example_vi": "Công việc thực tế khiến thanh thiếu niên trưởng thành hơn nhiều."
+              },
+              {
+                "word": "major",
+                "ipa": "/ˈmeɪ.dʒər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "chuyên ngành học",
+                "family": "majors (n)",
+                "example_en": "A gap year helps learners choose the right university major.",
+                "example_vi": "Gap year giúp người học chọn đúng chuyên ngành đại học."
+              },
+              {
+                "word": "career",
+                "ipa": "/kəˈrɪər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự nghiệp, nghề nghiệp",
+                "family": "careers (n)",
+                "example_en": "Internships give young people clearer career goals.",
+                "example_vi": "Thực tập mang lại cho người trẻ mục tiêu nghề nghiệp rõ ràng hơn."
+              },
+              {
+                "word": "experience",
+                "ipa": "/ɪkˈspɪə.ri.əns/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "kinh nghiệm, trải nghiệm",
+                "family": "experienced (adj)",
+                "example_en": "Employers value candidates with practical work experience.",
+                "example_vi": "Nhà tuyển dụng đánh giá cao ứng viên có kinh nghiệm làm việc thực tế."
+              },
+              {
+                "word": "volunteer",
+                "ipa": "/ˌvɒl.ənˈtɪər/",
+                "pos": "v, n",
+                "level": "B1, B2",
+                "vi": "tình nguyện; tình nguyện viên",
+                "family": "volunteering (n)",
+                "example_en": "Many students volunteer for local charities during their gap year.",
+                "example_vi": "Nhiều học sinh làm tình nguyện cho tổ chức từ thiện trong năm gap year."
+              },
+              {
+                "word": "internship",
+                "ipa": "/ˈɪn.tɜːn.ʃɪp/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kỳ thực tập",
+                "family": "intern (n)",
+                "example_en": "Completing an internship builds confidence and workplace skills.",
+                "example_vi": "Hoàn thành kỳ thực tập giúp xây dựng sự tự tin và kỹ năng công sở."
+              },
+              {
+                "word": "tuition",
+                "ipa": "/tjuːˈɪʃ.ən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "học phí",
+                "family": "tuition fees (n)",
+                "example_en": "Working part-time helps students save for university tuition.",
+                "example_vi": "Làm thêm giúp học sinh tiết kiệm tiền học phí đại học."
+              },
+              {
+                "word": "saving",
+                "ipa": "/ˈseɪ.vɪŋ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tiền tiết kiệm",
+                "family": "save (v), savings (n)",
+                "example_en": "Personal savings reduce financial pressure on parents.",
+                "example_vi": "Tiền tiết kiệm cá nhân giảm áp lực tài chính cho cha mẹ."
+              },
+              {
+                "word": "motivation",
+                "ipa": "/ˌməʊ.tɪˈveɪ.ʃən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "động lực",
+                "family": "motivated (adj)",
+                "example_en": "Resting after hard exams brings back strong study motivation.",
+                "example_vi": "Nghỉ ngơi sau kỳ thi khó giúp lấy lại động lực học tập mạnh mẽ."
+              },
+              {
+                "word": "habit",
+                "ipa": "/ˈhæb.ɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thói quen",
+                "family": "habits (n)",
+                "example_en": "A long break may cause learners to lose good study habits.",
+                "example_vi": "Kỳ nghỉ dài có thể khiến người học mất thói quen học tốt."
+              },
+              {
+                "word": "delay",
+                "ipa": "/dɪˈleɪ/",
+                "pos": "v, n",
+                "level": "B1, B2",
+                "vi": "trì hoãn; sự chậm trễ",
+                "family": "delayed (adj)",
+                "example_en": "Taking a year off delays graduation by twelve months.",
+                "example_vi": "Nghỉ một năm làm trì hoãn việc tốt nghiệp mười hai tháng."
+              },
+              {
+                "word": "afford",
+                "ipa": "/əˈfɔːd/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "đủ khả năng chi trả",
+                "family": "affordable (adj)",
+                "example_en": "Not all families can afford an expensive overseas gap year.",
+                "example_vi": "Không phải gia đình nào cũng đủ tiền cho một năm gap year ở nước ngoài."
+              },
+              {
+                "word": "plan",
+                "ipa": "/plæn/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "kế hoạch; lên kế hoạch",
+                "family": "planning (n)",
+                "example_en": "Students need a clear plan so they do not waste their gap year.",
+                "example_vi": "Học sinh cần kế hoạch rõ ràng để không lãng phí năm gap year."
+              },
+              {
+                "word": "peer",
+                "ipa": "/pɪər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bạn đồng trang lứa",
+                "family": "peers (n)",
+                "example_en": "Some teenagers worry about falling behind their high school peers.",
+                "example_vi": "Một số thanh thiếu niên lo bị tụt lại so với bạn đồng trang lứa."
+              },
+              {
+                "word": "skill",
+                "ipa": "/skɪl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kỹ năng",
+                "family": "skilled (adj)",
+                "example_en": "Traveling abroad improves communication and problem-solving skills.",
+                "example_vi": "Du lịch nước ngoài cải thiện kỹ năng giao tiếp và giải quyết vấn đề."
+              },
+              {
+                "word": "burnout",
+                "ipa": "/ˈbɜːn.aʊt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự kiệt sức (tinh thần & thể chất)",
+                "family": "burnt out (adj)",
+                "example_en": "A gap year helps exhausted graduates prevent academic burnout.",
+                "example_vi": "Gap year giúp học sinh mệt mỏi phòng tránh kiệt sức học đường."
+              },
+              {
+                "word": "momentum",
+                "ipa": "/məˈmen.təm/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "đà, động lực duy trì",
+                "family": "academic momentum (n)",
+                "example_en": "Stepping away from school risks losing academic momentum.",
+                "example_vi": "Rời khỏi trường học có nguy cơ làm mất đà học tập."
+              },
+              {
+                "word": "defer",
+                "ipa": "/dɪˈfɜːr/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "hoãn lại (nhập học)",
+                "family": "deferral (n)",
+                "example_en": "Many universities allow admitted students to defer enrollment for one year.",
+                "example_vi": "Nhiều trường đại học cho phép thí sinh trúng tuyển bảo lưu một năm."
+              },
+              {
+                "word": "resilience",
+                "ipa": "/rɪˈzɪl.jəns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bản lĩnh, khả năng vượt khó",
+                "family": "resilient (adj)",
+                "example_en": "Facing real-world challenges builds lasting emotional resilience.",
+                "example_vi": "Đối mặt thử thách thực tế xây dựng bản lĩnh vững vàng."
+              },
+              {
+                "word": "purposeful",
+                "ipa": "/ˈpɜː.pəs.fəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có mục đích rõ ràng",
+                "family": "purpose (n)",
+                "example_en": "Universities look favorably on a purposeful, well-planned gap year.",
+                "example_vi": "Các trường đại học đánh giá cao một năm gap year có mục đích rõ ràng."
+              },
+              {
+                "word": "initiative",
+                "ipa": "/ɪˈnɪʃ.ə.tɪv/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tinh thần chủ động, sáng kiến",
+                "family": "initiate (v)",
+                "example_en": "Organizing a community project demonstrates strong personal initiative.",
+                "example_vi": "Tổ chức dự án cộng đồng thể hiện tinh thần chủ động cao."
+              },
+              {
+                "word": "adaptability",
+                "ipa": "/əˌdæp.təˈbɪl.ə.ti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng thích nghi",
+                "family": "adapt (v), adaptable (adj)",
+                "example_en": "Living in a new city greatly strengthens young people's adaptability.",
+                "example_vi": "Sống ở thành phố mới nâng cao mạnh mẽ khả năng thích nghi của người trẻ."
+              },
+              {
+                "word": "stagnant",
+                "ipa": "/ˈstæɡ.nənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "trì trệ, giậm chân tại chỗ",
+                "family": "stagnation (n)",
+                "example_en": "An unplanned gap year can easily turn into a stagnant period.",
+                "example_vi": "Một năm gap year không kế hoạch dễ trở thành giai đoạn trì trệ."
+              },
+              {
+                "word": "unproductive",
+                "ipa": "/ˌʌn.prəˈdʌk.tɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kém hiệu quả, không sinh lợi ích",
+                "family": "productivity (n)",
+                "example_en": "Without goals, students risk spending an unproductive year at home.",
+                "example_vi": "Thiếu mục tiêu, học sinh có nguy cơ trải qua một năm kém hiệu quả ở nhà."
+              },
+              {
+                "word": "readjust",
+                "ipa": "/ˌriː.əˈdʒʌst/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "thích nghi lại",
+                "family": "readjustment (n)",
+                "example_en": "Some students struggle to readjust to strict academic deadlines.",
+                "example_vi": "Một số sinh viên gặp khó khi thích nghi lại với hạn nộp bài khắt khe."
+              },
+              {
+                "word": "upfront",
+                "ipa": "/ˌʌpˈfrʌnt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "trả trước, ban đầu",
+                "family": "upfront funding (n)",
+                "example_en": "Overseas volunteer programs often require substantial upfront costs.",
+                "example_vi": "Các chương trình tình nguyện nước ngoài thường đòi hỏi chi phí ban đầu lớn."
+              },
+              {
+                "word": "enroll",
+                "ipa": "/ɪnˈrəʊl/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "đăng ký nhập học",
+                "family": "enrollment (n)",
+                "example_en": "Saving money before enrolling eases financial stress during university.",
+                "example_vi": "Tiết kiệm tiền trước khi nhập học giảm căng thẳng tài chính khi học đại học."
+              },
+              {
+                "word": "drop-out",
+                "ipa": "/ˈdrɒp.aʊt/",
+                "pos": "n, adj",
+                "level": "B2",
+                "vi": "việc bỏ học giữa chừng",
+                "family": "drop out (v)",
+                "example_en": "Clearer academic direction helps reduce university drop-out rates.",
+                "example_vi": "Định hướng học tập rõ hơn giúp giảm tỷ lệ bỏ học đại học."
+              },
+              {
+                "word": "skeptical",
+                "ipa": "/ˈskep.tɪ.kəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hoài nghi, nghi ngờ",
+                "family": "skepticism (n)",
+                "example_en": "Traditional parents are sometimes skeptical about taking a year off.",
+                "example_vi": "Cha mẹ truyền thống đôi khi hoài nghi về việc nghỉ một năm."
+              },
+              {
+                "word": "jarring",
+                "ipa": "/ˈdʒɑː.rɪŋ/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gây sốc, khó thích ứng đột ngột",
+                "family": "jar (v)",
+                "example_en": "Returning to intense exams after working can feel quite jarring.",
+                "example_vi": "Quay lại thi cử căng thẳng sau khi đi làm có thể gây cảm giác choáng ngợp."
+              },
+              {
+                "word": "well-rounded",
+                "ipa": "/ˌwelˈraʊn.dɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "phát triển toàn diện",
+                "family": "well-roundedness (n)",
+                "example_en": "Gap-year experiences shape more confident, well-rounded applicants.",
+                "example_vi": "Trải nghiệm gap year rèn luyện những ứng viên tự tin và toàn diện hơn."
+              },
+              {
+                "word": "accumulate",
+                "ipa": "/əˈkjuː.mjə.leɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tích lũy",
+                "family": "accumulation (n)",
+                "example_en": "Working for twelve months helps youths accumulate useful savings.",
+                "example_vi": "Đi làm mười hai tháng giúp người trẻ tích lũy khoản tiết kiệm hữu ích."
+              },
+              {
+                "word": "burdensome",
+                "ipa": "/ˈbɜː.dən.səm/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "nặng nề, tạo gánh nặng",
+                "family": "burden (n)",
+                "example_en": "An extra year of delay can feel burdensome in lengthy degrees.",
+                "example_vi": "Chậm thêm một năm có thể tạo gánh nặng trong các ngành học dài."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "take a gap year",
+                "level": "B1",
+                "vi": "nghỉ một năm (gap year)",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "More high school graduates choose to take a gap year today.",
+                "example_vi": "Ngày càng nhiều học sinh tốt nghiệp THPT chọn nghỉ một năm."
+              },
+              {
+                "phrase": "recover after stressful exams",
+                "level": "B1",
+                "vi": "phục hồi sau các kỳ thi căng thẳng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A gap year helps learners recover after stressful exams.",
+                "example_vi": "Gap year giúp người học phục hồi sau những kỳ thi căng thẳng."
+              },
+              {
+                "phrase": "energy and motivation",
+                "level": "B1",
+                "vi": "năng lượng và động lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Resting before college brings fresh energy and motivation.",
+                "example_vi": "Nghỉ ngơi trước đại học mang lại năng lượng và động lực mới."
+              },
+              {
+                "phrase": "become independent and mature",
+                "level": "B1",
+                "vi": "trở nên tự lập và trưởng thành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Living and working alone helps youths become independent and mature.",
+                "example_vi": "Sống và làm việc một mình giúp người trẻ tự lập và trưởng thành."
+              },
+              {
+                "phrase": "manage money and time",
+                "level": "B1",
+                "vi": "quản lý tiền bạc và thời gian",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Gap-year jobs teach students how to manage money and time.",
+                "example_vi": "Công việc trong năm gap year dạy học sinh quản lý tiền và thời gian."
+              },
+              {
+                "phrase": "choose the right major",
+                "level": "B1",
+                "vi": "chọn đúng chuyên ngành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Taking a break gives students time to choose the right major.",
+                "example_vi": "Nghỉ một năm cho học sinh thời gian chọn đúng chuyên ngành."
+              },
+              {
+                "phrase": "avoid dropping out",
+                "level": "B1",
+                "vi": "tránh bỏ học giữa chừng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Clearer career goals help university students avoid dropping out.",
+                "example_vi": "Mục tiêu nghề nghiệp rõ hơn giúp sinh viên tránh bỏ học giữa chừng."
+              },
+              {
+                "phrase": "real work experience",
+                "level": "B1",
+                "vi": "kinh nghiệm làm việc thực tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Gaining real work experience helps teenagers understand future jobs.",
+                "example_vi": "Có kinh nghiệm làm việc thực tế giúp thanh thiếu niên hiểu nghề tương lai."
+              },
+              {
+                "phrase": "prevent academic burnout",
+                "level": "B2",
+                "vi": "phòng tránh kiệt sức học đường",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Taking a purposeful break is an effective way to prevent academic burnout.",
+                "example_vi": "Một khoảng nghỉ có mục đích là cách hiệu quả để phòng tránh kiệt sức học đường."
+              },
+              {
+                "phrase": "renewed focus and enthusiasm",
+                "level": "B2",
+                "vi": "sự tập trung và hào hứng mới mẻ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Rested students enter university with renewed focus and enthusiasm.",
+                "example_vi": "Học sinh được nghỉ ngơi bước vào đại học với sự tập trung và hào hứng mới."
+              },
+              {
+                "phrase": "cultivate resilience",
+                "level": "B2",
+                "vi": "rèn luyện bản lĩnh vượt khó",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Navigating unfamiliar environments helps young people cultivate resilience.",
+                "example_vi": "Tự xoay xở trong môi trường xa lạ giúp người trẻ rèn bản lĩnh."
+              },
+              {
+                "phrase": "space for self-discovery",
+                "level": "B2",
+                "vi": "không gian khám phá bản thân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A gap year offers precious space for self-discovery before committing to a degree.",
+                "example_vi": "Gap year mang lại không gian khám phá bản thân quý giá trước khi chọn ngành."
+              },
+              {
+                "phrase": "clarify long-term goals",
+                "level": "B2",
+                "vi": "làm rõ mục tiêu dài hạn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Short-term internships allow graduates to clarify long-term career goals.",
+                "example_vi": "Các kỳ thực tập ngắn giúp học sinh làm rõ mục tiêu nghề nghiệp dài hạn."
+              },
+              {
+                "phrase": "lower university drop-out rates",
+                "level": "B2",
+                "vi": "giảm tỷ lệ bỏ học đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Students who plan a purposeful gap year show lower university drop-out rates.",
+                "example_vi": "Học sinh lên kế hoạch gap year bài bản có tỷ lệ bỏ học đại học thấp hơn."
+              },
+              {
+                "phrase": "heightened personal maturity",
+                "level": "B2",
+                "vi": "sự trưởng thành cá nhân vượt bậc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Heightened personal maturity makes adapting to campus life much smoother.",
+                "example_vi": "Sự trưởng thành vượt bậc giúp thích nghi đời sống đại học suôn sẻ hơn."
+              },
+              {
+                "phrase": "vital life skills",
+                "level": "B2",
+                "vi": "những kỹ năng sống thiết yếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Budgeting and independent living build vital life skills early.",
+                "example_vi": "Lập ngân sách và sống tự lập rèn luyện kỹ năng sống thiết yếu từ sớm."
+              },
+              {
+                "phrase": "impressive CV",
+                "level": "B1",
+                "vi": "hồ sơ cá nhân ấn tượng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Volunteering and part-time jobs build a much more impressive CV.",
+                "example_vi": "Tình nguyện và làm thêm giúp xây dựng hồ sơ cá nhân ấn tượng hơn."
+              },
+              {
+                "phrase": "do internships",
+                "level": "B1",
+                "vi": "tham gia thực tập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Some graduates do internships to learn about their dream industry.",
+                "example_vi": "Một số học sinh đi thực tập để tìm hiểu ngành nghề mơ ước."
+              },
+              {
+                "phrase": "learn a new language",
+                "level": "B1",
+                "vi": "học một ngoại ngữ mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Spending a year abroad is a great way to learn a new language.",
+                "example_vi": "Dành một năm ở nước ngoài là cách tuyệt vời để học ngoại ngữ mới."
+              },
+              {
+                "phrase": "practical experience",
+                "level": "B1",
+                "vi": "kinh nghiệm thực tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Companies prefer applicants with strong practical experience.",
+                "example_vi": "Các công ty ưu tiên ứng viên có kinh nghiệm thực tế vững vàng."
+              },
+              {
+                "phrase": "pay for university tuition",
+                "level": "B1",
+                "vi": "chi trả học phí đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Working full-time helps youths save to pay for university tuition.",
+                "example_vi": "Làm việc toàn thời gian giúp người trẻ tiết kiệm tiền đóng học phí."
+              },
+              {
+                "phrase": "reduce financial pressure",
+                "level": "B1",
+                "vi": "giảm áp lực tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Personal savings reduce financial pressure on working parents.",
+                "example_vi": "Tiền tiết kiệm riêng giúp giảm áp lực tài chính cho cha mẹ."
+              },
+              {
+                "phrase": "cover living costs",
+                "level": "B1",
+                "vi": "trang trải chi phí sinh hoạt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Students use gap-year earnings to cover living costs in big cities.",
+                "example_vi": "Sinh viên dùng thu nhập năm gap year để trang trải sinh hoạt phí ở thành phố."
+              },
+              {
+                "phrase": "study with less worry",
+                "level": "B1",
+                "vi": "học tập yên tâm hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Having savings allows undergraduates to study with less worry.",
+                "example_vi": "Có tiền tiết kiệm giúp sinh viên học tập yên tâm hơn."
+              },
+              {
+                "phrase": "well-structured gap year",
+                "level": "B2",
+                "vi": "năm gap year có kế hoạch bài bản",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Admissions officers strongly value a well-structured gap year.",
+                "example_vi": "Hội đồng tuyển sinh đánh giá rất cao một năm gap year có kế hoạch bài bản."
+              },
+              {
+                "phrase": "demonstrate personal initiative",
+                "level": "B2",
+                "vi": "thể hiện tinh thần chủ động cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Leading community work demonstrates personal initiative and commitment.",
+                "example_vi": "Dẫn dắt dự án cộng đồng thể hiện tinh thần chủ động và cam kết."
+              },
+              {
+                "phrase": "well-rounded candidates",
+                "level": "B2",
+                "vi": "ứng viên phát triển toàn diện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Practical achievements turn students into well-rounded candidates.",
+                "example_vi": "Thành tựu thực tiễn biến học sinh thành những ứng viên phát triển toàn diện."
+              },
+              {
+                "phrase": "accumulate useful savings",
+                "level": "B2",
+                "vi": "tích lũy khoản tiết kiệm hữu ích",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Working for a year enables graduates to accumulate useful savings.",
+                "example_vi": "Đi làm một năm giúp người tốt nghiệp tích lũy khoản tiết kiệm hữu ích."
+              },
+              {
+                "phrase": "ease higher education expenses",
+                "level": "B2",
+                "vi": "giảm nhẹ chi phí giáo dục đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Self-earned income helps ease rising higher education expenses.",
+                "example_vi": "Thu nhập tự kiếm giúp giảm nhẹ chi phí đại học ngày càng tăng."
+              },
+              {
+                "phrase": "avoid heavy student loans",
+                "level": "B2",
+                "vi": "tránh nợ vay sinh viên nặng nề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Earning money before enrolling helps learners avoid heavy student loans.",
+                "example_vi": "Kiếm tiền trước khi nhập học giúp người học tránh gánh nợ sinh viên."
+              },
+              {
+                "phrase": "devote full focus to coursework",
+                "level": "B2",
+                "vi": "dành trọn tâm trí cho việc học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Financial security lets students devote full focus to coursework.",
+                "example_vi": "Sự vững vàng tài chính giúp sinh viên tập trung toàn lực vào bài vở."
+              },
+              {
+                "phrase": "workplace adaptability",
+                "level": "B2",
+                "vi": "khả năng thích nghi nơi làm việc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Early employment develops valuable communication and workplace adaptability.",
+                "example_vi": "Đi làm sớm phát triển khả năng giao tiếp và thích nghi nơi công sở."
+              },
+              {
+                "phrase": "lose study habits",
+                "level": "B1",
+                "vi": "đánh mất thói quen học tập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A twelve-month break can make students lose good study habits.",
+                "example_vi": "Kỳ nghỉ mười hai tháng có thể khiến học sinh mất thói quen học tốt."
+              },
+              {
+                "phrase": "forget basic knowledge",
+                "level": "B1",
+                "vi": "quên kiến thức cơ bản",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "After a year off, some learners forget basic math or science knowledge.",
+                "example_vi": "Sau một năm nghỉ, một số người học quên kiến thức toán hoặc khoa học cơ bản."
+              },
+              {
+                "phrase": "harder to follow classes",
+                "level": "B1",
+                "vi": "khó theo kịp bài giảng hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Returning students sometimes find university classes harder to follow.",
+                "example_vi": "Sinh viên quay lại trường đôi khi thấy bài giảng đại học khó theo hơn."
+              },
+              {
+                "phrase": "without a clear plan",
+                "level": "B1",
+                "vi": "không có kế hoạch rõ ràng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Without a clear plan, a gap year quickly turns into wasted time.",
+                "example_vi": "Không có kế hoạch rõ ràng, gap year nhanh chóng thành thời gian lãng phí."
+              },
+              {
+                "phrase": "waste an entire year",
+                "level": "B1",
+                "vi": "lãng phí cả một năm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Poor discipline can cause teenagers to waste an entire year at home.",
+                "example_vi": "Thiếu kỷ luật có thể khiến thanh thiếu niên lãng phí cả năm ở nhà."
+              },
+              {
+                "phrase": "scroll on social media",
+                "level": "B1",
+                "vi": "lướt mạng xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Some unplanned gap-year students spend hours scrolling on social media.",
+                "example_vi": "Một số bạn không có kế hoạch dành nhiều giờ lướt mạng xã hội."
+              },
+              {
+                "phrase": "become lazy and unmotivated",
+                "level": "B1",
+                "vi": "trở nên lười biếng và mất động lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Doing nothing for months makes young people lazy and unmotivated.",
+                "example_vi": "Không làm gì suốt nhiều tháng khiến người trẻ lười biếng và mất động lực."
+              },
+              {
+                "phrase": "struggle to return to school",
+                "level": "B1",
+                "vi": "chật vật khi quay lại trường",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Some workers enjoy earning money and struggle to return to school.",
+                "example_vi": "Một số bạn quen kiếm tiền và chật vật khi quay lại việc học."
+              },
+              {
+                "phrase": "lose academic momentum",
+                "level": "B2",
+                "vi": "đánh mất đà học tập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "The biggest academic risk of a gap year is losing academic momentum.",
+                "example_vi": "Rủi ro học thuật lớn nhất của gap year là đánh mất đà học tập."
+              },
+              {
+                "phrase": "readjust to formal study",
+                "level": "B2",
+                "vi": "thích nghi lại với việc học chính quy",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many learners find it jarring to readjust to formal study and strict exams.",
+                "example_vi": "Nhiều người học thấy choáng ngợp khi thích nghi lại với học chính quy và thi cử."
+              },
+              {
+                "phrase": "rigorous university workload",
+                "level": "B2",
+                "vi": "khối lượng học đại học khắt khe",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Handling a rigorous university workload feels tougher after a long break.",
+                "example_vi": "Xử lý khối lượng học đại học khắt khe khó hơn sau kỳ nghỉ dài."
+              },
+              {
+                "phrase": "resume higher education",
+                "level": "B2",
+                "vi": "tiếp tục quay lại học đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A small number of gap-year workers decide not to resume higher education.",
+                "example_vi": "Một số nhỏ người đi làm năm gap year quyết định không học đại học nữa."
+              },
+              {
+                "phrase": "unproductive period",
+                "level": "B2",
+                "vi": "giai đoạn kém hiệu quả",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Lack of self-discipline turns a gap year into an unproductive period.",
+                "example_vi": "Thiếu kỷ luật biến năm gap year thành giai đoạn kém hiệu quả."
+              },
+              {
+                "phrase": "drift into aimless routines",
+                "level": "B2",
+                "vi": "trôi vào thói quen sinh hoạt vô định",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Without structure, graduates easily drift into aimless daily routines.",
+                "example_vi": "Thiếu khung thời gian, học sinh dễ trôi vào sinh hoạt vô định."
+              },
+              {
+                "phrase": "stagnant year",
+                "level": "B2",
+                "vi": "một năm trì trệ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A stagnant year adds no tangible value to future career prospects.",
+                "example_vi": "Một năm trì trệ không mang lại giá trị thực tế cho triển vọng nghề nghiệp."
+              },
+              {
+                "phrase": "foundational knowledge",
+                "level": "B2",
+                "vi": "kiến thức nền tảng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Long breaks can weaken retention of essential foundational knowledge.",
+                "example_vi": "Nghỉ dài ngày có thể làm suy giảm khả năng ghi nhớ kiến thức nền tảng."
+              },
+              {
+                "phrase": "overseas programs",
+                "level": "B1",
+                "vi": "chương trình ở nước ngoài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Joining overseas programs during a gap year costs a lot of money.",
+                "example_vi": "Tham gia chương trình nước ngoài trong năm gap year tốn rất nhiều tiền."
+              },
+              {
+                "phrase": "afford daily expenses",
+                "level": "B1",
+                "vi": "chi trả chi phí hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Low-income families struggle to afford daily expenses for travel.",
+                "example_vi": "Gia đình thu nhập thấp chật vật chi trả chi phí sinh hoạt khi du lịch."
+              },
+              {
+                "phrase": "graduate later than peers",
+                "level": "B1",
+                "vi": "tốt nghiệp muộn hơn bạn đồng trang lứa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Gap-year students graduate later than their high school peers.",
+                "example_vi": "Học sinh nghỉ gap year tốt nghiệp muộn hơn bạn cùng khóa THPT."
+              },
+              {
+                "phrase": "start careers later",
+                "level": "B1",
+                "vi": "bắt đầu sự nghiệp muộn hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Deferring university means young adults start their careers later.",
+                "example_vi": "Hoãn vào đại học nghĩa là người trẻ bắt đầu sự nghiệp muộn hơn."
+              },
+              {
+                "phrase": "competitive fields",
+                "level": "B1",
+                "vi": "các lĩnh vực cạnh tranh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "In competitive fields, entering the job market earlier can be helpful.",
+                "example_vi": "Trong lĩnh vực cạnh tranh, gia nhập thị trường sớm hơn có thể có lợi."
+              },
+              {
+                "phrase": "feel left behind",
+                "level": "B1",
+                "vi": "cảm thấy bị tụt lại phía sau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Watching friends enter college makes some teenagers feel left behind.",
+                "example_vi": "Nhìn bạn bè vào đại học khiến một số bạn trẻ thấy bị tụt lại."
+              },
+              {
+                "phrase": "enter university on time",
+                "level": "B1",
+                "vi": "vào đại học đúng hạn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many parents prefer their children to enter university on time.",
+                "example_vi": "Nhiều cha mẹ muốn con mình vào đại học đúng hạn."
+              },
+              {
+                "phrase": "doubt one's decision",
+                "level": "B1",
+                "vi": "nghi ngờ quyết định của bản thân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Comparison with peers can make gap-year youths doubt their decision.",
+                "example_vi": "So sánh với bạn bè có thể khiến người chọn gap year nghi ngờ quyết định."
+              },
+              {
+                "phrase": "substantial upfront funding",
+                "level": "B2",
+                "vi": "nguồn vốn ban đầu đáng kể",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "International gap-year trips often demand substantial upfront funding.",
+                "example_vi": "Các chuyến gap year quốc tế thường đòi hỏi nguồn vốn ban đầu lớn."
+              },
+              {
+                "phrase": "drain tuition funds",
+                "level": "B2",
+                "vi": "làm cạn kiệt quỹ học phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Poorly budgeted travel can drain funds reserved for university tuition.",
+                "example_vi": "Du lịch lập ngân sách kém có thể làm cạn quỹ dành cho học phí đại học."
+              },
+              {
+                "phrase": "defer university enrollment",
+                "level": "B2",
+                "vi": "bảo lưu / trì hoãn nhập học đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Choosing to defer university enrollment postpones full-time earnings.",
+                "example_vi": "Quyết định bảo lưu nhập học làm chậm thời điểm có thu nhập toàn thời gian."
+              },
+              {
+                "phrase": "delay career progression",
+                "level": "B2",
+                "vi": "làm chậm tiến trình thăng tiến sự nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "In fast-moving sectors, a year off may slightly delay career progression.",
+                "example_vi": "Trong ngành biến động nhanh, nghỉ một năm có thể hơi làm chậm thăng tiến."
+              },
+              {
+                "phrase": "lengthy degree programs",
+                "level": "B2",
+                "vi": "chương trình đào tạo kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "An extra year feels burdensome for lengthy degree programs like medicine.",
+                "example_vi": "Chậm thêm một năm tạo áp lực với các ngành học dài như y khoa."
+              },
+              {
+                "phrase": "social disconnect",
+                "level": "B2",
+                "vi": "sự tách biệt xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Seeing friends bond on campus can trigger temporary social disconnect.",
+                "example_vi": "Thấy bạn bè gắn kết ở đại học có thể gây cảm giác tách biệt tạm thời."
+              },
+              {
+                "phrase": "fear of missing out",
+                "level": "B2",
+                "vi": "nỗi sợ bị bỏ lỡ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Social media posts of college life often intensify fear of missing out.",
+                "example_vi": "Bài đăng đời sống đại học trên mạng thường làm tăng nỗi sợ bị bỏ lỡ."
+              },
+              {
+                "phrase": "skeptical remarks from relatives",
+                "level": "B2",
+                "vi": "những lời nhận xét hoài nghi từ họ hàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Skeptical remarks from relatives can undermine a student's confidence.",
+                "example_vi": "Lời nhận xét hoài nghi từ họ hàng có thể làm giảm sự tự tin của học sinh."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t73_g1",
+                "name": "Nhóm 1: Phục hồi Tinh thần, Tự lập & Định hướng (Rest, Growth & Clarity)",
+                "icon": "🌱",
+                "badge": "Lợi ích 01–03",
+                "items": [
+                  {
+                    "en": "take a gap year",
+                    "phrase": "take a gap year",
+                    "vi": "nghỉ một năm (gap year)",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "More high school graduates choose to take a gap year today.",
+                    "example_vi": "Ngày càng nhiều học sinh tốt nghiệp THPT chọn nghỉ một năm."
+                  },
+                  {
+                    "en": "recover after stressful exams",
+                    "phrase": "recover after stressful exams",
+                    "vi": "phục hồi sau các kỳ thi căng thẳng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A gap year helps learners recover after stressful exams.",
+                    "example_vi": "Gap year giúp người học phục hồi sau những kỳ thi căng thẳng."
+                  },
+                  {
+                    "en": "energy and motivation",
+                    "phrase": "energy and motivation",
+                    "vi": "năng lượng và động lực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Resting before college brings fresh energy and motivation.",
+                    "example_vi": "Nghỉ ngơi trước đại học mang lại năng lượng và động lực mới."
+                  },
+                  {
+                    "en": "become independent and mature",
+                    "phrase": "become independent and mature",
+                    "vi": "trở nên tự lập và trưởng thành",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Living and working alone helps youths become independent and mature.",
+                    "example_vi": "Sống và làm việc một mình giúp người trẻ tự lập và trưởng thành."
+                  },
+                  {
+                    "en": "manage money and time",
+                    "phrase": "manage money and time",
+                    "vi": "quản lý tiền bạc và thời gian",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Gap-year jobs teach students how to manage money and time.",
+                    "example_vi": "Công việc trong năm gap year dạy học sinh quản lý tiền và thời gian."
+                  },
+                  {
+                    "en": "choose the right major",
+                    "phrase": "choose the right major",
+                    "vi": "chọn đúng chuyên ngành",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Taking a break gives students time to choose the right major.",
+                    "example_vi": "Nghỉ một năm cho học sinh thời gian chọn đúng chuyên ngành."
+                  },
+                  {
+                    "en": "avoid dropping out",
+                    "phrase": "avoid dropping out",
+                    "vi": "tránh bỏ học giữa chừng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Clearer career goals help university students avoid dropping out.",
+                    "example_vi": "Mục tiêu nghề nghiệp rõ hơn giúp sinh viên tránh bỏ học giữa chừng."
+                  },
+                  {
+                    "en": "real work experience",
+                    "phrase": "real work experience",
+                    "vi": "kinh nghiệm làm việc thực tế",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Gaining real work experience helps teenagers understand future jobs.",
+                    "example_vi": "Có kinh nghiệm làm việc thực tế giúp thanh thiếu niên hiểu nghề tương lai."
+                  },
+                  {
+                    "en": "prevent academic burnout",
+                    "phrase": "prevent academic burnout",
+                    "vi": "phòng tránh kiệt sức học đường",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Taking a purposeful break is an effective way to prevent academic burnout.",
+                    "example_vi": "Một khoảng nghỉ có mục đích là cách hiệu quả để phòng tránh kiệt sức học đường."
+                  },
+                  {
+                    "en": "renewed focus and enthusiasm",
+                    "phrase": "renewed focus and enthusiasm",
+                    "vi": "sự tập trung và hào hứng mới mẻ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Rested students enter university with renewed focus and enthusiasm.",
+                    "example_vi": "Học sinh được nghỉ ngơi bước vào đại học với sự tập trung và hào hứng mới."
+                  },
+                  {
+                    "en": "cultivate resilience",
+                    "phrase": "cultivate resilience",
+                    "vi": "rèn luyện bản lĩnh vượt khó",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Navigating unfamiliar environments helps young people cultivate resilience.",
+                    "example_vi": "Tự xoay xở trong môi trường xa lạ giúp người trẻ rèn bản lĩnh."
+                  },
+                  {
+                    "en": "space for self-discovery",
+                    "phrase": "space for self-discovery",
+                    "vi": "không gian khám phá bản thân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A gap year offers precious space for self-discovery before committing to a degree.",
+                    "example_vi": "Gap year mang lại không gian khám phá bản thân quý giá trước khi chọn ngành."
+                  },
+                  {
+                    "en": "clarify long-term goals",
+                    "phrase": "clarify long-term goals",
+                    "vi": "làm rõ mục tiêu dài hạn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Short-term internships allow graduates to clarify long-term career goals.",
+                    "example_vi": "Các kỳ thực tập ngắn giúp học sinh làm rõ mục tiêu nghề nghiệp dài hạn."
+                  },
+                  {
+                    "en": "lower university drop-out rates",
+                    "phrase": "lower university drop-out rates",
+                    "vi": "giảm tỷ lệ bỏ học đại học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Students who plan a purposeful gap year show lower university drop-out rates.",
+                    "example_vi": "Học sinh lên kế hoạch gap year bài bản có tỷ lệ bỏ học đại học thấp hơn."
+                  },
+                  {
+                    "en": "heightened personal maturity",
+                    "phrase": "heightened personal maturity",
+                    "vi": "sự trưởng thành cá nhân vượt bậc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Heightened personal maturity makes adapting to campus life much smoother.",
+                    "example_vi": "Sự trưởng thành vượt bậc giúp thích nghi đời sống đại học suôn sẻ hơn."
+                  },
+                  {
+                    "en": "vital life skills",
+                    "phrase": "vital life skills",
+                    "vi": "những kỹ năng sống thiết yếu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Budgeting and independent living build vital life skills early.",
+                    "example_vi": "Lập ngân sách và sống tự lập rèn luyện kỹ năng sống thiết yếu từ sớm."
+                  }
+                ]
+              },
+              {
+                "id": "t73_g2",
+                "name": "Nhóm 2: Hồ sơ Cá nhân & Tích lũy Tài chính (CV Boost & Financial Savings)",
+                "icon": "💼",
+                "badge": "Lợi ích 04–05",
+                "items": [
+                  {
+                    "en": "impressive CV",
+                    "phrase": "impressive CV",
+                    "vi": "hồ sơ cá nhân ấn tượng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Volunteering and part-time jobs build a much more impressive CV.",
+                    "example_vi": "Tình nguyện và làm thêm giúp xây dựng hồ sơ cá nhân ấn tượng hơn."
+                  },
+                  {
+                    "en": "do internships",
+                    "phrase": "do internships",
+                    "vi": "tham gia thực tập",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Some graduates do internships to learn about their dream industry.",
+                    "example_vi": "Một số học sinh đi thực tập để tìm hiểu ngành nghề mơ ước."
+                  },
+                  {
+                    "en": "learn a new language",
+                    "phrase": "learn a new language",
+                    "vi": "học một ngoại ngữ mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Spending a year abroad is a great way to learn a new language.",
+                    "example_vi": "Dành một năm ở nước ngoài là cách tuyệt vời để học ngoại ngữ mới."
+                  },
+                  {
+                    "en": "practical experience",
+                    "phrase": "practical experience",
+                    "vi": "kinh nghiệm thực tế",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Companies prefer applicants with strong practical experience.",
+                    "example_vi": "Các công ty ưu tiên ứng viên có kinh nghiệm thực tế vững vàng."
+                  },
+                  {
+                    "en": "pay for university tuition",
+                    "phrase": "pay for university tuition",
+                    "vi": "chi trả học phí đại học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working full-time helps youths save to pay for university tuition.",
+                    "example_vi": "Làm việc toàn thời gian giúp người trẻ tiết kiệm tiền đóng học phí."
+                  },
+                  {
+                    "en": "reduce financial pressure",
+                    "phrase": "reduce financial pressure",
+                    "vi": "giảm áp lực tài chính",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Personal savings reduce financial pressure on working parents.",
+                    "example_vi": "Tiền tiết kiệm riêng giúp giảm áp lực tài chính cho cha mẹ."
+                  },
+                  {
+                    "en": "cover living costs",
+                    "phrase": "cover living costs",
+                    "vi": "trang trải chi phí sinh hoạt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Students use gap-year earnings to cover living costs in big cities.",
+                    "example_vi": "Sinh viên dùng thu nhập năm gap year để trang trải sinh hoạt phí ở thành phố."
+                  },
+                  {
+                    "en": "study with less worry",
+                    "phrase": "study with less worry",
+                    "vi": "học tập yên tâm hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having savings allows undergraduates to study with less worry.",
+                    "example_vi": "Có tiền tiết kiệm giúp sinh viên học tập yên tâm hơn."
+                  },
+                  {
+                    "en": "well-structured gap year",
+                    "phrase": "well-structured gap year",
+                    "vi": "năm gap year có kế hoạch bài bản",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Admissions officers strongly value a well-structured gap year.",
+                    "example_vi": "Hội đồng tuyển sinh đánh giá rất cao một năm gap year có kế hoạch bài bản."
+                  },
+                  {
+                    "en": "demonstrate personal initiative",
+                    "phrase": "demonstrate personal initiative",
+                    "vi": "thể hiện tinh thần chủ động cá nhân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Leading community work demonstrates personal initiative and commitment.",
+                    "example_vi": "Dẫn dắt dự án cộng đồng thể hiện tinh thần chủ động và cam kết."
+                  },
+                  {
+                    "en": "well-rounded candidates",
+                    "phrase": "well-rounded candidates",
+                    "vi": "ứng viên phát triển toàn diện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Practical achievements turn students into well-rounded candidates.",
+                    "example_vi": "Thành tựu thực tiễn biến học sinh thành những ứng viên phát triển toàn diện."
+                  },
+                  {
+                    "en": "accumulate useful savings",
+                    "phrase": "accumulate useful savings",
+                    "vi": "tích lũy khoản tiết kiệm hữu ích",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working for a year enables graduates to accumulate useful savings.",
+                    "example_vi": "Đi làm một năm giúp người tốt nghiệp tích lũy khoản tiết kiệm hữu ích."
+                  },
+                  {
+                    "en": "ease higher education expenses",
+                    "phrase": "ease higher education expenses",
+                    "vi": "giảm nhẹ chi phí giáo dục đại học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Self-earned income helps ease rising higher education expenses.",
+                    "example_vi": "Thu nhập tự kiếm giúp giảm nhẹ chi phí đại học ngày càng tăng."
+                  },
+                  {
+                    "en": "avoid heavy student loans",
+                    "phrase": "avoid heavy student loans",
+                    "vi": "tránh nợ vay sinh viên nặng nề",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Earning money before enrolling helps learners avoid heavy student loans.",
+                    "example_vi": "Kiếm tiền trước khi nhập học giúp người học tránh gánh nợ sinh viên."
+                  },
+                  {
+                    "en": "devote full focus to coursework",
+                    "phrase": "devote full focus to coursework",
+                    "vi": "dành trọn tâm trí cho việc học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Financial security lets students devote full focus to coursework.",
+                    "example_vi": "Sự vững vàng tài chính giúp sinh viên tập trung toàn lực vào bài vở."
+                  },
+                  {
+                    "en": "workplace adaptability",
+                    "phrase": "workplace adaptability",
+                    "vi": "khả năng thích nghi nơi làm việc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Early employment develops valuable communication and workplace adaptability.",
+                    "example_vi": "Đi làm sớm phát triển khả năng giao tiếp và thích nghi nơi công sở."
+                  }
+                ]
+              },
+              {
+                "id": "t73_g3",
+                "name": "Nhóm 3: Mất đà Học tập & Rủi ro Lãng phí (Academic Loss & Unproductivity)",
+                "icon": "📚",
+                "badge": "Bất lợi 01 & 03",
+                "items": [
+                  {
+                    "en": "lose study habits",
+                    "phrase": "lose study habits",
+                    "vi": "đánh mất thói quen học tập",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A twelve-month break can make students lose good study habits.",
+                    "example_vi": "Kỳ nghỉ mười hai tháng có thể khiến học sinh mất thói quen học tốt."
+                  },
+                  {
+                    "en": "forget basic knowledge",
+                    "phrase": "forget basic knowledge",
+                    "vi": "quên kiến thức cơ bản",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "After a year off, some learners forget basic math or science knowledge.",
+                    "example_vi": "Sau một năm nghỉ, một số người học quên kiến thức toán hoặc khoa học cơ bản."
+                  },
+                  {
+                    "en": "harder to follow classes",
+                    "phrase": "harder to follow classes",
+                    "vi": "khó theo kịp bài giảng hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Returning students sometimes find university classes harder to follow.",
+                    "example_vi": "Sinh viên quay lại trường đôi khi thấy bài giảng đại học khó theo hơn."
+                  },
+                  {
+                    "en": "without a clear plan",
+                    "phrase": "without a clear plan",
+                    "vi": "không có kế hoạch rõ ràng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Without a clear plan, a gap year quickly turns into wasted time.",
+                    "example_vi": "Không có kế hoạch rõ ràng, gap year nhanh chóng thành thời gian lãng phí."
+                  },
+                  {
+                    "en": "waste an entire year",
+                    "phrase": "waste an entire year",
+                    "vi": "lãng phí cả một năm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Poor discipline can cause teenagers to waste an entire year at home.",
+                    "example_vi": "Thiếu kỷ luật có thể khiến thanh thiếu niên lãng phí cả năm ở nhà."
+                  },
+                  {
+                    "en": "scroll on social media",
+                    "phrase": "scroll on social media",
+                    "vi": "lướt mạng xã hội",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Some unplanned gap-year students spend hours scrolling on social media.",
+                    "example_vi": "Một số bạn không có kế hoạch dành nhiều giờ lướt mạng xã hội."
+                  },
+                  {
+                    "en": "become lazy and unmotivated",
+                    "phrase": "become lazy and unmotivated",
+                    "vi": "trở nên lười biếng và mất động lực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Doing nothing for months makes young people lazy and unmotivated.",
+                    "example_vi": "Không làm gì suốt nhiều tháng khiến người trẻ lười biếng và mất động lực."
+                  },
+                  {
+                    "en": "struggle to return to school",
+                    "phrase": "struggle to return to school",
+                    "vi": "chật vật khi quay lại trường",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Some workers enjoy earning money and struggle to return to school.",
+                    "example_vi": "Một số bạn quen kiếm tiền và chật vật khi quay lại việc học."
+                  },
+                  {
+                    "en": "lose academic momentum",
+                    "phrase": "lose academic momentum",
+                    "vi": "đánh mất đà học tập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "The biggest academic risk of a gap year is losing academic momentum.",
+                    "example_vi": "Rủi ro học thuật lớn nhất của gap year là đánh mất đà học tập."
+                  },
+                  {
+                    "en": "readjust to formal study",
+                    "phrase": "readjust to formal study",
+                    "vi": "thích nghi lại với việc học chính quy",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many learners find it jarring to readjust to formal study and strict exams.",
+                    "example_vi": "Nhiều người học thấy choáng ngợp khi thích nghi lại với học chính quy và thi cử."
+                  },
+                  {
+                    "en": "rigorous university workload",
+                    "phrase": "rigorous university workload",
+                    "vi": "khối lượng học đại học khắt khe",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Handling a rigorous university workload feels tougher after a long break.",
+                    "example_vi": "Xử lý khối lượng học đại học khắt khe khó hơn sau kỳ nghỉ dài."
+                  },
+                  {
+                    "en": "resume higher education",
+                    "phrase": "resume higher education",
+                    "vi": "tiếp tục quay lại học đại học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A small number of gap-year workers decide not to resume higher education.",
+                    "example_vi": "Một số nhỏ người đi làm năm gap year quyết định không học đại học nữa."
+                  },
+                  {
+                    "en": "unproductive period",
+                    "phrase": "unproductive period",
+                    "vi": "giai đoạn kém hiệu quả",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Lack of self-discipline turns a gap year into an unproductive period.",
+                    "example_vi": "Thiếu kỷ luật biến năm gap year thành giai đoạn kém hiệu quả."
+                  },
+                  {
+                    "en": "drift into aimless routines",
+                    "phrase": "drift into aimless routines",
+                    "vi": "trôi vào thói quen sinh hoạt vô định",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Without structure, graduates easily drift into aimless daily routines.",
+                    "example_vi": "Thiếu khung thời gian, học sinh dễ trôi vào sinh hoạt vô định."
+                  },
+                  {
+                    "en": "stagnant year",
+                    "phrase": "stagnant year",
+                    "vi": "một năm trì trệ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A stagnant year adds no tangible value to future career prospects.",
+                    "example_vi": "Một năm trì trệ không mang lại giá trị thực tế cho triển vọng nghề nghiệp."
+                  },
+                  {
+                    "en": "foundational knowledge",
+                    "phrase": "foundational knowledge",
+                    "vi": "kiến thức nền tảng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Long breaks can weaken retention of essential foundational knowledge.",
+                    "example_vi": "Nghỉ dài ngày có thể làm suy giảm khả năng ghi nhớ kiến thức nền tảng."
+                  }
+                ]
+              },
+              {
+                "id": "t73_g4",
+                "name": "Nhóm 4: Chi phí, Chậm lộ trình & Áp lực Bạn bè (Costs, Delay & Peer Pressure)",
+                "icon": "⏳",
+                "badge": "Bất lợi 02, 04–05",
+                "items": [
+                  {
+                    "en": "overseas programs",
+                    "phrase": "overseas programs",
+                    "vi": "chương trình ở nước ngoài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Joining overseas programs during a gap year costs a lot of money.",
+                    "example_vi": "Tham gia chương trình nước ngoài trong năm gap year tốn rất nhiều tiền."
+                  },
+                  {
+                    "en": "afford daily expenses",
+                    "phrase": "afford daily expenses",
+                    "vi": "chi trả chi phí hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Low-income families struggle to afford daily expenses for travel.",
+                    "example_vi": "Gia đình thu nhập thấp chật vật chi trả chi phí sinh hoạt khi du lịch."
+                  },
+                  {
+                    "en": "graduate later than peers",
+                    "phrase": "graduate later than peers",
+                    "vi": "tốt nghiệp muộn hơn bạn đồng trang lứa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Gap-year students graduate later than their high school peers.",
+                    "example_vi": "Học sinh nghỉ gap year tốt nghiệp muộn hơn bạn cùng khóa THPT."
+                  },
+                  {
+                    "en": "start careers later",
+                    "phrase": "start careers later",
+                    "vi": "bắt đầu sự nghiệp muộn hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Deferring university means young adults start their careers later.",
+                    "example_vi": "Hoãn vào đại học nghĩa là người trẻ bắt đầu sự nghiệp muộn hơn."
+                  },
+                  {
+                    "en": "competitive fields",
+                    "phrase": "competitive fields",
+                    "vi": "các lĩnh vực cạnh tranh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "In competitive fields, entering the job market earlier can be helpful.",
+                    "example_vi": "Trong lĩnh vực cạnh tranh, gia nhập thị trường sớm hơn có thể có lợi."
+                  },
+                  {
+                    "en": "feel left behind",
+                    "phrase": "feel left behind",
+                    "vi": "cảm thấy bị tụt lại phía sau",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Watching friends enter college makes some teenagers feel left behind.",
+                    "example_vi": "Nhìn bạn bè vào đại học khiến một số bạn trẻ thấy bị tụt lại."
+                  },
+                  {
+                    "en": "enter university on time",
+                    "phrase": "enter university on time",
+                    "vi": "vào đại học đúng hạn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many parents prefer their children to enter university on time.",
+                    "example_vi": "Nhiều cha mẹ muốn con mình vào đại học đúng hạn."
+                  },
+                  {
+                    "en": "doubt one's decision",
+                    "phrase": "doubt one's decision",
+                    "vi": "nghi ngờ quyết định của bản thân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Comparison with peers can make gap-year youths doubt their decision.",
+                    "example_vi": "So sánh với bạn bè có thể khiến người chọn gap year nghi ngờ quyết định."
+                  },
+                  {
+                    "en": "substantial upfront funding",
+                    "phrase": "substantial upfront funding",
+                    "vi": "nguồn vốn ban đầu đáng kể",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "International gap-year trips often demand substantial upfront funding.",
+                    "example_vi": "Các chuyến gap year quốc tế thường đòi hỏi nguồn vốn ban đầu lớn."
+                  },
+                  {
+                    "en": "drain tuition funds",
+                    "phrase": "drain tuition funds",
+                    "vi": "làm cạn kiệt quỹ học phí",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Poorly budgeted travel can drain funds reserved for university tuition.",
+                    "example_vi": "Du lịch lập ngân sách kém có thể làm cạn quỹ dành cho học phí đại học."
+                  },
+                  {
+                    "en": "defer university enrollment",
+                    "phrase": "defer university enrollment",
+                    "vi": "bảo lưu / trì hoãn nhập học đại học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Choosing to defer university enrollment postpones full-time earnings.",
+                    "example_vi": "Quyết định bảo lưu nhập học làm chậm thời điểm có thu nhập toàn thời gian."
+                  },
+                  {
+                    "en": "delay career progression",
+                    "phrase": "delay career progression",
+                    "vi": "làm chậm tiến trình thăng tiến sự nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "In fast-moving sectors, a year off may slightly delay career progression.",
+                    "example_vi": "Trong ngành biến động nhanh, nghỉ một năm có thể hơi làm chậm thăng tiến."
+                  },
+                  {
+                    "en": "lengthy degree programs",
+                    "phrase": "lengthy degree programs",
+                    "vi": "chương trình đào tạo kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "An extra year feels burdensome for lengthy degree programs like medicine.",
+                    "example_vi": "Chậm thêm một năm tạo áp lực với các ngành học dài như y khoa."
+                  },
+                  {
+                    "en": "social disconnect",
+                    "phrase": "social disconnect",
+                    "vi": "sự tách biệt xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Seeing friends bond on campus can trigger temporary social disconnect.",
+                    "example_vi": "Thấy bạn bè gắn kết ở đại học có thể gây cảm giác tách biệt tạm thời."
+                  },
+                  {
+                    "en": "fear of missing out",
+                    "phrase": "fear of missing out",
+                    "vi": "nỗi sợ bị bỏ lỡ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Social media posts of college life often intensify fear of missing out.",
+                    "example_vi": "Bài đăng đời sống đại học trên mạng thường làm tăng nỗi sợ bị bỏ lỡ."
+                  },
+                  {
+                    "en": "skeptical remarks from relatives",
+                    "phrase": "skeptical remarks from relatives",
+                    "vi": "những lời nhận xét hoài nghi từ họ hàng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Skeptical remarks from relatives can undermine a student's confidence.",
+                    "example_vi": "Lời nhận xét hoài nghi từ họ hàng có thể làm giảm sự tự tin của học sinh."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Giáo dục",
+                "title": "Gap year: Xu hướng nghỉ một năm trước đại học của giới trẻ",
+                "summary": "Phân tích lợi ích về trải nghiệm, định hướng ngành học và những lưu ý quan trọng để không lãng phí thời gian khi chọn gap year.",
+                "url": "https://vnexpress.net/giao-duc"
+              }
+            ],
+            "en": [
+              {
+                "source": "UCAS",
+                "title": "Gap Years: Ideas and Things to Think About",
+                "summary": "Official UK admissions guidance on planning a purposeful gap year, weighing personal growth and employability benefits against academic and financial considerations.",
+                "url": "https://www.ucas.com/alternatives/gap-year/gap-years-ideas-and-things-think-about"
+              }
+            ]
+          }
+        }
       }
     ]
   },
@@ -238485,6 +244471,7691 @@ const ESSAY_DATA = [
         },
         "context_vi": "Trí tuệ nhân tạo đang ngày càng đóng vai trò quan trọng trong cuộc sống của con người, ảnh hưởng đến cách mọi người làm việc, học tập và giao tiếp. Do đó, nhiều người tin rằng sự phát triển của trí tuệ nhân tạo mang lại những lợi ích to lớn cho xã hội.",
         "prompt_vi": "Bạn đồng ý hay không đồng ý với quan điểm cho rằng sự phát triển của trí tuệ nhân tạo mang lại những lợi ích to lớn cho xã hội? Hãy viết một bài luận để bày tỏ quan điểm của bạn. Đưa ra lý do và bao gồm các ví dụ phù hợp từ kiến thức hoặc trải nghiệm của chính bạn. Viết ít nhất 250 từ."
+      },
+      {
+        "id": 31,
+        "title_en": "Women should stay at home and do housework while men go out to work.",
+        "title_vi": "Phụ nữ nên ở nhà làm việc nhà còn đàn ông đi làm kiếm tiền.",
+        "tags": "[Opinion / Agree or Disagree]",
+        "context": "For generations, traditional family roles have been common in many societies. Some people still believe that women should stay at home and take care of most of the housework, while men should go out to work and earn money for the family. However, others strongly disagree with this view in today's modern world.",
+        "context_vi": "Qua nhiều thế hệ, vai trò gia đình truyền thống rất phổ biến ở nhiều xã hội. Một số người vẫn tin rằng phụ nữ nên ở nhà đảm nhận phần lớn việc nhà, trong khi đàn ông nên ra ngoài đi làm kiếm tiền nuôi gia đình. Tuy nhiên, nhiều người khác lại hoàn toàn không đồng tình với quan điểm này trong thế giới hiện đại ngày nay.",
+        "prompt": "Write an essay to an educated reader to discuss this statement and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về nhận định này và đưa ra quan điểm cá nhân của bạn. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "traditional gender roles in the family",
+            "vi": "vai trò giới truyền thống trong gia đình"
+          },
+          {
+            "en": "women acting as homemakers while men serve as breadwinners",
+            "vi": "phụ nữ làm nội trợ còn đàn ông là trụ cột kiếm tiền"
+          },
+          {
+            "en": "staying at home to manage domestic chores",
+            "vi": "ở nhà đảm nhận công việc nội trợ"
+          },
+          {
+            "en": "going out to work and earning money for the family",
+            "vi": "ra ngoài đi làm kiếm tiền nuôi gia đình"
+          },
+          {
+            "en": "equal sharing of careers and household responsibilities",
+            "vi": "chia sẻ bình đẳng cả sự nghiệp lẫn trách nhiệm gia đình"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO ĐỒNG Ý 01: TRẺ EM ĐƯỢC CHĂM SÓC VÀ GIÁO DỤC TỐT HƠN TẠI NHÀ",
+                "point_vi": "Khi người mẹ ở nhà, trẻ em có thể nhận được sự chăm sóc và quan tâm sát sao hơn mỗi ngày.",
+                "point_en": "When mothers stay at home, children can receive closer care and attention every day.",
+                "point_collocations": [
+                  {
+                    "en": "stay at home",
+                    "vi": "ở nhà"
+                  },
+                  {
+                    "en": "closer care and attention",
+                    "vi": "sự chăm sóc và quan tâm sát sao hơn"
+                  }
+                ],
+                "evidence_vi": "Người mẹ có đủ thời gian để nấu những bữa ăn bổ dưỡng, đưa đón con đi học và hướng dẫn con làm bài tập. Ngoài ra, sự có mặt thường xuyên của mẹ giúp trẻ cảm thấy an toàn và dễ dàng chia sẻ cảm xúc. Nhờ vậy, trẻ có thể phát triển khỏe mạnh hơn về cả thể chất lẫn tinh thần.",
+                "evidence_en": "Mothers have enough time to cook nutritious meals, pick children up from school, and help them with homework. In addition, having a parent at home makes children feel safe and comfortable sharing their feelings. As a result, kids can grow up healthier both physically and emotionally.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "nutritious meals",
+                      "vi": "bữa ăn bổ dưỡng"
+                    },
+                    {
+                      "en": "help with homework",
+                      "vi": "giúp làm bài tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "feel safe",
+                      "vi": "cảm thấy an toàn"
+                    },
+                    {
+                      "en": "share feelings",
+                      "vi": "chia sẻ cảm xúc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "physically and emotionally",
+                      "vi": "về cả thể chất lẫn tinh thần"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stay at home",
+                    "vi": "ở nhà"
+                  },
+                  {
+                    "en": "closer care and attention",
+                    "vi": "sự chăm sóc và quan tâm sát sao hơn"
+                  },
+                  {
+                    "en": "nutritious meals",
+                    "vi": "bữa ăn bổ dưỡng"
+                  },
+                  {
+                    "en": "help with homework",
+                    "vi": "giúp làm bài tập"
+                  },
+                  {
+                    "en": "feel safe",
+                    "vi": "cảm thấy an toàn"
+                  },
+                  {
+                    "en": "share feelings",
+                    "vi": "chia sẻ cảm xúc"
+                  },
+                  {
+                    "en": "physically and emotionally",
+                    "vi": "về cả thể chất lẫn tinh thần"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 02: GIẢM ÁP LỰC KÉP CHO PHỤ NỮ",
+                "point_vi": "Phân công rõ ràng giúp phụ nữ tránh bị kiệt sức vì phải vừa đi làm toàn thời gian vừa lo việc nhà.",
+                "point_en": "Clear role division helps women avoid exhaustion from working full-time and doing housework at the same time.",
+                "point_collocations": [
+                  {
+                    "en": "clear role division",
+                    "vi": "sự phân công vai trò rõ ràng"
+                  },
+                  {
+                    "en": "avoid exhaustion",
+                    "vi": "tránh bị kiệt sức"
+                  }
+                ],
+                "evidence_vi": "Nhiều phụ nữ đi làm cả ngày ở công sở vẫn phải nấu ăn, dọn dẹp và chăm con vào buổi tối. Áp lực nặng nề này khiến họ thiếu thời gian nghỉ ngơi và dễ bị căng thẳng kéo dài. Khi tập trung hoàn toàn vào gia đình, họ có thể quản lý việc nhà nhẹ nhàng và thoải mái hơn.",
+                "evidence_en": "Many working women spend all day at the office and still have to cook, clean, and care for kids at night. This heavy pressure leaves them with little time to rest and easily causes ongoing stress. Focusing solely on home duties allows them to manage the household much more calmly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "working women",
+                      "vi": "phụ nữ đi làm"
+                    },
+                    {
+                      "en": "care for kids",
+                      "vi": "chăm sóc con cái"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ongoing stress",
+                      "vi": "căng thẳng kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "manage the household",
+                      "vi": "quản lý việc gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clear role division",
+                    "vi": "sự phân công vai trò rõ ràng"
+                  },
+                  {
+                    "en": "avoid exhaustion",
+                    "vi": "tránh bị kiệt sức"
+                  },
+                  {
+                    "en": "working women",
+                    "vi": "phụ nữ đi làm"
+                  },
+                  {
+                    "en": "care for kids",
+                    "vi": "chăm sóc con cái"
+                  },
+                  {
+                    "en": "ongoing stress",
+                    "vi": "căng thẳng kéo dài"
+                  },
+                  {
+                    "en": "manage the household",
+                    "vi": "quản lý việc gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 03: GIÚP NGƯỜI CHỒNG TẬP TRUNG PHÁT TRIỂN SỰ NGHIỆP",
+                "point_vi": "Khi người vợ lo chu toàn việc gia đình, người chồng có thể tập trung toàn lực cho công việc và kiếm thu nhập cao hơn.",
+                "point_en": "When wives take good care of the home, husbands can focus fully on work and earn a higher income.",
+                "point_collocations": [
+                  {
+                    "en": "focus fully on work",
+                    "vi": "tập trung toàn lực cho công việc"
+                  },
+                  {
+                    "en": "earn a higher income",
+                    "vi": "kiếm thu nhập cao hơn"
+                  }
+                ],
+                "evidence_vi": "Người đàn ông không phải lo lắng về bữa ăn hay việc đón con nên có thể dành nhiều năng lượng cho các dự án lớn. Họ cũng sẵn sàng đi công tác hoặc làm thêm giờ để có cơ hội thăng tiến nhanh hơn. Nhờ đó, họ có thể xây dựng sự nghiệp vững vàng để lo cho cả gia đình.",
+                "evidence_en": "Men do not have to worry about daily meals or school pick-ups, so they can put more energy into important work projects. They can also travel for business or work overtime to gain faster promotions. Therefore, they can build a strong career to support the whole family.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work projects",
+                      "vi": "các dự án công việc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "faster promotions",
+                      "vi": "thăng tiến nhanh hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "support the whole family",
+                      "vi": "nuôi sống cả gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "focus fully on work",
+                    "vi": "tập trung toàn lực cho công việc"
+                  },
+                  {
+                    "en": "earn a higher income",
+                    "vi": "kiếm thu nhập cao hơn"
+                  },
+                  {
+                    "en": "work projects",
+                    "vi": "các dự án công việc"
+                  },
+                  {
+                    "en": "faster promotions",
+                    "vi": "thăng tiến nhanh hơn"
+                  },
+                  {
+                    "en": "support the whole family",
+                    "vi": "nuôi sống cả gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 04: DUY TRÌ NGÔI NHÀ GỌN GÀNG VÀ NẾP SỐNG ỔN ĐỊNH",
+                "point_vi": "Có một người chuyên trách việc nhà giúp ngôi nhà luôn sạch sẽ, ngăn nắp và có bữa cơm ấm cúng mỗi ngày.",
+                "point_en": "Having one person manage the home keeps the house clean, tidy, and ensures warm family meals every day.",
+                "point_collocations": [
+                  {
+                    "en": "clean and tidy",
+                    "vi": "sạch sẽ và ngăn nắp"
+                  },
+                  {
+                    "en": "warm family meals",
+                    "vi": "bữa cơm gia đình ấm cúng"
+                  }
+                ],
+                "evidence_vi": "Cả gia đình không phải ăn đồ ăn nhanh thường xuyên hay sống trong không gian bừa bộn sau giờ làm mệt mỏi. Các thành viên có thể trở về một mái ấm gọn gàng và cùng nhau ăn tối đúng giờ. Điều này mang lại cảm giác bình yên và nâng cao chất lượng sống hằng ngày.",
+                "evidence_en": "The family does not need to eat fast food frequently or live in a messy house after tiring workdays. Members can return to an organized home and enjoy dinner together on time. This creates a peaceful atmosphere and improves daily quality of life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "eat fast food",
+                      "vi": "ăn đồ ăn nhanh"
+                    },
+                    {
+                      "en": "messy house",
+                      "vi": "ngôi nhà bừa bộn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "organized home",
+                      "vi": "ngôi nhà ngăn nắp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "peaceful atmosphere",
+                      "vi": "bầu không khí bình yên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clean and tidy",
+                    "vi": "sạch sẽ và ngăn nắp"
+                  },
+                  {
+                    "en": "warm family meals",
+                    "vi": "bữa cơm gia đình ấm cúng"
+                  },
+                  {
+                    "en": "eat fast food",
+                    "vi": "ăn đồ ăn nhanh"
+                  },
+                  {
+                    "en": "messy house",
+                    "vi": "ngôi nhà bừa bộn"
+                  },
+                  {
+                    "en": "organized home",
+                    "vi": "ngôi nhà ngăn nắp"
+                  },
+                  {
+                    "en": "peaceful atmosphere",
+                    "vi": "bầu không khí bình yên"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 05: TIẾT KIỆM CHI PHÍ GỬI TRẺ VÀ THUÊ NGƯỜI GIÚP VIỆC",
+                "point_vi": "Việc người vợ ở nhà chăm sóc gia đình giúp tiết kiệm đáng kể chi phí gửi trẻ và thuê dịch vụ dọn dẹp.",
+                "point_en": "Having mothers stay home to care for the family saves a lot of money on childcare and cleaning services.",
+                "point_collocations": [
+                  {
+                    "en": "childcare",
+                    "vi": "dịch vụ giữ trẻ"
+                  },
+                  {
+                    "en": "cleaning services",
+                    "vi": "dịch vụ dọn dẹp"
+                  }
+                ],
+                "evidence_vi": "Tại các thành phố lớn, học phí nhà trẻ tư thục và lương người giúp việc ngày càng đắt đỏ. Đôi khi số tiền này chiếm phần lớn mức lương của một người đi làm trong gia đình. Vì vậy, tự chăm sóc nhà cửa và con cái tại nhà có thể là lựa chọn kinh tế hợp lý cho nhiều cặp vợ chồng.",
+                "evidence_en": "In big cities, private childcare fees and domestic helpers are becoming increasingly expensive. Sometimes these costs take up most of one working parent's monthly salary. Therefore, caring for children and housework at home can be a practical financial choice for many couples.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "domestic helpers",
+                      "vi": "người giúp việc nhà"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "monthly salary",
+                      "vi": "lương hằng tháng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "practical financial choice",
+                      "vi": "lựa chọn tài chính thực tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "childcare",
+                    "vi": "dịch vụ giữ trẻ"
+                  },
+                  {
+                    "en": "cleaning services",
+                    "vi": "dịch vụ dọn dẹp"
+                  },
+                  {
+                    "en": "domestic helpers",
+                    "vi": "người giúp việc nhà"
+                  },
+                  {
+                    "en": "monthly salary",
+                    "vi": "lương hằng tháng"
+                  },
+                  {
+                    "en": "practical financial choice",
+                    "vi": "lựa chọn tài chính thực tế"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO ĐỒNG Ý 01: ĐẢM BẢO CHẤT LƯỢNG CHĂM SÓC VÀ GIÁO DỤC CON CÁI (SUPERIOR CHILDCARE AND UPBRINGING)",
+                "point_vi": "Khi người mẹ toàn tâm chăm lo gia đình, trẻ em được hưởng sự nuôi dưỡng sát sao và nền tảng giáo dục sớm vững chắc hơn.",
+                "point_en": "When mothers devote their full attention to the home, children benefit from closer supervision and stronger early upbringing.",
+                "point_collocations": [
+                  {
+                    "en": "closer supervision",
+                    "vi": "sự giám sát sát sao hơn"
+                  },
+                  {
+                    "en": "early upbringing",
+                    "vi": "sự nuôi dưỡng giáo dục sớm"
+                  }
+                ],
+                "evidence_vi": "Trong những năm đầu đời, trẻ nhỏ cần sự đồng hành trực tiếp của cha mẹ để phát triển ngôn ngữ, cảm xúc và nhân cách lành mạnh. Một người mẹ ở nhà có đủ thời gian chuẩn bị bữa ăn cân bằng dinh dưỡng, kèm con học bài và theo sát những thay đổi tâm lý hằng ngày của con. Ví dụ, trẻ có mẹ trực tiếp hướng dẫn thường hình thành nếp sinh hoạt khoa học và ít có nguy cơ nghiện thiết bị điện tử hơn. Chính sự hiện diện bền bỉ này tạo ra cảm giác an toàn tâm lý và đặt nền móng vững chắc cho thành công tương lai của trẻ.",
+                "evidence_en": "During formative early years, children thrive on direct parental guidance to develop healthy language, emotional stability, and character. A stay-at-home mother has ample time to prepare nutritious meals, assist with schoolwork, and monitor subtle shifts in her child's behavior. For example, children receiving consistent home supervision tend to build disciplined study habits and face lower risks of excessive screen use. This steady presence fosters deep emotional security and lays a resilient foundation for children's future development.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "formative early years",
+                      "vi": "những năm đầu đời định hình"
+                    },
+                    {
+                      "en": "emotional stability",
+                      "vi": "sự ổn định cảm xúc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay-at-home mother",
+                      "vi": "người mẹ nội trợ ở nhà"
+                    },
+                    {
+                      "en": "subtle shifts",
+                      "vi": "những thay đổi nhỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "disciplined study habits",
+                      "vi": "thói quen học tập kỷ luật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "resilient foundation",
+                      "vi": "nền tảng vững chắc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "closer supervision",
+                    "vi": "sự giám sát sát sao hơn"
+                  },
+                  {
+                    "en": "early upbringing",
+                    "vi": "sự nuôi dưỡng giáo dục sớm"
+                  },
+                  {
+                    "en": "formative early years",
+                    "vi": "những năm đầu đời định hình"
+                  },
+                  {
+                    "en": "emotional stability",
+                    "vi": "sự ổn định cảm xúc"
+                  },
+                  {
+                    "en": "stay-at-home mother",
+                    "vi": "người mẹ nội trợ ở nhà"
+                  },
+                  {
+                    "en": "subtle shifts",
+                    "vi": "những thay đổi nhỏ"
+                  },
+                  {
+                    "en": "disciplined study habits",
+                    "vi": "thói quen học tập kỷ luật"
+                  },
+                  {
+                    "en": "resilient foundation",
+                    "vi": "nền tảng vững chắc"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 02: GIẢM GÁNH NẶNG KÉP VÀ CĂNG THẲNG CHO PHỤ NỮ (RELIEVING WOMEN'S DOUBLE BURDEN)",
+                "point_vi": "Sự phân công chuyên biệt giữa việc ngoài xã hội và việc nhà giúp phụ nữ tránh rơi vào tình trạng kiệt sức do gánh nặng kép.",
+                "point_en": "Clear specialization between paid work and domestic duties helps protect women from chronic burnout caused by a double burden.",
+                "point_collocations": [
+                  {
+                    "en": "domestic duties",
+                    "vi": "công việc nội trợ"
+                  },
+                  {
+                    "en": "double burden",
+                    "vi": "gánh nặng kép"
+                  }
+                ],
+                "evidence_vi": "Trên thực tế, tại nhiều xã hội hiện đại, phụ nữ dù đi làm toàn thời gian vẫn thường đảm nhận phần lớn công việc bếp núc và chăm sóc con cái sau giờ làm. Việc phải liên tục cân bằng giữa áp lực hạn chót công sở và trách nhiệm gia đình dễ dẫn đến thiếu ngủ và suy giảm sức khỏe tinh thần. Chẳng hạn, nhiều bà mẹ đi làm thừa nhận họ hầu như không có thời gian nghỉ ngơi cá nhân và luôn cảm thấy áy náy vì không làm trọn vẹn cả hai vai trò. Tập trung vào quản lý gia đình giúp họ duy trì nhịp sống thư thái hơn và bảo vệ sức khỏe lâu dài.",
+                "evidence_en": "In reality, across many societies, women who hold full-time careers still shoulder the majority of cooking, cleaning, and childcare after office hours. Constantly juggling demanding workplace deadlines alongside domestic responsibilities frequently triggers sleep deprivation and chronic stress. For instance, many working mothers report having virtually no personal rest and feeling persistent guilt about dividing their energy. Dedicating themselves exclusively to home management allows them to maintain calmer routines and safeguard long-term well-being.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shoulder the majority",
+                      "vi": "gánh vác phần lớn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sleep deprivation",
+                      "vi": "thiếu ngủ trầm trọng"
+                    },
+                    {
+                      "en": "chronic stress",
+                      "vi": "căng thẳng kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "persistent guilt",
+                      "vi": "cảm giác áy náy kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "safeguard long-term well-being",
+                      "vi": "bảo vệ sức khỏe lâu dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "domestic duties",
+                    "vi": "công việc nội trợ"
+                  },
+                  {
+                    "en": "double burden",
+                    "vi": "gánh nặng kép"
+                  },
+                  {
+                    "en": "shoulder the majority",
+                    "vi": "gánh vác phần lớn"
+                  },
+                  {
+                    "en": "sleep deprivation",
+                    "vi": "thiếu ngủ trầm trọng"
+                  },
+                  {
+                    "en": "chronic stress",
+                    "vi": "căng thẳng kéo dài"
+                  },
+                  {
+                    "en": "persistent guilt",
+                    "vi": "cảm giác áy náy kéo dài"
+                  },
+                  {
+                    "en": "safeguard long-term well-being",
+                    "vi": "bảo vệ sức khỏe lâu dài"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 03: TỐI ƯU HÓA NĂNG SUẤT VÀ SỰ NGHIỆP CỦA NGƯỜI CHỒNG (MAXIMIZING THE BREADWINNER'S CAREER)",
+                "point_vi": "Khi hậu phương gia đình được chăm lo chu toàn, người chồng có thể dồn trọn tâm trí để đạt hiệu suất cao và thăng tiến trong sự nghiệp.",
+                "point_en": "With household matters managed reliably at home, husbands can devote undivided energy to achieving career growth and higher earnings.",
+                "point_collocations": [
+                  {
+                    "en": "undivided energy",
+                    "vi": "năng lượng trọn vẹn"
+                  },
+                  {
+                    "en": "career growth",
+                    "vi": "sự phát triển sự nghiệp"
+                  }
+                ],
+                "evidence_vi": "Nhiều ngành nghề có mức thu nhập cao đòi hỏi nhân sự sẵn sàng làm việc linh hoạt, đi công tác dài ngày hoặc tiếp nhận các dự án áp lực lớn. Nếu không phải phân tâm bởi việc đưa đón con hay xử lý sự cố gia đình đột xuất, người chồng có thể hoàn thành xuất sắc nhiệm vụ chuyên môn. Ví dụ, các chuyên gia có hậu phương vững chắc thường dễ dàng nắm bắt cơ hội đảm nhiệm vị trí quản lý với mức lương vượt trội hơn. Nhờ mô hình chuyên môn hóa này, tổng thu nhập ổn định của người trụ cột có thể đảm bảo cuộc sống sung túc cho cả gia đình.",
+                "evidence_en": "Many high-paying professions demand long hours, frequent business travel, and readiness to lead high-pressure projects. Free from daily worries about school runs or unexpected domestic disruptions, husbands can perform consistently at peak professional capacity. For example, male executives supported by a dedicated homemaker often secure rapid promotions and substantially higher salaries. Through this practical division of labor, a single thriving career can comfortably sustain the entire household's financial security.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "high-pressure projects",
+                      "vi": "dự án áp lực cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "peak professional capacity",
+                      "vi": "năng lực chuyên môn cao nhất"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "dedicated homemaker",
+                      "vi": "người nội trợ tận tâm"
+                    },
+                    {
+                      "en": "secure rapid promotions",
+                      "vi": "đạt thăng tiến nhanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "division of labor",
+                      "vi": "sự phân công lao động"
+                    },
+                    {
+                      "en": "financial security",
+                      "vi": "an ninh tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "undivided energy",
+                    "vi": "năng lượng trọn vẹn"
+                  },
+                  {
+                    "en": "career growth",
+                    "vi": "sự phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "high-pressure projects",
+                    "vi": "dự án áp lực cao"
+                  },
+                  {
+                    "en": "peak professional capacity",
+                    "vi": "năng lực chuyên môn cao nhất"
+                  },
+                  {
+                    "en": "dedicated homemaker",
+                    "vi": "người nội trợ tận tâm"
+                  },
+                  {
+                    "en": "secure rapid promotions",
+                    "vi": "đạt thăng tiến nhanh"
+                  },
+                  {
+                    "en": "division of labor",
+                    "vi": "sự phân công lao động"
+                  },
+                  {
+                    "en": "financial security",
+                    "vi": "an ninh tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 04: XÂY DỰNG MÔI TRƯỜNG SỐNG GỌN GÀNG VÀ NẾP SINH HOẠT HÀI HÒA (MAINTAINING A HARMONIOUS HOME)",
+                "point_vi": "Có người chuyên trách nội trợ giúp duy trì tổ ấm ngăn nắp, bữa cơm gia đình lành mạnh và bầu không khí sinh hoạt ổn định.",
+                "point_en": "Having a dedicated homemaker maintains an orderly living environment, nutritious daily meals, and harmonious family routines.",
+                "point_collocations": [
+                  {
+                    "en": "orderly living environment",
+                    "vi": "môi trường sống ngăn nắp"
+                  },
+                  {
+                    "en": "harmonious routines",
+                    "vi": "nếp sinh hoạt hài hòa"
+                  }
+                ],
+                "evidence_vi": "Khi cả hai vợ chồng đều đi làm về muộn trong trạng thái mệt mỏi, nhiều gia đình buộc phải phụ thuộc vào đồ ăn chế biến sẵn và thường xuyên tranh cãi về việc nhà tồn đọng. Ngược lại, một người vợ toàn thời gian chăm sóc tổ ấm có thể lên thực đơn khoa học, quản lý chi tiêu hợp lý và giữ nhà cửa luôn sạch đẹp. Chẳng hạn, những bữa cơm tối nóng hổi đúng giờ tạo ra không gian ấm cúng để cả nhà quây quần trò chuyện sau ngày dài. Sự ổn định này trực tiếp nâng cao sức khỏe thể chất lẫn hạnh phúc tinh thần cho mọi thành viên.",
+                "evidence_en": "When both spouses return home exhausted late in the evening, families often resort to unhealthy takeaways and argue over unfinished chores. By contrast, a full-time homemaker can plan balanced meals, manage household budgets carefully, and keep living spaces clean and welcoming. For instance, sitting down together for freshly cooked dinners every evening creates a warm sanctuary for meaningful family conversation. This everyday stability substantially elevates both physical health and domestic happiness for every member.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unhealthy takeaways",
+                      "vi": "đồ ăn mang về kém lành mạnh"
+                    },
+                    {
+                      "en": "unfinished chores",
+                      "vi": "việc nhà tồn đọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "household budgets",
+                      "vi": "ngân sách gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "warm sanctuary",
+                      "vi": "tổ ấm bình yên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "domestic happiness",
+                      "vi": "hạnh phúc gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "orderly living environment",
+                    "vi": "môi trường sống ngăn nắp"
+                  },
+                  {
+                    "en": "harmonious routines",
+                    "vi": "nếp sinh hoạt hài hòa"
+                  },
+                  {
+                    "en": "unhealthy takeaways",
+                    "vi": "đồ ăn mang về kém lành mạnh"
+                  },
+                  {
+                    "en": "unfinished chores",
+                    "vi": "việc nhà tồn đọng"
+                  },
+                  {
+                    "en": "household budgets",
+                    "vi": "ngân sách gia đình"
+                  },
+                  {
+                    "en": "warm sanctuary",
+                    "vi": "tổ ấm bình yên"
+                  },
+                  {
+                    "en": "domestic happiness",
+                    "vi": "hạnh phúc gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO ĐỒNG Ý 05: TIẾT KIỆM CHI PHÍ THUÊ DỊCH VỤ CHĂM SÓC ĐẮT ĐỎ (SAVING ON COSTLY CARE SERVICES)",
+                "point_vi": "Tự đảm nhiệm việc chăm con và nội trợ tại nhà giúp nhiều gia đình cắt giảm đáng kể chi phí gửi trẻ và thuê người giúp việc.",
+                "point_en": "Managing childcare and housework directly at home helps many families save significantly on expensive external services.",
+                "point_collocations": [
+                  {
+                    "en": "external services",
+                    "vi": "dịch vụ thuê ngoài"
+                  }
+                ],
+                "evidence_vi": "Tại các đô thị lớn, chi phí gửi trẻ tư thục chất lượng cao, thuê gia sư và trả lương cho người giúp việc gia đình ngày càng tăng mạnh. Đối với các gia đình có từ hai con nhỏ trở lên, tổng các khoản chi này đôi khi ngang bằng hoặc thậm chí vượt quá mức lương ròng của một người đi làm. Ví dụ, nhiều cặp vợ chồng trẻ nhận thấy việc người mẹ tạm ở nhà chăm con vừa tiết kiệm chi phí vừa yên tâm hơn hẳn so với giao con cho người lạ. Do đó, phân công truyền thống vẫn có thể là bài toán kinh tế khôn ngoan trong nhiều hoàn cảnh gia đình.",
+                "evidence_en": "In major cities, fees for reliable daycare centers, after-school supervision, and professional domestic cleaners have risen dramatically. For households raising two or more young children, these combined expenses can sometimes equal or exceed one parent's take-home salary. For example, many young couples calculate that having the mother manage the home saves substantial money while providing peace of mind that hired care cannot guarantee. Consequently, traditional role division can remain a financially sensible arrangement for certain families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daycare centers",
+                      "vi": "trung tâm giữ trẻ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "take-home salary",
+                      "vi": "mức lương thực nhận"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "peace of mind",
+                      "vi": "sự an tâm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "financially sensible",
+                      "vi": "hợp lý về mặt tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "external services",
+                    "vi": "dịch vụ thuê ngoài"
+                  },
+                  {
+                    "en": "daycare centers",
+                    "vi": "trung tâm giữ trẻ"
+                  },
+                  {
+                    "en": "take-home salary",
+                    "vi": "mức lương thực nhận"
+                  },
+                  {
+                    "en": "peace of mind",
+                    "vi": "sự an tâm"
+                  },
+                  {
+                    "en": "financially sensible",
+                    "vi": "hợp lý về mặt tài chính"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "stay at home",
+              "vi": "ở nhà chăm lo gia đình"
+            },
+            {
+              "en": "closer care and attention",
+              "vi": "sự chăm sóc và quan tâm sát sao hơn"
+            },
+            {
+              "en": "cook nutritious meals",
+              "vi": "nấu những bữa ăn bổ dưỡng"
+            },
+            {
+              "en": "warm family meals",
+              "vi": "bữa cơm gia đình ấm cúng"
+            },
+            {
+              "en": "clean and tidy house",
+              "vi": "ngôi nhà sạch sẽ và ngăn nắp"
+            },
+            {
+              "en": "peaceful atmosphere",
+              "vi": "bầu không khí bình yên"
+            },
+            {
+              "en": "private childcare fees",
+              "vi": "chi phí gửi trẻ tư thục"
+            },
+            {
+              "en": "domestic helpers",
+              "vi": "người giúp việc nhà"
+            },
+            {
+              "en": "formative early years",
+              "vi": "những năm đầu đời định hình"
+            },
+            {
+              "en": "stay-at-home mother",
+              "vi": "người mẹ ở nhà nội trợ"
+            },
+            {
+              "en": "orderly living environment",
+              "vi": "môi trường sống ngăn nắp"
+            },
+            {
+              "en": "harmonious family routines",
+              "vi": "nếp sinh hoạt gia đình hài hòa"
+            },
+            {
+              "en": "warm sanctuary",
+              "vi": "tổ ấm bình yên"
+            },
+            {
+              "en": "financially sensible arrangement",
+              "vi": "sự sắp xếp hợp lý về tài chính"
+            },
+            {
+              "en": "peace of mind",
+              "vi": "sự an tâm"
+            },
+            {
+              "en": "resilient foundation",
+              "vi": "nền tảng vững chắc"
+            },
+            {
+              "en": "clear role division",
+              "vi": "sự phân công vai trò rõ ràng"
+            },
+            {
+              "en": "avoid exhaustion",
+              "vi": "tránh bị kiệt sức"
+            },
+            {
+              "en": "working women",
+              "vi": "phụ nữ đi làm"
+            },
+            {
+              "en": "manage the household",
+              "vi": "quản lý việc gia đình"
+            },
+            {
+              "en": "focus fully on work",
+              "vi": "tập trung toàn lực cho công việc"
+            },
+            {
+              "en": "earn a higher income",
+              "vi": "kiếm thu nhập cao hơn"
+            },
+            {
+              "en": "faster promotions",
+              "vi": "cơ hội thăng tiến nhanh hơn"
+            },
+            {
+              "en": "support the whole family",
+              "vi": "nuôi sống cả gia đình"
+            },
+            {
+              "en": "shoulder a double burden",
+              "vi": "gánh chịu gánh nặng kép"
+            },
+            {
+              "en": "chronic burnout",
+              "vi": "sự kiệt sức kéo dài"
+            },
+            {
+              "en": "undivided energy",
+              "vi": "năng lượng trọn vẹn"
+            },
+            {
+              "en": "peak professional capacity",
+              "vi": "năng lực chuyên môn cao nhất"
+            },
+            {
+              "en": "practical division of labor",
+              "vi": "sự phân công lao động thực tế"
+            },
+            {
+              "en": "dedicated homemaker",
+              "vi": "người nội trợ tận tâm"
+            },
+            {
+              "en": "safeguard long-term well-being",
+              "vi": "bảo vệ sức khỏe lâu dài"
+            },
+            {
+              "en": "high-pressure projects",
+              "vi": "những dự án áp lực cao"
+            },
+            {
+              "en": "financially secure",
+              "vi": "vững vàng về tài chính"
+            },
+            {
+              "en": "cover all expenses",
+              "vi": "trang trải mọi chi phí"
+            },
+            {
+              "en": "standard of living",
+              "vi": "mức sống"
+            },
+            {
+              "en": "pursue careers",
+              "vi": "theo đuổi sự nghiệp"
+            },
+            {
+              "en": "financial independence",
+              "vi": "sự độc lập tài chính"
+            },
+            {
+              "en": "participate in the workforce",
+              "vi": "tham gia lực lượng lao động"
+            },
+            {
+              "en": "valuable human resources",
+              "vi": "nguồn nhân lực quý giá"
+            },
+            {
+              "en": "vital sectors",
+              "vi": "các lĩnh vực thiết yếu"
+            },
+            {
+              "en": "dual-income household",
+              "vi": "gia đình hai nguồn thu nhập"
+            },
+            {
+              "en": "escalating living costs",
+              "vi": "chi phí sinh hoạt leo thang"
+            },
+            {
+              "en": "economic resilience",
+              "vi": "sức chống chịu về kinh tế"
+            },
+            {
+              "en": "confine women to domestic roles",
+              "vi": "đóng khung phụ nữ vào vai trò nội trợ"
+            },
+            {
+              "en": "personal fulfillment and autonomy",
+              "vi": "sự thỏa mãn bản thân và quyền tự chủ"
+            },
+            {
+              "en": "outdated gender stereotypes",
+              "vi": "định kiến giới lỗi thời"
+            },
+            {
+              "en": "unlock vital human capital",
+              "vi": "khai phá nguồn vốn nhân lực thiết yếu"
+            },
+            {
+              "en": "gender-balanced leadership",
+              "vi": "đội ngũ lãnh đạo cân bằng giới"
+            },
+            {
+              "en": "share housework fairly",
+              "vi": "chia sẻ việc nhà công bằng"
+            },
+            {
+              "en": "feel respected",
+              "vi": "cảm thấy được tôn trọng"
+            },
+            {
+              "en": "equal teamwork",
+              "vi": "sự phối hợp bình đẳng"
+            },
+            {
+              "en": "gender equality",
+              "vi": "bình đẳng giới"
+            },
+            {
+              "en": "set a positive example",
+              "vi": "làm gương tích cực"
+            },
+            {
+              "en": "belong to everyone",
+              "vi": "thuộc về mọi thành viên"
+            },
+            {
+              "en": "ambitious careers",
+              "vi": "sự nghiệp đầy hoài bão"
+            },
+            {
+              "en": "modern attitudes",
+              "vi": "tư duy hiện đại, tiến bộ"
+            },
+            {
+              "en": "respectful partnership",
+              "vi": "mối quan hệ đồng hành tôn trọng nhau"
+            },
+            {
+              "en": "strengthen father-child bonds",
+              "vi": "thắt chặt tình cảm cha con"
+            },
+            {
+              "en": "lingering resentment",
+              "vi": "sự ấm ức kéo dài"
+            },
+            {
+              "en": "rigid traditional roles",
+              "vi": "những vai trò truyền thống cứng nhắc"
+            },
+            {
+              "en": "break down gender barriers",
+              "vi": "phá bỏ rào cản giới tính"
+            },
+            {
+              "en": "egalitarian homes",
+              "vi": "những gia đình bình đẳng"
+            },
+            {
+              "en": "domestic self-sufficiency",
+              "vi": "khả năng tự lo việc nhà"
+            },
+            {
+              "en": "inclusive society",
+              "vi": "một xã hội bao trùm và bình đẳng"
+            }
+          ],
+          "sample_b1": "In many societies, people often debate how husbands and wives should divide work and family duties. Some believe that women should stay at home to do most of the housework while men go out to earn money. Personally, I agree with this statement because it provides better childcare, reduces stress for women, and helps men focus on their careers.\n\nFirstly, when mothers <strong>stay at home</strong>, children can receive <strong>closer care and attention</strong> every day. Mothers have enough time to <strong>cook nutritious meals</strong>, pick children up from school, and help them with homework. As a result, kids feel safe and grow up healthier both physically and emotionally.\n\nSecondly, <strong>clear role division</strong> helps women <strong>avoid exhaustion</strong> from working full-time and doing housework at the same time. Many working women still have to cook and clean at night, which leaves them with little time to rest. Focusing on home duties lets them <strong>manage the household</strong> calmly and keep a <strong>clean and tidy house</strong> with warm family meals.\n\nFinally, when home life is well managed, husbands can <strong>focus fully on work</strong> and <strong>earn a higher income</strong>. Without daily worries about meals or childcare, men can devote more energy to important projects and gain faster promotions to support the whole family, while also saving on costly private childcare fees.\n\nIn conclusion, I support this traditional arrangement because it benefits children's upbringing, protects women from double stress, and allows fathers to build stronger careers.",
+          "translation_b1": "Trong nhiều xã hội, mọi người thường tranh luận về cách vợ và chồng nên phân chia công việc và trách nhiệm gia đình. Một số người tin rằng phụ nữ nên ở nhà làm phần lớn việc nhà còn đàn ông đi làm kiếm tiền. Cá nhân tôi đồng ý với quan điểm này vì nó giúp chăm sóc con tốt hơn, giảm áp lực cho phụ nữ và giúp đàn ông tập trung cho sự nghiệp.\n\nThứ nhất, khi người mẹ <strong>ở nhà</strong>, trẻ em nhận được <strong>sự chăm sóc và quan tâm sát sao hơn</strong> mỗi ngày. Người mẹ có đủ thời gian <strong>nấu những bữa ăn bổ dưỡng</strong>, đón con tan học và kèm con làm bài tập. Nhờ vậy, trẻ cảm thấy an toàn và lớn lên khỏe mạnh hơn về cả thể chất lẫn tinh thần.\n\nThứ hai, <strong>sự phân công vai trò rõ ràng</strong> giúp phụ nữ <strong>tránh bị kiệt sức</strong> khi phải vừa đi làm toàn thời gian vừa lo việc nhà. Nhiều phụ nữ đi làm vẫn phải nấu nướng, dọn dẹp vào buổi tối khiến họ ít có thời gian nghỉ ngơi. Tập trung vào gia đình giúp họ <strong>quản lý việc nhà</strong> nhẹ nhàng và duy trì một <strong>ngôi nhà sạch sẽ, ngăn nắp</strong> với bữa cơm ấm cúng.\n\nCuối cùng, khi gia đình được chăm lo chu toàn, người chồng có thể <strong>tập trung toàn lực cho công việc</strong> và <strong>kiếm thu nhập cao hơn</strong>. Không phải lo lắng chuyện cơm nước hay đón con, đàn ông có thể dồn sức vào các dự án quan trọng để thăng tiến nhanh hơn và nuôi sống cả gia đình, đồng thời tiết kiệm chi phí gửi trẻ đắt đỏ.\n\nTóm lại, tôi ủng hộ sự phân công truyền thống này vì nó có lợi cho việc nuôi dạy con, bảo vệ phụ nữ khỏi áp lực kép và giúp người cha xây dựng sự nghiệp vững vàng hơn.",
+          "sample_b2": "The division of financial and domestic duties between husbands and wives remains a widely debated issue. While modern lifestyles increasingly promote dual-income households, I firmly agree with the traditional view that women focusing on housework while men act as breadwinners offers significant benefits for childcare, family well-being, and career specialization.\n\nFirst and foremost, having a <strong>stay-at-home mother</strong> ensures superior childcare during children's <strong>formative early years</strong>. Mothers who devote full attention to the household have ample time to prepare balanced meals, assist with schoolwork, and monitor subtle shifts in their children's behavior. Such steady supervision not only cultivates disciplined study habits and reduces excessive screen time but also builds deep emotional security that lays a <strong>resilient foundation</strong> for adulthood.\n\nSecond, this <strong>practical division of labor</strong> protects women from <strong>chronic burnout</strong> caused by a heavy <strong>double burden</strong>. Across many societies, women holding full-time jobs still shoulder the majority of cooking and cleaning after office hours, leading to exhaustion and persistent guilt. By focusing exclusively on home management, a <strong>dedicated homemaker</strong> can maintain an <strong>orderly living environment</strong>, cook nutritious dinners, and create a <strong>warm sanctuary</strong> while also saving families substantial fees on costly daycare centers.\n\nFinally, when domestic matters are handled reliably, husbands can devote <strong>undivided energy</strong> to demanding professions and operate at <strong>peak professional capacity</strong>. Free from daily interruptions, breadwinners are better positioned to lead high-pressure projects, secure rapid promotions, and generate sufficient income to sustain the entire family comfortably.\n\nIn conclusion, I support this traditional family structure because it strengthens child upbringing, spares women overwhelming dual pressure, and enables fathers to maximize household earnings.",
+          "translation_b2": "Việc phân chia trách nhiệm tài chính và nội trợ giữa vợ và chồng vẫn là chủ đề gây nhiều tranh luận. Dù lối sống hiện đại ngày càng thúc đẩy mô hình hai thu nhập, tôi hoàn toàn đồng ý với quan điểm truyền thống rằng phụ nữ tập trung lo việc nhà còn đàn ông làm trụ cột kinh tế mang lại nhiều lợi ích lớn cho việc nuôi con, hạnh phúc gia đình và sự chuyên môn hóa sự nghiệp.\n\nTrước hết, có một <strong>người mẹ ở nhà nội trợ</strong> đảm bảo chất lượng chăm sóc vượt trội trong <strong>những năm đầu đời định hình</strong> của trẻ. Người mẹ dành trọn tâm trí cho gia đình có đủ thời gian chuẩn bị bữa ăn cân bằng, kèm cặp việc học và theo sát những thay đổi tinh tế trong hành vi của con. Sự giám sát đều đặn ấy không chỉ rèn thói quen học tập kỷ luật và hạn chế thời gian màn hình mà còn xây dựng sự an toàn cảm xúc đặt <strong>nền tảng vững chắc</strong> cho tuổi trưởng thành.\n\nThứ hai, <strong>sự phân công lao động thực tế</strong> này bảo vệ phụ nữ khỏi <strong>sự kiệt sức kéo dài</strong> do <strong>gánh nặng kép</strong>. Tại nhiều xã hội, phụ nữ đi làm toàn thời gian vẫn gánh phần lớn việc bếp núc và dọn dẹp sau giờ làm, dẫn đến mệt mỏi và cảm giác áy náy kéo dài. Khi tập trung hoàn toàn vào quản lý gia đình, một <strong>người nội trợ tận tâm</strong> có thể duy trì <strong>môi trường sống ngăn nắp</strong>, nấu bữa tối bổ dưỡng và tạo nên <strong>tổ ấm bình yên</strong>, đồng thời giúp gia đình tiết kiệm khoản phí lớn cho dịch vụ giữ trẻ đắt đỏ.\n\nCuối cùng, khi việc nhà được chu toàn, người chồng có thể dành <strong>năng lượng trọn vẹn</strong> cho công việc đòi hỏi cao và làm việc ở <strong>năng lực chuyên môn cao nhất</strong>. Không bị gián đoạn hằng ngày, người trụ cột dễ dàng dẫn dắt các dự án áp lực, thăng tiến nhanh và tạo thu nhập đủ đầy cho cả nhà.\n\nTóm lại, tôi ủng hộ cấu trúc gia đình truyền thống này vì nó nâng cao chất lượng nuôi dạy con, giải phóng phụ nữ khỏi áp lực kép và giúp người cha tối ưu hóa thu nhập gia đình.",
+          "vocab_step": {
+            "theme": "Vai trò giới trong gia đình (Traditional vs Equal Family Roles)",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (50 mục) và B2 (68 mục), phục vụ trọn vẹn cả hai hướng tiếp cận: Đồng ý (Agree) và Không đồng ý (Disagree).",
+            "single_words": [
+              {
+                "word": "housework",
+                "ipa": "/ˈhaʊs.wɜːk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "việc nhà, công việc nội trợ",
+                "family": "household chores (n)",
+                "example_en": "Both husbands and wives should share daily housework fairly.",
+                "example_vi": "Cả vợ và chồng nên chia sẻ công việc nhà hằng ngày công bằng."
+              },
+              {
+                "word": "breadwinner",
+                "ipa": "/ˈbredˌwɪn.ər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "người trụ cột kiếm tiền",
+                "family": "breadwinners (n)",
+                "example_en": "In the past, men were usually the main breadwinners in families.",
+                "example_vi": "Trước đây, đàn ông thường là người trụ cột kiếm tiền chính trong gia đình."
+              },
+              {
+                "word": "equality",
+                "ipa": "/iˈkwɒl.ə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự bình đẳng",
+                "family": "equal (adj), equally (adv)",
+                "example_en": "Gender equality allows women to pursue their career dreams.",
+                "example_vi": "Bình đẳng giới cho phép phụ nữ theo đuổi ước mơ nghề nghiệp."
+              },
+              {
+                "word": "income",
+                "ipa": "/ˈɪn.kʌm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thu nhập",
+                "family": "incomes (n)",
+                "example_en": "Having two incomes helps modern families afford housing and education.",
+                "example_vi": "Có hai nguồn thu nhập giúp gia đình hiện đại chi trả nhà ở và giáo dục."
+              },
+              {
+                "word": "career",
+                "ipa": "/kəˈrɪər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự nghiệp",
+                "family": "careers (n)",
+                "example_en": "Many women want to build a successful career outside the home.",
+                "example_vi": "Nhiều phụ nữ muốn xây dựng sự nghiệp thành công ngoài xã hội."
+              },
+              {
+                "word": "childcare",
+                "ipa": "/ˈtʃaɪld.keər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "việc chăm sóc trẻ em",
+                "family": "care for children (v)",
+                "example_en": "Private childcare has become very expensive in big cities.",
+                "example_vi": "Dịch vụ giữ trẻ tư thục trở nên rất đắt đỏ ở các thành phố lớn."
+              },
+              {
+                "word": "responsibility",
+                "ipa": "/rɪˌspɒn.səˈbɪl.ə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "trách nhiệm",
+                "family": "responsible (adj)",
+                "example_en": "Raising children should be a shared responsibility of both parents.",
+                "example_vi": "Nuôi dạy con cái nên là trách nhiệm chung của cả cha và mẹ."
+              },
+              {
+                "word": "independent",
+                "ipa": "/ˌɪn.dɪˈpen.dənt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "độc lập, tự chủ",
+                "family": "independence (n)",
+                "example_en": "Earning money helps women become financially independent.",
+                "example_vi": "Kiếm ra tiền giúp phụ nữ trở nên độc lập về tài chính."
+              },
+              {
+                "word": "respect",
+                "ipa": "/rɪˈspekt/",
+                "pos": "n, v",
+                "level": "B1, B2",
+                "vi": "sự tôn trọng; tôn trọng",
+                "family": "respectful (adj)",
+                "example_en": "Sharing household chores builds mutual respect between spouses.",
+                "example_vi": "Chia sẻ việc nhà xây dựng sự tôn trọng lẫn nhau giữa vợ chồng."
+              },
+              {
+                "word": "traditional",
+                "ipa": "/trəˈdɪʃ.ən.əl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "truyền thống",
+                "family": "tradition (n)",
+                "example_en": "Traditional gender roles are changing quickly in modern society.",
+                "example_vi": "Vai trò giới truyền thống đang thay đổi nhanh chóng trong xã hội hiện đại."
+              },
+              {
+                "word": "modern",
+                "ipa": "/ˈmɒd.ən/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "hiện đại",
+                "family": "modernity (n)",
+                "example_en": "Modern families often prefer flexible roles for men and women.",
+                "example_vi": "Gia đình hiện đại thường ưa chuộng vai trò linh hoạt cho nam và nữ."
+              },
+              {
+                "word": "pressure",
+                "ipa": "/ˈpreʃ.ər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "áp lực",
+                "family": "pressured (adj)",
+                "example_en": "Working mothers often face heavy pressure from both jobs and housework.",
+                "example_vi": "Các bà mẹ đi làm thường chịu áp lực nặng từ cả công việc lẫn việc nhà."
+              },
+              {
+                "word": "salary",
+                "ipa": "/ˈsæl.ər.i/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tiền lương",
+                "family": "salaries (n)",
+                "example_en": "One salary is sometimes not enough to cover family expenses.",
+                "example_vi": "Một mức lương đôi khi không đủ trang trải chi phí gia đình."
+              },
+              {
+                "word": "workforce",
+                "ipa": "/ˈwɜːk.fɔːs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "lực lượng lao động",
+                "family": "work (v, n)",
+                "example_en": "Women make up nearly half of the global workforce today.",
+                "example_vi": "Phụ nữ chiếm gần một nửa lực lượng lao động toàn cầu ngày nay."
+              },
+              {
+                "word": "support",
+                "ipa": "/səˈpɔːt/",
+                "pos": "v, n",
+                "level": "B1, B2",
+                "vi": "hỗ trợ, nuôi sống",
+                "family": "supportive (adj)",
+                "example_en": "Both partners can work together to support the family financially.",
+                "example_vi": "Cả hai vợ chồng có thể cùng nhau hỗ trợ tài chính cho gia đình."
+              },
+              {
+                "word": "talent",
+                "ipa": "/ˈtæl.ənt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tài năng",
+                "family": "talented (adj)",
+                "example_en": "Society loses valuable talent when women cannot enter the workplace.",
+                "example_vi": "Xã hội mất đi tài năng quý giá khi phụ nữ không thể đi làm."
+              },
+              {
+                "word": "fair",
+                "ipa": "/feər/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "công bằng",
+                "family": "fairness (n), fairly (adv)",
+                "example_en": "Dividing chores fairly reduces arguments between husbands and wives.",
+                "example_vi": "Phân chia việc nhà công bằng giúp giảm tranh cãi giữa vợ và chồng."
+              },
+              {
+                "word": "role",
+                "ipa": "/rəʊl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "vai trò",
+                "family": "roles (n)",
+                "example_en": "Couples should freely decide their own roles inside the family.",
+                "example_vi": "Các cặp đôi nên tự do quyết định vai trò của mình trong gia đình."
+              },
+              {
+                "word": "homemaker",
+                "ipa": "/ˈhəʊmˌmeɪ.kər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "người nội trợ",
+                "family": "homemaking (n)",
+                "example_en": "A dedicated homemaker keeps the household organized and peaceful.",
+                "example_vi": "Một người nội trợ tận tâm giữ ngôi nhà ngăn nắp và yên bình."
+              },
+              {
+                "word": "dual-income",
+                "ipa": "/ˌdjuː.əlˈɪŋ.kʌm/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hai nguồn thu nhập",
+                "family": "income (n)",
+                "example_en": "Dual-income households enjoy stronger financial protection against crises.",
+                "example_vi": "Gia đình hai nguồn thu nhập có sự bảo vệ tài chính vững chắc hơn."
+              },
+              {
+                "word": "stereotype",
+                "ipa": "/ˈster.i.ə.taɪp/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "định kiến, khuôn mẫu",
+                "family": "stereotypical (adj)",
+                "example_en": "Outdated gender stereotypes limit women's professional potential.",
+                "example_vi": "Định kiến giới lỗi thời giới hạn tiềm năng nghề nghiệp của phụ nữ."
+              },
+              {
+                "word": "autonomy",
+                "ipa": "/ɔːˈtɒn.ə.mi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "quyền tự chủ",
+                "family": "autonomous (adj)",
+                "example_en": "Financial independence gives women greater personal autonomy.",
+                "example_vi": "Độc lập tài chính mang lại cho phụ nữ quyền tự chủ cá nhân lớn hơn."
+              },
+              {
+                "word": "upbringing",
+                "ipa": "/ˈʌpˌbrɪŋ.ɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự nuôi dưỡng, dạy dỗ",
+                "family": "bring up (v)",
+                "example_en": "Close parental supervision supports children's healthy upbringing.",
+                "example_vi": "Sự giám sát sát sao của cha mẹ hỗ trợ quá trình nuôi dưỡng trẻ lành mạnh."
+              },
+              {
+                "word": "confine",
+                "ipa": "/kənˈfaɪn/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "giam hãm, đóng khung",
+                "family": "confinement (n)",
+                "example_en": "Society should not confine women solely to domestic duties.",
+                "example_vi": "Xã hội không nên đóng khung phụ nữ chỉ vào công việc nội trợ."
+              },
+              {
+                "word": "egalitarian",
+                "ipa": "/ɪˌɡæl.ɪˈteə.ri.ən/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bình đẳng, đề cao bình đẳng",
+                "family": "equality (n)",
+                "example_en": "Children raised in egalitarian homes develop fairer social attitudes.",
+                "example_vi": "Trẻ lớn lên trong gia đình bình đẳng phát triển thái độ xã hội công bằng hơn."
+              },
+              {
+                "word": "resentment",
+                "ipa": "/rɪˈzent.mənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự bất mãn, ấm ức",
+                "family": "resentful (adj)",
+                "example_en": "Unfair housework division often breeds lingering resentment.",
+                "example_vi": "Phân chia việc nhà bất công thường nảy sinh sự ấm ức kéo dài."
+              },
+              {
+                "word": "harmonious",
+                "ipa": "/hɑːˈməʊ.ni.əs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hài hòa, êm ấm",
+                "family": "harmony (n)",
+                "example_en": "Mutual respect is essential for a harmonious family environment.",
+                "example_vi": "Tôn trọng lẫn nhau rất thiết yếu cho môi trường gia đình êm ấm."
+              },
+              {
+                "word": "vulnerability",
+                "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tính dễ tổn thương / rủi ro",
+                "family": "vulnerable (adj)",
+                "example_en": "Relying on one paycheck creates financial vulnerability during layoffs.",
+                "example_vi": "Phụ thuộc một nguồn lương tạo ra rủi ro tài chính khi bị mất việc."
+              },
+              {
+                "word": "competence",
+                "ipa": "/ˈkɒm.pɪ.təns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "năng lực chuyên môn",
+                "family": "competent (adj)",
+                "example_en": "Women show equal professional competence in science and management.",
+                "example_vi": "Phụ nữ thể hiện năng lực chuyên môn ngang bằng trong khoa học và quản lý."
+              },
+              {
+                "word": "forfeit",
+                "ipa": "/ˈfɔː.fɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "đánh mất, từ bỏ (tiềm năng)",
+                "family": "forfeiture (n)",
+                "example_en": "Keeping women out of work forfeits half of a country's talent.",
+                "example_vi": "Giữ phụ nữ ngoài thị trường lao động làm mất một nửa tài năng quốc gia."
+              },
+              {
+                "word": "specialization",
+                "ipa": "/ˌspeʃ.əl.aɪˈzeɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự chuyên môn hóa",
+                "family": "specialize (v)",
+                "example_en": "Some argue that role specialization increases household efficiency.",
+                "example_vi": "Một số người lập luận sự chuyên môn hóa vai trò tăng hiệu quả gia đình."
+              },
+              {
+                "word": "spouse",
+                "ipa": "/spaʊs/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "vợ hoặc chồng, bạn đời",
+                "family": "spouses (n)",
+                "example_en": "Both spouses should share decisions on finances and parenting.",
+                "example_vi": "Cả hai vợ chồng nên cùng chia sẻ quyết định tài chính và nuôi con."
+              },
+              {
+                "word": "empower",
+                "ipa": "/ɪmˈpaʊər/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "trao quyền, tiếp sức",
+                "family": "empowerment (n)",
+                "example_en": "Equal access to employment empowers women socially and economically.",
+                "example_vi": "Cơ hội việc làm bình đẳng trao quyền cho phụ nữ về xã hội và kinh tế."
+              },
+              {
+                "word": "inclusive",
+                "ipa": "/ɪnˈkluː.sɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bao trùm, bình đẳng",
+                "family": "inclusion (n)",
+                "example_en": "Teaching equality at home helps build a more inclusive society.",
+                "example_vi": "Dạy về bình đẳng ở nhà giúp xây dựng xã hội bao trùm hơn."
+              },
+              {
+                "word": "self-sufficiency",
+                "ipa": "/ˌself.səˈfɪʃ.ən.si/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng tự lực, tự lo",
+                "family": "self-sufficient (adj)",
+                "example_en": "Boys should learn domestic self-sufficiency from a young age.",
+                "example_vi": "Các bé trai nên học khả năng tự lo việc nhà từ khi còn nhỏ."
+              },
+              {
+                "word": "rigid",
+                "ipa": "/ˈrɪdʒ.ɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "cứng nhắc",
+                "family": "rigidity (n)",
+                "example_en": "Rigid gender roles no longer suit today's fast-changing economy.",
+                "example_vi": "Vai trò giới cứng nhắc không còn phù hợp với nền kinh tế biến đổi nhanh."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "stay at home",
+                "level": "B1",
+                "vi": "ở nhà chăm lo gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "When mothers stay at home, children receive closer daily care.",
+                "example_vi": "Khi người mẹ ở nhà, trẻ nhận được sự chăm sóc sát sao hằng ngày."
+              },
+              {
+                "phrase": "closer care and attention",
+                "level": "B1",
+                "vi": "sự chăm sóc và quan tâm sát sao hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Young kids thrive with closer care and attention from parents.",
+                "example_vi": "Trẻ nhỏ phát triển tốt nhờ sự chăm sóc và quan tâm sát sao từ cha mẹ."
+              },
+              {
+                "phrase": "cook nutritious meals",
+                "level": "B1",
+                "vi": "nấu những bữa ăn bổ dưỡng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Stay-at-home mothers have time to cook nutritious meals daily.",
+                "example_vi": "Người mẹ ở nhà có thời gian nấu những bữa ăn bổ dưỡng mỗi ngày."
+              },
+              {
+                "phrase": "warm family meals",
+                "level": "B1",
+                "vi": "bữa cơm gia đình ấm cúng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Having one homemaker ensures warm family meals every evening.",
+                "example_vi": "Có một người lo nội trợ đảm bảo bữa cơm gia đình ấm cúng mỗi tối."
+              },
+              {
+                "phrase": "clean and tidy house",
+                "level": "B1",
+                "vi": "ngôi nhà sạch sẽ và ngăn nắp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Full-time care keeps a clean and tidy house for everyone.",
+                "example_vi": "Chăm lo toàn thời gian giữ ngôi nhà sạch sẽ và ngăn nắp cho mọi người."
+              },
+              {
+                "phrase": "peaceful atmosphere",
+                "level": "B1",
+                "vi": "bầu không khí bình yên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "An organized home creates a peaceful atmosphere after work.",
+                "example_vi": "Ngôi nhà ngăn nắp tạo ra bầu không khí bình yên sau giờ làm."
+              },
+              {
+                "phrase": "private childcare fees",
+                "level": "B1",
+                "vi": "chi phí gửi trẻ tư thục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Caring for kids at home saves money on private childcare fees.",
+                "example_vi": "Chăm con tại nhà giúp tiết kiệm tiền gửi trẻ tư thục."
+              },
+              {
+                "phrase": "domestic helpers",
+                "level": "B1",
+                "vi": "người giúp việc nhà",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Hiring domestic helpers can be very costly in big cities.",
+                "example_vi": "Thuê người giúp việc nhà có thể rất tốn kém ở thành phố lớn."
+              },
+              {
+                "phrase": "formative early years",
+                "level": "B2",
+                "vi": "những năm đầu đời định hình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Direct parental care is vital during children's formative early years.",
+                "example_vi": "Sự chăm sóc trực tiếp của cha mẹ rất thiết yếu trong những năm đầu đời."
+              },
+              {
+                "phrase": "stay-at-home mother",
+                "level": "B2",
+                "vi": "người mẹ ở nhà nội trợ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A stay-at-home mother can closely monitor children's study routines.",
+                "example_vi": "Người mẹ nội trợ có thể theo sát thói quen học tập của con."
+              },
+              {
+                "phrase": "orderly living environment",
+                "level": "B2",
+                "vi": "môi trường sống ngăn nắp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A dedicated homemaker maintains an orderly living environment.",
+                "example_vi": "Người nội trợ tận tâm duy trì môi trường sống ngăn nắp."
+              },
+              {
+                "phrase": "harmonious family routines",
+                "level": "B2",
+                "vi": "nếp sinh hoạt gia đình hài hòa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Consistent home management fosters harmonious family routines.",
+                "example_vi": "Quản lý gia đình đều đặn tạo dựng nếp sinh hoạt hài hòa."
+              },
+              {
+                "phrase": "warm sanctuary",
+                "level": "B2",
+                "vi": "tổ ấm bình yên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Fresh dinners turn the house into a warm sanctuary for tired workers.",
+                "example_vi": "Bữa tối ấm nóng biến ngôi nhà thành tổ ấm bình yên cho người đi làm mệt."
+              },
+              {
+                "phrase": "financially sensible arrangement",
+                "level": "B2",
+                "vi": "sự sắp xếp hợp lý về tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "For large families, avoiding daycare costs can be a financially sensible arrangement.",
+                "example_vi": "Với gia đình đông con, tránh phí gửi trẻ có thể là phương án kinh tế hợp lý."
+              },
+              {
+                "phrase": "peace of mind",
+                "level": "B2",
+                "vi": "sự an tâm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Caring for children directly gives parents invaluable peace of mind.",
+                "example_vi": "Tự chăm sóc con mang lại cho cha mẹ sự an tâm vô giá."
+              },
+              {
+                "phrase": "resilient foundation",
+                "level": "B2",
+                "vi": "nền tảng vững chắc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Strong emotional security lays a resilient foundation for adulthood.",
+                "example_vi": "Sự an toàn cảm xúc đặt nền tảng vững chắc cho tuổi trưởng thành."
+              },
+              {
+                "phrase": "clear role division",
+                "level": "B1",
+                "vi": "sự phân công vai trò rõ ràng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Clear role division prevents confusion about daily duties.",
+                "example_vi": "Phân công vai trò rõ ràng giúp tránh lộn xộn về nhiệm vụ hằng ngày."
+              },
+              {
+                "phrase": "avoid exhaustion",
+                "level": "B1",
+                "vi": "tránh bị kiệt sức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Focusing on one role helps women avoid exhaustion.",
+                "example_vi": "Tập trung vào một vai trò giúp phụ nữ tránh bị kiệt sức."
+              },
+              {
+                "phrase": "working women",
+                "level": "B1",
+                "vi": "phụ nữ đi làm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many working women struggle to balance office jobs and chores.",
+                "example_vi": "Nhiều phụ nữ đi làm chật vật cân bằng công sở và việc nhà."
+              },
+              {
+                "phrase": "manage the household",
+                "level": "B1",
+                "vi": "quản lý việc gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Staying home lets mothers manage the household more calmly.",
+                "example_vi": "Ở nhà giúp các bà mẹ quản lý việc nhà một cách thư thái hơn."
+              },
+              {
+                "phrase": "focus fully on work",
+                "level": "B1",
+                "vi": "tập trung toàn lực cho công việc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Husbands can focus fully on work when home duties are handled.",
+                "example_vi": "Người chồng có thể tập trung toàn lực cho công việc khi việc nhà được lo chu toàn."
+              },
+              {
+                "phrase": "earn a higher income",
+                "level": "B1",
+                "vi": "kiếm thu nhập cao hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Working overtime can help men earn a higher income for the family.",
+                "example_vi": "Làm thêm giờ giúp người đàn ông kiếm thu nhập cao hơn cho gia đình."
+              },
+              {
+                "phrase": "faster promotions",
+                "level": "B1",
+                "vi": "cơ hội thăng tiến nhanh hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Strong focus on projects leads to faster promotions at work.",
+                "example_vi": "Tập trung cao cho dự án dẫn đến cơ hội thăng tiến nhanh hơn."
+              },
+              {
+                "phrase": "support the whole family",
+                "level": "B1",
+                "vi": "nuôi sống cả gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "One successful career can sometimes support the whole family.",
+                "example_vi": "Một sự nghiệp thành công đôi khi có thể nuôi sống cả gia đình."
+              },
+              {
+                "phrase": "shoulder a double burden",
+                "level": "B2",
+                "vi": "gánh chịu gánh nặng kép",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Working mothers often shoulder a heavy double burden of job and housework.",
+                "example_vi": "Các bà mẹ đi làm thường gánh chịu gánh nặng kép nặng nề."
+              },
+              {
+                "phrase": "chronic burnout",
+                "level": "B2",
+                "vi": "sự kiệt sức kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Juggling full-time jobs and domestic chores can trigger chronic burnout.",
+                "example_vi": "Vừa làm toàn thời gian vừa lo việc nhà dễ gây kiệt sức kéo dài."
+              },
+              {
+                "phrase": "undivided energy",
+                "level": "B2",
+                "vi": "năng lượng trọn vẹn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Men can devote undivided energy to demanding professional projects.",
+                "example_vi": "Đàn ông có thể dành trọn năng lượng cho các dự án chuyên môn đòi hỏi cao."
+              },
+              {
+                "phrase": "peak professional capacity",
+                "level": "B2",
+                "vi": "năng lực chuyên môn cao nhất",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Without domestic interruptions, breadwinners work at peak professional capacity.",
+                "example_vi": "Không bị gián đoạn việc nhà, người trụ cột làm việc ở năng lực cao nhất."
+              },
+              {
+                "phrase": "practical division of labor",
+                "level": "B2",
+                "vi": "sự phân công lao động thực tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Supporters view traditional roles as a practical division of labor.",
+                "example_vi": "Người ủng hộ coi vai trò truyền thống là sự phân công lao động thực tế."
+              },
+              {
+                "phrase": "dedicated homemaker",
+                "level": "B2",
+                "vi": "người nội trợ tận tâm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A dedicated homemaker provides reliable support behind the scenes.",
+                "example_vi": "Người nội trợ tận tâm mang lại hậu phương vững chắc."
+              },
+              {
+                "phrase": "safeguard long-term well-being",
+                "level": "B2",
+                "vi": "bảo vệ sức khỏe lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Reducing double pressure helps safeguard women's long-term well-being.",
+                "example_vi": "Giảm áp lực kép giúp bảo vệ sức khỏe lâu dài của phụ nữ."
+              },
+              {
+                "phrase": "high-pressure projects",
+                "level": "B2",
+                "vi": "những dự án áp lực cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Flexibility enables employees to take on high-pressure projects abroad.",
+                "example_vi": "Sự linh hoạt giúp nhân viên đảm nhận các dự án áp lực cao ở nước ngoài."
+              },
+              {
+                "phrase": "financially secure",
+                "level": "B1",
+                "vi": "vững vàng về tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Having two salaries makes families much more financially secure.",
+                "example_vi": "Có hai nguồn lương giúp gia đình vững vàng tài chính hơn nhiều."
+              },
+              {
+                "phrase": "cover all expenses",
+                "level": "B1",
+                "vi": "trang trải mọi chi phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "One salary is rarely enough to cover all expenses in big cities.",
+                "example_vi": "Một mức lương hiếm khi đủ trang trải mọi chi phí ở thành phố lớn."
+              },
+              {
+                "phrase": "standard of living",
+                "level": "B1",
+                "vi": "mức sống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Dual incomes help families enjoy a higher standard of living.",
+                "example_vi": "Hai nguồn thu nhập giúp gia đình hưởng mức sống cao hơn."
+              },
+              {
+                "phrase": "pursue careers",
+                "level": "B1",
+                "vi": "theo đuổi sự nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Educated women deserve equal chances to pursue careers.",
+                "example_vi": "Phụ nữ có học vấn xứng đáng có cơ hội bình đẳng theo đuổi sự nghiệp."
+              },
+              {
+                "phrase": "financial independence",
+                "level": "B1",
+                "vi": "sự độc lập tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Working outside gives women confidence and financial independence.",
+                "example_vi": "Đi làm bên ngoài mang lại cho phụ nữ sự tự tin và độc lập tài chính."
+              },
+              {
+                "phrase": "participate in the workforce",
+                "level": "B1",
+                "vi": "tham gia lực lượng lao động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Society grows faster when women participate in the workforce.",
+                "example_vi": "Xã hội phát triển nhanh hơn khi phụ nữ tham gia lực lượng lao động."
+              },
+              {
+                "phrase": "valuable human resources",
+                "level": "B1",
+                "vi": "nguồn nhân lực quý giá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Keeping women at home wastes valuable human resources.",
+                "example_vi": "Giữ phụ nữ ở nhà làm lãng phí nguồn nhân lực quý giá."
+              },
+              {
+                "phrase": "vital sectors",
+                "level": "B1",
+                "vi": "các lĩnh vực thiết yếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Women play key roles in vital sectors like healthcare and education.",
+                "example_vi": "Phụ nữ đóng vai trò chủ chốt ở các lĩnh vực thiết yếu như y tế và giáo dục."
+              },
+              {
+                "phrase": "dual-income household",
+                "level": "B2",
+                "vi": "gia đình hai nguồn thu nhập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A dual-income household handles rising living costs far more safely.",
+                "example_vi": "Gia đình hai nguồn thu nhập ứng phó chi phí tăng cao an toàn hơn nhiều."
+              },
+              {
+                "phrase": "escalating living costs",
+                "level": "B2",
+                "vi": "chi phí sinh hoạt leo thang",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Escalating living costs make single-earner families financially vulnerable.",
+                "example_vi": "Chi phí sinh hoạt leo thang khiến gia đình một thu nhập dễ gặp rủi ro."
+              },
+              {
+                "phrase": "economic resilience",
+                "level": "B2",
+                "vi": "sức chống chịu về kinh tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Two earners provide crucial economic resilience during unexpected layoffs.",
+                "example_vi": "Hai người kiếm tiền tạo sức chống chịu kinh tế quan trọng khi mất việc đột ngột."
+              },
+              {
+                "phrase": "confine women to domestic roles",
+                "level": "B2",
+                "vi": "đóng khung phụ nữ vào vai trò nội trợ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Modern society should never confine women to domestic roles.",
+                "example_vi": "Xã hội hiện đại không bao giờ nên đóng khung phụ nữ vào vai trò nội trợ."
+              },
+              {
+                "phrase": "personal fulfillment and autonomy",
+                "level": "B2",
+                "vi": "sự thỏa mãn bản thân và quyền tự chủ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Meaningful careers bring women personal fulfillment and autonomy.",
+                "example_vi": "Sự nghiệp ý nghĩa mang lại cho phụ nữ sự thỏa mãn và quyền tự chủ."
+              },
+              {
+                "phrase": "outdated gender stereotypes",
+                "level": "B2",
+                "vi": "định kiến giới lỗi thời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Expecting wives to quit work reflects outdated gender stereotypes.",
+                "example_vi": "Kỳ vọng vợ nghỉ việc phản ánh định kiến giới lỗi thời."
+              },
+              {
+                "phrase": "unlock vital human capital",
+                "level": "B2",
+                "vi": "khai phá nguồn vốn nhân lực thiết yếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Female employment unlocks vital human capital for national growth.",
+                "example_vi": "Việc làm của nữ giới khai phá nguồn vốn nhân lực cho tăng trưởng quốc gia."
+              },
+              {
+                "phrase": "gender-balanced leadership",
+                "level": "B2",
+                "vi": "đội ngũ lãnh đạo cân bằng giới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Companies with gender-balanced leadership often achieve stronger innovation.",
+                "example_vi": "Doanh nghiệp có lãnh đạo cân bằng giới thường đạt sức đổi mới mạnh hơn."
+              },
+              {
+                "phrase": "share housework fairly",
+                "level": "B1",
+                "vi": "chia sẻ việc nhà công bằng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Husbands and wives should share housework fairly every day.",
+                "example_vi": "Vợ và chồng nên chia sẻ việc nhà công bằng mỗi ngày."
+              },
+              {
+                "phrase": "feel respected",
+                "level": "B1",
+                "vi": "cảm thấy được tôn trọng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Equal sharing helps wives feel respected and valued in marriage.",
+                "example_vi": "Chia sẻ bình đẳng giúp người vợ cảm thấy được tôn trọng trong hôn nhân."
+              },
+              {
+                "phrase": "equal teamwork",
+                "level": "B1",
+                "vi": "sự phối hợp bình đẳng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Equal teamwork reduces arguments and builds happier families.",
+                "example_vi": "Sự phối hợp bình đẳng giảm tranh cãi và xây dựng gia đình hạnh phúc hơn."
+              },
+              {
+                "phrase": "gender equality",
+                "level": "B1",
+                "vi": "bình đẳng giới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Modern parents want to teach their children about gender equality.",
+                "example_vi": "Cha mẹ hiện đại muốn dạy con cái về bình đẳng giới."
+              },
+              {
+                "phrase": "set a positive example",
+                "level": "B1",
+                "vi": "làm gương tích cực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Fathers who cook and clean set a positive example for sons.",
+                "example_vi": "Những người cha nấu ăn và dọn dẹp làm gương tích cực cho con trai."
+              },
+              {
+                "phrase": "belong to everyone",
+                "level": "B1",
+                "vi": "thuộc về mọi thành viên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Kids should learn that household chores belong to everyone.",
+                "example_vi": "Trẻ nên học rằng việc nhà là trách nhiệm thuộc về mọi người."
+              },
+              {
+                "phrase": "ambitious careers",
+                "level": "B1",
+                "vi": "sự nghiệp đầy hoài bão",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Daughters grow confident enough to pursue ambitious careers.",
+                "example_vi": "Các bé gái lớn lên đủ tự tin để theo đuổi sự nghiệp lớn."
+              },
+              {
+                "phrase": "modern attitudes",
+                "level": "B1",
+                "vi": "tư duy hiện đại, tiến bộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Equal families help young people grow up with modern attitudes.",
+                "example_vi": "Gia đình bình đẳng giúp người trẻ trưởng thành với tư duy tiến bộ."
+              },
+              {
+                "phrase": "respectful partnership",
+                "level": "B2",
+                "vi": "mối quan hệ đồng hành tôn trọng nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Sharing duties equally creates a respectful partnership in marriage.",
+                "example_vi": "Chia sẻ nhiệm vụ bình đẳng tạo dựng mối quan hệ đồng hành tôn trọng nhau."
+              },
+              {
+                "phrase": "strengthen father-child bonds",
+                "level": "B2",
+                "vi": "thắt chặt tình cảm cha con",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Involving men in daily childcare significantly strengthens father-child bonds.",
+                "example_vi": "Để đàn ông tham gia chăm con hằng ngày thắt chặt mạnh mẽ tình cảm cha con."
+              },
+              {
+                "phrase": "lingering resentment",
+                "level": "B2",
+                "vi": "sự ấm ức kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Unfair domestic burdens frequently cause lingering resentment between spouses.",
+                "example_vi": "Gánh nặng nội trợ bất công thường gây ra sự ấm ức kéo dài giữa vợ chồng."
+              },
+              {
+                "phrase": "rigid traditional roles",
+                "level": "B2",
+                "vi": "những vai trò truyền thống cứng nhắc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Flexible cooperation outperforms rigid traditional roles in modern life.",
+                "example_vi": "Sự hợp tác linh hoạt vượt trội hơn vai trò truyền thống cứng nhắc."
+              },
+              {
+                "phrase": "break down gender barriers",
+                "level": "B2",
+                "vi": "phá bỏ rào cản giới tính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Egalitarian families help break down gender barriers from early childhood.",
+                "example_vi": "Gia đình bình đẳng giúp phá bỏ rào cản giới tính ngay từ tuổi thơ."
+              },
+              {
+                "phrase": "egalitarian homes",
+                "level": "B2",
+                "vi": "những gia đình bình đẳng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Children raised in egalitarian homes respect everyone regardless of gender.",
+                "example_vi": "Trẻ lớn lên trong gia đình bình đẳng tôn trọng mọi người bất kể giới tính."
+              },
+              {
+                "phrase": "domestic self-sufficiency",
+                "level": "B2",
+                "vi": "khả năng tự lo việc nhà",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Sons acquire vital domestic self-sufficiency by watching fathers cook.",
+                "example_vi": "Con trai học khả năng tự lo việc nhà nhờ thấy cha nấu ăn."
+              },
+              {
+                "phrase": "inclusive society",
+                "level": "B2",
+                "vi": "một xã hội bao trùm và bình đẳng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Positive role modeling at home lays the groundwork for an inclusive society.",
+                "example_vi": "Tấm gương tích cực tại nhà đặt nền móng cho một xã hội bình đẳng."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t31_g1",
+                "name": "Nhóm 1: Chăm sóc Con cái & Tổ ấm (Childcare & Home Management — Agree)",
+                "icon": "🏠",
+                "badge": "Đồng ý 01, 04–05",
+                "items": [
+                  {
+                    "en": "stay at home",
+                    "phrase": "stay at home",
+                    "vi": "ở nhà chăm lo gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "When mothers stay at home, children receive closer daily care.",
+                    "example_vi": "Khi người mẹ ở nhà, trẻ nhận được sự chăm sóc sát sao hằng ngày."
+                  },
+                  {
+                    "en": "closer care and attention",
+                    "phrase": "closer care and attention",
+                    "vi": "sự chăm sóc và quan tâm sát sao hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Young kids thrive with closer care and attention from parents.",
+                    "example_vi": "Trẻ nhỏ phát triển tốt nhờ sự chăm sóc và quan tâm sát sao từ cha mẹ."
+                  },
+                  {
+                    "en": "cook nutritious meals",
+                    "phrase": "cook nutritious meals",
+                    "vi": "nấu những bữa ăn bổ dưỡng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Stay-at-home mothers have time to cook nutritious meals daily.",
+                    "example_vi": "Người mẹ ở nhà có thời gian nấu những bữa ăn bổ dưỡng mỗi ngày."
+                  },
+                  {
+                    "en": "warm family meals",
+                    "phrase": "warm family meals",
+                    "vi": "bữa cơm gia đình ấm cúng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having one homemaker ensures warm family meals every evening.",
+                    "example_vi": "Có một người lo nội trợ đảm bảo bữa cơm gia đình ấm cúng mỗi tối."
+                  },
+                  {
+                    "en": "clean and tidy house",
+                    "phrase": "clean and tidy house",
+                    "vi": "ngôi nhà sạch sẽ và ngăn nắp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Full-time care keeps a clean and tidy house for everyone.",
+                    "example_vi": "Chăm lo toàn thời gian giữ ngôi nhà sạch sẽ và ngăn nắp cho mọi người."
+                  },
+                  {
+                    "en": "peaceful atmosphere",
+                    "phrase": "peaceful atmosphere",
+                    "vi": "bầu không khí bình yên",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "An organized home creates a peaceful atmosphere after work.",
+                    "example_vi": "Ngôi nhà ngăn nắp tạo ra bầu không khí bình yên sau giờ làm."
+                  },
+                  {
+                    "en": "private childcare fees",
+                    "phrase": "private childcare fees",
+                    "vi": "chi phí gửi trẻ tư thục",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Caring for kids at home saves money on private childcare fees.",
+                    "example_vi": "Chăm con tại nhà giúp tiết kiệm tiền gửi trẻ tư thục."
+                  },
+                  {
+                    "en": "domestic helpers",
+                    "phrase": "domestic helpers",
+                    "vi": "người giúp việc nhà",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Hiring domestic helpers can be very costly in big cities.",
+                    "example_vi": "Thuê người giúp việc nhà có thể rất tốn kém ở thành phố lớn."
+                  },
+                  {
+                    "en": "formative early years",
+                    "phrase": "formative early years",
+                    "vi": "những năm đầu đời định hình",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Direct parental care is vital during children's formative early years.",
+                    "example_vi": "Sự chăm sóc trực tiếp của cha mẹ rất thiết yếu trong những năm đầu đời."
+                  },
+                  {
+                    "en": "stay-at-home mother",
+                    "phrase": "stay-at-home mother",
+                    "vi": "người mẹ ở nhà nội trợ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A stay-at-home mother can closely monitor children's study routines.",
+                    "example_vi": "Người mẹ nội trợ có thể theo sát thói quen học tập của con."
+                  },
+                  {
+                    "en": "orderly living environment",
+                    "phrase": "orderly living environment",
+                    "vi": "môi trường sống ngăn nắp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dedicated homemaker maintains an orderly living environment.",
+                    "example_vi": "Người nội trợ tận tâm duy trì môi trường sống ngăn nắp."
+                  },
+                  {
+                    "en": "harmonious family routines",
+                    "phrase": "harmonious family routines",
+                    "vi": "nếp sinh hoạt gia đình hài hòa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Consistent home management fosters harmonious family routines.",
+                    "example_vi": "Quản lý gia đình đều đặn tạo dựng nếp sinh hoạt hài hòa."
+                  },
+                  {
+                    "en": "warm sanctuary",
+                    "phrase": "warm sanctuary",
+                    "vi": "tổ ấm bình yên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fresh dinners turn the house into a warm sanctuary for tired workers.",
+                    "example_vi": "Bữa tối ấm nóng biến ngôi nhà thành tổ ấm bình yên cho người đi làm mệt."
+                  },
+                  {
+                    "en": "financially sensible arrangement",
+                    "phrase": "financially sensible arrangement",
+                    "vi": "sự sắp xếp hợp lý về tài chính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "For large families, avoiding daycare costs can be a financially sensible arrangement.",
+                    "example_vi": "Với gia đình đông con, tránh phí gửi trẻ có thể là phương án kinh tế hợp lý."
+                  },
+                  {
+                    "en": "peace of mind",
+                    "phrase": "peace of mind",
+                    "vi": "sự an tâm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Caring for children directly gives parents invaluable peace of mind.",
+                    "example_vi": "Tự chăm sóc con mang lại cho cha mẹ sự an tâm vô giá."
+                  },
+                  {
+                    "en": "resilient foundation",
+                    "phrase": "resilient foundation",
+                    "vi": "nền tảng vững chắc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong emotional security lays a resilient foundation for adulthood.",
+                    "example_vi": "Sự an toàn cảm xúc đặt nền tảng vững chắc cho tuổi trưởng thành."
+                  }
+                ]
+              },
+              {
+                "id": "t31_g2",
+                "name": "Nhóm 2: Phân công Vai trò & Áp lực Kép (Role Division & Career Focus — Agree)",
+                "icon": "⚖️",
+                "badge": "Đồng ý 02–03",
+                "items": [
+                  {
+                    "en": "clear role division",
+                    "phrase": "clear role division",
+                    "vi": "sự phân công vai trò rõ ràng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Clear role division prevents confusion about daily duties.",
+                    "example_vi": "Phân công vai trò rõ ràng giúp tránh lộn xộn về nhiệm vụ hằng ngày."
+                  },
+                  {
+                    "en": "avoid exhaustion",
+                    "phrase": "avoid exhaustion",
+                    "vi": "tránh bị kiệt sức",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Focusing on one role helps women avoid exhaustion.",
+                    "example_vi": "Tập trung vào một vai trò giúp phụ nữ tránh bị kiệt sức."
+                  },
+                  {
+                    "en": "working women",
+                    "phrase": "working women",
+                    "vi": "phụ nữ đi làm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many working women struggle to balance office jobs and chores.",
+                    "example_vi": "Nhiều phụ nữ đi làm chật vật cân bằng công sở và việc nhà."
+                  },
+                  {
+                    "en": "manage the household",
+                    "phrase": "manage the household",
+                    "vi": "quản lý việc gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Staying home lets mothers manage the household more calmly.",
+                    "example_vi": "Ở nhà giúp các bà mẹ quản lý việc nhà một cách thư thái hơn."
+                  },
+                  {
+                    "en": "focus fully on work",
+                    "phrase": "focus fully on work",
+                    "vi": "tập trung toàn lực cho công việc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Husbands can focus fully on work when home duties are handled.",
+                    "example_vi": "Người chồng có thể tập trung toàn lực cho công việc khi việc nhà được lo chu toàn."
+                  },
+                  {
+                    "en": "earn a higher income",
+                    "phrase": "earn a higher income",
+                    "vi": "kiếm thu nhập cao hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working overtime can help men earn a higher income for the family.",
+                    "example_vi": "Làm thêm giờ giúp người đàn ông kiếm thu nhập cao hơn cho gia đình."
+                  },
+                  {
+                    "en": "faster promotions",
+                    "phrase": "faster promotions",
+                    "vi": "cơ hội thăng tiến nhanh hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong focus on projects leads to faster promotions at work.",
+                    "example_vi": "Tập trung cao cho dự án dẫn đến cơ hội thăng tiến nhanh hơn."
+                  },
+                  {
+                    "en": "support the whole family",
+                    "phrase": "support the whole family",
+                    "vi": "nuôi sống cả gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "One successful career can sometimes support the whole family.",
+                    "example_vi": "Một sự nghiệp thành công đôi khi có thể nuôi sống cả gia đình."
+                  },
+                  {
+                    "en": "shoulder a double burden",
+                    "phrase": "shoulder a double burden",
+                    "vi": "gánh chịu gánh nặng kép",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working mothers often shoulder a heavy double burden of job and housework.",
+                    "example_vi": "Các bà mẹ đi làm thường gánh chịu gánh nặng kép nặng nề."
+                  },
+                  {
+                    "en": "chronic burnout",
+                    "phrase": "chronic burnout",
+                    "vi": "sự kiệt sức kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Juggling full-time jobs and domestic chores can trigger chronic burnout.",
+                    "example_vi": "Vừa làm toàn thời gian vừa lo việc nhà dễ gây kiệt sức kéo dài."
+                  },
+                  {
+                    "en": "undivided energy",
+                    "phrase": "undivided energy",
+                    "vi": "năng lượng trọn vẹn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Men can devote undivided energy to demanding professional projects.",
+                    "example_vi": "Đàn ông có thể dành trọn năng lượng cho các dự án chuyên môn đòi hỏi cao."
+                  },
+                  {
+                    "en": "peak professional capacity",
+                    "phrase": "peak professional capacity",
+                    "vi": "năng lực chuyên môn cao nhất",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Without domestic interruptions, breadwinners work at peak professional capacity.",
+                    "example_vi": "Không bị gián đoạn việc nhà, người trụ cột làm việc ở năng lực cao nhất."
+                  },
+                  {
+                    "en": "practical division of labor",
+                    "phrase": "practical division of labor",
+                    "vi": "sự phân công lao động thực tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Supporters view traditional roles as a practical division of labor.",
+                    "example_vi": "Người ủng hộ coi vai trò truyền thống là sự phân công lao động thực tế."
+                  },
+                  {
+                    "en": "dedicated homemaker",
+                    "phrase": "dedicated homemaker",
+                    "vi": "người nội trợ tận tâm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dedicated homemaker provides reliable support behind the scenes.",
+                    "example_vi": "Người nội trợ tận tâm mang lại hậu phương vững chắc."
+                  },
+                  {
+                    "en": "safeguard long-term well-being",
+                    "phrase": "safeguard long-term well-being",
+                    "vi": "bảo vệ sức khỏe lâu dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Reducing double pressure helps safeguard women's long-term well-being.",
+                    "example_vi": "Giảm áp lực kép giúp bảo vệ sức khỏe lâu dài của phụ nữ."
+                  },
+                  {
+                    "en": "high-pressure projects",
+                    "phrase": "high-pressure projects",
+                    "vi": "những dự án áp lực cao",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flexibility enables employees to take on high-pressure projects abroad.",
+                    "example_vi": "Sự linh hoạt giúp nhân viên đảm nhận các dự án áp lực cao ở nước ngoài."
+                  }
+                ]
+              },
+              {
+                "id": "t31_g3",
+                "name": "Nhóm 3: Tài chính Hai thu nhập, Quyền Phụ nữ & Kinh tế (Dual Income & Equality — Disagree)",
+                "icon": "💼",
+                "badge": "Phản đối 01–03",
+                "items": [
+                  {
+                    "en": "financially secure",
+                    "phrase": "financially secure",
+                    "vi": "vững vàng về tài chính",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having two salaries makes families much more financially secure.",
+                    "example_vi": "Có hai nguồn lương giúp gia đình vững vàng tài chính hơn nhiều."
+                  },
+                  {
+                    "en": "cover all expenses",
+                    "phrase": "cover all expenses",
+                    "vi": "trang trải mọi chi phí",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "One salary is rarely enough to cover all expenses in big cities.",
+                    "example_vi": "Một mức lương hiếm khi đủ trang trải mọi chi phí ở thành phố lớn."
+                  },
+                  {
+                    "en": "standard of living",
+                    "phrase": "standard of living",
+                    "vi": "mức sống",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Dual incomes help families enjoy a higher standard of living.",
+                    "example_vi": "Hai nguồn thu nhập giúp gia đình hưởng mức sống cao hơn."
+                  },
+                  {
+                    "en": "pursue careers",
+                    "phrase": "pursue careers",
+                    "vi": "theo đuổi sự nghiệp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Educated women deserve equal chances to pursue careers.",
+                    "example_vi": "Phụ nữ có học vấn xứng đáng có cơ hội bình đẳng theo đuổi sự nghiệp."
+                  },
+                  {
+                    "en": "financial independence",
+                    "phrase": "financial independence",
+                    "vi": "sự độc lập tài chính",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working outside gives women confidence and financial independence.",
+                    "example_vi": "Đi làm bên ngoài mang lại cho phụ nữ sự tự tin và độc lập tài chính."
+                  },
+                  {
+                    "en": "participate in the workforce",
+                    "phrase": "participate in the workforce",
+                    "vi": "tham gia lực lượng lao động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Society grows faster when women participate in the workforce.",
+                    "example_vi": "Xã hội phát triển nhanh hơn khi phụ nữ tham gia lực lượng lao động."
+                  },
+                  {
+                    "en": "valuable human resources",
+                    "phrase": "valuable human resources",
+                    "vi": "nguồn nhân lực quý giá",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Keeping women at home wastes valuable human resources.",
+                    "example_vi": "Giữ phụ nữ ở nhà làm lãng phí nguồn nhân lực quý giá."
+                  },
+                  {
+                    "en": "vital sectors",
+                    "phrase": "vital sectors",
+                    "vi": "các lĩnh vực thiết yếu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Women play key roles in vital sectors like healthcare and education.",
+                    "example_vi": "Phụ nữ đóng vai trò chủ chốt ở các lĩnh vực thiết yếu như y tế và giáo dục."
+                  },
+                  {
+                    "en": "dual-income household",
+                    "phrase": "dual-income household",
+                    "vi": "gia đình hai nguồn thu nhập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dual-income household handles rising living costs far more safely.",
+                    "example_vi": "Gia đình hai nguồn thu nhập ứng phó chi phí tăng cao an toàn hơn nhiều."
+                  },
+                  {
+                    "en": "escalating living costs",
+                    "phrase": "escalating living costs",
+                    "vi": "chi phí sinh hoạt leo thang",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Escalating living costs make single-earner families financially vulnerable.",
+                    "example_vi": "Chi phí sinh hoạt leo thang khiến gia đình một thu nhập dễ gặp rủi ro."
+                  },
+                  {
+                    "en": "economic resilience",
+                    "phrase": "economic resilience",
+                    "vi": "sức chống chịu về kinh tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Two earners provide crucial economic resilience during unexpected layoffs.",
+                    "example_vi": "Hai người kiếm tiền tạo sức chống chịu kinh tế quan trọng khi mất việc đột ngột."
+                  },
+                  {
+                    "en": "confine women to domestic roles",
+                    "phrase": "confine women to domestic roles",
+                    "vi": "đóng khung phụ nữ vào vai trò nội trợ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern society should never confine women to domestic roles.",
+                    "example_vi": "Xã hội hiện đại không bao giờ nên đóng khung phụ nữ vào vai trò nội trợ."
+                  },
+                  {
+                    "en": "personal fulfillment and autonomy",
+                    "phrase": "personal fulfillment and autonomy",
+                    "vi": "sự thỏa mãn bản thân và quyền tự chủ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Meaningful careers bring women personal fulfillment and autonomy.",
+                    "example_vi": "Sự nghiệp ý nghĩa mang lại cho phụ nữ sự thỏa mãn và quyền tự chủ."
+                  },
+                  {
+                    "en": "outdated gender stereotypes",
+                    "phrase": "outdated gender stereotypes",
+                    "vi": "định kiến giới lỗi thời",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Expecting wives to quit work reflects outdated gender stereotypes.",
+                    "example_vi": "Kỳ vọng vợ nghỉ việc phản ánh định kiến giới lỗi thời."
+                  },
+                  {
+                    "en": "unlock vital human capital",
+                    "phrase": "unlock vital human capital",
+                    "vi": "khai phá nguồn vốn nhân lực thiết yếu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Female employment unlocks vital human capital for national growth.",
+                    "example_vi": "Việc làm của nữ giới khai phá nguồn vốn nhân lực cho tăng trưởng quốc gia."
+                  },
+                  {
+                    "en": "gender-balanced leadership",
+                    "phrase": "gender-balanced leadership",
+                    "vi": "đội ngũ lãnh đạo cân bằng giới",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Companies with gender-balanced leadership often achieve stronger innovation.",
+                    "example_vi": "Doanh nghiệp có lãnh đạo cân bằng giới thường đạt sức đổi mới mạnh hơn."
+                  }
+                ]
+              },
+              {
+                "id": "t31_g4",
+                "name": "Nhóm 4: Hôn nhân Bình đẳng & Giáo dục Con cái (Shared Partnership & Role Models — Disagree)",
+                "icon": "🤝",
+                "badge": "Phản đối 04–05",
+                "items": [
+                  {
+                    "en": "share housework fairly",
+                    "phrase": "share housework fairly",
+                    "vi": "chia sẻ việc nhà công bằng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Husbands and wives should share housework fairly every day.",
+                    "example_vi": "Vợ và chồng nên chia sẻ việc nhà công bằng mỗi ngày."
+                  },
+                  {
+                    "en": "feel respected",
+                    "phrase": "feel respected",
+                    "vi": "cảm thấy được tôn trọng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal sharing helps wives feel respected and valued in marriage.",
+                    "example_vi": "Chia sẻ bình đẳng giúp người vợ cảm thấy được tôn trọng trong hôn nhân."
+                  },
+                  {
+                    "en": "equal teamwork",
+                    "phrase": "equal teamwork",
+                    "vi": "sự phối hợp bình đẳng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal teamwork reduces arguments and builds happier families.",
+                    "example_vi": "Sự phối hợp bình đẳng giảm tranh cãi và xây dựng gia đình hạnh phúc hơn."
+                  },
+                  {
+                    "en": "gender equality",
+                    "phrase": "gender equality",
+                    "vi": "bình đẳng giới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern parents want to teach their children about gender equality.",
+                    "example_vi": "Cha mẹ hiện đại muốn dạy con cái về bình đẳng giới."
+                  },
+                  {
+                    "en": "set a positive example",
+                    "phrase": "set a positive example",
+                    "vi": "làm gương tích cực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fathers who cook and clean set a positive example for sons.",
+                    "example_vi": "Những người cha nấu ăn và dọn dẹp làm gương tích cực cho con trai."
+                  },
+                  {
+                    "en": "belong to everyone",
+                    "phrase": "belong to everyone",
+                    "vi": "thuộc về mọi thành viên",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Kids should learn that household chores belong to everyone.",
+                    "example_vi": "Trẻ nên học rằng việc nhà là trách nhiệm thuộc về mọi người."
+                  },
+                  {
+                    "en": "ambitious careers",
+                    "phrase": "ambitious careers",
+                    "vi": "sự nghiệp đầy hoài bão",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Daughters grow confident enough to pursue ambitious careers.",
+                    "example_vi": "Các bé gái lớn lên đủ tự tin để theo đuổi sự nghiệp lớn."
+                  },
+                  {
+                    "en": "modern attitudes",
+                    "phrase": "modern attitudes",
+                    "vi": "tư duy hiện đại, tiến bộ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal families help young people grow up with modern attitudes.",
+                    "example_vi": "Gia đình bình đẳng giúp người trẻ trưởng thành với tư duy tiến bộ."
+                  },
+                  {
+                    "en": "respectful partnership",
+                    "phrase": "respectful partnership",
+                    "vi": "mối quan hệ đồng hành tôn trọng nhau",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sharing duties equally creates a respectful partnership in marriage.",
+                    "example_vi": "Chia sẻ nhiệm vụ bình đẳng tạo dựng mối quan hệ đồng hành tôn trọng nhau."
+                  },
+                  {
+                    "en": "strengthen father-child bonds",
+                    "phrase": "strengthen father-child bonds",
+                    "vi": "thắt chặt tình cảm cha con",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Involving men in daily childcare significantly strengthens father-child bonds.",
+                    "example_vi": "Để đàn ông tham gia chăm con hằng ngày thắt chặt mạnh mẽ tình cảm cha con."
+                  },
+                  {
+                    "en": "lingering resentment",
+                    "phrase": "lingering resentment",
+                    "vi": "sự ấm ức kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Unfair domestic burdens frequently cause lingering resentment between spouses.",
+                    "example_vi": "Gánh nặng nội trợ bất công thường gây ra sự ấm ức kéo dài giữa vợ chồng."
+                  },
+                  {
+                    "en": "rigid traditional roles",
+                    "phrase": "rigid traditional roles",
+                    "vi": "những vai trò truyền thống cứng nhắc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flexible cooperation outperforms rigid traditional roles in modern life.",
+                    "example_vi": "Sự hợp tác linh hoạt vượt trội hơn vai trò truyền thống cứng nhắc."
+                  },
+                  {
+                    "en": "break down gender barriers",
+                    "phrase": "break down gender barriers",
+                    "vi": "phá bỏ rào cản giới tính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Egalitarian families help break down gender barriers from early childhood.",
+                    "example_vi": "Gia đình bình đẳng giúp phá bỏ rào cản giới tính ngay từ tuổi thơ."
+                  },
+                  {
+                    "en": "egalitarian homes",
+                    "phrase": "egalitarian homes",
+                    "vi": "những gia đình bình đẳng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Children raised in egalitarian homes respect everyone regardless of gender.",
+                    "example_vi": "Trẻ lớn lên trong gia đình bình đẳng tôn trọng mọi người bất kể giới tính."
+                  },
+                  {
+                    "en": "domestic self-sufficiency",
+                    "phrase": "domestic self-sufficiency",
+                    "vi": "khả năng tự lo việc nhà",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sons acquire vital domestic self-sufficiency by watching fathers cook.",
+                    "example_vi": "Con trai học khả năng tự lo việc nhà nhờ thấy cha nấu ăn."
+                  },
+                  {
+                    "en": "inclusive society",
+                    "phrase": "inclusive society",
+                    "vi": "một xã hội bao trùm và bình đẳng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Positive role modeling at home lays the groundwork for an inclusive society.",
+                    "example_vi": "Tấm gương tích cực tại nhà đặt nền móng cho một xã hội bình đẳng."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Gia đình",
+                "title": "Chia sẻ việc nhà và bình đẳng giới trong gia đình hiện đại",
+                "summary": "Phân tích sự thay đổi vai trò của phụ nữ và đàn ông trong gia đình hiện đại, giữa mô hình phân công truyền thống và xu hướng cùng chia sẻ sự nghiệp lẫn việc nhà.",
+                "url": "https://vnexpress.net/doi-song"
+              }
+            ],
+            "en": [
+              {
+                "source": "UN Women",
+                "title": "Redistributing Unpaid Care and Domestic Work for Gender Equality",
+                "summary": "Global perspective on why balancing unpaid housework and equal workforce participation strengthens families, women's autonomy, and economic growth.",
+                "url": "https://www.unwomen.org/en/news/in-focus/csw61/redistribute-unpaid-work"
+              }
+            ]
+          }
+        },
+        "approaches": [
+          {
+            "name": "HƯỚNG 01: ĐỒNG Ý (AGREE)",
+            "stance": "agree",
+            "details": {
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 01: TRẺ EM ĐƯỢC CHĂM SÓC VÀ GIÁO DỤC TỐT HƠN TẠI NHÀ",
+                    "point_vi": "Khi người mẹ ở nhà, trẻ em có thể nhận được sự chăm sóc và quan tâm sát sao hơn mỗi ngày.",
+                    "point_en": "When mothers stay at home, children can receive closer care and attention every day.",
+                    "point_collocations": [
+                      {
+                        "en": "stay at home",
+                        "vi": "ở nhà"
+                      },
+                      {
+                        "en": "closer care and attention",
+                        "vi": "sự chăm sóc và quan tâm sát sao hơn"
+                      }
+                    ],
+                    "evidence_vi": "Người mẹ có đủ thời gian để nấu những bữa ăn bổ dưỡng, đưa đón con đi học và hướng dẫn con làm bài tập. Ngoài ra, sự có mặt thường xuyên của mẹ giúp trẻ cảm thấy an toàn và dễ dàng chia sẻ cảm xúc. Nhờ vậy, trẻ có thể phát triển khỏe mạnh hơn về cả thể chất lẫn tinh thần.",
+                    "evidence_en": "Mothers have enough time to cook nutritious meals, pick children up from school, and help them with homework. In addition, having a parent at home makes children feel safe and comfortable sharing their feelings. As a result, kids can grow up healthier both physically and emotionally.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "nutritious meals",
+                          "vi": "bữa ăn bổ dưỡng"
+                        },
+                        {
+                          "en": "help with homework",
+                          "vi": "giúp làm bài tập"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "feel safe",
+                          "vi": "cảm thấy an toàn"
+                        },
+                        {
+                          "en": "share feelings",
+                          "vi": "chia sẻ cảm xúc"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "physically and emotionally",
+                          "vi": "về cả thể chất lẫn tinh thần"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "stay at home",
+                        "vi": "ở nhà"
+                      },
+                      {
+                        "en": "closer care and attention",
+                        "vi": "sự chăm sóc và quan tâm sát sao hơn"
+                      },
+                      {
+                        "en": "nutritious meals",
+                        "vi": "bữa ăn bổ dưỡng"
+                      },
+                      {
+                        "en": "help with homework",
+                        "vi": "giúp làm bài tập"
+                      },
+                      {
+                        "en": "feel safe",
+                        "vi": "cảm thấy an toàn"
+                      },
+                      {
+                        "en": "share feelings",
+                        "vi": "chia sẻ cảm xúc"
+                      },
+                      {
+                        "en": "physically and emotionally",
+                        "vi": "về cả thể chất lẫn tinh thần"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 02: GIẢM ÁP LỰC KÉP CHO PHỤ NỮ",
+                    "point_vi": "Phân công rõ ràng giúp phụ nữ tránh bị kiệt sức vì phải vừa đi làm toàn thời gian vừa lo việc nhà.",
+                    "point_en": "Clear role division helps women avoid exhaustion from working full-time and doing housework at the same time.",
+                    "point_collocations": [
+                      {
+                        "en": "clear role division",
+                        "vi": "sự phân công vai trò rõ ràng"
+                      },
+                      {
+                        "en": "avoid exhaustion",
+                        "vi": "tránh bị kiệt sức"
+                      }
+                    ],
+                    "evidence_vi": "Nhiều phụ nữ đi làm cả ngày ở công sở vẫn phải nấu ăn, dọn dẹp và chăm con vào buổi tối. Áp lực nặng nề này khiến họ thiếu thời gian nghỉ ngơi và dễ bị căng thẳng kéo dài. Khi tập trung hoàn toàn vào gia đình, họ có thể quản lý việc nhà nhẹ nhàng và thoải mái hơn.",
+                    "evidence_en": "Many working women spend all day at the office and still have to cook, clean, and care for kids at night. This heavy pressure leaves them with little time to rest and easily causes ongoing stress. Focusing solely on home duties allows them to manage the household much more calmly.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "working women",
+                          "vi": "phụ nữ đi làm"
+                        },
+                        {
+                          "en": "care for kids",
+                          "vi": "chăm sóc con cái"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "ongoing stress",
+                          "vi": "căng thẳng kéo dài"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "manage the household",
+                          "vi": "quản lý việc gia đình"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "clear role division",
+                        "vi": "sự phân công vai trò rõ ràng"
+                      },
+                      {
+                        "en": "avoid exhaustion",
+                        "vi": "tránh bị kiệt sức"
+                      },
+                      {
+                        "en": "working women",
+                        "vi": "phụ nữ đi làm"
+                      },
+                      {
+                        "en": "care for kids",
+                        "vi": "chăm sóc con cái"
+                      },
+                      {
+                        "en": "ongoing stress",
+                        "vi": "căng thẳng kéo dài"
+                      },
+                      {
+                        "en": "manage the household",
+                        "vi": "quản lý việc gia đình"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 03: GIÚP NGƯỜI CHỒNG TẬP TRUNG PHÁT TRIỂN SỰ NGHIỆP",
+                    "point_vi": "Khi người vợ lo chu toàn việc gia đình, người chồng có thể tập trung toàn lực cho công việc và kiếm thu nhập cao hơn.",
+                    "point_en": "When wives take good care of the home, husbands can focus fully on work and earn a higher income.",
+                    "point_collocations": [
+                      {
+                        "en": "focus fully on work",
+                        "vi": "tập trung toàn lực cho công việc"
+                      },
+                      {
+                        "en": "earn a higher income",
+                        "vi": "kiếm thu nhập cao hơn"
+                      }
+                    ],
+                    "evidence_vi": "Người đàn ông không phải lo lắng về bữa ăn hay việc đón con nên có thể dành nhiều năng lượng cho các dự án lớn. Họ cũng sẵn sàng đi công tác hoặc làm thêm giờ để có cơ hội thăng tiến nhanh hơn. Nhờ đó, họ có thể xây dựng sự nghiệp vững vàng để lo cho cả gia đình.",
+                    "evidence_en": "Men do not have to worry about daily meals or school pick-ups, so they can put more energy into important work projects. They can also travel for business or work overtime to gain faster promotions. Therefore, they can build a strong career to support the whole family.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "work projects",
+                          "vi": "các dự án công việc"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "faster promotions",
+                          "vi": "thăng tiến nhanh hơn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "support the whole family",
+                          "vi": "nuôi sống cả gia đình"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "focus fully on work",
+                        "vi": "tập trung toàn lực cho công việc"
+                      },
+                      {
+                        "en": "earn a higher income",
+                        "vi": "kiếm thu nhập cao hơn"
+                      },
+                      {
+                        "en": "work projects",
+                        "vi": "các dự án công việc"
+                      },
+                      {
+                        "en": "faster promotions",
+                        "vi": "thăng tiến nhanh hơn"
+                      },
+                      {
+                        "en": "support the whole family",
+                        "vi": "nuôi sống cả gia đình"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 04: DUY TRÌ NGÔI NHÀ GỌN GÀNG VÀ NẾP SỐNG ỔN ĐỊNH",
+                    "point_vi": "Có một người chuyên trách việc nhà giúp ngôi nhà luôn sạch sẽ, ngăn nắp và có bữa cơm ấm cúng mỗi ngày.",
+                    "point_en": "Having one person manage the home keeps the house clean, tidy, and ensures warm family meals every day.",
+                    "point_collocations": [
+                      {
+                        "en": "clean and tidy",
+                        "vi": "sạch sẽ và ngăn nắp"
+                      },
+                      {
+                        "en": "warm family meals",
+                        "vi": "bữa cơm gia đình ấm cúng"
+                      }
+                    ],
+                    "evidence_vi": "Cả gia đình không phải ăn đồ ăn nhanh thường xuyên hay sống trong không gian bừa bộn sau giờ làm mệt mỏi. Các thành viên có thể trở về một mái ấm gọn gàng và cùng nhau ăn tối đúng giờ. Điều này mang lại cảm giác bình yên và nâng cao chất lượng sống hằng ngày.",
+                    "evidence_en": "The family does not need to eat fast food frequently or live in a messy house after tiring workdays. Members can return to an organized home and enjoy dinner together on time. This creates a peaceful atmosphere and improves daily quality of life.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "eat fast food",
+                          "vi": "ăn đồ ăn nhanh"
+                        },
+                        {
+                          "en": "messy house",
+                          "vi": "ngôi nhà bừa bộn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "organized home",
+                          "vi": "ngôi nhà ngăn nắp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "peaceful atmosphere",
+                          "vi": "bầu không khí bình yên"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "clean and tidy",
+                        "vi": "sạch sẽ và ngăn nắp"
+                      },
+                      {
+                        "en": "warm family meals",
+                        "vi": "bữa cơm gia đình ấm cúng"
+                      },
+                      {
+                        "en": "eat fast food",
+                        "vi": "ăn đồ ăn nhanh"
+                      },
+                      {
+                        "en": "messy house",
+                        "vi": "ngôi nhà bừa bộn"
+                      },
+                      {
+                        "en": "organized home",
+                        "vi": "ngôi nhà ngăn nắp"
+                      },
+                      {
+                        "en": "peaceful atmosphere",
+                        "vi": "bầu không khí bình yên"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 05: TIẾT KIỆM CHI PHÍ GỬI TRẺ VÀ THUÊ NGƯỜI GIÚP VIỆC",
+                    "point_vi": "Việc người vợ ở nhà chăm sóc gia đình giúp tiết kiệm đáng kể chi phí gửi trẻ và thuê dịch vụ dọn dẹp.",
+                    "point_en": "Having mothers stay home to care for the family saves a lot of money on childcare and cleaning services.",
+                    "point_collocations": [
+                      {
+                        "en": "childcare",
+                        "vi": "dịch vụ giữ trẻ"
+                      },
+                      {
+                        "en": "cleaning services",
+                        "vi": "dịch vụ dọn dẹp"
+                      }
+                    ],
+                    "evidence_vi": "Tại các thành phố lớn, học phí nhà trẻ tư thục và lương người giúp việc ngày càng đắt đỏ. Đôi khi số tiền này chiếm phần lớn mức lương của một người đi làm trong gia đình. Vì vậy, tự chăm sóc nhà cửa và con cái tại nhà có thể là lựa chọn kinh tế hợp lý cho nhiều cặp vợ chồng.",
+                    "evidence_en": "In big cities, private childcare fees and domestic helpers are becoming increasingly expensive. Sometimes these costs take up most of one working parent's monthly salary. Therefore, caring for children and housework at home can be a practical financial choice for many couples.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "domestic helpers",
+                          "vi": "người giúp việc nhà"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "monthly salary",
+                          "vi": "lương hằng tháng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "practical financial choice",
+                          "vi": "lựa chọn tài chính thực tế"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "childcare",
+                        "vi": "dịch vụ giữ trẻ"
+                      },
+                      {
+                        "en": "cleaning services",
+                        "vi": "dịch vụ dọn dẹp"
+                      },
+                      {
+                        "en": "domestic helpers",
+                        "vi": "người giúp việc nhà"
+                      },
+                      {
+                        "en": "monthly salary",
+                        "vi": "lương hằng tháng"
+                      },
+                      {
+                        "en": "practical financial choice",
+                        "vi": "lựa chọn tài chính thực tế"
+                      }
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 01: ĐẢM BẢO CHẤT LƯỢNG CHĂM SÓC VÀ GIÁO DỤC CON CÁI (SUPERIOR CHILDCARE AND UPBRINGING)",
+                    "point_vi": "Khi người mẹ toàn tâm chăm lo gia đình, trẻ em được hưởng sự nuôi dưỡng sát sao và nền tảng giáo dục sớm vững chắc hơn.",
+                    "point_en": "When mothers devote their full attention to the home, children benefit from closer supervision and stronger early upbringing.",
+                    "point_collocations": [
+                      {
+                        "en": "closer supervision",
+                        "vi": "sự giám sát sát sao hơn"
+                      },
+                      {
+                        "en": "early upbringing",
+                        "vi": "sự nuôi dưỡng giáo dục sớm"
+                      }
+                    ],
+                    "evidence_vi": "Trong những năm đầu đời, trẻ nhỏ cần sự đồng hành trực tiếp của cha mẹ để phát triển ngôn ngữ, cảm xúc và nhân cách lành mạnh. Một người mẹ ở nhà có đủ thời gian chuẩn bị bữa ăn cân bằng dinh dưỡng, kèm con học bài và theo sát những thay đổi tâm lý hằng ngày của con. Ví dụ, trẻ có mẹ trực tiếp hướng dẫn thường hình thành nếp sinh hoạt khoa học và ít có nguy cơ nghiện thiết bị điện tử hơn. Chính sự hiện diện bền bỉ này tạo ra cảm giác an toàn tâm lý và đặt nền móng vững chắc cho thành công tương lai của trẻ.",
+                    "evidence_en": "During formative early years, children thrive on direct parental guidance to develop healthy language, emotional stability, and character. A stay-at-home mother has ample time to prepare nutritious meals, assist with schoolwork, and monitor subtle shifts in her child's behavior. For example, children receiving consistent home supervision tend to build disciplined study habits and face lower risks of excessive screen use. This steady presence fosters deep emotional security and lays a resilient foundation for children's future development.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "formative early years",
+                          "vi": "những năm đầu đời định hình"
+                        },
+                        {
+                          "en": "emotional stability",
+                          "vi": "sự ổn định cảm xúc"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "stay-at-home mother",
+                          "vi": "người mẹ nội trợ ở nhà"
+                        },
+                        {
+                          "en": "subtle shifts",
+                          "vi": "những thay đổi nhỏ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "disciplined study habits",
+                          "vi": "thói quen học tập kỷ luật"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "resilient foundation",
+                          "vi": "nền tảng vững chắc"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "closer supervision",
+                        "vi": "sự giám sát sát sao hơn"
+                      },
+                      {
+                        "en": "early upbringing",
+                        "vi": "sự nuôi dưỡng giáo dục sớm"
+                      },
+                      {
+                        "en": "formative early years",
+                        "vi": "những năm đầu đời định hình"
+                      },
+                      {
+                        "en": "emotional stability",
+                        "vi": "sự ổn định cảm xúc"
+                      },
+                      {
+                        "en": "stay-at-home mother",
+                        "vi": "người mẹ nội trợ ở nhà"
+                      },
+                      {
+                        "en": "subtle shifts",
+                        "vi": "những thay đổi nhỏ"
+                      },
+                      {
+                        "en": "disciplined study habits",
+                        "vi": "thói quen học tập kỷ luật"
+                      },
+                      {
+                        "en": "resilient foundation",
+                        "vi": "nền tảng vững chắc"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 02: GIẢM GÁNH NẶNG KÉP VÀ CĂNG THẲNG CHO PHỤ NỮ (RELIEVING WOMEN'S DOUBLE BURDEN)",
+                    "point_vi": "Sự phân công chuyên biệt giữa việc ngoài xã hội và việc nhà giúp phụ nữ tránh rơi vào tình trạng kiệt sức do gánh nặng kép.",
+                    "point_en": "Clear specialization between paid work and domestic duties helps protect women from chronic burnout caused by a double burden.",
+                    "point_collocations": [
+                      {
+                        "en": "domestic duties",
+                        "vi": "công việc nội trợ"
+                      },
+                      {
+                        "en": "double burden",
+                        "vi": "gánh nặng kép"
+                      }
+                    ],
+                    "evidence_vi": "Trên thực tế, tại nhiều xã hội hiện đại, phụ nữ dù đi làm toàn thời gian vẫn thường đảm nhận phần lớn công việc bếp núc và chăm sóc con cái sau giờ làm. Việc phải liên tục cân bằng giữa áp lực hạn chót công sở và trách nhiệm gia đình dễ dẫn đến thiếu ngủ và suy giảm sức khỏe tinh thần. Chẳng hạn, nhiều bà mẹ đi làm thừa nhận họ hầu như không có thời gian nghỉ ngơi cá nhân và luôn cảm thấy áy náy vì không làm trọn vẹn cả hai vai trò. Tập trung vào quản lý gia đình giúp họ duy trì nhịp sống thư thái hơn và bảo vệ sức khỏe lâu dài.",
+                    "evidence_en": "In reality, across many societies, women who hold full-time careers still shoulder the majority of cooking, cleaning, and childcare after office hours. Constantly juggling demanding workplace deadlines alongside domestic responsibilities frequently triggers sleep deprivation and chronic stress. For instance, many working mothers report having virtually no personal rest and feeling persistent guilt about dividing their energy. Dedicating themselves exclusively to home management allows them to maintain calmer routines and safeguard long-term well-being.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "shoulder the majority",
+                          "vi": "gánh vác phần lớn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "sleep deprivation",
+                          "vi": "thiếu ngủ trầm trọng"
+                        },
+                        {
+                          "en": "chronic stress",
+                          "vi": "căng thẳng kéo dài"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "persistent guilt",
+                          "vi": "cảm giác áy náy kéo dài"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "safeguard long-term well-being",
+                          "vi": "bảo vệ sức khỏe lâu dài"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "domestic duties",
+                        "vi": "công việc nội trợ"
+                      },
+                      {
+                        "en": "double burden",
+                        "vi": "gánh nặng kép"
+                      },
+                      {
+                        "en": "shoulder the majority",
+                        "vi": "gánh vác phần lớn"
+                      },
+                      {
+                        "en": "sleep deprivation",
+                        "vi": "thiếu ngủ trầm trọng"
+                      },
+                      {
+                        "en": "chronic stress",
+                        "vi": "căng thẳng kéo dài"
+                      },
+                      {
+                        "en": "persistent guilt",
+                        "vi": "cảm giác áy náy kéo dài"
+                      },
+                      {
+                        "en": "safeguard long-term well-being",
+                        "vi": "bảo vệ sức khỏe lâu dài"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 03: TỐI ƯU HÓA NĂNG SUẤT VÀ SỰ NGHIỆP CỦA NGƯỜI CHỒNG (MAXIMIZING THE BREADWINNER'S CAREER)",
+                    "point_vi": "Khi hậu phương gia đình được chăm lo chu toàn, người chồng có thể dồn trọn tâm trí để đạt hiệu suất cao và thăng tiến trong sự nghiệp.",
+                    "point_en": "With household matters managed reliably at home, husbands can devote undivided energy to achieving career growth and higher earnings.",
+                    "point_collocations": [
+                      {
+                        "en": "undivided energy",
+                        "vi": "năng lượng trọn vẹn"
+                      },
+                      {
+                        "en": "career growth",
+                        "vi": "sự phát triển sự nghiệp"
+                      }
+                    ],
+                    "evidence_vi": "Nhiều ngành nghề có mức thu nhập cao đòi hỏi nhân sự sẵn sàng làm việc linh hoạt, đi công tác dài ngày hoặc tiếp nhận các dự án áp lực lớn. Nếu không phải phân tâm bởi việc đưa đón con hay xử lý sự cố gia đình đột xuất, người chồng có thể hoàn thành xuất sắc nhiệm vụ chuyên môn. Ví dụ, các chuyên gia có hậu phương vững chắc thường dễ dàng nắm bắt cơ hội đảm nhiệm vị trí quản lý với mức lương vượt trội hơn. Nhờ mô hình chuyên môn hóa này, tổng thu nhập ổn định của người trụ cột có thể đảm bảo cuộc sống sung túc cho cả gia đình.",
+                    "evidence_en": "Many high-paying professions demand long hours, frequent business travel, and readiness to lead high-pressure projects. Free from daily worries about school runs or unexpected domestic disruptions, husbands can perform consistently at peak professional capacity. For example, male executives supported by a dedicated homemaker often secure rapid promotions and substantially higher salaries. Through this practical division of labor, a single thriving career can comfortably sustain the entire household's financial security.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "high-pressure projects",
+                          "vi": "dự án áp lực cao"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "peak professional capacity",
+                          "vi": "năng lực chuyên môn cao nhất"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "dedicated homemaker",
+                          "vi": "người nội trợ tận tâm"
+                        },
+                        {
+                          "en": "secure rapid promotions",
+                          "vi": "đạt thăng tiến nhanh"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "division of labor",
+                          "vi": "sự phân công lao động"
+                        },
+                        {
+                          "en": "financial security",
+                          "vi": "an ninh tài chính"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "undivided energy",
+                        "vi": "năng lượng trọn vẹn"
+                      },
+                      {
+                        "en": "career growth",
+                        "vi": "sự phát triển sự nghiệp"
+                      },
+                      {
+                        "en": "high-pressure projects",
+                        "vi": "dự án áp lực cao"
+                      },
+                      {
+                        "en": "peak professional capacity",
+                        "vi": "năng lực chuyên môn cao nhất"
+                      },
+                      {
+                        "en": "dedicated homemaker",
+                        "vi": "người nội trợ tận tâm"
+                      },
+                      {
+                        "en": "secure rapid promotions",
+                        "vi": "đạt thăng tiến nhanh"
+                      },
+                      {
+                        "en": "division of labor",
+                        "vi": "sự phân công lao động"
+                      },
+                      {
+                        "en": "financial security",
+                        "vi": "an ninh tài chính"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 04: XÂY DỰNG MÔI TRƯỜNG SỐNG GỌN GÀNG VÀ NẾP SINH HOẠT HÀI HÒA (MAINTAINING A HARMONIOUS HOME)",
+                    "point_vi": "Có người chuyên trách nội trợ giúp duy trì tổ ấm ngăn nắp, bữa cơm gia đình lành mạnh và bầu không khí sinh hoạt ổn định.",
+                    "point_en": "Having a dedicated homemaker maintains an orderly living environment, nutritious daily meals, and harmonious family routines.",
+                    "point_collocations": [
+                      {
+                        "en": "orderly living environment",
+                        "vi": "môi trường sống ngăn nắp"
+                      },
+                      {
+                        "en": "harmonious routines",
+                        "vi": "nếp sinh hoạt hài hòa"
+                      }
+                    ],
+                    "evidence_vi": "Khi cả hai vợ chồng đều đi làm về muộn trong trạng thái mệt mỏi, nhiều gia đình buộc phải phụ thuộc vào đồ ăn chế biến sẵn và thường xuyên tranh cãi về việc nhà tồn đọng. Ngược lại, một người vợ toàn thời gian chăm sóc tổ ấm có thể lên thực đơn khoa học, quản lý chi tiêu hợp lý và giữ nhà cửa luôn sạch đẹp. Chẳng hạn, những bữa cơm tối nóng hổi đúng giờ tạo ra không gian ấm cúng để cả nhà quây quần trò chuyện sau ngày dài. Sự ổn định này trực tiếp nâng cao sức khỏe thể chất lẫn hạnh phúc tinh thần cho mọi thành viên.",
+                    "evidence_en": "When both spouses return home exhausted late in the evening, families often resort to unhealthy takeaways and argue over unfinished chores. By contrast, a full-time homemaker can plan balanced meals, manage household budgets carefully, and keep living spaces clean and welcoming. For instance, sitting down together for freshly cooked dinners every evening creates a warm sanctuary for meaningful family conversation. This everyday stability substantially elevates both physical health and domestic happiness for every member.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "unhealthy takeaways",
+                          "vi": "đồ ăn mang về kém lành mạnh"
+                        },
+                        {
+                          "en": "unfinished chores",
+                          "vi": "việc nhà tồn đọng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "household budgets",
+                          "vi": "ngân sách gia đình"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "warm sanctuary",
+                          "vi": "tổ ấm bình yên"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "domestic happiness",
+                          "vi": "hạnh phúc gia đình"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "orderly living environment",
+                        "vi": "môi trường sống ngăn nắp"
+                      },
+                      {
+                        "en": "harmonious routines",
+                        "vi": "nếp sinh hoạt hài hòa"
+                      },
+                      {
+                        "en": "unhealthy takeaways",
+                        "vi": "đồ ăn mang về kém lành mạnh"
+                      },
+                      {
+                        "en": "unfinished chores",
+                        "vi": "việc nhà tồn đọng"
+                      },
+                      {
+                        "en": "household budgets",
+                        "vi": "ngân sách gia đình"
+                      },
+                      {
+                        "en": "warm sanctuary",
+                        "vi": "tổ ấm bình yên"
+                      },
+                      {
+                        "en": "domestic happiness",
+                        "vi": "hạnh phúc gia đình"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO ĐỒNG Ý 05: TIẾT KIỆM CHI PHÍ THUÊ DỊCH VỤ CHĂM SÓC ĐẮT ĐỎ (SAVING ON COSTLY CARE SERVICES)",
+                    "point_vi": "Tự đảm nhiệm việc chăm con và nội trợ tại nhà giúp nhiều gia đình cắt giảm đáng kể chi phí gửi trẻ và thuê người giúp việc.",
+                    "point_en": "Managing childcare and housework directly at home helps many families save significantly on expensive external services.",
+                    "point_collocations": [
+                      {
+                        "en": "external services",
+                        "vi": "dịch vụ thuê ngoài"
+                      }
+                    ],
+                    "evidence_vi": "Tại các đô thị lớn, chi phí gửi trẻ tư thục chất lượng cao, thuê gia sư và trả lương cho người giúp việc gia đình ngày càng tăng mạnh. Đối với các gia đình có từ hai con nhỏ trở lên, tổng các khoản chi này đôi khi ngang bằng hoặc thậm chí vượt quá mức lương ròng của một người đi làm. Ví dụ, nhiều cặp vợ chồng trẻ nhận thấy việc người mẹ tạm ở nhà chăm con vừa tiết kiệm chi phí vừa yên tâm hơn hẳn so với giao con cho người lạ. Do đó, phân công truyền thống vẫn có thể là bài toán kinh tế khôn ngoan trong nhiều hoàn cảnh gia đình.",
+                    "evidence_en": "In major cities, fees for reliable daycare centers, after-school supervision, and professional domestic cleaners have risen dramatically. For households raising two or more young children, these combined expenses can sometimes equal or exceed one parent's take-home salary. For example, many young couples calculate that having the mother manage the home saves substantial money while providing peace of mind that hired care cannot guarantee. Consequently, traditional role division can remain a financially sensible arrangement for certain families.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "daycare centers",
+                          "vi": "trung tâm giữ trẻ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "take-home salary",
+                          "vi": "mức lương thực nhận"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "peace of mind",
+                          "vi": "sự an tâm"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "financially sensible",
+                          "vi": "hợp lý về mặt tài chính"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "external services",
+                        "vi": "dịch vụ thuê ngoài"
+                      },
+                      {
+                        "en": "daycare centers",
+                        "vi": "trung tâm giữ trẻ"
+                      },
+                      {
+                        "en": "take-home salary",
+                        "vi": "mức lương thực nhận"
+                      },
+                      {
+                        "en": "peace of mind",
+                        "vi": "sự an tâm"
+                      },
+                      {
+                        "en": "financially sensible",
+                        "vi": "hợp lý về mặt tài chính"
+                      }
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "vocab": [
+                {
+                  "en": "stay at home",
+                  "vi": "ở nhà chăm lo gia đình"
+                },
+                {
+                  "en": "closer care and attention",
+                  "vi": "sự chăm sóc và quan tâm sát sao hơn"
+                },
+                {
+                  "en": "cook nutritious meals",
+                  "vi": "nấu những bữa ăn bổ dưỡng"
+                },
+                {
+                  "en": "warm family meals",
+                  "vi": "bữa cơm gia đình ấm cúng"
+                },
+                {
+                  "en": "clean and tidy house",
+                  "vi": "ngôi nhà sạch sẽ và ngăn nắp"
+                },
+                {
+                  "en": "peaceful atmosphere",
+                  "vi": "bầu không khí bình yên"
+                },
+                {
+                  "en": "private childcare fees",
+                  "vi": "chi phí gửi trẻ tư thục"
+                },
+                {
+                  "en": "domestic helpers",
+                  "vi": "người giúp việc nhà"
+                },
+                {
+                  "en": "formative early years",
+                  "vi": "những năm đầu đời định hình"
+                },
+                {
+                  "en": "stay-at-home mother",
+                  "vi": "người mẹ ở nhà nội trợ"
+                },
+                {
+                  "en": "orderly living environment",
+                  "vi": "môi trường sống ngăn nắp"
+                },
+                {
+                  "en": "harmonious family routines",
+                  "vi": "nếp sinh hoạt gia đình hài hòa"
+                },
+                {
+                  "en": "warm sanctuary",
+                  "vi": "tổ ấm bình yên"
+                },
+                {
+                  "en": "financially sensible arrangement",
+                  "vi": "sự sắp xếp hợp lý về tài chính"
+                },
+                {
+                  "en": "peace of mind",
+                  "vi": "sự an tâm"
+                },
+                {
+                  "en": "resilient foundation",
+                  "vi": "nền tảng vững chắc"
+                },
+                {
+                  "en": "clear role division",
+                  "vi": "sự phân công vai trò rõ ràng"
+                },
+                {
+                  "en": "avoid exhaustion",
+                  "vi": "tránh bị kiệt sức"
+                },
+                {
+                  "en": "working women",
+                  "vi": "phụ nữ đi làm"
+                },
+                {
+                  "en": "manage the household",
+                  "vi": "quản lý việc gia đình"
+                },
+                {
+                  "en": "focus fully on work",
+                  "vi": "tập trung toàn lực cho công việc"
+                },
+                {
+                  "en": "earn a higher income",
+                  "vi": "kiếm thu nhập cao hơn"
+                },
+                {
+                  "en": "faster promotions",
+                  "vi": "cơ hội thăng tiến nhanh hơn"
+                },
+                {
+                  "en": "support the whole family",
+                  "vi": "nuôi sống cả gia đình"
+                },
+                {
+                  "en": "shoulder a double burden",
+                  "vi": "gánh chịu gánh nặng kép"
+                },
+                {
+                  "en": "chronic burnout",
+                  "vi": "sự kiệt sức kéo dài"
+                },
+                {
+                  "en": "undivided energy",
+                  "vi": "năng lượng trọn vẹn"
+                },
+                {
+                  "en": "peak professional capacity",
+                  "vi": "năng lực chuyên môn cao nhất"
+                },
+                {
+                  "en": "practical division of labor",
+                  "vi": "sự phân công lao động thực tế"
+                },
+                {
+                  "en": "dedicated homemaker",
+                  "vi": "người nội trợ tận tâm"
+                },
+                {
+                  "en": "safeguard long-term well-being",
+                  "vi": "bảo vệ sức khỏe lâu dài"
+                },
+                {
+                  "en": "high-pressure projects",
+                  "vi": "những dự án áp lực cao"
+                },
+                {
+                  "en": "financially secure",
+                  "vi": "vững vàng về tài chính"
+                },
+                {
+                  "en": "cover all expenses",
+                  "vi": "trang trải mọi chi phí"
+                },
+                {
+                  "en": "standard of living",
+                  "vi": "mức sống"
+                },
+                {
+                  "en": "pursue careers",
+                  "vi": "theo đuổi sự nghiệp"
+                },
+                {
+                  "en": "financial independence",
+                  "vi": "sự độc lập tài chính"
+                },
+                {
+                  "en": "participate in the workforce",
+                  "vi": "tham gia lực lượng lao động"
+                },
+                {
+                  "en": "valuable human resources",
+                  "vi": "nguồn nhân lực quý giá"
+                },
+                {
+                  "en": "vital sectors",
+                  "vi": "các lĩnh vực thiết yếu"
+                },
+                {
+                  "en": "dual-income household",
+                  "vi": "gia đình hai nguồn thu nhập"
+                },
+                {
+                  "en": "escalating living costs",
+                  "vi": "chi phí sinh hoạt leo thang"
+                },
+                {
+                  "en": "economic resilience",
+                  "vi": "sức chống chịu về kinh tế"
+                },
+                {
+                  "en": "confine women to domestic roles",
+                  "vi": "đóng khung phụ nữ vào vai trò nội trợ"
+                },
+                {
+                  "en": "personal fulfillment and autonomy",
+                  "vi": "sự thỏa mãn bản thân và quyền tự chủ"
+                },
+                {
+                  "en": "outdated gender stereotypes",
+                  "vi": "định kiến giới lỗi thời"
+                },
+                {
+                  "en": "unlock vital human capital",
+                  "vi": "khai phá nguồn vốn nhân lực thiết yếu"
+                },
+                {
+                  "en": "gender-balanced leadership",
+                  "vi": "đội ngũ lãnh đạo cân bằng giới"
+                },
+                {
+                  "en": "share housework fairly",
+                  "vi": "chia sẻ việc nhà công bằng"
+                },
+                {
+                  "en": "feel respected",
+                  "vi": "cảm thấy được tôn trọng"
+                },
+                {
+                  "en": "equal teamwork",
+                  "vi": "sự phối hợp bình đẳng"
+                },
+                {
+                  "en": "gender equality",
+                  "vi": "bình đẳng giới"
+                },
+                {
+                  "en": "set a positive example",
+                  "vi": "làm gương tích cực"
+                },
+                {
+                  "en": "belong to everyone",
+                  "vi": "thuộc về mọi thành viên"
+                },
+                {
+                  "en": "ambitious careers",
+                  "vi": "sự nghiệp đầy hoài bão"
+                },
+                {
+                  "en": "modern attitudes",
+                  "vi": "tư duy hiện đại, tiến bộ"
+                },
+                {
+                  "en": "respectful partnership",
+                  "vi": "mối quan hệ đồng hành tôn trọng nhau"
+                },
+                {
+                  "en": "strengthen father-child bonds",
+                  "vi": "thắt chặt tình cảm cha con"
+                },
+                {
+                  "en": "lingering resentment",
+                  "vi": "sự ấm ức kéo dài"
+                },
+                {
+                  "en": "rigid traditional roles",
+                  "vi": "những vai trò truyền thống cứng nhắc"
+                },
+                {
+                  "en": "break down gender barriers",
+                  "vi": "phá bỏ rào cản giới tính"
+                },
+                {
+                  "en": "egalitarian homes",
+                  "vi": "những gia đình bình đẳng"
+                },
+                {
+                  "en": "domestic self-sufficiency",
+                  "vi": "khả năng tự lo việc nhà"
+                },
+                {
+                  "en": "inclusive society",
+                  "vi": "một xã hội bao trùm và bình đẳng"
+                }
+              ],
+              "sample_b1": "In many societies, people often debate how husbands and wives should divide work and family duties. Some believe that women should stay at home to do most of the housework while men go out to earn money. Personally, I agree with this statement because it provides better childcare, reduces stress for women, and helps men focus on their careers.\n\nFirstly, when mothers <strong>stay at home</strong>, children can receive <strong>closer care and attention</strong> every day. Mothers have enough time to <strong>cook nutritious meals</strong>, pick children up from school, and help them with homework. As a result, kids feel safe and grow up healthier both physically and emotionally.\n\nSecondly, <strong>clear role division</strong> helps women <strong>avoid exhaustion</strong> from working full-time and doing housework at the same time. Many working women still have to cook and clean at night, which leaves them with little time to rest. Focusing on home duties lets them <strong>manage the household</strong> calmly and keep a <strong>clean and tidy house</strong> with warm family meals.\n\nFinally, when home life is well managed, husbands can <strong>focus fully on work</strong> and <strong>earn a higher income</strong>. Without daily worries about meals or childcare, men can devote more energy to important projects and gain faster promotions to support the whole family, while also saving on costly private childcare fees.\n\nIn conclusion, I support this traditional arrangement because it benefits children's upbringing, protects women from double stress, and allows fathers to build stronger careers.",
+              "translation_b1": "Trong nhiều xã hội, mọi người thường tranh luận về cách vợ và chồng nên phân chia công việc và trách nhiệm gia đình. Một số người tin rằng phụ nữ nên ở nhà làm phần lớn việc nhà còn đàn ông đi làm kiếm tiền. Cá nhân tôi đồng ý với quan điểm này vì nó giúp chăm sóc con tốt hơn, giảm áp lực cho phụ nữ và giúp đàn ông tập trung cho sự nghiệp.\n\nThứ nhất, khi người mẹ <strong>ở nhà</strong>, trẻ em nhận được <strong>sự chăm sóc và quan tâm sát sao hơn</strong> mỗi ngày. Người mẹ có đủ thời gian <strong>nấu những bữa ăn bổ dưỡng</strong>, đón con tan học và kèm con làm bài tập. Nhờ vậy, trẻ cảm thấy an toàn và lớn lên khỏe mạnh hơn về cả thể chất lẫn tinh thần.\n\nThứ hai, <strong>sự phân công vai trò rõ ràng</strong> giúp phụ nữ <strong>tránh bị kiệt sức</strong> khi phải vừa đi làm toàn thời gian vừa lo việc nhà. Nhiều phụ nữ đi làm vẫn phải nấu nướng, dọn dẹp vào buổi tối khiến họ ít có thời gian nghỉ ngơi. Tập trung vào gia đình giúp họ <strong>quản lý việc nhà</strong> nhẹ nhàng và duy trì một <strong>ngôi nhà sạch sẽ, ngăn nắp</strong> với bữa cơm ấm cúng.\n\nCuối cùng, khi gia đình được chăm lo chu toàn, người chồng có thể <strong>tập trung toàn lực cho công việc</strong> và <strong>kiếm thu nhập cao hơn</strong>. Không phải lo lắng chuyện cơm nước hay đón con, đàn ông có thể dồn sức vào các dự án quan trọng để thăng tiến nhanh hơn và nuôi sống cả gia đình, đồng thời tiết kiệm chi phí gửi trẻ đắt đỏ.\n\nTóm lại, tôi ủng hộ sự phân công truyền thống này vì nó có lợi cho việc nuôi dạy con, bảo vệ phụ nữ khỏi áp lực kép và giúp người cha xây dựng sự nghiệp vững vàng hơn.",
+              "sample_b2": "The division of financial and domestic duties between husbands and wives remains a widely debated issue. While modern lifestyles increasingly promote dual-income households, I firmly agree with the traditional view that women focusing on housework while men act as breadwinners offers significant benefits for childcare, family well-being, and career specialization.\n\nFirst and foremost, having a <strong>stay-at-home mother</strong> ensures superior childcare during children's <strong>formative early years</strong>. Mothers who devote full attention to the household have ample time to prepare balanced meals, assist with schoolwork, and monitor subtle shifts in their children's behavior. Such steady supervision not only cultivates disciplined study habits and reduces excessive screen time but also builds deep emotional security that lays a <strong>resilient foundation</strong> for adulthood.\n\nSecond, this <strong>practical division of labor</strong> protects women from <strong>chronic burnout</strong> caused by a heavy <strong>double burden</strong>. Across many societies, women holding full-time jobs still shoulder the majority of cooking and cleaning after office hours, leading to exhaustion and persistent guilt. By focusing exclusively on home management, a <strong>dedicated homemaker</strong> can maintain an <strong>orderly living environment</strong>, cook nutritious dinners, and create a <strong>warm sanctuary</strong> while also saving families substantial fees on costly daycare centers.\n\nFinally, when domestic matters are handled reliably, husbands can devote <strong>undivided energy</strong> to demanding professions and operate at <strong>peak professional capacity</strong>. Free from daily interruptions, breadwinners are better positioned to lead high-pressure projects, secure rapid promotions, and generate sufficient income to sustain the entire family comfortably.\n\nIn conclusion, I support this traditional family structure because it strengthens child upbringing, spares women overwhelming dual pressure, and enables fathers to maximize household earnings.",
+              "translation_b2": "Việc phân chia trách nhiệm tài chính và nội trợ giữa vợ và chồng vẫn là chủ đề gây nhiều tranh luận. Dù lối sống hiện đại ngày càng thúc đẩy mô hình hai thu nhập, tôi hoàn toàn đồng ý với quan điểm truyền thống rằng phụ nữ tập trung lo việc nhà còn đàn ông làm trụ cột kinh tế mang lại nhiều lợi ích lớn cho việc nuôi con, hạnh phúc gia đình và sự chuyên môn hóa sự nghiệp.\n\nTrước hết, có một <strong>người mẹ ở nhà nội trợ</strong> đảm bảo chất lượng chăm sóc vượt trội trong <strong>những năm đầu đời định hình</strong> của trẻ. Người mẹ dành trọn tâm trí cho gia đình có đủ thời gian chuẩn bị bữa ăn cân bằng, kèm cặp việc học và theo sát những thay đổi tinh tế trong hành vi của con. Sự giám sát đều đặn ấy không chỉ rèn thói quen học tập kỷ luật và hạn chế thời gian màn hình mà còn xây dựng sự an toàn cảm xúc đặt <strong>nền tảng vững chắc</strong> cho tuổi trưởng thành.\n\nThứ hai, <strong>sự phân công lao động thực tế</strong> này bảo vệ phụ nữ khỏi <strong>sự kiệt sức kéo dài</strong> do <strong>gánh nặng kép</strong>. Tại nhiều xã hội, phụ nữ đi làm toàn thời gian vẫn gánh phần lớn việc bếp núc và dọn dẹp sau giờ làm, dẫn đến mệt mỏi và cảm giác áy náy kéo dài. Khi tập trung hoàn toàn vào quản lý gia đình, một <strong>người nội trợ tận tâm</strong> có thể duy trì <strong>môi trường sống ngăn nắp</strong>, nấu bữa tối bổ dưỡng và tạo nên <strong>tổ ấm bình yên</strong>, đồng thời giúp gia đình tiết kiệm khoản phí lớn cho dịch vụ giữ trẻ đắt đỏ.\n\nCuối cùng, khi việc nhà được chu toàn, người chồng có thể dành <strong>năng lượng trọn vẹn</strong> cho công việc đòi hỏi cao và làm việc ở <strong>năng lực chuyên môn cao nhất</strong>. Không bị gián đoạn hằng ngày, người trụ cột dễ dàng dẫn dắt các dự án áp lực, thăng tiến nhanh và tạo thu nhập đủ đầy cho cả nhà.\n\nTóm lại, tôi ủng hộ cấu trúc gia đình truyền thống này vì nó nâng cao chất lượng nuôi dạy con, giải phóng phụ nữ khỏi áp lực kép và giúp người cha tối ưu hóa thu nhập gia đình.",
+              "vocab_step": {
+                "theme": "Vai trò giới trong gia đình (Traditional vs Equal Family Roles)",
+                "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (50 mục) và B2 (68 mục), phục vụ trọn vẹn cả hai hướng tiếp cận: Đồng ý (Agree) và Không đồng ý (Disagree).",
+                "single_words": [
+                  {
+                    "word": "housework",
+                    "ipa": "/ˈhaʊs.wɜːk/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "việc nhà, công việc nội trợ",
+                    "family": "household chores (n)",
+                    "example_en": "Both husbands and wives should share daily housework fairly.",
+                    "example_vi": "Cả vợ và chồng nên chia sẻ công việc nhà hằng ngày công bằng."
+                  },
+                  {
+                    "word": "breadwinner",
+                    "ipa": "/ˈbredˌwɪn.ər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "người trụ cột kiếm tiền",
+                    "family": "breadwinners (n)",
+                    "example_en": "In the past, men were usually the main breadwinners in families.",
+                    "example_vi": "Trước đây, đàn ông thường là người trụ cột kiếm tiền chính trong gia đình."
+                  },
+                  {
+                    "word": "equality",
+                    "ipa": "/iˈkwɒl.ə.ti/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "sự bình đẳng",
+                    "family": "equal (adj), equally (adv)",
+                    "example_en": "Gender equality allows women to pursue their career dreams.",
+                    "example_vi": "Bình đẳng giới cho phép phụ nữ theo đuổi ước mơ nghề nghiệp."
+                  },
+                  {
+                    "word": "income",
+                    "ipa": "/ˈɪn.kʌm/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "thu nhập",
+                    "family": "incomes (n)",
+                    "example_en": "Having two incomes helps modern families afford housing and education.",
+                    "example_vi": "Có hai nguồn thu nhập giúp gia đình hiện đại chi trả nhà ở và giáo dục."
+                  },
+                  {
+                    "word": "career",
+                    "ipa": "/kəˈrɪər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "sự nghiệp",
+                    "family": "careers (n)",
+                    "example_en": "Many women want to build a successful career outside the home.",
+                    "example_vi": "Nhiều phụ nữ muốn xây dựng sự nghiệp thành công ngoài xã hội."
+                  },
+                  {
+                    "word": "childcare",
+                    "ipa": "/ˈtʃaɪld.keər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "việc chăm sóc trẻ em",
+                    "family": "care for children (v)",
+                    "example_en": "Private childcare has become very expensive in big cities.",
+                    "example_vi": "Dịch vụ giữ trẻ tư thục trở nên rất đắt đỏ ở các thành phố lớn."
+                  },
+                  {
+                    "word": "responsibility",
+                    "ipa": "/rɪˌspɒn.səˈbɪl.ə.ti/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "trách nhiệm",
+                    "family": "responsible (adj)",
+                    "example_en": "Raising children should be a shared responsibility of both parents.",
+                    "example_vi": "Nuôi dạy con cái nên là trách nhiệm chung của cả cha và mẹ."
+                  },
+                  {
+                    "word": "independent",
+                    "ipa": "/ˌɪn.dɪˈpen.dənt/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "độc lập, tự chủ",
+                    "family": "independence (n)",
+                    "example_en": "Earning money helps women become financially independent.",
+                    "example_vi": "Kiếm ra tiền giúp phụ nữ trở nên độc lập về tài chính."
+                  },
+                  {
+                    "word": "respect",
+                    "ipa": "/rɪˈspekt/",
+                    "pos": "n, v",
+                    "level": "B1, B2",
+                    "vi": "sự tôn trọng; tôn trọng",
+                    "family": "respectful (adj)",
+                    "example_en": "Sharing household chores builds mutual respect between spouses.",
+                    "example_vi": "Chia sẻ việc nhà xây dựng sự tôn trọng lẫn nhau giữa vợ chồng."
+                  },
+                  {
+                    "word": "traditional",
+                    "ipa": "/trəˈdɪʃ.ən.əl/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "truyền thống",
+                    "family": "tradition (n)",
+                    "example_en": "Traditional gender roles are changing quickly in modern society.",
+                    "example_vi": "Vai trò giới truyền thống đang thay đổi nhanh chóng trong xã hội hiện đại."
+                  },
+                  {
+                    "word": "modern",
+                    "ipa": "/ˈmɒd.ən/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "hiện đại",
+                    "family": "modernity (n)",
+                    "example_en": "Modern families often prefer flexible roles for men and women.",
+                    "example_vi": "Gia đình hiện đại thường ưa chuộng vai trò linh hoạt cho nam và nữ."
+                  },
+                  {
+                    "word": "pressure",
+                    "ipa": "/ˈpreʃ.ər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "áp lực",
+                    "family": "pressured (adj)",
+                    "example_en": "Working mothers often face heavy pressure from both jobs and housework.",
+                    "example_vi": "Các bà mẹ đi làm thường chịu áp lực nặng từ cả công việc lẫn việc nhà."
+                  },
+                  {
+                    "word": "salary",
+                    "ipa": "/ˈsæl.ər.i/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "tiền lương",
+                    "family": "salaries (n)",
+                    "example_en": "One salary is sometimes not enough to cover family expenses.",
+                    "example_vi": "Một mức lương đôi khi không đủ trang trải chi phí gia đình."
+                  },
+                  {
+                    "word": "workforce",
+                    "ipa": "/ˈwɜːk.fɔːs/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "lực lượng lao động",
+                    "family": "work (v, n)",
+                    "example_en": "Women make up nearly half of the global workforce today.",
+                    "example_vi": "Phụ nữ chiếm gần một nửa lực lượng lao động toàn cầu ngày nay."
+                  },
+                  {
+                    "word": "support",
+                    "ipa": "/səˈpɔːt/",
+                    "pos": "v, n",
+                    "level": "B1, B2",
+                    "vi": "hỗ trợ, nuôi sống",
+                    "family": "supportive (adj)",
+                    "example_en": "Both partners can work together to support the family financially.",
+                    "example_vi": "Cả hai vợ chồng có thể cùng nhau hỗ trợ tài chính cho gia đình."
+                  },
+                  {
+                    "word": "talent",
+                    "ipa": "/ˈtæl.ənt/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "tài năng",
+                    "family": "talented (adj)",
+                    "example_en": "Society loses valuable talent when women cannot enter the workplace.",
+                    "example_vi": "Xã hội mất đi tài năng quý giá khi phụ nữ không thể đi làm."
+                  },
+                  {
+                    "word": "fair",
+                    "ipa": "/feər/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "công bằng",
+                    "family": "fairness (n), fairly (adv)",
+                    "example_en": "Dividing chores fairly reduces arguments between husbands and wives.",
+                    "example_vi": "Phân chia việc nhà công bằng giúp giảm tranh cãi giữa vợ và chồng."
+                  },
+                  {
+                    "word": "role",
+                    "ipa": "/rəʊl/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "vai trò",
+                    "family": "roles (n)",
+                    "example_en": "Couples should freely decide their own roles inside the family.",
+                    "example_vi": "Các cặp đôi nên tự do quyết định vai trò của mình trong gia đình."
+                  },
+                  {
+                    "word": "homemaker",
+                    "ipa": "/ˈhəʊmˌmeɪ.kər/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "người nội trợ",
+                    "family": "homemaking (n)",
+                    "example_en": "A dedicated homemaker keeps the household organized and peaceful.",
+                    "example_vi": "Một người nội trợ tận tâm giữ ngôi nhà ngăn nắp và yên bình."
+                  },
+                  {
+                    "word": "dual-income",
+                    "ipa": "/ˌdjuː.əlˈɪŋ.kʌm/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "hai nguồn thu nhập",
+                    "family": "income (n)",
+                    "example_en": "Dual-income households enjoy stronger financial protection against crises.",
+                    "example_vi": "Gia đình hai nguồn thu nhập có sự bảo vệ tài chính vững chắc hơn."
+                  },
+                  {
+                    "word": "stereotype",
+                    "ipa": "/ˈster.i.ə.taɪp/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "định kiến, khuôn mẫu",
+                    "family": "stereotypical (adj)",
+                    "example_en": "Outdated gender stereotypes limit women's professional potential.",
+                    "example_vi": "Định kiến giới lỗi thời giới hạn tiềm năng nghề nghiệp của phụ nữ."
+                  },
+                  {
+                    "word": "autonomy",
+                    "ipa": "/ɔːˈtɒn.ə.mi/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "quyền tự chủ",
+                    "family": "autonomous (adj)",
+                    "example_en": "Financial independence gives women greater personal autonomy.",
+                    "example_vi": "Độc lập tài chính mang lại cho phụ nữ quyền tự chủ cá nhân lớn hơn."
+                  },
+                  {
+                    "word": "upbringing",
+                    "ipa": "/ˈʌpˌbrɪŋ.ɪŋ/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "sự nuôi dưỡng, dạy dỗ",
+                    "family": "bring up (v)",
+                    "example_en": "Close parental supervision supports children's healthy upbringing.",
+                    "example_vi": "Sự giám sát sát sao của cha mẹ hỗ trợ quá trình nuôi dưỡng trẻ lành mạnh."
+                  },
+                  {
+                    "word": "confine",
+                    "ipa": "/kənˈfaɪn/",
+                    "pos": "v",
+                    "level": "B2",
+                    "vi": "giam hãm, đóng khung",
+                    "family": "confinement (n)",
+                    "example_en": "Society should not confine women solely to domestic duties.",
+                    "example_vi": "Xã hội không nên đóng khung phụ nữ chỉ vào công việc nội trợ."
+                  },
+                  {
+                    "word": "egalitarian",
+                    "ipa": "/ɪˌɡæl.ɪˈteə.ri.ən/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "bình đẳng, đề cao bình đẳng",
+                    "family": "equality (n)",
+                    "example_en": "Children raised in egalitarian homes develop fairer social attitudes.",
+                    "example_vi": "Trẻ lớn lên trong gia đình bình đẳng phát triển thái độ xã hội công bằng hơn."
+                  },
+                  {
+                    "word": "resentment",
+                    "ipa": "/rɪˈzent.mənt/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "sự bất mãn, ấm ức",
+                    "family": "resentful (adj)",
+                    "example_en": "Unfair housework division often breeds lingering resentment.",
+                    "example_vi": "Phân chia việc nhà bất công thường nảy sinh sự ấm ức kéo dài."
+                  },
+                  {
+                    "word": "harmonious",
+                    "ipa": "/hɑːˈməʊ.ni.əs/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "hài hòa, êm ấm",
+                    "family": "harmony (n)",
+                    "example_en": "Mutual respect is essential for a harmonious family environment.",
+                    "example_vi": "Tôn trọng lẫn nhau rất thiết yếu cho môi trường gia đình êm ấm."
+                  },
+                  {
+                    "word": "vulnerability",
+                    "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "tính dễ tổn thương / rủi ro",
+                    "family": "vulnerable (adj)",
+                    "example_en": "Relying on one paycheck creates financial vulnerability during layoffs.",
+                    "example_vi": "Phụ thuộc một nguồn lương tạo ra rủi ro tài chính khi bị mất việc."
+                  },
+                  {
+                    "word": "competence",
+                    "ipa": "/ˈkɒm.pɪ.təns/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "năng lực chuyên môn",
+                    "family": "competent (adj)",
+                    "example_en": "Women show equal professional competence in science and management.",
+                    "example_vi": "Phụ nữ thể hiện năng lực chuyên môn ngang bằng trong khoa học và quản lý."
+                  },
+                  {
+                    "word": "forfeit",
+                    "ipa": "/ˈfɔː.fɪt/",
+                    "pos": "v",
+                    "level": "B2",
+                    "vi": "đánh mất, từ bỏ (tiềm năng)",
+                    "family": "forfeiture (n)",
+                    "example_en": "Keeping women out of work forfeits half of a country's talent.",
+                    "example_vi": "Giữ phụ nữ ngoài thị trường lao động làm mất một nửa tài năng quốc gia."
+                  },
+                  {
+                    "word": "specialization",
+                    "ipa": "/ˌspeʃ.əl.aɪˈzeɪ.ʃən/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "sự chuyên môn hóa",
+                    "family": "specialize (v)",
+                    "example_en": "Some argue that role specialization increases household efficiency.",
+                    "example_vi": "Một số người lập luận sự chuyên môn hóa vai trò tăng hiệu quả gia đình."
+                  },
+                  {
+                    "word": "spouse",
+                    "ipa": "/spaʊs/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "vợ hoặc chồng, bạn đời",
+                    "family": "spouses (n)",
+                    "example_en": "Both spouses should share decisions on finances and parenting.",
+                    "example_vi": "Cả hai vợ chồng nên cùng chia sẻ quyết định tài chính và nuôi con."
+                  },
+                  {
+                    "word": "empower",
+                    "ipa": "/ɪmˈpaʊər/",
+                    "pos": "v",
+                    "level": "B2",
+                    "vi": "trao quyền, tiếp sức",
+                    "family": "empowerment (n)",
+                    "example_en": "Equal access to employment empowers women socially and economically.",
+                    "example_vi": "Cơ hội việc làm bình đẳng trao quyền cho phụ nữ về xã hội và kinh tế."
+                  },
+                  {
+                    "word": "inclusive",
+                    "ipa": "/ɪnˈkluː.sɪv/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "bao trùm, bình đẳng",
+                    "family": "inclusion (n)",
+                    "example_en": "Teaching equality at home helps build a more inclusive society.",
+                    "example_vi": "Dạy về bình đẳng ở nhà giúp xây dựng xã hội bao trùm hơn."
+                  },
+                  {
+                    "word": "self-sufficiency",
+                    "ipa": "/ˌself.səˈfɪʃ.ən.si/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "khả năng tự lực, tự lo",
+                    "family": "self-sufficient (adj)",
+                    "example_en": "Boys should learn domestic self-sufficiency from a young age.",
+                    "example_vi": "Các bé trai nên học khả năng tự lo việc nhà từ khi còn nhỏ."
+                  },
+                  {
+                    "word": "rigid",
+                    "ipa": "/ˈrɪdʒ.ɪd/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "cứng nhắc",
+                    "family": "rigidity (n)",
+                    "example_en": "Rigid gender roles no longer suit today's fast-changing economy.",
+                    "example_vi": "Vai trò giới cứng nhắc không còn phù hợp với nền kinh tế biến đổi nhanh."
+                  }
+                ],
+                "collocations": [
+                  {
+                    "phrase": "stay at home",
+                    "level": "B1",
+                    "vi": "ở nhà chăm lo gia đình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "When mothers stay at home, children receive closer daily care.",
+                    "example_vi": "Khi người mẹ ở nhà, trẻ nhận được sự chăm sóc sát sao hằng ngày."
+                  },
+                  {
+                    "phrase": "closer care and attention",
+                    "level": "B1",
+                    "vi": "sự chăm sóc và quan tâm sát sao hơn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Young kids thrive with closer care and attention from parents.",
+                    "example_vi": "Trẻ nhỏ phát triển tốt nhờ sự chăm sóc và quan tâm sát sao từ cha mẹ."
+                  },
+                  {
+                    "phrase": "cook nutritious meals",
+                    "level": "B1",
+                    "vi": "nấu những bữa ăn bổ dưỡng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Stay-at-home mothers have time to cook nutritious meals daily.",
+                    "example_vi": "Người mẹ ở nhà có thời gian nấu những bữa ăn bổ dưỡng mỗi ngày."
+                  },
+                  {
+                    "phrase": "warm family meals",
+                    "level": "B1",
+                    "vi": "bữa cơm gia đình ấm cúng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having one homemaker ensures warm family meals every evening.",
+                    "example_vi": "Có một người lo nội trợ đảm bảo bữa cơm gia đình ấm cúng mỗi tối."
+                  },
+                  {
+                    "phrase": "clean and tidy house",
+                    "level": "B1",
+                    "vi": "ngôi nhà sạch sẽ và ngăn nắp",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Full-time care keeps a clean and tidy house for everyone.",
+                    "example_vi": "Chăm lo toàn thời gian giữ ngôi nhà sạch sẽ và ngăn nắp cho mọi người."
+                  },
+                  {
+                    "phrase": "peaceful atmosphere",
+                    "level": "B1",
+                    "vi": "bầu không khí bình yên",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "An organized home creates a peaceful atmosphere after work.",
+                    "example_vi": "Ngôi nhà ngăn nắp tạo ra bầu không khí bình yên sau giờ làm."
+                  },
+                  {
+                    "phrase": "private childcare fees",
+                    "level": "B1",
+                    "vi": "chi phí gửi trẻ tư thục",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Caring for kids at home saves money on private childcare fees.",
+                    "example_vi": "Chăm con tại nhà giúp tiết kiệm tiền gửi trẻ tư thục."
+                  },
+                  {
+                    "phrase": "domestic helpers",
+                    "level": "B1",
+                    "vi": "người giúp việc nhà",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Hiring domestic helpers can be very costly in big cities.",
+                    "example_vi": "Thuê người giúp việc nhà có thể rất tốn kém ở thành phố lớn."
+                  },
+                  {
+                    "phrase": "formative early years",
+                    "level": "B2",
+                    "vi": "những năm đầu đời định hình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Direct parental care is vital during children's formative early years.",
+                    "example_vi": "Sự chăm sóc trực tiếp của cha mẹ rất thiết yếu trong những năm đầu đời."
+                  },
+                  {
+                    "phrase": "stay-at-home mother",
+                    "level": "B2",
+                    "vi": "người mẹ ở nhà nội trợ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A stay-at-home mother can closely monitor children's study routines.",
+                    "example_vi": "Người mẹ nội trợ có thể theo sát thói quen học tập của con."
+                  },
+                  {
+                    "phrase": "orderly living environment",
+                    "level": "B2",
+                    "vi": "môi trường sống ngăn nắp",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dedicated homemaker maintains an orderly living environment.",
+                    "example_vi": "Người nội trợ tận tâm duy trì môi trường sống ngăn nắp."
+                  },
+                  {
+                    "phrase": "harmonious family routines",
+                    "level": "B2",
+                    "vi": "nếp sinh hoạt gia đình hài hòa",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Consistent home management fosters harmonious family routines.",
+                    "example_vi": "Quản lý gia đình đều đặn tạo dựng nếp sinh hoạt hài hòa."
+                  },
+                  {
+                    "phrase": "warm sanctuary",
+                    "level": "B2",
+                    "vi": "tổ ấm bình yên",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fresh dinners turn the house into a warm sanctuary for tired workers.",
+                    "example_vi": "Bữa tối ấm nóng biến ngôi nhà thành tổ ấm bình yên cho người đi làm mệt."
+                  },
+                  {
+                    "phrase": "financially sensible arrangement",
+                    "level": "B2",
+                    "vi": "sự sắp xếp hợp lý về tài chính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "For large families, avoiding daycare costs can be a financially sensible arrangement.",
+                    "example_vi": "Với gia đình đông con, tránh phí gửi trẻ có thể là phương án kinh tế hợp lý."
+                  },
+                  {
+                    "phrase": "peace of mind",
+                    "level": "B2",
+                    "vi": "sự an tâm",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Caring for children directly gives parents invaluable peace of mind.",
+                    "example_vi": "Tự chăm sóc con mang lại cho cha mẹ sự an tâm vô giá."
+                  },
+                  {
+                    "phrase": "resilient foundation",
+                    "level": "B2",
+                    "vi": "nền tảng vững chắc",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong emotional security lays a resilient foundation for adulthood.",
+                    "example_vi": "Sự an toàn cảm xúc đặt nền tảng vững chắc cho tuổi trưởng thành."
+                  },
+                  {
+                    "phrase": "clear role division",
+                    "level": "B1",
+                    "vi": "sự phân công vai trò rõ ràng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Clear role division prevents confusion about daily duties.",
+                    "example_vi": "Phân công vai trò rõ ràng giúp tránh lộn xộn về nhiệm vụ hằng ngày."
+                  },
+                  {
+                    "phrase": "avoid exhaustion",
+                    "level": "B1",
+                    "vi": "tránh bị kiệt sức",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Focusing on one role helps women avoid exhaustion.",
+                    "example_vi": "Tập trung vào một vai trò giúp phụ nữ tránh bị kiệt sức."
+                  },
+                  {
+                    "phrase": "working women",
+                    "level": "B1",
+                    "vi": "phụ nữ đi làm",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many working women struggle to balance office jobs and chores.",
+                    "example_vi": "Nhiều phụ nữ đi làm chật vật cân bằng công sở và việc nhà."
+                  },
+                  {
+                    "phrase": "manage the household",
+                    "level": "B1",
+                    "vi": "quản lý việc gia đình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Staying home lets mothers manage the household more calmly.",
+                    "example_vi": "Ở nhà giúp các bà mẹ quản lý việc nhà một cách thư thái hơn."
+                  },
+                  {
+                    "phrase": "focus fully on work",
+                    "level": "B1",
+                    "vi": "tập trung toàn lực cho công việc",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Husbands can focus fully on work when home duties are handled.",
+                    "example_vi": "Người chồng có thể tập trung toàn lực cho công việc khi việc nhà được lo chu toàn."
+                  },
+                  {
+                    "phrase": "earn a higher income",
+                    "level": "B1",
+                    "vi": "kiếm thu nhập cao hơn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working overtime can help men earn a higher income for the family.",
+                    "example_vi": "Làm thêm giờ giúp người đàn ông kiếm thu nhập cao hơn cho gia đình."
+                  },
+                  {
+                    "phrase": "faster promotions",
+                    "level": "B1",
+                    "vi": "cơ hội thăng tiến nhanh hơn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong focus on projects leads to faster promotions at work.",
+                    "example_vi": "Tập trung cao cho dự án dẫn đến cơ hội thăng tiến nhanh hơn."
+                  },
+                  {
+                    "phrase": "support the whole family",
+                    "level": "B1",
+                    "vi": "nuôi sống cả gia đình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "One successful career can sometimes support the whole family.",
+                    "example_vi": "Một sự nghiệp thành công đôi khi có thể nuôi sống cả gia đình."
+                  },
+                  {
+                    "phrase": "shoulder a double burden",
+                    "level": "B2",
+                    "vi": "gánh chịu gánh nặng kép",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working mothers often shoulder a heavy double burden of job and housework.",
+                    "example_vi": "Các bà mẹ đi làm thường gánh chịu gánh nặng kép nặng nề."
+                  },
+                  {
+                    "phrase": "chronic burnout",
+                    "level": "B2",
+                    "vi": "sự kiệt sức kéo dài",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Juggling full-time jobs and domestic chores can trigger chronic burnout.",
+                    "example_vi": "Vừa làm toàn thời gian vừa lo việc nhà dễ gây kiệt sức kéo dài."
+                  },
+                  {
+                    "phrase": "undivided energy",
+                    "level": "B2",
+                    "vi": "năng lượng trọn vẹn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Men can devote undivided energy to demanding professional projects.",
+                    "example_vi": "Đàn ông có thể dành trọn năng lượng cho các dự án chuyên môn đòi hỏi cao."
+                  },
+                  {
+                    "phrase": "peak professional capacity",
+                    "level": "B2",
+                    "vi": "năng lực chuyên môn cao nhất",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Without domestic interruptions, breadwinners work at peak professional capacity.",
+                    "example_vi": "Không bị gián đoạn việc nhà, người trụ cột làm việc ở năng lực cao nhất."
+                  },
+                  {
+                    "phrase": "practical division of labor",
+                    "level": "B2",
+                    "vi": "sự phân công lao động thực tế",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Supporters view traditional roles as a practical division of labor.",
+                    "example_vi": "Người ủng hộ coi vai trò truyền thống là sự phân công lao động thực tế."
+                  },
+                  {
+                    "phrase": "dedicated homemaker",
+                    "level": "B2",
+                    "vi": "người nội trợ tận tâm",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dedicated homemaker provides reliable support behind the scenes.",
+                    "example_vi": "Người nội trợ tận tâm mang lại hậu phương vững chắc."
+                  },
+                  {
+                    "phrase": "safeguard long-term well-being",
+                    "level": "B2",
+                    "vi": "bảo vệ sức khỏe lâu dài",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Reducing double pressure helps safeguard women's long-term well-being.",
+                    "example_vi": "Giảm áp lực kép giúp bảo vệ sức khỏe lâu dài của phụ nữ."
+                  },
+                  {
+                    "phrase": "high-pressure projects",
+                    "level": "B2",
+                    "vi": "những dự án áp lực cao",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flexibility enables employees to take on high-pressure projects abroad.",
+                    "example_vi": "Sự linh hoạt giúp nhân viên đảm nhận các dự án áp lực cao ở nước ngoài."
+                  },
+                  {
+                    "phrase": "financially secure",
+                    "level": "B1",
+                    "vi": "vững vàng về tài chính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having two salaries makes families much more financially secure.",
+                    "example_vi": "Có hai nguồn lương giúp gia đình vững vàng tài chính hơn nhiều."
+                  },
+                  {
+                    "phrase": "cover all expenses",
+                    "level": "B1",
+                    "vi": "trang trải mọi chi phí",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "One salary is rarely enough to cover all expenses in big cities.",
+                    "example_vi": "Một mức lương hiếm khi đủ trang trải mọi chi phí ở thành phố lớn."
+                  },
+                  {
+                    "phrase": "standard of living",
+                    "level": "B1",
+                    "vi": "mức sống",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Dual incomes help families enjoy a higher standard of living.",
+                    "example_vi": "Hai nguồn thu nhập giúp gia đình hưởng mức sống cao hơn."
+                  },
+                  {
+                    "phrase": "pursue careers",
+                    "level": "B1",
+                    "vi": "theo đuổi sự nghiệp",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Educated women deserve equal chances to pursue careers.",
+                    "example_vi": "Phụ nữ có học vấn xứng đáng có cơ hội bình đẳng theo đuổi sự nghiệp."
+                  },
+                  {
+                    "phrase": "financial independence",
+                    "level": "B1",
+                    "vi": "sự độc lập tài chính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working outside gives women confidence and financial independence.",
+                    "example_vi": "Đi làm bên ngoài mang lại cho phụ nữ sự tự tin và độc lập tài chính."
+                  },
+                  {
+                    "phrase": "participate in the workforce",
+                    "level": "B1",
+                    "vi": "tham gia lực lượng lao động",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Society grows faster when women participate in the workforce.",
+                    "example_vi": "Xã hội phát triển nhanh hơn khi phụ nữ tham gia lực lượng lao động."
+                  },
+                  {
+                    "phrase": "valuable human resources",
+                    "level": "B1",
+                    "vi": "nguồn nhân lực quý giá",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Keeping women at home wastes valuable human resources.",
+                    "example_vi": "Giữ phụ nữ ở nhà làm lãng phí nguồn nhân lực quý giá."
+                  },
+                  {
+                    "phrase": "vital sectors",
+                    "level": "B1",
+                    "vi": "các lĩnh vực thiết yếu",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Women play key roles in vital sectors like healthcare and education.",
+                    "example_vi": "Phụ nữ đóng vai trò chủ chốt ở các lĩnh vực thiết yếu như y tế và giáo dục."
+                  },
+                  {
+                    "phrase": "dual-income household",
+                    "level": "B2",
+                    "vi": "gia đình hai nguồn thu nhập",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dual-income household handles rising living costs far more safely.",
+                    "example_vi": "Gia đình hai nguồn thu nhập ứng phó chi phí tăng cao an toàn hơn nhiều."
+                  },
+                  {
+                    "phrase": "escalating living costs",
+                    "level": "B2",
+                    "vi": "chi phí sinh hoạt leo thang",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Escalating living costs make single-earner families financially vulnerable.",
+                    "example_vi": "Chi phí sinh hoạt leo thang khiến gia đình một thu nhập dễ gặp rủi ro."
+                  },
+                  {
+                    "phrase": "economic resilience",
+                    "level": "B2",
+                    "vi": "sức chống chịu về kinh tế",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Two earners provide crucial economic resilience during unexpected layoffs.",
+                    "example_vi": "Hai người kiếm tiền tạo sức chống chịu kinh tế quan trọng khi mất việc đột ngột."
+                  },
+                  {
+                    "phrase": "confine women to domestic roles",
+                    "level": "B2",
+                    "vi": "đóng khung phụ nữ vào vai trò nội trợ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern society should never confine women to domestic roles.",
+                    "example_vi": "Xã hội hiện đại không bao giờ nên đóng khung phụ nữ vào vai trò nội trợ."
+                  },
+                  {
+                    "phrase": "personal fulfillment and autonomy",
+                    "level": "B2",
+                    "vi": "sự thỏa mãn bản thân và quyền tự chủ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Meaningful careers bring women personal fulfillment and autonomy.",
+                    "example_vi": "Sự nghiệp ý nghĩa mang lại cho phụ nữ sự thỏa mãn và quyền tự chủ."
+                  },
+                  {
+                    "phrase": "outdated gender stereotypes",
+                    "level": "B2",
+                    "vi": "định kiến giới lỗi thời",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Expecting wives to quit work reflects outdated gender stereotypes.",
+                    "example_vi": "Kỳ vọng vợ nghỉ việc phản ánh định kiến giới lỗi thời."
+                  },
+                  {
+                    "phrase": "unlock vital human capital",
+                    "level": "B2",
+                    "vi": "khai phá nguồn vốn nhân lực thiết yếu",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Female employment unlocks vital human capital for national growth.",
+                    "example_vi": "Việc làm của nữ giới khai phá nguồn vốn nhân lực cho tăng trưởng quốc gia."
+                  },
+                  {
+                    "phrase": "gender-balanced leadership",
+                    "level": "B2",
+                    "vi": "đội ngũ lãnh đạo cân bằng giới",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Companies with gender-balanced leadership often achieve stronger innovation.",
+                    "example_vi": "Doanh nghiệp có lãnh đạo cân bằng giới thường đạt sức đổi mới mạnh hơn."
+                  },
+                  {
+                    "phrase": "share housework fairly",
+                    "level": "B1",
+                    "vi": "chia sẻ việc nhà công bằng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Husbands and wives should share housework fairly every day.",
+                    "example_vi": "Vợ và chồng nên chia sẻ việc nhà công bằng mỗi ngày."
+                  },
+                  {
+                    "phrase": "feel respected",
+                    "level": "B1",
+                    "vi": "cảm thấy được tôn trọng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal sharing helps wives feel respected and valued in marriage.",
+                    "example_vi": "Chia sẻ bình đẳng giúp người vợ cảm thấy được tôn trọng trong hôn nhân."
+                  },
+                  {
+                    "phrase": "equal teamwork",
+                    "level": "B1",
+                    "vi": "sự phối hợp bình đẳng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal teamwork reduces arguments and builds happier families.",
+                    "example_vi": "Sự phối hợp bình đẳng giảm tranh cãi và xây dựng gia đình hạnh phúc hơn."
+                  },
+                  {
+                    "phrase": "gender equality",
+                    "level": "B1",
+                    "vi": "bình đẳng giới",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern parents want to teach their children about gender equality.",
+                    "example_vi": "Cha mẹ hiện đại muốn dạy con cái về bình đẳng giới."
+                  },
+                  {
+                    "phrase": "set a positive example",
+                    "level": "B1",
+                    "vi": "làm gương tích cực",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fathers who cook and clean set a positive example for sons.",
+                    "example_vi": "Những người cha nấu ăn và dọn dẹp làm gương tích cực cho con trai."
+                  },
+                  {
+                    "phrase": "belong to everyone",
+                    "level": "B1",
+                    "vi": "thuộc về mọi thành viên",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Kids should learn that household chores belong to everyone.",
+                    "example_vi": "Trẻ nên học rằng việc nhà là trách nhiệm thuộc về mọi người."
+                  },
+                  {
+                    "phrase": "ambitious careers",
+                    "level": "B1",
+                    "vi": "sự nghiệp đầy hoài bão",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Daughters grow confident enough to pursue ambitious careers.",
+                    "example_vi": "Các bé gái lớn lên đủ tự tin để theo đuổi sự nghiệp lớn."
+                  },
+                  {
+                    "phrase": "modern attitudes",
+                    "level": "B1",
+                    "vi": "tư duy hiện đại, tiến bộ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal families help young people grow up with modern attitudes.",
+                    "example_vi": "Gia đình bình đẳng giúp người trẻ trưởng thành với tư duy tiến bộ."
+                  },
+                  {
+                    "phrase": "respectful partnership",
+                    "level": "B2",
+                    "vi": "mối quan hệ đồng hành tôn trọng nhau",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sharing duties equally creates a respectful partnership in marriage.",
+                    "example_vi": "Chia sẻ nhiệm vụ bình đẳng tạo dựng mối quan hệ đồng hành tôn trọng nhau."
+                  },
+                  {
+                    "phrase": "strengthen father-child bonds",
+                    "level": "B2",
+                    "vi": "thắt chặt tình cảm cha con",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Involving men in daily childcare significantly strengthens father-child bonds.",
+                    "example_vi": "Để đàn ông tham gia chăm con hằng ngày thắt chặt mạnh mẽ tình cảm cha con."
+                  },
+                  {
+                    "phrase": "lingering resentment",
+                    "level": "B2",
+                    "vi": "sự ấm ức kéo dài",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Unfair domestic burdens frequently cause lingering resentment between spouses.",
+                    "example_vi": "Gánh nặng nội trợ bất công thường gây ra sự ấm ức kéo dài giữa vợ chồng."
+                  },
+                  {
+                    "phrase": "rigid traditional roles",
+                    "level": "B2",
+                    "vi": "những vai trò truyền thống cứng nhắc",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flexible cooperation outperforms rigid traditional roles in modern life.",
+                    "example_vi": "Sự hợp tác linh hoạt vượt trội hơn vai trò truyền thống cứng nhắc."
+                  },
+                  {
+                    "phrase": "break down gender barriers",
+                    "level": "B2",
+                    "vi": "phá bỏ rào cản giới tính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Egalitarian families help break down gender barriers from early childhood.",
+                    "example_vi": "Gia đình bình đẳng giúp phá bỏ rào cản giới tính ngay từ tuổi thơ."
+                  },
+                  {
+                    "phrase": "egalitarian homes",
+                    "level": "B2",
+                    "vi": "những gia đình bình đẳng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Children raised in egalitarian homes respect everyone regardless of gender.",
+                    "example_vi": "Trẻ lớn lên trong gia đình bình đẳng tôn trọng mọi người bất kể giới tính."
+                  },
+                  {
+                    "phrase": "domestic self-sufficiency",
+                    "level": "B2",
+                    "vi": "khả năng tự lo việc nhà",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sons acquire vital domestic self-sufficiency by watching fathers cook.",
+                    "example_vi": "Con trai học khả năng tự lo việc nhà nhờ thấy cha nấu ăn."
+                  },
+                  {
+                    "phrase": "inclusive society",
+                    "level": "B2",
+                    "vi": "một xã hội bao trùm và bình đẳng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Positive role modeling at home lays the groundwork for an inclusive society.",
+                    "example_vi": "Tấm gương tích cực tại nhà đặt nền móng cho một xã hội bình đẳng."
+                  }
+                ],
+                "collocation_groups": [
+                  {
+                    "id": "t31_g1",
+                    "name": "Nhóm 1: Chăm sóc Con cái & Tổ ấm (Childcare & Home Management — Agree)",
+                    "icon": "🏠",
+                    "badge": "Đồng ý 01, 04–05",
+                    "items": [
+                      {
+                        "en": "stay at home",
+                        "phrase": "stay at home",
+                        "vi": "ở nhà chăm lo gia đình",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "When mothers stay at home, children receive closer daily care.",
+                        "example_vi": "Khi người mẹ ở nhà, trẻ nhận được sự chăm sóc sát sao hằng ngày."
+                      },
+                      {
+                        "en": "closer care and attention",
+                        "phrase": "closer care and attention",
+                        "vi": "sự chăm sóc và quan tâm sát sao hơn",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Young kids thrive with closer care and attention from parents.",
+                        "example_vi": "Trẻ nhỏ phát triển tốt nhờ sự chăm sóc và quan tâm sát sao từ cha mẹ."
+                      },
+                      {
+                        "en": "cook nutritious meals",
+                        "phrase": "cook nutritious meals",
+                        "vi": "nấu những bữa ăn bổ dưỡng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Stay-at-home mothers have time to cook nutritious meals daily.",
+                        "example_vi": "Người mẹ ở nhà có thời gian nấu những bữa ăn bổ dưỡng mỗi ngày."
+                      },
+                      {
+                        "en": "warm family meals",
+                        "phrase": "warm family meals",
+                        "vi": "bữa cơm gia đình ấm cúng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Having one homemaker ensures warm family meals every evening.",
+                        "example_vi": "Có một người lo nội trợ đảm bảo bữa cơm gia đình ấm cúng mỗi tối."
+                      },
+                      {
+                        "en": "clean and tidy house",
+                        "phrase": "clean and tidy house",
+                        "vi": "ngôi nhà sạch sẽ và ngăn nắp",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Full-time care keeps a clean and tidy house for everyone.",
+                        "example_vi": "Chăm lo toàn thời gian giữ ngôi nhà sạch sẽ và ngăn nắp cho mọi người."
+                      },
+                      {
+                        "en": "peaceful atmosphere",
+                        "phrase": "peaceful atmosphere",
+                        "vi": "bầu không khí bình yên",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "An organized home creates a peaceful atmosphere after work.",
+                        "example_vi": "Ngôi nhà ngăn nắp tạo ra bầu không khí bình yên sau giờ làm."
+                      },
+                      {
+                        "en": "private childcare fees",
+                        "phrase": "private childcare fees",
+                        "vi": "chi phí gửi trẻ tư thục",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Caring for kids at home saves money on private childcare fees.",
+                        "example_vi": "Chăm con tại nhà giúp tiết kiệm tiền gửi trẻ tư thục."
+                      },
+                      {
+                        "en": "domestic helpers",
+                        "phrase": "domestic helpers",
+                        "vi": "người giúp việc nhà",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Hiring domestic helpers can be very costly in big cities.",
+                        "example_vi": "Thuê người giúp việc nhà có thể rất tốn kém ở thành phố lớn."
+                      },
+                      {
+                        "en": "formative early years",
+                        "phrase": "formative early years",
+                        "vi": "những năm đầu đời định hình",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Direct parental care is vital during children's formative early years.",
+                        "example_vi": "Sự chăm sóc trực tiếp của cha mẹ rất thiết yếu trong những năm đầu đời."
+                      },
+                      {
+                        "en": "stay-at-home mother",
+                        "phrase": "stay-at-home mother",
+                        "vi": "người mẹ ở nhà nội trợ",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A stay-at-home mother can closely monitor children's study routines.",
+                        "example_vi": "Người mẹ nội trợ có thể theo sát thói quen học tập của con."
+                      },
+                      {
+                        "en": "orderly living environment",
+                        "phrase": "orderly living environment",
+                        "vi": "môi trường sống ngăn nắp",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A dedicated homemaker maintains an orderly living environment.",
+                        "example_vi": "Người nội trợ tận tâm duy trì môi trường sống ngăn nắp."
+                      },
+                      {
+                        "en": "harmonious family routines",
+                        "phrase": "harmonious family routines",
+                        "vi": "nếp sinh hoạt gia đình hài hòa",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Consistent home management fosters harmonious family routines.",
+                        "example_vi": "Quản lý gia đình đều đặn tạo dựng nếp sinh hoạt hài hòa."
+                      },
+                      {
+                        "en": "warm sanctuary",
+                        "phrase": "warm sanctuary",
+                        "vi": "tổ ấm bình yên",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Fresh dinners turn the house into a warm sanctuary for tired workers.",
+                        "example_vi": "Bữa tối ấm nóng biến ngôi nhà thành tổ ấm bình yên cho người đi làm mệt."
+                      },
+                      {
+                        "en": "financially sensible arrangement",
+                        "phrase": "financially sensible arrangement",
+                        "vi": "sự sắp xếp hợp lý về tài chính",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "For large families, avoiding daycare costs can be a financially sensible arrangement.",
+                        "example_vi": "Với gia đình đông con, tránh phí gửi trẻ có thể là phương án kinh tế hợp lý."
+                      },
+                      {
+                        "en": "peace of mind",
+                        "phrase": "peace of mind",
+                        "vi": "sự an tâm",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Caring for children directly gives parents invaluable peace of mind.",
+                        "example_vi": "Tự chăm sóc con mang lại cho cha mẹ sự an tâm vô giá."
+                      },
+                      {
+                        "en": "resilient foundation",
+                        "phrase": "resilient foundation",
+                        "vi": "nền tảng vững chắc",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Strong emotional security lays a resilient foundation for adulthood.",
+                        "example_vi": "Sự an toàn cảm xúc đặt nền tảng vững chắc cho tuổi trưởng thành."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "t31_g2",
+                    "name": "Nhóm 2: Phân công Vai trò & Áp lực Kép (Role Division & Career Focus — Agree)",
+                    "icon": "⚖️",
+                    "badge": "Đồng ý 02–03",
+                    "items": [
+                      {
+                        "en": "clear role division",
+                        "phrase": "clear role division",
+                        "vi": "sự phân công vai trò rõ ràng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Clear role division prevents confusion about daily duties.",
+                        "example_vi": "Phân công vai trò rõ ràng giúp tránh lộn xộn về nhiệm vụ hằng ngày."
+                      },
+                      {
+                        "en": "avoid exhaustion",
+                        "phrase": "avoid exhaustion",
+                        "vi": "tránh bị kiệt sức",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Focusing on one role helps women avoid exhaustion.",
+                        "example_vi": "Tập trung vào một vai trò giúp phụ nữ tránh bị kiệt sức."
+                      },
+                      {
+                        "en": "working women",
+                        "phrase": "working women",
+                        "vi": "phụ nữ đi làm",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Many working women struggle to balance office jobs and chores.",
+                        "example_vi": "Nhiều phụ nữ đi làm chật vật cân bằng công sở và việc nhà."
+                      },
+                      {
+                        "en": "manage the household",
+                        "phrase": "manage the household",
+                        "vi": "quản lý việc gia đình",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Staying home lets mothers manage the household more calmly.",
+                        "example_vi": "Ở nhà giúp các bà mẹ quản lý việc nhà một cách thư thái hơn."
+                      },
+                      {
+                        "en": "focus fully on work",
+                        "phrase": "focus fully on work",
+                        "vi": "tập trung toàn lực cho công việc",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Husbands can focus fully on work when home duties are handled.",
+                        "example_vi": "Người chồng có thể tập trung toàn lực cho công việc khi việc nhà được lo chu toàn."
+                      },
+                      {
+                        "en": "earn a higher income",
+                        "phrase": "earn a higher income",
+                        "vi": "kiếm thu nhập cao hơn",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Working overtime can help men earn a higher income for the family.",
+                        "example_vi": "Làm thêm giờ giúp người đàn ông kiếm thu nhập cao hơn cho gia đình."
+                      },
+                      {
+                        "en": "faster promotions",
+                        "phrase": "faster promotions",
+                        "vi": "cơ hội thăng tiến nhanh hơn",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Strong focus on projects leads to faster promotions at work.",
+                        "example_vi": "Tập trung cao cho dự án dẫn đến cơ hội thăng tiến nhanh hơn."
+                      },
+                      {
+                        "en": "support the whole family",
+                        "phrase": "support the whole family",
+                        "vi": "nuôi sống cả gia đình",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "One successful career can sometimes support the whole family.",
+                        "example_vi": "Một sự nghiệp thành công đôi khi có thể nuôi sống cả gia đình."
+                      },
+                      {
+                        "en": "shoulder a double burden",
+                        "phrase": "shoulder a double burden",
+                        "vi": "gánh chịu gánh nặng kép",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Working mothers often shoulder a heavy double burden of job and housework.",
+                        "example_vi": "Các bà mẹ đi làm thường gánh chịu gánh nặng kép nặng nề."
+                      },
+                      {
+                        "en": "chronic burnout",
+                        "phrase": "chronic burnout",
+                        "vi": "sự kiệt sức kéo dài",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Juggling full-time jobs and domestic chores can trigger chronic burnout.",
+                        "example_vi": "Vừa làm toàn thời gian vừa lo việc nhà dễ gây kiệt sức kéo dài."
+                      },
+                      {
+                        "en": "undivided energy",
+                        "phrase": "undivided energy",
+                        "vi": "năng lượng trọn vẹn",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Men can devote undivided energy to demanding professional projects.",
+                        "example_vi": "Đàn ông có thể dành trọn năng lượng cho các dự án chuyên môn đòi hỏi cao."
+                      },
+                      {
+                        "en": "peak professional capacity",
+                        "phrase": "peak professional capacity",
+                        "vi": "năng lực chuyên môn cao nhất",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Without domestic interruptions, breadwinners work at peak professional capacity.",
+                        "example_vi": "Không bị gián đoạn việc nhà, người trụ cột làm việc ở năng lực cao nhất."
+                      },
+                      {
+                        "en": "practical division of labor",
+                        "phrase": "practical division of labor",
+                        "vi": "sự phân công lao động thực tế",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Supporters view traditional roles as a practical division of labor.",
+                        "example_vi": "Người ủng hộ coi vai trò truyền thống là sự phân công lao động thực tế."
+                      },
+                      {
+                        "en": "dedicated homemaker",
+                        "phrase": "dedicated homemaker",
+                        "vi": "người nội trợ tận tâm",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A dedicated homemaker provides reliable support behind the scenes.",
+                        "example_vi": "Người nội trợ tận tâm mang lại hậu phương vững chắc."
+                      },
+                      {
+                        "en": "safeguard long-term well-being",
+                        "phrase": "safeguard long-term well-being",
+                        "vi": "bảo vệ sức khỏe lâu dài",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Reducing double pressure helps safeguard women's long-term well-being.",
+                        "example_vi": "Giảm áp lực kép giúp bảo vệ sức khỏe lâu dài của phụ nữ."
+                      },
+                      {
+                        "en": "high-pressure projects",
+                        "phrase": "high-pressure projects",
+                        "vi": "những dự án áp lực cao",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Flexibility enables employees to take on high-pressure projects abroad.",
+                        "example_vi": "Sự linh hoạt giúp nhân viên đảm nhận các dự án áp lực cao ở nước ngoài."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "t31_g3",
+                    "name": "Nhóm 3: Tài chính Hai thu nhập, Quyền Phụ nữ & Kinh tế (Dual Income & Equality — Disagree)",
+                    "icon": "💼",
+                    "badge": "Phản đối 01–03",
+                    "items": [
+                      {
+                        "en": "financially secure",
+                        "phrase": "financially secure",
+                        "vi": "vững vàng về tài chính",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Having two salaries makes families much more financially secure.",
+                        "example_vi": "Có hai nguồn lương giúp gia đình vững vàng tài chính hơn nhiều."
+                      },
+                      {
+                        "en": "cover all expenses",
+                        "phrase": "cover all expenses",
+                        "vi": "trang trải mọi chi phí",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "One salary is rarely enough to cover all expenses in big cities.",
+                        "example_vi": "Một mức lương hiếm khi đủ trang trải mọi chi phí ở thành phố lớn."
+                      },
+                      {
+                        "en": "standard of living",
+                        "phrase": "standard of living",
+                        "vi": "mức sống",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Dual incomes help families enjoy a higher standard of living.",
+                        "example_vi": "Hai nguồn thu nhập giúp gia đình hưởng mức sống cao hơn."
+                      },
+                      {
+                        "en": "pursue careers",
+                        "phrase": "pursue careers",
+                        "vi": "theo đuổi sự nghiệp",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Educated women deserve equal chances to pursue careers.",
+                        "example_vi": "Phụ nữ có học vấn xứng đáng có cơ hội bình đẳng theo đuổi sự nghiệp."
+                      },
+                      {
+                        "en": "financial independence",
+                        "phrase": "financial independence",
+                        "vi": "sự độc lập tài chính",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Working outside gives women confidence and financial independence.",
+                        "example_vi": "Đi làm bên ngoài mang lại cho phụ nữ sự tự tin và độc lập tài chính."
+                      },
+                      {
+                        "en": "participate in the workforce",
+                        "phrase": "participate in the workforce",
+                        "vi": "tham gia lực lượng lao động",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Society grows faster when women participate in the workforce.",
+                        "example_vi": "Xã hội phát triển nhanh hơn khi phụ nữ tham gia lực lượng lao động."
+                      },
+                      {
+                        "en": "valuable human resources",
+                        "phrase": "valuable human resources",
+                        "vi": "nguồn nhân lực quý giá",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Keeping women at home wastes valuable human resources.",
+                        "example_vi": "Giữ phụ nữ ở nhà làm lãng phí nguồn nhân lực quý giá."
+                      },
+                      {
+                        "en": "vital sectors",
+                        "phrase": "vital sectors",
+                        "vi": "các lĩnh vực thiết yếu",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Women play key roles in vital sectors like healthcare and education.",
+                        "example_vi": "Phụ nữ đóng vai trò chủ chốt ở các lĩnh vực thiết yếu như y tế và giáo dục."
+                      },
+                      {
+                        "en": "dual-income household",
+                        "phrase": "dual-income household",
+                        "vi": "gia đình hai nguồn thu nhập",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A dual-income household handles rising living costs far more safely.",
+                        "example_vi": "Gia đình hai nguồn thu nhập ứng phó chi phí tăng cao an toàn hơn nhiều."
+                      },
+                      {
+                        "en": "escalating living costs",
+                        "phrase": "escalating living costs",
+                        "vi": "chi phí sinh hoạt leo thang",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Escalating living costs make single-earner families financially vulnerable.",
+                        "example_vi": "Chi phí sinh hoạt leo thang khiến gia đình một thu nhập dễ gặp rủi ro."
+                      },
+                      {
+                        "en": "economic resilience",
+                        "phrase": "economic resilience",
+                        "vi": "sức chống chịu về kinh tế",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Two earners provide crucial economic resilience during unexpected layoffs.",
+                        "example_vi": "Hai người kiếm tiền tạo sức chống chịu kinh tế quan trọng khi mất việc đột ngột."
+                      },
+                      {
+                        "en": "confine women to domestic roles",
+                        "phrase": "confine women to domestic roles",
+                        "vi": "đóng khung phụ nữ vào vai trò nội trợ",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Modern society should never confine women to domestic roles.",
+                        "example_vi": "Xã hội hiện đại không bao giờ nên đóng khung phụ nữ vào vai trò nội trợ."
+                      },
+                      {
+                        "en": "personal fulfillment and autonomy",
+                        "phrase": "personal fulfillment and autonomy",
+                        "vi": "sự thỏa mãn bản thân và quyền tự chủ",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Meaningful careers bring women personal fulfillment and autonomy.",
+                        "example_vi": "Sự nghiệp ý nghĩa mang lại cho phụ nữ sự thỏa mãn và quyền tự chủ."
+                      },
+                      {
+                        "en": "outdated gender stereotypes",
+                        "phrase": "outdated gender stereotypes",
+                        "vi": "định kiến giới lỗi thời",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Expecting wives to quit work reflects outdated gender stereotypes.",
+                        "example_vi": "Kỳ vọng vợ nghỉ việc phản ánh định kiến giới lỗi thời."
+                      },
+                      {
+                        "en": "unlock vital human capital",
+                        "phrase": "unlock vital human capital",
+                        "vi": "khai phá nguồn vốn nhân lực thiết yếu",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Female employment unlocks vital human capital for national growth.",
+                        "example_vi": "Việc làm của nữ giới khai phá nguồn vốn nhân lực cho tăng trưởng quốc gia."
+                      },
+                      {
+                        "en": "gender-balanced leadership",
+                        "phrase": "gender-balanced leadership",
+                        "vi": "đội ngũ lãnh đạo cân bằng giới",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Companies with gender-balanced leadership often achieve stronger innovation.",
+                        "example_vi": "Doanh nghiệp có lãnh đạo cân bằng giới thường đạt sức đổi mới mạnh hơn."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "t31_g4",
+                    "name": "Nhóm 4: Hôn nhân Bình đẳng & Giáo dục Con cái (Shared Partnership & Role Models — Disagree)",
+                    "icon": "🤝",
+                    "badge": "Phản đối 04–05",
+                    "items": [
+                      {
+                        "en": "share housework fairly",
+                        "phrase": "share housework fairly",
+                        "vi": "chia sẻ việc nhà công bằng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Husbands and wives should share housework fairly every day.",
+                        "example_vi": "Vợ và chồng nên chia sẻ việc nhà công bằng mỗi ngày."
+                      },
+                      {
+                        "en": "feel respected",
+                        "phrase": "feel respected",
+                        "vi": "cảm thấy được tôn trọng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Equal sharing helps wives feel respected and valued in marriage.",
+                        "example_vi": "Chia sẻ bình đẳng giúp người vợ cảm thấy được tôn trọng trong hôn nhân."
+                      },
+                      {
+                        "en": "equal teamwork",
+                        "phrase": "equal teamwork",
+                        "vi": "sự phối hợp bình đẳng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Equal teamwork reduces arguments and builds happier families.",
+                        "example_vi": "Sự phối hợp bình đẳng giảm tranh cãi và xây dựng gia đình hạnh phúc hơn."
+                      },
+                      {
+                        "en": "gender equality",
+                        "phrase": "gender equality",
+                        "vi": "bình đẳng giới",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Modern parents want to teach their children about gender equality.",
+                        "example_vi": "Cha mẹ hiện đại muốn dạy con cái về bình đẳng giới."
+                      },
+                      {
+                        "en": "set a positive example",
+                        "phrase": "set a positive example",
+                        "vi": "làm gương tích cực",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Fathers who cook and clean set a positive example for sons.",
+                        "example_vi": "Những người cha nấu ăn và dọn dẹp làm gương tích cực cho con trai."
+                      },
+                      {
+                        "en": "belong to everyone",
+                        "phrase": "belong to everyone",
+                        "vi": "thuộc về mọi thành viên",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Kids should learn that household chores belong to everyone.",
+                        "example_vi": "Trẻ nên học rằng việc nhà là trách nhiệm thuộc về mọi người."
+                      },
+                      {
+                        "en": "ambitious careers",
+                        "phrase": "ambitious careers",
+                        "vi": "sự nghiệp đầy hoài bão",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Daughters grow confident enough to pursue ambitious careers.",
+                        "example_vi": "Các bé gái lớn lên đủ tự tin để theo đuổi sự nghiệp lớn."
+                      },
+                      {
+                        "en": "modern attitudes",
+                        "phrase": "modern attitudes",
+                        "vi": "tư duy hiện đại, tiến bộ",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Equal families help young people grow up with modern attitudes.",
+                        "example_vi": "Gia đình bình đẳng giúp người trẻ trưởng thành với tư duy tiến bộ."
+                      },
+                      {
+                        "en": "respectful partnership",
+                        "phrase": "respectful partnership",
+                        "vi": "mối quan hệ đồng hành tôn trọng nhau",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Sharing duties equally creates a respectful partnership in marriage.",
+                        "example_vi": "Chia sẻ nhiệm vụ bình đẳng tạo dựng mối quan hệ đồng hành tôn trọng nhau."
+                      },
+                      {
+                        "en": "strengthen father-child bonds",
+                        "phrase": "strengthen father-child bonds",
+                        "vi": "thắt chặt tình cảm cha con",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Involving men in daily childcare significantly strengthens father-child bonds.",
+                        "example_vi": "Để đàn ông tham gia chăm con hằng ngày thắt chặt mạnh mẽ tình cảm cha con."
+                      },
+                      {
+                        "en": "lingering resentment",
+                        "phrase": "lingering resentment",
+                        "vi": "sự ấm ức kéo dài",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Unfair domestic burdens frequently cause lingering resentment between spouses.",
+                        "example_vi": "Gánh nặng nội trợ bất công thường gây ra sự ấm ức kéo dài giữa vợ chồng."
+                      },
+                      {
+                        "en": "rigid traditional roles",
+                        "phrase": "rigid traditional roles",
+                        "vi": "những vai trò truyền thống cứng nhắc",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Flexible cooperation outperforms rigid traditional roles in modern life.",
+                        "example_vi": "Sự hợp tác linh hoạt vượt trội hơn vai trò truyền thống cứng nhắc."
+                      },
+                      {
+                        "en": "break down gender barriers",
+                        "phrase": "break down gender barriers",
+                        "vi": "phá bỏ rào cản giới tính",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Egalitarian families help break down gender barriers from early childhood.",
+                        "example_vi": "Gia đình bình đẳng giúp phá bỏ rào cản giới tính ngay từ tuổi thơ."
+                      },
+                      {
+                        "en": "egalitarian homes",
+                        "phrase": "egalitarian homes",
+                        "vi": "những gia đình bình đẳng",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Children raised in egalitarian homes respect everyone regardless of gender.",
+                        "example_vi": "Trẻ lớn lên trong gia đình bình đẳng tôn trọng mọi người bất kể giới tính."
+                      },
+                      {
+                        "en": "domestic self-sufficiency",
+                        "phrase": "domestic self-sufficiency",
+                        "vi": "khả năng tự lo việc nhà",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Sons acquire vital domestic self-sufficiency by watching fathers cook.",
+                        "example_vi": "Con trai học khả năng tự lo việc nhà nhờ thấy cha nấu ăn."
+                      },
+                      {
+                        "en": "inclusive society",
+                        "phrase": "inclusive society",
+                        "vi": "một xã hội bao trùm và bình đẳng",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Positive role modeling at home lays the groundwork for an inclusive society.",
+                        "example_vi": "Tấm gương tích cực tại nhà đặt nền móng cho một xã hội bình đẳng."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "reference_articles": {
+                "vi": [
+                  {
+                    "source": "VnExpress Gia đình",
+                    "title": "Chia sẻ việc nhà và bình đẳng giới trong gia đình hiện đại",
+                    "summary": "Phân tích sự thay đổi vai trò của phụ nữ và đàn ông trong gia đình hiện đại, giữa mô hình phân công truyền thống và xu hướng cùng chia sẻ sự nghiệp lẫn việc nhà.",
+                    "url": "https://vnexpress.net/doi-song"
+                  }
+                ],
+                "en": [
+                  {
+                    "source": "UN Women",
+                    "title": "Redistributing Unpaid Care and Domestic Work for Gender Equality",
+                    "summary": "Global perspective on why balancing unpaid housework and equal workforce participation strengthens families, women's autonomy, and economic growth.",
+                    "url": "https://www.unwomen.org/en/news/in-focus/csw61/redistribute-unpaid-work"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "HƯỚNG 02: KHÔNG ĐỒNG Ý (DISAGREE)",
+            "stance": "disagree",
+            "details": {
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 01: HAI NGUỒN THU NHẬP GIÚP GIA ĐÌNH ỔN ĐỊNH TÀI CHÍNH HƠN",
+                    "point_vi": "Trong cuộc sống hiện đại đắt đỏ, cả vợ và chồng cùng đi làm giúp gia đình có tài chính vững vàng hơn nhiều.",
+                    "point_en": "In today's expensive modern life, having both husbands and wives work makes families much more financially secure.",
+                    "point_collocations": [
+                      {
+                        "en": "financially secure",
+                        "vi": "vững vàng về tài chính"
+                      },
+                      {
+                        "en": "modern life",
+                        "vi": "cuộc sống hiện đại"
+                      }
+                    ],
+                    "evidence_vi": "Chi phí nhà ở, thực phẩm, y tế và học phí cho con cái ngày càng tăng cao ở hầu hết các thành phố. Một mức lương duy nhất thường không đủ để chi trả mọi nhu cầu và tiết kiệm cho tương lai. Khi cả hai cùng kiếm tiền, gia đình sẽ giảm bớt lo lắng tài chính và có cuộc sống tốt hơn.",
+                    "evidence_en": "The costs of housing, food, healthcare, and children's education are rising fast in most cities. One single salary is often not enough to cover all expenses and save for the future. When both partners earn money, families face less financial worry and enjoy a better standard of living.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "costs of housing",
+                          "vi": "chi phí nhà ở"
+                        },
+                        {
+                          "en": "rising fast",
+                          "vi": "tăng nhanh"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "cover all expenses",
+                          "vi": "trang trải mọi chi phí"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "standard of living",
+                          "vi": "mức sống"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "financially secure",
+                        "vi": "vững vàng về tài chính"
+                      },
+                      {
+                        "en": "modern life",
+                        "vi": "cuộc sống hiện đại"
+                      },
+                      {
+                        "en": "costs of housing",
+                        "vi": "chi phí nhà ở"
+                      },
+                      {
+                        "en": "rising fast",
+                        "vi": "tăng nhanh"
+                      },
+                      {
+                        "en": "cover all expenses",
+                        "vi": "trang trải mọi chi phí"
+                      },
+                      {
+                        "en": "standard of living",
+                        "vi": "mức sống"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 02: PHỤ NỮ CÓ QUYỀN BÌNH ĐẲNG ĐỂ PHÁT TRIỂN SỰ NGHIỆP",
+                    "point_vi": "Phụ nữ có đủ tài năng, trình độ và quyền bình đẳng để theo đuổi sự nghiệp cũng như độc lập tài chính.",
+                    "point_en": "Women have equal talent, education, and the right to pursue careers and achieve financial independence.",
+                    "point_collocations": [
+                      {
+                        "en": "pursue careers",
+                        "vi": "theo đuổi sự nghiệp"
+                      },
+                      {
+                        "en": "financial independence",
+                        "vi": "độc lập tài chính"
+                      }
+                    ],
+                    "evidence_vi": "Ngày nay, rất nhiều phụ nữ tốt nghiệp đại học với kết quả xuất sắc và có năng lực làm việc không thua kém nam giới. Nếu bị ép ở nhà chỉ để làm việc nhà, họ sẽ mất cơ hội phát huy khả năng và thực hiện ước mơ cá nhân. Hơn nữa, tự kiếm ra tiền giúp phụ nữ tự tin và chủ động hơn trong cuộc sống.",
+                    "evidence_en": "Today, many women graduate from university with excellent results and work just as well as men. If they are expected to stay home only for housework, they lose the chance to use their skills and follow personal dreams. Moreover, earning their own income helps women feel more confident and independent in life.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "graduate from university",
+                          "vi": "tốt nghiệp đại học"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "follow personal dreams",
+                          "vi": "theo đuổi ước mơ cá nhân"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "confident and independent",
+                          "vi": "tự tin và độc lập"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "pursue careers",
+                        "vi": "theo đuổi sự nghiệp"
+                      },
+                      {
+                        "en": "financial independence",
+                        "vi": "độc lập tài chính"
+                      },
+                      {
+                        "en": "graduate from university",
+                        "vi": "tốt nghiệp đại học"
+                      },
+                      {
+                        "en": "follow personal dreams",
+                        "vi": "theo đuổi ước mơ cá nhân"
+                      },
+                      {
+                        "en": "confident and independent",
+                        "vi": "tự tin và độc lập"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 03: XÃ HỘI CẦN NGUỒN NHÂN LỰC VÀ ĐÓNG GÓP CỦA PHỤ NỮ",
+                    "point_vi": "Khi phụ nữ tham gia thị trường lao động, xã hội và nền kinh tế sẽ tận dụng được nguồn nhân lực rất quý giá.",
+                    "point_en": "When women participate in the workforce, society and the economy benefit from valuable human resources.",
+                    "point_collocations": [
+                      {
+                        "en": "participate in the workforce",
+                        "vi": "tham gia lực lượng lao động"
+                      },
+                      {
+                        "en": "human resources",
+                        "vi": "nguồn nhân lực"
+                      }
+                    ],
+                    "evidence_vi": "Phụ nữ đóng góp rất lớn trong các ngành quan trọng như giáo dục, y tế, kinh doanh và khoa học công nghệ. Nếu một nửa dân số chỉ ở nhà làm nội trợ, đất nước sẽ bỏ lỡ vô số bác sĩ, giáo viên và nhà lãnh đạo giỏi. Do đó, khuyến khích phụ nữ đi làm giúp nền kinh tế phát triển mạnh mẽ hơn.",
+                    "evidence_en": "Women make huge contributions to vital sectors like education, healthcare, business, and technology. If half of the population stays home doing chores, countries lose countless skilled doctors, teachers, and leaders. Therefore, encouraging women to work helps national economies grow much stronger.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "vital sectors",
+                          "vi": "các lĩnh vực thiết yếu"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "half of the population",
+                          "vi": "một nửa dân số"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "national economies",
+                          "vi": "nền kinh tế quốc gia"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "participate in the workforce",
+                        "vi": "tham gia lực lượng lao động"
+                      },
+                      {
+                        "en": "human resources",
+                        "vi": "nguồn nhân lực"
+                      },
+                      {
+                        "en": "vital sectors",
+                        "vi": "các lĩnh vực thiết yếu"
+                      },
+                      {
+                        "en": "half of the population",
+                        "vi": "một nửa dân số"
+                      },
+                      {
+                        "en": "national economies",
+                        "vi": "nền kinh tế quốc gia"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 04: CHIA SẺ VIỆC NHÀ GIÚP VỢ CHỒNG THẤU HIỂU VÀ GẮN KẾT HƠN",
+                    "point_vi": "Khi cả đàn ông và phụ nữ cùng chia sẻ việc nhà và kiếm tiền, mối quan hệ vợ chồng trở nên công bằng và hạnh phúc hơn.",
+                    "point_en": "When both men and women share housework and earning money, marriages become fairer and happier.",
+                    "point_collocations": [
+                      {
+                        "en": "share housework",
+                        "vi": "chia sẻ việc nhà"
+                      },
+                      {
+                        "en": "fairer and happier",
+                        "vi": "công bằng và hạnh phúc hơn"
+                      }
+                    ],
+                    "evidence_vi": "Việc cùng nhau nấu ăn, dọn dẹp và chăm sóc con giúp người chồng hiểu rõ sự vất vả của việc gia đình. Đồng thời, người vợ cũng cảm thấy được tôn trọng và giảm bớt cảm giác bất công trong hôn nhân. Nhờ sự hợp tác bình đẳng này, gia đình sẽ ít tranh cãi và gắn bó bền chặt hơn.",
+                    "evidence_en": "Cooking, cleaning, and raising children together help husbands understand how tiring housework can be. At the same time, wives feel respected and experience less unfairness in marriage. Because of this equal teamwork, families have fewer arguments and build stronger love.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "raising children",
+                          "vi": "nuôi dạy con cái"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "feel respected",
+                          "vi": "cảm thấy được tôn trọng"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "equal teamwork",
+                          "vi": "sự phối hợp bình đẳng"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "share housework",
+                        "vi": "chia sẻ việc nhà"
+                      },
+                      {
+                        "en": "fairer and happier",
+                        "vi": "công bằng và hạnh phúc hơn"
+                      },
+                      {
+                        "en": "raising children",
+                        "vi": "nuôi dạy con cái"
+                      },
+                      {
+                        "en": "feel respected",
+                        "vi": "cảm thấy được tôn trọng"
+                      },
+                      {
+                        "en": "equal teamwork",
+                        "vi": "sự phối hợp bình đẳng"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 05: LÀM GƯƠNG TỐT CHO CON CÁI VỀ BÌNH ĐẲNG GIỚI",
+                    "point_vi": "Phân công linh hoạt giữa cha và mẹ giúp làm gương tích cực cho con cái về bình đẳng giới và tính tự lập.",
+                    "point_en": "Flexible roles between fathers and mothers set a positive example for children about gender equality and independence.",
+                    "point_collocations": [
+                      {
+                        "en": "gender equality",
+                        "vi": "bình đẳng giới"
+                      },
+                      {
+                        "en": "set a positive example",
+                        "vi": "làm gương tích cực"
+                      }
+                    ],
+                    "evidence_vi": "Khi thấy cả bố và mẹ đều đi làm và cùng chia sẻ công việc bếp núc, trẻ em hiểu rằng việc nhà là trách nhiệm chung của mọi người. Các bé trai sẽ biết yêu thương, phụ giúp gia đình, còn các bé gái sẽ tự tin theo đuổi sự nghiệp lớn trong tương lai. Nhờ vậy, thế hệ trẻ sẽ trưởng thành với tư duy tiến bộ và tôn trọng mọi người hơn.",
+                    "evidence_en": "When kids see both fathers and mothers working and sharing cooking or cleaning, they learn that chores belong to everyone. Boys learn to care and help at home, while girls feel confident pursuing ambitious careers in the future. As a result, young generations grow up with modern attitudes and greater respect for others.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "belong to everyone",
+                          "vi": "thuộc về mọi người"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "ambitious careers",
+                          "vi": "sự nghiệp đầy hoài bão"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "modern attitudes",
+                          "vi": "tư duy hiện đại"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "gender equality",
+                        "vi": "bình đẳng giới"
+                      },
+                      {
+                        "en": "set a positive example",
+                        "vi": "làm gương tích cực"
+                      },
+                      {
+                        "en": "belong to everyone",
+                        "vi": "thuộc về mọi người"
+                      },
+                      {
+                        "en": "ambitious careers",
+                        "vi": "sự nghiệp đầy hoài bão"
+                      },
+                      {
+                        "en": "modern attitudes",
+                        "vi": "tư duy hiện đại"
+                      }
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 01: MÔ HÌNH HAI NGUỒN THU NHẬP BẢO VỆ AN NINH TÀI CHÍNH GIA ĐÌNH (DUAL-INCOME FINANCIAL STABILITY)",
+                    "point_vi": "Trong bối cảnh chi phí sinh hoạt leo thang, việc cả vợ và chồng cùng làm việc là điều thiết yếu để đảm bảo sự ổn định tài chính cho gia đình.",
+                    "point_en": "Amid escalating living costs, a dual-income household is often essential for securing long-term financial stability.",
+                    "point_collocations": [
+                      {
+                        "en": "escalating living costs",
+                        "vi": "chi phí sinh hoạt leo thang"
+                      },
+                      {
+                        "en": "dual-income household",
+                        "vi": "gia đình hai nguồn thu nhập"
+                      }
+                    ],
+                    "evidence_vi": "Giá nhà ở, dịch vụ y tế và học phí chất lượng cao tại các đô thị hiện đại ngày càng đắt đỏ, khiến một nguồn thu nhập duy nhất khó lòng đáp ứng trọn vẹn. Bên cạnh đó, việc chỉ phụ thuộc vào lương của người chồng đặt cả gia đình vào rủi ro nghiêm trọng nếu người trụ cột bất ngờ mất việc hoặc đau ốm. Ví dụ, những gia đình có cả hai vợ chồng đi làm thường có khoản dự phòng vững chắc hơn để đầu tư cho giáo dục con cái và quỹ hưu trí. Do đó, cùng chia sẻ trách nhiệm kinh tế mang lại sự an toàn tài chính vượt trội so với mô hình truyền thống.",
+                    "evidence_en": "Soaring housing prices, healthcare bills, and quality education costs in modern cities make relying on a single paycheck increasingly difficult. Moreover, depending exclusively on the husband's income exposes the entire family to severe vulnerability if the sole breadwinner faces sudden layoffs or illness. For instance, dual-income couples generally build stronger emergency savings and invest more comfortably in their children's schooling and retirement. Consequently, sharing financial duties provides far greater economic resilience than outdated single-earner structures.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "single paycheck",
+                          "vi": "một nguồn lương duy nhất"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "sole breadwinner",
+                          "vi": "trụ cột kinh tế duy nhất"
+                        },
+                        {
+                          "en": "sudden layoffs",
+                          "vi": "mất việc đột ngột"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "emergency savings",
+                          "vi": "quỹ tiết kiệm khẩn cấp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "economic resilience",
+                          "vi": "sức chống chịu về kinh tế"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "escalating living costs",
+                        "vi": "chi phí sinh hoạt leo thang"
+                      },
+                      {
+                        "en": "dual-income household",
+                        "vi": "gia đình hai nguồn thu nhập"
+                      },
+                      {
+                        "en": "single paycheck",
+                        "vi": "một nguồn lương duy nhất"
+                      },
+                      {
+                        "en": "sole breadwinner",
+                        "vi": "trụ cột kinh tế duy nhất"
+                      },
+                      {
+                        "en": "sudden layoffs",
+                        "vi": "mất việc đột ngột"
+                      },
+                      {
+                        "en": "emergency savings",
+                        "vi": "quỹ tiết kiệm khẩn cấp"
+                      },
+                      {
+                        "en": "economic resilience",
+                        "vi": "sức chống chịu về kinh tế"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 02: TÔN TRỌNG QUYỀN BÌNH ĐẲNG VÀ ĐỘC LẬP CỦA PHỤ NỮ (WOMEN'S EQUAL RIGHTS AND AUTONOMY)",
+                    "point_vi": "Đóng khung phụ nữ vào công việc nội trợ vi phạm quyền bình đẳng cơ bản và tước đi cơ hội tự chủ cũng như phát triển bản thân của họ.",
+                    "point_en": "Confining women to domestic roles violates fundamental gender equality and deprives them of personal fulfillment and autonomy.",
+                    "point_collocations": [
+                      {
+                        "en": "confine to domestic roles",
+                        "vi": "đóng khung vào vai trò nội trợ"
+                      },
+                      {
+                        "en": "personal fulfillment",
+                        "vi": "sự thỏa mãn phát triển bản thân"
+                      }
+                    ],
+                    "evidence_vi": "Phụ nữ hiện đại ngày càng đạt thành tích học thuật xuất sắc và sở hữu năng lực chuyên môn ngang bằng nam giới trong hầu hết mọi lĩnh vực. Việc kỳ vọng họ từ bỏ sự nghiệp chỉ vì định kiến giới không chỉ gây lãng phí tri thức cá nhân mà còn khiến họ dễ bị phụ thuộc về tài chính trong hôn nhân. Chẳng hạn, khi tự chủ được thu nhập, người phụ nữ có tiếng nói bình đẳng hơn trong các quyết định lớn của gia đình và chủ động bảo vệ bản thân trước biến cố. Vì vậy, mọi cá nhân—bất kể giới tính—đều xứng đáng được tự do lựa chọn con đường sự nghiệp của mình.",
+                    "evidence_en": "Modern women achieve outstanding academic results and demonstrate equal professional competence to men across nearly every discipline. Expecting them to abandon careers purely due to gender stereotypes wastes individual potential and leaves them financially dependent within marriage. For example, economically independent women enjoy a stronger voice in major household decisions and can protect themselves during unforeseen life crises. Therefore, every individual—regardless of gender—deserves equal freedom to pursue professional ambitions.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "professional competence",
+                          "vi": "năng lực chuyên môn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "gender stereotypes",
+                          "vi": "định kiến giới"
+                        },
+                        {
+                          "en": "financially dependent",
+                          "vi": "phụ thuộc về tài chính"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "unforeseen life crises",
+                          "vi": "biến cố bất ngờ trong đời"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "professional ambitions",
+                          "vi": "hoài bão nghề nghiệp"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "confine to domestic roles",
+                        "vi": "đóng khung vào vai trò nội trợ"
+                      },
+                      {
+                        "en": "personal fulfillment",
+                        "vi": "sự thỏa mãn phát triển bản thân"
+                      },
+                      {
+                        "en": "professional competence",
+                        "vi": "năng lực chuyên môn"
+                      },
+                      {
+                        "en": "gender stereotypes",
+                        "vi": "định kiến giới"
+                      },
+                      {
+                        "en": "financially dependent",
+                        "vi": "phụ thuộc về tài chính"
+                      },
+                      {
+                        "en": "unforeseen life crises",
+                        "vi": "biến cố bất ngờ trong đời"
+                      },
+                      {
+                        "en": "professional ambitions",
+                        "vi": "hoài bão nghề nghiệp"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 03: TỐI ĐA HÓA NGUỒN NHÂN LỰC CHO PHÁT TRIỂN KINH TẾ XÃ HỘI (MAXIMIZING NATIONAL TALENT)",
+                    "point_vi": "Sự tham gia tích cực của phụ nữ vào thị trường lao động mang lại nguồn nhân lực quý báu và thúc đẩy tăng trưởng kinh tế bền vững.",
+                    "point_en": "Women's active participation in the labor force unlocks vital human capital and drives sustainable economic prosperity.",
+                    "point_collocations": [
+                      {
+                        "en": "human capital",
+                        "vi": "nguồn vốn nhân lực"
+                      },
+                      {
+                        "en": "economic prosperity",
+                        "vi": "thịnh vượng kinh tế"
+                      }
+                    ],
+                    "evidence_vi": "Phụ nữ chiếm khoảng một nửa dân số toàn cầu, và việc giữ họ ở nhà đồng nghĩa với việc các quốc gia tự loại bỏ một nửa tiềm năng sáng tạo và lãnh đạo của mình. Trong các lĩnh vực trọng yếu như y học, giáo dục, nghiên cứu khoa học và quản trị doanh nghiệp, góc nhìn đa dạng của nữ giới góp phần nâng cao chất lượng đổi mới và ra quyết định. Ví dụ, nhiều nghiên cứu kinh tế khẳng định các doanh nghiệp có sự cân bằng giới ở cấp quản lý thường đạt hiệu quả hoạt động và năng suất cao hơn. Khuyến khích cả nam và nữ đóng góp ngoài xã hội rõ ràng mang lại lợi ích to lớn cho sự tiến bộ chung.",
+                    "evidence_en": "Women represent roughly half of the global population, meaning that restricting them to housework forfeits half of a nation's intellectual and creative potential. Across essential sectors including medicine, education, scientific research, and corporate leadership, female perspectives enrich innovation and decision-making. For example, numerous economic studies reveal that companies with gender-balanced leadership consistently outperform less diverse competitors. Empowering women to thrive professionally clearly accelerates broader national progress and competitiveness.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "intellectual potential",
+                          "vi": "tiềm năng trí tuệ"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "corporate leadership",
+                          "vi": "lãnh đạo doanh nghiệp"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "gender-balanced leadership",
+                          "vi": "lãnh đạo cân bằng giới"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "national competitiveness",
+                          "vi": "năng lực cạnh tranh quốc gia"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "human capital",
+                        "vi": "nguồn vốn nhân lực"
+                      },
+                      {
+                        "en": "economic prosperity",
+                        "vi": "thịnh vượng kinh tế"
+                      },
+                      {
+                        "en": "intellectual potential",
+                        "vi": "tiềm năng trí tuệ"
+                      },
+                      {
+                        "en": "corporate leadership",
+                        "vi": "lãnh đạo doanh nghiệp"
+                      },
+                      {
+                        "en": "gender-balanced leadership",
+                        "vi": "lãnh đạo cân bằng giới"
+                      },
+                      {
+                        "en": "national competitiveness",
+                        "vi": "năng lực cạnh tranh quốc gia"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 04: THÚC ĐẨY HÔN NHÂN BÌNH ĐẲNG VÀ GẮN KẾT CHA CON (FOSTERING EQUAL PARTNERSHIP AND FATHERHOOD)",
+                    "point_vi": "Việc cả hai vợ chồng cùng chia sẻ việc nhà lẫn nuôi dạy con giúp xây dựng hôn nhân tôn trọng lẫn nhau và thắt chặt tình cảm cha con.",
+                    "point_en": "Sharing both financial responsibilities and domestic chores builds a respectful partnership and strengthens father-child bonds.",
+                    "point_collocations": [
+                      {
+                        "en": "respectful partnership",
+                        "vi": "sự đồng hành tôn trọng lẫn nhau"
+                      },
+                      {
+                        "en": "father-child bonds",
+                        "vi": "tình cảm gắn kết cha con"
+                      }
+                    ],
+                    "evidence_vi": "Khi việc nhà và chăm sóc con cái chỉ đổ dồn lên vai người vợ, cảm giác bất công và kiệt sức kéo dài rất dễ làm rạn nứt hạnh phúc gia đình. Ngược lại, khi người chồng tích cực nấu ăn, dọn dẹp và chăm con cùng vợ, cả hai sẽ thấu hiểu những vất vả của nhau và duy trì sự công bằng trong đời sống chung. Chẳng hạn, những người cha thường xuyên chơi đùa và kèm con học thường xây dựng được mối quan hệ gần gũi, đáng tin cậy với con cái hơn hẳn. Mô hình đồng hành linh hoạt này tạo nên mái ấm văn minh và bền vững hơn nhiều so với khuôn mẫu cứng nhắc.",
+                    "evidence_en": "When housekeeping and parenting fall solely on the wife, lingering resentment and fatigue can easily damage marital harmony. Conversely, when husbands actively cook, tidy, and care for children alongside their spouses, both partners cultivate deeper empathy and mutual respect. For instance, fathers who regularly participate in daily childcare routines build markedly closer, more trusting relationships with their children. This flexible, cooperative model produces far healthier and happier modern marriages than rigid traditional roles.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "marital harmony",
+                          "vi": "sự hòa thuận hôn nhân"
+                        },
+                        {
+                          "en": "lingering resentment",
+                          "vi": "sự ấm ức kéo dài"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "deeper empathy",
+                          "vi": "sự đồng cảm sâu sắc hơn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "daily childcare routines",
+                          "vi": "nếp chăm sóc con hằng ngày"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "rigid traditional roles",
+                          "vi": "vai trò truyền thống cứng nhắc"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "respectful partnership",
+                        "vi": "sự đồng hành tôn trọng lẫn nhau"
+                      },
+                      {
+                        "en": "father-child bonds",
+                        "vi": "tình cảm gắn kết cha con"
+                      },
+                      {
+                        "en": "marital harmony",
+                        "vi": "sự hòa thuận hôn nhân"
+                      },
+                      {
+                        "en": "lingering resentment",
+                        "vi": "sự ấm ức kéo dài"
+                      },
+                      {
+                        "en": "deeper empathy",
+                        "vi": "sự đồng cảm sâu sắc hơn"
+                      },
+                      {
+                        "en": "daily childcare routines",
+                        "vi": "nếp chăm sóc con hằng ngày"
+                      },
+                      {
+                        "en": "rigid traditional roles",
+                        "vi": "vai trò truyền thống cứng nhắc"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "LÝ DO PHẢN ĐỐI 05: GIÁO DỤC THẾ HỆ TRẺ VỀ BÌNH ĐẲNG GIỚI VÀ TỰ LẬP (TEACHING CHILDREN GENDER EQUALITY)",
+                    "point_vi": "Phá bỏ rào cản giới tính trong gia đình tạo tấm gương tiến bộ giúp trẻ em sớm hình thành tư duy bình đẳng và kỹ năng tự lập.",
+                    "point_en": "Breaking down traditional gender barriers at home sets a progressive example that teaches children equality and self-reliance.",
+                    "point_collocations": [
+                      {
+                        "en": "gender barriers",
+                        "vi": "rào cản giới tính"
+                      },
+                      {
+                        "en": "self-reliance",
+                        "vi": "tính tự lập"
+                      }
+                    ],
+                    "evidence_vi": "Trẻ nhỏ tiếp thu quan niệm về giá trị bản thân và vai trò xã hội chủ yếu thông qua việc quan sát cách cha mẹ đối xử với nhau mỗi ngày. Khi chứng kiến cha mình làm việc nhà và mẹ mình thành công trong sự nghiệp, các em nhận ra rằng năng lực và trách nhiệm không bị giới hạn bởi giới tính. Ví dụ, các bé gái lớn lên trong gia đình bình đẳng thường tự tin theo đuổi lĩnh vực khoa học hay lãnh đạo, trong khi các bé trai sớm học được kỹ năng tự chăm sóc bản thân. Nhờ sự giáo dục trực quan này, xã hội tương lai sẽ ngày càng công bằng, tôn trọng và tiến bộ hơn.",
+                    "evidence_en": "Children absorb core beliefs about self-worth and social roles primarily by observing how their parents interact each day. Witnessing fathers perform household tasks and mothers succeed professionally teaches youngsters that capabilities and duties are not dictated by gender. For example, daughters raised in egalitarian homes grow up confident enough to pursue leadership or science careers, while sons learn essential domestic self-sufficiency early on. Through such positive role modeling, future generations will build a fairer, more inclusive society.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "core beliefs",
+                          "vi": "niềm tin cốt lõi"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "dictated by gender",
+                          "vi": "bị quy định bởi giới tính"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "egalitarian homes",
+                          "vi": "gia đình bình đẳng"
+                        },
+                        {
+                          "en": "domestic self-sufficiency",
+                          "vi": "khả năng tự lo việc nhà"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "inclusive society",
+                          "vi": "xã hội bao trùm / bình đẳng"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "gender barriers",
+                        "vi": "rào cản giới tính"
+                      },
+                      {
+                        "en": "self-reliance",
+                        "vi": "tính tự lập"
+                      },
+                      {
+                        "en": "core beliefs",
+                        "vi": "niềm tin cốt lõi"
+                      },
+                      {
+                        "en": "dictated by gender",
+                        "vi": "bị quy định bởi giới tính"
+                      },
+                      {
+                        "en": "egalitarian homes",
+                        "vi": "gia đình bình đẳng"
+                      },
+                      {
+                        "en": "domestic self-sufficiency",
+                        "vi": "khả năng tự lo việc nhà"
+                      },
+                      {
+                        "en": "inclusive society",
+                        "vi": "xã hội bao trùm / bình đẳng"
+                      }
+                    ]
+                  }
+                ],
+                "drawbacks": []
+              },
+              "vocab": [
+                {
+                  "en": "stay at home",
+                  "vi": "ở nhà chăm lo gia đình"
+                },
+                {
+                  "en": "closer care and attention",
+                  "vi": "sự chăm sóc và quan tâm sát sao hơn"
+                },
+                {
+                  "en": "cook nutritious meals",
+                  "vi": "nấu những bữa ăn bổ dưỡng"
+                },
+                {
+                  "en": "warm family meals",
+                  "vi": "bữa cơm gia đình ấm cúng"
+                },
+                {
+                  "en": "clean and tidy house",
+                  "vi": "ngôi nhà sạch sẽ và ngăn nắp"
+                },
+                {
+                  "en": "peaceful atmosphere",
+                  "vi": "bầu không khí bình yên"
+                },
+                {
+                  "en": "private childcare fees",
+                  "vi": "chi phí gửi trẻ tư thục"
+                },
+                {
+                  "en": "domestic helpers",
+                  "vi": "người giúp việc nhà"
+                },
+                {
+                  "en": "formative early years",
+                  "vi": "những năm đầu đời định hình"
+                },
+                {
+                  "en": "stay-at-home mother",
+                  "vi": "người mẹ ở nhà nội trợ"
+                },
+                {
+                  "en": "orderly living environment",
+                  "vi": "môi trường sống ngăn nắp"
+                },
+                {
+                  "en": "harmonious family routines",
+                  "vi": "nếp sinh hoạt gia đình hài hòa"
+                },
+                {
+                  "en": "warm sanctuary",
+                  "vi": "tổ ấm bình yên"
+                },
+                {
+                  "en": "financially sensible arrangement",
+                  "vi": "sự sắp xếp hợp lý về tài chính"
+                },
+                {
+                  "en": "peace of mind",
+                  "vi": "sự an tâm"
+                },
+                {
+                  "en": "resilient foundation",
+                  "vi": "nền tảng vững chắc"
+                },
+                {
+                  "en": "clear role division",
+                  "vi": "sự phân công vai trò rõ ràng"
+                },
+                {
+                  "en": "avoid exhaustion",
+                  "vi": "tránh bị kiệt sức"
+                },
+                {
+                  "en": "working women",
+                  "vi": "phụ nữ đi làm"
+                },
+                {
+                  "en": "manage the household",
+                  "vi": "quản lý việc gia đình"
+                },
+                {
+                  "en": "focus fully on work",
+                  "vi": "tập trung toàn lực cho công việc"
+                },
+                {
+                  "en": "earn a higher income",
+                  "vi": "kiếm thu nhập cao hơn"
+                },
+                {
+                  "en": "faster promotions",
+                  "vi": "cơ hội thăng tiến nhanh hơn"
+                },
+                {
+                  "en": "support the whole family",
+                  "vi": "nuôi sống cả gia đình"
+                },
+                {
+                  "en": "shoulder a double burden",
+                  "vi": "gánh chịu gánh nặng kép"
+                },
+                {
+                  "en": "chronic burnout",
+                  "vi": "sự kiệt sức kéo dài"
+                },
+                {
+                  "en": "undivided energy",
+                  "vi": "năng lượng trọn vẹn"
+                },
+                {
+                  "en": "peak professional capacity",
+                  "vi": "năng lực chuyên môn cao nhất"
+                },
+                {
+                  "en": "practical division of labor",
+                  "vi": "sự phân công lao động thực tế"
+                },
+                {
+                  "en": "dedicated homemaker",
+                  "vi": "người nội trợ tận tâm"
+                },
+                {
+                  "en": "safeguard long-term well-being",
+                  "vi": "bảo vệ sức khỏe lâu dài"
+                },
+                {
+                  "en": "high-pressure projects",
+                  "vi": "những dự án áp lực cao"
+                },
+                {
+                  "en": "financially secure",
+                  "vi": "vững vàng về tài chính"
+                },
+                {
+                  "en": "cover all expenses",
+                  "vi": "trang trải mọi chi phí"
+                },
+                {
+                  "en": "standard of living",
+                  "vi": "mức sống"
+                },
+                {
+                  "en": "pursue careers",
+                  "vi": "theo đuổi sự nghiệp"
+                },
+                {
+                  "en": "financial independence",
+                  "vi": "sự độc lập tài chính"
+                },
+                {
+                  "en": "participate in the workforce",
+                  "vi": "tham gia lực lượng lao động"
+                },
+                {
+                  "en": "valuable human resources",
+                  "vi": "nguồn nhân lực quý giá"
+                },
+                {
+                  "en": "vital sectors",
+                  "vi": "các lĩnh vực thiết yếu"
+                },
+                {
+                  "en": "dual-income household",
+                  "vi": "gia đình hai nguồn thu nhập"
+                },
+                {
+                  "en": "escalating living costs",
+                  "vi": "chi phí sinh hoạt leo thang"
+                },
+                {
+                  "en": "economic resilience",
+                  "vi": "sức chống chịu về kinh tế"
+                },
+                {
+                  "en": "confine women to domestic roles",
+                  "vi": "đóng khung phụ nữ vào vai trò nội trợ"
+                },
+                {
+                  "en": "personal fulfillment and autonomy",
+                  "vi": "sự thỏa mãn bản thân và quyền tự chủ"
+                },
+                {
+                  "en": "outdated gender stereotypes",
+                  "vi": "định kiến giới lỗi thời"
+                },
+                {
+                  "en": "unlock vital human capital",
+                  "vi": "khai phá nguồn vốn nhân lực thiết yếu"
+                },
+                {
+                  "en": "gender-balanced leadership",
+                  "vi": "đội ngũ lãnh đạo cân bằng giới"
+                },
+                {
+                  "en": "share housework fairly",
+                  "vi": "chia sẻ việc nhà công bằng"
+                },
+                {
+                  "en": "feel respected",
+                  "vi": "cảm thấy được tôn trọng"
+                },
+                {
+                  "en": "equal teamwork",
+                  "vi": "sự phối hợp bình đẳng"
+                },
+                {
+                  "en": "gender equality",
+                  "vi": "bình đẳng giới"
+                },
+                {
+                  "en": "set a positive example",
+                  "vi": "làm gương tích cực"
+                },
+                {
+                  "en": "belong to everyone",
+                  "vi": "thuộc về mọi thành viên"
+                },
+                {
+                  "en": "ambitious careers",
+                  "vi": "sự nghiệp đầy hoài bão"
+                },
+                {
+                  "en": "modern attitudes",
+                  "vi": "tư duy hiện đại, tiến bộ"
+                },
+                {
+                  "en": "respectful partnership",
+                  "vi": "mối quan hệ đồng hành tôn trọng nhau"
+                },
+                {
+                  "en": "strengthen father-child bonds",
+                  "vi": "thắt chặt tình cảm cha con"
+                },
+                {
+                  "en": "lingering resentment",
+                  "vi": "sự ấm ức kéo dài"
+                },
+                {
+                  "en": "rigid traditional roles",
+                  "vi": "những vai trò truyền thống cứng nhắc"
+                },
+                {
+                  "en": "break down gender barriers",
+                  "vi": "phá bỏ rào cản giới tính"
+                },
+                {
+                  "en": "egalitarian homes",
+                  "vi": "những gia đình bình đẳng"
+                },
+                {
+                  "en": "domestic self-sufficiency",
+                  "vi": "khả năng tự lo việc nhà"
+                },
+                {
+                  "en": "inclusive society",
+                  "vi": "một xã hội bao trùm và bình đẳng"
+                }
+              ],
+              "sample_b1": "Some people still argue that women should stay at home to do housework while men go out to earn money. However, I strongly disagree with this traditional view because modern families need two incomes, women deserve equal rights to build careers, and sharing chores makes marriages happier.\n\nFirstly, having both husbands and wives work makes families much more <strong>financially secure</strong>. In big cities today, the costs of housing, food, healthcare, and education are rising very fast, so one salary is often not enough to <strong>cover all expenses</strong>. When both partners earn money, families face less stress and enjoy a higher <strong>standard of living</strong>.\n\nSecondly, women have equal talent and education to <strong>pursue careers</strong> and achieve <strong>financial independence</strong>. If women are expected to stay home only for chores, they lose the chance to use their skills and follow personal dreams. Moreover, when women <strong>participate in the workforce</strong> in vital sectors like healthcare and education, society benefits from <strong>valuable human resources</strong>.\n\nFinally, when men and women <strong>share housework fairly</strong>, marriages become fairer and happier. Cooking and raising children together help wives <strong>feel respected</strong> and build <strong>equal teamwork</strong> at home. At the same time, seeing both parents work and do chores sets a <strong>positive example</strong> for children about <strong>gender equality</strong>.\n\nIn conclusion, I firmly oppose this outdated idea. Both men and women should have the freedom to work and share household responsibilities equally.",
+              "translation_b1": "Một số người vẫn cho rằng phụ nữ nên ở nhà làm việc nhà còn đàn ông đi làm kiếm tiền. Tuy nhiên, tôi hoàn toàn không đồng ý với quan điểm truyền thống này vì gia đình hiện đại cần hai nguồn thu nhập, phụ nữ xứng đáng có quyền bình đẳng xây dựng sự nghiệp và việc chia sẻ việc nhà giúp hôn nhân hạnh phúc hơn.\n\nThứ nhất, cả vợ và chồng cùng đi làm giúp gia đình <strong>vững vàng về tài chính</strong> hơn nhiều. Ở các thành phố lớn ngày nay, chi phí nhà ở, thực phẩm, y tế và giáo dục tăng rất nhanh nên một mức lương thường không đủ <strong>trang trải mọi chi phí</strong>. Khi cả hai cùng kiếm tiền, gia đình bớt căng thẳng hơn và hưởng <strong>mức sống</strong> cao hơn.\n\nThứ hai, phụ nữ có tài năng và học vấn ngang bằng để <strong>theo đuổi sự nghiệp</strong> và đạt được <strong>sự độc lập tài chính</strong>. Nếu phụ nữ bị kỳ vọng chỉ ở nhà làm việc nhà, họ sẽ mất cơ hội phát huy kỹ năng và thực hiện ước mơ cá nhân. Hơn nữa, khi phụ nữ <strong>tham gia lực lượng lao động</strong> trong các ngành thiết yếu như y tế và giáo dục, xã hội được hưởng lợi từ <strong>nguồn nhân lực quý giá</strong>.\n\nCuối cùng, khi đàn ông và phụ nữ <strong>chia sẻ việc nhà công bằng</strong>, hôn nhân trở nên công bằng và hạnh phúc hơn. Cùng nhau nấu ăn và nuôi dạy con giúp người vợ <strong>cảm thấy được tôn trọng</strong> và tạo dựng <strong>sự phối hợp bình đẳng</strong> trong nhà. Đồng thời, thấy cả cha và mẹ cùng đi làm và làm việc nhà sẽ tạo <strong>tấm gương tích cực</strong> cho con cái về <strong>bình đẳng giới</strong>.\n\nTóm lại, tôi kiên quyết phản đối quan niệm lỗi thời này. Cả nam và nữ đều nên có quyền tự do đi làm và cùng chia sẻ trách nhiệm gia đình một cách bình đẳng.",
+              "sample_b2": "Although the traditional belief that women should remain homemakers while men act as sole breadwinners persisted for generations, it is increasingly unsuitable for modern society. I strongly disagree with this statement because dual-income households ensure financial security, women deserve equal autonomy, and shared responsibilities create healthier families.\n\nFirst and foremost, amid <strong>escalating living costs</strong>, a <strong>dual-income household</strong> is often vital for long-term stability. Soaring housing prices, healthcare bills, and education fees make relying on a single paycheck risky, exposing families to severe vulnerability if the sole earner faces unexpected layoffs. Sharing financial duties provides stronger <strong>economic resilience</strong> and enables couples to invest confidently in their children's future.\n\nSecond, <strong>confining women to domestic roles</strong> reflects <strong>outdated gender stereotypes</strong> and violates their right to <strong>personal fulfillment and autonomy</strong>. Modern women demonstrate equal professional competence across every discipline; earning an independent income gives them a stronger voice in family decisions and protects them during unforeseen crises. Equally important, empowering women to thrive professionally <strong>unlocks vital human capital</strong> and brings <strong>gender-balanced leadership</strong> that drives innovation and national prosperity.\n\nFinally, sharing both careers and chores builds a <strong>respectful partnership</strong> while avoiding the <strong>lingering resentment</strong> caused by unfair domestic burdens. When fathers actively participate in cooking and childcare, they <strong>strengthen father-child bonds</strong> and help <strong>break down gender barriers</strong>. Children raised in <strong>egalitarian homes</strong> learn domestic self-sufficiency and respect for everyone, laying the groundwork for a fairer, more <strong>inclusive society</strong>.\n\nIn conclusion, rigid gender roles no longer serve modern families or economies. Couples should freely choose how to balance careers and housework based on individual strengths rather than gender.",
+              "translation_b2": "Dù quan niệm truyền thống cho rằng phụ nữ nên làm nội trợ còn đàn ông là trụ cột kinh tế duy nhất đã tồn tại qua nhiều thế hệ, nó ngày càng không phù hợp với xã hội hiện đại. Tôi hoàn toàn không đồng ý với nhận định này vì gia đình hai thu nhập đảm bảo an ninh tài chính, phụ nữ xứng đáng có quyền tự chủ bình đẳng và sự chia sẻ trách nhiệm tạo nên những gia đình lành mạnh hơn.\n\nTrước hết, giữa <strong>chi phí sinh hoạt leo thang</strong>, một <strong>gia đình hai nguồn thu nhập</strong> thường rất thiết yếu cho sự ổn định lâu dài. Giá nhà, viện phí và học phí tăng vọt khiến việc phụ thuộc một nguồn lương trở nên rủi ro, đặt gia đình vào thế dễ tổn thương nếu người trụ cột bất ngờ mất việc. Cùng chia sẻ trách nhiệm tài chính tạo <strong>sức chống chịu kinh tế</strong> mạnh hơn và giúp vợ chồng tự tin đầu tư cho tương lai con cái.\n\nThứ hai, việc <strong>đóng khung phụ nữ vào vai trò nội trợ</strong> phản ánh <strong>định kiến giới lỗi thời</strong> và vi phạm quyền được <strong>thỏa mãn bản thân và tự chủ</strong> của họ. Phụ nữ hiện đại thể hiện năng lực chuyên môn ngang bằng trong mọi lĩnh vực; thu nhập độc lập giúp họ có tiếng nói mạnh hơn trong quyết định gia đình và tự bảo vệ trước biến cố. Quan trọng không kém, trao quyền phát triển nghề nghiệp cho phụ nữ giúp <strong>khai phá nguồn vốn nhân lực thiết yếu</strong> và mang lại <strong>đội ngũ lãnh đạo cân bằng giới</strong> thúc đẩy đổi mới và thịnh vượng quốc gia.\n\nCuối cùng, cùng chia sẻ cả sự nghiệp lẫn việc nhà xây dựng <strong>mối quan hệ đồng hành tôn trọng nhau</strong> và tránh được <strong>sự ấm ức kéo dài</strong> do bất công nội trợ. Khi người cha chủ động nấu ăn và chăm con, họ <strong>thắt chặt tình cảm cha con</strong> và góp phần <strong>phá bỏ rào cản giới tính</strong>. Trẻ lớn lên trong <strong>gia đình bình đẳng</strong> sớm học được khả năng tự lo việc nhà và tôn trọng mọi người, đặt nền móng cho một <strong>xã hội bao trùm</strong> và công bằng hơn.\n\nTóm lại, vai trò giới cứng nhắc không còn phù hợp với gia đình và nền kinh tế hiện đại. Các cặp đôi nên tự do chọn cách cân bằng sự nghiệp và việc nhà dựa trên thế mạnh cá nhân thay vì giới tính.",
+              "vocab_step": {
+                "theme": "Vai trò giới trong gia đình (Traditional vs Equal Family Roles)",
+                "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (50 mục) và B2 (68 mục), phục vụ trọn vẹn cả hai hướng tiếp cận: Đồng ý (Agree) và Không đồng ý (Disagree).",
+                "single_words": [
+                  {
+                    "word": "housework",
+                    "ipa": "/ˈhaʊs.wɜːk/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "việc nhà, công việc nội trợ",
+                    "family": "household chores (n)",
+                    "example_en": "Both husbands and wives should share daily housework fairly.",
+                    "example_vi": "Cả vợ và chồng nên chia sẻ công việc nhà hằng ngày công bằng."
+                  },
+                  {
+                    "word": "breadwinner",
+                    "ipa": "/ˈbredˌwɪn.ər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "người trụ cột kiếm tiền",
+                    "family": "breadwinners (n)",
+                    "example_en": "In the past, men were usually the main breadwinners in families.",
+                    "example_vi": "Trước đây, đàn ông thường là người trụ cột kiếm tiền chính trong gia đình."
+                  },
+                  {
+                    "word": "equality",
+                    "ipa": "/iˈkwɒl.ə.ti/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "sự bình đẳng",
+                    "family": "equal (adj), equally (adv)",
+                    "example_en": "Gender equality allows women to pursue their career dreams.",
+                    "example_vi": "Bình đẳng giới cho phép phụ nữ theo đuổi ước mơ nghề nghiệp."
+                  },
+                  {
+                    "word": "income",
+                    "ipa": "/ˈɪn.kʌm/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "thu nhập",
+                    "family": "incomes (n)",
+                    "example_en": "Having two incomes helps modern families afford housing and education.",
+                    "example_vi": "Có hai nguồn thu nhập giúp gia đình hiện đại chi trả nhà ở và giáo dục."
+                  },
+                  {
+                    "word": "career",
+                    "ipa": "/kəˈrɪər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "sự nghiệp",
+                    "family": "careers (n)",
+                    "example_en": "Many women want to build a successful career outside the home.",
+                    "example_vi": "Nhiều phụ nữ muốn xây dựng sự nghiệp thành công ngoài xã hội."
+                  },
+                  {
+                    "word": "childcare",
+                    "ipa": "/ˈtʃaɪld.keər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "việc chăm sóc trẻ em",
+                    "family": "care for children (v)",
+                    "example_en": "Private childcare has become very expensive in big cities.",
+                    "example_vi": "Dịch vụ giữ trẻ tư thục trở nên rất đắt đỏ ở các thành phố lớn."
+                  },
+                  {
+                    "word": "responsibility",
+                    "ipa": "/rɪˌspɒn.səˈbɪl.ə.ti/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "trách nhiệm",
+                    "family": "responsible (adj)",
+                    "example_en": "Raising children should be a shared responsibility of both parents.",
+                    "example_vi": "Nuôi dạy con cái nên là trách nhiệm chung của cả cha và mẹ."
+                  },
+                  {
+                    "word": "independent",
+                    "ipa": "/ˌɪn.dɪˈpen.dənt/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "độc lập, tự chủ",
+                    "family": "independence (n)",
+                    "example_en": "Earning money helps women become financially independent.",
+                    "example_vi": "Kiếm ra tiền giúp phụ nữ trở nên độc lập về tài chính."
+                  },
+                  {
+                    "word": "respect",
+                    "ipa": "/rɪˈspekt/",
+                    "pos": "n, v",
+                    "level": "B1, B2",
+                    "vi": "sự tôn trọng; tôn trọng",
+                    "family": "respectful (adj)",
+                    "example_en": "Sharing household chores builds mutual respect between spouses.",
+                    "example_vi": "Chia sẻ việc nhà xây dựng sự tôn trọng lẫn nhau giữa vợ chồng."
+                  },
+                  {
+                    "word": "traditional",
+                    "ipa": "/trəˈdɪʃ.ən.əl/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "truyền thống",
+                    "family": "tradition (n)",
+                    "example_en": "Traditional gender roles are changing quickly in modern society.",
+                    "example_vi": "Vai trò giới truyền thống đang thay đổi nhanh chóng trong xã hội hiện đại."
+                  },
+                  {
+                    "word": "modern",
+                    "ipa": "/ˈmɒd.ən/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "hiện đại",
+                    "family": "modernity (n)",
+                    "example_en": "Modern families often prefer flexible roles for men and women.",
+                    "example_vi": "Gia đình hiện đại thường ưa chuộng vai trò linh hoạt cho nam và nữ."
+                  },
+                  {
+                    "word": "pressure",
+                    "ipa": "/ˈpreʃ.ər/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "áp lực",
+                    "family": "pressured (adj)",
+                    "example_en": "Working mothers often face heavy pressure from both jobs and housework.",
+                    "example_vi": "Các bà mẹ đi làm thường chịu áp lực nặng từ cả công việc lẫn việc nhà."
+                  },
+                  {
+                    "word": "salary",
+                    "ipa": "/ˈsæl.ər.i/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "tiền lương",
+                    "family": "salaries (n)",
+                    "example_en": "One salary is sometimes not enough to cover family expenses.",
+                    "example_vi": "Một mức lương đôi khi không đủ trang trải chi phí gia đình."
+                  },
+                  {
+                    "word": "workforce",
+                    "ipa": "/ˈwɜːk.fɔːs/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "lực lượng lao động",
+                    "family": "work (v, n)",
+                    "example_en": "Women make up nearly half of the global workforce today.",
+                    "example_vi": "Phụ nữ chiếm gần một nửa lực lượng lao động toàn cầu ngày nay."
+                  },
+                  {
+                    "word": "support",
+                    "ipa": "/səˈpɔːt/",
+                    "pos": "v, n",
+                    "level": "B1, B2",
+                    "vi": "hỗ trợ, nuôi sống",
+                    "family": "supportive (adj)",
+                    "example_en": "Both partners can work together to support the family financially.",
+                    "example_vi": "Cả hai vợ chồng có thể cùng nhau hỗ trợ tài chính cho gia đình."
+                  },
+                  {
+                    "word": "talent",
+                    "ipa": "/ˈtæl.ənt/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "tài năng",
+                    "family": "talented (adj)",
+                    "example_en": "Society loses valuable talent when women cannot enter the workplace.",
+                    "example_vi": "Xã hội mất đi tài năng quý giá khi phụ nữ không thể đi làm."
+                  },
+                  {
+                    "word": "fair",
+                    "ipa": "/feər/",
+                    "pos": "adj",
+                    "level": "B1, B2",
+                    "vi": "công bằng",
+                    "family": "fairness (n), fairly (adv)",
+                    "example_en": "Dividing chores fairly reduces arguments between husbands and wives.",
+                    "example_vi": "Phân chia việc nhà công bằng giúp giảm tranh cãi giữa vợ và chồng."
+                  },
+                  {
+                    "word": "role",
+                    "ipa": "/rəʊl/",
+                    "pos": "n",
+                    "level": "B1, B2",
+                    "vi": "vai trò",
+                    "family": "roles (n)",
+                    "example_en": "Couples should freely decide their own roles inside the family.",
+                    "example_vi": "Các cặp đôi nên tự do quyết định vai trò của mình trong gia đình."
+                  },
+                  {
+                    "word": "homemaker",
+                    "ipa": "/ˈhəʊmˌmeɪ.kər/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "người nội trợ",
+                    "family": "homemaking (n)",
+                    "example_en": "A dedicated homemaker keeps the household organized and peaceful.",
+                    "example_vi": "Một người nội trợ tận tâm giữ ngôi nhà ngăn nắp và yên bình."
+                  },
+                  {
+                    "word": "dual-income",
+                    "ipa": "/ˌdjuː.əlˈɪŋ.kʌm/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "hai nguồn thu nhập",
+                    "family": "income (n)",
+                    "example_en": "Dual-income households enjoy stronger financial protection against crises.",
+                    "example_vi": "Gia đình hai nguồn thu nhập có sự bảo vệ tài chính vững chắc hơn."
+                  },
+                  {
+                    "word": "stereotype",
+                    "ipa": "/ˈster.i.ə.taɪp/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "định kiến, khuôn mẫu",
+                    "family": "stereotypical (adj)",
+                    "example_en": "Outdated gender stereotypes limit women's professional potential.",
+                    "example_vi": "Định kiến giới lỗi thời giới hạn tiềm năng nghề nghiệp của phụ nữ."
+                  },
+                  {
+                    "word": "autonomy",
+                    "ipa": "/ɔːˈtɒn.ə.mi/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "quyền tự chủ",
+                    "family": "autonomous (adj)",
+                    "example_en": "Financial independence gives women greater personal autonomy.",
+                    "example_vi": "Độc lập tài chính mang lại cho phụ nữ quyền tự chủ cá nhân lớn hơn."
+                  },
+                  {
+                    "word": "upbringing",
+                    "ipa": "/ˈʌpˌbrɪŋ.ɪŋ/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "sự nuôi dưỡng, dạy dỗ",
+                    "family": "bring up (v)",
+                    "example_en": "Close parental supervision supports children's healthy upbringing.",
+                    "example_vi": "Sự giám sát sát sao của cha mẹ hỗ trợ quá trình nuôi dưỡng trẻ lành mạnh."
+                  },
+                  {
+                    "word": "confine",
+                    "ipa": "/kənˈfaɪn/",
+                    "pos": "v",
+                    "level": "B2",
+                    "vi": "giam hãm, đóng khung",
+                    "family": "confinement (n)",
+                    "example_en": "Society should not confine women solely to domestic duties.",
+                    "example_vi": "Xã hội không nên đóng khung phụ nữ chỉ vào công việc nội trợ."
+                  },
+                  {
+                    "word": "egalitarian",
+                    "ipa": "/ɪˌɡæl.ɪˈteə.ri.ən/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "bình đẳng, đề cao bình đẳng",
+                    "family": "equality (n)",
+                    "example_en": "Children raised in egalitarian homes develop fairer social attitudes.",
+                    "example_vi": "Trẻ lớn lên trong gia đình bình đẳng phát triển thái độ xã hội công bằng hơn."
+                  },
+                  {
+                    "word": "resentment",
+                    "ipa": "/rɪˈzent.mənt/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "sự bất mãn, ấm ức",
+                    "family": "resentful (adj)",
+                    "example_en": "Unfair housework division often breeds lingering resentment.",
+                    "example_vi": "Phân chia việc nhà bất công thường nảy sinh sự ấm ức kéo dài."
+                  },
+                  {
+                    "word": "harmonious",
+                    "ipa": "/hɑːˈməʊ.ni.əs/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "hài hòa, êm ấm",
+                    "family": "harmony (n)",
+                    "example_en": "Mutual respect is essential for a harmonious family environment.",
+                    "example_vi": "Tôn trọng lẫn nhau rất thiết yếu cho môi trường gia đình êm ấm."
+                  },
+                  {
+                    "word": "vulnerability",
+                    "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "tính dễ tổn thương / rủi ro",
+                    "family": "vulnerable (adj)",
+                    "example_en": "Relying on one paycheck creates financial vulnerability during layoffs.",
+                    "example_vi": "Phụ thuộc một nguồn lương tạo ra rủi ro tài chính khi bị mất việc."
+                  },
+                  {
+                    "word": "competence",
+                    "ipa": "/ˈkɒm.pɪ.təns/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "năng lực chuyên môn",
+                    "family": "competent (adj)",
+                    "example_en": "Women show equal professional competence in science and management.",
+                    "example_vi": "Phụ nữ thể hiện năng lực chuyên môn ngang bằng trong khoa học và quản lý."
+                  },
+                  {
+                    "word": "forfeit",
+                    "ipa": "/ˈfɔː.fɪt/",
+                    "pos": "v",
+                    "level": "B2",
+                    "vi": "đánh mất, từ bỏ (tiềm năng)",
+                    "family": "forfeiture (n)",
+                    "example_en": "Keeping women out of work forfeits half of a country's talent.",
+                    "example_vi": "Giữ phụ nữ ngoài thị trường lao động làm mất một nửa tài năng quốc gia."
+                  },
+                  {
+                    "word": "specialization",
+                    "ipa": "/ˌspeʃ.əl.aɪˈzeɪ.ʃən/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "sự chuyên môn hóa",
+                    "family": "specialize (v)",
+                    "example_en": "Some argue that role specialization increases household efficiency.",
+                    "example_vi": "Một số người lập luận sự chuyên môn hóa vai trò tăng hiệu quả gia đình."
+                  },
+                  {
+                    "word": "spouse",
+                    "ipa": "/spaʊs/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "vợ hoặc chồng, bạn đời",
+                    "family": "spouses (n)",
+                    "example_en": "Both spouses should share decisions on finances and parenting.",
+                    "example_vi": "Cả hai vợ chồng nên cùng chia sẻ quyết định tài chính và nuôi con."
+                  },
+                  {
+                    "word": "empower",
+                    "ipa": "/ɪmˈpaʊər/",
+                    "pos": "v",
+                    "level": "B2",
+                    "vi": "trao quyền, tiếp sức",
+                    "family": "empowerment (n)",
+                    "example_en": "Equal access to employment empowers women socially and economically.",
+                    "example_vi": "Cơ hội việc làm bình đẳng trao quyền cho phụ nữ về xã hội và kinh tế."
+                  },
+                  {
+                    "word": "inclusive",
+                    "ipa": "/ɪnˈkluː.sɪv/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "bao trùm, bình đẳng",
+                    "family": "inclusion (n)",
+                    "example_en": "Teaching equality at home helps build a more inclusive society.",
+                    "example_vi": "Dạy về bình đẳng ở nhà giúp xây dựng xã hội bao trùm hơn."
+                  },
+                  {
+                    "word": "self-sufficiency",
+                    "ipa": "/ˌself.səˈfɪʃ.ən.si/",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "khả năng tự lực, tự lo",
+                    "family": "self-sufficient (adj)",
+                    "example_en": "Boys should learn domestic self-sufficiency from a young age.",
+                    "example_vi": "Các bé trai nên học khả năng tự lo việc nhà từ khi còn nhỏ."
+                  },
+                  {
+                    "word": "rigid",
+                    "ipa": "/ˈrɪdʒ.ɪd/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "cứng nhắc",
+                    "family": "rigidity (n)",
+                    "example_en": "Rigid gender roles no longer suit today's fast-changing economy.",
+                    "example_vi": "Vai trò giới cứng nhắc không còn phù hợp với nền kinh tế biến đổi nhanh."
+                  }
+                ],
+                "collocations": [
+                  {
+                    "phrase": "stay at home",
+                    "level": "B1",
+                    "vi": "ở nhà chăm lo gia đình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "When mothers stay at home, children receive closer daily care.",
+                    "example_vi": "Khi người mẹ ở nhà, trẻ nhận được sự chăm sóc sát sao hằng ngày."
+                  },
+                  {
+                    "phrase": "closer care and attention",
+                    "level": "B1",
+                    "vi": "sự chăm sóc và quan tâm sát sao hơn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Young kids thrive with closer care and attention from parents.",
+                    "example_vi": "Trẻ nhỏ phát triển tốt nhờ sự chăm sóc và quan tâm sát sao từ cha mẹ."
+                  },
+                  {
+                    "phrase": "cook nutritious meals",
+                    "level": "B1",
+                    "vi": "nấu những bữa ăn bổ dưỡng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Stay-at-home mothers have time to cook nutritious meals daily.",
+                    "example_vi": "Người mẹ ở nhà có thời gian nấu những bữa ăn bổ dưỡng mỗi ngày."
+                  },
+                  {
+                    "phrase": "warm family meals",
+                    "level": "B1",
+                    "vi": "bữa cơm gia đình ấm cúng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having one homemaker ensures warm family meals every evening.",
+                    "example_vi": "Có một người lo nội trợ đảm bảo bữa cơm gia đình ấm cúng mỗi tối."
+                  },
+                  {
+                    "phrase": "clean and tidy house",
+                    "level": "B1",
+                    "vi": "ngôi nhà sạch sẽ và ngăn nắp",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Full-time care keeps a clean and tidy house for everyone.",
+                    "example_vi": "Chăm lo toàn thời gian giữ ngôi nhà sạch sẽ và ngăn nắp cho mọi người."
+                  },
+                  {
+                    "phrase": "peaceful atmosphere",
+                    "level": "B1",
+                    "vi": "bầu không khí bình yên",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "An organized home creates a peaceful atmosphere after work.",
+                    "example_vi": "Ngôi nhà ngăn nắp tạo ra bầu không khí bình yên sau giờ làm."
+                  },
+                  {
+                    "phrase": "private childcare fees",
+                    "level": "B1",
+                    "vi": "chi phí gửi trẻ tư thục",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Caring for kids at home saves money on private childcare fees.",
+                    "example_vi": "Chăm con tại nhà giúp tiết kiệm tiền gửi trẻ tư thục."
+                  },
+                  {
+                    "phrase": "domestic helpers",
+                    "level": "B1",
+                    "vi": "người giúp việc nhà",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Hiring domestic helpers can be very costly in big cities.",
+                    "example_vi": "Thuê người giúp việc nhà có thể rất tốn kém ở thành phố lớn."
+                  },
+                  {
+                    "phrase": "formative early years",
+                    "level": "B2",
+                    "vi": "những năm đầu đời định hình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Direct parental care is vital during children's formative early years.",
+                    "example_vi": "Sự chăm sóc trực tiếp của cha mẹ rất thiết yếu trong những năm đầu đời."
+                  },
+                  {
+                    "phrase": "stay-at-home mother",
+                    "level": "B2",
+                    "vi": "người mẹ ở nhà nội trợ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A stay-at-home mother can closely monitor children's study routines.",
+                    "example_vi": "Người mẹ nội trợ có thể theo sát thói quen học tập của con."
+                  },
+                  {
+                    "phrase": "orderly living environment",
+                    "level": "B2",
+                    "vi": "môi trường sống ngăn nắp",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dedicated homemaker maintains an orderly living environment.",
+                    "example_vi": "Người nội trợ tận tâm duy trì môi trường sống ngăn nắp."
+                  },
+                  {
+                    "phrase": "harmonious family routines",
+                    "level": "B2",
+                    "vi": "nếp sinh hoạt gia đình hài hòa",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Consistent home management fosters harmonious family routines.",
+                    "example_vi": "Quản lý gia đình đều đặn tạo dựng nếp sinh hoạt hài hòa."
+                  },
+                  {
+                    "phrase": "warm sanctuary",
+                    "level": "B2",
+                    "vi": "tổ ấm bình yên",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fresh dinners turn the house into a warm sanctuary for tired workers.",
+                    "example_vi": "Bữa tối ấm nóng biến ngôi nhà thành tổ ấm bình yên cho người đi làm mệt."
+                  },
+                  {
+                    "phrase": "financially sensible arrangement",
+                    "level": "B2",
+                    "vi": "sự sắp xếp hợp lý về tài chính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "For large families, avoiding daycare costs can be a financially sensible arrangement.",
+                    "example_vi": "Với gia đình đông con, tránh phí gửi trẻ có thể là phương án kinh tế hợp lý."
+                  },
+                  {
+                    "phrase": "peace of mind",
+                    "level": "B2",
+                    "vi": "sự an tâm",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Caring for children directly gives parents invaluable peace of mind.",
+                    "example_vi": "Tự chăm sóc con mang lại cho cha mẹ sự an tâm vô giá."
+                  },
+                  {
+                    "phrase": "resilient foundation",
+                    "level": "B2",
+                    "vi": "nền tảng vững chắc",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong emotional security lays a resilient foundation for adulthood.",
+                    "example_vi": "Sự an toàn cảm xúc đặt nền tảng vững chắc cho tuổi trưởng thành."
+                  },
+                  {
+                    "phrase": "clear role division",
+                    "level": "B1",
+                    "vi": "sự phân công vai trò rõ ràng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Clear role division prevents confusion about daily duties.",
+                    "example_vi": "Phân công vai trò rõ ràng giúp tránh lộn xộn về nhiệm vụ hằng ngày."
+                  },
+                  {
+                    "phrase": "avoid exhaustion",
+                    "level": "B1",
+                    "vi": "tránh bị kiệt sức",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Focusing on one role helps women avoid exhaustion.",
+                    "example_vi": "Tập trung vào một vai trò giúp phụ nữ tránh bị kiệt sức."
+                  },
+                  {
+                    "phrase": "working women",
+                    "level": "B1",
+                    "vi": "phụ nữ đi làm",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many working women struggle to balance office jobs and chores.",
+                    "example_vi": "Nhiều phụ nữ đi làm chật vật cân bằng công sở và việc nhà."
+                  },
+                  {
+                    "phrase": "manage the household",
+                    "level": "B1",
+                    "vi": "quản lý việc gia đình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Staying home lets mothers manage the household more calmly.",
+                    "example_vi": "Ở nhà giúp các bà mẹ quản lý việc nhà một cách thư thái hơn."
+                  },
+                  {
+                    "phrase": "focus fully on work",
+                    "level": "B1",
+                    "vi": "tập trung toàn lực cho công việc",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Husbands can focus fully on work when home duties are handled.",
+                    "example_vi": "Người chồng có thể tập trung toàn lực cho công việc khi việc nhà được lo chu toàn."
+                  },
+                  {
+                    "phrase": "earn a higher income",
+                    "level": "B1",
+                    "vi": "kiếm thu nhập cao hơn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working overtime can help men earn a higher income for the family.",
+                    "example_vi": "Làm thêm giờ giúp người đàn ông kiếm thu nhập cao hơn cho gia đình."
+                  },
+                  {
+                    "phrase": "faster promotions",
+                    "level": "B1",
+                    "vi": "cơ hội thăng tiến nhanh hơn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Strong focus on projects leads to faster promotions at work.",
+                    "example_vi": "Tập trung cao cho dự án dẫn đến cơ hội thăng tiến nhanh hơn."
+                  },
+                  {
+                    "phrase": "support the whole family",
+                    "level": "B1",
+                    "vi": "nuôi sống cả gia đình",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "One successful career can sometimes support the whole family.",
+                    "example_vi": "Một sự nghiệp thành công đôi khi có thể nuôi sống cả gia đình."
+                  },
+                  {
+                    "phrase": "shoulder a double burden",
+                    "level": "B2",
+                    "vi": "gánh chịu gánh nặng kép",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working mothers often shoulder a heavy double burden of job and housework.",
+                    "example_vi": "Các bà mẹ đi làm thường gánh chịu gánh nặng kép nặng nề."
+                  },
+                  {
+                    "phrase": "chronic burnout",
+                    "level": "B2",
+                    "vi": "sự kiệt sức kéo dài",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Juggling full-time jobs and domestic chores can trigger chronic burnout.",
+                    "example_vi": "Vừa làm toàn thời gian vừa lo việc nhà dễ gây kiệt sức kéo dài."
+                  },
+                  {
+                    "phrase": "undivided energy",
+                    "level": "B2",
+                    "vi": "năng lượng trọn vẹn",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Men can devote undivided energy to demanding professional projects.",
+                    "example_vi": "Đàn ông có thể dành trọn năng lượng cho các dự án chuyên môn đòi hỏi cao."
+                  },
+                  {
+                    "phrase": "peak professional capacity",
+                    "level": "B2",
+                    "vi": "năng lực chuyên môn cao nhất",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Without domestic interruptions, breadwinners work at peak professional capacity.",
+                    "example_vi": "Không bị gián đoạn việc nhà, người trụ cột làm việc ở năng lực cao nhất."
+                  },
+                  {
+                    "phrase": "practical division of labor",
+                    "level": "B2",
+                    "vi": "sự phân công lao động thực tế",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Supporters view traditional roles as a practical division of labor.",
+                    "example_vi": "Người ủng hộ coi vai trò truyền thống là sự phân công lao động thực tế."
+                  },
+                  {
+                    "phrase": "dedicated homemaker",
+                    "level": "B2",
+                    "vi": "người nội trợ tận tâm",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dedicated homemaker provides reliable support behind the scenes.",
+                    "example_vi": "Người nội trợ tận tâm mang lại hậu phương vững chắc."
+                  },
+                  {
+                    "phrase": "safeguard long-term well-being",
+                    "level": "B2",
+                    "vi": "bảo vệ sức khỏe lâu dài",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Reducing double pressure helps safeguard women's long-term well-being.",
+                    "example_vi": "Giảm áp lực kép giúp bảo vệ sức khỏe lâu dài của phụ nữ."
+                  },
+                  {
+                    "phrase": "high-pressure projects",
+                    "level": "B2",
+                    "vi": "những dự án áp lực cao",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flexibility enables employees to take on high-pressure projects abroad.",
+                    "example_vi": "Sự linh hoạt giúp nhân viên đảm nhận các dự án áp lực cao ở nước ngoài."
+                  },
+                  {
+                    "phrase": "financially secure",
+                    "level": "B1",
+                    "vi": "vững vàng về tài chính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Having two salaries makes families much more financially secure.",
+                    "example_vi": "Có hai nguồn lương giúp gia đình vững vàng tài chính hơn nhiều."
+                  },
+                  {
+                    "phrase": "cover all expenses",
+                    "level": "B1",
+                    "vi": "trang trải mọi chi phí",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "One salary is rarely enough to cover all expenses in big cities.",
+                    "example_vi": "Một mức lương hiếm khi đủ trang trải mọi chi phí ở thành phố lớn."
+                  },
+                  {
+                    "phrase": "standard of living",
+                    "level": "B1",
+                    "vi": "mức sống",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Dual incomes help families enjoy a higher standard of living.",
+                    "example_vi": "Hai nguồn thu nhập giúp gia đình hưởng mức sống cao hơn."
+                  },
+                  {
+                    "phrase": "pursue careers",
+                    "level": "B1",
+                    "vi": "theo đuổi sự nghiệp",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Educated women deserve equal chances to pursue careers.",
+                    "example_vi": "Phụ nữ có học vấn xứng đáng có cơ hội bình đẳng theo đuổi sự nghiệp."
+                  },
+                  {
+                    "phrase": "financial independence",
+                    "level": "B1",
+                    "vi": "sự độc lập tài chính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Working outside gives women confidence and financial independence.",
+                    "example_vi": "Đi làm bên ngoài mang lại cho phụ nữ sự tự tin và độc lập tài chính."
+                  },
+                  {
+                    "phrase": "participate in the workforce",
+                    "level": "B1",
+                    "vi": "tham gia lực lượng lao động",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Society grows faster when women participate in the workforce.",
+                    "example_vi": "Xã hội phát triển nhanh hơn khi phụ nữ tham gia lực lượng lao động."
+                  },
+                  {
+                    "phrase": "valuable human resources",
+                    "level": "B1",
+                    "vi": "nguồn nhân lực quý giá",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Keeping women at home wastes valuable human resources.",
+                    "example_vi": "Giữ phụ nữ ở nhà làm lãng phí nguồn nhân lực quý giá."
+                  },
+                  {
+                    "phrase": "vital sectors",
+                    "level": "B1",
+                    "vi": "các lĩnh vực thiết yếu",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Women play key roles in vital sectors like healthcare and education.",
+                    "example_vi": "Phụ nữ đóng vai trò chủ chốt ở các lĩnh vực thiết yếu như y tế và giáo dục."
+                  },
+                  {
+                    "phrase": "dual-income household",
+                    "level": "B2",
+                    "vi": "gia đình hai nguồn thu nhập",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A dual-income household handles rising living costs far more safely.",
+                    "example_vi": "Gia đình hai nguồn thu nhập ứng phó chi phí tăng cao an toàn hơn nhiều."
+                  },
+                  {
+                    "phrase": "escalating living costs",
+                    "level": "B2",
+                    "vi": "chi phí sinh hoạt leo thang",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Escalating living costs make single-earner families financially vulnerable.",
+                    "example_vi": "Chi phí sinh hoạt leo thang khiến gia đình một thu nhập dễ gặp rủi ro."
+                  },
+                  {
+                    "phrase": "economic resilience",
+                    "level": "B2",
+                    "vi": "sức chống chịu về kinh tế",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Two earners provide crucial economic resilience during unexpected layoffs.",
+                    "example_vi": "Hai người kiếm tiền tạo sức chống chịu kinh tế quan trọng khi mất việc đột ngột."
+                  },
+                  {
+                    "phrase": "confine women to domestic roles",
+                    "level": "B2",
+                    "vi": "đóng khung phụ nữ vào vai trò nội trợ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern society should never confine women to domestic roles.",
+                    "example_vi": "Xã hội hiện đại không bao giờ nên đóng khung phụ nữ vào vai trò nội trợ."
+                  },
+                  {
+                    "phrase": "personal fulfillment and autonomy",
+                    "level": "B2",
+                    "vi": "sự thỏa mãn bản thân và quyền tự chủ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Meaningful careers bring women personal fulfillment and autonomy.",
+                    "example_vi": "Sự nghiệp ý nghĩa mang lại cho phụ nữ sự thỏa mãn và quyền tự chủ."
+                  },
+                  {
+                    "phrase": "outdated gender stereotypes",
+                    "level": "B2",
+                    "vi": "định kiến giới lỗi thời",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Expecting wives to quit work reflects outdated gender stereotypes.",
+                    "example_vi": "Kỳ vọng vợ nghỉ việc phản ánh định kiến giới lỗi thời."
+                  },
+                  {
+                    "phrase": "unlock vital human capital",
+                    "level": "B2",
+                    "vi": "khai phá nguồn vốn nhân lực thiết yếu",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Female employment unlocks vital human capital for national growth.",
+                    "example_vi": "Việc làm của nữ giới khai phá nguồn vốn nhân lực cho tăng trưởng quốc gia."
+                  },
+                  {
+                    "phrase": "gender-balanced leadership",
+                    "level": "B2",
+                    "vi": "đội ngũ lãnh đạo cân bằng giới",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Companies with gender-balanced leadership often achieve stronger innovation.",
+                    "example_vi": "Doanh nghiệp có lãnh đạo cân bằng giới thường đạt sức đổi mới mạnh hơn."
+                  },
+                  {
+                    "phrase": "share housework fairly",
+                    "level": "B1",
+                    "vi": "chia sẻ việc nhà công bằng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Husbands and wives should share housework fairly every day.",
+                    "example_vi": "Vợ và chồng nên chia sẻ việc nhà công bằng mỗi ngày."
+                  },
+                  {
+                    "phrase": "feel respected",
+                    "level": "B1",
+                    "vi": "cảm thấy được tôn trọng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal sharing helps wives feel respected and valued in marriage.",
+                    "example_vi": "Chia sẻ bình đẳng giúp người vợ cảm thấy được tôn trọng trong hôn nhân."
+                  },
+                  {
+                    "phrase": "equal teamwork",
+                    "level": "B1",
+                    "vi": "sự phối hợp bình đẳng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal teamwork reduces arguments and builds happier families.",
+                    "example_vi": "Sự phối hợp bình đẳng giảm tranh cãi và xây dựng gia đình hạnh phúc hơn."
+                  },
+                  {
+                    "phrase": "gender equality",
+                    "level": "B1",
+                    "vi": "bình đẳng giới",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern parents want to teach their children about gender equality.",
+                    "example_vi": "Cha mẹ hiện đại muốn dạy con cái về bình đẳng giới."
+                  },
+                  {
+                    "phrase": "set a positive example",
+                    "level": "B1",
+                    "vi": "làm gương tích cực",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fathers who cook and clean set a positive example for sons.",
+                    "example_vi": "Những người cha nấu ăn và dọn dẹp làm gương tích cực cho con trai."
+                  },
+                  {
+                    "phrase": "belong to everyone",
+                    "level": "B1",
+                    "vi": "thuộc về mọi thành viên",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Kids should learn that household chores belong to everyone.",
+                    "example_vi": "Trẻ nên học rằng việc nhà là trách nhiệm thuộc về mọi người."
+                  },
+                  {
+                    "phrase": "ambitious careers",
+                    "level": "B1",
+                    "vi": "sự nghiệp đầy hoài bão",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Daughters grow confident enough to pursue ambitious careers.",
+                    "example_vi": "Các bé gái lớn lên đủ tự tin để theo đuổi sự nghiệp lớn."
+                  },
+                  {
+                    "phrase": "modern attitudes",
+                    "level": "B1",
+                    "vi": "tư duy hiện đại, tiến bộ",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Equal families help young people grow up with modern attitudes.",
+                    "example_vi": "Gia đình bình đẳng giúp người trẻ trưởng thành với tư duy tiến bộ."
+                  },
+                  {
+                    "phrase": "respectful partnership",
+                    "level": "B2",
+                    "vi": "mối quan hệ đồng hành tôn trọng nhau",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sharing duties equally creates a respectful partnership in marriage.",
+                    "example_vi": "Chia sẻ nhiệm vụ bình đẳng tạo dựng mối quan hệ đồng hành tôn trọng nhau."
+                  },
+                  {
+                    "phrase": "strengthen father-child bonds",
+                    "level": "B2",
+                    "vi": "thắt chặt tình cảm cha con",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Involving men in daily childcare significantly strengthens father-child bonds.",
+                    "example_vi": "Để đàn ông tham gia chăm con hằng ngày thắt chặt mạnh mẽ tình cảm cha con."
+                  },
+                  {
+                    "phrase": "lingering resentment",
+                    "level": "B2",
+                    "vi": "sự ấm ức kéo dài",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Unfair domestic burdens frequently cause lingering resentment between spouses.",
+                    "example_vi": "Gánh nặng nội trợ bất công thường gây ra sự ấm ức kéo dài giữa vợ chồng."
+                  },
+                  {
+                    "phrase": "rigid traditional roles",
+                    "level": "B2",
+                    "vi": "những vai trò truyền thống cứng nhắc",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Flexible cooperation outperforms rigid traditional roles in modern life.",
+                    "example_vi": "Sự hợp tác linh hoạt vượt trội hơn vai trò truyền thống cứng nhắc."
+                  },
+                  {
+                    "phrase": "break down gender barriers",
+                    "level": "B2",
+                    "vi": "phá bỏ rào cản giới tính",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Egalitarian families help break down gender barriers from early childhood.",
+                    "example_vi": "Gia đình bình đẳng giúp phá bỏ rào cản giới tính ngay từ tuổi thơ."
+                  },
+                  {
+                    "phrase": "egalitarian homes",
+                    "level": "B2",
+                    "vi": "những gia đình bình đẳng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Children raised in egalitarian homes respect everyone regardless of gender.",
+                    "example_vi": "Trẻ lớn lên trong gia đình bình đẳng tôn trọng mọi người bất kể giới tính."
+                  },
+                  {
+                    "phrase": "domestic self-sufficiency",
+                    "level": "B2",
+                    "vi": "khả năng tự lo việc nhà",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sons acquire vital domestic self-sufficiency by watching fathers cook.",
+                    "example_vi": "Con trai học khả năng tự lo việc nhà nhờ thấy cha nấu ăn."
+                  },
+                  {
+                    "phrase": "inclusive society",
+                    "level": "B2",
+                    "vi": "một xã hội bao trùm và bình đẳng",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Positive role modeling at home lays the groundwork for an inclusive society.",
+                    "example_vi": "Tấm gương tích cực tại nhà đặt nền móng cho một xã hội bình đẳng."
+                  }
+                ],
+                "collocation_groups": [
+                  {
+                    "id": "t31_g1",
+                    "name": "Nhóm 1: Chăm sóc Con cái & Tổ ấm (Childcare & Home Management — Agree)",
+                    "icon": "🏠",
+                    "badge": "Đồng ý 01, 04–05",
+                    "items": [
+                      {
+                        "en": "stay at home",
+                        "phrase": "stay at home",
+                        "vi": "ở nhà chăm lo gia đình",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "When mothers stay at home, children receive closer daily care.",
+                        "example_vi": "Khi người mẹ ở nhà, trẻ nhận được sự chăm sóc sát sao hằng ngày."
+                      },
+                      {
+                        "en": "closer care and attention",
+                        "phrase": "closer care and attention",
+                        "vi": "sự chăm sóc và quan tâm sát sao hơn",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Young kids thrive with closer care and attention from parents.",
+                        "example_vi": "Trẻ nhỏ phát triển tốt nhờ sự chăm sóc và quan tâm sát sao từ cha mẹ."
+                      },
+                      {
+                        "en": "cook nutritious meals",
+                        "phrase": "cook nutritious meals",
+                        "vi": "nấu những bữa ăn bổ dưỡng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Stay-at-home mothers have time to cook nutritious meals daily.",
+                        "example_vi": "Người mẹ ở nhà có thời gian nấu những bữa ăn bổ dưỡng mỗi ngày."
+                      },
+                      {
+                        "en": "warm family meals",
+                        "phrase": "warm family meals",
+                        "vi": "bữa cơm gia đình ấm cúng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Having one homemaker ensures warm family meals every evening.",
+                        "example_vi": "Có một người lo nội trợ đảm bảo bữa cơm gia đình ấm cúng mỗi tối."
+                      },
+                      {
+                        "en": "clean and tidy house",
+                        "phrase": "clean and tidy house",
+                        "vi": "ngôi nhà sạch sẽ và ngăn nắp",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Full-time care keeps a clean and tidy house for everyone.",
+                        "example_vi": "Chăm lo toàn thời gian giữ ngôi nhà sạch sẽ và ngăn nắp cho mọi người."
+                      },
+                      {
+                        "en": "peaceful atmosphere",
+                        "phrase": "peaceful atmosphere",
+                        "vi": "bầu không khí bình yên",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "An organized home creates a peaceful atmosphere after work.",
+                        "example_vi": "Ngôi nhà ngăn nắp tạo ra bầu không khí bình yên sau giờ làm."
+                      },
+                      {
+                        "en": "private childcare fees",
+                        "phrase": "private childcare fees",
+                        "vi": "chi phí gửi trẻ tư thục",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Caring for kids at home saves money on private childcare fees.",
+                        "example_vi": "Chăm con tại nhà giúp tiết kiệm tiền gửi trẻ tư thục."
+                      },
+                      {
+                        "en": "domestic helpers",
+                        "phrase": "domestic helpers",
+                        "vi": "người giúp việc nhà",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Hiring domestic helpers can be very costly in big cities.",
+                        "example_vi": "Thuê người giúp việc nhà có thể rất tốn kém ở thành phố lớn."
+                      },
+                      {
+                        "en": "formative early years",
+                        "phrase": "formative early years",
+                        "vi": "những năm đầu đời định hình",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Direct parental care is vital during children's formative early years.",
+                        "example_vi": "Sự chăm sóc trực tiếp của cha mẹ rất thiết yếu trong những năm đầu đời."
+                      },
+                      {
+                        "en": "stay-at-home mother",
+                        "phrase": "stay-at-home mother",
+                        "vi": "người mẹ ở nhà nội trợ",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A stay-at-home mother can closely monitor children's study routines.",
+                        "example_vi": "Người mẹ nội trợ có thể theo sát thói quen học tập của con."
+                      },
+                      {
+                        "en": "orderly living environment",
+                        "phrase": "orderly living environment",
+                        "vi": "môi trường sống ngăn nắp",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A dedicated homemaker maintains an orderly living environment.",
+                        "example_vi": "Người nội trợ tận tâm duy trì môi trường sống ngăn nắp."
+                      },
+                      {
+                        "en": "harmonious family routines",
+                        "phrase": "harmonious family routines",
+                        "vi": "nếp sinh hoạt gia đình hài hòa",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Consistent home management fosters harmonious family routines.",
+                        "example_vi": "Quản lý gia đình đều đặn tạo dựng nếp sinh hoạt hài hòa."
+                      },
+                      {
+                        "en": "warm sanctuary",
+                        "phrase": "warm sanctuary",
+                        "vi": "tổ ấm bình yên",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Fresh dinners turn the house into a warm sanctuary for tired workers.",
+                        "example_vi": "Bữa tối ấm nóng biến ngôi nhà thành tổ ấm bình yên cho người đi làm mệt."
+                      },
+                      {
+                        "en": "financially sensible arrangement",
+                        "phrase": "financially sensible arrangement",
+                        "vi": "sự sắp xếp hợp lý về tài chính",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "For large families, avoiding daycare costs can be a financially sensible arrangement.",
+                        "example_vi": "Với gia đình đông con, tránh phí gửi trẻ có thể là phương án kinh tế hợp lý."
+                      },
+                      {
+                        "en": "peace of mind",
+                        "phrase": "peace of mind",
+                        "vi": "sự an tâm",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Caring for children directly gives parents invaluable peace of mind.",
+                        "example_vi": "Tự chăm sóc con mang lại cho cha mẹ sự an tâm vô giá."
+                      },
+                      {
+                        "en": "resilient foundation",
+                        "phrase": "resilient foundation",
+                        "vi": "nền tảng vững chắc",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Strong emotional security lays a resilient foundation for adulthood.",
+                        "example_vi": "Sự an toàn cảm xúc đặt nền tảng vững chắc cho tuổi trưởng thành."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "t31_g2",
+                    "name": "Nhóm 2: Phân công Vai trò & Áp lực Kép (Role Division & Career Focus — Agree)",
+                    "icon": "⚖️",
+                    "badge": "Đồng ý 02–03",
+                    "items": [
+                      {
+                        "en": "clear role division",
+                        "phrase": "clear role division",
+                        "vi": "sự phân công vai trò rõ ràng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Clear role division prevents confusion about daily duties.",
+                        "example_vi": "Phân công vai trò rõ ràng giúp tránh lộn xộn về nhiệm vụ hằng ngày."
+                      },
+                      {
+                        "en": "avoid exhaustion",
+                        "phrase": "avoid exhaustion",
+                        "vi": "tránh bị kiệt sức",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Focusing on one role helps women avoid exhaustion.",
+                        "example_vi": "Tập trung vào một vai trò giúp phụ nữ tránh bị kiệt sức."
+                      },
+                      {
+                        "en": "working women",
+                        "phrase": "working women",
+                        "vi": "phụ nữ đi làm",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Many working women struggle to balance office jobs and chores.",
+                        "example_vi": "Nhiều phụ nữ đi làm chật vật cân bằng công sở và việc nhà."
+                      },
+                      {
+                        "en": "manage the household",
+                        "phrase": "manage the household",
+                        "vi": "quản lý việc gia đình",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Staying home lets mothers manage the household more calmly.",
+                        "example_vi": "Ở nhà giúp các bà mẹ quản lý việc nhà một cách thư thái hơn."
+                      },
+                      {
+                        "en": "focus fully on work",
+                        "phrase": "focus fully on work",
+                        "vi": "tập trung toàn lực cho công việc",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Husbands can focus fully on work when home duties are handled.",
+                        "example_vi": "Người chồng có thể tập trung toàn lực cho công việc khi việc nhà được lo chu toàn."
+                      },
+                      {
+                        "en": "earn a higher income",
+                        "phrase": "earn a higher income",
+                        "vi": "kiếm thu nhập cao hơn",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Working overtime can help men earn a higher income for the family.",
+                        "example_vi": "Làm thêm giờ giúp người đàn ông kiếm thu nhập cao hơn cho gia đình."
+                      },
+                      {
+                        "en": "faster promotions",
+                        "phrase": "faster promotions",
+                        "vi": "cơ hội thăng tiến nhanh hơn",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Strong focus on projects leads to faster promotions at work.",
+                        "example_vi": "Tập trung cao cho dự án dẫn đến cơ hội thăng tiến nhanh hơn."
+                      },
+                      {
+                        "en": "support the whole family",
+                        "phrase": "support the whole family",
+                        "vi": "nuôi sống cả gia đình",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "One successful career can sometimes support the whole family.",
+                        "example_vi": "Một sự nghiệp thành công đôi khi có thể nuôi sống cả gia đình."
+                      },
+                      {
+                        "en": "shoulder a double burden",
+                        "phrase": "shoulder a double burden",
+                        "vi": "gánh chịu gánh nặng kép",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Working mothers often shoulder a heavy double burden of job and housework.",
+                        "example_vi": "Các bà mẹ đi làm thường gánh chịu gánh nặng kép nặng nề."
+                      },
+                      {
+                        "en": "chronic burnout",
+                        "phrase": "chronic burnout",
+                        "vi": "sự kiệt sức kéo dài",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Juggling full-time jobs and domestic chores can trigger chronic burnout.",
+                        "example_vi": "Vừa làm toàn thời gian vừa lo việc nhà dễ gây kiệt sức kéo dài."
+                      },
+                      {
+                        "en": "undivided energy",
+                        "phrase": "undivided energy",
+                        "vi": "năng lượng trọn vẹn",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Men can devote undivided energy to demanding professional projects.",
+                        "example_vi": "Đàn ông có thể dành trọn năng lượng cho các dự án chuyên môn đòi hỏi cao."
+                      },
+                      {
+                        "en": "peak professional capacity",
+                        "phrase": "peak professional capacity",
+                        "vi": "năng lực chuyên môn cao nhất",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Without domestic interruptions, breadwinners work at peak professional capacity.",
+                        "example_vi": "Không bị gián đoạn việc nhà, người trụ cột làm việc ở năng lực cao nhất."
+                      },
+                      {
+                        "en": "practical division of labor",
+                        "phrase": "practical division of labor",
+                        "vi": "sự phân công lao động thực tế",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Supporters view traditional roles as a practical division of labor.",
+                        "example_vi": "Người ủng hộ coi vai trò truyền thống là sự phân công lao động thực tế."
+                      },
+                      {
+                        "en": "dedicated homemaker",
+                        "phrase": "dedicated homemaker",
+                        "vi": "người nội trợ tận tâm",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A dedicated homemaker provides reliable support behind the scenes.",
+                        "example_vi": "Người nội trợ tận tâm mang lại hậu phương vững chắc."
+                      },
+                      {
+                        "en": "safeguard long-term well-being",
+                        "phrase": "safeguard long-term well-being",
+                        "vi": "bảo vệ sức khỏe lâu dài",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Reducing double pressure helps safeguard women's long-term well-being.",
+                        "example_vi": "Giảm áp lực kép giúp bảo vệ sức khỏe lâu dài của phụ nữ."
+                      },
+                      {
+                        "en": "high-pressure projects",
+                        "phrase": "high-pressure projects",
+                        "vi": "những dự án áp lực cao",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Flexibility enables employees to take on high-pressure projects abroad.",
+                        "example_vi": "Sự linh hoạt giúp nhân viên đảm nhận các dự án áp lực cao ở nước ngoài."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "t31_g3",
+                    "name": "Nhóm 3: Tài chính Hai thu nhập, Quyền Phụ nữ & Kinh tế (Dual Income & Equality — Disagree)",
+                    "icon": "💼",
+                    "badge": "Phản đối 01–03",
+                    "items": [
+                      {
+                        "en": "financially secure",
+                        "phrase": "financially secure",
+                        "vi": "vững vàng về tài chính",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Having two salaries makes families much more financially secure.",
+                        "example_vi": "Có hai nguồn lương giúp gia đình vững vàng tài chính hơn nhiều."
+                      },
+                      {
+                        "en": "cover all expenses",
+                        "phrase": "cover all expenses",
+                        "vi": "trang trải mọi chi phí",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "One salary is rarely enough to cover all expenses in big cities.",
+                        "example_vi": "Một mức lương hiếm khi đủ trang trải mọi chi phí ở thành phố lớn."
+                      },
+                      {
+                        "en": "standard of living",
+                        "phrase": "standard of living",
+                        "vi": "mức sống",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Dual incomes help families enjoy a higher standard of living.",
+                        "example_vi": "Hai nguồn thu nhập giúp gia đình hưởng mức sống cao hơn."
+                      },
+                      {
+                        "en": "pursue careers",
+                        "phrase": "pursue careers",
+                        "vi": "theo đuổi sự nghiệp",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Educated women deserve equal chances to pursue careers.",
+                        "example_vi": "Phụ nữ có học vấn xứng đáng có cơ hội bình đẳng theo đuổi sự nghiệp."
+                      },
+                      {
+                        "en": "financial independence",
+                        "phrase": "financial independence",
+                        "vi": "sự độc lập tài chính",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Working outside gives women confidence and financial independence.",
+                        "example_vi": "Đi làm bên ngoài mang lại cho phụ nữ sự tự tin và độc lập tài chính."
+                      },
+                      {
+                        "en": "participate in the workforce",
+                        "phrase": "participate in the workforce",
+                        "vi": "tham gia lực lượng lao động",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Society grows faster when women participate in the workforce.",
+                        "example_vi": "Xã hội phát triển nhanh hơn khi phụ nữ tham gia lực lượng lao động."
+                      },
+                      {
+                        "en": "valuable human resources",
+                        "phrase": "valuable human resources",
+                        "vi": "nguồn nhân lực quý giá",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Keeping women at home wastes valuable human resources.",
+                        "example_vi": "Giữ phụ nữ ở nhà làm lãng phí nguồn nhân lực quý giá."
+                      },
+                      {
+                        "en": "vital sectors",
+                        "phrase": "vital sectors",
+                        "vi": "các lĩnh vực thiết yếu",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Women play key roles in vital sectors like healthcare and education.",
+                        "example_vi": "Phụ nữ đóng vai trò chủ chốt ở các lĩnh vực thiết yếu như y tế và giáo dục."
+                      },
+                      {
+                        "en": "dual-income household",
+                        "phrase": "dual-income household",
+                        "vi": "gia đình hai nguồn thu nhập",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "A dual-income household handles rising living costs far more safely.",
+                        "example_vi": "Gia đình hai nguồn thu nhập ứng phó chi phí tăng cao an toàn hơn nhiều."
+                      },
+                      {
+                        "en": "escalating living costs",
+                        "phrase": "escalating living costs",
+                        "vi": "chi phí sinh hoạt leo thang",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Escalating living costs make single-earner families financially vulnerable.",
+                        "example_vi": "Chi phí sinh hoạt leo thang khiến gia đình một thu nhập dễ gặp rủi ro."
+                      },
+                      {
+                        "en": "economic resilience",
+                        "phrase": "economic resilience",
+                        "vi": "sức chống chịu về kinh tế",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Two earners provide crucial economic resilience during unexpected layoffs.",
+                        "example_vi": "Hai người kiếm tiền tạo sức chống chịu kinh tế quan trọng khi mất việc đột ngột."
+                      },
+                      {
+                        "en": "confine women to domestic roles",
+                        "phrase": "confine women to domestic roles",
+                        "vi": "đóng khung phụ nữ vào vai trò nội trợ",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Modern society should never confine women to domestic roles.",
+                        "example_vi": "Xã hội hiện đại không bao giờ nên đóng khung phụ nữ vào vai trò nội trợ."
+                      },
+                      {
+                        "en": "personal fulfillment and autonomy",
+                        "phrase": "personal fulfillment and autonomy",
+                        "vi": "sự thỏa mãn bản thân và quyền tự chủ",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Meaningful careers bring women personal fulfillment and autonomy.",
+                        "example_vi": "Sự nghiệp ý nghĩa mang lại cho phụ nữ sự thỏa mãn và quyền tự chủ."
+                      },
+                      {
+                        "en": "outdated gender stereotypes",
+                        "phrase": "outdated gender stereotypes",
+                        "vi": "định kiến giới lỗi thời",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Expecting wives to quit work reflects outdated gender stereotypes.",
+                        "example_vi": "Kỳ vọng vợ nghỉ việc phản ánh định kiến giới lỗi thời."
+                      },
+                      {
+                        "en": "unlock vital human capital",
+                        "phrase": "unlock vital human capital",
+                        "vi": "khai phá nguồn vốn nhân lực thiết yếu",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Female employment unlocks vital human capital for national growth.",
+                        "example_vi": "Việc làm của nữ giới khai phá nguồn vốn nhân lực cho tăng trưởng quốc gia."
+                      },
+                      {
+                        "en": "gender-balanced leadership",
+                        "phrase": "gender-balanced leadership",
+                        "vi": "đội ngũ lãnh đạo cân bằng giới",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Companies with gender-balanced leadership often achieve stronger innovation.",
+                        "example_vi": "Doanh nghiệp có lãnh đạo cân bằng giới thường đạt sức đổi mới mạnh hơn."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "t31_g4",
+                    "name": "Nhóm 4: Hôn nhân Bình đẳng & Giáo dục Con cái (Shared Partnership & Role Models — Disagree)",
+                    "icon": "🤝",
+                    "badge": "Phản đối 04–05",
+                    "items": [
+                      {
+                        "en": "share housework fairly",
+                        "phrase": "share housework fairly",
+                        "vi": "chia sẻ việc nhà công bằng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Husbands and wives should share housework fairly every day.",
+                        "example_vi": "Vợ và chồng nên chia sẻ việc nhà công bằng mỗi ngày."
+                      },
+                      {
+                        "en": "feel respected",
+                        "phrase": "feel respected",
+                        "vi": "cảm thấy được tôn trọng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Equal sharing helps wives feel respected and valued in marriage.",
+                        "example_vi": "Chia sẻ bình đẳng giúp người vợ cảm thấy được tôn trọng trong hôn nhân."
+                      },
+                      {
+                        "en": "equal teamwork",
+                        "phrase": "equal teamwork",
+                        "vi": "sự phối hợp bình đẳng",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Equal teamwork reduces arguments and builds happier families.",
+                        "example_vi": "Sự phối hợp bình đẳng giảm tranh cãi và xây dựng gia đình hạnh phúc hơn."
+                      },
+                      {
+                        "en": "gender equality",
+                        "phrase": "gender equality",
+                        "vi": "bình đẳng giới",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Modern parents want to teach their children about gender equality.",
+                        "example_vi": "Cha mẹ hiện đại muốn dạy con cái về bình đẳng giới."
+                      },
+                      {
+                        "en": "set a positive example",
+                        "phrase": "set a positive example",
+                        "vi": "làm gương tích cực",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Fathers who cook and clean set a positive example for sons.",
+                        "example_vi": "Những người cha nấu ăn và dọn dẹp làm gương tích cực cho con trai."
+                      },
+                      {
+                        "en": "belong to everyone",
+                        "phrase": "belong to everyone",
+                        "vi": "thuộc về mọi thành viên",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Kids should learn that household chores belong to everyone.",
+                        "example_vi": "Trẻ nên học rằng việc nhà là trách nhiệm thuộc về mọi người."
+                      },
+                      {
+                        "en": "ambitious careers",
+                        "phrase": "ambitious careers",
+                        "vi": "sự nghiệp đầy hoài bão",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Daughters grow confident enough to pursue ambitious careers.",
+                        "example_vi": "Các bé gái lớn lên đủ tự tin để theo đuổi sự nghiệp lớn."
+                      },
+                      {
+                        "en": "modern attitudes",
+                        "phrase": "modern attitudes",
+                        "vi": "tư duy hiện đại, tiến bộ",
+                        "level": "B1",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Equal families help young people grow up with modern attitudes.",
+                        "example_vi": "Gia đình bình đẳng giúp người trẻ trưởng thành với tư duy tiến bộ."
+                      },
+                      {
+                        "en": "respectful partnership",
+                        "phrase": "respectful partnership",
+                        "vi": "mối quan hệ đồng hành tôn trọng nhau",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Sharing duties equally creates a respectful partnership in marriage.",
+                        "example_vi": "Chia sẻ nhiệm vụ bình đẳng tạo dựng mối quan hệ đồng hành tôn trọng nhau."
+                      },
+                      {
+                        "en": "strengthen father-child bonds",
+                        "phrase": "strengthen father-child bonds",
+                        "vi": "thắt chặt tình cảm cha con",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Involving men in daily childcare significantly strengthens father-child bonds.",
+                        "example_vi": "Để đàn ông tham gia chăm con hằng ngày thắt chặt mạnh mẽ tình cảm cha con."
+                      },
+                      {
+                        "en": "lingering resentment",
+                        "phrase": "lingering resentment",
+                        "vi": "sự ấm ức kéo dài",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Unfair domestic burdens frequently cause lingering resentment between spouses.",
+                        "example_vi": "Gánh nặng nội trợ bất công thường gây ra sự ấm ức kéo dài giữa vợ chồng."
+                      },
+                      {
+                        "en": "rigid traditional roles",
+                        "phrase": "rigid traditional roles",
+                        "vi": "những vai trò truyền thống cứng nhắc",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Flexible cooperation outperforms rigid traditional roles in modern life.",
+                        "example_vi": "Sự hợp tác linh hoạt vượt trội hơn vai trò truyền thống cứng nhắc."
+                      },
+                      {
+                        "en": "break down gender barriers",
+                        "phrase": "break down gender barriers",
+                        "vi": "phá bỏ rào cản giới tính",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Egalitarian families help break down gender barriers from early childhood.",
+                        "example_vi": "Gia đình bình đẳng giúp phá bỏ rào cản giới tính ngay từ tuổi thơ."
+                      },
+                      {
+                        "en": "egalitarian homes",
+                        "phrase": "egalitarian homes",
+                        "vi": "những gia đình bình đẳng",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Children raised in egalitarian homes respect everyone regardless of gender.",
+                        "example_vi": "Trẻ lớn lên trong gia đình bình đẳng tôn trọng mọi người bất kể giới tính."
+                      },
+                      {
+                        "en": "domestic self-sufficiency",
+                        "phrase": "domestic self-sufficiency",
+                        "vi": "khả năng tự lo việc nhà",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Sons acquire vital domestic self-sufficiency by watching fathers cook.",
+                        "example_vi": "Con trai học khả năng tự lo việc nhà nhờ thấy cha nấu ăn."
+                      },
+                      {
+                        "en": "inclusive society",
+                        "phrase": "inclusive society",
+                        "vi": "một xã hội bao trùm và bình đẳng",
+                        "level": "B2",
+                        "type": "phrase",
+                        "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                        "example_en": "Positive role modeling at home lays the groundwork for an inclusive society.",
+                        "example_vi": "Tấm gương tích cực tại nhà đặt nền móng cho một xã hội bình đẳng."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "reference_articles": {
+                "vi": [
+                  {
+                    "source": "VnExpress Gia đình",
+                    "title": "Chia sẻ việc nhà và bình đẳng giới trong gia đình hiện đại",
+                    "summary": "Phân tích sự thay đổi vai trò của phụ nữ và đàn ông trong gia đình hiện đại, giữa mô hình phân công truyền thống và xu hướng cùng chia sẻ sự nghiệp lẫn việc nhà.",
+                    "url": "https://vnexpress.net/doi-song"
+                  }
+                ],
+                "en": [
+                  {
+                    "source": "UN Women",
+                    "title": "Redistributing Unpaid Care and Domestic Work for Gender Equality",
+                    "summary": "Global perspective on why balancing unpaid housework and equal workforce participation strengthens families, women's autonomy, and economic growth.",
+                    "url": "https://www.unwomen.org/en/news/in-focus/csw61/redistribute-unpaid-work"
+                  }
+                ]
+              }
+            }
+          }
+        ]
       }
     ]
   },
