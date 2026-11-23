@@ -150997,12 +150997,2802 @@ const ESSAY_DATA = [
       },
       {
         "id": 22,
-        "title_en": "Many young people prefer to study at school rather than online",
-        "title_vi": "Nhiều người trẻ thích học tại trường hơn học trực tuyến",
+        "title_en": "Preferring traditional classroom education over online learning",
+        "title_vi": "Ưa chuộng lớp học truyền thống hơn học trực tuyến",
         "tags": "[Causes]",
-        "context": "Although online learning has become increasingly popular due to advances in technology, many young people still prefer studying at school. Traditional classroom learning allows students to interact directly with teachers and classmates, participate in group activities, and learn in a structured environment. This preference for in-school learning can be observed in many countries around the world.",
-        "prompt": "Write an essay to an educated reader to discuss the causes of why many young people prefer to study at school rather than online. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "context": "During the COVID-19 pandemic, online learning became widespread and offered numerous conveniences such as flexible schedules and reduced commuting. However, even after experiencing virtual classes, many students still strongly prefer traditional classroom education.",
+        "context_vi": "Trong đại dịch COVID-19, học trực tuyến đã trở nên phổ biến rộng rãi và mang lại nhiều tiện ích như lịch học linh hoạt và không phải di chuyển. Tuy nhiên, ngay cả sau khi trải nghiệm lớp học ảo, nhiều học sinh và sinh viên vẫn đặc biệt ưa chuộng giáo dục lớp học truyền thống.",
+        "prompt": "Write an essay to an educated reader to discuss the reasons why many students still prefer traditional classroom education over online learning, and explain your own opinion based on your personal learning experience. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để phân tích lý do vì sao nhiều học sinh, sinh viên vẫn ưa chuộng lớp học truyền thống hơn học trực tuyến, đồng thời giải thích quan điểm của bạn dựa trên trải nghiệm học tập cá nhân. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "traditional classroom education / in-person schooling",
+            "vi": "giáo dục lớp học truyền thống / học trực tiếp tại trường"
+          },
+          {
+            "en": "online learning / virtual classes / remote education",
+            "vi": "học trực tuyến / lớp học ảo / giáo dục từ xa"
+          },
+          {
+            "en": "strongly prefer studying in physical classrooms",
+            "vi": "đặc biệt ưa chuộng học tại lớp học thực tế"
+          },
+          {
+            "en": "reasons behind this enduring preference",
+            "vi": "những lý do phía sau sự ưu tiên bền bỉ này"
+          },
+          {
+            "en": "based on personal learning experience",
+            "vi": "dựa trên trải nghiệm học tập cá nhân"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01: TƯƠNG TÁC TRỰC TIẾP VỚI GIÁO VIÊN VÀ PHẢN HỒI TỨC THÌ",
+                "point_vi": "Lớp học truyền thống cho phép học sinh tương tác trực tiếp với giáo viên và nhận hỗ trợ ngay lập tức.",
+                "point_en": "Traditional classrooms allow students to interact directly with teachers and receive immediate help.",
+                "point_collocations": [
+                  {
+                    "en": "interact directly",
+                    "vi": "tương tác trực tiếp"
+                  },
+                  {
+                    "en": "immediate help",
+                    "vi": "hỗ trợ ngay lập tức"
+                  }
+                ],
+                "evidence_vi": "Khi gặp bài tập khó, học sinh có thể giơ tay hỏi ngay và giáo viên dễ dàng nhận ra ai chưa hiểu bài qua nét mặt. Trong lớp học trực tuyến, nhiều bạn ngại bật micro hoặc phải chờ tin nhắn trả lời rất lâu. Nhờ giao tiếp trực tiếp, việc tiếp thu kiến thức mới trở nên rõ ràng và hiệu quả hơn nhiều.",
+                "evidence_en": "When facing a difficult lesson, students can raise their hands immediately and teachers can easily spot confused expressions. In online classes, many learners feel shy about turning on their microphones or wait a long time for replies. Thanks to face-to-face communication, understanding new knowledge becomes much clearer and more effective.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "raise their hands",
+                      "vi": "giơ tay phát biểu"
+                    },
+                    {
+                      "en": "confused expressions",
+                      "vi": "vẻ mặt bối rối"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "online classes",
+                      "vi": "lớp học trực tuyến"
+                    },
+                    {
+                      "en": "feel shy",
+                      "vi": "cảm thấy ngại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "face-to-face communication",
+                      "vi": "giao tiếp trực tiếp"
+                    },
+                    {
+                      "en": "new knowledge",
+                      "vi": "kiến thức mới"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "interact directly",
+                    "vi": "tương tác trực tiếp"
+                  },
+                  {
+                    "en": "immediate help",
+                    "vi": "hỗ trợ ngay lập tức"
+                  },
+                  {
+                    "en": "raise their hands",
+                    "vi": "giơ tay phát biểu"
+                  },
+                  {
+                    "en": "confused expressions",
+                    "vi": "vẻ mặt bối rối"
+                  },
+                  {
+                    "en": "online classes",
+                    "vi": "lớp học trực tuyến"
+                  },
+                  {
+                    "en": "feel shy",
+                    "vi": "cảm thấy ngại"
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp"
+                  },
+                  {
+                    "en": "new knowledge",
+                    "vi": "kiến thức mới"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 02: MÔI TRƯỜNG KỶ LUẬT VÀ ÍT XAO NHÃNG HƠN",
+                "point_vi": "Học trực tiếp tại trường mang lại môi trường kỷ luật và giúp học sinh tập trung tốt hơn so với học ở nhà.",
+                "point_en": "Studying in a physical classroom provides a structured environment and helps students focus better than studying at home.",
+                "point_collocations": [
+                  {
+                    "en": "structured environment",
+                    "vi": "môi trường có kỷ luật / quy củ"
+                  },
+                  {
+                    "en": "focus better",
+                    "vi": "tập trung tốt hơn"
+                  }
+                ],
+                "evidence_vi": "Khi học trực tuyến tại nhà, học sinh rất dễ bị phân tâm bởi mạng xã hội, tin nhắn điện thoại hoặc tiếng ồn gia đình. Ngược lại, không gian lớp học cùng lịch học cố định giúp các em giữ thói quen học tập nghiêm túc mỗi ngày. Điều này đặc biệt hữu ích với những bạn còn yếu kỹ năng tự giác.",
+                "evidence_en": "When studying online at home, students are easily distracted by social media, phone messages, or household noise. By contrast, a real classroom and fixed timetable help learners maintain serious study habits every day. This is especially helpful for students who still struggle with self-discipline.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "easily distracted",
+                      "vi": "dễ bị xao nhãng"
+                    },
+                    {
+                      "en": "household noise",
+                      "vi": "tiếng ồn gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fixed timetable",
+                      "vi": "thời khóa biểu cố định"
+                    },
+                    {
+                      "en": "study habits",
+                      "vi": "thói quen học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-discipline",
+                      "vi": "tính tự giác"
+                    },
+                    {
+                      "en": "struggle with",
+                      "vi": "gặp khó khăn với"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "structured environment",
+                    "vi": "môi trường có kỷ luật / quy củ"
+                  },
+                  {
+                    "en": "focus better",
+                    "vi": "tập trung tốt hơn"
+                  },
+                  {
+                    "en": "easily distracted",
+                    "vi": "dễ bị xao nhãng"
+                  },
+                  {
+                    "en": "household noise",
+                    "vi": "tiếng ồn gia đình"
+                  },
+                  {
+                    "en": "fixed timetable",
+                    "vi": "thời khóa biểu cố định"
+                  },
+                  {
+                    "en": "study habits",
+                    "vi": "thói quen học tập"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính tự giác"
+                  },
+                  {
+                    "en": "struggle with",
+                    "vi": "gặp khó khăn với"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 03: XÂY DỰNG TÌNH BẠN VÀ KỸ NĂNG GIAO TIẾP XÃ HỘI",
+                "point_vi": "Đến trường giúp học sinh kết bạn, làm việc nhóm và phát triển kỹ năng xã hội quan trọng.",
+                "point_en": "Going to school helps students build friendships, do group work, and develop vital social skills.",
+                "point_collocations": [
+                  {
+                    "en": "build friendships",
+                    "vi": "xây dựng tình bạn"
+                  },
+                  {
+                    "en": "social skills",
+                    "vi": "kỹ năng xã hội"
+                  }
+                ],
+                "evidence_vi": "Trong suốt thời gian học trực tuyến mùa dịch COVID-19, nhiều học sinh cảm thấy cô đơn vì chỉ nhìn màn hình một mình suốt nhiều giờ. Ở lớp học truyền thống, các em có thể thảo luận trực tiếp, cùng ăn trưa và tham gia câu lạc bộ ngoại khóa. Những trải nghiệm này giúp đời sống học đường thêm vui vẻ và đáng nhớ.",
+                "evidence_en": "During online learning in the COVID-19 pandemic, many students felt lonely because they stared at screens alone for hours. In traditional classrooms, they can discuss ideas face to face, share lunch, and join extracurricular clubs. These experiences make school life much happier and more memorable.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "COVID-19 pandemic",
+                      "vi": "đại dịch COVID-19"
+                    },
+                    {
+                      "en": "felt lonely",
+                      "vi": "cảm thấy cô đơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "discuss ideas",
+                      "vi": "thảo luận ý tưởng"
+                    },
+                    {
+                      "en": "extracurricular clubs",
+                      "vi": "câu lạc bộ ngoại khóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "school life",
+                      "vi": "đời sống học đường"
+                    },
+                    {
+                      "en": "more memorable",
+                      "vi": "đáng nhớ hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "build friendships",
+                    "vi": "xây dựng tình bạn"
+                  },
+                  {
+                    "en": "social skills",
+                    "vi": "kỹ năng xã hội"
+                  },
+                  {
+                    "en": "COVID-19 pandemic",
+                    "vi": "đại dịch COVID-19"
+                  },
+                  {
+                    "en": "felt lonely",
+                    "vi": "cảm thấy cô đơn"
+                  },
+                  {
+                    "en": "discuss ideas",
+                    "vi": "thảo luận ý tưởng"
+                  },
+                  {
+                    "en": "extracurricular clubs",
+                    "vi": "câu lạc bộ ngoại khóa"
+                  },
+                  {
+                    "en": "school life",
+                    "vi": "đời sống học đường"
+                  },
+                  {
+                    "en": "more memorable",
+                    "vi": "đáng nhớ hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 04: TRÁNH SỰ CỐ KỸ THUẬT VÀ GIẢM MỎI MẮT DO MÀN HÌNH",
+                "point_vi": "Học trực tiếp giúp học sinh tránh các sự cố mạng Internet và bảo vệ sức khỏe mắt tốt hơn.",
+                "point_en": "In-person learning helps students avoid Internet problems and protect their eyesight better.",
+                "point_collocations": [
+                  {
+                    "en": "in-person learning",
+                    "vi": "học trực tiếp"
+                  },
+                  {
+                    "en": "Internet problems",
+                    "vi": "sự cố mạng Internet"
+                  }
+                ],
+                "evidence_vi": "Khi học online, đường truyền yếu, mất điện hoặc lỗi âm thanh thường làm gián đoạn bài giảng và khiến học sinh bỏ lỡ kiến thức quan trọng. Ngoài ra, ngồi nhìn máy tính nhiều giờ liên tục dễ gây mỏi mắt, đau lưng và mệt mỏi. Vì thế, nhiều học sinh thấy học tại lớp thoải mái và ổn định hơn nhiều.",
+                "evidence_en": "During online lessons, weak Wi-Fi, power cuts, or audio glitches often interrupt lectures and cause students to miss key points. Moreover, staring at computer screens for long hours easily causes eye strain, back pain, and tiredness. Therefore, many learners find classroom lessons much more comfortable and reliable.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "audio glitches",
+                      "vi": "lỗi âm thanh"
+                    },
+                    {
+                      "en": "interrupt lectures",
+                      "vi": "làm gián đoạn bài giảng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "eye strain",
+                      "vi": "mỏi mắt"
+                    },
+                    {
+                      "en": "back pain",
+                      "vi": "đau lưng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "comfortable and reliable",
+                      "vi": "thoải mái và ổn định"
+                    },
+                    {
+                      "en": "classroom lessons",
+                      "vi": "tiết học trên lớp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "in-person learning",
+                    "vi": "học trực tiếp"
+                  },
+                  {
+                    "en": "Internet problems",
+                    "vi": "sự cố mạng Internet"
+                  },
+                  {
+                    "en": "audio glitches",
+                    "vi": "lỗi âm thanh"
+                  },
+                  {
+                    "en": "interrupt lectures",
+                    "vi": "làm gián đoạn bài giảng"
+                  },
+                  {
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
+                  },
+                  {
+                    "en": "back pain",
+                    "vi": "đau lưng"
+                  },
+                  {
+                    "en": "comfortable and reliable",
+                    "vi": "thoải mái và ổn định"
+                  },
+                  {
+                    "en": "classroom lessons",
+                    "vi": "tiết học trên lớp"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 05: TĂNG ĐỘNG LỰC HỌC TẬP VÀ TRẢI NGHIỆM THỰC HÀNH TRỰC TIẾP",
+                "point_vi": "Lớp học trực tiếp tạo động lực học tốt hơn và hỗ trợ hiệu quả cho các môn cần thực hành.",
+                "point_en": "Traditional classrooms create stronger learning motivation and better support subjects that require hands-on practice.",
+                "point_collocations": [
+                  {
+                    "en": "learning motivation",
+                    "vi": "động lực học tập"
+                  },
+                  {
+                    "en": "hands-on practice",
+                    "vi": "thực hành trực tiếp"
+                  }
+                ],
+                "evidence_vi": "Nhìn thấy bạn bè xung quanh chăm chỉ học tập tạo ra bầu không khí thi đua lành mạnh và thúc đẩy học sinh cố gắng hơn. Bên cạnh đó, những môn học như thí nghiệm khoa học, thể dục, âm nhạc hay nói tiếng Anh cần không gian thực tế để thực hành hiệu quả. Từ trải nghiệm học tập của nhiều người, học trực tiếp giúp ghi nhớ bài lâu hơn nhiều so với chỉ xem video.",
+                "evidence_en": "Seeing classmates study hard around them creates a lively atmosphere that encourages students to try harder. Furthermore, subjects such as science experiments, physical education, music, and speaking practice require real spaces to learn effectively. From many learners' personal experience, studying in person helps them remember lessons far longer than simply watching videos.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lively atmosphere",
+                      "vi": "bầu không khí sôi nổi"
+                    },
+                    {
+                      "en": "try harder",
+                      "vi": "cố gắng hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "science experiments",
+                      "vi": "thí nghiệm khoa học"
+                    },
+                    {
+                      "en": "speaking practice",
+                      "vi": "luyện nói"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "personal experience",
+                      "vi": "trải nghiệm cá nhân"
+                    },
+                    {
+                      "en": "remember lessons",
+                      "vi": "ghi nhớ bài học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "learning motivation",
+                    "vi": "động lực học tập"
+                  },
+                  {
+                    "en": "hands-on practice",
+                    "vi": "thực hành trực tiếp"
+                  },
+                  {
+                    "en": "lively atmosphere",
+                    "vi": "bầu không khí sôi nổi"
+                  },
+                  {
+                    "en": "try harder",
+                    "vi": "cố gắng hơn"
+                  },
+                  {
+                    "en": "science experiments",
+                    "vi": "thí nghiệm khoa học"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "personal experience",
+                    "vi": "trải nghiệm cá nhân"
+                  },
+                  {
+                    "en": "remember lessons",
+                    "vi": "ghi nhớ bài học"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01: TƯƠNG TÁC SƯ PHẠM TRỰC TIẾP VÀ PHẢN HỒI KỊP THỜI (IMMEDIATE PEDAGOGICAL INTERACTION)",
+                "point_vi": "Lớp học truyền thống vượt trội nhờ khả năng tương tác trực diện giàu sắc thái và phản hồi sư phạm tức thì giữa thầy và trò.",
+                "point_en": "Traditional classrooms excel by enabling rich face-to-face interaction and immediate pedagogical feedback between teachers and learners.",
+                "point_collocations": [
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "tương tác trực diện"
+                  },
+                  {
+                    "en": "pedagogical feedback",
+                    "vi": "phản hồi sư phạm"
+                  }
+                ],
+                "evidence_vi": "Trong không gian lớp học thực tế, giáo viên có thể quan sát ngôn ngữ cơ thể, ánh mắt và biểu cảm của học sinh để nhanh chóng điều chỉnh tốc độ giảng bài. Học sinh cũng thoải mái đặt câu hỏi mở rộng và nhận được lời giải thích trực quan ngay lập tức mà không gặp độ trễ kỹ thuật. Ngược lại, những màn hình tắt camera trong các buổi học trực tuyến thường tạo ra khoảng cách tâm lý khiến nhiều em e ngại tham gia thảo luận. Chính sự kết nối nhân văn trực tiếp này làm cho quá trình tiếp thu kiến thức sâu sắc và hiệu quả hơn hẳn.",
+                "evidence_en": "Within a physical classroom, teachers can read body language, eye contact, and facial expressions to adjust their teaching pace immediately. Students also feel more comfortable asking follow-up questions and receiving clear explanations without awkward digital delays. By contrast, muted microphones and turned-off cameras in virtual lessons often create psychological distance that discourages active participation. Ultimately, this authentic human connection makes academic comprehension noticeably deeper and more responsive.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "body language",
+                      "vi": "ngôn ngữ cơ thể"
+                    },
+                    {
+                      "en": "teaching pace",
+                      "vi": "tốc độ giảng bài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "follow-up questions",
+                      "vi": "câu hỏi mở rộng"
+                    },
+                    {
+                      "en": "digital delays",
+                      "vi": "độ trễ kỹ thuật số"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "psychological distance",
+                      "vi": "khoảng cách tâm lý"
+                    },
+                    {
+                      "en": "active participation",
+                      "vi": "sự tham gia tích cực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "authentic human connection",
+                      "vi": "kết nối con người chân thực"
+                    },
+                    {
+                      "en": "academic comprehension",
+                      "vi": "sự lĩnh hội học thuật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "tương tác trực diện"
+                  },
+                  {
+                    "en": "pedagogical feedback",
+                    "vi": "phản hồi sư phạm"
+                  },
+                  {
+                    "en": "body language",
+                    "vi": "ngôn ngữ cơ thể"
+                  },
+                  {
+                    "en": "teaching pace",
+                    "vi": "tốc độ giảng bài"
+                  },
+                  {
+                    "en": "follow-up questions",
+                    "vi": "câu hỏi mở rộng"
+                  },
+                  {
+                    "en": "digital delays",
+                    "vi": "độ trễ kỹ thuật số"
+                  },
+                  {
+                    "en": "psychological distance",
+                    "vi": "khoảng cách tâm lý"
+                  },
+                  {
+                    "en": "active participation",
+                    "vi": "sự tham gia tích cực"
+                  },
+                  {
+                    "en": "authentic human connection",
+                    "vi": "kết nối con người chân thực"
+                  },
+                  {
+                    "en": "academic comprehension",
+                    "vi": "sự lĩnh hội học thuật"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 02: KỶ LUẬT HỌC TẬP VÀ KHẢ NĂNG TẬP TRUNG BỀN VỮNG (ACADEMIC DISCIPLINE AND FOCUS)",
+                "point_vi": "Môi trường học đường có cấu trúc rõ ràng giúp học sinh duy trì tính kỷ luật và hạn chế tối đa sự xao nhãng kỹ thuật số.",
+                "point_en": "A structured school environment fosters academic discipline and minimizes the constant digital distractions found in home study.",
+                "point_collocations": [
+                  {
+                    "en": "academic discipline",
+                    "vi": "kỷ luật học tập"
+                  },
+                  {
+                    "en": "digital distractions",
+                    "vi": "sự xao nhãng kỹ thuật số"
+                  }
+                ],
+                "evidence_vi": "Mặc dù học trực tuyến trong đại dịch COVID-19 rất linh hoạt, việc học tại nhà đặt học sinh ngay giữa vô số cám dỗ như mạng xã hội, trò chơi điện tử và các việc vặt gia đình. Không ít người học thiếu kỹ năng tự quản lý thời gian đã rơi vào tình trạng mất tập trung, trì hoãn bài tập và giảm sút kết quả học tập. Trái lại, lớp học truyền thống thiết lập ranh giới rạch ròi giữa không gian học và nghỉ ngơi cùng sự giám sát trực tiếp từ giảng viên. Nhờ khuôn khổ ổn định này, học sinh dễ dàng giữ vững sự tập trung và hình thành thói quen học tập bền vững.",
+                "evidence_en": "Although online learning during the COVID-19 pandemic offered remarkable flexibility, studying at home exposes learners to constant temptations such as social media, games, and domestic interruptions. Many students without strong self-regulation quickly fell into multitasking, procrastination, and declining academic performance. Traditional classrooms, however, establish a clear boundary between study and leisure alongside direct instructor supervision. This predictable structure makes it far easier for students to sustain concentration and build durable study routines.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "remarkable flexibility",
+                      "vi": "sự linh hoạt đáng kể"
+                    },
+                    {
+                      "en": "domestic interruptions",
+                      "vi": "sự gián đoạn trong gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-regulation",
+                      "vi": "khả năng tự điều chỉnh"
+                    },
+                    {
+                      "en": "procrastination",
+                      "vi": "sự trì hoãn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "clear boundary",
+                      "vi": "ranh giới rõ ràng"
+                    },
+                    {
+                      "en": "instructor supervision",
+                      "vi": "sự giám sát của giảng viên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sustain concentration",
+                      "vi": "duy trì sự tập trung"
+                    },
+                    {
+                      "en": "durable study routines",
+                      "vi": "nếp học tập bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "academic discipline",
+                    "vi": "kỷ luật học tập"
+                  },
+                  {
+                    "en": "digital distractions",
+                    "vi": "sự xao nhãng kỹ thuật số"
+                  },
+                  {
+                    "en": "remarkable flexibility",
+                    "vi": "sự linh hoạt đáng kể"
+                  },
+                  {
+                    "en": "domestic interruptions",
+                    "vi": "sự gián đoạn trong gia đình"
+                  },
+                  {
+                    "en": "self-regulation",
+                    "vi": "khả năng tự điều chỉnh"
+                  },
+                  {
+                    "en": "procrastination",
+                    "vi": "sự trì hoãn"
+                  },
+                  {
+                    "en": "clear boundary",
+                    "vi": "ranh giới rõ ràng"
+                  },
+                  {
+                    "en": "instructor supervision",
+                    "vi": "sự giám sát của giảng viên"
+                  },
+                  {
+                    "en": "sustain concentration",
+                    "vi": "duy trì sự tập trung"
+                  },
+                  {
+                    "en": "durable study routines",
+                    "vi": "nếp học tập bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 03: PHÁT TRIỂN KỸ NĂNG XÃ HỘI VÀ SỨC KHỎE TINH THẦN (SOCIAL DEVELOPMENT AND WELL-BEING)",
+                "point_vi": "Học trực tiếp đóng vai trò không thể thay thế trong việc nuôi dưỡng các mối quan hệ xã hội, kỹ năng làm việc nhóm và sức khỏe tinh thần.",
+                "point_en": "In-person schooling plays an irreplaceable role in nurturing peer relationships, collaborative skills, and adolescent emotional well-being.",
+                "point_collocations": [
+                  {
+                    "en": "peer relationships",
+                    "vi": "mối quan hệ bạn bè"
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "sức khỏe cảm xúc / tinh thần"
+                  }
+                ],
+                "evidence_vi": "Giai đoạn giãn cách xã hội kéo dài cho thấy học trực tuyến hoàn toàn dễ dẫn đến cảm giác cô lập, lo âu và giảm kỹ năng giao tiếp thực tế ở giới trẻ. Ngược lại, trường học là một xã hội thu nhỏ nơi học sinh rèn luyện khả năng thuyết trình, đàm phán, đồng cảm và giải quyết xung đột thông qua tương tác hằng ngày. Những cuộc trò chuyện ngắn giờ ra chơi hay hoạt động câu lạc bộ tập thể tạo nên cảm giác thuộc về vô giá. Chính vì vậy, phần lớn học sinh vẫn trân trọng giá trị cộng đồng mà lớp học truyền thống mang lại.",
+                "evidence_en": "Prolonged pandemic lockdowns revealed that fully remote schooling can trigger social isolation, anxiety, and weaker interpersonal confidence among young learners. By contrast, a school functions as a micro-society where students practice public speaking, negotiation, empathy, and conflict resolution through daily interactions. Informal conversations between classes and shared club activities cultivate an invaluable sense of belonging. For this reason, most learners deeply value the social community that traditional classrooms provide.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "social isolation",
+                      "vi": "sự cô lập xã hội"
+                    },
+                    {
+                      "en": "interpersonal confidence",
+                      "vi": "sự tự tin trong giao tiếp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "conflict resolution",
+                      "vi": "giải quyết xung đột"
+                    },
+                    {
+                      "en": "empathy",
+                      "vi": "sự đồng cảm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sense of belonging",
+                      "vi": "cảm giác thuộc về"
+                    },
+                    {
+                      "en": "shared club activities",
+                      "vi": "hoạt động câu lạc bộ chung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social community",
+                      "vi": "cộng đồng xã hội"
+                    },
+                    {
+                      "en": "irreplaceable value",
+                      "vi": "giá trị không thể thay thế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "peer relationships",
+                    "vi": "mối quan hệ bạn bè"
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "vi": "sức khỏe cảm xúc / tinh thần"
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội"
+                  },
+                  {
+                    "en": "interpersonal confidence",
+                    "vi": "sự tự tin trong giao tiếp"
+                  },
+                  {
+                    "en": "conflict resolution",
+                    "vi": "giải quyết xung đột"
+                  },
+                  {
+                    "en": "empathy",
+                    "vi": "sự đồng cảm"
+                  },
+                  {
+                    "en": "sense of belonging",
+                    "vi": "cảm giác thuộc về"
+                  },
+                  {
+                    "en": "shared club activities",
+                    "vi": "hoạt động câu lạc bộ chung"
+                  },
+                  {
+                    "en": "social community",
+                    "vi": "cộng đồng xã hội"
+                  },
+                  {
+                    "en": "irreplaceable value",
+                    "vi": "giá trị không thể thay thế"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 04: CÔNG BẰNG TIẾP CẬN VÀ GIẢM MỆT MỎI CÔNG NGHỆ (EQUAL ACCESS AND LESS SCREEN FATIGUE)",
+                "point_vi": "Lớp học truyền thống đảm bảo sự công bằng hơn trong tiếp cận giáo dục đồng thời hạn chế tình trạng kiệt sức vì màn hình.",
+                "point_en": "Traditional classrooms promote fairer educational access while protecting learners from technical disruptions and severe screen fatigue.",
+                "point_collocations": [
+                  {
+                    "en": "educational access",
+                    "vi": "khả năng tiếp cận giáo dục"
+                  },
+                  {
+                    "en": "screen fatigue",
+                    "vi": "mệt mỏi do nhìn màn hình"
+                  }
+                ],
+                "evidence_vi": "Học trực tuyến phụ thuộc chặt chẽ vào băng thông Internet ổn định và thiết bị hiện đại, vô tình nới rộng khoảng cách giữa học sinh vùng phát triển và khu vực khó khăn. Ngay cả khi có đủ trang thiết bị, các sự cố đường truyền đột ngột vẫn thường xuyên làm đứt mạch tư duy và gây ức chế cho cả thầy lẫn trò. Hơn nữa, việc dán mắt vào màn hình suốt 6 đến 8 giờ mỗi ngày đã làm gia tăng rõ rệt các vấn đề về thị lực, đau cổ vai gáy và rối loạn giấc ngủ. Do đó, không gian lớp học trực tiếp mang lại trải nghiệm học tập ổn định và thân thiện với sức khỏe hơn nhiều.",
+                "evidence_en": "Online education relies heavily on stable broadband and modern devices, inadvertently widening the divide between affluent students and those in disadvantaged areas. Even with adequate hardware, sudden connection drops frequently disrupt concentration and frustrate both teachers and pupils. Furthermore, staring at illuminated screens for six to eight hours daily has sharply increased eye strain, posture problems, and mental exhaustion. Consequently, physical classrooms offer a far more equitable and physically sustainable learning experience.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stable broadband",
+                      "vi": "mạng băng thông rộng ổn định"
+                    },
+                    {
+                      "en": "disadvantaged areas",
+                      "vi": "khu vực khó khăn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "connection drops",
+                      "vi": "sự cố rớt mạng"
+                    },
+                    {
+                      "en": "disrupt concentration",
+                      "vi": "làm gián đoạn tập trung"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "posture problems",
+                      "vi": "vấn đề về tư thế / cột sống"
+                    },
+                    {
+                      "en": "mental exhaustion",
+                      "vi": "kiệt sức tinh thần"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "equitable learning experience",
+                      "vi": "trải nghiệm học tập công bằng"
+                    },
+                    {
+                      "en": "physically sustainable",
+                      "vi": "bền vững cho sức khỏe thể chất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "educational access",
+                    "vi": "khả năng tiếp cận giáo dục"
+                  },
+                  {
+                    "en": "screen fatigue",
+                    "vi": "mệt mỏi do nhìn màn hình"
+                  },
+                  {
+                    "en": "stable broadband",
+                    "vi": "mạng băng thông rộng ổn định"
+                  },
+                  {
+                    "en": "disadvantaged areas",
+                    "vi": "khu vực khó khăn"
+                  },
+                  {
+                    "en": "connection drops",
+                    "vi": "sự cố rớt mạng"
+                  },
+                  {
+                    "en": "disrupt concentration",
+                    "vi": "làm gián đoạn tập trung"
+                  },
+                  {
+                    "en": "posture problems",
+                    "vi": "vấn đề về tư thế / cột sống"
+                  },
+                  {
+                    "en": "mental exhaustion",
+                    "vi": "kiệt sức tinh thần"
+                  },
+                  {
+                    "en": "equitable learning experience",
+                    "vi": "trải nghiệm học tập công bằng"
+                  },
+                  {
+                    "en": "physically sustainable",
+                    "vi": "bền vững cho sức khỏe thể chất"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 05: TRẢI NGHIỆM THỰC HÀNH VÀ ĐỘNG LỰC HỌC TẬP TỪ CỘNG ĐỒNG (EXPERIENTIAL LEARNING AND MOTIVATION)",
+                "point_vi": "Nhiều môn học chuyên sâu đòi hỏi cơ sở vật chất thực hành trực tiếp và nguồn cảm hứng tập thể mà bài giảng trực tuyến khó tái tạo.",
+                "point_en": "Many specialized subjects demand hands-on facilities and collective classroom energy that virtual platforms struggle to replicate.",
+                "point_collocations": [
+                  {
+                    "en": "hands-on facilities",
+                    "vi": "cơ sở vật chất thực hành"
+                  },
+                  {
+                    "en": "collective energy",
+                    "vi": "năng lượng tập thể"
+                  }
+                ],
+                "evidence_vi": "Các lĩnh vực như thí nghiệm hóa học, đào tạo y khoa, kỹ thuật cơ khí hay nghệ thuật biểu diễn cần phòng thí nghiệm, dụng cụ chuyên dụng và sự hướng dẫn cầm tay chỉ việc. Bên cạnh yếu tố chuyên môn, việc cùng học tập trong một căn phòng đầy những người bạn năng động tạo nên áp lực tích cực thúc đẩy từng cá nhân nỗ lực hơn. Từ trải nghiệm thực tế của nhiều sinh viên từng học trực tuyến mùa dịch, kiến thức được tiếp thu qua thảo luận và thực hành tại lớp luôn đọng lại sâu sắc hơn hẳn. Do vậy, dù học trực tuyến là công cụ bổ trợ hữu ích, lớp học truyền thống vẫn giữ vai trò trung tâm.",
+                "evidence_en": "Disciplines such as laboratory sciences, medical training, engineering, and performing arts require specialized equipment and supervised practical exercises. Beyond technical facilities, sharing a physical space with engaged classmates generates positive peer momentum that inspires greater personal effort. Based on the lived experience of many students who studied remotely during the pandemic, knowledge gained through in-person discussion and practice tends to be retained far more effectively. Therefore, while online learning serves as a valuable supplement, traditional classrooms remain irreplaceable at the heart of education.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "laboratory sciences",
+                      "vi": "khoa học thực nghiệm"
+                    },
+                    {
+                      "en": "supervised practical exercises",
+                      "vi": "bài thực hành có hướng dẫn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "positive peer momentum",
+                      "vi": "động lực tích cực từ bạn học"
+                    },
+                    {
+                      "en": "greater personal effort",
+                      "vi": "nỗ lực cá nhân cao hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lived experience",
+                      "vi": "trải nghiệm thực tế"
+                    },
+                    {
+                      "en": "retained effectively",
+                      "vi": "ghi nhớ hiệu quả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "valuable supplement",
+                      "vi": "công cụ bổ trợ giá trị"
+                    },
+                    {
+                      "en": "heart of education",
+                      "vi": "trọng tâm của giáo dục"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "hands-on facilities",
+                    "vi": "cơ sở vật chất thực hành"
+                  },
+                  {
+                    "en": "collective energy",
+                    "vi": "năng lượng tập thể"
+                  },
+                  {
+                    "en": "laboratory sciences",
+                    "vi": "khoa học thực nghiệm"
+                  },
+                  {
+                    "en": "supervised practical exercises",
+                    "vi": "bài thực hành có hướng dẫn"
+                  },
+                  {
+                    "en": "positive peer momentum",
+                    "vi": "động lực tích cực từ bạn học"
+                  },
+                  {
+                    "en": "greater personal effort",
+                    "vi": "nỗ lực cá nhân cao hơn"
+                  },
+                  {
+                    "en": "lived experience",
+                    "vi": "trải nghiệm thực tế"
+                  },
+                  {
+                    "en": "retained effectively",
+                    "vi": "ghi nhớ hiệu quả"
+                  },
+                  {
+                    "en": "valuable supplement",
+                    "vi": "công cụ bổ trợ giá trị"
+                  },
+                  {
+                    "en": "heart of education",
+                    "vi": "trọng tâm của giáo dục"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "traditional classroom education",
+              "vi": "giáo dục lớp học truyền thống"
+            },
+            {
+              "en": "face-to-face communication",
+              "vi": "giao tiếp trực tiếp"
+            },
+            {
+              "en": "immediate help",
+              "vi": "sự hỗ trợ ngay lập tức"
+            },
+            {
+              "en": "raise one's hand",
+              "vi": "giơ tay phát biểu"
+            },
+            {
+              "en": "ask questions easily",
+              "vi": "đặt câu hỏi dễ dàng"
+            },
+            {
+              "en": "clear explanations",
+              "vi": "lời giải thích rõ ràng"
+            },
+            {
+              "en": "turn on microphones",
+              "vi": "bật micro"
+            },
+            {
+              "en": "understand new knowledge",
+              "vi": "tiếp thu kiến thức mới"
+            },
+            {
+              "en": "immediate pedagogical feedback",
+              "vi": "phản hồi sư phạm tức thì"
+            },
+            {
+              "en": "read body language",
+              "vi": "đọc ngôn ngữ cơ thể"
+            },
+            {
+              "en": "adjust the teaching pace",
+              "vi": "điều chỉnh tốc độ giảng bài"
+            },
+            {
+              "en": "psychological distance",
+              "vi": "khoảng cách tâm lý"
+            },
+            {
+              "en": "discourage active participation",
+              "vi": "làm giảm sự tham gia tích cực"
+            },
+            {
+              "en": "authentic human connection",
+              "vi": "kết nối con người chân thực"
+            },
+            {
+              "en": "academic comprehension",
+              "vi": "sự lĩnh hội học thuật"
+            },
+            {
+              "en": "awkward digital delays",
+              "vi": "độ trễ kỹ thuật số bất tiện"
+            },
+            {
+              "en": "structured environment",
+              "vi": "môi trường có quy củ"
+            },
+            {
+              "en": "easily distracted",
+              "vi": "dễ bị xao nhãng"
+            },
+            {
+              "en": "household noise",
+              "vi": "tiếng ồn gia đình"
+            },
+            {
+              "en": "fixed timetable",
+              "vi": "thời khóa biểu cố định"
+            },
+            {
+              "en": "serious study habits",
+              "vi": "thói quen học tập nghiêm túc"
+            },
+            {
+              "en": "self-discipline",
+              "vi": "tính tự giác"
+            },
+            {
+              "en": "stay focused",
+              "vi": "giữ sự tập trung"
+            },
+            {
+              "en": "finish homework on time",
+              "vi": "hoàn thành bài tập đúng hạn"
+            },
+            {
+              "en": "foster academic discipline",
+              "vi": "nuôi dưỡng kỷ luật học tập"
+            },
+            {
+              "en": "constant digital distractions",
+              "vi": "sự xao nhãng kỹ thuật số liên tục"
+            },
+            {
+              "en": "lack strong self-regulation",
+              "vi": "thiếu khả năng tự điều chỉnh"
+            },
+            {
+              "en": "fall into procrastination",
+              "vi": "rơi vào tình trạng trì hoãn"
+            },
+            {
+              "en": "direct instructor supervision",
+              "vi": "sự giám sát trực tiếp của giảng viên"
+            },
+            {
+              "en": "clear boundary between study and leisure",
+              "vi": "ranh giới rõ giữa học và chơi"
+            },
+            {
+              "en": "sustain concentration",
+              "vi": "duy trì sự tập trung bền bỉ"
+            },
+            {
+              "en": "durable study routines",
+              "vi": "nếp học tập bền vững"
+            },
+            {
+              "en": "build lasting friendships",
+              "vi": "xây dựng tình bạn lâu bền"
+            },
+            {
+              "en": "social skills",
+              "vi": "kỹ năng xã hội"
+            },
+            {
+              "en": "feel lonely at home",
+              "vi": "cảm thấy cô đơn ở nhà"
+            },
+            {
+              "en": "extracurricular clubs",
+              "vi": "câu lạc bộ ngoại khóa"
+            },
+            {
+              "en": "do group work",
+              "vi": "làm việc nhóm"
+            },
+            {
+              "en": "lively classroom atmosphere",
+              "vi": "bầu không khí lớp học sôi nổi"
+            },
+            {
+              "en": "personal learning experience",
+              "vi": "trải nghiệm học tập cá nhân"
+            },
+            {
+              "en": "memorable school life",
+              "vi": "đời sống học đường đáng nhớ"
+            },
+            {
+              "en": "nurture peer relationships",
+              "vi": "nuôi dưỡng quan hệ bạn bè"
+            },
+            {
+              "en": "trigger social isolation",
+              "vi": "gây ra sự cô lập xã hội"
+            },
+            {
+              "en": "interpersonal confidence",
+              "vi": "sự tự tin giao tiếp cá nhân"
+            },
+            {
+              "en": "practice conflict resolution",
+              "vi": "rèn kỹ năng giải quyết xung đột"
+            },
+            {
+              "en": "invaluable sense of belonging",
+              "vi": "cảm giác thuộc về vô giá"
+            },
+            {
+              "en": "positive peer momentum",
+              "vi": "động lực tích cực từ bạn học"
+            },
+            {
+              "en": "emotional well-being",
+              "vi": "sức khỏe cảm xúc / tinh thần"
+            },
+            {
+              "en": "irreplaceable social community",
+              "vi": "cộng đồng xã hội không thể thay thế"
+            },
+            {
+              "en": "Internet connection problems",
+              "vi": "sự cố kết nối Internet"
+            },
+            {
+              "en": "audio glitches",
+              "vi": "lỗi âm thanh"
+            },
+            {
+              "en": "interrupt live lectures",
+              "vi": "làm gián đoạn bài giảng trực tiếp"
+            },
+            {
+              "en": "eye strain and back pain",
+              "vi": "mỏi mắt và đau lưng"
+            },
+            {
+              "en": "hands-on practice",
+              "vi": "thực hành trực tiếp"
+            },
+            {
+              "en": "science experiments",
+              "vi": "thí nghiệm khoa học"
+            },
+            {
+              "en": "remember lessons longer",
+              "vi": "ghi nhớ bài học lâu hơn"
+            },
+            {
+              "en": "save commuting time",
+              "vi": "tiết kiệm thời gian đi lại"
+            },
+            {
+              "en": "severe screen fatigue",
+              "vi": "mệt mỏi nặng do màn hình"
+            },
+            {
+              "en": "widen the digital divide",
+              "vi": "nới rộng khoảng cách số"
+            },
+            {
+              "en": "equitable educational access",
+              "vi": "tiếp cận giáo dục công bằng"
+            },
+            {
+              "en": "sudden connection drops",
+              "vi": "tình trạng rớt mạng đột ngột"
+            },
+            {
+              "en": "specialized laboratory facilities",
+              "vi": "cơ sở phòng thí nghiệm chuyên dụng"
+            },
+            {
+              "en": "retain knowledge effectively",
+              "vi": "ghi nhớ kiến thức hiệu quả"
+            },
+            {
+              "en": "serve as a valuable supplement",
+              "vi": "đóng vai trò công cụ bổ trợ giá trị"
+            },
+            {
+              "en": "adopt a blended learning model",
+              "vi": "áp dụng mô hình học tập kết hợp"
+            }
+          ],
+          "sample_b1": "During the COVID-19 pandemic, online learning became very common and offered convenient features such as saving travel time. However, many students still strongly prefer traditional classroom education. This essay will explain the main reasons for this preference and share my own opinion based on my personal learning experience.\n\nFirst, traditional classrooms allow students to <strong>interact directly</strong> with teachers and get <strong>immediate help</strong>. When learners do not understand a difficult point, they can <strong>raise their hands</strong> right away instead of feeling shy behind a screen. Second, studying at school provides a <strong>structured environment</strong> with a <strong>fixed timetable</strong>. At home, students are <strong>easily distracted</strong> by social media, phone messages, or household noise, which harms their study habits.\n\nAnother important reason is social connection and health. Going to school helps students <strong>build lasting friendships</strong>, do group work, and enjoy a <strong>lively classroom atmosphere</strong>. Moreover, in-person classes prevent <strong>Internet connection problems</strong> and reduce <strong>eye strain</strong> caused by staring at screens all day.\n\nFrom my <strong>personal learning experience</strong> during the pandemic, I strongly agree that traditional classrooms are more effective. When I studied online, weak Wi-Fi often interrupted my English speaking lessons, and I felt tired and lonely sitting in my room for hours. Once I returned to school, discussing topics face to face with my teacher and classmates helped me stay motivated and <strong>remember lessons longer</strong>.\n\nIn conclusion, direct interaction, stronger focus, and real friendships explain why many students prefer traditional classrooms. Although online tools are helpful for reviewing lessons, I believe in-person education remains the best choice for deep learning.",
+          "translation_b1": "Trong đại dịch COVID-19, học trực tuyến đã trở nên rất phổ biến và mang lại nhiều tiện ích như tiết kiệm thời gian đi lại. Tuy nhiên, nhiều học sinh vẫn đặc biệt ưa chuộng giáo dục lớp học truyền thống. Bài luận này sẽ giải thích những lý do chính cho sự lựa chọn đó và chia sẻ quan điểm của tôi dựa trên trải nghiệm học tập cá nhân.\n\nThứ nhất, lớp học truyền thống cho phép học sinh <strong>tương tác trực tiếp</strong> với giáo viên và nhận <strong>hỗ trợ ngay lập tức</strong>. Khi không hiểu một điểm khó, người học có thể <strong>giơ tay</strong> hỏi ngay thay vì ngại ngùng sau màn hình. Thứ hai, học tại trường mang lại <strong>môi trường có quy củ</strong> với <strong>thời khóa biểu cố định</strong>. Ở nhà, học sinh <strong>dễ bị xao nhãng</strong> bởi mạng xã hội, tin nhắn điện thoại hay tiếng ồn gia đình, làm ảnh hưởng thói quen học tập.\n\nMột lý do quan trọng khác là sự kết nối xã hội và sức khỏe. Đến trường giúp học sinh <strong>xây dựng tình bạn lâu bền</strong>, làm việc nhóm và tận hưởng <strong>bầu không khí lớp học sôi nổi</strong>. Hơn nữa, lớp học trực tiếp tránh được <strong>sự cố kết nối Internet</strong> và giảm <strong>mỏi mắt</strong> do nhìn màn hình cả ngày.\n\nTừ <strong>trải nghiệm học tập cá nhân</strong> trong mùa dịch, tôi hoàn toàn đồng ý rằng lớp học truyền thống hiệu quả hơn. Khi tôi học online, Wi-Fi yếu thường làm gián đoạn giờ luyện nói tiếng Anh, và tôi thấy mệt mỏi, cô đơn khi ngồi trong phòng nhiều giờ. Khi quay lại trường, việc thảo luận trực tiếp với thầy cô và bạn bè giúp tôi có động lực hơn và <strong>ghi nhớ bài học lâu hơn</strong>.\n\nTóm lại, tương tác trực tiếp, sự tập trung cao hơn và tình bạn chân thực lý giải vì sao nhiều học sinh chuộng lớp học truyền thống. Dù công cụ trực tuyến hữu ích để ôn bài, tôi tin giáo dục trực tiếp vẫn là lựa chọn tốt nhất cho việc học sâu.",
+          "sample_b2": "During the COVID-19 pandemic, online learning became virtually ubiquitous and demonstrated undeniable conveniences, including schedule flexibility and zero commuting time. Nevertheless, a substantial majority of students continue to favor traditional classroom education. This essay will analyze the key reasons behind this enduring preference and explain why, based on my own learning experience, in-person schooling remains superior.\n\nA primary driver of this preference is the depth of <strong>face-to-face interaction</strong> and <strong>immediate pedagogical feedback</strong> available in physical classrooms. Teachers can effortlessly <strong>read body language</strong> and adjust their explanations in real time, whereas muted screens in virtual rooms often create <strong>psychological distance</strong>. Equally significant is <strong>academic discipline</strong>: studying at home exposes learners to <strong>constant digital distractions</strong> and <strong>procrastination</strong>, while schools maintain a <strong>clear boundary between study and leisure</strong> under direct instructor supervision.\n\nFurthermore, traditional classrooms nurture social development and safeguard student well-being. Prolonged pandemic lockdowns demonstrated how remote schooling can trigger <strong>social isolation</strong> and <strong>severe screen fatigue</strong>, as well as <strong>widen the digital divide</strong> for learners lacking stable broadband. By contrast, daily campus life cultivates <strong>interpersonal confidence</strong>, teamwork, and an <strong>invaluable sense of belonging</strong>, while enabling hands-on practice in laboratories and group workshops.\n\nDrawing on my own <strong>lived experience</strong> during the pandemic, I firmly believe that traditional classrooms provide a richer educational foundation. While recorded online lectures were convenient for reviewing grammar rules at my own pace, my concentration regularly slipped during long video calls, and sudden connection drops disrupted group projects. Returning to physical classrooms immediately restored my motivation through <strong>positive peer momentum</strong> and spontaneous discussions, allowing me to <strong>retain knowledge far more effectively</strong>.\n\nIn conclusion, superior teacher-student interaction, structured focus, and authentic social connection explain why traditional classrooms remain widely preferred. In my view, online platforms should <strong>serve as a valuable supplement</strong> within a balanced approach, rather than replace the irreplaceable human core of classroom education.",
+          "translation_b2": "Trong đại dịch COVID-19, học trực tuyến đã trở nên phổ biến khắp nơi và chứng tỏ những tiện ích không thể phủ nhận như lịch học linh hoạt và không tốn thời gian di chuyển. Tuy vậy, phần đông học sinh, sinh viên vẫn tiếp tục ưa chuộng giáo dục lớp học truyền thống. Bài luận này sẽ phân tích các nguyên nhân chính phía sau sự ưu tiên bền bỉ đó và lý giải vì sao, từ trải nghiệm học tập của bản thân, học trực tiếp vẫn vượt trội hơn.\n\nĐộng lực hàng đầu cho lựa chọn này là chiều sâu của <strong>tương tác trực diện</strong> và <strong>phản hồi sư phạm tức thì</strong> trong lớp học thực tế. Giáo viên dễ dàng <strong>đọc ngôn ngữ cơ thể</strong> và điều chỉnh lời giảng theo thời gian thực, trong khi những màn hình tắt tiếng ở lớp ảo thường tạo ra <strong>khoảng cách tâm lý</strong>. Quan trọng không kém là <strong>kỷ luật học tập</strong>: học tại nhà khiến người học đối mặt <strong>sự xao nhãng kỹ thuật số liên tục</strong> và <strong>sự trì hoãn</strong>, còn trường học giữ được <strong>ranh giới rõ giữa học và chơi</strong> dưới sự giám sát trực tiếp của giảng viên.\n\nHơn nữa, lớp học truyền thống nuôi dưỡng sự phát triển xã hội và bảo vệ sức khỏe học sinh. Các đợt giãn cách kéo dài đã cho thấy học từ xa dễ gây <strong>cô lập xã hội</strong>, <strong>mệt mỏi nặng do màn hình</strong> và <strong>nới rộng khoảng cách số</strong> với những học sinh thiếu mạng ổn định. Ngược lại, đời sống học đường hằng ngày bồi đắp <strong>sự tự tin giao tiếp</strong>, tinh thần đồng đội và <strong>cảm giác thuộc về vô giá</strong>, đồng thời tạo điều kiện thực hành trực tiếp tại phòng thí nghiệm và thảo luận nhóm.\n\nTừ <strong>trải nghiệm thực tế</strong> của chính bản thân trong mùa dịch, tôi tin chắc rằng lớp học truyền thống mang lại nền tảng giáo dục phong phú hơn. Dù bài giảng ghi hình trực tuyến khá tiện để tự ôn ngữ pháp theo tốc độ riêng, sự tập trung của tôi thường giảm sút trong các buổi học video kéo dài và lỗi rớt mạng đột ngột làm gián đoạn bài tập nhóm. Quay lại lớp học trực tiếp lập tức khôi phục động lực của tôi nhờ <strong>động lực tích cực từ bạn học</strong> và những cuộc trao đổi tự nhiên, giúp tôi <strong>ghi nhớ kiến thức hiệu quả hơn nhiều</strong>.\n\nTóm lại, tương tác thầy trò vượt trội, sự tập trung có kỷ luật và kết nối xã hội chân thực lý giải vì sao lớp học truyền thống vẫn được ưa chuộng rộng rãi. Theo tôi, nền tảng trực tuyến nên <strong>đóng vai trò công cụ bổ trợ giá trị</strong> trong một mô hình cân bằng, thay vì thay thế cốt lõi con người không thể thay thế của giáo dục trên lớp.",
+          "vocab_step": {
+            "theme": "VSTEP Writing Task 2",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "classroom",
+                "ipa": "/ˈklɑːsruːm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "lớp học truyền thống",
+                "family": "",
+                "example_en": "Many learners feel more focused in a traditional classroom.",
+                "example_vi": ""
+              },
+              {
+                "word": "convenience",
+                "ipa": "/kənˈviːniəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự tiện lợi",
+                "family": "",
+                "example_en": "Online study offers flexibility and convenience.",
+                "example_vi": ""
+              },
+              {
+                "word": "preference",
+                "ipa": "/ˈprefrəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự ưa chuộng, sở thích hơn",
+                "family": "",
+                "example_en": "Students have clear reasons for their preference.",
+                "example_vi": ""
+              },
+              {
+                "word": "interact",
+                "ipa": "/ˌɪntərˈækt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "tương tác",
+                "family": "",
+                "example_en": "Face-to-face classes make it easier to interact with teachers.",
+                "example_vi": ""
+              },
+              {
+                "word": "feedback",
+                "ipa": "/ˈfiːdbæk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "phản hồi",
+                "family": "",
+                "example_en": "Immediate feedback helps students fix mistakes quickly.",
+                "example_vi": ""
+              },
+              {
+                "word": "distract",
+                "ipa": "/dɪˈstrækt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "làm xao nhãng",
+                "family": "",
+                "example_en": "Phone notifications easily distract students studying at home.",
+                "example_vi": ""
+              },
+              {
+                "word": "concentrate",
+                "ipa": "/ˈkɒnsntreɪt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "tập trung",
+                "family": "",
+                "example_en": "A quiet classroom helps learners concentrate longer.",
+                "example_vi": ""
+              },
+              {
+                "word": "discipline",
+                "ipa": "/ˈdɪsəplɪn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tính kỷ luật",
+                "family": "",
+                "example_en": "Fixed school timetables build good study discipline.",
+                "example_vi": ""
+              },
+              {
+                "word": "friendship",
+                "ipa": "/ˈfrendʃɪp/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tình bạn",
+                "family": "",
+                "example_en": "School activities help young people build lasting friendships.",
+                "example_vi": ""
+              },
+              {
+                "word": "lonely",
+                "ipa": "/ˈləʊnli/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "cô đơn",
+                "family": "",
+                "example_en": "Many pupils felt lonely during pandemic lockdowns.",
+                "example_vi": ""
+              },
+              {
+                "word": "interrupt",
+                "ipa": "/ˌɪntəˈrʌpt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "làm gián đoạn",
+                "family": "",
+                "example_en": "Poor Wi-Fi can interrupt important live lectures.",
+                "example_vi": ""
+              },
+              {
+                "word": "experience",
+                "ipa": "/ɪkˈspɪəriəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "trải nghiệm",
+                "family": "",
+                "example_en": "From my learning experience, in-person classes work best.",
+                "example_vi": ""
+              },
+              {
+                "word": "practice",
+                "ipa": "/ˈpræktɪs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự thực hành",
+                "family": "",
+                "example_en": "Science classes require hands-on practice in labs.",
+                "example_vi": ""
+              },
+              {
+                "word": "atmosphere",
+                "ipa": "/ˈætməsfɪər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bầu không khí",
+                "family": "",
+                "example_en": "A lively classroom atmosphere boosts student motivation.",
+                "example_vi": ""
+              },
+              {
+                "word": "participate",
+                "ipa": "/pɑːˈtɪsɪpeɪt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "tham gia",
+                "family": "",
+                "example_en": "Shy students rarely participate when cameras are off.",
+                "example_vi": ""
+              },
+              {
+                "word": "tiredness",
+                "ipa": "/ˈtaɪədnəs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự mệt mỏi",
+                "family": "",
+                "example_en": "Long screen hours cause eye strain and tiredness.",
+                "example_vi": ""
+              },
+              {
+                "word": "pandemic",
+                "ipa": "/pænˈdemɪk/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "đại dịch",
+                "family": "",
+                "example_en": "Online learning spread widely during the COVID-19 pandemic.",
+                "example_vi": ""
+              },
+              {
+                "word": "effective",
+                "ipa": "/ɪˈfektɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "hiệu quả",
+                "family": "",
+                "example_en": "Direct discussion makes learning more effective.",
+                "example_vi": ""
+              },
+              {
+                "word": "ubiquitous",
+                "ipa": "/juːˈbɪkwɪtəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "phổ biến khắp nơi",
+                "family": "",
+                "example_en": "Virtual classrooms became ubiquitous during lockdowns.",
+                "example_vi": ""
+              },
+              {
+                "word": "pedagogical",
+                "ipa": "/ˌpedəˈɡɒdʒɪkl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về sư phạm",
+                "family": "",
+                "example_en": "Direct interaction enriches pedagogical feedback.",
+                "example_vi": ""
+              },
+              {
+                "word": "procrastination",
+                "ipa": "/prəˌkræstɪˈneɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự trì hoãn",
+                "family": "",
+                "example_en": "Unsupervised online study often triggers procrastination.",
+                "example_vi": ""
+              },
+              {
+                "word": "self-regulation",
+                "ipa": "/ˌself reɡjuˈleɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng tự điều chỉnh",
+                "family": "",
+                "example_en": "Young students often lack mature self-regulation.",
+                "example_vi": ""
+              },
+              {
+                "word": "isolation",
+                "ipa": "/ˌaɪsəˈleɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cô lập",
+                "family": "",
+                "example_en": "Prolonged remote study led to social isolation.",
+                "example_vi": ""
+              },
+              {
+                "word": "equitable",
+                "ipa": "/ˈekwɪtəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "công bằng",
+                "family": "",
+                "example_en": "In-person schooling ensures more equitable access.",
+                "example_vi": ""
+              },
+              {
+                "word": "supervision",
+                "ipa": "/ˌsuːpəˈvɪʒn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự giám sát",
+                "family": "",
+                "example_en": "Teacher supervision keeps students on task.",
+                "example_vi": ""
+              },
+              {
+                "word": "comprehension",
+                "ipa": "/ˌkɒmprɪˈhenʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự lĩnh hội, hiểu sâu",
+                "family": "",
+                "example_en": "Immediate clarification improves academic comprehension.",
+                "example_vi": ""
+              },
+              {
+                "word": "empathy",
+                "ipa": "/ˈempəθi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự đồng cảm",
+                "family": "",
+                "example_en": "Daily peer interaction cultivates empathy.",
+                "example_vi": ""
+              },
+              {
+                "word": "fatigue",
+                "ipa": "/fəˈtiːɡ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự mệt mỏi kiệt sức",
+                "family": "",
+                "example_en": "Screen fatigue reduces students' attention spans.",
+                "example_vi": ""
+              },
+              {
+                "word": "supplement",
+                "ipa": "/ˈsʌplɪmənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "công cụ bổ trợ",
+                "family": "",
+                "example_en": "Online courses work best as a supplement to classrooms.",
+                "example_vi": ""
+              },
+              {
+                "word": "replicate",
+                "ipa": "/ˈreplɪkeɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tái tạo, sao chép lại",
+                "family": "",
+                "example_en": "Virtual tools struggle to replicate real lab practice.",
+                "example_vi": ""
+              },
+              {
+                "word": "irreplaceable",
+                "ipa": "/ˌɪrɪˈpleɪsəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "không thể thay thế",
+                "family": "",
+                "example_en": "Human connection in schools remains irreplaceable.",
+                "example_vi": ""
+              },
+              {
+                "word": "disadvantaged",
+                "ipa": "/ˌdɪsədˈvɑːntɪdʒd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có hoàn cảnh khó khăn",
+                "family": "",
+                "example_en": "Students in disadvantaged areas often lack fast Wi-Fi.",
+                "example_vi": ""
+              },
+              {
+                "word": "posture",
+                "ipa": "/ˈpɒstʃər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tư thế ngồi / cơ thể",
+                "family": "",
+                "example_en": "Hours at a laptop can harm students' posture.",
+                "example_vi": ""
+              },
+              {
+                "word": "multitasking",
+                "ipa": "/ˌmʌltiˈtɑːskɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "làm nhiều việc cùng lúc (xao nhãng)",
+                "family": "",
+                "example_en": "Multitasking with chat apps weakens memory retention.",
+                "example_vi": ""
+              },
+              {
+                "word": "retain",
+                "ipa": "/rɪˈteɪn/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "ghi nhớ, giữ lại kiến thức",
+                "family": "",
+                "example_en": "Learners retain lessons better after live discussions.",
+                "example_vi": ""
+              },
+              {
+                "word": "hybrid",
+                "ipa": "/ˈhaɪbrɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kết hợp (trực tiếp và trực tuyến)",
+                "family": "",
+                "example_en": "A hybrid model combines classroom depth with online tools.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "traditional classroom education",
+                "level": "B1",
+                "vi": "giáo dục lớp học truyền thống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "face-to-face communication",
+                "level": "B1",
+                "vi": "giao tiếp trực tiếp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "immediate help",
+                "level": "B1",
+                "vi": "sự hỗ trợ ngay lập tức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "raise one's hand",
+                "level": "B1",
+                "vi": "giơ tay phát biểu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "ask questions easily",
+                "level": "B1",
+                "vi": "đặt câu hỏi dễ dàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "clear explanations",
+                "level": "B1",
+                "vi": "lời giải thích rõ ràng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "turn on microphones",
+                "level": "B1",
+                "vi": "bật micro",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "understand new knowledge",
+                "level": "B1",
+                "vi": "tiếp thu kiến thức mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "immediate pedagogical feedback",
+                "level": "B2",
+                "vi": "phản hồi sư phạm tức thì",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "read body language",
+                "level": "B2",
+                "vi": "đọc ngôn ngữ cơ thể",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "adjust the teaching pace",
+                "level": "B2",
+                "vi": "điều chỉnh tốc độ giảng bài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "psychological distance",
+                "level": "B2",
+                "vi": "khoảng cách tâm lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "discourage active participation",
+                "level": "B2",
+                "vi": "làm giảm sự tham gia tích cực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "authentic human connection",
+                "level": "B2",
+                "vi": "kết nối con người chân thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "academic comprehension",
+                "level": "B2",
+                "vi": "sự lĩnh hội học thuật",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "awkward digital delays",
+                "level": "B2",
+                "vi": "độ trễ kỹ thuật số bất tiện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "structured environment",
+                "level": "B1",
+                "vi": "môi trường có quy củ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "easily distracted",
+                "level": "B1",
+                "vi": "dễ bị xao nhãng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "household noise",
+                "level": "B1",
+                "vi": "tiếng ồn gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fixed timetable",
+                "level": "B1",
+                "vi": "thời khóa biểu cố định",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "serious study habits",
+                "level": "B1",
+                "vi": "thói quen học tập nghiêm túc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "self-discipline",
+                "level": "B1",
+                "vi": "tính tự giác",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stay focused",
+                "level": "B1",
+                "vi": "giữ sự tập trung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "finish homework on time",
+                "level": "B1",
+                "vi": "hoàn thành bài tập đúng hạn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "foster academic discipline",
+                "level": "B2",
+                "vi": "nuôi dưỡng kỷ luật học tập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "constant digital distractions",
+                "level": "B2",
+                "vi": "sự xao nhãng kỹ thuật số liên tục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lack strong self-regulation",
+                "level": "B2",
+                "vi": "thiếu khả năng tự điều chỉnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fall into procrastination",
+                "level": "B2",
+                "vi": "rơi vào tình trạng trì hoãn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "direct instructor supervision",
+                "level": "B2",
+                "vi": "sự giám sát trực tiếp của giảng viên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "clear boundary between study and leisure",
+                "level": "B2",
+                "vi": "ranh giới rõ giữa học và chơi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sustain concentration",
+                "level": "B2",
+                "vi": "duy trì sự tập trung bền bỉ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "durable study routines",
+                "level": "B2",
+                "vi": "nếp học tập bền vững",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "build lasting friendships",
+                "level": "B1",
+                "vi": "xây dựng tình bạn lâu bền",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "social skills",
+                "level": "B1",
+                "vi": "kỹ năng xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "feel lonely at home",
+                "level": "B1",
+                "vi": "cảm thấy cô đơn ở nhà",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "extracurricular clubs",
+                "level": "B1",
+                "vi": "câu lạc bộ ngoại khóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "do group work",
+                "level": "B1",
+                "vi": "làm việc nhóm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lively classroom atmosphere",
+                "level": "B1",
+                "vi": "bầu không khí lớp học sôi nổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personal learning experience",
+                "level": "B1",
+                "vi": "trải nghiệm học tập cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "memorable school life",
+                "level": "B1",
+                "vi": "đời sống học đường đáng nhớ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "nurture peer relationships",
+                "level": "B2",
+                "vi": "nuôi dưỡng quan hệ bạn bè",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "trigger social isolation",
+                "level": "B2",
+                "vi": "gây ra sự cô lập xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "interpersonal confidence",
+                "level": "B2",
+                "vi": "sự tự tin giao tiếp cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "practice conflict resolution",
+                "level": "B2",
+                "vi": "rèn kỹ năng giải quyết xung đột",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "invaluable sense of belonging",
+                "level": "B2",
+                "vi": "cảm giác thuộc về vô giá",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "positive peer momentum",
+                "level": "B2",
+                "vi": "động lực tích cực từ bạn học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "emotional well-being",
+                "level": "B2",
+                "vi": "sức khỏe cảm xúc / tinh thần",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "irreplaceable social community",
+                "level": "B2",
+                "vi": "cộng đồng xã hội không thể thay thế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "Internet connection problems",
+                "level": "B1",
+                "vi": "sự cố kết nối Internet",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "audio glitches",
+                "level": "B1",
+                "vi": "lỗi âm thanh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "interrupt live lectures",
+                "level": "B1",
+                "vi": "làm gián đoạn bài giảng trực tiếp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "eye strain and back pain",
+                "level": "B1",
+                "vi": "mỏi mắt và đau lưng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "hands-on practice",
+                "level": "B1",
+                "vi": "thực hành trực tiếp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "science experiments",
+                "level": "B1",
+                "vi": "thí nghiệm khoa học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "remember lessons longer",
+                "level": "B1",
+                "vi": "ghi nhớ bài học lâu hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "save commuting time",
+                "level": "B1",
+                "vi": "tiết kiệm thời gian đi lại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "severe screen fatigue",
+                "level": "B2",
+                "vi": "mệt mỏi nặng do màn hình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "widen the digital divide",
+                "level": "B2",
+                "vi": "nới rộng khoảng cách số",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "equitable educational access",
+                "level": "B2",
+                "vi": "tiếp cận giáo dục công bằng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sudden connection drops",
+                "level": "B2",
+                "vi": "tình trạng rớt mạng đột ngột",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "specialized laboratory facilities",
+                "level": "B2",
+                "vi": "cơ sở phòng thí nghiệm chuyên dụng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "retain knowledge effectively",
+                "level": "B2",
+                "vi": "ghi nhớ kiến thức hiệu quả",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "serve as a valuable supplement",
+                "level": "B2",
+                "vi": "đóng vai trò công cụ bổ trợ giá trị",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "adopt a blended learning model",
+                "level": "B2",
+                "vi": "áp dụng mô hình học tập kết hợp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Tương tác & Giảng dạy (Interaction & Feedback)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "traditional classroom education",
+                    "phrase": "traditional classroom education",
+                    "vi": "giáo dục lớp học truyền thống",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "face-to-face communication",
+                    "phrase": "face-to-face communication",
+                    "vi": "giao tiếp trực tiếp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "immediate help",
+                    "phrase": "immediate help",
+                    "vi": "sự hỗ trợ ngay lập tức",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "raise one's hand",
+                    "phrase": "raise one's hand",
+                    "vi": "giơ tay phát biểu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "ask questions easily",
+                    "phrase": "ask questions easily",
+                    "vi": "đặt câu hỏi dễ dàng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "clear explanations",
+                    "phrase": "clear explanations",
+                    "vi": "lời giải thích rõ ràng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "turn on microphones",
+                    "phrase": "turn on microphones",
+                    "vi": "bật micro",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "understand new knowledge",
+                    "phrase": "understand new knowledge",
+                    "vi": "tiếp thu kiến thức mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "immediate pedagogical feedback",
+                    "phrase": "immediate pedagogical feedback",
+                    "vi": "phản hồi sư phạm tức thì",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "read body language",
+                    "phrase": "read body language",
+                    "vi": "đọc ngôn ngữ cơ thể",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "adjust the teaching pace",
+                    "phrase": "adjust the teaching pace",
+                    "vi": "điều chỉnh tốc độ giảng bài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "psychological distance",
+                    "phrase": "psychological distance",
+                    "vi": "khoảng cách tâm lý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "discourage active participation",
+                    "phrase": "discourage active participation",
+                    "vi": "làm giảm sự tham gia tích cực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "authentic human connection",
+                    "phrase": "authentic human connection",
+                    "vi": "kết nối con người chân thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "academic comprehension",
+                    "phrase": "academic comprehension",
+                    "vi": "sự lĩnh hội học thuật",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "awkward digital delays",
+                    "phrase": "awkward digital delays",
+                    "vi": "độ trễ kỹ thuật số bất tiện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Tập trung & Kỷ luật học tập (Focus & Discipline)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "structured environment",
+                    "phrase": "structured environment",
+                    "vi": "môi trường có quy củ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "easily distracted",
+                    "phrase": "easily distracted",
+                    "vi": "dễ bị xao nhãng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "household noise",
+                    "phrase": "household noise",
+                    "vi": "tiếng ồn gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fixed timetable",
+                    "phrase": "fixed timetable",
+                    "vi": "thời khóa biểu cố định",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "serious study habits",
+                    "phrase": "serious study habits",
+                    "vi": "thói quen học tập nghiêm túc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "self-discipline",
+                    "phrase": "self-discipline",
+                    "vi": "tính tự giác",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stay focused",
+                    "phrase": "stay focused",
+                    "vi": "giữ sự tập trung",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "finish homework on time",
+                    "phrase": "finish homework on time",
+                    "vi": "hoàn thành bài tập đúng hạn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "foster academic discipline",
+                    "phrase": "foster academic discipline",
+                    "vi": "nuôi dưỡng kỷ luật học tập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "constant digital distractions",
+                    "phrase": "constant digital distractions",
+                    "vi": "sự xao nhãng kỹ thuật số liên tục",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lack strong self-regulation",
+                    "phrase": "lack strong self-regulation",
+                    "vi": "thiếu khả năng tự điều chỉnh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fall into procrastination",
+                    "phrase": "fall into procrastination",
+                    "vi": "rơi vào tình trạng trì hoãn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "direct instructor supervision",
+                    "phrase": "direct instructor supervision",
+                    "vi": "sự giám sát trực tiếp của giảng viên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "clear boundary between study and leisure",
+                    "phrase": "clear boundary between study and leisure",
+                    "vi": "ranh giới rõ giữa học và chơi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sustain concentration",
+                    "phrase": "sustain concentration",
+                    "vi": "duy trì sự tập trung bền bỉ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "durable study routines",
+                    "phrase": "durable study routines",
+                    "vi": "nếp học tập bền vững",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Xã hội hóa & Sức khỏe tinh thần (Social Life & Well-being)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "build lasting friendships",
+                    "phrase": "build lasting friendships",
+                    "vi": "xây dựng tình bạn lâu bền",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "social skills",
+                    "phrase": "social skills",
+                    "vi": "kỹ năng xã hội",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "feel lonely at home",
+                    "phrase": "feel lonely at home",
+                    "vi": "cảm thấy cô đơn ở nhà",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "extracurricular clubs",
+                    "phrase": "extracurricular clubs",
+                    "vi": "câu lạc bộ ngoại khóa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "do group work",
+                    "phrase": "do group work",
+                    "vi": "làm việc nhóm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lively classroom atmosphere",
+                    "phrase": "lively classroom atmosphere",
+                    "vi": "bầu không khí lớp học sôi nổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personal learning experience",
+                    "phrase": "personal learning experience",
+                    "vi": "trải nghiệm học tập cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "memorable school life",
+                    "phrase": "memorable school life",
+                    "vi": "đời sống học đường đáng nhớ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "nurture peer relationships",
+                    "phrase": "nurture peer relationships",
+                    "vi": "nuôi dưỡng quan hệ bạn bè",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "trigger social isolation",
+                    "phrase": "trigger social isolation",
+                    "vi": "gây ra sự cô lập xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "interpersonal confidence",
+                    "phrase": "interpersonal confidence",
+                    "vi": "sự tự tin giao tiếp cá nhân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "practice conflict resolution",
+                    "phrase": "practice conflict resolution",
+                    "vi": "rèn kỹ năng giải quyết xung đột",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "invaluable sense of belonging",
+                    "phrase": "invaluable sense of belonging",
+                    "vi": "cảm giác thuộc về vô giá",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "positive peer momentum",
+                    "phrase": "positive peer momentum",
+                    "vi": "động lực tích cực từ bạn học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "emotional well-being",
+                    "phrase": "emotional well-being",
+                    "vi": "sức khỏe cảm xúc / tinh thần",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "irreplaceable social community",
+                    "phrase": "irreplaceable social community",
+                    "vi": "cộng đồng xã hội không thể thay thế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Kỹ thuật, Sức khỏe & Thực hành (Tech, Health & Practice)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "Internet connection problems",
+                    "phrase": "Internet connection problems",
+                    "vi": "sự cố kết nối Internet",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "audio glitches",
+                    "phrase": "audio glitches",
+                    "vi": "lỗi âm thanh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "interrupt live lectures",
+                    "phrase": "interrupt live lectures",
+                    "vi": "làm gián đoạn bài giảng trực tiếp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "eye strain and back pain",
+                    "phrase": "eye strain and back pain",
+                    "vi": "mỏi mắt và đau lưng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "hands-on practice",
+                    "phrase": "hands-on practice",
+                    "vi": "thực hành trực tiếp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "science experiments",
+                    "phrase": "science experiments",
+                    "vi": "thí nghiệm khoa học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "remember lessons longer",
+                    "phrase": "remember lessons longer",
+                    "vi": "ghi nhớ bài học lâu hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "save commuting time",
+                    "phrase": "save commuting time",
+                    "vi": "tiết kiệm thời gian đi lại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "severe screen fatigue",
+                    "phrase": "severe screen fatigue",
+                    "vi": "mệt mỏi nặng do màn hình",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "widen the digital divide",
+                    "phrase": "widen the digital divide",
+                    "vi": "nới rộng khoảng cách số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "equitable educational access",
+                    "phrase": "equitable educational access",
+                    "vi": "tiếp cận giáo dục công bằng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sudden connection drops",
+                    "phrase": "sudden connection drops",
+                    "vi": "tình trạng rớt mạng đột ngột",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "specialized laboratory facilities",
+                    "phrase": "specialized laboratory facilities",
+                    "vi": "cơ sở phòng thí nghiệm chuyên dụng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "retain knowledge effectively",
+                    "phrase": "retain knowledge effectively",
+                    "vi": "ghi nhớ kiến thức hiệu quả",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "serve as a valuable supplement",
+                    "phrase": "serve as a valuable supplement",
+                    "vi": "đóng vai trò công cụ bổ trợ giá trị",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "adopt a blended learning model",
+                    "phrase": "adopt a blended learning model",
+                    "vi": "áp dụng mô hình học tập kết hợp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Giáo dục",
+                "title": "Học trực tuyến sau đại dịch và lý do học sinh vẫn cần lớp học truyền thống",
+                "summary": "Phân tích ưu nhược điểm của học online so với lớp học trực tiếp về tương tác thầy trò, tính kỷ luật và sức khỏe tinh thần học đường.",
+                "url": "https://vnexpress.net/giao-duc"
+              }
+            ],
+            "en": [
+              {
+                "source": "UNESCO",
+                "title": "Education: From COVID-19 school closures to recovery",
+                "summary": "Global insights on remote learning during the COVID-19 pandemic, digital divides, and the irreplaceable value of in-person classrooms.",
+                "url": "https://www.unesco.org/en/covid-19/education-response"
+              }
+            ]
+          }
+        }
       },
       {
         "id": 23,
@@ -168618,10 +171408,2800 @@ const ESSAY_DATA = [
         "id": 38,
         "title_en": "Factors influencing career choice",
         "title_vi": "Các yếu tố ảnh hưởng đến việc lựa chọn nghề nghiệp",
-        "tags": "[Causes / Factors]",
-        "context": "Choosing a career is one of the most important decisions in a person's life. The career that people choose can influence their income, lifestyle, job satisfaction, and future opportunities. However, career choices are often affected by a variety of personal, social, educational, and economic factors. Understanding these influences can help individuals make more informed decisions about their future.",
-        "prompt": "Write an essay to an educated reader to discuss the factors influencing career choice. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "tags": "[Factors]",
+        "context": "Choosing a career path is one of the most critical decisions in a person's life. The profession people select shapes not only their income and lifestyle but also their long-term happiness and sense of identity. In modern society, career choices are influenced by key considerations such as financial stability, personal fulfillment, and finding one's own life purpose.",
+        "context_vi": "Lựa chọn con đường sự nghiệp là một trong những quyết định quan trọng nhất trong cuộc đời mỗi người. Nghề nghiệp mà con người chọn không chỉ định hình thu nhập và lối sống mà còn ảnh hưởng đến hạnh phúc lâu dài và bản sắc cá nhân. Trong xã hội hiện đại, quyết định chọn nghề chịu tác động của nhiều yếu tố then chốt như ổn định tài chính, sự thỏa mãn cá nhân và tìm kiếm mục đích sống của riêng mình.",
+        "prompt": "Write an essay to an educated reader to discuss the key factors that influence career choices, such as financial stability, personal fulfillment, and finding one's own life purpose. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về các yếu tố then chốt ảnh hưởng đến việc lựa chọn nghề nghiệp, chẳng hạn như ổn định tài chính, sự thỏa mãn cá nhân và tìm thấy mục đích sống của bản thân. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "choosing a career path / selecting a profession",
+            "vi": "lựa chọn con đường sự nghiệp / chọn một nghề nghiệp"
+          },
+          {
+            "en": "key factors influencing career choices",
+            "vi": "các yếu tố then chốt chi phối quyết định chọn nghề"
+          },
+          {
+            "en": "financial stability and reliable earnings",
+            "vi": "ổn định tài chính và mức thu nhập đáng tin cậy"
+          },
+          {
+            "en": "personal fulfillment and occupational happiness",
+            "vi": "sự thỏa mãn cá nhân và hạnh phúc nghề nghiệp"
+          },
+          {
+            "en": "finding one's life purpose through meaningful work",
+            "vi": "tìm thấy mục đích sống thông qua công việc ý nghĩa"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "YẾU TỐ 01: ỔN ĐỊNH TÀI CHÍNH VÀ MỨC THU NHẬP",
+                "point_vi": "Ổn định tài chính và mức lương tốt là một trong những yếu tố quan trọng nhất khi chọn nghề.",
+                "point_en": "Financial stability and a good salary are among the most important factors when choosing a career.",
+                "point_collocations": [
+                  {
+                    "en": "financial stability",
+                    "vi": "ổn định tài chính"
+                  },
+                  {
+                    "en": "good salary",
+                    "vi": "mức lương tốt"
+                  }
+                ],
+                "evidence_vi": "Một công việc có thu nhập ổn định giúp mọi người chi trả tiền thuê nhà, thực phẩm và các hóa đơn hằng tháng mà không quá lo lắng. Ngoài ra, nó còn cho phép người lao động tiết kiệm cho tương lai và hỗ trợ gia đình khi cần thiết. Vì vậy, nhiều sinh viên mới ra trường thường ưu tiên những ngành nghề có mức lương đáng tin cậy.",
+                "evidence_en": "A job with a steady income helps people pay for housing, food, and monthly bills without constant worry. It also allows workers to save money for the future and support their families when needed. Therefore, many graduates prioritize career paths that offer reliable earnings.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "steady income",
+                      "vi": "thu nhập ổn định"
+                    },
+                    {
+                      "en": "monthly bills",
+                      "vi": "hóa đơn hằng tháng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "save money for the future",
+                      "vi": "tiết kiệm tiền cho tương lai"
+                    },
+                    {
+                      "en": "support their families",
+                      "vi": "hỗ trợ gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reliable earnings",
+                      "vi": "thu nhập đáng tin cậy"
+                    },
+                    {
+                      "en": "career paths",
+                      "vi": "con đường sự nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "financial stability",
+                    "vi": "ổn định tài chính"
+                  },
+                  {
+                    "en": "good salary",
+                    "vi": "mức lương tốt"
+                  },
+                  {
+                    "en": "steady income",
+                    "vi": "thu nhập ổn định"
+                  },
+                  {
+                    "en": "monthly bills",
+                    "vi": "hóa đơn hằng tháng"
+                  },
+                  {
+                    "en": "save money for the future",
+                    "vi": "tiết kiệm tiền cho tương lai"
+                  },
+                  {
+                    "en": "support their families",
+                    "vi": "hỗ trợ gia đình"
+                  },
+                  {
+                    "en": "reliable earnings",
+                    "vi": "thu nhập đáng tin cậy"
+                  },
+                  {
+                    "en": "career paths",
+                    "vi": "con đường sự nghiệp"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 02: SỰ THỎA MÃN CÁ NHÂN VÀ ĐAM MÊ NGHỀ NGHIỆP",
+                "point_vi": "Sự thỏa mãn cá nhân và niềm yêu thích công việc ảnh hưởng mạnh mẽ đến quyết định nghề nghiệp của nhiều người.",
+                "point_en": "Personal fulfillment and genuine interest strongly influence many people's career decisions.",
+                "point_collocations": [
+                  {
+                    "en": "personal fulfillment",
+                    "vi": "sự thỏa mãn cá nhân"
+                  },
+                  {
+                    "en": "career decisions",
+                    "vi": "quyết định nghề nghiệp"
+                  }
+                ],
+                "evidence_vi": "Khi làm công việc phù hợp với sở thích và thế mạnh, người lao động thường cảm thấy hào hứng mỗi ngày đi làm. Điều này giúp họ duy trì động lực lâu dài và ít bị căng thẳng hay kiệt sức hơn. Nhờ đó, họ có thể gắn bó bền bỉ và đạt được nhiều thành công trong sự nghiệp.",
+                "evidence_en": "When people do work that matches their interests and strengths, they usually feel excited to go to work every day. This helps them stay motivated in the long run and reduces the risk of stress or burnout. As a result, they can stay committed and achieve lasting career success.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "interests and strengths",
+                      "vi": "sở thích và thế mạnh"
+                    },
+                    {
+                      "en": "feel excited",
+                      "vi": "cảm thấy hào hứng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay motivated",
+                      "vi": "duy trì động lực"
+                    },
+                    {
+                      "en": "risk of burnout",
+                      "vi": "nguy cơ kiệt sức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stay committed",
+                      "vi": "gắn bó bền bỉ"
+                    },
+                    {
+                      "en": "lasting career success",
+                      "vi": "thành công sự nghiệp lâu dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal fulfillment",
+                    "vi": "sự thỏa mãn cá nhân"
+                  },
+                  {
+                    "en": "career decisions",
+                    "vi": "quyết định nghề nghiệp"
+                  },
+                  {
+                    "en": "interests and strengths",
+                    "vi": "sở thích và thế mạnh"
+                  },
+                  {
+                    "en": "feel excited",
+                    "vi": "cảm thấy hào hứng"
+                  },
+                  {
+                    "en": "stay motivated",
+                    "vi": "duy trì động lực"
+                  },
+                  {
+                    "en": "risk of burnout",
+                    "vi": "nguy cơ kiệt sức"
+                  },
+                  {
+                    "en": "stay committed",
+                    "vi": "gắn bó bền bỉ"
+                  },
+                  {
+                    "en": "lasting career success",
+                    "vi": "thành công sự nghiệp lâu dài"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 03: TÌM THẤY MỤC ĐÍCH SỐNG VÀ Ý NGHĨA XÃ HỘI",
+                "point_vi": "Nhiều người lựa chọn nghề nghiệp dựa trên mong muốn tìm thấy mục đích sống và tạo ra giá trị tích cực cho xã hội.",
+                "point_en": "Many people choose a career based on their desire to find a clear life purpose and contribute to society.",
+                "point_collocations": [
+                  {
+                    "en": "life purpose",
+                    "vi": "mục đích sống"
+                  },
+                  {
+                    "en": "contribute to society",
+                    "vi": "đóng góp cho xã hội"
+                  }
+                ],
+                "evidence_vi": "Những ngành nghề như giáo dục, y tế hay bảo vệ môi trường giúp họ cảm thấy công việc hằng ngày thật sự có ý nghĩa. Việc giúp đỡ người khác mang lại niềm tự hào sâu sắc mà tiền bạc khó có thể thay thế được. Nhờ vậy, họ cảm thấy hạnh phúc hơn với con đường mình đã chọn.",
+                "evidence_en": "Professions such as teaching, healthcare, or environmental work help them feel that their daily efforts truly matter. Helping others brings a deep sense of pride that money alone cannot easily replace. Consequently, they feel much happier and more satisfied with the path they have chosen.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily efforts",
+                      "vi": "nỗ lực hằng ngày"
+                    },
+                    {
+                      "en": "truly matter",
+                      "vi": "thật sự có ý nghĩa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "deep sense of pride",
+                      "vi": "niềm tự hào sâu sắc"
+                    },
+                    {
+                      "en": "money alone",
+                      "vi": "chỉ riêng tiền bạc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "more satisfied",
+                      "vi": "hài lòng hơn"
+                    },
+                    {
+                      "en": "chosen path",
+                      "vi": "con đường đã chọn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "life purpose",
+                    "vi": "mục đích sống"
+                  },
+                  {
+                    "en": "contribute to society",
+                    "vi": "đóng góp cho xã hội"
+                  },
+                  {
+                    "en": "daily efforts",
+                    "vi": "nỗ lực hằng ngày"
+                  },
+                  {
+                    "en": "truly matter",
+                    "vi": "thật sự có ý nghĩa"
+                  },
+                  {
+                    "en": "deep sense of pride",
+                    "vi": "niềm tự hào sâu sắc"
+                  },
+                  {
+                    "en": "money alone",
+                    "vi": "chỉ riêng tiền bạc"
+                  },
+                  {
+                    "en": "more satisfied",
+                    "vi": "hài lòng hơn"
+                  },
+                  {
+                    "en": "chosen path",
+                    "vi": "con đường đã chọn"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 04: MÔI TRƯỜNG LÀM VIỆC, CÂN BẰNG CUỘC SỐNG VÀ CƠ HỘI PHÁT TRIỂN",
+                "point_vi": "Môi trường làm việc tích cực, giờ giấc hợp lý và cơ hội thăng tiến cũng tác động lớn đến việc chọn nghề.",
+                "point_en": "A positive work environment, healthy work-life balance, and growth opportunities also shape career choices.",
+                "point_collocations": [
+                  {
+                    "en": "work environment",
+                    "vi": "môi trường làm việc"
+                  },
+                  {
+                    "en": "work-life balance",
+                    "vi": "cân bằng công việc - cuộc sống"
+                  }
+                ],
+                "evidence_vi": "Ngày nay, nhiều bạn trẻ muốn một công việc cho phép họ có đủ thời gian cho gia đình, sức khỏe và sở thích cá nhân. Bên cạnh đó, cơ hội được đào tạo và học hỏi kỹ năng mới giúp họ phát triển bản thân theo thời gian. Những yếu tố này khiến một ngành nghề trở nên hấp dẫn và bền vững hơn nhiều.",
+                "evidence_en": "Nowadays, many young people want a job that leaves enough time for family, health, and personal hobbies. In addition, chances to receive training and learn new skills help them grow over time. These factors make a profession far more attractive and sustainable.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "personal hobbies",
+                      "vi": "sở thích cá nhân"
+                    },
+                    {
+                      "en": "enough time for family",
+                      "vi": "đủ thời gian cho gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "receive training",
+                      "vi": "được đào tạo"
+                    },
+                    {
+                      "en": "learn new skills",
+                      "vi": "học kỹ năng mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "more attractive",
+                      "vi": "hấp dẫn hơn"
+                    },
+                    {
+                      "en": "sustainable profession",
+                      "vi": "nghề nghiệp bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work environment",
+                    "vi": "môi trường làm việc"
+                  },
+                  {
+                    "en": "work-life balance",
+                    "vi": "cân bằng công việc - cuộc sống"
+                  },
+                  {
+                    "en": "personal hobbies",
+                    "vi": "sở thích cá nhân"
+                  },
+                  {
+                    "en": "enough time for family",
+                    "vi": "đủ thời gian cho gia đình"
+                  },
+                  {
+                    "en": "receive training",
+                    "vi": "được đào tạo"
+                  },
+                  {
+                    "en": "learn new skills",
+                    "vi": "học kỹ năng mới"
+                  },
+                  {
+                    "en": "more attractive",
+                    "vi": "hấp dẫn hơn"
+                  },
+                  {
+                    "en": "sustainable profession",
+                    "vi": "nghề nghiệp bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 05: ĐỊNH HƯỚNG GIA ĐÌNH VÀ NHU CẦU THỊ TRƯỜNG LAO ĐỘNG",
+                "point_vi": "Lời khuyên từ gia đình và nhu cầu thực tế của thị trường lao động thường chi phối quyết định nghề nghiệp.",
+                "point_en": "Family advice and real job market demand often play a big role in career decisions.",
+                "point_collocations": [
+                  {
+                    "en": "family advice",
+                    "vi": "lời khuyên gia đình"
+                  },
+                  {
+                    "en": "job market demand",
+                    "vi": "nhu cầu thị trường lao động"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ thường khuyến khích con cái theo học những ngành ổn định và dễ tìm việc sau khi tốt nghiệp. Đồng thời, sự phát triển nhanh của công nghệ khiến nhiều sinh viên chọn các lĩnh vực đang thiếu nhân lực như công nghệ thông tin hoặc kinh doanh số. Cách tiếp cận thực tế này giúp họ giảm nguy cơ thất nghiệp.",
+                "evidence_en": "Parents often encourage their children to study stable majors that make it easy to find jobs after graduation. At the same time, rapid technological growth leads many students to choose high-demand fields such as information technology or digital business. This practical approach helps them lower the risk of unemployment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stable majors",
+                      "vi": "ngành học ổn định"
+                    },
+                    {
+                      "en": "after graduation",
+                      "vi": "sau khi tốt nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "high-demand fields",
+                      "vi": "lĩnh vực nhu cầu cao"
+                    },
+                    {
+                      "en": "information technology",
+                      "vi": "công nghệ thông tin"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "practical approach",
+                      "vi": "cách tiếp cận thực tế"
+                    },
+                    {
+                      "en": "risk of unemployment",
+                      "vi": "nguy cơ thất nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "family advice",
+                    "vi": "lời khuyên gia đình"
+                  },
+                  {
+                    "en": "job market demand",
+                    "vi": "nhu cầu thị trường lao động"
+                  },
+                  {
+                    "en": "stable majors",
+                    "vi": "ngành học ổn định"
+                  },
+                  {
+                    "en": "after graduation",
+                    "vi": "sau khi tốt nghiệp"
+                  },
+                  {
+                    "en": "high-demand fields",
+                    "vi": "lĩnh vực nhu cầu cao"
+                  },
+                  {
+                    "en": "information technology",
+                    "vi": "công nghệ thông tin"
+                  },
+                  {
+                    "en": "practical approach",
+                    "vi": "cách tiếp cận thực tế"
+                  },
+                  {
+                    "en": "risk of unemployment",
+                    "vi": "nguy cơ thất nghiệp"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "YẾU TỐ 01: ỔN ĐỊNH TÀI CHÍNH VÀ AN TOÀN KINH TẾ DÀI HẠN (FINANCIAL SECURITY)",
+                "point_vi": "Sự ổn định tài chính và khả năng đảm bảo mức sống vững vàng là động lực cốt lõi định hình quyết định chọn nghề của phần lớn cá nhân.",
+                "point_en": "Financial security and the ability to maintain a comfortable standard of living serve as core drivers behind most career decisions.",
+                "point_collocations": [
+                  {
+                    "en": "financial security",
+                    "vi": "sự an toàn tài chính"
+                  },
+                  {
+                    "en": "standard of living",
+                    "vi": "mức sống"
+                  }
+                ],
+                "evidence_vi": "Trong bối cảnh chi phí nhà ở, y tế và giáo dục ngày càng gia tăng, mức thu nhập cạnh tranh mang lại nền tảng thiết yếu cho sự độc lập cá nhân. Một nghề nghiệp có triển vọng tài chính tốt không chỉ giúp người lao động trang trải nhu cầu thiết yếu mà còn cho phép họ tích lũy cho hưu trí và hỗ trợ người thân. Hơn nữa, sự an tâm về kinh tế giảm thiểu căng thẳng kéo dài, tạo điều kiện để cá nhân đầu tư vào việc học tập suốt đời. Do đó, ngay cả những người giàu hoài bão vẫn thường cân nhắc kỹ mức đãi ngộ trước khi cam kết với một con đường nghề nghiệp.",
+                "evidence_en": "Amid rising housing, healthcare, and education expenses, a competitive income provides an indispensable foundation for personal independence. A financially rewarding career enables individuals not only to cover daily necessities but also to build long-term savings and support dependents. Moreover, economic peace of mind reduces chronic anxiety and allows professionals to invest in lifelong self-improvement. Consequently, even highly idealistic graduates routinely evaluate earning potential before committing to a specific profession.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "competitive income",
+                      "vi": "mức thu nhập cạnh tranh"
+                    },
+                    {
+                      "en": "personal independence",
+                      "vi": "sự độc lập cá nhân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "financially rewarding career",
+                      "vi": "nghề nghiệp đãi ngộ tốt"
+                    },
+                    {
+                      "en": "long-term savings",
+                      "vi": "khoản tiết kiệm dài hạn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "economic peace of mind",
+                      "vi": "sự an tâm về kinh tế"
+                    },
+                    {
+                      "en": "lifelong self-improvement",
+                      "vi": "tự hoàn thiện suốt đời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "earning potential",
+                      "vi": "tiềm năng thu nhập"
+                    },
+                    {
+                      "en": "commit to a profession",
+                      "vi": "gắn bó với một nghề"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "financial security",
+                    "vi": "sự an toàn tài chính"
+                  },
+                  {
+                    "en": "standard of living",
+                    "vi": "mức sống"
+                  },
+                  {
+                    "en": "competitive income",
+                    "vi": "mức thu nhập cạnh tranh"
+                  },
+                  {
+                    "en": "personal independence",
+                    "vi": "sự độc lập cá nhân"
+                  },
+                  {
+                    "en": "financially rewarding career",
+                    "vi": "nghề nghiệp đãi ngộ tốt"
+                  },
+                  {
+                    "en": "long-term savings",
+                    "vi": "khoản tiết kiệm dài hạn"
+                  },
+                  {
+                    "en": "economic peace of mind",
+                    "vi": "sự an tâm về kinh tế"
+                  },
+                  {
+                    "en": "lifelong self-improvement",
+                    "vi": "tự hoàn thiện suốt đời"
+                  },
+                  {
+                    "en": "earning potential",
+                    "vi": "tiềm năng thu nhập"
+                  },
+                  {
+                    "en": "commit to a profession",
+                    "vi": "gắn bó với một nghề"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 02: SỰ THỎA MÃN CÁ NHÂN VÀ ĐAM MÊ NỘI TẠI (PERSONAL FULFILLMENT AND PASSION)",
+                "point_vi": "Sự thỏa mãn cá nhân và mức độ tương thích với đam mê, năng lực bẩm sinh quyết định lớn đến hạnh phúc nghề nghiệp lâu dài.",
+                "point_en": "Personal fulfillment and alignment with one's passions and innate strengths strongly determine long-term occupational happiness.",
+                "point_collocations": [
+                  {
+                    "en": "personal fulfillment",
+                    "vi": "sự thỏa mãn cá nhân"
+                  },
+                  {
+                    "en": "innate strengths",
+                    "vi": "thế mạnh bẩm sinh"
+                  }
+                ],
+                "evidence_vi": "Vì phần lớn người trưởng thành dành hơn một phần ba cuộc đời cho công việc, việc theo đuổi một lĩnh vực khơi gợi hứng thú tự nhiên giúp giảm đáng kể nguy cơ kiệt sức nghề nghiệp. Khi nhiệm vụ hằng ngày phù hợp với năng lực cốt lõi, cá nhân dễ dàng đạt được trạng thái tập trung sâu và không ngừng nâng cao trình độ chuyên môn. Ngược lại, chọn một công việc lương cao nhưng thiếu hứng thú thường dẫn đến sự chán nản và giảm hiệu suất theo thời gian. Bởi vậy, nhiều người sẵn sàng đánh đổi phần nào thu nhập ban đầu để theo đuổi nghề nghiệp mang lại niềm vui chân thực.",
+                "evidence_en": "Because most adults spend over a third of their waking lives working, pursuing a field that sparks genuine enthusiasm significantly lowers the likelihood of professional burnout. When daily responsibilities align with core aptitudes, individuals naturally sustain deep engagement and continually sharpen their expertise. Conversely, choosing a high-paying yet uninspiring occupation frequently results in chronic dissatisfaction and declining performance over time. For this reason, many people willingly trade some initial income for careers that deliver authentic personal fulfillment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "genuine enthusiasm",
+                      "vi": "sự hứng thú chân thành"
+                    },
+                    {
+                      "en": "professional burnout",
+                      "vi": "kiệt sức nghề nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "core aptitudes",
+                      "vi": "năng lực cốt lõi"
+                    },
+                    {
+                      "en": "sharpen expertise",
+                      "vi": "mài giũa chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "chronic dissatisfaction",
+                      "vi": "sự bất mãn kéo dài"
+                    },
+                    {
+                      "en": "declining performance",
+                      "vi": "hiệu suất suy giảm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "initial income",
+                      "vi": "thu nhập ban đầu"
+                    },
+                    {
+                      "en": "authentic fulfillment",
+                      "vi": "sự thỏa mãn chân thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal fulfillment",
+                    "vi": "sự thỏa mãn cá nhân"
+                  },
+                  {
+                    "en": "innate strengths",
+                    "vi": "thế mạnh bẩm sinh"
+                  },
+                  {
+                    "en": "genuine enthusiasm",
+                    "vi": "sự hứng thú chân thành"
+                  },
+                  {
+                    "en": "professional burnout",
+                    "vi": "kiệt sức nghề nghiệp"
+                  },
+                  {
+                    "en": "core aptitudes",
+                    "vi": "năng lực cốt lõi"
+                  },
+                  {
+                    "en": "sharpen expertise",
+                    "vi": "mài giũa chuyên môn"
+                  },
+                  {
+                    "en": "chronic dissatisfaction",
+                    "vi": "sự bất mãn kéo dài"
+                  },
+                  {
+                    "en": "declining performance",
+                    "vi": "hiệu suất suy giảm"
+                  },
+                  {
+                    "en": "initial income",
+                    "vi": "thu nhập ban đầu"
+                  },
+                  {
+                    "en": "authentic fulfillment",
+                    "vi": "sự thỏa mãn chân thực"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 03: TÌM KIẾM MỤC ĐÍCH SỐNG VÀ TÁC ĐỘNG XÃ HỘI (FINDING LIFE PURPOSE)",
+                "point_vi": "Khát vọng tìm thấy mục đích sống rõ ràng và tạo ra giá trị nhân văn cho cộng đồng ngày càng chi phối lựa chọn nghề nghiệp hiện đại.",
+                "point_en": "The aspiration to discover a clear life purpose and generate meaningful social impact increasingly guides modern career choices.",
+                "point_collocations": [
+                  {
+                    "en": "life purpose",
+                    "vi": "mục đích sống"
+                  },
+                  {
+                    "en": "meaningful social impact",
+                    "vi": "tác động xã hội ý nghĩa"
+                  }
+                ],
+                "evidence_vi": "Nhiều cá nhân, đặc biệt là thế hệ trẻ, không chỉ xem công việc là công cụ kiếm sống mà còn là phương tiện hiện thực hóa các giá trị đạo đức cá nhân. Những lĩnh vực như chăm sóc sức khỏe, giáo dục, nghiên cứu khoa học hay phát triển bền vững cho phép họ trực tiếp giải quyết các vấn đề cấp bách của xã hội. Ý thức rằng nỗ lực của mình cải thiện cuộc sống người khác nuôi dưỡng lòng tự trọng bền vững và khả năng vượt qua khó khăn. Nhờ đó, nghề nghiệp gắn với sứ mệnh sống thường mang lại cảm giác trọn vẹn sâu sắc hơn nhiều so với thành công vật chất đơn thuần.",
+                "evidence_en": "Many individuals, particularly younger generations, view work not merely as a means of livelihood but as a vehicle for expressing their core values. Fields such as healthcare, education, scientific research, and environmental sustainability enable them to tackle pressing societal challenges directly. Knowing that their daily efforts tangibly improve other people's lives fosters enduring self-worth and resilience during difficult periods. Consequently, purpose-driven careers often provide a far deeper sense of meaning than material success alone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "means of livelihood",
+                      "vi": "phương tiện kiếm sống"
+                    },
+                    {
+                      "en": "core values",
+                      "vi": "giá trị cốt lõi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "environmental sustainability",
+                      "vi": "phát triển bền vững môi trường"
+                    },
+                    {
+                      "en": "pressing societal challenges",
+                      "vi": "thách thức xã hội cấp bách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "enduring self-worth",
+                      "vi": "giá trị bản thân bền vững"
+                    },
+                    {
+                      "en": "resilience",
+                      "vi": "khả năng kiên cường vượt khó"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "purpose-driven careers",
+                      "vi": "nghề nghiệp gắn với mục đích sống"
+                    },
+                    {
+                      "en": "material success",
+                      "vi": "thành công vật chất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "life purpose",
+                    "vi": "mục đích sống"
+                  },
+                  {
+                    "en": "meaningful social impact",
+                    "vi": "tác động xã hội ý nghĩa"
+                  },
+                  {
+                    "en": "means of livelihood",
+                    "vi": "phương tiện kiếm sống"
+                  },
+                  {
+                    "en": "core values",
+                    "vi": "giá trị cốt lõi"
+                  },
+                  {
+                    "en": "environmental sustainability",
+                    "vi": "phát triển bền vững môi trường"
+                  },
+                  {
+                    "en": "pressing societal challenges",
+                    "vi": "thách thức xã hội cấp bách"
+                  },
+                  {
+                    "en": "enduring self-worth",
+                    "vi": "giá trị bản thân bền vững"
+                  },
+                  {
+                    "en": "resilience",
+                    "vi": "khả năng kiên cường vượt khó"
+                  },
+                  {
+                    "en": "purpose-driven careers",
+                    "vi": "nghề nghiệp gắn với mục đích sống"
+                  },
+                  {
+                    "en": "material success",
+                    "vi": "thành công vật chất"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 04: TRIỂN VỌNG THĂNG TIẾN VÀ CÂN BẰNG CÔNG VIỆC - CUỘC SỐNG (CAREER PROGRESSION AND BALANCE)",
+                "point_vi": "Lộ trình thăng tiến minh bạch, văn hóa doanh nghiệp lành mạnh và sự cân bằng cuộc sống là những tiêu chí thiết yếu khi chọn nghề.",
+                "point_en": "Transparent advancement prospects, supportive workplace culture, and sustainable work-life balance are vital considerations in career selection.",
+                "point_collocations": [
+                  {
+                    "en": "advancement prospects",
+                    "vi": "triển vọng thăng tiến"
+                  },
+                  {
+                    "en": "workplace culture",
+                    "vi": "văn hóa nơi làm việc"
+                  }
+                ],
+                "evidence_vi": "Người lao động hiện đại có xu hướng tránh xa những ngành nghề đòi hỏi làm thêm giờ khắc nghiệt kéo dài vì lo ngại ảnh hưởng đến sức khỏe thể chất và hạnh phúc gia đình. Thay vào đó, họ đánh giá cao các tổ chức đầu tư vào đào tạo chuyên môn, cố vấn nghề nghiệp và môi trường làm việc linh hoạt. Một lộ trình phát triển rõ ràng giúp cá nhân duy trì cảm giác tiến bộ và nâng cao vị thế cạnh tranh trên thị trường lao động. Về lâu dài, sự hài hòa giữa tham vọng sự nghiệp và chất lượng đời sống cá nhân tạo nên thành công thực sự bền vững.",
+                "evidence_en": "Modern workers increasingly avoid industries notorious for relentless overtime out of concern for their physical health and family relationships. Instead, they value organizations that invest in professional mentorship, continuous upskilling, and flexible working arrangements. A clear progression pathway preserves a sense of upward momentum while strengthening long-term employability across shifting industries. Ultimately, harmonizing career ambition with personal well-being lays the groundwork for genuinely sustainable success.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "relentless overtime",
+                      "vi": "làm thêm giờ triền miên"
+                    },
+                    {
+                      "en": "family relationships",
+                      "vi": "mối quan hệ gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "professional mentorship",
+                      "vi": "cố vấn chuyên môn"
+                    },
+                    {
+                      "en": "continuous upskilling",
+                      "vi": "nâng cao kỹ năng liên tục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "upward momentum",
+                      "vi": "đà phát triển đi lên"
+                    },
+                    {
+                      "en": "long-term employability",
+                      "vi": "khả năng tuyển dụng dài hạn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "career ambition",
+                      "vi": "tham vọng sự nghiệp"
+                    },
+                    {
+                      "en": "sustainable success",
+                      "vi": "thành công bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "advancement prospects",
+                    "vi": "triển vọng thăng tiến"
+                  },
+                  {
+                    "en": "workplace culture",
+                    "vi": "văn hóa nơi làm việc"
+                  },
+                  {
+                    "en": "relentless overtime",
+                    "vi": "làm thêm giờ triền miên"
+                  },
+                  {
+                    "en": "family relationships",
+                    "vi": "mối quan hệ gia đình"
+                  },
+                  {
+                    "en": "professional mentorship",
+                    "vi": "cố vấn chuyên môn"
+                  },
+                  {
+                    "en": "continuous upskilling",
+                    "vi": "nâng cao kỹ năng liên tục"
+                  },
+                  {
+                    "en": "upward momentum",
+                    "vi": "đà phát triển đi lên"
+                  },
+                  {
+                    "en": "long-term employability",
+                    "vi": "khả năng tuyển dụng dài hạn"
+                  },
+                  {
+                    "en": "career ambition",
+                    "vi": "tham vọng sự nghiệp"
+                  },
+                  {
+                    "en": "sustainable success",
+                    "vi": "thành công bền vững"
+                  }
+                ]
+              },
+              {
+                "title": "YẾU TỐ 05: ẢNH HƯỞNG GIA ĐÌNH VÀ XU HƯỚNG THỊ TRƯỜNG LAO ĐỘNG (FAMILY AND MARKET DYNAMICS)",
+                "point_vi": "Kỳ vọng từ gia đình, chuẩn mực xã hội và sự biến động của thị trường lao động tác động thực tế đến quyết định định hướng nghề nghiệp.",
+                "point_en": "Family expectations, social norms, and evolving labor market dynamics exert a powerful practical influence on career orientation.",
+                "point_collocations": [
+                  {
+                    "en": "family expectations",
+                    "vi": "kỳ vọng gia đình"
+                  },
+                  {
+                    "en": "labor market dynamics",
+                    "vi": "biến động thị trường lao động"
+                  }
+                ],
+                "evidence_vi": "Ở nhiều nền văn hóa, đặc biệt tại châu Á, sự tư vấn và uy tín nghề nghiệp trong mắt gia đình đóng vai trò lớn khi học sinh lựa chọn chuyên ngành đại học. Đồng thời, sự trỗi dậy của trí tuệ nhân tạo và tự động hóa buộc giới trẻ phải đánh giá tính bền vững tương lai của từng lĩnh vực trước khi đầu tư thời gian học tập. Việc phân tích cẩn trọng cung cầu nhân lực giúp sinh viên tránh các ngành đã bão hòa và nắm bắt những cơ hội mới nổi. Tuy vậy, kết hợp hài hòa giữa tính thực tế của thị trường và sở thích cá nhân vẫn là chìa khóa cho một quyết định sáng suốt.",
+                "evidence_en": "In many societies, particularly across Asia, parental guidance and social prestige strongly shape how young people select university majors. Simultaneously, the rapid rise of artificial intelligence and automation compels youth to assess the future resilience of each sector before investing years of study. Careful analysis of workforce supply and demand helps graduates avoid saturated fields and seize emerging opportunities. Nevertheless, striking a thoughtful balance between market pragmatism and personal inclination remains the hallmark of a wise career decision.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "parental guidance",
+                      "vi": "sự định hướng từ cha mẹ"
+                    },
+                    {
+                      "en": "social prestige",
+                      "vi": "uy tín xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "automation",
+                      "vi": "tự động hóa"
+                    },
+                    {
+                      "en": "future resilience",
+                      "vi": "sức chống chịu tương lai"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "saturated fields",
+                      "vi": "lĩnh vực đã bão hòa"
+                    },
+                    {
+                      "en": "emerging opportunities",
+                      "vi": "cơ hội mới nổi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "market pragmatism",
+                      "vi": "tính thực tế của thị trường"
+                    },
+                    {
+                      "en": "personal inclination",
+                      "vi": "khuynh hướng cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "family expectations",
+                    "vi": "kỳ vọng gia đình"
+                  },
+                  {
+                    "en": "labor market dynamics",
+                    "vi": "biến động thị trường lao động"
+                  },
+                  {
+                    "en": "parental guidance",
+                    "vi": "sự định hướng từ cha mẹ"
+                  },
+                  {
+                    "en": "social prestige",
+                    "vi": "uy tín xã hội"
+                  },
+                  {
+                    "en": "automation",
+                    "vi": "tự động hóa"
+                  },
+                  {
+                    "en": "future resilience",
+                    "vi": "sức chống chịu tương lai"
+                  },
+                  {
+                    "en": "saturated fields",
+                    "vi": "lĩnh vực đã bão hòa"
+                  },
+                  {
+                    "en": "emerging opportunities",
+                    "vi": "cơ hội mới nổi"
+                  },
+                  {
+                    "en": "market pragmatism",
+                    "vi": "tính thực tế của thị trường"
+                  },
+                  {
+                    "en": "personal inclination",
+                    "vi": "khuynh hướng cá nhân"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "financial stability",
+              "vi": "sự ổn định tài chính"
+            },
+            {
+              "en": "steady income",
+              "vi": "thu nhập ổn định"
+            },
+            {
+              "en": "pay monthly bills",
+              "vi": "chi trả hóa đơn hằng tháng"
+            },
+            {
+              "en": "save for the future",
+              "vi": "tiết kiệm cho tương lai"
+            },
+            {
+              "en": "support one's family",
+              "vi": "hỗ trợ gia đình"
+            },
+            {
+              "en": "reliable earnings",
+              "vi": "mức thu nhập đáng tin cậy"
+            },
+            {
+              "en": "living expenses",
+              "vi": "chi phí sinh hoạt"
+            },
+            {
+              "en": "well-paid job",
+              "vi": "công việc lương cao"
+            },
+            {
+              "en": "standard of living",
+              "vi": "mức sống"
+            },
+            {
+              "en": "financially rewarding career",
+              "vi": "sự nghiệp có đãi ngộ tốt"
+            },
+            {
+              "en": "economic peace of mind",
+              "vi": "sự an tâm về kinh tế"
+            },
+            {
+              "en": "earning potential",
+              "vi": "tiềm năng thu nhập"
+            },
+            {
+              "en": "personal financial independence",
+              "vi": "độc lập tài chính cá nhân"
+            },
+            {
+              "en": "competitive remuneration",
+              "vi": "mức thù lao cạnh tranh"
+            },
+            {
+              "en": "long-term financial security",
+              "vi": "an toàn tài chính dài hạn"
+            },
+            {
+              "en": "support financial dependents",
+              "vi": "chăm lo cho người phụ thuộc"
+            },
+            {
+              "en": "personal fulfillment",
+              "vi": "sự thỏa mãn cá nhân"
+            },
+            {
+              "en": "match personal interests",
+              "vi": "phù hợp sở thích cá nhân"
+            },
+            {
+              "en": "stay motivated",
+              "vi": "duy trì động lực"
+            },
+            {
+              "en": "reduce job stress",
+              "vi": "giảm căng thẳng công việc"
+            },
+            {
+              "en": "enjoy daily work",
+              "vi": "yêu thích công việc hằng ngày"
+            },
+            {
+              "en": "personal strengths",
+              "vi": "thế mạnh cá nhân"
+            },
+            {
+              "en": "feel satisfied",
+              "vi": "cảm thấy hài lòng"
+            },
+            {
+              "en": "stay committed",
+              "vi": "gắn bó lâu dài"
+            },
+            {
+              "en": "align with core aptitudes",
+              "vi": "tương thích với năng lực cốt lõi"
+            },
+            {
+              "en": "spark genuine enthusiasm",
+              "vi": "khơi gợi sự hứng thú chân thành"
+            },
+            {
+              "en": "prevent professional burnout",
+              "vi": "ngăn ngừa kiệt sức nghề nghiệp"
+            },
+            {
+              "en": "sustain deep engagement",
+              "vi": "duy trì sự gắn kết sâu sắc"
+            },
+            {
+              "en": "sharpen professional expertise",
+              "vi": "mài giũa trình độ chuyên môn"
+            },
+            {
+              "en": "chronic dissatisfaction",
+              "vi": "sự bất mãn kéo dài"
+            },
+            {
+              "en": "occupational happiness",
+              "vi": "hạnh phúc trong nghề nghiệp"
+            },
+            {
+              "en": "authentic personal fulfillment",
+              "vi": "sự thỏa mãn cá nhân đích thực"
+            },
+            {
+              "en": "find one's life purpose",
+              "vi": "tìm thấy mục đích sống"
+            },
+            {
+              "en": "contribute to society",
+              "vi": "đóng góp cho xã hội"
+            },
+            {
+              "en": "meaningful work",
+              "vi": "công việc có ý nghĩa"
+            },
+            {
+              "en": "help other people",
+              "vi": "giúp đỡ người khác"
+            },
+            {
+              "en": "sense of pride",
+              "vi": "cảm giác tự hào"
+            },
+            {
+              "en": "make a positive difference",
+              "vi": "tạo ra sự khác biệt tích cực"
+            },
+            {
+              "en": "serve the community",
+              "vi": "phục vụ cộng đồng"
+            },
+            {
+              "en": "personal values",
+              "vi": "giá trị cá nhân"
+            },
+            {
+              "en": "purpose-driven career",
+              "vi": "sự nghiệp gắn với mục đích sống"
+            },
+            {
+              "en": "generate meaningful social impact",
+              "vi": "tạo ra tác động xã hội ý nghĩa"
+            },
+            {
+              "en": "means of livelihood",
+              "vi": "phương tiện kiếm sống"
+            },
+            {
+              "en": "tackle pressing societal challenges",
+              "vi": "giải quyết các thách thức xã hội cấp bách"
+            },
+            {
+              "en": "foster enduring self-worth",
+              "vi": "nuôi dưỡng giá trị bản thân bền vững"
+            },
+            {
+              "en": "beyond material success",
+              "vi": "vượt lên trên thành công vật chất"
+            },
+            {
+              "en": "express core ethical values",
+              "vi": "thể hiện các giá trị đạo đức cốt lõi"
+            },
+            {
+              "en": "a lifelong vocation",
+              "vi": "một thiên chức suốt đời"
+            },
+            {
+              "en": "positive work environment",
+              "vi": "môi trường làm việc tích cực"
+            },
+            {
+              "en": "healthy work-life balance",
+              "vi": "cân bằng công việc - cuộc sống lành mạnh"
+            },
+            {
+              "en": "growth opportunities",
+              "vi": "cơ hội phát triển"
+            },
+            {
+              "en": "learn new skills",
+              "vi": "học kỹ năng mới"
+            },
+            {
+              "en": "family advice",
+              "vi": "lời khuyên gia đình"
+            },
+            {
+              "en": "job market demand",
+              "vi": "nhu cầu thị trường lao động"
+            },
+            {
+              "en": "high-demand fields",
+              "vi": "lĩnh vực nhu cầu nhân lực cao"
+            },
+            {
+              "en": "lower unemployment risk",
+              "vi": "giảm nguy cơ thất nghiệp"
+            },
+            {
+              "en": "transparent advancement prospects",
+              "vi": "triển vọng thăng tiến minh bạch"
+            },
+            {
+              "en": "supportive workplace culture",
+              "vi": "văn hóa nơi làm việc hỗ trợ"
+            },
+            {
+              "en": "continuous upskilling",
+              "vi": "nâng cao kỹ năng liên tục"
+            },
+            {
+              "en": "long-term employability",
+              "vi": "khả năng tuyển dụng dài hạn"
+            },
+            {
+              "en": "evolving labor market dynamics",
+              "vi": "biến động thị trường lao động"
+            },
+            {
+              "en": "avoid saturated sectors",
+              "vi": "tránh các ngành đã bão hòa"
+            },
+            {
+              "en": "parental guidance and prestige",
+              "vi": "định hướng cha mẹ và uy tín xã hội"
+            },
+            {
+              "en": "strike a pragmatic balance",
+              "vi": "cân bằng hài hòa mang tính thực tế"
+            }
+          ],
+          "sample_b1": "Choosing a career path is one of the most important decisions in a person's life because it affects both daily happiness and future security. There are several key factors that influence how people select their professions, especially financial stability, personal fulfillment, and life purpose.\n\nFirst, <strong>financial stability</strong> is a major priority for most job seekers. A job with a <strong>steady income</strong> helps people pay for housing, food, and <strong>monthly bills</strong> without constant worry. It also allows workers to <strong>save money for the future</strong> and support their families when needed. Therefore, many graduates carefully check salary levels and <strong>job market demand</strong> before choosing a career.\n\nSecond, <strong>personal fulfillment</strong> plays an equally important role in career decisions. When people choose work that matches their <strong>interests and strengths</strong>, they usually feel excited to go to work every day. This helps them <strong>stay motivated</strong> in the long run and lowers the risk of stress or burnout. In addition, a <strong>positive work environment</strong> and healthy <strong>work-life balance</strong> make it easier for employees to stay committed and grow.\n\nFinally, many individuals are guided by the desire to find their own <strong>life purpose</strong>. Professions such as teaching, healthcare, or environmental work allow them to <strong>contribute to society</strong> and help others directly. This creates a <strong>deep sense of pride</strong> that money alone cannot replace.\n\nIn conclusion, career choices are shaped by financial security, personal enjoyment, and meaningful social contribution. By carefully balancing these factors, people can build a career that is both stable and truly rewarding.",
+          "translation_b1": "Lựa chọn con đường sự nghiệp là một trong những quyết định quan trọng nhất trong cuộc đời mỗi người vì nó ảnh hưởng đến cả hạnh phúc hằng ngày lẫn sự an toàn tương lai. Có nhiều yếu tố then chốt chi phối cách con người chọn nghề, đặc biệt là sự ổn định tài chính, sự thỏa mãn cá nhân và mục đích sống.\n\nThứ nhất, <strong>ổn định tài chính</strong> là ưu tiên hàng đầu của phần lớn người tìm việc. Một công việc có <strong>thu nhập ổn định</strong> giúp mọi người chi trả nhà ở, thực phẩm và các <strong>hóa đơn hằng tháng</strong> mà không quá lo âu. Nó cũng cho phép người lao động <strong>tiết kiệm tiền cho tương lai</strong> và hỗ trợ gia đình khi cần. Vì vậy, nhiều sinh viên tốt nghiệp cân nhắc kỹ mức lương và <strong>nhu cầu thị trường lao động</strong> trước khi chọn nghề.\n\nThứ hai, <strong>sự thỏa mãn cá nhân</strong> đóng vai trò quan trọng không kém trong quyết định nghề nghiệp. Khi chọn công việc phù hợp với <strong>sở thích và thế mạnh</strong>, mọi người thường hào hứng đi làm mỗi ngày. Điều này giúp họ <strong>duy trì động lực</strong> lâu dài và giảm nguy cơ căng thẳng hay kiệt sức. Ngoài ra, một <strong>môi trường làm việc tích cực</strong> và <strong>cân bằng công việc - cuộc sống</strong> lành mạnh giúp nhân viên dễ gắn bó và phát triển hơn.\n\nCuối cùng, nhiều cá nhân được dẫn dắt bởi mong muốn tìm thấy <strong>mục đích sống</strong> của riêng mình. Những ngành như giảng dạy, y tế hay môi trường cho phép họ <strong>đóng góp cho xã hội</strong> và giúp đỡ người khác trực tiếp. Điều này tạo nên <strong>niềm tự hào sâu sắc</strong> mà riêng tiền bạc không thể thay thế.\n\nTóm lại, lựa chọn nghề nghiệp được định hình bởi an toàn tài chính, niềm vui cá nhân và đóng góp ý nghĩa cho xã hội. Bằng cách cân bằng khéo léo các yếu tố này, mọi người có thể xây dựng một sự nghiệp vừa ổn định vừa thực sự viên mãn.",
+          "sample_b2": "Selecting a career path is arguably one of the most consequential decisions in adult life, as it shapes not only economic security but also psychological well-being and personal identity. While individual priorities vary, career choices are predominantly governed by financial stability, personal fulfillment, and the pursuit of a meaningful life purpose.\n\nFirst and foremost, <strong>financial security</strong> remains an indispensable foundation for most career decisions. Amid escalating housing, healthcare, and education expenses, a <strong>competitive income</strong> enables individuals to cover daily necessities, build <strong>long-term savings</strong>, and support dependents. Moreover, <strong>economic peace of mind</strong> alleviates chronic stress and empowers workers to invest in <strong>continuous upskilling</strong>. Alongside salary, practical considerations such as <strong>evolving labor market dynamics</strong> and <strong>long-term employability</strong> often guide graduates away from saturated sectors toward resilient, high-demand industries.\n\nEqually crucial is <strong>personal fulfillment</strong>, which stems from aligning daily work with one's passions and <strong>core aptitudes</strong>. Since adults devote over a third of their waking lives to their occupations, pursuing a field that sparks <strong>genuine enthusiasm</strong> significantly lowers the risk of <strong>professional burnout</strong>. When employees enjoy their responsibilities within a <strong>supportive workplace culture</strong> that respects work-life balance, they sustain deep engagement and continually <strong>sharpen their expertise</strong>.\n\nBeyond income and enjoyment, a growing number of people prioritize discovering a clear <strong>life purpose</strong> through their work. Rather than treating employment merely as a <strong>means of livelihood</strong>, they seek <strong>purpose-driven careers</strong> in areas such as medicine, education, or sustainability to <strong>tackle pressing societal challenges</strong>. Knowing that one's efforts tangibly improve others' lives fosters <strong>enduring self-worth</strong> that transcends material success.\n\nIn conclusion, career selection reflects a delicate interplay between financial pragmatism, personal passion, and social purpose. Individuals who thoughtfully harmonize these elements are best positioned to achieve lasting professional success and genuine life satisfaction.",
+          "translation_b2": "Lựa chọn con đường sự nghiệp có thể xem là một trong những quyết định hệ trọng nhất trong đời sống trưởng thành, vì nó định hình không chỉ an toàn kinh tế mà cả sức khỏe tinh thần và bản sắc cá nhân. Dù ưu tiên của mỗi người khác nhau, lựa chọn nghề nghiệp chủ yếu được chi phối bởi sự ổn định tài chính, sự thỏa mãn cá nhân và hành trình tìm kiếm mục đích sống ý nghĩa.\n\nTrước hết, <strong>sự an toàn tài chính</strong> vẫn là nền tảng không thể thiếu cho phần lớn quyết định nghề nghiệp. Giữa chi phí nhà ở, y tế và giáo dục leo thang, một <strong>mức thu nhập cạnh tranh</strong> cho phép cá nhân trang trải nhu cầu thiết yếu, tích lũy <strong>tiết kiệm dài hạn</strong> và chăm lo người phụ thuộc. Hơn nữa, <strong>sự an tâm về kinh tế</strong> giúp xoa dịu căng thẳng mạn tính và trao quyền để người lao động đầu tư vào <strong>nâng cao kỹ năng liên tục</strong>. Song hành cùng lương thưởng, các yếu tố thực tế như <strong>biến động thị trường lao động</strong> và <strong>khả năng tuyển dụng dài hạn</strong> thường hướng sinh viên rời khỏi ngành bão hòa để chọn lĩnh vực bền vững.\n\nQuan trọng không kém là <strong>sự thỏa mãn cá nhân</strong>, bắt nguồn từ việc gắn công việc hằng ngày với đam mê và <strong>năng lực cốt lõi</strong>. Vì người trưởng thành dành hơn một phần ba thời gian thức cho nghề nghiệp, theo đuổi lĩnh vực khơi gợi <strong>sự hứng thú chân thành</strong> giúp giảm mạnh nguy cơ <strong>kiệt sức nghề nghiệp</strong>. Khi nhân viên yêu thích công việc trong một <strong>văn hóa nơi làm việc hỗ trợ</strong> và tôn trọng cân bằng cuộc sống, họ duy trì sự gắn kết sâu sắc và không ngừng <strong>mài giũa chuyên môn</strong>.\n\nVượt lên thu nhập và niềm vui, ngày càng nhiều người đặt trọng tâm vào việc khám phá <strong>mục đích sống</strong> rõ ràng qua công việc. Thay vì coi việc làm chỉ là <strong>phương tiện kiếm sống</strong>, họ tìm đến các <strong>sự nghiệp gắn với mục đích sống</strong> trong y học, giáo dục hay phát triển bền vững để <strong>giải quyết các thách thức xã hội cấp bách</strong>. Nhận thức rằng nỗ lực của mình cải thiện thiết thực đời sống người khác nuôi dưỡng <strong>giá trị bản thân bền vững</strong> vượt xa thành công vật chất.\n\nTóm lại, lựa chọn nghề nghiệp phản ánh sự giao thoa tinh tế giữa tính thực tế tài chính, đam mê cá nhân và sứ mệnh xã hội. Những cá nhân dung hòa sáng suốt các yếu tố này sẽ có vị thế tốt nhất để đạt thành công nghề nghiệp lâu dài và sự viên mãn đích thực.",
+          "vocab_step": {
+            "theme": "VSTEP Writing Task 2",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "career",
+                "ipa": "/kəˈrɪər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự nghiệp, nghề nghiệp lâu dài",
+                "family": "",
+                "example_en": "Choosing a career is a life-changing decision.",
+                "example_vi": ""
+              },
+              {
+                "word": "stability",
+                "ipa": "/stəˈbɪləti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự ổn định",
+                "family": "",
+                "example_en": "Financial stability gives families peace of mind.",
+                "example_vi": ""
+              },
+              {
+                "word": "salary",
+                "ipa": "/ˈsæləri/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tiền lương",
+                "family": "",
+                "example_en": "A fair salary motivates employees to work harder.",
+                "example_vi": ""
+              },
+              {
+                "word": "income",
+                "ipa": "/ˈɪnkʌm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thu nhập",
+                "family": "",
+                "example_en": "A steady income covers essential monthly bills.",
+                "example_vi": ""
+              },
+              {
+                "word": "passion",
+                "ipa": "/ˈpæʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "niềm đam mê",
+                "family": "",
+                "example_en": "Following your passion makes daily work enjoyable.",
+                "example_vi": ""
+              },
+              {
+                "word": "purpose",
+                "ipa": "/ˈpɜːpəs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "mục đích, ý nghĩa sống",
+                "family": "",
+                "example_en": "Many people seek a clear life purpose through work.",
+                "example_vi": ""
+              },
+              {
+                "word": "satisfaction",
+                "ipa": "/ˌsætɪsˈfækʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự hài lòng",
+                "family": "",
+                "example_en": "Job satisfaction affects overall mental health.",
+                "example_vi": ""
+              },
+              {
+                "word": "profession",
+                "ipa": "/prəˈfeʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nghề nghiệp chuyên môn",
+                "family": "",
+                "example_en": "Teaching is a respected and meaningful profession.",
+                "example_vi": ""
+              },
+              {
+                "word": "strength",
+                "ipa": "/streŋθ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "điểm mạnh, thế mạnh",
+                "family": "",
+                "example_en": "Students should identify their strengths before choosing a major.",
+                "example_vi": ""
+              },
+              {
+                "word": "motivation",
+                "ipa": "/ˌməʊtɪˈveɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "động lực",
+                "family": "",
+                "example_en": "Genuine interest keeps work motivation high.",
+                "example_vi": ""
+              },
+              {
+                "word": "graduate",
+                "ipa": "/ˈɡrædʒuət/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sinh viên tốt nghiệp",
+                "family": "",
+                "example_en": "Many graduates weigh salary against job enjoyment.",
+                "example_vi": ""
+              },
+              {
+                "word": "priority",
+                "ipa": "/praɪˈɒrəti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự ưu tiên",
+                "family": "",
+                "example_en": "Work-life balance has become a top priority for youth.",
+                "example_vi": ""
+              },
+              {
+                "word": "opportunity",
+                "ipa": "/ˌɒpəˈtjuːnəti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cơ hội",
+                "family": "",
+                "example_en": "Growth opportunities attract ambitious workers.",
+                "example_vi": ""
+              },
+              {
+                "word": "contribute",
+                "ipa": "/kənˈtrɪbjuːt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "đóng góp",
+                "family": "",
+                "example_en": "Healthcare workers contribute directly to community welfare.",
+                "example_vi": ""
+              },
+              {
+                "word": "demand",
+                "ipa": "/dɪˈmɑːnd/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhu cầu (thị trường)",
+                "family": "",
+                "example_en": "Job market demand shifts rapidly with technology.",
+                "example_vi": ""
+              },
+              {
+                "word": "unemployment",
+                "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tình trạng thất nghiệp",
+                "family": "",
+                "example_en": "Practical planning lowers the risk of unemployment.",
+                "example_vi": ""
+              },
+              {
+                "word": "balance",
+                "ipa": "/ˈbæləns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự cân bằng",
+                "family": "",
+                "example_en": "A healthy balance between work and rest prevents stress.",
+                "example_vi": ""
+              },
+              {
+                "word": "decision",
+                "ipa": "/dɪˈsɪʒn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "quyết định",
+                "family": "",
+                "example_en": "Career decisions shape both income and happiness.",
+                "example_vi": ""
+              },
+              {
+                "word": "fulfillment",
+                "ipa": "/fʊlˈfɪlmənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự thỏa mãn sâu sắc, trọn vẹn",
+                "family": "",
+                "example_en": "Personal fulfillment sustains workers through tough periods.",
+                "example_vi": ""
+              },
+              {
+                "word": "livelihood",
+                "ipa": "/ˈlaɪvlihʊd/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "kế sinh nhai",
+                "family": "",
+                "example_en": "Work is more than just a means of livelihood.",
+                "example_vi": ""
+              },
+              {
+                "word": "aptitude",
+                "ipa": "/ˈæptɪtjuːd/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "năng khiếu, năng lực bẩm sinh",
+                "family": "",
+                "example_en": "Aligning a career with core aptitudes boosts performance.",
+                "example_vi": ""
+              },
+              {
+                "word": "burnout",
+                "ipa": "/ˈbɜːnaʊt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự kiệt sức nghề nghiệp",
+                "family": "",
+                "example_en": "Uninspiring overtime work frequently leads to burnout.",
+                "example_vi": ""
+              },
+              {
+                "word": "aspiration",
+                "ipa": "/ˌæspəˈreɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khát vọng, hoài bão",
+                "family": "",
+                "example_en": "Personal aspirations evolve as people gain experience.",
+                "example_vi": ""
+              },
+              {
+                "word": "employability",
+                "ipa": "/ɪmˌplɔɪəˈbɪləti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khả năng được tuyển dụng",
+                "family": "",
+                "example_en": "Continuous upskilling strengthens long-term employability.",
+                "example_vi": ""
+              },
+              {
+                "word": "prestige",
+                "ipa": "/preˈstiːʒ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "uy tín, danh tiếng",
+                "family": "",
+                "example_en": "Some parents prioritize social prestige over passion.",
+                "example_vi": ""
+              },
+              {
+                "word": "remuneration",
+                "ipa": "/rɪˌmjuːnəˈreɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thù lao, đãi ngộ",
+                "family": "",
+                "example_en": "Competitive remuneration helps retain skilled talent.",
+                "example_vi": ""
+              },
+              {
+                "word": "vocation",
+                "ipa": "/vəʊˈkeɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "thiên chức, nghề nghiệp tâm huyết",
+                "family": "",
+                "example_en": "Many teachers regard education as a lifelong vocation.",
+                "example_vi": ""
+              },
+              {
+                "word": "resilience",
+                "ipa": "/rɪˈzɪliəns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự kiên cường, sức bền",
+                "family": "",
+                "example_en": "Purpose-driven work builds emotional resilience.",
+                "example_vi": ""
+              },
+              {
+                "word": "saturated",
+                "ipa": "/ˈsætʃəreɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bão hòa",
+                "family": "",
+                "example_en": "Graduates try to avoid saturated job sectors.",
+                "example_vi": ""
+              },
+              {
+                "word": "pragmatism",
+                "ipa": "/ˈpræɡmətɪzəm/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tính thực tế",
+                "family": "",
+                "example_en": "Wise career planning combines passion with pragmatism.",
+                "example_vi": ""
+              },
+              {
+                "word": "mentorship",
+                "ipa": "/ˈmentɔːʃɪp/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cố vấn nghề nghiệp",
+                "family": "",
+                "example_en": "Strong mentorship accelerates early career growth.",
+                "example_vi": ""
+              },
+              {
+                "word": "inclination",
+                "ipa": "/ˌɪnklɪˈneɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khuynh hướng, thiên hướng tự nhiên",
+                "family": "",
+                "example_en": "Ignoring personal inclination often causes regret.",
+                "example_vi": ""
+              },
+              {
+                "word": "dependent",
+                "ipa": "/dɪˈpendənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "người phụ thuộc (trong gia đình)",
+                "family": "",
+                "example_en": "Workers with dependents value reliable earnings.",
+                "example_vi": ""
+              },
+              {
+                "word": "upskilling",
+                "ipa": "/ˈʌpskɪlɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "việc nâng cao kỹ năng",
+                "family": "",
+                "example_en": "Rapid automation makes lifelong upskilling essential.",
+                "example_vi": ""
+              },
+              {
+                "word": "autonomy",
+                "ipa": "/ɔːˈtɒnəmi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự tự chủ",
+                "family": "",
+                "example_en": "Creative professionals often value workplace autonomy.",
+                "example_vi": ""
+              },
+              {
+                "word": "indispensable",
+                "ipa": "/ˌɪndɪˈspensəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "không thể thiếu",
+                "family": "",
+                "example_en": "Financial security is an indispensable foundation for independence.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "financial stability",
+                "level": "B1",
+                "vi": "sự ổn định tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "steady income",
+                "level": "B1",
+                "vi": "thu nhập ổn định",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "pay monthly bills",
+                "level": "B1",
+                "vi": "chi trả hóa đơn hằng tháng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "save for the future",
+                "level": "B1",
+                "vi": "tiết kiệm cho tương lai",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support one's family",
+                "level": "B1",
+                "vi": "hỗ trợ gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reliable earnings",
+                "level": "B1",
+                "vi": "mức thu nhập đáng tin cậy",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "living expenses",
+                "level": "B1",
+                "vi": "chi phí sinh hoạt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "well-paid job",
+                "level": "B1",
+                "vi": "công việc lương cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "standard of living",
+                "level": "B2",
+                "vi": "mức sống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "financially rewarding career",
+                "level": "B2",
+                "vi": "sự nghiệp có đãi ngộ tốt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "economic peace of mind",
+                "level": "B2",
+                "vi": "sự an tâm về kinh tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "earning potential",
+                "level": "B2",
+                "vi": "tiềm năng thu nhập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personal financial independence",
+                "level": "B2",
+                "vi": "độc lập tài chính cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "competitive remuneration",
+                "level": "B2",
+                "vi": "mức thù lao cạnh tranh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "long-term financial security",
+                "level": "B2",
+                "vi": "an toàn tài chính dài hạn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support financial dependents",
+                "level": "B2",
+                "vi": "chăm lo cho người phụ thuộc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personal fulfillment",
+                "level": "B1",
+                "vi": "sự thỏa mãn cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "match personal interests",
+                "level": "B1",
+                "vi": "phù hợp sở thích cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stay motivated",
+                "level": "B1",
+                "vi": "duy trì động lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce job stress",
+                "level": "B1",
+                "vi": "giảm căng thẳng công việc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "enjoy daily work",
+                "level": "B1",
+                "vi": "yêu thích công việc hằng ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personal strengths",
+                "level": "B1",
+                "vi": "thế mạnh cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "feel satisfied",
+                "level": "B1",
+                "vi": "cảm thấy hài lòng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stay committed",
+                "level": "B1",
+                "vi": "gắn bó lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "align with core aptitudes",
+                "level": "B2",
+                "vi": "tương thích với năng lực cốt lõi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "spark genuine enthusiasm",
+                "level": "B2",
+                "vi": "khơi gợi sự hứng thú chân thành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prevent professional burnout",
+                "level": "B2",
+                "vi": "ngăn ngừa kiệt sức nghề nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sustain deep engagement",
+                "level": "B2",
+                "vi": "duy trì sự gắn kết sâu sắc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sharpen professional expertise",
+                "level": "B2",
+                "vi": "mài giũa trình độ chuyên môn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "chronic dissatisfaction",
+                "level": "B2",
+                "vi": "sự bất mãn kéo dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "occupational happiness",
+                "level": "B2",
+                "vi": "hạnh phúc trong nghề nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "authentic personal fulfillment",
+                "level": "B2",
+                "vi": "sự thỏa mãn cá nhân đích thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "find one's life purpose",
+                "level": "B1",
+                "vi": "tìm thấy mục đích sống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "contribute to society",
+                "level": "B1",
+                "vi": "đóng góp cho xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "meaningful work",
+                "level": "B1",
+                "vi": "công việc có ý nghĩa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "help other people",
+                "level": "B1",
+                "vi": "giúp đỡ người khác",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sense of pride",
+                "level": "B1",
+                "vi": "cảm giác tự hào",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "make a positive difference",
+                "level": "B1",
+                "vi": "tạo ra sự khác biệt tích cực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "serve the community",
+                "level": "B1",
+                "vi": "phục vụ cộng đồng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personal values",
+                "level": "B1",
+                "vi": "giá trị cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "purpose-driven career",
+                "level": "B2",
+                "vi": "sự nghiệp gắn với mục đích sống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "generate meaningful social impact",
+                "level": "B2",
+                "vi": "tạo ra tác động xã hội ý nghĩa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "means of livelihood",
+                "level": "B2",
+                "vi": "phương tiện kiếm sống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tackle pressing societal challenges",
+                "level": "B2",
+                "vi": "giải quyết các thách thức xã hội cấp bách",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "foster enduring self-worth",
+                "level": "B2",
+                "vi": "nuôi dưỡng giá trị bản thân bền vững",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "beyond material success",
+                "level": "B2",
+                "vi": "vượt lên trên thành công vật chất",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "express core ethical values",
+                "level": "B2",
+                "vi": "thể hiện các giá trị đạo đức cốt lõi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "a lifelong vocation",
+                "level": "B2",
+                "vi": "một thiên chức suốt đời",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "positive work environment",
+                "level": "B1",
+                "vi": "môi trường làm việc tích cực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "healthy work-life balance",
+                "level": "B1",
+                "vi": "cân bằng công việc - cuộc sống lành mạnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "growth opportunities",
+                "level": "B1",
+                "vi": "cơ hội phát triển",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "learn new skills",
+                "level": "B1",
+                "vi": "học kỹ năng mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "family advice",
+                "level": "B1",
+                "vi": "lời khuyên gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "job market demand",
+                "level": "B1",
+                "vi": "nhu cầu thị trường lao động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "high-demand fields",
+                "level": "B1",
+                "vi": "lĩnh vực nhu cầu nhân lực cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lower unemployment risk",
+                "level": "B1",
+                "vi": "giảm nguy cơ thất nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "transparent advancement prospects",
+                "level": "B2",
+                "vi": "triển vọng thăng tiến minh bạch",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "supportive workplace culture",
+                "level": "B2",
+                "vi": "văn hóa nơi làm việc hỗ trợ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "continuous upskilling",
+                "level": "B2",
+                "vi": "nâng cao kỹ năng liên tục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "long-term employability",
+                "level": "B2",
+                "vi": "khả năng tuyển dụng dài hạn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "evolving labor market dynamics",
+                "level": "B2",
+                "vi": "biến động thị trường lao động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid saturated sectors",
+                "level": "B2",
+                "vi": "tránh các ngành đã bão hòa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "parental guidance and prestige",
+                "level": "B2",
+                "vi": "định hướng cha mẹ và uy tín xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strike a pragmatic balance",
+                "level": "B2",
+                "vi": "cân bằng hài hòa mang tính thực tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Tài chính & An toàn kinh tế (Financial Stability)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "financial stability",
+                    "phrase": "financial stability",
+                    "vi": "sự ổn định tài chính",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "steady income",
+                    "phrase": "steady income",
+                    "vi": "thu nhập ổn định",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "pay monthly bills",
+                    "phrase": "pay monthly bills",
+                    "vi": "chi trả hóa đơn hằng tháng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "save for the future",
+                    "phrase": "save for the future",
+                    "vi": "tiết kiệm cho tương lai",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support one's family",
+                    "phrase": "support one's family",
+                    "vi": "hỗ trợ gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reliable earnings",
+                    "phrase": "reliable earnings",
+                    "vi": "mức thu nhập đáng tin cậy",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "living expenses",
+                    "phrase": "living expenses",
+                    "vi": "chi phí sinh hoạt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "well-paid job",
+                    "phrase": "well-paid job",
+                    "vi": "công việc lương cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "standard of living",
+                    "phrase": "standard of living",
+                    "vi": "mức sống",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "financially rewarding career",
+                    "phrase": "financially rewarding career",
+                    "vi": "sự nghiệp có đãi ngộ tốt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "economic peace of mind",
+                    "phrase": "economic peace of mind",
+                    "vi": "sự an tâm về kinh tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "earning potential",
+                    "phrase": "earning potential",
+                    "vi": "tiềm năng thu nhập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personal financial independence",
+                    "phrase": "personal financial independence",
+                    "vi": "độc lập tài chính cá nhân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "competitive remuneration",
+                    "phrase": "competitive remuneration",
+                    "vi": "mức thù lao cạnh tranh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "long-term financial security",
+                    "phrase": "long-term financial security",
+                    "vi": "an toàn tài chính dài hạn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support financial dependents",
+                    "phrase": "support financial dependents",
+                    "vi": "chăm lo cho người phụ thuộc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Đam mê & Sự thỏa mãn cá nhân (Fulfillment & Passion)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "personal fulfillment",
+                    "phrase": "personal fulfillment",
+                    "vi": "sự thỏa mãn cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "match personal interests",
+                    "phrase": "match personal interests",
+                    "vi": "phù hợp sở thích cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stay motivated",
+                    "phrase": "stay motivated",
+                    "vi": "duy trì động lực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce job stress",
+                    "phrase": "reduce job stress",
+                    "vi": "giảm căng thẳng công việc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "enjoy daily work",
+                    "phrase": "enjoy daily work",
+                    "vi": "yêu thích công việc hằng ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personal strengths",
+                    "phrase": "personal strengths",
+                    "vi": "thế mạnh cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "feel satisfied",
+                    "phrase": "feel satisfied",
+                    "vi": "cảm thấy hài lòng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stay committed",
+                    "phrase": "stay committed",
+                    "vi": "gắn bó lâu dài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "align with core aptitudes",
+                    "phrase": "align with core aptitudes",
+                    "vi": "tương thích với năng lực cốt lõi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "spark genuine enthusiasm",
+                    "phrase": "spark genuine enthusiasm",
+                    "vi": "khơi gợi sự hứng thú chân thành",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prevent professional burnout",
+                    "phrase": "prevent professional burnout",
+                    "vi": "ngăn ngừa kiệt sức nghề nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sustain deep engagement",
+                    "phrase": "sustain deep engagement",
+                    "vi": "duy trì sự gắn kết sâu sắc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sharpen professional expertise",
+                    "phrase": "sharpen professional expertise",
+                    "vi": "mài giũa trình độ chuyên môn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "chronic dissatisfaction",
+                    "phrase": "chronic dissatisfaction",
+                    "vi": "sự bất mãn kéo dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "occupational happiness",
+                    "phrase": "occupational happiness",
+                    "vi": "hạnh phúc trong nghề nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "authentic personal fulfillment",
+                    "phrase": "authentic personal fulfillment",
+                    "vi": "sự thỏa mãn cá nhân đích thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Mục đích sống & Giá trị xã hội (Life Purpose)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "find one's life purpose",
+                    "phrase": "find one's life purpose",
+                    "vi": "tìm thấy mục đích sống",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "contribute to society",
+                    "phrase": "contribute to society",
+                    "vi": "đóng góp cho xã hội",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "meaningful work",
+                    "phrase": "meaningful work",
+                    "vi": "công việc có ý nghĩa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "help other people",
+                    "phrase": "help other people",
+                    "vi": "giúp đỡ người khác",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sense of pride",
+                    "phrase": "sense of pride",
+                    "vi": "cảm giác tự hào",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "make a positive difference",
+                    "phrase": "make a positive difference",
+                    "vi": "tạo ra sự khác biệt tích cực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "serve the community",
+                    "phrase": "serve the community",
+                    "vi": "phục vụ cộng đồng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personal values",
+                    "phrase": "personal values",
+                    "vi": "giá trị cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "purpose-driven career",
+                    "phrase": "purpose-driven career",
+                    "vi": "sự nghiệp gắn với mục đích sống",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "generate meaningful social impact",
+                    "phrase": "generate meaningful social impact",
+                    "vi": "tạo ra tác động xã hội ý nghĩa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "means of livelihood",
+                    "phrase": "means of livelihood",
+                    "vi": "phương tiện kiếm sống",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tackle pressing societal challenges",
+                    "phrase": "tackle pressing societal challenges",
+                    "vi": "giải quyết các thách thức xã hội cấp bách",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "foster enduring self-worth",
+                    "phrase": "foster enduring self-worth",
+                    "vi": "nuôi dưỡng giá trị bản thân bền vững",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "beyond material success",
+                    "phrase": "beyond material success",
+                    "vi": "vượt lên trên thành công vật chất",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "express core ethical values",
+                    "phrase": "express core ethical values",
+                    "vi": "thể hiện các giá trị đạo đức cốt lõi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "a lifelong vocation",
+                    "phrase": "a lifelong vocation",
+                    "vi": "một thiên chức suốt đời",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Môi trường, Gia đình & Thị trường (Environment & Market)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "positive work environment",
+                    "phrase": "positive work environment",
+                    "vi": "môi trường làm việc tích cực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "healthy work-life balance",
+                    "phrase": "healthy work-life balance",
+                    "vi": "cân bằng công việc - cuộc sống lành mạnh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "growth opportunities",
+                    "phrase": "growth opportunities",
+                    "vi": "cơ hội phát triển",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "learn new skills",
+                    "phrase": "learn new skills",
+                    "vi": "học kỹ năng mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "family advice",
+                    "phrase": "family advice",
+                    "vi": "lời khuyên gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "job market demand",
+                    "phrase": "job market demand",
+                    "vi": "nhu cầu thị trường lao động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "high-demand fields",
+                    "phrase": "high-demand fields",
+                    "vi": "lĩnh vực nhu cầu nhân lực cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lower unemployment risk",
+                    "phrase": "lower unemployment risk",
+                    "vi": "giảm nguy cơ thất nghiệp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "transparent advancement prospects",
+                    "phrase": "transparent advancement prospects",
+                    "vi": "triển vọng thăng tiến minh bạch",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "supportive workplace culture",
+                    "phrase": "supportive workplace culture",
+                    "vi": "văn hóa nơi làm việc hỗ trợ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "continuous upskilling",
+                    "phrase": "continuous upskilling",
+                    "vi": "nâng cao kỹ năng liên tục",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "long-term employability",
+                    "phrase": "long-term employability",
+                    "vi": "khả năng tuyển dụng dài hạn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "evolving labor market dynamics",
+                    "phrase": "evolving labor market dynamics",
+                    "vi": "biến động thị trường lao động",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid saturated sectors",
+                    "phrase": "avoid saturated sectors",
+                    "vi": "tránh các ngành đã bão hòa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "parental guidance and prestige",
+                    "phrase": "parental guidance and prestige",
+                    "vi": "định hướng cha mẹ và uy tín xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strike a pragmatic balance",
+                    "phrase": "strike a pragmatic balance",
+                    "vi": "cân bằng hài hòa mang tính thực tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Giáo dục",
+                "title": "Chọn nghề theo đam mê, thu nhập hay nhu cầu thị trường?",
+                "summary": "Phân tích các yếu tố cốt lõi giúp học sinh, sinh viên cân bằng giữa ổn định tài chính, sở thích cá nhân và mục đích sống khi định hướng nghề nghiệp.",
+                "url": "https://vnexpress.net/giao-duc"
+              }
+            ],
+            "en": [
+              {
+                "source": "Wikipedia",
+                "title": "Career Development and Occupational Choice",
+                "summary": "Overview of economic, psychological, and social factors that shape how individuals evaluate and select career paths.",
+                "url": "https://en.wikipedia.org/wiki/Career"
+              }
+            ]
+          }
+        }
       },
       {
         "id": 39,
@@ -199804,6 +205384,8264 @@ const ESSAY_DATA = [
                 "title": "Counterurbanization (Urban-to-Rural Migration): Causes and Effects",
                 "summary": "Academic overview of counterurbanization, exploring economic, environmental, and remote-work push/pull factors alongside impacts on rural economies and housing.",
                 "url": "https://en.wikipedia.org/wiki/Counterurbanization"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 56,
+        "title_en": "Electronic waste (e-waste): Effects & Solutions",
+        "title_vi": "Rác thải điện tử (E-waste): Hậu quả & Giải pháp",
+        "tags": "[Effects & Solutions]",
+        "context": "In recent decades, the disposal of electronic waste from discarded televisions, computers, and smartphones has increased rapidly around the world. Because these electronic devices contain toxic substances such as plastic, lead, and mercury, improper disposal poses growing threats to both the environment and human health.",
+        "context_vi": "Trong những thập kỷ gần đây, lượng rác thải điện tử từ TV, máy tính và điện thoại thông minh bị vứt bỏ đã tăng nhanh trên toàn cầu. Vì các thiết bị điện tử này chứa nhiều chất độc hại như nhựa, chì và thủy ngân, việc thải bỏ không đúng cách đang tạo ra những mối đe dọa ngày càng lớn đối với môi trường và sức khỏe con người.",
+        "prompt": "Write an essay to an educated reader to discuss the harmful consequences of electronic waste (e-waste) and suggest effective measures to solve this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về các hậu quả nguy hại của rác thải điện tử (e-waste) và đề xuất những biện pháp hiệu quả để giải quyết vấn đề này. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "electronic waste (e-waste) / discarded electronic devices",
+            "vi": "rác thải điện tử / thiết bị điện tử bị vứt bỏ"
+          },
+          {
+            "en": "toxic substances such as plastic, lead, and mercury",
+            "vi": "các chất độc hại như nhựa, chì và thủy ngân"
+          },
+          {
+            "en": "harmful consequences / detrimental environmental and health impacts",
+            "vi": "hậu quả nguy hại / tác động xấu đến môi trường và sức khỏe"
+          },
+          {
+            "en": "effective measures to tackle e-waste",
+            "vi": "các biện pháp hiệu quả để giải quyết rác thải điện tử"
+          },
+          {
+            "en": "safe recycling and sustainable consumption",
+            "vi": "tái chế an toàn và tiêu dùng bền vững"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: Ô NHIỄM ĐẤT VÀ NGUỒN NƯỚC NGẦM DO CHẤT ĐỘC",
+                "point_vi": "Rác thải điện tử chứa nhựa, chì và thủy ngân làm ô nhiễm nghiêm trọng đất và nguồn nước ngầm.",
+                "point_en": "Electronic waste containing plastic, lead, and mercury seriously pollutes soil and groundwater.",
+                "point_collocations": [
+                  {
+                    "en": "electronic waste",
+                    "vi": "rác thải điện tử"
+                  },
+                  {
+                    "en": "soil and groundwater",
+                    "vi": "đất và nguồn nước ngầm"
+                  }
+                ],
+                "evidence_vi": "Khi TV, máy tính và điện thoại cũ bị vứt ra bãi rác, các hóa chất độc hại ngấm xuống lòng đất và lan vào sông hồ gần đó.",
+                "evidence_en": "When old TVs, computers, and smartphones are dumped in landfills, toxic chemicals leak into the earth and spread to nearby rivers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dumped in landfills",
+                      "vi": "bị vứt ra bãi rác"
+                    },
+                    {
+                      "en": "toxic chemicals",
+                      "vi": "hóa chất độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "electronic waste",
+                    "vi": "rác thải điện tử"
+                  },
+                  {
+                    "en": "soil and groundwater",
+                    "vi": "đất và nguồn nước ngầm"
+                  },
+                  {
+                    "en": "dumped in landfills",
+                    "vi": "bị vứt ra bãi rác"
+                  },
+                  {
+                    "en": "toxic chemicals",
+                    "vi": "hóa chất độc hại"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÂY HẠI NGHIÊM TRỌNG ĐẾN SỨC KHỎE CON NGƯỜI",
+                "point_vi": "Tiếp xúc với kim loại nặng từ rác thải điện tử gây ra nhiều bệnh nguy hiểm cho con người.",
+                "point_en": "Exposure to heavy metals from electronic waste causes serious health problems for humans.",
+                "point_collocations": [
+                  {
+                    "en": "heavy metals",
+                    "vi": "kim loại nặng"
+                  },
+                  {
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
+                  }
+                ],
+                "evidence_vi": "Công nhân thu gom và cư dân sống gần bãi rác điện tử có nguy cơ cao mắc bệnh hô hấp, tổn thương thần kinh và ung thư.",
+                "evidence_en": "Waste workers and residents living near e-waste dumps face high risks of breathing illnesses, brain damage, and cancer.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "e-waste dumps",
+                      "vi": "bãi rác điện tử"
+                    },
+                    {
+                      "en": "breathing illnesses",
+                      "vi": "bệnh đường hô hấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy metals",
+                    "vi": "kim loại nặng"
+                  },
+                  {
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
+                  },
+                  {
+                    "en": "e-waste dumps",
+                    "vi": "bãi rác điện tử"
+                  },
+                  {
+                    "en": "breathing illnesses",
+                    "vi": "bệnh đường hô hấp"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: Ô NHIỄM KHÔNG KHÍ KHI ĐỐT RÁC THẢI ĐIỆN TỬ",
+                "point_vi": "Việc đốt bỏ các thiết bị điện tử cũ giải phóng khói độc làm ô nhiễm bầu không khí.",
+                "point_en": "Burning discarded electronic devices releases poisonous fumes that pollute the air.",
+                "point_collocations": [
+                  {
+                    "en": "discarded electronic devices",
+                    "vi": "thiết bị điện tử bị vứt bỏ"
+                  },
+                  {
+                    "en": "poisonous fumes",
+                    "vi": "khói độc"
+                  }
+                ],
+                "evidence_vi": "Đốt vỏ nhựa và dây cáp điện để lấy kim loại thải ra khí độc hại, làm chất lượng không khí suy giảm và góp phần gây biến đổi khí hậu.",
+                "evidence_en": "Burning plastic casings and cables to collect metals produces harmful gases that worsen air quality and contribute to climate change.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "worsen air quality",
+                      "vi": "làm suy giảm chất lượng không khí"
+                    },
+                    {
+                      "en": "climate change",
+                      "vi": "biến đổi khí hậu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "discarded electronic devices",
+                    "vi": "thiết bị điện tử bị vứt bỏ"
+                  },
+                  {
+                    "en": "poisonous fumes",
+                    "vi": "khói độc"
+                  },
+                  {
+                    "en": "worsen air quality",
+                    "vi": "làm suy giảm chất lượng không khí"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: ĐE DỌA ĐỘNG VẬT HOANG DÃ VÀ CHUỖI THỨC ĂN",
+                "point_vi": "Các chất độc từ rác điện tử phá hủy môi trường sống của động vật và đi vào chuỗi thức ăn.",
+                "point_en": "Toxic substances from e-waste destroy wildlife habitats and enter the human food chain.",
+                "point_collocations": [
+                  {
+                    "en": "wildlife habitats",
+                    "vi": "môi trường sống động vật hoang dã"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  }
+                ],
+                "evidence_vi": "Cá và cây trồng hấp thụ kim loại nặng từ nước và đất ô nhiễm, sau đó gây hại cho cả động vật lẫn con người khi tiêu thụ.",
+                "evidence_en": "Fish and farm crops absorb heavy metals from polluted water and soil, eventually harming both animals and people who eat them.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "absorb heavy metals",
+                      "vi": "hấp thụ kim loại nặng"
+                    },
+                    {
+                      "en": "polluted water and soil",
+                      "vi": "nước và đất ô nhiễm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "wildlife habitats",
+                    "vi": "môi trường sống động vật hoang dã"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  },
+                  {
+                    "en": "absorb heavy metals",
+                    "vi": "hấp thụ kim loại nặng"
+                  },
+                  {
+                    "en": "polluted water and soil",
+                    "vi": "nước và đất ô nhiễm"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÃNG PHÍ TÀI NGUYÊN THIÊN NHIÊN QUÝ GIÁ",
+                "point_vi": "Vứt bỏ thiết bị điện tử mà không tái chế gây lãng phí lớn các nguồn tài nguyên quý hiếm.",
+                "point_en": "Throwing away electronic devices without recycling wastes huge amounts of valuable natural resources.",
+                "point_collocations": [
+                  {
+                    "en": "valuable natural resources",
+                    "vi": "tài nguyên thiên nhiên quý giá"
+                  },
+                  {
+                    "en": "without recycling",
+                    "vi": "không tái chế"
+                  }
+                ],
+                "evidence_vi": "Điện thoại và máy tính chứa vàng, đồng và các kim loại quý cần nhiều năng lượng để khai thác mới nếu không được thu hồi.",
+                "evidence_en": "Smartphones and computers contain gold, copper, and rare metals that require massive energy to mine again if they are not recovered.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rare metals",
+                      "vi": "kim loại quý hiếm"
+                    },
+                    {
+                      "en": "massive energy",
+                      "vi": "năng lượng khổng lồ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "valuable natural resources",
+                    "vi": "tài nguyên thiên nhiên quý giá"
+                  },
+                  {
+                    "en": "without recycling",
+                    "vi": "không tái chế"
+                  },
+                  {
+                    "en": "rare metals",
+                    "vi": "kim loại quý hiếm"
+                  },
+                  {
+                    "en": "massive energy",
+                    "vi": "năng lượng khổng lồ"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: XÂY DỰNG HỆ THỐNG THU GOM VÀ TÁI CHẾ AN TOÀN",
+                "point_vi": "Chính phủ cần đầu tư các điểm thu gom và nhà máy tái chế rác thải điện tử đạt chuẩn an toàn.",
+                "point_en": "Governments should invest in convenient collection points and safe e-waste recycling centers.",
+                "point_collocations": [
+                  {
+                    "en": "collection points",
+                    "vi": "điểm thu gom"
+                  },
+                  {
+                    "en": "recycling centers",
+                    "vi": "trung tâm tái chế"
+                  }
+                ],
+                "evidence_vi": "Khi người dân dễ dàng mang điện thoại và máy tính hỏng đến nơi xử lý đúng quy định, lượng rác độc hại ra bãi rác sẽ giảm mạnh.",
+                "evidence_en": "When citizens can easily bring broken phones and computers to proper facilities, the amount of toxic waste reaching landfills will drop sharply.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "proper facilities",
+                      "vi": "cơ sở xử lý đúng chuẩn"
+                    },
+                    {
+                      "en": "drop sharply",
+                      "vi": "giảm mạnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "collection points",
+                    "vi": "điểm thu gom"
+                  },
+                  {
+                    "en": "recycling centers",
+                    "vi": "trung tâm tái chế"
+                  },
+                  {
+                    "en": "proper facilities",
+                    "vi": "cơ sở xử lý đúng chuẩn"
+                  },
+                  {
+                    "en": "drop sharply",
+                    "vi": "giảm mạnh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: BAN HÀNH LUẬT NGHIÊM KHẮC VỚI NHÀ SẢN XUẤT CÔNG NGHỆ",
+                "point_vi": "Nhà nước nên áp đặt quy định buộc các hãng công nghệ chịu trách nhiệm thu hồi sản phẩm cũ.",
+                "point_en": "Authorities should enforce strict laws requiring tech companies to take back and recycle old products.",
+                "point_collocations": [
+                  {
+                    "en": "enforce strict laws",
+                    "vi": "thực thi luật nghiêm khắc"
+                  },
+                  {
+                    "en": "tech companies",
+                    "vi": "các hãng công nghệ"
+                  }
+                ],
+                "evidence_vi": "Các chương trình đổi cũ lấy mới và yêu cầu sử dụng vật liệu ít độc hại hơn sẽ giúp cắt giảm rác điện tử ngay từ khâu sản xuất.",
+                "evidence_en": "Trade-in programs and rules promoting less toxic materials can reduce electronic waste right from the manufacturing stage.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "trade-in programs",
+                      "vi": "chương trình thu cũ đổi mới"
+                    },
+                    {
+                      "en": "manufacturing stage",
+                      "vi": "khâu sản xuất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "enforce strict laws",
+                    "vi": "thực thi luật nghiêm khắc"
+                  },
+                  {
+                    "en": "tech companies",
+                    "vi": "các hãng công nghệ"
+                  },
+                  {
+                    "en": "trade-in programs",
+                    "vi": "chương trình thu cũ đổi mới"
+                  },
+                  {
+                    "en": "manufacturing stage",
+                    "vi": "khâu sản xuất"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: SỬA CHỮA, TÁI SỬ DỤNG VÀ QUYÊN GÓP THIẾT BỊ CÒN DÙNG ĐƯỢC",
+                "point_vi": "Người tiêu dùng nên ưu tiên sửa chữa, dùng lâu dài hoặc quyên góp các thiết bị điện tử còn hoạt động.",
+                "point_en": "Consumers should repair broken gadgets, use them longer, or donate working devices to others.",
+                "point_collocations": [
+                  {
+                    "en": "repair broken gadgets",
+                    "vi": "sửa chữa thiết bị hỏng"
+                  },
+                  {
+                    "en": "donate working devices",
+                    "vi": "quyên góp thiết bị còn dùng được"
+                  }
+                ],
+                "evidence_vi": "Thay vì vội vàng mua điện thoại mới mỗi năm, việc nâng cấp linh kiện hoặc tặng máy tính cũ cho học sinh khó khăn giúp kéo dài tuổi thọ sản phẩm.",
+                "evidence_en": "Instead of rushing to buy a new smartphone every year, upgrading parts or giving old laptops to poor students extends product lifespan.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "extend product lifespan",
+                      "vi": "kéo dài tuổi thọ sản phẩm"
+                    },
+                    {
+                      "en": "upgrading parts",
+                      "vi": "nâng cấp linh kiện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "repair broken gadgets",
+                    "vi": "sửa chữa thiết bị hỏng"
+                  },
+                  {
+                    "en": "donate working devices",
+                    "vi": "quyên góp thiết bị còn dùng được"
+                  },
+                  {
+                    "en": "extend product lifespan",
+                    "vi": "kéo dài tuổi thọ sản phẩm"
+                  },
+                  {
+                    "en": "upgrading parts",
+                    "vi": "nâng cấp linh kiện"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG VỀ PHÂN LOẠI RÁC ĐIỆN TỬ",
+                "point_vi": "Trường học và truyền thông cần tuyên truyền để mọi người hiểu rõ tác hại và cách xử lý rác điện tử.",
+                "point_en": "Schools and the media should raise public awareness about the dangers and proper disposal of e-waste.",
+                "point_collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "proper disposal",
+                    "vi": "xử lý đúng cách"
+                  }
+                ],
+                "evidence_vi": "Nhiều người vẫn vứt pin và đồ điện tử hỏng chung với rác sinh hoạt chỉ vì họ chưa biết cách phân loại an toàn.",
+                "evidence_en": "Many households still throw dead batteries and broken electronics into regular trash simply because they do not know safe sorting methods.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "regular trash",
+                      "vi": "rác thải sinh hoạt thường"
+                    },
+                    {
+                      "en": "safe sorting methods",
+                      "vi": "cách phân loại an toàn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "proper disposal",
+                    "vi": "xử lý đúng cách"
+                  },
+                  {
+                    "en": "regular trash",
+                    "vi": "rác thải sinh hoạt thường"
+                  },
+                  {
+                    "en": "safe sorting methods",
+                    "vi": "cách phân loại an toàn"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: THIẾT KẾ SẢN PHẨM BỀN BỈ VÀ DỄ TÁI CHẾ HƠN",
+                "point_vi": "Các doanh nghiệp nên thiết kế thiết bị bền hơn, dùng chuẩn sạc chung và dễ tháo lắp để tái chế.",
+                "point_en": "Manufacturers should design more durable devices with standard chargers that are easier to repair and recycle.",
+                "point_collocations": [
+                  {
+                    "en": "durable devices",
+                    "vi": "thiết bị bền bỉ"
+                  },
+                  {
+                    "en": "standard chargers",
+                    "vi": "bộ sạc tiêu chuẩn chung"
+                  }
+                ],
+                "evidence_vi": "Sử dụng chung một loại cáp sạc và thiết kế linh kiện dễ thay thế giúp giảm đáng kể lượng phụ kiện điện tử bị bỏ đi hằng năm.",
+                "evidence_en": "Using a single common charging cable and easily replaceable parts significantly reduces the volume of discarded accessories each year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "replaceable parts",
+                      "vi": "linh kiện dễ thay thế"
+                    },
+                    {
+                      "en": "discarded accessories",
+                      "vi": "phụ kiện bị vứt bỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "durable devices",
+                    "vi": "thiết bị bền bỉ"
+                  },
+                  {
+                    "en": "standard chargers",
+                    "vi": "bộ sạc tiêu chuẩn chung"
+                  },
+                  {
+                    "en": "replaceable parts",
+                    "vi": "linh kiện dễ thay thế"
+                  },
+                  {
+                    "en": "discarded accessories",
+                    "vi": "phụ kiện bị vứt bỏ"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: Ô NHIỄM ĐẤT VÀ NGUỒN NƯỚC NGẦM DO CHẤT ĐỘC",
+                "point_vi": "Rác thải điện tử chứa nhựa, chì và thủy ngân làm ô nhiễm nghiêm trọng đất và nguồn nước ngầm.",
+                "point_en": "Electronic waste containing plastic, lead, and mercury seriously pollutes soil and groundwater.",
+                "point_collocations": [
+                  {
+                    "en": "electronic waste",
+                    "vi": "rác thải điện tử"
+                  },
+                  {
+                    "en": "soil and groundwater",
+                    "vi": "đất và nguồn nước ngầm"
+                  }
+                ],
+                "evidence_vi": "Khi TV, máy tính và điện thoại cũ bị vứt ra bãi rác, các hóa chất độc hại ngấm xuống lòng đất và lan vào sông hồ gần đó.",
+                "evidence_en": "When old TVs, computers, and smartphones are dumped in landfills, toxic chemicals leak into the earth and spread to nearby rivers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "dumped in landfills",
+                      "vi": "bị vứt ra bãi rác"
+                    },
+                    {
+                      "en": "toxic chemicals",
+                      "vi": "hóa chất độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "electronic waste",
+                    "vi": "rác thải điện tử"
+                  },
+                  {
+                    "en": "soil and groundwater",
+                    "vi": "đất và nguồn nước ngầm"
+                  },
+                  {
+                    "en": "dumped in landfills",
+                    "vi": "bị vứt ra bãi rác"
+                  },
+                  {
+                    "en": "toxic chemicals",
+                    "vi": "hóa chất độc hại"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÂY HẠI NGHIÊM TRỌNG ĐẾN SỨC KHỎE CON NGƯỜI",
+                "point_vi": "Tiếp xúc với kim loại nặng từ rác thải điện tử gây ra nhiều bệnh nguy hiểm cho con người.",
+                "point_en": "Exposure to heavy metals from electronic waste causes serious health problems for humans.",
+                "point_collocations": [
+                  {
+                    "en": "heavy metals",
+                    "vi": "kim loại nặng"
+                  },
+                  {
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
+                  }
+                ],
+                "evidence_vi": "Công nhân thu gom và cư dân sống gần bãi rác điện tử có nguy cơ cao mắc bệnh hô hấp, tổn thương thần kinh và ung thư.",
+                "evidence_en": "Waste workers and residents living near e-waste dumps face high risks of breathing illnesses, brain damage, and cancer.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "e-waste dumps",
+                      "vi": "bãi rác điện tử"
+                    },
+                    {
+                      "en": "breathing illnesses",
+                      "vi": "bệnh đường hô hấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy metals",
+                    "vi": "kim loại nặng"
+                  },
+                  {
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
+                  },
+                  {
+                    "en": "e-waste dumps",
+                    "vi": "bãi rác điện tử"
+                  },
+                  {
+                    "en": "breathing illnesses",
+                    "vi": "bệnh đường hô hấp"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: Ô NHIỄM KHÔNG KHÍ KHI ĐỐT RÁC THẢI ĐIỆN TỬ",
+                "point_vi": "Việc đốt bỏ các thiết bị điện tử cũ giải phóng khói độc làm ô nhiễm bầu không khí.",
+                "point_en": "Burning discarded electronic devices releases poisonous fumes that pollute the air.",
+                "point_collocations": [
+                  {
+                    "en": "discarded electronic devices",
+                    "vi": "thiết bị điện tử bị vứt bỏ"
+                  },
+                  {
+                    "en": "poisonous fumes",
+                    "vi": "khói độc"
+                  }
+                ],
+                "evidence_vi": "Đốt vỏ nhựa và dây cáp điện để lấy kim loại thải ra khí độc hại, làm chất lượng không khí suy giảm và góp phần gây biến đổi khí hậu.",
+                "evidence_en": "Burning plastic casings and cables to collect metals produces harmful gases that worsen air quality and contribute to climate change.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "worsen air quality",
+                      "vi": "làm suy giảm chất lượng không khí"
+                    },
+                    {
+                      "en": "climate change",
+                      "vi": "biến đổi khí hậu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "discarded electronic devices",
+                    "vi": "thiết bị điện tử bị vứt bỏ"
+                  },
+                  {
+                    "en": "poisonous fumes",
+                    "vi": "khói độc"
+                  },
+                  {
+                    "en": "worsen air quality",
+                    "vi": "làm suy giảm chất lượng không khí"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: ĐE DỌA ĐỘNG VẬT HOANG DÃ VÀ CHUỖI THỨC ĂN",
+                "point_vi": "Các chất độc từ rác điện tử phá hủy môi trường sống của động vật và đi vào chuỗi thức ăn.",
+                "point_en": "Toxic substances from e-waste destroy wildlife habitats and enter the human food chain.",
+                "point_collocations": [
+                  {
+                    "en": "wildlife habitats",
+                    "vi": "môi trường sống động vật hoang dã"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  }
+                ],
+                "evidence_vi": "Cá và cây trồng hấp thụ kim loại nặng từ nước và đất ô nhiễm, sau đó gây hại cho cả động vật lẫn con người khi tiêu thụ.",
+                "evidence_en": "Fish and farm crops absorb heavy metals from polluted water and soil, eventually harming both animals and people who eat them.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "absorb heavy metals",
+                      "vi": "hấp thụ kim loại nặng"
+                    },
+                    {
+                      "en": "polluted water and soil",
+                      "vi": "nước và đất ô nhiễm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "wildlife habitats",
+                    "vi": "môi trường sống động vật hoang dã"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  },
+                  {
+                    "en": "absorb heavy metals",
+                    "vi": "hấp thụ kim loại nặng"
+                  },
+                  {
+                    "en": "polluted water and soil",
+                    "vi": "nước và đất ô nhiễm"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÃNG PHÍ TÀI NGUYÊN THIÊN NHIÊN QUÝ GIÁ",
+                "point_vi": "Vứt bỏ thiết bị điện tử mà không tái chế gây lãng phí lớn các nguồn tài nguyên quý hiếm.",
+                "point_en": "Throwing away electronic devices without recycling wastes huge amounts of valuable natural resources.",
+                "point_collocations": [
+                  {
+                    "en": "valuable natural resources",
+                    "vi": "tài nguyên thiên nhiên quý giá"
+                  },
+                  {
+                    "en": "without recycling",
+                    "vi": "không tái chế"
+                  }
+                ],
+                "evidence_vi": "Điện thoại và máy tính chứa vàng, đồng và các kim loại quý cần nhiều năng lượng để khai thác mới nếu không được thu hồi.",
+                "evidence_en": "Smartphones and computers contain gold, copper, and rare metals that require massive energy to mine again if they are not recovered.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rare metals",
+                      "vi": "kim loại quý hiếm"
+                    },
+                    {
+                      "en": "massive energy",
+                      "vi": "năng lượng khổng lồ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "valuable natural resources",
+                    "vi": "tài nguyên thiên nhiên quý giá"
+                  },
+                  {
+                    "en": "without recycling",
+                    "vi": "không tái chế"
+                  },
+                  {
+                    "en": "rare metals",
+                    "vi": "kim loại quý hiếm"
+                  },
+                  {
+                    "en": "massive energy",
+                    "vi": "năng lượng khổng lồ"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: XÂY DỰNG HỆ THỐNG THU GOM VÀ TÁI CHẾ AN TOÀN",
+                "point_vi": "Chính phủ cần đầu tư các điểm thu gom và nhà máy tái chế rác thải điện tử đạt chuẩn an toàn.",
+                "point_en": "Governments should invest in convenient collection points and safe e-waste recycling centers.",
+                "point_collocations": [
+                  {
+                    "en": "collection points",
+                    "vi": "điểm thu gom"
+                  },
+                  {
+                    "en": "recycling centers",
+                    "vi": "trung tâm tái chế"
+                  }
+                ],
+                "evidence_vi": "Khi người dân dễ dàng mang điện thoại và máy tính hỏng đến nơi xử lý đúng quy định, lượng rác độc hại ra bãi rác sẽ giảm mạnh.",
+                "evidence_en": "When citizens can easily bring broken phones and computers to proper facilities, the amount of toxic waste reaching landfills will drop sharply.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "proper facilities",
+                      "vi": "cơ sở xử lý đúng chuẩn"
+                    },
+                    {
+                      "en": "drop sharply",
+                      "vi": "giảm mạnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "collection points",
+                    "vi": "điểm thu gom"
+                  },
+                  {
+                    "en": "recycling centers",
+                    "vi": "trung tâm tái chế"
+                  },
+                  {
+                    "en": "proper facilities",
+                    "vi": "cơ sở xử lý đúng chuẩn"
+                  },
+                  {
+                    "en": "drop sharply",
+                    "vi": "giảm mạnh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: BAN HÀNH LUẬT NGHIÊM KHẮC VỚI NHÀ SẢN XUẤT CÔNG NGHỆ",
+                "point_vi": "Nhà nước nên áp đặt quy định buộc các hãng công nghệ chịu trách nhiệm thu hồi sản phẩm cũ.",
+                "point_en": "Authorities should enforce strict laws requiring tech companies to take back and recycle old products.",
+                "point_collocations": [
+                  {
+                    "en": "enforce strict laws",
+                    "vi": "thực thi luật nghiêm khắc"
+                  },
+                  {
+                    "en": "tech companies",
+                    "vi": "các hãng công nghệ"
+                  }
+                ],
+                "evidence_vi": "Các chương trình đổi cũ lấy mới và yêu cầu sử dụng vật liệu ít độc hại hơn sẽ giúp cắt giảm rác điện tử ngay từ khâu sản xuất.",
+                "evidence_en": "Trade-in programs and rules promoting less toxic materials can reduce electronic waste right from the manufacturing stage.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "trade-in programs",
+                      "vi": "chương trình thu cũ đổi mới"
+                    },
+                    {
+                      "en": "manufacturing stage",
+                      "vi": "khâu sản xuất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "enforce strict laws",
+                    "vi": "thực thi luật nghiêm khắc"
+                  },
+                  {
+                    "en": "tech companies",
+                    "vi": "các hãng công nghệ"
+                  },
+                  {
+                    "en": "trade-in programs",
+                    "vi": "chương trình thu cũ đổi mới"
+                  },
+                  {
+                    "en": "manufacturing stage",
+                    "vi": "khâu sản xuất"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: SỬA CHỮA, TÁI SỬ DỤNG VÀ QUYÊN GÓP THIẾT BỊ CÒN DÙNG ĐƯỢC",
+                "point_vi": "Người tiêu dùng nên ưu tiên sửa chữa, dùng lâu dài hoặc quyên góp các thiết bị điện tử còn hoạt động.",
+                "point_en": "Consumers should repair broken gadgets, use them longer, or donate working devices to others.",
+                "point_collocations": [
+                  {
+                    "en": "repair broken gadgets",
+                    "vi": "sửa chữa thiết bị hỏng"
+                  },
+                  {
+                    "en": "donate working devices",
+                    "vi": "quyên góp thiết bị còn dùng được"
+                  }
+                ],
+                "evidence_vi": "Thay vì vội vàng mua điện thoại mới mỗi năm, việc nâng cấp linh kiện hoặc tặng máy tính cũ cho học sinh khó khăn giúp kéo dài tuổi thọ sản phẩm.",
+                "evidence_en": "Instead of rushing to buy a new smartphone every year, upgrading parts or giving old laptops to poor students extends product lifespan.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "extend product lifespan",
+                      "vi": "kéo dài tuổi thọ sản phẩm"
+                    },
+                    {
+                      "en": "upgrading parts",
+                      "vi": "nâng cấp linh kiện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "repair broken gadgets",
+                    "vi": "sửa chữa thiết bị hỏng"
+                  },
+                  {
+                    "en": "donate working devices",
+                    "vi": "quyên góp thiết bị còn dùng được"
+                  },
+                  {
+                    "en": "extend product lifespan",
+                    "vi": "kéo dài tuổi thọ sản phẩm"
+                  },
+                  {
+                    "en": "upgrading parts",
+                    "vi": "nâng cấp linh kiện"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG VỀ PHÂN LOẠI RÁC ĐIỆN TỬ",
+                "point_vi": "Trường học và truyền thông cần tuyên truyền để mọi người hiểu rõ tác hại và cách xử lý rác điện tử.",
+                "point_en": "Schools and the media should raise public awareness about the dangers and proper disposal of e-waste.",
+                "point_collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "proper disposal",
+                    "vi": "xử lý đúng cách"
+                  }
+                ],
+                "evidence_vi": "Nhiều người vẫn vứt pin và đồ điện tử hỏng chung với rác sinh hoạt chỉ vì họ chưa biết cách phân loại an toàn.",
+                "evidence_en": "Many households still throw dead batteries and broken electronics into regular trash simply because they do not know safe sorting methods.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "regular trash",
+                      "vi": "rác thải sinh hoạt thường"
+                    },
+                    {
+                      "en": "safe sorting methods",
+                      "vi": "cách phân loại an toàn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "proper disposal",
+                    "vi": "xử lý đúng cách"
+                  },
+                  {
+                    "en": "regular trash",
+                    "vi": "rác thải sinh hoạt thường"
+                  },
+                  {
+                    "en": "safe sorting methods",
+                    "vi": "cách phân loại an toàn"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: THIẾT KẾ SẢN PHẨM BỀN BỈ VÀ DỄ TÁI CHẾ HƠN",
+                "point_vi": "Các doanh nghiệp nên thiết kế thiết bị bền hơn, dùng chuẩn sạc chung và dễ tháo lắp để tái chế.",
+                "point_en": "Manufacturers should design more durable devices with standard chargers that are easier to repair and recycle.",
+                "point_collocations": [
+                  {
+                    "en": "durable devices",
+                    "vi": "thiết bị bền bỉ"
+                  },
+                  {
+                    "en": "standard chargers",
+                    "vi": "bộ sạc tiêu chuẩn chung"
+                  }
+                ],
+                "evidence_vi": "Sử dụng chung một loại cáp sạc và thiết kế linh kiện dễ thay thế giúp giảm đáng kể lượng phụ kiện điện tử bị bỏ đi hằng năm.",
+                "evidence_en": "Using a single common charging cable and easily replaceable parts significantly reduces the volume of discarded accessories each year.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "replaceable parts",
+                      "vi": "linh kiện dễ thay thế"
+                    },
+                    {
+                      "en": "discarded accessories",
+                      "vi": "phụ kiện bị vứt bỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "durable devices",
+                    "vi": "thiết bị bền bỉ"
+                  },
+                  {
+                    "en": "standard chargers",
+                    "vi": "bộ sạc tiêu chuẩn chung"
+                  },
+                  {
+                    "en": "replaceable parts",
+                    "vi": "linh kiện dễ thay thế"
+                  },
+                  {
+                    "en": "discarded accessories",
+                    "vi": "phụ kiện bị vứt bỏ"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: Ô NHIỄM ĐẤT VÀ NGUỒN NƯỚC DO KIM LOẠI NẶNG (SOIL AND WATER CONTAMINATION)",
+                "point_vi": "Việc thải bỏ rác điện tử bừa bãi làm rò rỉ nhựa, chì và thủy ngân, gây ô nhiễm nặng nề đất và nguồn nước ngầm.",
+                "point_en": "Improper e-waste disposal leaks toxic substances such as plastic, lead, and mercury, severely contaminating soil and groundwater.",
+                "point_collocations": [
+                  {
+                    "en": "improper e-waste disposal",
+                    "vi": "thải bỏ rác điện tử sai cách"
+                  },
+                  {
+                    "en": "contaminate soil and groundwater",
+                    "vi": "làm ô nhiễm đất và nước ngầm"
+                  }
+                ],
+                "evidence_vi": "Khi hàng triệu chiếc TV, máy tính và điện thoại cũ bị chất đống tại các bãi rác lộ thiên, nước mưa cuốn trôi kim loại nặng thấm sâu vào tầng nước ngầm. Tình trạng ô nhiễm khó đảo ngược này làm thoái hóa đất nông nghiệp và đe dọa trực tiếp nguồn nước sinh hoạt của cộng đồng xung quanh.",
+                "evidence_en": "When millions of discarded TVs, computers, and smartphones accumulate in open landfills, rainwater carries heavy metals deep into underground water tables. This persistent contamination degrades fertile farmland and directly jeopardizes drinking water supplies for surrounding communities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "open landfills",
+                      "vi": "bãi rác lộ thiên"
+                    },
+                    {
+                      "en": "underground water tables",
+                      "vi": "tầng nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "persistent contamination",
+                      "vi": "ô nhiễm dai dẳng"
+                    },
+                    {
+                      "en": "drinking water supplies",
+                      "vi": "nguồn nước uống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "improper e-waste disposal",
+                    "vi": "thải bỏ rác điện tử sai cách"
+                  },
+                  {
+                    "en": "contaminate soil and groundwater",
+                    "vi": "làm ô nhiễm đất và nước ngầm"
+                  },
+                  {
+                    "en": "open landfills",
+                    "vi": "bãi rác lộ thiên"
+                  },
+                  {
+                    "en": "underground water tables",
+                    "vi": "tầng nước ngầm"
+                  },
+                  {
+                    "en": "persistent contamination",
+                    "vi": "ô nhiễm dai dẳng"
+                  },
+                  {
+                    "en": "drinking water supplies",
+                    "vi": "nguồn nước uống"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: HIỂM HỌA SỨC KHỎE CỘNG ĐỒNG VÀ LAO ĐỘNG TÁI CHẾ (PUBLIC HEALTH HAZARDS)",
+                "point_vi": "Sự phơi nhiễm kéo dài với hóa chất độc hại trong rác thải điện tử gây ra những hậu quả y tế nghiêm trọng cho con người.",
+                "point_en": "Prolonged exposure to hazardous chemicals in electronic waste poses severe, long-term public health risks.",
+                "point_collocations": [
+                  {
+                    "en": "hazardous chemicals",
+                    "vi": "hóa chất độc hại"
+                  },
+                  {
+                    "en": "public health risks",
+                    "vi": "rủi ro sức khỏe cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt tại các cơ sở tái chế thủ công thiếu đồ bảo hộ, công nhân và trẻ em dễ hít phải bụi chì và hơi thủy ngân khi tháo dỡ linh kiện. Những độc tố tích tụ sinh học này có thể gây rối loạn thần kinh, suy giảm chức năng thận, bệnh hô hấp mạn tính và tăng nguy cơ ung thư.",
+                "evidence_en": "Especially in informal recycling sites lacking protective gear, workers and nearby children frequently inhale lead dust and mercury vapors while dismantling circuits. Such bioaccumulative toxins can trigger neurological disorders, kidney damage, chronic respiratory illnesses, and heightened cancer risks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "informal recycling sites",
+                      "vi": "cơ sở tái chế thủ công tự phát"
+                    },
+                    {
+                      "en": "mercury vapors",
+                      "vi": "hơi thủy ngân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "neurological disorders",
+                      "vi": "rối loạn thần kinh"
+                    },
+                    {
+                      "en": "chronic respiratory illnesses",
+                      "vi": "bệnh hô hấp mạn tính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "hazardous chemicals",
+                    "vi": "hóa chất độc hại"
+                  },
+                  {
+                    "en": "public health risks",
+                    "vi": "rủi ro sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "informal recycling sites",
+                    "vi": "cơ sở tái chế thủ công tự phát"
+                  },
+                  {
+                    "en": "mercury vapors",
+                    "vi": "hơi thủy ngân"
+                  },
+                  {
+                    "en": "neurological disorders",
+                    "vi": "rối loạn thần kinh"
+                  },
+                  {
+                    "en": "chronic respiratory illnesses",
+                    "vi": "bệnh hô hấp mạn tính"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: Ô NHIỄM KHÔNG KHÍ VÀ TỔN HẠI HỆ SINH THÁI (AIR POLLUTION AND ECOLOGICAL DAMAGE)",
+                "point_vi": "Đốt rác thải điện tử không kiểm soát phát thải khí độc làm suy thoái không khí và tàn phá hệ sinh thái tự nhiên.",
+                "point_en": "Unregulated burning of electronic waste emits toxic pollutants that degrade air quality and disrupt natural ecosystems.",
+                "point_collocations": [
+                  {
+                    "en": "toxic pollutants",
+                    "vi": "chất gây ô nhiễm độc hại"
+                  },
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "vi": "phá vỡ hệ sinh thái tự nhiên"
+                  }
+                ],
+                "evidence_vi": "Hoạt động đốt vỏ nhựa và bảng mạch để thu hồi đồng giải phóng dioxin và hạt bụi mịn độc hại vào khí quyển. Khi các hợp chất này lắng đọng xuống sông hồ và đất đai, chúng xâm nhập chuỗi thức ăn, đầu độc sinh vật thủy sinh và cuối cùng quay ngược lại cơ thể người tiêu dùng.",
+                "evidence_en": "Burning plastic casings and circuit boards to extract copper releases dioxins and hazardous fine particulates into the atmosphere. Once these pollutants settle into rivers and croplands, they infiltrate the food chain, poisoning aquatic wildlife and ultimately reaching human consumers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "circuit boards",
+                      "vi": "bảng mạch điện tử"
+                    },
+                    {
+                      "en": "hazardous fine particulates",
+                      "vi": "bụi mịn nguy hại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "infiltrate the food chain",
+                      "vi": "xâm nhập chuỗi thức ăn"
+                    },
+                    {
+                      "en": "aquatic wildlife",
+                      "vi": "sinh vật thủy sinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "toxic pollutants",
+                    "vi": "chất gây ô nhiễm độc hại"
+                  },
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "vi": "phá vỡ hệ sinh thái tự nhiên"
+                  },
+                  {
+                    "en": "circuit boards",
+                    "vi": "bảng mạch điện tử"
+                  },
+                  {
+                    "en": "hazardous fine particulates",
+                    "vi": "bụi mịn nguy hại"
+                  },
+                  {
+                    "en": "infiltrate the food chain",
+                    "vi": "xâm nhập chuỗi thức ăn"
+                  },
+                  {
+                    "en": "aquatic wildlife",
+                    "vi": "sinh vật thủy sinh"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: CẠN KIỆT TÀI NGUYÊN VÀ GIA TĂNG PHÁT THẢI CARBON (RESOURCE DEPLETION)",
+                "point_vi": "Tỷ lệ tái chế rác điện tử thấp làm cạn kiệt nguồn khoáng sản hiếm và đẩy mạnh phát thải carbon từ hoạt động khai khoáng mới.",
+                "point_en": "Low e-waste recycling rates accelerate the depletion of rare minerals and increase carbon emissions from fresh mining.",
+                "point_collocations": [
+                  {
+                    "en": "depletion of rare minerals",
+                    "vi": "cạn kiệt khoáng sản hiếm"
+                  },
+                  {
+                    "en": "fresh mining",
+                    "vi": "khai thác mỏ mới"
+                  }
+                ],
+                "evidence_vi": "Các thiết bị điện tử chứa lượng lớn vàng, bạc, coban và đất hiếm có giá trị kinh tế rất cao nhưng phần lớn lại bị chôn lấp lãng phí. Việc tiếp tục khai thác nguyên liệu thô để bù đắp nguồn cung không chỉ tiêu tốn năng lượng khổng lồ mà còn tàn phá rừng và thúc đẩy biến đổi khí hậu.",
+                "evidence_en": "Electronic gadgets contain substantial quantities of gold, silver, cobalt, and rare-earth elements that are needlessly lost when discarded devices are landfilled. Extracting virgin raw materials to replace these lost resources consumes immense energy, destroys landscapes, and accelerates global warming.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rare-earth elements",
+                      "vi": "nguyên tố đất hiếm"
+                    },
+                    {
+                      "en": "virgin raw materials",
+                      "vi": "nguyên liệu thô khai thác mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "immense energy",
+                      "vi": "năng lượng khổng lồ"
+                    },
+                    {
+                      "en": "accelerate global warming",
+                      "vi": "thúc đẩy nóng lên toàn cầu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "depletion of rare minerals",
+                    "vi": "cạn kiệt khoáng sản hiếm"
+                  },
+                  {
+                    "en": "fresh mining",
+                    "vi": "khai thác mỏ mới"
+                  },
+                  {
+                    "en": "rare-earth elements",
+                    "vi": "nguyên tố đất hiếm"
+                  },
+                  {
+                    "en": "virgin raw materials",
+                    "vi": "nguyên liệu thô khai thác mới"
+                  },
+                  {
+                    "en": "immense energy",
+                    "vi": "năng lượng khổng lồ"
+                  },
+                  {
+                    "en": "accelerate global warming",
+                    "vi": "thúc đẩy nóng lên toàn cầu"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: BẤT CÔNG MÔI TRƯỜNG XUYÊN BIÊN GIỚI (TRANSBOUNDARY ENVIRONMENTAL INJUSTICE)",
+                "point_vi": "Xu hướng xuất khẩu rác thải điện tử sang các nước đang phát triển tạo ra gánh nặng ô nhiễm bất công trên toàn cầu.",
+                "point_en": "The illegal export of electronic waste to developing nations creates severe transboundary environmental injustice.",
+                "point_collocations": [
+                  {
+                    "en": "developing nations",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "environmental injustice",
+                    "vi": "bất công môi trường"
+                  }
+                ],
+                "evidence_vi": "Nhiều quốc gia giàu có né tránh chi phí xử lý nội địa đắt đỏ bằng cách chuyển thiết bị hỏng dưới danh nghĩa hàng cũ sang các nước thu nhập thấp thiếu hạ tầng tái chế. Hậu quả là cộng đồng địa phương tại những quốc gia tiếp nhận phải gánh chịu ô nhiễm nặng nề và chi phí y tế ngày càng leo thang.",
+                "evidence_en": "Wealthier nations sometimes evade steep domestic disposal costs by shipping obsolete electronics disguised as secondhand goods to lower-income countries lacking safe recycling infrastructure. As a result, vulnerable communities in recipient nations bear the brunt of toxic pollution and escalating healthcare burdens.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "obsolete electronics",
+                      "vi": "thiết bị điện tử lỗi thời"
+                    },
+                    {
+                      "en": "safe recycling infrastructure",
+                      "vi": "hạ tầng tái chế an toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bear the brunt of",
+                      "vi": "gánh chịu hậu quả nặng nề nhất"
+                    },
+                    {
+                      "en": "escalating healthcare burdens",
+                      "vi": "gánh nặng y tế leo thang"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "developing nations",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "environmental injustice",
+                    "vi": "bất công môi trường"
+                  },
+                  {
+                    "en": "obsolete electronics",
+                    "vi": "thiết bị điện tử lỗi thời"
+                  },
+                  {
+                    "en": "safe recycling infrastructure",
+                    "vi": "hạ tầng tái chế an toàn"
+                  },
+                  {
+                    "en": "bear the brunt of",
+                    "vi": "gánh chịu hậu quả nặng nề nhất"
+                  },
+                  {
+                    "en": "escalating healthcare burdens",
+                    "vi": "gánh nặng y tế leo thang"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: MỞ RỘNG TRÁCH NHIỆM NHÀ SẢN XUẤT (EXTENDED PRODUCER RESPONSIBILITY)",
+                "point_vi": "Chính phủ cần áp dụng cơ chế trách nhiệm mở rộng của nhà sản xuất để buộc các hãng công nghệ thu hồi và tái chế sản phẩm hết vòng đời.",
+                "point_en": "Governments should mandate Extended Producer Responsibility schemes requiring tech manufacturers to collect and safely recycle end-of-life products.",
+                "point_collocations": [
+                  {
+                    "en": "Extended Producer Responsibility",
+                    "vi": "trách nhiệm mở rộng của nhà sản xuất"
+                  },
+                  {
+                    "en": "end-of-life products",
+                    "vi": "sản phẩm hết vòng đời"
+                  }
+                ],
+                "evidence_vi": "Khi doanh nghiệp phải chi trả chi phí xử lý rác thải từ chính thiết bị họ bán ra, họ sẽ có động lực tài chính mạnh mẽ để loại bỏ vật liệu độc hại như chì hay thủy ngân. Song song đó, chế tài phạt nặng đối với hành vi đổ thải trái phép và xuất khẩu rác lậu sẽ bảo đảm tính răn đe thực tế.",
+                "evidence_en": "When corporations bear the disposal costs of the devices they sell, they gain a strong financial incentive to phase out hazardous materials such as lead and mercury. Simultaneously, heavy fines for illegal dumping and illicit e-waste exports will ensure meaningful regulatory compliance.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "phase out hazardous materials",
+                      "vi": "loại bỏ dần vật liệu độc hại"
+                    },
+                    {
+                      "en": "financial incentive",
+                      "vi": "động lực tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "illegal dumping",
+                      "vi": "đổ thải trái phép"
+                    },
+                    {
+                      "en": "regulatory compliance",
+                      "vi": "tuân thủ quy định pháp luật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "Extended Producer Responsibility",
+                    "vi": "trách nhiệm mở rộng của nhà sản xuất"
+                  },
+                  {
+                    "en": "end-of-life products",
+                    "vi": "sản phẩm hết vòng đời"
+                  },
+                  {
+                    "en": "phase out hazardous materials",
+                    "vi": "loại bỏ dần vật liệu độc hại"
+                  },
+                  {
+                    "en": "financial incentive",
+                    "vi": "động lực tài chính"
+                  },
+                  {
+                    "en": "illegal dumping",
+                    "vi": "đổ thải trái phép"
+                  },
+                  {
+                    "en": "regulatory compliance",
+                    "vi": "tuân thủ quy định pháp luật"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: ĐẦU TƯ HẠ TẦNG TÁI CHẾ CÔNG NGHỆ CAO (MODERN RECYCLING INFRASTRUCTURE)",
+                "point_vi": "Nhà nước và khu vực tư nhân cần đầu tư đồng bộ mạng lưới thu gom thuận tiện cùng các nhà máy tái chế hiện đại.",
+                "point_en": "Public and private sectors must invest in accessible collection networks and technologically advanced recycling facilities.",
+                "point_collocations": [
+                  {
+                    "en": "accessible collection networks",
+                    "vi": "mạng lưới thu gom dễ tiếp cận"
+                  },
+                  {
+                    "en": "advanced recycling facilities",
+                    "vi": "cơ sở tái chế công nghệ cao"
+                  }
+                ],
+                "evidence_vi": "Các nhà máy xử lý đạt chuẩn có thể tách chiết an toàn nhựa và kim loại quý để tái đưa vào chuỗi sản xuất theo mô hình kinh tế tuần hoàn mà không phát thải độc tố. Đồng thời, tích hợp lực lượng thu gom phi chính thức vào hệ thống được đào tạo và trang bị bảo hộ sẽ vừa bảo vệ sức khỏe vừa nâng cao hiệu suất thu hồi.",
+                "evidence_en": "Certified plants can safely extract plastics and precious metals for reuse within a circular economy without releasing toxic emissions. Moreover, integrating informal collectors into regulated systems with proper training and safety equipment protects workers while boosting recovery rates.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "circular economy",
+                      "vi": "kinh tế tuần hoàn"
+                    },
+                    {
+                      "en": "precious metals",
+                      "vi": "kim loại quý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "informal collectors",
+                      "vi": "lực lượng thu gom phi chính thức"
+                    },
+                    {
+                      "en": "recovery rates",
+                      "vi": "tỷ lệ thu hồi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "accessible collection networks",
+                    "vi": "mạng lưới thu gom dễ tiếp cận"
+                  },
+                  {
+                    "en": "advanced recycling facilities",
+                    "vi": "cơ sở tái chế công nghệ cao"
+                  },
+                  {
+                    "en": "circular economy",
+                    "vi": "kinh tế tuần hoàn"
+                  },
+                  {
+                    "en": "precious metals",
+                    "vi": "kim loại quý"
+                  },
+                  {
+                    "en": "informal collectors",
+                    "vi": "lực lượng thu gom phi chính thức"
+                  },
+                  {
+                    "en": "recovery rates",
+                    "vi": "tỷ lệ thu hồi"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: QUYỀN ĐƯỢC SỬA CHỮA VÀ THIẾT KẾ BỀN VỮNG (RIGHT TO REPAIR AND ECO-DESIGN)",
+                "point_vi": "Các quy định về quyền được sửa chữa và thiết kế mô-đun bền vững giúp kéo dài vòng đời thiết bị và cắt giảm rác thải tại nguồn.",
+                "point_en": "Right-to-repair legislation and modular eco-design standards can substantially extend device lifespans and curb waste at the source.",
+                "point_collocations": [
+                  {
+                    "en": "right-to-repair legislation",
+                    "vi": "luật quyền được sửa chữa"
+                  },
+                  {
+                    "en": "modular eco-design",
+                    "vi": "thiết kế sinh thái dạng mô-đun"
+                  }
+                ],
+                "evidence_vi": "Yêu cầu nhà sản xuất cung cấp linh kiện thay thế giá hợp lý, hỗ trợ cập nhật phần mềm dài hạn và dùng chuẩn sạc thống nhất sẽ hạn chế tình trạng lỗi thời có chủ đích. Nhờ đó, người tiêu dùng có thể sửa chữa hoặc nâng cấp máy tính, điện thoại thay vì vứt bỏ toàn bộ thiết bị chỉ vì một lỗi nhỏ.",
+                "evidence_en": "Requiring brands to supply affordable spare parts, longer software updates, and universal charging ports helps counter planned obsolescence. Consequently, consumers can repair or upgrade laptops and smartphones instead of discarding entire units over minor faults.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "universal charging ports",
+                      "vi": "cổng sạc tiêu chuẩn chung"
+                    },
+                    {
+                      "en": "planned obsolescence",
+                      "vi": "lỗi thời có chủ đích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "affordable spare parts",
+                      "vi": "linh kiện thay thế giá hợp lý"
+                    },
+                    {
+                      "en": "minor faults",
+                      "vi": "lỗi nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "right-to-repair legislation",
+                    "vi": "luật quyền được sửa chữa"
+                  },
+                  {
+                    "en": "modular eco-design",
+                    "vi": "thiết kế sinh thái dạng mô-đun"
+                  },
+                  {
+                    "en": "universal charging ports",
+                    "vi": "cổng sạc tiêu chuẩn chung"
+                  },
+                  {
+                    "en": "planned obsolescence",
+                    "vi": "lỗi thời có chủ đích"
+                  },
+                  {
+                    "en": "affordable spare parts",
+                    "vi": "linh kiện thay thế giá hợp lý"
+                  },
+                  {
+                    "en": "minor faults",
+                    "vi": "lỗi nhỏ"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: THÚC ĐẨY TIÊU DÙNG CÓ TRÁCH NHIỆM VÀ TÁI SỬ DỤNG (RESPONSIBLE CONSUMPTION)",
+                "point_vi": "Thay đổi hành vi người tiêu dùng thông qua giáo dục và chương trình thu cũ đổi mới đóng vai trò thiết yếu trong việc giảm rác điện tử.",
+                "point_en": "Shifting consumer habits through public education and structured trade-in initiatives plays a vital role in curbing e-waste.",
+                "point_collocations": [
+                  {
+                    "en": "shifting consumer habits",
+                    "vi": "thay đổi thói quen tiêu dùng"
+                  },
+                  {
+                    "en": "trade-in initiatives",
+                    "vi": "chương trình thu cũ đổi mới"
+                  }
+                ],
+                "evidence_vi": "Các chiến dịch truyền thông cần khuyến khích người dân cưỡng lại xu hướng chạy theo mẫu điện thoại mới hằng năm và phân loại pin, thiết bị hỏng riêng biệt. Bên cạnh đó, chính sách chiết khấu khi trả thiết bị cũ hoặc quyên góp máy tính tân trang cho trường học vùng khó khăn giúp tối đa hóa giá trị sử dụng của mỗi sản phẩm.",
+                "evidence_en": "Awareness campaigns should encourage citizens to resist annual upgrade cycles and separate dead batteries and broken gadgets from household garbage. Additionally, retail discounts for returned electronics and programs donating refurbished laptops to underfunded schools maximize each product's useful life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "annual upgrade cycles",
+                      "vi": "chu kỳ nâng cấp hằng năm"
+                    },
+                    {
+                      "en": "household garbage",
+                      "vi": "rác thải hộ gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "refurbished laptops",
+                      "vi": "máy tính tân trang"
+                    },
+                    {
+                      "en": "underfunded schools",
+                      "vi": "trường học thiếu kinh phí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "shifting consumer habits",
+                    "vi": "thay đổi thói quen tiêu dùng"
+                  },
+                  {
+                    "en": "trade-in initiatives",
+                    "vi": "chương trình thu cũ đổi mới"
+                  },
+                  {
+                    "en": "annual upgrade cycles",
+                    "vi": "chu kỳ nâng cấp hằng năm"
+                  },
+                  {
+                    "en": "household garbage",
+                    "vi": "rác thải hộ gia đình"
+                  },
+                  {
+                    "en": "refurbished laptops",
+                    "vi": "máy tính tân trang"
+                  },
+                  {
+                    "en": "underfunded schools",
+                    "vi": "trường học thiếu kinh phí"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: HỢP TÁC QUỐC TẾ CHỐNG BUÔN LẬU RÁC ĐIỆN TỬ (INTERNATIONAL COOPERATION)",
+                "point_vi": "Tăng cường thực thi các công ước quốc tế và giám sát hải quan giúp ngăn chặn dòng chảy rác điện tử bất hợp pháp xuyên biên giới.",
+                "point_en": "Strengthening international conventions and customs enforcement helps halt the illegal cross-border trafficking of hazardous e-waste.",
+                "point_collocations": [
+                  {
+                    "en": "international conventions",
+                    "vi": "công ước quốc tế"
+                  },
+                  {
+                    "en": "customs enforcement",
+                    "vi": "giám sát thực thi hải quan"
+                  }
+                ],
+                "evidence_vi": "Các quốc gia cần phối hợp chia sẻ dữ liệu vận chuyển, siết chặt kiểm tra container hàng điện tử đã qua sử dụng và hỗ trợ chuyển giao công nghệ tái chế sạch cho nước đang phát triển. Cách tiếp cận toàn cầu này đảm bảo không quốc gia nào trở thành bãi rác độc hại cho phần còn lại của thế giới.",
+                "evidence_en": "Countries must coordinate shipment tracking, tighten inspections of secondhand electronics containers, and transfer clean recycling technologies to developing economies. This coordinated global response ensures that no nation becomes a toxic dumping ground for the rest of the world.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shipment tracking",
+                      "vi": "theo dõi lô hàng"
+                    },
+                    {
+                      "en": "clean recycling technologies",
+                      "vi": "công nghệ tái chế sạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "coordinated global response",
+                      "vi": "phản ứng phối hợp toàn cầu"
+                    },
+                    {
+                      "en": "toxic dumping ground",
+                      "vi": "bãi rác độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "international conventions",
+                    "vi": "công ước quốc tế"
+                  },
+                  {
+                    "en": "customs enforcement",
+                    "vi": "giám sát thực thi hải quan"
+                  },
+                  {
+                    "en": "shipment tracking",
+                    "vi": "theo dõi lô hàng"
+                  },
+                  {
+                    "en": "clean recycling technologies",
+                    "vi": "công nghệ tái chế sạch"
+                  },
+                  {
+                    "en": "coordinated global response",
+                    "vi": "phản ứng phối hợp toàn cầu"
+                  },
+                  {
+                    "en": "toxic dumping ground",
+                    "vi": "bãi rác độc hại"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: Ô NHIỄM ĐẤT VÀ NGUỒN NƯỚC DO KIM LOẠI NẶNG (SOIL AND WATER CONTAMINATION)",
+                "point_vi": "Việc thải bỏ rác điện tử bừa bãi làm rò rỉ nhựa, chì và thủy ngân, gây ô nhiễm nặng nề đất và nguồn nước ngầm.",
+                "point_en": "Improper e-waste disposal leaks toxic substances such as plastic, lead, and mercury, severely contaminating soil and groundwater.",
+                "point_collocations": [
+                  {
+                    "en": "improper e-waste disposal",
+                    "vi": "thải bỏ rác điện tử sai cách"
+                  },
+                  {
+                    "en": "contaminate soil and groundwater",
+                    "vi": "làm ô nhiễm đất và nước ngầm"
+                  }
+                ],
+                "evidence_vi": "Khi hàng triệu chiếc TV, máy tính và điện thoại cũ bị chất đống tại các bãi rác lộ thiên, nước mưa cuốn trôi kim loại nặng thấm sâu vào tầng nước ngầm. Tình trạng ô nhiễm khó đảo ngược này làm thoái hóa đất nông nghiệp và đe dọa trực tiếp nguồn nước sinh hoạt của cộng đồng xung quanh.",
+                "evidence_en": "When millions of discarded TVs, computers, and smartphones accumulate in open landfills, rainwater carries heavy metals deep into underground water tables. This persistent contamination degrades fertile farmland and directly jeopardizes drinking water supplies for surrounding communities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "open landfills",
+                      "vi": "bãi rác lộ thiên"
+                    },
+                    {
+                      "en": "underground water tables",
+                      "vi": "tầng nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "persistent contamination",
+                      "vi": "ô nhiễm dai dẳng"
+                    },
+                    {
+                      "en": "drinking water supplies",
+                      "vi": "nguồn nước uống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "improper e-waste disposal",
+                    "vi": "thải bỏ rác điện tử sai cách"
+                  },
+                  {
+                    "en": "contaminate soil and groundwater",
+                    "vi": "làm ô nhiễm đất và nước ngầm"
+                  },
+                  {
+                    "en": "open landfills",
+                    "vi": "bãi rác lộ thiên"
+                  },
+                  {
+                    "en": "underground water tables",
+                    "vi": "tầng nước ngầm"
+                  },
+                  {
+                    "en": "persistent contamination",
+                    "vi": "ô nhiễm dai dẳng"
+                  },
+                  {
+                    "en": "drinking water supplies",
+                    "vi": "nguồn nước uống"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: HIỂM HỌA SỨC KHỎE CỘNG ĐỒNG VÀ LAO ĐỘNG TÁI CHẾ (PUBLIC HEALTH HAZARDS)",
+                "point_vi": "Sự phơi nhiễm kéo dài với hóa chất độc hại trong rác thải điện tử gây ra những hậu quả y tế nghiêm trọng cho con người.",
+                "point_en": "Prolonged exposure to hazardous chemicals in electronic waste poses severe, long-term public health risks.",
+                "point_collocations": [
+                  {
+                    "en": "hazardous chemicals",
+                    "vi": "hóa chất độc hại"
+                  },
+                  {
+                    "en": "public health risks",
+                    "vi": "rủi ro sức khỏe cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt tại các cơ sở tái chế thủ công thiếu đồ bảo hộ, công nhân và trẻ em dễ hít phải bụi chì và hơi thủy ngân khi tháo dỡ linh kiện. Những độc tố tích tụ sinh học này có thể gây rối loạn thần kinh, suy giảm chức năng thận, bệnh hô hấp mạn tính và tăng nguy cơ ung thư.",
+                "evidence_en": "Especially in informal recycling sites lacking protective gear, workers and nearby children frequently inhale lead dust and mercury vapors while dismantling circuits. Such bioaccumulative toxins can trigger neurological disorders, kidney damage, chronic respiratory illnesses, and heightened cancer risks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "informal recycling sites",
+                      "vi": "cơ sở tái chế thủ công tự phát"
+                    },
+                    {
+                      "en": "mercury vapors",
+                      "vi": "hơi thủy ngân"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "neurological disorders",
+                      "vi": "rối loạn thần kinh"
+                    },
+                    {
+                      "en": "chronic respiratory illnesses",
+                      "vi": "bệnh hô hấp mạn tính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "hazardous chemicals",
+                    "vi": "hóa chất độc hại"
+                  },
+                  {
+                    "en": "public health risks",
+                    "vi": "rủi ro sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "informal recycling sites",
+                    "vi": "cơ sở tái chế thủ công tự phát"
+                  },
+                  {
+                    "en": "mercury vapors",
+                    "vi": "hơi thủy ngân"
+                  },
+                  {
+                    "en": "neurological disorders",
+                    "vi": "rối loạn thần kinh"
+                  },
+                  {
+                    "en": "chronic respiratory illnesses",
+                    "vi": "bệnh hô hấp mạn tính"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: Ô NHIỄM KHÔNG KHÍ VÀ TỔN HẠI HỆ SINH THÁI (AIR POLLUTION AND ECOLOGICAL DAMAGE)",
+                "point_vi": "Đốt rác thải điện tử không kiểm soát phát thải khí độc làm suy thoái không khí và tàn phá hệ sinh thái tự nhiên.",
+                "point_en": "Unregulated burning of electronic waste emits toxic pollutants that degrade air quality and disrupt natural ecosystems.",
+                "point_collocations": [
+                  {
+                    "en": "toxic pollutants",
+                    "vi": "chất gây ô nhiễm độc hại"
+                  },
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "vi": "phá vỡ hệ sinh thái tự nhiên"
+                  }
+                ],
+                "evidence_vi": "Hoạt động đốt vỏ nhựa và bảng mạch để thu hồi đồng giải phóng dioxin và hạt bụi mịn độc hại vào khí quyển. Khi các hợp chất này lắng đọng xuống sông hồ và đất đai, chúng xâm nhập chuỗi thức ăn, đầu độc sinh vật thủy sinh và cuối cùng quay ngược lại cơ thể người tiêu dùng.",
+                "evidence_en": "Burning plastic casings and circuit boards to extract copper releases dioxins and hazardous fine particulates into the atmosphere. Once these pollutants settle into rivers and croplands, they infiltrate the food chain, poisoning aquatic wildlife and ultimately reaching human consumers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "circuit boards",
+                      "vi": "bảng mạch điện tử"
+                    },
+                    {
+                      "en": "hazardous fine particulates",
+                      "vi": "bụi mịn nguy hại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "infiltrate the food chain",
+                      "vi": "xâm nhập chuỗi thức ăn"
+                    },
+                    {
+                      "en": "aquatic wildlife",
+                      "vi": "sinh vật thủy sinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "toxic pollutants",
+                    "vi": "chất gây ô nhiễm độc hại"
+                  },
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "vi": "phá vỡ hệ sinh thái tự nhiên"
+                  },
+                  {
+                    "en": "circuit boards",
+                    "vi": "bảng mạch điện tử"
+                  },
+                  {
+                    "en": "hazardous fine particulates",
+                    "vi": "bụi mịn nguy hại"
+                  },
+                  {
+                    "en": "infiltrate the food chain",
+                    "vi": "xâm nhập chuỗi thức ăn"
+                  },
+                  {
+                    "en": "aquatic wildlife",
+                    "vi": "sinh vật thủy sinh"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: CẠN KIỆT TÀI NGUYÊN VÀ GIA TĂNG PHÁT THẢI CARBON (RESOURCE DEPLETION)",
+                "point_vi": "Tỷ lệ tái chế rác điện tử thấp làm cạn kiệt nguồn khoáng sản hiếm và đẩy mạnh phát thải carbon từ hoạt động khai khoáng mới.",
+                "point_en": "Low e-waste recycling rates accelerate the depletion of rare minerals and increase carbon emissions from fresh mining.",
+                "point_collocations": [
+                  {
+                    "en": "depletion of rare minerals",
+                    "vi": "cạn kiệt khoáng sản hiếm"
+                  },
+                  {
+                    "en": "fresh mining",
+                    "vi": "khai thác mỏ mới"
+                  }
+                ],
+                "evidence_vi": "Các thiết bị điện tử chứa lượng lớn vàng, bạc, coban và đất hiếm có giá trị kinh tế rất cao nhưng phần lớn lại bị chôn lấp lãng phí. Việc tiếp tục khai thác nguyên liệu thô để bù đắp nguồn cung không chỉ tiêu tốn năng lượng khổng lồ mà còn tàn phá rừng và thúc đẩy biến đổi khí hậu.",
+                "evidence_en": "Electronic gadgets contain substantial quantities of gold, silver, cobalt, and rare-earth elements that are needlessly lost when discarded devices are landfilled. Extracting virgin raw materials to replace these lost resources consumes immense energy, destroys landscapes, and accelerates global warming.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rare-earth elements",
+                      "vi": "nguyên tố đất hiếm"
+                    },
+                    {
+                      "en": "virgin raw materials",
+                      "vi": "nguyên liệu thô khai thác mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "immense energy",
+                      "vi": "năng lượng khổng lồ"
+                    },
+                    {
+                      "en": "accelerate global warming",
+                      "vi": "thúc đẩy nóng lên toàn cầu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "depletion of rare minerals",
+                    "vi": "cạn kiệt khoáng sản hiếm"
+                  },
+                  {
+                    "en": "fresh mining",
+                    "vi": "khai thác mỏ mới"
+                  },
+                  {
+                    "en": "rare-earth elements",
+                    "vi": "nguyên tố đất hiếm"
+                  },
+                  {
+                    "en": "virgin raw materials",
+                    "vi": "nguyên liệu thô khai thác mới"
+                  },
+                  {
+                    "en": "immense energy",
+                    "vi": "năng lượng khổng lồ"
+                  },
+                  {
+                    "en": "accelerate global warming",
+                    "vi": "thúc đẩy nóng lên toàn cầu"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: BẤT CÔNG MÔI TRƯỜNG XUYÊN BIÊN GIỚI (TRANSBOUNDARY ENVIRONMENTAL INJUSTICE)",
+                "point_vi": "Xu hướng xuất khẩu rác thải điện tử sang các nước đang phát triển tạo ra gánh nặng ô nhiễm bất công trên toàn cầu.",
+                "point_en": "The illegal export of electronic waste to developing nations creates severe transboundary environmental injustice.",
+                "point_collocations": [
+                  {
+                    "en": "developing nations",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "environmental injustice",
+                    "vi": "bất công môi trường"
+                  }
+                ],
+                "evidence_vi": "Nhiều quốc gia giàu có né tránh chi phí xử lý nội địa đắt đỏ bằng cách chuyển thiết bị hỏng dưới danh nghĩa hàng cũ sang các nước thu nhập thấp thiếu hạ tầng tái chế. Hậu quả là cộng đồng địa phương tại những quốc gia tiếp nhận phải gánh chịu ô nhiễm nặng nề và chi phí y tế ngày càng leo thang.",
+                "evidence_en": "Wealthier nations sometimes evade steep domestic disposal costs by shipping obsolete electronics disguised as secondhand goods to lower-income countries lacking safe recycling infrastructure. As a result, vulnerable communities in recipient nations bear the brunt of toxic pollution and escalating healthcare burdens.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "obsolete electronics",
+                      "vi": "thiết bị điện tử lỗi thời"
+                    },
+                    {
+                      "en": "safe recycling infrastructure",
+                      "vi": "hạ tầng tái chế an toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bear the brunt of",
+                      "vi": "gánh chịu hậu quả nặng nề nhất"
+                    },
+                    {
+                      "en": "escalating healthcare burdens",
+                      "vi": "gánh nặng y tế leo thang"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "developing nations",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "environmental injustice",
+                    "vi": "bất công môi trường"
+                  },
+                  {
+                    "en": "obsolete electronics",
+                    "vi": "thiết bị điện tử lỗi thời"
+                  },
+                  {
+                    "en": "safe recycling infrastructure",
+                    "vi": "hạ tầng tái chế an toàn"
+                  },
+                  {
+                    "en": "bear the brunt of",
+                    "vi": "gánh chịu hậu quả nặng nề nhất"
+                  },
+                  {
+                    "en": "escalating healthcare burdens",
+                    "vi": "gánh nặng y tế leo thang"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: MỞ RỘNG TRÁCH NHIỆM NHÀ SẢN XUẤT (EXTENDED PRODUCER RESPONSIBILITY)",
+                "point_vi": "Chính phủ cần áp dụng cơ chế trách nhiệm mở rộng của nhà sản xuất để buộc các hãng công nghệ thu hồi và tái chế sản phẩm hết vòng đời.",
+                "point_en": "Governments should mandate Extended Producer Responsibility schemes requiring tech manufacturers to collect and safely recycle end-of-life products.",
+                "point_collocations": [
+                  {
+                    "en": "Extended Producer Responsibility",
+                    "vi": "trách nhiệm mở rộng của nhà sản xuất"
+                  },
+                  {
+                    "en": "end-of-life products",
+                    "vi": "sản phẩm hết vòng đời"
+                  }
+                ],
+                "evidence_vi": "Khi doanh nghiệp phải chi trả chi phí xử lý rác thải từ chính thiết bị họ bán ra, họ sẽ có động lực tài chính mạnh mẽ để loại bỏ vật liệu độc hại như chì hay thủy ngân. Song song đó, chế tài phạt nặng đối với hành vi đổ thải trái phép và xuất khẩu rác lậu sẽ bảo đảm tính răn đe thực tế.",
+                "evidence_en": "When corporations bear the disposal costs of the devices they sell, they gain a strong financial incentive to phase out hazardous materials such as lead and mercury. Simultaneously, heavy fines for illegal dumping and illicit e-waste exports will ensure meaningful regulatory compliance.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "phase out hazardous materials",
+                      "vi": "loại bỏ dần vật liệu độc hại"
+                    },
+                    {
+                      "en": "financial incentive",
+                      "vi": "động lực tài chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "illegal dumping",
+                      "vi": "đổ thải trái phép"
+                    },
+                    {
+                      "en": "regulatory compliance",
+                      "vi": "tuân thủ quy định pháp luật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "Extended Producer Responsibility",
+                    "vi": "trách nhiệm mở rộng của nhà sản xuất"
+                  },
+                  {
+                    "en": "end-of-life products",
+                    "vi": "sản phẩm hết vòng đời"
+                  },
+                  {
+                    "en": "phase out hazardous materials",
+                    "vi": "loại bỏ dần vật liệu độc hại"
+                  },
+                  {
+                    "en": "financial incentive",
+                    "vi": "động lực tài chính"
+                  },
+                  {
+                    "en": "illegal dumping",
+                    "vi": "đổ thải trái phép"
+                  },
+                  {
+                    "en": "regulatory compliance",
+                    "vi": "tuân thủ quy định pháp luật"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: ĐẦU TƯ HẠ TẦNG TÁI CHẾ CÔNG NGHỆ CAO (MODERN RECYCLING INFRASTRUCTURE)",
+                "point_vi": "Nhà nước và khu vực tư nhân cần đầu tư đồng bộ mạng lưới thu gom thuận tiện cùng các nhà máy tái chế hiện đại.",
+                "point_en": "Public and private sectors must invest in accessible collection networks and technologically advanced recycling facilities.",
+                "point_collocations": [
+                  {
+                    "en": "accessible collection networks",
+                    "vi": "mạng lưới thu gom dễ tiếp cận"
+                  },
+                  {
+                    "en": "advanced recycling facilities",
+                    "vi": "cơ sở tái chế công nghệ cao"
+                  }
+                ],
+                "evidence_vi": "Các nhà máy xử lý đạt chuẩn có thể tách chiết an toàn nhựa và kim loại quý để tái đưa vào chuỗi sản xuất theo mô hình kinh tế tuần hoàn mà không phát thải độc tố. Đồng thời, tích hợp lực lượng thu gom phi chính thức vào hệ thống được đào tạo và trang bị bảo hộ sẽ vừa bảo vệ sức khỏe vừa nâng cao hiệu suất thu hồi.",
+                "evidence_en": "Certified plants can safely extract plastics and precious metals for reuse within a circular economy without releasing toxic emissions. Moreover, integrating informal collectors into regulated systems with proper training and safety equipment protects workers while boosting recovery rates.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "circular economy",
+                      "vi": "kinh tế tuần hoàn"
+                    },
+                    {
+                      "en": "precious metals",
+                      "vi": "kim loại quý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "informal collectors",
+                      "vi": "lực lượng thu gom phi chính thức"
+                    },
+                    {
+                      "en": "recovery rates",
+                      "vi": "tỷ lệ thu hồi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "accessible collection networks",
+                    "vi": "mạng lưới thu gom dễ tiếp cận"
+                  },
+                  {
+                    "en": "advanced recycling facilities",
+                    "vi": "cơ sở tái chế công nghệ cao"
+                  },
+                  {
+                    "en": "circular economy",
+                    "vi": "kinh tế tuần hoàn"
+                  },
+                  {
+                    "en": "precious metals",
+                    "vi": "kim loại quý"
+                  },
+                  {
+                    "en": "informal collectors",
+                    "vi": "lực lượng thu gom phi chính thức"
+                  },
+                  {
+                    "en": "recovery rates",
+                    "vi": "tỷ lệ thu hồi"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: QUYỀN ĐƯỢC SỬA CHỮA VÀ THIẾT KẾ BỀN VỮNG (RIGHT TO REPAIR AND ECO-DESIGN)",
+                "point_vi": "Các quy định về quyền được sửa chữa và thiết kế mô-đun bền vững giúp kéo dài vòng đời thiết bị và cắt giảm rác thải tại nguồn.",
+                "point_en": "Right-to-repair legislation and modular eco-design standards can substantially extend device lifespans and curb waste at the source.",
+                "point_collocations": [
+                  {
+                    "en": "right-to-repair legislation",
+                    "vi": "luật quyền được sửa chữa"
+                  },
+                  {
+                    "en": "modular eco-design",
+                    "vi": "thiết kế sinh thái dạng mô-đun"
+                  }
+                ],
+                "evidence_vi": "Yêu cầu nhà sản xuất cung cấp linh kiện thay thế giá hợp lý, hỗ trợ cập nhật phần mềm dài hạn và dùng chuẩn sạc thống nhất sẽ hạn chế tình trạng lỗi thời có chủ đích. Nhờ đó, người tiêu dùng có thể sửa chữa hoặc nâng cấp máy tính, điện thoại thay vì vứt bỏ toàn bộ thiết bị chỉ vì một lỗi nhỏ.",
+                "evidence_en": "Requiring brands to supply affordable spare parts, longer software updates, and universal charging ports helps counter planned obsolescence. Consequently, consumers can repair or upgrade laptops and smartphones instead of discarding entire units over minor faults.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "universal charging ports",
+                      "vi": "cổng sạc tiêu chuẩn chung"
+                    },
+                    {
+                      "en": "planned obsolescence",
+                      "vi": "lỗi thời có chủ đích"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "affordable spare parts",
+                      "vi": "linh kiện thay thế giá hợp lý"
+                    },
+                    {
+                      "en": "minor faults",
+                      "vi": "lỗi nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "right-to-repair legislation",
+                    "vi": "luật quyền được sửa chữa"
+                  },
+                  {
+                    "en": "modular eco-design",
+                    "vi": "thiết kế sinh thái dạng mô-đun"
+                  },
+                  {
+                    "en": "universal charging ports",
+                    "vi": "cổng sạc tiêu chuẩn chung"
+                  },
+                  {
+                    "en": "planned obsolescence",
+                    "vi": "lỗi thời có chủ đích"
+                  },
+                  {
+                    "en": "affordable spare parts",
+                    "vi": "linh kiện thay thế giá hợp lý"
+                  },
+                  {
+                    "en": "minor faults",
+                    "vi": "lỗi nhỏ"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: THÚC ĐẨY TIÊU DÙNG CÓ TRÁCH NHIỆM VÀ TÁI SỬ DỤNG (RESPONSIBLE CONSUMPTION)",
+                "point_vi": "Thay đổi hành vi người tiêu dùng thông qua giáo dục và chương trình thu cũ đổi mới đóng vai trò thiết yếu trong việc giảm rác điện tử.",
+                "point_en": "Shifting consumer habits through public education and structured trade-in initiatives plays a vital role in curbing e-waste.",
+                "point_collocations": [
+                  {
+                    "en": "shifting consumer habits",
+                    "vi": "thay đổi thói quen tiêu dùng"
+                  },
+                  {
+                    "en": "trade-in initiatives",
+                    "vi": "chương trình thu cũ đổi mới"
+                  }
+                ],
+                "evidence_vi": "Các chiến dịch truyền thông cần khuyến khích người dân cưỡng lại xu hướng chạy theo mẫu điện thoại mới hằng năm và phân loại pin, thiết bị hỏng riêng biệt. Bên cạnh đó, chính sách chiết khấu khi trả thiết bị cũ hoặc quyên góp máy tính tân trang cho trường học vùng khó khăn giúp tối đa hóa giá trị sử dụng của mỗi sản phẩm.",
+                "evidence_en": "Awareness campaigns should encourage citizens to resist annual upgrade cycles and separate dead batteries and broken gadgets from household garbage. Additionally, retail discounts for returned electronics and programs donating refurbished laptops to underfunded schools maximize each product's useful life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "annual upgrade cycles",
+                      "vi": "chu kỳ nâng cấp hằng năm"
+                    },
+                    {
+                      "en": "household garbage",
+                      "vi": "rác thải hộ gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "refurbished laptops",
+                      "vi": "máy tính tân trang"
+                    },
+                    {
+                      "en": "underfunded schools",
+                      "vi": "trường học thiếu kinh phí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "shifting consumer habits",
+                    "vi": "thay đổi thói quen tiêu dùng"
+                  },
+                  {
+                    "en": "trade-in initiatives",
+                    "vi": "chương trình thu cũ đổi mới"
+                  },
+                  {
+                    "en": "annual upgrade cycles",
+                    "vi": "chu kỳ nâng cấp hằng năm"
+                  },
+                  {
+                    "en": "household garbage",
+                    "vi": "rác thải hộ gia đình"
+                  },
+                  {
+                    "en": "refurbished laptops",
+                    "vi": "máy tính tân trang"
+                  },
+                  {
+                    "en": "underfunded schools",
+                    "vi": "trường học thiếu kinh phí"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: HỢP TÁC QUỐC TẾ CHỐNG BUÔN LẬU RÁC ĐIỆN TỬ (INTERNATIONAL COOPERATION)",
+                "point_vi": "Tăng cường thực thi các công ước quốc tế và giám sát hải quan giúp ngăn chặn dòng chảy rác điện tử bất hợp pháp xuyên biên giới.",
+                "point_en": "Strengthening international conventions and customs enforcement helps halt the illegal cross-border trafficking of hazardous e-waste.",
+                "point_collocations": [
+                  {
+                    "en": "international conventions",
+                    "vi": "công ước quốc tế"
+                  },
+                  {
+                    "en": "customs enforcement",
+                    "vi": "giám sát thực thi hải quan"
+                  }
+                ],
+                "evidence_vi": "Các quốc gia cần phối hợp chia sẻ dữ liệu vận chuyển, siết chặt kiểm tra container hàng điện tử đã qua sử dụng và hỗ trợ chuyển giao công nghệ tái chế sạch cho nước đang phát triển. Cách tiếp cận toàn cầu này đảm bảo không quốc gia nào trở thành bãi rác độc hại cho phần còn lại của thế giới.",
+                "evidence_en": "Countries must coordinate shipment tracking, tighten inspections of secondhand electronics containers, and transfer clean recycling technologies to developing economies. This coordinated global response ensures that no nation becomes a toxic dumping ground for the rest of the world.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shipment tracking",
+                      "vi": "theo dõi lô hàng"
+                    },
+                    {
+                      "en": "clean recycling technologies",
+                      "vi": "công nghệ tái chế sạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "coordinated global response",
+                      "vi": "phản ứng phối hợp toàn cầu"
+                    },
+                    {
+                      "en": "toxic dumping ground",
+                      "vi": "bãi rác độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "international conventions",
+                    "vi": "công ước quốc tế"
+                  },
+                  {
+                    "en": "customs enforcement",
+                    "vi": "giám sát thực thi hải quan"
+                  },
+                  {
+                    "en": "shipment tracking",
+                    "vi": "theo dõi lô hàng"
+                  },
+                  {
+                    "en": "clean recycling technologies",
+                    "vi": "công nghệ tái chế sạch"
+                  },
+                  {
+                    "en": "coordinated global response",
+                    "vi": "phản ứng phối hợp toàn cầu"
+                  },
+                  {
+                    "en": "toxic dumping ground",
+                    "vi": "bãi rác độc hại"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "electronic waste (e-waste)",
+              "vi": "rác thải điện tử"
+            },
+            {
+              "en": "toxic substances",
+              "vi": "các chất độc hại"
+            },
+            {
+              "en": "pollute soil and groundwater",
+              "vi": "làm ô nhiễm đất và nước ngầm"
+            },
+            {
+              "en": "dumped in landfills",
+              "vi": "bị vứt bỏ tại bãi rác"
+            },
+            {
+              "en": "release poisonous fumes",
+              "vi": "thải ra khói độc"
+            },
+            {
+              "en": "worsen air quality",
+              "vi": "làm suy giảm chất lượng không khí"
+            },
+            {
+              "en": "destroy wildlife habitats",
+              "vi": "phá hủy môi trường sống hoang dã"
+            },
+            {
+              "en": "enter the food chain",
+              "vi": "đi vào chuỗi thức ăn"
+            },
+            {
+              "en": "contaminate underground water tables",
+              "vi": "làm nhiễm độc tầng nước ngầm"
+            },
+            {
+              "en": "degrade fertile farmland",
+              "vi": "làm thoái hóa đất nông nghiệp màu mỡ"
+            },
+            {
+              "en": "emit toxic pollutants",
+              "vi": "phát thải chất ô nhiễm độc hại"
+            },
+            {
+              "en": "infiltrate the human food chain",
+              "vi": "xâm nhập chuỗi thức ăn con người"
+            },
+            {
+              "en": "accelerate mineral depletion",
+              "vi": "đẩy nhanh cạn kiệt khoáng sản"
+            },
+            {
+              "en": "extract virgin raw materials",
+              "vi": "khai thác nguyên liệu thô mới"
+            },
+            {
+              "en": "persistent contamination",
+              "vi": "ô nhiễm dai dẳng lâu dài"
+            },
+            {
+              "en": "disrupt natural ecosystems",
+              "vi": "phá vỡ các hệ sinh thái tự nhiên"
+            },
+            {
+              "en": "heavy metals like lead and mercury",
+              "vi": "kim loại nặng như chì và thủy ngân"
+            },
+            {
+              "en": "serious health problems",
+              "vi": "vấn đề sức khỏe nghiêm trọng"
+            },
+            {
+              "en": "breathing illnesses",
+              "vi": "bệnh đường hô hấp"
+            },
+            {
+              "en": "e-waste dump workers",
+              "vi": "công nhân bãi rác điện tử"
+            },
+            {
+              "en": "discarded electronic devices",
+              "vi": "thiết bị điện tử bị vứt bỏ"
+            },
+            {
+              "en": "absorb harmful chemicals",
+              "vi": "hấp thụ hóa chất độc hại"
+            },
+            {
+              "en": "waste natural resources",
+              "vi": "lãng phí tài nguyên thiên nhiên"
+            },
+            {
+              "en": "high risk of cancer",
+              "vi": "nguy cơ ung thư cao"
+            },
+            {
+              "en": "prolonged exposure to toxins",
+              "vi": "phơi nhiễm kéo dài với độc tố"
+            },
+            {
+              "en": "informal recycling sites",
+              "vi": "cơ sở tái chế thủ công tự phát"
+            },
+            {
+              "en": "inhale lead dust and mercury vapors",
+              "vi": "hít phải bụi chì và hơi thủy ngân"
+            },
+            {
+              "en": "neurological disorders",
+              "vi": "rối loạn thần kinh"
+            },
+            {
+              "en": "chronic respiratory illnesses",
+              "vi": "bệnh hô hấp mạn tính"
+            },
+            {
+              "en": "transboundary environmental injustice",
+              "vi": "bất công môi trường xuyên biên giới"
+            },
+            {
+              "en": "jeopardize drinking water supplies",
+              "vi": "đe dọa nguồn nước uống"
+            },
+            {
+              "en": "bear the brunt of toxic pollution",
+              "vi": "gánh chịu hậu quả nặng nhất của ô nhiễm"
+            },
+            {
+              "en": "convenient collection points",
+              "vi": "điểm thu gom thuận tiện"
+            },
+            {
+              "en": "safe recycling centers",
+              "vi": "trung tâm tái chế an toàn"
+            },
+            {
+              "en": "enforce strict laws",
+              "vi": "thực thi luật nghiêm khắc"
+            },
+            {
+              "en": "take back old products",
+              "vi": "thu hồi sản phẩm cũ"
+            },
+            {
+              "en": "proper waste disposal",
+              "vi": "xử lý rác thải đúng quy cách"
+            },
+            {
+              "en": "trade-in programs",
+              "vi": "chương trình thu cũ đổi mới"
+            },
+            {
+              "en": "safe sorting methods",
+              "vi": "phương pháp phân loại an toàn"
+            },
+            {
+              "en": "raise public awareness",
+              "vi": "nâng cao nhận thức cộng đồng"
+            },
+            {
+              "en": "Extended Producer Responsibility",
+              "vi": "trách nhiệm mở rộng của nhà sản xuất"
+            },
+            {
+              "en": "phase out hazardous materials",
+              "vi": "loại bỏ dần vật liệu độc hại"
+            },
+            {
+              "en": "heavy fines for illegal dumping",
+              "vi": "phạt nặng hành vi đổ thải trái phép"
+            },
+            {
+              "en": "technologically advanced recycling plants",
+              "vi": "nhà máy tái chế công nghệ cao"
+            },
+            {
+              "en": "boost material recovery rates",
+              "vi": "nâng cao tỷ lệ thu hồi vật liệu"
+            },
+            {
+              "en": "support a circular economy",
+              "vi": "thúc đẩy kinh tế tuần hoàn"
+            },
+            {
+              "en": "tighten customs inspections",
+              "vi": "siết chặt kiểm tra hải quan"
+            },
+            {
+              "en": "halt illicit e-waste trafficking",
+              "vi": "chấm dứt buôn lậu rác điện tử"
+            },
+            {
+              "en": "repair broken gadgets",
+              "vi": "sửa chữa thiết bị hỏng"
+            },
+            {
+              "en": "donate working devices",
+              "vi": "quyên góp thiết bị còn dùng được"
+            },
+            {
+              "en": "extend product lifespan",
+              "vi": "kéo dài tuổi thọ sản phẩm"
+            },
+            {
+              "en": "design durable devices",
+              "vi": "thiết kế thiết bị bền bỉ"
+            },
+            {
+              "en": "standard charging cables",
+              "vi": "cáp sạc tiêu chuẩn chung"
+            },
+            {
+              "en": "easily replaceable parts",
+              "vi": "linh kiện dễ thay thế"
+            },
+            {
+              "en": "separate dead batteries",
+              "vi": "phân loại riêng pin hỏng"
+            },
+            {
+              "en": "reduce discarded accessories",
+              "vi": "giảm lượng phụ kiện bị vứt bỏ"
+            },
+            {
+              "en": "right-to-repair legislation",
+              "vi": "luật quyền được sửa chữa"
+            },
+            {
+              "en": "modular eco-design standards",
+              "vi": "tiêu chuẩn thiết kế sinh thái mô-đun"
+            },
+            {
+              "en": "counter planned obsolescence",
+              "vi": "chống lại sự lỗi thời có chủ đích"
+            },
+            {
+              "en": "universal charging ports",
+              "vi": "cổng sạc tiêu chuẩn chung toàn cầu"
+            },
+            {
+              "en": "resist annual upgrade cycles",
+              "vi": "cưỡng lại chu kỳ đổi máy hằng năm"
+            },
+            {
+              "en": "donate refurbished laptops",
+              "vi": "quyên góp máy tính tân trang"
+            },
+            {
+              "en": "curb waste at the source",
+              "vi": "cắt giảm rác thải ngay từ nguồn"
+            },
+            {
+              "en": "shift consumer habits",
+              "vi": "thay đổi thói quen người tiêu dùng"
+            }
+          ],
+          "sample_b1": "In modern society, the rapid disposal of electronic waste from old TVs, computers, and smartphones has become a serious global problem. These discarded devices contain toxic substances such as plastic, lead, and mercury. This essay will discuss the harmful consequences of e-waste and propose practical measures to address this issue.\n\nImproper disposal of <strong>electronic waste</strong> causes severe damage to both nature and human health. First, when old gadgets are <strong>dumped in landfills</strong>, <strong>toxic chemicals</strong> leak into the ground and <strong>pollute soil and groundwater</strong>. Burning plastic cables also releases <strong>poisonous fumes</strong> that worsen air quality. Second, exposure to <strong>heavy metals</strong> threatens human health: workers and residents living near e-waste dumps face high risks of <strong>breathing illnesses</strong> and cancer, while fish and crops can absorb toxins and bring them into the <strong>food chain</strong>. Additionally, throwing away electronics without recycling wastes valuable natural resources such as gold and copper.\n\nFortunately, governments, companies, and citizens can work together to solve this crisis. First, authorities should build convenient <strong>collection points</strong> and <strong>safe recycling centers</strong> while <strong>enforcing strict laws</strong> that require tech companies to <strong>take back old products</strong>. Second, manufacturers should <strong>design durable devices</strong> with <strong>standard charging cables</strong> and replaceable parts. Finally, consumers should <strong>repair broken gadgets</strong>, use them longer, or <strong>donate working devices</strong> instead of buying new models every year, while schools <strong>raise public awareness</strong> about safe sorting.\n\nIn conclusion, e-waste poses serious threats to our environment, health, and resources. By combining stricter regulations, safer recycling, and smarter consumer habits, society can effectively reduce this growing problem.",
+          "translation_b1": "Trong xã hội hiện đại, việc thải bỏ nhanh chóng rác thải điện tử từ TV, máy tính và điện thoại cũ đã trở thành một vấn đề toàn cầu nghiêm trọng. Những thiết bị bị vứt bỏ này chứa nhiều chất độc hại như nhựa, chì và thủy ngân. Bài luận này sẽ bàn luận về các hậu quả nguy hại của rác thải điện tử và đề xuất những biện pháp thiết thực để giải quyết vấn đề này.\n\nViệc thải bỏ <strong>rác thải điện tử</strong> không đúng cách gây tổn hại nặng nề cho cả thiên nhiên lẫn sức khỏe con người. Thứ nhất, khi thiết bị cũ <strong>bị vứt ra bãi rác</strong>, các <strong>hóa chất độc hại</strong> ngấm xuống đất và <strong>làm ô nhiễm đất và nước ngầm</strong>. Việc đốt dây cáp nhựa cũng thải ra <strong>khói độc</strong> làm giảm chất lượng không khí. Thứ hai, tiếp xúc với <strong>kim loại nặng</strong> đe dọa sức khỏe con người: công nhân và người dân sống gần bãi rác điện tử có nguy cơ cao mắc <strong>bệnh đường hô hấp</strong> và ung thư, trong khi cá và cây trồng hấp thụ độc tố rồi đưa vào <strong>chuỗi thức ăn</strong>. Ngoài ra, vứt bỏ đồ điện tử mà không tái chế còn lãng phí tài nguyên quý như vàng và đồng.\n\nMay mắn thay, chính phủ, doanh nghiệp và người dân có thể phối hợp giải quyết cuộc khủng hoảng này. Thứ nhất, chính quyền nên xây dựng các <strong>điểm thu gom</strong> thuận tiện và <strong>trung tâm tái chế an toàn</strong> đồng thời <strong>thực thi luật nghiêm khắc</strong> buộc hãng công nghệ <strong>thu hồi sản phẩm cũ</strong>. Thứ hai, nhà sản xuất nên <strong>thiết kế thiết bị bền bỉ</strong> với <strong>cáp sạc tiêu chuẩn chung</strong> và linh kiện dễ thay thế. Cuối cùng, người tiêu dùng nên <strong>sửa chữa thiết bị hỏng</strong>, sử dụng lâu hơn hoặc <strong>quyên góp thiết bị còn dùng được</strong> thay vì mua máy mới mỗi năm, còn trường học <strong>nâng cao nhận thức cộng đồng</strong> về phân loại an toàn.\n\nTóm lại, rác thải điện tử đe dọa nghiêm trọng đến môi trường, sức khỏe và tài nguyên của chúng ta. Bằng cách kết hợp luật pháp chặt chẽ, tái chế an toàn và thói quen tiêu dùng thông minh hơn, xã hội có thể giảm thiểu hiệu quả vấn đề đang gia tăng này.",
+          "sample_b2": "As technological innovation accelerates, the volume of electronic waste generated from discarded televisions, computers, and smartphones is escalating at an alarming rate. Because these obsolete devices contain hazardous substances such as plastic, lead, and mercury, improper disposal creates far-reaching environmental and human costs. This essay will examine the detrimental consequences of e-waste and propose concrete measures to tackle this escalating crisis.\n\nUnregulated e-waste inflicts severe ecological and public health harm. Primarily, when discarded gadgets accumulate in open landfills, rainwater leaches heavy metals deep into the ground, <strong>contaminating underground water tables</strong> and <strong>degrading fertile farmland</strong>. Similarly, open burning of plastic casings and circuit boards <strong>emits toxic pollutants</strong> such as dioxins, which settle into rivers and <strong>infiltrate the human food chain</strong>. The human toll is equally devastating: workers at <strong>informal recycling sites</strong> frequently <strong>inhale lead dust and mercury vapors</strong>, triggering <strong>neurological disorders</strong>, <strong>chronic respiratory illnesses</strong>, and heightened cancer risks. Beyond toxicity, low recycling rates <strong>accelerate mineral depletion</strong> and perpetuate <strong>transboundary environmental injustice</strong> when wealthier nations ship obsolete electronics to developing countries.\n\nResolving this multifaceted challenge demands coordinated regulatory, industrial, and behavioral solutions. First, governments should mandate <strong>Extended Producer Responsibility</strong> schemes compelling manufacturers to collect end-of-life products and <strong>phase out hazardous materials</strong>, backed by <strong>heavy fines for illegal dumping</strong> and tighter customs checks against illicit exports. Second, public and private investment in <strong>technologically advanced recycling plants</strong> can safely recover precious metals within a <strong>circular economy</strong>. Finally, passing <strong>right-to-repair legislation</strong> and promoting <strong>modular eco-design</strong> will <strong>counter planned obsolescence</strong>, while awareness campaigns and trade-in incentives encourage consumers to <strong>resist annual upgrade cycles</strong> and donate <strong>refurbished laptops</strong>.\n\nIn conclusion, electronic waste severely threatens ecosystems, human health, and global resource security. Only through strict producer accountability, modern recycling infrastructure, and sustainable consumption can society curb e-waste effectively.",
+          "translation_b2": "Khi đổi mới công nghệ tăng tốc, khối lượng rác thải điện tử phát sinh từ TV, máy tính và điện thoại bị vứt bỏ đang leo thang ở mức đáng báo động. Do các thiết bị lỗi thời này chứa nhiều chất nguy hại như nhựa, chì và thủy ngân, việc xử lý thiếu kiểm soát gây ra những tổn thất sâu rộng cho môi trường và con người. Bài luận này sẽ phân tích những hệ quả nghiêm trọng của rác thải điện tử và đề xuất các biện pháp cụ thể để giải quyết cuộc khủng hoảng đang gia tăng này.\n\nRác thải điện tử không được quản lý gây tổn hại nặng nề đến sinh thái và sức khỏe cộng đồng. Trước hết, khi thiết bị bỏ đi chất đống tại bãi rác lộ thiên, nước mưa cuốn kim loại nặng thấm sâu vào lòng đất, <strong>làm nhiễm độc tầng nước ngầm</strong> và <strong>làm thoái hóa đất nông nghiệp màu mỡ</strong>. Tương tự, đốt lộ thiên vỏ nhựa và bảng mạch <strong>phát thải chất ô nhiễm độc hại</strong> như dioxin, sau đó lắng xuống sông ngòi và <strong>xâm nhập chuỗi thức ăn con người</strong>. Tổn thất về sức khỏe cũng nghiêm trọng không kém: người lao động tại các <strong>cơ sở tái chế thủ công tự phát</strong> thường xuyên <strong>hít phải bụi chì và hơi thủy ngân</strong>, dẫn đến <strong>rối loạn thần kinh</strong>, <strong>bệnh hô hấp mạn tính</strong> và nguy cơ ung thư tăng cao. Ngoài độc tính, tỷ lệ tái chế thấp còn <strong>đẩy nhanh cạn kiệt khoáng sản</strong> và kéo dài <strong>bất công môi trường xuyên biên giới</strong> khi các nước giàu xuất khẩu đồ điện tử cũ sang nước đang phát triển.\n\nGiải quyết thách thức đa chiều này đòi hỏi các giải pháp đồng bộ về pháp lý, công nghiệp và hành vi tiêu dùng. Thứ nhất, chính phủ cần bắt buộc cơ chế <strong>trách nhiệm mở rộng của nhà sản xuất</strong> yêu cầu doanh nghiệp thu hồi sản phẩm hết vòng đời và <strong>loại bỏ dần vật liệu độc hại</strong>, đi kèm <strong>phạt nặng hành vi đổ thải trái phép</strong> và siết kiểm tra hải quan chống xuất khẩu lậu. Thứ hai, đầu tư công tư vào các <strong>nhà máy tái chế công nghệ cao</strong> sẽ thu hồi an toàn kim loại quý theo mô hình <strong>kinh tế tuần hoàn</strong>. Cuối cùng, ban hành <strong>luật quyền được sửa chữa</strong> và thúc đẩy <strong>thiết kế sinh thái dạng mô-đun</strong> sẽ <strong>chống lại sự lỗi thời có chủ đích</strong>, trong khi tuyên truyền và chương trình thu cũ đổi mới khuyến khích người dân <strong>cưỡng lại chu kỳ đổi máy hằng năm</strong> và quyên góp <strong>máy tính tân trang</strong>.\n\nTóm lại, rác thải điện tử đe dọa nghiêm trọng hệ sinh thái, sức khỏe con người và an ninh tài nguyên toàn cầu. Chỉ thông qua trách nhiệm chặt chẽ của nhà sản xuất, hạ tầng tái chế hiện đại và tiêu dùng bền vững, xã hội mới có thể kiểm soát hiệu quả rác thải điện tử.",
+          "vocab_step": {
+            "theme": "VSTEP Writing Task 2",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "disposal",
+                "ipa": "/dɪˈspəʊzl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự thải bỏ, xử lý rác",
+                "family": "",
+                "example_en": "Improper disposal of e-waste harms the environment.",
+                "example_vi": ""
+              },
+              {
+                "word": "toxic",
+                "ipa": "/ˈtɒksɪk/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "độc hại",
+                "family": "",
+                "example_en": "Old electronics contain toxic substances like lead and mercury.",
+                "example_vi": ""
+              },
+              {
+                "word": "substance",
+                "ipa": "/ˈsʌbstəns/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "chất, vật chất",
+                "family": "",
+                "example_en": "Harmful substances can leak into underground water.",
+                "example_vi": ""
+              },
+              {
+                "word": "discard",
+                "ipa": "/dɪˈskɑːd/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "vứt bỏ",
+                "family": "",
+                "example_en": "Millions of people discard working smartphones too soon.",
+                "example_vi": ""
+              },
+              {
+                "word": "landfill",
+                "ipa": "/ˈlændfɪl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bãi rác chôn lấp",
+                "family": "",
+                "example_en": "Toxic waste in landfills pollutes surrounding soil.",
+                "example_vi": ""
+              },
+              {
+                "word": "recycle",
+                "ipa": "/ˌriːˈsaɪkl/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "tái chế",
+                "family": "",
+                "example_en": "Safe centers can recycle valuable metals from old TVs.",
+                "example_vi": ""
+              },
+              {
+                "word": "chemical",
+                "ipa": "/ˈkemɪkl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "hóa chất",
+                "family": "",
+                "example_en": "Dangerous chemicals threaten nearby communities.",
+                "example_vi": ""
+              },
+              {
+                "word": "leak",
+                "ipa": "/liːk/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "rò rỉ, thấm ra",
+                "family": "",
+                "example_en": "Lead and mercury can leak into rivers when it rains.",
+                "example_vi": ""
+              },
+              {
+                "word": "metal",
+                "ipa": "/ˈmetl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kim loại",
+                "family": "",
+                "example_en": "Smartphones contain gold, copper, and other rare metals.",
+                "example_vi": ""
+              },
+              {
+                "word": "repair",
+                "ipa": "/rɪˈpeər/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "sửa chữa",
+                "family": "",
+                "example_en": "Repairing broken laptops helps reduce electronic waste.",
+                "example_vi": ""
+              },
+              {
+                "word": "donate",
+                "ipa": "/dəʊˈneɪt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "quyên góp, tặng",
+                "family": "",
+                "example_en": "Families can donate old computers to needy students.",
+                "example_vi": ""
+              },
+              {
+                "word": "durable",
+                "ipa": "/ˈdjʊərəbl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "bền bỉ",
+                "family": "",
+                "example_en": "Companies should build more durable electronic products.",
+                "example_vi": ""
+              },
+              {
+                "word": "gadget",
+                "ipa": "/ˈɡædʒɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thiết bị điện tử nhỏ",
+                "family": "",
+                "example_en": "Rapid tech updates make people replace gadgets frequently.",
+                "example_vi": ""
+              },
+              {
+                "word": "fume",
+                "ipa": "/fjuːm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "khói, khí độc",
+                "family": "",
+                "example_en": "Burning plastic cables produces poisonous fumes.",
+                "example_vi": ""
+              },
+              {
+                "word": "awareness",
+                "ipa": "/əˈweənəs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhận thức",
+                "family": "",
+                "example_en": "Schools should raise awareness about sorting e-waste.",
+                "example_vi": ""
+              },
+              {
+                "word": "lifespan",
+                "ipa": "/ˈlaɪfspæn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tuổi thọ sản phẩm",
+                "family": "",
+                "example_en": "Replacing batteries can extend a phone's lifespan.",
+                "example_vi": ""
+              },
+              {
+                "word": "manufacturer",
+                "ipa": "/ˌmænjuˈfæktʃərər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nhà sản xuất",
+                "family": "",
+                "example_en": "Manufacturers must take responsibility for old products.",
+                "example_vi": ""
+              },
+              {
+                "word": "pollution",
+                "ipa": "/pəˈluːʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự ô nhiễm",
+                "family": "",
+                "example_en": "E-waste causes severe soil, water, and air pollution.",
+                "example_vi": ""
+              },
+              {
+                "word": "contaminate",
+                "ipa": "/kənˈtæmɪneɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm ô nhiễm, nhiễm độc",
+                "family": "",
+                "example_en": "Heavy metals contaminate groundwater for decades.",
+                "example_vi": ""
+              },
+              {
+                "word": "hazardous",
+                "ipa": "/ˈhæzədəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "nguy hại, độc hại",
+                "family": "",
+                "example_en": "Hazardous materials require certified treatment facilities.",
+                "example_vi": ""
+              },
+              {
+                "word": "obsolescence",
+                "ipa": "/ˌɒbsəˈlesns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự lỗi thời",
+                "family": "",
+                "example_en": "Planned obsolescence encourages wasteful consumption.",
+                "example_vi": ""
+              },
+              {
+                "word": "dismantle",
+                "ipa": "/dɪsˈmæntl/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tháo dỡ",
+                "family": "",
+                "example_en": "Informal workers dismantle circuits without protective gear.",
+                "example_vi": ""
+              },
+              {
+                "word": "neurological",
+                "ipa": "/ˌnjʊərəˈlɒdʒɪkl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về thần kinh",
+                "family": "",
+                "example_en": "Lead exposure causes severe neurological disorders.",
+                "example_vi": ""
+              },
+              {
+                "word": "respiratory",
+                "ipa": "/rəˈspɪrətri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về hô hấp",
+                "family": "",
+                "example_en": "Toxic smoke triggers chronic respiratory illnesses.",
+                "example_vi": ""
+              },
+              {
+                "word": "depletion",
+                "ipa": "/dɪˈpliːʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cạn kiệt",
+                "family": "",
+                "example_en": "Low recycling accelerates rare mineral depletion.",
+                "example_vi": ""
+              },
+              {
+                "word": "refurbish",
+                "ipa": "/ˌriːˈfɜːbɪʃ/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tân trang, phục hồi",
+                "family": "",
+                "example_en": "Charities refurbish donated laptops for rural schools.",
+                "example_vi": ""
+              },
+              {
+                "word": "modular",
+                "ipa": "/ˈmɒdjələ(r)/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dạng mô-đun (dễ thay thế)",
+                "family": "",
+                "example_en": "Modular designs allow consumers to swap faulty parts.",
+                "example_vi": ""
+              },
+              {
+                "word": "infiltrate",
+                "ipa": "/ˈɪnfɪltreɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "xâm nhập",
+                "family": "",
+                "example_en": "Heavy metals infiltrate crops and the human food chain.",
+                "example_vi": ""
+              },
+              {
+                "word": "transboundary",
+                "ipa": "/ˌtrænzˈbaʊndri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "xuyên biên giới",
+                "family": "",
+                "example_en": "Illegal e-waste shipping is a transboundary crisis.",
+                "example_vi": ""
+              },
+              {
+                "word": "mandate",
+                "ipa": "/ˈmændeɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "quy định bắt buộc",
+                "family": "",
+                "example_en": "Governments should mandate take-back recycling schemes.",
+                "example_vi": ""
+              },
+              {
+                "word": "circular",
+                "ipa": "/ˈsɜːkjələ(r)/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tuần hoàn",
+                "family": "",
+                "example_en": "Recovering metals supports a sustainable circular economy.",
+                "example_vi": ""
+              },
+              {
+                "word": "escalate",
+                "ipa": "/ˈeskəleɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "leo thang, tăng vọt",
+                "family": "",
+                "example_en": "Global e-waste volumes continue to escalate rapidly.",
+                "example_vi": ""
+              },
+              {
+                "word": "dioxin",
+                "ipa": "/daɪˈɒksɪn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "chất độc đi-ô-xin",
+                "family": "",
+                "example_en": "Open burning of plastic casings releases deadly dioxins.",
+                "example_vi": ""
+              },
+              {
+                "word": "illicit",
+                "ipa": "/ɪˈlɪsɪt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bất hợp pháp, lậu",
+                "family": "",
+                "example_en": "Tighter customs checks curb illicit e-waste exports.",
+                "example_vi": ""
+              },
+              {
+                "word": "jeopardize",
+                "ipa": "/ˈdʒepədaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "gây nguy hiểm, đe dọa",
+                "family": "",
+                "example_en": "Leaking toxins jeopardize community drinking water.",
+                "example_vi": ""
+              },
+              {
+                "word": "bioaccumulative",
+                "ipa": "/ˌbaɪəʊəˈkjuːmjələtɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tích tụ sinh học",
+                "family": "",
+                "example_en": "Mercury is a bioaccumulative toxin harmful to organs.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "electronic waste (e-waste)",
+                "level": "B1",
+                "vi": "rác thải điện tử",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "toxic substances",
+                "level": "B1",
+                "vi": "các chất độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "pollute soil and groundwater",
+                "level": "B1",
+                "vi": "làm ô nhiễm đất và nước ngầm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "dumped in landfills",
+                "level": "B1",
+                "vi": "bị vứt bỏ tại bãi rác",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "release poisonous fumes",
+                "level": "B1",
+                "vi": "thải ra khói độc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "worsen air quality",
+                "level": "B1",
+                "vi": "làm suy giảm chất lượng không khí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "destroy wildlife habitats",
+                "level": "B1",
+                "vi": "phá hủy môi trường sống hoang dã",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "enter the food chain",
+                "level": "B1",
+                "vi": "đi vào chuỗi thức ăn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "contaminate underground water tables",
+                "level": "B2",
+                "vi": "làm nhiễm độc tầng nước ngầm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "degrade fertile farmland",
+                "level": "B2",
+                "vi": "làm thoái hóa đất nông nghiệp màu mỡ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "emit toxic pollutants",
+                "level": "B2",
+                "vi": "phát thải chất ô nhiễm độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "infiltrate the human food chain",
+                "level": "B2",
+                "vi": "xâm nhập chuỗi thức ăn con người",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "accelerate mineral depletion",
+                "level": "B2",
+                "vi": "đẩy nhanh cạn kiệt khoáng sản",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "extract virgin raw materials",
+                "level": "B2",
+                "vi": "khai thác nguyên liệu thô mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "persistent contamination",
+                "level": "B2",
+                "vi": "ô nhiễm dai dẳng lâu dài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "disrupt natural ecosystems",
+                "level": "B2",
+                "vi": "phá vỡ các hệ sinh thái tự nhiên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "heavy metals like lead and mercury",
+                "level": "B1",
+                "vi": "kim loại nặng như chì và thủy ngân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "serious health problems",
+                "level": "B1",
+                "vi": "vấn đề sức khỏe nghiêm trọng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "breathing illnesses",
+                "level": "B1",
+                "vi": "bệnh đường hô hấp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "e-waste dump workers",
+                "level": "B1",
+                "vi": "công nhân bãi rác điện tử",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "discarded electronic devices",
+                "level": "B1",
+                "vi": "thiết bị điện tử bị vứt bỏ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "absorb harmful chemicals",
+                "level": "B1",
+                "vi": "hấp thụ hóa chất độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "waste natural resources",
+                "level": "B1",
+                "vi": "lãng phí tài nguyên thiên nhiên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "high risk of cancer",
+                "level": "B1",
+                "vi": "nguy cơ ung thư cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prolonged exposure to toxins",
+                "level": "B2",
+                "vi": "phơi nhiễm kéo dài với độc tố",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "informal recycling sites",
+                "level": "B2",
+                "vi": "cơ sở tái chế thủ công tự phát",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "inhale lead dust and mercury vapors",
+                "level": "B2",
+                "vi": "hít phải bụi chì và hơi thủy ngân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "neurological disorders",
+                "level": "B2",
+                "vi": "rối loạn thần kinh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "chronic respiratory illnesses",
+                "level": "B2",
+                "vi": "bệnh hô hấp mạn tính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "transboundary environmental injustice",
+                "level": "B2",
+                "vi": "bất công môi trường xuyên biên giới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "jeopardize drinking water supplies",
+                "level": "B2",
+                "vi": "đe dọa nguồn nước uống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "bear the brunt of toxic pollution",
+                "level": "B2",
+                "vi": "gánh chịu hậu quả nặng nhất của ô nhiễm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "convenient collection points",
+                "level": "B1",
+                "vi": "điểm thu gom thuận tiện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safe recycling centers",
+                "level": "B1",
+                "vi": "trung tâm tái chế an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "enforce strict laws",
+                "level": "B1",
+                "vi": "thực thi luật nghiêm khắc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "take back old products",
+                "level": "B1",
+                "vi": "thu hồi sản phẩm cũ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "proper waste disposal",
+                "level": "B1",
+                "vi": "xử lý rác thải đúng quy cách",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "trade-in programs",
+                "level": "B1",
+                "vi": "chương trình thu cũ đổi mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safe sorting methods",
+                "level": "B1",
+                "vi": "phương pháp phân loại an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "raise public awareness",
+                "level": "B1",
+                "vi": "nâng cao nhận thức cộng đồng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "Extended Producer Responsibility",
+                "level": "B2",
+                "vi": "trách nhiệm mở rộng của nhà sản xuất",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "phase out hazardous materials",
+                "level": "B2",
+                "vi": "loại bỏ dần vật liệu độc hại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "heavy fines for illegal dumping",
+                "level": "B2",
+                "vi": "phạt nặng hành vi đổ thải trái phép",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "technologically advanced recycling plants",
+                "level": "B2",
+                "vi": "nhà máy tái chế công nghệ cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "boost material recovery rates",
+                "level": "B2",
+                "vi": "nâng cao tỷ lệ thu hồi vật liệu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support a circular economy",
+                "level": "B2",
+                "vi": "thúc đẩy kinh tế tuần hoàn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tighten customs inspections",
+                "level": "B2",
+                "vi": "siết chặt kiểm tra hải quan",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "halt illicit e-waste trafficking",
+                "level": "B2",
+                "vi": "chấm dứt buôn lậu rác điện tử",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "repair broken gadgets",
+                "level": "B1",
+                "vi": "sửa chữa thiết bị hỏng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "donate working devices",
+                "level": "B1",
+                "vi": "quyên góp thiết bị còn dùng được",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "extend product lifespan",
+                "level": "B1",
+                "vi": "kéo dài tuổi thọ sản phẩm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "design durable devices",
+                "level": "B1",
+                "vi": "thiết kế thiết bị bền bỉ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "standard charging cables",
+                "level": "B1",
+                "vi": "cáp sạc tiêu chuẩn chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "easily replaceable parts",
+                "level": "B1",
+                "vi": "linh kiện dễ thay thế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "separate dead batteries",
+                "level": "B1",
+                "vi": "phân loại riêng pin hỏng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce discarded accessories",
+                "level": "B1",
+                "vi": "giảm lượng phụ kiện bị vứt bỏ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "right-to-repair legislation",
+                "level": "B2",
+                "vi": "luật quyền được sửa chữa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "modular eco-design standards",
+                "level": "B2",
+                "vi": "tiêu chuẩn thiết kế sinh thái mô-đun",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "counter planned obsolescence",
+                "level": "B2",
+                "vi": "chống lại sự lỗi thời có chủ đích",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "universal charging ports",
+                "level": "B2",
+                "vi": "cổng sạc tiêu chuẩn chung toàn cầu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "resist annual upgrade cycles",
+                "level": "B2",
+                "vi": "cưỡng lại chu kỳ đổi máy hằng năm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "donate refurbished laptops",
+                "level": "B2",
+                "vi": "quyên góp máy tính tân trang",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "curb waste at the source",
+                "level": "B2",
+                "vi": "cắt giảm rác thải ngay từ nguồn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "shift consumer habits",
+                "level": "B2",
+                "vi": "thay đổi thói quen người tiêu dùng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Ô nhiễm Môi trường & Hệ sinh thái (Environmental Harm)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "electronic waste (e-waste)",
+                    "phrase": "electronic waste (e-waste)",
+                    "vi": "rác thải điện tử",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "toxic substances",
+                    "phrase": "toxic substances",
+                    "vi": "các chất độc hại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "pollute soil and groundwater",
+                    "phrase": "pollute soil and groundwater",
+                    "vi": "làm ô nhiễm đất và nước ngầm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "dumped in landfills",
+                    "phrase": "dumped in landfills",
+                    "vi": "bị vứt bỏ tại bãi rác",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "release poisonous fumes",
+                    "phrase": "release poisonous fumes",
+                    "vi": "thải ra khói độc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "worsen air quality",
+                    "phrase": "worsen air quality",
+                    "vi": "làm suy giảm chất lượng không khí",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "destroy wildlife habitats",
+                    "phrase": "destroy wildlife habitats",
+                    "vi": "phá hủy môi trường sống hoang dã",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "enter the food chain",
+                    "phrase": "enter the food chain",
+                    "vi": "đi vào chuỗi thức ăn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "contaminate underground water tables",
+                    "phrase": "contaminate underground water tables",
+                    "vi": "làm nhiễm độc tầng nước ngầm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "degrade fertile farmland",
+                    "phrase": "degrade fertile farmland",
+                    "vi": "làm thoái hóa đất nông nghiệp màu mỡ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "emit toxic pollutants",
+                    "phrase": "emit toxic pollutants",
+                    "vi": "phát thải chất ô nhiễm độc hại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "infiltrate the human food chain",
+                    "phrase": "infiltrate the human food chain",
+                    "vi": "xâm nhập chuỗi thức ăn con người",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "accelerate mineral depletion",
+                    "phrase": "accelerate mineral depletion",
+                    "vi": "đẩy nhanh cạn kiệt khoáng sản",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "extract virgin raw materials",
+                    "phrase": "extract virgin raw materials",
+                    "vi": "khai thác nguyên liệu thô mới",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "persistent contamination",
+                    "phrase": "persistent contamination",
+                    "vi": "ô nhiễm dai dẳng lâu dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "phrase": "disrupt natural ecosystems",
+                    "vi": "phá vỡ các hệ sinh thái tự nhiên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Hiểm họa Sức khỏe & Xã hội (Health & Global Impacts)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "heavy metals like lead and mercury",
+                    "phrase": "heavy metals like lead and mercury",
+                    "vi": "kim loại nặng như chì và thủy ngân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "serious health problems",
+                    "phrase": "serious health problems",
+                    "vi": "vấn đề sức khỏe nghiêm trọng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "breathing illnesses",
+                    "phrase": "breathing illnesses",
+                    "vi": "bệnh đường hô hấp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "e-waste dump workers",
+                    "phrase": "e-waste dump workers",
+                    "vi": "công nhân bãi rác điện tử",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "discarded electronic devices",
+                    "phrase": "discarded electronic devices",
+                    "vi": "thiết bị điện tử bị vứt bỏ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "absorb harmful chemicals",
+                    "phrase": "absorb harmful chemicals",
+                    "vi": "hấp thụ hóa chất độc hại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "waste natural resources",
+                    "phrase": "waste natural resources",
+                    "vi": "lãng phí tài nguyên thiên nhiên",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "high risk of cancer",
+                    "phrase": "high risk of cancer",
+                    "vi": "nguy cơ ung thư cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prolonged exposure to toxins",
+                    "phrase": "prolonged exposure to toxins",
+                    "vi": "phơi nhiễm kéo dài với độc tố",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "informal recycling sites",
+                    "phrase": "informal recycling sites",
+                    "vi": "cơ sở tái chế thủ công tự phát",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "inhale lead dust and mercury vapors",
+                    "phrase": "inhale lead dust and mercury vapors",
+                    "vi": "hít phải bụi chì và hơi thủy ngân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "neurological disorders",
+                    "phrase": "neurological disorders",
+                    "vi": "rối loạn thần kinh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "chronic respiratory illnesses",
+                    "phrase": "chronic respiratory illnesses",
+                    "vi": "bệnh hô hấp mạn tính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "transboundary environmental injustice",
+                    "phrase": "transboundary environmental injustice",
+                    "vi": "bất công môi trường xuyên biên giới",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "jeopardize drinking water supplies",
+                    "phrase": "jeopardize drinking water supplies",
+                    "vi": "đe dọa nguồn nước uống",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "bear the brunt of toxic pollution",
+                    "phrase": "bear the brunt of toxic pollution",
+                    "vi": "gánh chịu hậu quả nặng nhất của ô nhiễm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Luật pháp & Hạ tầng Tái chế (Policy & Infrastructure)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "convenient collection points",
+                    "phrase": "convenient collection points",
+                    "vi": "điểm thu gom thuận tiện",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safe recycling centers",
+                    "phrase": "safe recycling centers",
+                    "vi": "trung tâm tái chế an toàn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "enforce strict laws",
+                    "phrase": "enforce strict laws",
+                    "vi": "thực thi luật nghiêm khắc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "take back old products",
+                    "phrase": "take back old products",
+                    "vi": "thu hồi sản phẩm cũ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "proper waste disposal",
+                    "phrase": "proper waste disposal",
+                    "vi": "xử lý rác thải đúng quy cách",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "trade-in programs",
+                    "phrase": "trade-in programs",
+                    "vi": "chương trình thu cũ đổi mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safe sorting methods",
+                    "phrase": "safe sorting methods",
+                    "vi": "phương pháp phân loại an toàn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "raise public awareness",
+                    "phrase": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "Extended Producer Responsibility",
+                    "phrase": "Extended Producer Responsibility",
+                    "vi": "trách nhiệm mở rộng của nhà sản xuất",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "phase out hazardous materials",
+                    "phrase": "phase out hazardous materials",
+                    "vi": "loại bỏ dần vật liệu độc hại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "heavy fines for illegal dumping",
+                    "phrase": "heavy fines for illegal dumping",
+                    "vi": "phạt nặng hành vi đổ thải trái phép",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "technologically advanced recycling plants",
+                    "phrase": "technologically advanced recycling plants",
+                    "vi": "nhà máy tái chế công nghệ cao",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "boost material recovery rates",
+                    "phrase": "boost material recovery rates",
+                    "vi": "nâng cao tỷ lệ thu hồi vật liệu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support a circular economy",
+                    "phrase": "support a circular economy",
+                    "vi": "thúc đẩy kinh tế tuần hoàn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tighten customs inspections",
+                    "phrase": "tighten customs inspections",
+                    "vi": "siết chặt kiểm tra hải quan",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "halt illicit e-waste trafficking",
+                    "phrase": "halt illicit e-waste trafficking",
+                    "vi": "chấm dứt buôn lậu rác điện tử",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Thiết kế Bền vững & Tiêu dùng (Eco-design & Consumers)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "repair broken gadgets",
+                    "phrase": "repair broken gadgets",
+                    "vi": "sửa chữa thiết bị hỏng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "donate working devices",
+                    "phrase": "donate working devices",
+                    "vi": "quyên góp thiết bị còn dùng được",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "extend product lifespan",
+                    "phrase": "extend product lifespan",
+                    "vi": "kéo dài tuổi thọ sản phẩm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "design durable devices",
+                    "phrase": "design durable devices",
+                    "vi": "thiết kế thiết bị bền bỉ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "standard charging cables",
+                    "phrase": "standard charging cables",
+                    "vi": "cáp sạc tiêu chuẩn chung",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "easily replaceable parts",
+                    "phrase": "easily replaceable parts",
+                    "vi": "linh kiện dễ thay thế",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "separate dead batteries",
+                    "phrase": "separate dead batteries",
+                    "vi": "phân loại riêng pin hỏng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce discarded accessories",
+                    "phrase": "reduce discarded accessories",
+                    "vi": "giảm lượng phụ kiện bị vứt bỏ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "right-to-repair legislation",
+                    "phrase": "right-to-repair legislation",
+                    "vi": "luật quyền được sửa chữa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "modular eco-design standards",
+                    "phrase": "modular eco-design standards",
+                    "vi": "tiêu chuẩn thiết kế sinh thái mô-đun",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "counter planned obsolescence",
+                    "phrase": "counter planned obsolescence",
+                    "vi": "chống lại sự lỗi thời có chủ đích",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "universal charging ports",
+                    "phrase": "universal charging ports",
+                    "vi": "cổng sạc tiêu chuẩn chung toàn cầu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "resist annual upgrade cycles",
+                    "phrase": "resist annual upgrade cycles",
+                    "vi": "cưỡng lại chu kỳ đổi máy hằng năm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "donate refurbished laptops",
+                    "phrase": "donate refurbished laptops",
+                    "vi": "quyên góp máy tính tân trang",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "curb waste at the source",
+                    "phrase": "curb waste at the source",
+                    "vi": "cắt giảm rác thải ngay từ nguồn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "shift consumer habits",
+                    "phrase": "shift consumer habits",
+                    "vi": "thay đổi thói quen người tiêu dùng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Khoa học",
+                "title": "Rác thải điện tử: Nguy cơ ô nhiễm kim loại nặng và bài toán tái chế",
+                "summary": "Tổng quan về tác hại của chì, thủy ngân trong rác thải điện tử đối với sức khỏe, môi trường và giải pháp thu gom tái chế an toàn.",
+                "url": "https://vnexpress.net/khoa-hoc"
+              }
+            ],
+            "en": [
+              {
+                "source": "World Health Organization (WHO)",
+                "title": "Electronic waste (e-waste): Health risks and solutions",
+                "summary": "WHO fact sheet detailing the toxic health effects of lead, mercury, and informal e-waste recycling alongside global policy actions.",
+                "url": "https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 57,
+        "title_en": "Wearing matching clothes among young friends",
+        "title_vi": "Giới trẻ mặc đồ giống nhau theo nhóm bạn thân",
+        "tags": "[Causes & Effects]",
+        "context": "In recent years, wearing matching clothes or adopting similar fashion styles has become an increasingly attractive trend among close groups of young friends. While many teenagers and young adults enjoy coordinating outfits for outings, trips, and photos, some observers wonder whether dressing alike reduces personal uniqueness.",
+        "context_vi": "Trong những năm gần đây, việc mặc quần áo giống nhau hoặc theo đuổi phong cách thời trang tương đồng đã trở thành một xu hướng ngày càng thu hút trong các nhóm bạn trẻ thân thiết. Trong khi nhiều bạn trẻ thích phối đồ đồng bộ khi đi chơi, du lịch và chụp ảnh, một số người lại băn khoăn liệu việc mặc giống nhau có làm giảm nét riêng cá nhân hay không.",
+        "prompt": "Write an essay to an educated reader to discuss why young people enjoy dressing similarly to their close friends and whether this trend stifles personal individuality. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận lý do vì sao giới trẻ thích ăn mặc giống nhau với nhóm bạn thân và liệu xu hướng này có kìm hãm cá tính cá nhân hay không. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "wearing matching clothes / coordinating similar outfits",
+            "vi": "mặc quần áo giống nhau / phối trang phục đồng bộ"
+          },
+          {
+            "en": "dressing similarly to close peers",
+            "vi": "ăn mặc tương đồng với nhóm bạn thân"
+          },
+          {
+            "en": "expressing group identity and solidarity",
+            "vi": "thể hiện bản sắc nhóm và sự gắn bó"
+          },
+          {
+            "en": "stifling personal individuality / undermining uniqueness",
+            "vi": "kìm hãm cá tính cá nhân / làm mờ nét riêng"
+          },
+          {
+            "en": "balancing collective harmony with creative self-expression",
+            "vi": "cân bằng sự hài hòa tập thể với cá tính sáng tạo"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "causes": [
+              {
+                "title": "NGUYÊN NHÂN 01: THỂ HIỆN SỰ GẮN KẾT VÀ CẢM GIÁC THUỘC VỀ NHÓM BẠN",
+                "point_vi": "Mặc quần áo giống nhau giúp các bạn trẻ thể hiện tình bạn thân thiết và cảm giác gắn kết trong nhóm.",
+                "point_en": "Wearing matching clothes helps young people show close friendship and a strong sense of belonging.",
+                "point_collocations": [
+                  {
+                    "en": "matching clothes",
+                    "vi": "quần áo giống nhau / đồ nhóm"
+                  },
+                  {
+                    "en": "sense of belonging",
+                    "vi": "cảm giác thuộc về"
+                  }
+                ],
+                "evidence_vi": "Khi cùng diện trang phục tương đồng, cả nhóm cảm thấy gần gũi nhau hơn và dễ dàng cho mọi người thấy họ là bạn thân.",
+                "evidence_en": "When friends wear similar outfits together, they feel closer to one another and proudly show everyone that they are a tight-knit group.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "similar outfits",
+                      "vi": "trang phục tương đồng"
+                    },
+                    {
+                      "en": "tight-knit group",
+                      "vi": "nhóm gắn bó thân thiết"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "matching clothes",
+                    "vi": "quần áo giống nhau / đồ nhóm"
+                  },
+                  {
+                    "en": "sense of belonging",
+                    "vi": "cảm giác thuộc về"
+                  },
+                  {
+                    "en": "similar outfits",
+                    "vi": "trang phục tương đồng"
+                  },
+                  {
+                    "en": "tight-knit group",
+                    "vi": "nhóm gắn bó thân thiết"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: ẢNH HƯỞNG TỪ MẠNG XÃ HỘI VÀ CHỤP ẢNH ĐẸP",
+                "point_vi": "Trào lưu mạng xã hội và mong muốn có những bức ảnh nhóm đẹp mắt thúc đẩy giới trẻ mặc đồ đồng bộ.",
+                "point_en": "Social media trends and the desire for attractive group photos encourage young people to dress alike.",
+                "point_collocations": [
+                  {
+                    "en": "social media trends",
+                    "vi": "trào lưu mạng xã hội"
+                  },
+                  {
+                    "en": "group photos",
+                    "vi": "ảnh chụp nhóm"
+                  }
+                ],
+                "evidence_vi": "Những bức ảnh bạn bè mặc trang phục cùng tông màu trông rất nổi bật trên Instagram hay TikTok và thường nhận được nhiều lượt thích.",
+                "evidence_en": "Photos of friends wearing coordinated colors look eye-catching on Instagram or TikTok and often attract lots of likes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "coordinated colors",
+                      "vi": "màu sắc đồng bộ"
+                    },
+                    {
+                      "en": "eye-catching",
+                      "vi": "bắt mắt, nổi bật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "social media trends",
+                    "vi": "trào lưu mạng xã hội"
+                  },
+                  {
+                    "en": "group photos",
+                    "vi": "ảnh chụp nhóm"
+                  },
+                  {
+                    "en": "coordinated colors",
+                    "vi": "màu sắc đồng bộ"
+                  },
+                  {
+                    "en": "eye-catching",
+                    "vi": "bắt mắt, nổi bật"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: TĂNG SỰ TỰ TIN VÀ GIẢM NỖI LO BỊ ĐÁNH GIÁ",
+                "point_vi": "Mặc phong cách giống bạn bè giúp nhiều bạn trẻ cảm thấy tự tin và an tâm hơn khi ra ngoài.",
+                "point_en": "Dressing like their peers helps many young people feel more confident and comfortable in public.",
+                "point_collocations": [
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
+                    "en": "dress like peers",
+                    "vi": "mặc giống bạn bè"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ sợ bị chê lỗi mốt hoặc lạc lõng nên việc mặc đồ tương tự bạn thân giúp họ cảm thấy dễ hòa nhập hơn.",
+                "evidence_en": "Many teenagers worry about looking unfashionable or standing out awkwardly, so dressing like close friends helps them fit in easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fit in easily",
+                      "vi": "dễ dàng hòa nhập"
+                    },
+                    {
+                      "en": "standing out awkwardly",
+                      "vi": "lạc lõng / nổi bật gượng gạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
+                    "en": "dress like peers",
+                    "vi": "mặc giống bạn bè"
+                  },
+                  {
+                    "en": "fit in easily",
+                    "vi": "dễ dàng hòa nhập"
+                  },
+                  {
+                    "en": "standing out awkwardly",
+                    "vi": "lạc lõng / nổi bật gượng gạo"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: TIẾT KIỆM THỜI GIAN PHỐI ĐỒ VÀ HƯỞNG ƯU ĐÃI MUA NHÓM",
+                "point_vi": "Chọn đồ nhóm giúp giới trẻ đỡ tốn thời gian suy nghĩ mặc gì và đôi khi mua được với giá rẻ hơn.",
+                "point_en": "Choosing group outfits saves time deciding what to wear and can also bring shopping discounts.",
+                "point_collocations": [
+                  {
+                    "en": "group outfits",
+                    "vi": "trang phục nhóm"
+                  },
+                  {
+                    "en": "shopping discounts",
+                    "vi": "ưu đãi giảm giá mua sắm"
+                  }
+                ],
+                "evidence_vi": "Nhiều cửa hàng thời trang giảm giá khi khách mua nhiều sản phẩm cùng lúc, giúp sinh viên và học sinh tiết kiệm chi phí đáng kể.",
+                "evidence_en": "Many fashion shops offer lower prices when customers buy several identical items together, helping students save a noticeable amount of money.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identical items",
+                      "vi": "món đồ giống hệt nhau"
+                    },
+                    {
+                      "en": "save money",
+                      "vi": "tiết kiệm tiền"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "group outfits",
+                    "vi": "trang phục nhóm"
+                  },
+                  {
+                    "en": "shopping discounts",
+                    "vi": "ưu đãi giảm giá mua sắm"
+                  },
+                  {
+                    "en": "identical items",
+                    "vi": "món đồ giống hệt nhau"
+                  },
+                  {
+                    "en": "save money",
+                    "vi": "tiết kiệm tiền"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: TẠO KỶ NIỆM ĐÁNG NHỚ TRONG DỊP ĐẶC BIỆT",
+                "point_vi": "Mặc đồ đồng bộ mang lại niềm vui và tạo kỷ niệm khó quên trong các chuyến du lịch hay lễ hội.",
+                "point_en": "Wearing matching outfits adds fun and creates unforgettable memories during trips and special events.",
+                "point_collocations": [
+                  {
+                    "en": "unforgettable memories",
+                    "vi": "kỷ niệm khó quên"
+                  },
+                  {
+                    "en": "special events",
+                    "vi": "dịp đặc biệt"
+                  }
+                ],
+                "evidence_vi": "Các nhóm bạn thường lên ý tưởng trang phục chung khi đi biển, dự lễ tốt nghiệp hoặc đi xem hòa nhạc để đánh dấu khoảnh khắc tuổi trẻ.",
+                "evidence_en": "Friend groups often plan matching themes for beach trips, graduation parties, or music concerts to celebrate meaningful moments of youth.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "matching themes",
+                      "vi": "chủ đề trang phục đồng bộ"
+                    },
+                    {
+                      "en": "graduation parties",
+                      "vi": "tiệc tốt nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unforgettable memories",
+                    "vi": "kỷ niệm khó quên"
+                  },
+                  {
+                    "en": "special events",
+                    "vi": "dịp đặc biệt"
+                  },
+                  {
+                    "en": "matching themes",
+                    "vi": "chủ đề trang phục đồng bộ"
+                  },
+                  {
+                    "en": "graduation parties",
+                    "vi": "tiệc tốt nghiệp"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "title": "TÁC ĐỘNG 01: CÓ THỂ LÀM MỜ NHẠT PHONG CÁCH CÁ NHÂN NẾU LẠM DỤNG",
+                "point_vi": "Mặc giống bạn bè quá thường xuyên có thể hạn chế cơ hội thể hiện gu thẩm mỹ riêng của mỗi người.",
+                "point_en": "Dressing identically to friends too often can limit opportunities to express personal fashion taste.",
+                "point_collocations": [
+                  {
+                    "en": "personal fashion taste",
+                    "vi": "gu thời trang cá nhân"
+                  },
+                  {
+                    "en": "limit opportunities",
+                    "vi": "hạn chế cơ hội"
+                  }
+                ],
+                "evidence_vi": "Nếu lúc nào cũng mặc theo lựa chọn chung của nhóm, người trẻ có thể dần ngại thử những phong cách sáng tạo mang dấu ấn riêng.",
+                "evidence_en": "If young people always follow the group's choices, they may become hesitant to experiment with creative styles of their own.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "follow the group's choices",
+                      "vi": "làm theo lựa chọn của nhóm"
+                    },
+                    {
+                      "en": "creative styles",
+                      "vi": "phong cách sáng tạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal fashion taste",
+                    "vi": "gu thời trang cá nhân"
+                  },
+                  {
+                    "en": "limit opportunities",
+                    "vi": "hạn chế cơ hội"
+                  },
+                  {
+                    "en": "follow the group's choices",
+                    "vi": "làm theo lựa chọn của nhóm"
+                  },
+                  {
+                    "en": "creative styles",
+                    "vi": "phong cách sáng tạo"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: TẠO ÁP LỰC ĐỒNG TRANG LỨA VÀ CHI TIÊU KHÔNG CẦN THIẾT",
+                "point_vi": "Xu hướng mặc đồ nhóm đôi khi tạo áp lực khiến một số bạn phải mua trang phục không hợp hoặc tốn tiền.",
+                "point_en": "This trend can create peer pressure, forcing some friends to buy outfits that do not suit them or cost too much.",
+                "point_collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực bạn bè đồng trang lứa"
+                  },
+                  {
+                    "en": "cost too much",
+                    "vi": "tốn quá nhiều tiền"
+                  }
+                ],
+                "evidence_vi": "Một số bạn trẻ chấp nhận mặc màu sắc hoặc kiểu dáng mình không thích chỉ để tránh làm mất lòng cả nhóm bạn thân.",
+                "evidence_en": "Some young people agree to wear colors or styles they dislike simply to avoid upsetting their close circle of friends.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "close circle of friends",
+                      "vi": "nhóm bạn thân thiết"
+                    },
+                    {
+                      "en": "avoid upsetting",
+                      "vi": "tránh làm mất lòng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực bạn bè đồng trang lứa"
+                  },
+                  {
+                    "en": "cost too much",
+                    "vi": "tốn quá nhiều tiền"
+                  },
+                  {
+                    "en": "close circle of friends",
+                    "vi": "nhóm bạn thân thiết"
+                  },
+                  {
+                    "en": "avoid upsetting",
+                    "vi": "tránh làm mất lòng"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: KHÔNG TRIỆT TIÊU CÁ TÍNH NHỜ PHỤ KIỆN VÀ CÁCH PHỐI RIÊNG",
+                "point_vi": "Tuy nhiên, mặc đồ tương đồng không nhất thiết làm mất cá tính vì mỗi người vẫn tạo dấu ấn qua phụ kiện.",
+                "point_en": "However, wearing similar clothes does not necessarily destroy individuality because each person adds unique accessories.",
+                "point_collocations": [
+                  {
+                    "en": "destroy individuality",
+                    "vi": "triệt tiêu cá tính riêng"
+                  },
+                  {
+                    "en": "unique accessories",
+                    "vi": "phụ kiện độc đáo"
+                  }
+                ],
+                "evidence_vi": "Cùng một mẫu áo hoặc tông màu, mỗi bạn vẫn có thể chọn kiểu tóc, giày dép, túi xách và cách phối khác nhau để thể hiện nét riêng.",
+                "evidence_en": "Even with the same shirt or color theme, each friend can choose different hairstyles, shoes, bags, and styling details to stay unique.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "color theme",
+                      "vi": "tông màu chung"
+                    },
+                    {
+                      "en": "styling details",
+                      "vi": "chi tiết phối đồ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "destroy individuality",
+                    "vi": "triệt tiêu cá tính riêng"
+                  },
+                  {
+                    "en": "unique accessories",
+                    "vi": "phụ kiện độc đáo"
+                  },
+                  {
+                    "en": "color theme",
+                    "vi": "tông màu chung"
+                  },
+                  {
+                    "en": "styling details",
+                    "vi": "chi tiết phối đồ"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: CÁ TÍNH THẬT SỰ THỂ HIỆN QUA TÍNH CÁCH VÀ TƯ DUY",
+                "point_vi": "Bản sắc cá nhân của một người chủ yếu thể hiện qua tính cách, suy nghĩ và hành động chứ không chỉ qua quần áo.",
+                "point_en": "A person's true individuality comes mainly from their personality, thoughts, and actions rather than just clothes.",
+                "point_collocations": [
+                  {
+                    "en": "true individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "thoughts and actions",
+                    "vi": "suy nghĩ và hành động"
+                  }
+                ],
+                "evidence_vi": "Hai người bạn mặc áo giống nhau vẫn hoàn toàn khác biệt về sở thích, cách trò chuyện, tài năng và mục tiêu sống.",
+                "evidence_en": "Two friends wearing identical shirts still remain completely different in their hobbies, humor, talents, and life goals.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identical shirts",
+                      "vi": "áo giống hệt nhau"
+                    },
+                    {
+                      "en": "life goals",
+                      "vi": "mục tiêu sống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "true individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "thoughts and actions",
+                    "vi": "suy nghĩ và hành động"
+                  },
+                  {
+                    "en": "identical shirts",
+                    "vi": "áo giống hệt nhau"
+                  },
+                  {
+                    "en": "life goals",
+                    "vi": "mục tiêu sống"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: GIÚP NGƯỜI TRẺ KHÁM PHÁ VÀ XÂY DỰNG PHONG CÁCH DẦN DẦN",
+                "point_vi": "Thử nghiệm thời trang cùng nhóm bạn thực chất có thể giúp người trẻ khám phá xem mình phù hợp với phong cách nào.",
+                "point_en": "Experimenting with fashion alongside friends can actually help young people discover what styles suit them best.",
+                "point_collocations": [
+                  {
+                    "en": "experiment with fashion",
+                    "vi": "thử nghiệm thời trang"
+                  },
+                  {
+                    "en": "suit them best",
+                    "vi": "phù hợp nhất với họ"
+                  }
+                ],
+                "evidence_vi": "Thông qua việc chia sẻ ý tưởng phối đồ với bạn bè, nhiều bạn học được cách chọn trang phục đẹp hơn và tự tin phát triển phong cách riêng sau này.",
+                "evidence_en": "By exchanging outfit ideas with peers, many teenagers learn how to dress better and gain the confidence to develop their own style later.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "exchange outfit ideas",
+                      "vi": "trao đổi ý tưởng phối đồ"
+                    },
+                    {
+                      "en": "develop their own style",
+                      "vi": "phát triển phong cách riêng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "experiment with fashion",
+                    "vi": "thử nghiệm thời trang"
+                  },
+                  {
+                    "en": "suit them best",
+                    "vi": "phù hợp nhất với họ"
+                  },
+                  {
+                    "en": "exchange outfit ideas",
+                    "vi": "trao đổi ý tưởng phối đồ"
+                  },
+                  {
+                    "en": "develop their own style",
+                    "vi": "phát triển phong cách riêng"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: THỂ HIỆN SỰ GẮN KẾT VÀ CẢM GIÁC THUỘC VỀ NHÓM BẠN",
+                "point_vi": "Mặc quần áo giống nhau giúp các bạn trẻ thể hiện tình bạn thân thiết và cảm giác gắn kết trong nhóm.",
+                "point_en": "Wearing matching clothes helps young people show close friendship and a strong sense of belonging.",
+                "point_collocations": [
+                  {
+                    "en": "matching clothes",
+                    "vi": "quần áo giống nhau / đồ nhóm"
+                  },
+                  {
+                    "en": "sense of belonging",
+                    "vi": "cảm giác thuộc về"
+                  }
+                ],
+                "evidence_vi": "Khi cùng diện trang phục tương đồng, cả nhóm cảm thấy gần gũi nhau hơn và dễ dàng cho mọi người thấy họ là bạn thân.",
+                "evidence_en": "When friends wear similar outfits together, they feel closer to one another and proudly show everyone that they are a tight-knit group.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "similar outfits",
+                      "vi": "trang phục tương đồng"
+                    },
+                    {
+                      "en": "tight-knit group",
+                      "vi": "nhóm gắn bó thân thiết"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "matching clothes",
+                    "vi": "quần áo giống nhau / đồ nhóm"
+                  },
+                  {
+                    "en": "sense of belonging",
+                    "vi": "cảm giác thuộc về"
+                  },
+                  {
+                    "en": "similar outfits",
+                    "vi": "trang phục tương đồng"
+                  },
+                  {
+                    "en": "tight-knit group",
+                    "vi": "nhóm gắn bó thân thiết"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: ẢNH HƯỞNG TỪ MẠNG XÃ HỘI VÀ CHỤP ẢNH ĐẸP",
+                "point_vi": "Trào lưu mạng xã hội và mong muốn có những bức ảnh nhóm đẹp mắt thúc đẩy giới trẻ mặc đồ đồng bộ.",
+                "point_en": "Social media trends and the desire for attractive group photos encourage young people to dress alike.",
+                "point_collocations": [
+                  {
+                    "en": "social media trends",
+                    "vi": "trào lưu mạng xã hội"
+                  },
+                  {
+                    "en": "group photos",
+                    "vi": "ảnh chụp nhóm"
+                  }
+                ],
+                "evidence_vi": "Những bức ảnh bạn bè mặc trang phục cùng tông màu trông rất nổi bật trên Instagram hay TikTok và thường nhận được nhiều lượt thích.",
+                "evidence_en": "Photos of friends wearing coordinated colors look eye-catching on Instagram or TikTok and often attract lots of likes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "coordinated colors",
+                      "vi": "màu sắc đồng bộ"
+                    },
+                    {
+                      "en": "eye-catching",
+                      "vi": "bắt mắt, nổi bật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "social media trends",
+                    "vi": "trào lưu mạng xã hội"
+                  },
+                  {
+                    "en": "group photos",
+                    "vi": "ảnh chụp nhóm"
+                  },
+                  {
+                    "en": "coordinated colors",
+                    "vi": "màu sắc đồng bộ"
+                  },
+                  {
+                    "en": "eye-catching",
+                    "vi": "bắt mắt, nổi bật"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: TĂNG SỰ TỰ TIN VÀ GIẢM NỖI LO BỊ ĐÁNH GIÁ",
+                "point_vi": "Mặc phong cách giống bạn bè giúp nhiều bạn trẻ cảm thấy tự tin và an tâm hơn khi ra ngoài.",
+                "point_en": "Dressing like their peers helps many young people feel more confident and comfortable in public.",
+                "point_collocations": [
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
+                    "en": "dress like peers",
+                    "vi": "mặc giống bạn bè"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ sợ bị chê lỗi mốt hoặc lạc lõng nên việc mặc đồ tương tự bạn thân giúp họ cảm thấy dễ hòa nhập hơn.",
+                "evidence_en": "Many teenagers worry about looking unfashionable or standing out awkwardly, so dressing like close friends helps them fit in easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fit in easily",
+                      "vi": "dễ dàng hòa nhập"
+                    },
+                    {
+                      "en": "standing out awkwardly",
+                      "vi": "lạc lõng / nổi bật gượng gạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
+                    "en": "dress like peers",
+                    "vi": "mặc giống bạn bè"
+                  },
+                  {
+                    "en": "fit in easily",
+                    "vi": "dễ dàng hòa nhập"
+                  },
+                  {
+                    "en": "standing out awkwardly",
+                    "vi": "lạc lõng / nổi bật gượng gạo"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: TIẾT KIỆM THỜI GIAN PHỐI ĐỒ VÀ HƯỞNG ƯU ĐÃI MUA NHÓM",
+                "point_vi": "Chọn đồ nhóm giúp giới trẻ đỡ tốn thời gian suy nghĩ mặc gì và đôi khi mua được với giá rẻ hơn.",
+                "point_en": "Choosing group outfits saves time deciding what to wear and can also bring shopping discounts.",
+                "point_collocations": [
+                  {
+                    "en": "group outfits",
+                    "vi": "trang phục nhóm"
+                  },
+                  {
+                    "en": "shopping discounts",
+                    "vi": "ưu đãi giảm giá mua sắm"
+                  }
+                ],
+                "evidence_vi": "Nhiều cửa hàng thời trang giảm giá khi khách mua nhiều sản phẩm cùng lúc, giúp sinh viên và học sinh tiết kiệm chi phí đáng kể.",
+                "evidence_en": "Many fashion shops offer lower prices when customers buy several identical items together, helping students save a noticeable amount of money.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identical items",
+                      "vi": "món đồ giống hệt nhau"
+                    },
+                    {
+                      "en": "save money",
+                      "vi": "tiết kiệm tiền"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "group outfits",
+                    "vi": "trang phục nhóm"
+                  },
+                  {
+                    "en": "shopping discounts",
+                    "vi": "ưu đãi giảm giá mua sắm"
+                  },
+                  {
+                    "en": "identical items",
+                    "vi": "món đồ giống hệt nhau"
+                  },
+                  {
+                    "en": "save money",
+                    "vi": "tiết kiệm tiền"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: TẠO KỶ NIỆM ĐÁNG NHỚ TRONG DỊP ĐẶC BIỆT",
+                "point_vi": "Mặc đồ đồng bộ mang lại niềm vui và tạo kỷ niệm khó quên trong các chuyến du lịch hay lễ hội.",
+                "point_en": "Wearing matching outfits adds fun and creates unforgettable memories during trips and special events.",
+                "point_collocations": [
+                  {
+                    "en": "unforgettable memories",
+                    "vi": "kỷ niệm khó quên"
+                  },
+                  {
+                    "en": "special events",
+                    "vi": "dịp đặc biệt"
+                  }
+                ],
+                "evidence_vi": "Các nhóm bạn thường lên ý tưởng trang phục chung khi đi biển, dự lễ tốt nghiệp hoặc đi xem hòa nhạc để đánh dấu khoảnh khắc tuổi trẻ.",
+                "evidence_en": "Friend groups often plan matching themes for beach trips, graduation parties, or music concerts to celebrate meaningful moments of youth.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "matching themes",
+                      "vi": "chủ đề trang phục đồng bộ"
+                    },
+                    {
+                      "en": "graduation parties",
+                      "vi": "tiệc tốt nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unforgettable memories",
+                    "vi": "kỷ niệm khó quên"
+                  },
+                  {
+                    "en": "special events",
+                    "vi": "dịp đặc biệt"
+                  },
+                  {
+                    "en": "matching themes",
+                    "vi": "chủ đề trang phục đồng bộ"
+                  },
+                  {
+                    "en": "graduation parties",
+                    "vi": "tiệc tốt nghiệp"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "TÁC ĐỘNG 01: CÓ THỂ LÀM MỜ NHẠT PHONG CÁCH CÁ NHÂN NẾU LẠM DỤNG",
+                "point_vi": "Mặc giống bạn bè quá thường xuyên có thể hạn chế cơ hội thể hiện gu thẩm mỹ riêng của mỗi người.",
+                "point_en": "Dressing identically to friends too often can limit opportunities to express personal fashion taste.",
+                "point_collocations": [
+                  {
+                    "en": "personal fashion taste",
+                    "vi": "gu thời trang cá nhân"
+                  },
+                  {
+                    "en": "limit opportunities",
+                    "vi": "hạn chế cơ hội"
+                  }
+                ],
+                "evidence_vi": "Nếu lúc nào cũng mặc theo lựa chọn chung của nhóm, người trẻ có thể dần ngại thử những phong cách sáng tạo mang dấu ấn riêng.",
+                "evidence_en": "If young people always follow the group's choices, they may become hesitant to experiment with creative styles of their own.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "follow the group's choices",
+                      "vi": "làm theo lựa chọn của nhóm"
+                    },
+                    {
+                      "en": "creative styles",
+                      "vi": "phong cách sáng tạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal fashion taste",
+                    "vi": "gu thời trang cá nhân"
+                  },
+                  {
+                    "en": "limit opportunities",
+                    "vi": "hạn chế cơ hội"
+                  },
+                  {
+                    "en": "follow the group's choices",
+                    "vi": "làm theo lựa chọn của nhóm"
+                  },
+                  {
+                    "en": "creative styles",
+                    "vi": "phong cách sáng tạo"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: TẠO ÁP LỰC ĐỒNG TRANG LỨA VÀ CHI TIÊU KHÔNG CẦN THIẾT",
+                "point_vi": "Xu hướng mặc đồ nhóm đôi khi tạo áp lực khiến một số bạn phải mua trang phục không hợp hoặc tốn tiền.",
+                "point_en": "This trend can create peer pressure, forcing some friends to buy outfits that do not suit them or cost too much.",
+                "point_collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực bạn bè đồng trang lứa"
+                  },
+                  {
+                    "en": "cost too much",
+                    "vi": "tốn quá nhiều tiền"
+                  }
+                ],
+                "evidence_vi": "Một số bạn trẻ chấp nhận mặc màu sắc hoặc kiểu dáng mình không thích chỉ để tránh làm mất lòng cả nhóm bạn thân.",
+                "evidence_en": "Some young people agree to wear colors or styles they dislike simply to avoid upsetting their close circle of friends.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "close circle of friends",
+                      "vi": "nhóm bạn thân thiết"
+                    },
+                    {
+                      "en": "avoid upsetting",
+                      "vi": "tránh làm mất lòng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực bạn bè đồng trang lứa"
+                  },
+                  {
+                    "en": "cost too much",
+                    "vi": "tốn quá nhiều tiền"
+                  },
+                  {
+                    "en": "close circle of friends",
+                    "vi": "nhóm bạn thân thiết"
+                  },
+                  {
+                    "en": "avoid upsetting",
+                    "vi": "tránh làm mất lòng"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: KHÔNG TRIỆT TIÊU CÁ TÍNH NHỜ PHỤ KIỆN VÀ CÁCH PHỐI RIÊNG",
+                "point_vi": "Tuy nhiên, mặc đồ tương đồng không nhất thiết làm mất cá tính vì mỗi người vẫn tạo dấu ấn qua phụ kiện.",
+                "point_en": "However, wearing similar clothes does not necessarily destroy individuality because each person adds unique accessories.",
+                "point_collocations": [
+                  {
+                    "en": "destroy individuality",
+                    "vi": "triệt tiêu cá tính riêng"
+                  },
+                  {
+                    "en": "unique accessories",
+                    "vi": "phụ kiện độc đáo"
+                  }
+                ],
+                "evidence_vi": "Cùng một mẫu áo hoặc tông màu, mỗi bạn vẫn có thể chọn kiểu tóc, giày dép, túi xách và cách phối khác nhau để thể hiện nét riêng.",
+                "evidence_en": "Even with the same shirt or color theme, each friend can choose different hairstyles, shoes, bags, and styling details to stay unique.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "color theme",
+                      "vi": "tông màu chung"
+                    },
+                    {
+                      "en": "styling details",
+                      "vi": "chi tiết phối đồ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "destroy individuality",
+                    "vi": "triệt tiêu cá tính riêng"
+                  },
+                  {
+                    "en": "unique accessories",
+                    "vi": "phụ kiện độc đáo"
+                  },
+                  {
+                    "en": "color theme",
+                    "vi": "tông màu chung"
+                  },
+                  {
+                    "en": "styling details",
+                    "vi": "chi tiết phối đồ"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: CÁ TÍNH THẬT SỰ THỂ HIỆN QUA TÍNH CÁCH VÀ TƯ DUY",
+                "point_vi": "Bản sắc cá nhân của một người chủ yếu thể hiện qua tính cách, suy nghĩ và hành động chứ không chỉ qua quần áo.",
+                "point_en": "A person's true individuality comes mainly from their personality, thoughts, and actions rather than just clothes.",
+                "point_collocations": [
+                  {
+                    "en": "true individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "thoughts and actions",
+                    "vi": "suy nghĩ và hành động"
+                  }
+                ],
+                "evidence_vi": "Hai người bạn mặc áo giống nhau vẫn hoàn toàn khác biệt về sở thích, cách trò chuyện, tài năng và mục tiêu sống.",
+                "evidence_en": "Two friends wearing identical shirts still remain completely different in their hobbies, humor, talents, and life goals.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identical shirts",
+                      "vi": "áo giống hệt nhau"
+                    },
+                    {
+                      "en": "life goals",
+                      "vi": "mục tiêu sống"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "true individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "thoughts and actions",
+                    "vi": "suy nghĩ và hành động"
+                  },
+                  {
+                    "en": "identical shirts",
+                    "vi": "áo giống hệt nhau"
+                  },
+                  {
+                    "en": "life goals",
+                    "vi": "mục tiêu sống"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: GIÚP NGƯỜI TRẺ KHÁM PHÁ VÀ XÂY DỰNG PHONG CÁCH DẦN DẦN",
+                "point_vi": "Thử nghiệm thời trang cùng nhóm bạn thực chất có thể giúp người trẻ khám phá xem mình phù hợp với phong cách nào.",
+                "point_en": "Experimenting with fashion alongside friends can actually help young people discover what styles suit them best.",
+                "point_collocations": [
+                  {
+                    "en": "experiment with fashion",
+                    "vi": "thử nghiệm thời trang"
+                  },
+                  {
+                    "en": "suit them best",
+                    "vi": "phù hợp nhất với họ"
+                  }
+                ],
+                "evidence_vi": "Thông qua việc chia sẻ ý tưởng phối đồ với bạn bè, nhiều bạn học được cách chọn trang phục đẹp hơn và tự tin phát triển phong cách riêng sau này.",
+                "evidence_en": "By exchanging outfit ideas with peers, many teenagers learn how to dress better and gain the confidence to develop their own style later.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "exchange outfit ideas",
+                      "vi": "trao đổi ý tưởng phối đồ"
+                    },
+                    {
+                      "en": "develop their own style",
+                      "vi": "phát triển phong cách riêng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "experiment with fashion",
+                    "vi": "thử nghiệm thời trang"
+                  },
+                  {
+                    "en": "suit them best",
+                    "vi": "phù hợp nhất với họ"
+                  },
+                  {
+                    "en": "exchange outfit ideas",
+                    "vi": "trao đổi ý tưởng phối đồ"
+                  },
+                  {
+                    "en": "develop their own style",
+                    "vi": "phát triển phong cách riêng"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "causes": [
+              {
+                "title": "NGUYÊN NHÂN 01: NHU CẦU THUỘC VỀ VÀ BẢN SẮC NHÓM (SENSE OF BELONGING AND GROUP IDENTITY)",
+                "point_vi": "Mặc trang phục đồng bộ đáp ứng nhu cầu tâm lý sâu sắc của giới trẻ về sự gắn kết và bản sắc tập thể.",
+                "point_en": "Wearing matching outfits fulfills young people's deep psychological need for social connection and shared group identity.",
+                "point_collocations": [
+                  {
+                    "en": "shared group identity",
+                    "vi": "bản sắc nhóm chung"
+                  },
+                  {
+                    "en": "social connection",
+                    "vi": "sự kết nối xã hội"
+                  }
+                ],
+                "evidence_vi": "Ở độ tuổi thanh thiếu niên và đầu trưởng thành, tình bạn đóng vai trò trung tâm trong việc xây dựng sự tự tin và cảm giác an toàn về mặt cảm xúc. Việc cùng diện một phong cách thời trang hoạt động như dấu hiệu trực quan khẳng định lòng trung thành, sự thấu hiểu và tình gắn bó khăng khít giữa các thành viên.",
+                "evidence_en": "During adolescence and early adulthood, peer circles play a central role in shaping emotional security and self-esteem. Adopting a coordinated dress style acts as a visible emblem of loyalty, mutual understanding, and genuine solidarity among close friends.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "emotional security",
+                      "vi": "sự an toàn về cảm xúc"
+                    },
+                    {
+                      "en": "peer circles",
+                      "vi": "vòng kết nối bạn bè"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "visible emblem",
+                      "vi": "biểu tượng trực quan"
+                    },
+                    {
+                      "en": "genuine solidarity",
+                      "vi": "tình đoàn kết chân thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "shared group identity",
+                    "vi": "bản sắc nhóm chung"
+                  },
+                  {
+                    "en": "social connection",
+                    "vi": "sự kết nối xã hội"
+                  },
+                  {
+                    "en": "emotional security",
+                    "vi": "sự an toàn về cảm xúc"
+                  },
+                  {
+                    "en": "peer circles",
+                    "vi": "vòng kết nối bạn bè"
+                  },
+                  {
+                    "en": "visible emblem",
+                    "vi": "biểu tượng trực quan"
+                  },
+                  {
+                    "en": "genuine solidarity",
+                    "vi": "tình đoàn kết chân thực"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: VĂN HÓA MẠNG XÃ HỘI VÀ THẨM MỸ HÌNH ẢNH (SOCIAL MEDIA AND VISUAL AESTHETICS)",
+                "point_vi": "Sự bùng nổ của các nền tảng mạng xã hội thiên về hình ảnh đã biến trang phục nhóm đồng bộ thành trào lưu thời thượng.",
+                "point_en": "The rise of visually driven social media platforms has popularized coordinated group dressing as an appealing aesthetic trend.",
+                "point_collocations": [
+                  {
+                    "en": "visually driven platforms",
+                    "vi": "nền tảng thiên về hình ảnh"
+                  },
+                  {
+                    "en": "aesthetic trend",
+                    "vi": "xu hướng thẩm mỹ"
+                  }
+                ],
+                "evidence_vi": "Trên các mạng xã hội như Instagram hay TikTok, những khung hình bạn bè diện trang phục đồng điệu về màu sắc hay phong cách thường nổi bật hơn hẳn và dễ thu hút tương tác. Bên cạnh đó, ảnh hưởng từ các nhóm nhạc thần tượng và người có sức ảnh hưởng thời trang càng khiến giới trẻ hào hứng tái hiện phong cách nhóm.",
+                "evidence_en": "On platforms such as Instagram and TikTok, photos of friends in color-coordinated ensembles appear remarkably polished and naturally generate higher online engagement. Furthermore, exposure to pop groups and fashion influencers inspires young audiences to emulate synchronized group aesthetics in their own social lives.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "color-coordinated ensembles",
+                      "vi": "trang phục đồng bộ màu sắc"
+                    },
+                    {
+                      "en": "online engagement",
+                      "vi": "tương tác trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fashion influencers",
+                      "vi": "người ảnh hưởng thời trang"
+                    },
+                    {
+                      "en": "synchronized aesthetics",
+                      "vi": "thẩm mỹ đồng bộ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "visually driven platforms",
+                    "vi": "nền tảng thiên về hình ảnh"
+                  },
+                  {
+                    "en": "aesthetic trend",
+                    "vi": "xu hướng thẩm mỹ"
+                  },
+                  {
+                    "en": "color-coordinated ensembles",
+                    "vi": "trang phục đồng bộ màu sắc"
+                  },
+                  {
+                    "en": "online engagement",
+                    "vi": "tương tác trực tuyến"
+                  },
+                  {
+                    "en": "fashion influencers",
+                    "vi": "người ảnh hưởng thời trang"
+                  },
+                  {
+                    "en": "synchronized aesthetics",
+                    "vi": "thẩm mỹ đồng bộ"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: SỰ AN TÂM TÂM LÝ VÀ NỖI SỢ BỊ TÁCH BIỆT (SOCIAL REASSURANCE)",
+                "point_vi": "Diện phong cách tương đồng với bạn bè mang lại sự an tâm tâm lý và giảm lo âu về việc bị đánh giá khác biệt.",
+                "point_en": "Dressing similarly to close peers provides psychological reassurance and eases anxiety about social judgment.",
+                "point_collocations": [
+                  {
+                    "en": "psychological reassurance",
+                    "vi": "sự an tâm về tâm lý"
+                  },
+                  {
+                    "en": "social judgment",
+                    "vi": "sự đánh giá từ xã hội"
+                  }
+                ],
+                "evidence_vi": "Nhiều người trẻ vẫn đang trong quá trình định hình gu thẩm mỹ nên họ cảm thấy tự tin hơn khi lựa chọn trang phục được nhóm bạn công nhận. Sự đồng thuận về phong cách giúp giảm áp lực phải tự mình khẳng định cá tính quá sớm và bảo vệ họ khỏi cảm giác lạc lõng giữa đám đông.",
+                "evidence_en": "Because many young people are still developing confidence in their personal taste, wearing peer-approved outfits feels far less intimidating. Shared stylistic choices reduce the fear of awkward mistakes and shield teenagers from feeling alienated in social settings.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "peer-approved outfits",
+                      "vi": "trang phục được bạn bè đồng tình"
+                    },
+                    {
+                      "en": "less intimidating",
+                      "vi": "ít gây lo ngại hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stylistic choices",
+                      "vi": "lựa chọn phong cách"
+                    },
+                    {
+                      "en": "feeling alienated",
+                      "vi": "cảm giác bị tách biệt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "psychological reassurance",
+                    "vi": "sự an tâm về tâm lý"
+                  },
+                  {
+                    "en": "social judgment",
+                    "vi": "sự đánh giá từ xã hội"
+                  },
+                  {
+                    "en": "peer-approved outfits",
+                    "vi": "trang phục được bạn bè đồng tình"
+                  },
+                  {
+                    "en": "less intimidating",
+                    "vi": "ít gây lo ngại hơn"
+                  },
+                  {
+                    "en": "stylistic choices",
+                    "vi": "lựa chọn phong cách"
+                  },
+                  {
+                    "en": "feeling alienated",
+                    "vi": "cảm giác bị tách biệt"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: TÍNH TIỆN LỢI VÀ LỢI ÍCH KINH TẾ KHI MUA SẮM CHUNG (PRACTICALITY AND COST SHARING)",
+                "point_vi": "Lên đồ đồng bộ mang lại lợi ích thiết thực về mặt thời gian phối đồ cũng như tối ưu chi phí mua sắm cho giới trẻ.",
+                "point_en": "Coordinating similar styles offers practical convenience in outfit planning as well as tangible financial advantages for young shoppers.",
+                "point_collocations": [
+                  {
+                    "en": "outfit planning",
+                    "vi": "lên kế hoạch phối đồ"
+                  },
+                  {
+                    "en": "financial advantages",
+                    "vi": "lợi thế tài chính"
+                  }
+                ],
+                "evidence_vi": "Khi cả nhóm thống nhất một chủ đề hoặc bảng màu, mỗi cá nhân không còn phải mất nhiều thời gian băn khoăn xem nên mặc gì cho phù hợp hoàn cảnh. Hơn nữa, các cửa hàng trực tuyến thường tung ra mã giảm giá mua theo nhóm hoặc miễn phí vận chuyển, rất phù hợp với ngân sách hạn chế của học sinh, sinh viên.",
+                "evidence_en": "Once a group agrees on a shared palette or dress theme, individuals spend far less time agonizing over what to wear for outings. Moreover, online retailers frequently offer bulk discounts and shared shipping perks that fit neatly within students' modest budgets.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shared palette",
+                      "vi": "bảng màu chung"
+                    },
+                    {
+                      "en": "dress theme",
+                      "vi": "chủ đề trang phục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bulk discounts",
+                      "vi": "giảm giá mua số lượng nhiều"
+                    },
+                    {
+                      "en": "modest budgets",
+                      "vi": "ngân sách hạn chế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "outfit planning",
+                    "vi": "lên kế hoạch phối đồ"
+                  },
+                  {
+                    "en": "financial advantages",
+                    "vi": "lợi thế tài chính"
+                  },
+                  {
+                    "en": "shared palette",
+                    "vi": "bảng màu chung"
+                  },
+                  {
+                    "en": "dress theme",
+                    "vi": "chủ đề trang phục"
+                  },
+                  {
+                    "en": "bulk discounts",
+                    "vi": "giảm giá mua số lượng nhiều"
+                  },
+                  {
+                    "en": "modest budgets",
+                    "vi": "ngân sách hạn chế"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: ĐÁNH DẤU KỶ NIỆM VÀ SỰ KIỆN ĐẶC BIỆT (MARKING SHARED MILESTONES)",
+                "point_vi": "Trang phục đồng bộ thường được giới trẻ lựa chọn như một cách sáng tạo để lưu giữ kỷ niệm trong những cột mốc chung.",
+                "point_en": "Matching attire is frequently used by young friends as a playful way to commemorate trips, festivals, and shared milestones.",
+                "point_collocations": [
+                  {
+                    "en": "matching attire",
+                    "vi": "trang phục đồng bộ"
+                  },
+                  {
+                    "en": "shared milestones",
+                    "vi": "những cột mốc chung"
+                  }
+                ],
+                "evidence_vi": "Trong các chuyến du lịch, buổi hòa nhạc hay lễ tốt nghiệp, việc cùng lên ý tưởng trang phục biến quá trình chuẩn bị thành một trải nghiệm gắn kết đầy hứng khởi. Nhiều năm sau nhìn lại, những bộ đồ chung đó trở thành dấu ấn thị giác gợi nhớ rõ nét về một giai đoạn tuổi trẻ rực rỡ.",
+                "evidence_en": "For holidays, music festivals, or graduation trips, brainstorming a group dress code turns preparation itself into an exciting bonding ritual. Years later, those coordinated outfits serve as vivid visual reminders of cherished chapters of youth.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bonding ritual",
+                      "vi": "nghi thức gắn kết"
+                    },
+                    {
+                      "en": "group dress code",
+                      "vi": "quy ước trang phục nhóm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "vivid visual reminders",
+                      "vi": "dấu ấn thị giác sống động"
+                    },
+                    {
+                      "en": "cherished chapters",
+                      "vi": "những chặng ký ức đáng quý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "matching attire",
+                    "vi": "trang phục đồng bộ"
+                  },
+                  {
+                    "en": "shared milestones",
+                    "vi": "những cột mốc chung"
+                  },
+                  {
+                    "en": "bonding ritual",
+                    "vi": "nghi thức gắn kết"
+                  },
+                  {
+                    "en": "group dress code",
+                    "vi": "quy ước trang phục nhóm"
+                  },
+                  {
+                    "en": "vivid visual reminders",
+                    "vi": "dấu ấn thị giác sống động"
+                  },
+                  {
+                    "en": "cherished chapters",
+                    "vi": "những chặng ký ức đáng quý"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "title": "TÁC ĐỘNG 01: NGUY CƠ HÒA TAN SÁNG TẠO NẾU ĐỒNG NHẤT QUÁ MỨC (RISK OF EXCESSIVE CONFORMITY)",
+                "point_vi": "Nếu biến thành thói quen cứng nhắc hằng ngày, việc mặc giống hệt bạn bè có thể dần kìm hãm sự sáng tạo thẩm mỹ cá nhân.",
+                "point_en": "If practiced rigidly on a daily basis, dressing identically to peers can gradually stifle personal stylistic creativity.",
+                "point_collocations": [
+                  {
+                    "en": "stifle creativity",
+                    "vi": "kìm hãm sự sáng tạo"
+                  },
+                  {
+                    "en": "rigidly practiced",
+                    "vi": "thực hiện một cách cứng nhắc"
+                  }
+                ],
+                "evidence_vi": "Khi người trẻ liên tục đặt sự đồng điệu của tập thể lên trên sở thích thực sự của bản thân, họ dễ mất đi động lực khám phá màu sắc hay phom dáng phản ánh cái tôi riêng. Về lâu dài, thói quen rập khuôn bề ngoài có thể củng cố tâm lý đám đông và làm giảm sự tự tin khi đứng độc lập.",
+                "evidence_en": "When young people consistently prioritize group uniformity over personal preference, they may lose the impulse to explore colors, silhouettes, or styles that reflect their inner self. Over time, habitual visual conformity can reinforce herd mentality and weaken confidence when standing apart from the crowd.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "group uniformity",
+                      "vi": "sự đồng nhất của nhóm"
+                    },
+                    {
+                      "en": "inner self",
+                      "vi": "cái tôi bên trong"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "visual conformity",
+                      "vi": "sự rập khuôn về ngoại hình"
+                    },
+                    {
+                      "en": "herd mentality",
+                      "vi": "tâm lý đám đông"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stifle creativity",
+                    "vi": "kìm hãm sự sáng tạo"
+                  },
+                  {
+                    "en": "rigidly practiced",
+                    "vi": "thực hiện một cách cứng nhắc"
+                  },
+                  {
+                    "en": "group uniformity",
+                    "vi": "sự đồng nhất của nhóm"
+                  },
+                  {
+                    "en": "inner self",
+                    "vi": "cái tôi bên trong"
+                  },
+                  {
+                    "en": "visual conformity",
+                    "vi": "sự rập khuôn về ngoại hình"
+                  },
+                  {
+                    "en": "herd mentality",
+                    "vi": "tâm lý đám đông"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: ÁP LỰC ĐỒNG TRANG LỨA VÀ GÁNH NẶNG TIÊU DÙNG (PEER PRESSURE AND CONSUMPTION)",
+                "point_vi": "Trào lưu mặc đồ nhóm đôi khi tạo áp lực ngầm buộc một số cá nhân hy sinh sự thoải mái và chi tiêu vượt khả năng.",
+                "point_en": "Group fashion trends can exert subtle peer pressure, pushing some individuals to compromise personal comfort and overspend.",
+                "point_collocations": [
+                  {
+                    "en": "subtle peer pressure",
+                    "vi": "áp lực đồng trang lứa ngầm"
+                  },
+                  {
+                    "en": "compromise personal comfort",
+                    "vi": "hy sinh sự thoải mái cá nhân"
+                  }
+                ],
+                "evidence_vi": "Không phải mọi thành viên trong nhóm đều có vóc dáng, gu thẩm mỹ hay điều kiện tài chính giống nhau, nên việc chạy theo mẫu đồ chung dễ khiến người có thu nhập thấp cảm thấy áp lực. Ngoài ra, mua trang phục đồng bộ chỉ để mặc một lần chụp ảnh còn góp phần thúc đẩy tiêu dùng nhanh lãng phí.",
+                "evidence_en": "Because friends differ in body types, tastes, and budgets, strictly matching outfits can leave less affluent members feeling uncomfortable or financially strained. Furthermore, purchasing coordinated outfits solely for a single photo shoot risks encouraging wasteful fast-fashion consumption.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "financially strained",
+                      "vi": "căng thẳng về tài chính"
+                    },
+                    {
+                      "en": "strictly matching outfits",
+                      "vi": "trang phục giống hệt nhau hoàn toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "single photo shoot",
+                      "vi": "một buổi chụp ảnh duy nhất"
+                    },
+                    {
+                      "en": "wasteful consumption",
+                      "vi": "tiêu dùng lãng phí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "subtle peer pressure",
+                    "vi": "áp lực đồng trang lứa ngầm"
+                  },
+                  {
+                    "en": "compromise personal comfort",
+                    "vi": "hy sinh sự thoải mái cá nhân"
+                  },
+                  {
+                    "en": "financially strained",
+                    "vi": "căng thẳng về tài chính"
+                  },
+                  {
+                    "en": "strictly matching outfits",
+                    "vi": "trang phục giống hệt nhau hoàn toàn"
+                  },
+                  {
+                    "en": "single photo shoot",
+                    "vi": "một buổi chụp ảnh duy nhất"
+                  },
+                  {
+                    "en": "wasteful consumption",
+                    "vi": "tiêu dùng lãng phí"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: BẢO TOÀN CÁ TÍNH QUA CÁ NHÂN HÓA TRANG PHỤC (PRESERVING UNIQUENESS THROUGH STYLING)",
+                "point_vi": "Tuy nhiên, trong thực tế xu hướng này hiếm khi triệt tiêu cá tính vì giới trẻ vẫn khéo léo tạo dấu ấn riêng qua cách phối đồ.",
+                "point_en": "In practice, however, this trend rarely extinguishes individuality because young people creatively personalize shared themes.",
+                "point_collocations": [
+                  {
+                    "en": "extinguish individuality",
+                    "vi": "triệt tiêu cá tính"
+                  },
+                  {
+                    "en": "personalize shared themes",
+                    "vi": "cá nhân hóa chủ đề chung"
+                  }
+                ],
+                "evidence_vi": "Thay vì mặc đồng phục giống hệt từng chi tiết, đa số nhóm bạn hiện nay chỉ chọn chung một bảng màu hoặc phong cách tổng thể rồi tự do biến tấu bằng phụ kiện, kiểu tóc và giày dép. Sự kết hợp hài hòa giữa điểm chung và nét riêng đó thậm chí còn thể hiện tư duy thẩm mỹ tinh tế hơn.",
+                "evidence_en": "Rather than wearing identical uniforms from head to toe, most modern friend groups choose a loose color palette or general vibe and customize it through accessories, footwear, and layering. Blending collective harmony with subtle personal touches actually showcases sharper fashion creativity.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "loose color palette",
+                      "vi": "bảng màu chung linh hoạt"
+                    },
+                    {
+                      "en": "customize through accessories",
+                      "vi": "biến tấu qua phụ kiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collective harmony",
+                      "vi": "sự hài hòa tập thể"
+                    },
+                    {
+                      "en": "personal touches",
+                      "vi": "dấu ấn cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extinguish individuality",
+                    "vi": "triệt tiêu cá tính"
+                  },
+                  {
+                    "en": "personalize shared themes",
+                    "vi": "cá nhân hóa chủ đề chung"
+                  },
+                  {
+                    "en": "loose color palette",
+                    "vi": "bảng màu chung linh hoạt"
+                  },
+                  {
+                    "en": "customize through accessories",
+                    "vi": "biến tấu qua phụ kiện"
+                  },
+                  {
+                    "en": "collective harmony",
+                    "vi": "sự hài hòa tập thể"
+                  },
+                  {
+                    "en": "personal touches",
+                    "vi": "dấu ấn cá nhân"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: BẢN SẮC CÁ NHÂN VƯỢT XA VẺ BỀ NGOÀI (INDIVIDUALITY BEYOND CLOTHING)",
+                "point_vi": "Cá tính đích thực của một con người được định hình bởi tư duy, giá trị sống và hành động chứ không phụ thuộc hoàn toàn vào quần áo.",
+                "point_en": "Authentic individuality is fundamentally rooted in a person's mindset, values, and actions rather than surface appearance alone.",
+                "point_collocations": [
+                  {
+                    "en": "authentic individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "surface appearance",
+                    "vi": "vẻ bề ngoài"
+                  }
+                ],
+                "evidence_vi": "Việc mặc áo giống bạn bè trong vài dịp đi chơi hoàn toàn không xóa nhòa quan điểm độc lập, khiếu hài hước, tài năng hay định hướng tương lai của mỗi cá nhân. Do đó, đánh đồng trang phục tương đồng với sự đánh mất bản sắc cá nhân là một góc nhìn khá phiến diện.",
+                "evidence_en": "Wearing matching outfits on occasional outings does nothing to erase a young person's independent thinking, humor, talents, or life ambitions. Consequently, equating occasional stylistic similarity with a loss of personal identity is an overly narrow view.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "independent thinking",
+                      "vi": "tư duy độc lập"
+                    },
+                    {
+                      "en": "life ambitions",
+                      "vi": "hoài bão cuộc sống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stylistic similarity",
+                      "vi": "sự tương đồng về phong cách"
+                    },
+                    {
+                      "en": "overly narrow view",
+                      "vi": "góc nhìn quá phiến diện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "authentic individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "surface appearance",
+                    "vi": "vẻ bề ngoài"
+                  },
+                  {
+                    "en": "independent thinking",
+                    "vi": "tư duy độc lập"
+                  },
+                  {
+                    "en": "life ambitions",
+                    "vi": "hoài bão cuộc sống"
+                  },
+                  {
+                    "en": "stylistic similarity",
+                    "vi": "sự tương đồng về phong cách"
+                  },
+                  {
+                    "en": "overly narrow view",
+                    "vi": "góc nhìn quá phiến diện"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: BỆ PHÓNG AN TOÀN ĐỂ HÌNH THÀNH PHONG CÁCH RIÊNG (STEPPING STONE TO PERSONAL STYLE)",
+                "point_vi": "Trái với lo ngại, việc trải nghiệm thời trang theo nhóm có thể trở thành bước đệm an toàn giúp người trẻ dần định hình phong cách cá nhân.",
+                "point_en": "Contrary to common fears, experimenting with group fashion can serve as a safe stepping stone toward developing one's own distinct style.",
+                "point_collocations": [
+                  {
+                    "en": "safe stepping stone",
+                    "vi": "bước đệm an toàn"
+                  },
+                  {
+                    "en": "distinct style",
+                    "vi": "phong cách riêng biệt"
+                  }
+                ],
+                "evidence_vi": "Những bạn trẻ vốn rụt rè thường nhờ có bạn bè đồng hành mới dám thử các màu sắc nổi bật hoặc xu hướng mới lạ mà bình thường họ không dám mặc một mình. Quá trình học hỏi và điều chỉnh từ trải nghiệm chung đó dần giúp họ nhận ra bản thân thực sự yêu thích điều gì.",
+                "evidence_en": "Shyer adolescents often rely on the morale boost of friends to try bold colors or unfamiliar trends they would never wear alone. Through this collaborative experimentation, they gradually discern what genuinely suits them and evolve a confident personal style.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "morale boost",
+                      "vi": "cú hích tinh thần"
+                    },
+                    {
+                      "en": "bold colors",
+                      "vi": "màu sắc nổi bật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collaborative experimentation",
+                      "vi": "sự thử nghiệm cùng nhau"
+                    },
+                    {
+                      "en": "confident personal style",
+                      "vi": "phong cách cá nhân tự tin"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "safe stepping stone",
+                    "vi": "bước đệm an toàn"
+                  },
+                  {
+                    "en": "distinct style",
+                    "vi": "phong cách riêng biệt"
+                  },
+                  {
+                    "en": "morale boost",
+                    "vi": "cú hích tinh thần"
+                  },
+                  {
+                    "en": "bold colors",
+                    "vi": "màu sắc nổi bật"
+                  },
+                  {
+                    "en": "collaborative experimentation",
+                    "vi": "sự thử nghiệm cùng nhau"
+                  },
+                  {
+                    "en": "confident personal style",
+                    "vi": "phong cách cá nhân tự tin"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: NHU CẦU THUỘC VỀ VÀ BẢN SẮC NHÓM (SENSE OF BELONGING AND GROUP IDENTITY)",
+                "point_vi": "Mặc trang phục đồng bộ đáp ứng nhu cầu tâm lý sâu sắc của giới trẻ về sự gắn kết và bản sắc tập thể.",
+                "point_en": "Wearing matching outfits fulfills young people's deep psychological need for social connection and shared group identity.",
+                "point_collocations": [
+                  {
+                    "en": "shared group identity",
+                    "vi": "bản sắc nhóm chung"
+                  },
+                  {
+                    "en": "social connection",
+                    "vi": "sự kết nối xã hội"
+                  }
+                ],
+                "evidence_vi": "Ở độ tuổi thanh thiếu niên và đầu trưởng thành, tình bạn đóng vai trò trung tâm trong việc xây dựng sự tự tin và cảm giác an toàn về mặt cảm xúc. Việc cùng diện một phong cách thời trang hoạt động như dấu hiệu trực quan khẳng định lòng trung thành, sự thấu hiểu và tình gắn bó khăng khít giữa các thành viên.",
+                "evidence_en": "During adolescence and early adulthood, peer circles play a central role in shaping emotional security and self-esteem. Adopting a coordinated dress style acts as a visible emblem of loyalty, mutual understanding, and genuine solidarity among close friends.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "emotional security",
+                      "vi": "sự an toàn về cảm xúc"
+                    },
+                    {
+                      "en": "peer circles",
+                      "vi": "vòng kết nối bạn bè"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "visible emblem",
+                      "vi": "biểu tượng trực quan"
+                    },
+                    {
+                      "en": "genuine solidarity",
+                      "vi": "tình đoàn kết chân thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "shared group identity",
+                    "vi": "bản sắc nhóm chung"
+                  },
+                  {
+                    "en": "social connection",
+                    "vi": "sự kết nối xã hội"
+                  },
+                  {
+                    "en": "emotional security",
+                    "vi": "sự an toàn về cảm xúc"
+                  },
+                  {
+                    "en": "peer circles",
+                    "vi": "vòng kết nối bạn bè"
+                  },
+                  {
+                    "en": "visible emblem",
+                    "vi": "biểu tượng trực quan"
+                  },
+                  {
+                    "en": "genuine solidarity",
+                    "vi": "tình đoàn kết chân thực"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: VĂN HÓA MẠNG XÃ HỘI VÀ THẨM MỸ HÌNH ẢNH (SOCIAL MEDIA AND VISUAL AESTHETICS)",
+                "point_vi": "Sự bùng nổ của các nền tảng mạng xã hội thiên về hình ảnh đã biến trang phục nhóm đồng bộ thành trào lưu thời thượng.",
+                "point_en": "The rise of visually driven social media platforms has popularized coordinated group dressing as an appealing aesthetic trend.",
+                "point_collocations": [
+                  {
+                    "en": "visually driven platforms",
+                    "vi": "nền tảng thiên về hình ảnh"
+                  },
+                  {
+                    "en": "aesthetic trend",
+                    "vi": "xu hướng thẩm mỹ"
+                  }
+                ],
+                "evidence_vi": "Trên các mạng xã hội như Instagram hay TikTok, những khung hình bạn bè diện trang phục đồng điệu về màu sắc hay phong cách thường nổi bật hơn hẳn và dễ thu hút tương tác. Bên cạnh đó, ảnh hưởng từ các nhóm nhạc thần tượng và người có sức ảnh hưởng thời trang càng khiến giới trẻ hào hứng tái hiện phong cách nhóm.",
+                "evidence_en": "On platforms such as Instagram and TikTok, photos of friends in color-coordinated ensembles appear remarkably polished and naturally generate higher online engagement. Furthermore, exposure to pop groups and fashion influencers inspires young audiences to emulate synchronized group aesthetics in their own social lives.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "color-coordinated ensembles",
+                      "vi": "trang phục đồng bộ màu sắc"
+                    },
+                    {
+                      "en": "online engagement",
+                      "vi": "tương tác trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "fashion influencers",
+                      "vi": "người ảnh hưởng thời trang"
+                    },
+                    {
+                      "en": "synchronized aesthetics",
+                      "vi": "thẩm mỹ đồng bộ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "visually driven platforms",
+                    "vi": "nền tảng thiên về hình ảnh"
+                  },
+                  {
+                    "en": "aesthetic trend",
+                    "vi": "xu hướng thẩm mỹ"
+                  },
+                  {
+                    "en": "color-coordinated ensembles",
+                    "vi": "trang phục đồng bộ màu sắc"
+                  },
+                  {
+                    "en": "online engagement",
+                    "vi": "tương tác trực tuyến"
+                  },
+                  {
+                    "en": "fashion influencers",
+                    "vi": "người ảnh hưởng thời trang"
+                  },
+                  {
+                    "en": "synchronized aesthetics",
+                    "vi": "thẩm mỹ đồng bộ"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: SỰ AN TÂM TÂM LÝ VÀ NỖI SỢ BỊ TÁCH BIỆT (SOCIAL REASSURANCE)",
+                "point_vi": "Diện phong cách tương đồng với bạn bè mang lại sự an tâm tâm lý và giảm lo âu về việc bị đánh giá khác biệt.",
+                "point_en": "Dressing similarly to close peers provides psychological reassurance and eases anxiety about social judgment.",
+                "point_collocations": [
+                  {
+                    "en": "psychological reassurance",
+                    "vi": "sự an tâm về tâm lý"
+                  },
+                  {
+                    "en": "social judgment",
+                    "vi": "sự đánh giá từ xã hội"
+                  }
+                ],
+                "evidence_vi": "Nhiều người trẻ vẫn đang trong quá trình định hình gu thẩm mỹ nên họ cảm thấy tự tin hơn khi lựa chọn trang phục được nhóm bạn công nhận. Sự đồng thuận về phong cách giúp giảm áp lực phải tự mình khẳng định cá tính quá sớm và bảo vệ họ khỏi cảm giác lạc lõng giữa đám đông.",
+                "evidence_en": "Because many young people are still developing confidence in their personal taste, wearing peer-approved outfits feels far less intimidating. Shared stylistic choices reduce the fear of awkward mistakes and shield teenagers from feeling alienated in social settings.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "peer-approved outfits",
+                      "vi": "trang phục được bạn bè đồng tình"
+                    },
+                    {
+                      "en": "less intimidating",
+                      "vi": "ít gây lo ngại hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stylistic choices",
+                      "vi": "lựa chọn phong cách"
+                    },
+                    {
+                      "en": "feeling alienated",
+                      "vi": "cảm giác bị tách biệt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "psychological reassurance",
+                    "vi": "sự an tâm về tâm lý"
+                  },
+                  {
+                    "en": "social judgment",
+                    "vi": "sự đánh giá từ xã hội"
+                  },
+                  {
+                    "en": "peer-approved outfits",
+                    "vi": "trang phục được bạn bè đồng tình"
+                  },
+                  {
+                    "en": "less intimidating",
+                    "vi": "ít gây lo ngại hơn"
+                  },
+                  {
+                    "en": "stylistic choices",
+                    "vi": "lựa chọn phong cách"
+                  },
+                  {
+                    "en": "feeling alienated",
+                    "vi": "cảm giác bị tách biệt"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: TÍNH TIỆN LỢI VÀ LỢI ÍCH KINH TẾ KHI MUA SẮM CHUNG (PRACTICALITY AND COST SHARING)",
+                "point_vi": "Lên đồ đồng bộ mang lại lợi ích thiết thực về mặt thời gian phối đồ cũng như tối ưu chi phí mua sắm cho giới trẻ.",
+                "point_en": "Coordinating similar styles offers practical convenience in outfit planning as well as tangible financial advantages for young shoppers.",
+                "point_collocations": [
+                  {
+                    "en": "outfit planning",
+                    "vi": "lên kế hoạch phối đồ"
+                  },
+                  {
+                    "en": "financial advantages",
+                    "vi": "lợi thế tài chính"
+                  }
+                ],
+                "evidence_vi": "Khi cả nhóm thống nhất một chủ đề hoặc bảng màu, mỗi cá nhân không còn phải mất nhiều thời gian băn khoăn xem nên mặc gì cho phù hợp hoàn cảnh. Hơn nữa, các cửa hàng trực tuyến thường tung ra mã giảm giá mua theo nhóm hoặc miễn phí vận chuyển, rất phù hợp với ngân sách hạn chế của học sinh, sinh viên.",
+                "evidence_en": "Once a group agrees on a shared palette or dress theme, individuals spend far less time agonizing over what to wear for outings. Moreover, online retailers frequently offer bulk discounts and shared shipping perks that fit neatly within students' modest budgets.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shared palette",
+                      "vi": "bảng màu chung"
+                    },
+                    {
+                      "en": "dress theme",
+                      "vi": "chủ đề trang phục"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bulk discounts",
+                      "vi": "giảm giá mua số lượng nhiều"
+                    },
+                    {
+                      "en": "modest budgets",
+                      "vi": "ngân sách hạn chế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "outfit planning",
+                    "vi": "lên kế hoạch phối đồ"
+                  },
+                  {
+                    "en": "financial advantages",
+                    "vi": "lợi thế tài chính"
+                  },
+                  {
+                    "en": "shared palette",
+                    "vi": "bảng màu chung"
+                  },
+                  {
+                    "en": "dress theme",
+                    "vi": "chủ đề trang phục"
+                  },
+                  {
+                    "en": "bulk discounts",
+                    "vi": "giảm giá mua số lượng nhiều"
+                  },
+                  {
+                    "en": "modest budgets",
+                    "vi": "ngân sách hạn chế"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: ĐÁNH DẤU KỶ NIỆM VÀ SỰ KIỆN ĐẶC BIỆT (MARKING SHARED MILESTONES)",
+                "point_vi": "Trang phục đồng bộ thường được giới trẻ lựa chọn như một cách sáng tạo để lưu giữ kỷ niệm trong những cột mốc chung.",
+                "point_en": "Matching attire is frequently used by young friends as a playful way to commemorate trips, festivals, and shared milestones.",
+                "point_collocations": [
+                  {
+                    "en": "matching attire",
+                    "vi": "trang phục đồng bộ"
+                  },
+                  {
+                    "en": "shared milestones",
+                    "vi": "những cột mốc chung"
+                  }
+                ],
+                "evidence_vi": "Trong các chuyến du lịch, buổi hòa nhạc hay lễ tốt nghiệp, việc cùng lên ý tưởng trang phục biến quá trình chuẩn bị thành một trải nghiệm gắn kết đầy hứng khởi. Nhiều năm sau nhìn lại, những bộ đồ chung đó trở thành dấu ấn thị giác gợi nhớ rõ nét về một giai đoạn tuổi trẻ rực rỡ.",
+                "evidence_en": "For holidays, music festivals, or graduation trips, brainstorming a group dress code turns preparation itself into an exciting bonding ritual. Years later, those coordinated outfits serve as vivid visual reminders of cherished chapters of youth.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bonding ritual",
+                      "vi": "nghi thức gắn kết"
+                    },
+                    {
+                      "en": "group dress code",
+                      "vi": "quy ước trang phục nhóm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "vivid visual reminders",
+                      "vi": "dấu ấn thị giác sống động"
+                    },
+                    {
+                      "en": "cherished chapters",
+                      "vi": "những chặng ký ức đáng quý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "matching attire",
+                    "vi": "trang phục đồng bộ"
+                  },
+                  {
+                    "en": "shared milestones",
+                    "vi": "những cột mốc chung"
+                  },
+                  {
+                    "en": "bonding ritual",
+                    "vi": "nghi thức gắn kết"
+                  },
+                  {
+                    "en": "group dress code",
+                    "vi": "quy ước trang phục nhóm"
+                  },
+                  {
+                    "en": "vivid visual reminders",
+                    "vi": "dấu ấn thị giác sống động"
+                  },
+                  {
+                    "en": "cherished chapters",
+                    "vi": "những chặng ký ức đáng quý"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "TÁC ĐỘNG 01: NGUY CƠ HÒA TAN SÁNG TẠO NẾU ĐỒNG NHẤT QUÁ MỨC (RISK OF EXCESSIVE CONFORMITY)",
+                "point_vi": "Nếu biến thành thói quen cứng nhắc hằng ngày, việc mặc giống hệt bạn bè có thể dần kìm hãm sự sáng tạo thẩm mỹ cá nhân.",
+                "point_en": "If practiced rigidly on a daily basis, dressing identically to peers can gradually stifle personal stylistic creativity.",
+                "point_collocations": [
+                  {
+                    "en": "stifle creativity",
+                    "vi": "kìm hãm sự sáng tạo"
+                  },
+                  {
+                    "en": "rigidly practiced",
+                    "vi": "thực hiện một cách cứng nhắc"
+                  }
+                ],
+                "evidence_vi": "Khi người trẻ liên tục đặt sự đồng điệu của tập thể lên trên sở thích thực sự của bản thân, họ dễ mất đi động lực khám phá màu sắc hay phom dáng phản ánh cái tôi riêng. Về lâu dài, thói quen rập khuôn bề ngoài có thể củng cố tâm lý đám đông và làm giảm sự tự tin khi đứng độc lập.",
+                "evidence_en": "When young people consistently prioritize group uniformity over personal preference, they may lose the impulse to explore colors, silhouettes, or styles that reflect their inner self. Over time, habitual visual conformity can reinforce herd mentality and weaken confidence when standing apart from the crowd.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "group uniformity",
+                      "vi": "sự đồng nhất của nhóm"
+                    },
+                    {
+                      "en": "inner self",
+                      "vi": "cái tôi bên trong"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "visual conformity",
+                      "vi": "sự rập khuôn về ngoại hình"
+                    },
+                    {
+                      "en": "herd mentality",
+                      "vi": "tâm lý đám đông"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stifle creativity",
+                    "vi": "kìm hãm sự sáng tạo"
+                  },
+                  {
+                    "en": "rigidly practiced",
+                    "vi": "thực hiện một cách cứng nhắc"
+                  },
+                  {
+                    "en": "group uniformity",
+                    "vi": "sự đồng nhất của nhóm"
+                  },
+                  {
+                    "en": "inner self",
+                    "vi": "cái tôi bên trong"
+                  },
+                  {
+                    "en": "visual conformity",
+                    "vi": "sự rập khuôn về ngoại hình"
+                  },
+                  {
+                    "en": "herd mentality",
+                    "vi": "tâm lý đám đông"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 02: ÁP LỰC ĐỒNG TRANG LỨA VÀ GÁNH NẶNG TIÊU DÙNG (PEER PRESSURE AND CONSUMPTION)",
+                "point_vi": "Trào lưu mặc đồ nhóm đôi khi tạo áp lực ngầm buộc một số cá nhân hy sinh sự thoải mái và chi tiêu vượt khả năng.",
+                "point_en": "Group fashion trends can exert subtle peer pressure, pushing some individuals to compromise personal comfort and overspend.",
+                "point_collocations": [
+                  {
+                    "en": "subtle peer pressure",
+                    "vi": "áp lực đồng trang lứa ngầm"
+                  },
+                  {
+                    "en": "compromise personal comfort",
+                    "vi": "hy sinh sự thoải mái cá nhân"
+                  }
+                ],
+                "evidence_vi": "Không phải mọi thành viên trong nhóm đều có vóc dáng, gu thẩm mỹ hay điều kiện tài chính giống nhau, nên việc chạy theo mẫu đồ chung dễ khiến người có thu nhập thấp cảm thấy áp lực. Ngoài ra, mua trang phục đồng bộ chỉ để mặc một lần chụp ảnh còn góp phần thúc đẩy tiêu dùng nhanh lãng phí.",
+                "evidence_en": "Because friends differ in body types, tastes, and budgets, strictly matching outfits can leave less affluent members feeling uncomfortable or financially strained. Furthermore, purchasing coordinated outfits solely for a single photo shoot risks encouraging wasteful fast-fashion consumption.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "financially strained",
+                      "vi": "căng thẳng về tài chính"
+                    },
+                    {
+                      "en": "strictly matching outfits",
+                      "vi": "trang phục giống hệt nhau hoàn toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "single photo shoot",
+                      "vi": "một buổi chụp ảnh duy nhất"
+                    },
+                    {
+                      "en": "wasteful consumption",
+                      "vi": "tiêu dùng lãng phí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "subtle peer pressure",
+                    "vi": "áp lực đồng trang lứa ngầm"
+                  },
+                  {
+                    "en": "compromise personal comfort",
+                    "vi": "hy sinh sự thoải mái cá nhân"
+                  },
+                  {
+                    "en": "financially strained",
+                    "vi": "căng thẳng về tài chính"
+                  },
+                  {
+                    "en": "strictly matching outfits",
+                    "vi": "trang phục giống hệt nhau hoàn toàn"
+                  },
+                  {
+                    "en": "single photo shoot",
+                    "vi": "một buổi chụp ảnh duy nhất"
+                  },
+                  {
+                    "en": "wasteful consumption",
+                    "vi": "tiêu dùng lãng phí"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 03: BẢO TOÀN CÁ TÍNH QUA CÁ NHÂN HÓA TRANG PHỤC (PRESERVING UNIQUENESS THROUGH STYLING)",
+                "point_vi": "Tuy nhiên, trong thực tế xu hướng này hiếm khi triệt tiêu cá tính vì giới trẻ vẫn khéo léo tạo dấu ấn riêng qua cách phối đồ.",
+                "point_en": "In practice, however, this trend rarely extinguishes individuality because young people creatively personalize shared themes.",
+                "point_collocations": [
+                  {
+                    "en": "extinguish individuality",
+                    "vi": "triệt tiêu cá tính"
+                  },
+                  {
+                    "en": "personalize shared themes",
+                    "vi": "cá nhân hóa chủ đề chung"
+                  }
+                ],
+                "evidence_vi": "Thay vì mặc đồng phục giống hệt từng chi tiết, đa số nhóm bạn hiện nay chỉ chọn chung một bảng màu hoặc phong cách tổng thể rồi tự do biến tấu bằng phụ kiện, kiểu tóc và giày dép. Sự kết hợp hài hòa giữa điểm chung và nét riêng đó thậm chí còn thể hiện tư duy thẩm mỹ tinh tế hơn.",
+                "evidence_en": "Rather than wearing identical uniforms from head to toe, most modern friend groups choose a loose color palette or general vibe and customize it through accessories, footwear, and layering. Blending collective harmony with subtle personal touches actually showcases sharper fashion creativity.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "loose color palette",
+                      "vi": "bảng màu chung linh hoạt"
+                    },
+                    {
+                      "en": "customize through accessories",
+                      "vi": "biến tấu qua phụ kiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collective harmony",
+                      "vi": "sự hài hòa tập thể"
+                    },
+                    {
+                      "en": "personal touches",
+                      "vi": "dấu ấn cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extinguish individuality",
+                    "vi": "triệt tiêu cá tính"
+                  },
+                  {
+                    "en": "personalize shared themes",
+                    "vi": "cá nhân hóa chủ đề chung"
+                  },
+                  {
+                    "en": "loose color palette",
+                    "vi": "bảng màu chung linh hoạt"
+                  },
+                  {
+                    "en": "customize through accessories",
+                    "vi": "biến tấu qua phụ kiện"
+                  },
+                  {
+                    "en": "collective harmony",
+                    "vi": "sự hài hòa tập thể"
+                  },
+                  {
+                    "en": "personal touches",
+                    "vi": "dấu ấn cá nhân"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 04: BẢN SẮC CÁ NHÂN VƯỢT XA VẺ BỀ NGOÀI (INDIVIDUALITY BEYOND CLOTHING)",
+                "point_vi": "Cá tính đích thực của một con người được định hình bởi tư duy, giá trị sống và hành động chứ không phụ thuộc hoàn toàn vào quần áo.",
+                "point_en": "Authentic individuality is fundamentally rooted in a person's mindset, values, and actions rather than surface appearance alone.",
+                "point_collocations": [
+                  {
+                    "en": "authentic individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "surface appearance",
+                    "vi": "vẻ bề ngoài"
+                  }
+                ],
+                "evidence_vi": "Việc mặc áo giống bạn bè trong vài dịp đi chơi hoàn toàn không xóa nhòa quan điểm độc lập, khiếu hài hước, tài năng hay định hướng tương lai của mỗi cá nhân. Do đó, đánh đồng trang phục tương đồng với sự đánh mất bản sắc cá nhân là một góc nhìn khá phiến diện.",
+                "evidence_en": "Wearing matching outfits on occasional outings does nothing to erase a young person's independent thinking, humor, talents, or life ambitions. Consequently, equating occasional stylistic similarity with a loss of personal identity is an overly narrow view.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "independent thinking",
+                      "vi": "tư duy độc lập"
+                    },
+                    {
+                      "en": "life ambitions",
+                      "vi": "hoài bão cuộc sống"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "stylistic similarity",
+                      "vi": "sự tương đồng về phong cách"
+                    },
+                    {
+                      "en": "overly narrow view",
+                      "vi": "góc nhìn quá phiến diện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "authentic individuality",
+                    "vi": "cá tính đích thực"
+                  },
+                  {
+                    "en": "surface appearance",
+                    "vi": "vẻ bề ngoài"
+                  },
+                  {
+                    "en": "independent thinking",
+                    "vi": "tư duy độc lập"
+                  },
+                  {
+                    "en": "life ambitions",
+                    "vi": "hoài bão cuộc sống"
+                  },
+                  {
+                    "en": "stylistic similarity",
+                    "vi": "sự tương đồng về phong cách"
+                  },
+                  {
+                    "en": "overly narrow view",
+                    "vi": "góc nhìn quá phiến diện"
+                  }
+                ]
+              },
+              {
+                "title": "TÁC ĐỘNG 05: BỆ PHÓNG AN TOÀN ĐỂ HÌNH THÀNH PHONG CÁCH RIÊNG (STEPPING STONE TO PERSONAL STYLE)",
+                "point_vi": "Trái với lo ngại, việc trải nghiệm thời trang theo nhóm có thể trở thành bước đệm an toàn giúp người trẻ dần định hình phong cách cá nhân.",
+                "point_en": "Contrary to common fears, experimenting with group fashion can serve as a safe stepping stone toward developing one's own distinct style.",
+                "point_collocations": [
+                  {
+                    "en": "safe stepping stone",
+                    "vi": "bước đệm an toàn"
+                  },
+                  {
+                    "en": "distinct style",
+                    "vi": "phong cách riêng biệt"
+                  }
+                ],
+                "evidence_vi": "Những bạn trẻ vốn rụt rè thường nhờ có bạn bè đồng hành mới dám thử các màu sắc nổi bật hoặc xu hướng mới lạ mà bình thường họ không dám mặc một mình. Quá trình học hỏi và điều chỉnh từ trải nghiệm chung đó dần giúp họ nhận ra bản thân thực sự yêu thích điều gì.",
+                "evidence_en": "Shyer adolescents often rely on the morale boost of friends to try bold colors or unfamiliar trends they would never wear alone. Through this collaborative experimentation, they gradually discern what genuinely suits them and evolve a confident personal style.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "morale boost",
+                      "vi": "cú hích tinh thần"
+                    },
+                    {
+                      "en": "bold colors",
+                      "vi": "màu sắc nổi bật"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collaborative experimentation",
+                      "vi": "sự thử nghiệm cùng nhau"
+                    },
+                    {
+                      "en": "confident personal style",
+                      "vi": "phong cách cá nhân tự tin"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "safe stepping stone",
+                    "vi": "bước đệm an toàn"
+                  },
+                  {
+                    "en": "distinct style",
+                    "vi": "phong cách riêng biệt"
+                  },
+                  {
+                    "en": "morale boost",
+                    "vi": "cú hích tinh thần"
+                  },
+                  {
+                    "en": "bold colors",
+                    "vi": "màu sắc nổi bật"
+                  },
+                  {
+                    "en": "collaborative experimentation",
+                    "vi": "sự thử nghiệm cùng nhau"
+                  },
+                  {
+                    "en": "confident personal style",
+                    "vi": "phong cách cá nhân tự tin"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "wear matching clothes",
+              "vi": "mặc quần áo giống nhau"
+            },
+            {
+              "en": "sense of belonging",
+              "vi": "cảm giác thuộc về"
+            },
+            {
+              "en": "tight-knit friend group",
+              "vi": "nhóm bạn gắn bó thân thiết"
+            },
+            {
+              "en": "show close friendship",
+              "vi": "thể hiện tình bạn thân thiết"
+            },
+            {
+              "en": "unforgettable memories",
+              "vi": "những kỷ niệm khó quên"
+            },
+            {
+              "en": "celebrate special events",
+              "vi": "ăn mừng các dịp đặc biệt"
+            },
+            {
+              "en": "fit in easily",
+              "vi": "dễ dàng hòa nhập"
+            },
+            {
+              "en": "feel more confident",
+              "vi": "cảm thấy tự tin hơn"
+            },
+            {
+              "en": "shared group identity",
+              "vi": "bản sắc nhóm chung"
+            },
+            {
+              "en": "visible emblem of loyalty",
+              "vi": "biểu tượng trực quan của sự gắn bó"
+            },
+            {
+              "en": "genuine solidarity",
+              "vi": "tình đoàn kết chân thực"
+            },
+            {
+              "en": "emotional security",
+              "vi": "sự an toàn về cảm xúc"
+            },
+            {
+              "en": "psychological reassurance",
+              "vi": "sự an tâm về tâm lý"
+            },
+            {
+              "en": "commemorate shared milestones",
+              "vi": "đánh dấu những cột mốc chung"
+            },
+            {
+              "en": "exciting bonding ritual",
+              "vi": "nghi thức gắn kết đầy hứng khởi"
+            },
+            {
+              "en": "avoid feeling alienated",
+              "vi": "tránh cảm giác bị tách biệt"
+            },
+            {
+              "en": "social media trends",
+              "vi": "trào lưu mạng xã hội"
+            },
+            {
+              "en": "attractive group photos",
+              "vi": "những bức ảnh nhóm đẹp mắt"
+            },
+            {
+              "en": "coordinated colors",
+              "vi": "màu sắc đồng bộ"
+            },
+            {
+              "en": "attract lots of likes",
+              "vi": "thu hút nhiều lượt thích"
+            },
+            {
+              "en": "save styling time",
+              "vi": "tiết kiệm thời gian phối đồ"
+            },
+            {
+              "en": "group shopping discounts",
+              "vi": "ưu đãi giảm giá mua nhóm"
+            },
+            {
+              "en": "plan matching themes",
+              "vi": "lên ý tưởng trang phục chung"
+            },
+            {
+              "en": "eye-catching outfits",
+              "vi": "trang phục bắt mắt"
+            },
+            {
+              "en": "visually driven platforms",
+              "vi": "nền tảng mạng xã hội thiên về hình ảnh"
+            },
+            {
+              "en": "color-coordinated ensembles",
+              "vi": "trang phục phối màu đồng bộ"
+            },
+            {
+              "en": "generate higher online engagement",
+              "vi": "tạo tương tác trực tuyến cao hơn"
+            },
+            {
+              "en": "emulate synchronized aesthetics",
+              "vi": "tái hiện thẩm mỹ đồng bộ"
+            },
+            {
+              "en": "agree on a shared palette",
+              "vi": "thống nhất bảng màu chung"
+            },
+            {
+              "en": "bulk shopping discounts",
+              "vi": "ưu đãi giảm giá mua số lượng nhiều"
+            },
+            {
+              "en": "modest student budgets",
+              "vi": "ngân sách hạn chế của sinh viên"
+            },
+            {
+              "en": "vivid visual reminders",
+              "vi": "dấu ấn thị giác sống động"
+            },
+            {
+              "en": "limit personal fashion taste",
+              "vi": "hạn chế gu thời trang cá nhân"
+            },
+            {
+              "en": "follow the group's choices",
+              "vi": "làm theo lựa chọn của nhóm"
+            },
+            {
+              "en": "peer pressure",
+              "vi": "áp lực đồng trang lứa"
+            },
+            {
+              "en": "buy expensive outfits",
+              "vi": "mua trang phục đắt đỏ"
+            },
+            {
+              "en": "avoid upsetting friends",
+              "vi": "tránh làm mất lòng bạn bè"
+            },
+            {
+              "en": "hesitant to try new styles",
+              "vi": "ngại thử phong cách mới"
+            },
+            {
+              "en": "wear unflattering clothes",
+              "vi": "mặc đồ không hợp vóc dáng"
+            },
+            {
+              "en": "lose personal style",
+              "vi": "đánh mất phong cách riêng"
+            },
+            {
+              "en": "stifle stylistic creativity",
+              "vi": "kìm hãm sự sáng tạo phong cách"
+            },
+            {
+              "en": "prioritize group uniformity",
+              "vi": "đặt sự đồng nhất nhóm lên trên"
+            },
+            {
+              "en": "habitual visual conformity",
+              "vi": "sự rập khuôn ngoại hình thành thói quen"
+            },
+            {
+              "en": "reinforce herd mentality",
+              "vi": "củng cố tâm lý đám đông"
+            },
+            {
+              "en": "exert subtle peer pressure",
+              "vi": "tạo áp lực đồng trang lứa ngầm"
+            },
+            {
+              "en": "compromise personal comfort",
+              "vi": "hy sinh sự thoải mái cá nhân"
+            },
+            {
+              "en": "leave friends financially strained",
+              "vi": "khiến bạn bè căng thẳng tài chính"
+            },
+            {
+              "en": "wasteful fast-fashion consumption",
+              "vi": "tiêu dùng thời trang nhanh lãng phí"
+            },
+            {
+              "en": "add unique accessories",
+              "vi": "thêm phụ kiện độc đáo"
+            },
+            {
+              "en": "personal styling details",
+              "vi": "chi tiết phối đồ cá nhân"
+            },
+            {
+              "en": "true individuality",
+              "vi": "cá tính đích thực"
+            },
+            {
+              "en": "personality and actions",
+              "vi": "tính cách và hành động"
+            },
+            {
+              "en": "experiment with fashion",
+              "vi": "thử nghiệm thời trang"
+            },
+            {
+              "en": "exchange outfit ideas",
+              "vi": "trao đổi ý tưởng phối đồ"
+            },
+            {
+              "en": "develop one's own style",
+              "vi": "phát triển phong cách riêng"
+            },
+            {
+              "en": "stay unique together",
+              "vi": "vẫn giữ nét riêng khi đi cùng nhau"
+            },
+            {
+              "en": "personalize shared themes",
+              "vi": "cá nhân hóa chủ đề chung"
+            },
+            {
+              "en": "blend harmony with personal touches",
+              "vi": "kết hợp hài hòa chung với dấu ấn riêng"
+            },
+            {
+              "en": "rooted in mindset and values",
+              "vi": "bắt nguồn từ tư duy và giá trị sống"
+            },
+            {
+              "en": "independent thinking",
+              "vi": "tư duy độc lập"
+            },
+            {
+              "en": "an overly narrow view",
+              "vi": "một góc nhìn quá phiến diện"
+            },
+            {
+              "en": "safe stepping stone",
+              "vi": "bước đệm an toàn"
+            },
+            {
+              "en": "collaborative experimentation",
+              "vi": "sự thử nghiệm cùng nhau"
+            },
+            {
+              "en": "evolve a confident personal style",
+              "vi": "hình thành phong cách cá nhân tự tin"
+            }
+          ],
+          "sample_b1": "In recent years, wearing matching clothes or similar fashion styles has become an attractive trend among close groups of young friends. This essay will explain why young people enjoy dressing like their peers and discuss whether this habit harms personal individuality.\n\nThere are several clear reasons why young friends love wearing <strong>matching clothes</strong>. First, dressing alike shows close friendship and gives teenagers a strong <strong>sense of belonging</strong> to a <strong>tight-knit friend group</strong>. Second, <strong>social media trends</strong> play a big role: photos of friends wearing <strong>coordinated colors</strong> look eye-catching on Instagram and TikTok, creating <strong>unforgettable memories</strong> during trips and special events. In addition, dressing like peers helps shy young people <strong>feel more confident</strong> and fit in easily, while group shopping often brings useful <strong>shopping discounts</strong>.\n\nRegarding its impact on individuality, this trend has two sides, though it rarely destroys uniqueness completely. On the negative side, wearing identical outfits too often can create <strong>peer pressure</strong> and <strong>limit personal fashion taste</strong> if friends feel forced to wear styles they dislike. However, in most cases, matching clothes do not destroy <strong>true individuality</strong> because each person still adds <strong>unique accessories</strong>, hairstyles, and personal styling details. More importantly, a person's real identity is shown through their <strong>personality and actions</strong> rather than just clothing, and exchanging outfit ideas can even help teens <strong>develop their own style</strong>.\n\nIn conclusion, young people enjoy wearing similar clothes to express friendship, take great photos, and feel confident. As long as friends respect personal comfort and leave room for creative touches, this fun trend will not stifle individuality.",
+          "translation_b1": "Trong những năm gần đây, mặc quần áo giống nhau hoặc phong cách thời trang tương đồng đã trở thành trào lưu hấp dẫn trong các nhóm bạn trẻ thân thiết. Bài luận này sẽ giải thích vì sao giới trẻ thích mặc giống bạn bè và bàn luận xem thói quen này có làm tổn hại cá tính cá nhân hay không.\n\nCó nhiều lý do rõ ràng khiến bạn trẻ yêu thích mặc <strong>quần áo giống nhau</strong>. Thứ nhất, ăn mặc tương đồng thể hiện tình bạn gắn bó và mang lại cho thanh thiếu niên <strong>cảm giác thuộc về</strong> một <strong>nhóm bạn gắn bó thân thiết</strong>. Thứ hai, các <strong>trào lưu mạng xã hội</strong> đóng vai trò lớn: ảnh bạn bè mặc <strong>màu sắc đồng bộ</strong> trông rất bắt mắt trên Instagram và TikTok, tạo nên những <strong>kỷ niệm khó quên</strong> trong các chuyến đi và dịp đặc biệt. Ngoài ra, mặc giống bạn bè giúp những bạn trẻ rụt rè <strong>cảm thấy tự tin hơn</strong> và dễ hòa nhập, còn mua sắm theo nhóm thường có <strong>ưu đãi giảm giá mua nhóm</strong> hữu ích.\n\nVề tác động đến cá tính, xu hướng này có hai mặt dù hiếm khi triệt tiêu hoàn toàn nét riêng. Về mặt tiêu cực, mặc đồ giống hệt nhau quá thường xuyên có thể tạo ra <strong>áp lực đồng trang lứa</strong> và <strong>hạn chế gu thời trang cá nhân</strong> nếu một số bạn cảm thấy bị ép mặc kiểu mình không thích. Tuy nhiên, trong đa số trường hợp, đồ nhóm không phá hủy <strong>cá tính đích thực</strong> vì mỗi người vẫn tự thêm <strong>phụ kiện độc đáo</strong>, kiểu tóc và chi tiết phối đồ riêng. Quan trọng hơn, bản sắc thật sự của con người thể hiện qua <strong>tính cách và hành động</strong> chứ không chỉ quần áo, và việc trao đổi ý tưởng phối đồ thậm chí giúp giới trẻ <strong>phát triển phong cách riêng</strong>.\n\nTóm lại, giới trẻ thích mặc đồ tương đồng để thể hiện tình bạn, có ảnh đẹp và cảm thấy tự tin hơn. Miễn là bạn bè tôn trọng sự thoải mái cá nhân và giữ khoảng trống cho nét sáng tạo riêng, xu hướng thú vị này sẽ không kìm hãm cá tính.",
+          "sample_b2": "Across contemporary youth culture, wearing matching clothes or coordinated fashion styles has become an increasingly popular way for close friend groups to express their bond. This essay will explore the primary motivations behind this phenomenon and assess whether dressing like one's peers genuinely stifles personal individuality.\n\nSeveral psychological, cultural, and practical factors explain why young people embrace matching attire. Foremost is the desire for a <strong>shared group identity</strong>: coordinated outfits act as a <strong>visible emblem of loyalty</strong> and <strong>genuine solidarity</strong> during formative years when peer acceptance strongly supports <strong>emotional security</strong>. Equally influential is the rise of <strong>visually driven platforms</strong> such as Instagram and TikTok, where <strong>color-coordinated ensembles</strong> look remarkably polished, <strong>generate higher online engagement</strong>, and help friends <strong>commemorate shared milestones</strong> such as trips or festivals. Moreover, agreeing on a <strong>shared palette</strong> offers <strong>psychological reassurance</strong> against social judgment while unlocking <strong>bulk shopping discounts</strong> suited to students' budgets.\n\nWhether this trend undermines individuality depends largely on how rigidly it is practiced. Admittedly, if friends prioritize <strong>group uniformity</strong> every day, <strong>habitual visual conformity</strong> may <strong>stifle stylistic creativity</strong> and <strong>exert subtle peer pressure</strong> on less affluent members to <strong>compromise personal comfort</strong>. Nevertheless, in most everyday contexts, the trend rarely erases uniqueness. Rather than wearing identical uniforms, young people typically <strong>personalize shared themes</strong> through distinct accessories, footwear, and layering, effectively <strong>blending collective harmony with personal touches</strong>. Furthermore, <strong>authentic individuality</strong> is <strong>rooted in mindset, values, and independent thinking</strong> rather than clothing alone; indeed, <strong>collaborative experimentation</strong> with friends often serves as a <strong>safe stepping stone</strong> toward evolving a confident personal style.\n\nIn conclusion, young people enjoy dressing similarly to celebrate friendship, thrive on social media aesthetics, and gain reassurance. While excessive conformity should be avoided, occasional matching fashion does not stifle true individuality when balanced with personal freedom and creative self-expression.",
+          "translation_b2": "Trong văn hóa giới trẻ đương đại, mặc quần áo đồng bộ hoặc phong cách thời trang tương đồng đã trở thành cách ngày càng phổ biến để các nhóm bạn thân thể hiện sự gắn kết. Bài luận này sẽ khám phá những động lực chính phía sau hiện tượng này và đánh giá xem việc ăn mặc giống bạn bè có thực sự kìm hãm cá tính cá nhân hay không.\n\nNhiều yếu tố tâm lý, văn hóa và thực tiễn giải thích vì sao giới trẻ yêu thích trang phục đồng bộ. Trước hết là khát vọng về một <strong>bản sắc nhóm chung</strong>: trang phục đồng điệu đóng vai trò như <strong>biểu tượng trực quan của sự gắn bó</strong> và <strong>tình đoàn kết chân thực</strong> trong những năm tháng hình thành nhân cách khi sự đón nhận của bạn bè củng cố mạnh mẽ <strong>sự an toàn về cảm xúc</strong>. Có sức ảnh hưởng không kém là sự trỗi dậy của các <strong>nền tảng thiên về hình ảnh</strong> như Instagram và TikTok, nơi những <strong>trang phục phối màu đồng bộ</strong> trông cực kỳ chỉn chu, <strong>tạo tương tác trực tuyến cao hơn</strong> và giúp bạn bè <strong>đánh dấu những cột mốc chung</strong> như du lịch hay lễ hội. Hơn nữa, thống nhất một <strong>bảng màu chung</strong> mang lại <strong>sự an tâm về tâm lý</strong> trước đánh giá xã hội đồng thời tận dụng <strong>ưu đãi giảm giá mua số lượng nhiều</strong> phù hợp với ngân sách sinh viên.\n\nViệc xu hướng này có làm xói mòn cá tính hay không phụ thuộc phần lớn vào mức độ cứng nhắc khi áp dụng. Phải thừa nhận rằng nếu bạn bè đặt <strong>sự đồng nhất nhóm</strong> lên hàng đầu mỗi ngày, <strong>sự rập khuôn ngoại hình thành thói quen</strong> có thể <strong>kìm hãm sự sáng tạo phong cách</strong> và <strong>tạo áp lực đồng trang lứa ngầm</strong> buộc những thành viên ít điều kiện hơn phải <strong>hy sinh sự thoải mái cá nhân</strong>. Tuy vậy, trong phần lớn bối cảnh đời thường, xu hướng này hiếm khi xóa nhòa nét riêng. Thay vì mặc đồng phục giống hệt nhau, giới trẻ thường <strong>cá nhân hóa chủ đề chung</strong> qua phụ kiện, giày dép và cách phối riêng biệt, qua đó <strong>kết hợp hài hòa tập thể với dấu ấn cá nhân</strong>. Hơn nữa, <strong>cá tính đích thực</strong> vốn <strong>bắt nguồn từ tư duy, giá trị sống và tư duy độc lập</strong> chứ không chỉ từ trang phục; thực tế, <strong>sự thử nghiệm cùng nhau</strong> với bạn bè còn thường trở thành <strong>bước đệm an toàn</strong> để hình thành phong cách cá nhân tự tin.\n\nTóm lại, giới trẻ thích ăn mặc tương đồng để tôn vinh tình bạn, bắt kịp thẩm mỹ mạng xã hội và tìm thấy sự an tâm. Dù cần tránh sự rập khuôn thái quá, việc thỉnh thoảng mặc đồ đồng bộ không kìm hãm cá tính thật sự khi được cân bằng với tự do cá nhân và sự sáng tạo riêng.",
+          "vocab_step": {
+            "theme": "VSTEP Writing Task 2",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "matching",
+                "ipa": "/ˈmætʃɪŋ/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "đồng bộ, giống nhau",
+                "family": "",
+                "example_en": "Close friends enjoy wearing matching clothes on trips.",
+                "example_vi": ""
+              },
+              {
+                "word": "outfit",
+                "ipa": "/ˈaʊtfɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bộ trang phục",
+                "family": "",
+                "example_en": "Coordinated outfits look great in group photos.",
+                "example_vi": ""
+              },
+              {
+                "word": "belonging",
+                "ipa": "/bɪˈlɒŋɪŋ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cảm giác thuộc về",
+                "family": "",
+                "example_en": "Dressing alike creates a strong sense of belonging.",
+                "example_vi": ""
+              },
+              {
+                "word": "peer",
+                "ipa": "/pɪər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bạn bè đồng trang lứa",
+                "family": "",
+                "example_en": "Teenagers are strongly influenced by their peers.",
+                "example_vi": ""
+              },
+              {
+                "word": "individuality",
+                "ipa": "/ˌɪndɪˌvɪdʒuˈæləti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cá tính riêng, bản sắc cá nhân",
+                "family": "",
+                "example_en": "Does wearing similar clothes harm personal individuality?",
+                "example_vi": ""
+              },
+              {
+                "word": "trend",
+                "ipa": "/trend/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "xu hướng, trào lưu",
+                "family": "",
+                "example_en": "Group dressing has become an attractive youth trend.",
+                "example_vi": ""
+              },
+              {
+                "word": "style",
+                "ipa": "/staɪl/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "phong cách",
+                "family": "",
+                "example_en": "Everyone can gradually develop their own fashion style.",
+                "example_vi": ""
+              },
+              {
+                "word": "accessory",
+                "ipa": "/əkˈsesəri/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "phụ kiện",
+                "family": "",
+                "example_en": "Shoes and accessories help friends keep a unique look.",
+                "example_vi": ""
+              },
+              {
+                "word": "confident",
+                "ipa": "/ˈkɒnfɪdənt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "tự tin",
+                "family": "",
+                "example_en": "Many teens feel more confident wearing peer-approved clothes.",
+                "example_vi": ""
+              },
+              {
+                "word": "identical",
+                "ipa": "/aɪˈdentɪkl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "giống hệt nhau",
+                "family": "",
+                "example_en": "Buying identical items together can earn shop discounts.",
+                "example_vi": ""
+              },
+              {
+                "word": "personality",
+                "ipa": "/ˌpɜːsəˈnæləti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "tính cách",
+                "family": "",
+                "example_en": "True individuality shines through personality and actions.",
+                "example_vi": ""
+              },
+              {
+                "word": "creative",
+                "ipa": "/kriˈeɪtɪv/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "sáng tạo",
+                "family": "",
+                "example_en": "Rigid rules can limit creative fashion choices.",
+                "example_vi": ""
+              },
+              {
+                "word": "memory",
+                "ipa": "/ˈmeməri/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kỷ niệm",
+                "family": "",
+                "example_en": "Matching beachwear creates unforgettable group memories.",
+                "example_vi": ""
+              },
+              {
+                "word": "discount",
+                "ipa": "/ˈdɪskaʊnt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "giảm giá, ưu đãi",
+                "family": "",
+                "example_en": "Students appreciate group shopping discounts.",
+                "example_vi": ""
+              },
+              {
+                "word": "express",
+                "ipa": "/ɪkˈspres/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "thể hiện, bộc lộ",
+                "family": "",
+                "example_en": "Clothing is one way people express their personal taste.",
+                "example_vi": ""
+              },
+              {
+                "word": "pressure",
+                "ipa": "/ˈpreʃər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "áp lực",
+                "family": "",
+                "example_en": "Peer pressure may push some youths to overspend.",
+                "example_vi": ""
+              },
+              {
+                "word": "experiment",
+                "ipa": "/ɪkˈsperɪmənt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "thử nghiệm",
+                "family": "",
+                "example_en": "Young people like to experiment with new fashion styles.",
+                "example_vi": ""
+              },
+              {
+                "word": "unique",
+                "ipa": "/juːˈniːk/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "độc đáo, riêng biệt",
+                "family": "",
+                "example_en": "Small styling details keep every outfit unique.",
+                "example_vi": ""
+              },
+              {
+                "word": "stifle",
+                "ipa": "/ˈstaɪfl/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "kìm hãm, bóp nghẹt",
+                "family": "",
+                "example_en": "Excessive conformity may stifle stylistic creativity.",
+                "example_vi": ""
+              },
+              {
+                "word": "conformity",
+                "ipa": "/kənˈfɔːməti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự tuân theo khuôn mẫu, đồng nhất",
+                "family": "",
+                "example_en": "Habitual visual conformity can weaken independence.",
+                "example_vi": ""
+              },
+              {
+                "word": "solidarity",
+                "ipa": "/ˌsɒlɪˈdærəti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tình đoàn kết, gắn bó",
+                "family": "",
+                "example_en": "Coordinated attire serves as an emblem of solidarity.",
+                "example_vi": ""
+              },
+              {
+                "word": "aesthetic",
+                "ipa": "/esˈθetɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về thẩm mỹ",
+                "family": "",
+                "example_en": "Social media fuels aesthetic group photography.",
+                "example_vi": ""
+              },
+              {
+                "word": "ensemble",
+                "ipa": "/ɒnˈsɒmbl/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bộ trang phục phối đồng bộ",
+                "family": "",
+                "example_en": "Color-coordinated ensembles attract online engagement.",
+                "example_vi": ""
+              },
+              {
+                "word": "palette",
+                "ipa": "/ˈpælət/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bảng màu",
+                "family": "",
+                "example_en": "Friends often agree on a shared color palette.",
+                "example_vi": ""
+              },
+              {
+                "word": "customize",
+                "ipa": "/ˈkʌstəmaɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "tùy biến, cá nhân hóa",
+                "family": "",
+                "example_en": "Youths customize shared themes with unique accessories.",
+                "example_vi": ""
+              },
+              {
+                "word": "reassurance",
+                "ipa": "/ˌriːəˈʃʊərəns/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự an tâm, trấn an",
+                "family": "",
+                "example_en": "Dressing like peers offers psychological reassurance.",
+                "example_vi": ""
+              },
+              {
+                "word": "alienated",
+                "ipa": "/ˈeɪliəneɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bị tách biệt, lạc lõng",
+                "family": "",
+                "example_en": "Teens often follow trends to avoid feeling alienated.",
+                "example_vi": ""
+              },
+              {
+                "word": "emulate",
+                "ipa": "/ˈemjuleɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "bắt chước, noi theo",
+                "family": "",
+                "example_en": "Fans often emulate the coordinated looks of pop groups.",
+                "example_vi": ""
+              },
+              {
+                "word": "commemorate",
+                "ipa": "/kəˈmeməreɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "kỷ niệm, đánh dấu",
+                "family": "",
+                "example_en": "Matching outfits commemorate special youth milestones.",
+                "example_vi": ""
+              },
+              {
+                "word": "silhouette",
+                "ipa": "/ˌsɪluˈet/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "phom dáng trang phục",
+                "family": "",
+                "example_en": "Strict matching limits diverse silhouettes and cuts.",
+                "example_vi": ""
+              },
+              {
+                "word": "milestone",
+                "ipa": "/ˈmaɪlstəʊn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "cột mốc đáng nhớ",
+                "family": "",
+                "example_en": "Graduation trips are cherished milestones for friends.",
+                "example_vi": ""
+              },
+              {
+                "word": "equate",
+                "ipa": "/ɪˈkweɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "đánh đồng",
+                "family": "",
+                "example_en": "It is narrow to equate similar clothes with lost identity.",
+                "example_vi": ""
+              },
+              {
+                "word": "emblem",
+                "ipa": "/ˈembləm/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "biểu tượng",
+                "family": "",
+                "example_en": "Group attire acts as a visible emblem of loyalty.",
+                "example_vi": ""
+              },
+              {
+                "word": "ritual",
+                "ipa": "/ˈrɪtʃuəl/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "nghi thức, hoạt động quen thuộc",
+                "family": "",
+                "example_en": "Planning group outfits becomes a fun bonding ritual.",
+                "example_vi": ""
+              },
+              {
+                "word": "discern",
+                "ipa": "/dɪˈsɜːn/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "nhận ra, phân biệt rõ",
+                "family": "",
+                "example_en": "Experimenting helps teens discern what truly suits them.",
+                "example_vi": ""
+              },
+              {
+                "word": "uniformity",
+                "ipa": "/ˌjuːnɪˈfɔːməti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự đồng nhất hoàn toàn",
+                "family": "",
+                "example_en": "Rigid uniformity should not replace personal comfort.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "wear matching clothes",
+                "level": "B1",
+                "vi": "mặc quần áo giống nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sense of belonging",
+                "level": "B1",
+                "vi": "cảm giác thuộc về",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tight-knit friend group",
+                "level": "B1",
+                "vi": "nhóm bạn gắn bó thân thiết",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "show close friendship",
+                "level": "B1",
+                "vi": "thể hiện tình bạn thân thiết",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "unforgettable memories",
+                "level": "B1",
+                "vi": "những kỷ niệm khó quên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "celebrate special events",
+                "level": "B1",
+                "vi": "ăn mừng các dịp đặc biệt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fit in easily",
+                "level": "B1",
+                "vi": "dễ dàng hòa nhập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "feel more confident",
+                "level": "B1",
+                "vi": "cảm thấy tự tin hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "shared group identity",
+                "level": "B2",
+                "vi": "bản sắc nhóm chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "visible emblem of loyalty",
+                "level": "B2",
+                "vi": "biểu tượng trực quan của sự gắn bó",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "genuine solidarity",
+                "level": "B2",
+                "vi": "tình đoàn kết chân thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "emotional security",
+                "level": "B2",
+                "vi": "sự an toàn về cảm xúc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "psychological reassurance",
+                "level": "B2",
+                "vi": "sự an tâm về tâm lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "commemorate shared milestones",
+                "level": "B2",
+                "vi": "đánh dấu những cột mốc chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "exciting bonding ritual",
+                "level": "B2",
+                "vi": "nghi thức gắn kết đầy hứng khởi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid feeling alienated",
+                "level": "B2",
+                "vi": "tránh cảm giác bị tách biệt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "social media trends",
+                "level": "B1",
+                "vi": "trào lưu mạng xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "attractive group photos",
+                "level": "B1",
+                "vi": "những bức ảnh nhóm đẹp mắt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "coordinated colors",
+                "level": "B1",
+                "vi": "màu sắc đồng bộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "attract lots of likes",
+                "level": "B1",
+                "vi": "thu hút nhiều lượt thích",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "save styling time",
+                "level": "B1",
+                "vi": "tiết kiệm thời gian phối đồ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "group shopping discounts",
+                "level": "B1",
+                "vi": "ưu đãi giảm giá mua nhóm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "plan matching themes",
+                "level": "B1",
+                "vi": "lên ý tưởng trang phục chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "eye-catching outfits",
+                "level": "B1",
+                "vi": "trang phục bắt mắt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "visually driven platforms",
+                "level": "B2",
+                "vi": "nền tảng mạng xã hội thiên về hình ảnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "color-coordinated ensembles",
+                "level": "B2",
+                "vi": "trang phục phối màu đồng bộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "generate higher online engagement",
+                "level": "B2",
+                "vi": "tạo tương tác trực tuyến cao hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "emulate synchronized aesthetics",
+                "level": "B2",
+                "vi": "tái hiện thẩm mỹ đồng bộ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "agree on a shared palette",
+                "level": "B2",
+                "vi": "thống nhất bảng màu chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "bulk shopping discounts",
+                "level": "B2",
+                "vi": "ưu đãi giảm giá mua số lượng nhiều",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "modest student budgets",
+                "level": "B2",
+                "vi": "ngân sách hạn chế của sinh viên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "vivid visual reminders",
+                "level": "B2",
+                "vi": "dấu ấn thị giác sống động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "limit personal fashion taste",
+                "level": "B1",
+                "vi": "hạn chế gu thời trang cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "follow the group's choices",
+                "level": "B1",
+                "vi": "làm theo lựa chọn của nhóm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "peer pressure",
+                "level": "B1",
+                "vi": "áp lực đồng trang lứa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "buy expensive outfits",
+                "level": "B1",
+                "vi": "mua trang phục đắt đỏ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid upsetting friends",
+                "level": "B1",
+                "vi": "tránh làm mất lòng bạn bè",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "hesitant to try new styles",
+                "level": "B1",
+                "vi": "ngại thử phong cách mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "wear unflattering clothes",
+                "level": "B1",
+                "vi": "mặc đồ không hợp vóc dáng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lose personal style",
+                "level": "B1",
+                "vi": "đánh mất phong cách riêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stifle stylistic creativity",
+                "level": "B2",
+                "vi": "kìm hãm sự sáng tạo phong cách",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prioritize group uniformity",
+                "level": "B2",
+                "vi": "đặt sự đồng nhất nhóm lên trên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "habitual visual conformity",
+                "level": "B2",
+                "vi": "sự rập khuôn ngoại hình thành thói quen",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reinforce herd mentality",
+                "level": "B2",
+                "vi": "củng cố tâm lý đám đông",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "exert subtle peer pressure",
+                "level": "B2",
+                "vi": "tạo áp lực đồng trang lứa ngầm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "compromise personal comfort",
+                "level": "B2",
+                "vi": "hy sinh sự thoải mái cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "leave friends financially strained",
+                "level": "B2",
+                "vi": "khiến bạn bè căng thẳng tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "wasteful fast-fashion consumption",
+                "level": "B2",
+                "vi": "tiêu dùng thời trang nhanh lãng phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "add unique accessories",
+                "level": "B1",
+                "vi": "thêm phụ kiện độc đáo",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personal styling details",
+                "level": "B1",
+                "vi": "chi tiết phối đồ cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "true individuality",
+                "level": "B1",
+                "vi": "cá tính đích thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personality and actions",
+                "level": "B1",
+                "vi": "tính cách và hành động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "experiment with fashion",
+                "level": "B1",
+                "vi": "thử nghiệm thời trang",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "exchange outfit ideas",
+                "level": "B1",
+                "vi": "trao đổi ý tưởng phối đồ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "develop one's own style",
+                "level": "B1",
+                "vi": "phát triển phong cách riêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "stay unique together",
+                "level": "B1",
+                "vi": "vẫn giữ nét riêng khi đi cùng nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "personalize shared themes",
+                "level": "B2",
+                "vi": "cá nhân hóa chủ đề chung",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "blend harmony with personal touches",
+                "level": "B2",
+                "vi": "kết hợp hài hòa chung với dấu ấn riêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "rooted in mindset and values",
+                "level": "B2",
+                "vi": "bắt nguồn từ tư duy và giá trị sống",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "independent thinking",
+                "level": "B2",
+                "vi": "tư duy độc lập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "an overly narrow view",
+                "level": "B2",
+                "vi": "một góc nhìn quá phiến diện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safe stepping stone",
+                "level": "B2",
+                "vi": "bước đệm an toàn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "collaborative experimentation",
+                "level": "B2",
+                "vi": "sự thử nghiệm cùng nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "evolve a confident personal style",
+                "level": "B2",
+                "vi": "hình thành phong cách cá nhân tự tin",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Sự gắn kết & Bản sắc nhóm (Bonding & Identity)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "wear matching clothes",
+                    "phrase": "wear matching clothes",
+                    "vi": "mặc quần áo giống nhau",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sense of belonging",
+                    "phrase": "sense of belonging",
+                    "vi": "cảm giác thuộc về",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tight-knit friend group",
+                    "phrase": "tight-knit friend group",
+                    "vi": "nhóm bạn gắn bó thân thiết",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "show close friendship",
+                    "phrase": "show close friendship",
+                    "vi": "thể hiện tình bạn thân thiết",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "unforgettable memories",
+                    "phrase": "unforgettable memories",
+                    "vi": "những kỷ niệm khó quên",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "celebrate special events",
+                    "phrase": "celebrate special events",
+                    "vi": "ăn mừng các dịp đặc biệt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fit in easily",
+                    "phrase": "fit in easily",
+                    "vi": "dễ dàng hòa nhập",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "feel more confident",
+                    "phrase": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "shared group identity",
+                    "phrase": "shared group identity",
+                    "vi": "bản sắc nhóm chung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "visible emblem of loyalty",
+                    "phrase": "visible emblem of loyalty",
+                    "vi": "biểu tượng trực quan của sự gắn bó",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "genuine solidarity",
+                    "phrase": "genuine solidarity",
+                    "vi": "tình đoàn kết chân thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "emotional security",
+                    "phrase": "emotional security",
+                    "vi": "sự an toàn về cảm xúc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "psychological reassurance",
+                    "phrase": "psychological reassurance",
+                    "vi": "sự an tâm về tâm lý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "commemorate shared milestones",
+                    "phrase": "commemorate shared milestones",
+                    "vi": "đánh dấu những cột mốc chung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "exciting bonding ritual",
+                    "phrase": "exciting bonding ritual",
+                    "vi": "nghi thức gắn kết đầy hứng khởi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid feeling alienated",
+                    "phrase": "avoid feeling alienated",
+                    "vi": "tránh cảm giác bị tách biệt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Mạng xã hội & Tiện ích thực tế (Social Media & Practicality)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "social media trends",
+                    "phrase": "social media trends",
+                    "vi": "trào lưu mạng xã hội",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "attractive group photos",
+                    "phrase": "attractive group photos",
+                    "vi": "những bức ảnh nhóm đẹp mắt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "coordinated colors",
+                    "phrase": "coordinated colors",
+                    "vi": "màu sắc đồng bộ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "attract lots of likes",
+                    "phrase": "attract lots of likes",
+                    "vi": "thu hút nhiều lượt thích",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "save styling time",
+                    "phrase": "save styling time",
+                    "vi": "tiết kiệm thời gian phối đồ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "group shopping discounts",
+                    "phrase": "group shopping discounts",
+                    "vi": "ưu đãi giảm giá mua nhóm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "plan matching themes",
+                    "phrase": "plan matching themes",
+                    "vi": "lên ý tưởng trang phục chung",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "eye-catching outfits",
+                    "phrase": "eye-catching outfits",
+                    "vi": "trang phục bắt mắt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "visually driven platforms",
+                    "phrase": "visually driven platforms",
+                    "vi": "nền tảng mạng xã hội thiên về hình ảnh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "color-coordinated ensembles",
+                    "phrase": "color-coordinated ensembles",
+                    "vi": "trang phục phối màu đồng bộ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "generate higher online engagement",
+                    "phrase": "generate higher online engagement",
+                    "vi": "tạo tương tác trực tuyến cao hơn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "emulate synchronized aesthetics",
+                    "phrase": "emulate synchronized aesthetics",
+                    "vi": "tái hiện thẩm mỹ đồng bộ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "agree on a shared palette",
+                    "phrase": "agree on a shared palette",
+                    "vi": "thống nhất bảng màu chung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "bulk shopping discounts",
+                    "phrase": "bulk shopping discounts",
+                    "vi": "ưu đãi giảm giá mua số lượng nhiều",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "modest student budgets",
+                    "phrase": "modest student budgets",
+                    "vi": "ngân sách hạn chế của sinh viên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "vivid visual reminders",
+                    "phrase": "vivid visual reminders",
+                    "vi": "dấu ấn thị giác sống động",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Nguy cơ Rập khuôn & Áp lực (Conformity Risks)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "limit personal fashion taste",
+                    "phrase": "limit personal fashion taste",
+                    "vi": "hạn chế gu thời trang cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "follow the group's choices",
+                    "phrase": "follow the group's choices",
+                    "vi": "làm theo lựa chọn của nhóm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "peer pressure",
+                    "phrase": "peer pressure",
+                    "vi": "áp lực đồng trang lứa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "buy expensive outfits",
+                    "phrase": "buy expensive outfits",
+                    "vi": "mua trang phục đắt đỏ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid upsetting friends",
+                    "phrase": "avoid upsetting friends",
+                    "vi": "tránh làm mất lòng bạn bè",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "hesitant to try new styles",
+                    "phrase": "hesitant to try new styles",
+                    "vi": "ngại thử phong cách mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "wear unflattering clothes",
+                    "phrase": "wear unflattering clothes",
+                    "vi": "mặc đồ không hợp vóc dáng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lose personal style",
+                    "phrase": "lose personal style",
+                    "vi": "đánh mất phong cách riêng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stifle stylistic creativity",
+                    "phrase": "stifle stylistic creativity",
+                    "vi": "kìm hãm sự sáng tạo phong cách",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prioritize group uniformity",
+                    "phrase": "prioritize group uniformity",
+                    "vi": "đặt sự đồng nhất nhóm lên trên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "habitual visual conformity",
+                    "phrase": "habitual visual conformity",
+                    "vi": "sự rập khuôn ngoại hình thành thói quen",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reinforce herd mentality",
+                    "phrase": "reinforce herd mentality",
+                    "vi": "củng cố tâm lý đám đông",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "exert subtle peer pressure",
+                    "phrase": "exert subtle peer pressure",
+                    "vi": "tạo áp lực đồng trang lứa ngầm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "compromise personal comfort",
+                    "phrase": "compromise personal comfort",
+                    "vi": "hy sinh sự thoải mái cá nhân",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "leave friends financially strained",
+                    "phrase": "leave friends financially strained",
+                    "vi": "khiến bạn bè căng thẳng tài chính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "wasteful fast-fashion consumption",
+                    "phrase": "wasteful fast-fashion consumption",
+                    "vi": "tiêu dùng thời trang nhanh lãng phí",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Bảo toàn & Phát triển Cá tính (Preserving Individuality)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "add unique accessories",
+                    "phrase": "add unique accessories",
+                    "vi": "thêm phụ kiện độc đáo",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personal styling details",
+                    "phrase": "personal styling details",
+                    "vi": "chi tiết phối đồ cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "true individuality",
+                    "phrase": "true individuality",
+                    "vi": "cá tính đích thực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personality and actions",
+                    "phrase": "personality and actions",
+                    "vi": "tính cách và hành động",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "experiment with fashion",
+                    "phrase": "experiment with fashion",
+                    "vi": "thử nghiệm thời trang",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "exchange outfit ideas",
+                    "phrase": "exchange outfit ideas",
+                    "vi": "trao đổi ý tưởng phối đồ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "develop one's own style",
+                    "phrase": "develop one's own style",
+                    "vi": "phát triển phong cách riêng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "stay unique together",
+                    "phrase": "stay unique together",
+                    "vi": "vẫn giữ nét riêng khi đi cùng nhau",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "personalize shared themes",
+                    "phrase": "personalize shared themes",
+                    "vi": "cá nhân hóa chủ đề chung",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "blend harmony with personal touches",
+                    "phrase": "blend harmony with personal touches",
+                    "vi": "kết hợp hài hòa chung với dấu ấn riêng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "rooted in mindset and values",
+                    "phrase": "rooted in mindset and values",
+                    "vi": "bắt nguồn từ tư duy và giá trị sống",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "independent thinking",
+                    "phrase": "independent thinking",
+                    "vi": "tư duy độc lập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "an overly narrow view",
+                    "phrase": "an overly narrow view",
+                    "vi": "một góc nhìn quá phiến diện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safe stepping stone",
+                    "phrase": "safe stepping stone",
+                    "vi": "bước đệm an toàn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "collaborative experimentation",
+                    "phrase": "collaborative experimentation",
+                    "vi": "sự thử nghiệm cùng nhau",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "evolve a confident personal style",
+                    "phrase": "evolve a confident personal style",
+                    "vi": "hình thành phong cách cá nhân tự tin",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Đời sống",
+                "title": "Trào lưu diện đồ đồng bộ của giới trẻ: Gắn kết tình bạn hay đánh mất nét riêng?",
+                "summary": "Góc nhìn đa chiều về tâm lý thích mặc đồ nhóm, ảnh hưởng mạng xã hội và cách giới trẻ vẫn thể hiện cá tính riêng qua phụ kiện và phong cách.",
+                "url": "https://vnexpress.net/doi-song"
+              }
+            ],
+            "en": [
+              {
+                "source": "Wikipedia",
+                "title": "Fashion, Peer Groups, and Social Identity",
+                "summary": "Overview of how clothing choices simultaneously signal group belonging and personal identity in youth culture.",
+                "url": "https://en.wikipedia.org/wiki/Fashion"
               }
             ]
           }
@@ -268102,6 +281940,6040 @@ const ESSAY_DATA = [
               {
                 "en": "taking away these countdown timers forces drivers to strictly adhere to traffic signals",
                 "vi": "loại bỏ các đồng hồ đếm ngược này buộc tài xế phải tuân thủ nghiêm ngặt tín hiệu giao thông"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 27,
+        "title_en": "Mandatory university uniforms vs freedom of dress on campus",
+        "title_vi": "Đồng phục đại học bắt buộc so với tự do chọn trang phục",
+        "tags": "[Discuss Both Views]",
+        "context": "In recent years, there has been ongoing debate over campus dress policies at universities. Some people argue that universities should enforce a mandatory student uniform dress code to promote equality and discipline, while others believe that university students should have total freedom in choosing what to wear on campus.",
+        "context_vi": "Trong những năm gần đây, chính sách trang phục tại các trường đại học luôn là chủ đề tranh luận sôi nổi. Một số người cho rằng trường đại học nên áp dụng quy định đồng phục sinh viên bắt buộc để tạo sự bình đẳng và kỷ luật, trong khi những người khác tin rằng sinh viên đại học nên có toàn quyền tự do lựa chọn trang phục khi đến trường.",
+        "prompt": "Write an essay to an educated reader to discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận cả hai quan điểm trên và đưa ra ý kiến cá nhân của bạn. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": {
+          "view1": {
+            "title_en": "Universities should enforce a mandatory student uniform dress code to create equality",
+            "title_vi": "Các trường đại học nên áp dụng quy định đồng phục sinh viên bắt buộc để tạo sự bình đẳng",
+            "items": [
+              {
+                "en": "mandating university uniforms promotes campus equality and reduces socioeconomic distinctions",
+                "vi": "bắt buộc đồng phục đại học thúc đẩy bình đẳng giảng đường và giảm phân biệt kinh tế - xã hội"
+              },
+              {
+                "en": "standardized student attire fosters discipline, school pride, and lower fashion spending",
+                "vi": "trang phục sinh viên chuẩn hóa nuôi dưỡng kỷ luật, niềm tự hào và giảm chi tiêu thời trang"
+              },
+              {
+                "en": "a compulsory campus dress code creates a neat, inclusive academic environment",
+                "vi": "quy định đồng phục bắt buộc tạo nên môi trường học thuật gọn gàng và hòa nhập"
+              }
+            ]
+          },
+          "view2": {
+            "title_en": "University students should have total freedom in choosing what to wear on campus",
+            "title_vi": "Sinh viên đại học nên có toàn quyền tự do lựa chọn trang phục trên giảng đường",
+            "items": [
+              {
+                "en": "undergraduates are independent adults who deserve full autonomy over their campus attire",
+                "vi": "sinh viên đại học là người trưởng thành độc lập xứng đáng có quyền tự chủ về trang phục"
+              },
+              {
+                "en": "freedom of dress protects creative self-expression and respects cultural diversity",
+                "vi": "tự do trang phục bảo vệ sự biểu đạt sáng tạo và tôn trọng đa dạng văn hóa"
+              },
+              {
+                "en": "allowing personal clothing choices trains students to dress appropriately for real-world contexts",
+                "vi": "cho phép tự chọn trang phục giúp sinh viên rèn kỹ năng ăn mặc phù hợp bối cảnh thực tế"
+              }
+            ]
+          }
+        },
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 01: TẠO SỰ BÌNH ĐẲNG VÀ GIẢM PHÂN BIỆT GIÀU NGHÈO",
+                "point_vi": "Áp dụng đồng phục đại học bắt buộc giúp tạo sự bình đẳng và giảm sự so sánh về hoàn cảnh kinh tế.",
+                "point_en": "Enforcing a mandatory university uniform helps create equality and reduce comparisons over family wealth.",
+                "point_collocations": [
+                  {
+                    "en": "mandatory university uniform",
+                    "vi": "đồng phục đại học bắt buộc"
+                  },
+                  {
+                    "en": "create equality",
+                    "vi": "tạo sự bình đẳng"
+                  }
+                ],
+                "evidence_vi": "Khi mọi sinh viên mặc trang phục giống nhau, những bạn có thu nhập thấp sẽ không cảm thấy tự ti trước các bạn mặc đồ hàng hiệu.",
+                "evidence_en": "When all students wear the same outfit, those from lower-income families will not feel insecure next to peers wearing luxury brands.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lower-income families",
+                      "vi": "gia đình thu nhập thấp"
+                    },
+                    {
+                      "en": "luxury brands",
+                      "vi": "đồ hàng hiệu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mandatory university uniform",
+                    "vi": "đồng phục đại học bắt buộc"
+                  },
+                  {
+                    "en": "create equality",
+                    "vi": "tạo sự bình đẳng"
+                  },
+                  {
+                    "en": "lower-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "luxury brands",
+                    "vi": "đồ hàng hiệu"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 02: TIẾT KIỆM THỜI GIAN VÀ CHI PHÍ MUA SẮM CHO SINH VIÊN",
+                "point_vi": "Mặc đồng phục giúp sinh viên tiết kiệm thời gian mỗi sáng và giảm tiền mua quần áo thời trang.",
+                "point_en": "Wearing uniforms saves students time every morning and lowers spending on fashionable clothes.",
+                "point_collocations": [
+                  {
+                    "en": "saves students time",
+                    "vi": "tiết kiệm thời gian cho sinh viên"
+                  },
+                  {
+                    "en": "fashionable clothes",
+                    "vi": "quần áo thời trang"
+                  }
+                ],
+                "evidence_vi": "Thay vì lo lắng chọn đồ đi học hằng ngày hay chạy theo xu hướng mới, sinh viên có thể tập trung ngân sách và tâm trí vào việc học.",
+                "evidence_en": "Instead of worrying about daily outfits or chasing new trends, students can focus their money and energy on their studies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chasing new trends",
+                      "vi": "chạy theo xu hướng mới"
+                    },
+                    {
+                      "en": "focus on studies",
+                      "vi": "tập trung vào việc học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "saves students time",
+                    "vi": "tiết kiệm thời gian cho sinh viên"
+                  },
+                  {
+                    "en": "fashionable clothes",
+                    "vi": "quần áo thời trang"
+                  },
+                  {
+                    "en": "chasing new trends",
+                    "vi": "chạy theo xu hướng mới"
+                  },
+                  {
+                    "en": "focus on studies",
+                    "vi": "tập trung vào việc học"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 03: XÂY DỰNG HÌNH ẢNH CHUYÊN NGHIỆP VÀ KỶ LUẬT HỌC ĐƯỜNG",
+                "point_vi": "Đồng phục tạo nên môi trường giảng đường gọn gàng, lịch sự và rèn luyện tác phong chuyên nghiệp.",
+                "point_en": "Uniforms create a neat, respectful campus environment and prepare students for professional dress codes.",
+                "point_collocations": [
+                  {
+                    "en": "campus environment",
+                    "vi": "môi trường giảng đường"
+                  },
+                  {
+                    "en": "professional dress codes",
+                    "vi": "quy chuẩn trang phục chuyên nghiệp"
+                  }
+                ],
+                "evidence_vi": "Nhiều ngành nghề như ngân hàng, khách sạn hay luật đòi hỏi ăn mặc chỉnh tề, nên mặc đồng phục giúp sinh viên sớm quen với kỷ luật công sở.",
+                "evidence_en": "Many professions such as banking, hospitality, or law require formal attire, so uniforms help students get used to workplace discipline early.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "formal attire",
+                      "vi": "trang phục trang trọng / chỉnh tề"
+                    },
+                    {
+                      "en": "workplace discipline",
+                      "vi": "kỷ luật công sở"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "campus environment",
+                    "vi": "môi trường giảng đường"
+                  },
+                  {
+                    "en": "professional dress codes",
+                    "vi": "quy chuẩn trang phục chuyên nghiệp"
+                  },
+                  {
+                    "en": "formal attire",
+                    "vi": "trang phục trang trọng / chỉnh tề"
+                  },
+                  {
+                    "en": "workplace discipline",
+                    "vi": "kỷ luật công sở"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 04: TĂNG NIỀM TỰ HÀO VÀ SỰ GẮN KẾT VỚI NHÀ TRƯỜNG",
+                "point_vi": "Đồng phục đại học giúp tăng cảm giác gắn kết cộng đồng và niềm tự hào về ngôi trường đang theo học.",
+                "point_en": "University uniforms strengthen school spirit and give students a shared sense of pride in their institution.",
+                "point_collocations": [
+                  {
+                    "en": "school spirit",
+                    "vi": "tinh thần gắn kết trường lớp"
+                  },
+                  {
+                    "en": "sense of pride",
+                    "vi": "niềm tự hào"
+                  }
+                ],
+                "evidence_vi": "Khi tham gia các sự kiện hay hoạt động tình nguyện, bộ đồng phục chung giúp sinh viên dễ nhận ra nhau và thể hiện hình ảnh đẹp của trường.",
+                "evidence_en": "During campus events or volunteer activities, wearing the same uniform helps students recognize one another and represent their university proudly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "campus events",
+                      "vi": "sự kiện ở trường đại học"
+                    },
+                    {
+                      "en": "represent proudly",
+                      "vi": "đại diện một cách tự hào"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "school spirit",
+                    "vi": "tinh thần gắn kết trường lớp"
+                  },
+                  {
+                    "en": "sense of pride",
+                    "vi": "niềm tự hào"
+                  },
+                  {
+                    "en": "campus events",
+                    "vi": "sự kiện ở trường đại học"
+                  },
+                  {
+                    "en": "represent proudly",
+                    "vi": "đại diện một cách tự hào"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 05: TĂNG CƯỜNG AN NINH TRONG KHUÔN VIÊN ĐẠI HỌC",
+                "point_vi": "Quy định đồng phục giúp nhân viên bảo vệ dễ nhận diện sinh viên và giữ an toàn cho khuôn viên trường.",
+                "point_en": "A uniform policy helps campus security staff easily identify students and keep the university safer.",
+                "point_collocations": [
+                  {
+                    "en": "campus security",
+                    "vi": "an ninh khuôn viên trường"
+                  },
+                  {
+                    "en": "identify students",
+                    "vi": "nhận diện sinh viên"
+                  }
+                ],
+                "evidence_vi": "Tại các trường đại học lớn có hàng nghìn người ra vào mỗi ngày, đồng phục giúp nhanh chóng phát hiện người lạ không có nhiệm vụ.",
+                "evidence_en": "At large universities with thousands of visitors daily, uniforms make it much easier to spot unauthorized outsiders quickly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unauthorized outsiders",
+                      "vi": "người lạ không có phận sự"
+                    },
+                    {
+                      "en": "keep the university safer",
+                      "vi": "giữ an toàn cho trường"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "campus security",
+                    "vi": "an ninh khuôn viên trường"
+                  },
+                  {
+                    "en": "identify students",
+                    "vi": "nhận diện sinh viên"
+                  },
+                  {
+                    "en": "unauthorized outsiders",
+                    "vi": "người lạ không có phận sự"
+                  },
+                  {
+                    "en": "keep the university safer",
+                    "vi": "giữ an toàn cho trường"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 01: TÔN TRỌNG QUYỀN TỰ DO CÁ NHÂN CỦA NGƯỜI TRƯỞNG THÀNH",
+                "point_vi": "Sinh viên đại học đã là người trưởng thành nên họ xứng đáng có quyền tự do quyết định cách ăn mặc.",
+                "point_en": "University students are legal adults, so they deserve the freedom to decide what they wear.",
+                "point_collocations": [
+                  {
+                    "en": "legal adults",
+                    "vi": "người trưởng thành về mặt pháp lý"
+                  },
+                  {
+                    "en": "freedom to decide",
+                    "vi": "tự do quyết định"
+                  }
+                ],
+                "evidence_vi": "Việc áp đặt đồng phục như ở cấp phổ thông khiến nhiều sinh viên cảm thấy bị kiểm soát quá mức và thiếu sự tôn trọng.",
+                "evidence_en": "Forcing uniforms like in high school makes many university students feel overly controlled and treated like children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "overly controlled",
+                      "vi": "bị kiểm soát quá mức"
+                    },
+                    {
+                      "en": "treated like children",
+                      "vi": "bị đối xử như trẻ con"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "legal adults",
+                    "vi": "người trưởng thành về mặt pháp lý"
+                  },
+                  {
+                    "en": "freedom to decide",
+                    "vi": "tự do quyết định"
+                  },
+                  {
+                    "en": "overly controlled",
+                    "vi": "bị kiểm soát quá mức"
+                  },
+                  {
+                    "en": "treated like children",
+                    "vi": "bị đối xử như trẻ con"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 02: THỂ HIỆN CÁ TÍNH VÀ NUÔI DƯỠNG SỰ SÁNG TẠO",
+                "point_vi": "Tự do chọn trang phục cho phép sinh viên thể hiện cá tính riêng và khuyến khích tư duy sáng tạo.",
+                "point_en": "Freedom of dress allows students to express their individuality and encourages creative thinking.",
+                "point_collocations": [
+                  {
+                    "en": "freedom of dress",
+                    "vi": "tự do lựa chọn trang phục"
+                  },
+                  {
+                    "en": "express individuality",
+                    "vi": "thể hiện cá tính riêng"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt với các ngành thiết kế, truyền thông hay nghệ thuật, phong cách ăn mặc cá nhân là cách tự nhiên để bộc lộ gu thẩm mỹ.",
+                "evidence_en": "Especially in fields such as design, media, or the arts, personal fashion is a natural way to showcase creative taste.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "personal fashion",
+                      "vi": "thời trang cá nhân"
+                    },
+                    {
+                      "en": "creative taste",
+                      "vi": "gu thẩm mỹ sáng tạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "freedom of dress",
+                    "vi": "tự do lựa chọn trang phục"
+                  },
+                  {
+                    "en": "express individuality",
+                    "vi": "thể hiện cá tính riêng"
+                  },
+                  {
+                    "en": "personal fashion",
+                    "vi": "thời trang cá nhân"
+                  },
+                  {
+                    "en": "creative taste",
+                    "vi": "gu thẩm mỹ sáng tạo"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 03: MANG LẠI SỰ THOẢI MÁI VÀ PHÙ HỢP VỚI THỜI TIẾT",
+                "point_vi": "Sinh viên có thể chọn quần áo thoải mái phù hợp với vóc dáng, lịch học và điều kiện thời tiết.",
+                "point_en": "Students can choose comfortable clothes that suit their body types, daily schedules, and weather conditions.",
+                "point_collocations": [
+                  {
+                    "en": "comfortable clothes",
+                    "vi": "quần áo thoải mái"
+                  },
+                  {
+                    "en": "weather conditions",
+                    "vi": "điều kiện thời tiết"
+                  }
+                ],
+                "evidence_vi": "Đồng phục thiết kế theo một mẫu chung thường khó vừa vặn với tất cả mọi người và có thể gây nóng bức hoặc bất tiện khi học cả ngày.",
+                "evidence_en": "Standard uniforms designed in one fixed style rarely fit every body comfortably and can feel hot or inconvenient during long study days.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "standard uniforms",
+                      "vi": "đồng phục mẫu chuẩn"
+                    },
+                    {
+                      "en": "long study days",
+                      "vi": "những ngày học dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "comfortable clothes",
+                    "vi": "quần áo thoải mái"
+                  },
+                  {
+                    "en": "weather conditions",
+                    "vi": "điều kiện thời tiết"
+                  },
+                  {
+                    "en": "standard uniforms",
+                    "vi": "đồng phục mẫu chuẩn"
+                  },
+                  {
+                    "en": "long study days",
+                    "vi": "những ngày học dài"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 04: ĐỒNG PHỤC KHÔNG THỰC SỰ XÓA BỎ BẤT BÌNH ĐẲNG",
+                "point_vi": "Mặc đồng phục không thể che giấu hoàn toàn sự chênh lệch giàu nghèo giữa các sinh viên.",
+                "point_en": "Wearing uniforms cannot truly eliminate economic inequality among university students.",
+                "point_collocations": [
+                  {
+                    "en": "economic inequality",
+                    "vi": "bất bình đẳng kinh tế"
+                  },
+                  {
+                    "en": "cannot eliminate",
+                    "vi": "không thể xóa bỏ"
+                  }
+                ],
+                "evidence_vi": "Sự khác biệt về điều kiện kinh tế vẫn thể hiện rõ qua điện thoại, máy tính xách tay, xe cộ và phụ kiện mà sinh viên sử dụng.",
+                "evidence_en": "Differences in wealth remain obvious through the smartphones, laptops, motorbikes, and accessories that students bring to campus.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "differences in wealth",
+                      "vi": "sự khác biệt về giàu nghèo"
+                    },
+                    {
+                      "en": "bring to campus",
+                      "vi": "mang đến giảng đường"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "economic inequality",
+                    "vi": "bất bình đẳng kinh tế"
+                  },
+                  {
+                    "en": "cannot eliminate",
+                    "vi": "không thể xóa bỏ"
+                  },
+                  {
+                    "en": "differences in wealth",
+                    "vi": "sự khác biệt về giàu nghèo"
+                  },
+                  {
+                    "en": "bring to campus",
+                    "vi": "mang đến giảng đường"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 05: PHÁT TRIỂN KỸ NĂNG TỰ CHỌN TRANG PHỤC PHÙ HỢP HOÀN CẢNH",
+                "point_vi": "Tự do ăn mặc giúp sinh viên rèn luyện kỹ năng tự chọn trang phục lịch sự cho từng hoàn cảnh khác nhau.",
+                "point_en": "Choosing their own clothes teaches students how to dress appropriately for different real-world situations.",
+                "point_collocations": [
+                  {
+                    "en": "dress appropriately",
+                    "vi": "ăn mặc phù hợp hoàn cảnh"
+                  },
+                  {
+                    "en": "real-world situations",
+                    "vi": "tình huống thực tế"
+                  }
+                ],
+                "evidence_vi": "Biết cách phối đồ gọn gàng cho buổi thuyết trình hay phỏng vấn xin việc là kỹ năng sống cần thiết mà người trẻ cần tự học.",
+                "evidence_en": "Learning how to dress neatly for class presentations or job interviews is a practical life skill that young adults must practice independently.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "job interviews",
+                      "vi": "phỏng vấn xin việc"
+                    },
+                    {
+                      "en": "practical life skill",
+                      "vi": "kỹ năng sống thiết thực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "dress appropriately",
+                    "vi": "ăn mặc phù hợp hoàn cảnh"
+                  },
+                  {
+                    "en": "real-world situations",
+                    "vi": "tình huống thực tế"
+                  },
+                  {
+                    "en": "job interviews",
+                    "vi": "phỏng vấn xin việc"
+                  },
+                  {
+                    "en": "practical life skill",
+                    "vi": "kỹ năng sống thiết thực"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 01: THÚC ĐẨY BÌNH ĐẲNG XÃ HỘI VÀ GIẢM ÁP LỰC PHÂN TẦNG (SOCIOECONOMIC EQUALITY)",
+                "point_vi": "Quy định đồng phục bắt buộc tại đại học góp phần thúc đẩy bình đẳng và làm mờ khoảng cách kinh tế giữa sinh viên.",
+                "point_en": "Mandating university uniforms promotes campus equality by visibly reducing socioeconomic distinctions among students.",
+                "point_collocations": [
+                  {
+                    "en": "campus equality",
+                    "vi": "sự bình đẳng trên giảng đường"
+                  },
+                  {
+                    "en": "socioeconomic distinctions",
+                    "vi": "sự phân biệt kinh tế - xã hội"
+                  }
+                ],
+                "evidence_vi": "Trong môi trường đại học ngày càng chịu tác động của chủ nghĩa tiêu dùng, trang phục hàng hiệu dễ tạo ra sự so sánh ngầm và mặc cảm cho sinh viên khó khăn. Một bộ đồng phục thống nhất giúp san bằng sân chơi về mặt hình thức, tạo nên không gian học tập hòa nhập hơn cho mọi tầng lớp.",
+                "evidence_en": "In university environments increasingly shaped by consumer culture, designer labels can easily fuel unspoken status comparisons and insecurity among less affluent students. A standardized uniform levels the visible playing field and fosters a more inclusive academic community for learners from all backgrounds.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "consumer culture",
+                      "vi": "văn hóa tiêu dùng"
+                    },
+                    {
+                      "en": "status comparisons",
+                      "vi": "sự so sánh địa vị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "level the playing field",
+                      "vi": "san bằng sân chơi"
+                    },
+                    {
+                      "en": "inclusive academic community",
+                      "vi": "cộng đồng học thuật hòa nhập"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "campus equality",
+                    "vi": "sự bình đẳng trên giảng đường"
+                  },
+                  {
+                    "en": "socioeconomic distinctions",
+                    "vi": "sự phân biệt kinh tế - xã hội"
+                  },
+                  {
+                    "en": "consumer culture",
+                    "vi": "văn hóa tiêu dùng"
+                  },
+                  {
+                    "en": "status comparisons",
+                    "vi": "sự so sánh địa vị"
+                  },
+                  {
+                    "en": "level the playing field",
+                    "vi": "san bằng sân chơi"
+                  },
+                  {
+                    "en": "inclusive academic community",
+                    "vi": "cộng đồng học thuật hòa nhập"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 02: GIẢM GÁNH NẶNG TÀI CHÍNH VÀ TĂNG TẬP TRUNG HỌC THUẬT (FINANCIAL AND ACADEMIC FOCUS)",
+                "point_vi": "Đồng phục giúp sinh viên cắt giảm chi tiêu thời trang không cần thiết và dồn toàn tâm cho việc nghiên cứu, học tập.",
+                "point_en": "Uniform dress codes curb unnecessary fashion expenditure and redirect student attention toward academic achievement.",
+                "point_collocations": [
+                  {
+                    "en": "fashion expenditure",
+                    "vi": "chi tiêu cho thời trang"
+                  },
+                  {
+                    "en": "academic achievement",
+                    "vi": "thành tích học thuật"
+                  }
+                ],
+                "evidence_vi": "Nhiều sinh viên tiêu tốn đáng kể thời gian và ngân sách hạn hẹp để cập nhật trang phục mỗi tuần chỉ nhằm duy trì hình ảnh trước bạn bè. Việc loại bỏ nỗi băn khoăn mặc gì hằng ngày vừa giúp giảm bớt áp lực tài chính vừa hạn chế sự phân tâm về ngoại hình trên giảng đường.",
+                "evidence_en": "Many undergraduates spend disproportionate time and limited allowances updating their wardrobes to keep pace with campus fashion trends. Removing daily wardrobe decisions eases financial strain while minimizing appearance-related distractions in lecture halls.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "limited allowances",
+                      "vi": "tiền sinh hoạt hạn chế"
+                    },
+                    {
+                      "en": "campus fashion trends",
+                      "vi": "xu hướng thời trang giảng đường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "financial strain",
+                      "vi": "áp lực tài chính"
+                    },
+                    {
+                      "en": "lecture halls",
+                      "vi": "giảng đường đại học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fashion expenditure",
+                    "vi": "chi tiêu cho thời trang"
+                  },
+                  {
+                    "en": "academic achievement",
+                    "vi": "thành tích học thuật"
+                  },
+                  {
+                    "en": "limited allowances",
+                    "vi": "tiền sinh hoạt hạn chế"
+                  },
+                  {
+                    "en": "campus fashion trends",
+                    "vi": "xu hướng thời trang giảng đường"
+                  },
+                  {
+                    "en": "financial strain",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "lecture halls",
+                    "vi": "giảng đường đại học"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 03: RÈN LUYỆN TÁC PHONG CHUYÊN NGHIỆP VÀ KỶ LUẬT (PROFESSIONAL READINESS)",
+                "point_vi": "Áp dụng quy chuẩn trang phục rõ ràng giúp sinh viên làm quen sớm với tác phong chuyên nghiệp trong môi trường doanh nghiệp.",
+                "point_en": "Enforcing a structured dress code instills discipline and prepares undergraduates for professional workplace expectations.",
+                "point_collocations": [
+                  {
+                    "en": "structured dress code",
+                    "vi": "quy chuẩn trang phục rõ ràng"
+                  },
+                  {
+                    "en": "workplace expectations",
+                    "vi": "yêu cầu nơi làm việc"
+                  }
+                ],
+                "evidence_vi": "Các lĩnh vực như tài chính, luật pháp, hàng không và quản trị khách sạn đều yêu cầu trang phục chuẩn mực nhằm thể hiện sự tôn trọng khách hàng. Thói quen ăn mặc chỉn chu ngay từ đại học sẽ giúp sinh viên chuyển tiếp mượt mà hơn từ giảng đường sang thị trường lao động.",
+                "evidence_en": "Sectors such as finance, law, aviation, and hospitality enforce formal attire to project credibility and respect for clients. Cultivating neat presentation habits during university smooths the transition from academic life to corporate careers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "project credibility",
+                      "vi": "thể hiện sự đáng tin cậy"
+                    },
+                    {
+                      "en": "formal attire",
+                      "vi": "trang phục trang trọng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "neat presentation habits",
+                      "vi": "thói quen ăn mặc chỉn chu"
+                    },
+                    {
+                      "en": "corporate careers",
+                      "vi": "sự nghiệp doanh nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "structured dress code",
+                    "vi": "quy chuẩn trang phục rõ ràng"
+                  },
+                  {
+                    "en": "workplace expectations",
+                    "vi": "yêu cầu nơi làm việc"
+                  },
+                  {
+                    "en": "project credibility",
+                    "vi": "thể hiện sự đáng tin cậy"
+                  },
+                  {
+                    "en": "formal attire",
+                    "vi": "trang phục trang trọng"
+                  },
+                  {
+                    "en": "neat presentation habits",
+                    "vi": "thói quen ăn mặc chỉn chu"
+                  },
+                  {
+                    "en": "corporate careers",
+                    "vi": "sự nghiệp doanh nghiệp"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 04: NUÔI DƯỠNG BẢN SẮC HỌC THUẬT VÀ ĐOÀN KẾT CỘNG ĐỒNG (INSTITUTIONAL IDENTITY)",
+                "point_vi": "Đồng phục đại học củng cố niềm tự hào tập thể và tạo nên bản sắc nhận diện rõ nét cho nhà trường.",
+                "point_en": "University uniforms reinforce collective pride and cultivate a cohesive institutional identity.",
+                "point_collocations": [
+                  {
+                    "en": "collective pride",
+                    "vi": "niềm tự hào tập thể"
+                  },
+                  {
+                    "en": "institutional identity",
+                    "vi": "bản sắc của nhà trường"
+                  }
+                ],
+                "evidence_vi": "Khi sinh viên cùng mặc đồng phục trong các hội thảo, cuộc thi học thuật hay chiến dịch cộng đồng, tinh thần gắn kết giữa các khoa và khóa học trở nên mạnh mẽ hơn. Hình ảnh đồng bộ và văn minh này cũng góp phần nâng cao uy tín của trường đại học trong mắt xã hội.",
+                "evidence_en": "When students wear uniform attire at conferences, academic competitions, and outreach programs, camaraderie across faculties grows noticeably stronger. This cohesive, dignified visual presence also enhances the university's public reputation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "academic competitions",
+                      "vi": "cuộc thi học thuật"
+                    },
+                    {
+                      "en": "camaraderie",
+                      "vi": "tình đồng đội / sự gắn bó"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "dignified visual presence",
+                      "vi": "hình ảnh trang nghiêm"
+                    },
+                    {
+                      "en": "public reputation",
+                      "vi": "uy tín trước công chúng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "collective pride",
+                    "vi": "niềm tự hào tập thể"
+                  },
+                  {
+                    "en": "institutional identity",
+                    "vi": "bản sắc của nhà trường"
+                  },
+                  {
+                    "en": "academic competitions",
+                    "vi": "cuộc thi học thuật"
+                  },
+                  {
+                    "en": "camaraderie",
+                    "vi": "tình đồng đội / sự gắn bó"
+                  },
+                  {
+                    "en": "dignified visual presence",
+                    "vi": "hình ảnh trang nghiêm"
+                  },
+                  {
+                    "en": "public reputation",
+                    "vi": "uy tín trước công chúng"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 05: TĂNG AN NINH VÀ NGĂN NGỪA TRANG PHỤC PHẢN CẢM (CAMPUS SECURITY AND DECORUM)",
+                "point_vi": "Quy định đồng phục hỗ trợ quản lý an ninh giảng đường hiệu quả hơn và tránh những lựa chọn trang phục thiếu phù hợp.",
+                "point_en": "Uniform policies strengthen campus security management and prevent overly casual or inappropriate attire in academic settings.",
+                "point_collocations": [
+                  {
+                    "en": "campus security management",
+                    "vi": "quản lý an ninh khuôn viên"
+                  },
+                  {
+                    "en": "inappropriate attire",
+                    "vi": "trang phục không phù hợp"
+                  }
+                ],
+                "evidence_vi": "Tại các khuôn viên mở rộng lớn, việc nhận diện ngay lập tức sinh viên đang theo học giúp đội ngũ bảo vệ giảm thiểu nguy cơ xâm nhập trái phép. Đồng thời, một tiêu chuẩn chung cũng xóa bỏ những tranh cãi không cần thiết về ranh giới giữa tự do ăn mặc và sự lịch sự học đường.",
+                "evidence_en": "Across sprawling open campuses, rapid visual identification of enrolled students helps security teams deter unauthorized entry and theft. Equally, a uniform standard removes ambiguity over where personal expression crosses the line into campus indiscretion.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sprawling open campuses",
+                      "vi": "khuôn viên đại học mở rộng lớn"
+                    },
+                    {
+                      "en": "deter unauthorized entry",
+                      "vi": "ngăn chặn xâm nhập trái phép"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "remove ambiguity",
+                      "vi": "xóa bỏ sự mơ hồ"
+                    },
+                    {
+                      "en": "personal expression",
+                      "vi": "sự thể hiện cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "campus security management",
+                    "vi": "quản lý an ninh khuôn viên"
+                  },
+                  {
+                    "en": "inappropriate attire",
+                    "vi": "trang phục không phù hợp"
+                  },
+                  {
+                    "en": "sprawling open campuses",
+                    "vi": "khuôn viên đại học mở rộng lớn"
+                  },
+                  {
+                    "en": "deter unauthorized entry",
+                    "vi": "ngăn chặn xâm nhập trái phép"
+                  },
+                  {
+                    "en": "remove ambiguity",
+                    "vi": "xóa bỏ sự mơ hồ"
+                  },
+                  {
+                    "en": "personal expression",
+                    "vi": "sự thể hiện cá nhân"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 01: TÔN TRỌNG QUYỀN TỰ CHỦ CỦA CÔNG DÂN TRƯỞNG THÀNH (ADULT AUTONOMY)",
+                "point_vi": "Sinh viên đại học là những người trưởng thành độc lập, vì vậy việc ép buộc mặc đồng phục đi ngược lại tinh thần tự chủ của giáo dục bậc cao.",
+                "point_en": "University students are independent adults, meaning mandatory uniforms contradict the autonomy central to higher education.",
+                "point_collocations": [
+                  {
+                    "en": "independent adults",
+                    "vi": "người trưởng thành độc lập"
+                  },
+                  {
+                    "en": "higher education",
+                    "vi": "giáo dục bậc cao / đại học"
+                  }
+                ],
+                "evidence_vi": "Khác với học sinh phổ thông, sinh viên đại học đủ chín chắn để bầu cử, đi làm thêm và tự chịu trách nhiệm về mọi quyết định cá nhân. Áp đặt quy định trang phục cứng nhắc mang tính bao bọc quá mức dễ làm suy giảm tinh thần tự lập mà đại học vốn có nhiệm vụ bồi dưỡng.",
+                "evidence_en": "Unlike secondary pupils, university learners are mature enough to vote, hold part-time jobs, and manage independent lives. Imposing rigid dress mandates feels paternalistic and undermines the personal responsibility that higher education is meant to cultivate.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "manage independent lives",
+                      "vi": "tự quản lý cuộc sống độc lập"
+                    },
+                    {
+                      "en": "part-time jobs",
+                      "vi": "việc làm bán thời gian"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rigid dress mandates",
+                      "vi": "quy định trang phục cứng nhắc"
+                    },
+                    {
+                      "en": "personal responsibility",
+                      "vi": "trách nhiệm cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "independent adults",
+                    "vi": "người trưởng thành độc lập"
+                  },
+                  {
+                    "en": "higher education",
+                    "vi": "giáo dục bậc cao / đại học"
+                  },
+                  {
+                    "en": "manage independent lives",
+                    "vi": "tự quản lý cuộc sống độc lập"
+                  },
+                  {
+                    "en": "part-time jobs",
+                    "vi": "việc làm bán thời gian"
+                  },
+                  {
+                    "en": "rigid dress mandates",
+                    "vi": "quy định trang phục cứng nhắc"
+                  },
+                  {
+                    "en": "personal responsibility",
+                    "vi": "trách nhiệm cá nhân"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 02: KHUYẾN KHÍCH SÁNG TẠO VÀ ĐA DẠNG BẢN SẮC (CREATIVITY AND DIVERSITY)",
+                "point_vi": "Tự do trang phục bảo vệ quyền tự do biểu đạt, nuôi dưỡng sự sáng tạo và tôn vinh đa dạng văn hóa trên giảng đường.",
+                "point_en": "Freedom of dress protects self-expression, stimulates creativity, and celebrates cultural diversity across campus.",
+                "point_collocations": [
+                  {
+                    "en": "self-expression",
+                    "vi": "sự tự do biểu đạt bản thân"
+                  },
+                  {
+                    "en": "cultural diversity",
+                    "vi": "đa dạng văn hóa"
+                  }
+                ],
+                "evidence_vi": "Đại học là môi trường quy tụ sinh viên đến từ nhiều vùng miền, tôn giáo và lĩnh vực chuyên môn khác nhau, từ kỹ thuật đến nghệ thuật đương đại. Việc tự do thể hiện cá tính qua phong cách ăn mặc góp phần tạo nên bầu không khí cởi mở, nơi tư duy khác biệt được trân trọng.",
+                "evidence_en": "Universities bring together students from diverse regions, religious traditions, and disciplines ranging from engineering to fine arts. Allowing authentic stylistic freedom nurtures an open-minded atmosphere where original thinking and cultural identity are respected.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "diverse regions",
+                      "vi": "nhiều vùng miền khác nhau"
+                    },
+                    {
+                      "en": "stylistic freedom",
+                      "vi": "tự do phong cách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "open-minded atmosphere",
+                      "vi": "bầu không khí cởi mở"
+                    },
+                    {
+                      "en": "original thinking",
+                      "vi": "tư duy độc đáo / mới mẻ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "self-expression",
+                    "vi": "sự tự do biểu đạt bản thân"
+                  },
+                  {
+                    "en": "cultural diversity",
+                    "vi": "đa dạng văn hóa"
+                  },
+                  {
+                    "en": "diverse regions",
+                    "vi": "nhiều vùng miền khác nhau"
+                  },
+                  {
+                    "en": "stylistic freedom",
+                    "vi": "tự do phong cách"
+                  },
+                  {
+                    "en": "open-minded atmosphere",
+                    "vi": "bầu không khí cởi mở"
+                  },
+                  {
+                    "en": "original thinking",
+                    "vi": "tư duy độc đáo / mới mẻ"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 03: BÌNH ĐẲNG BỀ NỔI KHÔNG GIẢI QUYẾT BẤT BÌNH ĐẲNG THỰC CHẤT (SUPERFICIAL EQUALITY)",
+                "point_vi": "Đồng phục chỉ tạo ra cảm giác bình đẳng bề nổi bởi sự chênh lệch giàu nghèo vẫn bộc lộ qua nhiều yếu tố khác.",
+                "point_en": "Uniforms create only superficial equality because socioeconomic gaps remain clearly visible through other possessions.",
+                "point_collocations": [
+                  {
+                    "en": "superficial equality",
+                    "vi": "sự bình đẳng bề nổi"
+                  },
+                  {
+                    "en": "socioeconomic gaps",
+                    "vi": "khoảng cách kinh tế - xã hội"
+                  }
+                ],
+                "evidence_vi": "Sinh viên khá giả vẫn dễ dàng nổi bật qua thiết bị công nghệ đắt tiền, đồng hồ, giày dép, phương tiện di chuyển hay lối sống ngoài giờ học. Thực tế hơn, nhà trường nên thúc đẩy bình đẳng thật sự thông qua học bổng, hỗ trợ ký túc xá và tạo cơ hội học tập công bằng thay vì đồng nhất quần áo.",
+                "evidence_en": "Wealthier students still stand out unmistakably through high-end laptops, smartphones, footwear, vehicles, and off-campus lifestyles. Universities would promote far more meaningful equality through scholarships, affordable housing, and fair academic support rather than identical outfits.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "high-end laptops",
+                      "vi": "máy tính xách tay cao cấp"
+                    },
+                    {
+                      "en": "off-campus lifestyles",
+                      "vi": "lối sống ngoài giảng đường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "meaningful equality",
+                      "vi": "sự bình đẳng thực chất"
+                    },
+                    {
+                      "en": "affordable housing",
+                      "vi": "nhà ở giá hợp lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "superficial equality",
+                    "vi": "sự bình đẳng bề nổi"
+                  },
+                  {
+                    "en": "socioeconomic gaps",
+                    "vi": "khoảng cách kinh tế - xã hội"
+                  },
+                  {
+                    "en": "high-end laptops",
+                    "vi": "máy tính xách tay cao cấp"
+                  },
+                  {
+                    "en": "off-campus lifestyles",
+                    "vi": "lối sống ngoài giảng đường"
+                  },
+                  {
+                    "en": "meaningful equality",
+                    "vi": "sự bình đẳng thực chất"
+                  },
+                  {
+                    "en": "affordable housing",
+                    "vi": "nhà ở giá hợp lý"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 04: SỰ THOẢI MÁI CÁ NHÂN VÀ CHI PHÍ PHÁT SINH (COMFORT AND EXTRA EXPENSE)",
+                "point_vi": "Đồng phục sản xuất đại trà thường thiếu tính linh hoạt cho lịch trình đa dạng và vô tình tạo thêm chi phí bắt buộc cho sinh viên.",
+                "point_en": "Mass-produced uniforms lack practicality for varied schedules and can impose an extra mandatory expense on students.",
+                "point_collocations": [
+                  {
+                    "en": "mass-produced uniforms",
+                    "vi": "đồng phục sản xuất đại trà"
+                  },
+                  {
+                    "en": "mandatory expense",
+                    "vi": "khoản chi phí bắt buộc"
+                  }
+                ],
+                "evidence_vi": "Sinh viên đại học thường kết hợp việc lên lớp với thực hành phòng thí nghiệm, đi làm thêm hoặc tham gia câu lạc bộ thể thao trong cùng một ngày. Việc phải mua nhiều bộ đồng phục riêng biệt ngoài quần áo thường ngày có thể trở thành gánh nặng bất hợp lý với những bạn có ngân sách eo hẹp.",
+                "evidence_en": "Undergraduates frequently juggle lectures, lab work, part-time shifts, and sports clubs within a single day, requiring adaptable clothing. Having to purchase multiple official uniform sets on top of everyday attire can actually add an unwelcome cost for budget-conscious students.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "adaptable clothing",
+                      "vi": "trang phục linh hoạt"
+                    },
+                    {
+                      "en": "part-time shifts",
+                      "vi": "ca làm thêm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "official uniform sets",
+                      "vi": "bộ đồng phục chính thức"
+                    },
+                    {
+                      "en": "budget-conscious students",
+                      "vi": "sinh viên tiết kiệm ngân sách"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mass-produced uniforms",
+                    "vi": "đồng phục sản xuất đại trà"
+                  },
+                  {
+                    "en": "mandatory expense",
+                    "vi": "khoản chi phí bắt buộc"
+                  },
+                  {
+                    "en": "adaptable clothing",
+                    "vi": "trang phục linh hoạt"
+                  },
+                  {
+                    "en": "part-time shifts",
+                    "vi": "ca làm thêm"
+                  },
+                  {
+                    "en": "official uniform sets",
+                    "vi": "bộ đồng phục chính thức"
+                  },
+                  {
+                    "en": "budget-conscious students",
+                    "vi": "sinh viên tiết kiệm ngân sách"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 05: RÈN LUYỆN KHẢ NĂNG TỰ ĐÁNH GIÁ VÀ CHỌN TRANG PHỤC (SITUATIONAL JUDGMENT)",
+                "point_vi": "Tự do lựa chọn trang phục trong khuôn khổ lịch sự giúp sinh viên rèn luyện kỹ năng ăn mặc phù hợp bối cảnh thực tế.",
+                "point_en": "Personal freedom within sensible guidelines trains students to exercise mature judgment when dressing for real-world contexts.",
+                "point_collocations": [
+                  {
+                    "en": "sensible guidelines",
+                    "vi": "hướng dẫn hợp lý"
+                  },
+                  {
+                    "en": "mature judgment",
+                    "vi": "khả năng đánh giá chín chắn"
+                  }
+                ],
+                "evidence_vi": "Thay vì dựa dẫm vào đồng phục cứng nhắc, người trẻ cần tự học cách chọn trang phục phù hợp cho bài thuyết trình, buổi thực tập hay sự kiện giao lưu nghề nghiệp. Kỹ năng tự điều chỉnh phong thái chuyên nghiệp này sẽ mang lại lợi thế lớn hơn nhiều sau khi tốt nghiệp.",
+                "evidence_en": "Rather than relying on strict uniform rules, young adults need practice selecting appropriate outfits for presentations, internships, and networking events. Developing this self-directed professional judgment serves graduates far better once they enter diverse workplaces.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "networking events",
+                      "vi": "sự kiện kết nối nghề nghiệp"
+                    },
+                    {
+                      "en": "internships",
+                      "vi": "kỳ thực tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-directed judgment",
+                      "vi": "khả năng tự phán đoán"
+                    },
+                    {
+                      "en": "diverse workplaces",
+                      "vi": "môi trường làm việc đa dạng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "sensible guidelines",
+                    "vi": "hướng dẫn hợp lý"
+                  },
+                  {
+                    "en": "mature judgment",
+                    "vi": "khả năng đánh giá chín chắn"
+                  },
+                  {
+                    "en": "networking events",
+                    "vi": "sự kiện kết nối nghề nghiệp"
+                  },
+                  {
+                    "en": "internships",
+                    "vi": "kỳ thực tập"
+                  },
+                  {
+                    "en": "self-directed judgment",
+                    "vi": "khả năng tự phán đoán"
+                  },
+                  {
+                    "en": "diverse workplaces",
+                    "vi": "môi trường làm việc đa dạng"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "mandatory student uniform",
+              "vi": "đồng phục sinh viên bắt buộc"
+            },
+            {
+              "en": "create campus equality",
+              "vi": "tạo sự bình đẳng trên giảng đường"
+            },
+            {
+              "en": "lower-income students",
+              "vi": "sinh viên thu nhập thấp"
+            },
+            {
+              "en": "luxury clothing brands",
+              "vi": "thương hiệu quần áo hàng hiệu"
+            },
+            {
+              "en": "save time and money",
+              "vi": "tiết kiệm thời gian và tiền bạc"
+            },
+            {
+              "en": "neat campus environment",
+              "vi": "môi trường đại học gọn gàng"
+            },
+            {
+              "en": "professional dress code",
+              "vi": "quy chuẩn trang phục chuyên nghiệp"
+            },
+            {
+              "en": "strengthen school spirit",
+              "vi": "tăng cường tinh thần trường lớp"
+            },
+            {
+              "en": "reduce socioeconomic distinctions",
+              "vi": "giảm phân biệt kinh tế - xã hội"
+            },
+            {
+              "en": "level the visible playing field",
+              "vi": "san bằng sân chơi về mặt hình thức"
+            },
+            {
+              "en": "curb fashion expenditure",
+              "vi": "kiềm chế chi tiêu thời trang"
+            },
+            {
+              "en": "minimize appearance distractions",
+              "vi": "giảm thiểu phân tâm về ngoại hình"
+            },
+            {
+              "en": "project professional credibility",
+              "vi": "thể hiện uy tín chuyên nghiệp"
+            },
+            {
+              "en": "cultivate institutional identity",
+              "vi": "xây dựng bản sắc nhà trường"
+            },
+            {
+              "en": "deter unauthorized campus entry",
+              "vi": "ngăn chặn xâm nhập trái phép khuôn viên"
+            },
+            {
+              "en": "foster an inclusive academic community",
+              "vi": "tạo cộng đồng học thuật hòa nhập"
+            },
+            {
+              "en": "total freedom of dress",
+              "vi": "tự do hoàn toàn về trang phục"
+            },
+            {
+              "en": "legal young adults",
+              "vi": "người trưởng thành trẻ tuổi"
+            },
+            {
+              "en": "express personal individuality",
+              "vi": "thể hiện cá tính cá nhân"
+            },
+            {
+              "en": "encourage creative thinking",
+              "vi": "khuyến khích tư duy sáng tạo"
+            },
+            {
+              "en": "feel overly controlled",
+              "vi": "cảm thấy bị kiểm soát quá mức"
+            },
+            {
+              "en": "comfortable daily clothes",
+              "vi": "quần áo hằng ngày thoải mái"
+            },
+            {
+              "en": "suit weather conditions",
+              "vi": "phù hợp điều kiện thời tiết"
+            },
+            {
+              "en": "showcase personal fashion",
+              "vi": "thể hiện phong cách thời trang riêng"
+            },
+            {
+              "en": "uphold adult autonomy",
+              "vi": "tôn trọng quyền tự chủ của người trưởng thành"
+            },
+            {
+              "en": "protect creative self-expression",
+              "vi": "bảo vệ sự tự do biểu đạt sáng tạo"
+            },
+            {
+              "en": "celebrate cultural diversity",
+              "vi": "tôn vinh sự đa dạng văn hóa"
+            },
+            {
+              "en": "rigid paternalistic mandates",
+              "vi": "quy định cứng nhắc mang tính áp đặt"
+            },
+            {
+              "en": "nurture an open-minded atmosphere",
+              "vi": "nuôi dưỡng bầu không khí cởi mở"
+            },
+            {
+              "en": "adaptable clothing for varied schedules",
+              "vi": "trang phục linh hoạt cho lịch trình đa dạng"
+            },
+            {
+              "en": "exercise mature personal judgment",
+              "vi": "rèn khả năng phán đoán chín chắn"
+            },
+            {
+              "en": "budget-conscious undergraduates",
+              "vi": "sinh viên đại học tiết kiệm ngân sách"
+            },
+            {
+              "en": "differences in family wealth",
+              "vi": "sự khác biệt về gia cảnh"
+            },
+            {
+              "en": "expensive phones and laptops",
+              "vi": "điện thoại và máy tính đắt tiền"
+            },
+            {
+              "en": "cannot eliminate inequality",
+              "vi": "không thể xóa bỏ bất bình đẳng"
+            },
+            {
+              "en": "extra uniform costs",
+              "vi": "chi phí mua thêm đồng phục"
+            },
+            {
+              "en": "chasing new fashion trends",
+              "vi": "chạy theo trào lưu thời trang mới"
+            },
+            {
+              "en": "feel insecure next to peers",
+              "vi": "cảm thấy tự ti trước bạn bè"
+            },
+            {
+              "en": "dress neatly for interviews",
+              "vi": "ăn mặc lịch sự cho buổi phỏng vấn"
+            },
+            {
+              "en": "practical life skills",
+              "vi": "kỹ năng sống thiết thực"
+            },
+            {
+              "en": "create only superficial equality",
+              "vi": "chỉ tạo ra sự bình đẳng bề nổi"
+            },
+            {
+              "en": "fuel unspoken status comparisons",
+              "vi": "châm ngòi so sánh địa vị ngầm"
+            },
+            {
+              "en": "provide meaningful financial aid",
+              "vi": "cung cấp hỗ trợ tài chính thực chất"
+            },
+            {
+              "en": "scholarships and affordable housing",
+              "vi": "học bổng và ký túc xá giá hợp lý"
+            },
+            {
+              "en": "impose an extra mandatory expense",
+              "vi": "tạo thêm khoản chi phí bắt buộc"
+            },
+            {
+              "en": "high-end digital devices",
+              "vi": "thiết bị số cao cấp"
+            },
+            {
+              "en": "self-directed professional judgment",
+              "vi": "khả năng tự phán đoán phong thái chuyên nghiệp"
+            },
+            {
+              "en": "smooth transition to workplaces",
+              "vi": "chuyển tiếp mượt mà sang môi trường công sở"
+            },
+            {
+              "en": "respectful dress guidelines",
+              "vi": "hướng dẫn ăn mặc lịch sự"
+            },
+            {
+              "en": "wear uniforms on special days",
+              "vi": "mặc đồng phục vào ngày đặc biệt"
+            },
+            {
+              "en": "freedom with basic rules",
+              "vi": "tự do trong khuôn khổ quy định cơ bản"
+            },
+            {
+              "en": "avoid overly casual outfits",
+              "vi": "tránh trang phục quá xuề xòa"
+            },
+            {
+              "en": "balance freedom and respect",
+              "vi": "cân bằng giữa tự do và sự tôn trọng"
+            },
+            {
+              "en": "prepare for future jobs",
+              "vi": "chuẩn bị cho công việc tương lai"
+            },
+            {
+              "en": "focus on academic goals",
+              "vi": "tập trung vào mục tiêu học tập"
+            },
+            {
+              "en": "smart campus policy",
+              "vi": "chính sách đại học hợp lý"
+            },
+            {
+              "en": "strike a sensible compromise",
+              "vi": "đạt được sự dung hòa hợp lý"
+            },
+            {
+              "en": "flexible decent-attire guidelines",
+              "vi": "quy định trang phục lịch sự linh hoạt"
+            },
+            {
+              "en": "reserve uniforms for formal ceremonies",
+              "vi": "chỉ dùng đồng phục cho nghi lễ trang trọng"
+            },
+            {
+              "en": "prevent campus dress indiscretion",
+              "vi": "ngăn ngừa trang phục phản cảm ở trường"
+            },
+            {
+              "en": "balance autonomy with decorum",
+              "vi": "cân bằng quyền tự chủ với chuẩn mực lịch sự"
+            },
+            {
+              "en": "honor both individuality and respect",
+              "vi": "tôn trọng cả cá tính lẫn phép lịch sự"
+            },
+            {
+              "en": "practical middle-ground policy",
+              "vi": "chính sách trung dung thiết thực"
+            },
+            {
+              "en": "diverse post-graduation workplaces",
+              "vi": "môi trường làm việc đa dạng sau tốt nghiệp"
+            }
+          ],
+          "sample_b1": "Whether university students should wear mandatory uniforms or enjoy full freedom in choosing their clothes has sparked lively debate. This essay will discuss both perspectives before explaining why I support freedom of dress guided by simple, respectful rules.\n\nOn the one hand, supporters of a <strong>mandatory student uniform</strong> put forward several sensible arguments. First, uniforms help <strong>create campus equality</strong> because students from <strong>lower-income families</strong> do not feel insecure next to classmates wearing <strong>luxury clothing brands</strong>. Second, wearing one standard outfit saves time every morning and lowers fashion spending, allowing learners to focus on their studies. Uniforms also create a <strong>neat campus environment</strong>, strengthen <strong>school spirit</strong>, and help campus guards identify students more easily.\n\nOn the other hand, there are convincing reasons why undergraduates should have <strong>freedom of dress</strong>. Unlike high school pupils, university students are <strong>legal young adults</strong> who deserve to make their own daily choices and <strong>express personal individuality</strong>. Moreover, uniforms <strong>cannot eliminate inequality</strong> completely because differences in wealth still appear through smartphones, laptops, and motorbikes. Choosing comfortable outfits that suit weather conditions and learning how to <strong>dress neatly for interviews</strong> are also valuable life skills.\n\nIn my opinion, universities should allow students to choose their own clothes while setting basic <strong>respectful dress guidelines</strong> to avoid overly casual outfits. Uniforms can still be worn on special ceremonies or official events to build pride without restricting daily freedom.\n\nIn conclusion, while mandatory uniforms promote order and visual equality, respecting adult freedom better suits university life. A balanced policy of personal choice combined with sensible standards is the smartest approach.",
+          "translation_b1": "Việc sinh viên đại học nên mặc đồng phục bắt buộc hay có toàn quyền tự do chọn trang phục đang tạo ra nhiều tranh luận sôi nổi. Bài luận này sẽ thảo luận cả hai quan điểm trước khi giải thích vì sao tôi ủng hộ tự do trang phục đi kèm các quy tắc lịch sự cơ bản.\n\nMột mặt, những người ủng hộ <strong>đồng phục sinh viên bắt buộc</strong> đưa ra nhiều lập luận hợp lý. Thứ nhất, đồng phục giúp <strong>tạo sự bình đẳng trên giảng đường</strong> vì sinh viên từ <strong>gia đình thu nhập thấp</strong> không cảm thấy tự ti trước các bạn mặc <strong>thương hiệu quần áo hàng hiệu</strong>. Thứ hai, mặc một bộ trang phục chuẩn giúp tiết kiệm thời gian mỗi sáng và giảm chi tiêu thời trang, giúp người học tập trung vào bài vở. Đồng phục cũng tạo nên <strong>môi trường đại học gọn gàng</strong>, tăng cường <strong>tinh thần trường lớp</strong> và giúp bảo vệ dễ nhận diện sinh viên hơn.\n\nMặt khác, có những lý do thuyết phục để sinh viên đại học được hưởng <strong>tự do trang phục</strong>. Khác với học sinh phổ thông, sinh viên đại học là <strong>người trưởng thành trẻ tuổi</strong> xứng đáng tự quyết định lựa chọn hằng ngày và <strong>thể hiện cá tính cá nhân</strong>. Hơn nữa, đồng phục <strong>không thể xóa bỏ bất bình đẳng</strong> hoàn toàn vì sự chênh lệch giàu nghèo vẫn lộ rõ qua điện thoại, máy tính xách tay và xe máy. Chọn trang phục thoải mái theo thời tiết và học cách <strong>ăn mặc lịch sự cho buổi phỏng vấn</strong> cũng là những kỹ năng sống giá trị.\n\nTheo ý kiến của tôi, các trường đại học nên cho phép sinh viên tự chọn trang phục đồng thời đặt ra <strong>hướng dẫn ăn mặc lịch sự</strong> cơ bản để tránh đồ quá xuề xòa. Đồng phục vẫn có thể mặc vào các lễ kỷ niệm hoặc sự kiện chính thức nhằm xây dựng niềm tự hào mà không hạn chế tự do hằng ngày.\n\nTóm lại, dù đồng phục bắt buộc thúc đẩy trật tự và bình đẳng bề ngoài, tôn trọng quyền tự do người trưởng thành phù hợp với đời sống đại học hơn. Một chính sách cân bằng giữa tự do cá nhân và chuẩn mực hợp lý là giải pháp thông minh nhất.",
+          "sample_b2": "The question of whether universities should enforce a mandatory uniform dress code or grant students complete freedom over their campus attire remains widely debated. While mandatory uniforms offer clear advantages in equality and discipline, I believe that personal autonomy within flexible guidelines is far more appropriate for higher education.\n\nProponents of compulsory university uniforms present compelling arguments centered on fairness and order. Primarily, standardized attire helps <strong>reduce socioeconomic distinctions</strong> and <strong>level the visible playing field</strong>, shielding less affluent learners from the unspoken status comparisons fueled by consumer culture. In addition, uniform policies <strong>curb unnecessary fashion expenditure</strong>, <strong>minimize appearance-related distractions</strong> in lecture halls, and prepare undergraduates for formal sectors such as law or banking where neat attire helps <strong>project professional credibility</strong>. Shared uniforms can further <strong>cultivate institutional identity</strong> during official events and assist security staff in deterring unauthorized entry.\n\nNevertheless, advocates of unrestricted campus dress emphasize the fundamental purpose of university life. Because undergraduates are independent adults, <strong>rigid paternalistic mandates</strong> contradict the <strong>adult autonomy</strong> that higher education aims to foster. Allowing stylistic freedom protects <strong>creative self-expression</strong>, <strong>celebrates cultural diversity</strong>, and gives busy students <strong>adaptable clothing</strong> for labs, internships, and part-time jobs. Crucially, critics rightly note that uniforms <strong>create only superficial equality</strong>: economic disparities remain unmistakable through high-end digital devices and lifestyles, meaning scholarships and affordable housing advance fairness far more effectively than identical clothes.\n\nIn my view, universities should <strong>strike a sensible compromise</strong> rather than enforce daily uniforms. Granting freedom of dress paired with <strong>flexible decent-attire guidelines</strong> respects student maturity while preventing campus indiscretion, and trains graduates to exercise <strong>self-directed professional judgment</strong>. Optional university shirts or blazers can simply be reserved for formal ceremonies and official outreach events.\n\nIn conclusion, although mandatory uniforms foster order and visual unity, treating university students as responsible adults is more beneficial in the long run. Balancing personal freedom with sensible standards of decorum offers the most practical path forward.",
+          "translation_b2": "Câu hỏi liệu các trường đại học nên áp đặt quy định đồng phục bắt buộc hay trao cho sinh viên toàn quyền tự do trang phục trên giảng đường vẫn gây nhiều tranh cãi. Dù đồng phục bắt buộc mang lại những lợi thế rõ rệt về bình đẳng và kỷ luật, tôi tin rằng quyền tự chủ cá nhân trong khuôn khổ hướng dẫn linh hoạt phù hợp với giáo dục đại học hơn nhiều.\n\nNhững người ủng hộ đồng phục đại học bắt buộc đưa ra các lập luận thuyết phục xoay quanh sự công bằng và trật tự. Trước hết, trang phục chuẩn hóa giúp <strong>giảm phân biệt kinh tế - xã hội</strong> và <strong>san bằng sân chơi về mặt hình thức</strong>, bảo vệ sinh viên ít điều kiện hơn khỏi sự so sánh địa vị ngầm do văn hóa tiêu dùng thúc đẩy. Bên cạnh đó, chính sách đồng phục giúp <strong>kiềm chế chi tiêu thời trang không cần thiết</strong>, <strong>giảm thiểu phân tâm về ngoại hình</strong> trong giảng đường và giúp sinh viên sẵn sàng cho những ngành trang trọng như luật hay ngân hàng nơi trang phục chỉnh tề giúp <strong>thể hiện uy tín chuyên nghiệp</strong>. Đồng phục chung còn có thể <strong>xây dựng bản sắc nhà trường</strong> tại sự kiện chính thức và hỗ trợ bảo vệ ngăn chặn xâm nhập trái phép.\n\nTuy nhiên, những người ủng hộ tự do ăn mặc nhấn mạnh mục đích cốt lõi của đời sống đại học. Vì sinh viên đại học là người trưởng thành độc lập, các <strong>quy định cứng nhắc mang tính áp đặt</strong> đi ngược lại <strong>quyền tự chủ người trưởng thành</strong> mà giáo dục bậc cao hướng đến nuôi dưỡng. Cho phép tự do phong cách bảo vệ <strong>sự tự do biểu đạt sáng tạo</strong>, <strong>tôn vinh sự đa dạng văn hóa</strong> và mang lại cho sinh viên bận rộn <strong>trang phục linh hoạt</strong> cho phòng thí nghiệm, kỳ thực tập và việc làm thêm. Quan trọng hơn, giới phản biện chỉ ra chính xác rằng đồng phục <strong>chỉ tạo ra sự bình đẳng bề nổi</strong>: chênh lệch kinh tế vẫn hiện rõ qua thiết bị số cao cấp và lối sống, nghĩa là học bổng và nhà ở giá hợp lý thúc đẩy công bằng hiệu quả hơn nhiều so với quần áo giống nhau.\n\nTheo quan điểm của tôi, các trường đại học nên <strong>đạt được sự dung hòa hợp lý</strong> thay vì bắt buộc mặc đồng phục hằng ngày. Trao quyền tự do ăn mặc đi kèm <strong>quy định trang phục lịch sự linh hoạt</strong> vừa tôn trọng sự trưởng thành của sinh viên vừa ngăn ngừa trang phục phản cảm, đồng thời rèn cho sinh viên <strong>khả năng tự phán đoán phong thái chuyên nghiệp</strong>. Áo đồng phục hoặc vest trường có thể chỉ dành riêng cho các nghi lễ trang trọng và sự kiện đối ngoại chính thức.\n\nTóm lại, dù đồng phục bắt buộc củng cố trật tự và sự đồng bộ trực quan, đối xử với sinh viên đại học như những người trưởng thành có trách nhiệm mang lại lợi ích lâu dài hơn. Cân bằng giữa tự do cá nhân và chuẩn mực lịch sự hợp lý là con đường thiết thực nhất.",
+          "vocab_step": {
+            "theme": "VSTEP Writing Task 2",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "uniform",
+                "ipa": "/ˈjuːnɪfɔːm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "đồng phục",
+                "family": "",
+                "example_en": "Some people support enforcing a mandatory university uniform.",
+                "example_vi": ""
+              },
+              {
+                "word": "mandatory",
+                "ipa": "/ˈmændətəri/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "bắt buộc",
+                "family": "",
+                "example_en": "Opinions differ on whether uniforms should be mandatory.",
+                "example_vi": ""
+              },
+              {
+                "word": "equality",
+                "ipa": "/iˈkwɒləti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự bình đẳng",
+                "family": "",
+                "example_en": "Supporters argue uniforms promote equality among students.",
+                "example_vi": ""
+              },
+              {
+                "word": "campus",
+                "ipa": "/ˈkæmpəs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "khuôn viên đại học",
+                "family": "",
+                "example_en": "Students enjoy choosing comfortable clothes on campus.",
+                "example_vi": ""
+              },
+              {
+                "word": "freedom",
+                "ipa": "/ˈfriːdəm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự tự do",
+                "family": "",
+                "example_en": "University students value freedom of dress as adults.",
+                "example_vi": ""
+              },
+              {
+                "word": "wealth",
+                "ipa": "/welθ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự giàu có, tài sản",
+                "family": "",
+                "example_en": "Uniforms may hide visible differences in family wealth.",
+                "example_vi": ""
+              },
+              {
+                "word": "brand",
+                "ipa": "/brænd/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thương hiệu",
+                "family": "",
+                "example_en": "Some students feel pressured to buy expensive clothing brands.",
+                "example_vi": ""
+              },
+              {
+                "word": "neat",
+                "ipa": "/niːt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "gọn gàng, chỉn chu",
+                "family": "",
+                "example_en": "Uniforms keep the lecture hall looking neat and respectful.",
+                "example_vi": ""
+              },
+              {
+                "word": "formal",
+                "ipa": "/ˈfɔːml/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "trang trọng, lịch sự",
+                "family": "",
+                "example_en": "Banking and law often require formal workplace attire.",
+                "example_vi": ""
+              },
+              {
+                "word": "security",
+                "ipa": "/sɪˈkjʊərəti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "an ninh",
+                "family": "",
+                "example_en": "Uniforms make campus security checks easier.",
+                "example_vi": ""
+              },
+              {
+                "word": "adult",
+                "ipa": "/ˈædʌlt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "người trưởng thành",
+                "family": "",
+                "example_en": "Undergraduates are young adults capable of making choices.",
+                "example_vi": ""
+              },
+              {
+                "word": "comfortable",
+                "ipa": "/ˈkʌmftəbl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thoải mái",
+                "family": "",
+                "example_en": "Students perform better in comfortable daily clothes.",
+                "example_vi": ""
+              },
+              {
+                "word": "appropriately",
+                "ipa": "/əˈprəʊpriətli/",
+                "pos": "adv",
+                "level": "B1, B2",
+                "vi": "một cách phù hợp",
+                "family": "",
+                "example_en": "Adults should learn to dress appropriately for interviews.",
+                "example_vi": ""
+              },
+              {
+                "word": "pride",
+                "ipa": "/praɪd/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "niềm tự hào",
+                "family": "",
+                "example_en": "School uniforms can strengthen student pride.",
+                "example_vi": ""
+              },
+              {
+                "word": "insecure",
+                "ipa": "/ˌɪnsɪˈkjʊər/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "tự ti, thiếu tự tin",
+                "family": "",
+                "example_en": "Lower-income learners may feel insecure about cheaper clothes.",
+                "example_vi": ""
+              },
+              {
+                "word": "outsider",
+                "ipa": "/ˌaʊtˈsaɪdər/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "người ngoài",
+                "family": "",
+                "example_en": "Guards can spot unauthorized outsiders more quickly.",
+                "example_vi": ""
+              },
+              {
+                "word": "controlled",
+                "ipa": "/kənˈtrəʊld/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "bị kiểm soát",
+                "family": "",
+                "example_en": "Strict rules can make university students feel overly controlled.",
+                "example_vi": ""
+              },
+              {
+                "word": "interview",
+                "ipa": "/ˈɪntəvjuː/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "buổi phỏng vấn",
+                "family": "",
+                "example_en": "Dressing neatly is vital for job interviews.",
+                "example_vi": ""
+              },
+              {
+                "word": "socioeconomic",
+                "ipa": "/ˌsəʊsiəʊˌekəˈnɒmɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về kinh tế - xã hội",
+                "family": "",
+                "example_en": "Uniforms aim to minimize visible socioeconomic gaps.",
+                "example_vi": ""
+              },
+              {
+                "word": "autonomy",
+                "ipa": "/ɔːˈtɒnəmi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "quyền tự chủ",
+                "family": "",
+                "example_en": "Personal autonomy is a core principle of higher education.",
+                "example_vi": ""
+              },
+              {
+                "word": "superficial",
+                "ipa": "/ˌsuːpəˈfɪʃl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bề nổi, hời hợt",
+                "family": "",
+                "example_en": "Critics argue uniforms offer only superficial equality.",
+                "example_vi": ""
+              },
+              {
+                "word": "attire",
+                "ipa": "/əˈtaɪər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "trang phục",
+                "family": "",
+                "example_en": "Universities can require decent attire without full uniforms.",
+                "example_vi": ""
+              },
+              {
+                "word": "paternalistic",
+                "ipa": "/pəˌtɜːnəˈlɪstɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính bao bọc / áp đặt quá mức",
+                "family": "",
+                "example_en": "Forcing adults into uniforms seems overly paternalistic.",
+                "example_vi": ""
+              },
+              {
+                "word": "camaraderie",
+                "ipa": "/ˌkæməˈrɑːdəri/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tình đồng đội, sự gắn kết",
+                "family": "",
+                "example_en": "Wearing shared colors builds camaraderie at events.",
+                "example_vi": ""
+              },
+              {
+                "word": "credibility",
+                "ipa": "/ˌkredəˈbɪləti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự đáng tin cậy, uy tín",
+                "family": "",
+                "example_en": "Formal attire helps professionals project credibility.",
+                "example_vi": ""
+              },
+              {
+                "word": "expenditure",
+                "ipa": "/ɪkˈspendɪtʃər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "khoản chi tiêu",
+                "family": "",
+                "example_en": "Uniforms can curb unnecessary fashion expenditure.",
+                "example_vi": ""
+              },
+              {
+                "word": "inclusive",
+                "ipa": "/ɪnˈkluːsɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "hòa nhập, bao trùm",
+                "family": "",
+                "example_en": "Colleges strive to create an inclusive learning culture.",
+                "example_vi": ""
+              },
+              {
+                "word": "dignified",
+                "ipa": "/ˈdɪɡnɪfaɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "trang nghiêm, lịch sự",
+                "family": "",
+                "example_en": "Coordinated outfits create a dignified public image.",
+                "example_vi": ""
+              },
+              {
+                "word": "undergraduate",
+                "ipa": "/ˌʌndəˈɡrædʒuət/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sinh viên đại học",
+                "family": "",
+                "example_en": "Undergraduates balance classes, labs, and part-time jobs.",
+                "example_vi": ""
+              },
+              {
+                "word": "ambiguity",
+                "ipa": "/ˌæmbɪˈɡjuːəti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự mơ hồ, không rõ ràng",
+                "family": "",
+                "example_en": "Clear guidelines remove ambiguity over appropriate dress.",
+                "example_vi": ""
+              },
+              {
+                "word": "deter",
+                "ipa": "/dɪˈtɜːr/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "ngăn chặn, răn đe",
+                "family": "",
+                "example_en": "Visible IDs and uniforms help deter unauthorized entry.",
+                "example_vi": ""
+              },
+              {
+                "word": "adaptable",
+                "ipa": "/əˈdæptəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "linh hoạt, dễ thích nghi",
+                "family": "",
+                "example_en": "Busy students need adaptable clothing for varied schedules.",
+                "example_vi": ""
+              },
+              {
+                "word": "compromise",
+                "ipa": "/ˈkɒmprəmaɪz/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "giải pháp dung hòa",
+                "family": "",
+                "example_en": "A flexible dress code offers a sensible compromise.",
+                "example_vi": ""
+              },
+              {
+                "word": "indiscretion",
+                "ipa": "/ˌɪndɪˈskreʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hành vi thiếu chừng mực",
+                "family": "",
+                "example_en": "Basic guidelines prevent campus dress indiscretion.",
+                "example_vi": ""
+              },
+              {
+                "word": "diversity",
+                "ipa": "/daɪˈvɜːsəti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự đa dạng",
+                "family": "",
+                "example_en": "Freedom of dress honors cultural and religious diversity.",
+                "example_vi": ""
+              },
+              {
+                "word": "institutional",
+                "ipa": "/ˌɪnstɪˈtjuːʃənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về tổ chức / nhà trường",
+                "family": "",
+                "example_en": "Uniforms strengthen institutional identity at ceremonies.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "mandatory student uniform",
+                "level": "B1",
+                "vi": "đồng phục sinh viên bắt buộc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "create campus equality",
+                "level": "B1",
+                "vi": "tạo sự bình đẳng trên giảng đường",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "lower-income students",
+                "level": "B1",
+                "vi": "sinh viên thu nhập thấp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "luxury clothing brands",
+                "level": "B1",
+                "vi": "thương hiệu quần áo hàng hiệu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "save time and money",
+                "level": "B1",
+                "vi": "tiết kiệm thời gian và tiền bạc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "neat campus environment",
+                "level": "B1",
+                "vi": "môi trường đại học gọn gàng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "professional dress code",
+                "level": "B1",
+                "vi": "quy chuẩn trang phục chuyên nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strengthen school spirit",
+                "level": "B1",
+                "vi": "tăng cường tinh thần trường lớp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce socioeconomic distinctions",
+                "level": "B2",
+                "vi": "giảm phân biệt kinh tế - xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "level the visible playing field",
+                "level": "B2",
+                "vi": "san bằng sân chơi về mặt hình thức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "curb fashion expenditure",
+                "level": "B2",
+                "vi": "kiềm chế chi tiêu thời trang",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "minimize appearance distractions",
+                "level": "B2",
+                "vi": "giảm thiểu phân tâm về ngoại hình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "project professional credibility",
+                "level": "B2",
+                "vi": "thể hiện uy tín chuyên nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cultivate institutional identity",
+                "level": "B2",
+                "vi": "xây dựng bản sắc nhà trường",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "deter unauthorized campus entry",
+                "level": "B2",
+                "vi": "ngăn chặn xâm nhập trái phép khuôn viên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "foster an inclusive academic community",
+                "level": "B2",
+                "vi": "tạo cộng đồng học thuật hòa nhập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "total freedom of dress",
+                "level": "B1",
+                "vi": "tự do hoàn toàn về trang phục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "legal young adults",
+                "level": "B1",
+                "vi": "người trưởng thành trẻ tuổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "express personal individuality",
+                "level": "B1",
+                "vi": "thể hiện cá tính cá nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "encourage creative thinking",
+                "level": "B1",
+                "vi": "khuyến khích tư duy sáng tạo",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "feel overly controlled",
+                "level": "B1",
+                "vi": "cảm thấy bị kiểm soát quá mức",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "comfortable daily clothes",
+                "level": "B1",
+                "vi": "quần áo hằng ngày thoải mái",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "suit weather conditions",
+                "level": "B1",
+                "vi": "phù hợp điều kiện thời tiết",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "showcase personal fashion",
+                "level": "B1",
+                "vi": "thể hiện phong cách thời trang riêng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "uphold adult autonomy",
+                "level": "B2",
+                "vi": "tôn trọng quyền tự chủ của người trưởng thành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "protect creative self-expression",
+                "level": "B2",
+                "vi": "bảo vệ sự tự do biểu đạt sáng tạo",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "celebrate cultural diversity",
+                "level": "B2",
+                "vi": "tôn vinh sự đa dạng văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "rigid paternalistic mandates",
+                "level": "B2",
+                "vi": "quy định cứng nhắc mang tính áp đặt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "nurture an open-minded atmosphere",
+                "level": "B2",
+                "vi": "nuôi dưỡng bầu không khí cởi mở",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "adaptable clothing for varied schedules",
+                "level": "B2",
+                "vi": "trang phục linh hoạt cho lịch trình đa dạng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "exercise mature personal judgment",
+                "level": "B2",
+                "vi": "rèn khả năng phán đoán chín chắn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "budget-conscious undergraduates",
+                "level": "B2",
+                "vi": "sinh viên đại học tiết kiệm ngân sách",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "differences in family wealth",
+                "level": "B1",
+                "vi": "sự khác biệt về gia cảnh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "expensive phones and laptops",
+                "level": "B1",
+                "vi": "điện thoại và máy tính đắt tiền",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cannot eliminate inequality",
+                "level": "B1",
+                "vi": "không thể xóa bỏ bất bình đẳng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "extra uniform costs",
+                "level": "B1",
+                "vi": "chi phí mua thêm đồng phục",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "chasing new fashion trends",
+                "level": "B1",
+                "vi": "chạy theo trào lưu thời trang mới",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "feel insecure next to peers",
+                "level": "B1",
+                "vi": "cảm thấy tự ti trước bạn bè",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "dress neatly for interviews",
+                "level": "B1",
+                "vi": "ăn mặc lịch sự cho buổi phỏng vấn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "practical life skills",
+                "level": "B1",
+                "vi": "kỹ năng sống thiết thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "create only superficial equality",
+                "level": "B2",
+                "vi": "chỉ tạo ra sự bình đẳng bề nổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fuel unspoken status comparisons",
+                "level": "B2",
+                "vi": "châm ngòi so sánh địa vị ngầm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "provide meaningful financial aid",
+                "level": "B2",
+                "vi": "cung cấp hỗ trợ tài chính thực chất",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "scholarships and affordable housing",
+                "level": "B2",
+                "vi": "học bổng và ký túc xá giá hợp lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "impose an extra mandatory expense",
+                "level": "B2",
+                "vi": "tạo thêm khoản chi phí bắt buộc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "high-end digital devices",
+                "level": "B2",
+                "vi": "thiết bị số cao cấp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "self-directed professional judgment",
+                "level": "B2",
+                "vi": "khả năng tự phán đoán phong thái chuyên nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "smooth transition to workplaces",
+                "level": "B2",
+                "vi": "chuyển tiếp mượt mà sang môi trường công sở",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "respectful dress guidelines",
+                "level": "B1",
+                "vi": "hướng dẫn ăn mặc lịch sự",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "wear uniforms on special days",
+                "level": "B1",
+                "vi": "mặc đồng phục vào ngày đặc biệt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "freedom with basic rules",
+                "level": "B1",
+                "vi": "tự do trong khuôn khổ quy định cơ bản",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid overly casual outfits",
+                "level": "B1",
+                "vi": "tránh trang phục quá xuề xòa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "balance freedom and respect",
+                "level": "B1",
+                "vi": "cân bằng giữa tự do và sự tôn trọng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prepare for future jobs",
+                "level": "B1",
+                "vi": "chuẩn bị cho công việc tương lai",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "focus on academic goals",
+                "level": "B1",
+                "vi": "tập trung vào mục tiêu học tập",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "smart campus policy",
+                "level": "B1",
+                "vi": "chính sách đại học hợp lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strike a sensible compromise",
+                "level": "B2",
+                "vi": "đạt được sự dung hòa hợp lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "flexible decent-attire guidelines",
+                "level": "B2",
+                "vi": "quy định trang phục lịch sự linh hoạt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reserve uniforms for formal ceremonies",
+                "level": "B2",
+                "vi": "chỉ dùng đồng phục cho nghi lễ trang trọng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "prevent campus dress indiscretion",
+                "level": "B2",
+                "vi": "ngăn ngừa trang phục phản cảm ở trường",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "balance autonomy with decorum",
+                "level": "B2",
+                "vi": "cân bằng quyền tự chủ với chuẩn mực lịch sự",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "honor both individuality and respect",
+                "level": "B2",
+                "vi": "tôn trọng cả cá tính lẫn phép lịch sự",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "practical middle-ground policy",
+                "level": "B2",
+                "vi": "chính sách trung dung thiết thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "diverse post-graduation workplaces",
+                "level": "B2",
+                "vi": "môi trường làm việc đa dạng sau tốt nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Bình đẳng & Kỷ luật (View 1: Equality & Discipline)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "mandatory student uniform",
+                    "phrase": "mandatory student uniform",
+                    "vi": "đồng phục sinh viên bắt buộc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "create campus equality",
+                    "phrase": "create campus equality",
+                    "vi": "tạo sự bình đẳng trên giảng đường",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "lower-income students",
+                    "phrase": "lower-income students",
+                    "vi": "sinh viên thu nhập thấp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "luxury clothing brands",
+                    "phrase": "luxury clothing brands",
+                    "vi": "thương hiệu quần áo hàng hiệu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "save time and money",
+                    "phrase": "save time and money",
+                    "vi": "tiết kiệm thời gian và tiền bạc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "neat campus environment",
+                    "phrase": "neat campus environment",
+                    "vi": "môi trường đại học gọn gàng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "professional dress code",
+                    "phrase": "professional dress code",
+                    "vi": "quy chuẩn trang phục chuyên nghiệp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strengthen school spirit",
+                    "phrase": "strengthen school spirit",
+                    "vi": "tăng cường tinh thần trường lớp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce socioeconomic distinctions",
+                    "phrase": "reduce socioeconomic distinctions",
+                    "vi": "giảm phân biệt kinh tế - xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "level the visible playing field",
+                    "phrase": "level the visible playing field",
+                    "vi": "san bằng sân chơi về mặt hình thức",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "curb fashion expenditure",
+                    "phrase": "curb fashion expenditure",
+                    "vi": "kiềm chế chi tiêu thời trang",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "minimize appearance distractions",
+                    "phrase": "minimize appearance distractions",
+                    "vi": "giảm thiểu phân tâm về ngoại hình",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "project professional credibility",
+                    "phrase": "project professional credibility",
+                    "vi": "thể hiện uy tín chuyên nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cultivate institutional identity",
+                    "phrase": "cultivate institutional identity",
+                    "vi": "xây dựng bản sắc nhà trường",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "deter unauthorized campus entry",
+                    "phrase": "deter unauthorized campus entry",
+                    "vi": "ngăn chặn xâm nhập trái phép khuôn viên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "foster an inclusive academic community",
+                    "phrase": "foster an inclusive academic community",
+                    "vi": "tạo cộng đồng học thuật hòa nhập",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Tự do & Cá tính (View 2: Freedom & Individuality)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "total freedom of dress",
+                    "phrase": "total freedom of dress",
+                    "vi": "tự do hoàn toàn về trang phục",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "legal young adults",
+                    "phrase": "legal young adults",
+                    "vi": "người trưởng thành trẻ tuổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "express personal individuality",
+                    "phrase": "express personal individuality",
+                    "vi": "thể hiện cá tính cá nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "encourage creative thinking",
+                    "phrase": "encourage creative thinking",
+                    "vi": "khuyến khích tư duy sáng tạo",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "feel overly controlled",
+                    "phrase": "feel overly controlled",
+                    "vi": "cảm thấy bị kiểm soát quá mức",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "comfortable daily clothes",
+                    "phrase": "comfortable daily clothes",
+                    "vi": "quần áo hằng ngày thoải mái",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "suit weather conditions",
+                    "phrase": "suit weather conditions",
+                    "vi": "phù hợp điều kiện thời tiết",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "showcase personal fashion",
+                    "phrase": "showcase personal fashion",
+                    "vi": "thể hiện phong cách thời trang riêng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "uphold adult autonomy",
+                    "phrase": "uphold adult autonomy",
+                    "vi": "tôn trọng quyền tự chủ của người trưởng thành",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "protect creative self-expression",
+                    "phrase": "protect creative self-expression",
+                    "vi": "bảo vệ sự tự do biểu đạt sáng tạo",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "celebrate cultural diversity",
+                    "phrase": "celebrate cultural diversity",
+                    "vi": "tôn vinh sự đa dạng văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "rigid paternalistic mandates",
+                    "phrase": "rigid paternalistic mandates",
+                    "vi": "quy định cứng nhắc mang tính áp đặt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "nurture an open-minded atmosphere",
+                    "phrase": "nurture an open-minded atmosphere",
+                    "vi": "nuôi dưỡng bầu không khí cởi mở",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "adaptable clothing for varied schedules",
+                    "phrase": "adaptable clothing for varied schedules",
+                    "vi": "trang phục linh hoạt cho lịch trình đa dạng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "exercise mature personal judgment",
+                    "phrase": "exercise mature personal judgment",
+                    "vi": "rèn khả năng phán đoán chín chắn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "budget-conscious undergraduates",
+                    "phrase": "budget-conscious undergraduates",
+                    "vi": "sinh viên đại học tiết kiệm ngân sách",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Tranh luận về Bình đẳng & Chi phí (Debating Equality)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "differences in family wealth",
+                    "phrase": "differences in family wealth",
+                    "vi": "sự khác biệt về gia cảnh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "expensive phones and laptops",
+                    "phrase": "expensive phones and laptops",
+                    "vi": "điện thoại và máy tính đắt tiền",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cannot eliminate inequality",
+                    "phrase": "cannot eliminate inequality",
+                    "vi": "không thể xóa bỏ bất bình đẳng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "extra uniform costs",
+                    "phrase": "extra uniform costs",
+                    "vi": "chi phí mua thêm đồng phục",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "chasing new fashion trends",
+                    "phrase": "chasing new fashion trends",
+                    "vi": "chạy theo trào lưu thời trang mới",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "feel insecure next to peers",
+                    "phrase": "feel insecure next to peers",
+                    "vi": "cảm thấy tự ti trước bạn bè",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "dress neatly for interviews",
+                    "phrase": "dress neatly for interviews",
+                    "vi": "ăn mặc lịch sự cho buổi phỏng vấn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "practical life skills",
+                    "phrase": "practical life skills",
+                    "vi": "kỹ năng sống thiết thực",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "create only superficial equality",
+                    "phrase": "create only superficial equality",
+                    "vi": "chỉ tạo ra sự bình đẳng bề nổi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fuel unspoken status comparisons",
+                    "phrase": "fuel unspoken status comparisons",
+                    "vi": "châm ngòi so sánh địa vị ngầm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "provide meaningful financial aid",
+                    "phrase": "provide meaningful financial aid",
+                    "vi": "cung cấp hỗ trợ tài chính thực chất",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "scholarships and affordable housing",
+                    "phrase": "scholarships and affordable housing",
+                    "vi": "học bổng và ký túc xá giá hợp lý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "impose an extra mandatory expense",
+                    "phrase": "impose an extra mandatory expense",
+                    "vi": "tạo thêm khoản chi phí bắt buộc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "high-end digital devices",
+                    "phrase": "high-end digital devices",
+                    "vi": "thiết bị số cao cấp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "self-directed professional judgment",
+                    "phrase": "self-directed professional judgment",
+                    "vi": "khả năng tự phán đoán phong thái chuyên nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "smooth transition to workplaces",
+                    "phrase": "smooth transition to workplaces",
+                    "vi": "chuyển tiếp mượt mà sang môi trường công sở",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Quan điểm cá nhân & Dung hòa (Opinion & Compromise)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "respectful dress guidelines",
+                    "phrase": "respectful dress guidelines",
+                    "vi": "hướng dẫn ăn mặc lịch sự",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "wear uniforms on special days",
+                    "phrase": "wear uniforms on special days",
+                    "vi": "mặc đồng phục vào ngày đặc biệt",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "freedom with basic rules",
+                    "phrase": "freedom with basic rules",
+                    "vi": "tự do trong khuôn khổ quy định cơ bản",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid overly casual outfits",
+                    "phrase": "avoid overly casual outfits",
+                    "vi": "tránh trang phục quá xuề xòa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "balance freedom and respect",
+                    "phrase": "balance freedom and respect",
+                    "vi": "cân bằng giữa tự do và sự tôn trọng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prepare for future jobs",
+                    "phrase": "prepare for future jobs",
+                    "vi": "chuẩn bị cho công việc tương lai",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "focus on academic goals",
+                    "phrase": "focus on academic goals",
+                    "vi": "tập trung vào mục tiêu học tập",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "smart campus policy",
+                    "phrase": "smart campus policy",
+                    "vi": "chính sách đại học hợp lý",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strike a sensible compromise",
+                    "phrase": "strike a sensible compromise",
+                    "vi": "đạt được sự dung hòa hợp lý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "flexible decent-attire guidelines",
+                    "phrase": "flexible decent-attire guidelines",
+                    "vi": "quy định trang phục lịch sự linh hoạt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reserve uniforms for formal ceremonies",
+                    "phrase": "reserve uniforms for formal ceremonies",
+                    "vi": "chỉ dùng đồng phục cho nghi lễ trang trọng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "prevent campus dress indiscretion",
+                    "phrase": "prevent campus dress indiscretion",
+                    "vi": "ngăn ngừa trang phục phản cảm ở trường",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "balance autonomy with decorum",
+                    "phrase": "balance autonomy with decorum",
+                    "vi": "cân bằng quyền tự chủ với chuẩn mực lịch sự",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "honor both individuality and respect",
+                    "phrase": "honor both individuality and respect",
+                    "vi": "tôn trọng cả cá tính lẫn phép lịch sự",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "practical middle-ground policy",
+                    "phrase": "practical middle-ground policy",
+                    "vi": "chính sách trung dung thiết thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "diverse post-graduation workplaces",
+                    "phrase": "diverse post-graduation workplaces",
+                    "vi": "môi trường làm việc đa dạng sau tốt nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Giáo dục",
+                "title": "Sinh viên đại học có nên mặc đồng phục bắt buộc?",
+                "summary": "Tổng hợp tranh luận giữa việc áp dụng đồng phục tạo bình đẳng, bản sắc trường học và quan điểm tôn trọng quyền tự do cá nhân của sinh viên.",
+                "url": "https://vnexpress.net/giao-duc"
+              }
+            ],
+            "en": [
+              {
+                "source": "Wikipedia",
+                "title": "School and University Uniforms: Debates and Perspectives",
+                "summary": "Overview of global practices and arguments surrounding mandatory uniforms, equality, autonomy, and dress codes in education.",
+                "url": "https://en.wikipedia.org/wiki/School_uniform"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 28,
+        "title_en": "Investing more in vocational training vs university education",
+        "title_vi": "Đầu tư ngân sách vào đào tạo nghề so với giáo dục đại học",
+        "tags": "[Discuss Both Views]",
+        "context": "With rapidly shifting labor market demands and rising graduate unemployment in many countries, governments face difficult choices over how to allocate public education budgets. Some people argue that governments should invest more financial resources in practical vocational training for young people rather than in university education, while others maintain that strong funding for universities remains essential.",
+        "context_vi": "Trước nhu cầu thị trường lao động thay đổi nhanh chóng và tình trạng thất nghiệp ở cử nhân gia tăng tại nhiều quốc gia, các chính phủ đối mặt với bài toán khó trong phân bổ ngân sách giáo dục công. Một số người cho rằng chính phủ nên đầu tư nhiều nguồn lực tài chính hơn vào đào tạo nghề thực tiễn cho giới trẻ thay vì giáo dục đại học, trong khi nhiều người khác khẳng định nguồn tài trợ mạnh cho đại học vẫn hết sức thiết yếu.",
+        "prompt": "Write an essay to an educated reader to discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận cả hai quan điểm trên và đưa ra ý kiến cá nhân của bạn. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": {
+          "view1": {
+            "title_en": "Governments should invest more financial resources in practical vocational training",
+            "title_vi": "Chính phủ nên đầu tư nhiều nguồn lực tài chính hơn vào đào tạo nghề thực tiễn",
+            "items": [
+              {
+                "en": "channeling greater public funding into vocational education addresses skills shortages and graduate unemployment",
+                "vi": "phân bổ ngân sách công lớn hơn cho giáo dục nghề giải quyết thiếu hụt tay nghề và thất nghiệp cử nhân"
+              },
+              {
+                "en": "modernizing trade schools and apprenticeships offers cost-effective, job-ready pathways for youth",
+                "vi": "hiện đại hóa trường nghề và học nghề mang lại lộ trình tiết kiệm và sẵn sàng việc làm cho giới trẻ"
+              },
+              {
+                "en": "investing in practical technical training strengthens manufacturing and national productivity",
+                "vi": "đầu tư vào đào tạo kỹ thuật thực tiễn củng cố ngành sản xuất và năng suất quốc gia"
+              }
+            ]
+          },
+          "view2": {
+            "title_en": "Governments should maintain strong investment in university education",
+            "title_vi": "Chính phủ nên duy trì đầu tư mạnh mẽ vào giáo dục đại học",
+            "items": [
+              {
+                "en": "sustained funding for higher education drives scientific research and competitiveness in the knowledge economy",
+                "vi": "tài trợ bền vững cho giáo dục đại học thúc đẩy nghiên cứu khoa học và sức cạnh tranh trong kinh tế tri thức"
+              },
+              {
+                "en": "universities remain indispensable for training specialized professionals and developing critical thinking",
+                "vi": "đại học vẫn không thể thiếu để đào tạo chuyên gia chuyên sâu và rèn luyện tư duy phản biện"
+              },
+              {
+                "en": "public investment in universities protects social mobility and ensures equal access for talented youth",
+                "vi": "đầu tư công cho đại học bảo vệ thăng tiến xã hội và cơ hội bình đẳng cho người trẻ tài năng"
+              }
+            ]
+          }
+        },
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 01: GIÚP NGƯỜI TRẺ CÓ KỸ NĂNG THỰC TẾ VÀ DỄ TÌM VIỆC NHANH",
+                "point_vi": "Đầu tư vào đào tạo nghề giúp giới trẻ học kỹ năng thực hành và sớm tìm được việc làm ổn định.",
+                "point_en": "Investing in vocational training helps young people learn practical skills and find steady jobs quickly.",
+                "point_collocations": [
+                  {
+                    "en": "vocational training",
+                    "vi": "đào tạo nghề"
+                  },
+                  {
+                    "en": "practical skills",
+                    "vi": "kỹ năng thực hành"
+                  }
+                ],
+                "evidence_vi": "Các khóa học nghề thường ngắn hơn đại học và tập trung trực tiếp vào kỹ thuật sửa chữa, nấu ăn, cơ khí hay công nghệ thông tin thực hành.",
+                "evidence_en": "Vocational courses are shorter than university degrees and focus directly on hands-on trades such as mechanics, cooking, or technical repair.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hands-on trades",
+                      "vi": "nghề thực hành tay nghề"
+                    },
+                    {
+                      "en": "technical repair",
+                      "vi": "sửa chữa kỹ thuật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "vocational training",
+                    "vi": "đào tạo nghề"
+                  },
+                  {
+                    "en": "practical skills",
+                    "vi": "kỹ năng thực hành"
+                  },
+                  {
+                    "en": "hands-on trades",
+                    "vi": "nghề thực hành tay nghề"
+                  },
+                  {
+                    "en": "technical repair",
+                    "vi": "sửa chữa kỹ thuật"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 02: GIẢI QUYẾT TÌNH TRẠNG THIẾU THỢ LÀNH NGHỀ VÀ THẤT NGHIỆP CỬ NHÂN",
+                "point_vi": "Hỗ trợ trường nghề giúp giảm cảnh thừa cử nhân đại học nhưng lại thiếu trầm trọng lao động kỹ thuật.",
+                "point_en": "Funding vocational schools helps solve the shortage of skilled workers while reducing graduate unemployment.",
+                "point_collocations": [
+                  {
+                    "en": "skilled workers",
+                    "vi": "lao động lành nghề"
+                  },
+                  {
+                    "en": "graduate unemployment",
+                    "vi": "thất nghiệp ở cử nhân"
+                  }
+                ],
+                "evidence_vi": "Nhiều sinh viên đại học khó xin việc đúng ngành trong khi các nhà máy và doanh nghiệp lại rất cần thợ điện, kỹ thuật viên và điều dưỡng.",
+                "evidence_en": "Many university graduates struggle to find jobs in their majors while factories and businesses urgently need electricians, technicians, and nurses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "urgently need",
+                      "vi": "rất cần gấp"
+                    },
+                    {
+                      "en": "electricians and technicians",
+                      "vi": "thợ điện và kỹ thuật viên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "skilled workers",
+                    "vi": "lao động lành nghề"
+                  },
+                  {
+                    "en": "graduate unemployment",
+                    "vi": "thất nghiệp ở cử nhân"
+                  },
+                  {
+                    "en": "urgently need",
+                    "vi": "rất cần gấp"
+                  },
+                  {
+                    "en": "electricians and technicians",
+                    "vi": "thợ điện và kỹ thuật viên"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 03: TIẾT KIỆM NGÂN SÁCH NHÀ NƯỚC VÀ GIẢM GÁNH NẶNG HỌC PHÍ",
+                "point_vi": "Đào tạo nghề có chi phí thấp hơn nhiều so với giáo dục đại học bốn năm cho cả chính phủ lẫn gia đình.",
+                "point_en": "Vocational education costs far less than four-year university degrees for both governments and families.",
+                "point_collocations": [
+                  {
+                    "en": "vocational education",
+                    "vi": "giáo dục nghề nghiệp"
+                  },
+                  {
+                    "en": "four-year university degrees",
+                    "vi": "bằng đại học bốn năm"
+                  }
+                ],
+                "evidence_vi": "Với cùng một khoản ngân sách, nhà nước có thể đào tạo nhiều lao động có tay nghề hơn và giúp học sinh nghèo sớm tự lập tài chính.",
+                "evidence_en": "With the same public budget, governments can train more skilled workers and help poorer youths achieve financial independence earlier.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "public budget",
+                      "vi": "ngân sách nhà nước"
+                    },
+                    {
+                      "en": "financial independence",
+                      "vi": "độc lập tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "vocational education",
+                    "vi": "giáo dục nghề nghiệp"
+                  },
+                  {
+                    "en": "four-year university degrees",
+                    "vi": "bằng đại học bốn năm"
+                  },
+                  {
+                    "en": "public budget",
+                    "vi": "ngân sách nhà nước"
+                  },
+                  {
+                    "en": "financial independence",
+                    "vi": "độc lập tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 04: PHÙ HỢP VỚI NHỮNG BẠN TRẺ KHÔNG THIÊN VỀ HỌC THUẬT LÝ THUYẾT",
+                "point_vi": "Mở rộng trường nghề tạo cơ hội thành công cho những học sinh giỏi thực hành hơn là học lý thuyết sách vở.",
+                "point_en": "Expanding vocational programs creates fair opportunities for students who excel at practical work rather than academic theory.",
+                "point_collocations": [
+                  {
+                    "en": "academic theory",
+                    "vi": "lý thuyết học thuật"
+                  },
+                  {
+                    "en": "fair opportunities",
+                    "vi": "cơ hội công bằng"
+                  }
+                ],
+                "evidence_vi": "Không phải ai cũng phù hợp với bài giảng hàn lâm nên trường nghề chất lượng cao giúp họ phát huy thế mạnh và có mức lương hấp dẫn.",
+                "evidence_en": "Not everyone thrives in lecture-heavy classrooms, so quality trade schools help them use their talents and earn attractive incomes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "quality trade schools",
+                      "vi": "trường nghề chất lượng cao"
+                    },
+                    {
+                      "en": "attractive incomes",
+                      "vi": "mức thu nhập hấp dẫn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "academic theory",
+                    "vi": "lý thuyết học thuật"
+                  },
+                  {
+                    "en": "fair opportunities",
+                    "vi": "cơ hội công bằng"
+                  },
+                  {
+                    "en": "quality trade schools",
+                    "vi": "trường nghề chất lượng cao"
+                  },
+                  {
+                    "en": "attractive incomes",
+                    "vi": "mức thu nhập hấp dẫn"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 05: THÚC ĐẨY NGÀNH SẢN XUẤT, XÂY DỰNG VÀ DỊCH VỤ THIẾT YẾU",
+                "point_vi": "Đội ngũ lao động tay nghề cao giữ vai trò thiết yếu trong việc phát triển sản xuất, hạ tầng và du lịch.",
+                "point_en": "A well-trained technical workforce plays an essential role in growing manufacturing, construction, and tourism.",
+                "point_collocations": [
+                  {
+                    "en": "technical workforce",
+                    "vi": "lực lượng lao động kỹ thuật"
+                  },
+                  {
+                    "en": "manufacturing and construction",
+                    "vi": "sản xuất và xây dựng"
+                  }
+                ],
+                "evidence_vi": "Các ngành kinh tế mũi nhọn đều cần đội ngũ thợ giỏi để đảm bảo chất lượng sản phẩm, dịch vụ và thu hút đầu tư nước ngoài.",
+                "evidence_en": "Core economic sectors depend on capable craftspeople and technicians to maintain quality services and attract foreign investment.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "core economic sectors",
+                      "vi": "ngành kinh tế mũi nhọn"
+                    },
+                    {
+                      "en": "foreign investment",
+                      "vi": "đầu tư nước ngoài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "technical workforce",
+                    "vi": "lực lượng lao động kỹ thuật"
+                  },
+                  {
+                    "en": "manufacturing and construction",
+                    "vi": "sản xuất và xây dựng"
+                  },
+                  {
+                    "en": "core economic sectors",
+                    "vi": "ngành kinh tế mũi nhọn"
+                  },
+                  {
+                    "en": "foreign investment",
+                    "vi": "đầu tư nước ngoài"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 01: ĐÀO TẠO CHUYÊN GIA TRÌNH ĐỘ CAO CHO CÁC NGÀNH THIẾT YẾU",
+                "point_vi": "Giáo dục đại học là con đường không thể thiếu để đào tạo bác sĩ, kỹ sư, nhà khoa học và giáo viên.",
+                "point_en": "University education is indispensable for training doctors, engineers, scientists, and teachers.",
+                "point_collocations": [
+                  {
+                    "en": "university education",
+                    "vi": "giáo dục đại học"
+                  },
+                  {
+                    "en": "doctors and engineers",
+                    "vi": "bác sĩ và kỹ sư"
+                  }
+                ],
+                "evidence_vi": "Những ngành nghề chuyên môn sâu này đòi hỏi nhiều năm học kiến thức nền tảng và nghiên cứu mà trường nghề ngắn hạn không thể thay thế.",
+                "evidence_en": "These specialized professions require years of deep foundational knowledge and research that short trade courses cannot replace.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "specialized professions",
+                      "vi": "nghề nghiệp chuyên môn sâu"
+                    },
+                    {
+                      "en": "foundational knowledge",
+                      "vi": "kiến thức nền tảng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "university education",
+                    "vi": "giáo dục đại học"
+                  },
+                  {
+                    "en": "doctors and engineers",
+                    "vi": "bác sĩ và kỹ sư"
+                  },
+                  {
+                    "en": "specialized professions",
+                    "vi": "nghề nghiệp chuyên môn sâu"
+                  },
+                  {
+                    "en": "foundational knowledge",
+                    "vi": "kiến thức nền tảng"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 02: THÚC ĐẨY NGHIÊN CỨU KHOA HỌC VÀ ĐỔI MỚI CÔNG NGHỆ",
+                "point_vi": "Đầu tư mạnh cho đại học tạo ra các phát minh khoa học và động lực đổi mới cho nền kinh tế hiện đại.",
+                "point_en": "Strong funding for universities drives scientific research and technological innovation in a modern economy.",
+                "point_collocations": [
+                  {
+                    "en": "scientific research",
+                    "vi": "nghiên cứu khoa học"
+                  },
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  }
+                ],
+                "evidence_vi": "Các phòng thí nghiệm đại học là nơi ra đời nhiều tiến bộ trong y học, trí tuệ nhân tạo và năng lượng xanh giúp đất nước cạnh tranh toàn cầu.",
+                "evidence_en": "University laboratories generate major breakthroughs in medicine, artificial intelligence, and green energy that keep nations competitive globally.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "major breakthroughs",
+                      "vi": "những bước đột phá lớn"
+                    },
+                    {
+                      "en": "green energy",
+                      "vi": "năng lượng xanh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "scientific research",
+                    "vi": "nghiên cứu khoa học"
+                  },
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  },
+                  {
+                    "en": "major breakthroughs",
+                    "vi": "những bước đột phá lớn"
+                  },
+                  {
+                    "en": "green energy",
+                    "vi": "năng lượng xanh"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 03: PHÁT TRIỂN TƯ DUY PHẢN BIỆN VÀ KHẢ NĂNG THÍCH ỨNG LÂU DÀI",
+                "point_vi": "Đại học rèn luyện tư duy phản biện, giải quyết vấn đề và khả năng thích nghi trước thị trường biến đổi.",
+                "point_en": "Universities develop critical thinking, problem-solving skills, and long-term adaptability in a changing job market.",
+                "point_collocations": [
+                  {
+                    "en": "critical thinking",
+                    "vi": "tư duy phản biện"
+                  },
+                  {
+                    "en": "changing job market",
+                    "vi": "thị trường lao động biến đổi"
+                  }
+                ],
+                "evidence_vi": "Khi tự động hóa thay thế nhiều công việc tay chân, sinh viên đại học có nền tảng tư duy rộng dễ chuyển đổi nghề nghiệp và học kỹ năng mới hơn.",
+                "evidence_en": "As automation replaces many routine technical tasks, university graduates with broad analytical skills can retrain and switch careers more easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "analytical skills",
+                      "vi": "kỹ năng phân tích"
+                    },
+                    {
+                      "en": "switch careers",
+                      "vi": "chuyển đổi nghề nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "critical thinking",
+                    "vi": "tư duy phản biện"
+                  },
+                  {
+                    "en": "changing job market",
+                    "vi": "thị trường lao động biến đổi"
+                  },
+                  {
+                    "en": "analytical skills",
+                    "vi": "kỹ năng phân tích"
+                  },
+                  {
+                    "en": "switch careers",
+                    "vi": "chuyển đổi nghề nghiệp"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 04: MỞ RỘNG CƠ HỘI LÃNH ĐẠO VÀ THU NHẬP CAO DÀI HẠN",
+                "point_vi": "Bằng đại học thường mở ra nhiều vị trí quản lý, lãnh đạo và triển vọng thu nhập cao hơn về lâu dài.",
+                "point_en": "A university degree often opens doors to management roles and higher lifetime earnings.",
+                "point_collocations": [
+                  {
+                    "en": "management roles",
+                    "vi": "vị trí quản lý"
+                  },
+                  {
+                    "en": "lifetime earnings",
+                    "vi": "thu nhập trọn đời"
+                  }
+                ],
+                "evidence_vi": "Hỗ trợ học bổng và ngân sách đại học giúp học sinh tài năng từ gia đình nghèo có cơ hội vươn lên các vị trí lãnh đạo xã hội.",
+                "evidence_en": "Funding university scholarships enables talented students from poor backgrounds to climb into leadership positions across society.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "university scholarships",
+                      "vi": "học bổng đại học"
+                    },
+                    {
+                      "en": "leadership positions",
+                      "vi": "vị trí lãnh đạo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "management roles",
+                    "vi": "vị trí quản lý"
+                  },
+                  {
+                    "en": "lifetime earnings",
+                    "vi": "thu nhập trọn đời"
+                  },
+                  {
+                    "en": "university scholarships",
+                    "vi": "học bổng đại học"
+                  },
+                  {
+                    "en": "leadership positions",
+                    "vi": "vị trí lãnh đạo"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 05: NÂNG CAO DÂN TRÍ VÀ GIÁ TRỊ VĂN HÓA XÃ HỘI",
+                "point_vi": "Giáo dục đại học còn bồi dưỡng nhận thức xã hội, đạo đức nghề nghiệp và đóng góp vào sự phát triển văn hóa.",
+                "point_en": "Higher education also nurtures social awareness, professional ethics, and cultural progress.",
+                "point_collocations": [
+                  {
+                    "en": "social awareness",
+                    "vi": "nhận thức xã hội"
+                  },
+                  {
+                    "en": "cultural progress",
+                    "vi": "sự tiến bộ văn hóa"
+                  }
+                ],
+                "evidence_vi": "Sinh viên đại học được tiếp xúc với lịch sử, kinh tế, nghệ thuật và môi trường đa chiều, giúp hình thành những công dân có trách nhiệm.",
+                "evidence_en": "University students explore history, economics, arts, and global issues, helping shape well-informed and responsible citizens.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "global issues",
+                      "vi": "các vấn đề toàn cầu"
+                    },
+                    {
+                      "en": "responsible citizens",
+                      "vi": "công dân có trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "social awareness",
+                    "vi": "nhận thức xã hội"
+                  },
+                  {
+                    "en": "cultural progress",
+                    "vi": "sự tiến bộ văn hóa"
+                  },
+                  {
+                    "en": "global issues",
+                    "vi": "các vấn đề toàn cầu"
+                  },
+                  {
+                    "en": "responsible citizens",
+                    "vi": "công dân có trách nhiệm"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 01: KHẮC PHỤC MẤT CÂN ĐỐI LAO ĐỘNG VÀ THẤT NGHIỆP CỬ NHÂN (SKILLS MISMATCH)",
+                "point_vi": "Tăng cường đầu tư vào đào tạo nghề trực tiếp giải quyết tình trạng mất cân đối kỹ năng và thất nghiệp ở sinh viên tốt nghiệp đại học.",
+                "point_en": "Directing greater public funding toward vocational training directly tackles skills mismatches and chronic graduate unemployment.",
+                "point_collocations": [
+                  {
+                    "en": "skills mismatches",
+                    "vi": "sự mất cân đối kỹ năng"
+                  },
+                  {
+                    "en": "graduate unemployment",
+                    "vi": "thất nghiệp cử nhân"
+                  }
+                ],
+                "evidence_vi": "Tại nhiều nền kinh tế, hàng loạt cử nhân lý thuyết phải làm việc trái ngành trong khi các doanh nghiệp sản xuất, năng lượng và xây dựng thiếu trầm trọng kỹ thuật viên tay nghề cao. Tài trợ trang thiết bị hiện đại và chương trình học nghề gắn với doanh nghiệp sẽ nhanh chóng lấp đầy khoảng trống nhân lực thiết yếu này.",
+                "evidence_en": "Across many economies, thousands of theoretical degree holders remain underemployed while manufacturing, construction, and green-energy firms suffer acute shortages of certified technicians. Financing modern workshops and industry-linked apprenticeships rapidly bridges this damaging labor gap.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "underemployed",
+                      "vi": "làm việc dưới trình độ / thiếu việc đúng ngành"
+                    },
+                    {
+                      "en": "certified technicians",
+                      "vi": "kỹ thuật viên có chứng chỉ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "industry-linked apprenticeships",
+                      "vi": "chương trình học nghề gắn doanh nghiệp"
+                    },
+                    {
+                      "en": "bridge the labor gap",
+                      "vi": "lấp đầy khoảng trống nhân lực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "skills mismatches",
+                    "vi": "sự mất cân đối kỹ năng"
+                  },
+                  {
+                    "en": "graduate unemployment",
+                    "vi": "thất nghiệp cử nhân"
+                  },
+                  {
+                    "en": "underemployed",
+                    "vi": "làm việc dưới trình độ / thiếu việc đúng ngành"
+                  },
+                  {
+                    "en": "certified technicians",
+                    "vi": "kỹ thuật viên có chứng chỉ"
+                  },
+                  {
+                    "en": "industry-linked apprenticeships",
+                    "vi": "chương trình học nghề gắn doanh nghiệp"
+                  },
+                  {
+                    "en": "bridge the labor gap",
+                    "vi": "lấp đầy khoảng trống nhân lực"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 02: HIỆU QUẢ CHI PHÍ VÀ KHẢ NĂNG TỰ LẬP KINH TẾ SỚM (COST-EFFECTIVENESS)",
+                "point_vi": "Đào tạo nghề mang lại hiệu quả sử dụng ngân sách cao hơn và giúp thanh niên gia nhập thị trường lao động sớm hơn đáng kể.",
+                "point_en": "Vocational pathways deliver superior cost-effectiveness and enable young adults to enter the workforce far sooner.",
+                "point_collocations": [
+                  {
+                    "en": "superior cost-effectiveness",
+                    "vi": "hiệu quả chi phí vượt trội"
+                  },
+                  {
+                    "en": "enter the workforce",
+                    "vi": "gia nhập lực lượng lao động"
+                  }
+                ],
+                "evidence_vi": "Thay vì tiêu tốn bốn đến năm năm học phí nặng nề và gánh nợ sinh viên, học viên trường nghề có thể hoàn thành chương trình thực chiến trong một đến hai năm. Sự chuyển tiếp nhanh sang công việc có thu nhập không chỉ giảm gánh nặng cho gia đình thu nhập thấp mà còn sớm tạo ra nguồn thu thuế cho nền kinh tế.",
+                "evidence_en": "Rather than spending four or five years accumulating tuition debt, vocational trainees complete job-ready certifications within one to two years. Faster entry into salaried employment relieves financial pressure on lower-income households while generating earlier tax contributions for the state.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "tuition debt",
+                      "vi": "nợ học phí"
+                    },
+                    {
+                      "en": "job-ready certifications",
+                      "vi": "chứng chỉ sẵn sàng làm việc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "salaried employment",
+                      "vi": "việc làm có lương"
+                    },
+                    {
+                      "en": "tax contributions",
+                      "vi": "đóng góp thuế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "superior cost-effectiveness",
+                    "vi": "hiệu quả chi phí vượt trội"
+                  },
+                  {
+                    "en": "enter the workforce",
+                    "vi": "gia nhập lực lượng lao động"
+                  },
+                  {
+                    "en": "tuition debt",
+                    "vi": "nợ học phí"
+                  },
+                  {
+                    "en": "job-ready certifications",
+                    "vi": "chứng chỉ sẵn sàng làm việc"
+                  },
+                  {
+                    "en": "salaried employment",
+                    "vi": "việc làm có lương"
+                  },
+                  {
+                    "en": "tax contributions",
+                    "vi": "đóng góp thuế"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 03: NÂNG TẦM CHẤT LƯỢNG VÀ VỊ THẾ XÃ HỘI CỦA GIÁO DỤC NGHỀ (ELEVATING TRADE PRESTIGE)",
+                "point_vi": "Nguồn vốn nhà nước dồi dào là đòn bẩy thiết yếu để hiện đại hóa trường nghề và xóa bỏ định kiến xã hội về việc học nghề.",
+                "point_en": "Substantial public investment is crucial to modernize trade institutes and dismantle long-standing social stigma surrounding vocational education.",
+                "point_collocations": [
+                  {
+                    "en": "trade institutes",
+                    "vi": "trường / viện đào tạo nghề"
+                  },
+                  {
+                    "en": "social stigma",
+                    "vi": "định kiến xã hội"
+                  }
+                ],
+                "evidence_vi": "Tại nhiều quốc gia, giáo dục nghề vẫn bị xem nhẹ do cơ sở vật chất lạc hậu và chương trình chưa bắt kịp công nghệ công nghiệp mới. Khi chính phủ đầu tư bài bản như mô hình đào tạo kép ở Đức hay Thụy Sĩ, học nghề trở thành lựa chọn danh giá mang lại thu nhập cao không kém đại học.",
+                "evidence_en": "In many societies, vocational tracks are unfairly viewed as second-tier options largely because of outdated equipment and underfunded curricula. When governments invest systematically—as seen in Germany's and Switzerland's dual-training models—vocational careers become respected, lucrative pathways.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "second-tier options",
+                      "vi": "lựa chọn hạng hai"
+                    },
+                    {
+                      "en": "underfunded curricula",
+                      "vi": "chương trình thiếu kinh phí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "dual-training models",
+                      "vi": "mô hình đào tạo kép"
+                    },
+                    {
+                      "en": "lucrative pathways",
+                      "vi": "con đường thu nhập hấp dẫn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "trade institutes",
+                    "vi": "trường / viện đào tạo nghề"
+                  },
+                  {
+                    "en": "social stigma",
+                    "vi": "định kiến xã hội"
+                  },
+                  {
+                    "en": "second-tier options",
+                    "vi": "lựa chọn hạng hai"
+                  },
+                  {
+                    "en": "underfunded curricula",
+                    "vi": "chương trình thiếu kinh phí"
+                  },
+                  {
+                    "en": "dual-training models",
+                    "vi": "mô hình đào tạo kép"
+                  },
+                  {
+                    "en": "lucrative pathways",
+                    "vi": "con đường thu nhập hấp dẫn"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 04: ĐA DẠNG HÓA CƠ HỘI PHÁT HUY NĂNG LỰC THỰC TIỄN (INCLUSIVE TALENT DEVELOPMENT)",
+                "point_vi": "Chú trọng đào tạo nghề giúp khai thác đúng thế mạnh đa dạng của thế hệ trẻ thay vì ép buộc mọi học sinh đi theo một khuôn mẫu học thuật.",
+                "point_en": "Prioritizing vocational training harnesses diverse practical talents rather than forcing every student into a uniform academic mold.",
+                "point_collocations": [
+                  {
+                    "en": "practical talents",
+                    "vi": "tài năng thực tiễn"
+                  },
+                  {
+                    "en": "uniform academic mold",
+                    "vi": "khuôn mẫu học thuật đồng nhất"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ sở hữu tư duy kỹ thuật, khả năng thủ công tinh xảo hoặc năng khiếu dịch vụ xuất sắc nhưng lại kém hứng thú với nghiên cứu lý thuyết thuần túy. Cung cấp lộ trình đào tạo thực hành chất lượng giúp giảm tỷ lệ bỏ học và tối đa hóa tiềm năng con người trong xã hội.",
+                "evidence_en": "Many adolescents possess strong mechanical intuition, craftsmanship, or hospitality aptitude yet struggle in heavily theoretical lectures. Offering high-caliber hands-on pathways lowers dropout rates and unlocks human potential that traditional university admission often overlooks.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mechanical intuition",
+                      "vi": "tư duy kỹ thuật trực giác"
+                    },
+                    {
+                      "en": "dropout rates",
+                      "vi": "tỷ lệ bỏ học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "high-caliber pathways",
+                      "vi": "lộ trình chất lượng cao"
+                    },
+                    {
+                      "en": "unlock human potential",
+                      "vi": "khai mở tiềm năng con người"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "practical talents",
+                    "vi": "tài năng thực tiễn"
+                  },
+                  {
+                    "en": "uniform academic mold",
+                    "vi": "khuôn mẫu học thuật đồng nhất"
+                  },
+                  {
+                    "en": "mechanical intuition",
+                    "vi": "tư duy kỹ thuật trực giác"
+                  },
+                  {
+                    "en": "dropout rates",
+                    "vi": "tỷ lệ bỏ học"
+                  },
+                  {
+                    "en": "high-caliber pathways",
+                    "vi": "lộ trình chất lượng cao"
+                  },
+                  {
+                    "en": "unlock human potential",
+                    "vi": "khai mở tiềm năng con người"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 1 – Ý 05: CỦNG CỐ NỀN TẢNG CÔNG NGHIỆP VÀ HẠ TẦNG QUỐC GIA (INDUSTRIAL BACKBONE)",
+                "point_vi": "Một lực lượng lao động kỹ thuật vững mạnh là xương sống của công nghiệp chế tạo, chuyển đổi năng lượng và hạ tầng quốc gia.",
+                "point_en": "A robust technical workforce forms the indispensable backbone of domestic manufacturing, energy transitions, and national infrastructure.",
+                "point_collocations": [
+                  {
+                    "en": "indispensable backbone",
+                    "vi": "xương sống không thể thiếu"
+                  },
+                  {
+                    "en": "energy transitions",
+                    "vi": "chuyển đổi năng lượng"
+                  }
+                ],
+                "evidence_vi": "Các dự án hạ tầng lớn, lắp đặt điện mặt trời, bảo trì mạng viễn thông hay sản xuất công nghệ cao đều đòi hỏi hàng triệu kỹ thuật viên lành nghề để vận hành thực tế. Đầu tư sớm cho đào tạo nghề vì thế trực tiếp nâng cao năng suất lao động và sức hấp dẫn đầu tư của quốc gia.",
+                "evidence_en": "Major infrastructure upgrades, solar-grid installations, telecom maintenance, and high-tech assembly lines all rely on skilled technicians to turn blueprints into reality. Investing heavily in trade education therefore directly strengthens national productivity and global industrial competitiveness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "turn blueprints into reality",
+                      "vi": "biến bản vẽ thành hiện thực"
+                    },
+                    {
+                      "en": "high-tech assembly lines",
+                      "vi": "dây chuyền lắp ráp công nghệ cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "national productivity",
+                      "vi": "năng suất quốc gia"
+                    },
+                    {
+                      "en": "industrial competitiveness",
+                      "vi": "năng lực cạnh tranh công nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "indispensable backbone",
+                    "vi": "xương sống không thể thiếu"
+                  },
+                  {
+                    "en": "energy transitions",
+                    "vi": "chuyển đổi năng lượng"
+                  },
+                  {
+                    "en": "turn blueprints into reality",
+                    "vi": "biến bản vẽ thành hiện thực"
+                  },
+                  {
+                    "en": "high-tech assembly lines",
+                    "vi": "dây chuyền lắp ráp công nghệ cao"
+                  },
+                  {
+                    "en": "national productivity",
+                    "vi": "năng suất quốc gia"
+                  },
+                  {
+                    "en": "industrial competitiveness",
+                    "vi": "năng lực cạnh tranh công nghiệp"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 01: ĐỘNG LỰC NGHIÊN CỨU, PHÁT MINH VÀ KINH TẾ TRI THỨC (INNOVATION AND KNOWLEDGE ECONOMY)",
+                "point_vi": "Cắt giảm đầu tư cho giáo dục đại học sẽ làm suy yếu năng lực nghiên cứu khoa học và năng lực cạnh tranh trong nền kinh tế tri thức.",
+                "point_en": "Underfunding university education risks undermining scientific research capacity and long-term competitiveness in the knowledge economy.",
+                "point_collocations": [
+                  {
+                    "en": "scientific research capacity",
+                    "vi": "năng lực nghiên cứu khoa học"
+                  },
+                  {
+                    "en": "knowledge economy",
+                    "vi": "nền kinh tế tri thức"
+                  }
+                ],
+                "evidence_vi": "Các trường đại học nghiên cứu là cái nôi của công nghệ bán dẫn, y sinh, trí tuệ nhân tạo và giải pháp chống biến đổi khí hậu — những lĩnh vực định hình tăng trưởng tương lai. Nếu thiếu ngân sách công bền vững cho đại học, quốc gia sẽ mãi phụ thuộc vào công nghệ nhập khẩu với giá trị gia tăng thấp.",
+                "evidence_en": "Research universities serve as the primary incubators of biotechnology, artificial intelligence, semiconductors, and climate solutions that drive future economic growth. Without sustained public funding for higher education, a country risks remaining reliant on imported innovation and low-margin industries.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "primary incubators",
+                      "vi": "vườn ươm chủ lực"
+                    },
+                    {
+                      "en": "climate solutions",
+                      "vi": "giải pháp khí hậu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "imported innovation",
+                      "vi": "công nghệ đổi mới nhập khẩu"
+                    },
+                    {
+                      "en": "low-margin industries",
+                      "vi": "ngành công nghiệp biên lợi nhuận thấp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "scientific research capacity",
+                    "vi": "năng lực nghiên cứu khoa học"
+                  },
+                  {
+                    "en": "knowledge economy",
+                    "vi": "nền kinh tế tri thức"
+                  },
+                  {
+                    "en": "primary incubators",
+                    "vi": "vườn ươm chủ lực"
+                  },
+                  {
+                    "en": "climate solutions",
+                    "vi": "giải pháp khí hậu"
+                  },
+                  {
+                    "en": "imported innovation",
+                    "vi": "công nghệ đổi mới nhập khẩu"
+                  },
+                  {
+                    "en": "low-margin industries",
+                    "vi": "ngành công nghiệp biên lợi nhuận thấp"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 02: ĐÀO TẠO NHÂN LỰC CHUYÊN SÂU KHÔNG THỂ THAY THẾ (SPECIALIZED PROFESSIONS)",
+                "point_vi": "Xã hội hiện đại không thể vận hành nếu thiếu đội ngũ bác sĩ, kỹ sư, nhà kinh tế và giáo viên được đào tạo bài bản tại đại học.",
+                "point_en": "Modern society cannot function without rigorously trained doctors, engineers, economists, and educators produced by universities.",
+                "point_collocations": [
+                  {
+                    "en": "rigorously trained",
+                    "vi": "được đào tạo bài bản nghiêm ngặt"
+                  },
+                  {
+                    "en": "modern society",
+                    "vi": "xã hội hiện đại"
+                  }
+                ],
+                "evidence_vi": "Những nghề nghiệp đòi hỏi kiến thức chuyên ngành phức tạp, đạo đức học thuật và hàng nghìn giờ nghiên cứu lâm sàng hay thiết kế hệ thống không thể rút gọn thành khóa học nghề ngắn hạn. Duy trì tài trợ mạnh cho đại học đảm bảo chất lượng dịch vụ y tế, pháp lý và giáo dục của cả quốc gia.",
+                "evidence_en": "Professions requiring deep theoretical mastery, clinical training, legal reasoning, or complex system design cannot be condensed into brief vocational courses. Maintaining robust university funding directly safeguards the quality of national healthcare, governance, and education.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "theoretical mastery",
+                      "vi": "làm chủ lý thuyết chuyên sâu"
+                    },
+                    {
+                      "en": "clinical training",
+                      "vi": "đào tạo lâm sàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "robust funding",
+                      "vi": "nguồn tài trợ vững mạnh"
+                    },
+                    {
+                      "en": "national governance",
+                      "vi": "quản trị quốc gia"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rigorously trained",
+                    "vi": "được đào tạo bài bản nghiêm ngặt"
+                  },
+                  {
+                    "en": "modern society",
+                    "vi": "xã hội hiện đại"
+                  },
+                  {
+                    "en": "theoretical mastery",
+                    "vi": "làm chủ lý thuyết chuyên sâu"
+                  },
+                  {
+                    "en": "clinical training",
+                    "vi": "đào tạo lâm sàng"
+                  },
+                  {
+                    "en": "robust funding",
+                    "vi": "nguồn tài trợ vững mạnh"
+                  },
+                  {
+                    "en": "national governance",
+                    "vi": "quản trị quốc gia"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 03: TƯ DUY PHẢN BIỆN VÀ SỨC CHỐNG CHỊU TRƯỚC TỰ ĐỘNG HÓA (RESILIENCE TO AUTOMATION)",
+                "point_vi": "Giáo dục đại học trang bị tư duy phản biện, năng lực phân tích và khả năng tự học giúp người lao động thích nghi lâu dài với tự động hóa.",
+                "point_en": "University education equips graduates with critical thinking, analytical reasoning, and adaptability needed to withstand rapid automation.",
+                "point_collocations": [
+                  {
+                    "en": "analytical reasoning",
+                    "vi": "tư duy phân tích"
+                  },
+                  {
+                    "en": "rapid automation",
+                    "vi": "tự động hóa nhanh chóng"
+                  }
+                ],
+                "evidence_vi": "Trong khi các kỹ năng nghề hẹp có nguy cơ trở nên lỗi thời chỉ sau một thập kỷ khi robot và trí tuệ nhân tạo phát triển, năng lực tư duy liên ngành giúp cử nhân linh hoạt chuyển đổi công việc. Do đó, đầu tư vào đại học là khoản đầu tư dài hạn cho khả năng thích ứng của toàn lực lượng lao động.",
+                "evidence_en": "Whereas narrow technical skills can become obsolete within a decade as robotics and artificial intelligence advance, broad interdisciplinary training allows graduates to pivot across evolving industries. Investing in universities thus builds enduring resilience across the national workforce.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "interdisciplinary training",
+                      "vi": "đào tạo liên ngành"
+                    },
+                    {
+                      "en": "pivot across industries",
+                      "vi": "linh hoạt chuyển đổi giữa các ngành"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "enduring resilience",
+                      "vi": "sức chống chịu bền bỉ"
+                    },
+                    {
+                      "en": "obsolete technical skills",
+                      "vi": "kỹ năng kỹ thuật lỗi thời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "analytical reasoning",
+                    "vi": "tư duy phân tích"
+                  },
+                  {
+                    "en": "rapid automation",
+                    "vi": "tự động hóa nhanh chóng"
+                  },
+                  {
+                    "en": "interdisciplinary training",
+                    "vi": "đào tạo liên ngành"
+                  },
+                  {
+                    "en": "pivot across industries",
+                    "vi": "linh hoạt chuyển đổi giữa các ngành"
+                  },
+                  {
+                    "en": "enduring resilience",
+                    "vi": "sức chống chịu bền bỉ"
+                  },
+                  {
+                    "en": "obsolete technical skills",
+                    "vi": "kỹ năng kỹ thuật lỗi thời"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 04: THÚC ĐẨY CÔNG BẰNG XÃ HỘI VÀ DỊCH CHUYỂN GIAI TẦNG (SOCIAL MOBILITY)",
+                "point_vi": "Tài trợ công cho đại học bảo đảm học sinh tài năng từ gia đình thu nhập thấp vẫn có cơ hội tiếp cận giáo dục đỉnh cao và vươn lên.",
+                "point_en": "Public investment in universities safeguards social mobility by ensuring talented low-income youth are not priced out of higher education.",
+                "point_collocations": [
+                  {
+                    "en": "social mobility",
+                    "vi": "sự dịch chuyển / thăng tiến xã hội"
+                  },
+                  {
+                    "en": "priced out",
+                    "vi": "bị gạt ra ngoài vì chi phí quá cao"
+                  }
+                ],
+                "evidence_vi": "Nếu ngân sách đại học bị thu hẹp để chuyển sang trường nghề, học phí đại học sẽ tăng vọt và biến các nghề nghiệp lãnh đạo thành đặc quyền riêng của con em nhà giàu. Giữ vững học bổng và hỗ trợ công lập giúp duy trì một xã hội công bằng và trọng dụng nhân tài.",
+                "evidence_en": "If public university budgets are slashed in favor of trade schools, soaring tuition fees could turn elite professions into the exclusive preserve of wealthy families. Sustaining public grants and scholarships preserves meritocracy and equitable social advancement.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "soaring tuition fees",
+                      "vi": "học phí tăng vọt"
+                    },
+                    {
+                      "en": "exclusive preserve",
+                      "vi": "đặc quyền riêng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "preserve meritocracy",
+                      "vi": "bảo vệ chế độ trọng dụng nhân tài"
+                    },
+                    {
+                      "en": "social advancement",
+                      "vi": "sự thăng tiến xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "social mobility",
+                    "vi": "sự dịch chuyển / thăng tiến xã hội"
+                  },
+                  {
+                    "en": "priced out",
+                    "vi": "bị gạt ra ngoài vì chi phí quá cao"
+                  },
+                  {
+                    "en": "soaring tuition fees",
+                    "vi": "học phí tăng vọt"
+                  },
+                  {
+                    "en": "exclusive preserve",
+                    "vi": "đặc quyền riêng"
+                  },
+                  {
+                    "en": "preserve meritocracy",
+                    "vi": "bảo vệ chế độ trọng dụng nhân tài"
+                  },
+                  {
+                    "en": "social advancement",
+                    "vi": "sự thăng tiến xã hội"
+                  }
+                ]
+              },
+              {
+                "title": "QUAN ĐIỂM 2 – Ý 05: BỒI ĐẮP TƯ DUY CÔNG DÂN VÀ GIÁ TRỊ NHÂN VĂN (CIVIC AND CULTURAL DEVELOPMENT)",
+                "point_vi": "Ngoài mục tiêu việc làm, giáo dục đại học đóng vai trò nuôi dưỡng công dân hiểu biết, tư duy đạo đức và bản sắc văn hóa dân tộc.",
+                "point_en": "Beyond employment metrics, universities cultivate informed citizenship, ethical leadership, and cultural vitality.",
+                "point_collocations": [
+                  {
+                    "en": "informed citizenship",
+                    "vi": "tư cách công dân có hiểu biết"
+                  },
+                  {
+                    "en": "cultural vitality",
+                    "vi": "sức sống văn hóa"
+                  }
+                ],
+                "evidence_vi": "Các ngành khoa học xã hội, nhân văn, lịch sử và nghệ thuật giúp xã hội suy ngẫm về công lý, dân chủ và di sản văn hóa — những giá trị không thể đo đếm bằng năng suất thuần túy. Một nền giáo dục đại học mạnh mẽ góp phần xây dựng xã hội văn minh và ổn định lâu dài.",
+                "evidence_en": "Humanities, social sciences, history, and the arts enable society to examine ethics, public policy, and cultural heritage—dimensions that pure industrial output cannot measure. A vibrant university system therefore anchors civic stability and long-term cultural richness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cultural heritage",
+                      "vi": "di sản văn hóa"
+                    },
+                    {
+                      "en": "industrial output",
+                      "vi": "sản lượng công nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "civic stability",
+                      "vi": "sự ổn định dân sự / xã hội"
+                    },
+                    {
+                      "en": "ethical leadership",
+                      "vi": "năng lực lãnh đạo có đạo đức"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "informed citizenship",
+                    "vi": "tư cách công dân có hiểu biết"
+                  },
+                  {
+                    "en": "cultural vitality",
+                    "vi": "sức sống văn hóa"
+                  },
+                  {
+                    "en": "cultural heritage",
+                    "vi": "di sản văn hóa"
+                  },
+                  {
+                    "en": "industrial output",
+                    "vi": "sản lượng công nghiệp"
+                  },
+                  {
+                    "en": "civic stability",
+                    "vi": "sự ổn định dân sự / xã hội"
+                  },
+                  {
+                    "en": "ethical leadership",
+                    "vi": "năng lực lãnh đạo có đạo đức"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "practical vocational training",
+              "vi": "đào tạo nghề mang tính thực tiễn"
+            },
+            {
+              "en": "hands-on job skills",
+              "vi": "kỹ năng nghề thực hành"
+            },
+            {
+              "en": "shortage of skilled workers",
+              "vi": "sự thiếu hụt lao động lành nghề"
+            },
+            {
+              "en": "reduce graduate unemployment",
+              "vi": "giảm thất nghiệp ở cử nhân"
+            },
+            {
+              "en": "cost far less than university",
+              "vi": "chi phí thấp hơn đại học nhiều"
+            },
+            {
+              "en": "financial independence earlier",
+              "vi": "độc lập tài chính sớm hơn"
+            },
+            {
+              "en": "quality trade schools",
+              "vi": "trường nghề chất lượng cao"
+            },
+            {
+              "en": "manufacturing and construction",
+              "vi": "ngành sản xuất và xây dựng"
+            },
+            {
+              "en": "tackle skills mismatches",
+              "vi": "giải quyết sự mất cân đối kỹ năng"
+            },
+            {
+              "en": "industry-linked apprenticeships",
+              "vi": "học nghề gắn kết doanh nghiệp"
+            },
+            {
+              "en": "bridge the labor gap",
+              "vi": "lấp đầy khoảng trống nhân lực"
+            },
+            {
+              "en": "superior cost-effectiveness",
+              "vi": "hiệu quả chi phí vượt trội"
+            },
+            {
+              "en": "dismantle social stigma",
+              "vi": "xóa bỏ định kiến xã hội"
+            },
+            {
+              "en": "respected lucrative pathways",
+              "vi": "con đường nghề nghiệp được trọng vọng và lương cao"
+            },
+            {
+              "en": "avoid heavy tuition debt",
+              "vi": "tránh gánh nặng nợ học phí"
+            },
+            {
+              "en": "indispensable industrial backbone",
+              "vi": "xương sống công nghiệp không thể thiếu"
+            },
+            {
+              "en": "university education",
+              "vi": "giáo dục đại học"
+            },
+            {
+              "en": "specialized professions",
+              "vi": "nghề nghiệp chuyên môn sâu"
+            },
+            {
+              "en": "foundational knowledge",
+              "vi": "kiến thức nền tảng"
+            },
+            {
+              "en": "drive scientific research",
+              "vi": "thúc đẩy nghiên cứu khoa học"
+            },
+            {
+              "en": "technological innovation",
+              "vi": "đổi mới công nghệ"
+            },
+            {
+              "en": "develop critical thinking",
+              "vi": "phát triển tư duy phản biện"
+            },
+            {
+              "en": "higher lifetime earnings",
+              "vi": "thu nhập trọn đời cao hơn"
+            },
+            {
+              "en": "responsible informed citizens",
+              "vi": "công dân hiểu biết và có trách nhiệm"
+            },
+            {
+              "en": "the modern knowledge economy",
+              "vi": "nền kinh tế tri thức hiện đại"
+            },
+            {
+              "en": "primary incubators of innovation",
+              "vi": "vườn ươm đổi mới chủ lực"
+            },
+            {
+              "en": "rigorous theoretical mastery",
+              "vi": "làm chủ lý thuyết chuyên sâu bài bản"
+            },
+            {
+              "en": "withstand rapid automation",
+              "vi": "chống chịu trước tự động hóa nhanh"
+            },
+            {
+              "en": "broad interdisciplinary training",
+              "vi": "đào tạo liên ngành rộng mở"
+            },
+            {
+              "en": "safeguard upward social mobility",
+              "vi": "bảo vệ sự thăng tiến xã hội"
+            },
+            {
+              "en": "preserve meritocracy",
+              "vi": "duy trì chế độ trọng dụng nhân tài"
+            },
+            {
+              "en": "anchor civic and cultural vitality",
+              "vi": "củng cố ổn định dân sự và sức sống văn hóa"
+            },
+            {
+              "en": "invest financial resources",
+              "vi": "đầu tư nguồn lực tài chính"
+            },
+            {
+              "en": "public education budget",
+              "vi": "ngân sách giáo dục công"
+            },
+            {
+              "en": "attract foreign investment",
+              "vi": "thu hút đầu tư nước ngoài"
+            },
+            {
+              "en": "major medical breakthroughs",
+              "vi": "đột phá lớn trong y học"
+            },
+            {
+              "en": "university scholarships",
+              "vi": "học bổng đại học"
+            },
+            {
+              "en": "retrain and switch careers",
+              "vi": "đào tạo lại và chuyển nghề"
+            },
+            {
+              "en": "changing job market",
+              "vi": "thị trường lao động biến đổi"
+            },
+            {
+              "en": "fair career opportunities",
+              "vi": "cơ hội nghề nghiệp công bằng"
+            },
+            {
+              "en": "allocate public funds strategically",
+              "vi": "phân bổ ngân sách công một cách chiến lược"
+            },
+            {
+              "en": "underemployed degree holders",
+              "vi": "cử nhân làm việc dưới trình độ"
+            },
+            {
+              "en": "dual-training models",
+              "vi": "mô hình đào tạo kép"
+            },
+            {
+              "en": "reliant on imported innovation",
+              "vi": "phụ thuộc vào đổi mới nhập khẩu"
+            },
+            {
+              "en": "priced out of higher education",
+              "vi": "bị gạt khỏi đại học vì học phí cao"
+            },
+            {
+              "en": "turn blueprints into reality",
+              "vi": "biến bản vẽ thành hiện thực"
+            },
+            {
+              "en": "pivot across evolving industries",
+              "vi": "linh hoạt chuyển đổi giữa các ngành đang biến động"
+            },
+            {
+              "en": "strengthen national productivity",
+              "vi": "nâng cao năng suất quốc gia"
+            },
+            {
+              "en": "both tracks are essential",
+              "vi": "cả hai hướng đi đều thiết yếu"
+            },
+            {
+              "en": "balance public investment",
+              "vi": "cân bằng đầu tư công"
+            },
+            {
+              "en": "engineers and technicians together",
+              "vi": "kỹ sư và kỹ thuật viên phối hợp cùng nhau"
+            },
+            {
+              "en": "match students' talents",
+              "vi": "phù hợp với năng lực học sinh"
+            },
+            {
+              "en": "support national growth",
+              "vi": "hỗ trợ tăng trưởng quốc gia"
+            },
+            {
+              "en": "modernize vocational workshops",
+              "vi": "hiện đại hóa xưởng thực hành nghề"
+            },
+            {
+              "en": "improve university quality",
+              "vi": "nâng cao chất lượng đại học"
+            },
+            {
+              "en": "connect schools with businesses",
+              "vi": "kết nối nhà trường với doanh nghiệp"
+            },
+            {
+              "en": "complementary pillars of growth",
+              "vi": "hai trụ cột bổ trợ cho tăng trưởng"
+            },
+            {
+              "en": "avoid a false dichotomy",
+              "vi": "tránh sự đối lập giả tạo (chọn 1 bỏ 1)"
+            },
+            {
+              "en": "boost vocational funding without cutting research",
+              "vi": "tăng vốn học nghề mà không cắt giảm nghiên cứu"
+            },
+            {
+              "en": "align education with economic needs",
+              "vi": "gắn giáo dục với nhu cầu kinh tế"
+            },
+            {
+              "en": "seamless pathways between tracks",
+              "vi": "lộ trình liên thông mượt mà giữa hai hệ"
+            },
+            {
+              "en": "holistic human-capital strategy",
+              "vi": "chiến lược nguồn nhân lực toàn diện"
+            },
+            {
+              "en": "sustainable economic prosperity",
+              "vi": "sự thịnh vượng kinh tế bền vững"
+            },
+            {
+              "en": "empower every learner's potential",
+              "vi": "trao quyền phát huy tiềm năng mọi người học"
+            }
+          ],
+          "sample_b1": "How governments should divide education funding between practical vocational training and university education is a major policy question. This essay will examine both viewpoints and explain why I believe balanced investment in both systems is the wisest solution.\n\nOn the one hand, there are strong arguments for putting more money into <strong>practical vocational training</strong>. First, trade schools teach <strong>hands-on job skills</strong> in shorter programs, helping young people find steady jobs quickly and achieve <strong>financial independence earlier</strong>. Second, funding vocational courses directly solves the <strong>shortage of skilled workers</strong> such as electricians and mechanics while helping <strong>reduce graduate unemployment</strong>. Moreover, vocational education <strong>costs far less than university</strong>, allowing governments to train more workers and support core sectors like <strong>manufacturing and construction</strong>.\n\nOn the other hand, strong investment in <strong>university education</strong> remains equally vital for a country's future. Universities are indispensable for training doctors, engineers, scientists, and teachers whose <strong>specialized professions</strong> require deep <strong>foundational knowledge</strong>. In addition, university labs <strong>drive scientific research</strong> and <strong>technological innovation</strong>, while higher education builds <strong>critical thinking</strong> that helps graduates adapt to a <strong>changing job market</strong>.\n\nIn my opinion, governments should not neglect universities in order to fund trade schools, because <strong>both tracks are essential</strong> and work together—engineers design new systems while skilled technicians build and maintain them. Governments should increase support to modernize vocational schools while keeping strong funding for research universities and scholarships for talented poor students.\n\nIn conclusion, vocational training meets immediate workforce needs while universities power long-term innovation. Balancing public investment across both paths will best support sustainable national growth.",
+          "translation_b1": "Cách chính phủ phân bổ ngân sách giáo dục giữa đào tạo nghề thực tiễn và giáo dục đại học là một câu hỏi chính sách lớn. Bài luận này sẽ xem xét cả hai quan điểm và giải thích vì sao tôi tin đầu tư cân bằng vào cả hai hệ thống là giải pháp sáng suốt nhất.\n\nMột mặt, có những lập luận mạnh mẽ ủng hộ đầu tư nhiều hơn vào <strong>đào tạo nghề mang tính thực tiễn</strong>. Thứ nhất, trường nghề dạy <strong>kỹ năng nghề thực hành</strong> trong thời gian ngắn hơn, giúp người trẻ nhanh chóng có việc làm ổn định và <strong>độc lập tài chính sớm hơn</strong>. Thứ hai, tài trợ các khóa học nghề trực tiếp giải quyết <strong>sự thiếu hụt lao động lành nghề</strong> như thợ điện và thợ cơ khí đồng thời giúp <strong>giảm thất nghiệp ở cử nhân</strong>. Hơn nữa, giáo dục nghề <strong>chi phí thấp hơn đại học nhiều</strong>, cho phép chính phủ đào tạo thêm nhiều lao động và hỗ trợ các ngành cốt lõi như <strong>sản xuất và xây dựng</strong>.\n\nMặt khác, đầu tư mạnh cho <strong>giáo dục đại học</strong> vẫn quan trọng không kém đối với tương lai đất nước. Đại học không thể thiếu để đào tạo bác sĩ, kỹ sư, nhà khoa học và giáo viên — những <strong>nghề nghiệp chuyên môn sâu</strong> đòi hỏi <strong>kiến thức nền tảng</strong> vững chắc. Ngoài ra, phòng thí nghiệm đại học <strong>thúc đẩy nghiên cứu khoa học</strong> và <strong>đổi mới công nghệ</strong>, còn giáo dục bậc cao rèn <strong>tư duy phản biện</strong> giúp sinh viên thích nghi với <strong>thị trường lao động biến đổi</strong>.\n\nTheo ý kiến của tôi, chính phủ không nên lơ là đại học để tài trợ trường nghề, bởi <strong>cả hai hướng đi đều thiết yếu</strong> và phối hợp với nhau — kỹ sư thiết kế hệ thống mới còn kỹ thuật viên lành nghề trực tiếp thi công và vận hành. Chính phủ nên tăng hỗ trợ hiện đại hóa trường nghề đồng thời duy trì nguồn vốn vững mạnh cho đại học nghiên cứu và học bổng cho học sinh nghèo tài năng.\n\nTóm lại, đào tạo nghề đáp ứng nhu cầu nhân lực trước mắt trong khi đại học tạo động lực đổi mới lâu dài. Cân bằng đầu tư công cho cả hai con đường sẽ hỗ trợ tốt nhất cho tăng trưởng quốc gia bền vững.",
+          "sample_b2": "Debate persists over whether governments should channel a larger share of public education budgets into practical vocational training rather than traditional university education. Although expanding vocational funding addresses urgent workforce imbalances, I contend that both pathways are complementary pillars that require balanced, strategic investment.\n\nAdvocates of prioritizing vocational training highlight its immediate economic and social returns. First, financing modern workshops and <strong>industry-linked apprenticeships</strong> directly <strong>tackles skills mismatches</strong>, curbing graduate underemployment while relieving acute shortages of certified technicians across manufacturing, construction, and green energy. Second, vocational pathways offer <strong>superior cost-effectiveness</strong>: trainees obtain job-ready credentials in one to two years, helping youth <strong>avoid heavy tuition debt</strong> and achieve earlier financial independence. Equally important, systematic public support—as demonstrated by Germany's <strong>dual-training model</strong>—helps <strong>dismantle social stigma</strong> and transforms trades into <strong>respected, lucrative pathways</strong> for learners whose strengths lie outside abstract theory.\n\nConversely, defenders of university funding warn that weakening higher education would jeopardize long-term national prosperity. Research universities act as <strong>primary incubators of innovation</strong> in medicine, semiconductors, and artificial intelligence, keeping countries competitive within the <strong>modern knowledge economy</strong> rather than <strong>reliant on imported innovation</strong>. Furthermore, universities produce rigorously trained doctors, engineers, and educators while delivering <strong>broad interdisciplinary training</strong> that helps workers <strong>withstand rapid automation</strong> and <strong>pivot across evolving industries</strong>. Sustaining public university grants also <strong>safeguards upward social mobility</strong>, ensuring talented low-income youth are never <strong>priced out of higher education</strong>.\n\nIn my opinion, framing vocational and university education as rivals creates a <strong>false dichotomy</strong>. A resilient economy needs engineers to design clean-energy systems and skilled technicians to <strong>turn those blueprints into reality</strong>. Governments should therefore boost vocational funding to catch up with historical underinvestment without slashing research universities, while building <strong>seamless pathways between tracks</strong>.\n\nIn conclusion, vocational schools power practical productivity whereas universities fuel scientific progress and social mobility. Allocating public funds strategically across both complementary systems offers the surest route to sustainable prosperity.",
+          "translation_b2": "Tranh luận vẫn tiếp diễn xoay quanh việc liệu chính phủ có nên phân bổ tỷ trọng lớn hơn của ngân sách giáo dục công vào đào tạo nghề thực tiễn thay vì giáo dục đại học truyền thống. Dù mở rộng tài trợ cho học nghề giải quyết các mất cân đối nhân lực cấp bách, tôi cho rằng cả hai con đường đều là những trụ cột bổ trợ cần được đầu tư cân bằng và chiến lược.\n\nNhững người ủng hộ ưu tiên đào tạo nghề nhấn mạnh lợi ích kinh tế và xã hội tức thì của nó. Thứ nhất, tài trợ xưởng thực hành hiện đại và các chương trình <strong>học nghề gắn kết doanh nghiệp</strong> trực tiếp <strong>giải quyết sự mất cân đối kỹ năng</strong>, giảm tình trạng cử nhân làm việc dưới trình độ đồng thời tháo gỡ cơn khát kỹ thuật viên có chứng chỉ trong sản xuất, xây dựng và năng lượng xanh. Thứ hai, lộ trình học nghề mang lại <strong>hiệu quả chi phí vượt trội</strong>: học viên đạt chứng chỉ sẵn sàng làm việc chỉ sau một đến hai năm, giúp giới trẻ <strong>tránh gánh nặng nợ học phí</strong> và sớm tự chủ tài chính. Quan trọng không kém, sự đầu tư bài bản của nhà nước — như <strong>mô hình đào tạo kép</strong> của Đức — giúp <strong>xóa bỏ định kiến xã hội</strong> và biến nghề kỹ thuật thành những <strong>con đường được trọng vọng và lương cao</strong> cho người học có thế mạnh ngoài lý thuyết trừu tượng.\n\nNgược lại, những người bảo vệ ngân sách đại học cảnh báo rằng làm suy yếu giáo dục bậc cao sẽ đe dọa sự thịnh vượng dài hạn của quốc gia. Các trường đại học nghiên cứu đóng vai trò là <strong>vườn ươm đổi mới chủ lực</strong> trong y học, bán dẫn và trí tuệ nhân tạo, giữ vững năng lực cạnh tranh trong <strong>nền kinh tế tri thức hiện đại</strong> thay vì <strong>phụ thuộc vào đổi mới nhập khẩu</strong>. Hơn nữa, đại học đào tạo bác sĩ, kỹ sư và nhà giáo bài bản đồng thời cung cấp nền tảng <strong>đào tạo liên ngành rộng mở</strong> giúp người lao động <strong>chống chịu trước tự động hóa nhanh</strong> và <strong>linh hoạt chuyển đổi giữa các ngành đang biến động</strong>. Duy trì trợ cấp công cho đại học cũng <strong>bảo vệ sự thăng tiến xã hội</strong>, bảo đảm học sinh nghèo tài năng không bao giờ <strong>bị gạt khỏi đại học vì học phí cao</strong>.\n\nTheo quan điểm của tôi, đặt giáo dục nghề và đại học vào thế đối đầu tạo ra một <strong>sự đối lập giả tạo</strong>. Một nền kinh tế vững mạnh cần kỹ sư thiết kế hệ thống năng lượng sạch lẫn kỹ thuật viên lành nghề để <strong>biến những bản vẽ đó thành hiện thực</strong>. Do đó, chính phủ nên tăng vốn cho đào tạo nghề để bù đắp thời gian dài thiếu đầu tư mà không cắt giảm đại học nghiên cứu, đồng thời xây dựng <strong>lộ trình liên thông mượt mà giữa hai hệ</strong>.\n\nTóm lại, trường nghề thúc đẩy năng suất thực tiễn còn đại học khơi nguồn tiến bộ khoa học và công bằng xã hội. Phân bổ ngân sách công chiến lược cho cả hai hệ thống bổ trợ lẫn nhau là con đường chắc chắn nhất dẫn đến thịnh vượng bền vững.",
+          "vocab_step": {
+            "theme": "VSTEP Writing Task 2",
+            "overview": "Kho từ vựng và collocations chuẩn VSTEP phân cấp B1 & B2 theo dàn bài.",
+            "single_words": [
+              {
+                "word": "vocational",
+                "ipa": "/vəʊˈkeɪʃənl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thuộc về hướng nghiệp, dạy nghề",
+                "family": "",
+                "example_en": "Vocational training focuses on practical job skills.",
+                "example_vi": ""
+              },
+              {
+                "word": "financial",
+                "ipa": "/faɪˈnænʃl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thuộc về tài chính",
+                "family": "",
+                "example_en": "Governments must allocate financial resources wisely.",
+                "example_vi": ""
+              },
+              {
+                "word": "resource",
+                "ipa": "/rɪˈsɔːs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nguồn lực, tài nguyên",
+                "family": "",
+                "example_en": "Public resources should support both colleges and trade schools.",
+                "example_vi": ""
+              },
+              {
+                "word": "practical",
+                "ipa": "/ˈpræktɪkl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thực tế, thực hành",
+                "family": "",
+                "example_en": "Trade schools teach practical skills for immediate work.",
+                "example_vi": ""
+              },
+              {
+                "word": "degree",
+                "ipa": "/dɪˈɡriː/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bằng cấp đại học",
+                "family": "",
+                "example_en": "Not every rewarding career requires a four-year degree.",
+                "example_vi": ""
+              },
+              {
+                "word": "shortage",
+                "ipa": "/ˈʃɔːtɪdʒ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự thiếu hụt",
+                "family": "",
+                "example_en": "Many industries face a shortage of skilled technicians.",
+                "example_vi": ""
+              },
+              {
+                "word": "technician",
+                "ipa": "/tekˈnɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "kỹ thuật viên",
+                "family": "",
+                "example_en": "Modern factories urgently need trained technicians.",
+                "example_vi": ""
+              },
+              {
+                "word": "budget",
+                "ipa": "/ˈbʌdʒɪt/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "ngân sách",
+                "family": "",
+                "example_en": "The education budget must balance short- and long-term needs.",
+                "example_vi": ""
+              },
+              {
+                "word": "tuition",
+                "ipa": "/tjuˈɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "học phí",
+                "family": "",
+                "example_en": "Rising university tuition burdens lower-income families.",
+                "example_vi": ""
+              },
+              {
+                "word": "research",
+                "ipa": "/rɪˈsɜːtʃ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nghiên cứu",
+                "family": "",
+                "example_en": "Universities drive scientific research and innovation.",
+                "example_vi": ""
+              },
+              {
+                "word": "innovation",
+                "ipa": "/ˌɪnəˈveɪʃn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự đổi mới, sáng tạo",
+                "family": "",
+                "example_en": "Technological innovation keeps national economies competitive.",
+                "example_vi": ""
+              },
+              {
+                "word": "theory",
+                "ipa": "/ˈθɪəri/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "lý thuyết",
+                "family": "",
+                "example_en": "Some learners prefer hands-on practice over academic theory.",
+                "example_vi": ""
+              },
+              {
+                "word": "manufacturing",
+                "ipa": "/ˌmænjuˈfæktʃərɪŋ/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "ngành sản xuất, chế tạo",
+                "family": "",
+                "example_en": "Manufacturing depends heavily on skilled craftspeople.",
+                "example_vi": ""
+              },
+              {
+                "word": "scholarship",
+                "ipa": "/ˈskɒləʃɪp/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "học bổng",
+                "family": "",
+                "example_en": "Scholarships help poor students attend top universities.",
+                "example_vi": ""
+              },
+              {
+                "word": "adaptable",
+                "ipa": "/əˈdæptəbl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "có khả năng thích nghi",
+                "family": "",
+                "example_en": "Analytical training makes graduates more adaptable.",
+                "example_vi": ""
+              },
+              {
+                "word": "breakthrough",
+                "ipa": "/ˈbreɪkθruː/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "bước đột phá",
+                "family": "",
+                "example_en": "Medical breakthroughs often begin in university labs.",
+                "example_vi": ""
+              },
+              {
+                "word": "workforce",
+                "ipa": "/ˈwɜːkfɔːs/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "lực lượng lao động",
+                "family": "",
+                "example_en": "A balanced workforce needs both engineers and technicians.",
+                "example_vi": ""
+              },
+              {
+                "word": "leadership",
+                "ipa": "/ˈliːdəʃɪp/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "năng lực lãnh đạo",
+                "family": "",
+                "example_en": "Higher education prepares youth for leadership roles.",
+                "example_vi": ""
+              },
+              {
+                "word": "apprenticeship",
+                "ipa": "/əˈprentɪsʃɪp/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "chương trình học nghề thực tế",
+                "family": "",
+                "example_en": "Industry-linked apprenticeships ensure rapid employment.",
+                "example_vi": ""
+              },
+              {
+                "word": "mismatch",
+                "ipa": "/ˈmɪsmætʃ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự lệch pha, mất cân đối",
+                "family": "",
+                "example_en": "Vocational funding helps cure labor market mismatches.",
+                "example_vi": ""
+              },
+              {
+                "word": "underemployed",
+                "ipa": "/ˌʌndərɪmˈplɔɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "làm việc dưới trình độ đào tạo",
+                "family": "",
+                "example_en": "Many theoretical graduates end up underemployed.",
+                "example_vi": ""
+              },
+              {
+                "word": "stigma",
+                "ipa": "/ˈstɪɡmə/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "định kiến xã hội",
+                "family": "",
+                "example_en": "Modern facilities help dismantle stigma around trade schools.",
+                "example_vi": ""
+              },
+              {
+                "word": "lucrative",
+                "ipa": "/ˈluːkrətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang lại thu nhập cao",
+                "family": "",
+                "example_en": "Skilled trades can offer lucrative, stable careers.",
+                "example_vi": ""
+              },
+              {
+                "word": "incubator",
+                "ipa": "/ˈɪŋkjubeɪtər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "vườn ươm (nghiên cứu / khởi nghiệp)",
+                "family": "",
+                "example_en": "Universities act as incubators for scientific progress.",
+                "example_vi": ""
+              },
+              {
+                "word": "interdisciplinary",
+                "ipa": "/ˌɪntədɪsəˈplɪnəri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "liên ngành",
+                "family": "",
+                "example_en": "Interdisciplinary study fosters creative problem-solving.",
+                "example_vi": ""
+              },
+              {
+                "word": "meritocracy",
+                "ipa": "/ˌmerɪˈtɒkrəsi/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "xã hội trọng dụng nhân tài",
+                "family": "",
+                "example_en": "Public university grants help preserve meritocracy.",
+                "example_vi": ""
+              },
+              {
+                "word": "mobility",
+                "ipa": "/məʊˈbɪləti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự dịch chuyển (tầng lớp xã hội)",
+                "family": "",
+                "example_en": "Accessible higher education fuels upward social mobility.",
+                "example_vi": ""
+              },
+              {
+                "word": "craftsmanship",
+                "ipa": "/ˈkrɑːftsmənʃɪp/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tay nghề thủ công tinh xảo",
+                "family": "",
+                "example_en": "Vocational schools nurture craftsmanship and precision.",
+                "example_vi": ""
+              },
+              {
+                "word": "backbone",
+                "ipa": "/ˈbækbəʊn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "xương sống, trụ cột",
+                "family": "",
+                "example_en": "Technicians form the backbone of national infrastructure.",
+                "example_vi": ""
+              },
+              {
+                "word": "complementary",
+                "ipa": "/ˌkɒmplɪˈmentri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bổ trợ lẫn nhau",
+                "family": "",
+                "example_en": "Vocational and university tracks are complementary, not rivals.",
+                "example_vi": ""
+              },
+              {
+                "word": "pivot",
+                "ipa": "/ˈpɪvət/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "chuyển hướng linh hoạt",
+                "family": "",
+                "example_en": "Broad critical thinking helps workers pivot across sectors.",
+                "example_vi": ""
+              },
+              {
+                "word": "allocate",
+                "ipa": "/ˈæləkeɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "phân bổ (ngân sách / nguồn lực)",
+                "family": "",
+                "example_en": "States should allocate funding strategically across both tracks.",
+                "example_vi": ""
+              },
+              {
+                "word": "blueprint",
+                "ipa": "/ˈbluːprɪnt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "bản thiết kế, kế hoạch chi tiết",
+                "family": "",
+                "example_en": "Skilled workers turn engineers' blueprints into reality.",
+                "example_vi": ""
+              },
+              {
+                "word": "clinical",
+                "ipa": "/ˈklɪnɪkl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "lâm sàng (y khoa)",
+                "family": "",
+                "example_en": "Doctors require years of rigorous clinical training.",
+                "example_vi": ""
+              },
+              {
+                "word": "vitality",
+                "ipa": "/vaɪˈtæləti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sức sống",
+                "family": "",
+                "example_en": "Humanities departments enrich national cultural vitality.",
+                "example_vi": ""
+              },
+              {
+                "word": "obsolete",
+                "ipa": "/ˌɒbsəˈliːt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "lỗi thời",
+                "family": "",
+                "example_en": "Narrow manual skills can become obsolete under automation.",
+                "example_vi": ""
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "practical vocational training",
+                "level": "B1",
+                "vi": "đào tạo nghề mang tính thực tiễn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "hands-on job skills",
+                "level": "B1",
+                "vi": "kỹ năng nghề thực hành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "shortage of skilled workers",
+                "level": "B1",
+                "vi": "sự thiếu hụt lao động lành nghề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reduce graduate unemployment",
+                "level": "B1",
+                "vi": "giảm thất nghiệp ở cử nhân",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "cost far less than university",
+                "level": "B1",
+                "vi": "chi phí thấp hơn đại học nhiều",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "financial independence earlier",
+                "level": "B1",
+                "vi": "độc lập tài chính sớm hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "quality trade schools",
+                "level": "B1",
+                "vi": "trường nghề chất lượng cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "manufacturing and construction",
+                "level": "B1",
+                "vi": "ngành sản xuất và xây dựng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "tackle skills mismatches",
+                "level": "B2",
+                "vi": "giải quyết sự mất cân đối kỹ năng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "industry-linked apprenticeships",
+                "level": "B2",
+                "vi": "học nghề gắn kết doanh nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "bridge the labor gap",
+                "level": "B2",
+                "vi": "lấp đầy khoảng trống nhân lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "superior cost-effectiveness",
+                "level": "B2",
+                "vi": "hiệu quả chi phí vượt trội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "dismantle social stigma",
+                "level": "B2",
+                "vi": "xóa bỏ định kiến xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "respected lucrative pathways",
+                "level": "B2",
+                "vi": "con đường nghề nghiệp được trọng vọng và lương cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid heavy tuition debt",
+                "level": "B2",
+                "vi": "tránh gánh nặng nợ học phí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "indispensable industrial backbone",
+                "level": "B2",
+                "vi": "xương sống công nghiệp không thể thiếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "university education",
+                "level": "B1",
+                "vi": "giáo dục đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "specialized professions",
+                "level": "B1",
+                "vi": "nghề nghiệp chuyên môn sâu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "foundational knowledge",
+                "level": "B1",
+                "vi": "kiến thức nền tảng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "drive scientific research",
+                "level": "B1",
+                "vi": "thúc đẩy nghiên cứu khoa học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "technological innovation",
+                "level": "B1",
+                "vi": "đổi mới công nghệ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "develop critical thinking",
+                "level": "B1",
+                "vi": "phát triển tư duy phản biện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "higher lifetime earnings",
+                "level": "B1",
+                "vi": "thu nhập trọn đời cao hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "responsible informed citizens",
+                "level": "B1",
+                "vi": "công dân hiểu biết và có trách nhiệm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "the modern knowledge economy",
+                "level": "B2",
+                "vi": "nền kinh tế tri thức hiện đại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "primary incubators of innovation",
+                "level": "B2",
+                "vi": "vườn ươm đổi mới chủ lực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "rigorous theoretical mastery",
+                "level": "B2",
+                "vi": "làm chủ lý thuyết chuyên sâu bài bản",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "withstand rapid automation",
+                "level": "B2",
+                "vi": "chống chịu trước tự động hóa nhanh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "broad interdisciplinary training",
+                "level": "B2",
+                "vi": "đào tạo liên ngành rộng mở",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "safeguard upward social mobility",
+                "level": "B2",
+                "vi": "bảo vệ sự thăng tiến xã hội",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "preserve meritocracy",
+                "level": "B2",
+                "vi": "duy trì chế độ trọng dụng nhân tài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "anchor civic and cultural vitality",
+                "level": "B2",
+                "vi": "củng cố ổn định dân sự và sức sống văn hóa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "invest financial resources",
+                "level": "B1",
+                "vi": "đầu tư nguồn lực tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "public education budget",
+                "level": "B1",
+                "vi": "ngân sách giáo dục công",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "attract foreign investment",
+                "level": "B1",
+                "vi": "thu hút đầu tư nước ngoài",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "major medical breakthroughs",
+                "level": "B1",
+                "vi": "đột phá lớn trong y học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "university scholarships",
+                "level": "B1",
+                "vi": "học bổng đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "retrain and switch careers",
+                "level": "B1",
+                "vi": "đào tạo lại và chuyển nghề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "changing job market",
+                "level": "B1",
+                "vi": "thị trường lao động biến đổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "fair career opportunities",
+                "level": "B1",
+                "vi": "cơ hội nghề nghiệp công bằng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "allocate public funds strategically",
+                "level": "B2",
+                "vi": "phân bổ ngân sách công một cách chiến lược",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "underemployed degree holders",
+                "level": "B2",
+                "vi": "cử nhân làm việc dưới trình độ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "dual-training models",
+                "level": "B2",
+                "vi": "mô hình đào tạo kép",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "reliant on imported innovation",
+                "level": "B2",
+                "vi": "phụ thuộc vào đổi mới nhập khẩu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "priced out of higher education",
+                "level": "B2",
+                "vi": "bị gạt khỏi đại học vì học phí cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "turn blueprints into reality",
+                "level": "B2",
+                "vi": "biến bản vẽ thành hiện thực",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "pivot across evolving industries",
+                "level": "B2",
+                "vi": "linh hoạt chuyển đổi giữa các ngành đang biến động",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "strengthen national productivity",
+                "level": "B2",
+                "vi": "nâng cao năng suất quốc gia",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "both tracks are essential",
+                "level": "B1",
+                "vi": "cả hai hướng đi đều thiết yếu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "balance public investment",
+                "level": "B1",
+                "vi": "cân bằng đầu tư công",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "engineers and technicians together",
+                "level": "B1",
+                "vi": "kỹ sư và kỹ thuật viên phối hợp cùng nhau",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "match students' talents",
+                "level": "B1",
+                "vi": "phù hợp với năng lực học sinh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "support national growth",
+                "level": "B1",
+                "vi": "hỗ trợ tăng trưởng quốc gia",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "modernize vocational workshops",
+                "level": "B1",
+                "vi": "hiện đại hóa xưởng thực hành nghề",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "improve university quality",
+                "level": "B1",
+                "vi": "nâng cao chất lượng đại học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "connect schools with businesses",
+                "level": "B1",
+                "vi": "kết nối nhà trường với doanh nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "complementary pillars of growth",
+                "level": "B2",
+                "vi": "hai trụ cột bổ trợ cho tăng trưởng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "avoid a false dichotomy",
+                "level": "B2",
+                "vi": "tránh sự đối lập giả tạo (chọn 1 bỏ 1)",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "boost vocational funding without cutting research",
+                "level": "B2",
+                "vi": "tăng vốn học nghề mà không cắt giảm nghiên cứu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "align education with economic needs",
+                "level": "B2",
+                "vi": "gắn giáo dục với nhu cầu kinh tế",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "seamless pathways between tracks",
+                "level": "B2",
+                "vi": "lộ trình liên thông mượt mà giữa hai hệ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "holistic human-capital strategy",
+                "level": "B2",
+                "vi": "chiến lược nguồn nhân lực toàn diện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "sustainable economic prosperity",
+                "level": "B2",
+                "vi": "sự thịnh vượng kinh tế bền vững",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              },
+              {
+                "phrase": "empower every learner's potential",
+                "level": "B2",
+                "vi": "trao quyền phát huy tiềm năng mọi người học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "",
+                "example_vi": ""
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "grp_1",
+                "name": "1. Lợi ích Đào tạo nghề (View 1: Vocational Training)",
+                "icon": "🎯",
+                "badge": "Nhóm 01",
+                "items": [
+                  {
+                    "en": "practical vocational training",
+                    "phrase": "practical vocational training",
+                    "vi": "đào tạo nghề mang tính thực tiễn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "hands-on job skills",
+                    "phrase": "hands-on job skills",
+                    "vi": "kỹ năng nghề thực hành",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "shortage of skilled workers",
+                    "phrase": "shortage of skilled workers",
+                    "vi": "sự thiếu hụt lao động lành nghề",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reduce graduate unemployment",
+                    "phrase": "reduce graduate unemployment",
+                    "vi": "giảm thất nghiệp ở cử nhân",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "cost far less than university",
+                    "phrase": "cost far less than university",
+                    "vi": "chi phí thấp hơn đại học nhiều",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "financial independence earlier",
+                    "phrase": "financial independence earlier",
+                    "vi": "độc lập tài chính sớm hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "quality trade schools",
+                    "phrase": "quality trade schools",
+                    "vi": "trường nghề chất lượng cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "manufacturing and construction",
+                    "phrase": "manufacturing and construction",
+                    "vi": "ngành sản xuất và xây dựng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "tackle skills mismatches",
+                    "phrase": "tackle skills mismatches",
+                    "vi": "giải quyết sự mất cân đối kỹ năng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "industry-linked apprenticeships",
+                    "phrase": "industry-linked apprenticeships",
+                    "vi": "học nghề gắn kết doanh nghiệp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "bridge the labor gap",
+                    "phrase": "bridge the labor gap",
+                    "vi": "lấp đầy khoảng trống nhân lực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "superior cost-effectiveness",
+                    "phrase": "superior cost-effectiveness",
+                    "vi": "hiệu quả chi phí vượt trội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "dismantle social stigma",
+                    "phrase": "dismantle social stigma",
+                    "vi": "xóa bỏ định kiến xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "respected lucrative pathways",
+                    "phrase": "respected lucrative pathways",
+                    "vi": "con đường nghề nghiệp được trọng vọng và lương cao",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid heavy tuition debt",
+                    "phrase": "avoid heavy tuition debt",
+                    "vi": "tránh gánh nặng nợ học phí",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "indispensable industrial backbone",
+                    "phrase": "indispensable industrial backbone",
+                    "vi": "xương sống công nghiệp không thể thiếu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_2",
+                "name": "2. Giá trị Giáo dục Đại học (View 2: University Education)",
+                "icon": "✨",
+                "badge": "Nhóm 02",
+                "items": [
+                  {
+                    "en": "university education",
+                    "phrase": "university education",
+                    "vi": "giáo dục đại học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "specialized professions",
+                    "phrase": "specialized professions",
+                    "vi": "nghề nghiệp chuyên môn sâu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "foundational knowledge",
+                    "phrase": "foundational knowledge",
+                    "vi": "kiến thức nền tảng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "drive scientific research",
+                    "phrase": "drive scientific research",
+                    "vi": "thúc đẩy nghiên cứu khoa học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "technological innovation",
+                    "phrase": "technological innovation",
+                    "vi": "đổi mới công nghệ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "develop critical thinking",
+                    "phrase": "develop critical thinking",
+                    "vi": "phát triển tư duy phản biện",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "higher lifetime earnings",
+                    "phrase": "higher lifetime earnings",
+                    "vi": "thu nhập trọn đời cao hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "responsible informed citizens",
+                    "phrase": "responsible informed citizens",
+                    "vi": "công dân hiểu biết và có trách nhiệm",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "the modern knowledge economy",
+                    "phrase": "the modern knowledge economy",
+                    "vi": "nền kinh tế tri thức hiện đại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "primary incubators of innovation",
+                    "phrase": "primary incubators of innovation",
+                    "vi": "vườn ươm đổi mới chủ lực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "rigorous theoretical mastery",
+                    "phrase": "rigorous theoretical mastery",
+                    "vi": "làm chủ lý thuyết chuyên sâu bài bản",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "withstand rapid automation",
+                    "phrase": "withstand rapid automation",
+                    "vi": "chống chịu trước tự động hóa nhanh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "broad interdisciplinary training",
+                    "phrase": "broad interdisciplinary training",
+                    "vi": "đào tạo liên ngành rộng mở",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "safeguard upward social mobility",
+                    "phrase": "safeguard upward social mobility",
+                    "vi": "bảo vệ sự thăng tiến xã hội",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "preserve meritocracy",
+                    "phrase": "preserve meritocracy",
+                    "vi": "duy trì chế độ trọng dụng nhân tài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "anchor civic and cultural vitality",
+                    "phrase": "anchor civic and cultural vitality",
+                    "vi": "củng cố ổn định dân sự và sức sống văn hóa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_3",
+                "name": "3. Phân bổ Ngân sách & Thị trường (Funding & Market)",
+                "icon": "🔍",
+                "badge": "Nhóm 03",
+                "items": [
+                  {
+                    "en": "invest financial resources",
+                    "phrase": "invest financial resources",
+                    "vi": "đầu tư nguồn lực tài chính",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "public education budget",
+                    "phrase": "public education budget",
+                    "vi": "ngân sách giáo dục công",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "attract foreign investment",
+                    "phrase": "attract foreign investment",
+                    "vi": "thu hút đầu tư nước ngoài",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "major medical breakthroughs",
+                    "phrase": "major medical breakthroughs",
+                    "vi": "đột phá lớn trong y học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "university scholarships",
+                    "phrase": "university scholarships",
+                    "vi": "học bổng đại học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "retrain and switch careers",
+                    "phrase": "retrain and switch careers",
+                    "vi": "đào tạo lại và chuyển nghề",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "changing job market",
+                    "phrase": "changing job market",
+                    "vi": "thị trường lao động biến đổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "fair career opportunities",
+                    "phrase": "fair career opportunities",
+                    "vi": "cơ hội nghề nghiệp công bằng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "allocate public funds strategically",
+                    "phrase": "allocate public funds strategically",
+                    "vi": "phân bổ ngân sách công một cách chiến lược",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "underemployed degree holders",
+                    "phrase": "underemployed degree holders",
+                    "vi": "cử nhân làm việc dưới trình độ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "dual-training models",
+                    "phrase": "dual-training models",
+                    "vi": "mô hình đào tạo kép",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "reliant on imported innovation",
+                    "phrase": "reliant on imported innovation",
+                    "vi": "phụ thuộc vào đổi mới nhập khẩu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "priced out of higher education",
+                    "phrase": "priced out of higher education",
+                    "vi": "bị gạt khỏi đại học vì học phí cao",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "turn blueprints into reality",
+                    "phrase": "turn blueprints into reality",
+                    "vi": "biến bản vẽ thành hiện thực",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "pivot across evolving industries",
+                    "phrase": "pivot across evolving industries",
+                    "vi": "linh hoạt chuyển đổi giữa các ngành đang biến động",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "strengthen national productivity",
+                    "phrase": "strengthen national productivity",
+                    "vi": "nâng cao năng suất quốc gia",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              },
+              {
+                "id": "grp_4",
+                "name": "4. Giải pháp Cân bằng & Bổ trợ (Balanced View)",
+                "icon": "💡",
+                "badge": "Nhóm 04",
+                "items": [
+                  {
+                    "en": "both tracks are essential",
+                    "phrase": "both tracks are essential",
+                    "vi": "cả hai hướng đi đều thiết yếu",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "balance public investment",
+                    "phrase": "balance public investment",
+                    "vi": "cân bằng đầu tư công",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "engineers and technicians together",
+                    "phrase": "engineers and technicians together",
+                    "vi": "kỹ sư và kỹ thuật viên phối hợp cùng nhau",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "match students' talents",
+                    "phrase": "match students' talents",
+                    "vi": "phù hợp với năng lực học sinh",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "support national growth",
+                    "phrase": "support national growth",
+                    "vi": "hỗ trợ tăng trưởng quốc gia",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "modernize vocational workshops",
+                    "phrase": "modernize vocational workshops",
+                    "vi": "hiện đại hóa xưởng thực hành nghề",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "improve university quality",
+                    "phrase": "improve university quality",
+                    "vi": "nâng cao chất lượng đại học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "connect schools with businesses",
+                    "phrase": "connect schools with businesses",
+                    "vi": "kết nối nhà trường với doanh nghiệp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "complementary pillars of growth",
+                    "phrase": "complementary pillars of growth",
+                    "vi": "hai trụ cột bổ trợ cho tăng trưởng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "avoid a false dichotomy",
+                    "phrase": "avoid a false dichotomy",
+                    "vi": "tránh sự đối lập giả tạo (chọn 1 bỏ 1)",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "boost vocational funding without cutting research",
+                    "phrase": "boost vocational funding without cutting research",
+                    "vi": "tăng vốn học nghề mà không cắt giảm nghiên cứu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "align education with economic needs",
+                    "phrase": "align education with economic needs",
+                    "vi": "gắn giáo dục với nhu cầu kinh tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "seamless pathways between tracks",
+                    "phrase": "seamless pathways between tracks",
+                    "vi": "lộ trình liên thông mượt mà giữa hai hệ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "holistic human-capital strategy",
+                    "phrase": "holistic human-capital strategy",
+                    "vi": "chiến lược nguồn nhân lực toàn diện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "sustainable economic prosperity",
+                    "phrase": "sustainable economic prosperity",
+                    "vi": "sự thịnh vượng kinh tế bền vững",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  },
+                  {
+                    "en": "empower every learner's potential",
+                    "phrase": "empower every learner's potential",
+                    "vi": "trao quyền phát huy tiềm năng mọi người học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "",
+                    "example_vi": ""
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Giáo dục",
+                "title": "Đào tạo nghề và giáo dục đại học: Phân bổ nguồn lực thế nào cho hiệu quả?",
+                "summary": "Phân tích bài toán thừa cử nhân thiếu thợ lành nghề, chi phí đào tạo và vai trò bổ trợ giữa trường nghề với đại học nghiên cứu.",
+                "url": "https://vnexpress.net/giao-duc"
+              }
+            ],
+            "en": [
+              {
+                "source": "OECD Education",
+                "title": "Vocational Education and Training (VET) and Higher Education",
+                "summary": "International policy insights on balancing investments between vocational training systems and university education for resilient labor markets.",
+                "url": "https://www.oecd.org/en/topics/vocational-education-and-training.html"
               }
             ]
           }
