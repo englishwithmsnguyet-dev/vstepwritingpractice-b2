@@ -1040,6 +1040,7 @@ function startPractice(catId, topicId) {
   currentCategory = category;
   currentTopic = topic;
   recordTopicVisit(category, topic);
+  if (typeof resetTopicStepTracking === 'function') resetTopicStepTracking();
   currentApproachIndex = 0;
   if (topic.approaches && topic.approaches.length > 0) {
     topic.details = topic.approaches[0].details;
@@ -1296,8 +1297,35 @@ function renderWorkspaceStepHeader() {
   const activeKey = currentStepKey || 'read';
   const withVocab = hasVocabStep();
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  const isWriteLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('write', currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic);
-  const isModelLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('model', currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic);
+  const catId = currentCategory ? currentCategory.id : 0;
+  const topicId = currentTopic ? currentTopic.id : 0;
+
+  const isWriteClassLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('write', catId, topicId, currentTopic);
+  const isModelClassLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('model', catId, topicId, currentTopic);
+
+  const writeGate = (!isWriteClassLocked && typeof getSequentialStepGate === 'function')
+    ? getSequentialStepGate('write', catId, topicId, currentTopic)
+    : { allowed: !isWriteClassLocked };
+  const modelGate = (!isModelClassLocked && typeof getSequentialStepGate === 'function')
+    ? getSequentialStepGate('model', catId, topicId, currentTopic)
+    : { allowed: !isModelClassLocked };
+
+  const isWriteLocked = isWriteClassLocked || !writeGate.allowed;
+  const isModelLocked = isModelClassLocked || !modelGate.allowed;
+
+  const writeLockTag = isWriteClassLocked
+    ? '(Khoá)'
+    : (!writeGate.allowed ? (writeGate.shortLabel || '(Xong B1-3)') : '');
+  const modelLockTag = isModelClassLocked
+    ? '(Khoá)'
+    : (!modelGate.allowed ? (modelGate.shortLabel || '(Nộp B4)') : '');
+
+  const writeTitle = isWriteClassLocked
+    ? `Bước 04 tạm thời chưa mở cho lớp ${userClass}`
+    : (!writeGate.allowed ? `Cần hoàn thành Bước 01–02–03 trước khi viết bài` : '');
+  const modelTitle = isModelClassLocked
+    ? `Bước 05 tạm thời chưa mở cho lớp ${userClass}`
+    : (!modelGate.allowed ? `Cần nộp bài viết ở Bước 04 trước khi xem bài mẫu` : '');
 
   if (withVocab) {
     container.innerHTML = `
@@ -1322,18 +1350,18 @@ function renderWorkspaceStepHeader() {
           <span class="step-title">TẬP DIỄN ĐẠT Ý TƯỞNG</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'write' ? 'active' : ''} ${isWriteLocked ? 'is-locked' : ''}" id="ws-tab-write" onclick="switchStep('write')" style="${isWriteLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isWriteLocked ? `Bước 04 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''} ${isWriteLocked ? 'is-locked' : ''}" id="ws-tab-write" onclick="switchStep('write')" style="${isWriteLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${writeTitle}">
         <span class="step-num">${isWriteLocked ? '🔒' : '4'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 04</span>
-          <span class="step-title">VIẾT BÀI LUẬN ${isWriteLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
+          <span class="step-title">VIẾT BÀI LUẬN ${isWriteLocked ? `<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">${writeLockTag}</span>` : ''}</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'model' ? 'active' : ''} ${isModelLocked ? 'is-locked' : ''}" id="ws-tab-model" onclick="switchStep('model')" style="${isModelLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isModelLocked ? `Bước 05 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''} ${isModelLocked ? 'is-locked' : ''}" id="ws-tab-model" onclick="switchStep('model')" style="${isModelLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${modelTitle}">
         <span class="step-num">${isModelLocked ? '🔒' : '5'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 05</span>
-          <span class="step-title">THAM KHẢO BÀI MẪU ${isModelLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
+          <span class="step-title">THAM KHẢO BÀI MẪU ${isModelLocked ? `<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">${modelLockTag}</span>` : ''}</span>
         </span>
       </div>
     `;
@@ -1353,18 +1381,18 @@ function renderWorkspaceStepHeader() {
           <span class="step-title">TẬP DIỄN ĐẠT Ý TƯỞNG</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'write' ? 'active' : ''} ${isWriteLocked ? 'is-locked' : ''}" id="ws-tab-write" onclick="switchStep('write')" style="${isWriteLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isWriteLocked ? `Bước 03 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''} ${isWriteLocked ? 'is-locked' : ''}" id="ws-tab-write" onclick="switchStep('write')" style="${isWriteLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${writeTitle}">
         <span class="step-num">${isWriteLocked ? '🔒' : '3'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 03</span>
-          <span class="step-title">VIẾT BÀI LUẬN ${isWriteLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
+          <span class="step-title">VIẾT BÀI LUẬN ${isWriteLocked ? `<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">${writeLockTag}</span>` : ''}</span>
         </span>
       </div>
-      <div class="step-tab ${activeKey === 'model' ? 'active' : ''} ${isModelLocked ? 'is-locked' : ''}" id="ws-tab-model" onclick="switchStep('model')" style="${isModelLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${isModelLocked ? `Bước 04 tạm thời chưa mở cho lớp ${userClass}` : ''}">
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''} ${isModelLocked ? 'is-locked' : ''}" id="ws-tab-model" onclick="switchStep('model')" style="${isModelLocked ? 'opacity: 0.65; cursor: not-allowed;' : ''}" title="${modelTitle}">
         <span class="step-num">${isModelLocked ? '🔒' : '4'}</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 04</span>
-          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU ${isModelLocked ? '<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">(Khoá)</span>' : ''}</span>
+          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU ${isModelLocked ? `<span style="font-size:0.7rem; color:#ef4444; font-weight:700;">${modelLockTag}</span>` : ''}</span>
         </span>
       </div>
     `;
@@ -1402,9 +1430,23 @@ function switchStep(stepTarget) {
   }
   
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  if (typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser(targetKey, currentCategory ? currentCategory.id : 0, currentTopic ? currentTopic.id : 0, currentTopic)) {
+  const catId = currentCategory ? currentCategory.id : 0;
+  const topicId = currentTopic ? currentTopic.id : 0;
+  if (typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser(targetKey, catId, topicId, currentTopic)) {
     showToast(`🔒 Bước 04 (Viết bài luận) và Bước 05 (Bài mẫu) tạm thời chưa mở cho lớp ${userClass} ở đề này! Vui lòng hoàn thành 3 bước đầu của đề.`, 'warning');
     return;
+  }
+
+  // Strict Sequential Step Gate: must finish Steps 1-2-3 before Step 4, and must submit Step 4 before Step 5
+  if (typeof getSequentialStepGate === 'function') {
+    const seqGate = getSequentialStepGate(targetKey, catId, topicId, currentTopic);
+    if (!seqGate.allowed) {
+      const detail = (seqGate.missing && seqGate.missing.length > 0)
+        ? seqGate.missing.join(' • ')
+        : 'Vui lòng hoàn thành đầy đủ các bước trước đó.';
+      showToast(`🔒 Chưa mở bước này! ${detail}`, 'warning');
+      return;
+    }
   }
   
   // Anti-cheat Exam Lock: prevent leaving 'write' step during active exam without explicit exit confirmation
@@ -2855,15 +2897,24 @@ function checkTranslation(idx) {
     }
   }
   
-  // Track current session translation attempt & accuracy
-  if (sessionTracking.isLoggedIn && currentCategory && currentTopic) {
-    const transKey = `${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
-    sessionTracking.transResults[transKey] = { isCorrect: Boolean(evalResult.isCorrect) };
-    localStorage.setItem(`trans_correct_${transKey}`, evalResult.isCorrect ? 'true' : 'false');
-    const transStats = getTranslationSessionStats(currentTopic, currentCategory, currentTransLevel);
-    if (transStats.topicTotal > 0 && transStats.topicAttempted === transStats.topicTotal) {
-      reportTranslationProgressIfAny();
+  // Track real typed attempt (>= 3 English words) so students cannot empty-click to bypass Step 3
+  const typedWords = (userInput || '').trim().split(/\s+/).filter(w => /[a-zA-Z]/.test(w)).length;
+  const transKey = `${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
+  if (typedWords >= 3) {
+    localStorage.setItem(`trans_attempted_${transKey}`, 'true');
+    if (sessionTracking.isLoggedIn && currentCategory && currentTopic) {
+      sessionTracking.transResults[transKey] = { isCorrect: Boolean(evalResult.isCorrect) };
+      localStorage.setItem(`trans_correct_${transKey}`, evalResult.isCorrect ? 'true' : 'false');
+      const transStats = getTranslationSessionStats(currentTopic, currentCategory, currentTransLevel);
+      if (transStats.topicTotal > 0 && transStats.topicAttempted === transStats.topicTotal) {
+        reportTranslationProgressIfAny();
+      }
     }
+    if (typeof checkAndNotifyWriteStepUnlocked === 'function') {
+      checkAndNotifyWriteStepUnlocked();
+    }
+  } else if (!isChecked) {
+    showToast("⚠️ Bạn cần tự gõ câu dịch tiếng Anh (ít nhất 3 từ) rồi bấm Kiểm tra mới được tính hoàn thành câu này để mở khóa Bước 04!", "warning");
   }
 
   if (!isChecked) {
@@ -6351,6 +6402,9 @@ function submitEssay(forceSubmit = false) {
   }
   
   hasSubmitted = true;
+  if (typeof renderWorkspaceStepHeader === 'function') {
+    renderWorkspaceStepHeader();
+  }
 
   // Record submission and report complete results + time on site + cheating count to Google Forms
   try {
@@ -7006,6 +7060,7 @@ function renderStep3VstepEvaluation(data) {
       targetLevel: 'B2',
       passThreshold: 6.0,
       superficialCheck: data.superficialCheck || null,
+      stepProgress: (typeof buildTopicStepProgressSnapshot === 'function') ? buildTopicStepProgressSnapshot() : null,
       _formReportSent: false,
       _formFallbackTimer: null
     };
@@ -7118,7 +7173,15 @@ function sendEssayResultToGoogleForm(meta, aiData = null, useBeacon = false) {
   const isTeacher = typeof checkIsTeacher === 'function' && checkIsTeacher(meta.studentName || '', meta.studentClass || '', '');
   const prefix = isTeacher ? '[GIÁO VIÊN TEST] ' : '';
 
-  const msg = `${prefix}[KẾT QUẢ BÀI VIẾT ${lvl}] ${meta.studentName} | Lớp: ${meta.studentClass} | ${meta.topicTitle} | Thời gian viết: ${durationText}${overtimeTag} | Số từ: ${words} từ | Điểm: ${finalScore.toFixed(1)}/10 [${scoreLabel}]${criteriaStr} | Kết quả: ${verdictStr} | Gian lận: ${cheatStr} | Đối phó: ${superficialStr}`;
+  let stepProgressStr = '';
+  if (meta.stepProgress) {
+    const sp = meta.stepProgress;
+    const transPart = sp.transTotal > 0 ? `${formatDurationVi(sp.transSec)} (${sp.transAttempted}/${sp.transTotal} câu, ${sp.transCorrect} đúng)` : formatDurationVi(sp.transSec);
+    const skipTag = (!isTeacher && sp.skippedPrep) ? ' [⚠️ BỎ QUA BƯỚC CHUẨN BỊ]' : '';
+    stepProgressStr = ` | Tiến độ 5 bước: B1 Đọc ${formatDurationVi(sp.readSec)}, B2 Từ vựng ${formatDurationVi(sp.vocabSec)}, B3 Dịch ${transPart}, B4 Viết ${formatDurationVi(sp.writeSec)}, B5 Mẫu ${formatDurationVi(sp.modelSec)}${skipTag}`;
+  }
+
+  const msg = `${prefix}[KẾT QUẢ BÀI VIẾT ${lvl}] ${meta.studentName} | Lớp: ${meta.studentClass} | ${meta.topicTitle} | Thời gian viết: ${durationText}${overtimeTag} | Số từ: ${words} từ | Điểm: ${finalScore.toFixed(1)}/10 [${scoreLabel}]${criteriaStr} | Kết quả: ${verdictStr} | Gian lận: ${cheatStr} | Đối phó: ${superficialStr}${stepProgressStr}`;
 
   sendTrackingReport(msg, useBeacon);
 }
@@ -7268,6 +7331,20 @@ function buildStudentResultReportCardHtml(meta) {
             <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;margin-bottom:5px;">🛡️ Cảnh báo gian lận</div>
             <div>${integrityHtml}</div>
           </div>
+          ${meta.stepProgress ? `
+            <div style="grid-column:1 / -1;border-top:1px dashed var(--panel-border, #cbd5e1);padding-top:10px;">
+              <div style="font-size:0.73rem;font-weight:700;text-transform:uppercase;color:var(--text-muted, #64748b);letter-spacing:0.04em;margin-bottom:4px;">🧭 Tiến độ 5 bước (Đề này)</div>
+              <div style="font-size:0.84rem;font-weight:700;color:var(--text-primary, #0f172a);display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;">
+                <span>📖 B1 Đọc: <strong>${formatDurationVi(meta.stepProgress.readSec)}</strong></span>
+                <span>📚 B2 Từ vựng: <strong>${formatDurationVi(meta.stepProgress.vocabSec)}</strong></span>
+                <span>✍️ B3 Dịch ý: <strong>${formatDurationVi(meta.stepProgress.transSec)}</strong>${meta.stepProgress.transTotal > 0 ? ` (${meta.stepProgress.transAttempted}/${meta.stepProgress.transTotal} câu, ${meta.stepProgress.transCorrect} đúng)` : ''}</span>
+                <span>📝 B4 Viết: <strong>${formatDurationVi(meta.stepProgress.writeSec)}</strong></span>
+                ${meta.stepProgress.skippedPrep
+                  ? '<span style="background:#fef3c7;color:#92400e;border:1px solid #fcd34d;padding:2px 8px;border-radius:999px;font-size:0.74rem;font-weight:800;">⚠️ Chưa học đủ B1–B3</span>'
+                  : '<span style="background:#dcfce7;color:#166534;border:1px solid #86efac;padding:2px 8px;border-radius:999px;font-size:0.74rem;font-weight:800;">✅ Đủ lộ trình B1→B4</span>'}
+              </div>
+            </div>
+          ` : ''}
         </div>
 
         <!-- Score & Pass/Fail Verdict Strip -->
@@ -7356,14 +7433,181 @@ const sessionTracking = {
   loginTimeMs: 0,
   activeSeconds: 0,
   stepSeconds: { read: 0, vocab: 0, trans: 0, write: 0, model: 0 },
+  topicStepSeconds: { read: 0, vocab: 0, trans: 0, write: 0, model: 0 },
   topicsVisited: [],
   transResults: {},
   lastTransReportKey: '',
   essaySubmissions: [],
   totalCheats: 0,
   exitReportSent: false,
+  _writeUnlockNotified: false,
   tickerInterval: null
 };
+
+function getStepProgressStorageKey(catId, topicId) {
+  const u = normalizeVietnameseName(sessionStorage.getItem('current_user_name') || 'guest');
+  return `vstep_prep_${u}_${catId}_${topicId}`;
+}
+
+function loadTopicPrepProgress(catId, topicId) {
+  try {
+    const raw = localStorage.getItem(getStepProgressStorageKey(catId, topicId));
+    const parsed = raw ? JSON.parse(raw) : {};
+    return {
+      readSec: Number(parsed.readSec || 0),
+      vocabSec: Number(parsed.vocabSec || 0),
+      transSec: Number(parsed.transSec || 0),
+      readDone: Boolean(parsed.readDone),
+      vocabDone: Boolean(parsed.vocabDone)
+    };
+  } catch (e) {
+    return { readSec: 0, vocabSec: 0, transSec: 0, readDone: false, vocabDone: false };
+  }
+}
+
+function saveTopicPrepProgress(catId, topicId, prog) {
+  try {
+    localStorage.setItem(getStepProgressStorageKey(catId, topicId), JSON.stringify(prog));
+  } catch (e) {}
+}
+
+function resetTopicStepTracking() {
+  sessionTracking.topicStepSeconds = { read: 0, vocab: 0, trans: 0, write: 0, model: 0 };
+  sessionTracking._writeUnlockNotified = false;
+  if (currentCategory && currentTopic) {
+    const saved = loadTopicPrepProgress(currentCategory.id, currentTopic.id);
+    sessionTracking.topicStepSeconds.read = saved.readSec || 0;
+    sessionTracking.topicStepSeconds.vocab = saved.vocabSec || 0;
+    sessionTracking.topicStepSeconds.trans = saved.transSec || 0;
+    const gate = getSequentialStepGate('write', currentCategory.id, currentTopic.id, currentTopic);
+    if (gate.allowed) sessionTracking._writeUnlockNotified = true;
+  }
+}
+
+function getTopicTransCompletionStats(catId, topicId, topic, level) {
+  let total = 0;
+  let attempted = 0;
+  let correct = 0;
+  if (topic && currentCategory && typeof buildTranslationExercises === 'function') {
+    const exercises = buildTranslationExercises(topic, level || currentTransLevel || 'B2', currentCategory);
+    total = exercises.length;
+    for (let i = 0; i < total; i++) {
+      const k = `${catId}_${topicId}_${level || currentTransLevel || 'B2'}_${i}`;
+      const hasAttempt = localStorage.getItem(`trans_attempted_${k}`) === 'true' ||
+        Boolean(sessionTracking.transResults[k]);
+      if (hasAttempt) {
+        attempted++;
+        if (localStorage.getItem(`trans_correct_${k}`) === 'true' ||
+            (sessionTracking.transResults[k] && sessionTracking.transResults[k].isCorrect)) {
+          correct++;
+        }
+      }
+    }
+  }
+  return { total, attempted, correct };
+}
+
+function getSequentialStepGate(stepKey, catId, topicId, topic) {
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+
+  // Teachers always bypass sequential step locks
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' ||
+      (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
+    return { allowed: true, missing: [], shortLabel: '' };
+  }
+
+  if (stepKey === 'read' || stepKey === 'vocab' || stepKey === 'trans') {
+    return { allowed: true, missing: [], shortLabel: '' };
+  }
+
+  const hasPastRealSubmission = (typeof getTopicSubmissionInfo === 'function' && getTopicSubmissionInfo(catId, topicId) !== null);
+  if (hasPastRealSubmission) {
+    return { allowed: true, missing: [], shortLabel: '' };
+  }
+
+  if (stepKey === 'model') {
+    if (hasSubmitted) {
+      return { allowed: true, missing: [], shortLabel: '' };
+    }
+    return {
+      allowed: false,
+      missing: ['Bạn cần hoàn thành và nộp bài viết ở BƯỚC 04 trước khi xem BƯỚC 05 (Bài mẫu tham khảo)'],
+      shortLabel: '(Nộp B4)'
+    };
+  }
+
+  if (stepKey === 'write') {
+    const prog = loadTopicPrepProgress(catId, topicId);
+    const readSec = Math.max(prog.readSec || 0, sessionTracking.topicStepSeconds.read || 0);
+    const vocabSec = Math.max(prog.vocabSec || 0, sessionTracking.topicStepSeconds.vocab || 0);
+    const withVocab = !!(topic && topic.details && topic.details.vocab_step);
+
+    const missing = [];
+    if (!prog.readDone && readSec < 10) {
+      missing.push(`BƯỚC 01 (Đọc hiểu đề): cần xem tối thiểu 10 giây (còn ${Math.max(1, 10 - readSec)}s)`);
+    }
+    if (withVocab && !prog.vocabDone && vocabSec < 20) {
+      missing.push(`BƯỚC 02 (Nạp từ vựng): cần học tối thiểu 20 giây (còn ${Math.max(1, 20 - vocabSec)}s)`);
+    }
+
+    const transStats = getTopicTransCompletionStats(catId, topicId, topic, currentTransLevel || 'B2');
+    if (transStats.total > 0) {
+      const reqTrans = Math.min(transStats.total, Math.max(3, Math.ceil(transStats.total * 0.5)));
+      if (transStats.attempted < reqTrans) {
+        missing.push(`BƯỚC 03 (Tập diễn đạt): cần tự gõ & kiểm tra ít nhất ${reqTrans}/${transStats.total} câu dịch (hiện tại: ${transStats.attempted}/${reqTrans})`);
+      }
+    }
+
+    if (missing.length > 0) {
+      return { allowed: false, missing, shortLabel: '(Xong B1-3)' };
+    }
+    return { allowed: true, missing: [], shortLabel: '' };
+  }
+
+  return { allowed: true, missing: [], shortLabel: '' };
+}
+
+function checkAndNotifyWriteStepUnlocked() {
+  if (!currentCategory || !currentTopic) return;
+  const isClassLocked = typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser('write', currentCategory.id, currentTopic.id, currentTopic);
+  if (isClassLocked) return;
+
+  const gate = getSequentialStepGate('write', currentCategory.id, currentTopic.id, currentTopic);
+  if (gate.allowed && !sessionTracking._writeUnlockNotified) {
+    sessionTracking._writeUnlockNotified = true;
+    renderWorkspaceStepHeader();
+    showToast('🔓 Tuyệt vời! Bạn đã hoàn thành đủ lộ trình Bước 1–2–3 và MỞ KHÓA BƯỚC 04 (Viết bài luận)!', 'success');
+  }
+}
+
+function buildTopicStepProgressSnapshot() {
+  const catId = currentCategory ? currentCategory.id : 0;
+  const topicId = currentTopic ? currentTopic.id : 0;
+  const prog = (catId && topicId) ? loadTopicPrepProgress(catId, topicId) : { readSec: 0, vocabSec: 0, transSec: 0 };
+  const s = sessionTracking.topicStepSeconds;
+  const readSec = Math.max(prog.readSec || 0, s.read || 0);
+  const vocabSec = Math.max(prog.vocabSec || 0, s.vocab || 0);
+  const transSec = Math.max(prog.transSec || 0, s.trans || 0);
+  const writeSec = Math.max(writingElapsedSeconds || 0, s.write || 0);
+  const modelSec = s.model || 0;
+  const transStats = getTopicTransCompletionStats(catId, topicId, currentTopic, currentTransLevel || 'B2');
+  const withVocab = hasVocabStep();
+  const skippedPrep = (withVocab && vocabSec < 10) || (transStats.total > 0 && transStats.attempted === 0);
+
+  return {
+    readSec,
+    vocabSec,
+    transSec,
+    writeSec,
+    modelSec,
+    withVocab,
+    transAttempted: transStats.attempted,
+    transCorrect: transStats.correct,
+    transTotal: transStats.total,
+    skippedPrep
+  };
+}
 
 /**
  * Format duration in seconds to a concise Vietnamese string.
@@ -7418,12 +7662,14 @@ function startSessionTracking(userName, userClass, isTeacher) {
   sessionTracking.loginTimeMs = Date.now();
   sessionTracking.activeSeconds = 0;
   sessionTracking.stepSeconds = { read: 0, vocab: 0, trans: 0, write: 0, model: 0 };
+  sessionTracking.topicStepSeconds = { read: 0, vocab: 0, trans: 0, write: 0, model: 0 };
   sessionTracking.topicsVisited = [];
   sessionTracking.transResults = {};
   sessionTracking.lastTransReportKey = '';
   sessionTracking.essaySubmissions = [];
   sessionTracking.totalCheats = 0;
   sessionTracking.exitReportSent = false;
+  sessionTracking._writeUnlockNotified = false;
 
   sessionTracking.tickerInterval = setInterval(() => {
     if (!sessionTracking.isLoggedIn || document.hidden) return;
@@ -7431,6 +7677,29 @@ function startSessionTracking(userName, userClass, isTeacher) {
     if (typeof currentScreen !== 'undefined' && currentScreen === 'workspace' &&
         typeof currentStepKey !== 'undefined' && sessionTracking.stepSeconds.hasOwnProperty(currentStepKey)) {
       sessionTracking.stepSeconds[currentStepKey]++;
+      sessionTracking.topicStepSeconds[currentStepKey]++;
+
+      if (currentCategory && currentTopic && (currentStepKey === 'read' || currentStepKey === 'vocab' || currentStepKey === 'trans')) {
+        const prog = loadTopicPrepProgress(currentCategory.id, currentTopic.id);
+        prog.readSec = Math.max(prog.readSec || 0, sessionTracking.topicStepSeconds.read);
+        prog.vocabSec = Math.max(prog.vocabSec || 0, sessionTracking.topicStepSeconds.vocab);
+        prog.transSec = Math.max(prog.transSec || 0, sessionTracking.topicStepSeconds.trans);
+        let milestoneReached = false;
+        if (!prog.readDone && prog.readSec >= 10) {
+          prog.readDone = true;
+          milestoneReached = true;
+        }
+        if (!prog.vocabDone && prog.vocabSec >= 20) {
+          prog.vocabDone = true;
+          milestoneReached = true;
+        }
+        if (milestoneReached || sessionTracking.activeSeconds % 5 === 0) {
+          saveTopicPrepProgress(currentCategory.id, currentTopic.id, prog);
+        }
+        if (milestoneReached) {
+          checkAndNotifyWriteStepUnlocked();
+        }
+      }
     }
   }, 1000);
 }
@@ -8631,6 +8900,9 @@ function reviewSubmission(submissionId) {
   
   // Set submission flag to true to avoid timer/toast trigger in switchStep
   hasSubmitted = true;
+  if (typeof renderWorkspaceStepHeader === 'function') {
+    renderWorkspaceStepHeader();
+  }
   
   // Switch to Step writing to show feedback
   switchStep('write');
