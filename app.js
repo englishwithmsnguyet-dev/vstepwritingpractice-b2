@@ -597,11 +597,49 @@ function renderCategoryTopics(searchQuery = '') {
   if (updatedTopics.length > 0 && !searchQuery.trim()) {
     const banner = document.createElement('div');
     banner.className = 'updated-topics-banner';
-    
-    const bannerHeader = document.createElement('h3');
-    bannerHeader.innerHTML = '🔥 NHỮNG ĐỀ ĐÃ CẬP NHẬT (' + updatedTopics.length + ')';
-    banner.appendChild(bannerHeader);
-    
+
+    const writtenUpdatedCount = updatedTopics.filter(t => isTopicWritten(currentCategory.id, t.id)).length;
+    const collapseKey = `updated_banner_collapsed_cat_${currentCategory.id}`;
+    const isCollapsed = sessionStorage.getItem(collapseKey) === '1';
+    if (isCollapsed) banner.classList.add('is-collapsed');
+
+    // Header Row
+    const headerRow = document.createElement('div');
+    headerRow.className = 'updated-banner-header';
+    headerRow.innerHTML = `
+      <div class="updated-banner-title-wrap">
+        <span class="updated-banner-flame">🔥</span>
+        <h3>NHỮNG ĐỀ ĐÃ CẬP NHẬT</h3>
+        <span class="updated-banner-count">${updatedTopics.length} đề</span>
+      </div>
+      <div class="updated-banner-actions">
+        <span class="updated-banner-progress ${writtenUpdatedCount > 0 ? 'has-progress' : ''}">
+          ✓ Đã viết: <strong>${writtenUpdatedCount}/${updatedTopics.length}</strong>
+        </span>
+        <button type="button" class="updated-banner-toggle" aria-expanded="${!isCollapsed}">
+          <span class="toggle-label">${isCollapsed ? 'Mở rộng' : 'Thu gọn'}</span>
+          <span class="toggle-chevron">${isCollapsed ? '▾' : '▴'}</span>
+        </button>
+      </div>
+    `;
+    banner.appendChild(headerRow);
+
+    const bodyWrap = document.createElement('div');
+    bodyWrap.className = 'updated-banner-body';
+
+    const toggleBtn = headerRow.querySelector('.updated-banner-toggle');
+    if (toggleBtn) {
+      toggleBtn.onclick = () => {
+        const nowCollapsed = banner.classList.toggle('is-collapsed');
+        sessionStorage.setItem(collapseKey, nowCollapsed ? '1' : '0');
+        toggleBtn.setAttribute('aria-expanded', String(!nowCollapsed));
+        toggleBtn.querySelector('.toggle-label').textContent = nowCollapsed ? 'Mở rộng' : 'Thu gọn';
+        toggleBtn.querySelector('.toggle-chevron').textContent = nowCollapsed ? '▾' : '▴';
+      };
+    }
+
+    // Build groups per category
+    const groups = [];
     if (currentCategory.id === 1) {
       const isBenefitsOnly = (t) => {
         if (t.type === 'benefits_only') return true;
@@ -611,62 +649,17 @@ function renderCategoryTopics(searchQuery = '') {
         if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
         return false;
       };
-
-      const advDisadvList = updatedTopics.filter(t => !isBenefitsOnly(t));
-      const benefitsOnlyList = updatedTopics.filter(t => isBenefitsOnly(t));
-
-      const createGroupSection = (title, icon, color, list) => {
-        if (list.length === 0) return;
-        const groupWrapper = document.createElement('div');
-        groupWrapper.style.marginTop = '1.25rem';
-
-        const groupTitle = document.createElement('div');
-        groupTitle.style.fontWeight = '700';
-        groupTitle.style.color = color;
-        groupTitle.style.marginBottom = '0.65rem';
-        groupTitle.style.fontSize = '0.95rem';
-        groupTitle.style.display = 'flex';
-        groupTitle.style.alignItems = 'center';
-        groupTitle.style.gap = '0.4rem';
-        groupTitle.innerHTML = `${icon} <span>${title} (${list.length})</span>`;
-        groupWrapper.appendChild(groupTitle);
-
-        const groupGrid = document.createElement('div');
-        groupGrid.className = 'updated-topics-grid';
-
-        list.forEach(topic => {
-          const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
-          const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-          const isWritten = isTopicWritten(currentCategory.id, topic.id);
-          const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
-          if (!isAllowed) {
-            pill.style.opacity = '0.6';
-            pill.style.cursor = 'not-allowed';
-            pill.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
-          }
-          pill.onclick = () => startPractice(currentCategory.id, topic.id);
-          pill.innerHTML = `
-            <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : (isWritten ? ' (✓ Đã viết)' : '')}</span>
-          `;
-          groupGrid.appendChild(pill);
-        });
-
-        groupWrapper.appendChild(groupGrid);
-        banner.appendChild(groupWrapper);
-      };
-
-      createGroupSection('NHÓM 1: PHÂN TÍCH THUẬN LỢI VÀ BẤT LỢI', '📌', 'var(--accent-primary)', advDisadvList);
-      createGroupSection('NHÓM 2: CHỈ PHÂN TÍCH THUẬN LỢI', '✨', '#10b981', benefitsOnlyList);
+      groups.push(
+        { id: 'cat1_both', name: 'PHÂN TÍCH THUẬN LỢI & BẤT LỢI', shortName: 'Thuận lợi & Bất lợi', icon: '📌', color: '#4f46e5', list: updatedTopics.filter(t => !isBenefitsOnly(t)) },
+        { id: 'cat1_adv', name: 'CHỈ PHÂN TÍCH THUẬN LỢI', shortName: 'Chỉ Thuận lợi', icon: '✨', color: '#10b981', list: updatedTopics.filter(t => isBenefitsOnly(t)) }
+      );
     } else if (currentCategory.id === 2) {
       const getCategory2Group = (t) => {
         const rawTag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).trim();
         let firstTag = rawTag.includes(']') ? (rawTag.split(']')[0].trim() + ']').toLowerCase() : rawTag.toLowerCase();
         const tag = rawTag.toLowerCase();
         const prompt = (t.prompt || '').toLowerCase();
-        
-        // 1. Check primary tag first (consistent with switchCategory & getTopicSubtypeLabel)
+
         if (firstTag === '[causes & solutions]' || firstTag === '[problems & solutions]') return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
         if (firstTag === '[causes & effects]' || firstTag === '[causes & effects – on youth and society]') return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
         if (firstTag === '[effects & solutions]' || firstTag === '[impacts & solutions]') return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
@@ -674,7 +667,6 @@ function renderCategoryTopics(searchQuery = '') {
         if (firstTag === '[effects]' || firstTag === '[positive & negative effects]') return 'PHÂN TÍCH ẢNH HƯỞNG';
         if (firstTag === '[measures]' || firstTag === '[solutions]' || firstTag === '[measures / solutions]') return 'PHÂN TÍCH GIẢI PHÁP';
 
-        // 2. Check details.ideas_b2 / ideas_b1 keys if present
         const ideasObj = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
         if (ideasObj) {
           const keys = Object.keys(ideasObj);
@@ -686,152 +678,143 @@ function renderCategoryTopics(searchQuery = '') {
           if (keys.includes('solutions') || keys.includes('measures')) return 'PHÂN TÍCH GIẢI PHÁP';
         }
 
-        // 3. Check tags & prompt
-        if (tag.includes('causes & solutions') || (prompt.includes('causes') && (prompt.includes('solutions') || prompt.includes('measures') || prompt.includes('suggest')))) {
-          return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
-        }
-        if (tag.includes('causes & effects') || (prompt.includes('causes') && (prompt.includes('effects') || prompt.includes('consequences') || prompt.includes('impacts')))) {
-          return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
-        }
-        if (tag.includes('effects & solutions') || tag.includes('problems & solutions') || tag.includes('impacts & solutions') || ((prompt.includes('effects') || prompt.includes('problems') || prompt.includes('impacts')) && (prompt.includes('solutions') || prompt.includes('measures')))) {
-          return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
-        }
-        if (tag.includes('measures') || tag.includes('solutions') || prompt.includes('measures for') || prompt.includes('solutions to')) {
-          return 'PHÂN TÍCH GIẢI PHÁP';
-        }
-        if (tag.includes('effects') || tag.includes('impacts') || prompt.includes('effects of') || prompt.includes('impacts of')) {
-          return 'PHÂN TÍCH ẢNH HƯỞNG';
-        }
-        if (tag.includes('causes') || tag.includes('factors') || prompt.includes('reasons for') || prompt.includes('factors that') || prompt.includes('causes of')) {
-          return 'PHÂN TÍCH NGUYÊN NHÂN';
-        }
-
+        if (tag.includes('causes & solutions') || (prompt.includes('causes') && (prompt.includes('solutions') || prompt.includes('measures') || prompt.includes('suggest')))) return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
+        if (tag.includes('causes & effects') || (prompt.includes('causes') && (prompt.includes('effects') || prompt.includes('consequences') || prompt.includes('impacts')))) return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
+        if (tag.includes('effects & solutions') || tag.includes('problems & solutions') || tag.includes('impacts & solutions') || ((prompt.includes('effects') || prompt.includes('problems') || prompt.includes('impacts')) && (prompt.includes('solutions') || prompt.includes('measures')))) return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
+        if (tag.includes('measures') || tag.includes('solutions') || prompt.includes('measures for') || prompt.includes('solutions to')) return 'PHÂN TÍCH GIẢI PHÁP';
+        if (tag.includes('effects') || tag.includes('impacts') || prompt.includes('effects of') || prompt.includes('impacts of')) return 'PHÂN TÍCH ẢNH HƯỞNG';
+        if (tag.includes('causes') || tag.includes('factors') || prompt.includes('reasons for') || prompt.includes('factors that') || prompt.includes('causes of')) return 'PHÂN TÍCH NGUYÊN NHÂN';
         return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
       };
 
       const groupsConfig = [
-        { name: 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP', icon: '📌', color: 'var(--accent-primary)' },
-        { name: 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG', icon: '⚡', color: '#8b5cf6' },
-        { name: 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP', icon: '🛡️', color: '#ec4899' },
-        { name: 'PHÂN TÍCH NGUYÊN NHÂN', icon: '🔍', color: '#f59e0b' },
-        { name: 'PHÂN TÍCH ẢNH HƯỞNG', icon: '💥', color: '#ef4444' },
-        { name: 'PHÂN TÍCH GIẢI PHÁP', icon: '✨', color: '#10b981' }
+        { id: 'c2_cs', name: 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP', shortName: 'Nguyên nhân & Giải pháp', icon: '📌', color: '#4f46e5' },
+        { id: 'c2_ce', name: 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG', shortName: 'Nguyên nhân & Ảnh hưởng', icon: '⚡', color: '#8b5cf6' },
+        { id: 'c2_es', name: 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP', shortName: 'Ảnh hưởng & Giải pháp', icon: '🛡️', color: '#ec4899' },
+        { id: 'c2_c', name: 'PHÂN TÍCH NGUYÊN NHÂN', shortName: 'Nguyên nhân', icon: '🔍', color: '#d97706' },
+        { id: 'c2_e', name: 'PHÂN TÍCH ẢNH HƯỞNG', shortName: 'Ảnh hưởng', icon: '💥', color: '#ef4444' },
+        { id: 'c2_s', name: 'PHÂN TÍCH GIẢI PHÁP', shortName: 'Giải pháp', icon: '✨', color: '#10b981' }
       ];
-
       groupsConfig.forEach(cfg => {
-        const list = updatedTopics.filter(t => getCategory2Group(t) === cfg.name);
-        if (list.length === 0) return;
-
-        const groupWrapper = document.createElement('div');
-        groupWrapper.style.marginTop = '1.25rem';
-
-        const groupTitle = document.createElement('div');
-        groupTitle.style.fontWeight = '700';
-        groupTitle.style.color = cfg.color;
-        groupTitle.style.marginBottom = '0.65rem';
-        groupTitle.style.fontSize = '0.95rem';
-        groupTitle.style.display = 'flex';
-        groupTitle.style.alignItems = 'center';
-        groupTitle.style.gap = '0.4rem';
-        groupTitle.innerHTML = `${cfg.icon} <span>${cfg.name} (${list.length})</span>`;
-        groupWrapper.appendChild(groupTitle);
-
-        const groupGrid = document.createElement('div');
-        groupGrid.className = 'updated-topics-grid';
-
-        list.forEach(topic => {
-          const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
-          const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-          const isWritten = isTopicWritten(currentCategory.id, topic.id);
-          const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
-          if (!isAllowed) {
-            pill.style.opacity = '0.6';
-            pill.style.cursor = 'not-allowed';
-            pill.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
-          }
-          pill.onclick = () => startPractice(currentCategory.id, topic.id);
-          pill.innerHTML = `
-            <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : (isWritten ? ' (✓ Đã viết)' : '')}</span>
-          `;
-          groupGrid.appendChild(pill);
-        });
-
-        groupWrapper.appendChild(groupGrid);
-        banner.appendChild(groupWrapper);
+        groups.push({ ...cfg, list: updatedTopics.filter(t => getCategory2Group(t) === cfg.name) });
       });
     } else if (currentCategory.id === 3) {
       const groupsConfig3 = [
-        { name: 'GIÁO DỤC, HỌC ĐƯỜNG & PHÁT TRIỂN KỸ NĂNG', icon: '🎓', color: 'var(--accent-primary)' },
-        { name: 'CÔNG NGHỆ, MẠNG XÃ HỘI & TRÍ TUỆ NHÂN TẠO', icon: '💻', color: '#8b5cf6' },
-        { name: 'MÔI TRƯỜNG, GIAO THÔNG & TRÁCH NHIỆM XÃ HỘI', icon: '🌍', color: '#10b981' },
-        { name: 'SỨC KHỎE, VĂN HÓA & LỐI SỐNG HIỆN ĐẠI', icon: '🥗', color: '#f59e0b' }
+        { id: 'c3_edu', name: 'GIÁO DỤC, HỌC ĐƯỜNG & PHÁT TRIỂN KỸ NĂNG', shortName: 'Giáo dục & Kỹ năng', icon: '🎓', color: '#4f46e5' },
+        { id: 'c3_tech', name: 'CÔNG NGHỆ, MẠNG XÃ HỘI & TRÍ TUỆ NHÂN TẠO', shortName: 'Công nghệ & AI', icon: '💻', color: '#8b5cf6' },
+        { id: 'c3_env', name: 'MÔI TRƯỜNG, GIAO THÔNG & TRÁCH NHIỆM XÃ HỘI', shortName: 'Môi trường & Xã hội', icon: '🌍', color: '#10b981' },
+        { id: 'c3_life', name: 'SỨC KHỎE, VĂN HÓA & LỐI SỐNG HIỆN ĐẠI', shortName: 'Văn hóa & Đời sống', icon: '🥗', color: '#d97706' }
       ];
-
       groupsConfig3.forEach(cfg => {
-        const list = updatedTopics.filter(t => getCategory3Group(t) === cfg.name);
-        if (list.length === 0) return;
+        groups.push({ ...cfg, list: updatedTopics.filter(t => getCategory3Group(t) === cfg.name) });
+      });
+    } else {
+      groups.push({ id: 'cat_all', name: 'DANH SÁCH ĐỀ ĐẦY ĐỦ 5 BƯỚC', shortName: 'Tất cả', icon: '📚', color: '#4f46e5', list: updatedTopics });
+    }
 
+    const activeGroups = groups.filter(g => g.list && g.list.length > 0);
+    const activeTabKey = `updated_banner_tab_cat_${currentCategory.id}`;
+    let selectedGroupId = sessionStorage.getItem(activeTabKey) || 'all';
+    if (selectedGroupId !== 'all' && !activeGroups.some(g => g.id === selectedGroupId)) {
+      selectedGroupId = 'all';
+    }
+
+    const createTopicPill = (topic, accentColor) => {
+      const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
+      const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+      const isWritten = isTopicWritten(currentCategory.id, topic.id);
+      const pill = document.createElement('div');
+      pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
+      pill.style.setProperty('--pill-accent', accentColor || '#4f46e5');
+      pill.setAttribute('title', !isAllowed
+        ? `Đề bài này tạm thời chưa mở cho lớp ${userClass}`
+        : `Đề ${topic.id}: ${topic.title_vi}`);
+      pill.onclick = () => startPractice(currentCategory.id, topic.id);
+
+      const numLabel = String(topic.id).padStart(2, '0');
+      const apprBadge = (currentCategory.id === 3 && topic.approaches && topic.approaches.length > 0)
+        ? `<span class="pill-appr-badge">${topic.approaches.length} hướng</span>`
+        : '';
+      const statusHtml = !isAllowed
+        ? `<span class="pill-status-lock">Khoá</span>`
+        : (isWritten
+            ? `<span class="pill-status-done">✓ Đã viết</span>`
+            : `<span class="pill-arrow">›</span>`);
+
+      pill.innerHTML = `
+        <span class="pill-num">${!isAllowed ? '🔒' : (isWritten ? '✓' : numLabel)}</span>
+        <span class="item-text">${topic.title_vi}</span>
+        <span class="pill-right">${apprBadge}${statusHtml}</span>
+      `;
+      return pill;
+    };
+
+    const groupsHost = document.createElement('div');
+    groupsHost.className = 'updated-groups-host';
+
+    const renderGroupsContent = () => {
+      groupsHost.innerHTML = '';
+      const toRender = selectedGroupId === 'all' ? activeGroups : activeGroups.filter(g => g.id === selectedGroupId);
+      toRender.forEach(cfg => {
         const groupWrapper = document.createElement('div');
-        groupWrapper.style.marginTop = '1.25rem';
+        groupWrapper.className = 'updated-group-section';
+        groupWrapper.style.setProperty('--grp-accent', cfg.color);
 
-        const groupTitle = document.createElement('div');
-        groupTitle.style.fontWeight = '700';
-        groupTitle.style.color = cfg.color;
-        groupTitle.style.marginBottom = '0.65rem';
-        groupTitle.style.fontSize = '0.95rem';
-        groupTitle.style.display = 'flex';
-        groupTitle.style.alignItems = 'center';
-        groupTitle.style.gap = '0.4rem';
-        groupTitle.innerHTML = `${cfg.icon} <span>${cfg.name} (${list.length})</span>`;
-        groupWrapper.appendChild(groupTitle);
+        if (activeGroups.length > 1) {
+          const groupHeader = document.createElement('div');
+          groupHeader.className = 'updated-group-header';
+          groupHeader.innerHTML = `
+            <span class="updated-group-icon">${cfg.icon}</span>
+            <span class="updated-group-name">${cfg.name}</span>
+            <span class="updated-group-count">${cfg.list.length}</span>
+            <span class="updated-group-line"></span>
+          `;
+          groupWrapper.appendChild(groupHeader);
+        }
 
         const groupGrid = document.createElement('div');
         groupGrid.className = 'updated-topics-grid';
-
-        list.forEach(topic => {
-          const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
-          const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-          const isWritten = isTopicWritten(currentCategory.id, topic.id);
-          const pill = document.createElement('div');
-          pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
-          if (!isAllowed) {
-            pill.style.opacity = '0.6';
-            pill.style.cursor = 'not-allowed';
-            pill.setAttribute('title', `Đề bài này tạm thời chưa mở cho lớp ${userClass}`);
-          }
-          pill.onclick = () => startPractice(currentCategory.id, topic.id);
-          pill.innerHTML = `
-            <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
-            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${!isAllowed ? ' (Khoá)' : (isWritten ? ' (✓ Đã viết)' : '')}</span>
-          `;
-          groupGrid.appendChild(pill);
-        });
-
+        cfg.list.forEach(topic => groupGrid.appendChild(createTopicPill(topic, cfg.color)));
         groupWrapper.appendChild(groupGrid);
-        banner.appendChild(groupWrapper);
+        groupsHost.appendChild(groupWrapper);
       });
-    } else {
-      const grid = document.createElement('div');
-      grid.className = 'updated-topics-grid';
-      
-      updatedTopics.forEach(topic => {
-        const isAllowed = typeof isTopicAllowedForUser === 'function' ? isTopicAllowedForUser(currentCategory.id, topic.id, topic) : true;
-        const isWritten = isTopicWritten(currentCategory.id, topic.id);
-        const pill = document.createElement('div');
-        pill.className = 'updated-topic-pill' + (isWritten ? ' is-completed' : '') + (!isAllowed ? ' is-locked' : '');
-        pill.onclick = () => startPractice(currentCategory.id, topic.id);
-        pill.innerHTML = `
-          <span class="pill-icon">${!isAllowed ? '🔒' : (isWritten ? '✅' : '📚')}</span>
-          <span class="item-text">Đề ${topic.id}: ${topic.title_vi}${isWritten ? ' (✓ Đã viết)' : ''}</span>
+    };
+
+    // Subtype Filter Tabs (only when there are 2+ groups)
+    if (activeGroups.length > 1) {
+      const tabsBar = document.createElement('div');
+      tabsBar.className = 'updated-filter-tabs';
+
+      const makeTab = (id, icon, label, count, color) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'updated-filter-tab' + (selectedGroupId === id ? ' is-active' : '');
+        btn.style.setProperty('--tab-accent', color);
+        btn.innerHTML = `
+          ${icon ? `<span class="tab-icon">${icon}</span>` : ''}
+          <span class="tab-label">${label}</span>
+          <span class="tab-count">${count}</span>
         `;
-        grid.appendChild(pill);
+        btn.onclick = () => {
+          selectedGroupId = id;
+          sessionStorage.setItem(activeTabKey, id);
+          tabsBar.querySelectorAll('.updated-filter-tab').forEach(el => el.classList.remove('is-active'));
+          btn.classList.add('is-active');
+          renderGroupsContent();
+        };
+        return btn;
+      };
+
+      tabsBar.appendChild(makeTab('all', '✨', 'Tất cả', updatedTopics.length, '#4f46e5'));
+      activeGroups.forEach(cfg => {
+        tabsBar.appendChild(makeTab(cfg.id, cfg.icon, cfg.shortName || cfg.name, cfg.list.length, cfg.color));
       });
-      
-      banner.appendChild(grid);
+      bodyWrap.appendChild(tabsBar);
     }
-    
+
+    renderGroupsContent();
+    bodyWrap.appendChild(groupsHost);
+    banner.appendChild(bodyWrap);
     container.appendChild(banner);
   }
 
