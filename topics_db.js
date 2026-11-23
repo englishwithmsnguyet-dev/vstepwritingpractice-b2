@@ -195775,6 +195775,4039 @@ const ESSAY_DATA = [
             ]
           }
         }
+      },
+      {
+        "id": 55,
+        "title_en": "Moving from major cities to rural areas",
+        "title_vi": "Chuyển từ thành phố lớn về nông thôn sinh sống",
+        "tags": "[Causes & Effects]",
+        "context": "Nowadays in Vietnam, a growing number of people who currently live in major cities are choosing to move to rural areas. Instead of staying in crowded urban centers, many young adults and families prefer relocating to the countryside in search of a different lifestyle. This urban-to-rural migration trend has attracted widespread public attention.",
+        "context_vi": "Ngày nay tại Việt Nam, ngày càng có nhiều người đang sinh sống tại các thành phố lớn quyết định chuyển về khu vực nông thôn. Thay vì ở lại các trung tâm đô thị đông đúc, nhiều người trẻ và gia đình lựa chọn chuyển về miền quê để tìm kiếm một lối sống khác. Xu hướng di cư từ thành thị về nông thôn này đang thu hút sự quan tâm rộng rãi của xã hội.",
+        "prompt": "Write an essay to an educated reader to discuss the causes and effects of moving from major cities to rural areas. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "prompt_vi": "Hãy viết một bài luận gửi đến độc giả có học thức để bàn luận về nguyên nhân và ảnh hưởng của việc chuyển từ các thành phố lớn về khu vực nông thôn sinh sống. Đưa ra các lý do và ví dụ liên quan để hỗ trợ cho câu trả lời của bạn. Bạn nên viết ít nhất 250 từ. Bài viết của bạn sẽ được đánh giá dựa trên 4 tiêu chí: Mức độ hoàn thành yêu cầu đề bài, Bố cục, Từ vựng và Ngữ pháp.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "moving from major cities to rural areas",
+            "vi": "chuyển từ các thành phố lớn về vùng nông thôn"
+          },
+          {
+            "en": "urban-to-rural migration / counterurbanization",
+            "vi": "di cư từ thành thị về nông thôn / phản đô thị hóa"
+          },
+          {
+            "en": "relocating from crowded cities to the countryside",
+            "vi": "chuyển chỗ ở từ thành phố đông đúc về miền quê"
+          },
+          {
+            "en": "leaving major urban centers to settle in rural towns",
+            "vi": "rời khỏi các trung tâm đô thị lớn để định cư ở vùng quê"
+          },
+          {
+            "en": "the trend of moving back to the countryside",
+            "vi": "xu hướng bỏ phố về quê"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "causes": [
+              {
+                "title": "NGUYÊN NHÂN 01: CHI PHÍ SINH HOẠT VÀ GIÁ NHÀ Ở THÀNH PHỐ QUÁ CAO",
+                "point_vi": "Chi phí sinh hoạt và giá nhà ở các thành phố lớn ngày càng đắt đỏ.",
+                "point_en": "Living costs and housing prices in major cities are becoming increasingly expensive.",
+                "point_collocations": [
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "housing prices",
+                    "vi": "giá nhà ở"
+                  }
+                ],
+                "evidence_vi": "Nhiều gia đình trẻ khó mua được nhà riêng tại đô thị nên họ chọn chuyển về nông thôn nơi chi tiêu rẻ hơn nhiều.",
+                "evidence_en": "Many young families struggle to buy a home in big cities, so they move to rural areas where daily life is much cheaper.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rural areas",
+                      "vi": "khu vực nông thôn"
+                    },
+                    {
+                      "en": "much cheaper",
+                      "vi": "rẻ hơn nhiều"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "housing prices",
+                    "vi": "giá nhà ở"
+                  },
+                  {
+                    "en": "rural areas",
+                    "vi": "khu vực nông thôn"
+                  },
+                  {
+                    "en": "much cheaper",
+                    "vi": "rẻ hơn nhiều"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: Ô NHIỄM, ÙN TẮC VÀ NHỊP SỐNG CĂNG THẲNG Ở ĐÔ THỊ",
+                "point_vi": "Ô nhiễm không khí, kẹt xe và áp lực công việc ở thành phố khiến nhiều người cảm thấy mệt mỏi.",
+                "point_en": "Air pollution, traffic jams, and job stress in big cities make many people feel exhausted.",
+                "point_collocations": [
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "job stress",
+                    "vi": "áp lực công việc"
+                  }
+                ],
+                "evidence_vi": "Họ phải hít khói bụi mỗi ngày và tốn hàng giờ trên đường đông đúc, nên họ muốn tìm nơi sống yên bình hơn.",
+                "evidence_en": "They breathe polluted air every day and waste hours in heavy traffic, so they want to find a quieter place to live.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "heavy traffic",
+                      "vi": "giao thông đông đúc"
+                    },
+                    {
+                      "en": "quieter place",
+                      "vi": "nơi yên bình hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "job stress",
+                    "vi": "áp lực công việc"
+                  },
+                  {
+                    "en": "heavy traffic",
+                    "vi": "giao thông đông đúc"
+                  },
+                  {
+                    "en": "quieter place",
+                    "vi": "nơi yên bình hơn"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: SỰ PHÁT TRIỂN CỦA LÀM VIỆC TỪ XA VÀ INTERNET",
+                "point_vi": "Công nghệ hiện đại và làm việc từ xa giúp nhiều người kiếm tiền mà không cần sống ở thành phố.",
+                "point_en": "Modern technology and remote work allow many people to earn a living without living in big cities.",
+                "point_collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "earn a living",
+                    "vi": "kiếm sống"
+                  }
+                ],
+                "evidence_vi": "Nhờ Internet tốc độ cao, nhân viên văn phòng và người kinh doanh trực tuyến vẫn làm việc hiệu quả ngay tại quê nhà.",
+                "evidence_en": "Thanks to fast Internet, office workers and online business owners can still work effectively right from the countryside.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fast Internet",
+                      "vi": "Internet tốc độ cao"
+                    },
+                    {
+                      "en": "online business owners",
+                      "vi": "người kinh doanh trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "earn a living",
+                    "vi": "kiếm sống"
+                  },
+                  {
+                    "en": "fast Internet",
+                    "vi": "Internet tốc độ cao"
+                  },
+                  {
+                    "en": "online business owners",
+                    "vi": "người kinh doanh trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: MONG MUỐN KHÔNG GIAN SỐNG TRONG LÀNH VÀ GẦN GŨI THIÊN NHIÊN",
+                "point_vi": "Nhiều người muốn tận hưởng không khí trong lành, thực phẩm sạch và không gian sống rộng rãi hơn.",
+                "point_en": "Many people want to enjoy fresh air, clean food, and more spacious homes close to nature.",
+                "point_collocations": [
+                  {
+                    "en": "fresh air",
+                    "vi": "không khí trong lành"
+                  },
+                  {
+                    "en": "spacious homes",
+                    "vi": "ngôi nhà rộng rãi"
+                  }
+                ],
+                "evidence_vi": "Ở nông thôn, các gia đình có thể tự trồng rau, nuôi gà và cho con cái vui chơi an toàn ngoài trời mỗi ngày.",
+                "evidence_en": "In the countryside, families can grow their own vegetables and let children play safely outdoors every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "grow vegetables",
+                      "vi": "trồng rau"
+                    },
+                    {
+                      "en": "play safely outdoors",
+                      "vi": "vui chơi an toàn ngoài trời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fresh air",
+                    "vi": "không khí trong lành"
+                  },
+                  {
+                    "en": "spacious homes",
+                    "vi": "ngôi nhà rộng rãi"
+                  },
+                  {
+                    "en": "grow vegetables",
+                    "vi": "trồng rau"
+                  },
+                  {
+                    "en": "play safely outdoors",
+                    "vi": "vui chơi an toàn ngoài trời"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: MUỐN Ở GẦN GIA ĐÌNH VÀ CHĂM SÓC CHA MẸ LỚN TUỔI",
+                "point_vi": "Nhiều người quyết định về quê để ở gần họ hàng và chăm sóc cha mẹ lớn tuổi tốt hơn.",
+                "point_en": "Many people decide to return to rural areas to stay close to relatives and care for aging parents.",
+                "point_collocations": [
+                  {
+                    "en": "stay close to relatives",
+                    "vi": "ở gần họ hàng"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  }
+                ],
+                "evidence_vi": "Sống gần gia đình giúp mọi người dễ dàng hỗ trợ lẫn nhau trong cuộc sống hằng ngày và tăng tình cảm gắn bó.",
+                "evidence_en": "Living near family makes it much easier to support one another in daily life and strengthen family bonds.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "support one another",
+                      "vi": "hỗ trợ lẫn nhau"
+                    },
+                    {
+                      "en": "strengthen family bonds",
+                      "vi": "củng cố tình cảm gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stay close to relatives",
+                    "vi": "ở gần họ hàng"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "support one another",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "củng cố tình cảm gia đình"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: CẢI THIỆN SỨC KHỎE TINH THẦN VÀ CHẤT LƯỢNG SỐNG",
+                "point_vi": "Chuyển về nông thôn giúp nhiều người giảm căng thẳng và cải thiện sức khỏe thể chất lẫn tinh thần.",
+                "point_en": "Moving to rural areas helps many people reduce stress and improve their physical and mental health.",
+                "point_collocations": [
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  }
+                ],
+                "evidence_vi": "Không khí sạch, nhịp sống chậm rãi và ít tiếng ồn giúp người dân ngủ ngon hơn và cảm thấy hạnh phúc hơn mỗi ngày.",
+                "evidence_en": "Clean air, a slower pace of life, and less noise help residents sleep better and feel happier every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "slower pace of life",
+                      "vi": "nhịp sống chậm rãi hơn"
+                    },
+                    {
+                      "en": "sleep better",
+                      "vi": "ngủ ngon hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  },
+                  {
+                    "en": "slower pace of life",
+                    "vi": "nhịp sống chậm rãi hơn"
+                  },
+                  {
+                    "en": "sleep better",
+                    "vi": "ngủ ngon hơn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: THÚC ĐẨY KINH TẾ VÀ DỊCH VỤ ĐỊA PHƯƠNG Ở NÔNG THÔN",
+                "point_vi": "Làn sóng người từ thành phố về quê góp phần phát triển kinh tế và tạo thêm việc làm ở nông thôn.",
+                "point_en": "The arrival of city residents helps develop rural economies and create more local jobs.",
+                "point_collocations": [
+                  {
+                    "en": "rural economies",
+                    "vi": "kinh tế nông thôn"
+                  },
+                  {
+                    "en": "local jobs",
+                    "vi": "việc làm địa phương"
+                  }
+                ],
+                "evidence_vi": "Những người mới chuyển về thường mở quán cà phê, homestay hoặc trang trại sạch và thúc đẩy dịch vụ địa phương phát triển.",
+                "evidence_en": "Newcomers often open cafes, homestays, or organic farms, encouraging local shops and services to grow.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organic farms",
+                      "vi": "trang trại hữu cơ / sạch"
+                    },
+                    {
+                      "en": "local services",
+                      "vi": "dịch vụ địa phương"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural economies",
+                    "vi": "kinh tế nông thôn"
+                  },
+                  {
+                    "en": "local jobs",
+                    "vi": "việc làm địa phương"
+                  },
+                  {
+                    "en": "organic farms",
+                    "vi": "trang trại hữu cơ / sạch"
+                  },
+                  {
+                    "en": "local services",
+                    "vi": "dịch vụ địa phương"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: GIẢM BỚT ÁP LỰC QUÁ TẢI CHO CÁC THÀNH PHỐ LỚN",
+                "point_vi": "Xu hướng này giúp giảm bớt tình trạng quá tải dân số, tắc đường và ô nhiễm tại các đô thị lớn.",
+                "point_en": "This trend helps ease overcrowding, traffic congestion, and pollution in major urban centers.",
+                "point_collocations": [
+                  {
+                    "en": "ease overcrowding",
+                    "vi": "giảm tình trạng quá tải"
+                  },
+                  {
+                    "en": "major urban centers",
+                    "vi": "các trung tâm đô thị lớn"
+                  }
+                ],
+                "evidence_vi": "Khi có ít người chen chúc trong thành phố hơn, áp lực lên bệnh viện, trường học và giao thông công cộng cũng giảm bớt.",
+                "evidence_en": "When fewer people crowd into cities, pressure on hospitals, schools, and public transport can also decrease.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "public transport",
+                      "vi": "giao thông công cộng"
+                    },
+                    {
+                      "en": "pressure on hospitals",
+                      "vi": "áp lực lên bệnh viện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "ease overcrowding",
+                    "vi": "giảm tình trạng quá tải"
+                  },
+                  {
+                    "en": "major urban centers",
+                    "vi": "các trung tâm đô thị lớn"
+                  },
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
+                  },
+                  {
+                    "en": "pressure on hospitals",
+                    "vi": "áp lực lên bệnh viện"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: KHÓ KHĂN VỀ VIỆC LÀM, THU NHẬP VÀ DỊCH VỤ Y TẾ, GIÁO DỤC",
+                "point_vi": "Người chuyển về quê có thể đối mặt với mức thu nhập thấp hơn và ít dịch vụ chất lượng cao hơn.",
+                "point_en": "People moving to rural areas may face lower incomes and fewer high-quality public services.",
+                "point_collocations": [
+                  {
+                    "en": "lower incomes",
+                    "vi": "mức thu nhập thấp hơn"
+                  },
+                  {
+                    "en": "high-quality public services",
+                    "vi": "dịch vụ công chất lượng cao"
+                  }
+                ],
+                "evidence_vi": "Vùng nông thôn thường có ít cơ hội nghề nghiệp chuyên môn, bệnh viện lớn và trường học hiện đại so với thành phố.",
+                "evidence_en": "Rural regions usually offer fewer specialized job opportunities, major hospitals, and modern schools than big cities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "specialized job opportunities",
+                      "vi": "cơ hội việc làm chuyên môn"
+                    },
+                    {
+                      "en": "major hospitals",
+                      "vi": "bệnh viện lớn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "lower incomes",
+                    "vi": "mức thu nhập thấp hơn"
+                  },
+                  {
+                    "en": "high-quality public services",
+                    "vi": "dịch vụ công chất lượng cao"
+                  },
+                  {
+                    "en": "specialized job opportunities",
+                    "vi": "cơ hội việc làm chuyên môn"
+                  },
+                  {
+                    "en": "major hospitals",
+                    "vi": "bệnh viện lớn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: ĐẨY GIÁ ĐẤT NÔNG THÔN TĂNG VÀ ẢNH HƯỞNG MÔI TRƯỜNG ĐỊA PHƯƠNG",
+                "point_vi": "Ngày càng nhiều người về quê sinh sống có thể làm tăng giá đất và gây áp lực lên môi trường nông thôn.",
+                "point_en": "Growing urban-to-rural migration can push up rural land prices and put pressure on local nature.",
+                "point_collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "put pressure on",
+                    "vi": "gây áp lực lên"
+                  }
+                ],
+                "evidence_vi": "Việc xây dựng thêm nhiều nhà cửa và khu nghỉ dưỡng có thể thu hẹp đất nông nghiệp và khiến người dân địa phương khó mua đất hơn.",
+                "evidence_en": "Building more houses and resorts can reduce farmland and make it harder for local residents to afford land.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reduce farmland",
+                      "vi": "thu hẹp đất nông nghiệp"
+                    },
+                    {
+                      "en": "afford land",
+                      "vi": "đủ tiền mua đất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "put pressure on",
+                    "vi": "gây áp lực lên"
+                  },
+                  {
+                    "en": "reduce farmland",
+                    "vi": "thu hẹp đất nông nghiệp"
+                  },
+                  {
+                    "en": "afford land",
+                    "vi": "đủ tiền mua đất"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: CHI PHÍ SINH HOẠT VÀ GIÁ NHÀ Ở THÀNH PHỐ QUÁ CAO",
+                "point_vi": "Chi phí sinh hoạt và giá nhà ở các thành phố lớn ngày càng đắt đỏ.",
+                "point_en": "Living costs and housing prices in major cities are becoming increasingly expensive.",
+                "point_collocations": [
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "housing prices",
+                    "vi": "giá nhà ở"
+                  }
+                ],
+                "evidence_vi": "Nhiều gia đình trẻ khó mua được nhà riêng tại đô thị nên họ chọn chuyển về nông thôn nơi chi tiêu rẻ hơn nhiều.",
+                "evidence_en": "Many young families struggle to buy a home in big cities, so they move to rural areas where daily life is much cheaper.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rural areas",
+                      "vi": "khu vực nông thôn"
+                    },
+                    {
+                      "en": "much cheaper",
+                      "vi": "rẻ hơn nhiều"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "housing prices",
+                    "vi": "giá nhà ở"
+                  },
+                  {
+                    "en": "rural areas",
+                    "vi": "khu vực nông thôn"
+                  },
+                  {
+                    "en": "much cheaper",
+                    "vi": "rẻ hơn nhiều"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: Ô NHIỄM, ÙN TẮC VÀ NHỊP SỐNG CĂNG THẲNG Ở ĐÔ THỊ",
+                "point_vi": "Ô nhiễm không khí, kẹt xe và áp lực công việc ở thành phố khiến nhiều người cảm thấy mệt mỏi.",
+                "point_en": "Air pollution, traffic jams, and job stress in big cities make many people feel exhausted.",
+                "point_collocations": [
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "job stress",
+                    "vi": "áp lực công việc"
+                  }
+                ],
+                "evidence_vi": "Họ phải hít khói bụi mỗi ngày và tốn hàng giờ trên đường đông đúc, nên họ muốn tìm nơi sống yên bình hơn.",
+                "evidence_en": "They breathe polluted air every day and waste hours in heavy traffic, so they want to find a quieter place to live.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "heavy traffic",
+                      "vi": "giao thông đông đúc"
+                    },
+                    {
+                      "en": "quieter place",
+                      "vi": "nơi yên bình hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "job stress",
+                    "vi": "áp lực công việc"
+                  },
+                  {
+                    "en": "heavy traffic",
+                    "vi": "giao thông đông đúc"
+                  },
+                  {
+                    "en": "quieter place",
+                    "vi": "nơi yên bình hơn"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: SỰ PHÁT TRIỂN CỦA LÀM VIỆC TỪ XA VÀ INTERNET",
+                "point_vi": "Công nghệ hiện đại và làm việc từ xa giúp nhiều người kiếm tiền mà không cần sống ở thành phố.",
+                "point_en": "Modern technology and remote work allow many people to earn a living without living in big cities.",
+                "point_collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "earn a living",
+                    "vi": "kiếm sống"
+                  }
+                ],
+                "evidence_vi": "Nhờ Internet tốc độ cao, nhân viên văn phòng và người kinh doanh trực tuyến vẫn làm việc hiệu quả ngay tại quê nhà.",
+                "evidence_en": "Thanks to fast Internet, office workers and online business owners can still work effectively right from the countryside.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fast Internet",
+                      "vi": "Internet tốc độ cao"
+                    },
+                    {
+                      "en": "online business owners",
+                      "vi": "người kinh doanh trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "earn a living",
+                    "vi": "kiếm sống"
+                  },
+                  {
+                    "en": "fast Internet",
+                    "vi": "Internet tốc độ cao"
+                  },
+                  {
+                    "en": "online business owners",
+                    "vi": "người kinh doanh trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: MONG MUỐN KHÔNG GIAN SỐNG TRONG LÀNH VÀ GẦN GŨI THIÊN NHIÊN",
+                "point_vi": "Nhiều người muốn tận hưởng không khí trong lành, thực phẩm sạch và không gian sống rộng rãi hơn.",
+                "point_en": "Many people want to enjoy fresh air, clean food, and more spacious homes close to nature.",
+                "point_collocations": [
+                  {
+                    "en": "fresh air",
+                    "vi": "không khí trong lành"
+                  },
+                  {
+                    "en": "spacious homes",
+                    "vi": "ngôi nhà rộng rãi"
+                  }
+                ],
+                "evidence_vi": "Ở nông thôn, các gia đình có thể tự trồng rau, nuôi gà và cho con cái vui chơi an toàn ngoài trời mỗi ngày.",
+                "evidence_en": "In the countryside, families can grow their own vegetables and let children play safely outdoors every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "grow vegetables",
+                      "vi": "trồng rau"
+                    },
+                    {
+                      "en": "play safely outdoors",
+                      "vi": "vui chơi an toàn ngoài trời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fresh air",
+                    "vi": "không khí trong lành"
+                  },
+                  {
+                    "en": "spacious homes",
+                    "vi": "ngôi nhà rộng rãi"
+                  },
+                  {
+                    "en": "grow vegetables",
+                    "vi": "trồng rau"
+                  },
+                  {
+                    "en": "play safely outdoors",
+                    "vi": "vui chơi an toàn ngoài trời"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: MUỐN Ở GẦN GIA ĐÌNH VÀ CHĂM SÓC CHA MẸ LỚN TUỔI",
+                "point_vi": "Nhiều người quyết định về quê để ở gần họ hàng và chăm sóc cha mẹ lớn tuổi tốt hơn.",
+                "point_en": "Many people decide to return to rural areas to stay close to relatives and care for aging parents.",
+                "point_collocations": [
+                  {
+                    "en": "stay close to relatives",
+                    "vi": "ở gần họ hàng"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  }
+                ],
+                "evidence_vi": "Sống gần gia đình giúp mọi người dễ dàng hỗ trợ lẫn nhau trong cuộc sống hằng ngày và tăng tình cảm gắn bó.",
+                "evidence_en": "Living near family makes it much easier to support one another in daily life and strengthen family bonds.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "support one another",
+                      "vi": "hỗ trợ lẫn nhau"
+                    },
+                    {
+                      "en": "strengthen family bonds",
+                      "vi": "củng cố tình cảm gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "stay close to relatives",
+                    "vi": "ở gần họ hàng"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "support one another",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "củng cố tình cảm gia đình"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "ẢNH HƯỞNG 01: CẢI THIỆN SỨC KHỎE TINH THẦN VÀ CHẤT LƯỢNG SỐNG",
+                "point_vi": "Chuyển về nông thôn giúp nhiều người giảm căng thẳng và cải thiện sức khỏe thể chất lẫn tinh thần.",
+                "point_en": "Moving to rural areas helps many people reduce stress and improve their physical and mental health.",
+                "point_collocations": [
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  }
+                ],
+                "evidence_vi": "Không khí sạch, nhịp sống chậm rãi và ít tiếng ồn giúp người dân ngủ ngon hơn và cảm thấy hạnh phúc hơn mỗi ngày.",
+                "evidence_en": "Clean air, a slower pace of life, and less noise help residents sleep better and feel happier every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "slower pace of life",
+                      "vi": "nhịp sống chậm rãi hơn"
+                    },
+                    {
+                      "en": "sleep better",
+                      "vi": "ngủ ngon hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
+                  },
+                  {
+                    "en": "slower pace of life",
+                    "vi": "nhịp sống chậm rãi hơn"
+                  },
+                  {
+                    "en": "sleep better",
+                    "vi": "ngủ ngon hơn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: THÚC ĐẨY KINH TẾ VÀ DỊCH VỤ ĐỊA PHƯƠNG Ở NÔNG THÔN",
+                "point_vi": "Làn sóng người từ thành phố về quê góp phần phát triển kinh tế và tạo thêm việc làm ở nông thôn.",
+                "point_en": "The arrival of city residents helps develop rural economies and create more local jobs.",
+                "point_collocations": [
+                  {
+                    "en": "rural economies",
+                    "vi": "kinh tế nông thôn"
+                  },
+                  {
+                    "en": "local jobs",
+                    "vi": "việc làm địa phương"
+                  }
+                ],
+                "evidence_vi": "Những người mới chuyển về thường mở quán cà phê, homestay hoặc trang trại sạch và thúc đẩy dịch vụ địa phương phát triển.",
+                "evidence_en": "Newcomers often open cafes, homestays, or organic farms, encouraging local shops and services to grow.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organic farms",
+                      "vi": "trang trại hữu cơ / sạch"
+                    },
+                    {
+                      "en": "local services",
+                      "vi": "dịch vụ địa phương"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural economies",
+                    "vi": "kinh tế nông thôn"
+                  },
+                  {
+                    "en": "local jobs",
+                    "vi": "việc làm địa phương"
+                  },
+                  {
+                    "en": "organic farms",
+                    "vi": "trang trại hữu cơ / sạch"
+                  },
+                  {
+                    "en": "local services",
+                    "vi": "dịch vụ địa phương"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: GIẢM BỚT ÁP LỰC QUÁ TẢI CHO CÁC THÀNH PHỐ LỚN",
+                "point_vi": "Xu hướng này giúp giảm bớt tình trạng quá tải dân số, tắc đường và ô nhiễm tại các đô thị lớn.",
+                "point_en": "This trend helps ease overcrowding, traffic congestion, and pollution in major urban centers.",
+                "point_collocations": [
+                  {
+                    "en": "ease overcrowding",
+                    "vi": "giảm tình trạng quá tải"
+                  },
+                  {
+                    "en": "major urban centers",
+                    "vi": "các trung tâm đô thị lớn"
+                  }
+                ],
+                "evidence_vi": "Khi có ít người chen chúc trong thành phố hơn, áp lực lên bệnh viện, trường học và giao thông công cộng cũng giảm bớt.",
+                "evidence_en": "When fewer people crowd into cities, pressure on hospitals, schools, and public transport can also decrease.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "public transport",
+                      "vi": "giao thông công cộng"
+                    },
+                    {
+                      "en": "pressure on hospitals",
+                      "vi": "áp lực lên bệnh viện"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "ease overcrowding",
+                    "vi": "giảm tình trạng quá tải"
+                  },
+                  {
+                    "en": "major urban centers",
+                    "vi": "các trung tâm đô thị lớn"
+                  },
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
+                  },
+                  {
+                    "en": "pressure on hospitals",
+                    "vi": "áp lực lên bệnh viện"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: KHÓ KHĂN VỀ VIỆC LÀM, THU NHẬP VÀ DỊCH VỤ Y TẾ, GIÁO DỤC",
+                "point_vi": "Người chuyển về quê có thể đối mặt với mức thu nhập thấp hơn và ít dịch vụ chất lượng cao hơn.",
+                "point_en": "People moving to rural areas may face lower incomes and fewer high-quality public services.",
+                "point_collocations": [
+                  {
+                    "en": "lower incomes",
+                    "vi": "mức thu nhập thấp hơn"
+                  },
+                  {
+                    "en": "high-quality public services",
+                    "vi": "dịch vụ công chất lượng cao"
+                  }
+                ],
+                "evidence_vi": "Vùng nông thôn thường có ít cơ hội nghề nghiệp chuyên môn, bệnh viện lớn và trường học hiện đại so với thành phố.",
+                "evidence_en": "Rural regions usually offer fewer specialized job opportunities, major hospitals, and modern schools than big cities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "specialized job opportunities",
+                      "vi": "cơ hội việc làm chuyên môn"
+                    },
+                    {
+                      "en": "major hospitals",
+                      "vi": "bệnh viện lớn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "lower incomes",
+                    "vi": "mức thu nhập thấp hơn"
+                  },
+                  {
+                    "en": "high-quality public services",
+                    "vi": "dịch vụ công chất lượng cao"
+                  },
+                  {
+                    "en": "specialized job opportunities",
+                    "vi": "cơ hội việc làm chuyên môn"
+                  },
+                  {
+                    "en": "major hospitals",
+                    "vi": "bệnh viện lớn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: ĐẨY GIÁ ĐẤT NÔNG THÔN TĂNG VÀ ẢNH HƯỞNG MÔI TRƯỜNG ĐỊA PHƯƠNG",
+                "point_vi": "Ngày càng nhiều người về quê sinh sống có thể làm tăng giá đất và gây áp lực lên môi trường nông thôn.",
+                "point_en": "Growing urban-to-rural migration can push up rural land prices and put pressure on local nature.",
+                "point_collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "put pressure on",
+                    "vi": "gây áp lực lên"
+                  }
+                ],
+                "evidence_vi": "Việc xây dựng thêm nhiều nhà cửa và khu nghỉ dưỡng có thể thu hẹp đất nông nghiệp và khiến người dân địa phương khó mua đất hơn.",
+                "evidence_en": "Building more houses and resorts can reduce farmland and make it harder for local residents to afford land.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reduce farmland",
+                      "vi": "thu hẹp đất nông nghiệp"
+                    },
+                    {
+                      "en": "afford land",
+                      "vi": "đủ tiền mua đất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "put pressure on",
+                    "vi": "gây áp lực lên"
+                  },
+                  {
+                    "en": "reduce farmland",
+                    "vi": "thu hẹp đất nông nghiệp"
+                  },
+                  {
+                    "en": "afford land",
+                    "vi": "đủ tiền mua đất"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "causes": [
+              {
+                "title": "NGUYÊN NHÂN 01: CHI PHÍ SINH HOẠT LEO THANG VÀ KHỦNG HOẢNG NHÀ Ở ĐÔ THỊ (SOARING URBAN LIVING COSTS)",
+                "point_vi": "Chi phí sinh hoạt đắt đỏ và giá bất động sản tăng vọt tại các đô thị lớn đang đẩy nhiều cư dân tìm về vùng nông thôn.",
+                "point_en": "Escalating living costs and soaring property prices in major cities are driving many residents to relocate to rural areas.",
+                "point_collocations": [
+                  {
+                    "en": "soaring property prices",
+                    "vi": "giá bất động sản tăng vọt"
+                  },
+                  {
+                    "en": "relocate to rural areas",
+                    "vi": "chuyển đến sinh sống ở nông thôn"
+                  }
+                ],
+                "evidence_vi": "Tại những thành phố lớn như Hà Nội hay TP.HCM, giá căn hộ và tiền thuê nhà vượt xa khả năng tích lũy của nhiều gia đình trẻ có thu nhập trung bình. Ngược lại, khu vực nông thôn mang đến chi phí sinh hoạt dễ chịu hơn và cơ hội sở hữu ngôi nhà rộng rãi với ngân sách hợp lý.",
+                "evidence_en": "In major metropolises such as Hanoi and Ho Chi Minh City, apartment prices and rents have far outpaced what many middle-income households can afford. By contrast, rural areas offer substantially lower living expenses and the realistic prospect of owning spacious homes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "outpace affordability",
+                      "vi": "vượt xa khả năng chi trả"
+                    },
+                    {
+                      "en": "middle-income households",
+                      "vi": "hộ gia đình thu nhập trung bình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "realistic prospect",
+                      "vi": "triển vọng thực tế"
+                    },
+                    {
+                      "en": "spacious homes",
+                      "vi": "nhà ở rộng rãi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "soaring property prices",
+                    "vi": "giá bất động sản tăng vọt"
+                  },
+                  {
+                    "en": "relocate to rural areas",
+                    "vi": "chuyển đến sinh sống ở nông thôn"
+                  },
+                  {
+                    "en": "outpace affordability",
+                    "vi": "vượt xa khả năng chi trả"
+                  },
+                  {
+                    "en": "middle-income households",
+                    "vi": "hộ gia đình thu nhập trung bình"
+                  },
+                  {
+                    "en": "realistic prospect",
+                    "vi": "triển vọng thực tế"
+                  },
+                  {
+                    "en": "spacious homes",
+                    "vi": "nhà ở rộng rãi"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: Ô NHIỄM MÔI TRƯỜNG, TẮC NGHẼN VÀ ÁP LỰC ĐÔ THỊ (URBAN POLLUTION AND DAILY STRESS)",
+                "point_vi": "Tình trạng ô nhiễm nghiêm trọng, ùn tắc giao thông triền miên và nhịp sống áp lực cao khiến nhiều người muốn rời xa thành phố.",
+                "point_en": "Severe environmental pollution, chronic traffic congestion, and high-pressure urban lifestyles prompt many city dwellers to leave.",
+                "point_collocations": [
+                  {
+                    "en": "chronic traffic congestion",
+                    "vi": "tắc nghẽn giao thông triền miên"
+                  },
+                  {
+                    "en": "city dwellers",
+                    "vi": "cư dân thành phố"
+                  }
+                ],
+                "evidence_vi": "Cư dân đô thị thường xuyên phải hít thở bụi mịn, chịu đựng tiếng ồn kéo dài và mất hàng giờ kẹt xe trong giờ cao điểm mỗi ngày. Gánh nặng tinh thần tích tụ từ môi trường ngột ngạt này thúc đẩy họ tìm kiếm một cuộc sống chậm rãi và cân bằng hơn ở vùng quê.",
+                "evidence_en": "Urban residents constantly breathe hazardous fine dust, endure relentless noise, and lose hours stuck in daily rush-hour gridlock. Accumulated burnout from this stressful environment motivates them to seek a slower, more balanced lifestyle in the countryside.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hazardous fine dust",
+                      "vi": "bụi mịn nguy hại"
+                    },
+                    {
+                      "en": "rush-hour gridlock",
+                      "vi": "kẹt xe cứng giờ cao điểm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "accumulated burnout",
+                      "vi": "sự kiệt sức tích tụ"
+                    },
+                    {
+                      "en": "balanced lifestyle",
+                      "vi": "lối sống cân bằng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "chronic traffic congestion",
+                    "vi": "tắc nghẽn giao thông triền miên"
+                  },
+                  {
+                    "en": "city dwellers",
+                    "vi": "cư dân thành phố"
+                  },
+                  {
+                    "en": "hazardous fine dust",
+                    "vi": "bụi mịn nguy hại"
+                  },
+                  {
+                    "en": "rush-hour gridlock",
+                    "vi": "kẹt xe cứng giờ cao điểm"
+                  },
+                  {
+                    "en": "accumulated burnout",
+                    "vi": "sự kiệt sức tích tụ"
+                  },
+                  {
+                    "en": "balanced lifestyle",
+                    "vi": "lối sống cân bằng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: BÙNG NỔ LÀM VIỆC TỪ XA VÀ HẠ TẦNG KỸ THUẬT SỐ (REMOTE WORK AND DIGITAL CONNECTIVITY)",
+                "point_vi": "Sự phổ biến của hình thức làm việc từ xa và hạ tầng Internet phát triển đã xóa bỏ rào cản địa lý giữa nơi sống và nơi làm việc.",
+                "point_en": "The widespread adoption of remote work and improved digital infrastructure have removed geographic barriers between home and workplace.",
+                "point_collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "geographic barriers",
+                    "vi": "rào cản địa lý"
+                  }
+                ],
+                "evidence_vi": "Nhờ mạng cáp quang phủ sóng rộng khắp và các nền tảng thương mại điện tử, nhiều lao động trí thức có thể làm việc cho doanh nghiệp thành phố hoặc kinh doanh trực tuyến ngay từ nông thôn. Sự linh hoạt này cho phép họ hưởng mức thu nhập đô thị trong khi tận hưởng chi phí và không gian sống vùng quê.",
+                "evidence_en": "Thanks to widespread high-speed broadband and e-commerce platforms, professionals can work for urban employers or run online businesses directly from rural towns. This flexibility allows them to earn competitive urban salaries while enjoying peaceful, affordable countryside living.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "high-speed broadband",
+                      "vi": "mạng băng thông rộng tốc độ cao"
+                    },
+                    {
+                      "en": "e-commerce platforms",
+                      "vi": "nền tảng thương mại điện tử"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "competitive urban salaries",
+                      "vi": "mức lương cạnh tranh như ở đô thị"
+                    },
+                    {
+                      "en": "countryside living",
+                      "vi": "cuộc sống vùng quê"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "geographic barriers",
+                    "vi": "rào cản địa lý"
+                  },
+                  {
+                    "en": "high-speed broadband",
+                    "vi": "mạng băng thông rộng tốc độ cao"
+                  },
+                  {
+                    "en": "e-commerce platforms",
+                    "vi": "nền tảng thương mại điện tử"
+                  },
+                  {
+                    "en": "competitive urban salaries",
+                    "vi": "mức lương cạnh tranh như ở đô thị"
+                  },
+                  {
+                    "en": "countryside living",
+                    "vi": "cuộc sống vùng quê"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: NHU CẦU SỐNG XANH VÀ CHĂM SÓC SỨC KHỎE TOÀN DIỆN (PURSUIT OF WELLNESS AND NATURE)",
+                "point_vi": "Ngày càng nhiều người đề cao sức khỏe tinh thần, thực phẩm sạch và sự gắn kết gần gũi với thiên nhiên.",
+                "point_en": "Growing numbers of people prioritize holistic health, clean food, and closer daily contact with nature.",
+                "point_collocations": [
+                  {
+                    "en": "holistic health",
+                    "vi": "sức khỏe toàn diện"
+                  },
+                  {
+                    "en": "contact with nature",
+                    "vi": "sự gần gũi với thiên nhiên"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt sau những biến động về sức khỏe cộng đồng gần đây, nhiều gia đình nhận ra giá trị của không khí trong lành, khu vườn riêng và nguồn thực phẩm hữu cơ tự trồng. Môi trường nông thôn ít bê tông hóa giúp trẻ em có không gian vận động tự do và người lớn nuôi dưỡng lối sống lành mạnh hơn.",
+                "evidence_en": "Particularly in recent years, families have increasingly valued fresh air, private gardens, and safe, home-grown organic food. Less urbanized rural settings give children room for healthy outdoor play while helping adults cultivate more mindful, restorative daily routines.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "home-grown organic food",
+                      "vi": "thực phẩm hữu cơ tự trồng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "restorative routines",
+                      "vi": "nếp sinh hoạt giúp phục hồi sức khỏe"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "holistic health",
+                    "vi": "sức khỏe toàn diện"
+                  },
+                  {
+                    "en": "contact with nature",
+                    "vi": "sự gần gũi với thiên nhiên"
+                  },
+                  {
+                    "en": "home-grown organic food",
+                    "vi": "thực phẩm hữu cơ tự trồng"
+                  },
+                  {
+                    "en": "restorative routines",
+                    "vi": "nếp sinh hoạt giúp phục hồi sức khỏe"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: MONG MUỐN GẮN KẾT GIA ĐÌNH VÀ CHĂM SÓC CHA MẸ LỚN TUỔI (FAMILY TIES AND CARING FOR ELDERS)",
+                "point_vi": "Mong muốn sum vầy bên đại gia đình và trực tiếp chăm sóc cha mẹ lớn tuổi cũng thôi thúc nhiều người trở về quê hương.",
+                "point_en": "The desire to stay close to extended family and care directly for aging parents also inspires many people to return to their hometowns.",
+                "point_collocations": [
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  }
+                ],
+                "evidence_vi": "Nhiều người lao động xa quê lâu năm cảm thấy áy náy khi chỉ có thể về thăm cha mẹ vào những dịp lễ ngắn ngủi. Việc chuyển hẳn về quê giúp họ kịp thời chăm lo sức khỏe cho đấng sinh thành đồng thời nhận được sự hỗ trợ ấm áp từ họ hàng trong việc nuôi dạy con nhỏ.",
+                "evidence_en": "Many long-term urban migrants feel deep regret about only visiting their elderly parents during brief annual holidays. Relocating back to rural hometowns allows them to care for aging loved ones personally while benefiting from supportive family networks in raising young children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "urban migrants",
+                      "vi": "người di cư lên thành phố"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "supportive family networks",
+                      "vi": "mạng lưới gia đình luôn hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "urban migrants",
+                    "vi": "người di cư lên thành phố"
+                  },
+                  {
+                    "en": "supportive family networks",
+                    "vi": "mạng lưới gia đình luôn hỗ trợ"
+                  }
+                ]
+              }
+            ],
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: CẢI THIỆN SỨC KHỎE TINH THẦN VÀ CHẤT LƯỢNG SỐNG CÁ NHÂN (IMPROVED WELL-BEING FOR MIGRANTS)",
+                "point_vi": "Về mặt tích cực, việc chuyển về nông thôn giúp nhiều cá nhân và gia đình nâng cao rõ rệt sức khỏe tinh thần cũng như sự hài lòng trong cuộc sống.",
+                "point_en": "On a positive note, relocating to rural areas significantly enhances migrants' mental well-being and overall life satisfaction.",
+                "point_collocations": [
+                  {
+                    "en": "mental well-being",
+                    "vi": "sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "overall life satisfaction",
+                    "vi": "sự hài lòng chung với cuộc sống"
+                  }
+                ],
+                "evidence_vi": "Thoát khỏi khói bụi, tiếng ồn và vòng xoáy chi tiêu đắt đỏ giúp giảm đáng kể mức độ căng thẳng kéo dài và cải thiện giấc ngủ. Hơn nữa, nhịp sống chậm rãi và tình làng nghĩa xóm thân thiện mang lại cho gia đình nhiều thời gian chất lượng bên nhau hơn.",
+                "evidence_en": "Escaping pollution, constant noise, and intense financial pressure lowers chronic stress levels and promotes healthier sleep. Moreover, a gentler pace of life and close-knit rural communities give families far more quality time to bond together.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chronic stress levels",
+                      "vi": "mức độ căng thẳng kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "close-knit communities",
+                      "vi": "cộng đồng gắn kết thân tình"
+                    },
+                    {
+                      "en": "gentler pace of life",
+                      "vi": "nhịp sống êm đềm hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mental well-being",
+                    "vi": "sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "overall life satisfaction",
+                    "vi": "sự hài lòng chung với cuộc sống"
+                  },
+                  {
+                    "en": "chronic stress levels",
+                    "vi": "mức độ căng thẳng kéo dài"
+                  },
+                  {
+                    "en": "close-knit communities",
+                    "vi": "cộng đồng gắn kết thân tình"
+                  },
+                  {
+                    "en": "gentler pace of life",
+                    "vi": "nhịp sống êm đềm hơn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: HỒI SINH KINH TẾ VÀ NÂNG CẤP HẠ TẦNG NÔNG THÔN (REVITALIZING RURAL ECONOMIES)",
+                "point_vi": "Dòng cư dân có trình độ và vốn đầu tư từ thành phố mang lại sức sống mới cho kinh tế và cơ sở hạ tầng vùng nông thôn.",
+                "point_en": "An influx of skilled, financially capable urbanites revitalizes local rural economies and stimulates infrastructure upgrades.",
+                "point_collocations": [
+                  {
+                    "en": "revitalize rural economies",
+                    "vi": "hồi sinh kinh tế nông thôn"
+                  },
+                  {
+                    "en": "infrastructure upgrades",
+                    "vi": "nâng cấp cơ sở hạ tầng"
+                  }
+                ],
+                "evidence_vi": "Những người mới chuyển về thường mang theo kiến thức kinh doanh hiện đại, xây dựng mô hình du lịch sinh thái, nông nghiệp sạch và tạo thêm việc làm cho người dân bản địa. Để đáp ứng nhu cầu của nhóm cư dân mới, chính quyền địa phương cũng đẩy mạnh đầu tư mạng Internet, đường giao thông và dịch vụ thương mại.",
+                "evidence_en": "Newcomers frequently introduce modern business skills by launching eco-tourism homestays, sustainable farms, and local cafes that create jobs for residents. To accommodate growing populations, local authorities also expand broadband coverage, road networks, and commercial services.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "eco-tourism homestays",
+                      "vi": "homestay du lịch sinh thái"
+                    },
+                    {
+                      "en": "sustainable farms",
+                      "vi": "trang trại bền vững"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broadband coverage",
+                      "vi": "độ phủ sóng Internet băng thông rộng"
+                    },
+                    {
+                      "en": "commercial services",
+                      "vi": "dịch vụ thương mại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "revitalize rural economies",
+                    "vi": "hồi sinh kinh tế nông thôn"
+                  },
+                  {
+                    "en": "infrastructure upgrades",
+                    "vi": "nâng cấp cơ sở hạ tầng"
+                  },
+                  {
+                    "en": "eco-tourism homestays",
+                    "vi": "homestay du lịch sinh thái"
+                  },
+                  {
+                    "en": "sustainable farms",
+                    "vi": "trang trại bền vững"
+                  },
+                  {
+                    "en": "broadband coverage",
+                    "vi": "độ phủ sóng Internet băng thông rộng"
+                  },
+                  {
+                    "en": "commercial services",
+                    "vi": "dịch vụ thương mại"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: GIẢM TẢI ÁP LỰC DÂN SỐ CHO CÁC ĐÔ THỊ LỚN (EASING PRESSURE ON OVERCROWDED CITIES)",
+                "point_vi": "Di cư ngược từ thành thị về nông thôn góp phần giảm bớt sức ép dân số lên hạ tầng và môi trường tại các đô thị quá tải.",
+                "point_en": "Urban-to-rural migration helps relieve demographic pressure on strained infrastructure and ecosystems in major cities.",
+                "point_collocations": [
+                  {
+                    "en": "demographic pressure",
+                    "vi": "áp lực dân số"
+                  },
+                  {
+                    "en": "strained infrastructure",
+                    "vi": "hạ tầng quá tải"
+                  }
+                ],
+                "evidence_vi": "Khi một bộ phận cư dân chuyển ra ngoài các trung tâm đông đúc, mật độ phương tiện giao thông, nhu cầu nhà ở và lượng rác thải đô thị có cơ hội hạ nhiệt. Về lâu dài, sự phân bổ dân cư cân bằng hơn giữa thành thị và nông thôn sẽ thúc đẩy phát triển vùng bền vững trên phạm vi cả nước.",
+                "evidence_en": "As a portion of city residents move away from congested cores, traffic density, housing demand, and urban waste generation can gradually ease. Over the long term, a more balanced population distribution between urban and rural regions promotes healthier national development.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "traffic density",
+                      "vi": "mật độ giao thông"
+                    },
+                    {
+                      "en": "urban waste generation",
+                      "vi": "lượng rác thải đô thị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "balanced population distribution",
+                      "vi": "sự phân bổ dân cư cân bằng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "demographic pressure",
+                    "vi": "áp lực dân số"
+                  },
+                  {
+                    "en": "strained infrastructure",
+                    "vi": "hạ tầng quá tải"
+                  },
+                  {
+                    "en": "traffic density",
+                    "vi": "mật độ giao thông"
+                  },
+                  {
+                    "en": "urban waste generation",
+                    "vi": "lượng rác thải đô thị"
+                  },
+                  {
+                    "en": "balanced population distribution",
+                    "vi": "sự phân bổ dân cư cân bằng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: HẠN CHẾ CƠ HỘI NGHỀ NGHIỆP VÀ TIẾP CẬN DỊCH VỤ CÔNG (LIMITED CAREERS AND PUBLIC SERVICES)",
+                "point_vi": "Tuy nhiên, nhiều người di cư về nông thôn phải đối mặt với sự sụt giảm thu nhập và thiếu hụt các dịch vụ y tế, giáo dục chất lượng cao.",
+                "point_en": "However, many urban migrants encounter reduced career prospects alongside limited access to advanced healthcare and education.",
+                "point_collocations": [
+                  {
+                    "en": "reduced career prospects",
+                    "vi": "triển vọng nghề nghiệp thu hẹp"
+                  },
+                  {
+                    "en": "advanced healthcare",
+                    "vi": "dịch vụ y tế tiên tiến"
+                  }
+                ],
+                "evidence_vi": "Nếu không có công việc từ xa ổn định, người chuyển về quê thường gặp khó khăn khi tìm việc chuyên môn lương cao và có thể vỡ mộng vì thu nhập bấp bênh. Đồng thời, bệnh viện tuyến chuyên sâu, trường học quốc tế và tiện ích văn hóa tại vùng quê vẫn còn hạn chế, gây bất tiện lớn cho việc nuôi dạy con hoặc chăm sóc người bệnh.",
+                "evidence_en": "Without stable remote employment, newcomers often struggle to find well-paid specialized roles and risk financial disillusionment. Meanwhile, specialized hospitals, modern schools, and cultural facilities remain scarce in many villages, posing challenges for raising children or treating serious illnesses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "financial disillusionment",
+                      "vi": "sự vỡ mộng về tài chính"
+                    },
+                    {
+                      "en": "specialized roles",
+                      "vi": "vị trí công việc chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "specialized hospitals",
+                      "vi": "bệnh viện chuyên sâu"
+                    },
+                    {
+                      "en": "cultural facilities",
+                      "vi": "tiện ích văn hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reduced career prospects",
+                    "vi": "triển vọng nghề nghiệp thu hẹp"
+                  },
+                  {
+                    "en": "advanced healthcare",
+                    "vi": "dịch vụ y tế tiên tiến"
+                  },
+                  {
+                    "en": "financial disillusionment",
+                    "vi": "sự vỡ mộng về tài chính"
+                  },
+                  {
+                    "en": "specialized roles",
+                    "vi": "vị trí công việc chuyên môn"
+                  },
+                  {
+                    "en": "specialized hospitals",
+                    "vi": "bệnh viện chuyên sâu"
+                  },
+                  {
+                    "en": "cultural facilities",
+                    "vi": "tiện ích văn hóa"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: ĐẨY GIÁ ĐẤT TĂNG CAO VÀ GÂY ÁP LỰC MÔI TRƯỜNG NÔNG THÔN (RURAL LAND INFLATION AND ENVIRONMENTAL STRAIN)",
+                "point_vi": "Làn sóng người thành phố đổ về mua đất có thể đẩy giá bất động sản nông thôn tăng mạnh và làm tổn hại cảnh quan tự nhiên vốn có.",
+                "point_en": "A sudden wave of affluent urban buyers can drive up rural land prices and strain fragile countryside ecosystems.",
+                "point_collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "fragile ecosystems",
+                    "vi": "hệ sinh thái mong manh"
+                  }
+                ],
+                "evidence_vi": "Nhu cầu mua đất làm nhà vườn và khu nghỉ dưỡng tăng cao dễ gây sốt đất, khiến người dân bản địa thu nhập thấp ngày càng khó sở hữu đất ở hoặc đất canh tác. Bên cạnh đó, việc xây dựng thiếu quy hoạch và gia tăng rác thải sinh hoạt có thể phá vỡ vẻ đẹp yên bình vốn là lý do thu hút người mới đến.",
+                "evidence_en": "Surging demand for garden homes and vacation plots can inflate property values, pricing lower-income local families out of residential or agricultural land. Furthermore, unplanned construction and increased household waste may degrade the very natural beauty that originally attracted newcomers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "inflate property values",
+                      "vi": "thổi phồng giá trị bất động sản"
+                    },
+                    {
+                      "en": "agricultural land",
+                      "vi": "đất nông nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unplanned construction",
+                      "vi": "xây dựng thiếu quy hoạch"
+                    },
+                    {
+                      "en": "natural beauty",
+                      "vi": "vẻ đẹp tự nhiên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "fragile ecosystems",
+                    "vi": "hệ sinh thái mong manh"
+                  },
+                  {
+                    "en": "inflate property values",
+                    "vi": "thổi phồng giá trị bất động sản"
+                  },
+                  {
+                    "en": "agricultural land",
+                    "vi": "đất nông nghiệp"
+                  },
+                  {
+                    "en": "unplanned construction",
+                    "vi": "xây dựng thiếu quy hoạch"
+                  },
+                  {
+                    "en": "natural beauty",
+                    "vi": "vẻ đẹp tự nhiên"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: CHI PHÍ SINH HOẠT LEO THANG VÀ KHỦNG HOẢNG NHÀ Ở ĐÔ THỊ (SOARING URBAN LIVING COSTS)",
+                "point_vi": "Chi phí sinh hoạt đắt đỏ và giá bất động sản tăng vọt tại các đô thị lớn đang đẩy nhiều cư dân tìm về vùng nông thôn.",
+                "point_en": "Escalating living costs and soaring property prices in major cities are driving many residents to relocate to rural areas.",
+                "point_collocations": [
+                  {
+                    "en": "soaring property prices",
+                    "vi": "giá bất động sản tăng vọt"
+                  },
+                  {
+                    "en": "relocate to rural areas",
+                    "vi": "chuyển đến sinh sống ở nông thôn"
+                  }
+                ],
+                "evidence_vi": "Tại những thành phố lớn như Hà Nội hay TP.HCM, giá căn hộ và tiền thuê nhà vượt xa khả năng tích lũy của nhiều gia đình trẻ có thu nhập trung bình. Ngược lại, khu vực nông thôn mang đến chi phí sinh hoạt dễ chịu hơn và cơ hội sở hữu ngôi nhà rộng rãi với ngân sách hợp lý.",
+                "evidence_en": "In major metropolises such as Hanoi and Ho Chi Minh City, apartment prices and rents have far outpaced what many middle-income households can afford. By contrast, rural areas offer substantially lower living expenses and the realistic prospect of owning spacious homes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "outpace affordability",
+                      "vi": "vượt xa khả năng chi trả"
+                    },
+                    {
+                      "en": "middle-income households",
+                      "vi": "hộ gia đình thu nhập trung bình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "realistic prospect",
+                      "vi": "triển vọng thực tế"
+                    },
+                    {
+                      "en": "spacious homes",
+                      "vi": "nhà ở rộng rãi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "soaring property prices",
+                    "vi": "giá bất động sản tăng vọt"
+                  },
+                  {
+                    "en": "relocate to rural areas",
+                    "vi": "chuyển đến sinh sống ở nông thôn"
+                  },
+                  {
+                    "en": "outpace affordability",
+                    "vi": "vượt xa khả năng chi trả"
+                  },
+                  {
+                    "en": "middle-income households",
+                    "vi": "hộ gia đình thu nhập trung bình"
+                  },
+                  {
+                    "en": "realistic prospect",
+                    "vi": "triển vọng thực tế"
+                  },
+                  {
+                    "en": "spacious homes",
+                    "vi": "nhà ở rộng rãi"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: Ô NHIỄM MÔI TRƯỜNG, TẮC NGHẼN VÀ ÁP LỰC ĐÔ THỊ (URBAN POLLUTION AND DAILY STRESS)",
+                "point_vi": "Tình trạng ô nhiễm nghiêm trọng, ùn tắc giao thông triền miên và nhịp sống áp lực cao khiến nhiều người muốn rời xa thành phố.",
+                "point_en": "Severe environmental pollution, chronic traffic congestion, and high-pressure urban lifestyles prompt many city dwellers to leave.",
+                "point_collocations": [
+                  {
+                    "en": "chronic traffic congestion",
+                    "vi": "tắc nghẽn giao thông triền miên"
+                  },
+                  {
+                    "en": "city dwellers",
+                    "vi": "cư dân thành phố"
+                  }
+                ],
+                "evidence_vi": "Cư dân đô thị thường xuyên phải hít thở bụi mịn, chịu đựng tiếng ồn kéo dài và mất hàng giờ kẹt xe trong giờ cao điểm mỗi ngày. Gánh nặng tinh thần tích tụ từ môi trường ngột ngạt này thúc đẩy họ tìm kiếm một cuộc sống chậm rãi và cân bằng hơn ở vùng quê.",
+                "evidence_en": "Urban residents constantly breathe hazardous fine dust, endure relentless noise, and lose hours stuck in daily rush-hour gridlock. Accumulated burnout from this stressful environment motivates them to seek a slower, more balanced lifestyle in the countryside.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "hazardous fine dust",
+                      "vi": "bụi mịn nguy hại"
+                    },
+                    {
+                      "en": "rush-hour gridlock",
+                      "vi": "kẹt xe cứng giờ cao điểm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "accumulated burnout",
+                      "vi": "sự kiệt sức tích tụ"
+                    },
+                    {
+                      "en": "balanced lifestyle",
+                      "vi": "lối sống cân bằng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "chronic traffic congestion",
+                    "vi": "tắc nghẽn giao thông triền miên"
+                  },
+                  {
+                    "en": "city dwellers",
+                    "vi": "cư dân thành phố"
+                  },
+                  {
+                    "en": "hazardous fine dust",
+                    "vi": "bụi mịn nguy hại"
+                  },
+                  {
+                    "en": "rush-hour gridlock",
+                    "vi": "kẹt xe cứng giờ cao điểm"
+                  },
+                  {
+                    "en": "accumulated burnout",
+                    "vi": "sự kiệt sức tích tụ"
+                  },
+                  {
+                    "en": "balanced lifestyle",
+                    "vi": "lối sống cân bằng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: BÙNG NỔ LÀM VIỆC TỪ XA VÀ HẠ TẦNG KỸ THUẬT SỐ (REMOTE WORK AND DIGITAL CONNECTIVITY)",
+                "point_vi": "Sự phổ biến của hình thức làm việc từ xa và hạ tầng Internet phát triển đã xóa bỏ rào cản địa lý giữa nơi sống và nơi làm việc.",
+                "point_en": "The widespread adoption of remote work and improved digital infrastructure have removed geographic barriers between home and workplace.",
+                "point_collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "geographic barriers",
+                    "vi": "rào cản địa lý"
+                  }
+                ],
+                "evidence_vi": "Nhờ mạng cáp quang phủ sóng rộng khắp và các nền tảng thương mại điện tử, nhiều lao động trí thức có thể làm việc cho doanh nghiệp thành phố hoặc kinh doanh trực tuyến ngay từ nông thôn. Sự linh hoạt này cho phép họ hưởng mức thu nhập đô thị trong khi tận hưởng chi phí và không gian sống vùng quê.",
+                "evidence_en": "Thanks to widespread high-speed broadband and e-commerce platforms, professionals can work for urban employers or run online businesses directly from rural towns. This flexibility allows them to earn competitive urban salaries while enjoying peaceful, affordable countryside living.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "high-speed broadband",
+                      "vi": "mạng băng thông rộng tốc độ cao"
+                    },
+                    {
+                      "en": "e-commerce platforms",
+                      "vi": "nền tảng thương mại điện tử"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "competitive urban salaries",
+                      "vi": "mức lương cạnh tranh như ở đô thị"
+                    },
+                    {
+                      "en": "countryside living",
+                      "vi": "cuộc sống vùng quê"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "geographic barriers",
+                    "vi": "rào cản địa lý"
+                  },
+                  {
+                    "en": "high-speed broadband",
+                    "vi": "mạng băng thông rộng tốc độ cao"
+                  },
+                  {
+                    "en": "e-commerce platforms",
+                    "vi": "nền tảng thương mại điện tử"
+                  },
+                  {
+                    "en": "competitive urban salaries",
+                    "vi": "mức lương cạnh tranh như ở đô thị"
+                  },
+                  {
+                    "en": "countryside living",
+                    "vi": "cuộc sống vùng quê"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: NHU CẦU SỐNG XANH VÀ CHĂM SÓC SỨC KHỎE TOÀN DIỆN (PURSUIT OF WELLNESS AND NATURE)",
+                "point_vi": "Ngày càng nhiều người đề cao sức khỏe tinh thần, thực phẩm sạch và sự gắn kết gần gũi với thiên nhiên.",
+                "point_en": "Growing numbers of people prioritize holistic health, clean food, and closer daily contact with nature.",
+                "point_collocations": [
+                  {
+                    "en": "holistic health",
+                    "vi": "sức khỏe toàn diện"
+                  },
+                  {
+                    "en": "contact with nature",
+                    "vi": "sự gần gũi với thiên nhiên"
+                  }
+                ],
+                "evidence_vi": "Đặc biệt sau những biến động về sức khỏe cộng đồng gần đây, nhiều gia đình nhận ra giá trị của không khí trong lành, khu vườn riêng và nguồn thực phẩm hữu cơ tự trồng. Môi trường nông thôn ít bê tông hóa giúp trẻ em có không gian vận động tự do và người lớn nuôi dưỡng lối sống lành mạnh hơn.",
+                "evidence_en": "Particularly in recent years, families have increasingly valued fresh air, private gardens, and safe, home-grown organic food. Less urbanized rural settings give children room for healthy outdoor play while helping adults cultivate more mindful, restorative daily routines.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "home-grown organic food",
+                      "vi": "thực phẩm hữu cơ tự trồng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "restorative routines",
+                      "vi": "nếp sinh hoạt giúp phục hồi sức khỏe"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "holistic health",
+                    "vi": "sức khỏe toàn diện"
+                  },
+                  {
+                    "en": "contact with nature",
+                    "vi": "sự gần gũi với thiên nhiên"
+                  },
+                  {
+                    "en": "home-grown organic food",
+                    "vi": "thực phẩm hữu cơ tự trồng"
+                  },
+                  {
+                    "en": "restorative routines",
+                    "vi": "nếp sinh hoạt giúp phục hồi sức khỏe"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: MONG MUỐN GẮN KẾT GIA ĐÌNH VÀ CHĂM SÓC CHA MẸ LỚN TUỔI (FAMILY TIES AND CARING FOR ELDERS)",
+                "point_vi": "Mong muốn sum vầy bên đại gia đình và trực tiếp chăm sóc cha mẹ lớn tuổi cũng thôi thúc nhiều người trở về quê hương.",
+                "point_en": "The desire to stay close to extended family and care directly for aging parents also inspires many people to return to their hometowns.",
+                "point_collocations": [
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  }
+                ],
+                "evidence_vi": "Nhiều người lao động xa quê lâu năm cảm thấy áy náy khi chỉ có thể về thăm cha mẹ vào những dịp lễ ngắn ngủi. Việc chuyển hẳn về quê giúp họ kịp thời chăm lo sức khỏe cho đấng sinh thành đồng thời nhận được sự hỗ trợ ấm áp từ họ hàng trong việc nuôi dạy con nhỏ.",
+                "evidence_en": "Many long-term urban migrants feel deep regret about only visiting their elderly parents during brief annual holidays. Relocating back to rural hometowns allows them to care for aging loved ones personally while benefiting from supportive family networks in raising young children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "urban migrants",
+                      "vi": "người di cư lên thành phố"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "supportive family networks",
+                      "vi": "mạng lưới gia đình luôn hỗ trợ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình"
+                  },
+                  {
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "urban migrants",
+                    "vi": "người di cư lên thành phố"
+                  },
+                  {
+                    "en": "supportive family networks",
+                    "vi": "mạng lưới gia đình luôn hỗ trợ"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "ẢNH HƯỞNG 01: CẢI THIỆN SỨC KHỎE TINH THẦN VÀ CHẤT LƯỢNG SỐNG CÁ NHÂN (IMPROVED WELL-BEING FOR MIGRANTS)",
+                "point_vi": "Về mặt tích cực, việc chuyển về nông thôn giúp nhiều cá nhân và gia đình nâng cao rõ rệt sức khỏe tinh thần cũng như sự hài lòng trong cuộc sống.",
+                "point_en": "On a positive note, relocating to rural areas significantly enhances migrants' mental well-being and overall life satisfaction.",
+                "point_collocations": [
+                  {
+                    "en": "mental well-being",
+                    "vi": "sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "overall life satisfaction",
+                    "vi": "sự hài lòng chung với cuộc sống"
+                  }
+                ],
+                "evidence_vi": "Thoát khỏi khói bụi, tiếng ồn và vòng xoáy chi tiêu đắt đỏ giúp giảm đáng kể mức độ căng thẳng kéo dài và cải thiện giấc ngủ. Hơn nữa, nhịp sống chậm rãi và tình làng nghĩa xóm thân thiện mang lại cho gia đình nhiều thời gian chất lượng bên nhau hơn.",
+                "evidence_en": "Escaping pollution, constant noise, and intense financial pressure lowers chronic stress levels and promotes healthier sleep. Moreover, a gentler pace of life and close-knit rural communities give families far more quality time to bond together.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chronic stress levels",
+                      "vi": "mức độ căng thẳng kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "close-knit communities",
+                      "vi": "cộng đồng gắn kết thân tình"
+                    },
+                    {
+                      "en": "gentler pace of life",
+                      "vi": "nhịp sống êm đềm hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mental well-being",
+                    "vi": "sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "overall life satisfaction",
+                    "vi": "sự hài lòng chung với cuộc sống"
+                  },
+                  {
+                    "en": "chronic stress levels",
+                    "vi": "mức độ căng thẳng kéo dài"
+                  },
+                  {
+                    "en": "close-knit communities",
+                    "vi": "cộng đồng gắn kết thân tình"
+                  },
+                  {
+                    "en": "gentler pace of life",
+                    "vi": "nhịp sống êm đềm hơn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: HỒI SINH KINH TẾ VÀ NÂNG CẤP HẠ TẦNG NÔNG THÔN (REVITALIZING RURAL ECONOMIES)",
+                "point_vi": "Dòng cư dân có trình độ và vốn đầu tư từ thành phố mang lại sức sống mới cho kinh tế và cơ sở hạ tầng vùng nông thôn.",
+                "point_en": "An influx of skilled, financially capable urbanites revitalizes local rural economies and stimulates infrastructure upgrades.",
+                "point_collocations": [
+                  {
+                    "en": "revitalize rural economies",
+                    "vi": "hồi sinh kinh tế nông thôn"
+                  },
+                  {
+                    "en": "infrastructure upgrades",
+                    "vi": "nâng cấp cơ sở hạ tầng"
+                  }
+                ],
+                "evidence_vi": "Những người mới chuyển về thường mang theo kiến thức kinh doanh hiện đại, xây dựng mô hình du lịch sinh thái, nông nghiệp sạch và tạo thêm việc làm cho người dân bản địa. Để đáp ứng nhu cầu của nhóm cư dân mới, chính quyền địa phương cũng đẩy mạnh đầu tư mạng Internet, đường giao thông và dịch vụ thương mại.",
+                "evidence_en": "Newcomers frequently introduce modern business skills by launching eco-tourism homestays, sustainable farms, and local cafes that create jobs for residents. To accommodate growing populations, local authorities also expand broadband coverage, road networks, and commercial services.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "eco-tourism homestays",
+                      "vi": "homestay du lịch sinh thái"
+                    },
+                    {
+                      "en": "sustainable farms",
+                      "vi": "trang trại bền vững"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broadband coverage",
+                      "vi": "độ phủ sóng Internet băng thông rộng"
+                    },
+                    {
+                      "en": "commercial services",
+                      "vi": "dịch vụ thương mại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "revitalize rural economies",
+                    "vi": "hồi sinh kinh tế nông thôn"
+                  },
+                  {
+                    "en": "infrastructure upgrades",
+                    "vi": "nâng cấp cơ sở hạ tầng"
+                  },
+                  {
+                    "en": "eco-tourism homestays",
+                    "vi": "homestay du lịch sinh thái"
+                  },
+                  {
+                    "en": "sustainable farms",
+                    "vi": "trang trại bền vững"
+                  },
+                  {
+                    "en": "broadband coverage",
+                    "vi": "độ phủ sóng Internet băng thông rộng"
+                  },
+                  {
+                    "en": "commercial services",
+                    "vi": "dịch vụ thương mại"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: GIẢM TẢI ÁP LỰC DÂN SỐ CHO CÁC ĐÔ THỊ LỚN (EASING PRESSURE ON OVERCROWDED CITIES)",
+                "point_vi": "Di cư ngược từ thành thị về nông thôn góp phần giảm bớt sức ép dân số lên hạ tầng và môi trường tại các đô thị quá tải.",
+                "point_en": "Urban-to-rural migration helps relieve demographic pressure on strained infrastructure and ecosystems in major cities.",
+                "point_collocations": [
+                  {
+                    "en": "demographic pressure",
+                    "vi": "áp lực dân số"
+                  },
+                  {
+                    "en": "strained infrastructure",
+                    "vi": "hạ tầng quá tải"
+                  }
+                ],
+                "evidence_vi": "Khi một bộ phận cư dân chuyển ra ngoài các trung tâm đông đúc, mật độ phương tiện giao thông, nhu cầu nhà ở và lượng rác thải đô thị có cơ hội hạ nhiệt. Về lâu dài, sự phân bổ dân cư cân bằng hơn giữa thành thị và nông thôn sẽ thúc đẩy phát triển vùng bền vững trên phạm vi cả nước.",
+                "evidence_en": "As a portion of city residents move away from congested cores, traffic density, housing demand, and urban waste generation can gradually ease. Over the long term, a more balanced population distribution between urban and rural regions promotes healthier national development.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "traffic density",
+                      "vi": "mật độ giao thông"
+                    },
+                    {
+                      "en": "urban waste generation",
+                      "vi": "lượng rác thải đô thị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "balanced population distribution",
+                      "vi": "sự phân bổ dân cư cân bằng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "demographic pressure",
+                    "vi": "áp lực dân số"
+                  },
+                  {
+                    "en": "strained infrastructure",
+                    "vi": "hạ tầng quá tải"
+                  },
+                  {
+                    "en": "traffic density",
+                    "vi": "mật độ giao thông"
+                  },
+                  {
+                    "en": "urban waste generation",
+                    "vi": "lượng rác thải đô thị"
+                  },
+                  {
+                    "en": "balanced population distribution",
+                    "vi": "sự phân bổ dân cư cân bằng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: HẠN CHẾ CƠ HỘI NGHỀ NGHIỆP VÀ TIẾP CẬN DỊCH VỤ CÔNG (LIMITED CAREERS AND PUBLIC SERVICES)",
+                "point_vi": "Tuy nhiên, nhiều người di cư về nông thôn phải đối mặt với sự sụt giảm thu nhập và thiếu hụt các dịch vụ y tế, giáo dục chất lượng cao.",
+                "point_en": "However, many urban migrants encounter reduced career prospects alongside limited access to advanced healthcare and education.",
+                "point_collocations": [
+                  {
+                    "en": "reduced career prospects",
+                    "vi": "triển vọng nghề nghiệp thu hẹp"
+                  },
+                  {
+                    "en": "advanced healthcare",
+                    "vi": "dịch vụ y tế tiên tiến"
+                  }
+                ],
+                "evidence_vi": "Nếu không có công việc từ xa ổn định, người chuyển về quê thường gặp khó khăn khi tìm việc chuyên môn lương cao và có thể vỡ mộng vì thu nhập bấp bênh. Đồng thời, bệnh viện tuyến chuyên sâu, trường học quốc tế và tiện ích văn hóa tại vùng quê vẫn còn hạn chế, gây bất tiện lớn cho việc nuôi dạy con hoặc chăm sóc người bệnh.",
+                "evidence_en": "Without stable remote employment, newcomers often struggle to find well-paid specialized roles and risk financial disillusionment. Meanwhile, specialized hospitals, modern schools, and cultural facilities remain scarce in many villages, posing challenges for raising children or treating serious illnesses.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "financial disillusionment",
+                      "vi": "sự vỡ mộng về tài chính"
+                    },
+                    {
+                      "en": "specialized roles",
+                      "vi": "vị trí công việc chuyên môn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "specialized hospitals",
+                      "vi": "bệnh viện chuyên sâu"
+                    },
+                    {
+                      "en": "cultural facilities",
+                      "vi": "tiện ích văn hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reduced career prospects",
+                    "vi": "triển vọng nghề nghiệp thu hẹp"
+                  },
+                  {
+                    "en": "advanced healthcare",
+                    "vi": "dịch vụ y tế tiên tiến"
+                  },
+                  {
+                    "en": "financial disillusionment",
+                    "vi": "sự vỡ mộng về tài chính"
+                  },
+                  {
+                    "en": "specialized roles",
+                    "vi": "vị trí công việc chuyên môn"
+                  },
+                  {
+                    "en": "specialized hospitals",
+                    "vi": "bệnh viện chuyên sâu"
+                  },
+                  {
+                    "en": "cultural facilities",
+                    "vi": "tiện ích văn hóa"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: ĐẨY GIÁ ĐẤT TĂNG CAO VÀ GÂY ÁP LỰC MÔI TRƯỜNG NÔNG THÔN (RURAL LAND INFLATION AND ENVIRONMENTAL STRAIN)",
+                "point_vi": "Làn sóng người thành phố đổ về mua đất có thể đẩy giá bất động sản nông thôn tăng mạnh và làm tổn hại cảnh quan tự nhiên vốn có.",
+                "point_en": "A sudden wave of affluent urban buyers can drive up rural land prices and strain fragile countryside ecosystems.",
+                "point_collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "fragile ecosystems",
+                    "vi": "hệ sinh thái mong manh"
+                  }
+                ],
+                "evidence_vi": "Nhu cầu mua đất làm nhà vườn và khu nghỉ dưỡng tăng cao dễ gây sốt đất, khiến người dân bản địa thu nhập thấp ngày càng khó sở hữu đất ở hoặc đất canh tác. Bên cạnh đó, việc xây dựng thiếu quy hoạch và gia tăng rác thải sinh hoạt có thể phá vỡ vẻ đẹp yên bình vốn là lý do thu hút người mới đến.",
+                "evidence_en": "Surging demand for garden homes and vacation plots can inflate property values, pricing lower-income local families out of residential or agricultural land. Furthermore, unplanned construction and increased household waste may degrade the very natural beauty that originally attracted newcomers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "inflate property values",
+                      "vi": "thổi phồng giá trị bất động sản"
+                    },
+                    {
+                      "en": "agricultural land",
+                      "vi": "đất nông nghiệp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "unplanned construction",
+                      "vi": "xây dựng thiếu quy hoạch"
+                    },
+                    {
+                      "en": "natural beauty",
+                      "vi": "vẻ đẹp tự nhiên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural land prices",
+                    "vi": "giá đất nông thôn"
+                  },
+                  {
+                    "en": "fragile ecosystems",
+                    "vi": "hệ sinh thái mong manh"
+                  },
+                  {
+                    "en": "inflate property values",
+                    "vi": "thổi phồng giá trị bất động sản"
+                  },
+                  {
+                    "en": "agricultural land",
+                    "vi": "đất nông nghiệp"
+                  },
+                  {
+                    "en": "unplanned construction",
+                    "vi": "xây dựng thiếu quy hoạch"
+                  },
+                  {
+                    "en": "natural beauty",
+                    "vi": "vẻ đẹp tự nhiên"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "high living costs",
+              "vi": "chi phí sinh hoạt cao"
+            },
+            {
+              "en": "expensive housing prices",
+              "vi": "giá nhà ở đắt đỏ"
+            },
+            {
+              "en": "air pollution",
+              "vi": "ô nhiễm không khí"
+            },
+            {
+              "en": "heavy traffic",
+              "vi": "giao thông đông đúc"
+            },
+            {
+              "en": "job stress",
+              "vi": "áp lực công việc"
+            },
+            {
+              "en": "quieter place to live",
+              "vi": "nơi sống yên bình hơn"
+            },
+            {
+              "en": "daily life is much cheaper",
+              "vi": "cuộc sống hằng ngày rẻ hơn nhiều"
+            },
+            {
+              "en": "crowded cities",
+              "vi": "các thành phố đông đúc"
+            },
+            {
+              "en": "soaring property prices",
+              "vi": "giá bất động sản tăng vọt"
+            },
+            {
+              "en": "outpace affordability",
+              "vi": "vượt xa khả năng chi trả"
+            },
+            {
+              "en": "chronic traffic congestion",
+              "vi": "tắc nghẽn giao thông triền miên"
+            },
+            {
+              "en": "hazardous fine dust",
+              "vi": "bụi mịn nguy hại"
+            },
+            {
+              "en": "rush-hour gridlock",
+              "vi": "kẹt xe cứng giờ cao điểm"
+            },
+            {
+              "en": "accumulated burnout",
+              "vi": "sự kiệt sức tích tụ"
+            },
+            {
+              "en": "high-pressure urban lifestyle",
+              "vi": "lối sống đô thị áp lực cao"
+            },
+            {
+              "en": "relocate to rural areas",
+              "vi": "chuyển đến sinh sống ở vùng nông thôn"
+            },
+            {
+              "en": "remote work",
+              "vi": "làm việc từ xa"
+            },
+            {
+              "en": "fast Internet",
+              "vi": "Internet tốc độ cao"
+            },
+            {
+              "en": "online business owners",
+              "vi": "người kinh doanh trực tuyến"
+            },
+            {
+              "en": "enjoy fresh air",
+              "vi": "tận hưởng không khí trong lành"
+            },
+            {
+              "en": "spacious homes",
+              "vi": "những ngôi nhà rộng rãi"
+            },
+            {
+              "en": "grow their own vegetables",
+              "vi": "tự trồng rau sạch"
+            },
+            {
+              "en": "care for aging parents",
+              "vi": "chăm sóc cha mẹ lớn tuổi"
+            },
+            {
+              "en": "strengthen family bonds",
+              "vi": "củng cố tình cảm gia đình"
+            },
+            {
+              "en": "remove geographic barriers",
+              "vi": "xóa bỏ rào cản địa lý"
+            },
+            {
+              "en": "high-speed broadband",
+              "vi": "mạng băng thông rộng tốc độ cao"
+            },
+            {
+              "en": "competitive urban salaries",
+              "vi": "mức lương cạnh tranh như ở đô thị"
+            },
+            {
+              "en": "prioritize holistic health",
+              "vi": "ưu tiên sức khỏe toàn diện"
+            },
+            {
+              "en": "home-grown organic food",
+              "vi": "thực phẩm hữu cơ tự trồng"
+            },
+            {
+              "en": "restorative daily routines",
+              "vi": "nếp sinh hoạt giúp phục hồi tinh thần"
+            },
+            {
+              "en": "supportive family networks",
+              "vi": "mạng lưới gia đình luôn hỗ trợ"
+            },
+            {
+              "en": "stay close to extended family",
+              "vi": "sống gần đại gia đình"
+            },
+            {
+              "en": "improve physical and mental health",
+              "vi": "cải thiện sức khỏe thể chất và tinh thần"
+            },
+            {
+              "en": "slower pace of life",
+              "vi": "nhịp sống chậm rãi hơn"
+            },
+            {
+              "en": "develop rural economies",
+              "vi": "phát triển kinh tế nông thôn"
+            },
+            {
+              "en": "create local jobs",
+              "vi": "tạo thêm việc làm địa phương"
+            },
+            {
+              "en": "organic farms",
+              "vi": "trang trại hữu cơ"
+            },
+            {
+              "en": "ease overcrowding",
+              "vi": "giảm tình trạng quá tải dân số"
+            },
+            {
+              "en": "pressure on hospitals and schools",
+              "vi": "áp lực lên bệnh viện và trường học"
+            },
+            {
+              "en": "feel happier every day",
+              "vi": "cảm thấy hạnh phúc hơn mỗi ngày"
+            },
+            {
+              "en": "enhance mental well-being",
+              "vi": "nâng cao sức khỏe tinh thần"
+            },
+            {
+              "en": "close-knit rural communities",
+              "vi": "cộng đồng nông thôn gắn kết thân tình"
+            },
+            {
+              "en": "revitalize local economies",
+              "vi": "hồi sinh kinh tế địa phương"
+            },
+            {
+              "en": "eco-tourism homestays",
+              "vi": "mô hình homestay du lịch sinh thái"
+            },
+            {
+              "en": "stimulate infrastructure upgrades",
+              "vi": "thúc đẩy nâng cấp cơ sở hạ tầng"
+            },
+            {
+              "en": "relieve demographic pressure",
+              "vi": "giảm bớt áp lực dân số"
+            },
+            {
+              "en": "balanced population distribution",
+              "vi": "sự phân bổ dân cư cân bằng"
+            },
+            {
+              "en": "urban waste generation",
+              "vi": "lượng rác thải đô thị"
+            },
+            {
+              "en": "face lower incomes",
+              "vi": "đối mặt mức thu nhập thấp hơn"
+            },
+            {
+              "en": "fewer specialized jobs",
+              "vi": "ít công việc chuyên môn hơn"
+            },
+            {
+              "en": "high-quality public services",
+              "vi": "dịch vụ công chất lượng cao"
+            },
+            {
+              "en": "major hospitals and modern schools",
+              "vi": "bệnh viện lớn và trường học hiện đại"
+            },
+            {
+              "en": "push up land prices",
+              "vi": "đẩy giá đất tăng lên"
+            },
+            {
+              "en": "reduce farmland",
+              "vi": "làm thu hẹp đất nông nghiệp"
+            },
+            {
+              "en": "harder to afford land",
+              "vi": "khó đủ tiền mua đất hơn"
+            },
+            {
+              "en": "put pressure on local nature",
+              "vi": "gây áp lực lên thiên nhiên địa phương"
+            },
+            {
+              "en": "reduced career prospects",
+              "vi": "triển vọng nghề nghiệp thu hẹp"
+            },
+            {
+              "en": "financial disillusionment",
+              "vi": "sự vỡ mộng về tài chính"
+            },
+            {
+              "en": "advanced healthcare and education",
+              "vi": "y tế và giáo dục tiên tiến"
+            },
+            {
+              "en": "specialized medical care",
+              "vi": "chăm sóc y tế chuyên sâu"
+            },
+            {
+              "en": "inflate rural property values",
+              "vi": "thổi phồng giá trị bất động sản nông thôn"
+            },
+            {
+              "en": "price local residents out",
+              "vi": "khiến người dân địa phương không mua nổi"
+            },
+            {
+              "en": "unplanned construction",
+              "vi": "xây dựng thiếu quy hoạch"
+            },
+            {
+              "en": "strain fragile ecosystems",
+              "vi": "gây áp lực lên hệ sinh thái mong manh"
+            }
+          ],
+          "sample_b1": "Nowadays in Vietnam, a growing number of people are choosing to <strong>relocate to rural areas</strong> instead of staying in crowded major cities. This essay will discuss the main causes behind this urban-to-rural migration trend and examine its key effects on individuals and society.\n\nThere are several important reasons why many city residents decide to move to the countryside. Firstly, <strong>high living costs</strong> and <strong>expensive housing prices</strong> in big cities make it very hard for young families to buy a home, so they move to rural towns where daily life is much cheaper. Secondly, daily <strong>air pollution</strong>, <strong>heavy traffic</strong>, and constant <strong>job stress</strong> leave many workers exhausted and eager for a quieter place to live. In addition, the rise of <strong>remote work</strong> and <strong>fast Internet</strong> now allows professionals and online business owners to earn a living effectively while enjoying fresh air and spacious homes near nature.\n\nThis trend brings both positive and negative effects. On the positive side, moving to rural areas helps residents reduce stress, enjoy a <strong>slower pace of life</strong>, and improve their <strong>physical and mental health</strong>. Moreover, newcomers who open cafes, homestays, or <strong>organic farms</strong> help <strong>develop rural economies</strong> and create local jobs, while also helping to <strong>ease overcrowding</strong> in major cities. However, people moving to villages may <strong>face lower incomes</strong>, fewer specialized jobs, and limited access to <strong>major hospitals and modern schools</strong>. At the same time, high demand from city buyers can <strong>push up land prices</strong> and reduce valuable farmland.\n\nIn conclusion, urban-to-rural migration is driven by high city costs, pollution, and remote-work flexibility. Although it improves personal well-being and supports rural growth, careful planning is needed to avoid financial struggles and land inflation.",
+          "translation_b1": "Ngày nay tại Việt Nam, ngày càng có nhiều người chọn <strong>chuyển về sinh sống ở nông thôn</strong> thay vì ở lại các thành phố lớn đông đúc. Bài luận này sẽ bàn luận về các nguyên nhân chính đằng sau xu hướng di cư từ thành thị về nông thôn này và phân tích những ảnh hưởng chính của nó đối với cá nhân và xã hội.\n\nCó nhiều lý do quan trọng khiến cư dân thành phố quyết định chuyển về miền quê. Thứ nhất, <strong>chi phí sinh hoạt cao</strong> và <strong>giá nhà ở đắt đỏ</strong> tại các thành phố lớn khiến nhiều gia đình trẻ rất khó mua nhà, nên họ chuyển đến vùng nông thôn nơi sinh hoạt hằng ngày rẻ hơn nhiều. Thứ hai, tình trạng <strong>ô nhiễm không khí</strong>, <strong>giao thông đông đúc</strong> và <strong>áp lực công việc</strong> hằng ngày khiến nhiều người lao động kiệt sức và mong tìm một nơi yên bình hơn để sống. Bên cạnh đó, sự phát triển của <strong>làm việc từ xa</strong> và <strong>Internet tốc độ cao</strong> nay cho phép người đi làm và chủ kinh doanh trực tuyến kiếm sống hiệu quả trong khi tận hưởng không khí trong lành và nhà cửa rộng rãi gần thiên nhiên.\n\nXu hướng này mang lại cả những ảnh hưởng tích cực lẫn tiêu cực. Ở mặt tích cực, chuyển về nông thôn giúp cư dân giảm căng thẳng, tận hưởng <strong>nhịp sống chậm rãi hơn</strong> và cải thiện <strong>sức khỏe thể chất và tinh thần</strong>. Hơn nữa, những người mới mở quán cà phê, homestay hoặc <strong>trang trại hữu cơ</strong> góp phần <strong>phát triển kinh tế nông thôn</strong> và tạo việc làm địa phương, đồng thời giúp <strong>giảm tình trạng quá tải</strong> ở thành phố lớn. Tuy nhiên, người chuyển về làng quê có thể <strong>đối mặt mức thu nhập thấp hơn</strong>, ít việc làm chuyên môn hơn và khó tiếp cận <strong>bệnh viện lớn và trường học hiện đại</strong>. Cùng lúc đó, nhu cầu cao từ người mua thành phố có thể <strong>đẩy giá đất tăng lên</strong> và thu hẹp đất nông nghiệp quý giá.\n\nTóm lại, xu hướng di cư từ thành phố về nông thôn bắt nguồn từ chi phí đô thị đắt đỏ, ô nhiễm và sự linh hoạt của làm việc từ xa. Dù nó cải thiện hạnh phúc cá nhân và hỗ trợ tăng trưởng nông thôn, cần có sự chuẩn bị và quy hoạch kỹ lưỡng để tránh khó khăn tài chính và sốt giá đất.",
+          "sample_b2": "In contemporary Vietnam, a notable wave of <strong>counterurbanization</strong> has emerged, with increasing numbers of urban residents choosing to leave major metropolises and settle in rural areas. This essay will examine the primary forces driving this urban-to-rural migration trend and evaluate its multifaceted impacts on migrants, villages, and cities.\n\nSeveral interconnected push and pull factors explain why city dwellers are relocating to the countryside. First and foremost, <strong>soaring property prices</strong> and escalating living expenses in hubs like Hanoi and Ho Chi Minh City have steadily <strong>outpaced affordability</strong> for middle-income families, making spacious rural homes far more attainable. Second, <strong>chronic traffic congestion</strong>, hazardous fine dust, and <strong>accumulated burnout</strong> from high-pressure urban lifestyles prompt residents to seek cleaner air and <strong>restorative daily routines</strong>. Crucially, the widespread adoption of remote work and <strong>high-speed broadband</strong> has <strong>removed geographic barriers</strong>, enabling professionals to earn <strong>competitive urban salaries</strong> while living peacefully in rural communities or staying closer to aging parents.\n\nThis demographic shift produces both encouraging benefits and tangible challenges. Positively, escaping urban stress significantly <strong>enhances mental well-being</strong>, while an influx of skilled newcomers helps <strong>revitalize local economies</strong> through <strong>eco-tourism homestays</strong>, sustainable farming, and <strong>infrastructure upgrades</strong>. Outward movement also modestly helps <strong>relieve demographic pressure</strong> on overcrowded urban services. Nevertheless, newcomers without remote roles often face <strong>reduced career prospects</strong>, <strong>financial disillusionment</strong>, and scarce access to <strong>advanced healthcare and education</strong>. Furthermore, surging demand from affluent city buyers can rapidly <strong>inflate rural property values</strong>—pricing local villagers out—while <strong>unplanned construction</strong> risks straining <strong>fragile ecosystems</strong>.\n\nIn conclusion, urban-to-rural migration stems from urban unaffordability, environmental stress, and digital work flexibility. While it promises healthier lifestyles and rural revitalization, balanced regional planning and realistic personal preparation are essential to mitigate its economic and ecological drawbacks.",
+          "translation_b2": "Tại Việt Nam hiện nay, một làn sóng <strong>phản đô thị hóa</strong> đáng chú ý đã xuất hiện khi ngày càng nhiều cư dân đô thị chọn rời bỏ các siêu đô thị để về sinh sống tại vùng nông thôn. Bài luận này sẽ phân tích những động lực chính thúc đẩy xu hướng di cư từ thành thị về nông thôn và đánh giá những tác động đa chiều của nó đối với người di cư, làng quê và thành phố.\n\nNhiều yếu tố đẩy và kéo đan xen lý giải vì sao cư dân thành phố chuyển về miền quê. Trước hết, <strong>giá bất động sản tăng vọt</strong> và chi phí sinh hoạt leo thang tại các trung tâm như Hà Nội hay TP.HCM đã liên tục <strong>vượt xa khả năng chi trả</strong> của các gia đình thu nhập trung bình, khiến những ngôi nhà rộng rãi ở nông thôn trở nên khả thi hơn nhiều. Thứ hai, tình trạng <strong>tắc nghẽn giao thông triền miên</strong>, bụi mịn nguy hại và <strong>sự kiệt sức tích tụ</strong> từ lối sống đô thị áp lực cao thôi thúc người dân tìm kiếm không khí sạch và <strong>nếp sinh hoạt phục hồi tinh thần</strong>. Quan trọng hơn cả, sự phổ biến của làm việc từ xa và <strong>mạng băng thông rộng tốc độ cao</strong> đã <strong>xóa bỏ rào cản địa lý</strong>, cho phép chuyên gia hưởng <strong>mức lương cạnh tranh như ở đô thị</strong> trong khi sống yên bình ở nông thôn hoặc gần gũi chăm sóc cha mẹ lớn tuổi.\n\nSự dịch chuyển dân số này mang lại cả lợi ích tích cực lẫn thách thức thực tế. Về mặt tích cực, thoát khỏi căng thẳng đô thị giúp <strong>nâng cao rõ rệt sức khỏe tinh thần</strong>, trong khi dòng người mới có kỹ năng giúp <strong>hồi sinh kinh tế địa phương</strong> qua các mô hình <strong>homestay du lịch sinh thái</strong>, nông nghiệp bền vững và <strong>nâng cấp hạ tầng</strong>. Xu hướng dịch chuyển ra ngoài cũng phần nào giúp <strong>giảm bớt áp lực dân số</strong> lên các dịch vụ đô thị quá tải. Tuy vậy, những người mới chuyển về mà không có việc làm từ xa thường đối mặt <strong>triển vọng nghề nghiệp thu hẹp</strong>, <strong>sự vỡ mộng tài chính</strong> và thiếu hụt <strong>y tế, giáo dục tiên tiến</strong>. Hơn nữa, nhu cầu tăng vọt từ người mua khá giả ở thành phố có thể nhanh chóng <strong>thổi phồng giá trị bất động sản nông thôn</strong>—khiến dân bản địa không mua nổi đất—trong khi <strong>xây dựng thiếu quy hoạch</strong> có nguy cơ gây áp lực lên <strong>các hệ sinh thái mong manh</strong>.\n\nTóm lại, di cư từ thành thị về nông thôn bắt nguồn từ chi phí đô thị đắt đỏ, áp lực môi trường và sự linh hoạt của công việc số. Dù hứa hẹn lối sống lành mạnh hơn và sự hồi sinh nông thôn, quy hoạch vùng cân bằng và sự chuẩn bị cá nhân thực tế là thiết yếu để giảm thiểu các mặt trái kinh tế và sinh thái.",
+          "vocab_step": {
+            "theme": "Chuyển từ thành phố lớn về nông thôn sinh sống (Urban-to-Rural Migration)",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 64 cụm từ liên kết (Collocations) phân cấp rõ chuẩn B1 (50 mục) và B2 (68 mục), bao quát trọn vẹn 5 Nguyên nhân và 5 Ảnh hưởng (cả tích cực lẫn tiêu cực) của xu hướng rời thành phố về nông thôn.",
+            "single_words": [
+              {
+                "word": "relocate",
+                "ipa": "/ˌriː.ləʊˈkeɪt/",
+                "pos": "v",
+                "level": "B1, B2",
+                "vi": "chuyển chỗ ở, di dời",
+                "family": "relocation (n)",
+                "example_en": "Many young families choose to relocate to rural areas.",
+                "example_vi": "Nhiều gia đình trẻ chọn chuyển đến sinh sống ở vùng nông thôn."
+              },
+              {
+                "word": "rural",
+                "ipa": "/ˈrʊə.rəl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thuộc nông thôn",
+                "family": "rural areas (n)",
+                "example_en": "Rural life is generally quieter and more affordable than city life.",
+                "example_vi": "Cuộc sống nông thôn nhìn chung yên bình và rẻ hơn thành phố."
+              },
+              {
+                "word": "urban",
+                "ipa": "/ˈɜː.bən/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "thuộc đô thị, thành thị",
+                "family": "urbanization (n)",
+                "example_en": "Crowded urban centers often suffer from pollution and traffic jams.",
+                "example_vi": "Các trung tâm đô thị đông đúc thường chịu ô nhiễm và kẹt xe."
+              },
+              {
+                "word": "migration",
+                "ipa": "/maɪˈɡreɪ.ʃən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự di cư, dịch chuyển dân cư",
+                "family": "migrate (v), migrant (n)",
+                "example_en": "Urban-to-rural migration has grown noticeably in recent years.",
+                "example_vi": "Xu hướng di cư từ thành thị về nông thôn tăng rõ rệt những năm gần đây."
+              },
+              {
+                "word": "countryside",
+                "ipa": "/ˈkʌn.tri.saɪd/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "miền quê, nông thôn",
+                "family": "rural countryside (n)",
+                "example_en": "Living in the countryside offers clean air and open green spaces.",
+                "example_vi": "Sống ở miền quê mang lại không khí sạch và không gian xanh rộng mở."
+              },
+              {
+                "word": "affordable",
+                "ipa": "/əˈfɔː.də.bəl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "giá cả phải chăng",
+                "family": "afford (v), affordability (n)",
+                "example_en": "Housing is much more affordable in rural provinces than in major cities.",
+                "example_vi": "Nhà ở tại các tỉnh nông thôn có giá phải chăng hơn nhiều so với thành phố lớn."
+              },
+              {
+                "word": "peaceful",
+                "ipa": "/ˈpiːs.fəl/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "yên bình, thanh bình",
+                "family": "peace (n)",
+                "example_en": "Many tired office workers dream of a peaceful home near nature.",
+                "example_vi": "Nhiều nhân viên văn phòng mệt mỏi mơ về ngôi nhà yên bình gần thiên nhiên."
+              },
+              {
+                "word": "remote",
+                "ipa": "/rɪˈməʊt/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "từ xa; xa xôi",
+                "family": "remotely (adv)",
+                "example_en": "Remote work allows employees to live far from company offices.",
+                "example_vi": "Làm việc từ xa cho phép nhân viên sống xa văn phòng công ty."
+              },
+              {
+                "word": "spacious",
+                "ipa": "/ˈspeɪ.ʃəs/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "rộng rãi",
+                "family": "space (n)",
+                "example_en": "Families can buy spacious houses with gardens in rural towns.",
+                "example_vi": "Các gia đình có thể mua nhà rộng có vườn ở thị trấn nông thôn."
+              },
+              {
+                "word": "crowded",
+                "ipa": "/ˈkraʊ.dɪd/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "đông đúc, chật chội",
+                "family": "overcrowding (n)",
+                "example_en": "Leaving crowded cities helps people enjoy calmer daily routines.",
+                "example_vi": "Rời khỏi thành phố đông đúc giúp mọi người tận hưởng nếp sống êm ả hơn."
+              },
+              {
+                "word": "pollution",
+                "ipa": "/pəˈluː.ʃən/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "sự ô nhiễm",
+                "family": "pollute (v), polluted (adj)",
+                "example_en": "Severe air pollution drives some parents to move away with young kids.",
+                "example_vi": "Ô nhiễm không khí nặng khiến nhiều cha mẹ đưa con nhỏ chuyển đi."
+              },
+              {
+                "word": "organic",
+                "ipa": "/ɔːˈɡæn.ɪk/",
+                "pos": "adj",
+                "level": "B1, B2",
+                "vi": "hữu cơ, sạch tự nhiên",
+                "family": "organically (adv)",
+                "example_en": "Some newcomers start organic farms to earn income in rural areas.",
+                "example_vi": "Một số người mới về quê mở trang trại hữu cơ để tạo thu nhập."
+              },
+              {
+                "word": "income",
+                "ipa": "/ˈɪn.kʌm/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "thu nhập",
+                "family": "incomes (n)",
+                "example_en": "Local salaries in small villages are often lower than city incomes.",
+                "example_vi": "Lương địa phương ở làng nhỏ thường thấp hơn thu nhập thành phố."
+              },
+              {
+                "word": "facility",
+                "ipa": "/fəˈsɪl.ə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cơ sở vật chất, tiện ích",
+                "family": "facilities (n)",
+                "example_en": "Rural areas sometimes lack modern healthcare and school facilities.",
+                "example_vi": "Khu vực nông thôn đôi khi thiếu cơ sở y tế và trường học hiện đại."
+              },
+              {
+                "word": "farmland",
+                "ipa": "/ˈfɑːm.lænd/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "đất nông nghiệp, đất canh tác",
+                "family": "farm (n, v)",
+                "example_en": "Rapid construction of resorts can shrink valuable local farmland.",
+                "example_vi": "Xây dựng nhanh các khu nghỉ dưỡng có thể thu hẹp đất nông nghiệp quý giá."
+              },
+              {
+                "word": "community",
+                "ipa": "/kəˈmjuː.nə.ti/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "cộng đồng",
+                "family": "communities (n)",
+                "example_en": "Friendly rural communities make newcomers feel warmly welcomed.",
+                "example_vi": "Cộng đồng nông thôn thân thiện giúp người mới cảm thấy được chào đón."
+              },
+              {
+                "word": "hometown",
+                "ipa": "/ˈhəʊm.taʊn/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "quê hương, quê nhà",
+                "family": "hometowns (n)",
+                "example_en": "Returning to one's hometown makes caring for aging parents easier.",
+                "example_vi": "Trở về quê hương giúp việc chăm sóc cha mẹ lớn tuổi dễ dàng hơn."
+              },
+              {
+                "word": "economy",
+                "ipa": "/iˈkɒn.ə.mi/",
+                "pos": "n",
+                "level": "B1, B2",
+                "vi": "nền kinh tế",
+                "family": "economic (adj)",
+                "example_en": "New businesses from city migrants help grow the local economy.",
+                "example_vi": "Các cơ sở kinh doanh mới từ người thành phố giúp phát triển kinh tế địa phương."
+              },
+              {
+                "word": "counterurbanization",
+                "ipa": "/ˌkaʊn.tərˌɜː.bən.aɪˈzeɪ.ʃən/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "quá trình phản đô thị hóa (di cư ngược về nông thôn)",
+                "family": "urbanization (n)",
+                "example_en": "Counterurbanization has emerged as a notable demographic shift in Vietnam.",
+                "example_vi": "Phản đô thị hóa đã nổi lên như một dịch chuyển dân số đáng chú ý ở Việt Nam."
+              },
+              {
+                "word": "metropolis",
+                "ipa": "/məˈtrɒp.əl.ɪs/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "đô thị cực lớn, siêu đô thị",
+                "family": "metropolitan (adj)",
+                "example_en": "Housing costs in major metropolises have outpaced average wages.",
+                "example_vi": "Chi phí nhà ở tại các siêu đô thị đã vượt xa mức lương trung bình."
+              },
+              {
+                "word": "dweller",
+                "ipa": "/ˈdwel.ər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "cư dân",
+                "family": "city dwellers (n)",
+                "example_en": "Stressed city dwellers increasingly crave green, quiet environments.",
+                "example_vi": "Cư dân thành phố căng thẳng ngày càng khao khát môi trường xanh yên tĩnh."
+              },
+              {
+                "word": "gridlock",
+                "ipa": "/ˈɡrɪd.lɒk/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tình trạng tắc nghẽn giao thông cứng",
+                "family": "traffic gridlock (n)",
+                "example_en": "Daily rush-hour gridlock wastes valuable hours and drains energy.",
+                "example_vi": "Kẹt xe cứng giờ cao điểm hằng ngày gây lãng phí thời gian và cạn sức lực."
+              },
+              {
+                "word": "broadband",
+                "ipa": "/ˈbrɔːd.bænd/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "mạng băng thông rộng",
+                "family": "high-speed broadband (n)",
+                "example_en": "Reliable rural broadband enables professionals to work remotely.",
+                "example_vi": "Mạng băng thông rộng ổn định ở nông thôn cho phép chuyên gia làm việc từ xa."
+              },
+              {
+                "word": "revitalize",
+                "ipa": "/ˌriːˈvaɪ.təl.aɪz/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "hồi sinh, mang lại sức sống mới",
+                "family": "revitalization (n)",
+                "example_en": "Young entrepreneurs can revitalize stagnant rural economies.",
+                "example_vi": "Doanh nhân trẻ có thể hồi sinh các nền kinh tế nông thôn trì trệ."
+              },
+              {
+                "word": "influx",
+                "ipa": "/ˈɪn.flʌks/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "làn sóng đổ về, dòng người tràn tới",
+                "family": "influxes (n)",
+                "example_en": "A sudden influx of wealthy buyers can push up village land prices.",
+                "example_vi": "Làn sóng người mua giàu có đột ngột có thể đẩy giá đất làng quê tăng cao."
+              },
+              {
+                "word": "demographic",
+                "ipa": "/ˌdem.əˈɡræf.ɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về dân số học",
+                "family": "demographics (n)",
+                "example_en": "Reverse migration helps relieve demographic pressure on crowded cities.",
+                "example_vi": "Di cư ngược giúp giảm áp lực dân số lên các thành phố đông đúc."
+              },
+              {
+                "word": "disillusionment",
+                "ipa": "/ˌdɪs.ɪˈluː.ʒən.mənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự vỡ mộng, thất vọng",
+                "family": "disillusioned (adj)",
+                "example_en": "Unprepared migrants risk financial disillusionment after moving to villages.",
+                "example_vi": "Người di cư thiếu chuẩn bị có nguy cơ vỡ mộng tài chính sau khi về quê."
+              },
+              {
+                "word": "holistic",
+                "ipa": "/həʊˈlɪs.tɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "toàn diện (thể chất lẫn tinh thần)",
+                "family": "holistically (adv)",
+                "example_en": "Clean air and slow living promote holistic family health.",
+                "example_vi": "Không khí sạch và sống chậm thúc đẩy sức khỏe gia đình toàn diện."
+              },
+              {
+                "word": "close-knit",
+                "ipa": "/ˌkləʊsˈnɪt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gắn kết khăng khít",
+                "family": "tight-knit (adj)",
+                "example_en": "Close-knit rural neighborhoods offer strong everyday social support.",
+                "example_vi": "Các khu xóm nông thôn gắn kết mang lại sự hỗ trợ hằng ngày mạnh mẽ."
+              },
+              {
+                "word": "inflate",
+                "ipa": "/ɪnˈfleɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "thổi phồng, đẩy giá tăng cao",
+                "family": "inflation (n)",
+                "example_en": "High demand for vacation plots can inflate local real estate prices.",
+                "example_vi": "Nhu cầu cao về đất nghỉ dưỡng có thể thổi phồng giá bất động sản địa phương."
+              },
+              {
+                "word": "fragile",
+                "ipa": "/ˈfrædʒ.aɪl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mong manh, dễ tổn thương",
+                "family": "fragility (n)",
+                "example_en": "Unplanned building threatens fragile countryside ecosystems.",
+                "example_vi": "Xây dựng thiếu quy hoạch đe dọa các hệ sinh thái nông thôn mong manh."
+              },
+              {
+                "word": "outpace",
+                "ipa": "/ˌaʊtˈpeɪs/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "vượt xa tốc độ của",
+                "family": "outpaced (adj)",
+                "example_en": "Urban apartment prices have steadily outpaced young workers' savings.",
+                "example_vi": "Giá căn hộ đô thị liên tục vượt xa tốc độ tích lũy của người trẻ."
+              },
+              {
+                "word": "restorative",
+                "ipa": "/rɪˈstɔːr.ə.tɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giúp phục hồi sức khỏe, tinh thần",
+                "family": "restore (v)",
+                "example_en": "Quiet natural surroundings create a restorative daily routine.",
+                "example_vi": "Khung cảnh thiên nhiên yên tĩnh tạo nên nếp sống phục hồi tinh thần."
+              },
+              {
+                "word": "affluent",
+                "ipa": "/ˈæf.lu.ənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giàu có, khá giả",
+                "family": "affluence (n)",
+                "example_en": "Affluent city buyers sometimes price local villagers out of land.",
+                "example_vi": "Người mua giàu có từ thành phố đôi khi khiến dân địa phương không mua nổi đất."
+              },
+              {
+                "word": "scarce",
+                "ipa": "/skeəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "khan hiếm, ít ỏi",
+                "family": "scarcity (n)",
+                "example_en": "Specialized medical centers remain scarce in remote rural areas.",
+                "example_vi": "Các trung tâm y tế chuyên sâu vẫn còn khan hiếm ở vùng quê xa."
+              },
+              {
+                "word": "prospect",
+                "ipa": "/ˈprɒs.pekt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "triển vọng, cơ hội",
+                "family": "prospects (n)",
+                "example_en": "Limited job prospects remain a major hurdle for rural newcomers.",
+                "example_vi": "Triển vọng việc làm hạn chế vẫn là rào cản lớn cho người mới về quê."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "high living costs",
+                "level": "B1",
+                "vi": "chi phí sinh hoạt cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "High living costs push many families to leave major cities.",
+                "example_vi": "Chi phí sinh hoạt cao thúc đẩy nhiều gia đình rời thành phố lớn."
+              },
+              {
+                "phrase": "expensive housing prices",
+                "level": "B1",
+                "vi": "giá nhà ở đắt đỏ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Expensive housing prices make buying a city flat very hard.",
+                "example_vi": "Giá nhà đắt đỏ khiến việc mua căn hộ ở thành phố rất khó khăn."
+              },
+              {
+                "phrase": "air pollution",
+                "level": "B1",
+                "vi": "ô nhiễm không khí",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Daily air pollution harms children's health in big cities.",
+                "example_vi": "Ô nhiễm không khí hằng ngày gây hại sức khỏe trẻ em ở đô thị."
+              },
+              {
+                "phrase": "heavy traffic",
+                "level": "B1",
+                "vi": "giao thông đông đúc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Workers lose hours sitting in heavy traffic every day.",
+                "example_vi": "Người đi làm mất nhiều giờ ngồi trong dòng giao thông đông đúc."
+              },
+              {
+                "phrase": "job stress",
+                "level": "B1",
+                "vi": "áp lực công việc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Constant job stress makes urban staff feel exhausted.",
+                "example_vi": "Áp lực công việc liên tục khiến nhân viên đô thị kiệt sức."
+              },
+              {
+                "phrase": "quieter place to live",
+                "level": "B1",
+                "vi": "nơi sống yên bình hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Tired city workers want a quieter place to live with family.",
+                "example_vi": "Người đi làm mệt mỏi muốn tìm nơi sống yên bình hơn cùng gia đình."
+              },
+              {
+                "phrase": "daily life is much cheaper",
+                "level": "B1",
+                "vi": "cuộc sống hằng ngày rẻ hơn nhiều",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Families move to provinces where daily life is much cheaper.",
+                "example_vi": "Các gia đình chuyển về tỉnh nơi sinh hoạt hằng ngày rẻ hơn nhiều."
+              },
+              {
+                "phrase": "crowded cities",
+                "level": "B1",
+                "vi": "các thành phố đông đúc",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many people wish to escape crowded cities for open spaces.",
+                "example_vi": "Nhiều người muốn thoát khỏi thành phố đông đúc đến không gian thoáng."
+              },
+              {
+                "phrase": "soaring property prices",
+                "level": "B2",
+                "vi": "giá bất động sản tăng vọt",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Soaring property prices have priced middle-income families out of cities.",
+                "example_vi": "Giá bất động sản tăng vọt khiến gia đình thu nhập trung bình khó mua nhà."
+              },
+              {
+                "phrase": "outpace affordability",
+                "level": "B2",
+                "vi": "vượt xa khả năng chi trả",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Urban rents increasingly outpace young graduates' affordability.",
+                "example_vi": "Tiền thuê nhà đô thị ngày càng vượt xa khả năng chi trả của sinh viên mới ra trường."
+              },
+              {
+                "phrase": "chronic traffic congestion",
+                "level": "B2",
+                "vi": "tắc nghẽn giao thông triền miên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Chronic traffic congestion severely lowers urban quality of life.",
+                "example_vi": "Ùn tắc giao thông triền miên làm giảm nghiêm trọng chất lượng sống đô thị."
+              },
+              {
+                "phrase": "hazardous fine dust",
+                "level": "B2",
+                "vi": "bụi mịn nguy hại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "City dwellers constantly breathe hazardous fine dust during commutes.",
+                "example_vi": "Cư dân thành phố thường xuyên hít bụi mịn nguy hại khi đi lại."
+              },
+              {
+                "phrase": "rush-hour gridlock",
+                "level": "B2",
+                "vi": "kẹt xe cứng giờ cao điểm",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Enduring daily rush-hour gridlock drains physical and mental energy.",
+                "example_vi": "Chịu đựng kẹt xe cứng giờ cao điểm làm cạn kiệt sức lực thể chất và tinh thần."
+              },
+              {
+                "phrase": "accumulated burnout",
+                "level": "B2",
+                "vi": "sự kiệt sức tích tụ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Accumulated burnout drives professionals to rethink their urban lifestyles.",
+                "example_vi": "Sự kiệt sức tích tụ thúc đẩy người đi làm suy nghĩ lại về lối sống đô thị."
+              },
+              {
+                "phrase": "high-pressure urban lifestyle",
+                "level": "B2",
+                "vi": "lối sống đô thị áp lực cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A high-pressure urban lifestyle leaves little room for family rest.",
+                "example_vi": "Lối sống đô thị áp lực cao để lại rất ít khoảng trống nghỉ ngơi cho gia đình."
+              },
+              {
+                "phrase": "relocate to rural areas",
+                "level": "B2",
+                "vi": "chuyển đến sinh sống ở vùng nông thôn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Growing numbers of young adults choose to relocate to rural areas.",
+                "example_vi": "Ngày càng nhiều người trẻ chọn chuyển đến sinh sống ở khu vực nông thôn."
+              },
+              {
+                "phrase": "remote work",
+                "level": "B1",
+                "vi": "làm việc từ xa",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Remote work lets people earn city salaries from the countryside.",
+                "example_vi": "Làm việc từ xa cho phép mọi người kiếm lương thành phố ngay tại quê."
+              },
+              {
+                "phrase": "fast Internet",
+                "level": "B1",
+                "vi": "Internet tốc độ cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Fast Internet connects rural workers with companies nationwide.",
+                "example_vi": "Internet tốc độ cao kết nối lao động ở quê với công ty khắp cả nước."
+              },
+              {
+                "phrase": "online business owners",
+                "level": "B1",
+                "vi": "người kinh doanh trực tuyến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Online business owners can manage orders from almost anywhere.",
+                "example_vi": "Người kinh doanh trực tuyến có thể quản lý đơn hàng từ hầu hết mọi nơi."
+              },
+              {
+                "phrase": "enjoy fresh air",
+                "level": "B1",
+                "vi": "tận hưởng không khí trong lành",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Families move to villages to enjoy fresh air and green trees.",
+                "example_vi": "Gia đình chuyển về làng quê để tận hưởng không khí trong lành và cây xanh."
+              },
+              {
+                "phrase": "spacious homes",
+                "level": "B1",
+                "vi": "những ngôi nhà rộng rãi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Rural towns offer spacious homes with gardens for children.",
+                "example_vi": "Thị trấn nông thôn có nhà rộng kèm vườn cho trẻ em."
+              },
+              {
+                "phrase": "grow their own vegetables",
+                "level": "B1",
+                "vi": "tự trồng rau sạch",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Parents love having space to grow their own vegetables safely.",
+                "example_vi": "Cha mẹ thích có không gian tự trồng rau sạch an toàn."
+              },
+              {
+                "phrase": "care for aging parents",
+                "level": "B1",
+                "vi": "chăm sóc cha mẹ lớn tuổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many adults return home to care for aging parents closely.",
+                "example_vi": "Nhiều người trưởng thành về quê để chăm sóc cha mẹ lớn tuổi sát sao."
+              },
+              {
+                "phrase": "strengthen family bonds",
+                "level": "B1",
+                "vi": "củng cố tình cảm gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Living near relatives helps strengthen family bonds every day.",
+                "example_vi": "Sống gần họ hàng giúp củng cố tình cảm gia đình mỗi ngày."
+              },
+              {
+                "phrase": "remove geographic barriers",
+                "level": "B2",
+                "vi": "xóa bỏ rào cản địa lý",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Digital tools have removed geographic barriers between home and office.",
+                "example_vi": "Công cụ số đã xóa bỏ rào cản địa lý giữa nhà ở và văn phòng."
+              },
+              {
+                "phrase": "high-speed broadband",
+                "level": "B2",
+                "vi": "mạng băng thông rộng tốc độ cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Widespread high-speed broadband makes rural remote careers viable.",
+                "example_vi": "Mạng băng thông rộng phủ khắp giúp công việc từ xa ở quê trở nên khả thi."
+              },
+              {
+                "phrase": "competitive urban salaries",
+                "level": "B2",
+                "vi": "mức lương cạnh tranh như ở đô thị",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Telecommuters can earn competitive urban salaries while paying rural rents.",
+                "example_vi": "Người làm từ xa có thể hưởng lương thành phố trong khi trả tiền thuê ở quê."
+              },
+              {
+                "phrase": "prioritize holistic health",
+                "level": "B2",
+                "vi": "ưu tiên sức khỏe toàn diện",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Modern families increasingly prioritize holistic physical and mental health.",
+                "example_vi": "Gia đình hiện đại ngày càng ưu tiên sức khỏe thể chất và tinh thần toàn diện."
+              },
+              {
+                "phrase": "home-grown organic food",
+                "level": "B2",
+                "vi": "thực phẩm hữu cơ tự trồng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Rural living provides direct access to fresh, home-grown organic food.",
+                "example_vi": "Sống ở nông thôn mang lại nguồn thực phẩm hữu cơ tươi sạch tự trồng."
+              },
+              {
+                "phrase": "restorative daily routines",
+                "level": "B2",
+                "vi": "nếp sinh hoạt giúp phục hồi tinh thần",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Nature-filled environments encourage calmer, restorative daily routines.",
+                "example_vi": "Môi trường gần gũi thiên nhiên khuyến khích nếp sống phục hồi tinh thần."
+              },
+              {
+                "phrase": "supportive family networks",
+                "level": "B2",
+                "vi": "mạng lưới gia đình luôn hỗ trợ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Returning home gives young parents supportive family networks for childcare.",
+                "example_vi": "Về quê mang lại cho cha mẹ trẻ mạng lưới gia đình hỗ trợ chăm con."
+              },
+              {
+                "phrase": "stay close to extended family",
+                "level": "B2",
+                "vi": "sống gần đại gia đình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Many migrants value staying close to extended family over urban prestige.",
+                "example_vi": "Nhiều người di cư coi trọng việc ở gần đại gia đình hơn hào quang đô thị."
+              },
+              {
+                "phrase": "improve physical and mental health",
+                "level": "B1",
+                "vi": "cải thiện sức khỏe thể chất và tinh thần",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Clean rural air helps improve both physical and mental health.",
+                "example_vi": "Không khí nông thôn trong lành giúp cải thiện sức khỏe thể chất và tinh thần."
+              },
+              {
+                "phrase": "slower pace of life",
+                "level": "B1",
+                "vi": "nhịp sống chậm rãi hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A slower pace of life reduces daily anxiety and improves sleep.",
+                "example_vi": "Nhịp sống chậm rãi hơn giảm lo âu hằng ngày và cải thiện giấc ngủ."
+              },
+              {
+                "phrase": "develop rural economies",
+                "level": "B1",
+                "vi": "phát triển kinh tế nông thôn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Newcomers bring fresh ideas that help develop rural economies.",
+                "example_vi": "Người mới mang đến ý tưởng mới giúp phát triển kinh tế nông thôn."
+              },
+              {
+                "phrase": "create local jobs",
+                "level": "B1",
+                "vi": "tạo thêm việc làm địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Opening cafes and homestays creates local jobs for villagers.",
+                "example_vi": "Mở quán cà phê và homestay tạo thêm việc làm cho người dân địa phương."
+              },
+              {
+                "phrase": "organic farms",
+                "level": "B1",
+                "vi": "trang trại hữu cơ",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Young migrants often launch organic farms and eco-friendly shops.",
+                "example_vi": "Người trẻ về quê thường mở trang trại hữu cơ và cửa hàng xanh."
+              },
+              {
+                "phrase": "ease overcrowding",
+                "level": "B1",
+                "vi": "giảm tình trạng quá tải dân số",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Moving out of major cities helps ease urban overcrowding.",
+                "example_vi": "Chuyển ra khỏi thành phố lớn giúp giảm quá tải dân số đô thị."
+              },
+              {
+                "phrase": "pressure on hospitals and schools",
+                "level": "B1",
+                "vi": "áp lực lên bệnh viện và trường học",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Lower city density reduces pressure on hospitals and schools.",
+                "example_vi": "Mật độ đô thị giảm giúp bớt áp lực lên bệnh viện và trường học."
+              },
+              {
+                "phrase": "feel happier every day",
+                "level": "B1",
+                "vi": "cảm thấy hạnh phúc hơn mỗi ngày",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Less noise and stress help rural newcomers feel happier every day.",
+                "example_vi": "Ít tiếng ồn và căng thẳng giúp người về quê thấy hạnh phúc hơn mỗi ngày."
+              },
+              {
+                "phrase": "enhance mental well-being",
+                "level": "B2",
+                "vi": "nâng cao sức khỏe tinh thần",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Leaving noisy concrete jungles markedly enhances mental well-being.",
+                "example_vi": "Rời khỏi đô thị bê tông ồn ào nâng cao rõ rệt sức khỏe tinh thần."
+              },
+              {
+                "phrase": "close-knit rural communities",
+                "level": "B2",
+                "vi": "cộng đồng nông thôn gắn kết thân tình",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Close-knit rural communities foster warmth and genuine belonging.",
+                "example_vi": "Cộng đồng nông thôn gắn kết nuôi dưỡng sự ấm áp và cảm giác thuộc về."
+              },
+              {
+                "phrase": "revitalize local economies",
+                "level": "B2",
+                "vi": "hồi sinh kinh tế địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Skilled urban newcomers help revitalize stagnant rural economies.",
+                "example_vi": "Cư dân thành phố có kỹ năng giúp hồi sinh kinh tế nông thôn trì trệ."
+              },
+              {
+                "phrase": "eco-tourism homestays",
+                "level": "B2",
+                "vi": "mô hình homestay du lịch sinh thái",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Entrepreneurs often invest in eco-tourism homestays and sustainable agriculture.",
+                "example_vi": "Doanh nhân thường đầu tư vào homestay du lịch sinh thái và nông nghiệp bền vững."
+              },
+              {
+                "phrase": "stimulate infrastructure upgrades",
+                "level": "B2",
+                "vi": "thúc đẩy nâng cấp cơ sở hạ tầng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Growing rural populations stimulate local road and broadband upgrades.",
+                "example_vi": "Dân số nông thôn tăng thúc đẩy nâng cấp đường sá và mạng băng thông rộng."
+              },
+              {
+                "phrase": "relieve demographic pressure",
+                "level": "B2",
+                "vi": "giảm bớt áp lực dân số",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Reverse migration helps relieve demographic pressure on strained cities.",
+                "example_vi": "Di cư ngược giúp giảm bớt áp lực dân số lên các đô thị quá tải."
+              },
+              {
+                "phrase": "balanced population distribution",
+                "level": "B2",
+                "vi": "sự phân bổ dân cư cân bằng",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "A more balanced population distribution supports sustainable national growth.",
+                "example_vi": "Sự phân bổ dân cư cân bằng hơn hỗ trợ tăng trưởng quốc gia bền vững."
+              },
+              {
+                "phrase": "urban waste generation",
+                "level": "B2",
+                "vi": "lượng rác thải đô thị",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Outward migration can modestly ease congestion and urban waste generation.",
+                "example_vi": "Di cư ra ngoài có thể phần nào giảm tắc nghẽn và lượng rác thải đô thị."
+              },
+              {
+                "phrase": "face lower incomes",
+                "level": "B1",
+                "vi": "đối mặt mức thu nhập thấp hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "People without remote jobs may face lower incomes in villages.",
+                "example_vi": "Người không có việc từ xa có thể đối mặt mức thu nhập thấp hơn ở quê."
+              },
+              {
+                "phrase": "fewer specialized jobs",
+                "level": "B1",
+                "vi": "ít công việc chuyên môn hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Rural provinces offer fewer specialized jobs than major cities.",
+                "example_vi": "Các tỉnh nông thôn có ít công việc chuyên môn hơn thành phố lớn."
+              },
+              {
+                "phrase": "high-quality public services",
+                "level": "B1",
+                "vi": "dịch vụ công chất lượng cao",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Villages often have limited access to high-quality public services.",
+                "example_vi": "Làng quê thường có khả năng tiếp cận hạn chế với dịch vụ công chất lượng cao."
+              },
+              {
+                "phrase": "major hospitals and modern schools",
+                "level": "B1",
+                "vi": "bệnh viện lớn và trường học hiện đại",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Families may miss major hospitals and modern schools in remote towns.",
+                "example_vi": "Gia đình có thể thấy thiếu bệnh viện lớn và trường hiện đại ở thị trấn xa."
+              },
+              {
+                "phrase": "push up land prices",
+                "level": "B1",
+                "vi": "đẩy giá đất tăng lên",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "City buyers can push up land prices in peaceful villages.",
+                "example_vi": "Người mua từ thành phố có thể đẩy giá đất ở làng quê yên bình tăng lên."
+              },
+              {
+                "phrase": "reduce farmland",
+                "level": "B1",
+                "vi": "làm thu hẹp đất nông nghiệp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Building many new houses and resorts can reduce farmland.",
+                "example_vi": "Xây nhiều nhà ở và khu nghỉ dưỡng có thể thu hẹp đất nông nghiệp."
+              },
+              {
+                "phrase": "harder to afford land",
+                "level": "B1",
+                "vi": "khó đủ tiền mua đất hơn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Higher prices make it harder for local residents to afford land.",
+                "example_vi": "Giá cao hơn khiến người dân bản địa khó đủ tiền mua đất hơn."
+              },
+              {
+                "phrase": "put pressure on local nature",
+                "level": "B1",
+                "vi": "gây áp lực lên thiên nhiên địa phương",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Rapid rural construction can put pressure on local nature.",
+                "example_vi": "Xây dựng nhanh ở nông thôn có thể gây áp lực lên thiên nhiên địa phương."
+              },
+              {
+                "phrase": "reduced career prospects",
+                "level": "B2",
+                "vi": "triển vọng nghề nghiệp thu hẹp",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Relocating away from business hubs often brings reduced career prospects.",
+                "example_vi": "Rời xa trung tâm kinh tế thường đi kèm triển vọng nghề nghiệp thu hẹp."
+              },
+              {
+                "phrase": "financial disillusionment",
+                "level": "B2",
+                "vi": "sự vỡ mộng về tài chính",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Unprepared urbanites risk financial disillusionment if rural ventures fail.",
+                "example_vi": "Người thành phố thiếu chuẩn bị dễ vỡ mộng tài chính nếu khởi nghiệp ở quê thất bại."
+              },
+              {
+                "phrase": "advanced healthcare and education",
+                "level": "B2",
+                "vi": "y tế và giáo dục tiên tiến",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Scarce advanced healthcare and education remain key drawbacks of village life.",
+                "example_vi": "Thiếu y tế và giáo dục tiên tiến vẫn là hạn chế lớn của đời sống nông thôn."
+              },
+              {
+                "phrase": "specialized medical care",
+                "level": "B2",
+                "vi": "chăm sóc y tế chuyên sâu",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Elderly patients in remote areas still travel to cities for specialized medical care.",
+                "example_vi": "Bệnh nhân lớn tuổi ở vùng xa vẫn phải lên thành phố chữa bệnh chuyên sâu."
+              },
+              {
+                "phrase": "inflate rural property values",
+                "level": "B2",
+                "vi": "thổi phồng giá trị bất động sản nông thôn",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "An influx of affluent buyers can rapidly inflate rural property values.",
+                "example_vi": "Làn sóng người mua khá giả có thể nhanh chóng thổi phồng giá bất động sản nông thôn."
+              },
+              {
+                "phrase": "price local residents out",
+                "level": "B2",
+                "vi": "khiến người dân địa phương không mua nổi",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Land speculation often prices low-income local residents out of housing.",
+                "example_vi": "Đầu cơ đất thường khiến người dân địa phương thu nhập thấp không mua nổi nhà đất."
+              },
+              {
+                "phrase": "unplanned construction",
+                "level": "B2",
+                "vi": "xây dựng thiếu quy hoạch",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Unplanned construction and waste can spoil scenic countryside landscapes.",
+                "example_vi": "Xây dựng thiếu quy hoạch và rác thải có thể phá hỏng cảnh quan nông thôn đẹp."
+              },
+              {
+                "phrase": "strain fragile ecosystems",
+                "level": "B2",
+                "vi": "gây áp lực lên hệ sinh thái mong manh",
+                "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                "example_en": "Sudden population inflows may strain fragile rural water and ecological systems.",
+                "example_vi": "Dòng dân cư tăng đột ngột có thể gây áp lực lên hệ sinh thái nông thôn mong manh."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "t55_g1",
+                "name": "Nhóm 1: Áp lực Đô thị (Chi phí, Ô nhiễm, Kẹt xe — Causes 01–02)",
+                "icon": "🏙️",
+                "badge": "Nguyên nhân 01–02",
+                "items": [
+                  {
+                    "en": "high living costs",
+                    "phrase": "high living costs",
+                    "vi": "chi phí sinh hoạt cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "High living costs push many families to leave major cities.",
+                    "example_vi": "Chi phí sinh hoạt cao thúc đẩy nhiều gia đình rời thành phố lớn."
+                  },
+                  {
+                    "en": "expensive housing prices",
+                    "phrase": "expensive housing prices",
+                    "vi": "giá nhà ở đắt đỏ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Expensive housing prices make buying a city flat very hard.",
+                    "example_vi": "Giá nhà đắt đỏ khiến việc mua căn hộ ở thành phố rất khó khăn."
+                  },
+                  {
+                    "en": "air pollution",
+                    "phrase": "air pollution",
+                    "vi": "ô nhiễm không khí",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Daily air pollution harms children's health in big cities.",
+                    "example_vi": "Ô nhiễm không khí hằng ngày gây hại sức khỏe trẻ em ở đô thị."
+                  },
+                  {
+                    "en": "heavy traffic",
+                    "phrase": "heavy traffic",
+                    "vi": "giao thông đông đúc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Workers lose hours sitting in heavy traffic every day.",
+                    "example_vi": "Người đi làm mất nhiều giờ ngồi trong dòng giao thông đông đúc."
+                  },
+                  {
+                    "en": "job stress",
+                    "phrase": "job stress",
+                    "vi": "áp lực công việc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Constant job stress makes urban staff feel exhausted.",
+                    "example_vi": "Áp lực công việc liên tục khiến nhân viên đô thị kiệt sức."
+                  },
+                  {
+                    "en": "quieter place to live",
+                    "phrase": "quieter place to live",
+                    "vi": "nơi sống yên bình hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Tired city workers want a quieter place to live with family.",
+                    "example_vi": "Người đi làm mệt mỏi muốn tìm nơi sống yên bình hơn cùng gia đình."
+                  },
+                  {
+                    "en": "daily life is much cheaper",
+                    "phrase": "daily life is much cheaper",
+                    "vi": "cuộc sống hằng ngày rẻ hơn nhiều",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Families move to provinces where daily life is much cheaper.",
+                    "example_vi": "Các gia đình chuyển về tỉnh nơi sinh hoạt hằng ngày rẻ hơn nhiều."
+                  },
+                  {
+                    "en": "crowded cities",
+                    "phrase": "crowded cities",
+                    "vi": "các thành phố đông đúc",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many people wish to escape crowded cities for open spaces.",
+                    "example_vi": "Nhiều người muốn thoát khỏi thành phố đông đúc đến không gian thoáng."
+                  },
+                  {
+                    "en": "soaring property prices",
+                    "phrase": "soaring property prices",
+                    "vi": "giá bất động sản tăng vọt",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Soaring property prices have priced middle-income families out of cities.",
+                    "example_vi": "Giá bất động sản tăng vọt khiến gia đình thu nhập trung bình khó mua nhà."
+                  },
+                  {
+                    "en": "outpace affordability",
+                    "phrase": "outpace affordability",
+                    "vi": "vượt xa khả năng chi trả",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Urban rents increasingly outpace young graduates' affordability.",
+                    "example_vi": "Tiền thuê nhà đô thị ngày càng vượt xa khả năng chi trả của sinh viên mới ra trường."
+                  },
+                  {
+                    "en": "chronic traffic congestion",
+                    "phrase": "chronic traffic congestion",
+                    "vi": "tắc nghẽn giao thông triền miên",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Chronic traffic congestion severely lowers urban quality of life.",
+                    "example_vi": "Ùn tắc giao thông triền miên làm giảm nghiêm trọng chất lượng sống đô thị."
+                  },
+                  {
+                    "en": "hazardous fine dust",
+                    "phrase": "hazardous fine dust",
+                    "vi": "bụi mịn nguy hại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "City dwellers constantly breathe hazardous fine dust during commutes.",
+                    "example_vi": "Cư dân thành phố thường xuyên hít bụi mịn nguy hại khi đi lại."
+                  },
+                  {
+                    "en": "rush-hour gridlock",
+                    "phrase": "rush-hour gridlock",
+                    "vi": "kẹt xe cứng giờ cao điểm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Enduring daily rush-hour gridlock drains physical and mental energy.",
+                    "example_vi": "Chịu đựng kẹt xe cứng giờ cao điểm làm cạn kiệt sức lực thể chất và tinh thần."
+                  },
+                  {
+                    "en": "accumulated burnout",
+                    "phrase": "accumulated burnout",
+                    "vi": "sự kiệt sức tích tụ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Accumulated burnout drives professionals to rethink their urban lifestyles.",
+                    "example_vi": "Sự kiệt sức tích tụ thúc đẩy người đi làm suy nghĩ lại về lối sống đô thị."
+                  },
+                  {
+                    "en": "high-pressure urban lifestyle",
+                    "phrase": "high-pressure urban lifestyle",
+                    "vi": "lối sống đô thị áp lực cao",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A high-pressure urban lifestyle leaves little room for family rest.",
+                    "example_vi": "Lối sống đô thị áp lực cao để lại rất ít khoảng trống nghỉ ngơi cho gia đình."
+                  },
+                  {
+                    "en": "relocate to rural areas",
+                    "phrase": "relocate to rural areas",
+                    "vi": "chuyển đến sinh sống ở vùng nông thôn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Growing numbers of young adults choose to relocate to rural areas.",
+                    "example_vi": "Ngày càng nhiều người trẻ chọn chuyển đến sinh sống ở khu vực nông thôn."
+                  }
+                ]
+              },
+              {
+                "id": "t55_g2",
+                "name": "Nhóm 2: Làm việc từ xa, Sống xanh & Gia đình (Remote Work, Nature & Family — Causes 03–05)",
+                "icon": "🌿",
+                "badge": "Nguyên nhân 03–05",
+                "items": [
+                  {
+                    "en": "remote work",
+                    "phrase": "remote work",
+                    "vi": "làm việc từ xa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Remote work lets people earn city salaries from the countryside.",
+                    "example_vi": "Làm việc từ xa cho phép mọi người kiếm lương thành phố ngay tại quê."
+                  },
+                  {
+                    "en": "fast Internet",
+                    "phrase": "fast Internet",
+                    "vi": "Internet tốc độ cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Fast Internet connects rural workers with companies nationwide.",
+                    "example_vi": "Internet tốc độ cao kết nối lao động ở quê với công ty khắp cả nước."
+                  },
+                  {
+                    "en": "online business owners",
+                    "phrase": "online business owners",
+                    "vi": "người kinh doanh trực tuyến",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Online business owners can manage orders from almost anywhere.",
+                    "example_vi": "Người kinh doanh trực tuyến có thể quản lý đơn hàng từ hầu hết mọi nơi."
+                  },
+                  {
+                    "en": "enjoy fresh air",
+                    "phrase": "enjoy fresh air",
+                    "vi": "tận hưởng không khí trong lành",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Families move to villages to enjoy fresh air and green trees.",
+                    "example_vi": "Gia đình chuyển về làng quê để tận hưởng không khí trong lành và cây xanh."
+                  },
+                  {
+                    "en": "spacious homes",
+                    "phrase": "spacious homes",
+                    "vi": "những ngôi nhà rộng rãi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Rural towns offer spacious homes with gardens for children.",
+                    "example_vi": "Thị trấn nông thôn có nhà rộng kèm vườn cho trẻ em."
+                  },
+                  {
+                    "en": "grow their own vegetables",
+                    "phrase": "grow their own vegetables",
+                    "vi": "tự trồng rau sạch",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Parents love having space to grow their own vegetables safely.",
+                    "example_vi": "Cha mẹ thích có không gian tự trồng rau sạch an toàn."
+                  },
+                  {
+                    "en": "care for aging parents",
+                    "phrase": "care for aging parents",
+                    "vi": "chăm sóc cha mẹ lớn tuổi",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many adults return home to care for aging parents closely.",
+                    "example_vi": "Nhiều người trưởng thành về quê để chăm sóc cha mẹ lớn tuổi sát sao."
+                  },
+                  {
+                    "en": "strengthen family bonds",
+                    "phrase": "strengthen family bonds",
+                    "vi": "củng cố tình cảm gia đình",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Living near relatives helps strengthen family bonds every day.",
+                    "example_vi": "Sống gần họ hàng giúp củng cố tình cảm gia đình mỗi ngày."
+                  },
+                  {
+                    "en": "remove geographic barriers",
+                    "phrase": "remove geographic barriers",
+                    "vi": "xóa bỏ rào cản địa lý",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Digital tools have removed geographic barriers between home and office.",
+                    "example_vi": "Công cụ số đã xóa bỏ rào cản địa lý giữa nhà ở và văn phòng."
+                  },
+                  {
+                    "en": "high-speed broadband",
+                    "phrase": "high-speed broadband",
+                    "vi": "mạng băng thông rộng tốc độ cao",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Widespread high-speed broadband makes rural remote careers viable.",
+                    "example_vi": "Mạng băng thông rộng phủ khắp giúp công việc từ xa ở quê trở nên khả thi."
+                  },
+                  {
+                    "en": "competitive urban salaries",
+                    "phrase": "competitive urban salaries",
+                    "vi": "mức lương cạnh tranh như ở đô thị",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Telecommuters can earn competitive urban salaries while paying rural rents.",
+                    "example_vi": "Người làm từ xa có thể hưởng lương thành phố trong khi trả tiền thuê ở quê."
+                  },
+                  {
+                    "en": "prioritize holistic health",
+                    "phrase": "prioritize holistic health",
+                    "vi": "ưu tiên sức khỏe toàn diện",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Modern families increasingly prioritize holistic physical and mental health.",
+                    "example_vi": "Gia đình hiện đại ngày càng ưu tiên sức khỏe thể chất và tinh thần toàn diện."
+                  },
+                  {
+                    "en": "home-grown organic food",
+                    "phrase": "home-grown organic food",
+                    "vi": "thực phẩm hữu cơ tự trồng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Rural living provides direct access to fresh, home-grown organic food.",
+                    "example_vi": "Sống ở nông thôn mang lại nguồn thực phẩm hữu cơ tươi sạch tự trồng."
+                  },
+                  {
+                    "en": "restorative daily routines",
+                    "phrase": "restorative daily routines",
+                    "vi": "nếp sinh hoạt giúp phục hồi tinh thần",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Nature-filled environments encourage calmer, restorative daily routines.",
+                    "example_vi": "Môi trường gần gũi thiên nhiên khuyến khích nếp sống phục hồi tinh thần."
+                  },
+                  {
+                    "en": "supportive family networks",
+                    "phrase": "supportive family networks",
+                    "vi": "mạng lưới gia đình luôn hỗ trợ",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Returning home gives young parents supportive family networks for childcare.",
+                    "example_vi": "Về quê mang lại cho cha mẹ trẻ mạng lưới gia đình hỗ trợ chăm con."
+                  },
+                  {
+                    "en": "stay close to extended family",
+                    "phrase": "stay close to extended family",
+                    "vi": "sống gần đại gia đình",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Many migrants value staying close to extended family over urban prestige.",
+                    "example_vi": "Nhiều người di cư coi trọng việc ở gần đại gia đình hơn hào quang đô thị."
+                  }
+                ]
+              },
+              {
+                "id": "t55_g3",
+                "name": "Nhóm 3: Ảnh hưởng Tích cực (Sức khỏe, Kinh tế Quê & Giảm tải Đô thị — Effects 01–03)",
+                "icon": "✨",
+                "badge": "Ảnh hưởng 01–03",
+                "items": [
+                  {
+                    "en": "improve physical and mental health",
+                    "phrase": "improve physical and mental health",
+                    "vi": "cải thiện sức khỏe thể chất và tinh thần",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Clean rural air helps improve both physical and mental health.",
+                    "example_vi": "Không khí nông thôn trong lành giúp cải thiện sức khỏe thể chất và tinh thần."
+                  },
+                  {
+                    "en": "slower pace of life",
+                    "phrase": "slower pace of life",
+                    "vi": "nhịp sống chậm rãi hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A slower pace of life reduces daily anxiety and improves sleep.",
+                    "example_vi": "Nhịp sống chậm rãi hơn giảm lo âu hằng ngày và cải thiện giấc ngủ."
+                  },
+                  {
+                    "en": "develop rural economies",
+                    "phrase": "develop rural economies",
+                    "vi": "phát triển kinh tế nông thôn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Newcomers bring fresh ideas that help develop rural economies.",
+                    "example_vi": "Người mới mang đến ý tưởng mới giúp phát triển kinh tế nông thôn."
+                  },
+                  {
+                    "en": "create local jobs",
+                    "phrase": "create local jobs",
+                    "vi": "tạo thêm việc làm địa phương",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Opening cafes and homestays creates local jobs for villagers.",
+                    "example_vi": "Mở quán cà phê và homestay tạo thêm việc làm cho người dân địa phương."
+                  },
+                  {
+                    "en": "organic farms",
+                    "phrase": "organic farms",
+                    "vi": "trang trại hữu cơ",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Young migrants often launch organic farms and eco-friendly shops.",
+                    "example_vi": "Người trẻ về quê thường mở trang trại hữu cơ và cửa hàng xanh."
+                  },
+                  {
+                    "en": "ease overcrowding",
+                    "phrase": "ease overcrowding",
+                    "vi": "giảm tình trạng quá tải dân số",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Moving out of major cities helps ease urban overcrowding.",
+                    "example_vi": "Chuyển ra khỏi thành phố lớn giúp giảm quá tải dân số đô thị."
+                  },
+                  {
+                    "en": "pressure on hospitals and schools",
+                    "phrase": "pressure on hospitals and schools",
+                    "vi": "áp lực lên bệnh viện và trường học",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Lower city density reduces pressure on hospitals and schools.",
+                    "example_vi": "Mật độ đô thị giảm giúp bớt áp lực lên bệnh viện và trường học."
+                  },
+                  {
+                    "en": "feel happier every day",
+                    "phrase": "feel happier every day",
+                    "vi": "cảm thấy hạnh phúc hơn mỗi ngày",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Less noise and stress help rural newcomers feel happier every day.",
+                    "example_vi": "Ít tiếng ồn và căng thẳng giúp người về quê thấy hạnh phúc hơn mỗi ngày."
+                  },
+                  {
+                    "en": "enhance mental well-being",
+                    "phrase": "enhance mental well-being",
+                    "vi": "nâng cao sức khỏe tinh thần",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Leaving noisy concrete jungles markedly enhances mental well-being.",
+                    "example_vi": "Rời khỏi đô thị bê tông ồn ào nâng cao rõ rệt sức khỏe tinh thần."
+                  },
+                  {
+                    "en": "close-knit rural communities",
+                    "phrase": "close-knit rural communities",
+                    "vi": "cộng đồng nông thôn gắn kết thân tình",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Close-knit rural communities foster warmth and genuine belonging.",
+                    "example_vi": "Cộng đồng nông thôn gắn kết nuôi dưỡng sự ấm áp và cảm giác thuộc về."
+                  },
+                  {
+                    "en": "revitalize local economies",
+                    "phrase": "revitalize local economies",
+                    "vi": "hồi sinh kinh tế địa phương",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Skilled urban newcomers help revitalize stagnant rural economies.",
+                    "example_vi": "Cư dân thành phố có kỹ năng giúp hồi sinh kinh tế nông thôn trì trệ."
+                  },
+                  {
+                    "en": "eco-tourism homestays",
+                    "phrase": "eco-tourism homestays",
+                    "vi": "mô hình homestay du lịch sinh thái",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Entrepreneurs often invest in eco-tourism homestays and sustainable agriculture.",
+                    "example_vi": "Doanh nhân thường đầu tư vào homestay du lịch sinh thái và nông nghiệp bền vững."
+                  },
+                  {
+                    "en": "stimulate infrastructure upgrades",
+                    "phrase": "stimulate infrastructure upgrades",
+                    "vi": "thúc đẩy nâng cấp cơ sở hạ tầng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Growing rural populations stimulate local road and broadband upgrades.",
+                    "example_vi": "Dân số nông thôn tăng thúc đẩy nâng cấp đường sá và mạng băng thông rộng."
+                  },
+                  {
+                    "en": "relieve demographic pressure",
+                    "phrase": "relieve demographic pressure",
+                    "vi": "giảm bớt áp lực dân số",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Reverse migration helps relieve demographic pressure on strained cities.",
+                    "example_vi": "Di cư ngược giúp giảm bớt áp lực dân số lên các đô thị quá tải."
+                  },
+                  {
+                    "en": "balanced population distribution",
+                    "phrase": "balanced population distribution",
+                    "vi": "sự phân bổ dân cư cân bằng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "A more balanced population distribution supports sustainable national growth.",
+                    "example_vi": "Sự phân bổ dân cư cân bằng hơn hỗ trợ tăng trưởng quốc gia bền vững."
+                  },
+                  {
+                    "en": "urban waste generation",
+                    "phrase": "urban waste generation",
+                    "vi": "lượng rác thải đô thị",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Outward migration can modestly ease congestion and urban waste generation.",
+                    "example_vi": "Di cư ra ngoài có thể phần nào giảm tắc nghẽn và lượng rác thải đô thị."
+                  }
+                ]
+              },
+              {
+                "id": "t55_g4",
+                "name": "Nhóm 4: Thách thức & Mặt trái (Thu nhập, Dịch vụ & Giá đất — Effects 04–05)",
+                "icon": "⚠️",
+                "badge": "Ảnh hưởng 04–05",
+                "items": [
+                  {
+                    "en": "face lower incomes",
+                    "phrase": "face lower incomes",
+                    "vi": "đối mặt mức thu nhập thấp hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "People without remote jobs may face lower incomes in villages.",
+                    "example_vi": "Người không có việc từ xa có thể đối mặt mức thu nhập thấp hơn ở quê."
+                  },
+                  {
+                    "en": "fewer specialized jobs",
+                    "phrase": "fewer specialized jobs",
+                    "vi": "ít công việc chuyên môn hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Rural provinces offer fewer specialized jobs than major cities.",
+                    "example_vi": "Các tỉnh nông thôn có ít công việc chuyên môn hơn thành phố lớn."
+                  },
+                  {
+                    "en": "high-quality public services",
+                    "phrase": "high-quality public services",
+                    "vi": "dịch vụ công chất lượng cao",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Villages often have limited access to high-quality public services.",
+                    "example_vi": "Làng quê thường có khả năng tiếp cận hạn chế với dịch vụ công chất lượng cao."
+                  },
+                  {
+                    "en": "major hospitals and modern schools",
+                    "phrase": "major hospitals and modern schools",
+                    "vi": "bệnh viện lớn và trường học hiện đại",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Families may miss major hospitals and modern schools in remote towns.",
+                    "example_vi": "Gia đình có thể thấy thiếu bệnh viện lớn và trường hiện đại ở thị trấn xa."
+                  },
+                  {
+                    "en": "push up land prices",
+                    "phrase": "push up land prices",
+                    "vi": "đẩy giá đất tăng lên",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "City buyers can push up land prices in peaceful villages.",
+                    "example_vi": "Người mua từ thành phố có thể đẩy giá đất ở làng quê yên bình tăng lên."
+                  },
+                  {
+                    "en": "reduce farmland",
+                    "phrase": "reduce farmland",
+                    "vi": "làm thu hẹp đất nông nghiệp",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Building many new houses and resorts can reduce farmland.",
+                    "example_vi": "Xây nhiều nhà ở và khu nghỉ dưỡng có thể thu hẹp đất nông nghiệp."
+                  },
+                  {
+                    "en": "harder to afford land",
+                    "phrase": "harder to afford land",
+                    "vi": "khó đủ tiền mua đất hơn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Higher prices make it harder for local residents to afford land.",
+                    "example_vi": "Giá cao hơn khiến người dân bản địa khó đủ tiền mua đất hơn."
+                  },
+                  {
+                    "en": "put pressure on local nature",
+                    "phrase": "put pressure on local nature",
+                    "vi": "gây áp lực lên thiên nhiên địa phương",
+                    "level": "B1",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Rapid rural construction can put pressure on local nature.",
+                    "example_vi": "Xây dựng nhanh ở nông thôn có thể gây áp lực lên thiên nhiên địa phương."
+                  },
+                  {
+                    "en": "reduced career prospects",
+                    "phrase": "reduced career prospects",
+                    "vi": "triển vọng nghề nghiệp thu hẹp",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Relocating away from business hubs often brings reduced career prospects.",
+                    "example_vi": "Rời xa trung tâm kinh tế thường đi kèm triển vọng nghề nghiệp thu hẹp."
+                  },
+                  {
+                    "en": "financial disillusionment",
+                    "phrase": "financial disillusionment",
+                    "vi": "sự vỡ mộng về tài chính",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Unprepared urbanites risk financial disillusionment if rural ventures fail.",
+                    "example_vi": "Người thành phố thiếu chuẩn bị dễ vỡ mộng tài chính nếu khởi nghiệp ở quê thất bại."
+                  },
+                  {
+                    "en": "advanced healthcare and education",
+                    "phrase": "advanced healthcare and education",
+                    "vi": "y tế và giáo dục tiên tiến",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Scarce advanced healthcare and education remain key drawbacks of village life.",
+                    "example_vi": "Thiếu y tế và giáo dục tiên tiến vẫn là hạn chế lớn của đời sống nông thôn."
+                  },
+                  {
+                    "en": "specialized medical care",
+                    "phrase": "specialized medical care",
+                    "vi": "chăm sóc y tế chuyên sâu",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Elderly patients in remote areas still travel to cities for specialized medical care.",
+                    "example_vi": "Bệnh nhân lớn tuổi ở vùng xa vẫn phải lên thành phố chữa bệnh chuyên sâu."
+                  },
+                  {
+                    "en": "inflate rural property values",
+                    "phrase": "inflate rural property values",
+                    "vi": "thổi phồng giá trị bất động sản nông thôn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "An influx of affluent buyers can rapidly inflate rural property values.",
+                    "example_vi": "Làn sóng người mua khá giả có thể nhanh chóng thổi phồng giá bất động sản nông thôn."
+                  },
+                  {
+                    "en": "price local residents out",
+                    "phrase": "price local residents out",
+                    "vi": "khiến người dân địa phương không mua nổi",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Land speculation often prices low-income local residents out of housing.",
+                    "example_vi": "Đầu cơ đất thường khiến người dân địa phương thu nhập thấp không mua nổi nhà đất."
+                  },
+                  {
+                    "en": "unplanned construction",
+                    "phrase": "unplanned construction",
+                    "vi": "xây dựng thiếu quy hoạch",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Unplanned construction and waste can spoil scenic countryside landscapes.",
+                    "example_vi": "Xây dựng thiếu quy hoạch và rác thải có thể phá hỏng cảnh quan nông thôn đẹp."
+                  },
+                  {
+                    "en": "strain fragile ecosystems",
+                    "phrase": "strain fragile ecosystems",
+                    "vi": "gây áp lực lên hệ sinh thái mong manh",
+                    "level": "B2",
+                    "type": "phrase",
+                    "context_usage": "Cụm từ trọng tâm giúp nâng điểm từ vựng VSTEP",
+                    "example_en": "Sudden population inflows may strain fragile rural water and ecological systems.",
+                    "example_vi": "Dòng dân cư tăng đột ngột có thể gây áp lực lên hệ sinh thái nông thôn mong manh."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference_articles": {
+            "vi": [
+              {
+                "source": "VnExpress Đời sống",
+                "title": "Xu hướng 'Bỏ phố về quê': Cơ hội chữa lành và những thực tế cần chuẩn bị",
+                "summary": "Tổng hợp các góc nhìn đa chiều về nguyên nhân người trẻ rời đô thị lớn về nông thôn, lợi ích sống xanh cũng như các thách thức thực tế về thu nhập và dịch vụ.",
+                "url": "https://vnexpress.net/doi-song"
+              }
+            ],
+            "en": [
+              {
+                "source": "Wikipedia",
+                "title": "Counterurbanization (Urban-to-Rural Migration): Causes and Effects",
+                "summary": "Academic overview of counterurbanization, exploring economic, environmental, and remote-work push/pull factors alongside impacts on rural economies and housing.",
+                "url": "https://en.wikipedia.org/wiki/Counterurbanization"
+              }
+            ]
+          }
+        }
       }
     ]
   },
