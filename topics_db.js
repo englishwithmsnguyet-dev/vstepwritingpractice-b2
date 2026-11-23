@@ -94056,6 +94056,132 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: LÁI XE KHI UỐNG RƯỢU BIA HOẶC MẤT TẬP TRUNG",
+                "point_vi": "Một số tài xế lái xe sau khi uống rượu bia hoặc sử dụng điện thoại trên đường.",
+                "point_en": "Some drivers drive after drinking alcohol or use their phones on the road.",
+                "point_collocations": [
+                  {
+                    "en": "drink alcohol",
+                    "vi": "uống rượu bia"
+                  },
+                  {
+                    "en": "use one's phone",
+                    "vi": "sử dụng điện thoại"
+                  },
+                  {
+                    "en": "on the road",
+                    "vi": "trên đường"
+                  }
+                ],
+                "evidence_vi": "Điều này làm giảm khả năng tập trung và phản ứng chậm hơn, nên rất dễ xảy ra tai nạn nghiêm trọng.",
+                "evidence_en": "This reduces their concentration and slows their reactions, so serious accidents can happen easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reduce concentration",
+                      "vi": "làm giảm khả năng tập trung"
+                    },
+                    {
+                      "en": "slow reactions",
+                      "vi": "làm chậm phản ứng"
+                    },
+                    {
+                      "en": "serious accidents",
+                      "vi": "tai nạn nghiêm trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "drink alcohol",
+                    "vi": "uống rượu bia"
+                  },
+                  {
+                    "en": "use one's phone",
+                    "vi": "sử dụng điện thoại"
+                  },
+                  {
+                    "en": "on the road",
+                    "vi": "trên đường"
+                  },
+                  {
+                    "en": "reduce concentration",
+                    "vi": "làm giảm khả năng tập trung"
+                  },
+                  {
+                    "en": "slow reactions",
+                    "vi": "làm chậm phản ứng"
+                  },
+                  {
+                    "en": "serious accidents",
+                    "vi": "tai nạn nghiêm trọng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: PHƯƠNG TIỆN XUỐNG CẤP VÀ THỜI TIẾT XẤU",
+                "point_vi": "Xe cộ không được bảo dưỡng tốt và thời tiết xấu cũng có thể gây ra tai nạn giao thông.",
+                "point_en": "Poorly maintained vehicles and bad weather can also cause traffic accidents.",
+                "point_collocations": [
+                  {
+                    "en": "poorly maintained vehicles",
+                    "vi": "phương tiện bảo dưỡng kém"
+                  },
+                  {
+                    "en": "bad weather",
+                    "vi": "thời tiết xấu"
+                  },
+                  {
+                    "en": "cause traffic accidents",
+                    "vi": "gây ra tai nạn giao thông"
+                  }
+                ],
+                "evidence_vi": "Mưa lớn làm đường trơn trượt, và phanh hoặc đèn xe bị hỏng khiến người lái rất khó kiểm soát xe an toàn.",
+                "evidence_en": "Heavy rain makes roads slippery, and broken brakes or lights make it very hard for drivers to control their vehicles safely.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "heavy rain",
+                      "vi": "mưa lớn"
+                    },
+                    {
+                      "en": "slippery roads",
+                      "vi": "đường trơn trượt"
+                    },
+                    {
+                      "en": "control vehicles safely",
+                      "vi": "kiểm soát phương tiện an toàn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "poorly maintained vehicles",
+                    "vi": "phương tiện bảo dưỡng kém"
+                  },
+                  {
+                    "en": "bad weather",
+                    "vi": "thời tiết xấu"
+                  },
+                  {
+                    "en": "cause traffic accidents",
+                    "vi": "gây ra tai nạn giao thông"
+                  },
+                  {
+                    "en": "heavy rain",
+                    "vi": "mưa lớn"
+                  },
+                  {
+                    "en": "slippery roads",
+                    "vi": "đường trơn trượt"
+                  },
+                  {
+                    "en": "control vehicles safely",
+                    "vi": "kiểm soát phương tiện an toàn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -94222,6 +94348,116 @@ const ESSAY_DATA = [
                       "vi": "lỗi lái xe nguy hiểm"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ÁP DỤNG HÌNH PHẠT NGHIÊM KHẮC HƠN",
+                "point_vi": "Chính phủ nên áp dụng các hình phạt nghiêm khắc hơn đối với người vi phạm luật giao thông.",
+                "point_en": "Governments should apply stricter punishments for people who break traffic laws.",
+                "point_collocations": [
+                  {
+                    "en": "strict punishments",
+                    "vi": "hình phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "break traffic laws",
+                    "vi": "vi phạm luật giao thông"
+                  }
+                ],
+                "evidence_vi": "Mức phạt tiền cao hoặc tước giấy phép lái xe có thể ngăn chặn hành vi lái xe quá tốc độ và uống rượu bia khi lái xe.",
+                "evidence_en": "Heavy fines or taking away driving licenses can stop people from speeding and drink-driving.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "heavy fines",
+                      "vi": "mức phạt tiền cao"
+                    },
+                    {
+                      "en": "driving licenses",
+                      "vi": "giấy phép lái xe"
+                    },
+                    {
+                      "en": "drink-driving",
+                      "vi": "lái xe khi đã uống rượu bia"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "strict punishments",
+                    "vi": "hình phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "break traffic laws",
+                    "vi": "vi phạm luật giao thông"
+                  },
+                  {
+                    "en": "heavy fines",
+                    "vi": "mức phạt tiền cao"
+                  },
+                  {
+                    "en": "driving licenses",
+                    "vi": "giấy phép lái xe"
+                  },
+                  {
+                    "en": "drink-driving",
+                    "vi": "lái xe khi đã uống rượu bia"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: KIỂM TRA PHƯƠNG TIỆN ĐỊNH KỲ VÀ KHUYẾN KHÍCH GIAO THÔNG CÔNG CỘNG",
+                "point_vi": "Cần kiểm tra xe thường xuyên và khuyến khích người dân sử dụng phương tiện công cộng nhiều hơn.",
+                "point_en": "Regular vehicle checks and greater use of public transport should be encouraged.",
+                "point_collocations": [
+                  {
+                    "en": "regular vehicle checks",
+                    "vi": "kiểm tra phương tiện định kỳ"
+                  },
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
+                  }
+                ],
+                "evidence_vi": "Khi phương tiện an toàn hơn và có ít xe cá nhân trên đường hơn, nguy cơ va chạm sẽ giảm đi rõ rệt.",
+                "evidence_en": "When vehicles are safer and fewer private vehicles are on the roads, the risk of crashes will drop noticeably.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "private vehicles",
+                      "vi": "phương tiện cá nhân"
+                    },
+                    {
+                      "en": "risk of crashes",
+                      "vi": "nguy cơ va chạm"
+                    },
+                    {
+                      "en": "drop noticeably",
+                      "vi": "giảm đi rõ rệt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "regular vehicle checks",
+                    "vi": "kiểm tra phương tiện định kỳ"
+                  },
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
+                  },
+                  {
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "risk of crashes",
+                    "vi": "nguy cơ va chạm"
+                  },
+                  {
+                    "en": "drop noticeably",
+                    "vi": "giảm đi rõ rệt"
+                  }
                 ]
               }
             ]
@@ -94466,6 +94702,176 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: LÁI XE KHI UỐNG RƯỢU BIA HOẶC MẤT TẬP TRUNG",
+                "point_vi": "Việc lái xe khi sử dụng rượu bia hoặc bị phân tâm bởi điện thoại làm gia tăng đáng kể các vụ va chạm nghiêm trọng.",
+                "point_en": "Driving under the influence of alcohol or being distracted by mobile devices significantly increases severe collisions.",
+                "point_collocations": [
+                  {
+                    "en": "drive under the influence",
+                    "vi": "lái xe khi có nồng độ cồn"
+                  },
+                  {
+                    "en": "be distracted by",
+                    "vi": "bị phân tâm bởi"
+                  },
+                  {
+                    "en": "severe collisions",
+                    "vi": "các vụ va chạm nghiêm trọng"
+                  }
+                ],
+                "evidence_vi": "Rượu bia và việc nhắn tin khi lái xe làm suy giảm khả năng phán đoán cũng như tốc độ phản xạ của người điều khiển phương tiện. Hậu quả là họ khó có thể phản ứng kịp thời trước các tình huống bất ngờ, gây nguy hiểm cho nhiều người tham gia giao thông.",
+                "evidence_en": "Alcohol and texting behind the wheel impair drivers' judgment and slow their reaction times. As a result, they struggle to respond promptly to unexpected hazards, putting numerous road users in danger.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "behind the wheel",
+                      "vi": "khi đang cầm lái"
+                    },
+                    {
+                      "en": "impair judgment",
+                      "vi": "làm suy giảm khả năng phán đoán"
+                    },
+                    {
+                      "en": "reaction times",
+                      "vi": "thời gian phản xạ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "respond promptly",
+                      "vi": "phản ứng kịp thời"
+                    },
+                    {
+                      "en": "unexpected hazards",
+                      "vi": "mối nguy bất ngờ"
+                    },
+                    {
+                      "en": "put in danger",
+                      "vi": "đặt vào tình thế nguy hiểm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "drive under the influence",
+                    "vi": "lái xe khi có nồng độ cồn"
+                  },
+                  {
+                    "en": "be distracted by",
+                    "vi": "bị phân tâm bởi"
+                  },
+                  {
+                    "en": "severe collisions",
+                    "vi": "các vụ va chạm nghiêm trọng"
+                  },
+                  {
+                    "en": "behind the wheel",
+                    "vi": "khi đang cầm lái"
+                  },
+                  {
+                    "en": "impair judgment",
+                    "vi": "làm suy giảm khả năng phán đoán"
+                  },
+                  {
+                    "en": "reaction times",
+                    "vi": "thời gian phản xạ"
+                  },
+                  {
+                    "en": "respond promptly",
+                    "vi": "phản ứng kịp thời"
+                  },
+                  {
+                    "en": "unexpected hazards",
+                    "vi": "mối nguy bất ngờ"
+                  },
+                  {
+                    "en": "put in danger",
+                    "vi": "đặt vào tình thế nguy hiểm"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: PHƯƠNG TIỆN XUỐNG CẤP VÀ ĐIỀU KIỆN THỜI TIẾT BẤT LỢI",
+                "point_vi": "Phương tiện không được bảo dưỡng đúng quy chuẩn và thời tiết khắc nghiệt cũng là những tác nhân đáng kể gây tai nạn.",
+                "point_en": "Poorly maintained vehicles and adverse weather conditions are also notable contributors to road accidents.",
+                "point_collocations": [
+                  {
+                    "en": "adverse weather conditions",
+                    "vi": "điều kiện thời tiết bất lợi"
+                  },
+                  {
+                    "en": "notable contributors",
+                    "vi": "những tác nhân đáng kể"
+                  }
+                ],
+                "evidence_vi": "Các lỗi kỹ thuật như phanh mòn hoặc lốp xe kém chất lượng có thể khiến tài xế mất kiểm soát đột ngột khi di chuyển ở tốc độ cao. Bên cạnh đó, sương mù dày đặc hay mưa lớn làm giảm tầm nhìn và khiến mặt đường trơn trượt, làm tăng nguy cơ tai nạn.",
+                "evidence_en": "Mechanical failures such as worn brakes or faulty tires can cause drivers to lose control suddenly at high speeds. Moreover, dense fog and torrential rain restrict visibility and create slippery surfaces, elevating the risk of crashes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mechanical failures",
+                      "vi": "lỗi kỹ thuật / hỏng hóc cơ học"
+                    },
+                    {
+                      "en": "lose control",
+                      "vi": "mất kiểm soát"
+                    },
+                    {
+                      "en": "at high speeds",
+                      "vi": "ở tốc độ cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "restrict visibility",
+                      "vi": "hạn chế tầm nhìn"
+                    },
+                    {
+                      "en": "slippery surfaces",
+                      "vi": "bề mặt trơn trượt"
+                    },
+                    {
+                      "en": "elevate the risk",
+                      "vi": "làm tăng nguy cơ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "adverse weather conditions",
+                    "vi": "điều kiện thời tiết bất lợi"
+                  },
+                  {
+                    "en": "notable contributors",
+                    "vi": "những tác nhân đáng kể"
+                  },
+                  {
+                    "en": "mechanical failures",
+                    "vi": "lỗi kỹ thuật / hỏng hóc cơ học"
+                  },
+                  {
+                    "en": "lose control",
+                    "vi": "mất kiểm soát"
+                  },
+                  {
+                    "en": "at high speeds",
+                    "vi": "ở tốc độ cao"
+                  },
+                  {
+                    "en": "restrict visibility",
+                    "vi": "hạn chế tầm nhìn"
+                  },
+                  {
+                    "en": "slippery surfaces",
+                    "vi": "bề mặt trơn trượt"
+                  },
+                  {
+                    "en": "elevate the risk",
+                    "vi": "làm tăng nguy cơ"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -94674,6 +95080,144 @@ const ESSAY_DATA = [
                       "vi": "vì vậy / do đó"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: THỰC THI CÁC CHẾ TÀI NGHIÊM KHẮC HƠN",
+                "point_vi": "Chính quyền nên thực thi luật giao thông chặt chẽ hơn và áp dụng hình phạt nặng đối với các hành vi vi phạm.",
+                "point_en": "Authorities should enforce traffic laws more strictly and impose severe penalties on offenders.",
+                "point_collocations": [
+                  {
+                    "en": "enforce traffic laws",
+                    "vi": "thực thi luật giao thông"
+                  },
+                  {
+                    "en": "impose severe penalties",
+                    "vi": "áp đặt hình phạt nghiêm khắc"
+                  }
+                ],
+                "evidence_vi": "Việc tăng cường kiểm tra nồng độ cồn, lắp đặt camera phạt nguội và tước bằng lái có thể răn đe hiệu quả các hành vi lái xe ẩu. Nhờ vậy, người tham gia giao thông sẽ có ý thức tuân thủ quy định an toàn nghiêm túc hơn.",
+                "evidence_en": "Conducting regular alcohol checkpoints, installing speed cameras, and revoking driving licenses can effectively deter reckless driving. Consequently, road users are far more likely to comply with safety regulations consistently.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "speed cameras",
+                      "vi": "camera giám sát tốc độ"
+                    },
+                    {
+                      "en": "revoke driving licenses",
+                      "vi": "tước giấy phép lái xe"
+                    },
+                    {
+                      "en": "deter reckless driving",
+                      "vi": "răn đe hành vi lái xe ẩu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "comply with regulations",
+                      "vi": "tuân thủ các quy định"
+                    },
+                    {
+                      "en": "consistently",
+                      "vi": "một cách nhất quán"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "enforce traffic laws",
+                    "vi": "thực thi luật giao thông"
+                  },
+                  {
+                    "en": "impose severe penalties",
+                    "vi": "áp đặt hình phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "speed cameras",
+                    "vi": "camera giám sát tốc độ"
+                  },
+                  {
+                    "en": "revoke driving licenses",
+                    "vi": "tước giấy phép lái xe"
+                  },
+                  {
+                    "en": "deter reckless driving",
+                    "vi": "răn đe hành vi lái xe ẩu"
+                  },
+                  {
+                    "en": "comply with regulations",
+                    "vi": "tuân thủ các quy định"
+                  },
+                  {
+                    "en": "consistently",
+                    "vi": "một cách nhất quán"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: KIỂM ĐỊNH PHƯƠNG TIỆN ĐỊNH KỲ VÀ PHÁT TRIỂN GIAO THÔNG CÔNG CỘNG",
+                "point_vi": "Cần bắt buộc kiểm định an toàn phương tiện định kỳ đồng thời đầu tư mạnh vào hệ thống giao thông công cộng.",
+                "point_en": "Mandatory vehicle safety inspections should be required alongside greater investment in public transportation.",
+                "point_collocations": [
+                  {
+                    "en": "mandatory safety inspections",
+                    "vi": "kiểm định an toàn bắt buộc"
+                  },
+                  {
+                    "en": "public transportation",
+                    "vi": "giao thông công cộng"
+                  }
+                ],
+                "evidence_vi": "Việc kiểm tra kỹ thuật thường xuyên đảm bảo rằng các phương tiện cũ kỹ hoặc không an toàn được sửa chữa kịp thời trước khi lưu thông. Đồng thời, một mạng lưới xe buýt và tàu điện tiện lợi giúp giảm mật độ xe cá nhân, qua đó hạ thấp đáng kể tần suất tai nạn.",
+                "evidence_en": "Routine technical inspections ensure that aging or unsafe vehicles are repaired promptly before entering the roads. Meanwhile, a convenient network of buses and trains lowers private vehicle density, substantially decreasing accident frequency.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "routine technical inspections",
+                      "vi": "kiểm tra kỹ thuật định kỳ"
+                    },
+                    {
+                      "en": "repaired promptly",
+                      "vi": "được sửa chữa kịp thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "vehicle density",
+                      "vi": "mật độ phương tiện"
+                    },
+                    {
+                      "en": "substantially decrease",
+                      "vi": "giảm đáng kể"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mandatory safety inspections",
+                    "vi": "kiểm định an toàn bắt buộc"
+                  },
+                  {
+                    "en": "public transportation",
+                    "vi": "giao thông công cộng"
+                  },
+                  {
+                    "en": "routine technical inspections",
+                    "vi": "kiểm tra kỹ thuật định kỳ"
+                  },
+                  {
+                    "en": "repaired promptly",
+                    "vi": "được sửa chữa kịp thời"
+                  },
+                  {
+                    "en": "vehicle density",
+                    "vi": "mật độ phương tiện"
+                  },
+                  {
+                    "en": "substantially decrease",
+                    "vi": "giảm đáng kể"
+                  }
                 ]
               }
             ]
@@ -95869,6 +96413,132 @@ const ESSAY_DATA = [
                 "point_en": "Many teenagers lack nutritional knowledge.",
                 "evidence_vi": "Điều này có nghĩa là họ có thể chọn thực phẩm không lành mạnh và hình thành thói quen ăn uống kém.",
                 "evidence_en": "This means that they may choose unhealthy food and develop poor eating habits."
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: ÁP LỰC HỌC TẬP VÀ THÓI QUEN NGỦ KÉM",
+                "point_vi": "Áp lực học tập và việc thiếu ngủ có thể khiến nhiều bạn trẻ dễ tăng cân.",
+                "point_en": "Study stress and a lack of sleep can make many young people gain weight easily.",
+                "point_collocations": [
+                  {
+                    "en": "study stress",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "lack of sleep",
+                    "vi": "thiếu ngủ"
+                  },
+                  {
+                    "en": "gain weight",
+                    "vi": "tăng cân"
+                  }
+                ],
+                "evidence_vi": "Khi cảm thấy căng thẳng hoặc thức khuya học bài, nhiều học sinh thường ăn đồ ngọt và đồ ăn vặt vào ban đêm.",
+                "evidence_en": "When they feel stressed or stay up late to study, many students often eat sweets and snacks at night.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel stressed",
+                      "vi": "cảm thấy căng thẳng"
+                    },
+                    {
+                      "en": "stay up late",
+                      "vi": "thức khuya"
+                    },
+                    {
+                      "en": "eat snacks at night",
+                      "vi": "ăn đồ ăn vặt vào ban đêm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "study stress",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "lack of sleep",
+                    "vi": "thiếu ngủ"
+                  },
+                  {
+                    "en": "gain weight",
+                    "vi": "tăng cân"
+                  },
+                  {
+                    "en": "feel stressed",
+                    "vi": "cảm thấy căng thẳng"
+                  },
+                  {
+                    "en": "stay up late",
+                    "vi": "thức khuya"
+                  },
+                  {
+                    "en": "eat snacks at night",
+                    "vi": "ăn đồ ăn vặt vào ban đêm"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: QUẢNG CÁO ĐỒ ĂN NHANH VÀ BẬN RỘN CỦA CHA MẸ",
+                "point_vi": "Quảng cáo đồ ăn nhanh và lịch trình bận rộn của cha mẹ cũng góp phần gây ra tình trạng béo phì ở trẻ em.",
+                "point_en": "Fast-food advertisements and parents' busy schedules also contribute to childhood obesity.",
+                "point_collocations": [
+                  {
+                    "en": "fast-food advertisements",
+                    "vi": "quảng cáo đồ ăn nhanh"
+                  },
+                  {
+                    "en": "busy schedules",
+                    "vi": "lịch trình bận rộn"
+                  },
+                  {
+                    "en": "childhood obesity",
+                    "vi": "béo phì ở trẻ em"
+                  }
+                ],
+                "evidence_vi": "Nhiều phụ huynh không có đủ thời gian nấu bữa ăn tại nhà nên thường mua đồ ăn chế biến sẵn hấp dẫn trẻ nhỏ.",
+                "evidence_en": "Many parents do not have enough time to cook at home, so they often buy ready-made food that attracts young children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cook at home",
+                      "vi": "nấu ăn tại nhà"
+                    },
+                    {
+                      "en": "ready-made food",
+                      "vi": "đồ ăn chế biến sẵn"
+                    },
+                    {
+                      "en": "attract young children",
+                      "vi": "thu hút trẻ nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fast-food advertisements",
+                    "vi": "quảng cáo đồ ăn nhanh"
+                  },
+                  {
+                    "en": "busy schedules",
+                    "vi": "lịch trình bận rộn"
+                  },
+                  {
+                    "en": "childhood obesity",
+                    "vi": "béo phì ở trẻ em"
+                  },
+                  {
+                    "en": "cook at home",
+                    "vi": "nấu ăn tại nhà"
+                  },
+                  {
+                    "en": "ready-made food",
+                    "vi": "đồ ăn chế biến sẵn"
+                  },
+                  {
+                    "en": "attract young children",
+                    "vi": "thu hút trẻ nhỏ"
+                  }
+                ]
               }
             ],
             "solutions": [
@@ -95938,6 +96608,108 @@ const ESSAY_DATA = [
                 "point_en": "Educate young people about healthy eating habits.",
                 "evidence_vi": "Điều này có nghĩa là họ có thể đưa ra những lựa chọn lành mạnh hơn trong cuộc sống hàng ngày.",
                 "evidence_en": "This means that they can make healthier choices in their daily lives."
+              },
+              {
+                "title": "GIẢI PHÁP 04: KIỂM SOÁT QUẢNG CÁO VÀ THỰC ĐƠN CĂNG-TIN TRƯỜNG HỌC",
+                "point_vi": "Chính phủ và nhà trường nên hạn chế quảng cáo đồ ăn không lành mạnh và cải thiện bữa ăn học đường.",
+                "point_en": "Governments and schools should limit unhealthy food ads and improve school meals.",
+                "point_collocations": [
+                  {
+                    "en": "limit unhealthy food ads",
+                    "vi": "hạn chế quảng cáo đồ ăn không lành mạnh"
+                  },
+                  {
+                    "en": "improve school meals",
+                    "vi": "cải thiện bữa ăn học đường"
+                  }
+                ],
+                "evidence_vi": "Các căng-tin trường học có thể thay thế nước ngọt và đồ chiên rán bằng trái cây tươi và các món ăn bổ dưỡng hơn.",
+                "evidence_en": "School canteens can replace soft drinks and fried snacks with fresh fruit and healthier dishes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "school canteens",
+                      "vi": "căng-tin trường học"
+                    },
+                    {
+                      "en": "soft drinks",
+                      "vi": "nước ngọt có ga"
+                    },
+                    {
+                      "en": "healthier dishes",
+                      "vi": "những món ăn lành mạnh hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "limit unhealthy food ads",
+                    "vi": "hạn chế quảng cáo đồ ăn không lành mạnh"
+                  },
+                  {
+                    "en": "improve school meals",
+                    "vi": "cải thiện bữa ăn học đường"
+                  },
+                  {
+                    "en": "school canteens",
+                    "vi": "căng-tin trường học"
+                  },
+                  {
+                    "en": "soft drinks",
+                    "vi": "nước ngọt có ga"
+                  },
+                  {
+                    "en": "healthier dishes",
+                    "vi": "những món ăn lành mạnh hơn"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: CHA MẸ LÀM GƯƠNG VÀ XÂY DỰNG NẾP SỐNG ĐIỀU ĐỘ",
+                "point_vi": "Cha mẹ nên nấu các bữa ăn cân bằng tại nhà và giúp con hình thành thói quen ngủ nghỉ hợp lý.",
+                "point_en": "Parents should cook balanced meals at home and help children build healthy sleep routines.",
+                "point_collocations": [
+                  {
+                    "en": "balanced meals",
+                    "vi": "bữa ăn cân bằng"
+                  },
+                  {
+                    "en": "healthy sleep routines",
+                    "vi": "thói quen ngủ lành mạnh"
+                  }
+                ],
+                "evidence_vi": "Khi cả gia đình cùng ăn uống lành mạnh và giới hạn thời gian dùng điện thoại, trẻ sẽ dễ duy trì cân nặng hợp lý hơn.",
+                "evidence_en": "When the whole family eats well together and limits phone time, children can maintain a healthy weight more easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "limit phone time",
+                      "vi": "giới hạn thời gian dùng điện thoại"
+                    },
+                    {
+                      "en": "maintain a healthy weight",
+                      "vi": "duy trì cân nặng hợp lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "balanced meals",
+                    "vi": "bữa ăn cân bằng"
+                  },
+                  {
+                    "en": "healthy sleep routines",
+                    "vi": "thói quen ngủ lành mạnh"
+                  },
+                  {
+                    "en": "limit phone time",
+                    "vi": "giới hạn thời gian dùng điện thoại"
+                  },
+                  {
+                    "en": "maintain a healthy weight",
+                    "vi": "duy trì cân nặng hợp lý"
+                  }
+                ]
               }
             ],
             "benefits": [
@@ -96121,6 +96893,132 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: ÁP LỰC HỌC TẬP VÀ THÓI QUEN NGỦ KÉM",
+                "point_vi": "Áp lực học tập và việc thiếu ngủ có thể khiến nhiều bạn trẻ dễ tăng cân.",
+                "point_en": "Study stress and a lack of sleep can make many young people gain weight easily.",
+                "point_collocations": [
+                  {
+                    "en": "study stress",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "lack of sleep",
+                    "vi": "thiếu ngủ"
+                  },
+                  {
+                    "en": "gain weight",
+                    "vi": "tăng cân"
+                  }
+                ],
+                "evidence_vi": "Khi cảm thấy căng thẳng hoặc thức khuya học bài, nhiều học sinh thường ăn đồ ngọt và đồ ăn vặt vào ban đêm.",
+                "evidence_en": "When they feel stressed or stay up late to study, many students often eat sweets and snacks at night.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel stressed",
+                      "vi": "cảm thấy căng thẳng"
+                    },
+                    {
+                      "en": "stay up late",
+                      "vi": "thức khuya"
+                    },
+                    {
+                      "en": "eat snacks at night",
+                      "vi": "ăn đồ ăn vặt vào ban đêm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "study stress",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "lack of sleep",
+                    "vi": "thiếu ngủ"
+                  },
+                  {
+                    "en": "gain weight",
+                    "vi": "tăng cân"
+                  },
+                  {
+                    "en": "feel stressed",
+                    "vi": "cảm thấy căng thẳng"
+                  },
+                  {
+                    "en": "stay up late",
+                    "vi": "thức khuya"
+                  },
+                  {
+                    "en": "eat snacks at night",
+                    "vi": "ăn đồ ăn vặt vào ban đêm"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: QUẢNG CÁO ĐỒ ĂN NHANH VÀ BẬN RỘN CỦA CHA MẸ",
+                "point_vi": "Quảng cáo đồ ăn nhanh và lịch trình bận rộn của cha mẹ cũng góp phần gây ra tình trạng béo phì ở trẻ em.",
+                "point_en": "Fast-food advertisements and parents' busy schedules also contribute to childhood obesity.",
+                "point_collocations": [
+                  {
+                    "en": "fast-food advertisements",
+                    "vi": "quảng cáo đồ ăn nhanh"
+                  },
+                  {
+                    "en": "busy schedules",
+                    "vi": "lịch trình bận rộn"
+                  },
+                  {
+                    "en": "childhood obesity",
+                    "vi": "béo phì ở trẻ em"
+                  }
+                ],
+                "evidence_vi": "Nhiều phụ huynh không có đủ thời gian nấu bữa ăn tại nhà nên thường mua đồ ăn chế biến sẵn hấp dẫn trẻ nhỏ.",
+                "evidence_en": "Many parents do not have enough time to cook at home, so they often buy ready-made food that attracts young children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cook at home",
+                      "vi": "nấu ăn tại nhà"
+                    },
+                    {
+                      "en": "ready-made food",
+                      "vi": "đồ ăn chế biến sẵn"
+                    },
+                    {
+                      "en": "attract young children",
+                      "vi": "thu hút trẻ nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fast-food advertisements",
+                    "vi": "quảng cáo đồ ăn nhanh"
+                  },
+                  {
+                    "en": "busy schedules",
+                    "vi": "lịch trình bận rộn"
+                  },
+                  {
+                    "en": "childhood obesity",
+                    "vi": "béo phì ở trẻ em"
+                  },
+                  {
+                    "en": "cook at home",
+                    "vi": "nấu ăn tại nhà"
+                  },
+                  {
+                    "en": "ready-made food",
+                    "vi": "đồ ăn chế biến sẵn"
+                  },
+                  {
+                    "en": "attract young children",
+                    "vi": "thu hút trẻ nhỏ"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -96295,6 +97193,108 @@ const ESSAY_DATA = [
                       "vi": "trong đời sống hằng ngày"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: KIỂM SOÁT QUẢNG CÁO VÀ THỰC ĐƠN CĂNG-TIN TRƯỜNG HỌC",
+                "point_vi": "Chính phủ và nhà trường nên hạn chế quảng cáo đồ ăn không lành mạnh và cải thiện bữa ăn học đường.",
+                "point_en": "Governments and schools should limit unhealthy food ads and improve school meals.",
+                "point_collocations": [
+                  {
+                    "en": "limit unhealthy food ads",
+                    "vi": "hạn chế quảng cáo đồ ăn không lành mạnh"
+                  },
+                  {
+                    "en": "improve school meals",
+                    "vi": "cải thiện bữa ăn học đường"
+                  }
+                ],
+                "evidence_vi": "Các căng-tin trường học có thể thay thế nước ngọt và đồ chiên rán bằng trái cây tươi và các món ăn bổ dưỡng hơn.",
+                "evidence_en": "School canteens can replace soft drinks and fried snacks with fresh fruit and healthier dishes.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "school canteens",
+                      "vi": "căng-tin trường học"
+                    },
+                    {
+                      "en": "soft drinks",
+                      "vi": "nước ngọt có ga"
+                    },
+                    {
+                      "en": "healthier dishes",
+                      "vi": "những món ăn lành mạnh hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "limit unhealthy food ads",
+                    "vi": "hạn chế quảng cáo đồ ăn không lành mạnh"
+                  },
+                  {
+                    "en": "improve school meals",
+                    "vi": "cải thiện bữa ăn học đường"
+                  },
+                  {
+                    "en": "school canteens",
+                    "vi": "căng-tin trường học"
+                  },
+                  {
+                    "en": "soft drinks",
+                    "vi": "nước ngọt có ga"
+                  },
+                  {
+                    "en": "healthier dishes",
+                    "vi": "những món ăn lành mạnh hơn"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: CHA MẸ LÀM GƯƠNG VÀ XÂY DỰNG NẾP SỐNG ĐIỀU ĐỘ",
+                "point_vi": "Cha mẹ nên nấu các bữa ăn cân bằng tại nhà và giúp con hình thành thói quen ngủ nghỉ hợp lý.",
+                "point_en": "Parents should cook balanced meals at home and help children build healthy sleep routines.",
+                "point_collocations": [
+                  {
+                    "en": "balanced meals",
+                    "vi": "bữa ăn cân bằng"
+                  },
+                  {
+                    "en": "healthy sleep routines",
+                    "vi": "thói quen ngủ lành mạnh"
+                  }
+                ],
+                "evidence_vi": "Khi cả gia đình cùng ăn uống lành mạnh và giới hạn thời gian dùng điện thoại, trẻ sẽ dễ duy trì cân nặng hợp lý hơn.",
+                "evidence_en": "When the whole family eats well together and limits phone time, children can maintain a healthy weight more easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "limit phone time",
+                      "vi": "giới hạn thời gian dùng điện thoại"
+                    },
+                    {
+                      "en": "maintain a healthy weight",
+                      "vi": "duy trì cân nặng hợp lý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "balanced meals",
+                    "vi": "bữa ăn cân bằng"
+                  },
+                  {
+                    "en": "healthy sleep routines",
+                    "vi": "thói quen ngủ lành mạnh"
+                  },
+                  {
+                    "en": "limit phone time",
+                    "vi": "giới hạn thời gian dùng điện thoại"
+                  },
+                  {
+                    "en": "maintain a healthy weight",
+                    "vi": "duy trì cân nặng hợp lý"
+                  }
                 ]
               }
             ]
@@ -96531,6 +97531,168 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: ÁP LỰC HỌC TẬP VÀ THÓI QUEN NGỦ KHÔNG ĐIỀU ĐỘ",
+                "point_vi": "Áp lực học tập kéo dài và tình trạng thiếu ngủ có thể gây rối loạn thói quen ăn uống và quá trình trao đổi chất ở người trẻ.",
+                "point_en": "Prolonged academic stress and insufficient sleep can disrupt eating patterns and metabolism among young people.",
+                "point_collocations": [
+                  {
+                    "en": "prolonged academic stress",
+                    "vi": "áp lực học tập kéo dài"
+                  },
+                  {
+                    "en": "insufficient sleep",
+                    "vi": "thiếu ngủ"
+                  },
+                  {
+                    "en": "disrupt metabolism",
+                    "vi": "làm rối loạn quá trình trao đổi chất"
+                  }
+                ],
+                "evidence_vi": "Nhiều học sinh đối phó với căng thẳng bằng cách ăn vặt theo cảm xúc, đặc biệt là các món ăn giàu đường và chất béo vào đêm khuya. Bên cạnh đó, việc ngủ không đủ giấc làm mất cân bằng hormone kiểm soát cảm giác đói, khiến nguy cơ thừa cân tăng cao.",
+                "evidence_en": "Many students cope with pressure through emotional eating, frequently consuming sugary and fatty snacks late at night. Furthermore, sleep deprivation disturbs hunger-regulating hormones, significantly increasing the likelihood of weight gain.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cope with pressure",
+                      "vi": "đối phó với áp lực"
+                    },
+                    {
+                      "en": "emotional eating",
+                      "vi": "ăn uống theo cảm xúc"
+                    },
+                    {
+                      "en": "sugary and fatty snacks",
+                      "vi": "đồ ăn vặt nhiều đường và chất béo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sleep deprivation",
+                      "vi": "tình trạng thiếu ngủ"
+                    },
+                    {
+                      "en": "likelihood of weight gain",
+                      "vi": "nguy cơ tăng cân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "prolonged academic stress",
+                    "vi": "áp lực học tập kéo dài"
+                  },
+                  {
+                    "en": "insufficient sleep",
+                    "vi": "thiếu ngủ"
+                  },
+                  {
+                    "en": "disrupt metabolism",
+                    "vi": "làm rối loạn quá trình trao đổi chất"
+                  },
+                  {
+                    "en": "cope with pressure",
+                    "vi": "đối phó với áp lực"
+                  },
+                  {
+                    "en": "emotional eating",
+                    "vi": "ăn uống theo cảm xúc"
+                  },
+                  {
+                    "en": "sugary and fatty snacks",
+                    "vi": "đồ ăn vặt nhiều đường và chất béo"
+                  },
+                  {
+                    "en": "sleep deprivation",
+                    "vi": "tình trạng thiếu ngủ"
+                  },
+                  {
+                    "en": "likelihood of weight gain",
+                    "vi": "nguy cơ tăng cân"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: QUẢNG CÁO ĐỒ ĂN NHANH VÀ THIẾU SỰ GIÁM SÁT CỦA GIA ĐÌNH",
+                "point_vi": "Các chiến dịch quảng cáo đồ ăn nhanh dày đặc cùng với lịch trình bận rộn của cha mẹ cũng thúc đẩy tình trạng béo phì ở giới trẻ.",
+                "point_en": "Aggressive fast-food marketing and parents' demanding work schedules also fuel youth obesity.",
+                "point_collocations": [
+                  {
+                    "en": "aggressive marketing",
+                    "vi": "chiến dịch tiếp thị dày đặc"
+                  },
+                  {
+                    "en": "demanding work schedules",
+                    "vi": "lịch làm việc bận rộn"
+                  },
+                  {
+                    "en": "fuel youth obesity",
+                    "vi": "thúc đẩy tình trạng béo phì ở giới trẻ"
+                  }
+                ],
+                "evidence_vi": "Trẻ em thường xuyên tiếp xúc với những quảng cáo bắt mắt về đồ ăn chế biến sẵn và nước giải khát trên truyền hình lẫn mạng xã hội. Đồng thời, nhiều phụ huynh bận rộn không có thời gian chuẩn bị bữa cơm gia đình, dẫn đến việc phụ thuộc vào đồ ăn mang về giàu calo.",
+                "evidence_en": "Children are constantly exposed to appealing advertisements for processed foods and sugary beverages on television and social media. Meanwhile, busy parents often lack time to prepare nutritious home-cooked meals, leading to heavy reliance on calorie-dense takeaways.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "be exposed to",
+                      "vi": "tiếp xúc với"
+                    },
+                    {
+                      "en": "processed foods",
+                      "vi": "thực phẩm chế biến sẵn"
+                    },
+                    {
+                      "en": "sugary beverages",
+                      "vi": "đồ uống nhiều đường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "home-cooked meals",
+                      "vi": "bữa ăn nấu tại nhà"
+                    },
+                    {
+                      "en": "calorie-dense takeaways",
+                      "vi": "đồ ăn mang về giàu calo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "aggressive marketing",
+                    "vi": "chiến dịch tiếp thị dày đặc"
+                  },
+                  {
+                    "en": "demanding work schedules",
+                    "vi": "lịch làm việc bận rộn"
+                  },
+                  {
+                    "en": "fuel youth obesity",
+                    "vi": "thúc đẩy tình trạng béo phì ở giới trẻ"
+                  },
+                  {
+                    "en": "be exposed to",
+                    "vi": "tiếp xúc với"
+                  },
+                  {
+                    "en": "processed foods",
+                    "vi": "thực phẩm chế biến sẵn"
+                  },
+                  {
+                    "en": "sugary beverages",
+                    "vi": "đồ uống nhiều đường"
+                  },
+                  {
+                    "en": "home-cooked meals",
+                    "vi": "bữa ăn nấu tại nhà"
+                  },
+                  {
+                    "en": "calorie-dense takeaways",
+                    "vi": "đồ ăn mang về giàu calo"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -96763,6 +97925,120 @@ const ESSAY_DATA = [
                       "vi": "trong đời sống hằng ngày"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: QUẢN LÝ QUẢNG CÁO THỰC PHẨM VÀ CẢI THIỆN BỮA ĂN HỌC ĐƯỜNG",
+                "point_vi": "Chính phủ nên kiểm soát chặt quảng cáo đồ ăn nhanh hướng tới trẻ em đồng thời nâng cao tiêu chuẩn dinh dưỡng tại trường học.",
+                "point_en": "Governments should regulate junk-food advertising aimed at children while raising nutritional standards in schools.",
+                "point_collocations": [
+                  {
+                    "en": "regulate advertising",
+                    "vi": "quản lý / kiểm soát quảng cáo"
+                  },
+                  {
+                    "en": "nutritional standards",
+                    "vi": "tiêu chuẩn dinh dưỡng"
+                  }
+                ],
+                "evidence_vi": "Việc áp thuế cao hơn đối với đồ uống nhiều đường và cấm bán đồ ăn vặt trong căng-tin trường học giúp hạn chế khả năng tiếp cận thực phẩm kém lành mạnh. Nhờ đó, học sinh sẽ dễ dàng tiếp cận hơn với các suất ăn cân bằng và bổ dưỡng mỗi ngày.",
+                "evidence_en": "Imposing higher taxes on sugary drinks and banning junk food in school canteens can restrict access to unhealthy products. Consequently, students will have much easier access to balanced and nutritious meals every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "impose higher taxes",
+                      "vi": "áp thuế cao hơn"
+                    },
+                    {
+                      "en": "restrict access to",
+                      "vi": "hạn chế quyền tiếp cận với"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "balanced and nutritious meals",
+                      "vi": "các bữa ăn cân bằng và bổ dưỡng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "regulate advertising",
+                    "vi": "quản lý / kiểm soát quảng cáo"
+                  },
+                  {
+                    "en": "nutritional standards",
+                    "vi": "tiêu chuẩn dinh dưỡng"
+                  },
+                  {
+                    "en": "impose higher taxes",
+                    "vi": "áp thuế cao hơn"
+                  },
+                  {
+                    "en": "restrict access to",
+                    "vi": "hạn chế quyền tiếp cận với"
+                  },
+                  {
+                    "en": "balanced and nutritious meals",
+                    "vi": "các bữa ăn cân bằng và bổ dưỡng"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: GIA ĐÌNH XÂY DỰNG LỐI SỐNG LÀNH MẠNH VÀ GIỚI HẠN THỜI GIAN MÀN HÌNH",
+                "point_vi": "Cha mẹ đóng vai trò then chốt trong việc làm gương về lối sống lành mạnh và quản lý thời gian sinh hoạt của con.",
+                "point_en": "Parents play a crucial role in modeling a healthy lifestyle and managing their children's daily routines.",
+                "point_collocations": [
+                  {
+                    "en": "play a crucial role in",
+                    "vi": "đóng vai trò then chốt trong"
+                  },
+                  {
+                    "en": "model a healthy lifestyle",
+                    "vi": "làm gương về lối sống lành mạnh"
+                  }
+                ],
+                "evidence_vi": "Phụ huynh có thể ưu tiên nấu các bữa ăn giàu rau xanh tại nhà, đặt giới hạn rõ ràng cho thời gian xem màn hình và khuyến khích con đi ngủ đúng giờ. Khi những thói quen tốt này được duy trì đều đặn trong gia đình, trẻ sẽ hình thành nếp sống khoa học lâu dài.",
+                "evidence_en": "Caregivers can prioritize home-cooked meals rich in vegetables, set clear limits on screen time, and encourage consistent bedtimes. When these positive habits are maintained within the household, young people are far more likely to sustain a healthy lifestyle long term.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "set clear limits on",
+                      "vi": "đặt ra giới hạn rõ ràng cho"
+                    },
+                    {
+                      "en": "consistent bedtimes",
+                      "vi": "giờ đi ngủ đều đặn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sustain a healthy lifestyle",
+                      "vi": "duy trì lối sống lành mạnh lâu dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "play a crucial role in",
+                    "vi": "đóng vai trò then chốt trong"
+                  },
+                  {
+                    "en": "model a healthy lifestyle",
+                    "vi": "làm gương về lối sống lành mạnh"
+                  },
+                  {
+                    "en": "set clear limits on",
+                    "vi": "đặt ra giới hạn rõ ràng cho"
+                  },
+                  {
+                    "en": "consistent bedtimes",
+                    "vi": "giờ đi ngủ đều đặn"
+                  },
+                  {
+                    "en": "sustain a healthy lifestyle",
+                    "vi": "duy trì lối sống lành mạnh lâu dài"
+                  }
                 ]
               }
             ]
@@ -98224,6 +99500,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: TUỔI THỌ THIẾT BỊ NGẮN VÀ CHI PHÍ SỬA CHỮA CAO",
+                "point_vi": "Nhiều thiết bị điện tử ngày nay nhanh hỏng và rất tốn kém để sửa chữa.",
+                "point_en": "Many modern electronic devices break down quickly and are expensive to repair.",
+                "point_collocations": [
+                  {
+                    "en": "break down quickly",
+                    "vi": "nhanh hỏng"
+                  },
+                  {
+                    "en": "expensive to repair",
+                    "vi": "tốn kém để sửa chữa"
+                  }
+                ],
+                "evidence_vi": "Khi chi phí sửa chữa gần bằng tiền mua máy mới, hầu hết khách hàng sẽ chọn vứt bỏ đồ cũ đi.",
+                "evidence_en": "When repair costs are almost as high as buying a new product, most customers choose to throw the old item away.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "repair costs",
+                      "vi": "chi phí sửa chữa"
+                    },
+                    {
+                      "en": "throw away",
+                      "vi": "vứt bỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "break down quickly",
+                    "vi": "nhanh hỏng"
+                  },
+                  {
+                    "en": "expensive to repair",
+                    "vi": "tốn kém để sửa chữa"
+                  },
+                  {
+                    "en": "repair costs",
+                    "vi": "chi phí sửa chữa"
+                  },
+                  {
+                    "en": "throw away",
+                    "vi": "vứt bỏ"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: CÔNG NGHỆ PHÁT TRIỂN NHANH VÀ QUẢNG CÁO HẤP DẪN",
+                "point_vi": "Công nghệ thay đổi nhanh chóng và các chiến dịch quảng cáo thúc đẩy người tiêu dùng mua thiết bị mới liên tục.",
+                "point_en": "Rapid technological changes and attractive advertising encourage consumers to buy new devices constantly.",
+                "point_collocations": [
+                  {
+                    "en": "rapid technological changes",
+                    "vi": "thay đổi công nghệ nhanh chóng"
+                  },
+                  {
+                    "en": "attractive advertising",
+                    "vi": "quảng cáo hấp dẫn"
+                  }
+                ],
+                "evidence_vi": "Các hãng công nghệ ra mắt mẫu điện thoại và máy tính mới mỗi năm, khiến các thiết bị cũ nhanh chóng trở nên lỗi thời.",
+                "evidence_en": "Tech companies release new phone and laptop models every year, making older devices seem outdated very quickly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "release new models",
+                      "vi": "ra mắt các mẫu mới"
+                    },
+                    {
+                      "en": "seem outdated",
+                      "vi": "trở nên lỗi thời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rapid technological changes",
+                    "vi": "thay đổi công nghệ nhanh chóng"
+                  },
+                  {
+                    "en": "attractive advertising",
+                    "vi": "quảng cáo hấp dẫn"
+                  },
+                  {
+                    "en": "release new models",
+                    "vi": "ra mắt các mẫu mới"
+                  },
+                  {
+                    "en": "seem outdated",
+                    "vi": "trở nên lỗi thời"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -98414,6 +99784,108 @@ const ESSAY_DATA = [
                       "vi": "thiết lập các điểm thu gom"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: YÊU CẦU NHÀ SẢN XUẤT TẠO SẢN PHẨM BỀN HƠN VÀ THU HỒI MÁY CŨ",
+                "point_vi": "Các công ty công nghệ nên sản xuất thiết bị bền hơn và thu hồi sản phẩm cũ từ khách hàng.",
+                "point_en": "Tech companies should produce more durable devices and collect old products from customers.",
+                "point_collocations": [
+                  {
+                    "en": "durable devices",
+                    "vi": "thiết bị bền hơn"
+                  },
+                  {
+                    "en": "collect old products",
+                    "vi": "thu hồi sản phẩm cũ"
+                  }
+                ],
+                "evidence_vi": "Ví dụ, các cửa hàng có thể giảm giá cho người mua khi họ mang điện thoại hoặc máy tính cũ đến để tái chế.",
+                "evidence_en": "For example, stores can offer discounts to buyers when they bring in old phones or laptops for recycling.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "offer discounts",
+                      "vi": "giảm giá"
+                    },
+                    {
+                      "en": "bring in old phones",
+                      "vi": "mang điện thoại cũ đến"
+                    },
+                    {
+                      "en": "for recycling",
+                      "vi": "để tái chế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "durable devices",
+                    "vi": "thiết bị bền hơn"
+                  },
+                  {
+                    "en": "collect old products",
+                    "vi": "thu hồi sản phẩm cũ"
+                  },
+                  {
+                    "en": "offer discounts",
+                    "vi": "giảm giá"
+                  },
+                  {
+                    "en": "bring in old phones",
+                    "vi": "mang điện thoại cũ đến"
+                  },
+                  {
+                    "en": "for recycling",
+                    "vi": "để tái chế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: BAN HÀNH LUẬT NGHIÊM KHẮC VỀ RÁC THẢI ĐIỆN TỬ",
+                "point_vi": "Chính phủ nên ban hành các quy định nghiêm ngặt hơn về việc xử lý rác thải điện tử.",
+                "point_en": "Governments should introduce stricter rules on electronic waste disposal.",
+                "point_collocations": [
+                  {
+                    "en": "introduce stricter rules",
+                    "vi": "ban hành quy định nghiêm ngặt hơn"
+                  },
+                  {
+                    "en": "electronic waste disposal",
+                    "vi": "xử lý rác thải điện tử"
+                  }
+                ],
+                "evidence_vi": "Việc phạt nặng các hành vi vứt bỏ thiết bị điện tử bừa bãi sẽ bảo vệ nguồn đất và nguồn nước khỏi hóa chất độc hại.",
+                "evidence_en": "Fining people and companies for illegal dumping will protect soil and water from harmful chemicals.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "illegal dumping",
+                      "vi": "vứt rác trái phép"
+                    },
+                    {
+                      "en": "harmful chemicals",
+                      "vi": "hóa chất độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "introduce stricter rules",
+                    "vi": "ban hành quy định nghiêm ngặt hơn"
+                  },
+                  {
+                    "en": "electronic waste disposal",
+                    "vi": "xử lý rác thải điện tử"
+                  },
+                  {
+                    "en": "illegal dumping",
+                    "vi": "vứt rác trái phép"
+                  },
+                  {
+                    "en": "harmful chemicals",
+                    "vi": "hóa chất độc hại"
+                  }
                 ]
               }
             ]
@@ -98681,6 +100153,144 @@ const ESSAY_DATA = [
                       "vi": "hệ quả là / do đó"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: TUỔI THỌ SẢN PHẨM NGẮN VÀ CHI PHÍ SỬA CHỮA CAO",
+                "point_vi": "Tuổi thọ thiết bị ngày càng ngắn kết hợp với chi phí sửa chữa đắt đỏ khiến người tiêu dùng có xu hướng vứt bỏ thay vì khắc phục.",
+                "point_en": "Short product lifespans combined with high repair costs push consumers to discard devices rather than fix them.",
+                "point_collocations": [
+                  {
+                    "en": "short product lifespans",
+                    "vi": "tuổi thọ sản phẩm ngắn"
+                  },
+                  {
+                    "en": "high repair costs",
+                    "vi": "chi phí sửa chữa cao"
+                  },
+                  {
+                    "en": "discard devices",
+                    "vi": "vứt bỏ thiết bị"
+                  }
+                ],
+                "evidence_vi": "Nhiều nhà sản xuất thiết kế các linh kiện khó tháo rời hoặc nhanh xuống cấp, khiến dịch vụ sửa chữa trở nên tốn kém và bất tiện. Kết quả là người dùng thường chọn mua thiết bị mới hoàn toàn, làm lượng rác thải điện tử tăng vọt.",
+                "evidence_en": "Many manufacturers design components that are difficult to replace or wear out rapidly, making repair services costly and inconvenient. As a consequence, users frequently opt to buy brand-new replacements, causing electronic waste to accumulate rapidly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "wear out rapidly",
+                      "vi": "nhanh xuống cấp"
+                    },
+                    {
+                      "en": "costly and inconvenient",
+                      "vi": "tốn kém và bất tiện"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "brand-new replacements",
+                      "vi": "thiết bị thay thế mới hoàn toàn"
+                    },
+                    {
+                      "en": "accumulate rapidly",
+                      "vi": "tích tụ nhanh chóng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "short product lifespans",
+                    "vi": "tuổi thọ sản phẩm ngắn"
+                  },
+                  {
+                    "en": "high repair costs",
+                    "vi": "chi phí sửa chữa cao"
+                  },
+                  {
+                    "en": "discard devices",
+                    "vi": "vứt bỏ thiết bị"
+                  },
+                  {
+                    "en": "wear out rapidly",
+                    "vi": "nhanh xuống cấp"
+                  },
+                  {
+                    "en": "costly and inconvenient",
+                    "vi": "tốn kém và bất tiện"
+                  },
+                  {
+                    "en": "brand-new replacements",
+                    "vi": "thiết bị thay thế mới hoàn toàn"
+                  },
+                  {
+                    "en": "accumulate rapidly",
+                    "vi": "tích tụ nhanh chóng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: ĐỔI MỚI CÔNG NGHỆ NHANH CHÓNG VÀ TIẾP THỊ KÍCH CẦU",
+                "point_vi": "Tốc độ đổi mới công nghệ chóng mặt và các chiến lược tiếp thị tinh vi liên tục thúc đẩy nhu cầu nâng cấp thiết bị.",
+                "point_en": "Rapid technological innovation and persuasive marketing strategies continually drive the demand for device upgrades.",
+                "point_collocations": [
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  },
+                  {
+                    "en": "persuasive marketing strategies",
+                    "vi": "chiến lược tiếp thị có sức thuyết phục"
+                  }
+                ],
+                "evidence_vi": "Các tập đoàn công nghệ thường xuyên tung ra các phiên bản mới với tính năng nâng cấp nhẹ và quảng bá chúng như xu hướng không thể thiếu. Điều này tạo ra tâm lý chạy theo công nghệ mới, khiến hàng triệu thiết bị vẫn còn tốt bị bỏ đi sớm.",
+                "evidence_en": "Technology corporations regularly launch upgraded models with minor improvements and promote them as must-have trends. This fosters a culture of constant upgrading, resulting in millions of functional gadgets being prematurely discarded.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "launch upgraded models",
+                      "vi": "tung ra các mẫu nâng cấp"
+                    },
+                    {
+                      "en": "must-have trends",
+                      "vi": "xu hướng không thể thiếu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prematurely discarded",
+                      "vi": "bị vứt bỏ quá sớm"
+                    },
+                    {
+                      "en": "functional gadgets",
+                      "vi": "thiết bị vẫn còn hoạt động tốt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "technological innovation",
+                    "vi": "đổi mới công nghệ"
+                  },
+                  {
+                    "en": "persuasive marketing strategies",
+                    "vi": "chiến lược tiếp thị có sức thuyết phục"
+                  },
+                  {
+                    "en": "launch upgraded models",
+                    "vi": "tung ra các mẫu nâng cấp"
+                  },
+                  {
+                    "en": "must-have trends",
+                    "vi": "xu hướng không thể thiếu"
+                  },
+                  {
+                    "en": "prematurely discarded",
+                    "vi": "bị vứt bỏ quá sớm"
+                  },
+                  {
+                    "en": "functional gadgets",
+                    "vi": "thiết bị vẫn còn hoạt động tốt"
+                  }
                 ]
               }
             ],
@@ -98958,6 +100568,136 @@ const ESSAY_DATA = [
                       "vi": "tái sử dụng thiết bị điện tử"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: TĂNG TRÁCH NHIỆM NHÀ SẢN XUẤT VÀ CHƯƠNG TRÌNH THU HỒI",
+                "point_vi": "Cần yêu cầu các nhà sản xuất tạo ra thiết bị bền bỉ, dễ sửa chữa hơn và triển khai các chương trình thu hồi sản phẩm cũ.",
+                "point_en": "Manufacturers should be required to build more durable, repairable products and operate take-back programmes.",
+                "point_collocations": [
+                  {
+                    "en": "durable, repairable products",
+                    "vi": "sản phẩm bền và dễ sửa chữa"
+                  },
+                  {
+                    "en": "take-back programmes",
+                    "vi": "chương trình thu hồi sản phẩm cũ"
+                  }
+                ],
+                "evidence_vi": "Các hãng điện tử có thể cung cấp linh kiện thay thế với mức giá hợp lý và tổ chức chương trình đổi cũ lấy mới kèm ưu đãi. Biện pháp này vừa kéo dài vòng đời sản phẩm vừa đảm bảo linh kiện quý được thu hồi và tái chế an toàn.",
+                "evidence_en": "Electronics brands can supply affordable spare parts and run trade-in schemes offering discounts on future purchases. Such initiatives both extend product lifecycles and ensure valuable components are recovered and recycled safely.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "affordable spare parts",
+                      "vi": "linh kiện thay thế giá phải chăng"
+                    },
+                    {
+                      "en": "trade-in schemes",
+                      "vi": "chương trình đổi cũ lấy mới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "extend product lifecycles",
+                      "vi": "kéo dài vòng đời sản phẩm"
+                    },
+                    {
+                      "en": "recover valuable components",
+                      "vi": "thu hồi các linh kiện quý"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "durable, repairable products",
+                    "vi": "sản phẩm bền và dễ sửa chữa"
+                  },
+                  {
+                    "en": "take-back programmes",
+                    "vi": "chương trình thu hồi sản phẩm cũ"
+                  },
+                  {
+                    "en": "affordable spare parts",
+                    "vi": "linh kiện thay thế giá phải chăng"
+                  },
+                  {
+                    "en": "trade-in schemes",
+                    "vi": "chương trình đổi cũ lấy mới"
+                  },
+                  {
+                    "en": "extend product lifecycles",
+                    "vi": "kéo dài vòng đời sản phẩm"
+                  },
+                  {
+                    "en": "recover valuable components",
+                    "vi": "thu hồi các linh kiện quý"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: BAN HÀNH PHÁP LUẬT CHẶT CHẼ VỀ QUẢN LÝ RÁC THẢI ĐIỆN TỬ",
+                "point_vi": "Chính phủ cần ban hành và thực thi các quy định pháp lý nghiêm ngặt nhằm kiểm soát việc xử lý và xuất khẩu rác thải điện tử.",
+                "point_en": "Governments must enact and enforce strict legislation to control the disposal and export of electronic waste.",
+                "point_collocations": [
+                  {
+                    "en": "enact strict legislation",
+                    "vi": "ban hành pháp luật nghiêm ngặt"
+                  },
+                  {
+                    "en": "disposal and export",
+                    "vi": "việc xử lý và xuất khẩu"
+                  }
+                ],
+                "evidence_vi": "Việc áp dụng mức phạt nặng đối với hành vi xả thải trái phép sẽ ngăn chặn các chất độc hại như chì và thủy ngân thấm vào đất và nguồn nước. Đồng thời, các quy định rõ ràng sẽ buộc doanh nghiệp đầu tư vào công nghệ xử lý thân thiện với môi trường.",
+                "evidence_en": "Imposing heavy fines on illegal dumping prevents toxic substances such as lead and mercury from contaminating soil and groundwater. At the same time, clear legal standards compel businesses to invest in environmentally friendly treatment technologies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "toxic substances",
+                      "vi": "các chất độc hại"
+                    },
+                    {
+                      "en": "contaminate soil and groundwater",
+                      "vi": "làm ô nhiễm đất và nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "clear legal standards",
+                      "vi": "tiêu chuẩn pháp lý rõ ràng"
+                    },
+                    {
+                      "en": "environmentally friendly",
+                      "vi": "thân thiện với môi trường"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "enact strict legislation",
+                    "vi": "ban hành pháp luật nghiêm ngặt"
+                  },
+                  {
+                    "en": "disposal and export",
+                    "vi": "việc xử lý và xuất khẩu"
+                  },
+                  {
+                    "en": "toxic substances",
+                    "vi": "các chất độc hại"
+                  },
+                  {
+                    "en": "contaminate soil and groundwater",
+                    "vi": "làm ô nhiễm đất và nước ngầm"
+                  },
+                  {
+                    "en": "clear legal standards",
+                    "vi": "tiêu chuẩn pháp lý rõ ràng"
+                  },
+                  {
+                    "en": "environmentally friendly",
+                    "vi": "thân thiện với môi trường"
+                  }
                 ]
               }
             ]
@@ -100235,6 +101975,108 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: THIẾU CƠ HỘI THĂNG TIẾN TRONG NƯỚC",
+                "point_vi": "Nhiều lao động giỏi rời đi vì họ có ít cơ hội thăng tiến tại quê nhà.",
+                "point_en": "Many skilled workers leave because they have few chances for career growth at home.",
+                "point_collocations": [
+                  {
+                    "en": "skilled workers",
+                    "vi": "lao động có tay nghề"
+                  },
+                  {
+                    "en": "career growth",
+                    "vi": "phát triển sự nghiệp"
+                  }
+                ],
+                "evidence_vi": "Tại một số tổ chức trong nước, việc đề bạt chưa dựa trên năng lực thực sự nên người trẻ dễ cảm thấy nản lòng.",
+                "evidence_en": "In some local organizations, promotions are not based on real ability, so young professionals easily feel discouraged.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "based on real ability",
+                      "vi": "dựa trên năng lực thực sự"
+                    },
+                    {
+                      "en": "feel discouraged",
+                      "vi": "cảm thấy nản lòng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "skilled workers",
+                    "vi": "lao động có tay nghề"
+                  },
+                  {
+                    "en": "career growth",
+                    "vi": "phát triển sự nghiệp"
+                  },
+                  {
+                    "en": "based on real ability",
+                    "vi": "dựa trên năng lực thực sự"
+                  },
+                  {
+                    "en": "feel discouraged",
+                    "vi": "cảm thấy nản lòng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: CHÍNH SÁCH THỊ THỰC HẤP DẪN TỪ CÁC NƯỚC PHÁT TRIỂN",
+                "point_vi": "Các nước phát triển đưa ra nhiều chính sách thuận lợi để thu hút lao động trình độ cao từ nước ngoài.",
+                "point_en": "Developed countries offer attractive policies to welcome highly educated workers from abroad.",
+                "point_collocations": [
+                  {
+                    "en": "developed countries",
+                    "vi": "các nước phát triển"
+                  },
+                  {
+                    "en": "highly educated workers",
+                    "vi": "lao động có trình độ cao"
+                  }
+                ],
+                "evidence_vi": "Họ cấp thị thực làm việc dài hạn và hỗ trợ chỗ ở, giúp người tài dễ dàng chuyển ra nước ngoài sinh sống.",
+                "evidence_en": "They provide long-term work visas and housing support, making it much easier for talented people to move abroad.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "long-term work visas",
+                      "vi": "thị thực làm việc dài hạn"
+                    },
+                    {
+                      "en": "housing support",
+                      "vi": "hỗ trợ chỗ ở"
+                    },
+                    {
+                      "en": "move abroad",
+                      "vi": "chuyển ra nước ngoài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "developed countries",
+                    "vi": "các nước phát triển"
+                  },
+                  {
+                    "en": "highly educated workers",
+                    "vi": "lao động có trình độ cao"
+                  },
+                  {
+                    "en": "long-term work visas",
+                    "vi": "thị thực làm việc dài hạn"
+                  },
+                  {
+                    "en": "housing support",
+                    "vi": "hỗ trợ chỗ ở"
+                  },
+                  {
+                    "en": "move abroad",
+                    "vi": "chuyển ra nước ngoài"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -100318,6 +102160,100 @@ const ESSAY_DATA = [
                       "vi": "cơ hội nghề nghiệp"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: XÂY DỰNG MÔI TRƯỜNG LÀM VIỆC CÔNG BẰNG VÀ CẢI THIỆN DỊCH VỤ CÔNG",
+                "point_vi": "Các quốc gia nên xây dựng môi trường làm việc công bằng hơn và cải thiện chất lượng dịch vụ công.",
+                "point_en": "Countries should build fairer workplaces and improve the quality of public services.",
+                "point_collocations": [
+                  {
+                    "en": "fairer workplaces",
+                    "vi": "môi trường làm việc công bằng hơn"
+                  },
+                  {
+                    "en": "public services",
+                    "vi": "dịch vụ công"
+                  }
+                ],
+                "evidence_vi": "Khi nhân viên được đánh giá đúng năng lực và được hưởng y tế, giáo dục tốt, họ sẽ muốn gắn bó lâu dài tại quê nhà.",
+                "evidence_en": "When employees are rewarded fairly for their ability and enjoy good healthcare and education, they will want to stay at home.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rewarded fairly",
+                      "vi": "được đãi ngộ công bằng"
+                    },
+                    {
+                      "en": "good healthcare and education",
+                      "vi": "y tế và giáo dục tốt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "fairer workplaces",
+                    "vi": "môi trường làm việc công bằng hơn"
+                  },
+                  {
+                    "en": "public services",
+                    "vi": "dịch vụ công"
+                  },
+                  {
+                    "en": "rewarded fairly",
+                    "vi": "được đãi ngộ công bằng"
+                  },
+                  {
+                    "en": "good healthcare and education",
+                    "vi": "y tế và giáo dục tốt"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: HỖ TRỢ KHỞI NGHIỆP VÀ KẾT NỐI CHUYÊN GIA TRỰC TUYẾN",
+                "point_vi": "Chính phủ có thể hỗ trợ người trẻ khởi nghiệp và kết nối với các chuyên gia ở nước ngoài qua mạng.",
+                "point_en": "Governments can support young people in starting businesses and connect with overseas experts online.",
+                "point_collocations": [
+                  {
+                    "en": "start businesses",
+                    "vi": "khởi nghiệp"
+                  },
+                  {
+                    "en": "overseas experts",
+                    "vi": "chuyên gia ở nước ngoài"
+                  }
+                ],
+                "evidence_vi": "Nhờ các khoản vay ưu đãi và dự án hợp tác trực tuyến, nhân tài vẫn có thể đóng góp kiến thức cho đất nước từ xa.",
+                "evidence_en": "With low-interest loans and online cooperation projects, talented people can still contribute their knowledge to their homeland.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "low-interest loans",
+                      "vi": "các khoản vay lãi suất thấp"
+                    },
+                    {
+                      "en": "contribute knowledge",
+                      "vi": "đóng góp kiến thức"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "start businesses",
+                    "vi": "khởi nghiệp"
+                  },
+                  {
+                    "en": "overseas experts",
+                    "vi": "chuyên gia ở nước ngoài"
+                  },
+                  {
+                    "en": "low-interest loans",
+                    "vi": "các khoản vay lãi suất thấp"
+                  },
+                  {
+                    "en": "contribute knowledge",
+                    "vi": "đóng góp kiến thức"
+                  }
                 ]
               }
             ]
@@ -100570,6 +102506,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: THIẾU CƠ HỘI THĂNG TIẾN VÀ MÔI TRƯỜNG MINH BẠCH TRONG NƯỚC",
+                "point_vi": "Cơ hội thăng tiến hạn chế và môi trường làm việc thiếu tính trọng dụng nhân tài khiến nhiều chuyên gia rời bỏ quê hương.",
+                "point_en": "Limited career progression and a lack of merit-based workplaces compel many professionals to leave their home countries.",
+                "point_collocations": [
+                  {
+                    "en": "career progression",
+                    "vi": "sự thăng tiến nghề nghiệp"
+                  },
+                  {
+                    "en": "merit-based workplaces",
+                    "vi": "môi trường làm việc dựa trên năng lực"
+                  }
+                ],
+                "evidence_vi": "Ở một số quốc gia đang phát triển, thủ tục hành chính rườm rà và sự thiếu công bằng trong đánh giá hiệu suất cản trở người trẻ phát huy năng lực. Do đó, họ tìm kiếm những thị trường lao động minh bạch hơn, nơi nỗ lực và sáng tạo được ghi nhận xứng đáng.",
+                "evidence_en": "In some developing nations, bureaucratic hurdles and unfair performance evaluations prevent young experts from realizing their potential. Therefore, they seek more transparent labor markets where effort and innovation are genuinely rewarded.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "bureaucratic hurdles",
+                      "vi": "rào cản hành chính"
+                    },
+                    {
+                      "en": "realize one's potential",
+                      "vi": "phát huy tiềm năng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "transparent labor markets",
+                      "vi": "thị trường lao động minh bạch"
+                    },
+                    {
+                      "en": "genuinely rewarded",
+                      "vi": "được ghi nhận xứng đáng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "career progression",
+                    "vi": "sự thăng tiến nghề nghiệp"
+                  },
+                  {
+                    "en": "merit-based workplaces",
+                    "vi": "môi trường làm việc dựa trên năng lực"
+                  },
+                  {
+                    "en": "bureaucratic hurdles",
+                    "vi": "rào cản hành chính"
+                  },
+                  {
+                    "en": "realize one's potential",
+                    "vi": "phát huy tiềm năng"
+                  },
+                  {
+                    "en": "transparent labor markets",
+                    "vi": "thị trường lao động minh bạch"
+                  },
+                  {
+                    "en": "genuinely rewarded",
+                    "vi": "được ghi nhận xứng đáng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: CHÍNH SÁCH TUYỂN DỤNG VÀ THỊ THỰC HẤP DẪN TỪ CÁC NƯỚC PHÁT TRIỂN",
+                "point_vi": "Các chính sách nhập cư cởi mở và chiến lược chiêu mộ nhân tài quốc tế từ những nền kinh tế giàu có cũng đẩy nhanh tình trạng chảy máu chất xám.",
+                "point_en": "Favorable immigration policies and active international recruitment by wealthy economies also accelerate brain drain.",
+                "point_collocations": [
+                  {
+                    "en": "favorable immigration policies",
+                    "vi": "chính sách nhập cư thuận lợi"
+                  },
+                  {
+                    "en": "accelerate brain drain",
+                    "vi": "đẩy nhanh tình trạng chảy máu chất xám"
+                  }
+                ],
+                "evidence_vi": "Nhiều nước phát triển đang đối mặt với tình trạng già hóa dân số nên thường xuyên cấp học bổng toàn phần và thị thực định cư nhanh cho kỹ sư, bác sĩ nước ngoài. Sự cạnh tranh toàn cầu này khiến các quốc gia đang phát triển rất khó giữ chân nguồn nhân lực chất lượng cao.",
+                "evidence_en": "Many developed nations facing aging populations actively offer full scholarships and fast-track residency visas to foreign engineers and doctors. This global competition makes it exceedingly difficult for developing countries to retain their top talent.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "aging populations",
+                      "vi": "dân số già hóa"
+                    },
+                    {
+                      "en": "fast-track residency visas",
+                      "vi": "thị thực định cư nhanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "global competition",
+                      "vi": "cạnh tranh toàn cầu"
+                    },
+                    {
+                      "en": "retain top talent",
+                      "vi": "giữ chân nhân tài hàng đầu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "favorable immigration policies",
+                    "vi": "chính sách nhập cư thuận lợi"
+                  },
+                  {
+                    "en": "accelerate brain drain",
+                    "vi": "đẩy nhanh tình trạng chảy máu chất xám"
+                  },
+                  {
+                    "en": "aging populations",
+                    "vi": "dân số già hóa"
+                  },
+                  {
+                    "en": "fast-track residency visas",
+                    "vi": "thị thực định cư nhanh"
+                  },
+                  {
+                    "en": "global competition",
+                    "vi": "cạnh tranh toàn cầu"
+                  },
+                  {
+                    "en": "retain top talent",
+                    "vi": "giữ chân nhân tài hàng đầu"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -100794,6 +102860,144 @@ const ESSAY_DATA = [
                       "vi": "vì vậy / do đó"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: XÂY DỰNG MÔI TRƯỜNG LÀM VIỆC MINH BẠCH VÀ NÂNG CAO DỊCH VỤ CÔNG",
+                "point_vi": "Cần cải cách hệ thống đánh giá nhân sự theo hướng minh bạch đồng thời nâng cấp chất lượng các dịch vụ công thiết yếu.",
+                "point_en": "Reform personnel evaluation toward transparency while upgrading the quality of essential public services.",
+                "point_collocations": [
+                  {
+                    "en": "personnel evaluation",
+                    "vi": "đánh giá nhân sự"
+                  },
+                  {
+                    "en": "essential public services",
+                    "vi": "dịch vụ công thiết yếu"
+                  }
+                ],
+                "evidence_vi": "Khi các tổ chức trong nước đảm bảo lộ trình thăng tiến công bằng dựa trên năng lực, người lao động giỏi sẽ có thêm động lực cống hiến. Hơn nữa, việc đầu tư vào y tế, giáo dục và môi trường sống an toàn sẽ thuyết phục nhiều gia đình chuyên gia lựa chọn ở lại lâu dài.",
+                "evidence_en": "When domestic institutions guarantee fair, merit-based promotion pathways, skilled employees gain stronger motivation to stay. Furthermore, investing in healthcare, education, and safe living environments can persuade skilled families to build their futures locally.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "merit-based promotion",
+                      "vi": "thăng tiến dựa trên năng lực"
+                    },
+                    {
+                      "en": "stronger motivation",
+                      "vi": "động lực mạnh mẽ hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "safe living environments",
+                      "vi": "môi trường sống an toàn"
+                    },
+                    {
+                      "en": "build one's future locally",
+                      "vi": "xây dựng tương lai trong nước"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personnel evaluation",
+                    "vi": "đánh giá nhân sự"
+                  },
+                  {
+                    "en": "essential public services",
+                    "vi": "dịch vụ công thiết yếu"
+                  },
+                  {
+                    "en": "merit-based promotion",
+                    "vi": "thăng tiến dựa trên năng lực"
+                  },
+                  {
+                    "en": "stronger motivation",
+                    "vi": "động lực mạnh mẽ hơn"
+                  },
+                  {
+                    "en": "safe living environments",
+                    "vi": "môi trường sống an toàn"
+                  },
+                  {
+                    "en": "build one's future locally",
+                    "vi": "xây dựng tương lai trong nước"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: HỖ TRỢ HỆ SINH THÁI KHỞI NGHIỆP VÀ KẾT NỐI CHUYÊN GIA TOÀN CẦU",
+                "point_vi": "Chính phủ nên khuyến khích khởi nghiệp đổi mới sáng tạo và thiết lập mạng lưới hợp tác từ xa với các chuyên gia ở nước ngoài.",
+                "point_en": "Promote local entrepreneurship and establish remote collaboration networks with overseas professionals.",
+                "point_collocations": [
+                  {
+                    "en": "local entrepreneurship",
+                    "vi": "tinh thần khởi nghiệp trong nước"
+                  },
+                  {
+                    "en": "remote collaboration networks",
+                    "vi": "mạng lưới hợp tác từ xa"
+                  }
+                ],
+                "evidence_vi": "Việc cung cấp vốn mồi, ưu đãi thuế và không gian sáng tạo giúp các nhân tài trẻ hiện thực hóa ý tưởng ngay tại quê nhà. Đồng thời, các chương trình cố vấn và nghiên cứu chung trực tuyến cho phép trí thức hải ngoại chuyển giao công nghệ mà không nhất thiết phải hồi hương ngay lập tức.",
+                "evidence_en": "Providing seed funding, tax incentives, and innovation hubs enables young talents to turn their ideas into domestic businesses. Meanwhile, online mentoring and joint research initiatives allow overseas experts to transfer knowledge without needing to relocate permanently.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "seed funding",
+                      "vi": "vốn khởi nghiệp ban đầu"
+                    },
+                    {
+                      "en": "tax incentives",
+                      "vi": "ưu đãi thuế"
+                    },
+                    {
+                      "en": "innovation hubs",
+                      "vi": "trung tâm đổi mới sáng tạo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "transfer knowledge",
+                      "vi": "chuyển giao tri thức"
+                    },
+                    {
+                      "en": "relocate permanently",
+                      "vi": "chuyển chỗ ở lâu dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "local entrepreneurship",
+                    "vi": "tinh thần khởi nghiệp trong nước"
+                  },
+                  {
+                    "en": "remote collaboration networks",
+                    "vi": "mạng lưới hợp tác từ xa"
+                  },
+                  {
+                    "en": "seed funding",
+                    "vi": "vốn khởi nghiệp ban đầu"
+                  },
+                  {
+                    "en": "tax incentives",
+                    "vi": "ưu đãi thuế"
+                  },
+                  {
+                    "en": "innovation hubs",
+                    "vi": "trung tâm đổi mới sáng tạo"
+                  },
+                  {
+                    "en": "transfer knowledge",
+                    "vi": "chuyển giao tri thức"
+                  },
+                  {
+                    "en": "relocate permanently",
+                    "vi": "chuyển chỗ ở lâu dài"
+                  }
                 ]
               }
             ]
@@ -101888,6 +104092,108 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Nạn phá rừng và tốc độ xây dựng đô thị nhanh làm giảm khả năng giữ nước tự nhiên của đất.",
+                "point_en": "Deforestation and fast urban growth reduce the soil's natural ability to hold water.",
+                "point_collocations": [
+                  {
+                    "en": "deforestation",
+                    "vi": "nạn phá rừng"
+                  },
+                  {
+                    "en": "urban growth",
+                    "vi": "sự mở rộng đô thị"
+                  },
+                  {
+                    "en": "hold water",
+                    "vi": "giữ nước"
+                  }
+                ],
+                "evidence_vi": "Khi có ít cây xanh và nhiều mặt đường bê tông hơn, nước mưa chảy trôi nhanh thay vì thấm xuống mạch nước ngầm.",
+                "evidence_en": "When there are fewer trees and more concrete roads, rainwater runs away quickly instead of soaking into the ground.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "concrete roads",
+                      "vi": "đường bê tông"
+                    },
+                    {
+                      "en": "soak into the ground",
+                      "vi": "thấm xuống lòng đất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "deforestation",
+                    "vi": "nạn phá rừng"
+                  },
+                  {
+                    "en": "urban growth",
+                    "vi": "sự mở rộng đô thị"
+                  },
+                  {
+                    "en": "hold water",
+                    "vi": "giữ nước"
+                  },
+                  {
+                    "en": "concrete roads",
+                    "vi": "đường bê tông"
+                  },
+                  {
+                    "en": "soak into the ground",
+                    "vi": "thấm xuống lòng đất"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Các phương pháp tưới tiêu nông nghiệp cũ kỹ gây lãng phí một lượng nước ngọt rất lớn.",
+                "point_en": "Old agricultural watering methods waste a huge amount of freshwater.",
+                "point_collocations": [
+                  {
+                    "en": "agricultural watering methods",
+                    "vi": "phương pháp tưới tiêu nông nghiệp"
+                  },
+                  {
+                    "en": "waste freshwater",
+                    "vi": "lãng phí nước ngọt"
+                  }
+                ],
+                "evidence_vi": "Ở nhiều trang trại, một phần lớn nước tưới bị bay hơi hoặc rò rỉ trước khi đến được rễ cây trồng.",
+                "evidence_en": "On many farms, a large part of the water evaporates or leaks away before it reaches the crops.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "evaporate",
+                      "vi": "bay hơi"
+                    },
+                    {
+                      "en": "reach the crops",
+                      "vi": "đến được cây trồng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "agricultural watering methods",
+                    "vi": "phương pháp tưới tiêu nông nghiệp"
+                  },
+                  {
+                    "en": "waste freshwater",
+                    "vi": "lãng phí nước ngọt"
+                  },
+                  {
+                    "en": "evaporate",
+                    "vi": "bay hơi"
+                  },
+                  {
+                    "en": "reach the crops",
+                    "vi": "đến được cây trồng"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -102074,6 +104380,100 @@ const ESSAY_DATA = [
                       "vi": "sử dụng nước có trách nhiệm"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Các quốc gia nên áp dụng công nghệ tái chế nước thải và hệ thống tưới tiêu tiết kiệm nước.",
+                "point_en": "Countries should use wastewater recycling technology and water-saving irrigation systems.",
+                "point_collocations": [
+                  {
+                    "en": "wastewater recycling",
+                    "vi": "tái chế nước thải"
+                  },
+                  {
+                    "en": "water-saving irrigation",
+                    "vi": "tưới tiêu tiết kiệm nước"
+                  }
+                ],
+                "evidence_vi": "Nước đã qua xử lý có thể được dùng lại cho nông nghiệp hoặc tưới công viên, giúp giảm áp lực lên nguồn nước sạch.",
+                "evidence_en": "Treated water can be reused for farming or watering parks, which reduces pressure on clean water supplies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "treated water",
+                      "vi": "nước đã qua xử lý"
+                    },
+                    {
+                      "en": "clean water supplies",
+                      "vi": "nguồn cung nước sạch"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "wastewater recycling",
+                    "vi": "tái chế nước thải"
+                  },
+                  {
+                    "en": "water-saving irrigation",
+                    "vi": "tưới tiêu tiết kiệm nước"
+                  },
+                  {
+                    "en": "treated water",
+                    "vi": "nước đã qua xử lý"
+                  },
+                  {
+                    "en": "clean water supplies",
+                    "vi": "nguồn cung nước sạch"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Chính phủ cần bảo vệ rừng và xử phạt nghiêm các nhà máy làm ô nhiễm sông hồ.",
+                "point_en": "Governments need to protect forests and strictly fine factories that pollute rivers and lakes.",
+                "point_collocations": [
+                  {
+                    "en": "protect forests",
+                    "vi": "bảo vệ rừng"
+                  },
+                  {
+                    "en": "strictly fine",
+                    "vi": "xử phạt nghiêm"
+                  }
+                ],
+                "evidence_vi": "Việc trồng thêm cây và kiểm soát chất thải công nghiệp giúp duy trì nguồn nước ngọt sạch và ổn định hơn cho tương lai.",
+                "evidence_en": "Planting more trees and controlling industrial waste help keep freshwater sources clean and stable for the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "industrial waste",
+                      "vi": "chất thải công nghiệp"
+                    },
+                    {
+                      "en": "freshwater sources",
+                      "vi": "nguồn nước ngọt"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "protect forests",
+                    "vi": "bảo vệ rừng"
+                  },
+                  {
+                    "en": "strictly fine",
+                    "vi": "xử phạt nghiêm"
+                  },
+                  {
+                    "en": "industrial waste",
+                    "vi": "chất thải công nghiệp"
+                  },
+                  {
+                    "en": "freshwater sources",
+                    "vi": "nguồn nước ngọt"
+                  }
                 ]
               }
             ]
@@ -102310,6 +104710,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Nạn phá rừng và quá trình đô thị hóa không kiểm soát làm suy giảm nghiêm trọng khả năng tái tạo nguồn nước ngầm.",
+                "point_en": "Deforestation and rapid urbanization severely impair the natural replenishment of groundwater reserves.",
+                "point_collocations": [
+                  {
+                    "en": "rapid urbanization",
+                    "vi": "đô thị hóa nhanh chóng"
+                  },
+                  {
+                    "en": "groundwater reserves",
+                    "vi": "trữ lượng nước ngầm"
+                  }
+                ],
+                "evidence_vi": "Rừng đóng vai trò như tấm bọt biển tự nhiên giúp giữ lại nước mưa và duy trì dòng chảy ổn định cho sông suối. Khi thảm thực vật bị thay thế bằng bề mặt bê tông, nước mưa nhanh chóng chảy tràn thay vì thấm xuống đất, làm cạn kiệt tầng chứa nước.",
+                "evidence_en": "Forests act as natural sponges that retain rainwater and sustain steady river flows. Once vegetation is replaced by concrete surfaces, rainwater runs off rapidly rather than percolating into the soil, depleting underground aquifers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "retain rainwater",
+                      "vi": "giữ lại nước mưa"
+                    },
+                    {
+                      "en": "sustain river flows",
+                      "vi": "duy trì dòng chảy sông ngòi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "concrete surfaces",
+                      "vi": "bề mặt bê tông"
+                    },
+                    {
+                      "en": "deplete underground aquifers",
+                      "vi": "làm cạn kiệt tầng chứa nước ngầm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rapid urbanization",
+                    "vi": "đô thị hóa nhanh chóng"
+                  },
+                  {
+                    "en": "groundwater reserves",
+                    "vi": "trữ lượng nước ngầm"
+                  },
+                  {
+                    "en": "retain rainwater",
+                    "vi": "giữ lại nước mưa"
+                  },
+                  {
+                    "en": "sustain river flows",
+                    "vi": "duy trì dòng chảy sông ngòi"
+                  },
+                  {
+                    "en": "concrete surfaces",
+                    "vi": "bề mặt bê tông"
+                  },
+                  {
+                    "en": "deplete underground aquifers",
+                    "vi": "làm cạn kiệt tầng chứa nước ngầm"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Phương thức tưới tiêu nông nghiệp lạc hậu chiếm tỷ trọng tiêu thụ lớn nhưng lại gây thất thoát nước ngọt nghiêm trọng.",
+                "point_en": "Inefficient agricultural irrigation accounts for massive consumption while causing severe freshwater losses.",
+                "point_collocations": [
+                  {
+                    "en": "inefficient irrigation",
+                    "vi": "tưới tiêu kém hiệu quả"
+                  },
+                  {
+                    "en": "freshwater losses",
+                    "vi": "thất thoát nước ngọt"
+                  }
+                ],
+                "evidence_vi": "Nhiều khu vực canh tác vẫn sử dụng kỹ thuật tưới tràn truyền thống khiến phần lớn nước bị bốc hơi hoặc chảy lãng phí. Điều này không chỉ tạo áp lực nặng nề lên sông hồ địa phương mà còn làm suy kiệt nguồn nước dự trữ vào mùa khô.",
+                "evidence_en": "Many farming regions still rely on traditional flood irrigation, causing a large proportion of water to evaporate or run off unused. This not only strains local rivers and lakes but also exhausts essential water reserves during dry seasons.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "flood irrigation",
+                      "vi": "tưới tràn"
+                    },
+                    {
+                      "en": "evaporate",
+                      "vi": "bốc hơi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "strain local rivers",
+                      "vi": "gây áp lực lên sông ngòi địa phương"
+                    },
+                    {
+                      "en": "exhaust water reserves",
+                      "vi": "làm cạn kiệt nguồn nước dự trữ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "inefficient irrigation",
+                    "vi": "tưới tiêu kém hiệu quả"
+                  },
+                  {
+                    "en": "freshwater losses",
+                    "vi": "thất thoát nước ngọt"
+                  },
+                  {
+                    "en": "flood irrigation",
+                    "vi": "tưới tràn"
+                  },
+                  {
+                    "en": "evaporate",
+                    "vi": "bốc hơi"
+                  },
+                  {
+                    "en": "strain local rivers",
+                    "vi": "gây áp lực lên sông ngòi địa phương"
+                  },
+                  {
+                    "en": "exhaust water reserves",
+                    "vi": "làm cạn kiệt nguồn nước dự trữ"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -102542,6 +105072,144 @@ const ESSAY_DATA = [
                       "vi": "trong dài hạn / lâu dài"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Đầu tư vào công nghệ tái chế nước thải, khử mặn và tưới nhỏ giọt là hướng đi bền vững để mở rộng nguồn cung.",
+                "point_en": "Investing in wastewater recycling, desalination, and drip irrigation offers a sustainable way to conserve and expand water supplies.",
+                "point_collocations": [
+                  {
+                    "en": "wastewater recycling",
+                    "vi": "tái chế nước thải"
+                  },
+                  {
+                    "en": "desalination",
+                    "vi": "khử mặn nước biển"
+                  },
+                  {
+                    "en": "drip irrigation",
+                    "vi": "tưới nhỏ giọt"
+                  }
+                ],
+                "evidence_vi": "Hệ thống tưới nhỏ giọt đưa nước trực tiếp đến rễ cây giúp tiết kiệm đáng kể lượng nước sử dụng trong nông nghiệp. Bên cạnh đó, việc xử lý và tái sử dụng nước thải cho mục đích công nghiệp sẽ giảm sự phụ thuộc vào các nguồn nước ngọt tự nhiên.",
+                "evidence_en": "Drip irrigation delivers water directly to plant roots, dramatically cutting agricultural water consumption. Additionally, treating and reusing wastewater for industrial processes eases the reliance on natural freshwater sources.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "plant roots",
+                      "vi": "rễ cây"
+                    },
+                    {
+                      "en": "dramatically cut consumption",
+                      "vi": "cắt giảm đáng kể lượng tiêu thụ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "industrial processes",
+                      "vi": "quy trình công nghiệp"
+                    },
+                    {
+                      "en": "ease reliance on",
+                      "vi": "giảm sự phụ thuộc vào"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "wastewater recycling",
+                    "vi": "tái chế nước thải"
+                  },
+                  {
+                    "en": "desalination",
+                    "vi": "khử mặn nước biển"
+                  },
+                  {
+                    "en": "drip irrigation",
+                    "vi": "tưới nhỏ giọt"
+                  },
+                  {
+                    "en": "plant roots",
+                    "vi": "rễ cây"
+                  },
+                  {
+                    "en": "dramatically cut consumption",
+                    "vi": "cắt giảm đáng kể lượng tiêu thụ"
+                  },
+                  {
+                    "en": "industrial processes",
+                    "vi": "quy trình công nghiệp"
+                  },
+                  {
+                    "en": "ease reliance on",
+                    "vi": "giảm sự phụ thuộc vào"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Chính phủ cần đẩy mạnh trồng rừng bảo vệ lưu vực và áp dụng chế tài nghiêm khắc đối với hành vi gây ô nhiễm nguồn nước.",
+                "point_en": "Governments should expand reforestation around watersheds and impose strict penalties on water polluters.",
+                "point_collocations": [
+                  {
+                    "en": "reforestation",
+                    "vi": "tái trồng rừng"
+                  },
+                  {
+                    "en": "impose strict penalties",
+                    "vi": "áp đặt mức phạt nghiêm khắc"
+                  }
+                ],
+                "evidence_vi": "Việc khôi phục rừng đầu nguồn giúp giữ ẩm cho đất và ổn định nguồn nước ngầm một cách tự nhiên. Song song đó, kiểm tra thường xuyên và xử phạt nặng các nhà máy xả thải chưa qua xử lý sẽ bảo vệ chất lượng nước sạch cho cộng đồng.",
+                "evidence_en": "Restoring upstream forests helps retain soil moisture and naturally stabilizes groundwater levels. Simultaneously, regular inspections and heavy fines on factories discharging untreated effluent will safeguard clean water quality for local communities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "upstream forests",
+                      "vi": "rừng đầu nguồn"
+                    },
+                    {
+                      "en": "stabilize groundwater levels",
+                      "vi": "ổn định mực nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "untreated effluent",
+                      "vi": "nước thải chưa qua xử lý"
+                    },
+                    {
+                      "en": "safeguard water quality",
+                      "vi": "bảo vệ chất lượng nước"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reforestation",
+                    "vi": "tái trồng rừng"
+                  },
+                  {
+                    "en": "impose strict penalties",
+                    "vi": "áp đặt mức phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "upstream forests",
+                    "vi": "rừng đầu nguồn"
+                  },
+                  {
+                    "en": "stabilize groundwater levels",
+                    "vi": "ổn định mực nước ngầm"
+                  },
+                  {
+                    "en": "untreated effluent",
+                    "vi": "nước thải chưa qua xử lý"
+                  },
+                  {
+                    "en": "safeguard water quality",
+                    "vi": "bảo vệ chất lượng nước"
+                  }
                 ]
               }
             ]
@@ -107726,6 +110394,108 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Tình trạng nghèo đói và ít cơ hội học tập cho phụ nữ cũng khiến tỷ lệ sinh duy trì ở mức cao.",
+                "point_en": "Poverty and limited education for women also keep birth rates high.",
+                "point_collocations": [
+                  {
+                    "en": "limited education",
+                    "vi": "giáo dục hạn chế"
+                  },
+                  {
+                    "en": "keep birth rates high",
+                    "vi": "duy trì tỷ lệ sinh ở mức cao"
+                  }
+                ],
+                "evidence_vi": "Ở nhiều nơi, phụ nữ ít có cơ hội đi học hoặc làm việc thường kết hôn sớm và sinh nhiều con hơn.",
+                "evidence_en": "In many places, women with fewer chances to study or work often marry early and have more children.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "marry early",
+                      "vi": "kết hôn sớm"
+                    },
+                    {
+                      "en": "have more children",
+                      "vi": "sinh nhiều con hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "limited education",
+                    "vi": "giáo dục hạn chế"
+                  },
+                  {
+                    "en": "keep birth rates high",
+                    "vi": "duy trì tỷ lệ sinh ở mức cao"
+                  },
+                  {
+                    "en": "marry early",
+                    "vi": "kết hôn sớm"
+                  },
+                  {
+                    "en": "have more children",
+                    "vi": "sinh nhiều con hơn"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Làn sóng di cư từ nông thôn ra thành thị khiến nhiều thành phố lớn trở nên quá tải dân số.",
+                "point_en": "Migration from rural areas to cities makes many big cities overcrowded.",
+                "point_collocations": [
+                  {
+                    "en": "migration",
+                    "vi": "sự di cư"
+                  },
+                  {
+                    "en": "rural areas",
+                    "vi": "vùng nông thôn"
+                  },
+                  {
+                    "en": "overcrowded",
+                    "vi": "quá đông đúc"
+                  }
+                ],
+                "evidence_vi": "Rất nhiều người chuyển đến các trung tâm đô thị để tìm việc làm và giáo dục tốt hơn cho gia đình.",
+                "evidence_en": "A large number of people move to urban centers to look for better jobs and education for their families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "urban centers",
+                      "vi": "các trung tâm đô thị"
+                    },
+                    {
+                      "en": "look for better jobs",
+                      "vi": "tìm kiếm việc làm tốt hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "migration",
+                    "vi": "sự di cư"
+                  },
+                  {
+                    "en": "rural areas",
+                    "vi": "vùng nông thôn"
+                  },
+                  {
+                    "en": "overcrowded",
+                    "vi": "quá đông đúc"
+                  },
+                  {
+                    "en": "urban centers",
+                    "vi": "các trung tâm đô thị"
+                  },
+                  {
+                    "en": "look for better jobs",
+                    "vi": "tìm kiếm việc làm tốt hơn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -107880,6 +110650,116 @@ const ESSAY_DATA = [
                       "vi": "làm cạn kiệt tài nguyên thiên nhiên"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Dân số quá đông làm gia tăng tỷ lệ thất nghiệp và sự cạnh tranh khốc liệt trong công việc.",
+                "point_en": "Overpopulation increases unemployment rates and strong competition for jobs.",
+                "point_collocations": [
+                  {
+                    "en": "unemployment rates",
+                    "vi": "tỷ lệ thất nghiệp"
+                  },
+                  {
+                    "en": "competition for jobs",
+                    "vi": "sự cạnh tranh việc làm"
+                  }
+                ],
+                "evidence_vi": "Khi có quá nhiều người tìm việc hơn số vị trí sẵn có, nhiều lao động gặp khó khăn trong việc kiếm thu nhập ổn định.",
+                "evidence_en": "When there are far more job seekers than available positions, many workers struggle to earn a stable income.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "job seekers",
+                      "vi": "người tìm việc"
+                    },
+                    {
+                      "en": "available positions",
+                      "vi": "vị trí công việc sẵn có"
+                    },
+                    {
+                      "en": "stable income",
+                      "vi": "thu nhập ổn định"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unemployment rates",
+                    "vi": "tỷ lệ thất nghiệp"
+                  },
+                  {
+                    "en": "competition for jobs",
+                    "vi": "sự cạnh tranh việc làm"
+                  },
+                  {
+                    "en": "job seekers",
+                    "vi": "người tìm việc"
+                  },
+                  {
+                    "en": "available positions",
+                    "vi": "vị trí công việc sẵn có"
+                  },
+                  {
+                    "en": "stable income",
+                    "vi": "thu nhập ổn định"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Tình trạng đông dân quá mức có thể dẫn đến nghèo đói và làm gia tăng các vấn đề xã hội.",
+                "point_en": "Severe overpopulation can lead to poverty and increase social problems.",
+                "point_collocations": [
+                  {
+                    "en": "lead to poverty",
+                    "vi": "dẫn đến nghèo đói"
+                  },
+                  {
+                    "en": "social problems",
+                    "vi": "các vấn đề xã hội"
+                  }
+                ],
+                "evidence_vi": "Khi chi phí sinh hoạt tăng cao mà việc làm khan hiếm, nhiều gia đình rơi vào cảnh khó khăn và tỷ lệ tội phạm có thể tăng lên.",
+                "evidence_en": "When living costs rise and jobs are scarce, many families face financial hardship and crime rates may rise.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "living costs",
+                      "vi": "chi phí sinh hoạt"
+                    },
+                    {
+                      "en": "financial hardship",
+                      "vi": "khó khăn tài chính"
+                    },
+                    {
+                      "en": "crime rates",
+                      "vi": "tỷ lệ tội phạm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "lead to poverty",
+                    "vi": "dẫn đến nghèo đói"
+                  },
+                  {
+                    "en": "social problems",
+                    "vi": "các vấn đề xã hội"
+                  },
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "financial hardship",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "crime rates",
+                    "vi": "tỷ lệ tội phạm"
+                  }
                 ]
               }
             ]
@@ -108042,6 +110922,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Tình trạng nghèo đói kéo dài và cơ hội tiếp cận giáo dục hạn chế đối với phụ nữ góp phần duy trì tỷ lệ sinh cao.",
+                "point_en": "Persistent poverty and limited educational opportunities for women contribute to persistently high birth rates.",
+                "point_collocations": [
+                  {
+                    "en": "persistent poverty",
+                    "vi": "nghèo đói kéo dài"
+                  },
+                  {
+                    "en": "persistently high birth rates",
+                    "vi": "tỷ lệ sinh duy trì ở mức cao"
+                  }
+                ],
+                "evidence_vi": "Tại nhiều khu vực kém phát triển, việc thiếu cơ hội học lên cao và nghề nghiệp ổn định khiến nhiều phụ nữ kết hôn sớm và sinh đông con. Hơn nữa, các hộ gia đình nghèo thường coi đông con là nguồn hỗ trợ lao động và chỗ dựa tài chính khi về già.",
+                "evidence_en": "In many underdeveloped regions, restricted access to higher education and formal employment leads women to marry earlier and raise larger families. Moreover, impoverished households often view having multiple children as an essential source of labor and financial support in old age.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "underdeveloped regions",
+                      "vi": "khu vực kém phát triển"
+                    },
+                    {
+                      "en": "formal employment",
+                      "vi": "việc làm chính thức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "impoverished households",
+                      "vi": "hộ gia đình nghèo"
+                    },
+                    {
+                      "en": "financial support",
+                      "vi": "hỗ trợ tài chính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "persistent poverty",
+                    "vi": "nghèo đói kéo dài"
+                  },
+                  {
+                    "en": "persistently high birth rates",
+                    "vi": "tỷ lệ sinh duy trì ở mức cao"
+                  },
+                  {
+                    "en": "underdeveloped regions",
+                    "vi": "khu vực kém phát triển"
+                  },
+                  {
+                    "en": "formal employment",
+                    "vi": "việc làm chính thức"
+                  },
+                  {
+                    "en": "impoverished households",
+                    "vi": "hộ gia đình nghèo"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "hỗ trợ tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Sự di cư ồ ạt từ nông thôn ra thành thị tập trung mật độ dân số khổng lồ vào các đô thị lớn.",
+                "point_en": "Large-scale rural-to-urban migration concentrates excessive population density in major metropolitan areas.",
+                "point_collocations": [
+                  {
+                    "en": "rural-to-urban migration",
+                    "vi": "di cư từ nông thôn ra thành thị"
+                  },
+                  {
+                    "en": "population density",
+                    "vi": "mật độ dân số"
+                  }
+                ],
+                "evidence_vi": "Mỗi năm, hàng triệu người rời bỏ vùng nông thôn để tìm kiếm việc làm tốt hơn, dịch vụ y tế hiện đại và cơ hội học tập tại thành phố. Dòng người đổ về không ngừng này nhanh chóng vượt quá sức chứa của hạ tầng đô thị hiện có.",
+                "evidence_en": "Every year, millions leave rural communities in pursuit of better employment, modern healthcare, and educational opportunities in cities. This continuous influx quickly exceeds the carrying capacity of existing urban infrastructure.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "in pursuit of",
+                      "vi": "để theo đuổi / tìm kiếm"
+                    },
+                    {
+                      "en": "modern healthcare",
+                      "vi": "chăm sóc y tế hiện đại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "continuous influx",
+                      "vi": "dòng người đổ về liên tục"
+                    },
+                    {
+                      "en": "carrying capacity",
+                      "vi": "sức chứa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "rural-to-urban migration",
+                    "vi": "di cư từ nông thôn ra thành thị"
+                  },
+                  {
+                    "en": "population density",
+                    "vi": "mật độ dân số"
+                  },
+                  {
+                    "en": "in pursuit of",
+                    "vi": "để theo đuổi / tìm kiếm"
+                  },
+                  {
+                    "en": "modern healthcare",
+                    "vi": "chăm sóc y tế hiện đại"
+                  },
+                  {
+                    "en": "continuous influx",
+                    "vi": "dòng người đổ về liên tục"
+                  },
+                  {
+                    "en": "carrying capacity",
+                    "vi": "sức chứa"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -108196,6 +111206,136 @@ const ESSAY_DATA = [
                       "vi": "tài nguyên thiên nhiên thiết yếu"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Dân số tăng vượt mức tạo ra tình trạng thất nghiệp lan rộng và cạnh tranh gay gắt trên thị trường lao động.",
+                "point_en": "Excessive population growth triggers widespread unemployment and fierce competition in the labor market.",
+                "point_collocations": [
+                  {
+                    "en": "widespread unemployment",
+                    "vi": "thất nghiệp lan rộng"
+                  },
+                  {
+                    "en": "fierce competition",
+                    "vi": "sự cạnh tranh gay gắt"
+                  }
+                ],
+                "evidence_vi": "Khi tốc độ tăng trưởng kinh tế không theo kịp nguồn cung lao động, số lượng việc làm mới trở nên vô cùng khan hiếm. Hậu quả là mức lương có thể bị kéo giảm và nhiều người tốt nghiệp đại học vẫn gặp khó khăn trong việc tìm kiếm công việc phù hợp.",
+                "evidence_en": "When economic expansion fails to keep pace with the growing workforce, new employment opportunities become severely scarce. Consequently, wages may stagnate and even university graduates struggle to secure stable careers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "keep pace with",
+                      "vi": "theo kịp với"
+                    },
+                    {
+                      "en": "severely scarce",
+                      "vi": "vô cùng khan hiếm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "wages stagnate",
+                      "vi": "tiền lương chững lại"
+                    },
+                    {
+                      "en": "secure stable careers",
+                      "vi": "có được sự nghiệp ổn định"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "widespread unemployment",
+                    "vi": "thất nghiệp lan rộng"
+                  },
+                  {
+                    "en": "fierce competition",
+                    "vi": "sự cạnh tranh gay gắt"
+                  },
+                  {
+                    "en": "keep pace with",
+                    "vi": "theo kịp với"
+                  },
+                  {
+                    "en": "severely scarce",
+                    "vi": "vô cùng khan hiếm"
+                  },
+                  {
+                    "en": "wages stagnate",
+                    "vi": "tiền lương chững lại"
+                  },
+                  {
+                    "en": "secure stable careers",
+                    "vi": "có được sự nghiệp ổn định"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Quá tải dân số làm sâu sắc thêm khoảng cách giàu nghèo và làm gia tăng bất ổn xã hội.",
+                "point_en": "Overpopulation deepens economic inequality and exacerbates social instability.",
+                "point_collocations": [
+                  {
+                    "en": "deepen economic inequality",
+                    "vi": "làm sâu sắc thêm bất bình đẳng kinh tế"
+                  },
+                  {
+                    "en": "social instability",
+                    "vi": "bất ổn xã hội"
+                  }
+                ],
+                "evidence_vi": "Áp lực lên nguồn lực quốc gia đẩy chi phí nhà ở và thực phẩm tăng cao, khiến các nhóm thu nhập thấp càng dễ rơi vào vòng xoáy nghèo đói. Trong hoàn cảnh thiếu thốn kéo dài, tình trạng căng thẳng xã hội và tỷ lệ tội phạm ở các khu đô thị đông đúc có xu hướng gia tăng.",
+                "evidence_en": "Pressure on national resources drives up housing and food prices, pushing low-income groups deeper into poverty. Under prolonged economic hardship, social tensions and crime rates in densely populated urban districts tend to escalate.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "drive up prices",
+                      "vi": "đẩy giá cả tăng cao"
+                    },
+                    {
+                      "en": "low-income groups",
+                      "vi": "nhóm thu nhập thấp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "prolonged economic hardship",
+                      "vi": "khó khăn kinh tế kéo dài"
+                    },
+                    {
+                      "en": "social tensions",
+                      "vi": "căng thẳng xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "deepen economic inequality",
+                    "vi": "làm sâu sắc thêm bất bình đẳng kinh tế"
+                  },
+                  {
+                    "en": "social instability",
+                    "vi": "bất ổn xã hội"
+                  },
+                  {
+                    "en": "drive up prices",
+                    "vi": "đẩy giá cả tăng cao"
+                  },
+                  {
+                    "en": "low-income groups",
+                    "vi": "nhóm thu nhập thấp"
+                  },
+                  {
+                    "en": "prolonged economic hardship",
+                    "vi": "khó khăn kinh tế kéo dài"
+                  },
+                  {
+                    "en": "social tensions",
+                    "vi": "căng thẳng xã hội"
+                  }
                 ]
               }
             ]
@@ -109295,6 +112435,100 @@ const ESSAY_DATA = [
                 "point_en": "Society is more accepting of single-parent families nowadays.",
                 "evidence_vi": "Điều này có nghĩa là ngày càng có nhiều người cảm thấy thoải mái khi trở thành cha mẹ đơn thân.",
                 "evidence_en": "This means that more people feel comfortable becoming single parents."
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: MẤT MÁT NGƯỜI BẠN ĐỜI DO TAI NẠN HOẶC BỆNH TẬT",
+                "point_vi": "Một số gia đình trở thành gia đình đơn thân vì cha hoặc mẹ qua đời sớm do bệnh tật hoặc tai nạn.",
+                "point_en": "Some families become single-parent households because one parent passes away due to illness or an accident.",
+                "point_collocations": [
+                  {
+                    "en": "single-parent households",
+                    "vi": "hộ gia đình đơn thân"
+                  },
+                  {
+                    "en": "pass away",
+                    "vi": "qua đời"
+                  }
+                ],
+                "evidence_vi": "Khi sự mất mát bất ngờ này xảy ra, người cha hoặc người mẹ còn lại phải một mình gánh vác việc nuôi dạy con cái.",
+                "evidence_en": "When this sudden loss happens, the remaining parent has to take full responsibility for raising the children alone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sudden loss",
+                      "vi": "sự mất mát đột ngột"
+                    },
+                    {
+                      "en": "take full responsibility",
+                      "vi": "gánh vác toàn bộ trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "single-parent households",
+                    "vi": "hộ gia đình đơn thân"
+                  },
+                  {
+                    "en": "pass away",
+                    "vi": "qua đời"
+                  },
+                  {
+                    "en": "sudden loss",
+                    "vi": "sự mất mát đột ngột"
+                  },
+                  {
+                    "en": "take full responsibility",
+                    "vi": "gánh vác toàn bộ trách nhiệm"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: BẠO LỰC GIA ĐÌNH VÀ THIẾU TRÁCH NHIỆM TRONG HÔN NHÂN",
+                "point_vi": "Mâu thuẫn nghiêm trọng hoặc sự thiếu trách nhiệm của người bạn đời khiến nhiều người quyết định nuôi con một mình.",
+                "point_en": "Serious family conflicts or an irresponsible partner cause many people to raise children alone.",
+                "point_collocations": [
+                  {
+                    "en": "family conflicts",
+                    "vi": "mâu thuẫn gia đình"
+                  },
+                  {
+                    "en": "irresponsible partner",
+                    "vi": "người bạn đời thiếu trách nhiệm"
+                  }
+                ],
+                "evidence_vi": "Nhiều bậc cha mẹ chọn rời khỏi một cuộc hôn nhân không an toàn để bảo vệ sức khỏe và sự bình yên cho con cái.",
+                "evidence_en": "Many parents choose to leave an unsafe marriage to protect their children's safety and peace of mind.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unsafe marriage",
+                      "vi": "cuộc hôn nhân không an toàn"
+                    },
+                    {
+                      "en": "peace of mind",
+                      "vi": "sự bình yên trong tâm trí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "family conflicts",
+                    "vi": "mâu thuẫn gia đình"
+                  },
+                  {
+                    "en": "irresponsible partner",
+                    "vi": "người bạn đời thiếu trách nhiệm"
+                  },
+                  {
+                    "en": "unsafe marriage",
+                    "vi": "cuộc hôn nhân không an toàn"
+                  },
+                  {
+                    "en": "peace of mind",
+                    "vi": "sự bình yên trong tâm trí"
+                  }
+                ]
               }
             ],
             "effects": [
@@ -109356,6 +112590,116 @@ const ESSAY_DATA = [
                 "point_en": "Some children may develop bad behavior.",
                 "evidence_vi": "Điều này là do các em có thể không nhận được đủ sự định hướng từ cha mẹ, vì vậy các em có thể cư xử không tốt ở trường hoặc làm những điều tiêu cực.",
                 "evidence_en": "This is because they may not receive enough guidance from their parents, so they may behave badly at school or do negative things."
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: CHA MẸ ĐƠN THÂN DỄ BỊ CĂNG THẲNG VÀ KIỆT SỨC",
+                "point_vi": "Cha mẹ đơn thân thường chịu nhiều căng thẳng vì phải làm mọi việc một mình.",
+                "point_en": "Single parents often suffer from heavy stress because they have to handle everything alone.",
+                "point_collocations": [
+                  {
+                    "en": "suffer from heavy stress",
+                    "vi": "chịu nhiều căng thẳng"
+                  },
+                  {
+                    "en": "handle everything alone",
+                    "vi": "tự mình xoay xở mọi thứ"
+                  }
+                ],
+                "evidence_vi": "Việc vừa đi làm kiếm tiền vừa làm việc nhà và chăm sóc con dễ khiến họ mệt mỏi và ảnh hưởng đến sức khỏe.",
+                "evidence_en": "Working for money while doing housework and caring for children can easily make them exhausted and harm their health.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "do housework",
+                      "vi": "làm việc nhà"
+                    },
+                    {
+                      "en": "exhausted",
+                      "vi": "kiệt sức"
+                    },
+                    {
+                      "en": "harm one's health",
+                      "vi": "gây hại cho sức khỏe"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "suffer from heavy stress",
+                    "vi": "chịu nhiều căng thẳng"
+                  },
+                  {
+                    "en": "handle everything alone",
+                    "vi": "tự mình xoay xở mọi thứ"
+                  },
+                  {
+                    "en": "do housework",
+                    "vi": "làm việc nhà"
+                  },
+                  {
+                    "en": "exhausted",
+                    "vi": "kiệt sức"
+                  },
+                  {
+                    "en": "harm one's health",
+                    "vi": "gây hại cho sức khỏe"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: TRẺ CÓ THỂ RÈN LUYỆN TÍNH TỰ LẬP TỪ SỚM",
+                "point_vi": "Ở khía cạnh tích cực, trẻ em trong gia đình đơn thân thường trở nên tự lập và trưởng thành sớm hơn.",
+                "point_en": "On a positive note, children in single-parent families often become more independent and mature early.",
+                "point_collocations": [
+                  {
+                    "en": "become more independent",
+                    "vi": "trở nên tự lập hơn"
+                  },
+                  {
+                    "en": "mature early",
+                    "vi": "trưởng thành sớm"
+                  }
+                ],
+                "evidence_vi": "Các em thường học cách tự chăm sóc bản thân và giúp đỡ cha mẹ việc nhà từ khi còn nhỏ.",
+                "evidence_en": "They often learn to take care of themselves and help their parent with daily chores from a young age.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take care of oneself",
+                      "vi": "tự chăm sóc bản thân"
+                    },
+                    {
+                      "en": "daily chores",
+                      "vi": "việc nhà hằng ngày"
+                    },
+                    {
+                      "en": "from a young age",
+                      "vi": "từ khi còn nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "become more independent",
+                    "vi": "trở nên tự lập hơn"
+                  },
+                  {
+                    "en": "mature early",
+                    "vi": "trưởng thành sớm"
+                  },
+                  {
+                    "en": "take care of oneself",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "daily chores",
+                    "vi": "việc nhà hằng ngày"
+                  },
+                  {
+                    "en": "from a young age",
+                    "vi": "từ khi còn nhỏ"
+                  }
+                ]
               }
             ],
             "benefits": [
@@ -109519,6 +112863,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: MẤT MÁT NGƯỜI BẠN ĐỜI DO TAI NẠN HOẶC BỆNH TẬT",
+                "point_vi": "Một số gia đình trở thành gia đình đơn thân vì cha hoặc mẹ qua đời sớm do bệnh tật hoặc tai nạn.",
+                "point_en": "Some families become single-parent households because one parent passes away due to illness or an accident.",
+                "point_collocations": [
+                  {
+                    "en": "single-parent households",
+                    "vi": "hộ gia đình đơn thân"
+                  },
+                  {
+                    "en": "pass away",
+                    "vi": "qua đời"
+                  }
+                ],
+                "evidence_vi": "Khi sự mất mát bất ngờ này xảy ra, người cha hoặc người mẹ còn lại phải một mình gánh vác việc nuôi dạy con cái.",
+                "evidence_en": "When this sudden loss happens, the remaining parent has to take full responsibility for raising the children alone.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sudden loss",
+                      "vi": "sự mất mát đột ngột"
+                    },
+                    {
+                      "en": "take full responsibility",
+                      "vi": "gánh vác toàn bộ trách nhiệm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "single-parent households",
+                    "vi": "hộ gia đình đơn thân"
+                  },
+                  {
+                    "en": "pass away",
+                    "vi": "qua đời"
+                  },
+                  {
+                    "en": "sudden loss",
+                    "vi": "sự mất mát đột ngột"
+                  },
+                  {
+                    "en": "take full responsibility",
+                    "vi": "gánh vác toàn bộ trách nhiệm"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: BẠO LỰC GIA ĐÌNH VÀ THIẾU TRÁCH NHIỆM TRONG HÔN NHÂN",
+                "point_vi": "Mâu thuẫn nghiêm trọng hoặc sự thiếu trách nhiệm của người bạn đời khiến nhiều người quyết định nuôi con một mình.",
+                "point_en": "Serious family conflicts or an irresponsible partner cause many people to raise children alone.",
+                "point_collocations": [
+                  {
+                    "en": "family conflicts",
+                    "vi": "mâu thuẫn gia đình"
+                  },
+                  {
+                    "en": "irresponsible partner",
+                    "vi": "người bạn đời thiếu trách nhiệm"
+                  }
+                ],
+                "evidence_vi": "Nhiều bậc cha mẹ chọn rời khỏi một cuộc hôn nhân không an toàn để bảo vệ sức khỏe và sự bình yên cho con cái.",
+                "evidence_en": "Many parents choose to leave an unsafe marriage to protect their children's safety and peace of mind.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unsafe marriage",
+                      "vi": "cuộc hôn nhân không an toàn"
+                    },
+                    {
+                      "en": "peace of mind",
+                      "vi": "sự bình yên trong tâm trí"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "family conflicts",
+                    "vi": "mâu thuẫn gia đình"
+                  },
+                  {
+                    "en": "irresponsible partner",
+                    "vi": "người bạn đời thiếu trách nhiệm"
+                  },
+                  {
+                    "en": "unsafe marriage",
+                    "vi": "cuộc hôn nhân không an toàn"
+                  },
+                  {
+                    "en": "peace of mind",
+                    "vi": "sự bình yên trong tâm trí"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -109673,6 +113111,116 @@ const ESSAY_DATA = [
                       "vi": "hình thành hành vi xấu"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: CHA MẸ ĐƠN THÂN DỄ BỊ CĂNG THẲNG VÀ KIỆT SỨC",
+                "point_vi": "Cha mẹ đơn thân thường chịu nhiều căng thẳng vì phải làm mọi việc một mình.",
+                "point_en": "Single parents often suffer from heavy stress because they have to handle everything alone.",
+                "point_collocations": [
+                  {
+                    "en": "suffer from heavy stress",
+                    "vi": "chịu nhiều căng thẳng"
+                  },
+                  {
+                    "en": "handle everything alone",
+                    "vi": "tự mình xoay xở mọi thứ"
+                  }
+                ],
+                "evidence_vi": "Việc vừa đi làm kiếm tiền vừa làm việc nhà và chăm sóc con dễ khiến họ mệt mỏi và ảnh hưởng đến sức khỏe.",
+                "evidence_en": "Working for money while doing housework and caring for children can easily make them exhausted and harm their health.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "do housework",
+                      "vi": "làm việc nhà"
+                    },
+                    {
+                      "en": "exhausted",
+                      "vi": "kiệt sức"
+                    },
+                    {
+                      "en": "harm one's health",
+                      "vi": "gây hại cho sức khỏe"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "suffer from heavy stress",
+                    "vi": "chịu nhiều căng thẳng"
+                  },
+                  {
+                    "en": "handle everything alone",
+                    "vi": "tự mình xoay xở mọi thứ"
+                  },
+                  {
+                    "en": "do housework",
+                    "vi": "làm việc nhà"
+                  },
+                  {
+                    "en": "exhausted",
+                    "vi": "kiệt sức"
+                  },
+                  {
+                    "en": "harm one's health",
+                    "vi": "gây hại cho sức khỏe"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: TRẺ CÓ THỂ RÈN LUYỆN TÍNH TỰ LẬP TỪ SỚM",
+                "point_vi": "Ở khía cạnh tích cực, trẻ em trong gia đình đơn thân thường trở nên tự lập và trưởng thành sớm hơn.",
+                "point_en": "On a positive note, children in single-parent families often become more independent and mature early.",
+                "point_collocations": [
+                  {
+                    "en": "become more independent",
+                    "vi": "trở nên tự lập hơn"
+                  },
+                  {
+                    "en": "mature early",
+                    "vi": "trưởng thành sớm"
+                  }
+                ],
+                "evidence_vi": "Các em thường học cách tự chăm sóc bản thân và giúp đỡ cha mẹ việc nhà từ khi còn nhỏ.",
+                "evidence_en": "They often learn to take care of themselves and help their parent with daily chores from a young age.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take care of oneself",
+                      "vi": "tự chăm sóc bản thân"
+                    },
+                    {
+                      "en": "daily chores",
+                      "vi": "việc nhà hằng ngày"
+                    },
+                    {
+                      "en": "from a young age",
+                      "vi": "từ khi còn nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "become more independent",
+                    "vi": "trở nên tự lập hơn"
+                  },
+                  {
+                    "en": "mature early",
+                    "vi": "trưởng thành sớm"
+                  },
+                  {
+                    "en": "take care of oneself",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "daily chores",
+                    "vi": "việc nhà hằng ngày"
+                  },
+                  {
+                    "en": "from a young age",
+                    "vi": "từ khi còn nhỏ"
+                  }
                 ]
               }
             ]
@@ -109917,6 +113465,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Sự ra đi đột ngột của người bạn đời do bệnh hiểm nghèo hoặc tai nạn cũng dẫn đến sự hình thành của nhiều gia đình đơn thân.",
+                "point_en": "The unexpected loss of a spouse due to serious illness or tragic accidents also results in single-parent households.",
+                "point_collocations": [
+                  {
+                    "en": "unexpected loss of a spouse",
+                    "vi": "sự mất mát đột ngột người bạn đời"
+                  },
+                  {
+                    "en": "serious illness",
+                    "vi": "bệnh hiểm nghèo"
+                  }
+                ],
+                "evidence_vi": "Những biến cố ngoài ý muốn này buộc người cha hoặc người mẹ còn lại phải gánh vác toàn bộ vai trò trụ cột kinh tế lẫn tinh thần. Dù không phải là lựa chọn tự nguyện, hoàn cảnh này vẫn chiếm một tỷ lệ đáng kể trong số các gia đình đơn thân hiện nay.",
+                "evidence_en": "Such unforeseen tragedies force the surviving parent to assume both financial and emotional responsibilities single-handedly. Although involuntary, bereavement remains a notable factor behind the number of single-parent families.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unforeseen tragedies",
+                      "vi": "những biến cố không lường trước"
+                    },
+                    {
+                      "en": "single-handedly",
+                      "vi": "một mình gánh vác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "bereavement",
+                      "vi": "sự mất mát người thân"
+                    },
+                    {
+                      "en": "notable factor",
+                      "vi": "yếu tố đáng kể"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unexpected loss of a spouse",
+                    "vi": "sự mất mát đột ngột người bạn đời"
+                  },
+                  {
+                    "en": "serious illness",
+                    "vi": "bệnh hiểm nghèo"
+                  },
+                  {
+                    "en": "unforeseen tragedies",
+                    "vi": "những biến cố không lường trước"
+                  },
+                  {
+                    "en": "single-handedly",
+                    "vi": "một mình gánh vác"
+                  },
+                  {
+                    "en": "bereavement",
+                    "vi": "sự mất mát người thân"
+                  },
+                  {
+                    "en": "notable factor",
+                    "vi": "yếu tố đáng kể"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Bạo lực gia đình và sự thiếu cam kết trong hôn nhân buộc nhiều bậc cha mẹ phải chọn cuộc sống nuôi con một mình.",
+                "point_en": "Domestic abuse and a lack of marital commitment compel many parents to raise their children independently.",
+                "point_collocations": [
+                  {
+                    "en": "domestic abuse",
+                    "vi": "bạo lực gia đình"
+                  },
+                  {
+                    "en": "marital commitment",
+                    "vi": "sự cam kết trong hôn nhân"
+                  }
+                ],
+                "evidence_vi": "Khi một mối quan hệ trở nên độc hại hoặc thiếu sự tôn trọng, việc tiếp tục chung sống có thể gây tổn thương sâu sắc cho cả người lớn lẫn trẻ nhỏ. Do đó, nhiều người chủ động chấm dứt mối quan hệ để xây dựng một mái ấm an toàn và lành mạnh hơn cho con.",
+                "evidence_en": "When a relationship becomes abusive or lacks mutual respect, staying together can inflict lasting psychological harm on both adults and children. Consequently, many individuals leave toxic partnerships to create a safer, healthier home for their offspring.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "mutual respect",
+                      "vi": "sự tôn trọng lẫn nhau"
+                    },
+                    {
+                      "en": "psychological harm",
+                      "vi": "tổn thương tâm lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "toxic partnerships",
+                      "vi": "mối quan hệ độc hại"
+                    },
+                    {
+                      "en": "healthier home",
+                      "vi": "mái ấm lành mạnh hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "domestic abuse",
+                    "vi": "bạo lực gia đình"
+                  },
+                  {
+                    "en": "marital commitment",
+                    "vi": "sự cam kết trong hôn nhân"
+                  },
+                  {
+                    "en": "mutual respect",
+                    "vi": "sự tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "psychological harm",
+                    "vi": "tổn thương tâm lý"
+                  },
+                  {
+                    "en": "toxic partnerships",
+                    "vi": "mối quan hệ độc hại"
+                  },
+                  {
+                    "en": "healthier home",
+                    "vi": "mái ấm lành mạnh hơn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -110137,6 +113815,136 @@ const ESSAY_DATA = [
                       "vi": "giao tiếp giữa các cá nhân"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Cha mẹ đơn thân có nguy cơ cao rơi vào tình trạng kiệt sức và suy giảm sức khỏe tinh thần do áp lực kép.",
+                "point_en": "Single parents face a high risk of chronic burnout and declining mental health due to dual responsibilities.",
+                "point_collocations": [
+                  {
+                    "en": "chronic burnout",
+                    "vi": "sự kiệt sức kéo dài"
+                  },
+                  {
+                    "en": "dual responsibilities",
+                    "vi": "trách nhiệm kép"
+                  }
+                ],
+                "evidence_vi": "Việc phải đồng thời đảm nhiệm vai trò trụ cột tài chính và người chăm sóc chính khiến họ hầu như không có thời gian nghỉ ngơi hay tự chăm sóc bản thân. Về lâu dài, sự căng thẳng tích tụ có thể dẫn đến kiệt quệ thể chất và ảnh hưởng đến bầu không khí gia đình.",
+                "evidence_en": "Simultaneously acting as the sole breadwinner and primary caregiver leaves them with virtually no time for rest or self-care. Over time, accumulated stress can result in physical exhaustion and strain the overall family atmosphere.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sole breadwinner",
+                      "vi": "trụ cột kinh tế duy nhất"
+                    },
+                    {
+                      "en": "primary caregiver",
+                      "vi": "người chăm sóc chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "accumulated stress",
+                      "vi": "căng thẳng tích tụ"
+                    },
+                    {
+                      "en": "physical exhaustion",
+                      "vi": "kiệt quệ thể chất"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "chronic burnout",
+                    "vi": "sự kiệt sức kéo dài"
+                  },
+                  {
+                    "en": "dual responsibilities",
+                    "vi": "trách nhiệm kép"
+                  },
+                  {
+                    "en": "sole breadwinner",
+                    "vi": "trụ cột kinh tế duy nhất"
+                  },
+                  {
+                    "en": "primary caregiver",
+                    "vi": "người chăm sóc chính"
+                  },
+                  {
+                    "en": "accumulated stress",
+                    "vi": "căng thẳng tích tụ"
+                  },
+                  {
+                    "en": "physical exhaustion",
+                    "vi": "kiệt quệ thể chất"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Ở góc độ tích cực, trẻ lớn lên trong gia đình đơn thân có thể sớm hình thành tính tự lập và sự gắn kết sâu sắc với cha hoặc mẹ.",
+                "point_en": "On a constructive note, children raised in single-parent households may develop early independence and a strong bond with their parent.",
+                "point_collocations": [
+                  {
+                    "en": "early independence",
+                    "vi": "tính tự lập sớm"
+                  },
+                  {
+                    "en": "strong bond",
+                    "vi": "sự gắn kết bền chặt"
+                  }
+                ],
+                "evidence_vi": "Vì sớm nhận thức được những vất vả của cha hoặc mẹ, nhiều trẻ chủ động phụ giúp việc nhà và học cách tự giải quyết các vấn đề cá nhân. Những trải nghiệm này có thể rèn luyện tinh thần trách nhiệm, sự đồng cảm và bản lĩnh vững vàng khi các em trưởng thành.",
+                "evidence_en": "Recognizing their parent's daily sacrifices, many children willingly take on household duties and learn to manage personal tasks responsibly. These experiences can cultivate resilience, empathy, and maturity that benefit them well into adulthood.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily sacrifices",
+                      "vi": "sự hy sinh hằng ngày"
+                    },
+                    {
+                      "en": "household duties",
+                      "vi": "công việc gia đình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cultivate resilience",
+                      "vi": "rèn luyện bản lĩnh / sự kiên cường"
+                    },
+                    {
+                      "en": "into adulthood",
+                      "vi": "khi trưởng thành"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "early independence",
+                    "vi": "tính tự lập sớm"
+                  },
+                  {
+                    "en": "strong bond",
+                    "vi": "sự gắn kết bền chặt"
+                  },
+                  {
+                    "en": "daily sacrifices",
+                    "vi": "sự hy sinh hằng ngày"
+                  },
+                  {
+                    "en": "household duties",
+                    "vi": "công việc gia đình"
+                  },
+                  {
+                    "en": "cultivate resilience",
+                    "vi": "rèn luyện bản lĩnh / sự kiên cường"
+                  },
+                  {
+                    "en": "into adulthood",
+                    "vi": "khi trưởng thành"
+                  }
                 ]
               }
             ]
@@ -111528,6 +115336,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Nhiều trẻ em không hình thành thói quen đọc sách vì cha mẹ ít đọc sách cùng con tại nhà.",
+                "point_en": "Many children do not develop a reading habit because their parents rarely read with them at home.",
+                "point_collocations": [
+                  {
+                    "en": "develop a reading habit",
+                    "vi": "hình thành thói quen đọc sách"
+                  },
+                  {
+                    "en": "read with children",
+                    "vi": "đọc sách cùng con"
+                  }
+                ],
+                "evidence_vi": "Khi người lớn thường xuyên dùng điện thoại thay vì cầm sách, trẻ nhỏ cũng sẽ bắt chước thói quen đó.",
+                "evidence_en": "When adults frequently use smartphones instead of reading books, young children naturally copy that habit.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "use smartphones",
+                      "vi": "sử dụng điện thoại thông minh"
+                    },
+                    {
+                      "en": "copy that habit",
+                      "vi": "bắt chước thói quen đó"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "develop a reading habit",
+                    "vi": "hình thành thói quen đọc sách"
+                  },
+                  {
+                    "en": "read with children",
+                    "vi": "đọc sách cùng con"
+                  },
+                  {
+                    "en": "use smartphones",
+                    "vi": "sử dụng điện thoại thông minh"
+                  },
+                  {
+                    "en": "copy that habit",
+                    "vi": "bắt chước thói quen đó"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Giá sách khá cao và thiếu thư viện tiện lợi cũng khiến nhiều người ít đọc sách hơn.",
+                "point_en": "High book prices and a lack of convenient libraries also cause many people to read less.",
+                "point_collocations": [
+                  {
+                    "en": "high book prices",
+                    "vi": "giá sách cao"
+                  },
+                  {
+                    "en": "convenient libraries",
+                    "vi": "thư viện tiện lợi"
+                  }
+                ],
+                "evidence_vi": "Nhiều học sinh, sinh viên có ngân sách hạn hẹp nên khó mua sách mới thường xuyên nếu gần nhà không có thư viện tốt.",
+                "evidence_en": "Many students have limited budgets, so it is hard for them to buy new books regularly if there is no good library nearby.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "limited budgets",
+                      "vi": "ngân sách hạn hẹp"
+                    },
+                    {
+                      "en": "buy new books regularly",
+                      "vi": "mua sách mới thường xuyên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "high book prices",
+                    "vi": "giá sách cao"
+                  },
+                  {
+                    "en": "convenient libraries",
+                    "vi": "thư viện tiện lợi"
+                  },
+                  {
+                    "en": "limited budgets",
+                    "vi": "ngân sách hạn hẹp"
+                  },
+                  {
+                    "en": "buy new books regularly",
+                    "vi": "mua sách mới thường xuyên"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -111714,6 +115616,100 @@ const ESSAY_DATA = [
                       "vi": "tài liệu đọc phù hợp"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Cha mẹ nên làm gương và khuyến khích con đọc sách ngay từ khi còn nhỏ.",
+                "point_en": "Parents should set a good example and encourage children to read from an early age.",
+                "point_collocations": [
+                  {
+                    "en": "set a good example",
+                    "vi": "làm gương tốt"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "từ khi còn nhỏ"
+                  }
+                ],
+                "evidence_vi": "Đọc truyện cùng con trước giờ đi ngủ giúp trẻ thấy việc đọc thật thú vị và trở thành thói quen tự nhiên.",
+                "evidence_en": "Reading stories with children before bedtime helps them see reading as fun and turn it into a natural habit.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "before bedtime",
+                      "vi": "trước giờ đi ngủ"
+                    },
+                    {
+                      "en": "natural habit",
+                      "vi": "thói quen tự nhiên"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "set a good example",
+                    "vi": "làm gương tốt"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "từ khi còn nhỏ"
+                  },
+                  {
+                    "en": "before bedtime",
+                    "vi": "trước giờ đi ngủ"
+                  },
+                  {
+                    "en": "natural habit",
+                    "vi": "thói quen tự nhiên"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Cần phát triển các ứng dụng sách điện tử, sách nói và nâng cấp thư viện công cộng miễn phí.",
+                "point_en": "E-books, audiobooks, and modern free public libraries should be promoted more widely.",
+                "point_collocations": [
+                  {
+                    "en": "e-books and audiobooks",
+                    "vi": "sách điện tử và sách nói"
+                  },
+                  {
+                    "en": "free public libraries",
+                    "vi": "thư viện công cộng miễn phí"
+                  }
+                ],
+                "evidence_vi": "Người bận rộn có thể nghe sách nói trên xe buýt hoặc đọc sách điện tử trên điện thoại bất cứ lúc nào rảnh rỗi.",
+                "evidence_en": "Busy people can listen to audiobooks on the bus or read e-books on their phones whenever they have free time.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "listen to audiobooks",
+                      "vi": "nghe sách nói"
+                    },
+                    {
+                      "en": "have free time",
+                      "vi": "có thời gian rảnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "e-books and audiobooks",
+                    "vi": "sách điện tử và sách nói"
+                  },
+                  {
+                    "en": "free public libraries",
+                    "vi": "thư viện công cộng miễn phí"
+                  },
+                  {
+                    "en": "listen to audiobooks",
+                    "vi": "nghe sách nói"
+                  },
+                  {
+                    "en": "have free time",
+                    "vi": "có thời gian rảnh"
+                  }
                 ]
               }
             ]
@@ -111949,6 +115945,136 @@ const ESSAY_DATA = [
                       "vi": "dần dần"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Sự thiếu vắng văn hóa đọc và tấm gương từ gia đình cản trở trẻ em xây dựng niềm yêu thích sách từ nhỏ.",
+                "point_en": "The absence of a reading culture and positive role models at home prevents children from developing a love of books.",
+                "point_collocations": [
+                  {
+                    "en": "reading culture",
+                    "vi": "văn hóa đọc"
+                  },
+                  {
+                    "en": "positive role models",
+                    "vi": "tấm gương tích cực"
+                  }
+                ],
+                "evidence_vi": "Trẻ em thường hình thành thói quen giải trí bằng cách quan sát hành vi hằng ngày của cha mẹ. Nếu phụ huynh ưu tiên sử dụng thiết bị điện tử hơn là đọc sách, trẻ sẽ ít có động lực xem việc đọc là một hoạt động thư giãn thú vị.",
+                "evidence_en": "Children primarily form leisure habits by imitating their parents' daily behavior. When caregivers prioritize digital devices over books, youngsters rarely perceive reading as an enjoyable pastime.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "leisure habits",
+                      "vi": "thói quen giải trí"
+                    },
+                    {
+                      "en": "daily behavior",
+                      "vi": "hành vi hằng ngày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "digital devices",
+                      "vi": "thiết bị kỹ thuật số"
+                    },
+                    {
+                      "en": "enjoyable pastime",
+                      "vi": "thú vui thư giãn thú vị"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reading culture",
+                    "vi": "văn hóa đọc"
+                  },
+                  {
+                    "en": "positive role models",
+                    "vi": "tấm gương tích cực"
+                  },
+                  {
+                    "en": "leisure habits",
+                    "vi": "thói quen giải trí"
+                  },
+                  {
+                    "en": "daily behavior",
+                    "vi": "hành vi hằng ngày"
+                  },
+                  {
+                    "en": "digital devices",
+                    "vi": "thiết bị kỹ thuật số"
+                  },
+                  {
+                    "en": "enjoyable pastime",
+                    "vi": "thú vui thư giãn thú vị"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Chi phí mua sách giấy ngày càng cao cùng với sự thiếu hụt thư viện hiện đại cũng hạn chế khả năng tiếp cận tri thức.",
+                "point_en": "The rising cost of printed books and a shortage of modern public libraries also limit access to reading materials.",
+                "point_collocations": [
+                  {
+                    "en": "printed books",
+                    "vi": "sách giấy / sách in"
+                  },
+                  {
+                    "en": "shortage of modern libraries",
+                    "vi": "sự thiếu hụt thư viện hiện đại"
+                  }
+                ],
+                "evidence_vi": "Đối với học sinh và các gia đình có thu nhập khiêm tốn, việc mua nhiều đầu sách chất lượng là một khoản chi không nhỏ. Trong khi đó, nhiều thư viện địa phương vẫn còn ít đầu sách mới và không gian kém hấp dẫn, khiến người trẻ ít mặn mà ghé thăm.",
+                "evidence_en": "For students and low-income families, purchasing quality books regularly can become a financial burden. Meanwhile, many local libraries suffer from outdated collections and uninviting spaces, discouraging young readers from visiting.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "financial burden",
+                      "vi": "gánh nặng tài chính"
+                    },
+                    {
+                      "en": "quality books",
+                      "vi": "sách chất lượng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "outdated collections",
+                      "vi": "kho sách lỗi thời"
+                    },
+                    {
+                      "en": "uninviting spaces",
+                      "vi": "không gian kém hấp dẫn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "printed books",
+                    "vi": "sách giấy / sách in"
+                  },
+                  {
+                    "en": "shortage of modern libraries",
+                    "vi": "sự thiếu hụt thư viện hiện đại"
+                  },
+                  {
+                    "en": "financial burden",
+                    "vi": "gánh nặng tài chính"
+                  },
+                  {
+                    "en": "quality books",
+                    "vi": "sách chất lượng"
+                  },
+                  {
+                    "en": "outdated collections",
+                    "vi": "kho sách lỗi thời"
+                  },
+                  {
+                    "en": "uninviting spaces",
+                    "vi": "không gian kém hấp dẫn"
+                  }
                 ]
               }
             ],
@@ -112206,6 +116332,136 @@ const ESSAY_DATA = [
                       "vi": "thư viện phong phú đa phương tiện"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Gia đình nên xây dựng môi trường khuyến khích đọc sách và duy trì hoạt động đọc cùng con từ sớm.",
+                "point_en": "Families should cultivate a reading-friendly environment and encourage shared reading from early childhood.",
+                "point_collocations": [
+                  {
+                    "en": "reading-friendly environment",
+                    "vi": "môi trường khuyến khích đọc sách"
+                  },
+                  {
+                    "en": "early childhood",
+                    "vi": "tuổi thơ sớm"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ có thể thiết lập một góc sách nhỏ tại nhà và dành thời gian đọc truyện cùng con vào mỗi tối. Sự đồng hành tích cực này không chỉ nuôi dưỡng trí tưởng tượng của trẻ mà còn giúp văn hóa đọc bám rễ bền vững trong suốt cuộc đời.",
+                "evidence_en": "Parents can create a cozy reading corner at home and dedicate time to reading aloud with their children each evening. Such active involvement not only nurtures young imaginations but also embeds a lifelong appreciation for books.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cozy reading corner",
+                      "vi": "góc đọc sách ấm cúng"
+                    },
+                    {
+                      "en": "read aloud",
+                      "vi": "đọc thành tiếng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "nurture imaginations",
+                      "vi": "nuôi dưỡng trí tưởng tượng"
+                    },
+                    {
+                      "en": "lifelong appreciation",
+                      "vi": "niềm yêu thích suốt đời"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reading-friendly environment",
+                    "vi": "môi trường khuyến khích đọc sách"
+                  },
+                  {
+                    "en": "early childhood",
+                    "vi": "tuổi thơ sớm"
+                  },
+                  {
+                    "en": "cozy reading corner",
+                    "vi": "góc đọc sách ấm cúng"
+                  },
+                  {
+                    "en": "read aloud",
+                    "vi": "đọc thành tiếng"
+                  },
+                  {
+                    "en": "nurture imaginations",
+                    "vi": "nuôi dưỡng trí tưởng tượng"
+                  },
+                  {
+                    "en": "lifelong appreciation",
+                    "vi": "niềm yêu thích suốt đời"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Chính quyền và các tổ chức nên đẩy mạnh nền tảng sách điện tử, sách nói cũng như hiện đại hóa hệ thống thư viện công cộng.",
+                "point_en": "Authorities and organizations should promote digital reading platforms, audiobooks, and modernized public libraries.",
+                "point_collocations": [
+                  {
+                    "en": "digital reading platforms",
+                    "vi": "nền tảng đọc sách kỹ thuật số"
+                  },
+                  {
+                    "en": "modernized public libraries",
+                    "vi": "thư viện công cộng được hiện đại hóa"
+                  }
+                ],
+                "evidence_vi": "Sách điện tử và sách nói cho phép những người bận rộn tiếp cận tri thức linh hoạt trong lúc di chuyển hoặc nghỉ ngơi. Đồng thời, đầu tư nâng cấp thư viện miễn phí với không gian thoải mái và đầu sách phong phú sẽ thu hút đông đảo độc giả trẻ quay trở lại.",
+                "evidence_en": "E-books and audiobooks enable busy individuals to absorb knowledge conveniently during commutes or breaks. At the same time, upgrading free public libraries with inviting interiors and updated catalogues can draw young readers back to books.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "absorb knowledge",
+                      "vi": "tiếp thu tri thức"
+                    },
+                    {
+                      "en": "during commutes",
+                      "vi": "trong lúc đi lại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "inviting interiors",
+                      "vi": "không gian nội thất thu hút"
+                    },
+                    {
+                      "en": "updated catalogues",
+                      "vi": "danh mục sách được cập nhật"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "digital reading platforms",
+                    "vi": "nền tảng đọc sách kỹ thuật số"
+                  },
+                  {
+                    "en": "modernized public libraries",
+                    "vi": "thư viện công cộng được hiện đại hóa"
+                  },
+                  {
+                    "en": "absorb knowledge",
+                    "vi": "tiếp thu tri thức"
+                  },
+                  {
+                    "en": "during commutes",
+                    "vi": "trong lúc đi lại"
+                  },
+                  {
+                    "en": "inviting interiors",
+                    "vi": "không gian nội thất thu hút"
+                  },
+                  {
+                    "en": "updated catalogues",
+                    "vi": "danh mục sách được cập nhật"
+                  }
                 ]
               }
             ]
@@ -113661,6 +117917,108 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Áp lực học tập và kỳ vọng quá cao của cha mẹ thường gây ra căng thẳng trong gia đình.",
+                "point_en": "Academic pressure and high expectations from parents often cause tension at home.",
+                "point_collocations": [
+                  {
+                    "en": "academic pressure",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "high expectations",
+                    "vi": "kỳ vọng cao"
+                  },
+                  {
+                    "en": "cause tension",
+                    "vi": "gây ra căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Khi cha mẹ liên tục so sánh điểm số của con với người khác, trẻ dễ cảm thấy mệt mỏi và tức giận.",
+                "evidence_en": "When parents constantly compare their children's grades with others, children easily feel stressed and angry.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "compare grades",
+                      "vi": "so sánh điểm số"
+                    },
+                    {
+                      "en": "feel stressed and angry",
+                      "vi": "cảm thấy căng thẳng và tức giận"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "academic pressure",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "high expectations",
+                    "vi": "kỳ vọng cao"
+                  },
+                  {
+                    "en": "cause tension",
+                    "vi": "gây ra căng thẳng"
+                  },
+                  {
+                    "en": "compare grades",
+                    "vi": "so sánh điểm số"
+                  },
+                  {
+                    "en": "feel stressed and angry",
+                    "vi": "cảm thấy căng thẳng và tức giận"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Việc trẻ dành quá nhiều thời gian cho điện thoại và trò chơi điện tử cũng dễ dẫn đến cãi vã.",
+                "point_en": "Children spending too much time on smartphones and video games can also lead to arguments.",
+                "point_collocations": [
+                  {
+                    "en": "video games",
+                    "vi": "trò chơi điện tử"
+                  },
+                  {
+                    "en": "lead to arguments",
+                    "vi": "dẫn đến tranh cãi"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ lo lắng cho sức khỏe và việc học của con, nhưng nhiều bạn trẻ lại thấy khó chịu khi bị kiểm soát quá chặt.",
+                "evidence_en": "Parents worry about their children's health and studies, while many young people feel annoyed when they are strictly controlled.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "worry about health and studies",
+                      "vi": "lo lắng cho sức khỏe và việc học"
+                    },
+                    {
+                      "en": "strictly controlled",
+                      "vi": "bị kiểm soát chặt chẽ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "video games",
+                    "vi": "trò chơi điện tử"
+                  },
+                  {
+                    "en": "lead to arguments",
+                    "vi": "dẫn đến tranh cãi"
+                  },
+                  {
+                    "en": "worry about health and studies",
+                    "vi": "lo lắng cho sức khỏe và việc học"
+                  },
+                  {
+                    "en": "strictly controlled",
+                    "vi": "bị kiểm soát chặt chẽ"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -113839,6 +118197,100 @@ const ESSAY_DATA = [
                       "vi": "những yêu cầu phù hợp"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Các gia đình nên dành nhiều thời gian hơn cho các hoạt động chung vào cuối tuần.",
+                "point_en": "Families should spend more time doing shared activities together on weekends.",
+                "point_collocations": [
+                  {
+                    "en": "shared activities",
+                    "vi": "các hoạt động chung"
+                  },
+                  {
+                    "en": "on weekends",
+                    "vi": "vào cuối tuần"
+                  }
+                ],
+                "evidence_vi": "Cùng nhau nấu ăn, đi dạo hoặc du lịch giúp cha mẹ và con cái gần gũi và thấu hiểu nhau hơn.",
+                "evidence_en": "Cooking meals, going for walks, or traveling together helps parents and children feel closer and understand each other better.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "feel closer",
+                      "vi": "cảm thấy gần gũi hơn"
+                    },
+                    {
+                      "en": "understand each other better",
+                      "vi": "hiểu nhau hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "shared activities",
+                    "vi": "các hoạt động chung"
+                  },
+                  {
+                    "en": "on weekends",
+                    "vi": "vào cuối tuần"
+                  },
+                  {
+                    "en": "feel closer",
+                    "vi": "cảm thấy gần gũi hơn"
+                  },
+                  {
+                    "en": "understand each other better",
+                    "vi": "hiểu nhau hơn"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Cha mẹ và con cái nên cùng nhau đặt ra các quy tắc rõ ràng và công bằng trong gia đình.",
+                "point_en": "Parents and children should agree on clear and fair rules at home together.",
+                "point_collocations": [
+                  {
+                    "en": "clear and fair rules",
+                    "vi": "quy tắc rõ ràng và công bằng"
+                  },
+                  {
+                    "en": "agree on",
+                    "vi": "thống nhất về"
+                  }
+                ],
+                "evidence_vi": "Khi con cái được tham gia thảo luận về giờ học và giờ dùng điện thoại, các em sẽ sẵn sàng tuân thủ hơn.",
+                "evidence_en": "When children take part in discussing study hours and screen time, they are much more willing to follow the rules.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "take part in discussing",
+                      "vi": "tham gia thảo luận"
+                    },
+                    {
+                      "en": "willing to follow the rules",
+                      "vi": "sẵn sàng tuân thủ quy tắc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clear and fair rules",
+                    "vi": "quy tắc rõ ràng và công bằng"
+                  },
+                  {
+                    "en": "agree on",
+                    "vi": "thống nhất về"
+                  },
+                  {
+                    "en": "take part in discussing",
+                    "vi": "tham gia thảo luận"
+                  },
+                  {
+                    "en": "willing to follow the rules",
+                    "vi": "sẵn sàng tuân thủ quy tắc"
+                  }
                 ]
               }
             ]
@@ -114071,6 +118523,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Áp lực thành tích học tập và kỳ vọng quá mức từ phụ huynh là nguồn gốc phổ biến của mâu thuẫn gia đình.",
+                "point_en": "Excessive academic pressure and unrealistic parental expectations are a frequent source of family conflict.",
+                "point_collocations": [
+                  {
+                    "en": "excessive academic pressure",
+                    "vi": "áp lực học tập quá mức"
+                  },
+                  {
+                    "en": "unrealistic parental expectations",
+                    "vi": "kỳ vọng thiếu thực tế của cha mẹ"
+                  }
+                ],
+                "evidence_vi": "Nhiều bậc cha mẹ đặt nặng điểm số cao và thường xuyên so sánh con mình với bạn bè đồng trang lứa. Sự giám sát khắt khe này có thể khiến con cái cảm thấy bị áp đặt, dẫn đến tâm lý chống đối hoặc thu mình lại.",
+                "evidence_en": "Many parents place immense emphasis on high grades and frequently compare their children to peers. Such strict pressure can make young people feel overwhelmed and resentful, triggering rebellious behavior or emotional withdrawal.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "place immense emphasis on",
+                      "vi": "đặt nặng tầm quan trọng lên"
+                    },
+                    {
+                      "en": "compare to peers",
+                      "vi": "so sánh với bạn đồng trang lứa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rebellious behavior",
+                      "vi": "hành vi chống đối"
+                    },
+                    {
+                      "en": "emotional withdrawal",
+                      "vi": "sự thu mình về mặt cảm xúc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "excessive academic pressure",
+                    "vi": "áp lực học tập quá mức"
+                  },
+                  {
+                    "en": "unrealistic parental expectations",
+                    "vi": "kỳ vọng thiếu thực tế của cha mẹ"
+                  },
+                  {
+                    "en": "place immense emphasis on",
+                    "vi": "đặt nặng tầm quan trọng lên"
+                  },
+                  {
+                    "en": "compare to peers",
+                    "vi": "so sánh với bạn đồng trang lứa"
+                  },
+                  {
+                    "en": "rebellious behavior",
+                    "vi": "hành vi chống đối"
+                  },
+                  {
+                    "en": "emotional withdrawal",
+                    "vi": "sự thu mình về mặt cảm xúc"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Thói quen sử dụng thiết bị điện tử và mạng xã hội quá mức của giới trẻ thường làm nảy sinh tranh cãi hằng ngày.",
+                "point_en": "Young people's heavy use of digital devices and social media frequently sparks daily disagreements at home.",
+                "point_collocations": [
+                  {
+                    "en": "heavy use of digital devices",
+                    "vi": "việc sử dụng thiết bị điện tử quá mức"
+                  },
+                  {
+                    "en": "spark daily disagreements",
+                    "vi": "làm nảy sinh tranh cãi hằng ngày"
+                  }
+                ],
+                "evidence_vi": "Phụ huynh thường lo ngại rằng thời gian nhìn màn hình quá lâu sẽ ảnh hưởng đến giấc ngủ, thị lực và kết quả học tập của con. Ngược lại, thanh thiếu niên coi điện thoại là không gian kết nối bạn bè và dễ bực bội khi cha mẹ can thiệp đột ngột.",
+                "evidence_en": "Parents often worry that prolonged screen exposure harms their children's sleep, eyesight, and academic focus. Conversely, teenagers view smartphones as vital tools for socializing and often react defensively when parents intervene abruptly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "prolonged screen exposure",
+                      "vi": "tiếp xúc màn hình kéo dài"
+                    },
+                    {
+                      "en": "academic focus",
+                      "vi": "sự tập trung học tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "react defensively",
+                      "vi": "phản ứng phòng thủ / khó chịu"
+                    },
+                    {
+                      "en": "intervene abruptly",
+                      "vi": "can thiệp đột ngột"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy use of digital devices",
+                    "vi": "việc sử dụng thiết bị điện tử quá mức"
+                  },
+                  {
+                    "en": "spark daily disagreements",
+                    "vi": "làm nảy sinh tranh cãi hằng ngày"
+                  },
+                  {
+                    "en": "prolonged screen exposure",
+                    "vi": "tiếp xúc màn hình kéo dài"
+                  },
+                  {
+                    "en": "academic focus",
+                    "vi": "sự tập trung học tập"
+                  },
+                  {
+                    "en": "react defensively",
+                    "vi": "phản ứng phòng thủ / khó chịu"
+                  },
+                  {
+                    "en": "intervene abruptly",
+                    "vi": "can thiệp đột ngột"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -114291,6 +118873,136 @@ const ESSAY_DATA = [
                       "vi": "điều chỉnh kỳ vọng thực tế"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Các thành viên trong gia đình nên chủ động duy trì những hoạt động gắn kết chung để củng cố tình cảm.",
+                "point_en": "Family members should actively maintain shared recreational activities to strengthen emotional bonds.",
+                "point_collocations": [
+                  {
+                    "en": "shared recreational activities",
+                    "vi": "các hoạt động giải trí chung"
+                  },
+                  {
+                    "en": "strengthen emotional bonds",
+                    "vi": "củng cố gắn kết tình cảm"
+                  }
+                ],
+                "evidence_vi": "Việc cùng nhau ăn tối không dùng điện thoại, chơi thể thao hoặc đi dã ngoại cuối tuần tạo ra bầu không khí gần gũi và cởi mở. Nhờ những trải nghiệm tích cực này, cha mẹ và con cái dễ dàng cảm thông và hóa giải các hiểu lầm thường ngày.",
+                "evidence_en": "Sharing device-free dinners, playing sports, or taking weekend outings fosters a warm and open atmosphere. Through these positive shared moments, parents and children develop greater empathy and resolve everyday tensions more smoothly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "device-free dinners",
+                      "vi": "bữa tối không thiết bị điện tử"
+                    },
+                    {
+                      "en": "warm and open atmosphere",
+                      "vi": "bầu không khí ấm áp và cởi mở"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop greater empathy",
+                      "vi": "phát triển sự đồng cảm sâu sắc hơn"
+                    },
+                    {
+                      "en": "resolve everyday tensions",
+                      "vi": "hóa giải căng thẳng hằng ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "shared recreational activities",
+                    "vi": "các hoạt động giải trí chung"
+                  },
+                  {
+                    "en": "strengthen emotional bonds",
+                    "vi": "củng cố gắn kết tình cảm"
+                  },
+                  {
+                    "en": "device-free dinners",
+                    "vi": "bữa tối không thiết bị điện tử"
+                  },
+                  {
+                    "en": "warm and open atmosphere",
+                    "vi": "bầu không khí ấm áp và cởi mở"
+                  },
+                  {
+                    "en": "develop greater empathy",
+                    "vi": "phát triển sự đồng cảm sâu sắc hơn"
+                  },
+                  {
+                    "en": "resolve everyday tensions",
+                    "vi": "hóa giải căng thẳng hằng ngày"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Cha mẹ và con cái cần cùng nhau thiết lập các nguyên tắc sinh hoạt công bằng và tìm đến chuyên gia tư vấn khi mâu thuẫn kéo dài.",
+                "point_en": "Parents and children should negotiate fair household rules together and seek professional counseling if conflicts persist.",
+                "point_collocations": [
+                  {
+                    "en": "negotiate fair rules",
+                    "vi": "thỏa thuận các quy tắc công bằng"
+                  },
+                  {
+                    "en": "professional counseling",
+                    "vi": "tư vấn chuyên môn"
+                  }
+                ],
+                "evidence_vi": "Khi thanh thiếu niên được tôn trọng và tham gia bàn bạc về giờ giấc học tập hay giải trí, các em sẽ có ý thức tự giác cao hơn nhiều so với việc bị ép buộc. Trong trường hợp bất đồng quá sâu sắc, chuyên gia tâm lý gia đình có thể cung cấp góc nhìn khách quan để hai bên tìm lại tiếng nói chung.",
+                "evidence_en": "When teenagers are respected and involved in setting boundaries for study and screen time, they feel far more accountable than when rules are imposed. In cases of deep-seated conflict, family counselors can offer objective guidance to help both sides rebuild mutual understanding.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "set boundaries",
+                      "vi": "thiết lập ranh giới / quy tắc"
+                    },
+                    {
+                      "en": "feel accountable",
+                      "vi": "cảm thấy có trách nhiệm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "deep-seated conflict",
+                      "vi": "mâu thuẫn ăn sâu"
+                    },
+                    {
+                      "en": "rebuild mutual understanding",
+                      "vi": "xây dựng lại sự thấu hiểu lẫn nhau"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "negotiate fair rules",
+                    "vi": "thỏa thuận các quy tắc công bằng"
+                  },
+                  {
+                    "en": "professional counseling",
+                    "vi": "tư vấn chuyên môn"
+                  },
+                  {
+                    "en": "set boundaries",
+                    "vi": "thiết lập ranh giới / quy tắc"
+                  },
+                  {
+                    "en": "feel accountable",
+                    "vi": "cảm thấy có trách nhiệm"
+                  },
+                  {
+                    "en": "deep-seated conflict",
+                    "vi": "mâu thuẫn ăn sâu"
+                  },
+                  {
+                    "en": "rebuild mutual understanding",
+                    "vi": "xây dựng lại sự thấu hiểu lẫn nhau"
+                  }
                 ]
               }
             ]
@@ -115750,6 +120462,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Các công trình xây dựng và sự mở rộng đô thị nhanh chóng tạo ra rất nhiều bụi bẩn trong không khí.",
+                "point_en": "Construction projects and fast urban growth create a lot of dust in the air.",
+                "point_collocations": [
+                  {
+                    "en": "construction projects",
+                    "vi": "các công trình xây dựng"
+                  },
+                  {
+                    "en": "create dust",
+                    "vi": "tạo ra bụi bẩn"
+                  }
+                ],
+                "evidence_vi": "Việc xây dựng nhà cửa, đường sá và vận chuyển vật liệu làm không khí ở các thành phố lớn trở nên bụi bặm hơn.",
+                "evidence_en": "Building houses, roads, and transporting materials make the air in big cities much dustier.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "transport materials",
+                      "vi": "vận chuyển vật liệu"
+                    },
+                    {
+                      "en": "much dustier",
+                      "vi": "bụi bặm hơn nhiều"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "construction projects",
+                    "vi": "các công trình xây dựng"
+                  },
+                  {
+                    "en": "create dust",
+                    "vi": "tạo ra bụi bẩn"
+                  },
+                  {
+                    "en": "transport materials",
+                    "vi": "vận chuyển vật liệu"
+                  },
+                  {
+                    "en": "much dustier",
+                    "vi": "bụi bặm hơn nhiều"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Nạn phá rừng và cháy rừng cũng góp phần làm chất lượng không khí ngày càng tệ hơn.",
+                "point_en": "Deforestation and forest fires also make air quality worse.",
+                "point_collocations": [
+                  {
+                    "en": "forest fires",
+                    "vi": "cháy rừng"
+                  },
+                  {
+                    "en": "air quality",
+                    "vi": "chất lượng không khí"
+                  }
+                ],
+                "evidence_vi": "Ít cây xanh hơn đồng nghĩa với việc không khí ít được lọc sạch, trong khi cháy rừng thải ra lượng khói bụi khổng lồ.",
+                "evidence_en": "Fewer trees mean less clean air, while forest fires release huge amounts of smoke and dust.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "release huge amounts of smoke",
+                      "vi": "thải ra lượng khói khổng lồ"
+                    },
+                    {
+                      "en": "clean air",
+                      "vi": "không khí sạch"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "forest fires",
+                    "vi": "cháy rừng"
+                  },
+                  {
+                    "en": "air quality",
+                    "vi": "chất lượng không khí"
+                  },
+                  {
+                    "en": "release huge amounts of smoke",
+                    "vi": "thải ra lượng khói khổng lồ"
+                  },
+                  {
+                    "en": "clean air",
+                    "vi": "không khí sạch"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -115928,6 +120734,100 @@ const ESSAY_DATA = [
                       "vi": "các hoạt động ngoài trời"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Ô nhiễm không khí làm trầm trọng thêm tình trạng nóng lên toàn cầu và biến đổi khí hậu.",
+                "point_en": "Air pollution makes global warming and climate change more serious.",
+                "point_collocations": [
+                  {
+                    "en": "global warming",
+                    "vi": "sự nóng lên toàn cầu"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  }
+                ],
+                "evidence_vi": "Các loại khí thải tích tụ trong bầu khí quyển giữ lại nhiệt lượng và gây ra thời tiết cực đoan hơn.",
+                "evidence_en": "Harmful gases build up in the atmosphere, trapping heat and causing more extreme weather.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "trap heat",
+                      "vi": "giữ nhiệt"
+                    },
+                    {
+                      "en": "extreme weather",
+                      "vi": "thời tiết cực đoan"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "global warming",
+                    "vi": "sự nóng lên toàn cầu"
+                  },
+                  {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  },
+                  {
+                    "en": "trap heat",
+                    "vi": "giữ nhiệt"
+                  },
+                  {
+                    "en": "extreme weather",
+                    "vi": "thời tiết cực đoan"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Chất lượng không khí kém cũng gây thiệt hại về kinh tế cho người dân và xã hội.",
+                "point_en": "Poor air quality also causes economic losses for individuals and society.",
+                "point_collocations": [
+                  {
+                    "en": "economic losses",
+                    "vi": "thiệt hại kinh tế"
+                  },
+                  {
+                    "en": "poor air quality",
+                    "vi": "chất lượng không khí kém"
+                  }
+                ],
+                "evidence_vi": "Mọi người phải tốn nhiều tiền hơn cho chi phí y tế và phải nghỉ làm nhiều ngày hơn khi bị ốm.",
+                "evidence_en": "People have to spend more money on medical care and take more sick days off work.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "medical care",
+                      "vi": "chăm sóc y tế"
+                    },
+                    {
+                      "en": "take sick days off",
+                      "vi": "nghỉ ốm"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "economic losses",
+                    "vi": "thiệt hại kinh tế"
+                  },
+                  {
+                    "en": "poor air quality",
+                    "vi": "chất lượng không khí kém"
+                  },
+                  {
+                    "en": "medical care",
+                    "vi": "chăm sóc y tế"
+                  },
+                  {
+                    "en": "take sick days off",
+                    "vi": "nghỉ ốm"
+                  }
                 ]
               }
             ]
@@ -116184,6 +121084,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Hoạt động xây dựng dày đặc và quá trình đô thị hóa nhanh chóng phát tán lượng lớn bụi mịn vào bầu không khí.",
+                "point_en": "Intensive construction activities and rapid urbanization release substantial amounts of fine dust into the air.",
+                "point_collocations": [
+                  {
+                    "en": "intensive construction activities",
+                    "vi": "hoạt động xây dựng dày đặc"
+                  },
+                  {
+                    "en": "fine dust",
+                    "vi": "bụi mịn"
+                  }
+                ],
+                "evidence_vi": "Quá trình phá dỡ công trình cũ, đào xới đất và vận chuyển vật liệu xây dựng không che chắn tạo ra mật độ bụi cao tại các khu dân cư. Tình trạng này kéo dài ở các đô thị đang phát triển khiến chỉ số chất lượng không khí thường xuyên ở mức báo động.",
+                "evidence_en": "Demolishing old structures, excavating land, and transporting uncovered building materials generate heavy dust in residential zones. Because this persists across expanding cities, air quality indices frequently reach hazardous levels.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "building materials",
+                      "vi": "vật liệu xây dựng"
+                    },
+                    {
+                      "en": "residential zones",
+                      "vi": "khu dân cư"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "air quality indices",
+                      "vi": "chỉ số chất lượng không khí"
+                    },
+                    {
+                      "en": "hazardous levels",
+                      "vi": "mức độ nguy hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "intensive construction activities",
+                    "vi": "hoạt động xây dựng dày đặc"
+                  },
+                  {
+                    "en": "fine dust",
+                    "vi": "bụi mịn"
+                  },
+                  {
+                    "en": "building materials",
+                    "vi": "vật liệu xây dựng"
+                  },
+                  {
+                    "en": "residential zones",
+                    "vi": "khu dân cư"
+                  },
+                  {
+                    "en": "air quality indices",
+                    "vi": "chỉ số chất lượng không khí"
+                  },
+                  {
+                    "en": "hazardous levels",
+                    "vi": "mức độ nguy hại"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Nạn phá rừng và các vụ cháy rừng quy mô lớn vừa thải ra nhiều khói độc vừa làm mất khả năng lọc không khí tự nhiên.",
+                "point_en": "Deforestation and large-scale wildfires both emit thick smoke and diminish nature's air-filtering capacity.",
+                "point_collocations": [
+                  {
+                    "en": "large-scale wildfires",
+                    "vi": "cháy rừng quy mô lớn"
+                  },
+                  {
+                    "en": "air-filtering capacity",
+                    "vi": "khả năng lọc không khí"
+                  }
+                ],
+                "evidence_vi": "Cây xanh đóng vai trò thiết yếu trong việc hấp thụ khí độc và giữ lại các hạt bụi lơ lửng trong không khí. Khi diện tích rừng bị thu hẹp hoặc bị thiêu rụi, các đám khói mù dày đặc có thể lan rộng sang nhiều vùng lân cận trong thời gian dài.",
+                "evidence_en": "Trees play an indispensable role in absorbing harmful gases and trapping airborne dust particles. When forests are cleared or burned, dense plumes of toxic smoke can spread across neighboring regions for extended periods.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "indispensable role",
+                      "vi": "vai trò không thể thiếu"
+                    },
+                    {
+                      "en": "airborne dust particles",
+                      "vi": "các hạt bụi lơ lửng trong không khí"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "toxic smoke",
+                      "vi": "khói độc"
+                    },
+                    {
+                      "en": "extended periods",
+                      "vi": "khoảng thời gian kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "large-scale wildfires",
+                    "vi": "cháy rừng quy mô lớn"
+                  },
+                  {
+                    "en": "air-filtering capacity",
+                    "vi": "khả năng lọc không khí"
+                  },
+                  {
+                    "en": "indispensable role",
+                    "vi": "vai trò không thể thiếu"
+                  },
+                  {
+                    "en": "airborne dust particles",
+                    "vi": "các hạt bụi lơ lửng trong không khí"
+                  },
+                  {
+                    "en": "toxic smoke",
+                    "vi": "khói độc"
+                  },
+                  {
+                    "en": "extended periods",
+                    "vi": "khoảng thời gian kéo dài"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -116428,6 +121458,136 @@ const ESSAY_DATA = [
                       "vi": "hạn chế giải trí ngoài trời"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Ô nhiễm không khí đẩy nhanh quá trình biến đổi khí hậu và làm gia tăng các hiện tượng thời tiết cực đoan.",
+                "point_en": "Air pollution accelerates climate change and intensifies extreme weather events.",
+                "point_collocations": [
+                  {
+                    "en": "accelerate climate change",
+                    "vi": "đẩy nhanh biến đổi khí hậu"
+                  },
+                  {
+                    "en": "extreme weather events",
+                    "vi": "các hiện tượng thời tiết cực đoan"
+                  }
+                ],
+                "evidence_vi": "Các khí nhà kính và bụi mịn tích tụ trong khí quyển giữ lại bức xạ nhiệt, khiến nhiệt độ trung bình toàn cầu tăng liên tục. Hệ quả là nhiều khu vực phải đối mặt với nắng nóng khắc nghiệt, mưa axit và những biến động khí hậu khó lường.",
+                "evidence_en": "Greenhouse gases and particulate pollutants accumulate in the atmosphere and trap heat, steadily raising global average temperatures. As a consequence, numerous regions experience severe heatwaves, acid rain, and unpredictable climate patterns.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "particulate pollutants",
+                      "vi": "chất ô nhiễm dạng hạt"
+                    },
+                    {
+                      "en": "global average temperatures",
+                      "vi": "nhiệt độ trung bình toàn cầu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "severe heatwaves",
+                      "vi": "đợt nắng nóng gay gắt"
+                    },
+                    {
+                      "en": "acid rain",
+                      "vi": "mưa axit"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "accelerate climate change",
+                    "vi": "đẩy nhanh biến đổi khí hậu"
+                  },
+                  {
+                    "en": "extreme weather events",
+                    "vi": "các hiện tượng thời tiết cực đoan"
+                  },
+                  {
+                    "en": "particulate pollutants",
+                    "vi": "chất ô nhiễm dạng hạt"
+                  },
+                  {
+                    "en": "global average temperatures",
+                    "vi": "nhiệt độ trung bình toàn cầu"
+                  },
+                  {
+                    "en": "severe heatwaves",
+                    "vi": "đợt nắng nóng gay gắt"
+                  },
+                  {
+                    "en": "acid rain",
+                    "vi": "mưa axit"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Tình trạng ô nhiễm không khí nghiêm trọng gây ra tổn thất kinh tế đáng kể cho cả cá nhân lẫn ngân sách quốc gia.",
+                "point_en": "Severe air pollution inflicts substantial economic losses on both individuals and national economies.",
+                "point_collocations": [
+                  {
+                    "en": "inflict substantial losses",
+                    "vi": "gây ra tổn thất đáng kể"
+                  },
+                  {
+                    "en": "national economies",
+                    "vi": "nền kinh tế quốc gia"
+                  }
+                ],
+                "evidence_vi": "Chi phí điều trị các bệnh liên quan đến ô nhiễm làm tăng gánh nặng cho hệ thống y tế, đồng thời làm giảm năng suất lao động do nhân viên phải nghỉ ốm. Bên cạnh đó, những thành phố thường xuyên bao phủ bởi khói bụi cũng trở nên kém hấp dẫn hơn đối với du khách và nhà đầu tư nước ngoài.",
+                "evidence_en": "Treating pollution-related illnesses places a heavy financial burden on healthcare systems while reducing workforce productivity through sick leave. Moreover, smog-covered cities often become less attractive to international tourists and foreign investors.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "pollution-related illnesses",
+                      "vi": "các bệnh liên quan đến ô nhiễm"
+                    },
+                    {
+                      "en": "workforce productivity",
+                      "vi": "năng suất lao động"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "smog-covered cities",
+                      "vi": "các thành phố bao phủ khói bụi"
+                    },
+                    {
+                      "en": "foreign investors",
+                      "vi": "nhà đầu tư nước ngoài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "inflict substantial losses",
+                    "vi": "gây ra tổn thất đáng kể"
+                  },
+                  {
+                    "en": "national economies",
+                    "vi": "nền kinh tế quốc gia"
+                  },
+                  {
+                    "en": "pollution-related illnesses",
+                    "vi": "các bệnh liên quan đến ô nhiễm"
+                  },
+                  {
+                    "en": "workforce productivity",
+                    "vi": "năng suất lao động"
+                  },
+                  {
+                    "en": "smog-covered cities",
+                    "vi": "các thành phố bao phủ khói bụi"
+                  },
+                  {
+                    "en": "foreign investors",
+                    "vi": "nhà đầu tư nước ngoài"
+                  }
                 ]
               }
             ]
@@ -117899,6 +123059,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Hoạt động sản xuất công nghiệp và lượng rác thải khổng lồ làm tăng lượng khí gây ô nhiễm.",
+                "point_en": "Industrial production and huge amounts of waste increase harmful greenhouse gases.",
+                "point_collocations": [
+                  {
+                    "en": "industrial production",
+                    "vi": "sản xuất công nghiệp"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  }
+                ],
+                "evidence_vi": "Các nhà máy tiêu thụ rất nhiều điện năng và các bãi rác thải ra khí mê-tan khi rác bị phân hủy.",
+                "evidence_en": "Factories use large amounts of electricity, and landfills release methane gas as waste breaks down.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "landfills",
+                      "vi": "bãi chôn lấp rác"
+                    },
+                    {
+                      "en": "release methane gas",
+                      "vi": "thải ra khí mê-tan"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "industrial production",
+                    "vi": "sản xuất công nghiệp"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "landfills",
+                    "vi": "bãi chôn lấp rác"
+                  },
+                  {
+                    "en": "release methane gas",
+                    "vi": "thải ra khí mê-tan"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Hoạt động chăn nuôi và nông nghiệp quy mô lớn cũng góp phần gây ra biến đổi khí hậu.",
+                "point_en": "Large-scale livestock farming and agriculture also contribute to climate change.",
+                "point_collocations": [
+                  {
+                    "en": "livestock farming",
+                    "vi": "chăn nuôi gia súc"
+                  },
+                  {
+                    "en": "contribute to climate change",
+                    "vi": "góp phần gây biến đổi khí hậu"
+                  }
+                ],
+                "evidence_vi": "Việc nuôi số lượng lớn gia súc và sử dụng nhiều phân bón hóa học thải ra các loại khí làm Trái Đất nóng lên.",
+                "evidence_en": "Raising huge numbers of cattle and using chemical fertilizers release gases that warm the planet.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "chemical fertilizers",
+                      "vi": "phân bón hóa học"
+                    },
+                    {
+                      "en": "warm the planet",
+                      "vi": "làm nóng hành tinh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "livestock farming",
+                    "vi": "chăn nuôi gia súc"
+                  },
+                  {
+                    "en": "contribute to climate change",
+                    "vi": "góp phần gây biến đổi khí hậu"
+                  },
+                  {
+                    "en": "chemical fertilizers",
+                    "vi": "phân bón hóa học"
+                  },
+                  {
+                    "en": "warm the planet",
+                    "vi": "làm nóng hành tinh"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -118101,6 +123355,100 @@ const ESSAY_DATA = [
                       "vi": "đối mặt với khó khăn"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Nhiệt độ tăng cao làm băng ở hai cực tan chảy và khiến mực nước biển dâng lên.",
+                "point_en": "Higher temperatures melt polar ice and cause sea levels to rise.",
+                "point_collocations": [
+                  {
+                    "en": "melt polar ice",
+                    "vi": "làm tan băng ở hai cực"
+                  },
+                  {
+                    "en": "sea levels rise",
+                    "vi": "mực nước biển dâng cao"
+                  }
+                ],
+                "evidence_vi": "Điều này đe dọa nhiều thành phố ven biển và các hòn đảo nhỏ bị ngập lụt trong tương lai.",
+                "evidence_en": "This threatens many coastal cities and small islands with serious flooding in the future.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "coastal cities",
+                      "vi": "các thành phố ven biển"
+                    },
+                    {
+                      "en": "serious flooding",
+                      "vi": "ngập lụt nghiêm trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "melt polar ice",
+                    "vi": "làm tan băng ở hai cực"
+                  },
+                  {
+                    "en": "sea levels rise",
+                    "vi": "mực nước biển dâng cao"
+                  },
+                  {
+                    "en": "coastal cities",
+                    "vi": "các thành phố ven biển"
+                  },
+                  {
+                    "en": "serious flooding",
+                    "vi": "ngập lụt nghiêm trọng"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Biến đổi khí hậu làm suy giảm đa dạng sinh học và đe dọa nhiều loài động vật hoang dã.",
+                "point_en": "Climate change reduces biodiversity and puts many wild animals in danger.",
+                "point_collocations": [
+                  {
+                    "en": "reduce biodiversity",
+                    "vi": "làm giảm đa dạng sinh học"
+                  },
+                  {
+                    "en": "wild animals",
+                    "vi": "động vật hoang dã"
+                  }
+                ],
+                "evidence_vi": "Khi thời tiết và đại dương thay đổi quá nhanh, nhiều loài sinh vật mất môi trường sống và khó có thể tồn tại.",
+                "evidence_en": "When weather and oceans change too quickly, many species lose their habitats and struggle to survive.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "lose their habitats",
+                      "vi": "mất môi trường sống"
+                    },
+                    {
+                      "en": "struggle to survive",
+                      "vi": "vật lộn để sinh tồn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce biodiversity",
+                    "vi": "làm giảm đa dạng sinh học"
+                  },
+                  {
+                    "en": "wild animals",
+                    "vi": "động vật hoang dã"
+                  },
+                  {
+                    "en": "lose their habitats",
+                    "vi": "mất môi trường sống"
+                  },
+                  {
+                    "en": "struggle to survive",
+                    "vi": "vật lộn để sinh tồn"
+                  }
                 ]
               }
             ]
@@ -118393,6 +123741,136 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Sản xuất công nghiệp ồ ạt và quản lý rác thải kém hiệu quả làm tăng đáng kể lượng khí thải nhà kính.",
+                "point_en": "Mass industrial manufacturing and improper waste management significantly boost greenhouse gas emissions.",
+                "point_collocations": [
+                  {
+                    "en": "mass industrial manufacturing",
+                    "vi": "sản xuất công nghiệp ồ ạt"
+                  },
+                  {
+                    "en": "improper waste management",
+                    "vi": "quản lý rác thải kém hiệu quả"
+                  }
+                ],
+                "evidence_vi": "Các ngành công nghiệp nặng như sản xuất xi măng và thép đòi hỏi nguồn năng lượng khổng lồ và thải ra lượng lớn khí carbon dioxide. Bên cạnh đó, rác thải hữu cơ phân hủy tại các bãi chôn lấp tạo ra khí mê-tan, một loại khí giữ nhiệt rất mạnh trong khí quyển.",
+                "evidence_en": "Heavy industries such as cement and steel production consume vast energy and emit massive volumes of carbon dioxide. Additionally, decomposing organic waste in landfills generates methane, a potent heat-trapping gas in the atmosphere.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "heavy industries",
+                      "vi": "các ngành công nghiệp nặng"
+                    },
+                    {
+                      "en": "emit massive volumes",
+                      "vi": "thải ra khối lượng khổng lồ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "decomposing organic waste",
+                      "vi": "rác hữu cơ đang phân hủy"
+                    },
+                    {
+                      "en": "potent heat-trapping gas",
+                      "vi": "khí giữ nhiệt mạnh"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mass industrial manufacturing",
+                    "vi": "sản xuất công nghiệp ồ ạt"
+                  },
+                  {
+                    "en": "improper waste management",
+                    "vi": "quản lý rác thải kém hiệu quả"
+                  },
+                  {
+                    "en": "heavy industries",
+                    "vi": "các ngành công nghiệp nặng"
+                  },
+                  {
+                    "en": "emit massive volumes",
+                    "vi": "thải ra khối lượng khổng lồ"
+                  },
+                  {
+                    "en": "decomposing organic waste",
+                    "vi": "rác hữu cơ đang phân hủy"
+                  },
+                  {
+                    "en": "potent heat-trapping gas",
+                    "vi": "khí giữ nhiệt mạnh"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Hoạt động chăn nuôi thâm canh và nông nghiệp công nghiệp cũng là tác nhân lớn thúc đẩy sự nóng lên toàn cầu.",
+                "point_en": "Intensive livestock farming and industrial agriculture are also major drivers of global warming.",
+                "point_collocations": [
+                  {
+                    "en": "intensive livestock farming",
+                    "vi": "chăn nuôi thâm canh"
+                  },
+                  {
+                    "en": "major drivers",
+                    "vi": "những tác nhân chính"
+                  }
+                ],
+                "evidence_vi": "Chăn nuôi gia súc quy mô lớn tạo ra lượng khí mê-tan khổng lồ đồng thời đòi hỏi mở rộng diện tích đất đồng cỏ bằng cách phá rừng. Hơn nữa, việc lạm dụng phân bón hóa học giải phóng khí nitơ oxit, làm trầm trọng thêm hiệu ứng nhà kính.",
+                "evidence_en": "Large-scale cattle ranching produces substantial methane emissions while demanding forest clearance for grazing land. Furthermore, the excessive use of synthetic fertilizers releases nitrous oxide, further intensifying the greenhouse effect.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "cattle ranching",
+                      "vi": "chăn nuôi gia súc"
+                    },
+                    {
+                      "en": "forest clearance",
+                      "vi": "việc phá rừng lấy đất"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "synthetic fertilizers",
+                      "vi": "phân bón hóa học tổng hợp"
+                    },
+                    {
+                      "en": "greenhouse effect",
+                      "vi": "hiệu ứng nhà kính"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "intensive livestock farming",
+                    "vi": "chăn nuôi thâm canh"
+                  },
+                  {
+                    "en": "major drivers",
+                    "vi": "những tác nhân chính"
+                  },
+                  {
+                    "en": "cattle ranching",
+                    "vi": "chăn nuôi gia súc"
+                  },
+                  {
+                    "en": "forest clearance",
+                    "vi": "việc phá rừng lấy đất"
+                  },
+                  {
+                    "en": "synthetic fertilizers",
+                    "vi": "phân bón hóa học tổng hợp"
+                  },
+                  {
+                    "en": "greenhouse effect",
+                    "vi": "hiệu ứng nhà kính"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -118657,6 +124135,136 @@ const ESSAY_DATA = [
                       "vi": "trong dài hạn"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Sự nóng lên toàn cầu thúc đẩy băng tan ở hai cực và làm mực nước biển dâng cao đáng báo động.",
+                "point_en": "Global warming accelerates polar ice melting and causes sea levels to rise at an alarming rate.",
+                "point_collocations": [
+                  {
+                    "en": "polar ice melting",
+                    "vi": "tan băng ở hai cực"
+                  },
+                  {
+                    "en": "at an alarming rate",
+                    "vi": "ở tốc độ đáng báo động"
+                  }
+                ],
+                "evidence_vi": "Khi các sông băng và tảng băng lớn tan chảy vào đại dương, nhiều vùng đồng bằng ven biển và quốc đảo trũng thấp phải đối mặt với nguy cơ ngập lụt thường xuyên. Về lâu dài, hàng triệu cư dân ven biển có thể mất nhà cửa và đất canh tác do xâm nhập mặn.",
+                "evidence_en": "As glaciers and ice sheets melt into the oceans, low-lying coastal plains and island nations face increasingly frequent flooding. Over the long term, millions of coastal residents risk losing their homes and farmland to saltwater intrusion.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "glaciers and ice sheets",
+                      "vi": "sông băng và tảng băng"
+                    },
+                    {
+                      "en": "low-lying coastal plains",
+                      "vi": "đồng bằng ven biển trũng thấp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "saltwater intrusion",
+                      "vi": "xâm nhập mặn"
+                    },
+                    {
+                      "en": "coastal residents",
+                      "vi": "cư dân ven biển"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "polar ice melting",
+                    "vi": "tan băng ở hai cực"
+                  },
+                  {
+                    "en": "at an alarming rate",
+                    "vi": "ở tốc độ đáng báo động"
+                  },
+                  {
+                    "en": "glaciers and ice sheets",
+                    "vi": "sông băng và tảng băng"
+                  },
+                  {
+                    "en": "low-lying coastal plains",
+                    "vi": "đồng bằng ven biển trũng thấp"
+                  },
+                  {
+                    "en": "saltwater intrusion",
+                    "vi": "xâm nhập mặn"
+                  },
+                  {
+                    "en": "coastal residents",
+                    "vi": "cư dân ven biển"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Biến đổi khí hậu phá vỡ các hệ sinh thái tự nhiên và đẩy nhiều loài sinh vật đến bờ vực tuyệt chủng.",
+                "point_en": "Climate change disrupts natural ecosystems and pushes numerous wildlife species toward extinction.",
+                "point_collocations": [
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "vi": "phá vỡ hệ sinh thái tự nhiên"
+                  },
+                  {
+                    "en": "toward extinction",
+                    "vi": "đến bờ vực tuyệt chủng"
+                  }
+                ],
+                "evidence_vi": "Nhiệt độ đại dương tăng cao gây ra hiện tượng tẩy trắng san hô, trong khi thời tiết thất thường làm thay đổi mùa di cư và nguồn thức ăn của động vật. Khi các loài không kịp thích nghi với môi trường biến đổi quá nhanh, đa dạng sinh học toàn cầu sẽ suy giảm nghiêm trọng.",
+                "evidence_en": "Warming ocean waters cause widespread coral bleaching, while erratic weather alters migration patterns and food availability for wildlife. Because many species cannot adapt quickly enough to rapid environmental shifts, global biodiversity suffers severe decline.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "coral bleaching",
+                      "vi": "hiện tượng tẩy trắng san hô"
+                    },
+                    {
+                      "en": "migration patterns",
+                      "vi": "quy luật di cư"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "adapt quickly enough",
+                      "vi": "thích nghi đủ nhanh"
+                    },
+                    {
+                      "en": "severe decline",
+                      "vi": "sự suy giảm nghiêm trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "disrupt natural ecosystems",
+                    "vi": "phá vỡ hệ sinh thái tự nhiên"
+                  },
+                  {
+                    "en": "toward extinction",
+                    "vi": "đến bờ vực tuyệt chủng"
+                  },
+                  {
+                    "en": "coral bleaching",
+                    "vi": "hiện tượng tẩy trắng san hô"
+                  },
+                  {
+                    "en": "migration patterns",
+                    "vi": "quy luật di cư"
+                  },
+                  {
+                    "en": "adapt quickly enough",
+                    "vi": "thích nghi đủ nhanh"
+                  },
+                  {
+                    "en": "severe decline",
+                    "vi": "sự suy giảm nghiêm trọng"
+                  }
                 ]
               }
             ]
@@ -124133,6 +129741,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Sự tò mò và hình ảnh hút thuốc trên phim ảnh hoặc mạng xã hội khiến nhiều bạn trẻ muốn thử.",
+                "point_en": "Curiosity and smoking images in movies or on social media make many young people want to try it.",
+                "point_collocations": [
+                  {
+                    "en": "curiosity",
+                    "vi": "sự tò mò"
+                  },
+                  {
+                    "en": "smoking images",
+                    "vi": "hình ảnh hút thuốc"
+                  }
+                ],
+                "evidence_vi": "Một số thanh thiếu niên thấy thần tượng hoặc nhân vật phim hút thuốc và nghĩ rằng điều đó trông rất ngầu và trưởng thành.",
+                "evidence_en": "Some teenagers see celebrities or movie characters smoking and think that it looks cool and mature.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "movie characters",
+                      "vi": "nhân vật phim"
+                    },
+                    {
+                      "en": "look cool and mature",
+                      "vi": "trông ngầu và trưởng thành"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "curiosity",
+                    "vi": "sự tò mò"
+                  },
+                  {
+                    "en": "smoking images",
+                    "vi": "hình ảnh hút thuốc"
+                  },
+                  {
+                    "en": "movie characters",
+                    "vi": "nhân vật phim"
+                  },
+                  {
+                    "en": "look cool and mature",
+                    "vi": "trông ngầu và trưởng thành"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Việc dễ dàng mua thuốc lá và thuốc lá điện tử cũng góp phần làm tăng số người trẻ hút thuốc.",
+                "point_en": "Easy access to cigarettes and e-cigarettes also increases the number of young smokers.",
+                "point_collocations": [
+                  {
+                    "en": "easy access to",
+                    "vi": "dễ dàng tiếp cận với"
+                  },
+                  {
+                    "en": "e-cigarettes",
+                    "vi": "thuốc lá điện tử"
+                  }
+                ],
+                "evidence_vi": "Ở nhiều nơi, các cửa hàng không kiểm tra độ tuổi cẩn thận nên học sinh vẫn có thể mua thuốc lá với giá rẻ.",
+                "evidence_en": "In many places, shops do not check ages carefully, so students can still buy tobacco products at low prices.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "check ages carefully",
+                      "vi": "kiểm tra độ tuổi cẩn thận"
+                    },
+                    {
+                      "en": "at low prices",
+                      "vi": "với giá rẻ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "easy access to",
+                    "vi": "dễ dàng tiếp cận với"
+                  },
+                  {
+                    "en": "e-cigarettes",
+                    "vi": "thuốc lá điện tử"
+                  },
+                  {
+                    "en": "check ages carefully",
+                    "vi": "kiểm tra độ tuổi cẩn thận"
+                  },
+                  {
+                    "en": "at low prices",
+                    "vi": "với giá rẻ"
+                  }
+                ]
               }
             ],
             "drawbacks": [
@@ -124311,6 +130013,100 @@ const ESSAY_DATA = [
                       "vi": "tiền tiêu vặt hằng ngày"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Hút thuốc có thể làm giảm khả năng tập trung và ảnh hưởng xấu đến kết quả học tập của người trẻ.",
+                "point_en": "Smoking can reduce concentration and harm young people's study results.",
+                "point_collocations": [
+                  {
+                    "en": "reduce concentration",
+                    "vi": "giảm khả năng tập trung"
+                  },
+                  {
+                    "en": "study results",
+                    "vi": "kết quả học tập"
+                  }
+                ],
+                "evidence_vi": "Những bạn trẻ nghiện thuốc thường cảm thấy mệt mỏi, khó tập trung trong lớp và kém năng động hơn trong các hoạt động thể thao.",
+                "evidence_en": "Young smokers often feel tired, struggle to focus in class, and become less active in sports.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "struggle to focus",
+                      "vi": "khó tập trung"
+                    },
+                    {
+                      "en": "less active in sports",
+                      "vi": "kém năng động hơn trong thể thao"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce concentration",
+                    "vi": "giảm khả năng tập trung"
+                  },
+                  {
+                    "en": "study results",
+                    "vi": "kết quả học tập"
+                  },
+                  {
+                    "en": "struggle to focus",
+                    "vi": "khó tập trung"
+                  },
+                  {
+                    "en": "less active in sports",
+                    "vi": "kém năng động hơn trong thể thao"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Khói thuốc lá cũng gây hại cho sức khỏe của gia đình và bạn bè xung quanh.",
+                "point_en": "Cigarette smoke also harms the health of family members and friends nearby.",
+                "point_collocations": [
+                  {
+                    "en": "cigarette smoke",
+                    "vi": "khói thuốc lá"
+                  },
+                  {
+                    "en": "harm the health of",
+                    "vi": "gây hại cho sức khỏe của"
+                  }
+                ],
+                "evidence_vi": "Những người không hút thuốc vẫn có thể mắc bệnh về phổi khi phải hít khói thuốc thụ động mỗi ngày.",
+                "evidence_en": "Non-smokers can still develop lung problems when they breathe in secondhand smoke every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "non-smokers",
+                      "vi": "người không hút thuốc"
+                    },
+                    {
+                      "en": "secondhand smoke",
+                      "vi": "khói thuốc thụ động"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cigarette smoke",
+                    "vi": "khói thuốc lá"
+                  },
+                  {
+                    "en": "harm the health of",
+                    "vi": "gây hại cho sức khỏe của"
+                  },
+                  {
+                    "en": "non-smokers",
+                    "vi": "người không hút thuốc"
+                  },
+                  {
+                    "en": "secondhand smoke",
+                    "vi": "khói thuốc thụ động"
+                  }
                 ]
               }
             ]
@@ -124534,6 +130330,136 @@ const ESSAY_DATA = [
                       "vi": "giải tỏa nỗi đau tâm lý"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Tính tò mò ở tuổi mới lớn và hình ảnh hút thuốc được tô hồng trên truyền thông khuyến khích giới trẻ thử nghiệm.",
+                "point_en": "Adolescent curiosity and the glamorous portrayal of smoking in the media encourage young people to experiment.",
+                "point_collocations": [
+                  {
+                    "en": "adolescent curiosity",
+                    "vi": "sự tò mò ở tuổi vị thành niên"
+                  },
+                  {
+                    "en": "glamorous portrayal",
+                    "vi": "sự khắc họa hào nhoáng"
+                  }
+                ],
+                "evidence_vi": "Nhiều bộ phim, video âm nhạc và bài đăng mạng xã hội khắc họa cảnh hút thuốc lá hoặc thuốc lá điện tử như biểu tượng của sự sành điệu và tự do. Do chưa nhận thức đầy đủ hậu quả lâu dài, không ít thanh thiếu niên tò mò thử và nhanh chóng hình thành thói quen.",
+                "evidence_en": "Numerous films, music videos, and social media posts depict smoking or vaping as symbols of style and independence. Lacking full awareness of the long-term risks, many teenagers experiment out of curiosity and quickly turn it into a habit.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "depict as symbols of",
+                      "vi": "khắc họa như biểu tượng của"
+                    },
+                    {
+                      "en": "style and independence",
+                      "vi": "sự sành điệu và độc lập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "experiment out of curiosity",
+                      "vi": "thử nghiệm vì tò mò"
+                    },
+                    {
+                      "en": "long-term risks",
+                      "vi": "rủi ro lâu dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "adolescent curiosity",
+                    "vi": "sự tò mò ở tuổi vị thành niên"
+                  },
+                  {
+                    "en": "glamorous portrayal",
+                    "vi": "sự khắc họa hào nhoáng"
+                  },
+                  {
+                    "en": "depict as symbols of",
+                    "vi": "khắc họa như biểu tượng của"
+                  },
+                  {
+                    "en": "style and independence",
+                    "vi": "sự sành điệu và độc lập"
+                  },
+                  {
+                    "en": "experiment out of curiosity",
+                    "vi": "thử nghiệm vì tò mò"
+                  },
+                  {
+                    "en": "long-term risks",
+                    "vi": "rủi ro lâu dài"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Khả năng tiếp cận dễ dàng với thuốc lá giá rẻ và việc thực thi giới hạn độ tuổi lỏng lẻo làm gia tăng tình trạng hút thuốc ở thanh thiếu niên.",
+                "point_en": "Easy accessibility to affordable tobacco products and weak enforcement of age restrictions fuel youth smoking.",
+                "point_collocations": [
+                  {
+                    "en": "easy accessibility",
+                    "vi": "khả năng tiếp cận dễ dàng"
+                  },
+                  {
+                    "en": "age restrictions",
+                    "vi": "giới hạn độ tuổi"
+                  }
+                ],
+                "evidence_vi": "Tại nhiều khu vực, người bán lẻ ít kiểm tra giấy tờ tùy thân trong khi thuốc lá điện tử nhiều hương vị được rao bán tràn lan trên mạng. Sự thiếu kiểm soát này tạo điều kiện cho học sinh mua và sử dụng thuốc lá mà không gặp nhiều trở ngại.",
+                "evidence_en": "In many areas, retailers rarely verify identification while flavored e-cigarettes are widely sold online. This lack of strict oversight allows underage students to purchase and consume tobacco products with minimal difficulty.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "verify identification",
+                      "vi": "kiểm tra giấy tờ tùy thân"
+                    },
+                    {
+                      "en": "flavored e-cigarettes",
+                      "vi": "thuốc lá điện tử có hương vị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "strict oversight",
+                      "vi": "sự giám sát chặt chẽ"
+                    },
+                    {
+                      "en": "underage students",
+                      "vi": "học sinh chưa đủ tuổi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "easy accessibility",
+                    "vi": "khả năng tiếp cận dễ dàng"
+                  },
+                  {
+                    "en": "age restrictions",
+                    "vi": "giới hạn độ tuổi"
+                  },
+                  {
+                    "en": "verify identification",
+                    "vi": "kiểm tra giấy tờ tùy thân"
+                  },
+                  {
+                    "en": "flavored e-cigarettes",
+                    "vi": "thuốc lá điện tử có hương vị"
+                  },
+                  {
+                    "en": "strict oversight",
+                    "vi": "sự giám sát chặt chẽ"
+                  },
+                  {
+                    "en": "underage students",
+                    "vi": "học sinh chưa đủ tuổi"
+                  }
                 ]
               }
             ],
@@ -124783,6 +130709,136 @@ const ESSAY_DATA = [
                       "vi": "trong tương lai"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Thói quen hút thuốc sớm có thể làm suy giảm khả năng tập trung, thể lực và thành tích học tập của giới trẻ.",
+                "point_en": "Early smoking habits can impair young people's concentration, physical stamina, and academic performance.",
+                "point_collocations": [
+                  {
+                    "en": "impair concentration",
+                    "vi": "làm suy giảm khả năng tập trung"
+                  },
+                  {
+                    "en": "physical stamina",
+                    "vi": "thể lực / sức bền"
+                  }
+                ],
+                "evidence_vi": "Nicotine ảnh hưởng tiêu cực đến sự phát triển của não bộ ở tuổi vị thành niên và gây cảm giác bồn chồn khi không được hút thuốc trong giờ học. Đồng thời, dung tích phổi suy giảm khiến người trẻ nhanh mệt mỏi và khó duy trì phong độ trong học tập cũng như thể thao.",
+                "evidence_en": "Nicotine negatively affects adolescent brain development and causes restlessness during long classes without cigarettes. Meanwhile, reduced lung capacity lowers energy levels, making it harder for youths to excel in both academics and sports.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "adolescent brain development",
+                      "vi": "sự phát triển não bộ tuổi vị thành niên"
+                    },
+                    {
+                      "en": "cause restlessness",
+                      "vi": "gây cảm giác bồn chồn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "reduced lung capacity",
+                      "vi": "dung tích phổi suy giảm"
+                    },
+                    {
+                      "en": "excel in academics",
+                      "vi": "đạt thành tích tốt trong học tập"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "impair concentration",
+                    "vi": "làm suy giảm khả năng tập trung"
+                  },
+                  {
+                    "en": "physical stamina",
+                    "vi": "thể lực / sức bền"
+                  },
+                  {
+                    "en": "adolescent brain development",
+                    "vi": "sự phát triển não bộ tuổi vị thành niên"
+                  },
+                  {
+                    "en": "cause restlessness",
+                    "vi": "gây cảm giác bồn chồn"
+                  },
+                  {
+                    "en": "reduced lung capacity",
+                    "vi": "dung tích phổi suy giảm"
+                  },
+                  {
+                    "en": "excel in academics",
+                    "vi": "đạt thành tích tốt trong học tập"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Hành vi hút thuốc của người trẻ còn đe dọa sức khỏe cộng đồng thông qua khói thuốc thụ động và tạo ảnh hưởng xấu đến người xung quanh.",
+                "point_en": "Youth smoking also endangers public health through secondhand smoke and sets a negative example for peers.",
+                "point_collocations": [
+                  {
+                    "en": "endanger public health",
+                    "vi": "đe dọa sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "secondhand smoke",
+                    "vi": "khói thuốc thụ động"
+                  }
+                ],
+                "evidence_vi": "Người thân trong gia đình, đặc biệt là trẻ nhỏ và người lớn tuổi, có nguy cơ mắc bệnh hô hấp và tim mạch khi thường xuyên hít phải khói thuốc thụ động. Hơn nữa, việc thanh thiếu niên hút thuốc nơi công cộng dễ lôi kéo thêm bạn bè cùng lứa bắt chước theo.",
+                "evidence_en": "Family members, particularly young children and elderly relatives, face elevated risks of respiratory and heart diseases from passive smoking. Furthermore, young people smoking openly in social settings can easily influence their peers to imitate this harmful behavior.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "passive smoking",
+                      "vi": "hút thuốc thụ động"
+                    },
+                    {
+                      "en": "respiratory and heart diseases",
+                      "vi": "bệnh hô hấp và tim mạch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social settings",
+                      "vi": "môi trường giao tiếp xã hội"
+                    },
+                    {
+                      "en": "imitate harmful behavior",
+                      "vi": "bắt chước hành vi có hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "endanger public health",
+                    "vi": "đe dọa sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "secondhand smoke",
+                    "vi": "khói thuốc thụ động"
+                  },
+                  {
+                    "en": "passive smoking",
+                    "vi": "hút thuốc thụ động"
+                  },
+                  {
+                    "en": "respiratory and heart diseases",
+                    "vi": "bệnh hô hấp và tim mạch"
+                  },
+                  {
+                    "en": "social settings",
+                    "vi": "môi trường giao tiếp xã hội"
+                  },
+                  {
+                    "en": "imitate harmful behavior",
+                    "vi": "bắt chước hành vi có hại"
+                  }
                 ]
               }
             ]
@@ -126278,6 +132334,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 04: MONG MUỐN THEO ĐUỔI ĐAM MÊ VÀ Ý TƯỞNG RIÊNG",
+                "point_vi": "Nhiều người trẻ khởi nghiệp vì họ muốn theo đuổi đam mê và biến ý tưởng của mình thành hiện thực.",
+                "point_en": "Many young people start businesses because they want to follow their passions and turn their own ideas into reality.",
+                "point_collocations": [
+                  {
+                    "en": "follow one's passions",
+                    "vi": "theo đuổi đam mê"
+                  },
+                  {
+                    "en": "turn ideas into reality",
+                    "vi": "biến ý tưởng thành hiện thực"
+                  }
+                ],
+                "evidence_vi": "Khi làm thuê cho công ty, họ thường phải làm theo chỉ đạo của sếp, nhưng mở doanh nghiệp riêng giúp họ tạo ra sản phẩm mình yêu thích.",
+                "evidence_en": "When working for a company, they usually follow a boss's instructions, whereas owning a business lets them create products they truly love.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "follow instructions",
+                      "vi": "làm theo chỉ đạo"
+                    },
+                    {
+                      "en": "own a business",
+                      "vi": "sở hữu doanh nghiệp riêng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "follow one's passions",
+                    "vi": "theo đuổi đam mê"
+                  },
+                  {
+                    "en": "turn ideas into reality",
+                    "vi": "biến ý tưởng thành hiện thực"
+                  },
+                  {
+                    "en": "follow instructions",
+                    "vi": "làm theo chỉ đạo"
+                  },
+                  {
+                    "en": "own a business",
+                    "vi": "sở hữu doanh nghiệp riêng"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 05: KHÔNG HÀI LÒNG VỚI MÔI TRƯỜNG CÔNG SỞ VÀ CẢM HỨNG TỪ NGƯỜI THÀNH CÔNG",
+                "point_vi": "Áp lực nơi công sở và câu chuyện của các doanh nhân trẻ thành công cũng thúc đẩy nhiều người rời công ty.",
+                "point_en": "Workplace stress and stories of successful young entrepreneurs also motivate many people to leave their companies.",
+                "point_collocations": [
+                  {
+                    "en": "workplace stress",
+                    "vi": "áp lực nơi công sở"
+                  },
+                  {
+                    "en": "young entrepreneurs",
+                    "vi": "doanh nhân trẻ"
+                  }
+                ],
+                "evidence_vi": "Nhiều bạn trẻ cảm thấy nhàm chán với công việc văn phòng lặp đi lặp lại và muốn thử thách bản thân sau khi thấy bạn bè khởi nghiệp thành công.",
+                "evidence_en": "Many young workers feel bored with repetitive office routines and want to challenge themselves after seeing peers succeed with startups.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "repetitive office routines",
+                      "vi": "công việc văn phòng lặp đi lặp lại"
+                    },
+                    {
+                      "en": "challenge oneself",
+                      "vi": "thử thách bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "workplace stress",
+                    "vi": "áp lực nơi công sở"
+                  },
+                  {
+                    "en": "young entrepreneurs",
+                    "vi": "doanh nhân trẻ"
+                  },
+                  {
+                    "en": "repetitive office routines",
+                    "vi": "công việc văn phòng lặp đi lặp lại"
+                  },
+                  {
+                    "en": "challenge oneself",
+                    "vi": "thử thách bản thân"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -126593,6 +132743,136 @@ const ESSAY_DATA = [
                       "vi": "yêu cầu vốn ban đầu thấp"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Khát vọng theo đuổi đam mê cá nhân và hiện thực hóa những ý tưởng sáng tạo thôi thúc nhiều người trẻ khởi nghiệp.",
+                "point_en": "The ambition to pursue personal passions and bring innovative ideas to life drives many young people to launch startups.",
+                "point_collocations": [
+                  {
+                    "en": "personal passions",
+                    "vi": "đam mê cá nhân"
+                  },
+                  {
+                    "en": "bring innovative ideas to life",
+                    "vi": "hiện thực hóa ý tưởng sáng tạo"
+                  }
+                ],
+                "evidence_vi": "Trong môi trường doanh nghiệp truyền thống, nhân viên trẻ thường bị giới hạn trong những quy trình cứng nhắc và ít có cơ hội thử nghiệm sáng kiến mới. Bằng việc xây dựng doanh nghiệp riêng, họ có thể trực tiếp phát triển các sản phẩm ý nghĩa và tạo dấu ấn cá nhân trên thị trường.",
+                "evidence_en": "Within traditional corporate structures, junior staff are often constrained by rigid procedures and have limited room to test original concepts. By founding their own ventures, they can develop meaningful products directly and leave a personal mark on the market.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "corporate structures",
+                      "vi": "cơ cấu doanh nghiệp"
+                    },
+                    {
+                      "en": "rigid procedures",
+                      "vi": "quy trình cứng nhắc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "found one's own venture",
+                      "vi": "thành lập doanh nghiệp riêng"
+                    },
+                    {
+                      "en": "leave a personal mark",
+                      "vi": "tạo dấu ấn cá nhân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "personal passions",
+                    "vi": "đam mê cá nhân"
+                  },
+                  {
+                    "en": "bring innovative ideas to life",
+                    "vi": "hiện thực hóa ý tưởng sáng tạo"
+                  },
+                  {
+                    "en": "corporate structures",
+                    "vi": "cơ cấu doanh nghiệp"
+                  },
+                  {
+                    "en": "rigid procedures",
+                    "vi": "quy trình cứng nhắc"
+                  },
+                  {
+                    "en": "found one's own venture",
+                    "vi": "thành lập doanh nghiệp riêng"
+                  },
+                  {
+                    "en": "leave a personal mark",
+                    "vi": "tạo dấu ấn cá nhân"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Sự bất mãn với môi trường công sở áp lực kết hợp với sức truyền cảm hứng từ các gương mặt khởi nghiệp trẻ cũng góp phần thúc đẩy xu hướng này.",
+                "point_en": "Dissatisfaction with demanding corporate environments, combined with inspiration from successful young founders, further fuels this trend.",
+                "point_collocations": [
+                  {
+                    "en": "demanding corporate environments",
+                    "vi": "môi trường công sở áp lực"
+                  },
+                  {
+                    "en": "successful young founders",
+                    "vi": "những nhà sáng lập trẻ thành công"
+                  }
+                ],
+                "evidence_vi": "Nhiều lao động trẻ cảm thấy kiệt sức trước văn hóa làm thêm giờ, sự thiếu ghi nhận hoặc các mối quan hệ phức tạp nơi văn phòng. Đồng thời, những câu chuyện khởi nghiệp thành công được chia sẻ rộng rãi trên truyền thông giúp họ thêm tự tin rẽ hướng sang con đường kinh doanh độc lập.",
+                "evidence_en": "Many young employees experience burnout from overtime culture, insufficient recognition, or workplace politics. Meanwhile, widely publicized startup success stories give them the confidence to leave conventional jobs and pursue entrepreneurship.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "overtime culture",
+                      "vi": "văn hóa làm thêm giờ"
+                    },
+                    {
+                      "en": "workplace politics",
+                      "vi": "sự phức tạp trong quan hệ công sở"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "widely publicized",
+                      "vi": "được truyền thông rộng rãi"
+                    },
+                    {
+                      "en": "pursue entrepreneurship",
+                      "vi": "theo đuổi con đường khởi nghiệp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "demanding corporate environments",
+                    "vi": "môi trường công sở áp lực"
+                  },
+                  {
+                    "en": "successful young founders",
+                    "vi": "những nhà sáng lập trẻ thành công"
+                  },
+                  {
+                    "en": "overtime culture",
+                    "vi": "văn hóa làm thêm giờ"
+                  },
+                  {
+                    "en": "workplace politics",
+                    "vi": "sự phức tạp trong quan hệ công sở"
+                  },
+                  {
+                    "en": "widely publicized",
+                    "vi": "được truyền thông rộng rãi"
+                  },
+                  {
+                    "en": "pursue entrepreneurship",
+                    "vi": "theo đuổi con đường khởi nghiệp"
+                  }
                 ]
               }
             ],
@@ -130824,6 +137104,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Toàn cầu hóa và sự giao lưu văn hóa mang đến nhiều thể loại chương trình nước ngoài mới mẻ.",
+                "point_en": "Globalization and cultural exchange bring many new types of foreign programs to television.",
+                "point_collocations": [
+                  {
+                    "en": "cultural exchange",
+                    "vi": "giao lưu văn hóa"
+                  },
+                  {
+                    "en": "foreign programs",
+                    "vi": "chương trình nước ngoài"
+                  }
+                ],
+                "evidence_vi": "Các đài truyền hình thường mua bản quyền phim bộ, chương trình thực tế và phim tài liệu từ nhiều quốc gia khác nhau.",
+                "evidence_en": "Television stations often buy the rights to dramas, reality shows, and documentaries from many different countries.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reality shows",
+                      "vi": "chương trình truyền hình thực tế"
+                    },
+                    {
+                      "en": "documentaries",
+                      "vi": "phim tài liệu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultural exchange",
+                    "vi": "giao lưu văn hóa"
+                  },
+                  {
+                    "en": "foreign programs",
+                    "vi": "chương trình nước ngoài"
+                  },
+                  {
+                    "en": "reality shows",
+                    "vi": "chương trình truyền hình thực tế"
+                  },
+                  {
+                    "en": "documentaries",
+                    "vi": "phim tài liệu"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Nguồn thu từ quảng cáo và tài trợ cũng khuyến khích các nhà đài sản xuất đa dạng chương trình hơn.",
+                "point_en": "Income from advertising and sponsorships also encourages TV channels to produce more diverse programs.",
+                "point_collocations": [
+                  {
+                    "en": "advertising and sponsorships",
+                    "vi": "quảng cáo và tài trợ"
+                  },
+                  {
+                    "en": "diverse programs",
+                    "vi": "chương trình đa dạng"
+                  }
+                ],
+                "evidence_vi": "Nhiều doanh nghiệp sẵn sàng tài trợ cho các chương trình nấu ăn, du lịch hoặc âm nhạc để tiếp cận nhóm khách hàng mục tiêu của họ.",
+                "evidence_en": "Many businesses are willing to sponsor cooking, travel, or music shows to reach their target customers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sponsor shows",
+                      "vi": "tài trợ chương trình"
+                    },
+                    {
+                      "en": "target customers",
+                      "vi": "khách hàng mục tiêu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "advertising and sponsorships",
+                    "vi": "quảng cáo và tài trợ"
+                  },
+                  {
+                    "en": "diverse programs",
+                    "vi": "chương trình đa dạng"
+                  },
+                  {
+                    "en": "sponsor shows",
+                    "vi": "tài trợ chương trình"
+                  },
+                  {
+                    "en": "target customers",
+                    "vi": "khách hàng mục tiêu"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -131139,6 +137513,136 @@ const ESSAY_DATA = [
                       "vi": "công nghệ sản xuất tiên tiến"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Quá trình toàn cầu hóa và giao lưu văn hóa quốc tế đã làm phong phú đáng kể danh mục chương trình truyền hình.",
+                "point_en": "Globalization and international cultural exchange have significantly enriched the range of television programming.",
+                "point_collocations": [
+                  {
+                    "en": "international cultural exchange",
+                    "vi": "giao lưu văn hóa quốc tế"
+                  },
+                  {
+                    "en": "enrich television programming",
+                    "vi": "làm phong phú chương trình truyền hình"
+                  }
+                ],
+                "evidence_vi": "Các nhà đài trong nước ngày nay dễ dàng nhập khẩu hoặc Việt hóa nhiều định dạng chương trình ăn khách như trò chơi truyền hình, phim truyền hình dài tập và phim tài liệu từ khắp nơi trên thế giới. Điều này không chỉ mở rộng lựa chọn cho khán giả mà còn tạo ra những thể loại kết hợp sáng tạo.",
+                "evidence_en": "Local broadcasters can now easily import or adapt successful international formats such as game shows, drama series, and documentaries from around the globe. This not only broadens viewer choices but also inspires creative cross-cultural genres.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "adapt international formats",
+                      "vi": "chuyển thể định dạng quốc tế"
+                    },
+                    {
+                      "en": "drama series",
+                      "vi": "phim truyền hình dài tập"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "broaden viewer choices",
+                      "vi": "mở rộng lựa chọn cho khán giả"
+                    },
+                    {
+                      "en": "cross-cultural genres",
+                      "vi": "thể loại giao thoa văn hóa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "international cultural exchange",
+                    "vi": "giao lưu văn hóa quốc tế"
+                  },
+                  {
+                    "en": "enrich television programming",
+                    "vi": "làm phong phú chương trình truyền hình"
+                  },
+                  {
+                    "en": "adapt international formats",
+                    "vi": "chuyển thể định dạng quốc tế"
+                  },
+                  {
+                    "en": "drama series",
+                    "vi": "phim truyền hình dài tập"
+                  },
+                  {
+                    "en": "broaden viewer choices",
+                    "vi": "mở rộng lựa chọn cho khán giả"
+                  },
+                  {
+                    "en": "cross-cultural genres",
+                    "vi": "thể loại giao thoa văn hóa"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Động lực thương mại từ quảng cáo và các gói tài trợ doanh nghiệp thúc đẩy các kênh truyền hình khai thác nhiều phân khúc khán giả khác nhau.",
+                "point_en": "Commercial incentives from advertising and corporate sponsorships motivate channels to target diverse audience segments.",
+                "point_collocations": [
+                  {
+                    "en": "commercial incentives",
+                    "vi": "động lực thương mại"
+                  },
+                  {
+                    "en": "audience segments",
+                    "vi": "phân khúc khán giả"
+                  }
+                ],
+                "evidence_vi": "Các thương hiệu thuộc nhiều lĩnh vực như ẩm thực, du lịch, tài chính hay thể thao đều muốn quảng bá sản phẩm đúng đối tượng khách hàng tiềm năng. Để thu hút nguồn tài trợ dồi dào này, các đài truyền hình liên tục phát triển những chương trình chuyên biệt đáp ứng từng nhóm người xem cụ thể.",
+                "evidence_en": "Brands across sectors such as food, travel, finance, and sports seek to promote their products to specific consumer groups. To attract this lucrative funding, television networks continuously launch specialized shows tailored to niche viewer markets.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "specific consumer groups",
+                      "vi": "nhóm người tiêu dùng cụ thể"
+                    },
+                    {
+                      "en": "lucrative funding",
+                      "vi": "nguồn tài trợ sinh lợi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "specialized shows",
+                      "vi": "chương trình chuyên biệt"
+                    },
+                    {
+                      "en": "niche viewer markets",
+                      "vi": "thị trường khán giả ngách"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "commercial incentives",
+                    "vi": "động lực thương mại"
+                  },
+                  {
+                    "en": "audience segments",
+                    "vi": "phân khúc khán giả"
+                  },
+                  {
+                    "en": "specific consumer groups",
+                    "vi": "nhóm người tiêu dùng cụ thể"
+                  },
+                  {
+                    "en": "lucrative funding",
+                    "vi": "nguồn tài trợ sinh lợi"
+                  },
+                  {
+                    "en": "specialized shows",
+                    "vi": "chương trình chuyên biệt"
+                  },
+                  {
+                    "en": "niche viewer markets",
+                    "vi": "thị trường khán giả ngách"
+                  }
                 ]
               }
             ],
@@ -132241,6 +138745,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Các chương trình khoa học và tin tức đôi khi có vẻ quá nghiêm túc hoặc khô khan đối với người trẻ.",
+                "point_en": "Science and news programs sometimes seem too serious or boring to young people.",
+                "point_collocations": [
+                  {
+                    "en": "too serious or boring",
+                    "vi": "quá nghiêm túc hoặc nhàm chán"
+                  },
+                  {
+                    "en": "science and news programs",
+                    "vi": "chương trình khoa học và tin tức"
+                  }
+                ],
+                "evidence_vi": "Tin tức thường chứa nhiều thông tin tiêu cực và chương trình khoa học dùng nhiều thuật ngữ khó hiểu nên ít thu hút học sinh, sinh viên.",
+                "evidence_en": "News shows often include stressful stories, and science programs use difficult terms that rarely attract students.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "stressful stories",
+                      "vi": "những câu chuyện gây căng thẳng"
+                    },
+                    {
+                      "en": "difficult terms",
+                      "vi": "thuật ngữ khó hiểu"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "too serious or boring",
+                    "vi": "quá nghiêm túc hoặc nhàm chán"
+                  },
+                  {
+                    "en": "science and news programs",
+                    "vi": "chương trình khoa học và tin tức"
+                  },
+                  {
+                    "en": "stressful stories",
+                    "vi": "những câu chuyện gây căng thẳng"
+                  },
+                  {
+                    "en": "difficult terms",
+                    "vi": "thuật ngữ khó hiểu"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Sự xuất hiện của người nổi tiếng và tính tương tác cao làm các chương trình giải trí trở nên cuốn hút hơn.",
+                "point_en": "The appearance of celebrities and interactive activities make entertainment shows more exciting.",
+                "point_collocations": [
+                  {
+                    "en": "appearance of celebrities",
+                    "vi": "sự xuất hiện của người nổi tiếng"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "hoạt động tương tác"
+                  }
+                ],
+                "evidence_vi": "Giới trẻ rất thích theo dõi ca sĩ, diễn viên họ yêu mến và tham gia bình chọn trực tiếp cho thí sinh trong các cuộc thi truyền hình.",
+                "evidence_en": "Young viewers love watching their favorite singers and actors and voting live for contestants in TV competitions.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "favorite singers and actors",
+                      "vi": "ca sĩ và diễn viên yêu thích"
+                    },
+                    {
+                      "en": "vote live",
+                      "vi": "bình chọn trực tiếp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "appearance of celebrities",
+                    "vi": "sự xuất hiện của người nổi tiếng"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "hoạt động tương tác"
+                  },
+                  {
+                    "en": "favorite singers and actors",
+                    "vi": "ca sĩ và diễn viên yêu thích"
+                  },
+                  {
+                    "en": "vote live",
+                    "vi": "bình chọn trực tiếp"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -132602,6 +139200,136 @@ const ESSAY_DATA = [
                       "vi": "vì vậy / do đó"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "CAUSE 04",
+                "point_vi": "Cách thể hiện của nhiều chương trình khoa học và thời sự thường mang tính hàn lâm, nặng nề hoặc gây căng thẳng cho khán giả trẻ.",
+                "point_en": "Many science and news programs are perceived as overly academic, dry, or emotionally heavy for young audiences.",
+                "point_collocations": [
+                  {
+                    "en": "overly academic",
+                    "vi": "quá mang tính hàn lâm"
+                  },
+                  {
+                    "en": "emotionally heavy",
+                    "vi": "nặng nề về mặt cảm xúc"
+                  }
+                ],
+                "evidence_vi": "Các bản tin thời sự thường xoay quanh xung đột, suy thoái kinh tế và thiên tai, trong khi chương trình khoa học chứa nhiều thuật ngữ chuyên ngành phức tạp. Khi thiếu cách kể chuyện sinh động, những nội dung này khó giữ chân người xem trẻ sau một ngày dài mệt mỏi.",
+                "evidence_en": "News broadcasts frequently focus on conflicts, economic crises, and disasters, while science documentaries often rely on dense technical jargon. Without engaging storytelling, such informative programs struggle to hold young viewers' attention after a tiring day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "economic crises",
+                      "vi": "khủng hoảng kinh tế"
+                    },
+                    {
+                      "en": "technical jargon",
+                      "vi": "thuật ngữ chuyên ngành"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "engaging storytelling",
+                      "vi": "cách kể chuyện cuốn hút"
+                    },
+                    {
+                      "en": "hold viewers' attention",
+                      "vi": "giữ chân sự chú ý của khán giả"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "overly academic",
+                    "vi": "quá mang tính hàn lâm"
+                  },
+                  {
+                    "en": "emotionally heavy",
+                    "vi": "nặng nề về mặt cảm xúc"
+                  },
+                  {
+                    "en": "economic crises",
+                    "vi": "khủng hoảng kinh tế"
+                  },
+                  {
+                    "en": "technical jargon",
+                    "vi": "thuật ngữ chuyên ngành"
+                  },
+                  {
+                    "en": "engaging storytelling",
+                    "vi": "cách kể chuyện cuốn hút"
+                  },
+                  {
+                    "en": "hold viewers' attention",
+                    "vi": "giữ chân sự chú ý của khán giả"
+                  }
+                ]
+              },
+              {
+                "title": "CAUSE 05",
+                "point_vi": "Sức hút từ người nổi tiếng cùng định dạng tương tác cao khiến các chương trình giải trí đặc biệt hấp dẫn đối với thế hệ trẻ.",
+                "point_en": "Celebrity appeal and highly interactive formats make entertainment shows especially captivating for younger generations.",
+                "point_collocations": [
+                  {
+                    "en": "celebrity appeal",
+                    "vi": "sức hút từ người nổi tiếng"
+                  },
+                  {
+                    "en": "interactive formats",
+                    "vi": "định dạng có tính tương tác"
+                  }
+                ],
+                "evidence_vi": "Các nhà sản xuất thường mời ca sĩ, diễn viên hài và những người có sức ảnh hưởng để tạo sự tò mò và lôi cuốn người hâm mộ trẻ tuổi. Ngoài ra, tính năng bình chọn trực tiếp và bình luận trực tuyến giúp khán giả cảm thấy mình là một phần của chương trình thay vì chỉ xem thụ động.",
+                "evidence_en": "Producers regularly feature popular singers, comedians, and influencers to spark excitement and draw loyal young fanbases. Moreover, live audience voting and real-time online discussions allow viewers to feel actively involved rather than passively watching.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "spark excitement",
+                      "vi": "khơi gợi sự hào hứng"
+                    },
+                    {
+                      "en": "loyal fanbases",
+                      "vi": "cộng đồng người hâm mộ trung thành"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "actively involved",
+                      "vi": "tham gia tích cực"
+                    },
+                    {
+                      "en": "passively watching",
+                      "vi": "xem một cách thụ động"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "celebrity appeal",
+                    "vi": "sức hút từ người nổi tiếng"
+                  },
+                  {
+                    "en": "interactive formats",
+                    "vi": "định dạng có tính tương tác"
+                  },
+                  {
+                    "en": "spark excitement",
+                    "vi": "khơi gợi sự hào hứng"
+                  },
+                  {
+                    "en": "loyal fanbases",
+                    "vi": "cộng đồng người hâm mộ trung thành"
+                  },
+                  {
+                    "en": "actively involved",
+                    "vi": "tham gia tích cực"
+                  },
+                  {
+                    "en": "passively watching",
+                    "vi": "xem một cách thụ động"
+                  }
                 ]
               }
             ],
@@ -133668,6 +140396,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Duy trì một chế độ ăn uống lành mạnh và uống đủ nước có thể giúp não bộ hoạt động tốt hơn.",
+                "point_en": "Maintaining a healthy diet and drinking enough water can help the brain work better.",
+                "point_collocations": [
+                  {
+                    "en": "maintain a healthy diet",
+                    "vi": "duy trì chế độ ăn lành mạnh"
+                  },
+                  {
+                    "en": "drink enough water",
+                    "vi": "uống đủ nước"
+                  }
+                ],
+                "evidence_vi": "Ăn nhiều cá, các loại hạt, rau xanh và hạn chế đồ ăn nhiều đường giúp cải thiện trí nhớ và sự tỉnh táo hằng ngày.",
+                "evidence_en": "Eating more fish, nuts, and green vegetables while limiting sugary foods helps improve memory and daily alertness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "green vegetables",
+                      "vi": "rau xanh"
+                    },
+                    {
+                      "en": "daily alertness",
+                      "vi": "sự tỉnh táo hằng ngày"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "maintain a healthy diet",
+                    "vi": "duy trì chế độ ăn lành mạnh"
+                  },
+                  {
+                    "en": "drink enough water",
+                    "vi": "uống đủ nước"
+                  },
+                  {
+                    "en": "green vegetables",
+                    "vi": "rau xanh"
+                  },
+                  {
+                    "en": "daily alertness",
+                    "vi": "sự tỉnh táo hằng ngày"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Mọi người nên rèn luyện trí não thường xuyên và kiểm soát căng thẳng hiệu quả.",
+                "point_en": "People should train their brains regularly and manage stress effectively.",
+                "point_collocations": [
+                  {
+                    "en": "train one's brain",
+                    "vi": "rèn luyện trí não"
+                  },
+                  {
+                    "en": "manage stress effectively",
+                    "vi": "kiểm soát căng thẳng hiệu quả"
+                  }
+                ],
+                "evidence_vi": "Giải câu đố, đọc sách, học kỹ năng mới và nghỉ ngơi hợp lý giúp trí não luôn linh hoạt và ghi nhớ lâu hơn.",
+                "evidence_en": "Solving puzzles, reading books, learning new skills, and taking proper breaks keep the mind sharp and improve long-term recall.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "solve puzzles",
+                      "vi": "giải câu đố"
+                    },
+                    {
+                      "en": "keep the mind sharp",
+                      "vi": "giữ đầu óc minh mẫn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "train one's brain",
+                    "vi": "rèn luyện trí não"
+                  },
+                  {
+                    "en": "manage stress effectively",
+                    "vi": "kiểm soát căng thẳng hiệu quả"
+                  },
+                  {
+                    "en": "solve puzzles",
+                    "vi": "giải câu đố"
+                  },
+                  {
+                    "en": "keep the mind sharp",
+                    "vi": "giữ đầu óc minh mẫn"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -134033,6 +140855,136 @@ const ESSAY_DATA = [
                       "vi": "ghi chép chi tiết có chiều sâu"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Áp dụng chế độ dinh dưỡng giàu dưỡng chất tốt cho não bộ đóng vai trò quan trọng trong việc tăng cường trí nhớ.",
+                "point_en": "Adopting a nutrient-rich, brain-healthy diet plays an essential role in strengthening memory.",
+                "point_collocations": [
+                  {
+                    "en": "nutrient-rich diet",
+                    "vi": "chế độ ăn giàu dinh dưỡng"
+                  },
+                  {
+                    "en": "strengthen memory",
+                    "vi": "tăng cường trí nhớ"
+                  }
+                ],
+                "evidence_vi": "Các thực phẩm giàu axit béo omega-3, chất chống oxy hóa và vitamin như cá hồi, quả óc chó và rau lá xanh giúp nuôi dưỡng tế bào thần kinh hiệu quả. Ngược lại, việc cắt giảm thực phẩm chế biến sẵn và đường tinh luyện giúp ngăn ngừa tình trạng mệt mỏi tinh thần và suy giảm sự tập trung.",
+                "evidence_en": "Foods rich in omega-3 fatty acids, antioxidants, and vitamins—such as fish, walnuts, and leafy greens—effectively nourish brain cells. Conversely, cutting back on processed foods and refined sugar helps prevent mental fatigue and poor concentration.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "antioxidants",
+                      "vi": "chất chống oxy hóa"
+                    },
+                    {
+                      "en": "nourish brain cells",
+                      "vi": "nuôi dưỡng tế bào não"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "refined sugar",
+                      "vi": "đường tinh luyện"
+                    },
+                    {
+                      "en": "mental fatigue",
+                      "vi": "mệt mỏi tinh thần"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "nutrient-rich diet",
+                    "vi": "chế độ ăn giàu dinh dưỡng"
+                  },
+                  {
+                    "en": "strengthen memory",
+                    "vi": "tăng cường trí nhớ"
+                  },
+                  {
+                    "en": "antioxidants",
+                    "vi": "chất chống oxy hóa"
+                  },
+                  {
+                    "en": "nourish brain cells",
+                    "vi": "nuôi dưỡng tế bào não"
+                  },
+                  {
+                    "en": "refined sugar",
+                    "vi": "đường tinh luyện"
+                  },
+                  {
+                    "en": "mental fatigue",
+                    "vi": "mệt mỏi tinh thần"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Thường xuyên thử thách trí tuệ kết hợp với quản lý căng thẳng khoa học giúp duy trì khả năng ghi nhớ bền vững.",
+                "point_en": "Engaging in regular mental stimulation alongside effective stress management helps sustain strong memory performance.",
+                "point_collocations": [
+                  {
+                    "en": "mental stimulation",
+                    "vi": "sự kích thích / rèn luyện trí tuệ"
+                  },
+                  {
+                    "en": "stress management",
+                    "vi": "quản lý căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Học một ngoại ngữ mới, chơi cờ hoặc giải các bài toán logic kích thích não bộ hình thành các kết nối thần kinh mới. Đồng thời, thực hành thiền định hoặc sắp xếp thời gian nghỉ ngơi hợp lý giúp giảm căng thẳng kéo dài, vốn là nguyên nhân hàng đầu gây đãng trí.",
+                "evidence_en": "Learning a foreign language, playing chess, or solving logic puzzles stimulates the brain to form new neural connections. At the same time, practicing mindfulness or taking regular breaks alleviates chronic stress, which is a major cause of forgetfulness.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "logic puzzles",
+                      "vi": "câu đố tư duy logic"
+                    },
+                    {
+                      "en": "neural connections",
+                      "vi": "các kết nối thần kinh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "practice mindfulness",
+                      "vi": "thực hành chánh niệm"
+                    },
+                    {
+                      "en": "alleviate chronic stress",
+                      "vi": "giảm căng thẳng kéo dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "mental stimulation",
+                    "vi": "sự kích thích / rèn luyện trí tuệ"
+                  },
+                  {
+                    "en": "stress management",
+                    "vi": "quản lý căng thẳng"
+                  },
+                  {
+                    "en": "logic puzzles",
+                    "vi": "câu đố tư duy logic"
+                  },
+                  {
+                    "en": "neural connections",
+                    "vi": "các kết nối thần kinh"
+                  },
+                  {
+                    "en": "practice mindfulness",
+                    "vi": "thực hành chánh niệm"
+                  },
+                  {
+                    "en": "alleviate chronic stress",
+                    "vi": "giảm căng thẳng kéo dài"
+                  }
                 ]
               }
             ],
@@ -135144,6 +142096,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: LÀM XÓI MÒN ĐẤT VÀ SUY GIẢM NGUỒN NƯỚC SẠCH",
+                "point_vi": "Nạn phá rừng gây xói mòn đất nghiêm trọng và làm giảm nguồn nước sạch.",
+                "point_en": "Deforestation causes serious soil erosion and reduces clean water supplies.",
+                "point_collocations": [
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  },
+                  {
+                    "en": "clean water supplies",
+                    "vi": "nguồn cung nước sạch"
+                  }
+                ],
+                "evidence_vi": "Khi không còn rễ cây giữ đất, mưa lớn dễ cuốn trôi lớp đất màu mỡ xuống sông hồ và làm nguồn nước bị đục bẩn.",
+                "evidence_en": "Without tree roots holding the soil together, heavy rain easily washes fertile soil into rivers and makes water dirty.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "tree roots",
+                      "vi": "rễ cây"
+                    },
+                    {
+                      "en": "fertile soil",
+                      "vi": "đất màu mỡ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  },
+                  {
+                    "en": "clean water supplies",
+                    "vi": "nguồn cung nước sạch"
+                  },
+                  {
+                    "en": "tree roots",
+                    "vi": "rễ cây"
+                  },
+                  {
+                    "en": "fertile soil",
+                    "vi": "đất màu mỡ"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: LÀM TĂNG Ô NHIỄM KHÔNG KHÍ VÀ TỔN HẠI KINH TẾ LÂU DÀI",
+                "point_vi": "Phá rừng làm chất lượng không khí kém đi và gây thiệt hại kinh tế lâu dài cho nhiều quốc gia.",
+                "point_en": "Deforestation worsens air quality and causes long-term economic losses for many countries.",
+                "point_collocations": [
+                  {
+                    "en": "worsen air quality",
+                    "vi": "làm xấu đi chất lượng không khí"
+                  },
+                  {
+                    "en": "economic losses",
+                    "vi": "thiệt hại kinh tế"
+                  }
+                ],
+                "evidence_vi": "Các chính phủ phải chi rất nhiều tiền để khắc phục lũ lụt, trong khi ngành du lịch sinh thái cũng mất đi sức hấp dẫn vốn có.",
+                "evidence_en": "Governments have to spend a lot of money repairing flood damage, while eco-tourism also loses its natural appeal.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "repair flood damage",
+                      "vi": "khắc phục thiệt hại do lũ lụt"
+                    },
+                    {
+                      "en": "eco-tourism",
+                      "vi": "du lịch sinh thái"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "worsen air quality",
+                    "vi": "làm xấu đi chất lượng không khí"
+                  },
+                  {
+                    "en": "economic losses",
+                    "vi": "thiệt hại kinh tế"
+                  },
+                  {
+                    "en": "repair flood damage",
+                    "vi": "khắc phục thiệt hại do lũ lụt"
+                  },
+                  {
+                    "en": "eco-tourism",
+                    "vi": "du lịch sinh thái"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -135391,6 +142437,136 @@ const ESSAY_DATA = [
                       "vi": "hơn nữa"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GÂY XÓI MÒN ĐẤT VÀ PHÁ VỠ CHU TRÌNH NƯỚC TỰ NHIÊN",
+                "point_vi": "Việc chặt phá rừng quy mô lớn đẩy nhanh quá trình xói mòn đất và làm gián đoạn chu trình nước tự nhiên.",
+                "point_en": "Large-scale forest clearance accelerates soil degradation and disrupts the natural water cycle.",
+                "point_collocations": [
+                  {
+                    "en": "soil degradation",
+                    "vi": "suy thoái đất"
+                  },
+                  {
+                    "en": "natural water cycle",
+                    "vi": "chu trình nước tự nhiên"
+                  }
+                ],
+                "evidence_vi": "Hệ thống rễ cây đóng vai trò cố định tầng đất mặt và lọc nước mưa thấm xuống tầng nước ngầm. Khi rừng biến mất, đất nhanh chóng trở nên bạc màu, còn sông suối đối mặt với tình trạng bồi lắng và suy giảm chất lượng nước ngọt.",
+                "evidence_en": "Tree root systems anchor nutrient-rich topsoil and filter rainwater into underground reserves. Once forest cover is stripped away, land rapidly loses fertility while rivers suffer from heavy sedimentation and declining freshwater quality.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "nutrient-rich topsoil",
+                      "vi": "lớp đất mặt giàu dinh dưỡng"
+                    },
+                    {
+                      "en": "underground reserves",
+                      "vi": "nguồn dự trữ nước ngầm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "lose fertility",
+                      "vi": "mất độ màu mỡ"
+                    },
+                    {
+                      "en": "heavy sedimentation",
+                      "vi": "sự bồi lắng nặng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "soil degradation",
+                    "vi": "suy thoái đất"
+                  },
+                  {
+                    "en": "natural water cycle",
+                    "vi": "chu trình nước tự nhiên"
+                  },
+                  {
+                    "en": "nutrient-rich topsoil",
+                    "vi": "lớp đất mặt giàu dinh dưỡng"
+                  },
+                  {
+                    "en": "underground reserves",
+                    "vi": "nguồn dự trữ nước ngầm"
+                  },
+                  {
+                    "en": "lose fertility",
+                    "vi": "mất độ màu mỡ"
+                  },
+                  {
+                    "en": "heavy sedimentation",
+                    "vi": "sự bồi lắng nặng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: GIA TĂNG Ô NHIỄM KHÔNG KHÍ VÀ GÁNH NẶNG KINH TẾ LÂU DÀI",
+                "point_vi": "Nạn phá rừng làm suy giảm nghiêm trọng chất lượng không khí và gây ra những tổn thất kinh tế nặng nề về lâu dài.",
+                "point_en": "Deforestation significantly degrades air quality and inflicts heavy long-term economic costs.",
+                "point_collocations": [
+                  {
+                    "en": "degrade air quality",
+                    "vi": "làm suy giảm chất lượng không khí"
+                  },
+                  {
+                    "en": "long-term economic costs",
+                    "vi": "tổn thất kinh tế dài hạn"
+                  }
+                ],
+                "evidence_vi": "Việc đốt rừng lấy đất canh tác thải ra lượng khói bụi độc hại bao phủ nhiều khu vực rộng lớn và ảnh hưởng đến sức khỏe cộng đồng. Ngoài ra, nguồn ngân sách quốc gia bị tiêu tốn cho việc khắc phục thiên tai, đồng thời tiềm năng phát triển du lịch sinh thái bền vững cũng bị hủy hoại.",
+                "evidence_en": "Slash-and-burn clearing releases thick clouds of toxic haze that blanket vast regions and harm public health. Furthermore, national budgets are strained by disaster recovery expenses while the potential for sustainable eco-tourism is severely undermined.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "toxic haze",
+                      "vi": "khói mù độc hại"
+                    },
+                    {
+                      "en": "harm public health",
+                      "vi": "gây hại cho sức khỏe cộng đồng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "disaster recovery expenses",
+                      "vi": "chi phí khắc phục thiên tai"
+                    },
+                    {
+                      "en": "sustainable eco-tourism",
+                      "vi": "du lịch sinh thái bền vững"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "degrade air quality",
+                    "vi": "làm suy giảm chất lượng không khí"
+                  },
+                  {
+                    "en": "long-term economic costs",
+                    "vi": "tổn thất kinh tế dài hạn"
+                  },
+                  {
+                    "en": "toxic haze",
+                    "vi": "khói mù độc hại"
+                  },
+                  {
+                    "en": "harm public health",
+                    "vi": "gây hại cho sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "disaster recovery expenses",
+                    "vi": "chi phí khắc phục thiên tai"
+                  },
+                  {
+                    "en": "sustainable eco-tourism",
+                    "vi": "du lịch sinh thái bền vững"
+                  }
                 ]
               }
             ],
@@ -143745,6 +150921,100 @@ const ESSAY_DATA = [
                 "point_en": "Many individuals may feel unsafe when using online services.",
                 "evidence_vi": "Điều này là do tội phạm mạng có thể làm cho Internet có vẻ nguy hiểm, vì vậy một số người có thể tránh mua sắm trực tuyến hoặc giao dịch ngân hàng trực tuyến.",
                 "evidence_en": "This is because cybercrime can make the Internet seem dangerous, so some people may avoid online shopping or online banking."
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: LÀM GIÁN ĐOẠN CÁC DỊCH VỤ CÔNG THIẾT YẾU",
+                "point_vi": "Tội phạm mạng có thể tấn công và làm gián đoạn các dịch vụ công quan trọng như bệnh viện hoặc giao thông.",
+                "point_en": "Cybercrime can attack and disrupt important public services such as hospitals or transport.",
+                "point_collocations": [
+                  {
+                    "en": "disrupt public services",
+                    "vi": "làm gián đoạn dịch vụ công"
+                  },
+                  {
+                    "en": "hospitals or transport",
+                    "vi": "bệnh viện hoặc giao thông"
+                  }
+                ],
+                "evidence_vi": "Khi hệ thống máy tính bị tin tặc khóa lại, các cơ quan không thể phục vụ người dân kịp thời và gây ra nhiều rắc rối lớn.",
+                "evidence_en": "When computer systems are locked by hackers, organizations cannot serve citizens on time and serious delays occur.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "computer systems",
+                      "vi": "hệ thống máy tính"
+                    },
+                    {
+                      "en": "serious delays",
+                      "vi": "sự chậm trễ nghiêm trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "disrupt public services",
+                    "vi": "làm gián đoạn dịch vụ công"
+                  },
+                  {
+                    "en": "hospitals or transport",
+                    "vi": "bệnh viện hoặc giao thông"
+                  },
+                  {
+                    "en": "computer systems",
+                    "vi": "hệ thống máy tính"
+                  },
+                  {
+                    "en": "serious delays",
+                    "vi": "sự chậm trễ nghiêm trọng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: XÂM PHẠM QUYỀN RIÊNG TƯ VÀ GÂY TỔN THƯƠNG TÂM LÝ",
+                "point_vi": "Tội phạm mạng còn xâm phạm quyền riêng tư và gây ra áp lực tâm lý nặng nề cho nạn nhân.",
+                "point_en": "Cybercrime also invades personal privacy and causes serious emotional stress for victims.",
+                "point_collocations": [
+                  {
+                    "en": "invade personal privacy",
+                    "vi": "xâm phạm quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "emotional stress",
+                    "vi": "căng thẳng tâm lý"
+                  }
+                ],
+                "evidence_vi": "Nhiều người bị đánh cắp hình ảnh cá nhân hoặc bị đe dọa trực tuyến, khiến họ luôn lo sợ và mất tự tin trong cuộc sống.",
+                "evidence_en": "Many victims have their private photos stolen or face online threats, making them feel scared and anxious in daily life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "private photos stolen",
+                      "vi": "bị đánh cắp ảnh cá nhân"
+                    },
+                    {
+                      "en": "online threats",
+                      "vi": "lời đe dọa trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "invade personal privacy",
+                    "vi": "xâm phạm quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "emotional stress",
+                    "vi": "căng thẳng tâm lý"
+                  },
+                  {
+                    "en": "private photos stolen",
+                    "vi": "bị đánh cắp ảnh cá nhân"
+                  },
+                  {
+                    "en": "online threats",
+                    "vi": "lời đe dọa trực tuyến"
+                  }
+                ]
               }
             ],
             "solutions": [
@@ -143814,6 +151084,100 @@ const ESSAY_DATA = [
                 "point_en": "Create stricter laws against cybercrime.",
                 "evidence_vi": "Kết quả là tội phạm có thể phải chịu những hình phạt nặng hơn và ít có khả năng thực hiện các hành vi phạm tội trực tuyến hơn.",
                 "evidence_en": "As a result, criminals may receive stronger punishments and become less likely to commit online crimes."
+              },
+              {
+                "title": "GIẢI PHÁP 04: TĂNG CƯỜNG HỢP TÁC QUỐC TẾ TRONG PHÒNG CHỐNG TỘI PHẠM MẠNG",
+                "point_vi": "Các quốc gia nên hợp tác chặt chẽ với nhau để điều tra và bắt giữ tội phạm mạng xuyên biên giới.",
+                "point_en": "Countries should cooperate closely to investigate and arrest cross-border cybercriminals.",
+                "point_collocations": [
+                  {
+                    "en": "cooperate closely",
+                    "vi": "hợp tác chặt chẽ"
+                  },
+                  {
+                    "en": "cross-border cybercriminals",
+                    "vi": "tội phạm mạng xuyên biên giới"
+                  }
+                ],
+                "evidence_vi": "Vì tin tặc thường hoạt động từ nước ngoài, việc chia sẻ thông tin giữa lực lượng cảnh sát các nước giúp xử lý vụ việc nhanh hơn.",
+                "evidence_en": "Since hackers often operate from other countries, sharing information between international police forces helps solve cases faster.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "share information",
+                      "vi": "chia sẻ thông tin"
+                    },
+                    {
+                      "en": "international police forces",
+                      "vi": "lực lượng cảnh sát quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cooperate closely",
+                    "vi": "hợp tác chặt chẽ"
+                  },
+                  {
+                    "en": "cross-border cybercriminals",
+                    "vi": "tội phạm mạng xuyên biên giới"
+                  },
+                  {
+                    "en": "share information",
+                    "vi": "chia sẻ thông tin"
+                  },
+                  {
+                    "en": "international police forces",
+                    "vi": "lực lượng cảnh sát quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: ĐÀO TẠO CHUYÊN GIA AN NINH MẠNG VÀ XÂY DỰNG ĐƯỜNG DÂY HỖ TRỢ",
+                "point_vi": "Chính phủ nên đào tạo thêm chuyên gia an ninh mạng và mở đường dây nóng hỗ trợ nạn nhân kịp thời.",
+                "point_en": "Governments should train more cybersecurity experts and open hotlines to support victims quickly.",
+                "point_collocations": [
+                  {
+                    "en": "cybersecurity experts",
+                    "vi": "chuyên gia an ninh mạng"
+                  },
+                  {
+                    "en": "open hotlines",
+                    "vi": "mở đường dây nóng"
+                  }
+                ],
+                "evidence_vi": "Khi người dân có thể báo cáo lừa đảo ngay lập tức, cơ quan chức năng có thể chặn tài khoản xấu và giảm thiệt hại.",
+                "evidence_en": "When citizens can report scams immediately, authorities can block fraudulent accounts and limit further damage.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "report scams immediately",
+                      "vi": "báo cáo lừa đảo ngay lập tức"
+                    },
+                    {
+                      "en": "fraudulent accounts",
+                      "vi": "tài khoản lừa đảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cybersecurity experts",
+                    "vi": "chuyên gia an ninh mạng"
+                  },
+                  {
+                    "en": "open hotlines",
+                    "vi": "mở đường dây nóng"
+                  },
+                  {
+                    "en": "report scams immediately",
+                    "vi": "báo cáo lừa đảo ngay lập tức"
+                  },
+                  {
+                    "en": "fraudulent accounts",
+                    "vi": "tài khoản lừa đảo"
+                  }
+                ]
               }
             ],
             "benefits": [
@@ -143980,6 +151344,100 @@ const ESSAY_DATA = [
                       "vi": "tội phạm mạng"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: LÀM GIÁN ĐOẠN CÁC DỊCH VỤ CÔNG THIẾT YẾU",
+                "point_vi": "Tội phạm mạng có thể tấn công và làm gián đoạn các dịch vụ công quan trọng như bệnh viện hoặc giao thông.",
+                "point_en": "Cybercrime can attack and disrupt important public services such as hospitals or transport.",
+                "point_collocations": [
+                  {
+                    "en": "disrupt public services",
+                    "vi": "làm gián đoạn dịch vụ công"
+                  },
+                  {
+                    "en": "hospitals or transport",
+                    "vi": "bệnh viện hoặc giao thông"
+                  }
+                ],
+                "evidence_vi": "Khi hệ thống máy tính bị tin tặc khóa lại, các cơ quan không thể phục vụ người dân kịp thời và gây ra nhiều rắc rối lớn.",
+                "evidence_en": "When computer systems are locked by hackers, organizations cannot serve citizens on time and serious delays occur.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "computer systems",
+                      "vi": "hệ thống máy tính"
+                    },
+                    {
+                      "en": "serious delays",
+                      "vi": "sự chậm trễ nghiêm trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "disrupt public services",
+                    "vi": "làm gián đoạn dịch vụ công"
+                  },
+                  {
+                    "en": "hospitals or transport",
+                    "vi": "bệnh viện hoặc giao thông"
+                  },
+                  {
+                    "en": "computer systems",
+                    "vi": "hệ thống máy tính"
+                  },
+                  {
+                    "en": "serious delays",
+                    "vi": "sự chậm trễ nghiêm trọng"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: XÂM PHẠM QUYỀN RIÊNG TƯ VÀ GÂY TỔN THƯƠNG TÂM LÝ",
+                "point_vi": "Tội phạm mạng còn xâm phạm quyền riêng tư và gây ra áp lực tâm lý nặng nề cho nạn nhân.",
+                "point_en": "Cybercrime also invades personal privacy and causes serious emotional stress for victims.",
+                "point_collocations": [
+                  {
+                    "en": "invade personal privacy",
+                    "vi": "xâm phạm quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "emotional stress",
+                    "vi": "căng thẳng tâm lý"
+                  }
+                ],
+                "evidence_vi": "Nhiều người bị đánh cắp hình ảnh cá nhân hoặc bị đe dọa trực tuyến, khiến họ luôn lo sợ và mất tự tin trong cuộc sống.",
+                "evidence_en": "Many victims have their private photos stolen or face online threats, making them feel scared and anxious in daily life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "private photos stolen",
+                      "vi": "bị đánh cắp ảnh cá nhân"
+                    },
+                    {
+                      "en": "online threats",
+                      "vi": "lời đe dọa trực tuyến"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "invade personal privacy",
+                    "vi": "xâm phạm quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "emotional stress",
+                    "vi": "căng thẳng tâm lý"
+                  },
+                  {
+                    "en": "private photos stolen",
+                    "vi": "bị đánh cắp ảnh cá nhân"
+                  },
+                  {
+                    "en": "online threats",
+                    "vi": "lời đe dọa trực tuyến"
+                  }
                 ]
               }
             ],
@@ -144148,6 +151606,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: TĂNG CƯỜNG HỢP TÁC QUỐC TẾ TRONG PHÒNG CHỐNG TỘI PHẠM MẠNG",
+                "point_vi": "Các quốc gia nên hợp tác chặt chẽ với nhau để điều tra và bắt giữ tội phạm mạng xuyên biên giới.",
+                "point_en": "Countries should cooperate closely to investigate and arrest cross-border cybercriminals.",
+                "point_collocations": [
+                  {
+                    "en": "cooperate closely",
+                    "vi": "hợp tác chặt chẽ"
+                  },
+                  {
+                    "en": "cross-border cybercriminals",
+                    "vi": "tội phạm mạng xuyên biên giới"
+                  }
+                ],
+                "evidence_vi": "Vì tin tặc thường hoạt động từ nước ngoài, việc chia sẻ thông tin giữa lực lượng cảnh sát các nước giúp xử lý vụ việc nhanh hơn.",
+                "evidence_en": "Since hackers often operate from other countries, sharing information between international police forces helps solve cases faster.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "share information",
+                      "vi": "chia sẻ thông tin"
+                    },
+                    {
+                      "en": "international police forces",
+                      "vi": "lực lượng cảnh sát quốc tế"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cooperate closely",
+                    "vi": "hợp tác chặt chẽ"
+                  },
+                  {
+                    "en": "cross-border cybercriminals",
+                    "vi": "tội phạm mạng xuyên biên giới"
+                  },
+                  {
+                    "en": "share information",
+                    "vi": "chia sẻ thông tin"
+                  },
+                  {
+                    "en": "international police forces",
+                    "vi": "lực lượng cảnh sát quốc tế"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: ĐÀO TẠO CHUYÊN GIA AN NINH MẠNG VÀ XÂY DỰNG ĐƯỜNG DÂY HỖ TRỢ",
+                "point_vi": "Chính phủ nên đào tạo thêm chuyên gia an ninh mạng và mở đường dây nóng hỗ trợ nạn nhân kịp thời.",
+                "point_en": "Governments should train more cybersecurity experts and open hotlines to support victims quickly.",
+                "point_collocations": [
+                  {
+                    "en": "cybersecurity experts",
+                    "vi": "chuyên gia an ninh mạng"
+                  },
+                  {
+                    "en": "open hotlines",
+                    "vi": "mở đường dây nóng"
+                  }
+                ],
+                "evidence_vi": "Khi người dân có thể báo cáo lừa đảo ngay lập tức, cơ quan chức năng có thể chặn tài khoản xấu và giảm thiệt hại.",
+                "evidence_en": "When citizens can report scams immediately, authorities can block fraudulent accounts and limit further damage.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "report scams immediately",
+                      "vi": "báo cáo lừa đảo ngay lập tức"
+                    },
+                    {
+                      "en": "fraudulent accounts",
+                      "vi": "tài khoản lừa đảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cybersecurity experts",
+                    "vi": "chuyên gia an ninh mạng"
+                  },
+                  {
+                    "en": "open hotlines",
+                    "vi": "mở đường dây nóng"
+                  },
+                  {
+                    "en": "report scams immediately",
+                    "vi": "báo cáo lừa đảo ngay lập tức"
+                  },
+                  {
+                    "en": "fraudulent accounts",
+                    "vi": "tài khoản lừa đảo"
+                  }
+                ]
               }
             ]
           },
@@ -144156,7 +151708,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 01",
                 "point_vi": "Tội phạm mạng có thể khiến các cá nhân bị thiệt hại tài chính nặng nề.",
-                "point_en": "First and foremost, cybercrime can cause severe financial losses for individuals.",
+                "point_en": "Cybercrime can cause severe financial losses for individuals.",
                 "evidence_vi": "• Luận cứ 1: Kẻ xấu thường tạo các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng.\n• Luận cứ 2: Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp rất nhiều khó khăn tài chính trong đời sống hàng ngày.",
                 "evidence_en": "• Evidence 1: Cybercriminals often create fake websites or send phishing emails to steal credit card details and bank accounts.\n• Evidence 2: As a result, many victims lose their life savings and face serious financial difficulties in their daily lives.",
                 "collocations": [
@@ -144237,7 +151789,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 02",
                 "point_vi": "Tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại uy tín thương hiệu.",
-                "point_en": "Furthermore, cybercrime can make businesses lose important data and damage their reputation.",
+                "point_en": "Cybercrime can make businesses lose important data and damage their reputation.",
                 "evidence_vi": "• Luận cứ 1: Khi hệ thống nội bộ bị tấn công, thông tin mật của công ty và dữ liệu cá nhân của khách hàng có thể bị rò rỉ ra ngoài.\n• Luận cứ 2: Điều này làm gián đoạn hoạt động kinh doanh và khiến khách hàng mất niềm tin, dẫn đến doanh thu sụt giảm đáng kể.",
                 "evidence_en": "• Evidence 1: When corporate systems are hacked, confidential company records and customers' personal data can be leaked.\n• Evidence 2: This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales.",
                 "collocations": [
@@ -144322,7 +151874,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 03",
                 "point_vi": "Tội phạm mạng làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến.",
-                "point_en": "Lastly, cybercrime can reduce users' trust in the Internet and online services.",
+                "point_en": "Cybercrime can reduce users' trust in the Internet and online services.",
                 "evidence_vi": "• Luận cứ 1: Khi các vụ lừa đảo và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số.\n• Luận cứ 2: Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện thanh toán ngân hàng hoặc chia sẻ thông tin trên mạng xã hội.",
                 "evidence_en": "• Evidence 1: When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment.\n• Evidence 2: Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.",
                 "collocations": [
@@ -144403,13 +151955,143 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Các cuộc tấn công mạng quy mô lớn đe dọa trực tiếp đến hạ tầng thiết yếu và an ninh quốc gia.",
+                "point_en": "Large-scale cyberattacks directly threaten critical national infrastructure and essential public services.",
+                "point_collocations": [
+                  {
+                    "en": "critical national infrastructure",
+                    "vi": "hạ tầng thiết yếu quốc gia"
+                  },
+                  {
+                    "en": "essential public services",
+                    "vi": "dịch vụ công thiết yếu"
+                  }
+                ],
+                "evidence_vi": "Tin tặc có thể sử dụng mã độc tống tiền để làm tê liệt hệ thống dữ liệu của bệnh viện, lưới điện hoặc mạng lưới giao thông. Những sự cố này không chỉ gây hỗn loạn xã hội mà còn có thể đe dọa trực tiếp đến tính mạng và sự an toàn của người dân.",
+                "evidence_en": "Hackers can deploy ransomware to paralyze hospital databases, power grids, or transportation networks. Such disruptions not only trigger widespread chaos but can also jeopardize citizens' safety and well-being.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "deploy ransomware",
+                      "vi": "triển khai mã độc tống tiền"
+                    },
+                    {
+                      "en": "paralyze databases",
+                      "vi": "làm tê liệt cơ sở dữ liệu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "widespread chaos",
+                      "vi": "sự hỗn loạn lan rộng"
+                    },
+                    {
+                      "en": "jeopardize safety",
+                      "vi": "đe dọa sự an toàn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "critical national infrastructure",
+                    "vi": "hạ tầng thiết yếu quốc gia"
+                  },
+                  {
+                    "en": "essential public services",
+                    "vi": "dịch vụ công thiết yếu"
+                  },
+                  {
+                    "en": "deploy ransomware",
+                    "vi": "triển khai mã độc tống tiền"
+                  },
+                  {
+                    "en": "paralyze databases",
+                    "vi": "làm tê liệt cơ sở dữ liệu"
+                  },
+                  {
+                    "en": "widespread chaos",
+                    "vi": "sự hỗn loạn lan rộng"
+                  },
+                  {
+                    "en": "jeopardize safety",
+                    "vi": "đe dọa sự an toàn"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Tội phạm mạng xâm phạm nghiêm trọng quyền riêng tư và để lại những tổn thương tâm lý kéo dài cho nạn nhân.",
+                "point_en": "Cybercrime severely violates personal privacy and inflicts lasting psychological distress on victims.",
+                "point_collocations": [
+                  {
+                    "en": "violate personal privacy",
+                    "vi": "xâm phạm quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "psychological distress",
+                    "vi": "tổn thương tâm lý"
+                  }
+                ],
+                "evidence_vi": "Các hành vi như đánh cắp danh tính, phát tán thông tin nhạy cảm hoặc tống tiền trực tuyến khiến nạn nhân rơi vào trạng thái lo âu và bất lực. Ngay cả khi sự việc được giải quyết, nỗi sợ bị lộ dữ liệu vẫn có thể ảnh hưởng lâu dài đến sức khỏe tinh thần và các mối quan hệ xã hội của họ.",
+                "evidence_en": "Offenses such as identity theft, leaking private records, or online blackmail leave victims feeling vulnerable and deeply anxious. Even after incidents are resolved, the fear of ongoing exposure can negatively affect their mental health and social confidence for years.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "identity theft",
+                      "vi": "đánh cắp danh tính"
+                    },
+                    {
+                      "en": "online blackmail",
+                      "vi": "tống tiền trực tuyến"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ongoing exposure",
+                      "vi": "nguy cơ tiếp tục bị lộ thông tin"
+                    },
+                    {
+                      "en": "social confidence",
+                      "vi": "sự tự tin trong giao tiếp xã hội"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "violate personal privacy",
+                    "vi": "xâm phạm quyền riêng tư cá nhân"
+                  },
+                  {
+                    "en": "psychological distress",
+                    "vi": "tổn thương tâm lý"
+                  },
+                  {
+                    "en": "identity theft",
+                    "vi": "đánh cắp danh tính"
+                  },
+                  {
+                    "en": "online blackmail",
+                    "vi": "tống tiền trực tuyến"
+                  },
+                  {
+                    "en": "ongoing exposure",
+                    "vi": "nguy cơ tiếp tục bị lộ thông tin"
+                  },
+                  {
+                    "en": "social confidence",
+                    "vi": "sự tự tin trong giao tiếp xã hội"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
                 "title": "SOLUTION 01",
                 "point_vi": "Mỗi cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình.",
-                "point_en": "The primary solution is that individuals should proactively protect their personal accounts and information.",
+                "point_en": "Individuals should proactively protect their personal accounts and information.",
                 "evidence_vi": "• Luận cứ 1: Người dùng nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai.\n• Luận cứ 2: Thêm vào đó, mọi người cần cẩn trọng khi nhận tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ.",
                 "evidence_en": "• Evidence 1: Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone.\n• Evidence 2: In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links.",
                 "collocations": [
@@ -144490,7 +152172,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 02",
                 "point_vi": "Các doanh nghiệp nên đầu tư vào hệ thống an ninh mạng để bảo vệ dữ liệu quan trọng.",
-                "point_en": "Second, businesses should invest in modern cybersecurity systems to protect their data.",
+                "point_en": "Businesses should invest in modern cybersecurity systems to protect their data.",
                 "evidence_vi": "• Luận cứ 1: Doanh nghiệp cần cài đặt phần mềm chống vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và thường xuyên cập nhật phần mềm.\n• Luận cứ 2: Việc tổ chức các khóa tập huấn an toàn mạng cho nhân viên cũng rất cần thiết để giảm thiểu rủi ro vô tình làm rò rỉ dữ liệu.",
                 "evidence_en": "• Evidence 1: Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks.\n• Evidence 2: Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks.",
                 "collocations": [
@@ -144567,7 +152249,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 03",
                 "point_vi": "Chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và siết chặt luật pháp.",
-                "point_en": "Finally, governments and organizations should help citizens use the Internet safely and enforce strict laws.",
+                "point_en": "Governments and organizations should help citizens use the Internet safely and enforce strict laws.",
                 "evidence_vi": "• Luận cứ 1: Cơ quan chức năng có thể khởi động các chiến dịch truyền thông giáo dục nhằm hướng dẫn người dân cách nhận biết các thủ đoạn lừa đảo.\n• Luận cứ 2: Đồng thời, các nhà lập pháp cần đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để ngăn chặn các hành vi vi phạm.",
                 "evidence_en": "• Evidence 1: Authorities can launch educational campaigns to teach people how to identify online scams effectively.\n• Evidence 2: Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.",
                 "collocations": [
@@ -144643,6 +152325,136 @@ const ESSAY_DATA = [
                       "vi": "hình phạt, chế tài"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Các chính phủ cần đẩy mạnh hợp tác quốc tế để truy vết và xử lý hiệu quả tội phạm mạng xuyên biên giới.",
+                "point_en": "Governments should strengthen international cooperation to track down and prosecute cross-border cybercriminals effectively.",
+                "point_collocations": [
+                  {
+                    "en": "international cooperation",
+                    "vi": "hợp tác quốc tế"
+                  },
+                  {
+                    "en": "prosecute cybercriminals",
+                    "vi": "truy tố tội phạm mạng"
+                  }
+                ],
+                "evidence_vi": "Bởi vì tội phạm công nghệ cao thường thực hiện các cuộc tấn công từ lãnh thổ quốc gia khác, luật pháp riêng lẻ của từng nước khó lòng xử lý triệt để. Việc thiết lập hiệp định chia sẻ dữ liệu tình báo và dẫn độ chung sẽ giúp lực lượng thực thi pháp luật triệt phá các đường dây lừa đảo nhanh chóng hơn.",
+                "evidence_en": "Because high-tech offenders frequently launch attacks from foreign jurisdictions, domestic laws alone are rarely sufficient to bring them to justice. Establishing intelligence-sharing agreements and joint extradition treaties enables law enforcement agencies to dismantle global cybercrime networks effectively.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "foreign jurisdictions",
+                      "vi": "lãnh thổ pháp lý nước ngoài"
+                    },
+                    {
+                      "en": "bring to justice",
+                      "vi": "đưa ra trước công lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "intelligence-sharing agreements",
+                      "vi": "thỏa thuận chia sẻ thông tin tình báo"
+                    },
+                    {
+                      "en": "dismantle networks",
+                      "vi": "triệt phá các đường dây"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "international cooperation",
+                    "vi": "hợp tác quốc tế"
+                  },
+                  {
+                    "en": "prosecute cybercriminals",
+                    "vi": "truy tố tội phạm mạng"
+                  },
+                  {
+                    "en": "foreign jurisdictions",
+                    "vi": "lãnh thổ pháp lý nước ngoài"
+                  },
+                  {
+                    "en": "bring to justice",
+                    "vi": "đưa ra trước công lý"
+                  },
+                  {
+                    "en": "intelligence-sharing agreements",
+                    "vi": "thỏa thuận chia sẻ thông tin tình báo"
+                  },
+                  {
+                    "en": "dismantle networks",
+                    "vi": "triệt phá các đường dây"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Đầu tư đào tạo nguồn nhân lực an ninh mạng chất lượng cao và xây dựng trung tâm ứng cứu khẩn cấp là giải pháp thiết yếu.",
+                "point_en": "Investing in specialized cybersecurity talent and rapid-response reporting centers is essential for long-term digital defense.",
+                "point_collocations": [
+                  {
+                    "en": "cybersecurity talent",
+                    "vi": "nhân lực an ninh mạng"
+                  },
+                  {
+                    "en": "rapid-response reporting centers",
+                    "vi": "trung tâm tiếp nhận và ứng cứu nhanh"
+                  }
+                ],
+                "evidence_vi": "Các trường đại học và doanh nghiệp nên hợp tác đào tạo kỹ sư bảo mật có khả năng phát hiện sớm lỗ hổng hệ thống trước khi bị khai thác. Song song đó, các cổng tiếp nhận trình báo trực tuyến hoạt động 24/7 giúp kịp thời phong tỏa tài khoản gian lận và cảnh báo sớm cho cộng đồng.",
+                "evidence_en": "Universities and tech firms should collaborate to train security engineers capable of identifying system vulnerabilities before hackers exploit them. Meanwhile, round-the-clock reporting portals allow authorities to freeze fraudulent accounts promptly and issue timely public warnings.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "system vulnerabilities",
+                      "vi": "lỗ hổng hệ thống"
+                    },
+                    {
+                      "en": "exploit",
+                      "vi": "khai thác / lợi dụng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "round-the-clock portals",
+                      "vi": "cổng tiếp nhận 24/7"
+                    },
+                    {
+                      "en": "freeze fraudulent accounts",
+                      "vi": "phong tỏa tài khoản gian lận"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cybersecurity talent",
+                    "vi": "nhân lực an ninh mạng"
+                  },
+                  {
+                    "en": "rapid-response reporting centers",
+                    "vi": "trung tâm tiếp nhận và ứng cứu nhanh"
+                  },
+                  {
+                    "en": "system vulnerabilities",
+                    "vi": "lỗ hổng hệ thống"
+                  },
+                  {
+                    "en": "exploit",
+                    "vi": "khai thác / lợi dụng"
+                  },
+                  {
+                    "en": "round-the-clock portals",
+                    "vi": "cổng tiếp nhận 24/7"
+                  },
+                  {
+                    "en": "freeze fraudulent accounts",
+                    "vi": "phong tỏa tài khoản gian lận"
+                  }
                 ]
               }
             ]
@@ -145991,6 +153803,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "FACTOR 04",
+                "point_vi": "Sự cân bằng tốt giữa công việc và cuộc sống giúp nhân viên hài lòng hơn nhiều với nghề nghiệp của mình.",
+                "point_en": "A healthy work-life balance makes employees much happier with their jobs.",
+                "point_collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "cân bằng công việc và cuộc sống"
+                  },
+                  {
+                    "en": "happier with their jobs",
+                    "vi": "hài lòng hơn với công việc"
+                  }
+                ],
+                "evidence_vi": "Khi giờ làm việc hợp lý và linh hoạt, người lao động có đủ thời gian nghỉ ngơi và chăm sóc gia đình mà không bị kiệt sức.",
+                "evidence_en": "When working hours are reasonable and flexible, workers have enough time to rest and care for their families without feeling exhausted.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "reasonable and flexible",
+                      "vi": "hợp lý và linh hoạt"
+                    },
+                    {
+                      "en": "care for their families",
+                      "vi": "chăm sóc gia đình"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work-life balance",
+                    "vi": "cân bằng công việc và cuộc sống"
+                  },
+                  {
+                    "en": "happier with their jobs",
+                    "vi": "hài lòng hơn với công việc"
+                  },
+                  {
+                    "en": "reasonable and flexible",
+                    "vi": "hợp lý và linh hoạt"
+                  },
+                  {
+                    "en": "care for their families",
+                    "vi": "chăm sóc gia đình"
+                  }
+                ]
+              },
+              {
+                "title": "FACTOR 05",
+                "point_vi": "Sự ghi nhận từ cấp trên và tính ý nghĩa của công việc cũng ảnh hưởng lớn đến mức độ hài lòng.",
+                "point_en": "Recognition from managers and meaningful tasks also strongly influence job satisfaction.",
+                "point_collocations": [
+                  {
+                    "en": "recognition from managers",
+                    "vi": "sự ghi nhận từ cấp trên"
+                  },
+                  {
+                    "en": "meaningful tasks",
+                    "vi": "những nhiệm vụ có ý nghĩa"
+                  }
+                ],
+                "evidence_vi": "Khi nỗ lực của nhân viên được khen ngợi và họ thấy công việc mình làm mang lại giá trị, họ sẽ cảm thấy tự hào và yêu nghề hơn.",
+                "evidence_en": "When employees' efforts are praised and they see real value in what they do, they feel proud and more passionate about their work.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "efforts are praised",
+                      "vi": "nỗ lực được khen ngợi"
+                    },
+                    {
+                      "en": "see real value",
+                      "vi": "thấy giá trị thực sự"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "recognition from managers",
+                    "vi": "sự ghi nhận từ cấp trên"
+                  },
+                  {
+                    "en": "meaningful tasks",
+                    "vi": "những nhiệm vụ có ý nghĩa"
+                  },
+                  {
+                    "en": "efforts are praised",
+                    "vi": "nỗ lực được khen ngợi"
+                  },
+                  {
+                    "en": "see real value",
+                    "vi": "thấy giá trị thực sự"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -146364,6 +154270,136 @@ const ESSAY_DATA = [
                       "vi": "cơ hội phát triển nghề nghiệp"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "FACTOR 04",
+                "point_vi": "Sự cân bằng hợp lý giữa công việc và cuộc sống cá nhân là yếu tố then chốt quyết định mức độ hài lòng nghề nghiệp.",
+                "point_en": "Maintaining a healthy work-life balance is a decisive factor in achieving high job satisfaction.",
+                "point_collocations": [
+                  {
+                    "en": "decisive factor",
+                    "vi": "yếu tố quyết định"
+                  },
+                  {
+                    "en": "work-life balance",
+                    "vi": "cân bằng công việc và cuộc sống"
+                  }
+                ],
+                "evidence_vi": "Những doanh nghiệp cung cấp giờ làm linh hoạt, khối lượng công việc hợp lý và chính sách nghỉ phép rõ ràng giúp nhân viên tránh tình trạng kiệt sức kéo dài. Khi có đủ thời gian cho gia đình và sở thích cá nhân, người lao động thường quay trở lại công việc với tinh thần tích cực và hiệu suất cao hơn.",
+                "evidence_en": "Organizations that offer flexible schedules, manageable workloads, and fair leave policies help employees avoid chronic burnout. Having sufficient time for family and personal well-being allows staff to return to work refreshed, engaged, and more productive.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "manageable workloads",
+                      "vi": "khối lượng công việc hợp lý"
+                    },
+                    {
+                      "en": "chronic burnout",
+                      "vi": "kiệt sức kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "personal well-being",
+                      "vi": "sức khỏe và hạnh phúc cá nhân"
+                    },
+                    {
+                      "en": "engaged and productive",
+                      "vi": "gắn kết và năng suất hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "decisive factor",
+                    "vi": "yếu tố quyết định"
+                  },
+                  {
+                    "en": "work-life balance",
+                    "vi": "cân bằng công việc và cuộc sống"
+                  },
+                  {
+                    "en": "manageable workloads",
+                    "vi": "khối lượng công việc hợp lý"
+                  },
+                  {
+                    "en": "chronic burnout",
+                    "vi": "kiệt sức kéo dài"
+                  },
+                  {
+                    "en": "personal well-being",
+                    "vi": "sức khỏe và hạnh phúc cá nhân"
+                  },
+                  {
+                    "en": "engaged and productive",
+                    "vi": "gắn kết và năng suất hơn"
+                  }
+                ]
+              },
+              {
+                "title": "FACTOR 05",
+                "point_vi": "Sự công nhận xứng đáng từ ban lãnh đạo và ý nghĩa thực tiễn của công việc góp phần nuôi dưỡng niềm vui lao động lâu dài.",
+                "point_en": "Meaningful work and genuine recognition from leadership foster lasting fulfillment in the workplace.",
+                "point_collocations": [
+                  {
+                    "en": "genuine recognition",
+                    "vi": "sự ghi nhận chân thành"
+                  },
+                  {
+                    "en": "lasting fulfillment",
+                    "vi": "sự thỏa mãn bền vững"
+                  }
+                ],
+                "evidence_vi": "Nhân viên sẽ cảm thấy được trân trọng khi những đóng góp của họ thường xuyên nhận được phản hồi tích cực và lời khen kịp thời từ cấp quản lý. Bên cạnh đó, khi cảm nhận công việc của mình tạo ra tác động tích cực cho khách hàng hoặc xã hội, họ sẽ có động lực gắn bó bền chặt hơn với tổ chức.",
+                "evidence_en": "Staff feel genuinely valued when managers acknowledge their achievements with constructive feedback and timely appreciation. Furthermore, knowing that their daily responsibilities create tangible benefits for clients or society deepens their sense of purpose and loyalty.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "constructive feedback",
+                      "vi": "phản hồi mang tính xây dựng"
+                    },
+                    {
+                      "en": "timely appreciation",
+                      "vi": "sự trân trọng kịp thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "tangible benefits",
+                      "vi": "lợi ích rõ ràng / thiết thực"
+                    },
+                    {
+                      "en": "sense of purpose",
+                      "vi": "cảm giác có mục đích / ý nghĩa"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "genuine recognition",
+                    "vi": "sự ghi nhận chân thành"
+                  },
+                  {
+                    "en": "lasting fulfillment",
+                    "vi": "sự thỏa mãn bền vững"
+                  },
+                  {
+                    "en": "constructive feedback",
+                    "vi": "phản hồi mang tính xây dựng"
+                  },
+                  {
+                    "en": "timely appreciation",
+                    "vi": "sự trân trọng kịp thời"
+                  },
+                  {
+                    "en": "tangible benefits",
+                    "vi": "lợi ích rõ ràng / thiết thực"
+                  },
+                  {
+                    "en": "sense of purpose",
+                    "vi": "cảm giác có mục đích / ý nghĩa"
+                  }
                 ]
               }
             ],
@@ -155203,6 +163239,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "LÝ DO 04: NHIỀU CHƯƠNG TRÌNH KHUYẾN MÃI VÀ MÃ GIẢM GIÁ HẤP DẪN",
+                "point_vi": "Các trang thương mại điện tử thường xuyên tung ra nhiều mã giảm giá và ưu đãi hấp dẫn.",
+                "point_en": "Online shopping platforms regularly offer attractive discounts and special promotions.",
+                "point_collocations": [
+                  {
+                    "en": "attractive discounts",
+                    "vi": "mức giảm giá hấp dẫn"
+                  },
+                  {
+                    "en": "special promotions",
+                    "vi": "chương trình khuyến mãi đặc biệt"
+                  }
+                ],
+                "evidence_vi": "Các đợt giảm giá lớn và miễn phí vận chuyển giúp người mua tiết kiệm được một khoản tiền đáng kể so với mua tại cửa hàng.",
+                "evidence_en": "Big seasonal sales and free shipping vouchers help shoppers save a considerable amount of money compared to physical stores.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "free shipping vouchers",
+                      "vi": "mã miễn phí vận chuyển"
+                    },
+                    {
+                      "en": "save a considerable amount",
+                      "vi": "tiết kiệm một khoản đáng kể"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "attractive discounts",
+                    "vi": "mức giảm giá hấp dẫn"
+                  },
+                  {
+                    "en": "special promotions",
+                    "vi": "chương trình khuyến mãi đặc biệt"
+                  },
+                  {
+                    "en": "free shipping vouchers",
+                    "vi": "mã miễn phí vận chuyển"
+                  },
+                  {
+                    "en": "save a considerable amount",
+                    "vi": "tiết kiệm một khoản đáng kể"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 05: ĐÁNH GIÁ TỪ NGƯỜI MUA TRƯỚC VÀ QUẢNG CÁO TRÊN MẠNG XÃ HỘI",
+                "point_vi": "Đánh giá của khách hàng và quảng cáo trên mạng xã hội cũng thúc đẩy nhiều người mua sắm trực tuyến.",
+                "point_en": "Customer reviews and social media advertising also encourage more people to shop online.",
+                "point_collocations": [
+                  {
+                    "en": "customer reviews",
+                    "vi": "đánh giá của khách hàng"
+                  },
+                  {
+                    "en": "social media advertising",
+                    "vi": "quảng cáo trên mạng xã hội"
+                  }
+                ],
+                "evidence_vi": "Người tiêu dùng có thể đọc bình luận và xem ảnh thật từ người mua trước, đồng thời dễ bị thu hút bởi các buổi bán hàng trực tiếp trên mạng.",
+                "evidence_en": "Buyers can read comments and view real photos from previous customers, while live-streaming sales easily attract their interest.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "previous customers",
+                      "vi": "khách hàng trước đó"
+                    },
+                    {
+                      "en": "live-streaming sales",
+                      "vi": "bán hàng phát trực tiếp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "customer reviews",
+                    "vi": "đánh giá của khách hàng"
+                  },
+                  {
+                    "en": "social media advertising",
+                    "vi": "quảng cáo trên mạng xã hội"
+                  },
+                  {
+                    "en": "previous customers",
+                    "vi": "khách hàng trước đó"
+                  },
+                  {
+                    "en": "live-streaming sales",
+                    "vi": "bán hàng phát trực tiếp"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -155580,6 +163710,136 @@ const ESSAY_DATA = [
                       "vi": "thân thiện với người dùng"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "LÝ DO 04: FREQUENT PROMOTIONS AND FINANCIAL INCENTIVES",
+                "point_vi": "Các chương trình khuyến mãi dày đặc và chính sách ưu đãi tài chính tạo sức hút mạnh mẽ đối với người tiêu dùng trực tuyến.",
+                "point_en": "Frequent promotional campaigns and financial incentives strongly attract budget-conscious consumers to online shopping.",
+                "point_collocations": [
+                  {
+                    "en": "promotional campaigns",
+                    "vi": "chiến dịch khuyến mãi"
+                  },
+                  {
+                    "en": "budget-conscious consumers",
+                    "vi": "người tiêu dùng quan tâm đến ngân sách"
+                  }
+                ],
+                "evidence_vi": "Nhờ tiết kiệm được chi phí thuê mặt bằng và nhân sự, các nhà bán lẻ trực tuyến thường xuyên tổ chức sự kiện giảm giá chớp nhoáng, tặng mã miễn phí vận chuyển và hoàn tiền. Những ưu đãi hấp dẫn này mang lại cảm giác mua hời và thúc đẩy khách hàng đặt mua thường xuyên hơn.",
+                "evidence_en": "Because online retailers save on rent and staffing overheads, they regularly host flash sales, free-shipping deals, and cashback rewards. These tempting offers create a strong sense of value for money and motivate shoppers to purchase online repeatedly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "flash sales",
+                      "vi": "giảm giá chớp nhoáng"
+                    },
+                    {
+                      "en": "cashback rewards",
+                      "vi": "ưu đãi hoàn tiền"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "value for money",
+                      "vi": "đáng đồng tiền"
+                    },
+                    {
+                      "en": "purchase repeatedly",
+                      "vi": "mua lặp lại nhiều lần"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "promotional campaigns",
+                    "vi": "chiến dịch khuyến mãi"
+                  },
+                  {
+                    "en": "budget-conscious consumers",
+                    "vi": "người tiêu dùng quan tâm đến ngân sách"
+                  },
+                  {
+                    "en": "flash sales",
+                    "vi": "giảm giá chớp nhoáng"
+                  },
+                  {
+                    "en": "cashback rewards",
+                    "vi": "ưu đãi hoàn tiền"
+                  },
+                  {
+                    "en": "value for money",
+                    "vi": "đáng đồng tiền"
+                  },
+                  {
+                    "en": "purchase repeatedly",
+                    "vi": "mua lặp lại nhiều lần"
+                  }
+                ]
+              },
+              {
+                "title": "LÝ DO 05: CUSTOMER REVIEWS AND SOCIAL MEDIA INFLUENCE",
+                "point_vi": "Hệ thống đánh giá minh bạch từ người mua trước và sức ảnh hưởng của mạng xã hội góp phần lớn vào sự bùng nổ của mua sắm trực tuyến.",
+                "point_en": "Transparent customer reviews and persuasive social media marketing play a major role in the surge of e-commerce.",
+                "point_collocations": [
+                  {
+                    "en": "transparent customer reviews",
+                    "vi": "đánh giá khách hàng minh bạch"
+                  },
+                  {
+                    "en": "surge of e-commerce",
+                    "vi": "sự bùng nổ của thương mại điện tử"
+                  }
+                ],
+                "evidence_vi": "Việc tham khảo nhận xét, điểm xếp hạng và hình ảnh thực tế giúp người tiêu dùng đánh giá độ tin cậy của sản phẩm trước khi quyết định chi tiền. Đồng thời, các video giới thiệu sản phẩm từ người có sức ảnh hưởng và phiên phát trực tiếp đã biến việc mua sắm trực tuyến thành trải nghiệm giải trí đầy lôi cuốn.",
+                "evidence_en": "Checking ratings, detailed feedback, and authentic photos enables shoppers to verify product reliability before spending money. Simultaneously, influencer endorsements and interactive livestreaming sessions have transformed online shopping into an engaging social experience.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "verify product reliability",
+                      "vi": "kiểm chứng độ tin cậy của sản phẩm"
+                    },
+                    {
+                      "en": "detailed feedback",
+                      "vi": "phản hồi chi tiết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "influencer endorsements",
+                      "vi": "sự quảng bá từ người có ảnh hưởng"
+                    },
+                    {
+                      "en": "livestreaming sessions",
+                      "vi": "các phiên phát trực tiếp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "transparent customer reviews",
+                    "vi": "đánh giá khách hàng minh bạch"
+                  },
+                  {
+                    "en": "surge of e-commerce",
+                    "vi": "sự bùng nổ của thương mại điện tử"
+                  },
+                  {
+                    "en": "verify product reliability",
+                    "vi": "kiểm chứng độ tin cậy của sản phẩm"
+                  },
+                  {
+                    "en": "detailed feedback",
+                    "vi": "phản hồi chi tiết"
+                  },
+                  {
+                    "en": "influencer endorsements",
+                    "vi": "sự quảng bá từ người có ảnh hưởng"
+                  },
+                  {
+                    "en": "livestreaming sessions",
+                    "vi": "các phiên phát trực tiếp"
+                  }
                 ]
               }
             ],
@@ -156301,7 +164561,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 01",
                 "point_vi": "Trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.",
-                "point_en": "First, children can become less patient and easily get angry.",
+                "point_en": "Children can become less patient and easily get angry.",
                 "evidence_vi": "Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực.",
                 "evidence_en": "Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life.",
                 "collocations": [
@@ -156368,7 +164628,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 02",
                 "point_vi": "Trẻ em có thể trở nên ít giao tiếp với người khác.",
-                "point_en": "Second, children may communicate less with other people.",
+                "point_en": "Children may communicate less with other people.",
                 "evidence_vi": "Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp.",
                 "evidence_en": "When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills.",
                 "collocations": [
@@ -156431,7 +164691,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 03",
                 "point_vi": "Trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.",
-                "point_en": "Finally, children may neglect their studies and daily tasks.",
+                "point_en": "Children may neglect their studies and daily tasks.",
                 "evidence_vi": "Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.",
                 "evidence_en": "Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.",
                 "collocations": [
@@ -156486,13 +164746,107 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Trẻ em có thể bắt chước hành vi hung hăng hoặc lời nói thô lỗ từ một số trò chơi điện tử.",
+                "point_en": "Children may imitate aggressive actions or rude language from certain computer games.",
+                "point_collocations": [
+                  {
+                    "en": "imitate aggressive actions",
+                    "vi": "bắt chước hành động hung hăng"
+                  },
+                  {
+                    "en": "rude language",
+                    "vi": "lời nói thô lỗ"
+                  }
+                ],
+                "evidence_vi": "Nhiều trò chơi hành động có cảnh đánh nhau và ngôn từ không phù hợp khiến trẻ dễ học theo khi giao tiếp với bạn bè.",
+                "evidence_en": "Many action games contain fighting scenes and unsuitable words that children can easily copy when talking to friends.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "fighting scenes",
+                      "vi": "cảnh đánh nhau"
+                    },
+                    {
+                      "en": "unsuitable words",
+                      "vi": "từ ngữ không phù hợp"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "imitate aggressive actions",
+                    "vi": "bắt chước hành động hung hăng"
+                  },
+                  {
+                    "en": "rude language",
+                    "vi": "lời nói thô lỗ"
+                  },
+                  {
+                    "en": "fighting scenes",
+                    "vi": "cảnh đánh nhau"
+                  },
+                  {
+                    "en": "unsuitable words",
+                    "vi": "từ ngữ không phù hợp"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Chơi game quá nhiều có thể khiến trẻ hình thành thói quen sinh hoạt thiếu lành mạnh và nói dối cha mẹ.",
+                "point_en": "Excessive gaming can lead children to form unhealthy daily habits and hide the truth from their parents.",
+                "point_collocations": [
+                  {
+                    "en": "unhealthy daily habits",
+                    "vi": "thói quen sinh hoạt không lành mạnh"
+                  },
+                  {
+                    "en": "hide the truth",
+                    "vi": "giấu giếm sự thật"
+                  }
+                ],
+                "evidence_vi": "Một số trẻ thức quá khuya để chơi game hoặc lén dùng tiền tiêu vặt mua vật phẩm ảo mà không xin phép gia đình.",
+                "evidence_en": "Some children stay up too late playing games or secretly spend pocket money on virtual items without asking their family.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "pocket money",
+                      "vi": "tiền tiêu vặt"
+                    },
+                    {
+                      "en": "virtual items",
+                      "vi": "vật phẩm ảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "unhealthy daily habits",
+                    "vi": "thói quen sinh hoạt không lành mạnh"
+                  },
+                  {
+                    "en": "hide the truth",
+                    "vi": "giấu giếm sự thật"
+                  },
+                  {
+                    "en": "pocket money",
+                    "vi": "tiền tiêu vặt"
+                  },
+                  {
+                    "en": "virtual items",
+                    "vi": "vật phẩm ảo"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
                 "title": "SOLUTION 01",
                 "point_vi": "Hạn chế thời gian chơi game của trẻ.",
-                "point_en": "First, parents should limit children's daily gaming time.",
+                "point_en": "Parents should limit children's daily gaming time.",
                 "evidence_vi": "Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi.",
                 "evidence_en": "Parents can set a time limit each day and ask children to finish their homework before they can play.",
                 "collocations": [
@@ -156551,7 +164905,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 02",
                 "point_vi": "Khuyến khích trẻ tham gia các hoạt động ngoài trời.",
-                "point_en": "Second, adults should encourage children to take part in outdoor activities.",
+                "point_en": "Adults should encourage children to take part in outdoor activities.",
                 "evidence_vi": "Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội.",
                 "evidence_en": "Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills.",
                 "collocations": [
@@ -156618,7 +164972,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 03",
                 "point_vi": "Nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.",
-                "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
+                "point_en": "It is important to raise children's awareness about healthy gaming habits.",
                 "evidence_vi": "Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.",
                 "evidence_en": "Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.",
                 "collocations": [
@@ -156673,6 +165027,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Cha mẹ nên kiểm tra nội dung trò chơi và chọn những trò chơi giáo dục phù hợp với lứa tuổi của con.",
+                "point_en": "Parents should check game content and choose educational games suitable for their children's age.",
+                "point_collocations": [
+                  {
+                    "en": "check game content",
+                    "vi": "kiểm tra nội dung trò chơi"
+                  },
+                  {
+                    "en": "educational games",
+                    "vi": "trò chơi giáo dục"
+                  }
+                ],
+                "evidence_vi": "Những trò chơi giải đố hoặc học ngoại ngữ giúp trẻ vừa thư giãn vừa phát triển tư duy tích cực thay vì tiếp xúc với bạo lực.",
+                "evidence_en": "Puzzle or language-learning games help children relax and build positive thinking skills instead of watching violence.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "positive thinking skills",
+                      "vi": "kỹ năng tư duy tích cực"
+                    },
+                    {
+                      "en": "watch violence",
+                      "vi": "xem cảnh bạo lực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "check game content",
+                    "vi": "kiểm tra nội dung trò chơi"
+                  },
+                  {
+                    "en": "educational games",
+                    "vi": "trò chơi giáo dục"
+                  },
+                  {
+                    "en": "positive thinking skills",
+                    "vi": "kỹ năng tư duy tích cực"
+                  },
+                  {
+                    "en": "watch violence",
+                    "vi": "xem cảnh bạo lực"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Chính phủ và các công ty game cần áp dụng quy định độ tuổi rõ ràng và tính năng kiểm soát cho phụ huynh.",
+                "point_en": "Governments and game companies should apply clear age limits and parental control features.",
+                "point_collocations": [
+                  {
+                    "en": "clear age limits",
+                    "vi": "giới hạn độ tuổi rõ ràng"
+                  },
+                  {
+                    "en": "parental control features",
+                    "vi": "tính năng kiểm soát của phụ huynh"
+                  }
+                ],
+                "evidence_vi": "Các công cụ tự động giới hạn giờ chơi và chặn trò chơi bạo lực giúp bảo vệ trẻ em an toàn hơn trên môi trường mạng.",
+                "evidence_en": "Tools that automatically limit play hours and block violent games help protect children more safely online.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "limit play hours",
+                      "vi": "giới hạn giờ chơi"
+                    },
+                    {
+                      "en": "block violent games",
+                      "vi": "chặn trò chơi bạo lực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "clear age limits",
+                    "vi": "giới hạn độ tuổi rõ ràng"
+                  },
+                  {
+                    "en": "parental control features",
+                    "vi": "tính năng kiểm soát của phụ huynh"
+                  },
+                  {
+                    "en": "limit play hours",
+                    "vi": "giới hạn giờ chơi"
+                  },
+                  {
+                    "en": "block violent games",
+                    "vi": "chặn trò chơi bạo lực"
+                  }
+                ]
               }
             ]
           },
@@ -156681,7 +165129,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 01",
                 "point_vi": "Chơi quá nhiều trò chơi điện tử có thể khiến trẻ em kém kiên nhẫn và dễ nổi giận.",
-                "point_en": "First, playing too many computer games can make children less patient and easily angered.",
+                "point_en": "Playing too many computer games can make children less patient and easily angered.",
                 "evidence_vi": "• Luận cứ 1: Các trò chơi điện tử cạnh tranh thường tập cho người chơi thói quen mong đợi kết quả tức thì và chiến thắng nhanh chóng.\n• Luận cứ 2: Do đó, các em dễ mất bình tĩnh và bực bội khi phải đối mặt với những khó khăn, thử thách trong đời sống thực tế.",
                 "evidence_en": "• Evidence 1: Competitive video games often condition young players to expect instant results and quick wins.\n• Evidence 2: Consequently, they easily lose their temper and become frustrated when facing real-life challenges.",
                 "collocations": [
@@ -156758,7 +165206,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 02",
                 "point_vi": "Chơi game quá mức làm giảm sự giao tiếp của trẻ với mọi người xung quanh.",
-                "point_en": "Second, excessive gaming can reduce children's communication with people around them.",
+                "point_en": "Excessive gaming can reduce children's communication with people around them.",
                 "evidence_vi": "• Luận cứ 1: Khi trẻ em dành hàng giờ ngồi một mình chơi game trong phòng, các em có rất ít thời gian để trò chuyện cùng cha mẹ và bạn bè.\n• Luận cứ 2: Hậu quả là các em dần trở nên thu mình và các kỹ năng giao tiếp xã hội bị suy giảm.",
                 "evidence_en": "• Evidence 1: When children spend hours playing games in their rooms, they have little time to talk to parents and friends.\n• Evidence 2: As a result, they may become socially isolated and develop poor interpersonal skills.",
                 "collocations": [
@@ -156835,7 +165283,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 03",
                 "point_vi": "Trò chơi điện tử có thể khiến học sinh bỏ bê việc học và các công việc hằng ngày.",
-                "point_en": "Finally, computer games can cause children to neglect their studies and daily responsibilities.",
+                "point_en": "Computer games can cause children to neglect their studies and daily responsibilities.",
                 "evidence_vi": "• Luận cứ 1: Nhiều trẻ em thức khuya để chơi các trò chơi cuốn hút và liên tục trì hoãn việc làm bài tập về nhà.\n• Luận cứ 2: Điều này dẫn đến kết quả học tập sa sút và thái độ lười biếng, không muốn phụ giúp việc nhà cho gia đình.",
                 "evidence_en": "• Evidence 1: Many children stay up late playing exciting games and postpone doing their homework.\n• Evidence 2: This leads to declining academic performance and an unwillingness to help with household chores.",
                 "collocations": [
@@ -156908,13 +165356,143 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Việc tiếp xúc thường xuyên với các trò chơi mang yếu tố bạo lực có thể khiến trẻ bắt chước hành vi hung hăng và ngôn từ thiếu chuẩn mực.",
+                "point_en": "Frequent exposure to violent video games can lead children to imitate aggressive behavior and inappropriate language.",
+                "point_collocations": [
+                  {
+                    "en": "violent video games",
+                    "vi": "trò chơi điện tử bạo lực"
+                  },
+                  {
+                    "en": "inappropriate language",
+                    "vi": "ngôn ngữ thiếu chuẩn mực"
+                  }
+                ],
+                "evidence_vi": "Nhiều trò chơi trực tuyến khuyến khích hành động đối kháng gay gắt và sử dụng khung trò chuyện thiếu kiểm soát giữa người chơi. Khi liên tục chứng kiến những hành vi này, trẻ nhỏ có thể trở nên chai sạn trước bạo lực và dễ cư xử nóng nảy hơn với bạn bè ở trường.",
+                "evidence_en": "Many online games reward intense combat and include unmoderated chat rooms filled with hostile remarks. Repeated exposure to such content can desensitize young minds to aggression and encourage rougher conduct toward classmates.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "unmoderated chat rooms",
+                      "vi": "phòng trò chuyện không được kiểm duyệt"
+                    },
+                    {
+                      "en": "hostile remarks",
+                      "vi": "lời lẽ thù địch"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "desensitize to aggression",
+                      "vi": "làm chai sạn trước sự hung hăng"
+                    },
+                    {
+                      "en": "rougher conduct",
+                      "vi": "cách cư xử thô bạo hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "violent video games",
+                    "vi": "trò chơi điện tử bạo lực"
+                  },
+                  {
+                    "en": "inappropriate language",
+                    "vi": "ngôn ngữ thiếu chuẩn mực"
+                  },
+                  {
+                    "en": "unmoderated chat rooms",
+                    "vi": "phòng trò chuyện không được kiểm duyệt"
+                  },
+                  {
+                    "en": "hostile remarks",
+                    "vi": "lời lẽ thù địch"
+                  },
+                  {
+                    "en": "desensitize to aggression",
+                    "vi": "làm chai sạn trước sự hung hăng"
+                  },
+                  {
+                    "en": "rougher conduct",
+                    "vi": "cách cư xử thô bạo hơn"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Tình trạng nghiện game có thể gây rối loạn nếp sinh hoạt hằng ngày và dẫn đến những hành vi thiếu trung thực ở trẻ.",
+                "point_en": "Gaming addiction can disrupt healthy daily routines and trigger dishonest habits among children.",
+                "point_collocations": [
+                  {
+                    "en": "gaming addiction",
+                    "vi": "nghiện trò chơi điện tử"
+                  },
+                  {
+                    "en": "dishonest habits",
+                    "vi": "thói quen thiếu trung thực"
+                  }
+                ],
+                "evidence_vi": "Nhiều trẻ em vì quá say mê các thử thách trong game nên thường lén lút thức khuya chơi hoặc bỏ bữa, gây ảnh hưởng xấu đến giấc ngủ và tâm trạng. Thậm chí, một số em còn nói dối về thời gian học hoặc tự ý chi tiêu tiền của gia đình để mua vật phẩm ảo trong trò chơi.",
+                "evidence_en": "Absorbed by in-game challenges, many youngsters secretly stay up past bedtime or skip meals, harming both sleep quality and emotional stability. Some even lie about completing assignments or spend family money without permission on virtual upgrades.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "in-game challenges",
+                      "vi": "thử thách trong trò chơi"
+                    },
+                    {
+                      "en": "emotional stability",
+                      "vi": "sự ổn định cảm xúc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "without permission",
+                      "vi": "không xin phép"
+                    },
+                    {
+                      "en": "virtual upgrades",
+                      "vi": "nâng cấp vật phẩm ảo"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "gaming addiction",
+                    "vi": "nghiện trò chơi điện tử"
+                  },
+                  {
+                    "en": "dishonest habits",
+                    "vi": "thói quen thiếu trung thực"
+                  },
+                  {
+                    "en": "in-game challenges",
+                    "vi": "thử thách trong trò chơi"
+                  },
+                  {
+                    "en": "emotional stability",
+                    "vi": "sự ổn định cảm xúc"
+                  },
+                  {
+                    "en": "without permission",
+                    "vi": "không xin phép"
+                  },
+                  {
+                    "en": "virtual upgrades",
+                    "vi": "nâng cấp vật phẩm ảo"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
                 "title": "SOLUTION 01",
                 "point_vi": "Cha mẹ nên thiết lập giới hạn rõ ràng về thời gian chơi game hằng ngày của con.",
-                "point_en": "The first solution is that parents should set clear limits on their children's daily gaming time.",
+                "point_en": "Parents should set clear limits on their children's daily gaming time.",
                 "evidence_vi": "• Luận cứ 1: Phụ huynh có thể đặt ra các quy định cụ thể, ví dụ như không cho phép chơi game quá một tiếng mỗi ngày.\n• Luận cứ 2: Ngoài ra, trẻ chỉ nên được phép giải trí bằng game sau khi đã hoàn thành toàn bộ bài tập và nhiệm vụ cá nhân.",
                 "evidence_en": "• Evidence 1: Caregivers can establish strict rules, such as allowing no more than one hour of gaming per day.\n• Evidence 2: In addition, children should only be permitted to play games after finishing all their homework and personal tasks.",
                 "collocations": [
@@ -156995,7 +165573,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 02",
                 "point_vi": "Người lớn nên khuyến khích trẻ tham gia các hoạt động thể thao ngoài trời.",
-                "point_en": "Second, adults should encourage children to take part in outdoor sports and physical activities.",
+                "point_en": "Adults should encourage children to take part in outdoor sports and physical activities.",
                 "evidence_vi": "• Luận cứ 1: Gia đình và nhà trường có thể động viên các em tham gia các câu lạc bộ thể thao như bóng đá hoặc bơi lội cùng bạn bè.\n• Luận cứ 2: Những hoạt động này không chỉ giúp nâng cao sức khỏe thể chất mà còn tạo cơ hội để trẻ giao lưu và kết bạn.",
                 "evidence_en": "• Evidence 1: Families and schools can motivate kids to join sports clubs like football or swimming with their peers.\n• Evidence 2: These activities not only improve their physical health but also provide opportunities to make friends and build social skills.",
                 "collocations": [
@@ -157072,7 +165650,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 03",
                 "point_vi": "Cần nâng cao nhận thức của trẻ về thói quen chơi game lành mạnh và có chừng mực.",
-                "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
+                "point_en": "It is important to raise children's awareness about healthy gaming habits.",
                 "evidence_vi": "• Luận cứ 1: Cha mẹ và thầy cô nên giải thích cởi mở về những tác hại của việc nghiện game đối với sức khỏe và tương lai của trẻ.\n• Luận cứ 2: Hơn nữa, người lớn cần hướng dẫn các em kỹ năng quản lý thời gian để cân bằng giữa học tập, giải trí và nghỉ ngơi.",
                 "evidence_en": "• Evidence 1: Parents and teachers should talk openly to explain the negative consequences of gaming addiction on health and studies.\n• Evidence 2: Furthermore, adults ought to guide young people on how to manage their time effectively to balance recreation and academic work.",
                 "collocations": [
@@ -157144,6 +165722,136 @@ const ESSAY_DATA = [
                       "vi": "hơn nữa"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Phụ huynh nên chủ động giám sát nội dung trò chơi và định hướng trẻ đến các tựa game mang tính giáo dục, phù hợp lứa tuổi.",
+                "point_en": "Parents should actively monitor game content and steer children toward age-appropriate, educational titles.",
+                "point_collocations": [
+                  {
+                    "en": "actively monitor",
+                    "vi": "chủ động giám sát"
+                  },
+                  {
+                    "en": "age-appropriate titles",
+                    "vi": "các trò chơi phù hợp lứa tuổi"
+                  }
+                ],
+                "evidence_vi": "Thay vì cấm đoán hoàn toàn, cha mẹ có thể cùng con tìm hiểu thể loại game trước khi tải xuống và ưu tiên các trò chơi rèn luyện tư duy sáng tạo, ngoại ngữ hay hợp tác nhóm. Cách tiếp cận đồng hành này vừa giảm tiếp xúc với nội dung độc hại vừa giúp trẻ học hỏi qua giải trí.",
+                "evidence_en": "Rather than imposing total bans, caregivers can review game genres together and prioritize titles that foster creativity, language learning, or teamwork. This constructive involvement reduces exposure to harmful content while turning leisure into a positive learning experience.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "impose total bans",
+                      "vi": "áp đặt lệnh cấm hoàn toàn"
+                    },
+                    {
+                      "en": "foster creativity",
+                      "vi": "nuôi dưỡng sự sáng tạo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "constructive involvement",
+                      "vi": "sự đồng hành mang tính xây dựng"
+                    },
+                    {
+                      "en": "harmful content",
+                      "vi": "nội dung độc hại"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "actively monitor",
+                    "vi": "chủ động giám sát"
+                  },
+                  {
+                    "en": "age-appropriate titles",
+                    "vi": "các trò chơi phù hợp lứa tuổi"
+                  },
+                  {
+                    "en": "impose total bans",
+                    "vi": "áp đặt lệnh cấm hoàn toàn"
+                  },
+                  {
+                    "en": "foster creativity",
+                    "vi": "nuôi dưỡng sự sáng tạo"
+                  },
+                  {
+                    "en": "constructive involvement",
+                    "vi": "sự đồng hành mang tính xây dựng"
+                  },
+                  {
+                    "en": "harmful content",
+                    "vi": "nội dung độc hại"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Chính phủ và các nhà phát hành trò chơi cần thực thi hệ thống phân loại độ tuổi nghiêm ngặt cùng công cụ kiểm soát tích hợp.",
+                "point_en": "Governments and game developers should enforce strict age-rating systems alongside built-in parental controls.",
+                "point_collocations": [
+                  {
+                    "en": "age-rating systems",
+                    "vi": "hệ thống phân loại độ tuổi"
+                  },
+                  {
+                    "en": "built-in parental controls",
+                    "vi": "công cụ kiểm soát phụ huynh tích hợp"
+                  }
+                ],
+                "evidence_vi": "Các công ty game nên tích hợp tính năng tự động giới hạn thời lượng chơi hằng ngày, lọc ngôn từ xấu và yêu cầu xác nhận của phụ huynh trước khi giao dịch. Đồng thời, cơ quan quản lý cần giám sát chặt và xử phạt các nền tảng phát hành trò chơi bạo lực cho người dùng chưa đủ tuổi.",
+                "evidence_en": "Game companies should integrate automatic daily time caps, profanity filters, and parental approval prompts for in-app purchases. Meanwhile, regulators ought to monitor platforms strictly and penalize publishers that distribute violent games to underage users.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "daily time caps",
+                      "vi": "giới hạn thời gian hằng ngày"
+                    },
+                    {
+                      "en": "in-app purchases",
+                      "vi": "giao dịch mua trong ứng dụng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "profanity filters",
+                      "vi": "bộ lọc ngôn từ thô tục"
+                    },
+                    {
+                      "en": "underage users",
+                      "vi": "người dùng chưa đủ tuổi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "age-rating systems",
+                    "vi": "hệ thống phân loại độ tuổi"
+                  },
+                  {
+                    "en": "built-in parental controls",
+                    "vi": "công cụ kiểm soát phụ huynh tích hợp"
+                  },
+                  {
+                    "en": "daily time caps",
+                    "vi": "giới hạn thời gian hằng ngày"
+                  },
+                  {
+                    "en": "in-app purchases",
+                    "vi": "giao dịch mua trong ứng dụng"
+                  },
+                  {
+                    "en": "profanity filters",
+                    "vi": "bộ lọc ngôn từ thô tục"
+                  },
+                  {
+                    "en": "underage users",
+                    "vi": "người dùng chưa đủ tuổi"
+                  }
                 ]
               }
             ]
@@ -158264,7 +166972,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 01",
                 "point_vi": "Giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.",
-                "point_en": "First, good communication helps parents understand their children's studies better.",
+                "point_en": "Good communication helps parents understand their children's studies better.",
                 "evidence_vi": "Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, từ đó có thể hỗ trợ con kịp thời.",
                 "evidence_en": "Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support.",
                 "collocations": [
@@ -158327,7 +167035,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 02",
                 "point_vi": "Giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.",
-                "point_en": "Second, it helps teachers better understand students' needs and problems.",
+                "point_en": "It helps teachers better understand students' needs and problems.",
                 "evidence_vi": "Phụ huynh có thể cung cấp thông tin về thói quen, hoàn cảnh hoặc những khó khăn của con ở nhà, giúp giáo viên hiểu học sinh hơn và đưa ra cách hỗ trợ phù hợp.",
                 "evidence_en": "Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student.",
                 "collocations": [
@@ -158390,7 +167098,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 03",
                 "point_vi": "Tăng cường sự hợp tác giữa nhà trường và gia đình.",
-                "point_en": "Finally, frequent communication strengthens the cooperation between schools and families.",
+                "point_en": "Frequent communication strengthens the cooperation between schools and families.",
                 "evidence_vi": "Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.",
                 "evidence_en": "When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.",
                 "collocations": [
@@ -158449,13 +167157,107 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Sự kết nối tốt giữa thầy cô và phụ huynh giúp học sinh có thêm động lực và tự tin hơn trong học tập.",
+                "point_en": "Good communication between teachers and parents helps students feel more motivated and confident in their studies.",
+                "point_collocations": [
+                  {
+                    "en": "feel more motivated",
+                    "vi": "cảm thấy có động lực hơn"
+                  },
+                  {
+                    "en": "confident in their studies",
+                    "vi": "tự tin trong học tập"
+                  }
+                ],
+                "evidence_vi": "Khi trẻ biết cha mẹ và giáo viên đều quan tâm đến sự tiến bộ của mình, các em thường chăm chỉ và cư xử tích cực hơn ở lớp.",
+                "evidence_en": "When children know that both parents and teachers care about their progress, they usually study harder and behave better in class.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "care about their progress",
+                      "vi": "quan tâm đến sự tiến bộ của các em"
+                    },
+                    {
+                      "en": "behave better",
+                      "vi": "cư xử tốt hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "feel more motivated",
+                    "vi": "cảm thấy có động lực hơn"
+                  },
+                  {
+                    "en": "confident in their studies",
+                    "vi": "tự tin trong học tập"
+                  },
+                  {
+                    "en": "care about their progress",
+                    "vi": "quan tâm đến sự tiến bộ của các em"
+                  },
+                  {
+                    "en": "behave better",
+                    "vi": "cư xử tốt hơn"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Trao đổi thường xuyên giúp nhà trường và gia đình sớm phát hiện các vấn đề như bắt nạt học đường hoặc nghỉ học không phép.",
+                "point_en": "Regular communication helps schools and families detect problems like bullying or skipping classes early.",
+                "point_collocations": [
+                  {
+                    "en": "detect problems early",
+                    "vi": "phát hiện vấn đề sớm"
+                  },
+                  {
+                    "en": "skipping classes",
+                    "vi": "trốn học / nghỉ học không phép"
+                  }
+                ],
+                "evidence_vi": "Nhờ nhận được thông tin kịp thời, người lớn có thể nhanh chóng bảo vệ và hỗ trợ học sinh trước khi mọi việc trở nên nghiêm trọng.",
+                "evidence_en": "By receiving updates on time, adults can quickly protect and support students before situations become serious.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "receive updates on time",
+                      "vi": "nhận thông tin cập nhật kịp thời"
+                    },
+                    {
+                      "en": "become serious",
+                      "vi": "trở nên nghiêm trọng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "detect problems early",
+                    "vi": "phát hiện vấn đề sớm"
+                  },
+                  {
+                    "en": "skipping classes",
+                    "vi": "trốn học / nghỉ học không phép"
+                  },
+                  {
+                    "en": "receive updates on time",
+                    "vi": "nhận thông tin cập nhật kịp thời"
+                  },
+                  {
+                    "en": "become serious",
+                    "vi": "trở nên nghiêm trọng"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
                 "title": "SOLUTION 01",
                 "point_vi": "Tăng cường giao tiếp thường xuyên giữa giáo viên và phụ huynh.",
-                "point_en": "First, schools and teachers should maintain regular communication with parents.",
+                "point_en": "Schools and teachers should maintain regular communication with parents.",
                 "evidence_vi": "Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc các nền tảng trực tuyến để cập nhật tình hình học tập của học sinh.",
                 "evidence_en": "Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress.",
                 "collocations": [
@@ -158518,7 +167320,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 02",
                 "point_vi": "Chia sẻ thông tin rõ ràng và kịp thời.",
-                "point_en": "Second, both teachers and parents need to share information clearly and quickly.",
+                "point_en": "Both teachers and parents need to share information clearly and quickly.",
                 "evidence_vi": "Giáo viên nên cung cấp thông tin cụ thể về kết quả học tập, hành vi và những khó khăn của học sinh, trong khi phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề.",
                 "evidence_en": "Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems.",
                 "collocations": [
@@ -158573,7 +167375,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 03",
                 "point_vi": "Tổ chức các hoạt động hợp tác giữa nhà trường và phụ huynh.",
-                "point_en": "Finally, schools should organize cooperative activities for parents and teachers.",
+                "point_en": "Schools should organize cooperative activities for parents and teachers.",
                 "evidence_vi": "Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm cách hỗ trợ học sinh.",
                 "evidence_en": "Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.",
                 "collocations": [
@@ -158632,6 +167434,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Nhà trường nên sắp xếp thời gian trao đổi linh hoạt để các bậc phụ huynh bận rộn vẫn có thể tham gia.",
+                "point_en": "Schools should arrange flexible communication times so busy parents can still take part.",
+                "point_collocations": [
+                  {
+                    "en": "flexible communication times",
+                    "vi": "thời gian trao đổi linh hoạt"
+                  },
+                  {
+                    "en": "take part",
+                    "vi": "tham gia"
+                  }
+                ],
+                "evidence_vi": "Tổ chức các cuộc gọi video ngắn hoặc buổi họp vào cuối tuần giúp những cha mẹ đi làm xa dễ dàng giữ liên lạc với giáo viên.",
+                "evidence_en": "Holding short video calls or weekend meetings helps working parents stay in touch with teachers much more easily.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "short video calls",
+                      "vi": "cuộc gọi video ngắn"
+                    },
+                    {
+                      "en": "stay in touch",
+                      "vi": "giữ liên lạc"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "flexible communication times",
+                    "vi": "thời gian trao đổi linh hoạt"
+                  },
+                  {
+                    "en": "take part",
+                    "vi": "tham gia"
+                  },
+                  {
+                    "en": "short video calls",
+                    "vi": "cuộc gọi video ngắn"
+                  },
+                  {
+                    "en": "stay in touch",
+                    "vi": "giữ liên lạc"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Giáo viên nên chia sẻ cả những tiến bộ tích cực của học sinh thay vì chỉ liên hệ khi có vấn đề.",
+                "point_en": "Teachers should share students' positive achievements instead of contacting parents only when there are problems.",
+                "point_collocations": [
+                  {
+                    "en": "positive achievements",
+                    "vi": "thành tích / tiến bộ tích cực"
+                  },
+                  {
+                    "en": "contact parents",
+                    "vi": "liên hệ với phụ huynh"
+                  }
+                ],
+                "evidence_vi": "Những lời khen chân thành giúp phụ huynh cảm thấy thoải mái, tin tưởng nhà trường và sẵn sàng trao đổi cởi mở hơn.",
+                "evidence_en": "Sincere praise helps parents feel comfortable, trust the school, and communicate much more openly.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "sincere praise",
+                      "vi": "lời khen chân thành"
+                    },
+                    {
+                      "en": "communicate openly",
+                      "vi": "trao đổi cởi mở"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "positive achievements",
+                    "vi": "thành tích / tiến bộ tích cực"
+                  },
+                  {
+                    "en": "contact parents",
+                    "vi": "liên hệ với phụ huynh"
+                  },
+                  {
+                    "en": "sincere praise",
+                    "vi": "lời khen chân thành"
+                  },
+                  {
+                    "en": "communicate openly",
+                    "vi": "trao đổi cởi mở"
+                  }
+                ]
               }
             ]
           },
@@ -158640,7 +167536,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 01",
                 "point_vi": "Giao tiếp thường xuyên giúp phụ huynh hiểu rõ hơn về tiến độ học tập và rèn luyện của con.",
-                "point_en": "First, regular communication allows parents to understand their children's academic progress better.",
+                "point_en": "Regular communication allows parents to understand their children's academic progress better.",
                 "evidence_vi": "• Luận cứ 1: Thông qua các cuộc gặp định kỳ hoặc tin nhắn trực tuyến, giáo viên có thể thông báo chi tiết về điểm số, thái độ và sự tiến bộ của học sinh trên lớp.\n• Luận cứ 2: Nhờ đó, cha mẹ kịp thời phát hiện những môn học mà con gặp khó khăn để chủ động hỗ trợ và hướng dẫn con tại nhà.",
                 "evidence_en": "• Evidence 1: Through periodic meetings and online messages, teachers can provide detailed updates on students' test scores, behavior, and classroom performance.\n• Evidence 2: As a result, parents can promptly identify learning difficulties and support their children with schoolwork at home.",
                 "collocations": [
@@ -158729,7 +167625,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 02",
                 "point_vi": "Sự trao đổi hai chiều giúp thầy cô thấu hiểu tính cách và hoàn cảnh riêng của từng học sinh.",
-                "point_en": "Second, effective dialogue helps teachers gain valuable insights into students' personalities and backgrounds.",
+                "point_en": "Effective dialogue helps teachers gain valuable insights into students' personalities and backgrounds.",
                 "evidence_vi": "• Luận cứ 1: Khi cha mẹ cởi mở chia sẻ về thói quen sinh hoạt, sở thích và những áp lực của con ở nhà, giáo viên sẽ có cái nhìn toàn diện về học trò của mình.\n• Luận cứ 2: Điều này giúp thầy cô linh hoạt điều chỉnh phương pháp giảng dạy và đưa ra sự động viên tinh thần kịp thời khi học sinh gặp căng thẳng.",
                 "evidence_en": "• Evidence 1: When parents openly share details about their children's habits, interests, and emotional states at home, teachers obtain a complete picture of each pupil.\n• Evidence 2: This enables educators to adapt their teaching methods appropriately and provide timely emotional guidance when students face stress.",
                 "collocations": [
@@ -158802,7 +167698,7 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 03",
                 "point_vi": "Giao tiếp chặt chẽ xây dựng mối quan hệ đồng hành bền vững giữa gia đình và nhà trường.",
-                "point_en": "Finally, close communication fosters a strong partnership between families and educational institutions.",
+                "point_en": "Close communication fosters a strong partnership between families and educational institutions.",
                 "evidence_vi": "• Luận cứ 1: Sự trao đổi liên tục giúp cha mẹ và thầy cô thống nhất các quy tắc ứng xử và kỳ vọng chung trong việc giáo dục con trẻ.\n• Luận cứ 2: Khi cả hai phía cùng phối hợp nhịp nhàng, học sinh cảm nhận được sự quan tâm chu đáo, từ đó phát triển toàn diện cả về tri thức lẫn nhân cách.",
                 "evidence_en": "• Evidence 1: Regular exchanges help parents and educators establish common expectations and consistent rules for student behavior.\n• Evidence 2: When both parties collaborate closely, students feel supported and encouraged, which promotes their overall personal development.",
                 "collocations": [
@@ -158871,13 +167767,143 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "EFFECT 04",
+                "point_vi": "Sự phối hợp chặt chẽ giữa giáo viên và phụ huynh nâng cao rõ rệt động lực học tập và ý thức kỷ luật của học sinh.",
+                "point_en": "Strong teacher-parent communication significantly boosts students' academic motivation and classroom discipline.",
+                "point_collocations": [
+                  {
+                    "en": "academic motivation",
+                    "vi": "động lực học tập"
+                  },
+                  {
+                    "en": "classroom discipline",
+                    "vi": "kỷ luật lớp học"
+                  }
+                ],
+                "evidence_vi": "Khi học sinh cảm nhận được rằng gia đình và nhà trường cùng quan tâm, khích lệ nỗ lực của mình, các em sẽ có thái độ học tập nghiêm túc và tự tin hơn. Sự thống nhất trong cách khen thưởng và nhắc nhở cũng giúp duy trì hành vi tích cực cả ở trường lẫn ở nhà.",
+                "evidence_en": "When students recognize that both their families and educators value and encourage their efforts, they develop greater confidence and engagement in class. Consistent praise and guidance across home and school also reinforce positive behavior and responsibility.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "engagement in class",
+                      "vi": "sự tích cực tham gia trong lớp"
+                    },
+                    {
+                      "en": "encourage efforts",
+                      "vi": "khích lệ nỗ lực"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "consistent praise and guidance",
+                      "vi": "sự khen ngợi và định hướng nhất quán"
+                    },
+                    {
+                      "en": "reinforce positive behavior",
+                      "vi": "củng cố hành vi tích cực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "academic motivation",
+                    "vi": "động lực học tập"
+                  },
+                  {
+                    "en": "classroom discipline",
+                    "vi": "kỷ luật lớp học"
+                  },
+                  {
+                    "en": "engagement in class",
+                    "vi": "sự tích cực tham gia trong lớp"
+                  },
+                  {
+                    "en": "encourage efforts",
+                    "vi": "khích lệ nỗ lực"
+                  },
+                  {
+                    "en": "consistent praise and guidance",
+                    "vi": "sự khen ngợi và định hướng nhất quán"
+                  },
+                  {
+                    "en": "reinforce positive behavior",
+                    "vi": "củng cố hành vi tích cực"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 05",
+                "point_vi": "Việc trao đổi kịp thời tạo điều kiện phát hiện và ngăn chặn sớm các vấn đề tâm lý, bạo lực học đường hay tình trạng bỏ học.",
+                "point_en": "Timely communication enables the early detection and prevention of bullying, truancy, and mental health struggles.",
+                "point_collocations": [
+                  {
+                    "en": "early detection and prevention",
+                    "vi": "phát hiện và ngăn chặn sớm"
+                  },
+                  {
+                    "en": "truancy",
+                    "vi": "tình trạng trốn học"
+                  }
+                ],
+                "evidence_vi": "Những dấu hiệu bất thường như sụt giảm điểm số đột ngột, thu mình hay vắng mặt không lý do có thể nhanh chóng được chia sẻ giữa hai phía. Nhờ sự can thiệp sớm và đồng bộ này, người lớn có thể hỗ trợ tâm lý kịp thời trước khi vấn đề gây hậu quả nghiêm trọng.",
+                "evidence_en": "Warning signs such as sudden grade drops, social withdrawal, or unexplained absences can be flagged promptly between both parties. Through coordinated early intervention, adults can offer vital emotional support before minor concerns escalate into crises.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "warning signs",
+                      "vi": "dấu hiệu cảnh báo"
+                    },
+                    {
+                      "en": "unexplained absences",
+                      "vi": "vắng mặt không rõ lý do"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "coordinated early intervention",
+                      "vi": "sự can thiệp sớm đồng bộ"
+                    },
+                    {
+                      "en": "escalate into crises",
+                      "vi": "leo thang thành khủng hoảng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "early detection and prevention",
+                    "vi": "phát hiện và ngăn chặn sớm"
+                  },
+                  {
+                    "en": "truancy",
+                    "vi": "tình trạng trốn học"
+                  },
+                  {
+                    "en": "warning signs",
+                    "vi": "dấu hiệu cảnh báo"
+                  },
+                  {
+                    "en": "unexplained absences",
+                    "vi": "vắng mặt không rõ lý do"
+                  },
+                  {
+                    "en": "coordinated early intervention",
+                    "vi": "sự can thiệp sớm đồng bộ"
+                  },
+                  {
+                    "en": "escalate into crises",
+                    "vi": "leo thang thành khủng hoảng"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
                 "title": "SOLUTION 01",
                 "point_vi": "Nhà trường nên ứng dụng công nghệ hiện đại và các phần mềm liên lạc di động.",
-                "point_en": "The first solution is to utilize modern mobile applications and digital platforms.",
+                "point_en": "Schools should utilize modern mobile applications and digital platforms.",
                 "evidence_vi": "• Luận cứ 1: Cơ sở giáo dục có thể sử dụng các ứng dụng sổ liên lạc điện tử hoặc cổng thông tin trực tuyến để gửi thông báo học tập đến phụ huynh nhanh chóng.\n• Luận cứ 2: Phương pháp này giúp việc kết nối trở nên thuận tiện và tiết kiệm thời gian, đặc biệt là với những phụ huynh bận rộn với công việc.",
                 "evidence_en": "• Evidence 1: Schools should implement smart communication apps or online portals to send daily updates and announcements directly to parents.\n• Evidence 2: This makes communication much more convenient and time-saving, especially for busy working parents.",
                 "collocations": [
@@ -158946,7 +167972,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 02",
                 "point_vi": "Nhà trường cần đổi mới và nâng cao chất lượng các buổi họp phụ huynh - giáo viên.",
-                "point_en": "Second, schools should innovate and improve the quality of parent-teacher conferences.",
+                "point_en": "Schools should innovate and improve the quality of parent-teacher conferences.",
                 "evidence_vi": "• Luận cứ 1: Thay vì chỉ đọc bảng điểm chung, thầy cô nên dành thời gian gặp gỡ riêng từng phụ huynh để trao đổi sâu về điểm mạnh và điểm yếu của học sinh.\n• Luận cứ 2: Đồng thời, nhà trường cần tích cực lắng nghe các ý kiến đóng góp mang tính xây dựng từ phụ huynh để cùng cải thiện môi trường học tập.",
                 "evidence_en": "• Evidence 1: Instead of just reading general scorecards, teachers should schedule one-on-one meetings to discuss each student's specific strengths and weaknesses.\n• Evidence 2: Furthermore, schools should actively listen to parents' constructive feedback to improve the learning environment together.",
                 "collocations": [
@@ -159035,7 +168061,7 @@ const ESSAY_DATA = [
               {
                 "title": "SOLUTION 03",
                 "point_vi": "Tổ chức các hoạt động ngoại khóa kết nối giữa thầy cô, cha mẹ và học sinh.",
-                "point_en": "Finally, organizing extracurricular activities can bring teachers, parents, and students closer together.",
+                "point_en": "Organizing extracurricular activities can bring teachers, parents, and students closer together.",
                 "evidence_vi": "• Luận cứ 1: Nhà trường có thể tổ chức các ngày hội thể thao, hội thảo tư vấn phụ huynh hoặc các chương trình tình nguyện cuối tuần.\n• Luận cứ 2: Những sự kiện thân thiện này tạo cơ hội để thầy cô và cha mẹ thấu hiểu nhau hơn, từ đó bồi đắp lòng tin và sự tôn trọng lẫn nhau.",
                 "evidence_en": "• Evidence 1: Educational institutions can host sports festivals, weekend charity fairs, or parenting workshops.\n• Evidence 2: These informal events create friendly opportunities for teachers and parents to understand each other better, fostering lasting mutual trust.",
                 "collocations": [
@@ -159107,6 +168133,136 @@ const ESSAY_DATA = [
                       "vi": "làm sâu sắc thêm sự thấu hiểu lẫn nhau"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "SOLUTION 04",
+                "point_vi": "Nhà trường nên thiết kế các khung giờ và hình thức trao đổi linh hoạt nhằm tháo gỡ rào cản cho những phụ huynh bận rộn.",
+                "point_en": "Schools should offer flexible scheduling and diverse communication formats to accommodate busy working parents.",
+                "point_collocations": [
+                  {
+                    "en": "flexible scheduling",
+                    "vi": "lịch trình linh hoạt"
+                  },
+                  {
+                    "en": "accommodate busy parents",
+                    "vi": "đáp ứng điều kiện của phụ huynh bận rộn"
+                  }
+                ],
+                "evidence_vi": "Nhiều phụ huynh làm việc theo ca hoặc ở xa không thể tham dự các buổi họp truyền thống trong giờ hành chính. Việc kết hợp linh hoạt giữa họp trực tuyến ngắn gọn, trao đổi ngoài giờ và bản tin ngắn gọn dễ hiểu sẽ đảm bảo mọi gia đình đều được cập nhật đầy đủ.",
+                "evidence_en": "Many parents working shift jobs or living far away cannot attend traditional meetings during office hours. Combining brief video consultations, evening or weekend slots, and clear multilingual summaries ensures that every family remains fully informed.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "shift jobs",
+                      "vi": "công việc làm theo ca"
+                    },
+                    {
+                      "en": "during office hours",
+                      "vi": "trong giờ hành chính"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "video consultations",
+                      "vi": "buổi trao đổi trực tuyến qua video"
+                    },
+                    {
+                      "en": "remain fully informed",
+                      "vi": "luôn được cập nhật đầy đủ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "flexible scheduling",
+                    "vi": "lịch trình linh hoạt"
+                  },
+                  {
+                    "en": "accommodate busy parents",
+                    "vi": "đáp ứng điều kiện của phụ huynh bận rộn"
+                  },
+                  {
+                    "en": "shift jobs",
+                    "vi": "công việc làm theo ca"
+                  },
+                  {
+                    "en": "during office hours",
+                    "vi": "trong giờ hành chính"
+                  },
+                  {
+                    "en": "video consultations",
+                    "vi": "buổi trao đổi trực tuyến qua video"
+                  },
+                  {
+                    "en": "remain fully informed",
+                    "vi": "luôn được cập nhật đầy đủ"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 05",
+                "point_vi": "Cần đào tạo kỹ năng giao tiếp tích cực cho giáo viên và xây dựng văn hóa phản hồi hai chiều mang tính xây dựng.",
+                "point_en": "Schools should train teachers in constructive communication and foster a respectful, two-way feedback culture.",
+                "point_collocations": [
+                  {
+                    "en": "constructive communication",
+                    "vi": "giao tiếp mang tính xây dựng"
+                  },
+                  {
+                    "en": "two-way feedback culture",
+                    "vi": "văn hóa phản hồi hai chiều"
+                  }
+                ],
+                "evidence_vi": "Thay vì chỉ liên hệ với gia đình khi học sinh vi phạm kỷ luật hoặc đạt điểm kém, giáo viên nên chủ động ghi nhận và chia sẻ cả những tiến bộ nhỏ hằng tuần. Cách tiếp cận thiện chí và tôn trọng này giúp xóa bỏ tâm lý e ngại của phụ huynh, tạo nền tảng hợp tác bền vững.",
+                "evidence_en": "Instead of reaching out only when students misbehave or fail exams, educators should proactively celebrate weekly progress and strengths. This empathetic, respectful approach removes parental anxiety and establishes a lasting foundation of mutual trust.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "proactively celebrate progress",
+                      "vi": "chủ động ghi nhận sự tiến bộ"
+                    },
+                    {
+                      "en": "fail exams",
+                      "vi": "thi trượt / đạt điểm kém"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "empathetic approach",
+                      "vi": "cách tiếp cận thấu cảm"
+                    },
+                    {
+                      "en": "mutual trust",
+                      "vi": "lòng tin lẫn nhau"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "constructive communication",
+                    "vi": "giao tiếp mang tính xây dựng"
+                  },
+                  {
+                    "en": "two-way feedback culture",
+                    "vi": "văn hóa phản hồi hai chiều"
+                  },
+                  {
+                    "en": "proactively celebrate progress",
+                    "vi": "chủ động ghi nhận sự tiến bộ"
+                  },
+                  {
+                    "en": "fail exams",
+                    "vi": "thi trượt / đạt điểm kém"
+                  },
+                  {
+                    "en": "empathetic approach",
+                    "vi": "cách tiếp cận thấu cảm"
+                  },
+                  {
+                    "en": "mutual trust",
+                    "vi": "lòng tin lẫn nhau"
+                  }
                 ]
               }
             ]
@@ -160260,7 +169416,7 @@ const ESSAY_DATA = [
               {
                 "title": "POSITIVE EFFECT 01",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
-                "point_en": "First, working from home helps parents support their children's studies more effectively.",
+                "point_en": "Working from home helps parents support their children's studies more effectively.",
                 "evidence_vi": "Trên thực tế, cha mẹ có thể giúp con làm bài tập về nhà bất cứ khi nào con cần hỗ trợ. Thêm vào đó, cha mẹ có thể theo dõi tiến độ học tập của con thường xuyên hơn. Kết quả là, cha mẹ có thể dễ dàng phát hiện sớm những khó khăn của con ở trường và giúp con vượt qua các thử thách học tập.",
                 "evidence_en": "In fact, parents can help their children with homework whenever they need support. In addition, they can monitor their learning progress more regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.",
                 "collocations": [
@@ -160339,7 +169495,7 @@ const ESSAY_DATA = [
               {
                 "title": "POSITIVE EFFECT 02",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
-                "point_en": "Second, working from home allows parents to understand their children's habits and behavior better.",
+                "point_en": "Working from home allows parents to understand their children's habits and behavior better.",
                 "evidence_vi": "Lý do chính là cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập và sinh hoạt tại nhà mỗi ngày. Do đó, cha mẹ có thể nhận thấy kịp thời những thay đổi trong hành vi và tâm trạng của con. Vì vậy, họ có thể đưa ra lời khuyên phù hợp và sự hỗ trợ đúng đắn để định hướng cho con trong cuộc sống hằng ngày.",
                 "evidence_en": "The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly. Therefore, they can give suitable advice and appropriate support to guide their children in daily life.",
                 "collocations": [
@@ -160418,7 +169574,7 @@ const ESSAY_DATA = [
               {
                 "title": "POSITIVE EFFECT 03",
                 "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
-                "point_en": "Finally, working from home makes children feel safer and more cared for.",
+                "point_en": "Working from home makes children feel safer and more cared for.",
                 "evidence_vi": "Điều này là do trẻ biết rằng cha mẹ luôn ở gần bên, tạo ra cảm giác an tâm mạnh mẽ về mặt cảm xúc. Hơn nữa, các bạn trẻ có thể dễ dàng chia sẻ những khó khăn và lo lắng với cha mẹ bất cứ lúc nào. Vì lý do này, các tương tác hằng ngày giúp các thành viên trong gia đình hiểu nhau hơn và củng cố tình cảm gia đình khăng khít.",
                 "evidence_en": "This is because children know that their parents are always nearby, so this creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.",
                 "collocations": [
@@ -160489,6 +169645,100 @@ const ESSAY_DATA = [
                     }
                   ]
                 ]
+              },
+              {
+                "title": "POSITIVE EFFECT 04",
+                "point_vi": "Làm việc tại nhà giúp cha mẹ tiết kiệm thời gian đi lại để có thêm bữa ăn và hoạt động chung với con.",
+                "point_en": "Working from home saves commuting time so parents can share more meals and daily activities with their children.",
+                "point_collocations": [
+                  {
+                    "en": "save commuting time",
+                    "vi": "tiết kiệm thời gian đi lại"
+                  },
+                  {
+                    "en": "share meals",
+                    "vi": "ăn cơm cùng nhau"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ có thể đưa đón con đi học, ăn trưa cùng con và trò chuyện nhiều hơn mỗi ngày.",
+                "evidence_en": "Parents can pick their children up from school, have lunch together, and talk with them more every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "pick up from school",
+                      "vi": "đón con ở trường"
+                    },
+                    {
+                      "en": "have lunch together",
+                      "vi": "ăn trưa cùng nhau"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "save commuting time",
+                    "vi": "tiết kiệm thời gian đi lại"
+                  },
+                  {
+                    "en": "share meals",
+                    "vi": "ăn cơm cùng nhau"
+                  },
+                  {
+                    "en": "pick up from school",
+                    "vi": "đón con ở trường"
+                  },
+                  {
+                    "en": "have lunch together",
+                    "vi": "ăn trưa cùng nhau"
+                  }
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 05",
+                "point_vi": "Trẻ em có thể học hỏi tinh thần trách nhiệm khi quan sát cha mẹ làm việc chăm chỉ tại nhà.",
+                "point_en": "Children can learn responsibility by watching their parents work hard at home.",
+                "point_collocations": [
+                  {
+                    "en": "learn responsibility",
+                    "vi": "học tinh thần trách nhiệm"
+                  },
+                  {
+                    "en": "work hard",
+                    "vi": "làm việc chăm chỉ"
+                  }
+                ],
+                "evidence_vi": "Khi thấy cha mẹ sắp xếp thời gian hợp lý giữa công việc và gia đình, trẻ sẽ biết tôn trọng công việc của cha mẹ hơn.",
+                "evidence_en": "When children see parents manage their time well between work and family, they learn to respect their parents' efforts more.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "manage time well",
+                      "vi": "quản lý thời gian tốt"
+                    },
+                    {
+                      "en": "respect efforts",
+                      "vi": "tôn trọng nỗ lực"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "learn responsibility",
+                    "vi": "học tinh thần trách nhiệm"
+                  },
+                  {
+                    "en": "work hard",
+                    "vi": "làm việc chăm chỉ"
+                  },
+                  {
+                    "en": "manage time well",
+                    "vi": "quản lý thời gian tốt"
+                  },
+                  {
+                    "en": "respect efforts",
+                    "vi": "tôn trọng nỗ lực"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -160498,7 +169748,7 @@ const ESSAY_DATA = [
               {
                 "title": "POSITIVE EFFECT 01",
                 "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả và kịp thời hơn.",
-                "point_en": "First and foremost, working from home enables parents to support their children's education much more effectively.",
+                "point_en": "Working from home enables parents to support their children's education much more effectively.",
                 "evidence_vi": "• Luận cứ 1: Cha mẹ có thể ở cạnh để hướng dẫn con làm các bài tập khó và giải đáp thắc mắc ngay khi con cần.\n• Luận cứ 2: Đồng thời, việc theo dõi thói quen học tập hằng ngày giúp phụ huynh sớm phát hiện các môn học con còn yếu để cùng con khắc phục.",
                 "evidence_en": "• Evidence 1: Parents are available at home to guide children through difficult assignments and answer academic questions immediately.\n• Evidence 2: At the same time, monitoring daily study routines allows parents to identify subjects where their children struggle early on.",
                 "collocations": [
@@ -160575,7 +169825,7 @@ const ESSAY_DATA = [
               {
                 "title": "POSITIVE EFFECT 02",
                 "point_vi": "Làm việc tại nhà tạo điều kiện để cha mẹ thấu hiểu sâu sắc thói quen và tính cách của con.",
-                "point_en": "Furthermore, telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
+                "point_en": "Telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
                 "evidence_vi": "• Luận cứ 1: Nhờ dành nhiều thời gian ở nhà, cha mẹ có thể trực tiếp quan sát cách con tự học, vui chơi và tương tác với bạn bè.\n• Luận cứ 2: Khi nhận thấy những thay đổi bất thường về tâm lý hoặc hành vi, phụ huynh có thể đưa ra những lời khuyên tích cực và định hướng kịp thời.",
                 "evidence_en": "• Evidence 1: By spending more time at home, parents can directly observe how their children study, play, and interact with peers.\n• Evidence 2: When noticing unusual emotional or behavioral shifts, caregivers can provide timely advice and positive guidance.",
                 "collocations": [
@@ -160652,7 +169902,7 @@ const ESSAY_DATA = [
               {
                 "title": "POSITIVE EFFECT 03",
                 "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và được yêu thương.",
-                "point_en": "Lastly, parents' presence at home fosters a strong sense of emotional security and comfort for children.",
+                "point_en": "Parents' presence at home fosters a strong sense of emotional security and comfort for children.",
                 "evidence_vi": "• Luận cứ 1: Con trẻ luôn cảm thấy an tâm vì biết rằng cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi các em cần sự giúp đỡ.\n• Luận cứ 2: Sự gần gũi này khuyến khích trẻ thoải mái tâm sự những khó khăn cá nhân, từ đó xây dựng sự tự tin và củng cố tình cảm gia đình.",
                 "evidence_en": "• Evidence 1: Youngsters feel secure knowing that their parents are accessible and ready to listen whenever they need assistance.\n• Evidence 2: This close connection encourages kids to open up about personal challenges, which enhances self-confidence and strengthens family bonds.",
                 "collocations": [
@@ -160716,6 +169966,136 @@ const ESSAY_DATA = [
                       "vi": "sự gắn kết, tình cảm khăng khít"
                     }
                   ]
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 04",
+                "point_vi": "Làm việc từ xa loại bỏ thời gian di chuyển hằng ngày, tạo điều kiện cho gia đình có thêm những bữa cơm và khoảnh khắc gắn kết.",
+                "point_en": "Remote working eliminates daily commutes, enabling families to share more meals and meaningful everyday moments.",
+                "point_collocations": [
+                  {
+                    "en": "eliminate daily commutes",
+                    "vi": "loại bỏ việc đi lại hằng ngày"
+                  },
+                  {
+                    "en": "meaningful moments",
+                    "vi": "những khoảnh khắc ý nghĩa"
+                  }
+                ],
+                "evidence_vi": "Thay vì mất hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh có thể tự tay chuẩn bị bữa sáng, đưa đón con đi học và trò chuyện cùng con. Những tương tác đều đặn này dần vun đắp sự gần gũi và ấm áp trong mối quan hệ cha mẹ và con cái.",
+                "evidence_en": "Instead of spending hours stuck in rush-hour traffic, parents can prepare breakfast, accompany their children to school, and enjoy relaxed conversations together. These consistent daily interactions gradually nurture warmth and closeness within the parent-child relationship.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "rush-hour traffic",
+                      "vi": "giao thông giờ cao điểm"
+                    },
+                    {
+                      "en": "relaxed conversations",
+                      "vi": "những cuộc trò chuyện thoải mái"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "consistent interactions",
+                      "vi": "sự tương tác đều đặn"
+                    },
+                    {
+                      "en": "nurture warmth and closeness",
+                      "vi": "vun đắp sự ấm áp và gần gũi"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "eliminate daily commutes",
+                    "vi": "loại bỏ việc đi lại hằng ngày"
+                  },
+                  {
+                    "en": "meaningful moments",
+                    "vi": "những khoảnh khắc ý nghĩa"
+                  },
+                  {
+                    "en": "rush-hour traffic",
+                    "vi": "giao thông giờ cao điểm"
+                  },
+                  {
+                    "en": "relaxed conversations",
+                    "vi": "những cuộc trò chuyện thoải mái"
+                  },
+                  {
+                    "en": "consistent interactions",
+                    "vi": "sự tương tác đều đặn"
+                  },
+                  {
+                    "en": "nurture warmth and closeness",
+                    "vi": "vun đắp sự ấm áp và gần gũi"
+                  }
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 05",
+                "point_vi": "Việc quan sát cha mẹ làm việc nghiêm túc tại nhà giúp trẻ sớm hình thành tính kỷ luật và sự thấu hiểu công việc của gia đình.",
+                "point_en": "Observing parents work diligently at home helps children develop discipline and deeper appreciation for their parents' efforts.",
+                "point_collocations": [
+                  {
+                    "en": "work diligently",
+                    "vi": "làm việc chăm chỉ / nghiêm túc"
+                  },
+                  {
+                    "en": "deeper appreciation",
+                    "vi": "sự trân trọng sâu sắc hơn"
+                  }
+                ],
+                "evidence_vi": "Trẻ em tận mắt thấy cách cha mẹ tập trung giải quyết công việc, quản lý thời gian và hoàn thành trách nhiệm mỗi ngày. Qua tấm gương trực quan đó, các em không chỉ tôn trọng nỗ lực mưu sinh của cha mẹ hơn mà còn sớm học được kỹ năng tự giác trong học tập.",
+                "evidence_en": "Children witness firsthand how their parents stay focused, organize their schedules, and fulfill professional commitments each day. Through this tangible role modeling, youngsters not only gain greater respect for their parents' hard work but also develop stronger self-discipline in their own studies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "witness firsthand",
+                      "vi": "tận mắt chứng kiến"
+                    },
+                    {
+                      "en": "fulfill commitments",
+                      "vi": "hoàn thành trách nhiệm / cam kết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "role modeling",
+                      "vi": "làm gương"
+                    },
+                    {
+                      "en": "self-discipline",
+                      "vi": "tính tự giác / kỷ luật bản thân"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "work diligently",
+                    "vi": "làm việc chăm chỉ / nghiêm túc"
+                  },
+                  {
+                    "en": "deeper appreciation",
+                    "vi": "sự trân trọng sâu sắc hơn"
+                  },
+                  {
+                    "en": "witness firsthand",
+                    "vi": "tận mắt chứng kiến"
+                  },
+                  {
+                    "en": "fulfill commitments",
+                    "vi": "hoàn thành trách nhiệm / cam kết"
+                  },
+                  {
+                    "en": "role modeling",
+                    "vi": "làm gương"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính tự giác / kỷ luật bản thân"
+                  }
                 ]
               }
             ]
@@ -161490,7 +170870,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
-                    "point_en": "First, working from home helps parents support their children's studies more effectively.",
+                    "point_en": "Working from home helps parents support their children's studies more effectively.",
                     "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn. Nhờ đó, họ có thể phát hiện sớm những khó khăn của con ở trường để giúp con tiến bộ.",
                     "evidence_en": "Parents can help their children with homework when needed and monitor their studies more regularly. As a result, they can quickly notice their children's difficulties at school to help them improve.",
                     "collocations": [
@@ -161571,7 +170951,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 02",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
-                    "point_en": "Second, working from home allows parents to understand their children's habits and behavior better.",
+                    "point_en": "Working from home allows parents to understand their children's habits and behavior better.",
                     "evidence_vi": "Cha mẹ có thể quan sát cách con học tập và sinh hoạt ở nhà mỗi ngày. Khi nhận ra những thay đổi trong hành vi của con, họ có thể đưa ra lời khuyên và hỗ trợ phù hợp.",
                     "evidence_en": "Parents can observe how their children study and live at home every day. When they notice changes in behavior, they can offer useful advice and suitable support.",
                     "collocations": [
@@ -161648,7 +171028,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 03",
                     "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
-                    "point_en": "Finally, working from home makes children feel safer and more cared for.",
+                    "point_en": "Working from home makes children feel safer and more cared for.",
                     "evidence_vi": "Trẻ biết rằng cha mẹ luôn ở gần khi mình cần giúp đỡ, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề của mình. Điều này giúp trẻ cảm thấy tự tin và yên tâm hơn.",
                     "evidence_en": "Children know that their parents are always nearby when they need help, so they can easily share their worries or problems. This helps children feel more confident and secure.",
                     "collocations": [
@@ -161717,6 +171097,100 @@ const ESSAY_DATA = [
                         }
                       ]
                     ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 04",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ tiết kiệm thời gian đi lại để có thêm bữa ăn và hoạt động chung với con.",
+                    "point_en": "Working from home saves commuting time so parents can share more meals and daily activities with their children.",
+                    "point_collocations": [
+                      {
+                        "en": "save commuting time",
+                        "vi": "tiết kiệm thời gian đi lại"
+                      },
+                      {
+                        "en": "share meals",
+                        "vi": "ăn cơm cùng nhau"
+                      }
+                    ],
+                    "evidence_vi": "Cha mẹ có thể đưa đón con đi học, ăn trưa cùng con và trò chuyện nhiều hơn mỗi ngày.",
+                    "evidence_en": "Parents can pick their children up from school, have lunch together, and talk with them more every day.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "pick up from school",
+                          "vi": "đón con ở trường"
+                        },
+                        {
+                          "en": "have lunch together",
+                          "vi": "ăn trưa cùng nhau"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "save commuting time",
+                        "vi": "tiết kiệm thời gian đi lại"
+                      },
+                      {
+                        "en": "share meals",
+                        "vi": "ăn cơm cùng nhau"
+                      },
+                      {
+                        "en": "pick up from school",
+                        "vi": "đón con ở trường"
+                      },
+                      {
+                        "en": "have lunch together",
+                        "vi": "ăn trưa cùng nhau"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 05",
+                    "point_vi": "Trẻ em có thể học hỏi tinh thần trách nhiệm khi quan sát cha mẹ làm việc chăm chỉ tại nhà.",
+                    "point_en": "Children can learn responsibility by watching their parents work hard at home.",
+                    "point_collocations": [
+                      {
+                        "en": "learn responsibility",
+                        "vi": "học tinh thần trách nhiệm"
+                      },
+                      {
+                        "en": "work hard",
+                        "vi": "làm việc chăm chỉ"
+                      }
+                    ],
+                    "evidence_vi": "Khi thấy cha mẹ sắp xếp thời gian hợp lý giữa công việc và gia đình, trẻ sẽ biết tôn trọng công việc của cha mẹ hơn.",
+                    "evidence_en": "When children see parents manage their time well between work and family, they learn to respect their parents' efforts more.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "manage time well",
+                          "vi": "quản lý thời gian tốt"
+                        },
+                        {
+                          "en": "respect efforts",
+                          "vi": "tôn trọng nỗ lực"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "learn responsibility",
+                        "vi": "học tinh thần trách nhiệm"
+                      },
+                      {
+                        "en": "work hard",
+                        "vi": "làm việc chăm chỉ"
+                      },
+                      {
+                        "en": "manage time well",
+                        "vi": "quản lý thời gian tốt"
+                      },
+                      {
+                        "en": "respect efforts",
+                        "vi": "tôn trọng nỗ lực"
+                      }
+                    ]
                   }
                 ]
               },
@@ -161725,7 +171199,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả và kịp thời hơn.",
-                    "point_en": "First and foremost, working from home enables parents to support their children's education much more effectively.",
+                    "point_en": "Working from home enables parents to support their children's education much more effectively.",
                     "evidence_vi": "• Luận cứ 1: Cha mẹ có thể ở cạnh để hướng dẫn con làm các bài tập khó và giải đáp thắc mắc ngay khi con cần.\n• Luận cứ 2: Đồng thời, việc theo dõi thói quen học tập hằng ngày giúp phụ huynh sớm phát hiện các môn học con còn yếu để cùng con khắc phục.",
                     "evidence_en": "• Evidence 1: Parents are available at home to guide children through difficult assignments and answer academic questions immediately.\n• Evidence 2: At the same time, monitoring daily study routines allows parents to identify subjects where their children struggle early on.",
                     "collocations": [
@@ -161802,7 +171276,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 02",
                     "point_vi": "Làm việc tại nhà tạo điều kiện để cha mẹ thấu hiểu sâu sắc thói quen và tính cách của con.",
-                    "point_en": "Furthermore, telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
+                    "point_en": "Telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
                     "evidence_vi": "• Luận cứ 1: Nhờ dành nhiều thời gian ở nhà, cha mẹ có thể trực tiếp quan sát cách con tự học, vui chơi và tương tác với bạn bè.\n• Luận cứ 2: Khi nhận thấy những thay đổi bất thường về tâm lý hoặc hành vi, phụ huynh có thể đưa ra những lời khuyên tích cực và định hướng kịp thời.",
                     "evidence_en": "• Evidence 1: By spending more time at home, parents can directly observe how their children study, play, and interact with peers.\n• Evidence 2: When noticing unusual emotional or behavioral shifts, caregivers can provide timely advice and positive guidance.",
                     "collocations": [
@@ -161879,7 +171353,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 03",
                     "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và được yêu thương.",
-                    "point_en": "Lastly, parents' presence at home fosters a strong sense of emotional security and comfort for children.",
+                    "point_en": "Parents' presence at home fosters a strong sense of emotional security and comfort for children.",
                     "evidence_vi": "• Luận cứ 1: Con trẻ luôn cảm thấy an tâm vì biết rằng cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi các em cần sự giúp đỡ.\n• Luận cứ 2: Sự gần gũi này khuyến khích trẻ thoải mái tâm sự những khó khăn cá nhân, từ đó xây dựng sự tự tin và củng cố tình cảm gia đình.",
                     "evidence_en": "• Evidence 1: Youngsters feel secure knowing that their parents are accessible and ready to listen whenever they need assistance.\n• Evidence 2: This close connection encourages kids to open up about personal challenges, which enhances self-confidence and strengthens family bonds.",
                     "collocations": [
@@ -161943,6 +171417,136 @@ const ESSAY_DATA = [
                           "vi": "sự gắn kết, tình cảm khăng khít"
                         }
                       ]
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 04",
+                    "point_vi": "Làm việc từ xa loại bỏ thời gian di chuyển hằng ngày, tạo điều kiện cho gia đình có thêm những bữa cơm và khoảnh khắc gắn kết.",
+                    "point_en": "Remote working eliminates daily commutes, enabling families to share more meals and meaningful everyday moments.",
+                    "point_collocations": [
+                      {
+                        "en": "eliminate daily commutes",
+                        "vi": "loại bỏ việc đi lại hằng ngày"
+                      },
+                      {
+                        "en": "meaningful moments",
+                        "vi": "những khoảnh khắc ý nghĩa"
+                      }
+                    ],
+                    "evidence_vi": "Thay vì mất hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh có thể tự tay chuẩn bị bữa sáng, đưa đón con đi học và trò chuyện cùng con. Những tương tác đều đặn này dần vun đắp sự gần gũi và ấm áp trong mối quan hệ cha mẹ và con cái.",
+                    "evidence_en": "Instead of spending hours stuck in rush-hour traffic, parents can prepare breakfast, accompany their children to school, and enjoy relaxed conversations together. These consistent daily interactions gradually nurture warmth and closeness within the parent-child relationship.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "rush-hour traffic",
+                          "vi": "giao thông giờ cao điểm"
+                        },
+                        {
+                          "en": "relaxed conversations",
+                          "vi": "những cuộc trò chuyện thoải mái"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "consistent interactions",
+                          "vi": "sự tương tác đều đặn"
+                        },
+                        {
+                          "en": "nurture warmth and closeness",
+                          "vi": "vun đắp sự ấm áp và gần gũi"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "eliminate daily commutes",
+                        "vi": "loại bỏ việc đi lại hằng ngày"
+                      },
+                      {
+                        "en": "meaningful moments",
+                        "vi": "những khoảnh khắc ý nghĩa"
+                      },
+                      {
+                        "en": "rush-hour traffic",
+                        "vi": "giao thông giờ cao điểm"
+                      },
+                      {
+                        "en": "relaxed conversations",
+                        "vi": "những cuộc trò chuyện thoải mái"
+                      },
+                      {
+                        "en": "consistent interactions",
+                        "vi": "sự tương tác đều đặn"
+                      },
+                      {
+                        "en": "nurture warmth and closeness",
+                        "vi": "vun đắp sự ấm áp và gần gũi"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 05",
+                    "point_vi": "Việc quan sát cha mẹ làm việc nghiêm túc tại nhà giúp trẻ sớm hình thành tính kỷ luật và sự thấu hiểu công việc của gia đình.",
+                    "point_en": "Observing parents work diligently at home helps children develop discipline and deeper appreciation for their parents' efforts.",
+                    "point_collocations": [
+                      {
+                        "en": "work diligently",
+                        "vi": "làm việc chăm chỉ / nghiêm túc"
+                      },
+                      {
+                        "en": "deeper appreciation",
+                        "vi": "sự trân trọng sâu sắc hơn"
+                      }
+                    ],
+                    "evidence_vi": "Trẻ em tận mắt thấy cách cha mẹ tập trung giải quyết công việc, quản lý thời gian và hoàn thành trách nhiệm mỗi ngày. Qua tấm gương trực quan đó, các em không chỉ tôn trọng nỗ lực mưu sinh của cha mẹ hơn mà còn sớm học được kỹ năng tự giác trong học tập.",
+                    "evidence_en": "Children witness firsthand how their parents stay focused, organize their schedules, and fulfill professional commitments each day. Through this tangible role modeling, youngsters not only gain greater respect for their parents' hard work but also develop stronger self-discipline in their own studies.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "witness firsthand",
+                          "vi": "tận mắt chứng kiến"
+                        },
+                        {
+                          "en": "fulfill commitments",
+                          "vi": "hoàn thành trách nhiệm / cam kết"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "role modeling",
+                          "vi": "làm gương"
+                        },
+                        {
+                          "en": "self-discipline",
+                          "vi": "tính tự giác / kỷ luật bản thân"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "work diligently",
+                        "vi": "làm việc chăm chỉ / nghiêm túc"
+                      },
+                      {
+                        "en": "deeper appreciation",
+                        "vi": "sự trân trọng sâu sắc hơn"
+                      },
+                      {
+                        "en": "witness firsthand",
+                        "vi": "tận mắt chứng kiến"
+                      },
+                      {
+                        "en": "fulfill commitments",
+                        "vi": "hoàn thành trách nhiệm / cam kết"
+                      },
+                      {
+                        "en": "role modeling",
+                        "vi": "làm gương"
+                      },
+                      {
+                        "en": "self-discipline",
+                        "vi": "tính tự giác / kỷ luật bản thân"
+                      }
                     ]
                   }
                 ]
@@ -162453,7 +172057,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà có thể khiến cha mẹ ít chú ý đến con cái hơn.",
-                    "point_en": "First, working from home can reduce parents' attention toward their children.",
+                    "point_en": "Working from home can reduce parents' attention toward their children.",
                     "evidence_vi": "Cha mẹ phải dành nhiều thời gian trước máy tính và tham gia các cuộc họp trực tuyến. Họ có thể không chú ý khi con muốn nói chuyện, khiến trẻ cảm thấy cha mẹ không quan tâm đến mình.",
                     "evidence_en": "Parents have to spend a lot of time on computers and in online meetings. They may not pay attention when their children want to talk, making kids feel neglected.",
                     "collocations": [
@@ -162526,7 +172130,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 02",
                     "point_vi": "Làm việc tại nhà có thể khiến trẻ khó hiểu ranh giới giữa công việc và gia đình.",
-                    "point_en": "Second, working from home can make it hard for children to understand work-family boundaries.",
+                    "point_en": "Working from home can make it hard for children to understand work-family boundaries.",
                     "evidence_vi": "Trẻ nhỏ thường nghĩ rằng cha mẹ luôn sẵn sàng chơi hoặc nói chuyện khi ở nhà. Các em có thể làm phiền cha mẹ trong giờ làm việc, điều này có thể gây ra hiểu lầm và tranh cãi.",
                     "evidence_en": "Young children often think parents are always available to play or talk. Kids might disturb their parents during working hours, leading to misunderstandings and arguments.",
                     "collocations": [
@@ -162595,7 +172199,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 03",
                     "point_vi": "Làm việc tại nhà có thể làm tăng áp lực và mệt mỏi cho cha mẹ.",
-                    "point_en": "Finally, working from home can increase stress and pressure for parents.",
+                    "point_en": "Working from home can increase stress and pressure for parents.",
                     "evidence_vi": "Phụ huynh vừa phải hoàn thành công việc đúng thời hạn, vừa phải chăm sóc con cái. Áp lực nặng nề này có thể khiến họ dễ mệt mỏi và cáu gắt với con.",
                     "evidence_en": "Parents must finish job tasks on time while also taking care of their children. This heavy pressure can make them exhausted and easily lose their temper with their kids.",
                     "collocations": [
@@ -162660,6 +172264,100 @@ const ESSAY_DATA = [
                         }
                       ]
                     ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 04",
+                    "point_vi": "Làm việc tại nhà dễ gây ra tranh cãi về tiếng ồn và không gian sinh hoạt chung.",
+                    "point_en": "Working from home can easily cause arguments over noise and shared living space.",
+                    "point_collocations": [
+                      {
+                        "en": "cause arguments",
+                        "vi": "gây ra tranh cãi"
+                      },
+                      {
+                        "en": "shared living space",
+                        "vi": "không gian sống chung"
+                      }
+                    ],
+                    "evidence_vi": "Khi cha mẹ cần sự yên tĩnh cho các cuộc họp trực tuyến, trẻ nhỏ đang chơi đùa có thể bị la mắng và cảm thấy buồn bã.",
+                    "evidence_en": "When parents need quiet for online meetings, playing children may get scolded and feel upset.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "online meetings",
+                          "vi": "cuộc họp trực tuyến"
+                        },
+                        {
+                          "en": "feel upset",
+                          "vi": "cảm thấy buồn bã"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "cause arguments",
+                        "vi": "gây ra tranh cãi"
+                      },
+                      {
+                        "en": "shared living space",
+                        "vi": "không gian sống chung"
+                      },
+                      {
+                        "en": "online meetings",
+                        "vi": "cuộc họp trực tuyến"
+                      },
+                      {
+                        "en": "feel upset",
+                        "vi": "cảm thấy buồn bã"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 05",
+                    "point_vi": "Giờ làm việc kéo dài tại nhà có thể làm giảm thời gian vui chơi thực sự giữa cha mẹ và con cái.",
+                    "point_en": "Longer working hours at home can reduce genuine playtime between parents and children.",
+                    "point_collocations": [
+                      {
+                        "en": "longer working hours",
+                        "vi": "giờ làm việc kéo dài hơn"
+                      },
+                      {
+                        "en": "genuine playtime",
+                        "vi": "thời gian vui chơi thực sự"
+                      }
+                    ],
+                    "evidence_vi": "Nhiều phụ huynh vẫn kiểm tra email công việc vào buổi tối hoặc cuối tuần, nên trẻ cảm thấy bị bỏ rơi dù cha mẹ đang ở nhà.",
+                    "evidence_en": "Many parents still check work emails in the evening or on weekends, so children feel ignored even when parents are home.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "check work emails",
+                          "vi": "kiểm tra email công việc"
+                        },
+                        {
+                          "en": "feel ignored",
+                          "vi": "cảm thấy bị bỏ rơi"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "longer working hours",
+                        "vi": "giờ làm việc kéo dài hơn"
+                      },
+                      {
+                        "en": "genuine playtime",
+                        "vi": "thời gian vui chơi thực sự"
+                      },
+                      {
+                        "en": "check work emails",
+                        "vi": "kiểm tra email công việc"
+                      },
+                      {
+                        "en": "feel ignored",
+                        "vi": "cảm thấy bị bỏ rơi"
+                      }
+                    ]
                   }
                 ]
               },
@@ -162668,7 +172366,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 01",
                     "point_vi": "Làm việc tại nhà có thể làm giảm chất lượng tương tác và sự chú ý của cha mẹ dành cho con cái.",
-                    "point_en": "First and foremost, telecommuting often reduces the quality of attention that parents devote to their children.",
+                    "point_en": "Telecommuting often reduces the quality of attention that parents devote to their children.",
                     "evidence_vi": "• Luận cứ 1: Phụ huynh phải liên tục dán mắt vào màn hình máy tính để xử lý công việc và tham gia các cuộc họp trực tuyến kéo dài.\n• Luận cứ 2: Do đó, họ thường phớt lờ các yêu cầu trò chuyện của con, khiến trẻ nảy sinh tâm lý bị bỏ rơi và tổn thương tình cảm.",
                     "evidence_en": "• Evidence 1: Parents must spend long hours glued to computer screens, replying to emails and attending virtual conferences.\n• Evidence 2: Consequently, they frequently dismiss their children's attempts to communicate, making kids feel ignored and emotionally neglected.",
                     "collocations": [
@@ -162741,7 +172439,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 02",
                     "point_vi": "Làm việc từ xa làm xóa nhòa ranh giới rõ ràng giữa giờ làm việc chuyên môn và không gian gia đình.",
-                    "point_en": "Furthermore, working from home blurs the boundary between professional obligations and personal family time.",
+                    "point_en": "Working from home blurs the boundary between professional obligations and personal family time.",
                     "evidence_vi": "• Luận cứ 1: Trẻ nhỏ khó phân biệt được khi nào cha mẹ đang bận rộn vì nghĩ rằng khi ở nhà là cha mẹ luôn sẵn sàng chơi cùng mình.\n• Luận cứ 2: Việc trẻ vô tình làm gián đoạn các cuộc gọi quan trọng dễ dẫn đến những phản ứng bực dọc từ cha mẹ và gây căng thẳng trong gia đình.",
                     "evidence_en": "• Evidence 1: Young children struggle to realize that parents are working, assuming that being at home means they are free to play.\n• Evidence 2: When kids inadvertently interrupt urgent tasks, it causes parental irritation, leading to misunderstandings and unnecessary domestic friction.",
                     "collocations": [
@@ -162810,7 +172508,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 03",
                     "point_vi": "Việc vừa làm việc vừa chăm sóc con tại nhà gia tăng đáng kể áp lực tâm lý cho các bậc cha mẹ.",
-                    "point_en": "Lastly, managing both professional deadlines and childcare duties substantially increases parental stress levels.",
+                    "point_en": "Managing both professional deadlines and childcare duties substantially increases parental stress levels.",
                     "evidence_vi": "• Luận cứ 1: Phụ huynh phải chịu áp lực kép khi vừa phải đáp ứng yêu cầu công việc đúng hạn, vừa phải chuẩn bị bữa ăn và trông nom con nhỏ.\n• Luận cứ 2: Tình trạng kiệt sức cả về thể chất lẫn tinh thần này khiến cha mẹ trở nên thiếu kiên nhẫn và dễ nổi cáu vô cớ với con cái.",
                     "evidence_en": "• Evidence 1: Caregivers face dual pressure to meet strict workplace deadlines while simultaneously preparing meals and supervising children.\n• Evidence 2: This ongoing exhaustion reduces parents' patience, making them prone to irritability and harsh reactions toward their children.",
                     "collocations": [
@@ -162874,6 +172572,136 @@ const ESSAY_DATA = [
                           "vi": "mức độ căng thẳng của cha mẹ"
                         }
                       ]
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 04",
+                    "point_vi": "Sự hạn chế về không gian sống và tiếng ồn sinh hoạt thường xuyên làm nảy sinh mâu thuẫn giữa cha mẹ và con cái.",
+                    "point_en": "Limited living space and everyday household noise frequently spark friction between remote-working parents and their children.",
+                    "point_collocations": [
+                      {
+                        "en": "spark friction",
+                        "vi": "làm nảy sinh mâu thuẫn"
+                      },
+                      {
+                        "en": "household noise",
+                        "vi": "tiếng ồn sinh hoạt"
+                      }
+                    ],
+                    "evidence_vi": "Trong những căn hộ nhỏ không có phòng làm việc riêng, tiếng nô đùa tự nhiên của trẻ có thể làm gián đoạn các cuộc họp quan trọng của cha mẹ. Sự bực bội tức thời có thể khiến phụ huynh lớn tiếng, làm tổn thương cảm xúc và tạo khoảng cách với con.",
+                    "evidence_en": "In compact homes lacking a separate office, children's natural playfulness can easily disrupt important online meetings. Momentary frustration may cause parents to react impatiently, hurting children's feelings and creating emotional distance.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "compact homes",
+                          "vi": "ngôi nhà chật hẹp"
+                        },
+                        {
+                          "en": "disrupt online meetings",
+                          "vi": "làm gián đoạn cuộc họp trực tuyến"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "react impatiently",
+                          "vi": "phản ứng mất kiên nhẫn"
+                        },
+                        {
+                          "en": "emotional distance",
+                          "vi": "khoảng cách tình cảm"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "spark friction",
+                        "vi": "làm nảy sinh mâu thuẫn"
+                      },
+                      {
+                        "en": "household noise",
+                        "vi": "tiếng ồn sinh hoạt"
+                      },
+                      {
+                        "en": "compact homes",
+                        "vi": "ngôi nhà chật hẹp"
+                      },
+                      {
+                        "en": "disrupt online meetings",
+                        "vi": "làm gián đoạn cuộc họp trực tuyến"
+                      },
+                      {
+                        "en": "react impatiently",
+                        "vi": "phản ứng mất kiên nhẫn"
+                      },
+                      {
+                        "en": "emotional distance",
+                        "vi": "khoảng cách tình cảm"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 05",
+                    "point_vi": "Xu hướng làm việc quá giờ khi ở nhà làm suy giảm thời gian thư giãn chất lượng dành cho con cái.",
+                    "point_en": "The tendency to work extended hours at home diminishes genuine quality time spent with children.",
+                    "point_collocations": [
+                      {
+                        "en": "extended hours",
+                        "vi": "giờ làm việc kéo dài"
+                      },
+                      {
+                        "en": "quality time",
+                        "vi": "thời gian chất lượng"
+                      }
+                    ],
+                    "evidence_vi": "Vì máy tính và tin nhắn công việc luôn ở ngay bên cạnh, nhiều cha mẹ khó lòng ngắt kết nối hoàn toàn vào buổi tối hay dịp cuối tuần. Dù hiện diện về mặt thể chất trong nhà, sự bận rộn liên tục này vẫn khiến trẻ cảm thấy thiếu sự lắng nghe và quan tâm trọn vẹn.",
+                    "evidence_en": "Because laptops and work messages are constantly within reach, many parents struggle to disconnect fully during evenings and weekends. Despite being physically present at home, this perpetual availability for work leaves children feeling overlooked and emotionally unsupported.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "within reach",
+                          "vi": "trong tầm với"
+                        },
+                        {
+                          "en": "disconnect fully",
+                          "vi": "ngắt kết nối hoàn toàn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "physically present",
+                          "vi": "hiện diện về mặt thể chất"
+                        },
+                        {
+                          "en": "feel overlooked",
+                          "vi": "cảm thấy bị ngó lơ"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "extended hours",
+                        "vi": "giờ làm việc kéo dài"
+                      },
+                      {
+                        "en": "quality time",
+                        "vi": "thời gian chất lượng"
+                      },
+                      {
+                        "en": "within reach",
+                        "vi": "trong tầm với"
+                      },
+                      {
+                        "en": "disconnect fully",
+                        "vi": "ngắt kết nối hoàn toàn"
+                      },
+                      {
+                        "en": "physically present",
+                        "vi": "hiện diện về mặt thể chất"
+                      },
+                      {
+                        "en": "feel overlooked",
+                        "vi": "cảm thấy bị ngó lơ"
+                      }
                     ]
                   }
                 ]
@@ -163384,7 +173212,7 @@ const ESSAY_DATA = [
                   {
                     "title": "TÍCH CỰC 01: HỖ TRỢ VIỆC HỌC CỦA CON TỐT HƠN",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
-                    "point_en": "First, working from home allows parents to support their children's education better.",
+                    "point_en": "Working from home allows parents to support their children's education better.",
                     "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi cần và phát hiện sớm những khó khăn của con ở trường.",
                     "evidence_en": "Parents can help their children with difficult homework when needed and notice learning problems early.",
                     "collocations": [
@@ -163435,7 +173263,7 @@ const ESSAY_DATA = [
                   {
                     "title": "TÍCH CỰC 02: HIỂU RÕ THÓI QUEN VÀ HÀNH VI CỦA CON",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
-                    "point_en": "Second, staying at home helps parents understand their children's daily habits and behaviors more deeply.",
+                    "point_en": "Staying at home helps parents understand their children's daily habits and behaviors more deeply.",
                     "evidence_vi": "Cha mẹ có thể quan sát cách con sinh hoạt hằng ngày và nhận ra những thay đổi trong hành vi của con.",
                     "evidence_en": "Parents can observe how their children live each day and easily notice any changes in their behavior.",
                     "collocations": [
@@ -163490,7 +173318,7 @@ const ESSAY_DATA = [
                   {
                     "title": "TÍCH CỰC 03: TRẺ CẢM THẤY AN TOÀN VÀ ĐƯỢC QUAN TÂM",
                     "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được yêu thương hơn.",
-                    "point_en": "Finally, children feel safer and more loved when their parents work from home.",
+                    "point_en": "Children feel safer and more loved when their parents work from home.",
                     "evidence_vi": "Trẻ biết cha mẹ luôn ở gần, nên các em dễ dàng chia sẻ khó khăn và cảm thấy yên tâm hơn.",
                     "evidence_en": "Children know that their parents are always nearby, so they can easily share their worries and feel reassured.",
                     "collocations": [
@@ -163545,13 +173373,107 @@ const ESSAY_DATA = [
                         }
                       ]
                     ]
+                  },
+                  {
+                    "title": "TÍCH CỰC 04: TĂNG THỜI GIAN BỮA CƠM VÀ HOẠT ĐỘNG GIA ĐÌNH",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ tiết kiệm thời gian đi lại để có thêm bữa ăn và hoạt động chung với con.",
+                    "point_en": "Working from home saves commuting time so parents can share more meals and daily activities with their children.",
+                    "point_collocations": [
+                      {
+                        "en": "save commuting time",
+                        "vi": "tiết kiệm thời gian đi lại"
+                      },
+                      {
+                        "en": "share meals",
+                        "vi": "ăn cơm cùng nhau"
+                      }
+                    ],
+                    "evidence_vi": "Cha mẹ có thể đưa đón con đi học, ăn trưa cùng con và trò chuyện nhiều hơn mỗi ngày.",
+                    "evidence_en": "Parents can pick their children up from school, have lunch together, and talk with them more every day.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "pick up from school",
+                          "vi": "đón con ở trường"
+                        },
+                        {
+                          "en": "have lunch together",
+                          "vi": "ăn trưa cùng nhau"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "save commuting time",
+                        "vi": "tiết kiệm thời gian đi lại"
+                      },
+                      {
+                        "en": "share meals",
+                        "vi": "ăn cơm cùng nhau"
+                      },
+                      {
+                        "en": "pick up from school",
+                        "vi": "đón con ở trường"
+                      },
+                      {
+                        "en": "have lunch together",
+                        "vi": "ăn trưa cùng nhau"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "TÍCH CỰC 05: TRẺ HỌC TINH THẦN TRÁCH NHIỆM TỪ CHA MẸ",
+                    "point_vi": "Trẻ em có thể học hỏi tinh thần trách nhiệm khi quan sát cha mẹ làm việc chăm chỉ tại nhà.",
+                    "point_en": "Children can learn responsibility by watching their parents work hard at home.",
+                    "point_collocations": [
+                      {
+                        "en": "learn responsibility",
+                        "vi": "học tinh thần trách nhiệm"
+                      },
+                      {
+                        "en": "work hard",
+                        "vi": "làm việc chăm chỉ"
+                      }
+                    ],
+                    "evidence_vi": "Khi thấy cha mẹ sắp xếp thời gian hợp lý giữa công việc và gia đình, trẻ sẽ biết tôn trọng công việc của cha mẹ hơn.",
+                    "evidence_en": "When children see parents manage their time well between work and family, they learn to respect their parents' efforts more.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "manage time well",
+                          "vi": "quản lý thời gian tốt"
+                        },
+                        {
+                          "en": "respect efforts",
+                          "vi": "tôn trọng nỗ lực"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "learn responsibility",
+                        "vi": "học tinh thần trách nhiệm"
+                      },
+                      {
+                        "en": "work hard",
+                        "vi": "làm việc chăm chỉ"
+                      },
+                      {
+                        "en": "manage time well",
+                        "vi": "quản lý thời gian tốt"
+                      },
+                      {
+                        "en": "respect efforts",
+                        "vi": "tôn trọng nỗ lực"
+                      }
+                    ]
                   }
                 ],
                 "drawbacks": [
                   {
                     "title": "TIÊU CỰC 01: GIẢM SỰ TẬP TRUNG CỦA CHA MẸ VÀO CON CÁI",
                     "point_vi": "Làm việc tại nhà có thể khiến cha mẹ ít chú ý đến con cái hơn.",
-                    "point_en": "To begin with, working from home can cause parents to pay less attention to their children.",
+                    "point_en": "Working from home can cause parents to pay less attention to their children.",
                     "evidence_vi": "Cha mẹ phải dành nhiều thời gian cho máy tính và các cuộc họp, nên không thể chú ý khi con muốn trò chuyện.",
                     "evidence_en": "Parents have to spend many hours on computers and in virtual meetings, so they cannot pay attention when their children want to talk.",
                     "collocations": [
@@ -163602,7 +173524,7 @@ const ESSAY_DATA = [
                   {
                     "title": "TIÊU CỰC 02: TRẺ KHÓ HIỂU RANH GIỚI CÔNG VIỆC VÀ GIA ĐÌNH",
                     "point_vi": "Làm việc tại nhà có thể khiến trẻ khó hiểu khi nào cha mẹ đang làm việc.",
-                    "point_en": "In addition, young children often find it difficult to understand the boundary between work and family.",
+                    "point_en": "Young children often find it difficult to understand the boundary between work and family.",
                     "evidence_vi": "Trẻ có thể nghĩ rằng cha mẹ luôn sẵn sàng chơi cùng và vô tình làm phiền cha mẹ trong giờ làm việc.",
                     "evidence_en": "Children may think that parents are always available to play, so they might disturb them during work hours.",
                     "collocations": [
@@ -163661,7 +173583,7 @@ const ESSAY_DATA = [
                   {
                     "title": "TIÊU CỰC 03: LÀM TĂNG ÁP LỰC CHO CHA MẸ",
                     "point_vi": "Làm việc tại nhà có thể làm tăng áp lực và căng thẳng cho cha mẹ.",
-                    "point_en": "Lastly, working from home can increase mental stress and pressure on parents.",
+                    "point_en": "Working from home can increase mental stress and pressure on parents.",
                     "evidence_vi": "Cha mẹ phải vừa hoàn thành công việc đúng hạn vừa lo việc nhà, khiến họ dễ mệt mỏi và cáu gắt với con cái.",
                     "evidence_en": "Parents must complete office tasks on time while handling household chores, which makes them tired and easily irritable toward their children.",
                     "collocations": [
@@ -163708,6 +173630,100 @@ const ESSAY_DATA = [
                         }
                       ]
                     ]
+                  },
+                  {
+                    "title": "TIÊU CỰC 04: TRANH CÃI VỀ TIẾNG ỒN VÀ KHÔNG GIAN CHUNG",
+                    "point_vi": "Làm việc tại nhà dễ gây ra tranh cãi về tiếng ồn và không gian sinh hoạt chung.",
+                    "point_en": "Working from home can easily cause arguments over noise and shared living space.",
+                    "point_collocations": [
+                      {
+                        "en": "cause arguments",
+                        "vi": "gây ra tranh cãi"
+                      },
+                      {
+                        "en": "shared living space",
+                        "vi": "không gian sống chung"
+                      }
+                    ],
+                    "evidence_vi": "Khi cha mẹ cần sự yên tĩnh cho các cuộc họp trực tuyến, trẻ nhỏ đang chơi đùa có thể bị la mắng và cảm thấy buồn bã.",
+                    "evidence_en": "When parents need quiet for online meetings, playing children may get scolded and feel upset.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "online meetings",
+                          "vi": "cuộc họp trực tuyến"
+                        },
+                        {
+                          "en": "feel upset",
+                          "vi": "cảm thấy buồn bã"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "cause arguments",
+                        "vi": "gây ra tranh cãi"
+                      },
+                      {
+                        "en": "shared living space",
+                        "vi": "không gian sống chung"
+                      },
+                      {
+                        "en": "online meetings",
+                        "vi": "cuộc họp trực tuyến"
+                      },
+                      {
+                        "en": "feel upset",
+                        "vi": "cảm thấy buồn bã"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "TIÊU CỰC 05: GIỜ LÀM VIỆC KÉO DÀI GIẢM THỜI GIAN VUI CHƠI",
+                    "point_vi": "Giờ làm việc kéo dài tại nhà có thể làm giảm thời gian vui chơi thực sự giữa cha mẹ và con cái.",
+                    "point_en": "Longer working hours at home can reduce genuine playtime between parents and children.",
+                    "point_collocations": [
+                      {
+                        "en": "longer working hours",
+                        "vi": "giờ làm việc kéo dài hơn"
+                      },
+                      {
+                        "en": "genuine playtime",
+                        "vi": "thời gian vui chơi thực sự"
+                      }
+                    ],
+                    "evidence_vi": "Nhiều phụ huynh vẫn kiểm tra email công việc vào buổi tối hoặc cuối tuần, nên trẻ cảm thấy bị bỏ rơi dù cha mẹ đang ở nhà.",
+                    "evidence_en": "Many parents still check work emails in the evening or on weekends, so children feel ignored even when parents are home.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "check work emails",
+                          "vi": "kiểm tra email công việc"
+                        },
+                        {
+                          "en": "feel ignored",
+                          "vi": "cảm thấy bị bỏ rơi"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "longer working hours",
+                        "vi": "giờ làm việc kéo dài hơn"
+                      },
+                      {
+                        "en": "genuine playtime",
+                        "vi": "thời gian vui chơi thực sự"
+                      },
+                      {
+                        "en": "check work emails",
+                        "vi": "kiểm tra email công việc"
+                      },
+                      {
+                        "en": "feel ignored",
+                        "vi": "cảm thấy bị bỏ rơi"
+                      }
+                    ]
                   }
                 ]
               },
@@ -163716,7 +173732,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 01: ACADEMIC ASSISTANCE",
                     "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ sự tiến bộ trong học tập của con một cách hiệu quả.",
-                    "point_en": "First, telecommuting enables parents to support their children's academic progress more effectively.",
+                    "point_en": "Telecommuting enables parents to support their children's academic progress more effectively.",
                     "evidence_vi": "Cha mẹ luôn có mặt để trợ giúp giải quyết các bài tập phức tạp và kịp thời phát hiện những trở ngại học tập ở trường.",
                     "evidence_en": "Parents are accessible to assist with challenging school assignments and identify learning obstacles promptly.",
                     "collocations": [
@@ -163771,7 +173787,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 02: BEHAVIORAL INSIGHTS",
                     "point_vi": "Làm việc tại nhà mang lại cho cha mẹ những hiểu biết sâu sắc hơn về thói quen và lối sống của con.",
-                    "point_en": "Second, home-based working provides parents with deeper insights into their children's daily routines and behavior.",
+                    "point_en": "Home-based working provides parents with deeper insights into their children's daily routines and behavior.",
                     "evidence_vi": "Việc quan sát con sinh hoạt và học tập thường xuyên giúp cha mẹ nhận biết các thay đổi tâm lý để đưa ra sự định hướng phù hợp.",
                     "evidence_en": "Observing daily routines helps caregivers detect behavioral changes early and offer appropriate guidance.",
                     "collocations": [
@@ -163826,7 +173842,7 @@ const ESSAY_DATA = [
                   {
                     "title": "POSITIVE EFFECT 03: EMOTIONAL SECURITY",
                     "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an tâm và được nâng đỡ tinh thần.",
-                    "point_en": "Finally, constant parental presence gives children a reassuring sense of security and emotional support.",
+                    "point_en": "Constant parental presence gives children a reassuring sense of security and emotional support.",
                     "evidence_vi": "Trẻ cảm thấy yên lòng vì có chỗ dựa vững chắc, từ đó dễ dàng tâm sự và cởi mở về những trăn trở của bản thân.",
                     "evidence_en": "Children feel secure in a supportive home environment, which encourages them to communicate openly about their concerns.",
                     "collocations": [
@@ -163881,13 +173897,143 @@ const ESSAY_DATA = [
                         }
                       ]
                     ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 04: MORE SHARED FAMILY MOMENTS",
+                    "point_vi": "Làm việc từ xa loại bỏ thời gian di chuyển hằng ngày, tạo điều kiện cho gia đình có thêm những bữa cơm và khoảnh khắc gắn kết.",
+                    "point_en": "Remote working eliminates daily commutes, enabling families to share more meals and meaningful everyday moments.",
+                    "point_collocations": [
+                      {
+                        "en": "eliminate daily commutes",
+                        "vi": "loại bỏ việc đi lại hằng ngày"
+                      },
+                      {
+                        "en": "meaningful moments",
+                        "vi": "những khoảnh khắc ý nghĩa"
+                      }
+                    ],
+                    "evidence_vi": "Thay vì mất hàng giờ kẹt xe vào sáng sớm và chiều tối, phụ huynh có thể tự tay chuẩn bị bữa sáng, đưa đón con đi học và trò chuyện cùng con. Những tương tác đều đặn này dần vun đắp sự gần gũi và ấm áp trong mối quan hệ cha mẹ và con cái.",
+                    "evidence_en": "Instead of spending hours stuck in rush-hour traffic, parents can prepare breakfast, accompany their children to school, and enjoy relaxed conversations together. These consistent daily interactions gradually nurture warmth and closeness within the parent-child relationship.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "rush-hour traffic",
+                          "vi": "giao thông giờ cao điểm"
+                        },
+                        {
+                          "en": "relaxed conversations",
+                          "vi": "những cuộc trò chuyện thoải mái"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "consistent interactions",
+                          "vi": "sự tương tác đều đặn"
+                        },
+                        {
+                          "en": "nurture warmth and closeness",
+                          "vi": "vun đắp sự ấm áp và gần gũi"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "eliminate daily commutes",
+                        "vi": "loại bỏ việc đi lại hằng ngày"
+                      },
+                      {
+                        "en": "meaningful moments",
+                        "vi": "những khoảnh khắc ý nghĩa"
+                      },
+                      {
+                        "en": "rush-hour traffic",
+                        "vi": "giao thông giờ cao điểm"
+                      },
+                      {
+                        "en": "relaxed conversations",
+                        "vi": "những cuộc trò chuyện thoải mái"
+                      },
+                      {
+                        "en": "consistent interactions",
+                        "vi": "sự tương tác đều đặn"
+                      },
+                      {
+                        "en": "nurture warmth and closeness",
+                        "vi": "vun đắp sự ấm áp và gần gũi"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 05: POSITIVE WORK ETHIC ROLE MODELING",
+                    "point_vi": "Việc quan sát cha mẹ làm việc nghiêm túc tại nhà giúp trẻ sớm hình thành tính kỷ luật và sự thấu hiểu công việc của gia đình.",
+                    "point_en": "Observing parents work diligently at home helps children develop discipline and deeper appreciation for their parents' efforts.",
+                    "point_collocations": [
+                      {
+                        "en": "work diligently",
+                        "vi": "làm việc chăm chỉ / nghiêm túc"
+                      },
+                      {
+                        "en": "deeper appreciation",
+                        "vi": "sự trân trọng sâu sắc hơn"
+                      }
+                    ],
+                    "evidence_vi": "Trẻ em tận mắt thấy cách cha mẹ tập trung giải quyết công việc, quản lý thời gian và hoàn thành trách nhiệm mỗi ngày. Qua tấm gương trực quan đó, các em không chỉ tôn trọng nỗ lực mưu sinh của cha mẹ hơn mà còn sớm học được kỹ năng tự giác trong học tập.",
+                    "evidence_en": "Children witness firsthand how their parents stay focused, organize their schedules, and fulfill professional commitments each day. Through this tangible role modeling, youngsters not only gain greater respect for their parents' hard work but also develop stronger self-discipline in their own studies.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "witness firsthand",
+                          "vi": "tận mắt chứng kiến"
+                        },
+                        {
+                          "en": "fulfill commitments",
+                          "vi": "hoàn thành trách nhiệm / cam kết"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "role modeling",
+                          "vi": "làm gương"
+                        },
+                        {
+                          "en": "self-discipline",
+                          "vi": "tính tự giác / kỷ luật bản thân"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "work diligently",
+                        "vi": "làm việc chăm chỉ / nghiêm túc"
+                      },
+                      {
+                        "en": "deeper appreciation",
+                        "vi": "sự trân trọng sâu sắc hơn"
+                      },
+                      {
+                        "en": "witness firsthand",
+                        "vi": "tận mắt chứng kiến"
+                      },
+                      {
+                        "en": "fulfill commitments",
+                        "vi": "hoàn thành trách nhiệm / cam kết"
+                      },
+                      {
+                        "en": "role modeling",
+                        "vi": "làm gương"
+                      },
+                      {
+                        "en": "self-discipline",
+                        "vi": "tính tự giác / kỷ luật bản thân"
+                      }
+                    ]
                   }
                 ],
                 "drawbacks": [
                   {
                     "title": "NEGATIVE EFFECT 01: REDUCED DIRECT ENGAGEMENT",
                     "point_vi": "Làm việc tại nhà có thể làm giảm sự chú ý trực tiếp và chất lượng tương tác cha mẹ dành cho con.",
-                    "point_en": "To begin with, remote working can inadvertently diminish direct parental attention and engagement.",
+                    "point_en": "Remote working can inadvertently diminish direct parental attention and engagement.",
                     "evidence_vi": "Khi bị cuốn vào các nhiệm vụ máy tính kéo dài và những cuộc họp trực tuyến căng thẳng, cha mẹ khó có thể lắng nghe con trọn vẹn.",
                     "evidence_en": "When absorbed in demanding digital tasks and extended video conferences, parents struggle to interact attentively with their children.",
                     "collocations": [
@@ -163938,7 +174084,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 02: BLURRED WORK-LIFE BOUNDARIES",
                     "point_vi": "Ranh giới bị xóa nhòa giữa công việc và đời sống gia đình dễ dẫn đến những xáo trộn và tranh cãi.",
-                    "point_en": "Furthermore, blurred boundaries between professional obligations and domestic life frequently cause friction.",
+                    "point_en": "Blurred boundaries between professional obligations and domestic life frequently cause friction.",
                     "evidence_vi": "Trẻ nhỏ khó phân biệt giữa lúc cha mẹ làm việc và lúc nghỉ ngơi, dẫn đến việc ngắt quãng bất ngờ và gây ra hiểu lầm không đáng có.",
                     "evidence_en": "Young children struggle to recognize when parents are working, leading to untimely disruptions and mutual frustration.",
                     "collocations": [
@@ -163993,7 +174139,7 @@ const ESSAY_DATA = [
                   {
                     "title": "NEGATIVE EFFECT 03: ACCUMULATED PARENTAL STRESS",
                     "point_vi": "Gánh nặng công việc tại nhà làm tăng mức độ căng thẳng và kiệt sức ở các bậc phụ huynh.",
-                    "point_en": "Lastly, balancing office deadlines with household duties can substantially elevate parental stress.",
+                    "point_en": "Balancing office deadlines with household duties can substantially elevate parental stress.",
                     "evidence_vi": "Áp lực tích tụ kéo dài làm suy giảm sự kiên nhẫn của cha mẹ, khiến họ dễ nảy sinh sự bực bội và cáu gắt trong giao tiếp với con.",
                     "evidence_en": "Persistent fatigue often erodes parents' patience, which can result in irritability and strained family communication.",
                     "collocations": [
@@ -164039,6 +174185,136 @@ const ESSAY_DATA = [
                           "vi": "làm gia tăng căng thẳng ở cha mẹ"
                         }
                       ]
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 04: CONFLICTS OVER NOISE AND SHARED SPACE",
+                    "point_vi": "Sự hạn chế về không gian sống và tiếng ồn sinh hoạt thường xuyên làm nảy sinh mâu thuẫn giữa cha mẹ và con cái.",
+                    "point_en": "Limited living space and everyday household noise frequently spark friction between remote-working parents and their children.",
+                    "point_collocations": [
+                      {
+                        "en": "spark friction",
+                        "vi": "làm nảy sinh mâu thuẫn"
+                      },
+                      {
+                        "en": "household noise",
+                        "vi": "tiếng ồn sinh hoạt"
+                      }
+                    ],
+                    "evidence_vi": "Trong những căn hộ nhỏ không có phòng làm việc riêng, tiếng nô đùa tự nhiên của trẻ có thể làm gián đoạn các cuộc họp quan trọng của cha mẹ. Sự bực bội tức thời có thể khiến phụ huynh lớn tiếng, làm tổn thương cảm xúc và tạo khoảng cách với con.",
+                    "evidence_en": "In compact homes lacking a separate office, children's natural playfulness can easily disrupt important online meetings. Momentary frustration may cause parents to react impatiently, hurting children's feelings and creating emotional distance.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "compact homes",
+                          "vi": "ngôi nhà chật hẹp"
+                        },
+                        {
+                          "en": "disrupt online meetings",
+                          "vi": "làm gián đoạn cuộc họp trực tuyến"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "react impatiently",
+                          "vi": "phản ứng mất kiên nhẫn"
+                        },
+                        {
+                          "en": "emotional distance",
+                          "vi": "khoảng cách tình cảm"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "spark friction",
+                        "vi": "làm nảy sinh mâu thuẫn"
+                      },
+                      {
+                        "en": "household noise",
+                        "vi": "tiếng ồn sinh hoạt"
+                      },
+                      {
+                        "en": "compact homes",
+                        "vi": "ngôi nhà chật hẹp"
+                      },
+                      {
+                        "en": "disrupt online meetings",
+                        "vi": "làm gián đoạn cuộc họp trực tuyến"
+                      },
+                      {
+                        "en": "react impatiently",
+                        "vi": "phản ứng mất kiên nhẫn"
+                      },
+                      {
+                        "en": "emotional distance",
+                        "vi": "khoảng cách tình cảm"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 05: EXTENDED WORK HOURS REDUCING QUALITY TIME",
+                    "point_vi": "Xu hướng làm việc quá giờ khi ở nhà làm suy giảm thời gian thư giãn chất lượng dành cho con cái.",
+                    "point_en": "The tendency to work extended hours at home diminishes genuine quality time spent with children.",
+                    "point_collocations": [
+                      {
+                        "en": "extended hours",
+                        "vi": "giờ làm việc kéo dài"
+                      },
+                      {
+                        "en": "quality time",
+                        "vi": "thời gian chất lượng"
+                      }
+                    ],
+                    "evidence_vi": "Vì máy tính và tin nhắn công việc luôn ở ngay bên cạnh, nhiều cha mẹ khó lòng ngắt kết nối hoàn toàn vào buổi tối hay dịp cuối tuần. Dù hiện diện về mặt thể chất trong nhà, sự bận rộn liên tục này vẫn khiến trẻ cảm thấy thiếu sự lắng nghe và quan tâm trọn vẹn.",
+                    "evidence_en": "Because laptops and work messages are constantly within reach, many parents struggle to disconnect fully during evenings and weekends. Despite being physically present at home, this perpetual availability for work leaves children feeling overlooked and emotionally unsupported.",
+                    "evidence_collocations": [
+                      [
+                        {
+                          "en": "within reach",
+                          "vi": "trong tầm với"
+                        },
+                        {
+                          "en": "disconnect fully",
+                          "vi": "ngắt kết nối hoàn toàn"
+                        }
+                      ],
+                      [
+                        {
+                          "en": "physically present",
+                          "vi": "hiện diện về mặt thể chất"
+                        },
+                        {
+                          "en": "feel overlooked",
+                          "vi": "cảm thấy bị ngó lơ"
+                        }
+                      ]
+                    ],
+                    "collocations": [
+                      {
+                        "en": "extended hours",
+                        "vi": "giờ làm việc kéo dài"
+                      },
+                      {
+                        "en": "quality time",
+                        "vi": "thời gian chất lượng"
+                      },
+                      {
+                        "en": "within reach",
+                        "vi": "trong tầm với"
+                      },
+                      {
+                        "en": "disconnect fully",
+                        "vi": "ngắt kết nối hoàn toàn"
+                      },
+                      {
+                        "en": "physically present",
+                        "vi": "hiện diện về mặt thể chất"
+                      },
+                      {
+                        "en": "feel overlooked",
+                        "vi": "cảm thấy bị ngó lơ"
+                      }
                     ]
                   }
                 ]
@@ -165173,6 +175449,61 @@ const ESSAY_DATA = [
                     "vi": "tăng cường sự hiểu biết giữa các quốc gia"
                   }
                 ]
+              },
+              {
+                "title": "CÁCH 05: QUẢNG BÁ DU LỊCH VĂN HÓA VÀ ẨM THỰC TRUYỀN THỐNG (PROMOTING CULTURAL TOURISM AND TRADITIONAL CUISINE)",
+                "point_vi": "Phát triển du lịch văn hóa và giới thiệu ẩm thực truyền thống là một cách rất hiệu quả để chia sẻ văn hóa với bạn bè quốc tế.",
+                "point_en": "Promoting cultural tourism and traditional cuisine is a very effective way to share culture with international visitors.",
+                "point_collocations": [
+                  {
+                    "en": "cultural tourism",
+                    "vi": "du lịch văn hóa"
+                  },
+                  {
+                    "en": "traditional cuisine",
+                    "vi": "ẩm thực truyền thống"
+                  }
+                ],
+                "evidence_vi": "Du khách nước ngoài có thể tham quan di tích lịch sử, trải nghiệm làng nghề và thưởng thức các món ăn đặc sản địa phương.",
+                "evidence_en": "Foreign tourists can visit historic sites, explore craft villages, and enjoy famous local dishes during their trips.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "historic sites",
+                      "vi": "di tích lịch sử"
+                    },
+                    {
+                      "en": "craft villages",
+                      "vi": "làng nghề truyền thống"
+                    },
+                    {
+                      "en": "local dishes",
+                      "vi": "món ăn địa phương"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "cultural tourism",
+                    "vi": "du lịch văn hóa"
+                  },
+                  {
+                    "en": "traditional cuisine",
+                    "vi": "ẩm thực truyền thống"
+                  },
+                  {
+                    "en": "historic sites",
+                    "vi": "di tích lịch sử"
+                  },
+                  {
+                    "en": "craft villages",
+                    "vi": "làng nghề truyền thống"
+                  },
+                  {
+                    "en": "local dishes",
+                    "vi": "món ăn địa phương"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -165804,6 +176135,79 @@ const ESSAY_DATA = [
                   {
                     "en": "improve understanding between countries",
                     "vi": "tăng cường sự hiểu biết giữa các quốc gia"
+                  }
+                ]
+              },
+              {
+                "title": "CÁCH 05: QUẢNG BÁ DU LỊCH VĂN HÓA VÀ ẨM THỰC TRUYỀN THỐNG (PROMOTING CULTURAL TOURISM AND TRADITIONAL CUISINE)",
+                "point_vi": "Thúc đẩy du lịch di sản và quảng bá ẩm thực truyền thống tạo ra cầu nối trực quan giúp thế giới thấu hiểu bản sắc văn hóa dân tộc.",
+                "point_en": "Promoting heritage tourism and traditional gastronomy creates an engaging bridge that helps global audiences appreciate national identity.",
+                "point_collocations": [
+                  {
+                    "en": "heritage tourism",
+                    "vi": "du lịch di sản"
+                  },
+                  {
+                    "en": "traditional gastronomy",
+                    "vi": "ẩm thực truyền thống"
+                  },
+                  {
+                    "en": "national identity",
+                    "vi": "bản sắc dân tộc"
+                  }
+                ],
+                "evidence_vi": "Thông qua các tour tham quan di tích lịch sử, lớp học nấu ăn địa phương và bảo tàng sống động, du khách quốc tế có thể trực tiếp trải nghiệm đời sống văn hóa bản địa. Những trải nghiệm chân thực này thường để lại ấn tượng sâu đậm và khuyến khích họ chia sẻ câu chuyện văn hóa đó với cộng đồng của mình.",
+                "evidence_en": "Through guided tours of historic landmarks, local cooking classes, and interactive museums, international visitors can immerse themselves directly in indigenous heritage. Such authentic experiences leave lasting impressions and inspire travelers to share those cultural stories back home.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "historic landmarks",
+                      "vi": "địa danh lịch sử"
+                    },
+                    {
+                      "en": "immerse oneself in",
+                      "vi": "đắm mình vào / trải nghiệm sâu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "authentic experiences",
+                      "vi": "trải nghiệm chân thực"
+                    },
+                    {
+                      "en": "lasting impressions",
+                      "vi": "ấn tượng lâu dài"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "heritage tourism",
+                    "vi": "du lịch di sản"
+                  },
+                  {
+                    "en": "traditional gastronomy",
+                    "vi": "ẩm thực truyền thống"
+                  },
+                  {
+                    "en": "national identity",
+                    "vi": "bản sắc dân tộc"
+                  },
+                  {
+                    "en": "historic landmarks",
+                    "vi": "địa danh lịch sử"
+                  },
+                  {
+                    "en": "immerse oneself in",
+                    "vi": "đắm mình vào / trải nghiệm sâu"
+                  },
+                  {
+                    "en": "authentic experiences",
+                    "vi": "trải nghiệm chân thực"
+                  },
+                  {
+                    "en": "lasting impressions",
+                    "vi": "ấn tượng lâu dài"
                   }
                 ]
               }

@@ -2394,12 +2394,52 @@ function renderIdeaSelectionComponent(topic) {
   const isOpinionDisagree = isOpinion && activeApp && (activeApp.stance === 'disagree' || (activeApp.name && activeApp.name.includes('KHÔNG ĐỒNG Ý')));
 
   const topicTagsLower = ((Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || ''))).toLowerCase();
-  const isCausesSolutionsOnlySolutions = isCausesSolutions && (topicTagsLower.includes('solution') || topicTagsLower.includes('measure')) && !topicTagsLower.includes('cause') && !topicTagsLower.includes('effect') && !topicTagsLower.includes('problem');
 
-  let bLabel = isCausesSolutions ? (isCausesSolutionsOnlySolutions ? "GIẢI PHÁP / BIỆN PHÁP ĐỀ XUẤT" : "NGUYÊN NHÂN / VẤN ĐỀ") : (isOpinion ? (isOpinionDisagree ? "LÝ DO PHẢN ĐỐI / KHÔNG ĐỒNG Ý (DISAGREE)" : "LÝ DO ĐỒNG Ý (AGREE)") : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
-  let dLabel = isCausesSolutions ? "GIẢI PHÁP / BIỆN PHÁP" : (isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ"));
-  let bIcon = isCausesSolutions ? (isCausesSolutionsOnlySolutions ? "💡" : "🔍") : (isOpinion ? (isOpinionDisagree ? "👎" : "👍") : (isDiscussion ? "👥" : "✨"));
-  let dIcon = isCausesSolutions ? "💡" : (isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️"));
+  let bLabel = isOpinion ? (isOpinionDisagree ? "LÝ DO PHẢN ĐỐI / KHÔNG ĐỒNG Ý (DISAGREE)" : "LÝ DO ĐỒNG Ý (AGREE)") : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH");
+  let dLabel = isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ");
+  let bIcon = isOpinion ? (isOpinionDisagree ? "👎" : "👍") : (isDiscussion ? "👥" : "✨");
+  let dIcon = isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️");
+
+  if (isCausesSolutions) {
+    const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
+    const appName = (activeApp && activeApp.name) ? activeApp.name.toUpperCase() : '';
+    if (appName.includes('TÍCH CỰC') && appName.includes('TIÊU CỰC')) {
+      bLabel = "ẢNH HƯỞNG TÍCH CỰC";
+      dLabel = "ẢNH HƯỞNG TIÊU CỰC";
+      bIcon = "✨";
+      dIcon = "⚠️";
+    } else if (appName.includes('TÍCH CỰC')) {
+      bLabel = "ẢNH HƯỞNG TÍCH CỰC";
+      bIcon = "✨";
+    } else if (appName.includes('TIÊU CỰC')) {
+      bLabel = "ẢNH HƯỞNG TIÊU CỰC";
+      bIcon = "⚠️";
+    } else if (subtype === "NGUYÊN NHÂN & ẢNH HƯỞNG") {
+      bLabel = "NGUYÊN NHÂN";
+      dLabel = "ẢNH HƯỞNG / HỆ QUẢ";
+      bIcon = "🔍";
+      dIcon = "⚠️";
+    } else if (subtype === "ẢNH HƯỞNG & GIẢI PHÁP") {
+      bLabel = "ẢNH HƯỞNG / TÁC ĐỘNG";
+      dLabel = "GIẢI PHÁP / BIỆN PHÁP";
+      bIcon = "⚠️";
+      dIcon = "💡";
+    } else if (subtype === "CHỈ PHÂN TÍCH GIẢI PHÁP") {
+      bLabel = "GIẢI PHÁP / BIỆN PHÁP ĐỀ XUẤT";
+      bIcon = "💡";
+    } else if (subtype === "CHỈ PHÂN TÍCH ẢNH HƯỞNG") {
+      bLabel = "ẢNH HƯỞNG / TÁC ĐỘNG";
+      bIcon = "⚠️";
+    } else if (subtype === "CHỈ PHÂN TÍCH NGUYÊN NHÂN") {
+      bLabel = topicTagsLower.includes('factor') ? "YẾU TỐ ẢNH HƯỞNG" : "NGUYÊN NHÂN / LÝ DO";
+      bIcon = "🔍";
+    } else {
+      bLabel = "NGUYÊN NHÂN / VẤN ĐỀ";
+      dLabel = "GIẢI PHÁP / BIỆN PHÁP";
+      bIcon = "🔍";
+      dIcon = "💡";
+    }
+  }
 
   return `
     <div class="reading-section-card idea-selection-card" style="margin-bottom: 1.5rem;">
