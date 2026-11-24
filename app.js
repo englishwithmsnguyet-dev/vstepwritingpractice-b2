@@ -1010,7 +1010,7 @@ function startPractice(catId, topicId) {
       showToast('🔒 Đề bài này tạm thời chưa mở cho lớp B212. Lớp hiện mở tất cả các đề thuộc DẠNG LUẬN 01!', 'warning');
     } else if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
       if (userClass === 'CB213') {
-        showToast('🔒 Đề bài này tạm thời chưa mở cho lớp CB213. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (Bước 1-3)!', 'warning');
+        showToast('🔒 Đề bài này tạm thời chưa mở cho lớp CB213. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (đủ 5 bước)!', 'warning');
       } else {
         showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở các đề phân tích "Nguyên nhân & Giải pháp" và "Nguyên nhân & Ảnh hưởng"!`, 'warning');
       }
@@ -10865,19 +10865,10 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
 
   // Classes CB211, ONB103, 0NB103, CB213:
   // - Category 1: ALL steps unlocked
-  // - Category 2:
-  //   + For CB213: Topic 16 and Topic 28 are unlocked ONLY for steps 1, 2, 3 ('read', 'vocab', 'trans'); steps 4 & 5 ('write', 'model') are locked!
-  //   + For all other allowed topics in Category 2: ALL steps (1..5) are unlocked
+  // - Category 2: ALL allowed topics (including Topic 16 & 28 for CB213) have ALL steps (1..5) unlocked
   if (['CB211', 'ONB103', '0NB103', 'CB213'].includes(userClass)) {
     if (catId === 1 || String(catId) === '1') return true;
     if (catId === 2 || String(catId) === '2') {
-      const tid = Number(topicId || (topic ? topic.id : 0));
-      if (userClass === 'CB213' && (tid === 16 || tid === 28)) {
-        if (stepKey === 'write' || stepKey === 'model') {
-          return false;
-        }
-        return true;
-      }
       if (typeof isTopicAllowedForUser === 'function') {
         return isTopicAllowedForUser(catId, topicId, topic);
       }
