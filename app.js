@@ -418,6 +418,7 @@ function switchCategory(catId) {
   links[catId].classList.add('active');
   
   document.getElementById('page-header-title').innerText = currentCategory.title_vi;
+  if (typeof updateCategoryCatBanner === 'function') updateCategoryCatBanner(currentCategory.id);
   if (currentCategory.id === 1) {
     const total = currentCategory.topics.length;
     const isBenefitsOnly = (t) => {
@@ -597,6 +598,27 @@ function renderCategoryTopics(searchQuery = '') {
   if (updatedTopics.length > 0 && !searchQuery.trim()) {
     const banner = document.createElement('div');
     banner.className = 'updated-topics-banner';
+
+    // Cute peeking doodle cat perched on the top-right border
+    const peekCat = document.createElement('div');
+    peekCat.className = 'banner-peeking-cat';
+    peekCat.setAttribute('aria-hidden', 'true');
+    peekCat.innerHTML = `
+      <svg viewBox="0 0 110 56" width="84" height="43" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22 46 C22 24, 30 14, 34 10 L40 22 C46 19, 64 19, 70 22 L76 10 C80 14, 88 24, 88 46" fill="#1e293b" stroke="#0f172a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M35 16 L39 23 L32 23 Z" fill="#fda4af"/>
+        <path d="M75 16 L71 23 L78 23 Z" fill="#fda4af"/>
+        <circle class="cat-eye" cx="43" cy="34" r="4.6" fill="#ffffff"/>
+        <circle class="cat-pupil" cx="43.8" cy="34" r="2.2" fill="#0f172a"/>
+        <circle class="cat-eye" cx="67" cy="34" r="4.6" fill="#ffffff"/>
+        <circle class="cat-pupil" cx="66.2" cy="34" r="2.2" fill="#0f172a"/>
+        <path d="M52 38 Q55 41 58 38" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="55" cy="36.5" r="1.8" fill="#fda4af"/>
+        <ellipse cx="26" cy="47" rx="8.5" ry="5.5" fill="#ffffff" stroke="#0f172a" stroke-width="2.8"/>
+        <ellipse cx="84" cy="47" rx="8.5" ry="5.5" fill="#ffffff" stroke="#0f172a" stroke-width="2.8"/>
+      </svg>
+    `;
+    banner.appendChild(peekCat);
 
     const writtenUpdatedCount = updatedTopics.filter(t => isTopicWritten(currentCategory.id, t.id)).length;
     const collapseKey = `updated_banner_collapsed_cat_${currentCategory.id}`;
@@ -11297,3 +11319,84 @@ document.addEventListener('keydown', (e) => {
     }
   }
 });
+
+/* ==========================================================================
+   CUTE STUDY CAT GRAPHICS & INTERACTIVE SIDEBAR BUDDY
+   ========================================================================== */
+const SIDEBAR_CAT_QUOTES = [
+  'Meow~ Hôm nay bạn viết 1 bài cho mượt tay nhé! 🐾',
+  'Đừng bỏ qua Bước 1–2–3 nha, mình canh cửa đó! 😼',
+  'Mỗi ngày 1 bài luận — B1/B2 trong tầm tay! ✨',
+  'Bí đề? Bấm 🎲 Ngẫu nhiên 1 đề thử vận may xem! 🎲',
+  'Đọc kỹ đề + chọn 3 ý rõ ràng là thắng 50% rồi! 💡',
+  'Gõ đều tay đủ ≥ 250 từ là mình tặng 10 điểm chăm chỉ! 🏆',
+  'Đừng quên uống nước và giữ thẳng lưng khi viết nha! ☕',
+  'Collocations ở Bước 2 chính là bí kíp ăn điểm đó! 📖',
+  'Viết xong nhớ xem Bước 5 để học thêm cách diễn đạt hay! 🌟',
+  'Cố lên nhé! Miss Nguyệt và tụi mình luôn cổ vũ bạn! 💜'
+];
+let sidebarCatQuoteIdx = 0;
+
+function pokeSidebarCat() {
+  const bubble = document.getElementById('sidebar-cat-bubble');
+  const img = document.getElementById('sidebar-cat-img');
+  if (bubble) {
+    sidebarCatQuoteIdx = (sidebarCatQuoteIdx + 1) % SIDEBAR_CAT_QUOTES.length;
+    bubble.textContent = SIDEBAR_CAT_QUOTES[sidebarCatQuoteIdx];
+    bubble.classList.remove('is-pop');
+    void bubble.offsetWidth;
+    bubble.classList.add('is-pop');
+  }
+  if (img) {
+    img.classList.remove('is-bouncing');
+    void img.offsetWidth;
+    img.classList.add('is-bouncing');
+  }
+}
+
+function updateCategoryCatBanner(catId) {
+  const img = document.getElementById('category-cat-img');
+  const kicker = document.getElementById('category-kicker-pill');
+  const tip = document.getElementById('category-cat-tip');
+  const card = document.getElementById('category-intro-card');
+
+  const cfg = {
+    1: {
+      img: 'cat_pros_cons.png',
+      kicker: '🐾 DẠNG LUẬN 01 • ADVANTAGES & DISADVANTAGES',
+      tip: '💡 Mẹo mèo: Cân đối số ý rõ ràng giữa mặt Thuận lợi & Bất lợi (hoặc đi sâu 3 ý với đề 1 chiều) nhé!',
+      accent: '#4f46e5',
+      wide: false
+    },
+    2: {
+      img: 'cat_study_desk.png',
+      kicker: '🐾 DẠNG LUẬN 02 • CAUSES – EFFECTS – SOLUTIONS',
+      tip: '💡 Mẹo mèo: Xem kỹ nhóm dạng bài (Nguyên nhân / Ảnh hưởng / Giải pháp) để triển khai đúng trọng tâm nhé!',
+      accent: '#8b5cf6',
+      wide: false
+    },
+    3: {
+      img: 'cat_opinion.png',
+      kicker: '🐾 DẠNG LUẬN 03 • OPINION ESSAYS',
+      tip: '💡 Mẹo mèo: Khẳng định rõ lập trường Đồng ý hay Phản đối ngay từ Mở bài và giữ xuyên suốt bài viết nha!',
+      accent: '#059669',
+      wide: false
+    },
+    4: {
+      img: 'welcome_cats.png',
+      kicker: '🐾 DẠNG LUẬN 04 • DISCUSSION ESSAYS',
+      tip: '💡 Mẹo mèo: Bàn luận công bằng cả 2 quan điểm trước khi chốt quan điểm cá nhân thật thuyết phục nhé!',
+      accent: '#d97706',
+      wide: true
+    }
+  }[Number(catId)] || null;
+
+  if (!cfg) return;
+  if (img) {
+    img.src = cfg.img;
+    img.classList.toggle('is-wide-squad', Boolean(cfg.wide));
+  }
+  if (kicker) kicker.textContent = cfg.kicker;
+  if (tip) tip.textContent = cfg.tip;
+  if (card) card.style.setProperty('--cat-banner-accent', cfg.accent);
+}

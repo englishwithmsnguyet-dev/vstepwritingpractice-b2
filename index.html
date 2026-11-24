@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PHÒNG VIẾT LUẬN B2 - ENGLISH WITH MISS NGUYET</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=162">
+  <link rel="stylesheet" href="styles.css?v=163">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -100,6 +100,15 @@
           </a>
         </li>
       </nav>
+
+      <!-- Cute Interactive Study Buddy Cat -->
+      <div class="sidebar-cat-buddy" id="sidebar-cat-buddy" onclick="pokeSidebarCat()" title="Bấm vào mèo để nhận lời cổ vũ!">
+        <div class="sidebar-cat-bubble" id="sidebar-cat-bubble">Meow~ Hôm nay bạn viết 1 bài nhé! 🐾</div>
+        <div class="sidebar-cat-img-wrap">
+          <img src="cat_study_desk.png" alt="Mèo đồng hành luyện viết" class="sidebar-cat-img" id="sidebar-cat-img">
+        </div>
+        <div class="sidebar-cat-hint">✨ Bấm vào mèo để đổi lời cổ vũ</div>
+      </div>
 
       <div class="sidebar-footer">
         <div class="theme-toggle">
@@ -301,8 +310,15 @@
 
       <!-- SCREEN 2: CATEGORY VIEW -->
       <section id="screen-category" class="screen">
-        <div class="category-intro">
-          <p id="category-description">Mô tả chi tiết về dạng bài và hướng tiếp cận viết bài.</p>
+        <div class="category-intro category-intro-card" id="category-intro-card">
+          <div class="category-intro-left">
+            <span class="category-kicker-pill" id="category-kicker-pill">🐾 DẠNG LUẬN VSTEP</span>
+            <p id="category-description">Mô tả chi tiết về dạng bài và hướng tiếp cận viết bài.</p>
+            <div class="category-cat-tip" id="category-cat-tip">💡 Mẹo mèo: Hoàn thành đủ Bước 1–2–3 rồi hãy vào phòng viết bài nhé!</div>
+          </div>
+          <div class="category-intro-cat-wrap">
+            <img src="cat_pros_cons.png" alt="VSTEP Study Cat" class="category-cat-img" id="category-cat-img">
+          </div>
         </div>
 
         <!-- Filter bar for written / unwritten topics -->
@@ -778,7 +794,7 @@
   <div id="step4-confirm-modal" class="step4-modal-overlay" onclick="if(event.target===this) closeStep4ConfirmModal()">
     <div class="step4-modal-card" role="dialog" aria-modal="true" aria-labelledby="step4-modal-title">
       <button type="button" class="step4-modal-close" onclick="closeStep4ConfirmModal()" aria-label="Đóng">✕</button>
-      <div class="step4-modal-icon">📋</div>
+      <div class="step4-modal-cat-wrap"><img src="cat_opinion.png" alt="Mèo hỏi bài" class="step4-modal-cat-img"></div>
       <h3 id="step4-modal-title" class="step4-modal-title">Bạn đã hoàn thành BƯỚC 1, 2, 3 chưa?</h3>
       <p class="step4-modal-desc">
         Để làm bài luận VSTEP đạt điểm cao nhất, bạn cần hoàn thành đầy đủ
@@ -805,7 +821,7 @@
   <!-- Loaded global topic data -->
   <script src="topics_db.js?v=174"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=174"></script>
+  <script src="app.js?v=175"></script>
   <script src="vstep_ai_grader.js?v=163"></script>
 </body>
 </html>
