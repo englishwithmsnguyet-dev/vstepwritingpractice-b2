@@ -1034,7 +1034,7 @@ function startPractice(catId, topicId) {
       if (userClass === 'CB213') {
         showToast('🔒 Đề bài này tạm thời chưa mở cho lớp CB213. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (đủ 5 bước)!', 'warning');
       } else {
-        showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 chỉ mở các đề phân tích "Nguyên nhân & Giải pháp" và "Nguyên nhân & Ảnh hưởng"!`, 'warning');
+        showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}. Hiện tại Dạng 02 mở các đề phân tích "Nguyên nhân & Giải pháp", "Nguyên nhân & Ảnh hưởng" cùng Đề 16 & 28 (Bước 1–3)!`, 'warning');
       }
     } else {
       showToast(`🔒 Đề bài này tạm thời chưa mở cho lớp ${userClass}!`, 'warning');
@@ -10852,7 +10852,7 @@ function isTopicAllowedForUser(catId, topicId, topic) {
 
   // Classes ONB103, 0NB103, CB211, CB213:
   // - Category 1: ALL topics are unlocked
-  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked (plus Topic 16 & 28 for CB213); other topics remain locked
+  // - Category 2: ONLY topics analyzing "Nguyên nhân & Giải pháp" OR "Nguyên nhân & Ảnh hưởng" are unlocked, plus Topic 16 (Khởi nghiệp ở giới trẻ) & Topic 28 (Tội phạm mạng); other topics remain locked
   if (['ONB103', '0NB103', 'CB211', 'CB213'].includes(userClass)) {
     if (catId === 1 || String(catId) === '1') return true;
     if (catId === 2 || String(catId) === '2') {
@@ -10863,8 +10863,8 @@ function isTopicAllowedForUser(catId, topicId, topic) {
         const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
         if (subtype === 'NGUYÊN NHÂN & GIẢI PHÁP' || subtype === 'NGUYÊN NHÂN & ẢNH HƯỞNG') return true;
       }
-      // For CB213: additionally open Topic 16 and Topic 28 in Category 2
-      if (userClass === 'CB213' && (tid === 16 || tid === 28)) {
+      // Additionally open Topic 16 (Khởi nghiệp ở giới trẻ) and Topic 28 (Tội phạm mạng) in Category 2
+      if (tid === 16 || tid === 28) {
         return true;
       }
       return false;
@@ -10899,10 +10899,17 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
 
   // Classes CB211, ONB103, 0NB103, CB213:
   // - Category 1: ALL steps unlocked
-  // - Category 2: ALL allowed topics (including Topic 16 & 28 for CB213) have ALL steps (1..5) unlocked
+  // - Category 2: Topic 16 & 28 open ONLY Steps 1..3 for CB211 & ONB103/0NB103 (Steps 4 'write' & 5 'model' locked); CB213 & all other allowed topics have ALL steps (1..5) unlocked
   if (['CB211', 'ONB103', '0NB103', 'CB213'].includes(userClass)) {
     if (catId === 1 || String(catId) === '1') return true;
     if (catId === 2 || String(catId) === '2') {
+      const tid = Number(topicId || (topic ? topic.id : 0));
+      if (['CB211', 'ONB103', '0NB103'].includes(userClass) && (tid === 16 || tid === 28)) {
+        if (stepKey === 'write' || stepKey === 'model') {
+          return false;
+        }
+        return true;
+      }
       if (typeof isTopicAllowedForUser === 'function') {
         return isTopicAllowedForUser(catId, topicId, topic);
       }
