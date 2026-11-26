@@ -10477,13 +10477,6 @@ const VALID_CLASSES = {
     'Trần Thị Ánh Tuyết',
     'Đặng Nguyễn Khánh Uyên',
     'Nguyễn Thị Chúc Yến'
-  ],
-  'B2': [
-    'Gia Tuệ',
-    'Gia Tuê',
-    'Nguyễn Gia Tuệ',
-    'Trần Gia Tuệ',
-    'Lê Gia Tuệ'
   ]
 };
 
@@ -10603,6 +10596,11 @@ async function submitGatewayAccess() {
   }
 
   // 2. CHECK SPECIFIC STUDENT ACCOUNT LOCK
+  if (checkIsGiaTue(nameInput)) {
+    errorEl.textContent = 'Tài khoản học viên "Gia Tuệ" hiện đã bị KHÓA! Vui lòng liên hệ Giáo viên (Cô Nguyệt).';
+    errorEl.style.display = 'block';
+    return;
+  }
   const lockKey = getStudentLockKey(nameInput);
   const lockDataRaw = localStorage.getItem(lockKey);
   let isTargetLocked = false;
@@ -10620,66 +10618,54 @@ async function submitGatewayAccess() {
   }
 
   // 3. STUDENT VALIDATION
-  if (checkIsGiaTue(nameInput) && !classInput) {
-    classInput = 'B2';
+  let cleanClass = (classInput || '')
+    .replace(/^(LỚP|LOP|CLASS)\s*/i, '')
+    .trim();
+  const noToneClass = removeVietnameseTones(cleanClass.toLowerCase()).replace(/[^a-z0-9]/g, '').toUpperCase();
+
+  if (checkIsGiaTue(nameInput) || noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
+    errorEl.textContent = 'Tài khoản học viên "Gia Tuệ" hiện đã bị KHÓA! Vui lòng liên hệ Giáo viên (Cô Nguyệt).';
+    errorEl.style.display = 'block';
+    return;
   }
+
   if (!classInput) {
     errorEl.textContent = 'Vui lòng nhập Mã lớp học!';
     errorEl.style.display = 'block';
     return;
   }
 
-  // Normalize class code (e.g., "Lớp CB210" -> "CB210", "Gia Tuệ (B2)" -> "B2")
-  let cleanClass = classInput
-    .replace(/^(LỚP|LOP|CLASS)\s*/i, '')
-    .trim();
-  const noToneClass = removeVietnameseTones(cleanClass.toLowerCase()).replace(/[^a-z0-9]/g, '').toUpperCase();
-  if (checkIsGiaTue(nameInput) || noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
-    cleanClass = 'B2';
-  } else if (noToneClass === '0NB103') {
+  if (noToneClass === '0NB103') {
     cleanClass = 'ONB103';
   } else {
     cleanClass = noToneClass;
   }
 
-  const ALLOWED_CLASS_KEYS = ['CB210', 'CB211', 'CB213', 'ONB103', '0NB103', 'B212', 'B2'];
+  const ALLOWED_CLASS_KEYS = ['CB210', 'CB211', 'CB213', 'ONB103', '0NB103', 'B212'];
   if (!ALLOWED_CLASS_KEYS.includes(cleanClass)) {
-    errorEl.textContent = 'Hệ thống hiện chỉ mở cho các lớp: CB210, CB211, CB213, ONB103, B212 và Gia Tuệ (B2)!';
+    errorEl.textContent = 'Hệ thống hiện chỉ mở cho các lớp: CB210, CB211, CB213, ONB103, B212!';
     errorEl.style.display = 'block';
     return;
   }
 
-  let matchedName = nameInput;
+      let matchedName = nameInput;
   const normInput = normalizeVietnameseName(nameInput);
   const noToneInput = removeVietnameseTones(normInput);
 
-  if (cleanClass === 'B2') {
-    if (!checkIsGiaTue(nameInput)) {
-      errorEl.textContent = 'Mã lớp B2 hiện chỉ dành riêng cho học viên Gia Tuệ (B2)! Vui lòng kiểm tra lại Họ tên hoặc Mã lớp.';
-      errorEl.style.display = 'block';
-      return;
-    }
-    matchedName = 'Gia Tuệ';
-    classInput = 'B2';
-  } else {
-    const roster = VALID_CLASSES[cleanClass] || [];
-    const found = roster.find(st => {
-      const normSt = normalizeVietnameseName(st);
-      const noToneSt = removeVietnameseTones(normSt);
-      return normSt === normInput || noToneSt === noToneInput;
-    });
+  const roster = VALID_CLASSES[cleanClass] || [];
+  const found = roster.find(st => {
+    const normSt = normalizeVietnameseName(st);
+    const noToneSt = removeVietnameseTones(normSt);
+    return normSt === normInput || noToneSt === noToneInput;
+  });
 
-    if (found) {
-      matchedName = found;
-      classInput = cleanClass;
-    } else if (checkIsGiaTue(nameInput)) {
-      matchedName = 'Gia Tuệ';
-      classInput = 'B2';
-    } else {
-      errorEl.textContent = `Họ và tên "${nameInput}" không có trong danh sách lớp ${cleanClass}. Vui lòng kiểm tra lại!`;
-      errorEl.style.display = 'block';
-      return;
-    }
+  if (found) {
+    matchedName = found;
+    classInput = cleanClass;
+  } else {
+    errorEl.textContent = 'Họ và tên "' + nameInput + '" không có trong danh sách lớp ' + cleanClass + '. Vui lòng kiểm tra lại!';
+    errorEl.style.display = 'block';
+    return;
   }
 
   if (!passInput) {
