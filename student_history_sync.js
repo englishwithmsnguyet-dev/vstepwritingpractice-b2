@@ -12,8 +12,8 @@
   'use strict';
 
   const DEFAULT_SYNC_API_URL =
-    'https://script.google.com/macros/s/AKfycbz735OePTK8ODIO_XFwznnRe1Ngy1RYdx56wmUdHYoSSub6Qzt2kX6WYKf7tIKlS-nY/exec';
-  const LS_URL_OVERRIDE_KEY = 'vstep_cb210_streak_api_url_override';
+    'https://script.google.com/macros/s/AKfycbz7GaRjy-YxM0ErwnEnTi50-_jjB3FhzKMAfU-bQLKurhHlGlqLNxuXlTp5WX4da9sN/exec';
+  const LS_URL_OVERRIDE_KEY = 'vstep_student_history_api_url_override';
 
   let pushTimer = null;
   let isDirtyForCloud = false;
