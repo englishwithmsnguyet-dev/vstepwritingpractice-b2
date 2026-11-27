@@ -24,6 +24,22 @@ const TEACHER_ADMIN_KEY = 'PTMN_VSTEP_2026';
 const SHEET_STUDENTS = 'HocVien_CB210';
 const SHEET_LOGS = 'NhatKyNopBai';
 const SHEET_CONFIG = 'CaiDat';
+const SHEET_STUDENT_HISTORY = 'LichSuHocVien';
+
+const HISTORY_HEADERS = [
+  'RecordKey',    // 0 (Col 1): <LEVEL>|<studentSlug> (VD: B1|nguyen_van_a)
+  'Level',        // 1 (Col 2): B1 | B2
+  'StudentKey',   // 2 (Col 3): nguyen_van_a
+  'FullName',     // 3 (Col 4): Họ tên học viên
+  'ClassCode',    // 4 (Col 5): Mã lớp
+  'EssaysCount',  // 5 (Col 6): Số bài luận đã nộp (Bước 4)
+  'PrepCount',    // 6 (Col 7): Số đề đã luyện Bước 1-2-3
+  'UpdatedAt',    // 7 (Col 8): Thời điểm đồng bộ cuối
+  'Chunk1',       // 8 (Col 9): JSON dữ liệu phần 1 (tối đa 45.000 ký tự)
+  'Chunk2',       // 9 (Col 10): JSON dữ liệu phần 2
+  'Chunk3',       // 10 (Col 11): JSON dữ liệu phần 3
+  'Chunk4'        // 11 (Col 12): JSON dữ liệu phần 4
+];
 
 // Danh sách cố định 15 học viên lớp CB210 (tự động khởi tạo vào Sheet)
 const CB210_ROSTER = [
@@ -419,11 +435,20 @@ function handleAction(params) {
   const lock = LockService.getScriptLock();
   lock.waitLock(12000);
   try {
-    const { studentSheet, logSheet, configSheet } = ensureSheets();
-    const cfg = readConfig(configSheet);
     const action = String(params.action || 'ping').trim();
     const today = getTodayVN();
     const nowStr = getNowVN();
+
+    // 0. ĐỒNG BỘ LỊCH SỬ HỌC VIÊN THEO TÊN (MỌI LỚP - B1 & B2)
+    if (action === 'getStudentHistory') {
+      return handleGetStudentHistory(params);
+    }
+    if (action === 'saveStudentHistory') {
+      return handleSaveStudentHistory(params, nowStr);
+    }
+
+    const { studentSheet, logSheet, configSheet } = ensureSheets();
+    const cfg = readConfig(configSheet);
 
     if (action === 'ping') {
       return { ok: true, message: 'CB210 Writing Streak API ready', today: today, config: cfg };
@@ -895,6 +920,266 @@ function handleAction(params) {
   } finally {
     lock.releaseLock();
   }
+}
+
+// ============================================================================
+// ĐỒNG BỘ LỊCH SỬ HỌC TẬP THEO TÊN HỌC VIÊN (MỌI LỚP - B1 & B2)
+// ============================================================================
+
+function ensureHistorySheet() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  let sheet = ss.getSheetByName(SHEET_STUDENT_HISTORY);
+  if (!sheet) {
+    sheet = ss.insertSheet(SHEET_STUDENT_HISTORY);
+  }
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(HISTORY_HEADERS);
+    sheet.getRange(1, 1, 1, HISTORY_HEADERS.length)
+      .setFontWeight('bold')
+      .setBackground('#0f766e')
+      .setFontColor('#ffffff');
+    sheet.setFrozenRows(1);
+    sheet.setColumnWidth(1, 180);
+    sheet.setColumnWidth(2, 60);
+    sheet.setColumnWidth(3, 150);
+    sheet.setColumnWidth(4, 200);
+    sheet.setColumnWidth(5, 90);
+    sheet.setColumnWidth(6, 95);
+    sheet.setColumnWidth(7, 95);
+    sheet.setColumnWidth(8, 160);
+  }
+  return sheet;
+}
+
+function findHistoryRow(sheet, recordKey) {
+  const lastRow = sheet.getLastRow();
+  if (lastRow < 2) return null;
+  const keys = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+  for (let i = 0; i < keys.length; i++) {
+    if (String(keys[i][0] || '').trim() === recordKey) {
+      const rowNum = i + 2;
+      const row = sheet.getRange(rowNum, 1, 1, HISTORY_HEADERS.length).getValues()[0];
+      return { rowNumber: rowNum, row: row };
+    }
+  }
+  return null;
+}
+
+function parseHistoryChunks(row) {
+  const raw = String(row[8] || '') + String(row[9] || '') + String(row[10] || '') + String(row[11] || '');
+  if (!raw.trim()) return null;
+  try {
+    return JSON.parse(raw);
+  } catch (e) {
+    return null;
+  }
+}
+
+function splitHistoryChunks(payloadObj) {
+  const CHUNK_SIZE = 45000;
+  const MAX_TOTAL = CHUNK_SIZE * 4;
+  let obj = payloadObj || {};
+  let str = JSON.stringify(obj);
+
+  if (str.length > MAX_TOTAL && Array.isArray(obj.history) && obj.history.length > 20) {
+    const trimmed = Object.assign({}, obj, { history: obj.history.slice(0, 40) });
+    str = JSON.stringify(trimmed);
+    if (str.length > MAX_TOTAL) {
+      trimmed.history = trimmed.history.slice(0, 20);
+      str = JSON.stringify(trimmed);
+    }
+  }
+
+  return [
+    str.slice(0, CHUNK_SIZE),
+    str.slice(CHUNK_SIZE, CHUNK_SIZE * 2),
+    str.slice(CHUNK_SIZE * 2, CHUNK_SIZE * 3),
+    str.slice(CHUNK_SIZE * 3, CHUNK_SIZE * 4)
+  ];
+}
+
+function mergeStudentPayloads(existing, incoming) {
+  const ex = (existing && typeof existing === 'object') ? existing : {};
+  const inc = (incoming && typeof incoming === 'object') ? incoming : {};
+
+  // 1. Merge history (Step 4 submissions) by id
+  const byId = {};
+  (Array.isArray(ex.history) ? ex.history : []).forEach(function (it) {
+    if (it && it.id) byId[String(it.id)] = it;
+  });
+  (Array.isArray(inc.history) ? inc.history : []).forEach(function (it) {
+    if (!it || !it.id) return;
+    const sid = String(it.id);
+    if (!byId[sid]) {
+      byId[sid] = it;
+    } else {
+      const merged = Object.assign({}, byId[sid], it);
+      if (String(byId[sid].content || '').length > String(it.content || '').length) {
+        merged.content = byId[sid].content;
+      }
+      byId[sid] = merged;
+    }
+  });
+  const history = Object.keys(byId).map(function (k) { return byId[k]; })
+    .sort(function (a, b) { return (Number(b.id) || 0) - (Number(a.id) || 0); })
+    .slice(0, 60);
+
+  // 2. Merge drafts by updatedAt
+  const drafts = Object.assign({}, ex.drafts || {});
+  const incDrafts = inc.drafts || {};
+  Object.keys(incDrafts).forEach(function (k) {
+    const cd = incDrafts[k];
+    if (!cd || typeof cd !== 'object') return;
+    const ed = drafts[k];
+    if (!ed || Number(cd.updatedAt || 0) >= Number(ed.updatedAt || 0)) {
+      drafts[k] = cd;
+    }
+  });
+
+  // 3. Merge Step 1-2-3 prep progress (always keep max seconds & OR booleans)
+  const prep = Object.assign({}, ex.prep || {});
+  const incPrep = inc.prep || {};
+  Object.keys(incPrep).forEach(function (k) {
+    const cp = incPrep[k];
+    if (!cp || typeof cp !== 'object') return;
+    const ep = prep[k] || {};
+    prep[k] = {
+      readSec: Math.max(Number(ep.readSec || 0), Number(cp.readSec || 0)),
+      vocabSec: Math.max(Number(ep.vocabSec || 0), Number(cp.vocabSec || 0)),
+      transSec: Math.max(Number(ep.transSec || 0), Number(cp.transSec || 0)),
+      readDone: Boolean(ep.readDone || cp.readDone),
+      vocabDone: Boolean(ep.vocabDone || cp.vocabDone)
+    };
+  });
+
+  // 4. Merge Step 3 translation states
+  const trans = Object.assign({}, ex.trans || {});
+  const incTrans = inc.trans || {};
+  Object.keys(incTrans).forEach(function (k) {
+    const ct = incTrans[k];
+    if (!ct || typeof ct !== 'object') return;
+    const et = trans[k] || {};
+    const mergedT = {};
+    const inputVal = (ct.input && String(ct.input).trim()) ? String(ct.input) : (et.input ? String(et.input) : '');
+    if (inputVal) mergedT.input = inputVal;
+    if (et.checked || ct.checked) mergedT.checked = true;
+    if (et.attempted || ct.attempted) mergedT.attempted = true;
+    if (et.correct || ct.correct) mergedT.correct = true;
+    trans[k] = mergedT;
+  });
+
+  // 5. Merge stick / unstick
+  const exStickTime = Number(ex.stickUpdatedAt || 0);
+  const incStickTime = Number(inc.stickUpdatedAt || 0);
+  let stick = Array.isArray(ex.stick) ? ex.stick : [];
+  let unstick = Array.isArray(ex.unstick) ? ex.unstick : [];
+  let stickUpdatedAt = exStickTime;
+  if (incStickTime >= exStickTime && (Array.isArray(inc.stick) || Array.isArray(inc.unstick))) {
+    stick = Array.isArray(inc.stick) ? inc.stick : stick;
+    unstick = Array.isArray(inc.unstick) ? inc.unstick : unstick;
+    stickUpdatedAt = incStickTime;
+  }
+
+  return {
+    history: history,
+    drafts: drafts,
+    prep: prep,
+    trans: trans,
+    stick: stick,
+    unstick: unstick,
+    stickUpdatedAt: stickUpdatedAt
+  };
+}
+
+function handleGetStudentHistory(params) {
+  const studentName = String(params.studentName || params.name || '').trim();
+  const level = String(params.level || 'B1').trim().toUpperCase() === 'B2' ? 'B2' : 'B1';
+  if (!studentName) return { ok: false, error: 'Missing studentName' };
+
+  const studentKey = slugifyName(studentName);
+  const recordKey = level + '|' + studentKey;
+  const sheet = ensureHistorySheet();
+  const found = findHistoryRow(sheet, recordKey);
+  if (!found) {
+    return { ok: true, found: false, recordKey: recordKey, studentKey: studentKey };
+  }
+  const data = parseHistoryChunks(found.row);
+  return {
+    ok: true,
+    found: Boolean(data),
+    recordKey: recordKey,
+    studentKey: studentKey,
+    fullName: String(found.row[3] || studentName),
+    classCode: String(found.row[4] || ''),
+    essaysCount: Number(found.row[5] || 0),
+    prepCount: Number(found.row[6] || 0),
+    updatedAt: String(found.row[7] || ''),
+    data: data
+  };
+}
+
+function handleSaveStudentHistory(params, nowStr) {
+  const studentName = String(params.studentName || params.name || '').trim();
+  const classCode = String(params.classCode || '').trim().toUpperCase();
+  const level = String(params.level || 'B1').trim().toUpperCase() === 'B2' ? 'B2' : 'B1';
+  if (!studentName) return { ok: false, error: 'Missing studentName' };
+
+  let incoming = params.payload;
+  if (typeof incoming === 'string') {
+    try {
+      incoming = JSON.parse(incoming);
+    } catch (e) {
+      return { ok: false, error: 'Invalid JSON payload' };
+    }
+  }
+  if (!incoming || typeof incoming !== 'object') {
+    return { ok: false, error: 'Missing payload' };
+  }
+
+  const studentKey = slugifyName(studentName);
+  const recordKey = level + '|' + studentKey;
+  const sheet = ensureHistorySheet();
+  const found = findHistoryRow(sheet, recordKey);
+  const existing = found ? parseHistoryChunks(found.row) : null;
+  const merged = mergeStudentPayloads(existing, incoming);
+  const chunks = splitHistoryChunks(merged);
+  const essaysCount = Array.isArray(merged.history) ? merged.history.length : 0;
+  const prepCount = merged.prep ? Object.keys(merged.prep).length : 0;
+
+  const rowValues = [
+    recordKey,
+    level,
+    studentKey,
+    studentName,
+    classCode || (found ? String(found.row[4] || '') : ''),
+    essaysCount,
+    prepCount,
+    nowStr,
+    chunks[0],
+    chunks[1],
+    chunks[2],
+    chunks[3]
+  ];
+
+  if (found) {
+    const range = sheet.getRange(found.rowNumber, 1, 1, HISTORY_HEADERS.length);
+    sheet.getRange(found.rowNumber, 9, 1, 4).setNumberFormat('@');
+    range.setValues([rowValues]);
+  } else {
+    sheet.appendRow(rowValues);
+    const newRowNum = sheet.getLastRow();
+    sheet.getRange(newRowNum, 9, 1, 4).setNumberFormat('@');
+    sheet.getRange(newRowNum, 9, 1, 4).setValues([[chunks[0], chunks[1], chunks[2], chunks[3]]]);
+  }
+
+  return {
+    ok: true,
+    saved: true,
+    recordKey: recordKey,
+    essaysCount: essaysCount,
+    prepCount: prepCount,
+    updatedAt: nowStr
+  };
 }
 
 function doGet(e) {

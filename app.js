@@ -83,13 +83,50 @@ function escapeHtml(str) {
     .replace(/'/g, '&#039;');
 }
 
+// --- Per-Student Storage Key Helpers (isolated & cloud-synced by student name) ---
+function getStudentHistoryKey() {
+  return (window.StudentHistorySync && typeof window.StudentHistorySync.getHistoryKey === 'function')
+    ? window.StudentHistorySync.getHistoryKey()
+    : 'writing_history';
+}
+
+function getStudentDraftKey(catId, topicId) {
+  return (window.StudentHistorySync && typeof window.StudentHistorySync.getDraftKey === 'function')
+    ? window.StudentHistorySync.getDraftKey(catId, topicId)
+    : `draft_${catId}_${topicId}`;
+}
+
+function getStudentDraftPrefix() {
+  return (window.StudentHistorySync && typeof window.StudentHistorySync.getDraftPrefix === 'function')
+    ? window.StudentHistorySync.getDraftPrefix()
+    : 'draft_';
+}
+
+function getStudentTransKey(type, catId, topicId, level, idx) {
+  return (window.StudentHistorySync && typeof window.StudentHistorySync.getTransKey === 'function')
+    ? window.StudentHistorySync.getTransKey(type, catId, topicId, level, idx)
+    : `trans_${type}_${catId}_${topicId}_${level}_${idx}`;
+}
+
+function getStudentTransTopicPrefix(type, catId, topicId) {
+  return (window.StudentHistorySync && typeof window.StudentHistorySync.getTransTopicPrefix === 'function')
+    ? window.StudentHistorySync.getTransTopicPrefix(type, catId, topicId)
+    : `trans_${type}_${catId}_${topicId}_`;
+}
+
 // --- Stick / Checkmark Topic Feature ---
 function getStudentStickKey() {
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.getStickKey === 'function') {
+    return window.StudentHistorySync.getStickKey();
+  }
   const userName = (sessionStorage.getItem('current_user_name') || 'default').trim().toLowerCase();
   return `vstep_stick_topics_${userName}`;
 }
 
 function getStudentUnstickKey() {
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.getUnstickKey === 'function') {
+    return window.StudentHistorySync.getUnstickKey();
+  }
   const userName = (sessionStorage.getItem('current_user_name') || 'default').trim().toLowerCase();
   return `vstep_unstick_topics_${userName}`;
 }
@@ -156,6 +193,9 @@ function toggleTopicStick(catId, topicId, event) {
     showToast(`Đã đánh dấu hoàn thành: Đề ${topicId} ✓`, 'success');
   }
 
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.recordStickChange === 'function') {
+    window.StudentHistorySync.recordStickChange();
+  }
   updateStats();
   if (currentScreen === 'category') {
     const searchVal = document.getElementById('search-input-field') ? document.getElementById('search-input-field').value : '';
@@ -1147,8 +1187,8 @@ function startPractice(catId, topicId) {
   renderOutline();
   renderVietnameseOutline();
   
-  // Load full essay draft if exists
-  const draftKey = `draft_${catId}_${topicId}`;
+  // Load full essay draft if exists (per student)
+  const draftKey = getStudentDraftKey(catId, topicId);
   const savedDraft = localStorage.getItem(draftKey);
   const textarea = document.getElementById('essay-textarea');
   if (savedDraft) {
@@ -2817,9 +2857,9 @@ function renderTranslationExercises() {
     const card = document.createElement('div');
     card.className = 'translation-card';
     
-    // Check local storage for persistent values
-    const inputKey = `trans_input_${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
-    const checkedKey = `trans_checked_${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
+    // Check local storage for persistent values (per student)
+    const inputKey = getStudentTransKey('input', currentCategory.id, currentTopic.id, currentTransLevel, idx);
+    const checkedKey = getStudentTransKey('checked', currentCategory.id, currentTopic.id, currentTransLevel, idx);
     
     const savedInput = localStorage.getItem(inputKey) || '';
     const isChecked = localStorage.getItem(checkedKey) === 'true';
@@ -2902,9 +2942,19 @@ function renderTranslationExercises() {
   container.appendChild(footerDiv);
 }
 
-// Mark progress as unsaved when typing translation
+// Auto-save translation input per student as they type
 function saveTransInput(idx) {
   isDirty = true;
+  try {
+    const inputEl = document.getElementById(`trans-input-${idx}`);
+    if (inputEl && currentCategory && currentTopic) {
+      const inputKey = getStudentTransKey('input', currentCategory.id, currentTopic.id, currentTransLevel, idx);
+      localStorage.setItem(inputKey, inputEl.value);
+      if (window.StudentHistorySync && typeof window.StudentHistorySync.schedulePush === 'function') {
+        window.StudentHistorySync.schedulePush(false);
+      }
+    }
+  } catch (e) {}
 }
 
 // Check translation card and reveal correct answer with VSTEP grammar/semantic checks
@@ -2919,7 +2969,7 @@ function checkTranslation(idx) {
   
   const modelAnswer = exercises[idx] ? exercises[idx].en : "";
   
-  const checkedKey = `trans_checked_${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
+  const checkedKey = getStudentTransKey('checked', currentCategory.id, currentTopic.id, currentTransLevel, idx);
   const isChecked = localStorage.getItem(checkedKey) === 'true';
   
   // Evaluate the student's text
@@ -2953,11 +3003,15 @@ function checkTranslation(idx) {
   // Track real typed attempt (>= 3 English words) so students cannot empty-click to bypass Step 3
   const typedWords = (userInput || '').trim().split(/\s+/).filter(w => /[a-zA-Z]/.test(w)).length;
   const transKey = `${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
+  const inputKey = getStudentTransKey('input', currentCategory.id, currentTopic.id, currentTransLevel, idx);
+  if (userInput && userInput.trim()) {
+    localStorage.setItem(inputKey, userInput);
+  }
   if (typedWords >= 3) {
-    localStorage.setItem(`trans_attempted_${transKey}`, 'true');
+    localStorage.setItem(getStudentTransKey('attempted', currentCategory.id, currentTopic.id, currentTransLevel, idx), 'true');
     if (sessionTracking.isLoggedIn && currentCategory && currentTopic) {
       sessionTracking.transResults[transKey] = { isCorrect: Boolean(evalResult.isCorrect) };
-      localStorage.setItem(`trans_correct_${transKey}`, evalResult.isCorrect ? 'true' : 'false');
+      localStorage.setItem(getStudentTransKey('correct', currentCategory.id, currentTopic.id, currentTransLevel, idx), evalResult.isCorrect ? 'true' : 'false');
       const transStats = getTranslationSessionStats(currentTopic, currentCategory, currentTransLevel);
       if (transStats.topicTotal > 0 && transStats.topicAttempted === transStats.topicTotal) {
         reportTranslationProgressIfAny();
@@ -2965,6 +3019,9 @@ function checkTranslation(idx) {
     }
     if (typeof checkAndNotifyWriteStepUnlocked === 'function') {
       checkAndNotifyWriteStepUnlocked();
+    }
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.schedulePush === 'function') {
+      window.StudentHistorySync.schedulePush(true);
     }
   } else if (!isChecked) {
     showToast("⚠️ Bạn cần tự gõ câu dịch tiếng Anh (ít nhất 3 từ) rồi bấm Kiểm tra mới được tính hoàn thành câu này để mở khóa Bước 04!", "warning");
@@ -5120,25 +5177,31 @@ function updateTimerDisplay() {
 function saveProgressAction(silent = false) {
   if (!currentCategory || !currentTopic) return;
   
-  // 1. Save all Step 2 translation inputs
+  // 1. Save all Step 3 translation inputs (per student)
   const inputs = document.querySelectorAll('.trans-input-area');
   inputs.forEach((input) => {
     const parts = input.id.split('-');
     if (parts.length === 3) {
       const idx = parts[2];
       const text = input.value;
-      const inputKey = `trans_input_${currentCategory.id}_${currentTopic.id}_${currentTransLevel}_${idx}`;
+      const inputKey = getStudentTransKey('input', currentCategory.id, currentTopic.id, currentTransLevel, idx);
       localStorage.setItem(inputKey, text);
     }
   });
 
-  // 2. Save Step 3 essay textarea
+  // 2. Save Step 4 essay textarea (per student)
   const text = document.getElementById('essay-textarea').value;
   if (text.trim() || inputs.length > 0) {
-    const key = `draft_${currentCategory.id}_${currentTopic.id}`;
+    const key = getStudentDraftKey(currentCategory.id, currentTopic.id);
     if (text.trim()) {
       localStorage.setItem(key, text);
+      if (window.StudentHistorySync && typeof window.StudentHistorySync.recordDraftChange === 'function') {
+        window.StudentHistorySync.recordDraftChange(currentCategory.id, currentTopic.id, false);
+      }
     }
+  }
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.schedulePush === 'function') {
+    window.StudentHistorySync.schedulePush(true);
   }
   
   // Update UI and state
@@ -5154,26 +5217,30 @@ function clearProgressAction() {
   if (!currentCategory || !currentTopic) return;
   
   if (confirm("Bạn có chắc chắn muốn xóa toàn bộ bản lưu và nội dung hiện tại của đề bài này? Hành động này không thể khôi phục.")) {
-    // 1. Clear Step 2 DOM and localStorage
+    // 1. Clear Step 3 DOM and localStorage (per student)
     const inputs = document.querySelectorAll('.trans-input-area');
     inputs.forEach((input) => {
       input.value = '';
     });
 
+    const transPrefix = getStudentTransTopicPrefix('input', currentCategory.id, currentTopic.id);
     for (let i = localStorage.length - 1; i >= 0; i--) {
       const k = localStorage.key(i);
-      if (k && k.startsWith(`trans_input_${currentCategory.id}_${currentTopic.id}_`)) {
+      if (k && k.startsWith(transPrefix)) {
         localStorage.removeItem(k);
       }
     }
 
-    // 2. Clear Step 3 DOM and localStorage
+    // 2. Clear Step 4 DOM and localStorage (per student)
     const textarea = document.getElementById('essay-textarea');
     if (textarea) {
       textarea.value = '';
     }
-    const key = `draft_${currentCategory.id}_${currentTopic.id}`;
+    const key = getStudentDraftKey(currentCategory.id, currentTopic.id);
     localStorage.removeItem(key);
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.recordDraftChange === 'function') {
+      window.StudentHistorySync.recordDraftChange(currentCategory.id, currentTopic.id, true);
+    }
     
     // 3. Update UI and State
     isDirty = false;
@@ -6447,8 +6514,11 @@ function submitEssay(forceSubmit = false) {
     }
     updateStats();
     if (currentCategory && currentTopic) {
-      const draftKey = `draft_${currentCategory.id}_${currentTopic.id}`;
+      const draftKey = getStudentDraftKey(currentCategory.id, currentTopic.id);
       localStorage.removeItem(draftKey);
+      if (window.StudentHistorySync && typeof window.StudentHistorySync.recordDraftChange === 'function') {
+        window.StudentHistorySync.recordDraftChange(currentCategory.id, currentTopic.id, true);
+      }
     }
   } catch (e) {
     console.warn("Storage warning in submitEssay:", e);
@@ -7551,7 +7621,10 @@ function updateStudentResultReportCard(aiData) {
       const latest = history[0];
       if (latest && Number(latest.topicId) === Number(currentTopic.id)) {
         latest.score = aiScore;
-        localStorage.setItem('writing_history', JSON.stringify(history));
+        localStorage.setItem(getStudentHistoryKey(), JSON.stringify(history));
+        if (window.StudentHistorySync && typeof window.StudentHistorySync.schedulePush === 'function') {
+          window.StudentHistorySync.schedulePush(true);
+        }
       }
     }
     if (typeof updateWorkspaceStickBadge === 'function') updateWorkspaceStickBadge();
@@ -7618,6 +7691,9 @@ const sessionTracking = {
 };
 
 function getStepProgressStorageKey(catId, topicId) {
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.getPrepKey === 'function') {
+    return window.StudentHistorySync.getPrepKey(catId, topicId);
+  }
   const u = normalizeVietnameseName(sessionStorage.getItem('current_user_name') || 'guest');
   return `vstep_prep_${u}_${catId}_${topicId}`;
 }
@@ -7641,6 +7717,9 @@ function loadTopicPrepProgress(catId, topicId) {
 function saveTopicPrepProgress(catId, topicId, prog) {
   try {
     localStorage.setItem(getStepProgressStorageKey(catId, topicId), JSON.stringify(prog));
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.schedulePush === 'function') {
+      window.StudentHistorySync.schedulePush(false);
+    }
   } catch (e) {}
 }
 
@@ -7662,15 +7741,16 @@ function getTopicTransCompletionStats(catId, topicId, topic, level) {
   let attempted = 0;
   let correct = 0;
   if (topic && currentCategory && typeof buildTranslationExercises === 'function') {
-    const exercises = buildTranslationExercises(topic, level || currentTransLevel || 'B2', currentCategory);
+    const effLevel = level || currentTransLevel || 'B2';
+    const exercises = buildTranslationExercises(topic, effLevel, currentCategory);
     total = exercises.length;
     for (let i = 0; i < total; i++) {
-      const k = `${catId}_${topicId}_${level || currentTransLevel || 'B2'}_${i}`;
-      const hasAttempt = localStorage.getItem(`trans_attempted_${k}`) === 'true' ||
+      const k = `${catId}_${topicId}_${effLevel}_${i}`;
+      const hasAttempt = localStorage.getItem(getStudentTransKey('attempted', catId, topicId, effLevel, i)) === 'true' ||
         Boolean(sessionTracking.transResults[k]);
       if (hasAttempt) {
         attempted++;
-        if (localStorage.getItem(`trans_correct_${k}`) === 'true' ||
+        if (localStorage.getItem(getStudentTransKey('correct', catId, topicId, effLevel, i)) === 'true' ||
             (sessionTracking.transResults[k] && sessionTracking.transResults[k].isCorrect)) {
           correct++;
         }
@@ -8907,9 +8987,9 @@ function closeFeedbackPane() {
   document.getElementById('workspace-layout-container').classList.remove('submitted');
 }
 
-// --- History / Submission Storage ---
+// --- History / Submission Storage (per student + cloud synced) ---
 function getHistory() {
-  const history = localStorage.getItem("writing_history");
+  const history = localStorage.getItem(getStudentHistoryKey());
   return history ? JSON.parse(history) : [];
 }
 
@@ -8934,7 +9014,7 @@ function saveSubmission(score, wordCount, content) {
     };
     
     history.unshift(submission); // Add to beginning
-    localStorage.setItem("writing_history", JSON.stringify(history));
+    localStorage.setItem(getStudentHistoryKey(), JSON.stringify(history));
 
     // Clear unstick record so submitted topic is permanently recognized as written
     if (currentCategory && currentTopic) {
@@ -8943,8 +9023,14 @@ function saveSubmission(score, wordCount, content) {
       if (unstickList.includes(topicKey)) {
         unstickList = unstickList.filter(k => k !== topicKey);
         localStorage.setItem(getStudentUnstickKey(), JSON.stringify(unstickList));
+        if (window.StudentHistorySync && typeof window.StudentHistorySync.recordStickChange === 'function') {
+          window.StudentHistorySync.recordStickChange();
+        }
       }
       updateWorkspaceStickBadge();
+    }
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.schedulePush === 'function') {
+      window.StudentHistorySync.schedulePush(true);
     }
     updateStats();
   } catch (err) {
@@ -9090,12 +9176,13 @@ function renderDrafts() {
   container.innerHTML = '';
   
   const drafts = [];
+  const draftPrefix = getStudentDraftPrefix();
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
-    if (key.startsWith("draft_")) {
-      const parts = key.split("_");
-      const catId = parseInt(parts[1]);
-      const topicId = parseInt(parts[2]);
+    if (key && key.startsWith(draftPrefix)) {
+      const parts = key.slice(draftPrefix.length).split("_");
+      const catId = parseInt(parts[0]);
+      const topicId = parseInt(parts[1]);
       const text = localStorage.getItem(key);
       
       const category = ESSAY_DATA.find(cat => cat.id === catId);
@@ -9159,6 +9246,13 @@ function renderDrafts() {
 function deleteDraft(key) {
   if (confirm("Bạn có chắc chắn muốn xóa bản nháp này?")) {
     localStorage.removeItem(key);
+    const draftPrefix = getStudentDraftPrefix();
+    if (key && key.startsWith(draftPrefix) && window.StudentHistorySync && typeof window.StudentHistorySync.recordDraftChange === 'function') {
+      const parts = key.slice(draftPrefix.length).split('_');
+      if (parts.length === 2) {
+        window.StudentHistorySync.recordDraftChange(parts[0], parts[1], true);
+      }
+    }
     renderDrafts();
     updateStats();
     showToast("Đã xóa bản nháp thành công.", "success");
@@ -9186,11 +9280,12 @@ function updateStats() {
     const elCompleted = document.getElementById('stat-completed-count');
     if (elCompleted) elCompleted.innerText = totalUniqueWritten;
     
-    // 2. Drafts count
+    // 2. Drafts count (per student)
     let draftsCount = 0;
+    const draftPrefix = getStudentDraftPrefix();
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
-      if (k && k.startsWith("draft_")) draftsCount++;
+      if (k && k.startsWith(draftPrefix)) draftsCount++;
     }
     const elDrafts = document.getElementById('stat-draft-count');
     if (elDrafts) elDrafts.innerText = draftsCount;
@@ -10236,6 +10331,9 @@ document.addEventListener('DOMContentLoaded', () => {
     updateClassAccessUI();
   }
   updateStudentProfileDisplay();
+  if (savedName && window.StudentHistorySync && typeof window.StudentHistorySync.pullFromCloud === 'function') {
+    window.StudentHistorySync.pullFromCloud(savedName, savedClass || '');
+  }
 
   // Anti-cheat: tab switch & window blur detection (giám sát nghiêm ngặt khi chuyển tab hoặc rời ứng dụng)
   let essayBlurTimeout = null;
@@ -10578,6 +10676,9 @@ async function submitGatewayAccess() {
     }
     updateClassAccessUI();
     updateStudentProfileDisplay();
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.pullFromCloud === 'function') {
+      window.StudentHistorySync.pullFromCloud(teacherName, 'GV');
+    }
     startSessionTracking(teacherName, classInput || 'GV', true);
     if (window.CB210StreakGuard && typeof window.CB210StreakGuard.onTeacherLoggedIn === 'function') {
       window.CB210StreakGuard.onTeacherLoggedIn();
@@ -10713,6 +10814,9 @@ async function submitGatewayAccess() {
   }
   updateClassAccessUI();
   updateStudentProfileDisplay();
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.pullFromCloud === 'function') {
+    window.StudentHistorySync.pullFromCloud(matchedName, classInput);
+  }
   startSessionTracking(matchedName, classInput, false);
   renderDashboard();
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
@@ -10749,6 +10853,9 @@ function updateStudentProfileDisplay() {
 
 function reopenGateway() {
   if (confirm('Bạn có muốn đăng xuất và đổi thông tin tài khoản không?')) {
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.flushOnExit === 'function') {
+      window.StudentHistorySync.flushOnExit();
+    }
     sendExitSessionReport('logout');
     sessionStorage.removeItem('current_user_name');
     sessionStorage.removeItem('current_user_class');
